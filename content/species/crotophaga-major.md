@@ -2,6 +2,7 @@
 id: crotophaga-major
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глаз белый, хорошо заметный на чёрной голове"
   - "Клюв массивный, сжатый с боков, с горбом на надклювье"
@@ -11,8 +12,8 @@ similar:
   - id: crotophaga-ani
     how: "заметно мельче, глаз тёмный, оперение матовое без блеска, держится на пастбищах, а не у воды"
   - id: quiscalus-mexicanus
-    how: "клюв тонкий и острый, без горба; глаз жёлтый, ходит по земле в городе и у пляжа"
-behavior: "Шумными группами пробирается по прибрежным кустам, манграм и опушкам у рек, перелетает по одной птице вслед за остальными. Часто сидит на солнце с раскрытыми крыльями."
+    how: "клюв тонкий и острый, без горба; глаз ярко-жёлтый, самка бурая; ходит по земле в городе и у пляжа"
+behavior: "Шумными группами пробирается по прибрежным кустам, манграм и опушкам у рек, перелетает по одной птице вслед за остальными."
 voice: "Булькающее гоготание «кро-коро» в хоре всей группы, а также хриплое кваканье."
 traits:
   size: crow
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Greater ani (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/crotophaga-major.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Smooth-billed ani (en/es), Great-tailed grackle (en: жёлтый глаз у обоих полов), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "White eye, obvious on the black head"
@@ -35,8 +37,8 @@ en:
     - id: crotophaga-ani
       how: "clearly smaller, dark eye, dull plumage without gloss; keeps to pastures rather than water"
     - id: quiscalus-mexicanus
-      how: "thin pointed bill without a hump; yellow eye; walks on the ground in town and on beaches"
-  behavior: "Noisy groups work through waterside shrubs, mangroves and river edges, following one another across gaps one bird at a time. Often suns itself with wings spread."
+      how: "thin pointed bill without a hump; bright yellow eye, brown female; walks on the ground in town and on beaches"
+  behavior: "Noisy groups work through waterside shrubs, mangroves and river edges, following one another across gaps one bird at a time."
   voice: "A bubbling gobbling 'kro-koro' chorus from the whole group, and hoarse croaks."
 ---
 Greater Ani (большая ани) — крупная кукушка низин, почти всегда у воды: мангры, заросшие берега рек и стариц, полуоткрытые леса, обычно ниже 500 м. Её узнают по сочетанию: вся чёрная с блеском, длинный хвост, горбатый клюв и светлый глаз, которого нет у обычной Smooth-billed Ani. Группа держится вместе, и если видна одна птица, рядом почти наверняка ещё несколько.

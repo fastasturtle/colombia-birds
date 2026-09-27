@@ -2,6 +2,7 @@
 id: opisthocomus-hoazin
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохол из торчащих рыжих перьев на маленькой голове"
   - "Лицо голое, синее, глаз тёмно-красный"
@@ -10,7 +11,7 @@ key_features:
   - "Шумные группы на кустах над стоячей водой"
 similar:
   - id: ortalis-guttata
-    how: "без хохла и синего лица, голова серая, грудь в светлых чешуйках, держится в лесу, а не над водой"
+    how: "без хохла, у глаза лишь узкое пятно сизой кожи, голова сероватая, тёмная грудь в белых крапинах"
 behavior: "Группами сидит в прибрежных кустах и деревьях над старицами и болотами, почти не летает и неуклюже перепархивает с ветки на ветку. Кормится листьями, которые переваривает, как жвачное, отсюда резкий запах."
 voice: "Хриплое шипение, стоны, кряхтение и сипение, часто с раскрытыми крыльями."
 traits:
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/opisthocomus-hoazin.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/opisthocomidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Hoatzin (es/ru), Speckled chachalaca (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "A crest of spiky rufous feathers on a small head"
@@ -34,7 +36,7 @@ en:
     - "Noisy groups in shrubs over still water"
   similar:
     - id: ortalis-guttata
-      how: "no crest or blue face, gray head, pale-scaled breast; keeps to forest rather than over water"
+      how: "no crest, only a small patch of slate-blue skin around the eye, grayish head, dark breast with white speckles"
   behavior: "Sits in groups in waterside shrubs and trees over oxbows and swamps, rarely flies and clambers clumsily from branch to branch. Feeds on leaves, fermenting them like a ruminant, hence its strong smell."
   voice: "Hoarse hisses, groans, grunts and wheezes, often with wings spread."
 ---
