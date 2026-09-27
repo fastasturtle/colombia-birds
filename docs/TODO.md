@@ -42,7 +42,8 @@
 ## Сайт
 - [x] Кнопка «сообщить об ошибке»: `worker/` + `.github/workflows/worker.yml` + `site/src/components/ReportButton.svelte` (скилл `.claude/skills/error-reports`)
   - [x] Интеграция с книгой Lynx «Birds of Colombia» (Hilty 2021): указатель, литература и индекс семейств транскрибированы в `pipeline/sources/lynx/`, шаг `lynx` → `data/lynx_pages.json`, страница показана на карточке вида и семейства
-  - [ ] Lynx: разобрать виды без страницы (`data/sources/lynx_report.md`, раздел Unmatched) — добавить маппинги в `pipeline/mappings/lynx_names.json` или подтвердить, что вида в книге нет
+  - [ ] Lynx: 20 видов без страницы (`data/sources/lynx_report.md`, раздел Unmatched) — по фото указателя их в книге нет (залётные, интродуценты, Thinocoridae, свежие сплиты: Great-billed / Black-billed Seed-Finch, Stripe-cheeked Woodpecker и др.); *Myiopagis caniceps* — книга делит на Amazonian (386) и Choco Grey Elaenia (387), выбрать. Проверить `aco_to_ebird` для *Contopus cinereus* и *Myiopagis caniceps*
+  - [ ] Lynx: 3 конфликта страниц — так напечатано в книге (Masked Trogon 202/203, Amazonian Antshrike 275/276, Black-collared Jay 423/422), берём латинскую
   - [ ] Lynx: при случае досфотографировать с. 592–604 (испанский указатель, указатель групп) и с. 558
 - [x] Фото на весь экран по тапу (лайтбокс, свайп, Esc), к источнику только по явной ссылке
 - [x] Каркас Astro 7 + Svelte: семейства, список видов с поиском и фильтрами, карточка вида, маршрут с картой и профилем высот
