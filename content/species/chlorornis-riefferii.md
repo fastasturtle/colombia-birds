@@ -2,6 +2,7 @@
 id: chlorornis-riefferii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение сочно-травянисто-зелёное, почти без оттенков"
   - "Лицо спереди каштаново-красное, как маска, подхвостье того же цвета"
@@ -9,7 +10,7 @@ key_features:
   - "Крупная плотная танагра, сидит почти горизонтально"
 similar:
   - id: chlorochrysa-calliparaea
-    how: "вдвое мельче, клюв тёмный, оранжевое пятно только на боку шеи, подхвостье зелёное"
+    how: "намного мельче, клюв тёмный, лицо зелёное: оранжевые только пятно на боку шеи, точка на темени и поясница; брюхо синеватое"
 behavior: "Держится парами и группами по 3–6 птиц, часто в микст-флоках, в верхней половине невысоких деревьев и на опушках. Движется неторопливо, подолгу сидит на месте, кормится ягодами и насекомыми."
 voice: "Сухое гнусавое «энк» или «эк», иногда серией; песня быстрая, из тех же носовых нот."
 traits:
@@ -32,7 +33,7 @@ en:
     - "Large, heavy tanager that perches almost horizontally"
   similar:
     - id: chlorochrysa-calliparaea
-      how: "half the size, dark bill, orange only as a patch on the side of the neck, undertail green"
+      how: "much smaller, dark bill, green face: orange only on a neck-side patch, a crown spot and the rump; belly bluish"
   behavior: "Travels in pairs and groups of 3–6, often in mixed flocks, in the upper half of low trees and at edges. Moves unhurriedly and sits still for long spells, feeding on berries and insects."
   voice: "A dry nasal 'enk' or 'eck', sometimes in series; the song is fast and made of the same nasal notes."
 ---

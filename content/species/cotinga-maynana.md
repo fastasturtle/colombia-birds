@@ -2,6 +2,7 @@
 id: cotinga-maynana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: ровно бирюзово-голубой, на горле небольшое сливово-пурпурное пятно"
   - "Глаз жёлтый у обоих полов, заметен в бинокль"
@@ -11,7 +12,7 @@ similar:
   - id: cotinga-cayana
     how: "бирюзовый с чёрными основаниями перьев («в блёстках»), пятно на горле крупнее и винно-красное, глаз тёмный"
 behavior: "Сидит на открытых сухих ветках на вершинах деревьев над пологом, парами или небольшими группами. Кормится плодами омелы, пальм и фикусов."
-voice: "Почти молчалива; в полёте крылья самца могут тихо свистеть."
+voice: "Почти молчалива; изредка тихое глухое нисходящее «пуу», в токовом полёте крылья самца трещат или посвистывают."
 traits:
   size: thrush
   colors: [blue, purple]
@@ -34,7 +35,7 @@ en:
     - id: cotinga-cayana
       how: "turquoise with black feather bases ('spangled'), larger wine-red throat patch, dark eye"
   behavior: "Perches on bare dead branches atop trees above the canopy, in pairs or small groups. Feeds on mistletoe, palm and fig fruit."
-  voice: "Nearly silent; the male's wings may whistle softly in flight."
+  voice: "Nearly silent; occasionally a quiet, hollow, descending 'pooh'; in display flight the male's wings sputter or whistle."
 ---
 Plum-throated Cotinga (желтоглазая котинга) — котинга верхней Амазонии, в Колумбии до 700 м, во влажном низинном лесу и у рек. Самец на солнце горит бирюзой, в пасмурный день выглядит просто голубым. Лучшая примета против Spangled Cotinga — светлый глаз и ровный, без блёсток, голубой тон.
 

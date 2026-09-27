@@ -2,6 +2,7 @@
 id: bangsia-rothschildi
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся глянцево-сине-чёрная, в тени кажется просто чёрной"
   - "Ярко-золотое пятно на груди и золотое подхвостье"
@@ -10,8 +11,8 @@ key_features:
 similar:
   - id: bangsia-edwardsi
     how: "спина мохово-зелёная, на чёрной голове синяя «щека», низ оливковый с золотым пятном посередине"
-behavior: "Держится в среднем ярусе и подкроновом пространстве сырого предгорного леса и на опушках, чаще парами. Подолгу сидит неподвижно, кормится плодами и иногда пристаёт к микст-флокам."
-voice: "Высокие тонкие посвисты и трели; в определении важнее вид птицы, чем голос."
+behavior: "Держится в среднем ярусе и подкроновом пространстве сырого предгорного леса и на опушках, чаще парами. Кормится плодами и иногда пристаёт к микст-флокам."
+voice: "Голос неприметный, высокие тонкие ноты; в определении важнее вид птицы, чем голос."
 traits:
   size: sparrow
   colors: [black, blue, yellow]
@@ -33,8 +34,8 @@ en:
   similar:
     - id: bangsia-edwardsi
       how: "moss-green back, blue 'cheek' on the black head, olive underparts with a golden central patch"
-  behavior: "Keeps to the midstory and subcanopy of wet foothill forest and edges, usually in pairs. Sits still for long spells, feeds on fruit and sometimes joins mixed flocks."
-  voice: "High thin whistles and trills; appearance matters more than voice for identification."
+  behavior: "Keeps to the midstory and subcanopy of wet foothill forest and edges, usually in pairs. Feeds on fruit and sometimes joins mixed flocks."
+  voice: "Voice inconspicuous, high thin notes; appearance matters more than voice for identification."
 ---
 Golden-chested Tanager (манишковая танагра) — почти-эндемик Колумбии, живёт только на тихоокеанском склоне Анд, от Чоко до северо-запада Эквадора, в узком поясе сырого предгорного леса примерно на 100–1 100 м. Сине-чёрная птица с золотой «манишкой» похожа на кусочек ночного неба с медалью; в тени сначала видно только золотое пятно.
 

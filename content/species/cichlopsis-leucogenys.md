@@ -2,6 +2,7 @@
 id: cichlopsis-leucogenys
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти весь тёпло-рыже-бурый, горло темнее, каштановое"
   - "Подклювье ярко-жёлтое или оранжевое, надклювье тёмное"

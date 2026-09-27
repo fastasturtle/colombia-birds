@@ -2,6 +2,7 @@
 id: tangara-chrysotis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Щёки медно-золотые, на лице тонкие чёрные черты у глаза и под клювом"
   - "Середина брюха рыжевато-каштановая, грудь и бока зелёные"
@@ -11,7 +12,7 @@ similar:
   - id: tangara-parzudakii
     how: "лицо красное или оранжевое, спина сплошь чёрная, грудь опалово-зелёная, рыжего брюха нет"
   - id: tangara-arthus
-    how: "вся золотисто-жёлтая с чёрным пятном на ухе, без зелени и рыжины снизу"
+    how: "голова и низ золотисто-жёлтые, спина и крылья чёрные, чёрное пятно на ухе; зелени в оперении нет"
 behavior: "Почти всегда в микст-флоках с другими танаграми, часто парами. Прыгает по горизонтальным мшистым веткам, заглядывая под них в поисках насекомых, ест и ягоды."
 voice: "Тонкие высокие «ци» в стае; для определения голос мало что даёт."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Tangara chrysotis (es, CC BY-SA 4.0)"
   - "Wikipedia: Золотоухая танагра (ru, CC BY-SA 4.0)"
   - "Данные проекта: data/species/tangara-chrysotis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "eBird: Golden-eared Tanager, по сниппету поиска (https://ebird.org/species/goetan1)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -37,7 +39,7 @@ en:
     - id: tangara-parzudakii
       how: "red or orange face, solidly black back, opal-green breast, no rufous belly"
     - id: tangara-arthus
-      how: "all golden-yellow with a black ear patch, no green and no rufous below"
+      how: "golden-yellow head and underparts, black back and wings, black ear patch; no green in the plumage"
   behavior: "Almost always in mixed flocks with other tanagers, often in pairs. Hops along horizontal mossy branches, peering underneath for insects, and also takes berries."
   voice: "Thin high 'tsi' notes in the flock; voice is of little help for identification."
 ---

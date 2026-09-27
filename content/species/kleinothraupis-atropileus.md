@@ -2,6 +2,7 @@
 id: kleinothraupis-atropileus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и бока головы чисто чёрные"
   - "Длинная бело-охристая бровь тянется до затылка"
@@ -9,11 +10,11 @@ key_features:
   - "Спина ровная оливково-бурая"
 similar:
   - id: thlypopsis-superciliaris
-    how: "мельче, темя серое или оливковое, не чёрное, бровь узкая, низ ярко-жёлтый"
+    how: "мельче, без сплошной чёрной шапки (темя серое или оливковое, у формы nigrifrons лоб черноватый), бровь короче, низ ярко-жёлтый"
   - id: myiothlypis-nigrocristata
-    how: "чёрная только полоса по темени, жёлтая бровь, низ ярко-жёлтый; держится у земли и часто водит хвостом"
+    how: "чёрная только полоса по темени, жёлтая бровь, низ ярко-жёлтый; держится у самой земли в густом подлеске"
 behavior: "Держится в подлеске и на опушках высокогорного леса, часто в бамбуке, парами и в микст-флоках. Деловито обыскивает листву и тонкие ветки."
-voice: "Быстрое трескучее щебетание, пара часто поёт дуэтом."
+voice: "Быстрые серии высокого трескучего щебета вперемешку со свистами и цыканьем."
 traits:
   size: sparrow
   colors: [olive, yellow, black]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Black-capped hemispingus (en, CC BY-SA 4.0)"
   - "Wikipedia: Kleinothraupis atropileus (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/kleinothraupis-atropileus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Голос: BOW / eBird, по сниппету поиска (https://birdsoftheworld.org/bow/species/blchem1/cur/sounds)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -34,11 +36,11 @@ en:
     - "Plain olive-brown back"
   similar:
     - id: thlypopsis-superciliaris
-      how: "smaller, gray or olive crown rather than black, narrow brow, bright yellow underparts"
+      how: "smaller, no solid black cap (crown gray or olive, forehead blackish in the nigrifrons form), shorter brow, bright yellow underparts"
     - id: myiothlypis-nigrocristata
-      how: "black only as a crown stripe, yellow brow, bright yellow underparts; keeps near the ground and often moves its tail"
+      how: "black only as a crown stripe, yellow brow, bright yellow underparts; keeps close to the ground in dense undergrowth"
   behavior: "Keeps to the understory and edges of high montane forest, often in bamboo, in pairs and mixed flocks. Busily searches foliage and thin twigs."
-  voice: "A fast chattering twitter; pairs often sing in duet."
+  voice: "Fast series of high chatters mixed with whistles and chips."
 ---
 Black-capped Hemispingus (черношапочный хемиспингус) — танагра подлеска высокогорного леса на высотах 1 800–3 700 м, чаще 2 300–3 200 м. В Колумбии она живёт во всех трёх Кордильерах. Чёрная голова с длинной светлой бровью видна даже в полутёмном бамбуке, а по поведению птица больше похожа на крупного лесного певуна, чем на танагру.
 
