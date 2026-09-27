@@ -2,6 +2,7 @@
 id: ixothraupis-xanthogastra
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо чисто жёлтое, без пятен"
   - "Голова, спина и грудь изумрудно-зелёные, в частых чёрных пятнышках"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/ixothraupis-xanthogastra.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Yellow-bellied tanager (en, CC BY-SA 4.0) — размеры, окраска, биотопы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: es.wikipedia Ixothraupis xanthogastra (data/texts) — высоты"
 en:
   key_features:
     - "Clean yellow belly, without spots"
@@ -39,12 +41,12 @@ en:
   behavior: "Feeds in the canopy and at edges of lowland and foothill forest, in pairs or small groups within mixed tanager flocks. Eats mostly fruit and berries and searches branches for insects."
   voice: "Soft, high 'tsit' notes; voice is hardly needed for identification."
 ---
-Yellow-bellied Tanager (желтобрюхая танагра) — одна из трёх «пятнистых» танагр рода Ixothraupis на юге Колумбии. Она живёт к востоку от Анд в равнинном и предгорном лесу, на опушках и во вторичных зарослях до 1 800 м. В кроне против света пятна не видны, и птица выглядит просто зелёной; смотри на брюхо — у этого вида оно жёлтое, у соседей белое.
+Yellow-bellied Tanager (желтобрюхая танагра) — одна из трёх «пятнистых» танагр рода Ixothraupis на юге Колумбии. Она живёт к востоку от Анд в равнинном и предгорном лесу, на опушках и во вторичных зарослях, в основном до 1 400 м (до 1 800 м — в Венесуэле). В кроне против света пятна не видны, и птица выглядит просто зелёной; смотри на брюхо — у этого вида оно жёлтое, у соседей белое.
 
 На маршруте вид «возможен» в Исла-Эскондиде 7–11 октября, на Финке Дискосура 7 октября и в Эль-Эскондите 13–14 октября.
 
 ## English
 
-Yellow-bellied Tanager is one of three "spotted" Ixothraupis tanagers in southern Colombia. It lives east of the Andes in lowland and foothill forest, at edges and in second growth up to 1,800 m. In the canopy against the light the spots do not show and the bird looks plain green; check the belly — yellow in this species, white in its relatives.
+Yellow-bellied Tanager is one of three "spotted" Ixothraupis tanagers in southern Colombia. It lives east of the Andes in lowland and foothill forest, at edges and in second growth, mostly up to 1,400 m (to 1,800 m in Venezuela). In the canopy against the light the spots do not show and the bird looks plain green; check the belly — yellow in this species, white in its relatives.
 
 On the route the species is "maybe" at Isla Escondida on 7–11 October, Finca Discosura on 7 October and El Escondite on 13–14 October.

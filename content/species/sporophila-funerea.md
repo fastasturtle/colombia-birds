@@ -2,6 +2,7 @@
 id: sporophila-funerea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень толстый у основания, округлый, черноватый"
   - "Самец почти целиком матово-чёрный, без светлого низа"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Thick-billed seed finch (en), Sporophila funerea (ru), CC BY-SA 4.0 — размеры, окраска, подвиды, питание, голос"
   - "content/species/sporophila-corvina.md, content/species/volatinia-jacarina.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en.wikipedia Thick-billed seed finch (data/texts) — ареалы подвидов aethiops и ochrogyne, высоты в Колумбии до 1 600 м"
 en:
   key_features:
     - "Bill very deep at the base, rounded, blackish"
@@ -40,12 +42,12 @@ en:
   behavior: "Forages nervously in dense grass and scrub in clearings, along edges and near water, flicking its wings and tail. Eats mostly grass seeds and keeps singly or in pairs, sometimes with flocks of other seedeaters."
   voice: "The song is a long complex phrase that grows more jumbled and twittery towards the end, like 'techu-techu-chu-chi-techu'."
 ---
-Thick-billed Seed-Finch — семеноед с огромным для своего размера клювом, живёт в низинах и предгорьях к западу от Анд, обычно ниже 500 м. На тихоокеанской стороне Нариньо обитает подвид aethiops. Чёрного самца в густой траве легко принять за другого семеноеда, но клюв у него заметно массивнее, чем у просяночников и якарины. Самок в поле почти не определяют.
+Thick-billed Seed-Finch — семеноед с огромным для своего размера клювом, живёт в низинах и предгорьях к западу от Анд и на севере Колумбии, обычно ниже 500 м, изредка до 1 600 м. На тихоокеанской стороне, в том числе в Нариньо, обитает подвид aethiops. Чёрного самца в густой траве легко принять за другого семеноеда, но клюв у него заметно массивнее, чем у просяночников и якарины. Самок в поле почти не определяют.
 
 На маршруте вид «возможен» на Км 42 и в Ла-Нутрии 21 октября, на Финке Марагрикола 22 октября и у Плайя-дель-Морро 22–23 октября. Смотри на заросшие травой обочины грунтовки на Км 42 и края бывших прудов на Марагриколе.
 
 ## English
 
-Thick-billed Seed-Finch is a seedeater with a huge bill for its size, living in the lowlands and foothills west of the Andes, usually below 500 m. The Pacific side of Nariño holds the subspecies aethiops. A black male in dense grass is easily taken for another seedeater, but its bill is clearly more massive than a seedeater's or a Blue-black Grassquit's. Females are hardly identifiable in the field.
+Thick-billed Seed-Finch is a seedeater with a huge bill for its size, living in the lowlands and foothills west of the Andes and in northern Colombia, usually below 500 m and occasionally up to 1,600 m. The Pacific side, Nariño included, holds the subspecies aethiops. A black male in dense grass is easily taken for another seedeater, but its bill is clearly more massive than a seedeater's or a Blue-black Grassquit's. Females are hardly identifiable in the field.
 
 On the route the species is "maybe" at Km 42 and La Nutria on 21 October, Finca Maragrícola on 22 October and around Playa del Morro on 22–23 October. Check the grassy verges of the dirt road at Km 42 and the edges of the former ponds at Maragrícola.

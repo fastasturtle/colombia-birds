@@ -2,9 +2,10 @@
 id: tangara-labradorides
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся бледная серебристо-голубовато-зелёная, с металлическим блеском"
-  - "Середина темени и уздечка чёрные, брови нет"
+  - "Темя и небольшая маска у глаза чёрные, брови нет"
   - "Плечо и крылья чёрные, с сине-зелёной каймой"
   - "Мелкая танагра с коротким тёмным клювом"
 similar:
@@ -27,10 +28,11 @@ sources:
   - "Wikipedia: Golden-naped tanager (en, CC BY-SA 4.0) — сходство с C. ruficervix"
   - "content/species/tangara-cyanotis.md, content/species/chlorochrysa-phoenicotis.md — согласование окраски"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: BOW, по сниппету поиска (https://birdsoftheworld.org/bow/species/megtan1/cur/identification) — чёрные темя, маленькая маска, чёрные лопаточные; es.wikipedia (data/texts) — ареал до севера Перу"
 en:
   key_features:
     - "Almost wholly pale silvery blue-green, with a metallic sheen"
-    - "Black central crown and lores, no eyebrow"
+    - "Black crown and a small black mask at the eye, no eyebrow"
     - "Black shoulder and wings, edged blue-green"
     - "Small tanager with a short dark bill"
   similar:
@@ -41,12 +43,12 @@ en:
   behavior: "Keeps in pairs and small groups in mixed flocks at edges and in the canopy of humid montane forest, entering nearby clearings. Searches twigs and leaves for insects and also eats small fruit."
   voice: "Thin, high 'tsit' notes in the flock; voice is hardly needed for identification."
 ---
-Metallic-green Tanager (блестящая танагра) — почти-эндемик Колумбии и Эквадора: танагра опушек горного леса, в основном на 1 300–2 300 м, изредка от 900 до 2 750 м. Вид описан по птицам из-под Боготы, а в Колумбии он многочисленнее, чем где-либо ещё. Окраска у неё как у полевого шпата, в честь которого она названа: бледная, переливчатая, то зеленоватая, то голубоватая. В тени птица кажется серой, и первым видно чёрное темя.
+Metallic-green Tanager (блестящая танагра) — почти-эндемик Колумбии (есть также в Эквадоре и на севере Перу): танагра опушек горного леса, в основном на 1 300–2 300 м, изредка от 900 до 2 750 м. Вид описан по птицам из-под Боготы, а в Колумбии он многочисленнее, чем где-либо ещё. Окраска у неё как у полевого шпата, в честь которого она названа: бледная, переливчатая, то зеленоватая, то голубоватая. В тени птица кажется серой, и первым видно чёрное темя.
 
 На маршруте вид «возможен» в Ла-Планаде 16–18 октября, на Трамплине птиц 15 октября и в Чикаке 3 октября.
 
 ## English
 
-Metallic-green Tanager is a near-endemic of Colombia and Ecuador: a tanager of montane forest edges, mainly at 1,300–2,300 m, occasionally from 900 to 2,750 m. The species was described from birds near Bogotá, and it is more numerous in Colombia than anywhere else. Its colour recalls the feldspar it is named after: pale and iridescent, now greenish, now bluish. In shade the bird looks gray, and the black crown shows first.
+Metallic-green Tanager is a near-endemic of Colombia (also found in Ecuador and northern Peru): a tanager of montane forest edges, mainly at 1,300–2,300 m, occasionally from 900 to 2,750 m. The species was described from birds near Bogotá, and it is more numerous in Colombia than anywhere else. Its colour recalls the feldspar it is named after: pale and iridescent, now greenish, now bluish. In shade the bird looks gray, and the black crown shows first.
 
 On the route the species is "maybe" at La Planada on 16–18 October, Trampolín de las Aves on 15 October and Chicaque on 3 October.

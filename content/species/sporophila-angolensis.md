@@ -2,6 +2,7 @@
 id: sporophila-angolensis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: грудь, брюхо и подхвостье густо-каштановые"
   - "Голова, горло, спина и хвост у самца чёрные"
@@ -23,6 +24,7 @@ sources:
   - "Данные проекта: data/species/sporophila-angolensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Chestnut-bellied seed finch (en), Sporophila angolensis (es), CC BY-SA 4.0 — размеры, окраска, подвид torrida, питание, голос, названия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en/es.wikipedia Chestnut-bellied seed finch (data/texts) — высоты в Колумбии до 800 м, название «curió»"
 en:
   key_features:
     - "Male: deep chestnut breast, belly and undertail"
@@ -35,12 +37,12 @@ en:
   behavior: "Keeps to grassy and shrubby edges, clearings and second growth, alone, in pairs or in small flocks with other seedeaters. Eats grass and sedge seeds while clinging to the stalk, and also insects."
   voice: "A fairly long song of musical whistles mixed with chatter, often ending in a trill; the call is a single liquid whistle."
 ---
-Chestnut-bellied Seed-Finch (каштаново-чёрный просяночник) — толстоклювый семеноед амазонских опушек и вырубок, в Колумбии на юго-востоке страны, до 1 600 м. Здесь живёт мелкий подвид torrida. Чёрно-каштанового самца узнать легко, особенно когда он поёт с верхушки куста; в тени каштан темнеет, и птица кажется почти чёрной. За мелодичную песню вид («курио») повсеместно ловят для клеток.
+Chestnut-bellied Seed-Finch (каштаново-чёрный просяночник) — толстоклювый семеноед амазонских опушек и вырубок, в Колумбии на юго-востоке страны, до 800 м. Здесь живёт мелкий подвид torrida. Чёрно-каштанового самца узнать легко, особенно когда он поёт с верхушки куста; в тени каштан темнеет, и птица кажется почти чёрной. За мелодичную песню его нередко держат в клетках; в Аргентине и Парагвае его называют «курио».
 
 На маршруте он «возможен» на Финке Дискосура и в Исла-Эскондиде 7–11 октября, в Пуэрто-Асисе и на Плайя-Рике 11–13 октября.
 
 ## English
 
-Chestnut-bellied Seed-Finch is a thick-billed seedeater of Amazonian edges and clearings, in Colombia in the southeast of the country, up to 1,600 m. The small subspecies torrida lives here. The black-and-chestnut male is easy to identify, especially when it sings from a bush top; in shade the chestnut darkens and the bird looks almost black. For its musical song the species ("curió") is trapped for cages everywhere.
+Chestnut-bellied Seed-Finch is a thick-billed seedeater of Amazonian edges and clearings, in Colombia in the southeast of the country, up to 800 m. The small subspecies torrida lives here. The black-and-chestnut male is easy to identify, especially when it sings from a bush top; in shade the chestnut darkens and the bird looks almost black. For its musical song it is often kept as a cage bird; in Argentina and Paraguay it is called "curió".
 
 On the route it is "maybe" at Finca Discosura and Isla Escondida on 7–11 October and at Puerto Asís and Playa Rica on 11–13 October.

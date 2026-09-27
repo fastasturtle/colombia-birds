@@ -2,6 +2,7 @@
 id: dacnis-cayana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец бирюзово-голубой, спина и маленькое пятно на горле чёрные"
   - "Узкая чёрная маска от клюва до глаза, глаз красноватый"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Blue dacnis (en, CC BY-SA 4.0) — окраска, подвиды, питание, голос"
   - "content/species/dacnis-lineata.md, content/species/cyanerpes-caeruleus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en/es.wikipedia Blue dacnis (data/texts) — высоты в Колумбии, подвид glaucogularis"
 en:
   key_features:
     - "Male turquoise-blue with a black back and a small black throat patch"
@@ -40,12 +42,12 @@ en:
   behavior: "Feeds in the canopy and at edges alone or in pairs, almost always in mixed flocks. Eats insects and Miconia and Cecropia berries, and comes to banana feeders."
   voice: "Weak, thin 'tsit' and 'chit-it' notes; the song is a wheezy series of high notes."
 ---
-Blue Dacnis (синий дакнис) — самый широко распространённый дакнис, от низин до 2 000 м, в кронах и на опушках влажного леса, в садах и на плантациях. Самец бирюзовый с чёрной спиной, самка зелёная с голубой головой; оба заметно мельче и короткоклювее саи. В кроне птица мелькает быстро, так что смотри на прямой острый клюв и цвет глаза.
+Blue Dacnis (синий дакнис) — самый широко распространённый дакнис, в Колумбии от низин до 1 100 м (в Андах единично до 2 000 м), в кронах и на опушках влажного леса, в садах и на плантациях. Самец бирюзовый с чёрной спиной, самка зелёная с голубой головой; у путумайского подвида glaucogularis самец светлее, с менее чёрным горлом. Оба заметно мельче и короткоклювее саи. В кроне птица мелькает быстро, так что смотри на прямой острый клюв и цвет глаза.
 
 На маршруте вид «возможен» в Исла-Эскондиде 7–11 октября: ищи его в смешанных стаях с платформы в кронах и на плодоносящих цекропиях.
 
 ## English
 
-Blue Dacnis is the most widespread dacnis, from the lowlands to 2,000 m, in the canopy and at edges of humid forest, in gardens and plantations. The male is turquoise with a black back, the female green with a blue head; both are clearly smaller and shorter-billed than honeycreepers. In the canopy it moves fast, so check the straight, pointed bill and the eye colour.
+Blue Dacnis is the most widespread dacnis, in Colombia from the lowlands to 1,100 m (in the Andes a few to 2,000 m), in the canopy and at edges of humid forest, in gardens and plantations. The male is turquoise with a black back, the female green with a blue head; in glaucogularis, the Putumayo subspecies, the male is paler with a less black throat. Both are clearly smaller and shorter-billed than honeycreepers. In the canopy it moves fast, so check the straight, pointed bill and the eye colour.
 
 On the route the species is "maybe" at Isla Escondida on 7–11 October: look for it in mixed flocks from the canopy platform and in fruiting Cecropia.

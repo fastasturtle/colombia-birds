@@ -2,6 +2,7 @@
 id: tangara-vassorii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся насыщенно-кобальтово-синяя"
   - "Чёрная маска от клюва через глаз"

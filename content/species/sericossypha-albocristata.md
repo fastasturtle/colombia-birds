@@ -2,6 +2,7 @@
 id: sericossypha-albocristata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб и темя белоснежные, плюшевые, светятся даже в сумраке леса"
   - "Тело бархатисто-чёрное, крылья и хвост с синеватым блеском"

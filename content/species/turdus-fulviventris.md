@@ -2,6 +2,7 @@
 id: turdus-fulviventris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Нижняя часть груди и брюхо рыжие, в тени кажутся тёмно-оранжевыми"
   - "Голова и горло чёрные, на горле белые штрихи"

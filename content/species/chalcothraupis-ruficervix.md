@@ -2,6 +2,7 @@
 id: chalcothraupis-ruficervix
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поперёк затылка золотисто-бежевая полоса, окаймлённая чёрным и фиолетово-синим"
   - "Почти вся бирюзово-голубая, лицо и лоб чёрные"

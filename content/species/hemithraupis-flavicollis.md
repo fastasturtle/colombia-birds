@@ -2,6 +2,7 @@
 id: hemithraupis-flavicollis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло у самца ярко-жёлтое, резко на тёмной голове"
   - "Голова и верх спины буровато-чёрные, поясница ярко-жёлтая"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Yellow-backed tanager (en), Желтопоясничная славковая танагра (ru), CC BY-SA 4.0 — окраска, подвиды, питание, голос"
   - "Wikipedia: Yellow-bellied dacnis (en, CC BY-SA 4.0) — отличие D. flaviventer"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en/es/ru.wikipedia Yellow-backed tanager (data/texts) — подвид peruana на восточном склоне в Колумбии"
 en:
   key_features:
     - "Male's bright yellow throat, sharp against the dark head"
@@ -40,12 +42,12 @@ en:
   behavior: "Feeds in the canopy of humid forest in pairs and family groups, almost always in mixed flocks. Gleans insects from leaves like a warbler, sometimes hovering or making a short sally."
   voice: "High, short 'tsick' and 'tut' notes while foraging; occasionally a series of nasal rising notes."
 ---
-Yellow-backed Tanager (желтопоясничная славковая танагра) — мелкая танагра крон влажного леса ниже 1 000 м. В Колумбии у неё несколько подвидов, и к востоку от Анд, в Путумайо, живёт один из амазонских. Держится высоко, поэтому снизу видно прежде всего жёлтое горло на тёмной голове и светлое брюхо, а жёлтая поясница вспыхивает, когда птица перелетает. Самку в стае легко принять за древесницу.
+Yellow-backed Tanager (желтопоясничная славковая танагра) — мелкая танагра крон влажного леса ниже 1 000 м. В Колумбии у неё несколько подвидов, и к востоку от Анд, в Путумайо, живёт peruana: у самца короткая жёлтая черта над уздечкой, жёлтая дуга под глазом и узкая жёлтая полоска на крыле. Держится высоко, поэтому снизу видно прежде всего жёлтое горло на тёмной голове и светлое брюхо, а жёлтая поясница вспыхивает, когда птица перелетает. Самку в стае легко принять за древесницу.
 
 На маршруте вид «возможен» в Исла-Эскондиде 7–11 октября: лучше всего смотреть с платформы в кронах, когда проходит смешанная стая.
 
 ## English
 
-Yellow-backed Tanager is a small tanager of the humid-forest canopy below 1,000 m. Colombia has several subspecies, and east of the Andes, in Putumayo, lives one of the Amazonian ones. It stays high, so from below you mostly see the yellow throat on a dark head and the pale belly, while the yellow rump flashes when the bird flies. The female is easily taken for a warbler in a flock.
+Yellow-backed Tanager is a small tanager of the humid-forest canopy below 1,000 m. Colombia has several subspecies, and east of the Andes, in Putumayo, lives peruana: the male has a short yellow line above the lores, a yellow arc under the eye and a thin yellow wing bar. It stays high, so from below you mostly see the yellow throat on a dark head and the pale belly, while the yellow rump flashes when the bird flies. The female is easily taken for a warbler in a flock.
 
 On the route the species is "maybe" at Isla Escondida on 7–11 October: the best view is from a canopy platform when a mixed flock passes.

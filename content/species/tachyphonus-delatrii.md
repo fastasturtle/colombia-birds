@@ -2,8 +2,9 @@
 id: tachyphonus-delatrii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Самец целиком блестяще-чёрный, с коротким рыжевато-оранжевым хохлом на темени"
+  - "Самец целиком блестяще-чёрный, с коротким хохлом на темени, от рыжевато-оранжевого до тёмно-жёлтого"
   - "Самка ровно оливково-бурая, горло светлее, без рисунка"
   - "Держится шумными стаями своего вида в густом подлеске"
   - "Клюв короткий, тонковатый, чёрный"
@@ -27,7 +28,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Male wholly glossy black with a short tawny-orange crest on the crown"
+    - "Male wholly glossy black with a short crest on the crown, tawny-orange to dark yellow"
     - "Female uniform olive-brown, paler throat, no pattern"
     - "Moves in noisy single-species flocks in dense undergrowth"
     - "Short, fairly thin black bill"
