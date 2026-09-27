@@ -3,14 +3,23 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 751
+- Карточек: 811
 - Проверено: 723
-- Не проверено: 28
+- Не проверено: 88
 
-## Не проверено (28)
+## Не проверено (88)
 
 | Слаг | English | Группа |
 |---|---|---|
+| alopochen-aegyptiaca | Egyptian Goose | Утки, поганки и фламинго |
+| cairina-moschata | Muscovy Duck | Утки, поганки и фламинго |
+| aythya-affinis | Lesser Scaup | Утки, поганки и фламинго |
+| columbina-minuta | Plain-breasted Ground Dove | Голуби, кукушки и гоацин |
+| geotrygon-purpurata | Purple Quail-Dove | Голуби, кукушки и гоацин |
+| geotrygon-montana | Ruddy Quail-Dove | Голуби, кукушки и гоацин |
+| zentrygon-frenata | White-throated Quail-Dove | Голуби, кукушки и гоацин |
+| crotophaga-sulcirostris | Groove-billed Ani | Голуби, кукушки и гоацин |
+| coccycua-minuta | Little Cuckoo | Голуби, кукушки и гоацин |
 | charadrius-vociferus | Killdeer | Кулики, чайки и крачки |
 | leucophaeus-pipixcan | Franklin's Gull | Кулики, чайки и крачки |
 | gelochelidon-nilotica | Gull-billed Tern | Кулики, чайки и крачки |
@@ -39,6 +48,57 @@
 | caracara-plancus | Crested Caracara | Хищные птицы и совы |
 | falco-columbarius | Merlin | Хищные птицы и совы |
 | falco-rufigularis | Bat Falcon | Хищные птицы и совы |
+| veniliornis-passerinus | Little Woodpecker | Туканы, бородатки и дятлы |
+| veniliornis-dignus | Yellow-vented Woodpecker | Туканы, бородатки и дятлы |
+| veniliornis-nigriceps | Bar-bellied Woodpecker | Туканы, бородатки и дятлы |
+| veniliornis-affinis | Red-stained Woodpecker | Туканы, бородатки и дятлы |
+| campephilus-pollens | Powerful Woodpecker | Туканы, бородатки и дятлы |
+| piculus-litae | Lita Woodpecker | Туканы, бородатки и дятлы |
+| colaptes-rubiginosus | Golden-olive Woodpecker | Туканы, бородатки и дятлы |
+| pionus-sordidus | Red-billed Parrot | Попугаи |
+| ara-militaris | Military Macaw | Попугаи |
+| thamnistes-anabatinus | Russet Antshrike | Муравьеловки, печники и древолазы |
+| microrhopias-quixensis | Dot-winged Antwren | Муравьеловки, печники и древолазы |
+| phlegopsis-nigromaculata | Black-spotted Bare-eye | Муравьеловки, печники и древолазы |
+| sclerurus-obscurior | South American Leaftosser | Муравьеловки, печники и древолазы |
+| xiphorhynchus-guttatus | Buff-throated Woodcreeper | Муравьеловки, печники и древолазы |
+| premnornis-guttuliger | Rusty-winged Barbtail | Муравьеловки, печники и древолазы |
+| margarornis-stellatus | Fulvous-dotted Treerunner | Муравьеловки, печники и древолазы |
+| cyclarhis-nigrirostris | Black-billed Peppershrike | Ласточки, крапивники, дрозды и другие |
+| pachysylvia-hypoxantha | Dusky-capped Greenlet | Ласточки, крапивники, дрозды и другие |
+| pachysylvia-semibrunnea | Rufous-naped Greenlet | Ласточки, крапивники, дрозды и другие |
+| vireo-flavoviridis | Yellow-green Vireo | Ласточки, крапивники, дрозды и другие |
+| petrochelidon-pyrrhonota | Cliff Swallow | Ласточки, крапивники, дрозды и другие |
+| campylorhynchus-zonatus | Band-backed Wren | Ласточки, крапивники, дрозды и другие |
+| pheugopedius-coraya | Coraya Wren | Ласточки, крапивники, дрозды и другие |
+| cantorchilus-leucotis | Buff-breasted Wren | Ласточки, крапивники, дрозды и другие |
+| cinnycerthia-olivascens | Sharpe's Wren | Ласточки, крапивники, дрозды и другие |
+| cyphorhinus-arada | Musician Wren | Ласточки, крапивники, дрозды и другие |
+| catharus-aurantiirostris | Orange-billed Nightingale-Thrush | Ласточки, крапивники, дрозды и другие |
+| catharus-fuscescens | Veery | Ласточки, крапивники, дрозды и другие |
+| catharus-minimus | Gray-cheeked Thrush | Ласточки, крапивники, дрозды и другие |
+| turdus-leucops | Pale-eyed Thrush | Ласточки, крапивники, дрозды и другие |
+| turdus-albicollis | White-necked Thrush | Ласточки, крапивники, дрозды и другие |
+| chlorophonia-cyanocephala | Golden-rumped Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| chlorophonia-cyanea | Blue-naped Chlorophonia | Овсянки, древесницы, трупиалы и вьюрки |
+| euphonia-saturata | Orange-crowned Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| euphonia-fulvicrissa | Fulvous-vented Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| euphonia-mesochrysa | Bronze-green Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| euphonia-rufiventris | Rufous-bellied Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| spinus-xanthogastrus | Yellow-bellied Siskin | Овсянки, древесницы, трупиалы и вьюрки |
+| chlorospingus-parvirostris | Short-billed Chlorospingus | Овсянки, древесницы, трупиалы и вьюрки |
+| chlorospingus-canigularis | Ashy-throated Chlorospingus | Овсянки, древесницы, трупиалы и вьюрки |
+| arremonops-conirostris | Black-striped Sparrow | Овсянки, древесницы, трупиалы и вьюрки |
+| arremon-assimilis | Gray-browed Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| arremon-aurantiirostris | Orange-billed Sparrow | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-albinucha | White-naped Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-semirufus | Ochre-breasted Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| amblycercus-holosericeus | Yellow-billed Cacique | Овсянки, древесницы, трупиалы и вьюрки |
+| psarocolius-viridis | Green Oropendola | Овсянки, древесницы, трупиалы и вьюрки |
+| psarocolius-wagleri | Chestnut-headed Oropendola | Овсянки, древесницы, трупиалы и вьюрки |
+| icterus-cayanensis | Epaulet Oriole | Овсянки, древесницы, трупиалы и вьюрки |
+| icterus-nigrogularis | Yellow Oriole | Овсянки, древесницы, трупиалы и вьюрки |
+| geothlypis-philadelphia | Mourning Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 
 ## Проверено (723)
 
