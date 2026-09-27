@@ -27,27 +27,27 @@
  "genus": "Larus",
  "id": "larus-smithsonianus",
  "ids": {
-  "avibase": "60F32AF8F5E3E40B",
+  "avibase": null,
   "birdbase": 7184,
   "gbif": 2481139,
-  "inaturalist": "1578489",
-  "iucn": "62030590",
-  "wikidata": "Q469297",
-  "xeno_canto": "Larus-smithsonianus"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_smithsonianus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/amhgul1",
-  "inaturalist": "https://www.inaturalist.org/taxa/1578489",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/American_herring_gull",
-   "es": "https://es.wikipedia.org/wiki/Larus_smithsonianus",
-   "ru": "https://ru.wikipedia.org/wiki/Американская_серебристая_чайка"
+   "en": null,
+   "es": null,
+   "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Larus+smithsonianus"
  },
@@ -59,7 +59,24 @@
   "ru": "Американская чайка"
  },
  "order": "Charadriiformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Mila C.",
+   "credit": "(c) Mila C., some rights reserved (CC BY)",
+   "height": 1200,
+   "key_base": "photos/larus-smithsonianus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/larus-smithsonianus/1-large.jpg",
+    "medium": "photos/larus-smithsonianus/1-medium.jpg",
+    "thumb": "photos/larus-smithsonianus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/143387652",
+   "width": 1600
+  }
+ ],
  "sci_name": "Larus smithsonianus",
  "sci_name_aco": "Larus argentatus",
  "sounds": [],
@@ -97,8 +114,5 @@
   "primary_habitat": "Coastal",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20smithsonianus-USFWS.jpg",
-  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20Herring%20Gull%20-%20natures%20pics.jpg"
- ]
+ "wikidata_images": []
 }

@@ -27,13 +27,13 @@
  "genus": "Basileuterus",
  "id": "basileuterus-delattrii",
  "ids": {
-  "avibase": "F50F4ACE3D9DA570",
+  "avibase": null,
   "birdbase": 36419,
   "gbif": 2489785,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q40982513",
-  "xeno_canto": "Basileuterus-delattrii"
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,13 +41,13 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Basileuterus_delattrii",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/rucwar4",
   "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Chestnut-capped_warbler",
-   "es": "https://es.wikipedia.org/wiki/Basileuterus_delattrii",
-   "ru": "https://ru.wikipedia.org/wiki/Basileuterus_delattrii"
+   "en": null,
+   "es": null,
+   "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Basileuterus+delattrii"
  },
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Adam Jackson",
+   "credit": "no rights reserved",
+   "height": 1068,
+   "key_base": "photos/basileuterus-delattrii/1",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/basileuterus-delattrii/1-large.jpg",
+    "medium": "photos/basileuterus-delattrii/1-medium.jpg",
+    "thumb": "photos/basileuterus-delattrii/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/339975861",
+   "width": 1600
+  }
+ ],
  "sci_name": "Basileuterus delattrii",
  "sci_name_aco": "Basileuterus rufifrons",
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Basileuterus%20delattrii%2003.jpg"
- ]
+ "wikidata_images": []
 }

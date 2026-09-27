@@ -27,26 +27,26 @@
  "genus": "Laniisoma",
  "id": "laniisoma-buckleyi",
  "ids": {
-  "avibase": "73808E9901D3B153",
+  "avibase": null,
   "birdbase": 18555,
   "gbif": 2486411,
-  "inaturalist": "1507609",
-  "iucn": "22728535",
-  "wikidata": "Q12261855",
-  "xeno_canto": "Laniisoma-buckleyi"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "NT",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laniisoma_buckleyi",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/shlcot2",
-  "inaturalist": "https://www.inaturalist.org/taxa/1507609",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Andean_laniisoma",
-   "es": "https://es.wikipedia.org/wiki/Laniisoma_buckleyi",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Laniisoma+buckleyi"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Ana Agreda, Aves y Conservación",
+   "credit": "http://images.nbii.gov/details.php?id=70314&cat=Birds",
+   "height": 1600,
+   "key_base": "photos/laniisoma-buckleyi/1",
+   "kind": "photo",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "sizes": {
+    "large": "photos/laniisoma-buckleyi/1-large.jpg",
+    "medium": "photos/laniisoma-buckleyi/1-medium.jpg",
+    "thumb": "photos/laniisoma-buckleyi/1-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Laniisoma_buckleyi.jpg",
+   "width": 1137
+  }
+ ],
  "sci_name": "Laniisoma buckleyi",
  "sci_name_aco": "Laniisoma elegans",
  "sounds": [],
@@ -92,7 +109,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Laniisoma%20buckleyi%20%28cropped%29.jpg"
- ]
+ "wikidata_images": []
 }

@@ -27,26 +27,26 @@
  "genus": "Tolmomyias",
  "id": "tolmomyias-viridiceps",
  "ids": {
-  "avibase": "737A9431B0CC1CB5",
+  "avibase": null,
   "birdbase": 17565,
-  "gbif": "6101059",
-  "inaturalist": "1437173",
-  "iucn": "22731695",
-  "wikidata": "Q12268031",
-  "xeno_canto": "Tolmomyias-viridiceps"
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tolmomyias_viridiceps",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/yebfly4",
-  "inaturalist": "https://www.inaturalist.org/taxa/1437173",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Olive-faced_flatbill",
-   "es": "https://es.wikipedia.org/wiki/Tolmomyias_viridiceps",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Tolmomyias+viridiceps"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Thibaud Aronson",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "height": 1066,
+   "key_base": "photos/tolmomyias-viridiceps/1",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sizes": {
+    "large": "photos/tolmomyias-viridiceps/1-large.jpg",
+    "medium": "photos/tolmomyias-viridiceps/1-medium.jpg",
+    "thumb": "photos/tolmomyias-viridiceps/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/60365505",
+   "width": 1600
+  }
+ ],
  "sci_name": "Tolmomyias viridiceps",
  "sci_name_aco": null,
  "sounds": [],
@@ -93,7 +110,5 @@
   "primary_habitat": "Riparian",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Tolmomyias%20viridiceps%20108240354%20%28cropped%29.jpg"
- ]
+ "wikidata_images": []
 }

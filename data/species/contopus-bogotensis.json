@@ -27,26 +27,26 @@
  "genus": "Contopus",
  "id": "contopus-bogotensis",
  "ids": {
-  "avibase": "784D06ACC99AFCDD",
+  "avibase": null,
   "birdbase": 17692,
   "gbif": 5229745,
-  "inaturalist": "1441511",
-  "iucn": "103683917",
-  "wikidata": "Q31874576",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Contopus_bogotensis",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/tropew4",
-  "inaturalist": "https://www.inaturalist.org/taxa/1441511",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Northern_tropical_pewee",
-   "es": "https://es.wikipedia.org/wiki/Contopus_bogotensis",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Contopus+bogotensis"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Cullen Hanks",
+   "credit": "(c) Cullen Hanks, some rights reserved (CC BY)",
+   "height": 1064,
+   "key_base": "photos/contopus-bogotensis/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/contopus-bogotensis/1-large.jpg",
+    "medium": "photos/contopus-bogotensis/1-medium.jpg",
+    "thumb": "photos/contopus-bogotensis/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/105061975",
+   "width": 1600
+  }
+ ],
  "sci_name": "Contopus bogotensis",
  "sci_name_aco": "Contopus cinereus",
  "sounds": [],
@@ -96,7 +113,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Tropical%20Pewee%20-%20Rio%20Tigre%20-%20Costa%20Rica.jpg"
- ]
+ "wikidata_images": []
 }

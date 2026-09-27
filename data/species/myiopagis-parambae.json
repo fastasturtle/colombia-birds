@@ -27,26 +27,26 @@
  "genus": "Myiopagis",
  "id": "myiopagis-parambae",
  "ids": {
-  "avibase": "9D2A58609AF53D52",
+  "avibase": null,
   "birdbase": 16902,
-  "gbif": "11107644",
-  "inaturalist": "1440713",
-  "iucn": "103681584",
-  "wikidata": "Q31874503",
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiopagis_caniceps_parambae",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/gryela1",
-  "inaturalist": "https://www.inaturalist.org/taxa/1440713",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Choco_elaenia",
-   "es": "https://es.wikipedia.org/wiki/Myiopagis_parambae",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+parambae"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Guy Babineau",
+   "credit": "https://www.inaturalist.org/photos/615321443",
+   "height": 688,
+   "key_base": "photos/myiopagis-parambae/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "sizes": {
+    "large": "photos/myiopagis-parambae/1-large.jpg",
+    "medium": "photos/myiopagis-parambae/1-medium.jpg",
+    "thumb": "photos/myiopagis-parambae/1-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Myiopagis_parambae_-_Guy_Babineau_-_615321443.jpeg",
+   "width": 1056
+  }
+ ],
  "sci_name": "Myiopagis parambae",
  "sci_name_aco": null,
  "sounds": [],

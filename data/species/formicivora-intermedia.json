@@ -27,27 +27,27 @@
  "genus": "Formicivora",
  "id": "formicivora-intermedia",
  "ids": {
-  "avibase": "E62C56950E52E045",
+  "avibase": null,
   "birdbase": 15833,
   "gbif": 6100904,
-  "inaturalist": "1507128",
-  "iucn": "103657347",
-  "wikidata": "Q12257912",
-  "xeno_canto": "Formicivora-intermedia"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Formicivora_intermedia",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/whfant4",
-  "inaturalist": "https://www.inaturalist.org/taxa/1507128",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Northern_white-fringed_antwren",
-   "es": "https://es.wikipedia.org/wiki/Formicivora_intermedia",
-   "ru": "https://ru.wikipedia.org/wiki/Formicivora_intermedia"
+   "en": null,
+   "es": null,
+   "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Formicivora+intermedia"
  },
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Esteban Villa Restrepo",
+   "credit": "(c) Esteban Villa Restrepo, some rights reserved (CC BY)",
+   "height": 1286,
+   "key_base": "photos/formicivora-intermedia/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/formicivora-intermedia/1-large.jpg",
+    "medium": "photos/formicivora-intermedia/1-medium.jpg",
+    "thumb": "photos/formicivora-intermedia/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/278571184",
+   "width": 1600
+  }
+ ],
  "sci_name": "Formicivora intermedia",
  "sci_name_aco": null,
  "sounds": [],
@@ -94,7 +111,5 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Formicivora%20intermedia.jpg"
- ]
+ "wikidata_images": []
 }

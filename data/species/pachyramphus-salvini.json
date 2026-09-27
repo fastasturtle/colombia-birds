@@ -27,12 +27,12 @@
  "genus": "Pachyramphus",
  "id": "pachyramphus-salvini",
  "ids": {
-  "avibase": "7CF1D272082BB0BC",
+  "avibase": null,
   "birdbase": 18590,
   "gbif": 8120211,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q120964622",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_salvini",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/bawbec6",
   "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Cryptic_becard",
-   "es": "https://es.wikipedia.org/wiki/Pachyramphus_salvini",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+salvini"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Dan Vickers",
+   "credit": "(c) Dan Vickers, some rights reserved (CC BY)",
+   "height": 1600,
+   "key_base": "photos/pachyramphus-salvini/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/pachyramphus-salvini/1-large.jpg",
+    "medium": "photos/pachyramphus-salvini/1-medium.jpg",
+    "thumb": "photos/pachyramphus-salvini/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/310058406",
+   "width": 1600
+  }
+ ],
  "sci_name": "Pachyramphus salvini",
  "sci_name_aco": null,
  "sounds": [],
@@ -94,7 +111,5 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Cryptic%20Becard%20imported%20from%20iNaturalist%20photo%20402796356%20on%205%20August%202024.jpg"
- ]
+ "wikidata_images": []
 }

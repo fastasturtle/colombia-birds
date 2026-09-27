@@ -27,26 +27,26 @@
  "genus": "Xenops",
  "id": "xenops-genibarbis",
  "ids": {
-  "avibase": "618651480D5A3FD0",
+  "avibase": null,
   "birdbase": 14910,
   "gbif": 5230220,
-  "inaturalist": "1586809",
-  "iucn": "103670758",
-  "wikidata": "Q31874617",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenops_genibarbis",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/plaxen3",
-  "inaturalist": "https://www.inaturalist.org/taxa/1586809",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Amazonian_plain_xenops",
-   "es": "https://es.wikipedia.org/wiki/Xenops_genibarbis",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+genibarbis"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Thomaz de Carvalho Callado",
+   "credit": "(c) Thomaz de Carvalho Callado, some rights reserved (CC BY)",
+   "height": 1066,
+   "key_base": "photos/xenops-genibarbis/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/xenops-genibarbis/1-large.jpg",
+    "medium": "photos/xenops-genibarbis/1-medium.jpg",
+    "thumb": "photos/xenops-genibarbis/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/185666498",
+   "width": 1600
+  }
+ ],
  "sci_name": "Xenops genibarbis",
  "sci_name_aco": "Xenops minutus",
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenops%20genibarbis%20Amazonian%20Xenops%3B%20Francisco%20de%20Orellana%2C%20Ecuador.jpg"
- ]
+ "wikidata_images": []
 }

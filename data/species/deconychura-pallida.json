@@ -27,26 +27,26 @@
  "genus": "Deconychura",
  "id": "deconychura-pallida",
  "ids": {
-  "avibase": "3B21E1E30984C440",
+  "avibase": null,
   "birdbase": 14562,
   "gbif": 2485200,
-  "inaturalist": "1586659",
-  "iucn": "103661265",
-  "wikidata": "Q31874600",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Deconychura_pallida",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/lotwoo5",
-  "inaturalist": "https://www.inaturalist.org/taxa/1586659",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Mournful_long-tailed_woodcreeper",
-   "es": "https://es.wikipedia.org/wiki/Deconychura_pallida",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Deconychura+pallida"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Thibaud Aronson",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "height": 1066,
+   "key_base": "photos/deconychura-pallida/1",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sizes": {
+    "large": "photos/deconychura-pallida/1-large.jpg",
+    "medium": "photos/deconychura-pallida/1-medium.jpg",
+    "thumb": "photos/deconychura-pallida/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/194299826",
+   "width": 1600
+  }
+ ],
  "sci_name": "Deconychura pallida",
  "sci_name_aco": "Deconychura longicauda",
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Deconychura%20pallida%20Southern%20Long-tailed%20Woodcreeper%3B%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
- ]
+ "wikidata_images": []
 }
