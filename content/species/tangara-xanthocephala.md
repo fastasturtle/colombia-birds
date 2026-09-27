@@ -2,6 +2,7 @@
 id: tangara-xanthocephala
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова ярко-жёлтая, темя с оранжевым оттенком"
   - "Лоб, уздечка, кольцо вокруг глаза и подбородок чёрные"

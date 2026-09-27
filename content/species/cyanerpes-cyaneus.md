@@ -2,6 +2,7 @@
 id: cyanerpes-cyaneus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ноги ярко-красные"
   - "Самец фиолетово-синий, шапочка бирюзовая, спина, крылья и хвост чёрные"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Red-legged honeycreeper (en, CC BY-SA 4.0) — окраска, подвиды в Колумбии, поведение, голос"
   - "content/species/cyanerpes-caeruleus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en.wikipedia Red-legged honeycreeper (data/texts) — высоты в Колумбии, подвид pacificus"
 en:
   key_features:
     - "Bright red legs"
@@ -40,12 +42,12 @@ en:
   behavior: "Very active: hops and flits from branch to branch in the mid-levels and canopy, at edges and in gardens. Outside the breeding season it gathers in groups of up to 15 and joins mixed flocks; eats fruit, insects and nectar."
   voice: "Calls almost constantly: a nasal 'cheeez', a thin 'tseet' and a buzzy rising 'dzrreet'."
 ---
-Red-legged Honeycreeper (красноногий саи) — саи полуоткрытых мест, опушек и садов, от низин до 2 000 м. На тихоокеанской стороне Колумбии живёт подвид pacificus. Красные ноги видны даже у птицы высоко в кроне и сразу отделяют его от Purple Honeycreeper. Часть самцов вне сезона размножения носит зеленоватый «зимний» наряд, но крылья и хвост у них остаются чёрными.
+Red-legged Honeycreeper (красноногий саи) — саи полуоткрытых мест, опушек и садов, в Колумбии от низин до 1 200 м. На тихоокеанской стороне страны живёт подвид pacificus: у самца бирюзовая шапочка меньше и темнее, подбой крыла бледнее. Красные ноги видны даже у птицы высоко в кроне и сразу отделяют его от Purple Honeycreeper. Часть самцов вне сезона размножения носит зеленоватый «зимний» наряд, но крылья и хвост у них остаются чёрными.
 
 На маршруте вид «возможен» в тихоокеанских низинах: на Км 42 и у Тумако 21 октября, на Финке Марагрикола и Плайя-дель-Морро 22–23 октября. Ищи его на цветущих и плодоносящих деревьях у дорог и в садах.
 
 ## English
 
-Red-legged Honeycreeper is a honeycreeper of semi-open country, edges and gardens, from the lowlands to 2,000 m. The Pacific side of Colombia holds the subspecies pacificus. The red legs show even on a bird high in the canopy and at once separate it from Purple Honeycreeper. Some males wear a greenish non-breeding plumage, but their wings and tail stay black.
+Red-legged Honeycreeper is a honeycreeper of semi-open country, edges and gardens, in Colombia from the lowlands to 1,200 m. The Pacific side of the country holds the subspecies pacificus, whose male has a smaller, darker turquoise cap and paler underwing. The red legs show even on a bird high in the canopy and at once separate it from Purple Honeycreeper. Some males wear a greenish non-breeding plumage, but their wings and tail stay black.
 
 On the route the species is "maybe" in the Pacific lowlands: at Km 42 and Tumaco on 21 October, Finca Maragrícola and Playa del Morro on 22–23 October. Look for it in flowering and fruiting trees along roads and in gardens.

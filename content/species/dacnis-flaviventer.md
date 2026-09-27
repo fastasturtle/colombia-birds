@@ -2,6 +2,7 @@
 id: dacnis-flaviventer
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: низ ярко-жёлтый, на груди чёрные пестрины, горло чёрное"
   - "Лицо чёрное с широким жёлтым усом, темя мохово-зелёное"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Yellow-bellied dacnis (en), Желтобрюхий дакнис (ru), CC BY-SA 4.0 — окраска, биотопы, питание, голос"
   - "content/species/dacnis-lineata.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en.wikipedia Yellow-bellied dacnis (data/texts) — высоты в Колумбии"
 en:
   key_features:
     - "Male: bright yellow underparts with black streaks on the breast, black throat"
@@ -40,12 +42,12 @@ en:
   behavior: "Feeds in pairs from the mid-levels to the canopy, less often in small groups; it joins mixed flocks infrequently. Keeps to flooded and lowland forest, often by lakes and along rivers; eats fruit, insects and nectar."
   voice: "A short high 'zeet' and a buzzy rising 'zrreet'; the song, a sharp 'whuh-zeeé', is rarely heard."
 ---
-Yellow-bellied Dacnis (желтобрюхий дакнис) — дакнис амазонских низин, в Колумбии на юго-востоке страны, обычно ниже 800 м. Самец непохож на других дакнисов: чёрно-жёлтый, с красным глазом, и напоминает скорее маленькую иволгу. Самка неприметная, оливковая, её узнают по тому же красному глазу. Лучше всего искать вид у воды: по берегам рек и стариц.
+Yellow-bellied Dacnis (желтобрюхий дакнис) — дакнис амазонских низин, в Колумбии на юго-востоке страны, до 500 м. Самец непохож на других дакнисов: чёрно-жёлтый, с красным глазом, и напоминает скорее маленькую иволгу. Самка неприметная, оливковая, её узнают по тому же красному глазу. Лучше всего искать вид у воды: по берегам рек и стариц.
 
 На маршруте он «возможен» на Финке Дискосура 7 октября, у Орито 11 октября, в Пуэрто-Асисе и на Плайя-Рике 11–13 октября и в Эль-Эскондите 13–14 октября.
 
 ## English
 
-Yellow-bellied Dacnis is a dacnis of the Amazonian lowlands, in Colombia in the southeast of the country, usually below 800 m. The male is unlike other dacnises: black and yellow with a red eye, more like a small oriole. The female is inconspicuous and olive and is identified by the same red eye. The best places to look are by water: along rivers and oxbow lakes.
+Yellow-bellied Dacnis is a dacnis of the Amazonian lowlands, in Colombia in the southeast of the country, up to 500 m. The male is unlike other dacnises: black and yellow with a red eye, more like a small oriole. The female is inconspicuous and olive and is identified by the same red eye. The best places to look are by water: along rivers and oxbow lakes.
 
 On the route it is "maybe" at Finca Discosura on 7 October, Orito on 11 October, Puerto Asís and Playa Rica on 11–13 October and El Escondite on 13–14 October.

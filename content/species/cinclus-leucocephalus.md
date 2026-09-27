@@ -2,9 +2,10 @@
 id: cinclus-leucocephalus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка и затылок белые, остальная голова черновато-бурая"
-  - "Горло и грудь белые, резко отделены от тёмного верха"
+  - "Горло, грудь и брюхо белые, резко отделены от тёмного верха"
   - "У колумбийских птиц большое белое пятно на верху спины"
   - "Плотная короткохвостая птица на камнях посреди бурного ручья"
 similar:
@@ -13,7 +14,7 @@ similar:
   - id: serpophaga-cinerea
     how: "намного мельче, серый, с чёрной шапочкой, без белого на голове и спине"
 behavior: "Держится поодиночке или парами на быстрых каменистых горных речках с чистой водой. Бегает по камням и по мелководью, окуная голову под воду за личинками насекомых, но, в отличие от других оляпок, не ныряет."
-voice: "Резкий звонкий позыв, хорошо слышный сквозь шум воды; часто подаёт его, пролетая низко над потоком."
+voice: "Позыв громкий, жужжащий, трескучий «дз-з-з-з-д», словно разряд тока; подаёт его обычно в полёте, и он хорошо слышен сквозь шум воды. Песня — громкое разнообразное щебетание с резкими фразами."
 traits:
   size: sparrow
   colors: [black, white]
@@ -25,10 +26,11 @@ sources:
   - "Данные проекта: data/species/cinclus-leucocephalus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: White-capped dipper (en), Cinclus leucocephalus (es), Белоголовая оляпка (ru), CC BY-SA 4.0 — data/texts: окраска подвида leuconotus, питание, местообитания, высоты"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en.wikipedia White-capped dipper (data/texts) — белый низ до брюха у leuconotus, голос"
 en:
   key_features:
     - "White crown and nape, rest of the head blackish brown"
-    - "White throat and breast, sharply set off from the dark upperparts"
+    - "White throat, breast and belly, sharply set off from the dark upperparts"
     - "Colombian birds have a large white patch on the upper back"
     - "Chunky, short-tailed bird on rocks in a rushing stream"
   similar:
@@ -37,7 +39,7 @@ en:
     - id: serpophaga-cinerea
       how: "much smaller, gray, with a black cap and no white on the head or back"
   behavior: "Keeps singly or in pairs on fast, rocky mountain streams with clear water. Runs over rocks and through shallows, dipping its head under water for insect larvae, but unlike other dippers it does not dive."
-  voice: "A sharp ringing call that carries over the noise of the water, often given as it flies low along the stream."
+  voice: "The call is a loud, buzzy, rattling \"zzzeeed\", like an electric discharge; usually given in flight and easily heard over the noise of the water. The song is a loud, varied warble with harsh phrases."
 ---
 White-capped Dipper (белоголовая оляпка) — родственница европейской оляпки, живущая на быстрых горных речках Анд; в Колумбии встречается на 500–4 000 м, чаще в поясе облачного леса. В стране живёт подвид leuconotus с белым пятном на спине. Птица верна своему участку реки: нашёл пару — увидишь её на тех же камнях и на следующее утро.
 

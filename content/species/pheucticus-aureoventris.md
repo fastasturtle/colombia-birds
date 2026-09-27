@@ -2,6 +2,7 @@
 id: pheucticus-aureoventris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень массивный, конический, как у дубоноса"
   - "Голова, спина, горло и верх груди чёрные, резко отделены от ярко-жёлтого брюха"

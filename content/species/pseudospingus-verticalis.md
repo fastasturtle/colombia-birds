@@ -2,8 +2,9 @@
 id: pseudospingus-verticalis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Голова чёрная, по середине темени светло-серая полоса"
+  - "Голова чёрная, по середине темени светлая охристая полоса"
   - "Глаз светлый, заметный на чёрной голове"
   - "Спина и крылья ровные серые, низ светлее, серый"
   - "Мелкая, с тонким коротким клювом, двигается как древесница"
@@ -26,9 +27,10 @@ sources:
   - "Wikipedia: Black-headed hemispingus (en), Pseudospingus verticalis (es), CC BY-SA 4.0 — распространение в Колумбии, высоты, биотопы, типовое местонахождение"
   - "content/species/kleinothraupis-atropileus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: eBird, по сниппету поиска (https://ebird.org/species/blhhem1) — охристая полоса на темени, светлый глаз, серое тело"
 en:
   key_features:
-    - "Black head with a pale gray stripe down the middle of the crown"
+    - "Black head with a pale buffy stripe down the middle of the crown"
     - "Pale eye, obvious on the black head"
     - "Plain gray back and wings, paler gray below"
     - "Small, with a short thin bill, moves like a warbler"

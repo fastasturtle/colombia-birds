@@ -2,6 +2,7 @@
 id: tangara-florida
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся ярко-светло-зелёная, спина в чёрных пестринах"
   - "Темя тёмно-жёлтое, поясница тоже жёлтая"

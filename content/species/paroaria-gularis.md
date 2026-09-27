@@ -2,6 +2,7 @@
 id: paroaria-gularis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова ярко-малиново-красная"
   - "Горло чёрное, заходит клином на грудь"
@@ -9,7 +10,7 @@ key_features:
   - "Надклювье чёрное, подклювье светлое, телесного цвета"
 similar:
   - id: ramphocelus-nigrogularis
-    how: "алые не только голова, но и всё тело, середина груди и брюха чёрная, подклювье серебристо-белое"
+    how: "алые не только голова, но и шея, грудь и бока, у клюва чёрная маска; спина, крылья, хвост и середина брюха чёрные, подклювье серебристо-белое"
 behavior: "Держится заметными парами или семейными группами у воды: на берегах рек и стариц, в затопляемом лесу, манграх и заросших болотах, заходит в посёлки. Кормится насекомыми, семенами и плодами, часто на земле и на плавучей растительности."
 voice: "Изменчивая, часто повторяемая песня из нот «сюиит-чу»; позыв — резкое «чеп»."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Red-capped cardinal (en), Paroaria gularis (es), CC BY-SA 4.0 — окраска, биотопы, поведение, голос"
   - "content/species/ramphocelus-nigrogularis.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: en.wikipedia Masked crimson tanager (data/texts) — окраска для отличия"
 en:
   key_features:
     - "Bright crimson-red head"
@@ -32,7 +34,7 @@ en:
     - "Black upper mandible, pale flesh-coloured lower mandible"
   similar:
     - id: ramphocelus-nigrogularis
-      how: "not only the head but the whole body scarlet, black centre of breast and belly, silvery-white lower mandible"
+      how: "scarlet not only on the head but on the neck, breast and flanks, with a black mask at the bill; back, wings, tail and centre of the belly black, silvery-white lower mandible"
   behavior: "Keeps in conspicuous pairs or family groups by water: river banks and oxbow lakes, flooded forest, mangroves and overgrown marshes, and enters villages. Feeds on insects, seeds and fruit, often on the ground and on floating vegetation."
   voice: "A variable, often repeated song of 'suweet-chu' notes; the call is a sharp 'chep'."
 ---

@@ -2,11 +2,12 @@
 id: sporophila-castaneiventris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: верх, голова и бока голубовато-серые"
   - "Самец: каштановая полоса от горла по центру груди и брюха до подхвостья"
   - "Клюв короткий, толстый, черноватый; птица крошечная, около 10 см"
-  - "Самка оливково-бурая сверху, снизу бледно-охристая, без примет"
+  - "Самка оливково-бурая сверху, снизу бледнее, желтовато-охристая, без примет"
 similar:
   - id: sporophila-angolensis
     how: "крупнее, клюв массивный; самец чёрный сверху, каштановое брюхо без серых боков, на крыле белое пятнышко"
@@ -31,7 +32,7 @@ en:
     - "Male: upperparts, head and flanks bluish gray"
     - "Male: chestnut stripe from throat down the centre of breast and belly to the undertail"
     - "Short, thick blackish bill; a tiny bird, about 10 cm"
-    - "Female olive-brown above, pale buff below, unmarked"
+    - "Female olive-brown above, paler yellowish buff below, unmarked"
   similar:
     - id: sporophila-angolensis
       how: "larger, with a massive bill; male black above, chestnut belly without gray sides, a small white wing patch"
