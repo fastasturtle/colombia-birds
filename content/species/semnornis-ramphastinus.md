@@ -2,6 +2,7 @@
 id: semnornis-ramphastinus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Толстый жёлтоватый клюв с тёмным кончиком, как у маленького тукана"
   - "Чёрная маска и шапочка, над глазом белая полоска"
@@ -23,6 +24,7 @@ traits:
   layer: [canopy, midstory, feeder]
 sources:
   - "Данные проекта: data/species/semnornis-ramphastinus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Факт-чек 2026-09-27: приметы, дуэт и кормёжка сверены с en/ru.wikipedia (https://en.wikipedia.org/wiki/Toucan_barbet), CC BY-SA 4.0"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:

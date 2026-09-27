@@ -2,9 +2,10 @@
 id: pelecanus-occidentalis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв огромный, длинный, с кожистым горловым мешком"
-  - "Тело серо-бурое, голова у взрослых белая или желтоватая, задняя сторона шеи бурая"
+  - "Тело серо-бурое, голова у взрослых белая или желтоватая, в брачном наряде шея сзади тёмно-бурая"
   - "Летает цепочкой низко над волнами, чередуя взмахи и планирование"
   - "Ныряет за рыбой с высоты, сложив крылья, с громким всплеском"
 similar:
@@ -22,11 +23,12 @@ traits:
 sources:
   - "Wikipedia: Brown pelican (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/pelecanus-occidentalis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Факт-чек 2026-09-27: наряды и полёт цепочкой по en.wikipedia (https://en.wikipedia.org/wiki/Brown_pelican)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Huge long bill with a skin throat pouch"
-    - "Gray-brown body; adults have a white or yellowish head and a brown hindneck"
+    - "Gray-brown body; adults have a white or yellowish head and, when breeding, a dark brown hindneck"
     - "Flies in lines low over the waves, alternating flaps and glides"
     - "Plunge-dives for fish from height with folded wings and a loud splash"
   similar:
