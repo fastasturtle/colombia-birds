@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # to dispatch deploy.yml after committing data (bot pushes don't trigger workflows)
 
 concurrency:
   group: pipeline
@@ -76,3 +77,12 @@ jobs:
           git commit -m "data: pipeline run ($STEPS)"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "pushed=1" >> "$GITHUB_OUTPUT"
+        id: commit
+
+      # A push made with GITHUB_TOKEN does not trigger other workflows, so start the site deploy explicitly.
+      - name: Deploy site
+        if: always() && steps.commit.outputs.pushed == '1' && github.ref_name == 'main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
