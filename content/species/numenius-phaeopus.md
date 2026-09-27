@@ -25,6 +25,9 @@ sources:
   - "Wikipedia: Eurasian whimbrel (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/numenius-phaeopus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: eBird 2025 Taxonomy Update (разделение Whimbrel): https://ebird.org/news/2025-taxonomy-update"
+  - "Факт-чек 27.09.2026: Wikipedia: Hudsonian whimbrel (en) — поясница, голос: https://en.wikipedia.org/wiki/Hudsonian_whimbrel"
+  - "Факт-чек 27.09.2026: Wikipedia: Американский средний кроншнеп (ru): https://ru.wikipedia.org/wiki/Американский_средний_кроншнеп"
 en:
   key_features:
     - "Long bill curved downward, with the bend nearer the tip"
@@ -39,12 +42,12 @@ en:
   behavior: "Feeds on beaches, in mangroves and on mudflats, pulling crabs out of burrows with its curved bill. Keeps singly or in loose groups and flies off calling when disturbed."
   voice: "A ringing level trill of 6–7 identical whistles, 'pi-pi-pi-pi-pi-pi'."
 ---
-Whimbrel (средний кроншнеп) — перелётный кулик с севера, который с конца лета до весны живёт на тихоокеанском побережье, в манграх и на пляжах. Изогнутый клюв и полосатая голова делают его самым узнаваемым крупным куликом берега. Птицы, зимующие в Колумбии, относятся к американской форме: у них поясница и спина бурые, без белого клина, который виден в полёте у европейских птиц.
+Whimbrel (средний кроншнеп) — перелётный кулик с севера, который с конца лета до весны живёт на тихоокеанском побережье, в манграх и на пляжах. Изогнутый клюв и полосатая голова делают его самым узнаваемым крупным куликом берега. Птицы, зимующие в Колумбии, относятся к американской форме, которую eBird/Clements с 2025 года считает отдельным видом, — Hudsonian Whimbrel (американский средний кроншнеп, Numenius hudsonicus): у них поясница и спина бурые, без белого клина, который виден в полёте у европейских птиц.
 
 На маршруте он «точно» в Тумако и на Плайя-дель-Морро 21–23 октября. Ищи его на отливе у края мангров и на камнях островка, откуда он поднимается с трелью.
 
 ## English
 
-Whimbrel is a migrant wader from the north that lives on the Pacific coast, in mangroves and on beaches, from late summer to spring. The curved bill and striped head make it the most recognisable large shorebird of the coast. Birds wintering in Colombia belong to the American form: their rump and back are brown, without the white wedge shown in flight by European birds.
+Whimbrel is a migrant wader from the north that lives on the Pacific coast, in mangroves and on beaches, from late summer to spring. The curved bill and striped head make it the most recognisable large shorebird of the coast. Birds wintering in Colombia belong to the American form, treated by eBird/Clements since 2025 as a separate species, Hudsonian Whimbrel (Numenius hudsonicus): their rump and back are brown, without the white wedge shown in flight by European birds.
 
 On the route it is "sure" at Tumaco and Playa del Morro on 21–23 October. Look for it at low tide along the mangrove edge and on the rocks of the islet, where it takes off with a trill.

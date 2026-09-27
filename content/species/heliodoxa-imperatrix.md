@@ -9,7 +9,7 @@ key_features:
   - "Самка: хвост короче, горло и грудь сероватые в плотных зелёных пятнах"
 similar:
   - id: heliodoxa-jacula
-    how: "мельче, хвост короче и почти не вырезан; брюхо зелёное, без золотистого"
+    how: "мельче (12–13 см), хвост короче, хотя тоже вильчатый; за глазом белое пятнышко, брюхо бронзово-зелёное, без золотистого"
   - id: boissonneaua-jardini
     how: "низ фиолетово-синий, в хвосте много белого"
 behavior: "Кормится от среднего яруса до крон, самки ниже, в подлеске; присаживается на лианы маркгравии, пьёт из свисающих цветков вересковых. Приходит на кормушки лоджей тихоокеанского склона."
@@ -25,6 +25,7 @@ sources:
   - "Wikipedia: Empress brilliant (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/heliodoxa-imperatrix.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia: Green-crowned brilliant (en) — отличия H. jacula: https://en.wikipedia.org/wiki/Green-crowned_brilliant"
 en:
   key_features:
     - "Large, the male up to 15–17 cm, with a long, deeply forked dark tail"
@@ -33,7 +34,7 @@ en:
     - "Female: shorter tail, throat and breast grayish with dense green spotting"
   similar:
     - id: heliodoxa-jacula
-      how: "smaller, tail shorter and barely notched; belly green without gold"
+      how: "smaller (12–13 cm), tail shorter though also forked; a white spot behind the eye, belly bronzy green without gold"
     - id: boissonneaua-jardini
       how: "underparts violet-blue, much white in the tail"
   behavior: "Feeds from mid-levels to the canopy, females lower in the understory; perches on Marcgravia vines and drinks from pendant ericaceous flowers. Visits lodge feeders on the Pacific slope."

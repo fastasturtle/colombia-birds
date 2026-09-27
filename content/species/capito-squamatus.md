@@ -9,7 +9,7 @@ key_features:
   - "Самка: лоб жёлто-оранжевый, горло и грудь чёрные"
 similar:
   - id: capito-quinticolor
-    how: "у самца темя и затылок красные, а не белые, на спине жёлтые полосы"
+    how: "у самца темя и затылок красные, а не белые, на спине жёлтая «галочка», горло и грудь жёлтые"
 behavior: "Обычно парами кормится на всех ярусах леса, на опушках, в садах и на пастбищах с деревьями, часто вместе со смешанными стаями. Ест плоды и ягоды, реже насекомых."
 voice: "Песня — низкая очень быстрая мурлыкающая трель; позывка — резкое «трик»."
 traits:
@@ -24,6 +24,7 @@ sources:
   - "Данные проекта: data/species/capito-squamatus.json (ACO 2022, BIRDBASE 2025; Красная книга Колумбии: VU), data/site_species.json (GBIF)"
   - "content/families/capitonidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia: Five-colored barbet (en) — отличия C. quinticolor: https://en.wikipedia.org/wiki/Five-colored_barbet"
 en:
   key_features:
     - "Male's forehead orange-red, crown white, rest of the head black"
@@ -32,7 +33,7 @@ en:
     - "Female: forehead yellow-orange, throat and breast black"
   similar:
     - id: capito-quinticolor
-      how: "the male's crown and nape red, not white, with yellow stripes on the back"
+      how: "the male's crown and nape red, not white, a yellow V on the back, throat and breast yellow"
   behavior: "Usually in pairs, feeding at all levels in forest, edges, orchards and pastures with trees, often with mixed flocks. Eats fruit and berries, sometimes insects."
   voice: "Song a low, very fast, purring trill; call a sharp 'trik'."
 ---

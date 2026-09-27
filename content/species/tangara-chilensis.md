@@ -4,8 +4,8 @@ difficulty: easy
 lynx_page: null
 key_features:
   - "Голова ярко-яблочно-зелёная, резко отделена от чёрной спины"
-  - "Грудь и брюхо бирюзово-голубые, горло фиолетовое"
-  - "Поясница огненно-красная, у части популяций с жёлтым"
+  - "Грудь и бока бирюзово-голубые, середина брюха чёрная, горло фиолетовое"
+  - "Низ спины огненно-красный, надхвостье в зависимости от подвида красное или жёлтое"
   - "Стайками в самых высоких кронах, быстро перелетает с дерева на дерево"
 similar:
   - id: tangara-mexicana
@@ -28,11 +28,12 @@ sources:
   - "Данные проекта: data/species/tangara-chilensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/groups/tanagers.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Birds of the World: Paradise Tanager, Plumages (сниппет поиска: низ спины красный, надхвостье по подвиду, середина брюха чёрная): https://birdsoftheworld.org/bow/species/partan1/cur/appearance"
 en:
   key_features:
     - "Bright apple-green head, sharply set off from the black back"
-    - "Turquoise-blue breast and belly, violet throat"
-    - "Fiery red rump, with yellow in some populations"
+    - "Turquoise-blue breast and flanks, black centre of the belly, violet throat"
+    - "Fiery red lower back; rump red or yellow depending on subspecies"
     - "Flocks in the tallest crowns, moving quickly from tree to tree"
   similar:
     - id: tangara-mexicana

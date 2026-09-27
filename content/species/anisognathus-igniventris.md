@@ -26,6 +26,8 @@ sources:
   - "Wikipedia: Anisognathus igniventris (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/anisognathus-igniventris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia: Краснобрюхая горная танагра (ru) — подвиды в Колумбии: https://ru.wikipedia.org/wiki/Краснобрюхая_горная_танагра"
+  - "Факт-чек 27.09.2026: eBird: Scarlet-bellied Mountain Tanager (описание голоса, только чтение): https://ebird.org/species/sbmtan1"
 en:
   key_features:
     - "Mostly black, with the lower breast and belly bright scarlet"
