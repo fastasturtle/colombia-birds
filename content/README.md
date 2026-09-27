@@ -13,6 +13,7 @@
 id: grallaria-hypoleuca            # обязательно, = имя файла и id в data/species_index.json
 difficulty: medium                 # easy | medium | hard — насколько легко узнать в поле
 lynx_page: null                    # ручное переопределение страницы в Lynx «Birds of Colombia» (Hilty 2021); по умолчанию null — сайт берёт lynx_page из data/species_index.json
+checked: 2026-09-27                # необязательно: дата последнего факт-чека (YYYY-MM-DD), на сайте не показывается; сводка — scripts/card_index.py → docs/fact-check/INDEX.md
 key_features:                      # 3–5 признаков, каждый начинается с признака, ≤ 20 слов
   - "Горло и брюхо чисто белые, без пестрин"
 similar:                           # похожие виды: id из индекса (лучше с маршрута) и отличие одной фразой

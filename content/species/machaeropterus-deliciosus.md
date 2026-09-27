@@ -2,6 +2,7 @@
 id: machaeropterus-deliciosus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: лоб и шапочка алые, тело каштаново-бурое"
   - "Крылья самца чёрные с широким белым на маховых, заметным при движении"

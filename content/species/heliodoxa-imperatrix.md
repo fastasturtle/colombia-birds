@@ -2,6 +2,7 @@
 id: heliodoxa-imperatrix
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный, самец до 15–17 см, с длинным глубоко вильчатым тёмным хвостом"
   - "Самец тёмно-зелёный, брюхо блестящее золотисто-зелёное"

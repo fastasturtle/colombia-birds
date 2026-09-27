@@ -83,13 +83,26 @@ export interface SpeciesCard extends CardText {
   id: string;
   difficulty: Difficulty;
   lynx_page: number | null;
+  /** Date of the last fact-check pass (YYYY-MM-DD); bookkeeping only, not rendered. */
+  checked: string | null;
   traits: Traits;
   sources: string[];
   en: CardText;
 }
 
+/** `checked:` → "YYYY-MM-DD", null if absent, undefined if invalid. YAML turns an unquoted date into a Date and
+ *  silently rolls 2026-13-40 over, so for a Date the raw frontmatter text is validated instead. */
+function parseChecked(v: unknown, rawFrontmatter: string): string | null | undefined {
+  if (v == null) return null;
+  const raw = /^checked:\s*['"]?([^'"#\s]*)/m.exec(rawFrontmatter)?.[1] ?? '';
+  const s = v instanceof Date ? raw : typeof v === 'string' ? v.trim() : '';
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(s)) return undefined;
+  const d = new Date(`${s}T00:00:00Z`);
+  return !isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s ? s : undefined;
+}
+
 /** Validate one card's frontmatter + body; throws with the file name on any schema error. */
-function parseCard(file: string, data: Record<string, any>, content: string, known: Set<string>): SpeciesCard {
+function parseCard(file: string, data: Record<string, any>, content: string, known: Set<string>, rawFrontmatter = ''): SpeciesCard {
   const where = `content/species/${file}`;
   const fail = (m: string) => new Error(`${where}: ${m} (schema: content/README.md)`);
   const slug = file.replace(/\.md$/, '');
@@ -97,6 +110,8 @@ function parseCard(file: string, data: Record<string, any>, content: string, kno
   if (!known.has(slug)) throw fail(`id "${slug}" is not in data/species_index.json`);
   if (!['easy', 'medium', 'hard'].includes(data.difficulty)) throw fail('difficulty must be easy | medium | hard');
   if (data.lynx_page != null && !Number.isInteger(data.lynx_page)) throw fail('lynx_page must be an integer or null');
+  const checked = parseChecked(data.checked, rawFrontmatter);
+  if (checked === undefined) throw fail('checked must be a date YYYY-MM-DD or absent');
   const str = (v: unknown, k: string) => {
     if (typeof v !== 'string' || !v.trim()) throw fail(`${k} must be a non-empty string`);
     return v.trim();
@@ -127,6 +142,7 @@ function parseCard(file: string, data: Record<string, any>, content: string, kno
     id: slug,
     difficulty: data.difficulty,
     lynx_page: data.lynx_page ?? null,
+    checked,
     traits: validateTraits(data.traits, where),
     sources: Array.isArray(data.sources) ? data.sources.map((x: unknown, i: number) => str(x, `sources[${i}]`)) : [],
     ...text(data, ru, ''),
@@ -148,8 +164,8 @@ export function speciesCards(): Map<string, SpeciesCard> {
     const known = new Set(speciesIndex().map((s) => s.id));
     for (const f of readdirSync(dir).sort()) {
       if (!f.endsWith('.md') || f === 'README.md') continue;
-      const { data, content } = matter(readFileSync(join(dir, f), 'utf8'));
-      const c = parseCard(f, data, content, known);
+      const { data, content, matter: raw } = matter(readFileSync(join(dir, f), 'utf8'));
+      const c = parseCard(f, data, content, known, raw);
       out.set(c.id, c);
     }
   }

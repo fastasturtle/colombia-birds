@@ -2,6 +2,7 @@
 id: capito-squamatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб самца оранжево-красный, темя белое, остальная голова чёрная"
   - "Спина и крылья чёрные, на сложенном крыле белое пятно"

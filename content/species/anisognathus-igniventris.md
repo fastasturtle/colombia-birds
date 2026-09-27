@@ -2,6 +2,7 @@
 id: anisognathus-igniventris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся чёрная, нижняя часть груди и брюхо ярко-алые"
   - "На чёрной щеке алое пятно за глазом"

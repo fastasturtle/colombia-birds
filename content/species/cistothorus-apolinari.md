@@ -2,6 +2,7 @@
 id: cistothorus-apolinari
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка каштановая, без пестрин"
   - "Верх спины черновато-бурый в белёсых продольных штрихах, поясница ярко-рыжая"
