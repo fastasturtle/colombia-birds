@@ -9,7 +9,7 @@ key_features:
   - "Ноги ярко-жёлтые или оранжевые, у печников больше ни у кого"
   - "Мелкий и акробатичный, повисает на тонких веточках вниз головой"
 similar:
-  - id: tunchiornis-ochraceiceps
+  - id: tunchiornis-ferrugineifrons
     how: "лоб рыжеватый, но лицо не жёлтое, глаз светлый, низ сероватый, ноги не жёлтые; держится в подлеске леса (в Амазонии это форма, которую теперь выделяют как Rufous-fronted Greenlet)"
   - id: pachysylvia-hypoxantha
     how: "шапочка буроватая, без оранжевого лба и жёлтого лица, ноги не жёлтые; кормится в кронах"
@@ -35,7 +35,7 @@ en:
     - "Legs bright yellow or orange, unique among ovenbirds"
     - "Small and acrobatic, hangs upside down from thin twigs"
   similar:
-    - id: tunchiornis-ochraceiceps
+    - id: tunchiornis-ferrugineifrons
       how: "rufous forehead but no yellow face, pale eye, grayish underparts, legs not yellow; keeps to the forest understory (in Amazonia this is the form now split as Rufous-fronted Greenlet)"
     - id: pachysylvia-hypoxantha
       how: "brownish cap, no orange forehead or yellow face, legs not yellow; feeds in the canopy"

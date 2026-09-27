@@ -183,7 +183,6 @@
 | philohydor-lictor | Lesser Kiskadee | Тиранны и титиры |
 | myiozetetes-granadensis | Gray-capped Flycatcher | Тиранны и титиры |
 | conopias-cinchoneti | Lemon-browed Flycatcher | Тиранны и титиры |
-| myiodynastes-chrysocephalus | Golden-crowned Flycatcher | Тиранны и титиры |
 | myiodynastes-maculatus | Streaked Flycatcher | Тиранны и титиры |
 | tyrannus-savana | Fork-tailed Flycatcher | Тиранны и титиры |
 | masius-chrysopterus | Golden-winged Manakin | Котинги и манакины |
@@ -262,11 +261,12 @@
 | geothlypis-semiflava | Olive-crowned Yellowthroat | Овсянки, древесницы, трупиалы и вьюрки |
 | setophaga-ruticilla | American Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 | setophaga-striata | Blackpoll Warbler | Овсянки, древесницы, трупиалы и вьюрки |
-| basileuterus-rufifrons | Rufous-capped Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 | basileuterus-tristriatus | Three-striped Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 | myiothlypis-luteoviridis | Citrine Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 | myiothlypis-coronata | Russet-crowned Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 | myioborus-melanocephalus | Spectacled Redstart | Овсянки, древесницы, трупиалы и вьюрки |
+| basileuterus-rufifrons | ? | — |
+| myiodynastes-chrysocephalus | ? | — |
 
 ## Проверено (467)
 
