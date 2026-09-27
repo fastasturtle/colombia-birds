@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "shots": "node scripts/screenshot.mjs"
   },
   "dependencies": {
     "@astrojs/svelte": "^9.0.1",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "playwright": "^1.63.0",
     "typescript": "^6.0.3"
   }
 }
