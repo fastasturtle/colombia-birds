@@ -2,6 +2,7 @@
 id: ramphastos-brevis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв огромный, двухцветный: верх жёлтый, низ и треугольник у основания чёрные"
   - "Горло и грудь ярко-жёлтые, снизу узкая красная полоса"
@@ -9,7 +10,7 @@ key_features:
   - "Вокруг глаза голая зеленоватая кожа"
 similar:
   - id: ramphastos-ambiguus
-    how: "почти так же окрашен, но крупнее, низ клюва каштановый; надёжно отличается только голосом — визгливым «кьё-ке-ке» вместо квакающего «крэок»"
+    how: "почти так же окрашен, но крупнее, низ клюва каштановый; надёжно отличается только голосом — серией громких визгливых выкриков, которые передают как «Диос те де, те де», вместо квакающего «крэок»"
 behavior: "Парами и группами кормится в кронах низинного и предгорного леса и на плодоносящих деревьях у пастбищ. Иногда держится у стай муравьёв-кочевников. В брачных играх пары качают головами из стороны в сторону."
 voice: "Размеренная серия квакающих «крэ-ок», похожая на лягушачий хор; ещё стучит клювом."
 traits:
@@ -23,6 +24,8 @@ sources:
   - "Wikipedia: Choco toucan (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/ramphastos-brevis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/ramphastidae.md"
+  - "Wikipedia: Yellow-throated toucan (en, CC BY-SA 4.0) — клюв подвида swainsonii и голос"
+  - "Факт-чек 2026-09-27: отличия от R. ambiguus swainsonii по en.wikipedia (https://en.wikipedia.org/wiki/Yellow-throated_toucan, https://en.wikipedia.org/wiki/Choco_toucan)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -32,7 +35,7 @@ en:
     - "Bare greenish skin around the eye"
   similar:
     - id: ramphastos-ambiguus
-      how: "almost identical in colour but larger, with a chestnut lower bill; reliably told only by voice, a yelping 'kyow-kek-kek' instead of a croaking 'kreeork'"
+      how: "almost identical in colour but larger, with a chestnut lower bill; reliably told only by voice, a series of loud yelps rendered as 'Díos te dé, te dé', instead of a croaking 'kreeork'"
   behavior: "Pairs and groups feed in the canopy of lowland and foothill forest and in fruiting trees by pastures. Sometimes follows army-ant swarms. In courtship pairs swing their heads from side to side."
   voice: "A steady series of croaking 'kre-ork' notes, like a frog chorus; also clacks its bill."
 ---

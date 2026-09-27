@@ -2,6 +2,7 @@
 id: rupornis-magnirostris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и грудь серовато-бурые, брюхо в частых буро-белых поперечных полосах"
   - "Глаз светлый, желтоватый или беловатый"

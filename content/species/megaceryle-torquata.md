@@ -2,6 +2,7 @@
 id: megaceryle-torquata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный, около 40 см, с лохматым хохлом и массивным прямым клювом-кинжалом"
   - "Верх сине-серый, вокруг шеи широкий белый ошейник"
@@ -11,7 +12,7 @@ similar:
   - id: chloroceryle-amazona
     how: "заметно мельче, верх тёмно-зелёный, брюхо белое, рыжее только на груди у самца"
   - id: megaceryle-alcyon
-    how: "брюхо белое; у самца сине-серая полоса на белой груди, рыжий пояс только у самки"
+    how: "северный мигрант, мельче; брюхо белое, у обоих полов сине-серая полоса на груди, у самки ниже неё ещё рыжий пояс"
 behavior: "Сидит высоко на сухих ветках, проводах и корягах над широкими реками, озёрами и в манграх, выслеживает рыбу и ныряет за ней головой вперёд. Часто перелетает над водой высоко, с шумными криками."
 voice: "Громкое сухое «кек-кек-кек», сливающееся в трещотку, особенно на лету."
 traits:
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Ringed kingfisher (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/megaceryle-torquata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/alcedinidae.md"
+  - "Wikipedia: Belted kingfisher, Amazon kingfisher (en, CC BY-SA 4.0) — для отличий"
+  - "Факт-чек 2026-09-27: окраска самцов и самок Belted Kingfisher по en.wikipedia (https://en.wikipedia.org/wiki/Belted_kingfisher)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -36,7 +39,7 @@ en:
     - id: chloroceryle-amazona
       how: "much smaller, upperparts dark green, belly white, rufous only on the male's breast"
     - id: megaceryle-alcyon
-      how: "belly white; the male has a blue-gray band on a white breast, a rufous belt only in the female"
+      how: "a northern migrant, smaller; belly white, both sexes with a blue-gray breast band, the female with an extra rufous belt below it"
   behavior: "Perches high on dead branches, wires and snags over wide rivers, lakes and mangroves, watches for fish and plunges in head first. Often crosses high over the water, calling loudly."
   voice: "A loud dry 'kek-kek-kek' running into a rattle, especially in flight."
 ---

@@ -2,6 +2,7 @@
 id: fregata-magnificens
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крылья очень длинные, узкие, изломанные углом, размах больше двух метров"
   - "Хвост длинный, глубоко вильчатый, в полёте часто сложен в острую «иглу»"
@@ -10,7 +11,7 @@ key_features:
   - "Парит часами почти без взмахов высоко над берегом"
 similar:
   - id: fregata-minor
-    how: "редок у побережья; у самца зелёный, а не фиолетовый отлив на спине, у самки горло серовато-белое, а не чёрное, кольцо вокруг глаза красное"
+    how: "редок у побережья; у самца зелёный, а не фиолетовый отлив на спине, у самки горло серовато-белое, а не чёрное, кольцо вокруг глаза красное, а не голубое"
 behavior: "Парит над побережьем и портами, никогда не садится на воду. Отнимает рыбу у олуш и пеликанов, гоняясь за ними в воздухе, и подхватывает добычу с поверхности клювом."
 voice: "Вдали от колоний молчит."
 traits:
@@ -23,6 +24,7 @@ traits:
 sources:
   - "Wikipedia: Magnificent frigatebird (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/fregata-magnificens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Факт-чек 2026-09-27: отличия самки и самца Great Frigatebird по en.wikipedia (https://en.wikipedia.org/wiki/Magnificent_frigatebird, https://en.wikipedia.org/wiki/Great_frigatebird)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -33,7 +35,7 @@ en:
     - "Soars for hours almost without flapping, high over the coast"
   similar:
     - id: fregata-minor
-      how: "rare near the coast; male has a green rather than purple sheen on the back, female a whitish-gray rather than black throat and a red eye-ring"
+      how: "rare near the coast; male has a green rather than purple sheen on the back, female a whitish-gray rather than black throat and a red rather than blue eye-ring"
   behavior: "Soars over coasts and harbours and never lands on the water. Steals fish from boobies and pelicans by chasing them in the air and snatches prey from the surface with its bill."
   voice: "Silent away from colonies."
 ---

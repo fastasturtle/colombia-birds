@@ -2,6 +2,7 @@
 id: chroicocephalus-serranus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова в брачном наряде чёрная, за глазом белая полумесяцем, вне сезона белая с тёмным пятном"
   - "Спина и крылья светло-серые, тело и хвост белые"
@@ -11,8 +12,8 @@ key_features:
 similar:
   - id: leucophaeus-atricilla
     how: "только на морском побережье; мельче и тоньше, крыло тёмно-серое с чёрным концом без белых зеркал"
-behavior: "Кормится у берегов высокогорных озёр и на влажных пастбищах, ходит за тракторами и собирает червей и насекомых. Отдыхает стайками на отмелях и на воде."
-voice: "Резкие хриплые крики «кьяа» и смеющиеся серии у стаи."
+behavior: "Кормится у берегов высокогорных озёр, на полях и влажных пастбищах: ходит, плавает и ловит на лету червей, насекомых, мелких рыб и лягушек. Отдыхает стайками на отмелях и на воде."
+voice: "Взволнованные, иногда дрожащие крики «йиир», хриплое «рааг-ааг-кьяаг» и низкие скрипучие ноты."
 traits:
   size: crow
   colors: [white, gray, black]
@@ -23,6 +24,8 @@ traits:
 sources:
   - "Wikipedia: Andean gull (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/chroicocephalus-serranus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Wikipedia: Gaviota andina (es, CC BY-SA 4.0); Андская чайка (ru)"
+  - "Факт-чек 2026-09-27: голос и питание по en.wikipedia (https://en.wikipedia.org/wiki/Andean_gull)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -34,8 +37,8 @@ en:
   similar:
     - id: leucophaeus-atricilla
       how: "only on the sea coast; smaller and slimmer, dark gray wing with a black tip and no white mirrors"
-  behavior: "Feeds along the shores of high lakes and on wet pastures, follows tractors and picks up worms and insects. Rests in small flocks on mudbanks and on the water."
-  voice: "Harsh hoarse 'kyaa' calls and laughing series from flocks."
+  behavior: "Feeds along the shores of high lakes, in fields and on wet pastures: walks, swims and hawks in flight for worms, insects, small fish and frogs. Rests in small flocks on mudbanks and on the water."
+  voice: "Agitated, sometimes tremulous 'yeeer' calls, a hoarse 'raggh-aggh-keeaagh' and low raspy notes."
 ---
 Andean Gull (андская чайка) — крупная чайка высокогорных озёр, болот и парамо, обычно выше 3 000 м; в Колумбии живёт только на крайнем юго-западе, в Нариньо. Других чаек в Андах нет, поэтому белая птица с серой спиной над горным озером почти наверняка она. В брачном наряде у неё чёрный капюшон, вне сезона голова белая с тёмным пятном за глазом.
 
