@@ -2,6 +2,7 @@
 id: pipreola-arcuata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ жёлтый в частых чёрных поперечных полосах, у обоих полов"
   - "Клюв и ноги красные, заметны даже в тени"
@@ -10,7 +11,7 @@ key_features:
   - "Хвост с чёрной полосой у конца и светлыми кончиками"
 similar:
   - id: pipreola-riefferii
-    how: "мельче, низ без поперечных полос, зелёный с жёлтым; живёт ниже по склону"
+    how: "мельче, низ жёлтый в тёмных продольных пестринах, а не в поперечных полосах, у самца жёлтая кайма под чёрным капюшоном; живёт в среднем ниже по склону"
   - id: ampelioides-tschudii
     how: "низ в чешуйках, а не в полосах, есть жёлтый ошейник; держится в предгорьях"
 behavior: "Поодиночке или парами подолгу вяло сидит в среднем ярусе и в кронах высокогорного леса. Кормится плодами, в смешанные стаи вступает редко."
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Pipreola arcuata (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/pipreola-arcuata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Green-and-black fruiteater (en), Ampelioides tschudii (es) (CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Yellow underparts closely barred black, in both sexes"
@@ -36,7 +38,7 @@ en:
     - "Tail with a black band near the end and pale tips"
   similar:
     - id: pipreola-riefferii
-      how: "smaller, underparts unbarred, green and yellow; lives lower on the slope"
+      how: "smaller, underparts yellow with dark lengthwise streaks rather than bars, male with a yellow border below the black hood; lives lower on the slope on average"
     - id: ampelioides-tschudii
       how: "scaled rather than barred below, has a yellow collar; keeps to the foothills"
   behavior: "Singly or in pairs sits sluggishly for long periods in the midstory and canopy of high forest. Feeds on fruit and seldom joins mixed flocks."

@@ -2,17 +2,18 @@
 id: pipreola-chlorolepidota
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: горло и верх груди огненно-оранжево-красные на зелёном теле"
   - "Совсем маленький, 12–13 см, самый мелкий из ягодоедов"
   - "Верх ярко-зелёный, на третьестепенных маховых белые кончики"
-  - "Глаз светлый, клюв розовато-оранжевый, ноги оранжевые"
+  - "Глаз светлый, ноги оранжевые, клюв у самца розовато-оранжевый"
   - "Самка зелёная, брюхо в зелёно-жёлтых поперечных полосах"
 similar:
   - id: pipreola-riefferii
     how: "заметно крупнее, у самца чёрный капюшон, красного на горле нет; живёт выше"
-behavior: "Держится в подлеске и среднем ярусе, часто в смешанных стаях, но легко теряется в листве. Ест мелкие плоды и ягоды, иногда насекомых."
-voice: "Очень высокий тонкий свист, легко теряется в лесном шуме."
+behavior: "Держится в подлеске и среднем ярусе, поодиночке или парами, иногда идёт за смешанными стаями, легко теряется в листве. Ест мелкие плоды и ягоды, иногда насекомых."
+voice: "Голос неприметный и легко теряется в лесном шуме; по-видимому, как у родственных ягодоедов, это высокий тонкий свист."
 traits:
   size: sparrow
   colors: [green, red]
@@ -26,18 +27,19 @@ sources:
   - "Wikipedia: Красногорлый манакиновый плодоед (ru, CC BY-SA 4.0)"
   - "Данные проекта: data/species/pipreola-chlorolepidota.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "oiseaux.net: Fiery-throated Fruiteater (по сниппету поиска; голос, стаи) https://www.oiseaux.net/birds/fiery-throated.fruiteater.html"
 en:
   key_features:
     - "Male: fiery orange-red throat and upper breast on a green body"
     - "Very small, 12–13 cm, the smallest fruiteater"
     - "Bright green above, white tips to the tertials"
-    - "Pale eye, pinkish-orange bill, orange legs"
+    - "Pale eye, orange legs, male's bill pinkish-orange"
     - "Female green, belly barred green and yellow"
   similar:
     - id: pipreola-riefferii
       how: "much larger, male with a black hood and no red on the throat; lives higher"
-  behavior: "Keeps in the understory and midstory, often with mixed flocks, but easily lost in foliage. Eats small fruit and berries, sometimes insects."
-  voice: "A very high thin whistle, easily lost in forest noise."
+  behavior: "Keeps in the understory and midstory, singly or in pairs, sometimes following mixed flocks, easily lost in foliage. Eats small fruit and berries, sometimes insects."
+  voice: "Its voice is inconspicuous and easily lost in forest noise; probably a high thin whistle, as in related fruiteaters."
 ---
 Fiery-throated Fruiteater (огненогрудый ягодоед) — крошечный ягодоед предгорий восточного склона Анд от юга Колумбии до Перу, примерно на 600–1 200 м. Вид редкий и распространён пятнами; в Колумбии считается близким к угрожаемому. Самец размером с воробья с огненным горлом похож скорее на игрушку, чем на котингу.
 

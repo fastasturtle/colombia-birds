@@ -2,6 +2,7 @@
 id: pipreola-jucunda
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв ярко-оранжевый, глаз жёлтый, у обоих полов"
   - "Самец: голова и горло глянцево-чёрные, грудь ярко-оранжевая, брюхо жёлтое"
@@ -10,7 +11,7 @@ key_features:
   - "Коренастый, короткохвостый, подолгу сидит тихо в подлеске"
 similar:
   - id: pipreola-riefferii
-    how: "у самца чёрный капюшон окаймлён жёлтым, грудь без оранжевого, на третьестепенных маховых светлые кончики"
+    how: "у самца чёрный капюшон окаймлён жёлтым, грудь без оранжевого, низ в тёмных пестринах, глаз тёмный; живёт выше"
   - id: ampelioides-tschudii
     how: "весь в чешуйчатом рисунке, с жёлтым ошейником, клюв не оранжевый"
 behavior: "Держится в подлеске и среднем ярусе сырого мшистого леса, иногда присоединяется к смешанным стаям. Ест плоды, срывая их с присады или неуклюже зависая у ветки."
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Pipreola jucunda (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/pipreola-jucunda.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Green-and-black fruiteater (en), Ampelioides tschudii (es) (CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Bright orange bill and yellow eye in both sexes"
@@ -36,7 +38,7 @@ en:
     - "Stocky and short-tailed, sits quietly for long spells in the understory"
   similar:
     - id: pipreola-riefferii
-      how: "male's black hood is edged yellow, no orange on the breast, pale tips to the tertials"
+      how: "male's black hood is edged yellow, no orange on the breast, underparts streaked dark, dark eye; lives higher"
     - id: ampelioides-tschudii
       how: "scaly all over, with a yellow collar, bill not orange"
   behavior: "Keeps in the understory and midstory of wet mossy forest, sometimes joining mixed flocks. Eats fruit, plucking it from a perch or hovering clumsily at a branch."

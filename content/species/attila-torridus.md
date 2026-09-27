@@ -2,6 +2,7 @@
 id: attila-torridus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь коричнево-охристый, брюхо желтее, поясница желтоватая"
   - "Маховые чёрные, на крыле две охристые полосы"
@@ -11,7 +12,7 @@ similar:
   - id: pachyramphus-cinnamomeus
     how: "намного мельче, круглоголовый, с коротким толстым клювом, без полос на крыле, над уздечкой светлая черта"
   - id: rhytipterna-holerythra
-    how: "мельче и стройнее, ровно-рыжий без жёлтого брюха и полос на крыле, клюв тоньше"
+    how: "почти того же размера, но стройнее, ровно-рыжий без жёлтого брюха и полос на крыле, клюв тоньше"
 behavior: "Поодиночке или парами кормится от среднего яруса до крон, склёвывая насекомых и плоды после короткого броска с присады. Держится в лесу и по опушкам, заходит в плантации какао."
 voice: "Песня — в основном повышающаяся серия свистов «вуу-вуу-вии-вии-вииуип»; частый крик — протяжное «уоиир», как у орла-хохлача."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/attila-torridus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/tyrannidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Cinnamon becard, Rufous mourner (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Cinnamon-ochre all over, belly yellower, rump yellowish"
@@ -37,7 +39,7 @@ en:
     - id: pachyramphus-cinnamomeus
       how: "much smaller, round-headed with a short thick bill, no wing bars, a pale line above the lores"
     - id: rhytipterna-holerythra
-      how: "smaller and slimmer, uniformly rufous without the yellow belly or wing bars, thinner bill"
+      how: "about the same size but slimmer, uniformly rufous without the yellow belly or wing bars, thinner bill"
   behavior: "Singly or in pairs from mid-storey to canopy, taking insects and fruit after a short sally from a perch. Keeps to forest and edges and enters cacao plantations."
   voice: "The song is a mostly rising series of whistles 'wuu-wuu-wee-wee-weeweep'; the frequent call is a drawn-out 'whoeeer', like a hawk-eagle."
 ---

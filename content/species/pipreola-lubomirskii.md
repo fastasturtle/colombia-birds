@@ -2,6 +2,7 @@
 id: pipreola-lubomirskii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова, горло и верх груди чёрные, без жёлтой каймы по краю"
   - "Глаз жёлтый, клюв розовато-оранжевый у обоих полов"
@@ -9,7 +10,7 @@ key_features:
   - "Самка без чёрного, низ в жёлто-зелёных продольных пестринах"
 similar:
   - id: pipreola-riefferii
-    how: "чёрный капюшон самца окаймлён жёлтой полосой, на третьестепенных маховых светлые кончики"
+    how: "чёрный капюшон самца окаймлён жёлтой полосой, на третьестепенных маховых светлые кончики, глаз тёмный, а не жёлтый"
   - id: pipreola-chlorolepidota
     how: "намного мельче, у самца огненно-красное горло; живёт ниже, в предгорьях"
 behavior: "Держится в среднем ярусе горного леса поодиночке или парами, подолгу сидит неподвижно. Кормится плодами, изредка вместе со смешанными стаями."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Pipreola lubomirskii (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/pipreola-lubomirskii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Green-and-black fruiteater, Fiery-throated fruiteater (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Male: head, throat and upper breast black, with no yellow border"
@@ -34,7 +36,7 @@ en:
     - "Female lacks black, underparts streaked yellow and green"
   similar:
     - id: pipreola-riefferii
-      how: "male's black hood bordered by a yellow band, pale tips to the tertials"
+      how: "male's black hood bordered by a yellow band, pale tips to the tertials, dark rather than yellow eye"
     - id: pipreola-chlorolepidota
       how: "much smaller, male with a fiery red throat; lives lower, in the foothills"
   behavior: "Keeps in the midstory of montane forest singly or in pairs, sitting still for long spells. Feeds on fruit, occasionally with mixed flocks."

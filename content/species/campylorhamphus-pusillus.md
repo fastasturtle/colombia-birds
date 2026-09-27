@@ -2,6 +2,7 @@
 id: campylorhamphus-pusillus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень длинный, тонкий, серповидно изогнутый, буровато-роговой"
   - "Спина и крылья тёплые красновато-бурые, хвост каштановый"
@@ -9,7 +10,7 @@ key_features:
   - "Стройный древолаз: лазит вверх по стволу, опираясь на жёсткий хвост"
 similar:
   - id: campylorhamphus-trochilirostris
-    how: "клюв красноватый, а не буроватый; живёт ниже, в равнинных лесах"
+    how: "клюв красноватый, а не буроватый, горло беловатое, а не охристое; живёт ниже, в более сухих и прибрежных лесах"
   - id: lepidocolaptes-lacrymiger
     how: "клюв короткий, лишь слегка изогнутый; голова и низ в каплевидных светлых пятнах"
 behavior: "Поодиночке кормится в среднем ярусе и подлеске, часто с микст-флоками, засовывая клюв в бромелии, мох и трещины коры. Поёт в основном на рассвете и в сумерках."
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/campylorhamphus-pusillus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/furnariidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Red-billed scythebill (en, es; CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Very long, thin, sickle-shaped bill, brownish horn"
@@ -35,7 +37,7 @@ en:
     - "Slim woodcreeper: climbs trunks propped on a stiff tail"
   similar:
     - id: campylorhamphus-trochilirostris
-      how: "bill reddish rather than brownish; lives lower, in lowland forest"
+      how: "bill reddish rather than brownish, throat whitish rather than buff; lives lower, in drier and riverside forest"
     - id: lepidocolaptes-lacrymiger
       how: "short, only slightly curved bill; head and underparts with pale teardrop spots"
   behavior: "Forages singly in the mid-storey and understory, often with mixed flocks, probing bromeliads, moss and bark crevices. Sings mainly at dawn and dusk."

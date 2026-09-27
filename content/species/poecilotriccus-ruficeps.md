@@ -2,6 +2,7 @@
 id: poecilotriccus-ruficeps
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка ярко-рыжая, от серого затылка её отделяет чёрная линия"
   - "Щёки белые или охристые, горло беловатое с тёмной полосой под ним"

@@ -2,6 +2,7 @@
 id: tolmomyias-traylori
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глаз светлый, оранжево-бурый или желтоватый"
   - "Лоб, уздечка и щёки коричные, шапочка оливково-серая"
@@ -9,10 +10,10 @@ key_features:
   - "Клюв широкий и плоский, подклювье светлое, на крыле две жёлтые полосы"
 similar:
   - id: tolmomyias-assimilis
-    how: "глаз тёмный, лицо серое без коричного, у основания маховых жёлтое зеркальце на сложенном крыле"
+    how: "глаз тёмный, голова серовато-оливковая без коричного, у основания маховых жёлтое зеркальце на сложенном крыле"
   - id: tolmomyias-poliocephalus
-    how: "мельче, шапочка чисто серая, лицо без коричного, грудь оливково-жёлтая без охристого"
-behavior: "Поодиночке или парами держится от среднего яруса до крон в прибрежном лесу, особенно в сезонно затопляемой варзее. В микст-флоки вступает реже других плоскоклювых мухоловок."
+    how: "мельче, голова серая, лицо без коричного, грудь оливковая без охристого; глаз у него тоже бывает светлым"
+behavior: "Поодиночке или парами держится от среднего яруса до крон в прибрежном лесу, особенно в сезонно затопляемой варзее."
 voice: "Песня — повышающаяся серия хрипловатых свистов «ззрии-ззрии-ЗРИИ»; позывка — жужжащее «ззиии» с коротким треском в конце."
 traits:
   size: sparrow
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/tolmomyias-traylori.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/tyrannidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Yellow-margined flatbill, Grey-crowned flatbill (en, es; CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Pale eye, orange-brown or yellowish"
@@ -35,10 +37,10 @@ en:
     - "Broad flat bill with a pale lower mandible, two yellow wing bars"
   similar:
     - id: tolmomyias-assimilis
-      how: "dark eye, gray face without cinnamon, a yellow speculum at the base of the flight feathers on the closed wing"
+      how: "dark eye, grayish-olive head without cinnamon, a yellow speculum at the base of the flight feathers on the closed wing"
     - id: tolmomyias-poliocephalus
-      how: "smaller, crown pure gray, face without cinnamon, breast olive-yellow without ochre"
-  behavior: "Singly or in pairs from mid-storey to canopy in riverside forest, especially seasonally flooded várzea. Joins mixed flocks less often than other flatbills."
+      how: "smaller, gray head, face without cinnamon, breast olive without ochre; its eye can also be pale"
+  behavior: "Singly or in pairs from mid-storey to canopy in riverside forest, especially seasonally flooded várzea."
   voice: "The song is a rising series of raspy whistles 'zree-zree-ZREE'; the call is a buzzy 'zeeee' ending in a short chatter."
 ---
 Orange-eyed Flatbill (перуанский мухоед) описан только в 1997 году и живёт на крайнем западе Амазонии, от Путумайо до севера Перу. В Колумбии он держится в прибрежных и затопляемых лесах не выше 300 м. Среди похожих плоскоклювых мухоловок его выдают светлый глаз и тёплое коричное лицо, но надёжнее всего голос: вид лучше всего отличают по песне.

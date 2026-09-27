@@ -2,6 +2,7 @@
 id: metopothrix-aurantiaca
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб оранжевый, лицо, бровь и горло жёлтые"
   - "Верх зеленовато-оливковый, низ тускло-жёлто-зелёный"
@@ -9,7 +10,7 @@ key_features:
   - "Мелкий и акробатичный, повисает на тонких веточках вниз головой"
 similar:
   - id: tunchiornis-ochraceiceps
-    how: "рыжевато-охристая вся шапочка, а не только лоб, глаз светлый, низ сероватый; держится в подлеске леса"
+    how: "лоб рыжеватый, но лицо не жёлтое, глаз светлый, низ сероватый, ноги не жёлтые; держится в подлеске леса (в Амазонии это форма, которую теперь выделяют как Rufous-fronted Greenlet)"
   - id: pachysylvia-hypoxantha
     how: "шапочка буроватая, без оранжевого лба и жёлтого лица, ноги не жёлтые; кормится в кронах"
 behavior: "Пары и семейные группы кормятся от среднего яруса до крон в прибрежном лесу, обирая листья и тонкие ветки. Строит большое шарообразное гнездо из прутиков, которое заметно издалека."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Metopothrix aurantiaca (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/metopothrix-aurantiaca.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Ochre-crowned greenlet, Dusky-capped greenlet (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Orange forehead; face, eyebrow and throat yellow"
@@ -34,7 +36,7 @@ en:
     - "Small and acrobatic, hangs upside down from thin twigs"
   similar:
     - id: tunchiornis-ochraceiceps
-      how: "the whole cap is tawny-ochre, not just the forehead, pale eye, grayish underparts; keeps to the forest understory"
+      how: "rufous forehead but no yellow face, pale eye, grayish underparts, legs not yellow; keeps to the forest understory (in Amazonia this is the form now split as Rufous-fronted Greenlet)"
     - id: pachysylvia-hypoxantha
       how: "brownish cap, no orange forehead or yellow face, legs not yellow; feeds in the canopy"
   behavior: "Pairs and family groups forage from mid-storey to canopy in riverside forest, gleaning leaves and thin twigs. Builds a large ball-shaped nest of sticks that is visible from afar."
