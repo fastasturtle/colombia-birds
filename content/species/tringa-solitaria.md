@@ -2,6 +2,7 @@
 id: tringa-solitaria
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Белое кольцо вокруг глаза на тёмной голове"
   - "Верх тёмный, оливково-бурый, в мелких белых крапинах"
@@ -13,7 +14,7 @@ similar:
   - id: tringa-flavipes
     how: "выше на ногах, ноги ярко-жёлтые, надхвостье белое; обычно держится группами"
 behavior: "Кормится в одиночку по краю луж, канав, прудов и лесных ручьёв, куда другие кулики не заходят. Часто кивает головой и передней частью тела."
-voice: "Высокий резкий свист «пит-вит» или «пит-пит-вит», обычно при взлёте; выше и звонче, чем у Spotted Sandpiper."
+voice: "Высокий резкий свист, обычно из трёх нот, «пит-вит-вит», чаще всего при взлёте; выше и звонче, чем у Spotted Sandpiper."
 traits:
   size: thrush
   colors: [brown, white]
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/tringa-solitaria.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/actitis-macularius.md (согласование отличий); Wikipedia: Lesser yellowlegs (en, CC BY-SA 4.0)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "White eye-ring on a dark head"
@@ -38,7 +40,7 @@ en:
     - id: tringa-flavipes
       how: "longer-legged, bright yellow legs, white rump; usually in groups"
   behavior: "Feeds alone along the edges of puddles, ditches, ponds and forest streams where other shorebirds do not go. Often bobs its head and the front of its body."
-  voice: "A high sharp 'peet-weet' or 'peet-peet-weet', usually on take-off; higher and more ringing than Spotted Sandpiper."
+  voice: "A high sharp whistle, usually of three notes, 'peet-weet-weet', mostly on take-off; higher and more ringing than Spotted Sandpiper."
 ---
 Solitary Sandpiper (улит-отшельник) — северный мигрант, зимующий в основном в бассейне Амазонки; в Колумбии встречается от низин до 2 500 м. Название точное: почти всегда держится поодиночке и выбирает маленькие пресные водоёмы, даже лужи на дороге и канавы у пастбищ. Необычно для кулика и гнездование: на севере он откладывает яйца в старые гнёзда певчих птиц на деревьях.
 

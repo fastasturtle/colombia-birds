@@ -2,6 +2,7 @@
 id: capito-aurovirens
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя самца алое, красное продолжается на затылок; у самки темя беловатое"
   - "Горло и верх груди оранжево-жёлтые, подбородок беловатый"
@@ -11,7 +12,7 @@ similar:
   - id: capito-auratus
     how: "спина чёрная с двумя жёлтыми линиями, крыло в жёлтых пятнах, темя золотисто-оранжевое"
 behavior: "Держится у воды: в заливных и болотистых лесах, варзее и вторичном лесу по берегам, на любом ярусе от земли до крон. Ест ягоды, плоды и насекомых, в микст-флоки вступает редко."
-voice: "Низкая раскатистая трель, похожая на кваканье жабы."
+voice: "Серия низких гулких «ттруп» или «ттдут», часто перекличкой двух птиц; позывы скрежещущие."
 traits:
   size: thrush
   colors: [olive, orange, red]
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Scarlet-crowned barbet (en), Capito aurovirens (es), CC BY-SA 4.0 — data/texts: окраска, биотоп, высоты"
   - "content/species/capito-auratus.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Male's crown scarlet, the red extending onto the nape; female's crown whitish"
@@ -34,7 +36,7 @@ en:
     - id: capito-auratus
       how: "black back with two yellow lines, yellow-spotted wing, golden-orange crown"
   behavior: "Keeps near water: in flooded and swampy forest, várzea and riverside secondary forest, at any level from the ground to the canopy. Eats berries, fruit and insects and seldom joins mixed flocks."
-  voice: "A low, rolling trill, like a toad's croak."
+  voice: "A series of low, hollow 'ttroup' or 'ttdoot' notes, often in countersinging; the calls are grating."
 ---
 Scarlet-crowned Barbet (оливковая бородатка) — бородатка западной Амазонии; в Колумбии она живёт только в низинах юга страны, до 500–600 м в предгорьях. Держится близко к воде: в заливных и болотистых лесах, на речных островах и во вторичном лесу по берегам. Русское название описывает оливковую спину, но в поле первым видно другое: алое темя самца или беловатое темя самки над оранжевым горлом.
 

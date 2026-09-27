@@ -2,6 +2,7 @@
 id: pteroglossus-castanotis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Бока головы и верх горла каштановые, темя чёрное, ниже горла чёрная полоса"
   - "На жёлтом низе одна широкая красная полоса"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Chestnut-eared aracari (en), Pteroglossus castanotis (es), Буроухий арасари (ru), CC BY-SA 4.0 — data/texts: окраска, высоты, питание"
   - "content/species/pteroglossus-pluricinctus.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Chestnut sides of head and upper throat, black crown, a black band below the throat"

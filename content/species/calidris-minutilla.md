@@ -2,6 +2,7 @@
 id: calidris-minutilla
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самый мелкий кулик, размером с воробья"
   - "Ноги желтовато-зелёные; испачканные илом могут казаться тёмными"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/calidris-minutilla.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Semipalmated sandpiper, Western sandpiper (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "The smallest shorebird, sparrow-sized"

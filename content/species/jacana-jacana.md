@@ -2,6 +2,7 @@
 id: jacana-jacana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и низ чёрные, спина и крылья каштановые"
   - "На лбу красный щиток и мясистые серёжки, клюв жёлтый"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/jacana-jacana.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: American purple gallinule, Common gallinule (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Black head, neck and underparts, chestnut back and wings"

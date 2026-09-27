@@ -2,6 +2,7 @@
 id: pharomachrus-auriceps
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост снизу чёрный у обоих полов"
   - "Голова самца с золотисто-бронзовым отливом, хохла нет"
@@ -14,7 +15,7 @@ similar:
   - id: trogon-collaris
     how: "заметно мельче, поперёк груди белая полоса, хвост снизу в тонких чёрно-белых полосках"
 behavior: "Сидит неподвижно в среднем ярусе и кронах горного леса, чаще поодиночке. Ест в основном плоды, срывая их на лету, изредка насекомых; гнездится в дупле старого дерева."
-voice: "Серия печальных двусложных свистов, повторяемых подолгу; позыв — резкое кудахтающее «ка-ка-ка»."
+voice: "Серия печальных двусложных свистов, повторяемых подолгу; по-английски её запоминают как «go home, go home»."
 traits:
   size: pigeon
   colors: [green, red]
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Golden-headed quetzal (en, CC BY-SA 4.0) — размеры, окраска самца и самки, питание, гнездование"
   - "Wikipedia: Crested quetzal, Collared trogon (en, CC BY-SA 4.0) — отличия, data/texts; согласовано с content/species/pharomachrus-antisianus.md и pharomachrus-pavoninus.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar; голос — eBird (по сниппету поиска), https://ebird.org/species/gohque1"
 en:
   key_features:
     - "Black undertail in both sexes"
@@ -40,7 +42,7 @@ en:
     - id: trogon-collaris
       how: "much smaller, white band across the breast, undertail finely barred black and white"
   behavior: "Sits still in the midstory and canopy of montane forest, usually alone. Eats mostly fruit plucked in flight, occasionally insects; nests in a cavity in an old tree."
-  voice: "A series of mournful two-note whistles repeated at length; the call is a harsh cackling 'ka-ka-ka'."
+  voice: "A series of mournful two-note whistles repeated at length, remembered as 'go home, go home'."
 ---
 Golden-headed Quetzal (златоголовый кетцаль) — самый обычный кетцаль Анд, от восточной Панамы до Боливии; живёт во влажном горном и предгорном лесу, у нас примерно на 1 200–3 100 м. Птица размером с голубя, но сидит так неподвижно, что её легко пропустить; выдаёт голос или вспышка красного брюха при перелёте. В Колумбии живёт номинативный подвид.
 

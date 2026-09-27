@@ -2,6 +2,7 @@
 id: electron-platyrhynchum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и верх груди корично-рыжие, через глаз чёрная маска"
   - "Посреди груди чёрное пятно, подбородок сине-зелёный"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Rufous motmot (en, CC BY-SA 4.0) — data/texts; см. content/species/baryphthengus-martii.md"
   - "content/families/momotidae.md (Авес-и-Флорес и Бангсиас-лодж)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Cinnamon-rufous head, neck and upper breast, black mask through the eye"

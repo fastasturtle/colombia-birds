@@ -2,6 +2,7 @@
 id: elanus-leucurus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Снизу белоснежный, голова белая, спина светло-серая"
   - "На плечах крупные чёрные пятна, заметные и у сидящей птицы"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/elanus-leucurus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: White-tailed kite (en), Elanus leucurus (es), Белохвостый дымчатый коршун (ru), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Snow-white below, white head, pale gray back"

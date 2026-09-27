@@ -2,6 +2,7 @@
 id: melanerpes-cruentatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, спина и грудь иссиня-чёрные"
   - "Глаз жёлтый, от него назад желтоватая бровь, переходящая в золотистый пучок на затылке"
@@ -23,6 +24,7 @@ sources:
   - "Данные проекта: data/species/melanerpes-cruentatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Yellow-tufted woodpecker (en), Melanerpes cruentatus (es), CC BY-SA 4.0 — data/texts: окраска, географическая изменчивость, поведение"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Head, back and breast blue-black"
