@@ -12,7 +12,8 @@
 - [x] Ранжирование фото: чистка авторов, дубликаты, гравюры последними и не больше одной, зоопарки/музеи ниже диких
 - [x] Фото: шаги `photos` (кандидаты Commons + iNat) и `upload` (ресайз, R2, credits) написаны; Commons проверен только на моках
 - [ ] Первый запуск фото в GitHub Actions: `photos upload` для всех видов; проверить, что Commons отвечает из CI
-- [ ] Русские названия семейств: eBird `locale=ru` отдаёт английские, взять метки семейств из Wikidata (QLever) → `data/families.json`
+- [x] Русские названия семейств из Wikidata (QLever), шаг `family_names` → `data/families.json` (85 из 94; без ru 9: Oceanitidae, Semnornithidae, Sapayoidae, Oxyruncidae, Onychorhynchidae, Donacobiidae, Rhodinocichlidae, Passerellidae, Mitrospingidae — показываем английское)
+- [x] `build` больше не стирает `photos`/`texts`/`sounds` в `data/species/*.json` и `photo` в индексе
 - [ ] Русские имена для 63 видов без имени в eBird/Wikidata (IOC Multilingual как fallback)
 - [ ] Эндемики и почти-эндемики из Chaparro-Herrera 2024 (CC BY-NC) → поле `near_endemic`
 - [ ] AVONET: длина клюва/крыла/хвоста для сравнения похожих видов
@@ -47,6 +48,7 @@
 - [ ] Практическая страница: погода по дням, одежда, логистика (из чата группы)
 - [ ] Страница credits со всеми авторами фото и текстов
 - [ ] Тёмная тема: проверить контраст карты и чипов
+- [ ] Глобальный переключатель RU/EN на весь сайт (строки интерфейса, порядок названий, en-версии контента) — после фото и текстов
 - [ ] Квиз «угадай птицу» (после фото)
 
 ## Как продолжать в новой сессии

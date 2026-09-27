@@ -6,7 +6,7 @@ content/species/<slug>.md and is merged at site build time, never here.
 """
 from __future__ import annotations
 
-import shutil
+import re
 import sys
 from pathlib import Path
 
@@ -22,6 +22,18 @@ def wiki_url(lang: str, title: str | None) -> str | None:
     return f"https://{lang}.wikipedia.org/wiki/{title.replace(' ', '_')}"
 
 
+def family_names(sci: str, ebird_names: dict, wd: dict | None) -> dict:
+    """en/es from eBird; ru from Wikidata (label, else ru Wikipedia title), null when missing or Latin.
+
+    eBird has no Russian family names (its `ru` is the English one), so the site falls back to English."""
+    names = {"en": ebird_names.get("en"), "es": ebird_names.get("es"), "ru": None}
+    if wd:
+        ru = wd["labels"].get("ru") or wd.get("ruwiki")
+        if ru and ru.lower() != sci.lower() and re.search(r"[а-яё]", ru, re.I) and "(" not in ru:
+            names["ru"] = ru
+    return names
+
+
 def main() -> None:
     aco = read_json(SOURCES / "aco.json")["species"]
     ebird = read_json(SOURCES / "ebird.json")
@@ -33,9 +45,15 @@ def main() -> None:
     for k, v in {**name_map["auto_by_english_name"], **name_map["manual"]}.items():
         aco_to_ebird[k] = norm_sci(v)
 
-    if SPECIES_DIR.exists():
-        shutil.rmtree(SPECIES_DIR)
-    SPECIES_DIR.mkdir(parents=True)
+    fam_names = (read_json(SOURCES / "family_names.json") or {}).get("families", {})
+
+    # Carry over fields filled by later steps (upload, wikipedia, sounds) so a rebuild does not wipe them.
+    SPECIES_DIR.mkdir(parents=True, exist_ok=True)
+    preserved: dict[str, dict] = {}
+    for p in SPECIES_DIR.glob("*.json"):
+        old = read_json(p) or {}
+        preserved[p.stem] = {k: old[k] for k in ("photos", "texts", "sounds") if old.get(k)}
+    old_files = {p.stem for p in SPECIES_DIR.glob("*.json")}
 
     index = []
     families: dict[str, dict] = {}
@@ -63,7 +81,7 @@ def main() -> None:
                 "code": fam_code,
                 "sci": fam.get("sci") or a["family"],
                 "order": fam.get("order") or a["order"],
-                "names": fam.get("names", {}),
+                "names": family_names(fam.get("sci") or a["family"], fam.get("names", {}), fam_names.get(fam_code)),
                 "species_count": 0,
                 "slug": slugify(fam.get("sci") or a["family"]),
             },
@@ -133,10 +151,10 @@ def main() -> None:
                 "inaturalist": f"https://www.inaturalist.org/taxa/{w['inaturalist_id']}" if w.get("inaturalist_id") else None,
             },
             "wikidata_images": w.get("images", []),
-            # Filled by later pipeline steps
-            "photos": [],
-            "texts": {},
-            "sounds": [],
+            # Filled by later pipeline steps (kept from the previous build, see `preserved`)
+            "photos": preserved.get(slug, {}).get("photos", []),
+            "texts": preserved.get(slug, {}).get("texts", {}),
+            "sounds": preserved.get(slug, {}).get("sounds", []),
             # Filled by agents (content/species/<slug>.md) — kept null here on purpose
             "difficulty": None,
         }
@@ -155,15 +173,18 @@ def main() -> None:
                 "iucn": a["iucn"],
                 "elev": [b.get("elevation", {}).get("min"), b.get("elevation", {}).get("max")] if b.get("elevation") else None,
                 "habitat": b.get("primary_habitat"),
-                "photo": None,
+                "photo": rec["photos"][0]["sizes"]["thumb"] if rec["photos"] else None,
             }
         )
 
+    for stale in old_files - {i["id"] for i in index}:
+        (SPECIES_DIR / f"{stale}.json").unlink()
     write_json(DATA / "species_index.json", index)
     fam_list = sorted(families.values(), key=lambda f: min(i["taxon_order"] for i in index if i["family"] == f["code"]))
     write_json(DATA / "families.json", fam_list)
     log(f"built {len(index)} species, {len(fam_list)} families")
     log(f"  ru names: {sum(1 for i in index if i['ru'])} (ebird {sum(1 for i in index if i['ru'] and read_json(SPECIES_DIR / (i['id'] + '.json'))['name_ru_source']=='ebird')})")
+    log(f"  photos kept: {sum(1 for i in index if i['photo'])}; families with ru name: {sum(1 for f in fam_list if f['names'].get('ru'))}")
     log(f"  elevation: {sum(1 for i in index if i['elev'])}")
 
 

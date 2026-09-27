@@ -1,18 +1,35 @@
 ---
-import { mediaUrl, type IndexEntry } from '@lib/data';
+/**
+ * Species list row. The thumbnail (when there is a photo) opens photo 1 full screen via
+ * ThumbLightbox.svelte, which the page must mount once; the name links to the species page.
+ */
+import { mediaUrl, species, type IndexEntry } from '@lib/data';
 interface Props { s: IndexEntry }
 const { s } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const p = s.photo ? species(s.id).photos[0] : null;
+const lb = p && JSON.stringify({ alt: [s.en, s.ru].filter(Boolean).join(' · '), photo: { sizes: p.sizes, author: p.author, license: p.license, license_url: p.license_url, source_url: p.source_url } });
+const href = `${base}species/${s.id}/`;
 ---
-<a class="row" href={`${base}species/${s.id}/`}>
-  {s.photo ? <img class="thumb" src={mediaUrl(s.photo)} alt="" loading="lazy" /> : <div class="thumb empty">🐦</div>}
-  <div>
+<div class="row">
+  {p ? (
+    <button type="button" class="thumb-btn" data-lb={lb} aria-label={`Фото: ${s.en}, на весь экран`}>
+      <img class="thumb" src={mediaUrl(s.photo!)} alt="" loading="lazy" />
+    </button>
+  ) : (
+    <a href={href} class="thumb empty" aria-hidden="true" tabindex="-1">🐦</a>
+  )}
+  <a class="txt" href={href}>
     <div><strong>{s.en}</strong>{s.endemic && <span class="chip endemic" style="margin-left:8px">эндемик</span>}</div>
     <div class="muted"><span class="sci">{s.sci}</span>{s.ru && <> · {s.ru}</>}</div>
     {s.elev && (s.elev[0] != null || s.elev[1] != null) && <div class="muted" style="font-size:.8rem">{s.elev[0] ?? 0}–{s.elev[1] ?? '?'} м</div>}
-  </div>
-</a>
+  </a>
+</div>
 <style>
-  .row { color: inherit; }
-  .row:hover { text-decoration: none; background: var(--chip); }
+  .txt { color: inherit; flex: 1; min-width: 0; align-self: stretch; display: flex; flex-direction: column; justify-content: center; }
+  .txt:hover { text-decoration: none; }
+  .row:hover { background: var(--chip); }
+  .thumb-btn { padding: 0; border: 0; background: none; cursor: zoom-in; flex: none; border-radius: 8px; line-height: 0; }
+  .thumb-btn img { display: block; }
+  a.thumb.empty:hover { text-decoration: none; }
 </style>

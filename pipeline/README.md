@@ -21,7 +21,8 @@ atomically, and per-species errors are logged and skipped, so re-running fills t
 | `ebird` | `steps/fetch_ebird.py` | `data/sources/ebird.json`: eBird/Clements taxonomy, names |
 | `birdbase` | `steps/fetch_birdbase.py` | `data/sources/birdbase.json`: traits, elevation, habitats |
 | `wikidata` | `steps/fetch_wikidata.py` | `data/sources/wikidata.json`: ids, ru/es names, P18 images, Commons category |
-| `build` | `steps/build_species.py` | `data/species/*.json`, `species_index.json`, `families.json` (**recreates species files: run `upload` again afterwards to restore `photos`**) |
+| `build` | `steps/build_species.py` | `data/species/*.json`, `species_index.json`, `families.json` (keeps `photos`, `texts`, `sounds` already in the species files and the index `photo`; family `names.ru` from `family_names`, null when Wikidata has only the Latin name) |
+| `family_names` | `steps/fetch_family_names.py` | `data/sources/family_names.json`: Wikidata (QLever) item per family (`P225` + rank `P105 = Q35409`): labels ru/en/es, ru Wikipedia title. Run before `build` |
 | `wikipedia` | `steps/fetch_wikipedia.py` | `data/texts/<slug>.json`: en/es/ru extracts (CC BY-SA 4.0) |
 | `photos` | `steps/fetch_photos.py` | `data/photos/<slug>.json`: up to 4 CC0/CC BY/CC BY-SA/PD candidates from Commons + iNaturalist (nothing downloaded) |
 | `upload` | `steps/upload_media.py` | downloads the top candidates (1 per species, 4 for slugs in `data/focus_species.json`), makes 400/1000/1600px JPEGs, uploads to R2 as `photos/<slug>/<n>-{thumb,medium,large}.jpg`, writes `data/credits/<slug>.json`, fills `photos` in species files and `photo` in `species_index.json`. `--dry-run` resizes only (files in `pipeline/cache/media/resized/`) |

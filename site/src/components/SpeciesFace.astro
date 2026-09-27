@@ -1,0 +1,22 @@
+---
+/** Small species tile: photo (or placeholder), English + Russian name; links to the species page. */
+import { mediaUrl, type IndexEntry } from '@lib/data';
+interface Props { s: IndexEntry; size?: number }
+const { s, size = 96 } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<a class="face" href={`${base}species/${s.id}/`} style={`--w:${size}px`}>
+  {s.photo ? <img src={mediaUrl(s.photo)} alt="" loading="lazy" /> : <span class="ph">🐦</span>}
+  <span class="en">{s.en}</span>
+  {s.ru && <span class="ru">{s.ru}</span>}
+</a>
+<style>
+  .face { width: var(--w); flex: none; color: inherit; display: flex; flex-direction: column; gap: 2px; font-size: .78rem; line-height: 1.25; }
+  .face:hover { text-decoration: none; }
+  .face:hover .en { text-decoration: underline; }
+  .face img, .ph { width: var(--w); height: var(--w); border-radius: 10px; object-fit: cover; background: var(--chip); display: block; }
+  .ph { display: grid; place-items: center; color: var(--muted); font-size: 1.6rem; }
+  .en, .ru { overflow-wrap: anywhere; hyphens: auto; }
+  .en { font-weight: 600; margin-top: 2px; }
+  .ru { color: var(--muted); }
+</style>

@@ -60,6 +60,12 @@ export interface Day {
 }
 export interface Region { id: string; name_ru: string; name_en: string; description_ru: string; color: string; order: number }
 
+let _focus: Set<string> | null = null;
+/** Target species of the route (pipeline step `sites`, data/focus_species.json). */
+export function focusSpecies(): Set<string> {
+  return (_focus ??= new Set(readJson<string[]>('focus_species.json', [])));
+}
+
 let _index: IndexEntry[] | null = null;
 export function speciesIndex(): IndexEntry[] {
   return (_index ??= readJson<IndexEntry[]>('species_index.json'));

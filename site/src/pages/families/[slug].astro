@@ -1,24 +1,67 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesRow from '../../components/SpeciesRow.astro';
-import { families, speciesIndex } from '@lib/data';
+import SpeciesFace from '../../components/SpeciesFace.astro';
+import ThumbLightbox from '../../components/ThumbLightbox.svelte';
+import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, type IndexEntry } from '@lib/data';
 import { familyContent } from '@lib/content';
+import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
   return families().map((f) => ({ params: { slug: f.slug }, props: { family: f } }));
 }
 const { family } = Astro.props;
-const sp = speciesIndex().filter((s) => s.family === family.code).sort((a, b) => a.taxon_order - b.taxon_order);
+const idx = speciesIndex();
+const byId = new Map(idx.map((s) => [s.id, s]));
+const sp = idx.filter((s) => s.family === family.code).sort((a, b) => a.taxon_order - b.taxon_order);
 const fc = familyContent(family.code);
 const byCode = new Map(families().map((f) => [f.code, f]));
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const base = import.meta.env.BASE_URL;
+const focus = focusSpecies();
+const title = family.names.ru ?? family.names.en;
+
+/* Route species of this family: highlights/focus first, then by GBIF records over all days. */
+const days = itineraryWithSpecies();
+const routeN = new Map<string, { n: number; hl: boolean }>();
+for (const d of days) for (const s of d.species) {
+  if (byId.get(s.id)?.family !== family.code) continue;
+  const e = routeN.get(s.id) ?? { n: 0, hl: false };
+  e.n += s.n; e.hl ||= s.highlightAt.length > 0;
+  routeN.set(s.id, e);
+}
+const rank = (s: IndexEntry) => [focus.has(s.id) || routeN.get(s.id)?.hl ? 0 : 1, -(routeN.get(s.id)?.n ?? 0)];
+const cmp = (a: IndexEntry, b: IndexEntry) => { const [x, y] = [rank(a), rank(b)]; return x[0] - y[0] || x[1] - y[1] || a.taxon_order - b.taxon_order; };
+const faces = sp.filter((s) => s.photo && (routeN.has(s.id) || focus.has(s.id))).sort(cmp).slice(0, 6);
+
+/* 2–3 representative species of a confusable family: route targets with photos, route targets, then any with a photo. */
+function representatives(code: string): IndexEntry[] {
+  const all = idx.filter((s) => s.family === code);
+  const tiers = [
+    all.filter((s) => focus.has(s.id) && s.photo),
+    all.filter((s) => focus.has(s.id) && !s.photo),
+    all.filter((s) => !focus.has(s.id) && s.photo),
+  ];
+  return [...new Set(tiers.flat())].slice(0, 3);
+}
+
+/* Family by itinerary day: highlights first, then by records. */
+const byDay = days.map((d) => {
+  const list = d.species.filter((s) => byId.get(s.id)?.family === family.code)
+    .map((s) => ({ s: byId.get(s.id)!, hl: s.highlightAt.length > 0, n: s.n }))
+    .sort((a, b) => Number(b.hl) - Number(a.hl) || b.n - a.n);
+  return { day: d.day, list };
+}).filter((d) => d.list.length > 0);
+const MAX_CHIPS = 6;
 ---
-<Base title={family.names.ru ?? family.names.en}>
-  <p class="muted">{family.order}</p>
-  <h1>{family.names.ru ?? family.names.en} <span class="muted sci" style="font-weight:400">{family.sci}</span></h1>
-  <p class="muted">{family.names.en} · {sp.length} видов в Колумбии</p>
+<Base title={title}>
+  <p class="muted order">{family.order}</p>
+  <h1>{title}</h1>
+  <p class="muted sub">{family.names.ru && <>{family.names.en} · </>}<span class="sci">{family.sci}</span> · {sp.length} видов в Колумбии</p>
+  {faces.length > 0 && (
+    <div class="faces" aria-label="Виды маршрута">{faces.map((s) => <SpeciesFace s={s} />)}</div>
+  )}
   {fc && (
     <section class="portrait">
-      {fc.body.map((p) => <p>{p}</p>)}
+      {fc.body.map((p) => <p set:html={linkify(p, base)} />)}
       {fc.recognize.length > 0 && (
         <div class="card block">
           <h2>Как узнать</h2>
@@ -31,10 +74,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           <ul class="conf">
             {fc.confusable.map((c) => {
               const f = byCode.get(c.family);
+              const reps = f ? representatives(f.code) : [];
               return (
                 <li>
-                  {f ? <a href={`${base}/families/${f.slug}/`}><b>{f.names.ru ?? f.names.en}</b> <span class="sci">{f.sci}</span></a> : <b>{c.family}</b>}
+                  {f ? (
+                    <a class="cf" href={`${base}families/${f.slug}/`}><b>{f.names.ru ?? f.names.en}</b> <span class="sci">{f.sci}</span></a>
+                  ) : <b>{c.family}</b>}
                   <span>{c.how}</span>
+                  {reps.length > 0 && <div class="reps">{reps.map((s) => <SpeciesFace s={s} size={84} />)}</div>}
                 </li>
               );
             })}
@@ -44,25 +91,53 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       {fc.route_note && (
         <div class="card block route">
           <h2>На маршруте</h2>
-          <p>{fc.route_note}</p>
+          <p set:html={linkify(fc.route_note, base)} />
         </div>
       )}
+    </section>
+  )}
+  {byDay.length > 0 && (
+    <div class="card block days">
+      <h2>Это семейство по дням маршрута</h2>
+      <p class="muted small">Вероятные виды семейства на локациях дня (GBIF); <span class="chip hl mini">★</span> — изюминки из отчётов о поездках.</p>
+      <ol class="dl">
+        {byDay.map(({ day, list }) => (
+          <li>
+            <a class="dh" href={`${base}days/${day.date}/`}><b>{fmtDateRu(day.date, false)}</b> <span class="muted">· {dayLabel(day)} · {day.title_ru}</span></a>
+            <div class="chips">
+              {list.slice(0, MAX_CHIPS).map(({ s, hl }) => (
+                <a class={`chip sp${hl ? ' hl' : ''}`} href={`${base}species/${s.id}/`} title={s.ru ?? undefined}>{hl && '★ '}{s.en}</a>
+              ))}
+              {list.length > MAX_CHIPS && <a class="chip more" href={`${base}days/${day.date}/`}>+{list.length - MAX_CHIPS}</a>}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  )}
+  {fc && (
+    <section class="portrait">
       {fc.fact && <p class="fact"><b>Факт.</b> {fc.fact}</p>}
       {fc.en && (
         <details class="en" lang="en">
           <summary>English</summary>
-          {fc.en.body.map((p) => <p>{p}</p>)}
+          {fc.en.body.map((p) => <p set:html={linkify(p, base)} />)}
           {fc.en.recognize.length > 0 && (<><h3>How to recognise</h3><ul>{fc.en.recognize.map((r) => <li>{r}</li>)}</ul></>)}
-          {fc.en.route_note && (<><h3>On this route</h3><p>{fc.en.route_note}</p></>)}
+          {fc.en.route_note && (<><h3>On this route</h3><p set:html={linkify(fc.en.route_note, base)} /></>)}
           {fc.en.fact && <p class="fact"><b>Fact.</b> {fc.en.fact}</p>}
         </details>
       )}
-      <h2 class="list-h">Все виды семейства</h2>
     </section>
   )}
+  <h2 class="list-h">Все виды семейства</h2>
   <div>{sp.map((s) => <SpeciesRow s={s} />)}</div>
+  {sp.some((s) => s.photo) && <ThumbLightbox client:idle mediaBase={MEDIA_BASE} />}
 </Base>
 <style>
+  .order { margin: 0; }
+  h1 { margin-bottom: 2px; }
+  .sub { margin: 0 0 12px; }
+  .faces { display: flex; gap: 10px; overflow-x: auto; padding: 2px 0 8px; margin: 0 0 8px; scrollbar-width: thin; }
   .portrait { margin: 8px 0 12px; }
   .portrait > p { margin: 0 0 12px; }
   .block { margin: 14px 0; }
@@ -71,10 +146,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .block li { margin: 4px 0; }
   .block p { margin: 0; }
   .conf { list-style: none; padding-left: 0 !important; }
-  .conf li { display: flex; flex-direction: column; gap: 2px; padding: 6px 0; border-top: 1px solid var(--line); }
+  .conf li { display: flex; flex-direction: column; gap: 4px; padding: 10px 0; border-top: 1px solid var(--line); }
   .conf li:first-child { border-top: 0; padding-top: 0; }
   .conf .sci { color: var(--muted); font-style: italic; font-weight: 400; }
+  .reps { display: flex; gap: 10px; overflow-x: auto; padding-top: 4px; }
   .route { border-left: 4px solid var(--accent); }
+  .days .small { font-size: .85rem; margin: 0 0 8px; }
+  .dl { list-style: none; padding: 0 !important; margin: 0; }
+  .dl li { padding: 8px 0; border-top: 1px solid var(--line); margin: 0 !important; }
+  .dl li:first-child { border-top: 0; padding-top: 0; }
+  .dh { display: block; color: var(--fg); margin-bottom: 4px; font-size: .9rem; }
+  .chips { display: flex; flex-wrap: wrap; }
+  .chips .chip { color: var(--fg); }
+  .chip.hl { background: var(--accent-2); color: #fff !important; }
+  .chip.mini { padding: 0 6px; margin: 0; }
+  .chip.more { color: var(--accent) !important; font-weight: 600; }
   .fact { border-left: 4px solid var(--accent-2); padding: 4px 0 4px 12px; margin: 14px 0; }
   .en { margin: 14px 0; border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
   .en summary { cursor: pointer; font-weight: 600; color: var(--muted); }
