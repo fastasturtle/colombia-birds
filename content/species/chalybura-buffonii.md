@@ -2,6 +2,7 @@
 id: chalybura-buffonii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Подхвостье длинное, пушистое, ярко-белое: видно снизу и при зависании"
   - "Самец тёмно-зелёный, верх груди с синеватым отливом, низ брюха беловатый"
@@ -13,7 +14,7 @@ similar:
   - id: thalurania-colombica
     how: "у самца фиолетовое брюхо, хвост глубоко вильчатый, подхвостье тёмное, а не белое"
 behavior: "Облетает по кругу цветущие растения от подлеска почти до крон, а у богатых цветков агрессивно гоняет других колибри. Ходит на кормушки."
-voice: "Сухие щебечущие позывы, особенно в стычках у цветков; голос в определении не нужен."
+voice: "Песня словами не описана; при кормёжке издаёт короткие «чип»."
 traits:
   size: hummingbird
   colors: [green, white]
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/chalybura-buffonii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: White-vented plumeleteer (en), Chalybura buffonii (es), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Long, fluffy, bright white undertail coverts, visible from below and when hovering"
@@ -37,7 +39,7 @@ en:
     - id: thalurania-colombica
       how: "male has a violet belly and deeply forked tail, undertail coverts dark rather than white"
   behavior: "Trap-lines flowering plants from the understory almost to the canopy and aggressively chases other hummingbirds from rich flowers. Visits feeders."
-  voice: "Dry twittering calls, especially in squabbles at flowers; voice is not needed for identification."
+  voice: "The song has not been described in words; while foraging it gives short 'chip' notes."
 ---
 White-vented Plumeleteer (белогузый колибри) — крупный тёмно-зелёный колибри опушек, вторичного леса и кустарников, от уровня моря до 2 000 м. В Колумбии несколько подвидов; в верхней долине Магдалены, вероятно, живёт micans, крупнее номинативного и с более синим хвостом. В любой тени главная примета — белое пышное подхвостье, которое вспыхивает, когда птица зависает у цветка.
 

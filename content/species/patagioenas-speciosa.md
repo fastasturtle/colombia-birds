@@ -2,6 +2,7 @@
 id: patagioenas-speciosa
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шея и грудь светлые в тёмной чешуйчатой ряби с металлическим отливом"
   - "Клюв красный с белым концом, кольцо вокруг глаза и ноги красные"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/patagioenas-speciosa.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/patagioenas-cayennensis.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Pale neck and breast with dark, glossy scaly markings"

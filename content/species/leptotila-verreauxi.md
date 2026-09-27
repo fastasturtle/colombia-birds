@@ -2,6 +2,7 @@
 id: leptotila-verreauxi
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб беловатый, темя и затылок серые, горло белое"
   - "Спина и крылья ровные серо-бурые, без пятен"
@@ -29,6 +30,7 @@ sources:
   - "Данные проекта: data/species/leptotila-verreauxi.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/leptotila-pallida.md, content/species/leptotila-conoveri.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Whitish forehead, gray crown and nape, white throat"
@@ -48,10 +50,10 @@ en:
 ---
 White-tipped Dove (белолобая голубка) — самая обычная и широко распространённая голубка Колумбии: от низменностей до 2 200 м, изредка выше, в светлом и вторичном лесу, кустарниках, садах и на опушках. Птица скромная, серо-бурая, и чаще всего её видно, когда она вспархивает с тропы, показывая белые углы хвоста. В Эль-Энканто и Ла-Дримофиле она живёт рядом с эндемичной толимской голубкой, поэтому там проверяй каждую птицу: смотри на границы груди.
 
-На маршруте она «возможно» в Чикаке 3 октября, в Эль-Энканто и Ла-Дримофиле 4–6 октября, в Сибундое 15–16 октября, в Ла-Планаде 16–18 октября и у Км 42 21 октября. Слушай глухое двусложное воркование из кустов.
+На маршруте она «возможно» в Чикаке 3 и 24 октября, в Эль-Энканто и Ла-Дримофиле 4–6 октября, в Сибундое 15–16 октября, в Ла-Планаде 16–18 октября и у Км 42 21 октября. Слушай глухое двусложное воркование из кустов.
 
 ## English
 
 White-tipped Dove is the commonest and most widespread Leptotila in Colombia: from the lowlands to 2,200 m, occasionally higher, in open and second-growth woodland, scrub, gardens and at edges. It is a modest gray-brown bird, most often seen as it flushes from a trail, showing the white tail corners. At El Encanto and La Drymophila it lives alongside the endemic Tolima Dove, so check every bird there: look at the edges of the breast.
 
-On the route it is "maybe" at Chicaque on 3 October, at El Encanto and La Drymophila on 4–6 October, at Sibundoy on 15–16 October, at La Planada on 16–18 October and at Km 42 on 21 October. Listen for the hollow two-part coo from the bushes.
+On the route it is "maybe" at Chicaque on 3 and 24 October, at El Encanto and La Drymophila on 4–6 October, at Sibundoy on 15–16 October, at La Planada on 16–18 October and at Km 42 on 21 October. Listen for the hollow two-part coo from the bushes.

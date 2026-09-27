@@ -2,6 +2,7 @@
 id: phaethornis-griseogularis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный отшельник, 8–10 см, с серыми подбородком и горлом"
   - "Грудь, брюхо и поясница корично-рыжие; у самца поперёк груди часто тёмная полоса"
@@ -11,9 +12,9 @@ similar:
   - id: phaethornis-ruber
     how: "горло рыжее, как и остальной низ, без серого; живёт ниже, в равнинном лесу Амазонии"
   - id: phaethornis-syrmatophorus
-    how: "вдвое крупнее, с длинными белыми центральными рулевыми; брюхо ярко-охристое"
+    how: "заметно крупнее и вдвое тяжелее, с длинными белыми центральными рулевыми; брюхо ярко-охристое"
 behavior: "Держится в густом подлеске, на опушках и во вторичных зарослях предгорий, облетает мелкие цветки по постоянному маршруту."
-voice: "Тонкие высокие писки; песня самца на току — короткая повторяющаяся фраза."
+voice: "Песня на току — непрерывно повторяемая высокая фраза: несколько ровных, слегка восходящих «ци» и короткая трель; позыв в полёте — резкое «цик!»."
 traits:
   size: hummingbird
   colors: [rufous, green, gray]
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/phaethornis-griseogularis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: Grey-chinned hermit (en), Phaethornis griseogularis (es), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Tiny hermit, 8–10 cm, with a gray chin and throat"
@@ -35,9 +37,9 @@ en:
     - id: phaethornis-ruber
       how: "throat rufous like the rest of the underparts, no gray; lives lower, in Amazonian lowland forest"
     - id: phaethornis-syrmatophorus
-      how: "twice as large, with long white central tail feathers; bright tawny belly"
+      how: "clearly larger and twice as heavy, with long white central tail feathers; bright tawny belly"
   behavior: "Keeps to dense understory, edges and second growth in the foothills, trap-lining small flowers along a fixed circuit."
-  voice: "Thin high squeaks; the male's lek song is a short repeated phrase."
+  voice: "The lek song is a high phrase repeated without pause: a few evenly spaced, slightly rising 'tsi' notes and a short warble; the flight call an explosive 'tseek!'."
 ---
 Gray-chinned Hermit (серогорлый колибри-отшельник) — мелкий отшельник восточного склона Анд и тепуи, обычно на 600–1 800 м; в Колумбии живёт номинативный подвид. Его легко спутать с другими «маленькими отшельниками», и главное, на что стоит смотреть, — серое, а не рыжее горло над рыжей грудью. Держится в густой зелени у земли, так что часто видна только рыжеватая птичка, на мгновение зависшая у цветка.
 

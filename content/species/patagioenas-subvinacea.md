@@ -2,6 +2,7 @@
 id: patagioenas-subvinacea
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Целиком тёмный, винно-пурпурный, спина рыжеватее, без пятен и полос"
   - "Клюв короткий, чёрный; глаз красный в красном кольце"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/patagioenas-subvinacea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/patagioenas-plumbea.md, content/species/patagioenas-cayennensis.md — отличия голубей"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "All dark wine-purple, back more rufous, with no spots or bars"

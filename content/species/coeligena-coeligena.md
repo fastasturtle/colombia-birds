@@ -2,6 +2,7 @@
 id: coeligena-coeligena
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь бронзово-бурый, без ярких цветов: самый тусклый из инок"
   - "Горло и грудь в беловатых пятнах и тёмных пестринах"
@@ -15,7 +16,7 @@ similar:
   - id: doryfera-ludovicae
     how: "мельче и темнее, со сверкающим зелёным лбом, низ ровный серо-зелёный без пятен"
 behavior: "Облетает цветки по постоянному маршруту на опушках и в кофейных плантациях, редко поднимается выше среднего яруса. Ходит на кормушки."
-voice: "Высокие одиночные «цит»; голос в определении не нужен."
+voice: "Песней считают непрерывную серию одиночных довольно мягких «цит»; в полёте — одиночные «ци» или «дзит»."
 traits:
   size: hummingbird
   colors: [brown]
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: Bronzy inca (en), Coeligena coeligena (es), CC BY-SA 4.0 — data/texts"
   - "content/species/coeligena-wilsoni.md, coeligena-torquata.md, doryfera-ludovicae.md — согласованы отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Bronzy brown all over, with no bright colours: the drabbest of the incas"
@@ -42,7 +44,7 @@ en:
     - id: doryfera-ludovicae
       how: "smaller and darker, with a glittering green forehead, plain gray-green below without spots"
   behavior: "Trap-lines flowers along edges and in coffee plantations, seldom feeding above the mid-story. Visits feeders."
-  voice: "High single 'tsit' notes; voice is not needed for identification."
+  voice: "The presumed song is a continuous series of single, rather sweet 'tseet' notes; in flight single 'tsee' or 'tzeet' calls."
 ---
 Bronzy Inca (бронзовый инка) — инка опушек влажного предгорного леса на 1 500–2 600 м, встречается и в кофейных плантациях. В Восточных Андах до Уилы живёт подвид columbiana с оливковым оттенком, а на восточном склоне от Нариньо к югу — самый тёмный obscura с сероватым горлом, который, вероятно, и встречается на Трамплине птиц. На кормушке среди блестящих соседей он выглядит просто бурым пятном: смотри на длинный прямой клюв и пятнистое горло.
 
