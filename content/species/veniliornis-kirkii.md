@@ -2,6 +2,7 @@
 id: veniliornis-kirkii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница и надхвостье ярко-малиновые, видны на взлёте"
   - "Спина золотисто-оливково-бурая, без полос"
@@ -40,12 +41,12 @@ en:
   behavior: "Forages singly, in pairs or family groups from the midstory to the canopy, lower at edges; taps thin branches and trunks and sometimes joins mixed flocks."
   voice: "A slow series of nasal, emphatic 'kenh-kenh-kenh' notes; drum fast, loud and often long."
 ---
-Red-rumped Woodpecker (огненоспинный дятел) — небольшой дятел открытых и полуоткрытых мест низин и предгорий: вторичного леса, опушек, окраин мангров и кокосовых плантаций. На тихоокеанской стороне Колумбии живёт подвид cecilii, с менее пёстрым горлом. Поднимается обычно до 1 000–1 200 м.
+Red-rumped Woodpecker (огненоспинный дятел) — небольшой дятел открытых и полуоткрытых мест низин и предгорий: вторичного леса, опушек, окраин мангров и кокосовых плантаций. На тихоокеанской стороне Колумбии живёт подвид cecilii, с менее пёстрым горлом. Обычно держится ниже 1 000 м, местами поднимается до 1 700 м.
 
 На маршруте вид «возможно» на Км 42 21 октября, на Финке Марагрикола 22 октября, у Тумако и на Плайя-дель-Морро. На кокосовых пальмах и одиноких деревьях у побережья ищи маленького оливкового дятла с полосатым низом; красную поясницу лучше всего видно, когда он перелетает.
 
 ## English
 
-Red-rumped Woodpecker is a small woodpecker of open and semi-open lowland and foothill country: secondary forest, edges, mangrove borders and coconut plantations. The Colombian Pacific side holds the subspecies cecilii, with a less patterned throat. It usually reaches 1,000–1,200 m.
+Red-rumped Woodpecker is a small woodpecker of open and semi-open lowland and foothill country: secondary forest, edges, mangrove borders and coconut plantations. The Colombian Pacific side holds the subspecies cecilii, with a less patterned throat. It usually stays below 1,000 m, locally reaching 1,700 m.
 
 On the route it is "maybe" at Km 42 on 21 October, at Finca Maragrícola on 22 October, around Tumaco and at Playa del Morro. On coconut palms and lone trees near the coast look for a small olive woodpecker with barred underparts; the red rump shows best as it flies between trees.

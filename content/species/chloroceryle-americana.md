@@ -2,6 +2,7 @@
 id: chloroceryle-americana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Маленький, около 20 см, тёмно-зелёный сверху, с белым ошейником"
   - "На крыле ряды мелких белых пятнышек, в полёте белые края хвоста"
@@ -11,7 +12,7 @@ similar:
   - id: chloroceryle-amazona
     how: "намного крупнее, с лохматым хохлом и массивным клювом, на крыле нет белых пятен"
   - id: chloroceryle-inda
-    how: "крупнее, весь низ рыжий (у самки с пёстрой перевязью), на зелёной спине мелкие светлые точки; держится в тенистом лесу"
+    how: "крупнее, весь низ рыжий (у самки с пёстрой перевязью), на крыльях и хвосте мелкие светлые точки; держится в тенистом лесу"
 behavior: "Сидит низко на ветке или коряге над ручьём, протокой или прудом и ныряет за мелкой рыбой и водными насекомыми. Летит низко и быстро над самой водой."
 voice: "Сухие щелчки, как от удара камешков друг о друга, и жужжащее ворчливое «дзррк»."
 traits:
@@ -35,7 +36,7 @@ en:
     - id: chloroceryle-amazona
       how: "much larger, with a shaggy crest and a massive bill, no white spots on the wing"
     - id: chloroceryle-inda
-      how: "larger, all underparts rufous (the female with a speckled band), fine pale dots on the green back; keeps in shady forest"
+      how: "larger, all underparts rufous (the female with a speckled band), fine pale dots on the wings and tail; keeps in shady forest"
   behavior: "Perches low on a branch or snag over a stream, channel or pond and dives for small fish and water insects. Flies low and fast just above the water."
   voice: "Dry clicks like two pebbles knocked together, and a buzzy scolding 'dzrrk'."
 ---

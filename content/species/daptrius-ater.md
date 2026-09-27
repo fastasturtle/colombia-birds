@@ -2,6 +2,7 @@
 id: daptrius-ater
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Целиком блестяще-чёрная, на лице и горле голая оранжево-жёлтая кожа"
   - "Ноги жёлтые, клюв тёмный"

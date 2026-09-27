@@ -2,6 +2,7 @@
 id: pteroglossus-torquatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и горло чёрные, брюхо жёлтое с красно-чёрной поперечной полосой"
   - "На жёлтой груди тёмное пятно, поясница ярко-красная, хвост длинный"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/pteroglossus-torquatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/ramphastos-brevis.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Stripe-billed aracari (en, CC BY-SA 4.0), https://en.wikipedia.org/wiki/Stripe-billed_aracari — клюв sanguineus, по сниппету поиска (факт-чек 27.09.2026)"
 en:
   key_features:
     - "Black head and throat, yellow belly crossed by a red-and-black band"

@@ -2,6 +2,7 @@
 id: momotus-aequatorialis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень длинный хвост с голыми стержнями и синими «ракетками» на конце"
   - "Чёрное темя в синем венце, чёрная маска через глаз с синей каймой"

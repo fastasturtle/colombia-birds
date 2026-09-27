@@ -2,6 +2,7 @@
 id: andigena-hypoglauca
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло, грудь и брюхо серо-голубые; шапочка и лицо чёрные"
   - "Клюв трёхцветный: основание жёлто-зелёное с чёрной перевязкой, конец надклювья красный, подклювья чёрный"
@@ -12,7 +13,7 @@ similar:
     how: "горло и щёки белые, клюв чёрный или чёрный с тёмно-красным у основания"
   - id: aulacorhynchus-albivitta
     how: "заметно мельче, почти целиком зелёный, клюв чёрно-жёлтый"
-behavior: "Держится поодиночке, парами или небольшими семейными группами, кормится плодами и ягодами от подлеска до крон, иногда с микст-флоками. Часто сидит открыто на верхушке дерева."
+behavior: "Держится поодиночке, парами или небольшими семейными группами, кормится плодами и ягодами от подлеска до крон, иногда с микст-флоками. Иногда сидит открыто на верхушке дерева."
 voice: "Низкое протяжное «гуииииит»; позывы — сухие «век» поодиночке или сериями; иногда щёлкает клювом."
 traits:
   size: crow
@@ -37,7 +38,7 @@ en:
       how: "white throat and cheeks, bill black or black with dark red at the base"
     - id: aulacorhynchus-albivitta
       how: "noticeably smaller, almost wholly green, black-and-yellow bill"
-  behavior: "Keeps singly, in pairs or small family groups, eating fruit and berries from the understory to the canopy, sometimes with mixed flocks. Often perches in the open on a treetop."
+  behavior: "Keeps singly, in pairs or small family groups, eating fruit and berries from the understory to the canopy, sometimes with mixed flocks. Sometimes perches in the open on a treetop."
   voice: "A low, drawn-out 'gweeeeeat'; calls are dry 'wek' notes, singly or in series; sometimes clatters its bill."
 ---
 Gray-breasted Mountain-Toucan (голубой перцеяд) — горный тукан верхнего облачного и карликового леса у границы парамо, на высотах 2 200–3 650 м. В Колумбии живёт в центральной и южной части Анд; здесь номинативный подвид с тёмным глазом и красным подхвостьем.

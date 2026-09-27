@@ -2,6 +2,7 @@
 id: brotogeris-cyanoptera
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти целиком зелёный, сверху темнее; хвост короткий, заострённый"
   - "Маховые ярко-кобальтово-синие, особенно заметны в полёте"
@@ -39,12 +40,12 @@ en:
   behavior: "Noisy flocks dash over the forest and settle in the canopy of flowering and fruiting trees, often Cecropia. Keeps to edges, várzea and secondary forest; comes to eat mineral-rich soil."
   voice: "A high 'klee', a shrill 'chree' or a doubled 'chree-chree', perched and in flight, and a fast chatter 'chichichichichi'."
 ---
-Cobalt-winged Parakeet (синекрылая катита) — один из самых обычных мелких попугаев амазонских низин Колумбии, у нас до 1 000 м, изредка до 1 350 м. В Колумбии живёт номинативный подвид. Сидящая стайка в листве почти невидима: зелёные птицы сливаются с кроной, и выдают их только голоса и падающие обрывки плодов. В полёте же синие крылья видны издалека.
+Cobalt-winged Parakeet (синекрылая катита) — мелкий попугай амазонских низин Колумбии, обычно до 1 000 м, изредка до 1 350 м. В Колумбии живёт номинативный подвид. Сидящая стайка в листве почти невидима: зелёные птицы сливаются с кроной, и выдают их только голоса и падающие обрывки плодов. В полёте же синие крылья видны издалека.
 
 На маршруте она «возможно» на Финке Дискосура 7 октября, в Орито 11 октября, в Пуэрто-Асисе и Плайя-Рике 11–13 октября и в Эль-Эскондите 13–14 октября. Ищи стайки на цветущих деревьях у опушек и над рекой.
 
 ## English
 
-Cobalt-winged Parakeet is one of the commonest small parrots of the Amazonian lowlands of Colombia, here up to 1,000 m and occasionally 1,350 m. Colombia holds the nominate subspecies. A perched flock is almost invisible in foliage: green birds merge with the canopy and only calls and falling scraps of fruit give them away. In flight, however, the blue wings show from afar.
+Cobalt-winged Parakeet is a small parrot of the Amazonian lowlands of Colombia, usually up to 1,000 m and occasionally 1,350 m. Colombia holds the nominate subspecies. A perched flock is almost invisible in foliage: green birds merge with the canopy and only calls and falling scraps of fruit give them away. In flight, however, the blue wings show from afar.
 
 On the route it is "maybe" at Finca Discosura on 7 October, at Orito on 11 October, at Puerto Asís and Playa Rica on 11–13 October and at El Escondite on 13–14 October. Look for flocks in flowering trees at forest edges and over the river.

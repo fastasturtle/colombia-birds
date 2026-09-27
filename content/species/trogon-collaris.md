@@ -2,6 +2,7 @@
 id: trogon-collaris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поперёк груди белая полоса, отделяющая зелёную (у самки бурую) грудь от красного брюха"
   - "Хвост снизу в тонких чёрно-белых поперечных полосках с широкими белыми концами"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: верх и грудь бурые, у глаза светлое неполное кольцо"
 similar:
   - id: trogon-personatus
-    how: "очень похож; хвост снизу в более тонкой частой ряби, кажется сероватым, у самки тёмная маска; живёт выше"
+    how: "очень похож; хвост снизу в более тонкой частой ряби, кажется сероватым; обычно живёт выше"
   - id: trogon-comptus
     how: "белой полосы на груди нет, глаз у самца белый, хвост снизу сплошной тёмный"
   - id: pharomachrus-auriceps
@@ -36,7 +37,7 @@ en:
     - "Female: brown upperparts and breast, a pale broken eye ring"
   similar:
     - id: trogon-personatus
-      how: "very similar; undertail more finely and densely vermiculated, looking grayish, female has a dark mask; lives higher"
+      how: "very similar; undertail more finely and densely vermiculated, looking grayish; usually lives higher"
     - id: trogon-comptus
       how: "no white breast band, male has a white eye, undertail solid dark"
     - id: pharomachrus-auriceps
@@ -44,12 +45,12 @@ en:
   behavior: "Sits still and upright in the upper understory and lower canopy, slowly turning its head. Plucks fruit and caterpillars in short sallies, often at the edge of mixed flocks."
   voice: "A series of mellow whistles with a stutter at the start, 'whi-whi, whew-whew-whew'; the call is a long rattling 'churrr'."
 ---
-Collared Trogon (ошейниковый трогон) — самый распространённый трогон Америки, в Колумбии в основном на высотах 700–2 400 м, во влажном предгорном и облачном лесу. Белая полоса на груди и хвост в тонких полосках снизу — две приметы, по которым его отличают от прочих трогонов. Он сидит неподвижно и легко пропускается, пока не запоёт или не перелетит.
+Collared Trogon (ошейниковый трогон) — один из самых широко распространённых трогонов Америки, в Колумбии в основном на высотах 700–2 400 м, во влажном предгорном и облачном лесу. Белая полоса на груди и хвост в тонких полосках снизу — две приметы, по которым его отличают от прочих трогонов. Он сидит неподвижно и легко пропускается, пока не запоёт или не перелетит.
 
 На маршруте он «возможно» на Исла-Эскондиде 7–11 октября, на Авес-и-Флорес и Рио-Ньямби 18–20 октября, в Бангсиас-лодже 20 октября и на Ла-Нутрии 21 октября. Когда слышишь мягкие свисты, ищи прямо сидящую птицу на уровне глаз.
 
 ## English
 
-Collared Trogon is the most widespread trogon of the Americas, in Colombia mainly at 700–2,400 m, in humid foothill and cloud forest. The white breast band and the finely barred undertail are the two marks that separate it from other trogons. It sits still and is easily overlooked until it sings or flies.
+Collared Trogon is one of the most widespread trogons of the Americas, in Colombia mainly at 700–2,400 m, in humid foothill and cloud forest. The white breast band and the finely barred undertail are the two marks that separate it from other trogons. It sits still and is easily overlooked until it sings or flies.
 
 On the route it is "maybe" at Isla Escondida on 7–11 October, at Aves y Flórez and Río Ñambí on 18–20 October, at Bangsias Lodge on 20 October and at La Nutria on 21 October. When you hear the mellow whistles, look for an upright bird at eye level.

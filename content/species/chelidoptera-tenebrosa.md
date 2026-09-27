@@ -2,18 +2,19 @@
 id: chelidoptera-tenebrosa
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Сидит на голых верхушках деревьев: плотная тёмная птица с коротким хвостом"
   - "Оперение сажисто-чёрное, брюхо оранжево-каштановое"
   - "Поясница белая, хорошо видна в полёте"
-  - "Крылья длинные и широкие; в воздухе похожа на ласточку или летучую мышь"
+  - "Крылья длинные, заострённые; в воздухе похожа на ласточку или летучую мышь"
 similar:
   - id: atticora-fasciata
     how: "настоящая ласточка: белая полоса поперёк чёрной груди, хвост длинный, вильчатый; почти всё время в воздухе"
   - id: monasa-nigrifrons
     how: "крупнее, аспидно-серая, клюв ярко-красный, хвост длинный"
 behavior: "Сидит на открытых сухих вершинах деревьев у рек, дорог и вырубок, откуда вылетает за насекомыми и планирует обратно по дуге. Гнездится в норах, вырытых в песчаных берегах и откосах."
-voice: "Тихое тонкое щебетание и слабые свисты; голос для определения почти не нужен."
+voice: "Щебечущая песня, часто в полёте; позывы — тонкое «ци-ци-ци» и высокая чистая серия «ди-диди ди-диди»."
 traits:
   size: sparrow
   colors: [black, rufous, gray]
@@ -31,14 +32,14 @@ en:
     - "Perches on bare treetops: a compact dark bird with a short tail"
     - "Sooty-black plumage, orange-chestnut belly"
     - "White rump, easy to see in flight"
-    - "Long, broad wings; in the air it looks like a swallow or a bat"
+    - "Long, pointed wings; in the air it looks like a swallow or a bat"
   similar:
     - id: atticora-fasciata
       how: "a true swallow: white band across a black breast, long forked tail; almost always in the air"
     - id: monasa-nigrifrons
       how: "larger, slate-gray, bright red bill, long tail"
   behavior: "Perches on open dead treetops along rivers, roads and clearings, sallying out for insects and gliding back in an arc. Nests in burrows dug in sandy banks and cuttings."
-  voice: "A soft, thin twitter and weak whistles; voice is hardly needed for identification."
+  voice: "A twittering song, often given in flight; calls a thin 'tsi-tsi-tsi' and a high clear series 'dee-didi dee-didi'."
 ---
 Swallow-winged Puffbird (ласточковая пуховка) — самая необычная пуховка: вместо того чтобы сидеть в засаде в лесу, она ловит насекомых в воздухе, как ласточка. Живёт по всей Амазонии до подножия Анд, у нас ниже 1 000 м, по берегам рек, у дорог и на вырубках. Тёмный комочек на сухой верхушке, который то и дело взлетает и возвращается, почти всегда она.
 

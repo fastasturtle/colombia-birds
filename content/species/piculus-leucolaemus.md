@@ -2,6 +2,7 @@
 id: piculus-leucolaemus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Подбородок и горло чисто белые"
   - "Над красной щекой широкая жёлтая полоса; у самца красное всё темя, у самки только затылок"
@@ -40,12 +41,12 @@ en:
   behavior: "Forages singly or in pairs in the midstory and canopy of tall forest, probing and flaking bark; sometimes joins mixed flocks."
   voice: "A hoarse, hissing 'sraa-sraa-sraa' and a drawn-out, falling 'wheeeee'."
 ---
-White-throated Woodpecker (белогорлый дятел) — зелёный дятел влажных лесов западной Амазонии: высокого леса на твёрдой земле и заливных лесов. В Колумбии он живёт только на крайнем юго-западе, у подножия Анд, и поднимается примерно до 1 000–1 400 м.
+White-throated Woodpecker (белогорлый дятел) — зелёный дятел влажных лесов западной Амазонии: высокого леса на твёрдой земле и заливных лесов. В Колумбии он живёт только на крайнем юге, у восточного подножия Анд; в предгорьях поднимается до 1 400 м (по данным проекта; в Эквадоре известен до 1 000 м).
 
 На маршруте вид «возможно» только в Исла-Эскондиде 7–11 октября. Зелёных дятлов рода Piculus в кроне трудно рассмотреть, поэтому дождись, пока птица повернётся к тебе: белое горло под красно-жёлтой головой видно лучше всего остального.
 
 ## English
 
-White-throated Woodpecker is a green woodpecker of humid western Amazonian forest, both terra firme and seasonally flooded. In Colombia it lives only in the far southwest, at the foot of the Andes, reaching roughly 1,000–1,400 m.
+White-throated Woodpecker is a green woodpecker of humid western Amazonian forest, both terra firme and seasonally flooded. In Colombia it lives only in the far south, at the eastern foot of the Andes; in the foothills it reaches 1,400 m (project data; in Ecuador known up to 1,000 m).
 
 On the route it is "maybe" only at Isla Escondida on 7–11 October. Green Piculus woodpeckers are hard to see well in the canopy, so wait until the bird turns towards you: the white throat below the red-and-yellow head shows better than anything else.
