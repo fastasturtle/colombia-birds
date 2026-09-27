@@ -2,6 +2,7 @@
 id: campylorhamphus-trochilirostris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень длинный, тонкий, серповидный, красный или красновато-бурый"
   - "Горло беловатое, грудь бурая в охристых штрихах"
@@ -13,7 +14,7 @@ similar:
   - id: lepidocolaptes-souleyetii
     how: "клюв намного короче, лишь слегка изогнут, светлый; голова в резких штрихах"
 behavior: "Лазает по стволам и ветвям от верха подлеска до подкроны и засовывает серповидный клюв в дупла, щели коры, бромелии и мох. Обычно поодиночке, часто в смешанных стаях."
-voice: "На западе Эквадора и Колумбии — нисходящая замедляющаяся серия свистов «туви-туви-тува-тью-тью»; в других частях ареала песня другая."
+voice: "На западе Эквадора, где живёт тот же подвид thoracicus, — нисходящая замедляющаяся серия свистов «туви-туви-тува-тью-тью»; в других частях ареала песня другая."
 traits:
   size: thrush
   colors: [brown, rufous]
@@ -26,6 +27,7 @@ sources:
   - "content/species/campylorhamphus-pusillus.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/campylorhamphus-trochilirostris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Very long, thin, sickle-shaped bill, red or reddish-brown"
@@ -38,7 +40,7 @@ en:
     - id: lepidocolaptes-souleyetii
       how: "much shorter, only slightly curved pale bill; boldly streaked head"
   behavior: "Climbs trunks and branches from the top of the understory to the subcanopy, probing its sickle bill into holes, bark crevices, bromeliads and moss. Usually alone, often in mixed flocks."
-  voice: "In western Ecuador and Colombia a descending, slowing series of whistles, 'tuwee-tuwee-toowa-tew-tew'; the song differs elsewhere in the range."
+  voice: "In western Ecuador, home of the same subspecies thoracicus, a descending, slowing series of whistles, 'tuwee-tuwee-toowa-tew-tew'; the song differs elsewhere in the range."
 ---
 Red-billed Scythebill (красноклювый дугоклюв) — древолаз с самым заметным клювом на маршруте, в основном ниже 1 200 м. Вдоль побережья от Нариньо до Эквадора живёт подвид thoracicus с черноватой шапкой; ему нравятся полуоткрытые, в том числе вторичные и прибрежные леса. Даже в тени птицу выдаёт силуэт: длинная дуга клюва видна прежде, чем цвет. Красный оттенок клюва заметен только на свету.
 

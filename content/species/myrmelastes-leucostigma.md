@@ -2,6 +2,7 @@
 id: myrmelastes-leucostigma
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец почти сплошь тёмно-серый, низ лишь чуть светлее верха"
   - "На чёрно-серых кроющих крыла ряды белых точек, у здешних птиц мелкие"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Silvered antbird, Black-faced antbird (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/myrmelastes-leucostigma.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male almost uniformly dark gray, underparts only slightly paler than upperparts"

@@ -2,6 +2,7 @@
 id: xiphorhynchus-erythropygius
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ зеленовато-оливковый в крупных охристых каплях, как в горошек"
   - "Вокруг глаза охристое кольцо, горло охристое в мелких тёмных точках"
@@ -11,7 +12,7 @@ similar:
   - id: xiphorhynchus-triangularis
     how: "горло светлое в тёмной чешуе, а не в точках; держится выше по склону"
   - id: lepidocolaptes-souleyetii
-    how: "мельче и стройнее, клюв тонкий и светлый, низ в продольных штрихах, а не в каплях; в низинах"
+    how: "мельче и стройнее, клюв тонкий и светлый, низ в продольных штрихах, а не в каплях; ниже по склону, в полуоткрытых местах"
 behavior: "Лазает спиралью вверх по стволам и по нижней стороне толстых ветвей во мхах и эпифитах; обычно поодиночке и регулярно в смешанных стаях."
 voice: "Поёт на рассвете и в сумерках: 2–5 долгих нисходящих свистов «пиииииир», каждый ниже предыдущего; позыв — «уиииу» и низкое кудахтающее «кат-ак»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Olive-backed woodcreeper, Streak-headed woodcreeper (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/xiphorhynchus-erythropygius.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Greenish-olive underparts with large buff teardrops, like polka dots"
@@ -36,7 +38,7 @@ en:
     - id: xiphorhynchus-triangularis
       how: "pale throat scaled dark rather than dotted; keeps higher up the slope"
     - id: lepidocolaptes-souleyetii
-      how: "smaller and slimmer, thin pale bill, underparts streaked rather than spotted; in the lowlands"
+      how: "smaller and slimmer, thin pale bill, underparts streaked rather than spotted; lower down, in semi-open country"
   behavior: "Spirals up trunks and along the underside of thick limbs among moss and epiphytes; usually alone and regularly in mixed flocks."
   voice: "Sings at dawn and dusk: 2–5 long descending whistles, 'peeeeeeeer', each lower than the last; calls a 'wheeeoo' and a low, hen-like 'cut-uck'."
 ---

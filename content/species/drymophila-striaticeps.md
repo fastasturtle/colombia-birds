@@ -2,6 +2,7 @@
 id: drymophila-striaticeps
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь белые в густых чёрных пестринах, брюхо чистое белое"
   - "Шапка и спина чёрные в белых штрихах, всё темя исчерчено"
@@ -24,6 +25,7 @@ sources:
   - "content/species/drymophila-caudata.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/drymophila-striaticeps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "White throat and breast densely streaked black, clean white belly"

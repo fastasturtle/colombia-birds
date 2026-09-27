@@ -2,6 +2,7 @@
 id: thamnophilus-murinus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец мышино-серый, низ светлее, центр брюха часто беловатый"
   - "На кроющих крыла светлые концы, хвост с белыми кончиками"
@@ -9,7 +10,7 @@ key_features:
   - "Клюв толстый с крючком, глаз серый или бурый, не красный"
 similar:
   - id: thamnophilus-schistaceus
-    how: "самец серый без светлых концов на кроющих, хвост без белого, глаз красный"
+    how: "самец серый без светлых концов на кроющих, у птиц Путумайо с чёрной шапочкой; хвост без белого, глаз красный"
   - id: thamnomanes-ardesiacus
     how: "клюв тоньше, крыло без светлых пятен; сидит вертикально и ведёт смешанные стаи подлеска"
 behavior: "Поодиночке или парами держится в подлеске и среднем ярусе, обычно на 5–10 м; прыгает по веткам, склёвывая добычу с листьев и лиан, иногда коротко подлетает. В смешанные стаи вступает редко."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Plain-winged antshrike, Dusky-throated antshrike (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/thamnophilus-murinus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male mouse-gray, paler below, belly centre often whitish"
@@ -34,7 +36,7 @@ en:
     - "Stout hooked bill; gray or brown eye, not red"
   similar:
     - id: thamnophilus-schistaceus
-      how: "male gray with no pale tips to the coverts, no white in the tail, red eye"
+      how: "male gray with no pale tips to the coverts, black-capped in Putumayo birds; no white in the tail, red eye"
     - id: thamnomanes-ardesiacus
       how: "thinner bill, no pale wing spots; perches upright and leads understory mixed flocks"
   behavior: "Singly or in pairs it keeps in the understory and mid-storey, usually at 5–10 m; hops through branches gleaning prey from leaves and vines, sometimes with short sallies. Rarely joins mixed flocks."

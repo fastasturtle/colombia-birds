@@ -2,6 +2,7 @@
 id: thamnophilus-doliatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь в чёрно-белых поперечных полосах, хохол чёрный с белыми основаниями перьев"
   - "Самка: хохол и верх рыже-коричные, низ ровный охристый, щёки в чёрно-белых штрихах"
@@ -11,7 +12,7 @@ similar:
   - id: thamnophilus-multistriatus
     how: "хохол самца тоже в полосах; у самки низ в чёрно-белых полосах, а не ровный; живёт выше, в Андах"
   - id: thamnophilus-tenuepunctatus
-    how: "шапка и хохол самца сплошь чёрные, белые полосы узкие; самка снизу в полосах; на восточном склоне Анд"
+    how: "шапка и хохол самца сплошь чёрные; самка снизу в чёрно-белых полосах; на восточном склоне Анд"
 behavior: "Пары держатся в густых кустах вторичных зарослей, по опушкам, у рек и в садах, от земли до 3 м. Скачут и лазают по веткам, быстро тычут клювом в листья; в смешанные стаи почти не вступают."
 voice: "Длинная серия громких хохочущих нот, быстро нарастающих по высоте и силе и спадающих к выразительной последней ноте; поёт, вытянув шею и качая хвостом. Позыв — вороноподобное «кау»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Bar-crested antshrike, Lined antshrike (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/thamnophilus-doliatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male barred black and white all over; black crest with white feather bases"
@@ -36,7 +38,7 @@ en:
     - id: thamnophilus-multistriatus
       how: "male's crest also barred; female barred black and white below, not plain; lives higher, in the Andes"
     - id: thamnophilus-tenuepunctatus
-      how: "male's crown and crest solid black, narrow white bars; female barred below; on the eastern Andean slope"
+      how: "male's crown and crest solid black; female barred black and white below; on the eastern Andean slope"
   behavior: "Pairs keep in dense shrubs of second growth, at edges, along rivers and in gardens, from the ground to 3 m. They hop and clamber through twigs, stabbing quickly at leaves; they almost never join mixed flocks."
   voice: "A long series of loud chuckling notes rising quickly in pitch and power, then falling to an emphatic final note; sings with neck stretched and tail pumping. The call is a nasal, crow-like 'caw'."
 ---

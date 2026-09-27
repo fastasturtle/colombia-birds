@@ -2,6 +2,7 @@
 id: thamnophilus-multistriatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь в чёрно-белых поперечных полосах, включая хохол; лицо и горло в штрихах"
   - "Самка: хохол, спина, крылья и хвост рыже-коричные, низ в чёрно-белых полосах"
@@ -11,7 +12,7 @@ similar:
   - id: thamnophilus-doliatus
     how: "хохол самца чёрный, а не полосатый; самка снизу ровная охристая, без полос; живёт ниже, до 1 500 м"
   - id: thamnophilus-tenuepunctatus
-    how: "шапка и хохол самца сплошь чёрные, белые полосы уже; на восточном склоне Анд, на Трамплине птиц"
+    how: "шапка и хохол самца сплошь чёрные (у путумайского подвида tenuifasciatus полосы на теле примерно равной ширины); на восточном склоне Анд, на Трамплине птиц"
 behavior: "Держится парами на опушках, в зарослях по краю леса, на плантациях и в садах; неторопливо обыскивает ветки и листья в кустах и нижнем ярусе."
 voice: "Похожа на песню Barred Antshrike, но ленивее: 6–10 глухих нот «ду, дю дю дю ду ду-ду-да-да» с заметным ускорением в конце."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Barred antshrike, Lined antshrike (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/thamnophilus-multistriatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male barred black and white all over, crest included; face and throat streaked"
@@ -36,7 +38,7 @@ en:
     - id: thamnophilus-doliatus
       how: "male's crest black rather than barred; female plain buff below, unbarred; lives lower, to 1,500 m"
     - id: thamnophilus-tenuepunctatus
-      how: "male's crown and crest solid black, narrower white bars; on the eastern Andean slope, at Trampolín de las Aves"
+      how: "male's crown and crest solid black (in the Putumayo subspecies tenuifasciatus the body bars are of about equal width); on the eastern Andean slope, at Trampolín de las Aves"
   behavior: "Keeps in pairs at forest edges, in thickets along the forest border, plantations and gardens; searches twigs and leaves unhurriedly in shrubs and the lower storey."
   voice: "Like Barred Antshrike's song but lazier: 6–10 hollow notes, 'doo, dü dü dü doo doo-doo-da-da', with a marked acceleration at the end."
 ---

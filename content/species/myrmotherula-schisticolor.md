@@ -2,6 +2,7 @@
 id: myrmotherula-schisticolor
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец тёмно-сизый, горло и верх груди чёрные, без белых пятен"
   - "На кроющих крыла мелкие белые концы, хвост короткий с тонкими белыми каймами"
@@ -11,7 +12,7 @@ similar:
   - id: epinecrophylla-fulviventris
     how: "горло самца чёрное в крупных белых пятнах, на крыле охристые точки, глаз светлый; копается в свёрнутых сухих листьях"
   - id: dysithamnus-mentalis
-    how: "крупнее и коренастее, клюв толще; горло самца светлое, щёки темнее шапки, брюхо желтоватое"
+    how: "крупнее и коренастее, клюв толще; горло самца светлое, щёки тёмные, середина брюха желтоватая"
 behavior: "Кормится поодиночке, парами и семьями, часто в смешанных стаях подлеска: обыскивает листья и лианы, иногда коротко подлетает к листу снизу."
 voice: "Восходящий свист «уиит» по одному с паузами в пару секунд или по 2–4 подряд; позывы — носовое нисходящее хныканье и резкие «чип»."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "content/species/epinecrophylla-fulviventris.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/myrmotherula-schisticolor.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male dark slate-gray, black throat and upper breast, with no white spots"
@@ -37,7 +39,7 @@ en:
     - id: epinecrophylla-fulviventris
       how: "male's black throat has large white spots, buff wing dots, pale eye; probes curled dead leaves"
     - id: dysithamnus-mentalis
-      how: "larger and chunkier, thicker bill; male has a pale throat, cheeks darker than the crown, yellowish belly"
+      how: "larger and chunkier, thicker bill; male has a pale throat, dark cheeks and a yellowish belly centre"
   behavior: "Forages singly, in pairs and families, often in understory mixed flocks: searches leaves and vines, sometimes flutters briefly up to the underside of a leaf."
   voice: "An upslurred whistle, 'wheet', given singly a couple of seconds apart or 2–4 in a row; calls a nasal downslurred whine and sharp 'chip' notes."
 ---

@@ -2,6 +2,7 @@
 id: myrmoborus-myotherinus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо и горло самца чёрные, как маска, над ней светлая бровь"
   - "Самец сверху синевато-серый, на кроющих крыла белые концы, низ бледно-серый"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Spot-winged antbird, Peruvian warbling antbird (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/myrmoborus-myotherinus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male's face and throat black, like a mask, with a pale eyebrow above"

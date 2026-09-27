@@ -2,6 +2,7 @@
 id: willisornis-poecilinotus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Спина в чёрных пятнах с белой каймой, как в чешуе; между лопатками белое пятно"
   - "Самец серый, крылья и хвост чёрные с белыми каймами и концами"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Spot-backed antbird, Spot-winged antbird (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/willisornis-poecilinotus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Back with white-edged black patches, like scales; white patch between the shoulders"

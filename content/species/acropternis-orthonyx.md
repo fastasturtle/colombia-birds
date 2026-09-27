@@ -2,6 +2,7 @@
 id: acropternis-orthonyx
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тело чёрное в крупных белых круглых пятнах, как в глазках"
   - "Голова, лицо и горло рыжие, бока и подхвостье рыже-бурые"
@@ -27,6 +28,7 @@ sources:
   - "content/species/scytalopus-latrans.md"
   - "Данные проекта: data/species/acropternis-orthonyx.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Black body covered with large round white spots, like eyes"

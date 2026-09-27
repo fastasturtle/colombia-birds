@@ -2,6 +2,7 @@
 id: grallaria-haplonota
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх ровный бурый, без пестрин, шапка с сероватым налётом"
   - "Горло белое, низ охристый, темнее всего на груди"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/grallaria-haplonota.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/grallariidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Plain brown upperparts, unstreaked, crown tinged gray"

@@ -2,6 +2,7 @@
 id: myrmotherula-pacifica
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец в чёрно-белых продольных пестринах сверху донизу, включая лицо и грудь"
   - "Хвост крошечный, чёрный с белыми каймами; на крыле белые концы кроющих"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Black-and-white warbler, White-flanked antwren (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/myrmotherula-pacifica.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male streaked black and white from crown to breast, including the face"

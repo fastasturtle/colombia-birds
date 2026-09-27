@@ -2,6 +2,7 @@
 id: formicarius-rufipectus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь рыже-каштановая, брюхо светлее, бока оливково-бурые"
   - "Лицо и горло черноватые, вокруг глаза кольцо голой голубовато-белой кожи"
@@ -9,10 +10,10 @@ key_features:
   - "Шагает по подстилке, задрав короткий чёрный хвост, как маленький пастушок"
 similar:
   - id: formicarius-nigricapillus
-    how: "грудь и брюхо серые, без рыжего, голова целиком черноватая; живёт ниже, обычно до 900 м"
+    how: "грудь черновато-серая, брюхо серое, рыжее только на подхвостье, голова целиком черноватая; живёт ниже, в Колумбии до 1 400 м"
   - id: grallaria-haplonota
     how: "стоит вертикально и прыгает, хвоста почти нет, горло белое, а не чёрное, у клюва светлый ус"
-behavior: "Почти целиком наземная птица густого подлеска на крутых склонах, в оврагах и на зарастающих оползнях. Медленно ходит по земле с поднятым хвостом и при тревоге замирает."
+behavior: "Почти целиком наземная птица густого подлеска на крутых склонах, в оврагах и на зарастающих оползнях. Медленно и размеренно ходит по земле с поднятым хвостом."
 voice: "Два чистых свиста «ту-ту», у колумбийских птиц вторая нота обычно чуть выше; позыв — двойное «ту-чуп»."
 traits:
   size: thrush
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/formicarius-rufipectus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/formicariidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Rufous-chestnut breast, paler belly, olive-brown flanks"
@@ -35,10 +37,10 @@ en:
     - "Walks over the leaf litter with its short black tail cocked, like a small rail"
   similar:
     - id: formicarius-nigricapillus
-      how: "breast and belly gray with no rufous, head wholly blackish; lives lower, usually below 900 m"
+      how: "blackish-gray breast, gray belly, rufous only on the undertail, head wholly blackish; lives lower, in Colombia up to 1,400 m"
     - id: grallaria-haplonota
       how: "stands upright and hops, almost tailless, white rather than black throat, pale moustache"
-  behavior: "An almost wholly terrestrial bird of dense understory on steep slopes, in ravines and on regrowing landslides. Walks slowly on the ground with its tail raised and freezes when alarmed."
+  behavior: "An almost wholly terrestrial bird of dense understory on steep slopes, in ravines and on regrowing landslides. Walks slowly and deliberately on the ground with its tail raised."
   voice: "Two clear whistles, 'too-too', the second note usually slightly higher in Colombian birds; the call is a doubled 'too-choop'."
 ---
 Rufous-breasted Antthrush (рыжегрудая муравейница) живёт в очень влажном предгорном и облачном лесу; в Колумбии обычно на 1 200–2 400 м, по данным ACO от 850 м. На западном склоне Анд живёт подвид carrikeri: лоб у него темнее, верх с аспидным оттенком, низ бледнее. Рыжая грудь видна только когда птица выходит на свет; в тени это тёмный силуэт, который шагает и покачивает хвостом.
