@@ -2,6 +2,7 @@
 id: veniliornis-dignus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо и подхвостье жёлтые, без полос"
   - "Горло, грудь и верх боков в густых оливково-чёрных поперечных полосах"
@@ -11,7 +12,7 @@ similar:
   - id: veniliornis-nigriceps
     how: "полосы по всему низу, до подхвостья, жёлтого на брюхе нет; живёт выше, в бамбуке у границы леса"
   - id: veniliornis-kirkii
-    how: "поясница ярко-малиновая, белых полосок на лице нет; держится в низинах, в садах и на опушках"
+    how: "поясница ярко-малиновая, низ целиком в полосах, без жёлтого брюха; держится в низинах, в садах и на опушках"
 behavior: "Держится внутри зрелого облачного леса, от среднего яруса до крон, поодиночке или парами, иногда в смешанных стаях. Подолгу стучит на одном месте по стволу или ветке."
 voice: "Малоголосый; быстрая сухая трель «кррррррр»."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/veniliornis-dignus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Карточки content/species/veniliornis-kirkii.md, veniliornis-chocoensis.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Red-rumped woodpecker (en), CC BY-SA 4.0 — data/texts: белые штрихи на лице у V. kirkii; факт-чек 27.09.2026"
 en:
   key_features:
     - "Yellow belly and undertail, unbarred"
@@ -37,7 +39,7 @@ en:
     - id: veniliornis-nigriceps
       how: "barred on all the underparts to the undertail, no yellow belly; lives higher, in bamboo near treeline"
     - id: veniliornis-kirkii
-      how: "bright crimson rump, no white face stripes; keeps to the lowlands, gardens and edges"
+      how: "bright crimson rump, underparts barred throughout with no yellow belly; keeps to the lowlands, gardens and edges"
   behavior: "Keeps inside mature cloud forest from the middle levels to the canopy, singly or in pairs, sometimes with mixed flocks. Often hammers for a long time at one spot on a trunk or branch."
   voice: "Not very vocal; a fast dry rattle, 'krrrrrrr'."
 ---

@@ -2,6 +2,7 @@
 id: buteo-albonotatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение черноватое; снизу маховые серебристые в тёмных полосках, кроющие чёрные"
   - "Хвост с 3–4 полосами, белыми снизу; вторая от конца заметно шире"
@@ -12,8 +13,8 @@ similar:
     how: "голая красная или серая голова, хвост без полос, крупнее, ноги не жёлтые"
   - id: buteogallus-anthracinus
     how: "коренастее, крылья шире, хвост короткий с одной широкой белой полосой"
-behavior: "Охотится из парящего полёта над опушками, редколесьями и берегами рек, часто вместе с грифами-индейками: мелкие животные привыкли не бояться грифа. Заметив добычу, резко пикирует на ящерицу, птицу или грызуна."
-voice: "Протяжный визгливый крик «крииир» (проверить)."
+behavior: "Охотится из парящего полёта над опушками, редколесьями и берегами рек, часто вместе с грифами-индейками: считается, что мелкие животные не боятся грифа и подпускают канюка ближе. Заметив добычу, резко пикирует на ящерицу, птицу или грызуна."
+voice: "Протяжный визгливый крик «крииир»."
 traits:
   size: crow
   colors: [black, gray]
@@ -37,8 +38,8 @@ en:
       how: "bare red or gray head, unbarred tail, larger, legs not yellow"
     - id: buteogallus-anthracinus
       how: "stockier, broader wings, short tail with a single broad white band"
-  behavior: "Hunts from soaring flight over edges, open woodland and river banks, often among Turkey Vultures: small animals have learned not to fear a vulture. On spotting prey it stoops sharply on a lizard, bird or rodent."
-  voice: "A drawn-out squealing 'kreeeer' (to be verified)."
+  behavior: "Hunts from soaring flight over edges, open woodland and river banks, often among Turkey Vultures: small animals are thought not to fear a vulture and so let the hawk come closer. On spotting prey it stoops sharply on a lizard, bird or rodent."
+  voice: "A drawn-out squealing 'kreeeer'."
 ---
 Zone-tailed Hawk (болотный канюк) — стройный чёрный канюк длиной 46–56 см, самый известный пример «мимикрии под грифа»: силуэт, двуцветные крылья и покачивающийся полёт почти как у грифа-индейки. В Колумбии встречается от низин до 3 000 м, но нигде не многочислен. Каждого «грифа» с оперённой головой и полосатым хвостом стоит рассмотреть в бинокль.
 

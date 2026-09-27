@@ -2,19 +2,20 @@
 id: microspizias-superciliosus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный ястреб, размером с дрозда, самка крупнее самца"
   - "Шапка и верх тёмно-аспидные, щёки серые"
-  - "Низ белый в частых тонких серо-бурых поперечных полосках"
-  - "Глаза красные или оранжевые; хвост с тёмными полосами"
-  - "Самки бывают буроватые, с рыжеватым оттенком"
+  - "Низ белый в частых тонких тёмных поперечных полосках, горло чистое"
+  - "Глаза красные (у молодых желтоватые или оранжевые); хвост с тёмными полосами"
+  - "Самка буроватее сверху, низ охристый; у молодых бывает рыжая морфа"
 similar:
   - id: microspizias-collaris
     how: "на затылке светлый полуворотник, полосы на груди крупнее и реже; живёт выше, в предгорьях и облачном лесу"
   - id: accipiter-striatus
     how: "заметно крупнее, низ обычно рыжеватый, «штаны» рыжие; живёт в горах"
 behavior: "Скрытный охотник на колибри и мелких воробьиных: караулит у цветков и привычных присад, затем стремительно бросается из укрытия. В ясное утро иногда греется на открытой ветке над кроной."
-voice: "Тонкое писклявое «кии-кии-кии»; кричит редко (проверить)."
+voice: "Пронзительная высокая чуть дрожащая серия из 20–30 нот «кир-кир-кир…»: сначала ускоряется, потом идёт ровно."
 traits:
   size: thrush
   colors: [gray, white]
@@ -31,16 +32,16 @@ en:
   key_features:
     - "A tiny hawk, thrush-sized, the female larger than the male"
     - "Dark slate cap and upperparts, gray cheeks"
-    - "White underparts closely and finely barred gray-brown"
-    - "Red or orange eyes; banded tail"
-    - "Females can be brownish, with a rufous tinge"
+    - "White underparts closely and finely barred dark, throat unmarked"
+    - "Red eyes (yellowish or orange in young birds); banded tail"
+    - "Female browner above, buffier below; young birds can be a rufous morph"
   similar:
     - id: microspizias-collaris
       how: "a pale half-collar on the nape, coarser and sparser breast bars; lives higher, in foothills and cloud forest"
     - id: accipiter-striatus
       how: "clearly larger, usually rufous-tinged below with rufous thighs; lives in the mountains"
   behavior: "A secretive hunter of hummingbirds and small passerines: it waits by flowers and habitual perches, then dashes out from cover. On clear mornings it sometimes suns itself on an exposed branch above the canopy."
-  voice: "A thin squeaky 'kee-kee-kee'; calls rarely (to be verified)."
+  voice: "A shrill, high, slightly quavering series of 20–30 notes, 'keer-keer-keer…': it accelerates at first, then settles into a steady rhythm."
 ---
 Tiny Hawk (ястреб-крошка) — один из самых маленьких ястребов мира, длиной около 20–27 см. В Колумбии живёт во влажном лесу и на его опушках, обычно ниже 800 м. Ястреб скрытный и легко остаётся незамеченным; чаще всего его видят, когда он внезапно проносится через сад с колибри. Выдаёт его и тревога мелких птиц.
 

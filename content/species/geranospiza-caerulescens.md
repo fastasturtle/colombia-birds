@@ -2,6 +2,7 @@
 id: geranospiza-caerulescens
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ноги очень длинные, ярко-оранжевые или красно-оранжевые"
   - "Оперение ровное аспидно-серое или черноватое; голова маленькая, глаза красные"
@@ -13,7 +14,7 @@ similar:
   - id: buteogallus-schistaceus
     how: "коренастый, хвост короткий с одной белой полосой, глаза светлые; держится у воды в амазонском лесу"
 behavior: "Лазает по стволам и развилкам, заглядывая в дупла и пучки эпифитов: благодаря гнущемуся в обе стороны суставу ноги достаёт оттуда птенцов, летучих мышей, ящериц и лягушек. Почти всегда держится у воды."
-voice: "Протяжный свистящий крик «уииии»; вне гнездования молчалив (проверить)."
+voice: "Обычно молчит. Изредка пронзительный свист «уиоо» или «квиуур»; на рассвете и в сумерках с присады — глухое «хау», повторяемое с долгими паузами."
 traits:
   size: crow
   colors: [gray, black]
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/geranospiza-caerulescens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/ictinia-plumbea.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Slate-colored hawk (en), CC BY-SA 4.0 — data/texts: жёлтые глаза B. schistaceus; факт-чек 27.09.2026"
 en:
   key_features:
     - "Very long, bright orange to red-orange legs"
@@ -38,7 +40,7 @@ en:
     - id: buteogallus-schistaceus
       how: "stocky, short tail with a single white band, pale eyes; keeps near water in Amazonian forest"
   behavior: "Clambers over trunks and forks, probing cavities and epiphyte clumps: its double-jointed legs let it pull out nestlings, bats, lizards and frogs. Almost always stays near water."
-  voice: "A drawn-out whistled 'wheeee'; quiet outside the breeding season (to be verified)."
+  voice: "Usually silent. Occasionally a shrill whistle, 'wheeoo' or 'kweeuur'; at dawn and dusk a low, hollow 'how' from a perch, repeated at long intervals."
 ---
 Crane Hawk (журавлиный коршун) — единственный вид своего рода, хищник длиной около 46 см. В Колумбии живёт в низинах, по данным проекта до 500 м, по краям леса, в манграх и у болот, почти всегда рядом с водой. Кочует вслед за изменением уровня воды. Сидящая птица неприметна, но длинные оранжевые ноги и манера карабкаться по дереву, засовывая лапу в дупло, выдают её сразу.
 

@@ -2,8 +2,9 @@
 id: chloroceryle-inda
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Весь низ от горла до подхвостья густо-рыжий"
+  - "Весь низ густо-рыжий, только подбородок и горло светлее, охристые"
   - "Верх тёмно-зелёный, на крыле и хвосте мелкие белые точки"
   - "Самка с зелёной перевязью в белых крапинах поперёк груди"
   - "Клюв длинный, массивный, чёрный; хохол лохматый, невысокий"
@@ -27,7 +28,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Wholly deep rufous below, from throat to undertail"
+    - "Wholly deep rufous below, only the chin and throat paler, buffy"
     - "Dark green upperparts, small white spots on wing and tail"
     - "Female has a green, white-speckled band across the breast"
     - "Long heavy black bill; low shaggy crest"

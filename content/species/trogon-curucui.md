@@ -2,6 +2,7 @@
 id: trogon-curucui
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова и грудь блестящие сине-зелёные, лицо и горло черноватые"
   - "Вокруг глаза самца оранжевое голое кольцо"

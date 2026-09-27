@@ -2,6 +2,7 @@
 id: galbula-ruficauda
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, тонкий, прямой, чёрный, как игла"
   - "Верх и полоса поперёк груди металлически-зелёные"
@@ -40,12 +41,12 @@ en:
   behavior: "Perches upright on a thin twig at an edge, trail or stream, turning its head, and sallies for butterflies, dragonflies and wasps. Keeps in pairs and allows a fairly close approach."
   voice: "A sharp 'pee-op' and a high thin song, 'peeo-pee-peeo-pee-pe-pe', ending in a trill."
 ---
-Rufous-tailed Jacamar (рыжехвостая якамара) — самая широко распространённая якамара, от юга Мексики до юга Бразилии; в Колумбии она живёт в низинах и предгорьях примерно до 1 300 м. Блестящая зелёная птица с клювом-иглой похожа на гигантского колибри, но охотится как щурка, подолгу сидя на присаде у опушки.
+Rufous-tailed Jacamar (рыжехвостая якамара) — якамара с огромным ареалом, от юга Мексики до юга Бразилии; в Колумбии она живёт в низинах и предгорьях примерно до 1 300 м. Блестящая зелёная птица с клювом-иглой похожа на гигантского колибри, но охотится как щурка, подолгу сидя на присаде у опушки.
 
 На маршруте она «возможно» в Чикаке 3 и 23–24 октября, хотя парк лежит на 2 000–2 700 м: вероятно, записи относятся к тёплым склонам ниже, по дороге к долине Магдалены. Проверяй опушки и кусты у ручьёв при спуске.
 
 ## English
 
-Rufous-tailed Jacamar is the most widespread jacamar, from southern Mexico to southern Brazil; in Colombia it lives in the lowlands and foothills up to about 1,300 m. A glittering green bird with a needle bill, it resembles a giant hummingbird but hunts like a bee-eater, sitting for long spells on a perch at the forest edge.
+Rufous-tailed Jacamar is a jacamar with a huge range, from southern Mexico to southern Brazil; in Colombia it lives in the lowlands and foothills up to about 1,300 m. A glittering green bird with a needle bill, it resembles a giant hummingbird but hunts like a bee-eater, sitting for long spells on a perch at the forest edge.
 
 On the route it is "maybe" at Chicaque on 3 and 23–24 October, although the park lies at 2,000–2,700 m: the records probably come from warmer slopes below, on the road down to the Magdalena valley. Check edges and streamside bushes on the way down.
