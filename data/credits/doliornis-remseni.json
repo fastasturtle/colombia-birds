@@ -1,154 +1,98 @@
 {
- "authorship": "(Robbins, G. H. Rosenberg & F. S. Molina, 1994)",
- "colombia": {
-  "endemic": false,
-  "habitat_aco": "Forest",
-  "introduced": false,
-  "libro_rojo": "EN",
-  "migration_note": "Residente",
-  "status": [
-   "resident"
-  ],
-  "status_raw": "Residente",
-  "status_uncertain": false
- },
- "difficulty": null,
- "ebird_code": "chbcot1",
- "family": {
-  "code": "coting1",
-  "en": "Cotingas",
-  "sci": "Cotingidae"
- },
- "genus": "Doliornis",
  "id": "doliornis-remseni",
- "ids": {
-  "avibase": "E95B88A6D06B77E3",
-  "birdbase": 18276,
-  "gbif": 2486397,
-  "inaturalist": "8844",
-  "iucn": "22700747",
-  "wikidata": "Q286759",
-  "xeno_canto": "Doliornis-remseni"
- },
- "iucn": {
-  "aco_2022": "VU",
-  "birdbase_2024": "NT",
-  "wikidata": "near threatened"
- },
- "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Doliornis_remseni",
-  "ebird": "https://ebird.org/species/chbcot1",
-  "inaturalist": "https://www.inaturalist.org/taxa/8844",
-  "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Chestnut-bellied_cotinga",
-   "es": "https://es.wikipedia.org/wiki/Doliornis_remseni",
-   "ru": "https://ru.wikipedia.org/wiki/Doliornis_remseni"
-  },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Doliornis+remseni"
- },
- "name_ru_source": "ebird",
- "names": {
-  "en": "Chestnut-bellied Cotinga",
-  "en_aco": "Chestnut-bellied Cotinga",
-  "es": "Cotinga de Remsen",
-  "ru": "Каштановогрудая котинга"
- },
- "order": "Passeriformes",
  "photos": [
   {
    "author": "Rob Felix",
    "credit": "https://www.inaturalist.org/photos/262570674",
+   "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Doliornis_remseni_262570674.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "height": 1200,
    "key_base": "photos/doliornis-remseni/1",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 1,
+   "original_height": 1273,
+   "original_width": 1697,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/doliornis-remseni/1-large.jpg",
     "medium": "photos/doliornis-remseni/1-medium.jpg",
     "thumb": "photos/doliornis-remseni/1-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Doliornis_remseni_262570674.jpg",
+   "title": "Doliornis remseni 262570674",
    "width": 1600
   },
   {
    "author": "Rob Felix",
    "credit": "(c) Rob Felix, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262570674/original.jpg",
    "height": 1066,
    "key_base": "photos/doliornis-remseni/2",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 2,
+   "original_height": 1365,
+   "original_width": 2048,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/doliornis-remseni/2-large.jpg",
     "medium": "photos/doliornis-remseni/2-medium.jpg",
     "thumb": "photos/doliornis-remseni/2-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/152123028",
+   "title": "Doliornis remseni, iNaturalist observation 152123028",
    "width": 1600
   },
   {
    "author": "scaup",
    "credit": "(c) scaup, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609843659/original.jpg",
    "height": 930,
    "key_base": "photos/doliornis-remseni/3",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 3,
+   "original_height": 930,
+   "original_width": 1204,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/doliornis-remseni/3-large.jpg",
     "medium": "photos/doliornis-remseni/3-medium.jpg",
     "thumb": "photos/doliornis-remseni/3-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/335674110",
+   "title": "Doliornis remseni, iNaturalist observation 335674110",
    "width": 1204
   },
   {
    "author": "(c) Christoph Moning, some rights reserved (CC BY)",
    "credit": "https://www.inaturalist.org/photos/104828968",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Chestnut-bellied_Cotinga_imported_from_iNaturalist_photo_104828968_on_20_April_2022.jpg/1920px-Chestnut-bellied_Cotinga_imported_from_iNaturalist_photo_104828968_on_20_April_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1001,
    "key_base": "photos/doliornis-remseni/4",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 4,
+   "original_height": 1281,
+   "original_width": 2048,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/doliornis-remseni/4-large.jpg",
     "medium": "photos/doliornis-remseni/4-medium.jpg",
     "thumb": "photos/doliornis-remseni/4-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Chestnut-bellied_Cotinga_imported_from_iNaturalist_photo_104828968_on_20_April_2022.jpg",
+   "title": "Chestnut-bellied Cotinga imported from iNaturalist photo 104828968 on 20 April 2022",
    "width": 1600
   }
  ],
- "sci_name": "Doliornis remseni",
- "sci_name_aco": "Doliornis remseni",
- "sounds": [],
- "taxon_order": 15891.0,
- "taxonomy_note": null,
- "texts": {},
- "traits": {
-  "diet_desc": null,
-  "elevation_m": {
-   "max": 3650,
-   "max_extreme": null,
-   "min": 3100,
-   "min_extreme": 2875
-  },
-  "habitat_breadth": 3,
-  "habitats": [
-   "forest",
-   "woodland",
-   "grassland"
-  ],
-  "mass_g": 64.83333333333333,
-  "mobility": {
-   "altitudinal": null,
-   "dispersive": null,
-   "irregular": null,
-   "migratory": null,
-   "sedentary": 1
-  },
-  "primary_diet": "Fruit",
-  "primary_habitat": "Forest",
-  "range_restricted": 0
- },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Doliornis%20remseni%20262570674.jpg"
- ]
+ "updated": "2026-09-27"
 }
