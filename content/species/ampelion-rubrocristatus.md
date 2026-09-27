@@ -2,6 +2,7 @@
 id: ampelion-rubrocristatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв светлый, беловатый, с тёмным кончиком; радужка красная"
   - "Тело серое, голова, крылья и хвост темнее"
@@ -11,9 +12,9 @@ similar:
   - id: doliornis-remseni
     how: "брюхо каштаново-рыжее, шапочка чёрная, клюв тёмный; держится у самой границы леса"
   - id: ampelion-rufaxilla
-    how: "лицо и горло рыжие, бока в пестринах, подмышки каштановые; живёт ниже, в облачном лесу"
+    how: "лицо и горло каштановые, низ жёлтый в чёрных пестринах, шапочка чёрная; живёт ниже, в облачном лесу"
 behavior: "Сидит на открытых верхушках деревьев и кустов у границы леса, в садах и на опушках, откуда хорошо виден. Кормится ягодами и омелой, иногда ловит насекомых в воздухе."
-voice: "Молчалива; изредка низкое хриплое кваканье."
+voice: "Обычно молчалива; изредка низкое гортанное «ррэ» или лягушачья трескотня «к-к-к-к-ррреэ»."
 traits:
   size: thrush
   colors: [gray, black]
@@ -23,7 +24,8 @@ traits:
   layer: [canopy]
 sources:
   - "Wikipedia: Red-crested cotinga (en, CC BY-SA 4.0)"
-  - "Wikipedia: Краснохохлый ампелион (ru, CC BY-SA 4.0)"
+  - "Wikipedia: Краснохохлый ампелион (ru, CC BY-SA 4.0); Ampelion rubrocristatus (es, CC BY-SA 4.0) — голос"
+  - "Wikipedia: Chestnut-crested cotinga (en, CC BY-SA 4.0) — сверка отличий"
   - "Данные проекта: data/species/ampelion-rubrocristatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -36,9 +38,9 @@ en:
     - id: doliornis-remseni
       how: "chestnut-rufous belly, black cap, dark bill; keeps to the very treeline"
     - id: ampelion-rufaxilla
-      how: "rufous face and throat, streaked flanks, chestnut axillaries; lives lower, in cloud forest"
+      how: "chestnut face and throat, yellow underparts streaked black, black crown; lives lower, in cloud forest"
   behavior: "Perches on exposed treetops and bush tops at the treeline, in gardens and edges, where it is easy to see. Feeds on berries and mistletoe, sometimes catching insects in the air."
-  voice: "Mostly silent; occasionally a low, hoarse croak."
+  voice: "Mostly silent; occasionally a low guttural rrreh or a frog-like k-k-k-k-rrreh."
 ---
 Red-crested Cotinga (свиристелевая котинга) — самая доступная котинга высокогорья, на 2 500–3 900 м. Она не прячется: серая птица размером с дрозда сидит на сухой верхушке, и светлый клюв с красным глазом видны даже в бинокль издалека. Красно-бурый хохол обычно прижат и раскрывается веером, когда птица возбуждена.
 

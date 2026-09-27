@@ -2,18 +2,19 @@
 id: turdus-fuscater
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень крупный дрозд, тёмно-бурый или почти чёрно-бурый, без пятен"
   - "Клюв и ноги ярко-оранжевые"
-  - "У самца оранжевое кольцо вокруг глаза, у самки его нет"
+  - "У самца оранжевое кольцо вокруг глаза, у самки оно бледнее или отсутствует"
   - "Ходит по газонам и обочинам, как чёрный дрозд в европейском парке"
 similar:
   - id: turdus-serranus
     how: "мельче, самец блестяще-чёрный, живёт внутри леса, а не на газонах"
   - id: turdus-ignobilis
-    how: "мельче, светло-серовато-бурый, с тёмным клювом и пестринами на горле; держится ниже"
+    how: "мельче, оливково-бурый, с чёрным клювом и пестринами на горле; держится ниже"
 behavior: "Смелый и шумный, кормится червями и плодами на земле в садах, парках и на пастбищах, при опасности с треском улетает в кусты. Обычен от городских кварталов Боготы до кустарников у парамо."
-voice: "Громкие тревожные «ку-ку-ку», трещащие крики и неспешная песня из свистов на рассвете."
+voice: "Вспугнутый кричит «кёрт» или сериями «кёрт-кёрт-кёрт», бывает и громкое «квиип»; песня тихая, из быстрых разнообразных фраз, перед рассветом."
 traits:
   size: pigeon
   colors: [brown, orange]
@@ -22,21 +23,23 @@ traits:
   bill: medium
   layer: [ground, midstory]
 sources:
+  - "Wikipedia: Great thrush (en), Turdus fuscater (es) (CC BY-SA 4.0), data/texts/turdus-fuscater.json"
+  - "Wikipedia: Glossy-black thrush, Black-billed thrush (en, CC BY-SA 4.0) — сверка отличий"
   - "Данные проекта: data/species/turdus-fuscater.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "A very large thrush, dark brown to almost blackish-brown, unspotted"
     - "Bright orange bill and legs"
-    - "Male has an orange eye ring, female lacks it"
+    - "Male has an orange eye ring; the female's is duller or absent"
     - "Walks on lawns and verges like a European blackbird in a park"
   similar:
     - id: turdus-serranus
       how: "smaller, male glossy black, lives inside forest rather than on lawns"
     - id: turdus-ignobilis
-      how: "smaller, pale grayish-brown, with a dark bill and a streaked throat; keeps lower"
+      how: "smaller, olive-brown, with a black bill and a streaked throat; keeps lower"
   behavior: "Bold and noisy; feeds on worms and fruit on the ground in gardens, parks and pastures and flies off chattering into bushes when alarmed. Common from Bogotá's city blocks to páramo shrubland."
-  voice: "Loud alarm 'kuk-kuk-kuk', rattling calls and an unhurried whistled song at dawn."
+  voice: "When flushed, a 'keert' or a series of 'kurt-kurt-kurt', also a loud 'kweep'; the song is soft, of quick varied phrases, before sunrise."
 ---
 Great Thrush (большой дрозд) — самый крупный дрозд Анд, почти 30 см длиной, размером с голубя. Он обычен на высотах 1 300–4 200 м: в садах и парках Боготы, на пастбищах, в кустарниках и по краю парамо. Тёмно-бурое оперение без пятен, оранжевые клюв и ноги и крупный размер определяют его сразу.
 
