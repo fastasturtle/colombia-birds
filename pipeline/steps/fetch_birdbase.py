@@ -14,7 +14,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import SOURCES, get, log, norm_sci, read_json, write_json  # noqa: E402
+from common import SOURCES, checklist, get, log, norm_sci, read_json, write_json  # noqa: E402
 
 FILE_URL = "https://ndownloader.figshare.com/files/55634729"
 CITATION = (
@@ -43,7 +43,7 @@ def clean(v):
 
 
 def main() -> None:
-    aco = read_json(SOURCES / "aco.json")["species"]
+    aco = checklist()  # ACO 2022 + clements2025 additions
     ebird = read_json(SOURCES / "ebird.json")["species"]
     name_map = read_json(SOURCES / "ebird_name_map.json")
     wanted: dict[str, str] = {}  # any normalized name -> aco key
@@ -64,12 +64,19 @@ def main() -> None:
         "eBird/Clements (V2024b)",
         "AviList v1 2025",
     ]
+    # A row matched by the eBird name of a remapped ACO taxon (aco_to_ebird.json, e.g. Numenius hudsonicus for
+    # ACO N. phaeopus) beats a row matched by the ACO name, which after a split is the other half.
+    ebird_names = {norm_sci(v): k for k, v in {**name_map["auto_by_english_name"], **name_map["manual"]}.items()}
     out: dict[str, dict] = {}
+    by_ebird: set[str] = set()
     for _, r in df.iterrows():
         keys = {norm_sci(str(r[c])) for c in tax_cols if isinstance(r[c], str)}
         hit = next((wanted[k] for k in keys if k in wanted), None)
-        if hit is None or hit in out:
+        via_ebird = any(ebird_names.get(k) == hit for k in keys)
+        if hit is None or (hit in out and (hit in by_ebird or not via_ebird)):
             continue
+        if via_ebird:
+            by_ebird.add(hit)
         habitats = [name for code, name in HABITAT_CODES.items() if clean(r.get(code)) not in (None, 0)]
         out[hit] = {
             "birdbase_id": clean(r["IOC 15.1"]),

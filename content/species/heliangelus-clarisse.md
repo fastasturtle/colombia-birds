@@ -1,5 +1,5 @@
 ---
-id: heliangelus-amethysticollis
+id: heliangelus-clarisse
 difficulty: medium
 lynx_page: null
 key_features:
@@ -23,7 +23,7 @@ traits:
   layer: [understory, midstory]
 sources:
   - "Wikipedia: Amethyst-throated sunangel (en, CC BY-SA 4.0) — статья описывает вид в узком объёме IOC (без колумбийских птиц), использованы экология и голос"
-  - "Данные проекта: data/species/heliangelus-amethysticollis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Данные проекта: data/species/heliangelus-clarisse.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -39,12 +39,12 @@ en:
   behavior: "Keeps inside and along the edges of cloud and elfin forest, always close to cover. Feeds low, up to 6 m, at short-tubed flowers, defends them and catches many insects in sallies from a perch."
   voice: "A short, dry, buzzy trill repeated at intervals."
 ---
-Amethyst-throated Sunangel (русского названия в eBird нет) — солнечный колибри влажного горного леса на высотах 1 800–3 200 м. В Колумбии живёт форма, которую часть списков выделяет в отдельный вид Longuemare's Sunangel; у здешних самцов горло розово-аметистовое, а под ним на груди светлая полоса. Он чаще соседей сидит внутри леса, у самого укрытия, и в тени горло кажется просто тёмным пятном.
+Longuemare's Sunangel (русского названия нет) — солнечный колибри влажного горного леса на высотах 1 800–3 200 м. eBird/Clements отделяет его от Amethyst-throated Sunangel, который живёт южнее, от юга Эквадора до Боливии; в списке ACO 2022 колумбийские птицы ещё значатся под этим именем (Heliangelus amethysticollis). У самцов горло розово-аметистовое, а под ним на груди светлая полоса. Он чаще соседей сидит внутри леса, у самого укрытия, и в тени горло кажется просто тёмным пятном.
 
 Вид отмечен как «возможный» только в Чингасе и Обсерватории колибри. Они не входят в программу тура — это вариант для самостоятельного выезда из Боготы; в Обсерватории ищи его у кормушек.
 
 ## English
 
-Amethyst-throated Sunangel (no Russian name in eBird) is a sunangel of humid montane forest at 1,800–3,200 m. Colombia has the form that some lists split as a separate species, Longuemare's Sunangel; males here have a rosy-amethyst throat with a pale band across the breast below it. It sits inside the forest, close to cover, more often than its neighbours, and in shade the throat looks like a plain dark patch.
+Longuemare's Sunangel is a sunangel of humid montane forest at 1,800–3,200 m. eBird/Clements splits it from Amethyst-throated Sunangel, which lives further south, from southern Ecuador to Bolivia; the ACO 2022 checklist still lists Colombian birds under that name (Heliangelus amethysticollis). Males have a rosy-amethyst throat with a pale band across the breast below it. It sits inside the forest, close to cover, more often than its neighbours, and in shade the throat looks like a plain dark patch.
 
 It is rated "maybe" only at Chingaza and the Observatorio de Colibríes. These are not in the tour programme: an option for an independent trip from Bogotá; at the Observatorio look for it at the feeders.

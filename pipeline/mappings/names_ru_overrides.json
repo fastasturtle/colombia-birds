@@ -1,0 +1,6 @@
+{
+ "_comment": "Russian species names applied by build_species.py after eBird (locale=ru) and Wikidata: {slug: {\"ru\": name or null, \"source\": ...}}; null removes a wrong name. Only attested names: eBird names with an obvious typo fixed, or the title of the ru.wikipedia article about the species (checked via Wikidata sitelinks, 2026-09-27). Every name is also normalised in code: first letter upper case, names without Cyrillic letters (Latin binomials in Wikidata labels) dropped. Species checked with no ru.wikipedia article under a Russian title (left null): atlapetes-schistaceus, grallaria-saturata, grallaria-saltuensis, grallaria-quitensis, grallaria-alvarezi (article title is Latin), grallaria-alticola, dubusia-taeniata (article is titled with the genus, «Дюбузия»), tephrophilus-wetmorei, coeligena-bonapartei, heliangelus-clarisse, dacnis-egregia, myiothlypis-chlorophrys, rallus-aequatorialis (article title is Latin), atlapetes-crassus.",
+ "pyrrhura-melanura": {"ru": "Коричневохвостая которра", "source": "ebird (typo fixed: «Коричневохвотсая»)"},
+ "pyrrhura-calliptera": {"ru": "Коричневогрудая которра", "source": "ebird (typo fixed: «Коричневогруая»)"},
+ "numenius-hudsonicus": {"ru": "Американский средний кроншнеп", "source": "ru.wikipedia"}
+}

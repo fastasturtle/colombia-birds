@@ -5,7 +5,9 @@ coordinates, present) inside a circle of `--radius` km (a 32-gon WKT polygon) re
 per speciesKey: all year, and autumn only (`month=9,11`, a GBIF range = Sep-Nov; the trip is in
 October, so this is the seasonal signal). Keys are mapped to our slugs via data/species/*.json `ids.gbif`; the rest are looked
 up once via /v1/species/{key} and matched by scientific name (sci_name / sci_name_aco). Keys that
-still do not match are written to data/sources/gbif_sites_unmatched.json.
+still do not match are written to data/sources/gbif_sites_unmatched.json. Splits GBIF keeps under one species
+key (Dacnis lineata / D. egregia, Grallaria quitensis / G. alticola) are reassigned by the site's region via
+pipeline/mappings/gbif_region_splits.json.
 
 Output data/site_species.json:
   {site_id: {radius_km, total_records, total_records_aut, retrieved,
@@ -43,6 +45,7 @@ def circle_wkt(lat: float, lon: float, radius_km: float, n: int = 32) -> str:
 
 
 MAP = Path(__file__).resolve().parent.parent / "mappings" / "gbif_to_species.json"
+SPLITS = Path(__file__).resolve().parent.parent / "mappings" / "gbif_region_splits.json"
 
 
 def stem(epithet: str) -> str:
@@ -98,6 +101,14 @@ def main() -> None:
     sites = read_json(DATA / "sites.json")
     by_key, by_sci, by_fam_epithet = species_lookups()
     manual: dict[str, str] = {k: v for k, v in read_json(MAP, {}).items() if not k.startswith("_")}
+    # {from_slug: {to_slug: [regions]}}: splits GBIF keeps under one key, decided by the site's region
+    splits: dict[str, dict[str, list[str]]] = {k: v for k, v in read_json(SPLITS, {}).items() if not k.startswith("_")}
+
+    def regional(sid: str | None, s: dict) -> str | None:
+        for to, regions in splits.get(sid or "", {}).items():
+            if s.get("region") in regions:
+                return to
+        return sid
     how_n: dict[str, int] = {}
     today = dt.date.today().isoformat()
     out: dict[str, dict] = {}
@@ -146,7 +157,7 @@ def main() -> None:
             key, n = int(c["name"]), int(c["count"])
             if n < a.min_count:
                 continue
-            sid = resolve_key(key, s["id"], n)
+            sid = regional(resolve_key(key, s["id"], n), s)
             if sid is not None:
                 agg[sid] = agg.get(sid, 0) + n  # two GBIF keys may map to one of our species
         ra = facet(s, radius, "9,11")
@@ -154,7 +165,7 @@ def main() -> None:
         agg_aut: dict[str, int] = {}
         for c in (ra["facets"][0]["counts"] if ra.get("facets") else []):
             key = int(c["name"])
-            sid = by_key.get(key) if key in by_key else resolved_extra.get(key)
+            sid = regional(by_key.get(key) if key in by_key else resolved_extra.get(key), s)
             if sid in agg:  # keys already resolved above (all-year n >= n_aut)
                 agg_aut[sid] = agg_aut.get(sid, 0) + int(c["count"])
         sp = []

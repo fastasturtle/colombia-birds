@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import SOURCES, get_json, log, norm_sci, read_json, write_json  # noqa: E402
+from common import SOURCES, checklist, get_json, log, norm_sci, read_json, write_json  # noqa: E402
 
 # Official WDQS rate-limits shared IPs aggressively; QLever is a full Wikidata mirror with a SPARQL API.
 ENDPOINT = "https://qlever.dev/api/wikidata"
@@ -72,7 +72,7 @@ def wiki_title(url: str | None) -> str | None:
 
 
 def main() -> None:
-    aco = read_json(SOURCES / "aco.json")["species"]
+    aco = checklist()  # ACO 2022 + clements2025 additions
     ebird = read_json(SOURCES / "ebird.json")["species"]
     name_map = read_json(SOURCES / "ebird_name_map.json")
     aco_to_ebird = {k: k for k in aco}
@@ -119,7 +119,10 @@ def main() -> None:
     for r in run("P225", "sci", names):
         by_sci[norm_sci(r["sci"])] = r
     for k in rest:
-        r = by_sci.get(k) or by_sci.get(aco_to_ebird[k])
+        # After a split (ACO name and eBird name are both eBird species, aco_to_ebird.json) the ACO name is the
+        # other half of the split: try the eBird name first.
+        split = aco_to_ebird[k] != k and k in ebird
+        r = (by_sci.get(aco_to_ebird[k]) or by_sci.get(k)) if split else (by_sci.get(k) or by_sci.get(aco_to_ebird[k]))
         if r:
             store(k, r, "sci_name")
 

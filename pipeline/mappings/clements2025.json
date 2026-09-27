@@ -1,0 +1,30 @@
+{
+ "_comment": "eBird/Clements 2025 corrections to the ACO 2022 base list (docs/DECISIONS.md row 19). `species`: Clements 2025 species absent from ACO 2022 (post-2022 splits) that GBIF/eBird records at route sites; common.checklist() adds them to the ACO list with `source: clements2025`, so ebird/birdbase/wikidata/build pick them up. ACO taxa whose Colombian population eBird now calls by another name are remapped in aco_to_ebird.json instead (whole-species remap, same ACO record). `renamed`: one-off old slug -> new slug for those remaps; `build` carries `photos`/`sounds`/`texts` of the old data/species/<old>.json over to the new slug when `carry` is true (the old photos show the Colombian bird); otherwise the new slug waits for the CI `photos upload` run. Entries can be dropped once CI has refilled the new slugs.",
+ "species": {
+  "Dacnis egregia": {
+   "authorship": "P.L. Sclater, 1855",
+   "split_from": "Dacnis lineata",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": 6100781,
+   "habitat_aco": null,
+   "note": "Yellow-tufted Dacnis, split from Black-faced Dacnis (D. lineata) in eBird/Clements: the population west of the Andes and in the Magdalena Valley (route: Pacific Nariño, Huila, Chicaque). D. lineata in the narrow sense is the Amazonian bird east of the Andes (Putumayo)."
+  },
+  "Grallaria alticola": {
+   "authorship": "Todd, 1919",
+   "split_from": "Grallaria quitensis",
+   "status": ["resident"],
+   "endemic": true,
+   "gbif_key": 10797540,
+   "habitat_aco": null,
+   "note": "Boyaca Antpitta, split from Tawny Antpitta (G. quitensis) by IOC (July 2023) and Clements (October 2023): Eastern Andes of Colombia (route: Chingaza, Sumapaz, the other Bogotá sites). G. quitensis stays for the Central Andes and Nariño (Bordoncillo, La Cocha). Not split by SACC/ACO and not in Chaparro-Herrera et al. 2024; `endemic` follows the Clements range (Eastern Andes of Colombia only)."
+  }
+ },
+ "renamed": {
+  "numenius-phaeopus": {"to": "numenius-hudsonicus", "carry": false, "why": "the old photo is a European (Eurasian) Whimbrel"},
+  "heliangelus-amethysticollis": {"to": "heliangelus-clarisse", "carry": true},
+  "myiothlypis-chrysogaster": {"to": "myiothlypis-chlorophrys", "carry": true},
+  "atlapetes-tricolor": {"to": "atlapetes-crassus", "carry": true},
+  "rallus-limicola": {"to": "rallus-aequatorialis", "carry": false, "why": "the old photos are North American Virginia Rails"}
+ }
+}

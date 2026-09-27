@@ -8,8 +8,8 @@
  * when both «Hooded Antpitta» and «White-bellied Antpitta» are species.
  *
  * Sanity check (by hand, with base '/b/'):
- *   linkify('Tawny Antpitta на Чингасе', '/b/')
- *     -> '<a href="/b/species/grallaria-quitensis/">Tawny Antpitta</a> на <a href="/b/sites/chingaza/">Чингасе</a>'
+ *   linkify('Boyaca Antpitta на Чингасе', '/b/')
+ *     -> '<a href="/b/species/grallaria-alticola/">Boyaca Antpitta</a> на <a href="/b/sites/chingaza/">Чингасе</a>'
  *   linkify('Hooded и White-bellied Antpitta в Ла-Дримофиле', '/b/')
  *     -> '<a …grallaricula-cucullata/>Hooded</a> и <a …grallaria-hypoleuca/>White-bellied Antpitta</a> в <a …sites/la-drymophila/>Ла-Дримофиле</a>'
  *   linkify('a ruff of feathers', '/b/') -> unchanged (one-word names must be capitalised)

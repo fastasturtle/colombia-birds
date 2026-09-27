@@ -11,8 +11,8 @@ key_features:
 similar:
   - id: eriocnemis-vestita
     how: "пятно на горле фиолетовое, а не розовое; брюхо сплошь золотисто-зелёное, без серого, на ногах пышные белые «штанишки»"
-  - id: heliangelus-amethysticollis
-    how: "у Боготы это форма clarisse (Longuemare's Sunangel, eBird считает её отдельным видом): горло розово-аметистовое, под ним белая полоса поперёк груди, а не зелёная кайма"
+  - id: heliangelus-clarisse
+    how: "горло розово-аметистовое, под ним белая полоса поперёк груди, а не зелёная кайма"
 behavior: "Держится в облачном и эльфийском лесу, на кустарниковых вырубках и опушках. Цепляется за цветок лапками, а не зависает; яростно охраняет цветущие кусты и кормушки."
 voice: "Сухая трескучая трель «тррр», повторяемая с паузами."
 traits:
@@ -39,8 +39,8 @@ en:
   similar:
     - id: eriocnemis-vestita
       how: "throat patch violet, not pink; belly solid golden green with no gray, fluffy white leg puffs"
-    - id: heliangelus-amethysticollis
-      how: "near Bogotá this is the form clarisse (Longuemare's Sunangel, a separate species in eBird): rosy-amethyst throat with a white breast band below it instead of a green border"
+    - id: heliangelus-clarisse
+      how: "rosy-amethyst throat with a white breast band below it instead of a green border"
   behavior: "Keeps to cloud and elfin forest, shrubby clearings and edges. Clings to a flower with its feet instead of hovering; fiercely guards flowering shrubs and feeders."
   voice: "A dry rattling trill 'trrr', repeated at intervals."
 ---

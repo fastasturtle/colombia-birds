@@ -29,7 +29,7 @@ uv run python cache_sync.py push           # upload yours (incremental); add --d
 | `ebird` | `steps/fetch_ebird.py` | `data/sources/ebird.json`: eBird/Clements taxonomy, names |
 | `birdbase` | `steps/fetch_birdbase.py` | `data/sources/birdbase.json`: traits, elevation, habitats |
 | `wikidata` | `steps/fetch_wikidata.py` | `data/sources/wikidata.json`: ids, ru/es names, P18 images, Commons category |
-| `build` | `steps/build_species.py` | `data/species/*.json`, `species_index.json`, `families.json` (keeps `photos`, `texts`, `sounds` already in the species files and the index `photo`; family `names.ru` from `family_names`, null when Wikidata has only the Latin name) |
+| `build` | `steps/build_species.py` | `data/species/*.json`, `species_index.json`, `families.json` from `common.checklist()` (see *Species list and taxonomy mappings*; ru names via `mappings/names_ru_overrides.json`) (keeps `photos`, `texts`, `sounds` already in the species files and the index `photo`, carried to a renamed slug per `mappings/clements2025.json`; family `names.ru` from `family_names`, null when Wikidata has only the Latin name) |
 | `family_names` | `steps/fetch_family_names.py` | `data/sources/family_names.json`: Wikidata (QLever) item per family (`P225` + rank `P105 = Q35409`): labels ru/en/es, ru Wikipedia title. Run before `build` |
 | `endemics` | `steps/fetch_endemics.py` | `data/sources/endemics.json`: Chaparro-Herrera et al. 2024 (Ornitología Colombiana 25, CC BY-NC 4.0) Anexo 3 XLSX from the journal site: 323 taxa with category endemic (E) / near_endemic (CE, CEa = marine/insular) / of_interest (EI) / insufficient_info (II), 2013 category, country and elevation-band codes; matched to ACO by scientific name (ACO, then eBird name), then `pipeline/mappings/endemics_names.json`; misses in `data/sources/endemics_unmatched.json`. Run before `build`, which sets `colombia.near_endemic` / `colombia.endemic_source` (ACO `endemic` unchanged) and writes `data/sources/endemics_report.md` (ACO vs Chaparro-Herrera endemics) |
 | `wikipedia` | `steps/fetch_wikipedia.py` | `data/texts/<slug>.json`: en/es/ru extracts (CC BY-SA 4.0) |
@@ -43,6 +43,22 @@ uv run python cache_sync.py push           # upload yours (incremental); add --d
 | `hotspots` | `steps/verify_hotspots.py` | `data/sources/hotspots_check.json`, `docs/research/hotspots-check.md`, `pipeline/mappings/hotspot_suggestions.json`: checks every `ebird_hotspots` id in `data/sites.json` via eBird `ref/hotspot/info` (`ok` = within 15 km of the site and the names share a meaningful token, else `suspect`; unknown id = `invalid`) and lists the 8 nearest hotspots (`ref/hotspot/geo`, 10 km, widened to 25/50 km if empty) with species counts. Reference data only, no observations. Never edits `sites.json`: apply suggestions by hand. Needs `EBIRD_API_KEY`; run in Actions |
 
 Photo keys stored in `data/` are relative; the site prepends `PUBLIC_MEDIA_BASE_URL`.
+
+## Species list and taxonomy mappings
+
+Base list = ACO 2022, names and splits = eBird/Clements 2025 (`docs/DECISIONS.md` row 19). Every step that
+reads the list (`ebird`, `birdbase`, `wikidata`, `build`) goes through `common.checklist()`: the ACO records of
+`data/sources/aco.json` (`source: "aco2022"`) plus the Clements 2025 species ACO lacks. Species files and
+index entries carry that `source`.
+
+| Mapping | Used by | What |
+|---|---|---|
+| `mappings/aco_to_ebird.json` | `ebird`, `wikidata`, `birdbase`, `build` | ACO name -> eBird species when the names differ. Also whole-species remaps after eBird splits where the Colombian population is the other half (ACO *Numenius phaeopus* -> *N. hudsonicus*, *Heliangelus amethysticollis* -> *H. clarisse*, *Myiothlypis chrysogaster* -> *M. chlorophrys*, *Atlapetes tricolor* -> *A. crassus*, *Rallus limicola* -> *R. aequatorialis*): the slug follows the eBird name. `wikidata` then prefers the eBird name for its sci-name fallback, and `build` ignores a `wikidata.json` item still matched to the ACO name (the extralimital half) until `wikidata` re-runs |
+| `mappings/clements2025.json` | `common.checklist()`, `build` | `species`: Clements 2025 species absent from ACO but recorded at route sites (`split_from`, status, `endemic`, GBIF key, note), added with `source: "clements2025"` (family/order from the parent; `taxonomy_note` explains the split). `renamed`: one-off old slug -> new slug for the remaps above; with `carry: true` `build` moves `photos`/`sounds`/`texts` of the old species file to the new slug (when the new one has none yet) |
+| `mappings/aco_fixes.json` | `common.checklist()` | field corrections to the ACO archive (e.g. the swapped `name_en_aco` of *Grallaria saturata* / *G. saltuensis*) |
+| `mappings/names_ru_overrides.json` | `build` | `{slug: {ru, source}}` applied after eBird ru and Wikidata (`ru: null` removes a name): only attested names (eBird typos fixed, ru.wikipedia article titles). All ru names are also normalised in code: first letter upper case, names without Cyrillic (Latin labels) dropped |
+| `mappings/gbif_to_species.json` | `gbif_sites` | GBIF backbone name -> slug for lumps/misapplied names |
+| `mappings/gbif_region_splits.json` | `gbif_sites` | `{from_slug: {to_slug: [regions]}}` for splits GBIF keeps under one species key (*Dacnis lineata* / *D. egregia*, *Grallaria quitensis* / *G. alticola*): the route site's `region` decides |
 
 ## Selecting species
 

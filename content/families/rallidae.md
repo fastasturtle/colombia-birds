@@ -10,7 +10,7 @@ confusable:
     how: "Утки с плоским клювом, а лысуха с острым клювом и бляшкой на лбу, на плаву кивает головой"
   - family: scolop2
     how: "Бекас с очень длинным прямым клювом и полосатой головой взлетает из травы с криком и зигзагом"
-route_note: "9 целевых видов: эндемичный Bogota Rail и Spot-flanked Gallinule в Ла-Флориде (свободный день в Боготе), Slate-colored Coot и андская форма Virginia Rail на Ла-Коче (день 14), коростельки нескольких видов у Пуэрто-Асиса и на Плайя-Рике (дни 9–11), White-throated Crake на Финке Марагрикола (день 20)."
+route_note: "9 целевых видов: эндемичный Bogota Rail и Spot-flanked Gallinule в Ла-Флориде (свободный день в Боготе), Slate-colored Coot и Ecuadorian Rail (бывшая андская форма Virginia Rail) на Ла-Коче (день 14), коростельки нескольких видов у Пуэрто-Асиса и на Плайя-Рике (дни 9–11), White-throated Crake на Финке Марагрикола (день 20)."
 fact: "Боготский пастушок живёт только на болотах высокогорных плато Восточной Кордильеры, и одно из самых надёжных мест для него — городской парк у аэропорта Боготы."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Long toes and strong legs, brightly coloured in many species"
     - "Rails and crakes are secretive and heard from the reeds; gallinules and coots swim in the open"
     - "Coots and gallinules have a coloured horny shield on the forehead"
-  route_note: "9 target species: the endemic Bogota Rail and Spot-flanked Gallinule at La Florida (free day in Bogotá), Slate-colored Coot and the Andean form of Virginia Rail at La Cocha (day 14), several crake species near Puerto Asís and at Playa Rica (days 9–11), White-throated Crake at Finca Maragrícola (day 20)."
+  route_note: "9 target species: the endemic Bogota Rail and Spot-flanked Gallinule at La Florida (free day in Bogotá), Slate-colored Coot and Ecuadorian Rail (formerly the Andean form of Virginia Rail) at La Cocha (day 14), several crake species near Puerto Asís and at Playa Rica (days 9–11), White-throated Crake at Finca Maragrícola (day 20)."
   fact: "The Bogota Rail lives only in marshes on the high plateaus of the Eastern Andes, and one of the most reliable places for it is a city park next to Bogotá airport."
 ---
 Пастушковые (пастушки, погоныши, коростельки, камышницы и лысухи) — птицы болот, тростников и сырых лугов, в Колумбии 29 видов. Семейство делится на две очень разные по доступности группы. Лысухи и камышницы плавают по открытой воде, как утки, и видны без труда. Пастушки и мелкие коростельки живут в густой траве и тростнике, почти никогда не выходят на открытое место и определяются в основном по голосу: громким трелям, хрюканью и стрекотанию из зарослей.

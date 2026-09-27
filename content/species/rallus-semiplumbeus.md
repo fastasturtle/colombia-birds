@@ -10,7 +10,7 @@ key_features:
   - "Задняя часть боков чёрная в тонких белых поперечных полосках, подхвостье белое"
   - "Ноги и глаз красные"
 similar:
-  - id: rallus-limicola
+  - id: rallus-aequatorialis
     how: "мельче, грудь рыжевато-коричная, а не серая; живёт на юге страны, а не в Восточных Андах"
   - id: pardirallus-nigricans
     how: "верх тёмно-бурый, низ тёмно-серый, горло белое, бока без полос; клюв зеленовато-жёлтый"
@@ -36,7 +36,7 @@ en:
     - "Rear flanks black with fine white bars, white undertail"
     - "Red legs and eye"
   similar:
-    - id: rallus-limicola
+    - id: rallus-aequatorialis
       how: "smaller, breast rufous-cinnamon rather than gray; lives in the south of the country, not in the Eastern Andes"
     - id: pardirallus-nigricans
       how: "dark brown above, dark gray below, white throat, no flank bars; greenish-yellow bill"

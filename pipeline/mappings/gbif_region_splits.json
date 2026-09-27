@@ -1,0 +1,5 @@
+{
+ "_comment": "Used by fetch_gbif_sites.py after a GBIF key has been resolved to our slug: {from_slug: {to_slug: [region ids of data/sites.json]}}. For splits that GBIF does not separate by key (eBird uploads of the split taxon still land under the parent's GBIF species key), the region of the route site decides. Dacnis lineata key 2488364: west of the Andes and the Magdalena side (Bogotá/Chicaque, Huila, Pacific Nariño and coast) = D. egregia, Putumayo (Amazonian slope) = D. lineata. Grallaria quitensis key 2490542: Eastern Andes (Bogotá sites) = G. alticola, Nariño = G. quitensis.",
+ "dacnis-lineata": {"dacnis-egregia": ["bogota", "huila", "narino_pacific", "pacific_coast"]},
+ "grallaria-quitensis": {"grallaria-alticola": ["bogota"]}
+}

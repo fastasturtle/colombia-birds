@@ -291,6 +291,50 @@ def post_form(
     raise RuntimeError(f"unreachable: {url}")
 
 
+MAPPINGS = PIPELINE / "mappings"
+
+
+def checklist() -> dict[str, dict]:
+    """The species list every step works on: ACO 2022 (data/sources/aco.json, `source: aco2022`) with the
+    field fixes of mappings/aco_fixes.json, plus the eBird/Clements 2025 species of mappings/clements2025.json
+    `species` that ACO lacks (`source: clements2025`, docs/DECISIONS.md row 19), shaped like ACO records and
+    keyed by normalised scientific name. Family/order of an added species come from its `split_from` taxon."""
+    aco = read_json(SOURCES / "aco.json")["species"]
+    out = {k: {**v, "source": "aco2022"} for k, v in aco.items()}
+    for k, fix in (read_json(MAPPINGS / "aco_fixes.json") or {}).items():
+        if not k.startswith("_") and k in out:
+            out[k].update(fix)
+    extra = (read_json(MAPPINGS / "clements2025.json") or {}).get("species", {})
+    for sci, x in extra.items():
+        key = norm_sci(sci)
+        if key in out:
+            continue  # ACO has it after all: the ACO record wins
+        parent = aco[norm_sci(x["split_from"])]
+        out[key] = {
+            "authorship": x.get("authorship"),
+            "endemic": bool(x.get("endemic")),
+            "family": parent["family"],
+            "gbif_key": x.get("gbif_key"),
+            "genus": sci.split()[0],
+            "habitat_aco": x.get("habitat_aco"),
+            "introduced": False,
+            "is_marine": False,
+            "iucn": None,
+            "libro_rojo": None,
+            "migration_note": None,
+            "name_en_aco": None,
+            "order": parent["order"],
+            "sci_name": sci,
+            "source_id": None,
+            "status": {"codes": x.get("status", ["resident"]), "raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)", "uncertain": False},
+            "status_avendano_2017": None,
+            "source": "clements2025",
+            "split_from": x["split_from"],
+            "clements_note": x.get("note"),
+        }
+    return out
+
+
 def only_slugs(args: list[str] | None = None) -> set[str]:
     """Species ids to restrict a step to: positional `args` plus the ONLY_SLUGS env var
     (whitespace/comma separated; set by run.py --only and the CI workflow). Empty set = all species."""
