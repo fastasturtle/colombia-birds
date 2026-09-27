@@ -58,13 +58,17 @@ jobs:
           enable-cache: true
           cache-dependency-glob: pipeline/uv.lock
 
-      # HTTP response cache (API JSON, not images) so re-runs don't re-hit Wikimedia/iNaturalist
-      - uses: actions/cache@v4
+      # HTTP response cache (API JSON, not images) so re-runs don't re-hit Wikimedia/iNaturalist.
+      # Split restore/save: actions/cache's post-step save is skipped on cancel/timeout, which lost
+      # the cache of long runs. The explicit save below runs with if: always().
+      # run_attempt in the key: cache keys are immutable, and a re-run keeps the same run_id.
+      - name: Restore HTTP cache
+        uses: actions/cache/restore@v4
         with:
           path: |
             pipeline/cache
             !pipeline/cache/media
-          key: pipeline-http-${{ github.run_id }}
+          key: pipeline-http-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: pipeline-http-
 
       - name: Run pipeline
@@ -72,6 +76,16 @@ jobs:
         # hard stop only; MAX_MINUTES (270) normally ends the run first. 30 min left for the commit step.
         timeout-minutes: 300
         run: uv run python run.py $STEPS
+
+      # Saved before the commit step so the cache survives even if the commit/push fails.
+      - name: Save HTTP cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            pipeline/cache
+            !pipeline/cache/media
+          key: pipeline-http-${{ github.run_id }}-${{ github.run_attempt }}
 
       # Commits only the pipeline outputs. Anything else the run touched (e.g. pipeline/uv.lock rewritten
       # by `uv run`) is printed, then discarded with `git checkout -- .` after the commit: those changes
