@@ -2,6 +2,7 @@
 id: sporophila-americana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова и верх чёрные, горло белое, от него на затылок белый полуошейник"
   - "Крыло самца чёрное с белым пятном у основания маховых; у амазонских птиц одна узкая белая полоса"
@@ -11,8 +12,8 @@ similar:
   - id: sporophila-lineola
     how: "у самца по темени белая полоса и белые щёки, горло чёрное, белого ошейника нет"
   - id: sporophila-nigricollis
-    how: "спина у самца оливковая, чёрные только лицо и горло, брюхо бледно-жёлтое, белых отметин на крыле нет"
-behavior: "Держится парами и небольшими группами на пастбищах, обочинах, береговых зарослях и речных островах, обычно отдельно от других просяночников. Кормится семенами трав, иногда плодами и летающими термитами."
+    how: "спина у самца оливковая, чёрные голова и горло, брюхо бледно-жёлтое, белых отметин на крыле нет"
+behavior: "Держится парами и небольшими группами на пастбищах, обочинах, береговых зарослях и речных островах, часто отдельно от других просяночников. Кормится семенами трав, иногда плодами и летающими термитами."
 voice: "Песня длинная, быстрая, из беспорядочных, но мелодичных нот, трелей и свистов; позыв — звонкое «чииу»."
 traits:
   size: sparrow
@@ -36,8 +37,8 @@ en:
     - id: sporophila-lineola
       how: "male has a white stripe along the crown and white cheeks, black throat, no white collar"
     - id: sporophila-nigricollis
-      how: "male has an olive back, black only on the face and throat, pale yellow belly, no white on the wing"
-  behavior: "Keeps in pairs and small groups on pastures, roadsides, riverside scrub and river islands, usually apart from other seedeaters. Feeds on grass seeds, sometimes on fruit and flying termites."
+      how: "male has an olive back, black head and throat, pale yellow belly, no white on the wing"
+  behavior: "Keeps in pairs and small groups on pastures, roadsides, riverside scrub and river islands, often apart from other seedeaters. Feeds on grass seeds, sometimes on fruit and flying termites."
   voice: "A long, fast song of jumbled but musical notes, trills and whistles; the call is a ringing 'cheeu'."
 ---
 Wing-barred Seedeater (пегий просяночник) в Колумбии живёт на крайнем юге, в Амазонии, до высот около 400 м. Здесь водится подвид murallae, который раньше выделяли в отдельный вид, Caquetá Seedeater: у него на крыле видна только одна узкая белая полоса. Чёрно-белый самец с белым горлом и полуошейником заметен, а бурые самки почти неотличимы от самок других просяночников, их определяют по сопровождающему самцу.

@@ -2,6 +2,7 @@
 id: rhodospingus-cruentus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: горло и грудь ярко-малиновые, к брюху краснота бледнеет"
   - "Голова и верх самца черноватые, посреди темени красное пятно, которое может подниматься хохолком"
@@ -9,7 +10,7 @@ key_features:
   - "Самка бледно-бурая, с охристой бровью и желтовато-охристым низом"
 similar:
   - id: pyrocephalus-rubinus
-    how: "красная шапочка целиком, через глаз тёмная маска, спина бурая; сидит открыто и ловит насекомых в воздухе"
+    how: "красная шапочка целиком, через глаз тёмная маска, спина черноватая; сидит открыто и ловит насекомых в воздухе"
   - id: sporophila-telasco
     how: "самки похожи по окраске, но клюв короткий и толстый; у самца серый верх и маленькое каштановое пятно на горле"
 behavior: "Держится в сухих кустарниках и на опушках, поодиночке, парами или стайками, в том числе с просяночниками. Кормится семенами на земле и в кустах; в Эквадоре кочует и становится обычным в сезон дождей."
@@ -34,7 +35,7 @@ en:
     - "Female pale brown, with a buffy eyebrow and yellowish-buff underparts"
   similar:
     - id: pyrocephalus-rubinus
-      how: "whole cap red, dark mask through the eye, brown back; perches in the open and catches insects in the air"
+      how: "whole cap red, dark mask through the eye, blackish back; perches in the open and catches insects in the air"
     - id: sporophila-telasco
       how: "females similar in colour, but the bill is short and thick; male gray above with a small chestnut throat patch"
   behavior: "Keeps in dry scrub and forest edges, singly, in pairs or small groups, sometimes with seedeaters. Feeds on seeds on the ground and in bushes; in Ecuador it wanders and becomes common in the rainy season."

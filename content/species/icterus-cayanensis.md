@@ -2,6 +2,7 @@
 id: icterus-cayanensis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Чёрный, стройный, с длинным хвостом и тонким острым чёрным клювом"
   - "Темя и затылок золотисто-жёлтые, у нашей формы chrysocephalus"
@@ -36,12 +37,12 @@ en:
   behavior: "Keeps to edges, clearings and the canopy of tall forest, swamp and gallery forest, especially moriche palm groves. Feeds on insects, fruit and nectar, singly or in pairs, sometimes with mixed flocks."
   voice: "A slow series of rising and falling notes, usually in phrases of two or three; calls are short nasal notes and mewing, and it often mimics other birds."
 ---
-Epaulet Oriole (эполетовый трупиал) — трупиал Амазонии, в Колумбии до 1 000 м. На юго-востоке страны живёт форма chrysocephalus, которую раньше считали отдельным видом Moriche Oriole: у неё жёлтые не только «эполеты», но и шапочка, поясница и «штаны». Она тесно связана с пальмой морише и часто гнездится под её листьями.
+Epaulet Oriole (эполетовый трупиал) — трупиал Амазонии, в Колумбии до 1 000 м. На юго-востоке страны живёт форма chrysocephalus, которую раньше считали отдельным видом Moriche Oriole: у неё жёлтые не только «эполеты», но и шапочка, поясница и «штаны». Она тесно связана с рощами пальмы морише, а гнездо-гамак подвешивает к нижней стороне крупного листа или пальмовой вайи.
 
 На маршруте он «возможно» у Пуэрто-Асиса, 11–13 октября, но отметок мало. Ищи его у пальмовых рощ на заболоченных берегах: чёрная птица с золотой головой на верхушке пальмы видна издалека, в отличие от кассиков у неё тёмный глаз и тёмный клюв.
 
 ## English
 
-Epaulet Oriole is an Amazonian oriole, in Colombia up to 1,000 m. The southeast of the country holds the form chrysocephalus, once treated as a separate species, Moriche Oriole: it is yellow not only on the 'epaulets' but also on the cap, rump and thighs. It is closely tied to the moriche palm and often nests under its leaves.
+Epaulet Oriole is an Amazonian oriole, in Colombia up to 1,000 m. The southeast of the country holds the form chrysocephalus, once treated as a separate species, Moriche Oriole: it is yellow not only on the 'epaulets' but also on the cap, rump and thighs. It is closely tied to moriche palm groves, and hangs its hammock nest from the underside of a large leaf or palm frond.
 
 On the route it is "maybe" around Puerto Asís on 11–13 October, but records are few. Look for it at palm groves on swampy banks: a black bird with a golden head on top of a palm shows from afar, and unlike caciques it has a dark eye and a dark bill.

@@ -2,6 +2,7 @@
 id: chlorophonia-cyanea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, горло и грудь самца блестяще-изумрудные, вокруг глаза голубое кольцо"
   - "Затылок, спина и поясница самца синие, поясница ярче"
@@ -11,9 +12,9 @@ similar:
   - id: chlorophonia-flavirostris
     how: "клюв и ноги оранжевые, синего на спине нет, у самца широкий жёлтый ошейник; живёт на тихоокеанском склоне"
   - id: euphonia-mesochrysa
-    how: "оливковая, без синего и без кольца вокруг глаза; у самца жёлтый лоб"
+    how: "оливковая, лишь с сизым отливом на спине, без кольца вокруг глаза; у самца жёлтый лоб"
 behavior: "Держится парами, семейными группами и стайками до дюжины птиц в среднем и верхнем ярусе горного леса, на опушках и полянах. Кормится почти только плодами, особенно ягодами омелы, и в листве малозаметна."
-voice: "Тихий жалобный свист «пиии» или «ньее», часто повторяемый."
+voice: "Позывы — нисходящий свист «хью» или «сиу» и гнусавые механические «энк» и «дит»; песня — отрывистая смесь позывов, жидких свистов, коротких трелей и пронзительных нот."
 traits:
   size: sparrow
   colors: [green, blue, yellow]
@@ -36,9 +37,9 @@ en:
     - id: chlorophonia-flavirostris
       how: "orange bill and legs, no blue on the back, male with a broad yellow collar; lives on the Pacific slope"
     - id: euphonia-mesochrysa
-      how: "olive, with no blue and no eye ring; male has a yellow forehead"
+      how: "olive, with only a gray-blue gloss on the back, no eye ring; male has a yellow forehead"
   behavior: "Keeps in pairs, family groups and small flocks of up to a dozen in the middle and upper levels of montane forest, at edges and clearings. Feeds almost only on fruit, especially mistletoe berries, and is hard to see in foliage."
-  voice: "A soft plaintive whistle, 'peee' or 'nyeh', often repeated."
+  voice: "Calls are a descending whistled 'heu' or 'seeu' and a nasal, mechanical 'enk' and 'dit'; the song is a choppy mix of calls, liquid whistles, short warbles and piercing notes."
 ---
 Blue-naped Chlorophonia (синеспинный органист) — крошечная зелёно-сине-жёлтая птичка горного леса, в Колумбии примерно на 1 000–2 200 м. В колумбийских Андах живёт подвид longipennis: у самца синие не только затылок, но и вся спина до поясницы. Несмотря на яркость, в зелёной кроне органист почти невидим, и чаще его выдаёт тихий свист.
 

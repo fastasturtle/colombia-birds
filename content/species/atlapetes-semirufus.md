@@ -2,6 +2,7 @@
 id: atlapetes-semirufus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, горло и грудь ровно рыже-оранжевые, без чёрного на лице"
   - "Спина, крылья и хвост оливковые"
@@ -9,7 +10,7 @@ key_features:
   - "Клюв серый, тонкий и острый для атлапеты"
 similar:
   - id: atlapetes-pallidinucha
-    how: "лицо чёрное, рыжее только полосой на лбу, к затылку бледнеет; спина аспидно-серая, низ ярко-жёлтый"
+    how: "лицо чёрное, ото лба по темени бледно-коричная полоса, затылок белый; спина аспидно-серая, низ ярко-жёлтый"
   - id: atlapetes-latinuchus
     how: "рыжие только темя и затылок, лицо чёрное, горло и низ жёлтые"
 behavior: "Держится парами в кустах на опушках и в подлеске влажного горного леса. Пары рано утром поют, особенно в начале сезона дождей."
@@ -34,7 +35,7 @@ en:
     - "Gray bill, slim and pointed for a brushfinch"
   similar:
     - id: atlapetes-pallidinucha
-      how: "black face, rufous only as a stripe on the forehead, fading on the nape; slate-gray back, bright yellow underparts"
+      how: "black face, a pale cinnamon stripe from forehead to crown, white nape; slate-gray back, bright yellow underparts"
     - id: atlapetes-latinuchus
       how: "rufous only on the crown and nape, black face, yellow throat and underparts"
   behavior: "Keeps in pairs in shrubs at edges and in the understory of humid montane forest. Pairs sing early in the morning, especially at the start of the rainy season."

@@ -2,6 +2,7 @@
 id: arremon-assimilis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло, грудь и брюхо белые, бока серые"
   - "Голова чёрная, по темени серая полоса, длинная серая бровь до затылка"

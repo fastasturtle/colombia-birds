@@ -2,10 +2,11 @@
 id: psarocolius-viridis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тело желтовато-оливковое, поясница, брюхо и подхвостье каштановые"
   - "Клюв массивный, бледно-зелёный, конец оранжево-красный"
-  - "Глаз светло-голубой, вокруг глаза и у клюва розоватая голая кожа"
+  - "Глаз светло-голубой, вокруг глаза и у клюва розоватая или тускло-оранжевая голая кожа"
   - "Хвост жёлтый по бокам, центральная пара тёмная; самец крупнее, с хохолком"
 similar:
   - id: psarocolius-bifasciatus
@@ -30,7 +31,7 @@ en:
   key_features:
     - "Yellowish-olive body, chestnut rump, belly and undertail"
     - "Massive pale green bill with an orange-red tip"
-    - "Pale blue eye, pinkish bare skin around the eye and at the bill base"
+    - "Pale blue eye, pink to dull orange bare skin around the eye and at the bill base"
     - "Tail yellow at the sides with a dark central pair; male larger, with a crest"
   similar:
     - id: psarocolius-bifasciatus
@@ -42,10 +43,10 @@ en:
 ---
 Green Oropendola (зелёная оропендола) — оропендола амазонского первичного леса, в Колумбии в основном до 500 м. Самец достигает почти 50 см, самка заметно мельче. Из всех оропендол маршрута у неё больше всего зелёного: оливково-жёлтое тело, светлый зеленоватый клюв с красным концом и голубой глаз.
 
-На маршруте она «возможно» на Исла-Эскондиде, 7–11 октября; там обычна Russet-backed Oropendola и встречается Olive Oropendola, поэтому у каждой крупной оропендолы смотри на клюв. Вид чувствителен к вырубкам, так что ищи его над высоким сомкнутым лесом, а не у посёлков.
+На маршруте она «возможно» на Исла-Эскондиде, 7–11 октября, хотя лодж лежит выше её обычных колумбийских высот: скорее всего, это птицы низинного леса по соседству; там обычна Russet-backed Oropendola и встречается Olive Oropendola, поэтому у каждой крупной оропендолы смотри на клюв. Вид чувствителен к вырубкам, так что ищи его над высоким сомкнутым лесом, а не у посёлков.
 
 ## English
 
 Green Oropendola is an oropendola of Amazonian primary forest, in Colombia mostly below 500 m. The male reaches almost 50 cm; the female is noticeably smaller. Of all the route's oropendolas it has the most green: an olive-yellow body, a pale greenish bill with a red tip and a blue eye.
 
-On the route it is "maybe" at Isla Escondida on 7–11 October; Russet-backed Oropendola is common there and Olive Oropendola occurs, so check the bill of every large oropendola. The species is sensitive to logging, so look for it over tall closed forest, not near villages.
+On the route it is "maybe" at Isla Escondida on 7–11 October, although the lodge lies above its usual Colombian elevations, so these are most likely birds of the nearby lowland forest; Russet-backed Oropendola is common there and Olive Oropendola occurs, so check the bill of every large oropendola. The species is sensitive to logging, so look for it over tall closed forest, not near villages.
