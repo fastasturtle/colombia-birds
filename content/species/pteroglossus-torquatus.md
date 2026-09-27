@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [black, yellow, red]
   tone: bright
-  marks: [long_tail, rump_patch]
+  marks: [cap, long_tail, rump_patch]
   bill: thick
   layer: [canopy, midstory]
 sources:

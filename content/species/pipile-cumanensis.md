@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [black, white, blue]
   tone: bright
-  marks: [crest, wattle, bare_face, long_tail]
+  marks: [crest, cap, wing_patch, long_tail, bare_face, wattle]
   bill: short
   layer: [canopy]
 sources:

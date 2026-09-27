@@ -16,10 +16,10 @@ similar:
 behavior: "Поодиночке, парами или семьями кормится на тонких ветках, стеблях и лианах от подлеска до среднего яруса, часто в микст-флоках; избегает глубины зрелого леса."
 voice: "Высокая тонкая щебечущая трель, часто понижающаяся; позыв — резкое свистящее «сст»."
 traits:
-  size: hummingbird
+  size: [hummingbird, sparrow]
   colors: [olive, brown, yellow]
   tone: dull
-  marks: [short_tail, streaked_breast]
+  marks: [cap, streaked_breast, short_tail]
   bill: short
   layer: [understory, midstory]
 sources:

@@ -22,7 +22,7 @@ traits:
   tone: bright
   marks: []
   bill: medium
-  layer: [understory, midstory]
+  layer: [understory, midstory, feeder]
 sources:
   - "Данные проекта: data/species/pterophanes-cyanopterus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Great sapphirewing (en, CC BY-SA 4.0) — размеры, окраска подвидов, высоты в Колумбии, питание"

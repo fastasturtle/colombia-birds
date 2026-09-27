@@ -17,9 +17,9 @@ traits:
   size: thrush
   colors: [olive, black, gray]
   tone: bright
-  marks: [eyebrow]
+  marks: [cap, eyebrow]
   bill: [thick]
-  layer: [canopy, midstory, feeder]
+  layer: [canopy, midstory]
 sources:
   - "Wikipedia: Black-winged saltator (en, CC BY-SA 4.0) — размер, окраска, подвиды, высоты в Колумбии"
   - "Wikipedia: Saltator atripennis (es, CC BY-SA 4.0) — data/texts"

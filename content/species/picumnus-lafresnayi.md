@@ -16,10 +16,10 @@ similar:
 behavior: "Кормится в нижнем и среднем ярусах по опушкам, прогалинам и во вторичном лесу, часто со смешанными стаями. Обыскивает тонкие ветки, собирая термитов и древесных муравьёв."
 voice: "Довольно молчалив; изредка очень высокое «цийт, цит» или «си-си»."
 traits:
-  size: hummingbird
+  size: [hummingbird, sparrow]
   colors: [olive, yellow, black]
   tone: dull
-  marks: [barred, short_tail]
+  marks: [cap, barred, short_tail]
   bill: short
   layer: [understory, midstory]
 sources:

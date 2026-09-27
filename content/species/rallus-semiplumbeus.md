@@ -17,10 +17,10 @@ similar:
 behavior: "Скрывается в густых зарослях камыша и осоки по краям болот и озёр, выходит на край плёса или на сырой луг ранним утром и вечером. Бегает, подёргивая коротким хвостом."
 voice: "Хрюкающие и визгливые звуки из тростника и серии писклявых нот; слышен чаще, чем виден."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [gray, brown]
   tone: dull
-  marks: [barred, short_tail]
+  marks: [wing_patch, barred, short_tail, bright_bill]
   bill: [long]
   layer: [water, ground]
 sources:

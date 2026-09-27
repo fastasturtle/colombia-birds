@@ -16,10 +16,10 @@ similar:
 behavior: "Держится поодиночке по берегам лесных рек, стариц, болот, канав и рисовых полей, часто у плавучей растительности. Стоит прямо, затем медленно пригибается и резко бьёт клювом рыбу или головастика."
 voice: "Обычно молчит."
 traits:
-  size: crow
+  size: [crow, larger]
   colors: [white, black, blue]
   tone: bright
-  marks: [crest, bare_face]
+  marks: [crest, cap, bare_face, bright_bill]
   bill: medium
   layer: [water]
 sources:

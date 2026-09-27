@@ -19,7 +19,7 @@ traits:
   size: pigeon
   colors: [white, gray, black]
   tone: dull
-  marks: []
+  marks: [cap]
   bill: [short, thin]
   layer: [water]
 sources:

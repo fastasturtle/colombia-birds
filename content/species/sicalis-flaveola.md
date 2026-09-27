@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [yellow, orange]
   tone: bright
-  marks: [plain]
+  marks: [cap]
   bill: [short, thick]
   layer: [ground]
 sources:

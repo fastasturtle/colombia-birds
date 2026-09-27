@@ -4,7 +4,7 @@ difficulty: medium
 lynx_page: null
 checked: 2026-09-27
 key_features:
-  - "Клюв короткий, толстый, жёлтый; у основания клюва и на горле чёрное пятно"
+  - "Клюв короткий, толстый, жёлтый; чёрное пятно у клюва и на горле у взрослых, у молодых осенью его нет"
   - "Лицо и грудь голубовато-серые"
   - "Верх бурый в чёрных и белых пестринах, бока в чёрно-белых полосах"
   - "Хвост короткий, задран, подхвостье светлое"
@@ -16,10 +16,10 @@ similar:
 behavior: "Держится в тростниках, рогозе и на заболоченных лугах, выходит кормиться на край открытой воды и на илистые пятачки, чаще утром и вечером. Ходит, подёргивая задранным хвостом."
 voice: "Громкое нисходящее ржание «ви-ии-и-и-и-и», замедляющееся к концу, и восходящее «кер-уии»."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [brown, gray]
   tone: dull
-  marks: [barred, short_tail, throat_patch]
+  marks: [barred, short_tail, throat_patch, bright_bill]
   bill: [short, thick]
   layer: [water]
 sources:
@@ -30,7 +30,7 @@ sources:
   - "Факт-чек 2026-09-27: data/texts porzana-carolina (en/es/ru — окраска, голос, зимовки), rallus-semiplumbeus, porphyriops-melanops; сроки прилёта в Колумбию не подтверждены — удалены"
 en:
   key_features:
-    - "Short, thick yellow bill; black patch at the bill base and on the throat"
+    - "Short, thick yellow bill; adults show a black patch at the bill base and throat, autumn juveniles lack it"
     - "Blue-gray face and breast"
     - "Brown upperparts marked black and white, flanks barred black and white"
     - "Short, cocked tail with a pale undertail"

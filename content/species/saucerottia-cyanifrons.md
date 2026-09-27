@@ -19,9 +19,9 @@ traits:
   size: hummingbird
   colors: [green, blue]
   tone: bright
-  marks: [plain]
+  marks: [cap]
   bill: medium
-  layer: [canopy, midstory, feeder]
+  layer: [canopy, midstory]
 sources:
   - "Wikipedia: Indigo-capped hummingbird (en, CC BY-SA 4.0)"
   - "Wikipedia: Rufous-tailed hummingbird (en); Steely-vented hummingbird (https://en.wikipedia.org/wiki/Steely-vented_hummingbird) — сверка отличий"

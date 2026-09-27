@@ -16,10 +16,10 @@ similar:
 behavior: "Ходит по плавающей растительности и кувшинкам, лазает по стеблям тростника, подёргивая хвостом с белым подхвостьем. Летает мало и недалеко, свесив ноги."
 voice: "Резкое кудахтанье и гогочущие «кек-кек-кек»."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [purple, blue, green]
   tone: bright
-  marks: []
+  marks: [bright_bill]
   bill: short
   layer: [water]
 sources:

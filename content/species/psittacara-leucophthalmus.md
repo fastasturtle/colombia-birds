@@ -19,7 +19,7 @@ traits:
   size: pigeon
   colors: [green, red, yellow]
   tone: dull
-  marks: [long_tail, eye_ring]
+  marks: [eye_ring, wing_patch, long_tail]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

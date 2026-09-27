@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [gray, yellow, black]
   tone: dull
-  marks: [mask, spotted_breast]
+  marks: [mask, wing_patch, spotted_breast]
   bill: [short]
   layer: [canopy]
 sources:

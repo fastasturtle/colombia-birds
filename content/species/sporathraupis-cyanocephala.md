@@ -19,9 +19,9 @@ traits:
   size: thrush
   colors: [olive, gray, blue]
   tone: bright
-  marks: []
+  marks: [cap]
   bill: short
-  layer: [midstory, canopy, feeder]
+  layer: [midstory, canopy]
 sources:
   - "Данные проекта: data/species/sporathraupis-cyanocephala.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF); текста Wikipedia в data/texts нет"
   - "content/species/thraupis-episcopus.md — согласование отличий"

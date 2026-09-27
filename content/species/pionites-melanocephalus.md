@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [green, white, black]
   tone: bright
-  marks: [short_tail]
+  marks: [cap, short_tail]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

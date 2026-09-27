@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [olive, yellow, red]
   tone: bright
-  marks: [barred, throat_patch]
+  marks: [cap, barred, throat_patch]
   bill: medium
   layer: [midstory, canopy]
 sources:

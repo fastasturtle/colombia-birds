@@ -21,7 +21,7 @@ traits:
   size: sparrow
   colors: [gray, white, black]
   tone: dull
-  marks: [long_tail]
+  marks: [cap, wing_patch, long_tail]
   bill: thin
   layer: [canopy, midstory]
 sources:

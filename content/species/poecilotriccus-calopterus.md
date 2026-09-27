@@ -19,7 +19,7 @@ traits:
   size: hummingbird
   colors: [yellow, black, olive]
   tone: bright
-  marks: [wing_bars, short_tail]
+  marks: [cap, wing_bars, wing_patch, short_tail]
   bill: flat
   layer: [understory]
 sources:
