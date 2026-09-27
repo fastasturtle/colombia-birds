@@ -1,17 +1,20 @@
 """Likely species per route site from GBIF occurrence counts.
 
-For each site in data/sites.json, one GBIF occurrence facet query (class Aves, Colombia, with
-coordinates, present) inside a circle of `--radius` km (a 32-gon WKT polygon) returns record counts
-per speciesKey. Keys are mapped to our slugs via data/species/*.json `ids.gbif`; the rest are looked
+For each site in data/sites.json, two GBIF occurrence facet queries (class Aves, Colombia, with
+coordinates, present) inside a circle of `--radius` km (a 32-gon WKT polygon) return record counts
+per speciesKey: all year, and autumn only (`month=9,11`, a GBIF range = Sep-Nov; the trip is in
+October, so this is the seasonal signal). Keys are mapped to our slugs via data/species/*.json `ids.gbif`; the rest are looked
 up once via /v1/species/{key} and matched by scientific name (sci_name / sci_name_aco). Keys that
 still do not match are written to data/sources/gbif_sites_unmatched.json.
 
 Output data/site_species.json:
-  {site_id: {radius_km, total_records, retrieved, species: [{id, n}] sorted by n desc}}
-Species with fewer than `--min-count` records (default 3) are dropped. Sites with fewer than
+  {site_id: {radius_km, total_records, total_records_aut, retrieved,
+             species: [{id, n, n_aut, freq_aut, level}] sorted by n_aut desc, then n desc}}
+freq_aut = n_aut / total_records_aut; level = "common" (freq_aut >= 1%), "uncommon" (0.1-1%),
+"rare" (< 0.1% or n_aut < 3). Species with fewer than `--min-count` all-year records (default 3) are dropped. Sites with fewer than
 `--min-records` records in total (default 1000) get the radius doubled, up to x4.
 
-Usage: uv run python run.py gbif_sites   |   steps/fetch_gbif_sites.py --radius 12 --min-count 3 [--refresh]
+Usage: uv run python run.py gbif_sites   |   steps/fetch_gbif_sites.py --radius 7 --min-count 3 [--refresh]
 """
 from __future__ import annotations
 
@@ -85,7 +88,7 @@ def match_name(info: dict, by_sci: dict[str, str], by_fam_epithet: dict, manual:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--radius", type=float, default=12.0, help="km")
+    ap.add_argument("--radius", type=float, default=7.0, help="km")
     ap.add_argument("--min-count", type=int, default=3)
     ap.add_argument("--min-records", type=int, default=1000,
                     help="widen the radius (x2, then x4) for sites with fewer GBIF records than this")
@@ -101,12 +104,39 @@ def main() -> None:
     unmatched: dict[int, dict] = {}
     resolved_extra: dict[int, str | None] = {}
 
-    def facet(s: dict, radius: float) -> dict:
-        return get_json(f"{API}/occurrence/search", {
+    def facet(s: dict, radius: float, months: str | None = None) -> dict:
+        params = {
             "classKey": AVES, "country": "CO", "hasCoordinate": "true", "occurrenceStatus": "PRESENT",
             "geometry": circle_wkt(s["lat"], s["lon"], radius),
             "facet": "speciesKey", "facetLimit": 1500, "limit": 0,
-        }, kind="gbif", min_interval=1.0, retries=6, refresh=a.refresh)
+        }
+        if months:
+            params["month"] = months  # GBIF range syntax "9,11" = Sep..Nov ("9,10,11" is rejected)
+        return get_json(f"{API}/occurrence/search", params, kind="gbif", min_interval=1.0, retries=6, refresh=a.refresh)
+
+    def resolve_key(key: int, site_id: str, n: int) -> str | None:
+        sid = by_key.get(key)
+        if sid is not None:
+            return sid
+        if key not in resolved_extra:
+            info = get_json(f"{API}/species/{key}", kind="gbif", min_interval=0.3, retries=6)
+            sid, how = match_name(info, by_sci, by_fam_epithet, manual)
+            resolved_extra[key] = sid
+            how_n[how or "unmatched"] = how_n.get(how or "unmatched", 0) + 1
+            if how == "family+epithet":
+                log(f"    {info.get('canonicalName')} -> {sid} (family+epithet)")
+            if sid is None:
+                unmatched[key] = {"key": key, "name": info.get("canonicalName") or info.get("scientificName"),
+                                  "status": info.get("taxonomicStatus"), "sites": {}}
+        sid = resolved_extra[key]
+        if sid is None:
+            unmatched[key]["sites"][site_id] = n
+        return sid
+
+    def level(n_aut: int, freq: float) -> str:
+        if n_aut < 3 or freq < 0.001:
+            return "rare"
+        return "common" if freq >= 0.01 else "uncommon"
 
     for s in sites:
         # sparsely surveyed spots (e.g. km-42): widen the circle (x2, x4) until there is something to show
@@ -121,26 +151,28 @@ def main() -> None:
             key, n = int(c["name"]), int(c["count"])
             if n < a.min_count:
                 continue
-            sid = by_key.get(key)
-            if sid is None:
-                if key not in resolved_extra:
-                    info = get_json(f"{API}/species/{key}", kind="gbif", min_interval=0.3, retries=6)
-                    sid, how = match_name(info, by_sci, by_fam_epithet, manual)
-                    resolved_extra[key] = sid
-                    how_n[how or "unmatched"] = how_n.get(how or "unmatched", 0) + 1
-                    if how == "family+epithet":
-                        log(f"    {info.get('canonicalName')} -> {sid} (family+epithet)")
-                    if sid is None:
-                        unmatched[key] = {"key": key, "name": info.get("canonicalName") or info.get("scientificName"),
-                                          "status": info.get("taxonomicStatus"), "sites": {}}
-                sid = resolved_extra[key]
-                if sid is None:
-                    unmatched[key]["sites"][s["id"]] = n
-                    continue
-            agg[sid] = agg.get(sid, 0) + n  # two GBIF keys may map to one of our species
-        sp = sorted(({"id": k, "n": v} for k, v in agg.items()), key=lambda x: (-x["n"], x["id"]))
-        out[s["id"]] = {"radius_km": radius, "total_records": r.get("count", 0), "retrieved": today, "species": sp}
-        log(f"  {s['id']:24s} r={radius:g}km records {r.get('count', 0):7d}  keys {len(counts):4d}  species(n>={a.min_count}) {len(sp):4d}")
+            sid = resolve_key(key, s["id"], n)
+            if sid is not None:
+                agg[sid] = agg.get(sid, 0) + n  # two GBIF keys may map to one of our species
+        ra = facet(s, radius, "9,11")
+        total_aut = ra.get("count", 0)
+        agg_aut: dict[str, int] = {}
+        for c in (ra["facets"][0]["counts"] if ra.get("facets") else []):
+            key = int(c["name"])
+            sid = by_key.get(key) if key in by_key else resolved_extra.get(key)
+            if sid in agg:  # keys already resolved above (all-year n >= n_aut)
+                agg_aut[sid] = agg_aut.get(sid, 0) + int(c["count"])
+        sp = []
+        for k, v in agg.items():
+            na = agg_aut.get(k, 0)
+            f = na / total_aut if total_aut else 0.0
+            sp.append({"id": k, "n": v, "n_aut": na, "freq_aut": round(f, 5), "level": level(na, f)})
+        sp.sort(key=lambda x: (-x["n_aut"], -x["n"], x["id"]))
+        out[s["id"]] = {"radius_km": radius, "total_records": r.get("count", 0), "total_records_aut": total_aut,
+                        "retrieved": today, "species": sp}
+        lv = {L: sum(1 for x in sp if x["level"] == L) for L in ("common", "uncommon", "rare")}
+        log(f"  {s['id']:24s} r={radius:g}km records {r.get('count', 0):7d} aut {total_aut:6d}  "
+            f"species(n>={a.min_count}) {len(sp):4d}  {lv}")
 
     write_json(DATA / "site_species.json", out)
     write_json(SOURCES / "gbif_sites_unmatched.json",

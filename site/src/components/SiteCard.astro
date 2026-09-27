@@ -1,27 +1,21 @@
 ---
-import { regions, siteSpecies, plural, type Site } from '@lib/data';
+/** Compact site card for the day page strip: name, elevation band, habitat in one line, link to the site page. */
+import { regions, type Site } from '@lib/data';
 interface Props { s: Site }
 const { s } = Astro.props;
 const color = regions().find((r) => r.id === s.region)?.color ?? 'var(--line)';
-const n = siteSpecies()[s.id]?.species.length ?? 0;
-const h = s.target_species?.length ?? 0;
 const base = import.meta.env.BASE_URL;
 const elev = s.elev_min != null ? (s.elev_max != null && s.elev_max !== s.elev_min ? `${s.elev_min}–${s.elev_max} м` : `${s.elev_min} м`) : null;
 ---
 <div class="card sitecard" style={`border-top: 4px solid ${color}`}>
-  <a class="sname" href={`${base}sites/${s.id}/`}><strong>{s.name}</strong>{s.name_ru && s.name_ru !== s.name && <span class="muted"> · {s.name_ru}</span>}</a>
-  <div class="muted small">{[elev, s.habitat_ru].filter(Boolean).join(' · ')}</div>
-  <div class="small">{n > 0 && <>~{n} {plural(n, 'вид', 'вида', 'видов')}</>}{h > 0 && <>{n > 0 && ', '}<span class="hl">{h} {plural(h, 'изюминка', 'изюминки', 'изюминок')}</span></>}</div>
-  {s.ebird_hotspots?.length > 0 && (
-    <div class="hs">{s.ebird_hotspots.map((x) => <a class="chip tap" href={`https://ebird.org/hotspot/${x.id}`} target="_blank" rel="noopener">eBird: {x.name}</a>)}</div>
-  )}
+  <strong class="sname">{s.name_ru || s.name}</strong>
+  {elev && <div class="elev">{elev}</div>}
+  {s.habitat_ru && <div class="muted hab" title={s.habitat_ru}>{s.habitat_ru}</div>}
+  <a class="more" href={`${base}sites/${s.id}/`}>все виды и детали →</a>
 </div>
 <style>
-  .sname { display: block; color: inherit; padding: 2px 0; }
-  .sname:hover { text-decoration: none; }
-  .sname:hover strong { color: var(--accent); }
-  .small { font-size: .88rem; }
-  .hl { color: var(--accent-2); }
-  .hs { margin-top: 6px; }
-  .hs .chip { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; line-height: 40px; }
+  .sitecard { padding: 8px 12px 2px; min-width: 0; display: flex; flex-direction: column; font-size: .88rem; line-height: 1.35; }
+  .sname { font-size: 1rem; line-height: 1.3; }
+  .hab { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .more { min-height: 40px; display: inline-flex; align-items: center; margin-top: auto; }
 </style>

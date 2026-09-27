@@ -6,9 +6,12 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const DATA = join(process.cwd(), '..', 'data');
+/** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
+const DATA_OVERRIDE = process.env.CB_DATA_OVERRIDE ?? '';
 
 function readJson<T>(rel: string, fallback?: T): T {
-  const p = join(DATA, rel);
+  const o = DATA_OVERRIDE && join(DATA_OVERRIDE, rel);
+  const p = o && existsSync(o) ? o : join(DATA, rel);
   if (!existsSync(p)) {
     if (fallback !== undefined) return fallback;
     throw new Error(`missing data file: ${p}`);
@@ -160,7 +163,17 @@ export const HABITAT_RU: Record<string, string> = {
 };
 
 /* ---- Likely species per site (pipeline step gbif_sites) ---- */
-export interface SiteSpecies { radius_km: number; total_records: number; retrieved: string; species: { id: string; n: number }[] }
+export type Level = 'common' | 'uncommon' | 'rare';
+export const LEVEL_GLYPH: Record<Level, string> = { common: '●', uncommon: '◐', rare: '○' };
+export const LEVEL_RU: Record<Level, string> = { common: 'обычный', uncommon: 'нечастый', rare: 'редкий' };
+/** Normalise an unknown value to a Level or null (missing / unexpected = unknown). */
+export function asLevel(x: unknown): Level | null {
+  return x === 'common' || x === 'uncommon' || x === 'rare' ? x : null;
+}
+export interface SiteSpeciesEntry { id: string; n: number; n_aut?: number; freq_aut?: number; level?: Level }
+export interface SiteSpecies {
+  radius_km: number; total_records: number; total_records_aut?: number; retrieved: string; species: SiteSpeciesEntry[];
+}
 let _siteSpecies: Record<string, SiteSpecies> | null = null;
 export function siteSpecies(): Record<string, SiteSpecies> {
   return (_siteSpecies ??= readJson<Record<string, SiteSpecies>>('site_species.json', {}));
@@ -185,6 +198,40 @@ export function likelySpeciesForSites(siteIds: string[]): LikelySpecies[] {
     for (const id of siteOf[sid]?.target_species ?? []) at(id).highlightAt.push(sid);
   }
   return [...out.values()].sort((a, b) => b.n - a.n || a.id.localeCompare(b.id));
+}
+/** Level of a species at a site (pipeline step gbif_sites), null if unknown. */
+export function siteLevel(siteId: string, spId: string): Level | null {
+  return asLevel(siteSpecies()[siteId]?.species.find((x) => x.id === spId)?.level);
+}
+
+/* ---- Evening study lists per day (pipeline, data/study_lists.json); optional ---- */
+export type StudyWhy = 'highlight' | 'endemic' | 'near_endemic' | 'range_restricted' | 'new_for_route';
+export interface StudyFeatured { id: string; why: StudyWhy[]; level: Level | null }
+export interface StudyBackground { id: string; level: Level | null; freq_aut: number | null }
+export interface StudyList {
+  sites: string[]; featured: StudyFeatured[]; background: StudyBackground[];
+  dropped_highlights: { id: string; site: string; reason: string }[];
+}
+let _study: Record<string, StudyList> | null = null;
+/** Study list for a date, normalised; null when the file or the day's entry is missing. */
+export function studyList(date: string): StudyList | null {
+  if (!_study) {
+    const raw = readJson<Record<string, Partial<StudyList>> | null>('study_lists.json', null) ?? {};
+    const known = new Set(speciesIndex().map((s) => s.id));
+    _study = {};
+    for (const [d, v] of Object.entries(raw)) {
+      if (!v || typeof v !== 'object') continue;
+      _study[d] = {
+        sites: Array.isArray(v.sites) ? v.sites : [],
+        featured: (Array.isArray(v.featured) ? v.featured : []).filter((f) => f && known.has(f.id))
+          .map((f) => ({ id: f.id, why: Array.isArray(f.why) ? f.why : [], level: asLevel(f.level) })),
+        background: (Array.isArray(v.background) ? v.background : []).filter((b) => b && known.has(b.id))
+          .map((b) => ({ id: b.id, level: asLevel(b.level), freq_aut: typeof b.freq_aut === 'number' ? b.freq_aut : null })),
+        dropped_highlights: Array.isArray(v.dropped_highlights) ? v.dropped_highlights : [],
+      };
+    }
+  }
+  return _study[date] ?? null;
 }
 /** Days (in itinerary order) that visit a site. */
 export function daysForSite(siteId: string): Day[] {

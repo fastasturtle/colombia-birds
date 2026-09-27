@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PhotoGallery from '../../components/PhotoGallery.svelte';
-import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, fmtDateRu, dayLabel, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
+import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, siteLevel, LEVEL_GLYPH, LEVEL_RU, fmtDateRu, dayLabel, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
 export function getStaticPaths() {
   return speciesIndex().map((s) => ({ params: { id: s.id } }));
 }
@@ -17,7 +17,7 @@ const next = pos < idx.length - 1 ? idx[pos + 1] : null;
 const sameGenus = idx.filter((s) => s.sci.split(' ')[0] === sp.genus && s.id !== sp.id);
 const ssAll = siteSpecies();
 const whereSeen = sites()
-  .map((st) => ({ st, n: ssAll[st.id]?.species.find((x) => x.id === sp.id)?.n ?? 0, hl: !!st.target_species?.includes(sp.id), days: daysForSite(st.id) }))
+  .map((st) => ({ st, n: ssAll[st.id]?.species.find((x) => x.id === sp.id)?.n ?? 0, lv: siteLevel(st.id, sp.id), hl: !!st.target_species?.includes(sp.id), days: daysForSite(st.id) }))
   .filter((w) => w.n > 0 || w.hl)
   .sort((a, b) => Number(b.hl) - Number(a.hl) || Number(b.days.length > 0) - Number(a.days.length > 0) || b.n - a.n);
 const el = sp.traits.elevation_m;
@@ -65,7 +65,9 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
         <li>
           <a class="wsite" href={`${base}sites/${w.st.id}/`}>{w.st.name_ru || w.st.name}</a>
           {w.hl && <span class="chip hl">изюминка</span>}
-          <span class="muted small">{w.n > 0 ? `${w.n} ${plural(w.n, 'запись', 'записи', 'записей')} GBIF` : 'нет в GBIF рядом'}</span>
+          {w.lv
+            ? <span class="muted small lvl" title={`${w.n} ${plural(w.n, 'запись', 'записи', 'записей')} GBIF`}><span class="lvg">{LEVEL_GLYPH[w.lv]}</span> {LEVEL_RU[w.lv]}</span>
+            : <span class="muted small">{w.n > 0 ? `${w.n} ${plural(w.n, 'запись', 'записи', 'записей')} GBIF` : 'нет в GBIF рядом'}</span>}
           {w.days.length > 0 ? <span class="wdays">{w.days.map((d) => <a class="chip tap" href={`${base}days/${d.date}/`}>{fmtDateRu(d.date, false)}{typeof d.day === 'number' && ` · д.${d.day}`}</a>)}</span> : <span class="chip muted-chip">не в плане, рядом с Боготой</span>}
         </li>
       ))}
@@ -128,6 +130,7 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
   .wsite { font-weight: 600; min-height: 40px; display: inline-flex; align-items: center; }
   .where .chip { margin: 0; }
   .chip.hl { background: var(--accent-2); color: #fff; }
+  .lvg { color: var(--accent); }
   .muted-chip { background: transparent; border: 1px dashed var(--line); color: var(--muted); }
   .wdays { display: flex; flex-wrap: wrap; gap: 4px; flex-basis: 100%; }
   .small { font-size: .85rem; }

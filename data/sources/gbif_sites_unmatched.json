@@ -3,11 +3,9 @@
   "key": 9761484,
   "name": "Anas platyrhynchos",
   "sites": {
-   "chicaque": 19,
-   "chingaza": 4,
-   "jardin-botanico-bogota": 1121,
-   "la-florida": 1023,
-   "observatorio-colibries": 11
+   "chicaque": 4,
+   "jardin-botanico-bogota": 617,
+   "la-florida": 315
   },
   "status": "ACCEPTED"
  },
@@ -15,9 +13,9 @@
   "key": 2498036,
   "name": "Anser anser",
   "sites": {
-   "jardin-botanico-bogota": 200,
-   "la-florida": 179,
-   "observatorio-colibries": 7
+   "jardin-botanico-bogota": 176,
+   "la-florida": 6,
+   "observatorio-colibries": 3
   },
   "status": "ACCEPTED"
  },
@@ -25,11 +23,11 @@
   "key": 8120211,
   "name": "Pachyramphus salvini",
   "sites": {
-   "aves-y-florez": 36,
-   "bangsias-lodge": 37,
-   "la-nutria": 31,
-   "la-planada": 25,
-   "rio-nambi": 31
+   "aves-y-florez": 31,
+   "bangsias-lodge": 20,
+   "la-nutria": 17,
+   "la-planada": 24,
+   "rio-nambi": 30
   },
   "status": "ACCEPTED"
  },
@@ -38,64 +36,9 @@
   "name": "Scytalopus magellanicus",
   "sites": {
    "aves-y-florez": 7,
-   "bangsias-lodge": 7,
    "chicaque": 11,
-   "jardin-botanico-bogota": 13,
-   "la-nutria": 7,
    "observatorio-colibries": 11,
    "rio-nambi": 7
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 9326020,
-  "name": "Gallus gallus",
-  "sites": {
-   "jardin-botanico-bogota": 16,
-   "la-florida": 13,
-   "observatorio-colibries": 4
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2480398,
-  "name": "Leucopternis plumbeus",
-  "sites": {
-   "aves-y-florez": 6,
-   "bangsias-lodge": 6,
-   "la-nutria": 4,
-   "rio-nambi": 4
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 7341176,
-  "name": "Pheugopedius genibarbis",
-  "sites": {
-   "chicaque": 17
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 10754510,
-  "name": "Deconychura pallida",
-  "sites": {
-   "el-escondite": 3,
-   "isla-escondida": 4,
-   "playa-rica": 5,
-   "puerto-asis": 5
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 8190242,
-  "name": "Cyphorhinus dichrous",
-  "sites": {
-   "aves-y-florez": 3,
-   "bangsias-lodge": 3,
-   "la-nutria": 3,
-   "la-planada": 4,
-   "rio-nambi": 3
   },
   "status": "ACCEPTED"
  },
@@ -117,20 +60,40 @@
   "status": "ACCEPTED"
  },
  {
-  "key": 5788640,
-  "name": "Schistocichla schistacea",
+  "key": 2480398,
+  "name": "Leucopternis plumbeus",
   "sites": {
-   "el-escondite": 3,
-   "finca-discosura": 10
+   "aves-y-florez": 4,
+   "bangsias-lodge": 3,
+   "la-nutria": 3,
+   "rio-nambi": 4
   },
   "status": "ACCEPTED"
  },
  {
-  "key": 7638086,
-  "name": "Amaurospiza aequatorialis",
+  "key": 8190242,
+  "name": "Cyphorhinus dichrous",
   "sites": {
-   "la-nutria": 4,
-   "la-planada": 9
+   "aves-y-florez": 3,
+   "la-nutria": 3,
+   "la-planada": 4,
+   "rio-nambi": 3
+  },
+  "status": "ACCEPTED"
+ },
+ {
+  "key": 9326020,
+  "name": "Gallus gallus",
+  "sites": {
+   "la-florida": 12
+  },
+  "status": "ACCEPTED"
+ },
+ {
+  "key": 5788640,
+  "name": "Schistocichla schistacea",
+  "sites": {
+   "finca-discosura": 10
   },
   "status": "ACCEPTED"
  },
@@ -138,52 +101,17 @@
   "key": 2479798,
   "name": "Melopsittacus undulatus",
   "sites": {
-   "jardin-botanico-bogota": 7,
-   "la-florida": 5
+   "jardin-botanico-bogota": 6,
+   "la-florida": 3
   },
   "status": "ACCEPTED"
  },
  {
-  "key": 2498034,
-  "name": "Anser cygnoides",
+  "key": 10754510,
+  "name": "Deconychura pallida",
   "sites": {
-   "jardin-botanico-bogota": 7,
-   "la-florida": 5
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2490537,
-  "name": "Grallaria excelsa",
-  "sites": {
-   "paramo-bordoncillo": 6,
-   "sibundoy": 6
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2473341,
-  "name": "Numida meleagris",
-  "sites": {
-   "jardin-botanico-bogota": 5,
-   "la-florida": 5
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2487446,
-  "name": "Vireo gilvus",
-  "sites": {
-   "la-nutria": 5,
-   "la-planada": 5
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2476573,
-  "name": "Phaethornis superciliosus",
-  "sites": {
-   "isla-escondida": 9
+   "isla-escondida": 4,
+   "puerto-asis": 5
   },
   "status": "ACCEPTED"
  },
@@ -196,33 +124,6 @@
   "status": "ACCEPTED"
  },
  {
-  "key": 2493787,
-  "name": "Cinnycerthia peruana",
-  "sites": {
-   "chicaque": 5,
-   "laguna-la-cocha": 3
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2498344,
-  "name": "Cygnus atratus",
-  "sites": {
-   "jardin-botanico-bogota": 3,
-   "la-florida": 4
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2490996,
-  "name": "Scytalopus femoralis",
-  "sites": {
-   "el-encanto": 3,
-   "la-drymophila": 3
-  },
-  "status": "ACCEPTED"
- },
- {
   "key": 2484249,
   "name": "Sturnella defilippii",
   "sites": {
@@ -231,10 +132,42 @@
   "status": "ACCEPTED"
  },
  {
+  "key": 2498034,
+  "name": "Anser cygnoides",
+  "sites": {
+   "jardin-botanico-bogota": 5
+  },
+  "status": "ACCEPTED"
+ },
+ {
+  "key": 2493787,
+  "name": "Cinnycerthia peruana",
+  "sites": {
+   "chicaque": 5
+  },
+  "status": "ACCEPTED"
+ },
+ {
+  "key": 7638086,
+  "name": "Amaurospiza aequatorialis",
+  "sites": {
+   "la-planada": 5
+  },
+  "status": "ACCEPTED"
+ },
+ {
   "key": 7342105,
   "name": "Cyanolyca viridicyanus",
   "sites": {
    "observatorio-colibries": 4
+  },
+  "status": "ACCEPTED"
+ },
+ {
+  "key": 2473341,
+  "name": "Numida meleagris",
+  "sites": {
+   "jardin-botanico-bogota": 4
   },
   "status": "ACCEPTED"
  },
@@ -255,26 +188,18 @@
   "status": "ACCEPTED"
  },
  {
-  "key": 5230841,
-  "name": "Hypocnemis cantator",
+  "key": 7341176,
+  "name": "Pheugopedius genibarbis",
   "sites": {
-   "el-escondite": 4
+   "chicaque": 4
   },
   "status": "ACCEPTED"
  },
  {
-  "key": 5844169,
-  "name": "Megascops napensis",
+  "key": 2498344,
+  "name": "Cygnus atratus",
   "sites": {
-   "isla-escondida": 3
-  },
-  "status": "ACCEPTED"
- },
- {
-  "key": 2485221,
-  "name": "Sclerurus mexicanus",
-  "sites": {
-   "la-planada": 3
+   "la-florida": 3
   },
   "status": "ACCEPTED"
  },

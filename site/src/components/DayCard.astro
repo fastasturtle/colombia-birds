@@ -1,12 +1,14 @@
 ---
-import { sites, regions, fmtDateRu, dayLabel, plural, type DayWithSpecies } from '@lib/data';
+import { sites, regions, studyList, fmtDateRu, dayLabel, plural, type DayWithSpecies } from '@lib/data';
 interface Props { d: DayWithSpecies; compact?: boolean; id?: string; hidden?: boolean }
 const { d, compact = false, id, hidden } = Astro.props;
 const day = d.day;
 const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
 const color = regions().find((r) => r.id === day.region)?.color ?? 'var(--line)';
 const base = import.meta.env.BASE_URL;
-const n = d.species.length;
+const study = studyList(day.date);
+const n = study?.featured.length ?? 0;
+const nH = study?.featured.filter((f) => f.why.includes('highlight')).length ?? 0;
 ---
 <article class="card daycard" id={id} hidden={hidden} data-date={day.date} style={`border-left: 5px solid ${color}`}>
   <slot name="top" />
@@ -21,7 +23,7 @@ const n = d.species.length;
   )}
   {n > 0 && (
     <div class="small stats">
-      ~{n} {plural(n, 'вероятный вид', 'вероятных вида', 'вероятных видов')}{d.nHighlights > 0 && <>, <b class="hl">{d.nHighlights} {plural(d.nHighlights, 'изюминка', 'изюминки', 'изюминок')}</b></>}{d.nNew > 0 && d.nNew < n && <>, {d.nNew} {plural(d.nNew, 'новый', 'новых', 'новых')}</>}
+      {n} {plural(n, 'вид', 'вида', 'видов')} на вечер{nH > 0 && <> · <b class="hl">{nH} {plural(nH, 'изюминка', 'изюминки', 'изюминок')}</b></>}
     </div>
   )}
   <slot />

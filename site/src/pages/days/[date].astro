@@ -1,76 +1,110 @@
 ---
+/**
+ * Day page = a short study page for the evening before: facts, the day's sites, and the study list
+ * (data/study_lists.json: featured = «ради чего едем», background = common birds). No study list -> no species section.
+ */
 import Base from '../../layouts/Base.astro';
-import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
 import SiteCard from '../../components/SiteCard.astro';
-import { itineraryWithSpecies, sites, regions, siteSpecies, fmtDateRu, dayLabel, plural, type DayWithSpecies } from '@lib/data';
+import StudyTile from '../../components/StudyTile.astro';
+import ThumbLightbox from '../../components/ThumbLightbox.svelte';
+import {
+  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, fmtDateRu, dayLabel, MEDIA_BASE,
+  type Day, type IndexEntry, type StudyFeatured,
+} from '@lib/data';
 export function getStaticPaths() {
-  const all = itineraryWithSpecies();
-  return all.map((d, i) => ({ params: { date: d.day.date }, props: { d, prev: all[i - 1] ?? null, next: all[i + 1] ?? null } }));
+  const all = itinerary();
+  return all.map((d, i) => ({ params: { date: d.date }, props: { day: d, prev: all[i - 1] ?? null, next: all[i + 1] ?? null } }));
 }
-interface Props { d: DayWithSpecies; prev: DayWithSpecies | null; next: DayWithSpecies | null }
-const { d, prev, next } = Astro.props;
-const day = d.day;
+interface Props { day: Day; prev: Day | null; next: Day | null }
+const { day, prev, next } = Astro.props;
 const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
 const daySites = day.sites.map((id) => siteOf[id]).filter(Boolean);
 const region = regions().find((r) => r.id === day.region);
-const ss = siteSpecies();
+const idx = new Map(speciesIndex().map((s) => [s.id, s]));
 const base = import.meta.env.BASE_URL;
-const n = d.species.length;
-const nE = d.species.filter((s) => s.isNew).length;
-const items = d.species.map((s) => ({ id: s.id, n: s.n, highlight: s.highlightAt.length > 0, isNew: s.isNew }));
-const short = (x: DayWithSpecies) => `${fmtDateRu(x.day.date, false)} · ${dayLabel(x.day)}`;
+const study = studyList(day.date);
+
+// featured, grouped by bird group (groups.json order), taxonomic inside a group
+const byGroup = new Map<string, { f: StudyFeatured; s: IndexEntry }[]>();
+for (const f of study?.featured ?? []) {
+  const s = idx.get(f.id)!;
+  const g = groupOfFamily(s.family)?.id ?? '';
+  (byGroup.get(g) ?? byGroup.set(g, []).get(g)!).push({ f, s });
+}
+const featuredGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id: '', name: 'Прочие' }]
+  .map((g) => ({ ...g, rows: (byGroup.get(g.id) ?? []).sort((a, b) => a.s.taxon_order - b.s.taxon_order) }))
+  .filter((g) => g.rows.length);
+const background = (study?.background ?? []).map((b) => idx.get(b.id)!);
+const hasPhotos = [...(study?.featured ?? []), ...(study?.background ?? [])].some((x) => idx.get(x.id)?.photo);
+const ss = siteSpecies();
+const radii = [...new Set((study?.sites.length ? study.sites : day.sites).map((id) => ss[id]?.radius_km).filter(Boolean))];
+const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
 ---
-<Base title={`${fmtDateRu(day.date, false)}: ${day.title_ru}`} description={`${dayLabel(day)}: ${day.title_ru}. Локации и вероятные виды.`}>
-  <nav class="pn top-pn">
-    {prev ? <a href={`${base}days/${prev.day.date}/`}>← {short(prev)}</a> : <a href={base}>← Маршрут</a>}
-    {next ? <a href={`${base}days/${next.day.date}/`}>{short(next)} →</a> : <span />}
-  </nav>
-  <p class="muted meta" style={`border-left:4px solid ${region?.color ?? 'var(--line)'}`}>
-    {fmtDateRu(day.date)} · {dayLabel(day)}{region && <> · {region.name_ru}</>}
-  </p>
-  <h1>{day.title_ru}</h1>
+<Base title={`${fmtDateRu(day.date, false)}: ${day.title_ru}`} description={`${dayLabel(day)}: ${day.title_ru}. Что учить к вечеру: главные виды и фон.`}>
+  <header class="dh" style={`border-left-color:${region?.color ?? 'var(--line)'}`}>
+    <p class="muted meta">{fmtDateRu(day.date)} · {dayLabel(day)}{region && <> · {region.name_ru}</>}</p>
+    <h1>{day.title_ru}</h1>
+  </header>
   <table class="facts">
-    {day.guide && <tr><th>Гид</th><td>{day.guide}</td></tr>}
-    {day.travel_ru && <tr><th>Переезды</th><td>{day.travel_ru}</td></tr>}
+    <tr><th>Гид</th><td>{day.guide ?? '—'}</td></tr>
+    <tr><th>Переезды</th><td>{day.travel_ru || '—'}</td></tr>
     <tr><th>Ночёвка</th><td>{day.overnight_site && siteOf[day.overnight_site] ? <a href={`${base}sites/${day.overnight_site}/`}>{day.overnight}</a> : day.overnight}{day.elev_sleep != null && <span class="muted"> · {day.elev_sleep} м</span>}</td></tr>
   </table>
 
-  {daySites.length > 0 && (
-    <>
-      <h2>{daySites.length === 1 ? 'Локация' : 'Локации'}</h2>
-      <div class="grid">{daySites.map((s) => <SiteCard s={s} />)}</div>
-    </>
+  {daySites.length > 0 && <div class="strip">{daySites.map((s) => <SiteCard s={s} />)}</div>}
+
+  {study && featuredGroups.length > 0 && (
+    <section>
+      <h2>Ради чего едем</h2>
+      {featuredGroups.map((g) => (
+        <>
+          <h3 class="grp">{g.name}</h3>
+          <div class="tiles">
+            {g.rows.map(({ f, s }) => (
+              <StudyTile s={s} highlight={f.why.includes('highlight')} endemic={f.why.includes('endemic') || s.endemic} isNew={f.why.includes('new_for_route')} />
+            ))}
+          </div>
+        </>
+      ))}
+    </section>
   )}
 
-  <h2>Виды дня</h2>
-  {n === 0 ? (
-    <p class="card muted">{daySites.length ? 'Для локаций этого дня нет данных GBIF.' : 'Птичьих локаций в этот день нет.'}</p>
-  ) : (
-    <>
-      <p class="summary">
-        ~{n} {plural(n, 'вероятный вид', 'вероятных вида', 'вероятных видов')}, <b class="hl">{d.nHighlights} {plural(d.nHighlights, 'изюминка', 'изюминки', 'изюминок')}</b>{nE < n && <>, {nE} {plural(nE, 'новый', 'новых', 'новых')}</>}
-      </p>
-      <p class="muted small">
-        Вероятные — виды, у которых в GBIF ≥ 3 записи в радиусе {[...new Set(day.sites.map((id) => ss[id]?.radius_km).filter(Boolean))].join('/')} км от локаций дня (за все годы и сезоны, поэтому в списке есть редкие и залётные).
-        Изюминки — целевые виды из отчётов о поездках. «Новый» — вида не было в списках предыдущих дней.
-      </p>
-      <SpeciesChecklist items={items} showNew={nE < n} />
-    </>
+  {study && background.length > 0 && (
+    <section>
+      <h2>Фон, который точно увидим</h2>
+      <div class="tiles sm">{background.map((s) => <StudyTile s={s} small />)}</div>
+    </section>
   )}
+
+  {hasPhotos && <ThumbLightbox client:idle mediaBase={MEDIA_BASE} />}
 
   <nav class="pn">
-    {prev ? <a href={`${base}days/${prev.day.date}/`}>← {short(prev)}</a> : <a href={base}>← Маршрут</a>}
-    {next ? <a href={`${base}days/${next.day.date}/`}>{short(next)} →</a> : <a href={base}>Маршрут →</a>}
+    {prev ? <a href={`${base}days/${prev.date}/`}>← {short(prev)}</a> : <a href={base}>← Маршрут</a>}
+    {next ? <a href={`${base}days/${next.date}/`}>{short(next)} →</a> : <a href={base}>Маршрут →</a>}
   </nav>
+  {study && radii.length > 0 && (
+    <p class="muted method">
+      Списки построены по осенним находкам GBIF в радиусе {radii.join('/')} км; полный список — на {daySites.length === 1
+        ? <a href={`${base}sites/${daySites[0].id}/`}>странице локации</a>
+        : 'странице локации'}.
+    </p>
+  )}
 </Base>
 <style>
-  .meta { padding-left: 8px; margin-bottom: 4px; }
-  .facts th { width: 100px; color: var(--muted); font-weight: 500; }
-  .summary { font-size: 1.05rem; margin: 4px 0; }
-  .hl { color: var(--accent-2); }
-  .small { font-size: .85rem; }
+  .dh { border-left: 4px solid; padding-left: 10px; margin: 4px 0 10px; }
+  .dh .meta { margin: 0 0 2px; font-size: .9rem; }
+  .dh h1 { margin: 0; }
+  .facts th { width: 96px; color: var(--muted); font-weight: 500; }
+  .strip { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); margin: 14px 0 4px; }
+  .grp { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; margin: 14px 0 6px; }
+  .tiles { display: grid; gap: 10px 8px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tiles.sm { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px 6px; }
+  @media (min-width: 640px) {
+    .tiles { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 14px 12px; }
+    .tiles.sm { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+  }
   .pn { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 4px; border-top: 1px solid var(--line); }
   .pn a { min-height: 44px; display: inline-flex; align-items: center; }
   .pn a:last-child { text-align: right; }
-  .top-pn { margin: -8px 0 4px; border-top: none; font-size: .9rem; }
+  .method { font-size: .8rem; margin-top: 8px; }
 </style>

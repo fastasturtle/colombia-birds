@@ -3,9 +3,10 @@
  * Likely species (GBIF) + highlights (trip reports) grouped by family in taxonomic order.
  * Rows carry data-h / data-e / data-new flags for the filter buttons (tiny inline script below).
  * Long lists (>= collapseFrom) render every family as a closed <details> with counts.
+ * When items carry a `level`, rows show ● / ◐ / ○ and a «без редких» toggle (on by default) hides level "rare".
  */
-import { families, speciesIndex, mediaUrl, IUCN_RU, plural, type IndexEntry } from '@lib/data';
-export interface Item { id: string; n: number; highlight: boolean; isNew?: boolean }
+import { families, speciesIndex, mediaUrl, IUCN_RU, LEVEL_GLYPH, LEVEL_RU, plural, type IndexEntry, type Level } from '@lib/data';
+export interface Item { id: string; n: number; highlight: boolean; isNew?: boolean; level?: Level | null }
 interface Props { items: Item[]; showNew?: boolean; collapseFrom?: number }
 const { items, showNew = false, collapseFrom = 300 } = Astro.props;
 const idx = new Map(speciesIndex().map((s) => [s.id, s]));
@@ -23,35 +24,45 @@ const base = import.meta.env.BASE_URL;
 const nH = rows.filter((r) => r.highlight).length;
 const nE = rows.filter((r) => r.s.endemic).length;
 const nN = rows.filter((r) => r.isNew).length;
+const hasLevel = rows.some((r) => r.level);
+const nR = rows.filter((r) => r.level === 'rare').length;
+const noRare = hasLevel && nR > 0;
+const vis = (rs: typeof rows) => (noRare ? rs.filter((r) => r.level !== 'rare') : rs);
+const cnt = (rs: typeof rows) => ({ 'data-n': rs.length, 'data-nr': rs.filter((r) => r.level !== 'rare').length });
+const lvTitle = (r: Item) => r.level ? `${LEVEL_RU[r.level]}${r.n > 0 ? ` · ${r.n} ${plural(r.n, 'запись', 'записи', 'записей')} GBIF` : ''}` : undefined;
 ---
 {rows.length > 0 && (
-  <div class="checklist" data-filter="all">
+  <div class="checklist" data-filter="all" data-norare={noRare ? '1' : undefined}>
     <div class="filters" role="group" aria-label="Фильтр видов">
-      <button type="button" data-f="all" aria-pressed="true">Все <span>{rows.length}</span></button>
-      {nH > 0 && <button type="button" data-f="h" aria-pressed="false">Изюминки <span>{nH}</span></button>}
-      {showNew && nN > 0 && <button type="button" data-f="new" aria-pressed="false">Новые <span>{nN}</span></button>}
-      {nE > 0 && <button type="button" data-f="e" aria-pressed="false">Эндемики <span>{nE}</span></button>}
+      <button type="button" data-f="all" aria-pressed="true">Все <span {...cnt(rows)}>{vis(rows).length}</span></button>
+      {nH > 0 && <button type="button" data-f="h" aria-pressed="false">Изюминки <span {...cnt(rows.filter((r) => r.highlight))}>{vis(rows.filter((r) => r.highlight)).length}</span></button>}
+      {showNew && nN > 0 && <button type="button" data-f="new" aria-pressed="false">Новые <span {...cnt(rows.filter((r) => r.isNew))}>{vis(rows.filter((r) => r.isNew)).length}</span></button>}
+      {nE > 0 && <button type="button" data-f="e" aria-pressed="false">Эндемики <span {...cnt(rows.filter((r) => r.s.endemic))}>{vis(rows.filter((r) => r.s.endemic)).length}</span></button>}
+      {noRare && <button type="button" class="norare" aria-pressed="true">без редких <span>−{nR}</span></button>}
     </div>
+    {hasLevel && (
+      <p class="legend muted"><span class="lv">{LEVEL_GLYPH.common}</span> обычный · <span class="lv">{LEVEL_GLYPH.uncommon}</span> нечастый · <span class="lv">{LEVEL_GLYPH.rare}</span> редкий осенью · <b class="hl">★</b> изюминка</p>
+    )}
     {groups.map((g) => {
       const f = fams.get(g.code);
       const gh = g.rows.filter((r) => r.highlight).length;
       const gn = g.rows.filter((r) => r.isNew).length;
       return (
-        <details class="fam" open={!collapsed}>
+        <details class="fam" open={!collapsed} hidden={noRare && vis(g.rows).length === 0}>
           <summary>
             <span class="fname">{f?.names.ru ?? f?.names.en ?? g.code}</span>
             <span class="muted sci">{f?.sci}</span>
-            <span class="cnt">{g.rows.length}{gh > 0 && <b class="hl"> · {gh}★</b>}{showNew && gn > 0 && <span class="nw"> · {gn} нов.</span>}</span>
+            <span class="cnt"><span class="num" {...cnt(g.rows)}>{vis(g.rows).length}</span>{gh > 0 && <b class="hl"> · {gh}★</b>}{showNew && gn > 0 && <span class="nw"> · {gn} нов.</span>}</span>
           </summary>
           {g.rows.map((r) => (
-            <a class="row sp" href={`${base}species/${r.s.id}/`} data-h={r.highlight ? '1' : undefined} data-e={r.s.endemic ? '1' : undefined} data-new={r.isNew ? '1' : undefined}>
+            <a class="row sp" href={`${base}species/${r.s.id}/`} data-h={r.highlight ? '1' : undefined} data-e={r.s.endemic ? '1' : undefined} data-new={r.isNew ? '1' : undefined} data-lv={r.level ?? undefined}>
               {r.s.photo ? <img class="thumb" src={mediaUrl(r.s.photo)} alt="" loading="lazy" width="48" height="48" /> : <span class="thumb empty" aria-hidden="true"></span>}
               <span class="txt">
-                <span class="l1"><strong>{r.s.en}</strong>{r.s.ru && <span> · {r.s.ru}</span>}</span>
-                <span class="l2 muted"><span class="sci">{r.s.sci}</span>{r.n > 0 ? <> · {r.n} {plural(r.n, 'запись', 'записи', 'записей')}</> : <> · нет в GBIF рядом</>}</span>
-                {(r.highlight || r.s.endemic || r.isNew || (r.s.iucn && r.s.iucn !== 'LC')) && (
+                <span class="l1">{r.level && <span class="lv" title={lvTitle(r)} aria-label={LEVEL_RU[r.level]}>{LEVEL_GLYPH[r.level]}</span>}{r.highlight && hasLevel && <b class="star" title="изюминка">★</b>}<strong>{r.s.en}</strong>{r.s.ru && <span> · {r.s.ru}</span>}</span>
+                <span class="l2 muted"><span class="sci">{r.s.sci}</span>{!hasLevel && (r.n > 0 ? <> · {r.n} {plural(r.n, 'запись', 'записи', 'записей')}</> : <> · нет в GBIF рядом</>)}{hasLevel && r.n === 0 && <> · нет в GBIF рядом</>}</span>
+                {((r.highlight && !hasLevel) || r.s.endemic || r.isNew || (r.s.iucn && r.s.iucn !== 'LC')) && (
                   <span class="tags">
-                    {r.highlight && <span class="chip hl">изюминка</span>}
+                    {r.highlight && !hasLevel && <span class="chip hl">изюминка</span>}
                     {r.s.endemic && <span class="chip endemic">эндемик</span>}
                     {r.isNew && <span class="chip new">новый</span>}
                     {r.s.iucn && r.s.iucn !== 'LC' && <span class="chip iucn" title={IUCN_RU[r.s.iucn]}>IUCN {r.s.iucn}</span>}
@@ -68,17 +79,29 @@ const nN = rows.filter((r) => r.isNew).length;
 <script>
   for (const box of document.querySelectorAll<HTMLElement>('.checklist')) {
     const opened = new Map<HTMLDetailsElement, boolean>();
-    box.querySelectorAll<HTMLButtonElement>('.filters button').forEach((b) => b.addEventListener('click', () => {
-      const f = b.dataset.f!;
-      box.dataset.filter = f;
-      box.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    const apply = () => {
+      const f = box.dataset.filter!;
+      const nr = box.dataset.norare === '1';
+      const sel = (f === 'all' ? '.sp' : `.sp[data-${f}]`) + (nr ? ':not([data-lv="rare"])' : '');
       box.querySelectorAll<HTMLDetailsElement>('details.fam').forEach((d) => {
         if (!opened.has(d)) opened.set(d, d.open);
-        const any = f === 'all' || d.querySelector(`[data-${f}]`) !== null;
-        d.hidden = !any;
+        d.hidden = d.querySelector(sel) === null;
         d.open = f === 'all' ? opened.get(d)! : true;
       });
+      box.querySelectorAll<HTMLElement>('[data-nr]').forEach((c) => (c.textContent = (nr ? c.dataset.nr : c.dataset.n)!));
+    };
+    box.querySelectorAll<HTMLButtonElement>('.filters button[data-f]').forEach((b) => b.addEventListener('click', () => {
+      box.dataset.filter = b.dataset.f!;
+      box.querySelectorAll('.filters button[data-f]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      apply();
     }));
+    box.querySelector<HTMLButtonElement>('.filters .norare')?.addEventListener('click', (e) => {
+      const b = e.currentTarget as HTMLButtonElement;
+      const on = b.getAttribute('aria-pressed') !== 'true';
+      b.setAttribute('aria-pressed', String(on));
+      if (on) box.dataset.norare = '1'; else delete box.dataset.norare;
+      apply();
+    });
   }
 </script>
 <style>
@@ -114,6 +137,11 @@ const nN = rows.filter((r) => r.isNew).length;
   .chip.hl { background: var(--accent-2); color: #fff; }
   .chip.new { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
   .chip.iucn { background: #b91c1c; color: #fff; }
+  .norare { border-style: dashed !important; }
+  .legend { font-size: .8rem; margin: -4px 0 8px; }
+  .lv { display: inline-block; width: 1.1em; color: var(--accent); font-size: .85em; }
+  .star { color: var(--accent-2); margin-right: 4px; }
+  .checklist[data-norare="1"] .sp[data-lv="rare"],
   .checklist[data-filter="h"] .sp:not([data-h]),
   .checklist[data-filter="e"] .sp:not([data-e]),
   .checklist[data-filter="new"] .sp:not([data-new]) { display: none; }

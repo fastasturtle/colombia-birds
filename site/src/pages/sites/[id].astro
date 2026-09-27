@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
-import { sites, regions, siteSpecies, likelySpeciesForSites, daysForSite, hotspotCheck, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import { sites, regions, siteSpecies, likelySpeciesForSites, daysForSite, hotspotCheck, siteLevel, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -9,8 +9,9 @@ const { s } = Astro.props as { s: Site };
 const region = regions().find((r) => r.id === s.region);
 const gb = siteSpecies()[s.id];
 const list = likelySpeciesForSites([s.id]);
-const items = list.map((x) => ({ id: x.id, n: x.n, highlight: x.highlightAt.length > 0 }));
+const items = list.map((x) => ({ id: x.id, n: x.n, highlight: x.highlightAt.length > 0, level: siteLevel(s.id, x.id) }));
 const nH = items.filter((x) => x.highlight).length;
+const nNR = items.some((x) => x.level) ? items.filter((x) => x.level !== 'rare').length : null;
 const days = daysForSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
 const base = import.meta.env.BASE_URL;
@@ -35,8 +36,8 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   {s.ebird_hotspots?.length > 0 && (
     <p class="hs">{s.ebird_hotspots.map((h) => {
       const c = hotspotCheck(h.id);
-      const extra = c && [c.name_api && c.name_api !== h.name ? c.name_api : null, c.numSpeciesAllTime != null ? `${c.numSpeciesAllTime} видов в eBird` : null].filter(Boolean).join(', ');
-      return <><a class="chip tap" href={`https://ebird.org/hotspot/${h.id}`} target="_blank" rel="noopener">eBird: {h.name}</a>{extra && <span class="muted small hsx">{extra}</span>}</>;
+      const nsp = c?.numSpeciesAllTime;
+      return <a class="chip tap" href={`https://ebird.org/hotspot/${h.id}`} target="_blank" rel="noopener" title={c?.name_api ?? h.name}><span class="hsn">eBird: {h.name}</span>{nsp != null && <span class="hsc">{nsp} {plural(nsp, 'вид', 'вида', 'видов')}</span>}</a>;
     })}</p>
   )}
   {s.sources?.length > 0 && (
@@ -46,12 +47,7 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   <h2>Виды</h2>
   {items.length === 0 ? <p class="card muted">Данных пока нет.</p> : (
     <>
-      <p class="summary">~{gb?.species.length ?? 0} {plural(gb?.species.length ?? 0, 'вероятный вид', 'вероятных вида', 'вероятных видов')}{nH > 0 && <>, <b class="hl">{nH} {plural(nH, 'изюминка', 'изюминки', 'изюминок')}</b></>}</p>
-      {gb && (
-        <p class="muted small">
-          По <a href={gbifUrl} target="_blank" rel="noopener">GBIF</a>: {gb.total_records.toLocaleString('ru-RU')} записей птиц в радиусе {gb.radius_km} км, в списке виды с ≥ 3 записями (за все годы и сезоны), данные на {gb.retrieved}. Изюминки — целевые виды из отчётов о поездках.
-        </p>
-      )}
+      <p class="summary">~{gb?.species.length ?? 0} {plural(gb?.species.length ?? 0, 'вероятный вид', 'вероятных вида', 'вероятных видов')}{nNR != null && <>, из них {nNR} не редких осенью</>}{nH > 0 && <>, <b class="hl">{nH} {plural(nH, 'изюминка', 'изюминки', 'изюминок')}</b></>}</p>
       <SpeciesChecklist items={items} />
     </>
   )}
@@ -63,6 +59,12 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
     </>
   )}
   <p><a href={base}>← Маршрут</a></p>
+  {gb && (
+    <p class="muted small method">
+      По <a href={gbifUrl} target="_blank" rel="noopener">GBIF</a>: {gb.total_records.toLocaleString('ru-RU')} записей птиц в радиусе {gb.radius_km} км{gb.total_records_aut != null && <>, из них осенних {gb.total_records_aut.toLocaleString('ru-RU')}</>}; в списке виды с ≥ 3 записями, данные на {gb.retrieved}.
+      {items.some((x) => x.level) && <> Встречаемость (● обычный, ◐ нечастый, ○ редкий) — по доле осенних записей.</>} Изюминки — целевые виды из отчётов о поездках.
+    </p>
+  )}
 </Base>
 <style>
   .meta { padding-left: 8px; margin-bottom: 4px; }
@@ -72,6 +74,8 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   .summary { font-size: 1.05rem; margin: 4px 0; }
   .hl { color: var(--accent-2); }
   .small { font-size: .85rem; }
-  .hsx { display: block; margin: -2px 0 6px; }
-  .hs .chip { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; line-height: 40px; }
+  .hs a.chip.tap { max-width: 100%; gap: 8px; }
+  .hsn { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .hsc { color: var(--muted); white-space: nowrap; font-size: .8rem; }
+  .method { margin-top: 16px; }
 </style>
