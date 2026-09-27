@@ -2,18 +2,19 @@
 id: diglossa-cyanea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глубоко-синяя, с чёрной маской на лице"
   - "Ярко-красный глаз посреди маски"
-  - "Короткий клюв с крючком на конце надклювья"
-  - "Кормится на цветах в кустарниках и на опушках облачного леса"
+  - "Чёрный, слегка вздёрнутый клюв с крючком на конце надклювья"
+  - "Кормится ягодами и нектаром в кустарниках и на опушках облачного леса"
 similar:
   - id: diglossa-caerulescens
     how: "тусклая серо-голубая, маска едва заметна, глаз тоже красноватый, но птица выглядит однотонной"
   - id: diglossa-lafresnayii
     how: "чёрная с голубовато-серым плечом, без синего"
-behavior: "Прокалывает крючковатым клювом основание цветка и пьёт нектар «с чёрного хода», не опыляя растение. Часто ходит в микст-флоках с танаграми по опушкам."
-voice: "Быстрая звонкая щебечущая трель, часто с высокими писклявыми нотами."
+behavior: "Прокалывает крючковатым клювом основание цветка и пьёт нектар «с чёрного хода», не опыляя растение, но охотнее многих цветоколов ест ягоды (миконии, ежевика). Часто ходит в микст-флоках с танаграми по опушкам."
+voice: "Песня на севере ареала, в том числе в Колумбии, — серия дребезжащих «язычковых» нот, переходящая в щебет."
 traits:
   size: sparrow
   colors: [blue, black]
@@ -23,20 +24,21 @@ traits:
   layer: [midstory, understory]
 sources:
   - "Данные проекта: data/species/diglossa-cyanea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Wikipedia: Masked flowerpiercer (en, CC BY-SA 4.0); Pinchaflor enmascarado (es); Масковый крючкоклюв, Блестящий крючкоклюв (ru); все CC BY-SA 4.0"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Deep blue with a black facial mask"
     - "Bright red eye in the middle of the mask"
-    - "Short bill with a hooked tip to the upper mandible"
-    - "Feeds at flowers in shrubbery and cloud-forest edges"
+    - "Black, slightly upturned bill with a hooked tip to the upper mandible"
+    - "Feeds on berries and nectar in shrubbery and cloud-forest edges"
   similar:
     - id: diglossa-caerulescens
       how: "dull grayish-blue, mask barely visible; eye also reddish, but the bird looks uniform"
     - id: diglossa-lafresnayii
       how: "black with a bluish-gray shoulder, no blue"
-  behavior: "Pierces the base of a flower with its hooked bill and drinks nectar 'through the back door' without pollinating it. Often joins mixed flocks with tanagers along edges."
-  voice: "A fast ringing twittering trill, often with high squeaky notes."
+  behavior: "Pierces the base of a flower with its hooked bill and drinks nectar 'through the back door' without pollinating it, but eats berries (Miconia, blackberries) more readily than most flowerpiercers. Often joins mixed flocks with tanagers along edges."
+  voice: "In the north of the range, including Colombia, the song is a series of reedy notes ending in a twitter."
 ---
 Masked Flowerpiercer (масковый цветокол) — самый заметный цветокол Анд, на высотах 1 800–3 600 м. Цветоколы — танагры, которые «воруют» нектар: крючком на клюве они прокалывают трубку цветка сбоку. У этого вида глубокая синяя окраска, чёрная маска и красный глаз, и с другими цветоколами его трудно спутать.
 

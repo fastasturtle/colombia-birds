@@ -2,6 +2,7 @@
 id: geospizopsis-unicolor
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь ровно свинцово-серый, снизу чуть светлее, без пестрин"
   - "Крылья и хвост черноватые, подхвостье беловатое"

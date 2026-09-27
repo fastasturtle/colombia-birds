@@ -2,6 +2,7 @@
 id: zonotrichia-capensis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Рыжий воротник на затылке и по бокам шеи"
   - "Голова серая, с чёрными полосами по бокам темени, небольшой хохолок"
@@ -9,11 +10,11 @@ key_features:
   - "Спина бурая в чёрных пестринах, на крыле две белые полоски"
 similar:
   - id: passer-domesticus
-    how: "самец с серой шапочкой и чёрным нагрудником, рыжего воротника и хохолка нет; только в городах побережья"
+    how: "самец с серой шапочкой и чёрным нагрудником, рыжего воротника и хохолка нет; на маршруте только на побережье, в Тумако"
   - id: ammodramus-aurifrons
     how: "жёлтое пятно у клюва и над глазом, воротника нет; в траве амазонских низин"
 behavior: "Держится парами на земле в садах, на пастбищах, обочинах и в посёлках, собирает семена и насекомых. Доверчив и совсем не боится людей."
-voice: "Песня — пара протяжных свистов, часто с трелью в конце; в каждой местности свой диалект."
+voice: "Песня — два-три протяжных свиста и трель в конце; по трели различаются местные диалекты."
 traits:
   size: sparrow
   colors: [brown, gray, rufous]
@@ -35,18 +36,18 @@ en:
     - "Brown back streaked black, two white bars on the wing"
   similar:
     - id: passer-domesticus
-      how: "male with a gray cap and black bib, no rufous collar and no crest; only in coastal towns"
+      how: "male with a gray cap and black bib, no rufous collar and no crest; on the route only on the coast, at Tumaco"
     - id: ammodramus-aurifrons
       how: "yellow at the bill base and over the eye, no collar; in grass of the Amazonian lowlands"
   behavior: "Keeps in pairs on the ground in gardens, pastures, roadsides and villages, picking seeds and insects. Tame and not at all afraid of people."
-  voice: "The song is a couple of slurred whistles, often ending in a trill; each area has its own dialect."
+  voice: "The song is two or three slurred whistles and a final trill; the trill carries the local dialect."
 ---
-Rufous-collared Sparrow (рыжешейная зонотрихия) — самая обычная птица Анд, от предгорий до парамо, в любых открытых и полуоткрытых местах рядом с человеком. Её стоит знать как точку отсчёта для всех воробьиных с толстым клювом: размер, манера прыгать по земле и песня, которую слышно в каждом горном посёлке. Молодые птицы пёстрые и без воротника, но обычно держатся рядом со взрослыми.
+Rufous-collared Sparrow (рыжешейная зонотрихия) — одна из самых обычных птиц Анд, от предгорий до парамо, в любых открытых и полуоткрытых местах рядом с человеком. Её стоит знать как точку отсчёта для всех воробьиных с толстым клювом: размер, манера прыгать по земле и песня, которую слышно в каждом горном посёлке. Молодые птицы пёстрые и без воротника, но обычно держатся рядом со взрослыми.
 
 На маршруте она «точно» в долине Сибундой 15–16 октября, у Лагуны Ла-Коча и на Бордонсильо 16 октября, а также в Боготе, начиная с Ботанического сада.
 
 ## English
 
-Rufous-collared Sparrow is the commonest bird of the Andes, from the foothills to the páramo, in any open or semi-open place near people. It is worth knowing as a reference point for all thick-billed small birds: the size, the way it hops on the ground and a song heard in every mountain village. Young birds are streaky and lack the collar but usually stay near adults.
+Rufous-collared Sparrow is one of the commonest birds of the Andes, from the foothills to the páramo, in any open or semi-open place near people. It is worth knowing as a reference point for all thick-billed small birds: the size, the way it hops on the ground and a song heard in every mountain village. Young birds are streaky and lack the collar but usually stay near adults.
 
 On the route it is "sure" in the Sibundoy valley on 15–16 October, at Laguna La Cocha and on Bordoncillo on 16 October, and in Bogotá, starting with the Botanical Garden.
