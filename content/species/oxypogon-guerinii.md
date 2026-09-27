@@ -2,6 +2,7 @@
 id: oxypogon-guerinii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова самца: торчащий назад белый хохол и чёрное лицо в белой оправе"
   - "Горло: узкая зелёная «бородка» с белыми краями"
