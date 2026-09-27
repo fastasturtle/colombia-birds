@@ -2,6 +2,7 @@
 id: megarynchus-pitangua
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв огромный, широкий и толстый, с загнутым кончиком — «лодка» на голове"
   - "Голова чёрная с широкой белой бровью, почти смыкающейся на затылке"
@@ -11,7 +12,7 @@ similar:
   - id: pitangus-sulphuratus
     how: "клюв уже и тоньше, спина бурая, на крыльях и хвосте яркие рыжие каймы; часто у воды"
   - id: myiozetetes-similis
-    how: "гораздо мельче, клюв короткий, маленький; держится шумными группами"
+    how: "гораздо мельче, клюв короткий, маленький, голова тёмно-серая, а не чёрная; держится шумными парами и семейками"
 behavior: "Держится в кронах на опушках, у рек, в садах и на плантациях с высокими деревьями, обычно поодиночке или парами. Добыча крупнее, чем у других бентеви: большие насекомые, ящерицы, иногда плоды."
 voice: "Резкий гнусавый крик «криии-ньех-ньех-ньех» и повторяемое раскатистое «прррии-у»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/megarynchus-pitangua.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/tyrannus-melancholicus.md; Wikipedia: Great kiskadee, Social flycatcher (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Huge, broad, thick bill with a hooked tip — a 'boat' on its head"
@@ -36,7 +38,7 @@ en:
     - id: pitangus-sulphuratus
       how: "narrower, slimmer bill, brown back, bright rufous edges on wings and tail; often by water"
     - id: myiozetetes-similis
-      how: "much smaller, with a short small bill; lives in noisy groups"
+      how: "much smaller, with a short small bill and a dark gray rather than black head; lives in noisy pairs and family groups"
   behavior: "Keeps to the canopy at edges, along rivers, in gardens and plantations with tall trees, usually alone or in pairs. Takes larger prey than other kiskadee-like flycatchers: big insects, lizards, sometimes fruit."
   voice: "A strident nasal 'kreee-nyeh-nyeh-nyeh' and a repeated rolling 'prrree-oo'."
 ---

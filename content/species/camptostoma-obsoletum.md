@@ -2,6 +2,7 @@
 id: camptostoma-obsoletum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохолок взъерошенный, часто приподнят, придаёт голове угловатый вид"
   - "Две широкие охристые или беловатые полосы на крыле"
@@ -11,8 +12,8 @@ similar:
   - id: tyrannulus-elatus
     how: "голова округлая, в тёмной шапочке жёлтая полоса, лицо серое с тёмной полоской через глаз, полосы на крыле белые"
   - id: nesotriccus-murinus
-    how: "серо-бурый, без хохолка, полосы на крыле бледные, узкие, брюхо беловатое; бровь светлая"
-behavior: "Держится в кустах, садах, мангровых и на опушках, часто в кронах невысоких деревьев. Подвижен, кормится насекомыми и мелкими ягодами, при крике поднимает хохолок и задирает хвост."
+    how: "серо-бурый, шапочка не взъерошена, бровь широкая и размытая, горло и середина груди беловатые, клюв толще"
+behavior: "Держится в кустах, садах, мангровых и на опушках, часто в кронах невысоких деревьев. Подвижен, кормится насекомыми и мелкими ягодами, при крике поднимает хохолок."
 voice: "Тонкий высокий свист «флииир» и нисходящая серия чистых нот «фли, фли-флью-флью»."
 traits:
   size: sparrow
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/camptostoma-obsoletum.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Yellow-crowned tyrannulet, Mouse-colored tyrannulet (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Shaggy crest, often raised, giving the head an angular look"
@@ -36,8 +38,8 @@ en:
     - id: tyrannulus-elatus
       how: "round head, yellow stripe in a dark cap, gray face with a dark line through the eye, white wing bars"
     - id: nesotriccus-murinus
-      how: "gray-brown, no crest, narrow pale wing bars, whitish belly; pale eyebrow"
-  behavior: "Keeps to shrubs, gardens, mangroves and edges, often in the crowns of low trees. Active, feeding on insects and small berries; when calling it raises the crest and cocks the tail."
+      how: "gray-brown, crown not shaggy, broad blurry eyebrow, whitish throat and mid-breast, thicker bill"
+  behavior: "Keeps to shrubs, gardens, mangroves and edges, often in the crowns of low trees. Active, feeding on insects and small berries; when calling it raises the crest."
   voice: "A thin high whistle 'fleeeer' and a descending series of clear notes, 'flee, flee-flew-flew'."
 ---
 Southern Beardless-Tyrannulet (южноамериканский москитолов) — крошечный, около 10 см, тиранн кустов и садов, обычный от низин до 2 000 м. Взъерошенный хохолок и охристые полосы на крыле — лучшие приметы, но в поле птицу обычно находят по нисходящему свисту. Нарядом он скромнее большинства соседей, и это тоже примета.

@@ -2,18 +2,19 @@
 id: tityra-cayana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вокруг глаза и у основания клюва голая красная кожа, кончик клюва чёрный"
   - "Шапочка целиком чёрная, от лба до затылка"
-  - "Тело серебристо-белое, крылья и хвост чёрные"
-  - "Самка со спиной и грудью в тёмных пестринах, шапочка тоже чёрная"
+  - "Верх серебристо-серый, низ белый, крылья и хвост чёрные"
+  - "Самка буроватее, с тёмной шапочкой и узкими тёмными пестринами на спине и груди"
 similar:
   - id: tityra-semifasciata
     how: "чёрное только «маска» на лице и лбу, шапочка серая; хвост серый с чёрной полосой"
   - id: tityra-inquisitor
-    how: "красной кожи на лице нет, клюв целиком чёрный; у самки лицо каштановое"
+    how: "красной кожи на лице нет, клюв тёмный, сизо-чёрный; у самцов юга Колумбии белые щёки, у самки лицо каштановое"
 behavior: "Пары и небольшие группы сидят открыто на верхушках высоких деревьев, в том числе на сухих, на опушках, у рек и на вырубках с оставленными деревьями. Едят в основном плоды средних размеров, гнездятся в старых дуплах."
-voice: "Сухое хрюкающее «квек» или «рек», похожее на голос лягушки, часто двойное."
+voice: "Короткое жужжащее хрюканье «рек» или «уэнк», иногда двойное или тройное; чаще кричит в полёте."
 traits:
   size: thrush
   colors: [white, black, red]
@@ -26,19 +27,20 @@ sources:
   - "Данные проекта: data/species/tityra-cayana.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Masked tityra, Black-crowned tityra (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Bare red skin around the eye and at the bill base, bill tip black"
     - "Wholly black cap, from forehead to nape"
-    - "Silvery-white body, black wings and tail"
-    - "Female with dark streaks on back and breast, also black-capped"
+    - "Silvery-gray above, white below, black wings and tail"
+    - "Female browner, with a dark cap and fine dark streaks on back and breast"
   similar:
     - id: tityra-semifasciata
       how: "only a black 'mask' on face and forehead, gray crown; gray tail with a black band"
     - id: tityra-inquisitor
-      how: "no red bare skin on the face, bill wholly black; female has a chestnut face"
+      how: "no red bare skin on the face, bill dark, blue-gray and black; males in southern Colombia have white cheeks, female has a chestnut face"
   behavior: "Pairs and small groups perch in the open on the tops of tall trees, often dead ones, at edges, along rivers and in clearings with remnant trees. They eat mainly medium-sized fruit and nest in old tree holes."
-  voice: "A dry grunting 'kwek' or 'rek', frog-like, often doubled."
+  voice: "A short buzzy grunt, 'rek' or 'wenk', sometimes doubled or tripled; calls more often in flight."
 ---
 Black-tailed Tityra (чернохвостая титира) — заметная серебристо-белая птица величиной с дрозда, живущая в низинах к востоку от Анд до 700 м, изредка выше. Сидит на голых верхушках деревьев и хорошо видна издалека; красное лицо и целиком чёрная шапочка отличают её от двух других титир маршрута. Семейство титировых (Tityridae) родственно тиранновым и котингам.
 

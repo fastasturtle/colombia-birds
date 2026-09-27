@@ -2,6 +2,7 @@
 id: myiozetetes-cayanensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова почти чёрная, с длинной белой бровью от самого лба"
   - "Низ ярко-жёлтый, горло белое, клюв короткий"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/myiozetetes-cayanensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Social flycatcher, Great kiskadee (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Head almost black, with a long white eyebrow starting at the forehead"
@@ -40,12 +42,12 @@ en:
   behavior: "Keeps near water: on shrubs and trees along rivers, ponds and marshes, in gardens and pastures. Perches fairly low on open branches, catches insects and plucks berries."
   voice: "A thin, whining, drawn-out 'peeeeee-a', often repeated; at dawn a repeated 'fwee'."
 ---
-Rusty-margined Flycatcher — один из маленьких бентеви с чёрно-белой головой и жёлтым брюхом, обычный у воды в низинах до 1 000 м, изредка выше. Его постоянно путают с Social Flycatcher: смотри на рыжие каймы маховых, более чёрную маску и бурую, а не оливковую спину; хорошая подсказка — жалобный тонкий свист, у Social голос резче.
+Rusty-margined Flycatcher — один из маленьких бентеви с чёрно-белой головой и жёлтым брюхом, обычный у воды в низинах и предгорьях: по ACO до 1 000 м, но по Wikipedia в Колумбии поднимается до 2 000 м. Его постоянно путают с Social Flycatcher: смотри на рыжие каймы маховых, более чёрную маску и бурую, а не оливковую спину; хорошая подсказка — жалобный тонкий свист, у Social голос резче.
 
-На маршруте он «точно» на Км 42 21 октября, на Финке Марагрикола 22 октября, у Тумако и на Плайя-дель-Морро, а по данным наблюдений и в округе Ла-Планады 16–18 октября, видимо, в более низких долинах. «Возможно» он в Орито и Эль-Энканто.
+На маршруте он «точно» на Км 42 21 октября, на Финке Марагрикола 22 октября, у Тумако и на Плайя-дель-Морро, а по данным наблюдений и в округе Ла-Планады 16–18 октября. «Возможно» он в Орито и Эль-Энканто.
 
 ## English
 
-Rusty-margined Flycatcher is one of the small kiskadee-like flycatchers with a black-and-white head and yellow belly, common by water in the lowlands up to 1,000 m, occasionally higher. It is constantly confused with Social Flycatcher: look for the rufous edges of the flight feathers, the blacker mask and the brown rather than olive back; a good clue is the thin whining whistle, as Social's voice is harsher.
+Rusty-margined Flycatcher is one of the small kiskadee-like flycatchers with a black-and-white head and yellow belly, common by water in lowlands and foothills: up to 1,000 m according to ACO, but up to 2,000 m in Colombia according to Wikipedia. It is constantly confused with Social Flycatcher: look for the rufous edges of the flight feathers, the blacker mask and the brown rather than olive back; a good clue is the thin whining whistle, as Social's voice is harsher.
 
-On the route it is "sure" at Km 42 on 21 October, Finca Maragrícola on 22 October, near Tumaco and at Playa del Morro, and according to records also around La Planada on 16–18 October, probably in lower valleys. It is "maybe" at Orito and El Encanto.
+On the route it is "sure" at Km 42 on 21 October, Finca Maragrícola on 22 October, near Tumaco and at Playa del Morro, and according to records also around La Planada on 16–18 October. It is "maybe" at Orito and El Encanto.

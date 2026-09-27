@@ -2,6 +2,7 @@
 id: tyrannulus-elatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка тёмная, с жёлтой полосой посередине, часто скрытой"
   - "Лицо серое, с тёмной полоской через глаз и сероватой бровью"
@@ -11,8 +12,8 @@ similar:
   - id: camptostoma-obsoletum
     how: "жёлтой полосы в шапочке нет, хохолок взъерошенный, полосы на крыле охристые, подклювье розоватое"
   - id: phyllomyias-griseiceps
-    how: "шапочка тёмно-бурая без жёлтого, полос на крыле нет или они едва заметны"
-behavior: "Кормится поодиночке или парами в кронах опушек, вторичного леса, садов и плантаций, часто сидит высоко и открыто. Ест насекомых и мелкие ягоды, иногда присоединяется к смешанным стаям."
+    how: "шапочка серо-чёрная без жёлтого, бровь белая, полос на крыле нет или они едва заметны"
+behavior: "Кормится поодиночке или парами в кронах опушек, вторичного леса, садов и плантаций, часто сидит высоко и открыто. Ест насекомых и мелкие ягоды, особенно омелы; к смешанным стаям присоединяется редко."
 voice: "Чистый жалобный двухсложный свист «уи-виир», вторая нота выше и ударная; поёт весь день."
 traits:
   size: sparrow
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/tyrannulus-elatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Southern beardless tyrannulet, Sooty-headed tyrannulet (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Dark cap with a yellow central stripe, often hidden"
@@ -36,8 +38,8 @@ en:
     - id: camptostoma-obsoletum
       how: "no yellow crown stripe, shaggy crest, buffy wing bars, pinkish lower mandible"
     - id: phyllomyias-griseiceps
-      how: "dark brown cap without yellow, wing bars absent or faint"
-  behavior: "Forages alone or in pairs in the canopy of edges, secondary forest, gardens and plantations, often perching high in the open. Eats insects and small berries, sometimes joins mixed flocks."
+      how: "sooty-gray cap without yellow, white eyebrow, wing bars absent or faint"
+  behavior: "Forages alone or in pairs in the canopy of edges, secondary forest, gardens and plantations, often perching high in the open. Eats insects and small berries, especially mistletoe; rarely joins mixed flocks."
   voice: "A clear plaintive two-note whistle 'wee-veer', the second note higher and stressed; sings all day."
 ---
 Yellow-crowned Tyrannulet (корольковый москерито) — крошечный тиранн крон, около 10–11 см, обычный в низинах и предгорьях до 1 200 м по обе стороны Анд. Жёлтую полосу в шапочке видно редко, так что в поле главная подсказка — голос: двусложный свист, который англоязычные гиды передают как «free beer», звучит с верхушек деревьев целый день.

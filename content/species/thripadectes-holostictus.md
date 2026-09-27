@@ -2,6 +2,7 @@
 id: thripadectes-holostictus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный тёмно-бурый печник с дрозда, клюв толстый и тёмный"
   - "Голова и спина в густых охристых продольных штрихах"
@@ -9,9 +10,9 @@ key_features:
   - "Хвост тёмно-каштановый, заметно рыжее спины"
 similar:
   - id: thripadectes-flammulatus
-    how: "крупнее, пестрины ещё резче и захватывают всё брюхо; держится выше, в верхнем облачном лесу"
+    how: "крупнее (24–25 см), пестрины ещё резче, золотисто-охристые, на горле, груди и верхе брюха; держится выше, 2 200–3 500 м"
   - id: thripadectes-virgaticeps
-    how: "спина ровная, без штрихов; пестрины только на голове, горле и верхе груди"
+    how: "крупнее и тяжелее; спина почти без штрихов, лишь немного на верху; пестрины на голове, горле и верхе груди, ниже ровный рыжевато-бурый"
 behavior: "Держится поодиночке в густом подлеске, особенно в бамбуке чускеа, и копается в сухих листьях и мусоре. Со смешанными стаями ходит изредка и почти не показывается."
 voice: "Песня — быстрая серия гнусавых трескучих нот, слегка понижающаяся и замедляющаяся; позыв — резкое «кви-ди-дик»."
 traits:
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Striped treehunter (en, CC BY-SA 4.0) — окраска, подвиды, местообитания, высоты в Колумбии, голос"
   - "Данные проекта: data/species/thripadectes-holostictus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Large, dark brown, thrush-sized ovenbird with a thick dark bill"
@@ -33,9 +35,9 @@ en:
     - "Dark chestnut tail, clearly more rufous than the back"
   similar:
     - id: thripadectes-flammulatus
-      how: "larger, streaks even bolder and covering the whole belly; keeps higher, in upper cloud forest"
+      how: "larger (24–25 cm), streaks even bolder and golden-buff, on throat, breast and upper belly; keeps higher, 2,200–3,500 m"
     - id: thripadectes-virgaticeps
-      how: "plain unstreaked back; streaks only on head, throat and upper breast"
+      how: "larger and heavier; back almost unstreaked, only a few streaks at the top; streaks on head, throat and upper breast, plain rufous-brown below"
   behavior: "Keeps alone in dense undergrowth, especially Chusquea bamboo, rummaging in dead leaves and debris. Joins mixed flocks only occasionally and rarely shows itself."
   voice: "The song is a fast series of nasal chattering notes, slightly falling and slowing; the call is a sharp 'kwi-di-dik'."
 ---

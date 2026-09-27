@@ -2,6 +2,7 @@
 id: sayornis-nigricans
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Чёрная голова, грудь и спина, брюхо и подхвостье белые"
   - "Белое брюхо входит в чёрную грудь углом, как перевёрнутая «V»"
@@ -11,7 +12,7 @@ similar:
   - id: serpophaga-cinerea
     how: "намного мельче, серый, чёрные только шапочка, крылья и хвост; тоже сидит на камнях в ручьях"
   - id: ochthoeca-cinnamomeiventris
-    how: "мельче, тёмно-аспидный, брюхо каштановое, а не белое, у глаза белое пятнышко; держится у ручьёв внутри леса"
+    how: "мельче, тёмно-аспидный, брюхо каштановое, а не белое, над глазом короткая белая бровка; держится у ручьёв внутри леса"
 behavior: "Всегда у воды: на валунах горных рек, у мостов, плотин и прудов. Вылетает за насекомыми низко над водой и возвращается на свой камень; гнездо из грязи лепит под мостами и скальными навесами."
 voice: "Резкое «тсип» и песня из двух чередующихся фраз «ти-хи, ти-хо»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/sayornis-nigricans.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Torrent tyrannulet (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Black head, breast and back; belly and undertail white"
@@ -36,7 +38,7 @@ en:
     - id: serpophaga-cinerea
       how: "much smaller, gray, only cap, wings and tail black; also perches on rocks in streams"
     - id: ochthoeca-cinnamomeiventris
-      how: "smaller, dark slate, belly chestnut rather than white, a small white spot by the eye; keeps to streams inside forest"
+      how: "smaller, dark slate, belly chestnut rather than white, a short white eyebrow above the eye; keeps to streams inside forest"
   behavior: "Always by water: on boulders in mountain rivers, at bridges, dams and ponds. Sallies low over the water after insects and returns to its rock; builds a mud nest under bridges and rock overhangs."
   voice: "A sharp 'tsip' and a song of two alternating phrases, 'tee-hee, tee-ho'."
 ---

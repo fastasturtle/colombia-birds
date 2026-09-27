@@ -2,6 +2,7 @@
 id: pyrocephalus-rubinus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка и весь низ самца огненно-красные"
   - "Спина, крылья и хвост самца чёрно-бурые, через глаз тёмная маска"
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/pyrocephalus-rubinus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Summer tanager (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Male's crown and entire underparts fiery red"

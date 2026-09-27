@@ -2,14 +2,15 @@
 id: cnemarchus-erythropygius
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб белый, переходит в седую шапочку"
   - "Хвост рыжий с широким чёрным концом, середина хвоста тёмная"
   - "Грудь серая, брюхо и подхвостье рыжие"
-  - "В полёте на крыле большое белое пятно; поясница рыжая, у птиц Восточных Анд тусклее"
+  - "В полёте на крыле большое белое пятно; поясница рыжая, у птиц Восточных Анд бурая"
 similar:
   - id: myiotheretes-striaticollis
-    how: "горло в тёмных пестринах, низ целиком корично-рыжий, лоб не белый; в полёте рыжие маховые"
+    how: "горло и верх груди в тёмных пестринах, ниже корично-рыжий, лоб не белый; в полёте рыжие маховые; держится ниже, у верхней границы леса"
   - id: agriornis-montanus
     how: "серо-бурый, без рыжего, клюв толстый с крючком, крайние рулевые белые"
 behavior: "Сидит открыто на верхушках кустов, камнях и столбах в парамо и рощах полилеписа, высматривая насекомых, и спускается за ними на землю. Держится поодиночке или парами, довольно молчалив."
@@ -25,15 +26,16 @@ sources:
   - "Wikipedia: Red-rumped bush tyrant (en), Cnemarchus erythropygius (es), CC BY-SA 4.0 — размеры, окраска подвидов, распространение и высоты в Колумбии, голос"
   - "Данные проекта: data/species/cnemarchus-erythropygius.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "White forehead grading into a hoary crown"
     - "Rufous tail with a broad black tip, central tail feathers dark"
     - "Gray breast, rufous belly and undertail"
-    - "Big white wing patch in flight; rump rufous, duller in Eastern Andes birds"
+    - "Big white wing patch in flight; rump rufous, brown in Eastern Andes birds"
   similar:
     - id: myiotheretes-striaticollis
-      how: "throat streaked dark, underparts wholly cinnamon-rufous, no white forehead; rufous flight feathers in flight"
+      how: "throat and upper breast streaked dark, cinnamon-rufous below, no white forehead; rufous flight feathers in flight; keeps lower, at the upper forest edge"
     - id: agriornis-montanus
       how: "gray-brown with no rufous, thick hooked bill, white outer tail feathers"
   behavior: "Perches in the open on shrub tops, rocks and posts in páramo and Polylepis groves, watching for insects and dropping to the ground for them. Alone or in pairs, rather quiet."

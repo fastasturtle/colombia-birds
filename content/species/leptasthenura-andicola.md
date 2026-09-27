@@ -2,6 +2,7 @@
 id: leptasthenura-andicola
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост очень длинный, тёмный, центральные перья острые, как вилка"
   - "Шапочка рыже-каштановая в чёрных штрихах, над глазом широкая белая бровь"
@@ -11,7 +12,7 @@ similar:
   - id: asthenes-flammulata
     how: "хвост короче, с рыжими краями, горло оранжево-охристое, держится в траве, а не в кустах"
   - id: asthenes-fuliginosa
-    how: "без пестрин: верх ровно тёмно-бурый, низ серый, хвост растрёпанный"
+    how: "без пестрин: верх ровный тёмный рыжевато-бурый, подбородок белый, низ серый, хвост растрёпанный"
 behavior: "Держится парами или семейками в кустарниках парамо и в рощицах полилеписа, как синица обшаривает веточки и листья, часто повисая вниз головой."
 voice: "Тонкие позывы «тез-дит» и «цик»; песня — высокие короткие трели с паузами."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/leptasthenura-andicola.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/asthenes-flammulata.md, content/species/asthenes-fuliginosa.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Very long dark tail, central feathers pointed like a fork"
@@ -36,7 +38,7 @@ en:
     - id: asthenes-flammulata
       how: "shorter tail with rufous edges, orange-buff throat, keeps in grass rather than shrubs"
     - id: asthenes-fuliginosa
-      how: "unstreaked: plain dark brown above, gray below, tail ragged"
+      how: "unstreaked: plain dark reddish brown above, white chin, gray below, tail ragged"
   behavior: "Keeps in pairs or family groups in páramo shrubs and Polylepis groves, gleaning twigs and leaves like a tit, often hanging upside down."
   voice: "Thin calls 'tez-dit' and 'tsik'; the song is a set of high short trills with pauses."
 ---

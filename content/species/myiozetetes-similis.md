@@ -2,6 +2,7 @@
 id: myiozetetes-similis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова тёмно-серая, широкая белая бровь начинается от лба"
   - "Низ ярко-жёлтый, горло белое, клюв короткий"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/myiozetetes-similis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Rusty-margined flycatcher, Gray-capped flycatcher (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Dark gray head, broad white eyebrow starting at the forehead"

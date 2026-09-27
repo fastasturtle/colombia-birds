@@ -2,6 +2,7 @@
 id: elaenia-flavogaster
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохол густой, торчащий, раздвоенный, с белым пятном в середине"
   - "Грудь оливково-серая, брюхо жёлтое или бледно-жёлтое, горло сероватое"
@@ -9,7 +10,7 @@ key_features:
   - "Верх буро-оливковый, светлое неяркое кольцо вокруг глаза, голова маленькая"
 similar:
   - id: elaenia-chiriquensis
-    how: "мельче, хохолок короткий, округлый, брюхо бледнее, почти беловатое"
+    how: "мельче, хохолок короткий, квадратный, не раздвоенный, брюхо бледно-жёлтое"
   - id: elaenia-frantzii
     how: "голова округлая без торчащего хохла, белого в шапочке не видно; держится выше, в горах"
 behavior: "Обычна на открытых местах с кустами и деревьями: в садах, на пастбищах, опушках и у дорог. Шумная, часто сидит открыто, поднимая хохол; ест насекомых и много мелких плодов."
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/elaenia-flavogaster.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/elaenia-frantzii.md; Wikipedia: Lesser elaenia (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Bushy, upstanding, split crest with a white patch in the middle"
@@ -34,7 +36,7 @@ en:
     - "Brownish-olive upperparts, faint pale eye ring, small head"
   similar:
     - id: elaenia-chiriquensis
-      how: "smaller, short rounded crest, paler belly, almost whitish"
+      how: "smaller, short squarish crest that is not split, pale yellow belly"
     - id: elaenia-frantzii
       how: "round head without an upstanding crest, no white visible in the crown; keeps higher, in the mountains"
   behavior: "Common in open country with shrubs and trees: gardens, pastures, edges and roadsides. Noisy, often perches in the open raising its crest; eats insects and a lot of small fruit."
