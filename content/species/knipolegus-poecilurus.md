@@ -10,7 +10,7 @@ key_features:
 similar:
   - id: pyrrhomyias-cinnamomeus
     how: "мельче, весь низ ярко-корично-рыжий, глаз тёмный, на крыле рыжие полосы"
-  - id: contopus-cinereus
+  - id: contopus-bogotensis
     how: "серо-оливковый, без рыжего в хвосте и охристого на брюхе, глаз тёмный; сидит на высоких сухих ветках"
 behavior: "Сидит прямо, часто полускрыто в низких кустах, но и выше на опушке или открыто на столбах изгороди. Время от времени поднимает и медленно опускает хвост. Ловит насекомых в воздухе короткими бросками, иногда спрыгивает за ними на землю."
 voice: "Голос подаёт редко: короткая металлическая трель «цтииир», хрипловатые высокие «цриит» и сухое жужжащее нисходящее «дзиир»."
@@ -35,7 +35,7 @@ en:
   similar:
     - id: pyrrhomyias-cinnamomeus
       how: "smaller, bright cinnamon-rufous below, dark eye, rufous wing bars"
-    - id: contopus-cinereus
+    - id: contopus-bogotensis
       how: "gray-olive, no rufous in the tail or buff on the belly, dark eye; perches on tall dead branches"
   behavior: "Perches upright, often half-hidden in low bushes but also higher at the forest edge or in the open on fence posts. Every so often it lifts and slowly lowers its tail. It catches insects in mid-air with short sallies and sometimes drops to the ground for them."
   voice: "Seldom heard: a short metallic trill 'tzteeer', raspy high 'tzreeet' notes and a dry, buzzy, descending 'dzeer'."

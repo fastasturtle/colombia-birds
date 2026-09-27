@@ -8,7 +8,7 @@ key_features:
   - "Клюв тонкий, тёмный, подклювье у основания розоватое или оранжевое"
   - "Сидит и то и дело вскидывает над спиной то одно, то другое крыло"
 similar:
-  - id: mionectes-olivaceus
+  - id: mionectes-galbinus
     how: "горло и грудь в частых оливковых и беловатых пестринах, за глазом белое пятнышко, брюхо жёлтое"
   - id: leptopogon-superciliaris
     how: "шапочка серая, за щекой чёрный полумесяц, на крыле охристые полосы, низ желтоватый, не охристый"
@@ -33,7 +33,7 @@ en:
     - "Thin dark bill with a pinkish or orange base to the lower mandible"
     - "Keeps flicking one wing, then the other, up over its back"
   similar:
-    - id: mionectes-olivaceus
+    - id: mionectes-galbinus
       how: "throat and breast densely streaked olive and whitish, small white spot behind the eye, yellow belly"
     - id: leptopogon-superciliaris
       how: "gray cap, black crescent on the rear cheek, buffy wing bars, yellowish rather than ochre underparts"

@@ -1,5 +1,5 @@
 ---
-id: myiopagis-caniceps
+id: myiopagis-cinerea
 difficulty: hard
 lynx_page: null
 key_features:
