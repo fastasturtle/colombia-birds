@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import RouteMap from '../../components/RouteMap.svelte';
+import { itinerary, sites, regions, speciesIndex } from '@lib/data';
+const days = itinerary();
+const all = sites();
+const regs = regions();
+const idx = Object.fromEntries(speciesIndex().map((s) => [s.id, s]));
+const base = import.meta.env.BASE_URL;
+const regionOf = Object.fromEntries(regs.map((r) => [r.id, r]));
+const siteOf = Object.fromEntries(all.map((s) => [s.id, s]));
+---
+<Base title="Маршрут">
+  <h1>Маршрут</h1>
+  {days.length === 0 ? <p class="card muted">Данные маршрута ещё собираются.</p> : (
+    <>
+      <RouteMap client:load days={days} sites={all} regions={regs} />
+      <h2>По дням</h2>
+      {days.map((d) => (
+        <div class="day card" id={`d${d.date}`} style={`border-left: 5px solid ${regionOf[d.region]?.color ?? 'var(--line)'}`}>
+          <div class="muted">{d.date.slice(8, 10)}.{d.date.slice(5, 7)} · день {d.day}{d.guide && <> · гид {d.guide}</>}</div>
+          <div><strong>{d.title_ru}</strong></div>
+          {d.travel_ru && <div class="muted" style="font-size:.9rem">{d.travel_ru}</div>}
+          <div class="muted" style="font-size:.9rem">Ночёвка: {d.overnight}{d.elev_sleep != null && <> · {d.elev_sleep} м</>}</div>
+          <div>{d.sites.map((sid) => siteOf[sid] && <a class="chip" href={`#${sid}`}>{siteOf[sid].name_ru || siteOf[sid].name}</a>)}</div>
+        </div>
+      ))}
+
+      <h2>Локации</h2>
+      {regs.map((r) => (
+        <section>
+          <h3 style={`color:${r.color}`}>{r.name_ru}</h3>
+          <p class="muted">{r.description_ru}</p>
+          {all.filter((s) => s.region === r.id).map((s) => (
+            <div class="card site" id={s.id}>
+              <div><strong>{s.name}</strong>{s.name_ru && s.name_ru !== s.name && <span class="muted"> · {s.name_ru}</span>}</div>
+              <div class="muted" style="font-size:.9rem">{s.department}{s.elev_min != null && <> · {s.elev_min}–{s.elev_max} м</>} · {s.habitat_ru}</div>
+              {s.notes_ru && <p style="margin:6px 0">{s.notes_ru}</p>}
+              {s.ebird_hotspots?.length > 0 && <div style="font-size:.85rem">eBird: {s.ebird_hotspots.map((h) => <a href={`https://ebird.org/hotspot/${h.id}`} target="_blank" rel="noopener" style="margin-right:8px">{h.name}</a>)}</div>}
+              {(s.target_species?.length ?? 0) > 0 && (
+                <details>
+                  <summary>Целевые виды ({s.target_species!.length})</summary>
+                  <div>{s.target_species!.map((id) => idx[id] && <a class="chip" href={`${base}species/${id}/`}>{idx[id].en}</a>)}</div>
+                </details>
+              )}
+            </div>
+          ))}
+        </section>
+      ))}
+    </>
+  )}
+</Base>
+<style>
+  .day, .site { margin: 8px 0; }
+  details { margin-top: 6px; }
+  summary { cursor: pointer; color: var(--accent); }
+</style>

@@ -171,3 +171,11 @@ def post_form(
             continue
         r.raise_for_status()
     raise RuntimeError(f"unreachable: {url}")
+
+
+def only_slugs(args: list[str] | None = None) -> set[str]:
+    """Species ids to restrict a step to: positional `args` plus the ONLY_SLUGS env var
+    (whitespace/comma separated; set by run.py --only and the CI workflow). Empty set = all species."""
+    out = {a for a in (args or []) if a and not a.startswith("-")}
+    out |= {s for s in re.split(r"[\s,]+", os.environ.get("ONLY_SLUGS", "")) if s}
+    return out

@@ -1,0 +1,78 @@
+name: pipeline
+
+# Runs data pipeline steps (see pipeline/README.md) and commits changed files under data/ back to the
+# branch it was started on. Wikimedia rate-limits shared IPs; GitHub runners usually fare better than
+# dev containers, and each step is resumable, so a failed/partial run can simply be re-dispatched.
+
+on:
+  workflow_dispatch:
+    inputs:
+      steps:
+        description: "Space-separated steps (aco ebird birdbase wikidata build wikipedia photos upload sites)"
+        type: string
+        default: "wikipedia photos upload"
+      only:
+        description: "Optional space-separated species slugs to restrict per-species steps to"
+        type: string
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      STEPS: ${{ inputs.steps }}
+      ONLY_SLUGS: ${{ inputs.only }}
+      XENO_CANTO_API_KEY: ${{ secrets.XENO_CANTO_API_KEY }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_CLOUDFLARE_TOKEN: ${{ secrets.R2_CLOUDFLARE_TOKEN }}
+      R2_ACCOUNT_ID: ${{ vars.R2_ACCOUNT_ID || secrets.R2_ACCOUNT_ID || '7979772a9baad2ab2e88eb52df9c590b' }}
+      R2_BUCKET: colombia-birds
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: pipeline/uv.lock
+
+      # HTTP response cache (API JSON, not images) so re-runs don't re-hit Wikimedia/iNaturalist
+      - uses: actions/cache@v4
+        with:
+          path: |
+            pipeline/cache
+            !pipeline/cache/media
+          key: pipeline-http-${{ github.run_id }}
+          restore-keys: pipeline-http-
+
+      - name: Run pipeline
+        working-directory: pipeline
+        # below the job timeout so the commit step still saves partial progress
+        timeout-minutes: 280
+        run: uv run python run.py $STEPS
+
+      - name: Commit data changes
+        if: always()
+        run: |
+          git config user.name "colombia-birds-bot"
+          git config user.email "colombia-birds-bot@users.noreply.github.com"
+          git add -A data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "data: pipeline run ($STEPS)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

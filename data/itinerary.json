@@ -1,0 +1,363 @@
+[
+ {
+  "date": "2026-10-01",
+  "day": "pre-2",
+  "title_ru": "Богота: приезд Димы и Ани",
+  "sites": [],
+  "overnight": "Богота",
+  "guide": null,
+  "region": "bogota",
+  "travel_ru": "Прилёт в Боготу",
+  "overnight_site": null,
+  "elev_sleep": 2600
+ },
+ {
+  "date": "2026-10-02",
+  "day": "pre-1",
+  "title_ru": "Богота: свободный день",
+  "sites": [],
+  "overnight": "Богота",
+  "guide": null,
+  "region": "bogota",
+  "travel_ru": "Без переездов; можно Ботанический сад или Ла-Флориду",
+  "overnight_site": null,
+  "elev_sleep": 2600
+ },
+ {
+  "date": "2026-10-03",
+  "day": 1,
+  "title_ru": "Чикаке с гидом Леоном; вечером прилёт группы",
+  "sites": [
+   "chicaque"
+  ],
+  "overnight": "La Scala 69, Богота",
+  "guide": "Леон",
+  "region": "bogota",
+  "travel_ru": "Утром Богота – Чикаке (1–1,5 ч) и обратно; группа прилетает Turkish Airlines в 15:05",
+  "overnight_site": null,
+  "elev_sleep": 2600
+ },
+ {
+  "date": "2026-10-04",
+  "day": 2,
+  "title_ru": "Перелёт в Питалито, El Encanto",
+  "sites": [
+   "el-encanto"
+  ],
+  "overnight": "El Encanto lodge",
+  "guide": "местный гид",
+  "region": "huila",
+  "travel_ru": "Рейс Avianca AV2998 Богота – Питалито, 22 км до заповедника",
+  "overnight_site": "el-encanto",
+  "elev_sleep": 1350
+ },
+ {
+  "date": "2026-10-05",
+  "day": 3,
+  "title_ru": "La Drymophila",
+  "sites": [
+   "la-drymophila"
+  ],
+  "overnight": "El Encanto lodge",
+  "guide": "местный гид",
+  "region": "huila",
+  "travel_ru": "8 км от El Encanto",
+  "overnight_site": "el-encanto",
+  "elev_sleep": 1350
+ },
+ {
+  "date": "2026-10-06",
+  "day": 4,
+  "title_ru": "El Encanto",
+  "sites": [
+   "el-encanto"
+  ],
+  "overnight": "El Encanto lodge",
+  "guide": "местный гид",
+  "region": "huila",
+  "travel_ru": "Без переездов",
+  "overnight_site": "el-encanto",
+  "elev_sleep": 1350
+ },
+ {
+  "date": "2026-10-07",
+  "day": 5,
+  "title_ru": "Переезд в Исла-Эскондиду через Финку Дискосура",
+  "sites": [
+   "finca-discosura",
+   "isla-escondida"
+  ],
+  "overnight": "Isla Escondida",
+  "guide": "Jurgen Beckers",
+  "region": "putumayo",
+  "travel_ru": "Длинный переезд Питалито – Мокоа – Орито, от дороги ~2 ч пешком, багаж на лошадях",
+  "overnight_site": "isla-escondida",
+  "elev_sleep": 700
+ },
+ {
+  "date": "2026-10-08",
+  "day": 6,
+  "title_ru": "Исла-Эскондида",
+  "sites": [
+   "isla-escondida"
+  ],
+  "overnight": "Isla Escondida",
+  "guide": "Jurgen Beckers",
+  "region": "putumayo",
+  "travel_ru": "Без переездов",
+  "overnight_site": "isla-escondida",
+  "elev_sleep": 700
+ },
+ {
+  "date": "2026-10-09",
+  "day": 7,
+  "title_ru": "Исла-Эскондида",
+  "sites": [
+   "isla-escondida"
+  ],
+  "overnight": "Isla Escondida",
+  "guide": "Jurgen Beckers",
+  "region": "putumayo",
+  "travel_ru": "Без переездов",
+  "overnight_site": "isla-escondida",
+  "elev_sleep": 700
+ },
+ {
+  "date": "2026-10-10",
+  "day": 8,
+  "title_ru": "Исла-Эскондида",
+  "sites": [
+   "isla-escondida"
+  ],
+  "overnight": "Isla Escondida",
+  "guide": "Jurgen Beckers",
+  "region": "putumayo",
+  "travel_ru": "Без переездов",
+  "overnight_site": "isla-escondida",
+  "elev_sleep": 700
+ },
+ {
+  "date": "2026-10-11",
+  "day": 9,
+  "title_ru": "Исла-Эскондида, переезд в Пуэрто-Асис",
+  "sites": [
+   "isla-escondida",
+   "orito",
+   "puerto-asis"
+  ],
+  "overnight": "Puerto Asís",
+  "guide": "Diego Rocha",
+  "region": "putumayo",
+  "travel_ru": "Пешком к дороге, затем Орито – Пуэрто-Асис",
+  "overnight_site": "puerto-asis",
+  "elev_sleep": 250
+ },
+ {
+  "date": "2026-10-12",
+  "day": 10,
+  "title_ru": "Плайя-Рика",
+  "sites": [
+   "playa-rica",
+   "puerto-asis"
+  ],
+  "overnight": "Puerto Asís",
+  "guide": "Diego Rocha",
+  "region": "putumayo",
+  "travel_ru": "Лодка 20 мин по Путумайо",
+  "overnight_site": "puerto-asis",
+  "elev_sleep": 250
+ },
+ {
+  "date": "2026-10-13",
+  "day": 11,
+  "title_ru": "Пуэрто-Асис, переезд в Эль-Эскондите",
+  "sites": [
+   "puerto-asis",
+   "el-escondite"
+  ],
+  "overnight": "El Escondite",
+  "guide": "Diego Rocha",
+  "region": "putumayo",
+  "travel_ru": "Пуэрто-Асис – Вильягарсон, км 27 дороги на Мокоа",
+  "overnight_site": "el-escondite",
+  "elev_sleep": 400
+ },
+ {
+  "date": "2026-10-14",
+  "day": 12,
+  "title_ru": "Эль-Эскондите",
+  "sites": [
+   "el-escondite"
+  ],
+  "overnight": "El Escondite",
+  "guide": "Diego Rocha",
+  "region": "putumayo",
+  "travel_ru": "Без переездов",
+  "overnight_site": "el-escondite",
+  "elev_sleep": 400
+ },
+ {
+  "date": "2026-10-15",
+  "day": 13,
+  "title_ru": "Трамплин птиц, переезд в Сибундой",
+  "sites": [
+   "trampolin-aves",
+   "sibundoy"
+  ],
+  "overnight": "Posada Villa Beatriz",
+  "guide": "Diego Rocha",
+  "region": "putumayo",
+  "travel_ru": "Мокоа – Сан-Франсиско по горной дороге, подъём с 600 до 2 100+ м",
+  "overnight_site": "sibundoy",
+  "elev_sleep": 2100
+ },
+ {
+  "date": "2026-10-16",
+  "day": 14,
+  "title_ru": "Парамо Бордонсильо, Ла-Коча, переезд в Ла-Планаду",
+  "sites": [
+   "sibundoy",
+   "paramo-bordoncillo",
+   "laguna-la-cocha",
+   "la-planada"
+  ],
+  "overnight": "Reserva Natural La Planada",
+  "guide": "Diego Rocha",
+  "region": "narino_andes",
+  "travel_ru": "Длинный переезд через Пасто на тихоокеанский склон",
+  "overnight_site": "la-planada",
+  "elev_sleep": 1800
+ },
+ {
+  "date": "2026-10-17",
+  "day": 15,
+  "title_ru": "Ла-Планада",
+  "sites": [
+   "la-planada"
+  ],
+  "overnight": "Reserva Natural La Planada",
+  "guide": "Brayan Coral",
+  "region": "narino_pacific",
+  "travel_ru": "Без переездов",
+  "overnight_site": "la-planada",
+  "elev_sleep": 1800
+ },
+ {
+  "date": "2026-10-18",
+  "day": 16,
+  "title_ru": "Ла-Планада, переезд в Aves y Flórez",
+  "sites": [
+   "la-planada",
+   "aves-y-florez"
+  ],
+  "overnight": "Aves y Flórez Lodge",
+  "guide": "Brayan Coral",
+  "region": "narino_pacific",
+  "travel_ru": "Днём переезд вниз по дороге Пасто – Тумако к Альтакеру",
+  "overnight_site": "aves-y-florez",
+  "elev_sleep": 1200
+ },
+ {
+  "date": "2026-10-19",
+  "day": 17,
+  "title_ru": "Рио-Ньямби и Aves y Flórez",
+  "sites": [
+   "rio-nambi",
+   "aves-y-florez"
+  ],
+  "overnight": "Aves y Flórez Lodge",
+  "guide": "Brayan Coral",
+  "region": "narino_pacific",
+  "travel_ru": "Короткие переезды",
+  "overnight_site": "aves-y-florez",
+  "elev_sleep": 1200
+ },
+ {
+  "date": "2026-10-20",
+  "day": 18,
+  "title_ru": "Bangsias Lodge и Aves y Flórez",
+  "sites": [
+   "bangsias-lodge",
+   "aves-y-florez"
+  ],
+  "overnight": "Aves y Flórez Lodge",
+  "guide": "Brayan Coral",
+  "region": "narino_pacific",
+  "travel_ru": "Дорога Хунин – Барбакоас",
+  "overnight_site": "aves-y-florez",
+  "elev_sleep": 1200
+ },
+ {
+  "date": "2026-10-21",
+  "day": 19,
+  "title_ru": "Ла-Нутрия и Км 42, переезд в Тумако",
+  "sites": [
+   "la-nutria",
+   "km-42",
+   "tumaco"
+  ],
+  "overnight": "Tumaco (?)",
+  "guide": "Brayan Coral",
+  "region": "narino_pacific",
+  "travel_ru": "Спуск по дороге на Тумако к побережью",
+  "overnight_site": "tumaco",
+  "elev_sleep": 5
+ },
+ {
+  "date": "2026-10-22",
+  "day": 20,
+  "title_ru": "Финка Марагрикола и Плайя-дель-Морро",
+  "sites": [
+   "finca-maragricola",
+   "playa-del-morro"
+  ],
+  "overnight": "Playa del Morro",
+  "guide": "Brayan Coral",
+  "region": "pacific_coast",
+  "travel_ru": "Окрестности Тумако",
+  "overnight_site": "playa-del-morro",
+  "elev_sleep": 5
+ },
+ {
+  "date": "2026-10-23",
+  "day": 21,
+  "title_ru": "Тумако, вечерний рейс в Боготу, переезд в Чикаке",
+  "sites": [
+   "playa-del-morro",
+   "tumaco",
+   "chicaque"
+  ],
+  "overnight": "PNN Chicaque",
+  "guide": null,
+  "region": "pacific_coast",
+  "travel_ru": "Рейс Satena TCO–BOG 18:50, затем 1–1,5 ч до Чикаке",
+  "overnight_site": "chicaque",
+  "elev_sleep": 2300
+ },
+ {
+  "date": "2026-10-24",
+  "day": 22,
+  "title_ru": "Утро в Чикаке, группа уезжает",
+  "sites": [
+   "chicaque"
+  ],
+  "overnight": "Богота",
+  "guide": null,
+  "region": "bogota",
+  "travel_ru": "Восход 5:40; группа выезжает в аэропорт к 13:00",
+  "overnight_site": null,
+  "elev_sleep": 2600
+ },
+ {
+  "date": "2026-10-25",
+  "day": 23,
+  "title_ru": "Свободный день в Боготе, вечером вылет",
+  "sites": [],
+  "overnight": "—",
+  "guide": null,
+  "region": "bogota",
+  "travel_ru": "Вечерний вылет из Эль-Дорадо",
+  "overnight_site": null,
+  "elev_sleep": null
+ }
+]

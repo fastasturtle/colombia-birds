@@ -1,0 +1,124 @@
+---
+import Base from '../../layouts/Base.astro';
+import { speciesIndex, species, texts, families, sites, mediaUrl, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
+export function getStaticPaths() {
+  return speciesIndex().map((s) => ({ params: { id: s.id } }));
+}
+const { id } = Astro.params;
+const sp = species(id!);
+const tx = texts(id!);
+const fam = families().find((f) => f.code === sp.family.code);
+const base = import.meta.env.BASE_URL;
+const idx = speciesIndex();
+const pos = idx.findIndex((s) => s.id === id);
+const prev = pos > 0 ? idx[pos - 1] : null;
+const next = pos < idx.length - 1 ? idx[pos + 1] : null;
+const sameGenus = idx.filter((s) => s.sci.split(' ')[0] === sp.genus && s.id !== sp.id);
+const whereSeen = sites().filter((st) => st.target_species?.includes(sp.id));
+const el = sp.traits.elevation_m;
+const enText = tx?.wikipedia?.en;
+const ruText = tx?.wikipedia?.ru;
+const descr = enText?.sections?.['Description'] ?? enText?.sections?.['Identification'] ?? null;
+const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
+---
+<Base title={title} description={`${sp.names.en} (${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
+  <p class="muted"><a href={`${base}families/${fam?.slug}/`}>{fam?.names.ru ?? sp.family.en}</a> · {sp.order}</p>
+  <h1>{sp.names.en}</h1>
+  <p style="margin-top:-6px">
+    <span class="sci">{sp.sci_name}</span> <span class="muted">{sp.authorship}</span>
+    {sp.names.ru && <><br /><strong>{sp.names.ru}</strong></>}
+    {sp.names.es && <span class="muted"> · исп. {sp.names.es}</span>}
+  </p>
+  <p>
+    {sp.colombia.status.map((s) => <span class:list={['chip', { endemic: s === 'endemic' }]}>{STATUS_RU[s] ?? s}{sp.colombia.status_uncertain ? '?' : ''}</span>)}
+    {sp.iucn.aco_2022 && sp.iucn.aco_2022 !== 'LC' && <span class="chip" style="background:var(--accent-2);color:#fff">IUCN {sp.iucn.aco_2022}: {IUCN_RU[sp.iucn.aco_2022]}</span>}
+    {sp.traits.range_restricted ? <span class="chip">узкий ареал</span> : null}
+  </p>
+
+  {sp.photos.length > 0 ? (
+    <div class="photos">
+      {sp.photos.map((p) => (
+        <figure>
+          <a href={p.source_url} target="_blank" rel="noopener"><img src={mediaUrl(p.sizes.medium)} alt={sp.names.en} loading="lazy" /></a>
+          <figcaption class="muted">© {p.author} · {p.license} · <a href={p.source_url} target="_blank" rel="noopener">источник</a></figcaption>
+        </figure>
+      ))}
+    </div>
+  ) : (
+    <p class="card muted">Фото ещё не загружено. Посмотреть: <a href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>{sp.links.commons_category && <>, <a href={sp.links.commons_category} target="_blank" rel="noopener">Commons</a></>}{sp.links.inaturalist && <>, <a href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a></>}.</p>
+  )}
+
+  <h2>Коротко</h2>
+  <table>
+    {el && (el.min != null || el.max != null) && <tr><th>Высоты</th><td>{el.min ?? 0}–{el.max ?? '?'} м{(el.min_extreme != null || el.max_extreme != null) && <span class="muted"> (крайние {el.min_extreme ?? el.min}–{el.max_extreme ?? el.max})</span>}</td></tr>}
+    {sp.traits.primary_habitat && <tr><th>Биотоп</th><td>{HABITAT_RU[sp.traits.primary_habitat] ?? sp.traits.primary_habitat}{sp.traits.habitats.length > 1 && <span class="muted"> · {sp.traits.habitats.join(', ')}</span>}</td></tr>}
+    {sp.traits.mass_g && <tr><th>Масса</th><td>{Math.round(sp.traits.mass_g)} г</td></tr>}
+    {sp.traits.primary_diet && <tr><th>Питание</th><td>{sp.traits.primary_diet}{sp.traits.diet_desc && <span class="muted"> · {sp.traits.diet_desc}</span>}</td></tr>}
+    <tr><th>В Колумбии</th><td>{sp.colombia.status_raw}{sp.colombia.migration_note && sp.colombia.migration_note !== sp.colombia.status_raw && <span class="muted"> · {sp.colombia.migration_note}</span>}{sp.colombia.libro_rojo && sp.colombia.libro_rojo !== 'No Evaluado' && <span class="muted"> · Libro Rojo: {sp.colombia.libro_rojo}</span>}</td></tr>
+    {sp.taxonomy_note && <tr><th>Таксономия</th><td class="muted">{sp.taxonomy_note}</td></tr>}
+  </table>
+
+  {whereSeen.length > 0 && (
+    <>
+      <h2>Где на маршруте</h2>
+      <p>{whereSeen.map((st) => <a class="chip" href={`${base}route/#${st.id}`}>{st.name_ru || st.name}</a>)}</p>
+    </>
+  )}
+
+  {descr && (
+    <>
+      <h2>Описание (Wikipedia, en)</h2>
+      <p class="wiki">{descr}</p>
+    </>
+  )}
+  {!descr && enText?.intro && (
+    <>
+      <h2>Wikipedia (en)</h2>
+      <p class="wiki">{enText.intro}</p>
+    </>
+  )}
+  {ruText?.intro && (
+    <>
+      <h2>Википедия (ru)</h2>
+      <p class="wiki">{ruText.intro}</p>
+    </>
+  )}
+  {(enText || ruText) && (
+    <p class="muted" style="font-size:.8rem">
+      Текст: {[enText, ruText].filter(Boolean).map((t) => <><a href={t!.url} target="_blank" rel="noopener">{t!.title}</a> </>)} — Wikipedia, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+    </p>
+  )}
+
+  {sameGenus.length > 0 && (
+    <>
+      <h2>Тот же род в Колумбии</h2>
+      <p>{sameGenus.map((s) => <a class="chip" href={`${base}species/${s.id}/`}>{s.en}</a>)}</p>
+    </>
+  )}
+
+  <h2>Ссылки</h2>
+  <p>
+    <a class="chip" href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>
+    <a class="chip" href={sp.links.xeno_canto} target="_blank" rel="noopener">xeno-canto (голоса)</a>
+    {sp.links.inaturalist && <a class="chip" href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a>}
+    {sp.links.wikipedia.en && <a class="chip" href={sp.links.wikipedia.en} target="_blank" rel="noopener">Wikipedia en</a>}
+    {sp.links.wikipedia.ru && <a class="chip" href={sp.links.wikipedia.ru} target="_blank" rel="noopener">Википедия ru</a>}
+    {sp.links.wikipedia.es && <a class="chip" href={sp.links.wikipedia.es} target="_blank" rel="noopener">Wikipedia es</a>}
+    {sp.links.commons_category && <a class="chip" href={sp.links.commons_category} target="_blank" rel="noopener">Commons</a>}
+    {sp.ids.avibase && <a class="chip" href={`https://avibase.bsc-eoc.org/species.jsp?avibaseid=${sp.ids.avibase}`} target="_blank" rel="noopener">Avibase</a>}
+  </p>
+
+  <nav class="pn">
+    {prev ? <a href={`${base}species/${prev.id}/`}>← {prev.en}</a> : <span />}
+    {next ? <a href={`${base}species/${next.id}/`}>{next.en} →</a> : <span />}
+  </nav>
+</Base>
+<style>
+  .photos { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  figure { margin: 0; }
+  figure img { width: 100%; height: auto; border-radius: 12px; display: block; }
+  figcaption { font-size: .75rem; margin-top: 4px; }
+  th { width: 110px; color: var(--muted); font-weight: 500; }
+  .wiki { white-space: pre-line; }
+  .pn { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--line); }
+</style>

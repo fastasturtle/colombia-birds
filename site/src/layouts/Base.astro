@@ -1,0 +1,76 @@
+---
+interface Props { title: string; description?: string }
+const { title, description = 'Птицы Колумбии: справочник для нашего тура' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const nav = [
+  { href: `${base}`, label: 'Семейства' },
+  { href: `${base}species/`, label: 'Виды' },
+  { href: `${base}route/`, label: 'Маршрут' },
+];
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#14532d" />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <link rel="manifest" href={`${base}manifest.webmanifest`} />
+    <title>{title} · Птицы Колумбии</title>
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href={base}>Птицы Колумбии</a>
+      <nav>
+        {nav.map((n) => <a href={n.href} aria-current={path === n.href || (n.href !== base && path.startsWith(n.href)) ? 'page' : undefined}>{n.label}</a>)}
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="foot">
+      Данные: ACO 2022 (CC BY), BIRDBASE 2025 (CC BY), eBird/Clements 2025, Wikidata (CC0), Wikipedia (CC BY-SA), фото авторов с Wikimedia Commons и iNaturalist по свободным лицензиям.
+    </footer>
+  </body>
+</html>
+<style is:global>
+  :root {
+    --bg: #fbfaf6; --fg: #1d1d1b; --muted: #5f6157; --line: #e3e1d8; --card: #ffffff;
+    --accent: #14532d; --accent-2: #b45309; --chip: #eef3ea;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #131410; --fg: #ececе6; --fg: #ecece6; --muted: #a2a49a; --line: #2a2c25; --card: #1b1d17;
+    --accent: #7bd389; --accent-2: #f2a24a; --chip: #232620;
+  } }
+  :root[data-theme="dark"] {
+    --bg: #131410; --fg: #ecece6; --muted: #a2a49a; --line: #2a2c25; --card: #1b1d17;
+    --accent: #7bd389; --accent-2: #f2a24a; --chip: #232620;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  main { max-width: 960px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.6rem; line-height: 1.2; margin: 0.2em 0 0.4em; }
+  h2 { font-size: 1.2rem; margin: 1.4em 0 0.4em; }
+  .top { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 10px 16px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--bg); z-index: 10; }
+  .brand { font-weight: 700; color: var(--fg); white-space: nowrap; }
+  .top nav { display: flex; gap: 14px; }
+  .top nav a { color: var(--muted); padding: 6px 0; }
+  .top nav a[aria-current="page"] { color: var(--fg); border-bottom: 2px solid var(--accent); }
+  .foot { max-width: 960px; margin: 32px auto; padding: 0 16px 32px; color: var(--muted); font-size: 0.8rem; }
+  .muted { color: var(--muted); }
+  .sci { font-style: italic; }
+  .chip { display: inline-block; background: var(--chip); border-radius: 999px; padding: 2px 10px; font-size: 0.8rem; margin: 0 6px 6px 0; }
+  .chip.endemic { background: var(--accent); color: #fff; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .row { display: flex; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .thumb { width: 64px; height: 64px; border-radius: 8px; object-fit: cover; background: var(--chip); flex: none; }
+  .thumb.empty { display: grid; place-items: center; color: var(--muted); font-size: 1.4rem; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  @media (max-width: 480px) { .top { flex-wrap: wrap; } main { padding: 12px 16px; } }
+</style>

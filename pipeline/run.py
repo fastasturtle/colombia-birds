@@ -1,10 +1,15 @@
-"""Run pipeline steps in order. Usage: uv run python run.py [step ...]
+"""Run pipeline steps in order. Usage: uv run python run.py [step ...] [--only slug ...]
 
 Steps: aco ebird birdbase wikidata build   (default: all of these, in order)
-Later steps (wikipedia, photos, upload) are run explicitly.
+Later steps (wikipedia, photos, upload, sites) are run explicitly.
+
+Steps may also be given as one whitespace-separated string ("wikipedia photos upload"), as the CI
+workflow does. `--only slug ...` restricts per-species steps (wikipedia, photos, upload) to those
+slugs by setting the ONLY_SLUGS env var, which those steps read; setting ONLY_SLUGS directly also works.
 """
 from __future__ import annotations
 
+import os
 import runpy
 import sys
 from pathlib import Path
@@ -22,7 +27,23 @@ FILES = {
     "sites": "build_sites.py",
 }
 
-steps = sys.argv[1:] or ORDER
+args = " ".join(sys.argv[1:]).split()
+steps, only = [], []
+target = steps
+for a in args:
+    if a == "--only":
+        target = only
+        continue
+    target.append(a)
+if only:
+    os.environ["ONLY_SLUGS"] = " ".join(only)
+steps = steps or ORDER
+unknown = [s for s in steps if s not in FILES]
+if unknown:
+    sys.exit(f"unknown step(s): {', '.join(unknown)}; known: {', '.join(FILES)}")
+
 for s in steps:
     print(f"=== {s}", flush=True)
-    runpy.run_path(str(Path(__file__).parent / "steps" / FILES[s]), run_name="__main__")
+    script = Path(__file__).parent / "steps" / FILES[s]
+    sys.argv = [str(script)]  # steps must not see run.py's arguments as their own
+    runpy.run_path(str(script), run_name="__main__")

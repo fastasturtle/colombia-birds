@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import SpeciesRow from '../../components/SpeciesRow.astro';
+import { families, speciesIndex } from '@lib/data';
+export function getStaticPaths() {
+  return families().map((f) => ({ params: { slug: f.slug }, props: { family: f } }));
+}
+const { family } = Astro.props;
+const sp = speciesIndex().filter((s) => s.family === family.code).sort((a, b) => a.taxon_order - b.taxon_order);
+---
+<Base title={family.names.ru ?? family.names.en}>
+  <p class="muted">{family.order}</p>
+  <h1>{family.names.ru ?? family.names.en} <span class="muted sci" style="font-weight:400">{family.sci}</span></h1>
+  <p class="muted">{family.names.en} · {sp.length} видов в Колумбии</p>
+  <div>{sp.map((s) => <SpeciesRow s={s} />)}</div>
+</Base>

@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import DATA, SPECIES_DIR, get_json, log, read_json, write_json  # noqa: E402
+from common import DATA, SPECIES_DIR, get_json, log, only_slugs, read_json, write_json  # noqa: E402
 
 TEXTS = DATA / "texts"
 LANGS = ("en", "es", "ru")
@@ -81,7 +81,7 @@ def fetch(lang: str, title: str) -> dict | None:
 
 
 def main() -> None:
-    only = set(sys.argv[1:])
+    only = only_slugs(sys.argv[1:])
     files = sorted(SPECIES_DIR.glob("*.json"))
     done = 0
     for f in files:

@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { families, speciesIndex } from '@lib/data';
+const fams = families();
+const idx = speciesIndex();
+const byFamily = new Map<string, typeof idx>();
+for (const s of idx) byFamily.set(s.family, [...(byFamily.get(s.family) ?? []), s]);
+const orders = [...new Set(fams.map((f) => f.order))];
+const base = import.meta.env.BASE_URL;
+const endemics = idx.filter((s) => s.endemic).length;
+---
+<Base title="Семейства">
+  <h1>Птицы Колумбии</h1>
+  <p class="muted">{idx.length} видов в {fams.length} семействах по чеклисту ACO 2022, из них {endemics} эндемика. Справочник для тура по южной Колумбии в октябре 2026.</p>
+  {orders.map((o) => (
+    <section>
+      <h2>{o}</h2>
+      <div class="grid">
+        {fams.filter((f) => f.order === o).map((f) => {
+          const sp = byFamily.get(f.code) ?? [];
+          const e = sp.filter((s) => s.endemic).length;
+          return (
+            <a class="card fam" href={`${base}families/${f.slug}/`}>
+              <div><strong>{f.names.ru ?? f.names.en}</strong></div>
+              <div class="muted"><span class="sci">{f.sci}</span> · {f.names.en}</div>
+              <div class="muted" style="font-size:.85rem">{sp.length} {sp.length === 1 ? 'вид' : sp.length < 5 ? 'вида' : 'видов'}{e ? `, ${e} энд.` : ''}</div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  ))}
+</Base>
+<style>
+  .fam { color: inherit; display: block; }
+  .fam:hover { text-decoration: none; border-color: var(--accent); }
+</style>

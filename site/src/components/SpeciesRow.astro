@@ -1,0 +1,18 @@
+---
+import { mediaUrl, type IndexEntry } from '@lib/data';
+interface Props { s: IndexEntry }
+const { s } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<a class="row" href={`${base}species/${s.id}/`}>
+  {s.photo ? <img class="thumb" src={mediaUrl(s.photo)} alt="" loading="lazy" /> : <div class="thumb empty">🐦</div>}
+  <div>
+    <div><strong>{s.en}</strong>{s.endemic && <span class="chip endemic" style="margin-left:8px">эндемик</span>}</div>
+    <div class="muted"><span class="sci">{s.sci}</span>{s.ru && <> · {s.ru}</>}</div>
+    {s.elev && (s.elev[0] != null || s.elev[1] != null) && <div class="muted" style="font-size:.8rem">{s.elev[0] ?? 0}–{s.elev[1] ?? '?'} м</div>}
+  </div>
+</a>
+<style>
+  .row { color: inherit; }
+  .row:hover { text-decoration: none; background: var(--chip); }
+</style>
