@@ -27,26 +27,26 @@
  "genus": "Deconychura",
  "id": "deconychura-pallida",
  "ids": {
-  "avibase": null,
+  "avibase": "3B21E1E30984C440",
   "birdbase": 14562,
   "gbif": 2485200,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "inaturalist": "1586659",
+  "iucn": "103661265",
+  "wikidata": "Q31874600",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Deconychura_pallida",
   "ebird": "https://ebird.org/species/lotwoo5",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1586659",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Mournful_long-tailed_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Deconychura_pallida",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Deconychura+pallida"
@@ -91,5 +91,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Deconychura%20pallida%20Southern%20Long-tailed%20Woodcreeper%3B%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
 }

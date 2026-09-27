@@ -27,26 +27,26 @@
  "genus": "Myiobius",
  "id": "myiobius-sulphureipygius",
  "ids": {
-  "avibase": null,
+  "avibase": "40F33966B3823362",
   "birdbase": 18660,
-  "gbif": null,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "gbif": "2483310",
+  "inaturalist": "73072",
+  "iucn": "22731699",
+  "wikidata": "Q1267414",
+  "xeno_canto": "Myiobius-sulphureipygius"
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiobius_sulphureipygius",
   "ebird": "https://ebird.org/species/surfly1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/73072",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Sulphur-rumped_myiobius",
+   "es": "https://es.wikipedia.org/wiki/Myiobius_sulphureipygius",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiobius+sulphureipygius"
@@ -92,5 +92,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sulphur-rumped%20Flycatcher%20-%20South%20Ecuador%20S4E9093%20%2816847458046%29.jpg"
+ ]
 }

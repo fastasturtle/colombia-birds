@@ -27,26 +27,26 @@
  "genus": "Mionectes",
  "id": "mionectes-galbinus",
  "ids": {
-  "avibase": null,
+  "avibase": "E25CB1F1A4B18440",
   "birdbase": 17228,
   "gbif": 9504121,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "inaturalist": "1444111",
+  "iucn": "103680162",
+  "wikidata": "Q31874586",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mionectes_galbinus",
   "ebird": "https://ebird.org/species/olsfly1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1444111",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Olive-striped_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Mionectes_galbinus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Mionectes+galbinus"
@@ -94,5 +94,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mionectes%20galbinus%20fasciaticollis%20-%20Olive-striped%20Flycatcher%3B%20Madre%20de%20Dios%2C%20Peru%20%28cropped%29.jpg"
+ ]
 }

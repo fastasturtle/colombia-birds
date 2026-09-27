@@ -27,26 +27,26 @@
  "genus": "Myiodynastes",
  "id": "myiodynastes-hemichrysus",
  "ids": {
-  "avibase": null,
+  "avibase": "049A1D8FBF256A6A",
   "birdbase": 18023,
   "gbif": 2483490,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "16072",
+  "iucn": "131358269",
+  "wikidata": "Q745817",
+  "xeno_canto": "Myiodynastes-hemichrysus"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiodynastes_hemichrysus",
   "ebird": "https://ebird.org/species/gobfly1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/16072",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Golden-bellied_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiodynastes_hemichrysus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiodynastes+hemichrysus"
@@ -93,5 +93,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiodynastes%20hemichrysus%20-Costa%20Rica-8.jpg"
+ ]
 }

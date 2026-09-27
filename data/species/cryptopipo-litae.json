@@ -27,26 +27,26 @@
  "genus": "Cryptopipo",
  "id": "cryptopipo-litae",
  "ids": {
-  "avibase": null,
+  "avibase": "DFF331281838A525",
   "birdbase": 18373,
-  "gbif": null,
+  "gbif": "10998449",
   "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "iucn": "103676467",
+  "wikidata": "Q31874682",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cryptopipo_litae",
   "ebird": "https://ebird.org/species/grnman1",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Choco_manakin",
+   "es": "https://es.wikipedia.org/wiki/Cryptopipo_litae",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Cryptopipo+litae"
@@ -91,5 +91,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cryptopipo%20litae%20-%20Choco%20Manakin.jpg"
+ ]
 }

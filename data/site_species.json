@@ -551,7 +551,7 @@
    },
    {
     "freq_aut": 0.00404,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 724,
     "n_aut": 173,
     "state": "maybe"
@@ -740,7 +740,7 @@
    },
    {
     "freq_aut": 0.0021,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 277,
     "n_aut": 90,
     "state": "maybe"
@@ -852,7 +852,7 @@
    },
    {
     "freq_aut": 0.00166,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 905,
     "n_aut": 71,
     "state": "maybe"
@@ -1195,7 +1195,7 @@
    },
    {
     "freq_aut": 0.00075,
-    "id": "trogon-rufus",
+    "id": "trogon-cupreicauda",
     "n": 203,
     "n_aut": 32,
     "state": "unlikely"
@@ -1461,7 +1461,7 @@
    },
    {
     "freq_aut": 0.0004,
-    "id": "automolus-subulatus",
+    "id": "automolus-virgatus",
     "n": 130,
     "n_aut": 17,
     "state": "unlikely"
@@ -1496,7 +1496,7 @@
    },
    {
     "freq_aut": 0.00037,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 39,
     "n_aut": 16,
     "state": "unlikely"
@@ -2000,7 +2000,7 @@
    },
    {
     "freq_aut": 9e-05,
-    "id": "cryptopipo-holochlora",
+    "id": "cryptopipo-litae",
     "n": 20,
     "n_aut": 4,
     "state": "unlikely"
@@ -2086,6 +2086,13 @@
     "freq_aut": 7e-05,
     "id": "aglaiocercus-kingii",
     "n": 41,
+    "n_aut": 3,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 7e-05,
+    "id": "pachyramphus-salvini",
+    "n": 31,
     "n_aut": 3,
     "state": "unlikely"
    },
@@ -2315,8 +2322,15 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 4,
+    "n_aut": 2,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 5e-05,
+    "id": "cyphorhinus-dichrous",
+    "n": 3,
     "n_aut": 2,
     "state": "unlikely"
    },
@@ -2707,7 +2721,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiobius-barbatus",
+    "id": "myiobius-sulphureipygius",
     "n": 9,
     "n_aut": 0,
     "state": "unlikely"
@@ -3197,7 +3211,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "rhynchocyclus-olivaceus",
+    "id": "rhynchocyclus-aequinoctialis",
     "n": 3,
     "n_aut": 0,
     "state": "unlikely"
@@ -3856,7 +3870,7 @@
    },
    {
     "freq_aut": 0.00264,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 399,
     "n_aut": 96,
     "state": "maybe"
@@ -3968,14 +3982,14 @@
    },
    {
     "freq_aut": 0.00187,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 181,
     "n_aut": 68,
     "state": "maybe"
    },
    {
     "freq_aut": 0.00185,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 769,
     "n_aut": 67,
     "state": "maybe"
@@ -4262,7 +4276,7 @@
    },
    {
     "freq_aut": 0.00094,
-    "id": "trogon-rufus",
+    "id": "trogon-cupreicauda",
     "n": 208,
     "n_aut": 34,
     "state": "unlikely"
@@ -4542,7 +4556,7 @@
    },
    {
     "freq_aut": 0.00047,
-    "id": "automolus-subulatus",
+    "id": "automolus-virgatus",
     "n": 137,
     "n_aut": 17,
     "state": "unlikely"
@@ -4612,7 +4626,7 @@
    },
    {
     "freq_aut": 0.00041,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 32,
     "n_aut": 15,
     "state": "unlikely"
@@ -4822,7 +4836,7 @@
    },
    {
     "freq_aut": 0.00022,
-    "id": "myiobius-barbatus",
+    "id": "myiobius-sulphureipygius",
     "n": 14,
     "n_aut": 8,
     "state": "unlikely"
@@ -4929,6 +4943,13 @@
     "freq_aut": 0.00017,
     "id": "mionectes-oleagineus",
     "n": 22,
+    "n_aut": 6,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.00017,
+    "id": "pachyramphus-salvini",
+    "n": 20,
     "n_aut": 6,
     "state": "unlikely"
    },
@@ -5102,7 +5123,7 @@
    },
    {
     "freq_aut": 0.00011,
-    "id": "cryptopipo-holochlora",
+    "id": "cryptopipo-litae",
     "n": 10,
     "n_aut": 4,
     "state": "unlikely"
@@ -5284,7 +5305,7 @@
    },
    {
     "freq_aut": 6e-05,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 11,
     "n_aut": 2,
     "state": "unlikely"
@@ -5515,7 +5536,7 @@
    },
    {
     "freq_aut": 3e-05,
-    "id": "polioptila-plumbea",
+    "id": "polioptila-bilineata",
     "n": 3,
     "n_aut": 1,
     "state": "unlikely"
@@ -5886,7 +5907,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "xenops-minutus",
+    "id": "xenops-mexicanus",
     "n": 4,
     "n_aut": 0,
     "state": "unlikely"
@@ -6020,7 +6041,7 @@
    },
    {
     "freq_aut": 0.01555,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 5735,
     "n_aut": 1745,
     "state": "sure"
@@ -6461,7 +6482,7 @@
    },
    {
     "freq_aut": 0.00479,
-    "id": "basileuterus-rufifrons",
+    "id": "basileuterus-delattrii",
     "n": 1672,
     "n_aut": 538,
     "state": "maybe"
@@ -6930,7 +6951,7 @@
    },
    {
     "freq_aut": 0.00237,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 536,
     "n_aut": 266,
     "state": "maybe"
@@ -6951,7 +6972,7 @@
    },
    {
     "freq_aut": 0.00235,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 911,
     "n_aut": 264,
     "state": "maybe"
@@ -7427,7 +7448,7 @@
    },
    {
     "freq_aut": 0.00103,
-    "id": "formicivora-grisea",
+    "id": "formicivora-intermedia",
     "n": 425,
     "n_aut": 116,
     "state": "maybe"
@@ -8372,7 +8393,7 @@
    },
    {
     "freq_aut": 0.00022,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 83,
     "n_aut": 25,
     "state": "unlikely"
@@ -8407,7 +8428,7 @@
    },
    {
     "freq_aut": 0.00021,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 58,
     "n_aut": 24,
     "state": "unlikely"
@@ -8729,7 +8750,7 @@
    },
    {
     "freq_aut": 0.0001,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 75,
     "n_aut": 11,
     "state": "unlikely"
@@ -9107,7 +9128,7 @@
    },
    {
     "freq_aut": 4e-05,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 11,
     "n_aut": 5,
     "state": "unlikely"
@@ -10277,7 +10298,7 @@
    },
    {
     "freq_aut": 0.00955,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 659,
     "n_aut": 165,
     "state": "maybe"
@@ -11159,7 +11180,7 @@
    },
    {
     "freq_aut": 0.00041,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 36,
     "n_aut": 7,
     "state": "unlikely"
@@ -11761,7 +11782,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 7,
     "n_aut": 0,
     "state": "unlikely"
@@ -11845,7 +11866,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 4,
     "n_aut": 0,
     "state": "unlikely"
@@ -12294,7 +12315,7 @@
    },
    {
     "freq_aut": 0.00731,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 679,
     "n_aut": 169,
     "state": "maybe"
@@ -12658,7 +12679,7 @@
    },
    {
     "freq_aut": 0.00351,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 265,
     "n_aut": 81,
     "state": "maybe"
@@ -12896,7 +12917,7 @@
    },
    {
     "freq_aut": 0.00221,
-    "id": "basileuterus-rufifrons",
+    "id": "basileuterus-delattrii",
     "n": 216,
     "n_aut": 51,
     "state": "maybe"
@@ -13106,7 +13127,7 @@
    },
    {
     "freq_aut": 0.00143,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 129,
     "n_aut": 33,
     "state": "maybe"
@@ -14030,7 +14051,7 @@
    },
    {
     "freq_aut": 0.00013,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 20,
     "n_aut": 3,
     "state": "unlikely"
@@ -14401,7 +14422,7 @@
    },
    {
     "freq_aut": 4e-05,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 4,
     "n_aut": 1,
     "state": "unlikely"
@@ -15025,7 +15046,7 @@
    },
    {
     "freq_aut": 0.00745,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 35,
     "n_aut": 14,
     "state": "maybe"
@@ -16181,7 +16202,7 @@
    },
    {
     "freq_aut": 0.01323,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 1050,
     "n_aut": 255,
     "state": "sure"
@@ -16734,7 +16755,7 @@
    },
    {
     "freq_aut": 0.00244,
-    "id": "tolmomyias-flaviventris",
+    "id": "tolmomyias-viridiceps",
     "n": 126,
     "n_aut": 47,
     "state": "maybe"
@@ -16888,7 +16909,7 @@
    },
    {
     "freq_aut": 0.00197,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 119,
     "n_aut": 38,
     "state": "maybe"
@@ -17112,7 +17133,7 @@
    },
    {
     "freq_aut": 0.00119,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 54,
     "n_aut": 23,
     "state": "maybe"
@@ -17245,7 +17266,7 @@
    },
    {
     "freq_aut": 0.00093,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 34,
     "n_aut": 18,
     "state": "unlikely"
@@ -18127,7 +18148,7 @@
    },
    {
     "freq_aut": 0.00031,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 19,
     "n_aut": 6,
     "state": "unlikely"
@@ -18652,7 +18673,7 @@
    },
    {
     "freq_aut": 0.00016,
-    "id": "chlorothraupis-carmioli",
+    "id": "chlorothraupis-frenata",
     "n": 19,
     "n_aut": 3,
     "state": "unlikely"
@@ -19240,7 +19261,7 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "rhynchocyclus-olivaceus",
+    "id": "rhynchocyclus-aequinoctialis",
     "n": 4,
     "n_aut": 1,
     "state": "unlikely"
@@ -19541,7 +19562,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "ocreatus-underwoodii",
+    "id": "ocreatus-peruanus",
     "n": 6,
     "n_aut": 0,
     "state": "unlikely"
@@ -19940,7 +19961,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "xenops-minutus",
+    "id": "xenops-genibarbis",
     "n": 3,
     "n_aut": 0,
     "state": "unlikely"
@@ -20137,7 +20158,7 @@
    },
    {
     "freq_aut": 0.01017,
-    "id": "furnarius-leucopus",
+    "id": "furnarius-cinnamomeus",
     "n": 323,
     "n_aut": 55,
     "state": "sure"
@@ -20200,7 +20221,7 @@
    },
    {
     "freq_aut": 0.00962,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 321,
     "n_aut": 52,
     "state": "maybe"
@@ -20368,7 +20389,7 @@
    },
    {
     "freq_aut": 0.00703,
-    "id": "polioptila-plumbea",
+    "id": "polioptila-bilineata",
     "n": 213,
     "n_aut": 38,
     "state": "maybe"
@@ -21460,7 +21481,7 @@
    },
    {
     "freq_aut": 0.00037,
-    "id": "xenops-minutus",
+    "id": "xenops-mexicanus",
     "n": 3,
     "n_aut": 2,
     "state": "unlikely"
@@ -21810,7 +21831,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 7,
     "n_aut": 0,
     "state": "unlikely"
@@ -22076,7 +22097,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiopagis-caniceps",
+    "id": "myiopagis-parambae",
     "n": 3,
     "n_aut": 0,
     "state": "unlikely"
@@ -22322,7 +22343,7 @@
    },
    {
     "freq_aut": 0.00735,
-    "id": "chlorothraupis-carmioli",
+    "id": "chlorothraupis-frenata",
     "n": 1026,
     "n_aut": 79,
     "state": "maybe"
@@ -22483,7 +22504,7 @@
    },
    {
     "freq_aut": 0.00577,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 362,
     "n_aut": 62,
     "state": "maybe"
@@ -22931,7 +22952,7 @@
    },
    {
     "freq_aut": 0.00288,
-    "id": "myiopagis-caniceps",
+    "id": "myiopagis-cinerea",
     "n": 231,
     "n_aut": 31,
     "state": "maybe"
@@ -23120,7 +23141,7 @@
    },
    {
     "freq_aut": 0.00214,
-    "id": "tunchiornis-ochraceiceps",
+    "id": "tunchiornis-ferrugineifrons",
     "n": 258,
     "n_aut": 23,
     "state": "maybe"
@@ -23470,7 +23491,7 @@
    },
    {
     "freq_aut": 0.00121,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 192,
     "n_aut": 13,
     "state": "maybe"
@@ -23687,7 +23708,7 @@
    },
    {
     "freq_aut": 0.00093,
-    "id": "tolmomyias-flaviventris",
+    "id": "tolmomyias-viridiceps",
     "n": 41,
     "n_aut": 10,
     "state": "unlikely"
@@ -23995,14 +24016,14 @@
    },
    {
     "freq_aut": 0.00056,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 18,
     "n_aut": 6,
     "state": "unlikely"
    },
    {
     "freq_aut": 0.00056,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 15,
     "n_aut": 6,
     "state": "unlikely"
@@ -24429,7 +24450,7 @@
    },
    {
     "freq_aut": 0.00019,
-    "id": "rhynchocyclus-olivaceus",
+    "id": "rhynchocyclus-aequinoctialis",
     "n": 27,
     "n_aut": 2,
     "state": "unlikely"
@@ -24760,6 +24781,13 @@
     "freq_aut": 9e-05,
     "id": "chloroceryle-amazona",
     "n": 5,
+    "n_aut": 1,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "deconychura-pallida",
+    "n": 4,
     "n_aut": 1,
     "state": "unlikely"
    },
@@ -25564,7 +25592,7 @@
    },
    {
     "freq_aut": 0.02987,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 10232,
     "n_aut": 3461,
     "state": "sure"
@@ -25788,7 +25816,7 @@
    },
    {
     "freq_aut": 0.00854,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 1957,
     "n_aut": 990,
     "state": "maybe"
@@ -25802,7 +25830,7 @@
    },
    {
     "freq_aut": 0.00786,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 2990,
     "n_aut": 911,
     "state": "maybe"
@@ -26362,7 +26390,7 @@
    },
    {
     "freq_aut": 0.0005,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 104,
     "n_aut": 58,
     "state": "unlikely"
@@ -27027,7 +27055,7 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 38,
     "n_aut": 6,
     "state": "unlikely"
@@ -27650,7 +27678,7 @@
    },
    {
     "freq_aut": 2e-05,
-    "id": "basileuterus-rufifrons",
+    "id": "basileuterus-delattrii",
     "n": 5,
     "n_aut": 2,
     "state": "unlikely"
@@ -28967,7 +28995,7 @@
    },
    {
     "freq_aut": 0.01411,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 226,
     "n_aut": 60,
     "state": "sure"
@@ -29058,7 +29086,7 @@
    },
    {
     "freq_aut": 0.01035,
-    "id": "polioptila-plumbea",
+    "id": "polioptila-bilineata",
     "n": 196,
     "n_aut": 44,
     "state": "sure"
@@ -29296,7 +29324,7 @@
    },
    {
     "freq_aut": 0.00564,
-    "id": "furnarius-leucopus",
+    "id": "furnarius-cinnamomeus",
     "n": 95,
     "n_aut": 24,
     "state": "maybe"
@@ -29905,7 +29933,7 @@
    },
    {
     "freq_aut": 0.00094,
-    "id": "myiopagis-caniceps",
+    "id": "myiopagis-parambae",
     "n": 11,
     "n_aut": 4,
     "state": "unlikely"
@@ -29919,7 +29947,7 @@
    },
    {
     "freq_aut": 0.00094,
-    "id": "myiobius-barbatus",
+    "id": "myiobius-sulphureipygius",
     "n": 7,
     "n_aut": 4,
     "state": "unlikely"
@@ -30185,7 +30213,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 25,
     "n_aut": 0,
     "state": "unlikely"
@@ -30276,7 +30304,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 10,
     "n_aut": 0,
     "state": "unlikely"
@@ -31075,7 +31103,7 @@
    },
    {
     "freq_aut": 0.00732,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 684,
     "n_aut": 171,
     "state": "maybe"
@@ -31439,7 +31467,7 @@
    },
    {
     "freq_aut": 0.00347,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 265,
     "n_aut": 81,
     "state": "maybe"
@@ -31684,7 +31712,7 @@
    },
    {
     "freq_aut": 0.00231,
-    "id": "basileuterus-rufifrons",
+    "id": "basileuterus-delattrii",
     "n": 218,
     "n_aut": 54,
     "state": "maybe"
@@ -31915,7 +31943,7 @@
    },
    {
     "freq_aut": 0.00141,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 129,
     "n_aut": 33,
     "state": "maybe"
@@ -32860,7 +32888,7 @@
    },
    {
     "freq_aut": 0.00013,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 20,
     "n_aut": 3,
     "state": "unlikely"
@@ -33231,7 +33259,7 @@
    },
    {
     "freq_aut": 4e-05,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 3,
     "n_aut": 1,
     "state": "unlikely"
@@ -33575,7 +33603,7 @@
    },
    {
     "freq_aut": 0.02884,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 6108,
     "n_aut": 1659,
     "state": "sure"
@@ -33631,7 +33659,7 @@
    },
    {
     "freq_aut": 0.01942,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 4704,
     "n_aut": 1117,
     "state": "sure"
@@ -33855,7 +33883,7 @@
    },
    {
     "freq_aut": 0.00581,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 838,
     "n_aut": 334,
     "state": "maybe"
@@ -34387,7 +34415,7 @@
    },
    {
     "freq_aut": 0.00056,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 49,
     "n_aut": 32,
     "state": "unlikely"
@@ -34597,7 +34625,7 @@
    },
    {
     "freq_aut": 0.00019,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 39,
     "n_aut": 11,
     "state": "unlikely"
@@ -34961,7 +34989,7 @@
    },
    {
     "freq_aut": 0.0001,
-    "id": "basileuterus-rufifrons",
+    "id": "basileuterus-delattrii",
     "n": 10,
     "n_aut": 6,
     "state": "unlikely"
@@ -36222,7 +36250,7 @@
    },
    {
     "freq_aut": 0.0111,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 412,
     "n_aut": 95,
     "state": "sure"
@@ -36803,7 +36831,7 @@
    },
    {
     "freq_aut": 0.00257,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 98,
     "n_aut": 22,
     "state": "maybe"
@@ -37006,7 +37034,7 @@
    },
    {
     "freq_aut": 0.00152,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 174,
     "n_aut": 13,
     "state": "maybe"
@@ -37419,7 +37447,7 @@
    },
    {
     "freq_aut": 0.00047,
-    "id": "cryptopipo-holochlora",
+    "id": "cryptopipo-litae",
     "n": 17,
     "n_aut": 4,
     "state": "unlikely"
@@ -37811,6 +37839,13 @@
    },
    {
     "freq_aut": 0.00023,
+    "id": "cyphorhinus-dichrous",
+    "n": 3,
+    "n_aut": 2,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.00023,
     "id": "dendrocincla-tyrannina",
     "n": 3,
     "n_aut": 2,
@@ -38000,7 +38035,7 @@
    },
    {
     "freq_aut": 0.00012,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 7,
     "n_aut": 1,
     "state": "unlikely"
@@ -38161,7 +38196,7 @@
    },
    {
     "freq_aut": 0.00012,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 3,
     "n_aut": 1,
     "state": "unlikely"
@@ -38211,6 +38246,13 @@
    {
     "freq_aut": 0.0,
     "id": "crypturellus-soui",
+    "n": 17,
+    "n_aut": 0,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "pachyramphus-salvini",
     "n": 17,
     "n_aut": 0,
     "state": "unlikely"
@@ -38399,7 +38441,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "automolus-subulatus",
+    "id": "automolus-virgatus",
     "n": 6,
     "n_aut": 0,
     "state": "unlikely"
@@ -38427,7 +38469,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiobius-barbatus",
+    "id": "myiobius-sulphureipygius",
     "n": 6,
     "n_aut": 0,
     "state": "unlikely"
@@ -38651,7 +38693,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "trogon-rufus",
+    "id": "trogon-cupreicauda",
     "n": 4,
     "n_aut": 0,
     "state": "unlikely"
@@ -38890,7 +38932,7 @@
    },
    {
     "freq_aut": 0.01878,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 1361,
     "n_aut": 353,
     "state": "sure"
@@ -39380,7 +39422,7 @@
    },
    {
     "freq_aut": 0.00383,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 313,
     "n_aut": 72,
     "state": "maybe"
@@ -39779,7 +39821,7 @@
    },
    {
     "freq_aut": 0.00133,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 100,
     "n_aut": 25,
     "state": "maybe"
@@ -40068,6 +40110,13 @@
     "freq_aut": 0.00064,
     "id": "malacoptila-mystacalis",
     "n": 33,
+    "n_aut": 12,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.00064,
+    "id": "pachyramphus-salvini",
+    "n": 27,
     "n_aut": 12,
     "state": "unlikely"
    },
@@ -40612,7 +40661,7 @@
    },
    {
     "freq_aut": 0.00021,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 6,
     "n_aut": 4,
     "state": "unlikely"
@@ -40997,7 +41046,7 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 7,
     "n_aut": 1,
     "state": "unlikely"
@@ -41137,13 +41186,6 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "pachyramphus-albogriseus",
-    "n": 3,
-    "n_aut": 1,
-    "state": "unlikely"
-   },
-   {
-    "freq_aut": 5e-05,
     "id": "porzana-carolina",
     "n": 3,
     "n_aut": 1,
@@ -41230,6 +41272,13 @@
     "freq_aut": 0.0,
     "id": "pseudocolaptes-johnsoni",
     "n": 9,
+    "n_aut": 0,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "amaurospiza-aequatorialis",
+    "n": 8,
     "n_aut": 0,
     "state": "unlikely"
    },
@@ -41361,6 +41410,13 @@
    },
    {
     "freq_aut": 0.0,
+    "id": "cyphorhinus-dichrous",
+    "n": 4,
+    "n_aut": 0,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.0,
     "id": "drymophila-caudata",
     "n": 4,
     "n_aut": 0,
@@ -41403,14 +41459,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "amaurospiza-concolor",
-    "n": 3,
-    "n_aut": 0,
-    "state": "unlikely"
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "automolus-subulatus",
+    "id": "automolus-virgatus",
     "n": 3,
     "n_aut": 0,
     "state": "unlikely"
@@ -41515,7 +41564,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 3,
     "n_aut": 0,
     "state": "unlikely"
@@ -41600,7 +41649,7 @@
    },
    {
     "freq_aut": 0.0289,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 431,
     "n_aut": 106,
     "state": "sure"
@@ -42062,7 +42111,7 @@
    },
    {
     "freq_aut": 0.00218,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 52,
     "n_aut": 8,
     "state": "maybe"
@@ -42811,7 +42860,7 @@
    },
    {
     "freq_aut": 0.00027,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 3,
     "n_aut": 1,
     "state": "unlikely"
@@ -43351,7 +43400,7 @@
    },
    {
     "freq_aut": 0.01602,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 801,
     "n_aut": 188,
     "state": "sure"
@@ -44506,7 +44555,7 @@
    },
    {
     "freq_aut": 9e-05,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 14,
     "n_aut": 1,
     "state": "unlikely"
@@ -44716,7 +44765,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 10,
     "n_aut": 0,
     "state": "unlikely"
@@ -45116,7 +45165,7 @@
    },
    {
     "freq_aut": 0.01705,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 93,
     "n_aut": 14,
     "state": "sure"
@@ -45802,7 +45851,7 @@
    },
    {
     "freq_aut": 0.00244,
-    "id": "tolmomyias-flaviventris",
+    "id": "tolmomyias-viridiceps",
     "n": 7,
     "n_aut": 2,
     "state": "unlikely"
@@ -46629,7 +46678,7 @@
    },
    {
     "freq_aut": 0.00521,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 119,
     "n_aut": 17,
     "state": "maybe"
@@ -46811,7 +46860,7 @@
    },
    {
     "freq_aut": 0.00276,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 16,
     "n_aut": 9,
     "state": "maybe"
@@ -47806,7 +47855,7 @@
    },
    {
     "freq_aut": 0.01985,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 439,
     "n_aut": 107,
     "state": "sure"
@@ -48254,7 +48303,7 @@
    },
    {
     "freq_aut": 0.00297,
-    "id": "furnarius-leucopus",
+    "id": "furnarius-cinnamomeus",
     "n": 53,
     "n_aut": 16,
     "state": "maybe"
@@ -48366,7 +48415,7 @@
    },
    {
     "freq_aut": 0.0013,
-    "id": "polioptila-plumbea",
+    "id": "polioptila-bilineata",
     "n": 42,
     "n_aut": 7,
     "state": "maybe"
@@ -48933,7 +48982,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 7,
     "n_aut": 0,
     "state": "unlikely"
@@ -49319,7 +49368,7 @@
    },
    {
     "freq_aut": 0.01424,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 649,
     "n_aut": 177,
     "state": "sure"
@@ -50362,7 +50411,7 @@
    },
    {
     "freq_aut": 0.00105,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 40,
     "n_aut": 13,
     "state": "maybe"
@@ -50418,7 +50467,7 @@
    },
    {
     "freq_aut": 0.0008,
-    "id": "tolmomyias-flaviventris",
+    "id": "tolmomyias-viridiceps",
     "n": 63,
     "n_aut": 10,
     "state": "unlikely"
@@ -51713,7 +51762,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 4,
     "n_aut": 0,
     "state": "unlikely"
@@ -51973,7 +52022,7 @@
    },
    {
     "freq_aut": 0.01209,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 803,
     "n_aut": 239,
     "state": "sure"
@@ -53023,7 +53072,7 @@
    },
    {
     "freq_aut": 0.00091,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 55,
     "n_aut": 18,
     "state": "unlikely"
@@ -53079,7 +53128,7 @@
    },
    {
     "freq_aut": 0.00076,
-    "id": "tolmomyias-flaviventris",
+    "id": "tolmomyias-viridiceps",
     "n": 95,
     "n_aut": 15,
     "state": "unlikely"
@@ -53772,6 +53821,13 @@
    },
    {
     "freq_aut": 0.00015,
+    "id": "deconychura-pallida",
+    "n": 5,
+    "n_aut": 3,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 0.00015,
     "id": "lanio-fulvus",
     "n": 5,
     "n_aut": 3,
@@ -54178,7 +54234,7 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 6,
     "n_aut": 1,
     "state": "unlikely"
@@ -54206,7 +54262,7 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "xenops-minutus",
+    "id": "xenops-genibarbis",
     "n": 4,
     "n_aut": 1,
     "state": "unlikely"
@@ -54227,7 +54283,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "lophornis-chalybeus",
+    "id": "lophornis-verreauxii",
     "n": 34,
     "n_aut": 0,
     "state": "unlikely"
@@ -55236,7 +55292,7 @@
    },
    {
     "freq_aut": 0.00404,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 726,
     "n_aut": 173,
     "state": "maybe"
@@ -55425,7 +55481,7 @@
    },
    {
     "freq_aut": 0.0021,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 278,
     "n_aut": 90,
     "state": "maybe"
@@ -55537,7 +55593,7 @@
    },
    {
     "freq_aut": 0.00166,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 907,
     "n_aut": 71,
     "state": "maybe"
@@ -55852,7 +55908,7 @@
    },
    {
     "freq_aut": 0.00077,
-    "id": "trogon-rufus",
+    "id": "trogon-cupreicauda",
     "n": 205,
     "n_aut": 33,
     "state": "unlikely"
@@ -56146,7 +56202,7 @@
    },
    {
     "freq_aut": 0.0004,
-    "id": "automolus-subulatus",
+    "id": "automolus-virgatus",
     "n": 130,
     "n_aut": 17,
     "state": "unlikely"
@@ -56181,7 +56237,7 @@
    },
    {
     "freq_aut": 0.00037,
-    "id": "contopus-cinereus",
+    "id": "contopus-bogotensis",
     "n": 39,
     "n_aut": 16,
     "state": "unlikely"
@@ -56678,7 +56734,7 @@
    },
    {
     "freq_aut": 9e-05,
-    "id": "cryptopipo-holochlora",
+    "id": "cryptopipo-litae",
     "n": 20,
     "n_aut": 4,
     "state": "unlikely"
@@ -56771,6 +56827,13 @@
     "freq_aut": 7e-05,
     "id": "aglaiocercus-kingii",
     "n": 41,
+    "n_aut": 3,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 7e-05,
+    "id": "pachyramphus-salvini",
+    "n": 30,
     "n_aut": 3,
     "state": "unlikely"
    },
@@ -57007,8 +57070,15 @@
    },
    {
     "freq_aut": 5e-05,
-    "id": "setophaga-petechia",
+    "id": "setophaga-aestiva",
     "n": 4,
+    "n_aut": 2,
+    "state": "unlikely"
+   },
+   {
+    "freq_aut": 5e-05,
+    "id": "cyphorhinus-dichrous",
+    "n": 3,
     "n_aut": 2,
     "state": "unlikely"
    },
@@ -57399,7 +57469,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiobius-barbatus",
+    "id": "myiobius-sulphureipygius",
     "n": 9,
     "n_aut": 0,
     "state": "unlikely"
@@ -57903,7 +57973,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "rhynchocyclus-olivaceus",
+    "id": "rhynchocyclus-aequinoctialis",
     "n": 3,
     "n_aut": 0,
     "state": "unlikely"
@@ -58296,7 +58366,7 @@
    },
    {
     "freq_aut": 0.00481,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 28,
     "n_aut": 9,
     "state": "maybe"
@@ -58352,7 +58422,7 @@
    },
    {
     "freq_aut": 0.00321,
-    "id": "ocreatus-underwoodii",
+    "id": "ocreatus-peruanus",
     "n": 10,
     "n_aut": 6,
     "state": "maybe"
@@ -58520,7 +58590,7 @@
    },
    {
     "freq_aut": 0.0016,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 9,
     "n_aut": 3,
     "state": "maybe"
@@ -58877,7 +58947,7 @@
    },
    {
     "freq_aut": 0.00053,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 3,
     "n_aut": 1,
     "state": "unlikely"
@@ -59277,7 +59347,7 @@
    },
    {
     "freq_aut": 0.02983,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 1388,
     "n_aut": 294,
     "state": "sure"
@@ -59291,7 +59361,7 @@
    },
    {
     "freq_aut": 0.02932,
-    "id": "oxyura-jamaicensis",
+    "id": "oxyura-ferruginea",
     "n": 1228,
     "n_aut": 289,
     "state": "sure"
@@ -60944,7 +61014,7 @@
    },
    {
     "freq_aut": 0.00345,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 42,
     "n_aut": 5,
     "state": "maybe"
@@ -60965,7 +61035,7 @@
    },
    {
     "freq_aut": 0.00345,
-    "id": "myiodynastes-chrysocephalus",
+    "id": "myiodynastes-hemichrysus",
     "n": 31,
     "n_aut": 5,
     "state": "maybe"
@@ -61448,7 +61518,7 @@
    },
    {
     "freq_aut": 0.00138,
-    "id": "ocreatus-underwoodii",
+    "id": "ocreatus-peruanus",
     "n": 20,
     "n_aut": 2,
     "state": "unlikely"
@@ -62085,7 +62155,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "mionectes-olivaceus",
+    "id": "mionectes-galbinus",
     "n": 12,
     "n_aut": 0,
     "state": "unlikely"
@@ -62527,7 +62597,7 @@
    },
    {
     "freq_aut": 0.01966,
-    "id": "troglodytes-aedon",
+    "id": "troglodytes-musculus",
     "n": 465,
     "n_aut": 120,
     "state": "sure"
@@ -62982,7 +63052,7 @@
    },
    {
     "freq_aut": 0.00262,
-    "id": "furnarius-leucopus",
+    "id": "furnarius-cinnamomeus",
     "n": 53,
     "n_aut": 16,
     "state": "maybe"
@@ -63129,7 +63199,7 @@
    },
    {
     "freq_aut": 0.00115,
-    "id": "polioptila-plumbea",
+    "id": "polioptila-bilineata",
     "n": 42,
     "n_aut": 7,
     "state": "maybe"
@@ -63724,7 +63794,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tyto-alba",
+    "id": "tyto-furcata",
     "n": 7,
     "n_aut": 0,
     "state": "unlikely"

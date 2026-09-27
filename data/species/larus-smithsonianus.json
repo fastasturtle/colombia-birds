@@ -27,27 +27,27 @@
  "genus": "Larus",
  "id": "larus-smithsonianus",
  "ids": {
-  "avibase": null,
+  "avibase": "60F32AF8F5E3E40B",
   "birdbase": 7184,
   "gbif": 2481139,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "1578489",
+  "iucn": "62030590",
+  "wikidata": "Q469297",
+  "xeno_canto": "Larus-smithsonianus"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_smithsonianus",
   "ebird": "https://ebird.org/species/amhgul1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1578489",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/American_herring_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_smithsonianus",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_серебристая_чайка"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Larus+smithsonianus"
  },
@@ -97,5 +97,8 @@
   "primary_habitat": "Coastal",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20smithsonianus-USFWS.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20Herring%20Gull%20-%20natures%20pics.jpg"
+ ]
 }

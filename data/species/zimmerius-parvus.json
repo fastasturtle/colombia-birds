@@ -27,27 +27,27 @@
  "genus": "Zimmerius",
  "id": "zimmerius-parvus",
  "ids": {
-  "avibase": null,
+  "avibase": "1504728022BF9F03",
   "birdbase": 17154,
   "gbif": 2483943,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "827388",
+  "iucn": "103680835",
+  "wikidata": "Q15943524",
+  "xeno_canto": "Zimmerius-parvus"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zimmerius_parvus",
   "ebird": "https://ebird.org/species/paltyr3",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/827388",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Mistletoe_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Zimmerius_parvus",
+   "ru": "https://ru.wikipedia.org/wiki/Zimmerius_parvus"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+parvus"
  },
@@ -93,5 +93,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Paltry%20Tyrannulet.jpg"
+ ]
 }
