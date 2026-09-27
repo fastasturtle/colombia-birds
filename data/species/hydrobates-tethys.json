@@ -56,7 +56,56 @@
   "ru": "Галапагосская качурка"
  },
  "order": "Procellariiformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Brian Gratwicke",
+   "credit": "Flickr: Galapagos storm petrel",
+   "height": 1067,
+   "key_base": "photos/hydrobates-tethys/1",
+   "kind": "photo",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "sizes": {
+    "large": "photos/hydrobates-tethys/1-large.jpg",
+    "medium": "photos/hydrobates-tethys/1-medium.jpg",
+    "thumb": "photos/hydrobates-tethys/1-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Galapagos_storm_petrel.jpg",
+   "width": 1600
+  },
+  {
+   "author": "William Stephens",
+   "credit": "https://www.inaturalist.org/photos/64238505",
+   "height": 1224,
+   "key_base": "photos/hydrobates-tethys/2",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "sizes": {
+    "large": "photos/hydrobates-tethys/2-large.jpg",
+    "medium": "photos/hydrobates-tethys/2-medium.jpg",
+    "thumb": "photos/hydrobates-tethys/2-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wedge-rumped_Storm-Petrel_iNaturalis.jpg",
+   "width": 918
+  },
+  {
+   "author": "Gregory \"Slobirdr\" Smith",
+   "credit": "Short-eared Owl (Asio flammeus) & Wedge-rumped Storm Petrel (Oceanodroma tethys)",
+   "height": 575,
+   "key_base": "photos/hydrobates-tethys/3",
+   "kind": "photo",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sizes": {
+    "large": "photos/hydrobates-tethys/3-large.jpg",
+    "medium": "photos/hydrobates-tethys/3-medium.jpg",
+    "thumb": "photos/hydrobates-tethys/3-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Short-eared_Owl_(Asio_flammeus)_%26_Wedge-rumped_Storm_Petrel.jpg",
+   "width": 864
+  }
+ ],
  "sci_name": "Hydrobates tethys",
  "sci_name_aco": "Hydrobates tethys",
  "sounds": [],
