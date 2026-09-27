@@ -26,7 +26,7 @@ const ruText = tx?.wikipedia?.ru;
 const descr = enText?.sections?.['Description'] ?? enText?.sections?.['Identification'] ?? null;
 const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
 ---
-<Base title={title} description={`${sp.names.en} (${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
+<Base title={title} species={sp.id} description={`${sp.names.en} (${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
   <p class="muted"><a href={`${base}families/${fam?.slug}/`}>{fam?.names.ru ?? sp.family.en}</a> · {sp.order}</p>
   <h1>{sp.names.en}</h1>
   <p style="margin-top:-6px">

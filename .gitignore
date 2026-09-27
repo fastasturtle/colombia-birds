@@ -18,3 +18,9 @@ site/.astro/
 
 # screenshots from site/scripts/screenshot.mjs
 .screenshots/
+
+# worker
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
+worker/wrangler.deploy.toml

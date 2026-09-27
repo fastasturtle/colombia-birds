@@ -1,6 +1,8 @@
 ---
-interface Props { title: string; description?: string }
-const { title, description = 'Птицы Колумбии: справочник для нашего тура' } = Astro.props;
+import ReportButton from '../components/ReportButton.svelte';
+interface Props { title: string; description?: string; species?: string }
+const { title, description = 'Птицы Колумбии: справочник для нашего тура', species } = Astro.props;
+const reportUrl = import.meta.env.PUBLIC_REPORT_URL;
 const base = import.meta.env.BASE_URL;
 const nav = [
   { href: `${base}`, label: 'Маршрут' },
@@ -31,6 +33,7 @@ const path = Astro.url.pathname;
     </header>
     <main><slot /></main>
     <footer class="foot">
+      {reportUrl && <ReportButton client:idle endpoint={reportUrl} species={species} />}
       Данные: ACO 2022 (CC BY), BIRDBASE 2025 (CC BY), eBird/Clements 2025, Wikidata (CC0), Wikipedia (CC BY-SA), фото авторов с Wikimedia Commons и iNaturalist по свободным лицензиям.
     </footer>
   </body>

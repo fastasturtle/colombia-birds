@@ -1,0 +1,57 @@
+name: Deploy report Worker
+
+on:
+  push:
+    branches: [main]
+    paths: ['worker/**', '.github/workflows/worker.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: worker
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: worker
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_WORKERS_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: 7979772a9baad2ab2e88eb52df9c590b
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: worker/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - name: KV namespace (find or create) -> wrangler.deploy.toml
+        run: node scripts/kv-config.mjs
+      - name: Deploy
+        run: |
+          npx wrangler deploy -c wrangler.deploy.toml | tee deploy.log
+          url=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          echo "Worker URL: ${url}"
+          {
+            echo "### Report Worker deployed"
+            echo ""
+            echo "URL: \`${url}\`"
+            echo ""
+            echo "Set repo variable \`PUBLIC_REPORT_URL=${url}/report\` (Settings → Secrets and variables → Actions → Variables), then re-run the Pages deploy."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Set GITHUB_REPORTS_TOKEN secret on the Worker
+        env:
+          GITHUB_REPORTS_TOKEN: ${{ secrets.GITHUB_REPORTS_TOKEN }}
+        run: echo "$GITHUB_REPORTS_TOKEN" | npx wrangler secret put GITHUB_REPORTS_TOKEN -c wrangler.deploy.toml
+      - name: Ensure issue labels exist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_REPORTS_TOKEN }}
+        run: |
+          gh label create report --repo "$GITHUB_REPOSITORY" --color d73a4a --description "Сообщение об ошибке с сайта" --force
+          gh label create species --repo "$GITHUB_REPOSITORY" --color 0e8a16 --description "Отчёт относится к странице вида" --force

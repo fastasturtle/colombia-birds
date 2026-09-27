@@ -27,6 +27,7 @@ jobs:
           package-manager: npm@latest
         env:
           PUBLIC_MEDIA_BASE_URL: ${{ vars.PUBLIC_MEDIA_BASE_URL || 'https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev' }}
+          PUBLIC_REPORT_URL: ${{ vars.PUBLIC_REPORT_URL }}
   deploy:
     needs: build
     runs-on: ubuntu-latest

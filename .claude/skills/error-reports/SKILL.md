@@ -21,13 +21,17 @@ Goal: any device, no login, can report a mistake on any page. Reports become Git
      body: page URL, species id, message, user-agent, timestamp; labels: `report` (+ `species` if species id).
    - Returns `{ok: true, issue: <number>}`; on GitHub error returns 502 with a generic message.
    - `wrangler.toml` with `name = "colombia-birds-reports"`, `compatibility_date`, KV binding `RATE`.
-   - Secrets: `wrangler secret put GITHUB_REPORTS_TOKEN` (owner pastes the token when prompted, or the
-     owner sets it in the Cloudflare dashboard → Workers → Settings → Variables). Deploy with
-     `CLOUDFLARE_API_TOKEN=$R2_CLOUDFLARE_TOKEN npx wrangler deploy` if that token has Workers rights;
-     otherwise ask the owner for a token with "Workers Scripts: Edit" + "Workers KV Storage: Edit".
-   - Put the deployed URL into `site/.env`/GitHub variable `PUBLIC_REPORT_URL` and `.env.example`.
-2. **Site**: `site/src/components/ReportButton.svelte`, rendered in `Base.astro` footer area and on
-   species pages (pass `species` id). Small button «Сообщить об ошибке» → inline form (textarea, hidden
+   - Built: `worker/` (see `worker/README.md`). Cloud sessions have no Cloudflare/GitHub secrets, so deploy
+     only via Actions → **Deploy report Worker** (`.github/workflows/worker.yml`): uses secrets
+     `CLOUDFLARE_WORKERS_TOKEN` (Workers Scripts + KV Storage: Edit) and `GITHUB_REPORTS_TOKEN`, finds or
+     creates KV `colombia-birds-reports-RATE` (`worker/scripts/kv-config.mjs` → `wrangler.deploy.toml`),
+     `wrangler secret put`s the token, creates labels, prints the URL in the job summary.
+   - Put `<worker url>/report` into GitHub variable `PUBLIC_REPORT_URL` (read by `deploy.yml`) and, for local
+     builds, `site/.env` (Astro reads `site/.env`, not the root one).
+   - Local test without secrets: `npx wrangler dev --local` works offline for KV; POST returns 502 (no token).
+2. **Site**: `site/src/components/ReportButton.svelte`, rendered in `Base.astro` footer (all pages);
+   species pages pass `species={sp.id}` to `Base`. The form also sends the page `<h1>` as `heading`
+   (issue title on species pages). Small button «Сообщить об ошибке» → inline form (textarea, hidden
    honeypot input, send). Prefill page URL. Show «Спасибо, записали» on success, a retry hint on failure.
    Disabled (hidden) when `PUBLIC_REPORT_URL` is not set. Mobile first, ≥ 40 px tap target.
 3. Verify: `cd site && npm run build`, screenshots via `npm run shots`, and a real POST with curl to the

@@ -1,0 +1,13 @@
+# Cloudflare Worker that turns «Сообщить об ошибке» submissions into GitHub issues.
+# Deployed by .github/workflows/worker.yml. The KV namespace id is not hard-coded:
+# the workflow looks up (or creates) the "RATE" namespace and writes wrangler.deploy.toml.
+# Secret: GITHUB_REPORTS_TOKEN (set by the workflow via `wrangler secret put`).
+name = "colombia-birds-reports"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "RATE"
+# Placeholder for `wrangler dev --local`; replaced in CI with the real namespace id.
+id = "local-rate"
