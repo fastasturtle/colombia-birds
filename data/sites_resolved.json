@@ -21,6 +21,7 @@
   "name": "PNN Chingaza (Piedras Gordas)",
   "name_ru": "Чингаса",
   "notes_ru": "Национальный парк к востоку от Боготы, сектор Piedras Gordas; нужна предварительная регистрация. Лучшее место для эндемичного зелёнобородого шлемоносного колибри.",
+  "optional": true,
   "region": "bogota",
   "sources": [
    "https://thespeckledhatchback.blogspot.com/2018/08/colombia-eastern-andes-cundinamarca.html"
@@ -32,7 +33,7 @@
    "chalcostigma-heteropogon",
    "aglaeactis-cupripennis",
    "ramphomicron-microrhynchum",
-   "grallaria-quitensis",
+   "grallaria-alticola",
    "conirostrum-rufum",
    "cnemathraupis-eximia",
    "margarornis-squamiger"
@@ -63,8 +64,8 @@
     "sci": "Ramphomicron microrhynchum"
    },
    {
-    "en": "Tawny Antpitta",
-    "sci": "Grallaria quitensis"
+    "en": "Boyaca Antpitta",
+    "sci": "Grallaria alticola"
    },
    {
     "en": "Rufous-browed Conebill",
@@ -99,6 +100,7 @@
   "name": "Parque La Florida",
   "name_ru": "Ла-Флорида",
   "notes_ru": "Городской парк у аэропорта Эль-Дорадо. Самое доступное место для эндемиков болот саванны Боготы — боготского пастушка и крапивника Аполинара.",
+  "optional": true,
   "region": "bogota",
   "sources": [
    "https://thecitypaperbogota.com/bogota/birding-in-bogota-tips-to-tick-off-that-list/"
@@ -166,6 +168,7 @@
   "name": "PNN Sumapaz",
   "name_ru": "Сумапас",
   "notes_ru": "Крупнейший парамо мира к югу от Боготы, около 2–3 часов езды. Холодно и ветрено; озёрные популяции пастушка и крапивника Аполинара.",
+  "optional": true,
   "region": "bogota",
   "sources": [
    "https://thespeckledhatchback.blogspot.com/2018/08/colombia-eastern-andes-cundinamarca.html"
@@ -175,7 +178,7 @@
    "cistothorus-apolinari",
    "chalcostigma-heteropogon",
    "oxypogon-guerinii",
-   "grallaria-quitensis",
+   "grallaria-alticola",
    "asthenes-fuliginosa",
    "asthenes-flammulata",
    "anas-andium",
@@ -200,8 +203,8 @@
     "sci": "Oxypogon guerinii"
    },
    {
-    "en": "Tawny Antpitta",
-    "sci": "Grallaria quitensis"
+    "en": "Boyaca Antpitta",
+    "sci": "Grallaria alticola"
    },
    {
     "en": "White-chinned Thistletail",
@@ -244,6 +247,7 @@
   "name": "Observatorio de Colibríes (La Calera)",
   "name_ru": "Обсерватория колибри",
   "notes_ru": "Частный сад с кормушками над Боготой по дороге на Ла-Калеру, вход по записи. Десяток видов высокогорных колибри с близкого расстояния.",
+  "optional": true,
   "region": "bogota",
   "sources": [
    "https://observatoriodecolibries.com"
@@ -255,7 +259,7 @@
    "ensifera-ensifera",
    "lesbia-nuna",
    "lesbia-victoriae",
-   "heliangelus-amethysticollis",
+   "heliangelus-clarisse",
    "lafresnaya-lafresnayi",
    "metallura-tyrianthina",
    "chaetocercus-mulsant"
@@ -322,6 +326,7 @@
   "name": "Jardín Botánico José Celestino Mutis",
   "name_ru": "Ботанический сад Боготы",
   "notes_ru": "Ботанический сад в черте города (246 видов в eBird), удобен для свободного дня. В октябре здесь кормятся северные мигранты — древесницы.",
+  "optional": true,
   "region": "bogota",
   "sources": [
    "https://thebirdersshow.com/blog/birding-in-bogota-botanical-garden"
@@ -1614,7 +1619,7 @@
    "fulica-ardesiaca",
    "chroicocephalus-serranus",
    "podiceps-occipitalis",
-   "rallus-limicola",
+   "rallus-aequatorialis",
    "merganetta-armata",
    "patagona-gigas",
    "ensifera-ensifera",
@@ -1718,7 +1723,7 @@
    "hapaloptila-castanea",
    "diglossa-indigotica",
    "chlorochrysa-phoenicotis",
-   "myiothlypis-chrysogaster",
+   "myiothlypis-chlorophrys",
    "cypseloides-cherriei"
   ],
   "target_species_raw": [
@@ -2026,7 +2031,7 @@
    "sipia-berlepschi",
    "entomodestes-coracinus",
    "cichlopsis-leucogenys",
-   "atlapetes-tricolor",
+   "atlapetes-crassus",
    "diglossa-indigotica",
    "ampelioides-tschudii",
    "pipreola-jucunda",
@@ -2198,7 +2203,7 @@
    "columbina-buckleyi",
    "leptotila-pallida",
    "ortalis-cinereiceps",
-   "dacnis-lineata",
+   "dacnis-egregia",
    "cantorchilus-nigricapillus",
    "campephilus-gayaquilensis",
    "attila-torridus",
@@ -2227,8 +2232,8 @@
     "sci": null
    },
    {
-    "en": "Black-faced Dacnis",
-    "sci": null
+    "en": "Yellow-tufted Dacnis",
+    "sci": "Dacnis egregia"
    },
    {
     "en": "Bay Wren",

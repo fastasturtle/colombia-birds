@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "book": {
+  "lynx_page": 155
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "near_endemic": false,
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whimbr3",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Numenius",
+ "id": "numenius-hudsonicus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 6664,
+  "gbif": 2481784,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/whimbr3",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Numenius+hudsonicus"
+ },
+ "name_ru_source": "ru.wikipedia",
+ "names": {
+  "en": "Hudsonian Whimbrel",
+  "en_aco": "Whimbrel",
+  "es": "Zarapito Trinador Americano",
+  "ru": "Американский средний кроншнеп"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Numenius hudsonicus",
+ "sci_name_aco": "Numenius phaeopus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 6011.0,
+ "taxonomy_note": "ACO/SACC lists this as Numenius phaeopus; eBird/Clements uses Numenius hudsonicus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "coastal"
+  ],
+  "mass_g": 388,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

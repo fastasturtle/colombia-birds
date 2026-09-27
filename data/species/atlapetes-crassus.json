@@ -18,45 +18,45 @@
   "status_uncertain": false
  },
  "difficulty": null,
- "ebird_code": "tribrf2",
+ "ebird_code": "tribrf1",
  "family": {
   "code": "passer3",
   "en": "New World Sparrows",
   "sci": "Passerellidae"
  },
  "genus": "Atlapetes",
- "id": "atlapetes-tricolor",
+ "id": "atlapetes-crassus",
  "ids": {
   "avibase": null,
-  "birdbase": 35680,
+  "birdbase": 35678,
   "gbif": 2491398,
-  "inaturalist": "10335",
-  "iucn": "103774148",
-  "wikidata": "Q2226685",
-  "xeno_canto": "Atlapetes-tricolor"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_tricolor",
-  "ebird": "https://ebird.org/species/tribrf2",
-  "inaturalist": "https://www.inaturalist.org/taxa/10335",
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/tribrf1",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Tricolored_brushfinch",
-   "es": "https://es.wikipedia.org/wiki/Atlapetes_tricolor",
-   "ru": "https://ru.wikipedia.org/wiki/Трёхцветная_атлапета"
+   "en": null,
+   "es": null,
+   "ru": null
   },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+tricolor"
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+crassus"
  },
- "name_ru_source": "wikidata",
+ "name_ru_source": null,
  "names": {
-  "en": "Golden-crowned Brushfinch",
+  "en": "Choco Brushfinch",
   "en_aco": "Tricolored Brushfinch",
-  "es": "Atlapetes Tricolor",
-  "ru": "трёхцветная атлапета"
+  "es": "Atlapetes del Chocó",
+  "ru": null
  },
  "order": "Passeriformes",
  "photos": [
@@ -125,19 +125,20 @@
    "width": 1600
   }
  ],
- "sci_name": "Atlapetes tricolor",
+ "sci_name": "Atlapetes crassus",
  "sci_name_aco": "Atlapetes tricolor",
  "sounds": [],
- "taxon_order": 33473.0,
- "taxonomy_note": null,
+ "source": "aco2022",
+ "taxon_order": 33472.0,
+ "taxonomy_note": "ACO/SACC lists this as Atlapetes tricolor; eBird/Clements uses Atlapetes crassus.",
  "texts": {},
  "traits": {
   "diet_desc": null,
   "elevation_m": {
-   "max": 3050,
-   "max_extreme": null,
-   "min": 1525,
-   "min_extreme": 700
+   "max": 2300,
+   "max_extreme": 3100,
+   "min": 600,
+   "min_extreme": 300
   },
   "habitat_breadth": 3,
   "habitats": [
@@ -145,7 +146,7 @@
    "woodland",
    "shrubland"
   ],
-  "mass_g": 33,
+  "mass_g": 34.75,
   "mobility": {
    "altitudinal": null,
    "dispersive": null,
@@ -157,7 +158,5 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Atlapetes%20tricolor.jpg"
- ]
+ "wikidata_images": []
 }
