@@ -2,6 +2,7 @@
 id: schistes-albogularis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, прямой, к концу очень тонкий и острый, как кинжал"
   - "Самец: по бокам горла фиолетово-синие пятна, поперёк верха груди белая полоса"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-throated daggerbill (en, CC BY-SA 4.0) — описание, высоты, питание, голос, таксономия"
   - "Wikipedia: Purple-bibbed whitetip, Speckled hummingbird (en, CC BY-SA 4.0) — отличия, data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: White-throated daggerbill (en, es), Purple-bibbed whitetip, Speckled hummingbird (en), CC BY-SA 4.0; data/sites_resolved.json — фактчек 27.09"
 en:
   key_features:
     - "Short straight bill, very thin and sharp toward the tip, like a dagger"

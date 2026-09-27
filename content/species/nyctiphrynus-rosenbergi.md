@@ -2,6 +2,7 @@
 id: nyctiphrynus-rosenbergi
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тёмно-бурый, в чёрных, рыжих и коричных крапинах"
   - "Большое белое пятно на горле"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/nyctiphrynus-rosenbergi.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/caprimulgidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Chocó poorwill (en, разделы Description, Vocalization), Pauraque, Short-tailed nighthawk (en), CC BY-SA 4.0; data/sites_resolved.json — фактчек 27.09"
 en:
   key_features:
     - "Dark brown, speckled black, rufous and cinnamon"
@@ -43,10 +45,10 @@ en:
 ---
 Choco Poorwill (чокский козодой) — почти-эндемик тихоокеанской низменности Колумбии и Эквадора, во влажном лесу от уровня моря до 900 м. Держится на краях леса, у рек и на прогалинах; о его гнездовании почти ничего не известно. Раньше его считали подвидом Ocellated Poorwill, но голос, окраска и генетика у него свои. Днём его не найти, поэтому искать его надо по голосу в сумерках.
 
-На маршруте он редок: по данным GBIF есть лишь единичные наблюдения у Рио-Ньямби, Авес-и-Флорес и Бангсиас-лоджа 18–20 октября, почти у верхней границы вида. Если на закате окажешься у лесной опушки на склоне Чоко, прислушайся к ритмичному свисту.
+На маршруте он редок: вид значится среди целевых у Рио-Ньямби, но по данным GBIF есть лишь единичные наблюдения у Рио-Ньямби, Авес-и-Флорес и Бангсиас-лоджа 18–20 октября, почти у верхней границы вида. Если на закате окажешься у лесной опушки на склоне Чоко, прислушайся к ритмичному свисту.
 
 ## English
 
 Choco Poorwill is a near-endemic of the Pacific lowlands of Colombia and Ecuador, in humid forest from sea level to 900 m. It keeps to forest edges, riverbanks and clearings; almost nothing is known about its breeding. It was formerly treated as a subspecies of Ocellated Poorwill, but its voice, plumage and genetics are distinct. By day it is impossible to find, so it has to be tracked down by voice at dusk.
 
-On the route it is scarce: GBIF has only single records at Río Ñambí, Aves y Flórez and Bangsias Lodge on 18–20 October, near the species' upper limit. If you are at a forest edge on the Chocó slope at sunset, listen for the rhythmic whistle.
+On the route it is scarce: it is listed among the targets at Río Ñambí, but GBIF has only single records at Río Ñambí, Aves y Flórez and Bangsias Lodge on 18–20 October, near the species' upper limit. If you are at a forest edge on the Chocó slope at sunset, listen for the rhythmic whistle.

@@ -2,6 +2,7 @@
 id: colibri-delphinae
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение тускло-бурое, низ сероватый, поясница рыжеватая"
   - "От глаза назад и вниз идёт фиолетовое пятно"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Brown violetear (en, CC BY-SA 4.0) — описание, высоты гнездования, токование, поведение у кормушек"
   - "Wikipedia: Lesser violetear, Sparkling violetear (en, CC BY-SA 4.0) — отличия, data/texts; согласовано с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Brown violetear (en, es), Lesser violetear, Sparkling violetear (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Dull brown plumage, grayer below, rufous-tinged rump"

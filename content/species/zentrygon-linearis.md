@@ -2,6 +2,7 @@
 id: zentrygon-linearis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Две тёмные полосы на лице, через глаз и под щекой; щёки охристые"
   - "От глаза к затылку серая дуга, лоб розовато-охристый, темя бурое"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: White-throated quail-dove, Ruddy quail-dove (en, CC BY-SA 4.0) — отличия"
   - "content/families/columbidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Lined quail-dove (en, разделы Description, Vocalization; ru), White-throated quail-dove, Ruddy quail-dove (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Two dark facial stripes, through the eye and below the cheek; buffy cheeks"

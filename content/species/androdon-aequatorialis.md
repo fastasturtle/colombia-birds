@@ -2,6 +2,7 @@
 id: androdon-aequatorialis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, около 4 см, почти прямой; у самца кончик с крючком"
   - "Низ беловатый в тёмных продольных пестринах"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Tooth-billed hummingbird (en, CC BY-SA 4.0) — описание, высоты в Колумбии, поведение, голос"
   - "Wikipedia: White-whiskered hermit, Green-fronted lancebill (en, CC BY-SA 4.0) — отличия, data/texts; согласовано с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Tooth-billed hummingbird (en, es), White-whiskered hermit, Green-fronted lancebill (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Long, almost straight bill, about 4 cm; male's tip hooked"

@@ -2,6 +2,7 @@
 id: columbina-talpacoti
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец рыжевато-коричневый, голова голубовато-серая"
   - "На крыле несколько чёрных пятнышек"
@@ -11,9 +12,9 @@ similar:
   - id: columbina-buckleyi
     how: "спина и крыло серо-бурые, без рыжего, грудь самца лилово-розовая; живёт на тихоокеанском побережье"
   - id: columbina-passerina
-    how: "голова и грудь в чешуйчатом рисунке, клюв розовато-оранжевый с чёрным концом"
+    how: "голова и грудь в чешуйчатом рисунке, клюв светлый (желтоватый или розоватый) с чёрным концом"
   - id: claravis-pretiosa
-    how: "крупнее; самец голубовато-серый с чёрными пятнами на крыле, самка бурая с каштановыми пятнами; держится в лесу"
+    how: "крупнее; самец голубовато-серый с чёрными пятнами на крыле, самка бурая с каштановыми пятнами; держится на лесных опушках и полянах"
 behavior: "Кормится парами и стайками на земле: на обочинах, во дворах, на пастбищах и в садах лоджей, склёвывает семена. Вспархивает с шелестом крыльев и садится неподалёку."
 voice: "Мягкое повторяющееся «ку-вуу, ку-вуу»."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/columbina-talpacoti.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/columbina-buckleyi.md, content/species/zenaida-auriculata.md (согласование); Wikipedia: Common ground dove, Blue ground dove (en, CC BY-SA 4.0)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Ruddy ground dove (en, ru), Ecuadorian ground dove, Common ground dove, Blue ground dove (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Male rufous-brown with a bluish-gray head"
@@ -37,9 +39,9 @@ en:
     - id: columbina-buckleyi
       how: "gray-brown back and wing without rufous, male with a lilac-pink breast; lives on the Pacific coast"
     - id: columbina-passerina
-      how: "scaly pattern on the head and breast, pinkish-orange bill with a black tip"
+      how: "scaly pattern on the head and breast, pale (yellowish or pinkish) bill with a black tip"
     - id: claravis-pretiosa
-      how: "larger; male bluish-gray with black wing spots, female brown with chestnut spots; keeps to forest"
+      how: "larger; male bluish-gray with black wing spots, female brown with chestnut spots; keeps to forest edges and clearings"
   behavior: "Feeds in pairs and small flocks on the ground: roadsides, yards, pastures and lodge gardens, picking up seeds. Flushes with a rustle of wings and lands close by."
   voice: "A soft repeated 'koo-woo, koo-woo'."
 ---

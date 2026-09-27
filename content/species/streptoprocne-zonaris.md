@@ -2,6 +2,7 @@
 id: streptoprocne-zonaris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупнейший стриж маршрута, размах крыльев около полуметра"
   - "Весь чёрный, с белым ошейником вокруг шеи, шире всего на груди"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Chestnut-collared swift, Spot-fronted swift (en, CC BY-SA 4.0) — отличия, data/texts"
   - "content/families/apodidae.md (стаи на маршруте, гнёзда за водопадами)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: White-collared swift (en, es, ru), Chestnut-collared swift, Spot-fronted swift (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Largest swift of the route, wingspan about half a metre"

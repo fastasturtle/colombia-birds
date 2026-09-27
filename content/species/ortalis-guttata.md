@@ -2,6 +2,7 @@
 id: ortalis-guttata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь тёмно-бурые в мелких белых крапинах"
   - "Голова и шея серее тела, вокруг глаза голая сизая кожа"
@@ -13,7 +14,7 @@ similar:
   - id: penelope-jacquacu
     how: "намного крупнее и темнее, с голой красной серёжкой на горле и белыми пестринами на крыле"
 behavior: "Группами кормится плодами и листьями на опушках, в зарослях по берегам рек и в садах; неуклюже перелезает по веткам и шумно перелетает."
-voice: "Громкий скрипучий хор «ча-ча-лак» на рассвете и в сумерках; птицы группы кричат вразнобой, и хор слышен далеко."
+voice: "Громкая ритмичная пятисложная фраза «ха-га-ГАА-гогок», быстро повторяемая; птицы группы кричат хором, и его слышно далеко."
 traits:
   size: crow
   colors: [brown, gray, rufous]
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/ortalis-guttata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/ortalis-columbiana.md, content/species/opisthocomus-hoazin.md (согласование); Wikipedia: Spix's guan (en, CC BY-SA 4.0)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Speckled chachalaca (en, разделы Distribution and habitat, Vocalization; es), Colombian chachalaca, Spix's guan (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Dark brown throat and breast with small white speckles"
@@ -38,14 +40,14 @@ en:
     - id: penelope-jacquacu
       how: "much larger and darker, with a bare red dewlap and white streaks on the wing"
   behavior: "Feeds in groups on fruit and leaves at forest edges, riverside thickets and gardens; clambers clumsily through branches and flies off noisily."
-  voice: "A loud grating chorus 'cha-cha-lak' at dawn and dusk; group members call out of sync, and the chorus carries far."
+  voice: "A loud rhythmic five-syllable phrase 'ha-ga-GAA-gogok', repeated rapidly; group members call in chorus, and it carries far."
 ---
-Speckled Chachalaca (глазчатая чачалака) — обычная чачалака Амазонии: в Колумбии живёт на восточной стороне Анд, от низин до 2 000 м. Держится не в глубине леса, а на опушках, в зарослях у рек, на старицах и возле деревень. На вид это скромная бурая птица, похожая на длиннохвостую курицу, но голос выдаёт её раньше, чем её увидишь.
+Speckled Chachalaca (глазчатая чачалака) — обычная чачалака Амазонии: в Колумбии живёт на восточной стороне Анд, от низин до предгорий (в соседних Эквадоре и Перу обычно до 1 100–1 700 м). Держится не в глубине леса, а на опушках, в зарослях у рек, на старицах и возле деревень. На вид это скромная бурая птица, похожая на длиннохвостую курицу, но голос выдаёт её раньше, чем её увидишь.
 
 На маршруте вид «точно» у Орито 11 октября, у Пуэрто-Асиса и в Плайя-Рике 11–13 октября, в Эль-Эскондите 13–14 октября и на Финке Дискосура 7 октября. На рассвете у лоджа первым делом прислушайся к хору: в предгорьях Путумайо это почти всегда она.
 
 ## English
 
-Speckled Chachalaca is the common chachalaca of Amazonia: in Colombia it lives on the eastern side of the Andes, from the lowlands up to 2,000 m. It keeps not to the forest interior but to edges, riverside thickets, oxbows and village surroundings. It is a modest brown bird like a long-tailed chicken, but its voice gives it away before you see it.
+Speckled Chachalaca is the common chachalaca of Amazonia: in Colombia it lives on the eastern side of the Andes, from the lowlands into the foothills (in neighbouring Ecuador and Peru usually up to 1,100–1,700 m). It keeps not to the forest interior but to edges, riverside thickets, oxbows and village surroundings. It is a modest brown bird like a long-tailed chicken, but its voice gives it away before you see it.
 
 On the route it is "sure" at Orito on 11 October, at Puerto Asís and Playa Rica on 11–13 October, at El Escondite on 13–14 October and at Finca Discosura on 7 October. At dawn by the lodge, listen for the chorus first: in the Putumayo foothills it is almost always this species.

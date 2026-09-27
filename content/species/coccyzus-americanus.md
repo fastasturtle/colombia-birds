@@ -2,6 +2,7 @@
 id: coccyzus-americanus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Нижняя половина клюва жёлтая, надклювье чёрное; клюв слегка изогнут"
   - "Снизу хвост чёрный с крупными белыми пятнами на концах перьев"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/coccyzus-americanus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Black-billed cuckoo, Dark-billed cuckoo (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Yellow-billed cuckoo (en, es, ru), Black-billed cuckoo, Dark-billed cuckoo (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Yellow lower mandible, black upper mandible; bill slightly curved"
