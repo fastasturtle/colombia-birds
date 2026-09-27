@@ -2,6 +2,7 @@
 id: galbalcyrhynchus-leucotis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Большое белое пятно на щеке ярко выделяется на тёмной каштановой голове"
   - "Почти вся рыже-каштановая; темя, крылья и хвост темнее, с бронзовым блеском"
@@ -44,3 +45,5 @@ White-eared Jacamar (белоухая якамара) — якамара вер�
 White-eared Jacamar is a jacamar of the upper Amazon, from Meta to northeastern Peru and western Brazil, up to 500 m. It lives in terra firme and várzea and prefers edges by clearings and rivers. It differs from most jacamars in build: not slim and glossy but a stocky chestnut bird with a white "ear" visible from afar.
 
 On the route it is "maybe" at Puerto Asís from 11 to 13 October and Playa Rica on 12 October. Check branches over channels and along the várzea edge.
+  - "eBird: White-eared Jacamar (https://ebird.org/species/whejac1), цвет клюва и короткий хвост по сниппету поиска — фактчек 27.09"
+  - "Wikipedia: White-chinned jacamar (en, es, CC BY-SA 4.0) — фактчек 27.09"

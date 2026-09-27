@@ -2,6 +2,7 @@
 id: ramphastos-ambiguus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо, горло и верх груди ярко-жёлтые, снизу белая и красная каёмки"
   - "Надклювье жёлтое; подклювье каштановое на западном склоне, чёрное на восточном"
@@ -13,7 +14,7 @@ similar:
   - id: ramphastos-tucanus
     how: "горло и грудь белые; живёт ниже, в амазонских низинах"
 behavior: "Держится парами и семейными группами в кронах влажного леса, выходит на опушки и к плодовым деревьям у пастбищ. Кроме плодов ест насекомых, ящериц и разоряет гнёзда."
-voice: "Громкие визгливые выкрики «кьё-ке-ке», хорошо слышные над лесом."
+voice: "Серия громких, далеко слышных визгливых криков, которую передают как «Díos te dé, te dé»; кричит с верхушек деревьев, особенно на рассвете и в сумерках."
 traits:
   size: crow
   colors: [black, yellow]
@@ -40,7 +41,7 @@ en:
     - id: ramphastos-tucanus
       how: "white throat and breast; lives lower, in the Amazonian lowlands"
   behavior: "Keeps in pairs and family groups in the humid-forest canopy, coming to edges and fruiting trees by pastures. Besides fruit it takes insects and lizards and raids nests."
-  voice: "Loud yelping calls, 'kyow-ke-ke', carrying well over the forest."
+  voice: "A series of loud, far-carrying yelps, rendered as 'Díos te dé, te dé'; calls from treetops, especially at dawn and dusk."
 ---
 Yellow-throated Toucan (желтогорлый тукан) — крупный тукан, 47–61 см, от Гондураса до Перу. На маршруте встречаются две формы: на тихоокеанском склоне каштановоклювый подвид swainsonii, от низин почти до 2 000 м, на восточном склоне — черноклювый номинативный, в предгорном лесу. На западе его легко спутать с Choco Toucan, и надёжнее всего различать их по голосу.
 
@@ -51,3 +52,5 @@ Yellow-throated Toucan (желтогорлый тукан) — крупный т
 Yellow-throated Toucan is a large toucan, 47–61 cm, ranging from Honduras to Peru. Two forms occur on the route: the chestnut-mandibled subspecies swainsonii on the Pacific slope, from the lowlands up to nearly 2,000 m, and the black-mandibled nominate on the east slope, in foothill forest. In the west it is easily confused with Choco Toucan, and voice is the safest way to tell them apart.
 
 It is "maybe" at Finca Discosura on 7 October and Isla Escondida on 7–11 October, and in the west at Aves y Flórez on 18–20 October, Río Ñambí on 19 October, Bangsias Lodge on 20 October, La Nutria and Km 42 on 21 October and Finca Maragrícola on 22 October.
+  - "Wikipedia: Yellow-throated toucan, раздел Vocal and non-vocal sounds, живая версия (https://en.wikipedia.org/wiki/Yellow-throated_toucan) — фактчек 27.09"
+  - "Wikipedia: Choco toucan, White-throated toucan (en, ru, CC BY-SA 4.0) — фактчек 27.09"

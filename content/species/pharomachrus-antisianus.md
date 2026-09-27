@@ -2,6 +2,7 @@
 id: pharomachrus-antisianus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост снизу у самца белый — главное отличие от других кетцалей Анд"
   - "Над клювом самца короткий торчащий хохолок"
@@ -13,7 +14,7 @@ similar:
   - id: trogon-personatus
     how: "мельче, лицо чёрное, хвост снизу в тонких чёрно-белых полосках"
 behavior: "Держится в среднем ярусе и кронах нетронутого и старого вторичного горного леса. Ест в основном плоды; выкармливая птенцов, взрослые ловят также членистоногих и мелких лягушек."
-voice: "Повторяющиеся звучные свисты сериями; при тревоге трескучий стрекот."
+voice: "Печальный свист «ууу, уу́п» — парами с долгими паузами, ударение на второй ноте."
 traits:
   size: pigeon
   colors: [green, red, white]
@@ -37,7 +38,7 @@ en:
     - id: trogon-personatus
       how: "smaller, black face, undertail finely barred black and white"
   behavior: "Keeps to the mid-storey and canopy of pristine and mature secondary montane forest. Eats mainly fruit; when feeding young, adults also catch arthropods and small frogs."
-  voice: "Repeated ringing whistles in series; a rattling chatter in alarm."
+  voice: "A mournful whistled 'whoo, whoop', given in widely spaced pairs with the stress on the second note."
 ---
 Crested Quetzal (хохлатый кетцаль) — кетцаль горных лесов Анд от Венесуэлы до Боливии, на высотах 1 200–3 000 м, длиной 33–34 см, с голубя. В облачном лесу Уилы и Путумайо он делит пояс с похожим златоголовым кетцалем, поэтому птицу, сидящую спиной, стоит дождаться, пока она повернётся: белый низ хвоста и хохолок на лбу решают дело.
 
@@ -48,3 +49,5 @@ Crested Quetzal (хохлатый кетцаль) — кетцаль горны�
 Crested Quetzal is a quetzal of Andean montane forest from Venezuela to Bolivia, at 1,200–3,000 m; at 33–34 cm it is pigeon-sized. In the cloud forests of Huila and Putumayo it shares its belt with the similar Golden-headed Quetzal, so a bird sitting with its back to you is worth waiting for until it turns: the white undertail and the crest on the forehead settle it.
 
 On the route it is "maybe" at El Encanto on 4 and 6 October, La Drymophila on 5 October and Trampolín de las Aves on 15 October. Check fruiting trees along edges in the morning.
+  - "eBird: Crested Quetzal, описание голоса по сниппету поиска (https://ebird.org/species/creque1) — фактчек 27.09"
+  - "Wikipedia: Masked trogon (en, es, CC BY-SA 4.0) — фактчек 27.09"

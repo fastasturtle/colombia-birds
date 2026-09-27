@@ -2,6 +2,7 @@
 id: trogon-viridis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост снизу почти белый: у каждого пера широкий белый конец и край"
   - "Кольцо вокруг глаза голубое, клюв голубовато-серый"
@@ -49,3 +50,4 @@ Green-backed Trogon (зеленохвостый трогон) — крупный
 Green-backed Trogon is a large trogon, 28–30 cm, and usually the commonest one within its Amazonian range. It lives in humid forest, at edges and along rivers in the lowlands and foothills up to 1,300 m. From below it is often easier to see than from above: the yellow belly and almost white tail give it away in the canopy.
 
 On the route it is "maybe" through almost the whole Amazonian section: at Isla Escondida from 7 to 11 October, Puerto Asís from 11 to 13 October and El Escondite on 13–14 October. Usually you hear the accelerating series of 'cow' notes first.
+  - "Wikipedia: Amazonian trogon, Blue-crowned trogon (en, CC BY-SA 4.0); Белохвостый трогон (ru) — фактчек 27.09"

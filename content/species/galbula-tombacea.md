@@ -2,6 +2,7 @@
 id: galbula-tombacea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, тонкий, прямой, чёрный, как игла"
   - "Спина металлически-бронзово-зелёная, горло и грудь блестяще-зелёные"
@@ -45,3 +46,4 @@ White-chinned Jacamar (белобородая якамара) — якамара
 White-chinned Jacamar is a jacamar of western Amazonia, from Meta to Peru and western Brazil, up to 1,200 m. It keeps to shrubby edges and gaps in terra firme, várzea and gallery forest. It sits in the open, turning its head, and sallies for insects; in sunlight the back flashes bronze, while in shade the bird looks dark with a rufous belly. The white chin spot is small and visible only at close range.
 
 On the route it is "maybe" at Puerto Asís from 11 to 13 October, Playa Rica on 12 October and El Escondite on 13–14 October.
+  - "Wikipedia: White-eared jacamar (en, CC BY-SA 4.0) — фактчек 27.09"
