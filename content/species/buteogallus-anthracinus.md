@@ -2,6 +2,7 @@
 id: buteogallus-anthracinus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение чёрное или черновато-бурое; восковица, кожа у клюва и ноги жёлтые"
   - "Хвост короткий, чёрный, с одной широкой белой полосой посередине и белым кончиком"
@@ -13,7 +14,7 @@ similar:
   - id: buteo-albonotatus
     how: "стройнее, хвост длиннее, с несколькими полосами, маховые снизу серебристые; парит с крыльями буквой V"
 behavior: "Держится в манграх, по берегам лиманов и рек; подолгу сидит на низкой присаде над водой или илом. Главная добыча у побережья — крабы, также рыба, лягушки и ящерицы."
-voice: "Серия высоких свистящих нот, сначала нарастающих, затем затихающих (проверить)."
+voice: "Серия высоких звонких свистов «спинк-спиинк-спиинк-спинк-спинк»."
 traits:
   size: crow
   colors: [black]
@@ -37,7 +38,7 @@ en:
     - id: buteo-albonotatus
       how: "slimmer, longer tail with several bands, silvery flight feathers below; soars with wings in a V"
   behavior: "Keeps to mangroves, estuary shores and river banks, sitting for long spells on a low perch over water or mud. On the coast its main prey is crabs, also fish, frogs and lizards."
-  voice: "A series of high whistled notes, first rising, then fading (to be verified)."
+  voice: "A series of high, piping whistles, 'spink-speenk-speenk-spink-spink'."
 ---
 Common Black Hawk (чёрный крабоед) — ширококрылый чёрный хищник длиной 43–53 см. На тихоокеанском побережье Колумбии живёт мангровая форма subtilis, Mangrove Black Hawk, которую раньше считали отдельным видом. Сидит низко и подпускает близко, так что жёлтые ноги, короткий хвост с одной белой полосой и массивный силуэт хорошо видны.
 

@@ -2,6 +2,7 @@
 id: micrastur-ruficollis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голая кожа вокруг глаза, у клюва и восковица жёлтые"
   - "Верх ровно аспидно-серый, горло светло-серое"
@@ -12,7 +13,7 @@ similar:
   - id: micrastur-plumbeus
     how: "голая кожа лица и восковица оранжевые, на хвосте одна узкая белая полоса; грудь серая в тонких полосках"
   - id: accipiter-striatus
-    how: "хвост прямо срезанный, без белого конца, лицо оперённое, без голой кожи; низ обычно рыжеватый"
+    how: "хвост прямо срезанный, в серых, а не белых полосах; лицо оперённое, без голой кожи; низ обычно рыжеватый"
 behavior: "Скрытный охотник подлеска и среднего яруса зрелого леса: подолгу сидит неподвижно, затем бросается на ящериц, мелких птиц и грызунов. Иногда следует за муравьями-кочевниками."
 voice: "На рассвете и в сумерках повторяет одиночный резкий лающий крик «ахр!» с паузами в несколько секунд."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/micrastur-ruficollis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/micrastur-plumbeus.md, content/species/micrastur-gilvicollis.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Sharp-shinned hawk (en), CC BY-SA 4.0 — data/texts: хвост с белым кончиком; факт-чек 27.09.2026"
 en:
   key_features:
     - "Bare skin around the eye and at the bill base, and the cere, yellow"
@@ -38,7 +40,7 @@ en:
     - id: micrastur-plumbeus
       how: "bare facial skin and cere orange, a single narrow white tail band; gray breast finely barred"
     - id: accipiter-striatus
-      how: "square-tipped tail without a white tip, feathered face with no bare skin; underparts usually rufous-tinged"
+      how: "square-tipped tail banded gray rather than white; feathered face with no bare skin; underparts usually rufous-tinged"
   behavior: "A secretive hunter of the understory and midstory of mature forest: it sits motionless for long spells, then dashes at lizards, small birds and rodents. Sometimes follows army-ant swarms."
   voice: "At dawn and dusk it repeats a single sharp barking 'ahr!' with pauses of several seconds."
 ---

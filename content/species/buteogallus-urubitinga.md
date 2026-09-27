@@ -2,6 +2,7 @@
 id: buteogallus-urubitinga
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный, целиком чёрный хищник с очень широкими крыльями"
   - "Хвост белый с широкой чёрной полосой на конце; надхвостье белое"

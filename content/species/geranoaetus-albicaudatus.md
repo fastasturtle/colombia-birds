@@ -2,6 +2,7 @@
 id: geranoaetus-albicaudatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост короткий, белый, с узкой чёрной полосой у конца"
   - "Верх и голова серые, низ белый; на плече рыжее пятно"

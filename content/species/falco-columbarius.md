@@ -2,6 +2,7 @@
 id: falco-columbarius
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ светлый, в густых бурых продольных пестринах"
   - "Лицо без резкого рисунка: «ус» слабый, узкий, над глазом светлая бровь"
@@ -42,12 +43,12 @@ en:
   behavior: "A wintering hunter of small birds: it chases shorebirds, swallows and passerines on the coast, in fields and by marshes, attacking in a fast, low flight. Between hunts it sits on a post, a dead tree or a beach snag."
   voice: "Nearly silent in winter; a rapid, sharp 'ki-ki-ki' at the nest."
 ---
-Merlin (дербник) — небольшой плотный сокол длиной 24–33 см, гнездящийся в Северной Америке и Евразии. В Колумбию он прилетает на зимовку с октября, от побережья до 3 000 м, и держится открытых мест. Главное в полевом определении — неконтрастная голова, пестрины на груди и полёт: дербник проносится низко над землёй, как брошенный камень.
+Merlin (дербник) — небольшой плотный сокол длиной 24–33 см, гнездящийся в Северной Америке и Евразии. В Колумбию он прилетает на зимовку примерно с октября, держится от побережья до 3 000 м в открытых местах. Главное в полевом определении — неконтрастная голова, пестрины на груди и полёт: дербник проносится низко над землёй, как брошенный камень.
 
 На маршруте он «возможно» в Тумако 21 и 23 октября и у Плайя-дель-Морро 22–23 октября: смотри на столбы и коряги у пляжа, где отдыхают кулики. Под Боготой его отмечают на Ла-Флориде и в Сумапасе, но эти места не входят в программу тура.
 
 ## English
 
-Merlin is a small, stocky falcon 24–33 cm long that breeds in North America and Eurasia. It reaches Colombia to winter from October, from the coast to 3,000 m, and keeps to open country. The keys in the field are the low-contrast head, the streaked breast and the flight: a Merlin shoots low over the ground like a thrown stone.
+Merlin is a small, stocky falcon 24–33 cm long that breeds in North America and Eurasia. It reaches Colombia to winter from about October and keeps to open country from the coast to 3,000 m. The keys in the field are the low-contrast head, the streaked breast and the flight: a Merlin shoots low over the ground like a thrown stone.
 
 On the route it is "maybe" at Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October: check posts and beach snags where shorebirds rest. Near Bogotá it is recorded at La Florida and Sumapaz, but those sites are not in the tour programme.

@@ -2,6 +2,7 @@
 id: asio-stygius
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень тёмная сова: лицо черноватое, лоб беловатый"
   - "Ушки длинные, тёмные, посажены близко друг к другу"
@@ -10,11 +11,11 @@ key_features:
   - "Верх тёмно-бурый с охристыми штрихами"
 similar:
   - id: asio-clamator
-    how: "намного светлее, лицевой диск белый в чёрной рамке, глаза тёмные"
+    how: "намного светлее, лицевой диск белый в чёрной рамке, глаза коричневые"
   - id: strix-albitarsis
     how: "ушек нет, голова круглая, лицо рыжевато-коричневое, верх и грудь в рыжих поперечных полосах"
 behavior: "Ночная сова лесов, опушек и парков с высокими деревьями, в том числе посадок сосны и эвкалипта. Днём сидит у ствола в густой кроне; охотится в сумерках на мелких птиц, летучих мышей и грызунов."
-voice: "Самец издаёт одиночное глухое «ху!» с паузами в несколько секунд; у самки более высокий крик (проверить)."
+voice: "Короткое громкое глухое «ху!», повторяемое через 5–10 секунд; бывает и тихое «пис-пис»."
 traits:
   size: crow
   colors: [black, brown]
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/asio-stygius.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/strix-albitarsis.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Striped owl (en, ru), CC BY-SA 4.0 — data/texts: цвет глаз A. clamator; факт-чек 27.09.2026"
 en:
   key_features:
     - "A very dark owl: blackish face with a whitish forehead"
@@ -36,11 +38,11 @@ en:
     - "Dark brown upperparts with buff streaks"
   similar:
     - id: asio-clamator
-      how: "much paler, white facial disc with a black rim, dark eyes"
+      how: "much paler, white facial disc with a black rim, brown eyes"
     - id: strix-albitarsis
       how: "no ear tufts, round head, rufous-brown face, upperparts and breast barred rufous"
   behavior: "A nocturnal owl of forest, edges and parks with tall trees, including pine and eucalyptus plantations. By day it roosts against the trunk in a dense crown; at dusk it hunts small birds, bats and rodents."
-  voice: "The male gives a single deep 'hoo!' at intervals of several seconds; the female's call is higher (to be verified)."
+  voice: "A short, loud, deep 'hoo!' repeated every 5–10 seconds; also a soft 'pis-pis'."
 ---
 Stygian Owl (черноватая сова) — тёмная ушастая сова длиной 38–46 см; название дано по реке Стикс. В Колумбии встречается от низин до 3 000 м, но везде редка и скрытна. Под Боготой её регулярно находят днём на присадах в парках, где она сидит в густой хвое у самого ствола.
 

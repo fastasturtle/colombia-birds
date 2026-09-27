@@ -2,6 +2,7 @@
 id: buteo-nitidus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь светло-серый; низ в тонких серо-белых поперечных полосках"
   - "Спина серая с едва заметной тонкой светлой рябью"
@@ -14,7 +15,7 @@ similar:
   - id: buteo-platypterus
     how: "голова и грудь бурые, у взрослых грудь в рыжих полосах, подкрылья светлые с тёмной каймой"
 behavior: "Держится по опушкам, вдоль рек и во вторичном лесу. Сидит на открытой присаде высоко на дереве и пикирует оттуда на ящериц и змей, берёт также насекомых, птиц и мелких зверьков. Для канюка крылья короткие, полёт быстрый и вёрткий."
-voice: "Громкий жалобный свист «хуииии», понижающийся к концу (проверить)."
+voice: "Громкий жалобный протяжный свист «хуииииу», понижающийся к концу."
 traits:
   size: crow
   colors: [gray, white, black]
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/buteo-nitidus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/rupornis-magnirostris.md, content/species/buteo-platypterus.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Поиск по Wikipedia (Gray hawk, Gray-lined hawk), сниппет: у взрослых тёмно-карие глаза; страница eBird https://ebird.org/species/gryhaw3 недоступна (проверка на бота); факт-чек 27.09.2026"
 en:
   key_features:
     - "Pale gray all over; underparts finely barred gray and white"
@@ -40,7 +42,7 @@ en:
     - id: buteo-platypterus
       how: "brown head and breast, adults barred rufous on the breast, pale underwings with a dark border"
   behavior: "Keeps to edges, rivers and second growth. It sits on an open perch high in a tree and swoops from there on lizards and snakes, also taking insects, birds and small mammals. Short-winged for a buteo, with a fast, agile flight."
-  voice: "A loud plaintive whistle 'hweeeeoo', falling at the end (to be verified)."
+  voice: "A loud, plaintive, drawn-out whistle 'hweeeeoo', falling at the end."
 ---
 Gray-lined Hawk (полосатый канюк) — светлый серый канюк длиной около 40–46 см, которого раньше объединяли с североамериканским Gray Hawk. В Колумбии живёт в низинах, обычно ниже 800 м, на опушках, в редколесьях и вдоль рек. Взрослую птицу на присаде легко узнать: серая, как голубь, с чёрно-белым хвостом; сложнее с молодыми, которые бурые и пёстрые.
 

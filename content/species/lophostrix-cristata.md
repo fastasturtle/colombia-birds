@@ -2,11 +2,12 @@
 id: lophostrix-cristata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Длинные белые «брови» переходят в очень длинные белые или беловатые ушки"
-  - "Лицевой диск тёмно-бурый или каштановый, в тёмной рамке"
+  - "Лицевой диск тёмный, шоколадно-бурый или каштановый"
   - "Верх тёмно-бурый, на кроющих крыла белые пятнышки"
-  - "Низ светло-охристый в тонкой бурой ряби"
+  - "Низ бурый или рыжевато-бурый, верх груди темнее, как «воротник»"
   - "Средняя сова, крупнее совок, примерно с ворону"
 similar:
   - id: pulsatrix-perspicillata
@@ -30,9 +31,9 @@ sources:
 en:
   key_features:
     - "Long white 'eyebrows' running into very long white or whitish ear tufts"
-    - "Dark brown or chestnut facial disc with a dark rim"
+    - "Dark facial disc, chocolate-brown or chestnut"
     - "Dark brown upperparts, small white spots on the wing coverts"
-    - "Pale buff underparts finely vermiculated brown"
+    - "Brown or rufous-brown underparts, darker upper breast like a collar"
     - "Medium-sized owl, larger than screech-owls, roughly crow-sized"
   similar:
     - id: pulsatrix-perspicillata
@@ -42,12 +43,12 @@ en:
   behavior: "A strictly nocturnal owl of lowland and foothill rainforest, especially along streams and rivers. By day pairs roost in dense understory or midstory 3–10 m up; when alarmed it stretches thin and raises its tufts. Feeds on large insects, less often small vertebrates."
   voice: "A low, far-carrying growl: a short stutter 'k-k-kk' running into 'grrrrr', like a frog's croak."
 ---
-Crested Owl (рогатая неясыть) — единственный вид своего рода, сова длиной 38–43 см. В Колумбии живёт во влажном лесу от низин до 2 000 м, чаще у воды. Ошибиться невозможно: длинные белые ушки торчат над тёмным лицом, как рога. Сложность не в определении, а в поиске: днём сова спит в густой зелени, ночью кричит высоко и редко.
+Crested Owl (рогатая неясыть) — единственный вид своего рода, сова длиной 38–43 см. В Колумбии живёт во влажном лесу от низин до 2 000 м, но чаще ниже 1 000 м и у воды. Ошибиться невозможно: длинные белые ушки торчат над тёмным лицом, как рога. Сложность не в определении, а в поиске: днём сова спит в густой зелени, а ночью кричит из высокого полога.
 
 На маршруте она «возможно» на Исла-Эскондиде 7–11 октября: на ночных выходах слушай низкое рычание у ручьёв. На тихоокеанском склоне, в Ла-Нутрии и Авес-и-Флорес, записи единичны.
 
 ## English
 
-Crested Owl is the only member of its genus, an owl 38–43 cm long. In Colombia it lives in humid forest from the lowlands to 2,000 m, most often near water. It is unmistakable: long white ear tufts stick up over a dark face like horns. The difficulty is not identification but finding it: by day it sleeps in dense foliage, and at night it calls from high up and infrequently.
+Crested Owl is the only member of its genus, an owl 38–43 cm long. In Colombia it lives in humid forest from the lowlands to 2,000 m, but mostly below 1,000 m and near water. It is unmistakable: long white ear tufts stick up over a dark face like horns. The difficulty is not identification but finding it: by day it sleeps in dense foliage, and at night it calls from high in the canopy.
 
 On the route it is "maybe" at Isla Escondida on 7–11 October: on night walks listen for the low growl along streams. On the Pacific slope, at La Nutria and Aves y Flórez, records are few.

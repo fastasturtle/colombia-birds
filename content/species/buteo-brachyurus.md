@@ -2,11 +2,12 @@
 id: buteo-brachyurus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Светлая морфа: низ и горло чисто белые, без рисунка"
   - "Щёки и голова по бокам тёмно-бурые, как капюшон, резко против белого горла"
   - "Снизу белые подкрылья, серые маховые с тёмной каймой по заднему краю"
-  - "Хвост короткий, серый, в частых тонких полосах"
+  - "Хвост короткий, серый, в тонких тёмных полосах, у конца полоса шире"
   - "Тёмная морфа целиком черновато-бурая, только маховые снизу светлее"
 similar:
   - id: buteo-albigula
@@ -14,7 +15,7 @@ similar:
   - id: buteo-platypterus
     how: "у взрослых грудь в рыжих поперечных полосах, хвост с одной-двумя широкими белыми полосами"
 behavior: "Почти не сидит на виду: охотится с высоты, паря над краем леса и полями. Часто неподвижно висит против ветра, затем складывает крылья и падает на птицу ступенями. Добыча — в основном мелкие и средние птицы."
-voice: "Высокий тонкий свист «клиии», чаще у гнезда (проверить)."
+voice: "Высокий пронзительный крик «клииа», похожий на крики других канюков."
 traits:
   size: crow
   colors: [black, white]
@@ -32,7 +33,7 @@ en:
     - "Light morph: underparts and throat clean white, unmarked"
     - "Dark brown cheeks and sides of the head, hood-like, sharply against the white throat"
     - "From below, white wing linings, gray flight feathers with a dark trailing edge"
-    - "Short gray tail with many thin bars"
+    - "Short gray tail with thin dark bars, the one near the tip broader"
     - "Dark morph blackish-brown throughout, only the flight feathers paler below"
   similar:
     - id: buteo-albigula
@@ -40,7 +41,7 @@ en:
     - id: buteo-platypterus
       how: "adults barred rufous on the breast, tail with one or two broad white bands"
   behavior: "Rarely perches in the open: it hunts from height, soaring over forest edges and fields. It often hangs motionless into the wind, then folds its wings and drops on a bird in steps. Prey is mostly small and medium-sized birds."
-  voice: "A high thin whistle 'kleeee', mostly near the nest (to be verified)."
+  voice: "A high, piercing 'kleeea', similar to the calls of other buteos."
 ---
 Short-tailed Hawk (короткохвостый канюк) — небольшой канюк длиной около 40 см, который встречается в Колумбии от низин до 1 800 м, изредка выше. Сидящим его видят редко, а в небе он выглядит компактным, с коротким хвостом. У светлой морфы тёмный «капюшон» над белым горлом заметен даже высоко, тёмная морфа похожа на маленького чёрного канюка.
 

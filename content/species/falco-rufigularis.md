@@ -2,6 +2,7 @@
 id: falco-rufigularis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и верх сине-чёрные, как капюшон"
   - "Горло и полуворотник белые или охристые, резко против чёрной груди"

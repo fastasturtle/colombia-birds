@@ -2,6 +2,7 @@
 id: buteo-albigula
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и низ белые; бока груди и брюха в бурых продольных пестринах"
   - "Голова по бокам и верх черновато-бурые, как капюшон"
@@ -14,7 +15,7 @@ similar:
   - id: buteo-platypterus
     how: "у взрослых грудь в рыжих поперечных полосах, хвост с одной-двумя широкими белыми полосами"
 behavior: "Хищник горного и облачного леса и прилегающих открытых склонов. Парит над лесом и охотится на мелких птиц, грызунов и насекомых. Северные популяции изучены плохо; южные, из Чили и Аргентины, на зиму откочёвывают к северу."
-voice: "Высокий тонкий свист; голос описан плохо (проверить)."
+voice: "Голос описан плохо и в поле для определения почти не помогает."
 traits:
   size: crow
   colors: [brown, white]
@@ -40,7 +41,7 @@ en:
     - id: buteo-platypterus
       how: "adults barred rufous on the breast, tail with one or two broad white bands"
   behavior: "A raptor of montane and cloud forest and the open slopes next to it. It soars over forest and hunts small birds, rodents and insects. Northern populations are poorly known; southern ones, in Chile and Argentina, move north for the winter."
-  voice: "A high thin whistle; the voice is poorly described (to be verified)."
+  voice: "The voice is poorly described and of little help in the field."
 ---
 White-throated Hawk (белогорлый канюк) — небольшой андский канюк длиной 38–48 см, которого раньше считали подвидом Short-tailed Hawk. На севере ареала, в том числе в Колумбии, он живёт в горном лесу на высотах 1 700–3 500 м. Отличить его от светлого Short-tailed Hawk помогают пестрины на боках и полосатые рыжеватые «штаны»; в небе, высоко, это удаётся не всегда.
 

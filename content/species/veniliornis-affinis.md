@@ -2,6 +2,7 @@
 id: veniliornis-affinis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Затылок и задняя сторона шеи золотисто-жёлтые"
   - "Кроющие крыла с красными кончиками, спина желтовато-зелёная"
