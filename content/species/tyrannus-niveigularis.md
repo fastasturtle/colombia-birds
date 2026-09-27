@@ -2,6 +2,7 @@
 id: tyrannus-niveigularis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и щёки снежно-белые, резко светлее бледно-серой груди"
   - "Чёрная маска от уздечки до кроющих уха, голова и спина светло-серые"
@@ -41,12 +42,12 @@ en:
   behavior: "Perches in the open on the tops of trees and shrubs in dry woodland, second growth and farmland with trees. It sallies for flying insects and plucks berries."
   voice: "The dawn song is a fast, jumbled 'ki-ki-ki-kr-reé-it!', the call a sharp 'kip!', sometimes running into a trill."
 ---
-Snowy-throated Kingbird (белогорлый тиранн) — тиранн сухих низин к западу от Анд, от Перу до крайнего юго-запада Колумбии, где его знают только в Нариньо. Гнездится он в Эквадоре и Перу, а в Колумбию часть птиц откочёвывает в сезон дождей там, примерно с марта по октябрь. К концу октября многие, вероятно, уже улетели.
+Snowy-throated Kingbird (белогорлый тиранн) — тиранн сухих низин к западу от Анд, от Перу до крайнего юго-запада Колумбии, где его знают только в Нариньо. Гнездится он в Эквадоре и Перу в сезон дождей (декабрь–июнь), а после гнездования часть птиц откочёвывает на крайний юго-запад Колумбии, примерно с марта по октябрь. К концу октября многие, вероятно, уже улетели.
 
 На маршруте вид «возможно» на Км 42 21 октября и на Финке Марагрикола 22 октября. Проверяй каждого тиранна на проводах: у обычного королевского тиранна горло серое, а жёлтое заходит на грудь.
 
 ## English
 
-Snowy-throated Kingbird is a kingbird of the dry lowlands west of the Andes, from Peru to the far southwest of Colombia, where it is known only from Nariño. It breeds in Ecuador and Peru, and part of the population moves into Colombia during the rainy season there, roughly from March to October. By late October many have probably already left.
+Snowy-throated Kingbird is a kingbird of the dry lowlands west of the Andes, from Peru to the far southwest of Colombia, where it is known only from Nariño. It breeds in Ecuador and Peru in the wet season (December–June), and outside it part of the population moves into far southwestern Colombia, roughly from March to October. By late October many have probably already left.
 
 On the route it is "maybe" at Km 42 on 21 October and at Finca Maragrícola on 22 October. Check every kingbird on the wires: the common Tropical Kingbird has a gray throat and yellow extending onto the breast.

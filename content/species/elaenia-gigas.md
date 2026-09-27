@@ -2,6 +2,7 @@
 id: elaenia-gigas
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохол раздвоенный, торчит двумя «рожками», в середине большое белое пятно"
   - "Спина оливково-бурая, пёстрая от светлых кайм перьев"
@@ -40,12 +41,12 @@ en:
   behavior: "Lives in early-successional growth: riverside strips of forest, old landslides, abandoned clearings and river islands. Forages singly or in pairs 3–20 m up, plucking small fruit and insects from foliage and catching insects in the air."
   voice: "At dawn it repeats 'purdip' or 'wurdit' from the top of a low tree; calls include a martin-like 'direet' and a shrill 'pert-cheer'."
 ---
-Mottle-backed Elaenia (чубатая эления) — самая крупная эления Колумбии и птица подножий восточного склона Анд, обычно на высотах 250–1 250 м, местами до 1 800 м. В Колумбии она живёт только на юге, от запада Меты. Раздвоенный хохол с белой серединой придаёт голове рогатый вид, а пёстрая спина отличает её от прочих эленяй. Любит молодую поросль по берегам рек и на старых оползнях.
+Mottle-backed Elaenia (чубатая эления) — одна из самых крупных элений Колумбии (17,5–18,5 см) и птица подножий восточного склона Анд, обычно на высотах 250–1 250 м, местами до 1 800 м. В Колумбии она живёт только на юге, от запада Меты. Раздвоенный хохол с белой серединой придаёт голове рогатый вид, а пёстрая спина отличает её от прочих элений. Любит молодую поросль по берегам рек и на старых оползнях.
 
 На маршруте вид «возможно» на Плайя-Рике 12 октября и у Пуэрто-Асиса 11–13 октября. Осматривай верхушки кустов и молодых деревьев на речных островах и по опушкам.
 
 ## English
 
-Mottle-backed Elaenia is the largest elaenia in Colombia and a bird of the eastern Andean foothills, usually at 250–1,250 m and locally up to 1,800 m. In Colombia it occurs only in the south, from western Meta. The split crest with a white centre gives the head a horned look, and the mottled back sets it apart from other elaenias. It favours young growth along rivers and on old landslides.
+Mottle-backed Elaenia is one of the largest elaenias in Colombia (17.5–18.5 cm) and a bird of the eastern Andean foothills, usually at 250–1,250 m and locally up to 1,800 m. In Colombia it occurs only in the south, from western Meta. The split crest with a white centre gives the head a horned look, and the mottled back sets it apart from other elaenias. It favours young growth along rivers and on old landslides.
 
 On the route it is "maybe" at Playa Rica on 12 October and around Puerto Asís on 11–13 October. Scan the tops of shrubs and young trees on river islands and along edges.

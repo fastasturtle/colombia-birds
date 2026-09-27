@@ -2,6 +2,7 @@
 id: attila-spadiceus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница ярко-жёлтая, особенно заметна, когда птица улетает"
   - "Голова крупная, посадка прямая, клюв мощный, с крючком на конце"
@@ -13,7 +14,7 @@ similar:
   - id: myiarchus-tuberculifer
     how: "мельче, клюв тонкий без крючка, грудь ровно серая, брюхо жёлтое, поясница не жёлтая"
 behavior: "Держится поодиночке в среднем ярусе и под кронами леса, на опушках и в старых посадках. Поёт, сидя неподвижно, поэтому певца трудно найти; ловит крупных насекомых, лягушек и ящериц, ест и плоды."
-voice: "Громкая песня из нарастающей серии «уи-ри, уи-ри, уи-ри…» с отрывистым окончанием «ву-уит»; позыв — резкое двусложное «бит-ит»."
+voice: "Громкая жалобная песня из серии «уи-ри, уи-ри, уи-ри…», число фраз меняется, в конце часто «ву» или «ву-уит»; позыв — громкое двусложное «бит-ит, бит-ит»."
 traits:
   size: thrush
   colors: [olive, yellow]
@@ -38,7 +39,7 @@ en:
     - id: myiarchus-tuberculifer
       how: "smaller, thin bill without a hook, plain gray breast, yellow belly, rump not yellow"
   behavior: "Keeps alone in the midstory and subcanopy of forest, at edges and in old plantations. Sings while sitting motionless, so the singer is hard to find; takes large insects, frogs and lizards, and also fruit."
-  voice: "A loud song of rising 'wee-ree, wee-ree, wee-ree…' phrases ending abruptly in 'woo-whit'; the call is a sharp two-note 'beat-it'."
+  voice: "A loud, plaintive song of 'wee-ree, wee-ree, wee-ree…' phrases, their number varying, often ending in 'woo' or 'woo-whit'; the call is a loud two-note 'beat-it, beat-it'."
 ---
 Bright-rumped Attila (желтопоясный атилла) — крупный тиранн низинных и предгорных лесов, в Колумбии обычно до 1 500 м, местами выше. Его гораздо чаще слышат, чем видят: громкая нарастающая песня разносится по лесу на рассвете, а сам певец сидит неподвижно в полутени. Оперение у вида удивительно изменчиво, но пестрины на груди, полосы на крыле и жёлтая поясница есть почти у всех птиц.
 

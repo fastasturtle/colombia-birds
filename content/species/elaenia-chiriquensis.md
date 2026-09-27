@@ -2,6 +2,7 @@
 id: elaenia-chiriquensis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохолок короткий, квадратный, в шапочке частично скрытое белое пятно"
   - "Верх серовато-оливковый, тонкое беловатое кольцо вокруг глаза"
@@ -11,7 +12,7 @@ similar:
   - id: elaenia-flavogaster
     how: "крупнее, хохол густой, торчащий и раздвоенный, брюхо желтее"
   - id: elaenia-frantzii
-    how: "голова округлая, без хохолка и без белого в шапочке, полосы на крыле желтоватые; держится в горных лесах"
+    how: "голова округлая, хохолок низкий, белое пятно в шапочке почти всегда скрыто, полосы на крыле желтовато-оливковые; держится выше, в горах"
 behavior: "Птица полуоткрытых мест: кустарников, редколесий, саванн с отдельными деревьями, живых изгородей и плантаций. Кормится поодиночке или парами от верхнего подлеска и выше, срывает ягоды и насекомых на лету; в смешанные стаи почти не идёт."
 voice: "Предрассветная песня — высокое торопливое «тью-уии тью-уидеруи»; позывки — чистое «уиия» и картавое «бир-та» или «чи-бур»."
 traits:
@@ -36,7 +37,7 @@ en:
     - id: elaenia-flavogaster
       how: "larger, with a bushy, erect, split crest and a yellower belly"
     - id: elaenia-frantzii
-      how: "round head without a crest or white in the crown, yellowish wing bars; keeps to montane forest"
+      how: "rounded head with a low crest, white crown patch almost always hidden, yellowish-olive wing bars; lives higher, in the mountains"
   behavior: "A bird of semi-open country: scrub, light woodland, savanna with scattered trees, hedgerows and plantations. Forages singly or in pairs from the upper understory upward, plucking berries and insects in flight; it hardly ever joins mixed flocks."
   voice: "The dawn song is a high, hurried 'tju-wee tju-weederwee'; calls include a clear 'weeéa' and a burry 'beer-ta' or 'chee-bur'."
 ---

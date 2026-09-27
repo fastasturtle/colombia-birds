@@ -2,6 +2,7 @@
 id: snowornis-cryptolophus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оливково-зелёная птица размером с дрозда, сидит неподвижно и прямо"
   - "Низ оливковый в тонких белых штрихах от горла до брюха"

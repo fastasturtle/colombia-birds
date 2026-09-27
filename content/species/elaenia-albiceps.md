@@ -2,6 +2,7 @@
 id: elaenia-albiceps
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохолок короткий, торчащий, в середине белая полоска"
   - "Верх тускло-оливково-серый, уздечка и кольцо вокруг глаза беловатые"
@@ -9,11 +10,11 @@ key_features:
   - "На тёмном крыле две беловатые полосы"
 similar:
   - id: elaenia-pallatangae
-    how: "голова круглая, без хохла, брюхо заметно жёлтое, кольцо вокруг глаза желтоватое"
+    how: "голова круглая, без хохла, горло и грудь желтовато-оливковые, брюхо заметно жёлтое, уздечка и кольцо вокруг глаза желтоватые"
   - id: elaenia-frantzii
     how: "голова округлая, белого в шапочке обычно не видно, брюхо бледно-соломенное, полосы на крыле желтоватые"
 behavior: "Держится на опушках, в перелесках, живых изгородях и кустарниках межгорных долин, обычно поодиночке. Ест насекомых и ягоды, охотно навещает плодоносящие деревья."
-voice: "Короткий свистящий позыв «фью» и негромкие хрипловатые трели."
+voice: "Утренняя песня местного подвида — серия низких хрипловатых нот «джиуи», сначала понижающихся, потом повышающихся; позывки — низкое переливчатое «джур» и более долгое нисходящее «джиир»."
 traits:
   size: sparrow
   colors: [olive, gray, white]
@@ -34,18 +35,18 @@ en:
     - "Two whitish wing bars on a dark wing"
   similar:
     - id: elaenia-pallatangae
-      how: "round head without a crest, belly clearly yellow, yellowish eye ring"
+      how: "round head without a crest, yellowish-olive throat and breast, belly clearly yellow, yellowish lores and eye ring"
     - id: elaenia-frantzii
       how: "rounded head, white in the crown usually not visible, pale straw belly, yellowish wing bars"
   behavior: "Keeps to edges, woodlots, hedgerows and scrub in inter-Andean valleys, usually alone. Eats insects and berries and readily visits fruiting trees."
-  voice: "A short whistled 'fyew' call and soft burry trills."
+  voice: "The dawn song of the local subspecies is a series of low, burry 'djeewee' notes that dip and then rise; calls are a low, rich 'djur' and a longer descending 'djeeer'."
 ---
-White-crested Elaenia (белохохлая эления) в Колумбии представлена подвидом griseigularis, который живёт только в Андах Нариньо, в светлых лесах, кустарниках и садах межгорных долин примерно до 3 200 м. Она серее и белее других горных элений: низ почти без жёлтого, а белая полоса в хохолке у местных птиц небольшая. Южный подвид chilensis — дальний мигрант, и отдельные зимующие птицы, возможно, доходят до юга Колумбии.
+White-crested Elaenia (белохохлая эления) в Колумбии представлена подвидом griseigularis, который живёт только в Андах Нариньо, в светлых лесах, кустарниках и садах межгорных долин примерно до 3 200 м. Она серее и белее других горных элений: низ почти без жёлтого, а белая полоса в хохолке у местных птиц небольшая. Южный подвид chilensis (часть систематиков выделяет его в отдельный вид, Chilean Elaenia) — дальний мигрант, и отдельные зимующие птицы, возможно, доходят до юга Колумбии.
 
 На маршруте она «возможно» на Лагуне Ла-Коча и Парамо Бордонсильо 16 октября, реже в Сибундое. Там же точно живёт андская эления (Sierran Elaenia), поэтому каждую элению проверяй по хохолку и цвету брюха.
 
 ## English
 
-White-crested Elaenia is represented in Colombia by the subspecies griseigularis, which lives only in the Andes of Nariño, in open woodland, scrub and gardens of inter-Andean valleys up to about 3,200 m. It is grayer and whiter than other montane elaenias: the underparts have almost no yellow, and the white crest stripe of local birds is small. The southern subspecies chilensis is a long-distance migrant, and a few wintering birds may reach southern Colombia.
+White-crested Elaenia is represented in Colombia by the subspecies griseigularis, which lives only in the Andes of Nariño, in open woodland, scrub and gardens of inter-Andean valleys up to about 3,200 m. It is grayer and whiter than other montane elaenias: the underparts have almost no yellow, and the white crest stripe of local birds is small. The southern subspecies chilensis (split by some as Chilean Elaenia) is a long-distance migrant, and a few wintering birds may reach southern Colombia.
 
 On the route it is "maybe" at Laguna de La Cocha and Páramo Bordoncillo on 16 October, less often at Sibundoy. Sierran Elaenia is "sure" at the same places, so check every elaenia for crest shape and belly colour.

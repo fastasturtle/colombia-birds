@@ -2,6 +2,7 @@
 id: petrochelidon-pyrrhonota
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница светло-охристая, хорошо видна сверху у летящей птицы"
   - "Хвост квадратный, без вилки"
@@ -12,7 +13,7 @@ similar:
     how: "хвост глубоко вильчатый, поясница тёмная, как спина; лоб и горло рыжие, под ними синяя полоса"
   - id: stelgidopteryx-ruficollis
     how: "верх ровно серо-бурый без блеска, горло светло-коричное без тёмного пятна, лоб тёмный"
-behavior: "Пролётные птицы охотятся на насекомых высоко над открытыми местами, водой и лесом, часто вместе с деревенскими ласточками. Летит прямее и с более частыми планированиями, чем деревенская ласточка."
+behavior: "Пролётные птицы охотятся на насекомых высоко над открытыми местами, водой и лесом, часто вместе с деревенскими ласточками. Корм ищет высоко, обычно в 50 м и выше; в полёте чаще планирует, чем деревенская ласточка."
 voice: "На пролёте негромкое щебетание и низкое «вьер»; в определении голос помогает мало."
 traits:
   size: sparrow
@@ -37,7 +38,7 @@ en:
       how: "deeply forked tail, rump dark like the back; rufous forehead and throat with a blue band below"
     - id: stelgidopteryx-ruficollis
       how: "plain gray-brown upperparts without gloss, pale cinnamon throat without a dark patch, dark forehead"
-  behavior: "Passage birds hunt insects high over open country, water and forest, often with Barn Swallows. Flies more directly and with more glides than a Barn Swallow."
+  behavior: "Passage birds hunt insects high over open country, water and forest, often with Barn Swallows. It forages high, usually 50 m up or more, and glides more than a Barn Swallow."
   voice: "On passage a quiet twitter and a low 'veer'; voice is of little help in identification."
 ---
 Cliff Swallow (белолобая ласточка) гнездится колониями под мостами и карнизами Северной Америки, а зимует на юге Южной Америки. Через Колумбию она проходит транзитом на пролёте, от побережья до высокогорий, изредка до 3 800 м. Пролёт короткий, и стаи могут появиться и исчезнуть за один день.
