@@ -2,6 +2,7 @@
 id: sporophila-telasco
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец сверху серый с тёмными пестринами, снизу белый"
   - "Маленькое каштановое пятно на горле, как галстук"
@@ -9,7 +10,7 @@ key_features:
   - "Самка буроватая, в пестринах сверху, без пятна на горле"
 similar:
   - id: sporophila-corvina
-    how: "самец чёрный или чёрно-белый, каштанового горла нет"
+    how: "самец на юго-западе Колумбии (подвид ophthalmica) чёрный сверху, снизу и на горле белый, с белой поясницей; каштанового горла нет"
   - id: volatinia-jacarina
     how: "самец весь сине-чёрный и блестящий; самка бурая с пестринами на груди"
 behavior: "Стайками кормится семенами трав на пустырях, обочинах, пастбищах и в прибрежных зарослях, садится на стебли и проволоку."
@@ -24,6 +25,7 @@ traits:
 sources:
   - "Wikipedia: Chestnut-throated seedeater (en, CC BY-SA 4.0)"
   - "Wikipedia: Sporophila telasco (es, CC BY-SA 4.0)"
+  - "Wikipedia: Variable seedeater (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/sporophila-telasco.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -34,7 +36,7 @@ en:
     - "Female brownish, streaked above, without a throat patch"
   similar:
     - id: sporophila-corvina
-      how: "male black or black-and-white, no chestnut throat"
+      how: "male in southwestern Colombia (subspecies ophthalmica) black above, white below and on the throat, with a white rump; no chestnut throat"
     - id: volatinia-jacarina
       how: "male all glossy blue-black; female brown with a streaked breast"
   behavior: "Flocks feed on grass seeds on waste ground, roadsides, pastures and coastal scrub, perching on stems and wires."
