@@ -2,6 +2,7 @@
 id: tangara-arthus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ярко-золотисто-жёлтая голова и низ"
   - "Чёрное пятно на ухе"
@@ -23,6 +24,7 @@ traits:
   layer: [canopy, midstory]
 sources:
   - "Данные проекта: data/species/tangara-arthus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Wikipedia: Golden tanager (en, CC BY-SA 4.0)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:

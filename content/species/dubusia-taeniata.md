@@ -2,9 +2,10 @@
 id: dubusia-taeniata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и горло чёрные, над глазом длинная бледно-голубая пестрая бровь"
-  - "Поперёк груди охристая полоса, отделяющая чёрное горло от жёлтого брюха"
+  - "Поперёк груди неяркая охристая полоса между чёрным горлом и жёлтым брюхом"
   - "Спина тёмно-синяя, крылья и хвост черноватые"
   - "Средняя горная танагра, держится в подлеске и бамбуке"
 similar:
@@ -13,7 +14,7 @@ similar:
   - id: anisognathus-lacrymosus
     how: "голова тёмно-серая без брови, под глазом жёлтые пятнышки, низ охристо-оранжевый без полосы"
 behavior: "Обычно поодиночке или парами, реже в смешанных стаях, держится в подлеске и среднем ярусе высокогорного леса, в зарослях бамбука и на опушках. Спокойная, сидит подолгу."
-voice: "Песня — простой протяжный двусложный свист."
+voice: "Песня — два-три долгих чистых высоких свиста, последний чуть ниже."
 traits:
   size: thrush
   colors: [blue, yellow, black]
@@ -23,11 +24,12 @@ traits:
   layer: [understory, midstory]
 sources:
   - "Данные проекта: data/species/dubusia-taeniata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "eBird: Buff-banded Mountain Tanager (голос, приметы; только чтение), https://ebird.org/species/bubmot3"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Black head and throat with a long, streaky, pale blue eyebrow"
-    - "An ochre band across the breast separates the black throat from the yellow belly"
+    - "A faint ochre band across the breast between the black throat and the yellow belly"
     - "Dark blue back, blackish wings and tail"
     - "Medium-sized mountain tanager of understory and bamboo"
   similar:
@@ -36,7 +38,7 @@ en:
     - id: anisognathus-lacrymosus
       how: "dark gray head with no eyebrow, yellow spots below the eye, ochre-orange underparts without a band"
   behavior: "Usually single or in pairs, less often in mixed flocks, in the understory and midstory of high Andean forest, bamboo thickets and edges. Calm, sits still for long spells."
-  voice: "The song is a simple, drawn-out two-note whistle."
+  voice: "The song is two or three long, clear, high whistles, the last slightly lower."
 ---
 Buff-banded Mountain Tanager — горная танагра верхнего облачного леса и бамбуковых зарослей на высотах 2 500–3 600 м; у этого вида пока нет русского названия. В колумбийском списке ACO он значится как Buff-breasted Mountain-Tanager. Яркий, но скрытный: держится ниже других горных танагр, и в полумраке видна прежде всего светлая бровь на чёрной голове.
 

@@ -2,6 +2,7 @@
 id: ixothraupis-rufigula
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх чёрный, в светлой зеленоватой чешуйке по краям перьев"
   - "Низ беловатый, густо усыпан чёрными пятнами"
@@ -11,7 +12,7 @@ similar:
   - id: tangara-nigroviridis
     how: "голова сине-зелёная с чёрной маской, пятна на груди голубые на чёрном фоне, рыжего горла нет"
   - id: ixothraupis-guttata
-    how: "вся жёлто-зелёная в чёрных крапинах, лицо желтоватое; живёт на восточном склоне Анд"
+    how: "сверху зелёная, снизу беловатая, вся в чёрных крапинах, лицо желтоватое; живёт на восточном склоне Анд"
 behavior: "Небольшими группами кормится в кронах и на опушках, обычно в смешанных стаях танагр. Обирает плоды и обыскивает веточки."
 voice: "Тонкие высокие «ци»; в определении не помогает."
 traits:
@@ -35,7 +36,7 @@ en:
     - id: tangara-nigroviridis
       how: "blue-green head with a black mask, blue spots on a black breast, no rufous throat"
     - id: ixothraupis-guttata
-      how: "yellow-green all over with black speckles and a yellowish face; lives on the east slope of the Andes"
+      how: "green above and whitish below, speckled black all over, with a yellowish face; lives on the east slope of the Andes"
   behavior: "Small groups feed in the canopy and at edges, usually with mixed tanager flocks. Picks fruit and searches twigs."
   voice: "Thin high 'tsee' notes; no help in identification."
 ---

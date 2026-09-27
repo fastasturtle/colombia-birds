@@ -2,6 +2,7 @@
 id: chlorochrysa-phoenicotis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся ярко-изумрудная, с блестящим, как шёлк, отливом"
   - "Маленькие серые пятна за глазом, под глазом и на плече"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Красноухая цветная танагра (ru, CC BY-SA 4.0)"
   - "Данные проекта: data/species/chlorochrysa-phoenicotis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/groups/tanagers.md"
+  - "Birds of the World: Glistening-green Tanager (по сниппету поиска: оранжевое пятно на кроющих уха), https://birdsoftheworld.org/bow/species/glgtan1/cur/introduction"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:

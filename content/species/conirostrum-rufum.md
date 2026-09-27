@@ -2,6 +2,7 @@
 id: conirostrum-rufum
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб и бровь насыщенно-рыжие, щёки и весь низ корично-рыжие"
   - "Темя и спина свинцово-серые, резко контрастируют с рыжим лицом"
