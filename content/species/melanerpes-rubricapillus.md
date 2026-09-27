@@ -16,10 +16,10 @@ similar:
 behavior: "Обычен в садах, на плантациях, опушках и во вторичном лесу. Ест много фруктов, в том числе бананы и папайю, а также насекомых; часто на виду и шумно перекликается."
 voice: "Дрожащее протяжное «чурр, чурр, крр-р-р-р» с резким концом; при токовании «уика-уика»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [gray, black, white]
   tone: dull
-  marks: [barred, rump_patch]
+  marks: [barred, rump_patch, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

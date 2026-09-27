@@ -20,7 +20,7 @@ traits:
   size: crow
   colors: [rufous, black, blue]
   tone: bright
-  marks: [long_tail]
+  marks: [long_tail, cap, bright_bill]
   bill: [flat]
   layer: [water]
 sources:

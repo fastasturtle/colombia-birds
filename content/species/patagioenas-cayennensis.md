@@ -19,6 +19,7 @@ traits:
   size: pigeon
   colors: [purple, gray]
   tone: dull
+  marks: [plain]
   bill: short
   layer: [canopy]
 sources:

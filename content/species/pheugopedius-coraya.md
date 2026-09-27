@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [rufous, black, white]
   tone: bright
-  marks: [eyebrow, barred]
+  marks: [eyebrow, barred, cap]
   bill: [medium, thin]
   layer: [understory, midstory]
 sources:

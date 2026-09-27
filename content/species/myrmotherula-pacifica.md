@@ -16,7 +16,7 @@ similar:
 behavior: "Держится парами или поодиночке в густой листве кустов и лиан, часто вдоль ручьёв, на зарастающих вырубках и в садах. Деятельно обыскивает листья, редко присоединяется к стаям."
 voice: "Быстрое бойкое щебетание, слегка повышающееся к концу, «чи-чи-чи-чич-ч-ч-ч-ч»; позывы «чи-пу» и резкое повторяемое «чррии»."
 traits:
-  size: hummingbird
+  size: [hummingbird, sparrow]
   colors: [black, white, rufous]
   tone: bright
   marks: [streaked_breast, short_tail, wing_bars]

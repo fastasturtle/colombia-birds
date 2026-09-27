@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [brown, rufous, white]
   tone: dull
-  marks: [streaked_breast]
+  marks: [streaked_breast, wing_patch]
   bill: medium
   layer: [canopy, air]
 sources:

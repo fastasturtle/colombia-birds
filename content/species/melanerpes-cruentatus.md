@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [black, red, white]
   tone: bright
-  marks: [eyebrow, rump_patch, barred]
+  marks: [eyebrow, rump_patch, barred, cap]
   bill: medium
   layer: [canopy]
 sources:

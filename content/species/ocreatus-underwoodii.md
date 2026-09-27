@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [long_tail]
   bill: short
-  layer: [midstory, canopy, feeder]
+  layer: [midstory, canopy]
 sources:
   - "Данные проекта: data/species/ocreatus-underwoodii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: White-booted racket-tail (en), Ocreatus underwoodii (es), Знаменщик Ундервуда (ru), CC BY-SA 4.0 — data/texts"

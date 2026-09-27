@@ -19,7 +19,7 @@ traits:
   size: pigeon
   colors: [green, red, white]
   tone: bright
-  marks: [crest]
+  marks: [crest, bright_bill]
   bill: short
   layer: [midstory, canopy]
 sources:

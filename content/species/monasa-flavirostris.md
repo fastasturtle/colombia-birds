@@ -18,6 +18,7 @@ traits:
   size: thrush
   colors: [black, yellow, white]
   tone: dull
+  marks: [wing_patch, bright_bill]
   bill: medium
   layer: [midstory, canopy]
 sources:

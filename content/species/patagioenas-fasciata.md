@@ -16,9 +16,10 @@ similar:
 behavior: "Держится стайками, часто на голых верхушках деревьев, откуда далеко видно. Кочует за урожаем плодов и семян; летает быстро и прямо над склонами, крылья в полёте свистят."
 voice: "Низкое, похожее на совиное, воркование «хуу-ух» с ровными паузами."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [gray, purple]
   tone: dull
+  marks: [bright_bill]
   bill: short
   layer: [canopy, air]
 sources:

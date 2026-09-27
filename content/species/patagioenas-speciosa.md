@@ -16,10 +16,10 @@ similar:
 behavior: "Держится поодиночке или парами в кронах на опушках, в полуоткрытом лесу и у вырубок, стай не образует. Питается плодами и семенами; осторожен, потому что на него охотятся."
 voice: "Серия низких глубоких воркований «кро-ку-у», непохожих на голос других голубей."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [brown, purple, white]
   tone: dull
-  marks: [spotted_breast]
+  marks: [spotted_breast, bright_bill]
   bill: short
   layer: [canopy]
 sources:

@@ -14,10 +14,10 @@ similar:
 behavior: "Подолгу сидит неподвижно на открытой ветке высоко в кроне или на опушке, откуда бросается за крупными насекомыми и пауками. Держится парами, в полуоткрытых местах: вторичный лес, вырубки, мангры, сады с высокими деревьями."
 voice: "Тонкие высокие свисты сериями, заметно выше и слабее, чем ожидаешь от пуховки."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [black, white]
   tone: bright
-  marks: [eyebrow, barred, white_tail_tips]
+  marks: [eyebrow, barred, white_tail_tips, wing_patch]
   bill: [thick]
   layer: [canopy]
 sources:

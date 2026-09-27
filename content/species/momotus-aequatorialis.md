@@ -16,10 +16,10 @@ similar:
 behavior: "Подолгу сидит неподвижно в среднем ярусе горного леса, часто у ручьёв и на опушках, и раскачивает хвостом, как маятником. Ест в основном крупных членистоногих, а также плоды и мелких позвоночных."
 voice: "Низкое глухое уханье «ху-ду», часто сдвоенное, особенно на рассвете."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [green, blue, black]
   tone: bright
-  marks: [mask, long_tail]
+  marks: [mask, long_tail, cap]
   bill: [thick]
   layer: [midstory]
 sources:

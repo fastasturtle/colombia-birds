@@ -17,7 +17,7 @@ traits:
   size: larger
   colors: [gray, brown, white]
   tone: dull
-  marks: []
+  marks: [cap]
   bill: [long]
   layer: [water, air]
 sources:
