@@ -2,6 +2,7 @@
 id: campephilus-gayaquilensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова целиком красная, с хохлом; у самки на щеке кремовая полоса с чёрной каймой"
   - "Белые полосы по бокам шеи сходятся на спине буквой V"
@@ -9,9 +10,9 @@ key_features:
   - "Глаз светло-жёлтый, клюв длинный, серый, долотом"
 similar:
   - id: dryocopus-lineatus
-    how: "белые полосы на спине идут параллельно и не сходятся, от клюва через щёку идёт белая полоска, горло пёстрое"
-behavior: "Часто держится парами, кормится в кронах и на крупных стволах, по опушкам и во вторичном лесу. Переносит вырубки и деградацию леса лучше многих лесных дятлов."
-voice: "Звонкие резкие крики и характерная барабанная дробь из двух ударов, «ток-трррр»."
+    how: "красные только темя и хохол, лицо чёрное с белой полоской от клюва; белые полосы на спине идут параллельно и не сходятся; горло пёстрое"
+behavior: "Часто держится парами, кормится обычно в кронах, в глубине и по опушкам сухих и влажных листопадных лесов, а также во взрослом вторичном лесу."
+voice: "Обычный крик — текучее раскатистое «кви-кви-кве-рррр»; барабанит секундной дробью из 4–7 ударов, первый из которых самый сильный."
 traits:
   size: pigeon
   colors: [black, red, white]
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Campephilus gayaquilensis (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/campephilus-gayaquilensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es) по виду и по Dryocopus lineatus; data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Head all red with a crest; female has a cream, black-edged cheek stripe"
@@ -32,16 +34,16 @@ en:
     - "Pale yellow eye, long gray chisel bill"
   similar:
     - id: dryocopus-lineatus
-      how: "white back stripes run parallel and do not meet, white line from the bill across the cheek, streaked throat"
-  behavior: "Often in pairs, feeding in the canopy and on large trunks, at edges and in secondary forest. Tolerates clearing and degraded forest better than many forest woodpeckers."
-  voice: "Loud sharp calls and a distinctive two-stroke drum, 'tok-trrrr'."
+      how: "only the crown and crest are red, the face black with a white line from the bill; white back stripes run parallel and do not meet; streaked throat"
+  behavior: "Often in pairs, usually feeding in the canopy, inside and at the edges of dry to humid deciduous forest and in mature secondary forest."
+  voice: "The usual call is a liquid rolling 'kwi-kwi-kwe-rrrr'; the drum is a one-second roll of 4–7 strikes, the first the loudest."
 ---
 Guayaquil Woodpecker (гуаякильский дятел) — крупный красноголовый дятел тихоокеанской стороны от юго-запада Колумбии до северо-запада Перу, в Колумбии до 1 100 м. В Колумбии он редок: национальная Красная книга даёт ему статус «под угрозой» (EN). Похож на обычную полосатую желну, поэтому каждую крупную красноголовую птицу у Тумако стоит рассмотреть.
 
-На маршруте он «возможно» на Км 42 по дороге на Тумако 21 октября и в Финке Марагрикола 22 октября. Двойной стук по сухому стволу выдаёт род Campephilus издалека.
+На маршруте он «возможно» на Км 42 по дороге на Тумако 21 октября и в Финке Марагрикола 22 октября. Короткая дробь с сильным первым ударом выдаёт род Campephilus издалека.
 
 ## English
 
 Guayaquil Woodpecker is a large red-headed woodpecker of the Pacific side from southwestern Colombia to northwestern Peru, in Colombia up to 1,100 m. It is scarce in Colombia: the national Red Book lists it as Endangered (EN). It resembles the common Lineated Woodpecker, so every large red-headed bird near Tumaco deserves a proper look.
 
-On the route it is "maybe" at Km 42 on the Tumaco road on 21 October and Finca Maragrícola on 22 October. A double knock on a dead trunk gives away a Campephilus from afar.
+On the route it is "maybe" at Km 42 on the Tumaco road on 21 October and Finca Maragrícola on 22 October. A short drum with a loud first strike gives away a Campephilus from afar.

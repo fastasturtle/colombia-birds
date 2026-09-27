@@ -2,6 +2,7 @@
 id: drymophila-caudata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь белые в густых чёрных пестринах, брюхо чистое"
   - "Бока, подхвостье и поясница рыжие"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: вместо белого рыжевато-охристый цвет, шапочка в рыжих пестринах"
 similar:
   - id: drymophila-striaticeps
-    how: "почти такой же на вид; живёт в Центральных и Западных Андах, а не у нас в верховьях Магдалены; различают по ареалу и вступлению песни"
+    how: "почти такой же, но белые пестрины покрывают всё темя, без сплошного чёрного центра; песня начинается двумя ровными нотами, а не 4–6 повышающимися; на маршруте — в Ла-Планаде, не в верховьях Магдалены"
 behavior: "Пары и семейные группы держатся в зарослях бамбука и густом подлеске на высоте 1–15 м над землёй. Добычу хватает с листьев, вытягиваясь или делая короткий бросок, иногда примыкает к микст-флокам."
 voice: "Песня начинается с четырёх-шести повышающихся нот и переходит в серию хриплых жужжащих звуков."
 traits:
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/drymophila-caudata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/thamnophilidae.md, content/groups/antbirds-ovenbirds.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es) по виду и по Drymophila striaticeps; data/site_species.json"
 en:
   key_features:
     - "Throat and breast white with dense black streaks, belly clean"
@@ -33,7 +35,7 @@ en:
     - "Female: rufous-buff instead of white, crown streaked rufous"
   similar:
     - id: drymophila-striaticeps
-      how: "almost identical in looks; lives in the Central and Western Andes rather than our upper Magdalena; separated by range and the start of the song"
+      how: "almost identical, but white streaks cover the whole crown with no solid black centre; song opens with two even notes rather than 4–6 rising ones; on the route at La Planada, not in the upper Magdalena"
   behavior: "Pairs and family groups keep to bamboo thickets and dense undergrowth 1–15 m above the ground. Takes prey from leaves by reaching or making a short lunge, sometimes joining mixed flocks."
   voice: "The song starts with four to six rising notes and turns into a series of harsh buzzy notes."
 ---

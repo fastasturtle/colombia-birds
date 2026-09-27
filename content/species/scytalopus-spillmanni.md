@@ -2,6 +2,7 @@
 id: scytalopus-spillmanni
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец серый, сверху черноватый, снизу заметно светлее"
   - "Бока и подхвостье рыжевато-коричневые, поясница бурая"
@@ -9,9 +10,9 @@ key_features:
   - "Силуэт тапакуло: мелкий, короткокрылый, хвостик торчит вверх"
 similar:
   - id: scytalopus-latrans
-    how: "самец почти сплошь черноватый, без рыжих боков и светлого низа; песня — ровная серия отдельных нот"
+    how: "мельче, самец почти сплошь черноватый, без рыжих боков и светлого низа; песня — медленная серия повторяющихся нот, а не трель"
   - id: scytalopus-micropterus
-    how: "крупнее, хвост длиннее, живёт ниже, до 2 300 м; песня из повторяющихся двойных нот"
+    how: "крупнее, хвост длиннее, бока в чёрных полосках; живёт ниже, до 2 300 м; песня начинается одиночными нотами и переходит в двойные"
 behavior: "Держится у земли и в нижнем ярусе сырого облачного леса, особенно в зарослях бамбука чускея. Кормится мелкими насекомыми среди мха и опада."
 voice: "Долгая трель на 10–20 секунд, которая постепенно становится громче."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/scytalopus-spillmanni.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/rhinocryptidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es/ru) по виду и по видам из similar; data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Male gray, blackish above and clearly paler below"
@@ -35,9 +37,9 @@ en:
     - "Tapaculo shape: small, short-winged, tail cocked up"
   similar:
     - id: scytalopus-latrans
-      how: "male almost uniformly blackish, with no rufous flanks or pale underparts; song an even series of single notes"
+      how: "smaller, male almost uniformly blackish, with no rufous flanks or pale underparts; song a slow series of repeated notes, not a trill"
     - id: scytalopus-micropterus
-      how: "larger with a longer tail, lives lower, up to 2,300 m; song of repeated paired notes"
+      how: "larger with a longer tail and black-barred flanks; lives lower, up to 2,300 m; song starts with single notes and turns into couplets"
   behavior: "Keeps to the ground and lower layer of wet cloud forest, especially in Chusquea bamboo thickets. Feeds on small insects among moss and leaf litter."
   voice: "A long trill of 10–20 seconds that gradually gets louder."
 ---

@@ -2,6 +2,7 @@
 id: celeus-spectabilis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова рыже-каштановая с пышным хохлом, у самца красные «усы» и красное в хохле"
   - "Нижняя часть горла и грудь чёрные, по бокам шеи кремовое пятно"
@@ -12,8 +13,8 @@ similar:
     how: "целиком шоколадно-каштановый, без чёрной груди и полос на спине, хохол светлый"
   - id: celeus-flavus
     how: "всё тело кремово-жёлтое, голова не рыжая, груди чёрной нет"
-behavior: "Поодиночке или парами кормится на любой высоте, от упавших стволов до крон, в зарослях бамбука, тростника и цекропий на речных островах и берегах. Специализируется на муравьях, живущих в стеблях бамбука."
-voice: "Резкие звонкие крики и тихая барабанная дробь; голос в поле определяют немногие."
+behavior: "Поодиночке или парами кормится на любой высоте, от упавших стволов до крон, в зарослях бамбука, тростника и цекропий на речных островах и берегах. Считается, что питается в основном муравьями, живущими в бамбуке; с силой долбит стволы, ветки и стебли."
+voice: "Песня — громкое визгливое «скуиа» и за ним булькающая серия «клу-клу-клу-клу»; дробь ровная, по полому бамбуку громкая."
 traits:
   size: pigeon
   colors: [rufous, black, yellow]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Celeus spectabilis (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/celeus-spectabilis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es) по виду и по видам из similar; data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Rufous-chestnut head with a bushy crest, male with a red moustache and red in the crest"
@@ -37,8 +39,8 @@ en:
       how: "all chocolate-chestnut, no black breast or barred back, pale crest"
     - id: celeus-flavus
       how: "whole body cream-yellow, head not rufous, no black breast"
-  behavior: "Singly or in pairs forages at any level from fallen trunks to the canopy, in bamboo, cane and Cecropia on river islands and banks. Specialises in ants living inside bamboo stems."
-  voice: "Sharp ringing calls and a soft drum; few birders know the voice in the field."
+  behavior: "Singly or in pairs forages at any level from fallen trunks to the canopy, in bamboo, cane and Cecropia on river islands and banks. Believed to feed mainly on bamboo-dwelling ants; pecks forcefully at trunks, branches and stems."
+  voice: "Song a loud squealing 'skweeah' followed by a bubbling 'kluh-kluh-kluh-kluh' series; the drum is even-pitched, loud on hollow bamboo."
 ---
 Rufous-headed Woodpecker (рыжеголовый дятел-гренадер) — редкий дятел западной Амазонии, живёт только в низинах до 300 м, у рек и на речных островах с бамбуком, тростником и цекропиями. Вид узко специализирован и встречается с низкой плотностью; в Колумбии записей о нём немного.
 

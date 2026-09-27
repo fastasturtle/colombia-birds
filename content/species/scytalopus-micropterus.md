@@ -2,6 +2,7 @@
 id: scytalopus-micropterus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец тёмно-серый, бока рыжевато-бурые в чёрных полосках"
   - "Хвост для тапакуло длинный, заметно выступает за крылья"
@@ -9,7 +10,7 @@ key_features:
   - "Самка похожа на самца, но ещё тусклее"
 similar:
   - id: scytalopus-atratus
-    how: "мельче, на темени белое пятнышко, хвост короче; песня — серия одинаковых нот без двойных"
+    how: "мельче, на темени белое пятнышко, хвост короче; держится ниже, в основном 850–1 900 м"
   - id: scytalopus-spillmanni
     how: "мельче и короче хвостом, низ светлее; живёт выше, от 1 900 м, и поёт долгую нарастающую трель"
 behavior: "Живёт в сырых кустарниках вдоль ручьёв и на опушках горного леса, кормится на земле и у самой земли мелкими беспозвоночными."
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/scytalopus-micropterus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/rhinocryptidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es/ru) по виду и по видам из similar; data/site_species.json"
 en:
   key_features:
     - "Male dark gray, flanks rufous-brown with black bars"
@@ -35,7 +37,7 @@ en:
     - "Female like the male but even duller"
   similar:
     - id: scytalopus-atratus
-      how: "smaller, with a small white crown spot and shorter tail; song a series of identical notes, not pairs"
+      how: "smaller, with a small white crown spot and shorter tail; lives lower, mostly at 850–1,900 m"
     - id: scytalopus-spillmanni
       how: "smaller and shorter-tailed, paler below; lives higher, from 1,900 m, and sings a long swelling trill"
   behavior: "Lives in wet shrubbery along streams and at montane forest edges, feeding on and just above the ground on small invertebrates."
