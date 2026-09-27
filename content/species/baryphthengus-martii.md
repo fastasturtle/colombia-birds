@@ -2,6 +2,7 @@
 id: baryphthengus-martii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и низ корично-рыжие, через глаз широкая чёрная маска"
   - "Посреди груди маленькое чёрное пятно"
@@ -9,7 +10,7 @@ key_features:
   - "Хвост очень длинный, у западного подвида с «ракетками» на конце"
 similar:
   - id: electron-platyrhynchum
-    how: "мельче, рыжие только голова и шея, грудь зелёная, клюв широкий и плоский"
+    how: "заметно мельче (33–35 см), рыжие голова, шея и грудь, а брюхо и подбородок сине-зелёные; клюв широкий, плоский"
 behavior: "Сидит неподвижно в тенистом высоком лесу, особенно у рек и ручьёв, избегая густой листвы. Всеяден: ест плоды, крупных насекомых, мелких ящериц, лягушек и даже рыбу."
 voice: "Глухое уханье «хуп», которому иногда отвечает низкое совиное «хуп-хуп-ху-ху-ху-ху»; при беспокойстве сухой стрекот."
 traits:
@@ -32,7 +33,7 @@ en:
     - "Very long tail, with rackets at the tip in the western subspecies"
   similar:
     - id: electron-platyrhynchum
-      how: "smaller, rufous only on head and neck, green breast, broad flat bill"
+      how: "clearly smaller (33–35 cm), rufous head, neck and breast but blue-green belly and chin; broad, flat bill"
   behavior: "Sits motionless in shady tall forest, especially along rivers and streams, avoiding dense foliage. Omnivorous: eats fruit, large insects, small lizards, frogs and even fish."
   voice: "Hollow 'hoop' hoots, sometimes answered by a low owl-like 'hoop-hoop-hu-hu-hu-hu'; a dry chatter when agitated."
 ---
@@ -45,3 +46,4 @@ Rufous Motmot (рыжий момот) — второй по величине м�
 Rufous Motmot is the second-largest motmot, 42–47 cm. Colombia has two separate subspecies: semirufus on the Pacific slope and martii in the Amazonian lowlands. It lives in tall humid forest of the lowlands and foothills up to 1,400 m. In forest shade the rufous underparts look dull brown, and you first notice the swinging tail or hear the hollow hooting at dawn.
 
 On the route it is "maybe" at Aves y Flórez from 18 to 20 October, Río Ñambí on 19 October and Bangsias Lodge on 20 October; the similar Broad-billed Motmot is common at the same places.
+  - "Wikipedia: Broad-billed motmot (en, es, CC BY-SA 4.0) — фактчек 27.09"

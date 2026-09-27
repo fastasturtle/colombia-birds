@@ -2,6 +2,7 @@
 id: pharomachrus-pavoninus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв самца красный с желтоватым концом; у самки серый с чёрным кончиком"
   - "Спина и грудь переливчато-зелёные, брюхо ярко-красное"
@@ -47,3 +48,4 @@ Pavonine Quetzal (павлиний кетцаль) — единственный 
 Pavonine Quetzal is the only quetzal of the Amazonian lowlands east of the Andes, from Colombia to Bolivia. It lives in terra firme forest, up to 700 m or up to 1,200 m depending on the source. The species is poorly known and scarce; it is usually found by voice, because in shade the red belly and green back vanish among the leaves.
 
 On the route it is "maybe" at Isla Escondida from 7 to 11 October. Listen in the morning for descending whistles ending in a 'chok' and check the mid-storey around fruiting trees.
+  - "Wikipedia: Golden-headed quetzal, Collared trogon (en, es, CC BY-SA 4.0) — фактчек 27.09"

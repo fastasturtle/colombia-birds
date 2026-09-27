@@ -2,15 +2,16 @@
 id: monasa-flavirostris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв ярко-жёлтый, короче, чем у других монашенок"
   - "Оперение сажисто-чёрное, брюхо очень тёмное серое"
   - "На сложенном крыле белое пятно у плеча"
 similar:
   - id: monasa-nigrifrons
-    how: "клюв красно-оранжевый, оперение аспидно-серое, без белого на крыле"
+    how: "крупнее, клюв красный, оперение сажисто-чёрное, сзади серо-голубое, без белого на крыле"
   - id: monasa-morphoeus
-    how: "лоб и подбородок белые, клюв красный"
+    how: "крупнее, лоб белый, клюв оранжево-красный, оперение тёмное серовато-чёрное"
 behavior: "Держится на полуоткрытых местах: опушки, вторичный лес, заросшие вырубки с отдельными деревьями, от подлеска до нижних крон. Охотится с высокой открытой присады, хватая насекомых в воздухе."
 voice: "Полнозвучные мелодичные фразы хором, часто повторяемое «уикит-уийк, уикит-уийк»."
 traits:
@@ -31,9 +32,9 @@ en:
     - "White patch at the shoulder of the closed wing"
   similar:
     - id: monasa-nigrifrons
-      how: "red-orange bill, slate-gray plumage, no white on the wing"
+      how: "larger, red bill, sooty black plumage turning blue-gray towards the rear, no white on the wing"
     - id: monasa-morphoeus
-      how: "white forehead and chin, red bill"
+      how: "larger, white forehead, orange-red bill, dark grayish-black plumage"
   behavior: "Keeps to semi-open places: edges, secondary forest, regrowing clearings with scattered trees, from the understory to the lower canopy. Hunts from a high exposed perch, catching insects in the air."
   voice: "Full, melodious phrases in chorus, often a repeated 'wheekit-wheeyk, wheekit-wheeyk'."
 ---
@@ -46,3 +47,4 @@ Yellow-billed Nunbird (желтоклювая монашенка) — монаш
 Yellow-billed Nunbird is a nunbird of the upper Amazon; in Colombia it keeps to the Andean foothills up to 1,400 m. It lives at edges, in secondary forest and in regrowing clearings. A yellow bill on a black bird is unmistakable: other nunbirds on the route have red bills. Like its relatives, a group calls in chorus, so you usually hear it first.
 
 On the route it is "maybe" at El Escondite on 13–14 October. Check high exposed branches along edges and over clearings.
+  - "Wikipedia: Black-fronted nunbird, White-fronted nunbird (en, CC BY-SA 4.0) — фактчек 27.09"
