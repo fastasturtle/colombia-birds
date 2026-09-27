@@ -18,21 +18,21 @@
   "status_uncertain": false
  },
  "difficulty": null,
- "ebird_code": "plaxen4",
+ "ebird_code": "plaxen3",
  "family": {
   "code": "furnar2",
   "en": "Ovenbirds and Woodcreepers",
   "sci": "Furnariidae"
  },
  "genus": "Xenops",
- "id": "xenops-minutus",
+ "id": "xenops-genibarbis",
  "ids": {
   "avibase": null,
-  "birdbase": 14916,
+  "birdbase": 14910,
   "gbif": 5230220,
-  "inaturalist": "719088",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q27616848",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -42,68 +42,50 @@
  },
  "links": {
   "commons_category": null,
-  "ebird": "https://ebird.org/species/plaxen4",
-  "inaturalist": "https://www.inaturalist.org/taxa/719088",
+  "ebird": "https://ebird.org/species/plaxen3",
+  "inaturalist": null,
   "wikipedia": {
    "en": null,
    "es": null,
    "ru": null
   },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+minutus"
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+genibarbis"
  },
  "name_ru_source": null,
  "names": {
-  "en": "Atlantic Plain-Xenops",
+  "en": "Amazonian Plain-Xenops",
   "en_aco": "Plain Xenops",
-  "es": "Picolezna Gorjiblanco",
+  "es": "Picolezna Liso Brasileño",
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [
-  {
-   "author": "Andres Cuervo",
-   "credit": "Xenops minutus",
-   "height": 1067,
-   "key_base": "photos/xenops-minutus/1",
-   "kind": "photo",
-   "license": "CC BY-SA 2.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-   "sizes": {
-    "large": "photos/xenops-minutus/1-large.jpg",
-    "medium": "photos/xenops-minutus/1-medium.jpg",
-    "thumb": "photos/xenops-minutus/1-thumb.jpg"
-   },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Xenops_minutus_(14964890469).jpg",
-   "width": 1600
-  }
- ],
- "sci_name": "Xenops minutus",
+ "photos": [],
+ "sci_name": "Xenops genibarbis",
  "sci_name_aco": "Xenops minutus",
  "sounds": [],
  "source": "aco2022",
- "taxon_order": 14985.0,
- "taxonomy_note": null,
+ "taxon_order": 14979.0,
+ "taxonomy_note": "ACO/SACC lists this as Xenops minutus; eBird/Clements uses Xenops genibarbis.",
  "texts": {},
  "traits": {
   "diet_desc": null,
   "elevation_m": {
-   "max": 1500,
-   "max_extreme": null,
+   "max": 1400,
+   "max_extreme": 1500,
    "min": 0,
    "min_extreme": null
   },
-  "habitat_breadth": 2,
+  "habitat_breadth": 1,
   "habitats": [
-   "forest",
-   "shrubland"
+   "forest"
   ],
-  "mass_g": 10.5,
+  "mass_g": null,
   "mobility": {
    "altitudinal": null,
    "dispersive": null,
    "irregular": null,
    "migratory": null,
-   "sedentary": 1
+   "sedentary": null
   },
   "primary_diet": "Invertebrate",
   "primary_habitat": "Forest",

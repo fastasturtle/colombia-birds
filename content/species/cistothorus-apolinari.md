@@ -11,7 +11,7 @@ key_features:
 similar:
   - id: cistothorus-platensis
     how: "мельче, шапочка тоже в пестринах, бровь светлая и чёткая; держится в сухой траве, а не в тростнике"
-  - id: troglodytes-aedon
+  - id: troglodytes-musculus
     how: "однотонно-бурая, без штрихов на спине и без каштановой шапочки; обычна в садах и у домов"
 behavior: "Живёт в тростнике и рогозе высокогорных болот и озёр, а отдельная популяция — в кустарниках парамо. Пары лазают у основания стеблей и поднимаются наверх, чтобы петь."
 voice: "Серии то повышающихся, то понижающихся трещащих трелей с резкими скрежещущими нотами; у парамной формы пара нередко поёт дуэтом."
@@ -37,7 +37,7 @@ en:
   similar:
     - id: cistothorus-platensis
       how: "smaller, crown streaked too, with a clear pale eyebrow; keeps to dry grass, not reeds"
-    - id: troglodytes-aedon
+    - id: troglodytes-musculus
       how: "plain brown, without back streaks or a chestnut crown; common in gardens and around houses"
   behavior: "Lives in reeds and cattails of highland marshes and lakes, with a separate population in páramo shrubland. Pairs creep low among the stems and climb up to sing."
   voice: "Series of rising and falling churring trills mixed with harsh gravelly notes; in the páramo form pairs often sing in duet."

@@ -1,0 +1,98 @@
+{
+ "authorship": "Richmond, 1899",
+ "book": {
+  "lynx_page": 361
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawbec6",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-salvini",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18590,
+  "gbif": 8120211,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bawbec6",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+salvini"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Cryptic Becard",
+  "en_aco": null,
+  "es": "Anambé Picofino",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus salvini",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 16060.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Pachyramphus albogriseus); added from eBird/Clements 2025. Cryptic Becard, split from Black-and-white Becard (P. albogriseus) in eBird/Clements: western Ecuador and northwest Peru to southwest Colombia; all Colombian eBird records are from Nariño (route: Pacific Nariño). P. albogriseus stays for the rest of Colombia (per eBird records by department, GBIF eBird dataset).",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 17.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

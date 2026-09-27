@@ -1,0 +1,96 @@
+{
+ "authorship": "(Temminck, 1820)",
+ "book": {
+  "lynx_page": 369
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olifla2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Rhynchocyclus",
+ "id": "rhynchocyclus-aequinoctialis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17512,
+  "gbif": 5229698,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/olifla2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhynchocyclus+aequinoctialis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Western Olivaceous Flatbill",
+  "en_aco": "Olivaceous Flatbill",
+  "es": "Picoplano Equinoccial",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhynchocyclus aequinoctialis",
+ "sci_name_aco": "Rhynchocyclus olivaceus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 16457.0,
+ "taxonomy_note": "ACO/SACC lists this as Rhynchocyclus olivaceus; eBird/Clements uses Rhynchocyclus aequinoctialis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 19.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

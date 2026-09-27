@@ -18,21 +18,21 @@
   "status_uncertain": false
  },
  "difficulty": null,
- "ebird_code": "chbwre3",
+ "ebird_code": "chbwre2",
  "family": {
   "code": "troglo1",
   "en": "Wrens",
   "sci": "Troglodytidae"
  },
  "genus": "Cyphorhinus",
- "id": "cyphorhinus-thoracicus",
+ "id": "cyphorhinus-dichrous",
  "ids": {
   "avibase": null,
-  "birdbase": 29377,
+  "birdbase": 29375,
   "gbif": 5231434,
-  "inaturalist": "718279",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q21347885",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -42,47 +42,30 @@
  },
  "links": {
   "commons_category": null,
-  "ebird": "https://ebird.org/species/chbwre3",
-  "inaturalist": "https://www.inaturalist.org/taxa/718279",
+  "ebird": "https://ebird.org/species/chbwre2",
+  "inaturalist": null,
   "wikipedia": {
    "en": null,
    "es": null,
    "ru": null
   },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Cyphorhinus+thoracicus"
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyphorhinus+dichrous"
  },
  "name_ru_source": null,
  "names": {
-  "en": "Southern Chestnut-breasted Wren",
+  "en": "Northern Chestnut-breasted Wren",
   "en_aco": "Chestnut-breasted Wren",
-  "es": "Cucarachero Dorsicastaño del Sur",
+  "es": "Cucarachero Dorsicastaño del Norte",
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [
-  {
-   "author": "Barry Reed",
-   "credit": "https://search.macaulaylibrary.org/catalog?licenseId=li5&taxonCode=chbwre3",
-   "height": 1193,
-   "key_base": "photos/cyphorhinus-thoracicus/1",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0",
-   "sizes": {
-    "large": "photos/cyphorhinus-thoracicus/1-large.jpg",
-    "medium": "photos/cyphorhinus-thoracicus/1-medium.jpg",
-    "thumb": "photos/cyphorhinus-thoracicus/1-thumb.jpg"
-   },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Southern_Chestnut-breasted_Wren_Cyphorhinus_thoracicus_is_Cusco,_Peru.png",
-   "width": 1594
-  }
- ],
- "sci_name": "Cyphorhinus thoracicus",
+ "photos": [],
+ "sci_name": "Cyphorhinus dichrous",
  "sci_name_aco": "Cyphorhinus thoracicus",
  "sounds": [],
  "source": "aco2022",
- "taxon_order": 27632.0,
- "taxonomy_note": null,
+ "taxon_order": 27631.0,
+ "taxonomy_note": "ACO/SACC lists this as Cyphorhinus thoracicus; eBird/Clements uses Cyphorhinus dichrous.",
  "texts": {},
  "traits": {
   "diet_desc": null,
@@ -96,7 +79,7 @@
   "habitats": [
    "forest"
   ],
-  "mass_g": 31.02,
+  "mass_g": 31.025,
   "mobility": {
    "altitudinal": null,
    "dispersive": null,

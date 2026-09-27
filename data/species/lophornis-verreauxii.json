@@ -1,0 +1,97 @@
+{
+ "authorship": "(Temminck, 1821)",
+ "book": {
+  "lynx_page": 82
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fescoq2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Lophornis",
+ "id": "lophornis-verreauxii",
+ "ids": {
+  "avibase": null,
+  "birdbase": 2915,
+  "gbif": 2477001,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/fescoq2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lophornis+verreauxii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Butterfly Coquette",
+  "en_aco": "Festive Coquette",
+  "es": "Coqueta Verde Norteña",
+  "ru": "Кокетка-бабочка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Lophornis verreauxii",
+ "sci_name_aco": "Lophornis chalybeus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 4448.0,
+ "taxonomy_note": "ACO/SACC lists this as Lophornis chalybeus; eBird/Clements uses Lophornis verreauxii.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

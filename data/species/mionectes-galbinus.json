@@ -1,0 +1,98 @@
+{
+ "authorship": "(Lawrence, 1868)",
+ "book": {
+  "lynx_page": 367
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olsfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mionectes",
+ "id": "mionectes-galbinus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17228,
+  "gbif": 9504121,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/olsfly1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mionectes+galbinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olive-striped Flycatcher",
+  "en_aco": "Olive-striped Flycatcher",
+  "es": "Mosquero Rayadito",
+  "ru": "Оливковый тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mionectes galbinus",
+ "sci_name_aco": "Mionectes olivaceus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 16207.0,
+ "taxonomy_note": "ACO/SACC lists this as Mionectes olivaceus; eBird/Clements uses Mionectes galbinus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 3000,
+   "min": 300,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.7,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

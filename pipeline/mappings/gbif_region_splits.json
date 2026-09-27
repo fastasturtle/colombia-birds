@@ -1,5 +1,20 @@
 {
- "_comment": "Used by fetch_gbif_sites.py after a GBIF key has been resolved to our slug: {from_slug: {to_slug: [region ids of data/sites.json]}}. For splits that GBIF does not separate by key (eBird uploads of the split taxon still land under the parent's GBIF species key), the region of the route site decides. Dacnis lineata key 2488364: west of the Andes and the Magdalena side (Bogotá/Chicaque, Huila, Pacific Nariño and coast) = D. egregia, Putumayo (Amazonian slope) = D. lineata. Grallaria quitensis key 2490542: Eastern Andes (Bogotá sites) = G. alticola, Nariño = G. quitensis.",
+ "_comment": "Used by fetch_gbif_sites.py after a GBIF key has been resolved to our slug: {from_slug: {to_slug: [region ids of data/sites.json]}}. For splits that GBIF does not separate by key (eBird uploads of the split taxon still land under the parent's GBIF species key), the region of the route site decides. Dacnis lineata key 2488364: west of the Andes and the Magdalena side (Bogotá/Chicaque, Huila, Pacific Nariño and coast) = D. egregia, Putumayo (Amazonian slope) = D. lineata. Grallaria quitensis key 2490542: Eastern Andes (Bogotá sites) = G. alticola, Nariño = G. quitensis. Audit 27.09 (eBird records in Colombia per department, GBIF eBird dataset): GBIF keeps the Clements species below as subspecies of one key (or eBird uploads still land under the parent name), so the route region decides: west of the Andes / Pacific Nariño vs Putumayo (Amazonian slope), see clements2025.json notes. Setophaga petechia key: coast (pacific_coast) = Mangrove Yellow Warbler, inland = Northern Yellow Warbler (migrant). Trogon rufus key on the Pacific slope = Choco Black-throated Trogon (T. cupreicauda, already an ACO species).",
  "dacnis-lineata": {"dacnis-egregia": ["bogota", "huila", "narino_pacific", "pacific_coast"]},
- "grallaria-quitensis": {"grallaria-alticola": ["bogota"]}
+ "grallaria-quitensis": {"grallaria-alticola": ["bogota"]},
+ "xenops-genibarbis": {"xenops-mexicanus": ["bogota", "huila", "narino_pacific", "pacific_coast"]},
+ "myiopagis-cinerea": {"myiopagis-parambae": ["narino_pacific", "pacific_coast"]},
+ "automolus-subulatus": {"automolus-virgatus": ["narino_pacific", "pacific_coast"]},
+ "myiobius-barbatus": {"myiobius-sulphureipygius": ["narino_pacific", "pacific_coast"]},
+ "trogon-rufus": {"trogon-cupreicauda": ["narino_pacific", "pacific_coast"]},
+ "furnarius-leucopus": {"furnarius-cinnamomeus": ["narino_pacific", "pacific_coast"]},
+ "polioptila-plumbea": {"polioptila-bilineata": ["narino_pacific", "pacific_coast"]},
+ "cryptopipo-holochlora": {"cryptopipo-litae": ["narino_pacific", "pacific_coast"]},
+ "pachyramphus-albogriseus": {"pachyramphus-salvini": ["narino_pacific"]},
+ "tunchiornis-ochraceiceps": {"tunchiornis-ferrugineifrons": ["putumayo"]},
+ "tolmomyias-flaviventris": {"tolmomyias-viridiceps": ["putumayo"]},
+ "chlorothraupis-carmioli": {"chlorothraupis-frenata": ["putumayo"]},
+ "ocreatus-underwoodii": {"ocreatus-peruanus": ["putumayo"]},
+ "formicivora-grisea": {"formicivora-intermedia": ["bogota", "huila"]},
+ "setophaga-petechia": {"setophaga-aestiva": ["bogota", "huila", "putumayo", "narino_andes", "narino_pacific"]}
 }

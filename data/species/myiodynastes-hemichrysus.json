@@ -1,0 +1,97 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "book": {
+  "lynx_page": 396
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gobfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiodynastes",
+ "id": "myiodynastes-hemichrysus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18023,
+  "gbif": 2483490,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/gobfly1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiodynastes+hemichrysus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-bellied Flycatcher",
+  "en_aco": "Golden-crowned Flycatcher",
+  "es": "Bienteveo Ventridorado",
+  "ru": "Златобрюхий бентеви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiodynastes hemichrysus",
+ "sci_name_aco": "Myiodynastes chrysocephalus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 17423.0,
+ "taxonomy_note": "ACO/SACC lists this as Myiodynastes chrysocephalus; eBird/Clements uses Myiodynastes hemichrysus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 41.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

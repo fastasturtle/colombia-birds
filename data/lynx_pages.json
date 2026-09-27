@@ -41,11 +41,12 @@
    "via": "exact"
   }
  },
- "acrochordopus-burmeisteri": {
+ "acrochordopus-zeledoni": {
   "conflict": false,
   "en": {
-   "entry": null,
-   "page": null
+   "entry": "  White-fronted 388",
+   "page": 388,
+   "via": "ebird"
   },
   "page": 388,
   "sci": {
@@ -248,17 +249,18 @@
    "via": "exact"
   }
  },
- "amaurospiza-concolor": {
+ "amaurospiza-aequatorialis": {
   "conflict": false,
   "en": {
-   "entry": "  Blue 500",
+   "entry": "  Ecuadorian 500",
    "page": 500,
    "via": "ebird"
   },
   "page": 500,
   "sci": {
-   "entry": null,
-   "page": null
+   "entry": "aequatorialis, Amaurospiza (moesta) 500",
+   "page": 500,
+   "via": "exact"
   }
  },
  "amazilia-tzacatl": {
@@ -2113,6 +2115,20 @@
    "via": "exact"
   }
  },
+ "automolus-virgatus": {
+  "conflict": false,
+  "en": {
+   "entry": "  Western 328",
+   "page": 328,
+   "via": "ebird"
+  },
+  "page": 328,
+  "sci": {
+   "entry": "virgatus, Automolus 328",
+   "page": 328,
+   "via": "exact"
+  }
+ },
  "avocettula-recurvirostris": {
   "conflict": false,
   "en": {
@@ -2281,6 +2297,20 @@
    "via": "exact"
   }
  },
+ "basileuterus-delattrii": {
+  "conflict": false,
+  "en": {
+   "entry": "  Chestnut-capped 494",
+   "page": 494,
+   "via": "ebird"
+  },
+  "page": 494,
+  "sci": {
+   "entry": "delattrii, Basileuterus (rufifrons) 494",
+   "page": 494,
+   "via": "exact"
+  }
+ },
  "basileuterus-ignotus": {
   "conflict": false,
   "en": {
@@ -2291,20 +2321,6 @@
   "page": 494,
   "sci": {
    "entry": "ignotus, Basileuterus 494",
-   "page": 494,
-   "via": "exact"
-  }
- },
- "basileuterus-rufifrons": {
-  "conflict": false,
-  "en": {
-   "entry": "  Rufous-capped 494",
-   "page": 494,
-   "via": "ebird"
-  },
-  "page": 494,
-  "sci": {
-   "entry": "rufifrons, Basileuterus 494",
    "page": 494,
    "via": "exact"
   }
@@ -5058,6 +5074,20 @@
    "via": "epithet"
   }
  },
+ "chlorothraupis-frenata": {
+  "conflict": false,
+  "en": {
+   "entry": "  Yellow-lored 502",
+   "page": 502,
+   "via": "ebird"
+  },
+  "page": 502,
+  "sci": {
+   "entry": "frenata, Habia 502",
+   "page": 502,
+   "via": "epithet"
+  }
+ },
  "chlorothraupis-olivacea": {
   "conflict": false,
   "en": {
@@ -6399,17 +6429,18 @@
    "via": "exact"
   }
  },
- "contopus-cinereus": {
+ "contopus-bogotensis": {
   "conflict": false,
   "en": {
-   "entry": null,
-   "page": null
+   "entry": "  Northern Tropical 416",
+   "page": 416,
+   "via": "ebird"
   },
   "page": 416,
   "sci": {
    "entry": "bogotensis, Contopus 416",
    "page": 416,
-   "via": "mapping"
+   "via": "exact"
   }
  },
  "contopus-cooperi": {
@@ -6871,6 +6902,20 @@
    "via": "exact"
   }
  },
+ "cryptopipo-litae": {
+  "conflict": false,
+  "en": {
+   "entry": "  Choco 343",
+   "page": 343,
+   "via": "ebird"
+  },
+  "page": 343,
+  "sci": {
+   "entry": "litae, Cryptopipo 343",
+   "page": 343,
+   "via": "exact"
+  }
+ },
  "crypturellus-bartletti": {
   "conflict": false,
   "en": {
@@ -7291,6 +7336,20 @@
    "via": "exact"
   }
  },
+ "cyphorhinus-dichrous": {
+  "conflict": false,
+  "en": {
+   "entry": "  Northern Chestnut-breasted 442",
+   "page": 442,
+   "via": "ebird"
+  },
+  "page": 442,
+  "sci": {
+   "entry": "dichrous, Cyphorhinus 442",
+   "page": 442,
+   "via": "exact"
+  }
+ },
  "cyphorhinus-phaeocephalus": {
   "conflict": false,
   "en": {
@@ -7303,19 +7362,6 @@
    "entry": "phaeocephalus, Cyphorhinus 442",
    "page": 442,
    "via": "exact"
-  }
- },
- "cyphorhinus-thoracicus": {
-  "conflict": false,
-  "en": {
-   "entry": null,
-   "page": null
-  },
-  "page": 442,
-  "sci": {
-   "entry": "dichrous, Cyphorhinus 442",
-   "page": 442,
-   "via": "mapping"
   }
  },
  "cypseloides-cherriei": {
@@ -7556,7 +7602,7 @@
    "via": "epithet"
   }
  },
- "deconychura-longicauda": {
+ "deconychura-pallida": {
   "conflict": false,
   "en": {
    "entry": null,
@@ -7566,7 +7612,7 @@
   "sci": {
    "entry": "pallida, Deconychura 308",
    "page": 308,
-   "via": "mapping"
+   "via": "exact"
   }
  },
  "dendrexetastes-rufigula": {
@@ -9538,6 +9584,20 @@
    "via": "exact"
   }
  },
+ "formicivora-intermedia": {
+  "conflict": false,
+  "en": {
+   "entry": "  Northern White-fringed 262",
+   "page": 262,
+   "via": "ebird"
+  },
+  "page": 262,
+  "sci": {
+   "entry": "intermedia, Formicivora 262",
+   "page": 262,
+   "via": "exact"
+  }
+ },
  "forpus-coelestis": {
   "conflict": false,
   "en": {
@@ -9702,6 +9762,20 @@
   "sci": {
    "entry": "ardesiaca, Fulica 127",
    "page": 127,
+   "via": "exact"
+  }
+ },
+ "furnarius-cinnamomeus": {
+  "conflict": false,
+  "en": {
+   "entry": "  Pacific 322",
+   "page": 322,
+   "via": "ebird"
+  },
+  "page": 322,
+  "sci": {
+   "entry": "cinnamomeus, Furnarius 322",
+   "page": 322,
    "via": "exact"
   }
  },
@@ -10748,7 +10822,7 @@
    "via": "exact"
   }
  },
- "gygis-alba": {
+ "gygis-candida": {
   "conflict": false,
   "en": {
    "entry": "  White 164",
@@ -10757,9 +10831,8 @@
   },
   "page": 164,
   "sci": {
-   "entry": "alba, Gygis 164",
-   "page": 164,
-   "via": "exact"
+   "entry": null,
+   "page": null
   }
  },
  "gymnocichla-nudiceps": {
@@ -12603,17 +12676,18 @@
    "via": "exact"
   }
  },
- "laniisoma-elegans": {
+ "laniisoma-buckleyi": {
   "conflict": false,
   "en": {
-   "entry": null,
-   "page": null
+   "entry": "  Andean 363",
+   "page": 363,
+   "via": "ebird"
   },
   "page": 363,
   "sci": {
    "entry": "buckleyi, Laniisoma 363",
    "page": 363,
-   "via": "mapping"
+   "via": "exact"
   }
  },
  "lanio-fulvus": {
@@ -12670,19 +12744,6 @@
    "entry": "inca, Larosterna 170",
    "page": 170,
    "via": "exact"
-  }
- },
- "larus-argentatus": {
-  "conflict": false,
-  "en": {
-   "entry": "  Herring 168",
-   "page": 168,
-   "via": "aco"
-  },
-  "page": 168,
-  "sci": {
-   "entry": null,
-   "page": null
   }
  },
  "larus-belcheri": {
@@ -12751,6 +12812,20 @@
   "page": 168,
   "sci": {
    "entry": "marinus, Larus 168",
+   "page": 168,
+   "via": "exact"
+  }
+ },
+ "larus-smithsonianus": {
+  "conflict": false,
+  "en": {
+   "entry": "  American Herring 168",
+   "page": 168,
+   "via": "ebird"
+  },
+  "page": 168,
+  "sci": {
+   "entry": "smithsonianus, Larus 168",
    "page": 168,
    "via": "exact"
   }
@@ -13524,19 +13599,6 @@
    "via": "exact"
   }
  },
- "lophornis-chalybeus": {
-  "conflict": false,
-  "en": {
-   "entry": "  Festive 82",
-   "page": 82,
-   "via": "ebird"
-  },
-  "page": 82,
-  "sci": {
-   "entry": null,
-   "page": null
-  }
- },
  "lophornis-delattrei": {
   "conflict": false,
   "en": {
@@ -13561,6 +13623,20 @@
   "page": 82,
   "sci": {
    "entry": "stictolophus, Lophornis 82",
+   "page": 82,
+   "via": "exact"
+  }
+ },
+ "lophornis-verreauxii": {
+  "conflict": false,
+  "en": {
+   "entry": "  Butterfly 82",
+   "page": 82,
+   "via": "ebird"
+  },
+  "page": 82,
+  "sci": {
+   "entry": "verreauxii, Lophornis 82",
    "page": 82,
    "via": "exact"
   }
@@ -14585,6 +14661,20 @@
    "via": "exact"
   }
  },
+ "mionectes-galbinus": {
+  "conflict": false,
+  "en": {
+   "entry": "  Olive-striped 367",
+   "page": 367,
+   "via": "ebird"
+  },
+  "page": 367,
+  "sci": {
+   "entry": "galbinus, Mionectes 367",
+   "page": 367,
+   "via": "exact"
+  }
+ },
  "mionectes-oleagineus": {
   "conflict": false,
   "en": {
@@ -14597,19 +14687,6 @@
    "entry": "oleagineus, Mionectes 368",
    "page": 368,
    "via": "exact"
-  }
- },
- "mionectes-olivaceus": {
-  "conflict": false,
-  "en": {
-   "entry": "  Olive-striped 367",
-   "page": 367,
-   "via": "aco"
-  },
-  "page": 367,
-  "sci": {
-   "entry": null,
-   "page": null
   }
  },
  "mionectes-striaticollis": {
@@ -15157,6 +15234,20 @@
    "via": "exact"
   }
  },
+ "myiobius-sulphureipygius": {
+  "conflict": false,
+  "en": {
+   "entry": "  Sulphur-rumped 357",
+   "page": 357,
+   "via": "ebird"
+  },
+  "page": 357,
+  "sci": {
+   "entry": "sulphureipygius, Myiobius 357",
+   "page": 357,
+   "via": "exact"
+  }
+ },
  "myiobius-villosus": {
   "conflict": false,
   "en": {
@@ -15227,18 +15318,17 @@
    "via": "exact"
   }
  },
- "myiodynastes-chrysocephalus": {
+ "myiodynastes-hemichrysus": {
   "conflict": false,
   "en": {
    "entry": "  Golden-crowned 396",
    "page": 396,
-   "via": "ebird"
+   "via": "aco"
   },
   "page": 396,
   "sci": {
-   "entry": "chrysocephalus, Myiodynastes 396",
-   "page": 396,
-   "via": "exact"
+   "entry": null,
+   "page": null
   }
  },
  "myiodynastes-luteiventris": {
@@ -15268,16 +15358,17 @@
    "via": "exact"
   }
  },
- "myiopagis-caniceps": {
+ "myiopagis-cinerea": {
   "conflict": false,
   "en": {
    "entry": null,
    "page": null
   },
-  "page": null,
+  "page": 386,
   "sci": {
-   "entry": null,
-   "page": null
+   "entry": "cinerea, Myiopagis 386",
+   "page": 386,
+   "via": "exact"
   }
  },
  "myiopagis-flavivertex": {
@@ -15318,6 +15409,19 @@
   "page": 387,
   "sci": {
    "entry": "olallai, Myiopagis 387",
+   "page": 387,
+   "via": "exact"
+  }
+ },
+ "myiopagis-parambae": {
+  "conflict": false,
+  "en": {
+   "entry": null,
+   "page": null
+  },
+  "page": 387,
+  "sci": {
+   "entry": "parambae, Myiopagis 387",
    "page": 387,
    "via": "exact"
   }
@@ -16758,6 +16862,19 @@
    "via": "exact"
   }
  },
+ "ocreatus-peruanus": {
+  "conflict": false,
+  "en": {
+   "entry": "  Peruvian 95",
+   "page": 95,
+   "via": "ebird"
+  },
+  "page": 95,
+  "sci": {
+   "entry": null,
+   "page": null
+  }
+ },
  "ocreatus-underwoodii": {
   "conflict": false,
   "en": {
@@ -17289,16 +17406,16 @@
    "via": "exact"
   }
  },
- "oxyura-jamaicensis": {
+ "oxyura-ferruginea": {
   "conflict": false,
   "en": {
-   "entry": "  Ruddy 40",
+   "entry": "  Andean 40",
    "page": 40,
    "via": "ebird"
   },
   "page": 40,
   "sci": {
-   "entry": "jamaicensis, Oxyura 40",
+   "entry": "ferruginea, Oxyura 40",
    "page": 40,
    "via": "exact"
   }
@@ -17413,6 +17530,19 @@
    "entry": "rufus, Pachyramphus 359",
    "page": 359,
    "via": "exact"
+  }
+ },
+ "pachyramphus-salvini": {
+  "conflict": false,
+  "en": {
+   "entry": null,
+   "page": null
+  },
+  "page": 361,
+  "sci": {
+   "entry": "albogriseus, Pachyramphus 361",
+   "page": 361,
+   "via": "mapping"
   }
  },
  "pachyramphus-versicolor": {
@@ -18082,17 +18212,18 @@
    "via": "exact"
   }
  },
- "phacellodomus-rufifrons": {
+ "phacellodomus-inornatus": {
   "conflict": false,
   "en": {
-   "entry": "  Rufous-fronted 331",
+   "entry": "  Plain 331",
    "page": 331,
    "via": "ebird"
   },
   "page": 331,
   "sci": {
-   "entry": null,
-   "page": null
+   "entry": "inornatus, Phacellodomus 331",
+   "page": 331,
+   "via": "exact"
   }
  },
  "phaenostictus-mcleannani": {
@@ -19793,6 +19924,20 @@
    "via": "exact"
   }
  },
+ "polioptila-bilineata": {
+  "conflict": false,
+  "en": {
+   "entry": "  White-browed 432",
+   "page": 432,
+   "via": "ebird"
+  },
+  "page": 432,
+  "sci": {
+   "entry": "bilineata, Polioptila (plumbea) 432",
+   "page": 432,
+   "via": "exact"
+  }
+ },
  "polioptila-facilis": {
   "conflict": false,
   "en": {
@@ -21202,6 +21347,20 @@
    "via": "exact"
   }
  },
+ "rhynchocyclus-aequinoctialis": {
+  "conflict": false,
+  "en": {
+   "entry": "  Western Olivaceous 369",
+   "page": 369,
+   "via": "ebird"
+  },
+  "page": 369,
+  "sci": {
+   "entry": "aequinoctialis, Rhynchocyclus 369",
+   "page": 369,
+   "via": "exact"
+  }
+ },
  "rhynchocyclus-brevirostris": {
   "conflict": false,
   "en": {
@@ -21227,20 +21386,6 @@
   "sci": {
    "entry": "fulvipectus, Rhynchocyclus 370",
    "page": 370,
-   "via": "exact"
-  }
- },
- "rhynchocyclus-olivaceus": {
-  "conflict": false,
-  "en": {
-   "entry": "  Olivaceous 369",
-   "page": 369,
-   "via": "aco"
-  },
-  "page": 369,
-  "sci": {
-   "entry": "olivaceus, Rhynchocyclus 369",
-   "page": 369,
    "via": "exact"
   }
  },
@@ -22257,6 +22402,20 @@
   "sci": {
    "entry": "heterura, Setopagis 64",
    "page": 64,
+   "via": "exact"
+  }
+ },
+ "setophaga-aestiva": {
+  "conflict": false,
+  "en": {
+   "entry": "  Northern Yellow 488",
+   "page": 488,
+   "via": "ebird"
+  },
+  "page": 488,
+  "sci": {
+   "entry": "aestiva, Setophaga (petechia) 488",
+   "page": 488,
    "via": "exact"
   }
  },
@@ -25644,6 +25803,20 @@
    "via": "exact"
   }
  },
+ "tolmomyias-viridiceps": {
+  "conflict": false,
+  "en": {
+   "entry": "  Olive-faced 371",
+   "page": 371,
+   "via": "ebird"
+  },
+  "page": 371,
+  "sci": {
+   "entry": "viridiceps, Tolmomyias 371",
+   "page": 371,
+   "via": "exact"
+  }
+ },
  "topaza-pyra": {
   "conflict": false,
   "en": {
@@ -25798,20 +25971,6 @@
    "via": "exact"
   }
  },
- "troglodytes-aedon": {
-  "conflict": false,
-  "en": {
-   "entry": "  House 434",
-   "page": 434,
-   "via": "aco"
-  },
-  "page": 434,
-  "sci": {
-   "entry": "aedon, Troglodytes 434",
-   "page": 434,
-   "via": "exact"
-  }
- },
  "troglodytes-monticola": {
   "conflict": false,
   "en": {
@@ -25822,6 +25981,20 @@
   "page": 434,
   "sci": {
    "entry": "monticola, Troglodytes 434",
+   "page": 434,
+   "via": "exact"
+  }
+ },
+ "troglodytes-musculus": {
+  "conflict": false,
+  "en": {
+   "entry": "  Southern House 434",
+   "page": 434,
+   "via": "ebird"
+  },
+  "page": 434,
+  "sci": {
+   "entry": "musculus, Troglodytes (aedon) 434",
    "page": 434,
    "via": "exact"
   }
@@ -26031,6 +26204,19 @@
    "entry": "viridis, Trogon 201",
    "page": 201,
    "via": "exact"
+  }
+ },
+ "tunchiornis-ferrugineifrons": {
+  "conflict": false,
+  "en": {
+   "entry": null,
+   "page": null
+  },
+  "page": 418,
+  "sci": {
+   "entry": "ochraceiceps, Tunchiornis 418",
+   "page": 418,
+   "via": "mapping"
   }
  },
  "tunchiornis-ochraceiceps": {
@@ -26481,15 +26667,16 @@
    "via": "exact"
   }
  },
- "tyto-alba": {
+ "tyto-furcata": {
   "conflict": false,
   "en": {
-   "entry": null,
-   "page": null
+   "entry": "  American 174",
+   "page": 174,
+   "via": "ebird"
   },
   "page": 174,
   "sci": {
-   "entry": "alba, Tyto 174",
+   "entry": "furcata, Tyto (alba) 174",
    "page": 174,
    "via": "exact"
   }
@@ -27040,7 +27227,7 @@
    "via": "exact"
   }
  },
- "xenops-minutus": {
+ "xenops-genibarbis": {
   "conflict": false,
   "en": {
    "entry": "  Plain 319",
@@ -27049,8 +27236,22 @@
   },
   "page": 319,
   "sci": {
+   "entry": "genibarbis, Xenops 319",
+   "page": 319,
+   "via": "exact"
+  }
+ },
+ "xenops-mexicanus": {
+  "conflict": false,
+  "en": {
    "entry": null,
    "page": null
+  },
+  "page": 319,
+  "sci": {
+   "entry": "mexicanus, Xenops (genibarbis) 319",
+   "page": 319,
+   "via": "exact"
   }
  },
  "xenops-rutilans": {
@@ -27387,17 +27588,18 @@
    "via": "exact"
   }
  },
- "zimmerius-vilissimus": {
+ "zimmerius-parvus": {
   "conflict": false,
   "en": {
    "entry": "  Mistletoe 379",
    "page": 379,
-   "via": "aco"
+   "via": "ebird"
   },
   "page": 379,
   "sci": {
-   "entry": null,
-   "page": null
+   "entry": "parvus, Zimmerius 379",
+   "page": 379,
+   "via": "exact"
   }
  },
  "zonotrichia-capensis": {

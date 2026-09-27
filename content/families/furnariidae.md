@@ -14,7 +14,7 @@ confusable:
   - family: troglo1
     how: "Крапивники мельче, хвост короткий и часто задран, на крыльях и хвосте тонкие поперечные полоски"
 route_note: "Целевые виды на всей высотной шкале. В Чикаке (дни 1 и 22) — Strong-billed Woodcreeper и эндемик Silvery-throated Spinetail; на Трамплине птиц (день 13) — Spectacled Prickletail; на парамо Бордонсильо и у Ла-Кочи (день 14) — White-chinned Thistletail. В низинах Путумайо Point-tailed Palmcreeper живёт в пальмах мориче у Пуэрто-Асиса (дни 9–11)."
-fact: "Семейство названо по печникам (Furnarius): их глиняное гнездо похоже на маленькую печь, и Pale-legged Hornero строит такие у Тумако."
+fact: "Семейство названо по печникам (Furnarius): их глиняное гнездо похоже на маленькую печь, и Pacific Hornero строит такие у Тумако."
 en:
   recognize:
     - "Brown, rufous or olive, often streaked; sexes alike"
@@ -23,7 +23,7 @@ en:
     - "Foliage-gleaners and treehunters rummage in dead leaves and epiphytes, often in mixed flocks"
     - "Dry voices: trills, rattles, sharp chips"
   route_note: "Targets span the whole elevation range. At Chicaque (days 1 and 22), Strong-billed Woodcreeper and the endemic Silvery-throated Spinetail; at Trampolín de las Aves (day 13), Spectacled Prickletail; on the Bordoncillo páramo and at La Cocha (day 14), White-chinned Thistletail. In the Putumayo lowlands, Point-tailed Palmcreeper lives in moriche palms around Puerto Asís (days 9–11)."
-  fact: "The family is named after the horneros (Furnarius), whose mud nest looks like a little oven; Pale-legged Hornero builds them around Tumaco."
+  fact: "The family is named after the horneros (Furnarius), whose mud nest looks like a little oven; Pacific Hornero builds them around Tumaco."
 ---
 Печниковые — огромное неотропическое семейство (113 видов в Колумбии), и почти все его члены бурые или рыжие. На маршруте ты встретишь две большие ветви. Древолазы (woodcreepers), которых раньше выделяли в отдельное семейство, лезут по стволам снизу вверх, опираясь на жёсткий хвост, как дятлы; различаются они в основном размером, формой клюва (от короткого клина у Wedge-billed Woodcreeper до серпа у дугоклювов) и пестринами на голове и спине. Вторая ветвь — собственно печниковые: иглохвостки и канастеро прячутся в зарослях и траве, листовики и лесовики (foliage-gleaners, treehunters) роются в сухих листьях и эпифитах, а щетинкохвосты и ксенопсы лазают по веткам, в том числе вниз головой.
 

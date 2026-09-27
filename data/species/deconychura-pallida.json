@@ -18,21 +18,21 @@
   "status_uncertain": false
  },
  "difficulty": null,
- "ebird_code": "lotwoo4",
+ "ebird_code": "lotwoo5",
  "family": {
   "code": "furnar2",
   "en": "Ovenbirds and Woodcreepers",
   "sci": "Furnariidae"
  },
  "genus": "Deconychura",
- "id": "deconychura-longicauda",
+ "id": "deconychura-pallida",
  "ids": {
   "avibase": null,
-  "birdbase": 14560,
+  "birdbase": 14562,
   "gbif": 2485200,
-  "inaturalist": "718283",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q27616890",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -42,53 +42,36 @@
  },
  "links": {
   "commons_category": null,
-  "ebird": "https://ebird.org/species/lotwoo4",
-  "inaturalist": "https://www.inaturalist.org/taxa/718283",
+  "ebird": "https://ebird.org/species/lotwoo5",
+  "inaturalist": null,
   "wikipedia": {
    "en": null,
    "es": null,
    "ru": null
   },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Deconychura+longicauda"
+  "xeno_canto": "https://xeno-canto.org/explore?query=Deconychura+pallida"
  },
  "name_ru_source": null,
  "names": {
-  "en": "Whistling Long-tailed Woodcreeper",
+  "en": "Mournful Long-tailed Woodcreeper",
   "en_aco": "Long-tailed Woodcreeper",
-  "es": "Trepatroncos Colilargo Norteño",
+  "es": "Trepatroncos Colilargo Sureño",
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [
-  {
-   "author": "Hector Bottai",
-   "credit": "Own work",
-   "height": 1150,
-   "key_base": "photos/deconychura-longicauda/1",
-   "kind": "photo",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "sizes": {
-    "large": "photos/deconychura-longicauda/1-large.jpg",
-    "medium": "photos/deconychura-longicauda/1-medium.jpg",
-    "thumb": "photos/deconychura-longicauda/1-thumb.jpg"
-   },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Deconychura_longicauda_-_Long-tailed_Woodcreeper.JPG",
-   "width": 926
-  }
- ],
- "sci_name": "Deconychura longicauda",
+ "photos": [],
+ "sci_name": "Deconychura pallida",
  "sci_name_aco": "Deconychura longicauda",
  "sounds": [],
  "source": "aco2022",
- "taxon_order": 14636.0,
- "taxonomy_note": null,
+ "taxon_order": 14637.0,
+ "taxonomy_note": "ACO/SACC lists this as Deconychura longicauda; eBird/Clements uses Deconychura pallida.",
  "texts": {},
  "traits": {
   "diet_desc": null,
   "elevation_m": {
-   "max": 1260,
-   "max_extreme": null,
+   "max": 1700,
+   "max_extreme": 1750,
    "min": 0,
    "min_extreme": null
   },
@@ -96,7 +79,7 @@
   "habitats": [
    "forest"
   ],
-  "mass_g": 27.766666666666666,
+  "mass_g": 28,
   "mobility": {
    "altitudinal": null,
    "dispersive": null,

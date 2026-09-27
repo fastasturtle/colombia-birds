@@ -11,7 +11,7 @@ confusable:
     how: "Лысухи и султанки тоже плавают, но у них куриный клюв с лобной бляшкой и кивающая голова"
   - group: seabirds
     how: "Бакланы и змеешейки сидят на воде низко, как поганки, но они крупнее, тёмные, с длинной шеей и сушат крылья на ветке"
-route_note: "Главная водная точка — Лагуна Ла-Коча (день 14) на 2 800 м: Silvery Grebe, Ruddy Duck и Yellow-billed Pintail в тростниках. На бывших креветочных прудах Финки Марагриколы у Тумако (день 20) бывают White-cheeked Pintail и цапли. На лесных речках у Пуэрто-Асиса (дни 9–11) стоит высматривать лапчатонога."
+route_note: "Главная водная точка — Лагуна Ла-Коча (день 14) на 2 800 м: Silvery Grebe, Andean Duck и Yellow-billed Pintail в тростниках. На бывших креветочных прудах Финки Марагриколы у Тумако (день 20) бывают White-cheeked Pintail и цапли. На лесных речках у Пуэрто-Асиса (дни 9–11) стоит высматривать лапчатонога."
 fact: "Самец лапчатонога носит птенцов в кожистых карманах под крыльями и может даже взлетать с ними."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Screamers: turkey-sized with a small chicken-like head; stand on banks or bushes by marshes"
     - "Flamingos: pink, long-legged, feed with the head upside down in water; only on Caribbean salt lagoons"
     - "Sungrebe: like a long-tailed grebe, swims along the bank under overhanging branches of forest streams"
-  route_note: "The main wetland stop is Laguna La Cocha (day 14) at 2,800 m: Silvery Grebe, Ruddy Duck and Yellow-billed Pintail in the reeds. The old shrimp ponds of Finca Maragrícola near Tumaco (day 20) can hold White-cheeked Pintail and herons. On forest streams near Puerto Asís (days 9–11), watch for the Sungrebe."
+  route_note: "The main wetland stop is Laguna La Cocha (day 14) at 2,800 m: Silvery Grebe, Andean Duck and Yellow-billed Pintail in the reeds. The old shrimp ponds of Finca Maragrícola near Tumaco (day 20) can hold White-cheeked Pintail and herons. On forest streams near Puerto Asís (days 9–11), watch for the Sungrebe."
   fact: "The male Sungrebe carries its chicks in skin pockets under the wings and can even fly with them."
 ---
 Всё, что в этой группе, держится на воде: плавает, ныряет или кормится на мелководье. На нашем маршруте водных птиц немного, потому что тур идёт через леса, но пара остановок у воды даёт совсем других птиц, чем облачный лес, и их легко разглядеть.

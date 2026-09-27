@@ -293,7 +293,7 @@
 | anas-bahamensis | White-cheeked Pintail | Утки, поганки и фламинго | 2026-09-27 |
 | anas-georgica | Yellow-billed Pintail | Утки, поганки и фламинго | 2026-09-27 |
 | anas-andium | Andean Teal | Утки, поганки и фламинго | 2026-09-27 |
-| oxyura-jamaicensis | Ruddy Duck | Утки, поганки и фламинго | 2026-09-27 |
+| oxyura-ferruginea | Andean Duck | Утки, поганки и фламинго | 2026-09-27 |
 | podilymbus-podiceps | Pied-billed Grebe | Утки, поганки и фламинго | 2026-09-27 |
 | podiceps-occipitalis | Silvery Grebe | Утки, поганки и фламинго | 2026-09-27 |
 | columba-livia | Rock Pigeon | Голуби, кукушки и гоацин | 2026-09-27 |

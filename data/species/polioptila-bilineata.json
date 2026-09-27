@@ -1,0 +1,100 @@
+{
+ "authorship": "(Bonaparte, 1850)",
+ "book": {
+  "lynx_page": 432
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "trogna2",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Polioptila",
+ "id": "polioptila-bilineata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 29463,
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/trogna2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+bilineata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "White-browed Gnatcatcher",
+  "en_aco": null,
+  "es": "Perlita Cejiancha",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Polioptila bilineata",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 27117.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Polioptila plumbea); added from eBird/Clements 2025. White-browed Gnatcatcher, split from Tropical Gnatcatcher (P. plumbea) in eBird/Clements: Mexico to western Colombia and western Ecuador/Peru (route: Pacific Nariño and coast). P. plumbea in the narrow sense is the bird of the Andes valleys, the Caribbean and the east (per eBird records by department, GBIF eBird dataset).",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 5.805,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

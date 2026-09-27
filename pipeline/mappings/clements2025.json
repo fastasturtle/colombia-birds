@@ -18,6 +18,132 @@
    "gbif_key": 10797540,
    "habitat_aco": null,
    "note": "Boyaca Antpitta, split from Tawny Antpitta (G. quitensis) by IOC (July 2023) and Clements (October 2023): Eastern Andes of Colombia (route: Chingaza, Sumapaz, the other Bogotá sites). G. quitensis stays for the Central Andes and Nariño (Bordoncillo, La Cocha). Not split by SACC/ACO and not in Chaparro-Herrera et al. 2024; `endemic` follows the Clements range (Eastern Andes of Colombia only)."
+  },
+  "Xenops mexicanus": {
+   "authorship": "P.L. Sclater, 1857",
+   "split_from": "Xenops minutus",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Northern Plain-Xenops, split from Plain Xenops (X. minutus, now the Atlantic Forest bird) in eBird/Clements 2025: Mexico to western Colombia and the Magdalena valley, western Ecuador (route: Pacific Nariño, Maragrícola). The ACO taxon itself is remapped to Amazonian Plain-Xenops X. genibarbis (east of the Andes, Putumayo)."
+  },
+  "Formicivora intermedia": {
+   "authorship": "Cabanis, 1847",
+   "split_from": "Formicivora grisea",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": 6100904,
+   "habitat_aco": null,
+   "note": "Northern White-fringed Antwren, split from White-fringed Antwren (F. grisea) in eBird/Clements: Caribbean lowlands, Magdalena valley, Panama and Venezuela (route: Chicaque). F. grisea in the narrow sense (Southern White-fringed Antwren) remains the bird of eastern Colombia (Guainía, Vaupés, Casanare; per eBird records by department, GBIF eBird dataset)."
+  },
+  "Setophaga aestiva": {
+   "authorship": "(J.F.Gmelin, 1789)",
+   "split_from": "Setophaga petechia",
+   "status": ["boreal_migrant"],
+   "endemic": false,
+   "gbif_key": 8378494,
+   "habitat_aco": null,
+   "note": "Northern Yellow Warbler, split from Yellow Warbler in eBird/Clements 2025: breeds in North America, winters south to northern South America; the boreal migrant of the ACO record (route: Bogotá, Huila, Putumayo, the Andes). S. petechia in the narrow sense is the resident Mangrove Yellow Warbler of the coasts (route: Tumaco, Playa del Morro)."
+  },
+  "Chlorothraupis frenata": {
+   "authorship": "von Berlepsch, 1907",
+   "split_from": "Chlorothraupis carmioli",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": 6100780,
+   "habitat_aco": null,
+   "note": "Yellow-lored Tanager, split from Carmiol's Tanager (C. carmioli) in eBird/Clements: east slope of the Andes from Colombia to Bolivia (route: Putumayo, La Isla Escondida). C. carmioli in the narrow sense reaches Colombia only in the far northwest (3 records in Chocó; per eBird records by department, GBIF eBird dataset)."
+  },
+  "Automolus virgatus": {
+   "authorship": "(Lawrence, 1867)",
+   "split_from": "Automolus subulatus",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Western Woodhaunter, split from Striped Woodhaunter (A. subulatus) in eBird/Clements: Costa Rica to western Colombia and Ecuador (route: Pacific Nariño). A. subulatus in the narrow sense (Eastern Woodhaunter) is the Amazonian bird (route: Putumayo)."
+  },
+  "Myiobius sulphureipygius": {
+   "authorship": "(P.L.Sclater, 1857)",
+   "split_from": "Myiobius barbatus",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Sulphur-rumped Flycatcher, split from Whiskered Flycatcher (M. barbatus) in eBird/Clements: southern Mexico to western Colombia and western Ecuador (route: Pacific Nariño). M. barbatus in the narrow sense is the Amazonian bird east of the Andes."
+  },
+  "Tunchiornis ferrugineifrons": {
+   "authorship": "(P.L. Sclater, 1862)",
+   "split_from": "Tunchiornis ochraceiceps",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Rufous-fronted Greenlet, split from Tawny-crowned Greenlet in eBird/Clements 2025: western Amazonia (route: Putumayo, La Isla Escondida). T. ochraceiceps in the narrow sense (Ochre-crowned Greenlet) is the bird west of the Andes (Chocó to western Ecuador)."
+  },
+  "Pachyramphus salvini": {
+   "authorship": "Richmond, 1899",
+   "split_from": "Pachyramphus albogriseus",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": 8120211,
+   "habitat_aco": null,
+   "note": "Cryptic Becard, split from Black-and-white Becard (P. albogriseus) in eBird/Clements: western Ecuador and northwest Peru to southwest Colombia; all Colombian eBird records are from Nariño (route: Pacific Nariño). P. albogriseus stays for the rest of Colombia (per eBird records by department, GBIF eBird dataset)."
+  },
+  "Furnarius cinnamomeus": {
+   "authorship": "(R.P.Lesson, 1844)",
+   "split_from": "Furnarius leucopus",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Pacific Hornero, split from Pale-legged Hornero (F. leucopus) in eBird/Clements: Pacific lowlands of southwest Colombia, Ecuador and northwest Peru (route: Tumaco, Maragrícola, Km 42). F. leucopus in the narrow sense is Amazonian (Amazonas); Caribbean Hornero F. longirostris (north Colombia) is not on the route (per eBird records by department, GBIF eBird dataset)."
+  },
+  "Polioptila bilineata": {
+   "authorship": "(Bonaparte, 1850)",
+   "split_from": "Polioptila plumbea",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "White-browed Gnatcatcher, split from Tropical Gnatcatcher (P. plumbea) in eBird/Clements: Mexico to western Colombia and western Ecuador/Peru (route: Pacific Nariño and coast). P. plumbea in the narrow sense is the bird of the Andes valleys, the Caribbean and the east (per eBird records by department, GBIF eBird dataset)."
+  },
+  "Tolmomyias viridiceps": {
+   "authorship": "(P.L.Sclater & Salvin, 1873)",
+   "split_from": "Tolmomyias flaviventris",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Olive-faced Flatbill, split from Yellow-breasted Flatbill (T. flaviventris) in eBird/Clements: western Amazonia (route: Putumayo). T. flaviventris in the narrow sense (Ochre-lored Flatbill) is the bird of the llanos and the Caribbean (per eBird records by department, GBIF eBird dataset)."
+  },
+  "Cryptopipo litae": {
+   "authorship": "(Hellmayr, 1906)",
+   "split_from": "Cryptopipo holochlora",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Choco Manakin, split from Green Manakin (C. holochlora) in eBird/Clements: eastern Panama to western Ecuador (route: Pacific Nariño). C. holochlora in the narrow sense is the bird of the east slope and Amazonia (route: Putumayo) (per eBird records by department, GBIF eBird dataset)."
+  },
+  "Ocreatus peruanus": {
+   "authorship": "(Gould, 1849)",
+   "split_from": "Ocreatus underwoodii",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": 9449567,
+   "habitat_aco": null,
+   "note": "Peruvian Racket-tail, split from Booted Racket-tail (O. underwoodii) in eBird/Clements: east slope of the Andes from southern Colombia to Peru; Colombian eBird records are almost all from Putumayo (route: Mocoa area). O. underwoodii (White-booted Racket-tail) stays for the rest of the Andes (per eBird records by department, GBIF eBird dataset)."
+  },
+  "Myiopagis parambae": {
+   "authorship": "(Hellmayr, 1904)",
+   "split_from": "Myiopagis caniceps",
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": null,
+   "habitat_aco": null,
+   "note": "Choco Elaenia, split from Gray Elaenia (M. caniceps, now the Atlantic Forest bird) in eBird/Clements: eastern Panama to western Ecuador (route: Km 42, Maragrícola). The ACO taxon itself is remapped to Amazonian Elaenia M. cinerea (east of the Andes, Putumayo)."
   }
  },
  "renamed": {
@@ -25,6 +151,26 @@
   "heliangelus-amethysticollis": {"to": "heliangelus-clarisse", "carry": true},
   "myiothlypis-chrysogaster": {"to": "myiothlypis-chlorophrys", "carry": true},
   "atlapetes-tricolor": {"to": "atlapetes-crassus", "carry": true},
-  "rallus-limicola": {"to": "rallus-aequatorialis", "carry": false, "why": "the old photos are North American Virginia Rails"}
+  "rallus-limicola": {"to": "rallus-aequatorialis", "carry": false, "why": "the old photos are North American Virginia Rails"},
+  "troglodytes-aedon": {"to": "troglodytes-musculus", "carry": false, "why": "the old photo is a Northern House Wren from New York"},
+  "tyto-alba": {"to": "tyto-furcata", "carry": false, "why": "the old photo is a Western Barn Owl from Wales"},
+  "oxyura-jamaicensis": {"to": "oxyura-ferruginea", "carry": false, "why": "the old photos are North American Ruddy Ducks (white cheeks)"},
+  "mionectes-olivaceus": {"to": "mionectes-galbinus", "carry": false, "why": "the old photo is an Olive-streaked Flycatcher from Panama"},
+  "lophornis-chalybeus": {"to": "lophornis-verreauxii", "carry": false, "why": "the old photos are Festive Coquettes from São Paulo, Brazil"},
+  "cyphorhinus-thoracicus": {"to": "cyphorhinus-dichrous", "carry": false, "why": "the old photo is a Southern Chestnut-breasted Wren from Cusco, Peru"},
+  "contopus-cinereus": {"to": "contopus-bogotensis", "carry": false, "why": "the old photo is a Southern Tropical Pewee from São Paulo, Brazil"},
+  "rhynchocyclus-olivaceus": {"to": "rhynchocyclus-aequinoctialis", "carry": false, "why": "the old photo is an Eastern Olivaceous Flatbill from Espírito Santo, Brazil"},
+  "gygis-alba": {"to": "gygis-candida", "carry": false, "why": "the old photo is an Atlantic White-Tern from St Helena"},
+  "deconychura-longicauda": {"to": "deconychura-pallida", "carry": false, "why": "the old photo is a Whistling Long-tailed Woodcreeper from Amazonas, Brazil (north of the Amazon)"},
+  "myiopagis-caniceps": {"to": "myiopagis-cinerea", "carry": false, "why": "the old photo is a Gray-headed Elaenia from São Paulo, Brazil"},
+  "zimmerius-vilissimus": {"to": "zimmerius-parvus", "carry": false, "why": "the old photo is a Guatemalan Tyrannulet from El Salvador"},
+  "larus-argentatus": {"to": "larus-smithsonianus", "carry": false, "why": "the old photo is a European Herring Gull from Wales"},
+  "xenops-minutus": {"to": "xenops-genibarbis", "carry": false, "why": "the old photo is unlocated (Commons, no place); not provably the same species"},
+  "basileuterus-rufifrons": {"to": "basileuterus-delattrii", "carry": false, "why": "the old photo is a Rufous-capped Warbler from Arizona"},
+  "myiodynastes-chrysocephalus": {"to": "myiodynastes-hemichrysus", "carry": false, "why": "the old photo is from Bellavista, Ecuador; which half it is is not certain"},
+  "phacellodomus-rufifrons": {"to": "phacellodomus-inornatus", "carry": false, "why": "the old photo is a Rufous-fronted Thornbird from Bahia, Brazil"},
+  "acrochordopus-burmeisteri": {"to": "acrochordopus-zeledoni", "aco": "Phyllomyias burmeisteri", "carry": false, "why": "the old photo is a Rough-legged Tyrannulet from Minas Gerais, Brazil"},
+  "amaurospiza-concolor": {"to": "amaurospiza-aequatorialis", "carry": false, "why": "the old photo is a Blue Seedeater from Costa Rica"},
+  "laniisoma-elegans": {"to": "laniisoma-buckleyi", "carry": false, "why": "the old photo is a Brazilian Laniisoma from Rio de Janeiro state"}
  }
 }

@@ -1,5 +1,5 @@
 ---
-id: oxyura-jamaicensis
+id: oxyura-ferruginea
 difficulty: easy
 lynx_page: null
 checked: 2026-09-27
@@ -25,7 +25,7 @@ traits:
   layer: [water]
 sources:
   - "Wikipedia: Ruddy duck (en, CC BY-SA 4.0)"
-  - "Данные проекта: data/species/oxyura-jamaicensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Данные проекта: data/species/oxyura-ferruginea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
   - "Wikipedia: Oxyura jamaicensis (es: формы ferruginea и andina), Pied-billed grebe (es), Masked duck (en/ru), CC BY-SA 4.0 — фактчек 27.09"
 en:
@@ -43,12 +43,12 @@ en:
   behavior: "Keeps to open water on lakes and marshes, dives for food and hardly ever comes ashore. Takes off heavily after a long run across the water and usually escapes danger by diving."
   voice: "Mostly silent; displaying males drum the bill on the breast, raising bubbles."
 ---
-Ruddy Duck (американская савка) — нырковая утка с жёстким хвостом. В Колумбии живут андские оседлые птицы, у самцов которых голова чёрная, а не с большой белой щекой, как у североамериканских: у формы andina под Боготой на щеках бывают белые пятна разной величины, у южной ferruginea в Нариньо голова целиком чёрная. Живёт на высокогорных озёрах и болотах Анд, в национальной Красной книге — «под угрозой».
+Andean Duck (андская савка) — нырковая утка с жёстким хвостом. eBird/Clements выделяет андских оседлых птиц в отдельный вид от североамериканской Ruddy Duck (американской савки); в списке ACO 2022 они ещё значатся под её именем (Oxyura jamaicensis). У самцов голова чёрная, а не с большой белой щекой, как у североамериканских: у формы andina под Боготой на щеках бывают белые пятна разной величины, у южной ferruginea в Нариньо голова целиком чёрная. Живёт на высокогорных озёрах и болотах Анд, в национальной Красной книге — «под угрозой».
 
 На маршруте она «точно» на Лагуне Ла-Коча 16 октября, где птицы плавают на открытой воде у тростников, и «возможна» у Бордонсильо. Под Боготой вид обычен в Ла-Флориде и в Сумапасе.
 
 ## English
 
-Ruddy Duck is a stiff-tailed diving duck. Colombia has resident Andean birds whose males have a black head instead of the large white cheek of North American birds: the andina form around Bogotá shows variable white cheek patches, while the southern ferruginea in Nariño is wholly black-headed. It lives on high Andean lakes and marshes, and the national red list rates it Endangered.
+Andean Duck is a stiff-tailed diving duck. eBird/Clements treats these resident Andean birds as a species separate from the North American Ruddy Duck; the ACO 2022 checklist still lists them under its name (Oxyura jamaicensis). Males have a black head instead of the large white cheek of North American birds: the andina form around Bogotá shows variable white cheek patches, while the southern ferruginea in Nariño is wholly black-headed. It lives on high Andean lakes and marshes, and the national red list rates it Endangered.
 
 On the route it is "sure" at Laguna de La Cocha on 16 October, where the birds swim on open water by the reeds, and "maybe" near Bordoncillo. Around Bogotá it is common at La Florida and in Sumapaz.

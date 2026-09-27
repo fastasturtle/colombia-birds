@@ -1,19 +1,10 @@
 {
  "_comment": "GBIF backbone name -> our slug for lumps/splits and misapplied names the automatic matcher (exact sci name, then same family + epithet) cannot resolve; the Colombian population decides. Domestic species (Anas platyrhynchos, Anser anser, Gallus gallus) stay unmatched on purpose. Extend when data/sources/gbif_sites_unmatched.json shows a frequent species.",
- "Troglodytes musculus": "troglodytes-aedon",
  "Gallinula chloropus": "gallinula-galeata",
- "Oxyura ferruginea": "oxyura-jamaicensis",
- "Mionectes galbinus": "mionectes-olivaceus",
- "Myiodynastes hemichrysus": "myiodynastes-chrysocephalus",
  "Schizoeaca fuliginosa": "asthenes-fuliginosa",
  "Pyriglena leuconota": "pyriglena-maura",
  "Forpus xanthopterygius": "forpus-crassirostris",
- "Chlorothraupis frenata": "chlorothraupis-carmioli",
- "Tyto furcata": "tyto-alba",
- "Ocreatus peruanus": "ocreatus-underwoodii",
- "Setophaga aestiva": "setophaga-petechia",
  "Ramphocelus icteronotus": "ramphocelus-flammigerus",
- "Lophornis verreauxii": "lophornis-chalybeus",
  "Zimmerius viridiflavus": "zimmerius-chrysops",
  "Catharus dryas": "catharus-maculatus",
  "Capito niger": "capito-auratus",
@@ -21,8 +12,6 @@
  "Machaeropterus regulus": "machaeropterus-striolatus",
  "Colibri thalassinus": "colibri-cyanotus",
  "Arremon torquatus": "arremon-assimilis",
- "Formicivora intermedia": "formicivora-grisea",
  "Philydor rufum": "dendroma-rufa",
- "Xenops genibarbis": "xenops-minutus",
  "Anas flavirostris": "anas-andium"
 }
