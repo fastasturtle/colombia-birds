@@ -2,6 +2,7 @@
 id: chordeiles-minor
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крылья длинные, острые, поперёк маховых белая полоса, ближе к середине крыла, чем к концу"
   - "Хвост с неглубокой выемкой; у самца поперёк хвоста белая перевязь"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Common nighthawk (en), Chordeiles minor (es), Виргинский сумеречный козодой (ru), CC BY-SA 4.0 — размеры, приметы, сроки миграции, голос"
   - "content/groups/nightjars.md — термины группы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — белое на крыле и хвосте, полёт, сроки пролёта (ru: осенний пролёт с середины июля до начала октября), зимовка от Колумбии до Аргентины"
 en:
   key_features:
     - "Long pointed wings with a white bar across the primaries, nearer the middle of the wing than the tip"

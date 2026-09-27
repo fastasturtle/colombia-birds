@@ -2,6 +2,7 @@
 id: aburria-aburri
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся чёрная с зеленоватым блеском, силуэт стройной пенелопы"
   - "С горла свисает длинная тонкая голая серёжка, красная и жёлтая"
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: Wattled guan (en), Aburria aburri (es), Серёжчатая абурри (ru), CC BY-SA 4.0 — описание, распространение, высоты, поведение"
   - "Wikipedia: Spix's guan, Sickle-winged guan (en, CC BY-SA 4.0) — data/texts; сверено с карточкой C. goudotii"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar; происхождение названия aburri от голоса — Wiktionary «aburri» и birdsofcolombia.com (https://en.wiktionary.org/wiki/aburri)"
 en:
   key_features:
     - "All black with a greenish gloss, built like a slim guan"

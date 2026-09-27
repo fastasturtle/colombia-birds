@@ -2,16 +2,17 @@
 id: coccycua-minuta
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти вся каштаново-рыжая, горло и грудь тёмные, в тон спине"
   - "Хвост длинный, буроватый, с белыми концами перьев"
   - "Клюв жёлтый, короткий, изогнутый; глаз красный"
-  - "Низ брюха сероватый, темнее груди"
+  - "Низ брюха сероватый, а не черноватый, как у Common Squirrel-Cuckoo"
 similar:
   - id: piaya-cayana
     how: "почти вдвое крупнее, хвост очень длинный, снизу чёрный с широкими белыми концами; грудь серая, горло светлое"
 behavior: "Скрытная птица низких зарослей у воды: мангров, кустов по берегам рек и болот. Медленно пробирается по веткам в гуще, собирая насекомых, и редко показывается открыто."
-voice: "Резкие отрывистые «чек» и «как»; песня — хриплая нисходящая серия."
+voice: "Резкие отрывистые «чек» и «как»."
 traits:
   size: thrush
   colors: [rufous, gray]
@@ -24,17 +25,18 @@ sources:
   - "Данные проекта: data/species/coccycua-minuta.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/piaya-cayana.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — размеры, окраска, позывы «чек»/«как», биотоп; описание песни убрано (не подтверждено)"
 en:
   key_features:
     - "Almost wholly chestnut, throat and breast dark, matching the back"
     - "Long brownish tail with white feather tips"
     - "Short decurved yellow bill; red eye"
-    - "Lower belly grayish, darker than the breast"
+    - "Lower belly grayish, not blackish as in the squirrel-cuckoo"
   similar:
     - id: piaya-cayana
       how: "nearly twice the size, very long tail black below with broad white tips; gray breast, pale throat"
   behavior: "A secretive bird of low thickets near water: mangroves, riverside and marsh shrubs. It creeps slowly through dense branches gleaning insects and rarely shows in the open."
-  voice: "Harsh clipped 'chek' and 'kak' calls; the song is a hoarse descending series."
+  voice: "Harsh clipped 'chek' and 'kak' calls."
 ---
 Little Cuckoo (малая пиайя) — уменьшенная копия Common Squirrel-Cuckoo, около 27 см вместе с длинным хвостом, но весит всего около 40 г. Живёт от Панамы до Боливии и Бразилии в зарослях у воды, в Колумбии в основном до 900 м. Держится в гуще, так что обычно видна лишь рыжая тень, мелькнувшая между ветками.
 

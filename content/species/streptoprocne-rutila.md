@@ -2,6 +2,7 @@
 id: streptoprocne-rutila
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тёмно-бурый стриж с рыжим воротником на нижней части горла и верхе груди, заходящим на затылок"
   - "Воротник виден только на хорошем свету; у самок узкий или его нет"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Chestnut-collared swift (en), Streptoprocne rutila (es), Красношейный американский стриж (ru), CC BY-SA 4.0 — data/texts: размеры, окраска, подвиды, высоты, гнездо, голос"
   - "content/species/streptoprocne-zonaris.md, content/species/cypseloides-cherriei.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/ru) для вида и similar — окраска, подвиды, высоты в Колумбии до 2 500 м, гнёзда во влажных местах у воды и за водопадами (ru.wikipedia), голос"
 en:
   key_features:
     - "Dark brown swift with a rufous collar across the lower throat and upper breast, extending to the nape"

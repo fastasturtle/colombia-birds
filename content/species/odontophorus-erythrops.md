@@ -2,6 +2,7 @@
 id: odontophorus-erythrops
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб, темя, хохол и лицо рыжие"
   - "Грудь и брюхо тёмно-рыжие; у местного подвида parambae горло с белым"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Rufous-fronted wood quail (en, CC BY-SA 4.0) — описание, подвид parambae, высоты, кормушки, голос"
   - "Wikipedia: Dark-backed wood quail, Little tinamou (en, CC BY-SA 4.0) — data/texts; сверено с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — окраска parambae, высоты в Колумбии до 1 100 м, зерно на кормушках лоджей, голос"
 en:
   key_features:
     - "Rufous forehead, crown, crest and face"

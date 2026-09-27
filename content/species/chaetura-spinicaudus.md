@@ -2,6 +2,7 @@
 id: chaetura-spinicaudus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поперёк поясницы узкая светлая полоса, у наших птиц сероватая"
   - "Тело черно-бурое, горло чуть светлее остального низа"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Band-rumped swift (en), Chaetura spinicaudus (es), CC BY-SA 4.0 — data/texts: размеры, подвид aetherodroma, местообитания, поведение, голос"
   - "Wikipedia: Grey-rumped swift (en, CC BY-SA 4.0); content/species/chaetura-brachyura.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — подвид aetherodroma на западе Колумбии, полоса на пояснице, горло, кормёжка (в смешанных стаях ниже, над водой на рассвете и в сумерках), голос"
 en:
   key_features:
     - "A narrow pale band across the rump, grayish in our birds"

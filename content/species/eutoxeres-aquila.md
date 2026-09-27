@@ -2,6 +2,7 @@
 id: eutoxeres-aquila
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв толстый, круто загнут вниз на четверть круга, как серп"
   - "Грудь и брюхо в густых продольных пестринах, тёмных с белым"
@@ -11,7 +12,7 @@ similar:
   - id: eutoxeres-condamini
     how: "крайние рулевые охристые, лучше всего видны снизу"
   - id: phaethornis-guy
-    how: "клюв изогнут плавно, а не серпом; низ без пестрин, в хвосте длинные белые центральные перья"
+    how: "клюв изогнут плавно, а не серпом; низ без пестрин, хвост клиновидный, центральные рулевые с белыми концами"
 behavior: "Облетает по постоянному маршруту изогнутые цветки геликоний и центропогонов в подлеске, садясь прямо на соцветие. Участков не охраняет; насекомых собирает с паутины, стволов и ветвей."
 voice: "Тонкие жалобные писки, переходящие в резкие высокие ноты; позыв — тонкое колючее «цит»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-tipped sicklebill (en), Eutoxeres aquila (es), Орлиноклювый колибри (ru), CC BY-SA 4.0 — data/texts: окраска, подвиды и их ареалы, высоты в Колумбии, кормёжка, голос"
   - "content/species/eutoxeres-condamini.md, content/species/phaethornis-syrmatophorus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — клюв, окраска, подвиды (aquila на восточном склоне, heterurus от Кауки на юг), высоты в Колумбии, кормёжка, голос; у P. guy центральные рулевые сравнительно короткие, с белыми концами (en.wikipedia Green hermit)"
 en:
   key_features:
     - "Thick bill bent sharply down through a quarter circle, like a sickle"
@@ -36,7 +38,7 @@ en:
     - id: eutoxeres-condamini
       how: "buff outer tail feathers, best seen from below"
     - id: phaethornis-guy
-      how: "evenly decurved bill, not a sickle; unstreaked below, long white central tail feathers"
+      how: "evenly decurved bill, not a sickle; unstreaked below, tapered tail with white-tipped central feathers"
   behavior: "Trap-lines curved Heliconia and Centropogon flowers in the understory, perching right on the inflorescence. Defends no territory; takes insects from spider webs, trunks and branches."
   voice: "Thin whiny squeaks running into sharp high notes; the call is a thin, prickly 'tsit'."
 ---

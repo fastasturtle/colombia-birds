@@ -2,6 +2,7 @@
 id: chaetura-cinereiventris
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница и надхвостье серые, широко светлее чёрной спины и хвоста"
   - "Низ серый, у наших подвидов тёмный, черновато-серый"
@@ -13,7 +14,7 @@ similar:
   - id: chaetura-brachyura
     how: "хвост очень короткий, светлые и поясница, и хвост, одного тона"
 behavior: "Утром и вечером низко носится над дорогами и лесными полянами, днём охотится выше, над кронами, часто вместе с другими стрижами. Гнёзда из веточек клеит слюной внутри дупел и труб."
-voice: "Звонкие короткие писки и хрипловатые протяжные трели в 3–4 ноты."
+voice: "Звонкие повторяющиеся короткие «цип» и серии из 3–4 хрипловатых протяжных, чуть нисходящих нот."
 traits:
   size: sparrow
   colors: [black, gray]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Grey-rumped swift (en), Chaetura cinereiventris (es), CC BY-SA 4.0 — data/texts: подвиды и их окраска, поведение, голос"
   - "Wikipedia: Band-rumped swift, Short-tailed swift (en, CC BY-SA 4.0); content/species/chaetura-brachyura.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — форма крыла и хвоста, подвиды occidentalis/sclateri, высоты до 1 800 м, поведение (es), гнёзда, голос (en: «tsip» и 3–4 протяжные ноты)"
 en:
   key_features:
     - "Rump and uppertail coverts gray, broadly paler than the black back and tail"
@@ -38,14 +40,14 @@ en:
     - id: chaetura-brachyura
       how: "very short tail; both rump and tail pale, of one tone"
   behavior: "Mornings and evenings it flies low over roads and forest clearings; at midday it hunts higher over the canopy, often with other swifts. It glues nests of twigs with saliva inside hollow trees and chimneys."
-  voice: "Bright short squeaks and slightly burry drawn-out trills of 3–4 notes."
+  voice: "Bright repeated short 'tsip' notes and series of 3–4 burry, drawn-out, slightly falling notes."
 ---
-Gray-rumped Swift (гвианский иглохвост) — самый обычный мелкий стриж лесов маршрута, от низин до 1 800 м. В Колумбии несколько подвидов: на тихоокеанском склоне occidentalis, на юге Амазонии sclateri, и у обоих поясница темнее, а брюхо черновато-серое, так что контраст слабее, чем на картинках определителей.
+Gray-rumped Swift (гвианский иглохвост) — один из самых обычных мелких стрижей лесов маршрута, от низин до 1 800 м. В Колумбии несколько подвидов: на тихоокеанском склоне occidentalis, на юге Амазонии sclateri, и у обоих поясница темнее, а брюхо черновато-серое, так что контраст слабее, чем на картинках определителей.
 
 На маршруте он «возможно» почти везде ниже 2 000 м: в Исла-Эскондиде 7–11 октября, в Эль-Эскондите 13–14 октября, на Км 42 21 октября, в Эль-Энканто и Ла-Дримофиле 4–6 октября. В каждой стайке иглохвостов над поляной ищи птиц, у которых светлое пятно захватывает и поясницу, и надхвостье, а хвост тёмный.
 
 ## English
 
-Gray-rumped Swift is the commonest small forest swift of the route, from the lowlands to 1,800 m. Colombia has several subspecies: occidentalis on the Pacific slope and sclateri in the southern Amazon, both with darker rumps and blackish-gray bellies, so the contrast is weaker than in field-guide plates.
+Gray-rumped Swift is one of the commonest small forest swifts of the route, from the lowlands to 1,800 m. Colombia has several subspecies: occidentalis on the Pacific slope and sclateri in the southern Amazon, both with darker rumps and blackish-gray bellies, so the contrast is weaker than in field-guide plates.
 
 On the route it is "maybe" almost everywhere below 2,000 m: Isla Escondida on 7–11 October, El Escondite on 13–14 October, Km 42 on 21 October, El Encanto and La Drymophila on 4–6 October. In every flock of Chaetura over a clearing, look for birds whose pale patch covers both the rump and the uppertail coverts, with a dark tail.
