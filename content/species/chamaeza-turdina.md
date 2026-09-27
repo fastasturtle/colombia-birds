@@ -2,6 +2,7 @@
 id: chamaeza-turdina
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ белый в густой чёрной чешуйчатой ряби, горло в мелких точках"
   - "Верх ровный оливково-бурый, темя и поясница чуть рыжее"
@@ -9,9 +10,9 @@ key_features:
   - "Шагает по лесной подстилке, как маленький пастушок, хвост короткий"
 similar:
   - id: chamaeza-campanisona
-    how: "низ охристый в продольных пестринах, а не в чешуйках, на конце хвоста светлая полоса; живёт в основном ниже"
+    how: "низ охристый в широких продольных пестринах, а не в чешуйках, на хвосте тёмная полоса перед светлыми кончиками; в Колумбии только на восточном склоне, ниже"
   - id: chamaeza-mollissima
-    how: "весь, включая спину, в частых тонких поперечных полосках, без белой черты за глазом; живёт выше"
+    how: "низ тёмный в частых узких светлых поперечных полосках, горло и щёки тоже полосатые, спина ровная каштаново-бурая; в среднем живёт выше"
 behavior: "Почти всё время проводит на земле в сыром мшистом лесу с густым подлеском, медленно шагает и перебегает. Поёт с земли или с низкой ветки, чаще на рассвете."
 voice: "Очень длинная, иногда больше минуты, ровная серия свистовых «ку», которая понемногу ускоряется, повышается и становится громче."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/chamaeza-turdina.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/formicariidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Short-tailed antthrush, Barred antthrush (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Underparts white with dense black scalloping, throat finely dotted"
@@ -35,9 +37,9 @@ en:
     - "Walks on the forest floor like a small crake, with a short tail"
   similar:
     - id: chamaeza-campanisona
-      how: "underparts buffy with lengthwise streaks rather than scallops, pale band at the tail tip; lives mostly lower"
+      how: "underparts buffy with broad lengthwise streaks rather than scallops, a dark band before pale tail tips; in Colombia only on the east slope, lower"
     - id: chamaeza-mollissima
-      how: "finely barred all over, back included, with no white streak behind the eye; lives higher"
+      how: "underparts dark with dense narrow pale bars, throat and cheeks barred too, back plain chestnut-brown; lives higher on average"
   behavior: "Spends almost all its time on the ground in wet mossy forest with dense undergrowth, walking slowly and running. Sings from the ground or a low branch, mostly at dawn."
   voice: "A very long, sometimes over a minute, even series of whistled 'cu' notes that slowly speeds up, rises and gets louder."
 ---

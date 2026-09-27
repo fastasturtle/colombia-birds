@@ -2,6 +2,7 @@
 id: margarornis-squamiger
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь и брюхо в белых каплях с тёмной каймой, как жемчуг"
   - "Спина, крылья и хвост ярко-рыжие"
@@ -11,7 +12,7 @@ similar:
   - id: margarornis-stellatus
     how: "горло чисто белое, капли только на верхе груди, остальной низ ровный рыжевато-бурый; живёт ниже, в облачном лесу склона Чоко"
   - id: premnoplex-brunnescens
-    how: "темнее и мельче, бурый с охристыми пятнами, без брови; держится ниже, в подлеске у самой земли"
+    how: "темнее и чуть мельче, бурый с охристыми пятнами, бровь лишь узкая, из точек; держится ниже, в подлеске"
 behavior: "Пары и одиночки кормятся в среднем ярусе и кронах, обшаривая мох и эпифиты на ветвях и стволах. Почти всегда идёт в составе микст-флока вместе с танаграми и мухоловками."
 voice: "Тихий: тонкое цыканье «тсит» и быстрые серии высоких сухих щелчков."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/margarornis-squamiger.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/furnariidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Star-chested treerunner, Spotted barbtail (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Breast and belly covered in dark-edged white drops, like pearls"
@@ -37,7 +39,7 @@ en:
     - id: margarornis-stellatus
       how: "throat pure white, drops only on the upper breast, rest of underparts plain rufous-brown; lives lower, in Chocó-slope cloud forest"
     - id: premnoplex-brunnescens
-      how: "darker and smaller, brown with ochre spots, no eyebrow; keeps lower, in the understory close to the ground"
+      how: "darker and slightly smaller, brown with ochre spots, only a narrow dotted eyebrow; keeps lower, in the understory"
   behavior: "Pairs and singles forage in the mid-storey and canopy, searching moss and epiphytes on branches and trunks. Almost always travels with mixed flocks of tanagers and flycatchers."
   voice: "Quiet: a thin 'tsit' and quick series of high dry ticks."
 ---

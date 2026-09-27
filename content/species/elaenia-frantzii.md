@@ -2,6 +2,7 @@
 id: elaenia-frantzii
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова округлая, хохолок едва намечен, белой полоски в шапочке обычно не видно"
   - "Верх серовато-оливковый, на крыле две желтовато-оливковые полосы"
@@ -11,9 +12,9 @@ similar:
   - id: elaenia-pallatangae
     how: "в шапочке узкая белая полоска, брюхо заметно желтее, кольцо вокруг глаза желтоватое"
   - id: elaenia-albiceps
-    how: "серее, с торчащим хохолком и широкой белой полосой в шапочке, брюхо беловатое"
+    how: "серее, с небольшим торчащим хохолком и белой полосой в нём, горло и грудь сероватые, брюхо беловатое без желтизны"
 behavior: "Кормится ягодами и насекомыми на опушках, во вторичном лесу, в садах и парках, часто сидит в тени внутри кроны. Вне сезона гнездования держится поодиночке."
-voice: "Позывки — чистое «пиу» и картавое «брри»; на рассвете поёт однообразно, повторяя короткую фразу."
+voice: "У колумбийских птиц позывки — чистое протяжное «пьюуу» и жужжащее «ззриу»; на рассвете без конца повторяет короткое «уи-джит»."
 traits:
   size: sparrow
   colors: [olive, yellow]
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/elaenia-frantzii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/elaenia-pallatangae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: White-crested elaenia (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Rounded head with a barely hinted crest; white crown stripe usually not visible"
@@ -37,9 +39,9 @@ en:
     - id: elaenia-pallatangae
       how: "narrow white crown stripe, belly clearly yellower, yellowish eye-ring"
     - id: elaenia-albiceps
-      how: "grayer, with a spiky crest and broad white crown stripe, whitish belly"
+      how: "grayer, with a small bushy crest and a white stripe in it, grayish throat and breast, whitish belly without yellow"
   behavior: "Feeds on berries and insects at edges, in secondary forest, gardens and parks, often sitting in shade inside the crown. Outside the breeding season it is solitary."
-  voice: "Calls a clear 'peeu' and a burry 'brree'; at dawn it sings monotonously, repeating a short phrase."
+  voice: "Colombian birds call a clear drawn-out 'peuuww' and a buzzy 'zrreeu'; at dawn they endlessly repeat a short 'wi-jit'."
 ---
 Mountain Elaenia (горная эления) — обычная эления горных опушек, садов и вторичного леса на высотах 1 300–2 600 м, от Мексики до Венесуэлы и Колумбии. Это одна из самых «никаких» птиц маршрута: серовато-оливковая, с полосками на крыле и светлым кольцом у глаза. Отличить её от Sierran Elaenia помогает круглая голова без заметной белой полоски и более бледное брюхо.
 

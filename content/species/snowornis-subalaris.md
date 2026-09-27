@@ -2,14 +2,15 @@
 id: snowornis-subalaris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост и надхвостье пепельно-серые, резко отличаются от оливковой спины"
-  - "Голова и грудь оливковые, брюхо серое, подхвостье желтовато-белое"
+  - "Голова оливковая, горло бледно-жёлтое, грудь жёлто-оливковая, брюхо серое"
   - "Тонкое светлое кольцо вокруг тёмного глаза, уздечка черноватая"
   - "Сидит неподвижно и прямо в среднем ярусе, редко в смешанных стаях"
 similar:
   - id: snowornis-cryptolophus
-    how: "хвост оливковый, без серого, низ зеленовато-жёлтый; держится выше по склону"
+    how: "хвост буровато-оливковый, не пепельный, низ оливковый в тонких белых штрихах, без серого брюха; держится выше по склону"
 behavior: "Держится поодиночке в подлеске и среднем ярусе влажного предгорного леса, подолгу сидит без движения. Срывает плоды и ловит насекомых с короткого подлёта или на лету."
 voice: "Громкий звонкий двусложный свист, второй слог выше первого; поёт с долгими паузами."
 traits:
@@ -24,15 +25,16 @@ sources:
   - "Wikipedia: Snowornis subalaris (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/snowornis-subalaris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Olivaceous piha (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Tail and uppertail coverts ash-gray, contrasting with the olive back"
-    - "Head and breast olive, belly gray, undertail yellowish white"
+    - "Head olive, throat pale yellow, breast yellowish olive, belly gray"
     - "Thin pale ring around the dark eye, blackish lores"
     - "Perches still and upright in the midstory, rarely joins mixed flocks"
   similar:
     - id: snowornis-cryptolophus
-      how: "olive tail with no gray, greenish-yellow underparts; keeps higher up the slope"
+      how: "brownish-olive rather than ash-gray tail, olive underparts with thin white streaks and no gray belly; keeps higher up the slope"
   behavior: "Keeps singly in the understory and midstory of humid foothill forest, sitting motionless for long spells. Plucks fruit and takes insects in short sallies or in flight."
   voice: "A loud ringing two-syllable whistle, the second note higher than the first; sings with long pauses."
 ---

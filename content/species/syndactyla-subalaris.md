@@ -2,6 +2,7 @@
 id: syndactyla-subalaris
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Спина тёмно-бурая в узких охристых продольных штрихах"
   - "Грудь и брюхо бурые в светлых пестринах, к хвосту они тоньше"
@@ -9,9 +10,9 @@ key_features:
   - "Хвост тёмно-каштановый, заметно рыжее спины"
 similar:
   - id: anabacerthia-striaticollis
-    how: "чёткое светлое кольцо и полоса за глазом, как очки, низ почти без пестрин; кормится выше, в кронах с микст-флоком"
+    how: "чёткое светлое кольцо и полоса за глазом, как очки, размытые пестрины только на груди, брюхо ровное; кормится выше, от среднего яруса до подкроны, с микст-флоком"
   - id: thripadectes-virgaticeps
-    how: "крупнее, с более тяжёлым клювом, голова в пестринах, низ тёплый охристый почти без штрихов"
+    how: "крупнее, с более тяжёлым клювом, голова в пестринах; штрихи только на горле и верхе груди, ниже ровный рыжевато-бурый"
 behavior: "Кормится в подлеске и нижней части среднего яруса, обшаривая сухие листья, мох и эпифиты. Часто идёт с микст-флоками, но держится ниже большинства их участников."
 voice: "Песня — ускоряющаяся серия из 6–10 сухих хриплых скрипучих нот, резко обрывающаяся; позывка — сухое «тчек»."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/syndactyla-subalaris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/furnariidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Montane foliage-gleaner, Streak-capped treehunter (en, CC BY-SA 4.0) — для отличий"
 en:
   key_features:
     - "Dark brown back with narrow buff lengthwise streaks"
@@ -35,9 +37,9 @@ en:
     - "Dark chestnut tail, clearly more rufous than the back"
   similar:
     - id: anabacerthia-striaticollis
-      how: "neat pale eye-ring and stripe behind the eye like spectacles, underparts nearly unstreaked; feeds higher, in the canopy with mixed flocks"
+      how: "neat pale eye-ring and stripe behind the eye like spectacles, blurry streaks on the breast only, belly plain; feeds higher, mid-storey to subcanopy, with mixed flocks"
     - id: thripadectes-virgaticeps
-      how: "larger, with a heavier bill, streaked head, warm ochre underparts almost without streaks"
+      how: "larger, with a heavier bill, streaked head; streaks only on the throat and upper breast, below plain rufous-brown"
   behavior: "Forages in the understory and lower mid-storey, searching dead leaves, moss and epiphytes. Often travels with mixed flocks but keeps lower than most flock members."
   voice: "The song is an accelerating series of 6–10 dry, harsh, scratchy notes that stops abruptly; the call is a dry 'tcheck'."
 ---
