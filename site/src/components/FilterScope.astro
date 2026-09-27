@@ -3,17 +3,15 @@
  * Wrapper for a static species list that follows the site-wide filter (lib/filter.ts, ListFilter.svelte).
  * Children mark items with data-st / data-int / data-nend / data-end / data-new and groups with data-lf-group. The inline script at the
  * end applies the saved filter while the page is still parsing, so the first paint is already filtered.
- * `more` adds the «ещё N вряд ли · показать» line at the bottom.
  */
 import { applyFilterDom, readFilter } from '@lib/filter';
-interface Props { more?: boolean; class?: string }
-const { more = true, class: cls } = Astro.props;
+interface Props { class?: string }
+const { class: cls } = Astro.props;
 const js = `(${applyFilterDom.toString()})(document.currentScript.parentElement,(${readFilter.toString()})())`;
 ---
 <div class:list={['lf-scope', cls]} data-lf-scope data-lv="maybe" data-tag="all">
   <slot />
   <p class="lf-empty muted" data-lf-empty hidden>Под этот фильтр видов нет.</p>
-  {more && <p class="lf-more" data-lf-more hidden><span data-lf-more-text></span> · <button type="button" data-lf-show-all>показать</button></p>}
   <script is:inline set:html={js}></script>
 </div>
 <style is:global>
@@ -23,7 +21,5 @@ const js = `(${applyFilterDom.toString()})(document.currentScript.parentElement,
   [data-lf-scope][data-tag="int"] [data-st]:not([data-int]),
   [data-lf-scope][data-tag="near"] [data-st]:not([data-nend]),
   [data-lf-scope][data-tag="end"] [data-st]:not([data-end]) { display: none !important; }
-  .lf-more { margin: 12px 0 4px; color: var(--muted); font-size: .9rem; }
-  .lf-more button { font: inherit; color: var(--accent); background: none; border: 0; padding: 8px 4px; cursor: pointer; text-decoration: underline; }
   .lf-empty { margin: 8px 0; }
 </style>

@@ -110,7 +110,6 @@
     });
     return out;
   });
-  let hidden = $derived(rows.length - shown.length);
   const plural = (n: number, a: string, b: string, c: string) => {
     const m10 = n % 10, m100 = n % 100;
     return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? b : c;
@@ -149,7 +148,6 @@
 
   <div class="sum">
     <strong>{#if items}Подходят {shown.length} {plural(shown.length, 'вид', 'вида', 'видов')}{:else}Загрузка…{/if}</strong>
-    {#if hidden > 0}<span class="muted"> · ещё {hidden} скрыто фильтром · <button type="button" class="lnk" onclick={() => filter.update((f) => ({ ...f, level: 'all', tag: 'all' }))}>показать</button></span>{/if}
     {#if nSel > 0}<button type="button" class="reset" onclick={reset}>Сбросить признаки ({nSel})</button>{/if}
   </div>
 

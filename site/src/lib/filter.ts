@@ -5,8 +5,7 @@
  * Static lists opt in with FilterScope.astro: items carry data-st="sure|maybe|unlikely" (+ data-int when
  * «интересная», data-nend when a Colombian near-endemic or endemic, data-end when an endemic, data-new when new
  * for the route). The tag levels are nested: Эндемики ⊂ Почти-эндемики ⊂ Интересные ⊂ Все; groups carry data-lf-group; counters data-lf-summary /
- * data-lf-gcount / data-lf-new; the «ещё N вряд ли · показать» line is data-lf-more. `applyFilterDom` does the
- * rest; it is also inlined into the page (FilterScope) so the first paint already matches the saved choice.
+ * data-lf-gcount / data-lf-new. `applyFilterDom` does the rest; it is also inlined into the page (FilterScope) so the first paint already matches the saved choice.
  * Svelte lists (SpeciesList.svelte) read the `filter` store and `passes()` directly.
  */
 import { writable } from 'svelte/store';
@@ -38,7 +37,7 @@ export function readFilter(): { level: 'sure' | 'maybe' | 'all'; tag: 'all' | 'i
   return { level, tag };
 }
 
-/** Does a species of this tier pass the tag part (used alone for the «ещё N … · показать» line)? */
+/** Does a species of this tier pass the tag part? */
 export function passesTag(f: Filter, tier: Tier): boolean {
   return tier >= TAGS.indexOf(f.tag);
 }
@@ -87,14 +86,6 @@ export function applyFilterDom(scope: HTMLElement, f: { level: string; tag: stri
     e.textContent = `из них ${k} впервые на маршруте`;
   });
   scope.querySelectorAll<HTMLElement>('[data-lf-empty]').forEach((e) => (e.hidden = vis.length > 0));
-  const more = items.filter((x) => !pass(x) && tagOk(x));
-  const nu = more.filter((x) => x.dataset.st === 'unlikely').length;
-  scope.querySelectorAll<HTMLElement>('[data-lf-more]').forEach((m) => {
-    m.hidden = more.length === 0;
-    const t = m.querySelector('[data-lf-more-text]');
-    if (t) t.textContent = nu === more.length ? `ещё ${nu} вряд ли` : nu === 0 ? `ещё ${more.length} возможно`
-      : `ещё ${more.length}: ${more.length - nu} возможно, ${nu} вряд ли`;
-  });
 }
 
 function createStore() {
@@ -106,9 +97,6 @@ function createStore() {
       document.querySelectorAll<HTMLElement>('[data-lf-scope]').forEach((sc) => applyFilterDom(sc, f));
     });
     window.addEventListener('storage', (e) => { if (e.key === FILTER_KEY) s.set(readFilter()); });
-    document.addEventListener('click', (e) => {
-      if ((e.target as HTMLElement | null)?.closest?.('[data-lf-show-all]')) s.update((f) => ({ ...f, level: 'all' }));
-    });
   }
   return s;
 }

@@ -1,7 +1,7 @@
 <script lang="ts">
   /** All-species list: search + elevation + the site-wide filter (state = best across route sites, see lib/data routeState). */
   import ListFilter from './ListFilter.svelte';
-  import { filter, passes, passesTag, tierOf } from '../lib/filter';
+  import { filter, passes, tierOf } from '../lib/filter';
   type State = 'sure' | 'maybe' | 'unlikely';
   interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; near: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean }
   let { items, families, base, mediaBase }: { items: Item[]; families: Record<string, string>; base: string; mediaBase: string } = $props();
@@ -19,8 +19,6 @@
     });
   });
   let shown = $derived(matched.filter((s) => passes($filter, s.state, tierOf(s.int, s.near, s.endemic))));
-  let more = $derived(matched.filter((s) => !passes($filter, s.state, tierOf(s.int, s.near, s.endemic)) && passesTag($filter, tierOf(s.int, s.near, s.endemic))));
-  let moreU = $derived(more.filter((s) => s.state === 'unlikely').length);
   const plural = (n: number, a: string, b: string, c: string) => {
     const m10 = n % 10, m100 = n % 100;
     return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? b : c;
@@ -44,12 +42,6 @@
   </a>
 {/each}
 {#if shown.length === 0}<p class="muted">Под этот фильтр видов нет.</p>{/if}
-{#if more.length > 0}
-  <p class="lf-more">
-    {moreU === more.length ? `ещё ${moreU} вряд ли` : moreU === 0 ? `ещё ${more.length} возможно` : `ещё ${more.length}: ${more.length - moreU} возможно, ${moreU} вряд ли`}
-    · <button type="button" onclick={() => filter.update((f) => ({ ...f, level: 'all' }))}>показать</button>
-  </p>
-{/if}
 
 <style>
   .filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 8px 0; }
@@ -65,6 +57,4 @@
   .stw.unlikely { color: var(--muted); opacity: .6; font-weight: 400; }
   .en { font-size: .72rem; font-weight: 700; color: var(--accent); }
   .star { color: var(--accent-2); margin-right: 4px; }
-  .lf-more { margin: 12px 0 4px; color: var(--muted); font-size: .9rem; }
-  .lf-more button { font: inherit; color: var(--accent); background: none; border: 0; padding: 8px 4px; cursor: pointer; text-decoration: underline; }
 </style>
