@@ -2,6 +2,7 @@
 id: eriocnemis-mosquera
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь медно-бронзовая, ниже весь низ блестящий золотисто-зелёный"
   - "Ноги в белых пуховых «штанишках»"
@@ -11,9 +12,9 @@ similar:
   - id: eriocnemis-vestita
     how: "на горле фиолетовое пятно, грудь тёмная, подхвостье фиолетово-синее"
   - id: eriocnemis-derbyi
-    how: "«штанишки» чёрные, а не белые"
+    how: "«штанишки» чёрные, а не белые, хвост чёрный; на Бордонсильо редок"
 behavior: "Держится на опушках и прогалинах низкорослого горного и эльфийского леса и в кустарниках у границы леса. Кормится у низких цветков, зависая или цепляясь за них, и активно охраняет кормовой участок."
-voice: "Короткие тонкие позывки у цветов; для определения не нужны."
+voice: "Сухие короткие «трит»; для определения голос почти не нужен."
 traits:
   size: hummingbird
   colors: [green, yellow, white]
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Golden-breasted puffleg (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/eriocnemis-mosquera.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Glowing puffleg (en, CC BY-SA 4.0)"
+  - "Wikipedia: Black-thighed puffleg (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Breast coppery bronze, the rest of the underparts glittering golden green"
@@ -35,9 +38,9 @@ en:
     - id: eriocnemis-vestita
       how: "violet throat patch, dark breast, violet-blue undertail coverts"
     - id: eriocnemis-derbyi
-      how: "leg puffs black, not white"
+      how: "leg puffs black, not white, tail black; rare at Bordoncillo"
   behavior: "Keeps to edges and clearings of stunted montane and elfin forest and treeline shrubs. Feeds at low flowers, hovering or clinging, and actively defends a feeding patch."
-  voice: "Short thin calls at flowers; not needed for identification."
+  voice: "Dry short 'trit' notes; voice is hardly needed for identification."
 ---
 Golden-breasted Puffleg (златогрудый эрион) — почти-эндемик Колумбии и Эквадора: Центральные и Западные Анды, обычно выше 2 600 м, до 3 600 м. Среди эрионов он самый «золотой»: на свету весь низ отливает бронзой и золотом, а горло без фиолетового или синего пятна. Самка почти не отличается от самца.
 

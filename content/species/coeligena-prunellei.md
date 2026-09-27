@@ -2,6 +2,7 @@
 id: coeligena-prunellei
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти весь чёрный колибри с длинным прямым клювом"
   - "Белое пятно по бокам груди и маленькое белое пятнышко за глазом"
@@ -13,7 +14,7 @@ similar:
   - id: coeligena-bonapartei
     how: "ярко-зелёный с золотистым брюхом, а не чёрный"
 behavior: "Облетает по кругу цветущие растения в дубовом облачном лесу, кормится в среднем ярусе и низко на опушках. Может заходить на кормушки и в фрагменты леса у жилья."
-voice: "Короткие сухие «цик» у цветов и на лету; песни, которую стоит учить, нет."
+voice: "Обычно молчалив; изредка короткие «ик» или «пип»."
 traits:
   size: hummingbird
   colors: [black, white, blue]
@@ -37,7 +38,7 @@ en:
     - id: coeligena-bonapartei
       how: "bright green with a golden belly, not black"
   behavior: "Trap-lines flowering plants in oak cloud forest, feeding at mid-levels inside and low at edges. May visit feeders and forest fragments near houses."
-  voice: "Short dry 'tsik' notes at flowers and in flight; no song worth learning."
+  voice: "Generally quiet; occasionally short 'ick' or 'pip' notes."
 ---
 Black Inca (чёрный инка) — эндемик Колумбии, живёт только на западном склоне Восточной Кордильеры, на высотах 1 200–2 800 м, в основном во влажном дубовом лесу. Вид уязвимый (VU), и Чикаке под Боготой — одно из немногих доступных мест, где его реально увидеть.
 

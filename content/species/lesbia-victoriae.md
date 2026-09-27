@@ -2,6 +2,7 @@
 id: lesbia-victoriae
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост самца очень длинный, вдвое длиннее тела, чёрный и глубоко вильчатый"
   - "Тело зелёное, горло с блестящим зелёным пятном"
@@ -13,7 +14,7 @@ similar:
   - id: aglaiocercus-kingii
     how: "длинный хвост сине-зелёный с блеском, а не чёрный; держится ниже, в облачном лесу"
 behavior: "Держится на открытых местах: в кустарниках, живых изгородях, садах и парках, кормится у низких цветов. Неагрессивна, и более крупные колибри легко отгоняют её от цветков."
-voice: "Тонкие сухие позывки; на токовом полёте самец пикирует и громко щёлкает хвостом."
+voice: "Голос неприметный; лучше всего слышен громкий щелчок хвостом, которым самец заканчивает токовое пике."
 traits:
   size: hummingbird
   colors: [green, black]
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Black-tailed trainbearer (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/lesbia-victoriae.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Colibri colilargo mayor (es, CC BY-SA 4.0)"
+  - "Wikipedia: Green-tailed trainbearer (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Male's tail very long, about twice the body, black and deeply forked"
@@ -37,7 +40,7 @@ en:
     - id: aglaiocercus-kingii
       how: "long tail glossy blue-green, not black; keeps lower, in cloud forest"
   behavior: "Keeps to open country: shrubland, hedgerows, gardens and parks, feeding at low flowers. Not aggressive, and bigger hummingbirds easily chase it off flowers."
-  voice: "Thin dry call notes; in display the male dives and makes a loud click with its tail."
+  voice: "Unobtrusive; the best-heard sound is the loud tail click that ends the male's display dive."
 ---
 Black-tailed Trainbearer (чернохвостая комета) — колибри высокогорных кустарников, садов и опушек на высотах 2 600–4 000 м. Самца узнают по силуэту: маленькое зелёное тело и чёрный хвост-шлейф, который на присаде свисает, а в полёте развевается двумя лентами. Самки с коротким хвостом похожи на самок зеленохвостой кометы, их лучше определять рядом с самцом.
 

@@ -2,6 +2,7 @@
 id: eriocnemis-cupreoventris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Середина брюха золотисто-медная, горло и грудь блестящие зелёные"
   - "Ноги в пышных белых «штанишках»"
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: Coppery-bellied puffleg (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/eriocnemis-cupreoventris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Glowing puffleg (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Centre of the belly golden copper, throat and breast glittering green"

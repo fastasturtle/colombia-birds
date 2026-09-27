@@ -2,6 +2,7 @@
 id: coeligena-helianthea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, прямой, чёрный; за глазом белое пятнышко"
   - "Самец в тени кажется чёрным; снизу видно розово-фиолетовое брюхо и подхвостье"
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Blue-throated starfrontlet (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/coeligena-helianthea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Golden-bellied starfrontlet (en, CC BY-SA 4.0)"
+  - "Wikipedia: Black inca (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Bill long, straight, black; small white spot behind the eye"

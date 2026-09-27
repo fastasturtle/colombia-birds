@@ -2,6 +2,7 @@
 id: coeligena-wilsoni
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь бурый, с медным отливом на спине, без зелёного блеска"
   - "По бокам груди два белых пятна, заметных спереди"
@@ -11,8 +12,8 @@ similar:
   - id: doryfera-ludovicae
     how: "тёмно-зелёный, со сверкающим зелёным лбом, без белых пятен на груди"
   - id: coeligena-coeligena
-    how: "горло беловатое в тёмных пестринах, белых пятен по бокам груди нет; живёт на восточных склонах"
-behavior: "Облетает по кругу цветки в подлеске облачного и предгорного леса, чаще на опушках. Регулярно приходит на кормушки лоджей и держится там спокойнее многих соседей."
+    how: "горло и грудь в беловатых пятнах и тёмных пестринах, отдельных белых пятен по бокам груди нет; на маршруте только в Уиле и на Трамплине птиц"
+behavior: "Облетает по кругу цветки в подлеске облачного и предгорного леса, чаще на опушках. Регулярно приходит на кормушки лоджей."
 voice: "Тонкое «цит» и «ци-цит», на лету короткая трель «трр»."
 traits:
   size: hummingbird
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Brown inca (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/coeligena-wilsoni.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Bronzy inca (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Brown overall with a coppery sheen on the back, no green gloss"
@@ -35,8 +37,8 @@ en:
     - id: doryfera-ludovicae
       how: "dark green with a glittering green forehead, no white breast patches"
     - id: coeligena-coeligena
-      how: "throat whitish with dark streaks, no white patches on the breast sides; lives on eastern slopes"
-  behavior: "Trap-lines understory flowers in cloud and foothill forest, more at edges. Comes regularly to lodge feeders and behaves more calmly there than many neighbours."
+      how: "throat and chest with whitish spots and dark streaks, no separate white patches on the breast sides; on the route only in Huila and at Trampolín de Aves"
+  behavior: "Trap-lines understory flowers in cloud and foothill forest, more at edges. Comes regularly to lodge feeders."
   voice: "A thin 'tsit' and 'tsi-tsit'; a short 'trrr' rattle in flight."
 ---
 Brown Inca (коричневый инка) — почти-эндемик тихоокеанского склона Анд от Чоко до юга Эквадора, на высотах 700–1 900 м, чаще всего ниже 1 300 м. Среди сверкающих колибри Чоко его легко узнать как раз по отсутствию блеска: бурая птица с длинным прямым клювом и белыми пятнами на груди, словно пуговицы на пиджаке.

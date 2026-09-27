@@ -2,6 +2,7 @@
 id: eriocnemis-vestita
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ноги в пышных белых «штанишках», хорошо видных у сидящей птицы"
   - "Горло самца с фиолетовым пятном на тёмно-зелёной груди"
@@ -13,7 +14,7 @@ similar:
   - id: eriocnemis-mosquera
     how: "грудь медно-бронзовая, низ золотистый, без фиолетового на горле; подхвостье буроватое"
 behavior: "Держится на опушках эльфийского и облачного леса, на заросших склонах и у края парамо. Кормится у низких кустов с короткими цветками, драчлив и охраняет цветущие кусты."
-voice: "Короткие высокие «цит» у цветков и в погонях."
+voice: "Одиночное металлическое «цийк» или двойное «ци-цийк», повторяемое с неровными паузами, с присады и на лету."
 traits:
   size: hummingbird
   colors: [green, blue, white]
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Glowing puffleg (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/eriocnemis-vestita.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Coppery-bellied puffleg (en, CC BY-SA 4.0)"
+  - "Wikipedia: Golden-breasted puffleg (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Legs in fluffy white 'puffs', easy to see on a perched bird"
@@ -37,7 +40,7 @@ en:
     - id: eriocnemis-mosquera
       how: "breast coppery bronze, underparts golden, no violet on the throat; undertail coverts brownish"
   behavior: "Keeps to edges of elfin and cloud forest, overgrown slopes and the páramo margin. Feeds at low short-flowered shrubs, quarrelsome and guards flowering bushes."
-  voice: "Short high 'tsit' notes at flowers and in chases."
+  voice: "A single metallic 'tseek' or a doubled 'tsi-tseek', repeated at irregular intervals, from a perch or in flight."
 ---
 Glowing Puffleg (бронзовый эрион) — эрион верхнего пояса леса и границы парамо, в основном на 2 800–3 500 м. Эрионов сначала узнают по белым пуховым «штанишкам», а до вида — по горлу, брюху и подхвостью. У этого вида яркое золотисто-зелёное брюхо и фиолетовое пятнышко на горле; в Нариньо это пятно у самцов крупнее, чем у птиц из-под Боготы.
 
