@@ -32,6 +32,13 @@
 - [ ] Найти хотспоты El Encanto, Finca Discosura, Km 42, Finca Maragrícola
 - [ ] Manakin Nature Tours PDF «Macizo, Amazon & Pacific Foothills 2026» — вытащить список видов
 
+## Контент
+- [x] Портреты семейств: 57 семейств с видами маршрута (ru + en)
+- [x] Портреты 18 групп
+- [ ] `/fact-check content/families content/groups`: агенты сами пометили факты из памяти — размеры клюва Hook-billed Kite, появление Glossy Ibis в Америках в XIX в., «два вида» у Semnornithidae, аукцион имени Chocó Vireo, эпоним Пола Шварца, перелёт Blackpoll Warbler 2 500 км
+- [ ] Русские названия семейств без метки в Wikidata: Semnornithidae, Donacobiidae, Passerellidae и ещё 6 — принять варианты агентов или подобрать
+- [ ] Портреты остальных 37 семейств без видов маршрута (низкий приоритет)
+
 ## Сайт
 - [x] Кнопка «сообщить об ошибке»: `worker/` + `.github/workflows/worker.yml` + `site/src/components/ReportButton.svelte` (скилл `.claude/skills/error-reports`)
   - [ ] Интеграция с книгой Lynx «Birds of Colombia»: ждём фото указателя от владельца (припарковано)
