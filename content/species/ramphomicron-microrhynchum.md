@@ -2,6 +2,7 @@
 id: ramphomicron-microrhynchum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв крошечный, самый короткий среди колибри"
   - "Спина самца блестящая пурпурно-фиолетовая, горло золотисто-зелёное"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Purple-backed thornbill (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/ramphomicron-microrhynchum.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Tyrian metaltail (en/es), Rainbow-bearded thornbill (en/es), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Tiny bill, the shortest of any hummingbird"

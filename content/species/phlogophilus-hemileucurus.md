@@ -2,6 +2,7 @@
 id: phlogophilus-hemileucurus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост пёстрый: синий, с белым основанием и широкими белыми концами"
   - "Низ белый, горло и грудь в зелёных пятнах, между ними чистая белая полоса"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Ecuadorian piedtail (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/phlogophilus-hemileucurus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Ecuadorian piedtail (en: статус МСОП LC), Fork-tailed woodnymph (en/es), Speckled hummingbird (en/es), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Pied tail: blue, with a white base and broad white tips"
@@ -39,12 +41,12 @@ en:
   behavior: "Feeds 2–4 m above the ground along primary forest edges and in secondary forest. It usually perches to take nectar and gleans small insects from leaves."
   voice: "The song is three high buzzy 'tzeeee' notes and a twitter 'ti-ti-ti', repeated continuously; the call is a descending series of high 'see' notes."
 ---
-Ecuadorian Piedtail (пестрохвостый колибри) — колибри восточных предгорий Анд, от Путумайо и Кауки до северо-востока Перу, на высотах 500–1 200 м. По оценке МСОП, приведённой в данных проекта, вид уязвим (VU). Первым в подлеске бросается в глаза пёстрый хвост: при каждом развороте птицы он вспыхивает белым, а само зелёное тело теряется в листве.
+Ecuadorian Piedtail (пестрохвостый колибри) — колибри восточных предгорий Анд, от Путумайо и Кауки до северо-востока Перу, на высотах 500–1 200 м. В колумбийском списке ACO 2022 вид отмечен как уязвимый (VU), в Красной книге Колумбии — как близкий к угрожаемому (NT), а в актуальной мировой оценке МСОП — как вне опасности (LC); его предгорные леса быстро сводят под пастбища и плантации. Первым в подлеске бросается в глаза пёстрый хвост: при каждом развороте птицы он вспыхивает белым, а само зелёное тело теряется в листве.
 
 На маршруте вид «возможен» в Исла-Эскондиде с 7 по 11 октября. Смотри в нижнем ярусе по краю леса у троп, на высоте человеческого роста.
 
 ## English
 
-Ecuadorian Piedtail is a hummingbird of the eastern Andean foothills, from Putumayo and Cauca to northeastern Peru, at 500–1,200 m. The IUCN assessment given in the project data rates it Vulnerable (VU). In the understory the pied tail catches the eye first: it flashes white every time the bird turns, while the green body is lost among the leaves.
+Ecuadorian Piedtail is a hummingbird of the eastern Andean foothills, from Putumayo and Cauca to northeastern Peru, at 500–1,200 m. The Colombian ACO 2022 checklist rates it Vulnerable (VU), the Colombian Red Book Near Threatened (NT) and the current global IUCN assessment Least Concern; its foothill forests are being cleared fast for pasture and plantations. In the understory the pied tail catches the eye first: it flashes white every time the bird turns, while the green body is lost among the leaves.
 
 On the route it is "maybe" at Isla Escondida from 7 to 11 October. Look in the lower stratum along forest edges by the trails, at head height.

@@ -2,6 +2,7 @@
 id: coeligena-bonapartei
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо блестящее медно-золотое, резко контрастирует с зелёной грудью"
   - "Лоб самца сверкающий зелёный, темя черноватое, за глазом белое пятнышко"
@@ -25,6 +26,8 @@ sources:
   - "Данные проекта: data/species/coeligena-bonapartei.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/groups/swifts-hummingbirds.md (кормушки Чикаке)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Black inca (en/es), Blue-throated starfrontlet (en/es), CC BY-SA 4.0 — фактчек 27.09"
+  - "The Birders Show: Birding in Colombia: Chicaque (кормушки Чикаке), https://thebirdersshow.com/blog/birding-in-colombia-chicaque-park-bogota — фактчек 27.09"
 en:
   key_features:
     - "Glittering copper-gold belly, sharply contrasting with the green breast"

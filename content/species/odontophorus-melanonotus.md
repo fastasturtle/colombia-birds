@@ -2,6 +2,7 @@
 id: odontophorus-melanonotus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь красновато-каштановые — единственное яркое место"
   - "Остальное оперение буро-чёрное в тонком рыжем струйчатом рисунке"
@@ -9,7 +10,7 @@ key_features:
   - "Ходит группами по лесной подстилке, при тревоге убегает, а не взлетает"
 similar:
   - id: odontophorus-erythrops
-    how: "лоб и низ рыжие, на тёмном горле белый полуошейник; живёт ниже, в предгорьях"
+    how: "темя, лицо и низ рыжие, у местного подвида parambae горло с белым; живёт ниже, в Колумбии обычно до 1 100 м"
 behavior: "Группами до десяти птиц кормится на земле в густом первичном и вторичном лесу, разгребая подстилку в поисках беспозвоночных и плодов. На ночь забирается на деревья."
 voice: "Дуэт — быстрое раскатистое «кориву-кориву-кориву», звучащее на рассвете; ещё мягкие свисты."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Odontophorus melanonotus (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/odontophorus-melanonotus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Rufous-fronted wood quail (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Throat and breast reddish chestnut, the only bright area"
@@ -32,7 +34,7 @@ en:
     - "Walks the forest floor in groups, runs rather than flies when alarmed"
   similar:
     - id: odontophorus-erythrops
-      how: "rufous forehead and underparts, a white half-collar on the dark throat; lives lower, in the foothills"
+      how: "rufous crown, face and underparts, white on the throat in the local subspecies parambae; lives lower, in Colombia usually up to 1,100 m"
   behavior: "Groups of up to ten forage on the ground in dense primary and secondary forest, scratching the litter for invertebrates and fruit. Roosts in trees at night."
   voice: "A duet, a fast rollicking 'koreewow-koreewow-koreewow' at dawn; also soft whistles."
 ---

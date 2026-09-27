@@ -2,6 +2,7 @@
 id: chamaepetes-goudotii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо ярко-каштановое, резко отличается от тёмного бурого верха"
   - "Голая кожа на лице голубая, глаз красный, ноги розоватые"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/chamaepetes-goudotii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/penelope-montagnii.md (отличия от андской пенелопы)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Andean guan (en/es), Wattled guan (en/ru), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Bright chestnut belly, contrasting with the dark brown upperparts"

@@ -2,6 +2,7 @@
 id: penelope-ortoni
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова однотонная, без светлой брови, в отличие от других пенелоп региона"
   - "Ярко-красная голая серёжка на горле, ноги тоже красные"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/penelope-ortoni.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/penelope-montagnii.md (описание андской пенелопы)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Andean guan (en/es), Sickle-winged guan (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Plain head without a pale brow, unlike other guans of the region"

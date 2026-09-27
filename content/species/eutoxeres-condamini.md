@@ -2,6 +2,7 @@
 id: eutoxeres-condamini
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв толстый, круто загнут вниз, как серп"
   - "Низ беловатый в густых тёмных пестринах"
@@ -13,7 +14,7 @@ similar:
   - id: phaethornis-malaris
     how: "клюв изогнут плавно, а не серпом; в хвосте длинные белые центральные перья, на лице полосы"
 behavior: "Держится в подлеске влажного леса, на плантациях и в бамбуке. Облетает по кругу геликонии и центропогоны; у цветка обычно цепляется лапками, а не зависает."
-voice: "Высокие тонкие «цип»; для определения голос почти не нужен."
+voice: "Голос в доступных источниках не описан; для определения он почти не нужен: хватает клюва и хвоста."
 traits:
   size: hummingbird
   colors: [green, white]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Buff-tailed sicklebill (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/eutoxeres-condamini.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Buff-tailed sicklebill (es/ru), White-tipped sicklebill (en/es/ru), Great-billed hermit (en/es), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Thick bill sharply decurved like a sickle"
@@ -37,7 +39,7 @@ en:
     - id: phaethornis-malaris
       how: "bill evenly curved, not sickle-shaped; long white central tail feathers and a striped face"
   behavior: "Keeps to the understory of humid forest, plantations and bamboo. Trap-lines Heliconia and Centropogon flowers; at a flower it usually clings with its feet rather than hovering."
-  voice: "High thin 'tsip' notes; voice is hardly needed for identification."
+  voice: "The voice is not described in the sources used; it is hardly needed for identification, as the bill and tail are enough."
 ---
 Buff-tailed Sicklebill (краснохвостый орлиноклюв) — отшельник подлеска, от амазонских низин до 3 300 м, от юга Колумбии до Боливии. Серповидный клюв приспособлен к изогнутым цветкам геликоний и центропогонов. Птица неприметная и её легко пропустить, но у куртины геликоний стоит подождать: она возвращается по одному и тому же кругу.
 

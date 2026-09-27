@@ -2,6 +2,7 @@
 id: haplophaedia-lugens
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ тёмно-серый, горло и грудь в беловатых чешуйках, как в инее"
   - "Ноги в белых «штанишках», с внутренней стороны каштановых"
@@ -9,7 +10,7 @@ key_features:
   - "Хвост черноватый, слегка вырезан; клюв прямой, чёрный"
 similar:
   - id: haplophaedia-aureliae
-    how: "низ зелёный с бронзой, без серого «инея»; на маршруте в Уиле, а не в Нариньо"
+    how: "низ тускло-зелёный, а не тёмно-серый (серовато-белые чешуйки есть и у него), «штанишки» изнутри охристые; на маршруте в Уиле, а не в Нариньо"
   - id: urosticte-benjamini
     how: "за глазом белая полоска, в середине хвоста белое пятно; самка снизу белая в зелёных пятнах"
 behavior: "Держится низко, в густом подлеске облачного леса и в зарослях, часто у ручьёв. Охраняет куртины цветков с короткой трубкой и снимает насекомых с листьев."
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Hoary puffleg (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/haplophaedia-lugens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Greenish puffleg (en/es), Purple-bibbed whitetip (en/es/ru), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Dark gray underparts, throat and breast scaled whitish as if frosted"
@@ -32,7 +34,7 @@ en:
     - "Blackish, slightly forked tail; straight black bill"
   similar:
     - id: haplophaedia-aureliae
-      how: "bronzy-green underparts without the gray frosting; on the route in Huila, not Nariño"
+      how: "dull green underparts rather than dark gray (it is scaled grayish white too), leg puffs buff on the inner side; on the route in Huila, not Nariño"
     - id: urosticte-benjamini
       how: "white stripe behind the eye, white patch in the middle of the tail; female white below with green spots"
   behavior: "Keeps low, in dense cloud-forest understory and thickets, often near streams. Defends clumps of short-tubed flowers and gleans insects from leaves."
