@@ -23,7 +23,7 @@ Goal: any device, no login, can report a mistake on any page. Reports become Git
    - `wrangler.toml` with `name = "colombia-birds-reports"`, `compatibility_date`, KV binding `RATE`.
    - Built: `worker/` (see `worker/README.md`). Cloud sessions have no Cloudflare/GitHub secrets, so deploy
      only via Actions → **Deploy report Worker** (`.github/workflows/worker.yml`): uses secrets
-     `CLOUDFLARE_WORKERS_TOKEN` (Workers Scripts + KV Storage: Edit) and `GITHUB_REPORTS_TOKEN`, finds or
+     `CLOUDFLARE_WORKERS_TOKEN` (Workers Scripts + KV Storage: Edit) and `REPORTS_GITHUB_TOKEN` (GitHub forbids the `GITHUB_` prefix for secrets; inside the Worker it becomes `GITHUB_REPORTS_TOKEN`), finds or
      creates KV `colombia-birds-reports-RATE` (`worker/scripts/kv-config.mjs` → `wrangler.deploy.toml`),
      `wrangler secret put`s the token, creates labels, prints the URL in the job summary.
    - Put `<worker url>/report` into GitHub variable `PUBLIC_REPORT_URL` (read by `deploy.yml`) and, for local

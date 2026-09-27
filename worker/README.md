@@ -12,7 +12,7 @@ Receives «Сообщить об ошибке» submissions from the site and fi
 ## Deploy
 
 GitHub Actions → **Deploy report Worker** (`.github/workflows/worker.yml`, also runs on push to `main`
-touching `worker/**`). It uses secrets `CLOUDFLARE_WORKERS_TOKEN` and `GITHUB_REPORTS_TOKEN`: finds or
+touching `worker/**`). It uses GitHub secrets `CLOUDFLARE_WORKERS_TOKEN` and `REPORTS_GITHUB_TOKEN` (stored on the Worker as `GITHUB_REPORTS_TOKEN`): finds or
 creates the KV namespace `colombia-birds-reports-RATE` (`scripts/kv-config.mjs` writes
 `wrangler.deploy.toml` with its id), deploys, sets the Worker secret, ensures labels `report`/`species`
 and prints the Worker URL in the job summary. Then set the repo variable
