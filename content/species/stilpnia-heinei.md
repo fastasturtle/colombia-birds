@@ -19,9 +19,9 @@ traits:
   size: sparrow
   colors: [blue, green, black]
   tone: dull
-  marks: [streaked_breast]
+  marks: [streaked_breast, cap]
   bill: short
-  layer: [canopy, midstory, feeder]
+  layer: [canopy, midstory]
 sources:
   - "Данные проекта: data/species/stilpnia-heinei.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Black-capped tanager (en, CC BY-SA 4.0)"

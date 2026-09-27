@@ -17,7 +17,7 @@ traits:
   size: sparrow
   colors: [green, yellow, gray]
   tone: bright
-  marks: [eyebrow]
+  marks: [eyebrow, cap]
   bill: [thick, hooked]
   layer: [canopy]
 sources:

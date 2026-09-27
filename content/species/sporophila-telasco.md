@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [gray, white, rufous]
   tone: dull
-  marks: [throat_patch]
+  marks: [throat_patch, wing_patch]
   bill: [short, thick]
   layer: [ground, understory]
 sources:

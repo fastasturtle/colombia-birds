@@ -16,10 +16,10 @@ similar:
 behavior: "Держится в саваннах, на пастбищах, у болот и в полуоткрытых местах с отдельными деревьями. С открытой присады делает изящные вылеты за насекомыми; на пролёте ест и плоды и собирается в стаи."
 voice: "Сухие жужжащие позывки и слабое «тик» в полёте; крылья в полёте издают отчётливый свист."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [white, gray, black]
   tone: bright
-  marks: [long_tail, forked_tail]
+  marks: [long_tail, forked_tail, cap]
   bill: medium
   layer: [canopy, air]
 sources:

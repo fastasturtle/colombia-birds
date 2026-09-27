@@ -14,10 +14,10 @@ similar:
 behavior: "Держится поодиночке или парами в кронах и по краям влажного леса, снизу её почти не видно. Короткими подлётами вверх и в стороны снимает насекомых с листьев и тонких веточек."
 voice: "Незаметная, похожая на голос насекомого ускоряющаяся серия резких «чит… чит… чит-чит-чит-чит»."
 traits:
-  size: hummingbird
+  size: [hummingbird, sparrow]
   colors: [yellow, black, olive]
   tone: bright
-  marks: [eyebrow, wing_bars, streaked_breast]
+  marks: [eyebrow, wing_bars, streaked_breast, cap]
   bill: [long, flat]
   layer: [canopy]
 sources:

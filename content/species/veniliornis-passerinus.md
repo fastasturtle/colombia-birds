@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [olive, red]
   tone: dull
-  marks: [barred, eyebrow]
+  marks: [barred, eyebrow, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

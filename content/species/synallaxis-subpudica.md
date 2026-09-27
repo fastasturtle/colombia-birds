@@ -16,10 +16,10 @@ similar:
 behavior: "Парами кормится в густых кустах, на заросших опушках и в живых изгородях, обычно в 1–2 м над землёй. Держится скрытно, но отзывается на голос."
 voice: "Быстрая стрекочущая серия «чи-чи-чи-че-че-че-чу-чу-чу», которая ускоряется, понижается и затухает; пары часто поют дуэтом."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [brown, rufous, gray]
   tone: dull
-  marks: [long_tail, throat_patch]
+  marks: [long_tail, throat_patch, cap, wing_patch]
   bill: thin
   layer: [understory]
 sources:

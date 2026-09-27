@@ -17,10 +17,10 @@ similar:
 behavior: "Пары и группы ходят по пастбищам, газонам, аэродромам и берегам, клюют с земли. Шумно охраняет гнездо: с криком пикирует на людей и собак."
 voice: "Очень громкое резкое «кек-кек-кек», слышно далеко; кричит и ночью."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [gray, black, white]
   tone: bright
-  marks: [crest, throat_patch]
+  marks: [crest, throat_patch, wing_patch, bright_bill]
   bill: short
   layer: [ground]
 sources:

@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [green, rufous, gray]
   tone: dull
-  marks: [mask]
+  marks: [mask, cap]
   bill: short
   layer: [midstory, understory, feeder]
 sources:

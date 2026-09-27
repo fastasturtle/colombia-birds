@@ -23,7 +23,7 @@ traits:
   size: crow
   colors: [white, gray, orange]
   tone: dull
-  marks: [crest, forked_tail]
+  marks: [crest, forked_tail, bright_bill]
   bill: long
   layer: [water, air]
 sources:

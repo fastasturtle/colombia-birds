@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [black, blue, green]
   tone: bright
-  marks: [mask, spotted_breast]
+  marks: [mask, spotted_breast, cap]
   bill: short
   layer: [canopy, midstory]
 sources:

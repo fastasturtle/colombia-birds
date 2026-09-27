@@ -19,9 +19,9 @@ traits:
   size: sparrow
   colors: [black, blue]
   tone: bright
-  marks: []
+  marks: [cap, wing_patch]
   bill: short
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Данные проекта: data/species/stilpnia-cyanicollis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: Blue-necked tanager (en), Stilpnia cyanicollis (es), Синеголовая танагра (ru), CC BY-SA 4.0 — data/texts"

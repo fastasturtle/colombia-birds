@@ -20,7 +20,7 @@ traits:
   size: thrush
   colors: [white, gray, black]
   tone: bright
-  marks: [bare_face, mask]
+  marks: [bare_face, mask, bright_bill]
   bill: thick
   layer: [canopy]
 sources:

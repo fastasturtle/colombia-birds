@@ -16,10 +16,10 @@ similar:
 behavior: "Кормится парами и группами в кронах, садах и на пальмах, обыскивая листья снизу. Охотно прилетает на фруктовые кормушки и часто держится вместе с Blue-gray Tanager."
 voice: "Быстрое писклявое щебетание, похожее на Blue-gray Tanager, но резче."
 traits:
-  size: sparrow
+  size: thrush
   colors: [olive, gray, black]
   tone: dull
-  marks: [plain]
+  marks: [wing_patch]
   bill: short
   layer: [canopy, midstory, feeder]
 sources:

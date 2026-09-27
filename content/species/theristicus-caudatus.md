@@ -17,9 +17,9 @@ behavior: "Кормится парами и небольшими группам�
 voice: "Очень громкие звучные крики, которыми птицы перекликаются в стае, в том числе на лету."
 traits:
   size: larger
-  colors: [gray, black, white]
+  colors: [rufous, gray, black]
   tone: dull
-  marks: [bare_face]
+  marks: [bare_face, wing_patch]
   bill: [long, curved]
   layer: [ground]
 sources:

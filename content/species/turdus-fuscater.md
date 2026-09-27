@@ -19,7 +19,7 @@ traits:
   size: pigeon
   colors: [brown, orange]
   tone: dull
-  marks: [eye_ring, plain]
+  marks: [eye_ring, plain, bright_bill]
   bill: medium
   layer: [ground, midstory]
 sources:

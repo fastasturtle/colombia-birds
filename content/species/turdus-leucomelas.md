@@ -13,10 +13,10 @@ similar:
 behavior: "Держится на опушках, в садах, кофейных плантациях и светлом вторичном лесу, часто открыто. Кормится и на земле, и в кронах плодовых деревьев; хорошо уживается рядом с людьми."
 voice: "Мелодичная песня из разнообразных приятных фраз, как у других дроздов; позыв — гортанное, деревянно трещащее «верт-верт-верт»."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [brown, gray, white]
   tone: dull
-  marks: []
+  marks: [cap]
   bill: medium
   layer: [ground, midstory, canopy]
 sources:

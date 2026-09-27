@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [white, black, orange]
   tone: bright
-  marks: [mask]
+  marks: [mask, bright_bill]
   bill: [long]
   layer: [water, air]
 sources:

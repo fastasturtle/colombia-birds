@@ -16,10 +16,10 @@ similar:
 behavior: "Держится внутри зрелого облачного леса, от среднего яруса до крон, поодиночке или парами, иногда в смешанных стаях. Подолгу стучит на одном месте по стволу или ветке."
 voice: "Малоголосый; быстрая сухая трель «кррррррр»."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [olive, yellow, red]
   tone: dull
-  marks: [barred, eyebrow]
+  marks: [barred, eyebrow, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

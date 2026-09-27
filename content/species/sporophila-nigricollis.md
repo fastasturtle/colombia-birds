@@ -18,10 +18,10 @@ similar:
 behavior: "Держится парами или стайками на заросших травой обочинах, пастбищах и вырубках. Кормится семенами трав, садясь на метёлку или пригибая стебель к земле."
 voice: "Короткая мелодичная серия слитных свистов вроде «цу-цу-цу чью-сисиса-хиит»; последняя нота обычно выше и с ударением."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [olive, yellow, black]
   tone: dull
-  marks: [throat_patch]
+  marks: [throat_patch, cap]
   bill: [short, thick]
   layer: [ground, understory]
 sources:

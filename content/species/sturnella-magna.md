@@ -14,7 +14,7 @@ similar:
 behavior: "Держится на земле в высокой траве пастбищ и полей; поёт с изгороди, куста или столба, а летит низко, чередуя частые взмахи с планированием."
 voice: "Песня — чистые протяжные нисходящие свисты; позыв — трескучее «дзррт»."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [yellow, brown, black]
   tone: bright
   marks: [short_tail]

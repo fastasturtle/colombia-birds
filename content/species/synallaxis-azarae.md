@@ -18,10 +18,10 @@ similar:
 behavior: "Держится в густых кустах, на опушках, живых изгородях, заросших пастбищах и у обочин, обычно у самой земли. Показывается ненадолго, чаще поёт из гущи."
 voice: "Без конца повторяет резкое двусложное «ка-квиик»; также гнусавое «пррт» и низкое «чур»."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [brown, rufous, gray]
   tone: dull
-  marks: [long_tail, throat_patch]
+  marks: [long_tail, throat_patch, cap]
   bill: [short, thin]
   layer: [understory]
 sources:

@@ -17,7 +17,7 @@ traits:
   size: larger
   colors: [black, gray, brown]
   tone: dull
-  marks: [barred]
+  marks: [barred, cap]
   bill: [medium, thick]
   layer: [water]
 sources:

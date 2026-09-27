@@ -19,9 +19,9 @@ traits:
   size: sparrow
   colors: [black, yellow, blue]
   tone: bright
-  marks: [mask]
+  marks: [mask, cap, wing_patch]
   bill: short
-  layer: [canopy, midstory, feeder]
+  layer: [canopy, midstory]
 sources:
   - "Wikipedia: Golden-hooded tanager (en, CC BY-SA 4.0) — размер, окраска обоих полов, распространение"
   - "Wikipedia: Stilpnia larvata (es), Пурпурномасковая танагра (ru), CC BY-SA 4.0 — data/texts"

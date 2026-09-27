@@ -14,10 +14,10 @@ similar:
 behavior: "Держится в кронах высоких деревьев на опушках и в старом вторичном лесу, поодиночке или парами. Обыскивает листву и цветущие деревья, собирая мелких насекомых и пауков."
 voice: "Позыв — тонкое «пип»; песня — серия из 5–8 высоких «джип», слегка ускоряющаяся и повышающаяся к концу, похожа на стрекот насекомого."
 traits:
-  size: hummingbird
+  size: [hummingbird, sparrow]
   colors: [yellow, black, olive]
   tone: bright
-  marks: [wing_bars, short_tail]
+  marks: [wing_bars, short_tail, cap]
   bill: flat
   layer: [canopy]
 sources:

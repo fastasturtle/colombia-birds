@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: []
   bill: short
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Данные проекта: data/species/tangara-arthus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Golden tanager (en, CC BY-SA 4.0)"

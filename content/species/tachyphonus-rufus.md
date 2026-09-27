@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [black, rufous]
   tone: dull
-  marks: [plain]
+  marks: [wing_patch]
   bill: medium
   layer: [understory, midstory]
 sources:

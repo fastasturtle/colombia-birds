@@ -18,10 +18,10 @@ similar:
 behavior: "Сидит неподвижно, выпрямившись, в верхней части подлеска и в нижних кронах, подолгу поворачивая голову. Срывает плоды и гусениц в коротком подлёте, часто держится на краю смешанных стай."
 voice: "Серия мягких свистов с запинкой в начале: «уи-уи, ю-ю-ю»; позыв — долгое трескучее «чрррр»."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [green, red, white]
   tone: bright
-  marks: [long_tail]
+  marks: [long_tail, bright_bill]
   bill: short
   layer: [midstory]
 sources:

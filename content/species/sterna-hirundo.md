@@ -20,7 +20,7 @@ traits:
   size: pigeon
   colors: [white, gray, black]
   tone: dull
-  marks: [forked_tail]
+  marks: [forked_tail, cap]
   bill: [medium, thin]
   layer: [water, air]
 sources:

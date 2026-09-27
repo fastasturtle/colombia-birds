@@ -16,10 +16,10 @@ similar:
 behavior: "Живёт внутри высокого влажного леса, реже на опушках и во вторичном лесу. Кормится от среднего яруса до крон, обычно поодиночке, регулярно в смешанных стаях и у муравьёв-кочевников."
 voice: "Малоголосый; основной сигнал — серия из 10–14 высоких носовых «ких»."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [olive, yellow, red]
   tone: dull
-  marks: [barred]
+  marks: [barred, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

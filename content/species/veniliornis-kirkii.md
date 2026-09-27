@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [olive, red, white]
   tone: dull
-  marks: [barred, rump_patch]
+  marks: [barred, rump_patch, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

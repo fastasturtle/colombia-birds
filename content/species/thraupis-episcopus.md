@@ -16,10 +16,10 @@ similar:
 behavior: "Шумными парами и группами кормится на плодах и насекомых в садах, на опушках и в кронах; постоянно на виду. Смело прилетает на фруктовые кормушки вместе с Palm Tanager."
 voice: "Высокий писклявый щебет и сухие «цип», песня быстрая и скрипучая."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [blue, gray]
   tone: dull
-  marks: [plain]
+  marks: [wing_patch]
   bill: short
   layer: [canopy, midstory, feeder]
 sources:
