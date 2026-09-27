@@ -27,3 +27,4 @@ worker/wrangler.deploy.toml
 
 # atomic-write temp files (pipeline/common.py)
 *.tmp
+.claude/worktrees/
