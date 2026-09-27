@@ -2,6 +2,7 @@
 id: sicalis-luteola
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ ярко-жёлтый, лицо и область вокруг глаза желтоватые"
   - "Спина оливково-бурая в тёмных пестринах"

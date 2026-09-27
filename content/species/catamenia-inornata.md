@@ -2,6 +2,7 @@
 id: catamenia-inornata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец серый, спина с тёмными пестринами"
   - "Клюв короткий, толстый, розоватый или желтовато-розовый"
@@ -15,7 +16,7 @@ similar:
   - id: geospizopsis-unicolor
     how: "клюв тёмно-серый, спина без пестрин, подхвостье беловатое"
 behavior: "Парами и стайками держится в кустарниковом парамо, на лугах и полях у верхней границы леса. Кормится семенами на земле и на стеблях трав."
-voice: "Песня — несложная трель и жужжащие звуки."
+voice: "Песня — серия жужжащих звуков, сочных свистов и трескотни."
 traits:
   size: sparrow
   colors: [gray, rufous]
@@ -29,6 +30,7 @@ sources:
   - "Данные проекта: data/species/catamenia-inornata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/geospizopsis-unicolor.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "eBird: Plain-colored Seedeater, https://ebird.org/species/plcsee1 — голос (по сниппету поиска, факт-чек 27.09.2026)"
 en:
   key_features:
     - "Male gray, back streaked dark"
@@ -43,7 +45,7 @@ en:
     - id: geospizopsis-unicolor
       how: "bill dark gray, back unstreaked, undertail whitish"
   behavior: "In pairs and flocks in shrubby páramo, meadows and fields near the treeline. Feeds on seeds on the ground and on grass stems."
-  voice: "The song is a simple trill with buzzy notes."
+  voice: "The song is a series of buzzes, rich whistles and chatters."
 ---
 Plain-colored Seedeater (невзрачный семеноед) — семеноед высокогорья: кустарникового парамо, лугов и полей у верхней границы леса, по данным ACO на 2 600–4 400 м. Название подходит: серый самец в поле выглядит неприметно, и определять его приходится по розоватому толстому клюву и рыжему подхвостью, а не по общему виду. Рядом часто кормятся другие семеноеды и вьюрки парамо, так что проверяй каждую серую птицу.
 

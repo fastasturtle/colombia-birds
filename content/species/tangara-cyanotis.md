@@ -2,6 +2,7 @@
 id: tangara-cyanotis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкая ярко-голубая бровь на чёрной голове"
   - "Спина и щёки чёрные у южноколумбийского подвида lutleyi"

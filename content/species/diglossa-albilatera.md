@@ -2,6 +2,7 @@
 id: diglossa-albilatera
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец черновато-аспидный, без синего отлива"
   - "Белые пучки на боках груди и белый подбой крыла вспыхивают, когда птица подёргивает крыльями"
@@ -13,7 +14,7 @@ similar:
   - id: diglossa-sittoides
     how: "самец с корично-рыжим низом и голубовато-серой спиной; у самки белых боков нет"
 behavior: "Поодиночке или парами в подлеске и на опушках облачного леса, в зарослях и садах; часто подёргивает крыльями, показывая белое. Прокалывает цветки у основания."
-voice: "Тонкая сухая трель на одной ноте или слегка понижающаяся."
+voice: "Тонкая сухая трель; в открытых источниках голос описан скупо."
 traits:
   size: sparrow
   colors: [gray, white, brown]
@@ -38,7 +39,7 @@ en:
     - id: diglossa-sittoides
       how: "male cinnamon-rufous below and bluish-gray above; female lacks white sides"
   behavior: "Singly or in pairs in the understory and at cloud-forest edges, in thickets and gardens; often flicks its wings, showing the white. Pierces flowers at the base."
-  voice: "A thin dry trill on one pitch or slightly falling."
+  voice: "A thin dry trill; the voice is poorly described in open sources."
 ---
 White-sided Flowerpiercer (белобокий цветокол) — цветокол облачного леса и его опушек, у нас примерно на 1 600–3 000 м, то есть ниже чёрного и блестящего. Сидящий самец кажется однотонно тёмно-серым, и выдают его только движения: птица то и дело вздёргивает крылья, и из-под них вспыхивает белое. Самку узнают по тому же белому на боках.
 
