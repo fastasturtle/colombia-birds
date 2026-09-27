@@ -8,7 +8,8 @@ still do not match are written to data/sources/gbif_sites_unmatched.json.
 
 Output data/site_species.json:
   {site_id: {radius_km, total_records, retrieved, species: [{id, n}] sorted by n desc}}
-Species with fewer than `--min-count` records (default 3) are dropped.
+Species with fewer than `--min-count` records (default 3) are dropped. Sites with fewer than
+`--min-records` records in total (default 1000) get the radius doubled, up to x4.
 
 Usage: uv run python run.py gbif_sites   |   steps/fetch_gbif_sites.py --radius 12 --min-count 3 [--refresh]
 """
@@ -18,6 +19,7 @@ import argparse
 import datetime as dt
 import json
 import math
+import re
 import sys
 from pathlib import Path
 
@@ -37,9 +39,18 @@ def circle_wkt(lat: float, lon: float, radius_km: float, n: int = 32) -> str:
     return "POLYGON((" + ",".join(f"{x:.5f} {y:.5f}" for x, y in pts) + "))"
 
 
-def species_lookups() -> tuple[dict[int, str], dict[str, str]]:
+MAP = Path(__file__).resolve().parent.parent / "mappings" / "gbif_to_species.json"
+
+
+def stem(epithet: str) -> str:
+    """Epithet without the Latin gender ending: murina / murinus -> murin, rufum / rufa -> ruf."""
+    return re.sub(r"(us|um|a|is|e|er)$", "", epithet) if len(epithet) > 4 else epithet
+
+
+def species_lookups() -> tuple[dict[int, str], dict[str, str], dict[tuple[str, str], list[str]]]:
     by_key: dict[int, str] = {}
     by_sci: dict[str, str] = {}
+    by_fam_epithet: dict[tuple[str, str], list[str]] = {}
     for p in sorted(SPECIES_DIR.glob("*.json")):
         sp = json.loads(p.read_text())
         k = (sp.get("ids") or {}).get("gbif")
@@ -48,29 +59,62 @@ def species_lookups() -> tuple[dict[int, str], dict[str, str]]:
         for f in ("sci_name", "sci_name_aco"):
             if sp.get(f):
                 by_sci.setdefault(norm_sci(sp[f]), sp["id"])
-    return by_key, by_sci
+        fam = ((sp.get("family") or {}).get("sci") or "").lower()
+        for e in {stem(norm_sci(sp[f]).split()[-1]) for f in ("sci_name", "sci_name_aco") if sp.get(f)}:
+            by_fam_epithet.setdefault((fam, e), []).append(sp["id"])
+    return by_key, by_sci, by_fam_epithet
+
+
+def match_name(info: dict, by_sci: dict[str, str], by_fam_epithet: dict, manual: dict[str, str]) -> tuple[str | None, str]:
+    """GBIF species record -> our slug: manual map, exact sci name, then same family + same epithet stem
+    (genus moves such as Notiochelidon murina -> Orochelidon murina), only when unambiguous."""
+    names = [x for x in (info.get("canonicalName"), info.get("species")) if x]
+    for x in names:
+        if x in manual:
+            return manual[x], "manual"
+    for x in names:
+        if norm_sci(x) in by_sci:
+            return by_sci[norm_sci(x)], "sci"
+    fam = (info.get("family") or "").lower()
+    if names and fam:
+        cands = by_fam_epithet.get((fam, stem(norm_sci(names[0]).split()[-1])), [])
+        if len(set(cands)) == 1:
+            return cands[0], "family+epithet"
+    return None, ""
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--radius", type=float, default=12.0, help="km")
     ap.add_argument("--min-count", type=int, default=3)
+    ap.add_argument("--min-records", type=int, default=1000,
+                    help="widen the radius (x2, then x4) for sites with fewer GBIF records than this")
     ap.add_argument("--refresh", action="store_true", help="ignore the HTTP cache for facet queries")
     a = ap.parse_args()
 
     sites = read_json(DATA / "sites.json")
-    by_key, by_sci = species_lookups()
+    by_key, by_sci, by_fam_epithet = species_lookups()
+    manual: dict[str, str] = {k: v for k, v in read_json(MAP, {}).items() if not k.startswith("_")}
+    how_n: dict[str, int] = {}
     today = dt.date.today().isoformat()
     out: dict[str, dict] = {}
     unmatched: dict[int, dict] = {}
     resolved_extra: dict[int, str | None] = {}
 
-    for s in sites:
-        r = get_json(f"{API}/occurrence/search", {
+    def facet(s: dict, radius: float) -> dict:
+        return get_json(f"{API}/occurrence/search", {
             "classKey": AVES, "country": "CO", "hasCoordinate": "true", "occurrenceStatus": "PRESENT",
-            "geometry": circle_wkt(s["lat"], s["lon"], a.radius),
+            "geometry": circle_wkt(s["lat"], s["lon"], radius),
             "facet": "speciesKey", "facetLimit": 1500, "limit": 0,
         }, kind="gbif", min_interval=1.0, retries=6, refresh=a.refresh)
+
+    for s in sites:
+        # sparsely surveyed spots (e.g. km-42): widen the circle (x2, x4) until there is something to show
+        radius = a.radius
+        r = facet(s, radius)
+        while r.get("count", 0) < a.min_records and radius < a.radius * 4:
+            radius *= 2
+            r = facet(s, radius)
         counts = r["facets"][0]["counts"] if r.get("facets") else []
         agg: dict[str, int] = {}
         for c in counts:
@@ -81,9 +125,11 @@ def main() -> None:
             if sid is None:
                 if key not in resolved_extra:
                     info = get_json(f"{API}/species/{key}", kind="gbif", min_interval=0.3, retries=6)
-                    names = [info.get("canonicalName"), info.get("species")]
-                    sid = next((by_sci[norm_sci(x)] for x in names if x and norm_sci(x) in by_sci), None)
+                    sid, how = match_name(info, by_sci, by_fam_epithet, manual)
                     resolved_extra[key] = sid
+                    how_n[how or "unmatched"] = how_n.get(how or "unmatched", 0) + 1
+                    if how == "family+epithet":
+                        log(f"    {info.get('canonicalName')} -> {sid} (family+epithet)")
                     if sid is None:
                         unmatched[key] = {"key": key, "name": info.get("canonicalName") or info.get("scientificName"),
                                           "status": info.get("taxonomicStatus"), "sites": {}}
@@ -93,15 +139,15 @@ def main() -> None:
                     continue
             agg[sid] = agg.get(sid, 0) + n  # two GBIF keys may map to one of our species
         sp = sorted(({"id": k, "n": v} for k, v in agg.items()), key=lambda x: (-x["n"], x["id"]))
-        out[s["id"]] = {"radius_km": a.radius, "total_records": r.get("count", 0), "retrieved": today, "species": sp}
-        log(f"  {s['id']:24s} records {r.get('count', 0):7d}  keys {len(counts):4d}  species(n>={a.min_count}) {len(sp):4d}")
+        out[s["id"]] = {"radius_km": radius, "total_records": r.get("count", 0), "retrieved": today, "species": sp}
+        log(f"  {s['id']:24s} r={radius:g}km records {r.get('count', 0):7d}  keys {len(counts):4d}  species(n>={a.min_count}) {len(sp):4d}")
 
     write_json(DATA / "site_species.json", out)
     write_json(SOURCES / "gbif_sites_unmatched.json",
                sorted(unmatched.values(), key=lambda u: -sum(u["sites"].values())))
     ns = sorted(len(v["species"]) for v in out.values())
     log(f"sites: {len(ns)}, species per site min {ns[0]} / median {ns[len(ns)//2]} / max {ns[-1]}; "
-        f"extra key lookups {len(resolved_extra)}, unmatched keys {len(unmatched)}")
+        f"extra key lookups {len(resolved_extra)} {how_n}, unmatched keys {len(unmatched)}")
 
 
 if __name__ == "__main__":

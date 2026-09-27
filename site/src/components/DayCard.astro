@@ -1,0 +1,40 @@
+---
+import { sites, regions, fmtDateRu, dayLabel, plural, type DayWithSpecies } from '@lib/data';
+interface Props { d: DayWithSpecies; compact?: boolean; id?: string; hidden?: boolean }
+const { d, compact = false, id, hidden } = Astro.props;
+const day = d.day;
+const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
+const color = regions().find((r) => r.id === day.region)?.color ?? 'var(--line)';
+const base = import.meta.env.BASE_URL;
+const n = d.species.length;
+---
+<article class="card daycard" id={id} hidden={hidden} data-date={day.date} style={`border-left: 5px solid ${color}`}>
+  <slot name="top" />
+  <a class="dhead" href={`${base}days/${day.date}/`}>
+    <span class="muted meta">{fmtDateRu(day.date)} · {dayLabel(day)}{day.guide && <> · гид {day.guide}</>}</span>
+    <strong class="dtitle">{day.title_ru}</strong>
+  </a>
+  {!compact && day.travel_ru && <div class="muted small">{day.travel_ru}</div>}
+  <div class="muted small">Ночёвка: {day.overnight}{day.elev_sleep != null && <> · {day.elev_sleep} м</>}</div>
+  {day.sites.length > 0 && (
+    <div class="sites">{day.sites.map((sid) => siteOf[sid] && <a class="chip tap" href={`${base}sites/${sid}/`}>{siteOf[sid].name_ru || siteOf[sid].name}</a>)}</div>
+  )}
+  {n > 0 && (
+    <div class="small stats">
+      ~{n} {plural(n, 'вероятный вид', 'вероятных вида', 'вероятных видов')}{d.nHighlights > 0 && <>, <b class="hl">{d.nHighlights} {plural(d.nHighlights, 'изюминка', 'изюминки', 'изюминок')}</b></>}{d.nNew > 0 && d.nNew < n && <>, {d.nNew} {plural(d.nNew, 'новый', 'новых', 'новых')}</>}
+    </div>
+  )}
+  <slot />
+</article>
+<style>
+  .daycard { margin: 8px 0; }
+  .dhead { display: block; color: inherit; padding: 2px 0 4px; }
+  .dhead:hover { text-decoration: none; }
+  .dhead:hover .dtitle { color: var(--accent); }
+  .meta { display: block; font-size: .85rem; }
+  .dtitle { display: block; font-size: 1.05rem; line-height: 1.3; }
+  .small { font-size: .9rem; }
+  .sites { margin-top: 6px; }
+  .stats { margin-top: 2px; }
+  .hl { color: var(--accent-2); }
+</style>

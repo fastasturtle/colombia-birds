@@ -1,0 +1,72 @@
+---
+import Base from '../../layouts/Base.astro';
+import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
+import { sites, regions, siteSpecies, likelySpeciesForSites, daysForSite, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+export function getStaticPaths() {
+  return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
+}
+const { s } = Astro.props as { s: Site };
+const region = regions().find((r) => r.id === s.region);
+const gb = siteSpecies()[s.id];
+const list = likelySpeciesForSites([s.id]);
+const items = list.map((x) => ({ id: x.id, n: x.n, highlight: x.highlightAt.length > 0 }));
+const nH = items.filter((x) => x.highlight).length;
+const days = daysForSite(s.id);
+const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
+const base = import.meta.env.BASE_URL;
+const elev = s.elev_min != null ? (s.elev_max != null && s.elev_max !== s.elev_min ? `${s.elev_min}–${s.elev_max} м` : `${s.elev_min} м`) : null;
+const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO&has_coordinate=true&lat=${s.lat - (gb?.radius_km ?? 12) / 111},${s.lat + (gb?.radius_km ?? 12) / 111}&lng=${s.lon - (gb?.radius_km ?? 12) / 111},${s.lon + (gb?.radius_km ?? 12) / 111}`;
+---
+<Base title={s.name_ru || s.name} description={`${s.name}: высоты, биотоп, eBird-хотспоты и вероятные виды`}>
+  <p class="muted meta" style={`border-left:4px solid ${region?.color ?? 'var(--line)'}`}>{region?.name_ru ?? s.region} · {s.department}</p>
+  <h1>{s.name}</h1>
+  {s.name_ru && s.name_ru !== s.name && <p class="ru">{s.name_ru}</p>}
+  <table class="facts">
+    {elev && <tr><th>Высота</th><td>{elev}</td></tr>}
+    {s.habitat_ru && <tr><th>Биотоп</th><td>{s.habitat_ru}</td></tr>}
+    <tr><th>Координаты</th><td>
+      <a href={`https://www.openstreetmap.org/?mlat=${s.lat}&mlon=${s.lon}#map=12/${s.lat}/${s.lon}`} target="_blank" rel="noopener">{s.lat.toFixed(3)}, {s.lon.toFixed(3)}</a>
+      {s.coords_approx && <span class="muted"> (примерно)</span>}
+    </td></tr>
+    {days.length > 0 && <tr><th>В маршруте</th><td>{days.map((d) => <a class="chip tap" href={`${base}days/${d.date}/`}>{fmtDateRu(d.date, false)} · {dayLabel(d)}</a>)}</td></tr>}
+    {days.length === 0 && <tr><th>В маршруте</th><td class="muted">нет в плане, запасной вариант</td></tr>}
+  </table>
+  {s.notes_ru && <p>{s.notes_ru}</p>}
+  {s.ebird_hotspots?.length > 0 && (
+    <p class="hs">{s.ebird_hotspots.map((h) => <a class="chip tap" href={`https://ebird.org/hotspot/${h.id}`} target="_blank" rel="noopener">eBird: {h.name}</a>)}</p>
+  )}
+  {s.sources?.length > 0 && (
+    <p class="muted small">Источники: {s.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</p>
+  )}
+
+  <h2>Виды</h2>
+  {items.length === 0 ? <p class="card muted">Данных пока нет.</p> : (
+    <>
+      <p class="summary">~{gb?.species.length ?? 0} {plural(gb?.species.length ?? 0, 'вероятный вид', 'вероятных вида', 'вероятных видов')}{nH > 0 && <>, <b class="hl">{nH} {plural(nH, 'изюминка', 'изюминки', 'изюминок')}</b></>}</p>
+      {gb && (
+        <p class="muted small">
+          По <a href={gbifUrl} target="_blank" rel="noopener">GBIF</a>: {gb.total_records.toLocaleString('ru-RU')} записей птиц в радиусе {gb.radius_km} км, в списке виды с ≥ 3 записями (за все годы и сезоны), данные на {gb.retrieved}. Изюминки — целевые виды из отчётов о поездках.
+        </p>
+      )}
+      <SpeciesChecklist items={items} />
+    </>
+  )}
+
+  {others.length > 0 && (
+    <>
+      <h2>Рядом, {region?.name_ru}</h2>
+      <p>{others.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}</a>)}</p>
+    </>
+  )}
+  <p><a href={base}>← Маршрут</a></p>
+</Base>
+<style>
+  .meta { padding-left: 8px; margin-bottom: 4px; }
+  .ru { margin: -6px 0 8px; font-weight: 600; }
+  .facts th { width: 110px; color: var(--muted); font-weight: 500; }
+  .facts .chip { margin: 2px 6px 2px 0; }
+  .summary { font-size: 1.05rem; margin: 4px 0; }
+  .hl { color: var(--accent-2); }
+  .small { font-size: .85rem; }
+  .hs .chip { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; line-height: 40px; }
+</style>

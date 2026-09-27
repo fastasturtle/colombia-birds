@@ -110,3 +110,66 @@ export const HABITAT_RU: Record<string, string> = {
   Marine: 'море', 'Human Modified': 'антропогенные ландшафты', Riverine: 'реки', Coastal: 'побережье', Rock: 'скалы',
   Savanna: 'саванна', Desert: 'пустыня', Agricultural: 'сельхозугодья', Shrub: 'кустарники', Bamboo: 'бамбук', Plantation: 'плантации', Riparian: 'приречные заросли', 'Rivers/Lakes': 'реки и озёра', Sea: 'море', Other: 'другое', Rocky: 'скалы', Artificial: 'антропогенные ландшафты', Plains: 'равнины',
 };
+
+/* ---- Likely species per site (pipeline step gbif_sites) ---- */
+export interface SiteSpecies { radius_km: number; total_records: number; retrieved: string; species: { id: string; n: number }[] }
+let _siteSpecies: Record<string, SiteSpecies> | null = null;
+export function siteSpecies(): Record<string, SiteSpecies> {
+  return (_siteSpecies ??= readJson<Record<string, SiteSpecies>>('site_species.json', {}));
+}
+export interface LikelySpecies {
+  id: string;
+  /** GBIF records summed over the given sites (0 if only a highlight) */
+  n: number;
+  /** ids of the sites where it is likely (GBIF) */
+  sites: string[];
+  /** ids of the sites that list it as a highlight (trip reports, `target_species`) */
+  highlightAt: string[];
+}
+/** Merge GBIF likely species and trip-report highlights of several sites, deduped, sorted by records desc. */
+export function likelySpeciesForSites(siteIds: string[]): LikelySpecies[] {
+  const ss = siteSpecies();
+  const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
+  const out = new Map<string, LikelySpecies>();
+  const at = (id: string) => out.get(id) ?? out.set(id, { id, n: 0, sites: [], highlightAt: [] }).get(id)!;
+  for (const sid of new Set(siteIds)) {
+    for (const { id, n } of ss[sid]?.species ?? []) { const e = at(id); e.n += n; e.sites.push(sid); }
+    for (const id of siteOf[sid]?.target_species ?? []) at(id).highlightAt.push(sid);
+  }
+  return [...out.values()].sort((a, b) => b.n - a.n || a.id.localeCompare(b.id));
+}
+/** Days (in itinerary order) that visit a site. */
+export function daysForSite(siteId: string): Day[] {
+  return itinerary().filter((d) => d.sites.includes(siteId));
+}
+export const RU_MONTHS_GEN = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+export const RU_WEEKDAYS = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
+/** '2026-10-05' -> '5 октября, понедельник' */
+export function fmtDateRu(date: string, weekday = true): string {
+  const d = new Date(`${date}T12:00:00Z`);
+  const s = `${d.getUTCDate()} ${RU_MONTHS_GEN[d.getUTCMonth()]}`;
+  return weekday ? `${s}, ${RU_WEEKDAYS[d.getUTCDay()]}` : s;
+}
+/** Day label: 'день 3' or 'до тура' for the pre-trip days ('pre-2'). */
+export function dayLabel(d: Day): string {
+  return typeof d.day === 'number' ? `день ${d.day}` : 'до тура';
+}
+/** Russian plural: plural(5, 'вид', 'вида', 'видов') */
+export function plural(n: number, one: string, few: string, many: string): string {
+  const m10 = n % 10, m100 = n % 100;
+  return m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? few : many;
+}
+
+export interface DayWithSpecies { day: Day; species: (LikelySpecies & { isNew: boolean })[]; nHighlights: number; nNew: number }
+let _dws: DayWithSpecies[] | null = null;
+/** Every itinerary day with its merged species list; `isNew` = not likely/highlight on any earlier day. */
+export function itineraryWithSpecies(): DayWithSpecies[] {
+  if (_dws) return _dws;
+  const seen = new Set<string>();
+  _dws = itinerary().map((day) => {
+    const sp = likelySpeciesForSites(day.sites).map((s) => ({ ...s, isNew: !seen.has(s.id) }));
+    for (const s of sp) seen.add(s.id);
+    return { day, species: sp, nHighlights: sp.filter((s) => s.highlightAt.length).length, nNew: sp.filter((s) => s.isNew).length };
+  });
+  return _dws;
+}

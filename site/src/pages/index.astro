@@ -1,37 +1,80 @@
 ---
 import Base from '../layouts/Base.astro';
-import { families, speciesIndex } from '@lib/data';
-const fams = families();
-const idx = speciesIndex();
-const byFamily = new Map<string, typeof idx>();
-for (const s of idx) byFamily.set(s.family, [...(byFamily.get(s.family) ?? []), s]);
-const orders = [...new Set(fams.map((f) => f.order))];
-const base = import.meta.env.BASE_URL;
-const endemics = idx.filter((s) => s.endemic).length;
+import RouteMap from '../components/RouteMap.svelte';
+import DayCard from '../components/DayCard.astro';
+import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu } from '@lib/data';
+const days = itinerary();
+const dws = itineraryWithSpecies();
+const all = sites();
+const regs = regions();
+const regionOf = Object.fromEntries(regs.map((r) => [r.id, r]));
+// no-JS default: day 1 (first numbered day); the script below picks today / the next day
+const firstDay = dws.find((d) => typeof d.day.day === 'number') ?? dws[0];
+const start = days[0]?.date;
+const end = days.at(-1)?.date;
 ---
-<Base title="Семейства">
-  <h1>Птицы Колумбии</h1>
-  <p class="muted">{idx.length} видов в {fams.length} семействах по чеклисту ACO 2022, из них {endemics} эндемика. Справочник для тура по южной Колумбии в октябре 2026.</p>
-  {orders.map((o) => (
-    <section>
-      <h2>{o}</h2>
-      <div class="grid">
-        {fams.filter((f) => f.order === o).map((f) => {
-          const sp = byFamily.get(f.code) ?? [];
-          const e = sp.filter((s) => s.endemic).length;
-          return (
-            <a class="card fam" href={`${base}families/${f.slug}/`}>
-              <div><strong>{f.names.ru ?? f.names.en}</strong></div>
-              <div class="muted"><span class="sci">{f.sci}</span> · {f.names.en}</div>
-              <div class="muted" style="font-size:.85rem">{sp.length} {sp.length === 1 ? 'вид' : sp.length < 5 ? 'вида' : 'видов'}{e ? `, ${e} энд.` : ''}</div>
-            </a>
-          );
-        })}
-      </div>
-    </section>
-  ))}
+<Base title="Маршрут" description="Маршрут тура по южной Колумбии, октябрь 2026: дни, локации, вероятные виды">
+  <h1>Маршрут</h1>
+  {days.length === 0 ? <p class="card muted">Данные маршрута ещё собираются.</p> : (
+    <>
+      <p class="muted lead">{fmtDateRu(start!, false)} – {fmtDateRu(end!, false)} 2026 · Богота, Уила, Путумайо, Нариньо</p>
+      <section class="today" aria-label="Сегодня" data-start={start} data-end={end} data-first={firstDay.day.date}>
+        <div class="tlabel"><span class="tl">Первый день тура</span> <span class="countdown muted"></span></div>
+        {dws.map((d) => <DayCard d={d} compact hidden={d !== firstDay} />)}
+      </section>
+
+      <RouteMap client:load days={days} sites={all} regions={regs} />
+
+      <h2>По дням</h2>
+      {dws.map((d, i) => (
+        <>
+          {(i === 0 || dws[i - 1].day.region !== d.day.region) && (
+            <h3 class="reg" style={`color:${regionOf[d.day.region]?.color}`}>{regionOf[d.day.region]?.name_ru ?? d.day.region}</h3>
+          )}
+          <DayCard d={d} id={`d${d.day.date}`} />
+        </>
+      ))}
+    </>
+  )}
 </Base>
+<script>
+  const box = document.querySelector<HTMLElement>('.today');
+  if (box) {
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const now = new Date();
+    const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+    const cards = [...box.querySelectorAll<HTMLElement>('.daycard')];
+    const { start, end, first } = box.dataset as { start: string; end: string; first: string };
+    const days = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / 864e5);
+    const plural = (n: number, a: string, b: string, c: string) => (n % 10 === 1 && n % 100 !== 11 ? a : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? b : c);
+    let pick: HTMLElement | undefined, label = '', count = '';
+    if (today < start) {
+      pick = cards.find((c) => c.dataset.date === first);
+      const n = days(today, start);
+      label = 'Первый день тура';
+      count = `до поездки ${n} ${plural(n, 'день', 'дня', 'дней')}`;
+    } else if (today > end) {
+      pick = cards.at(-1);
+      label = 'Поездка завершена · последний день';
+    } else {
+      pick = cards.find((c) => c.dataset.date === today) ?? cards.find((c) => c.dataset.date! > today);
+      label = pick?.dataset.date === today ? 'Сегодня' : 'Ближайший день';
+    }
+    if (pick) {
+      cards.forEach((c) => (c.hidden = c !== pick));
+      box.querySelector('.tl')!.textContent = label;
+      box.querySelector('.countdown')!.textContent = count ? `· ${count}` : '';
+      document.getElementById(`d${pick.dataset.date}`)?.classList.add('is-today');
+    }
+  }
+</script>
 <style>
-  .fam { color: inherit; display: block; }
-  .fam:hover { text-decoration: none; border-color: var(--accent); }
+  .lead { margin-top: -4px; }
+  .today { margin: 12px 0 18px; }
+  .tlabel { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 600; color: var(--accent); }
+  .tlabel .countdown { text-transform: none; letter-spacing: 0; font-weight: 400; font-size: .9rem; }
+  .today :global(.daycard) { margin-top: 6px; box-shadow: 0 1px 8px rgba(0,0,0,.08); }
+  .today :global(.dtitle) { font-size: 1.2rem; }
+  .reg { margin: 18px 0 4px; font-size: 1rem; }
+  :global(.daycard.is-today) { outline: 2px solid var(--accent); }
 </style>

@@ -1,0 +1,120 @@
+---
+/**
+ * Likely species (GBIF) + highlights (trip reports) grouped by family in taxonomic order.
+ * Rows carry data-h / data-e / data-new flags for the filter buttons (tiny inline script below).
+ * Long lists (>= collapseFrom) render every family as a closed <details> with counts.
+ */
+import { families, speciesIndex, mediaUrl, IUCN_RU, plural, type IndexEntry } from '@lib/data';
+export interface Item { id: string; n: number; highlight: boolean; isNew?: boolean }
+interface Props { items: Item[]; showNew?: boolean; collapseFrom?: number }
+const { items, showNew = false, collapseFrom = 300 } = Astro.props;
+const idx = new Map(speciesIndex().map((s) => [s.id, s]));
+const fams = new Map(families().map((f) => [f.code, f]));
+const rows = items.map((it) => ({ ...it, isNew: showNew && it.isNew, s: idx.get(it.id)! })).filter((r) => r.s)
+  .sort((a, b) => a.s.taxon_order - b.s.taxon_order);
+const groups: { code: string; rows: (Item & { s: IndexEntry })[] }[] = [];
+for (const r of rows) {
+  const g = groups.at(-1);
+  if (g && g.code === r.s.family) g.rows.push(r);
+  else groups.push({ code: r.s.family, rows: [r] });
+}
+const collapsed = rows.length >= collapseFrom;
+const base = import.meta.env.BASE_URL;
+const nH = rows.filter((r) => r.highlight).length;
+const nE = rows.filter((r) => r.s.endemic).length;
+const nN = rows.filter((r) => r.isNew).length;
+---
+{rows.length > 0 && (
+  <div class="checklist" data-filter="all">
+    <div class="filters" role="group" aria-label="Фильтр видов">
+      <button type="button" data-f="all" aria-pressed="true">Все <span>{rows.length}</span></button>
+      {nH > 0 && <button type="button" data-f="h" aria-pressed="false">Изюминки <span>{nH}</span></button>}
+      {showNew && nN > 0 && <button type="button" data-f="new" aria-pressed="false">Новые <span>{nN}</span></button>}
+      {nE > 0 && <button type="button" data-f="e" aria-pressed="false">Эндемики <span>{nE}</span></button>}
+    </div>
+    {groups.map((g) => {
+      const f = fams.get(g.code);
+      const gh = g.rows.filter((r) => r.highlight).length;
+      const gn = g.rows.filter((r) => r.isNew).length;
+      return (
+        <details class="fam" open={!collapsed}>
+          <summary>
+            <span class="fname">{f?.names.ru ?? f?.names.en ?? g.code}</span>
+            <span class="muted sci">{f?.sci}</span>
+            <span class="cnt">{g.rows.length}{gh > 0 && <b class="hl"> · {gh}★</b>}{showNew && gn > 0 && <span class="nw"> · {gn} нов.</span>}</span>
+          </summary>
+          {g.rows.map((r) => (
+            <a class="row sp" href={`${base}species/${r.s.id}/`} data-h={r.highlight ? '1' : undefined} data-e={r.s.endemic ? '1' : undefined} data-new={r.isNew ? '1' : undefined}>
+              {r.s.photo ? <img class="thumb" src={mediaUrl(r.s.photo)} alt="" loading="lazy" width="48" height="48" /> : <span class="thumb empty" aria-hidden="true"></span>}
+              <span class="txt">
+                <span class="l1"><strong>{r.s.en}</strong>{r.s.ru && <span> · {r.s.ru}</span>}</span>
+                <span class="l2 muted"><span class="sci">{r.s.sci}</span>{r.n > 0 ? <> · {r.n} {plural(r.n, 'запись', 'записи', 'записей')}</> : <> · нет в GBIF рядом</>}</span>
+                {(r.highlight || r.s.endemic || r.isNew || (r.s.iucn && r.s.iucn !== 'LC')) && (
+                  <span class="tags">
+                    {r.highlight && <span class="chip hl">изюминка</span>}
+                    {r.s.endemic && <span class="chip endemic">эндемик</span>}
+                    {r.isNew && <span class="chip new">новый</span>}
+                    {r.s.iucn && r.s.iucn !== 'LC' && <span class="chip iucn" title={IUCN_RU[r.s.iucn]}>IUCN {r.s.iucn}</span>}
+                  </span>
+                )}
+              </span>
+            </a>
+          ))}
+        </details>
+      );
+    })}
+  </div>
+)}
+<script>
+  for (const box of document.querySelectorAll<HTMLElement>('.checklist')) {
+    const opened = new Map<HTMLDetailsElement, boolean>();
+    box.querySelectorAll<HTMLButtonElement>('.filters button').forEach((b) => b.addEventListener('click', () => {
+      const f = b.dataset.f!;
+      box.dataset.filter = f;
+      box.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      box.querySelectorAll<HTMLDetailsElement>('details.fam').forEach((d) => {
+        if (!opened.has(d)) opened.set(d, d.open);
+        const any = f === 'all' || d.querySelector(`[data-${f}]`) !== null;
+        d.hidden = !any;
+        d.open = f === 'all' ? opened.get(d)! : true;
+      });
+    }));
+  }
+</script>
+<style>
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+  .filters button {
+    min-height: 40px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--card);
+    color: var(--fg); font: inherit; font-size: .9rem; cursor: pointer;
+  }
+  .filters button span { color: var(--muted); margin-left: 4px; }
+  .filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .filters button[aria-pressed="true"] span { color: inherit; opacity: .8; }
+  .fam { border-bottom: 1px solid var(--line); }
+  .fam summary {
+    min-height: 44px; display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; cursor: pointer; padding: 6px 0;
+    list-style: none;
+  }
+  .fam summary::-webkit-details-marker { display: none; }
+  .fam summary::before { content: '▸'; color: var(--muted); width: 12px; transition: transform .15s; }
+  .fam[open] > summary::before { transform: rotate(90deg); }
+  .fname { font-weight: 600; }
+  .fam summary .sci { font-size: .85rem; }
+  .cnt { margin-left: auto; color: var(--muted); font-size: .85rem; white-space: nowrap; }
+  .cnt .hl { color: var(--accent-2); font-weight: 600; }
+  .cnt .nw { color: var(--accent); }
+  .sp { color: inherit; gap: 10px; padding: 6px 0; border-bottom: none; border-top: 1px solid var(--line); min-width: 0; }
+  .sp:hover { text-decoration: none; background: var(--chip); }
+  .sp .thumb { width: 48px; height: 48px; }
+  .txt { display: flex; flex-direction: column; min-width: 0; line-height: 1.3; }
+  .l1, .l2 { overflow-wrap: anywhere; }
+  .l2 { font-size: .82rem; }
+  .tags { margin-top: 3px; }
+  .tags .chip { margin: 0 4px 0 0; font-size: .72rem; padding: 1px 8px; }
+  .chip.hl { background: var(--accent-2); color: #fff; }
+  .chip.new { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+  .chip.iucn { background: #b91c1c; color: #fff; }
+  .checklist[data-filter="h"] .sp:not([data-h]),
+  .checklist[data-filter="e"] .sp:not([data-e]),
+  .checklist[data-filter="new"] .sp:not([data-new]) { display: none; }
+</style>

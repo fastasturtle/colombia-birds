@@ -5,6 +5,7 @@
   interface Region { id: string; name_ru: string; color: string }
   let { days, sites, regions }: { days: Day[]; sites: Site[]; regions: Region[] } = $props();
 
+  const base = import.meta.env.BASE_URL;
   const color = Object.fromEntries(regions.map((r) => [r.id, r.color]));
   const siteOf = Object.fromEntries(sites.map((s) => [s.id, s]));
   const todayIdx = (() => { const t = new Date().toISOString().slice(0, 10); return days.findIndex((d) => d.date === t); })();
@@ -102,7 +103,7 @@
       {#if s.name_ru && s.name_ru !== s.name}<br />{s.name_ru}{/if}
       {#if s.elev_min != null}<br /><span class="muted">{s.elev_min}{s.elev_max != null && s.elev_max !== s.elev_min ? `–${s.elev_max}` : ''} м</span>{/if}
       {#if dayNums.has(s.id)}<br /><span class="muted">ночёвки: день {fmtDays(dayNums.get(s.id)!)}</span>{/if}
-      <br /><a href={`#${s.id}`} onclick={() => (sel = null)}>подробнее</a>
+      <br /><a class="more" href={`${base}sites/${s.id}/`}>подробнее →</a>
     </div>
   {/if}
 </div>
@@ -115,13 +116,13 @@
 <h2>Профиль высот по дням</h2>
 <div class="profile" role="img" aria-label="Высота ночёвки по дням">
   {#each profile as p, i}
-    <a href={`#d${p.d.date}`} class="bar" class:today={i === todayIdx} title={`${p.d.date}: ${p.e} м`}>
+    <a href={`${base}days/${p.d.date}/`} class="bar" class:today={i === todayIdx} title={`${p.d.date}: ${p.e} м`}>
       <span class="fill" style={`height:${(p.e / maxE) * 100}%; background:${color[p.d.region] ?? '#999'}`}></span>
       <span class="lbl">{typeof p.d.day === 'number' ? p.d.day : ''}</span>
     </a>
   {/each}
 </div>
-<p class="muted" style="font-size:.8rem">Столбики: высота места ночёвки, от уровня моря до {maxE} м. Тап по столбику ведёт к дню.</p>
+<p class="muted" style="font-size:.8rem">Столбики: высота места ночёвки, от уровня моря до {maxE} м. Тап по столбику открывает день.</p>
 
 <style>
   .wrap {
@@ -173,6 +174,7 @@
   .tip.left.below { transform: translate(-12px, 14px); }
   .tip.right { transform: translate(calc(-100% + 12px), calc(-100% - 14px)); }
   .tip.right.below { transform: translate(calc(-100% + 12px), 14px); }
+  .tip .more { display: inline-block; padding: 8px 0 2px; }
   .note { font-size: .8rem; margin: 6px 0 0; }
   .legend { margin: 10px 0; }
   .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }

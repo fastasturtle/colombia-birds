@@ -36,7 +36,7 @@
 ## Окружение и проверка глазами
 
 - Первый запуск в свежей сессии: `scripts/setup.sh` (uv sync + npm install).
-- Скриншоты сайта на телефоне: `cd site && npm run build && npm run shots -- / /species/<slug>/ /route/`
+- Скриншоты сайта на телефоне: `cd site && npm run build && npm run shots -- / /days/<date>/ /sites/<id>/ /species/<slug>/`
   (флаги `--dark`, `--full`, `--out DIR`). Файлы попадают в `.screenshots/` (в .gitignore), смотреть через Read.
   Playwright — devDependency сайта; в облачной сессии Chromium уже стоит (`PLAYWRIGHT_BROWSERS_PATH`),
   локально один раз `npx playwright install chromium`. Карта маршрута — статичный SVG без онлайн-тайлов:
