@@ -3,11 +3,11 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 691
+- Карточек: 723
 - Проверено: 467
-- Не проверено: 224
+- Не проверено: 256
 
-## Не проверено (224)
+## Не проверено (256)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -149,11 +149,43 @@
 | cranioleuca-curtata | Ash-browed Spinetail | Муравьеловки, печники и древолазы |
 | synallaxis-brachyura | Slaty Spinetail | Муравьеловки, печники и древолазы |
 | tityra-inquisitor | Black-crowned Tityra | Тиранны и титиры |
+| tityra-semifasciata | Masked Tityra | Тиранны и титиры |
+| pachyramphus-versicolor | Barred Becard | Тиранны и титиры |
+| pachyramphus-polychopterus | White-winged Becard | Тиранны и титиры |
 | piprites-chloris | Wing-barred Piprites | Тиранны и титиры |
+| mionectes-striaticollis | Streak-necked Flycatcher | Тиранны и титиры |
+| leptopogon-superciliaris | Slaty-capped Flycatcher | Тиранны и титиры |
+| leptopogon-rufipectus | Rufous-breasted Flycatcher | Тиранны и титиры |
+| phylloscartes-gualaquizae | Ecuadorian Tyrannulet | Тиранны и титиры |
+| myiornis-atricapillus | Black-capped Pygmy-Tyrant | Тиранны и титиры |
 | lophotriccus-pileatus | Scale-crested Pygmy-Tyrant | Тиранны и титиры |
+| poecilotriccus-capitalis | Black-and-white Tody-Flycatcher | Тиранны и титиры |
+| todirostrum-chrysocrotaphum | Yellow-browed Tody-Flycatcher | Тиранны и титиры |
+| rhynchocyclus-fulvipectus | Fulvous-breasted Flatbill | Тиранны и титиры |
+| pyrrhomyias-cinnamomeus | Cinnamon Flycatcher | Тиранны и титиры |
+| ornithion-brunneicapillus | Brown-capped Tyrannulet | Тиранны и титиры |
+| mecocerculus-stictopterus | White-banded Tyrannulet | Тиранны и титиры |
+| capsiempis-flaveola | Yellow Tyrannulet | Тиранны и титиры |
+| myiophobus-phoenicomitra | Orange-crested Flycatcher | Тиранны и титиры |
+| contopus-cooperi | Olive-sided Flycatcher | Тиранны и титиры |
 | contopus-sordidulus | Western Wood-Pewee | Тиранны и титиры |
+| muscisaxicola-alpinus | Plain-capped Ground-Tyrant | Тиранны и титиры |
+| myiotheretes-striaticollis | Streak-throated Bush-Tyrant | Тиранны и титиры |
+| silvicultrix-frontalis | Crowned Chat-Tyrant | Тиранны и титиры |
+| ochthoeca-rufipectoralis | Rufous-breasted Chat-Tyrant | Тиранны и титиры |
+| colonia-colonus | Long-tailed Tyrant | Тиранны и титиры |
 | myiarchus-tuberculifer | Dusky-capped Flycatcher | Тиранны и титиры |
+| myiarchus-panamensis | Panama Flycatcher | Тиранны и титиры |
+| myiarchus-ferox | Short-crested Flycatcher | Тиранны и титиры |
+| myiarchus-apicalis | Apical Flycatcher | Тиранны и титиры |
+| myiarchus-cephalotes | Pale-edged Flycatcher | Тиранны и титиры |
+| machetornis-rixosa | Cattle Tyrant | Тиранны и титиры |
+| philohydor-lictor | Lesser Kiskadee | Тиранны и титиры |
+| myiozetetes-granadensis | Gray-capped Flycatcher | Тиранны и титиры |
+| conopias-cinchoneti | Lemon-browed Flycatcher | Тиранны и титиры |
 | myiodynastes-chrysocephalus | Golden-crowned Flycatcher | Тиранны и титиры |
+| myiodynastes-maculatus | Streaked Flycatcher | Тиранны и титиры |
+| tyrannus-savana | Fork-tailed Flycatcher | Тиранны и титиры |
 | masius-chrysopterus | Golden-winged Manakin | Котинги и манакины |
 | cryptopipo-holochlora | Green Manakin | Котинги и манакины |
 | lepidothrix-coronata | Blue-capped Manakin | Котинги и манакины |
