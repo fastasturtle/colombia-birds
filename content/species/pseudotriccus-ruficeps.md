@@ -2,11 +2,12 @@
 id: pseudotriccus-ruficeps
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся голова и горло ярко-оранжево-рыжие"
   - "Крылья и хвост тускло-каштановые, спина тёмно-оливковая"
   - "Грудь и бока серовато-оливковые, брюхо кремово-жёлтое"
-  - "Маленький, держится у самой земли в густых зарослях лиан и бамбука"
+  - "Маленький, держится у самой земли в густых зарослях лиан, особенно на опушках"
 similar:
   - id: pseudotriccus-pelzelni
     how: "голова тёмная бронзово-оливковая, без рыжего, горло кремовое; живёт ниже, до 2 500 м"
@@ -26,12 +27,13 @@ sources:
   - "Wikipedia: Rufous-headed pygmy tyrant (en), Pseudotriccus ruficeps (es), CC BY-SA 4.0 — data/texts: окраска, высоты в Колумбии, поведение, голос"
   - "Wikipedia: Bronze-olive pygmy tyrant (en, CC BY-SA 4.0) — data/texts; content/species/poecilotriccus-ruficeps.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подтверждено по en.wikipedia Rufous-headed и Bronze-olive pygmy tyrant, Rufous-crowned tody-flycatcher; бамбук в признаке заменён на опушки (в источнике только заросли лиан и опушки)"
 en:
   key_features:
     - "Entire head and throat bright orange-rufous"
     - "Dull chestnut wings and tail, dark olive back"
     - "Grayish-olive breast and flanks, creamy yellow belly"
-    - "Small, keeps close to the ground in dense vine tangles and bamboo"
+    - "Small, keeps close to the ground in dense vine tangles, especially at edges"
   similar:
     - id: pseudotriccus-pelzelni
       how: "dark bronzy-olive head without rufous, creamy throat; lives lower, up to 2,500 m"

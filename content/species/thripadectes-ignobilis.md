@@ -2,6 +2,7 @@
 id: thripadectes-ignobilis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь тёмно-бурый, самый тёмный из лесовиков, без ярких примет"
   - "Горло тускло-охристое в размытых тёмных штрихах, на груди узкие охристые пестрины"
@@ -27,6 +28,7 @@ sources:
   - "content/species/syndactyla-subalaris.md — отличие Lineated Foliage-gleaner"
   - "Данные проекта: data/species/thripadectes-ignobilis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: всё подтверждено по en.wikipedia Uniform treehunter, Streak-capped treehunter и Lineated foliage-gleaner; исправлений нет"
 en:
   key_features:
     - "Dark brown overall, the darkest treehunter, with no bold marks"

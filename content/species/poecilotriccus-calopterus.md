@@ -2,6 +2,7 @@
 id: poecilotriccus-calopterus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная, горло белое, контраст резкий"
   - "Плечо каштановое, ниже на крыле ярко-жёлтые полосы"
@@ -9,9 +10,9 @@ key_features:
   - "Хвост чёрный, короткий"
 similar:
   - id: todirostrum-chrysocrotaphum
-    how: "широкая жёлтая бровь, на горле и груди чёрные пестрины, клюв длиннее; держится в кронах"
+    how: "широкая жёлтая бровь, на горле и груди чёрные пестрины, каштанового на плече нет; держится в кронах"
   - id: todirostrum-cinereum
-    how: "затылок серый, горло жёлтое, глаз светлый, каштанового на плече нет; часто виляет хвостом"
+    how: "затылок серый, горло жёлтое, каштанового на плече нет; часто виляет хвостом"
 behavior: "Держится парами в густых кустах на опушках, вырубках и заросших полях, в нескольких метрах от земли; в смешанные стаи не входит. Срывает насекомых с листьев коротким броском вверх."
 voice: "Сухое дребезжащее «дре-д-д-д-дью» или «п-дррю», часто повторяемое; пара иногда поёт дуэтом."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Golden-winged tody-flycatcher (en, CC BY-SA 4.0) — описание, распространение, высоты в Колумбии, поведение, голос"
   - "Wikipedia: Yellow-browed tody-flycatcher, Common tody-flycatcher (en, CC BY-SA 4.0) — data/texts; сверено с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подтверждено по en.wikipedia Golden-winged, Yellow-browed и Common tody-flycatcher; сняты непроверенные «клюв длиннее» и «глаз светлый» (у подвида peruanum восточного склона глаз тёмный)"
 en:
   key_features:
     - "Black head, white throat, sharp contrast"
@@ -34,9 +36,9 @@ en:
     - "Short black tail"
   similar:
     - id: todirostrum-chrysocrotaphum
-      how: "broad yellow eyebrow, black streaks on throat and breast, longer bill; keeps in the canopy"
+      how: "broad yellow eyebrow, black streaks on throat and breast, no chestnut on the shoulder; keeps in the canopy"
     - id: todirostrum-cinereum
-      how: "gray nape, yellow throat, pale eye, no chestnut on the shoulder; often wags its tail"
+      how: "gray nape, yellow throat, no chestnut on the shoulder; often wags its tail"
   behavior: "Keeps in pairs in dense shrubs at edges, clearings and overgrown fields, a few metres above the ground; does not join mixed flocks. Takes insects from leaves with a short upward sally."
   voice: "A dry, sputtering 'dre-d-d-d-dew' or 'p-drrrew', often repeated; pairs sometimes duet."
 ---

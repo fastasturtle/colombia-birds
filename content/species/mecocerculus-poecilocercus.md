@@ -2,6 +2,7 @@
 id: mecocerculus-poecilocercus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница и надхвостье ярко-зеленовато-жёлтые, видны при каждом движении"
   - "Крайние рулевые белые: в полёте и снизу хвост со светлыми краями"
@@ -11,7 +12,7 @@ similar:
   - id: mecocerculus-stictopterus
     how: "крупнее, полосы на крыле широкие, чисто белые, хвост без белого, поясница не жёлтая; живёт выше"
   - id: zimmerius-chrysops
-    how: "лицо и бровь золотисто-жёлтые, чётких полос на крыле нет, хвост без белого, клюв крошечный"
+    how: "лицо и бровь золотисто-жёлтые, на крыле жёлтые каймы вместо беловатых полос, хвост без белого, клюв крошечный"
 behavior: "Держится парами или маленькими группами в кронах мшистого облачного леса, часто в смешанных стаях. Собирает насекомых с листьев, веточек и древовидных папоротников, иногда коротко зависает."
 voice: "Песня — нисходящая серия высоких шипящих свистов «псии-псуи-псуи-псуит»; на рассвете тонкое «псииии-псуит»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-tailed tyrannulet (en, CC BY-SA 4.0) — описание, высоты в Колумбии, питание, голос"
   - "Wikipedia: White-banded tyrannulet, Golden-faced tyrannulet (en, CC BY-SA 4.0) — data/texts; сверено с карточкой M. stictopterus"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подтверждено по en.wikipedia White-tailed, White-banded и Golden-faced tyrannulet; у Zimmerius на крыле жёлтые каймы кроющих"
 en:
   key_features:
     - "Bright greenish-yellow rump and uppertail coverts, visible with every movement"
@@ -36,7 +38,7 @@ en:
     - id: mecocerculus-stictopterus
       how: "larger, with broad pure white wing bars, no white in the tail and no yellow rump; lives higher"
     - id: zimmerius-chrysops
-      how: "golden-yellow face and eyebrow, no clear wing bars, no white in the tail, tiny bill"
+      how: "golden-yellow face and eyebrow, yellow wing edgings instead of whitish bars, no white in the tail, tiny bill"
   behavior: "Keeps in pairs or small groups in the canopy of mossy cloud forest, often with mixed flocks. Gleans insects from leaves, twigs and tree ferns, sometimes hovering briefly."
   voice: "The song is a descending series of high sibilant whistles, 'psee-pswee-pswee-psweet'; at dawn a thin 'pseeee-psweet'."
 ---

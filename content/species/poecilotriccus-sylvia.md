@@ -2,6 +2,7 @@
 id: poecilotriccus-sylvia
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова серая, над уздечкой белая полоска, вокруг глаза неполное белое кольцо, как «очки»"
   - "Спина и хвост оливковые"
@@ -11,9 +12,9 @@ similar:
   - id: todirostrum-cinereum
     how: "весь низ ярко-жёлтый, лоб и лицо чёрные, глаз светлый; часто виляет хвостом"
   - id: poecilotriccus-ruficeps
-    how: "шапочка ярко-рыжая, брюхо ярко-жёлтое; живёт выше, в облачном лесу"
-behavior: "Прячется в густых кустах и лиановых зарослях по опушкам, обочинам, заросшим вырубкам и пастбищам, обычно в нескольких метрах от земли. Держится парами и выдаёт себя сухими трелями."
-voice: "Сухая квакающая трель и короткое щёлкающее «тик», часто повторяемые."
+    how: "шапочка ярко-рыжая, брюхо ярко-жёлтое; живёт выше, от 1 500 м, в зарослях на опушках горного леса"
+behavior: "Прячется в густых кустах и лиановых зарослях по опушкам, обочинам, заросшим вырубкам и пастбищам, обычно невысоко над землёй. Держится парами и выдаёт себя голосом."
+voice: "Звуки похожи на насекомое или лягушку: мягкое хрипловатое «труп» или «труп-грррр», «тик-трррррр», отдельное носовое лягушачье «гррррр»."
 traits:
   size: hummingbird
   colors: [gray, olive, white]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Slaty-headed tody-flycatcher (en, CC BY-SA 4.0) — описание, подвид superciliaris в Колумбии, биотоп, высоты"
   - "Wikipedia: Common tody-flycatcher, Rufous-crowned tody-flycatcher (en, CC BY-SA 4.0) — data/texts; сверено с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: голос (по Hilty, цит. в en.wikipedia) и ярус кормления по en.wikipedia Slaty-headed tody-flycatcher; высоты Rufous-crowned tody-flycatcher (1 500–2 700 м в Колумбии) по en.wikipedia"
 en:
   key_features:
     - "Gray head with a white line above the lores and a broken white eye ring, like spectacles"
@@ -36,9 +38,9 @@ en:
     - id: todirostrum-cinereum
       how: "wholly bright yellow below, black forehead and face, pale eye; often wags its tail"
     - id: poecilotriccus-ruficeps
-      how: "bright rufous crown, bright yellow belly; lives higher, in cloud forest"
-  behavior: "Hides in dense shrubs and vine tangles along edges, roadsides, overgrown clearings and pastures, usually a few metres above the ground. Keeps in pairs and gives itself away with dry trills."
-  voice: "A dry croaking trill and a short clicking 'tick', often repeated."
+      how: "bright rufous crown, bright yellow belly; lives higher, from 1,500 m, in thickets at montane forest edges"
+  behavior: "Hides in dense shrubs and vine tangles along edges, roadsides, overgrown clearings and pastures, usually close to the ground. Keeps in pairs and gives itself away by voice."
+  voice: "Insect- or frog-like sounds: a soft gravelly 'trup' or 'trup-grrrr', 'tik-trrrrrr', and a nasal froglike 'grrrrrr' given singly."
 ---
 Slate-headed Tody-Flycatcher — крошечный тиранн густых зарослей тропического и нижнего предгорного пояса. В Колумбии живёт подвид superciliaris, от Карибского побережья до долин Магдалены и Кауки, обычно ниже 1 100 м. Его легче услышать, чем увидеть: птица сидит в сплетении лиан у опушки и видна урывками. Серая голова с белыми «очками» и почти белый низ сразу отличают его от ярко-жёлтых тоди-мухоловов.
 
