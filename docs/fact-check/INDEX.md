@@ -4,10 +4,10 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 467
-- Проверено: 225
-- Не проверено: 242
+- Проверено: 287
+- Не проверено: 180
 
-## Не проверено (242)
+## Не проверено (180)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -135,68 +135,6 @@
 | xiphocolaptes-promeropirhynchus | Strong-billed Woodcreeper | Муравьеловки, печники и древолазы |
 | berlepschia-rikeri | Point-tailed Palmcreeper | Муравьеловки, печники и древолазы |
 | furnarius-leucopus | Pale-legged Hornero | Муравьеловки, печники и древолазы |
-| cinclodes-albidiventris | Chestnut-winged Cinclodes | Муравьеловки, печники и древолазы |
-| thripadectes-holostictus | Striped Treehunter | Муравьеловки, печники и древолазы |
-| leptasthenura-andicola | Andean Tit-Spinetail | Муравьеловки, печники и древолазы |
-| siptornis-striaticollis | Spectacled Prickletail | Муравьеловки, печники и древолазы |
-| synallaxis-azarae | Azara's Spinetail | Муравьеловки, печники и древолазы |
-| tityra-cayana | Black-tailed Tityra | Тиранны и титиры |
-| pachyramphus-cinnamomeus | Cinnamon Becard | Тиранны и титиры |
-| platyrinchus-flavigularis | Yellow-throated Spadebill | Тиранны и титиры |
-| pogonotriccus-orbitalis | Spectacled Bristle-Tyrant | Тиранны и титиры |
-| hemitriccus-rufigularis | Buff-throated Tody-Tyrant | Тиранны и титиры |
-| todirostrum-cinereum | Common Tody-Flycatcher | Тиранны и титиры |
-| myiotriccus-ornatus | Ornate Flycatcher | Тиранны и титиры |
-| camptostoma-obsoletum | Southern Beardless-Tyrannulet | Тиранны и титиры |
-| mecocerculus-leucophrys | White-throated Tyrannulet | Тиранны и титиры |
-| tyrannulus-elatus | Yellow-crowned Tyrannulet | Тиранны и титиры |
-| elaenia-flavogaster | Yellow-bellied Elaenia | Тиранны и титиры |
-| serpophaga-cinerea | Torrent Tyrannulet | Тиранны и титиры |
-| zimmerius-albigularis | Choco Tyrannulet | Тиранны и титиры |
-| contopus-fumigatus | Smoke-colored Pewee | Тиранны и титиры |
-| contopus-virens | Eastern Wood-Pewee | Тиранны и титиры |
-| sayornis-nigricans | Black Phoebe | Тиранны и титиры |
-| pyrocephalus-rubinus | Vermilion Flycatcher | Тиранны и титиры |
-| cnemarchus-erythropygius | Red-rumped Bush-Tyrant | Тиранны и титиры |
-| ochthoeca-cinnamomeiventris | Chestnut-bellied Chat-Tyrant | Тиранны и титиры |
-| ochthoeca-fumicolor | Brown-backed Chat-Tyrant | Тиранны и титиры |
-| ramphotrigon-megacephalum | Large-headed Flatbill | Тиранны и титиры |
-| pitangus-sulphuratus | Great Kiskadee | Тиранны и титиры |
-| megarynchus-pitangua | Boat-billed Flycatcher | Тиранны и титиры |
-| myiozetetes-cayanensis | Rusty-margined Flycatcher | Тиранны и титиры |
-| myiozetetes-similis | Social Flycatcher | Тиранны и титиры |
-| legatus-leucophaius | Piratic Flycatcher | Тиранны и титиры |
-| tyrannus-tyrannus | Eastern Kingbird | Тиранны и титиры |
-| manacus-manacus | White-bearded Manakin | Котинги и манакины |
-| ampelioides-tschudii | Scaled Fruiteater | Котинги и манакины |
-| vireo-leucophrys | Brown-capped Vireo | Ласточки, крапивники, дрозды и другие |
-| vireo-olivaceus | Red-eyed Vireo | Ласточки, крапивники, дрозды и другие |
-| cyanolyca-pulchra | Beautiful Jay | Ласточки, крапивники, дрозды и другие |
-| cyanolyca-turcosa | Turquoise Jay | Ласточки, крапивники, дрозды и другие |
-| cyanocorax-violaceus | Violaceous Jay | Ласточки, крапивники, дрозды и другие |
-| progne-chalybea | Gray-breasted Martin | Ласточки, крапивники, дрозды и другие |
-| stelgidopteryx-ruficollis | Southern Rough-winged Swallow | Ласточки, крапивники, дрозды и другие |
-| atticora-fasciata | White-banded Swallow | Ласточки, крапивники, дрозды и другие |
-| pygochelidon-cyanoleuca | Blue-and-white Swallow | Ласточки, крапивники, дрозды и другие |
-| orochelidon-murina | Brown-bellied Swallow | Ласточки, крапивники, дрозды и другие |
-| hirundo-rustica | Barn Swallow | Ласточки, крапивники, дрозды и другие |
-| microbates-cinereiventris | Tawny-faced Gnatwren | Ласточки, крапивники, дрозды и другие |
-| polioptila-plumbea | Tropical Gnatcatcher | Ласточки, крапивники, дрозды и другие |
-| microcerculus-marginatus | Scaly-breasted Wren | Ласточки, крапивники, дрозды и другие |
-| odontorchilus-branickii | Gray-mantled Wren | Ласточки, крапивники, дрозды и другие |
-| cistothorus-platensis | Grass Wren | Ласточки, крапивники, дрозды и другие |
-| cinnycerthia-unirufa | Rufous Wren | Ласточки, крапивники, дрозды и другие |
-| henicorhina-leucosticta | White-breasted Wood-Wren | Ласточки, крапивники, дрозды и другие |
-| henicorhina-leucophrys | Gray-breasted Wood-Wren | Ласточки, крапивники, дрозды и другие |
-| mimus-gilvus | Tropical Mockingbird | Ласточки, крапивники, дрозды и другие |
-| catharus-ustulatus | Swainson's Thrush | Ласточки, крапивники, дрозды и другие |
-| piranga-rubra | Summer Tanager | Танагры и кардиналы |
-| piranga-olivacea | Scarlet Tanager | Танагры и кардиналы |
-| cissopis-leverianus | Magpie Tanager | Танагры и кардиналы |
-| sphenopsis-frontalis | Oleaginous Hemispingus | Танагры и кардиналы |
-| tachyphonus-rufus | White-lined Tanager | Танагры и кардиналы |
-| ramphocelus-flammigerus | Flame-rumped Tanager | Танагры и кардиналы |
-| ramphocelus-carbo | Silver-beaked Tanager | Танагры и кардиналы |
 | ramphocelus-dimidiatus | Crimson-backed Tanager | Танагры и кардиналы |
 | bangsia-flavovirens | Yellow-green Tanager | Танагры и кардиналы |
 | sporathraupis-cyanocephala | Blue-capped Tanager | Танагры и кардиналы |
@@ -254,7 +192,7 @@
 | myioborus-miniatus | Slate-throated Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 | myioborus-ornatus | Golden-fronted Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 
-## Проверено (225)
+## Проверено (287)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
@@ -396,26 +334,60 @@
 | scytalopus-spillmanni | Spillmann's Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | chamaeza-turdina | Schwartz's Antthrush | Муравьеловки, печники и древолазы | 2026-09-27 |
 | campylorhamphus-pusillus | Brown-billed Scythebill | Муравьеловки, печники и древолазы | 2026-09-27 |
+| cinclodes-albidiventris | Chestnut-winged Cinclodes | Муравьеловки, печники и древолазы | 2026-09-27 |
 | syndactyla-subalaris | Lineated Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thripadectes-holostictus | Striped Treehunter | Муравьеловки, печники и древолазы | 2026-09-27 |
 | margarornis-squamiger | Pearled Treerunner | Муравьеловки, печники и древолазы | 2026-09-27 |
+| leptasthenura-andicola | Andean Tit-Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | asthenes-flammulata | Many-striped Canastero | Муравьеловки, печники и древолазы | 2026-09-27 |
 | asthenes-fuliginosa | White-chinned Thistletail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | metopothrix-aurantiaca | Orange-fronted Plushcrown | Муравьеловки, печники и древолазы | 2026-09-27 |
+| siptornis-striaticollis | Spectacled Prickletail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | synallaxis-subpudica | Silvery-throated Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| synallaxis-azarae | Azara's Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| tityra-cayana | Black-tailed Tityra | Тиранны и титиры | 2026-09-27 |
+| pachyramphus-cinnamomeus | Cinnamon Becard | Тиранны и титиры | 2026-09-27 |
+| platyrinchus-flavigularis | Yellow-throated Spadebill | Тиранны и титиры | 2026-09-27 |
+| pogonotriccus-orbitalis | Spectacled Bristle-Tyrant | Тиранны и титиры | 2026-09-27 |
+| hemitriccus-rufigularis | Buff-throated Tody-Tyrant | Тиранны и титиры | 2026-09-27 |
 | poecilotriccus-ruficeps | Rufous-crowned Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
+| todirostrum-cinereum | Common Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
 | tolmomyias-traylori | Orange-eyed Flatbill | Тиранны и титиры | 2026-09-27 |
+| myiotriccus-ornatus | Ornate Flycatcher | Тиранны и титиры | 2026-09-27 |
+| camptostoma-obsoletum | Southern Beardless-Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| mecocerculus-leucophrys | White-throated Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | uromyias-agilis | Agile Tit-Tyrant | Тиранны и титиры | 2026-09-27 |
 | pseudocolopteryx-acutipennis | Subtropical Doradito | Тиранны и титиры | 2026-09-27 |
+| tyrannulus-elatus | Yellow-crowned Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| elaenia-flavogaster | Yellow-bellied Elaenia | Тиранны и титиры | 2026-09-27 |
 | elaenia-pallatangae | Sierran Elaenia | Тиранны и титиры | 2026-09-27 |
 | elaenia-frantzii | Mountain Elaenia | Тиранны и титиры | 2026-09-27 |
+| serpophaga-cinerea | Torrent Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| zimmerius-albigularis | Choco Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| contopus-fumigatus | Smoke-colored Pewee | Тиранны и титиры | 2026-09-27 |
+| contopus-virens | Eastern Wood-Pewee | Тиранны и титиры | 2026-09-27 |
+| sayornis-nigricans | Black Phoebe | Тиранны и титиры | 2026-09-27 |
+| pyrocephalus-rubinus | Vermilion Flycatcher | Тиранны и титиры | 2026-09-27 |
+| cnemarchus-erythropygius | Red-rumped Bush-Tyrant | Тиранны и титиры | 2026-09-27 |
 | fluvicola-nengeta | Masked Water-Tyrant | Тиранны и титиры | 2026-09-27 |
+| ochthoeca-cinnamomeiventris | Chestnut-bellied Chat-Tyrant | Тиранны и титиры | 2026-09-27 |
+| ochthoeca-fumicolor | Brown-backed Chat-Tyrant | Тиранны и титиры | 2026-09-27 |
+| ramphotrigon-megacephalum | Large-headed Flatbill | Тиранны и титиры | 2026-09-27 |
 | attila-torridus | Ochraceous Attila | Тиранны и титиры | 2026-09-27 |
+| pitangus-sulphuratus | Great Kiskadee | Тиранны и титиры | 2026-09-27 |
+| megarynchus-pitangua | Boat-billed Flycatcher | Тиранны и титиры | 2026-09-27 |
+| myiozetetes-cayanensis | Rusty-margined Flycatcher | Тиранны и титиры | 2026-09-27 |
+| myiozetetes-similis | Social Flycatcher | Тиранны и титиры | 2026-09-27 |
+| legatus-leucophaius | Piratic Flycatcher | Тиранны и титиры | 2026-09-27 |
 | tyrannus-melancholicus | Tropical Kingbird | Тиранны и титиры | 2026-09-27 |
+| tyrannus-tyrannus | Eastern Kingbird | Тиранны и титиры | 2026-09-27 |
+| manacus-manacus | White-bearded Manakin | Котинги и манакины | 2026-09-27 |
 | machaeropterus-deliciosus | Club-winged Manakin | Котинги и манакины | 2026-09-27 |
 | pipreola-arcuata | Barred Fruiteater | Котинги и манакины | 2026-09-27 |
 | pipreola-jucunda | Orange-breasted Fruiteater | Котинги и манакины | 2026-09-27 |
 | pipreola-lubomirskii | Black-chested Fruiteater | Котинги и манакины | 2026-09-27 |
 | pipreola-chlorolepidota | Fiery-throated Fruiteater | Котинги и манакины | 2026-09-27 |
+| ampelioides-tschudii | Scaled Fruiteater | Котинги и манакины | 2026-09-27 |
 | doliornis-remseni | Chestnut-bellied Cotinga | Котинги и манакины | 2026-09-27 |
 | ampelion-rubrocristatus | Red-crested Cotinga | Котинги и манакины | 2026-09-27 |
 | rupicola-peruvianus | Andean Cock-of-the-rock | Котинги и манакины | 2026-09-27 |
@@ -427,16 +399,44 @@
 | cotinga-cayana | Spangled Cotinga | Котинги и манакины | 2026-09-27 |
 | gymnoderus-foetidus | Bare-necked Fruitcrow | Котинги и манакины | 2026-09-27 |
 | vireo-masteri | Choco Vireo | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| vireo-leucophrys | Brown-capped Vireo | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| vireo-olivaceus | Red-eyed Vireo | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| cyanolyca-pulchra | Beautiful Jay | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| cyanolyca-turcosa | Turquoise Jay | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| cyanocorax-violaceus | Violaceous Jay | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | donacobius-atricapilla | Black-capped Donacobius | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| progne-chalybea | Gray-breasted Martin | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| stelgidopteryx-ruficollis | Southern Rough-winged Swallow | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| atticora-fasciata | White-banded Swallow | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| pygochelidon-cyanoleuca | Blue-and-white Swallow | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| orochelidon-murina | Brown-bellied Swallow | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| hirundo-rustica | Barn Swallow | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| microbates-cinereiventris | Tawny-faced Gnatwren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| polioptila-plumbea | Tropical Gnatcatcher | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| microcerculus-marginatus | Scaly-breasted Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| odontorchilus-branickii | Gray-mantled Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| cistothorus-platensis | Grass Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | cistothorus-apolinari | Apolinar's Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | cantorchilus-nigricapillus | Bay Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| cinnycerthia-unirufa | Rufous Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| henicorhina-leucosticta | White-breasted Wood-Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| henicorhina-leucophrys | Gray-breasted Wood-Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| mimus-gilvus | Tropical Mockingbird | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | myadestes-ralloides | Andean Solitaire | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| catharus-ustulatus | Swainson's Thrush | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | entomodestes-coracinus | Black Solitaire | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | cichlopsis-leucogenys | Rufous-brown Solitaire | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | turdus-fuscater | Great Thrush | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | turdus-ignobilis | Black-billed Thrush | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| piranga-rubra | Summer Tanager | Танагры и кардиналы | 2026-09-27 |
+| piranga-olivacea | Scarlet Tanager | Танагры и кардиналы | 2026-09-27 |
 | chlorothraupis-stolzmanni | Ochre-breasted Tanager | Танагры и кардиналы | 2026-09-27 |
+| cissopis-leverianus | Magpie Tanager | Танагры и кардиналы | 2026-09-27 |
 | kleinothraupis-atropileus | Black-capped Hemispingus | Танагры и кардиналы | 2026-09-27 |
+| sphenopsis-frontalis | Oleaginous Hemispingus | Танагры и кардиналы | 2026-09-27 |
+| tachyphonus-rufus | White-lined Tanager | Танагры и кардиналы | 2026-09-27 |
+| ramphocelus-flammigerus | Flame-rumped Tanager | Танагры и кардиналы | 2026-09-27 |
+| ramphocelus-carbo | Silver-beaked Tanager | Танагры и кардиналы | 2026-09-27 |
 | ramphocelus-nigrogularis | Masked Crimson Tanager | Танагры и кардиналы | 2026-09-27 |
 | bangsia-rothschildi | Golden-chested Tanager | Танагры и кардиналы | 2026-09-27 |
 | bangsia-edwardsi | Moss-backed Tanager | Танагры и кардиналы | 2026-09-27 |
