@@ -2,6 +2,7 @@
 id: claravis-pretiosa
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец голубовато-серый, лицо светлее, на крыле крупные чёрные пятна полосами"
   - "Самка бурая, поясница и хвост каштановые, пятна на крыле каштаново-бурые"
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/claravis-pretiosa.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/columbina-talpacoti.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Male blue-gray with a paler face, large black wing spots in bars"

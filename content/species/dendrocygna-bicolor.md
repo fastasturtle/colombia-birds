@@ -2,6 +2,7 @@
 id: dendrocygna-bicolor
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и грудь насыщенно-рыжевато-охристые, спина тёмно-бурая в светлых каймах"
   - "Тёмная полоса от темени по задней стороне шеи"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/dendrocygna-bicolor.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Fulvous whistling duck (en), Dendrocygna bicolor (es), Рыжая свистящая утка (ru), CC BY-SA 4.0 — data/texts: размер, окраска, голос, поведение"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Head, neck and breast rich tawny-buff, dark brown back with pale fringes"
@@ -39,12 +41,12 @@ en:
   behavior: "Keeps in groups on shallow marshes, ponds and rice fields with dense vegetation. Feeds by day and night, up-ending or diving for seeds; unlike other whistling ducks it rarely perches in trees."
   voice: "A clear, whistled three-note 'kee-wee-ooo' on the ground and in flight, often heard at night."
 ---
-Fulvous Whistling-Duck (рыжая древесная утка) — утка тропических болот, которая встречается почти по всему свету: в Америке, Африке и Южной Азии. В Колумбии живёт в низинах до 1 000 м, изредка залетает выше. Стоит в воде на длинных ногах почти вертикально, как гусь, а летит низко, медленными взмахами, свесив ноги. Небольшие группы обычно держатся вместе с красноклювыми древесными утками.
+Fulvous Whistling-Duck (рыжая древесная утка) — утка тропических болот, которая встречается почти по всему свету: в Америке, Африке и Южной Азии. В Колумбии живёт в низинах до 1 000 м, изредка залетает выше. На длинных ногах ходит легко, не переваливаясь, а летит низко, медленными взмахами, свесив ноги. Кормится часто вместе с другими древесными утками.
 
 На маршруте она «возможно» на Финке Марагрикола 22 октября, на бывших креветочных прудах у Тумако. Осматривай группы древесных уток на краю воды и слушай свист пролетающих стаек.
 
 ## English
 
-Fulvous Whistling-Duck is a duck of tropical marshes found over much of the world: in the Americas, Africa and South Asia. In Colombia it lives in the lowlands up to 1,000 m, occasionally straying higher. It stands in water on long legs, almost upright like a goose, and flies low with slow wingbeats and trailing feet. Small groups usually keep with Black-bellied Whistling-Ducks.
+Fulvous Whistling-Duck is a duck of tropical marshes found over much of the world: in the Americas, Africa and South Asia. In Colombia it lives in the lowlands up to 1,000 m, occasionally straying higher. It walks easily on its long legs without waddling, and flies low with slow wingbeats and trailing feet. It often feeds together with other whistling-ducks.
 
 On the route it is "maybe" at Finca Maragrícola on 22 October, on the former shrimp ponds near Tumaco. Scan groups of whistling-ducks at the water's edge and listen for the whistles of passing flocks.

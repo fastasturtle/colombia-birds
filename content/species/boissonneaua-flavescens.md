@@ -2,6 +2,7 @@
 id: boissonneaua-flavescens
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост бледно-охристый, центральные перья и кончики бронзовые"
   - "Садясь на цветок или кормушку, на секунду-две держит крылья поднятыми"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Buff-tailed coronet (en), Boissonneaua flavescens (es), Бледнохвостый венценосный колибри (ru), CC BY-SA 4.0 — data/texts"
   - "content/species/boissonneaua-matthewsii.md, coeligena-lutetiae.md — согласованы отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Pale buff tail, central feathers and tips bronzy"

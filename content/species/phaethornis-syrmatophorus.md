@@ -2,6 +2,7 @@
 id: phaethornis-syrmatophorus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо и подхвостье ярко-охристо-рыжие, заметно ярче, чем у других отшельников"
   - "Надхвостье рыжее, контрастирует с оливково-зелёной спиной"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Tawny-bellied hermit (en), Phaethornis syrmatophorus (es), CC BY-SA 4.0 — data/texts"
   - "content/species/phaethornis-yaruqui.md — согласовано отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Belly and undertail bright tawny-rufous, clearly brighter than in other hermits"

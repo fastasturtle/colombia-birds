@@ -2,6 +2,7 @@
 id: crypturellus-undulatus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Плотная бурая птица без хвоста, с маленькой головой, ходит по земле"
   - "Спина и шея в тонких тёмных волнистых полосках, у местной формы слабых"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/crypturellus-undulatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Undulated tinamou (en), Crypturellus undulatus (es), Волнистый скрытохвост (ru), CC BY-SA 4.0 — data/texts: размер, окраска, подвид yapura, голос, местообитания"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Chunky brown, tailless bird with a small head, walking on the ground"

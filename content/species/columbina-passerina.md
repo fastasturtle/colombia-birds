@@ -2,9 +2,10 @@
 id: columbina-passerina
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и грудь в тёмном чешуйчатом рисунке"
-  - "Клюв розовато-оранжевый с чёрным концом"
+  - "Клюв с чёрным концом, у основания светлый: оранжевый, розоватый или желтоватый"
   - "На кроющих крыла чёрные пятна; в полёте видны рыжие маховые"
   - "Крошечная плотная горлица с коротким хвостом"
 similar:
@@ -26,10 +27,11 @@ sources:
   - "Данные проекта: data/species/columbina-passerina.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/columbina-talpacoti.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Head, neck and breast with a dark scaly pattern"
-    - "Pinkish-orange bill with a black tip"
+    - "Bill black-tipped, pale at the base: orange, pinkish or yellowish"
     - "Black spots on the wing coverts; rufous flight feathers show in flight"
     - "A tiny compact dove with a short tail"
   similar:
@@ -42,10 +44,10 @@ en:
 ---
 Common Ground Dove (воробьиная земляная горлица) — одна из самых маленьких горлиц в мире, размером с воробья. В Колумбии живёт в сухих и полуоткрытых местах от низменностей до 2 500 м, но на маршруте встречается нечасто: в большинстве мест её заменяет коричневая земляная горлица. Чешуйчатая грудь и двухцветный клюв — главное, на что стоит смотреть у каждой мелкой горлицы.
 
-На маршруте она «возможно» в Чикаке 3 октября и в Эль-Эскондите 13–14 октября. Смотри на обочины, дворы и пастбища, где мелкие горлицы кормятся на земле.
+На маршруте она «возможно» в Чикаке 3 и 24 октября (вероятно, по записям с открытых мест в радиусе 7 км, а не из облачного леса) и в Эль-Эскондите 13–14 октября. Смотри на обочины, дворы и пастбища, где мелкие горлицы кормятся на земле.
 
 ## English
 
 Common Ground Dove is one of the smallest doves in the world, about sparrow-sized. In Colombia it lives in dry and semi-open country from the lowlands to 2,500 m, but on the route it is uncommon: at most sites Ruddy Ground Dove takes its place. The scaly breast and two-toned bill are the main things to check on every small ground dove.
 
-On the route it is "maybe" at Chicaque on 3 October and at El Escondite on 13–14 October. Watch roadsides, yards and pastures, where small doves feed on the ground.
+On the route it is "maybe" at Chicaque on 3 and 24 October (probably from records in open country within the 7 km radius, not from the cloud forest) and at El Escondite on 13–14 October. Watch roadsides, yards and pastures, where small doves feed on the ground.

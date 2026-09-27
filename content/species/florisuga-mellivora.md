@@ -2,6 +2,7 @@
 id: florisuga-mellivora
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова и грудь тёмно-синие, брюхо белое, граница резкая"
   - "Хвост самца почти целиком белый, с тёмной каймой по концу; в полёте раскрыт веером"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/florisuga-mellivora.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: White-necked jacobin (en), Florisuga mellivora (es), Колибри-якобин (ru), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Male: head and breast dark blue, belly white, with a sharp border"

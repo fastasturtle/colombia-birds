@@ -2,6 +2,7 @@
 id: polyerata-amabilis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: на нижней части горла и груди блестящее фиолетово-синее пятно"
   - "Темя и щёки самца ярко блестят зелёным, спина бронзово-зелёная"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/polyerata-amabilis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: Blue-chested hummingbird (en), Polyerata amabilis (es, описание и высоты), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) из data/texts для вида и всех видов из similar, data/site_species.json, data/itinerary.json"
 en:
   key_features:
     - "Male: glittering violet-blue patch on the lower throat and breast"
