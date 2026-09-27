@@ -108,5 +108,5 @@ export const IUCN_RU: Record<string, string> = {
 export const HABITAT_RU: Record<string, string> = {
   Forest: 'лес', Shrubland: 'кустарники', Grassland: 'луга и саванны', Wetland: 'водно-болотные угодья', Woodland: 'редколесье',
   Marine: 'море', 'Human Modified': 'антропогенные ландшафты', Riverine: 'реки', Coastal: 'побережье', Rock: 'скалы',
-  Savanna: 'саванна', Desert: 'пустыня', Agricultural: 'сельхозугодья',
+  Savanna: 'саванна', Desert: 'пустыня', Agricultural: 'сельхозугодья', Shrub: 'кустарники', Bamboo: 'бамбук', Plantation: 'плантации', Riparian: 'приречные заросли', 'Rivers/Lakes': 'реки и озёра', Sea: 'море', Other: 'другое', Rocky: 'скалы', Artificial: 'антропогенные ландшафты', Plains: 'равнины',
 };
