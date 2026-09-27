@@ -8,10 +8,12 @@
 - [x] Признаки BIRDBASE: высоты, биотопы, масса, диета, миграция
 - [x] Wikidata: QID, внешние ID, категории Commons, ссылки на статьи Wikipedia
 - [x] Сборка `data/species/*.json`, индекса и семейств
-- [ ] Выдержки Wikipedia en/es/ru для всех видов (шаг написан, запустить в GitHub Actions)
+- [x] Выдержки Wikipedia en/es/ru для всех видов (27.09: en 1901, es 1898, ru 980)
 - [x] Ранжирование фото: чистка авторов, дубликаты, гравюры последними и не больше одной, зоопарки/музеи ниже диких
 - [x] Фото: шаги `photos` (кандидаты Commons + iNat) и `upload` (ресайз, R2, credits) написаны; Commons проверен только на моках
-- [ ] Первый запуск фото в GitHub Actions: `photos upload` для всех видов; проверить, что Commons отвечает из CI
+- [x] Первый запуск фото в GitHub Actions (27.09): 1926 видов с фото, 2667 файлов (231 вид с 4 фото); Commons отвечает из CI
+- [ ] Проверить маппинги ACO↔eBird/GBIF, найденные при написании карточек (batch 1): «Whimbrel» → Numenius phaeopus, а в Колумбии зимует N. hudsonicus; Choco Warbler (Myiothlypis chlorophrys) сведён в myiothlypis-chrysogaster (Cuzco Warbler); Dacnis на Км 42 скорее D. egregia, а не lineata; grallaria-saturata в ACO как «Perijá Antpitta»; опечатка ru «Коричневохвотсая которра» у Pyrrhura melanura/calliptera; ru-статья Wikipedia у phaethornis-yaruqui не про него; верх высот oxypogon-guerinii 5200 м (Wikipedia 4200); низ turdus-ignobilis 900 м при «точно» в низинах; статус CR у pseudocolopteryx-acutipennis
+- [ ] В data/species нет длины тела (только масса) — добавить длину (AVONET/Wikipedia) для разметки `size` в карточках
 - [x] Русские названия семейств из Wikidata (QLever), шаг `family_names` → `data/families.json` (85 из 94; без ru 9: Oceanitidae, Semnornithidae, Sapayoidae, Oxyruncidae, Onychorhynchidae, Donacobiidae, Rhodinocichlidae, Passerellidae, Mitrospingidae — показываем английское)
 - [x] `build` больше не стирает `photos`/`texts`/`sounds` в `data/species/*.json` и `photo` в индексе
 - [ ] Русские имена для 63 видов без имени в eBird/Wikidata (IOC Multilingual как fallback)
@@ -37,6 +39,11 @@
 - [x] Портреты 18 групп
 - [ ] `/fact-check content/families content/groups`: агенты сами пометили факты из памяти — размеры клюва Hook-billed Kite, появление Glossy Ibis в Америках в XIX в., «два вида» у Semnornithidae, аукцион имени Chocó Vireo, эпоним Пола Шварца, перелёт Blackpoll Warbler 2 500 км
 - [ ] Русские названия семейств без метки в Wikidata: Semnornithidae, Donacobiidae, Passerellidae и ещё 6 — принять варианты агентов или подобрать
+- [x] Карточки видов, партия 1 (27.09): 100 видов «точно» на маршруте, 88 фокусных, 4 агента (docs/fact-check/batch1-*.md — 110 флагов)
+- [ ] `/fact-check content/species` по флагам docs/fact-check/batch1-*.md: в первую очередь голоса (Gilded Barbet, Yellow-throated Toucan, колибри), отличия похожих видов из памяти, андские подвиды пастушков и уток
+- [ ] Карточки видов, партии 2+: всего кандидатов 973 (точно 291 + возможно 635 + фокус); решить объём («точно + фокус» ≈ 340 или все) после ревью партии 1
+- [ ] В карточках видов точек под Боготой (Chingaza, Sumapaz, La Florida, Observatorio de Colibríes) написано «свободные дни 1–2 / 25 октября» — поправить, когда решим, куда едем
+- [ ] Пограничные размеры в `size`: правило для длиннохвостых (Asthenes fuliginosa 18–20 см, половина хвост) и крошек (Club-winged Manakin 9,5–10 см) — зафиксировать в README
 - [ ] Портреты остальных 37 семейств без видов маршрута (низкий приоритет)
 
 ## Сайт
