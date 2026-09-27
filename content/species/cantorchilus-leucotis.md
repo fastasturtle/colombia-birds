@@ -2,8 +2,9 @@
 id: cantorchilus-leucotis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Грудь охристая, брюхо и бока тёплые коричные"
+  - "Грудь охристая, бока и подхвостье тёплые коричные"
   - "Бровь белая, щёки беловатые в тонких тёмных штрихах, горло белое"
   - "Спина рыжевато-бурая, без рисунка"
   - "Крылья и хвост в частых чёрных поперечных полосках"
@@ -13,7 +14,7 @@ similar:
   - id: pheugopedius-mystacalis
     how: "крупнее, спина ярко-каштановая, на лице чёткие чёрные и белые «усы», грудь серая; живёт выше, в горном лесу"
 behavior: "Пары и семейные группы держатся низко в густых кустах, на опушках, в зарослях по берегам рек и во вторичном лесу. Часто присоединяются к смешанным стаям, но из зелени показываются ненадолго."
-voice: "Громкие звонкие дуэты из быстро повторяемых свистовых фраз, самец и самка чередуются; позыв — сухое «чек»."
+voice: "Громкие звонкие дуэты из свистовых фраз: самец часто начинает песню, а самка её заканчивает; репертуар песен и позывов у обоих большой."
 traits:
   size: sparrow
   colors: [brown, rufous, white]
@@ -22,14 +23,15 @@ traits:
   bill: [medium, thin]
   layer: [understory]
 sources:
-  - "Wikipedia: Buff-breasted wren (en, CC BY-SA 4.0) — окраска, местообитания, кормление"
+  - "Wikipedia: Buff-breasted wren (en, CC BY-SA 4.0) — окраска, местообитания, кормление, голос"
+  - "Wikipedia: Cantorchilus leucotis (es, CC BY-SA 4.0) — брюхо беловатое, бока и подхвостье коричные, высоты до 950 м (data/texts)"
   - "Wikipedia: Rufous-and-white wren (en, CC BY-SA 4.0) — отличие, data/texts"
   - "Данные проекта: data/species/cantorchilus-leucotis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/pheugopedius-mystacalis.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Buff breast, warm cinnamon belly and flanks"
+    - "Buff breast, warm cinnamon flanks and undertail"
     - "White eyebrow, whitish cheeks finely streaked dark, white throat"
     - "Plain rufous-brown back"
     - "Wings and tail closely barred black"
@@ -39,7 +41,7 @@ en:
     - id: pheugopedius-mystacalis
       how: "larger, bright chestnut back, bold black and white moustache stripes, gray breast; lives higher, in montane forest"
   behavior: "Pairs and family groups keep low in dense shrubs, at edges, in riverside thickets and second growth. They often join mixed flocks but show themselves only briefly."
-  voice: "Loud ringing duets of rapidly repeated whistled phrases, male and female alternating; the call is a dry 'chek'."
+  voice: "Loud ringing duets of whistled phrases: the male often starts a song and the female finishes it; both have large repertoires of songs and calls."
 ---
 Buff-breasted Wren (белоухий крапивник) — крапивник тёплых низменностей, в Колумбии обычно до 950 м: заросли у рек, опушки, вторичный лес и кофейные плантации. Как большинство крапивников, он больше слышен, чем виден, и найти его проще всего по громкому дуэту из кустов.
 

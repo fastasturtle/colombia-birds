@@ -2,6 +2,7 @@
 id: loriotus-luctuosus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец блестяще-чёрный, с крупным белым пятном на плече, заметным и у сидящей птицы"
   - "Подбой крыла белый, вспыхивает в полёте"
@@ -40,12 +41,12 @@ en:
   behavior: "Keeps in pairs with mixed flocks in the midstory and canopy of forest, at edges and in secondary growth. Constantly on the move, flitting from branch to branch and picking insects."
   voice: "Thin, high 'seet-seet-seet' notes and a repeated 'tchert-tchert' mixed with squeaks; calls are a sharp hissing 'tseer' and a low 'chep'."
 ---
-White-shouldered Tanager (белоплечая танагра) — небольшая танагра влажных лесов, в Колумбии до высоты около 1 500 м. Чёрный самец с белым «погоном» — частый участник смешанных стай, самка же с серой головой и жёлтым брюхом похожа скорее на мухоловку или древесницу. Пятно на плече у этого вида крупнее, чем у родственников, и видно даже в полумраке под пологом леса.
+White-shouldered Tanager (белоплечая танагра) — небольшая танагра влажных лесов, в Колумбии до высоты около 1 500 м. Чёрный самец с белым «погоном» — частый участник смешанных стай, самка же с серой головой и жёлтым брюхом похожа скорее на мухоловку или древесницу. Пятно на плече у него крупнее, чем у чёрной танагры, у которой белое видно почти только в полёте, и заметно даже в полумраке под пологом леса.
 
 На маршруте вид «возможно» в Исла-Эскондиде 7–11 октября, на восточном склоне Анд в Путумайо. Проверяй каждую чёрную танагру в смешанных стаях: рядом с ней может оказаться Flame-crested Tanager (огненохохлая танагра).
 
 ## English
 
-White-shouldered Tanager is a small tanager of humid forest, in Colombia up to about 1,500 m. The black male with a white 'epaulette' is a regular member of mixed flocks, while the female, with a gray head and yellow belly, looks more like a flycatcher or a warbler. The shoulder patch is larger in this species than in its relatives and shows even in the gloom under the canopy.
+White-shouldered Tanager is a small tanager of humid forest, in Colombia up to about 1,500 m. The black male with a white 'epaulette' is a regular member of mixed flocks, while the female, with a gray head and yellow belly, looks more like a flycatcher or a warbler. The shoulder patch is larger than in White-lined Tanager, whose white shows almost only in flight, and is visible even in the gloom under the canopy.
 
 On the route it is "maybe" at Isla Escondida on 7–11 October, on the east slope of the Andes in Putumayo. Check every black tanager in mixed flocks: a Flame-crested may be right next to it.

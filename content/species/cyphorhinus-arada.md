@@ -2,8 +2,9 @@
 id: cyphorhinus-arada
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Горло и грудь ярко-оранжево-рыжие, резко переходят в более тёмное брюхо"
+  - "Горло и грудь ярко-оранжево-рыжие, резко отделены от остального низа"
   - "Верх тёмный, каштаново-бурый; у местных птиц нет пёстрого воротника"
   - "Клюв толстый, с высоким гребнем надклювья"
   - "Крылья и короткий хвост в тонких тёмных поперечных полосках"
@@ -13,7 +14,7 @@ similar:
   - id: pheugopedius-coraya
     how: "голова почти чёрная со штрихами на щеках и белой бровью, горло белое, хвост длиннее и полосатый"
 behavior: "Пары и семейные группы кормятся на земле и у самой земли, перебирая лесную подстилку. Иногда держатся у роёв армейских муравьёв, но в смешанные стаи обычно не входят."
-voice: "Знаменитая песня: чистые флейтовые ноты разной высоты, как у играющего мелодию человека, вперемешку с гортанным урчанием."
+voice: "Знаменитая песня: чистые флейтовые ноты разной высоты, как у играющего мелодию человека, вперемешку с низким гортанным урчанием; пара поёт попеременно. Позыв — резкое «чурк»."
 traits:
   size: sparrow
   colors: [brown, rufous, orange]
@@ -22,13 +23,14 @@ traits:
   bill: [thick, short]
   layer: [ground, understory]
 sources:
-  - "Wikipedia: Musician wren (en, CC BY-SA 4.0) — окраска, подвиды (salvini на юге Колумбии), высоты, поведение"
+  - "Wikipedia: Musician wren (en, CC BY-SA 4.0) — окраска, подвиды (salvini на юге Колумбии), высоты, поведение, голос"
+  - "Wikipedia: Cyphorhinus arada (es, CC BY-SA 4.0) — песня с гортанными нотами (data/texts)"
   - "Данные проекта: data/species/cyphorhinus-arada.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/microcerculus-marginatus.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Bright orange-rufous throat and breast, sharply set off from the darker belly"
+    - "Bright orange-rufous throat and breast, sharply set off from the rest of the underparts"
     - "Dark chestnut-brown upperparts; local birds lack a streaked collar"
     - "Thick bill with a high ridge on the upper mandible"
     - "Wings and short tail finely barred dark"
@@ -38,7 +40,7 @@ en:
     - id: pheugopedius-coraya
       how: "almost black head with streaked cheeks and a white eyebrow, white throat, longer barred tail"
   behavior: "Pairs and family groups feed on and near the ground, sorting through the leaf litter. Sometimes attend army-ant swarms but usually do not join mixed flocks."
-  voice: "A famous song: pure fluty notes at different pitches, like someone playing a tune, mixed with guttural churring."
+  voice: "A famous song: pure fluty notes at different pitches, like someone playing a tune, mixed with low guttural churring; the pair sings antiphonally. The call is a harsh 'churk'."
 ---
 Musician Wren (толстоклювый крапивник) — крапивник подлеска влажного леса Амазонии, в основном до 500 м, изредка до 1 000 м. На юге Колумбии живёт подвид salvini, очень тёмный и без полосатого воротника на спине, как у восточных форм. Своим английским именем он обязан песне, которую многие считают самой красивой в амазонском лесу.
 

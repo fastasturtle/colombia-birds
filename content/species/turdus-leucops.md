@@ -2,6 +2,7 @@
 id: turdus-leucops
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глаз у самца голубовато-белый, светлый, хорошо заметный на чёрной голове"
   - "Самец целиком глянцево-чёрный с синеватым отливом"
@@ -13,7 +14,7 @@ similar:
   - id: turdus-fuscater
     how: "намного крупнее, тёмно-бурый, а не глянцево-чёрный, глаз тёмный; ходит по открытым местам"
 behavior: "Держится в кронах и среднем ярусе влажного облачного леса, спускается к плодоносящим деревьям и кустам на опушках. Скрытен, чаще его слышат, чем видят."
-voice: "Песня — чередование коротких музыкальных трелей и тонких писклявых нот, темп неровный."
+voice: "Песня — отрывистая серия коротких фраз, многие из них высокие и тонкие, обычно с долгими паузами; позывы — высокое звонкое «ти-сии» и нисходящее «сииии». Поёт чаще всего на рассвете и под вечер, обычно из кроны."
 traits:
   size: thrush
   colors: [black, yellow]
@@ -22,7 +23,7 @@ traits:
   bill: medium
   layer: [canopy, midstory]
 sources:
-  - "Wikipedia: Pale-eyed thrush (en, CC BY-SA 4.0) — окраска самца и самки, ареал в Колумбии, высоты"
+  - "Wikipedia: Pale-eyed thrush (en, CC BY-SA 4.0) — окраска самца и самки, ареал в Колумбии, высоты, голос"
   - "Wikipedia: Glossy-black thrush (en, CC BY-SA 4.0) — отличие, data/texts"
   - "Данные проекта: data/species/turdus-leucops.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/turdus-serranus.md, content/species/turdus-fuscater.md — согласованность отличий"
@@ -39,7 +40,7 @@ en:
     - id: turdus-fuscater
       how: "much larger, dark brown rather than glossy black, dark eye; walks in open places"
   behavior: "Keeps to the canopy and mid-levels of wet cloud forest and comes down to fruiting trees and shrubs at the edge. Secretive; heard more often than seen."
-  voice: "The song alternates short musical trills with thin squeaky notes at an uneven pace."
+  voice: "The song is a choppy series of short phrases, many of them high and thin, usually with long pauses; calls include a high ringing 'ti-seee' and a descending 'seeee'. It sings mostly at dawn and towards dusk, usually from the canopy."
 ---
 Pale-eyed Thrush (светлоглазый дрозд) живёт в облачном и влажном лесу на 1 000–2 000 м, отдельными очагами от Венесуэлы и тепуев до Боливии. В Колумбии его ареал включает верхнюю долину Магдалены и оба склона Западных Анд. Самца легко узнать по светлому, почти белому глазу; самка неприметна, и без самца рядом её трудно отличить от других бурых дроздов.
 

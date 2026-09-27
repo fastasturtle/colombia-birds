@@ -2,6 +2,7 @@
 id: catharus-aurantiirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв ярко-оранжевый, длинный для такой птицы; ноги тоже оранжевые"
   - "Узкое оранжевое кольцо вокруг глаза"
@@ -13,7 +14,7 @@ similar:
   - id: catharus-ustulatus
     how: "клюв тёмный, грудь в пятнах, широкое охристое кольцо вокруг глаза"
 behavior: "Держится низко в густом подлеске, на опушках, в зарослях по оврагам и на кофейных плантациях, часто прыгает по земле. Скрытен, но поющий самец сидит на присаде подолгу."
-voice: "Песня — короткая скрипучая, нестройная трель-щебет, повторяемая с паузами; позыв — гнусавое «ньяа»."
+voice: "Песня — короткая скрипучая, нестройная трель-щебет, повторяемая с паузами; позыв — громкое гнусавое «ва-а-а»."
 traits:
   size: thrush
   colors: [olive, gray]
@@ -22,7 +23,8 @@ traits:
   bill: medium
   layer: [understory, ground]
 sources:
-  - "Wikipedia: Orange-billed nightingale-thrush (en, CC BY-SA 4.0) — размеры, окраска, подвиды в Колумбии"
+  - "Wikipedia: Orange-billed nightingale-thrush (en, CC BY-SA 4.0) — размеры, окраска, подвиды в Колумбии, высоты в Колумбии 600–2 300 м"
+  - "Wikipedia: Желтоносый короткоклювый дрозд (ru, CC BY-SA 4.0) — песня-щебет и позыв «во-а-а» (data/texts)"
   - "Wikipedia: Slaty-backed nightingale-thrush (en, CC BY-SA 4.0) — отличия, data/texts"
   - "Данные проекта: data/species/catharus-aurantiirostris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/catharus-ustulatus.md — согласованность отличий"
@@ -39,14 +41,14 @@ en:
     - id: catharus-ustulatus
       how: "dark bill, spotted breast, broad buff eye-ring"
   behavior: "Keeps low in dense undergrowth, at edges, in ravine thickets and coffee plantations, often hopping on the ground. Secretive, but a singing male stays on its perch for a long time."
-  voice: "The song is a short scratchy, jumbled warble repeated after pauses; the call is a nasal 'nyaah'."
+  voice: "The song is a short scratchy, jumbled warble repeated after pauses; the call is a loud nasal 'waaa'."
 ---
-Orange-billed Nightingale-Thrush (оранжевоклювый соловьиный дрозд) — маленький лесной дрозд Мексики, Центральной Америки и севера Южной Америки. В Колумбии у него несколько подвидов, от 400 до 2 900 м; он заметно терпимее к вырубкам и садам, чем другие соловьиные дрозды, и часто держится у кофейных плантаций. Его песня, в отличие от флейтовых песен родичей, звучит неожиданно сухо и нестройно.
+Orange-billed Nightingale-Thrush (оранжевоклювый соловьиный дрозд) — маленький лесной дрозд Мексики, Центральной Америки и севера Южной Америки. В Колумбии у него несколько подвидов, обычно на 600–2 300 м; он заметно терпимее к вырубкам и садам, чем другие соловьиные дрозды, и часто держится у кофейных плантаций. Его песня, в отличие от флейтовых песен родичей, звучит неожиданно сухо и нестройно.
 
 На маршруте вид «возможно» в Эль-Энканто 4 и 6 октября и в Ла-Дримофиле 5 октября. Ищи на тропе по краю леса: в полутени первым делом видно оранжевый клюв на серой голове.
 
 ## English
 
-Orange-billed Nightingale-Thrush is a small forest thrush of Mexico, Central America and northern South America. Colombia has several subspecies, from 400 to 2,900 m; it tolerates clearings and gardens far better than other nightingale-thrushes and often stays near coffee plantations. Unlike the fluty songs of its relatives, its song sounds surprisingly dry and jumbled.
+Orange-billed Nightingale-Thrush is a small forest thrush of Mexico, Central America and northern South America. Colombia has several subspecies, usually at 600–2,300 m; it tolerates clearings and gardens far better than other nightingale-thrushes and often stays near coffee plantations. Unlike the fluty songs of its relatives, its song sounds surprisingly dry and jumbled.
 
 On the route it is "maybe" at El Encanto on 4 and 6 October and at La Drymophila on 5 October. Look along forest-edge trails: in half-shade the orange bill on the gray head is the first thing you see.

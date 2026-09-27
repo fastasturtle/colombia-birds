@@ -2,6 +2,7 @@
 id: ixothraupis-guttata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ белый, густо покрыт круглыми чёрными пятнами"
   - "Верх зелёный, в чёрных пятнах; крылья и хвост чёрные с зелёными каймами"
@@ -42,10 +43,10 @@ en:
 ---
 Speckled Tanager (крапчатая танагра) — пятнистая танагра предгорий, в Колумбии в основном на высотах 300–1 500 м. К югу её сменяет очень похожая Spotted Tanager, и границу между ними проводят примерно по нашему району: в 1998 году крапчатую нашли в Серрании-де-лос-Чурумбелос, всего в 160 км от известных мест пятнистой. На маршруте поэтому стоит рассматривать лицо каждой «пятнистой» танагры: жёлтое у этого вида, зеленоватое у пятнистой.
 
-Вид «возможно» в Исла-Эскондиде 7–11 октября. Смотри на плодоносящие деревья на опушках, где собираются смешанные стаи танагр.
+Вид «возможно» в Исла-Эскондиде 7–11 октября, но там пятнистую отмечают примерно в восемь раз чаще (по данным GBIF), и часть записей крапчатой может оказаться ошибкой определения. Смотри на плодоносящие деревья на опушках, где собираются смешанные стаи танагр.
 
 ## English
 
 Speckled Tanager is a spotted foothill tanager, in Colombia mostly at 300–1,500 m. To the south it is replaced by the very similar Spotted Tanager, and the boundary between them runs roughly through our area: in 1998 a Speckled was found in the Serranía de los Churumbelos, only 160 km from known Spotted sites. On the route, check the face of every spotted tanager: yellow in this species, greenish in Spotted.
 
-The species is "maybe" at Isla Escondida on 7–11 October. Watch fruiting trees at edges, where mixed tanager flocks gather.
+The species is "maybe" at Isla Escondida on 7–11 October, but Spotted is recorded there about eight times as often (GBIF data), and some Speckled records may be misidentifications. Watch fruiting trees at edges, where mixed tanager flocks gather.

@@ -2,10 +2,11 @@
 id: conirostrum-cinereum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Длинная белая бровь на серой голове, темя темнее спины"
-  - "На тёмном крыле белые отметины: пятно у основания маховых и светлые каймы третьестепенных"
-  - "Низ охристо-серый, у южноколумбийских птиц заметно охристее"
+  - "На тёмном крыле белое пятнышко у основания первостепенных маховых"
+  - "Низ охристо-серый; местный подвид fraseri крупнее и буроватее южных форм"
   - "Клюв короткий, тонкий и острый, как у древесницы"
 similar:
   - id: catamenia-inornata
@@ -23,14 +24,15 @@ traits:
   layer: [understory, midstory]
 sources:
   - "Данные проекта: data/species/conirostrum-cinereum.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
-  - "Wikipedia: Cinereous conebill (en), Conirostrum cinereum (es), Серый остроклювый певун (ru), CC BY-SA 4.0 — ареал, подвиды (fraseri), высоты, размеры"
+  - "Wikipedia: Cinereous conebill (en), Conirostrum cinereum (es), Серый остроклювый певун (ru), CC BY-SA 4.0 — ареал, подвиды (fraseri, отдельный вид у HBW/BLI), высоты, размеры"
+  - "eBird / Birds of the World (по сниппетам поиска): бровь, острый клюв, белое пятнышко у основания первостепенных; птицы Колумбии и Эквадора крупнее и буроватее — https://ebird.org/species/cincon1"
   - "content/species/catamenia-inornata.md, content/species/mecocerculus-leucophrys.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Long white eyebrow on a gray head, the crown darker than the back"
-    - "White marks on the dark wing: a patch at the base of the primaries and pale tertial edges"
-    - "Buffy-gray underparts, clearly buffier in southern Colombian birds"
+    - "A small white flash on the dark wing at the base of the primaries"
+    - "Buffy-gray underparts; the local subspecies fraseri is larger and browner than southern forms"
     - "Short, thin, pointed bill, like a warbler's"
   similar:
     - id: catamenia-inornata
@@ -40,12 +42,12 @@ en:
   behavior: "Keeps in pairs or small groups in scrub, hedgerows, gardens and open woodland. Quickly works through foliage and flowers, hanging from thin twigs, and sometimes joins mixed flocks."
   voice: "A thin, high twittering and short trills; the call is a soft 'tsip'."
 ---
-Cinereous Conebill (серый конусоклюв) — мелкая птица кустарников и садов высокогорья Анд. В Колумбии он живёт только на юге, с Кауки и Нариньо, где встречается подвид fraseri; в Андах чаще всего на высотах около 2 500–3 500 м. Белая бровь и белые пятна на крыле хорошо видны даже у птицы, мелькающей в изгороди, а охристый низ отличает её от других серых мелочей парамо.
+Cinereous Conebill (серый конусоклюв) — мелкая птица кустарников и садов высокогорья Анд. В Колумбии он живёт только на юге, с Кауки и Нариньо, где встречается подвид fraseri (HBW и BirdLife выделяют его в отдельный вид, Ochraceous Conebill); в Андах чаще всего на высотах около 2 500–3 500 м. Белая бровь и белое пятнышко на крыле хорошо видны даже у птицы, мелькающей в изгороди, а охристый низ отличает её от других серых мелочей парамо.
 
 На маршруте вид «возможно» у Лагуны Ла-Коча 16 октября. Проверяй живые изгороди и кусты вокруг озера и у домов посёлка.
 
 ## English
 
-Cinereous Conebill is a small bird of scrub and gardens in the high Andes. In Colombia it lives only in the south, from Cauca and Nariño, where the subspecies fraseri occurs; in the Andes it is most often found at about 2,500–3,500 m. The white eyebrow and white wing marks show well even on a bird flitting through a hedge, and the buffy underparts separate it from other small gray birds of the páramo.
+Cinereous Conebill is a small bird of scrub and gardens in the high Andes. In Colombia it lives only in the south, from Cauca and Nariño, where the subspecies fraseri occurs (HBW and BirdLife split it as a separate species, Ochraceous Conebill); in the Andes it is most often found at about 2,500–3,500 m. The white eyebrow and white wing flash show well even on a bird flitting through a hedge, and the buffy underparts separate it from other small gray birds of the páramo.
 
 On the route it is "maybe" at Laguna de La Cocha on 16 October. Check hedgerows and bushes around the lake and by the houses of the village.

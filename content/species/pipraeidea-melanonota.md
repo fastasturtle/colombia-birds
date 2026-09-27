@@ -2,6 +2,7 @@
 id: pipraeidea-melanonota
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и затылок небесно-голубые, через глаз широкая чёрная маска"
   - "Весь низ ровный корично-охристый, без пестрин"
@@ -11,7 +12,7 @@ similar:
   - id: creurgops-verticalis
     how: "верх целиком свинцово-серый, голубого темени и чёрной маски нет; держится внутри леса в смешанных стаях"
   - id: diglossa-sittoides
-    how: "мельче, клюв вздёрнутый, с крючком; голова голубовато-серая, как спина, без контрастной маски"
+    how: "мельче, клюв вздёрнутый, с крючком; голова голубовато-серая, как спина, лицо лишь темнее, без чёрной маски и голубого темени"
 behavior: "Держится поодиночке или парами на полуоткрытых местах: опушки, пастбища с деревьями, сады, вырубки. Кормится спокойно, может сидеть на любой высоте; ест ягоды и насекомых, иногда ловит их в воздухе."
 voice: "Тонкие высокие «сии» или «свии», по 4–5 медленных нот либо быстрой пульсирующей трелью из десятка нот."
 traits:
@@ -36,7 +37,7 @@ en:
     - id: creurgops-verticalis
       how: "upperparts wholly leaden-gray, no blue crown or black mask; keeps inside forest with mixed flocks"
     - id: diglossa-sittoides
-      how: "smaller, with an upturned hooked bill; head blue-gray like the back, without a contrasting mask"
+      how: "smaller, with an upturned hooked bill; head blue-gray like the back, face merely darker, no black mask or sky-blue crown"
   behavior: "Keeps singly or in pairs in semi-open country: edges, pastures with trees, gardens, clearings. Forages quietly and may perch at any height; eats berries and insects, sometimes catching them in the air."
   voice: "Thin, high 'see' or 'swee' notes, in slow sets of 4–5 or as a fast pulsing trill of about a dozen."
 ---

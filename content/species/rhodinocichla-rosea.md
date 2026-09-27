@@ -2,9 +2,10 @@
 id: rhodinocichla-rosea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: горло и середина груди и брюха розово-красные, бока тёмно-серые"
-  - "Верх черновато-серый; от розового пятна у клюва назад тянется светлая бровь"
+  - "Верх серый (у местного harterti средне-серый); от розового пятна у клюва назад тянется короткая светлая бровь"
   - "Клюв длинный, изогнутый вниз, хвост широкий и закруглённый: силуэт пересмешника"
   - "У самки вместо розового — рыжевато-коричный цвет"
 similar:
@@ -29,7 +30,7 @@ sources:
 en:
   key_features:
     - "Male: throat and centre of breast and belly rosy red, flanks dark gray"
-    - "Blackish-gray upperparts; a pale eyebrow runs back from a rosy spot by the bill"
+    - "Gray upperparts (medium gray in local harterti); a short pale eyebrow runs back from a rosy spot by the bill"
     - "Long decurved bill, broad rounded tail: a mockingbird-like shape"
     - "The female is cinnamon-tawny where the male is rosy"
   similar:

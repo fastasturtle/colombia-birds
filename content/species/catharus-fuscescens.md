@@ -2,6 +2,7 @@
 id: catharus-fuscescens
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх тёплый рыжевато-бурый, от темени до хвоста одного тона"
   - "Грудь охристая в мелких размытых бурых пятнах, брюхо белое"
@@ -9,7 +10,7 @@ key_features:
   - "Бока сероватые, ноги розоватые"
 similar:
   - id: catharus-ustulatus
-    how: "верх оливково-бурый, без рыжего, широкое охристое кольцо вокруг глаза, пятна на груди крупнее и чётче"
+    how: "верх у колумбийских зимовщиков обычно оливково-бурый, без рыжего, широкое охристое кольцо вокруг глаза, пятна на груди крупнее и чётче"
   - id: catharus-minimus
     how: "верх холодный серовато-оливковый, щёки серые, пятна на груди крупные и чёткие"
 behavior: "Скрытный пролётный дрозд: держится в подлеске и на земле внутри леса, в густых садах и парках, кормится на плодоносящих деревьях. Птицы останавливаются ненадолго и летят дальше на юг."
@@ -35,7 +36,7 @@ en:
     - "Grayish flanks, pinkish legs"
   similar:
     - id: catharus-ustulatus
-      how: "olive-brown upperparts without rufous, broad buff eye-ring, larger and sharper breast spots"
+      how: "upperparts usually olive-brown without rufous in Colombian birds, broad buff eye-ring, larger and sharper breast spots"
     - id: catharus-minimus
       how: "cold grayish-olive upperparts, gray cheeks, large sharp breast spots"
   behavior: "A secretive passage thrush: keeps to the understory and ground inside forest and in dense gardens and parks, feeding at fruiting trees. Birds stop briefly and move on south."
