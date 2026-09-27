@@ -9,6 +9,10 @@ Reads data/photos/<slug>.json (from fetch_photos.py). Per species takes the top 
   R2 keys   -> photos/<slug>/<n>-<size>.jpg  (immutable cache headers; existing keys with the same
                source are skipped via head_object)
 
+Candidates with `kind: "illustration"` (historical plates/artwork) are never used as photo #1 and at
+most one is used per species. Credits and species `photos[]` carry `kind`; credits also keep the
+original `attribution_raw` when the author was cleaned up.
+
 Then writes data/credits/<slug>.json (full attribution), sets `photos` in data/species/<slug>.json and
 `photo` (thumb key of photo 1) in data/species_index.json. Keys are relative; the site prepends
 PUBLIC_MEDIA_BASE_URL. Re-running is cheap and also re-applies `photos` after build_species.py wiped them.
@@ -118,6 +122,10 @@ def process(slug: str, cands: list[dict], n_wanted: int, s3, bucket: str | None,
     for c in cands:
         if len(chosen) >= n_wanted:
             break
+        kind = c.get("kind", "photo")
+        # a historical illustration is only an extra: never photo #1, at most one per species
+        if kind == "illustration" and (not chosen or any(x["kind"] == "illustration" for x in chosen)):
+            continue
         n = len(chosen) + 1
         try:
             raw = download(c["download_url"])
@@ -140,7 +148,9 @@ def process(slug: str, cands: list[dict], n_wanted: int, s3, bucket: str | None,
             "source": c["source"],
             "source_url": c["source_url"],
             "download_url": c["download_url"],
+            "kind": kind,
             "author": c.get("author"),
+            "attribution_raw": c.get("attribution_raw"),
             "credit": c.get("credit"),
             "license": c["license"],
             "license_url": c.get("license_url"),
@@ -204,7 +214,7 @@ def main() -> None:
         sp = read_json(sp_path)
         if sp is not None:
             sp["photos"] = [
-                {k: c[k] for k in ("key_base", "sizes", "width", "height", "author", "license",
+                {k: c[k] for k in ("key_base", "sizes", "width", "height", "kind", "author", "license",
                                    "license_url", "source_url", "credit")}
                 for c in chosen
             ]

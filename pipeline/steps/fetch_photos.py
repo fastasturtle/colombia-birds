@@ -10,7 +10,13 @@ Commons: files in Category:<commons category or sci name> plus the Wikidata P18 
   Ranked: Quality/Featured first, then P18, then by pixel count. Width >= 800, JPEG/PNG only.
 iNaturalist: research-grade observations with CC0/BY/BY-SA photos, ordered by votes, first photo of
   each observation (<= 60 req/min).
-Final order: Commons quality/featured, Commons P18, top 2 iNat, remaining Commons by size, remaining iNat.
+Final order: Commons quality/featured, Commons P18, top 2 iNat, remaining Commons by size, remaining iNat,
+  then down-ranked Commons photos (zoo/captive/museum/nest hints), then at most one historical
+  illustration (plates, BHL scans, artwork, or dated before 1930), which is only kept after >= 1 photo.
+  Each candidate has `kind: photo|illustration`. Duplicates (a Commons crop and its original, or a Commons
+  import of an iNaturalist photo that iNat also returned) are collapsed, keeping the better-ranked one.
+Authors: "(c) Name, some rights reserved (CC BY)" -> "Name"; a URL (e.g. a Flickr profile) -> the user
+  name from its path. The original string is kept as `attribution_raw` when it differs.
 
 Wikimedia rate-limits shared IPs hard (403/429). After a few consecutive Commons failures the step stops
 asking Commons for the rest of the run; species with a failed source are retried on the next run
@@ -23,7 +29,7 @@ import html
 import re
 import sys
 from pathlib import Path
-from urllib.parse import unquote
+from urllib.parse import unquote, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import DATA, SPECIES_DIR, get_json, log, only_slugs, read_json, write_json  # noqa: E402
@@ -37,12 +43,33 @@ COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 COMMONS_THUMB_WIDTH = 1920
 INAT_API = "https://api.inaturalist.org/v1/observations"
 EXT_FIELDS = "License|LicenseShortName|LicenseUrl|Artist|Credit|ImageDescription|DateTimeOriginal|Categories"
-# Titles that are almost never a photo of the living bird
+# Titles that are almost never a photo of the living bird (skipped unless it is the Wikidata P18 image)
 SKIP_TITLE_RE = re.compile(
     r"\b(map|range|distribution|egg|eggs|nest|specimen|skin|skull|skeleton|stamp|museum|naturalis|"
-    r"illustration|plate|drawing|painting|lithograph|sound|sonogram|spectrogram)\b",
+    r"sound|sonogram|spectrogram)\b",
     re.I,
 )
+# Captive / not-a-living-wild-bird hints: kept, but ranked after every other photo
+DOWNRANK_RE = re.compile(
+    r"\b(zoo|zoological|captive|captivity|aviary|specimen|museum|egg|eggs|nest)\b|tierpark|dierenpark|vogelpark",
+    re.I,
+)
+# Historical plates, book scans and artwork: at most one per species, ranked after all photos.
+# (`plates?(?!-)` so "Plate-billed Mountain-Toucan" is not an illustration.)
+ILLUSTRATION_RE = re.compile(
+    r"\bpl\.\s*[\dIVXLC]|\bplates?\b(?!-)|\btab\.\s*[\dIVXLC]|\btaf\.\s*\d|\bplanche\b|species novae|\bavium\b|"
+    r"biologia centrali|wonders of the bird world|\bBHL\b|biodiversity ?heritage ?library|biodiversitylibrary\.org|"
+    r"illustration|lithograph|engraving|drawing|painting|watercolou?r",
+    re.I,
+)
+ILLUSTRATION_BEFORE_YEAR = 1930
+YEAR_RE = re.compile(r"\b(1[5-9]\d\d|20\d\d)\b")
+INAT_PHOTO_RE = re.compile(r"inaturalist\.org/photos/(\d+)|iNaturalist photo (\d+)", re.I)
+# "X (cropped)", "X-crop", "X_crop", "X (2)", "X edit" -> "X"
+VARIANT_RE = re.compile(r"(?:\s*\((?:cropped|crop|edit|edited|\d)\)|[-_ ](?:cropped|crop|edit|edited))\s*$", re.I)
+AUTHOR_PREFIX_RE = re.compile(r"^\s*(?:\(c\)|©|copyright)\s*", re.I)
+AUTHOR_SUFFIX_RE = re.compile(r",?\s*(?:some|all|no) rights reserved.*$", re.I)
+RANKING_VERSION = 2  # bump when ranking/cleanup changes: records with an older version are re-ranked (from cache)
 COMMONS_FAIL_LIMIT = 3
 
 _commons_failures = 0
@@ -60,6 +87,50 @@ def strip_html(s: str | None) -> str:
         return ""
     s = re.sub(r"<[^>]+>", "", s)
     return re.sub(r"\s+", " ", html.unescape(s)).strip()
+
+
+def name_from_url(u: str) -> str | None:
+    """https://www.flickr.com/photos/<user>/123 -> <user>; otherwise the last non-numeric path segment."""
+    pu = urlparse(u)
+    segs = [x for x in pu.path.split("/") if x]
+    if "flickr.com" in pu.netloc and len(segs) >= 2 and segs[0] in ("photos", "people"):
+        return unquote(segs[1])
+    for seg in reversed(segs):
+        if not seg.isdigit():
+            return unquote(seg)
+    return pu.netloc or None
+
+
+def clean_author(artist: str | None) -> str | None:
+    """'(c) Name, some rights reserved (CC BY)' -> 'Name'; a profile URL -> user name."""
+    a = AUTHOR_SUFFIX_RE.sub("", AUTHOR_PREFIX_RE.sub("", artist or "")).strip()
+    if re.match(r"https?://", a):
+        a = name_from_url(a.split()[0]) or ""
+    return a or None
+
+
+def classify(title: str, *texts: str | None, date: str | None = None) -> str:
+    """'illustration' for plates, scans and artwork (by keywords or a date before 1930), else 'photo'."""
+    blob = " ".join([title, *(t or "" for t in texts)])
+    if ILLUSTRATION_RE.search(blob):
+        return "illustration"
+    m = YEAR_RE.search(date or "")
+    if m and int(m.group(1)) < ILLUSTRATION_BEFORE_YEAR:
+        return "illustration"
+    return "photo"
+
+
+def dedupe_key(c: dict) -> str:
+    """Same iNaturalist photo id, or the same Commons title up to crop/copy suffixes -> same key."""
+    if c.get("source") == "inaturalist" and c.get("photo_url"):
+        return "inat:" + c["photo_url"].rstrip("/").rsplit("/", 1)[-1]
+    m = INAT_PHOTO_RE.search(" ".join(str(c.get(k) or "") for k in ("credit", "title", "description", "attribution_raw")))
+    if m:
+        return "inat:" + (m.group(1) or m.group(2))
+    t = (c.get("title") or "").lower().strip()
+    while (t2 := VARIANT_RE.sub("", t)) != t:
+        t = t2
+    return "title:" + t.strip()
 
 
 def cc_url(kind: str, version: str) -> str:
@@ -170,6 +241,14 @@ def commons_candidates(sp: dict, today: str) -> list[dict]:
         if not lic:
             continue
         cats = em.get("Categories", "")
+        artist_raw = strip_html(em.get("Artist")) or None
+        credit = strip_html(em.get("Credit")) or None
+        description = strip_html(em.get("ImageDescription"))[:300] or None
+        date_taken = strip_html(em.get("DateTimeOriginal")) or None
+        author = clean_author(artist_raw)
+        if not author and credit and not re.match(r"https?://", credit) and credit.lower() != "own work":
+            author = credit
+        kind = classify(title, description, credit, artist_raw, cats, date=date_taken)
         quality = [q for q in ("Featured pictures", "Quality images", "Valued images") if q in cats]
         if quality and quality[0] != "Valued images":
             tier, reason = 0, f"commons {quality[0].lower()}"
@@ -186,13 +265,16 @@ def commons_candidates(sp: dict, today: str) -> list[dict]:
             "height": ii.get("height"),
             "license": lic[0],
             "license_url": lic[1],
-            "author": strip_html(em.get("Artist")) or None,
-            "credit": strip_html(em.get("Credit")) or None,
+            "author": author,
+            "attribution_raw": artist_raw if artist_raw != author else None,
+            "credit": credit,
             "title": title.removeprefix("File:").rsplit(".", 1)[0],
-            "description": strip_html(em.get("ImageDescription"))[:300] or None,
-            "date_taken": strip_html(em.get("DateTimeOriginal")) or None,
+            "description": description,
+            "date_taken": date_taken,
+            "kind": kind,
             "rank_reason": reason,
             "retrieved": today,
+            "_down": bool(DOWNRANK_RE.search(title)),
             "_tier": tier,
             "_pixels": (ii.get("width") or 0) * (ii.get("height") or 0),
         })
@@ -243,9 +325,11 @@ def inat_candidates(sp: dict, today: str) -> list[dict]:
                 "observation_id": obs["id"],
                 "observer_login": login,
                 "date_taken": obs.get("observed_on"),
+                "kind": "photo",
                 "rank_reason": "inaturalist votes",
                 "retrieved": today,
                 "_tier": 2,
+                "_down": False,
                 "_pixels": (w or 0) * (h or 0),
             })
             break  # one photo per observation keeps the candidates diverse
@@ -253,13 +337,26 @@ def inat_candidates(sp: dict, today: str) -> list[dict]:
 
 
 def merge(commons: list[dict], inat: list[dict]) -> list[dict]:
-    top_commons = [c for c in commons if c["_tier"] <= 1]
-    rest_commons = [c for c in commons if c["_tier"] > 1]
-    ordered = top_commons + inat[:2] + rest_commons + inat[2:]
-    out = []
-    for c in ordered[:MAX_CANDIDATES]:
-        out.append({k: v for k, v in c.items() if not k.startswith("_") and v is not None})
-    return out
+    photos = [c for c in commons if c.get("kind", "photo") == "photo"]
+    illustrations = [c for c in commons if c.get("kind") == "illustration"]
+    top_commons = [c for c in photos if c["_tier"] <= 1 and not c["_down"]]
+    rest_commons = [c for c in photos if c["_tier"] > 1 and not c["_down"]]
+    down = [c for c in photos if c["_down"]]
+    ordered = top_commons + inat[:2] + rest_commons + inat[2:] + down
+    seen: set[str] = set()
+    picked: list[dict] = []
+    for c in ordered:
+        key = dedupe_key(c)
+        if key in seen:
+            continue
+        seen.add(key)
+        picked.append(c)
+        if len(picked) >= MAX_CANDIDATES:
+            break
+    # one historical illustration as the last extra image, never as the only/first one
+    if picked and len(picked) < MAX_CANDIDATES and illustrations:
+        picked.append(illustrations[0])
+    return [{k: v for k, v in c.items() if not k.startswith("_") and v is not None} for c in picked]
 
 
 TIER_BY_REASON = {"commons featured pictures": 0, "commons quality images": 0, "wikidata P18": 1}
@@ -286,8 +383,22 @@ def process(sp: dict, prev: dict, today: str) -> dict:
         ok["commons"] = False
     if not ok["commons"]:
         # keep Commons candidates from an earlier run rather than losing them to a transient block
-        commons = [{**c, "_tier": TIER_BY_REASON.get(c.get("rank_reason"), 3), "_pixels": 0}
-                   for c in prev.get("candidates", []) if c.get("source") == "commons"]
+        commons = []
+        for c in prev.get("candidates", []):
+            if c.get("source") != "commons":
+                continue
+            raw = c.get("attribution_raw") or c.get("author")
+            author = clean_author(raw)
+            commons.append({
+                **c,
+                "author": author,
+                "attribution_raw": raw if raw != author else None,
+                "kind": c.get("kind") or classify(c.get("title") or "", c.get("description"), c.get("credit"),
+                                                  raw, date=c.get("date_taken")),
+                "_tier": TIER_BY_REASON.get(c.get("rank_reason"), 3),
+                "_down": bool(DOWNRANK_RE.search(c.get("title") or "")),
+                "_pixels": (c.get("width") or 0) * (c.get("height") or 0),
+            })
 
     try:
         inat = inat_candidates(sp, today)
@@ -301,6 +412,7 @@ def process(sp: dict, prev: dict, today: str) -> dict:
         "sci_name": sp["sci_name"],
         "commons_category": commons_category(sp),
         "sources_ok": ok,
+        "ranking": RANKING_VERSION,
         "candidates": merge(commons, inat),
         "retrieved": today,
     }
@@ -325,8 +437,9 @@ def main() -> None:
             continue
         out_path = PHOTOS / f"{sp['id']}.json"
         prev = read_json(out_path, {})
-        if not refresh and not only and prev and all((prev.get("sources_ok") or {}).get(s) for s in ("commons", "inaturalist")):
-            continue  # complete from an earlier run
+        if (not refresh and not only and prev and prev.get("ranking") == RANKING_VERSION
+                and all((prev.get("sources_ok") or {}).get(s) for s in ("commons", "inaturalist"))):
+            continue  # complete from an earlier run (older ranking versions are redone; HTTP is cached)
         if limit is not None and done >= limit:
             break
         try:
