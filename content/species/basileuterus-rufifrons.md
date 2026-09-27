@@ -2,6 +2,7 @@
 id: basileuterus-rufifrons
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и щека каштаново-рыжие, между ними длинная белая бровь"
   - "Горло и весь низ ярко-жёлтые у колумбийских птиц"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Rufous-capped warbler (en), Basileuterus rufifrons (es, ru), CC BY-SA 4.0 — окраска, местообитания, таксономия (выделение B. delattrii); data/texts"
   - "Wikipedia: Three-striped warbler, Russet-crowned warbler (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Basileuterus rufifrons (es, ru) — выделение B. delattrii (NACC 2021-B-8); исправлений в тексте нет, вопрос маппинга — в логе"
 en:
   key_features:
     - "Chestnut-rufous crown and cheek with a long white eyebrow between them"

@@ -2,6 +2,7 @@
 id: arremon-castaneiceps
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и затылок каштановые, лицо и горло тёмно-серые"
   - "Тело целиком оливково-зелёное, без жёлтого и белого"
@@ -12,8 +13,8 @@ similar:
     how: "горло белое, лицо чёрное, на груди чёрная перевязь, низ серый"
   - id: atlapetes-crassus
     how: "шапка золотисто-охристая, лицо чёрное, низ жёлтый; держится в кустах на опушках"
-behavior: "Держится парами на земле и у самой земли в сыром подлеске, в оврагах и вдоль ручьёв, прыгает и ворошит листву. Осторожен и легко теряется в полумраке."
-voice: "Очень высокие тонкие «цииии», которые легко спутать с голосами насекомых и не услышать за шумом воды."
+behavior: "Держится парами на земле и у самой земли в сыром подлеске, в оврагах и вдоль ручьёв, прыгает и ворошит листву. В полумраке легко теряется из виду."
+voice: "Очень высокая писклявая песня из тонких «цииии», которая пробивается даже сквозь шум горного потока."
 traits:
   size: sparrow
   colors: [olive, rufous, gray]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Olive finch (en, CC BY-SA 4.0) — окраска, размеры, местообитания, высоты, гнездо; data/texts"
   - "content/species/atlapetes-crassus.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: eBird Olive Finch (по сниппету поиска) — песня очень высокая, писклявая, слышна сквозь рёв потока: https://ebird.org/species/olifin1; «осторожен» не подтверждено, снято"
 en:
   key_features:
     - "Chestnut crown and nape, dark gray face and throat"
@@ -37,8 +39,8 @@ en:
       how: "white throat, black face, black chest band, gray underparts"
     - id: atlapetes-crassus
       how: "golden-ochre cap, black face, yellow underparts; keeps in shrubs at edges"
-  behavior: "Keeps in pairs on or just above the ground in damp understory, in ravines and along streams, hopping and turning leaves. Wary and easily lost in the gloom."
-  voice: "Very high, thin 'tseeee' notes, easily confused with insects and lost in the noise of water."
+  behavior: "Keeps in pairs on or just above the ground in damp understory, in ravines and along streams, hopping and turning leaves. Easily lost to view in the gloom."
+  voice: "A very high, squeaky song of thin 'tseeee' notes that carries even over the roar of a mountain torrent."
 ---
 Olive Finch (оливковый тохи) — тохи сырых предгорных и нижних облачных лесов, в Колумбии на высотах 700–2 200 м, чаще всего в оврагах, у ручьёв и рек. Вид считается близким к угрозе (NT). В тени это почти однотонная оливковая птица, и главное, что видно, — каштановая шапка над тёмным лицом.
 

@@ -2,6 +2,7 @@
 id: euphonia-chrysopasta
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Уздечка и подбородок беловато-серые, светлое пятно у клюва на оливковом лице"
   - "Верх оливково-зелёный, темя и затылок сероватые"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-vented euphonia (en, CC BY-SA 4.0) — отличие E. minuta"
   - "content/species/euphonia-xanthogaster.md — отличие E. xanthogaster"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia White-lored euphonia (en), Orange-bellied euphonia (en) — исправлений нет"
 en:
   key_features:
     - "Lores and chin whitish gray, a pale spot by the bill on an olive face"

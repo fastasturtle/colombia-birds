@@ -2,6 +2,7 @@
 id: setophaga-striata
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Осенью верх оливково-зелёный в тёмных пестринах, на крыле две белые полосы"
   - "Грудь грязно-жёлтая с неясными пестринами по бокам, подхвостье белое"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Blackpoll warbler (en), Setophaga striata (es), Пестрогрудый лесной певун (ru), CC BY-SA 4.0 — осенний наряд, миграция, поведение, голос; data/texts"
   - "content/species/setophaga-fusca.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Blackpoll warbler (en, es) — осенний наряд, поведение, голос; исправлений нет"
 en:
   key_features:
     - "In autumn olive-green above with dark streaks, two white wing bars"

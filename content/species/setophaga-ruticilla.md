@@ -2,6 +2,7 @@
 id: setophaga-ruticilla
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец чёрный с оранжевыми пятнами на боках груди, на крыле и у основания хвоста"
   - "Самка и молодые серо-оливковые, те же пятна у них жёлтые"
@@ -11,7 +12,7 @@ similar:
   - id: myioborus-miniatus
     how: "брюхо и грудь ярко-жёлтые, хвост с белыми краями, на темени каштановое пятно; оранжевого нет"
 behavior: "Северный мигрант, на зимовке держится поодиночке в среднем ярусе и кронах лесов, опушек, садов и мангров, часто в смешанных стаях. Ловит насекомых в коротких бросках, вспугивая их раскрытым хвостом."
-voice: "Тонкое резкое «чип» или «цип»; песня на зимовке звучит редко."
+voice: "Мягкое «чип»; песня — серия музыкальных «си», на зимовке звучит редко."
 traits:
   size: sparrow
   colors: [black, orange, white]
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: American redstart (en, CC BY-SA 4.0); data/texts"
   - "content/species/myioborus-miniatus.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia American redstart (en, es, ru) — окраска нарядов, высоты до 3 000 м, голос (мягкое «чип»)"
 en:
   key_features:
     - "Male black with orange patches on the breast sides, the wing and the tail base"
@@ -33,7 +35,7 @@ en:
     - id: myioborus-miniatus
       how: "bright yellow breast and belly, tail with white sides, chestnut crown patch; no orange"
   behavior: "A boreal migrant that in winter keeps singly in the midstory and canopy of forest, edges, gardens and mangroves, often in mixed flocks. Catches insects in short sallies, flushing them with its fanned tail."
-  voice: "A thin, sharp 'chip' or 'tsip'; song is seldom heard in winter."
+  voice: "A soft 'chip'; the song, a series of musical 'see' notes, is seldom heard in winter."
 ---
 American Redstart (горихвостковая древесница) — одна из самых узнаваемых северных древесниц, зимует от Мексики до севера Южной Америки, в Колумбии от побережья до 3 000 м. В октябре среди прилетевших много молодых птиц в сером наряде с жёлтыми пятнами, и узнают их по той же манере: хвост веером, резкие развороты, броски за насекомыми.
 

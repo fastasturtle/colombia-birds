@@ -2,8 +2,9 @@
 id: ammodramus-aurifrons
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Лицо с ярко-жёлтым: уздечка, бровь и кольцо вокруг глаза"
+  - "Лицо с ярко-жёлтым: уздечка, бровь и лоб"
   - "Сгиб крыла тоже жёлтый, хотя виден не всегда"
   - "Верх серовато-бурый с неясными тёмными пестринками, низ бледно-серый"
   - "Сидит на столбах изгородей и верхушках кустов у дорог"
@@ -26,9 +27,10 @@ sources:
   - "Wikipedia: Yellow-browed sparrow (en), Ammodramus aurifrons (es), CC BY-SA 4.0 — местообитания, питание, голос, отличие от A. humeralis; data/texts"
   - "content/species/zonotrichia-capensis.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Ammodramus aurifrons (es) — жёлтое на уздечке, брови и лбу (жёлтое кольцо вокруг глаза не подтверждено); Grassland sparrow (en) — отличие A. humeralis"
 en:
   key_features:
-    - "Bright yellow on the face: lores, eyebrow and eye ring"
+    - "Bright yellow on the face: lores, eyebrow and forehead"
     - "Yellow bend of the wing too, though not always visible"
     - "Grayish-brown upperparts with faint dark streaks, pale gray underparts"
     - "Perches on fence posts and bush tops along roads"

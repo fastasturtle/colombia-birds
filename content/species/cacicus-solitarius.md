@@ -2,6 +2,7 @@
 id: cacicus-solitarius
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв светлый, цвета слоновой кости, длинный, клиновидный и острый"
   - "Оперение целиком чёрное, без жёлтого и красного"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Solitary cacique (en), Cacicus solitarius (es), CC BY-SA 4.0 — размеры, клюв, поведение, голос; data/texts"
   - "content/species/cacicus-cela.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Solitary cacique (en, ru), Velvet-fronted grackle (en) — исправлений нет"
 en:
   key_features:
     - "Pale ivory bill, long, chisel-shaped and sharply pointed"

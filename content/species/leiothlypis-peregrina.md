@@ -2,6 +2,7 @@
 id: leiothlypis-peregrina
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Осенью верх ярко-оливковый, низ желтоватый, подхвостье всегда белое"
   - "Тонкая светлая бровь и тёмная черта через глаз"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Tennessee warbler (en, CC BY-SA 4.0) — осенний наряд, отличия, питание; data/texts"
   - "content/species/vireo-olivaceus.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Tennessee warbler (en, es) — осенний наряд, отличия, нектар; исправлений нет"
 en:
   key_features:
     - "In autumn bright olive above, yellowish below, undertail always white"

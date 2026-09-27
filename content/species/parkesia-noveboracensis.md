@@ -2,6 +2,7 @@
 id: parkesia-noveboracensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Постоянно покачивает задней частью тела и хвостом, ходит, а не прыгает"
   - "Верх ровно тёмно-бурый, бровь длинная, желтоватая или беловатая, одной ширины"
@@ -9,11 +10,11 @@ key_features:
   - "Держится у самой воды: лужи, канавы, берега прудов и мангры"
 similar:
   - id: parkesia-motacilla
-    how: "бровь белая, за глазом расширяется; горло чистое, без крапа; бока охристые"
+    how: "бровь белая, за глазом расширяется; горло белее, почти без крапа; бока охристые, ноги ярко-розовые"
   - id: myiothlypis-fulvicauda
     how: "низ без пестрин, поясница и основание хвоста охристые; хвост раскрывает веером"
 behavior: "Северный мигрант, зимует у стоячей и медленной воды в тенистых зарослях, в парках, на болотах и в мангровых лесах. Кормится на земле и на илистых берегах, переворачивая листья."
-voice: "Громкое металлическое «чинк», хорошо слышное у воды; на зимовке почти не поёт."
+voice: "Позыв — громкое жёсткое «спвик» с сильным «к» на конце, хорошо слышное у воды; на зимовке поёт редко."
 traits:
   size: sparrow
   colors: [brown, white, yellow]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Northern waterthrush (en, CC BY-SA 4.0) — ареал, зимовка; data/texts"
   - "content/species/myiothlypis-fulvicauda.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Northern waterthrush (en) — позыв «spwik», отличия от P. motacilla (горло с редким крапом, розовые ноги)"
 en:
   key_features:
     - "Constantly bobs its rear end and tail; walks rather than hops"
@@ -34,11 +36,11 @@ en:
     - "Keeps right by the water: puddles, ditches, pond banks and mangroves"
   similar:
     - id: parkesia-motacilla
-      how: "white eyebrow that widens behind the eye; clean, unspeckled throat; buffy flanks"
+      how: "white eyebrow that widens behind the eye; whiter throat with few speckles; buffy flanks, bright pink legs"
     - id: myiothlypis-fulvicauda
       how: "unstreaked underparts, buffy rump and tail base; fans its tail"
   behavior: "A boreal migrant that winters by still and slow water in shady thickets, parks, marshes and mangroves. Feeds on the ground and on muddy banks, turning over leaves."
-  voice: "A loud metallic 'chink', easy to hear by the water; it hardly sings in winter quarters."
+  voice: "The call is a loud, hard 'spwik' with a strong K at the end, easy to hear by the water; it seldom sings in winter quarters."
 ---
 Northern Waterthrush (речной певун) — северная древесница, которая ведёт себя как трясогузка. Гнездится в болотистых лесах Канады и севера США, а зимует в тропиках, в Колумбии от побережья до 2 000 м. Прилетает осенью, так что в октябре она уже на месте.
 
