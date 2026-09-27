@@ -3,11 +3,11 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 198
+- Карточек: 225
 - Проверено: 125
-- Не проверено: 73
+- Не проверено: 100
 
-## Не проверено (73)
+## Не проверено (100)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -34,6 +34,15 @@
 | thalurania-furcata | Fork-tailed Woodnymph | Стрижи и колибри |
 | saucerottia-cyanifrons | Indigo-capped Hummingbird | Стрижи и колибри |
 | chrysuronia-oenone | Golden-tailed Sapphire | Стрижи и колибри |
+| laterallus-exilis | Gray-breasted Crake | Цапли, ибисы и пастушки |
+| mesembrinibis-cayennensis | Green Ibis | Цапли, ибисы и пастушки |
+| nyctanassa-violacea | Yellow-crowned Night Heron | Цапли, ибисы и пастушки |
+| ictinia-plumbea | Plumbeous Kite | Хищные птицы и совы |
+| megascops-roraimae | Foothill Screech-Owl | Хищные птицы и совы |
+| pulsatrix-melanota | Band-bellied Owl | Хищные птицы и совы |
+| glaucidium-nubicola | Cloud-forest Pygmy-Owl | Хищные птицы и совы |
+| glaucidium-jardinii | Andean Pygmy-Owl | Хищные птицы и совы |
+| micrastur-gilvicollis | Lined Forest-Falcon | Хищные птицы и совы |
 | pharomachrus-pavoninus | Pavonine Quetzal | Трогоны, момоты, зимородки и якамары |
 | pharomachrus-antisianus | Crested Quetzal | Трогоны, момоты, зимородки и якамары |
 | trogon-viridis | Green-backed Trogon | Трогоны, момоты, зимородки и якамары |
@@ -84,6 +93,24 @@
 | gymnoderus-foetidus | Bare-necked Fruitcrow | Котинги и манакины |
 | donacobius-atricapilla | Black-capped Donacobius | Ласточки, крапивники, дрозды и другие |
 | cichlopsis-leucogenys | Rufous-brown Solitaire | Ласточки, крапивники, дрозды и другие |
+| kleinothraupis-atropileus | Black-capped Hemispingus | Танагры и кардиналы |
+| ramphocelus-nigrogularis | Masked Crimson Tanager | Танагры и кардиналы |
+| bangsia-rothschildi | Golden-chested Tanager | Танагры и кардиналы |
+| chlorornis-riefferii | Grass-green Tanager | Танагры и кардиналы |
+| cnemathraupis-eximia | Black-chested Mountain Tanager | Танагры и кардиналы |
+| chlorochrysa-calliparaea | Orange-eared Tanager | Танагры и кардиналы |
+| tangara-chrysotis | Golden-eared Tanager | Танагры и кардиналы |
+| tangara-parzudakii | Flame-faced Tanager | Танагры и кардиналы |
+| diglossa-glauca | Deep-blue Flowerpiercer | Танагры и кардиналы |
+| catamblyrhynchus-diadema | Plushcap | Танагры и кардиналы |
+| chlorophonia-flavirostris | Yellow-collared Chlorophonia | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-albofrenatus | Moustached Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-fuscoolivaceus | Dusky-headed Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-tricolor | Golden-crowned Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| leistes-bellicosus | Peruvian Meadowlark | Овсянки, древесницы, трупиалы и вьюрки |
+| hypopyrrhus-pyrohypogaster | Red-bellied Grackle | Овсянки, древесницы, трупиалы и вьюрки |
+| setophaga-cerulea | Cerulean Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| cardellina-canadensis | Canada Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 
 ## Проверено (125)
 
