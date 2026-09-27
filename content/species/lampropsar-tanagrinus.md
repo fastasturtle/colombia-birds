@@ -2,6 +2,7 @@
 id: lampropsar-tanagrinus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Целиком чёрный, со слабым синеватым отливом сверху"
   - "Хвост длинный, закруглённый; глаз тёмный"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Velvet-fronted grackle (en), Lampropsar tanagrinus (es), CC BY-SA 4.0 — размеры, окраска, поведение, голос, отличие от M. bonariensis; data/texts"
   - "content/species/molothrus-bonariensis.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Velvet-fronted grackle (en) — исправлений нет"
 en:
   key_features:
     - "All black, with a faint bluish gloss above"

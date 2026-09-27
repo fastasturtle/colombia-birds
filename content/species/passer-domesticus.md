@@ -2,6 +2,7 @@
 id: passer-domesticus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец с серой шапочкой, каштановыми полосами за глазом и чёрным нагрудником"
   - "Щёки светло-серые, на крыле одна белая полоска"
@@ -9,7 +10,7 @@ key_features:
   - "Самка серо-бурая, с бледной бровью за глазом, без чёрного"
 similar:
   - id: zonotrichia-capensis
-    how: "рыжий воротник, чёрные полосы на серой голове, небольшой хохолок; живёт в горах, в Тумако её нет"
+    how: "рыжий воротник, чёрные полосы на серой голове, небольшой хохолок; живёт в горах, в Тумако почти не встречается"
 behavior: "Живёт только рядом с человеком: в портах, на рынках, улицах и у жилья, кормится на земле крошками и семенами. Держится шумными стайками, купается в пыли."
 voice: "Знакомое чириканье «чилик», хор стайки не спутать ни с чем."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: House sparrow (en, CC BY-SA 4.0) — размеры, окраска; data/texts"
   - "content/species/zonotrichia-capensis.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: data/site_species.json — Rufous-collared Sparrow в Тумако (4 записи); «особенно в портовых» и «избегает гор» не подтверждены, сняты"
 en:
   key_features:
     - "Male with a gray cap, chestnut stripes behind the eye and a black bib"
@@ -32,16 +34,16 @@ en:
     - "Female grayish brown, with a pale eyebrow behind the eye, no black"
   similar:
     - id: zonotrichia-capensis
-      how: "rufous collar, black stripes on a gray head, small crest; lives in the mountains, absent from Tumaco"
+      how: "rufous collar, black stripes on a gray head, small crest; lives in the mountains, hardly ever at Tumaco"
   behavior: "Lives only around people: in ports, markets, streets and houses, feeding on the ground on crumbs and seeds. Keeps in noisy little flocks and dust-bathes."
   voice: "The familiar chirp, 'chilip'; the chorus of a flock is unmistakable."
 ---
-House Sparrow (домовый воробей) — завезённый из Старого Света вид, который в Колумбии прижился в городах, особенно в портовых. По данным ACO 2022 это «интродуцированный вид, закрепившийся в стране»; от гор он держится в стороне, а на маршруте встречается только на тихоокеанском побережье.
+House Sparrow (домовый воробей) — завезённый из Старого Света вид, который в Колумбии прижился в городах и посёлках. По данным ACO 2022 это «интродуцированный вид, закрепившийся в стране»; на маршруте он встречается только на тихоокеанском побережье.
 
 На маршруте он «возможен» в Тумако и на Плайя-дель-Морро 21–23 октября. Это хорошая точка отсчёта: знакомая птица рядом с незнакомыми местными видами помогает оценить размер других воробьиных и привыкнуть к бинокулю в первый день на побережье.
 
 ## English
 
-House Sparrow is an Old World species introduced to Colombia, where it has settled in towns, especially ports. ACO 2022 lists it as "an exotic species established in the country"; it largely avoids the mountains, and on the route it occurs only on the Pacific coast.
+House Sparrow is an Old World species introduced to Colombia, where it has settled in towns and villages. ACO 2022 lists it as "an exotic species established in the country"; on the route it occurs only on the Pacific coast.
 
 On the route it is "maybe" at Tumaco and Playa del Morro on 21–23 October. It makes a good reference point: a familiar bird next to unfamiliar local species helps judge the size of other small birds and get used to the binoculars on the first day on the coast.

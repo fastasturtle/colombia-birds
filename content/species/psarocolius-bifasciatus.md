@@ -2,6 +2,7 @@
 id: psarocolius-bifasciatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и грудь оливково-жёлтые, резко отделены от каштанового тела"
   - "На щеке голое розовое пятно"
@@ -13,7 +14,7 @@ similar:
   - id: psarocolius-decumanus
     how: "почти вся чёрная, клюв цвета слоновой кости, глаз голубой"
 behavior: "Держится в кронах высокого леса, парами или небольшими группами, и часто видна летящей высоко над лесом. Всеядна: ест плоды, нектар, крупных насекомых и мелких позвоночных; колонии висячих гнёзд небольшие."
-voice: "Громкая булькающая песня, которую самец исполняет, кланяясь вперёд с раскрытыми крыльями; также резкие крики «чак»."
+voice: "Песня самца — дребезжащая, металлическая или булькающая; он поёт, кланяясь вперёд, задрав хвост и дрожа опущенными крыльями. Позывы — мягкое «йок», громкое «аук», гнусавое «рааап»; в полёте слышны громкие взмахи крыльев."
 traits:
   size: crow
   colors: [rufous, olive, yellow]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Olive oropendola (en), Psarocolius bifasciatus (es), Амазонская оропендола (ru), CC BY-SA 4.0 — размеры, подвид yuracares, питание, колонии; data/texts"
   - "content/species/psarocolius-angustifrons.md, content/species/psarocolius-decumanus.md — отличия, согласованы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Olive oropendola (en, живая страница, разделы о голосе и гнездовании) — песня, поза токования, позывы: https://en.wikipedia.org/wiki/Olive_oropendola"
 en:
   key_features:
     - "Head, neck and breast olive-yellow, sharply set off from the chestnut body"
@@ -38,7 +40,7 @@ en:
     - id: psarocolius-decumanus
       how: "almost all black, ivory bill, blue eye"
   behavior: "Keeps to the canopy of tall forest in pairs or small groups and is often seen flying high above the forest. Omnivorous: eats fruit, nectar, large insects and small vertebrates; its colonies of hanging nests are small."
-  voice: "A loud gurgling song that the male gives while bowing forward with spread wings; also harsh 'chack' calls."
+  voice: "The male's song is rattling, metallic or liquid; he sings while bowing forward, cocking the tail and vibrating drooped wings. Calls include a soft 'yok', a louder 'awk' and a nasal 'raap'; the wingbeats are loud in flight."
 ---
 Olive Oropendola (беленская оропендола) — самая крупная оропендола, одна из самых крупных воробьиных Южной Америки. В Колумбии она живёт только на юго-востоке, в амазонских низинах до 700 м; здесь форма yuracares с оливково-жёлтой головой и грудью. Каштаново-оливковый гигант с розовой щекой и оранжевым кончиком клюва не спутать ни с кем, если хорошо рассмотреть.
 

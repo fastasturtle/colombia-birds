@@ -2,6 +2,7 @@
 id: icterus-icterus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и верх груди чёрные, нижний край нагрудника рваный, «лохматый»"
   - "Тело ярко-оранжевое, верх спины между плечами чёрный"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Venezuelan troupial (en), Icterus icterus (es), Обыкновенный цветной трупиал (ru), CC BY-SA 4.0 — окраска, гнездовой паразитизм, дуэты; data/texts"
   - "content/species/icterus-chrysater.md — отличие I. chrysater"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Venezuelan troupial (en) — окраска; исправлений нет, записи в Путумайо — вопрос маппинга (см. лог)"
 en:
   key_features:
     - "Head and upper breast black, the lower edge of the bib ragged, 'shaggy'"

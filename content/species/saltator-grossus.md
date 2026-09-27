@@ -2,6 +2,7 @@
 id: saltator-grossus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв массивный, ярко-оранжево-красный"
   - "Почти вся аспидно-сизая, у самца лицо и грудь вокруг горла чёрные"
@@ -23,6 +24,7 @@ sources:
   - "Данные проекта: data/species/saltator-grossus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Slate-coloured grosbeak (en, CC BY-SA 4.0) — окраска, подвиды и распространение в Колумбии, питание, голос"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Slate-coloured grosbeak (en), Blue-black grosbeak (en, es) — исправлений нет"
 en:
   key_features:
     - "Massive, bright orange-red bill"

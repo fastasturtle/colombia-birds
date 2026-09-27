@@ -2,6 +2,7 @@
 id: basileuterus-tristriatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова полосатая: охристая полоса по темени между двумя широкими чёрными"
   - "Бровь длинная, светлая, серовато-белая; щека черноватая"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Three-striped warbler (en), Basileuterus tristriatus (es), Трёхполосый корольковый певун (ru), CC BY-SA 4.0 — окраска, подвиды, высоты, гнездо, голос; data/texts"
   - "Wikipedia: Russet-crowned warbler, Rufous-capped warbler (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Three-striped warbler (en) — окраска, подвиды, голос; исправлений нет"
 en:
   key_features:
     - "Striped head: a buffy crown stripe between two broad black ones"

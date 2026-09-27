@@ -2,6 +2,7 @@
 id: myiothlypis-luteoviridis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и щёки ровно оливковые, без полос на голове"
   - "Жёлтая бровь короткая, в основном перед глазом; через глаз тёмная черта"
@@ -13,7 +14,7 @@ similar:
   - id: myiothlypis-coronata
     how: "голова серая, по темени рыжая полоса в чёрной рамке"
 behavior: "Держится парами или небольшими группами в нижнем и среднем ярусе влажного горного и карликового леса, в густом подлеске на опушках; вне сезона гнездования часто в смешанных стаях."
-voice: "Быстрая серия высоких щебечущих нот, то поднимающаяся, то падающая, иногда с ускорением в трель; пары часто поют дуэтом."
+voice: "Быстрая серия высоких щебечущих нот, то поднимающаяся, то падающая, иногда с ускорением в трель."
 traits:
   size: sparrow
   colors: [olive, yellow]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Citrine warbler (en), Myiothlypis luteoviridis (es), CC BY-SA 4.0 — подвиды, высоты в Колумбии, питание, голос; data/texts"
   - "content/species/myiothlypis-nigrocristata.md — отличие, согласовано"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Citrine warbler (en) — подвиды, высоты 2 200–3 400 м в Колумбии, голос; дуэты не подтверждены, сняты"
 en:
   key_features:
     - "Crown and cheeks plain olive, no head stripes"
@@ -38,7 +40,7 @@ en:
     - id: myiothlypis-coronata
       how: "gray head with a rufous crown stripe bordered black"
   behavior: "Keeps in pairs or small groups in the lower and middle layers of humid montane and elfin forest, in dense edge understory; outside the breeding season often in mixed flocks."
-  voice: "A fast series of high twittering notes that rises and falls, sometimes accelerating into a trill; pairs often sing in duet."
+  voice: "A fast series of high twittering notes that rises and falls, sometimes accelerating into a trill."
 ---
 Citrine Warbler (лимонный певун) — певун верхней части горного леса и кустарников у границы леса, в Колумбии на высотах около 2 200–3 400 м. На юго-востоке страны живёт номинативный подвид. Это оливково-жёлтая птица почти без примет, которую определяют по отсутствию рисунка на голове и по короткой брови; в подлеске её легко спутать с самками и молодыми других видов.
 

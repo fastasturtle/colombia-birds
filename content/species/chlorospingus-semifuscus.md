@@ -2,6 +2,7 @@
 id: chlorospingus-semifuscus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тёмный и однотонный: без жёлтого на горле и груди"
   - "Шапочка и лицо тёмно-серые, иногда крошечная белая точка за глазом"
@@ -11,9 +12,9 @@ similar:
   - id: chlorospingus-flavigularis
     how: "горло жёлтое, хотя бы по краям; грудь серая, верх светлее оливковый"
   - id: chlorospingus-flavopectus
-    how: "за глазом чёткое белое пятно, поперёк груди жёлтая полоса, горло светлое"
-behavior: "Держится шумными группами в среднем ярусе и подлеске сырого облачного леса, густо поросшего эпифитами; часто составляет ядро смешанных стай. Обирает листья и мох, ест мелкие плоды."
-voice: "Частые тонкие позывки «цит» и сухое стрекотание, которыми группа перекликается на ходу."
+    how: "поперёк груди оливково-жёлтая полоса, горло беловатое; на тихоокеанском склоне Нариньо редок"
+behavior: "Держится парами и группами до 20 птиц, больше в подлеске сырого облачного леса, густо поросшего эпифитами; регулярно присоединяется к смешанным стаям. Обирает листья и мох, ест мелкие плоды."
+voice: "Позывы — очень высокое, часто повторяемое «чип» и тонкая пронзительная трель; на рассвете песня из высоких нот, которые ускоряются и крепнут и обрываются сухим треском."
 traits:
   size: sparrow
   colors: [gray, olive]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Dusky chlorospingus (en), Серогрудая кустарниковая танагра (ru), CC BY-SA 4.0 — подвиды, окраска, высоты; data/texts"
   - "content/species/chlorospingus-flavigularis.md — отличия, согласованы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Dusky chlorospingus (en) — голос, размер групп, связь со смешанными стаями; Common chlorospingus (en) — у колумбийских форм нет пятна за глазом"
 en:
   key_features:
     - "Dark and uniform: no yellow on the throat or breast"
@@ -36,9 +38,9 @@ en:
     - id: chlorospingus-flavigularis
       how: "yellow throat, at least at the edges; gray breast, paler olive upperparts"
     - id: chlorospingus-flavopectus
-      how: "clear white spot behind the eye, yellow band across the breast, pale throat"
-  behavior: "Keeps in noisy groups in the midstory and understory of wet cloud forest heavy with epiphytes, often forming the core of mixed flocks. Gleans leaves and moss and eats small fruit."
-  voice: "Frequent thin 'tsit' calls and a dry chatter that the group uses to keep in contact on the move."
+      how: "olive-yellow band across the breast, whitish throat; scarce on the Pacific slope of Nariño"
+  behavior: "Keeps in pairs and groups of up to 20, mostly in the understory of wet cloud forest heavy with epiphytes; regularly joins mixed flocks. Gleans leaves and moss and eats small fruit."
+  voice: "Calls are an extremely high, often repeated 'chip' and a thin penetrating trill; the dawn song is a series of high notes that speed up and strengthen, ending in a dry sputter."
 ---
 Dusky Chlorospingus (серогрудый дромник) — почти-эндемик тихоокеанского склона Анд Колумбии и Эквадора, на высотах примерно 900–2 500 м, чаще в туманных лесах 1 200–2 400 м. В Нариньо живёт номинативный подвид. Это самый тёмный и скромный дромник маршрута: в стае его узнают скорее по отсутствию примет, чем по ним.
 

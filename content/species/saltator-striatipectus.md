@@ -2,6 +2,7 @@
 id: saltator-striatipectus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь и бока грязно-белые, в размытых тёмных пестринах"
   - "Верх оливково-зелёный, темя сероватое, поясница серая"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Olive-grey saltator (en, CC BY-SA 4.0) — отличие S. olivascens"
   - "content/species/saltator-maximus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Streaked saltator (en) — песня, высоты в Колумбии до 2 500 м; исправлений нет"
 en:
   key_features:
     - "Off-white breast and flanks with blurry dark streaks"

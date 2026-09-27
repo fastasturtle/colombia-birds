@@ -2,6 +2,7 @@
 id: saltator-coerulescens
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх ровный серый или серо-оливковый, без зелени"
   - "Белая бровь и узкое белое горло в чёрной рамке усов"
@@ -9,7 +10,7 @@ key_features:
   - "Клюв толстый, чёрный; крупная, длиннохвостая, держится низко"
 similar:
   - id: saltator-maximus
-    how: "спина ярко-оливково-зелёная, горло белое, книзу охристое; держится в лесу, а не в кустах у реки"
+    how: "спина ярко-оливково-зелёная, горло белое, книзу охристое, в чёрной рамке"
 behavior: "Живёт в полуоткрытых местах: кустарники, опушки, сады, заросли по берегам рек; в глухой лес не заходит. Кормится в нижнем и среднем ярусе плодами, почками и медленными насекомыми, парами или небольшими группами."
 voice: "Обычный позыв — протяжный восходящий свист «ч-уиииит»; песня — короткая трель, от гнусавой до мягкой."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Bluish-grey saltator (en), Серый сальтатор (ru), CC BY-SA 4.0 — окраска, голос, биотопы, распространение в Колумбии"
   - "content/species/saltator-maximus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Buff-throated saltator (en, es) — S. maximus живёт на опушках и в прогалинах, а не только в лесу; фраза о биотопе снята"
 en:
   key_features:
     - "Plain gray or gray-olive upperparts, no green"
@@ -32,7 +34,7 @@ en:
     - "Thick black bill; large, long-tailed, keeps low"
   similar:
     - id: saltator-maximus
-      how: "bright olive-green back, white throat turning buff below; keeps inside forest, not in riverside scrub"
+      how: "bright olive-green back, white throat turning buff below, framed in black"
   behavior: "Lives in semi-open country: scrub, edges, gardens and riverside thickets; avoids dense forest. Feeds in the lower and middle levels on fruit, buds and slow insects, in pairs or small groups."
   voice: "The usual call is a long rising whistle 'ch-weeeet'; the song is a short warble, from nasal to mellow."
 ---

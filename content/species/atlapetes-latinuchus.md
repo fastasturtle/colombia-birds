@@ -2,6 +2,7 @@
 id: atlapetes-latinuchus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло, грудь и брюхо ярко-жёлтые, бока с оливковым налётом"
   - "Темя и затылок целиком рыжие, до самой спины"
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: Yellow-breasted brushfinch (en), Atlapetes latinuchus (es), CC BY-SA 4.0 — подвид spodionotus, высоты, поведение, голос; data/texts"
   - "content/species/atlapetes-pallidinucha.md, content/species/atlapetes-schistaceus.md — отличия, согласованы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Yellow-breasted brushfinch (en) — подвид spodionotus, высоты 1 600–3 600 м, терпимость к нарушенным местам, голос; исправлений нет"
 en:
   key_features:
     - "Throat, breast and belly bright yellow, flanks washed olive"

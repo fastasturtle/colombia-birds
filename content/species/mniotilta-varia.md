@@ -2,6 +2,7 @@
 id: mniotilta-varia
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь в чёрно-белых продольных полосах, от головы до подхвостья"
   - "По темени белая полоса между двумя чёрными, над глазом белая бровь"
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Black-and-white warbler (en, CC BY-SA 4.0) — ареал, зимовка; data/texts"
   - "Wikipedia: Blackpoll warbler (en, CC BY-SA 4.0) — отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia Black-and-white warbler (en, es) — голос, отличие от S. striata; исправлений нет"
 en:
   key_features:
     - "Streaked black and white all over, from the head to the undertail"

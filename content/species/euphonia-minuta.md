@@ -2,6 +2,7 @@
 id: euphonia-minuta
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Середина брюха и подхвостье белые, у обоих полов"
   - "Самец сине-чёрный сверху, горло тоже тёмное, грудь и бока ярко-жёлтые"
@@ -12,8 +13,8 @@ similar:
     how: "жёлтая шапочка заходит за глаз, жёлтое брюхо до самого хвоста, без белого"
   - id: euphonia-laniirostris
     how: "горло жёлтое, как вся грудь; подхвостье жёлтое"
-behavior: "Самая маленькая эуфония маршрута, держится парами или семейными группами в кронах и на опушках влажного леса, в садах и вторичных зарослях. Кормится ягодами омелы и другими мелкими плодами."
-voice: "Тонкие высокие позывки, часто сдвоенные, и короткий сухой щебет."
+behavior: "Крошечная эуфония; держится парами или семейными группами в кронах и на опушках влажного леса, в садах и вторичных зарослях. Кормится ягодами омелы и другими мелкими плодами."
+voice: "Для такой крошки неожиданно громкая песня — пронзительная серия резких отрывистых нот вроде «ви-вит, ч-виит, чивит»; позывы — резкое «виит» и шепелявое «уи-чу»."
 traits:
   size: sparrow
   colors: [black, yellow, white]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: White-vented euphonia (en), Euphonia minuta (es), Белобрюхая эуфония (ru), CC BY-SA 4.0 — окраска, подвиды, питание; data/texts"
   - "content/species/euphonia-xanthogaster.md, content/species/euphonia-laniirostris.md — отличия, согласованы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 27.09.2026: Wikipedia White-vented euphonia (en) — голос (песня громкая, отрывистая; позыв «виит»); «самая маленькая эуфония маршрута» не подтверждено, снято"
 en:
   key_features:
     - "Centre of the belly and undertail white in both sexes"
@@ -36,8 +38,8 @@ en:
       how: "yellow cap extends behind the eye, yellow belly right to the tail, no white"
     - id: euphonia-laniirostris
       how: "yellow throat like the whole breast; yellow undertail"
-  behavior: "The smallest euphonia on the route; keeps in pairs or family groups in the canopy and at edges of humid forest, in gardens and second growth. Feeds on mistletoe berries and other small fruit."
-  voice: "Thin, high calls, often doubled, and a short dry twitter."
+  behavior: "A tiny euphonia; keeps in pairs or family groups in the canopy and at edges of humid forest, in gardens and second growth. Feeds on mistletoe berries and other small fruit."
+  voice: "A surprisingly loud song for so small a bird, a shrill series of sharp staccato notes like 'vee-veet, ch-veet, cheewit'; calls are a sharp 'veet' and a sputtery 'wee-chu'."
 ---
 White-vented Euphonia (белогузая эуфония) — крошечная эуфония влажных низин, в Колумбии по обе стороны Анд, обычно ниже 500 м: на тихоокеанском склоне форма humilis с более крупным жёлтым лбом, на востоке номинативная. Снизу в кроне она похожа на других чёрно-жёлтых эуфоний, и главное — поймать белое подхвостье.
 
