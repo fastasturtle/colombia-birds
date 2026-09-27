@@ -2,6 +2,7 @@
 id: leptotila-conoveri
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло белое, резко отделено от розовато-красной груди"
   - "Нижняя граница груди резкая, брюхо охристое"
@@ -11,9 +12,9 @@ similar:
   - id: leptotila-verreauxi
     how: "грудь бледная серовато-розовая и плавно светлеет к белому брюху, без резкой границы и без контрастного горла"
   - id: zentrygon-frenata
-    how: "белое горло обрамлено тёмным усом, спина рыже-бурая, держится на земле в глубине леса"
+    how: "заметно крупнее, белое горло обрамлено тёмным усом, спина рыже-бурая, держится на земле в глубине леса"
 behavior: "Держится поодиночке или парами в подлеске и на опушках влажного леса, иногда в кофейных плантациях; кормится на земле. Скрытная, чаще всего её видят, когда она взлетает с тропы."
-voice: "Низкое глухое воркование в духе других голубок рода, одна–две протяжные ноты."
+voice: "Одна протяжная глухая нота «ууОООуу» с усилением в середине."
 traits:
   size: thrush
   colors: [gray, rufous, white]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Tolima dove (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/leptotila-conoveri.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Tolima dove (en: голос, статус МСОП NT с 2020), White-tipped dove (en), White-throated quail-dove (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "White throat sharply set off from a reddish-pink breast"
@@ -35,9 +37,9 @@ en:
     - id: leptotila-verreauxi
       how: "breast pale grayish-pink, fading gradually into a white belly with no sharp border and no contrasting throat"
     - id: zentrygon-frenata
-      how: "white throat framed by a dark moustache, rufous-brown back; keeps to the ground inside forest"
+      how: "clearly larger, white throat framed by a dark moustache, rufous-brown back; keeps to the ground inside forest"
   behavior: "Keeps singly or in pairs in the understory and edges of humid forest, sometimes in coffee plantations, and feeds on the ground. Shy; most often seen flushing off a trail."
-  voice: "A low, muffled cooing like other doves of the genus, one or two drawn-out notes."
+  voice: "A single drawn-out hollow note, 'wooOOOooo', swelling in the middle."
 ---
 Tolima Dove (толимская голубка) — эндемик Колумбии с восточного склона Центральных Анд в Толиме и Уиле, позже найден и в Кундинамарке; живёт во влажном лесу на высотах 1 200–2 500 м. Вид редкий и угрожаемый: оценки в списках разнятся от «почти угрожаемого» до «под угрозой». От обычной White-tipped Dove её отличает прежде всего низ: белое горло, насыщенно-розовая грудь и резкая граница с охристым брюхом.
 

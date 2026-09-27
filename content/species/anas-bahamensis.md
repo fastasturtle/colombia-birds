@@ -2,6 +2,7 @@
 id: anas-bahamensis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Щёки и горло чисто белые, резко отделены от бурой шапочки"
   - "Клюв серо-голубой с красным пятном у основания"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: White-cheeked pintail (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/anas-bahamensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Blue-winged teal (en/ru), Yellow-billed pintail (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Clean white cheeks and throat, sharply set off from the brown cap"
@@ -41,10 +43,10 @@ en:
 ---
 White-cheeked Pintail (багамская шилохвость) — утка солоноватых лагун, мангров и прибрежных прудов Карибского региона и Южной Америки, в Колумбии в основном на низменном побережье. Самец и самка почти одинаковы, и спутать её не с кем: белые щёки и красное пятно у основания клюва видны даже издалека.
 
-На маршруте она «точно» на Финке Марагрикола 22 октября, где держится на бывших креветочных прудах, и «возможна» на Км 42 днём раньше. Осмотри все пруды фермы: утки часто отдыхают у дальнего берега вместе с Blue-winged Teal.
+На маршруте она «точно» на Финке Марагрикола 22 октября, где держится на бывших креветочных прудах, и «возможна» на Км 42 днём раньше. Осмотри все пруды фермы: там же бывают и зимующие Blue-winged Teal.
 
 ## English
 
 White-cheeked Pintail is a duck of brackish lagoons, mangroves and coastal ponds in the Caribbean and South America, in Colombia mostly on the lowland coast. Males and females are nearly alike, and it cannot be confused with anything: the white cheeks and the red patch at the bill base show even at a distance.
 
-On the route it is "sure" at Finca Maragrícola on 22 October, on the former shrimp ponds, and "maybe" at Km 42 the day before. Check every pond on the farm: the ducks often rest along the far bank together with Blue-winged Teal.
+On the route it is "sure" at Finca Maragrícola on 22 October, on the former shrimp ponds, and "maybe" at Km 42 the day before. Check every pond on the farm: wintering Blue-winged Teal also turn up there.

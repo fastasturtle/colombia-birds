@@ -2,6 +2,7 @@
 id: zenaida-auriculata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Чёрная черта за глазом и чёрное пятно ниже на щеке"
   - "Крылья оливково-бурые с чёрными пятнами на кроющих"
@@ -13,7 +14,7 @@ similar:
     how: "крупнее и округлее, без чёрных пятен на крыле и щеке, хвост короткий и широкий с белыми углами"
   - id: columbina-talpacoti
     how: "вдвое мельче, короткий хвост; самец рыжий с серой головой"
-behavior: "Держится стайками на полях, пастбищах и в городских парках, ходит по земле, собирая семена. Высокогорные города и посёлки заселяет вместе с Rufous-collared Sparrow."
+behavior: "Держится стайками на полях, пастбищах и в городских парках, ходит по земле, собирая семена. Легко уживается с человеком: в Боготе держится почти в любом сквере и на газонах."
 voice: "Глубокое мягкое воркование «у-а-у», часто с паузами."
 traits:
   size: thrush
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Eared dove (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/zenaida-auriculata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Eared dove (en: Богота, полёт, голос), White-tipped dove (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Black line behind the eye and a black spot lower on the cheek"
@@ -38,7 +40,7 @@ en:
       how: "larger and rounder, no black spots on wing or cheek, short broad tail with white corners"
     - id: columbina-talpacoti
       how: "half the size, short tail; male rufous with a gray head"
-  behavior: "Keeps in flocks on fields, pastures and city parks, walking on the ground and picking up seeds. Colonises highland towns and villages together with Rufous-collared Sparrow."
+  behavior: "Keeps in flocks on fields, pastures and city parks, walking on the ground and picking up seeds. It adapts readily to people: in Bogotá it is found in almost every park and on lawns."
   voice: "A deep soft cooing 'oo-ah-oo', often with pauses."
 ---
 Eared Dove (ушастая горлица) — самая обычная горлица открытых мест Анд, от побережья до 3 500 м; в Боготе и других горных городах она на каждом газоне. Её полезно знать как точку отсчёта: стройная, с длинным клиновидным хвостом и чёрными пятнами на крыле, в полёте быстрая и прямая. Лесные голубки рода Leptotila держатся в тени и выглядят плотнее.

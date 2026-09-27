@@ -2,6 +2,7 @@
 id: anas-andium
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова серовато-бурая, густо испещрённая тёмными крапинами"
   - "Клюв тёмный, сизо-серый, без жёлтого"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Andean teal (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/anas-andium.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Cerceta barcina / Anas andium (es), Yellow-billed pintail (en), Blue-winged teal (ru), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Grayish-brown head densely speckled with dark spots"

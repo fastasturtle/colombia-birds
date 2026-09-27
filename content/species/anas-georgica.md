@@ -2,6 +2,7 @@
 id: anas-georgica
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв ярко-жёлтый с чёрной полосой по середине и чёрным кончиком"
   - "Голова и шея бурые, мелко испещрённые, без рисунка"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Yellow-billed pintail (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/anas-georgica.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Andean teal (es), Blue-winged teal (en/ru), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Bright yellow bill with a black central stripe and a black tip"

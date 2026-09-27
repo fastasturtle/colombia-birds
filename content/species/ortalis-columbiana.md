@@ -2,6 +2,7 @@
 id: ortalis-columbiana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и шея серые, на горле красная голая серёжка"
   - "Перья груди серые с широкой белой каймой, грудь выглядит чешуйчатой"
@@ -9,9 +10,9 @@ key_features:
   - "Стройная куриная с длинным хвостом, держится шумными группами"
 similar:
   - id: ortalis-guttata
-    how: "белая кайма на груди мельче и не такая резкая, голова рыжеватее; живёт на амазонской стороне Анд"
+    how: "горло и грудь тёмно-бурые в мелких белых крапинах, а не в широкой белой кайме; живёт на амазонской стороне Анд"
   - id: penelope-montagnii
-    how: "крупнее и темнее, бурая, без серой головы; держится выше, в облачном лесу"
+    how: "темнее, бурая, беловатая кайма у перьев от головы до груди, ноги красные; держится выше, в облачном лесу"
 behavior: "Группами до 20 птиц кормится плодами фикусов и цекропий в среднем ярусе и кронах, перелетает между деревьями, но далеко не летает. Нередко выходит к кормушкам с бананами."
 voice: "Громкий хор «ча-ча-лак» на рассвете, от которого и пошло название."
 traits:
@@ -26,6 +27,8 @@ sources:
   - "Данные проекта: data/species/ortalis-columbiana.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/cracidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Speckled chachalaca (en/es), Andean guan (en/es), CC BY-SA 4.0 — фактчек 27.09"
+  - "10,000 Birds: Birding Lodges of the World — El Encanto Nature Reserve (кормушки с бананами), https://www.10000birds.com/birding-lodges-of-the-world-el-encanto-nature-reserve-colombia.htm"
 en:
   key_features:
     - "Gray head and neck with a red bare dewlap on the throat"
@@ -34,9 +37,9 @@ en:
     - "A slim long-tailed gamebird that moves in noisy groups"
   similar:
     - id: ortalis-guttata
-      how: "white breast edging finer and less crisp, head more rufous; lives on the Amazonian side of the Andes"
+      how: "dark brown throat and breast with small white speckles rather than broad white scaling; lives on the Amazonian side of the Andes"
     - id: penelope-montagnii
-      how: "larger and darker, brown, without a gray head; keeps higher, in cloud forest"
+      how: "darker brown, whitish feather edges from head to breast, red legs; keeps higher, in cloud forest"
   behavior: "Groups of up to 20 feed on fig and Cecropia fruit in the mid-storey and canopy, flying from tree to tree but not far. It often comes to banana feeders."
   voice: "A loud dawn chorus of 'cha-cha-lac' calls, which gave the group its name."
 ---

@@ -2,6 +2,7 @@
 id: podilymbus-podiceps
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, толстый, куриный; в брачном наряде светлый с чёрным кольцом"
   - "Горло в брачном наряде чёрное, вне сезона светлое"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Pied-billed grebe (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/podilymbus-podiceps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Pied-billed grebe (es), Least grebe (en), Ruddy duck (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Short thick chicken-like bill; in breeding plumage pale with a black ring"
