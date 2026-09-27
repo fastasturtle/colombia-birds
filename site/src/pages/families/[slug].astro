@@ -42,7 +42,6 @@ const byDay = days.map((d) => {
     .sort((a, b) => Number(b.hl) - Number(a.hl) || b.n - a.n);
   return { day: d.day, list };
 }).filter((d) => d.list.length > 0);
-const MAX_CHIPS = 6;
 ---
 <Base title={title}>
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>
@@ -81,6 +80,7 @@ const MAX_CHIPS = 6;
           </ul>
         </div>
       )}
+      {fc.fact && <p class="fact"><b>Факт.</b> {fc.fact}</p>}
       {fc.route_note && (
         <div class="card block route">
           <h2>На маршруте</h2>
@@ -98,10 +98,9 @@ const MAX_CHIPS = 6;
           <li>
             <a class="dh" href={`${base}days/${day.date}/`}><b>{fmtDateRu(day.date, false)}</b> <span class="muted">· {dayLabel(day)} · {day.title_ru}</span></a>
             <div class="chips">
-              {list.slice(0, MAX_CHIPS).map(({ s, hl }) => (
+              {list.map(({ s, hl }) => (
                 <a class={`chip sp${hl ? ' hl' : ''}`} href={`${base}species/${s.id}/`} title={s.ru ?? undefined}>{hl && '★ '}{s.en}</a>
               ))}
-              {list.length > MAX_CHIPS && <a class="chip more" href={`${base}days/${day.date}/`}>+{list.length - MAX_CHIPS}</a>}
             </div>
           </li>
         ))}
@@ -110,7 +109,6 @@ const MAX_CHIPS = 6;
   )}
   {fc && (
     <section class="portrait">
-      {fc.fact && <p class="fact"><b>Факт.</b> {fc.fact}</p>}
       {fc.en && (
         <details class="en" lang="en">
           <summary>English</summary>
