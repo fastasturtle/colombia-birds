@@ -53,6 +53,18 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
     <p class="card muted">Фото ещё не загружено. Посмотреть: <a href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>{sp.links.commons_category && <>, <a href={sp.links.commons_category} target="_blank" rel="noopener">Commons</a></>}{sp.links.inaturalist && <>, <a href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a></>}.</p>
   )}
 
+  <h2>Ссылки</h2>
+  <p>
+    <a class="chip" href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>
+    <a class="chip" href={sp.links.xeno_canto} target="_blank" rel="noopener">xeno-canto (голоса)</a>
+    {sp.links.inaturalist && <a class="chip" href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a>}
+    {sp.links.wikipedia.en && <a class="chip" href={sp.links.wikipedia.en} target="_blank" rel="noopener">Wikipedia en</a>}
+    {sp.links.wikipedia.ru && <a class="chip" href={sp.links.wikipedia.ru} target="_blank" rel="noopener">Википедия ru</a>}
+    {sp.links.wikipedia.es && <a class="chip" href={sp.links.wikipedia.es} target="_blank" rel="noopener">Wikipedia es</a>}
+    {sp.links.commons_category && <a class="chip" href={sp.links.commons_category} target="_blank" rel="noopener">Commons</a>}
+    {sp.ids.avibase && <a class="chip" href={`https://avibase.bsc-eoc.org/species.jsp?avibaseid=${sp.ids.avibase}`} target="_blank" rel="noopener">Avibase</a>}
+  </p>
+
   {card && <SpeciesCard card={card} />}
 
   <h2>Коротко</h2>
@@ -114,18 +126,6 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
       <p>{sameGenus.map((s) => <a class="chip" href={`${base}species/${s.id}/`}>{speciesNames(s).main}</a>)}</p>
     </>
   )}
-
-  <h2>Ссылки</h2>
-  <p>
-    <a class="chip" href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>
-    <a class="chip" href={sp.links.xeno_canto} target="_blank" rel="noopener">xeno-canto (голоса)</a>
-    {sp.links.inaturalist && <a class="chip" href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a>}
-    {sp.links.wikipedia.en && <a class="chip" href={sp.links.wikipedia.en} target="_blank" rel="noopener">Wikipedia en</a>}
-    {sp.links.wikipedia.ru && <a class="chip" href={sp.links.wikipedia.ru} target="_blank" rel="noopener">Википедия ru</a>}
-    {sp.links.wikipedia.es && <a class="chip" href={sp.links.wikipedia.es} target="_blank" rel="noopener">Wikipedia es</a>}
-    {sp.links.commons_category && <a class="chip" href={sp.links.commons_category} target="_blank" rel="noopener">Commons</a>}
-    {sp.ids.avibase && <a class="chip" href={`https://avibase.bsc-eoc.org/species.jsp?avibaseid=${sp.ids.avibase}`} target="_blank" rel="noopener">Avibase</a>}
-  </p>
 
   <nav class="pn">
     {prev ? <a href={`${base}species/${prev.id}/`}>← {speciesNames(prev).main}</a> : <span />}
