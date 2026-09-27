@@ -30,9 +30,9 @@
   "avibase": null,
   "birdbase": 6664,
   "gbif": 2481784,
-  "inaturalist": null,
+  "inaturalist": "1188213",
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q50407544",
   "xeno_canto": null
  },
  "iucn": {
@@ -41,13 +41,13 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Numenius_hudsonicus",
   "ebird": "https://ebird.org/species/whimbr3",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1188213",
   "wikipedia": {
-   "en": null,
+   "en": "https://en.wikipedia.org/wiki/Hudsonian_whimbrel",
    "es": null,
-   "ru": null
+   "ru": "https://ru.wikipedia.org/wiki/Американский_средний_кроншнеп"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Numenius+hudsonicus"
  },
@@ -59,24 +59,7 @@
   "ru": "Американский средний кроншнеп"
  },
  "order": "Charadriiformes",
- "photos": [
-  {
-   "author": "Agustina Medina",
-   "credit": "(c) Agustina Medina, some rights reserved (CC BY)",
-   "height": 1200,
-   "key_base": "photos/numenius-hudsonicus/1",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "sizes": {
-    "large": "photos/numenius-hudsonicus/1-large.jpg",
-    "medium": "photos/numenius-hudsonicus/1-medium.jpg",
-    "thumb": "photos/numenius-hudsonicus/1-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/169167816",
-   "width": 1600
-  }
- ],
+ "photos": [],
  "sci_name": "Numenius hudsonicus",
  "sci_name_aco": "Numenius phaeopus",
  "sounds": [],
@@ -109,5 +92,8 @@
   "primary_habitat": "Coastal",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hudsonian%20Whimbrel%2C%20Newfoundland%206.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hudsonian%20Whimbrel%2C%20Morro%20Bay%2C%20California%20%284455150327%29.jpg"
+ ]
 }

@@ -27,26 +27,26 @@
  "genus": "Dacnis",
  "id": "dacnis-egregia",
  "ids": {
-  "avibase": null,
+  "avibase": "EC17B5E8BD375ED6",
   "birdbase": 36881,
   "gbif": 6100781,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "424333",
+  "iucn": "103812255",
+  "wikidata": "Q3011641",
+  "xeno_canto": "Dacnis-egregia"
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dacnis_egregia",
   "ebird": "https://ebird.org/species/bkfdac1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/424333",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Yellow-tufted_dacnis",
+   "es": "https://es.wikipedia.org/wiki/Dacnis_egregia",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+egregia"
@@ -59,72 +59,7 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [
-  {
-   "author": "Christoph Moning",
-   "credit": "(c) Christoph Moning, some rights reserved (CC BY)",
-   "height": 1001,
-   "key_base": "photos/dacnis-egregia/1",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "sizes": {
-    "large": "photos/dacnis-egregia/1-large.jpg",
-    "medium": "photos/dacnis-egregia/1-medium.jpg",
-    "thumb": "photos/dacnis-egregia/1-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/161633069",
-   "width": 1600
-  },
-  {
-   "author": "tomas_kay",
-   "credit": "(c) tomas_kay, some rights reserved (CC BY)",
-   "height": 1201,
-   "key_base": "photos/dacnis-egregia/2",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "sizes": {
-    "large": "photos/dacnis-egregia/2-large.jpg",
-    "medium": "photos/dacnis-egregia/2-medium.jpg",
-    "thumb": "photos/dacnis-egregia/2-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/326370105",
-   "width": 1600
-  },
-  {
-   "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
-   "credit": "Dacnis egregia",
-   "height": 1600,
-   "key_base": "photos/dacnis-egregia/3",
-   "kind": "photo",
-   "license": "CC BY-SA 2.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-   "sizes": {
-    "large": "photos/dacnis-egregia/3-large.jpg",
-    "medium": "photos/dacnis-egregia/3-medium.jpg",
-    "thumb": "photos/dacnis-egregia/3-thumb.jpg"
-   },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Dacnis_egregia_(6515681273).jpg",
-   "width": 1200
-  },
-  {
-   "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
-   "credit": "Dacnis egregia",
-   "height": 1600,
-   "key_base": "photos/dacnis-egregia/4",
-   "kind": "photo",
-   "license": "CC BY-SA 2.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-   "sizes": {
-    "large": "photos/dacnis-egregia/4-large.jpg",
-    "medium": "photos/dacnis-egregia/4-medium.jpg",
-    "thumb": "photos/dacnis-egregia/4-thumb.jpg"
-   },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Dacnis_egregia_(6709029763).jpg",
-   "width": 1200
-  }
- ],
+ "photos": [],
  "sci_name": "Dacnis egregia",
  "sci_name_aco": null,
  "sounds": [],
@@ -157,5 +92,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-tufted%20Dacnis%20-%20South%20Ecuador%20S4E9081%20%282%29.jpg"
+ ]
 }

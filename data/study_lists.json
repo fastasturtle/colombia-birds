@@ -301,6 +301,17 @@
     ]
    },
    {
+    "freq_aut": 4e-05,
+    "id": "grallaria-alticola",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "endemic",
+     "range_restricted"
+    ]
+   },
+   {
     "freq_aut": 1e-05,
     "id": "odontophorus-hyperythrus",
     "interesting": true,
@@ -2317,6 +2328,14 @@
    },
    {
     "freq_aut": 0.0005,
+    "id": "heliangelus-clarisse",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0005,
     "id": "nycticorax-nycticorax",
     "interesting": false,
     "new_for_route": true,
@@ -3709,7 +3728,7 @@
    },
    {
     "freq_aut": 4e-05,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -3726,14 +3745,6 @@
    {
     "freq_aut": 4e-05,
     "id": "glyphorynchus-spirurus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 4e-05,
-    "id": "grallaria-quitensis",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -7689,7 +7700,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -10936,7 +10947,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -14140,7 +14151,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -48087,6 +48098,16 @@
     ]
    },
    {
+    "freq_aut": 0.01281,
+    "id": "rallus-aequatorialis",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "sure",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
     "freq_aut": 0.01196,
     "id": "tephrophilus-wetmorei",
     "interesting": true,
@@ -48453,6 +48474,16 @@
     ]
    },
    {
+    "freq_aut": 0.00032,
+    "id": "myiothlypis-chlorophrys",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
     "freq_aut": 0.00016,
     "id": "vireo-masteri",
     "interesting": true,
@@ -48565,27 +48596,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiothlypis-chlorophrys",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.0,
     "id": "patagona-gigas",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "rallus-aequatorialis",
     "interesting": true,
     "new_for_route": true,
     "state": "unlikely",
@@ -49374,6 +49385,14 @@
     "id": "egretta-thula",
     "interesting": false,
     "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00623,
+    "id": "atlapetes-crassus",
+    "interesting": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -51987,9 +52006,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -52535,6 +52554,16 @@
     ]
    },
    {
+    "freq_aut": 0.00032,
+    "id": "myiothlypis-chlorophrys",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
     "freq_aut": 0.00016,
     "id": "vireo-masteri",
     "interesting": true,
@@ -52623,16 +52652,6 @@
     "state": "unlikely",
     "why": [
      "range_restricted"
-    ]
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "myiothlypis-chlorophrys",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
     ]
    },
    {
@@ -53022,6 +53041,14 @@
    {
     "freq_aut": 0.00639,
     "id": "chlorospingus-semifuscus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00623,
+    "id": "atlapetes-crassus",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -55197,9 +55224,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -55483,6 +55510,16 @@
     "state": "sure",
     "why": [
      "range_restricted"
+    ]
+   },
+   {
+    "freq_aut": 0.02293,
+    "id": "myiothlypis-chlorophrys",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "sure",
+    "why": [
+     "highlight"
     ]
    },
    {
@@ -55812,16 +55849,6 @@
     "state": "unlikely",
     "why": [
      "range_restricted"
-    ]
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "myiothlypis-chlorophrys",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
     ]
    },
    {
@@ -56427,6 +56454,14 @@
    {
     "freq_aut": 0.0066,
     "id": "chalcothraupis-ruficervix",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00645,
+    "id": "atlapetes-crassus",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -59314,9 +59349,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -60182,6 +60217,14 @@
     "why": []
    },
    {
+    "freq_aut": 0.02294,
+    "id": "myiothlypis-chlorophrys",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
     "freq_aut": 0.02119,
     "id": "glyphorynchus-spirurus",
     "interesting": false,
@@ -60464,6 +60507,14 @@
    {
     "freq_aut": 0.00689,
     "id": "tangara-icterocephala",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00645,
+    "id": "atlapetes-crassus",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -63754,6 +63805,16 @@
     ]
    },
    {
+    "freq_aut": 0.00675,
+    "id": "atlapetes-crassus",
+    "interesting": true,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
     "freq_aut": 0.00598,
     "id": "bangsia-rothschildi",
     "interesting": true,
@@ -63927,16 +63988,6 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "atlapetes-crassus",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.0,
     "id": "odontophorus-hyperythrus",
     "interesting": true,
     "new_for_route": false,
@@ -63954,6 +64005,14 @@
     "why": [
      "highlight"
     ]
+   },
+   {
+    "freq_aut": 0.02576,
+    "id": "myiothlypis-chlorophrys",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
    },
    {
     "freq_aut": 0.0233,
@@ -67586,6 +67645,16 @@
    },
    {
     "freq_aut": 0.01011,
+    "id": "dacnis-egregia",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "sure",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
+    "freq_aut": 0.01011,
     "id": "leptotila-pallida",
     "interesting": true,
     "new_for_route": true,
@@ -67839,16 +67908,6 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "dacnis-egregia",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.0,
     "id": "hapaloptila-castanea",
     "interesting": true,
     "new_for_route": false,
@@ -67866,6 +67925,14 @@
     "why": [
      "highlight"
     ]
+   },
+   {
+    "freq_aut": 0.03849,
+    "id": "numenius-hudsonicus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "sure",
+    "why": []
    },
    {
     "freq_aut": 0.03456,
@@ -68428,14 +68495,6 @@
     "why": []
    },
    {
-    "freq_aut": 0.01011,
-    "id": "dacnis-lineata",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "sure",
-    "why": []
-   },
-   {
     "freq_aut": 0.00999,
     "id": "egretta-tricolor",
     "interesting": false,
@@ -68486,6 +68545,14 @@
    {
     "freq_aut": 0.00941,
     "id": "taraba-major",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00923,
+    "id": "myiothlypis-chlorophrys",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -69142,6 +69209,14 @@
    {
     "freq_aut": 0.00409,
     "id": "arremon-castaneiceps",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00409,
+    "id": "atlapetes-crassus",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -72588,6 +72663,14 @@
     ]
    },
    {
+    "freq_aut": 0.03729,
+    "id": "numenius-hudsonicus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
     "freq_aut": 0.0321,
     "id": "actitis-macularius",
     "interesting": false,
@@ -73541,7 +73624,7 @@
    },
    {
     "freq_aut": 0.00333,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -75601,6 +75684,17 @@
     ]
    },
    {
+    "freq_aut": 4e-05,
+    "id": "grallaria-alticola",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "endemic",
+     "range_restricted"
+    ]
+   },
+   {
     "freq_aut": 1e-05,
     "id": "odontophorus-hyperythrus",
     "interesting": true,
@@ -75712,6 +75806,14 @@
      "endemic",
      "range_restricted"
     ]
+   },
+   {
+    "freq_aut": 0.03849,
+    "id": "numenius-hudsonicus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
    },
    {
     "freq_aut": 0.03456,
@@ -78195,6 +78297,14 @@
    },
    {
     "freq_aut": 0.0005,
+    "id": "heliangelus-clarisse",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0005,
     "id": "porphyriops-melanops",
     "interesting": false,
     "new_for_route": true,
@@ -79643,7 +79753,7 @@
    },
    {
     "freq_aut": 4e-05,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -79660,14 +79770,6 @@
    {
     "freq_aut": 4e-05,
     "id": "glyphorynchus-spirurus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 4e-05,
-    "id": "grallaria-quitensis",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -81038,6 +81140,17 @@
     "state": "unlikely",
     "why": [
      "endemic"
+    ]
+   },
+   {
+    "freq_aut": 4e-05,
+    "id": "grallaria-alticola",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "endemic",
+     "range_restricted"
     ]
    },
    {
@@ -83057,6 +83170,14 @@
    },
    {
     "freq_aut": 0.0005,
+    "id": "heliangelus-clarisse",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0005,
     "id": "nycticorax-nycticorax",
     "interesting": false,
     "new_for_route": false,
@@ -84449,7 +84570,7 @@
    },
    {
     "freq_aut": 4e-05,
-    "id": "dacnis-lineata",
+    "id": "dacnis-egregia",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -84466,14 +84587,6 @@
    {
     "freq_aut": 4e-05,
     "id": "glyphorynchus-spirurus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 4e-05,
-    "id": "grallaria-quitensis",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",

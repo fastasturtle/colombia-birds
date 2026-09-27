@@ -30,23 +30,23 @@
   "avibase": null,
   "birdbase": 35678,
   "gbif": 2491398,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "559783",
+  "iucn": "103774244",
+  "wikidata": "Q11841424",
+  "xeno_canto": "Atlapetes-crassus"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_crassus",
   "ebird": "https://ebird.org/species/tribrf1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/559783",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Choco_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_crassus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+crassus"
@@ -61,67 +61,67 @@
  "order": "Passeriformes",
  "photos": [
   {
-   "author": "Thibaud Aronson",
-   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
-   "height": 1065,
-   "key_base": "photos/atlapetes-crassus/1",
-   "kind": "photo",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-   "sizes": {
-    "large": "photos/atlapetes-crassus/1-large.jpg",
-    "medium": "photos/atlapetes-crassus/1-medium.jpg",
-    "thumb": "photos/atlapetes-crassus/1-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/16954631",
-   "width": 1600
-  },
-  {
-   "author": "Rob Foster",
-   "credit": "(c) Rob Foster, some rights reserved (CC BY)",
-   "height": 1600,
-   "key_base": "photos/atlapetes-crassus/2",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "sizes": {
-    "large": "photos/atlapetes-crassus/2-large.jpg",
-    "medium": "photos/atlapetes-crassus/2-medium.jpg",
-    "thumb": "photos/atlapetes-crassus/2-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/199499485",
-   "width": 1067
-  },
-  {
-   "author": "Ben Costamagna",
-   "credit": "https://www.inaturalist.org/photos/462578560",
-   "height": 1600,
-   "key_base": "photos/atlapetes-crassus/3",
+   "author": "David F. Belmonte",
+   "credit": "https://www.inaturalist.org/photos/559137798",
+   "height": 1208,
+   "key_base": "photos/atlapetes-tricolor/1",
    "kind": "photo",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
    "sizes": {
-    "large": "photos/atlapetes-crassus/3-large.jpg",
-    "medium": "photos/atlapetes-crassus/3-medium.jpg",
-    "thumb": "photos/atlapetes-crassus/3-thumb.jpg"
+    "large": "photos/atlapetes-tricolor/1-large.jpg",
+    "medium": "photos/atlapetes-tricolor/1-medium.jpg",
+    "thumb": "photos/atlapetes-tricolor/1-thumb.jpg"
    },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Atlapetes_crassus.jpg",
-   "width": 1342
+   "source_url": "https://commons.wikimedia.org/wiki/File:Atlapetes_tricolor.jpg",
+   "width": 1600
   },
   {
-   "author": "Kevin Brix",
-   "credit": "(c) Kevin Brix, some rights reserved (CC BY-SA)",
-   "height": 1504,
-   "key_base": "photos/atlapetes-crassus/4",
+   "author": "David F. Belmonte",
+   "credit": "(c) David F. Belmonte, some rights reserved (CC BY)",
+   "height": 1094,
+   "key_base": "photos/atlapetes-tricolor/2",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/atlapetes-tricolor/2-large.jpg",
+    "medium": "photos/atlapetes-tricolor/2-medium.jpg",
+    "thumb": "photos/atlapetes-tricolor/2-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/192011242",
+   "width": 1600
+  },
+  {
+   "author": "Thibaud Aronson",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "height": 1066,
+   "key_base": "photos/atlapetes-tricolor/3",
    "kind": "photo",
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "sizes": {
-    "large": "photos/atlapetes-crassus/4-large.jpg",
-    "medium": "photos/atlapetes-crassus/4-medium.jpg",
-    "thumb": "photos/atlapetes-crassus/4-thumb.jpg"
+    "large": "photos/atlapetes-tricolor/3-large.jpg",
+    "medium": "photos/atlapetes-tricolor/3-medium.jpg",
+    "thumb": "photos/atlapetes-tricolor/3-thumb.jpg"
    },
-   "source_url": "https://www.inaturalist.org/observations/229250649",
+   "source_url": "https://www.inaturalist.org/observations/65152635",
+   "width": 1600
+  },
+  {
+   "author": "Alejandro Bayer Tamayo from Armenia, Colombia",
+   "credit": "Atlapetes tricolor - Atlapetes tricolor",
+   "height": 1200,
+   "key_base": "photos/atlapetes-tricolor/4",
+   "kind": "photo",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sizes": {
+    "large": "photos/atlapetes-tricolor/4-large.jpg",
+    "medium": "photos/atlapetes-tricolor/4-medium.jpg",
+    "thumb": "photos/atlapetes-tricolor/4-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Atlapetes_tricolor_-_Atlapetes_tricolor_(14147498284).jpg",
    "width": 1600
   }
  ],
@@ -158,5 +158,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atlapetes%20crassus.jpg"
+ ]
 }

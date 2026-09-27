@@ -27,13 +27,13 @@
  "genus": "Rallus",
  "id": "rallus-aequatorialis",
  "ids": {
-  "avibase": null,
+  "avibase": "B3B3B0A0FBDCF0C2",
   "birdbase": 5769,
   "gbif": 2474825,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q3454163",
+  "xeno_canto": "Rallus-aequatorialis"
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,13 +41,13 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rallus_aequatorialis",
   "ebird": "https://ebird.org/species/virrai1",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Ecuadorian_rail",
+   "es": "https://es.wikipedia.org/wiki/Rallus_aequatorialis",
+   "ru": "https://ru.wikipedia.org/wiki/Rallus_aequatorialis"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Rallus+aequatorialis"
  },
@@ -59,56 +59,7 @@
   "ru": null
  },
  "order": "Gruiformes",
- "photos": [
-  {
-   "author": "sandy-espinozaf",
-   "credit": "(c) sandy-espinozaf, some rights reserved (CC BY)",
-   "height": 1200,
-   "key_base": "photos/rallus-aequatorialis/1",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "sizes": {
-    "large": "photos/rallus-aequatorialis/1-large.jpg",
-    "medium": "photos/rallus-aequatorialis/1-medium.jpg",
-    "thumb": "photos/rallus-aequatorialis/1-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/31677774",
-   "width": 1600
-  },
-  {
-   "author": "Esteban Poveda",
-   "credit": "(c) Esteban Poveda, some rights reserved (CC BY)",
-   "height": 1200,
-   "key_base": "photos/rallus-aequatorialis/2",
-   "kind": "photo",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "sizes": {
-    "large": "photos/rallus-aequatorialis/2-large.jpg",
-    "medium": "photos/rallus-aequatorialis/2-medium.jpg",
-    "thumb": "photos/rallus-aequatorialis/2-thumb.jpg"
-   },
-   "source_url": "https://www.inaturalist.org/observations/200943182",
-   "width": 1600
-  },
-  {
-   "author": "John Gerrard Keulemans",
-   "credit": "Catalogue of the birds in the British Museum (Vol. 23 Plate II)",
-   "height": 1123,
-   "key_base": "photos/rallus-aequatorialis/3",
-   "kind": "illustration",
-   "license": "Public domain",
-   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
-   "sizes": {
-    "large": "photos/rallus-aequatorialis/3-large.jpg",
-    "medium": "photos/rallus-aequatorialis/3-medium.jpg",
-    "thumb": "photos/rallus-aequatorialis/3-thumb.jpg"
-   },
-   "source_url": "https://commons.wikimedia.org/wiki/File:Rallus_aequatorialis_Keulemans.jpg",
-   "width": 1600
-  }
- ],
+ "photos": [],
  "sci_name": "Rallus aequatorialis",
  "sci_name_aco": "Rallus limicola",
  "sounds": [],
@@ -141,5 +92,8 @@
   "primary_habitat": "Wetland",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/RallusVirginianusKeulemans.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rallus%20aequatorialis%20Keulemans.jpg"
+ ]
 }
