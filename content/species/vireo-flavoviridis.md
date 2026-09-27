@@ -2,11 +2,12 @@
 id: vireo-flavoviridis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Бока, подхвостье и края груди ярко-жёлтые, центр низа белый"
-  - "Шапочка серая, почти без чёрной каймы; бровь белёсая, размытая"
+  - "Шапочка тускло-серая, без чёткой чёрной каймы; бровь белая, тёмная полоска от клюва к глазу"
   - "Спина оливково-зелёная, желтее, чем у красноглазого виреона; полос на крыле нет"
-  - "Глаз у взрослых красный, у молодых бурый"
+  - "Глаз у взрослых красновато-бурый, у молодых бурый"
 similar:
   - id: vireo-olivaceus
     how: "бока и подхвостье лишь с лёгким желтоватым налётом, бровь белая с чёткой чёрной каймой, голова контрастнее"
@@ -29,9 +30,9 @@ sources:
 en:
   key_features:
     - "Bright yellow flanks, undertail and breast sides; center of underparts white"
-    - "Gray cap with little or no black border; whitish, blurry eyebrow"
+    - "Dull gray cap without a sharp black border; white eyebrow, dark line from bill to eye"
     - "Olive-green back, yellower than Red-eyed Vireo; no wing bars"
-    - "Eye red in adults, brown in young birds"
+    - "Eye reddish-brown in adults, brown in young birds"
   similar:
     - id: vireo-olivaceus
       how: "flanks and undertail only faintly washed yellow, white eyebrow with a sharp black border, more contrasting head"
@@ -40,12 +41,12 @@ en:
   behavior: "Feeds in the canopy and mid-levels of edges, open woodland and gardens, scanning foliage. Autumn migrants often join mixed flocks and fruiting trees."
   voice: "Usually silent in winter quarters; the call is a nasal 'nyaah'. The song is faster and shorter than Red-eyed Vireo's."
 ---
-Yellow-green Vireo (зелёно-жёлтый виреон) гнездится от юга Техаса до Панамы, а зимует в северных Андах и на западе Амазонии; в Колумбии это пролётный мигрант, до 1 500 м. В начале октября основной поток птиц как раз идёт через страну на юг. Отличить его от красноглазого виреона бывает трудно даже в руках, поэтому смотри на яркую желтизну боков и подхвостья и на бледную голову без чёткого рисунка.
+Yellow-green Vireo (зелёно-жёлтый виреон) гнездится от юга Техаса до Панамы, а зимует в северных Андах и на западе Амазонии; в Колумбии он встречается на пролёте, а на юго-востоке, в западной Амазонии, и зимует, от низин до 1 500 м. В Центральной Америке большинство птиц снимается к середине октября, так что в дни тура пролёт через страну ещё идёт. Отличить его от красноглазого виреона бывает трудно даже в руках, поэтому смотри на яркую желтизну боков и подхвостья и на бледную голову без чёткого рисунка.
 
 На маршруте вид «возможно» на Финке Дискосура 7 октября и на Плайя-Рике 12 октября. У Боготы его находят в Ботаническом саду и в Ла-Флориде: они не входят в программу тура, это варианты для самостоятельного выезда из Боготы.
 
 ## English
 
-Yellow-green Vireo breeds from southern Texas to Panama and winters in the northern Andes and the western Amazon; in Colombia it is a passage migrant, up to 1,500 m. In early October the main flow of birds is moving south through the country. It can be hard to separate from Red-eyed Vireo even in the hand, so look at the bright yellow flanks and undertail and at the pale head without a sharp pattern.
+Yellow-green Vireo breeds from southern Texas to Panama and winters in the northern Andes and the western Amazon; in Colombia it occurs on passage and, in the south-east (the western Amazon), also winters, from the lowlands up to 1,500 m. Most birds leave Central America by mid-October, so passage through the country is still under way during the tour. It can be hard to separate from Red-eyed Vireo even in the hand, so look at the bright yellow flanks and undertail and at the pale head without a sharp pattern.
 
 On the route it is "maybe" at Finca Discosura on 7 October and at Playa Rica on 12 October. Near Bogotá it is found at the Botanical Garden and La Florida: they are not in the tour programme and are options for a self-organised trip from Bogotá.

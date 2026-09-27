@@ -2,6 +2,7 @@
 id: myiarchus-crinitus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь тёмно-серые, резко отделены от ярко-жёлтого брюха"
   - "Хвост снизу и внутренние опахала рулевых ярко-рыжие"
@@ -9,9 +10,9 @@ key_features:
   - "Верх оливково-бурый, густой хохол; клюв крупный, подклювье светлое у основания"
 similar:
   - id: myiarchus-panamensis
-    how: "хвост бурый без рыжего, на крыле беловатые каймы, серое горло бледнее; живёт у побережья круглый год"
+    how: "хвост бурый без рыжего, на крыле беловатые каймы, серое горло бледнее; осёдлый, на юго-западе держится у мангровых и прибрежных опушек"
   - id: myiarchus-tuberculifer
-    how: "мельче, шапочка почти чёрная, заметно темнее спины, клюв тоньше, рыжего в хвосте мало"
+    how: "мельче, шапочка сажисто-бурая или чёрная, заметно темнее спины, клюв тоньше; у колумбийских птиц каймы на крыле и хвосте светлые, не рыжие"
 behavior: "На зимовке держится в кронах опушек, вторичных лесов, садов и мангровых, редко спускается низко. Ловит насекомых бросками с присады и ест плоды."
 voice: "Громкое восходящее «уиип!», часто повторяемое, и быстрая серия «уит-уит-уит» при возбуждении."
 traits:
@@ -34,18 +35,18 @@ en:
     - "Olive-brown upperparts, bushy crest; large bill with a pale base to the lower mandible"
   similar:
     - id: myiarchus-panamensis
-      how: "brown tail without rufous, whitish wing edgings, paler gray throat; lives by the coast year-round"
+      how: "brown tail without rufous, whitish wing edgings, paler gray throat; resident, in the southwest along mangroves and coastal edges"
     - id: myiarchus-tuberculifer
-      how: "smaller, almost black cap clearly darker than the back, thinner bill, little rufous in the tail"
+      how: "smaller, sooty-brown or black cap clearly darker than the back, thinner bill; Colombian birds have pale, not rufous, edgings on wings and tail"
   behavior: "In winter it keeps to the canopy of edges, second growth, gardens and mangroves and seldom comes low. It sallies for insects from a perch and eats fruit."
   voice: "A loud rising 'wheep!', often repeated, and a quick 'whit-whit-whit' series when excited."
 ---
-Great Crested Flycatcher (хохлатый миарх) — крупный миарх, северный мигрант: гнездится на востоке США и Канады, а зимует от Мексики до Колумбии и Венесуэлы, в Колумбии в основном до 1 400 м. В октябре птицы только прилетают. Среди осёдлых миархов его выдают рыжий хвост снизу и тёмно-серая грудь с резкой границей жёлтого брюха.
+Great Crested Flycatcher (хохлатый миарх) — крупный миарх, северный мигрант: гнездится на востоке США и Канады, а зимует от Мексики до Колумбии и Венесуэлы, в Колумбии в основном до 1 400 м. В октябре птицы как раз прибывают на зимовку. Среди осёдлых миархов его выдают рыжий хвост снизу и тёмно-серая грудь с резкой границей жёлтого брюха.
 
 На маршруте вид «возможно» на Финке Марагрикола 22 октября. «Возможно» он и в Ботаническом саду Боготы и в Ла-Флориде, но это выезды вне программы тура. Проверяй каждого миарха в кронах у побережья.
 
 ## English
 
-Great Crested Flycatcher is a large Myiarchus and a northern migrant: it breeds in the eastern United States and Canada and winters from Mexico to Colombia and Venezuela, in Colombia mostly below 1,400 m. In October the birds are just arriving. Among the resident Myiarchus it is given away by the rufous underside of the tail and the dark gray breast sharply bordered by the yellow belly.
+Great Crested Flycatcher is a large Myiarchus and a northern migrant: it breeds in the eastern United States and Canada and winters from Mexico to Colombia and Venezuela, in Colombia mostly below 1,400 m. In October the birds are arriving on their wintering grounds. Among the resident Myiarchus it is given away by the rufous underside of the tail and the dark gray breast sharply bordered by the yellow belly.
 
 On the route it is "maybe" at Finca Maragrícola on 22 October. It is also "maybe" at the Bogotá Botanical Garden and La Florida, but those are optional trips outside the tour programme. Check every Myiarchus in the canopy near the coast.

@@ -2,6 +2,7 @@
 id: elaenia-brachyptera
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохолок небольшой, квадратный; белое пятно в шапочке почти всегда скрыто"
   - "Верх буровато-оливковый, вокруг глаза тонкое беловатое кольцо"
@@ -11,9 +12,9 @@ similar:
   - id: elaenia-flavogaster
     how: "крупнее, хохол густой, торчащий и раздвоенный, с заметным белым в середине; брюхо желтее"
   - id: elaenia-frantzii
-    how: "голова округлая, почти без хохолка, полосы на крыле желтоватые; держится выше, в облачном лесу"
+    how: "голова округлая, хохолок низкий, полосы на крыле желтовато-оливковые; держится выше, в горных редколесьях, на пастбищах с деревьями и опушках"
 behavior: "Держится на опушках, вырубках, в светлых перелесках и садах, обычно в кустах и подросте. Питание не изучено; вероятно, как у малой элении: насекомые и мелкие плоды."
-voice: "Надёжнее всего голос: на рассвете «тси… тси… чи-уи», днём картавое «бвир, уиб, вррр» и сухая трель около секунды."
+voice: "Надёжнее всего голос: на рассвете (у птиц западного склона) «тси… тси… чи-уи», днём картавое «бвир, уиб, вррр» и сухая трель около секунды."
 traits:
   size: sparrow
   colors: [olive, gray, yellow]
@@ -36,9 +37,9 @@ en:
     - id: elaenia-flavogaster
       how: "larger, with a bushy, erect, split crest showing obvious white in the middle; belly yellower"
     - id: elaenia-frantzii
-      how: "rounded head with hardly any crest, yellowish wing bars; lives higher, in cloud forest"
+      how: "rounded head with a low crest, yellowish-olive wing bars; lives higher, in montane open woodland, wooded pastures and edges"
   behavior: "Keeps to edges, clearings, open woodland and gardens, usually in shrubs and saplings. Its diet is unstudied; probably like Lesser Elaenia's: insects and small fruit."
-  voice: "Voice is the safest mark: at dawn 'tsee… tsee… chee-wee', by day a burry 'bweer, wheeb, wherrr' and a dry rattle lasting about a second."
+  voice: "Voice is the safest mark: at dawn (western-slope birds) 'tsee… tsee… chee-wee', by day a burry 'bweer, wheeb, wherrr' and a dry rattle lasting about a second."
 ---
 Coopmans's Elaenia (короткокрылая эления) выделена из малой элении (Lesser Elaenia) в отдельный вид только в 2016 году, и главным доводом был голос. В Колумбии она живёт на крайнем юго-западе, в Нариньо, на высотах 700–2 800 м: на опушках, вырубках, в светлых перелесках и садах. По виду это типичная мелкая эления с квадратным хохолком и двумя белыми полосами на крыле, и без голоса её надёжно не назвать.
 

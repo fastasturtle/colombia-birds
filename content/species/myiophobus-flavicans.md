@@ -2,6 +2,7 @@
 id: myiophobus-flavicans
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Жёлтое кольцо вокруг глаза и желтоватая черта над уздечкой на оливковом лице"
   - "Горло и весь низ жёлтые, на груди слабые оливковые пестринки"
@@ -9,11 +10,11 @@ key_features:
   - "Верх ровный оливковый; жёлтое или оранжевое пятно в шапочке самца обычно скрыто"
 similar:
   - id: myiophobus-phoenicomitra
-    how: "кольца вокруг глаза нет или оно неясное, подклювье розоватое; живёт ниже, в основном до 1 500 м"
+    how: "кольца вокруг глаза нет или оно неясное, подклювье розоватое; живёт ниже, в Колумбии до 1 550 м"
   - id: silvicultrix-diadema
-    how: "длинная ярко-жёлтая бровь на тёмной голове, кольца вокруг глаза нет; сидит у самой земли"
+    how: "жёлтые лоб и длинная бровь на тёмной голове, кольца вокруг глаза нет; сидит низко, в моховом подлеске"
 behavior: "Держится внутри и на опушках влажного горного леса, местами в бамбуке, от подлеска до среднего яруса; поодиночке или парами, в смешанные стаи идёт редко. Сидит вертикально и короткими бросками ловит насекомых в воздухе, на листьях и даже на земле."
-voice: "Голос слышен нечасто: быстрая ритмичная серия из 5–8 нот «кавик», позывки — резкое «чип», звонкое «тсью!» и «цинк»."
+voice: "Голос слышен нечасто: быстрая ритмичная серия из 5–8 нот «кавик»; позывки — резкое «чип», взрывное жестяное «тсью!» и отрывистое «цинк»."
 traits:
   size: sparrow
   colors: [olive, yellow]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Flavescent flycatcher (en), Myiophobus flavicans (es), CC BY-SA 4.0 — data/texts: окраска номинативного подвида, высоты в Колумбии, поведение, голос"
   - "content/species/myiophobus-phoenicomitra.md, silvicultrix-diadema.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Yellow-bellied chat-tyrant (en, CC BY-SA 4.0), https://en.wikipedia.org/wiki/Yellow-bellied_chat-tyrant — отличие (факт-чек)"
 en:
   key_features:
     - "Yellow eye-ring and yellowish line above the lores on an olive face"
@@ -34,11 +36,11 @@ en:
     - "Plain olive upperparts; the male's yellow or orange crown patch is usually hidden"
   similar:
     - id: myiophobus-phoenicomitra
-      how: "no eye-ring or only a faint one, pinkish lower mandible; lives lower, mostly below 1,500 m"
+      how: "no eye-ring or only a faint one, pinkish lower mandible; lives lower, in Colombia below 1,550 m"
     - id: silvicultrix-diadema
-      how: "long bright yellow eyebrow on a dark head, no eye-ring; perches close to the ground"
+      how: "yellow forehead and long eyebrow on a dark head, no eye-ring; perches low in the mossy understory"
   behavior: "Keeps inside and along the edges of humid montane forest, locally in bamboo, from the understory to the midstory; singly or in pairs, seldom in mixed flocks. It perches upright and sallies for insects in the air, on leaves and even on the ground."
-  voice: "Not often heard: a fast rhythmic series of 5–8 'kawhik' notes; calls include a sharp 'chip', a ringing 'tsew!' and 'tsink'."
+  voice: "Not often heard: a fast rhythmic series of 5–8 'kawhik' notes; calls include a sharp 'chip', an explosive, tinny 'tsew!' and a clipped 'tsink'."
 ---
 Flavescent Flycatcher (желтоватая курэта) — небольшой оливково-жёлтый мухолов горных лесов, в Колумбии на высотах 1 500–2 800 м во всех трёх хребтах Анд. На фоне множества похожих жёлтых тиранновых выделяется «очками»: жёлтым кольцом вокруг глаза и чертой над уздечкой. Держится невысоко и часто сидит неподвижно, поэтому его легко пропустить.
 

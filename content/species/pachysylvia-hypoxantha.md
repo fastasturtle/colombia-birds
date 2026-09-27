@@ -2,6 +2,7 @@
 id: pachysylvia-hypoxantha
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка тускло-оливково-бурая, темнее спины"
   - "Грудь и брюхо бледно-жёлтые, с лёгким охристым налётом"
@@ -13,7 +14,7 @@ similar:
   - id: tunchiornis-ochraceiceps
     how: "лоб желтоватый, темя желтовато-бурое, глаз светлый; держится в подлеске, а не в кронах"
 behavior: "Кормится в кронах и под пологом леса, деловито обыскивая листву, часто в смешанных стаях. Держится высоко, и увидеть его снизу удаётся ненадолго."
-voice: "Быстрая звонкая повторяющаяся фраза из нескольких нот; в стае слышно тихое носовое ворчание."
+voice: "Песня — очень высокая бодрая фраза «из-ит-со-уит» или «пичи-соуир»; позыв — сиплое «ди-ди»."
 traits:
   size: sparrow
   colors: [olive, yellow, brown]
@@ -38,7 +39,7 @@ en:
     - id: tunchiornis-ochraceiceps
       how: "yellowish forehead, yellow-brown crown, pale eye; keeps to the understory rather than the canopy"
   behavior: "Feeds in the canopy and subcanopy, busily searching foliage, often with mixed flocks. It stays high and can be seen from below only briefly."
-  voice: "A quick ringing phrase of a few notes, repeated; in a flock a soft nasal grumble."
+  voice: "The song is a very high, cheerful 'is-it-so-wit' or 'pichee-soweer'; the call a wheezy 'dee-dee'."
 ---
 Dusky-capped Greenlet (желтобрюхий виреончик) — мелкий виреончик крон амазонского леса, на твёрдой земле и в пойме. В Колумбии живёт номинативный подвид, на юго-востоке страны, обычно ниже 800 м. Это типичный участник смешанных стай в кронах: неприметная зеленовато-жёлтая птичка с бурой шапочкой, которую легко пропустить среди танагр и мухоловок.
 

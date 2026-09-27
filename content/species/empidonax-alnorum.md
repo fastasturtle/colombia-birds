@@ -2,6 +2,7 @@
 id: empidonax-alnorum
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх тускло-буровато-оливковый, шапочка чуть темнее спины"
   - "Узкое светлое кольцо вокруг глаза, иногда почти незаметное"
@@ -15,7 +16,7 @@ similar:
   - id: contopus-virens
     how: "крупнее, крылья длиннее, кольца вокруг глаза нет, хвостом не подёргивает; сидит выше на открытых ветках"
 behavior: "На пролёте и зимовке держится в кустарниках, на опушках, у зарастающих полей и у воды. Сидит на присаде невысоко, подёргивает хвостом вверх и бросается за насекомыми в воздух."
-voice: "Позыв — короткое «пип»; песня, хриплое трёхсложное «рри-БИ-о», на зимовке звучит редко."
+voice: "Позыв — короткое «пип»; песня, хрипловатое трёхсложное «фи-БИ-о», на зимовке звучит редко."
 traits:
   size: sparrow
   colors: [olive, white]
@@ -42,7 +43,7 @@ en:
     - id: contopus-virens
       how: "larger, longer wings, no eye-ring, does not flick its tail; perches higher on exposed branches"
   behavior: "On passage and in winter it keeps to scrub, edges, overgrown fields and waterside vegetation. It perches low, flicks its tail upward and sallies for insects in the air."
-  voice: "Call a short 'pip'; the song, a burry three-note 'rree-BEE-o', is rarely given in winter."
+  voice: "Call a short 'pip'; the song, a burry three-note 'fee-BEE-o', is rarely given in winter."
 ---
 Alder Flycatcher (лесной мухолов) — эмпидонакс, гнездящийся в зарослях ольхи и ивы на севере Северной Америки и зимующий в Южной Америке. Через Колумбию он пролетает осенью на юг, на пролёте поднимаясь в Андах до 2 500 м, так что в начале октября его вполне можно встретить. Молчащего Alder Flycatcher от Willow Flycatcher по виду не отличить, и в поле их часто записывают парой.
 

@@ -2,6 +2,7 @@
 id: phyllomyias-griseiceps
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка тёмно-серая, почти сажистая, резко темнее спины"
   - "Уздечка и бровь белые, через глаз тёмная полоска"
@@ -13,7 +14,7 @@ similar:
   - id: camptostoma-obsoletum
     how: "хохолок взъерошенный, на крыле две широкие светлые полосы, подклювье розоватое, брюхо бледнее"
 behavior: "Держится от среднего яруса до крон на опушках, во вторичных лесах, на кофейных и какаовых плантациях. Поодиночке или парами, иногда в смешанных стаях и на плодоносящих деревьях; ест насекомых и мелкие ягоды."
-voice: "Часто поёт с открытой ветки: звонкая фраза из коротких свистов с ударением на первом, «уип, уип-ди-ирип»."
+voice: "Часто поёт с открытой ветки: звонкая фраза из коротких чистых свистов с ударением на первом, например «уип, уип-ди-ирип»; в разных районах песня звучит по-разному."
 traits:
   size: sparrow
   colors: [olive, yellow, gray]
@@ -39,7 +40,7 @@ en:
     - id: camptostoma-obsoletum
       how: "ragged crest, two broad pale wing bars, pinkish lower mandible, paler belly"
   behavior: "Keeps from the midstory to the canopy at forest edges, in second growth and in coffee and cacao plantations. Singly or in pairs, sometimes in mixed flocks and at fruiting trees; eats insects and small berries."
-  voice: "Often sings from an open perch: an emphatic phrase of short whistles stressed on the first, 'whip, whip-di-irip'."
+  voice: "Often sings from an exposed perch: a forceful string of short, clear whistles with the first one accented, e.g. 'whip, whip-di-irip'; the song varies from region to region."
 ---
 Sooty-headed Tyrannulet (темношапочный москитеро) — крошечный москитеро полуоткрытых мест: опушек, вторичных лесов и плантаций, в Колумбии до 1 800 м. По виду он легко теряется среди других жёлтобрюхих мелочей в кронах, поэтому главный способ его найти — громкая звонкая песня, которую он поёт с открытой ветки. Смотри на тёмную шапочку, белую бровь и совсем маленький клюв.
 

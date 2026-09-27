@@ -2,6 +2,7 @@
 id: myiotheretes-fumigatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение целиком тёмное, дымчато-бурое, силуэт как у дрозда"
   - "Тонкая белая бровь на тёмном лице"
@@ -11,9 +12,9 @@ similar:
   - id: myiotheretes-striaticollis
     how: "горло белое в густых чёрных пестринах, брюхо корично-рыжее; сидит открыто на макушках кустов"
   - id: ochthoeca-fumicolor
-    how: "гораздо мельче, бровь широкая и заметная издалека, низ корично-рыжий"
+    how: "гораздо мельче, бровь широкая и заметная издалека, на крыле две рыжие полосы, низ корично-рыжий"
 behavior: "Держится поодиночке или парами в среднем ярусе и под кронами горного леса, на опушках и кустарниковых склонах, иногда в смешанных стаях. Подолгу сидит прямо и слетает за насекомыми."
-voice: "Негромкий протяжный свист, звучит нечасто; в определении голос помогает мало."
+voice: "Мягкий нисходящий свист «пиии» и тихий трёхсложный свист, сначала понижающийся, потом повышающийся; утренняя песня — неторопливая серия чистых свистов (описана по птицам Венесуэлы)."
 traits:
   size: thrush
   colors: [brown]
@@ -36,9 +37,9 @@ en:
     - id: myiotheretes-striaticollis
       how: "white throat densely streaked black, cinnamon-rufous belly; perches in the open on top of bushes"
     - id: ochthoeca-fumicolor
-      how: "much smaller, with a broad eyebrow visible from afar, cinnamon-rufous underparts"
+      how: "much smaller, with a broad eyebrow visible from afar, two rufous wing bars, cinnamon-rufous underparts"
   behavior: "Keeps singly or in pairs in the midstory and subcanopy of montane forest, at edges and on shrubby slopes, sometimes with mixed flocks. Perches upright for long spells and sallies for insects."
-  voice: "A soft drawn-out whistle, given infrequently; voice helps little in identification."
+  voice: "A soft down-slurred whistle 'peeee' and a quiet three-note slurred whistle that falls then rises; the dawn song is a halting series of clear whistles (described from Venezuelan birds)."
 ---
 Smoky Bush-Tyrant (дымчатая гевара) — крупный тиранн облачного и эльфийского леса Анд, в Колумбии на высотах примерно 2 000–3 600 м; здесь живёт номинативный подвид fumigatus. Внешне она больше похожа на тёмного дрозда, чем на тиранна: однотонная дымчато-бурая, с тонкой белой бровью, и только в полёте вспыхивают корично-рыжие пятна на крыльях. В отличие от пестрогорлой гевары, она держится внутри и по краю леса, а не на открытых кустах.
 

@@ -2,6 +2,7 @@
 id: ochthornis-littoralis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь песочно-бурый, низ чуть светлее спины, поясница бледная"
   - "Шапочка темнее спины, над глазом слабая беловатая бровь"
