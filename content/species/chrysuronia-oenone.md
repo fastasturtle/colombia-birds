@@ -2,6 +2,7 @@
 id: chrysuronia-oenone
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и горло самца фиолетово-синие, на свету сверкают"
   - "Хвост медно-золотой, ярко выделяется на фоне зелёного тела"
@@ -11,7 +12,7 @@ similar:
   - id: chionomesa-fimbriata
     how: "голова зелёная, посреди брюха белая полоса, хвост тёмный бронзово-зелёный"
   - id: thalurania-furcata
-    how: "хвост глубоко вильчатый, сине-чёрный; брюхо и плечи фиолетовые"
+    how: "хвост глубоко вильчатый, сине-чёрный; брюхо и полоса поперёк верха спины фиолетовые"
 behavior: "Держится на опушках и прогалинах, во вторичном лесу, в садах и на тенистых плантациях какао и кофе. Самцы кормятся в кронах цветущих эритрин и инг и шумно ссорятся там, самки облетают по кругу цветущие кусты в лесу."
 voice: "Ритмичная повторяющаяся фраза из хриплой ноты, нескольких писклявых и серии «чип»; также металлическая трель."
 traits:
@@ -21,7 +22,8 @@ traits:
   bill: medium
   layer: [canopy, midstory]
 sources:
-  - "Wikipedia: Golden-tailed sapphire (en, CC BY-SA 4.0)"
+  - "Wikipedia: Golden-tailed sapphire (en, CC BY-SA 4.0); Zafiro colidorado (es)"
+  - "Wikipedia: Glittering-throated emerald, Fork-tailed woodnymph (en; сверка отличий)"
   - "Данные проекта: data/species/chrysuronia-oenone.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -34,7 +36,7 @@ en:
     - id: chionomesa-fimbriata
       how: "green head, a white stripe down the centre of the belly, dark bronze-green tail"
     - id: thalurania-furcata
-      how: "deeply forked blue-black tail; violet belly and shoulders"
+      how: "deeply forked blue-black tail; violet belly and band across the upper back"
   behavior: "Keeps to edges and gaps, secondary forest, gardens and shady cacao and coffee plantations. Males feed in the crowns of flowering Erythrina and Inga trees and squabble noisily there; females trap-line flowering shrubs inside the forest."
   voice: "A rhythmic repeated phrase of a burry note, several squeaky notes and a series of chips; also a metallic trill."
 ---

@@ -2,6 +2,7 @@
 id: heliodoxa-aurescens
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поперёк груди самца широкая оранжево-рыжая полоса"
   - "Подбородок и верх горла бархатно-чёрные, бока горла золотисто-зелёные"
@@ -19,7 +20,8 @@ traits:
   bill: short
   layer: [understory]
 sources:
-  - "Wikipedia: Gould's jewelfront (en, CC BY-SA 4.0)"
+  - "Wikipedia: Gould's jewelfront (en, CC BY-SA 4.0); Brillante pechicastaño (es)"
+  - "Wikipedia: Black-throated brilliant (en; сверка отличий)"
   - "Данные проекта: data/species/heliodoxa-aurescens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:

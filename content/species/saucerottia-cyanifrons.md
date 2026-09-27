@@ -2,6 +2,7 @@
 id: saucerottia-cyanifrons
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка тёмно-синяя, цвета индиго, резко отделена от зелёной спины"
   - "Низ сплошь блестящий золотисто-зелёный, без светлых пятен"
@@ -11,7 +12,7 @@ similar:
   - id: saucerottia-saucerottei
     how: "темя зелёное, как спина, без синей шапочки"
   - id: amazilia-tzacatl
-    how: "хвост рыжий, клюв красный с чёрным кончиком, брюхо серовато-бурое"
+    how: "хвост рыжий, клюв красный с чёрным кончиком, брюхо серое"
 behavior: "Держится на опушках, в кустарниках, садах и на плантациях, чаще в верхнем ярусе. Обычно охраняет свои цветки и гоняет от них других колибри и мелких птиц; насекомых ловит в воздухе с присады в кроне."
 voice: "Повторяющаяся жужжащая писклявая фраза и резкое высокое «цит», иногда сериями."
 traits:
@@ -23,6 +24,7 @@ traits:
   layer: [canopy, midstory, feeder]
 sources:
   - "Wikipedia: Indigo-capped hummingbird (en, CC BY-SA 4.0)"
+  - "Wikipedia: Rufous-tailed hummingbird (en); Steely-vented hummingbird (https://en.wikipedia.org/wiki/Steely-vented_hummingbird) — сверка отличий"
   - "Данные проекта: data/species/saucerottia-cyanifrons.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -35,7 +37,7 @@ en:
     - id: saucerottia-saucerottei
       how: "crown green like the back, without a blue cap"
     - id: amazilia-tzacatl
-      how: "rufous tail, red bill with a black tip, grayish-brown belly"
+      how: "rufous tail, red bill with a black tip, gray belly"
   behavior: "Keeps to edges, scrub, gardens and plantations, mostly in the upper stratum. It usually defends its flowers, chasing off other hummingbirds and small birds; catches insects in sallies from a perch in the canopy."
   voice: "A repeated buzzy, squeaky phrase and a sharp, high 'tsit', sometimes in series."
 ---

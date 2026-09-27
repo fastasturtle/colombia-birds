@@ -2,6 +2,7 @@
 id: laterallus-exilis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и грудь светло-серые, горло белое"
   - "Затылок и задняя сторона шеи каштановые"
@@ -10,11 +11,11 @@ key_features:
   - "Крошечный пастушок размером с воробья"
 similar:
   - id: laterallus-albigularis
-    how: "лицо, бока шеи и грудь рыжие, серого на голове нет; тихоокеанская низменность"
+    how: "лицо, бока шеи и низ груди рыжие, горло и верх груди белые, серого на голове нет; тихоокеанская низменность"
   - id: laterallus-melanophaius
-    how: "бока шеи и груди рыжие, середина груди белая, серого нет"
-behavior: "Держится в густой траве на мелководье: по краям болот, рек и озёр, на сырых лугах и рисовых полях. Выходит на открытое место редко и ненадолго, чаще на рассвете."
-voice: "Серия чистых звонких «кик-кик-кик», иногда сухая трель; вид почти всегда только слышно."
+    how: "лицо и бока груди рыжие, середина груди белая, подхвостье рыжее, а не в полоску"
+behavior: "Держится в густой траве на мелководье: по краям болот, рек и озёр, на сырых лугах и рисовых полях. Выходит на открытое место редко и ненадолго."
+voice: "Серия из 2–10 звонких «тинк» или «кик», нисходящая мелодичная трель и тихое резкое «чек»; вид почти всегда только слышно."
 traits:
   size: sparrow
   colors: [gray, brown]
@@ -25,6 +26,7 @@ traits:
 sources:
   - "Wikipedia: Grey-breasted crake (en, CC BY-SA 4.0)"
   - "Wikipedia: Laterallus exilis (es, CC BY-SA 4.0)"
+  - "Wikipedia: White-throated crake, Rufous-sided crake (en; сверка отличий)"
   - "Данные проекта: data/species/laterallus-exilis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -36,11 +38,11 @@ en:
     - "Tiny sparrow-sized crake"
   similar:
     - id: laterallus-albigularis
-      how: "rufous face, neck sides and breast, no gray on the head; Pacific lowlands"
+      how: "rufous face, neck sides and lower breast, white throat and upper breast, no gray on the head; Pacific lowlands"
     - id: laterallus-melanophaius
-      how: "rufous sides of the neck and breast, white centre of the breast, no gray"
-  behavior: "Lives in dense grass over shallow water: marsh, river and lake edges, wet meadows and rice fields. Comes into the open rarely and briefly, mostly at dawn."
-  voice: "A series of clear ringing 'kik-kik-kik' notes, sometimes a dry trill; the species is almost always only heard."
+      how: "rufous face and breast sides, white centre of the breast, undertail rufous, not barred"
+  behavior: "Lives in dense grass over shallow water: marsh, river and lake edges, wet meadows and rice fields. Comes into the open rarely and briefly."
+  voice: "A series of 2–10 ringing 'tink' or 'keek' notes, a descending musical rattle and a quiet sharp 'check'; the species is almost always only heard."
 ---
 Gray-breasted Crake (серогрудый коростелёк) — крошечный пастушок, 14–15 см, сырых травянистых мест от Центральной Америки до Аргентины, в Колумбии до 1 700 м. Увидеть его — удача: птица почти не выходит из травы, и в определении главное — голос. Если всё же мелькнёт, смотри на сочетание серой груди и каштанового затылка.
 
