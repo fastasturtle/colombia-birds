@@ -2,6 +2,7 @@
 id: atlapetes-fuscoolivaceus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова тёмная, буровато-оливково-чёрная, без рисунка на темени"
   - "Жёлтое горло и жёлтые «усы» под тёмной щекой"
@@ -9,11 +10,11 @@ key_features:
   - "Спина, крылья и хвост тёмно-оливковые, почти без контраста"
 similar:
   - id: atlapetes-albinucha
-    how: "голова чёрная с белой полосой по темени и затылку, горло ярко-жёлтое"
+    how: "голова чёрная с белой полосой по темени и затылку; жёлтое только горло, низ серый"
   - id: arremon-brunneinucha
     how: "темя каштановое, горло белое, на груди чёрная перевязь, низ серо-белый, а не жёлтый"
-behavior: "Держится парами в густых низких кустах на опушках, вырубках, во вторичном лесу и на заросших пастбищах. Кормится у земли и в нижнем ярусе, иногда пристаёт к микст-флокам."
-voice: "Тонкие высокие «цип» и короткие щебечущие песенки из кустов."
+behavior: "Держится парами в густых низких кустах на опушках, вырубках, во вторичном лесу и на заросших пастбищах. Кормится парами или небольшими группами у земли и в листве до высоты около 6 м."
+voice: "Песня — упругая, подпрыгивающая серия «суи-си чипи»; пары поют дуэтом из нескольких частей («ти-ти-ти…, ч-ч-ч…, чью чью чью»); позыв — высокое «сиип»."
 traits:
   size: thrush
   colors: [yellow, olive, black]
@@ -34,11 +35,11 @@ en:
     - "Back, wings and tail dark olive, with almost no contrast"
   similar:
     - id: atlapetes-albinucha
-      how: "black head with a white stripe along the crown and nape, bright yellow throat"
+      how: "black head with a white stripe along the crown and nape; only the throat is yellow, underparts gray"
     - id: arremon-brunneinucha
       how: "chestnut crown, white throat, black breast band, underparts grayish-white rather than yellow"
-  behavior: "Keeps in pairs in dense low bushes at edges, clearings, secondary forest and overgrown pastures. Feeds near the ground and in the lower storey, sometimes joining mixed flocks."
-  voice: "Thin high 'tsip' notes and short twittering songs from the bushes."
+  behavior: "Keeps in pairs in dense low bushes at edges, clearings, secondary forest and overgrown pastures. Forages in pairs or small groups on the ground and in foliage up to about 6 m."
+  voice: "The song is a springy, bouncy series of 'swee-see chipi' notes; pairs duet in several parts ('ti-ti-ti…, tch-tch-tch…, chew chew chew'); the call is a high 'seep'."
 ---
 Dusky-headed Brushfinch (темноголовая атлапета) — эндемик Колумбии с крошечным ареалом: верховья Магдалены в Уиле, на высотах 1 600–2 400 м. Вид почти угрожаемый (NT), в национальной Красной книге — уязвимый (VU). Внешне скромная атлапета, но для этого тура она из главных целей в Уиле: больше её почти нигде не увидеть.
 

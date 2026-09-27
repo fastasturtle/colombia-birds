@@ -2,6 +2,7 @@
 id: setophaga-cerulea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Две белые полосы на крыле у птиц любого возраста"
   - "Верх у самца небесно-голубой, спина с тёмными пестринами"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Cerulean warbler (en, CC BY-SA 4.0)"
   - "Wikipedia: Setophaga cerulea (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/setophaga-cerulea.json (ACO 2022, BIRDBASE 2025, Libro Rojo), data/site_species.json (GBIF)"
+  - "Partners in Flight: Cerulean Warbler (сроки осенней миграции, по сниппету поиска), https://partnersinflight.org/species/14179/"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -42,10 +44,10 @@ en:
 ---
 Cerulean Warbler (голубоватая древесница) — северный мигрант, гнездится в лиственных лесах востока США и зимует в Андах, в основном на восточном склоне, на высотах около 500–2 000 м. Вид уязвимый (VU) по ACO и национальной Красной книге, численность падает из-за вырубки лесов в местах зимовки. Сквозь листву голубого самца видно плохо: чаще замечаешь белые полосы на крыле и белое брюхо над головой.
 
-На маршруте она «возможна» в Эль-Энканто 4 и 6 октября, в Ла-Дримофиле 5 октября и в Чикаке 3 и 24 октября. Первые птицы прилетают как раз в конце сентября – начале октября.
+На маршруте она «возможна» в Эль-Энканто 4 и 6 октября, в Ла-Дримофиле 5 октября и в Чикаке 3 и 24 октября. Этот вид улетает с гнездовий одним из первых, и часть птиц достигает Южной Америки уже к концу августа, так что в октябре зимовщики на месте.
 
 ## English
 
 Cerulean Warbler is a boreal migrant that breeds in the deciduous forests of the eastern US and winters in the Andes, mainly on the eastern slope, at about 500–2,000 m. It is Vulnerable (VU) according to ACO and the national Red Book, and its numbers are falling because of forest clearance on the wintering grounds. The blue male is hard to see through leaves: more often you notice the white wing bars and white belly overhead.
 
-On the route it is "maybe" at El Encanto on 4 and 6 October, La Drymophila on 5 October and Chicaque on 3 and 24 October. The first birds arrive right at the end of September and the start of October.
+On the route it is "maybe" at El Encanto on 4 and 6 October, La Drymophila on 5 October and Chicaque on 3 and 24 October. It is one of the first warblers to leave the breeding grounds, and some birds reach South America by late August, so in October the wintering birds are in place.

@@ -2,10 +2,11 @@
 id: catamblyrhynchus-diadema
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Лоб золотисто-жёлтый, бархатный, из коротких жёстких перьев; за ним тёмная полоса"
+  - "Лоб золотисто-жёлтый, бархатный, из коротких жёстких перьев; затылок чёрный"
   - "Лицо и весь низ насыщенно-каштановые"
-  - "Спина и крылья серые"
+  - "Спина и крылья голубовато-серые"
   - "Клюв очень короткий, толстый, чёрный, как обрубленный"
 similar:
   - id: iridosornis-rufivertex
@@ -13,7 +14,7 @@ similar:
   - id: conirostrum-rufum
     how: "клюв тонкий и острый, рыжие лоб и бровь, золотого бархатного лба нет"
 behavior: "Держится парами в зарослях бамбука чускеа в облачном лесу, часто в микст-флоках. Лазает по стеблям, нередко вниз головой, и расковыривает узлы и листовые влагалища в поисках насекомых."
-voice: "Обычно молчалив; песня — долгая беспорядочная серия цыканий и щебета, почти как у колибри."
+voice: "Обычно молчалив; подаёт голос долгой серией цыканий и щебета."
 traits:
   size: sparrow
   colors: [rufous, gray, yellow]
@@ -29,9 +30,9 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Golden-yellow velvety forehead of short stiff feathers, with a dark band behind it"
+    - "Golden-yellow velvety forehead of short stiff feathers; black nape"
     - "Face and entire underparts rich chestnut"
-    - "Gray back and wings"
+    - "Bluish-gray back and wings"
     - "Very short, thick black bill that looks cut off"
   similar:
     - id: iridosornis-rufivertex
@@ -39,7 +40,7 @@ en:
     - id: conirostrum-rufum
       how: "thin sharp bill, rufous forehead and brow, no golden velvet forehead"
   behavior: "Keeps in pairs in Chusquea bamboo inside cloud forest, often in mixed flocks. Clambers along stems, often upside down, and pries open nodes and leaf sheaths for insects."
-  voice: "Usually quiet; the song is a long random series of chips and twitters, almost hummingbird-like."
+  voice: "Usually quiet; when it calls, it gives a long series of chips and twitters."
 ---
 Plushcap (плюшевоголов) — единственный вид своего рода, долго считавшийся отдельным семейством, сейчас его относят к танаграм. Живёт во влажном горном лесу на высотах 1 800–3 500 м и почти всегда связан с бамбуком. Плюшевый золотой лоб — будто кусочек бархата, и в густом бамбуке первым делом видишь именно его и каштановую грудь.
 
