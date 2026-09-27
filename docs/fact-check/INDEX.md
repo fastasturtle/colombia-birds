@@ -3,11 +3,11 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 811
+- Карточек: 842
 - Проверено: 723
-- Не проверено: 88
+- Не проверено: 119
 
-## Не проверено (88)
+## Не проверено (119)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -57,13 +57,44 @@
 | colaptes-rubiginosus | Golden-olive Woodpecker | Туканы, бородатки и дятлы |
 | pionus-sordidus | Red-billed Parrot | Попугаи |
 | ara-militaris | Military Macaw | Попугаи |
+| thamnophilus-tenuepunctatus | Lined Antshrike | Муравьеловки, печники и древолазы |
+| thamnophilus-unicolor | Uniform Antshrike | Муравьеловки, печники и древолазы |
 | thamnistes-anabatinus | Russet Antshrike | Муравьеловки, печники и древолазы |
+| dysithamnus-mentalis | Plain Antvireo | Муравьеловки, печники и древолазы |
+| thamnomanes-ardesiacus | Dusky-throated Antshrike | Муравьеловки, печники и древолазы |
+| myrmotherula-ignota | Moustached Antwren | Муравьеловки, печники и древолазы |
+| myrmotherula-axillaris | White-flanked Antwren | Муравьеловки, печники и древолазы |
 | microrhopias-quixensis | Dot-winged Antwren | Муравьеловки, печники и древолазы |
+| hypocnemis-peruviana | Peruvian Warbling-Antbird | Муравьеловки, печники и древолазы |
+| cercomacroides-serva | Black Antbird | Муравьеловки, печники и древолазы |
+| pyriglena-maura | Western Fire-eye | Муравьеловки, печники и древолазы |
+| sclateria-naevia | Silvered Antbird | Муравьеловки, печники и древолазы |
+| myrmeciza-longipes | White-bellied Antbird | Муравьеловки, печники и древолазы |
+| hafferia-fortis | Sooty Antbird | Муравьеловки, печники и древолазы |
+| pithys-albifrons | White-plumed Antbird | Муравьеловки, печники и древолазы |
+| gymnopithys-leucaspis | White-cheeked Antbird | Муравьеловки, печники и древолазы |
 | phlegopsis-nigromaculata | Black-spotted Bare-eye | Муравьеловки, печники и древолазы |
+| grallaria-squamigera | Undulated Antpitta | Муравьеловки, печники и древолазы |
+| grallaria-nuchalis | Chestnut-naped Antpitta | Муравьеловки, печники и древолазы |
+| grallaria-flavotincta | Yellow-breasted Antpitta | Муравьеловки, печники и древолазы |
+| grallaricula-flavirostris | Ochre-breasted Antpitta | Муравьеловки, печники и древолазы |
+| scytalopus-atratus | White-crowned Tapaculo | Муравьеловки, печники и древолазы |
+| formicarius-nigricapillus | Black-capped Antthrush | Муравьеловки, печники и древолазы |
 | sclerurus-obscurior | South American Leaftosser | Муравьеловки, печники и древолазы |
+| dendrocincla-fuliginosa | Plain-brown Woodcreeper | Муравьеловки, печники и древолазы |
+| dendrexetastes-rufigula | Cinnamon-throated Woodcreeper | Муравьеловки, печники и древолазы |
+| xiphorhynchus-ocellatus | Ocellated Woodcreeper | Муравьеловки, печники и древолазы |
 | xiphorhynchus-guttatus | Buff-throated Woodcreeper | Муравьеловки, печники и древолазы |
+| xiphorhynchus-triangularis | Olive-backed Woodcreeper | Муравьеловки, печники и древолазы |
+| pseudocolaptes-johnsoni | Pacific Tuftedcheek | Муравьеловки, печники и древолазы |
 | premnornis-guttuliger | Rusty-winged Barbtail | Муравьеловки, печники и древолазы |
+| anabacerthia-ruficaudata | Rufous-tailed Foliage-gleaner | Муравьеловки, печники и древолазы |
+| dendroma-rufa | Buff-fronted Foliage-gleaner | Муравьеловки, печники и древолазы |
+| thripadectes-ignobilis | Uniform Treehunter | Муравьеловки, печники и древолазы |
+| thripadectes-virgaticeps | Streak-capped Treehunter | Муравьеловки, печники и древолазы |
 | margarornis-stellatus | Fulvous-dotted Treerunner | Муравьеловки, печники и древолазы |
+| synallaxis-albescens | Pale-breasted Spinetail | Муравьеловки, печники и древолазы |
+| synallaxis-unirufa | Rufous Spinetail | Муравьеловки, печники и древолазы |
 | cyclarhis-nigrirostris | Black-billed Peppershrike | Ласточки, крапивники, дрозды и другие |
 | pachysylvia-hypoxantha | Dusky-capped Greenlet | Ласточки, крапивники, дрозды и другие |
 | pachysylvia-semibrunnea | Rufous-naped Greenlet | Ласточки, крапивники, дрозды и другие |
