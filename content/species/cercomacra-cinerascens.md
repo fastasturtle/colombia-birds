@@ -2,6 +2,7 @@
 id: cercomacra-cinerascens
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост длинный, черновато-серый, с широкими белыми пятнами на концах перьев"
   - "Самец ровно тёмно-серый, на крыле лишь слабые белые точки"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Plain-winged antshrike, Dusky-throated antshrike (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/cercomacra-cinerascens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Long blackish-gray tail with broad white spots at the feather tips"

@@ -2,6 +2,7 @@
 id: nasica-longirostris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень длинный, почти прямой, светлый, цвета слоновой кости"
   - "Голова маленькая, шея длинная; белые бровь, горло и передняя часть шеи"
@@ -9,9 +10,9 @@ key_features:
   - "Грудь в чёрно-белых пестринах; очень крупный, около 35 см"
 similar:
   - id: dendroplex-picus
-    how: "почти вдвое мельче, клюв короткий и прямой, горло в тёмной чешуе, белой брови нет"
+    how: "почти вдвое мельче, клюв короткий и прямой, горло в тёмной чешуе, бровь неясная"
   - id: xiphorhynchus-guttatus
-    how: "мельче, клюв короче и темнее, слегка изогнут, горло охристое, без белой брови"
+    how: "мельче, клюв короче, толще и заметнее изогнут, горло охристое, без белой брови"
 behavior: "Держится у воды: в заливном лесу-варзее, в прибрежных и болотистых лесах и на лесистых речных островах. Обычно поодиночке или парой лезет по стволам и толстым ветвям от среднего яруса до кроны и копается в пучках листьев и пальмовых вайях."
 voice: "Поёт днём, но нечасто: громкие, далеко слышные, жалобные протяжные свисты «туууууу-ó-уу», по 3–4 в серии."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Straight-billed woodcreeper, Buff-throated woodcreeper (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/nasica-longirostris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Very long, almost straight, pale ivory bill"
@@ -34,9 +36,9 @@ en:
     - "Breast streaked black and white; very large, about 35 cm"
   similar:
     - id: dendroplex-picus
-      how: "almost half the size, short straight bill, throat scaled dark, no white eyebrow"
+      how: "almost half the size, short straight bill, throat scaled dark, eyebrow indistinct"
     - id: xiphorhynchus-guttatus
-      how: "smaller, shorter darker bill, slightly curved, buff throat, no white eyebrow"
+      how: "smaller, shorter, heavier and more curved bill, buff throat, no white eyebrow"
   behavior: "Keeps near water: in várzea flooded forest, riverside and swamp forest and on forested river islands. Usually singly or in pairs, it climbs trunks and thick branches from the mid-storey to the canopy and probes leaf clusters and palm fronds."
   voice: "Sings by day, but not often: loud, far-carrying, plaintive drawn-out whistles, 'twoooooo-ó-oo', 3–4 in a series."
 ---

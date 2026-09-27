@@ -2,6 +2,7 @@
 id: akletos-melanoceps
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вокруг глаза кольцо голой голубой кожи, радужка красная"
   - "Самец целиком чёрный, маленькое белое пятно на плече видно в основном в полёте"
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: White-shouldered antbird (en, CC BY-SA 4.0) — окраска, местообитания, высоты, голос"
   - "Данные проекта: data/species/akletos-melanoceps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось; отличие Black Antbird по памяти (нет data/texts)"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Ring of bare blue skin around the eye, red iris"

@@ -2,6 +2,7 @@
 id: dendroplex-picus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв светлый, прямой, как кинжал: верх прямой, подклювье загнуто вверх"
   - "Горло беловато-охристое в тёмной чешуе, переходящей на верх груди"
@@ -9,7 +10,7 @@ key_features:
   - "Спина рыжевато-бурая, поясница, крылья и хвост рыже-каштановые"
 similar:
   - id: xiphorhynchus-guttatus
-    how: "крупнее, клюв длинный, тёмный и слегка изогнутый, горло охристое без чешуи"
+    how: "крупнее, клюв длиннее, толще и слегка изогнут (у амазонских птиц светло-роговой), горло охристое без чешуи"
   - id: nasica-longirostris
     how: "почти вдвое крупнее, клюв очень длинный, белые бровь и горло, спина ярко-рыжая"
 behavior: "Древолаз полуоткрытых низин: опушек, вторичного и заливного леса, речных островов и плантаций. Обычно поодиночке лезет по стволам и веткам от верха подлеска до подкроны, склёвывая добычу с коры."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Buff-throated woodcreeper, Long-billed woodcreeper (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/dendroplex-picus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Pale, straight, dagger-like bill: straight culmen, lower mandible curving up"
@@ -34,7 +36,7 @@ en:
     - "Rufous-brown back; rufous-chestnut rump, wings and tail"
   similar:
     - id: xiphorhynchus-guttatus
-      how: "larger, long dark slightly curved bill, buff throat without scaling"
+      how: "larger, longer, heavier and slightly curved bill (pale horn in Amazonian birds), buff throat without scaling"
     - id: nasica-longirostris
       how: "almost twice as large, very long bill, white eyebrow and throat, bright rufous back"
   behavior: "A woodcreeper of semi-open lowlands: edges, second growth and flooded forest, river islands and plantations. Usually alone, it climbs trunks and branches from the top of the understory to the subcanopy, gleaning prey from bark."

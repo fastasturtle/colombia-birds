@@ -2,10 +2,11 @@
 id: taraba-major
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глаз ярко-красный, клюв массивный, чёрный, с крючком"
   - "Самец: верх чёрный с белыми полосами на крыле, низ чисто белый"
-  - "Самка: верх рыже-коричный, низ белый, на голове тоже хохол"
+  - "Самка: верх рыже-коричный, низ белый с коричным налётом, тоже с хохлом"
   - "Крупная, с дрозда, лохматый хохол; держится низко в густых зарослях"
 similar:
   - id: thamnophilus-doliatus
@@ -26,11 +27,12 @@ sources:
   - "Wikipedia: Barred antshrike (en, CC BY-SA 4.0) — отличие T. doliatus"
   - "Данные проекта: data/species/taraba-major.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Bright red eye; heavy black hooked bill"
     - "Male: black above with white wing bars, clean white below"
-    - "Female: rufous-cinnamon above, white below, also crested"
+    - "Female: rufous-cinnamon above, white below washed cinnamon, also crested"
     - "Large, thrush-sized, with a shaggy crest; keeps low in dense thickets"
   similar:
     - id: thamnophilus-doliatus

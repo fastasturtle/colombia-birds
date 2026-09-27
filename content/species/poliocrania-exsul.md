@@ -2,6 +2,7 @@
 id: poliocrania-exsul
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вокруг глаза пятно голой бледно-голубой кожи у обоих полов"
   - "Спина, крылья и хвост тёмно-каштановые, резко отделены от чёрной головы"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/poliocrania-exsul.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/hafferia-zeledoni.md, content/species/sipia-nigricauda.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Patch of bare pale-blue skin around the eye in both sexes"
@@ -40,12 +42,12 @@ en:
   behavior: "Pairs and family groups keep near the ground in dense understory, vine tangles and old treefall gaps. Sometimes feeds at army-ant swarms."
   voice: "An easily recognized and easily imitated whistle of 2–3 notes, 'peh, peeea' or 'peh, pheh, peeea', rendered in English as 'come here'."
 ---
-Chestnut-backed Antbird (коричневоспинная муравьеловка) — муравьеловка влажных низинных лесов, в Колумбии до 700 м, местами до 1 200 м. На тихоокеанском склоне от Чоко до Эквадора живёт подвид maculifer с белыми точками на крыле; его иногда выделяют в отдельный вид, Short-tailed Antbird. В полумраке подлеска сначала бросается в глаза голубое пятно у глаза, потом каштановая спина. Её громкий двух-трёхсложный свист легко подманить, повторив его.
+Chestnut-backed Antbird (коричневоспинная муравьеловка) — муравьеловка влажных низинных лесов, в Колумбии до 700 м, местами до 1 200 м. На тихоокеанском склоне от Чоко до Эквадора живёт подвид maculifer с белыми точками на крыле; его иногда выделяют в отдельный вид, Short-tailed Antbird. В полумраке подлеска сначала бросается в глаза голубое пятно у глаза, потом каштановая спина. Её громкий двух-трёхсложный свист легко узнать и легко повторить.
 
 На маршруте вид «возможно» на Км 42 21 октября и на Финке Марагрикола 22 октября.
 
 ## English
 
-Chestnut-backed Antbird is an antbird of humid lowland forest, in Colombia up to 700 m, locally to 1,200 m. The Pacific slope from Chocó to Ecuador holds the subspecies maculifer, with white wing dots; it is sometimes split as a separate species, Short-tailed Antbird. In the gloom of the understory the blue patch at the eye catches the eye first, then the chestnut back. Its loud two- or three-note whistle is easy to call in by imitating it.
+Chestnut-backed Antbird is an antbird of humid lowland forest, in Colombia up to 700 m, locally to 1,200 m. The Pacific slope from Chocó to Ecuador holds the subspecies maculifer, with white wing dots; it is sometimes split as a separate species, Short-tailed Antbird. In the gloom of the understory the blue patch at the eye catches the eye first, then the chestnut back. Its loud two- or three-note whistle is easy to recognize and easy to imitate.
 
 On the route it is "maybe" at Km 42 on 21 October and at Finca Maragrícola on 22 October.

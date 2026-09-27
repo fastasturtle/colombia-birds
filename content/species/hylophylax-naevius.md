@@ -2,8 +2,9 @@
 id: hylophylax-naevius
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Белая грудь в крупных чёрных пятнах, особенно поперёк груди и по бокам"
+  - "Грудь в крупных чёрных пятнах поперёк и по бокам; у самца низ белый, у самки охристый"
   - "Горло самца чёрное, у самки белое с чёрной полосой под ним"
   - "Спина чёрная в светлых охристых точках, между лопатками белое пятно"
   - "Кроющие крыла чёрные с широкими белыми или охристыми концами"
@@ -27,9 +28,10 @@ sources:
   - "content/species/dichrozona-cincta.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/hylophylax-naevius.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
-    - "White breast with large black spots, especially across the breast and along the sides"
+    - "Large black spots across the breast and along the sides; white below in the male, buff in the female"
     - "Male has a black throat; female a white throat with a black band below it"
     - "Black back with pale buff dots; white patch between the shoulders"
     - "Black wing coverts with broad white or buff tips"

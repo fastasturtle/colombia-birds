@@ -2,6 +2,7 @@
 id: lepidocolaptes-souleyetii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв тонкий, светлый, розовато-роговой, заметно изогнутый"
   - "Шапка и затылок тёмные в резких светлых продольных штрихах"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Montane woodcreeper, Spotted woodcreeper (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/lepidocolaptes-souleyetii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Thin, pale pinkish-horn bill, noticeably curved"

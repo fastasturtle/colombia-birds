@@ -2,11 +2,12 @@
 id: thamnophilus-atrinucha
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец аспидно-серый, шапочка чёрная, лоб серый"
   - "Крылья чёрные с белыми концами кроющих и светлой каймой маховых"
   - "Хвост чёрный с белыми пятнами на концах всех перьев"
-  - "Самка бурая, с рыжевато-бурой шапочкой и белыми точками на тёмных крыльях"
+  - "Самка сверху бурая, снизу буровато-серая, на тёмных крыльях светлые кончики перьев"
   - "Клюв толстый, с крючком на конце"
 similar:
   - id: dysithamnus-puncticeps
@@ -14,7 +15,7 @@ similar:
   - id: cercomacra-nigricans
     how: "самец угольно-чёрный целиком, шапочка не выделяется, хвост длиннее; самка с белыми штрихами на груди"
 behavior: "Держится парами в подлеске и среднем ярусе, почти всегда присоединяется к проходящим микст-флокам. Кормится неторопливо: сидит, осматривается, склёвывает добычу с листьев и веток."
-voice: "Ускоряющаяся серия гнусавых нот, которая заканчивается резким акцентированным звуком; поют оба партнёра."
+voice: "Ускоряющаяся серия гнусавых нот, которая заканчивается одной резкой более высокой нотой; поют оба партнёра. Позыв — хриплое «арр-арр»."
 traits:
   size: sparrow
   colors: [gray, black, white]
@@ -27,12 +28,13 @@ sources:
   - "Данные проекта: data/species/thamnophilus-atrinucha.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/dysithamnus-puncticeps.md, content/species/cercomacra-nigricans.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (Wikipedia en/es/ru) для вида и похожих видов"
 en:
   key_features:
     - "Male slaty gray with a black cap and gray forehead"
     - "Black wings with white-tipped coverts and pale-edged flight feathers"
     - "Black tail with white spots at the tips of all feathers"
-    - "Female brown, with a rufous-brown cap and white dots on dark wings"
+    - "Female brown above, grayish brown below, pale feather tips on dark wings"
     - "Thick bill with a hook at the tip"
   similar:
     - id: dysithamnus-puncticeps
@@ -40,7 +42,7 @@ en:
     - id: cercomacra-nigricans
       how: "male wholly jet black, cap not set off, tail longer; female with white streaks on the breast"
   behavior: "Keeps in pairs in the understory and midstory and almost always joins passing mixed flocks. Forages deliberately: perches, looks around, then picks prey off leaves and twigs."
-  voice: "An accelerating series of nasal notes ending in a sharp, emphatic note; both members of the pair sing."
+  voice: "An accelerating series of nasal notes ending in a single sharp, higher note; both members of the pair sing. The call is a hoarse 'arr-arr'."
 ---
 Black-crowned Antshrike (пестрокрылый колючник) — обычный колючник низменных и предгорных лесов тихоокеанской Колумбии и долины Магдалены, от уровня моря до 1 500 м. Держится и в глубине леса, и на опушках, и во вторичном лесу. На острове Горгона живёт свой подвид gorgonae.
 
