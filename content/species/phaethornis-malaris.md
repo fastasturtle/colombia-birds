@@ -2,6 +2,7 @@
 id: phaethornis-malaris
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень длинный, плавно изогнутый, заметно длиннее, чем у соседних отшельников"
   - "Центральные рулевые длинные, с широкими белыми концами"
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: Great-billed hermit (en), Phaethornis malaris (es), CC BY-SA 4.0 — data/texts: размеры, подвиды, окраска, голос"
   - "Wikipedia: Straight-billed hermit, White-bearded hermit (en, CC BY-SA 4.0); content/species/eutoxeres-condamini.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — размеры, окраска, подвид moorei на юге Колумбии, кормёжка, голос"
 en:
   key_features:
     - "Very long, evenly decurved bill, clearly longer than in neighbouring hermits"

@@ -2,6 +2,7 @@
 id: geotrygon-montana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец сверху целиком рыже-каштановый, с пурпурным отливом на спине"
   - "Под глазом светлая охристая полоса, под ней рыжая «усовая» полоска"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/geotrygon-montana.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/zentrygon-linearis.md, content/species/leptotila-verreauxi.md — согласованность описаний похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — окраска, биотоп, чувствительность к дроблению леса"
 en:
   key_features:
     - "Male wholly rufous-chestnut above, with a purple sheen on the back"

@@ -2,6 +2,7 @@
 id: zentrygon-frenata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло чисто белое, ниже шея и грудь серые"
   - "Темя голубовато-серое, лоб и низ лица охристые, под щекой тёмная полоска"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/zentrygon-frenata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/zentrygon-linearis.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — размеры, окраска, подвиды, высоты 900–3 000 м, голос"
 en:
   key_features:
     - "Clean white throat; neck and breast gray below it"

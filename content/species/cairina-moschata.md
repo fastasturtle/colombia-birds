@@ -2,6 +2,7 @@
 id: cairina-moschata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Дикая птица почти целиком чёрная с зелёным и фиолетовым блеском"
   - "Большое белое пятно на крыле, в полёте хорошо заметное сверху и снизу"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/cairina-moschata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Карточка content/species/dendrocygna-autumnalis.md — отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — размеры, окраска дикой формы, наросты, высоты (es: до 1 000 м)"
 en:
   key_features:
     - "Wild bird almost wholly black with a green and purple gloss"

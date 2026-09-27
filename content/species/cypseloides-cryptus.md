@@ -2,6 +2,7 @@
 id: cypseloides-cryptus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный плотный тёмно-бурый стриж с коротким квадратным хвостом"
   - "Подбородок белый, над глазом короткий белый штрих; видно только вблизи"
@@ -11,7 +12,7 @@ similar:
   - id: cypseloides-cherriei
     how: "мельче, с яркими белыми точками у клюва и за глазом"
   - id: streptoprocne-rutila
-    how: "мельче и стройнее, хвост шире, с вырезкой; у взрослых рыжий воротник, подбородок не белый"
+    how: "мельче и стройнее, хвост шире, с вырезкой; у взрослых самцов рыжий воротник (у самок он мал или его нет), подбородок не белый"
 behavior: "Охотится стайками, часто вместе с другими стрижами, над горным и низинным лесом, пастбищами и молодым вторичным лесом. Гнездится на скалах у водопадов; в Колумбии гнёзда не найдены."
 voice: "Резкие отрывистые щелчки, более мелодичное чириканье и сухие одиночные «тик»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-chinned swift (en), Cypseloides cryptus (es), Белогорлый американский стриж (ru), CC BY-SA 4.0 — data/texts: размеры, окраска, полёт, распространение, гнездование, голос"
   - "content/species/cypseloides-cherriei.md, content/species/streptoprocne-zonaris.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — окраска, хвост, полёт, места гнёзд (только Коста-Рика и Бразилия), голос; у самок S. rutila воротник мал или отсутствует (en.wikipedia)"
 en:
   key_features:
     - "Large, stocky dark brown swift with a short square tail"
@@ -36,7 +38,7 @@ en:
     - id: cypseloides-cherriei
       how: "smaller, with bright white spots by the bill and behind the eye"
     - id: streptoprocne-rutila
-      how: "smaller and slimmer, broader notched tail; adults have a rufous collar, chin not white"
+      how: "smaller and slimmer, broader notched tail; adult males have a rufous collar (small or absent in females), chin not white"
   behavior: "Hunts in flocks, often with other swifts, over montane and lowland forest, pastures and young secondary forest. Nests on cliffs by waterfalls; no nests have been found in Colombia."
   voice: "Sharp staccato clicks, more melodious chirping and dry single 'tick' notes."
 ---

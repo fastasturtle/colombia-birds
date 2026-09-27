@@ -2,11 +2,12 @@
 id: steatornis-caripensis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный, 40–49 см, с размахом крыльев около метра; оперение рыжевато-бурое"
   - "На крыльях, затылке и груди белые ромбовидные пятна в чёрной кайме"
   - "Клюв плоский, мощный, с крючком, окружён длинными каштановыми щетинками"
-  - "Хвост длинный, ступенчатый; ноги крошечные, птица цепляется за вертикальные стены"
+  - "Хвост длинный, жёсткий, в белых пятнах; ноги крошечные, птица цепляется за вертикальные стены"
 similar:
   - id: nyctibius-grandis
     how: "бледный, серовато-белый в тонкой ряби, без белых ромбов; днём сидит неподвижно на суку, а не в пещере"
@@ -24,12 +25,13 @@ sources:
   - "Wikipedia: Oilbird (en), Steatornis caripensis (es), Гуахаро (ru), CC BY-SA 4.0 — размеры, окраска, поведение, эхолокация, ночёвки вне пещер, питание"
   - "content/groups/nightjars.md, content/species/nyctibius-grandis.md — термины группы, согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — размеры, окраска, эхолокация и крики в пещерах, ночёвки на деревьях, кормёжка, дальность вылетов (ru: 100–150 км за ночь), высоты до 3 400 м"
 en:
   key_features:
     - "Large, 40–49 cm, with a wingspan of about a metre; rufous-brown plumage"
     - "White diamond-shaped spots edged black on the wings, nape and breast"
     - "Flat, powerful hooked bill, surrounded by long chestnut bristles"
-    - "Long graduated tail; tiny feet, used to cling to vertical rock"
+    - "Long stiff tail spotted white; tiny feet, used to cling to vertical rock"
   similar:
     - id: nyctibius-grandis
       how: "pale, grayish-white with fine vermiculation, no white diamonds; roosts motionless on a branch by day, not in a cave"

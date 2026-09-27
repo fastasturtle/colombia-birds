@@ -2,6 +2,7 @@
 id: phaethornis-hispidus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Посреди горла чёткая белая полоса — «борода»"
   - "Лицо: чёрная маска, белые бровь и «усы»"
@@ -9,7 +10,7 @@ key_features:
   - "Центральные рулевые длинные, с белыми концами; клюв длинный, изогнутый"
 similar:
   - id: phaethornis-malaris
-    how: "крупнее, клюв заметно длиннее, низ с буроватым оттенком"
+    how: "крупнее, клюв заметно длиннее; низ серовато-бурый, у местного подвида moorei довольно бледный, так что главное — размер и клюв"
   - id: phaethornis-bourcieri
     how: "клюв почти прямой, низ серовато-бурый"
   - id: threnetes-leucurus
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: White-bearded hermit (en), Phaethornis hispidus (es), CC BY-SA 4.0 — data/texts: размеры, окраска, местообитания, высоты, голос"
   - "content/species/threnetes-leucurus.md, content/species/glaucis-hirsutus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — окраска, «борода», высоты обычно до 850 м, биотоп, токование, голос; отличие от P. malaris уточнено по описанию подвида moorei (en.wikipedia Great-billed hermit)"
 en:
   key_features:
     - "A clean white stripe down the centre of the throat, the 'beard'"
@@ -36,7 +38,7 @@ en:
     - "Long central tail feathers tipped white; long decurved bill"
   similar:
     - id: phaethornis-malaris
-      how: "larger, bill clearly longer, underparts tinged brownish"
+      how: "larger, bill clearly longer; underparts grayish brown, fairly pale in the local moorei, so size and bill matter most"
     - id: phaethornis-bourcieri
       how: "bill almost straight, grayish-brown below"
     - id: threnetes-leucurus

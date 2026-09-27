@@ -2,6 +2,7 @@
 id: geotrygon-purpurata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо и горло белые, под щекой тёмно-фиолетовая «усовая» полоса"
   - "Темя и затылок тёмно-синие, бока шеи с золотисто-зелёным блеском"
@@ -12,7 +13,7 @@ similar:
     how: "спина тёмно-оливково-бурая, без синей поясницы, лоб белый, под глазом широкая белая полоса с чёрной каймой снизу"
   - id: geotrygon-montana
     how: "самец целиком рыжий, без белого лица и синего темени, под глазом одна светлая полоса"
-behavior: "Бродит по земле и в нижнем подлеске влажного леса поодиночке или парами. Пугливая: при опасности не взлетает, а тихо уходит пешком за ближайшие кусты."
+behavior: "Бродит по земле и в нижнем подлеске влажного леса поодиночке или парами. Пугливая: при опасности обычно не взлетает, а тихо уходит пешком за ближайшие кусты."
 voice: "Песня — долгая серия мягких глухих «ву-уу-ит», повторяемых с равными паузами."
 traits:
   size: thrush
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/geotrygon-purpurata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/zentrygon-linearis.md — описание G. montana"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — окраска, высоты в Колумбии 200–1 100 м, голос, систематика; статус EN (ACO 2022 и BIRDBASE)"
 en:
   key_features:
     - "White face and throat with a dark purple moustache stripe"
@@ -38,7 +40,7 @@ en:
       how: "dark olive-brown back without a blue rump, white forehead, broad white stripe under the eye edged black below"
     - id: geotrygon-montana
       how: "male wholly rufous, no white face or blue crown, a single pale stripe under the eye"
-  behavior: "Walks on the ground and in the low understory of humid forest, alone or in pairs. Shy: when alarmed it does not fly but slips away on foot behind the nearest bushes."
+  behavior: "Walks on the ground and in the low understory of humid forest, alone or in pairs. Shy: when alarmed it usually does not fly but slips away on foot behind the nearest bushes."
   voice: "The song is a long series of soft hollow 'whoo-oo-oit' notes, repeated at even intervals."
 ---
 Purple Quail-Dove (пурпурноголовая перепелиная горлица) — почти-эндемик Чоко: от северо-запада Колумбии до северо-запада Эквадора, в Колумбии на 200–1 100 м. Раньше её считали подвидом сапфировой перепелиной горлицы. Вид под угрозой исчезновения (EN): влажный лес предгорий Чоко быстро вырубают.

@@ -2,6 +2,7 @@
 id: systellura-longirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поперёк маховых широкая полоса: у самца белая, у самки охристая, видна в полёте"
   - "На затылке и боках шеи рыжевато-охристый воротник"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Band-winged nightjar (en), Systellura longirostris (es), CC BY-SA 4.0 — окраска, размеры, местообитания, высоты, голос"
   - "content/groups/nightjars.md — термины группы"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — полоса на крыле, воротник, белое в хвосте самца, голос; высоты 900–4 400 м (data)"
 en:
   key_features:
     - "A broad band across the primaries, white in the male and buff in the female, visible in flight"

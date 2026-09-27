@@ -2,6 +2,7 @@
 id: odontophorus-gujanensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вокруг глаза голая оранжево-красная кожа"
   - "Лоб и щёки рыжевато-бурые, на темени короткий взъерошенный хохол"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Marbled wood quail (en, CC BY-SA 4.0) — описание, поведение, подвид buckleyi, высоты"
   - "Wikipedia: Little tinamou, Chestnut wood quail (en, CC BY-SA 4.0) — data/texts; сверено с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — признаки, поведение, высоты в Колумбии до 1 500 м"
 en:
   key_features:
     - "Orange-red bare skin around the eye"

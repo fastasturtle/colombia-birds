@@ -2,6 +2,7 @@
 id: crotophaga-sulcirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь чёрный, хвост длинный, почти в длину тела"
   - "Клюв высокий, сжатый с боков, без горба; на надклювье продольные бороздки"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/crotophaga-sulcirostris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/crotophaga-ani.md, content/species/crotophaga-major.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — клюв, полёт, голос «ти-хо/пи-ху» (es.wikipedia), различие с C. ani по голосу"
 en:
   key_features:
     - "All black, with a long tail almost the length of the body"

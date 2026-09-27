@@ -2,6 +2,7 @@
 id: columbina-minuta
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь ровная серовато-розовая, без чешуек и пестрин"
   - "На крыле несколько тёмных пятнышек с фиолетовым отливом"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/columbina-minuta.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/columbina-talpacoti.md, content/species/columbina-buckleyi.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — окраска, подкрылья, высоты; data/site_species.json (C. talpacoti и C. minuta обе «возможно» на Финке Дискосура)"
 en:
   key_features:
     - "Plain grayish-pink breast, no scaling or streaks"
@@ -42,10 +44,10 @@ en:
 ---
 Plain-breasted Ground Dove (карликовая земляная горлица) — одна из самых маленьких горлиц мира, чуть мельче воробьиной земляной горлицы. В Колумбии живёт в открытых и сухих местах, на пастбищах и у дорог, в основном в низменностях, но поднимается и в предгорья. Ареал разорван на отдельные участки.
 
-На маршруте вид «возможно» на Финке Дискосура 7 октября, на Км 42 21 октября, в Тумако 21 и 23 октября и на Плайя-дель-Морро 22–23 октября. На побережье проверяй каждую стайку мелких горлиц: рядом бывают и эквадорская, и перуанская.
+На маршруте вид «возможно» на Финке Дискосура 7 октября (там же бывает коричневая земляная горлица, так что смотри на грудь и подкрылья), на Км 42 21 октября, в Тумако 21 и 23 октября и на Плайя-дель-Морро 22–23 октября. На побережье проверяй каждую стайку мелких горлиц: рядом бывают и эквадорская, и перуанская.
 
 ## English
 
 Plain-breasted Ground Dove is one of the smallest doves in the world, slightly smaller than Common Ground Dove. In Colombia it lives in open and dry places, pastures and roadsides, mostly in the lowlands but also up into the foothills. Its range is broken into separate patches.
 
-On the route it is "maybe" at Finca Discosura on 7 October, at Km 42 on 21 October, in Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October. On the coast check every small flock of ground doves: Ecuadorian and Croaking Ground Doves may be there too.
+On the route it is "maybe" at Finca Discosura on 7 October (Ruddy Ground Dove occurs there too, so check the breast and underwing), at Km 42 on 21 October, in Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October. On the coast check every small flock of ground doves: Ecuadorian and Croaking Ground Doves may be there too.

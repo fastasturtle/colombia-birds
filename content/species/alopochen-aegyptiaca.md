@@ -2,11 +2,12 @@
 id: alopochen-aegyptiaca
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тёмно-каштановое пятно вокруг глаза, как очки, на светлой голове"
   - "Тело светлое, серовато-бурое, в центре груди каштановое пятно"
   - "Ноги длинные, розовые, клюв розоватый"
-  - "Большие белые поля на крыле, у сидящей птицы спрятаны, в полёте бросаются в глаза"
+  - "Большие белые поля на крыле, у сидящей птицы видны лишь частично, в полёте бросаются в глаза"
 similar:
   - id: cairina-moschata
     how: "почти целиком чёрная с зелёным блеском, белое только на крыле, лицо с голой кожей"
@@ -26,12 +27,13 @@ sources:
   - "Данные проекта: data/species/alopochen-aegyptiaca.json (ACO 2022: Exótica establecida; BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (optional)"
   - "Карточка content/species/dendrocygna-autumnalis.md; Wikipedia: Muscovy duck (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es/ru) для вида и similar — размеры, изменчивость окраски, белое на крыле, голос, территориальность"
 en:
   key_features:
     - "Dark chestnut patch around the eye, like spectacles, on a pale head"
     - "Pale gray-brown body with a chestnut spot in the centre of the breast"
     - "Long pink legs, pinkish bill"
-    - "Large white wing panels, hidden at rest, striking in flight"
+    - "Large white wing panels, only partly visible at rest, striking in flight"
   similar:
     - id: cairina-moschata
       how: "almost wholly black with a green gloss, white only on the wing, bare skin on the face"

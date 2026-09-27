@@ -2,6 +2,7 @@
 id: aeronautes-montivagus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло, бока шеи и верх груди белые, остальное оперение черновато-бурое"
   - "Белые пятна по бокам низа у ног, видны снизу"
@@ -11,7 +12,7 @@ similar:
   - id: panyptila-cayennensis
     how: "чёрно-белый контраст резче, хвост длинный, сложен в острый шип; держится в низинах поодиночке или парами"
   - id: streptoprocne-rutila
-    how: "белого нет, у взрослых рыжий воротник; хвост широкий"
+    how: "белого нет, у взрослых самцов рыжий воротник; хвост широкий"
 behavior: "Охотится стайками до 50 птиц, часто вместе с другими стрижами, низко над лесом, а в каньонах на уровне гребней. Может на месяцы исчезать из привычных мест."
 voice: "Жужжащая трещотка, то ускоряющаяся, то затихающая, и звенящее скрежещущее щебетание."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-tipped swift (en), Aeronautes montivagus (es), CC BY-SA 4.0 — data/texts: размеры, окраска, высоты, поведение, голос"
   - "Wikipedia: Lesser swallow-tailed swift, Chestnut-collared swift (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: data/texts (en/es) для вида и similar — окраска, белые концы хвоста у самца, стаи до 50 птиц, кормёжка у гребней каньонов, исчезновения на месяцы, голос; высоты 500–2 600 м (data)"
 en:
   key_features:
     - "Throat, neck sides and upper breast white, rest of the plumage blackish-brown"
@@ -36,7 +38,7 @@ en:
     - id: panyptila-cayennensis
       how: "sharper black-and-white contrast, long tail held closed in a spike; keeps singly or in pairs in the lowlands"
     - id: streptoprocne-rutila
-      how: "no white, adults have a rufous collar; broad tail"
+      how: "no white, adult males have a rufous collar; broad tail"
   behavior: "Hunts in flocks of up to 50 birds, often with other swifts, low over the forest, and in canyons at ridge-top level. It can vanish from regular sites for months."
   voice: "A buzzing rattle that speeds up and fades, and a ringing, grating chatter."
 ---
