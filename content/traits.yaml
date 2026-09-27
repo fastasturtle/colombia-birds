@@ -4,14 +4,30 @@
 #
 # Per group: label (ru/en), min/max = how many values a card may have (max 1 → a single string in the card),
 # values in display order, each with ru/en labels and an optional ru hint shown as a tooltip.
+#
+# Changelog (every change to this file needs a re-tag pass over all cards, see content/README.md):
+# - 2026-09-27, revision after 467 cards (docs/fact-check/traits-retag-brief.md has the evidence and the re-tag brief).
+#   Keys unchanged; new values are optional, so existing cards still build.
+#   * size: max 1 → 2. A card may carry two ADJACENT classes when the published length range crosses a class boundary
+#     (72 of 327 measured non-hummingbird cards do, e.g. 16–18 cm) or when a long tail makes up half the length
+#     (Asthenes fuliginosa, motmots). The identifier ORs chips within a group, so the bird is found from either guess.
+#   * size.hummingbird relabelled «колибри и крошки»: the chip read as "hummingbirds only", while piculets and
+#     tody-flycatchers of 9–10 cm sit in it. Boundary made explicit: shorter than 10 cm; exactly 10 cm is sparrow.
+#   * marks: + cap, wing_patch, bright_bill (max 17 → 20). 87 cards had `marks: []`; most of them are tanagers,
+#     brushfinches and cotingas told apart by a contrasting cap/hood (≈35 of the 87), a coloured bill or a wing patch,
+#     none of which the old list covered. Each value has ≥25 route cards per key_features. Rejected: pale/bright eye
+#     (seen only up close, stays in key_features), pink/ochre colours (mapped onto existing colours by rule).
+#   * rules (README): October plumage for migrants, colour mapping for pink/ochre/copper, `feeder` only with
+#     route-specific evidence.
 
 size:
   label: { ru: Размер, en: Size }
   min: 1
-  max: 1
+  max: 2
   # 2026-09-27: подписи переименованы в сравнения («с дрозда», не «дрозд»): чипы читались как названия птиц. Ключи прежние.
+  # 2026-09-27 (ревизия): второй класс — только соседний, по правилам в content/README.md (диапазон длины, длинный хвост).
   values:
-    hummingbird: { ru: с колибри, en: hummingbird-size, hint: "любой колибри и прочие крошки до 10 см" }
+    hummingbird: { ru: колибри и крошки, en: hummingbird / tiny, hint: "любой колибри; прочие птицы короче 10 см" }
     sparrow: { ru: с воробья, en: sparrow-size, hint: "10–16 см" }
     thrush: { ru: с дрозда, en: thrush-size, hint: "17–25 см" }
     pigeon: { ru: с голубя, en: pigeon-size, hint: "26–35 см" }
@@ -47,13 +63,16 @@ tone:
 marks:
   label: { ru: Приметы, en: Marks }
   min: 0
-  max: 17
+  max: 20
+  # 2026-09-27 (ревизия): + cap, wing_patch, bright_bill; `plain` с ними не сочетается, кроме bright_bill.
   values:
     crest: { ru: хохол, en: crest }
+    cap: { ru: шапочка или капюшон, en: cap or hood, hint: "темя или вся голова резко другого цвета, чем спина и грудь" }
     eye_ring: { ru: кольцо вокруг глаза, en: eye ring }
     eyebrow: { ru: бровь, en: eyebrow }
     mask: { ru: маска, en: mask }
     wing_bars: { ru: полосы на крыле, en: wing bars }
+    wing_patch: { ru: пятно на крыле, en: wing patch, hint: "белое или цветное пятно на сложенном крыле или в полёте (зеркальце, плечо, пятно у основания маховых); две узкие полосы — это «полосы на крыле»" }
     streaked_breast: { ru: пестрины на груди, en: streaked breast }
     spotted_breast: { ru: пятна на груди, en: spotted breast }
     barred: { ru: поперечные полосы, en: barred }
@@ -65,6 +84,7 @@ marks:
     throat_patch: { ru: пятно на горле, en: throat patch }
     bare_face: { ru: голая кожа у глаза, en: bare face }
     wattle: { ru: серёжка, en: wattle }
+    bright_bill: { ru: яркий клюв, en: bright bill, hint: "клюв, его заметная половина или лобный щиток красные, жёлтые, оранжевые, розовые, голубые или серебристые" }
     plain: { ru: без примет, en: plain, hint: "однотонная, без явных пятен и полос" }
 
 bill:
