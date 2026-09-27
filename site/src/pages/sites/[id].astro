@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
-import { sites, regions, siteSpecies, likelySpeciesForSites, daysForSite, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import { sites, regions, siteSpecies, likelySpeciesForSites, daysForSite, hotspotCheck, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -33,7 +33,11 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   </table>
   {s.notes_ru && <p>{s.notes_ru}</p>}
   {s.ebird_hotspots?.length > 0 && (
-    <p class="hs">{s.ebird_hotspots.map((h) => <a class="chip tap" href={`https://ebird.org/hotspot/${h.id}`} target="_blank" rel="noopener">eBird: {h.name}</a>)}</p>
+    <p class="hs">{s.ebird_hotspots.map((h) => {
+      const c = hotspotCheck(h.id);
+      const extra = c && [c.name_api && c.name_api !== h.name ? c.name_api : null, c.numSpeciesAllTime != null ? `${c.numSpeciesAllTime} видов в eBird` : null].filter(Boolean).join(', ');
+      return <><a class="chip tap" href={`https://ebird.org/hotspot/${h.id}`} target="_blank" rel="noopener">eBird: {h.name}</a>{extra && <span class="muted small hsx">{extra}</span>}</>;
+    })}</p>
   )}
   {s.sources?.length > 0 && (
     <p class="muted small">Источники: {s.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</p>
@@ -68,5 +72,6 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   .summary { font-size: 1.05rem; margin: 4px 0; }
   .hl { color: var(--accent-2); }
   .small { font-size: .85rem; }
+  .hsx { display: block; margin: -2px 0 6px; }
   .hs .chip { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; line-height: 40px; }
 </style>

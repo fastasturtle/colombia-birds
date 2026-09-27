@@ -29,6 +29,7 @@ atomically, and per-species errors are logged and skipped, so re-running fills t
 | `sites` | `steps/build_sites.py` | `data/sites_resolved.json`, `data/focus_species.json`, `data/region_species.json` from hand-authored `data/sites.json` |
 | `basemap` | `steps/build_basemap.py` | `site/src/generated/basemap.json`: static SVG base map for the route map (homepage) (land, Colombia outline, departments, rivers, place labels) clipped to `data/sites.json` ± 0.8°, from Natural Earth 1:10m (public domain). Needs shapely: `uv run --with shapely python run.py basemap`. Output is checked in; rerun after adding sites far from the current bbox |
 | `gbif_sites` | `steps/fetch_gbif_sites.py` | `data/site_species.json`: likely species per site from GBIF occurrence counts (Aves, Colombia) within 12 km (`--radius`; doubled up to x4 for sites with < 1000 records, `--min-records`), species with >= 3 records (`--min-count`), sorted by records; one facet query per site. GBIF keys not in `data/species/*.json` `ids.gbif` are matched by scientific name, then family + epithet (genus moves), then `pipeline/mappings/gbif_to_species.json` (lumps/splits); the rest go to `data/sources/gbif_sites_unmatched.json` |
+| `hotspots` | `steps/verify_hotspots.py` | `data/sources/hotspots_check.json`, `docs/research/hotspots-check.md`, `pipeline/mappings/hotspot_suggestions.json`: checks every `ebird_hotspots` id in `data/sites.json` via eBird `ref/hotspot/info` (`ok` = within 15 km of the site and the names share a meaningful token, else `suspect`; unknown id = `invalid`) and lists the 8 nearest hotspots (`ref/hotspot/geo`, 10 km, widened to 25/50 km if empty) with species counts. Reference data only, no observations. Never edits `sites.json`: apply suggestions by hand. Needs `EBIRD_API_KEY`; run in Actions |
 
 Photo keys stored in `data/` are relative; the site prepends `PUBLIC_MEDIA_BASE_URL`.
 
@@ -47,6 +48,7 @@ Copy `.env.example` to `.env` (never commit it).
 | `R2_ACCOUNT_ID`, `R2_BUCKET`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` | `upload` (not needed with `--dry-run`) |
 | `R2_CLOUDFLARE_TOKEN` | Cloudflare API (bucket settings, CORS); not used by the steps above |
 | `XENO_CANTO_API_KEY` | sounds (xeno-canto API v3) |
+| `EBIRD_API_KEY` | `hotspots` (eBird API 2.0 token) |
 | `PUBLIC_MEDIA_BASE_URL` | site build only |
 | `ONLY_SLUGS` | per-species steps, see above |
 
@@ -54,8 +56,8 @@ Copy `.env.example` to `.env` (never commit it).
 
 `.github/workflows/pipeline.yml` (Actions → pipeline → Run workflow) takes `steps` (default
 `wikipedia photos upload`) and optional `only` slugs, runs `run.py` with secrets `R2_ACCESS_KEY_ID`,
-`R2_SECRET_ACCESS_KEY`, `R2_CLOUDFLARE_TOKEN`, `XENO_CANTO_API_KEY` and variable/secret `R2_ACCOUNT_ID`,
-then commits changed files under `data/` back to the branch it ran on. The API cache is kept between
+`R2_SECRET_ACCESS_KEY`, `R2_CLOUDFLARE_TOKEN`, `XENO_CANTO_API_KEY`, `EBIRD_API_KEY` and variable/secret `R2_ACCOUNT_ID`,
+then commits changed files under `data/` (plus `docs/research/hotspots-check.md` and `pipeline/mappings/hotspot_suggestions.json`) back to the branch it ran on. The API cache is kept between
 runs with `actions/cache`.
 
 ## Rate limits
@@ -66,3 +68,5 @@ runs with `actions/cache`.
   3 consecutive failures in a run and marks those species `sources_ok.commons: false`, so the next run
   retries only them (species with both sources OK are skipped unless `--refresh` or explicit slugs).
 - **iNaturalist**: <= 60 req/min (we use 1.1 s spacing), < 10 000 req/day, media < 5 GB/hour.
+
+Dispatch inputs: `steps`, `only`, and `queue` (`heavy` default; use `light` for quick steps such as hotspots, sites, family_names, gbif_sites, basemap so they do not wait behind multi-hour runs).

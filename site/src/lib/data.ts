@@ -117,6 +117,17 @@ export function sites(): Site[] {
   const resolved = readJson<Site[] | null>('sites_resolved.json', null);
   return resolved ?? readJson<Site[]>('sites.json', []);
 }
+export interface HotspotCheck { id: string; name_api: string | null; numSpeciesAllTime: number | null; status: string }
+let _hsCheck: Record<string, HotspotCheck> | null = null;
+/** Listed eBird hotspots verified by pipeline step `hotspots` (data/sources/hotspots_check.json), keyed by locId. */
+export function hotspotCheck(id: string): HotspotCheck | null {
+  if (!_hsCheck) {
+    _hsCheck = {};
+    const r = readJson<{ sites: Record<string, { listed: HotspotCheck[] }> } | null>('sources/hotspots_check.json', null);
+    for (const s of Object.values(r?.sites ?? {})) for (const h of s.listed) _hsCheck[h.id] = h;
+  }
+  return _hsCheck[id] ?? null;
+}
 export function itinerary(): Day[] {
   return readJson<Day[]>('itinerary.json', []);
 }
