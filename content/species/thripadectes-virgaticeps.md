@@ -2,6 +2,7 @@
 id: thripadectes-virgaticeps
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло рыжевато-охристое в тёмных чешуйках-штрихах, они заходят на верх груди"
   - "Голова черновато-бурая, темя в охристых штрихах, лоб в точках"
@@ -29,6 +30,7 @@ sources:
   - "Wikipedia: Uniform treehunter, Flammulated treehunter (en, CC BY-SA 4.0) — отличия"
   - "Данные проекта: data/species/thripadectes-virgaticeps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: всё подтверждено по en.wikipedia Streak-capped, Uniform и Flammulated treehunter, Lineated foliage-gleaner; исправлений нет"
 en:
   key_features:
     - "Tawny-buff throat scaled with dark streaks that reach the upper breast"

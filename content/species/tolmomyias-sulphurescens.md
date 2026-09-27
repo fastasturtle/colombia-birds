@@ -2,6 +2,7 @@
 id: tolmomyias-sulphurescens
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв широкий и плоский, надклювье чёрное, подклювье светлое"
   - "Шапочка серая или серо-оливковая, заметно серее оливковой спины"
@@ -13,7 +14,7 @@ similar:
   - id: leptopogon-superciliaris
     how: "клюв тонкий, не плоский, за щекой чёткий чёрный полумесяц, полосы на крыле охристые; то и дело вскидывает одно крыло"
 behavior: "Кормится в подлеске и среднем ярусе, часто в смешанных стаях. Подолгу сидит и медленно оглядывает листву снизу, затем коротким броском снимает насекомое с листа. Гнездо — грушевидный мешок со входной трубкой, часто рядом с осиным гнездом."
-voice: "Сильно различается по подвидам: серии тонких резких или жужжащих нот «тсии-тсии-тсии», позыв — шипящее «тссссп»."
+voice: "Сильно различается по подвидам: от тонкой чёткой серии быстрых нот «пси-псет-псет-псет» (запад Эквадора) до жужжащего «бзз… бззз… бззззз» (север Венесуэлы)."
 traits:
   size: sparrow
   colors: [olive, yellow, gray]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Yellow-olive flatbill (en), Tolmomyias sulphurescens (es), CC BY-SA 4.0 — data/texts: подвиды asemus и confusus, окраска, поведение, гнездо, голос"
   - "content/species/rhynchocyclus-fulvipectus.md, leptopogon-superciliaris.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: голос по en.wikipedia Yellow-olive flatbill (Vocalization; позыв 'tssssp' относится к центральноамериканскому подвиду и снят); подвиды asemus и confusus (оба с серой шапкой) там же"
 en:
   key_features:
     - "Broad flat bill, black upper mandible, pale lower mandible"
@@ -38,7 +40,7 @@ en:
     - id: leptopogon-superciliaris
       how: "thin, not flat, bill, clear black crescent on the rear cheek, buffy wing bars; keeps lifting one wing"
   behavior: "Forages in the understory and midstory, often in mixed flocks. It sits for long spells peering slowly up at the foliage, then snatches an insect off a leaf with a short sally. The nest is a pear-shaped bag with an entrance tube, often next to a wasp nest."
-  voice: "Varies strongly between subspecies: series of thin sharp or buzzy notes 'tsee-tsee-tsee'; the call is a sibilant 'tssssp'."
+  voice: "Varies strongly between subspecies: from a thin, well-enunciated series of quick notes, 'psee-pset-pset-pset' (western Ecuador), to a buzzy 'bzz… bzzz… bzzzzz' (northern Venezuela)."
 ---
 Yellow-olive Flatbill (желтоватый мухоед) — самый широко распространённый плоскоклюв Колумбии, от низин до 1 500 м, изредка до 2 100 м. Живёт в лесу, на опушках, в вторичной поросли и плантациях. В верховьях Магдалены и на юге Уилы обитают серошапочные подвиды asemus и confusus, так что серая голова с белыми «очками» — главная примета на нашем маршруте. Определять лучше по сочетанию: плоский клюв, светлое подклювье, полосы на крыле.
 

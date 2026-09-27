@@ -2,6 +2,7 @@
 id: hemitriccus-granadensis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх горла и низ щёк сажисто-чёрные, резко отделены от белых уздечки и кольца вокруг глаза"
   - "Грудь с размытой серой перевязью, брюхо белое"
@@ -12,7 +13,7 @@ similar:
     how: "шапочка ярко-рыжая, щёки белые или охристые, горло беловатое с тёмной полосой под ним, брюхо ярко-жёлтое"
   - id: myiophobus-flavicans
     how: "крупнее, весь низ жёлтый, чёрного на горле нет, кольцо вокруг глаза жёлтое"
-behavior: "Держится в нижнем и среднем ярусе горного леса, на опушках, у завалов и старых оползней, поодиночке или парами, иногда в смешанных стаях. Подолгу сидит неподвижно и короткими бросками вверх снимает насекомых с нижней стороны листьев."
+behavior: "Держится в нижнем и среднем ярусе горного леса, на опушках, у завалов и старых оползней, поодиночке или парами, иногда в смешанных стаях. Короткими бросками вверх с присады снимает насекомых с нижней стороны листьев."
 voice: "Короткая трескучая трель «ти-ти-рррррр», хрипловатое «дут-т-т, дут-т-т» и резкие «пик, пит»."
 traits:
   size: sparrow
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Black-throated tody-tyrant (en), Hemitriccus granadensis (es), CC BY-SA 4.0 — data/texts: номинативный подвид, высоты в Колумбии, поведение, голос"
   - "content/species/poecilotriccus-ruficeps.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подтверждено по en.wikipedia Black-throated tody-tyrant, Rufous-crowned tody-flycatcher и Flavescent flycatcher; снято непроверенное «подолгу сидит неподвижно»"
 en:
   key_features:
     - "Sooty-black upper throat and lower cheeks, sharply set off from white lores and eye-ring"
@@ -37,7 +39,7 @@ en:
       how: "bright rufous cap, white or buff cheeks, whitish throat with a dark band below it, bright yellow belly"
     - id: myiophobus-flavicans
       how: "larger, all yellow below, no black on the throat, yellow eye-ring"
-  behavior: "Keeps in the lower and middle levels of montane forest, at edges, treefalls and old landslides, singly or in pairs, sometimes in mixed flocks. It sits still for long spells and makes short upward sallies to pick insects from the undersides of leaves."
+  behavior: "Keeps in the lower and middle levels of montane forest, at edges, treefalls and old landslides, singly or in pairs, sometimes in mixed flocks. It makes short upward sallies from a perch to pick insects from the undersides of leaves."
   voice: "A short rattling trill 'ti-ti-rrrrrr', a gravelly 'dut-t-t, dut-t-t' and sharp 'pik, peet' notes."
 ---
 Black-throated Tody-Tyrant (черногорлый тоди-тиранн) — крошечный тоди-тиранн горных лесов, в Колумбии на высотах 1 500–3 500 м во всех трёх хребтах, где живёт номинативный подвид с белыми «очками». Сочетание чёрного горла, белого лица и тёмно-оливкового верха ни с кем не спутать, если птица сидит на виду. Чаще всего её находят на опушках и прогалинах, где лес зарастает после завалов.

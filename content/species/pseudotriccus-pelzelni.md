@@ -2,6 +2,7 @@
 id: pseudotriccus-pelzelni
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх, голова и хвост тёмные бронзово-оливковые, без полос и пятен"
   - "Горло кремово-беловатое, грудь и бока оливковые, брюхо кремово-жёлтое"
@@ -9,7 +10,7 @@ key_features:
   - "Маленький, округлый, держится у самой земли в густом подлеске"
 similar:
   - id: pseudotriccus-ruficeps
-    how: "вся голова и горло ярко-оранжево-рыжие, крылья и хвост каштановые; живёт выше, в основном от 2 000 м"
+    how: "вся голова и горло ярко-оранжево-рыжие, крылья и хвост каштановые; живёт в основном выше, от 2 000 м, но на юго-западе Колумбии местами спускается очень низко"
   - id: lophotriccus-pileatus
     how: "на голове хохол из чёрных перьев с рыжими каймами, глаз светлый, горло и грудь в размытых пестринах"
 behavior: "Держится поодиночке или парами в густом подлеске влажных предгорных и горных лесов, редко присоединяется к смешанным стаям. Короткими перелётами перемещается низко над землёй и подпрыгивает к листьям, хватая насекомых со слышным щелчком клюва."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Bronze-olive pygmy tyrant (en), Pseudotriccus pelzelni (es), CC BY-SA 4.0 — data/texts: подвиды (annectens на юго-западе Колумбии), окраска, высоты, поведение, голос"
   - "Wikipedia: Rufous-headed pygmy tyrant (en, CC BY-SA 4.0) — data/texts: отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подтверждено по en.wikipedia Bronze-olive, Rufous-headed и Scale-crested pygmy tyrant; уточнено, что Rufous-headed на юго-западе Колумбии спускается до 400 м"
 en:
   key_features:
     - "Upperparts, head and tail dark bronzy olive, without bars or spots"
@@ -34,7 +36,7 @@ en:
     - "Small and rounded, keeps close to the ground in dense undergrowth"
   similar:
     - id: pseudotriccus-ruficeps
-      how: "whole head and throat bright orange-rufous, chestnut wings and tail; lives higher, mostly above 2,000 m"
+      how: "whole head and throat bright orange-rufous, chestnut wings and tail; lives mostly higher, above 2,000 m, but in southwestern Colombia locally comes down very low"
     - id: lophotriccus-pileatus
       how: "crest of black feathers edged rufous, pale eye, blurry streaks on the throat and breast"
   behavior: "Keeps singly or in pairs in dense undergrowth of humid foothill and montane forest and seldom joins mixed flocks. It moves low above the ground in short flights and jumps up to leaves, grabbing insects with an audible snap of the bill."

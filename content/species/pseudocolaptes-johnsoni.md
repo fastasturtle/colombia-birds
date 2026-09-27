@@ -2,6 +2,7 @@
 id: pseudocolaptes-johnsoni
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "По бокам шеи пышные бледно-охристые пучки перьев, торчащие как бакенбарды"
   - "Шапка черновато-бурая в тонких охристых штрихах, над глазом светлая бровь"
@@ -27,6 +28,7 @@ sources:
   - "content/species/anabacerthia-variegaticeps.md — отличие Scaly-throated Foliage-gleaner"
   - "Данные проекта: data/species/pseudocolaptes-johnsoni.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: всё подтверждено по en.wikipedia Pacific tuftedcheek, Streaked tuftedcheek и Scaly-throated foliage-gleaner; исправлений нет"
 en:
   key_features:
     - "Fluffy pale buff tufts flaring from the sides of the neck like sideburns"

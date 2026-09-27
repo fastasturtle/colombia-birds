@@ -2,6 +2,7 @@
 id: todirostrum-nigriceps
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова глянцево-чёрная целиком, без серого затылка, резко контрастирует с белым горлом"
   - "Низ ярко-жёлтый, спина оливково-жёлтая"
@@ -9,7 +10,7 @@ key_features:
   - "Клюв прямой, плоский, крупный для такой крошки; глаз тёмный"
 similar:
   - id: todirostrum-cinereum
-    how: "затылок серый, глаз светлый, хвост длиннее и часто виляет; держится низко, в кустах и садах"
+    how: "затылок и верх спины серые, глаз обычно светлый, хвост длиннее с белыми кончиками; у тихоокеанского подвида sclateri горло тоже белое; держится низко, в кустах и садах"
 behavior: "Держится в кронах высоких деревьев на опушках и в старом вторичном лесу, поодиночке или парами. Обыскивает листву и цветущие деревья, собирая мелких насекомых и пауков."
 voice: "Позыв — тонкое «пип»; песня — серия из 5–8 высоких «джип», слегка ускоряющаяся и повышающаяся к концу, похожа на стрекот насекомого."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Black-headed tody-flycatcher (en, CC BY-SA 4.0) — описание, распространение, голос, питание"
   - "Wikipedia: Common tody-flycatcher (en, CC BY-SA 4.0) — data/texts; сверено с карточкой вида"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подвид sclateri Common tody-flycatcher в Нариньо (белое горло, иногда тёмный глаз) по en.wikipedia Common tody-flycatcher; остальное подтверждено по en.wikipedia Black-headed tody-flycatcher"
 en:
   key_features:
     - "Whole head glossy black, with no gray nape, sharply contrasting with the white throat"
@@ -32,7 +34,7 @@ en:
     - "Straight flat bill, big for such a tiny bird; dark eye"
   similar:
     - id: todirostrum-cinereum
-      how: "gray nape, pale eye, longer tail often wagged; keeps low, in shrubs and gardens"
+      how: "gray nape and upper back, eye usually pale, longer tail with white tips; the Pacific subspecies sclateri also has a white throat; keeps low, in shrubs and gardens"
   behavior: "Keeps in the crowns of tall trees at edges and in old secondary forest, alone or in pairs. Searches foliage and flowering trees for small insects and spiders."
   voice: "The call is a thin 'peep'; the song is a series of 5–8 high 'jyip' notes, speeding up and rising slightly at the end, rather insect-like."
 ---

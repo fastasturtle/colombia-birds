@@ -2,6 +2,7 @@
 id: myiornis-ecaudatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечная, 6–7 см, хвост почти незаметный — похожа на жука"
   - "Голова тёмно-серая, над уздечкой белое пятно и белое кольцо вокруг глаза — «очки»"
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Short-tailed pygmy tyrant (en), Myiornis ecaudatus (es), Короткохвостая аруна (ru), CC BY-SA 4.0 — data/texts: размер, окраска, высоты в Колумбии, поведение, голос"
   - "content/species/myiornis-atricapillus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: всё подтверждено по en.wikipedia Short-tailed и Black-capped pygmy tyrant; исправлений нет"
 en:
   key_features:
     - "Tiny, 6–7 cm, tail barely visible — looks like a beetle"

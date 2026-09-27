@@ -2,6 +2,7 @@
 id: synallaxis-albescens
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь и брюхо бледные, серовато-белые, заметно светлее, чем у других иглохвосток"
   - "Шапка и кроющие крыла рыжие, спина оливково-бурая"
@@ -12,7 +13,7 @@ similar:
     how: "хвост рыже-каштановый, грудь и брюхо заметно серее; держится в подлеске у опушек леса, выше в горах"
   - id: synallaxis-brachyura
     how: "тело тёмное, аспидно-бурое, горло черноватое; держится в густых кустах"
-behavior: "Живёт в открытых местах: в высокой траве, кустах на пастбищах, у дорог, по краям болот и вторичного леса. Держится низко и скрытно, но подолгу поёт с верхушки куста."
+behavior: "Живёт в открытых местах: в высокой траве, кустах на пастбищах, у дорог, по краям болот и вторичного леса. Держится низко, обычно не выше 2 м над землёй, и скрытно, но поёт подолгу."
 voice: "Неутомимо повторяемая двусложная фраза «ви-бит, ви-бит» или «уэ-тии», резкая и немного жужжащая."
 traits:
   size: sparrow
@@ -26,6 +27,7 @@ sources:
   - "content/species/synallaxis-azarae.md, content/species/synallaxis-brachyura.md — отличия, согласованы с этими карточками"
   - "Данные проекта: data/species/synallaxis-albescens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: окраска, отличия, высоты и голос подтверждены по en.wikipedia Pale-breasted, Azara's и Slaty spinetail; ярус кормления (до 2 м) по en.wikipedia Pale-breasted spinetail, Feeding"
 en:
   key_features:
     - "Breast and belly pale grayish-white, clearly paler than in other spinetails"
@@ -37,7 +39,7 @@ en:
       how: "rufous-chestnut tail, breast and belly clearly grayer; keeps to understory at forest edges, higher in the mountains"
     - id: synallaxis-brachyura
       how: "dark slaty-brown body, blackish throat; keeps to dense thickets"
-  behavior: "Lives in open country: tall grass, shrubs in pastures, roadsides, marsh edges and secondary growth. It keeps low and hidden but sings for long spells from the top of a bush."
+  behavior: "Lives in open country: tall grass, shrubs in pastures, roadsides, marsh edges and secondary growth. It keeps low, usually within 2 m of the ground, and hidden, but sings for long spells."
   voice: "A tirelessly repeated two-note phrase, 'wee-bit, wee-bit' or 'weh-tee', sharp and a little buzzy."
 ---
 Pale-breasted Spinetail (светлогрудая иглохвостка) — иглохвостка пастбищ, кустов и травянистых опушек, в Колумбии в основном ниже 1 500 м, местами до 1 800 м. В густой траве её легче услышать, чем увидеть: двусложная песня звучит весь день. Если показалась, светлый почти белый низ, рыжая шапка и бурый хвост отличают её от лесных родственниц.

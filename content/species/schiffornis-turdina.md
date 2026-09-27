@@ -2,18 +2,19 @@
 id: schiffornis-turdina
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь тускло-бурый с оливковым оттенком, без полос и пятен"
-  - "Крылья и хвост с рыжеватыми каймами, теплее тела"
+  - "Крылья с рыжеватыми каймами перьев, теплее тела"
   - "Большой тёмный глаз, вокруг него неясное светлое кольцо"
   - "Грудь светлее, оливково-серая, брюхо бледно-серое"
 similar:
   - id: schiffornis-veraepacis
-    how: "почти неотличим: темнее и оливковее, крылья тёплого бурого тона; именно он живёт на тихоокеанском склоне"
+    how: "почти неотличим: темнее и оливковее, крылья тёплого бурого тона; у тихоокеанского подвида rosenbergi низ целиком тёмный буро-оливковый, без серого; именно он живёт на тихоокеанском склоне"
 behavior: "Держится внутри влажного леса, в подлеске, часто цепляется за вертикальные стебли у земли. Кормится поодиночке, короткими бросками снимает насекомых и плоды с растений; в смешанные стаи идёт редко. Увидеть трудно, обычно слышно."
 voice: "Песня — 2–4 чистых мелодичных свиста, последний резко взлетает вверх: «тиииу, уии, ту-уиИ»; также короткое трескучее чириканье."
 traits:
-  size: thrush
+  size: sparrow
   colors: [brown, olive]
   tone: dull
   marks: [plain]
@@ -24,15 +25,16 @@ sources:
   - "Wikipedia: Brown-winged schiffornis (en), Schiffornis turdina (es), CC BY-SA 4.0 — data/texts: окраска, ареал, поведение, голос"
   - "Wikipedia: Northern schiffornis (en, CC BY-SA 4.0) — data/texts: отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: каймы только на крыльях, хвост тускло-буро-оливковый, длина 15,5–16,5 см (en.wikipedia Brown-winged schiffornis); подвид rosenbergi по en.wikipedia Northern schiffornis"
 en:
   key_features:
     - "Dull brown with an olive tone all over, without bars or spots"
-    - "Wings and tail edged rufescent, warmer than the body"
+    - "Wing feathers edged rufescent, warmer than the body"
     - "Large dark eye with a faint pale eye-ring"
     - "Paler olive-gray breast, pale gray belly"
   similar:
     - id: schiffornis-veraepacis
-      how: "almost identical: darker and more olive, wings warm brown; this is the species of the Pacific slope"
+      how: "almost identical: darker and more olive, wings warm brown; in the Pacific subspecies rosenbergi the underparts are wholly dark brownish olive, without gray; this is the species of the Pacific slope"
   behavior: "Keeps inside humid forest in the understory, often clinging to vertical stems near the ground. Forages alone, taking insects and fruit from plants with short sallies, and seldom joins mixed flocks. Hard to see, usually heard."
   voice: "The song is 2–4 clear musical whistles, the last sharply upslurred: 'teeeeu, weee, tu-weeé'; also a short rattling chatter."
 ---

@@ -2,18 +2,19 @@
 id: tolmomyias-assimilis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Бледно-жёлтое пятно у основания маховых на сложенном крыле, полосы на кроющих слабые"
-  - "Голова серая с оливковым налётом, тонкое белое прерывистое кольцо вокруг глаза"
+  - "Шапочка у подвида obscuriceps оливковая с едва заметным серым налётом; тонкое белое прерывистое кольцо вокруг глаза"
   - "Спина оливково-зелёная; горло бледно-серое, грудь бледно-оливковая, брюхо бледно-жёлтое"
   - "Клюв широкий и плоский, подклювье светлое, роговое"
 similar:
   - id: tolmomyias-poliocephalus
-    how: "мельче, шапочка чётче серая, на крыле две жёлтые полосы, пятна у основания маховых нет; часто держит хвост задранным"
+    how: "мельче, голова чётко серая, на крыле две жёлтые полосы, пятна у основания маховых обычно нет; часто держит хвост задранным"
   - id: tolmomyias-flaviventris
     how: "голова оливково-жёлтая без серого, уздечка и кольцо вокруг глаза охристые, низ ярко-жёлтый"
 behavior: "Кормится от среднего яруса до подкронового, на опушках и ниже, часто в смешанных стаях. Короткими бросками вверх снимает насекомых с нижней стороны листьев, иногда ест мелкие плоды."
-voice: "Меняется по регионам; у восточных склонов Анд — неторопливая серия из трёх свистов, каждый выше и пронзительнее предыдущего: «уиииу… уиииу… уиии?»."
+voice: "Меняется по регионам; в Эквадоре — неторопливая серия из трёх свистов, каждый выше и пронзительнее предыдущего: «уиииу… уиииу… уиии?»."
 traits:
   size: sparrow
   colors: [olive, gray, yellow]
@@ -26,19 +27,20 @@ sources:
   - "Wikipedia: Yellow-margined flatbill (en), Tolmomyias assimilis (es), CC BY-SA 4.0 — data/texts: окраска, подвид obscuriceps, высоты в Колумбии, поведение, голос"
   - "Wikipedia: Grey-crowned flatbill, Ochre-lored flatbill (en, CC BY-SA 4.0) — data/texts: отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подвид obscuriceps (оливковая шапочка с едва заметным серым налётом) и голос по en.wikipedia Yellow-margined flatbill; отличия по en.wikipedia Grey-crowned и Ochre-lored flatbill"
 en:
   key_features:
     - "Pale yellow patch at the base of the flight feathers on the closed wing; covert bars faint"
-    - "Olive-tinged gray head, thin broken white eye-ring"
+    - "Crown in the subspecies obscuriceps olive with a very faint gray wash; thin broken white eye-ring"
     - "Olive-green back; pale gray throat, pale olive breast, pale yellow belly"
     - "Broad flat bill with a pale horn lower mandible"
   similar:
     - id: tolmomyias-poliocephalus
-      how: "smaller, cleaner gray cap, two yellow wing bars, no patch at the base of the flight feathers; often cocks its tail"
+      how: "smaller, head clearly gray, two yellow wing bars, usually no patch at the base of the flight feathers; often cocks its tail"
     - id: tolmomyias-flaviventris
       how: "yellowish-olive head without gray, ochre lores and eye-ring, bright yellow underparts"
   behavior: "Forages from the midstory to the subcanopy, lower at edges, often in mixed flocks. It makes short upward sallies to take insects from the undersides of leaves and sometimes eats small fruit."
-  voice: "Varies regionally; along the eastern Andean slope a leisurely series of three whistles, each higher and shriller than the last: 'weeeu… weeeu… weee?'."
+  voice: "Varies regionally; in Ecuador a leisurely series of three whistles, each higher and shriller than the last: 'weeeu… weeeu… weee?'."
 ---
 Yellow-margined Flatbill (пестрокрылый мухоед) — плоскоклюв амазонских лесов, в Колумбии только к востоку от Анд и до 600 м; от Меты на юг здесь живёт подвид obscuriceps. Отличить его от других серо-оливковых плоскоклювов помогает жёлтое «зеркальце» у основания маховых на сложенном крыле. Держится высоко, и лучше всего его выдаёт голос: медленные нарастающие свисты.
 

@@ -2,9 +2,10 @@
 id: poecilotriccus-latirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Лоб, уздечка и область вокруг глаза ржаво-охристые, шапочка буровато-серая"
-  - "Низ серовато-белый, грудь и бока с лёгким оливковым налётом"
+  - "Лоб, уздечка и область вокруг глаза ржаво-охристые; у caniceps шапочка тёмная серовато-оливковая"
+  - "Низ серовато-белый, грудь и бока с оливковым налётом, у caniceps брюхо желтоватое"
   - "Спина оливковая, на тёмном крыле две охристые полосы"
   - "Крошечный, с широким плоским клювом, держится у самой земли в густых зарослях"
 similar:
@@ -26,10 +27,11 @@ sources:
   - "Wikipedia: Rusty-fronted tody-flycatcher (en), Poecilotriccus latirostris (es), CC BY-SA 4.0 — data/texts: окраска, подвид caniceps в Путумайо, высоты в Колумбии, поведение, голос"
   - "Wikipedia: Slate-headed tody-flycatcher, Spotted tody-flycatcher (en, CC BY-SA 4.0) — data/texts: отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: подвид caniceps (Путумайо) по en.wikipedia Rusty-fronted tody-flycatcher; отличия по en.wikipedia Slaty-headed и Spotted tody-flycatcher"
 en:
   key_features:
-    - "Rusty-buff forehead, lores and area around the eye; brownish-gray crown"
-    - "Grayish-white underparts with a faint olive wash on the breast and flanks"
+    - "Rusty-buff forehead, lores and area around the eye; dark grayish-olive crown in caniceps"
+    - "Grayish-white underparts, olive wash on the breast and flanks; belly washed yellow in caniceps"
     - "Olive back, two buffy bars on the dark wing"
     - "Tiny, with a broad flat bill, keeps close to the ground in dense thickets"
   similar:
@@ -40,12 +42,12 @@ en:
   behavior: "Lives in low dense vegetation along rivers, in second growth, overgrown clearings and on river islands. Forages singly or in pairs, usually no more than a metre above the ground, picking insects off leaves with short sallies."
   voice: "Easy to overlook: a low, insect-like descending trill 'churrrr', a clipped 'tik' before the trill, and a deep 'chup'."
 ---
-Rusty-fronted Tody-Flycatcher (ширококлювый тоди-мухолов) — крошечный тоди-мухолов амазонских зарослей, в Колумбии от равнин до 1 200 м; в Путумайо живёт тёмный подвид caniceps с тёмно-серой шапочкой и более бурым лицом. Птица почти не вылезает из густой зелени у земли, и первым в глаза бросается ржаво-рыжее «лицо». Её часто сначала слышат: трель низкая и похожа на звук насекомого.
+Rusty-fronted Tody-Flycatcher (ширококлювый тоди-мухолов) — крошечный тоди-мухолов амазонских зарослей, в Колумбии от равнин до 1 200 м; в Путумайо живёт тёмный подвид caniceps с тёмной серовато-оливковой шапочкой, более тёмным бурым лицом и желтоватым налётом на брюхе. Птица почти не вылезает из густой зелени у земли, и первым в глаза бросается ржаво-рыжее «лицо». Её часто сначала слышат: трель низкая и похожа на звук насекомого.
 
 На маршруте вид «возможно» на Плайя-Рике 12 октября и у Пуэрто-Асиса 11–13 октября. Проверяй кустарниковые заросли у воды и на вырубках.
 
 ## English
 
-Rusty-fronted Tody-Flycatcher is a tiny tody-flycatcher of Amazonian thickets, in Colombia from the lowlands up to 1,200 m; Putumayo holds the dark subspecies caniceps, with a dark gray crown and a browner face. The bird hardly ever leaves the dense greenery near the ground, and the rusty face is what catches the eye first. It is often heard before it is seen: the trill is low and insect-like.
+Rusty-fronted Tody-Flycatcher is a tiny tody-flycatcher of Amazonian thickets, in Colombia from the lowlands up to 1,200 m; Putumayo holds the dark subspecies caniceps, with a dark grayish-olive crown, a darker, browner face and a yellow wash on the belly. The bird hardly ever leaves the dense greenery near the ground, and the rusty face is what catches the eye first. It is often heard before it is seen: the trill is low and insect-like.
 
 On the route it is "maybe" at Playa Rica on 12 October and around Puerto Asís on 11–13 October. Check shrubby thickets by the water and in clearings.

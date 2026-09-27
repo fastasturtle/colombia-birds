@@ -2,18 +2,19 @@
 id: pogonotriccus-ophthalmicus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо в мелкой бело-серой «мраморной» ряби, за щекой чёрный полумесяц"
-  - "Шапочка серая, спина оливково-зелёная"
-  - "Низ желтоватый, грудь с оливковым налётом"
+  - "Шапочка сланцево-серая, спина жёлто-оливковая"
+  - "Низ ярко-жёлтый, грудь с плотным тёмно-оливковым налётом"
   - "На тёмном крыле две желтоватые полосы"
 similar:
   - id: leptopogon-superciliaris
-    how: "крупнее, шапочка тёмно-сланцевая, грудь в сероватых пестринах; сидит вертикально и вскидывает крыло"
+    how: "крупнее, грудь в тонких серовато-оливковых пестринах, полосы на крыле бывают охристыми; часто вскидывает одно крыло"
   - id: zimmerius-chrysops
     how: "лицо золотисто-жёлтое, без чёрного пятна на щеке, клюв крошечный, хвост часто приподнят"
-behavior: "Держится в среднем ярусе влажного предгорного и облачного леса, чаще всего в смешанных стаях. Сидит горизонтально и короткими бросками срывает насекомых с листьев."
-voice: "Короткие резкие щебечущие трели и отрывистые позывы; по голосу вид узнают немногие."
+behavior: "Держится парами от среднего яруса до нижней части крон влажного предгорного и облачного леса, обычно в смешанных стаях. Сидит вертикально и короткими бросками вверх срывает насекомых с листвы."
+voice: "Голос различается по подвидам. В Эквадоре, по соседству с Нариньо, песня — быстрое «псии-и-и-и-у, тси-тси-тси», позыв — сдвоенное «тс-рт»."
 traits:
   size: sparrow
   colors: [olive, yellow, gray]
@@ -25,19 +26,20 @@ sources:
   - "Данные проекта: data/species/pogonotriccus-ophthalmicus.json (ACO 2022, BIRDBASE 2025; таксономическая заметка о роде), data/site_species.json (GBIF)"
   - "Текста Wikipedia в data/texts нет; описание по общим полевым знаниям автора-агента, из определителей не копировалось"
   - "Wikipedia: Slaty-capped flycatcher, Golden-faced tyrannulet (en, CC BY-SA 4.0) — data/texts; сверено с карточкой L. superciliaris"
+  - "Факт-чек 2026-09-27: окраска, поза, ярусы и голос по en.wikipedia Marble-faced bristle tyrant https://en.wikipedia.org/wiki/Marble-faced_bristle_tyrant; отличие от Slaty-capped по en.wikipedia"
 en:
   key_features:
     - "Face finely marbled white and gray, with a black crescent behind the cheek"
-    - "Gray crown, olive-green back"
-    - "Yellowish underparts with an olive wash on the breast"
+    - "Slate-gray crown, yellow-olive back"
+    - "Bright yellow underparts with a heavy dark olive wash on the breast"
     - "Two yellowish bars on a dark wing"
   similar:
     - id: leptopogon-superciliaris
-      how: "larger, dark slaty crown, grayish streaks on the breast; perches upright and flicks up one wing"
+      how: "larger, breast finely streaked grayish olive, wing bars sometimes buffy; often flicks up one wing"
     - id: zimmerius-chrysops
       how: "golden-yellow face with no black cheek mark, tiny bill, tail often cocked"
-  behavior: "Keeps in the midstory of humid foothill and cloud forest, most often in mixed flocks. Perches horizontally and makes short sallies to pick insects from leaves."
-  voice: "Short sharp twittering trills and clipped calls; few birders know it by voice."
+  behavior: "Keeps in pairs from the midstory to the lower canopy of humid foothill and cloud forest, usually in mixed flocks. Perches upright and makes short upward sallies to pick insects from the foliage."
+  voice: "The voice varies between subspecies. In Ecuador, next to Nariño, the song is a fast 'psee-ee-ee-ee-u, tsi-tsi-tsi' and the call a doubled 'ts-rt'."
 ---
 Marble-faced Bristle-Tyrant (черноухий тираннчик) — мелкий тиранн влажных предгорий и облачного леса Анд, по данным проекта на высотах 800–2 400 м. В ACO и SACC он числится в роде Phylloscartes, в eBird — в Pogonotriccus. Первое, что видно, — пёстрое, будто мраморное лицо с чёрным пятном за щекой; остальное оперение оливково-жёлтое и неприметное.
 
