@@ -16,10 +16,10 @@ similar:
 behavior: "Парами и стайками до двадцати птиц кормится семенами на земле и на кустах, особенно на фрайлехонах; отдыхает на верхушках деревьев."
 voice: "На лету — щегловое «тсвии»; песня — оживлённая высокая болтовня со вставками раскатистых трелей."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [olive, yellow, black]
   tone: bright
-  marks: [wing_bars]
+  marks: [cap, wing_bars, wing_patch]
   bill: [short]
   layer: [ground, understory]
 sources:

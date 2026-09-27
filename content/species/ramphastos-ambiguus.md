@@ -16,10 +16,10 @@ similar:
 behavior: "Держится парами и семейными группами в кронах влажного леса, выходит на опушки и к плодовым деревьям у пастбищ. Кроме плодов ест насекомых, ящериц и разоряет гнёзда."
 voice: "Серия громких, далеко слышных визгливых криков, которую передают как «Díos te dé, te dé»; кричит с верхушек деревьев, особенно на рассвете и в сумерках."
 traits:
-  size: crow
+  size: [crow, larger]
   colors: [black, yellow]
   tone: bright
-  marks: [bare_face, rump_patch]
+  marks: [rump_patch, bare_face, bright_bill]
   bill: [long, thick]
   layer: [canopy]
 sources:

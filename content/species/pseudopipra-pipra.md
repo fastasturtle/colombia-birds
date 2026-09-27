@@ -19,7 +19,7 @@ traits:
   size: [hummingbird, sparrow]
   colors: [black, white]
   tone: bright
-  marks: [short_tail]
+  marks: [cap, short_tail]
   bill: short
   layer: [understory, midstory]
 sources:

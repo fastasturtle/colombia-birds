@@ -16,10 +16,10 @@ similar:
 behavior: "Кормится стаями на мелководье болот, рисовых полей и затопленных лугов, зондируя ил. Держится вместе с цаплями и другими ибисами."
 voice: "Обычно молчит; в стаях и у гнёзд хриплое ворчание."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [brown, green]
   tone: dull
-  marks: []
+  marks: [plain]
   bill: [long, curved]
   layer: [water, ground]
 sources:

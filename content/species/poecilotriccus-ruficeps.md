@@ -14,10 +14,10 @@ similar:
 behavior: "Пары держатся в густых кустах на опушках, прогалинах и вырубках облачного леса, обычно низко. Сидит неподвижно, потом резко вспархивает за насекомым на нижней стороне листа."
 voice: "Голос тихий и редкий: трескучее «ттрю» или «пит-ттрю», иногда дуэтом."
 traits:
-  size: hummingbird
+  size: [hummingbird, sparrow]
   colors: [yellow, olive, rufous]
   tone: bright
-  marks: [wing_bars]
+  marks: [cap, wing_bars]
   bill: [short, flat]
   layer: [understory]
 sources:

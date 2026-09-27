@@ -16,12 +16,12 @@ similar:
 behavior: "Группами, обычно по 6–10 птиц, держится в кустах вдоль дорог, на вырубках, в садах и у рек, в основном низко. Ест плоды и насекомых, приходит на фруктовые кормушки."
 voice: "Резкое металлическое «чик» и сухие цыканья; песня — несложный повтор хрипловатых нот."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [black, red]
   tone: dull
-  marks: []
+  marks: [bright_bill]
   bill: [thick]
-  layer: [understory, midstory, feeder]
+  layer: [understory, midstory]
 sources:
   - "Wikipedia: Silver-beaked tanager (en, CC BY-SA 4.0) — размер, окраска, подвиды, численность, группы, голос"
   - "Wikipedia: Ramphocelus carbo (es), Пурпурная расписная танагра (ru), CC BY-SA 4.0 — стаи, питание"

@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [green, yellow, red]
   tone: bright
-  marks: [short_tail]
+  marks: [cap, wing_patch, short_tail]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

@@ -14,10 +14,10 @@ similar:
 behavior: "Шумными стайками кормится плодами, семенами и цветками на опушках облачного и эльфийского леса и в субпарамо; гнездится кооперативно, с помощниками у гнезда."
 voice: "Резкие скрипучие крики стайки в полёте."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [green, brown, yellow]
   tone: bright
-  marks: [long_tail, eye_ring]
+  marks: [eye_ring, wing_patch, long_tail]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

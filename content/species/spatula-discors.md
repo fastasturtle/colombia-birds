@@ -5,7 +5,7 @@ lynx_page: null
 checked: 2026-09-27
 key_features:
   - "Самец: голова сизо-серая с белым полумесяцем перед глазом, тело бурое в тёмных пятнах"
-  - "Самка и самец в летнем наряде бурые, с тёмной полосой через глаз и светлым пятнышком у основания клюва"
+  - "В октябре многие самцы ещё бурые, как самка: тёмная полоса через глаз, светлое пятнышко у основания клюва"
   - "В полёте голубое плечо и зелёное зеркальце, у самца между ними белая полоса"
   - "Небольшой чирок с длинным тёмным клювом"
 similar:
@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [brown, gray, blue]
   tone: dull
-  marks: []
+  marks: [wing_patch]
   bill: [medium, flat]
   layer: [water]
 sources:
@@ -31,7 +31,7 @@ sources:
 en:
   key_features:
     - "Male: bluish-gray head with a white crescent in front of the eye, brown body spotted dark"
-    - "Female and male in summer plumage brown, with a dark eye line and a pale spot at the bill base"
+    - "In October many males are still brown like the female: dark eye line, pale spot at the bill base"
     - "In flight a pale blue forewing and green speculum, with a white bar between them in the male"
     - "A small teal with a long dark bill"
   similar:

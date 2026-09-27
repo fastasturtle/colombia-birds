@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [black, white, red]
   tone: bright
-  marks: [throat_patch]
+  marks: [cap, throat_patch]
   bill: medium
   layer: [canopy, midstory]
 sources:

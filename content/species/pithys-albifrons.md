@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [rufous, gray, black]
   tone: bright
-  marks: [crest]
+  marks: [crest, cap]
   bill: short
   layer: [understory, ground]
 sources:

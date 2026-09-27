@@ -20,7 +20,7 @@ traits:
   size: thrush
   colors: [green, yellow, black]
   tone: bright
-  marks: [barred]
+  marks: [cap, wing_patch, barred, bright_bill]
   bill: short
   layer: [midstory, canopy]
 sources:

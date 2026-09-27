@@ -20,7 +20,7 @@ traits:
   size: thrush
   colors: [green, yellow, black]
   tone: bright
-  marks: [streaked_breast]
+  marks: [streaked_breast, bright_bill]
   bill: short
   layer: [midstory, understory]
 sources:

@@ -16,10 +16,10 @@ similar:
 behavior: "Шумный и заметный житель посёлков, пастбищ и берегов рек. Сидит на открытых присадах, ловит насекомых в воздухе, хватает ящериц и лягушек, иногда ныряет за рыбёшкой на мелководье."
 voice: "Громкое трёхсложное «кис-ка-ди» или «бен-те-ви», по которому вид и назван; позывы резкие и крикливые."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [yellow, brown, white]
   tone: bright
-  marks: [eyebrow, mask]
+  marks: [cap, eyebrow, mask]
   bill: medium
   layer: [midstory, water]
 sources:

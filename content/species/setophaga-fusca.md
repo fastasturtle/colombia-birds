@@ -4,7 +4,7 @@ difficulty: easy
 lynx_page: null
 checked: 2026-09-27
 key_features:
-  - "Горло и грудь огненно-оранжевые у самца, жёлтые у самок и молодых"
+  - "Горло и грудь у самца оранжевые, осенью бледнее; у самок и молодых жёлтые"
   - "Тёмный треугольник на щеке в оранжевой или жёлтой рамке"
   - "Спина тёмная с двумя светлыми продольными полосами, на крыле белые полосы"
   - "Бока в тёмных пестринах, брюхо беловатое"
@@ -30,7 +30,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Throat and breast fiery orange in the male, yellow in females and young"
+    - "Throat and breast orange in the male, paler in autumn; yellow in females and young"
     - "Dark triangular cheek patch framed in orange or yellow"
     - "Dark back with two pale lengthwise stripes, white bars on the wing"
     - "Flanks streaked dark, belly whitish"

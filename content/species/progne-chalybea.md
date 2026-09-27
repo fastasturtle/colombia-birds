@@ -16,7 +16,7 @@ similar:
 behavior: "Стайками охотится на насекомых над открытыми местами, реками, посёлками и побережьем, часто высоко. Гнездится в дуплах, нишах построек и под крышами."
 voice: "Булькающее «чю-чю» и щебет стаи в полёте."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [black, gray, white]
   tone: dull
   marks: [forked_tail]

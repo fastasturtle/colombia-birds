@@ -20,7 +20,7 @@ traits:
   size: hummingbird
   colors: [black, white, rufous]
   tone: bright
-  marks: [eye_ring]
+  marks: [cap, eye_ring]
   bill: [short, flat]
   layer: [understory]
 sources:

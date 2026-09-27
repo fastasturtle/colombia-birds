@@ -21,7 +21,7 @@ traits:
   tone: dull
   marks: [eyebrow, throat_patch]
   bill: [thick]
-  layer: [midstory, canopy, feeder]
+  layer: [midstory, canopy]
 sources:
   - "Wikipedia: Buff-throated saltator (en, CC BY-SA 4.0) — размер, окраска подвидов, распространение, статус"
   - "Wikipedia: Saltator maximus (es, CC BY-SA 4.0) — data/texts"

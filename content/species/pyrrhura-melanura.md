@@ -16,10 +16,10 @@ similar:
 behavior: "Стайками от нескольких до двух десятков птиц кормится в кронах плодами и семенами, быстро и низко пролетает над лесом с резкими криками. На кормёжке затихает и почти незаметна."
 voice: "Резкие скрипучие крики стайки в полёте."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [green, red]
   tone: bright
-  marks: [long_tail, eye_ring]
+  marks: [eye_ring, wing_patch, long_tail]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

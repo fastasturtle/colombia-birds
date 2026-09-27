@@ -17,6 +17,7 @@ traits:
   size: sparrow
   colors: [black, orange, white]
   tone: bright
+  marks: [wing_patch]
   bill: [short]
   layer: [midstory, canopy]
 sources:

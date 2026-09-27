@@ -16,7 +16,7 @@ similar:
 behavior: "Зимует в кронах влажного горного леса и предгорий, часто присоединяясь к смешанным стаям. Ест насекомых и плоды."
 voice: "Хрипловатое двусложное «чип-бурр»; на зимовке почти не поёт."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [olive, yellow, black]
   tone: dull
   marks: []

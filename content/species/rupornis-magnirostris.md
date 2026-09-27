@@ -16,10 +16,10 @@ similar:
 behavior: "Сидит на столбах, проводах и открытых ветках у дорог, пастбищ и опушек, высматривая ящериц, крупных насекомых и мелких грызунов. Часто кричит сидя и в полёте, подпускает близко."
 voice: "Высокий пронзительный протяжный крик «кииирр»."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [gray, brown, rufous]
   tone: dull
-  marks: [barred]
+  marks: [wing_patch, barred]
   bill: hooked
   layer: [midstory, air]
 sources:
