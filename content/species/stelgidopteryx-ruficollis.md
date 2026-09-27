@@ -2,6 +2,7 @@
 id: stelgidopteryx-ruficollis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло рыжевато-коричное, контрастирует с серо-бурой грудью"
   - "Верх серо-бурый, без блеска; брюхо желтоватое, подхвостье белое"
@@ -11,7 +12,7 @@ similar:
   - id: riparia-riparia
     how: "горло белое, поперёк груди чёткая бурая полоса, хвост с вилкой"
   - id: progne-tapera
-    how: "крупнее, горло белое, на груди бурая полоса из пятнышек"
+    how: "крупнее, горло белое, поперёк груди размытая бурая полоса, хвост с небольшой вилкой"
 behavior: "Летает низко над реками, дорогами и полянами, парами или небольшими стайками; часто сидит на проводах и сухих ветках. Гнездится в норах береговых обрывов и выемках дорог."
 voice: "Хрипловатое восходящее «дзрииит» и жужжащий щебет."
 traits:
@@ -23,7 +24,7 @@ traits:
   layer: [air]
 sources:
   - "Wikipedia: Southern rough-winged swallow (en, CC BY-SA 4.0) — описание, подвиды и их ареалы, высоты в Колумбии, голос"
-  - "Wikipedia: Stelgidopteryx ruficollis (es, CC BY-SA 4.0)"
+  - "Wikipedia: Stelgidopteryx ruficollis (es, CC BY-SA 4.0); Brown-chested martin, Sand martin (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/stelgidopteryx-ruficollis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -36,7 +37,7 @@ en:
     - id: riparia-riparia
       how: "white throat, clear brown breast band, forked tail"
     - id: progne-tapera
-      how: "larger, white throat, a breast band of brown spots"
+      how: "larger, white throat, an indistinct brown band across the breast, slightly forked tail"
   behavior: "Flies low over rivers, roads and clearings in pairs or small flocks; often perches on wires and dead twigs. Nests in burrows in riverbanks and road cuts."
   voice: "A rough, rising 'djreeet' and buzzy twittering."
 ---

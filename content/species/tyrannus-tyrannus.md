@@ -2,6 +2,7 @@
 id: tyrannus-tyrannus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост чёрный с широкой белой каймой на конце"
   - "Верх тёмно-серый, голова почти чёрная, низ чисто белый"

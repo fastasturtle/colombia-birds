@@ -2,6 +2,7 @@
 id: henicorhina-leucosticta
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь чисто белые, низ брюха охристый"
   - "Белая бровь, щёки и бока шеи в чёрно-белых штрихах"

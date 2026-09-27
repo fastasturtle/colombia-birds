@@ -2,6 +2,7 @@
 id: cyanolyca-turcosa
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ярко-бирюзово-синяя; оттенок меняется со светом, от голубого до зеленоватого"
   - "Широкая чёрная маска через глаз и узкий чёрный ошейник поперёк горла"
@@ -9,7 +10,7 @@ key_features:
   - "Хвост длинный, снизу крылья и хвост черноватые"
 similar:
   - id: cyanolyca-armillata
-    how: "темнее, глубоко-синяя, без бирюзового оттенка, горло синее; на маршруте отмечена в Сибундое и на Трамплине птиц"
+    how: "лоб чёрный, без белого; темнее, горло и верх груди ультрамариновые в тонкой чёрной кайме; на маршруте отмечена в Сибундое и на Трамплине птиц"
   - id: cyanolyca-pulchra
     how: "мельче, маска сливается с тёмно-серой грудью, ошейника нет; живёт ниже, на тихоокеанском склоне"
 behavior: "Группами или в смешанных стаях обыскивает средний ярус и кроны горного и эльфийского леса, заглядывая в эпифиты. Всеядна: насекомые, ягоды, яйца и птенцы."
@@ -23,7 +24,7 @@ traits:
   layer: [midstory, canopy]
 sources:
   - "Wikipedia: Turquoise jay (en, CC BY-SA 4.0) — описание, размеры, голос, местообитания"
-  - "Wikipedia: Cyanolyca turcosa (ru, es, CC BY-SA 4.0) — размеры, питание"
+  - "Wikipedia: Cyanolyca turcosa (ru, es, CC BY-SA 4.0) — размеры, питание; Black-collared jay (en, CC BY-SA 4.0) — отличия C. armillata"
   - "Данные проекта: data/species/cyanolyca-turcosa.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/corvidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
@@ -35,7 +36,7 @@ en:
     - "Long tail; wings and tail blackish from below"
   similar:
     - id: cyanolyca-armillata
-      how: "darker, deep blue without a turquoise tone, blue throat; on the route recorded at Sibundoy and Trampolín de las Aves"
+      how: "black forehead with no white; darker, throat and upper breast ultramarine with a thin black border; on the route recorded at Sibundoy and Trampolín de las Aves"
     - id: cyanolyca-pulchra
       how: "smaller, mask merging into a dark gray breast, no collar; lives lower, on the Pacific slope"
   behavior: "Groups or mixed flocks search the midstory and canopy of montane and elfin forest, probing epiphytes. Omnivorous: insects, berries, eggs and nestlings."

@@ -2,6 +2,7 @@
 id: cissopis-leverianus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и грудь глянцево-сине-чёрные, нижний край на груди зубчатый"
   - "Спина и брюхо белые, крылья чёрные с белой каймой"

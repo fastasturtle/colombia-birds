@@ -2,6 +2,7 @@
 id: piranga-rubra
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец целиком розово-красный, крылья того же цвета, чёрного нет"
   - "Клюв крупный, светлый, желтовато-роговой"

@@ -2,14 +2,15 @@
 id: microbates-cinereiventris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо рыжее, с тонкой чёрной полоской за глазом"
   - "Широкий чёрный «ус» отделяет рыжие щёки от белого горла"
-  - "Грудь серая, в верхней части с тонкими чёрными штрихами; спина бурая"
+  - "Верх груди белый, в тонких чёрных штрихах, низ серый; спина бурая"
   - "Хвост короткий, часто вздёрнут; клюв длинный и тонкий"
 similar:
   - id: ramphocaenus-melanurus
-    how: "клюв очень длинный, хвост длинный и узкий, торчит вверх; лицо без чёрного «уса»"
+    how: "клюв очень длинный, узкий чёрный хвост с белыми концами, вздёрнут и покачивается; лицо без чёрного «уса»"
   - id: microcerculus-marginatus
     how: "без рыжего лица и чёрного «уса», хвоста почти нет; ходит по земле"
 behavior: "Парами кормится у земли и в нижнем подлеске влажного леса, часто со смешанными стаями подлеска; постоянно подёргивает хвостом."
@@ -23,17 +24,18 @@ traits:
   layer: [understory]
 sources:
   - "Wikipedia: Tawny-faced gnatwren (en, CC BY-SA 4.0) — описание, подвиды, высоты, голос"
+  - "Wikipedia: Trilling gnatwren, Southern nightingale-wren (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/microbates-cinereiventris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Rufous face with a thin black line behind the eye"
     - "Broad black moustache separating rufous cheeks from a white throat"
-    - "Gray breast, finely streaked black at the top; brown back"
+    - "Upper breast white with thin black streaks, underparts gray; brown back"
     - "Short, often cocked tail; long thin bill"
   similar:
     - id: ramphocaenus-melanurus
-      how: "very long bill, long narrow cocked tail; no black moustache"
+      how: "very long bill, narrow black tail with white tips, cocked and wagged; no black moustache"
     - id: microcerculus-marginatus
       how: "no rufous face or black moustache, almost no tail; walks on the ground"
   behavior: "Pairs feed near the ground and in the low understory of humid forest, often with understory mixed flocks; constantly flicks its tail."

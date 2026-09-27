@@ -2,6 +2,7 @@
 id: henicorhina-leucophrys
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь и брюхо серые, бока и низ брюха охристо-бурые"
   - "Длинная белая бровь, за глазом чёрная полоса, щёки в чёрно-белых штрихах"

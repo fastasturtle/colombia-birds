@@ -2,11 +2,12 @@
 id: cinnycerthia-unirufa
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь ровно тёмно-каштаново-рыжий, от макушки до брюха"
   - "Уздечка черноватая; тонкие тёмные полоски на крыльях и хвосте в поле почти не видны"
   - "Крупный для крапивника, с хвостом средней длины и тонким клювом"
-  - "Держится шумными группами по 3–8 птиц в бамбуке Chusquea"
+  - "Держится шумными небольшими группами, часто в бамбуке Chusquea"
 similar:
   - id: cinnycerthia-olivascens
     how: "бурее, не такой рыжий, полоски на крыльях и хвосте чёткие; живёт ниже, в облачном лесу"
@@ -31,7 +32,7 @@ en:
     - "Uniform dark chestnut-rufous from crown to belly"
     - "Blackish lores; fine dark bars on wings and tail hard to see in the field"
     - "Large for a wren, with a medium-length tail and a thin bill"
-    - "Travels in noisy groups of 3–8 birds through Chusquea bamboo"
+    - "Travels in small noisy groups, often in Chusquea bamboo"
   similar:
     - id: cinnycerthia-olivascens
       how: "browner, less rufous, with bold bars on wings and tail; lives lower, in cloud forest"

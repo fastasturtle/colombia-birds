@@ -2,6 +2,7 @@
 id: cyanolyca-pulchra
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Макушка и затылок очень светлые, голубовато-белые, как седая шапка"
   - "Чёрная маска на лице переходит в тёмно-серую грудь"
@@ -9,7 +10,7 @@ key_features:
   - "Клюв и ноги чёрные"
 similar:
   - id: cyanolyca-turcosa
-    how: "крупнее, бирюзовая, горло светлое, с узким чёрным ошейником; живёт выше, от 1 800 м"
+    how: "крупнее, бирюзовая, светлые только лоб и передняя часть макушки, грудь без серого, поперёк горла узкий чёрный ошейник; живёт выше, от 1 850 м"
 behavior: "Держится парами или небольшими семейными группами в подлеске и среднем ярусе первичного облачного леса, часто у ручьёв и в сырых лощинах; для сойки малозаметна."
 voice: "Повторяющееся «чю-чю-чю», щелчки и свисты."
 traits:
@@ -33,7 +34,7 @@ en:
     - "Black bill and legs"
   similar:
     - id: cyanolyca-turcosa
-      how: "larger, turquoise, pale throat with a narrow black collar; lives higher, from 1,800 m"
+      how: "larger, turquoise, only the forehead and forecrown pale, no gray on the breast, a narrow black collar across the throat; lives higher, from 1,850 m"
   behavior: "Keeps in pairs or small family groups in the understory and midstory of primary cloud forest, often along streams and in damp ravines; inconspicuous for a jay."
   voice: "A repeated 'chew-chew-chew', clicks and whistles."
 ---
