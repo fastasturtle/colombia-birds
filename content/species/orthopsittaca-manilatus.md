@@ -2,6 +2,7 @@
 id: orthopsittaca-manilatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голое горчично-жёлтое лицо вокруг глаза и у основания клюва"
   - "Зелёный, с длинным острым хвостом; лоб голубоватый"
