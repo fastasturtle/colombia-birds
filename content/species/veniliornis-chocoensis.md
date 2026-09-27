@@ -2,6 +2,7 @@
 id: veniliornis-chocoensis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ целиком в поперечных полосах, оливковых и беловато-охристых"
   - "Спина бронзово-золотисто-зелёная с красноватым налётом и светлыми штрихами"
@@ -9,7 +10,7 @@ key_features:
   - "У самца темя красное с просвечивающими тёмными основаниями перьев, у самки оливково-бурое"
 similar:
   - id: veniliornis-kirkii
-    how: "поясница ярко-красная, спина красновато-оливковая, ровнее; держится и в садах, на опушках"
+    how: "поясница ярко-красная, спина золотисто-оливковая, ровнее; держится и в садах, на опушках"
   - id: veniliornis-dignus
     how: "за глазом белая полоса, брюхо и подхвостье жёлтые; живёт выше, от 1 200 м"
 behavior: "Держится в кронах и среднем ярусе влажного и очень влажного леса и по его краям. Пару наблюдали в микст-флоке в первичном лесу; в остальном биология вида почти не изучена."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Chocó woodpecker (en), Veniliornis chocoensis (es, ru), CC BY-SA 4.0 — data/texts: окраска, ареал, высоты, голос"
   - "Wikipedia: Red-rumped woodpecker, Yellow-vented woodpecker (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Underparts entirely barred olive and whitish buff"
@@ -34,7 +36,7 @@ en:
     - "Male's crown red with dark feather bases showing through, female's olive-brown"
   similar:
     - id: veniliornis-kirkii
-      how: "bright red rump, plainer reddish-olive back; also in gardens and at edges"
+      how: "bright red rump, plainer golden-olive back; also in gardens and at edges"
     - id: veniliornis-dignus
       how: "white stripe behind the eye, yellow belly and undertail; lives higher, from 1,200 m"
   behavior: "Keeps in the canopy and midstory of humid to very wet forest and along its edges. A pair has been seen in a mixed flock in primary forest; otherwise the species' biology is almost unknown."

@@ -2,6 +2,7 @@
 id: calidris-alba
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Зимой очень светлая: верх бледно-серый, низ чисто белый"
   - "Тёмное пятно на сгибе крыла, клюв и ноги чёрные"
@@ -11,7 +12,7 @@ similar:
   - id: calidris-mauri
     how: "мельче, темнее и серее, клюв с чуть опущенным концом; кормится на иле, а не бегает за волной"
   - id: calidris-minutilla
-    how: "намного мельче, бурая, ноги жёлтые; держится на иле и у прудов, а не на прибойном песке"
+    how: "намного мельче, бурая, ноги желтовато-зелёные; держится на иле и у прудов, а не на прибойном песке"
 behavior: "Стайками кормится на полосе прибоя песчаных пляжей, выхватывая мелких рачков из мокрого песка. В прилив отдыхает плотными группами, часто стоя на одной ноге."
 voice: "Короткое резкое «твик» или «плит»; в стае негромкий щебет."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/calidris-alba.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Western sandpiper, Least sandpiper (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Very pale in winter: pale gray above, clean white below"
@@ -36,7 +38,7 @@ en:
     - id: calidris-mauri
       how: "smaller, darker and grayer, bill slightly drooping at the tip; feeds on mud rather than chasing waves"
     - id: calidris-minutilla
-      how: "much smaller, brown, yellow legs; keeps to mud and ponds rather than surf-washed sand"
+      how: "much smaller, brown, yellowish-green legs; keeps to mud and ponds rather than surf-washed sand"
   behavior: "Feeds in small flocks along the surf line of sandy beaches, snatching small crustaceans from the wet sand. At high tide it rests in tight groups, often on one leg."
   voice: "A short sharp 'twick' or 'plit'; a soft twitter in flocks."
 ---

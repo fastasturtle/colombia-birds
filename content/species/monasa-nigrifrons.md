@@ -2,9 +2,10 @@
 id: monasa-nigrifrons
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв ярко-красный, коралловый, слегка изогнутый"
-  - "Оперение аспидно-серое, у основания клюва чернее"
+  - "Оперение черновато-серое, темнее всего у основания клюва, сзади сизое"
   - "Хвост длинный, сине-чёрный; белых отметин на голове и крыле нет"
   - "Держится шумными группами, часто на ветках над водой"
 similar:
@@ -27,10 +28,11 @@ sources:
   - "Wikipedia: White-fronted nunbird, Yellow-billed nunbird (en, CC BY-SA 4.0) — отличия, data/texts; согласовано с content/species/monasa-flavirostris.md"
   - "content/families/bucconidae.md (берег Путумайо у Пуэрто-Асиса)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Bright coral-red bill, slightly decurved"
-    - "Slate-gray plumage, blacker around the bill base"
+    - "Sooty gray plumage, darkest around the bill base, bluish-gray behind"
     - "Long blue-black tail; no white marks on head or wing"
     - "Keeps in noisy groups, often on branches over water"
   similar:

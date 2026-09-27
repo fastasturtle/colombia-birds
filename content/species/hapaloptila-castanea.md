@@ -2,6 +2,7 @@
 id: hapaloptila-castanea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Над клювом большое белое пятно с тонкой чёрной каймой сверху"
   - "Горло белое, грудь и брюхо ярко-каштановые"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Black-streaked puffbird (en, CC BY-SA 4.0) — отличие, data/texts"
   - "content/families/bucconidae.md (Ла-Планада)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Large white patch above the bill with a thin black upper border"

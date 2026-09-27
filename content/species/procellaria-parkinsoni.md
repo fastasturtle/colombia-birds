@@ -2,6 +2,7 @@
 id: procellaria-parkinsoni
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Сплошь чёрный буревестник, снизу крыло тоже тёмное"
   - "Клюв светлый, желтовато-роговой, с тёмным кончиком — заметен на чёрной голове"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/procellaria-parkinsoni.json (ACO 2022, BIRDBASE 2025), data/study_lists.json"
   - "content/families/procellariidae.md — место на маршруте"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "All-black petrel, underwing dark as well"

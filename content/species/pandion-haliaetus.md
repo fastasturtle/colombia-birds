@@ -2,6 +2,7 @@
 id: pandion-haliaetus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх тёмно-бурый, низ чисто белый"
   - "Голова белая, через глаз чёрная полоса"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/pandion-haliaetus.json (ACO 2022: бореальный мигрант; BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: Osprey (en), Pandion haliaetus (es), Скопа (ru), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar; высоты — data/site_species.json (Ботанический сад Боготы, Ла-Флорида «возможно»)"
 en:
   key_features:
     - "Dark brown upperparts, clean white underparts"
@@ -39,12 +41,12 @@ en:
   behavior: "Hunts fish over rivers, lakes, lagoons and the seashore, hovering over the water and plunging in completely. Perches on dead trees and posts by the water."
   voice: "A series of high whistles, 'kyew-kyew-kyew', mostly in alarm."
 ---
-Osprey (скопа) — специализированный рыболов, распространённый почти по всему свету. В Колумбию скопы прилетают на зиму из Северной Америки, и в октябре мигранты уже на месте; у нас они держатся у воды до 1 000 м, изредка выше. Над рекой её узнают по длинным изогнутым крыльям и белому низу, а у сидящей птицы видна тёмная полоса через глаз.
+Osprey (скопа) — специализированный рыболов, распространённый почти по всему свету. В Колумбию скопы прилетают на зиму из Северной Америки, и в октябре мигранты уже прибывают; по данным проекта они держатся у воды до 1 000 м, но на пролёте и зимовке бывают и на озёрах высокогорья, вплоть до Саваны Боготы. Над рекой её узнают по длинным изогнутым крыльям и белому низу, а у сидящей птицы видна тёмная полоса через глаз.
 
 На маршруте она «точно» в Эль-Эскондите 13–14 октября и «возможно» в Орито 11 октября, над Путумайо у Пуэрто-Асиса, на Финке Марагрикола 22 октября и в Тумако.
 
 ## English
 
-Osprey is a specialist fish-eater found almost worldwide. Ospreys come to Colombia for the winter from North America, and by October the migrants have arrived; here they keep by water up to 1,000 m, occasionally higher. Over a river it is known by its long bent wings and white underparts, and a perched bird shows the dark stripe through the eye.
+Osprey is a specialist fish-eater found almost worldwide. Ospreys come to Colombia for the winter from North America, and in October the migrants are arriving; project data give water up to 1,000 m, but on passage and in winter they also turn up on highland lakes, up to the Bogotá savanna. Over a river it is known by its long bent wings and white underparts, and a perched bird shows the dark stripe through the eye.
 
 On the route it is "sure" at El Escondite on 13–14 October and "maybe" at Orito on 11 October, over the Putumayo at Puerto Asís, at Finca Maragrícola on 22 October and at Tumaco.

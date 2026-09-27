@@ -2,6 +2,7 @@
 id: sula-granti
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Белоснежная, маховые и хвост чёрные, резкий контраст в полёте"
   - "Клюв оранжево-розовый, длинный и острый"
@@ -9,7 +10,7 @@ key_features:
   - "Молодые бурые сверху с белым брюхом и белым воротником"
 similar:
   - id: sula-dactylatra
-    how: "почти такая же, но клюв зеленовато-жёлтый, а не оранжево-розовый"
+    how: "почти такая же, но клюв жёлтый (у самки зеленовато-жёлтый), а не оранжево-розовый"
   - id: sula-nebouxii
     how: "голова и спина бурые в светлых пестринах, лапы ярко-голубые"
 behavior: "Кормится далеко в море: пикирует в воду с высоты за сардинами, летучими рыбами и кальмарами. К берегу подходит редко, чаще видна пролетающей над горизонтом."
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/sula-granti.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/sula-nebouxii.md, content/families/sulidae.md — согласование отличий, место на маршруте"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Snow-white, flight feathers and tail black, sharp contrast in flight"
@@ -35,7 +37,7 @@ en:
     - "Young birds brown above with a white belly and white collar"
   similar:
     - id: sula-dactylatra
-      how: "almost identical, but the bill is greenish-yellow, not orange-pink"
+      how: "almost identical, but the bill is yellow (greenish-yellow in females), not orange-pink"
     - id: sula-nebouxii
       how: "head and back brown with pale streaks, bright blue feet"
   behavior: "Feeds far out at sea, plunge-diving from height for sardines, flying fish and squid. Rarely comes close inshore and is more often seen passing along the horizon."

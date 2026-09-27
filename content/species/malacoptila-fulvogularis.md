@@ -2,6 +2,7 @@
 id: malacoptila-fulvogularis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и верх груди охристые, ниже грудь и бока в чёрно-белых полосах"
   - "Голова черноватая в тонких белых пестринах, перед глазом белое пятно"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: White-faced nunbird (en, CC BY-SA 4.0) — отличие, data/texts"
   - "content/families/bucconidae.md (Финка Дискосура)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Ochre throat and upper breast, lower breast and flanks striped black and white"

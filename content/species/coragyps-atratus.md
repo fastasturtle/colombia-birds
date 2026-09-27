@@ -2,6 +2,7 @@
 id: coragyps-atratus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся чёрная, голова голая, серая и морщинистая"
   - "В полёте на концах крыльев снизу белесые «окна»"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/coragyps-atratus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: Black vulture (en), Coragyps atratus (es), Американская чёрная катарта (ru), CC BY-SA 4.0 — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "All black, with a bare, gray, wrinkled head"

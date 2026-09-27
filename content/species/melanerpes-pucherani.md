@@ -2,16 +2,17 @@
 id: melanerpes-pucherani
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкая чёрная полоса от глаза вниз по шее, за глазом короткая белая черта"
-  - "Лоб золотисто-жёлтый, темя и затылок у самца красные; у самки темя чёрное"
+  - "У самца лоб золотисто-жёлтый, темя и затылок красные; у самки лоб беловатый, темя чёрное"
   - "Спина в чёрно-белых поперечных полосах, поясница белая"
   - "Грудь оливково-серая, брюхо в волнистых полосах с красным пятном посередине"
 similar:
   - id: melanerpes-rubricapillus
     how: "лицо светлое, без чёрной полосы через щёку, лоб беловатый"
   - id: veniliornis-kirkii
-    how: "мельче, спина ровная, оливково-красная, поясница красная, низ в тонких полосах"
+    how: "мельче, спина ровная, золотисто-оливковая, поясница красная, низ в тонких полосах"
 behavior: "Пары и маленькие группы держатся в кронах по опушкам, на плантациях и на отдельных деревьях среди пастбищ; кроме насекомых, едят много плодов."
 voice: "Громкая трескучая трель «чуррр» и резкие одиночные крики."
 traits:
@@ -26,17 +27,18 @@ sources:
   - "Wikipedia: Black-cheeked woodpecker (en), Melanerpes pucherani (es), CC BY-SA 4.0 — data/texts: окраска, распространение"
   - "Wikipedia: Red-crowned woodpecker, Red-rumped woodpecker (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Broad black band from the eye down the neck, short white line behind the eye"
-    - "Golden-yellow forehead; male's crown and nape red, female's crown black"
+    - "Male: golden-yellow forehead, red crown and nape; female: whitish forehead, black crown"
     - "Back barred black and white, white rump"
     - "Olive-gray breast, belly wavy-barred with a red central patch"
   similar:
     - id: melanerpes-rubricapillus
       how: "pale face without a black band across the cheek, whitish forehead"
     - id: veniliornis-kirkii
-      how: "smaller, plain olive-red back, red rump, finely barred below"
+      how: "smaller, plain golden-olive back, red rump, finely barred below"
   behavior: "Pairs and small groups keep in the canopy at forest edges, in plantations and on scattered trees in pastures; besides insects they eat a lot of fruit."
   voice: "A loud rattling 'churrr' and sharp single calls."
 ---

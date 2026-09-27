@@ -2,6 +2,7 @@
 id: micrastur-plumbeus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и верх ровно аспидно-серые"
   - "Голая кожа лица, восковица и ноги ярко-оранжевые"
@@ -9,7 +10,7 @@ key_features:
   - "Грудь светло-серая в тонких тёмных поперечных полосках, брюхо беловатое"
 similar:
   - id: micrastur-ruficollis
-    how: "на хвосте три-четыре узкие светлые полосы, весь низ в густых полосках; бывает рыжеватая морфа"
+    how: "на хвосте от трёх до шести узких белых полос, весь низ в густых полосках; у некоторых подвидов бывает бурая морфа"
   - id: cryptoleucopteryx-plumbea
     how: "грудь и брюхо ровно серые, без полос; крылья шире, это канюк, а не лесной сокол"
 behavior: "Скрытно держится в подлеске и среднем ярусе влажного леса, подкарауливая добычу с присады. Ловит ящериц, мелких птиц и сухопутных крабов."
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/micrastur-plumbeus.json (ACO 2022, BIRDBASE 2025, почти-эндемик по Chaparro-Herrera et al. 2024, Красная книга Колумбии EN), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: Plumbeous forest falcon (en), Micrastur plumbeus (es), Сизый лесной сокол (ru), CC BY-SA 4.0 — data/texts: окраска, размеры, питание, голос"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Plain slate-gray head and upperparts"
@@ -33,7 +35,7 @@ en:
     - "Pale gray breast finely barred dark, whitish belly"
   similar:
     - id: micrastur-ruficollis
-      how: "three or four narrow pale tail bands, densely barred below; has a rufous-tinged morph"
+      how: "three to six narrow white tail bands, densely barred below; some subspecies have a brown morph"
     - id: cryptoleucopteryx-plumbea
       how: "breast and belly plain gray, unbarred; broader wings, a hawk rather than a forest-falcon"
   behavior: "Keeps hidden in the understory and mid-level of humid forest, watching for prey from a perch. Takes lizards, small birds and land crabs."

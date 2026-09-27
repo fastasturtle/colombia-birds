@@ -2,6 +2,7 @@
 id: galbula-pastazae
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, тонкий, прямой, чёрный, как игла"
   - "Горло и грудь блестящие зелёные, брюхо и подхвостье тёмно-рыжие"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-chinned jacamar (en, CC BY-SA 4.0) — отличие, data/texts; согласовано с content/species/galbula-tombacea.md"
   - "content/families/galbulidae.md (Финка Дискосура и Трамплин птиц)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar; кольцо вокруг глаза — BirdForum Opus, https://www.birdforum.net/opus/Coppery-chested_Jacamar (по сниппету поиска)"
 en:
   key_features:
     - "Long, thin, straight black bill, like a needle"

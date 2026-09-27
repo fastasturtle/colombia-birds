@@ -2,6 +2,7 @@
 id: aulacorhynchus-haematopygus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти весь зелёный, поясница красная, видна в полёте"
   - "Клюв тёмно-красно-бурый с чёрным, у основания вертикальная белая полоска"
@@ -9,7 +10,7 @@ key_features:
   - "Хвост длинный, центральные перья с каштановыми концами"
 similar:
   - id: aulacorhynchus-albivitta
-    how: "поясница зелёная, горло светлое, клюв чёрно-жёлтый, подхвостье каштановое"
+    how: "поясница зелёная, горло белое, серое или голубоватое (по подвидам), клюв чёрный с жёлтым верхом, подхвостье каштановое"
 behavior: "Пары и небольшие группы кормятся плодами в кронах облачного леса, на опушках, во вторичных лесах и на отдельных плодовых деревьях среди пастбищ и садов."
 voice: "Серия хриплых лающих нот «даак» или «гррук», которую поют оба пола, иногда дуэтом."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Crimson-rumped toucanet (en), Aulacorhynchus haematopygus (es), Малиновопоясничный туканет (ru), CC BY-SA 4.0 — data/texts: окраска, подвиды, высоты, голос"
   - "Wikipedia: Southern emerald-toucanet (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Almost wholly green, with a red rump visible in flight"
@@ -32,7 +34,7 @@ en:
     - "Long tail, central feathers tipped chestnut"
   similar:
     - id: aulacorhynchus-albivitta
-      how: "green rump, pale throat, black-and-yellow bill, chestnut undertail"
+      how: "green rump, white, gray or bluish throat (by subspecies), black bill with a yellow ridge, chestnut undertail"
   behavior: "Pairs and small groups feed on fruit in the cloud-forest canopy, at edges, in secondary forest and on fruiting trees standing alone in pastures and gardens."
   voice: "A series of gruff barking notes, 'daakk' or 'gggruk', sung by both sexes, sometimes in duet."
 ---

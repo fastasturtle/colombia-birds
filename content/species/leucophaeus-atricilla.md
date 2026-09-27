@@ -2,6 +2,7 @@
 id: leucophaeus-atricilla
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крылья сверху тёмно-серые, конец крыла чёрный, почти без белых пятен"
   - "Зимой голова белая с размытым серым пятном за глазом, летом чёрный капюшон"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/leucophaeus-atricilla.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Franklin's gull (en, CC BY-SA 4.0); content/species/chroicocephalus-serranus.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Dark gray upperwings with a black tip and almost no white spots"

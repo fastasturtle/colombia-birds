@@ -2,9 +2,10 @@
 id: larosterna-inca
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся тёмно-аспидно-серая, с белыми завитыми «усами» от клюва вдоль шеи"
-  - "Клюв и ноги ярко-красные, у основания клюва жёлтая кожа"
+  - "Клюв ярко-красный, у основания жёлтая голая кожа; ноги тёмно-красные"
   - "Задний край крыла белый, хвост чёрный, умеренно вильчатый"
 similar:
   - id: anous-stolidus
@@ -23,10 +24,11 @@ sources:
   - "Данные проекта: data/species/larosterna-inca.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/laridae.md; Wikipedia: Brown noddy (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts (Wikipedia en/es/ru) вида и видов из similar"
 en:
   key_features:
     - "Dark slate-gray all over, with curled white 'moustaches' running from the bill along the neck"
-    - "Bright red bill and legs, bare yellow skin at the bill base"
+    - "Bright red bill with bare yellow skin at the base; dark red legs"
     - "White trailing edge to the wing, black moderately forked tail"
   similar:
     - id: anous-stolidus
