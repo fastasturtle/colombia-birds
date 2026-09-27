@@ -2,6 +2,7 @@
 id: chalcostigma-herrani
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка рыжая, от лба до темени; за глазом белая точка"
   - "Хвост вильчатый, сине-чёрный, с крупными белыми уголками, лучше видными снизу"
@@ -11,9 +12,9 @@ similar:
   - id: metallura-tyrianthina
     how: "без рыжей шапочки и белых уголков хвоста, хвост медно-бронзовый; мельче"
   - id: metallura-williami
-    how: "тёмно-зелёный без рыжей шапочки, в хвосте нет белого"
+    how: "тёмно-зелёный без рыжей шапочки; в Нариньо хвост красновато-чёрный сверху и зелёный снизу, у самца без белого"
 behavior: "Держится на парамо, кустарниковых склонах и в заросших папоротником и бромелиями оврагах. Кормится у мелких цветков низких кустов, обычно цепляясь за них; одиночка, яростно гоняет от своих цветов даже цветоколов."
-voice: "Записей мало; в поле его находят глазами, по белым уголкам хвоста."
+voice: "Записей мало; возможная песня — повторяющееся низкое «чит-ди-ди-чит»; в поле его обычно находят глазами, по белым уголкам хвоста."
 traits:
   size: hummingbird
   colors: [green, rufous]
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Rainbow-bearded thornbill (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/chalcostigma-herrani.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Viridian metaltail (en, CC BY-SA 4.0)"
+  - "Wikipedia: Tyrian metaltail (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Rufous cap from forehead to crown; white dot behind the eye"
@@ -35,9 +38,9 @@ en:
     - id: metallura-tyrianthina
       how: "no rufous cap and no white tail corners, tail coppery bronze; smaller"
     - id: metallura-williami
-      how: "dark green with no rufous cap and no white in the tail"
+      how: "dark green with no rufous cap; in Nariño the tail is reddish black above and green below, with no white in males"
   behavior: "Keeps to páramo, shrubby slopes and gullies with ferns and bromeliads. Feeds at small flowers on low shrubs, usually clinging to them; solitary, and fiercely chases even flowerpiercers from its flowers."
-  voice: "Few recordings exist; in the field it is found by eye, by the white tail corners."
+  voice: "Few recordings exist; a possible song is a repeated low 'cheet-dee-dee-cheet'; in the field it is usually found by eye, by the white tail corners."
 ---
 Rainbow-bearded Thornbill (бородатый радужник) — колибри парамо и кустарников у границы леса, в Колумбии в основном на 2 700–3 700 м. Радужную бородку самца видно только при хорошем свете, а рыжая шапочка и белые уголки хвоста заметны сразу, даже когда птица сидит на кусте в тумане.
 

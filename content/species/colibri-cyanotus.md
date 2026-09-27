@@ -2,6 +2,7 @@
 id: colibri-cyanotus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Средний зелёный колибри с фиолетово-синим пятном только на ухе"
   - "Подбородок и брюхо зелёные, синего пятна на брюхе нет"
@@ -13,7 +14,7 @@ similar:
   - id: colibri-delphinae
     how: "бурый, а не зелёный, с беловатыми усами и блестящим сине-зелёным горлом"
 behavior: "Держится на опушках, в садах и кустарниках; кормится на цветах в среднем ярусе и заходит на кормушки. Самцы подолгу поют с одной присады."
-voice: "Сухое монотонное «чип-чирип», повторяемое как метроном."
+voice: "Резкое сухое «цу-цзик», повторяемое однообразно, примерно раз в секунду, как метроном."
 traits:
   size: hummingbird
   colors: [green, purple]
@@ -24,6 +25,8 @@ traits:
 sources:
   - "Данные проекта: data/species/colibri-cyanotus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Lesser violetear (en, CC BY-SA 4.0)"
+  - "Wikipedia: Colibri cyanotus (es, CC BY-SA 4.0)"
 en:
   key_features:
     - "A medium green hummingbird with a violet-blue patch on the ear only"
@@ -36,7 +39,7 @@ en:
     - id: colibri-delphinae
       how: "brown rather than green, with whitish malar stripes and a glittering blue-green throat"
   behavior: "Keeps to edges, gardens and shrubland; feeds at flowers in the midstory and visits feeders. Males sing for long spells from one perch."
-  voice: "A dry, monotonous 'chip-chirip', repeated like a metronome."
+  voice: "A sharp, dry 'tsu-tzeek', repeated monotonously about once a second, like a metronome."
 ---
 Lesser Violetear (зеленогрудый фиалкоух) — младший брат Sparkling Violetear: той же расцветки, но заметно мельче, и фиолетовое у него только на ухе. Держится ниже, на высотах 600–3 000 м, чаще на опушках и в садах, чем на открытых склонах.
 

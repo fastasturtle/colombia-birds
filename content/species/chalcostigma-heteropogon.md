@@ -2,6 +2,7 @@
 id: chalcostigma-heteropogon
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, прямой и тонкий; тело тёмное бутылочно-зелёное"
   - "Надхвостье медно-красное, хвост вильчатый, оливковый"
@@ -25,6 +26,8 @@ sources:
   - "Wikipedia: Bronze-tailed thornbill (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/chalcostigma-heteropogon.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Green-bearded helmetcrest (en, CC BY-SA 4.0)"
+  - "Wikipedia: Tyrian metaltail (en, CC BY-SA 4.0)"
 en:
   key_features:
     - "Bill short, straight and fine; body dark bottle green"

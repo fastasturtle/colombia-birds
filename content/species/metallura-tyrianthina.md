@@ -2,6 +2,7 @@
 id: metallura-tyrianthina
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Маленький тёмно-зелёный колибри с очень коротким прямым чёрным клювом"
   - "Хвост медно-бронзовый с красноватым отливом, заметен при раскрытии"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: горло охристо-рыжее в зелёных точках, низ беловатый"
 similar:
   - id: metallura-williami
-    how: "темнее, хвост без медно-красного отлива; у самки горло зеленоватое, без охристого; держится выше, у границы парамо"
+    how: "крупнее, клюв длиннее; в Нариньо хвост сверху красновато-чёрный, снизу зелёный; горло самки пёстрое зелёно-белое, без охристого; держится выше"
   - id: ramphomicron-microrhynchum
     how: "клюв ещё короче, почти игла; у самца пурпурная спина"
 behavior: "Кормится у цветков кустарников в подлеске и на опушках, часто цепляется за цветок; охраняет цветущие кусты и прогоняет соседей. Сезонно кочует по высотам."
@@ -25,6 +26,9 @@ sources:
   - "Wikipedia: Tyrian metaltail (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/metallura-tyrianthina.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Viridian metaltail (en, CC BY-SA 4.0)"
+  - "Wikipedia: Purple-backed thornbill (en, CC BY-SA 4.0)"
+  - "Wikipedia: Metallura tyrianthina (es, CC BY-SA 4.0: колумбийское название «metalura colirroja»)"
 en:
   key_features:
     - "A small dark green hummingbird with a very short, straight black bill"
@@ -33,7 +37,7 @@ en:
     - "Female: ochre-rufous throat with green dots, whitish underparts"
   similar:
     - id: metallura-williami
-      how: "darker, tail without a coppery-red sheen; the female's throat greenish, not ochre; keeps higher, at the páramo edge"
+      how: "larger, longer bill; in Nariño the tail is reddish black above, green below; female's throat mottled green and white, not ochre; keeps higher"
     - id: ramphomicron-microrhynchum
       how: "bill even shorter, almost a needle; the male has a purple back"
   behavior: "Feeds at shrub flowers in the understory and along edges, often clinging to the flower; guards flowering bushes and chases neighbours off. Moves up and down slope with the seasons."
