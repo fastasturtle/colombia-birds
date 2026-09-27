@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [rufous, brown, white]
   tone: dull
-  marks: [long_tail, bare_face]
+  marks: [long_tail, bare_face, cap]
   bill: short
   layer: [canopy, midstory]
 sources:

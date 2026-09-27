@@ -17,7 +17,7 @@ traits:
   size: sparrow
   colors: [white, black, red]
   tone: bright
-  marks: [throat_patch]
+  marks: [throat_patch, cap]
   bill: short
   layer: [understory, water]
 sources:

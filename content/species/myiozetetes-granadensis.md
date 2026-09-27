@@ -16,10 +16,10 @@ similar:
 behavior: "Держится парами и семейными группами в среднем ярусе и кронах по опушкам, у рек и в полуоткрытых местах. Ловит насекомых в воздухе и охотно ест ягоды, собираясь с другими видами на плодоносящих деревьях."
 voice: "Громкие носовые «кип!» поодиночке и сериями, а также «кип, киип, к-биир»; голос выше и резче, чем у Social Flycatcher."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [yellow, olive, gray]
   tone: bright
-  marks: [eyebrow]
+  marks: [eyebrow, cap]
   bill: short
   layer: [midstory, canopy]
 sources:

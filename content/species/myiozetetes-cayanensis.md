@@ -16,10 +16,10 @@ similar:
 behavior: "Держится у воды: на кустах и деревьях по берегам рек, прудов и болот, в садах и на пастбищах. Сидит на открытых ветках невысоко, ловит насекомых и срывает ягоды."
 voice: "Тонкий жалобный протяжный свист «пиииии-а», часто повторяемый; на рассвете — повторяемое «фи-и»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [yellow, brown, white]
   tone: bright
-  marks: [eyebrow, mask]
+  marks: [eyebrow, mask, cap]
   bill: short
   layer: [midstory, water]
 sources:

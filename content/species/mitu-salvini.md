@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [black, white]
   tone: bright
-  marks: [crest, white_tail_tips]
+  marks: [crest, white_tail_tips, bright_bill]
   bill: [short, thick]
   layer: [ground, midstory]
 sources:

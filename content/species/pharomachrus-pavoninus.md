@@ -19,6 +19,7 @@ traits:
   size: pigeon
   colors: [green, red]
   tone: bright
+  marks: [bright_bill]
   bill: short
   layer: [understory, midstory]
 sources:

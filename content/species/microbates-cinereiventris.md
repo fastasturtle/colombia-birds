@@ -16,7 +16,7 @@ similar:
 behavior: "Парами кормится у земли и в нижнем подлеске влажного леса, часто со смешанными стаями подлеска; постоянно подёргивает хвостом."
 voice: "Мягкие чистые жалобные свисты «тиии-а» сериями; позыв — носовое ворчливое «ньеее»."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [gray, rufous, brown]
   tone: dull
   marks: [short_tail]

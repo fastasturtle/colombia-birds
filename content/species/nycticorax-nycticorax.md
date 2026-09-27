@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [gray, black, white]
   tone: dull
-  marks: []
+  marks: [cap]
   bill: [medium, thick]
   layer: [water, night]
 sources:

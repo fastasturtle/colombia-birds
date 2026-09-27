@@ -17,7 +17,7 @@ behavior: "Пары круглый год держат участок вдоль
 voice: "Песня самца начинается коротким щебетом и переходит в серию из 8–9 громких звенящих нот; её слышно сквозь шум воды."
 traits:
   size: sparrow
-  colors: [olive, white]
+  colors: [olive, white, rufous]
   tone: dull
   marks: [rump_patch, eyebrow]
   bill: [short, thin]

@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [yellow, olive, white]
   tone: bright
-  marks: [eyebrow, mask]
+  marks: [eyebrow, mask, cap]
   bill: [thick, long]
   layer: [canopy, midstory]
 sources:

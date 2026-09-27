@@ -17,10 +17,10 @@ similar:
 behavior: "Сидит неподвижно в среднем ярусе и кронах горного леса, чаще поодиночке. Ест в основном плоды, срывая их на лету, изредка насекомых; гнездится в дупле старого дерева."
 voice: "Серия печальных двусложных свистов, повторяемых подолгу; по-английски её запоминают как «go home, go home»."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [green, red]
   tone: bright
-  marks: []
+  marks: [bright_bill]
   bill: short
   layer: [midstory, canopy]
 sources:

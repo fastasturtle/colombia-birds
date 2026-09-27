@@ -14,10 +14,10 @@ similar:
 behavior: "Кормится на земле на рассвете, в сумерках и в соседние с ними часы; несмотря на название, активна и днём. Поёт только ночью, чаще в ясные сухие ночи; иногда несколько птиц перекликаются."
 voice: "Ночная серия из низких гулких нот «хмм-хмм-хммм, хмм хмм-хммм, хммф!»."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [rufous, brown, black]
   tone: dull
-  marks: [crest, bare_face]
+  marks: [crest, bare_face, bright_bill]
   bill: short
   layer: [ground, midstory, night]
 sources:

@@ -16,10 +16,10 @@ similar:
 behavior: "Держится семейными группами в среднем ярусе и под кронами незатопляемого леса, на опушках и старых вырубках. Сопровождает смешанные стаи, муравьёв-кочевников и обезьян, подхватывая вспугнутых насекомых."
 voice: "Группа поёт хором: громкие перекликающиеся мурлычущие трели и свисты, слышные издалека."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [gray, black]
   tone: dull
-  marks: [long_tail]
+  marks: [long_tail, bright_bill]
   bill: [medium, curved]
   layer: [midstory]
 sources:

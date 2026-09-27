@@ -16,10 +16,10 @@ similar:
 behavior: "Летает высоко над открытым морем и пикирует за летучими рыбами и кальмарами. Гнездится в расщелинах скалистых островов; по земле почти не ходит."
 voice: "Пронзительные трескучие крики и свист в полёте, особенно у колоний."
 traits:
-  size: crow
+  size: [crow, larger]
   colors: [white, black, red]
   tone: bright
-  marks: [mask, barred, long_tail]
+  marks: [mask, barred, long_tail, bright_bill]
   bill: [medium]
   layer: [air, water]
 sources:

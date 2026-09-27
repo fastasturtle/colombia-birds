@@ -16,10 +16,10 @@ similar:
 behavior: "Шумные пары и семейные группы держатся на открытых местах с деревьями: у рек, в посёлках, на пастбищах и опушках. Ловят насекомых с присады и охотно едят ягоды и мелкие плоды."
 voice: "Резкие пронзительные крики «сиа!», «тчейт!» и быстрое гнусавое щебетание, часто дуэтом."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [yellow, olive, white]
   tone: bright
-  marks: [eyebrow, mask]
+  marks: [eyebrow, mask, cap]
   bill: short
   layer: [midstory, canopy]
 sources:

@@ -13,10 +13,10 @@ similar:
 behavior: "Держится поодиночке или парами у лесных рек, стариц и болот, кормится, зондируя клювом ил и мелководье. Активен в сумерках, а днём и ночью часто сидит на деревьях."
 voice: "Глухое ускоряющееся «коро-коро-коро» или «кро-кро», чаще всего на рассвете и в сумерках."
 traits:
-  size: crow
+  size: [crow, larger]
   colors: [green, black]
   tone: dull
-  marks: []
+  marks: [plain]
   bill: [long, curved]
   layer: [water, ground]
 sources:

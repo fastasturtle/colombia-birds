@@ -17,11 +17,11 @@ behavior: "Кормится у цветков кустарников в подл
 voice: "Короткие сухие «цит» и трескучие трели при стычках."
 traits:
   size: hummingbird
-  colors: [green, rufous]
+  colors: [green, orange, rufous]
   tone: dull
-  marks: []
+  marks: [plain]
   bill: short
-  layer: [understory, midstory]
+  layer: [understory, midstory, feeder]
 sources:
   - "Wikipedia: Tyrian metaltail (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/metallura-tyrianthina.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"

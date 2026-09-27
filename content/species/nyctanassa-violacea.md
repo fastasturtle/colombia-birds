@@ -16,10 +16,10 @@ similar:
 behavior: "Держится в манграх, на илистых отмелях и каменистых берегах, часто охотится и днём. Медленно подкрадывается и хватает крабов, которые составляют основу её питания."
 voice: "Громкое резкое отрывистое «квок», чаще всего сразу после взлёта или при тревоге."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [gray, black, white]
   tone: dull
-  marks: []
+  marks: [cap]
   bill: [thick, medium]
   layer: [water, night]
 sources:

@@ -21,7 +21,7 @@ traits:
   size: hummingbird
   colors: [green, gray]
   tone: dull
-  marks: [mask, eyebrow, long_tail]
+  marks: [mask, eyebrow, long_tail, bright_bill]
   bill: [hummingbird_long, curved]
   layer: [understory]
 sources:

@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [brown]
   tone: dull
-  marks: [eyebrow]
+  marks: [eyebrow, wing_patch]
   bill: medium
   layer: [midstory, canopy]
 sources:

@@ -17,7 +17,7 @@ traits:
   size: crow
   colors: [white, black, orange]
   tone: bright
-  marks: [long_tail]
+  marks: [long_tail, bright_bill]
   bill: medium
   layer: [water]
 sources:

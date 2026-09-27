@@ -16,10 +16,10 @@ similar:
 behavior: "Держится поодиночке в среднем ярусе и кронах на опушках, в редколесье и садах. Сидит прямо, высматривая насекомых, и снимает их с листьев в коротком подлёте."
 voice: "Жалобный протяжный нисходящий свист «фиииууу», часто повторяется; его легко запомнить."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [olive, yellow, gray]
   tone: dull
-  marks: [plain]
+  marks: [cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

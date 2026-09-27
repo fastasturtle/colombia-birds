@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [gray, olive, yellow]
   tone: dull
-  marks: [mask]
+  marks: [mask, cap]
   bill: [medium]
   layer: [understory, midstory]
 sources:
