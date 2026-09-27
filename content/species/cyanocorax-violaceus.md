@@ -2,6 +2,7 @@
 id: cyanocorax-violaceus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, горло и грудь черноватые, резко отделены от остального оперения"
   - "Затылок светлый, бело-голубой, как седой воротник сзади"

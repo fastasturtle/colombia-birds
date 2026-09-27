@@ -2,6 +2,7 @@
 id: vireo-olivaceus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка серая, под ней белая бровь с чёрной каймой сверху и снизу"
   - "Глаз у взрослых красный, у молодых первой осени бурый"

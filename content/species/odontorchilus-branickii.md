@@ -2,6 +2,7 @@
 id: odontorchilus-branickii
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Спина и хвост серые, лоб рыжевато-охристый, шапочка буроватая"
   - "Низ белый с лёгким охристым налётом, бока сероватые"
@@ -13,7 +14,7 @@ similar:
   - id: troglodytes-solstitialis
     how: "рыжевато-бурый, с широкой охристой бровью, хвост короткий; кормится ниже, во мху на стволах"
 behavior: "Кормится в кронах и под пологом на высоте 15–30 м, пробегая по ветвям и заглядывая в мох и лишайники; почти всегда в смешанных стаях."
-voice: "Тонкие высокие трели и писк, легко теряющиеся в голосах смешанной стаи."
+voice: "Короткая сухая трель, иногда серия свистовых нот; в голосах смешанной стаи легко теряется."
 traits:
   size: sparrow
   colors: [gray, white]
@@ -22,7 +23,7 @@ traits:
   bill: [short, thin]
   layer: [canopy]
 sources:
-  - "Wikipedia: Grey-mantled wren (en, CC BY-SA 4.0) — описание, подвиды, высоты в Колумбии, кормёжка"
+  - "Wikipedia: Grey-mantled wren (en, CC BY-SA 4.0) — описание, подвиды, высоты в Колумбии, кормёжка, голос"
   - "Данные проекта: data/species/odontorchilus-branickii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (цель Трамплина птиц)"
   - "content/families/troglodytidae.md; content/groups/songbirds.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
@@ -38,7 +39,7 @@ en:
     - id: troglodytes-solstitialis
       how: "rufous-brown with a broad buffy eyebrow and a short tail; feeds lower, in moss on trunks"
   behavior: "Feeds in the canopy and subcanopy at 15–30 m, running along branches and probing moss and lichens; nearly always with mixed flocks."
-  voice: "Thin high trills and squeaks, easily lost among the voices of a mixed flock."
+  voice: "A short dry trill, sometimes a series of whistled notes; easily lost among the voices of a mixed flock."
 ---
 Gray-mantled Wren (шиферный крапивник) — необычный крапивник, который живёт не в подлеске, а в кронах влажного горного леса. На восточном склоне Анд в Колумбии это 1 200–2 300 м; на тихоокеанском склоне живёт мелкий подвид minor, намного ниже, в основном на 200–500 м. Серо-белая окраска и манера кормиться делают его похожим скорее на комароловку или древесницу, так что в стае его легко пропустить.
 

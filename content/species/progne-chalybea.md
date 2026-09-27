@@ -2,6 +2,7 @@
 id: progne-chalybea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло, грудь и бока серовато-бурые, брюхо и подхвостье белые"
   - "Верх иссиня-чёрный, у самца с блеском, у самки тусклее"
@@ -9,7 +10,7 @@ key_features:
   - "Чередует взмахи с долгим планированием; стайки сидят на проводах"
 similar:
   - id: progne-tapera
-    how: "верх серо-бурый, без блеска, горло белое, на груди бурая полоса из пятнышек"
+    how: "верх песочно-бурый, без блеска, горло белое, поперёк груди размытая бурая полоса"
   - id: progne-subis
     how: "самец целиком иссиня-чёрный; самка со светлым лбом и сероватым воротником; бывает на пролёте"
 behavior: "Стайками охотится на насекомых над открытыми местами, реками, посёлками и побережьем, часто высоко. Гнездится в дуплах, нишах построек и под крышами."
@@ -23,7 +24,7 @@ traits:
   layer: [air]
 sources:
   - "Wikipedia: Grey-breasted martin (en, CC BY-SA 4.0) — размеры, описание, гнездование, голос"
-  - "Wikipedia: Progne chalybea (es, CC BY-SA 4.0)"
+  - "Wikipedia: Progne chalybea (es, CC BY-SA 4.0); Brown-chested martin, Purple martin (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/progne-chalybea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -34,7 +35,7 @@ en:
     - "Alternates flapping with long glides; flocks perch on wires"
   similar:
     - id: progne-tapera
-      how: "gray-brown upperparts without gloss, white throat, a breast band of brown spots"
+      how: "sandy-brown upperparts without gloss, white throat, an indistinct brown band across the breast"
     - id: progne-subis
       how: "male all blue-black; female with a pale forehead and grayish collar; occurs on passage"
   behavior: "Flocks hunt insects over open country, rivers, towns and the coast, often high up. Nests in tree holes, gaps in buildings and under roofs."

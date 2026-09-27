@@ -2,6 +2,7 @@
 id: hirundo-rustica
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб и горло каштаново-рыжие, под ними тёмно-синяя полоса на груди"
   - "Верх стально-синий, низ от беловатого до рыжеватого"

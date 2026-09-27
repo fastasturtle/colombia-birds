@@ -2,6 +2,7 @@
 id: vireo-leucophrys
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка буровато-оливковая, снизу чётко очерчена белой бровью"
   - "Тёмная полоска через глаз, щёки серовато-белые"
@@ -9,7 +10,7 @@ key_features:
   - "Горло и верх груди беловатые, брюхо бледно-жёлтое"
 similar:
   - id: vireo-olivaceus
-    how: "крупнее, шапочка серая, бровь с чёрной каймой, глаз красный, низ беловатый без жёлтого"
+    how: "крупнее, шапочка серая, бровь с чёрной каймой, глаз у взрослых красный, низ беловатый, желтизна только под хвостом"
   - id: vireo-masteri
     how: "на крыле две чёткие белые полосы, бровь желтоватая; живёт только на склоне Чоко"
 behavior: "Неторопливо обыскивает листву в среднем ярусе и кронах облачного леса и на заросших опушках, часто в смешанных стаях; ест гусениц, других насекомых и мелкие плоды."
@@ -35,7 +36,7 @@ en:
     - "Throat and upper breast whitish, belly pale yellow"
   similar:
     - id: vireo-olivaceus
-      how: "larger, gray cap, black-bordered eyebrow, red eye, whitish underparts without yellow"
+      how: "larger, gray cap, black-bordered eyebrow, red eye in adults, whitish underparts with yellow only under the tail"
     - id: vireo-masteri
       how: "two clear white wing bars, yellowish eyebrow; lives only on the Chocó slope"
   behavior: "Deliberately searches foliage in the midstory and canopy of cloud forest and overgrown edges, often in mixed flocks; eats caterpillars, other insects and small fruit."

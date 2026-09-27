@@ -2,6 +2,7 @@
 id: cistothorus-platensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Спина в чёрных и беловатых продольных пестринах, шапочка тоже в штрихах"
   - "Светлая бровь над глазом; щёки, бока и низ охристые"
@@ -9,7 +10,7 @@ key_features:
   - "Поёт открыто на верхушке пучка травы или низкого куста"
 similar:
   - id: cistothorus-apolinari
-    how: "крупнее, голова сероватая, шапочка без штрихов; живёт в тростниках озёр у Боготы"
+    how: "крупнее, шапочка каштановая без штрихов, лицо серо-бурое, хвост рыжий; живёт в тростниках озёр у Боготы"
   - id: troglodytes-aedon
     how: "спина ровная бурая, без пестрин; держится у домов, в садах и кустах"
 behavior: "Прячется в высокой траве, осоке и низких кустах сырых лугов и парамо; перелетает низко над травой и сразу ныряет вниз."
@@ -23,6 +24,7 @@ traits:
   layer: [ground, understory]
 sources:
   - "Wikipedia: Grass wren (en, CC BY-SA 4.0) — описание, местообитания в Колумбии, голос"
+  - "Wikipedia: Apolinar's wren (en, CC BY-SA 4.0) — отличия C. apolinari"
   - "Данные проекта: data/species/cistothorus-platensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/troglodytidae.md; content/species/cistothorus-apolinari.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
@@ -34,7 +36,7 @@ en:
     - "Sings in the open from the top of a grass tussock or low shrub"
   similar:
     - id: cistothorus-apolinari
-      how: "larger, grayish head, unstreaked crown; lives in lakeside reeds near Bogotá"
+      how: "larger, unstreaked chestnut crown, gray-brown face, reddish tail; lives in lakeside reeds near Bogotá"
     - id: troglodytes-aedon
       how: "plain brown back without streaks; keeps to houses, gardens and shrubs"
   behavior: "Hides in tall grass, sedge and low shrubs of wet meadows and páramo; flies low over the grass and drops straight back in."

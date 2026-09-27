@@ -2,6 +2,7 @@
 id: tachyphonus-rufus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец целиком блестяще-чёрный, на сгибе крыла маленькое белое пятнышко"
   - "Белый подбой крыла вспыхивает при взмахе и в полёте"

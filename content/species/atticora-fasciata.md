@@ -2,6 +2,7 @@
 id: atticora-fasciata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся иссиня-чёрная, поперёк груди резкая белая полоса"
   - "Белые оперённые голени, «штанишки», видны у сидящей птицы"
@@ -9,7 +10,7 @@ key_features:
   - "Летает низко над реками, резко петляя; садится на камни и коряги у воды"
 similar:
   - id: atticora-tibialis
-    how: "мельче, тускло-бурая, без белой полосы на груди, хвост короче; кормится над лесными опушками"
+    how: "мельче, тускло-бурая, без белой полосы на груди, хвост короче, белые «штанишки» есть и у неё; кормится над лесными опушками"
   - id: pygochelidon-melanoleuca
     how: "горло и низ белые, поперёк груди чёрный ошейник; держится у порогов больших рек"
 behavior: "Кормится над реками и ручьями в лесу, летая зигзагами низко над водой, одиночками или небольшими группами. Отдыхает на камнях и корягах; гнездится в норах в береговых обрывах."
@@ -23,7 +24,7 @@ traits:
   layer: [air, water]
 sources:
   - "Wikipedia: White-banded swallow (en, CC BY-SA 4.0) — описание, высоты в Колумбии, кормёжка, голос"
-  - "Wikipedia: Atticora fasciata (es, CC BY-SA 4.0)"
+  - "Wikipedia: Atticora fasciata (es, CC BY-SA 4.0); White-thighed swallow, Black-collared swallow (en, CC BY-SA 4.0) — отличия похожих видов"
   - "Данные проекта: data/species/atticora-fasciata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -34,7 +35,7 @@ en:
     - "Flies low over rivers with sharp twists; perches on rocks and snags by the water"
   similar:
     - id: atticora-tibialis
-      how: "smaller, dull brownish, no white breast band, shorter tail; feeds over forest edges"
+      how: "smaller, dull brownish, no white breast band, shorter tail, also has white trousers; feeds over forest edges"
     - id: pygochelidon-melanoleuca
       how: "white throat and underparts with a black collar across the breast; keeps to rapids on large rivers"
   behavior: "Feeds over forest rivers and streams, zigzagging low over the water, singly or in small groups. Rests on rocks and snags; nests in burrows in riverbanks."

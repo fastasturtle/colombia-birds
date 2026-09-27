@@ -2,6 +2,7 @@
 id: pygochelidon-cyanoleuca
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх тёмно-синий, блестящий; горло и низ чисто белые"
   - "Подхвостье чёрное, хорошо видно у летящей птицы снизу"

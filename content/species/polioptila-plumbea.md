@@ -2,6 +2,7 @@
 id: polioptila-plumbea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Длинный чёрный хвост с белыми краями, постоянно вздёрнут и подёргивается"
   - "Верх голубовато-серый, низ белый"

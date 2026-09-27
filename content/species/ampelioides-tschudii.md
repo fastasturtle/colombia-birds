@@ -2,6 +2,7 @@
 id: ampelioides-tschudii
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение в крупных «чешуйках»: верх оливково-чёрный, низ желтоватый с оливковыми каёмками"
   - "Голова самца чёрная, за щекой и на шее жёлтый ошейник; у самки темя оливковое"
@@ -13,7 +14,7 @@ similar:
   - id: pipreola-jucunda
     how: "клюв ярко-оранжевый, у самца оранжевая грудь, спина однотонно зелёная"
 behavior: "Поодиночке или парами держится в среднем ярусе и кронах влажного горного леса, часто с микст-флоками. Малоподвижен и легко теряется в листве."
-voice: "Громкий нарастающий свист «ффиииии», довольно резкий."
+voice: "Громкий протяжный свист «фьюииииир», похожий на крик хищной птицы: к концу затихает и понижается; повторяется через 3–6 секунд."
 traits:
   size: thrush
   colors: [olive, yellow, black]
@@ -23,7 +24,7 @@ traits:
   layer: [midstory, canopy]
 sources:
   - "Wikipedia: Scaled fruiteater (en, CC BY-SA 4.0) — размер, окраска, силуэт, местообитания"
-  - "Wikipedia: Ampelioides tschudii (es), Чешуйчатый плодоед (ru), CC BY-SA 4.0 — масса, поведение в стаях"
+  - "Wikipedia: Ampelioides tschudii (es), Чешуйчатый плодоед (ru), CC BY-SA 4.0 — масса, поведение в стаях, голос"
   - "Данные проекта: data/species/ampelioides-tschudii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/pipreola-jucunda.md, pipreola-arcuata.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
@@ -39,14 +40,14 @@ en:
     - id: pipreola-jucunda
       how: "bright orange bill, male has an orange breast, back plain green"
   behavior: "Singly or in pairs in the midstory and canopy of humid montane forest, often with mixed flocks. Sluggish and easily lost among the leaves."
-  voice: "A loud rising whistle 'ffweeeee', fairly harsh."
+  voice: "A loud drawn-out whistle 'hweeeeeer', like a raptor's call, fading and falling at the end; repeated every 3–6 seconds."
 ---
-Scaled Fruiteater (чешуйчатый ягодоед) — котинга горных лесов, в Колумбии примерно на 600–2 700 м, чаще в предгорьях. Птица малозаметная и нигде не многочисленная: сидит неподвижно, и чешуйчатый рисунок растворяет её в мшистой листве. Чаще всего её находят в смешанной стае или по голосу, а увидеть удаётся, только когда она перелетает.
+Scaled Fruiteater (чешуйчатый ягодоед) — котинга горных лесов, в Колумбии примерно на 600–2 700 м. Птица малозаметная и нигде не многочисленная: сидит неподвижно, и чешуйчатый рисунок растворяет её в мшистой листве. Чаще всего её находят в смешанной стае или по голосу, а увидеть удаётся, только когда она перелетает.
 
 На маршруте вид редкий: «возможно» на Авес-и-Флорес и Рио-Ньямби 18–20 октября, в Бангсиас-лодже 20 октября и в Ла-Нутрии 21 октября. Проверяй коренастых зелёных птиц в стаях на уровне среднего яруса.
 
 ## English
 
-Scaled Fruiteater is a cotinga of montane forest, in Colombia at about 600–2,700 m, more often in the foothills. It is inconspicuous and nowhere numerous: it sits still, and the scaly pattern dissolves it into the mossy foliage. It is usually found in a mixed flock or by voice, and seen only when it moves.
+Scaled Fruiteater is a cotinga of montane forest, in Colombia at about 600–2,700 m. It is inconspicuous and nowhere numerous: it sits still, and the scaly pattern dissolves it into the mossy foliage. It is usually found in a mixed flock or by voice, and seen only when it moves.
 
 On the route it is scarce: "maybe" at Aves y Flórez and Río Ñambí on 18–20 October, Bangsias Lodge on 20 October and La Nutria on 21 October. Check chunky green birds in flocks at midstory level.

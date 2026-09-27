@@ -2,6 +2,7 @@
 id: orochelidon-murina
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и весь низ дымчато-серо-бурые, подхвостье чёрное"
   - "Верх черноватый с сине-зелёным отливом, без светлой поясницы"
