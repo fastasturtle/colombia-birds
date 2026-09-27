@@ -17,7 +17,7 @@ traits:
   size: sparrow
   colors: [gray, white, olive]
   tone: dull
-  marks: [wing_bars, streaked_breast]
+  marks: [wing_bars, streaked_breast, cap]
   bill: [short, thick]
   layer: [understory, midstory]
 sources:

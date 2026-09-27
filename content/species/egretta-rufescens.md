@@ -22,6 +22,7 @@ traits:
   size: larger
   colors: [gray, rufous]
   tone: dull
+  marks: [bright_bill]
   bill: long
   layer: [water]
 sources:

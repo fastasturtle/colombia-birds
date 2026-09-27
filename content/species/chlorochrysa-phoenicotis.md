@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [plain]
   bill: [short]
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Wikipedia: Glistening-green tanager (en, CC BY-SA 4.0)"
   - "Wikipedia: Chlorochrysa phoenicotis (es, CC BY-SA 4.0)"

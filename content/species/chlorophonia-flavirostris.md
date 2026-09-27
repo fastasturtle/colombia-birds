@@ -20,7 +20,7 @@ traits:
   size: sparrow
   colors: [green, yellow]
   tone: bright
-  marks: [eye_ring, short_tail]
+  marks: [eye_ring, short_tail, bright_bill]
   bill: [short, thick]
   layer: [canopy]
 sources:

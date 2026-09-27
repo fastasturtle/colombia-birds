@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [plain]
   bill: [short, hooked]
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Wikipedia: Indigo flowerpiercer (en, CC BY-SA 4.0)"
   - "Wikipedia: Diglossa indigotica (es, CC BY-SA 4.0)"

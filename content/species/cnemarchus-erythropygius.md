@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [gray, rufous, white]
   tone: bright
-  marks: [rump_patch]
+  marks: [rump_patch, cap, wing_patch]
   bill: medium
   layer: [understory, ground]
 sources:

@@ -17,10 +17,10 @@ similar:
 behavior: "Скрытно держится в густой листве деревьев и высоких кустов, подолгу сидит неподвижно, высматривая гусениц. Через Колумбию пролетает осенью и весной, зимует южнее."
 voice: "На зимовке обычно молчит; на гнездовье поёт деревянную серию «ка-ка-ка-ка-коуп-коуп»."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [brown, white]
   tone: dull
-  marks: [long_tail, white_tail_tips]
+  marks: [long_tail, white_tail_tips, bright_bill, wing_patch]
   bill: [medium, curved]
   layer: [midstory, canopy]
 sources:

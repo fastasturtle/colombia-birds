@@ -14,10 +14,10 @@ similar:
 behavior: "Шумными группами по 4–10 птиц держится по опушкам, берегам рек, во вторичном лесу и у деревень, перелетая по одной через просветы. Всеядна; часто первой поднимает крик при виде хищника."
 voice: "Громкий нисходящий крик «джиирр!», повторяемый несколько раз; кроме того, щёлкающее «клоп-клоп-клоп» и тихое бульканье."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [blue, black]
   tone: dull
-  marks: [long_tail]
+  marks: [long_tail, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

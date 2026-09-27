@@ -17,7 +17,7 @@ behavior: "Кормится на иле и песке короткими пер�
 voice: "Мягкий восходящий двусложный свист «чу-ии»."
 traits:
   size: thrush
-  colors: [brown, white, black]
+  colors: [brown, white]
   tone: dull
   marks: [mask]
   bill: short

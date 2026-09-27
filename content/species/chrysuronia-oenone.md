@@ -19,6 +19,7 @@ traits:
   size: hummingbird
   colors: [green, blue, orange]
   tone: bright
+  marks: [cap, bright_bill]
   bill: medium
   layer: [canopy, midstory]
 sources:

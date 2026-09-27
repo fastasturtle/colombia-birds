@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [black, gray]
   tone: dull
-  marks: [plain]
+  marks: [wing_patch]
   bill: [short, hooked]
   layer: [understory, midstory]
 sources:

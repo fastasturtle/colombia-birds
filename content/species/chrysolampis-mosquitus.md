@@ -20,6 +20,7 @@ traits:
   size: hummingbird
   colors: [brown, red, orange]
   tone: bright
+  marks: [cap]
   bill: short
   layer: [midstory, canopy]
 sources:

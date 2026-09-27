@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [black, white]
   tone: bright
-  marks: [short_tail]
+  marks: [short_tail, cap]
   bill: short
   layer: [water]
 sources:

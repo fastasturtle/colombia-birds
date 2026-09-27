@@ -18,7 +18,7 @@ similar:
 behavior: "Держится в кронах и на опушках у цветущих и плодоносящих деревьев, часто в смешанных стаях. Пьёт нектар, ест плоды и насекомых."
 voice: "Песни, по-видимому, нет; позывы — жужжащее «жри», реже «цик» и короткое шепелявое «псит»."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [purple, black]
   tone: bright
   marks: [throat_patch]

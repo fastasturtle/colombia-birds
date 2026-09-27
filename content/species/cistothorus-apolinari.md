@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [brown, rufous]
   tone: dull
-  marks: [barred]
+  marks: [barred, cap]
   bill: thin
   layer: [understory, water]
 sources:

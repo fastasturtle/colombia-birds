@@ -19,7 +19,7 @@ traits:
   size: pigeon
   colors: [blue, black]
   tone: bright
-  marks: [mask]
+  marks: [mask, cap]
   bill: medium
   layer: [midstory, canopy]
 sources:

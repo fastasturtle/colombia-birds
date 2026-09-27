@@ -19,7 +19,7 @@ traits:
   size: hummingbird
   colors: [green]
   tone: bright
-  marks: [forked_tail]
+  marks: [forked_tail, bright_bill]
   bill: short
   layer: [understory]
 sources:

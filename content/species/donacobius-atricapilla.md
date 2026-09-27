@@ -15,9 +15,9 @@ behavior: "Живёт парами и семейными группами в т�
 voice: "Громкий дуэт: самец выкрикивает звонкие свисты, самка вторит хриплым скрежетом; во время дуэта птицы раздувают голые жёлто-оранжевые пятна по бокам шеи."
 traits:
   size: thrush
-  colors: [brown, black]
+  colors: [brown, black, rufous]
   tone: bright
-  marks: [long_tail, white_tail_tips]
+  marks: [long_tail, white_tail_tips, wing_patch]
   bill: medium
   layer: [water, understory]
 sources:
