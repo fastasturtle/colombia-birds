@@ -2,6 +2,7 @@
 id: scytalopus-latrans
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец сплошь черновато-серый, без рыжих боков и светлого брюха"
   - "Самка серее, бока и подхвостье с бурыми полосками"
@@ -9,11 +10,11 @@ key_features:
   - "Широкий пояс высот: от облачного леса до кустов у парамо"
 similar:
   - id: scytalopus-spillmanni
-    how: "серее, низ светлее верха, бока и подхвостье рыжевато-коричневые; песня — долгая нарастающая трель"
+    how: "крупнее и серее, низ светлее верха, бока и подхвостье охристо-коричные; песня — трель на 10–20 секунд, нарастающая по громкости"
   - id: myornis-senilis
-    how: "светлее, пепельно-серый, с заметно более длинным хвостом; держится в бамбуке у верхней границы леса"
+    how: "крупнее и светлее, пепельно-серый, с заметно более длинным, часто поднятым хвостом; лазает в густом бамбуке высокогорного леса до 4 м над землёй"
 behavior: "Шныряет у самой земли и до метра над ней в густом подлеске, бамбуке и зарослях по оврагам, не прекращая движения. Показывается на секунду, чаще только поёт из укрытия."
-voice: "Однообразная серия отрывистых нот, неторопливее, чем у большинства тапакуло."
+voice: "Песня — серия повторяющихся нот, заметно медленнее, чем у большинства тапакуло."
 traits:
   size: sparrow
   colors: [black, gray]
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/scytalopus-latrans.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/rhinocryptidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es/ru) по виду и по видам из similar; data/site_species.json"
 en:
   key_features:
     - "Male uniformly blackish gray, with no rufous flanks or pale belly"
@@ -35,11 +37,11 @@ en:
     - "Wide elevation band: from cloud forest to shrubs at the páramo edge"
   similar:
     - id: scytalopus-spillmanni
-      how: "grayer, paler below than above, flanks and undertail rufous-brown; song a long trill that builds up"
+      how: "larger and grayer, paler below than above, flanks and vent tawny-cinnamon; song a 10–20-second trill that grows louder"
     - id: myornis-senilis
-      how: "paler, ash-gray, with a noticeably longer tail; keeps to bamboo near treeline"
+      how: "larger and paler, ash-gray, with a noticeably longer, often cocked tail; clambers in dense bamboo of high montane forest up to 4 m above the ground"
   behavior: "Scurries at ground level and up to a metre above it in dense understory, bamboo and ravine thickets, never stopping. Shows for a second and more often only sings from cover."
-  voice: "A monotonous series of clipped notes, slower than in most tapaculos."
+  voice: "The song is a series of repeated notes, noticeably slower than in most tapaculos."
 ---
 Blackish Tapaculo (чёрный тапакуло) — один из самых распространённых тапакуло Анд: живёт в подлеске сырого горного леса, в бамбуке чускея и кустах на высотах 1 500–4 000 м. Самец почти чёрный, и в тени он кажется просто тёмной тенью, скользящей между корнями. Определяют его по голосу и по отсутствию рыжего на боках у самца.
 

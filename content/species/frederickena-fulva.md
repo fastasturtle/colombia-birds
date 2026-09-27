@@ -2,6 +2,7 @@
 id: frederickena-fulva
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец чёрный в тонких неровных белых полосках, горло чёрное без полос"
   - "Самка насыщенно-коричная в волнистых чёрных полосках, хвост чёрный"
@@ -11,7 +12,7 @@ similar:
   - id: cymbilaimus-lineatus
     how: "заметно мельче, глаз красный, полоски частые и ровные по всему телу; самка с рыжей шапочкой"
   - id: thamnophilus-tenuepunctatus
-    how: "мельче, клюв тоньше, глаз светлый; самец с белыми полосками на спине и крыльях, самка с рыжей шапочкой"
+    how: "намного мельче (15–16 см), глаз светлый; у самца горло в чёрно-белых штрихах, у самки рыжие шапка, спина и хвост"
 behavior: "Поодиночке или парами кормится в густой лиановой растительности у земли, особенно в прогалинах от упавших деревьев и вдоль ручьёв. Прыгает с ветки на ветку, подёргивая хвостом из стороны в сторону."
 voice: "Песня — ровная серия свистов «уэ, уэ, уэ…»; частая позывка — долгое гнусавое нисходящее «чарр»."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/frederickena-fulva.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/thamnophilidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es/ru) по виду и по видам из similar; data/site_species.json, data/sites.json"
 en:
   key_features:
     - "Male black with thin irregular white bars, throat black and unbarred"
@@ -37,7 +39,7 @@ en:
     - id: cymbilaimus-lineatus
       how: "clearly smaller, red eye, bars fine and even all over; female with a rufous cap"
     - id: thamnophilus-tenuepunctatus
-      how: "smaller with a thinner bill and pale eye; male with white bars on back and wings, female with a rufous cap"
+      how: "much smaller (15–16 cm), pale eye; male has a black-and-white streaked throat, female a rufous crown, back and tail"
   behavior: "Forages singly or in pairs in dense viny growth near the ground, especially in treefall gaps and along streams. Hops from branch to branch, jerking its tail sideways."
   voice: "The song is a steady series of whistles 'wu-EH, wu-EH, wu-EH...'; the common call is a long nasal downslurred 'charr'."
 ---

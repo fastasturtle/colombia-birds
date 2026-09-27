@@ -2,6 +2,7 @@
 id: scytalopus-vicinior
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова тёмно-серая, горло и грудь светлее, серые"
   - "Поясница коричневато-рыжая с тёмными поперечными полосками"
@@ -9,7 +10,7 @@ key_features:
   - "Силуэт тапакуло: мелкий, короткохвостый, бегает у земли"
 similar:
   - id: scytalopus-chocoensis
-    how: "почти неотличим на вид, но живёт ниже, в основном до 1 450 м; уверенно различают по записи песни и высоте"
+    how: "почти неотличим на вид, но живёт ниже, в Колумбии на 250–1 250 м; песня — очень звучная серия, первые ноты ниже и быстрее; различают по записи и высоте"
   - id: scytalopus-spillmanni
     how: "живёт выше, от 1 900 м, в бамбуке; песня — долгая нарастающая трель, а не серия звонких нот"
 behavior: "Держится в подлеске сырого горного леса и на его опушках, у самой земли среди папоротников и завалов. Как и другие тапакуло, больше слышен, чем виден."
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/scytalopus-vicinior.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/scytalopus-chocoensis.md, content/families/rhinocryptidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27: локальные выдержки Wikipedia (en/es/ru) по виду и по видам из similar; data/site_species.json"
 en:
   key_features:
     - "Head dark gray, throat and breast paler gray"
@@ -35,7 +37,7 @@ en:
     - "Tapaculo shape: small, short-tailed, runs on the ground"
   similar:
     - id: scytalopus-chocoensis
-      how: "almost identical in looks but lives lower, mostly below 1,450 m; reliably separated by recorded song and elevation"
+      how: "almost identical in looks but lives lower, in Colombia at 250–1,250 m; song a very resonant series whose first notes are lower and faster; separated by recording and elevation"
     - id: scytalopus-spillmanni
       how: "lives higher, from 1,900 m, in bamboo; song a long swelling trill rather than a series of ringing notes"
   behavior: "Keeps to the understory of wet montane forest and its edges, at ground level among ferns and tangles. Like other tapaculos it is heard far more than seen."
