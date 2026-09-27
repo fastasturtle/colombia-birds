@@ -2,15 +2,84 @@
 import Base from '../../layouts/Base.astro';
 import SpeciesRow from '../../components/SpeciesRow.astro';
 import { families, speciesIndex } from '@lib/data';
+import { familyContent } from '@lib/content';
 export function getStaticPaths() {
   return families().map((f) => ({ params: { slug: f.slug }, props: { family: f } }));
 }
 const { family } = Astro.props;
 const sp = speciesIndex().filter((s) => s.family === family.code).sort((a, b) => a.taxon_order - b.taxon_order);
+const fc = familyContent(family.code);
+const byCode = new Map(families().map((f) => [f.code, f]));
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Base title={family.names.ru ?? family.names.en}>
   <p class="muted">{family.order}</p>
   <h1>{family.names.ru ?? family.names.en} <span class="muted sci" style="font-weight:400">{family.sci}</span></h1>
   <p class="muted">{family.names.en} · {sp.length} видов в Колумбии</p>
+  {fc && (
+    <section class="portrait">
+      {fc.body.map((p) => <p>{p}</p>)}
+      {fc.recognize.length > 0 && (
+        <div class="card block">
+          <h2>Как узнать</h2>
+          <ul>{fc.recognize.map((r) => <li>{r}</li>)}</ul>
+        </div>
+      )}
+      {fc.confusable.length > 0 && (
+        <div class="card block">
+          <h2>С кем спутать</h2>
+          <ul class="conf">
+            {fc.confusable.map((c) => {
+              const f = byCode.get(c.family);
+              return (
+                <li>
+                  {f ? <a href={`${base}/families/${f.slug}/`}><b>{f.names.ru ?? f.names.en}</b> <span class="sci">{f.sci}</span></a> : <b>{c.family}</b>}
+                  <span>{c.how}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+      {fc.route_note && (
+        <div class="card block route">
+          <h2>На маршруте</h2>
+          <p>{fc.route_note}</p>
+        </div>
+      )}
+      {fc.fact && <p class="fact"><b>Факт.</b> {fc.fact}</p>}
+      {fc.en && (
+        <details class="en" lang="en">
+          <summary>English</summary>
+          {fc.en.body.map((p) => <p>{p}</p>)}
+          {fc.en.recognize.length > 0 && (<><h3>How to recognise</h3><ul>{fc.en.recognize.map((r) => <li>{r}</li>)}</ul></>)}
+          {fc.en.route_note && (<><h3>On this route</h3><p>{fc.en.route_note}</p></>)}
+          {fc.en.fact && <p class="fact"><b>Fact.</b> {fc.en.fact}</p>}
+        </details>
+      )}
+      <h2 class="list-h">Все виды семейства</h2>
+    </section>
+  )}
   <div>{sp.map((s) => <SpeciesRow s={s} />)}</div>
 </Base>
+<style>
+  .portrait { margin: 8px 0 12px; }
+  .portrait > p { margin: 0 0 12px; }
+  .block { margin: 14px 0; }
+  .block h2 { font-size: 1rem; margin: 0 0 6px; }
+  .block ul { margin: 0; padding-left: 1.1em; }
+  .block li { margin: 4px 0; }
+  .block p { margin: 0; }
+  .conf { list-style: none; padding-left: 0 !important; }
+  .conf li { display: flex; flex-direction: column; gap: 2px; padding: 6px 0; border-top: 1px solid var(--line); }
+  .conf li:first-child { border-top: 0; padding-top: 0; }
+  .conf .sci { color: var(--muted); font-style: italic; font-weight: 400; }
+  .route { border-left: 4px solid var(--accent); }
+  .fact { border-left: 4px solid var(--accent-2); padding: 4px 0 4px 12px; margin: 14px 0; }
+  .en { margin: 14px 0; border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
+  .en summary { cursor: pointer; font-weight: 600; color: var(--muted); }
+  .en h3 { font-size: 0.95rem; margin: 12px 0 4px; }
+  .en ul { padding-left: 1.1em; margin: 0; }
+  .en p { margin: 8px 0; }
+  .list-h { font-size: 1.1rem; margin: 22px 0 4px; }
+</style>
