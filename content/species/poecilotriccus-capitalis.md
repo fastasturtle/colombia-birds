@@ -2,6 +2,7 @@
 id: poecilotriccus-capitalis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова и верх глянцево-чёрные, горло и низ белые"
   - "Белое кольцо вокруг глаза и белое пятнышко над уздечкой на чёрном лице"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Black-and-white tody-flycatcher (en), Poecilotriccus capitalis (es), CC BY-SA 4.0 — data/texts: окраска самца и самки, ареал в Колумбии, высоты, голос"
   - "Wikipedia: Golden-winged tody-flycatcher (en, CC BY-SA 4.0) — data/texts; content/species/poecilotriccus-ruficeps.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Male: glossy black head and upperparts, white throat and underparts"
@@ -42,12 +44,12 @@ en:
   behavior: "Keeps in pairs in dense vine tangles and bamboo low down, along foothill forest edges, roads and streams. Picks insects off leaves with short upward sallies and sometimes joins mixed flocks."
   voice: "A fast, sharp 'tik, t-r-r-r-r-r-rew'; when agitated, an abrupt 'tk, tk, tk, whey-whey-whey'."
 ---
-Black-and-white Tody-Flycatcher (пегий тоди-мухолов) — редкий и очень локальный тоди-мухолов восточного подножия Анд; в Колумбии известен только на юге, в Нариньо и Путумайо, на высотах около 250–1 300 м. Самец и самка так несхожи, что их легко принять за разные виды: он чёрно-белый с белыми «очками», она с каштановой шапочкой на сером лице и оливковой спиной.
+Black-and-white Tody-Flycatcher (пегий тоди-мухолов) — редкий и очень локальный тоди-мухолов восточного подножия Анд; в Колумбии известен только на юге, в Нариньо, Путумайо и Амазонасе, на высотах около 250–1 300 м. Самец и самка так несхожи, что их легко принять за разные виды: он чёрно-белый с белыми «очками», она с каштановой шапочкой на сером лице и оливковой спиной.
 
 На маршруте вид отмечен как «возможно» только в Исла-Эскондиде 7–11 октября. Ищи его в бамбуке и лиановых зарослях на краю леса и у дорог: он держится низко и выдаёт себя трескучим голосом.
 
 ## English
 
-Black-and-white Tody-Flycatcher is a scarce and very local tody-flycatcher of the eastern Andean foothills; in Colombia it is known only in the south, in Nariño and Putumayo, at about 250–1,300 m. Male and female look so different that they are easily taken for two species: he is black and white with white "spectacles", she has a chestnut crown on a gray face and an olive back.
+Black-and-white Tody-Flycatcher is a scarce and very local tody-flycatcher of the eastern Andean foothills; in Colombia it is known only in the south, in Nariño, Putumayo and Amazonas, at about 250–1,300 m. Male and female look so different that they are easily taken for two species: he is black and white with white "spectacles", she has a chestnut crown on a gray face and an olive back.
 
 On the route it is rated "maybe" only at Isla Escondida on 7–11 October. Look for it in bamboo and vine tangles at forest edges and along roads: it stays low and gives itself away with its rattling call.

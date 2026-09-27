@@ -2,6 +2,7 @@
 id: pyrrhomyias-cinnamomeus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и весь низ корично-рыжие, брюхо чуть светлее"
   - "Крыло чёрное с широкими рыжими каймами и двумя рыжими полосами"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Cinnamon flycatcher (en), Pyrrhomyias cinnamomeus (es), CC BY-SA 4.0 — data/texts: окраска, подвид pyrrhopterus, высоты в Колумбии, голос, поведение"
   - "content/species/myiotriccus-ornatus.md, ochthoeca-cinnamomeiventris.md — согласованы отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Throat and entire underparts cinnamon-rufous, belly slightly paler"

@@ -2,6 +2,7 @@
 id: todirostrum-chrysocrotaphum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная с широкой жёлтой бровью до затылка и белым пятнышком над уздечкой"
   - "Низ ярко-жёлтый, подбородок белый, на горле и груди чёрные пестрины"
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Yellow-browed tody-flycatcher (en), Todirostrum chrysocrotaphum (es), CC BY-SA 4.0 — data/texts: окраска, подвид guttatum, высоты, голос, поведение"
   - "content/species/todirostrum-cinereum.md — согласовано отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Black head with a broad yellow brow reaching the nape and a small white spot above the lores"

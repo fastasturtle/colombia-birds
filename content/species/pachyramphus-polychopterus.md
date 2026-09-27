@@ -2,10 +2,11 @@
 id: pachyramphus-polychopterus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец сверху чёрный, на крыле две белые полосы и широкие белые каймы"
   - "Низ самца серый, у птиц Путумайо почти чёрный"
-  - "Хвост чёрный, у крайних перьев широкие белые концы"
+  - "Хвост чёрный, широкие белые концы у всех перьев, кроме центральной пары"
   - "Самка оливково-бурая, снизу желтоватая, на крыле и хвосте охристые каймы"
   - "Большеголовый и коренастый, клюв короткий и толстый"
 similar:
@@ -27,11 +28,12 @@ sources:
   - "Wikipedia: White-winged becard (en), Pachyramphus polychopterus (es), CC BY-SA 4.0 — data/texts: окраска самца и самки, подвиды dorsalis и tenebrosus, высоты, голос"
   - "Wikipedia: Barred becard (en, CC BY-SA 4.0) — data/texts; content/species/pachyramphus-cinnamomeus.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Male black above, with two white wing bars and broad white edgings"
     - "Male gray below, almost black in birds from Putumayo"
-    - "Black tail with broad white tips to the outer feathers"
+    - "Black tail with broad white tips to all but the central pair of feathers"
     - "Female olive-brown, yellowish below, with buff edges on wings and tail"
     - "Big-headed and chunky, with a short thick bill"
   similar:

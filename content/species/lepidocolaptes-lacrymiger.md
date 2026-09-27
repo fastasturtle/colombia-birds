@@ -2,6 +2,7 @@
 id: lepidocolaptes-lacrymiger
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапка тёмная в светлых каплевидных пятнах, на затылке они переходят в штрихи"
   - "Клюв тонкий, слегка изогнутый, надклювье тёмное, подклювье светлое"
@@ -27,6 +28,7 @@ sources:
   - "content/species/xiphocolaptes-promeropirhynchus.md, content/species/campylorhamphus-pusillus.md — согласовано с отличиями в этих карточках"
   - "Данные проекта: data/species/lepidocolaptes-lacrymiger.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Dark crown with pale teardrop spots that turn into streaks on the nape"

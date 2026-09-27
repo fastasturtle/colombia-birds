@@ -2,6 +2,7 @@
 id: synallaxis-brachyura
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тело тёмное, аспидно-бурое, горло черноватое, брюхо чуть светлее и серее"
   - "Шапка, затылок и кроющие крыла насыщенно рыже-каштановые"
@@ -27,6 +28,7 @@ sources:
   - "content/species/synallaxis-azarae.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/synallaxis-brachyura.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Dark slaty-brown body, blackish throat, belly slightly paler and grayer"

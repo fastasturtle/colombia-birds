@@ -2,6 +2,7 @@
 id: xenops-rutilans
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, клиновидный, нижний край заметно вздёрнут вверх"
   - "Под щекой белая серповидная усовая полоса, над глазом охристая бровь"
@@ -9,9 +10,9 @@ key_features:
   - "Поясница и хвост рыжие, на хвосте чёрная полоска"
 similar:
   - id: glyphorynchus-spirurus
-    how: "клюв тоже вздёрнут, но усовой полосы нет, на груди охристые капли; лезет по стволам, опираясь на хвост"
+    how: "клюв тоже вздёрнут, но белой усовой полосы нет, на груди охристые капли; лезет по стволам, опираясь на хвост"
 behavior: "Парами или поодиночке ходит с микст-флоками, лазит по тонким сухим веткам и лианам, часто вниз головой, долбит и отслаивает кору в поисках личинок."
-voice: "Серия из нескольких высоких тонких нот «цит-цит-цит», чуть ускоряющаяся; позыв — резкое «цит»."
+voice: "Песня — 5–10 сухих писклявых нот «зиит», сначала повышающихся, потом понижающихся, с ускорением в конце; позыв — высокое пронзительное «пиит»."
 traits:
   size: sparrow
   colors: [brown, rufous, white]
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/xenops-rutilans.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/glyphorynchus-spirurus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: голос по en.wikipedia (Streaked xenops, Vocalization); отличие от Wedge-billed по en.wikipedia (у него бурая, не белая усовая)"
 en:
   key_features:
     - "Short wedge-shaped bill with a clearly upturned lower edge"
@@ -32,9 +34,9 @@ en:
     - "Rufous rump and tail, a black stripe in the tail"
   similar:
     - id: glyphorynchus-spirurus
-      how: "bill also upturned, but no malar stripe, buff drops on the breast; climbs trunks propped on its tail"
+      how: "bill also upturned, but no white malar stripe, buff drops on the breast; climbs trunks propped on its tail"
   behavior: "Travels singly or in pairs with mixed flocks, creeping along thin dead twigs and vines, often upside down, chiselling and flaking bark for larvae."
-  voice: "A short series of high, thin 'tsit-tsit-tsit' notes, slightly accelerating; the call a sharp 'tsit'."
+  voice: "Song 5–10 dry, squeaky 'zeet' notes, first rising then falling, accelerating at the end; the call a high, piercing 'peet'."
 ---
 Streaked Xenops (рыжеватый долотоклюв) — мелкая печниковая птица с клювом, как маленькое долото с загнутым вверх краем. В Андах Колумбии живёт в горном влажном лесу и на опушках, в основном на 1 400–2 800 м, местами ниже. Птицы Анд относятся к подвиду heterurus.
 

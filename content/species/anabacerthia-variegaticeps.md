@@ -2,6 +2,7 @@
 id: anabacerthia-variegaticeps
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкое охристое кольцо вокруг глаза с полосой назад: птица «в очках»"
   - "Лицо тёмное, с почти чёрным рисунком на щеке, темя в заметных штрихах"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/anabacerthia-variegaticeps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/syndactyla-subalaris.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Broad ochre eye ring with a stripe behind it: a 'spectacled' look"

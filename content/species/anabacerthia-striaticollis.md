@@ -2,6 +2,7 @@
 id: anabacerthia-striaticollis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкое охристое кольцо вокруг глаза и полоса за ним, как очки"
   - "Горло бледно-охристое, грудь в размытых охристых штрихах, брюхо ровное бурое"
@@ -11,7 +12,7 @@ similar:
   - id: syndactyla-subalaris
     how: "крупнее, спина и весь низ в узких охристых штрихах, без «очков», только прерывистая бровь; кормится ниже"
   - id: anabacerthia-variegaticeps
-    how: "горло светлое в чешуйках, охристые «очки» и бровь, за глазом тёмная полоса; на западном склоне Нариньо"
+    how: "темнее, на лице почти чёрный рисунок, темя в штрихах, горло в чешуйках; на западном склоне Нариньо"
 behavior: "Кормится поодиночке или парами, почти всегда в смешанной стае, от среднего яруса до подкроны. Ловко перебирается по горизонтальным ветвям и обыскивает сухие листья, мусор, эпифиты и мох."
 voice: "Ускоряющаяся серия сухих высоких тикающих нот «чек-чек-чик-чик» на одной высоте, иногда чуть понижающаяся; позыв — резкое «чит» и скрипучее дребезжание."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "content/species/syndactyla-subalaris.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/anabacerthia-striaticollis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Broad buff eyering with a line behind the eye, like spectacles"
@@ -37,7 +39,7 @@ en:
     - id: syndactyla-subalaris
       how: "larger, back and all the underparts with narrow buff streaks, no spectacles, only a broken eyebrow; feeds lower"
     - id: anabacerthia-variegaticeps
-      how: "pale throat finely scaled, buff spectacles and eyebrow, dark line behind the eye; on the western slope in Nariño"
+      how: "darker, with an almost black face pattern, streaked crown and scaled throat; on the western slope in Nariño"
   behavior: "Forages singly or in pairs, almost always in a mixed flock, from the mid-storey to the subcanopy. Clambers deftly along horizontal branches, searching dead leaves, debris, epiphytes and moss."
   voice: "An accelerating series of dry, high ticking notes, 'chek-chek-chik-chik', on one pitch, sometimes dropping slightly; the call is a sharp 'chit' and a scratchy rattle."
 ---

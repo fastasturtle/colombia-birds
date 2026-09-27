@@ -2,6 +2,7 @@
 id: phylloscartes-gualaquizae
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка серая, спина оливковая, на бледном лице неясные беловатые бровь и кольцо"
   - "Тонкая тёмная линия огибает кроющие уха"
@@ -10,7 +11,7 @@ key_features:
   - "Сидит на ветке горизонтально, часто чуть задирая хвост"
 similar:
   - id: pogonotriccus-orbitalis
-    how: "чёткие широкие желтовато-белые «очки», горло тоже ярко-жёлтое, посадка вертикальнее"
+    how: "чёткие широкие желтовато-белые «очки», горло тоже ярко-жёлтое, посадка вертикальная; кормится ниже, в подлеске и среднем ярусе"
   - id: zimmerius-chrysops
     how: "лоб, бровь и лицо ярко-жёлтые, брюхо беловатое, на крыле жёлтые каймы вместо полос, клюв крошечный"
 behavior: "Держится в кронах влажного предгорного леса на высоте 10–30 м, ниже спускается только на опушках. Деятельно обыскивает листву и коротким подлётом срывает насекомых с листьев; ходит парами и в смешанных стаях."
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Ecuadorian tyrannulet (en), Phylloscartes gualaquizae (es), CC BY-SA 4.0 — data/texts: окраска, ареал и высоты в Колумбии, голос, поведение"
   - "Wikipedia: Golden-faced tyrannulet (en, CC BY-SA 4.0) — data/texts; content/species/pogonotriccus-orbitalis.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Gray crown, olive back, indistinct whitish brow and eye-ring on a pale face"
@@ -36,7 +38,7 @@ en:
     - "Perches horizontally on a branch, often with the tail slightly cocked"
   similar:
     - id: pogonotriccus-orbitalis
-      how: "bold, broad yellowish-white 'spectacles', throat also bright yellow, more upright posture"
+      how: "bold, broad yellowish-white 'spectacles', throat also bright yellow, upright posture; forages lower, in understory and mid-storey"
     - id: zimmerius-chrysops
       how: "bright yellow forehead, brow and face, whitish belly, yellow wing edgings instead of bars, tiny bill"
   behavior: "Keeps in the canopy of humid foothill forest at 10–30 m, coming lower only at edges. Actively searches foliage and snatches insects from leaves in short sallies; moves in pairs and with mixed flocks."

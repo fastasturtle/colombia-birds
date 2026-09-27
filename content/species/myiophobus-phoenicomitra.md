@@ -2,6 +2,7 @@
 id: myiophobus-phoenicomitra
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх ровный оливковый, горло и низ жёлтые, на груди слабые оливковые пестринки"
   - "Крыло тёмное с двумя-тремя охристыми полосами и коричными каймами маховых"
@@ -11,7 +12,7 @@ similar:
   - id: myiophobus-flavicans
     how: "чёткое жёлтое кольцо вокруг глаза и черта над уздечкой, клюв обычно целиком тёмный; держится выше, от 1 500 м"
   - id: myiotriccus-ornatus
-    how: "голова чёрная с белым пятном перед глазом, поясница ярко-жёлтая, основание хвоста рыжее"
+    how: "голова чёрная с белым пятном перед глазом, поясница ярко-жёлтая, у западного подвида основание хвоста желтоватое"
 behavior: "Держится поодиночке или парами в подлеске внутри предгорного леса и по его краям, сидит вертикально и подолгу неподвижно. Короткими вылетами хватает насекомых в воздухе и с листьев, веток и земли; в смешанные стаи идёт редко."
 voice: "Тонкое высокое «цут-цип-цу»; голос изучен плохо, записей из Колумбии почти нет."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Orange-crested flycatcher (en), Myiophobus phoenicomitra (es), CC BY-SA 4.0 — data/texts: окраска, подвид litae, высоты, голос, отличие от M. flavicans"
   - "Wikipedia: Flavescent flycatcher (en, CC BY-SA 4.0) — data/texts; content/species/myiotriccus-ornatus.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Plain olive above, yellow throat and underparts, faint olive streaks on the breast"
@@ -36,7 +38,7 @@ en:
     - id: myiophobus-flavicans
       how: "clear yellow eye-ring and line above the lores, bill usually all dark; lives higher, from 1,500 m"
     - id: myiotriccus-ornatus
-      how: "black head with a white spot in front of the eye, bright yellow rump, rufous tail base"
+      how: "black head with a white spot in front of the eye, bright yellow rump, yellowish tail base in the western subspecies"
   behavior: "Keeps singly or in pairs in the understory inside foothill forest and along its edges, perching upright and still for long periods. Takes insects in short sallies from the air and from leaves, twigs and the ground; seldom joins mixed flocks."
   voice: "A thin, high 'tsut-tseep-tsu'; the voice is poorly known and there are almost no recordings from Colombia."
 ---

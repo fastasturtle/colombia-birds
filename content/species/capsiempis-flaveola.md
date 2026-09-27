@@ -2,6 +2,7 @@
 id: capsiempis-flaveola
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь низ ярко-жёлтый, верх жёлто-оливковый"
   - "Бровь и неполное кольцо вокруг глаза жёлтые, у части подвидов бровь белее; через глаз тёмная черта"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Yellow tyrannulet (en), Capsiempis flaveola (es), Жёлтый тиранчик (ru), CC BY-SA 4.0 — data/texts: окраска, подвиды, высоты в Колумбии, голос, поведение"
   - "Wikipedia: Golden-faced tyrannulet (en, CC BY-SA 4.0) — data/texts; content/species/tyrannulus-elatus.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Entire underparts bright yellow, yellow-olive above"
