@@ -2,6 +2,7 @@
 id: egretta-thula
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Стройная белоснежная цапля средних размеров"
   - "Тонкий чёрный клюв и жёлтая уздечка у его основания"
@@ -26,6 +27,7 @@ traits:
 sources:
   - "Данные проекта: data/species/egretta-thula.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Snowy egret (en), Garceta nívea (es), CC BY-SA 4.0 — data/texts; Wikipedia: Western cattle egret, Great egret, Little blue heron (en) — data/texts"
 en:
   key_features:
     - "A slender, snow-white medium-sized heron"

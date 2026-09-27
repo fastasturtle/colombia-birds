@@ -2,6 +2,7 @@
 id: urosticte-benjamini
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост тёмный, с белым овальным пятном на конце средних перьев"
   - "За глазом яркая белая полоска"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: низ белый в густых зелёных пятнах, белые кончики крайних рулевых"
 similar:
   - id: heliodoxa-jacula
-    how: "крупнее, в хвосте нет белого; у самца синее пятно на зелёном горле без белой полосы"
+    how: "крупнее; у самца хвост сине-чёрный без белого, на зелёном горле маленькое фиолетово-синее пятно, белой полосы нет"
   - id: heliothryx-barroti
     how: "низ чисто белый без пятен, чёрная «маска», длинный хвост с белыми крайними перьями"
 behavior: "Кормится внутри леса, от подлеска почти до крон, у бромелий и трубчатых цветков; ловит насекомых с листьев и с присады. Заходит на кормушки."
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Purple-bibbed whitetip (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/urosticte-benjamini.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (кормушки Ла-Нутрии)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Green-crowned brilliant, Purple-crowned fairy (en, CC BY-SA 4.0), Colibrí puntablanca occidental (es) — data/texts"
 en:
   key_features:
     - "Tail dark, with an oval white spot at the tip of the central feathers"
@@ -33,7 +35,7 @@ en:
     - "Female: underparts white densely spotted green, white tips to the outer tail feathers"
   similar:
     - id: heliodoxa-jacula
-      how: "larger, no white in the tail; the male has a blue spot on a green throat and no white band"
+      how: "larger; the male has a blue-black tail without white and a small violet-blue spot on a green throat, no white band"
     - id: heliothryx-barroti
       how: "underparts clean white without spots, black 'mask', long tail with white outer feathers"
   behavior: "Feeds inside forest, from the understory almost to the canopy, at bromeliads and tubular flowers; takes insects from leaves and from a perch. Visits feeders."

@@ -2,6 +2,7 @@
 id: chaetocercus-mulsant
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный, около 8,5 см; летает медленно, с жужжанием, как шмель"
   - "Брюхо и пятна по бокам белые, белая полоса от груди заходит за глаз"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: рыжеватое горло и бока, тёмная полоса через глаз"
 similar:
   - id: chaetocercus-heliodor
-    how: "ещё мельче, брюхо тёмное, без белого; горжетка самца шире и с удлинёнными уголками"
+    how: "ещё мельче; у самца грудь серая, белые только пятна на боках, горжетка заходит на бока шеи; самка снизу сплошь корично-рыжая"
 behavior: "Кормится на всех ярусах у мелких цветов, от кустов до цветущих деревьев. Территорий не держит: благодаря малому размеру и медленному полёту тихо кормится на участках других колибри."
 voice: "Тихие низкие «джуп» и сухие «чип»; чаще замечают по жужжанию крыльев."
 traits:
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: White-bellied woodstar (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/chaetocercus-mulsant.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: White-bellied woodstar, Gorgeted woodstar (en, CC BY-SA 4.0), Colibrí de Mulsant (es) — data/texts"
 en:
   key_features:
     - "Tiny, about 8.5 cm; flies slowly with a buzz, like a bumblebee"
@@ -31,7 +33,7 @@ en:
     - "Female: buffy throat and flanks, dark stripe through the eye"
   similar:
     - id: chaetocercus-heliodor
-      how: "even smaller, belly dark with no white; the male's gorget broader, with elongated corners"
+      how: "even smaller; the male has a grayish breast with white only in flank spots and a gorget extending onto the neck sides; the female is cinnamon-rufous below"
   behavior: "Feeds at small flowers at all levels, from shrubs to flowering trees. Holds no territory: small size and slow flight let it feed quietly inside other hummingbirds' patches."
   voice: "Soft low 'djup' and dry 'chip' notes; more often noticed by the buzz of its wings."
 ---
