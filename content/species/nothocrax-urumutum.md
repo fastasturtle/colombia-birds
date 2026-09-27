@@ -1,0 +1,48 @@
+---
+id: nothocrax-urumutum
+difficulty: hard
+lynx_page: null
+key_features:
+  - "Крупная куриная птица, рыже-каштановая, а не чёрная, как другие гокко"
+  - "Плоский чёрный хохол"
+  - "Голая кожа вокруг глаза: жёлто-зелёная сверху, чёрная снизу"
+  - "Клюв красно-оранжевый, кончик хвоста светлый"
+similar:
+  - id: mitu-salvini
+    how: "чёрный с белым брюхом и белым концом хвоста, клюв красный и массивный"
+behavior: "Кормится на земле на рассвете и в сумерках, днём отдыхает на деревьях, несмотря на название активна и днём. Поёт только ночью, чаще в ясные сухие ночи; иногда несколько птиц перекликаются."
+voice: "Ночная серия из низких гулких нот «хмм-хмм-хммм, хмм хмм-хммм, хммф!»."
+beginner_note: "Это вид, который скорее услышишь ночью, чем увидишь: попроси гида сводить на ночную прогулку."
+traits:
+  size: larger
+  colors: [rufous, brown, black]
+  tone: dull
+  marks: [crest, bare_face]
+  bill: short
+  layer: [ground, midstory, night]
+sources:
+  - "Wikipedia: Nocturnal curassow (en, CC BY-SA 4.0), data/texts/nothocrax-urumutum.json"
+  - "Данные проекта: data/species/nothocrax-urumutum.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Общие полевые знания автора-агента; из определителей не копировалось"
+en:
+  key_features:
+    - "A large gamebird, rufous-chestnut rather than black like other curassows"
+    - "Flat black crest"
+    - "Bare skin around the eye: greenish-yellow above, black below"
+    - "Reddish-orange bill, pale tail tip"
+  similar:
+    - id: mitu-salvini
+      how: "black with a white belly and white tail tip, heavy red bill"
+  behavior: "Feeds on the ground at dawn and dusk and rests in trees by day; despite the name it is active in daylight too. Sings only at night, mostly on clear dry nights; several birds sometimes counter-sing."
+  voice: "A nocturnal series of low resonant notes: 'hmm-hmm-hmmmm, hmm hmm-hmmm, hmmph!'."
+  beginner_note: "A species you are more likely to hear at night than see: ask the guide for a night walk."
+---
+Nocturnal Curassow (красный гокко) — самый маленький из гокко, 50–57 см, и единственный с рыже-каштановым, а не чёрным оперением. Живёт в верхней Амазонии, во влажном лесу на твёрдой земле и в затопляемых лесах, обычно ниже 850 м, часто у рек с чёрной водой. Днём прячется, а поёт ночью, отсюда и название.
+
+На маршруте он «возможно» на Исла-Эскондиде (7–11 октября). Шансы увидеть малы, но ночью его гулкое «хмм-хмм» слышно далеко; если повезёт, гид покажет птицу на ночном насесте фонарём.
+
+## English
+
+Nocturnal Curassow is the smallest curassow, 50–57 cm, and the only one with rufous-chestnut rather than black plumage. It lives in upper Amazonia, in terra firme and flooded forest, usually below 850 m and often near blackwater rivers. It hides by day and sings at night, hence the name.
+
+On the route it is "maybe" at Isla Escondida (7–11 October). The chance of seeing it is small, but its booming 'hmm-hmm' carries far at night; with luck the guide will spotlight a bird on its night roost.

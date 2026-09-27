@@ -1,0 +1,96 @@
+# Closed vocabulary for `traits` in content/species/<slug>.md (see content/README.md).
+# The site reads this file at build time: chip groups of the identifier (/identify/) and validation of every card
+# (site/src/lib/traits.ts). A value not listed here fails `npm run build`. Adding a value = editing this file on purpose.
+#
+# Per group: label (ru/en), min/max = how many values a card may have (max 1 → a single string in the card),
+# values in display order, each with ru/en labels and an optional ru hint shown as a tooltip.
+
+size:
+  label: { ru: Размер, en: Size }
+  min: 1
+  max: 1
+  values:
+    hummingbird: { ru: колибри, en: hummingbird, hint: "любой колибри и прочие крошки до 10 см" }
+    sparrow: { ru: воробей, en: sparrow, hint: "10–16 см" }
+    thrush: { ru: дрозд, en: thrush, hint: "17–25 см" }
+    pigeon: { ru: голубь, en: pigeon, hint: "26–35 см" }
+    crow: { ru: ворона, en: crow, hint: "36–55 см" }
+    larger: { ru: крупнее, en: larger, hint: "больше 55 см" }
+
+colors:
+  label: { ru: Цвета, en: Colours }
+  min: 1
+  max: 3
+  values:
+    black: { ru: чёрный, en: black }
+    gray: { ru: серый, en: gray }
+    brown: { ru: бурый, en: brown }
+    rufous: { ru: рыжий, en: rufous }
+    olive: { ru: оливковый, en: olive }
+    yellow: { ru: жёлтый, en: yellow }
+    orange: { ru: оранжевый, en: orange }
+    red: { ru: красный, en: red }
+    blue: { ru: синий, en: blue }
+    green: { ru: зелёный, en: green }
+    white: { ru: белый, en: white }
+    purple: { ru: фиолетовый, en: purple }
+
+tone:
+  label: { ru: Окраска, en: Tone }
+  min: 1
+  max: 1
+  values:
+    bright: { ru: яркая, en: bright }
+    dull: { ru: скромная, en: dull }
+
+marks:
+  label: { ru: Приметы, en: Marks }
+  min: 0
+  max: 17
+  values:
+    crest: { ru: хохол, en: crest }
+    eye_ring: { ru: кольцо вокруг глаза, en: eye ring }
+    eyebrow: { ru: бровь, en: eyebrow }
+    mask: { ru: маска, en: mask }
+    wing_bars: { ru: полосы на крыле, en: wing bars }
+    streaked_breast: { ru: пестрины на груди, en: streaked breast }
+    spotted_breast: { ru: пятна на груди, en: spotted breast }
+    barred: { ru: поперечные полосы, en: barred }
+    long_tail: { ru: длинный хвост, en: long tail }
+    short_tail: { ru: короткий хвост, en: short tail }
+    forked_tail: { ru: вильчатый хвост, en: forked tail }
+    white_tail_tips: { ru: белые концы хвоста, en: white tail tips }
+    rump_patch: { ru: пятно на пояснице, en: rump patch }
+    throat_patch: { ru: пятно на горле, en: throat patch }
+    bare_face: { ru: голая кожа у глаза, en: bare face }
+    wattle: { ru: серёжка, en: wattle }
+    plain: { ru: без примет, en: plain, hint: "однотонная, без явных пятен и полос" }
+
+bill:
+  label: { ru: Клюв, en: Bill }
+  min: 1
+  max: 2
+  values:
+    short: { ru: короткий, en: short }
+    medium: { ru: средний, en: medium }
+    long: { ru: длинный, en: long }
+    curved: { ru: изогнутый, en: curved }
+    hooked: { ru: крючком, en: hooked }
+    thick: { ru: толстый, en: thick }
+    thin: { ru: тонкий, en: thin }
+    flat: { ru: плоский, en: flat }
+    hummingbird_long: { ru: длинный у колибри, en: long (hummingbird), hint: "только для колибри: клюв заметно длиннее головы (инки, отшельники, мечеклюв)" }
+
+layer:
+  label: { ru: Где держится, en: Where }
+  min: 1
+  max: 8
+  values:
+    ground: { ru: на земле, en: ground }
+    understory: { ru: подлесок, en: understory }
+    midstory: { ru: средний ярус, en: midstory }
+    canopy: { ru: кроны, en: canopy }
+    water: { ru: у воды, en: water }
+    air: { ru: в воздухе, en: air }
+    feeder: { ru: на кормушке, en: feeder }
+    night: { ru: ночью, en: night }

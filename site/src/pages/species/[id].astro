@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import PhotoGallery from '../../components/PhotoGallery.svelte';
 import StateWord from '../../components/StateWord.astro';
+import SpeciesCard from '../../components/SpeciesCard.astro';
+import { speciesCard } from '@lib/content';
 import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, siteState, whyInteresting, STATE_RANK, WHY_RU, fmtDateRu, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
 export function getStaticPaths() {
   return speciesIndex().map((s) => ({ params: { id: s.id } }));
@@ -9,6 +11,7 @@ export function getStaticPaths() {
 const { id } = Astro.params;
 const sp = species(id!);
 const tx = texts(id!);
+const card = speciesCard(id!);
 const fam = families().find((f) => f.code === sp.family.code);
 const base = import.meta.env.BASE_URL;
 const idx = speciesIndex();
@@ -46,6 +49,8 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
   ) : (
     <p class="card muted">Фото ещё не загружено. Посмотреть: <a href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>{sp.links.commons_category && <>, <a href={sp.links.commons_category} target="_blank" rel="noopener">Commons</a></>}{sp.links.inaturalist && <>, <a href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a></>}.</p>
   )}
+
+  {card && <SpeciesCard card={card} />}
 
   <h2>Коротко</h2>
   <table>

@@ -1,0 +1,56 @@
+---
+/**
+ * Identifier by traits (content/traits.yaml + species cards). The species data goes into the page as one compact
+ * JSON block (<script type="application/json" id="identify-data">) that Identifier.svelte reads on mount:
+ * {id, en, ru, photo, t: traits, st: {siteId: 's'|'m'} (unlikely omitted), hl: sites where it is a trip-report
+ * target, x: endemic or range-restricted}. Grows with the cards; keep it under ~300 KB.
+ */
+import Base from '../../layouts/Base.astro';
+import Identifier from '../../components/Identifier.svelte';
+import { speciesCards } from '@lib/content';
+import { traitVocabulary } from '@lib/traits';
+import { speciesIndex, siteSpecies, sites, itinerary, routeSiteIds, rangeRestricted, fmtDateRu, dayLabel, MEDIA_BASE } from '@lib/data';
+
+const idx = new Map(speciesIndex().map((s) => [s.id, s]));
+const total = speciesIndex().length;
+const ss = siteSpecies();
+const siteList = sites();
+const rr = rangeRestricted();
+const items = [...speciesCards().values()].map((c) => {
+  const s = idx.get(c.id)!;
+  const st: Record<string, 's' | 'm'> = {};
+  for (const [sid, v] of Object.entries(ss)) {
+    const e = v.species.find((x) => x.id === c.id);
+    if (e && e.state !== 'unlikely') st[sid] = e.state === 'sure' ? 's' : 'm';
+  }
+  return {
+    id: c.id, en: s.en, ru: s.ru, photo: s.photo, t: c.traits, st,
+    hl: siteList.filter((x) => x.target_species?.includes(c.id)).map((x) => x.id),
+    x: s.endemic || rr.has(c.id),
+    e: s.endemic,
+  };
+});
+const json = JSON.stringify(items).replace(/</g, '\\u003c');
+
+const route = routeSiteIds();
+const nameOf = new Map(siteList.map((s) => [s.id, s.name_ru || s.name]));
+const places = [
+  { key: 'any', label: 'Весь маршрут', group: '', sites: route },
+  ...itinerary().filter((d) => d.sites.length > 0).map((d) => ({
+    key: `day:${d.date}`, group: 'День',
+    label: `${fmtDateRu(d.date, false)} · ${dayLabel(d)} · ${d.sites.map((x) => nameOf.get(x) ?? x).join(', ')}`,
+    sites: d.sites,
+  })),
+  ...route.map((id) => ({ key: `site:${id}`, group: 'Место', label: nameOf.get(id) ?? id, sites: [id] })),
+];
+const vocab = traitVocabulary().map((g) => ({ key: g.key, label: g.label.ru, values: g.values.map((v) => ({ key: v.key, label: v.ru, hint: v.hint })) }));
+---
+<Base title="Определитель" description="Определитель птиц маршрута по размеру, цвету, приметам, клюву и ярусу">
+  <h1>Определитель</h1>
+  <p class="muted lead">Отметь, что успел разглядеть: внутри группы подходит любой из выбранных признаков, между группами нужны все. Место сужает список до тех, кого там реально встретить.</p>
+  <script type="application/json" id="identify-data" set:html={json}></script>
+  <Identifier client:load vocab={vocab} places={places} mediaBase={MEDIA_BASE} total={total} marked={items.length} />
+</Base>
+<style>
+  .lead { margin-top: -4px; font-size: .92rem; }
+</style>

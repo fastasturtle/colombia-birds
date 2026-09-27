@@ -1,0 +1,89 @@
+---
+/**
+ * Hand-written species card (content/species/<slug>.md, loaded and validated by lib/content.ts):
+ * «Как узнать» bullets, «Для новичка» callout, the short text, «С кем спутать» tiles with the difference,
+ * «Поведение», «Голос», the identifier tags, and the English mirror in <details>.
+ */
+import SpeciesFace from './SpeciesFace.astro';
+import { speciesIndex } from '@lib/data';
+import { DIFFICULTY_RU, type SpeciesCard } from '@lib/content';
+import { traitVocabulary } from '@lib/traits';
+interface Props { card: SpeciesCard }
+const { card } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const byId = new Map(speciesIndex().map((s) => [s.id, s]));
+const tags = traitVocabulary()
+  .filter((g) => card.traits[g.key]?.length)
+  .map((g) => ({ label: g.label.ru, values: g.values.filter((v) => card.traits[g.key].includes(v.key)).map((v) => v.ru) }));
+const en = card.en;
+---
+<section class="sc">
+  <h2>Как узнать <span class:list={['diff', card.difficulty]}>{DIFFICULTY_RU[card.difficulty]}</span></h2>
+  <ul class="kf">{card.key_features.map((f) => <li>{f}</li>)}</ul>
+  <p class="novice"><b>Для новичка.</b> {card.beginner_note}</p>
+  {card.body.map((p) => <p>{p}</p>)}
+
+  {card.similar.length > 0 && (
+    <>
+      <h2>С кем спутать</h2>
+      <ul class="sim">
+        {card.similar.map((x) => {
+          const s = byId.get(x.id)!;
+          return (
+            <li>
+              <SpeciesFace s={s} size={84} />
+              <p>{x.how}</p>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  )}
+
+  <h2>Поведение</h2>
+  <p>{card.behavior}</p>
+  <h2>Голос</h2>
+  <p>{card.voice}</p>
+
+  <p class="tags">
+    <a href={`${base}identify/`}>Определитель</a>:{' '}
+    {tags.map((t, i) => <span><span class="muted">{t.label.toLowerCase()}</span>{' '}{t.values.join(', ')}{i < tags.length - 1 ? ' · ' : ''}</span>)}
+  </p>
+
+  <details class="en">
+    <summary>English</summary>
+    <h3>How to recognise</h3>
+    <ul class="kf">{en.key_features.map((f) => <li>{f}</li>)}</ul>
+    <p class="novice"><b>For beginners.</b> {en.beginner_note}</p>
+    {en.body.map((p) => <p>{p}</p>)}
+    {en.similar.length > 0 && (
+      <>
+        <h3>Confusion species</h3>
+        <ul class="plain">{en.similar.map((x) => <li><a href={`${base}species/${x.id}/`}>{byId.get(x.id)!.en}</a>: {x.how}</li>)}</ul>
+      </>
+    )}
+    <h3>Behaviour</h3>
+    <p>{en.behavior}</p>
+    <h3>Voice</h3>
+    <p>{en.voice}</p>
+  </details>
+  <p class="src muted">Текст карточки написан для этого справочника. Источники: {card.sources.join('; ')}.</p>
+</section>
+<style>
+  .diff { font-size: .72rem; font-weight: 600; vertical-align: middle; margin-left: 6px; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+  .diff.easy { color: var(--accent); }
+  .diff.hard { color: var(--accent-2); }
+  .kf { margin: 0 0 10px; padding-left: 1.2em; }
+  .kf li { margin: 2px 0; }
+  .novice { background: var(--chip); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; padding: 8px 12px; margin: 10px 0 12px; }
+  .sim { list-style: none; padding: 0; margin: 0; }
+  .sim li { display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .sim li p { margin: 0; flex: 1; min-width: 0; }
+  .tags { font-size: .85rem; margin: 14px 0 6px; }
+  .en { margin: 12px 0; border: 1px solid var(--line); border-radius: 12px; padding: 0 14px; background: var(--card); }
+  .en summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; }
+  .en[open] { padding-bottom: 8px; }
+  .en h3 { font-size: 1rem; margin: 12px 0 4px; }
+  .plain { padding-left: 1.2em; margin: 0; }
+  .src { font-size: .8rem; }
+</style>
