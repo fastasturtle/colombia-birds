@@ -2,6 +2,7 @@
 id: himantopus-mexicanus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ноги очень длинные, ярко-розовые или красные"
   - "Верх и крылья чёрные, низ и лоб белые, граница резкая"

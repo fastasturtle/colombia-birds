@@ -2,6 +2,7 @@
 id: coeligena-lutetiae
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "На крыле большое корично-охристое пятно, заметное и в полёте, и на присаде"
   - "Самец сверху бархатно-чёрный, лоб блестящий зелёный"
@@ -10,7 +11,7 @@ key_features:
   - "Самка: горло корично-охристое, низ золотисто-зелёный"
 similar:
   - id: pterophanes-cyanopterus
-    how: "гораздо крупнее, клюв короче, крылья синие, а не с охристым пятном"
+    how: "заметно крупнее, крылья синие, а не с охристым пятном"
   - id: coeligena-torquata
     how: "пятна на крыле нет, на груди белый «нагрудник», основания крайних рулевых белые"
   - id: ensifera-ensifera
@@ -38,7 +39,7 @@ en:
     - "Female: cinnamon-buff throat, golden-green underparts"
   similar:
     - id: pterophanes-cyanopterus
-      how: "much larger, shorter bill, blue wings rather than a buff patch"
+      how: "noticeably larger, blue wings rather than a buff patch"
     - id: coeligena-torquata
       how: "no wing patch, white bib on the breast, white bases to the outer tail feathers"
     - id: ensifera-ensifera

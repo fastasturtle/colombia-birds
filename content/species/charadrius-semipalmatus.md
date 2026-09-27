@@ -2,6 +2,7 @@
 id: charadrius-semipalmatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Одна тёмная полоса-ошейник через грудь, зимой бурая и узкая"
   - "Верх тёмно-бурый, цвета мокрого песка; лоб белый, на затылке белый ошейник"
@@ -9,9 +10,9 @@ key_features:
   - "Ноги оранжево-жёлтые"
 similar:
   - id: anarhynchus-collaris
-    how: "мельче и тоньше, белого ошейника на затылке нет, клюв целиком чёрный и тонкий, ноги бледные, розоватые"
+    how: "мельче и тоньше, белого ошейника на затылке нет, темя и затылок каштановые, клюв целиком чёрный и тонкий"
   - id: anarhynchus-wilsonia
-    how: "клюв заметно длиннее и толще, целиком чёрный; ноги розовато-серые"
+    how: "клюв заметно длиннее и толще, целиком чёрный; ноги розоватые"
 behavior: "Кормится на иле и песке короткими перебежками, замирая перед клевком. На отдыхе собирается в стайки с другими мелкими куликами."
 voice: "Мягкий восходящий двусложный свист «чу-ии»."
 traits:
@@ -34,9 +35,9 @@ en:
     - "Orange-yellow legs"
   similar:
     - id: anarhynchus-collaris
-      how: "smaller and slighter, no white nape collar, thin all-black bill, pale pinkish legs"
+      how: "smaller and slighter, no white nape collar, chestnut crown and nape, thin all-black bill"
     - id: anarhynchus-wilsonia
-      how: "clearly longer and thicker all-black bill; pinkish-gray legs"
+      how: "clearly longer and thicker all-black bill; pinkish legs"
   behavior: "Feeds on mud and sand in short runs, freezing before each peck. Rests in small flocks with other small shorebirds."
   voice: "A soft rising two-note whistle, 'chu-ee'."
 ---

@@ -2,6 +2,7 @@
 id: uranomitra-franciae
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Середина груди и брюха чисто белая, бока зелёные"
   - "Темя самца блестящее фиолетово-синее, у самки бирюзовое и тусклее"
@@ -14,7 +15,7 @@ similar:
   - id: chalybura-buffonii
     how: "крупнее, весь тёмно-зелёный, белое только подхвостье, хвост длинный сине-чёрный"
 behavior: "Кормится в среднем ярусе и кронах на опушках, в прогалинах и вторичном лесу, облетая цветки по кругу; у цветов уступает территориальным видам. Ловит насекомых с присады."
-voice: "Тонкие сухие «цит» и короткое щебетание."
+voice: "Высокое «цип»; песня — повторяемая сложная фраза из писклявых свистов, трелей и скрипучих нот."
 traits:
   size: hummingbird
   colors: [green, white, blue]
@@ -40,7 +41,7 @@ en:
     - id: chalybura-buffonii
       how: "larger, all dark green, white only on the undertail coverts, long blue-black tail"
   behavior: "Feeds at middle levels and in the canopy along edges, clearings and second growth, trap-lining flowers; gives way to territorial species at flowers. Hawks insects from a perch."
-  voice: "Thin dry 'tsit' notes and short twittering."
+  voice: "A high 'tsip'; the song is a repeated complex phrase of squeaky whistles, trills and scratchy notes."
 ---
 Andean Emerald (андская амазилия) — колибри Анд Колумбии, Эквадора и Перу, живущий на опушках и прогалинах влажного леса и во вторичных зарослях на высотах 600–2 100 м, чаще выше 1 000 м. Белая полоса по всему низу хорошо видна у зависшей птицы и отличает её от большинства зелёных колибри тех же высот. В Колумбии в центральных Андах живёт номинативный подвид с синим теменем, в Нариньо — подвид viridiceps с зелёной головой.
 

@@ -2,6 +2,7 @@
 id: chaetocercus-bombus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный, 6–7 см; летает медленно и с жужжанием, как шмель"
   - "Самец: горжетка розовая, от глаза вниз к груди тянется охристо-белая полоса"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: низ корично-рыжий, хвост округлый, рыжий с чёрной полосой у конца"
 similar:
   - id: chaetocercus-heliodor
-    how: "у самца горжетка шире расходится на бока шеи, охристой полосы от глаза к груди нет; самки почти неотличимы"
+    how: "у самца горжетка шире расходится на бока шеи, полоса за глазом и грудь сероватые, а не охристые; самки почти неотличимы"
   - id: chaetocercus-mulsant
     how: "крупнее, около 8,5 см; брюхо и полоса от груди за глаз чисто белые"
 behavior: "Кормится от земли до среднего яруса у самых разных цветков. Благодаря малому размеру и медленному полёту, судя по близкому White-bellied Woodstar, пьёт нектар на чужих территориях, не вступая в драки."
@@ -34,7 +35,7 @@ en:
     - "Female: cinnamon-rufous below, rounded rufous tail with a black band near the tip"
   similar:
     - id: chaetocercus-heliodor
-      how: "male's gorget flares wider onto the neck sides, no buffy line from eye to breast; females almost inseparable"
+      how: "male's gorget flares wider onto the neck sides, line behind the eye and breast grayish rather than buffy; females almost inseparable"
     - id: chaetocercus-mulsant
       how: "larger, about 8.5 cm; belly and the line from breast to behind the eye pure white"
   behavior: "Feeds from the ground to middle levels at a wide variety of flowers. Judging by the closely related White-bellied Woodstar, its small size and slow flight let it feed inside other hummingbirds' territories without fights."

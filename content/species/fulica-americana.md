@@ -2,9 +2,10 @@
 id: fulica-americana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тёмно-серая, голова и шея чёрные"
-  - "Клюв белый, у конца тёмное кольцо; лобный щиток белый или желтоватый"
+  - "Клюв белый, у конца тёмное кольцо; лобный щиток светлый, обычно белый"
   - "По бокам подхвостья белые пятна, хорошо видные у плывущей птицы"
   - "Плывёт, кивая головой; взлетает, разбегаясь по воде"
 similar:
@@ -13,7 +14,7 @@ similar:
   - id: gallinula-galeata
     how: "мельче и стройнее, щиток и клюв красные с жёлтым концом, по боку белая полоса"
 behavior: "Держится на открытой воде и у края тростников озёр и болот, часто группами. Кормится водными растениями, ныряя, щипля их с поверхности или выходя пастись на берег."
-voice: "Разнообразные хриплые кудахчущие и хрюкающие звуки, резкое «пук»."
+voice: "Разнообразные повторяемые хриплые крики; тревожный крик — отрывистое «пулк» или «пунк»."
 traits:
   size: crow
   colors: [black, gray, white]
@@ -29,7 +30,7 @@ sources:
 en:
   key_features:
     - "Dark gray, with black head and neck"
-    - "White bill with a dark ring near the tip; white or yellowish frontal shield"
+    - "White bill with a dark ring near the tip; pale, usually white frontal shield"
     - "White patches on the sides of the undertail, easy to see on a swimming bird"
     - "Swims nodding its head; takes off running across the water"
   similar:
@@ -38,7 +39,7 @@ en:
     - id: gallinula-galeata
       how: "smaller and slimmer, red shield and bill with a yellow tip, a white line along the flank"
   behavior: "Keeps on open water and along reed edges of lakes and marshes, often in groups. Feeds on water plants by diving, picking them from the surface or grazing on the shore."
-  voice: "Various hoarse clucking and grunting sounds and a sharp 'puk'."
+  voice: "A variety of repeated hoarse calls; the alarm call is a clipped 'puhlk' or 'poonk'."
 ---
 American Coot (американская лысуха) — обычная лысуха болот и озёр Саваны Боготы. В Колумбии и на севере Эквадора живёт оседлый подвид columbiana, к которому изредка добавляются северные мигранты. По данным проекта вид встречается до 2 500 м, но на юге держится и на Лагуне Ла-Коча, почти на 2 800 м, рядом с андской лысухой, и там их надо различать.
 

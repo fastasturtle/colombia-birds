@@ -2,6 +2,7 @@
 id: haematopus-palliatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, толстый, ярко-оранжево-красный"
   - "Голова и грудь чёрные, спина буро-чёрная, низ белый"

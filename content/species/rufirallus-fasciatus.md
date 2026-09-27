@@ -2,6 +2,7 @@
 id: rufirallus-fasciatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, горло и грудь ярко-рыжие"
   - "Брюхо и подхвостье рыжие в широких чёрных поперечных полосах"

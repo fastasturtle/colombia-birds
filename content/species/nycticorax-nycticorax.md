@@ -2,6 +2,7 @@
 id: nycticorax-nycticorax
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапка и спина чёрные с зеленоватым блеском, крылья серые"
   - "Лицо и низ белые или светло-серые, глаз крупный красный"
