@@ -2,6 +2,7 @@
 id: hypopyrrhus-pyrohypogaster
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо и подхвостье ярко-красные, остальное оперение чёрное"
   - "Глаз светлый, жёлтый или белый, заметен на чёрной голове"
@@ -10,7 +11,7 @@ key_features:
 similar:
   - id: cacicus-uropygialis
     how: "клюв светлый, желтоватый, глаз голубой; красная только поясница, видная в полёте, брюхо чёрное"
-behavior: "Вне сезона гнездования держится шумными группами в кронах и на опушках, иногда с кассиками и оропендолами. Лазает по ветвям, часто повисая вниз головой, и ест плоды и насекомых. Пара гнездится с помощником, нередко прошлогодним молодым."
+behavior: "Вне сезона гнездования держится шумными группами в кронах и на опушках, иногда вместе с другими трупиалами и оропендолами. Лазает по ветвям, часто повисая вниз головой, и ест плоды и насекомых. Пара гнездится с помощником, нередко прошлогодним молодым."
 voice: "Мелодичное булькающее «глок-глок» и хриплые протяжные крики."
 traits:
   size: pigeon
@@ -34,7 +35,7 @@ en:
   similar:
     - id: cacicus-uropygialis
       how: "pale yellowish bill, blue eye; red only on the rump, seen in flight, black belly"
-  behavior: "Outside the breeding season keeps in noisy groups in the canopy and at edges, sometimes with caciques and oropendolas. Clambers through branches, often hanging upside down, and eats fruit and insects. A pair nests with a helper, often a young bird from the previous brood."
+  behavior: "Outside the breeding season keeps in noisy groups in the canopy and at edges, sometimes with other icterids and oropendolas. Clambers through branches, often hanging upside down, and eats fruit and insects. A pair nests with a helper, often a young bird from the previous brood."
   voice: "Melodious gurgling 'glok-glok' and harsh drawn-out calls."
 ---
 Red-bellied Grackle (краснобрюхий гракл) — эндемик Колумбии и единственный вид своего рода, живёт в облачном лесу всех трёх Кордильер на высотах 1 200–2 750 м. Вид уязвимый (VU): лес в его поясе высот сильно вырублен. Чёрная стая в кроне похожа на обычных гракл, пока одна из птиц не повиснет вниз головой и не покажет красное брюхо.

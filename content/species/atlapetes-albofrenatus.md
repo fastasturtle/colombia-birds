@@ -2,10 +2,11 @@
 id: atlapetes-albofrenatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и затылок ярко-каштаново-рыжие, лоб чёрный"
   - "Чёрная маска от клюва через глаз"
-  - "Белые «усы» под маской, снизу подчёркнутые тонкой чёрной чертой"
+  - "Горло и «усы» белые, их разделяет тонкая чёрная черта"
   - "Низ насыщенно-жёлтый, бока с оливковым налётом, спина оливковая"
 similar:
   - id: atlapetes-schistaceus
@@ -13,7 +14,7 @@ similar:
   - id: atlapetes-pallidinucha
     how: "белых усов нет, корично-рыжий лоб к затылку бледнеет почти до белого; живёт выше"
 behavior: "Быстро перемещается в густых зарослях на опушках и вырубках, изредка выходя на открытое место. Кормится невысоко, до 10 м, поодиночке, парами или семейными группами; ест насекомых, семена и плоды."
-voice: "Высокие тонкие «цит» и короткие щебечущие фразы из кустов."
+voice: "Голос в открытых источниках почти не описан; ищи её по движению в густых зарослях."
 traits:
   size: thrush
   colors: [yellow, olive, rufous]
@@ -30,7 +31,7 @@ en:
   key_features:
     - "Bright chestnut-rufous crown and nape, black forehead"
     - "Black mask from the bill through the eye"
-    - "White 'moustache' below the mask, underlined by a thin black stripe"
+    - "White throat and 'moustache', separated by a thin black stripe"
     - "Rich yellow underparts, flanks washed olive, olive back"
   similar:
     - id: atlapetes-schistaceus
@@ -38,14 +39,14 @@ en:
     - id: atlapetes-pallidinucha
       how: "no white moustache, cinnamon-rufous forehead fading to almost white on the nape; lives higher"
   behavior: "Moves quickly through dense tangles at edges and clearings, only occasionally coming into the open. Forages low, below 10 m, singly, in pairs or family groups, taking insects, seeds and fruit."
-  voice: "High thin 'tsit' notes and short twittering phrases from the bushes."
+  voice: "The voice is barely described in open sources; look for movement in dense tangles."
 ---
-Moustached Brushfinch (белоусая атлапета) — почти-эндемик Колумбии, живёт в Восточной Кордильере и в соседних горах Венесуэлы, в облачном лесу и на опушках на высотах 1 600–2 500 м. Рыжая шапка, чёрная маска и белые усы на жёлтом фоне делают её одной из самых нарядных атлапет. В кустах сначала видно жёлтую грудь, потом рыжее темя.
+Moustached Brushfinch (белоусая атлапета) — почти-эндемик Колумбии, живёт в Восточной Кордильере и в соседних горах Венесуэлы, в облачном лесу и на опушках на высотах 1 600–2 500 м. Рыжая шапка, чёрная маска, белые горло и усы над жёлтым низом делают её одной из самых нарядных атлапет. В кустах сначала видно жёлтую грудь, потом рыжее темя.
 
 На маршруте она «возможна» только в Чикаке 3 и 24 октября: проверяй густые заросли вдоль троп. Там же встречается Northern Slaty Brushfinch с похожей головой, поэтому смотри на цвет низа.
 
 ## English
 
-Moustached Brushfinch is a Colombian near-endemic of the Eastern Cordillera and the adjacent mountains of Venezuela, found in cloud forest and at edges at 1,600–2,500 m. A rufous cap, black mask and white moustache on a yellow background make it one of the smartest brushfinches. In the bushes the yellow breast shows first, then the rufous crown.
+Moustached Brushfinch is a Colombian near-endemic of the Eastern Cordillera and the adjacent mountains of Venezuela, found in cloud forest and at edges at 1,600–2,500 m. A rufous cap, black mask, white throat and moustache above yellow underparts make it one of the smartest brushfinches. In the bushes the yellow breast shows first, then the rufous crown.
 
 On the route it is "maybe" only at Chicaque on 3 and 24 October: check dense tangles along the trails. Northern Slaty Brushfinch with a similar head also occurs there, so look at the colour of the underparts.

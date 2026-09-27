@@ -2,6 +2,7 @@
 id: chlorophonia-flavirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв и ноги оранжевые, у самца ярче"
   - "Голова и грудь у самца изумрудные, ниже широкий жёлтый ошейник"
@@ -13,8 +14,8 @@ similar:
     how: "стройнее, клюв тёмный, на изумрудном теле серые пятнышки у глаза и на плече, жёлтого нет"
   - id: euphonia-xanthogaster
     how: "клюв тёмный, у самца тёмно-синий верх, жёлтый лоб и оранжево-жёлтый низ"
-behavior: "Держится в кронах влажного леса, парами или небольшими стайками, часто кочует вслед за плодоношением. Кормится ягодами, особенно омелы, и иногда спускается на опушки."
-voice: "Мягкие жалобные посвисты, по которым стайку в кроне находят раньше, чем видят."
+behavior: "Держится в кронах влажного леса, парами или небольшими стайками, часто кочует вслед за плодоношением. Кормится почти исключительно мелкими ягодами и плодами; вне гнездования собирается в стаи до 50 птиц."
+voice: "В полёте — носовое жалобное протяжное «пиииии», иногда с короткими чистыми «винь»; при кормёжке тихие «пек»."
 traits:
   size: sparrow
   colors: [green, yellow]
@@ -39,15 +40,15 @@ en:
       how: "slimmer, dark bill, gray spots by the eye and on the shoulder of an emerald body, no yellow"
     - id: euphonia-xanthogaster
       how: "dark bill; male dark blue above with a yellow forehead and orange-yellow underparts"
-  behavior: "Keeps to the canopy of humid forest in pairs or small parties, often wandering after fruiting trees. Feeds on berries, especially mistletoe, and sometimes comes down to edges."
-  voice: "Soft plaintive whistles that locate a party in the canopy before you see it."
+  behavior: "Keeps to the canopy of humid forest in pairs or small parties, often wandering after fruiting trees. Feeds almost entirely on small berries and fruit; outside the breeding season it gathers in flocks of up to 50."
+  voice: "In flight a nasal, plaintive, drawn-out 'peeeee', sometimes mixed with short clear 'winh' notes; soft 'pek' notes while foraging."
 ---
-Yellow-collared Chlorophonia (красноклювый органист) — почти-эндемик Колумбии, живёт на тихоокеанском склоне Анд от центральной Колумбии до северо-запада Эквадора, на высотах от 100 до 1 900 м; есть изолированная популяция в Панаме. Это одна из самых маленьких птиц маршрута среди не-колибри, около 10 см. Самец в кроне выглядит как зелёный шарик с жёлтым ободком, а оранжевый клюв отличает его от всех эуфоний.
+Yellow-collared Chlorophonia (красноклювый органист) — почти-эндемик Колумбии, живёт на тихоокеанском склоне Анд от центральной Колумбии до северо-запада Эквадора, на высотах от 100 до 1 900 м; есть изолированная популяция в Панаме. Длина около 10 см, коренастая и короткохвостая. Самец в кроне выглядит как зелёный шарик с жёлтым ободком, а оранжевый клюв отличает его от всех эуфоний.
 
-На маршруте он «возможен» в Бангсиас-лодже 20 октября, у Авес-и-Флорес 18–20 октября и в Рио-Ньямби 19 октября. Ищи его у плодоносящих деревьев и кустов омелы.
+На маршруте он «возможен» в Бангсиас-лодже 20 октября, у Авес-и-Флорес 18–20 октября и в Рио-Ньямби 19 октября. Ищи его у плодоносящих деревьев в кроне и слушай носовое «пииии» пролетающих птиц.
 
 ## English
 
-Yellow-collared Chlorophonia is a Colombian near-endemic of the Pacific slope of the Andes, from central Colombia to northwestern Ecuador, at 100–1,900 m; there is an isolated population in Panama. At about 10 cm it is one of the smallest non-hummingbirds of the route. A male in the canopy looks like a green ball with a yellow rim, and the orange bill separates it from all euphonias.
+Yellow-collared Chlorophonia is a Colombian near-endemic of the Pacific slope of the Andes, from central Colombia to northwestern Ecuador, at 100–1,900 m; there is an isolated population in Panama. It is about 10 cm long, chunky and short-tailed. A male in the canopy looks like a green ball with a yellow rim, and the orange bill separates it from all euphonias.
 
-On the route it is "maybe" at Bangsias Lodge on 20 October, around Aves y Flórez on 18–20 October and at Río Ñambí on 19 October. Look for it at fruiting trees and mistletoe clumps.
+On the route it is "maybe" at Bangsias Lodge on 20 October, around Aves y Flórez on 18–20 October and at Río Ñambí on 19 October. Look for it at fruiting trees in the canopy and listen for the nasal 'peeee' of birds flying over.
