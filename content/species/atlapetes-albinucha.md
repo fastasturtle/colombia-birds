@@ -2,10 +2,11 @@
 id: atlapetes-albinucha
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная, по темени до затылка широкая белая полоса"
   - "Горло ярко-жёлтое, резко отделено от чёрной головы"
-  - "Грудь и брюхо серые, бока с оливковым налётом"
+  - "Грудь и брюхо беловато-серые, бока и подхвостье оливково-серые"
   - "Спина, крылья и хвост тёмно-аспидно-серые"
 similar:
   - id: atlapetes-fuscoolivaceus
@@ -30,7 +31,7 @@ en:
   key_features:
     - "Black head with a broad white stripe from crown to nape"
     - "Bright yellow throat, sharply set off from the black head"
-    - "Gray breast and belly, flanks washed olive"
+    - "Whitish-gray breast and belly, olive-gray flanks and vent"
     - "Back, wings and tail dark slate-gray"
   similar:
     - id: atlapetes-fuscoolivaceus

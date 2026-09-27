@@ -2,6 +2,7 @@
 id: geothlypis-philadelphia
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Серый капюшон на голове и шее, спускается до груди"
   - "У самца на нижнем крае капюшона чёрное пятно, как креп"
@@ -9,7 +10,7 @@ key_features:
   - "Спина оливковая, брюхо и подхвостье ярко-жёлтые, ноги розоватые"
 similar:
   - id: oporornis-agilis
-    how: "полное широкое белое кольцо вокруг глаза, ходит по земле шагом; мигрирует в основном восточнее Анд"
+    how: "полное белое кольцо вокруг глаза, у молодых грудь беловатее; ходит по земле шагом, покачивая хвостом; зимует южнее, в Амазонии"
   - id: cardellina-canadensis
     how: "спина серая, а не оливковая, на жёлтой груди «ожерелье» из пестрин, жёлтые очки"
 behavior: "Зимует в густом подросте вторичного леса, в зарослях на опушках и вырубках. Держится у самой земли, скрытно, и редко показывается на открытом месте."
@@ -35,7 +36,7 @@ en:
     - "Olive back, bright yellow belly and undertail, pinkish legs"
   similar:
     - id: oporornis-agilis
-      how: "a complete bold white eye ring, walks on the ground; migrates mostly east of the Andes"
+      how: "a complete white eye ring, young birds whiter on the breast; walks on the ground, bobbing its tail; winters farther south, in Amazonia"
     - id: cardellina-canadensis
       how: "gray rather than olive back, a streaked 'necklace' on the yellow breast, yellow spectacles"
   behavior: "Winters in dense second growth, in thickets at edges and in clearings. Keeps right on the ground, skulking, and rarely comes into the open."

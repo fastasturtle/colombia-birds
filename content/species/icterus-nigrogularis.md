@@ -2,6 +2,7 @@
 id: icterus-nigrogularis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ярко-жёлтый, чёрные уздечка и нагрудник от подбородка до верха груди"
   - "Крылья чёрные, на сложенном крыле белое пятно и светлые каёмки маховых"
@@ -13,7 +14,7 @@ similar:
   - id: icterus-icterus
     how: "не жёлтый, а оранжевый, голова целиком чёрная, глаз в пятне голой голубой кожи"
 behavior: "Живёт в сухих полуоткрытых местах: колючие кустарники, светлые леса, парки, сады, края мангров. Кормится насекомыми, плодами и нектаром, поодиночке, парами или семейными группами; висячее гнездо-мешок часто вешает над водой."
-voice: "Мелодичные свистовые фразы и резкое «чек»; голос в поле знаем плохо."
+voice: "Песня — отрывистая серия коротких мелодичных фраз вроде «тур-а-лит, тур-свит, туур… твит, твит»; на рассвете к ним добавляются резкие высокие ноты. Позыв — резкое «ка-чек», повторяемое раз за разом."
 traits:
   size: thrush
   colors: [yellow, black]
@@ -38,7 +39,7 @@ en:
     - id: icterus-icterus
       how: "orange rather than yellow, whole head black, eye in a patch of bare blue skin"
   behavior: "Lives in dry semi-open country: thorn scrub, open woodland, parks, gardens and mangrove edges. Feeds on insects, fruit and nectar, singly, in pairs or family groups; the hanging bag nest is often placed over water."
-  voice: "Melodious whistled phrases and a sharp 'chek'; the voice is not well covered by our sources."
+  voice: "The song is a detached series of short musical phrases such as 'tur-a-leet, tur-sweet, tuur… tweet, tweet'; the dawn song adds harsh, high notes. One call is a sharp 'ka-chek', repeated over and over."
 ---
 Yellow Oriole (иволговый трупиал) — трупиал сухих низин севера Южной Америки: в Колумбии это карибские равнины, среднее течение Магдалены и льянос, до 300–500 м. Вид охотно держат в клетках. Среди колумбийских жёлтых трупиалов его проще всего узнать по белому на чёрном крыле.
 

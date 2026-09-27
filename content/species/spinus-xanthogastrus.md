@@ -2,6 +2,7 @@
 id: spinus-xanthogastrus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец блестяще-чёрный: голова, горло, грудь и весь верх"
   - "Низ груди и брюхо самца ярко-жёлтые, резко отделены от чёрного"
@@ -13,7 +14,7 @@ similar:
   - id: spinus-spinescens
     how: "у самца чёрная только шапочка, спина оливковая, грудь оливково-жёлтая"
 behavior: "Держится на опушках влажного леса, полянах с отдельными деревьями, высокогорных пастбищах и кофейных плантациях. Кормится семенами; вне сезона гнездования кочует стайками до 30 птиц."
-voice: "Быстрое мелодичное щебетание с трелями; позыв — тонкое носовое «твии»."
+voice: "Песня — быстрый, будто случайный поток щебета, жужжащих нот и музыкального бормотания, с тонкими высокими и низкими гнусавыми звуками; позывы — тонкое «пии» или «пьии» и более резкое «бзии»."
 traits:
   size: sparrow
   colors: [black, yellow]
@@ -37,7 +38,7 @@ en:
     - id: spinus-spinescens
       how: "male has only a black cap, olive back, olive-yellow breast"
   behavior: "Keeps to humid forest edges, clearings with scattered trees, high pastures and coffee plantations. Feeds on seeds; outside the breeding season it wanders in flocks of up to 30."
-  voice: "A fast melodious twittering with trills; the call is a thin nasal 'tweee'."
+  voice: "The song is a fast, almost random-sounding stream of twitters, buzzy notes and musical sputterings, mixing thin high notes with low nasal ones; calls are a thin 'pee' or 'pyee' and a harsher 'bziee'."
 ---
 Yellow-bellied Siskin (желтобрюхий чиж) — чиж горных опушек и пастбищ, в Колумбии примерно на 1 000–3 000 м, чаще всего на 1 400–2 000 м. Самец похож на чёрного чижа, которого окунули брюхом в жёлтую краску: чёрная грудь резко обрывается над ярко-жёлтым брюхом. Вид кочует и появляется то тут, то там, в зависимости от семян.
 

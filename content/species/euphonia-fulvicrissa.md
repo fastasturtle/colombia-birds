@@ -2,10 +2,11 @@
 id: euphonia-fulvicrissa
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Жёлтое пятно на лбу самца маленькое, доходит только до глаза"
   - "Голова, горло и верх самца иссиня-чёрные, у нариньской формы с фиолетовым отливом"
-  - "Грудь и бока самца золотисто-жёлтые, брюхо и подхвостье коричневато-рыжие"
+  - "Грудь и бока самца золотисто-жёлтые, брюхо и подхвостье с коричным, рыжеватым оттенком"
   - "Самка оливковая, лоб рыжий, центр брюха и подхвостье рыжие"
 similar:
   - id: euphonia-xanthogaster
@@ -29,7 +30,7 @@ en:
   key_features:
     - "Male's yellow forehead patch small, reaching only to the eye"
     - "Male's head, throat and upperparts blue-black, with a purple gloss in the Nariño form"
-    - "Male's breast and sides golden-yellow, belly and undertail tawny-rufous"
+    - "Male's breast and sides golden-yellow, belly and undertail washed cinnamon"
     - "Female olive, with a rufous forehead, belly centre and undertail"
   similar:
     - id: euphonia-xanthogaster

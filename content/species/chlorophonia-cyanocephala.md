@@ -2,6 +2,7 @@
 id: chlorophonia-cyanocephala
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя и затылок самца бирюзово-голубые, заходят вниз за щеку"
   - "Лицо и горло самца чёрные, спина сине-чёрная с блеском"
@@ -9,11 +10,11 @@ key_features:
   - "Самка оливково-зелёная, с такой же голубой шапочкой и рыжеватым лбом"
 similar:
   - id: euphonia-xanthogaster
-    how: "шапочка жёлтая, а не голубая, поясница тёмная"
+    how: "лоб и перед темени жёлтые, голубого на голове нет, поясница тёмная"
   - id: euphonia-laniirostris
     how: "шапочка и горло жёлтые, голубого на голове нет"
 behavior: "Держится парами и небольшими группами на опушках, во вторичном лесу, в нарушенных местах и на тенистых кофейных плантациях. Кормится почти только плодами, больше всего ягодами омелы; в смешанные стаи вступает редко и иногда кочует вслед за урожаем."
-voice: "Тихие свисты и щебет; голос в поле знаем плохо."
+voice: "Песня — быстрый сложный поток щебечущих и писклявых нот с низкими «чуп», до 10 секунд; позыв — мягкий, слегка нисходящий свист «чиир»."
 traits:
   size: sparrow
   colors: [yellow, black, blue]
@@ -34,11 +35,11 @@ en:
     - "Female olive-green, with the same blue cap and a tawny forehead"
   similar:
     - id: euphonia-xanthogaster
-      how: "cap yellow rather than blue, rump dark"
+      how: "forehead and forecrown yellow, no blue on the head, rump dark"
     - id: euphonia-laniirostris
       how: "yellow cap and throat, no blue on the head"
   behavior: "Keeps in pairs and small groups at edges, in secondary forest, disturbed areas and shade-coffee plantations. Feeds almost only on fruit, above all mistletoe berries; rarely joins mixed flocks and sometimes wanders after fruit crops."
-  voice: "Soft whistles and twitters; the voice is not well covered by our sources."
+  voice: "The song is a fast, complex stream of twittering and squeaky notes mixed with low 'chup' notes, up to 10 seconds long; the call is a soft, slightly descending whistled 'cheeer'."
 ---
 Golden-rumped Euphonia (синеголовая эуфония) — единственная эуфония маршрута с голубой шапочкой; по современной систематике её относят к органистам. В Колумбии живёт в горах, в основном на 1 200–3 000 м, и заметно кочует за плодоносящими кустами омелы, иногда спускаясь ниже.
 

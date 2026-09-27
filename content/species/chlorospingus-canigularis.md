@@ -2,6 +2,7 @@
 id: chlorospingus-canigularis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова серая, щёки чуть темнее, белого пятна за глазом нет"
   - "Горло серовато-белое, поперёк груди широкая бледно-жёлтая полоса"
@@ -9,7 +10,7 @@ key_features:
   - "Глаз тёмный, красновато-бурый; держится выше других дромников, в кронах"
 similar:
   - id: chlorospingus-flavopectus
-    how: "на тёмной буроватой голове белое пятно за глазом; кормится обычно ниже, в подлеске"
+    how: "горло беловатое, а не пепельное, жёлтая полоса на груди уже; кормится обычно ниже, в подлеске и среднем ярусе"
 behavior: "Держится парами и группами до десяти птиц в кронах и на опушках влажного мшистого леса, обычно в смешанных стаях. Кормится плодами и насекомыми."
 voice: "Несколько отрывистых «цук», переходящих в сухую трель, которая поднимается, опускается и снова поднимается к концу; позыв — сухое металлическое «тик»."
 traits:
@@ -31,16 +32,16 @@ en:
     - "Dark reddish-brown eye; keeps higher than other chlorospinguses, in the canopy"
   similar:
     - id: chlorospingus-flavopectus
-      how: "dark brownish head with a white spot behind the eye; usually feeds lower, in the understory"
+      how: "throat whitish rather than ashy, yellow breast band narrower; usually feeds lower, in the understory and mid-levels"
   behavior: "Keeps in pairs and groups of up to ten in the canopy and at edges of wet mossy forest, usually with mixed flocks. Feeds on fruit and insects."
   voice: "A few clipped 'tsuk' notes running into a dry trill that rises, falls and rises again at the end; the call is a dry metallic 'tik'."
 ---
 Ashy-throated Chlorospingus (серогорлый дромник) — скромная серо-оливковая птица влажного леса Анд, в Колумбии в основном на 1 200–2 000 м. В районе Боготы живёт номинативный подвид, на западном склоне Восточной Кордильеры. В отличие от большинства дромников, он кормится в кронах и на опушках, поэтому снизу видны прежде всего светлое горло и жёлтая полоса на груди.
 
-На маршруте он «возможно» в Чикаке 3 октября и 23–24 октября, у нижней границы его высот, в смешанных стаях вместе с Common Chlorospingus. Проверяй в стае каждую серую голову: нет белого пятна за глазом — это серогорлый.
+На маршруте он «возможно» в Чикаке 3 октября и 23–24 октября, у верхней границы его высот, в смешанных стаях вместе с Common Chlorospingus. Проверяй в стае каждого дромника в кронах: пепельное горло и широкая бледно-жёлтая полоса на груди — это серогорлый.
 
 ## English
 
 Ashy-throated Chlorospingus is a modest gray-and-olive bird of humid Andean forest, in Colombia mostly at 1,200–2,000 m. Around Bogotá the nominate subspecies lives on the west slope of the Eastern Andes. Unlike most chlorospinguses it feeds in the canopy and at edges, so from below you mainly see the pale throat and the yellow breast band.
 
-On the route it is "maybe" at Chicaque on 3 October and 23–24 October, at the lower edge of its range, in mixed flocks together with Common Chlorospingus. Check every gray head in a flock: no white spot behind the eye means this species.
+On the route it is "maybe" at Chicaque on 3 October and 23–24 October, at the upper edge of its range, in mixed flocks together with Common Chlorospingus. Check every chlorospingus in the canopy: an ashy throat and a broad pale yellow breast band mean this species.

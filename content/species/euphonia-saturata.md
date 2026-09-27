@@ -2,6 +2,7 @@
 id: euphonia-saturata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка самца оранжево-жёлтая, ото лба до заднего края темени"
   - "Лицо, горло и верх самца блестящие иссиня-чёрные с фиолетовым отливом"
@@ -9,7 +10,7 @@ key_features:
   - "Самка ровно оливковая, снизу оливково-жёлтая, без серого"
 similar:
   - id: euphonia-xanthogaster
-    how: "шапочка жёлтая, а не оранжевая, низ жёлтый, охристый только на брюхе; держится внутри влажного леса"
+    how: "жёлтый лоб лишь немного заходит за глаз, а не оранжевая шапочка до затылка; низ жёлтый, охристый только на брюхе; держится во влажном лесу"
   - id: euphonia-laniirostris
     how: "горло жёлтое, как вся грудь, низ ярко-жёлтый, без оранжевого"
 behavior: "Держится в полуоткрытых местах: светлые и листопадные леса, опушки, поляны с отдельными деревьями, парки. Поодиночке или парами кормится мелкими ягодами в верхушках деревьев, иногда в смешанных стаях."
@@ -33,7 +34,7 @@ en:
     - "Female plain olive, olive-yellow below, no gray"
   similar:
     - id: euphonia-xanthogaster
-      how: "cap yellow rather than orange, underparts yellow with ochre only on the belly; keeps inside humid forest"
+      how: "a yellow forehead patch reaching just past the eye, not an orange cap to the nape; underparts yellow with ochre only on the belly; keeps to humid forest"
     - id: euphonia-laniirostris
       how: "throat yellow like the whole breast, underparts bright yellow without orange"
   behavior: "Keeps to semi-open country: open and deciduous woodland, edges, clearings with scattered trees, parks. Singly or in pairs it feeds on small berries in treetops, sometimes with mixed flocks."
