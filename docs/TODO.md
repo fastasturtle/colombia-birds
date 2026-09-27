@@ -35,7 +35,7 @@
 - [ ] Деплой на GitHub Pages (workflow готов, нужно: Settings → Pages → Source = GitHub Actions, слить в main)
 - [ ] Показ фото из R2 (после загрузки)
 - [ ] PWA: service worker вручную (плагин не поддерживает Astro 7), карта маршрута уже статичная (SVG, без тайлов)
-- [ ] Ареал вида на нашей SVG-карте: GBIF occurrence API (`facet=gadmGid` по департаментам или hex-биннинг `api.gbif.org/v2/map` в MVT) → закрашивать департаменты/гексы на `basemap.json` с той же проекцией; кэшировать в `data/ranges/<slug>.json`, показывать на карточке вида
+- [ ] Ареал вида на нашей SVG-карте. Сначала попробовать экспертные полигоны Vélez et al. 2021 «Distribution of birds in Colombia» (BDJ 9:e59202, CC BY 4.0, 1 889 видов): найти шейпфайлы (дополнения статьи / SiB Colombia / Zenodo 4533435), упростить, спроецировать как basemap. Fallback: GBIF occurrence API (`facet=gadmGid` по департаментам или hex-биннинг `api.gbif.org/v2/map` в MVT) → закрашивать департаменты/гексы на `basemap.json` с той же проекцией; кэшировать в `data/ranges/<slug>.json`, показывать на карточке вида
 - [ ] Страница региона: виды по высотному поясу и биотопу
 - [ ] Определитель по признакам: семейство × регион × высота × биотоп × размер
 - [ ] Страницы «похожие виды» из `content/similar/`
