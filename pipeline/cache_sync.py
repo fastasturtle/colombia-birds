@@ -2,8 +2,14 @@
 
   uv run python cache_sync.py pull     # download cached responses missing locally
   uv run python cache_sync.py push     # upload new/changed local files, update the manifest
+  uv run python cache_sync.py status   # upload pipeline/cache/status.json to status/pipeline.json
+  uv run python cache_sync.py status --note "(finished)"   # ... with the note appended to `message`
   add --dry-run to print the plan without transferring anything (works without R2 credentials:
   the remote side is then assumed empty)
+
+`status` publishes the live run status written by common.status() (ci_run.sh calls it every 60 s):
+public URL https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json. The local file
+is never modified; pull/push skip it.
 
 The remote manifest cache/http/_manifest.json maps relpath -> {"sha1", "size"}, so neither command
 lists thousands of keys; if it is missing, pull/push fall back to list_objects_v2 once (sha1 then
@@ -33,12 +39,13 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import CACHE, atomic_write, env, log, r2_client  # noqa: E402
+from common import CACHE, STATUS_PATH, atomic_write, env, log, r2_client  # noqa: E402
 
 PREFIX = "cache/http/"
 MANIFEST_KEY = PREFIX + "_manifest.json"
 HASHES = CACHE / ".sync_hashes.json"
-SKIP_TOP = {"media"}
+SKIP_TOP = {"media", STATUS_PATH.name}  # status.json is published by `status`, not cached
+STATUS_KEY = "status/pipeline.json"
 WORKERS = 32
 
 
@@ -194,13 +201,37 @@ def push(s3, bucket: str, dry: bool, root: Path = CACHE) -> int:
     return 1 if failed else 0
 
 
+def status(s3, bucket: str, dry: bool, note: str = "") -> int:
+    """Upload STATUS_PATH (with `note` appended to its message) to STATUS_KEY. No file: nothing to do."""
+    try:
+        st = json.loads(STATUS_PATH.read_text())
+    except FileNotFoundError:
+        log(f"cache_sync status: no {STATUS_PATH.name} yet")
+        return 0
+    if note:
+        st["message"] = f"{st.get('message', '')} {note}".strip()
+    body = json.dumps(st, ensure_ascii=False, indent=1).encode()
+    if dry:
+        log(f"cache_sync status: would upload {len(body)} bytes to {STATUS_KEY}:\n{body.decode()}")
+        return 0
+    s3.put_object(Bucket=bucket, Key=STATUS_KEY, Body=body, ContentType="application/json",
+                  CacheControl="no-cache")
+    log(f"cache_sync status: {st.get('message', '')}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    ap.add_argument("command", choices=["pull", "push"])
+    ap.add_argument("command", choices=["pull", "push", "status"])
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--note", default="", help="status: text appended to the uploaded message")
     a = ap.parse_args()
+    if a.command == "status" and a.dry_run:
+        return status(None, "", True, a.note)  # no R2 needed to show the payload
     s3 = client(a.dry_run)
     bucket = env("R2_BUCKET")
+    if a.command == "status":
+        return status(s3, bucket, a.dry_run, a.note)
     return (pull if a.command == "pull" else push)(s3, bucket, a.dry_run)
 
 

@@ -43,7 +43,7 @@ from PIL import Image, ImageOps
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import (  # noqa: E402
     CACHE, DATA, SPECIES_DIR, env, fmt_elapsed, get, log, only_slugs, r2_client, read_json, sigterm_as_interrupt,
-    time_up, write_json,
+    status, time_up, write_json,
 )
 
 PHOTOS = DATA / "photos"
@@ -259,8 +259,9 @@ def main() -> None:
             index_dirty = False
 
     def progress() -> None:
-        log(f"upload: {seen}/{total} species, {Stats.uploaded} files uploaded, {Stats.skipped} skipped-existing, "
-            f"{Stats.bytes / 1e6:.0f} MB, elapsed {fmt_elapsed()} (step {(time.monotonic() - t0) / 60:.0f}m)")
+        status("upload", seen, total, f"upload: {seen}/{total} species, {Stats.uploaded} files uploaded, "
+               f"{Stats.skipped} skipped-existing, {Stats.bytes / 1e6:.0f} MB, elapsed {fmt_elapsed()} "
+               f"(step {(time.monotonic() - t0) / 60:.0f}m)")
 
     try:
         for slug in order:
@@ -295,9 +296,9 @@ def main() -> None:
         save_index()
 
     progress()
-    log(f"upload: {n_species} species, {n_photos} photos"
-        + (" (dry run, nothing uploaded)" if dry else
-           f", {Stats.uploaded} objects uploaded, {Stats.restored} photos restored from R2 without download"))
+    status("upload", seen, total, f"upload: {n_species} species, {n_photos} photos"
+           + (" (dry run, nothing uploaded)" if dry else
+              f", {Stats.uploaded} objects uploaded, {Stats.restored} photos restored from R2 without download"))
 
 
 if __name__ == "__main__":

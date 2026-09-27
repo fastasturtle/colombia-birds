@@ -33,7 +33,7 @@ from urllib.parse import unquote, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import (  # noqa: E402
-    DATA, SPECIES_DIR, fmt_elapsed, get_json, log, only_slugs, read_json, time_up, write_json,
+    DATA, SPECIES_DIR, fmt_elapsed, get_json, log, only_slugs, read_json, status, time_up, write_json,
 )
 
 PHOTOS = DATA / "photos"
@@ -439,8 +439,8 @@ def main() -> None:
             continue
         seen += 1
         if seen % 100 == 0:
-            log(f"photos: {seen}/{total} species, {done} fetched, {skipped} skipped-complete, {failed} failed, "
-                f"elapsed {fmt_elapsed()}")
+            status("photos", seen, total, f"photos: {seen}/{total} species, {done} fetched, {skipped} skipped-complete, {failed} failed, "
+                   f"elapsed {fmt_elapsed()}")
         out_path = PHOTOS / f"{f.stem}.json"
         prev = read_json(out_path, {})
         if (not refresh and not only and prev and prev.get("ranking") == RANKING_VERSION
@@ -462,6 +462,7 @@ def main() -> None:
         done += 1
 
     # summary over everything on disk
+    seen_total = (seen, total)
     total = with_any = 0
     by_source = {"commons": 0, "inaturalist": 0}
     for p in PHOTOS.glob("*.json"):
@@ -471,8 +472,8 @@ def main() -> None:
         with_any += bool(srcs)
         for s in srcs:
             by_source[s] = by_source.get(s, 0) + 1
-    log(f"photos: processed {done} this run; {with_any}/{total} species have >=1 candidate "
-        f"(commons {by_source['commons']}, inaturalist {by_source['inaturalist']})")
+    status("photos", *seen_total, f"photos: processed {done} this run; {with_any}/{total} species have >=1 "
+           f"candidate (commons {by_source['commons']}, inaturalist {by_source['inaturalist']})")
 
 
 if __name__ == "__main__":

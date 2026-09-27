@@ -96,6 +96,23 @@ job 330), so long runs stop cleanly and the final commit always has time; re-dis
   `common.atomic_write` / `write_json` / `write_text`), so a snapshot never holds a half-written file;
   `*.tmp` is gitignored.
 
+- **Live status.** GitHub shows a job's log only after it ends, so progress is published separately.
+  Every progress line of `run.py` (step started/finished/failed, the periodic `wikipedia`/`photos`/`upload`
+  lines, their final summaries, "stopped early") also goes through `common.status()`, which rewrites
+  `pipeline/cache/status.json` atomically: `{run_id (GITHUB_RUN_ID or "local"), steps, step, done, total,
+  message, elapsed, started, updated (ISO UTC), history (last 20 lines)}`. `ci_run.sh` uploads it every
+  60 s (`STATUS_SECONDS`) with `cache_sync.py status` to R2 `status/pipeline.json` (no-cache), once more
+  when `run.py` exits (message + "(finished)" / "(exit N)") and in the final commit step
+  ("(finished: run <outcome>, commit exit N)"). The Python process itself never talks to R2 for this.
+
+  ```sh
+  curl -s https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json
+  ```
+
+  Locally the same file is written with no upload: `cat pipeline/cache/status.json` (or
+  `watch -n 30 cat pipeline/cache/status.json`) during e.g. `run.py photos --max-minutes 30`;
+  `cache_sync.py status --dry-run` prints what would be uploaded. `cache_sync.py push/pull` skip it.
+
 ## Rate limits
 
 - **Wikimedia (Wikipedia, Commons, Wikidata)** blocks shared/cloud IPs quickly (HTTP 403/429). Dev

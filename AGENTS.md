@@ -55,3 +55,4 @@
   (Wikipedia, обязательна атрибуция при заимствовании) и `data/species/<slug>.json`.
 - Добавить пару «похожие виды»: `content/similar/<slug-a>--<slug-b>.md`.
 - Загрузить фото для набора видов: Actions → pipeline → steps `photos upload`, `only` = слаги.
+- Прогресс пайплайна в CI: `curl -s https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json` (обновляется раз в минуту; локально `pipeline/cache/status.json`, см. `pipeline/README.md`).

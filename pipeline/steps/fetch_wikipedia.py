@@ -13,7 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import (  # noqa: E402
-    DATA, SPECIES_DIR, fmt_elapsed, get_json, log, only_slugs, read_json, time_up, write_json,
+    DATA, SPECIES_DIR, fmt_elapsed, get_json, log, only_slugs, read_json, status, time_up, write_json,
 )
 
 TEXTS = DATA / "texts"
@@ -118,10 +118,10 @@ def main() -> None:
             skipped += 1
         done += 1
         if done % 100 == 0:
-            log(f"wikipedia: {done}/{total} species, {fetched} updated, {skipped} unchanged/skipped, "
-                f"elapsed {fmt_elapsed()}")
+            status("wikipedia", done, total, f"wikipedia: {done}/{total} species, {fetched} updated, "
+                   f"{skipped} unchanged/skipped, elapsed {fmt_elapsed()}")
     n = sum(1 for _ in TEXTS.glob("*.json"))
-    log(f"wikipedia: texts for {n} species")
+    status("wikipedia", done, total, f"wikipedia: texts for {n} species ({done}/{total} processed this run)")
 
 
 if __name__ == "__main__":

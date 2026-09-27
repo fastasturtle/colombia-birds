@@ -7,6 +7,8 @@ import os
 import re
 import time
 import unicodedata
+from collections import deque
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -209,8 +211,46 @@ def time_up(step: str) -> bool:
         return False
     if step not in _stop_logged:
         _stop_logged.add(step)
-        log(f"{step}: stopped early after {limit} minutes (MAX_MINUTES), resume by re-running")
+        status(step, None, None, f"{step}: stopped early after {limit} minutes (MAX_MINUTES), resume by re-running")
     return True
+
+
+# ---- Live status file for watching a run from outside (CI logs only appear after the job ends) ----
+# status() prints a progress line (like log) and rewrites pipeline/cache/status.json atomically: a few
+# hundred bytes, only at progress lines (every 25-100 species), so it costs nothing. The file never
+# leaves the machine from here: in CI, ci_run.sh uploads it every 60 s via `cache_sync.py status` to R2
+# `status/pipeline.json` (public: https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json).
+# Locally just `cat pipeline/cache/status.json`. cache_sync.py push/pull skip it.
+STATUS_PATH = CACHE / "status.json"
+_STARTED_AT = datetime.now(timezone.utc)
+_history: deque[str] = deque(maxlen=20)
+
+
+def _iso(t: datetime) -> str:
+    return t.isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def status(step: str, done: int | None, total: int | None, message: str, *, echo: bool = True) -> None:
+    """Log `message` (unless echo=False) and record it in STATUS_PATH with the step's done/total counts."""
+    if echo:
+        log(message)
+    now = datetime.now(timezone.utc)
+    _history.append(f"{now:%H:%M:%S} {message}")
+    try:
+        write_json(STATUS_PATH, {
+            "run_id": os.environ.get("GITHUB_RUN_ID") or "local",
+            "steps": os.environ.get("STEPS", ""),
+            "step": step,
+            "done": done,
+            "total": total,
+            "message": message,
+            "elapsed": fmt_elapsed(),
+            "started": _iso(_STARTED_AT),
+            "updated": _iso(now),
+            "history": list(_history),
+        })
+    except OSError:  # a status file must never break the pipeline
+        pass
 
 
 def post_form(

@@ -71,7 +71,10 @@ jobs:
       # ci_run.sh runs run.py and, every 20 minutes while it runs, commits+pushes data/ progress (and
       # dispatches deploy.yml on main) and pushes the HTTP cache to R2, so a cancelled or crashed run
       # loses at most 20 minutes. Intermediate flush failures only warn.
+      # Live progress (GitHub shows logs only after the job): ci_run.sh also uploads
+      # pipeline/cache/status.json every 60 s to https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json
       - name: Run pipeline
+        id: run
         working-directory: pipeline
         # hard stop only; MAX_MINUTES (270) normally ends the run first. 30 min left for the final flush.
         timeout-minutes: 300
@@ -90,11 +93,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           DEPLOY: "1"
+          RUN_OUTCOME: ${{ steps.run.outcome }}
         run: |
           git status --short > "$RUNNER_TEMP/status.txt"
           echo "--- git status after the run ($(wc -l < "$RUNNER_TEMP/status.txt") paths; first 50):"
           head -50 "$RUNNER_TEMP/status.txt"
-          pipeline/ci_commit.sh "data: pipeline run ($STEPS)"
+          rc=0
+          pipeline/ci_commit.sh "data: pipeline run ($STEPS)" || rc=$?
+          (cd pipeline && uv run python cache_sync.py status --note "(finished: run $RUN_OUTCOME, commit exit $rc)") ||
+            echo "::warning::status upload failed"
+          exit "$rc"
 
       - name: Push HTTP cache to R2
         if: always()

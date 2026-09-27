@@ -58,14 +58,26 @@ if unknown:
     sys.exit(f"unknown step(s): {', '.join(unknown)}; known: {', '.join(FILES)}")
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import sigterm_as_interrupt  # noqa: E402  (also starts the MAX_MINUTES clock)
+os.environ.setdefault("STEPS", " ".join(steps))  # recorded in the status file (CI sets it itself)
+from common import fmt_elapsed, sigterm_as_interrupt, status  # noqa: E402  (also starts the MAX_MINUTES clock)
 
 sigterm_as_interrupt()
 if os.environ.get("MAX_MINUTES"):
     print(f"time budget: {os.environ['MAX_MINUTES']} minutes (MAX_MINUTES)", flush=True)
 
-for s in steps:
+# Each step start/finish (and failure) also lands in pipeline/cache/status.json (common.status).
+for i, s in enumerate(steps, 1):
     print(f"=== {s}", flush=True)
+    status(s, None, None, f"{s}: started (step {i}/{len(steps)})", echo=False)
     script = Path(__file__).parent / "steps" / FILES[s]
     sys.argv = [str(script)]  # steps must not see run.py's arguments as their own
-    runpy.run_path(str(script), run_name="__main__")
+    try:
+        runpy.run_path(str(script), run_name="__main__")
+    except SystemExit as e:  # sys.exit() in a step ends the whole run, as before
+        done = f"finished (step {i}/{len(steps)}, elapsed {fmt_elapsed()})" if not e.code else f"exited with {e.code!r}"
+        status(s, None, None, f"{s}: {done}", echo=False)
+        raise
+    except BaseException as e:
+        status(s, None, None, f"{s}: failed ({type(e).__name__}: {str(e)[:150]}) after {fmt_elapsed()}")
+        raise
+    status(s, None, None, f"{s}: finished (step {i}/{len(steps)}, elapsed {fmt_elapsed()})", echo=False)
