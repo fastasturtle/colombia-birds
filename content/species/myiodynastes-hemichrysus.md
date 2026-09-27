@@ -1,5 +1,5 @@
 ---
-id: myiodynastes-chrysocephalus
+id: myiodynastes-hemichrysus
 difficulty: medium
 lynx_page: null
 key_features:

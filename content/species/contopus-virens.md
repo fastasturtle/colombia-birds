@@ -11,7 +11,7 @@ key_features:
 similar:
   - id: contopus-sordidulus
     how: "внешне почти неотличим, чуть темнее и серее; надёжно отличается только песней"
-  - id: contopus-cinereus
+  - id: contopus-bogotensis
     how: "мельче, крылья короче, уздечка беловатая, часто заметно тонкое светлое кольцо вокруг глаза; оседлый"
   - id: empidonax-alnorum
     how: "мельче, с узким светлым кольцом вокруг глаза, крылья короче, часто подёргивает хвостом"
@@ -39,7 +39,7 @@ en:
   similar:
     - id: contopus-sordidulus
       how: "almost identical, slightly darker and grayer; reliably separated only by song"
-    - id: contopus-cinereus
+    - id: contopus-bogotensis
       how: "smaller, shorter-winged, whitish lores and often a thin pale eye ring; resident"
     - id: empidonax-alnorum
       how: "smaller, with a narrow pale eye ring, shorter wings, often flicks its tail"

@@ -11,7 +11,7 @@ key_features:
 similar:
   - id: leptopogon-rufipectus
     how: "лицо, горло и грудь рыжие; живёт выше, от 1 600 м"
-  - id: mionectes-olivaceus
+  - id: mionectes-galbinus
     how: "лицо и грудь в частых оливковых и белых пестринах, за глазом белое пятнышко, чёрного полумесяца на щеке нет"
 behavior: "Держится в среднем ярусе и под пологом влажного леса и на опушках, поодиночке или парами, часто в смешанных стаях. Сидит прямо, высматривает добычу и коротким подлётом срывает насекомых и ягоды с листьев."
 voice: "Резкое «пик-тррр» — отрывистая нота с быстрой трелью — и отдельные громкие «пит»."
@@ -37,7 +37,7 @@ en:
   similar:
     - id: leptopogon-rufipectus
       how: "rufous face, throat and breast; lives higher, from 1,600 m"
-    - id: mionectes-olivaceus
+    - id: mionectes-galbinus
       how: "face and breast densely streaked olive and white, a white spot behind the eye, no black crescent on the cheek"
   behavior: "Keeps in the midstory and subcanopy of humid forest and along edges, singly or in pairs, often with mixed flocks. Perches upright, watches, and snatches insects and berries from leaves in a short sally."
   voice: "A sharp 'pik-trrr', an abrupt note followed by a fast trill, and single loud 'pit' notes."

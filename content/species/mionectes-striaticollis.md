@@ -8,7 +8,7 @@ key_features:
   - "Голова серая, у птиц западного склона Нариньо — оливковая; спина тёмно-оливковая"
   - "Клюв тонкий, тёмный, с розоватым основанием подклювья"
 similar:
-  - id: mionectes-olivaceus
+  - id: mionectes-galbinus
     how: "голова оливковая, пестрины на горле и груди оливково-жёлтые, а не белые на сером; держится ниже"
   - id: leptopogon-superciliaris
     how: "шапочка серая, но лицо светлое с чёрным полумесяцем на щеке, на крыле две полосы"
@@ -33,7 +33,7 @@ en:
     - "Gray head, olive in birds of the west slope of Nariño; dark olive back"
     - "Thin dark bill with a pinkish base to the lower mandible"
   similar:
-    - id: mionectes-olivaceus
+    - id: mionectes-galbinus
       how: "olive head, throat and breast streaked olive and yellow rather than white on gray; keeps lower"
     - id: leptopogon-superciliaris
       how: "gray cap, but a pale face with a black crescent on the cheek and two wing bars"

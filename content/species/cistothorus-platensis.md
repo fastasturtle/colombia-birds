@@ -11,7 +11,7 @@ key_features:
 similar:
   - id: cistothorus-apolinari
     how: "крупнее, шапочка каштановая без штрихов, лицо серо-бурое, хвост рыжий; живёт в тростниках озёр у Боготы"
-  - id: troglodytes-aedon
+  - id: troglodytes-musculus
     how: "спина ровная бурая, без пестрин; держится у домов, в садах и кустах"
 behavior: "Прячется в высокой траве, осоке и низких кустах сырых лугов и парамо; перелетает низко над травой и сразу ныряет вниз."
 voice: "Серии коротких высоких нот: трели, трещотки, воробьиное «тр-тр-тр-тр» и носовое «зэ-зэ-зэ»."
@@ -37,7 +37,7 @@ en:
   similar:
     - id: cistothorus-apolinari
       how: "larger, unstreaked chestnut crown, gray-brown face, reddish tail; lives in lakeside reeds near Bogotá"
-    - id: troglodytes-aedon
+    - id: troglodytes-musculus
       how: "plain brown back without streaks; keeps to houses, gardens and shrubs"
   behavior: "Hides in tall grass, sedge and low shrubs of wet meadows and páramo; flies low over the grass and drops straight back in."
   voice: "Series of short high notes: trills, rattles, a sparrow-like 'tr-tr-tr-tr' and a nasal 'zeh-zeh-zeh'."

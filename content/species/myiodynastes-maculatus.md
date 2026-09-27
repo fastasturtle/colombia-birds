@@ -10,7 +10,7 @@ key_features:
 similar:
   - id: legatus-leucophaius
     how: "мельче, клюв короткий и тупой, спина однотонная, рыжего на хвосте нет"
-  - id: myiodynastes-chrysocephalus
+  - id: myiodynastes-hemichrysus
     how: "грудь желтоватая с размытым оливковым налётом, пестрин мало, хвост тёмный; живёт в горах выше 1 000 м"
 behavior: "Сидит в кронах и на высоких ветках по опушкам, в мангровых и садах с высокими деревьями, поодиночке или парами. Ловит крупных насекомых, от цикад до жуков, ест и плоды."
 voice: "Резкое носовое «бенк!» или «пенк!», похожее на голос дятла; на рассвете — звонкая переливчатая фраза."
@@ -35,7 +35,7 @@ en:
   similar:
     - id: legatus-leucophaius
       how: "smaller, short stubby bill, plain back, no rufous in the tail"
-    - id: myiodynastes-chrysocephalus
+    - id: myiodynastes-hemichrysus
       how: "yellowish breast with a cloudy olive wash and few streaks, dark tail; lives in the mountains above 1,000 m"
   behavior: "Perches in the canopy and on high branches along edges, in mangroves and in gardens with tall trees, singly or in pairs. Takes large insects, from cicadas to beetles, and also eats fruit."
   voice: "A sharp nasal 'benk!' or 'penk!', rather like a woodpecker; at dawn a ringing, warbled phrase."

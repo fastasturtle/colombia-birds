@@ -10,7 +10,7 @@ key_features:
 similar:
   - id: myiothlypis-coronata
     how: "крупнее, полоса по темени рыжая, лицо серое, без чёрной щеки"
-  - id: basileuterus-rufifrons
+  - id: basileuterus-delattrii
     how: "темя и щека каштаново-рыжие, горло и грудь ярко-жёлтые; держится в кустах и на опушках"
 behavior: "Держится парами и семейными группами в подлеске горного леса и регулярно ходит со смешанными стаями, суетливо обирая листья. Гнездо, крытое сверху, устраивает на земле или у самой земли."
 voice: "Взволнованное немелодичное щебетание из «цит»: середина фразы спускается, конец поднимается; стая всё время перекликается тонкими позывками."
@@ -35,7 +35,7 @@ en:
   similar:
     - id: myiothlypis-coronata
       how: "larger, rufous crown stripe, gray face, no black cheek"
-    - id: basileuterus-rufifrons
+    - id: basileuterus-delattrii
       how: "chestnut-rufous crown and cheek, bright yellow throat and breast; keeps to shrubs and edges"
   behavior: "Keeps in pairs and family groups in the understory of montane forest and regularly joins mixed flocks, busily gleaning leaves. It builds a domed nest on or just above the ground."
   voice: "An agitated, unmusical chipping of 'tsit' notes: the middle of the phrase descends and the end rises; the group keeps up a constant contact of thin calls."

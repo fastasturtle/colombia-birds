@@ -8,7 +8,7 @@ key_features:
   - "Горло и грудь охристые, бока в тёмных поперечных полосках"
   - "Хвост короткий, в узких чёрных полосках, часто вздёрнут"
 similar:
-  - id: troglodytes-aedon
+  - id: troglodytes-musculus
     how: "бровь слабая или незаметная, окраска серовато-бурая, без тёплых охристых щёк; держится у построек и в кустах на открытых местах"
   - id: henicorhina-leucophrys
     how: "грудь серая, бровь белая, щёки в чёрно-белых штрихах; кормится у самой земли"
@@ -32,7 +32,7 @@ en:
     - "Buffy throat and breast, flanks barred dark"
     - "Short tail with narrow black bars, often cocked"
   similar:
-    - id: troglodytes-aedon
+    - id: troglodytes-musculus
       how: "weak or no eyebrow, grayer brown without warm buffy cheeks; keeps around buildings and in open scrub"
     - id: henicorhina-leucophrys
       how: "gray breast, white eyebrow, black-and-white streaked cheeks; feeds right at the ground"

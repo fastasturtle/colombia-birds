@@ -10,7 +10,7 @@ key_features:
 similar:
   - id: myiozetetes-similis
     how: "бровь белая, маска тёмная, горло белое; держится ниже, в садах и у жилья"
-  - id: myiodynastes-chrysocephalus
+  - id: myiodynastes-hemichrysus
     how: "крупнее, бровь белая, лицо тёмное, на груди размытый оливковый налёт и пестринки"
 behavior: "Держится парами или семейками высоко в кронах по краям горного леса и на соседних вырубках, часто сидит на самой макушке дерева. Коротким перелётом снимает насекомых с листвы, ест и мелкие плоды."
 voice: "Своеобразное высокое носовое щебетание «уии-и-и-и», «уидидиди-ди», звучащее капризно и ворчливо."
@@ -35,7 +35,7 @@ en:
   similar:
     - id: myiozetetes-similis
       how: "white brow, dark mask, white throat; keeps lower, in gardens and near houses"
-    - id: myiodynastes-chrysocephalus
+    - id: myiodynastes-hemichrysus
       how: "larger, white brow, dark face, cloudy olive wash and streaks on the breast"
   behavior: "Keeps in pairs or family groups high in the canopy along montane forest edges and adjacent clearings, often on the very top of a tree. Gleans insects from foliage in short flights and also eats small fruit."
   voice: "An odd, high, nasal twittering 'whee-ee-ee-ee', 'wheedidididi-di', sounding petulant."
