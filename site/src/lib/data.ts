@@ -73,6 +73,37 @@ export function speciesIndex(): IndexEntry[] {
 export function families(): Family[] {
   return readJson<Family[]>('families.json');
 }
+/* ---- Informal field-guide groups above families (hand-authored data/groups.json) ---- */
+export interface Group {
+  id: string; name_ru: string; name_en: string; blurb_ru: string; blurb_en: string;
+  /** family codes (Family.code), in display order */
+  families: string[];
+}
+let _groups: Group[] | null = null;
+/** Bird groups in field-guide order; every family belongs to exactly one. */
+export function groups(): Group[] {
+  if (_groups) return _groups;
+  const gs = readJson<Group[]>('groups.json');
+  const seen = new Map<string, string>();
+  for (const g of gs) for (const c of g.families) {
+    if (seen.has(c)) throw new Error(`groups.json: family ${c} in both ${seen.get(c)} and ${g.id}`);
+    seen.set(c, g.id);
+  }
+  const missing = families().filter((f) => !seen.has(f.code)).map((f) => f.code);
+  if (missing.length) throw new Error(`groups.json: families without a group: ${missing.join(', ')}`);
+  return (_groups = gs);
+}
+let _groupOf: Map<string, Group> | null = null;
+/** The group a family code belongs to. */
+export function groupOfFamily(code: string): Group | null {
+  _groupOf ??= new Map(groups().flatMap((g) => g.families.map((c) => [c, g] as const)));
+  return _groupOf.get(code) ?? null;
+}
+let _ordersRu: Record<string, string> | null = null;
+/** Russian name of an order ('Passeriformes' -> 'Воробьинообразные'), null if unknown. */
+export function orderRu(order: string): string | null {
+  return (_ordersRu ??= readJson<Record<string, string>>('orders_ru.json', {}))[order] ?? null;
+}
 export function species(id: string): Species {
   return readJson<Species>(`species/${id}.json`);
 }
@@ -178,4 +209,16 @@ export function itineraryWithSpecies(): DayWithSpecies[] {
     return { day, species: sp, nHighlights: sp.filter((s) => s.highlightAt.length).length, nNew: sp.filter((s) => s.isNew).length };
   });
   return _dws;
+}
+
+/** Up to n representative species of a family: route targets with photos, then any with a photo, then route targets without. */
+export function representativeSpecies(code: string, n = 3): IndexEntry[] {
+  const focus = focusSpecies();
+  const all = speciesIndex().filter((s) => s.family === code).sort((a, b) => a.taxon_order - b.taxon_order);
+  const tiers = [
+    all.filter((s) => focus.has(s.id) && s.photo),
+    all.filter((s) => !focus.has(s.id) && s.photo),
+    all.filter((s) => focus.has(s.id) && !s.photo),
+  ];
+  return [...new Set(tiers.flat())].slice(0, n);
 }

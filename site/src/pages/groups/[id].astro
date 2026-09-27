@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import SpeciesFace from '../../components/SpeciesFace.astro';
+import { families, groups, speciesIndex, representativeSpecies, plural, orderRu, type Group } from '@lib/data';
+export function getStaticPaths() {
+  return groups().map((g) => ({ params: { id: g.id }, props: { group: g } }));
+}
+const { group } = Astro.props as { group: Group };
+const byCode = new Map(families().map((f) => [f.code, f]));
+const idx = speciesIndex();
+const fams = group.families.map((c) => {
+  const f = byCode.get(c)!;
+  const sp = idx.filter((s) => s.family === c);
+  return { f, n: sp.length, e: sp.filter((s) => s.endemic).length, faces: representativeSpecies(c, 3) };
+});
+const total = fams.reduce((a, x) => a + x.n, 0);
+const base = import.meta.env.BASE_URL;
+---
+<Base title={group.name_ru} description={group.blurb_ru}>
+  <p class="muted crumb"><a href={`${base}families/`}>Семейства</a> › группа</p>
+  <h1>{group.name_ru}</h1>
+  <p class="muted sub">{group.name_en} · {total} {plural(total, 'вид', 'вида', 'видов')} в {fams.length} {plural(fams.length, 'семействе', 'семействах', 'семействах')}</p>
+  <p class="blurb">{group.blurb_ru}</p>
+  {fams.map(({ f, n, e, faces }) => (
+    <section class="card fam">
+      <a class="fh" href={`${base}families/${f.slug}/`}>
+        <strong>{f.names.ru ?? f.names.en}</strong>
+        <span class="muted"><span class="sci">{f.sci}</span> · {f.names.en}</span>
+        <span class="muted small">{n} {plural(n, 'вид', 'вида', 'видов')}{e ? `, ${e} энд.` : ''} · {orderRu(f.order) ?? f.order}</span>
+      </a>
+      {faces.length > 0 && <div class="faces">{faces.map((s) => <SpeciesFace s={s} size={92} />)}</div>}
+    </section>
+  ))}
+  <details class="en" lang="en">
+    <summary>English</summary>
+    <p>{group.blurb_en}</p>
+  </details>
+</Base>
+<style>
+  .crumb { margin: 0; font-size: .9rem; }
+  h1 { margin-bottom: 2px; }
+  .sub { margin: 0 0 10px; }
+  .blurb { margin: 0 0 14px; }
+  .fam { margin: 0 0 10px; }
+  .fh { display: flex; flex-direction: column; color: inherit; margin-bottom: 8px; }
+  .fh:hover { text-decoration: none; }
+  .fh:hover strong { text-decoration: underline; color: var(--accent); }
+  .small { font-size: .85rem; }
+  .faces { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 2px; }
+  .en { margin: 14px 0; border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
+  .en summary { cursor: pointer; font-weight: 600; color: var(--muted); }
+  .en p { margin: 8px 0; }
+</style>

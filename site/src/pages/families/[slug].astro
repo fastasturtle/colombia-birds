@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import SpeciesRow from '../../components/SpeciesRow.astro';
 import SpeciesFace from '../../components/SpeciesFace.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
-import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, type IndexEntry } from '@lib/data';
+import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, type IndexEntry } from '@lib/data';
 import { familyContent } from '@lib/content';
 import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
@@ -18,6 +18,8 @@ const byCode = new Map(families().map((f) => [f.code, f]));
 const base = import.meta.env.BASE_URL;
 const focus = focusSpecies();
 const title = family.names.ru ?? family.names.en;
+const group = groupOfFamily(family.code);
+const ordRu = orderRu(family.order);
 
 /* Route species of this family: highlights/focus first, then by GBIF records over all days. */
 const days = itineraryWithSpecies();
@@ -32,17 +34,6 @@ const rank = (s: IndexEntry) => [focus.has(s.id) || routeN.get(s.id)?.hl ? 0 : 1
 const cmp = (a: IndexEntry, b: IndexEntry) => { const [x, y] = [rank(a), rank(b)]; return x[0] - y[0] || x[1] - y[1] || a.taxon_order - b.taxon_order; };
 const faces = sp.filter((s) => s.photo && (routeN.has(s.id) || focus.has(s.id))).sort(cmp).slice(0, 6);
 
-/* 2–3 representative species of a confusable family: route targets with photos, route targets, then any with a photo. */
-function representatives(code: string): IndexEntry[] {
-  const all = idx.filter((s) => s.family === code);
-  const tiers = [
-    all.filter((s) => focus.has(s.id) && s.photo),
-    all.filter((s) => focus.has(s.id) && !s.photo),
-    all.filter((s) => !focus.has(s.id) && s.photo),
-  ];
-  return [...new Set(tiers.flat())].slice(0, 3);
-}
-
 /* Family by itinerary day: highlights first, then by records. */
 const byDay = days.map((d) => {
   const list = d.species.filter((s) => byId.get(s.id)?.family === family.code)
@@ -53,9 +44,10 @@ const byDay = days.map((d) => {
 const MAX_CHIPS = 6;
 ---
 <Base title={title}>
-  <p class="muted order">{family.order}</p>
+  <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>
   <h1>{title}</h1>
-  <p class="muted sub">{family.names.ru && <>{family.names.en} · </>}<span class="sci">{family.sci}</span> · {sp.length} видов в Колумбии</p>
+  <p class="muted sub">{family.names.ru && <>{family.names.en} · </>}<span class="sci">{family.sci}</span> · {sp.length} {plural(sp.length, 'вид', 'вида', 'видов')} в Колумбии</p>
+  <p class="muted ord">Отряд: {ordRu ? <>{ordRu} · <span class="sci">{family.order}</span></> : <span class="sci">{family.order}</span>}</p>
   {faces.length > 0 && (
     <div class="faces" aria-label="Виды маршрута">{faces.map((s) => <SpeciesFace s={s} />)}</div>
   )}
@@ -74,7 +66,7 @@ const MAX_CHIPS = 6;
           <ul class="conf">
             {fc.confusable.map((c) => {
               const f = byCode.get(c.family);
-              const reps = f ? representatives(f.code) : [];
+              const reps = f ? representativeSpecies(f.code, 3) : [];
               return (
                 <li>
                   {f ? (
@@ -134,9 +126,10 @@ const MAX_CHIPS = 6;
   {sp.some((s) => s.photo) && <ThumbLightbox client:idle mediaBase={MEDIA_BASE} />}
 </Base>
 <style>
-  .order { margin: 0; }
+  .crumb { margin: 0; font-size: .9rem; }
+  .ord { margin: 0 0 12px; font-size: .9rem; }
   h1 { margin-bottom: 2px; }
-  .sub { margin: 0 0 12px; }
+  .sub { margin: 0 0 2px; }
   .faces { display: flex; gap: 10px; overflow-x: auto; padding: 2px 0 8px; margin: 0 0 8px; scrollbar-width: thin; }
   .portrait { margin: 8px 0 12px; }
   .portrait > p { margin: 0 0 12px; }

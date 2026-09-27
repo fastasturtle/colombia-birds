@@ -1,29 +1,37 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { families, speciesIndex } from '@lib/data';
-const fams = families();
+import { families, groups, speciesIndex, plural } from '@lib/data';
+const byCode = new Map(families().map((f) => [f.code, f]));
 const idx = speciesIndex();
-const byFamily = new Map<string, typeof idx>();
-for (const s of idx) byFamily.set(s.family, [...(byFamily.get(s.family) ?? []), s]);
-const orders = [...new Set(fams.map((f) => f.order))];
+const nSp = new Map<string, number>();
+const nEnd = new Map<string, number>();
+for (const s of idx) {
+  nSp.set(s.family, (nSp.get(s.family) ?? 0) + 1);
+  if (s.endemic) nEnd.set(s.family, (nEnd.get(s.family) ?? 0) + 1);
+}
+const gs = groups().map((g) => ({ g, fams: g.families.map((c) => byCode.get(c)!), n: g.families.reduce((a, c) => a + (nSp.get(c) ?? 0), 0) }));
 const base = import.meta.env.BASE_URL;
 const endemics = idx.filter((s) => s.endemic).length;
 ---
 <Base title="Семейства">
   <h1>Семейства</h1>
-  <p class="muted">{idx.length} видов в {fams.length} семействах по чеклисту ACO 2022, из них {endemics} эндемика. Справочник для тура по южной Колумбии в октябре 2026.</p>
-  {orders.map((o) => (
-    <section>
-      <h2>{o}</h2>
+  <p class="muted">{idx.length} видов в {byCode.size} семействах по чеклисту ACO 2022, из них {endemics} эндемика. Семейства собраны в {gs.length} групп, как в полевом определителе.</p>
+  <nav class="gchips" aria-label="Группы">
+    {gs.map(({ g }) => <a class="chip" href={`#${g.id}`}>{g.name_ru}</a>)}
+  </nav>
+  {gs.map(({ g, fams, n }) => (
+    <section id={g.id} class="group">
+      <h2><a href={`${base}groups/${g.id}/`}>{g.name_ru}</a> <span class="en">{g.name_en}</span></h2>
+      <p class="blurb">{g.blurb_ru} <span class="muted small">{n} {plural(n, 'вид', 'вида', 'видов')}.</span></p>
       <div class="grid">
-        {fams.filter((f) => f.order === o).map((f) => {
-          const sp = byFamily.get(f.code) ?? [];
-          const e = sp.filter((s) => s.endemic).length;
+        {fams.map((f) => {
+          const k = nSp.get(f.code) ?? 0;
+          const e = nEnd.get(f.code) ?? 0;
           return (
             <a class="card fam" href={`${base}families/${f.slug}/`}>
               <div><strong>{f.names.ru ?? f.names.en}</strong></div>
               <div class="muted"><span class="sci">{f.sci}</span> · {f.names.en}</div>
-              <div class="muted" style="font-size:.85rem">{sp.length} {sp.length === 1 ? 'вид' : sp.length < 5 ? 'вида' : 'видов'}{e ? `, ${e} энд.` : ''}</div>
+              <div class="muted small">{k} {plural(k, 'вид', 'вида', 'видов')}{e ? `, ${e} энд.` : ''}</div>
             </a>
           );
         })}
@@ -32,6 +40,22 @@ const endemics = idx.filter((s) => s.endemic).length;
   ))}
 </Base>
 <style>
+  .gchips { display: flex; flex-wrap: wrap; margin: 12px 0 4px; }
+  .gchips .chip { color: var(--fg); padding: 5px 12px; font-size: .85rem; white-space: nowrap; }
+  @media (max-width: 700px) {
+    /* one swipeable row of chips instead of a screen-tall wall */
+    .gchips { flex-wrap: nowrap; overflow-x: auto; margin: 12px -16px 4px; padding: 0 16px 4px; scrollbar-width: none; }
+    .gchips::-webkit-scrollbar { display: none; }
+    .gchips .chip { flex: none; }
+  }
+  .gchips .chip:hover { text-decoration: none; background: var(--line); }
+  .group { scroll-margin-top: 56px; }
+  .group h2 { margin-bottom: 2px; }
+  .group h2 a { color: var(--fg); }
+  .group h2 .en { color: var(--muted); font-size: .8rem; font-weight: 400; margin-left: 4px; }
+  @media (max-width: 700px) { .group h2 .en { display: block; margin: 2px 0 0; } }
+  .blurb { margin: 0 0 10px; font-size: .92rem; }
+  .small { font-size: .85rem; }
   .fam { color: inherit; display: block; }
   .fam:hover { text-decoration: none; border-color: var(--accent); }
 </style>
