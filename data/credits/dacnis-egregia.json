@@ -1,161 +1,106 @@
 {
- "authorship": "P.L. Sclater, 1855",
- "book": {
-  "lynx_page": 510
- },
- "colombia": {
-  "endemic": false,
-  "endemic_source": null,
-  "habitat_aco": null,
-  "introduced": false,
-  "libro_rojo": null,
-  "migration_note": null,
-  "near_endemic": false,
-  "status": [
-   "resident"
-  ],
-  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
-  "status_uncertain": false
- },
- "difficulty": null,
- "ebird_code": "bkfdac1",
- "family": {
-  "code": "thraup2",
-  "en": "Tanagers and Allies",
-  "sci": "Thraupidae"
- },
- "genus": "Dacnis",
  "id": "dacnis-egregia",
- "ids": {
-  "avibase": null,
-  "birdbase": 36881,
-  "gbif": 6100781,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
- },
- "iucn": {
-  "aco_2022": null,
-  "birdbase_2024": "LC",
-  "wikidata": null
- },
- "links": {
-  "commons_category": null,
-  "ebird": "https://ebird.org/species/bkfdac1",
-  "inaturalist": null,
-  "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
-  },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+egregia"
- },
- "name_ru_source": null,
- "names": {
-  "en": "Yellow-tufted Dacnis",
-  "en_aco": null,
-  "es": "Dacnis Egregio",
-  "ru": null
- },
- "order": "Passeriformes",
  "photos": [
   {
+   "attribution_raw": null,
    "author": "Christoph Moning",
    "credit": "(c) Christoph Moning, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279384624/original.jpeg",
    "height": 1001,
    "key_base": "photos/dacnis-egregia/1",
    "kind": "photo",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 1,
+   "original_height": 1281,
+   "original_width": 2048,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/dacnis-egregia/1-large.jpg",
     "medium": "photos/dacnis-egregia/1-medium.jpg",
     "thumb": "photos/dacnis-egregia/1-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/161633069",
+   "title": "Dacnis egregia, iNaturalist observation 161633069",
    "width": 1600
   },
   {
+   "attribution_raw": null,
    "author": "tomas_kay",
    "credit": "(c) tomas_kay, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591080049/original.jpg",
    "height": 1201,
    "key_base": "photos/dacnis-egregia/2",
    "kind": "photo",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 2,
+   "original_height": 1230,
+   "original_width": 1638,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/dacnis-egregia/2-large.jpg",
     "medium": "photos/dacnis-egregia/2-medium.jpg",
     "thumb": "photos/dacnis-egregia/2-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/326370105",
+   "title": "Dacnis egregia, iNaturalist observation 326370105",
    "width": 1600
   },
   {
+   "attribution_raw": null,
    "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
    "credit": "Dacnis egregia",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Dacnis_egregia_%286515681273%29.jpg/1280px-Dacnis_egregia_%286515681273%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1600,
    "key_base": "photos/dacnis-egregia/3",
    "kind": "photo",
    "license": "CC BY-SA 2.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 3,
+   "original_height": 1824,
+   "original_width": 1368,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/dacnis-egregia/3-large.jpg",
     "medium": "photos/dacnis-egregia/3-medium.jpg",
     "thumb": "photos/dacnis-egregia/3-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Dacnis_egregia_(6515681273).jpg",
+   "title": "Dacnis egregia (6515681273)",
    "width": 1200
   },
   {
+   "attribution_raw": null,
    "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
    "credit": "Dacnis egregia",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Dacnis_egregia_%286709029763%29.jpg/1280px-Dacnis_egregia_%286709029763%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1600,
    "key_base": "photos/dacnis-egregia/4",
    "kind": "photo",
    "license": "CC BY-SA 2.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 4,
+   "original_height": 1824,
+   "original_width": 1368,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/dacnis-egregia/4-large.jpg",
     "medium": "photos/dacnis-egregia/4-medium.jpg",
     "thumb": "photos/dacnis-egregia/4-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Dacnis_egregia_(6709029763).jpg",
+   "title": "Dacnis egregia (6709029763)",
    "width": 1200
   }
  ],
- "sci_name": "Dacnis egregia",
- "sci_name_aco": null,
- "sounds": [],
- "source": "clements2025",
- "taxon_order": 35142.0,
- "taxonomy_note": "Not in the ACO 2022 checklist (split from Dacnis lineata); added from eBird/Clements 2025. Yellow-tufted Dacnis, split from Black-faced Dacnis (D. lineata) in eBird/Clements: the population west of the Andes and in the Magdalena Valley (route: Pacific Nariño, Huila, Chicaque). D. lineata in the narrow sense is the Amazonian bird east of the Andes (Putumayo).",
- "texts": {},
- "traits": {
-  "diet_desc": null,
-  "elevation_m": {
-   "max": 900,
-   "max_extreme": null,
-   "min": 0,
-   "min_extreme": null
-  },
-  "habitat_breadth": 2,
-  "habitats": [
-   "forest",
-   "agricultural"
-  ],
-  "mass_g": 9.75,
-  "mobility": {
-   "altitudinal": null,
-   "dispersive": null,
-   "irregular": null,
-   "migratory": null,
-   "sedentary": 1
-  },
-  "primary_diet": "Fruit",
-  "primary_habitat": "Forest",
-  "range_restricted": 0
- },
- "wikidata_images": []
+ "updated": "2026-09-27"
 }
