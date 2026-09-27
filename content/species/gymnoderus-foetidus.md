@@ -16,10 +16,10 @@ similar:
 behavior: "Чаще всего его видят летящим высоко над лесом или над рекой глубокими «гребущими» взмахами. Кормится плодами и насекомыми, прыгая по веткам крон, как тукан."
 voice: "Обычно молчалив; изредка низкий глухой рёв."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [black, gray]
   tone: dull
-  marks: [bare_face]
+  marks: [bare_face, wing_patch, bright_bill]
   bill: medium
   layer: [canopy, air]
 sources:

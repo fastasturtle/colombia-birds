@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [olive, gray, yellow]
   tone: dull
-  marks: [wing_bars, rump_patch]
+  marks: [wing_bars, rump_patch, cap]
   bill: [short, thin]
   layer: [canopy]
 sources:

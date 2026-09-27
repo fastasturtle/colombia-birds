@@ -16,10 +16,10 @@ similar:
 behavior: "Держится парами или семейками в кустарниках парамо и в рощицах полилеписа, как синица обшаривает веточки и листья, часто повисая вниз головой."
 voice: "Тонкие позывы «тез-дит» и «цик»; песня — высокие короткие трели с паузами."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [brown, white, rufous]
   tone: dull
-  marks: [eyebrow, streaked_breast, long_tail]
+  marks: [eyebrow, streaked_breast, long_tail, cap]
   bill: [short, thin]
   layer: [understory]
 sources:

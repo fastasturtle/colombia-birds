@@ -16,10 +16,10 @@ similar:
 behavior: "Самцы токуют на тонких ветках подлеска, до 7 м над землёй: поднимают крылья над спиной и трясут ими, издавая звенящий звук. В остальное время кормятся плодами в подлеске и среднем ярусе."
 voice: "Самцы на току издают высокое «сиит» и серию громких резких «кеа!», но главный звук — механический «скрипичный» тон крыльев."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [rufous, red, black]
   tone: bright
-  marks: [short_tail]
+  marks: [short_tail, cap, wing_patch]
   bill: short
   layer: [understory, midstory]
 sources:

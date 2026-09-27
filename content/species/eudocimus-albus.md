@@ -16,10 +16,10 @@ similar:
 behavior: "Кормится группами на мелководье, в манграх и на заливных лугах, прощупывая дно клювом и находя добычу на ощупь, прежде всего раков и крабов. Гнездится большими колониями."
 voice: "Хриплое гнусавое «хонк-хонк», чаще в полёте."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [white, red]
   tone: bright
-  marks: [bare_face]
+  marks: [bare_face, bright_bill]
   bill: [long, curved]
   layer: [water, ground]
 sources:

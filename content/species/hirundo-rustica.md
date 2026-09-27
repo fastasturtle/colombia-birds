@@ -4,7 +4,7 @@ difficulty: easy
 lynx_page: null
 checked: 2026-09-27
 key_features:
-  - "Лоб и горло каштаново-рыжие, под ними тёмно-синяя полоса на груди"
+  - "Лоб и горло каштаново-рыжие, у молодых осенью бледнее; ниже тёмно-синяя полоса на груди"
   - "Верх стально-синий, низ от беловатого до рыжеватого"
   - "Хвост глубоко вильчатый, у взрослых с длинными косицами, у молодых короче"
   - "Ряд белых пятен на хвосте виден, когда он раскрыт"
@@ -16,7 +16,7 @@ similar:
 behavior: "На зимовке держится над полями, болотами, озёрами и побережьем, часто стаями вместе с другими ласточками; садится на провода и заборы."
 voice: "На зимовке почти молчит; изредка короткое «витт» или «витт-витт»."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [blue, white, rufous]
   tone: bright
   marks: [forked_tail]
@@ -29,7 +29,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Chestnut-rufous forehead and throat, a dark blue breast band below"
+    - "Chestnut-rufous forehead and throat, paler in young birds in autumn; a dark blue breast band below"
     - "Steel-blue upperparts, underparts whitish to rufous-tinged"
     - "Deeply forked tail, with long streamers in adults, shorter in young"
     - "A row of white tail spots shows when the tail is spread"

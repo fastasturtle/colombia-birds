@@ -20,8 +20,9 @@ traits:
   size: sparrow
   colors: [yellow, black, olive]
   tone: bright
+  marks: [cap]
   bill: [short, thick]
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Данные проекта: data/species/euphonia-laniirostris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Thick-billed euphonia (en), Euphonia laniirostris (es), Толстоклювая эуфония (ru), CC BY-SA 4.0 — data/texts: подвиды, биотоп, высоты"

@@ -17,7 +17,7 @@ similar:
 behavior: "Поодиночке или парами ходит по земле в подлеске и на опушках влажного и более сухого леса, взлетает с шумом крыльев. Отмечалась и на кормушке с бананами."
 voice: "Одиночная протяжная тоскливая нота «ууУУуу», то нарастающая, то затихающая."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [rufous, white, gray]
   tone: dull
   marks: [bare_face, white_tail_tips]

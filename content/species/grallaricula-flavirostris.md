@@ -17,7 +17,7 @@ behavior: "Держится в густом подлеске влажного г
 voice: "Поёт редко; в Эквадоре одна из песен — простое «виию», повторяемое через 8–10 секунд."
 traits:
   size: sparrow
-  colors: [orange, olive, white]
+  colors: [rufous, olive, white]
   tone: dull
   marks: [eye_ring, short_tail, streaked_breast]
   bill: short

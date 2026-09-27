@@ -17,10 +17,10 @@ similar:
 behavior: "Хищник открытых мест: саванн, пастбищ, кустарников. Парит на крыльях, приподнятых буквой V, часто зависает против ветра и охотится на грызунов, ящериц, змей и крупных насекомых; слетается к пожарам на траве."
 voice: "Высокое «ке-ке-ке…» с блеющим оттенком, как у козы."
 traits:
-  size: crow
+  size: [crow, larger]
   colors: [gray, white, rufous]
   tone: bright
-  marks: [short_tail, rump_patch]
+  marks: [short_tail, rump_patch, wing_patch]
   bill: [hooked]
   layer: [air]
 sources:

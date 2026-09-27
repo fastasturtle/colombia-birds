@@ -16,7 +16,7 @@ traits:
   size: crow
   colors: [gray, red, white]
   tone: bright
-  marks: [forked_tail]
+  marks: [forked_tail, bright_bill]
   bill: medium
   layer: [water, air]
 sources:

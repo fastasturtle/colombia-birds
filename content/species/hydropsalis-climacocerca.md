@@ -16,10 +16,10 @@ similar:
 behavior: "Днём лежит на песке или гальке речных кос, почти незаметный; в сумерках охотится низко над водой и берегом и часто садится обратно на песок."
 voice: "Медленная серия резких «цик!» или повторяемые «цип», «чит»; в полёте — скрипучее «квиик»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [gray, brown, white]
   tone: dull
-  marks: [long_tail]
+  marks: [long_tail, wing_patch]
   bill: [short, flat]
   layer: [night, water]
 sources:

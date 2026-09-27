@@ -17,8 +17,8 @@ similar:
 behavior: "Пары и семейные группы кормятся высоко в кронах, в основном плодами омелы. В отличие от многих эуфоний, не кочует и держится своего участка."
 voice: "Песня — слегка хрипловатые фразы из восходящих свистов и жужжащих трелей; позыв обоих полов — чистое «ди-ди»."
 traits:
-  size: sparrow
-  colors: [orange, black, olive]
+  size: [hummingbird, sparrow]
+  colors: [rufous, black, olive]
   tone: bright
   bill: [short, thick]
   layer: [canopy]

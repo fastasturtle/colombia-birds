@@ -21,7 +21,7 @@ traits:
   size: pigeon
   colors: [black, gray, red]
   tone: dull
-  marks: []
+  marks: [bright_bill]
   bill: short
   layer: [water]
 sources:

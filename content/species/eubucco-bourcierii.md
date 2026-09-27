@@ -17,9 +17,9 @@ traits:
   size: sparrow
   colors: [green, red, yellow]
   tone: bright
-  marks: []
+  marks: [cap]
   bill: thick
-  layer: [midstory, canopy]
+  layer: [midstory, canopy, feeder]
 sources:
   - "Wikipedia: Red-headed barbet (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/eubucco-bourcierii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"

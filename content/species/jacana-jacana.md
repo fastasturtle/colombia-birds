@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [black, rufous, yellow]
   tone: bright
-  marks: [wattle]
+  marks: [wattle, wing_patch, bright_bill]
   bill: short
   layer: [water]
 sources:

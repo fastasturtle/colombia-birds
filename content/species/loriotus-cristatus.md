@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [black, orange, rufous]
   tone: bright
-  marks: [crest, rump_patch, throat_patch]
+  marks: [crest, rump_patch, throat_patch, wing_patch]
   bill: short
   layer: [midstory, canopy]
 sources:

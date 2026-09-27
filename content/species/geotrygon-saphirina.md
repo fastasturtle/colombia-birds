@@ -16,10 +16,10 @@ similar:
 behavior: "Ходит поодиночке или парами по земле и в подлеске старого влажного леса, часто у ручьёв. Очень пуглива и при тревоге уходит пешком в заросли."
 voice: "Монотонное двусложное «ху… хууууу»; поёт с низкой скрытой присады или с земли в любое время дня."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [purple, white, gray]
   tone: bright
-  marks: [throat_patch]
+  marks: [throat_patch, wing_patch]
   bill: short
   layer: [ground]
 sources:

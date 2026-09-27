@@ -17,7 +17,7 @@ traits:
   size: crow
   colors: [brown, gray, black]
   tone: dull
-  marks: [barred, eyebrow]
+  marks: [barred, eyebrow, cap, wing_patch]
   bill: [long, thin]
   layer: [water, ground]
 sources:

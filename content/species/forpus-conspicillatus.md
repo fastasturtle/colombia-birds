@@ -17,7 +17,7 @@ traits:
   size: sparrow
   colors: [green, blue]
   tone: bright
-  marks: [short_tail, eye_ring]
+  marks: [short_tail, eye_ring, wing_patch]
   bill: [short, thick]
   layer: [midstory, canopy]
 sources:
