@@ -26,6 +26,7 @@ atomically, and per-species errors are logged and skipped, so re-running fills t
 | `photos` | `steps/fetch_photos.py` | `data/photos/<slug>.json`: up to 4 CC0/CC BY/CC BY-SA/PD candidates from Commons + iNaturalist (nothing downloaded) |
 | `upload` | `steps/upload_media.py` | downloads the top candidates (1 per species, 4 for slugs in `data/focus_species.json`), makes 400/1000/1600px JPEGs, uploads to R2 as `photos/<slug>/<n>-{thumb,medium,large}.jpg`, writes `data/credits/<slug>.json`, fills `photos` in species files and `photo` in `species_index.json`. `--dry-run` resizes only (files in `pipeline/cache/media/resized/`) |
 | `sites` | `steps/build_sites.py` | `data/sites_resolved.json`, `data/focus_species.json`, `data/region_species.json` from hand-authored `data/sites.json` |
+| `basemap` | `steps/build_basemap.py` | `site/src/generated/basemap.json`: static SVG base map for `/route/` (land, Colombia outline, departments, rivers, place labels) clipped to `data/sites.json` ± 0.8°, from Natural Earth 1:10m (public domain). Needs shapely: `uv run --with shapely python run.py basemap`. Output is checked in; rerun after adding sites far from the current bbox |
 
 Photo keys stored in `data/` are relative; the site prepends `PUBLIC_MEDIA_BASE_URL`.
 

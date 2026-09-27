@@ -36,8 +36,8 @@
 - Скриншоты сайта на телефоне: `cd site && npm run build && npm run shots -- / /species/<slug>/ /route/`
   (флаги `--dark`, `--full`, `--out DIR`). Файлы попадают в `.screenshots/` (в .gitignore), смотреть через Read.
   Playwright — devDependency сайта; в облачной сессии Chromium уже стоит (`PLAYWRIGHT_BROWSERS_PATH`),
-  локально один раз `npx playwright install chromium`. Карта-подложка (OpenFreeMap) в песочнице может не
-  грузиться, тогда страница честно показывает офлайн-схему — это не баг.
+  локально один раз `npx playwright install chromium`. Карта маршрута — статичный SVG без онлайн-тайлов:
+  подложка `site/src/generated/basemap.json` (Natural Earth, шаг пайплайна `basemap`).
 - Сборка сайта: `cd site && npm run build` (~10 с, 2 000+ страниц). Проверять перед каждым коммитом в `site/`.
 
 ## Частые задачи
