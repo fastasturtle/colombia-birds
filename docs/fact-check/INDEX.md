@@ -3,17 +3,52 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 531
+- Карточек: 627
 - Проверено: 467
-- Не проверено: 64
+- Не проверено: 160
 
-## Не проверено (64)
+## Не проверено (160)
 
 | Слаг | English | Группа |
 |---|---|---|
 | anhima-cornuta | Horned Screamer | Утки, поганки и фламинго |
 | dendrocygna-autumnalis | Black-bellied Whistling-Duck | Утки, поганки и фламинго |
 | tachybaptus-dominicus | Least Grebe | Утки, поганки и фламинго |
+| patagioenas-speciosa | Scaled Pigeon | Голуби, кукушки и гоацин |
+| patagioenas-subvinacea | Ruddy Pigeon | Голуби, кукушки и гоацин |
+| columbina-passerina | Common Ground Dove | Голуби, кукушки и гоацин |
+| claravis-pretiosa | Blue Ground Dove | Голуби, кукушки и гоацин |
+| leptotila-verreauxi | White-tipped Dove | Голуби, кукушки и гоацин |
+| leptotila-rufaxilla | Gray-fronted Dove | Голуби, кукушки и гоацин |
+| tapera-naevia | Striped Cuckoo | Голуби, кукушки и гоацин |
+| chaetura-brachyura | Short-tailed Swift | Стрижи и колибри |
+| florisuga-mellivora | White-necked Jacobin | Стрижи и колибри |
+| glaucis-hirsutus | Rufous-breasted Hermit | Стрижи и колибри |
+| threnetes-leucurus | Pale-tailed Barbthroat | Стрижи и колибри |
+| phaethornis-syrmatophorus | Tawny-bellied Hermit | Стрижи и колибри |
+| phaethornis-striigularis | Stripe-throated Hermit | Стрижи и колибри |
+| phaethornis-griseogularis | Gray-chinned Hermit | Стрижи и колибри |
+| doryfera-johannae | Blue-fronted Lancebill | Стрижи и колибри |
+| coeligena-coeligena | Bronzy Inca | Стрижи и колибри |
+| boissonneaua-flavescens | Buff-tailed Coronet | Стрижи и колибри |
+| ocreatus-underwoodii | White-booted Racket-tail | Стрижи и колибри |
+| heliodoxa-schreibersii | Black-throated Brilliant | Стрижи и колибри |
+| chlorostilbon-gibsoni | Red-billed Emerald | Стрижи и колибри |
+| chlorostilbon-melanorhynchus | Western Emerald | Стрижи и колибри |
+| campylopterus-largipennis | Gray-breasted Sabrewing | Стрижи и колибри |
+| chalybura-buffonii | White-vented Plumeleteer | Стрижи и колибри |
+| polyerata-rosenbergi | Purple-chested Hummingbird | Стрижи и колибри |
+| polyerata-amabilis | Blue-chested Hummingbird | Стрижи и колибри |
+| mustelirallus-erythrops | Paint-billed Crake | Цапли, ибисы и пастушки |
+| aramides-wolfi | Brown Wood-Rail | Цапли, ибисы и пастушки |
+| aramides-axillaris | Rufous-necked Wood-Rail | Цапли, ибисы и пастушки |
+| aramides-cajaneus | Gray-cowled Wood-Rail | Цапли, ибисы и пастушки |
+| porphyrio-martinica | Purple Gallinule | Цапли, ибисы и пастушки |
+| aramus-guarauna | Limpkin | Цапли, ибисы и пастушки |
+| eudocimus-albus | White Ibis | Цапли, ибисы и пастушки |
+| eudocimus-ruber | Scarlet Ibis | Цапли, ибисы и пастушки |
+| egretta-caerulea | Little Blue Heron | Цапли, ибисы и пастушки |
+| egretta-tricolor | Tricolored Heron | Цапли, ибисы и пастушки |
 | limnodromus-griseus | Short-billed Dowitcher | Кулики, чайки и крачки |
 | phalaropus-tricolor | Wilson's Phalarope | Кулики, чайки и крачки |
 | tringa-flavipes | Lesser Yellowlegs | Кулики, чайки и крачки |
@@ -23,6 +58,24 @@
 | calidris-melanotos | Pectoral Sandpiper | Кулики, чайки и крачки |
 | calidris-mauri | Western Sandpiper | Кулики, чайки и крачки |
 | calidris-pusilla | Semipalmated Sandpiper | Кулики, чайки и крачки |
+| sula-variegata | Peruvian Booby | Морские птицы |
+| anhinga-anhinga | Anhinga | Морские птицы |
+| cathartes-melambrotus | Greater Yellow-headed Vulture | Хищные птицы и совы |
+| elanoides-forficatus | Swallow-tailed Kite | Хищные птицы и совы |
+| accipiter-striatus | Sharp-shinned Hawk | Хищные птицы и совы |
+| circus-cinereus | Cinereous Harrier | Хищные птицы и совы |
+| rostrhamus-sociabilis | Snail Kite | Хищные птицы и совы |
+| morphnarchus-princeps | Barred Hawk | Хищные птицы и совы |
+| buteo-platypterus | Broad-winged Hawk | Хищные птицы и совы |
+| megascops-choliba | Tropical Screech-Owl | Хищные птицы и совы |
+| glaucidium-brasilianum | Ferruginous Pygmy-Owl | Хищные птицы и совы |
+| strix-albitarsis | Rufous-banded Owl | Хищные птицы и совы |
+| herpetotheres-cachinnans | Laughing Falcon | Хищные птицы и совы |
+| ibycter-americanus | Red-throated Caracara | Хищные птицы и совы |
+| daptrius-ater | Black Caracara | Хищные птицы и совы |
+| falco-sparverius | American Kestrel | Хищные птицы и совы |
+| falco-peregrinus | Peregrine Falcon | Хищные птицы и совы |
+| trogon-collaris | Collared Trogon | Трогоны, момоты, зимородки и якамары |
 | aulacorhynchus-albivitta | Southern Emerald-Toucanet | Туканы, бородатки и дятлы |
 | andigena-hypoglauca | Gray-breasted Mountain-Toucan | Туканы, бородатки и дятлы |
 | pteroglossus-inscriptus | Lettered Aracari | Туканы, бородатки и дятлы |
@@ -39,10 +92,53 @@
 | piculus-leucolaemus | White-throated Woodpecker | Туканы, бородатки и дятлы |
 | colaptes-rivolii | Crimson-mantled Woodpecker | Туканы, бородатки и дятлы |
 | euchrepomis-callinota | Rufous-rumped Antwren | Муравьеловки, печники и древолазы |
+| taraba-major | Great Antshrike | Муравьеловки, печники и древолазы |
+| thamnophilus-doliatus | Barred Antshrike | Муравьеловки, печники и древолазы |
+| thamnophilus-multistriatus | Bar-crested Antshrike | Муравьеловки, печники и древолазы |
 | thamnophilus-atrinucha | Black-crowned Antshrike | Муравьеловки, печники и древолазы |
+| thamnophilus-schistaceus | Plain-winged Antshrike | Муравьеловки, печники и древолазы |
+| thamnophilus-murinus | Mouse-colored Antshrike | Муравьеловки, печники и древолазы |
+| myrmotherula-pacifica | Pacific Antwren | Муравьеловки, печники и древолазы |
+| myrmotherula-schisticolor | Slaty Antwren | Муравьеловки, печники и древолазы |
+| herpsilochmus-frater | Rusty-winged Antwren | Муравьеловки, печники и древолазы |
+| drymophila-striaticeps | Streak-headed Antbird | Муравьеловки, печники и древолазы |
+| cercomacroides-tyrannina | Dusky Antbird | Муравьеловки, печники и древолазы |
 | cercomacroides-nigrescens | Blackish Antbird | Муравьеловки, печники и древолазы |
+| cercomacra-cinerascens | Gray Antbird | Муравьеловки, печники и древолазы |
+| myrmoborus-myotherinus | Black-faced Antbird | Муравьеловки, печники и древолазы |
+| myrmelastes-leucostigma | Spot-winged Antbird | Муравьеловки, печники и древолазы |
+| poliocrania-exsul | Chestnut-backed Antbird | Муравьеловки, печники и древолазы |
+| akletos-melanoceps | White-shouldered Antbird | Муравьеловки, печники и древолазы |
+| hylophylax-naevius | Spot-backed Antbird | Муравьеловки, печники и древолазы |
+| willisornis-poecilinotus | Common Scale-backed Antbird | Муравьеловки, печники и древолазы |
+| grallaria-haplonota | Plain-backed Antpitta | Муравьеловки, печники и древолазы |
+| acropternis-orthonyx | Ocellated Tapaculo | Муравьеловки, печники и древолазы |
+| formicarius-rufipectus | Rufous-breasted Antthrush | Муравьеловки, печники и древолазы |
+| nasica-longirostris | Long-billed Woodcreeper | Муравьеловки, печники и древолазы |
+| xiphorhynchus-erythropygius | Spotted Woodcreeper | Муравьеловки, печники и древолазы |
+| dendroplex-picus | Straight-billed Woodcreeper | Муравьеловки, печники и древолазы |
+| campylorhamphus-trochilirostris | Red-billed Scythebill | Муравьеловки, печники и древолазы |
+| lepidocolaptes-souleyetii | Streak-headed Woodcreeper | Муравьеловки, печники и древолазы |
+| lepidocolaptes-lacrymiger | Montane Woodcreeper | Муравьеловки, печники и древолазы |
 | xenops-rutilans | Streaked Xenops | Муравьеловки, печники и древолазы |
 | anabacerthia-variegaticeps | Scaly-throated Foliage-gleaner | Муравьеловки, печники и древолазы |
+| anabacerthia-striaticollis | Montane Foliage-gleaner | Муравьеловки, печники и древолазы |
+| premnoplex-brunnescens | Spotted Barbtail | Муравьеловки, печники и древолазы |
+| hellmayrea-gularis | White-browed Spinetail | Муравьеловки, печники и древолазы |
+| cranioleuca-erythrops | Red-faced Spinetail | Муравьеловки, печники и древолазы |
+| cranioleuca-curtata | Ash-browed Spinetail | Муравьеловки, печники и древолазы |
+| synallaxis-brachyura | Slaty Spinetail | Муравьеловки, печники и древолазы |
+| tityra-inquisitor | Black-crowned Tityra | Тиранны и титиры |
+| piprites-chloris | Wing-barred Piprites | Тиранны и титиры |
+| lophotriccus-pileatus | Scale-crested Pygmy-Tyrant | Тиранны и титиры |
+| contopus-sordidulus | Western Wood-Pewee | Тиранны и титиры |
+| myiarchus-tuberculifer | Dusky-capped Flycatcher | Тиранны и титиры |
+| myiodynastes-chrysocephalus | Golden-crowned Flycatcher | Тиранны и титиры |
+| masius-chrysopterus | Golden-winged Manakin | Котинги и манакины |
+| cryptopipo-holochlora | Green Manakin | Котинги и манакины |
+| lepidothrix-coronata | Blue-capped Manakin | Котинги и манакины |
+| machaeropterus-striolatus | Striolated Manakin | Котинги и манакины |
+| pipreola-riefferii | Green-and-black Fruiteater | Котинги и манакины |
 | pheucticus-aureoventris | Black-backed Grosbeak | Танагры и кардиналы |
 | paroaria-gularis | Red-capped Cardinal | Танагры и кардиналы |
 | sericossypha-albocristata | White-capped Tanager | Танагры и кардиналы |
