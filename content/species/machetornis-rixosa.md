@@ -2,6 +2,7 @@
 id: machetornis-rixosa
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ ярко-жёлтый, горло у колумбийских птиц желтоватое"
   - "Верх оливково-бурый, голова буроватая или сероватая, через глаз тонкая тёмная черта"
@@ -40,12 +41,12 @@ en:
   behavior: "Feeds on the ground in pastures, lawns and savanna, running after insects or following livestock and catching flushed prey. Sometimes rides for long spells on a cow or capybara, and now and then hawks from a high perch."
   voice: "Thin, high squeaks and twitters, often in squabbles; voice is not needed for identification."
 ---
-Cattle Tyrant (коровий тиранн) — наземный тиранн открытых мест и пастбищ, в Колумбии в основном низинный (по данным ACO до 300 м, редко гораздо выше). Посадка и повадки выдают его сразу: желтобрюхая птица с дрозда бегает по траве, как трясогузка, и запрыгивает на спины скота. С вырубкой лесов вид расселяется в новые районы.
+Cattle Tyrant (коровий тиранн) — наземный тиранн открытых мест и пастбищ, в Колумбии в основном низинный (по данным BIRDBASE до 300 м, редко гораздо выше). Посадка и повадки выдают его сразу: желтобрюхая птица с дрозда бегает по траве, как трясогузка, и запрыгивает на спины скота. С вырубкой лесов вид расселяется в новые районы.
 
 На маршруте он «возможно» только у Чикаке 3 и 23–24 октября: скорее всего, это пастбища в окрестностях, а не облачный лес. Смотри на коров у дороги из Боготы.
 
 ## English
 
-Cattle Tyrant is a ground-dwelling tyrant of open country and pastures, in Colombia mainly in the lowlands (up to 300 m according to ACO, rarely much higher). Its posture and habits give it away at once: a yellow-bellied, thrush-sized bird runs through the grass like a wagtail and hops onto the backs of livestock. With deforestation the species is spreading into new areas.
+Cattle Tyrant is a ground-dwelling tyrant of open country and pastures, in Colombia mainly in the lowlands (up to 300 m according to BIRDBASE, rarely much higher). Its posture and habits give it away at once: a yellow-bellied, thrush-sized bird runs through the grass like a wagtail and hops onto the backs of livestock. With deforestation the species is spreading into new areas.
 
 On the route it is "maybe" only near Chicaque on 3 and 23–24 October: most likely these are pastures in the surroundings rather than cloud forest. Watch the cattle along the road from Bogotá.

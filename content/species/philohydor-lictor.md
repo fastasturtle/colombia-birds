@@ -2,18 +2,19 @@
 id: philohydor-lictor
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная с широкой белой бровью, горло белое, низ ярко-жёлтый"
   - "Клюв длинный и тонкий, заметно изящнее, чем у кискади"
-  - "Спина оливково-бурая, рыжего на крыльях и хвосте мало"
+  - "Спина оливковая, на маховых узкие светлые корично-рыжие каймы"
   - "Сидит низко над водой на ветках и прибрежной траве"
 similar:
   - id: pitangus-sulphuratus
-    how: "заметно крупнее, клюв толще и мощнее, на крыльях и хвосте рыжие каймы; держится где угодно, не только у воды"
+    how: "заметно крупнее, клюв толще и мощнее; держится где угодно, не только у воды"
   - id: myiozetetes-similis
     how: "клюв короткий и толстый, голова тёмно-серая, а не чёрная; сидит в кронах и у жилья, не над водой"
 behavior: "Держится парами у медленных рек, стариц, озёр и болот, на ветках и траве у самой воды. Ловит насекомых у поверхности воды и на прибрежной растительности и от воды далеко не отходит."
-voice: "Хрипловатое жужжащее «дзии-дзип» и другие скрипучие позывки, совсем не похожие на громкий крик кискади."
+voice: "Энергичное жужжащее, гнусавое «дзэй» или «дзуии» и разные трескучие позывки, совсем не похожие на громкий крик кискади."
 traits:
   size: thrush
   colors: [yellow, brown, black]
@@ -23,21 +24,21 @@ traits:
   layer: [water, understory]
 sources:
   - "Данные проекта: data/species/philohydor-lictor.json (ACO 2022 как Pitangus lictor, BIRDBASE 2025), data/site_species.json (GBIF)"
-  - "Текстов Wikipedia в data/texts нет: окраска, поведение и голос — по общим полевым знаниям автора-агента, из определителей не копировалось; см. docs/fact-check/batch4-1.md"
+  - "Wikipedia en, Lesser kiskadee (длина 15–18 см, окраска, клюв, поведение у воды, голос): https://en.wikipedia.org/wiki/Lesser_kiskadee"
   - "content/species/pitangus-sulphuratus.md, myiozetetes-similis.md — согласованы отличия"
 en:
   key_features:
     - "Black head with a broad white brow, white throat, bright yellow underparts"
     - "Long, slender bill, much finer than a Great Kiskadee's"
-    - "Olive-brown back, little rufous in wings and tail"
+    - "Olive back, narrow pale cinnamon-rufous edges on the flight feathers"
     - "Perches low over water on branches and waterside grass"
   similar:
     - id: pitangus-sulphuratus
-      how: "much larger, thicker and heavier bill, rufous edges on wings and tail; found anywhere, not only by water"
+      how: "much larger, thicker and heavier bill; found anywhere, not only by water"
     - id: myiozetetes-similis
       how: "short thick bill, dark gray rather than black head; perches in the canopy and near houses, not over water"
   behavior: "Keeps in pairs along slow rivers, oxbows, lakes and marshes, on branches and grass right at the water's edge. Catches insects at the water surface and in waterside vegetation and rarely strays far from water."
-  voice: "A husky, buzzy 'dzee-dzip' and other scratchy calls, quite unlike the Great Kiskadee's loud shout."
+  voice: "A vigorous, buzzy, rather nasal 'dzay' or 'dzweey' and various chattering calls, quite unlike the Great Kiskadee's loud shout."
 ---
 Lesser Kiskadee (малый бентеви) — уменьшенная копия Great Kiskadee, но с другим образом жизни: она почти не отходит от воды и держится у медленных рек и заводей низин, в Колумбии обычно ниже 500 м. В списке ACO вид числится как Pitangus lictor, в eBird — в роде Philohydor. Если рядом сидит кискади, сравни клювы: у малого бентеви он тонкий, как пинцет.
 

@@ -2,6 +2,7 @@
 id: campylorhynchus-turdinus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный крапивник размером с дрозда, около 20 см"
   - "Низ беловатый в густых тёмных пятнах, горло чистое"

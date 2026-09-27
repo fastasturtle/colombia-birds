@@ -2,9 +2,10 @@
 id: colonia-colonus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Два средних рулевых вытянуты в длинные ленты, до 10–13 см"
-  - "Оперение чёрное или сажисто-серое, лоб и бровь белые, темя сероватое"
+  - "Оперение чёрное или сажисто-серое, лоб и бровь белые"
   - "Белая полоса на спине или белая поясница, заметная в полёте"
   - "Сидит открыто на сухой ветке или обломанной верхушке, подёргивая хвостом"
 similar:
@@ -27,7 +28,7 @@ sources:
 en:
   key_features:
     - "Two central tail feathers drawn out into long streamers, up to 10–13 cm"
-    - "Black or sooty-gray plumage, white forehead and brow, grayish crown"
+    - "Black or sooty-gray plumage, white forehead and brow"
     - "A white back stripe or white rump, visible in flight"
     - "Perches in the open on a dead branch or broken treetop, flicking its tail"
   similar:

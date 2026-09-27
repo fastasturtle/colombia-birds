@@ -2,6 +2,7 @@
 id: tachycineta-albiventer
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх блестящий сине-зелёный, низ чисто белый"
   - "Большое белое пятно на крыле, видно и у сидящей, и у летящей птицы"

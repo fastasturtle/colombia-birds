@@ -2,6 +2,7 @@
 id: cyclarhis-gujanensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкая рыжая бровь от лба за глаз на серой голове"
   - "Спина и хвост оливково-зелёные; горло и грудь жёлтые, брюхо беловатое"

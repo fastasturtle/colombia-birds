@@ -2,10 +2,11 @@
 id: lepidothrix-coronata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: шапочка ярко-голубая, светится даже в тени подлеска"
   - "Тело колумбийских самцов бархатно-чёрное"
-  - "Самка ярко-зелёная, снизу светлее, брюхо желтоватое"
+  - "Самка зелёная, снизу светлее, брюхо желтоватое"
   - "Крошечный, с коротким хвостом"
 similar:
   - id: pseudopipra-pipra
@@ -30,7 +31,7 @@ en:
   key_features:
     - "Male: bright sky-blue cap that glows even in understory shade"
     - "Body of Colombian males velvety black"
-    - "Female bright green, paler below, belly yellowish"
+    - "Female green, paler below, belly yellowish"
     - "Tiny, with a short tail"
   similar:
     - id: pseudopipra-pipra

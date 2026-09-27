@@ -2,6 +2,7 @@
 id: myiarchus-apicalis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост бурый с широкими кремовыми концами всех рулевых, кроме средней пары"
   - "Горло и грудь серые, горло светлее, брюхо желтоватое"
@@ -11,7 +12,7 @@ similar:
   - id: myiarchus-cephalotes
     how: "светлые у него не концы, а внешние края хвоста; живёт выше, в облачном лесу"
   - id: myiarchus-tuberculifer
-    how: "мельче, шапочка почти чёрная, хвост без светлых концов"
+    how: "мельче, шапочка тёмная, заметно темнее спины, хвост без светлых концов"
 behavior: "Держится поодиночке или парами в сухих долинах с кустарником, в галерейных лесах, на пастбищах с деревьями и даже в пригородах. Ловит насекомых и срывает плоды вылетами с присады в нижнем и среднем ярусе."
 voice: "Резкое повторяющееся «уит»; при встрече с соседями — трели, «икание» и свисты."
 traits:
@@ -36,7 +37,7 @@ en:
     - id: myiarchus-cephalotes
       how: "pale outer edges to the tail rather than pale tips; lives higher, in cloud forest"
     - id: myiarchus-tuberculifer
-      how: "smaller, almost black cap, no pale tail tips"
+      how: "smaller, dark cap clearly darker than the back, no pale tail tips"
   behavior: "Keeps singly or in pairs in dry scrubby valleys, gallery forest, pastures with trees and even suburbs. Takes insects and fruit in sallies from a perch at low to mid levels."
   voice: "A sharp, repeated 'weet'; when meeting neighbours, rolls, hiccups and whistles."
 ---

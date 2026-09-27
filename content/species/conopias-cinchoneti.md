@@ -2,6 +2,7 @@
 id: conopias-cinchoneti
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкая бледно-жёлтая бровь почти смыкается на затылке"
   - "Лоб желтоватый, шапочка и щёки оливковые, тёмной маски нет"
@@ -40,12 +41,12 @@ en:
   behavior: "Keeps in pairs or family groups high in the canopy along montane forest edges and adjacent clearings, often on the very top of a tree. Gleans insects from foliage in short flights and also eats small fruit."
   voice: "An odd, high, nasal twittering 'whee-ee-ee-ee', 'wheedidididi-di', sounding petulant."
 ---
-Lemon-browed Flycatcher (желтобровый бентеви) — редкий и локальный бентеви крон предгорного и нижнего горного леса, в Колумбии на высотах 900–2 000 м. У него нет чёрно-белого «лица» кискади: голова оливковая, а бровь того же лимонного тона, что и горло, поэтому птица издали кажется почти целиком жёлтой. Первым обычно слышен его необычный щебечущий позыв.
+Lemon-browed Flycatcher (желтобровый бентеви) — довольно обычный, но локальный бентеви крон предгорного и нижнего горного леса, в Колумбии на высотах 900–2 000 м. У него нет чёрно-белого «лица» кискади: голова оливковая, а бровь того же лимонного тона, что и горло, поэтому птица издали кажется почти целиком жёлтой. Первым обычно слышен его необычный щебечущий позыв.
 
 На маршруте вид «возможно» в Исла-Эскондиде 7–11 октября и на Трамплине птиц 15 октября. Проверяй верхушки деревьев на опушках и вдоль дорог.
 
 ## English
 
-Lemon-browed Flycatcher is a scarce and local canopy flycatcher of foothill and lower montane forest, in Colombia at 900–2,000 m. It lacks the black-and-white face of a kiskadee: the head is olive and the brow is the same lemon tone as the throat, so at a distance the bird looks almost entirely yellow. Its odd twittering call is usually noticed first.
+Lemon-browed Flycatcher is a fairly common but local canopy flycatcher of foothill and lower montane forest, in Colombia at 900–2,000 m. It lacks the black-and-white face of a kiskadee: the head is olive and the brow is the same lemon tone as the throat, so at a distance the bird looks almost entirely yellow. Its odd twittering call is usually noticed first.
 
 On the route it is "maybe" at Isla Escondida on 7–11 October and at Trampolín de Aves on 15 October. Check treetops along edges and roadsides.

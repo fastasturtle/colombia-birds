@@ -2,6 +2,7 @@
 id: myiarchus-ferox
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь серые, брюхо и подхвостье светло-жёлтые"
   - "Верх дымчато-бурый, на макушке небольшой хохолок того же цвета, что спина"
@@ -9,7 +10,7 @@ key_features:
   - "Крыло без рыжего, полосы на кроющих бледно-бурые, неяркие"
 similar:
   - id: myiarchus-tuberculifer
-    how: "мельче, шапочка почти чёрная, заметно темнее спины, на крыле рыжеватые каймы"
+    how: "мельче, шапочка тёмная, сажисто-бурая, заметно темнее спины; голос — жалобный нисходящий свист"
 behavior: "Держится поодиночке или парами на опушках, во вторичном лесу, на заросших вырубках и у рек, обычно в нижнем и среднем ярусе. Подлетает к листве и хватает насекомых на коротком зависании, ест и мелкие плоды; гнездится в дуплах."
 voice: "Короткая мягкая вибрирующая трель «пррррии», повторяемая с паузами; позывки — хриплые свисты и «икание»."
 traits:
@@ -32,7 +33,7 @@ en:
     - "No rufous in the wing; wing bars pale brown and faint"
   similar:
     - id: myiarchus-tuberculifer
-      how: "smaller, almost black cap clearly darker than the back, rufous-tinged wing edgings"
+      how: "smaller, dark sooty-brown cap clearly darker than the back; voice a plaintive descending whistle"
   behavior: "Keeps singly or in pairs along edges, in second growth, overgrown clearings and by rivers, usually low to mid-level. Flies up to foliage and grabs insects while briefly hovering; also eats small fruit and nests in tree holes."
   voice: "A short, soft, vibrating trill 'prrrrih', repeated with pauses; calls include rasping whistles and hiccups."
 ---
