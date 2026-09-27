@@ -2,10 +2,16 @@
  "authorship": "(Rothschild, 1902)",
  "colombia": {
   "endemic": false,
+  "endemic_source": {
+   "category": "near_endemic",
+   "code": "CEa",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
   "habitat_aco": "Marine",
   "introduced": false,
   "libro_rojo": "VU",
   "migration_note": "Residente",
+  "near_endemic": true,
   "status": [
    "resident"
   ],

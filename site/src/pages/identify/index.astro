@@ -3,7 +3,7 @@
  * Identifier by traits (content/traits.yaml + species cards). The species data goes into the page as one compact
  * JSON block (<script type="application/json" id="identify-data">) that Identifier.svelte reads on mount:
  * {id, en, ru, photo, t: traits, st: {siteId: 's'|'m'} (unlikely omitted), hl: sites where it is a trip-report
- * target, x: endemic or range-restricted}. Grows with the cards; keep it under ~300 KB.
+ * target, x: endemic, near-endemic or range-restricted, e: endemic, n: near-endemic (not endemic)}. Grows with the cards; keep it under ~300 KB.
  */
 import Base from '../../layouts/Base.astro';
 import Identifier from '../../components/Identifier.svelte';
@@ -26,8 +26,9 @@ const items = [...speciesCards().values()].map((c) => {
   return {
     id: c.id, en: s.en, ru: s.ru, photo: s.photo, t: c.traits, st,
     hl: siteList.filter((x) => x.target_species?.includes(c.id)).map((x) => x.id),
-    x: s.endemic || rr.has(c.id),
+    x: s.endemic || s.near_endemic || rr.has(c.id),
     e: s.endemic,
+    n: s.near_endemic && !s.endemic,
   };
 });
 const json = JSON.stringify(items).replace(/</g, '\\u003c');

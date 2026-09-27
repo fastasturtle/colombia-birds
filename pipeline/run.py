@@ -1,7 +1,7 @@
 """Run pipeline steps in order. Usage: uv run python run.py [step ...] [--only slug ...]
 
 Steps: aco ebird birdbase wikidata build   (default: all of these, in order)
-Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, hotspots, study) are run explicitly.
+Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study) are run explicitly.
 
 Steps may also be given as one whitespace-separated string ("wikipedia photos upload"), as the CI
 workflow does. `--only slug ...` restricts per-species steps (wikipedia, photos, upload) to those
@@ -35,6 +35,7 @@ FILES = {
     "family_names": "fetch_family_names.py",
     "hotspots": "verify_hotspots.py",
     "study": "build_study_lists.py",
+    "endemics": "fetch_endemics.py",
 }
 
 args = " ".join(sys.argv[1:]).split()

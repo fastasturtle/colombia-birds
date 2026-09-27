@@ -2,10 +2,16 @@
  "authorship": "(Boissonneau, 1840)",
  "colombia": {
   "endemic": false,
+  "endemic_source": {
+   "category": "near_endemic",
+   "code": "CE",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
   "habitat_aco": "Grassland",
   "introduced": false,
   "libro_rojo": "No Evaluado",
   "migration_note": "Residente",
+  "near_endemic": true,
   "status": [
    "resident"
   ],

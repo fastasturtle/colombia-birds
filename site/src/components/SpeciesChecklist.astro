@@ -1,7 +1,7 @@
 ---
 /**
  * Species of a place grouped by family in taxonomic order, following the site-wide filter
- * (wrap in FilterScope and mount ListFilter above). Rows carry data-st / data-int; families are data-lf-group
+ * (wrap in FilterScope and mount ListFilter above). Rows carry data-st / data-int / data-nend / data-end; families are data-lf-group
  * with live counts. Long lists (>= collapseFrom) render every family as a closed <details>.
  */
 import StateWord from './StateWord.astro';
@@ -35,7 +35,7 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
             <span class="cnt"><span data-lf-gcount>{g.rows.length}</span><b class="hl" data-lf-gint hidden></b></span>
           </summary>
           {g.rows.map((r) => (
-            <a class="row sp" href={`${base}species/${r.s.id}/`} data-st={r.state} data-int={r.why.length ? '' : undefined}>
+            <a class="row sp" href={`${base}species/${r.s.id}/`} data-st={r.state} data-int={r.why.length ? '' : undefined} data-nend={r.s.endemic || r.s.near_endemic ? '' : undefined} data-end={r.s.endemic ? '' : undefined}>
               {r.s.photo ? <img class="thumb" src={mediaUrl(r.s.photo)} alt="" loading="lazy" width="48" height="48" /> : <span class="thumb empty" aria-hidden="true"></span>}
               <span class="txt">
                 <span class="l1">{r.why.length > 0 && <b class="star" title={`интересная: ${r.why.map((w) => WHY_RU[w]).join(', ')}`}>★</b>}<strong>{r.s.en}</strong>{r.s.ru && <span> · {r.s.ru}</span>}</span>
@@ -43,6 +43,7 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
                 <span class="tags">
                   <StateWord state={r.state} title={recs(r.n)} />
                   {r.s.endemic && <span class="en" title="эндемик Колумбии">энд.</span>}
+                  {r.s.near_endemic && !r.s.endemic && <span class="en" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>}
                   {r.s.iucn && r.s.iucn !== 'LC' && <span class="chip iucn" title={IUCN_RU[r.s.iucn]}>IUCN {r.s.iucn}</span>}
                 </span>
               </span>

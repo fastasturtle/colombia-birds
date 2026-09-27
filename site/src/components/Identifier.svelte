@@ -8,9 +8,9 @@
    */
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
-  import { filter, passes } from '../lib/filter';
+  import { filter, passes, tierOf } from '../lib/filter';
   type State = 'sure' | 'maybe' | 'unlikely';
-  interface Item { id: string; en: string; ru: string | null; photo: string | null; t: Record<string, string[]>; st: Record<string, 's' | 'm'>; hl: string[]; x: boolean; e: boolean }
+  interface Item { id: string; en: string; ru: string | null; photo: string | null; t: Record<string, string[]>; st: Record<string, 's' | 'm'>; hl: string[]; x: boolean; e: boolean; n?: boolean }
   interface Group { key: string; label: string; values: { key: string; label: string; hint: string | null }[] }
   interface Place { key: string; label: string; group: string; sites: string[] }
   let { vocab, places, mediaBase, total, marked }: { vocab: Group[]; places: Place[]; mediaBase: string; total: number; marked: number } = $props();
@@ -79,7 +79,7 @@
       })
       .sort((a, b) => Number(b.int) - Number(a.int) || RANK[b.state] - RANK[a.state] || a.it.en.localeCompare(b.it.en));
   });
-  let shown = $derived(rows.filter((r) => passes($filter, r.state, r.int)));
+  let shown = $derived(rows.filter((r) => passes($filter, r.state, tierOf(r.int, !!r.it.n, r.it.e))));
   /**
    * counts[group][value] = species shown (place + filter) if that chip were added to the selection:
    * OR within the chip's group (union with what is already selected there), AND with every other group.
@@ -94,7 +94,7 @@
     const selG = vocab.filter((g) => sel[g.key]?.length).map((g) => ({ key: g.key, vs: sel[g.key] }));
     items.forEach((it, i) => {
       const int = it.x || it.hl.some((s) => placeSites.includes(s));
-      if (!passes(f, stateAt(it, placeSites), int)) return;
+      if (!passes(f, stateAt(it, placeSites), tierOf(int, !!it.n, it.e))) return;
       const ts = sets[i];
       let fail: string | null = null;
       for (const { key, vs } of selG) {
@@ -149,7 +149,7 @@
 
   <div class="sum">
     <strong>{#if items}Подходят {shown.length} {plural(shown.length, 'вид', 'вида', 'видов')}{:else}Загрузка…{/if}</strong>
-    {#if hidden > 0}<span class="muted"> · ещё {hidden} скрыто фильтром · <button type="button" class="lnk" onclick={() => filter.update((f) => ({ ...f, level: 'all', interesting: false }))}>показать</button></span>{/if}
+    {#if hidden > 0}<span class="muted"> · ещё {hidden} скрыто фильтром · <button type="button" class="lnk" onclick={() => filter.update((f) => ({ ...f, level: 'all', tag: 'all' }))}>показать</button></span>{/if}
     {#if nSel > 0}<button type="button" class="reset" onclick={reset}>Сбросить признаки ({nSel})</button>{/if}
   </div>
 
@@ -158,10 +158,10 @@
       <a class="tile" href={`${base}species/${r.it.id}/`}>
         <span class="ph">
           {#if r.it.photo}<img src={`${mediaBase}/${r.it.photo}`} alt="" loading="lazy" />{:else}<span class="empty">🐦</span>{/if}
-          {#if r.int || r.it.e}
+          {#if r.int || r.it.e || r.it.n}
             <span class="badges">
               {#if r.int}<span class="b hl" title="интересная">★</span>{/if}
-              {#if r.it.e}<span class="b en" title="эндемик Колумбии">энд.</span>{/if}
+              {#if r.it.e}<span class="b en" title="эндемик Колумбии">энд.</span>{:else if r.it.n}<span class="b ne" title="почти-эндемик Колумбии">п.-энд.</span>{/if}
             </span>
           {/if}
         </span>
@@ -212,6 +212,7 @@
   .b { font-size: .68rem; font-weight: 700; line-height: 1; padding: 3px 5px; border-radius: 6px; color: #fff; background: rgba(0,0,0,.6); }
   .b.hl { background: var(--accent-2); }
   .b.en { background: #14532d; }
+  .b.ne { background: #3f6212; }
   .nm { font-weight: 600; padding-top: 4px; overflow-wrap: anywhere; hyphens: auto; }
   .ru { color: var(--muted); overflow-wrap: anywhere; hyphens: auto; }
   .stw { font-size: .75rem; font-weight: 600; }

@@ -96,7 +96,7 @@ const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.
   {byDay.length > 0 && (
     <div class="card block days">
       <h2>Это семейство по дням маршрута</h2>
-      <p class="muted small">Виды семейства на локациях дня (GBIF); <span class="chip hl mini">★</span> — интересные: цели из отчётов о поездках, эндемики, узкий ареал.</p>
+      <p class="muted small">Виды семейства на локациях дня (GBIF); <span class="chip hl mini">★</span> — интересные: цели из отчётов о поездках, эндемики и почти-эндемики, узкий ареал.</p>
       <FilterScope>
         <ListFilter client:load />
         <ol class="dl">
@@ -105,7 +105,7 @@ const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.
               <a class="dh" href={`${base}days/${day.date}/`}><b>{fmtDateRu(day.date, false)}</b> <span class="muted">· {dayLabel(day)} · {day.title_ru}</span></a>
               <div class="chips">
                 {list.map(({ s, p }) => (
-                  <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined}
+                  <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined} data-nend={s.endemic || s.near_endemic ? '' : undefined} data-end={s.endemic ? '' : undefined}
                     title={[s.ru, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}{s.en} <StateWord state={p.state} /></a>
                 ))}
               </div>

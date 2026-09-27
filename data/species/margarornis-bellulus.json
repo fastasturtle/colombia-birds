@@ -2,10 +2,16 @@
  "authorship": "(Nelson, 1912)",
  "colombia": {
   "endemic": false,
+  "endemic_source": {
+   "category": "insufficient_info",
+   "code": "II",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
   "habitat_aco": "Shrubland",
   "introduced": false,
   "libro_rojo": "VU",
   "migration_note": "Residente",
+  "near_endemic": false,
   "status": [
    "resident"
   ],

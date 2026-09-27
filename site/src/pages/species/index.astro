@@ -4,7 +4,7 @@ import SpeciesList from '../../components/SpeciesList.svelte';
 import { speciesIndex, families, routeState, whyInteresting } from '@lib/data';
 // No place context: state = best across the route's sites, «интересная» over the whole route.
 const items = speciesIndex().map((s) => ({
-  id: s.id, sci: s.sci, en: s.en, ru: s.ru, family: s.family, endemic: s.endemic, elev: s.elev, photo: s.photo,
+  id: s.id, sci: s.sci, en: s.en, ru: s.ru, family: s.family, endemic: s.endemic, near: s.near_endemic, elev: s.elev, photo: s.photo,
   state: routeState(s.id), int: whyInteresting(s.id).length > 0,
 }));
 const fams = Object.fromEntries(families().map((f) => [f.code, f.names.ru ?? f.names.en]));

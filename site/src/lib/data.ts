@@ -22,6 +22,8 @@ function readJson<T>(rel: string, fallback?: T): T {
 export interface IndexEntry {
   id: string; sci: string; en: string; ru: string | null; family: string; order: string;
   taxon_order: number; status: string[]; endemic: boolean; iucn: string;
+  /** near-endemic of Colombia (pipeline field; missing in older data = false) */
+  near_endemic: boolean;
   elev: [number | null, number | null] | null; habitat: string | null; photo: string | null;
 }
 export interface Family {
@@ -71,7 +73,7 @@ export function focusSpecies(): Set<string> {
 
 let _index: IndexEntry[] | null = null;
 export function speciesIndex(): IndexEntry[] {
-  return (_index ??= readJson<IndexEntry[]>('species_index.json'));
+  return (_index ??= readJson<IndexEntry[]>('species_index.json').map((s) => ({ ...s, near_endemic: s.near_endemic === true })));
 }
 export function families(): Family[] {
   return readJson<Family[]>('families.json');
@@ -165,7 +167,7 @@ export const HABITAT_RU: Record<string, string> = {
 /* ---- Likelihood per (species, place) and «интересная» (pipeline steps gbif_sites + study) ----
  * state: sure («точно», GBIF autumn freq >= 1% within the site radius), maybe («возможно», 0.1–1%),
  * unlikely («вряд ли», < 0.1%, < 3 autumn records, or not in the site's GBIF list). Thresholds: pipeline/common.py.
- * interesting: trip-report highlight at the place, Colombian endemic, or range-restricted; independent of state. */
+ * interesting: trip-report highlight at the place, Colombian endemic or near-endemic, or range-restricted; independent of state. */
 export type State = 'sure' | 'maybe' | 'unlikely';
 export const STATES: State[] = ['sure', 'maybe', 'unlikely'];
 export const STATE_RU: Record<State, string> = { sure: 'точно', maybe: 'возможно', unlikely: 'вряд ли' };
@@ -174,8 +176,8 @@ export function asState(x: unknown): State {
   return x === 'sure' || x === 'maybe' ? x : 'unlikely';
 }
 export const bestState = (xs: State[]): State => xs.reduce<State>((a, b) => (STATE_RANK[b] > STATE_RANK[a] ? b : a), 'unlikely');
-export type Why = 'highlight' | 'endemic' | 'range_restricted';
-export const WHY_RU: Record<Why, string> = { highlight: 'цель из отчётов о поездках', endemic: 'эндемик Колумбии', range_restricted: 'узкий ареал' };
+export type Why = 'highlight' | 'endemic' | 'near_endemic' | 'range_restricted';
+export const WHY_RU: Record<Why, string> = { highlight: 'цель из отчётов о поездках', endemic: 'эндемик Колумбии', near_endemic: 'почти-эндемик Колумбии', range_restricted: 'узкий ареал' };
 
 export interface SiteSpeciesEntry { id: string; n: number; n_aut: number; freq_aut: number; state: State }
 export interface SiteSpecies {
@@ -203,6 +205,11 @@ export function rangeRestricted(): Set<string> {
   return (_rr ??= new Set(allSpecies().filter((s) => s.traits?.range_restricted === 1).map((s) => s.id)));
 }
 let _endemic: Set<string> | null = null;
+let _nearEndemic: Set<string> | null = null;
+/** Near-endemics of Colombia that are not endemics (species_index `near_endemic`). */
+export function nearEndemics(): Set<string> {
+  return (_nearEndemic ??= new Set(speciesIndex().filter((s) => s.near_endemic && !s.endemic).map((s) => s.id)));
+}
 /** Reasons a species is «интересная» at the given sites (all route sites when omitted). */
 export function whyInteresting(spId: string, siteIds?: string[]): Why[] {
   _endemic ??= new Set(speciesIndex().filter((s) => s.endemic).map((s) => s.id));
@@ -211,6 +218,7 @@ export function whyInteresting(spId: string, siteIds?: string[]): Why[] {
   const out: Why[] = [];
   if (ids.some((sid) => siteOf.get(sid)?.target_species?.includes(spId))) out.push('highlight');
   if (_endemic.has(spId)) out.push('endemic');
+  if (nearEndemics().has(spId)) out.push('near_endemic');
   if (rangeRestricted().has(spId)) out.push('range_restricted');
   return out;
 }
@@ -288,6 +296,8 @@ export function studyList(date: string): StudyList | null {
         sites: Array.isArray(v.sites) ? v.sites : [],
         species: (Array.isArray(v.species) ? v.species : []).filter((f) => f && known.has(f.id)).map((f) => {
           const why = (Array.isArray(f.why) ? f.why : []).filter((w): w is Why => w in WHY_RU);
+          // the site owns the near-endemic rule too: add it even when study_lists.json predates the flag
+          if (nearEndemics().has(f.id) && !why.includes('near_endemic')) why.push('near_endemic');
           return { id: f.id, state: asState(f.state), why, interesting: why.length > 0,
             freq_aut: typeof f.freq_aut === 'number' ? f.freq_aut : 0, new_for_route: !!f.new_for_route };
         }),

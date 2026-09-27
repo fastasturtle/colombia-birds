@@ -2,10 +2,16 @@
  "authorship": "(Meyer de Schauensee, 1967)",
  "colombia": {
   "endemic": true,
+  "endemic_source": {
+   "category": "endemic",
+   "code": "E",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
   "habitat_aco": "Forest",
   "introduced": false,
   "libro_rojo": "EN",
   "migration_note": "Residente",
+  "near_endemic": false,
   "status": [
    "endemic"
   ],

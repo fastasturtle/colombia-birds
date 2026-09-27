@@ -1,9 +1,9 @@
 <script lang="ts">
   /** All-species list: search + elevation + the site-wide filter (state = best across route sites, see lib/data routeState). */
   import ListFilter from './ListFilter.svelte';
-  import { filter, passes } from '../lib/filter';
+  import { filter, passes, passesTag, tierOf } from '../lib/filter';
   type State = 'sure' | 'maybe' | 'unlikely';
-  interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean }
+  interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; near: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean }
   let { items, families, base, mediaBase }: { items: Item[]; families: Record<string, string>; base: string; mediaBase: string } = $props();
   const STATE_RU: Record<State, string> = { sure: 'точно', maybe: 'возможно', unlikely: 'вряд ли' };
   const LIMIT = 300;
@@ -18,8 +18,8 @@
       return norm(s.en).includes(t) || norm(s.sci).includes(t) || (s.ru ? norm(s.ru).includes(t) : false) || norm(families[s.family] ?? '').includes(t);
     });
   });
-  let shown = $derived(matched.filter((s) => passes($filter, s.state, s.int)));
-  let more = $derived(matched.filter((s) => !passes($filter, s.state, s.int) && (!$filter.interesting || s.int)));
+  let shown = $derived(matched.filter((s) => passes($filter, s.state, tierOf(s.int, s.near, s.endemic))));
+  let more = $derived(matched.filter((s) => !passes($filter, s.state, tierOf(s.int, s.near, s.endemic)) && passesTag($filter, tierOf(s.int, s.near, s.endemic))));
   let moreU = $derived(more.filter((s) => s.state === 'unlikely').length);
   const plural = (n: number, a: string, b: string, c: string) => {
     const m10 = n % 10, m100 = n % 100;
@@ -39,7 +39,7 @@
     <div class="txt">
       <div>{#if s.int}<b class="star" title="интересная">★</b>{/if}<strong>{s.en}</strong></div>
       <div class="muted"><span class="sci">{s.sci}</span>{#if s.ru} · {s.ru}{/if} · <span>{families[s.family]}</span></div>
-      <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<span class="en" title="эндемик Колумбии">энд.</span>{/if}</div>
+      <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<span class="en" title="эндемик Колумбии">энд.</span>{:else if s.near}<span class="en" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>{/if}</div>
     </div>
   </a>
 {/each}

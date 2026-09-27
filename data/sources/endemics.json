@@ -1,0 +1,6393 @@
+{
+ "citation": "Chaparro-Herrera, S., Lozano, A. & Echeverry-Galvis, M. A. (2024). Aves endémicas y casi-endémicas de Colombia: actualización. Ornitología Colombiana 25: 34-45. https://doi.org/10.59517/oc.e580",
+ "count": 323,
+ "counts": {
+  "endemic": 87,
+  "insufficient_info": 17,
+  "near_endemic": 202,
+  "of_interest": 17
+ },
+ "license": "CC BY-NC 4.0",
+ "source_url": "https://revistas.ornitologiacolombiana.com/index.php/roc/article/download/580/496",
+ "species": {
+  "aglaiocercus coelestis": {
+   "aco_key": "aglaiocercus coelestis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Aglaiocercus coelestis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "anas andium": {
+   "aco_key": "anas andium",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "C5a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Anas andium",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "andigena nigrirostris": {
+   "aco_key": "andigena nigrirostris",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B6",
+    "B8",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Andigena nigrirostris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "androdon aequatorialis": {
+   "aco_key": "androdon aequatorialis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Androdon aequatorialis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "anisognathus melanogenys": {
+   "aco_key": "anisognathus melanogenys",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Anisognathus melanogenys",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "anisognathus notabilis": {
+   "aco_key": "anisognathus notabilis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Anisognathus notabilis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "anthocephala berlepschi": {
+   "aco_key": "anthocephala berlepschi",
+   "added_2023": true,
+   "bands": [
+    "B6",
+    "C4",
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (ssp. A. floriceps)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Anthocephala berlepschi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "anthocephala floriceps": {
+   "aco_key": "anthocephala floriceps",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A5",
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Anthocephala floriceps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "aphanotriccus audax": {
+   "aco_key": "aphanotriccus audax",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Aphanotriccus audax",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ara ambiguus": {
+   "aco_key": "ara ambiguus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "Cr",
+    "Ho",
+    "Ni",
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ara ambiguus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "aramides wolfi": {
+   "aco_key": "aramides wolfi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E1",
+    "Pe1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Aramides wolfi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "arremon atricapillus": {
+   "aco_key": "arremon atricapillus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "B4a",
+    "B5",
+    "B7",
+    "B8a",
+    "B9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Arremon atricapillus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "arremon basilicus": {
+   "aco_key": "arremon basilicus",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Arremon basilicus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "arremon perijanus": {
+   "aco_key": "arremon perijanus",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "C2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Arremon perijanus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "arremon schlegeli": {
+   "aco_key": "arremon schlegeli",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1",
+    "B2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V1",
+    "V2",
+    "V3",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Arremon schlegeli",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "arremonops tocuyensis": {
+   "aco_key": "arremonops tocuyensis",
+   "added_2023": false,
+   "bands": [
+    "A1a"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "V1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Arremonops tocuyensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "asthenes perijana": {
+   "aco_key": "asthenes perijana",
+   "added_2023": false,
+   "bands": [
+    "C2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Asthenes perijana",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "atlapetes albofrenatus": {
+   "aco_key": "atlapetes albofrenatus",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "B8a",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Atlapetes albofrenatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "atlapetes blancae": {
+   "aco_key": "atlapetes blancae",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Atlapetes blancae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "atlapetes flaviceps": {
+   "aco_key": "atlapetes flaviceps",
+   "added_2023": false,
+   "bands": [
+    "B4b",
+    "B5",
+    "B6"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Atlapetes flaviceps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "atlapetes fuscoolivaceus": {
+   "aco_key": "atlapetes fuscoolivaceus",
+   "added_2023": false,
+   "bands": [
+    "B6",
+    "B4a",
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Atlapetes fuscoolivaceus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "atlapetes melanocephalus": {
+   "aco_key": "atlapetes melanocephalus",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Atlapetes melanocephalus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "atlapetes pallidinucha": {
+   "aco_key": "atlapetes pallidinucha",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "Pe2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Atlapetes pallidinucha",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "aulacorhynchus haematopygus": {
+   "aco_key": "aulacorhynchus haematopygus",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "E2",
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Aulacorhynchus haematopygus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bangsia aureocincta": {
+   "aco_key": "bangsia aureocincta",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bangsia aureocincta",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bangsia edwardsi": {
+   "aco_key": "bangsia edwardsi",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bangsia edwardsi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bangsia flavovirens": {
+   "aco_key": "bangsia flavovirens",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bangsia flavovirens",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bangsia melanochlamys": {
+   "aco_key": "bangsia melanochlamys",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bangsia melanochlamys",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bangsia rothschildi": {
+   "aco_key": "bangsia rothschildi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bangsia rothschildi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "basileuterus ignotus": {
+   "aco_key": "basileuterus ignotus",
+   "added_2023": false,
+   "bands": [
+    "B9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Basileuterus ignotus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "boissonneaua jardini": {
+   "aco_key": "boissonneaua jardini",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Boissonneaua jardini",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bolborhynchus ferrugineifrons": {
+   "aco_key": "bolborhynchus ferrugineifrons",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bolborhynchus ferrugineifrons",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "brachygalba salmoni": {
+   "aco_key": "brachygalba salmoni",
+   "added_2023": false,
+   "bands": [
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Brachygalba salmoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "bucco noanamae": {
+   "aco_key": "bucco noanamae",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Bucco noanamae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "campylopterus falcatus": {
+   "aco_key": "campylopterus falcatus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "B1",
+    "B2",
+    "B4a",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4",
+    "V6",
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Campylopterus falcatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "campylopterus phainopeplus": {
+   "aco_key": "campylopterus phainopeplus",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Campylopterus phainopeplus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "campylorhynchus albobrunneus": {
+   "aco_key": "campylorhynchus albobrunneus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Campylorhynchus albobrunneus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cantorchilus leucopogon": {
+   "aco_key": "cantorchilus leucopogon",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cantorchilus leucopogon",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "capito hypoleucus": {
+   "aco_key": "capito hypoleucus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "B7",
+    "B5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Capito hypoleucus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "capito maculicoronatus": {
+   "aco_key": "capito maculicoronatus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Capito maculicoronatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "capito quinticolor": {
+   "aco_key": "capito quinticolor",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Capito quinticolor",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "carpodectes hopkei": {
+   "aco_key": "carpodectes hopkei",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Carpodectes hopkei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cephalopterus penduliger": {
+   "aco_key": "cephalopterus penduliger",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cephalopterus penduliger",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cercomacroides parkeri": {
+   "aco_key": "cercomacroides parkeri",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B5",
+    "B6",
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cercomacroides parkeri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chaetocercus astreans": {
+   "aco_key": "chaetocercus astreans",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chaetocercus astreans",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chaetocercus heliodor": {
+   "aco_key": "chaetocercus heliodor",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chaetocercus heliodor",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chalcostigma herrani": {
+   "aco_key": "chalcostigma herrani",
+   "added_2023": false,
+   "bands": [
+    "C3",
+    "C4"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chalcostigma herrani",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chalcostigma heteropogon": {
+   "aco_key": "chalcostigma heteropogon",
+   "added_2023": false,
+   "bands": [
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chalcostigma heteropogon",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chalybura urochrysia": {
+   "aco_key": "chalybura urochrysia",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "Cr",
+    "P",
+    "E1",
+    "Ni",
+    "Ho"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chalybura urochrysia",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chamaeza turdina": {
+   "aco_key": "chamaeza turdina",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B8",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chamaeza turdina",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chauna chavaria": {
+   "aco_key": "chauna chavaria",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chauna chavaria",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorestes julie": {
+   "aco_key": "chlorestes julie",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A5",
+    "B5",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1",
+    "Pe1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorestes julie",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorochrysa nitidissima": {
+   "aco_key": "chlorochrysa nitidissima",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorochrysa nitidissima",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorochrysa phoenicotis": {
+   "aco_key": "chlorochrysa phoenicotis",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorochrysa phoenicotis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorophonia flavirostris": {
+   "aco_key": "chlorophonia flavirostris",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorophonia flavirostris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chloropipo flavicapilla": {
+   "aco_key": "chloropipo flavicapilla",
+   "added_2023": true,
+   "bands": [
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "CE",
+   "code": "E",
+   "code_2013": "CE",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chloropipo flavicapilla",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorospingus inornatus": {
+   "aco_key": "chlorospingus inornatus",
+   "added_2023": true,
+   "bands": [
+    "B9"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "NC (nuevos registros)",
+   "code": "II",
+   "code_2013": "NC",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorospingus inornatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorospingus semifuscus": {
+   "aco_key": "chlorospingus semifuscus",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "C3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorospingus semifuscus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorospingus tacarcunae": {
+   "aco_key": "chlorospingus tacarcunae",
+   "added_2023": false,
+   "bands": [
+    "B9"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorospingus tacarcunae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorostilbon gibsoni": {
+   "aco_key": "chlorostilbon gibsoni",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A5",
+    "A6",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorostilbon gibsoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorostilbon melanorhynchus": {
+   "aco_key": "chlorostilbon melanorhynchus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3",
+    "B4a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorostilbon melanorhynchus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorostilbon olivaresi": {
+   "aco_key": "chlorostilbon olivaresi",
+   "added_2023": false,
+   "bands": [
+    "A8"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorostilbon olivaresi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorostilbon poortmani": {
+   "aco_key": "chlorostilbon poortmani",
+   "added_2023": false,
+   "bands": [
+    "A5",
+    "B6",
+    "B7",
+    "B8a",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorostilbon poortmani",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorostilbon russatus": {
+   "aco_key": "chlorostilbon russatus",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "A1",
+    "B2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorostilbon russatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorostilbon stenurus": {
+   "aco_key": "chlorostilbon stenurus",
+   "added_2023": false,
+   "bands": [
+    "B8"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorostilbon stenurus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorothraupis olivacea": {
+   "aco_key": "chlorothraupis olivacea",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B3",
+    "B5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorothraupis olivacea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chlorothraupis stolzmanni": {
+   "aco_key": "chlorothraupis stolzmanni",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chlorothraupis stolzmanni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chrysothlypis salmoni": {
+   "aco_key": "chrysothlypis salmoni",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chrysothlypis salmoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chrysuronia coeruleogularis": {
+   "aco_key": "chrysuronia coeruleogularis",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chrysuronia coeruleogularis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chrysuronia goudoti": {
+   "aco_key": "chrysuronia goudoti",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A5",
+    "B8a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chrysuronia goudoti",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chrysuronia grayi": {
+   "aco_key": "chrysuronia grayi",
+   "added_2023": false,
+   "bands": [
+    "A4",
+    "B4",
+    "B3a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chrysuronia grayi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chrysuronia humboldtii": {
+   "aco_key": "chrysuronia humboldtii",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chrysuronia humboldtii",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "chrysuronia lilliae": {
+   "aco_key": "chrysuronia lilliae",
+   "added_2023": false,
+   "bands": [
+    "A1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Chrysuronia lilliae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cinclodes albidiventris": {
+   "aco_key": "cinclodes albidiventris",
+   "added_2023": false,
+   "bands": [
+    "C1",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cinclodes albidiventris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cinnycerthia olivascens": {
+   "aco_key": "cinnycerthia olivascens",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B6",
+    "B7",
+    "B8",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cinnycerthia olivascens",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cinnycerthia unirufa": {
+   "aco_key": "cinnycerthia unirufa",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "C5",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4",
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cinnycerthia unirufa",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cistothorus apolinari": {
+   "aco_key": "cistothorus apolinari",
+   "added_2023": false,
+   "bands": [
+    "C5a"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cistothorus apolinari",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "clibanornis rufipectus": {
+   "aco_key": "clibanornis rufipectus",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Clibanornis rufipectus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "clytoctantes alixii": {
+   "aco_key": "clytoctantes alixii",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "B2",
+    "B5",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Clytoctantes alixii",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coccycua pumila": {
+   "aco_key": "coccycua pumila",
+   "added_2023": true,
+   "bands": [
+    "A1",
+    "A2",
+    "B5",
+    "C4",
+    "B3a",
+    "B4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "EI",
+   "code": "CE",
+   "code_2013": "EI",
+   "countries": [
+    "P",
+    "E1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "B"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coccycua pumila",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena bonapartei": {
+   "aco_key": "coeligena bonapartei",
+   "added_2023": false,
+   "bands": [
+    "C2",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena bonapartei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena helianthea": {
+   "aco_key": "coeligena helianthea",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "C2",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena helianthea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena lutetiae": {
+   "aco_key": "coeligena lutetiae",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena lutetiae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena orina": {
+   "aco_key": "coeligena orina",
+   "added_2023": false,
+   "bands": [
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena orina",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena phalerata": {
+   "aco_key": "coeligena phalerata",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena phalerata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena prunellei": {
+   "aco_key": "coeligena prunellei",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena prunellei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "coeligena wilsoni": {
+   "aco_key": "coeligena wilsoni",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Coeligena wilsoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "conirostrum rufum": {
+   "aco_key": "conirostrum rufum",
+   "added_2023": false,
+   "bands": [
+    "C1",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Conirostrum rufum",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "corapipo leucorrhoa": {
+   "aco_key": "corapipo leucorrhoa",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "A6",
+    "B2",
+    "B4a",
+    "B5",
+    "B7",
+    "B8a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "V2",
+    "V3",
+    "V5"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Corapipo leucorrhoa",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cotinga nattererii": {
+   "aco_key": "cotinga nattererii",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cotinga nattererii",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cranioleuca hellmayri": {
+   "aco_key": "cranioleuca hellmayri",
+   "added_2023": true,
+   "bands": [
+    "B1",
+    "B2",
+    "C1"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "E",
+   "code": "CE",
+   "code_2013": "E",
+   "countries": [
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cranioleuca hellmayri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "crax alberti": {
+   "aco_key": "crax alberti",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Crax alberti",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "creagrus furcatus": {
+   "aco_key": "creagrus furcatus",
+   "added_2023": false,
+   "bands": [
+    "A10a",
+    "A10b"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CEa",
+   "code": "CEa",
+   "code_2013": "CEa",
+   "countries": [
+    "E1a"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Creagrus furcatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cryptoleucopteryx plumbea": {
+   "aco_key": "cryptoleucopteryx plumbea",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "Pe1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cryptoleucopteryx plumbea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "crypturellus berlepschi": {
+   "aco_key": "crypturellus berlepschi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Crypturellus berlepschi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "crypturellus casiquiare": {
+   "aco_key": "crypturellus casiquiare",
+   "added_2023": false,
+   "bands": [
+    "A8"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "B",
+    "Pe3",
+    "V5"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Crypturellus casiquiare",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "crypturellus duidae": {
+   "aco_key": "crypturellus duidae",
+   "added_2023": true,
+   "bands": [
+    "A8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "II",
+   "code": "CE",
+   "code_2013": "II",
+   "countries": [
+    "V5",
+    "Pe3",
+    "B"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Crypturellus duidae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "crypturellus kerriae": {
+   "aco_key": "crypturellus kerriae",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Crypturellus kerriae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cyanocorax affinis": {
+   "aco_key": "cyanocorax affinis",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A6",
+    "B1",
+    "B2",
+    "B3",
+    "B5",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cyanocorax affinis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cyanolyca armillata": {
+   "aco_key": "cyanolyca armillata",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "B5",
+    "B6",
+    "B8",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cyanolyca armillata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cyanolyca pulchra": {
+   "aco_key": "cyanolyca pulchra",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "C3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cyanolyca pulchra",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cyclarhis nigrirostris": {
+   "aco_key": "cyclarhis nigrirostris",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8b",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cyclarhis nigrirostris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cypseloides cherriei": {
+   "aco_key": "cypseloides cherriei",
+   "added_2023": true,
+   "bands": [
+    "B7"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "II",
+   "code": "EI",
+   "code_2013": "II",
+   "countries": [
+    "Cr",
+    "V6",
+    "E2",
+    "E3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cypseloides cherriei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "cypseloides lemosi": {
+   "aco_key": "cypseloides lemosi",
+   "added_2023": false,
+   "bands": [
+    "B4a"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "E3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Cypseloides lemosi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "dacnis berlepschi": {
+   "aco_key": "dacnis berlepschi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Dacnis berlepschi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "dacnis hartlaubi": {
+   "aco_key": "dacnis hartlaubi",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3",
+    "B4",
+    "B6",
+    "B7",
+    "C5a"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Dacnis hartlaubi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "dacnis viguieri": {
+   "aco_key": "dacnis viguieri",
+   "added_2023": false,
+   "bands": [
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Dacnis viguieri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "diglossa gloriosissima": {
+   "aco_key": "diglossa gloriosissima",
+   "added_2023": false,
+   "bands": [
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Diglossa gloriosissima",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "diglossa indigotica": {
+   "aco_key": "diglossa indigotica",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Diglossa indigotica",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "drymophila caudata": {
+   "aco_key": "drymophila caudata",
+   "added_2023": false,
+   "bands": [
+    "B6",
+    "B8b",
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Drymophila caudata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "drymophila hellmayri": {
+   "aco_key": "drymophila hellmayri",
+   "added_2023": false,
+   "bands": [
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Drymophila hellmayri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "dryobates chocoensis": {
+   "aco_key": "dryobates chocoensis",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Dryobates chocoensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "dryobates dignus": {
+   "aco_key": "dryobates dignus",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B5",
+    "B6",
+    "B8a",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Pe2",
+    "E2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Dryobates dignus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "dysithamnus occidentalis": {
+   "aco_key": "dysithamnus occidentalis",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "E3",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Dysithamnus occidentalis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "entomodestes coracinus": {
+   "aco_key": "entomodestes coracinus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Entomodestes coracinus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "eriocnemis cupreoventris": {
+   "aco_key": "eriocnemis cupreoventris",
+   "added_2023": false,
+   "bands": [
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Eriocnemis cupreoventris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "eriocnemis derbyi": {
+   "aco_key": "eriocnemis derbyi",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Eriocnemis derbyi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "eriocnemis godini": {
+   "aco_key": "eriocnemis godini",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Eriocnemis godini",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "eriocnemis isabellae": {
+   "aco_key": "eriocnemis isabellae",
+   "added_2023": false,
+   "bands": [
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Eriocnemis isabellae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "eriocnemis mirabilis": {
+   "aco_key": "eriocnemis mirabilis",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Eriocnemis mirabilis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "eriocnemis mosquera": {
+   "aco_key": "eriocnemis mosquera",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "C3",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Eriocnemis mosquera",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "euphonia concinna": {
+   "aco_key": "euphonia concinna",
+   "added_2023": false,
+   "bands": [
+    "A5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Euphonia concinna",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "euphonia fulvicrissa": {
+   "aco_key": "euphonia fulvicrissa",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "A6"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Euphonia fulvicrissa",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "forpus conspicillatus": {
+   "aco_key": "forpus conspicillatus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A5",
+    "C5a",
+    "B5",
+    "B7",
+    "B6"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V5",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Forpus conspicillatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "forpus spengeli": {
+   "aco_key": "forpus spengeli",
+   "added_2023": true,
+   "bands": [
+    "A1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (ssp. F. passerinus)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Forpus spengeli",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "gallinago nobilis": {
+   "aco_key": "gallinago nobilis",
+   "added_2023": false,
+   "bands": [
+    "B5",
+    "C4",
+    "C5a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Gallinago nobilis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "geotrygon purpurata": {
+   "aco_key": "geotrygon purpurata",
+   "added_2023": true,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (ssp. G. saphirina)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Geotrygon purpurata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "glaucidium nubicola": {
+   "aco_key": "glaucidium nubicola",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Glaucidium nubicola",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "goldmania bella": {
+   "aco_key": "goldmania bella",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B9"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Goldmania bella",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "goldmania violiceps": {
+   "aco_key": "goldmania violiceps",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "B9"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Goldmania violiceps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria alleni": {
+   "aco_key": "grallaria alleni",
+   "added_2023": false,
+   "bands": [
+    "B4a",
+    "B6"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria alleni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria alvarezi": {
+   "aco_key": "grallaria alvarezi",
+   "added_2023": true,
+   "bands": [
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (complejo G. rufula)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria alvarezi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria bangsi": {
+   "aco_key": "grallaria bangsi",
+   "added_2023": false,
+   "bands": [
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria bangsi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria flavotincta": {
+   "aco_key": "grallaria flavotincta",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria flavotincta",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria gigantea": {
+   "aco_key": "grallaria gigantea",
+   "added_2023": false,
+   "bands": [
+    "B6",
+    "B4b"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria gigantea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria kaestneri": {
+   "aco_key": "grallaria kaestneri",
+   "added_2023": false,
+   "bands": [
+    "B8a"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria kaestneri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria milleri": {
+   "aco_key": "grallaria milleri",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria milleri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria rufocinerea": {
+   "aco_key": "grallaria rufocinerea",
+   "added_2023": false,
+   "bands": [
+    "B4",
+    "B5",
+    "B6",
+    "B8b",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria rufocinerea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria rufula": {
+   "aco_key": "grallaria rufula",
+   "added_2023": true,
+   "bands": [
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (ssp. G. rufula)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria rufula",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria saltuensis": {
+   "aco_key": "grallaria saltuensis",
+   "added_2023": true,
+   "bands": [
+    "C2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (ssp. G. rufula)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria saltuensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria spatiator": {
+   "aco_key": "grallaria spatiator",
+   "added_2023": true,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (ssp. G. rufula)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria spatiator",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaria urraoensis": {
+   "aco_key": "grallaria urraoensis",
+   "added_2023": false,
+   "bands": [
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaria urraoensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaricula cucullata": {
+   "aco_key": "grallaricula cucullata",
+   "added_2023": false,
+   "bands": [
+    "B4a",
+    "B5",
+    "B6",
+    "B8a",
+    "C3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaricula cucullata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "grallaricula lineifrons": {
+   "aco_key": "grallaricula lineifrons",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Grallaricula lineifrons",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "habia cristata": {
+   "aco_key": "habia cristata",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3",
+    "B4",
+    "B6"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Habia cristata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "habia gutturalis": {
+   "aco_key": "habia gutturalis",
+   "added_2023": false,
+   "bands": [
+    "A2"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Habia gutturalis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "hafferia immaculata": {
+   "aco_key": "hafferia immaculata",
+   "added_2023": true,
+   "bands": [
+    "A3",
+    "A4",
+    "B3",
+    "B4",
+    "B5",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (nuevos registros)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Hafferia immaculata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "hapalopsittaca amazonina": {
+   "aco_key": "hapalopsittaca amazonina",
+   "added_2023": false,
+   "bands": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Hapalopsittaca amazonina",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "hapalopsittaca fuertesi": {
+   "aco_key": "hapalopsittaca fuertesi",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "B5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Hapalopsittaca fuertesi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "hapaloptila castanea": {
+   "aco_key": "hapaloptila castanea",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E3",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Hapaloptila castanea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "haplophaedia aureliae": {
+   "aco_key": "haplophaedia aureliae",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Haplophaedia aureliae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "haplophaedia lugens": {
+   "aco_key": "haplophaedia lugens",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Haplophaedia lugens",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "heliangelus exortis": {
+   "aco_key": "heliangelus exortis",
+   "added_2023": false,
+   "bands": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "E3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Heliangelus exortis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "heliangelus mavors": {
+   "aco_key": "heliangelus mavors",
+   "added_2023": true,
+   "bands": [
+    "C5"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "NC (nuevos registros)",
+   "code": "II",
+   "code_2013": "NC",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Heliangelus mavors",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "heliodoxa imperatrix": {
+   "aco_key": "heliodoxa imperatrix",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Heliodoxa imperatrix",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "henicorhina anachoreta": {
+   "aco_key": "henicorhina anachoreta",
+   "added_2023": true,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (nueva especie)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Henicorhina anachoreta",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "henicorhina negreti": {
+   "aco_key": "henicorhina negreti",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4a",
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Henicorhina negreti",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "heterospingus xanthopygius": {
+   "aco_key": "heterospingus xanthopygius",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Heterospingus xanthopygius",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "hypopyrrhus pyrohypogaster": {
+   "aco_key": "hypopyrrhus pyrohypogaster",
+   "added_2023": false,
+   "bands": [
+    "B8b",
+    "B4",
+    "B5",
+    "B6",
+    "C3",
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Hypopyrrhus pyrohypogaster",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "icterus leucopteryx": {
+   "aco_key": "icterus leucopteryx",
+   "added_2023": false,
+   "bands": [
+    "A9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CEa",
+   "code": "CEa",
+   "code_2013": "CEa",
+   "countries": [
+    "Ca"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Icterus leucopteryx",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "inezia tenuirostris": {
+   "aco_key": "inezia tenuirostris",
+   "added_2023": false,
+   "bands": [
+    "A1a"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "V1",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Inezia tenuirostris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "iridosornis porphyrocephalus": {
+   "aco_key": "iridosornis porphyrocephalus",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4a",
+    "B5",
+    "C3",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Iridosornis porphyrocephalus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ixothraupis rufigula": {
+   "aco_key": "ixothraupis rufigula",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ixothraupis rufigula",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "leptopogon rufipectus": {
+   "aco_key": "leptopogon rufipectus",
+   "added_2023": false,
+   "bands": [
+    "B4",
+    "B6",
+    "B7",
+    "B8",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E3",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Leptopogon rufipectus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "leptotila conoveri": {
+   "aco_key": "leptotila conoveri",
+   "added_2023": false,
+   "bands": [
+    "B6",
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Leptotila conoveri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "leptotila pallida": {
+   "aco_key": "leptotila pallida",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Leptotila pallida",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "leptotrygon veraguensis": {
+   "aco_key": "leptotrygon veraguensis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Leptotrygon veraguensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "lipaugus weberi": {
+   "aco_key": "lipaugus weberi",
+   "added_2023": false,
+   "bands": [
+    "B5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Lipaugus weberi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "machaeropterus deliciosus": {
+   "aco_key": "machaeropterus deliciosus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Machaeropterus deliciosus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "macroagelaius subalaris": {
+   "aco_key": "macroagelaius subalaris",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "B8a",
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Macroagelaius subalaris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "margarornis bellulus": {
+   "aco_key": "margarornis bellulus",
+   "added_2023": true,
+   "bands": [
+    "B9"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "CE",
+   "code": "II",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Margarornis bellulus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "margarornis stellatus": {
+   "aco_key": "margarornis stellatus",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Margarornis stellatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "megascops gilesi": {
+   "aco_key": "megascops gilesi",
+   "added_2023": true,
+   "bands": [
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (nueva especie)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Megascops gilesi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "megascops petersoni": {
+   "aco_key": "megascops petersoni",
+   "added_2023": false,
+   "bands": [
+    "B5",
+    "B8"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "E3",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Megascops petersoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "melanerpes pulcher": {
+   "aco_key": "melanerpes pulcher",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A5",
+    "B5",
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Melanerpes pulcher",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "metallura iracunda": {
+   "aco_key": "metallura iracunda",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "C2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Metallura iracunda",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "metallura williami": {
+   "aco_key": "metallura williami",
+   "added_2023": false,
+   "bands": [
+    "C3",
+    "C4"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Metallura williami",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "micrastur plumbeus": {
+   "aco_key": "micrastur plumbeus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A4",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Micrastur plumbeus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "microspizias collaris": {
+   "aco_key": "microspizias collaris",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1",
+    "B5",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E2",
+    "E3",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Microspizias collaris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "mitu salvini": {
+   "aco_key": "mitu salvini",
+   "added_2023": false,
+   "bands": [
+    "A8"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E3",
+    "Pe3",
+    "B"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Mitu salvini",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "muscisaxicola alpinus": {
+   "aco_key": "muscisaxicola alpinus",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Muscisaxicola alpinus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "mustelirallus colombianus": {
+   "aco_key": "mustelirallus colombianus",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A3",
+    "B1",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Mustelirallus colombianus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myadestes coloratus": {
+   "aco_key": "myadestes coloratus",
+   "added_2023": false,
+   "bands": [
+    "B9"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myadestes coloratus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiarchus apicalis": {
+   "aco_key": "myiarchus apicalis",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A4",
+    "A5",
+    "B3a",
+    "B6",
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiarchus apicalis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiarchus panamensis": {
+   "aco_key": "myiarchus panamensis",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "A5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "V2",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiarchus panamensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myioborus flavivertex": {
+   "aco_key": "myioborus flavivertex",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myioborus flavivertex",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myioborus ornatus": {
+   "aco_key": "myioborus ornatus",
+   "added_2023": false,
+   "bands": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myioborus ornatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiornis atricapillus": {
+   "aco_key": "myiornis atricapillus",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiornis atricapillus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiotheretes pernix": {
+   "aco_key": "myiotheretes pernix",
+   "added_2023": false,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiotheretes pernix",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiothlypis basilica": {
+   "aco_key": "myiothlypis basilica",
+   "added_2023": false,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiothlypis basilica",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiothlypis cinereicollis": {
+   "aco_key": "myiothlypis cinereicollis",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "B7",
+    "B8a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiothlypis cinereicollis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myiothlypis conspicillata": {
+   "aco_key": "myiothlypis conspicillata",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myiothlypis conspicillata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myrmotherula cherriei": {
+   "aco_key": "myrmotherula cherriei",
+   "added_2023": false,
+   "bands": [
+    "A7",
+    "A8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V5",
+    "B",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myrmotherula cherriei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "myrmotherula pacifica": {
+   "aco_key": "myrmotherula pacifica",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B3a",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Myrmotherula pacifica",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "neomorphus radiolosus": {
+   "aco_key": "neomorphus radiolosus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Neomorphus radiolosus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "nephelomyias pulcher": {
+   "aco_key": "nephelomyias pulcher",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4b",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "C3",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Nephelomyias pulcher",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "nonnula frontalis": {
+   "aco_key": "nonnula frontalis",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Nonnula frontalis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "notharchus pectoralis": {
+   "aco_key": "notharchus pectoralis",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Notharchus pectoralis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "nothocercus julius": {
+   "aco_key": "nothocercus julius",
+   "added_2023": false,
+   "bands": [
+    "B6",
+    "B8a",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V4",
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Nothocercus julius",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "nyctiphrynus rosenbergi": {
+   "aco_key": "nyctiphrynus rosenbergi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Nyctiphrynus rosenbergi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "nystalus radiatus": {
+   "aco_key": "nystalus radiatus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "A5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Nystalus radiatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "odontophorus atrifrons": {
+   "aco_key": "odontophorus atrifrons",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Odontophorus atrifrons",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "odontophorus dialeucos": {
+   "aco_key": "odontophorus dialeucos",
+   "added_2023": false,
+   "bands": [
+    "B9",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Odontophorus dialeucos",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "odontophorus erythrops": {
+   "aco_key": "odontophorus erythrops",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A2",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Odontophorus erythrops",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "odontophorus hyperythrus": {
+   "aco_key": "odontophorus hyperythrus",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B6",
+    "C3",
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Odontophorus hyperythrus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "odontophorus melanonotus": {
+   "aco_key": "odontophorus melanonotus",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Odontophorus melanonotus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "odontophorus strophium": {
+   "aco_key": "odontophorus strophium",
+   "added_2023": false,
+   "bands": [
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Odontophorus strophium",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ognorhynchus icterotis": {
+   "aco_key": "ognorhynchus icterotis",
+   "added_2023": false,
+   "bands": [
+    "B5",
+    "B6",
+    "B8",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ognorhynchus icterotis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "oncostoma olivaceum": {
+   "aco_key": "oncostoma olivaceum",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Oncostoma olivaceum",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "oreothraupis arremonops": {
+   "aco_key": "oreothraupis arremonops",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "C3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Oreothraupis arremonops",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ortalis columbiana": {
+   "aco_key": "ortalis columbiana",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "B5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ortalis columbiana",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ortalis garrula": {
+   "aco_key": "ortalis garrula",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ortalis garrula",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "oxypogon cyanolaemus": {
+   "aco_key": "oxypogon cyanolaemus",
+   "added_2023": true,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (ssp. O. guerinii)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Oxypogon cyanolaemus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "oxypogon guerinii": {
+   "aco_key": "oxypogon guerinii",
+   "added_2023": true,
+   "bands": [
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "CE",
+   "code": "E",
+   "code_2013": "CE",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Oxypogon guerinii",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "oxypogon stuebelii": {
+   "aco_key": "oxypogon stuebelii",
+   "added_2023": true,
+   "bands": [
+    "C4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (ssp. O. guerinii)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Oxypogon stuebelii",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pachyramphus homochrous": {
+   "aco_key": "pachyramphus homochrous",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "V2",
+    "V3",
+    "E1",
+    "E2",
+    "Pe1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pachyramphus homochrous",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pachysylvia semibrunnea": {
+   "aco_key": "pachysylvia semibrunnea",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E3",
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pachysylvia semibrunnea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "paroaria nigrogenis": {
+   "aco_key": "paroaria nigrogenis",
+   "added_2023": false,
+   "bands": [
+    "A7"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "V"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Paroaria nigrogenis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "patagioenas goodsoni": {
+   "aco_key": "patagioenas goodsoni",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Patagioenas goodsoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pauxi pauxi": {
+   "aco_key": "pauxi pauxi",
+   "added_2023": false,
+   "bands": [
+    "A6",
+    "B8a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4",
+    "V5",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pauxi pauxi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "penelope ortoni": {
+   "aco_key": "penelope ortoni",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3",
+    "B4a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Penelope ortoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "penelope perspicax": {
+   "aco_key": "penelope perspicax",
+   "added_2023": false,
+   "bands": [
+    "B4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Penelope perspicax",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "phaethornis anthophilus": {
+   "aco_key": "phaethornis anthophilus",
+   "added_2023": true,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A5",
+    "A6",
+    "A7",
+    "B1",
+    "B2",
+    "B3",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "EI",
+   "code": "CE",
+   "code_2013": "EI",
+   "countries": [
+    "P",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Phaethornis anthophilus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "phaethornis yaruqui": {
+   "aco_key": "phaethornis yaruqui",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Phaethornis yaruqui",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "phalcoboenus carunculatus": {
+   "aco_key": "phalcoboenus carunculatus",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Phalcoboenus carunculatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pheugopedius fasciatoventris": {
+   "aco_key": "pheugopedius fasciatoventris",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pheugopedius fasciatoventris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pheugopedius mystacalis": {
+   "aco_key": "pheugopedius mystacalis",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "V2",
+    "V4",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pheugopedius mystacalis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pheugopedius spadix": {
+   "aco_key": "pheugopedius spadix",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A4",
+    "B3",
+    "B5",
+    "B7",
+    "B9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pheugopedius spadix",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "philodice mitchellii": {
+   "aco_key": "philodice mitchellii",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4a",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Philodice mitchellii",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "philydor fuscipenne": {
+   "aco_key": "philydor fuscipenne",
+   "added_2023": true,
+   "bands": [
+    "A2",
+    "B5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (nuevos registros)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Philydor fuscipenne",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "phylloscartes lanyoni": {
+   "aco_key": "phylloscartes lanyoni",
+   "added_2023": false,
+   "bands": [
+    "A2"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Phylloscartes lanyoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "piculus litae": {
+   "aco_key": "piculus litae",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A2",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Piculus litae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "picumnus cinnamomeus": {
+   "aco_key": "picumnus cinnamomeus",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V1",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Picumnus cinnamomeus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "picumnus granadensis": {
+   "aco_key": "picumnus granadensis",
+   "added_2023": false,
+   "bands": [
+    "B4",
+    "B3a"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Picumnus granadensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "picumnus pumilus": {
+   "aco_key": "picumnus pumilus",
+   "added_2023": false,
+   "bands": [
+    "A8",
+    "A7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V5",
+    "B"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Picumnus pumilus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pionus chalcopterus": {
+   "aco_key": "pionus chalcopterus",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "B5",
+    "B7",
+    "B8",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "Pe1",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pionus chalcopterus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pipreola jucunda": {
+   "aco_key": "pipreola jucunda",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pipreola jucunda",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "piranga rubriceps": {
+   "aco_key": "piranga rubriceps",
+   "added_2023": false,
+   "bands": [
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Piranga rubriceps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pittasoma rufopileatum": {
+   "aco_key": "pittasoma rufopileatum",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pittasoma rufopileatum",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "podiceps andinus": {
+   "aco_key": "podiceps andinus",
+   "added_2023": false,
+   "bands": [
+    "C5a"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E, extinta",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": true,
+   "match": "sci_name",
+   "sci_name": "Podiceps andinus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "poecilostreptus palmeri": {
+   "aco_key": "poecilostreptus palmeri",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Poecilostreptus palmeri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "polioptila schistaceigula": {
+   "aco_key": "polioptila schistaceigula",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Polioptila schistaceigula",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "polyerata amabilis": {
+   "aco_key": "polyerata amabilis",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "A5",
+    "B5",
+    "B6",
+    "B7"
+   ],
+   "category": "of_interest",
+   "category_2013_raw": "EI",
+   "code": "EI",
+   "code_2013": "EI",
+   "countries": [
+    "Ni",
+    "Cr",
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Polyerata amabilis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "polyerata rosenbergi": {
+   "aco_key": "polyerata rosenbergi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Polyerata rosenbergi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "psarocolius cassini": {
+   "aco_key": "psarocolius cassini",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Psarocolius cassini",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "psarocolius guatimozinus": {
+   "aco_key": "psarocolius guatimozinus",
+   "added_2023": false,
+   "bands": [
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Psarocolius guatimozinus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pseudocolaptes johnsoni": {
+   "aco_key": "pseudocolaptes johnsoni",
+   "added_2023": true,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (ssp. P. lawrencii)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pseudocolaptes johnsoni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "puffinus lherminieri": {
+   "aco_key": "puffinus lherminieri",
+   "added_2023": false,
+   "bands": [
+    "A9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CEa",
+   "code": "CEa",
+   "code_2013": "CEa",
+   "countries": [
+    "Ca",
+    "b",
+    "c"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Puffinus lherminieri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pyrilia pulchra": {
+   "aco_key": "pyrilia pulchra",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pyrilia pulchra",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pyrilia pyrilia": {
+   "aco_key": "pyrilia pyrilia",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B2",
+    "B5",
+    "B8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V3",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pyrilia pyrilia",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pyrrhura calliptera": {
+   "aco_key": "pyrrhura calliptera",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "B8a",
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pyrrhura calliptera",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "pyrrhura viridicata": {
+   "aco_key": "pyrrhura viridicata",
+   "added_2023": false,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Pyrrhura viridicata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "rallus semiplumbeus": {
+   "aco_key": "rallus semiplumbeus",
+   "added_2023": false,
+   "bands": [
+    "C5"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Rallus semiplumbeus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ramphastos brevis": {
+   "aco_key": "ramphastos brevis",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ramphastos brevis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ramphocelus dimidiatus": {
+   "aco_key": "ramphocelus dimidiatus",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A4",
+    "A5",
+    "A6",
+    "B1",
+    "B2",
+    "B3a",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V3",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ramphocelus dimidiatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "ramphomicron dorsale": {
+   "aco_key": "ramphomicron dorsale",
+   "added_2023": false,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Ramphomicron dorsale",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "rhynchocyclus pacificus": {
+   "aco_key": "rhynchocyclus pacificus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Rhynchocyclus pacificus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "saltator atripennis": {
+   "aco_key": "saltator atripennis",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4a",
+    "B4b",
+    "B5",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Saltator atripennis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sapayoa aenigma": {
+   "aco_key": "sapayoa aenigma",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sapayoa aenigma",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "saucerottia castaneiventris": {
+   "aco_key": "saucerottia castaneiventris",
+   "added_2023": false,
+   "bands": [
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Saucerottia castaneiventris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "saucerottia cyanifrons": {
+   "aco_key": "saucerottia cyanifrons",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "B4"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Saucerottia cyanifrons",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "saucerottia saucerottei": {
+   "aco_key": "saucerottia saucerottei",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "V2",
+    "V3",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Saucerottia saucerottei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "schiffornis stenorhyncha": {
+   "aco_key": "schiffornis stenorhyncha",
+   "added_2023": false,
+   "bands": [
+    "B5",
+    "B7",
+    "B9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "V2",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Schiffornis stenorhyncha",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "schistes albogularis": {
+   "aco_key": "schistes albogularis",
+   "added_2023": true,
+   "bands": [
+    "B3",
+    "B3a",
+    "B4",
+    "B5",
+    "C3",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (ssp. S. geoffroyi)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Schistes albogularis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus alvarezlopezi": {
+   "aco_key": "scytalopus alvarezlopezi",
+   "added_2023": true,
+   "bands": [
+    "B3",
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "NC (nueva especie)",
+   "code": "E",
+   "code_2013": "NC",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus alvarezlopezi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus canus": {
+   "aco_key": "scytalopus canus",
+   "added_2023": false,
+   "bands": [
+    "C3"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus canus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus chocoensis": {
+   "aco_key": "scytalopus chocoensis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus chocoensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus griseicollis": {
+   "aco_key": "scytalopus griseicollis",
+   "added_2023": true,
+   "bands": [
+    "C5",
+    "C5a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (nuevos registros)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus griseicollis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus latebricola": {
+   "aco_key": "scytalopus latebricola",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus latebricola",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus panamensis": {
+   "aco_key": "scytalopus panamensis",
+   "added_2023": false,
+   "bands": [
+    "B9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus panamensis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus perijanus": {
+   "aco_key": "scytalopus perijanus",
+   "added_2023": true,
+   "bands": [
+    "C2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (nueva especie)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus perijanus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus rodriguezi": {
+   "aco_key": "scytalopus rodriguezi",
+   "added_2023": false,
+   "bands": [
+    "B6",
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus rodriguezi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus sanctaemartae": {
+   "aco_key": "scytalopus sanctaemartae",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus sanctaemartae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus spillmanni": {
+   "aco_key": "scytalopus spillmanni",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B6",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus spillmanni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus stilesi": {
+   "aco_key": "scytalopus stilesi",
+   "added_2023": false,
+   "bands": [
+    "B5",
+    "B4b"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus stilesi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "scytalopus vicinior": {
+   "aco_key": "scytalopus vicinior",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3",
+    "B4a",
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Scytalopus vicinior",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "semnornis ramphastinus": {
+   "aco_key": "semnornis ramphastinus",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Semnornis ramphastinus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "setopagis heterura": {
+   "aco_key": "setopagis heterura",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "B1",
+    "B2"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "V3",
+    "V5",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Setopagis heterura",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sipia berlepschi": {
+   "aco_key": "sipia berlepschi",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sipia berlepschi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sipia laemosticta": {
+   "aco_key": "sipia laemosticta",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sipia laemosticta",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sipia nigricauda": {
+   "aco_key": "sipia nigricauda",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sipia nigricauda",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sipia palliata": {
+   "aco_key": "sipia palliata",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "B2",
+    "B5",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sipia palliata",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "spinus spinescens": {
+   "aco_key": "spinus spinescens",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "B2",
+    "B4a",
+    "B4b",
+    "B5",
+    "B6",
+    "B8",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4",
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Spinus spinescens",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "stilpnia vitriolina": {
+   "aco_key": "stilpnia vitriolina",
+   "added_2023": false,
+   "bands": [
+    "A4",
+    "A5",
+    "B3a",
+    "B4",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Stilpnia vitriolina",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sula granti": {
+   "aco_key": "sula granti",
+   "added_2023": false,
+   "bands": [
+    "A10a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CEa",
+   "code": "CEa",
+   "code_2013": "CEa",
+   "countries": [
+    "E1a"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sula granti",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "sula sula": {
+   "aco_key": "sula sula",
+   "added_2023": false,
+   "bands": [
+    "A9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CEa",
+   "code": "CEa",
+   "code_2013": "CEa",
+   "countries": [
+    "Ca",
+    "b",
+    "c"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Sula sula",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "synallaxis candei": {
+   "aco_key": "synallaxis candei",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V1",
+    "V3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Synallaxis candei",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "synallaxis cinnamomea": {
+   "aco_key": "synallaxis cinnamomea",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "B7",
+    "B8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Synallaxis cinnamomea",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "synallaxis fuscorufa": {
+   "aco_key": "synallaxis fuscorufa",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Synallaxis fuscorufa",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "synallaxis moesta": {
+   "aco_key": "synallaxis moesta",
+   "added_2023": false,
+   "bands": [
+    "A7",
+    "A8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E3",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Synallaxis moesta",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "synallaxis subpudica": {
+   "aco_key": "synallaxis subpudica",
+   "added_2023": false,
+   "bands": [
+    "B7",
+    "C5a"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Synallaxis subpudica",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "tangara johannae": {
+   "aco_key": "tangara johannae",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Tangara johannae",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "tangara labradorides": {
+   "aco_key": "tangara labradorides",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8a",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Tangara labradorides",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thamnophilus melanonotus": {
+   "aco_key": "thamnophilus melanonotus",
+   "added_2023": false,
+   "bands": [
+    "A1a",
+    "A6"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V3",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thamnophilus melanonotus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thamnophilus multistriatus": {
+   "aco_key": "thamnophilus multistriatus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B2",
+    "B3a",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thamnophilus multistriatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thamnophilus nigriceps": {
+   "aco_key": "thamnophilus nigriceps",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thamnophilus nigriceps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thripadectes flammulatus": {
+   "aco_key": "thripadectes flammulatus",
+   "added_2023": false,
+   "bands": [
+    "B1",
+    "B3",
+    "B4",
+    "B5",
+    "B7",
+    "B8",
+    "C1",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "V4",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thripadectes flammulatus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thripadectes ignobilis": {
+   "aco_key": "thripadectes ignobilis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3",
+    "C3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thripadectes ignobilis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thripadectes virgaticeps": {
+   "aco_key": "thripadectes virgaticeps",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B4a",
+    "B6",
+    "C3",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "V4",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thripadectes virgaticeps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thryophilus nicefori": {
+   "aco_key": "thryophilus nicefori",
+   "added_2023": false,
+   "bands": [
+    "B7"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thryophilus nicefori",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "thryophilus sernai": {
+   "aco_key": "thryophilus sernai",
+   "added_2023": false,
+   "bands": [
+    "A2"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Thryophilus sernai",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "tinamus osgoodi": {
+   "aco_key": "tinamus osgoodi",
+   "added_2023": false,
+   "bands": [
+    "A8",
+    "B5",
+    "B6"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Tinamus osgoodi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "todirostrum nigriceps": {
+   "aco_key": "todirostrum nigriceps",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "B8"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "E1",
+    "V2",
+    "V3",
+    "V5"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Todirostrum nigriceps",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "touit dilectissimus": {
+   "aco_key": "touit dilectissimus",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "A2",
+    "B5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "V2",
+    "V4",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Touit dilectissimus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "troglodytes monticola": {
+   "aco_key": "troglodytes monticola",
+   "added_2023": false,
+   "bands": [
+    "C1"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Troglodytes monticola",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "trogon chionurus": {
+   "aco_key": "trogon chionurus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Trogon chionurus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "trogon comptus": {
+   "aco_key": "trogon comptus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Trogon comptus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "trogon cupreicauda": {
+   "aco_key": "trogon cupreicauda",
+   "added_2023": true,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "NC (ssp. T. rufus)",
+   "code": "CE",
+   "code_2013": "NC",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Trogon cupreicauda",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "turdus fulviventris": {
+   "aco_key": "turdus fulviventris",
+   "added_2023": false,
+   "bands": [
+    "B2",
+    "B6",
+    "B8a",
+    "C2",
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "V2",
+    "V4",
+    "Pe2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Turdus fulviventris",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "turdus obsoletus": {
+   "aco_key": "turdus obsoletus",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "A5",
+    "B3",
+    "B6",
+    "B7"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "Cr",
+    "P",
+    "E1",
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Turdus obsoletus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "urochroa bougueri": {
+   "aco_key": "urochroa bougueri",
+   "added_2023": false,
+   "bands": [
+    "B3",
+    "B8b",
+    "C3",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "E2",
+    "Pe3"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Urochroa bougueri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "uromyias agilis": {
+   "aco_key": "uromyias agilis",
+   "added_2023": false,
+   "bands": [
+    "C4",
+    "C5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Uromyias agilis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "urosticte benjamini": {
+   "aco_key": "urosticte benjamini",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1",
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Urosticte benjamini",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "urothraupis stolzmanni": {
+   "aco_key": "urothraupis stolzmanni",
+   "added_2023": false,
+   "bands": [
+    "C4"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Urothraupis stolzmanni",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "vireo approximans": {
+   "aco_key": "vireo approximans",
+   "added_2023": false,
+   "bands": [
+    "A9"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Vireo approximans",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "vireo caribaeus": {
+   "aco_key": "vireo caribaeus",
+   "added_2023": false,
+   "bands": [
+    "A9"
+   ],
+   "category": "endemic",
+   "category_2013_raw": "E",
+   "code": "E",
+   "code_2013": "E",
+   "countries": [],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Vireo caribaeus",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "vireo masteri": {
+   "aco_key": "vireo masteri",
+   "added_2023": false,
+   "bands": [
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E2"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Vireo masteri",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "vireolanius eximius": {
+   "aco_key": "vireolanius eximius",
+   "added_2023": false,
+   "bands": [
+    "A1",
+    "A2",
+    "A3",
+    "A6",
+    "B2",
+    "B5",
+    "B7",
+    "B8a"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "V2",
+    "V4"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Vireolanius eximius",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "xenerpestes minlosi": {
+   "aco_key": "xenerpestes minlosi",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P",
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Xenerpestes minlosi",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "xenornis setifrons": {
+   "aco_key": "xenornis setifrons",
+   "added_2023": false,
+   "bands": [
+    "A3"
+   ],
+   "category": "insufficient_info",
+   "category_2013_raw": "II",
+   "code": "II",
+   "code_2013": "II",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Xenornis setifrons",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "zentrygon goldmani": {
+   "aco_key": "zentrygon goldmani",
+   "added_2023": false,
+   "bands": [
+    "A2",
+    "A3",
+    "B9"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "P"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Zentrygon goldmani",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "zentrygon linearis": {
+   "aco_key": "zentrygon linearis",
+   "added_2023": false,
+   "bands": [
+    "C1",
+    "B7",
+    "B8a",
+    "B5"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "V2",
+    "V4",
+    "V6"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Zentrygon linearis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
+  "zimmerius albigularis": {
+   "aco_key": "zimmerius albigularis",
+   "added_2023": false,
+   "bands": [
+    "A3",
+    "B3"
+   ],
+   "category": "near_endemic",
+   "category_2013_raw": "CE",
+   "code": "CE",
+   "code_2013": "CE",
+   "countries": [
+    "E1"
+   ],
+   "extinct": false,
+   "match": "sci_name",
+   "sci_name": "Zimmerius albigularis",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  }
+ }
+}

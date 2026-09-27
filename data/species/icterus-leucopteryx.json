@@ -2,10 +2,16 @@
  "authorship": "(Wagler, 1827)",
  "colombia": {
   "endemic": false,
+  "endemic_source": {
+   "category": "near_endemic",
+   "code": "CEa",
+   "source": "Chaparro-Herrera et al. 2024, Anexo 3"
+  },
   "habitat_aco": "Woodland",
   "introduced": false,
   "libro_rojo": "CR",
   "migration_note": "Residente",
+  "near_endemic": true,
   "status": [
    "resident"
   ],
