@@ -4,10 +4,10 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 980
-- Проверено: 934
-- Не проверено: 46
+- Проверено: 965
+- Не проверено: 15
 
-## Не проверено (46)
+## Не проверено (15)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -15,40 +15,9 @@
 | ocreatus-peruanus | Peruvian Racket-tail | Стрижи и колибри |
 | tyto-furcata | American Barn Owl | Хищные птицы и совы |
 | formicivora-intermedia | Northern White-fringed Antwren | Муравьеловки, печники и древолазы |
-| xiphorhynchus-ocellatus | Ocellated Woodcreeper | Муравьеловки, печники и древолазы |
-| xiphorhynchus-guttatus | Buff-throated Woodcreeper | Муравьеловки, печники и древолазы |
-| xiphorhynchus-triangularis | Olive-backed Woodcreeper | Муравьеловки, печники и древолазы |
-| pseudocolaptes-johnsoni | Pacific Tuftedcheek | Муравьеловки, печники и древолазы |
-| premnornis-guttuliger | Rusty-winged Barbtail | Муравьеловки, печники и древолазы |
 | furnarius-cinnamomeus | Pacific Hornero | Муравьеловки, печники и древолазы |
-| anabacerthia-ruficaudata | Rufous-tailed Foliage-gleaner | Муравьеловки, печники и древолазы |
-| dendroma-rufa | Buff-fronted Foliage-gleaner | Муравьеловки, печники и древолазы |
-| thripadectes-ignobilis | Uniform Treehunter | Муравьеловки, печники и древолазы |
-| thripadectes-virgaticeps | Streak-capped Treehunter | Муравьеловки, печники и древолазы |
-| margarornis-stellatus | Fulvous-dotted Treerunner | Муравьеловки, печники и древолазы |
-| synallaxis-albescens | Pale-breasted Spinetail | Муравьеловки, печники и древолазы |
-| synallaxis-unirufa | Rufous Spinetail | Муравьеловки, печники и древолазы |
-| schiffornis-turdina | Brown-winged Schiffornis | Тиранны и титиры |
-| myiobius-villosus | Tawny-breasted Flycatcher | Тиранны и титиры |
-| myiobius-atricaudus | Black-tailed Flycatcher | Тиранны и титиры |
 | mionectes-galbinus | Olive-striped Flycatcher | Тиранны и титиры |
-| mionectes-oleagineus | Ochre-bellied Flycatcher | Тиранны и титиры |
-| pogonotriccus-ophthalmicus | Marble-faced Bristle-Tyrant | Тиранны и титиры |
-| pseudotriccus-pelzelni | Bronze-olive Pygmy-Tyrant | Тиранны и титиры |
-| pseudotriccus-ruficeps | Rufous-headed Pygmy-Tyrant | Тиранны и титиры |
-| myiornis-ecaudatus | Short-tailed Pygmy-Tyrant | Тиранны и титиры |
-| hemitriccus-granadensis | Black-throated Tody-Tyrant | Тиранны и титиры |
-| poecilotriccus-latirostris | Rusty-fronted Tody-Flycatcher | Тиранны и титиры |
-| poecilotriccus-sylvia | Slate-headed Tody-Flycatcher | Тиранны и титиры |
-| poecilotriccus-calopterus | Golden-winged Tody-Flycatcher | Тиранны и титиры |
-| todirostrum-nigriceps | Black-headed Tody-Flycatcher | Тиранны и титиры |
-| rhynchocyclus-pacificus | Pacific Flatbill | Тиранны и титиры |
-| tolmomyias-sulphurescens | Yellow-olive Flatbill | Тиранны и титиры |
-| tolmomyias-assimilis | Yellow-margined Flatbill | Тиранны и титиры |
-| tolmomyias-poliocephalus | Gray-crowned Flatbill | Тиранны и титиры |
 | tolmomyias-viridiceps | Olive-faced Flatbill | Тиранны и титиры |
-| tolmomyias-flaviventris | Ochre-lored Flatbill | Тиранны и титиры |
-| mecocerculus-poecilocercus | White-tailed Tyrannulet | Тиранны и титиры |
 | zimmerius-chrysops | Golden-faced Tyrannulet | Тиранны и титиры |
 | contopus-bogotensis | Northern Tropical Pewee | Тиранны и титиры |
 | tunchiornis-ferrugineifrons | Rufous-fronted Greenlet | Ласточки, крапивники, дрозды и другие |
@@ -58,7 +27,7 @@
 | setophaga-aestiva | Northern Yellow Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 | setophaga-petechia | Mangrove Yellow Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 
-## Проверено (934)
+## Проверено (965)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
@@ -569,7 +538,10 @@
 | dendrexetastes-rufigula | Cinnamon-throated Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | nasica-longirostris | Long-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | xiphocolaptes-promeropirhynchus | Strong-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| xiphorhynchus-ocellatus | Ocellated Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| xiphorhynchus-guttatus | Buff-throated Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | xiphorhynchus-erythropygius | Spotted Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| xiphorhynchus-triangularis | Olive-backed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | dendroplex-picus | Straight-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | campylorhamphus-trochilirostris | Red-billed Scythebill | Муравьеловки, печники и древолазы | 2026-09-27 |
 | campylorhamphus-pusillus | Brown-billed Scythebill | Муравьеловки, печники и древолазы | 2026-09-27 |
@@ -577,13 +549,20 @@
 | lepidocolaptes-lacrymiger | Montane Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | xenops-rutilans | Streaked Xenops | Муравьеловки, печники и древолазы | 2026-09-27 |
 | berlepschia-rikeri | Point-tailed Palmcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| pseudocolaptes-johnsoni | Pacific Tuftedcheek | Муравьеловки, печники и древолазы | 2026-09-27 |
+| premnornis-guttuliger | Rusty-winged Barbtail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | furnarius-leucopus | Pale-legged Hornero | Муравьеловки, печники и древолазы | 2026-09-27 |
 | cinclodes-albidiventris | Chestnut-winged Cinclodes | Муравьеловки, печники и древолазы | 2026-09-27 |
 | anabacerthia-variegaticeps | Scaly-throated Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
 | anabacerthia-striaticollis | Montane Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
+| anabacerthia-ruficaudata | Rufous-tailed Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
 | syndactyla-subalaris | Lineated Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
+| dendroma-rufa | Buff-fronted Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thripadectes-ignobilis | Uniform Treehunter | Муравьеловки, печники и древолазы | 2026-09-27 |
 | thripadectes-holostictus | Striped Treehunter | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thripadectes-virgaticeps | Streak-capped Treehunter | Муравьеловки, печники и древолазы | 2026-09-27 |
 | premnoplex-brunnescens | Spotted Barbtail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| margarornis-stellatus | Fulvous-dotted Treerunner | Муравьеловки, печники и древолазы | 2026-09-27 |
 | margarornis-squamiger | Pearled Treerunner | Муравьеловки, печники и древолазы | 2026-09-27 |
 | leptasthenura-andicola | Andean Tit-Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | hellmayrea-gularis | White-browed Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
@@ -595,33 +574,54 @@
 | cranioleuca-curtata | Ash-browed Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | synallaxis-brachyura | Slaty Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | synallaxis-subpudica | Silvery-throated Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| synallaxis-albescens | Pale-breasted Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | synallaxis-azarae | Azara's Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| synallaxis-unirufa | Rufous Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
 | tityra-cayana | Black-tailed Tityra | Тиранны и титиры | 2026-09-27 |
 | tityra-inquisitor | Black-crowned Tityra | Тиранны и титиры | 2026-09-27 |
 | tityra-semifasciata | Masked Tityra | Тиранны и титиры | 2026-09-27 |
+| schiffornis-turdina | Brown-winged Schiffornis | Тиранны и титиры | 2026-09-27 |
 | pachyramphus-versicolor | Barred Becard | Тиранны и титиры | 2026-09-27 |
 | pachyramphus-cinnamomeus | Cinnamon Becard | Тиранны и титиры | 2026-09-27 |
 | pachyramphus-polychopterus | White-winged Becard | Тиранны и титиры | 2026-09-27 |
+| myiobius-villosus | Tawny-breasted Flycatcher | Тиранны и титиры | 2026-09-27 |
+| myiobius-atricaudus | Black-tailed Flycatcher | Тиранны и титиры | 2026-09-27 |
 | piprites-chloris | Wing-barred Piprites | Тиранны и титиры | 2026-09-27 |
 | platyrinchus-flavigularis | Yellow-throated Spadebill | Тиранны и титиры | 2026-09-27 |
 | mionectes-striaticollis | Streak-necked Flycatcher | Тиранны и титиры | 2026-09-27 |
+| mionectes-oleagineus | Ochre-bellied Flycatcher | Тиранны и титиры | 2026-09-27 |
 | leptopogon-superciliaris | Slaty-capped Flycatcher | Тиранны и титиры | 2026-09-27 |
 | leptopogon-rufipectus | Rufous-breasted Flycatcher | Тиранны и титиры | 2026-09-27 |
+| pogonotriccus-ophthalmicus | Marble-faced Bristle-Tyrant | Тиранны и титиры | 2026-09-27 |
 | pogonotriccus-orbitalis | Spectacled Bristle-Tyrant | Тиранны и титиры | 2026-09-27 |
 | phylloscartes-gualaquizae | Ecuadorian Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| pseudotriccus-pelzelni | Bronze-olive Pygmy-Tyrant | Тиранны и титиры | 2026-09-27 |
+| pseudotriccus-ruficeps | Rufous-headed Pygmy-Tyrant | Тиранны и титиры | 2026-09-27 |
 | myiornis-atricapillus | Black-capped Pygmy-Tyrant | Тиранны и титиры | 2026-09-27 |
+| myiornis-ecaudatus | Short-tailed Pygmy-Tyrant | Тиранны и титиры | 2026-09-27 |
 | lophotriccus-pileatus | Scale-crested Pygmy-Tyrant | Тиранны и титиры | 2026-09-27 |
+| hemitriccus-granadensis | Black-throated Tody-Tyrant | Тиранны и титиры | 2026-09-27 |
 | hemitriccus-rufigularis | Buff-throated Tody-Tyrant | Тиранны и титиры | 2026-09-27 |
 | poecilotriccus-ruficeps | Rufous-crowned Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
 | poecilotriccus-capitalis | Black-and-white Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
+| poecilotriccus-latirostris | Rusty-fronted Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
+| poecilotriccus-sylvia | Slate-headed Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
+| poecilotriccus-calopterus | Golden-winged Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
 | todirostrum-cinereum | Common Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
+| todirostrum-nigriceps | Black-headed Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
 | todirostrum-chrysocrotaphum | Yellow-browed Tody-Flycatcher | Тиранны и титиры | 2026-09-27 |
+| rhynchocyclus-pacificus | Pacific Flatbill | Тиранны и титиры | 2026-09-27 |
 | rhynchocyclus-fulvipectus | Fulvous-breasted Flatbill | Тиранны и титиры | 2026-09-27 |
+| tolmomyias-sulphurescens | Yellow-olive Flatbill | Тиранны и титиры | 2026-09-27 |
 | tolmomyias-traylori | Orange-eyed Flatbill | Тиранны и титиры | 2026-09-27 |
+| tolmomyias-assimilis | Yellow-margined Flatbill | Тиранны и титиры | 2026-09-27 |
+| tolmomyias-poliocephalus | Gray-crowned Flatbill | Тиранны и титиры | 2026-09-27 |
+| tolmomyias-flaviventris | Ochre-lored Flatbill | Тиранны и титиры | 2026-09-27 |
 | pyrrhomyias-cinnamomeus | Cinnamon Flycatcher | Тиранны и титиры | 2026-09-27 |
 | myiotriccus-ornatus | Ornate Flycatcher | Тиранны и титиры | 2026-09-27 |
 | ornithion-brunneicapillus | Brown-capped Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | camptostoma-obsoletum | Southern Beardless-Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| mecocerculus-poecilocercus | White-tailed Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | mecocerculus-stictopterus | White-banded Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | mecocerculus-leucophrys | White-throated Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | mecocerculus-minor | Sulphur-bellied Tyrannulet | Тиранны и титиры | 2026-09-27 |
