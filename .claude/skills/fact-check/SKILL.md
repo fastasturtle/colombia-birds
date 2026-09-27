@@ -44,8 +44,9 @@ Use WebFetch/WebSearch sparingly; cite URLs.
    - where on the route: `data/site_species.json`, `data/sites_resolved.json` (`target_species`), `data/itinerary.json`
    - Wikipedia extracts: `data/texts/<slug>.json` (en/es/ru sections)
 3. **Check external sources** (see Sources) only for claims the data cannot settle (field marks, voice,
-   behaviour, history). Look up every species listed in `similar` too, not only the card's own species:
-   the "how it differs" phrases are where memory errors hide.
+   behaviour, history). Check every species listed in `similar` too, not only the card's own species:
+   the "how it differs" phrases are where memory errors hide. Their Wikipedia extracts are local as well:
+   `data/texts/<similar-slug>.json` exists for 1 901 of 1 966 species, so read those before any web lookup.
 4. **Classify** each claim: ✅ confirmed · ✏️ corrected (say what and why) · ❓ unverifiable (keep only if
    harmless and phrased as tentative, else remove) · ❌ wrong → fix.
 5. **Edit the file** in place: fix facts, keep the voice and length, do not rewrite style (that is `/polish`).
