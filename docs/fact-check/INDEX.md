@@ -3,11 +3,11 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 842
+- Карточек: 934
 - Проверено: 723
-- Не проверено: 119
+- Не проверено: 211
 
-## Не проверено (119)
+## Не проверено (211)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -20,6 +20,37 @@
 | zentrygon-frenata | White-throated Quail-Dove | Голуби, кукушки и гоацин |
 | crotophaga-sulcirostris | Groove-billed Ani | Голуби, кукушки и гоацин |
 | coccycua-minuta | Little Cuckoo | Голуби, кукушки и гоацин |
+| chordeiles-minor | Common Nighthawk | Козодои, потоо и гуахаро |
+| uropsalis-lyra | Lyre-tailed Nightjar | Козодои, потоо и гуахаро |
+| systellura-longirostris | Band-winged Nightjar | Козодои, потоо и гуахаро |
+| steatornis-caripensis | Oilbird | Козодои, потоо и гуахаро |
+| cypseloides-cryptus | White-chinned Swift | Стрижи и колибри |
+| streptoprocne-rutila | Chestnut-collared Swift | Стрижи и колибри |
+| chaetura-cinereiventris | Gray-rumped Swift | Стрижи и колибри |
+| chaetura-spinicaudus | Band-rumped Swift | Стрижи и колибри |
+| aeronautes-montivagus | White-tipped Swift | Стрижи и колибри |
+| panyptila-cayennensis | Lesser Swallow-tailed Swift | Стрижи и колибри |
+| eutoxeres-aquila | White-tipped Sicklebill | Стрижи и колибри |
+| glaucis-aeneus | Bronzy Hermit | Стрижи и колибри |
+| threnetes-ruckeri | Band-tailed Barbthroat | Стрижи и колибри |
+| phaethornis-hispidus | White-bearded Hermit | Стрижи и колибри |
+| phaethornis-guy | Green Hermit | Стрижи и колибри |
+| phaethornis-bourcieri | Straight-billed Hermit | Стрижи и колибри |
+| phaethornis-malaris | Great-billed Hermit | Стрижи и колибри |
+| phaethornis-anthophilus | Pale-bellied Hermit | Стрижи и колибри |
+| schistes-geoffroyi | Geoffroy's Daggerbill | Стрижи и колибри |
+| heliothryx-barroti | Purple-crowned Fairy | Стрижи и колибри |
+| chrysolampis-mosquitus | Ruby-topaz Hummingbird | Стрижи и колибри |
+| discosura-conversii | Green Thorntail | Стрижи и колибри |
+| metallura-williami | Viridian Metaltail | Стрижи и колибри |
+| haplophaedia-aureliae | Greenish Puffleg | Стрижи и колибри |
+| urochroa-bougueri | Rufous-gaped Hillstar | Стрижи и колибри |
+| urosticte-ruficrissa | Rufous-vented Whitetip | Стрижи и колибри |
+| chlorostilbon-mellisugus | Blue-tailed Emerald | Стрижи и колибри |
+| chlorostilbon-poortmani | Short-tailed Emerald | Стрижи и колибри |
+| chalybura-urochrysia | Bronze-tailed Plumeleteer | Стрижи и колибри |
+| saucerottia-saucerottei | Steely-vented Hummingbird | Стрижи и колибри |
+| saucerottia-viridigaster | Green-bellied Hummingbird | Стрижи и колибри |
 | charadrius-vociferus | Killdeer | Кулики, чайки и крачки |
 | leucophaeus-pipixcan | Franklin's Gull | Кулики, чайки и крачки |
 | gelochelidon-nilotica | Gull-billed Tern | Кулики, чайки и крачки |
@@ -95,6 +126,41 @@
 | margarornis-stellatus | Fulvous-dotted Treerunner | Муравьеловки, печники и древолазы |
 | synallaxis-albescens | Pale-breasted Spinetail | Муравьеловки, печники и древолазы |
 | synallaxis-unirufa | Rufous Spinetail | Муравьеловки, печники и древолазы |
+| schiffornis-turdina | Brown-winged Schiffornis | Тиранны и титиры |
+| myiobius-villosus | Tawny-breasted Flycatcher | Тиранны и титиры |
+| myiobius-atricaudus | Black-tailed Flycatcher | Тиранны и титиры |
+| mionectes-oleagineus | Ochre-bellied Flycatcher | Тиранны и титиры |
+| pseudotriccus-pelzelni | Bronze-olive Pygmy-Tyrant | Тиранны и титиры |
+| pseudotriccus-ruficeps | Rufous-headed Pygmy-Tyrant | Тиранны и титиры |
+| myiornis-ecaudatus | Short-tailed Pygmy-Tyrant | Тиранны и титиры |
+| hemitriccus-granadensis | Black-throated Tody-Tyrant | Тиранны и титиры |
+| poecilotriccus-latirostris | Rusty-fronted Tody-Flycatcher | Тиранны и титиры |
+| rhynchocyclus-pacificus | Pacific Flatbill | Тиранны и титиры |
+| tolmomyias-sulphurescens | Yellow-olive Flatbill | Тиранны и титиры |
+| tolmomyias-assimilis | Yellow-margined Flatbill | Тиранны и титиры |
+| tolmomyias-poliocephalus | Gray-crowned Flatbill | Тиранны и титиры |
+| tolmomyias-flaviventris | Ochre-lored Flatbill | Тиранны и титиры |
+| mecocerculus-minor | Sulphur-bellied Tyrannulet | Тиранны и титиры |
+| nesotriccus-murinus | Mouse-colored Tyrannulet | Тиранны и титиры |
+| myiopagis-cinerea | Amazonian Elaenia | Тиранны и титиры |
+| elaenia-gigas | Mottle-backed Elaenia | Тиранны и титиры |
+| elaenia-chiriquensis | Lesser Elaenia | Тиранны и титиры |
+| phyllomyias-griseiceps | Sooty-headed Tyrannulet | Тиранны и титиры |
+| myiophobus-flavicans | Flavescent Flycatcher | Тиранны и титиры |
+| empidonax-virescens | Acadian Flycatcher | Тиранны и титиры |
+| empidonax-alnorum | Alder Flycatcher | Тиранны и титиры |
+| knipolegus-poecilurus | Rufous-tailed Tyrant | Тиранны и титиры |
+| ochthornis-littoralis | Drab Water Tyrant | Тиранны и титиры |
+| silvicultrix-diadema | Yellow-bellied Chat-Tyrant | Тиранны и титиры |
+| attila-cinnamomeus | Cinnamon Attila | Тиранны и титиры |
+| rhytipterna-simplex | Grayish Mourner | Тиранны и титиры |
+| myiarchus-crinitus | Great Crested Flycatcher | Тиранны и титиры |
+| myiodynastes-luteiventris | Sulphur-bellied Flycatcher | Тиранны и титиры |
+| tyrannus-niveigularis | Snowy-throated Kingbird | Тиранны и титиры |
+| tyranneutes-stolzmanni | Dwarf Tyrant-Manakin | Котинги и манакины |
+| pseudopipra-pipra | White-crowned Manakin | Котинги и манакины |
+| snowornis-cryptolophus | Olivaceous Piha | Котинги и манакины |
+| pyroderus-scutatus | Red-ruffed Fruitcrow | Котинги и манакины |
 | cyclarhis-nigrirostris | Black-billed Peppershrike | Ласточки, крапивники, дрозды и другие |
 | pachysylvia-hypoxantha | Dusky-capped Greenlet | Ласточки, крапивники, дрозды и другие |
 | pachysylvia-semibrunnea | Rufous-naped Greenlet | Ласточки, крапивники, дрозды и другие |
@@ -110,6 +176,32 @@
 | catharus-minimus | Gray-cheeked Thrush | Ласточки, крапивники, дрозды и другие |
 | turdus-leucops | Pale-eyed Thrush | Ласточки, крапивники, дрозды и другие |
 | turdus-albicollis | White-necked Thrush | Ласточки, крапивники, дрозды и другие |
+| rhodinocichla-rosea | Rosy Thrush-Tanager | Танагры и кардиналы |
+| mitrospingus-cassinii | Dusky-faced Tanager | Танагры и кардиналы |
+| piranga-flava | Hepatic Tanager | Танагры и кардиналы |
+| pheucticus-ludovicianus | Rose-breasted Grosbeak | Танагры и кардиналы |
+| schistochlamys-melanopis | Black-faced Tanager | Танагры и кардиналы |
+| creurgops-verticalis | Rufous-crested Tanager | Танагры и кардиналы |
+| sphenopsis-melanotis | Black-eared Hemispingus | Танагры и кардиналы |
+| loriotus-luctuosus | White-shouldered Tanager | Танагры и кардиналы |
+| pipraeidea-melanonota | Fawn-breasted Tanager | Танагры и кардиналы |
+| ixothraupis-guttata | Speckled Tanager | Танагры и кардиналы |
+| poecilostreptus-palmeri | Gray-and-gold Tanager | Танагры и кардиналы |
+| dacnis-hartlaubi | Turquoise Dacnis | Танагры и кардиналы |
+| dacnis-venusta | Scarlet-thighed Dacnis | Танагры и кардиналы |
+| cyanerpes-nitidus | Short-billed Honeycreeper | Танагры и кардиналы |
+| iridophanes-pulcherrimus | Golden-collared Honeycreeper | Танагры и кардиналы |
+| hemithraupis-guira | Guira Tanager | Танагры и кардиналы |
+| conirostrum-albifrons | Capped Conebill | Танагры и кардиналы |
+| conirostrum-cinereum | Cinereous Conebill | Танагры и кардиналы |
+| urothraupis-stolzmanni | Black-backed Bush Tanager | Танагры и кардиналы |
+| sporophila-minuta | Ruddy-breasted Seedeater | Танагры и кардиналы |
+| sporophila-intermedia | Gray Seedeater | Танагры и кардиналы |
+| sporophila-americana | Wing-barred Seedeater | Танагры и кардиналы |
+| catamenia-analis | Band-tailed Seedeater | Танагры и кардиналы |
+| rhodospingus-cruentus | Crimson-breasted Finch | Танагры и кардиналы |
+| melanospiza-bicolor | Black-faced Grassquit | Танагры и кардиналы |
+| asemospiza-obscura | Dull-colored Grassquit | Танагры и кардиналы |
 | chlorophonia-cyanocephala | Golden-rumped Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
 | chlorophonia-cyanea | Blue-naped Chlorophonia | Овсянки, древесницы, трупиалы и вьюрки |
 | euphonia-saturata | Orange-crowned Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
