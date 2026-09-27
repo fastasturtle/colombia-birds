@@ -4,7 +4,8 @@
    * The place (whole route / a day / a site) gives each species its likelihood state there (best over the place's
    * sites, as in lib/data), and the site-wide filter (lib/filter.ts, ListFilter.svelte) hides states as everywhere.
    * Species data is read from the page's <script id="identify-data"> JSON (see pages/identify/index.astro).
-   * Facet counts: every unselected chip shows how many species would match with it added (same place + filter).
+   * Facet counts (same place + filter): in a group with no selection a chip shows the absolute count if selected;
+   * in a group with a selection an unselected chip shows «+N», the species it would add; selected chips show none.
    */
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
@@ -81,10 +82,12 @@
   });
   let shown = $derived(rows.filter((r) => passes($filter, r.state, tierOf(r.int, !!r.it.n, r.it.e))));
   /**
-   * counts[group][value] = species shown (place + filter) if that chip were added to the selection:
-   * OR within the chip's group (union with what is already selected there), AND with every other group.
-   * One pass over species: a species matching all groups adds to every chip it has, plus to every chip of a
-   * selected group; a species failing exactly one group adds only to that group's chips it has.
+   * counts[group][value], over species shown (place + filter):
+   * - group without a selection: species that would match if the chip were selected (AND with all other groups);
+   * - group with a selection: delta, species that selecting the chip too would ADD (match all other groups, have
+   *   the chip, match none of the group's selected chips).
+   * One pass over species: a species matching all groups adds to the chips it has in unselected groups; a species
+   * failing exactly one (selected) group adds only to that group's chips it has. Failing two or more adds nothing.
    */
   let counts = $derived.by(() => {
     const out: Record<string, Record<string, number>> = {};
@@ -104,7 +107,7 @@
       for (const g of vocab) {
         if (fail && g.key !== fail) continue;
         const c = out[g.key], t = ts[g.key];
-        if (!fail && sel[g.key]?.length) { for (const k in c) c[k]++; continue; }
+        if (!fail && sel[g.key]?.length) continue; // already in the results: adds nothing to this group's deltas
         if (t) for (const v of t) if (v in c) c[v]++;
       }
     });
@@ -139,7 +142,12 @@
         {#each g.values as v (v.key)}
           {@const on = sel[g.key]?.includes(v.key) ?? false}
           {@const n = counts[g.key]?.[v.key] ?? 0}
-          <button type="button" class="chip-b" class:zero={items !== null && !on && n === 0} aria-pressed={on} title={v.hint ?? undefined} onclick={() => toggle(g.key, v.key)}>{v.label}{#if items && !on}<span class="cnt">{n}</span>{/if}</button>
+          {@const delta = (sel[g.key]?.length ?? 0) > 0}
+          {@const how = items && !on ? `${delta ? 'добавит' : plural(n, 'подойдёт', 'подойдут', 'подойдут')} ${n} ${plural(n, 'вид', 'вида', 'видов')}` : null}
+          <button type="button" class="chip-b" class:zero={items !== null && !on && n === 0} aria-pressed={on}
+            aria-label={how ? `${v.label}: ${how}` : undefined}
+            title={[v.hint, how && how[0].toUpperCase() + how.slice(1)].filter(Boolean).join('. ') || undefined}
+            onclick={() => toggle(g.key, v.key)}>{v.label}{#if how}<span class="cnt" aria-hidden="true">{delta ? `+${n}` : n}</span>{/if}</button>
         {/each}
       </div>
     </fieldset>
