@@ -2,6 +2,7 @@
 id: pachyramphus-versicolor
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: верх чёрный, на крыле много белого, лицо и горло зеленовато-жёлтые"
   - "Низ белёсый в тонких тёмных поперечных полосках, заметных вблизи"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Barred becard (en), Pachyramphus versicolor (es), CC BY-SA 4.0 — data/texts: окраска самца и самки, высоты в Колумбии, голос, поведение"
   - "Wikipedia: White-winged becard (en, CC BY-SA 4.0) — data/texts: отличие"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Male: black above with much white in the wing, greenish-yellow face and throat"
@@ -38,12 +40,12 @@ en:
   behavior: "Keeps in the midstory and canopy of cloud forest and along edges, singly, in pairs or family groups, joining mixed flocks for short spells. Hops along branches taking insects and small fruit, sometimes in a brief hover."
   voice: "An accelerating series of thin, high whistles 'wur wee WEE-WEE-WEE-WEE' and squeaky chattering calls."
 ---
-Barred Becard (пёстрый бекард) — маленький бекард облачного леса, в Колумбии на высотах 1 500–2 800 м. Самец в хорошем свете выглядит нарядно: чёрно-белый верх, зеленовато-жёлтое лицо и тонкая полосатость снизу. Самку выдают рыжие крылья при серой шапочке и оливковой спине. Обычно эти бекарды попадаются в смешанных стаях вместе с танаграми.
+Barred Becard (пёстрый бекард) — маленький бекард облачного леса, в Колумбии на высотах 1 500–2 800 м. Самец в хорошем свете выглядит нарядно: чёрно-белый верх, зеленовато-жёлтое лицо и тонкая полосатость снизу. Самку выдают рыжие крылья при серой шапочке и оливковой спине. Эти бекарды нередко попадаются в смешанных стаях, но держатся в них недолго.
 
 На маршруте вид «возможно» на Трамплине птиц 15 октября и в Ла-Планаде 16–18 октября; у Обсерватории колибри под Боготой он тоже отмечен, но это выезд вне программы тура.
 
 ## English
 
-Barred Becard is a small becard of cloud forest, in Colombia at 1,500–2,800 m. In good light the male looks smart: black-and-white upperparts, a greenish-yellow face and fine barring below. The female is given away by rufous wings together with a gray cap and olive back. These becards usually turn up in mixed flocks with tanagers.
+Barred Becard is a small becard of cloud forest, in Colombia at 1,500–2,800 m. In good light the male looks smart: black-and-white upperparts, a greenish-yellow face and fine barring below. The female is given away by rufous wings together with a gray cap and olive back. These becards often turn up in mixed flocks but stay with them only briefly.
 
 On the route it is "maybe" at Trampolín de Aves on 15 October and at La Planada on 16–18 October; it is also recorded at the Observatorio de Colibríes near Bogotá, but that is an optional trip outside the tour programme.

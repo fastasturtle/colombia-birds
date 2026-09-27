@@ -2,6 +2,7 @@
 id: mionectes-striaticollis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и верх груди серые, в тонких белых пестринах, брюхо жёлтое"
   - "За глазом маленькое белое пятнышко"
@@ -12,7 +13,7 @@ similar:
     how: "голова оливковая, пестрины на горле и груди оливково-жёлтые, а не белые на сером; держится ниже"
   - id: leptopogon-superciliaris
     how: "шапочка серая, но лицо светлое с чёрным полумесяцем на щеке, на крыле две полосы"
-behavior: "Держится в подлеске и нижнем ярусе горного леса, на опушках и во вторичном лесу, чаще поодиночке. Ест много мелких ягод, насекомых снимает с листьев на коротком зависании; изредка вскидывает одно крыло."
+behavior: "Держится от подлеска до подкроны горного леса, на опушках и во вторичном лесу, чаще поодиночке, изредка в смешанной стае. Сидит вертикально, насекомых снимает с листьев на коротком зависании, ест и мелкие плоды."
 voice: "Поёт почти только на токовище: ритмичная серия писклявых нот или грустное повышающееся-понижающееся «уррИИю»."
 traits:
   size: sparrow
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Streak-necked flycatcher (en), Mionectes striaticollis (es), CC BY-SA 4.0 — data/texts: окраска, подвиды columbianus и viridiceps, высоты в Колумбии, голос, поведение"
   - "Wikipedia: Olive-streaked flycatcher, Slaty-capped flycatcher (en, CC BY-SA 4.0) — data/texts: отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: ярусы, поведение и питание по en.wikipedia (Streak-necked flycatcher, Feeding)"
 en:
   key_features:
     - "Gray throat and upper breast finely streaked white, yellow belly"
@@ -37,15 +39,15 @@ en:
       how: "olive head, throat and breast streaked olive and yellow rather than white on gray; keeps lower"
     - id: leptopogon-superciliaris
       how: "gray cap, but a pale face with a black crescent on the cheek and two wing bars"
-  behavior: "Keeps in the understory and lower levels of montane forest, at edges and in second growth, usually alone. Eats many small berries and hover-gleans insects from leaves; now and then lifts one wing."
+  behavior: "Keeps from the understory to the subcanopy of montane forest, at edges and in second growth, usually alone, occasionally with a mixed flock. Perches upright and hover-gleans insects from leaves; also eats small fruit."
   voice: "Sings almost only at the lek: a rhythmic series of squeaky notes or a melancholy rising-falling 'urrEEew'."
 ---
-Streak-necked Flycatcher (пестрогрудый тираннчик) — обычный тираннчик облачного леса на высотах 1 500–2 700 м. Как и родственники по роду, он больше ест ягоды, чем ловит насекомых, и часто держится у плодоносящих кустов. В Колумбии два подвида: columbianus с серой головой и viridiceps на западном склоне Нариньо, с оливковой шапочкой и оливковым горлом.
+Streak-necked Flycatcher (пестрогрудый тираннчик) — обычный тираннчик облачного леса на высотах 1 500–2 700 м. Как и другие виды рода, он ест не только насекомых, но и мелкие плоды. В Колумбии два подвида: columbianus с серой головой и viridiceps на западном склоне Нариньо, с оливковой шапочкой и оливковым горлом.
 
 На маршруте вид «возможно» во многих горных точках: в Эль-Энканто и на Ла-Дримофиле 4–6 октября, на Трамплине птиц и в Сибундое 15–16 октября, в Ла-Планаде 16–18 октября и на Авес-и-Флорес 18–20 октября.
 
 ## English
 
-Streak-necked Flycatcher is a common flycatcher of cloud forest at 1,500–2,700 m. Like its relatives in the genus it eats more berries than insects and often stays near fruiting shrubs. Colombia has two subspecies: columbianus, gray-headed, and viridiceps on the west slope of Nariño, with an olive crown and olive throat.
+Streak-necked Flycatcher is a common flycatcher of cloud forest at 1,500–2,700 m. Like other members of its genus it eats small fruit as well as insects. Colombia has two subspecies: columbianus, gray-headed, and viridiceps on the west slope of Nariño, with an olive crown and olive throat.
 
 On the route it is "maybe" at many mountain sites: El Encanto and La Drymophila on 4–6 October, Trampolín de Aves and Sibundoy on 15–16 October, La Planada on 16–18 October and Aves y Flórez on 18–20 October.

@@ -2,6 +2,7 @@
 id: leptopogon-rufipectus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо, горло и грудь рыжие, брюхо бледное оливково-жёлтое"
   - "Шапочка серая, за щекой тёмный полумесяц, как у пепельноголового ореджеро"
@@ -22,10 +23,11 @@ traits:
   bill: short
   layer: [understory, midstory]
 sources:
-  - "Данные проекта: data/species/leptopogon-rufipectus.json (ACO 2022 — почти-эндемик, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Данные проекта: data/species/leptopogon-rufipectus.json (ACO 2022, почти-эндемик по Chaparro-Herrera et al. 2024, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Rufous-breasted flycatcher (en), Leptopogon rufipectus (es), CC BY-SA 4.0 — data/texts: окраска, ареал и высоты в Колумбии, голос, поведение"
   - "Wikipedia: Slaty-capped flycatcher, Cinnamon flycatcher (en, CC BY-SA 4.0) — data/texts: отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Rufous face, throat and breast, pale olive-yellow belly"
@@ -40,12 +42,12 @@ en:
   behavior: "Keeps in the understory and midstory of montane forest and along edges, singly or in pairs, often with mixed flocks. Perches upright and snatches insects and fruit from leaves in a short sally."
   voice: "A loud, emphatic 'skwee!', sometimes run into a fast series of shrill notes; also 1–5 sharp 'spik!' notes."
 ---
-Rufous-breasted Flycatcher (ржавогрудый ореджеро) — ореджеро верхнего облачного леса, в Колумбии на высотах 1 600–2 800 м, пятнами на всех трёх кордильерах; в списке ACO он отмечен как почти-эндемик. Рыжее лицо и грудь при серой шапочке и тёмном полумесяце на щеке делают его одним из самых узнаваемых мелких тиранновых гор.
+Rufous-breasted Flycatcher (ржавогрудый ореджеро) — ореджеро верхнего облачного леса, в Колумбии на высотах 1 600–2 800 м, пятнами на всех трёх кордильерах; он входит в список почти-эндемиков Колумбии (Chaparro-Herrera и др., 2024). Рыжее лицо и грудь при серой шапочке и тёмном полумесяце на щеке делают его одним из самых узнаваемых мелких тиранновых гор.
 
 На маршруте вид «возможно» в Чикаке 3 и 23–24 октября, в Эль-Энканто и на Ла-Дримофиле 4–6 октября и на Трамплине птиц 15 октября. Слушай его резкий крик в смешанных стаях.
 
 ## English
 
-Rufous-breasted Flycatcher is the upper cloud-forest member of its genus, in Colombia at 1,600–2,800 m, patchily in all three Andean ranges; the ACO list marks it as a near-endemic. A rufous face and breast with a gray cap and a dark cheek crescent make it one of the most recognisable small mountain flycatchers.
+Rufous-breasted Flycatcher is the upper cloud-forest member of its genus, in Colombia at 1,600–2,800 m, patchily in all three Andean ranges; it is on the list of Colombian near-endemics (Chaparro-Herrera et al. 2024). A rufous face and breast with a gray cap and a dark cheek crescent make it one of the most recognisable small mountain flycatchers.
 
 On the route it is "maybe" at Chicaque on 3 and 23–24 October, at El Encanto and La Drymophila on 4–6 October and at Trampolín de Aves on 15 October. Listen for its sharp call in mixed flocks.

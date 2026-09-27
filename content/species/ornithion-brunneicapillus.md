@@ -2,6 +2,7 @@
 id: ornithion-brunneicapillus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка тёмно-бурая, резко отделена белой бровью"
   - "Лоб, уздечка и бровь белые, остальное лицо оливковое"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Brown-capped tyrannulet (en), Ornithion brunneicapillus (es), CC BY-SA 4.0 — data/texts: окраска, высоты в Колумбии, голос, поведение"
   - "content/species/tyrannulus-elatus.md, camptostoma-obsoletum.md — согласованы отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Dark brown cap, sharply set off by a white brow"

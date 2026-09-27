@@ -2,6 +2,7 @@
 id: hellmayrea-gularis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло белое, резко очерчено снизу тонкой чёрной полоской"
   - "Белые брови почти смыкаются на лбу, лицо тёмное рыжевато-бурое"
@@ -27,6 +28,7 @@ sources:
   - "content/species/asthenes-fuliginosa.md — отличие, согласовано с карточкой"
   - "Данные проекта: data/species/hellmayrea-gularis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "White throat, sharply edged below by a thin black line"

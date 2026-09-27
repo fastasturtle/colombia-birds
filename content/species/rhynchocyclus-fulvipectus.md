@@ -2,6 +2,7 @@
 id: rhynchocyclus-fulvipectus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень широкий и плоский, подклювье светлое"
   - "Горло и грудь тускло-рыжие, брюхо жёлтое, с оливковыми пестринами на боках"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Fulvous-breasted flatbill (en), Rhynchocyclus fulvipectus (es), Желтогрудый тиранн-плоскоклюв (ru), CC BY-SA 4.0 — data/texts: окраска, высоты в Колумбии, голос, поведение"
   - "Wikipedia: Pacific flatbill, Yellow-olive flatbill (en, CC BY-SA 4.0) — data/texts: отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Very broad, flat bill with a pale lower mandible"

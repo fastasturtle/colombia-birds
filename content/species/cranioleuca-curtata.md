@@ -2,6 +2,7 @@
 id: cranioleuca-curtata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Бровь серая или беловатая, от яркой до еле заметной"
   - "Шапка, крылья и хвост рыже-каштановые, спина тёплая бурая"
@@ -26,6 +27,7 @@ sources:
   - "content/species/synallaxis-azarae.md, content/species/syndactyla-subalaris.md — согласовано с отличиями в этих карточках"
   - "Данные проекта: data/species/cranioleuca-curtata.json (ACO 2022, BIRDBASE 2025; МСОП VU), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: МСОП: VU с 2012, снова LC с 2021 (en.wikipedia Ash-browed spinetail, Status); ACO 2022 — VU (data)"
 en:
   key_features:
     - "Gray to whitish eyebrow, from bold to barely visible"
@@ -40,12 +42,12 @@ en:
   behavior: "Forages singly or in pairs, usually with a mixed flock, from the mid-storey to the subcanopy, deftly searching bark, moss, epiphytes and dead leaves."
   voice: "A high, accelerating, descending series of shrill notes with a bouncing-ball rhythm, running into a fading trill."
 ---
-Ash-browed Spinetail (серобровая курутия) — курутия влажного предгорного и нижнего облачного леса, в Колумбии обычно на 800–2 300 м. Номинативный подвид живёт на западном склоне Восточных Анд от Сантандера до Уилы, подвид cisandina — на восточном склоне, с Какеты на юг. В ACO вид отмечен как уязвимый. Это рыжеватая птичка крон: ищи её в смешанной стае, где она копается во мху на тонких ветках.
+Ash-browed Spinetail (серобровая курутия) — курутия влажного предгорного и нижнего облачного леса, в Колумбии обычно на 800–2 300 м. Номинативный подвид живёт на западном склоне Восточных Анд от Сантандера до Уилы, подвид cisandina — на восточном склоне, с Какеты на юг. В ACO 2022 вид отмечен как уязвимый, хотя в глобальном списке МСОП с 2021 года он снова считается видом без угрозы (LC). Это рыжеватая птичка крон: ищи её в смешанной стае, где она копается во мху на тонких ветках.
 
 На маршруте вид «возможно» в Эль-Энканто 4 и 6 октября, в Ла-Дримофиле 5 октября, в Чикаке 3 и 23–24 октября и на Трамплине птиц 15 октября.
 
 ## English
 
-Ash-browed Spinetail is a spinetail of humid foothill and lower cloud forest, in Colombia usually at 800–2,300 m. The nominate subspecies lives on the western slope of the Eastern Andes from Santander to Huila, the subspecies cisandina on the eastern slope from Caquetá south. ACO lists it as Vulnerable. It is a rufous-toned canopy bird: look for it in a mixed flock, rummaging in moss on thin twigs.
+Ash-browed Spinetail is a spinetail of humid foothill and lower cloud forest, in Colombia usually at 800–2,300 m. The nominate subspecies lives on the western slope of the Eastern Andes from Santander to Huila, the subspecies cisandina on the eastern slope from Caquetá south. ACO 2022 lists it as Vulnerable, although the global IUCN Red List has rated it Least Concern again since 2021. It is a rufous-toned canopy bird: look for it in a mixed flock, rummaging in moss on thin twigs.
 
 On the route it is "maybe" at El Encanto on 4 and 6 October, La Drymophila on 5 October, Chicaque on 3 and 23–24 October and Trampolín de las Aves on 15 October.

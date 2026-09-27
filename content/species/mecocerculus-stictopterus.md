@@ -2,6 +2,7 @@
 id: mecocerculus-stictopterus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "На тёмном крыле две широкие чисто белые полосы, заметные издалека"
   - "Широкая белая бровь, через глаз тёмная полоска, шапочка серая"
@@ -11,7 +12,7 @@ similar:
   - id: mecocerculus-leucophrys
     how: "горло пышное, чисто белое, полосы на крыле охристые или рыжие, а не белые"
   - id: mecocerculus-poecilocercus
-    how: "мельче, поясница ярко-зеленовато-жёлтая, крайние рулевые белые; живёт ниже, 1 800–2 400 м"
+    how: "мельче, поясница ярко-зеленовато-жёлтая, крайние рулевые белые; живёт ниже, в Колумбии 1 800–2 800 м"
 behavior: "Держится в кронах и на внешних ветках деревьев верхнего облачного леса и у границы леса, парами или стайками, часто в смешанных стаях. Склёвывает насекомых с листьев и веточек, нередко повиснув вниз головой."
 voice: "Повышающееся хрипловатое «ржии?», иногда с добавкой «чью-бит» или тонкого скрипучего щебета."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: White-banded tyrannulet (en), Mecocerculus stictopterus (es), CC BY-SA 4.0 — data/texts: окраска, высоты в Колумбии, голос, поведение"
   - "Wikipedia: White-tailed tyrannulet (en, CC BY-SA 4.0) — data/texts; content/species/mecocerculus-leucophrys.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Two broad, pure white bars on a dark wing, visible from afar"
@@ -36,16 +38,16 @@ en:
     - id: mecocerculus-leucophrys
       how: "puffy pure white throat, ochre or rufous wing bars rather than white"
     - id: mecocerculus-poecilocercus
-      how: "smaller, bright greenish-yellow rump, white outer tail feathers; lives lower, 1,800–2,400 m"
+      how: "smaller, bright greenish-yellow rump, white outer tail feathers; lives lower, 1,800–2,800 m in Colombia"
   behavior: "Keeps in the canopy and on the outer branches of trees in upper cloud forest and at treeline, in pairs or small groups, often with mixed flocks. Gleans insects from leaves and twigs, often hanging upside down."
   voice: "A rising, wheezy 'rhzeee?', sometimes followed by a 'chew-bit' or a thin scratchy chatter."
 ---
 White-banded Tyrannulet (полосатокрылый москитолов) — обычный москитолов высокогорного леса, в Колумбии на высотах 2 000–3 600 м, чаще 2 400–3 500 м. Среди мелких серо-оливковых птичек смешанных стай его легко узнать по двум резким белым полосам на крыле и широкой белой брови. Кормится он подвижно, как синица, свешиваясь с концов веток.
 
-На маршруте тура вид в данных не отмечен. «Возможно» он в Чингасе и у Обсерватории колибри, но это не входит в программу тура, вариант для самостоятельного выезда из Боготы. Подходящие высоты есть и на Бордонсильо 16 октября, так что проверяй там смешанные стаи.
+На маршруте тура вид в данных не отмечен. «Возможно» он в Чингасе и у Обсерватории колибри, но это не входит в программу тура, вариант для самостоятельного выезда из Боготы. На Бордонсильо 16 октября высоты подходящие, но по данным GBIF вид там маловероятен; смешанные стаи всё равно стоит проверить.
 
 ## English
 
 White-banded Tyrannulet is a common tyrannulet of high montane forest, in Colombia at 2,000–3,600 m, mostly 2,400–3,500 m. Among the small gray-olive birds of mixed flocks it is easy to pick out by its two sharp white wing bars and broad white brow. It feeds actively, like a tit, hanging from branch tips.
 
-On the tour route it is not recorded in the data. It is "maybe" at Chingaza and the Observatorio de Colibríes, but those are not part of the tour programme, an option for an independent trip from Bogotá. Suitable elevations also exist at Bordoncillo on 16 October, so check mixed flocks there.
+On the tour route it is not recorded in the data. It is "maybe" at Chingaza and the Observatorio de Colibríes, but those are not part of the tour programme, an option for an independent trip from Bogotá. At Bordoncillo on 16 October the elevation is suitable, but in the GBIF data the species is unlikely there; mixed flocks are still worth checking.

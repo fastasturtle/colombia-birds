@@ -2,6 +2,7 @@
 id: tityra-semifasciata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голая розово-красная кожа вокруг глаза и у основания клюва; клюв красный с чёрным концом"
   - "У самца чёрная только «маска» на лбу и лице, шапочка светло-серая"
@@ -12,7 +13,7 @@ similar:
   - id: tityra-cayana
     how: "шапочка целиком чёрная, от лба до затылка, хвост чёрный"
   - id: tityra-inquisitor
-    how: "голой красной кожи нет, клюв чёрный, шапочка чёрная; у самки лицо каштановое"
+    how: "голой красной кожи нет, клюв сизо-чёрный, без красного, шапочка чёрная; у самки лицо каштановое"
 behavior: "Держится парами или небольшими группами в кронах опушек, на вырубках с отдельными деревьями и в садах, часто сидит открыто на макушках. Ест в основном плоды, срывая их с ветки или на коротком зависании, ловит и насекомых."
 voice: "Сухое носовое хрюканье «кверп» или «зззрт», за которое её в Латинской Америке прозвали «поросёнком»."
 traits:
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Masked tityra (en), Tityra semifasciata (es), CC BY-SA 4.0 — data/texts: окраска, подвиды nigriceps и fortis, высоты, голос, питание, прозвище «puerquito»"
   - "Wikipedia: Black-crowned tityra (en, CC BY-SA 4.0) — data/texts; content/species/tityra-cayana.md — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/ и выдержки Wikipedia (data/texts) для вида и похожих видов"
 en:
   key_features:
     - "Bare rosy-red skin around the eye and at the bill base; red bill with a black tip"
@@ -38,7 +40,7 @@ en:
     - id: tityra-cayana
       how: "entire cap black from forehead to nape, black tail"
     - id: tityra-inquisitor
-      how: "no bare red skin, black bill, black cap; female has a chestnut face"
+      how: "no bare red skin, bluish-black bill without red, black cap; female has a chestnut face"
   behavior: "Keeps in pairs or small groups in the canopy along edges, in clearings with scattered trees and in gardens, often perching in the open on treetops. Eats mainly fruit, plucked from a branch or in a brief hover, and also takes insects."
   voice: "Dry, nasal grunts, 'querp' or 'zzzrt', which earned it the Latin American nickname 'little pig'."
 ---
