@@ -31,7 +31,7 @@
 - [ ] Manakin Nature Tours PDF «Macizo, Amazon & Pacific Foothills 2026» — вытащить список видов
 
 ## Сайт
-- [ ] Кнопка «сообщить об ошибке» на каждой странице: форма → Cloudflare Worker → GitHub issue с меткой `report` (нужен fine-grained токен Issues: write в секрете Worker); rate-limit по IP, honeypot
+- [ ] Кнопка «сообщить об ошибке»: см. скилл `.claude/skills/error-reports` (форма → Cloudflare Worker → GitHub issue `report`). Ждёт fine-grained токен Issues: write от владельца; запускать по команде владельца
 - [ ] Интеграция с книгой Lynx «Birds of Colombia»: ждём фото указателя от владельца (припарковано)
 - [x] Фото на весь экран по тапу (лайтбокс, свайп, Esc), к источнику только по явной ссылке
 - [x] Каркас Astro 7 + Svelte: семейства, список видов с поиском и фильтрами, карточка вида, маршрут с картой и профилем высот
