@@ -1,153 +1,98 @@
 {
- "authorship": "(P.L. Sclater, 1859)",
- "colombia": {
-  "endemic": false,
-  "habitat_aco": "Forest",
-  "introduced": false,
-  "libro_rojo": "EN",
-  "migration_note": "Residente",
-  "status": [
-   "resident"
-  ],
-  "status_raw": "Residente",
-  "status_uncertain": false
- },
- "difficulty": null,
- "ebird_code": "lowumb1",
- "family": {
-  "code": "coting1",
-  "en": "Cotingas",
-  "sci": "Cotingidae"
- },
- "genus": "Cephalopterus",
  "id": "cephalopterus-penduliger",
- "ids": {
-  "avibase": "7171CA71F946EF86",
-  "birdbase": 18290,
-  "gbif": 5959195,
-  "inaturalist": "8808",
-  "iucn": "22700936",
-  "wikidata": "Q908238",
-  "xeno_canto": "Cephalopterus-penduliger"
- },
- "iucn": {
-  "aco_2022": "VU",
-  "birdbase_2024": "VU",
-  "wikidata": "vulnerable"
- },
- "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cephalopterus_penduliger",
-  "ebird": "https://ebird.org/species/lowumb1",
-  "inaturalist": "https://www.inaturalist.org/taxa/8808",
-  "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Long-wattled_umbrellabird",
-   "es": "https://es.wikipedia.org/wiki/Cephalopterus_penduliger",
-   "ru": "https://ru.wikipedia.org/wiki/Эквадорская_зонтичная_птица"
-  },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Cephalopterus+penduliger"
- },
- "name_ru_source": "ebird",
- "names": {
-  "en": "Long-wattled Umbrellabird",
-  "en_aco": "Long-wattled Umbrellabird",
-  "es": "Paragüero Corbatudo",
-  "ru": "Эквадорская зонтичная птица"
- },
- "order": "Passeriformes",
  "photos": [
   {
    "author": "Roger Rittmaster",
    "credit": "(c) Roger Rittmaster, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58437401/original.jpeg",
    "height": 1600,
    "key_base": "photos/cephalopterus-penduliger/1",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 1,
+   "original_height": 2048,
+   "original_width": 1639,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/cephalopterus-penduliger/1-large.jpg",
     "medium": "photos/cephalopterus-penduliger/1-medium.jpg",
     "thumb": "photos/cephalopterus-penduliger/1-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/36919170",
+   "title": "Cephalopterus penduliger, iNaturalist observation 36919170",
    "width": 1280
   },
   {
    "author": "Nico",
    "credit": "no rights reserved",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244307752/original.jpeg",
    "height": 1066,
    "key_base": "photos/cephalopterus-penduliger/2",
    "license": "CC0",
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 2,
+   "original_height": 1365,
+   "original_width": 2048,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/cephalopterus-penduliger/2-large.jpg",
     "medium": "photos/cephalopterus-penduliger/2-medium.jpg",
     "thumb": "photos/cephalopterus-penduliger/2-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/142496584",
+   "title": "Cephalopterus penduliger, iNaturalist observation 142496584",
    "width": 1600
   },
   {
    "author": "Dan Vickers",
    "credit": "https://www.inaturalist.org/photos/559074142",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cephalopterus_penduliger_559074142.jpg/1920px-Cephalopterus_penduliger_559074142.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1600,
    "key_base": "photos/cephalopterus-penduliger/3",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 3,
+   "original_height": 2048,
+   "original_width": 2048,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/cephalopterus-penduliger/3-large.jpg",
     "medium": "photos/cephalopterus-penduliger/3-medium.jpg",
     "thumb": "photos/cephalopterus-penduliger/3-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Cephalopterus_penduliger_559074142.jpg",
+   "title": "Cephalopterus penduliger 559074142",
    "width": 1600
   },
   {
    "author": "Sharpe, Richard Bowdler",
    "credit": "https://www.flickr.com/photos/biodivlibrary/7995791524",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Wonders_of_the_bird_world_%28Pl._8%29_%287995791524%29.jpg/1920px-Wonders_of_the_bird_world_%28Pl._8%29_%287995791524%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1123,
    "key_base": "photos/cephalopterus-penduliger/4",
    "license": "Public domain",
    "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 4,
+   "original_height": 1525,
+   "original_width": 2172,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/cephalopterus-penduliger/4-large.jpg",
     "medium": "photos/cephalopterus-penduliger/4-medium.jpg",
     "thumb": "photos/cephalopterus-penduliger/4-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Wonders_of_the_bird_world_(Pl._8)_(7995791524).jpg",
+   "title": "Wonders of the bird world (Pl. 8) (7995791524)",
    "width": 1600
   }
  ],
- "sci_name": "Cephalopterus penduliger",
- "sci_name_aco": "Cephalopterus penduliger",
- "sounds": [],
- "taxon_order": 15919.0,
- "taxonomy_note": null,
- "texts": {},
- "traits": {
-  "diet_desc": null,
-  "elevation_m": {
-   "max": 1800,
-   "max_extreme": null,
-   "min": 80,
-   "min_extreme": null
-  },
-  "habitat_breadth": 2,
-  "habitats": [
-   "forest",
-   "shrubland"
-  ],
-  "mass_g": 338,
-  "mobility": {
-   "altitudinal": null,
-   "dispersive": null,
-   "irregular": null,
-   "migratory": null,
-   "sedentary": 1
-  },
-  "primary_diet": "Fruit",
-  "primary_habitat": "Forest",
-  "range_restricted": 0
- },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Long-wattled%20Umbrellabird%20-%20South%20Ecuador%20S4E8115%20%2816213159194%29.jpg"
- ]
+ "updated": "2026-09-27"
 }

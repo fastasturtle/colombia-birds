@@ -1,152 +1,98 @@
 {
- "authorship": "(P.G.W. Salaman & F.G. Stiles, 1996)",
- "colombia": {
-  "endemic": false,
-  "habitat_aco": "Woodland",
-  "introduced": false,
-  "libro_rojo": "VU",
-  "migration_note": "Residente",
-  "status": [
-   "resident"
-  ],
-  "status_raw": "Residente",
-  "status_uncertain": false
- },
- "difficulty": null,
- "ebird_code": "chovir1",
- "family": {
-  "code": "vireon1",
-  "en": "Vireos, Shrike-Babblers, and Erpornis",
-  "sci": "Vireonidae"
- },
- "genus": "Vireo",
  "id": "vireo-masteri",
- "ids": {
-  "avibase": "F63CE02EAE16DEAA",
-  "birdbase": 21540,
-  "gbif": 2487433,
-  "inaturalist": "17391",
-  "iucn": "22705146",
-  "wikidata": "Q2667752",
-  "xeno_canto": "Vireo-masteri"
- },
- "iucn": {
-  "aco_2022": "EN",
-  "birdbase_2024": "NT",
-  "wikidata": "near threatened"
- },
- "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_masteri",
-  "ebird": "https://ebird.org/species/chovir1",
-  "inaturalist": "https://www.inaturalist.org/taxa/17391",
-  "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Chocó_vireo",
-   "es": "https://es.wikipedia.org/wiki/Vireo_masteri",
-   "ru": "https://ru.wikipedia.org/wiki/Vireo_masteri"
-  },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+masteri"
- },
- "name_ru_source": "ebird",
- "names": {
-  "en": "Choco Vireo",
-  "en_aco": "Choco Vireo",
-  "es": "Vireo del Chocó",
-  "ru": "Чокский виреон"
- },
- "order": "Passeriformes",
  "photos": [
   {
    "author": "Edison Ocaña",
    "credit": "https://www.inaturalist.org/photos/17620880",
+   "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Vireo_masteri_17620880_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "height": 645,
    "key_base": "photos/vireo-masteri/1",
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 1,
+   "original_height": 645,
+   "original_width": 861,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/vireo-masteri/1-large.jpg",
     "medium": "photos/vireo-masteri/1-medium.jpg",
     "thumb": "photos/vireo-masteri/1-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Vireo_masteri_17620880_(cropped).jpg",
+   "title": "Vireo masteri 17620880 (cropped)",
    "width": 861
   },
   {
    "author": "tomas_kay",
    "credit": "(c) tomas_kay, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591979547/original.jpg",
    "height": 1318,
    "key_base": "photos/vireo-masteri/2",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 2,
+   "original_height": 1403,
+   "original_width": 1703,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/vireo-masteri/2-large.jpg",
     "medium": "photos/vireo-masteri/2-medium.jpg",
     "thumb": "photos/vireo-masteri/2-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/326819652",
+   "title": "Vireo masteri, iNaturalist observation 326819652",
    "width": 1600
   },
   {
    "author": "Zac Peterson",
    "credit": "(c) Zac Peterson, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217829661/original.jpeg",
    "height": 795,
    "key_base": "photos/vireo-masteri/3",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 3,
+   "original_height": 795,
+   "original_width": 962,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/vireo-masteri/3-large.jpg",
     "medium": "photos/vireo-masteri/3-medium.jpg",
     "thumb": "photos/vireo-masteri/3-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/128251620",
+   "title": "Vireo masteri, iNaturalist observation 128251620",
    "width": 962
   },
   {
    "author": "Edison Ocaña",
    "credit": "https://www.inaturalist.org/photos/17620880",
+   "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vireo_masteri_17620880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "height": 825,
    "key_base": "photos/vireo-masteri/4",
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 4,
+   "original_height": 825,
+   "original_width": 1100,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/vireo-masteri/4-large.jpg",
     "medium": "photos/vireo-masteri/4-medium.jpg",
     "thumb": "photos/vireo-masteri/4-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Vireo_masteri_17620880.jpg",
+   "title": "Vireo masteri 17620880",
    "width": 1100
   }
  ],
- "sci_name": "Vireo masteri",
- "sci_name_aco": "Vireo masteri",
- "sounds": [],
- "taxon_order": 19222.0,
- "taxonomy_note": null,
- "texts": {},
- "traits": {
-  "diet_desc": null,
-  "elevation_m": {
-   "max": 2100,
-   "max_extreme": null,
-   "min": 1200,
-   "min_extreme": 1100
-  },
-  "habitat_breadth": 1,
-  "habitats": [
-   "forest"
-  ],
-  "mass_g": 11.2,
-  "mobility": {
-   "altitudinal": null,
-   "dispersive": null,
-   "irregular": null,
-   "migratory": null,
-   "sedentary": 1
-  },
-  "primary_diet": "Invertebrate",
-  "primary_habitat": "Forest",
-  "range_restricted": 1
- },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo%20masteri%2017620880%20%28cropped%29.jpg"
- ]
+ "updated": "2026-09-27"
 }

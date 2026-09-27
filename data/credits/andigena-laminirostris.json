@@ -1,155 +1,98 @@
 {
- "authorship": "(Gould, 1851)",
- "colombia": {
-  "endemic": false,
-  "habitat_aco": "Forest",
-  "introduced": false,
-  "libro_rojo": "EN",
-  "migration_note": "Residente",
-  "status": [
-   "resident"
-  ],
-  "status_raw": "Residente",
-  "status_uncertain": false
- },
- "difficulty": null,
- "ebird_code": "pbmtou1",
- "family": {
-  "code": "rampha1",
-  "en": "Toucans",
-  "sci": "Ramphastidae"
- },
- "genus": "Andigena",
  "id": "andigena-laminirostris",
- "ids": {
-  "avibase": "2EF3405B70C48CCC",
-  "birdbase": 11228,
-  "gbif": 2478861,
-  "inaturalist": "18846",
-  "iucn": "22682050",
-  "wikidata": "Q762935",
-  "xeno_canto": "Andigena-laminirostris"
- },
- "iucn": {
-  "aco_2022": "NT",
-  "birdbase_2024": "NT",
-  "wikidata": "near threatened"
- },
- "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Andigena_laminirostris",
-  "ebird": "https://ebird.org/species/pbmtou1",
-  "inaturalist": "https://www.inaturalist.org/taxa/18846",
-  "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Plate-billed_mountain_toucan",
-   "es": "https://es.wikipedia.org/wiki/Andigena_laminirostris",
-   "ru": "https://ru.wikipedia.org/wiki/Плоскоклювая_андигена"
-  },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Andigena+laminirostris"
- },
- "name_ru_source": "ebird",
- "names": {
-  "en": "Plate-billed Mountain-Toucan",
-  "en_aco": "Plate-billed Mountain-Toucan",
-  "es": "Tucán Piquiplano",
-  "ru": "Плоскоклювый перцеяд"
- },
- "order": "Piciformes",
  "photos": [
   {
    "author": "Mike's Birds from Riverside, CA, US",
    "credit": "Plate-billed Mountain-toucan",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Plate-billed_Mountain-toucan_%2847792081302%29.jpg/1920px-Plate-billed_Mountain-toucan_%2847792081302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1600,
    "key_base": "photos/andigena-laminirostris/1",
    "license": "CC BY-SA 2.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 1,
+   "original_height": 3451,
+   "original_width": 3154,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/andigena-laminirostris/1-large.jpg",
     "medium": "photos/andigena-laminirostris/1-medium.jpg",
     "thumb": "photos/andigena-laminirostris/1-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Plate-billed_Mountain-toucan_(47792081302).jpg",
+   "title": "Plate-billed Mountain-toucan (47792081302)",
    "width": 1462
   },
   {
    "author": "The Lilac Breasted Roller from Sullivan's Island, United States",
    "credit": "Plate-billed Mountain-toucan (Andigena laminirostris) (cropped and digitally enhanced from Flickr image)",
+   "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Andigena_laminirostris.jpg/1920px-Andigena_laminirostris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "height": 1380,
    "key_base": "photos/andigena-laminirostris/2",
    "license": "CC BY 2.0",
    "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 2,
+   "original_height": 1672,
+   "original_width": 1938,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/andigena-laminirostris/2-large.jpg",
     "medium": "photos/andigena-laminirostris/2-medium.jpg",
     "thumb": "photos/andigena-laminirostris/2-thumb.jpg"
    },
+   "source": "commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Andigena_laminirostris.jpg",
+   "title": "Andigena laminirostris",
    "width": 1600
   },
   {
    "author": "Santiago Ron",
    "credit": "(c) Santiago Ron, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107993458/original.jpg",
    "height": 1066,
    "key_base": "photos/andigena-laminirostris/3",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 3,
+   "original_height": 1333,
+   "original_width": 2000,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/andigena-laminirostris/3-large.jpg",
     "medium": "photos/andigena-laminirostris/3-medium.jpg",
     "thumb": "photos/andigena-laminirostris/3-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/66920697",
+   "title": "Andigena laminirostris, iNaturalist observation 66920697",
    "width": 1600
   },
   {
    "author": "Santiago Ron",
    "credit": "(c) Santiago Ron, some rights reserved (CC BY)",
+   "download_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107818157/original.jpeg",
    "height": 1600,
    "key_base": "photos/andigena-laminirostris/4",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "modifications": "resized and re-encoded as JPEG; metadata stripped",
+   "n": 4,
+   "original_height": 1667,
+   "original_width": 1667,
+   "retrieved": "2026-09-27",
    "sizes": {
     "large": "photos/andigena-laminirostris/4-large.jpg",
     "medium": "photos/andigena-laminirostris/4-medium.jpg",
     "thumb": "photos/andigena-laminirostris/4-thumb.jpg"
    },
+   "source": "inaturalist",
    "source_url": "https://www.inaturalist.org/observations/66825948",
+   "title": "Andigena laminirostris, iNaturalist observation 66825948",
    "width": 1600
   }
  ],
- "sci_name": "Andigena laminirostris",
- "sci_name_aco": "Andigena laminirostris",
- "sounds": [],
- "taxon_order": 10874.0,
- "taxonomy_note": null,
- "texts": {},
- "traits": {
-  "diet_desc": "Eggs",
-  "elevation_m": {
-   "max": 2500,
-   "max_extreme": 3600,
-   "min": 1300,
-   "min_extreme": 300
-  },
-  "habitat_breadth": 3,
-  "habitats": [
-   "forest",
-   "shrubland",
-   "agricultural"
-  ],
-  "mass_g": 315,
-  "mobility": {
-   "altitudinal": 1,
-   "dispersive": null,
-   "irregular": 1,
-   "migratory": null,
-   "sedentary": null
-  },
-  "primary_diet": "Fruit",
-  "primary_habitat": "Forest",
-  "range_restricted": 1
- },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Plate-billed%20Mountain-toucan%20%2847792081302%29.jpg",
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Andigena%20laminirostris.jpg"
- ]
+ "updated": "2026-09-27"
 }
