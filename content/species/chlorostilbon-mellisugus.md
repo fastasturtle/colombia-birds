@@ -2,6 +2,7 @@
 id: chlorostilbon-mellisugus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь блестящий изумрудный, горло с синеватым отливом"
   - "Хвост стально-синий, с вырезкой; клюв короткий, прямой, целиком чёрный"
@@ -12,7 +13,7 @@ similar:
     how: "крупнее, брюхо самца фиолетовое, хвост длинный и глубоко вильчатый"
   - id: chionomesa-fimbriata
     how: "крупнее, клюв длиннее, с розовым подклювьем; посреди брюха белая полоса, хвост бронзово-зелёный"
-behavior: "Держится в открытых и полуоткрытых местах: на опушках, в садах, на пастбищах с кустами и по краю саванн. Кормится низко, у цветущих кустов и трав."
+behavior: "Держится в открытых и полуоткрытых местах: на опушках, в садах, на пастбищах с кустами и по краю саванн. Кормится на всех уровнях, чаще облетая цветки по кругу, иногда охраняет куртины цветов; мелких насекомых ловит с присады."
 voice: "Повторяемые короткие писки с редкими трелями; позыв — довольно громкое хриплое «чррт»."
 traits:
   size: hummingbird
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Blue-tailed emerald (en), Chlorostilbon mellisugus (es), CC BY-SA 4.0 — data/texts: размеры, окраска самца и самки, голос"
   - "content/species/thalurania-furcata.md, content/species/chionomesa-fimbriata.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts chlorostilbon-mellisugus (Wikipedia en/es — кормёжка на всех ярусах, голос), thalurania-furcata, chionomesa-fimbriata"
 en:
   key_features:
     - "Male glittering emerald all over, throat with a bluish sheen"
@@ -37,7 +39,7 @@ en:
       how: "larger, male has a violet belly and a long, deeply forked tail"
     - id: chionomesa-fimbriata
       how: "larger, longer bill with a pink lower mandible; white stripe down the belly, bronze-green tail"
-  behavior: "Keeps to open and semi-open country: edges, gardens, pastures with shrubs and savanna margins. Feeds low at flowering shrubs and herbs."
+  behavior: "Keeps to open and semi-open country: edges, gardens, pastures with shrubs and savanna margins. Feeds at all levels, mostly trap-lining flowers, sometimes defending flower patches; hawks small insects from a perch."
   voice: "Repeated short squeaks with occasional trills; the call is a fairly loud harsh 'chrrt'."
 ---
 Blue-tailed Emerald (синехвостый изумруд) — один из самых мелких колибри маршрута, 2,5–3 г. Он живёт к востоку от Анд, от Колумбии до Гвиан и Боливии, в открытых местах с кустами, на опушках и в садах. Самец целиком изумрудный с синим хвостом, самка серая снизу с тёмной «маской».

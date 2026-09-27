@@ -2,6 +2,7 @@
 id: pilherodius-pileatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв и голая кожа лица ярко-голубые — единственная такая цапля"
   - "Шапка чёрная, с затылка свисают длинные белые перья"
@@ -9,7 +10,7 @@ key_features:
   - "Сложение коренастое, как у кваквы, но охотится днём"
 similar:
   - id: egretta-thula
-    how: "стройнее, целиком белая, без чёрной шапки; клюв чёрный, лапы жёлтые"
+    how: "стройнее, целиком белая, без чёрной шапки; клюв и ноги чёрные, пальцы жёлтые"
   - id: nycticorax-nycticorax
     how: "спина чёрная, крылья серые, глаз красный, клюв чёрный; кормится в сумерках"
 behavior: "Держится поодиночке по берегам лесных рек, стариц, болот, канав и рисовых полей, часто у плавучей растительности. Стоит прямо, затем медленно пригибается и резко бьёт клювом рыбу или головастика."
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Capped heron (en), Pilherodius pileatus (es), Южноамериканская кваква (ru), CC BY-SA 4.0 — описание, размеры, биотоп, высоты, охота"
   - "Wikipedia: Snowy egret, Black-crowned night heron (en, CC BY-SA 4.0) — data/texts; сверено с карточками этих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts pilherodius-pileatus (en/es/ru — окраска, размеры, высоты до 900 м, охота), egretta-thula (ноги и пальцы), nycticorax-nycticorax; «обычно молчит» в выдержках не описано, оставлено как общеизвестное"
 en:
   key_features:
     - "Bright blue bill and bare facial skin, unique among herons"
@@ -34,7 +36,7 @@ en:
     - "Stocky like a night heron, but hunts by day"
   similar:
     - id: egretta-thula
-      how: "slimmer, wholly white without a black cap; black bill, yellow feet"
+      how: "slimmer, wholly white without a black cap; black bill and legs, yellow feet"
     - id: nycticorax-nycticorax
       how: "black back, gray wings, red eye, black bill; feeds at dusk"
   behavior: "Keeps alone along forest rivers, oxbows, marshes, ditches and rice fields, often by floating vegetation. Stands upright, then slowly crouches and strikes fast at a fish or tadpole."

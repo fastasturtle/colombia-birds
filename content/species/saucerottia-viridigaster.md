@@ -2,6 +2,7 @@
 id: saucerottia-viridigaster
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост тёмный, фиолетово-синий; поясница оливково-бурая"
   - "Низ тёмный, блестяще-зелёный, к подхвостью серовато-бурый"
@@ -9,7 +10,7 @@ key_features:
   - "Клюв прямой, черноватый, основание подклювья розовое"
 similar:
   - id: saucerottia-saucerottei
-    how: "поясница зелёная, без бурого; подхвостье тёмное стально-синее, а не серовато-бурое"
+    how: "надхвостье сине-чёрное, без бурого; подхвостье у самца зеленовато- или стально-синее, а не серовато-бурое"
   - id: amazilia-tzacatl
     how: "хвост рыжий, каштановый, подклювье красное почти целиком"
 behavior: "Держится на опушках галерейных лесов, плантациях, в кустарниках и низком вторичном лесу. Кормится у цветущих кустов, трав и лиан и ревностно охраняет свои цветы от других колибри."
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Green-bellied hummingbird (en), Saucerottia viridigaster (es), CC BY-SA 4.0 — data/texts: окраска, подвиды и ареал, высоты, местообитания, голос"
   - "content/species/amazilia-tzacatl.md — отличие A. tzacatl"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts saucerottia-viridigaster, amazilia-tzacatl; Wikipedia Steely-vented hummingbird (en) — отличие S. saucerottei"
 en:
   key_features:
     - "Dark violet-blue tail; olive-brown rump"
@@ -33,7 +35,7 @@ en:
     - "Straight blackish bill, base of the lower mandible pink"
   similar:
     - id: saucerottia-saucerottei
-      how: "green rump with no brown; dark steel-blue undertail, not grayish-brown"
+      how: "blue-black uppertail coverts with no brown; male's undertail greenish to steel blue, not grayish-brown"
     - id: amazilia-tzacatl
       how: "rufous-chestnut tail, lower mandible red almost throughout"
   behavior: "Keeps to gallery-forest edges, plantations, scrub and low secondary forest. Feeds at flowering shrubs, herbs and vines and fiercely guards its flowers against other hummingbirds."

@@ -2,6 +2,7 @@
 id: chlorostilbon-poortmani
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь блестящий зелёный, снизу с золотистым отливом"
   - "Хвост короткий, бронзово-зелёный, с неглубокой вырезкой"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Short-tailed emerald (en), Chlorostilbon poortmani (es), CC BY-SA 4.0 — data/texts: подвиды, окраска, высоты, кормёжка, полёт, голос"
   - "content/species/chlorostilbon-gibsoni.md — отличие C. gibsoni"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts chlorostilbon-poortmani (Wikipedia en/es — подвид euchloris до Уилы, высоты, полёт, голос), chlorostilbon-gibsoni"
 en:
   key_features:
     - "Male glittering green all over, with a golden tinge below"

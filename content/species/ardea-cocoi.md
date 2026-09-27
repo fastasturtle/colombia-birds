@@ -2,6 +2,7 @@
 id: ardea-cocoi
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень крупная серая цапля с белой шеей и чёрной шапкой до уровня глаза"
   - "Спереди по белой шее чёрные штрихи, по бокам груди чёрные пятна"
@@ -13,7 +14,7 @@ similar:
   - id: ardea-alba
     how: "целиком белая, без серого и чёрного; клюв жёлтый, ноги чёрные"
 behavior: "Охотится у открытой воды: на отмелях рек, у озёр, в болотах и эстуариях, подолгу стоя неподвижно. Ест в основном рыбу, берёт и ракообразных; сплошного леса избегает."
-voice: "Низкое хриплое карканье, чаще при взлёте."
+voice: "Низкое глухое карканье."
 traits:
   size: larger
   colors: [gray, white, black]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Cocoi heron (en), Ardea cocoi (es), Южноамериканская цапля (ru), CC BY-SA 4.0 — размеры, окраска, биотоп, высоты"
   - "Wikipedia: Great blue heron, Great egret (en, CC BY-SA 4.0) — data/texts; сверено с карточкой A. alba"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts ardea-cocoi (en/es/ru — окраска, размеры, высоты до 2 550 м, голос «deep croak»), ardea-herodias, ardea-alba"
 en:
   key_features:
     - "Very large gray heron with a white neck and a black cap down to eye level"
@@ -38,7 +40,7 @@ en:
     - id: ardea-alba
       how: "wholly white, with no gray or black; yellow bill, black legs"
   behavior: "Hunts at open water: river bars, lakeshores, marshes and estuaries, standing still for long periods. Eats mainly fish, also crustaceans; avoids unbroken forest."
-  voice: "A low hoarse croak, mostly on take-off."
+  voice: "A deep croak."
 ---
 Cocoi Heron (южноамериканская цапля) — самая крупная цапля Южной Америки, до 1,3 м длиной, близкая родственница серой и большой голубой цапель. Она живёт почти по всему континенту у рек, озёр, болот и эстуариев, в Колумбии до 2 550 м, но держится в стороне от сплошного леса. Серая спина, белая шея и чёрная шапка видны издалека, даже когда птица стоит на дальнем берегу.
 

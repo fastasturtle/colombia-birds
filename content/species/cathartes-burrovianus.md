@@ -2,17 +2,18 @@
 id: cathartes-burrovianus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голая голова оранжево-жёлтая, с красными и голубовато-серыми участками"
   - "Оперение чёрное, матовое или буроватое, без сильного блеска"
-  - "Сверху у основания первостепенных маховых широкое светлое поле"
+  - "Сверху у основания наружных первостепенных маховых белое поле (белые стержни перьев)"
   - "Снизу крылья двуцветные: чёрные кроющие, светлые серые маховые"
   - "Летает низко над травой, покачиваясь, с крыльями буквой V"
 similar:
   - id: cathartes-aura
-    how: "крупнее, голова у взрослых красная, сверху на крыле нет светлого поля; часто парит высоко"
+    how: "крупнее, хвост длиннее, голова у взрослых красная, сверху на крыле нет белого поля; часто парит высоко"
   - id: cathartes-melambrotus
-    how: "крупнее и темнее, с блеском, хвост длиннее; сверху светлые только стержни маховых; держится над лесом"
+    how: "крупнее, чёрная с сильным блеском, хвост длиннее, голова желтее, ноги чёрные; полёт ровнее; держится над лесом"
 behavior: "Падальщик открытых сырых мест: саванн, заливных лугов, болот, окраин мангров. Обыскивает траву в низком качающемся полёте, находя падаль по запаху и глазами; часто сидит на столбах. Крупные туши ему вскрывают другие грифы."
 voice: "Голосовых связок нет: изредка шипит и хрюкает у падали."
 traits:
@@ -27,18 +28,19 @@ sources:
   - "Данные проекта: data/species/cathartes-burrovianus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/cathartes-aura.md, content/species/cathartes-melambrotus.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts cathartes-burrovianus, cathartes-melambrotus (en/es/ru — размер, хвост, цвет головы и ног, полёт), cathartes-aura; белое поле у основания первостепенных сверху — oiseaux-birds.com и BirdForum (по сниппетам поиска), https://www.oiseaux-birds.com/card-lesser-yellow-headed-vulture.html"
 en:
   key_features:
     - "Bare orange-yellow head with red and bluish-gray areas"
     - "Black plumage, matt or brownish, without strong gloss"
-    - "From above, a broad pale panel at the base of the primaries"
+    - "From above, a white patch at the base of the outer primaries (white feather shafts)"
     - "Two-toned underwings: black linings, pale gray flight feathers"
     - "Flies low over grass, rocking, with wings in a V"
   similar:
     - id: cathartes-aura
-      how: "larger, adult's head red, no pale panel on the upperwing; often soars high"
+      how: "larger, longer-tailed, adult's head red, no white patch on the upperwing; often soars high"
     - id: cathartes-melambrotus
-      how: "larger and darker, glossy, longer tail; only the primary shafts pale from above; keeps over forest"
+      how: "larger, glossy black, longer-tailed, yellower head, black legs; steadier flight; keeps over forest"
   behavior: "A scavenger of open, wet country: savannas, flooded meadows, marshes, mangrove edges. It quarters the grass in a low, rocking flight, finding carrion by smell and sight; often perches on posts. Large carcasses are opened for it by other vultures."
   voice: "Lacks a syrinx: occasionally hisses and grunts at carrion."
 ---

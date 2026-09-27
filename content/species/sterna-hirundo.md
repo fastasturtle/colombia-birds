@@ -2,6 +2,7 @@
 id: sterna-hirundo
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Осенью лоб белый, чёрная шапка от глаза уходит на затылок"
   - "На сгибе крыла тёмная полоса по передней кромке, заметная у сидящей птицы"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Common tern (en), Sterna hirundo (es), Речная крачка (ru), CC BY-SA 4.0 — data/texts: окраска, миграции, питание"
   - "Данные проекта: data/species/sterna-hirundo.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts sterna-hirundo (en/es/ru — зимний наряд, ноги, зимовки по побережьям, голос), thalasseus-sandvicensis, gelochelidon-nilotica"
 en:
   key_features:
     - "In autumn a white forehead, the black cap running from the eye onto the nape"

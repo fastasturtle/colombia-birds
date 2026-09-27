@@ -2,6 +2,7 @@
 id: heliothryx-barroti
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ чисто белый от клюва до хвоста, без пятен"
   - "Через глаз чёрная «маска», у самца за ней фиолетовое пятно"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Purple-crowned fairy (en), Heliothryx barroti (es), CC BY-SA 4.0 — data/texts: размеры, окраска, высоты в Колумбии, кормёжка, голос"
   - "content/species/florisuga-mellivora.md, content/species/urosticte-benjamini.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts heliothryx-barroti, florisuga-mellivora, urosticte-benjamini (Wikipedia en/es/ru) — окраска, высоты в Колумбии, кормёжка, голос, отличия"
 en:
   key_features:
     - "Underparts pure white from bill to tail, unmarked"

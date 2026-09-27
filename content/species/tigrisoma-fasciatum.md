@@ -2,6 +2,7 @@
 id: tigrisoma-fasciatum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапка чёрная, бока головы сланцево-серые"
   - "Шея и спина черноватые в тонких частых светлых полосках"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Rufescent tiger heron (en, CC BY-SA 4.0) — data/texts"
   - "content/families/ardeidae.md — камни горных рек у Исла-Эскондиды"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts tigrisoma-fasciatum, tigrisoma-lineatum; высоты в Колумбии 300–2 200 м — Heron Conservation, https://www.heronconservation.org/herons-of-the-world/list-of-herons/fasciated-tiger-heron/ (по сниппету поиска); en.wikipedia даёт общий диапазон до 730 м"
 en:
   key_features:
     - "Black cap, slate-gray sides of the head"

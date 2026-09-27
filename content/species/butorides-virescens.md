@@ -2,6 +2,7 @@
 id: butorides-virescens
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шея и бока головы каштановые, по горлу вниз белая полоса"
   - "Шапка чёрная с зеленоватым блеском, может подниматься коротким хохлом"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Green heron (en), Butorides virescens (es), Американская зелёная кваква (ru), CC BY-SA 4.0 — описание, голос, зимовки, систематика"
   - "Wikipedia: Black-crowned night heron (en, CC BY-SA 4.0) — data/texts; сверено с карточками B. striata и N. nycticorax"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts butorides-virescens (en/es/ru — окраска, голос, сроки миграции, гибридизация с B. striata в Панаме и на Тринидаде), nycticorax-nycticorax"
 en:
   key_features:
     - "Chestnut neck and sides of the head, a white line down the throat"
@@ -40,12 +42,12 @@ en:
   behavior: "Waits for fish perched low over the water on mangrove roots, branches and posts, leaning forward. Sometimes drops bait on the water to lure fish."
   voice: "A sharp sudden 'kyow' on take-off and soft 'kuk' notes."
 ---
-Green Heron (зеленоспинная цапля) — североамериканская родственница Striated Heron, обычной в Колумбии круглый год. Северные популяции зимуют до севера Южной Америки, и в Колумбию птицы прилетают осенью, в основном на побережья и в мангры. От Striated Heron её отличает каштановая шея, но в Панаме и Колумбии встречаются и промежуточные птицы, поэтому называть стоит только типичных.
+Green Heron (зеленоспинная цапля) — североамериканская родственница Striated Heron, обычной в Колумбии круглый год. Северные популяции зимуют до севера Южной Америки, и в Колумбию птицы прилетают осенью: отлёт с севера идёт в сентябре — октябре. От Striated Heron её отличает каштановая шея, но в центральной Панаме и на Тринидаде и Тобаго виды гибридизируют, и промежуточные птицы возможны, поэтому называть стоит только типичных.
 
 На маршруте она «возможно» на Финке Марагрикола 22 октября, у бывших креветочных прудов. Осматривай низкие ветки и корни над водой: птица сидит сгорбившись и почти не двигается.
 
 ## English
 
-Green Heron is the North American relative of Striated Heron, which is common in Colombia all year. Northern populations winter south to northern South America, and birds reach Colombia in autumn, mainly on the coasts and in mangroves. The chestnut neck separates it from Striated Heron, but intermediate birds occur in Panama and Colombia, so name only typical ones.
+Green Heron is the North American relative of Striated Heron, which is common in Colombia all year. Northern populations winter south to northern South America, and birds reach Colombia in autumn: they leave the north in September–October. The chestnut neck separates it from Striated Heron, but the two hybridize in central Panama and on Trinidad and Tobago, and intermediate birds are possible, so name only typical ones.
 
 On the route it is "maybe" at Finca Maragrícola on 22 October, around the former shrimp ponds. Scan low branches and roots over the water: the bird sits hunched and hardly moves.

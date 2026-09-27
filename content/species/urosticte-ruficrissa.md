@@ -2,6 +2,7 @@
 id: urosticte-ruficrissa
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "За глазом яркая белая полоска"
   - "Самец весь блестящий зелёный; средние рулевые с широкими белыми концами"
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: Rufous-vented whitetip (en), Urosticte ruficrissa (es, ru), CC BY-SA 4.0 — data/texts: окраска, ареал, высоты, кормёжка, голос"
   - "content/species/urosticte-benjamini.md, content/species/adelomyia-melanogenys.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts urosticte-ruficrissa (en: подхвостье buffy, голос), urosticte-benjamini, schistes-geoffroyi, adelomyia-melanogenys"
 en:
   key_features:
     - "A bright white stripe behind the eye"
