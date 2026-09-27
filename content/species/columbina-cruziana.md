@@ -17,9 +17,9 @@ behavior: "Пары и небольшие группы кормятся семе
 voice: "Низкое квакающее «уррр», похожее на лягушку, повторяется с паузами."
 traits:
   size: sparrow
-  colors: [gray, brown]
+  colors: [gray, brown, purple]
   tone: dull
-  marks: [bare_face]
+  marks: [bare_face, bright_bill]
   bill: short
   layer: [ground]
 sources:

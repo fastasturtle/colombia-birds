@@ -16,10 +16,10 @@ similar:
 behavior: "Охотится над лугами, пастбищами и болотами, зависая на одном месте и падая на грызунов. Сидит на верхушках деревьев и столбах; на ночь нередко собирается группами."
 voice: "Мелодичный свист «кьюп» и хриплое скрипучее «кррр»."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [white, gray, black]
   tone: dull
-  marks: []
+  marks: [wing_patch]
   bill: [short, hooked]
   layer: [air]
 sources:

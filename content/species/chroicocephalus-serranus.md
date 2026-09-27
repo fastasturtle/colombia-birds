@@ -18,7 +18,7 @@ traits:
   size: crow
   colors: [white, gray, black]
   tone: bright
-  marks: []
+  marks: [cap, wing_patch]
   bill: medium
   layer: [water, air]
 sources:

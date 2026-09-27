@@ -21,7 +21,7 @@ traits:
   tone: dull
   marks: [plain]
   bill: [hooked, thin]
-  layer: [understory, midstory]
+  layer: [understory, midstory, feeder]
 sources:
   - "Wikipedia: Black flowerpiercer (en, CC BY-SA 4.0) — длина, подвиды, высоты, голос"
   - "Wikipedia: Diglossa humeralis (es, ru, CC BY-SA 4.0) — data/texts"

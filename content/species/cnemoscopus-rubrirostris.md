@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [gray, yellow, olive]
   tone: bright
-  marks: []
+  marks: [cap, bright_bill]
   bill: [short, thin]
   layer: [midstory, understory]
 sources:

@@ -16,10 +16,10 @@ similar:
 behavior: "Держится парами и небольшими группами на земле на открытых местах с кустами и деревьями, в садах, на полях и песчаных пустошах. При опасности подпускает близко, потом вспархивает, мелькая рыжими крыльями."
 voice: "Мягкое повторяющееся «ху-уп» с повышением, монотонное и негромкое."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [brown, gray]
   tone: dull
-  marks: [short_tail]
+  marks: [short_tail, bright_bill]
   bill: short
   layer: [ground]
 sources:

@@ -17,7 +17,7 @@ behavior: "Пары и небольшие группы кормятся на з�
 voice: "Ровная серия низких, чуть повышающихся воркующих нот «ху-ВУУ… ху-ВУУ…» с равными паузами."
 traits:
   size: thrush
-  colors: [gray, brown]
+  colors: [gray, brown, purple]
   tone: dull
   marks: []
   bill: short

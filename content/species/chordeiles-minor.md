@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [gray, brown]
   tone: dull
-  marks: [barred, forked_tail]
+  marks: [barred, forked_tail, wing_patch]
   bill: [short]
   layer: [air, night]
 sources:

@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [green, blue, black]
   tone: bright
-  marks: [mask]
+  marks: [cap, bright_bill]
   bill: [medium, curved]
   layer: [canopy]
 sources:

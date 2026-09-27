@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [olive, yellow, white]
   tone: bright
-  marks: [spotted_breast, barred]
+  marks: [spotted_breast, barred, cap]
   bill: short
   layer: [ground, understory, midstory]
 sources:

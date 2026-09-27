@@ -21,7 +21,7 @@ traits:
   tone: dull
   marks: [forked_tail]
   bill: hummingbird_long
-  layer: [understory, midstory]
+  layer: [understory, midstory, feeder]
 sources:
   - "Wikipedia: Blue-throated starfrontlet (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/coeligena-helianthea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"

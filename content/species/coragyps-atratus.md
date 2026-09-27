@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [black, gray]
   tone: dull
-  marks: [bare_face, short_tail]
+  marks: [bare_face, short_tail, wing_patch]
   bill: hooked
   layer: [air, ground]
 sources:

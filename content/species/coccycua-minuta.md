@@ -14,10 +14,10 @@ similar:
 behavior: "Скрытная птица низких зарослей у воды: мангров, кустов по берегам рек и болот. Медленно пробирается по веткам в гуще, собирая насекомых, и редко показывается открыто."
 voice: "Резкие отрывистые «чек» и «как»."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [rufous, gray]
   tone: dull
-  marks: [long_tail, white_tail_tips]
+  marks: [long_tail, white_tail_tips, bright_bill]
   bill: [short, curved]
   layer: [understory, water]
 sources:

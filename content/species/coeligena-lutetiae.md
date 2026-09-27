@@ -22,7 +22,7 @@ traits:
   size: hummingbird
   colors: [black, green, rufous]
   tone: bright
-  marks: [forked_tail]
+  marks: [forked_tail, wing_patch]
   bill: [hummingbird_long]
   layer: [understory, midstory]
 sources:

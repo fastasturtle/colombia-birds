@@ -21,9 +21,9 @@ traits:
   size: hummingbird
   colors: [green, white]
   tone: bright
-  marks: [plain]
+  marks: [plain, bright_bill]
   bill: medium
-  layer: [midstory, understory]
+  layer: [midstory, understory, feeder]
 sources:
   - "Данные проекта: data/species/chrysuronia-goudoti.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF); текста Wikipedia в data/texts нет"
   - "Wikipedia: Shining-green hummingbird, https://en.wikipedia.org/wiki/Shining-green_hummingbird (en, CC BY-SA 4.0) — описание, подвиды, высоты, биотопы, питание, голос"

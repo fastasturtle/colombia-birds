@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [blue, purple]
   tone: bright
-  marks: [throat_patch]
+  marks: [throat_patch, wing_patch]
   bill: short
   layer: [canopy]
 sources:

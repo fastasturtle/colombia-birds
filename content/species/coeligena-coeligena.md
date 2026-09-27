@@ -23,7 +23,7 @@ traits:
   tone: dull
   marks: [streaked_breast]
   bill: [hummingbird_long]
-  layer: [understory, midstory, feeder]
+  layer: [understory, midstory]
 sources:
   - "Данные проекта: data/species/coeligena-coeligena.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: Bronzy inca (en), Coeligena coeligena (es), CC BY-SA 4.0 — data/texts"

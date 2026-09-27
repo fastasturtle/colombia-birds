@@ -24,7 +24,7 @@ traits:
   tone: bright
   marks: []
   bill: [hummingbird_long]
-  layer: [understory, midstory, feeder]
+  layer: [understory, midstory]
 sources:
   - "Данные проекта: data/species/coeligena-torquata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Collared inca (en, CC BY-SA 4.0) — описание, высоты, питание, голос"

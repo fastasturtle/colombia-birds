@@ -16,10 +16,10 @@ similar:
 behavior: "Держится шумными стаями на мелких пресных водоёмах, болотах и полях, часто сидит на деревьях и заборах. Кормится в основном ночью семенами и зеленью; гнездится в дуплах и в кронах пальм."
 voice: "Высокий свистящий многосложный «пи-чи-чи-ии» в полёте и на отдыхе."
 traits:
-  size: crow
+  size: [crow, larger]
   colors: [rufous, black, gray]
   tone: bright
-  marks: [eye_ring]
+  marks: [eye_ring, wing_patch, bright_bill]
   bill: medium
   layer: [water, ground]
 sources:

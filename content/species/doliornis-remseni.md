@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [black, gray, rufous]
   tone: dull
-  marks: []
+  marks: [cap]
   bill: short
   layer: [canopy, midstory]
 sources:
