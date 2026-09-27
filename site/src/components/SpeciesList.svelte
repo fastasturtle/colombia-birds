@@ -35,8 +35,8 @@
   <a class="row" href={`${base}species/${s.id}/`}>
     {#if s.photo}<img class="thumb" src={`${mediaBase}/${s.photo}`} alt="" loading="lazy" />{:else}<div class="thumb empty">🐦</div>{/if}
     <div class="txt">
-      <div>{#if s.int}<b class="star" title="интересная">★</b>{/if}<strong>{s.en}</strong></div>
-      <div class="muted"><span class="sci">{s.sci}</span>{#if s.ru} · {s.ru}{/if} · <span>{families[s.family]}</span></div>
+      <div>{#if s.int}<b class="star" title="интересная">★</b>{/if}<strong>{s.ru ?? s.en}</strong></div>
+      <div class="muted">{#if s.ru && s.en !== s.ru}{`${s.en} · `}{/if}<span class="sci">{s.sci}</span> · <span>{families[s.family]}</span></div>
       <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<span class="en" title="эндемик Колумбии">энд.</span>{:else if s.near}<span class="en" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>{/if}</div>
     </div>
   </a>

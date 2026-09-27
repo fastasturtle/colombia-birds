@@ -78,7 +78,7 @@
         const int = it.x || it.hl.some((s) => placeSites.includes(s));
         return { it, state, int };
       })
-      .sort((a, b) => Number(b.int) - Number(a.int) || RANK[b.state] - RANK[a.state] || a.it.en.localeCompare(b.it.en));
+      .sort((a, b) => Number(b.int) - Number(a.int) || RANK[b.state] - RANK[a.state] || (a.it.ru ?? a.it.en).localeCompare(b.it.ru ?? b.it.en, 'ru'));
   });
   let shown = $derived(rows.filter((r) => passes($filter, r.state, tierOf(r.int, !!r.it.n, r.it.e))));
   /**
@@ -179,8 +179,8 @@
             </span>
           {/if}
         </span>
-        <span class="nm">{r.it.en}</span>
-        {#if r.it.ru}<span class="ru">{r.it.ru}</span>{/if}
+        <span class="nm">{r.it.ru ?? r.it.en}</span>
+        {#if r.it.ru && r.it.en !== r.it.ru}<span class="sec">{r.it.en}</span>{/if}
         <span class={`stw ${r.state}`}>{STATE_RU[r.state]}</span>
       </a>
     {/each}
@@ -228,7 +228,7 @@
   .b.en { background: #14532d; }
   .b.ne { background: #3f6212; }
   .nm { font-weight: 600; padding-top: 4px; overflow-wrap: anywhere; hyphens: auto; }
-  .ru { color: var(--muted); overflow-wrap: anywhere; hyphens: auto; }
+  .sec { color: var(--muted); overflow-wrap: anywhere; hyphens: auto; }
   .stw { font-size: .75rem; font-weight: 600; }
   .stw.sure { color: var(--accent); }
   .stw.maybe { color: var(--muted); font-weight: 500; }

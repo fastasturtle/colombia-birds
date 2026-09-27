@@ -80,6 +80,14 @@ export function focusSpecies(): Set<string> {
 }
 
 let _index: IndexEntry[] | null = null;
+/**
+ * Display names of a species: Russian is the primary name, English the secondary one.
+ * Without a Russian name English becomes primary and there is no secondary (never print it twice).
+ * Takes an IndexEntry ({ ru, en }) or Species.names.
+ */
+export function speciesNames(s: { ru: string | null; en: string }): { main: string; alt: string | null } {
+  return s.ru ? { main: s.ru, alt: s.en && s.en !== s.ru ? s.en : null } : { main: s.en, alt: null };
+}
 export function speciesIndex(): IndexEntry[] {
   return (_index ??= readJson<IndexEntry[]>('species_index.json').map((s) => ({ ...s, near_endemic: s.near_endemic === true })));
 }

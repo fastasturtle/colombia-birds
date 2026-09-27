@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { families, groups, speciesIndex, plural, representativeSpecies, mediaUrl } from '@lib/data';
+import { families, groups, speciesIndex, plural, representativeSpecies, mediaUrl, speciesNames } from '@lib/data';
 const byCode = new Map(families().map((f) => [f.code, f]));
 const idx = speciesIndex();
 const nSp = new Map<string, number>();
@@ -30,7 +30,7 @@ const endemics = idx.filter((s) => s.endemic).length;
           return (
             <a class="card fam" href={`${base}families/${f.slug}/`}>
               {(() => { const rep = representativeSpecies(f.code, 1).find((s) => s.photo); return rep
-                ? <img class="fthumb" src={mediaUrl(rep.photo!)} alt="" loading="lazy" title={rep.en} />
+                ? <img class="fthumb" src={mediaUrl(rep.photo!)} alt="" loading="lazy" title={speciesNames(rep).main} />
                 : <span class="fthumb empty">🐦</span>; })()}
               <div class="ftext">
                 <div><strong>{f.names.ru ?? f.names.en}</strong></div>

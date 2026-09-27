@@ -4,7 +4,7 @@ import PhotoGallery from '../../components/PhotoGallery.svelte';
 import StateWord from '../../components/StateWord.astro';
 import SpeciesCard from '../../components/SpeciesCard.astro';
 import { speciesCard } from '@lib/content';
-import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, siteState, whyInteresting, STATE_RANK, WHY_RU, fmtDateRu, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
+import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, siteState, whyInteresting, speciesNames, STATE_RANK, WHY_RU, fmtDateRu, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
 export function getStaticPaths() {
   return speciesIndex().map((s) => ({ params: { id: s.id } }));
 }
@@ -30,15 +30,15 @@ const ruText = tx?.wikipedia?.ru;
 const descr = enText?.sections?.['Description'] ?? enText?.sections?.['Identification'] ?? null;
 // Page in Hilty (2021) «Birds of Colombia», Lynx: manual override in content frontmatter wins over data.
 const lynxPage = card?.lynx_page ?? sp.book?.lynx_page ?? null;
-const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
+const nm = speciesNames(sp.names);
+const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
 ---
-<Base title={title} species={sp.id} description={`${sp.names.en} (${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
+<Base title={title} species={sp.id} description={`${nm.main} (${nm.alt ? `${nm.alt}, ` : ''}${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
   <p class="muted"><a href={`${base}families/${fam?.slug}/`}>{fam?.names.ru ?? sp.family.en}</a> · {sp.order}</p>
-  <h1>{sp.names.en}</h1>
-  <p style="margin-top:-6px">
+  <h1>{nm.main}</h1>
+  <p class="names">
+    {(nm.alt || sp.names.es) && <><span class="alt">{nm.alt && <span lang="en">{nm.alt}</span>}{sp.names.es && <span class="muted">{nm.alt && ' · '}исп. <span lang="es">{sp.names.es}</span></span>}</span><br /></>}
     <span class="sci">{sp.sci_name}</span> <span class="muted">{sp.authorship}</span>
-    {sp.names.ru && <><br /><strong>{sp.names.ru}</strong></>}
-    {sp.names.es && <span class="muted"> · исп. {sp.names.es}</span>}
     {lynxPage != null && <><br /><span class="muted book">Lynx Birds of Colombia — с.&nbsp;{lynxPage}</span></>}
   </p>
   <p>
@@ -111,7 +111,7 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
   {sameGenus.length > 0 && (
     <>
       <h2>Тот же род в Колумбии</h2>
-      <p>{sameGenus.map((s) => <a class="chip" href={`${base}species/${s.id}/`}>{s.en}</a>)}</p>
+      <p>{sameGenus.map((s) => <a class="chip" href={`${base}species/${s.id}/`}>{speciesNames(s).main}</a>)}</p>
     </>
   )}
 
@@ -128,8 +128,8 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
   </p>
 
   <nav class="pn">
-    {prev ? <a href={`${base}species/${prev.id}/`}>← {prev.en}</a> : <span />}
-    {next ? <a href={`${base}species/${next.id}/`}>{next.en} →</a> : <span />}
+    {prev ? <a href={`${base}species/${prev.id}/`}>← {speciesNames(prev).main}</a> : <span />}
+    {next ? <a href={`${base}species/${next.id}/`}>{speciesNames(next).main} →</a> : <span />}
   </nav>
 </Base>
 <style>
@@ -144,6 +144,8 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
   .where .wgrp { display: block; padding: 14px 0 2px; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
   .otag { font-size: .78rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
   .wdays { display: flex; flex-wrap: wrap; gap: 4px; flex-basis: 100%; }
+  .names { margin-top: -6px; }
+  .names .alt { font-size: 1.05rem; }
   .small { font-size: .85rem; }
   .book { font-size: .85rem; }
   .pn { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--line); }

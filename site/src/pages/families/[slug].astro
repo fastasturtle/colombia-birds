@@ -6,7 +6,7 @@ import ThumbLightbox from '../../components/ThumbLightbox.svelte';
 import ListFilter from '../../components/ListFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import StateWord from '../../components/StateWord.astro';
-import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, type IndexEntry } from '@lib/data';
+import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, speciesNames, type IndexEntry } from '@lib/data';
 import { familyContent } from '@lib/content';
 import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
@@ -106,7 +106,7 @@ const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.
               <div class="chips">
                 {list.map(({ s, p }) => (
                   <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined} data-nend={s.endemic || s.near_endemic ? '' : undefined} data-end={s.endemic ? '' : undefined}
-                    title={[s.ru, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}{s.en} <StateWord state={p.state} /></a>
+                    title={[speciesNames(s).alt, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}{speciesNames(s).main} <StateWord state={p.state} /></a>
                 ))}
               </div>
             </li>
