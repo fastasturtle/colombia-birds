@@ -2,6 +2,7 @@
 id: pheucticus-ludovicianus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень толстый, светлый, роговой"
   - "Самец: на белой груди розово-красный треугольник, осенью меньше и пятнистее"
@@ -12,8 +13,8 @@ similar:
     how: "оседлый: самец чёрный сверху и на груди, брюхо ярко-жёлтое, розового нет"
   - id: saltator-striatipectus
     how: "похож на самку, но спина оливковая, клюв тёмный, белых полос на крыле нет"
-behavior: "Зимует в Колумбии с октября по апрель: держится поодиночке в кронах и на опушках, в садах, парках и на плантациях. Кормится плодами, семенами и насекомыми, часто подолгу сидит неподвижно в листве."
-voice: "На зимовке чаще всего слышен позыв — резкое металлическое «ик», похожее на скрип кроссовки по полу."
+behavior: "Зимует в Колумбии примерно с октября по апрель: держится поодиночке в кронах и на опушках, в садах, парках и на плантациях. Кормится плодами, семенами и насекомыми, часто подолгу сидит неподвижно в листве."
+voice: "На зимовке чаще всего слышен позыв — резкое металлическое «пик», похожее на позыв дятла или скрип кроссовки по полу; иногда самцы начинают петь (мягкое переливчатое щебетание) ещё на зимовке."
 traits:
   size: thrush
   colors: [black, white, red]
@@ -23,7 +24,7 @@ traits:
   layer: [canopy, midstory]
 sources:
   - "Данные проекта: data/species/pheucticus-ludovicianus.json (ACO 2022: Migratorio Boreal, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json"
-  - "Wikipedia: Rose-breasted grosbeak (en), Pheucticus ludovicianus (es), Красногрудый дубоносовый кардинал (ru), CC BY-SA 4.0 — размеры, окраска по сезонам, миграция"
+  - "Wikipedia: Rose-breasted grosbeak (en), Pheucticus ludovicianus (es), Красногрудый дубоносовый кардинал (ru), CC BY-SA 4.0 — размеры, окраска по сезонам, миграция, голос"
   - "content/species/pheucticus-aureoventris.md, content/species/saltator-striatipectus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -37,8 +38,8 @@ en:
       how: "resident: male black above and on the breast, bright yellow belly, no pink"
     - id: saltator-striatipectus
       how: "resembles the female, but has an olive back, dark bill and no white wing bars"
-  behavior: "Winters in Colombia from October to April: keeps singly in the canopy and at edges, in gardens, parks and plantations. Feeds on fruit, seeds and insects and often sits still in the foliage for long spells."
-  voice: "On the wintering grounds the call is heard most: a sharp metallic 'eek', like a sneaker squeaking on a floor."
+  behavior: "Winters in Colombia roughly from October to April: keeps singly in the canopy and at edges, in gardens, parks and plantations. Feeds on fruit, seeds and insects and often sits still in the foliage for long spells."
+  voice: "On the wintering grounds the call is heard most: a sharp metallic 'pik', like a woodpecker's call or a sneaker squeaking on a floor; males sometimes start singing (a soft mellow warble) while still on the wintering grounds."
 ---
 Rose-breasted Grosbeak (розовогрудый толстонос) — перелётный кардинал из Северной Америки; в Колумбии он зимует в основном на высотах до 2 000 м, изредка выше. В начале октября первые птицы только прибывают, и многие самцы уже в осеннем наряде, но розовое пятно на груди и массивный светлый клюв выдают их сразу.
 

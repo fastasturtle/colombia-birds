@@ -2,6 +2,7 @@
 id: cinnycerthia-olivascens
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь тёпло-бурый, спина и поясница рыжевато-коричневые, шапочка сероватая"
   - "Крылья и каштановый хвост в чёткую тёмную поперечную полоску"
@@ -12,7 +13,7 @@ similar:
     how: "ровнее и ярче рыжий, полоски на крыльях и хвосте почти не видны, уздечка черноватая; живёт выше, у границы леса"
   - id: synallaxis-unirufa
     how: "хвост длиннее, ступенчатый, без поперечных полосок; держится парами, а не шумными группами"
-behavior: "Группы из пары и помощников кочуют по подлеску и бамбуку у самой земли, перекликаясь, иногда вместе со смешанными стаями. Ночуют все вместе в общем шарообразном гнезде."
+behavior: "Группы из пары и помощников кочуют по подлеску и бамбуку у самой земли, перекликаясь. Ночуют все вместе в общем шарообразном гнезде."
 voice: "Сложная меняющаяся песня из музыкальных фраз, нередко хором; позыв — тихое низкое «вурт»."
 traits:
   size: sparrow
@@ -38,7 +39,7 @@ en:
       how: "more uniform, brighter rufous, bars on wings and tail hardly visible, blackish lores; lives higher, near treeline"
     - id: synallaxis-unirufa
       how: "longer graduated tail without bars; keeps in pairs rather than noisy groups"
-  behavior: "Groups of a pair plus helpers roam the understory and bamboo close to the ground, calling to each other, sometimes with mixed flocks. The whole group sleeps together in a shared ball-shaped nest."
+  behavior: "Groups of a pair plus helpers roam the understory and bamboo close to the ground, calling to each other. The whole group sleeps together in a shared ball-shaped nest."
   voice: "A complex, changing song of musical phrases, often in chorus; the call is a soft low 'wurt'."
 ---
 Sharpe's Wren (оливковый крапивник; в Wikipedia — Sepia-brown Wren) — почти-эндемик Колумбии и Эквадора, крапивник мшистого облачного леса, обычно на 1 500–3 100 м, на тихоокеанском склоне Колумбии опускается до 900 м. У птиц Западных и Центральных Анд на лице бывает разное количество белого, от полного отсутствия до заметного белого пятна, и это поначалу сбивает с толку.

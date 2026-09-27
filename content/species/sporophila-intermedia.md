@@ -2,6 +2,7 @@
 id: sporophila-intermedia
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец ровно серый, с голубоватым оттенком, брюхо и подхвостье беловатые"
   - "Клюв короткий, толстый, у самца розовато-оранжевый или желтоватый"
@@ -9,16 +10,16 @@ key_features:
   - "Самка тёплая охристо-бурая, без пестрин, клюв черноватый"
 similar:
   - id: sporophila-nigricollis
-    how: "у самца чёрные лицо и горло, спина оливковая, брюхо бледно-жёлтое, клюв голубовато-серый"
+    how: "у самца чёрные голова и горло, спина оливковая, брюхо бледно-жёлтое, клюв голубовато-серый"
   - id: sporophila-luctuosa
-    how: "у самца голова, спина и грудь чёрные, брюхо чисто белое, клюв голубовато-серый"
+    how: "у самца голова, спина, горло и бока чёрные, резко отделены от белого низа, на крыле белое пятно"
 behavior: "Держится парами и небольшими стайками на травянистых пустырях, вырубках, опушках, в парках и садах. Кормится семенами трав, повиснув на стебле; ловит и летающих насекомых."
 voice: "Бойкая бессвязная песня из щебета, чиканья и трелей, часто начинается с «чу-чу-чу-уи»; многие самцы вставляют в неё фразы других птиц. Позыв — «цип»."
 traits:
   size: sparrow
   colors: [gray, white]
   tone: dull
-  marks: [plain]
+  marks: [wing_patch]
   bill: [short, thick]
   layer: [ground, understory]
 sources:
@@ -34,9 +35,9 @@ en:
     - "Female warm buffy brown, unstreaked, with a blackish bill"
   similar:
     - id: sporophila-nigricollis
-      how: "male has a black face and throat, olive back, pale yellow belly and blue-gray bill"
+      how: "male has a black head and throat, olive back, pale yellow belly and blue-gray bill"
     - id: sporophila-luctuosa
-      how: "male has a black head, back and breast, pure white belly and blue-gray bill"
+      how: "male has a black head, back, throat and flanks sharply set off from white underparts, and a white wing patch"
   behavior: "Keeps in pairs and small flocks on grassy waste ground, clearings, edges, parks and gardens. Feeds on grass seeds while clinging to the stem; also catches flying insects."
   voice: "A lively rambling song of twitters, chips and trills, often starting 'chu-chu-chu-wee'; many males include phrases of other birds. The call is 'tsip'."
 ---

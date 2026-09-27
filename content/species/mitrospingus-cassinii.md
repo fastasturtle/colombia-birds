@@ -2,8 +2,9 @@
 id: mitrospingus-cassinii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Лицо и горло спереди черноватые, образуют тёмную маску; глаз светлый"
+  - "Большая чёрная маска на лице, подбородок черноватый, горло светло-серое; глаз светлый"
   - "Темя и затылок горчично-жёлтые"
   - "Верх свинцово-серый, грудь и бока оливково-жёлтые"
   - "Держится шумными стайками своего вида в густых зарослях"
@@ -28,7 +29,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Face and front of the throat blackish, forming a dark mask; pale eye"
+    - "Large black face mask, blackish chin, pale gray throat; pale eye"
     - "Mustard-yellow crown and nape"
     - "Leaden-gray upperparts, olive-yellow breast and flanks"
     - "Moves in noisy single-species groups in dense thickets"

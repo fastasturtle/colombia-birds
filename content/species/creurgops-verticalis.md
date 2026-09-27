@@ -2,6 +2,7 @@
 id: creurgops-verticalis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх ровно свинцово-серый, от головы до хвоста"
   - "Горло и весь низ корично-рыжие, граница с серым верхом резкая"
@@ -40,12 +41,12 @@ en:
   behavior: "Keeps in pairs with mixed flocks inside mossy cloud forest. Hops along branches in the midstory and canopy, picking insects from foliage, sometimes hanging upside down."
   voice: "Quiet; the song is a high, patternless series of short phrases like 'sa-pit, sa-pit', calls a low 'chup' and thin 'sit' notes."
 ---
-Rufous-crested Tanager (рыже-сизая танагра) — танагра внутренней части сырого мшистого облачного леса, в Колумбии на высотах 1 400–2 800 м. Рисунок простой: свинцово-серый верх и рыжий низ, а хохол, давший виду название, птица поднимает редко. Рыжую грудь видно снизу, когда птица перебирается по ветке над тропой; серая спина в полумраке почти сливается с листвой.
+Rufous-crested Tanager (рыже-сизая танагра) — танагра внутренней части сырого мшистого облачного леса, в Колумбии на высотах 1 400–2 800 м, где она очень локальна; в Красной книге Колумбии вид «уязвимый», МСОП считает его вызывающим наименьшие опасения. Рисунок простой: свинцово-серый верх и рыжий низ, а хохол, давший виду название, птица поднимает редко. Рыжую грудь видно снизу, когда птица перебирается по ветке над тропой; серая спина в полумраке почти сливается с листвой.
 
 На маршруте вид «возможно» на Трамплине птиц 15 октября и в Ла-Планаде 16–18 октября. Проверяй каждую смешанную стаю в облачном лесу: танагра держится в ней парой и легко теряется среди крупных видов.
 
 ## English
 
-Rufous-crested Tanager is a tanager of the interior of wet, mossy cloud forest, in Colombia at 1,400–2,800 m. The pattern is simple: leaden-gray above and rufous below, while the crest that gives the species its name is rarely raised. The rufous breast shows from below as the bird works along a branch over the trail; in the gloom the gray back almost merges with the foliage.
+Rufous-crested Tanager is a tanager of the interior of wet, mossy cloud forest, in Colombia at 1,400–2,800 m, where it is very local; the Colombian Red Book lists it as Vulnerable, while IUCN rates it Least Concern. The pattern is simple: leaden-gray above and rufous below, while the crest that gives the species its name is rarely raised. The rufous breast shows from below as the bird works along a branch over the trail; in the gloom the gray back almost merges with the foliage.
 
 On the route it is "maybe" at Trampolín de Aves on 15 October and at La Planada on 16–18 October. Check every mixed flock in the cloud forest: the tanager travels in it as a pair and is easily lost among larger species.

@@ -2,6 +2,7 @@
 id: campylorhynchus-zonatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Спина, крылья и хвост в частых поперечных полосах: чёрных, охристых и белых"
   - "Горло и грудь белые в густых чёрных пятнах"
@@ -11,7 +12,7 @@ similar:
   - id: campylorhynchus-griseus
     how: "спина ровная бурая, без полос, низ чисто белый, без пятен, над глазом широкая белая бровь"
   - id: campylorhynchus-turdinus
-    how: "спина ровная серовато-бурая, пятна по всему низу, брюхо белёсое, а не коричное"
+    how: "спина ровная серовато-бурая, горло чистое, пятна по остальному низу, брюхо белёсое, а не коричное"
 behavior: "Шумные семейные группы из 4–12 птиц кормятся в кронах и на эпифитах опушек, редколесий и деревьев у домов. Ночуют все вместе в шарообразных гнёздах-спальнях."
 voice: "Короткое скрипучее «зек» и хор сухого стрекотания, бульканья и треска, который вся группа поднимает разом."
 traits:
@@ -37,7 +38,7 @@ en:
     - id: campylorhynchus-griseus
       how: "plain brown back without bars, clean white underparts without spots, broad white eyebrow"
     - id: campylorhynchus-turdinus
-      how: "plain grayish-brown back, spots over all the underparts, whitish rather than cinnamon belly"
+      how: "plain grayish-brown back, clean throat with spots over the rest of the underparts, whitish rather than cinnamon belly"
   behavior: "Noisy family groups of 4–12 feed in the canopy and in epiphytes at edges, open woodland and trees around houses. The group sleeps together in ball-shaped dormitory nests."
   voice: "A short rasping 'zek' and a chorus of dry chatters, gurgles and rattles that the whole group starts at once."
 ---

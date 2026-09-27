@@ -2,11 +2,12 @@
 id: catharus-minimus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Щёки и уздечка серые, лицо холодное, без охристого налёта"
   - "Кольцо вокруг глаза узкое, неполное, неясное"
   - "Верх ровный серовато-оливково-бурый, хвост не рыжее спины"
-  - "Грудь беловатая в тёмных пятнах, бока широко серовато-бурые"
+  - "Грудь с серовато-бурым налётом в тёмных пятнах, бока широко серые"
 similar:
   - id: catharus-ustulatus
     how: "широкое охристое кольцо вокруг глаза и охристая уздечка, грудь с охристым налётом"
@@ -23,6 +24,7 @@ traits:
   layer: [understory, ground]
 sources:
   - "Wikipedia: Gray-cheeked thrush (en, CC BY-SA 4.0) — окраска, миграция, подвиды"
+  - "Wikipedia: Catharus minimus (es), Малый дрозд (ru) (CC BY-SA 4.0) — серовато-бурая грудь в пятнах, серые бока (data/texts)"
   - "Wikipedia: Swainson's thrush, Veery (en, CC BY-SA 4.0) — отличия, data/texts"
   - "Данные проекта: data/species/catharus-minimus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/catharus-ustulatus.md — согласованность отличий"
@@ -32,7 +34,7 @@ en:
     - "Gray cheeks and lores, a cold face without any buff wash"
     - "Narrow, broken, indistinct eye-ring"
     - "Plain grayish olive-brown upperparts, tail no more rufous than the back"
-    - "Whitish breast spotted dark, flanks broadly grayish-brown"
+    - "Breast washed grayish-brown and spotted dark, flanks broadly gray"
   similar:
     - id: catharus-ustulatus
       how: "broad buff eye-ring and buff lores, buff wash on the breast"
@@ -41,12 +43,12 @@ en:
   behavior: "A secretive passage thrush: keeps to the understory and ground inside forest and in dense gardens, feeding at fruiting trees. Birds make short stopovers and move on to Amazonia."
   voice: "Mostly silent on passage; the call is a nasal descending 'vee-a', and at night in flight a thin 'veer'."
 ---
-Gray-cheeked Thrush (малый дрозд) гнездится в тайге и лесотундре от Ньюфаундленда до Чукотки, а зимует в Амазонии. В Колумбии он пролётный, от низменностей до 2 000 м, иногда выше; осенний пролёт идёт как раз в октябре. Гораздо более обычный на пролёте дрозд Свэнсона похож на него, и каждого «серого» дрозда стоит рассмотреть внимательно, начиная с лица.
+Gray-cheeked Thrush (малый дрозд) гнездится в тайге и лесотундре от Ньюфаундленда до Чукотки, а зимует в Амазонии. В Колумбии он пролётный, от низменностей до 2 000 м, иногда выше; осенью, в том числе в октябре, его регулярно отмечают на пролёте (данные GBIF по Боготе). Гораздо более обычный на пролёте дрозд Свэнсона похож на него, и каждого «серого» дрозда стоит рассмотреть внимательно, начиная с лица.
 
 На маршруте вид маловероятен: в данных наблюдений у Чикаке 3 и 23–24 октября и на Финке Дискосура 7 октября он редок. Чаще его отмечают в Ботаническом саду Боготы, который не входит в программу тура, это вариант для самостоятельного выезда из Боготы.
 
 ## English
 
-Gray-cheeked Thrush breeds in taiga and forest-tundra from Newfoundland to Chukotka and winters in Amazonia. In Colombia it is a passage migrant, from the lowlands to 2,000 m, sometimes higher; autumn passage peaks in October. The far commoner Swainson's Thrush looks similar, so every "gray" thrush deserves a careful look, starting with the face.
+Gray-cheeked Thrush breeds in taiga and forest-tundra from Newfoundland to Chukotka and winters in Amazonia. In Colombia it is a passage migrant, from the lowlands to 2,000 m, sometimes higher; in autumn, October included, it is regularly recorded on passage (GBIF data for Bogotá). The far commoner Swainson's Thrush looks similar, so every "gray" thrush deserves a careful look, starting with the face.
 
 On the route it is unlikely: records around Chicaque on 3 and 23–24 October and at Finca Discosura on 7 October are rare. It is recorded more often at the Bogotá Botanical Garden, which is not in the tour programme and is an option for a self-organised trip from Bogotá.
