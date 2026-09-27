@@ -3,16 +3,18 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 627
+- Карточек: 691
 - Проверено: 467
-- Не проверено: 160
+- Не проверено: 224
 
-## Не проверено (160)
+## Не проверено (224)
 
 | Слаг | English | Группа |
 |---|---|---|
+| crypturellus-undulatus | Undulated Tinamou | Тинаму и куриные |
 | anhima-cornuta | Horned Screamer | Утки, поганки и фламинго |
 | dendrocygna-autumnalis | Black-bellied Whistling-Duck | Утки, поганки и фламинго |
+| dendrocygna-bicolor | Fulvous Whistling-Duck | Утки, поганки и фламинго |
 | tachybaptus-dominicus | Least Grebe | Утки, поганки и фламинго |
 | patagioenas-speciosa | Scaled Pigeon | Голуби, кукушки и гоацин |
 | patagioenas-subvinacea | Ruddy Pigeon | Голуби, кукушки и гоацин |
@@ -21,6 +23,7 @@
 | leptotila-verreauxi | White-tipped Dove | Голуби, кукушки и гоацин |
 | leptotila-rufaxilla | Gray-fronted Dove | Голуби, кукушки и гоацин |
 | tapera-naevia | Striped Cuckoo | Голуби, кукушки и гоацин |
+| nyctibius-griseus | Common Potoo | Козодои, потоо и гуахаро |
 | chaetura-brachyura | Short-tailed Swift | Стрижи и колибри |
 | florisuga-mellivora | White-necked Jacobin | Стрижи и колибри |
 | glaucis-hirsutus | Rufous-breasted Hermit | Стрижи и колибри |
@@ -76,6 +79,12 @@
 | falco-sparverius | American Kestrel | Хищные птицы и совы |
 | falco-peregrinus | Peregrine Falcon | Хищные птицы и совы |
 | trogon-collaris | Collared Trogon | Трогоны, момоты, зимородки и якамары |
+| trogon-personatus | Masked Trogon | Трогоны, момоты, зимородки и якамары |
+| momotus-aequatorialis | Andean Motmot | Трогоны, момоты, зимородки и якамары |
+| chloroceryle-amazona | Amazon Kingfisher | Трогоны, момоты, зимородки и якамары |
+| chloroceryle-americana | Green Kingfisher | Трогоны, момоты, зимородки и якамары |
+| notharchus-tectus | Pied Puffbird | Трогоны, момоты, зимородки и якамары |
+| chelidoptera-tenebrosa | Swallow-winged Puffbird | Трогоны, момоты, зимородки и якамары |
 | aulacorhynchus-albivitta | Southern Emerald-Toucanet | Туканы, бородатки и дятлы |
 | andigena-hypoglauca | Gray-breasted Mountain-Toucan | Туканы, бородатки и дятлы |
 | pteroglossus-inscriptus | Lettered Aracari | Туканы, бородатки и дятлы |
@@ -91,6 +100,17 @@
 | celeus-loricatus | Cinnamon Woodpecker | Туканы, бородатки и дятлы |
 | piculus-leucolaemus | White-throated Woodpecker | Туканы, бородатки и дятлы |
 | colaptes-rivolii | Crimson-mantled Woodpecker | Туканы, бородатки и дятлы |
+| brotogeris-cyanoptera | Cobalt-winged Parakeet | Попугаи |
+| amazona-autumnalis | Red-lored Amazon | Попугаи |
+| amazona-ochrocephala | Yellow-crowned Amazon | Попугаи |
+| amazona-amazonica | Orange-winged Amazon | Попугаи |
+| amazona-mercenarius | Scaly-naped Amazon | Попугаи |
+| forpus-crassirostris | Riparian Parrotlet | Попугаи |
+| pionites-melanocephalus | Black-headed Parrot | Попугаи |
+| eupsittula-pertinax | Brown-throated Parakeet | Попугаи |
+| ara-severus | Chestnut-fronted Macaw | Попугаи |
+| psittacara-wagleri | Scarlet-fronted Parakeet | Попугаи |
+| psittacara-leucophthalmus | White-eyed Parakeet | Попугаи |
 | euchrepomis-callinota | Rufous-rumped Antwren | Муравьеловки, печники и древолазы |
 | taraba-major | Great Antshrike | Муравьеловки, печники и древолазы |
 | thamnophilus-doliatus | Barred Antshrike | Муравьеловки, печники и древолазы |
@@ -139,6 +159,23 @@
 | lepidothrix-coronata | Blue-capped Manakin | Котинги и манакины |
 | machaeropterus-striolatus | Striolated Manakin | Котинги и манакины |
 | pipreola-riefferii | Green-and-black Fruiteater | Котинги и манакины |
+| cyclarhis-gujanensis | Rufous-browed Peppershrike | Ласточки, крапивники, дрозды и другие |
+| hylophilus-flavipes | Scrub Greenlet | Ласточки, крапивники, дрозды и другие |
+| vireolanius-leucotis | Slaty-capped Shrike-Vireo | Ласточки, крапивники, дрозды и другие |
+| cyanolyca-armillata | Black-collared Jay | Ласточки, крапивники, дрозды и другие |
+| cyanocorax-yncas | Green Jay | Ласточки, крапивники, дрозды и другие |
+| riparia-riparia | Bank Swallow | Ласточки, крапивники, дрозды и другие |
+| tachycineta-albiventer | White-winged Swallow | Ласточки, крапивники, дрозды и другие |
+| progne-tapera | Brown-chested Martin | Ласточки, крапивники, дрозды и другие |
+| troglodytes-solstitialis | Mountain Wren | Ласточки, крапивники, дрозды и другие |
+| campylorhynchus-turdinus | Thrush-like Wren | Ласточки, крапивники, дрозды и другие |
+| pheugopedius-mystacalis | Whiskered Wren | Ласточки, крапивники, дрозды и другие |
+| pheugopedius-sclateri | Speckle-breasted Wren | Ласточки, крапивники, дрозды и другие |
+| cinclus-leucocephalus | White-capped Dipper | Ласточки, крапивники, дрозды и другие |
+| turdus-fulviventris | Chestnut-bellied Thrush | Ласточки, крапивники, дрозды и другие |
+| turdus-serranus | Glossy-black Thrush | Ласточки, крапивники, дрозды и другие |
+| turdus-leucomelas | Pale-breasted Thrush | Ласточки, крапивники, дрозды и другие |
+| anthus-bogotensis | Paramo Pipit | Ласточки, крапивники, дрозды и другие |
 | pheucticus-aureoventris | Black-backed Grosbeak | Танагры и кардиналы |
 | paroaria-gularis | Red-capped Cardinal | Танагры и кардиналы |
 | sericossypha-albocristata | White-capped Tanager | Танагры и кардиналы |
@@ -163,6 +200,7 @@
 | chlorophanes-spiza | Green Honeycreeper | Танагры и кардиналы |
 | hemithraupis-flavicollis | Yellow-backed Tanager | Танагры и кардиналы |
 | pseudospingus-verticalis | Black-headed Hemispingus | Танагры и кардиналы |
+| sporophila-castaneiventris | Chestnut-bellied Seedeater | Танагры и кардиналы |
 | sporophila-funerea | Thick-billed Seed-Finch | Танагры и кардиналы |
 | sporophila-angolensis | Chestnut-bellied Seed-Finch | Танагры и кардиналы |
 | sporophila-nigricollis | Yellow-bellied Seedeater | Танагры и кардиналы |
@@ -171,6 +209,32 @@
 | saltator-coerulescens | Bluish-gray Saltator | Танагры и кардиналы |
 | saltator-striatipectus | Streaked Saltator | Танагры и кардиналы |
 | saltator-grossus | Slate-colored Grosbeak | Танагры и кардиналы |
+| passer-domesticus | House Sparrow | Овсянки, древесницы, трупиалы и вьюрки |
+| euphonia-chrysopasta | Golden-bellied Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| euphonia-minuta | White-vented Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
+| chlorospingus-flavopectus | Common Chlorospingus | Овсянки, древесницы, трупиалы и вьюрки |
+| chlorospingus-semifuscus | Dusky Chlorospingus | Овсянки, древесницы, трупиалы и вьюрки |
+| ammodramus-aurifrons | Yellow-browed Sparrow | Овсянки, древесницы, трупиалы и вьюрки |
+| arremon-brunneinucha | Chestnut-capped Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| arremon-castaneiceps | Olive Finch | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-latinuchus | Yellow-breasted Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| leistes-militaris | Red-breasted Meadowlark | Овсянки, древесницы, трупиалы и вьюрки |
+| psarocolius-bifasciatus | Olive Oropendola | Овсянки, древесницы, трупиалы и вьюрки |
+| cacicus-solitarius | Solitary Black Cacique | Овсянки, древесницы, трупиалы и вьюрки |
+| icterus-icterus | Venezuelan Troupial | Овсянки, древесницы, трупиалы и вьюрки |
+| quiscalus-lugubris | Carib Grackle | Овсянки, древесницы, трупиалы и вьюрки |
+| lampropsar-tanagrinus | Velvet-fronted Grackle | Овсянки, древесницы, трупиалы и вьюрки |
+| parkesia-noveboracensis | Northern Waterthrush | Овсянки, древесницы, трупиалы и вьюрки |
+| mniotilta-varia | Black-and-white Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| leiothlypis-peregrina | Tennessee Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| geothlypis-semiflava | Olive-crowned Yellowthroat | Овсянки, древесницы, трупиалы и вьюрки |
+| setophaga-ruticilla | American Redstart | Овсянки, древесницы, трупиалы и вьюрки |
+| setophaga-striata | Blackpoll Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| basileuterus-rufifrons | Rufous-capped Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| basileuterus-tristriatus | Three-striped Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| myiothlypis-luteoviridis | Citrine Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| myiothlypis-coronata | Russet-crowned Warbler | Овсянки, древесницы, трупиалы и вьюрки |
+| myioborus-melanocephalus | Spectacled Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 
 ## Проверено (467)
 
