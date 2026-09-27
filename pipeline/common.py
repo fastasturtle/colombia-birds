@@ -179,3 +179,19 @@ def only_slugs(args: list[str] | None = None) -> set[str]:
     out = {a for a in (args or []) if a and not a.startswith("-")}
     out |= {s for s in re.split(r"[\s,]+", os.environ.get("ONLY_SLUGS", "")) if s}
     return out
+
+
+# ---- Likelihood of seeing a species at a route site (GBIF autumn frequency within the site radius) ----
+# One place for the thresholds: steps gbif_sites and study use these; the site reads the resulting `state`.
+SURE_FREQ = 0.01    # freq_aut >= 1%  -> "sure"  («Точно увидим»)
+MAYBE_FREQ = 0.001  # freq_aut >= 0.1% -> "maybe" («Возможно»); below, or n_aut < MIN_N_AUT -> "unlikely" («Вряд ли»)
+MIN_N_AUT = 3
+STATES = ("sure", "maybe", "unlikely")
+STATE_RANK = {"sure": 2, "maybe": 1, "unlikely": 0}
+
+
+def likelihood(n_aut: int, freq_aut: float) -> str:
+    """State of a species at a site from its autumn GBIF records: sure / maybe / unlikely."""
+    if n_aut < MIN_N_AUT or freq_aut < MAYBE_FREQ:
+        return "unlikely"
+    return "sure" if freq_aut >= SURE_FREQ else "maybe"

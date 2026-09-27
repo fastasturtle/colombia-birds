@@ -162,58 +162,121 @@ export const HABITAT_RU: Record<string, string> = {
   Savanna: 'саванна', Desert: 'пустыня', Agricultural: 'сельхозугодья', Shrub: 'кустарники', Bamboo: 'бамбук', Plantation: 'плантации', Riparian: 'приречные заросли', 'Rivers/Lakes': 'реки и озёра', Sea: 'море', Other: 'другое', Rocky: 'скалы', Artificial: 'антропогенные ландшафты', Plains: 'равнины',
 };
 
-/* ---- Likely species per site (pipeline step gbif_sites) ---- */
-export type Level = 'common' | 'uncommon' | 'rare';
-export const LEVEL_GLYPH: Record<Level, string> = { common: '●', uncommon: '◐', rare: '○' };
-export const LEVEL_RU: Record<Level, string> = { common: 'обычный', uncommon: 'нечастый', rare: 'редкий' };
-/** Normalise an unknown value to a Level or null (missing / unexpected = unknown). */
-export function asLevel(x: unknown): Level | null {
-  return x === 'common' || x === 'uncommon' || x === 'rare' ? x : null;
+/* ---- Likelihood per (species, place) and «интересная» (pipeline steps gbif_sites + study) ----
+ * state: sure («точно», GBIF autumn freq >= 1% within the site radius), maybe («возможно», 0.1–1%),
+ * unlikely («вряд ли», < 0.1%, < 3 autumn records, or not in the site's GBIF list). Thresholds: pipeline/common.py.
+ * interesting: trip-report highlight at the place, Colombian endemic, or range-restricted; independent of state. */
+export type State = 'sure' | 'maybe' | 'unlikely';
+export const STATES: State[] = ['sure', 'maybe', 'unlikely'];
+export const STATE_RU: Record<State, string> = { sure: 'точно', maybe: 'возможно', unlikely: 'вряд ли' };
+export const STATE_RANK: Record<State, number> = { sure: 2, maybe: 1, unlikely: 0 };
+export function asState(x: unknown): State {
+  return x === 'sure' || x === 'maybe' ? x : 'unlikely';
 }
-export interface SiteSpeciesEntry { id: string; n: number; n_aut?: number; freq_aut?: number; level?: Level }
+export const bestState = (xs: State[]): State => xs.reduce<State>((a, b) => (STATE_RANK[b] > STATE_RANK[a] ? b : a), 'unlikely');
+export type Why = 'highlight' | 'endemic' | 'range_restricted';
+export const WHY_RU: Record<Why, string> = { highlight: 'цель из отчётов о поездках', endemic: 'эндемик Колумбии', range_restricted: 'узкий ареал' };
+
+export interface SiteSpeciesEntry { id: string; n: number; n_aut: number; freq_aut: number; state: State }
 export interface SiteSpecies {
   radius_km: number; total_records: number; total_records_aut?: number; retrieved: string; species: SiteSpeciesEntry[];
 }
 let _siteSpecies: Record<string, SiteSpecies> | null = null;
 export function siteSpecies(): Record<string, SiteSpecies> {
-  return (_siteSpecies ??= readJson<Record<string, SiteSpecies>>('site_species.json', {}));
+  if (_siteSpecies) return _siteSpecies;
+  const raw = readJson<Record<string, SiteSpecies>>('site_species.json', {});
+  for (const v of Object.values(raw)) for (const x of v.species) x.state = asState(x.state);
+  return (_siteSpecies = raw);
 }
-export interface LikelySpecies {
+let _siteMap: Map<string, Map<string, SiteSpeciesEntry>> | null = null;
+function siteEntry(siteId: string, spId: string): SiteSpeciesEntry | undefined {
+  _siteMap ??= new Map(Object.entries(siteSpecies()).map(([k, v]) => [k, new Map(v.species.map((x) => [x.id, x]))]));
+  return _siteMap.get(siteId)?.get(spId);
+}
+/** State of a species at a site; not in the site's GBIF list = unlikely. */
+export function siteState(siteId: string, spId: string): State {
+  return siteEntry(siteId, spId)?.state ?? 'unlikely';
+}
+let _rr: Set<string> | null = null;
+/** Range-restricted species (data/species/<id>.json traits.range_restricted == 1). */
+export function rangeRestricted(): Set<string> {
+  return (_rr ??= new Set(allSpecies().filter((s) => s.traits?.range_restricted === 1).map((s) => s.id)));
+}
+let _endemic: Set<string> | null = null;
+/** Reasons a species is «интересная» at the given sites (all route sites when omitted). */
+export function whyInteresting(spId: string, siteIds?: string[]): Why[] {
+  _endemic ??= new Set(speciesIndex().filter((s) => s.endemic).map((s) => s.id));
+  const ids = siteIds ?? routeSiteIds();
+  const siteOf = sitesById();
+  const out: Why[] = [];
+  if (ids.some((sid) => siteOf.get(sid)?.target_species?.includes(spId))) out.push('highlight');
+  if (_endemic.has(spId)) out.push('endemic');
+  if (rangeRestricted().has(spId)) out.push('range_restricted');
+  return out;
+}
+let _sitesById: Map<string, Site> | null = null;
+function sitesById(): Map<string, Site> {
+  return (_sitesById ??= new Map(sites().map((s) => [s.id, s])));
+}
+let _routeSites: string[] | null = null;
+/** Sites visited on some itinerary day. */
+export function routeSiteIds(): string[] {
+  return (_routeSites ??= [...new Set(itinerary().flatMap((d) => d.sites))]);
+}
+let _routeState: Map<string, State> | null = null;
+/** Best state of a species across all route sites (no place context); no route data = unlikely. */
+export function routeState(spId: string): State {
+  if (!_routeState) {
+    _routeState = new Map();
+    for (const sid of routeSiteIds()) for (const x of siteSpecies()[sid]?.species ?? []) {
+      const cur = _routeState.get(x.id);
+      if (!cur || STATE_RANK[x.state] > STATE_RANK[cur]) _routeState.set(x.id, x.state);
+    }
+  }
+  return _routeState.get(spId) ?? 'unlikely';
+}
+
+export interface PlaceSpecies {
   id: string;
-  /** GBIF records summed over the given sites (0 if only a highlight) */
+  /** GBIF records (all year) summed over the given sites (0 if only a highlight) */
   n: number;
-  /** ids of the sites where it is likely (GBIF) */
-  sites: string[];
+  /** best state across the given sites */
+  state: State;
+  /** best autumn frequency across the given sites */
+  freq_aut: number;
+  why: Why[];
+  interesting: boolean;
   /** ids of the sites that list it as a highlight (trip reports, `target_species`) */
   highlightAt: string[];
 }
-/** Merge GBIF likely species and trip-report highlights of several sites, deduped, sorted by records desc. */
-export function likelySpeciesForSites(siteIds: string[]): LikelySpecies[] {
-  const ss = siteSpecies();
-  const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
-  const out = new Map<string, LikelySpecies>();
-  const at = (id: string) => out.get(id) ?? out.set(id, { id, n: 0, sites: [], highlightAt: [] }).get(id)!;
-  for (const sid of new Set(siteIds)) {
-    for (const { id, n } of ss[sid]?.species ?? []) { const e = at(id); e.n += n; e.sites.push(sid); }
-    for (const id of siteOf[sid]?.target_species ?? []) at(id).highlightAt.push(sid);
+/** Merge GBIF species and trip-report highlights of several sites, deduped; sorted interesting, state, freq. */
+export function speciesForSites(siteIds: string[]): PlaceSpecies[] {
+  const ids = [...new Set(siteIds)];
+  const siteOf = sitesById();
+  const out = new Map<string, PlaceSpecies>();
+  const at = (id: string) => out.get(id) ?? out.set(id, { id, n: 0, state: 'unlikely', freq_aut: 0, why: [], interesting: false, highlightAt: [] }).get(id)!;
+  for (const sid of ids) {
+    for (const x of siteSpecies()[sid]?.species ?? []) {
+      const e = at(x.id);
+      e.n += x.n;
+      e.state = bestState([e.state, x.state]);
+      e.freq_aut = Math.max(e.freq_aut, x.freq_aut ?? 0);
+    }
+    for (const id of siteOf.get(sid)?.target_species ?? []) at(id).highlightAt.push(sid);
   }
-  return [...out.values()].sort((a, b) => b.n - a.n || a.id.localeCompare(b.id));
+  const known = new Set(speciesIndex().map((s) => s.id));
+  const res = [...out.values()].filter((e) => known.has(e.id));
+  for (const e of res) { e.why = whyInteresting(e.id, ids); e.interesting = e.why.length > 0; }
+  return res.sort(cmpPlace);
 }
-/** Level of a species at a site (pipeline step gbif_sites), null if unknown. */
-export function siteLevel(siteId: string, spId: string): Level | null {
-  return asLevel(siteSpecies()[siteId]?.species.find((x) => x.id === spId)?.level);
-}
+export const cmpPlace = (a: { interesting: boolean; state: State; freq_aut: number; id: string }, b: typeof a) =>
+  Number(b.interesting) - Number(a.interesting) || STATE_RANK[b.state] - STATE_RANK[a.state] || b.freq_aut - a.freq_aut || a.id.localeCompare(b.id);
 
-/* ---- Evening study lists per day (pipeline, data/study_lists.json); optional ---- */
-export type StudyWhy = 'highlight' | 'endemic' | 'near_endemic' | 'range_restricted' | 'new_for_route';
-export interface StudyFeatured { id: string; why: StudyWhy[]; level: Level | null }
-export interface StudyBackground { id: string; level: Level | null; freq_aut: number | null }
-export interface StudyList {
-  sites: string[]; featured: StudyFeatured[]; background: StudyBackground[];
-  dropped_highlights: { id: string; site: string; reason: string }[];
-}
+/* ---- Per-day species lists (pipeline step study, data/study_lists.json); optional ---- */
+export interface StudyEntry { id: string; state: State; interesting: boolean; why: Why[]; freq_aut: number; new_for_route: boolean }
+export interface StudyList { sites: string[]; species: StudyEntry[] }
 let _study: Record<string, StudyList> | null = null;
-/** Study list for a date, normalised; null when the file or the day's entry is missing. */
+/** Species list for a date, normalised; null when the file or the day's entry is missing. */
 export function studyList(date: string): StudyList | null {
   if (!_study) {
     const raw = readJson<Record<string, Partial<StudyList>> | null>('study_lists.json', null) ?? {};
@@ -223,15 +286,21 @@ export function studyList(date: string): StudyList | null {
       if (!v || typeof v !== 'object') continue;
       _study[d] = {
         sites: Array.isArray(v.sites) ? v.sites : [],
-        featured: (Array.isArray(v.featured) ? v.featured : []).filter((f) => f && known.has(f.id))
-          .map((f) => ({ id: f.id, why: Array.isArray(f.why) ? f.why : [], level: asLevel(f.level) })),
-        background: (Array.isArray(v.background) ? v.background : []).filter((b) => b && known.has(b.id))
-          .map((b) => ({ id: b.id, level: asLevel(b.level), freq_aut: typeof b.freq_aut === 'number' ? b.freq_aut : null })),
-        dropped_highlights: Array.isArray(v.dropped_highlights) ? v.dropped_highlights : [],
+        species: (Array.isArray(v.species) ? v.species : []).filter((f) => f && known.has(f.id)).map((f) => {
+          const why = (Array.isArray(f.why) ? f.why : []).filter((w): w is Why => w in WHY_RU);
+          return { id: f.id, state: asState(f.state), why, interesting: why.length > 0,
+            freq_aut: typeof f.freq_aut === 'number' ? f.freq_aut : 0, new_for_route: !!f.new_for_route };
+        }),
       };
     }
   }
   return _study[date] ?? null;
+}
+/** Counts under the default filter («Точно и возможно», all species): used where there is no JS (home day cards). */
+export function defaultCounts(list: { state: State; interesting: boolean }[]) {
+  const vis = list.filter((x) => x.state !== 'unlikely');
+  return { sure: vis.filter((x) => x.state === 'sure').length, maybe: vis.filter((x) => x.state === 'maybe').length,
+    interesting: vis.filter((x) => x.interesting).length, unlikely: list.length - vis.length };
 }
 /** Days (in itinerary order) that visit a site. */
 export function daysForSite(siteId: string): Day[] {
@@ -255,18 +324,11 @@ export function plural(n: number, one: string, few: string, many: string): strin
   return m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? few : many;
 }
 
-export interface DayWithSpecies { day: Day; species: (LikelySpecies & { isNew: boolean })[]; nHighlights: number; nNew: number }
+export interface DayWithSpecies { day: Day; species: PlaceSpecies[] }
 let _dws: DayWithSpecies[] | null = null;
-/** Every itinerary day with its merged species list; `isNew` = not likely/highlight on any earlier day. */
+/** Every itinerary day with its merged species list (GBIF + highlights of the day's sites). */
 export function itineraryWithSpecies(): DayWithSpecies[] {
-  if (_dws) return _dws;
-  const seen = new Set<string>();
-  _dws = itinerary().map((day) => {
-    const sp = likelySpeciesForSites(day.sites).map((s) => ({ ...s, isNew: !seen.has(s.id) }));
-    for (const s of sp) seen.add(s.id);
-    return { day, species: sp, nHighlights: sp.filter((s) => s.highlightAt.length).length, nNew: sp.filter((s) => s.isNew).length };
-  });
-  return _dws;
+  return (_dws ??= itinerary().map((day) => ({ day, species: speciesForSites(day.sites) })));
 }
 
 /** Up to n representative species of a family: route targets with photos, then any with a photo, then route targets without. */

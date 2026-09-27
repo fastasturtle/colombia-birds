@@ -2,16 +2,18 @@
 /**
  * Species list row. The thumbnail (when there is a photo) opens photo 1 full screen via
  * ThumbLightbox.svelte, which the page must mount once; the name links to the species page.
+ * With `state`, the row shows the likelihood word and carries data-st / data-int for the site-wide filter.
  */
-import { mediaUrl, species, type IndexEntry } from '@lib/data';
-interface Props { s: IndexEntry }
-const { s } = Astro.props;
+import StateWord from './StateWord.astro';
+import { mediaUrl, species, WHY_RU, type IndexEntry, type State, type Why } from '@lib/data';
+interface Props { s: IndexEntry; state?: State; why?: Why[] }
+const { s, state, why = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const p = s.photo ? species(s.id).photos[0] : null;
 const lb = p && JSON.stringify({ alt: [s.en, s.ru].filter(Boolean).join(' · '), photo: { sizes: p.sizes, author: p.author, license: p.license, license_url: p.license_url, source_url: p.source_url } });
 const href = `${base}species/${s.id}/`;
 ---
-<div class="row">
+<div class="row" data-st={state} data-int={state && why.length ? '' : undefined}>
   {p ? (
     <button type="button" class="thumb-btn" data-lb={lb} aria-label={`Фото: ${s.en}, на весь экран`}>
       <img class="thumb" src={mediaUrl(s.photo!)} alt="" loading="lazy" />
@@ -20,9 +22,13 @@ const href = `${base}species/${s.id}/`;
     <a href={href} class="thumb empty" aria-hidden="true" tabindex="-1">🐦</a>
   )}
   <a class="txt" href={href}>
-    <div><strong>{s.en}</strong>{s.endemic && <span class="chip endemic" style="margin-left:8px">эндемик</span>}</div>
+    <div>{why.length > 0 && <b class="star" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★ </b>}<strong>{s.en}</strong></div>
     <div class="muted"><span class="sci">{s.sci}</span>{s.ru && <> · {s.ru}</>}</div>
-    {s.elev && (s.elev[0] != null || s.elev[1] != null) && <div class="muted" style="font-size:.8rem">{s.elev[0] ?? 0}–{s.elev[1] ?? '?'} м</div>}
+    <div class="meta">
+      {state && <StateWord state={state} />}
+      {s.endemic && <span class="en" title="эндемик Колумбии">энд.</span>}
+      {s.elev && (s.elev[0] != null || s.elev[1] != null) && <span class="muted">{s.elev[0] ?? 0}–{s.elev[1] ?? '?'} м</span>}
+    </div>
   </a>
 </div>
 <style>
@@ -32,4 +38,7 @@ const href = `${base}species/${s.id}/`;
   .thumb-btn { padding: 0; border: 0; background: none; cursor: zoom-in; flex: none; border-radius: 8px; line-height: 0; }
   .thumb-btn img { display: block; }
   a.thumb.empty:hover { text-decoration: none; }
+  .meta { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: center; font-size: .8rem; }
+  .en { font-size: .72rem; font-weight: 700; color: var(--accent); }
+  .star { color: var(--accent-2); }
 </style>

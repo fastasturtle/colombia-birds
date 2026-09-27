@@ -1,17 +1,18 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
-import { sites, regions, siteSpecies, likelySpeciesForSites, daysForSite, hotspotCheck, siteLevel, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import ListFilter from '../../components/ListFilter.svelte';
+import FilterScope from '../../components/FilterScope.astro';
+import { sites, regions, siteSpecies, speciesForSites, daysForSite, hotspotCheck, defaultCounts, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
 const { s } = Astro.props as { s: Site };
 const region = regions().find((r) => r.id === s.region);
 const gb = siteSpecies()[s.id];
-const list = likelySpeciesForSites([s.id]);
-const items = list.map((x) => ({ id: x.id, n: x.n, highlight: x.highlightAt.length > 0, level: siteLevel(s.id, x.id) }));
-const nH = items.filter((x) => x.highlight).length;
-const nNR = items.some((x) => x.level) ? items.filter((x) => x.level !== 'rare').length : null;
+const items = speciesForSites([s.id]);
+const dc = defaultCounts(items);
+const nVis = dc.sure + dc.maybe;
 const days = daysForSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
 const base = import.meta.env.BASE_URL;
@@ -44,12 +45,12 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
     <p class="muted small">Источники: {s.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</p>
   )}
 
-  <h2>Виды</h2>
-  {items.length === 0 ? <p class="card muted">Данных пока нет.</p> : (
-    <>
-      <p class="summary">~{gb?.species.length ?? 0} {plural(gb?.species.length ?? 0, 'вероятный вид', 'вероятных вида', 'вероятных видов')}{nNR != null && <>, из них {nNR} не редких осенью</>}{nH > 0 && <>, <b class="hl">{nH} {plural(nH, 'изюминка', 'изюминки', 'изюминок')}</b></>}</p>
+  {items.length === 0 ? <><h2>Виды</h2><p class="card muted">Данных пока нет.</p></> : (
+    <FilterScope>
+      <h2 class="vh">Виды <span class="cnt muted" data-lf-summary>{nVis} {plural(nVis, 'вид', 'вида', 'видов')}{dc.interesting > 0 && ` · ${dc.interesting} ${plural(dc.interesting, 'интересный', 'интересных', 'интересных')}`}</span></h2>
+      <ListFilter client:load />
       <SpeciesChecklist items={items} />
-    </>
+    </FilterScope>
   )}
 
   {others.length > 0 && (
@@ -62,7 +63,7 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   {gb && (
     <p class="muted small method">
       По <a href={gbifUrl} target="_blank" rel="noopener">GBIF</a>: {gb.total_records.toLocaleString('ru-RU')} записей птиц в радиусе {gb.radius_km} км{gb.total_records_aut != null && <>, из них осенних {gb.total_records_aut.toLocaleString('ru-RU')}</>}; в списке виды с ≥ 3 записями, данные на {gb.retrieved}.
-      {items.some((x) => x.level) && <> Встречаемость (● обычный, ◐ нечастый, ○ редкий) — по доле осенних записей.</>} Изюминки — целевые виды из отчётов о поездках.
+ «Точно» — не меньше 1 % осенних (сентябрь–ноябрь) записей, «возможно» — 0,1–1 %, «вряд ли» — реже или нет записей. ★ интересные — цели из отчётов о поездках, эндемики Колумбии и виды с узким ареалом.
     </p>
   )}
 </Base>
@@ -71,8 +72,8 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   .ru { margin: -6px 0 8px; font-weight: 600; }
   .facts th { width: 110px; color: var(--muted); font-weight: 500; }
   .facts .chip { margin: 2px 6px 2px 0; }
-  .summary { font-size: 1.05rem; margin: 4px 0; }
-  .hl { color: var(--accent-2); }
+  .vh { margin-bottom: 2px; }
+  .vh .cnt { font-size: .9rem; font-weight: 500; margin-left: 6px; white-space: nowrap; }
   .small { font-size: .85rem; }
   .hs a.chip.tap { max-width: 100%; gap: 8px; }
   .hsn { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }

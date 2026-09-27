@@ -1,0 +1,13 @@
+---
+/** Likelihood of a species at a place as a word: «точно» (accent), «возможно» (muted), «вряд ли» (faint). */
+import { STATE_RU, type State } from '@lib/data';
+interface Props { state: State; title?: string }
+const { state, title } = Astro.props;
+---
+<span class={`stw ${state}`} title={title}>{STATE_RU[state]}</span>
+<style>
+  .stw { font-size: .75rem; font-weight: 600; white-space: nowrap; letter-spacing: .01em; }
+  .sure { color: var(--accent); }
+  .maybe { color: var(--muted); font-weight: 500; }
+  .unlikely { color: var(--muted); opacity: .6; font-weight: 400; }
+</style>

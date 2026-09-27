@@ -1,36 +1,55 @@
 <script lang="ts">
-  interface Item { id: string; sci: string; en: string; ru: string | null; family: string; status: string[]; endemic: boolean; elev: [number|null, number|null] | null; photo: string | null }
+  /** All-species list: search + elevation + the site-wide filter (state = best across route sites, see lib/data routeState). */
+  import ListFilter from './ListFilter.svelte';
+  import { filter, passes } from '../lib/filter';
+  type State = 'sure' | 'maybe' | 'unlikely';
+  interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean }
   let { items, families, base, mediaBase }: { items: Item[]; families: Record<string, string>; base: string; mediaBase: string } = $props();
+  const STATE_RU: Record<State, string> = { sure: 'точно', maybe: 'возможно', unlikely: 'вряд ли' };
+  const LIMIT = 300;
   let q = $state('');
-  let onlyEndemic = $state(false);
   let elev = $state<number | null>(null);
   const norm = (s: string) => s.toLowerCase().replace(/ё/g, 'е');
-  let filtered = $derived.by(() => {
+  let matched = $derived.by(() => {
     const t = norm(q.trim());
     return items.filter((s) => {
-      if (onlyEndemic && !s.endemic) return false;
       if (elev != null && s.elev && ((s.elev[0] ?? 0) > elev || (s.elev[1] ?? 9000) < elev)) return false;
       if (!t) return true;
       return norm(s.en).includes(t) || norm(s.sci).includes(t) || (s.ru ? norm(s.ru).includes(t) : false) || norm(families[s.family] ?? '').includes(t);
-    }).slice(0, 300);
+    });
   });
+  let shown = $derived(matched.filter((s) => passes($filter, s.state, s.int)));
+  let more = $derived(matched.filter((s) => !passes($filter, s.state, s.int) && (!$filter.interesting || s.int)));
+  let moreU = $derived(more.filter((s) => s.state === 'unlikely').length);
+  const plural = (n: number, a: string, b: string, c: string) => {
+    const m10 = n % 10, m100 = n % 100;
+    return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? b : c;
+  };
 </script>
 
 <div class="filters">
   <input type="search" placeholder="Название: по-русски, по-английски или латынь" bind:value={q} />
-  <label><input type="checkbox" bind:checked={onlyEndemic} /> только эндемики</label>
   <label>высота, м <input type="number" min="0" max="5000" step="100" placeholder="напр. 2000" bind:value={elev} /></label>
 </div>
-<p class="muted">{filtered.length === 300 ? 'показаны первые 300' : filtered.length} из {items.length}</p>
-{#each filtered as s (s.id)}
+<ListFilter />
+<p class="muted">{shown.length} {plural(shown.length, 'вид', 'вида', 'видов')} из {items.length}{shown.length > LIMIT ? `, показаны первые ${LIMIT}` : ''} · «точно» и «возможно» — хотя бы на одной локации маршрута</p>
+{#each shown.slice(0, LIMIT) as s (s.id)}
   <a class="row" href={`${base}species/${s.id}/`}>
     {#if s.photo}<img class="thumb" src={`${mediaBase}/${s.photo}`} alt="" loading="lazy" />{:else}<div class="thumb empty">🐦</div>{/if}
-    <div>
-      <div><strong>{s.en}</strong>{#if s.endemic}<span class="chip endemic" style="margin-left:8px">эндемик</span>{/if}</div>
+    <div class="txt">
+      <div>{#if s.int}<b class="star" title="интересная">★</b>{/if}<strong>{s.en}</strong></div>
       <div class="muted"><span class="sci">{s.sci}</span>{#if s.ru} · {s.ru}{/if} · <span>{families[s.family]}</span></div>
+      <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<span class="en" title="эндемик Колумбии">энд.</span>{/if}</div>
     </div>
   </a>
 {/each}
+{#if shown.length === 0}<p class="muted">Под этот фильтр видов нет.</p>{/if}
+{#if more.length > 0}
+  <p class="lf-more">
+    {moreU === more.length ? `ещё ${moreU} вряд ли` : moreU === 0 ? `ещё ${more.length} возможно` : `ещё ${more.length}: ${more.length - moreU} возможно, ${moreU} вряд ли`}
+    · <button type="button" onclick={() => filter.update((f) => ({ ...f, level: 'all' }))}>показать</button>
+  </p>
+{/if}
 
 <style>
   .filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 8px 0; }
@@ -38,4 +57,14 @@
   input[type="number"] { width: 110px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); }
   .row { color: inherit; }
   .row:hover { text-decoration: none; background: var(--chip); }
+  .txt { min-width: 0; }
+  .meta { display: flex; gap: 8px; align-items: center; }
+  .stw { font-size: .75rem; font-weight: 600; }
+  .stw.sure { color: var(--accent); }
+  .stw.maybe { color: var(--muted); font-weight: 500; }
+  .stw.unlikely { color: var(--muted); opacity: .6; font-weight: 400; }
+  .en { font-size: .72rem; font-weight: 700; color: var(--accent); }
+  .star { color: var(--accent-2); margin-right: 4px; }
+  .lf-more { margin: 12px 0 4px; color: var(--muted); font-size: .9rem; }
+  .lf-more button { font: inherit; color: var(--accent); background: none; border: 0; padding: 8px 4px; cursor: pointer; text-decoration: underline; }
 </style>

@@ -3,7 +3,10 @@ import Base from '../../layouts/Base.astro';
 import SpeciesRow from '../../components/SpeciesRow.astro';
 import SpeciesFace from '../../components/SpeciesFace.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
-import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, type IndexEntry } from '@lib/data';
+import ListFilter from '../../components/ListFilter.svelte';
+import FilterScope from '../../components/FilterScope.astro';
+import StateWord from '../../components/StateWord.astro';
+import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, type IndexEntry } from '@lib/data';
 import { familyContent } from '@lib/content';
 import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
@@ -35,13 +38,14 @@ const cmp = (a: IndexEntry, b: IndexEntry) => { const [x, y] = [rank(a), rank(b)
 // Hero photos: 2–3 species of the family with photos, route species first, then any.
 const faces = sp.filter((s) => s.photo).sort(cmp).slice(0, 3);
 
-/* Family by itinerary day: highlights first, then by records. */
+/* Family by itinerary day: interesting first, then by state and autumn frequency (lib cmpPlace). */
 const byDay = days.map((d) => {
-  const list = d.species.filter((s) => byId.get(s.id)?.family === family.code)
-    .map((s) => ({ s: byId.get(s.id)!, hl: s.highlightAt.length > 0, n: s.n }))
-    .sort((a, b) => Number(b.hl) - Number(a.hl) || b.n - a.n);
+  const list = d.species.filter((s) => byId.get(s.id)?.family === family.code).sort(cmpPlace)
+    .map((p) => ({ s: byId.get(p.id)!, p }));
   return { day: d.day, list };
 }).filter((d) => d.list.length > 0);
+/* All species of the family: state = best across route sites, «интересная» over the whole route. */
+const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.id) }));
 ---
 <Base title={title}>
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>
@@ -92,19 +96,23 @@ const byDay = days.map((d) => {
   {byDay.length > 0 && (
     <div class="card block days">
       <h2>Это семейство по дням маршрута</h2>
-      <p class="muted small">Вероятные виды семейства на локациях дня (GBIF); <span class="chip hl mini">★</span> — изюминки из отчётов о поездках.</p>
-      <ol class="dl">
-        {byDay.map(({ day, list }) => (
-          <li>
-            <a class="dh" href={`${base}days/${day.date}/`}><b>{fmtDateRu(day.date, false)}</b> <span class="muted">· {dayLabel(day)} · {day.title_ru}</span></a>
-            <div class="chips">
-              {list.map(({ s, hl }) => (
-                <a class={`chip sp${hl ? ' hl' : ''}`} href={`${base}species/${s.id}/`} title={s.ru ?? undefined}>{hl && '★ '}{s.en}</a>
-              ))}
-            </div>
-          </li>
-        ))}
-      </ol>
+      <p class="muted small">Виды семейства на локациях дня (GBIF); <span class="chip hl mini">★</span> — интересные: цели из отчётов о поездках, эндемики, узкий ареал.</p>
+      <FilterScope>
+        <ListFilter client:load />
+        <ol class="dl">
+          {byDay.map(({ day, list }) => (
+            <li data-lf-group>
+              <a class="dh" href={`${base}days/${day.date}/`}><b>{fmtDateRu(day.date, false)}</b> <span class="muted">· {dayLabel(day)} · {day.title_ru}</span></a>
+              <div class="chips">
+                {list.map(({ s, p }) => (
+                  <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined}
+                    title={[s.ru, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}{s.en} <StateWord state={p.state} /></a>
+                ))}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </FilterScope>
     </div>
   )}
   {fc && (
@@ -120,8 +128,11 @@ const byDay = days.map((d) => {
       )}
     </section>
   )}
-  <h2 class="list-h">Все виды семейства</h2>
-  <div>{sp.map((s) => <SpeciesRow s={s} />)}</div>
+  <FilterScope>
+    <h2 class="list-h">Все виды семейства <span class="cnt muted" data-lf-summary></span></h2>
+    <ListFilter client:load />
+    <div>{rows.map((r) => <SpeciesRow s={r.s} state={r.state} why={r.why} />)}</div>
+  </FilterScope>
   {sp.some((s) => s.photo) && <ThumbLightbox client:idle mediaBase={MEDIA_BASE} />}
 </Base>
 <style>
@@ -161,4 +172,6 @@ const byDay = days.map((d) => {
   .en ul { padding-left: 1.1em; margin: 0; }
   .en p { margin: 8px 0; }
   .list-h { font-size: 1.1rem; margin: 22px 0 4px; }
+  .list-h .cnt { font-size: .85rem; font-weight: 500; margin-left: 6px; white-space: nowrap; }
+  .chip.hl :global(.stw) { color: #fff; opacity: .85; }
 </style>

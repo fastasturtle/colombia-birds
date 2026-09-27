@@ -1,15 +1,18 @@
 ---
 /**
- * Day page = a short study page for the evening before: facts, the day's sites, and the study list
- * (data/study_lists.json: featured = «ради чего едем», background = common birds). No study list -> no species section.
+ * Day page = a short study page for the evening before: facts, the day's sites, and «Виды дня»
+ * (data/study_lists.json: every species of the day's sites with state + «интересная»), grouped by bird group,
+ * filtered by the site-wide ListFilter. No study list -> no species section.
  */
 import Base from '../../layouts/Base.astro';
 import SiteCard from '../../components/SiteCard.astro';
 import StudyTile from '../../components/StudyTile.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
+import ListFilter from '../../components/ListFilter.svelte';
+import FilterScope from '../../components/FilterScope.astro';
 import {
-  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, fmtDateRu, dayLabel, MEDIA_BASE,
-  type Day, type IndexEntry, type StudyFeatured,
+  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, fmtDateRu, dayLabel, plural, MEDIA_BASE,
+  type Day, type IndexEntry, type StudyEntry,
 } from '@lib/data';
 export function getStaticPaths() {
   const all = itinerary();
@@ -24,23 +27,27 @@ const idx = new Map(speciesIndex().map((s) => [s.id, s]));
 const base = import.meta.env.BASE_URL;
 const study = studyList(day.date);
 
-// featured, grouped by bird group (groups.json order), taxonomic inside a group
-const byGroup = new Map<string, { f: StudyFeatured; s: IndexEntry }[]>();
-for (const f of study?.featured ?? []) {
+// all species of the day, grouped by bird group (groups.json order); inside a group the pipeline order
+// (interesting first, then sure > maybe > unlikely, then autumn frequency)
+const list = study?.species ?? [];
+const byGroup = new Map<string, { f: StudyEntry; s: IndexEntry }[]>();
+for (const f of list) {
   const s = idx.get(f.id)!;
   const g = groupOfFamily(s.family)?.id ?? '';
   (byGroup.get(g) ?? byGroup.set(g, []).get(g)!).push({ f, s });
 }
-const featuredGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id: '', name: 'Прочие' }]
-  .map((g) => ({ ...g, rows: (byGroup.get(g.id) ?? []).sort((a, b) => a.s.taxon_order - b.s.taxon_order) }))
+const dayGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id: '', name: 'Прочие' }]
+  .map((g) => ({ ...g, rows: byGroup.get(g.id) ?? [] }))
   .filter((g) => g.rows.length);
-const background = (study?.background ?? []).map((b) => idx.get(b.id)!);
-const hasPhotos = [...(study?.featured ?? []), ...(study?.background ?? [])].some((x) => idx.get(x.id)?.photo);
+const hasPhotos = list.some((x) => idx.get(x.id)?.photo);
+const dc = defaultCounts(list);
+const nVis = dc.sure + dc.maybe;
+const allNew = list.every((x) => x.new_for_route);
 const ss = siteSpecies();
 const radii = [...new Set((study?.sites.length ? study.sites : day.sites).map((id) => ss[id]?.radius_km).filter(Boolean))];
 const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
 ---
-<Base title={`${fmtDateRu(day.date, false)}: ${day.title_ru}`} description={`${dayLabel(day)}: ${day.title_ru}. Что учить к вечеру: главные виды и фон.`}>
+<Base title={`${fmtDateRu(day.date, false)}: ${day.title_ru}`} description={`${dayLabel(day)}: ${day.title_ru}. Виды дня: кого увидим точно, кого возможно, кто интересен.`}>
   <header class="dh" style={`border-left-color:${region?.color ?? 'var(--line)'}`}>
     <p class="muted meta">{fmtDateRu(day.date)} · {dayLabel(day)}{region && <> · {region.name_ru}</>}</p>
     <h1>{day.title_ru}</h1>
@@ -53,26 +60,21 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
 
   {daySites.length > 0 && <div class="strip">{daySites.map((s) => <SiteCard s={s} />)}</div>}
 
-  {study && featuredGroups.length > 0 && (
+  {study && dayGroups.length > 0 && (
     <section>
-      <h2>Ради чего едем</h2>
-      {featuredGroups.map((g) => (
-        <>
-          <h3 class="grp">{g.name}</h3>
-          <div class="tiles">
-            {g.rows.map(({ f, s }) => (
-              <StudyTile s={s} highlight={f.why.includes('highlight')} endemic={f.why.includes('endemic') || s.endemic} isNew={f.why.includes('new_for_route')} />
-            ))}
+      <FilterScope>
+        <h2 class="vh">Виды дня <span class="cnt muted" data-lf-summary>{nVis} {plural(nVis, 'вид', 'вида', 'видов')}{dc.interesting > 0 && ` · ${dc.interesting} ${plural(dc.interesting, 'интересный', 'интересных', 'интересных')}`}</span></h2>
+        {!allNew && <p class="muted newl" data-lf-new></p>}
+        <ListFilter client:load />
+        {dayGroups.map((g) => (
+          <div data-lf-group>
+            <h3 class="grp">{g.name}</h3>
+            <div class="tiles">
+              {g.rows.map(({ f, s }) => <StudyTile s={s} state={f.state} why={f.why} isNew={f.new_for_route} />)}
+            </div>
           </div>
-        </>
-      ))}
-    </section>
-  )}
-
-  {study && background.length > 0 && (
-    <section>
-      <h2>Фон, который точно увидим</h2>
-      <div class="tiles sm">{background.map((s) => <StudyTile s={s} small />)}</div>
+        ))}
+      </FilterScope>
     </section>
   )}
 
@@ -84,7 +86,7 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
   </nav>
   {study && radii.length > 0 && (
     <p class="muted method">
-      Списки построены по осенним находкам GBIF в радиусе {radii.join('/')} км; полный список — на {daySites.length === 1
+      «Точно» — не меньше 1 % осенних (сентябрь–ноябрь) записей птиц GBIF в радиусе {radii.join('/')} км, «возможно» — 0,1–1 %, «вряд ли» — реже или нет записей. ★ интересные: цели из отчётов о поездках, эндемики Колумбии и виды с узким ареалом; по каждой локации — на {daySites.length === 1
         ? <a href={`${base}sites/${daySites[0].id}/`}>странице локации</a>
         : 'странице локации'}.
     </p>
@@ -98,11 +100,12 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
   .strip { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); margin: 14px 0 4px; }
   .grp { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; margin: 14px 0 6px; }
   .tiles { display: grid; gap: 10px 8px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .tiles.sm { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px 6px; }
   @media (min-width: 640px) {
     .tiles { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 14px 12px; }
-    .tiles.sm { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
   }
+  .vh { margin-bottom: 2px; }
+  .vh .cnt { font-size: .9rem; font-weight: 500; margin-left: 6px; white-space: nowrap; }
+  .newl { margin: 0; font-size: .85rem; }
   .pn { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 4px; border-top: 1px solid var(--line); }
   .pn a { min-height: 44px; display: inline-flex; align-items: center; }
   .pn a:last-child { text-align: right; }

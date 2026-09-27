@@ -1,5 +1,5 @@
 ---
-import { sites, regions, studyList, fmtDateRu, dayLabel, plural, type DayWithSpecies } from '@lib/data';
+import { sites, regions, studyList, defaultCounts, fmtDateRu, dayLabel, plural, type DayWithSpecies } from '@lib/data';
 interface Props { d: DayWithSpecies; compact?: boolean; id?: string; hidden?: boolean }
 const { d, compact = false, id, hidden } = Astro.props;
 const day = d.day;
@@ -7,8 +7,8 @@ const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
 const color = regions().find((r) => r.id === day.region)?.color ?? 'var(--line)';
 const base = import.meta.env.BASE_URL;
 const study = studyList(day.date);
-const n = study?.featured.length ?? 0;
-const nH = study?.featured.filter((f) => f.why.includes('highlight')).length ?? 0;
+// counts under the default filter («Точно и возможно»), static: the card has no JS
+const c = study ? defaultCounts(study.species) : null;
 ---
 <article class="card daycard" id={id} hidden={hidden} data-date={day.date} style={`border-left: 5px solid ${color}`}>
   <slot name="top" />
@@ -21,9 +21,9 @@ const nH = study?.featured.filter((f) => f.why.includes('highlight')).length ?? 
   {day.sites.length > 0 && (
     <div class="sites">{day.sites.map((sid) => siteOf[sid] && <a class="chip tap" href={`${base}sites/${sid}/`}>{siteOf[sid].name_ru || siteOf[sid].name}</a>)}</div>
   )}
-  {n > 0 && (
+  {c && c.sure + c.maybe > 0 && (
     <div class="small stats">
-      {n} {plural(n, 'вид', 'вида', 'видов')} на вечер{nH > 0 && <> · <b class="hl">{nH} {plural(nH, 'изюминка', 'изюминки', 'изюминок')}</b></>}
+      <b class="sure">{c.sure} точно</b> · {c.maybe} возможно{c.interesting > 0 && <> · <b class="hl">{c.interesting} {plural(c.interesting, 'интересный', 'интересных', 'интересных')}</b></>}
     </div>
   )}
   <slot />
@@ -39,4 +39,5 @@ const nH = study?.featured.filter((f) => f.why.includes('highlight')).length ?? 
   .sites { margin-top: 6px; }
   .stats { margin-top: 2px; }
   .hl { color: var(--accent-2); }
+  .sure { color: var(--accent); }
 </style>

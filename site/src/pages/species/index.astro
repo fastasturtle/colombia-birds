@@ -1,11 +1,15 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesList from '../../components/SpeciesList.svelte';
-import { speciesIndex, families } from '@lib/data';
-const idx = speciesIndex();
+import { speciesIndex, families, routeState, whyInteresting } from '@lib/data';
+// No place context: state = best across the route's sites, «интересная» over the whole route.
+const items = speciesIndex().map((s) => ({
+  id: s.id, sci: s.sci, en: s.en, ru: s.ru, family: s.family, endemic: s.endemic, elev: s.elev, photo: s.photo,
+  state: routeState(s.id), int: whyInteresting(s.id).length > 0,
+}));
 const fams = Object.fromEntries(families().map((f) => [f.code, f.names.ru ?? f.names.en]));
 ---
 <Base title="Все виды">
   <h1>Все виды</h1>
-  <SpeciesList client:load items={idx} families={fams} base={import.meta.env.BASE_URL} mediaBase={import.meta.env.PUBLIC_MEDIA_BASE_URL ?? 'https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev'} />
+  <SpeciesList client:load items={items} families={fams} base={import.meta.env.BASE_URL} mediaBase={import.meta.env.PUBLIC_MEDIA_BASE_URL ?? 'https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev'} />
 </Base>

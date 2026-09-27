@@ -9,9 +9,9 @@ still do not match are written to data/sources/gbif_sites_unmatched.json.
 
 Output data/site_species.json:
   {site_id: {radius_km, total_records, total_records_aut, retrieved,
-             species: [{id, n, n_aut, freq_aut, level}] sorted by n_aut desc, then n desc}}
-freq_aut = n_aut / total_records_aut; level = "common" (freq_aut >= 1%), "uncommon" (0.1-1%),
-"rare" (< 0.1% or n_aut < 3). Species with fewer than `--min-count` all-year records (default 3) are dropped. Sites with fewer than
+             species: [{id, n, n_aut, freq_aut, state}] sorted by n_aut desc, then n desc}}
+freq_aut = n_aut / total_records_aut; state = common.likelihood(): "sure" (freq_aut >= SURE_FREQ = 1%),
+"maybe" (MAYBE_FREQ = 0.1% .. 1%), "unlikely" (< 0.1% or n_aut < MIN_N_AUT = 3); thresholds live in common.py. Species with fewer than `--min-count` all-year records (default 3) are dropped. Sites with fewer than
 `--min-records` records in total (default 1000) get the radius doubled, up to x4.
 
 Usage: uv run python run.py gbif_sites   |   steps/fetch_gbif_sites.py --radius 7 --min-count 3 [--refresh]
@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from common import DATA, SOURCES, SPECIES_DIR, get_json, log, norm_sci, read_json, write_json  # noqa: E402
+from common import DATA, SOURCES, SPECIES_DIR, STATES, get_json, likelihood, log, norm_sci, read_json, write_json  # noqa: E402
 
 API = "https://api.gbif.org/v1"
 AVES = 212
@@ -133,11 +133,6 @@ def main() -> None:
             unmatched[key]["sites"][site_id] = n
         return sid
 
-    def level(n_aut: int, freq: float) -> str:
-        if n_aut < 3 or freq < 0.001:
-            return "rare"
-        return "common" if freq >= 0.01 else "uncommon"
-
     for s in sites:
         # sparsely surveyed spots (e.g. km-42): widen the circle (x2, x4) until there is something to show
         radius = a.radius
@@ -166,11 +161,11 @@ def main() -> None:
         for k, v in agg.items():
             na = agg_aut.get(k, 0)
             f = na / total_aut if total_aut else 0.0
-            sp.append({"id": k, "n": v, "n_aut": na, "freq_aut": round(f, 5), "level": level(na, f)})
+            sp.append({"id": k, "n": v, "n_aut": na, "freq_aut": round(f, 5), "state": likelihood(na, f)})
         sp.sort(key=lambda x: (-x["n_aut"], -x["n"], x["id"]))
         out[s["id"]] = {"radius_km": radius, "total_records": r.get("count", 0), "total_records_aut": total_aut,
                         "retrieved": today, "species": sp}
-        lv = {L: sum(1 for x in sp if x["level"] == L) for L in ("common", "uncommon", "rare")}
+        lv = {L: sum(1 for x in sp if x["state"] == L) for L in STATES}
         log(f"  {s['id']:24s} r={radius:g}km records {r.get('count', 0):7d} aut {total_aut:6d}  "
             f"species(n>={a.min_count}) {len(sp):4d}  {lv}")
 
