@@ -38,10 +38,10 @@ en:
 ---
 Pale-bellied Tapaculo (сероголовый тапакуло) — почти-эндемик Восточных Анд Колумбии и соседней Венесуэлы, на высотах 2 000–3 900 м. Его второе английское имя, Matorral Tapaculo, подсказывает местообитание: густые кусты, бамбук и заросшие опушки, а не только лесная подстилка. Серая птица с рыжими боками мелькает у земли, поэтому вид подтверждают по песне и высоте.
 
-На маршруте он «точно» в Чингасе и Сумапасе и «возможно» у Обсерватории колибри: всё это выезды из Боготы в свободные дни, 1–2 октября.
+У Боготы он «точно» в Чингасе и Сумапасе и «возможно» у Обсерватории колибри: все три места не в программе тура, это варианты для самостоятельного выезда.
 
 ## English
 
 Pale-bellied Tapaculo is a near-endemic of the Eastern Andes of Colombia and adjacent Venezuela, at 2,000–3,900 m. Its other English name, Matorral Tapaculo, hints at its habitat: dense shrubs, bamboo and overgrown edges, not only the forest floor. A gray bird with rufous flanks flicks past at ground level, so the species is confirmed by song and elevation.
 
-On the route it is "sure" at Chingaza and Sumapaz and "maybe" at the Observatorio de Colibríes: all of these are trips out of Bogotá on the free days, 1–2 October.
+Near Bogotá it is "sure" at Chingaza and Sumapaz and "maybe" at the Observatorio de Colibríes: none of these is in the tour programme; they are options for a trip on your own.

@@ -119,6 +119,9 @@
   };
   const dayPlaces = places.filter((p) => p.group === 'День');
   const sitePlaces = places.filter((p) => p.group === 'Место');
+  // any other group (e.g. «Возможные выезды из Боготы») gets its own <optgroup> after «Место», in input order
+  const extraGroups = [...new Set(places.map((p) => p.group).filter((g) => g && g !== 'День' && g !== 'Место'))]
+    .map((g) => ({ label: g, items: places.filter((p) => p.group === g) }));
 </script>
 
 <div class="idf">
@@ -132,6 +135,11 @@
       <optgroup label="Место">
         {#each sitePlaces as p (p.key)}<option value={p.key}>{p.label}</option>{/each}
       </optgroup>
+      {#each extraGroups as g (g.label)}
+        <optgroup label={g.label}>
+          {#each g.items as p (p.key)}<option value={p.key}>{p.label}</option>{/each}
+        </optgroup>
+      {/each}
     </select>
   </label>
   <ListFilter />

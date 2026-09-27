@@ -41,10 +41,10 @@ en:
 ---
 Black-chested Buzzard-Eagle (агуйя) — крупнейший хищник парамо, на высотах 1 600–4 500 м. В Колумбии он встречается только там, где остались большие открытые массивы высокогорья, поэтому это скорее удача, чем гарантия. Силуэт узнаётся издалека: широкий треугольник с коротким хвостом, тёмная грудь и белое брюхо.
 
-На маршруте вид «точно» в Сумапасе и «возможно» в Чингасе — оба выезда возможны только в свободные дни в Боготе, 1–2 октября. Смотри на гребни в середине утра, когда поднимаются потоки.
+У Боготы вид «точно» в Сумапасе и «возможно» в Чингасе; оба парамо не в программе тура, это варианты для самостоятельного выезда. Смотри на гребни в середине утра, когда поднимаются потоки.
 
 ## English
 
 Black-chested Buzzard-Eagle is the largest raptor of the páramo, at 1,600–4,500 m. In Colombia it occurs only where large open tracts of highland remain, so it is more a stroke of luck than a sure thing. The silhouette is recognisable from afar: a broad triangle with a short tail, dark breast and white belly.
 
-On the route it is "sure" at Sumapaz and "maybe" at Chingaza, both possible only on the free days in Bogotá, 1–2 October. Watch the ridges in mid-morning, when the updrafts start.
+Near Bogotá it is "sure" at Sumapaz and "maybe" at Chingaza; neither páramo is in the tour programme, both are options for a trip on your own. Watch the ridges in mid-morning, when the updrafts start.

@@ -42,10 +42,10 @@ en:
 ---
 Rufous-browed Conebill (рыжебровый конусоклюв) — почти-эндемик Колумбии: живёт в Восточных Андах, от Боготы на север, и в Сьерра-Неваде-де-Санта-Марте, в кустарниках, на опушках и в садах на высотах 2 600–3 300 м. Серый верх и рыжее лицо с низом дают узнаваемую пару цветов; тонкий прямой клюв отличает его от цветоколов.
 
-Лучшие точки — Ботанический сад Боготы и парамо Чингасы и Сумапаса: здесь он «точно», так что его стоит искать в свободные дни в Боготе, 2 и 25 октября. В Чикаке 3, 23 и 24 октября он «возможен»; смотри в кустах на опушках.
+Лучшие точки — Ботанический сад Боготы и парамо Чингасы и Сумапаса: здесь он «точно», но эти места не в программе тура, это варианты для самостоятельного выезда из Боготы. В Чикаке 3, 23 и 24 октября он «возможен»; смотри в кустах на опушках.
 
 ## English
 
 Rufous-browed Conebill is a Colombian near-endemic: it lives in the Eastern Andes from Bogotá north and in the Sierra Nevada de Santa Marta, in shrubland, edges and gardens at 2,600–3,300 m. Gray upperparts against a rufous face and underparts make a memorable pair of colours; the thin straight bill separates it from flowerpiercers.
 
-The best spots are the Bogotá Botanical Garden and the páramos of Chingaza and Sumapaz, where it is "sure", so look for it on the free days in Bogotá, 2 and 25 October. At Chicaque on 3, 23 and 24 October it is "maybe"; check shrubs along the edges.
+The best spots are the Bogotá Botanical Garden and the páramos of Chingaza and Sumapaz, where it is "sure", but these are not in the tour programme; they are options for a trip on your own from Bogotá. At Chicaque on 3, 23 and 24 October it is "maybe"; check shrubs along the edges.

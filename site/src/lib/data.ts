@@ -58,6 +58,8 @@ export interface Site {
   coords_approx: boolean; elev_min: number | null; elev_max: number | null; habitat_ru: string;
   ebird_hotspots: { id: string; name: string }[]; sources: string[]; notes_ru: string;
   target_species?: string[]; target_species_raw?: { en: string; sci: string | null }[];
+  /** not part of the group tour: a possible own trip from Bogotá on a free day (hand-authored in data/sites.json) */
+  optional?: boolean;
 }
 export interface Day {
   date: string; day: number | string; title_ru: string; sites: string[]; overnight: string; overnight_site: string | null;
@@ -118,9 +120,23 @@ export function allSpecies(): Species[] {
 export function texts(id: string): Texts | null {
   return readJson<Texts | null>(`texts/${id}.json`, null);
 }
+let _sites: Site[] | null = null;
+/** All sites, tour sites first, then optional ones (each group in data/sites.json order). */
 export function sites(): Site[] {
+  if (_sites) return _sites;
+  const authored = readJson<Site[]>('sites.json', []);
   const resolved = readJson<Site[] | null>('sites_resolved.json', null);
-  return resolved ?? readJson<Site[]>('sites.json', []);
+  // `optional` is authored in sites.json; take it from there so a stale sites_resolved.json cannot lose it
+  const opt = new Set(authored.filter((s) => s.optional === true).map((s) => s.id));
+  const all = (resolved ?? authored).map((s) => ({ ...s, optional: opt.has(s.id) }));
+  return (_sites = [...all.filter((s) => !s.optional), ...all.filter((s) => s.optional)]);
+}
+/** Group title for optional sites (not in the tour programme). */
+export const OPTIONAL_SITES_RU = 'Возможные выезды из Боготы';
+export const OPTIONAL_SITE_TAG_RU = 'не в программе тура';
+/** True for a site that is not part of the group tour (`optional: true` in data/sites.json). */
+export function isOptionalSite(id: string): boolean {
+  return sitesById().get(id)?.optional === true;
 }
 export interface HotspotCheck { id: string; name_api: string | null; numSpeciesAllTime: number | null; status: string }
 let _hsCheck: Record<string, HotspotCheck> | null = null;

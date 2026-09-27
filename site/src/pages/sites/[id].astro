@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
 import ListFilter from '../../components/ListFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
-import { sites, regions, siteSpecies, speciesForSites, daysForSite, hotspotCheck, defaultCounts, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import { sites, regions, siteSpecies, speciesForSites, daysForSite, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -15,6 +15,9 @@ const dc = defaultCounts(items);
 const nVis = dc.sure + dc.maybe;
 const days = daysForSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
+const othersTour = others.filter((o) => !isOptionalSite(o.id));
+const othersOpt = others.filter((o) => isOptionalSite(o.id));
+const opt = isOptionalSite(s.id);
 const base = import.meta.env.BASE_URL;
 const elev = s.elev_min != null ? (s.elev_max != null && s.elev_max !== s.elev_min ? `${s.elev_min}–${s.elev_max} м` : `${s.elev_min} м`) : null;
 const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO&has_coordinate=true&lat=${s.lat - (gb?.radius_km ?? 12) / 111},${s.lat + (gb?.radius_km ?? 12) / 111}&lng=${s.lon - (gb?.radius_km ?? 12) / 111},${s.lon + (gb?.radius_km ?? 12) / 111}`;
@@ -31,7 +34,7 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
       {s.coords_approx && <span class="muted"> (примерно)</span>}
     </td></tr>
     {days.length > 0 && <tr><th>В маршруте</th><td>{days.map((d) => <a class="chip tap" href={`${base}days/${d.date}/`}>{fmtDateRu(d.date, false)} · {dayLabel(d)}</a>)}</td></tr>}
-    {days.length === 0 && <tr><th>В маршруте</th><td class="muted">нет в плане, запасной вариант</td></tr>}
+    {days.length === 0 && <tr><th>В маршруте</th><td class="muted">{opt ? `${OPTIONAL_SITE_TAG_RU}, возможный самостоятельный выезд из Боготы` : 'нет в плане'}</td></tr>}
   </table>
   {s.notes_ru && <p>{s.notes_ru}</p>}
   {s.ebird_hotspots?.length > 0 && (
@@ -53,10 +56,16 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
     </FilterScope>
   )}
 
-  {others.length > 0 && (
+  {othersTour.length > 0 && (
     <>
       <h2>Рядом, {region?.name_ru}</h2>
-      <p>{others.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}</a>)}</p>
+      <p>{othersTour.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}</a>)}</p>
+    </>
+  )}
+  {othersOpt.length > 0 && (
+    <>
+      <h2>{OPTIONAL_SITES_RU}</h2>
+      <p>{othersOpt.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}</a>)}</p>
     </>
   )}
   <p><a href={base}>← Маршрут</a></p>

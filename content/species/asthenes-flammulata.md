@@ -41,10 +41,10 @@ en:
 ---
 Many-striped Canastero (пёстрый канастеро) — птица открытого парамо и кустарников у верхней границы леса на высотах 3 000–4 500 м. Это самый пёстрый из канастеро: в пестринах и верх, и грудь, а оранжевое горло и рыжие крылья добавляют тёплый тон. В траве он кажется просто бурым комком, поэтому ищи его, когда он поёт с открытой верхушки куста.
 
-На маршруте вид «точно» в Сумапасе и «возможно» в Чингасе: шанс есть только если в свободные дни в Боготе, 1–2 октября, выбраться в высокогорный парамо.
+У Боготы вид «точно» в Сумапасе и «возможно» в Чингасе, но оба парамо не входят в программу тура: шанс есть только при самостоятельном выезде из Боготы.
 
 ## English
 
 Many-striped Canastero lives in open páramo and treeline shrubland at 3,000–4,500 m. It is the most streaked of the canasteros: both upperparts and breast are streaked, and the orange throat and rufous wings add a warm tone. In the grass it looks like a plain brown blob, so look for it when it sings from an exposed shrub top.
 
-On the route it is "sure" at Sumapaz and "maybe" at Chingaza: the only chance is a trip to the high páramo on the free days in Bogotá, 1–2 October.
+Near Bogotá it is "sure" at Sumapaz and "maybe" at Chingaza, but neither páramo is in the tour programme: the only chance is a trip on your own from Bogotá.

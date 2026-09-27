@@ -43,10 +43,10 @@ en:
 ---
 Bogota Rail (боготский пастушок) — эндемик Колумбии, живущий только в болотах и тростниках Восточных Анд в Кундинамарке и Бойяке, на высотах 2 500–3 600 м. Вид угрожаемый: болота саванны Боготы почти все осушены или застроены. Это типичный пастушок с длинным красным клювом, но лицо и весь низ у него ровно свинцово-серые.
 
-В основной маршрут он не входит: «точно» он в парке Ла-Флорида на окраине Боготы и в парамо Сумапаса. Ла-Флориду можно посетить в свободный день в Боготе 2 или 25 октября: стой у края тростника рано утром и жди, когда пастушок выйдет на плёс.
+В основной маршрут он не входит: «точно» он в парке Ла-Флорида на окраине Боготы и в парамо Сумапаса. Ла-Флорида не в программе тура, это вариант для самостоятельного выезда из Боготы: стой у края тростника рано утром и жди, когда пастушок выйдет на плёс.
 
 ## English
 
 Bogota Rail is a Colombian endemic living only in marshes and reedbeds of the Eastern Andes in Cundinamarca and Boyacá, at 2,500–3,600 m. It is threatened: almost all the wetlands of the Bogotá savanna have been drained or built over. It is a typical rail with a long red bill, but its face and entire underparts are plain lead-gray.
 
-It is not on the main route: it is "sure" at La Florida park on the edge of Bogotá and in the Sumapaz páramo. La Florida can be visited on a free day in Bogotá on 2 or 25 October: stand at the reed edge early in the morning and wait for the rail to step out onto open water.
+It is not on the main route: it is "sure" at La Florida park on the edge of Bogotá and in the Sumapaz páramo. La Florida is not in the tour programme; it is an option for a trip on your own from Bogotá: stand at the reed edge early in the morning and wait for the rail to step out onto open water.

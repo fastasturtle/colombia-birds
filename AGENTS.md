@@ -51,6 +51,10 @@
   затем `uv run python run.py ebird birdbase wikidata build`.
 - Добавить локацию или день маршрута: `data/sites.json` / `data/itinerary.json`, затем
   `uv run python run.py sites` (пересчитывает целевые виды и `data/focus_species.json`).
+- Поле `"optional": true` в `data/sites.json` — локация не входит в программу группового тура (кандидат на
+  самостоятельный выезд из Боготы в свободные дни, дней в `data/itinerary.json` у неё нет). Сайт показывает такие
+  локации отдельной группой «Возможные выезды из Боготы» с пометкой «не в программе тура» (`isOptionalSite()` в
+  `site/src/lib/data.ts`); в GBIF-подсчётах они участвуют как обычно. В карточках видов не придумывать для них даты.
 - Написать русское описание вида: `content/species/<slug>.md`, опираясь на `data/texts/<slug>.json`
   (Wikipedia, обязательна атрибуция при заимствовании) и `data/species/<slug>.json`.
 - Добавить пару «похожие виды»: `content/similar/<slug-a>--<slug-b>.md`.

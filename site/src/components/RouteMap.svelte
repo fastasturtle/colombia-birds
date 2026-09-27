@@ -1,6 +1,6 @@
 <script lang="ts">
   import basemap from '../generated/basemap.json';
-  interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null }
+  interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null; optional?: boolean }
   interface Day { date: string; day: number | string; title_ru: string; sites: string[]; overnight_site: string | null; travel_ru?: string; region: string; elev_sleep: number | null }
   interface Region { id: string; name_ru: string; color: string }
   let { days, sites, regions }: { days: Day[]; sites: Site[]; regions: Region[] } = $props();
@@ -90,7 +90,7 @@
     {#each markers as m (m.s.id)}
       <g class="mk" class:on={sel === m.s.id} role="button" tabindex="0" aria-label={m.s.name_ru || m.s.name} onclick={toggle(m.s.id)} onkeydown={key(m.s.id)}>
         <circle class="hitc" cx={m.x} cy={m.y} r={m.stop ? 16 : 12} />
-        <circle cx={m.x} cy={m.y} r={m.stop ? R_STOP : R_SITE} fill={color[m.s.region] ?? '#333'} />
+        <circle class:opt={m.s.optional} cx={m.x} cy={m.y} r={m.stop ? R_STOP : R_SITE} fill={color[m.s.region] ?? '#333'} />
       </g>
     {/each}
     {#each numLabels as l}<text class="num" x={l.x} y={l.y} text-anchor={l.anchor} dominant-baseline="central">{l.text}</text>{/each}
@@ -103,11 +103,12 @@
       {#if s.name_ru && s.name_ru !== s.name}<br />{s.name_ru}{/if}
       {#if s.elev_min != null}<br /><span class="muted">{s.elev_min}{s.elev_max != null && s.elev_max !== s.elev_min ? `–${s.elev_max}` : ''} м</span>{/if}
       {#if dayNums.has(s.id)}<br /><span class="muted">ночёвки: день {fmtDays(dayNums.get(s.id)!)}</span>{/if}
+      {#if s.optional}<br /><span class="muted">не в программе тура</span>{/if}
       <br /><a class="more" href={`${base}sites/${s.id}/`}>подробнее →</a>
     </div>
   {/if}
 </div>
-<p class="muted note">Крупные точки — ночёвки, цифры — дни; пунктир — дорога, точки — перелёт. Тап по точке — название и высота. Подложка: Natural Earth.</p>
+<p class="muted note">Крупные точки — ночёвки, цифры — дни, полупрозрачные — возможные выезды из Боготы (не в программе тура); пунктир — дорога, точки — перелёт. Тап по точке — название и высота. Подложка: Natural Earth.</p>
 
 <div class="legend">
   {#each regions as r}<span class="chip"><i style={`background:${r.color}`}></i>{r.name_ru}</span>{/each}
@@ -158,6 +159,7 @@
   .route.flight { stroke-width: 1.5; stroke-dasharray: 1 5; opacity: .8; }
   .mk { cursor: pointer; outline: none; }
   .mk circle:not(.hitc) { stroke: var(--map-marker-stroke); stroke-width: 1.8; }
+  .mk circle.opt { fill-opacity: .35; }
   .mk.on circle:not(.hitc), .mk:focus-visible circle:not(.hitc) { stroke: var(--fg); stroke-width: 2.5; }
   .hitc { fill: transparent; stroke: none; }
   .num { font-size: 28px; font-weight: 700; fill: var(--fg); stroke: var(--map-halo); }

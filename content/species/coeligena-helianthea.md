@@ -41,10 +41,10 @@ en:
 ---
 Blue-throated Starfrontlet (синегорлый инка) — почти-эндемик Колумбии: живёт в Восточных Андах от Перихи до окрестностей Боготы, на высотах 1 900–3 300 м. В плохом свете самец кажется просто тёмным инкой; ключ к виду — розово-фиолетовое брюхо, которое видно, когда птица зависает у цветка или кормушки. Остальные инки маршрута окрашены иначе.
 
-В основной маршрут вид не входит: он «точно» в Обсерватории колибри над Боготой и «возможно» в Чингасе. Если в свободные дни 1–2 октября получится туда съездить, он будет одним из главных колибри на кормушках.
+В основной маршрут вид не входит: он «точно» в Обсерватории колибри над Боготой и «возможно» в Чингасе. Эти места не в программе тура; если выбраться туда самостоятельно, он будет одним из главных колибри на кормушках.
 
 ## English
 
 Blue-throated Starfrontlet is a Colombian near-endemic of the Eastern Andes from Perijá to the Bogotá area, at 1,900–3,300 m. In poor light the male looks like just a dark inca; the key is the rosy-violet belly, which shows when the bird hovers at a flower or feeder. The other incas on the route are coloured differently.
 
-The species is not on the main route: it is "sure" at the Observatorio de Colibríes above Bogotá and "maybe" at Chingaza. If the free days on 1–2 October allow a visit, it will be one of the main hummingbirds at the feeders.
+The species is not on the main route: it is "sure" at the Observatorio de Colibríes above Bogotá and "maybe" at Chingaza. Neither is in the tour programme; on a trip there on your own it will be one of the main hummingbirds at the feeders.

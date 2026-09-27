@@ -43,10 +43,10 @@ en:
 ---
 Silvery-throated Spinetail (серозобая иглохвостка) — эндемик Колумбии, живущий только в Восточных Андах вокруг Боготы, на высотах 2 100–3 200 м. Это обычная птица кустарников, живых изгородей и заросших вырубок, в том числе на окраинах города. Длинный колючий хвост и рыжий затылок видны даже в просвете куста, а серебристо-серое горло подтверждает вид.
 
-На маршруте она «точно» в Ла-Флориде и у Обсерватории колибри, то есть в свободные дни в Боготе 1–2 октября, и «возможно» в Чикаке 3, 23 и 24 октября.
+Она «точно» в Ла-Флориде и у Обсерватории колибри, но эти места не в программе тура, только для самостоятельного выезда из Боготы; на маршруте она «возможна» в Чикаке 3, 23 и 24 октября.
 
 ## English
 
 Silvery-throated Spinetail is a Colombian endemic found only in the Eastern Andes around Bogotá, at 2,100–3,200 m. It is a common bird of shrubs, hedgerows and overgrown clearings, including the city outskirts. The long spiny tail and rufous nape show even in a gap in a bush, and the silvery-gray throat confirms the species.
 
-On the route it is "sure" at La Florida and the Observatorio de Colibríes, that is on the free days in Bogotá, 1–2 October, and "maybe" at Chicaque on 3, 23 and 24 October.
+It is "sure" at La Florida and the Observatorio de Colibríes, but these are not in the tour programme, only options for a trip on your own from Bogotá; on the route it is "maybe" at Chicaque on 3, 23 and 24 October.

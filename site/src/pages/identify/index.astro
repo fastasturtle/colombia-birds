@@ -9,7 +9,7 @@ import Base from '../../layouts/Base.astro';
 import Identifier from '../../components/Identifier.svelte';
 import { speciesCards } from '@lib/content';
 import { traitVocabulary } from '@lib/traits';
-import { speciesIndex, siteSpecies, sites, itinerary, routeSiteIds, rangeRestricted, fmtDateRu, dayLabel, MEDIA_BASE } from '@lib/data';
+import { speciesIndex, siteSpecies, sites, itinerary, routeSiteIds, isOptionalSite, OPTIONAL_SITES_RU, rangeRestricted, fmtDateRu, dayLabel, MEDIA_BASE } from '@lib/data';
 
 const idx = new Map(speciesIndex().map((s) => [s.id, s]));
 const total = speciesIndex().length;
@@ -43,6 +43,9 @@ const places = [
     sites: d.sites,
   })),
   ...route.map((id) => ({ key: `site:${id}`, group: 'Место', label: nameOf.get(id) ?? id, sites: [id] })),
+  // optional sites (not in the tour programme) after the tour ones; «Весь маршрут» stays tour-only
+  ...siteList.filter((s) => isOptionalSite(s.id) && !route.includes(s.id))
+    .map((s) => ({ key: `site:${s.id}`, group: OPTIONAL_SITES_RU, label: nameOf.get(s.id) ?? s.id, sites: [s.id] })),
 ];
 const vocab = traitVocabulary().map((g) => ({ key: g.key, label: g.label.ru, values: g.values.map((v) => ({ key: v.key, label: v.ru, hint: v.hint })) }));
 ---

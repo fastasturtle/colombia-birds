@@ -42,10 +42,10 @@ en:
 ---
 Yellow-hooded Blackbird (желтоголовый курен) — трупиал пресных болот и сырых лугов от низин до 2 600 м. На Боготинском плато живёт отдельный подвид с очень маленьким ареалом, которому, по мнению специалистов, нужна местная охрана. Чёрная птица с жёлтой головой на тростинке не требует определителя; сложнее с самками, но они почти всегда рядом с самцами.
 
-В основной маршрут болота этого вида не входят. Его «точно» можно увидеть в парке Ла-Флорида на окраине Боготы и «возможно» в Ботаническом саду Боготы: удобно в свободные дни 2 и 25 октября.
+В основной маршрут болота этого вида не входят. Его «точно» можно увидеть в парке Ла-Флорида на окраине Боготы и «возможно» в Ботаническом саду Боготы: оба места не в программе тура, это варианты для самостоятельного выезда.
 
 ## English
 
 Yellow-hooded Blackbird is an icterid of freshwater marshes and wet meadows from the lowlands to 2,600 m. The Bogotá plateau holds a separate subspecies with a very small range which, in experts' view, merits local protection. A black bird with a yellow head on a reed needs no field guide; females are harder, but they are almost always near males.
 
-Its marshes are not on the main route. It is "sure" at La Florida park on the edge of Bogotá and "maybe" at the Bogotá Botanical Garden: convenient on the free days, 2 and 25 October.
+Its marshes are not on the main route. It is "sure" at La Florida park on the edge of Bogotá and "maybe" at the Bogotá Botanical Garden: neither is in the tour programme; both are options for a trip on your own.

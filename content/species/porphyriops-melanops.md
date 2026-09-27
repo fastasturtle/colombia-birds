@@ -41,10 +41,10 @@ en:
 ---
 Spot-flanked Gallinule (пятнистая камышница) — небольшая камышница болот и озёр; в Колумбии живёт изолированная популяция в болотах саванны Боготы, на высотах около 2 500–3 000 м, и в национальной Красной книге она оценена как находящаяся под угрозой. Бледно-зелёный клюв и белые крапины на боках отличают её от обычных здесь камышниц и лысух.
 
-В основной маршрут она не входит: «точно» она только в парке Ла-Флорида на окраине Боготы. Туда можно съездить в свободный день 2 или 25 октября: осматривай края тростника и заросшие плёсы, где камышница кормится среди листьев.
+В основной маршрут она не входит: «точно» она только в парке Ла-Флорида на окраине Боготы. Парк не в программе тура, это вариант для самостоятельного выезда: осматривай края тростника и заросшие плёсы, где камышница кормится среди листьев.
 
 ## English
 
 Spot-flanked Gallinule is a small gallinule of marshes and lakes; in Colombia an isolated population lives in the wetlands of the Bogotá savanna, at about 2,500–3,000 m, and the national red list rates it Endangered. The pale green bill and white spots on the flanks set it apart from the gallinules and coots common there.
 
-It is not on the main route: it is "sure" only at La Florida park on the edge of Bogotá. That can be visited on a free day on 2 or 25 October: check reed edges and overgrown open water, where it feeds among the leaves.
+It is not on the main route: it is "sure" only at La Florida park on the edge of Bogotá. The park is not in the tour programme; it is an option for a trip on your own: check reed edges and overgrown open water, where it feeds among the leaves.
