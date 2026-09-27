@@ -4,28 +4,13 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 125
-- Проверено: 80
-- Не проверено: 45
+- Проверено: 110
+- Не проверено: 15
 
-## Не проверено (45)
+## Не проверено (15)
 
 | Слаг | English | Группа |
 |---|---|---|
-| crypturellus-soui | Little Tinamou | Тинаму и куриные |
-| nothocrax-urumutum | Nocturnal Curassow | Тинаму и куриные |
-| ortalis-columbiana | Colombian Chachalaca | Тинаму и куриные |
-| anas-bahamensis | White-cheeked Pintail | Утки, поганки и фламинго |
-| anas-georgica | Yellow-billed Pintail | Утки, поганки и фламинго |
-| anas-andium | Andean Teal | Утки, поганки и фламинго |
-| oxyura-jamaicensis | Ruddy Duck | Утки, поганки и фламинго |
-| podilymbus-podiceps | Pied-billed Grebe | Утки, поганки и фламинго |
-| columbina-cruziana | Croaking Ground Dove | Голуби, кукушки и гоацин |
-| leptotila-conoveri | Tolima Dove | Голуби, кукушки и гоацин |
-| leptotila-pallida | Pallid Dove | Голуби, кукушки и гоацин |
-| zenaida-auriculata | Eared Dove | Голуби, кукушки и гоацин |
-| crotophaga-major | Greater Ani | Голуби, кукушки и гоацин |
-| opisthocomus-hoazin | Hoatzin | Голуби, кукушки и гоацин |
-| phaethornis-yaruqui | White-whiskered Hermit | Стрижи и колибри |
 | ensifera-ensifera | Sword-billed Hummingbird | Стрижи и колибри |
 | boissonneaua-jardini | Velvet-purple Coronet | Стрижи и колибри |
 | urosticte-benjamini | Purple-bibbed Whitetip | Стрижи и колибри |
@@ -41,27 +26,27 @@
 | vanellus-chilensis | Southern Lapwing | Кулики, чайки и крачки |
 | gallinago-nobilis | Noble Snipe | Кулики, чайки и крачки |
 | actitis-macularius | Spotted Sandpiper | Кулики, чайки и крачки |
-| forpus-coelestis | Pacific Parrotlet | Попугаи |
-| pyrrhura-melanura | Maroon-tailed Parakeet | Попугаи |
-| orthopsittaca-manilatus | Red-bellied Macaw | Попугаи |
-| sipia-nigricauda | Esmeraldas Antbird | Муравьеловки, печники и древолазы |
-| grallaria-ruficapilla | Chestnut-crowned Antpitta | Муравьеловки, печники и древолазы |
-| grallaria-hypoleuca | White-bellied Antpitta | Муравьеловки, печники и древолазы |
-| grallaria-saturata | Equatorial Antpitta | Муравьеловки, печники и древолазы |
-| grallaria-quitensis | Tawny Antpitta | Муравьеловки, печники и древолазы |
-| scytalopus-chocoensis | Choco Tapaculo | Муравьеловки, печники и древолазы |
-| scytalopus-griseicollis | Pale-bellied Tapaculo | Муравьеловки, печники и древолазы |
-| asthenes-flammulata | Many-striped Canastero | Муравьеловки, печники и древолазы |
-| asthenes-fuliginosa | White-chinned Thistletail | Муравьеловки, печники и древолазы |
-| synallaxis-subpudica | Silvery-throated Spinetail | Муравьеловки, печники и древолазы |
-| uromyias-agilis | Agile Tit-Tyrant | Тиранны и титиры |
-| pseudocolopteryx-acutipennis | Subtropical Doradito | Тиранны и титиры |
 
-## Проверено (80)
+## Проверено (110)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
+| crypturellus-soui | Little Tinamou | Тинаму и куриные | 2026-09-27 |
 | penelope-montagnii | Andean Guan | Тинаму и куриные | 2026-09-27 |
+| nothocrax-urumutum | Nocturnal Curassow | Тинаму и куриные | 2026-09-27 |
+| ortalis-columbiana | Colombian Chachalaca | Тинаму и куриные | 2026-09-27 |
+| anas-bahamensis | White-cheeked Pintail | Утки, поганки и фламинго | 2026-09-27 |
+| anas-georgica | Yellow-billed Pintail | Утки, поганки и фламинго | 2026-09-27 |
+| anas-andium | Andean Teal | Утки, поганки и фламинго | 2026-09-27 |
+| oxyura-jamaicensis | Ruddy Duck | Утки, поганки и фламинго | 2026-09-27 |
+| podilymbus-podiceps | Pied-billed Grebe | Утки, поганки и фламинго | 2026-09-27 |
+| columbina-cruziana | Croaking Ground Dove | Голуби, кукушки и гоацин | 2026-09-27 |
+| leptotila-conoveri | Tolima Dove | Голуби, кукушки и гоацин | 2026-09-27 |
+| leptotila-pallida | Pallid Dove | Голуби, кукушки и гоацин | 2026-09-27 |
+| zenaida-auriculata | Eared Dove | Голуби, кукушки и гоацин | 2026-09-27 |
+| crotophaga-major | Greater Ani | Голуби, кукушки и гоацин | 2026-09-27 |
+| opisthocomus-hoazin | Hoatzin | Голуби, кукушки и гоацин | 2026-09-27 |
+| phaethornis-yaruqui | White-whiskered Hermit | Стрижи и колибри | 2026-09-27 |
 | colibri-coruscans | Sparkling Violetear | Стрижи и колибри | 2026-09-27 |
 | colibri-cyanotus | Lesser Violetear | Стрижи и колибри | 2026-09-27 |
 | heliangelus-exortis | Tourmaline Sunangel | Стрижи и колибри | 2026-09-27 |
@@ -97,6 +82,21 @@
 | semnornis-ramphastinus | Toucan Barbet | Туканы, бородатки и дятлы | 2026-09-27 |
 | andigena-laminirostris | Plate-billed Mountain-Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
 | ramphastos-brevis | Choco Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
+| forpus-coelestis | Pacific Parrotlet | Попугаи | 2026-09-27 |
+| pyrrhura-melanura | Maroon-tailed Parakeet | Попугаи | 2026-09-27 |
+| orthopsittaca-manilatus | Red-bellied Macaw | Попугаи | 2026-09-27 |
+| sipia-nigricauda | Esmeraldas Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| grallaria-ruficapilla | Chestnut-crowned Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
+| grallaria-hypoleuca | White-bellied Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
+| grallaria-saturata | Equatorial Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
+| grallaria-quitensis | Tawny Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
+| scytalopus-chocoensis | Choco Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
+| scytalopus-griseicollis | Pale-bellied Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
+| asthenes-flammulata | Many-striped Canastero | Муравьеловки, печники и древолазы | 2026-09-27 |
+| asthenes-fuliginosa | White-chinned Thistletail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| synallaxis-subpudica | Silvery-throated Spinetail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| uromyias-agilis | Agile Tit-Tyrant | Тиранны и титиры | 2026-09-27 |
+| pseudocolopteryx-acutipennis | Subtropical Doradito | Тиранны и титиры | 2026-09-27 |
 | elaenia-pallatangae | Sierran Elaenia | Тиранны и титиры | 2026-09-27 |
 | tyrannus-melancholicus | Tropical Kingbird | Тиранны и титиры | 2026-09-27 |
 | machaeropterus-deliciosus | Club-winged Manakin | Котинги и манакины | 2026-09-27 |
