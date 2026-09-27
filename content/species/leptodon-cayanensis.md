@@ -20,7 +20,7 @@ traits:
   size: crow
   colors: [black, white, gray]
   tone: bright
-  marks: []
+  marks: [cap]
   bill: [hooked]
   layer: [canopy, air]
 sources:

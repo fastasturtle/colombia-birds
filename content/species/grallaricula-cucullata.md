@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [orange, brown, gray]
   tone: bright
-  marks: [short_tail]
+  marks: [short_tail, cap, bright_bill]
   bill: short
   layer: [understory, feeder]
 sources:

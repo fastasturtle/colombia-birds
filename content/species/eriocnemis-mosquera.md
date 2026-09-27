@@ -17,7 +17,7 @@ behavior: "Держится на опушках и прогалинах низк
 voice: "Сухие короткие «трит»; для определения голос почти не нужен."
 traits:
   size: hummingbird
-  colors: [green, yellow, white]
+  colors: [green, orange, white]
   tone: bright
   marks: [forked_tail]
   bill: short

@@ -16,11 +16,12 @@ similar:
 behavior: "Пары и небольшие группы держатся в кронах и по опушкам, часто в микст-флоках с танаграми; кормятся мелкими ягодами, особенно омелы."
 voice: "Позывы — ясное «динь-динь-динь», «чи!» и восходящее «куэ»; песня — бессвязный неторопливый набор фраз вроде «дью-дью… дит-дит-дит»."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [yellow, black, olive]
   tone: bright
+  marks: [cap]
   bill: [short, thick]
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Данные проекта: data/species/euphonia-xanthogaster.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Orange-bellied euphonia (en), Euphonia xanthogaster (es), CC BY-SA 4.0 — data/texts: окраска, подвиды в Колумбии"

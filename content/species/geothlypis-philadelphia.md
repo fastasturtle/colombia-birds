@@ -5,7 +5,7 @@ lynx_page: null
 checked: 2026-09-27
 key_features:
   - "Серый капюшон на голове и шее, спускается до груди"
-  - "У самца на нижнем крае капюшона чёрное пятно, как креп"
+  - "У взрослого самца на нижнем крае капюшона чёрное пятно; осенью много молодых без него, с бледным капюшоном"
   - "Кольца вокруг глаза у взрослого самца нет, у самок и молодых тонкие прерванные дуги"
   - "Спина оливковая, брюхо и подхвостье ярко-жёлтые, ноги розоватые"
 similar:
@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [yellow, gray, olive]
   tone: bright
-  marks: [throat_patch]
+  marks: [throat_patch, cap]
   bill: [short, thin]
   layer: [understory, ground]
 sources:
@@ -31,7 +31,7 @@ sources:
 en:
   key_features:
     - "Gray hood over the head and neck, reaching the breast"
-    - "Male has a black crape-like patch at the lower edge of the hood"
+    - "Adult male has a black patch at the lower edge of the hood; in autumn many are young birds without it, with a pale hood"
     - "No eye ring in the adult male; females and young have thin broken arcs"
     - "Olive back, bright yellow belly and undertail, pinkish legs"
   similar:

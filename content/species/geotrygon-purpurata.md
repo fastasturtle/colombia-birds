@@ -16,10 +16,10 @@ similar:
 behavior: "Бродит по земле и в нижнем подлеске влажного леса поодиночке или парами. Пугливая: при опасности обычно не взлетает, а тихо уходит пешком за ближайшие кусты."
 voice: "Песня — долгая серия мягких глухих «ву-уу-ит», повторяемых с равными паузами."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [purple, rufous, white]
   tone: bright
-  marks: [throat_patch]
+  marks: [throat_patch, cap]
   bill: short
   layer: [ground]
 sources:

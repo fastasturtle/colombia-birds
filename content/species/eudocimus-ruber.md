@@ -16,10 +16,10 @@ similar:
 behavior: "Кормится стаями на илистых отмелях, в манграх и на заливных лугах, прощупывая ил клювом. Ночует и гнездится колониями на деревьях у воды."
 voice: "Обычно молчит; в стаях и у колоний — хриплое гнусавое «хонк»."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [red]
   tone: bright
-  marks: []
+  marks: [plain]
   bill: [long, curved]
   layer: [water, ground]
 sources:

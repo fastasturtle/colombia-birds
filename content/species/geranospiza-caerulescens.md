@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [gray, black]
   tone: dull
-  marks: [long_tail]
+  marks: [long_tail, wing_patch]
   bill: [hooked]
   layer: [midstory, air]
 sources:

@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [spotted_breast, throat_patch]
   bill: [short]
-  layer: [canopy, midstory]
+  layer: [canopy, midstory, feeder]
 sources:
   - "Wikipedia: Ixothraupis rufigula (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/ixothraupis-rufigula.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"

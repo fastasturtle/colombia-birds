@@ -17,6 +17,7 @@ traits:
   size: thrush
   colors: [rufous, white]
   tone: bright
+  marks: [bright_bill]
   bill: [long, thick]
   layer: [midstory, canopy]
 sources:

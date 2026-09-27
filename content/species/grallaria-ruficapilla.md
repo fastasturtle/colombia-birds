@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [rufous, olive, white]
   tone: dull
-  marks: [streaked_breast, short_tail]
+  marks: [streaked_breast, short_tail, cap]
   bill: medium
   layer: [ground, understory]
 sources:

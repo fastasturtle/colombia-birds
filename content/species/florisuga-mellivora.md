@@ -19,9 +19,9 @@ traits:
   size: hummingbird
   colors: [blue, white, green]
   tone: bright
-  marks: []
+  marks: [cap]
   bill: medium
-  layer: [canopy, midstory, feeder]
+  layer: [canopy, midstory]
 sources:
   - "Данные проекта: data/species/florisuga-mellivora.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: White-necked jacobin (en), Florisuga mellivora (es), Колибри-якобин (ru), CC BY-SA 4.0 — data/texts"

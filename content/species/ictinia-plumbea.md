@@ -16,10 +16,10 @@ similar:
 behavior: "Подолгу сидит на сухих ветках высоко над лесом или кружит над кронами и реками. Ловит крупных насекомых лапами на лету и ест их прямо в воздухе."
 voice: "Тонкий жалобный свист из двух-трёх слогов, понижающийся к концу; вне гнездования обычно молчит."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [gray]
   tone: dull
-  marks: [plain]
+  marks: [wing_patch]
   bill: [hooked]
   layer: [air, canopy]
 sources:

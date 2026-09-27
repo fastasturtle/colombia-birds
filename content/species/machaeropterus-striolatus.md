@@ -16,10 +16,10 @@ similar:
 behavior: "Держится в подлеске и среднем ярусе влажного предгорного леса, ест мелкие плоды. Самцы токуют разреженными группами на тонких ветках."
 voice: "Токовый позыв самца похож на стрекот насекомого; при прыжках на току крылья издают механическое жужжание."
 traits:
-  size: sparrow
+  size: [hummingbird, sparrow]
   colors: [olive, red, white]
   tone: bright
-  marks: [streaked_breast, short_tail]
+  marks: [streaked_breast, short_tail, cap]
   bill: short
   layer: [understory, midstory]
 sources:

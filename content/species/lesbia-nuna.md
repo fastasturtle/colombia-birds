@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [long_tail, forked_tail]
   bill: short
-  layer: [understory, midstory]
+  layer: [understory, midstory, feeder]
 sources:
   - "Wikipedia: Green-tailed trainbearer (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/lesbia-nuna.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"

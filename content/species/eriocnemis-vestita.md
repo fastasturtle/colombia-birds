@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [throat_patch, forked_tail]
   bill: short
-  layer: [understory, midstory]
+  layer: [understory, midstory, feeder]
 sources:
   - "Wikipedia: Glowing puffleg (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/eriocnemis-vestita.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"

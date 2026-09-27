@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [orange, black, white]
   tone: bright
-  marks: [bare_face, long_tail]
+  marks: [bare_face, long_tail, cap, wing_patch]
   bill: [medium]
   layer: [canopy, midstory]
 sources:

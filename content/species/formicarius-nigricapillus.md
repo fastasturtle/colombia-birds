@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [black, brown, gray]
   tone: dull
-  marks: [short_tail, bare_face]
+  marks: [short_tail, bare_face, cap]
   bill: short
   layer: [ground]
 sources:
