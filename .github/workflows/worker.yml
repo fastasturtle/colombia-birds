@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: read
+  issues: write   # labels
 
 concurrency:
   group: worker
@@ -46,12 +47,15 @@ jobs:
             echo "Set repo variable \`PUBLIC_REPORT_URL=${url}/report\` (Settings → Secrets and variables → Actions → Variables), then re-run the Pages deploy."
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Set GITHUB_REPORTS_TOKEN secret on the Worker
+        # GitHub forbids secret names starting with GITHUB_, hence REPORTS_GITHUB_TOKEN on the GitHub side.
         env:
-          GITHUB_REPORTS_TOKEN: ${{ secrets.GITHUB_REPORTS_TOKEN }}
-        run: echo "$GITHUB_REPORTS_TOKEN" | npx wrangler secret put GITHUB_REPORTS_TOKEN -c wrangler.deploy.toml
+          REPORTS_GITHUB_TOKEN: ${{ secrets.REPORTS_GITHUB_TOKEN }}
+        run: |
+          if [ -z "$REPORTS_GITHUB_TOKEN" ]; then echo "::error::secret REPORTS_GITHUB_TOKEN is empty"; exit 1; fi
+          echo "$REPORTS_GITHUB_TOKEN" | npx wrangler secret put GITHUB_REPORTS_TOKEN -c wrangler.deploy.toml
       - name: Ensure issue labels exist
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_REPORTS_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh label create report --repo "$GITHUB_REPOSITORY" --color d73a4a --description "Сообщение об ошибке с сайта" --force
           gh label create species --repo "$GITHUB_REPOSITORY" --color 0e8a16 --description "Отчёт относится к странице вида" --force
