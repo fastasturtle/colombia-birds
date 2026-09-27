@@ -2,6 +2,7 @@
 id: nyctanassa-violacea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная с большим белым пятном на щеке и светлым, кремовым темем"
   - "Тело ровно серое, перья спины с тёмными центрами и светлыми краями"
@@ -13,7 +14,7 @@ similar:
   - id: cochlearius-cochlearius
     how: "клюв широкий, как перевёрнутая лодка, глаза огромные тёмные, шапка чёрная"
 behavior: "Держится в манграх, на илистых отмелях и каменистых берегах, часто охотится и днём. Медленно подкрадывается и хватает крабов, которые составляют основу её питания."
-voice: "Короткое хриплое «квок», чаще в полёте и в сумерках."
+voice: "Громкое резкое отрывистое «квок», чаще всего сразу после взлёта или при тревоге."
 traits:
   size: larger
   colors: [gray, black, white]
@@ -24,6 +25,7 @@ traits:
 sources:
   - "Wikipedia: Yellow-crowned night heron (en, CC BY-SA 4.0)"
   - "Wikipedia: Желтоголовая кваква (ru, CC BY-SA 4.0)"
+  - "Wikipedia: Black-crowned night heron, Boat-billed heron (en; сверка отличий)"
   - "Данные проекта: data/species/nyctanassa-violacea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -38,7 +40,7 @@ en:
     - id: cochlearius-cochlearius
       how: "broad bill like an upturned boat, huge dark eyes, black cap"
   behavior: "Keeps to mangroves, mudflats and rocky shores and often hunts by day as well. Stalks slowly and grabs crabs, which make up most of its diet."
-  voice: "A short hoarse 'kwok', mostly in flight and at dusk."
+  voice: "A loud, sharp, quick 'kwok' squawk, mostly just after take-off or in alarm."
 ---
 Yellow-crowned Night Heron (крабовая кваква) — кваква морских побережий Америки, крабоед, в Колумбии в основном в манграх обоих океанов. Своё русское имя она заслужила: почти вся её добыча — крабы. Вопреки названию, на побережье её часто видно и днём, особенно в отлив, когда она стоит на иле или камнях у кромки мангров.
 

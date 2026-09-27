@@ -2,10 +2,11 @@
 id: lafresnaya-lafresnayi
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв тонкий, заметно изогнут вниз"
   - "Брюхо самца бархатно-чёрное, горло и грудь изумрудные"
-  - "Крайние рулевые светлые с чёрными концами: у Боготы охристые, в Нариньо белые"
+  - "Крайние рулевые светлые: у Боготы охристые с чёрными концами, в Нариньо белые"
   - "Самка: низ охристый или белый в зелёных пятнах; за глазом белая точка"
 similar:
   - id: coeligena-torquata
@@ -22,13 +23,14 @@ traits:
   layer: [understory, midstory]
 sources:
   - "Wikipedia: Mountain velvetbreast (en, CC BY-SA 4.0)"
+  - "Wikipedia: Buff-tailed coronet, Collared inca (en; сверка отличий)"
   - "Данные проекта: data/species/lafresnaya-lafresnayi.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Thin, noticeably decurved bill"
     - "Male's belly velvet black, throat and breast emerald"
-    - "Outer tail feathers pale with black tips: buff near Bogotá, white in Nariño"
+    - "Outer tail feathers pale: buff with black tips near Bogotá, white in Nariño"
     - "Female: buff or white underparts spotted green; white dot behind the eye"
   similar:
     - id: coeligena-torquata

@@ -2,6 +2,7 @@
 id: chaetocercus-heliodor
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный, около 6 см, самый мелкий из эльфов; летает медленно, как шмель"
   - "Самец тёмный сине-зелёный, горжетка розово-фиолетовая, расширена по бокам шеи"
@@ -21,6 +22,7 @@ traits:
   layer: [midstory, canopy]
 sources:
   - "Wikipedia: Gorgeted woodstar (en, CC BY-SA 4.0)"
+  - "Wikipedia: White-bellied woodstar (en; сверка отличий)"
   - "Данные проекта: data/species/chaetocercus-heliodor.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:

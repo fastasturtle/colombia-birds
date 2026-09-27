@@ -2,6 +2,7 @@
 id: ictinia-plumbea
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крылья длинные, острые; у сидящей птицы заходят за конец хвоста"
   - "Оперение аспидно-серое, голова и низ светлее"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Plumbeous kite (en, CC BY-SA 4.0)"
   - "Wikipedia: Ictinia plumbea (es, CC BY-SA 4.0)"
   - "Wikipedia: Сизый коршун (ru, CC BY-SA 4.0)"
+  - "Wikipedia: Mississippi kite, Double-toothed kite (en; сверка отличий)"
   - "Данные проекта: data/species/ictinia-plumbea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:

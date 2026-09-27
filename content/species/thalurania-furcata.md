@@ -2,6 +2,7 @@
 id: thalurania-furcata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост длинный, глубоко вильчатый, сине-чёрный"
   - "Брюхо самца фиолетовое, такая же фиолетовая полоса поперёк спины у плеч"
@@ -23,6 +24,7 @@ traits:
   layer: [understory, midstory]
 sources:
   - "Wikipedia: Fork-tailed woodnymph (en, CC BY-SA 4.0)"
+  - "Wikipedia: Golden-tailed sapphire, Blue-tailed emerald (en; сверка отличий)"
   - "Данные проекта: data/species/thalurania-furcata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:

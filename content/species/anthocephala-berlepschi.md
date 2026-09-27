@@ -2,6 +2,7 @@
 id: anthocephala-berlepschi
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб самца беловато-охристый, темя за ним рыже-каштановое"
   - "Хвост бронзово-зелёный с чёрной полосой и широкими белыми концами"
@@ -20,7 +21,9 @@ traits:
   bill: short
   layer: [understory]
 sources:
-  - "Wikipedia: Tolima blossomcrown (en, CC BY-SA 4.0)"
+  - "Wikipedia: Tolima blossomcrown (en, CC BY-SA 4.0); Colibrí cabecicastaño de Tolima (es)"
+  - "Wikipedia: Speckled hummingbird (en; сверка отличий)"
+  - "eBird: Tolima Blossomcrown, по сниппету поиска (https://ebird.org/species/tolblo1)"
   - "Данные проекта: data/species/anthocephala-berlepschi.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -37,10 +40,10 @@ en:
 ---
 Tolima Blossomcrown (андский цветноголов) — эндемик Колумбии и уязвимый вид (VU): живёт только по склонам верхней долины Магдалены, в Уиле, Толиме, Киндио и Кауке, на высотах 1 200–2 500 м. Шапочка самца, белая спереди и каштановая сзади, похожа на маленький цветок, отсюда и название.
 
-На маршруте это одна из главных находок Уилы: вид «возможен» в Эль-Энканто 4 и 6 октября и в Ла-Дримофиле 5 октября. Держится низко и неприметно, поэтому проверяй каждого мелкого колибри в подлеске у троп; белые концы хвоста хорошо видны, когда он зависает у цветка.
+На маршруте вид формально «возможен» в Эль-Энканто 4 и 6 октября и в Ла-Дримофиле 5 октября, но шансы малы: ядро ареала — Толима, а из Уилы, по eBird, известны лишь единичные встречи. Держится низко и неприметно, поэтому проверяй каждого мелкого колибри в подлеске у троп; белые концы хвоста хорошо видны, когда он зависает у цветка.
 
 ## English
 
 Tolima Blossomcrown is endemic to Colombia and Vulnerable (VU): it lives only on the slopes of the upper Magdalena valley, in Huila, Tolima, Quindío and Cauca, at 1,200–2,500 m. The male's cap, white in front and chestnut behind, looks like a small flower, hence the name.
 
-On the route it is one of the main prizes of Huila: it is "maybe" at El Encanto on 4 and 6 October and La Drymophila on 5 October. It keeps low and inconspicuous, so check every small hummingbird in the understory along trails; the white tail tips show well when it hovers at a flower.
+On the route it is formally "maybe" at El Encanto on 4 and 6 October and La Drymophila on 5 October, but the odds are low: the core of the range is Tolima, and eBird knows only a couple of reports from Huila. It keeps low and inconspicuous, so check every small hummingbird in the understory along trails; the white tail tips show well when it hovers at a flower.

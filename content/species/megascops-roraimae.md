@@ -2,6 +2,7 @@
 id: megascops-roraimae
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Небольшие ушки-перья и жёлтые глаза"
   - "Окраска рыжевато-бурая или бурая, в тонком струйчатом рисунке"
@@ -11,7 +12,7 @@ similar:
   - id: megascops-choliba
     how: "обычно серее, вокруг лицевого диска чёткая тёмная рамка; песня — короткая трель с 1–2 ударными нотами в конце"
 behavior: "Ночная совка густого сырого предгорного леса. Кормится в основном насекомыми и другими членистоногими, возможно, и мелкими позвоночными."
-voice: "Долгая ровная трель, чуть поднимающаяся и резко обрывающаяся; по ней птицу обычно и находят."
+voice: "Долгая дрожащая трель: начинается тихо, крепнет и повышается, затем чуть понижается и к концу стихает; по ней птицу обычно и находят."
 traits:
   size: thrush
   colors: [brown, rufous]
@@ -22,6 +23,7 @@ traits:
 sources:
   - "Wikipedia: Foothill screech owl (en, CC BY-SA 4.0)"
   - "Wikipedia: Megascops roraimae (es, CC BY-SA 4.0)"
+  - "Wikipedia: Tropical screech owl (en; сверка отличий)"
   - "Данные проекта: data/species/megascops-roraimae.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -34,7 +36,7 @@ en:
     - id: megascops-choliba
       how: "usually grayer, with a clear dark rim to the facial disc; song a short trill ending in 1–2 accented notes"
   behavior: "A nocturnal screech-owl of dense wet foothill forest. Feeds mainly on insects and other arthropods, perhaps also on small vertebrates."
-  voice: "A long even trill, rising slightly and ending abruptly; this is usually how the bird is found."
+  voice: "A long wavering trill: it starts quietly, grows louder and higher, then drops slightly and fades at the end; this is usually how the bird is found."
 ---
 Foothill Screech-Owl (рораймская совка) — маленькая, 20–23 см, совка предгорного леса на высотах 250–1 500 м, изредка до 1 800 м. В Колумбии на восточном склоне Анд живёт форма napensis. Систематика группы запутанная, и в поле совок узнают прежде всего по песне, а не по оперению.
 

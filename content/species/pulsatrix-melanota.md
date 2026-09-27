@@ -2,6 +2,7 @@
 id: pulsatrix-melanota
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицевой диск тёмно-бурый, над глазами широкие белые «брови»"
   - "Глаза тёмные, красновато-карие, не жёлтые"
@@ -11,7 +12,7 @@ key_features:
 similar:
   - id: pulsatrix-perspicillata
     how: "глаза ярко-жёлтые, брюхо ровное охристо-белое без полос; живёт ниже, в низменностях"
-behavior: "Ночная сова внутренних частей влажного предгорного и горного леса, иногда выходит на опушки и прогалины с отдельными деревьями. Охотится с открытой присады, ест крупных насекомых и мелких позвоночных."
+behavior: "Ночная сова внутренних частей влажного предгорного и горного леса, иногда выходит на опушки и прогалины с отдельными деревьями. Охотится с открытой присады; питание изучено плохо, известно, что ест крупных насекомых."
 voice: "Серия глухих ухающих звуков, выше и быстрее, чем у Spectacled Owl."
 traits:
   size: crow
@@ -23,6 +24,7 @@ traits:
 sources:
   - "Wikipedia: Band-bellied owl (en, CC BY-SA 4.0)"
   - "Wikipedia: Pulsatrix melanota (es, CC BY-SA 4.0)"
+  - "Wikipedia: Spectacled owl (en; сверка отличий)"
   - "Данные проекта: data/species/pulsatrix-melanota.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -35,7 +37,7 @@ en:
   similar:
     - id: pulsatrix-perspicillata
       how: "bright yellow eyes, plain buffy-white belly without bars; lives lower, in the lowlands"
-  behavior: "A nocturnal owl of the interior of humid foothill and montane forest, sometimes out at edges and clearings with scattered trees. Hunts from an exposed perch, taking large insects and small vertebrates."
+  behavior: "A nocturnal owl of the interior of humid foothill and montane forest, sometimes out at edges and clearings with scattered trees. Hunts from an exposed perch; its diet is poorly known but includes large insects."
   voice: "A series of muffled hoots, higher and faster than those of Spectacled Owl."
 ---
 Band-bellied Owl (перуанская неясыть) — крупная, 44–48 см, сова восточного склона Анд, от центральной Колумбии до Боливии, на высотах около 650–2 200 м. Родственница известной Spectacled Owl, но с тёмными глазами и полосатым брюхом. Днём её почти не увидеть; ночью ищи по голосу и светом фонаря на присаде у опушки.
