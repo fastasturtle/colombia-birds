@@ -1,6 +1,6 @@
 {
  "citation": "Şekercioğlu, Ç. H., et al. 2025. BIRDBASE: A Global Database of Avian Biogeography, Conservation, Ecology and Life History Traits. Scientific Data. v2025.1, CC BY 4.0. https://doi.org/10.6084/m9.figshare.27051040",
- "count": 1966,
+ "count": 1968,
  "species": {
   "aburria aburri": {
    "birdbase_id": 728,
@@ -4272,13 +4272,13 @@
    "sci_ioc": "Atlapetes semirufus"
   },
   "atlapetes tricolor": {
-   "birdbase_id": 35680,
+   "birdbase_id": 35678,
    "diet_desc": null,
    "elevation": {
-    "max": 3050,
-    "max_extreme": null,
-    "min": 1525,
-    "min_extreme": 700
+    "max": 2300,
+    "max_extreme": 3100,
+    "min": 600,
+    "min_extreme": 300
    },
    "habitat_breadth": 3,
    "habitats": [
@@ -4287,7 +4287,7 @@
     "shrubland"
    ],
    "iucn_2024": "LC",
-   "mass_g": 33,
+   "mass_g": 34.75,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -4295,14 +4295,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Golden-crowned Brush-finch",
+   "name_en": "Choco Brushfinch",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Shrub",
    "range_restricted": 0,
-   "sci_avilist": "Atlapetes tricolor",
-   "sci_birdlife": "Atlapetes tricolor",
-   "sci_clements": "Atlapetes tricolor",
-   "sci_ioc": "Atlapetes tricolor"
+   "sci_avilist": "Atlapetes crassus",
+   "sci_birdlife": "Atlapetes crassus",
+   "sci_clements": "Atlapetes crassus",
+   "sci_ioc": "Atlapetes crassus"
   },
   "attagis gayi": {
    "birdbase_id": 6640,
@@ -17621,6 +17621,38 @@
    "sci_clements": "Dacnis cayana",
    "sci_ioc": "Dacnis cayana"
   },
+  "dacnis egregia": {
+   "birdbase_id": 36881,
+   "diet_desc": null,
+   "elevation": {
+    "max": 900,
+    "max_extreme": null,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 2,
+   "habitats": [
+    "forest",
+    "agricultural"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 9.75,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Yellow-tufted Dacnis",
+   "primary_diet": "Fruit",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": null,
+   "sci_birdlife": "Dacnis egregia",
+   "sci_clements": null,
+   "sci_ioc": "Dacnis egregia"
+  },
   "dacnis flaviventer": {
    "birdbase_id": 36876,
    "diet_desc": null,
@@ -24634,6 +24666,41 @@
    "sci_clements": "Grallaria alleni",
    "sci_ioc": "Grallaria alleni"
   },
+  "grallaria alticola": {
+   "birdbase_id": 16594,
+   "diet_desc": null,
+   "elevation": {
+    "max": 4000,
+    "max_extreme": null,
+    "min": 2800,
+    "min_extreme": null
+   },
+   "habitat_breadth": 5,
+   "habitats": [
+    "forest",
+    "shrubland",
+    "grassland",
+    "agricultural",
+    "wetland"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 47,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Boyaca Antpitta",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": 1,
+   "sci_avilist": "Grallaria alticola",
+   "sci_birdlife": "Grallaria alticola",
+   "sci_clements": "Grallaria alticola",
+   "sci_ioc": "Grallaria alticola"
+  },
   "grallaria alvarezi": {
    "birdbase_id": 16575,
    "diet_desc": null,
@@ -26314,24 +26381,23 @@
    "sci_ioc": "Harpia harpyja"
   },
   "heliangelus amethysticollis": {
-   "birdbase_id": 2863,
+   "birdbase_id": 2868,
    "diet_desc": null,
    "elevation": {
-    "max": 3200,
-    "max_extreme": 3700,
+    "max": 3600,
+    "max_extreme": null,
     "min": 1800,
     "min_extreme": null
    },
-   "habitat_breadth": 5,
+   "habitat_breadth": 4,
    "habitats": [
     "forest",
     "woodland",
     "shrubland",
-    "grassland",
     "rivers_lakes"
    ],
    "iucn_2024": "LC",
-   "mass_g": 5.433333333333334,
+   "mass_g": 5.5,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -26339,14 +26405,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Amethyst-throated Sunangel",
+   "name_en": "Longuemare's Sunangel",
    "primary_diet": "Nectar",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Heliangelus amethysticollis",
-   "sci_birdlife": "Heliangelus amethysticollis",
-   "sci_clements": "Heliangelus amethysticollis",
-   "sci_ioc": "Heliangelus amethysticollis"
+   "sci_avilist": "Heliangelus clarisse",
+   "sci_birdlife": "Heliangelus clarisse",
+   "sci_clements": "Heliangelus clarisse",
+   "sci_ioc": "Heliangelus clarisse"
   },
   "heliangelus exortis": {
    "birdbase_id": 2879,
@@ -36707,21 +36773,20 @@
    "sci_ioc": "Myiothlypis basilica"
   },
   "myiothlypis chrysogaster": {
-   "birdbase_id": 36387,
+   "birdbase_id": 36385,
    "diet_desc": null,
    "elevation": {
     "max": 1500,
-    "max_extreme": 2000,
-    "min": 500,
+    "max_extreme": 2400,
+    "min": 300,
     "min_extreme": null
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 1,
    "habitats": [
-    "forest",
-    "shrubland"
+    "forest"
    ],
    "iucn_2024": "LC",
-   "mass_g": 11.1,
+   "mass_g": 11.05,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -36729,14 +36794,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Cuzco Warbler",
+   "name_en": "Choco Warbler",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Myiothlypis chrysogaster",
-   "sci_birdlife": "Myiothlypis chrysogaster",
-   "sci_clements": "Myiothlypis chrysogaster",
-   "sci_ioc": "Myiothlypis chrysogaster"
+   "sci_avilist": "Myiothlypis chlorophrys",
+   "sci_birdlife": "Myiothlypis chlorophrys",
+   "sci_clements": "Myiothlypis chlorophrys",
+   "sci_ioc": "Myiothlypis chlorophrys"
   },
   "myiothlypis cinereicollis": {
    "birdbase_id": 36390,
@@ -38924,26 +38989,21 @@
    "sci_ioc": "Numenius americanus"
   },
   "numenius phaeopus": {
-   "birdbase_id": 6658,
+   "birdbase_id": 6664,
    "diet_desc": null,
    "elevation": {
-    "max": 3600,
+    "max": 3250,
     "max_extreme": null,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 7,
+   "habitat_breadth": 2,
    "habitats": [
-    "forest",
     "grassland",
-    "plantation",
-    "agricultural",
-    "rivers_lakes",
-    "coastal",
-    "wetland"
+    "coastal"
    ],
-   "iucn_2024": "LC",
-   "mass_g": 380.1666666666667,
+   "iucn_2024": null,
+   "mass_g": 388,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -38951,14 +39011,14 @@
     "migratory": 1,
     "sedentary": null
    },
-   "name_en": "Eurasian Whimbrel",
+   "name_en": "Hudsonian Whimbrel",
    "primary_diet": "Invertebrate",
-   "primary_habitat": "Grassland",
-   "range_restricted": 0,
-   "sci_avilist": "Numenius phaeopus",
-   "sci_birdlife": "Numenius phaeopus",
-   "sci_clements": "Numenius phaeopus",
-   "sci_ioc": "Numenius phaeopus"
+   "primary_habitat": "Coastal",
+   "range_restricted": null,
+   "sci_avilist": "Numenius hudsonicus",
+   "sci_birdlife": null,
+   "sci_clements": null,
+   "sci_ioc": "Numenius hudsonicus"
   },
   "nyctanassa violacea": {
    "birdbase_id": 7926,
@@ -49737,38 +49797,36 @@
    "sci_ioc": "Quiscalus mexicanus"
   },
   "rallus limicola": {
-   "birdbase_id": 5762,
+   "birdbase_id": 5769,
    "diet_desc": null,
    "elevation": {
-    "max": 2370,
+    "max": 3800,
     "max_extreme": null,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 4,
+   "habitat_breadth": 2,
    "habitats": [
     "grassland",
-    "agricultural",
-    "coastal",
     "wetland"
    ],
-   "iucn_2024": "LC",
-   "mass_g": 83.8,
+   "iucn_2024": null,
+   "mass_g": null,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
     "irregular": null,
-    "migratory": 1,
+    "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Virginia Rail",
+   "name_en": "Ecuadorian Rail",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Wetland",
-   "range_restricted": 0,
-   "sci_avilist": "Rallus limicola",
-   "sci_birdlife": "Rallus limicola",
-   "sci_clements": "Rallus limicola",
-   "sci_ioc": "Rallus limicola"
+   "range_restricted": null,
+   "sci_avilist": "Rallus aequatorialis",
+   "sci_birdlife": null,
+   "sci_clements": "Rallus aequatorialis",
+   "sci_ioc": "Rallus aequatorialis"
   },
   "rallus longirostris": {
    "birdbase_id": 5749,

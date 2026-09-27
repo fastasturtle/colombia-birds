@@ -1,6 +1,6 @@
 {
  "citation": "Clements, J. F., et al. 2025. The eBird/Clements checklist of Birds of the World: v2025. Cornell Lab of Ornithology. https://www.birds.cornell.edu/clementschecklist/ ; names via eBird API v2.",
- "count": 1966,
+ "count": 1973,
  "families": {
   "acanth1": {
    "names": {
@@ -4012,6 +4012,20 @@
    "order": "Passeriformes",
    "sci_name": "Atlapetes blancae",
    "taxon_order": 33483.0
+  },
+  "atlapetes crassus": {
+   "code": "tribrf1",
+   "family_code": "passer3",
+   "family_en": "New World Sparrows",
+   "family_sci": "Passerellidae",
+   "names": {
+    "en": "Choco Brushfinch",
+    "es": "Atlapetes del Chocó",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Atlapetes crassus",
+   "taxon_order": 33472.0
   },
   "atlapetes flaviceps": {
    "code": "yehbrf1",
@@ -9711,6 +9725,20 @@
    "sci_name": "Dacnis cayana",
    "taxon_order": 35152.0
   },
+  "dacnis egregia": {
+   "code": "bkfdac1",
+   "family_code": "thraup2",
+   "family_en": "Tanagers and Allies",
+   "family_sci": "Thraupidae",
+   "names": {
+    "en": "Yellow-tufted Dacnis",
+    "es": "Dacnis Egregio",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Dacnis egregia",
+   "taxon_order": 35142.0
+  },
   "dacnis flaviventer": {
    "code": "yebdac1",
    "family_code": "thraup2",
@@ -12637,6 +12665,20 @@
    "sci_name": "Grallaria alleni",
    "taxon_order": 14209.0
   },
+  "grallaria alticola": {
+   "code": "tawant2",
+   "family_code": "gralla2",
+   "family_en": "Antpittas",
+   "family_sci": "Grallariidae",
+   "names": {
+    "en": "Boyaca Antpitta",
+    "es": "Tororoí Leonado Norteño",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Grallaria alticola",
+   "taxon_order": 14285.0
+  },
   "grallaria alvarezi": {
    "code": "chaant4",
    "family_code": "gralla2",
@@ -13336,6 +13378,20 @@
    "order": "Apodiformes",
    "sci_name": "Heliangelus amethysticollis",
    "taxon_order": 4408.0
+  },
+  "heliangelus clarisse": {
+   "code": "amtsun2",
+   "family_code": "trochi1",
+   "family_en": "Hummingbirds",
+   "family_sci": "Trochilidae",
+   "names": {
+    "en": "Longuemare's Sunangel",
+    "es": "Colibrí de Clarissa",
+    "ru": ""
+   },
+   "order": "Apodiformes",
+   "sci_name": "Heliangelus clarisse",
+   "taxon_order": 4404.0
   },
   "heliangelus exortis": {
    "code": "tousun1",
@@ -17761,6 +17817,20 @@
    "sci_name": "Myiothlypis basilica",
    "taxon_order": 34290.0
   },
+  "myiothlypis chlorophrys": {
+   "code": "gobwar4",
+   "family_code": "paruli1",
+   "family_en": "New World Warblers",
+   "family_sci": "Parulidae",
+   "names": {
+    "en": "Choco Warbler",
+    "es": "Reinita del Chocó",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myiothlypis chlorophrys",
+   "taxon_order": 34324.0
+  },
   "myiothlypis chrysogaster": {
    "code": "gobwar3",
    "family_code": "paruli1",
@@ -18782,6 +18852,20 @@
    "order": "Charadriiformes",
    "sci_name": "Numenius americanus",
    "taxon_order": 6021.0
+  },
+  "numenius hudsonicus": {
+   "code": "whimbr3",
+   "family_code": "scolop2",
+   "family_en": "Sandpipers and Allies",
+   "family_sci": "Scolopacidae",
+   "names": {
+    "en": "Hudsonian Whimbrel",
+    "es": "Zarapito Trinador Americano",
+    "ru": ""
+   },
+   "order": "Charadriiformes",
+   "sci_name": "Numenius hudsonicus",
+   "taxon_order": 6011.0
   },
   "numenius phaeopus": {
    "code": "whimbr5",
@@ -23206,6 +23290,20 @@
    "order": "Passeriformes",
    "sci_name": "Quiscalus mexicanus",
    "taxon_order": 33864.0
+  },
+  "rallus aequatorialis": {
+   "code": "virrai1",
+   "family_code": "rallid1",
+   "family_en": "Rails, Gallinules, and Coots",
+   "family_sci": "Rallidae",
+   "names": {
+    "en": "Ecuadorian Rail",
+    "es": "Rascón Ecuatoriano",
+    "ru": ""
+   },
+   "order": "Gruiformes",
+   "sci_name": "Rallus aequatorialis",
+   "taxon_order": 5300.0
   },
   "rallus limicola": {
    "code": "virrai",

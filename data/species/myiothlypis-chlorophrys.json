@@ -18,45 +18,45 @@
   "status_uncertain": false
  },
  "difficulty": null,
- "ebird_code": "gobwar3",
+ "ebird_code": "gobwar4",
  "family": {
   "code": "paruli1",
   "en": "New World Warblers",
   "sci": "Parulidae"
  },
  "genus": "Myiothlypis",
- "id": "myiothlypis-chrysogaster",
+ "id": "myiothlypis-chlorophrys",
  "ids": {
-  "avibase": "661FFC6F7AD23E12",
-  "birdbase": 36387,
+  "avibase": null,
+  "birdbase": 36385,
   "gbif": 7341642,
-  "inaturalist": "145269",
-  "iucn": "103799796",
-  "wikidata": "Q27075956",
-  "xeno_canto": "Myiothlypis-chrysogaster"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_chrysogaster",
-  "ebird": "https://ebird.org/species/gobwar3",
-  "inaturalist": "https://www.inaturalist.org/taxa/145269",
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/gobwar4",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Cuzco_warbler",
-   "es": "https://es.wikipedia.org/wiki/Myiothlypis_chrysogaster",
+   "en": null,
+   "es": null,
    "ru": null
   },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+chrysogaster"
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+chlorophrys"
  },
- "name_ru_source": "wikidata",
+ "name_ru_source": null,
  "names": {
-  "en": "Cuzco Warbler",
+  "en": "Choco Warbler",
   "en_aco": "Golden-bellied Warbler",
-  "es": "Reinita Ventridorada",
-  "ru": "Золотобрюхий корольковый певун"
+  "es": "Reinita del Chocó",
+  "ru": null
  },
  "order": "Passeriformes",
  "photos": [
@@ -125,26 +125,26 @@
    "width": 1600
   }
  ],
- "sci_name": "Myiothlypis chrysogaster",
+ "sci_name": "Myiothlypis chlorophrys",
  "sci_name_aco": "Myiothlypis chrysogaster",
  "sounds": [],
- "taxon_order": 34325.0,
- "taxonomy_note": null,
+ "source": "aco2022",
+ "taxon_order": 34324.0,
+ "taxonomy_note": "ACO/SACC lists this as Myiothlypis chrysogaster; eBird/Clements uses Myiothlypis chlorophrys.",
  "texts": {},
  "traits": {
   "diet_desc": null,
   "elevation_m": {
    "max": 1500,
-   "max_extreme": 2000,
-   "min": 500,
+   "max_extreme": 2400,
+   "min": 300,
    "min_extreme": null
   },
-  "habitat_breadth": 2,
+  "habitat_breadth": 1,
   "habitats": [
-   "forest",
-   "shrubland"
+   "forest"
   ],
-  "mass_g": 11.1,
+  "mass_g": 11.05,
   "mobility": {
    "altitudinal": null,
    "dispersive": null,
@@ -156,7 +156,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiothlypis%20chrysogaster%20107354039.jpg"
- ]
+ "wikidata_images": []
 }

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "book": {
+  "lynx_page": 123
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "virrai1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Rallus",
+ "id": "rallus-aequatorialis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 5769,
+  "gbif": 2474825,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/virrai1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rallus+aequatorialis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Ecuadorian Rail",
+  "en_aco": "Virginia Rail",
+  "es": "Rascón Ecuatoriano",
+  "ru": null
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Rallus aequatorialis",
+ "sci_name_aco": "Rallus limicola",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 5300.0,
+ "taxonomy_note": "ACO/SACC lists this as Rallus limicola; eBird/Clements uses Rallus aequatorialis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

@@ -18,44 +18,44 @@
   "status_uncertain": false
  },
  "difficulty": null,
- "ebird_code": "amtsun3",
+ "ebird_code": "amtsun2",
  "family": {
   "code": "trochi1",
   "en": "Hummingbirds",
   "sci": "Trochilidae"
  },
  "genus": "Heliangelus",
- "id": "heliangelus-amethysticollis",
+ "id": "heliangelus-clarisse",
  "ids": {
-  "avibase": "01E5E927612C6BBE",
-  "birdbase": 2863,
+  "avibase": null,
+  "birdbase": 2868,
   "gbif": 2476699,
-  "inaturalist": "6192",
-  "iucn": "60859997",
-  "wikidata": "Q470381",
-  "xeno_canto": "Heliangelus-amethysticollis"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliangelus_amethysticollis",
-  "ebird": "https://ebird.org/species/amtsun3",
-  "inaturalist": "https://www.inaturalist.org/taxa/6192",
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/amtsun2",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Amethyst-throated_sunangel",
-   "es": "https://es.wikipedia.org/wiki/Heliangelus_amethysticollis",
+   "en": null,
+   "es": null,
    "ru": null
   },
-  "xeno_canto": "https://xeno-canto.org/explore?query=Heliangelus+amethysticollis"
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliangelus+clarisse"
  },
  "name_ru_source": null,
  "names": {
-  "en": "Amethyst-throated Sunangel",
+  "en": "Longuemare's Sunangel",
   "en_aco": "Amethyst-throated Sunangel",
-  "es": "Colibrí Gorjiamatista",
+  "es": "Colibrí de Clarissa",
   "ru": null
  },
  "order": "Apodiformes",
@@ -125,29 +125,29 @@
    "width": 1600
   }
  ],
- "sci_name": "Heliangelus amethysticollis",
+ "sci_name": "Heliangelus clarisse",
  "sci_name_aco": "Heliangelus amethysticollis",
  "sounds": [],
- "taxon_order": 4408.0,
- "taxonomy_note": null,
+ "source": "aco2022",
+ "taxon_order": 4404.0,
+ "taxonomy_note": "ACO/SACC lists this as Heliangelus amethysticollis; eBird/Clements uses Heliangelus clarisse.",
  "texts": {},
  "traits": {
   "diet_desc": null,
   "elevation_m": {
-   "max": 3200,
-   "max_extreme": 3700,
+   "max": 3600,
+   "max_extreme": null,
    "min": 1800,
    "min_extreme": null
   },
-  "habitat_breadth": 5,
+  "habitat_breadth": 4,
   "habitats": [
    "forest",
    "woodland",
    "shrubland",
-   "grassland",
    "rivers_lakes"
   ],
-  "mass_g": 5.433333333333334,
+  "mass_g": 5.5,
   "mobility": {
    "altitudinal": null,
    "dispersive": null,
@@ -159,7 +159,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Amethyst-throated%20Sunangel%20-%20Ecuador%20S4E1868.jpg"
- ]
+ "wikidata_images": []
 }

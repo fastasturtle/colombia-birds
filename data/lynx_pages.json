@@ -1739,6 +1739,20 @@
    "via": "exact"
   }
  },
+ "atlapetes-crassus": {
+  "conflict": false,
+  "en": {
+   "entry": "  Choco 469",
+   "page": 469,
+   "via": "ebird"
+  },
+  "page": 469,
+  "sci": {
+   "entry": "crassus, Atlapetes 469",
+   "page": 469,
+   "via": "exact"
+  }
+ },
  "atlapetes-flaviceps": {
   "conflict": false,
   "en": {
@@ -1849,19 +1863,6 @@
    "entry": "semirufus, Atlapetes 467",
    "page": 467,
    "via": "exact"
-  }
- },
- "atlapetes-tricolor": {
-  "conflict": false,
-  "en": {
-   "entry": null,
-   "page": null
-  },
-  "page": 469,
-  "sci": {
-   "entry": "crassus, Atlapetes 469",
-   "page": 469,
-   "via": "mapping"
   }
  },
  "attagis-gayi": {
@@ -7415,6 +7416,20 @@
    "via": "exact"
   }
  },
+ "dacnis-egregia": {
+  "conflict": false,
+  "en": {
+   "entry": "  Yellow-tufted 510",
+   "page": 510,
+   "via": "ebird"
+  },
+  "page": 510,
+  "sci": {
+   "entry": "egregia, Dacnis 510",
+   "page": 510,
+   "via": "exact"
+  }
+ },
  "dacnis-flaviventer": {
   "conflict": false,
   "en": {
@@ -10332,6 +10347,19 @@
    "via": "exact"
   }
  },
+ "grallaria-alticola": {
+  "conflict": false,
+  "en": {
+   "entry": null,
+   "page": null
+  },
+  "page": 295,
+  "sci": {
+   "entry": "alticola, Grallaria 295",
+   "page": 295,
+   "via": "exact"
+  }
+ },
  "grallaria-alvarezi": {
   "conflict": false,
   "en": {
@@ -11013,17 +11041,18 @@
    "via": "exact"
   }
  },
- "heliangelus-amethysticollis": {
+ "heliangelus-clarisse": {
   "conflict": false,
   "en": {
-   "entry": "  Amethyst-throated 80",
+   "entry": "  Longuemare's 80",
    "page": 80,
    "via": "ebird"
   },
   "page": 80,
   "sci": {
-   "entry": null,
-   "page": null
+   "entry": "clarisse, Heliangelus 80",
+   "page": 80,
+   "via": "exact"
   }
  },
  "heliangelus-exortis": {
@@ -15433,17 +15462,18 @@
    "via": "exact"
   }
  },
- "myiothlypis-chrysogaster": {
+ "myiothlypis-chlorophrys": {
   "conflict": false,
   "en": {
-   "entry": null,
-   "page": null
+   "entry": "  Choco 493",
+   "page": 493,
+   "via": "ebird"
   },
   "page": 493,
   "sci": {
    "entry": "chlorophrys, Myiothlypis 493",
    "page": 493,
-   "via": "mapping"
+   "via": "exact"
   }
  },
  "myiothlypis-cinereicollis": {
@@ -16449,16 +16479,16 @@
    "via": "exact"
   }
  },
- "numenius-phaeopus": {
+ "numenius-hudsonicus": {
   "conflict": false,
   "en": {
-   "entry": "**Whimbrel** 155",
+   "entry": "  Hudsonian 155",
    "page": 155,
-   "via": "aco"
+   "via": "ebird"
   },
   "page": 155,
   "sci": {
-   "entry": "phaeopus, Numenius 155",
+   "entry": "hudsonicus, Numenius (phaeopus) 155",
    "page": 155,
    "via": "exact"
   }
@@ -20850,16 +20880,16 @@
    "via": "exact"
   }
  },
- "rallus-limicola": {
+ "rallus-aequatorialis": {
   "conflict": false,
   "en": {
-   "entry": "  Virginia 123",
+   "entry": "  Ecuadorian 123",
    "page": 123,
    "via": "ebird"
   },
   "page": 123,
   "sci": {
-   "entry": "limicola, Rallus 123",
+   "entry": "aequatorialis, Rallus (limicola) 123",
    "page": 123,
    "via": "exact"
   }
