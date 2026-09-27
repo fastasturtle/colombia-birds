@@ -2,6 +2,7 @@
 id: aramides-cajaneus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и вся шея серые, на затылке бурое пятно"
   - "Грудь и бока рыжие; брюхо, поясница и хвост чёрные"

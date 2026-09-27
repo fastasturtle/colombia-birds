@@ -2,6 +2,7 @@
 id: herpetotheres-cachinnans
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и низ кремово-палевые, через глаза к затылку идёт широкая чёрная маска"
   - "Маска замыкается на затылке узким тёмным ошейником"

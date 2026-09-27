@@ -2,6 +2,7 @@
 id: megascops-choliba
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Серо-бурый лицевой диск в чёткой черноватой рамке, глаза жёлтые"
   - "Ушки-перья короткие, но заметные, когда птица насторожена"
@@ -9,9 +10,9 @@ key_features:
   - "Обычно серо-бурая, реже бурая или рыжая морфа"
 similar:
   - id: megascops-roraimae
-    how: "окраска чаще рыжевато-бурая, рамка лицевого диска слабее; песня — длинная ровная трель; держится в предгорном лесу"
+    how: "окраска чаще рыжевато-бурая, рамка лицевого диска слабее; песня — дрожащая трель, нарастающая по громкости и высоте; держится в предгорном лесу"
   - id: megascops-ingens
-    how: "крупнее, бурая или рыжеватая, глаза тёмно-карие, ушки почти незаметны; живёт в облачном лесу"
+    how: "крупнее, бурая или рыжеватая, глаза карие, лицевой диск без чёткой рамки, ушки маленькие; живёт в облачном лесу"
 behavior: "Ночная совка опушек, вторичного леса, садов и кофейных плантаций; днём сидит в густой листве или у ствола. Охотится с невысокой присады на крупных насекомых и мелких позвоночных."
 voice: "Короткая мурлыкающая трель, заканчивающаяся одной-двумя отдельными ударными нотами: «ррррр-кок-кок»."
 traits:
@@ -34,9 +35,9 @@ en:
     - "Usually gray-brown, less often a brown or rufous morph"
   similar:
     - id: megascops-roraimae
-      how: "often more rufous-brown, weaker rim to the facial disc; song a long even trill; lives in foothill forest"
+      how: "often more rufous-brown, weaker rim to the facial disc; song a wavering trill that swells in volume and pitch; lives in foothill forest"
     - id: megascops-ingens
-      how: "larger, brown or rufescent, dark brown eyes, ear tufts barely visible; lives in cloud forest"
+      how: "larger, brown or rufescent, brown eyes, facial disc without a distinct rim, small ear tufts; lives in cloud forest"
   behavior: "A nocturnal screech-owl of edges, second growth, gardens and coffee plantations; by day it roosts in dense foliage or against a trunk. Hunts large insects and small vertebrates from a low perch."
   voice: "A short purring trill ending in one or two separate accented notes: 'rrrrr-kok-kok'."
 ---

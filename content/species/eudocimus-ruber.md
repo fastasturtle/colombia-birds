@@ -2,6 +2,7 @@
 id: eudocimus-ruber
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь ярко-алый: ни одна другая околоводная птица так не окрашена"
   - "Концы крайних маховых чёрные, видны в полёте"

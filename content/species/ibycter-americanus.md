@@ -2,6 +2,7 @@
 id: ibycter-americanus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голая кожа на лице и горле ярко-красная"
   - "Оперение чёрное с белым брюхом и подхвостьем"
@@ -9,8 +10,8 @@ key_features:
   - "Держится шумными группами в кронах и среднем ярусе леса"
 similar:
   - id: daptrius-ater
-    how: "мельче, целиком чёрная, брюхо тоже чёрное, голая кожа оранжево-жёлтая; держится у рек"
-behavior: "Группы из нескольких птиц кочуют по лесу, вскрывая гнёзда ос и пчёл ради личинок; едят и плоды. Пока одни кормятся, другие стерегут с верхних ветвей."
+    how: "мельче, чёрная и снизу, с белой полосой у основания хвоста, клюв чёрный, голая кожа жёлто-оранжевая; держится у рек"
+behavior: "Группы из нескольких птиц кочуют по лесу, вскрывая гнёзда ос и пчёл ради личинок; едят и плоды."
 voice: "Очень громкий хриплый хор «ка-ка-ка-ка-кааоу», который разносится далеко по лесу; группу обычно сначала слышно."
 traits:
   size: crow
@@ -31,8 +32,8 @@ en:
     - "Keeps in noisy groups in the canopy and midstory of forest"
   similar:
     - id: daptrius-ater
-      how: "smaller, all black including the belly, bare skin orange-yellow; keeps along rivers"
-  behavior: "Groups of several birds roam the forest, tearing open wasp and bee nests for the larvae; they also eat fruit. While some feed, others keep watch from the upper branches."
+      how: "smaller, black below too, with a white band at the tail base, black bill, yellow-orange bare skin; keeps along rivers"
+  behavior: "Groups of several birds roam the forest, tearing open wasp and bee nests for the larvae; they also eat fruit."
   voice: "A very loud raucous chorus, 'ka-ka-ka-ka-kaow', that carries far through the forest; a group is usually heard first."
 ---
 Red-throated Caracara (красногорлая каракара) — необычная каракара, которая питается в основном личинками ос и пчёл. Живёт во влажном лесу низменностей и предгорий, в Колумбии до 1 500 м, и держится семейными группами, которые кочуют по большому участку. Её громкий хриплый хор — один из самых сильных звуков амазонского леса, и по нему группу легче всего найти.

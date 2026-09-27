@@ -2,6 +2,7 @@
 id: strix-albitarsis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицевой диск рыжевато-коричневый, над глазами светлые брови, ушек нет"
   - "Верх тёмно-бурый в частых рыжих поперечных полосах"
@@ -9,11 +10,11 @@ key_features:
   - "Средняя сова с круглой головой, крупнее совок"
 similar:
   - id: megascops-albogularis
-    how: "вдвое мельче, тёмно-бурая, с белым горлом и невысокими ушками"
+    how: "заметно мельче, тёмно-бурая, с белым горлом и невысокими ушками"
   - id: strix-virgata
     how: "лицо бурое с белёсыми бровями, низ светлый в тёмных продольных пестринах, а не в поперечных полосах; живёт ниже"
 behavior: "Ночная сова влажного горного леса и его опушек; днём сидит в густой кроне, ночью охотится в среднем ярусе и на полянах."
-voice: "Ритмичная серия глухих низких «ху», часто с ударной последней нотой; пары перекликаются."
+voice: "Быстрая серия из 5–10 коротких низких гортанных «ху», после паузы — нота повыше; также отдельные хриплые уханья."
 traits:
   size: pigeon
   colors: [brown, rufous, white]
@@ -24,6 +25,7 @@ traits:
 sources:
   - "Данные проекта: data/species/strix-albitarsis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json; выдержек Wikipedia в data/texts нет"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Rufous-banded owl (en), CC BY-SA 4.0 — https://en.wikipedia.org/wiki/Rufous-banded_owl (окраска, голос, высоты)"
 en:
   key_features:
     - "Rufous-brown facial disc with pale eyebrows, no ear tufts"
@@ -32,11 +34,11 @@ en:
     - "Mid-sized round-headed owl, larger than screech-owls"
   similar:
     - id: megascops-albogularis
-      how: "half the size, dark brown, with a white throat and low ear tufts"
+      how: "clearly smaller, dark brown, with a white throat and low ear tufts"
     - id: strix-virgata
       how: "brown face with whitish eyebrows, pale underparts with dark vertical streaks rather than bars; lives lower down"
   behavior: "A nocturnal owl of humid montane forest and its edges; by day it roosts in a dense canopy, at night it hunts in the midstory and in clearings."
-  voice: "A rhythmic series of deep, low 'hoo' notes, often with an accented last note; pairs answer each other."
+  voice: "A fast series of 5–10 short, deep, guttural 'hoo' notes, then after a pause a higher note; also single gruff hoots."
 ---
 Rufous-banded Owl (андская неясыть) — сова горного леса Анд, в Колумбии на высотах 1 700–3 700 м, до верхней границы леса. Днём её почти не видно, и почти все встречи — ночью, по голосу. Рыжевато-бурая окраска в частых поперечных полосах и светлые брови на рыжем лице отличают её от других сов этих высот.
 
