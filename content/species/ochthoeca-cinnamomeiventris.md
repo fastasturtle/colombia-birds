@@ -2,9 +2,10 @@
 id: ochthoeca-cinnamomeiventris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Голова, спина и грудь тёмно-аспидные, почти чёрные в тени"
-  - "Нижняя часть груди и брюхо каштановые"
+  - "Голова, горло и спина тёмно-аспидные, почти чёрные в тени"
+  - "Грудь и брюхо тёмно-каштановые, низ брюха и подхвостье светло-охристые"
   - "Короткая белая черта над глазом, заметная на тёмной голове"
   - "Сидит низко на ветках и камнях у горных ручьёв внутри леса"
 similar:
@@ -13,7 +14,7 @@ similar:
   - id: pyrrhomyias-cinnamomeus
     how: "спина оливково-бурая, весь низ корично-рыжий, на крыле рыжие полосы; сидит на опушках, не у воды"
 behavior: "Держится поодиночке или парами у быстрых ручьёв и в сырых лощинах облачного леса, на низких ветках над водой и на камнях. Делает короткие вылеты за насекомыми и возвращается на присаду."
-voice: "Высокий тонкий протяжный свист, хорошо слышный сквозь шум воды."
+voice: "Высокий резкий и неожиданно громкий свист «дзуи-иию», без устали повторяемый; слышен сквозь шум воды."
 traits:
   size: sparrow
   colors: [black, rufous]
@@ -24,11 +25,13 @@ traits:
 sources:
   - "Данные проекта: data/species/ochthoeca-cinnamomeiventris.json (ACO 2022 — как Slaty-backed Chat-Tyrant, BIRDBASE 2025), data/site_species.json (GBIF); текста Wikipedia в data/texts нет"
   - "Wikipedia: Black phoebe, Cinnamon flycatcher (en, CC BY-SA 4.0) — data/texts"
+  - "Wikipedia: Slaty-backed chat-tyrant (en, CC BY-SA 4.0), https://en.wikipedia.org/wiki/Slaty-backed_chat-tyrant — окраска, высоты в Колумбии, голос (факт-чек 2026-09-27)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
-    - "Head, back and breast dark slate, almost black in shade"
-    - "Lower breast and belly chestnut"
+    - "Head, throat and back dark slate, almost black in shade"
+    - "Breast and belly dark chestnut, lower belly and undertail pale buff"
     - "Short white line above the eye, obvious on the dark head"
     - "Perches low on branches and rocks by mountain streams inside forest"
   similar:
@@ -37,7 +40,7 @@ en:
     - id: pyrrhomyias-cinnamomeus
       how: "olive-brown back, underparts wholly cinnamon-rufous, rufous wing bars; perches at edges, not by water"
   behavior: "Lives alone or in pairs along fast streams and in damp cloud-forest ravines, on low branches over water and on rocks. Makes short sallies after insects and returns to its perch."
-  voice: "A high, thin, drawn-out whistle, easily heard over the noise of water."
+  voice: "A high, sharp and surprisingly loud 'dzwee-yeeuw', tirelessly repeated; it carries over the noise of water."
 ---
 Chestnut-bellied Chat-Tyrant (в ACO — Slaty-backed Chat-Tyrant) — тёмная тираннита облачного леса, живущая у ручьёв на высотах примерно 1 600–3 000 м. В тени лощины она выглядит почти чёрной, и тогда первыми видны белая черта над глазом и каштановое брюхо. Держится у воды, поэтому по повадке напоминает Black Phoebe, но меньше и сидит внутри леса. Английское название вида недавно сменилось, в старых определителях он под именем Slaty-backed.
 

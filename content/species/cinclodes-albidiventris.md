@@ -2,6 +2,7 @@
 id: cinclodes-albidiventris
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Бровь широкая, беловато-охристая, над тёмной щекой"
   - "Верх ровный тёмно-бурый, горло беловатое, грудь серовато-бурая, брюхо светлое"
@@ -11,7 +12,7 @@ similar:
   - id: cinclodes-excelsior
     how: "крупнее, клюв заметно толще и длиннее, слегка изогнут; у Боготы не встречается"
 behavior: "Бегает по земле у ручьёв, болотцев, камней и дорог парамо, часто подёргивает хвостом и взмахивает крыльями. Кормится беспозвоночными, переворачивая мох и мелкие камни."
-voice: "Резкое «твит» и сухие трели; при токовании поёт трель с поднятыми крыльями."
+voice: "Песня — быстрая дребезжащая трель, повышающаяся к концу; при токовании поёт, подняв и трепеща крыльями. Позывки — короткие резкие ноты."
 traits:
   size: thrush
   colors: [brown, white, rufous]
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Cinclodes albidiventris (es, CC BY-SA 4.0) — длина, окраска, местообитания"
   - "Данные проекта: data/species/cinclodes-albidiventris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Broad whitish-buff eyebrow above a dark cheek"
@@ -34,7 +36,7 @@ en:
     - id: cinclodes-excelsior
       how: "larger, with a clearly thicker, longer, slightly curved bill; absent near Bogotá"
   behavior: "Runs on the ground along páramo streams, bogs, rocks and roads, often flicking its tail and flashing its wings. Feeds on invertebrates, turning over moss and small stones."
-  voice: "A sharp 'tweet' and dry trills; in display it trills with raised wings."
+  voice: "The song is a fast rattling trill that rises towards the end; in display it sings with wings raised and fluttering. Calls are short sharp notes."
 ---
 Chestnut-winged Cinclodes (каштановокрылая трясохвостка) — птица парамо и высокогорных лугов на 3 200–4 300 м, изредка выше. Раньше её считали подвидом Bar-winged Cinclodes. Это бурая птица размером с дрозда, которая ведёт себя почти как трясогузка: бегает по мокрой земле и камням, и главный её признак виден, когда она взлетает, — рыжая полоса через всё крыло.
 

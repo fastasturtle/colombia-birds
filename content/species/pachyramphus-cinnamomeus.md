@@ -2,6 +2,7 @@
 id: pachyramphus-cinnamomeus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх целиком рыжий или каштаново-рыжий, шапочка темнее"
   - "Низ светло-коричный, горло и брюхо бледнее груди"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Rufous mourner, Rufous piha (en, CC BY-SA 4.0) — data/texts"
   - "content/families/tyrannidae.md (отличие бекардов)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Upperparts wholly rufous or chestnut-rufous, crown darker"
@@ -41,12 +43,12 @@ en:
   behavior: "Lives in pairs at edges, along rivers, in secondary forest and in plantations with trees. Sits fairly still in the middle of the canopy, looks around and snatches insects and berries from leaves in flight."
   voice: "A fast melodious series of whistles falling in pitch towards the end: 'tee, deer-deer-deer-deer'."
 ---
-Cinnamon Becard (коричневый бекард) — рыжий бекард низин и предгорий, в Колумбии в основном до 800 м, изредка до 1 500 м; самец и самка у него окрашены одинаково. В Колумбии он живёт в основном к западу от Анд и в долине Магдалены, и на нашем маршруте это птица тихоокеанского склона. Рыжих птиц такого размера там несколько, и выручают большая голова, толстый короткий клюв и светлая черта над уздечкой.
+Cinnamon Becard (коричневый бекард) — рыжий бекард низин и предгорий, в Колумбии в основном до 800 м, изредка до 1 500 м; самец и самка у него окрашены одинаково. В Колумбии он живёт в основном к западу от Анд и в долине Магдалены, местами и на восточном склоне Восточных Анд до Меты, а на нашем маршруте это птица тихоокеанского склона. Рыжих птиц такого размера там несколько, и выручают большая голова, толстый короткий клюв и светлая черта над уздечкой.
 
 На маршруте он «точно» на Км 42 21 октября, «возможно» на Финке Марагрикола 22 октября и в Бангсиас-лодже 20 октября. Слушай нисходящую свистовую песню с опушек.
 
 ## English
 
-Cinnamon Becard is a rufous becard of lowlands and foothills, in Colombia mainly below 800 m, occasionally to 1,500 m; male and female look alike. In Colombia it lives mainly west of the Andes and in the Magdalena valley, and on our route it is a bird of the Pacific slope. There are several rufous birds of this size there, and the big head, short thick bill and pale line above the lores help.
+Cinnamon Becard is a rufous becard of lowlands and foothills, in Colombia mainly below 800 m, occasionally to 1,500 m; male and female look alike. In Colombia it lives mainly west of the Andes and in the Magdalena valley, locally also on the east slope of the Eastern Andes south to Meta, and on our route it is a bird of the Pacific slope. There are several rufous birds of this size there, and the big head, short thick bill and pale line above the lores help.
 
 On the route it is "sure" at Km 42 on 21 October, and "maybe" at Finca Maragrícola on 22 October and Bangsias Lodge on 20 October. Listen for the falling whistled song from edges.

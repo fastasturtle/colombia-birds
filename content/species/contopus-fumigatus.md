@@ -2,6 +2,7 @@
 id: contopus-fumigatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся однотонно дымчато-серая, без полос и пятен"
   - "Заострённый хохолок на затылке, голова кажется треугольной"
@@ -9,10 +10,10 @@ key_features:
   - "Сидит вертикально на сухой ветке на краю кроны, возвращается на неё после вылетов"
 similar:
   - id: contopus-cooperi
-    how: "бока тёмные, а середина груди и брюха светлая — «расстёгнутый жилет»; хохолок не такой острый"
+    how: "крупнее и короткохвостее; бока тёмные, а середина груди и брюха светлая — «расстёгнутый жилет»; хохолок не такой острый"
   - id: contopus-virens
-    how: "мельче, с двумя светлыми полосами на крыле, низ светлее, без хохолка"
-behavior: "Сидит на открытых сухих ветках на опушках, у просек, над оврагами, обычно в среднем ярусе и выше. Вылетает за летающими насекомыми и возвращается на ту же присаду, часто подрагивая хвостом."
+    how: "мельче, с двумя светлыми полосами на крыле, низ светлее, хохолок едва намечен"
+behavior: "Сидит на открытых сухих ветках на опушках, у просек, над оврагами, обычно в среднем ярусе и выше. Вылетает за летающими насекомыми и возвращается на ту же присаду."
 voice: "Громкое «пип-пип-пип»; также чистый свист «пиию» и на рассвете «уэр-ди-УИТ… уию»."
 traits:
   size: thrush
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/contopus-fumigatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Olive-sided flycatcher, Eastern wood pewee (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Uniform smoky gray all over, without bars or spots"
@@ -34,10 +36,10 @@ en:
     - "Perches upright on a dead branch at the edge of the canopy and returns to it after sallies"
   similar:
     - id: contopus-cooperi
-      how: "dark flanks with a pale centre to breast and belly — an 'unbuttoned vest'; crest less pointed"
+      how: "larger and shorter-tailed; dark flanks with a pale centre to breast and belly — an 'unbuttoned vest'; crest less pointed"
     - id: contopus-virens
-      how: "smaller, with two pale wing bars, paler below, no crest"
-  behavior: "Perches on exposed dead branches at edges, clearings and above ravines, usually in the midstory and higher. Sallies after flying insects and returns to the same perch, often quivering its tail."
+      how: "smaller, with two pale wing bars, paler below, crest barely indicated"
+  behavior: "Perches on exposed dead branches at edges, clearings and above ravines, usually in the midstory and higher. Sallies after flying insects and returns to the same perch."
   voice: "A loud 'pip-pip-pip'; also a clear whistled 'peeew' and at dawn 'where-di-WIT… whew'."
 ---
 Smoke-colored Pewee (дымчатый пиви) — оседлый серый пиви предгорий и облачного леса, на высотах 500–2 800 м. Узнаётся просто: однотонно-серая птица с острым хохолком, которая сидит на самой заметной сухой ветке у опушки и раз за разом возвращается на неё. Настойчивое «пип-пип-пип» часто выдаёт её раньше, чем замечаешь силуэт.

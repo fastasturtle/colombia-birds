@@ -2,6 +2,7 @@
 id: contopus-virens
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх серовато-оливковый, на груди оливково-серый «жилет», брюхо беловатое"
   - "Две бледные полосы на крыле, крылья длинные, заострённые"
@@ -28,6 +29,7 @@ sources:
   - "Данные проекта: data/species/contopus-virens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Western wood pewee, Tropical pewee, Alder flycatcher (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Grayish-olive upperparts, olive-gray 'vest' on the breast, whitish belly"
@@ -44,12 +46,12 @@ en:
   behavior: "Perches on dead branches in the middle of the canopy and at edges, sallying after flying insects and returning to the same perch. On passage it turns up in parks, gardens and tree lines."
   voice: "Mostly silent in winter; the song is a mournful drawn-out 'pee-a-wee' and a rising 'pee-wee'."
 ---
-Eastern Wood-Pewee (восточный пиви) — перелётный тиранн из Северной Америки, на зимовке и пролёте в Колумбии обычен в лесах и на опушках, по данным ACO в основном до 1 500 м, но в сентябре–октябре его много и в парках Боготы. Это серая птица без ярких примет, и главная проблема — отличить её от почти идентичного Western Wood-Pewee: если птица не поёт, честнее записать «пиви sp.».
+Eastern Wood-Pewee (восточный пиви) — перелётный тиранн из Северной Америки, на зимовке и пролёте в Колумбии обычен в лесах и на опушках, по данным ACO в основном до 1 500 м, но на осеннем пролёте его регулярно отмечают и в парках Боготы (часть таких записей может относиться к Western Wood-Pewee). Это серая птица без ярких примет, и главная проблема — отличить её от почти идентичного Western Wood-Pewee: если птица не поёт, честнее записать «пиви sp.».
 
 На маршруте тура он «возможно» в Чикаке 3 октября, на Финке Дискосура 7 октября и в Эль-Энканто. «Точно» он в Ботаническом саду Боготы и Ла-Флориде, но это места вне программы тура, вариант для самостоятельного выезда в свободный день.
 
 ## English
 
-Eastern Wood-Pewee is a migrant flycatcher from North America; in Colombia it is common on passage and in winter in forest and at edges, mainly below 1,500 m according to ACO, yet in September–October it is plentiful in Bogotá's parks too. It is a gray bird with no bright marks, and the main problem is separating it from the almost identical Western Wood-Pewee: if the bird does not sing, "pewee sp." is the honest entry.
+Eastern Wood-Pewee is a migrant flycatcher from North America; in Colombia it is common on passage and in winter in forest and at edges, mainly below 1,500 m according to ACO, yet on autumn passage it is regularly recorded in Bogotá's parks too (some of these records may be Western Wood-Pewees). It is a gray bird with no bright marks, and the main problem is separating it from the almost identical Western Wood-Pewee: if the bird does not sing, "pewee sp." is the honest entry.
 
 On the tour route it is "maybe" at Chicaque on 3 October, at Finca Discosura on 7 October and at El Encanto. It is "sure" at the Bogotá Botanical Garden and La Florida, but these sites are outside the tour programme, an option for an independent outing on a free day.

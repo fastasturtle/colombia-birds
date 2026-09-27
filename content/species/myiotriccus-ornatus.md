@@ -2,6 +2,7 @@
 id: myiotriccus-ornatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная с белым пятном-полумесяцем перед глазом"
   - "Поясница и брюхо ярко-жёлтые, грудь оливковая, горло серое"
@@ -9,7 +10,7 @@ key_features:
   - "Маленький, коренастый, сидит вертикально на открытых веточках"
 similar:
   - id: myiobius-villosus
-    how: "крупнее, грудь и бока охристо-бурые, горло беловатое, у глаза нет белого пятна, хвост целиком чёрный"
+    how: "крупнее, поясница тоже жёлтая, но грудь и бока охристо-бурые, горло беловатое, у глаза нет белого пятна, хвост целиком чёрный"
   - id: pyrrhomyias-cinnamomeus
     how: "низ целиком корично-рыжий, на крыле рыжие полосы, голова без белого пятна"
 behavior: "Держится в тёмных сырых лощинах и у лесных ручьёв, на опушках и вдоль троп. Сидит на открытой веточке в подлеске, делает короткие вылеты за насекомыми и быстро возвращается."
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/myiotriccus-ornatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Tawny-breasted flycatcher, Cinnamon flycatcher (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Black head with a white crescent-shaped spot in front of the eye"
@@ -34,7 +36,7 @@ en:
     - "Small and compact, perches upright on exposed twigs"
   similar:
     - id: myiobius-villosus
-      how: "larger, breast and flanks tawny-brown, throat whitish, no white spot by the eye, tail wholly black"
+      how: "larger, rump also yellow, but breast and flanks tawny-brown, throat whitish, no white spot by the eye, tail wholly black"
     - id: pyrrhomyias-cinnamomeus
       how: "underparts wholly cinnamon-rufous, rufous wing bars, no white spot on the head"
   behavior: "Keeps to dark damp ravines and forest streams, edges and trails. Perches on an exposed twig in the understory, makes short sallies after insects and quickly returns."

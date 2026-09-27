@@ -2,6 +2,7 @@
 id: zimmerius-albigularis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Жёлтая бровь и тёмная полоска через глаз, кроющие уха золотисто-бурые"
   - "Крыло тёмное с резкими жёлтыми каймами кроющих и маховых"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/zimmerius-albigularis.json (ACO 2022, BIRDBASE 2025), data/sites.json (целевые виды Бангсиас-лоджа); в data/site_species.json записей нет"
   - "Wikipedia: Golden-faced tyrannulet, Yellow-crowned tyrannulet (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Yellow eyebrow and a dark line through the eye, golden-brown ear coverts"

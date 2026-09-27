@@ -2,6 +2,7 @@
 id: synallaxis-azarae
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Затылок и задняя часть шапочки рыжие, лоб серовато-бурый"
   - "Хвост длинный, ступенчатый, рыже-каштановый, крылья тоже рыжие"
@@ -28,6 +29,7 @@ sources:
   - "Данные проекта: data/species/synallaxis-azarae.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/synallaxis-subpudica.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Rufous nape and rear crown, grayish-brown forehead"
@@ -44,12 +46,12 @@ en:
   behavior: "Keeps in dense shrubs, forest edges, hedgerows, overgrown pastures and roadsides, usually low down. Shows only briefly and more often sings from cover."
   voice: "Endlessly repeats a sharp two-note 'ka-kweeek'; also nasal 'prrt' notes and a low 'chur'."
 ---
-Azara's Spinetail (кордильерская иглохвостка) — самая обычная иглохвостка Анд, от 600 до 3 500 м: живёт на опушках, в кустах вдоль дорог и на заросших пастбищах. В Колумбии два подвида: elegantior в Восточных Андах и media в Центральных, Западных и на юге страны. Птицу чаще слышно, чем видно, но её двусложная песня звучит почти у каждой заросшей обочины.
+Azara's Spinetail (кордильерская иглохвостка) — самая обычная иглохвостка Анд; в Колумбии живёт на 1 200–3 500 м, чаще выше 1 500 м: живёт на опушках, в кустах вдоль дорог и на заросших пастбищах. В Колумбии два подвида: elegantior в Восточных Андах и media в Центральных, Западных и на юге страны. Птицу чаще слышно, чем видно, но её двусложная песня звучит почти у каждой заросшей обочины.
 
 На маршруте она «точно» в долине Сибундой 15–16 октября и «возможно» на Трамплине птиц 15 октября, у Лагуны Ла-Коча 16 октября, в Ла-Планаде 16–18 октября, в Эль-Энканто и Ла-Дримофиле 4–6 октября и в Чикаке 3 и 23–24 октября.
 
 ## English
 
-Azara's Spinetail is the commonest spinetail of the Andes, from 600 to 3,500 m, living at forest edges, in roadside shrubs and in overgrown pastures. Colombia has two subspecies: elegantior in the Eastern Andes and media in the Central and Western Andes and the south. It is heard more than seen, but its two-note song rings from almost every overgrown roadside.
+Azara's Spinetail is the commonest spinetail of the Andes; in Colombia it lives at 1,200–3,500 m, mostly above 1,500 m, at forest edges, in roadside shrubs and in overgrown pastures. Colombia has two subspecies: elegantior in the Eastern Andes and media in the Central and Western Andes and the south. It is heard more than seen, but its two-note song rings from almost every overgrown roadside.
 
 On the route it is "sure" in the Sibundoy valley on 15–16 October and "maybe" at Trampolín de Aves on 15 October, Laguna de La Cocha on 16 October, La Planada on 16–18 October, El Encanto and La Drymophila on 4–6 October and Chicaque on 3 and 23–24 October.

@@ -2,6 +2,7 @@
 id: pitangus-sulphuratus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная с широкой белой бровью, смыкающейся на затылке"
   - "Низ ярко-жёлтый, горло белое"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/pitangus-sulphuratus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Boat-billed flycatcher, Lesser kiskadee (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Black head with a broad white eyebrow meeting on the nape"
@@ -42,10 +44,10 @@ en:
 ---
 Great Kiskadee (большой бентеви, кискади) — один из самых заметных тиранновых Латинской Америки, обычный от низин до 1 800 м в любых полуоткрытых местах рядом с людьми и водой. Среди похожих желтобрюхих тираннов с чёрно-белой головой его выделяют бурая спина, рыжие крылья и, главное, крик «кис-ка-ди», который обычно слышишь раньше, чем видишь птицу.
 
-На маршруте он «точно» в Орито 11 октября, в Пуэрто-Асисе 11–13 октября, на Плайя-Рике 12 октября, в Эль-Эскондите 13–14 октября и на Финке Дискосура 7 октября. По данным наблюдений он отмечен и у Чикаке, в самой нижней части округи.
+На маршруте он «точно» в Орито 11 октября, в Пуэрто-Асисе 11–13 октября, на Плайя-Рике 12 октября, в Эль-Эскондите 13–14 октября и на Финке Дискосура 7 октября. По данным наблюдений он «точно» есть и в семикилометровой округе Чикаке (3 и 23–24 октября), хотя сам парк лежит выше обычного для вида потолка; вероятно, это записи из более низких мест округи.
 
 ## English
 
 Great Kiskadee is one of the most conspicuous flycatchers of Latin America, common from the lowlands up to 1,800 m in any semi-open place near people and water. Among the similar yellow-bellied flycatchers with a black-and-white head it stands out by its brown back, rufous wings and, above all, its "kis-ka-dee" call, which you usually hear before you see the bird.
 
-On the route it is "sure" at Orito on 11 October, Puerto Asís on 11–13 October, Playa Rica on 12 October, El Escondite on 13–14 October and Finca Discosura on 7 October. Records also place it around Chicaque, in the lowest part of the area.
+On the route it is "sure" at Orito on 11 October, Puerto Asís on 11–13 October, Playa Rica on 12 October, El Escondite on 13–14 October and Finca Discosura on 7 October. Records also rate it "sure" within 7 km of Chicaque (3 and 23–24 October), although the park itself lies above the species' usual ceiling; the records probably come from lower ground around it.

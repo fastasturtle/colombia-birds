@@ -2,6 +2,7 @@
 id: ramphotrigon-megacephalum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова крупная, тёмно-оливковая, с желтоватой чертой над уздечкой и светлым кольцом у глаза"
   - "Клюв широкий, плоский, чёрный, с розоватым основанием подклювья"
@@ -9,7 +10,7 @@ key_features:
   - "Грудь серовато-оливковая с неясными жёлтыми пестринками, брюхо жёлтое"
 similar:
   - id: tolmomyias-sulphurescens
-    how: "голова серее, полосы на крыле желтовато-оливковые, а не охристые; держится в кронах, не в бамбуке"
+    how: "голова серее, глаз часто светлый, за ухом тёмное пятно, полосы на крыле желтовато-оливковые, а не охристые; не привязан к бамбуку"
 behavior: "Почти всегда держится в зарослях местного бамбука и рядом с ними, в подлеске и среднем ярусе. Сидит тихо и подолгу, ловит насекомых короткими вылетами к листьям."
 voice: "Тихий печальный двусложный свист «уии-уу», будто «бам-бу»; на рассвете — непрерывная серия свистов."
 traits:
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/ramphotrigon-megacephalum.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (целевые виды Эль-Энканто)"
   - "Wikipedia: Yellow-olive flatbill (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Large dark olive head with a yellowish line above the lores and a pale eye ring"
@@ -32,7 +34,7 @@ en:
     - "Grayish-olive breast with faint yellow streaks, yellow belly"
   similar:
     - id: tolmomyias-sulphurescens
-      how: "grayer head, yellowish-olive rather than ochre wing bars; keeps to the canopy, not to bamboo"
+      how: "grayer head, eye often pale, dark patch behind the ear, yellowish-olive rather than ochre wing bars; not tied to bamboo"
   behavior: "Almost always in and near stands of native bamboo, in the understory and midstory. Sits quietly for long spells and catches insects with short sallies to leaves."
   voice: "A soft mournful two-note whistle 'whee-whoo', like 'bam-boo'; at dawn a continuous series of whistles."
 ---

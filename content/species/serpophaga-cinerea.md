@@ -2,6 +2,7 @@
 id: serpophaga-cinerea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова почти чёрная, в шапочке скрытое белое пятно"
   - "Спина светло-серая, крылья и хвост черноватые"
@@ -11,7 +12,7 @@ similar:
   - id: sayornis-nigricans
     how: "заметно крупнее, чёрный целиком, кроме белого брюха; спина не серая"
 behavior: "Пары держатся на камнях и корягах среди бурных горных рек и ручьёв, никогда не удаляясь от воды. Короткими вылетами ловят насекомых над брызгами и снова садятся, подёргивая хвостом."
-voice: "Громкое резкое «чип», хорошо слышное сквозь шум воды; песня — высокое «сиик! ти-ти-ти-ти» с трелью в конце."
+voice: "Громкое резкое, часто повторяемое «сиик», хорошо слышное сквозь шум воды; песня — высокое «сиик! ти-ти-ти-ти» с трелью в конце."
 traits:
   size: sparrow
   colors: [gray, black, white]
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/serpophaga-cinerea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Black phoebe (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Head almost black, with a concealed white crown patch"
@@ -34,7 +36,7 @@ en:
     - id: sayornis-nigricans
       how: "much larger, black all over except the white belly; back not gray"
   behavior: "Pairs keep to rocks and snags in rushing mountain rivers and streams, never far from water. They make short sallies after insects over the spray and settle again, flicking the tail."
-  voice: "A loud sharp 'chip', easily heard over the noise of water; the song is a high 'seek! ti-ti-ti-ti' ending in a trill."
+  voice: "A loud, sharp, often repeated 'seek', easily heard over the noise of water; the song is a high 'seek! ti-ti-ti-ti' ending in a trill."
 ---
 Torrent Tyrannulet (серый пиохито) — маленький серо-чёрный тиранн горных потоков: живёт вдоль быстрых рек и ручьёв на всех трёх хребтах колумбийских Анд, в основном на высотах от предгорий до 3 200 м. Спутать его сложно: светло-серая птичка с чёрной шапочкой на мокром валуне — почти наверняка он. Часто сидит на тех же камнях, что и Black Phoebe.
 

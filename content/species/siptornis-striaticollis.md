@@ -2,6 +2,7 @@
 id: siptornis-striaticollis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Беловатая бровь и неполное светлое кольцо у глаза, как очки"
   - "Верх насыщенно-рыжевато-бурый, хвост рыже-каштановый, с колючими концами центральных перьев"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Spectacled prickletail (en, CC BY-SA 4.0) — окраска, распространение и высоты в Колумбии, кормление, голос"
   - "Данные проекта: data/species/siptornis-striaticollis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: локальные выдержки Wikipedia (en/es/ru, CC BY-SA 4.0) по виду и видам из similar, data/texts; data/itinerary.json"
 en:
   key_features:
     - "Whitish eyebrow and partial pale eye ring, like spectacles"
@@ -39,12 +41,12 @@ en:
   behavior: "Forages singly or in pairs, often with a mixed flock, in the midstory and higher: creeps along branches and hangs upside down, probing moss, epiphytes and dead leaves."
   voice: "The song is thought to be a high thin trill; the voice is poorly known."
 ---
-Spectacled Prickletail (курутье) — единственный вид своего рода, мелкий рыжий печник горного леса восточного склона Анд, от юго-востока Колумбии до севера Перу, в Колумбии на 1 200–2 500 м. Встречается локально и нечасто. Похож на ксенопса, но клюв прямой, а «очки» и колючий кончик хвоста видны, когда птица висит вниз головой на мшистой ветке.
+Spectacled Prickletail (курутье) — единственный вид своего рода, мелкий рыжий печник горного леса восточного склона Анд от юга Колумбии до севера Перу; в Колумбии он живёт и в верховьях долины Магдалены в Уиле, на 1 200–2 500 м. Встречается локально и нечасто. Похож на ксенопса, но клюв не вздёрнут, а «очки» и колючий кончик хвоста видны, когда птица висит вниз головой на мшистой ветке.
 
 На маршруте вид редок: единичные записи есть у Трамплина птиц 15 октября, в других точках его почти не отмечают. Проверяй каждую мелкую рыжую птицу в микст-флоке на мшистых ветвях.
 
 ## English
 
-Spectacled Prickletail is the only species in its genus, a small rufous ovenbird of montane forest on the east slope of the Andes, from south-eastern Colombia to northern Peru, in Colombia at 1,200–2,500 m. It is local and uncommon. It resembles a xenops, but the bill is straight, and the "spectacles" and spiny tail tip show when the bird hangs upside down on a mossy branch.
+Spectacled Prickletail is the only species in its genus, a small rufous ovenbird of montane forest on the east slope of the Andes from southern Colombia to northern Peru; in Colombia it also lives at the head of the Magdalena valley in Huila, at 1,200–2,500 m. It is local and uncommon. It resembles a xenops, but the bill is not upturned, and the "spectacles" and spiny tail tip show when the bird hangs upside down on a mossy branch.
 
 On the route it is rare: there are a few records at Trampolín de Aves on 15 October and hardly any elsewhere. Check every small rufous bird in mixed flocks on mossy limbs.
