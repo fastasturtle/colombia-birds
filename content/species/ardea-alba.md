@@ -2,6 +2,7 @@
 id: ardea-alba
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупная белоснежная цапля с длинной S-образной шеей"
   - "Клюв длинный, жёлтый"

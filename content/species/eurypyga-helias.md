@@ -2,6 +2,7 @@
 id: eurypyga-helias
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная с белыми полосами над и под глазом"
   - "Тело в тонкой серо-буро-чёрной ряби, как камни в ручье"
@@ -11,7 +12,7 @@ similar:
   - id: tigrisoma-fasciatum
     how: "крупнее и коренастее, тёмная в тонких светлых поперечных полосах, клюв толще, крылья без «глаз»"
 behavior: "Медленно ходит по камням и отмелям лесных ручьёв и рек, подкарауливая рыбу, креветок и насекомых. При угрозе или на току раскрывает крылья и хвост веером."
-voice: "Долгий тонкий нисходящий свист; при тревоге шипение и трескотня."
+voice: "Высокий пронзительный протяжный свист «ууууу», часто дважды подряд; тревога — громкое «как-как-как», при угрозе шипит."
 traits:
   size: crow
   colors: [brown, gray, black]
@@ -23,6 +24,7 @@ sources:
   - "Данные проекта: data/species/eurypyga-helias.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: Sunbittern (en), Eurypyga helias (es), Солнечная цапля (ru), CC BY-SA 4.0 — data/texts"
   - "content/families/eurypygidae.md — где искать на маршруте"
+  - "Голос: https://www.oiseaux-birds.com/card-sunbittern.html (по сниппету поиска)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -34,7 +36,7 @@ en:
     - id: tigrisoma-fasciatum
       how: "larger and stockier, dark with fine pale bars, thicker bill, no 'eyes' on the wings"
   behavior: "Walks slowly over stones and gravel bars of forest streams and rivers, stalking fish, shrimps and insects. When threatened or displaying it fans its wings and tail."
-  voice: "A long thin descending whistle; hisses and rattles when alarmed."
+  voice: "A high, penetrating drawn-out whistle 'wuuuuu', often given twice; alarm is a loud 'kak-kak-kak', and it hisses when threatened."
 ---
 Sunbittern (солнечная цапля) — единственный вид своего семейства и вовсе не родственник цаплям. В Колумбии она живёт у лесных рек и ручьёв с каменистыми отмелями, до 1 800 м. На камнях в пёстрых бликах воды её почти не видно, зато в полёте или при угрозе она внезапно показывает яркие «солнечные» пятна на крыльях.
 

@@ -2,20 +2,21 @@
 id: gallinula-galeata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лобный щиток и клюв красные, кончик клюва жёлтый"
   - "Оперение черновато-серое, спина с буроватым оттенком"
   - "Вдоль бока белая полоса, по краям подхвостья белые пятна"
-  - "Плывёт, дёргая головой и хвостом; ноги жёлто-зелёные, длиннопалые"
+  - "Плывёт, дёргая головой и хвостом; ноги жёлтые, длиннопалые"
 similar:
   - id: fulica-americana
     how: "крупнее и коренастее, клюв и щиток белые, белой полосы на боку нет"
   - id: porphyrio-martinica
     how: "ярко-фиолетово-синяя, спина зелёная, щиток голубовато-белый, ноги ярко-жёлтые"
   - id: fulica-ardesiaca
-    how: "крупнее, аспидно-серая, щиток жёлтый с каштановым или белый, белой полосы на боку нет"
+    how: "крупнее, аспидно-серая, клюв жёлтый с тёмно-каштановым щитком или белый с бело-жёлтым щитком, белой полосы на боку нет"
 behavior: "Держится у края тростников, по заросшим берегам и на плавучей растительности, часто плавает у самой кромки зарослей. Ест растения, семена, улиток и насекомых."
-voice: "Громкое кудахтанье и отрывистые «кек-кек-кек», часто из густых зарослей."
+voice: "Разнообразные громкие булькающие крики, часто из густых зарослей; при угрозе громко шипит."
 traits:
   size: pigeon
   colors: [black, gray, red]
@@ -33,16 +34,16 @@ en:
     - "Red frontal shield and bill, bill tip yellow"
     - "Blackish-gray plumage, back tinged brown"
     - "White line along the flank, white patches at the sides of the undertail"
-    - "Swims jerking head and tail; long-toed yellow-green legs"
+    - "Swims jerking head and tail; long-toed yellow legs"
   similar:
     - id: fulica-americana
       how: "larger and stockier, white bill and shield, no white flank line"
     - id: porphyrio-martinica
       how: "bright purple-blue, green back, pale bluish shield, bright yellow legs"
     - id: fulica-ardesiaca
-      how: "larger, slate-gray, shield yellow and chestnut or white, no white flank line"
+      how: "larger, slate-gray, yellow bill with a deep chestnut shield or white bill with a whitish-yellow shield, no white flank line"
   behavior: "Keeps along reed edges, overgrown banks and on floating vegetation, often swimming right at the edge of cover. Eats plants, seeds, snails and insects."
-  voice: "Loud clucking and clipped 'kek-kek-kek' notes, often from dense cover."
+  voice: "A wide range of loud gargling calls, often from dense cover; hisses loudly when threatened."
 ---
 Common Gallinule (американская камышница) — обычная пастушковая птица болот, прудов и заросших озёр, в Колумбии на высотах до 4 000 м; к оседлым птицам, возможно, добавляются северные мигранты. Длина 32–35 см. Молодые буроватые, без красного щитка. Среди тростника её выдаёт привычка дёргать хвостом, при этом мелькает белое подхвостье.
 

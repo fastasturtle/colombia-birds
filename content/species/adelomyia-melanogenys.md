@@ -2,11 +2,12 @@
 id: adelomyia-melanogenys
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Щека за глазом чёрная, над ней белая бровь"
+  - "Щека за глазом чёрная, над ней светлая, беловато-охристая бровь"
   - "Низ беловато-охристый в мелких зеленовато-бронзовых крапинах"
-  - "Верх бронзово-зелёный, без яркого блеска"
-  - "Клюв короткий, прямой; крайние рулевые с охристыми кончиками"
+  - "Верх зелёный с бронзовым отливом, в целом птица буроватая"
+  - "Клюв короткий, прямой; хвост тёмный с охристыми углами"
 similar:
   - id: anthocephala-berlepschi
     how: "тёмной щеки и белой брови нет, на темени самца белое и каштановое"
@@ -25,13 +26,14 @@ sources:
   - "Данные проекта: data/species/adelomyia-melanogenys.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Speckled hummingbird (en, CC BY-SA 4.0) — описание, высоты, питание"
   - "Wikipedia: Tolima blossomcrown, Rufous-vented whitetip (en, CC BY-SA 4.0) — отличия, data/texts; согласовано с content/species/anthocephala-berlepschi.md"
+  - "eBird: Speckled Hummingbird, https://ebird.org/species/spehum1 (по сниппету поиска: светлая охристая бровь, хвост с охристыми углами, голос — быстрые высокие «чип»)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Black cheek behind the eye, white eyebrow above it"
+    - "Black cheek behind the eye, pale buffy-white eyebrow above it"
     - "Whitish-buff underparts finely speckled greenish bronze"
-    - "Bronzy-green upperparts without strong gloss"
-    - "Short straight bill; outer tail feathers tipped buff"
+    - "Green upperparts with a bronze sheen; overall a brownish bird"
+    - "Short straight bill; dark tail with buffy corners"
   similar:
     - id: anthocephala-berlepschi
       how: "no dark cheek or white eyebrow; male's crown white and chestnut"
@@ -40,12 +42,12 @@ en:
   behavior: "A loner: feeds low, at short-tubed flowers or by piercing long tubes at the base. It does not gather with other hummingbirds at flowering trees."
   voice: "Thin dry 'chip' notes and twittering; voice helps little in identification."
 ---
-Speckled Hummingbird (черноухий колибри) — один из самых обычных колибри средних высот Анд, от Венесуэлы до Аргентины; живёт в облачном лесу на 1 000–2 500 м. Птица скромная, одинаковая у самца и самки, и потому её легко пропустить. Самая надёжная примета видна даже в тени: тёмная «щека» под белой бровью, словно наушник.
+Speckled Hummingbird (черноухий колибри) — один из самых обычных колибри средних высот Анд, от Венесуэлы до Аргентины; живёт в облачном лесу на 1 000–2 500 м. Птица скромная, одинаковая у самца и самки, и потому её легко пропустить. Самая надёжная примета видна даже в тени: тёмная «щека» под светлой бровью, словно наушник.
 
 На маршруте вид «точно» в долине Сибундой 15–16 октября и «возможно» на Трамплине птиц 15 октября, в Эль-Энканто и Ла-Дримофиле 4–6 октября и в Чикаке 3, 23 и 24 октября. Ищи его у низких цветков вдоль тропы, а не в кронах.
 
 ## English
 
-Speckled Hummingbird is one of the commonest hummingbirds at middle elevations in the Andes, from Venezuela to Argentina; it lives in cloud forest at 1,000–2,500 m. It is a modest bird, alike in both sexes, and easy to overlook. The most reliable mark shows even in shade: a dark cheek under a white eyebrow, like an earmuff.
+Speckled Hummingbird is one of the commonest hummingbirds at middle elevations in the Andes, from Venezuela to Argentina; it lives in cloud forest at 1,000–2,500 m. It is a modest bird, alike in both sexes, and easy to overlook. The most reliable mark shows even in shade: a dark cheek under a pale eyebrow, like an earmuff.
 
 On the route it is "sure" in the Sibundoy valley on 15–16 October and "maybe" at Trampolín de las Aves on 15 October, El Encanto and La Drymophila on 4–6 October, and Chicaque on 3, 23 and 24 October. Look for it at low flowers along the trail rather than in the canopy.

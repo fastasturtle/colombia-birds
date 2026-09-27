@@ -2,6 +2,7 @@
 id: discosura-langsdorffi
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: хвост длинный, глубоко вильчатый, крайние перья узкие, серые, с белыми стержнями"
   - "Горло самца блестящее изумрудное, под ним медно-золотая полоса, брюхо чёрное"
@@ -10,8 +11,8 @@ key_features:
 similar:
   - id: discosura-popelairii
     how: "у самца проволочный хохолок, медной полосы под горлом нет; живёт выше, в предгорьях"
-behavior: "Кормится от среднего яруса до крон у цветущих деревьев, зависая медленно, как шмель. Гнездо ставит высоко, на горизонтальной ветке в 10–35 м над землёй."
-voice: "Тонкие высокие «ци» и щебет; голос изучен плохо."
+behavior: "Кормится от среднего яруса до крон у цветущих деревьев, при зависании крылья гудят, как у шмеля. Гнездо ставит высоко, на горизонтальной ветке в 10–35 м над землёй."
+voice: "Обычно молчит; при кормёжке — короткое «цип» или «чип»."
 traits:
   size: hummingbird
   colors: [green, black, white]
@@ -33,15 +34,15 @@ en:
   similar:
     - id: discosura-popelairii
       how: "male has a wire crest and no copper band below the throat; lives higher, in the foothills"
-  behavior: "Feeds from middle levels to the canopy at flowering trees, hovering slowly like a bumblebee. Places its nest high, on a horizontal branch 10–35 m above the ground."
-  voice: "Thin high 'tsee' notes and twittering; the voice is poorly known."
+  behavior: "Feeds from middle levels to the canopy at flowering trees, its wings hum like a bee's when it hovers. Places its nest high, on a horizontal branch 10–35 m above the ground."
+  voice: "Mostly silent; a short 'tsip' or 'chip' while feeding."
 ---
 Black-bellied Thorntail (чернобрюхая шипохвостка) — крошечный колибри амазонских лесов; в Колумбии живёт подвид melanosternon на юго-востоке страны. Обычно держится во влажном низинном лесу на 100–300 м, в Амазонии чаще в незатопляемом лесу. Как и другие шипохвостки, кормится высоко в кронах, и увидеть его удаётся чаще всего с платформы или у цветущего дерева на опушке.
 
-На маршруте вид в списке целей Исла-Эскондиды 7–11 октября, но наблюдений там почти нет: точка лежит выше его обычного пояса. Лучший шанс — платформы в кронах.
+На маршруте вид в списке целей Исла-Эскондиды 7–11 октября, но наблюдений там почти нет: точка лежит выше его обычного пояса. Лучший шанс — цветущие деревья на опушках.
 
 ## English
 
 Black-bellied Thorntail is a tiny hummingbird of Amazonian forest; Colombia holds the subspecies melanosternon in the southeast of the country. It usually keeps to humid lowland forest at 100–300 m, in Amazonia mostly in terra firme. Like other thorntails it feeds high in the canopy and is best seen from a platform or at a flowering tree on the forest edge.
 
-On the route it is on the target list for Isla Escondida on 7–11 October, but records there are almost absent: the site lies above its usual belt. The canopy platforms give the best chance.
+On the route it is on the target list for Isla Escondida on 7–11 October, but records there are almost absent: the site lies above its usual belt. Flowering trees on forest edges give the best chance.

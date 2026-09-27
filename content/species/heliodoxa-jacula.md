@@ -2,6 +2,7 @@
 id: heliodoxa-jacula
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец тёмно-зелёный, на горле маленькое фиолетово-синее пятно"
   - "Хвост сине-чёрный, вильчатый; у самки вырезка мельче"
@@ -12,8 +13,8 @@ similar:
     how: "крупнее, хвост длиннее и глубже вырезан, брюхо золотисто-зелёное, пятно на горле бледно-фиолетовое"
   - id: urosticte-benjamini
     how: "мельче; на хвосте белое пятно, у самца под фиолетовым горлом белая полоса поперёк груди"
-behavior: "Кормится в среднем ярусе и кронах, на опушках и в садах; самцы охраняют цветущие кусты и кормушки. Обычный и заметный колибри кормушек предгорий Чоко."
-voice: "Сухие щелчки и повторяемое «чип» у кормушки."
+behavior: "Кормится в среднем ярусе и кронах, на опушках и в садах, у цветка обычно цепляется, а не зависает; самцы охраняют куртины цветущих лиан и кормушки. Обычный и заметный колибри кормушек предгорий Чоко."
+voice: "Громкое писклявое «кьюу» или «тьюу»; в погонях — громкая трескотня и писк."
 traits:
   size: hummingbird
   colors: [green]
@@ -37,8 +38,8 @@ en:
       how: "larger, with a longer, more deeply forked tail, golden-green belly and a pale violet throat spot"
     - id: urosticte-benjamini
       how: "smaller; white spot on the tail, male has a white band across the breast below the violet throat"
-  behavior: "Feeds at middle levels and in the canopy, at edges and in gardens; males guard flowering shrubs and feeders. A common, conspicuous feeder bird of the Chocó foothills."
-  voice: "Dry clicks and a repeated 'chip' at feeders."
+  behavior: "Feeds at middle levels and in the canopy, at edges and in gardens, usually clinging to the flower rather than hovering; males guard patches of flowering vines and feeders. A common, conspicuous feeder bird of the Chocó foothills."
+  voice: "A loud, squeaky 'kyew' or 'tyew'; loud sputtering notes and squeaks during chases."
 ---
 Green-crowned Brilliant (синегрудый бриллиант) — крупный колибри влажных предгорных и горных лесов от Коста-Рики до Эквадора; в Колумбии обычно на 300–1 700 м. В Нариньо живёт подвид jamersoni: у самца голова и грудь блестят слабее, чем у северных птиц, а хвост короче. В тени самец кажется просто тёмно-зелёным, и первыми бросаются в глаза белое пятнышко за глазом и белые «штанишки».
 

@@ -2,6 +2,7 @@
 id: klais-guimeti
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и горло самца фиолетово-синие, в зависимости от угла света"
   - "За глазом яркое белое пятно, резко выделяется на тёмной голове"
@@ -12,9 +13,9 @@ similar:
   - id: chrysuronia-oenone
     how: "крупнее, хвост медно-золотой, подклювье красное, белого пятна за глазом нет"
   - id: thalurania-furcata
-    how: "хвост длинный, глубоко вильчатый, голова зелёная, брюхо самца фиолетовое"
+    how: "хвост длинный, глубоко вильчатый, горло зелёное, белого пятна за глазом нет, брюхо самца фиолетовое"
 behavior: "Пьёт нектар у цветущих кустов подлеска и опушек, в садах и на плантациях. Самцы поют с тонких сухих веточек на краю полян, собираясь в рыхлые токи."
-voice: "Песня — повторяемые тонкие писклявые трели с присады."
+voice: "Самцы на токах подолгу поют с открытой присады высокими тонкими нотами; подробных описаний голоса мало."
 traits:
   size: hummingbird
   colors: [green, purple, gray]
@@ -38,9 +39,9 @@ en:
     - id: chrysuronia-oenone
       how: "larger, coppery-gold tail, red lower mandible, no white spot behind the eye"
     - id: thalurania-furcata
-      how: "long, deeply forked tail, green head, male with a violet belly"
+      how: "long, deeply forked tail, green throat, no white spot behind the eye, male with a violet belly"
   behavior: "Takes nectar at flowering shrubs in the understory and at edges, in gardens and plantations. Males sing from thin dead twigs at the edge of clearings, gathering in loose leks."
-  voice: "The song is a repeated thin squeaky trill from a perch."
+  voice: "Males sing at length from exposed perches at leks with high thin notes; detailed descriptions of the voice are scarce."
 ---
 Violet-headed Hummingbird (фиолетовоголовый колибри) — маленький колибри от Гондураса до Боливии; в Колумбии встречается на 400–1 850 м, на опушках влажного леса, в прогалинах вторичного леса, в кустарниках и на тенистых кофейных плантациях. Распространён пятнами: в одном месте обычен, а в соседнем, на вид таком же, его нет. Белая точка за глазом на тёмной голове — самая заметная деталь, и она есть у обоих полов.
 

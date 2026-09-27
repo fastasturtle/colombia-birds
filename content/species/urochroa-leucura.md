@@ -2,6 +2,7 @@
 id: urochroa-leucura
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост почти целиком белый, центральные перья бронзовые; вспыхивает при раскрытии"
   - "Горло и грудь блестящие синие, брюхо тускло-серое"
@@ -11,7 +12,7 @@ similar:
   - id: urochroa-bougueri
     how: "у основания клюва рыжая «усиковая» полоса; живёт на тихоокеанском склоне"
   - id: coeligena-torquata
-    how: "клюв длиннее, на груди белый «нагрудник», белое в хвосте только у основания крайних перьев"
+    how: "на груди белый «нагрудник», синего нет, белое в хвосте только у основания крайних перьев"
 behavior: "Кормится в нижнем и среднем ярусе леса и на кустарниковых склонах, часто у ручьёв; самцы охраняют цветущие куртины. Насекомых ловит в воздухе с присады."
 voice: "Серии одиночных «тсиии», «тсинг» или «сиу» и жидкое «твит», повторяемое подолгу."
 traits:
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/urochroa-leucura.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (цели Сибундоя)"
   - "Wikipedia: Green-backed hillstar (en, CC BY-SA 4.0) — описание, высоты в Колумбии, питание, голос, таксономия"
   - "Wikipedia: Rufous-gaped hillstar, Collared inca (en, CC BY-SA 4.0) — отличия, data/texts"
+  - "Wikipedia: Rufous-gaped hillstar, https://en.wikipedia.org/wiki/Rufous-gaped_hillstar; eBird whthil2 (по сниппету поиска: рыжая подусая полоса)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -36,7 +38,7 @@ en:
     - id: urochroa-bougueri
       how: "rufous malar stripe at the base of the bill; lives on the Pacific slope"
     - id: coeligena-torquata
-      how: "longer bill, white bib on the breast, white in the tail only at the bases of the outer feathers"
+      how: "white bib on the breast, no blue, white in the tail only at the bases of the outer feathers"
   behavior: "Feeds at low and middle levels of forest and on shrubby slopes, often near streams; males defend flowering patches. Hawks insects from a perch."
   voice: "Series of single 'tseee', 'tsing' or 'seeuw' notes and a liquid 'twit' repeated at length."
 ---

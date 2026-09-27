@@ -2,6 +2,7 @@
 id: pterophanes-cyanopterus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Размер: один из крупнейших колибри, 15–19 см; машет крыльями медленно, почти как ласточка"
   - "Крылья самца блестящие синие, хорошо видны в полёте"
@@ -12,9 +13,9 @@ similar:
   - id: aglaeactis-cupripennis
     how: "намного мельче, рыжий у обоих полов, крылья бурые без синего, поясница блестит лилово-золотым"
   - id: coeligena-lutetiae
-    how: "мельче, клюв длиннее, на крыле охристое, а не синее пятно; самец сверху бархатно-чёрный"
+    how: "мельче, клюв чуть загнут вверх, на крыле охристое, а не синее пятно; самец сверху бархатно-чёрный"
 behavior: "Держится на опушках эльфийского леса и на кустарниковых склонах у парамо, кормится в нижнем и среднем ярусе, зависая или присаживаясь у цветка. Часто охраняет куртину цветов, но может и облетать цветки по кругу."
-voice: "Голос для определения почти не нужен: сухие одиночные позывы и щебет при стычках."
+voice: "Высокий тонкий «жидкий» щебет, протяжное пронзительное «зиии» и взволнованное «ти-ти-ти-тиррр»."
 traits:
   size: hummingbird
   colors: [blue, green, rufous]
@@ -38,9 +39,9 @@ en:
     - id: aglaeactis-cupripennis
       how: "much smaller, rufous in both sexes, brown wings without blue, rump glitters lilac-gold"
     - id: coeligena-lutetiae
-      how: "smaller, longer bill, buff rather than blue wing patch; male velvety black above"
+      how: "smaller, bill slightly upturned, buff rather than blue wing patch; male velvety black above"
   behavior: "Keeps to elfin forest edges and shrubby slopes near the páramo, feeding at low and middle levels, hovering or perching at a flower. Often defends a patch of flowers but may also trap-line."
-  voice: "Voice is hardly needed for identification: dry single calls and chatter in disputes."
+  voice: "A high, thin, liquid chatter, a drawn-out piercing 'zeee' and an agitated 'ti-ti-ti-tirrr'."
 ---
 Great Sapphirewing (сапфирокрыл) — один из самых крупных колибри Анд: крупнее его только исполинский колибри и топазы. В Колумбии живёт на высотах 2 600–3 600 м, на опушках эльфийского леса, в кустарниках у верхней границы леса и, по крайней мере сезонно, в парамо. Летит медленно, редкими взмахами, и синие крылья самца видны издалека; самка с рыжим низом выглядит совсем другой птицей.
 

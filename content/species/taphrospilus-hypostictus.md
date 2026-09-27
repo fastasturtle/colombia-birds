@@ -2,6 +2,7 @@
 id: taphrospilus-hypostictus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ белый, густо усыпан округлыми зелёными пятнами, середина брюха чистая"
   - "Верх травянисто-зелёный с бронзовым отливом"
