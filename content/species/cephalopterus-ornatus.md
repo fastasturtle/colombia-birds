@@ -2,6 +2,7 @@
 id: cephalopterus-ornatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь чёрный, размером с ворону, на голове хохол-«зонтик» над клювом"
   - "Хохол с белыми стержнями перьев, глаз светлый"

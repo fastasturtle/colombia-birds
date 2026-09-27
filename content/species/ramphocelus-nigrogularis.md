@@ -2,6 +2,7 @@
 id: ramphocelus-nigrogularis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и тело блестяще-алые, спина, крылья и хвост чёрные"
   - "Чёрная маска от лба через глаз до горла"
@@ -9,9 +10,9 @@ key_features:
   - "Подклювье серебристо-белое с чёрным концом, надклювье чёрное"
 similar:
   - id: ramphocelus-carbo
-    how: "самец тёмно-бордово-чёрный, алое только горло и грудь, чёрной маски нет"
+    how: "самец тёмно-бордово-чёрный, без алого блеска: густо-малиновые только голова, горло и грудь, чёрной маски нет"
   - id: paroaria-gularis
-    how: "красная только голова, горло чёрное, низ белый, спина серо-чёрная"
+    how: "красная только голова, горло чёрное, низ белый, спина блестяще-чёрная"
 behavior: "Кочует шумными группами до десятка птиц по кустам и нижним ярусам леса вдоль рек, стариц и озёр, иногда вместе с Silver-beaked Tanager. Ест насекомых с листвы и плоды."
 voice: "Резкое звонкое «тчлинк»; песня — простая размеренная серия нот, чаще на рассвете."
 traits:
@@ -34,9 +35,9 @@ en:
     - "Lower mandible silvery-white with a black tip, upper mandible black"
   similar:
     - id: ramphocelus-carbo
-      how: "male dark maroon-black, crimson only on the throat and breast, no black mask"
+      how: "male dark maroon-black without the shining red: deep crimson only on the head, throat and breast, no black mask"
     - id: paroaria-gularis
-      how: "only the head is red, throat black, underparts white, back grayish-black"
+      how: "only the head is red, throat black, underparts white, back glossy black"
   behavior: "Roams in noisy groups of up to a dozen through bushes and lower forest along rivers, oxbows and lakes, sometimes with Silver-beaked Tanagers. Takes insects from foliage and fruit."
   voice: "A sharp ringing 'tchlink'; the song is a simple, deliberate series of notes, mostly at dawn."
 ---

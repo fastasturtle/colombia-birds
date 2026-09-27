@@ -2,6 +2,7 @@
 id: gymnoderus-foetidus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голая голубовато-белая кожа на щеках и шее, у самца в складках"
   - "Самец чёрный с серебристо-серыми крыльями, вспыхивающими в полёте"

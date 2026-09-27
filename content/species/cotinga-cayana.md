@@ -2,6 +2,7 @@
 id: cotinga-cayana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: бирюзовый, с чёрными основаниями перьев, создающими эффект блёсток"
   - "Большое винно-красное пятно на горле"
@@ -10,7 +11,7 @@ key_features:
 similar:
   - id: cotinga-maynana
     how: "голубой тон ровнее, без блёсток, пятно на горле меньше и сливовое, глаз жёлтый"
-behavior: "Держится в верхнем пологе, самцы подолгу сидят на сухих деревьях высоко над лесом. Ест в основном плоды, иногда ловит летающих муравьёв и термитов."
+behavior: "Держится в верхнем пологе, самцы подолгу сидят на сухих деревьях высоко над лесом. Ест в основном плоды, иногда ловит насекомых."
 voice: "Не поёт; в полёте слышен свист крыльев."
 traits:
   size: thrush
@@ -33,7 +34,7 @@ en:
   similar:
     - id: cotinga-maynana
       how: "more even blue without spangles, smaller plum throat patch, yellow eye"
-  behavior: "Keeps to the upper canopy; males perch for long spells on dead trees high above the forest. Eats mostly fruit, sometimes flying ants and termites."
+  behavior: "Keeps to the upper canopy; males perch for long spells on dead trees high above the forest. Eats mostly fruit, sometimes insects."
   voice: "Does not sing; the wings whistle in flight."
 ---
 Spangled Cotinga (голубая котинга) — котинга крон амазонского леса, в Колумбии к востоку от Анд, обычно до 600 м, изредка выше. На фоне неба самец кажется тёмным, и бирюза с «блёстками» видна только когда солнце светит сбоку, поэтому смотри на размер и цвет пятна на горле и на глаз.

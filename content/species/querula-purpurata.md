@@ -2,6 +2,7 @@
 id: querula-purpurata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Всё оперение чёрное, у самца с глянцем сверху"
   - "Самец: пурпурно-красный «щиток» на горле, расходящийся к бокам шеи"
