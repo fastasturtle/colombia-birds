@@ -9,6 +9,7 @@
    */
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
+  import EndemicMark from './EndemicMark.svelte';
   import { filter, passes, tierOf } from '../lib/filter';
   type State = 'sure' | 'maybe' | 'unlikely';
   interface Item { id: string; en: string; ru: string | null; photo: string | null; t: Record<string, string[]>; st: Record<string, 's' | 'm'>; hl: string[]; x: boolean; e: boolean; n?: boolean }
@@ -175,7 +176,7 @@
           {#if r.int || r.it.e || r.it.n}
             <span class="badges">
               {#if r.int}<span class="b hl" title="интересная">★</span>{/if}
-              {#if r.it.e}<span class="b en" title="эндемик Колумбии">энд.</span>{:else if r.it.n}<span class="b ne" title="почти-эндемик Колумбии">п.-энд.</span>{/if}
+              {#if r.it.e}<EndemicMark kind="end" variant="tile" />{:else if r.it.n}<EndemicMark kind="near" variant="tile" />{/if}
             </span>
           {/if}
         </span>
@@ -225,8 +226,6 @@
   .badges { position: absolute; top: 4px; left: 4px; display: flex; gap: 3px; }
   .b { font-size: .68rem; font-weight: 700; line-height: 1; padding: 3px 5px; border-radius: 6px; color: #fff; background: rgba(0,0,0,.6); }
   .b.hl { background: var(--accent-2); }
-  .b.en { background: #14532d; }
-  .b.ne { background: #3f6212; }
   .nm { font-weight: 600; padding-top: 4px; overflow-wrap: anywhere; hyphens: auto; }
   .sec { color: var(--muted); overflow-wrap: anywhere; hyphens: auto; }
   .stw { font-size: .75rem; font-weight: 600; }

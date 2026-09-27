@@ -5,6 +5,7 @@
  * with live counts. Long lists (>= collapseFrom) render every family as a closed <details>.
  */
 import StateWord from './StateWord.astro';
+import EndemicMark from './EndemicMark.svelte';
 import { families, speciesIndex, speciesNames, mediaUrl, IUCN_RU, WHY_RU, plural, type IndexEntry, type State, type Why } from '@lib/data';
 export interface Item { id: string; n: number; state: State; why: Why[] }
 interface Props { items: Item[]; collapseFrom?: number }
@@ -42,8 +43,8 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
                 <span class="l2 muted">{r.nm.alt && <>{r.nm.alt} · </>}<span class="sci">{r.s.sci}</span></span>
                 <span class="tags">
                   <StateWord state={r.state} title={recs(r.n)} />
-                  {r.s.endemic && <span class="en" title="эндемик Колумбии">энд.</span>}
-                  {r.s.near_endemic && !r.s.endemic && <span class="en" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>}
+                  {r.s.endemic && <EndemicMark kind="end" />}
+                  {r.s.near_endemic && !r.s.endemic && <EndemicMark kind="near" />}
                   {r.s.iucn && r.s.iucn !== 'LC' && <span class="chip iucn" title={IUCN_RU[r.s.iucn]}>IUCN {r.s.iucn}</span>}
                 </span>
               </span>
@@ -76,6 +77,5 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
   .tags { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; margin-top: 2px; }
   .tags .chip { margin: 0; font-size: .72rem; padding: 1px 8px; }
   .chip.iucn { background: #b91c1c; color: #fff; }
-  .en { font-size: .72rem; font-weight: 700; color: var(--accent); }
   .star { color: var(--accent-2); margin-right: 4px; }
 </style>

@@ -1,10 +1,11 @@
 ---
 /**
  * Photo tile for the day page. The photo opens photo 1 full screen via ThumbLightbox.svelte
- * (the page must mount it once); the name (Russian, then English) links to the species page. Badges: ★ «интересная», «энд.» endemic, «п.-энд.» near-endemic;
+ * (the page must mount it once); the name (Russian, then English) links to the species page. Badges: ★ «интересная», ◆ endemic, ◇ near-endemic (EndemicMark);
  * under the name the likelihood word. Carries data-st / data-int / data-nend / data-end / data-new for the site-wide filter (FilterScope).
  */
 import StateWord from './StateWord.astro';
+import EndemicMark from './EndemicMark.svelte';
 import { mediaUrl, species, speciesNames, WHY_RU, type IndexEntry, type State, type Why } from '@lib/data';
 interface Props { s: IndexEntry; state: State; why?: Why[]; isNew?: boolean }
 const { s, state, why = [], isNew = false } = Astro.props;
@@ -26,8 +27,8 @@ const lb = p && JSON.stringify({ alt: [nm.main, nm.alt].filter(Boolean).join(' �
   {(interesting || s.endemic || s.near_endemic) && (
     <span class="badges">
       {interesting && <span class="b hl" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★</span>}
-      {s.endemic && <span class="b en" title="эндемик Колумбии">энд.</span>}
-      {s.near_endemic && !s.endemic && <span class="b ne" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>}
+      {s.endemic && <EndemicMark kind="end" variant="tile" />}
+      {s.near_endemic && !s.endemic && <EndemicMark kind="near" variant="tile" />}
     </span>
   )}
   <a class="nm" href={href}>
@@ -46,8 +47,6 @@ const lb = p && JSON.stringify({ alt: [nm.main, nm.alt].filter(Boolean).join(' �
   .badges { position: absolute; top: 4px; left: 4px; display: flex; gap: 3px; pointer-events: none; }
   .b { font-size: .68rem; font-weight: 700; line-height: 1; padding: 3px 5px; border-radius: 6px; color: #fff; background: rgba(0,0,0,.6); }
   .b.hl { background: var(--accent-2); }
-  .b.en { background: #14532d; }
-  .b.ne { background: #3f6212; }
   .nm { color: inherit; display: flex; flex-direction: column; padding: 4px 0 1px; }
   .nm:hover { text-decoration: none; }
   .nm:hover .pri { text-decoration: underline; }

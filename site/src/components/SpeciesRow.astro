@@ -5,6 +5,7 @@
  * With `state`, the row shows the likelihood word and carries data-st / data-int / data-nend / data-end for the site-wide filter.
  */
 import StateWord from './StateWord.astro';
+import EndemicMark from './EndemicMark.svelte';
 import { mediaUrl, species, speciesNames, WHY_RU, type IndexEntry, type State, type Why } from '@lib/data';
 interface Props { s: IndexEntry; state?: State; why?: Why[] }
 const { s, state, why = [] } = Astro.props;
@@ -27,8 +28,8 @@ const href = `${base}species/${s.id}/`;
     <div class="muted">{nm.alt && <>{nm.alt} · </>}<span class="sci">{s.sci}</span></div>
     <div class="meta">
       {state && <StateWord state={state} />}
-      {s.endemic && <span class="en" title="эндемик Колумбии">энд.</span>}
-      {s.near_endemic && !s.endemic && <span class="en" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>}
+      {s.endemic && <EndemicMark kind="end" />}
+      {s.near_endemic && !s.endemic && <EndemicMark kind="near" />}
       {s.elev && (s.elev[0] != null || s.elev[1] != null) && <span class="muted">{s.elev[0] ?? 0}–{s.elev[1] ?? '?'} м</span>}
     </div>
   </a>
@@ -41,6 +42,5 @@ const href = `${base}species/${s.id}/`;
   .thumb-btn img { display: block; }
   a.thumb.empty:hover { text-decoration: none; }
   .meta { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: center; font-size: .8rem; }
-  .en { font-size: .72rem; font-weight: 700; color: var(--accent); }
   .star { color: var(--accent-2); }
 </style>
