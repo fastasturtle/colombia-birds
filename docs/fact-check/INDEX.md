@@ -4,30 +4,15 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 125
-- Проверено: 110
-- Не проверено: 15
+- Проверено: 125
+- Не проверено: 0
 
-## Не проверено (15)
+## Не проверено (0)
 
 | Слаг | English | Группа |
 |---|---|---|
-| ensifera-ensifera | Sword-billed Hummingbird | Стрижи и колибри |
-| boissonneaua-jardini | Velvet-purple Coronet | Стрижи и колибри |
-| urosticte-benjamini | Purple-bibbed Whitetip | Стрижи и колибри |
-| chaetocercus-mulsant | White-bellied Woodstar | Стрижи и колибри |
-| amazilia-tzacatl | Rufous-tailed Hummingbird | Стрижи и колибри |
-| chionomesa-fimbriata | Glittering-throated Emerald | Стрижи и колибри |
-| rallus-limicola | Virginia Rail | Цапли, ибисы и пастушки |
-| rallus-semiplumbeus | Bogota Rail | Цапли, ибисы и пастушки |
-| porphyriops-melanops | Spot-flanked Gallinule | Цапли, ибисы и пастушки |
-| laterallus-albigularis | White-throated Crake | Цапли, ибисы и пастушки |
-| egretta-thula | Snowy Egret | Цапли, ибисы и пастушки |
-| ardea-ibis | Western Cattle-Egret | Цапли, ибисы и пастушки |
-| vanellus-chilensis | Southern Lapwing | Кулики, чайки и крачки |
-| gallinago-nobilis | Noble Snipe | Кулики, чайки и крачки |
-| actitis-macularius | Spotted Sandpiper | Кулики, чайки и крачки |
 
-## Проверено (110)
+## Проверено (125)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
@@ -63,9 +48,24 @@
 | coeligena-wilsoni | Brown Inca | Стрижи и колибри | 2026-09-27 |
 | coeligena-prunellei | Black Inca | Стрижи и колибри | 2026-09-27 |
 | coeligena-helianthea | Blue-throated Starfrontlet | Стрижи и колибри | 2026-09-27 |
+| ensifera-ensifera | Sword-billed Hummingbird | Стрижи и колибри | 2026-09-27 |
+| boissonneaua-jardini | Velvet-purple Coronet | Стрижи и колибри | 2026-09-27 |
+| urosticte-benjamini | Purple-bibbed Whitetip | Стрижи и колибри | 2026-09-27 |
 | heliodoxa-imperatrix | Empress Brilliant | Стрижи и колибри | 2026-09-27 |
+| chaetocercus-mulsant | White-bellied Woodstar | Стрижи и колибри | 2026-09-27 |
+| amazilia-tzacatl | Rufous-tailed Hummingbird | Стрижи и колибри | 2026-09-27 |
+| chionomesa-fimbriata | Glittering-throated Emerald | Стрижи и колибри | 2026-09-27 |
+| rallus-limicola | Virginia Rail | Цапли, ибисы и пастушки | 2026-09-27 |
+| rallus-semiplumbeus | Bogota Rail | Цапли, ибисы и пастушки | 2026-09-27 |
+| porphyriops-melanops | Spot-flanked Gallinule | Цапли, ибисы и пастушки | 2026-09-27 |
 | fulica-ardesiaca | Slate-colored Coot | Цапли, ибисы и пастушки | 2026-09-27 |
+| laterallus-albigularis | White-throated Crake | Цапли, ибисы и пастушки | 2026-09-27 |
+| egretta-thula | Snowy Egret | Цапли, ибисы и пастушки | 2026-09-27 |
+| ardea-ibis | Western Cattle-Egret | Цапли, ибисы и пастушки | 2026-09-27 |
+| vanellus-chilensis | Southern Lapwing | Кулики, чайки и крачки | 2026-09-27 |
 | numenius-phaeopus | Eurasian Whimbrel | Кулики, чайки и крачки | 2026-09-27 |
+| gallinago-nobilis | Noble Snipe | Кулики, чайки и крачки | 2026-09-27 |
+| actitis-macularius | Spotted Sandpiper | Кулики, чайки и крачки | 2026-09-27 |
 | chroicocephalus-serranus | Andean Gull | Кулики, чайки и крачки | 2026-09-27 |
 | thalasseus-maximus | Royal Tern | Кулики, чайки и крачки | 2026-09-27 |
 | fregata-magnificens | Magnificent Frigatebird | Морские птицы | 2026-09-27 |
