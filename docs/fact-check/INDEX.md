@@ -4,44 +4,13 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 467
-- Проверено: 349
-- Не проверено: 118
+- Проверено: 411
+- Не проверено: 56
 
-## Не проверено (118)
+## Не проверено (56)
 
 | Слаг | English | Группа |
 |---|---|---|
-| tinamus-major | Great Tinamou | Тинаму и куриные |
-| tinamus-osgoodi | Black Tinamou | Тинаму и куриные |
-| ortalis-cinereiceps | Gray-headed Chachalaca | Тинаму и куриные |
-| ortalis-erythroptera | Rufous-headed Chachalaca | Тинаму и куриные |
-| ortalis-guttata | Speckled Chachalaca | Тинаму и куриные |
-| psophia-crepitans | Gray-winged Trumpeter | Тинаму и куриные |
-| merganetta-armata | Torrent Duck | Утки, поганки и фламинго |
-| spatula-discors | Blue-winged Teal | Утки, поганки и фламинго |
-| podiceps-occipitalis | Silvery Grebe | Утки, поганки и фламинго |
-| columba-livia | Rock Pigeon | Голуби, кукушки и гоацин |
-| patagioenas-cayennensis | Pale-vented Pigeon | Голуби, кукушки и гоацин |
-| patagioenas-fasciata | Band-tailed Pigeon | Голуби, кукушки и гоацин |
-| patagioenas-plumbea | Plumbeous Pigeon | Голуби, кукушки и гоацин |
-| columbina-talpacoti | Ruddy Ground Dove | Голуби, кукушки и гоацин |
-| geotrygon-saphirina | Sapphire Quail-Dove | Голуби, кукушки и гоацин |
-| zentrygon-linearis | Lined Quail-Dove | Голуби, кукушки и гоацин |
-| crotophaga-ani | Smooth-billed Ani | Голуби, кукушки и гоацин |
-| neomorphus-radiolosus | Banded Ground-Cuckoo | Голуби, кукушки и гоацин |
-| piaya-cayana | Common Squirrel-Cuckoo | Голуби, кукушки и гоацин |
-| coccyzus-americanus | Yellow-billed Cuckoo | Голуби, кукушки и гоацин |
-| hydropsalis-climacocerca | Ladder-tailed Nightjar | Козодои, потоо и гуахаро |
-| nyctiphrynus-rosenbergi | Choco Poorwill | Козодои, потоо и гуахаро |
-| nyctibius-grandis | Great Potoo | Козодои, потоо и гуахаро |
-| cypseloides-cherriei | Spot-fronted Swift | Стрижи и колибри |
-| streptoprocne-zonaris | White-collared Swift | Стрижи и колибри |
-| tachornis-squamata | Fork-tailed Palm Swift | Стрижи и колибри |
-| schistes-albogularis | White-throated Daggerbill | Стрижи и колибри |
-| colibri-delphinae | Brown Violetear | Стрижи и колибри |
-| androdon-aequatorialis | Tooth-billed Hummingbird | Стрижи и колибри |
-| anthracothorax-nigricollis | Black-throated Mango | Стрижи и колибри |
-| discosura-popelairii | Wire-crested Thorntail | Стрижи и колибри |
 | discosura-langsdorffi | Black-bellied Thorntail | Стрижи и колибри |
 | adelomyia-melanogenys | Speckled Hummingbird | Стрижи и колибри |
 | aglaiocercus-coelestis | Violet-tailed Sylph | Стрижи и колибри |
@@ -73,37 +42,6 @@
 | haematopus-palliatus | American Oystercatcher | Кулики, чайки и крачки |
 | pluvialis-squatarola | Black-bellied Plover | Кулики, чайки и крачки |
 | charadrius-semipalmatus | Semipalmated Plover | Кулики, чайки и крачки |
-| ramphocelus-dimidiatus | Crimson-backed Tanager | Танагры и кардиналы |
-| bangsia-flavovirens | Yellow-green Tanager | Танагры и кардиналы |
-| sporathraupis-cyanocephala | Blue-capped Tanager | Танагры и кардиналы |
-| anisognathus-lacrymosus | Lacrimose Mountain Tanager | Танагры и кардиналы |
-| anisognathus-notabilis | Black-chinned Mountain Tanager | Танагры и кардиналы |
-| iridosornis-porphyrocephalus | Purplish-mantled Tanager | Танагры и кардиналы |
-| stilpnia-nigrocincta | Masked Tanager | Танагры и кардиналы |
-| stilpnia-larvata | Golden-hooded Tanager | Танагры и кардиналы |
-| stilpnia-cyanicollis | Blue-necked Tanager | Танагры и кардиналы |
-| tangara-nigroviridis | Beryl-spangled Tanager | Танагры и кардиналы |
-| tangara-cyanotis | Blue-browed Tanager | Танагры и кардиналы |
-| tangara-mexicana | Turquoise Tanager | Танагры и кардиналы |
-| tangara-gyrola | Bay-headed Tanager | Танагры и кардиналы |
-| tangara-schrankii | Green-and-gold Tanager | Танагры и кардиналы |
-| tangara-icterocephala | Silver-throated Tanager | Танагры и кардиналы |
-| tersina-viridis | Swallow Tanager | Танагры и кардиналы |
-| dacnis-egregia | Yellow-tufted Dacnis | Танагры и кардиналы |
-| dacnis-berlepschi | Scarlet-breasted Dacnis | Танагры и кардиналы |
-| cyanerpes-caeruleus | Purple Honeycreeper | Танагры и кардиналы |
-| conirostrum-sitticolor | Blue-backed Conebill | Танагры и кардиналы |
-| diglossa-humeralis | Black Flowerpiercer | Танагры и кардиналы |
-| diglossa-albilatera | White-sided Flowerpiercer | Танагры и кардиналы |
-| diglossa-sittoides | Rusty Flowerpiercer | Танагры и кардиналы |
-| diglossa-caerulescens | Bluish Flowerpiercer | Танагры и кардиналы |
-| cnemoscopus-rubrirostris | Pink-billed Cnemoscopus | Танагры и кардиналы |
-| sicalis-flaveola | Saffron Finch | Танагры и кардиналы |
-| sicalis-luteola | Grassland Yellow-Finch | Танагры и кардиналы |
-| volatinia-jacarina | Blue-black Grassquit | Танагры и кардиналы |
-| sporophila-corvina | Variable Seedeater | Танагры и кардиналы |
-| sporophila-luctuosa | Black-and-white Seedeater | Танагры и кардиналы |
-| catamenia-inornata | Plain-colored Seedeater | Танагры и кардиналы |
 | catamenia-homochroa | Paramo Seedeater | Танагры и кардиналы |
 | coereba-flaveola | Bananaquit | Танагры и кардиналы |
 | saltator-maximus | Buff-throated Saltator | Танагры и кардиналы |
@@ -130,10 +68,12 @@
 | myioborus-miniatus | Slate-throated Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 | myioborus-ornatus | Golden-fronted Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 
-## Проверено (349)
+## Проверено (411)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
+| tinamus-major | Great Tinamou | Тинаму и куриные | 2026-09-27 |
+| tinamus-osgoodi | Black Tinamou | Тинаму и куриные | 2026-09-27 |
 | crypturellus-cinereus | Cinereous Tinamou | Тинаму и куриные | 2026-09-27 |
 | crypturellus-soui | Little Tinamou | Тинаму и куриные | 2026-09-27 |
 | chamaepetes-goudotii | Sickle-winged Guan | Тинаму и куриные | 2026-09-27 |
@@ -141,28 +81,57 @@
 | penelope-montagnii | Andean Guan | Тинаму и куриные | 2026-09-27 |
 | nothocrax-urumutum | Nocturnal Curassow | Тинаму и куриные | 2026-09-27 |
 | mitu-salvini | Salvin's Curassow | Тинаму и куриные | 2026-09-27 |
+| ortalis-cinereiceps | Gray-headed Chachalaca | Тинаму и куриные | 2026-09-27 |
+| ortalis-erythroptera | Rufous-headed Chachalaca | Тинаму и куриные | 2026-09-27 |
 | ortalis-columbiana | Colombian Chachalaca | Тинаму и куриные | 2026-09-27 |
+| ortalis-guttata | Speckled Chachalaca | Тинаму и куриные | 2026-09-27 |
 | odontophorus-hyperythrus | Chestnut Wood-Quail | Тинаму и куриные | 2026-09-27 |
 | odontophorus-melanonotus | Dark-backed Wood-Quail | Тинаму и куриные | 2026-09-27 |
+| psophia-crepitans | Gray-winged Trumpeter | Тинаму и куриные | 2026-09-27 |
+| merganetta-armata | Torrent Duck | Утки, поганки и фламинго | 2026-09-27 |
+| spatula-discors | Blue-winged Teal | Утки, поганки и фламинго | 2026-09-27 |
 | anas-bahamensis | White-cheeked Pintail | Утки, поганки и фламинго | 2026-09-27 |
 | anas-georgica | Yellow-billed Pintail | Утки, поганки и фламинго | 2026-09-27 |
 | anas-andium | Andean Teal | Утки, поганки и фламинго | 2026-09-27 |
 | oxyura-jamaicensis | Ruddy Duck | Утки, поганки и фламинго | 2026-09-27 |
 | podilymbus-podiceps | Pied-billed Grebe | Утки, поганки и фламинго | 2026-09-27 |
+| podiceps-occipitalis | Silvery Grebe | Утки, поганки и фламинго | 2026-09-27 |
+| columba-livia | Rock Pigeon | Голуби, кукушки и гоацин | 2026-09-27 |
+| patagioenas-cayennensis | Pale-vented Pigeon | Голуби, кукушки и гоацин | 2026-09-27 |
+| patagioenas-fasciata | Band-tailed Pigeon | Голуби, кукушки и гоацин | 2026-09-27 |
+| patagioenas-plumbea | Plumbeous Pigeon | Голуби, кукушки и гоацин | 2026-09-27 |
+| columbina-talpacoti | Ruddy Ground Dove | Голуби, кукушки и гоацин | 2026-09-27 |
 | columbina-buckleyi | Ecuadorian Ground Dove | Голуби, кукушки и гоацин | 2026-09-27 |
 | columbina-cruziana | Croaking Ground Dove | Голуби, кукушки и гоацин | 2026-09-27 |
+| geotrygon-saphirina | Sapphire Quail-Dove | Голуби, кукушки и гоацин | 2026-09-27 |
 | leptotila-conoveri | Tolima Dove | Голуби, кукушки и гоацин | 2026-09-27 |
 | leptotila-pallida | Pallid Dove | Голуби, кукушки и гоацин | 2026-09-27 |
+| zentrygon-linearis | Lined Quail-Dove | Голуби, кукушки и гоацин | 2026-09-27 |
 | zenaida-auriculata | Eared Dove | Голуби, кукушки и гоацин | 2026-09-27 |
 | crotophaga-major | Greater Ani | Голуби, кукушки и гоацин | 2026-09-27 |
+| crotophaga-ani | Smooth-billed Ani | Голуби, кукушки и гоацин | 2026-09-27 |
+| neomorphus-radiolosus | Banded Ground-Cuckoo | Голуби, кукушки и гоацин | 2026-09-27 |
+| piaya-cayana | Common Squirrel-Cuckoo | Голуби, кукушки и гоацин | 2026-09-27 |
+| coccyzus-americanus | Yellow-billed Cuckoo | Голуби, кукушки и гоацин | 2026-09-27 |
 | opisthocomus-hoazin | Hoatzin | Голуби, кукушки и гоацин | 2026-09-27 |
+| hydropsalis-climacocerca | Ladder-tailed Nightjar | Козодои, потоо и гуахаро | 2026-09-27 |
+| nyctiphrynus-rosenbergi | Choco Poorwill | Козодои, потоо и гуахаро | 2026-09-27 |
+| nyctibius-grandis | Great Potoo | Козодои, потоо и гуахаро | 2026-09-27 |
+| cypseloides-cherriei | Spot-fronted Swift | Стрижи и колибри | 2026-09-27 |
+| streptoprocne-zonaris | White-collared Swift | Стрижи и колибри | 2026-09-27 |
+| tachornis-squamata | Fork-tailed Palm Swift | Стрижи и колибри | 2026-09-27 |
 | eutoxeres-condamini | Buff-tailed Sicklebill | Стрижи и колибри | 2026-09-27 |
 | phaethornis-yaruqui | White-whiskered Hermit | Стрижи и колибри | 2026-09-27 |
 | doryfera-ludovicae | Green-fronted Lancebill | Стрижи и колибри | 2026-09-27 |
+| schistes-albogularis | White-throated Daggerbill | Стрижи и колибри | 2026-09-27 |
 | colibri-coruscans | Sparkling Violetear | Стрижи и колибри | 2026-09-27 |
+| colibri-delphinae | Brown Violetear | Стрижи и колибри | 2026-09-27 |
 | colibri-cyanotus | Lesser Violetear | Стрижи и колибри | 2026-09-27 |
+| androdon-aequatorialis | Tooth-billed Hummingbird | Стрижи и колибри | 2026-09-27 |
+| anthracothorax-nigricollis | Black-throated Mango | Стрижи и колибри | 2026-09-27 |
 | heliangelus-clarisse | Longuemare's Sunangel | Стрижи и колибри | 2026-09-27 |
 | heliangelus-exortis | Tourmaline Sunangel | Стрижи и колибри | 2026-09-27 |
+| discosura-popelairii | Wire-crested Thorntail | Стрижи и колибри | 2026-09-27 |
 | phlogophilus-hemileucurus | Ecuadorian Piedtail | Стрижи и колибри | 2026-09-27 |
 | aglaiocercus-kingii | Long-tailed Sylph | Стрижи и колибри | 2026-09-27 |
 | lesbia-victoriae | Black-tailed Trainbearer | Стрижи и колибри | 2026-09-27 |
@@ -438,14 +407,20 @@
 | ramphocelus-flammigerus | Flame-rumped Tanager | Танагры и кардиналы | 2026-09-27 |
 | ramphocelus-carbo | Silver-beaked Tanager | Танагры и кардиналы | 2026-09-27 |
 | ramphocelus-nigrogularis | Masked Crimson Tanager | Танагры и кардиналы | 2026-09-27 |
+| ramphocelus-dimidiatus | Crimson-backed Tanager | Танагры и кардиналы | 2026-09-27 |
 | bangsia-rothschildi | Golden-chested Tanager | Танагры и кардиналы | 2026-09-27 |
 | bangsia-edwardsi | Moss-backed Tanager | Танагры и кардиналы | 2026-09-27 |
+| bangsia-flavovirens | Yellow-green Tanager | Танагры и кардиналы | 2026-09-27 |
 | buthraupis-montana | Hooded Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
+| sporathraupis-cyanocephala | Blue-capped Tanager | Танагры и кардиналы | 2026-09-27 |
 | tephrophilus-wetmorei | Masked Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
 | chlorornis-riefferii | Grass-green Tanager | Танагры и кардиналы | 2026-09-27 |
 | cnemathraupis-eximia | Black-chested Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
+| anisognathus-lacrymosus | Lacrimose Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
 | anisognathus-igniventris | Scarlet-bellied Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
+| anisognathus-notabilis | Black-chinned Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
 | dubusia-taeniata | Buff-banded Mountain Tanager | Танагры и кардиналы | 2026-09-27 |
+| iridosornis-porphyrocephalus | Purplish-mantled Tanager | Танагры и кардиналы | 2026-09-27 |
 | iridosornis-rufivertex | Golden-crowned Tanager | Танагры и кардиналы | 2026-09-27 |
 | chlorochrysa-phoenicotis | Glistening-green Tanager | Танагры и кардиналы | 2026-09-27 |
 | chlorochrysa-calliparaea | Orange-eared Tanager | Танагры и кардиналы | 2026-09-27 |
@@ -454,20 +429,45 @@
 | ixothraupis-rufigula | Rufous-throated Tanager | Танагры и кардиналы | 2026-09-27 |
 | stilpnia-heinei | Black-capped Tanager | Танагры и кардиналы | 2026-09-27 |
 | stilpnia-vitriolina | Scrub Tanager | Танагры и кардиналы | 2026-09-27 |
+| stilpnia-nigrocincta | Masked Tanager | Танагры и кардиналы | 2026-09-27 |
+| stilpnia-larvata | Golden-hooded Tanager | Танагры и кардиналы | 2026-09-27 |
+| stilpnia-cyanicollis | Blue-necked Tanager | Танагры и кардиналы | 2026-09-27 |
+| tangara-nigroviridis | Beryl-spangled Tanager | Танагры и кардиналы | 2026-09-27 |
+| tangara-cyanotis | Blue-browed Tanager | Танагры и кардиналы | 2026-09-27 |
+| tangara-mexicana | Turquoise Tanager | Танагры и кардиналы | 2026-09-27 |
 | tangara-chilensis | Paradise Tanager | Танагры и кардиналы | 2026-09-27 |
+| tangara-gyrola | Bay-headed Tanager | Танагры и кардиналы | 2026-09-27 |
 | tangara-chrysotis | Golden-eared Tanager | Танагры и кардиналы | 2026-09-27 |
 | tangara-parzudakii | Flame-faced Tanager | Танагры и кардиналы | 2026-09-27 |
+| tangara-schrankii | Green-and-gold Tanager | Танагры и кардиналы | 2026-09-27 |
 | tangara-arthus | Golden Tanager | Танагры и кардиналы | 2026-09-27 |
+| tangara-icterocephala | Silver-throated Tanager | Танагры и кардиналы | 2026-09-27 |
+| tersina-viridis | Swallow Tanager | Танагры и кардиналы | 2026-09-27 |
+| dacnis-egregia | Yellow-tufted Dacnis | Танагры и кардиналы | 2026-09-27 |
 | dacnis-lineata | Black-faced Dacnis | Танагры и кардиналы | 2026-09-27 |
+| dacnis-berlepschi | Scarlet-breasted Dacnis | Танагры и кардиналы | 2026-09-27 |
+| cyanerpes-caeruleus | Purple Honeycreeper | Танагры и кардиналы | 2026-09-27 |
 | chrysothlypis-salmoni | Scarlet-and-white Tanager | Танагры и кардиналы | 2026-09-27 |
+| conirostrum-sitticolor | Blue-backed Conebill | Танагры и кардиналы | 2026-09-27 |
 | conirostrum-rufum | Rufous-browed Conebill | Танагры и кардиналы | 2026-09-27 |
 | diglossa-lafresnayii | Glossy Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
+| diglossa-humeralis | Black Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
+| diglossa-albilatera | White-sided Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
 | diglossa-indigotica | Indigo Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
+| diglossa-sittoides | Rusty Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
 | diglossa-glauca | Deep-blue Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
+| diglossa-caerulescens | Bluish Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
 | diglossa-cyanea | Masked Flowerpiercer | Танагры и кардиналы | 2026-09-27 |
 | catamblyrhynchus-diadema | Plushcap | Танагры и кардиналы | 2026-09-27 |
 | geospizopsis-unicolor | Plumbeous Sierra Finch | Танагры и кардиналы | 2026-09-27 |
+| cnemoscopus-rubrirostris | Pink-billed Cnemoscopus | Танагры и кардиналы | 2026-09-27 |
+| sicalis-flaveola | Saffron Finch | Танагры и кардиналы | 2026-09-27 |
+| sicalis-luteola | Grassland Yellow-Finch | Танагры и кардиналы | 2026-09-27 |
+| volatinia-jacarina | Blue-black Grassquit | Танагры и кардиналы | 2026-09-27 |
 | sporophila-telasco | Chestnut-throated Seedeater | Танагры и кардиналы | 2026-09-27 |
+| sporophila-corvina | Variable Seedeater | Танагры и кардиналы | 2026-09-27 |
+| sporophila-luctuosa | Black-and-white Seedeater | Танагры и кардиналы | 2026-09-27 |
+| catamenia-inornata | Plain-colored Seedeater | Танагры и кардиналы | 2026-09-27 |
 | chlorophonia-flavirostris | Yellow-collared Chlorophonia | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | spinus-spinescens | Andean Siskin | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | zonotrichia-capensis | Rufous-collared Sparrow | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
