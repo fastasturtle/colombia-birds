@@ -1,0 +1,95 @@
+{
+ "authorship": "(Hellmayr, 1906)",
+ "book": {
+  "lynx_page": 343
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grnman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Cryptopipo",
+ "id": "cryptopipo-litae",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18373,
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/grnman1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cryptopipo+litae"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Choco Manakin",
+  "en_aco": null,
+  "es": "Saltarín del Chocó",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cryptopipo litae",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 15727.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Cryptopipo holochlora); added from eBird/Clements 2025. Choco Manakin, split from Green Manakin (C. holochlora) in eBird/Clements: eastern Panama to western Ecuador (route: Pacific Nariño). C. holochlora in the narrow sense is the bird of the east slope and Amazonia (route: Putumayo) (per eBird records by department, GBIF eBird dataset).",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": 1425,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 18,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

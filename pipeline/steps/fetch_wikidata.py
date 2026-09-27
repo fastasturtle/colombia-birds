@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import SOURCES, checklist, get_json, log, norm_sci, read_json, write_json  # noqa: E402
+from common import MAPPINGS, SOURCES, checklist, get_json, log, norm_sci, read_json, write_json  # noqa: E402
 
 # Official WDQS rate-limits shared IPs aggressively; QLever is a full Wikidata mirror with a SPARQL API.
 ENDPOINT = "https://qlever.dev/api/wikidata"
@@ -113,6 +113,14 @@ def main() -> None:
         for aco_key in code_to_aco.get(r["ebird"], []):
             store(aco_key, r, "ebird_code")
 
+    # Whole-species remaps (clements2025.json `renamed`): the ACO name is the extralimital half of a split, never use it
+    # (eBird codes are reused after splits, so the item found by code can be the other half or one of its subspecies).
+    renamed = (read_json(MAPPINGS / "clements2025.json") or {}).get("renamed", {})
+    renamed_aco = {norm_sci(r.get("aco") or old.replace("-", " ")) for old, r in renamed.items()}
+    for k in renamed_aco:
+        if k in out and " ".join(norm_sci(out[k]["sci_wikidata"] or "").split()[:2]) != aco_to_ebird.get(k):
+            del out[k]
+
     rest = [k for k in aco if k not in out]
     names = sorted({aco[k]["sci_name"] for k in rest} | {ebird[aco_to_ebird[k]]["sci_name"] for k in rest if aco_to_ebird[k] in ebird})
     by_sci = {}
@@ -122,7 +130,10 @@ def main() -> None:
         # After a split (ACO name and eBird name are both eBird species, aco_to_ebird.json) the ACO name is the
         # other half of the split: try the eBird name first.
         split = aco_to_ebird[k] != k and k in ebird
-        r = (by_sci.get(aco_to_ebird[k]) or by_sci.get(k)) if split else (by_sci.get(k) or by_sci.get(aco_to_ebird[k]))
+        if k in renamed_aco:
+            r = by_sci.get(aco_to_ebird[k])
+        else:
+            r = (by_sci.get(aco_to_ebird[k]) or by_sci.get(k)) if split else (by_sci.get(k) or by_sci.get(aco_to_ebird[k]))
         if r:
             store(k, r, "sci_name")
 

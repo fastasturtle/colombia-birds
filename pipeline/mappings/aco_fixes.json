@@ -1,5 +1,7 @@
 {
- "_comment": "Field corrections to the ACO 2022 Darwin Core archive (data/sources/aco.json), applied by common.checklist() for every step that reads the list. Key = normalised ACO scientific name. Grallaria saturata / G. saltuensis: the archive's vernacularName values are swapped (saturata = Equatorial Antpitta, saltuensis = Perijá Antpitta, as in SACC and eBird/Clements).",
+ "_comment": "Field corrections to the ACO 2022 Darwin Core archive (data/sources/aco.json), applied by common.checklist() for every step that reads the list. Key = normalised ACO scientific name. Grallaria saturata / G. saltuensis: the archive's vernacularName values are swapped (saturata = Equatorial Antpitta, saltuensis = Perijá Antpitta, as in SACC and eBird/Clements). Oxyura jamaicensis: remapped to Andean Duck O. ferruginea (aco_to_ebird.json), a resident; the uncertain boreal-migrant part of the ACO status belongs to North American Ruddy Duck, which is not in the list. Setophaga petechia: after the eBird/Clements 2025 split the ACO record is Mangrove Yellow Warbler (resident on the coasts); the boreal migrants of the ACO status are Northern Yellow Warbler S. aestiva (clements2025.json).",
  "grallaria saturata": {"name_en_aco": "Equatorial Antpitta"},
- "grallaria saltuensis": {"name_en_aco": "Perijá Antpitta"}
+ "grallaria saltuensis": {"name_en_aco": "Perijá Antpitta"},
+ "oxyura jamaicensis": {"migration_note": null, "status": {"codes": ["resident"], "raw": "Residente (ACO 2022: «Migratorio Boreal? - Residente»; северные мигранты — это Ruddy Duck, O. jamaicensis в узком смысле)", "uncertain": false}},
+ "setophaga petechia": {"migration_note": null, "status": {"codes": ["resident"], "raw": "Residente (мангровая форма; ACO 2022: «Migratorio Boreal» — северные мигранты теперь Setophaga aestiva)", "uncertain": false}}
 }

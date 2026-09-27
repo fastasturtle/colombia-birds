@@ -1,0 +1,96 @@
+{
+ "authorship": "(P.L.Sclater, 1857)",
+ "book": {
+  "lynx_page": 357
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "surfly1",
+ "family": {
+  "code": "rfaall1",
+  "en": "Royal Flycatchers and Allies",
+  "sci": "Onychorhynchidae"
+ },
+ "genus": "Myiobius",
+ "id": "myiobius-sulphureipygius",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18660,
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/surfly1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiobius+sulphureipygius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sulphur-rumped Flycatcher",
+  "en_aco": null,
+  "es": "Moscareta Culiamarilla",
+  "ru": "Желтогузый широкохвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiobius sulphureipygius",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 16124.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Myiobius barbatus); added from eBird/Clements 2025. Sulphur-rumped Flycatcher, split from Whiskered Flycatcher (M. barbatus) in eBird/Clements: southern Mexico to western Colombia and western Ecuador (route: Pacific Nariño). M. barbatus in the narrow sense is the Amazonian bird east of the Andes.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.200000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

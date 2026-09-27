@@ -1,0 +1,95 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "book": {
+  "lynx_page": 494
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rucwar4",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Basileuterus",
+ "id": "basileuterus-delattrii",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36419,
+  "gbif": 2489785,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/rucwar4",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Basileuterus+delattrii"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Chestnut-capped Warbler",
+  "en_aco": "Rufous-capped Warbler",
+  "es": "Reinita Coronicastaña",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Basileuterus delattrii",
+ "sci_name_aco": "Basileuterus rufifrons",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 34233.0,
+ "taxonomy_note": "ACO/SACC lists this as Basileuterus rufifrons; eBird/Clements uses Basileuterus delattrii.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

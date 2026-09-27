@@ -1,0 +1,104 @@
+{
+ "authorship": "(Scopoli, 1769)",
+ "book": {
+  "lynx_page": 174
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brnowl",
+ "family": {
+  "code": "tytoni1",
+  "en": "Barn-Owls",
+  "sci": "Tytonidae"
+ },
+ "genus": "Tyto",
+ "id": "tyto-furcata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 8904,
+  "gbif": 2497921,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/brnowl",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyto+furcata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "American Barn Owl",
+  "en_aco": "Barn Owl",
+  "es": "Lechuza Común Americana",
+  "ru": null
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Tyto furcata",
+ "sci_name_aco": "Tyto alba",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 8633.0,
+ "taxonomy_note": "ACO/SACC lists this as Tyto alba; eBird/Clements uses Tyto furcata.",
+ "texts": {},
+ "traits": {
+  "diet_desc": "Discarded eggshells and feces of smaller nestlings",
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 10,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "riparian",
+   "desert",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 473.68333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

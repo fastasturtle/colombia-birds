@@ -11,7 +11,7 @@ key_features:
 similar:
   - id: tachybaptus-dominicus
     how: "заметно мельче, клюв тонкий и острый, глаз ярко-жёлтый, голова серая"
-  - id: oxyura-jamaicensis
+  - id: oxyura-ferruginea
     how: "клюв широкий, лопаточкой; хвост жёсткий, часто задран; самец каштановый с голубым клювом"
 behavior: "Держится поодиночке или парами у края тростников на озёрах, прудах и болотах. При опасности не взлетает, а ныряет или медленно погружается, оставляя над водой только голову."
 voice: "Громкая серия «кау-кау-кау-каум-каум», замедляющаяся к концу; слышна издалека."
@@ -36,7 +36,7 @@ en:
   similar:
     - id: tachybaptus-dominicus
       how: "clearly smaller, thin pointed bill, bright yellow eye, gray head"
-    - id: oxyura-jamaicensis
+    - id: oxyura-ferruginea
       how: "broad scoop-shaped bill; stiff tail, often cocked; male chestnut with a blue bill"
   behavior: "Keeps singly or in pairs along reed edges on lakes, ponds and marshes. When alarmed it does not fly but dives or slowly sinks until only the head is above water."
   voice: "A loud series 'cow-cow-cow-cowm-cowm', slowing at the end; carries far."

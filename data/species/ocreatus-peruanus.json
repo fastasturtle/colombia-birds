@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gould, 1849)",
+ "book": {
+  "lynx_page": 95
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "boorat2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Ocreatus",
+ "id": "ocreatus-peruanus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 3173,
+  "gbif": 9449567,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/boorat2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ocreatus+peruanus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Peruvian Racket-tail",
+  "en_aco": null,
+  "es": "Colibrí de Raquetas Peruano",
+  "ru": null
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Ocreatus peruanus",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 4684.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Ocreatus underwoodii); added from eBird/Clements 2025. Peruvian Racket-tail, split from Booted Racket-tail (O. underwoodii) in eBird/Clements: east slope of the Andes from southern Colombia to Peru; Colombian eBird records are almost all from Putumayo (route: Mocoa area). O. underwoodii (White-booted Racket-tail) stays for the rest of the Andes (per eBird records by department, GBIF eBird dataset).",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

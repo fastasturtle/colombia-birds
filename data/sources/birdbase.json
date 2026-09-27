@@ -1,6 +1,6 @@
 {
  "citation": "Şekercioğlu, Ç. H., et al. 2025. BIRDBASE: A Global Database of Avian Biogeography, Conservation, Ecology and Life History Traits. Scientific Data. v2025.1, CC BY 4.0. https://doi.org/10.6084/m9.figshare.27051040",
- "count": 1968,
+ "count": 1982,
  "species": {
   "aburria aburri": {
    "birdbase_id": 728,
@@ -635,37 +635,37 @@
    "sci_ioc": "Amaurolimnas concolor"
   },
   "amaurospiza concolor": {
-   "birdbase_id": 36683,
+   "birdbase_id": 36687,
    "diet_desc": null,
    "elevation": {
-    "max": 2500,
+    "max": 2300,
     "max_extreme": null,
-    "min": 600,
-    "min_extreme": null
+    "min": 1100,
+    "min_extreme": 800
    },
    "habitat_breadth": 3,
    "habitats": [
     "forest",
     "bamboo",
-    "shrubland"
+    "woodland"
    ],
    "iucn_2024": null,
-   "mass_g": 13.5,
+   "mass_g": null,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
-    "irregular": 1,
+    "irregular": null,
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Blue Seedeater",
-   "primary_diet": "Herbivore",
+   "name_en": "Ecuadorian Seedeater",
+   "primary_diet": "Seed",
    "primary_habitat": "Forest",
    "range_restricted": null,
-   "sci_avilist": "Amaurospiza concolor",
+   "sci_avilist": "Amaurospiza aequatorialis",
    "sci_birdlife": null,
-   "sci_clements": "Amaurospiza concolor",
-   "sci_ioc": "Amaurospiza concolor"
+   "sci_clements": "Amaurospiza aequatorialis",
+   "sci_ioc": "Amaurospiza aequatorialis"
   },
   "amazilia tzacatl": {
    "birdbase_id": 3611,
@@ -4897,6 +4897,37 @@
    "sci_clements": "Automolus subulatus",
    "sci_ioc": "Automolus subulatus"
   },
+  "automolus virgatus": {
+   "birdbase_id": 15215,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1500,
+    "max_extreme": 1750,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 1,
+   "habitats": [
+    "forest"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 33.849999999999994,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Western Woodhaunter",
+   "primary_diet": "Carnivore",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": "Automolus virgatus",
+   "sci_birdlife": "Automolus virgatus",
+   "sci_clements": "Automolus virgatus",
+   "sci_ioc": "Automolus virgatus"
+  },
   "avocettula recurvirostris": {
    "birdbase_id": 2839,
    "diet_desc": null,
@@ -5323,22 +5354,20 @@
    "sci_ioc": "Basileuterus ignotus"
   },
   "basileuterus rufifrons": {
-   "birdbase_id": 36413,
+   "birdbase_id": 36419,
    "diet_desc": null,
    "elevation": {
-    "max": 2500,
-    "max_extreme": 3000,
+    "max": 1500,
+    "max_extreme": null,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 3,
+   "habitat_breadth": 1,
    "habitats": [
-    "forest",
-    "shrubland",
-    "agricultural"
+    "forest"
    ],
-   "iucn_2024": "LC",
-   "mass_g": 11.299999999999999,
+   "iucn_2024": null,
+   "mass_g": 11.5,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -5346,14 +5375,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Rufous-capped Warbler",
+   "name_en": "Chestnut-capped Warbler",
    "primary_diet": "Invertebrate",
-   "primary_habitat": "Shrub",
-   "range_restricted": 0,
-   "sci_avilist": "Basileuterus rufifrons",
-   "sci_birdlife": "Basileuterus rufifrons",
-   "sci_clements": "Basileuterus rufifrons",
-   "sci_ioc": "Basileuterus rufifrons"
+   "primary_habitat": "Forest",
+   "range_restricted": null,
+   "sci_avilist": "Basileuterus delattrii",
+   "sci_birdlife": null,
+   "sci_clements": "Basileuterus delattrii",
+   "sci_ioc": "Basileuterus delattrii"
   },
   "basileuterus tristriatus": {
    "birdbase_id": 36464,
@@ -11985,6 +12014,38 @@
    "sci_clements": "Chlorothraupis carmioli",
    "sci_ioc": "Chlorothraupis carmioli"
   },
+  "chlorothraupis frenata": {
+   "birdbase_id": 36608,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1350,
+    "max_extreme": null,
+    "min": 300,
+    "min_extreme": null
+   },
+   "habitat_breadth": 2,
+   "habitats": [
+    "forest",
+    "rivers_lakes"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": null,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Yellow-lored Tanager",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": "Chlorothraupis frenata",
+   "sci_birdlife": "Habia frenata",
+   "sci_clements": "Chlorothraupis frenata",
+   "sci_ioc": "Chlorothraupis frenata"
+  },
   "chlorothraupis olivacea": {
    "birdbase_id": 36610,
    "diet_desc": null,
@@ -15177,21 +15238,25 @@
    "sci_ioc": "Conothraupis speculigera"
   },
   "contopus cinereus": {
-   "birdbase_id": 17700,
+   "birdbase_id": 17692,
    "diet_desc": null,
    "elevation": {
-    "max": 1300,
-    "max_extreme": 2850,
+    "max": 1900,
+    "max_extreme": 2600,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 6,
    "habitats": [
     "forest",
-    "woodland"
+    "woodland",
+    "shrubland",
+    "agricultural",
+    "rivers_lakes",
+    "coastal"
    ],
    "iucn_2024": "LC",
-   "mass_g": 11.75,
+   "mass_g": 11,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -15199,14 +15264,14 @@
     "migratory": 2,
     "sedentary": 1
    },
-   "name_en": "Southern Tropical Pewee",
+   "name_en": "Northern Tropical Pewee",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Contopus cinereus",
-   "sci_birdlife": "Contopus cinereus",
-   "sci_clements": "Contopus cinereus",
-   "sci_ioc": "Contopus cinereus"
+   "sci_avilist": "Contopus bogotensis",
+   "sci_birdlife": "Contopus bogotensis",
+   "sci_clements": "Contopus bogotensis",
+   "sci_ioc": "Contopus bogotensis"
   },
   "contopus cooperi": {
    "birdbase_id": 17668,
@@ -16348,6 +16413,37 @@
    "sci_clements": "Cryptopipo holochlora",
    "sci_ioc": "Cryptopipo holochlora"
   },
+  "cryptopipo litae": {
+   "birdbase_id": 18373,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1250,
+    "max_extreme": 1425,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 1,
+   "habitats": [
+    "forest"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 18,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Choco Manakin",
+   "primary_diet": "Fruit",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": "Cryptopipo litae",
+   "sci_birdlife": "Cryptopipo litae",
+   "sci_clements": "Cryptopipo litae",
+   "sci_ioc": "Cryptopipo litae"
+  },
   "crypturellus bartletti": {
    "birdbase_id": 147,
    "diet_desc": null,
@@ -17359,7 +17455,7 @@
    "sci_ioc": "Cyphorhinus phaeocephalus"
   },
   "cyphorhinus thoracicus": {
-   "birdbase_id": 29377,
+   "birdbase_id": 29375,
    "diet_desc": null,
    "elevation": {
     "max": 2700,
@@ -17372,7 +17468,7 @@
     "forest"
    ],
    "iucn_2024": "LC",
-   "mass_g": 31.02,
+   "mass_g": 31.025,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -17380,14 +17476,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Southern Chestnut-breasted Wren",
+   "name_en": "Northern Chestnut-breasted Wren",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Cyphorhinus thoracicus",
-   "sci_birdlife": "Cyphorhinus thoracicus",
-   "sci_clements": "Cyphorhinus thoracicus",
-   "sci_ioc": "Cyphorhinus thoracicus"
+   "sci_avilist": "Cyphorhinus dichrous",
+   "sci_birdlife": "Cyphorhinus dichrous",
+   "sci_clements": "Cyphorhinus dichrous",
+   "sci_ioc": "Cyphorhinus dichrous"
   },
   "cypseloides cherriei": {
    "birdbase_id": 2263,
@@ -17883,11 +17979,11 @@
    "sci_ioc": "Daptrius ater"
   },
   "deconychura longicauda": {
-   "birdbase_id": 14560,
+   "birdbase_id": 14562,
    "diet_desc": null,
    "elevation": {
-    "max": 1260,
-    "max_extreme": null,
+    "max": 1700,
+    "max_extreme": 1750,
     "min": 0,
     "min_extreme": null
    },
@@ -17896,7 +17992,7 @@
     "forest"
    ],
    "iucn_2024": "LC",
-   "mass_g": 27.766666666666666,
+   "mass_g": 28,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -17904,14 +18000,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Northern Long-tailed Woodcreeper",
+   "name_en": "Southern Long-tailed Woodcreeper",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Deconychura longicauda",
-   "sci_birdlife": "Deconychura longicauda",
-   "sci_clements": "Deconychura longicauda",
-   "sci_ioc": "Deconychura longicauda"
+   "sci_avilist": "Deconychura pallida",
+   "sci_birdlife": "Deconychura pallida",
+   "sci_clements": "Deconychura pallida",
+   "sci_ioc": "Deconychura pallida"
   },
   "dendrexetastes rufigula": {
    "birdbase_id": 14618,
@@ -22741,6 +22837,40 @@
    "sci_clements": "Formicivora grisea",
    "sci_ioc": "Formicivora grisea"
   },
+  "formicivora intermedia": {
+   "birdbase_id": 15833,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1000,
+    "max_extreme": 2000,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 4,
+   "habitats": [
+    "woodland",
+    "shrubland",
+    "rivers_lakes",
+    "coastal"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 11,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Northern White-fringed Antwren",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Shrub",
+   "range_restricted": 0,
+   "sci_avilist": "Formicivora intermedia",
+   "sci_birdlife": "Formicivora intermedia",
+   "sci_clements": "Formicivora intermedia",
+   "sci_ioc": "Formicivora intermedia"
+  },
   "forpus coelestis": {
    "birdbase_id": 13364,
    "diet_desc": null,
@@ -23132,6 +23262,41 @@
    "sci_birdlife": "Fulica ardesiaca",
    "sci_clements": "Fulica ardesiaca",
    "sci_ioc": "Fulica ardesiaca"
+  },
+  "furnarius cinnamomeus": {
+   "birdbase_id": 14969,
+   "diet_desc": null,
+   "elevation": {
+    "max": 800,
+    "max_extreme": 2700,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 5,
+   "habitats": [
+    "woodland",
+    "shrubland",
+    "plantation",
+    "agricultural",
+    "rivers_lakes"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 54.45,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Pacific Hornero",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Shrub",
+   "range_restricted": 0,
+   "sci_avilist": "Furnarius cinnamomeus",
+   "sci_birdlife": "Furnarius cinnamomeus",
+   "sci_clements": "Furnarius cinnamomeus",
+   "sci_ioc": "Furnarius cinnamomeus"
   },
   "furnarius leucopus": {
    "birdbase_id": 14974,
@@ -25605,7 +25770,7 @@
    "sci_ioc": "Graydidascalus brachyurus"
   },
   "gygis alba": {
-   "birdbase_id": 6912,
+   "birdbase_id": 6914,
    "diet_desc": null,
    "elevation": {
     "max": 50,
@@ -25621,7 +25786,7 @@
     "sea"
    ],
    "iucn_2024": "LC",
-   "mass_g": 138,
+   "mass_g": 106.5,
    "mobility": {
     "altitudinal": null,
     "dispersive": 1,
@@ -25629,14 +25794,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Atlantic White Tern",
+   "name_en": "Common White Tern",
    "primary_diet": "Fish",
    "primary_habitat": "Sea",
    "range_restricted": 0,
-   "sci_avilist": "Gygis alba",
-   "sci_birdlife": "Gygis alba",
-   "sci_clements": "Gygis alba",
-   "sci_ioc": "Gygis alba"
+   "sci_avilist": "Gygis candida",
+   "sci_birdlife": "Gygis candida",
+   "sci_clements": null,
+   "sci_ioc": null
   },
   "gymnocichla nudiceps": {
    "birdbase_id": 16390,
@@ -30093,36 +30258,36 @@
    "sci_ioc": "Lampropsar tanagrinus"
   },
   "laniisoma elegans": {
-   "birdbase_id": 18559,
+   "birdbase_id": 18555,
    "diet_desc": null,
    "elevation": {
-    "max": 1300,
-    "max_extreme": 2000,
-    "min": 0,
-    "min_extreme": null
+    "max": 1830,
+    "max_extreme": null,
+    "min": 200,
+    "min_extreme": 0
    },
    "habitat_breadth": 2,
    "habitats": [
     "forest",
-    "woodland"
+    "rivers_lakes"
    ],
-   "iucn_2024": "NT",
-   "mass_g": 46.88333333333333,
+   "iucn_2024": "LC",
+   "mass_g": 48.4,
    "mobility": {
-    "altitudinal": 1,
+    "altitudinal": null,
     "dispersive": null,
     "irregular": 1,
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Elegant Mourner",
-   "primary_diet": "Omnivore",
+   "name_en": "Andean Mourner",
+   "primary_diet": "Fruit",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Laniisoma elegans",
-   "sci_birdlife": "Laniisoma elegans",
-   "sci_clements": "Laniisoma elegans",
-   "sci_ioc": "Laniisoma elegans"
+   "sci_avilist": "Laniisoma buckleyi",
+   "sci_birdlife": "Laniisoma buckleyi",
+   "sci_clements": "Laniisoma buckleyi",
+   "sci_ioc": "Laniisoma buckleyi"
   },
   "lanio fulvus": {
    "birdbase_id": 37159,
@@ -30254,17 +30419,18 @@
    "sci_ioc": "Larosterna inca"
   },
   "larus argentatus": {
-   "birdbase_id": 7154,
-   "diet_desc": "Eggs",
+   "birdbase_id": 7184,
+   "diet_desc": null,
    "elevation": {
     "max": 2000,
     "max_extreme": null,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 6,
+   "habitat_breadth": 7,
    "habitats": [
     "forest",
+    "grassland",
     "riparian",
     "agricultural",
     "coastal",
@@ -30272,22 +30438,22 @@
     "sea"
    ],
    "iucn_2024": "LC",
-   "mass_g": 1110,
+   "mass_g": 1108,
    "mobility": {
     "altitudinal": null,
     "dispersive": 1,
     "irregular": null,
-    "migratory": 1,
+    "migratory": 2,
     "sedentary": 1
    },
-   "name_en": "European Herring Gull",
+   "name_en": "Arctic Herring Gull",
    "primary_diet": "Carnivore",
    "primary_habitat": "Coastal",
    "range_restricted": 0,
-   "sci_avilist": "Larus argentatus",
-   "sci_birdlife": "Larus argentatus",
-   "sci_clements": "Larus argentatus",
-   "sci_ioc": "Larus argentatus"
+   "sci_avilist": "Larus smithsonianus",
+   "sci_birdlife": "Larus smithsonianus",
+   "sci_clements": "Larus smithsonianus",
+   "sci_ioc": "Larus smithsonianus"
   },
   "larus belcheri": {
    "birdbase_id": 7129,
@@ -32166,7 +32332,7 @@
    "sci_ioc": "Padda oryzivora"
   },
   "lophornis chalybeus": {
-   "birdbase_id": 2913,
+   "birdbase_id": 2915,
    "diet_desc": null,
    "elevation": {
     "max": 1000,
@@ -32174,10 +32340,11 @@
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 3,
    "habitats": [
     "forest",
-    "shrubland"
+    "agricultural",
+    "rivers_lakes"
    ],
    "iucn_2024": "LC",
    "mass_g": 3,
@@ -32188,14 +32355,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Festive Coquette",
+   "name_en": "Butterfly Coquette",
    "primary_diet": "Nectar",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Lophornis chalybeus",
-   "sci_birdlife": "Lophornis chalybeus",
-   "sci_clements": "Lophornis chalybeus",
-   "sci_ioc": "Lophornis chalybeus"
+   "sci_avilist": "Lophornis verreauxii",
+   "sci_birdlife": "Lophornis verreauxii",
+   "sci_clements": "Lophornis verreauxii",
+   "sci_ioc": "Lophornis verreauxii"
   },
   "lophornis delattrei": {
    "birdbase_id": 2907,
@@ -34735,22 +34902,23 @@
    "sci_ioc": "Mionectes oleagineus"
   },
   "mionectes olivaceus": {
-   "birdbase_id": 17226,
+   "birdbase_id": 17228,
    "diet_desc": null,
    "elevation": {
-    "max": 2150,
+    "max": 1700,
     "max_extreme": 3000,
-    "min": 500,
-    "min_extreme": 50
+    "min": 300,
+    "min_extreme": 0
    },
-   "habitat_breadth": 3,
+   "habitat_breadth": 4,
    "habitats": [
     "forest",
     "woodland",
-    "agricultural"
+    "agricultural",
+    "rivers_lakes"
    ],
    "iucn_2024": "LC",
-   "mass_g": 14.7,
+   "mass_g": 13.7,
    "mobility": {
     "altitudinal": 1,
     "dispersive": null,
@@ -34758,14 +34926,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Olive-streaked Flycatcher",
+   "name_en": "Olive-striped Flycatcher",
    "primary_diet": "Fruit",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Mionectes olivaceus",
-   "sci_birdlife": "Mionectes olivaceus",
-   "sci_clements": "Mionectes olivaceus",
-   "sci_ioc": "Mionectes olivaceus"
+   "sci_avilist": null,
+   "sci_birdlife": "Mionectes galbinus",
+   "sci_clements": "Mionectes galbinus",
+   "sci_ioc": "Mionectes galbinus"
   },
   "mionectes striaticollis": {
    "birdbase_id": 17219,
@@ -36062,6 +36230,38 @@
    "sci_clements": "Myiobius barbatus",
    "sci_ioc": "Myiobius barbatus"
   },
+  "myiobius sulphureipygius": {
+   "birdbase_id": 18660,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1200,
+    "max_extreme": null,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 2,
+   "habitats": [
+    "forest",
+    "rivers_lakes"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 11.200000000000001,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Sulphur-rumped Flycatcher",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": "Myiobius sulphureipygius",
+   "sci_birdlife": "Myiobius sulphureipygius",
+   "sci_clements": "Myiobius sulphureipygius",
+   "sci_ioc": "Myiobius sulphureipygius"
+  },
   "myiobius villosus": {
    "birdbase_id": 18655,
    "diet_desc": null,
@@ -36222,35 +36422,37 @@
    "sci_ioc": "Myioborus ornatus"
   },
   "myiodynastes chrysocephalus": {
-   "birdbase_id": 18027,
+   "birdbase_id": 18023,
    "diet_desc": null,
    "elevation": {
-    "max": 2800,
-    "max_extreme": 3100,
-    "min": 1000,
-    "min_extreme": 350
+    "max": 2300,
+    "max_extreme": null,
+    "min": 600,
+    "min_extreme": null
    },
-   "habitat_breadth": 1,
+   "habitat_breadth": 3,
    "habitats": [
-    "forest"
+    "forest",
+    "rivers_lakes",
+    "wetland"
    ],
    "iucn_2024": "LC",
-   "mass_g": 37.5,
+   "mass_g": 41.275,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
-    "irregular": null,
+    "irregular": 1,
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Golden-crowned Flycatcher",
-   "primary_diet": "Invertebrate",
+   "name_en": "Golden-bellied Flycatcher",
+   "primary_diet": "Omnivore",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Myiodynastes chrysocephalus",
-   "sci_birdlife": "Myiodynastes chrysocephalus",
-   "sci_clements": "Myiodynastes chrysocephalus",
-   "sci_ioc": "Myiodynastes chrysocephalus"
+   "sci_avilist": "Myiodynastes hemichrysus",
+   "sci_birdlife": "Myiodynastes hemichrysus",
+   "sci_clements": "Myiodynastes hemichrysus",
+   "sci_ioc": "Myiodynastes hemichrysus"
   },
   "myiodynastes luteiventris": {
    "birdbase_id": 18030,
@@ -36320,38 +36522,35 @@
    "sci_ioc": "Myiodynastes maculatus"
   },
   "myiopagis caniceps": {
-   "birdbase_id": 16907,
+   "birdbase_id": 16905,
    "diet_desc": null,
    "elevation": {
-    "max": 1100,
-    "max_extreme": 1900,
+    "max": 950,
+    "max_extreme": 1200,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 4,
+   "habitat_breadth": 1,
    "habitats": [
-    "forest",
-    "woodland",
-    "shrubland",
-    "rivers_lakes"
+    "forest"
    ],
    "iucn_2024": "LC",
-   "mass_g": 11.5,
+   "mass_g": 10.7,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
     "irregular": null,
-    "migratory": 2,
+    "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Atlantic Grey Elaenia",
+   "name_en": "Amazonian Grey Elaenia",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Myiopagis caniceps",
-   "sci_birdlife": "Myiopagis caniceps",
-   "sci_clements": "Myiopagis caniceps",
-   "sci_ioc": "Myiopagis caniceps"
+   "sci_avilist": "Myiopagis cinerea",
+   "sci_birdlife": "Myiopagis cinerea",
+   "sci_clements": "Myiopagis cinerea",
+   "sci_ioc": "Myiopagis cinerea"
   },
   "myiopagis flavivertex": {
    "birdbase_id": 16915,
@@ -36447,6 +36646,37 @@
    "sci_birdlife": "Myiopagis olallai",
    "sci_clements": "Myiopagis olallai",
    "sci_ioc": "Myiopagis olallai"
+  },
+  "myiopagis parambae": {
+   "birdbase_id": 16902,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1000,
+    "max_extreme": null,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 1,
+   "habitats": [
+    "forest"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 10.5,
+   "mobility": {
+    "altitudinal": 1,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Choco Grey Elaenia",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": "Myiopagis parambae",
+   "sci_birdlife": "Myiopagis parambae",
+   "sci_clements": "Myiopagis parambae",
+   "sci_ioc": "Myiopagis parambae"
   },
   "myiopagis viridicata": {
    "birdbase_id": 16916,
@@ -39711,6 +39941,37 @@
    "sci_clements": "Ochthornis littoralis",
    "sci_ioc": "Ochthornis littoralis"
   },
+  "ocreatus peruanus": {
+   "birdbase_id": 3173,
+   "diet_desc": null,
+   "elevation": {
+    "max": 2400,
+    "max_extreme": null,
+    "min": 1000,
+    "min_extreme": null
+   },
+   "habitat_breadth": 1,
+   "habitats": [
+    "forest"
+   ],
+   "iucn_2024": null,
+   "mass_g": 3,
+   "mobility": {
+    "altitudinal": 1,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": null
+   },
+   "name_en": "Peruvian Racket-tail",
+   "primary_diet": "Nectar",
+   "primary_habitat": "Forest",
+   "range_restricted": null,
+   "sci_avilist": "Ocreatus peruanus",
+   "sci_birdlife": null,
+   "sci_clements": "Ocreatus peruanus",
+   "sci_ioc": "Ocreatus peruanus"
+  },
   "ocreatus underwoodii": {
    "birdbase_id": 3167,
    "diet_desc": null,
@@ -40919,36 +41180,35 @@
    "sci_ioc": "Oxyruncus cristatus"
   },
   "oxyura jamaicensis": {
-   "birdbase_id": 544,
+   "birdbase_id": 547,
    "diet_desc": null,
    "elevation": {
-    "max": 2200,
+    "max": 4500,
     "max_extreme": null,
-    "min": 0,
-    "min_extreme": null
+    "min": 2000,
+    "min_extreme": 875
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 1,
    "habitats": [
-    "coastal",
     "wetland"
    ],
    "iucn_2024": "LC",
-   "mass_g": 586.6666666666666,
+   "mass_g": 800.75,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
     "irregular": null,
-    "migratory": 1,
+    "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Ruddy Duck",
+   "name_en": "Andean Duck",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Wetland",
    "range_restricted": 0,
-   "sci_avilist": "Oxyura jamaicensis",
-   "sci_birdlife": "Oxyura jamaicensis",
-   "sci_clements": "Oxyura jamaicensis",
-   "sci_ioc": "Oxyura jamaicensis"
+   "sci_avilist": null,
+   "sci_birdlife": "Oxyura ferruginea",
+   "sci_clements": "Oxyura ferruginea",
+   "sci_ioc": "Oxyura ferruginea"
   },
   "pachyramphus albogriseus": {
    "birdbase_id": 18605,
@@ -41215,6 +41475,40 @@
    "sci_birdlife": "Pachyramphus rufus",
    "sci_clements": "Pachyramphus rufus",
    "sci_ioc": "Pachyramphus rufus"
+  },
+  "pachyramphus salvini": {
+   "birdbase_id": 18590,
+   "diet_desc": null,
+   "elevation": {
+    "max": 3200,
+    "max_extreme": null,
+    "min": 300,
+    "min_extreme": null
+   },
+   "habitat_breadth": 4,
+   "habitats": [
+    "forest",
+    "woodland",
+    "shrubland",
+    "agricultural"
+   ],
+   "iucn_2024": null,
+   "mass_g": 17.75,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": 1,
+    "irregular": null,
+    "migratory": 2,
+    "sedentary": 1
+   },
+   "name_en": "Cryptic Becard",
+   "primary_diet": "Fruit",
+   "primary_habitat": "Forest",
+   "range_restricted": null,
+   "sci_avilist": "Pachyramphus salvini",
+   "sci_birdlife": null,
+   "sci_clements": "Pachyramphus salvini",
+   "sci_ioc": "Pachyramphus salvini"
   },
   "pachyramphus versicolor": {
    "birdbase_id": 18571,
@@ -42771,25 +43065,24 @@
    "sci_ioc": "Petrochelidon pyrrhonota"
   },
   "phacellodomus rufifrons": {
-   "birdbase_id": 15298,
+   "birdbase_id": 15304,
    "diet_desc": null,
    "elevation": {
-    "max": 1400,
-    "max_extreme": 2300,
+    "max": 1000,
+    "max_extreme": 1700,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 6,
+   "habitat_breadth": 5,
    "habitats": [
     "forest",
     "woodland",
     "shrubland",
     "savanna",
-    "agricultural",
     "rivers_lakes"
    ],
    "iucn_2024": "LC",
-   "mass_g": 23.2,
+   "mass_g": 26.25,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -42797,14 +43090,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Rufous-fronted Thornbird",
+   "name_en": "Plain Thornbird",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Shrub",
    "range_restricted": 0,
-   "sci_avilist": "Phacellodomus rufifrons",
-   "sci_birdlife": "Phacellodomus rufifrons",
-   "sci_clements": "Phacellodomus rufifrons",
-   "sci_ioc": "Phacellodomus rufifrons"
+   "sci_avilist": "Phacellodomus inornatus",
+   "sci_birdlife": "Phacellodomus inornatus",
+   "sci_clements": "Phacellodomus inornatus",
+   "sci_ioc": "Phacellodomus inornatus"
   },
   "phaenostictus mcleannani": {
    "birdbase_id": 16148,
@@ -44647,36 +44940,35 @@
    "sci_ioc": "Phyllaemulor bracteatus"
   },
   "phyllomyias burmeisteri": {
-   "birdbase_id": 16880,
+   "birdbase_id": 16882,
    "diet_desc": null,
    "elevation": {
-    "max": 1800,
+    "max": 2800,
     "max_extreme": null,
-    "min": 0,
-    "min_extreme": null
+    "min": 500,
+    "min_extreme": 100
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 1,
    "habitats": [
-    "forest",
-    "woodland"
+    "forest"
    ],
    "iucn_2024": "LC",
-   "mass_g": 14.4,
+   "mass_g": 10.3,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
     "irregular": null,
-    "migratory": 2,
+    "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Rough-legged Tyrannulet",
+   "name_en": "White-fronted Tyrannulet",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Acrochordopus burmeisteri",
-   "sci_birdlife": "Phyllomyias burmeisteri",
-   "sci_clements": "Acrochordopus burmeisteri",
-   "sci_ioc": "Acrochordopus burmeisteri"
+   "sci_avilist": "Acrochordopus zeledoni",
+   "sci_birdlife": "Phyllomyias zeledoni",
+   "sci_clements": "Acrochordopus zeledoni",
+   "sci_ioc": "Acrochordopus zeledoni"
   },
   "phyllomyias cinereiceps": {
    "birdbase_id": 16892,
@@ -47166,6 +47458,42 @@
    "sci_birdlife": "Poliocrania exsul",
    "sci_clements": "Poliocrania exsul",
    "sci_ioc": "Poliocrania exsul"
+  },
+  "polioptila bilineata": {
+   "birdbase_id": 29463,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1200,
+    "max_extreme": 1350,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 6,
+   "habitats": [
+    "forest",
+    "woodland",
+    "shrubland",
+    "savanna",
+    "agricultural",
+    "coastal"
+   ],
+   "iucn_2024": null,
+   "mass_g": 5.805,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "White-browed Gnatcatcher",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Woodland",
+   "range_restricted": null,
+   "sci_avilist": "Polioptila bilineata",
+   "sci_birdlife": null,
+   "sci_clements": "Polioptila bilineata",
+   "sci_ioc": "Polioptila bilineata"
   },
   "polioptila facilis": {
    "birdbase_id": 29432,
@@ -50618,11 +50946,11 @@
    "sci_ioc": "Rhynchocyclus fulvipectus"
   },
   "rhynchocyclus olivaceus": {
-   "birdbase_id": 17521,
+   "birdbase_id": 17512,
    "diet_desc": null,
    "elevation": {
     "max": 600,
-    "max_extreme": 1000,
+    "max_extreme": 1100,
     "min": 0,
     "min_extreme": null
    },
@@ -50632,7 +50960,7 @@
     "bamboo"
    ],
    "iucn_2024": "LC",
-   "mass_g": 21.4,
+   "mass_g": 19.25,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
@@ -50640,14 +50968,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Eastern Olivaceous Flatbill",
+   "name_en": "Western Olivaceous Flatbill",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Rhynchocyclus olivaceus",
-   "sci_birdlife": "Rhynchocyclus olivaceus",
-   "sci_clements": "Rhynchocyclus olivaceus",
-   "sci_ioc": "Rhynchocyclus olivaceus"
+   "sci_avilist": "Rhynchocyclus aequinoctialis",
+   "sci_birdlife": "Rhynchocyclus aequinoctialis",
+   "sci_clements": "Rhynchocyclus aequinoctialis",
+   "sci_ioc": "Rhynchocyclus aequinoctialis"
   },
   "rhynchocyclus pacificus": {
    "birdbase_id": 17505,
@@ -52912,6 +53240,42 @@
    "sci_birdlife": "Setopagis heterura",
    "sci_clements": "Setopagis heterura",
    "sci_ioc": "Setopagis heterura"
+  },
+  "setophaga aestiva": {
+   "birdbase_id": 36247,
+   "diet_desc": null,
+   "elevation": {
+    "max": 2700,
+    "max_extreme": null,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 6,
+   "habitats": [
+    "forest",
+    "shrubland",
+    "agricultural",
+    "rivers_lakes",
+    "coastal",
+    "wetland"
+   ],
+   "iucn_2024": null,
+   "mass_g": 9.925,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": 1,
+    "sedentary": 1
+   },
+   "name_en": "American Yellow Warbler",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Shrub",
+   "range_restricted": null,
+   "sci_avilist": "Setophaga aestiva",
+   "sci_birdlife": null,
+   "sci_clements": null,
+   "sci_ioc": "Setophaga aestiva"
   },
   "setophaga americana": {
    "birdbase_id": 36227,
@@ -60859,6 +61223,39 @@
    "sci_clements": "Tolmomyias traylori",
    "sci_ioc": "Tolmomyias traylori"
   },
+  "tolmomyias viridiceps": {
+   "birdbase_id": 17565,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1100,
+    "max_extreme": 1500,
+    "min": "L",
+    "min_extreme": null
+   },
+   "habitat_breadth": 3,
+   "habitats": [
+    "forest",
+    "shrubland",
+    "rivers_lakes"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 13.7,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Olive-faced Flatbill",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Riparian",
+   "range_restricted": 0,
+   "sci_avilist": "Tolmomyias viridiceps",
+   "sci_birdlife": "Tolmomyias viridiceps",
+   "sci_clements": "Tolmomyias viridiceps",
+   "sci_ioc": "Tolmomyias viridiceps"
+  },
   "topaza pyra": {
    "birdbase_id": 2666,
    "diet_desc": null,
@@ -61223,11 +61620,11 @@
    "sci_ioc": "Tringa solitaria"
   },
   "troglodytes aedon": {
-   "birdbase_id": 29220,
-   "diet_desc": null,
+   "birdbase_id": 29229,
+   "diet_desc": "Eggs",
    "elevation": {
     "max": 3000,
-    "max_extreme": 3600,
+    "max_extreme": null,
     "min": 0,
     "min_extreme": null
    },
@@ -61236,28 +61633,28 @@
     "forest",
     "woodland",
     "shrubland",
-    "savanna",
+    "grassland",
+    "desert",
     "agricultural",
-    "rivers_lakes",
-    "wetland"
+    "coastal"
    ],
-   "iucn_2024": "LC",
-   "mass_g": 11.133333333333335,
+   "iucn_2024": null,
+   "mass_g": 12.354999999999999,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
     "irregular": null,
-    "migratory": 1,
+    "migratory": 2,
     "sedentary": 1
    },
-   "name_en": "Northern House Wren",
+   "name_en": "Southern House Wren",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
-   "range_restricted": 0,
-   "sci_avilist": "Troglodytes aedon",
-   "sci_birdlife": "Troglodytes aedon",
-   "sci_clements": "Troglodytes aedon",
-   "sci_ioc": "Troglodytes aedon"
+   "range_restricted": null,
+   "sci_avilist": "Troglodytes musculus",
+   "sci_birdlife": null,
+   "sci_clements": "Troglodytes musculus",
+   "sci_ioc": "Troglodytes musculus"
   },
   "troglodytes monticola": {
    "birdbase_id": 29281,
@@ -61788,6 +62185,37 @@
    "sci_birdlife": "Trogon viridis",
    "sci_clements": "Trogon viridis",
    "sci_ioc": "Trogon viridis"
+  },
+  "tunchiornis ferrugineifrons": {
+   "birdbase_id": 21429,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1200,
+    "max_extreme": null,
+    "min": "L",
+    "min_extreme": null
+   },
+   "habitat_breadth": 1,
+   "habitats": [
+    "forest"
+   ],
+   "iucn_2024": null,
+   "mass_g": null,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": null
+   },
+   "name_en": "Rufous-fronted Greenlet",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": null,
+   "sci_avilist": "Tunchiornis ferrugineifrons",
+   "sci_birdlife": null,
+   "sci_clements": null,
+   "sci_ioc": null
   },
   "tunchiornis ochraceiceps": {
    "birdbase_id": 21423,
@@ -62770,28 +63198,29 @@
    "sci_ioc": "Tyrannus tyrannus"
   },
   "tyto alba": {
-   "birdbase_id": 8892,
-   "diet_desc": null,
+   "birdbase_id": 8904,
+   "diet_desc": "Discarded eggshells and feces of smaller nestlings",
    "elevation": {
     "max": 4000,
     "max_extreme": null,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 9,
+   "habitat_breadth": 10,
    "habitats": [
-    "forest",
     "woodland",
     "shrubland",
     "savanna",
     "grassland",
     "riparian",
+    "desert",
     "agricultural",
+    "rivers_lakes",
     "coastal",
     "wetland"
    ],
-   "iucn_2024": "LC",
-   "mass_g": 345.6666666666667,
+   "iucn_2024": null,
+   "mass_g": 473.68333333333334,
    "mobility": {
     "altitudinal": null,
     "dispersive": 1,
@@ -62799,14 +63228,14 @@
     "migratory": null,
     "sedentary": 1
    },
-   "name_en": "Common Barn-owl",
+   "name_en": "American Barn-Owl",
    "primary_diet": "Vertebrate",
    "primary_habitat": "Grassland",
-   "range_restricted": 0,
-   "sci_avilist": "Tyto alba",
-   "sci_birdlife": "Tyto alba",
-   "sci_clements": "Tyto alba",
-   "sci_ioc": "Tyto alba"
+   "range_restricted": null,
+   "sci_avilist": "Tyto furcata",
+   "sci_birdlife": null,
+   "sci_clements": "Tyto furcata",
+   "sci_ioc": "Tyto furcata"
   },
   "uranomitra franciae": {
    "birdbase_id": 3626,
@@ -63901,37 +64330,67 @@
    "sci_clements": "Xenopipo atronitens",
    "sci_ioc": "Xenopipo atronitens"
   },
-  "xenops minutus": {
-   "birdbase_id": 14916,
+  "xenops mexicanus": {
+   "birdbase_id": 14904,
    "diet_desc": null,
    "elevation": {
-    "max": 1500,
-    "max_extreme": null,
+    "max": 1800,
+    "max_extreme": 2200,
     "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 1,
    "habitats": [
-    "forest",
-    "shrubland"
+    "forest"
    ],
-   "iucn_2024": "LC",
-   "mass_g": 10.5,
+   "iucn_2024": null,
+   "mass_g": null,
    "mobility": {
     "altitudinal": null,
     "dispersive": null,
     "irregular": null,
     "migratory": null,
-    "sedentary": 1
+    "sedentary": null
    },
-   "name_en": "White-throated Xenops",
+   "name_en": "Northern Plain Xenops",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": null,
+   "sci_avilist": "Xenops mexicanus",
+   "sci_birdlife": null,
+   "sci_clements": "Xenops mexicanus",
+   "sci_ioc": "Xenops mexicanus"
+  },
+  "xenops minutus": {
+   "birdbase_id": 14910,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1400,
+    "max_extreme": 1500,
+    "min": 0,
+    "min_extreme": null
+   },
+   "habitat_breadth": 1,
+   "habitats": [
+    "forest"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": null,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": null
+   },
+   "name_en": "Amazonian Plain Xenops",
    "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Xenops minutus",
-   "sci_birdlife": "Xenops minutus",
-   "sci_clements": "Xenops minutus",
-   "sci_ioc": "Xenops minutus"
+   "sci_avilist": "Xenops genibarbis",
+   "sci_birdlife": "Xenops genibarbis",
+   "sci_clements": "Xenops genibarbis",
+   "sci_ioc": "Xenops genibarbis"
   },
   "xenops rutilans": {
    "birdbase_id": 14918,
@@ -64724,36 +65183,37 @@
    "sci_ioc": "Zimmerius improbus"
   },
   "zimmerius vilissimus": {
-   "birdbase_id": 17152,
+   "birdbase_id": 17154,
    "diet_desc": null,
    "elevation": {
-    "max": 2500,
-    "max_extreme": null,
-    "min": 500,
+    "max": 1400,
+    "max_extreme": 3000,
+    "min": 0,
     "min_extreme": null
    },
-   "habitat_breadth": 2,
+   "habitat_breadth": 3,
    "habitats": [
     "forest",
-    "woodland"
+    "shrubland",
+    "agricultural"
    ],
    "iucn_2024": "LC",
-   "mass_g": 10.5,
+   "mass_g": 9.8,
    "mobility": {
-    "altitudinal": 1,
+    "altitudinal": null,
     "dispersive": null,
     "irregular": null,
     "migratory": null,
-    "sedentary": null
+    "sedentary": 1
    },
-   "name_en": "Paltry Tyrannulet",
-   "primary_diet": "Fruit",
+   "name_en": "Mistletoe Tyrannulet",
+   "primary_diet": "Invertebrate",
    "primary_habitat": "Forest",
    "range_restricted": 0,
-   "sci_avilist": "Zimmerius vilissimus",
-   "sci_birdlife": "Zimmerius vilissimus",
-   "sci_clements": "Zimmerius vilissimus",
-   "sci_ioc": "Zimmerius vilissimus"
+   "sci_avilist": "Zimmerius parvus",
+   "sci_birdlife": "Zimmerius parvus",
+   "sci_clements": "Zimmerius parvus",
+   "sci_ioc": "Zimmerius parvus"
   },
   "zonotrichia capensis": {
    "birdbase_id": 35375,

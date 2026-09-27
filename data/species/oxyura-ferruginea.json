@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "book": {
+  "lynx_page": 40
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (ACO 2022: «Migratorio Boreal? - Residente»; северные мигранты — это Ruddy Duck, O. jamaicensis в узком смысле)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andduc1",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Oxyura",
+ "id": "oxyura-ferruginea",
+ "ids": {
+  "avibase": null,
+  "birdbase": 547,
+  "gbif": 2498305,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/andduc1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oxyura+ferruginea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Duck",
+  "en_aco": "Ruddy Duck",
+  "es": "Malvasía Andina",
+  "ru": "Андская савка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Oxyura ferruginea",
+ "sci_name_aco": "Oxyura jamaicensis",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 780.0,
+ "taxonomy_note": "ACO/SACC lists this as Oxyura jamaicensis; eBird/Clements uses Oxyura ferruginea.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": 875
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "wetland"
+  ],
+  "mass_g": 800.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

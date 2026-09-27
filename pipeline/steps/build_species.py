@@ -169,6 +169,8 @@ def main() -> None:
     ru_overrides = {k: v for k, v in (read_json(MAPPINGS / "names_ru_overrides.json") or {}).items() if not k.startswith("_")}
     # One-off slug renames after eBird/Clements remaps (mappings/clements2025.json `renamed`)
     renamed = (read_json(MAPPINGS / "clements2025.json") or {}).get("renamed", {})
+    # ACO keys of those remaps (the old slug is the old eBird name; `aco` gives the ACO name when it differs)
+    renamed_aco = {norm_sci(r.get("aco") or old.replace("-", " ")) for old, r in renamed.items()}
     chaparro = {v["aco_key"]: v for v in endemics_src.get("species", {}).values() if v.get("aco_key")}
     if not endemics_src:
         log("  WARNING: data/sources/endemics.json missing, run step `endemics`; near_endemic will be false")
@@ -197,9 +199,11 @@ def main() -> None:
         b = birdbase.get(key, {})
         w = wikidata.get(key, {})
         sci = e["sci_name"]
-        if norm_sci(w.get("sci_wikidata") or "") == key != norm_sci(sci) and key in ebird_sp:
-            # ACO taxon remapped to the other half of an eBird split (aco_to_ebird.json) and wikidata.json still
-            # holds the item of the ACO name (the extralimital species): ignore it until step `wikidata` re-runs.
+        w_sp = " ".join(norm_sci(w.get("sci_wikidata") or "").split()[:2])  # species part of a subspecies item
+        if w and w_sp != norm_sci(sci) and ((w_sp == key and key in ebird_sp) or key in renamed_aco):
+            # ACO taxon remapped to the other half of an eBird split (aco_to_ebird.json; clements2025.json `renamed`)
+            # and wikidata.json still holds the item of the ACO name or one of its subspecies (the extralimital
+            # species): ignore it until step `wikidata` re-runs.
             log(f"  wikidata: {key} -> {sci}: stale item {w.get('qid')} ({w.get('sci_wikidata')}) ignored, re-run `wikidata`")
             w = {}
         slug = slugify(sci)

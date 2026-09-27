@@ -1,0 +1,101 @@
+{
+ "authorship": "(Pontoppidan, 1763)",
+ "book": {
+  "lynx_page": 168
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "near_endemic": false,
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amhgul1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-smithsonianus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 7184,
+  "gbif": 2481139,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/amhgul1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+smithsonianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Herring Gull",
+  "en_aco": "Herring Gull",
+  "es": "Gaviota Argéntea Americana",
+  "ru": "Американская чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus smithsonianus",
+ "sci_name_aco": "Larus argentatus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 6539.0,
+ "taxonomy_note": "ACO/SACC lists this as Larus argentatus; eBird/Clements uses Larus smithsonianus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "grassland",
+   "riparian",
+   "agricultural",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 1108,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

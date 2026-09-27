@@ -1,0 +1,97 @@
+{
+ "authorship": "(Cabanis, 1861)",
+ "book": {
+  "lynx_page": 500
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blusee4",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Amaurospiza",
+ "id": "amaurospiza-aequatorialis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36687,
+  "gbif": 2491733,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/blusee4",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amaurospiza+aequatorialis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Ecuadorian Seedeater",
+  "en_aco": "Blue Seedeater",
+  "es": "Semillero Ecuatoriano",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Amaurospiza aequatorialis",
+ "sci_name_aco": "Amaurospiza concolor",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 34576.0,
+ "taxonomy_note": "ACO/SACC lists this as Amaurospiza concolor; eBird/Clements uses Amaurospiza aequatorialis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 1100,
+   "min_extreme": 800
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

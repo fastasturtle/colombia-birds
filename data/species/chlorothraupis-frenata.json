@@ -1,0 +1,96 @@
+{
+ "authorship": "von Berlepsch, 1907",
+ "book": {
+  "lynx_page": 502
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cartan2",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Chlorothraupis",
+ "id": "chlorothraupis-frenata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36608,
+  "gbif": 6100780,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/cartan2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorothraupis+frenata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Yellow-lored Tanager",
+  "en_aco": null,
+  "es": "Tangara Embridada",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorothraupis frenata",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 34497.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Chlorothraupis carmioli); added from eBird/Clements 2025. Yellow-lored Tanager, split from Carmiol's Tanager (C. carmioli) in eBird/Clements: east slope of the Andes from Colombia to Bolivia (route: Putumayo, La Isla Escondida). C. carmioli in the narrow sense reaches Colombia only in the far northwest (3 records in Chocó; per eBird records by department, GBIF eBird dataset).",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

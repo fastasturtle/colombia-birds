@@ -1085,27 +1085,26 @@
  },
  {
   "elev": [
-   0,
-   2200
+   2000,
+   4500
   ],
-  "en": "Ruddy Duck",
+  "en": "Andean Duck",
   "endemic": false,
   "family": "anatid1",
   "habitat": "Wetland",
-  "id": "oxyura-jamaicensis",
+  "id": "oxyura-ferruginea",
   "iucn": "LC",
   "lynx_page": 40,
   "near_endemic": false,
   "order": "Anseriformes",
-  "photo": "photos/oxyura-jamaicensis/1-thumb.jpg",
-  "ru": "Американская савка",
-  "sci": "Oxyura jamaicensis",
+  "photo": null,
+  "ru": "Андская савка",
+  "sci": "Oxyura ferruginea",
   "source": "aco2022",
   "status": [
-   "boreal_migrant",
    "resident"
   ],
-  "taxon_order": 778.0
+  "taxon_order": 780.0
  },
  {
   "elev": [
@@ -5262,7 +5261,7 @@
   "lynx_page": 80,
   "near_endemic": false,
   "order": "Apodiformes",
-  "photo": "photos/heliangelus-clarisse/1-thumb.jpg",
+  "photo": "photos/heliangelus-amethysticollis/1-thumb.jpg",
   "ru": null,
   "sci": "Heliangelus clarisse",
   "source": "aco2022",
@@ -5460,23 +5459,23 @@
    0,
    1000
   ],
-  "en": "Festive Coquette",
+  "en": "Butterfly Coquette",
   "endemic": false,
   "family": "trochi1",
   "habitat": "Forest",
-  "id": "lophornis-chalybeus",
+  "id": "lophornis-verreauxii",
   "iucn": "LC",
   "lynx_page": 82,
   "near_endemic": false,
   "order": "Apodiformes",
-  "photo": "photos/lophornis-chalybeus/1-thumb.jpg",
-  "ru": "Зелёнохохлая кокетка",
-  "sci": "Lophornis chalybeus",
+  "photo": null,
+  "ru": "Кокетка-бабочка",
+  "sci": "Lophornis verreauxii",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 4451.0
+  "taxon_order": 4448.0
  },
  {
   "elev": [
@@ -6581,6 +6580,29 @@
    "resident"
   ],
   "taxon_order": 4678.0
+ },
+ {
+  "elev": [
+   1000,
+   2400
+  ],
+  "en": "Peruvian Racket-tail",
+  "endemic": false,
+  "family": "trochi1",
+  "habitat": "Forest",
+  "id": "ocreatus-peruanus",
+  "iucn": null,
+  "lynx_page": 95,
+  "near_endemic": false,
+  "order": "Apodiformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Ocreatus peruanus",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 4684.0
  },
  {
   "elev": [
@@ -8183,7 +8205,7 @@
   "lynx_page": 123,
   "near_endemic": false,
   "order": "Gruiformes",
-  "photo": "photos/rallus-aequatorialis/1-thumb.jpg",
+  "photo": null,
   "ru": null,
   "sci": "Rallus aequatorialis",
   "source": "aco2022",
@@ -9292,7 +9314,7 @@
   "lynx_page": 155,
   "near_endemic": false,
   "order": "Charadriiformes",
-  "photo": "photos/numenius-hudsonicus/1-thumb.jpg",
+  "photo": null,
   "ru": "Американский средний кроншнеп",
   "sci": "Numenius hudsonicus",
   "source": "aco2022",
@@ -10479,23 +10501,23 @@
    0,
    2000
   ],
-  "en": "European Herring Gull",
+  "en": "American Herring Gull",
   "endemic": false,
   "family": "larida1",
   "habitat": "Coastal",
-  "id": "larus-argentatus",
+  "id": "larus-smithsonianus",
   "iucn": "LC",
   "lynx_page": 168,
   "near_endemic": false,
   "order": "Charadriiformes",
-  "photo": "photos/larus-argentatus/1-thumb.jpg",
-  "ru": "Серебристая чайка",
-  "sci": "Larus argentatus",
+  "photo": null,
+  "ru": "Американская чайка",
+  "sci": "Larus smithsonianus",
   "source": "aco2022",
   "status": [
    "vagrant"
   ],
-  "taxon_order": 6545.0
+  "taxon_order": 6539.0
  },
  {
   "elev": [
@@ -10571,23 +10593,23 @@
    0,
    50
   ],
-  "en": "Atlantic White-Tern",
+  "en": "Blue-billed White-Tern",
   "endemic": false,
   "family": "larida1",
   "habitat": "Sea",
-  "id": "gygis-alba",
+  "id": "gygis-candida",
   "iucn": "LC",
   "lynx_page": 164,
   "near_endemic": false,
   "order": "Charadriiformes",
-  "photo": "photos/gygis-alba/1-thumb.jpg",
+  "photo": null,
   "ru": null,
-  "sci": "Gygis alba",
+  "sci": "Gygis candida",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 6626.0
+  "taxon_order": 6627.0
  },
  {
   "elev": [
@@ -14510,23 +14532,23 @@
    0,
    4000
   ],
-  "en": "Western Barn Owl",
+  "en": "American Barn Owl",
   "endemic": false,
   "family": "tytoni1",
   "habitat": "Grassland",
-  "id": "tyto-alba",
+  "id": "tyto-furcata",
   "iucn": "LC",
   "lynx_page": 174,
   "near_endemic": false,
   "order": "Strigiformes",
-  "photo": "photos/tyto-alba/1-thumb.jpg",
-  "ru": "Сипуха",
-  "sci": "Tyto alba",
+  "photo": null,
+  "ru": null,
+  "sci": "Tyto furcata",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 8612.0
+  "taxon_order": 8633.0
  },
  {
   "elev": [
@@ -21573,6 +21595,29 @@
    0,
    1000
   ],
+  "en": "Northern White-fringed Antwren",
+  "endemic": false,
+  "family": "thamno3",
+  "habitat": "Shrub",
+  "id": "formicivora-intermedia",
+  "iucn": null,
+  "lynx_page": 262,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Formicivora intermedia",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 13832.0
+ },
+ {
+  "elev": [
+   0,
+   1000
+  ],
   "en": "Southern White-fringed Antwren",
   "endemic": false,
   "family": "thamno3",
@@ -23422,7 +23467,7 @@
   "lynx_page": 295,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/grallaria-alticola/1-thumb.jpg",
+  "photo": null,
   "ru": null,
   "sci": "Grallaria alticola",
   "source": "clements2025",
@@ -24515,25 +24560,25 @@
  {
   "elev": [
    0,
-   1260
+   1700
   ],
-  "en": "Whistling Long-tailed Woodcreeper",
+  "en": "Mournful Long-tailed Woodcreeper",
   "endemic": false,
   "family": "furnar2",
   "habitat": "Forest",
-  "id": "deconychura-longicauda",
+  "id": "deconychura-pallida",
   "iucn": "LC",
   "lynx_page": 308,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/deconychura-longicauda/1-thumb.jpg",
+  "photo": null,
   "ru": null,
-  "sci": "Deconychura longicauda",
+  "sci": "Deconychura pallida",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 14636.0
+  "taxon_order": 14637.0
  },
  {
   "elev": [
@@ -25228,25 +25273,48 @@
  {
   "elev": [
    0,
-   1500
+   1800
   ],
-  "en": "Atlantic Plain-Xenops",
+  "en": "Northern Plain-Xenops",
   "endemic": false,
   "family": "furnar2",
   "habitat": "Forest",
-  "id": "xenops-minutus",
+  "id": "xenops-mexicanus",
+  "iucn": null,
+  "lynx_page": 319,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Xenops mexicanus",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 14973.0
+ },
+ {
+  "elev": [
+   0,
+   1400
+  ],
+  "en": "Amazonian Plain-Xenops",
+  "endemic": false,
+  "family": "furnar2",
+  "habitat": "Forest",
+  "id": "xenops-genibarbis",
   "iucn": "LC",
   "lynx_page": 319,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/xenops-minutus/1-thumb.jpg",
+  "photo": null,
   "ru": null,
-  "sci": "Xenops minutus",
+  "sci": "Xenops genibarbis",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 14985.0
+  "taxon_order": 14979.0
  },
  {
   "elev": [
@@ -25385,6 +25453,29 @@
    "resident"
   ],
   "taxon_order": 15025.0
+ },
+ {
+  "elev": [
+   0,
+   800
+  ],
+  "en": "Pacific Hornero",
+  "endemic": false,
+  "family": "furnar2",
+  "habitat": "Shrub",
+  "id": "furnarius-cinnamomeus",
+  "iucn": null,
+  "lynx_page": 322,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Furnarius cinnamomeus",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 15036.0
  },
  {
   "elev": [
@@ -26010,6 +26101,29 @@
  {
   "elev": [
    0,
+   1500
+  ],
+  "en": "Western Woodhaunter",
+  "endemic": false,
+  "family": "furnar2",
+  "habitat": "Forest",
+  "id": "automolus-virgatus",
+  "iucn": null,
+  "lynx_page": 328,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Automolus virgatus",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 15265.0
+ },
+ {
+  "elev": [
+   0,
    1100
   ],
   "en": "Eastern Woodhaunter",
@@ -26171,25 +26285,25 @@
  {
   "elev": [
    0,
-   1400
+   1000
   ],
-  "en": "Rufous-fronted Thornbird",
+  "en": "Plain Thornbird",
   "endemic": false,
   "family": "furnar2",
   "habitat": "Shrub",
-  "id": "phacellodomus-rufifrons",
+  "id": "phacellodomus-inornatus",
   "iucn": "LC",
   "lynx_page": 331,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/phacellodomus-rufifrons/1-thumb.jpg",
-  "ru": "Рыжелобый эспинеро",
-  "sci": "Phacellodomus rufifrons",
+  "photo": null,
+  "ru": null,
+  "sci": "Phacellodomus inornatus",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 15347.0
+  "taxon_order": 15344.0
  },
  {
   "elev": [
@@ -27156,6 +27270,29 @@
    "resident"
   ],
   "taxon_order": 15726.0
+ },
+ {
+  "elev": [
+   0,
+   1250
+  ],
+  "en": "Choco Manakin",
+  "endemic": false,
+  "family": "piprid1",
+  "habitat": "Forest",
+  "id": "cryptopipo-litae",
+  "iucn": null,
+  "lynx_page": 343,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Cryptopipo litae",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 15727.0
  },
  {
   "elev": [
@@ -28493,26 +28630,26 @@
  },
  {
   "elev": [
-   0,
-   1300
+   200,
+   1830
   ],
-  "en": "Brazilian Laniisoma",
+  "en": "Andean Laniisoma",
   "endemic": false,
   "family": "tityri1",
   "habitat": "Forest",
-  "id": "laniisoma-elegans",
+  "id": "laniisoma-buckleyi",
   "iucn": "NT",
   "lynx_page": 363,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/laniisoma-elegans/1-thumb.jpg",
-  "ru": "Сорокопутовая котинга",
-  "sci": "Laniisoma elegans",
+  "photo": null,
+  "ru": null,
+  "sci": "Laniisoma buckleyi",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 16019.0
+  "taxon_order": 16015.0
  },
  {
   "elev": [
@@ -28677,6 +28814,29 @@
  },
  {
   "elev": [
+   300,
+   3200
+  ],
+  "en": "Cryptic Becard",
+  "endemic": false,
+  "family": "tityri1",
+  "habitat": "Forest",
+  "id": "pachyramphus-salvini",
+  "iucn": null,
+  "lynx_page": 361,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Pachyramphus salvini",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 16060.0
+ },
+ {
+  "elev": [
    0,
    1000
   ],
@@ -28835,6 +28995,29 @@
    "resident"
   ],
   "taxon_order": 16119.0
+ },
+ {
+  "elev": [
+   0,
+   1200
+  ],
+  "en": "Sulphur-rumped Flycatcher",
+  "endemic": false,
+  "family": "rfaall1",
+  "habitat": "Forest",
+  "id": "myiobius-sulphureipygius",
+  "iucn": null,
+  "lynx_page": 357,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": "Желтогузый широкохвост",
+  "sci": "Myiobius sulphureipygius",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 16124.0
  },
  {
   "elev": [
@@ -29068,26 +29251,26 @@
  },
  {
   "elev": [
-   500,
-   2150
+   300,
+   1700
   ],
-  "en": "Olive-streaked Flycatcher",
+  "en": "Olive-striped Flycatcher",
   "endemic": false,
   "family": "tyrann2",
   "habitat": "Forest",
-  "id": "mionectes-olivaceus",
+  "id": "mionectes-galbinus",
   "iucn": "LC",
   "lynx_page": 367,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/mionectes-olivaceus/1-thumb.jpg",
-  "ru": null,
-  "sci": "Mionectes olivaceus",
+  "photo": null,
+  "ru": "Оливковый тираннчик",
+  "sci": "Mionectes galbinus",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 16206.0
+  "taxon_order": 16207.0
  },
  {
   "elev": [
@@ -29991,23 +30174,23 @@
    0,
    600
   ],
-  "en": "Eastern Olivaceous Flatbill",
+  "en": "Western Olivaceous Flatbill",
   "endemic": false,
   "family": "tyrann2",
   "habitat": "Forest",
-  "id": "rhynchocyclus-olivaceus",
+  "id": "rhynchocyclus-aequinoctialis",
   "iucn": "LC",
   "lynx_page": 369,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/rhynchocyclus-olivaceus/1-thumb.jpg",
+  "photo": null,
   "ru": null,
-  "sci": "Rhynchocyclus olivaceus",
+  "sci": "Rhynchocyclus aequinoctialis",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 16466.0
+  "taxon_order": 16457.0
  },
  {
   "elev": [
@@ -30146,6 +30329,29 @@
    "resident"
   ],
   "taxon_order": 16505.0
+ },
+ {
+  "elev": [
+   "L",
+   1100
+  ],
+  "en": "Olive-faced Flatbill",
+  "endemic": false,
+  "family": "tyrann2",
+  "habitat": "Riparian",
+  "id": "tolmomyias-viridiceps",
+  "iucn": null,
+  "lynx_page": 371,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Tolmomyias viridiceps",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 16509.0
  },
  {
   "elev": [
@@ -30609,6 +30815,52 @@
  },
  {
   "elev": [
+   0,
+   1000
+  ],
+  "en": "Choco Elaenia",
+  "endemic": false,
+  "family": "tyrann2",
+  "habitat": "Forest",
+  "id": "myiopagis-parambae",
+  "iucn": null,
+  "lynx_page": 387,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Myiopagis parambae",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 16660.0
+ },
+ {
+  "elev": [
+   0,
+   950
+  ],
+  "en": "Amazonian Elaenia",
+  "endemic": false,
+  "family": "tyrann2",
+  "habitat": "Forest",
+  "id": "myiopagis-cinerea",
+  "iucn": "LC",
+  "lynx_page": 386,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Myiopagis cinerea",
+  "source": "aco2022",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 16663.0
+ },
+ {
+  "elev": [
    900,
    1500
   ],
@@ -30629,29 +30881,6 @@
    "resident"
   ],
   "taxon_order": 16664.0
- },
- {
-  "elev": [
-   0,
-   1100
-  ],
-  "en": "Gray-headed Elaenia",
-  "endemic": false,
-  "family": "tyrann2",
-  "habitat": "Forest",
-  "id": "myiopagis-caniceps",
-  "iucn": "LC",
-  "lynx_page": null,
-  "near_endemic": false,
-  "order": "Passeriformes",
-  "photo": "photos/myiopagis-caniceps/1-thumb.jpg",
-  "ru": null,
-  "sci": "Myiopagis caniceps",
-  "source": "aco2022",
-  "status": [
-   "resident"
-  ],
-  "taxon_order": 16668.0
  },
  {
   "elev": [
@@ -31116,26 +31345,26 @@
  },
  {
   "elev": [
-   0,
-   1800
+   500,
+   2800
   ],
-  "en": "Rough-legged Tyrannulet",
+  "en": "White-fronted Tyrannulet",
   "endemic": false,
   "family": "tyrann2",
   "habitat": "Forest",
-  "id": "acrochordopus-burmeisteri",
+  "id": "acrochordopus-zeledoni",
   "iucn": "LC",
   "lynx_page": 388,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/acrochordopus-burmeisteri/1-thumb.jpg",
+  "photo": null,
   "ru": null,
-  "sci": "Acrochordopus burmeisteri",
+  "sci": "Acrochordopus zeledoni",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 16788.0
+  "taxon_order": 16781.0
  },
  {
   "elev": [
@@ -31208,26 +31437,26 @@
  },
  {
   "elev": [
-   500,
-   2500
+   0,
+   1400
   ],
-  "en": "Guatemalan Tyrannulet",
+  "en": "Mistletoe Tyrannulet",
   "endemic": false,
   "family": "tyrann2",
   "habitat": "Forest",
-  "id": "zimmerius-vilissimus",
+  "id": "zimmerius-parvus",
   "iucn": "LC",
   "lynx_page": 379,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/zimmerius-vilissimus/1-thumb.jpg",
-  "ru": "Очковый москитолов",
-  "sci": "Zimmerius vilissimus",
+  "photo": null,
+  "ru": "Малый москитолов",
+  "sci": "Zimmerius parvus",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 16799.0
+  "taxon_order": 16800.0
  },
  {
   "elev": [
@@ -31670,29 +31899,6 @@
  {
   "elev": [
    0,
-   1300
-  ],
-  "en": "Southern Tropical Pewee",
-  "endemic": false,
-  "family": "tyrann2",
-  "habitat": "Forest",
-  "id": "contopus-cinereus",
-  "iucn": "LC",
-  "lynx_page": 416,
-  "near_endemic": false,
-  "order": "Passeriformes",
-  "photo": "photos/contopus-cinereus/1-thumb.jpg",
-  "ru": null,
-  "sci": "Contopus cinereus",
-  "source": "aco2022",
-  "status": [
-   "resident"
-  ],
-  "taxon_order": 16909.0
- },
- {
-  "elev": [
-   0,
    3000
   ],
   "en": "Western Wood-Pewee",
@@ -31712,6 +31918,29 @@
    "boreal_migrant"
   ],
   "taxon_order": 16912.0
+ },
+ {
+  "elev": [
+   0,
+   1900
+  ],
+  "en": "Northern Tropical Pewee",
+  "endemic": false,
+  "family": "tyrann2",
+  "habitat": "Forest",
+  "id": "contopus-bogotensis",
+  "iucn": "LC",
+  "lynx_page": 416,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Contopus bogotensis",
+  "source": "aco2022",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 16917.0
  },
  {
   "elev": [
@@ -33325,26 +33554,26 @@
  },
  {
   "elev": [
-   1000,
-   2800
+   600,
+   2300
   ],
-  "en": "Golden-crowned Flycatcher",
+  "en": "Golden-bellied Flycatcher",
   "endemic": false,
   "family": "tyrann2",
   "habitat": "Forest",
-  "id": "myiodynastes-chrysocephalus",
+  "id": "myiodynastes-hemichrysus",
   "iucn": "LC",
   "lynx_page": 396,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/myiodynastes-chrysocephalus/1-thumb.jpg",
-  "ru": "Андский бентеви",
-  "sci": "Myiodynastes chrysocephalus",
+  "photo": null,
+  "ru": "Златобрюхий бентеви",
+  "sci": "Myiodynastes hemichrysus",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 17427.0
+  "taxon_order": 17423.0
  },
  {
   "elev": [
@@ -33855,6 +34084,29 @@
    "resident"
   ],
   "taxon_order": 19122.0
+ },
+ {
+  "elev": [
+   "L",
+   1200
+  ],
+  "en": "Rufous-fronted Greenlet",
+  "endemic": false,
+  "family": "vireon1",
+  "habitat": "Forest",
+  "id": "tunchiornis-ferrugineifrons",
+  "iucn": null,
+  "lynx_page": 418,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Tunchiornis ferrugineifrons",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 19127.0
  },
  {
   "elev": [
@@ -35082,6 +35334,29 @@
  {
   "elev": [
    0,
+   1200
+  ],
+  "en": "White-browed Gnatcatcher",
+  "endemic": false,
+  "family": "poliop1",
+  "habitat": "Woodland",
+  "id": "polioptila-bilineata",
+  "iucn": null,
+  "lynx_page": 432,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Polioptila bilineata",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 27117.0
+ },
+ {
+  "elev": [
+   0,
    1800
   ],
   "en": "Scaly-breasted Wren",
@@ -35153,23 +35428,23 @@
    0,
    3000
   ],
-  "en": "Northern House Wren",
+  "en": "Southern House Wren",
   "endemic": false,
   "family": "troglo1",
   "habitat": "Forest",
-  "id": "troglodytes-aedon",
+  "id": "troglodytes-musculus",
   "iucn": "LC",
   "lynx_page": 434,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/troglodytes-aedon/1-thumb.jpg",
-  "ru": "Домовый крапивник",
-  "sci": "Troglodytes aedon",
+  "photo": null,
+  "ru": null,
+  "sci": "Troglodytes musculus",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 27191.0
+  "taxon_order": 27209.0
  },
  {
   "elev": [
@@ -35843,23 +36118,23 @@
    1100,
    2700
   ],
-  "en": "Southern Chestnut-breasted Wren",
+  "en": "Northern Chestnut-breasted Wren",
   "endemic": false,
   "family": "troglo1",
   "habitat": "Forest",
-  "id": "cyphorhinus-thoracicus",
+  "id": "cyphorhinus-dichrous",
   "iucn": "LC",
   "lynx_page": 442,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/cyphorhinus-thoracicus/1-thumb.jpg",
+  "photo": null,
   "ru": null,
-  "sci": "Cyphorhinus thoracicus",
+  "sci": "Cyphorhinus dichrous",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 27632.0
+  "taxon_order": 27631.0
  },
  {
   "elev": [
@@ -38198,7 +38473,7 @@
   "lynx_page": 469,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/atlapetes-crassus/1-thumb.jpg",
+  "photo": "photos/atlapetes-tricolor/1-thumb.jpg",
   "ru": null,
   "sci": "Atlapetes crassus",
   "source": "aco2022",
@@ -39843,6 +40118,29 @@
  {
   "elev": [
    0,
+   2700
+  ],
+  "en": "Northern Yellow Warbler",
+  "endemic": false,
+  "family": "paruli1",
+  "habitat": "Shrub",
+  "id": "setophaga-aestiva",
+  "iucn": null,
+  "lynx_page": 488,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Setophaga aestiva",
+  "source": "clements2025",
+  "status": [
+   "boreal_migrant"
+  ],
+  "taxon_order": 34087.0
+ },
+ {
+  "elev": [
+   0,
    300
   ],
   "en": "Mangrove Yellow Warbler",
@@ -39859,7 +40157,7 @@
   "sci": "Setophaga petechia",
   "source": "aco2022",
   "status": [
-   "boreal_migrant"
+   "resident"
   ],
   "taxon_order": 34097.0
  },
@@ -40096,25 +40394,25 @@
  {
   "elev": [
    0,
-   2500
+   1500
   ],
-  "en": "Rufous-capped Warbler",
+  "en": "Chestnut-capped Warbler",
   "endemic": false,
   "family": "paruli1",
-  "habitat": "Shrub",
-  "id": "basileuterus-rufifrons",
+  "habitat": "Forest",
+  "id": "basileuterus-delattrii",
   "iucn": "LC",
   "lynx_page": 494,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/basileuterus-rufifrons/1-thumb.jpg",
-  "ru": "Рыжеголовая корольковка",
-  "sci": "Basileuterus rufifrons",
+  "photo": null,
+  "ru": null,
+  "sci": "Basileuterus delattrii",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 34225.0
+  "taxon_order": 34233.0
  },
  {
   "elev": [
@@ -40314,7 +40612,7 @@
   "lynx_page": 493,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/myiothlypis-chlorophrys/1-thumb.jpg",
+  "photo": "photos/myiothlypis-chrysogaster/1-thumb.jpg",
   "ru": null,
   "sci": "Myiothlypis chlorophrys",
   "source": "aco2022",
@@ -40785,6 +41083,29 @@
  },
  {
   "elev": [
+   300,
+   1350
+  ],
+  "en": "Yellow-lored Tanager",
+  "endemic": false,
+  "family": "cardin1",
+  "habitat": "Forest",
+  "id": "chlorothraupis-frenata",
+  "iucn": null,
+  "lynx_page": 502,
+  "near_endemic": false,
+  "order": "Passeriformes",
+  "photo": null,
+  "ru": null,
+  "sci": "Chlorothraupis frenata",
+  "source": "clements2025",
+  "status": [
+   "resident"
+  ],
+  "taxon_order": 34497.0
+ },
+ {
+  "elev": [
    0,
    400
   ],
@@ -40969,26 +41290,26 @@
  },
  {
   "elev": [
-   600,
-   2500
+   1100,
+   2300
   ],
-  "en": "Blue Seedeater",
+  "en": "Ecuadorian Seedeater",
   "endemic": false,
   "family": "cardin1",
   "habitat": "Forest",
-  "id": "amaurospiza-concolor",
+  "id": "amaurospiza-aequatorialis",
   "iucn": "LC",
   "lynx_page": 500,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/amaurospiza-concolor/1-thumb.jpg",
-  "ru": "Индиговый кардинальчик",
-  "sci": "Amaurospiza concolor",
+  "photo": null,
+  "ru": null,
+  "sci": "Amaurospiza aequatorialis",
   "source": "aco2022",
   "status": [
    "resident"
   ],
-  "taxon_order": 34573.0
+  "taxon_order": 34576.0
  },
  {
   "elev": [
@@ -43258,7 +43579,7 @@
   "lynx_page": 510,
   "near_endemic": false,
   "order": "Passeriformes",
-  "photo": "photos/dacnis-egregia/1-thumb.jpg",
+  "photo": null,
   "ru": null,
   "sci": "Dacnis egregia",
   "source": "clements2025",

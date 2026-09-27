@@ -1,6 +1,6 @@
 {
  "citation": "Clements, J. F., et al. 2025. The eBird/Clements checklist of Birds of the World: v2025. Cornell Lab of Ornithology. https://www.birds.cornell.edu/clementschecklist/ ; names via eBird API v2.",
- "count": 1973,
+ "count": 2006,
  "families": {
   "acanth1": {
    "names": {
@@ -2305,19 +2305,19 @@
    "sci_name": "Accipiter striatus",
    "taxon_order": 8256.0
   },
-  "acrochordopus burmeisteri": {
-   "code": "roltyr3",
+  "acrochordopus zeledoni": {
+   "code": "roltyr1",
    "family_code": "tyrann2",
    "family_en": "Tyrant Flycatchers",
    "family_sci": "Tyrannidae",
    "names": {
-    "en": "Rough-legged Tyrannulet",
-    "es": "Mosquerito de Burmeister",
+    "en": "White-fronted Tyrannulet",
+    "es": "Mosquerito de Zeledón",
     "ru": ""
    },
    "order": "Passeriformes",
-   "sci_name": "Acrochordopus burmeisteri",
-   "taxon_order": 16788.0
+   "sci_name": "Acrochordopus zeledoni",
+   "taxon_order": 16781.0
   },
   "acropternis orthonyx": {
    "code": "ocetap1",
@@ -2514,6 +2514,20 @@
    "order": "Gruiformes",
    "sci_name": "Amaurolimnas concolor",
    "taxon_order": 5432.0
+  },
+  "amaurospiza aequatorialis": {
+   "code": "blusee4",
+   "family_code": "cardin1",
+   "family_en": "Cardinals and Allies",
+   "family_sci": "Cardinalidae",
+   "names": {
+    "en": "Ecuadorian Seedeater",
+    "es": "Semillero Ecuatoriano",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Amaurospiza aequatorialis",
+   "taxon_order": 34576.0
   },
   "amaurospiza concolor": {
    "code": "blusee1",
@@ -4405,6 +4419,20 @@
    "sci_name": "Automolus subulatus",
    "taxon_order": 15270.0
   },
+  "automolus virgatus": {
+   "code": "strwoo5",
+   "family_code": "furnar2",
+   "family_en": "Ovenbirds and Woodcreepers",
+   "family_sci": "Furnariidae",
+   "names": {
+    "en": "Western Woodhaunter",
+    "es": "Ticotico Listado Occidental",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Automolus virgatus",
+   "taxon_order": 15265.0
+  },
   "avocettula recurvirostris": {
    "code": "fitawl1",
    "family_code": "trochi1",
@@ -4572,6 +4600,20 @@
    "order": "Passeriformes",
    "sci_name": "Basileuterus culicivorus",
    "taxon_order": 34250.0
+  },
+  "basileuterus delattrii": {
+   "code": "rucwar4",
+   "family_code": "paruli1",
+   "family_en": "New World Warblers",
+   "family_sci": "Parulidae",
+   "names": {
+    "en": "Chestnut-capped Warbler",
+    "es": "Reinita Coronicastaña",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Basileuterus delattrii",
+   "taxon_order": 34233.0
   },
   "basileuterus ignotus": {
    "code": "pirwar1",
@@ -7359,6 +7401,20 @@
    "sci_name": "Chlorothraupis carmioli",
    "taxon_order": 34493.0
   },
+  "chlorothraupis frenata": {
+   "code": "cartan2",
+   "family_code": "cardin1",
+   "family_en": "Cardinals and Allies",
+   "family_sci": "Cardinalidae",
+   "names": {
+    "en": "Yellow-lored Tanager",
+    "es": "Tangara Embridada",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Chlorothraupis frenata",
+   "taxon_order": 34497.0
+  },
   "chlorothraupis olivacea": {
    "code": "lestan",
    "family_code": "cardin1",
@@ -8703,6 +8759,20 @@
    "sci_name": "Conothraupis speculigera",
    "taxon_order": 34658.0
   },
+  "contopus bogotensis": {
+   "code": "tropew4",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Northern Tropical Pewee",
+    "es": "Pibí Tropical Norteño",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Contopus bogotensis",
+   "taxon_order": 16917.0
+  },
   "contopus cinereus": {
    "code": "tropew3",
    "family_code": "tyrann2",
@@ -9179,6 +9249,20 @@
    "sci_name": "Cryptopipo holochlora",
    "taxon_order": 15730.0
   },
+  "cryptopipo litae": {
+   "code": "grnman1",
+   "family_code": "piprid1",
+   "family_en": "Manakins",
+   "family_sci": "Pipridae",
+   "names": {
+    "en": "Choco Manakin",
+    "es": "Saltarín del Chocó",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Cryptopipo litae",
+   "taxon_order": 15727.0
+  },
   "crypturellus bartletti": {
    "code": "bartin2",
    "family_code": "tinami1",
@@ -9599,6 +9683,20 @@
    "sci_name": "Cyphorhinus arada",
    "taxon_order": 27639.0
   },
+  "cyphorhinus dichrous": {
+   "code": "chbwre2",
+   "family_code": "troglo1",
+   "family_en": "Wrens",
+   "family_sci": "Troglodytidae",
+   "names": {
+    "en": "Northern Chestnut-breasted Wren",
+    "es": "Cucarachero Dorsicastaño del Norte",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Cyphorhinus dichrous",
+   "taxon_order": 27631.0
+  },
   "cyphorhinus phaeocephalus": {
    "code": "sonwre1",
    "family_code": "troglo1",
@@ -9878,6 +9976,20 @@
    "order": "Passeriformes",
    "sci_name": "Deconychura longicauda",
    "taxon_order": 14636.0
+  },
+  "deconychura pallida": {
+   "code": "lotwoo5",
+   "family_code": "furnar2",
+   "family_en": "Ovenbirds and Woodcreepers",
+   "family_sci": "Furnariidae",
+   "names": {
+    "en": "Mournful Long-tailed Woodcreeper",
+    "es": "Trepatroncos Colilargo Sureño",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Deconychura pallida",
+   "taxon_order": 14637.0
   },
   "dendrexetastes rufigula": {
    "code": "citwoo1",
@@ -11853,6 +11965,20 @@
    "sci_name": "Formicivora grisea",
    "taxon_order": 13839.0
   },
+  "formicivora intermedia": {
+   "code": "whfant4",
+   "family_code": "thamno3",
+   "family_en": "Typical Antbirds",
+   "family_sci": "Thamnophilidae",
+   "names": {
+    "en": "Northern White-fringed Antwren",
+    "es": "Hormiguerito Coicorita Norteño",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Formicivora intermedia",
+   "taxon_order": 13832.0
+  },
   "forpus coelestis": {
    "code": "pacpar2",
    "family_code": "psitta3",
@@ -12020,6 +12146,20 @@
    "order": "Gruiformes",
    "sci_name": "Fulica ardesiaca",
    "taxon_order": 5506.0
+  },
+  "furnarius cinnamomeus": {
+   "code": "palhor4",
+   "family_code": "furnar2",
+   "family_en": "Ovenbirds and Woodcreepers",
+   "family_sci": "Furnariidae",
+   "names": {
+    "en": "Pacific Hornero",
+    "es": "Hornero del Pacífico",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Furnarius cinnamomeus",
+   "taxon_order": 15036.0
   },
   "furnarius leucopus": {
    "code": "palhor3",
@@ -13084,6 +13224,20 @@
    "order": "Charadriiformes",
    "sci_name": "Gygis alba",
    "taxon_order": 6626.0
+  },
+  "gygis candida": {
+   "code": "whiter4",
+   "family_code": "larida1",
+   "family_en": "Gulls, Terns, and Skimmers",
+   "family_sci": "Laridae",
+   "names": {
+    "en": "Blue-billed White-Tern",
+    "es": "Charrán Blanco Pacífico",
+    "ru": ""
+   },
+   "order": "Charadriiformes",
+   "sci_name": "Gygis candida",
+   "taxon_order": 6627.0
   },
   "gymnocichla nudiceps": {
    "code": "bacant1",
@@ -14947,6 +15101,20 @@
    "sci_name": "Lampropsar tanagrinus",
    "taxon_order": 33901.0
   },
+  "laniisoma buckleyi": {
+   "code": "shlcot2",
+   "family_code": "tityri1",
+   "family_en": "Tityras and Allies",
+   "family_sci": "Tityridae",
+   "names": {
+    "en": "Andean Laniisoma",
+    "es": "Lanisoma Andina",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Laniisoma buckleyi",
+   "taxon_order": 16015.0
+  },
   "laniisoma elegans": {
    "code": "shlcot3",
    "family_code": "tityri1",
@@ -15100,6 +15268,20 @@
    "order": "Charadriiformes",
    "sci_name": "Larus marinus",
    "taxon_order": 6562.0
+  },
+  "larus smithsonianus": {
+   "code": "amhgul1",
+   "family_code": "larida1",
+   "family_en": "Gulls, Terns, and Skimmers",
+   "family_sci": "Laridae",
+   "names": {
+    "en": "American Herring Gull",
+    "es": "Gaviota Argéntea Americana",
+    "ru": "Американская чайка"
+   },
+   "order": "Charadriiformes",
+   "sci_name": "Larus smithsonianus",
+   "taxon_order": 6539.0
   },
   "laterallus albigularis": {
    "code": "whtcra1",
@@ -15912,6 +16094,20 @@
    "order": "Apodiformes",
    "sci_name": "Lophornis stictolophus",
    "taxon_order": 4447.0
+  },
+  "lophornis verreauxii": {
+   "code": "fescoq2",
+   "family_code": "trochi1",
+   "family_en": "Hummingbirds",
+   "family_sci": "Trochilidae",
+   "names": {
+    "en": "Butterfly Coquette",
+    "es": "Coqueta Verde Norteña",
+    "ru": "Кокетка-бабочка"
+   },
+   "order": "Apodiformes",
+   "sci_name": "Lophornis verreauxii",
+   "taxon_order": 4448.0
   },
   "lophostrix cristata": {
    "code": "creowl1",
@@ -16935,6 +17131,20 @@
    "sci_name": "Mimus gilvus",
    "taxon_order": 28101.0
   },
+  "mionectes galbinus": {
+   "code": "olsfly1",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Olive-striped Flycatcher",
+    "es": "Mosquero Rayadito",
+    "ru": "Оливковый тираннчик"
+   },
+   "order": "Passeriformes",
+   "sci_name": "Mionectes galbinus",
+   "taxon_order": 16207.0
+  },
   "mionectes oleagineus": {
    "code": "ocbfly1",
    "family_code": "tyrann2",
@@ -17509,6 +17719,20 @@
    "sci_name": "Myiobius barbatus",
    "taxon_order": 16127.0
   },
+  "myiobius sulphureipygius": {
+   "code": "surfly1",
+   "family_code": "rfaall1",
+   "family_en": "Royal Flycatchers and Allies",
+   "family_sci": "Onychorhynchidae",
+   "names": {
+    "en": "Sulphur-rumped Flycatcher",
+    "es": "Moscareta Culiamarilla",
+    "ru": "Желтогузый широкохвост"
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myiobius sulphureipygius",
+   "taxon_order": 16124.0
+  },
   "myiobius villosus": {
    "code": "tabfly1",
    "family_code": "rfaall1",
@@ -17593,6 +17817,20 @@
    "sci_name": "Myiodynastes chrysocephalus",
    "taxon_order": 17427.0
   },
+  "myiodynastes hemichrysus": {
+   "code": "gobfly1",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Golden-bellied Flycatcher",
+    "es": "Bienteveo Ventridorado",
+    "ru": "Златобрюхий бентеви"
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myiodynastes hemichrysus",
+   "taxon_order": 17423.0
+  },
   "myiodynastes luteiventris": {
    "code": "subfly",
    "family_code": "tyrann2",
@@ -17635,6 +17873,20 @@
    "sci_name": "Myiopagis caniceps",
    "taxon_order": 16668.0
   },
+  "myiopagis cinerea": {
+   "code": "gryela2",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Amazonian Elaenia",
+    "es": "Fiofío Gris Amazónico",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myiopagis cinerea",
+   "taxon_order": 16663.0
+  },
   "myiopagis flavivertex": {
    "code": "yecela1",
    "family_code": "tyrann2",
@@ -17676,6 +17928,20 @@
    "order": "Passeriformes",
    "sci_name": "Myiopagis olallai",
    "taxon_order": 16664.0
+  },
+  "myiopagis parambae": {
+   "code": "gryela1",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Choco Elaenia",
+    "es": "Fiofío Gris del Chocó",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myiopagis parambae",
+   "taxon_order": 16660.0
   },
   "myiopagis viridicata": {
    "code": "greela",
@@ -19147,6 +19413,20 @@
    "sci_name": "Ochthornis littoralis",
    "taxon_order": 17079.0
   },
+  "ocreatus peruanus": {
+   "code": "boorat2",
+   "family_code": "trochi1",
+   "family_en": "Hummingbirds",
+   "family_sci": "Trochilidae",
+   "names": {
+    "en": "Peruvian Racket-tail",
+    "es": "Colibrí de Raquetas Peruano",
+    "ru": ""
+   },
+   "order": "Apodiformes",
+   "sci_name": "Ocreatus peruanus",
+   "taxon_order": 4684.0
+  },
   "ocreatus underwoodii": {
    "code": "boorat1",
    "family_code": "trochi1",
@@ -19679,6 +19959,20 @@
    "sci_name": "Oxyruncus cristatus",
    "taxon_order": 16093.0
   },
+  "oxyura ferruginea": {
+   "code": "andduc1",
+   "family_code": "anatid1",
+   "family_en": "Ducks, Geese, and Waterfowl",
+   "family_sci": "Anatidae",
+   "names": {
+    "en": "Andean Duck",
+    "es": "Malvasía Andina",
+    "ru": "Андская савка"
+   },
+   "order": "Anseriformes",
+   "sci_name": "Oxyura ferruginea",
+   "taxon_order": 780.0
+  },
   "oxyura jamaicensis": {
    "code": "rudduc",
    "family_code": "anatid1",
@@ -19804,6 +20098,20 @@
    "order": "Passeriformes",
    "sci_name": "Pachyramphus rufus",
    "taxon_order": 16034.0
+  },
+  "pachyramphus salvini": {
+   "code": "bawbec6",
+   "family_code": "tityri1",
+   "family_en": "Tityras and Allies",
+   "family_sci": "Tityridae",
+   "names": {
+    "en": "Cryptic Becard",
+    "es": "Anambé Picofino",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Pachyramphus salvini",
+   "taxon_order": 16060.0
   },
   "pachyramphus versicolor": {
    "code": "barbec1",
@@ -20476,6 +20784,20 @@
    "order": "Passeriformes",
    "sci_name": "Petrochelidon pyrrhonota",
    "taxon_order": 24281.0
+  },
+  "phacellodomus inornatus": {
+   "code": "ruftho3",
+   "family_code": "furnar2",
+   "family_en": "Ovenbirds and Woodcreepers",
+   "family_sci": "Furnariidae",
+   "names": {
+    "en": "Plain Thornbird",
+    "es": "Espinero Liso",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Phacellodomus inornatus",
+   "taxon_order": 15344.0
   },
   "phacellodomus rufifrons": {
    "code": "ruftho1",
@@ -22199,6 +22521,20 @@
    "sci_name": "Poliocrania exsul",
    "taxon_order": 14020.0
   },
+  "polioptila bilineata": {
+   "code": "trogna2",
+   "family_code": "poliop1",
+   "family_en": "Gnatcatchers",
+   "family_sci": "Polioptilidae",
+   "names": {
+    "en": "White-browed Gnatcatcher",
+    "es": "Perlita Cejiancha",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Polioptila bilineata",
+   "taxon_order": 27117.0
+  },
   "polioptila facilis": {
    "code": "guigna2",
    "family_code": "poliop1",
@@ -23627,6 +23963,20 @@
    "sci_name": "Rhodospingus cruentus",
    "taxon_order": 35641.0
   },
+  "rhynchocyclus aequinoctialis": {
+   "code": "olifla2",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Western Olivaceous Flatbill",
+    "es": "Picoplano Equinoccial",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Rhynchocyclus aequinoctialis",
+   "taxon_order": 16457.0
+  },
   "rhynchocyclus brevirostris": {
    "code": "eyrfla1",
    "family_code": "tyrann2",
@@ -24690,6 +25040,20 @@
    "order": "Caprimulgiformes",
    "sci_name": "Setopagis heterura",
    "taxon_order": 3545.0
+  },
+  "setophaga aestiva": {
+   "code": "yelwar1",
+   "family_code": "paruli1",
+   "family_en": "New World Warblers",
+   "family_sci": "Parulidae",
+   "names": {
+    "en": "Northern Yellow Warbler",
+    "es": "Reinita Amarilla",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Setophaga aestiva",
+   "taxon_order": 34087.0
   },
   "setophaga americana": {
    "code": "norpar",
@@ -28093,6 +28457,20 @@
    "sci_name": "Tolmomyias traylori",
    "taxon_order": 16493.0
   },
+  "tolmomyias viridiceps": {
+   "code": "yebfly4",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Olive-faced Flatbill",
+    "es": "Picoplano Cabeciverde",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Tolmomyias viridiceps",
+   "taxon_order": 16509.0
+  },
   "topaza pyra": {
    "code": "fietop1",
    "family_code": "trochi1",
@@ -28274,6 +28652,20 @@
    "order": "Passeriformes",
    "sci_name": "Troglodytes monticola",
    "taxon_order": 27251.0
+  },
+  "troglodytes musculus": {
+   "code": "houwre4",
+   "family_code": "troglo1",
+   "family_en": "Wrens",
+   "family_sci": "Troglodytidae",
+   "names": {
+    "en": "Southern House Wren",
+    "es": "Chochín Criollo Sureño",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Troglodytes musculus",
+   "taxon_order": 27209.0
   },
   "troglodytes ochraceus": {
    "code": "ochwre1",
@@ -28484,6 +28876,20 @@
    "order": "Trogoniformes",
    "sci_name": "Trogon viridis",
    "taxon_order": 9541.0
+  },
+  "tunchiornis ferrugineifrons": {
+   "code": "tacgre4",
+   "family_code": "vireon1",
+   "family_en": "Vireos, Shrike-Babblers, and Erpornis",
+   "family_sci": "Vireonidae",
+   "names": {
+    "en": "Rufous-fronted Greenlet",
+    "es": "Verdillo Coronileonado",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Tunchiornis ferrugineifrons",
+   "taxon_order": 19127.0
   },
   "tunchiornis ochraceiceps": {
    "code": "tacgre2",
@@ -28946,6 +29352,20 @@
    "order": "Strigiformes",
    "sci_name": "Tyto alba",
    "taxon_order": 8612.0
+  },
+  "tyto furcata": {
+   "code": "brnowl",
+   "family_code": "tytoni1",
+   "family_en": "Barn-Owls",
+   "family_sci": "Tytonidae",
+   "names": {
+    "en": "American Barn Owl",
+    "es": "Lechuza Común Americana",
+    "ru": ""
+   },
+   "order": "Strigiformes",
+   "sci_name": "Tyto furcata",
+   "taxon_order": 8633.0
   },
   "uranomitra franciae": {
    "code": "andeme1",
@@ -29493,6 +29913,34 @@
    "sci_name": "Xenopipo atronitens",
    "taxon_order": 15726.0
   },
+  "xenops genibarbis": {
+   "code": "plaxen3",
+   "family_code": "furnar2",
+   "family_en": "Ovenbirds and Woodcreepers",
+   "family_sci": "Furnariidae",
+   "names": {
+    "en": "Amazonian Plain-Xenops",
+    "es": "Picolezna Liso Brasileño",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Xenops genibarbis",
+   "taxon_order": 14979.0
+  },
+  "xenops mexicanus": {
+   "code": "plaxen2",
+   "family_code": "furnar2",
+   "family_en": "Ovenbirds and Woodcreepers",
+   "family_sci": "Furnariidae",
+   "names": {
+    "en": "Northern Plain-Xenops",
+    "es": "Picolezna Liso Mexicano",
+    "ru": ""
+   },
+   "order": "Passeriformes",
+   "sci_name": "Xenops mexicanus",
+   "taxon_order": 14973.0
+  },
   "xenops minutus": {
    "code": "plaxen4",
    "family_code": "furnar2",
@@ -29842,6 +30290,20 @@
    "order": "Passeriformes",
    "sci_name": "Zimmerius improbus",
    "taxon_order": 16803.0
+  },
+  "zimmerius parvus": {
+   "code": "paltyr3",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Mistletoe Tyrannulet",
+    "es": "Mosquerito Menor",
+    "ru": "Малый москитолов"
+   },
+   "order": "Passeriformes",
+   "sci_name": "Zimmerius parvus",
+   "taxon_order": 16800.0
   },
   "zimmerius vilissimus": {
    "code": "paltyr2",

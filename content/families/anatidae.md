@@ -10,15 +10,15 @@ confusable:
     how: "Поганки сидят ниже, почти без хвоста, с острым, а не плоским клювом, и ныряют гораздо чаще"
   - family: rallid1
     how: "Лысухи и камышницы с острым клювом и лобной бляшкой, на плаву кивают головой"
-route_note: "Главное место — Лагуна Ла-Коча (день 14): Yellow-billed Pintail и андская форма Ruddy Duck, а Torrent Duck ищем на порожистых реках вдоль Трамплина птиц (день 13). White-cheeked Pintail — на прудах Финки Марагрикола (день 20), Andean Teal проще всего в Ла-Флориде в свободный день в Боготе."
+route_note: "Главное место — Лагуна Ла-Коча (день 14): Yellow-billed Pintail и Andean Duck, а Torrent Duck ищем на порожистых реках вдоль Трамплина птиц (день 13). White-cheeked Pintail — на прудах Финки Марагрикола (день 20), Andean Teal проще всего в Ла-Флориде в свободный день в Боготе."
 fact: "У ручьевой утки на сгибе крыла есть острая костная шпора, которой птицы дерутся за свой участок реки."
 en:
   recognize:
     - "Flat broad bill, short webbed legs, compact body riding high on the water"
     - "Feeds at the surface by upending, or dives"
-    - "Stifftails hold the tail cocked; the Andean male Ruddy Duck is chestnut with a black head and blue bill"
+    - "Stifftails hold the tail cocked; the male Andean Duck is chestnut with a black head and blue bill"
     - "Torrent Duck stands on wet rocks in a raging mountain river and dives against the current"
-  route_note: "The key site is Laguna La Cocha (day 14): Yellow-billed Pintail and the Andean form of Ruddy Duck, while Torrent Duck is searched for on rapids along Trampolín de las Aves (day 13). White-cheeked Pintail is on the ponds of Finca Maragrícola (day 20), and Andean Teal is easiest at La Florida on a free day in Bogotá."
+  route_note: "The key site is Laguna La Cocha (day 14): Yellow-billed Pintail and Andean Duck, while Torrent Duck is searched for on rapids along Trampolín de las Aves (day 13). White-cheeked Pintail is on the ponds of Finca Maragrícola (day 20), and Andean Teal is easiest at La Florida on a free day in Bogotá."
   fact: "The Torrent Duck has a sharp bony spur at the bend of the wing, which birds use in fights over their stretch of river."
 ---
 Утиные в Колумбии насчитывают 27 видов, но на нашем маршруте их немного: большая часть тура проходит в лесу. Уток встретим на высокогорных озёрах и болотах Анд, на прудах тихоокеанского побережья и изредка на амазонских реках. Узнать утку просто: плоский клюв, перепончатые лапы, привычная посадка на воде. Сложнее определить вид, особенно у самок и молодых.
@@ -29,4 +29,4 @@ en:
 
 Colombia has 27 species of ducks and geese, but few of them are on our route, since most of the tour is spent in forest. We will find ducks on high Andean lakes and marshes, on ponds along the Pacific coast and occasionally on Amazonian rivers. A duck is easy to recognise: flat bill, webbed feet, familiar way of sitting on the water. The species is harder, especially for females and young birds.
 
-Look at the bill, the head pattern and the speculum on the wing. Pintails are long-necked with a pointed tail: Yellow-billed Pintail has a bright yellow bill, White-cheeked Pintail white cheeks and a red base to the bill. The Andean form of Ruddy Duck is chunky with a stiff cocked tail, the male chestnut with a black head. Torrent Duck is special: it lives on rushing mountain rivers, standing on wet boulders and diving into the white water; scan from bridges. In October Blue-winged Teal arrive from the north, so marshes near Bogotá and on the coast may hold many.
+Look at the bill, the head pattern and the speculum on the wing. Pintails are long-necked with a pointed tail: Yellow-billed Pintail has a bright yellow bill, White-cheeked Pintail white cheeks and a red base to the bill. Andean Duck is chunky with a stiff cocked tail, the male chestnut with a black head. Torrent Duck is special: it lives on rushing mountain rivers, standing on wet boulders and diving into the white water; scan from bridges. In October Blue-winged Teal arrive from the north, so marshes near Bogotá and on the coast may hold many.

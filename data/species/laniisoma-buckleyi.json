@@ -1,0 +1,96 @@
+{
+ "authorship": "(Thunberg, 1823)",
+ "book": {
+  "lynx_page": 363
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shlcot2",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Laniisoma",
+ "id": "laniisoma-buckleyi",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18555,
+  "gbif": 2486411,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/shlcot2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laniisoma+buckleyi"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Andean Laniisoma",
+  "en_aco": "Shrike-like Cotinga",
+  "es": "Lanisoma Andina",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Laniisoma buckleyi",
+ "sci_name_aco": "Laniisoma elegans",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 16015.0,
+ "taxonomy_note": "ACO/SACC lists this as Laniisoma elegans; eBird/Clements uses Laniisoma buckleyi.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1830,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 48.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

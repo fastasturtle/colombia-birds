@@ -1,0 +1,97 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1859)",
+ "book": {
+  "lynx_page": 379
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paltyr3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Zimmerius",
+ "id": "zimmerius-parvus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17154,
+  "gbif": 2483943,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/paltyr3",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+parvus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mistletoe Tyrannulet",
+  "en_aco": "Mistletoe Tyrannulet",
+  "es": "Mosquerito Menor",
+  "ru": "Малый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zimmerius parvus",
+ "sci_name_aco": "Zimmerius vilissimus",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 16800.0,
+ "taxonomy_note": "ACO/SACC lists this as Zimmerius vilissimus; eBird/Clements uses Zimmerius parvus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 9.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,101 @@
+{
+ "authorship": "(Vieillot, 1809)",
+ "book": {
+  "lynx_page": 434
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "houwre4",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Troglodytes",
+ "id": "troglodytes-musculus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 29229,
+  "gbif": 5231459,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/houwre4",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Troglodytes+musculus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Southern House Wren",
+  "en_aco": "House Wren",
+  "es": "Chochín Criollo Sureño",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Troglodytes musculus",
+ "sci_name_aco": "Troglodytes aedon",
+ "sounds": [],
+ "source": "aco2022",
+ "taxon_order": 27209.0,
+ "taxonomy_note": "ACO/SACC lists this as Troglodytes aedon; eBird/Clements uses Troglodytes musculus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "desert",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 12.354999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

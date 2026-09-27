@@ -1,0 +1,98 @@
+{
+ "authorship": "Cabanis, 1847",
+ "book": {
+  "lynx_page": 262
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whfant4",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Formicivora",
+ "id": "formicivora-intermedia",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15833,
+  "gbif": 6100904,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/whfant4",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Formicivora+intermedia"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Northern White-fringed Antwren",
+  "en_aco": null,
+  "es": "Hormiguerito Coicorita Norteño",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Formicivora intermedia",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "clements2025",
+ "taxon_order": 13832.0,
+ "taxonomy_note": "Not in the ACO 2022 checklist (split from Formicivora grisea); added from eBird/Clements 2025. Northern White-fringed Antwren, split from White-fringed Antwren (F. grisea) in eBird/Clements: Caribbean lowlands, Magdalena valley, Panama and Venezuela (route: Chicaque). F. grisea in the narrow sense (Southern White-fringed Antwren) remains the bird of eastern Colombia (Guainía, Vaupés, Casanare; per eBird records by department, GBIF eBird dataset).",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}
