@@ -2,9 +2,10 @@
 id: molothrus-bonariensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец целиком чёрный с сильным фиолетово-синим блеском"
-  - "Глаз тёмный, клюв короткий, конический, чёрный"
+  - "Глаз тёмный, клюв конический, острый, чёрный"
   - "Самка тускло-бурая, снизу светлее, без пестрин"
   - "Силуэт компактный, хвост заметно короче, чем у граклов"
 similar:
@@ -13,7 +14,7 @@ similar:
   - id: molothrus-oryzivorus
     how: "намного крупнее, голова маленькая, на шее воротник, клюв длинный"
 behavior: "Стайки кормятся на земле в полях, на пастбищах и газонах, часто рядом со скотом. Гнездовой паразит: подкладывает яйца в гнёзда многих птиц, например андского воробья."
-voice: "Песня самца — булькающие трели с высоким свистом, которые он поёт, распушившись; позыв — резкое «чак»."
+voice: "Песня самца — булькающее мурлыканье и восходящий ряд коротких высоких нот, после песни он кланяется, распушив перья; позывы — низкое «чак», трещотка и высокий дрожащий свист."
 traits:
   size: thrush
   colors: [black, brown]
@@ -26,10 +27,11 @@ sources:
   - "Wikipedia: Shiny cowbird (en), Molothrus bonariensis (es), Блестящий коровий трупиал (ru), CC BY-SA 4.0 — data/texts"
   - "content/species/chrysomus-icterocephalus.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: голос — All About Birds / Audubon (https://www.allaboutbirds.org/guide/Shiny_Cowbird/sounds, по сниппету поиска); поклон после песни, клюв, окраска подвидов — en/es/ru.wikipedia (data/texts)"
 en:
   key_features:
     - "Male wholly black with a strong purple-blue gloss"
-    - "Dark eye, short conical black bill"
+    - "Dark eye, pointed conical black bill"
     - "Female dull brown, paler below, unstreaked"
     - "Compact shape, tail clearly shorter than a grackle's"
   similar:
@@ -38,7 +40,7 @@ en:
     - id: molothrus-oryzivorus
       how: "much larger, small head, neck ruff, long bill"
   behavior: "Small flocks feed on the ground in fields, pastures and lawns, often near cattle. A brood parasite: lays its eggs in the nests of many birds, such as Rufous-collared Sparrow."
-  voice: "The male's song is a gurgling trill with a high whistle, given with feathers puffed out; the call is a sharp 'chuck'."
+  voice: "The male's song is a bubbling purr followed by a rising series of short high notes, after which he bows with feathers ruffled; calls include a low 'chuk', a rattle and a high wavering whistle."
 ---
 Shiny Cowbird (блестящий трупиал) — воловья птица открытых мест: полей, пастбищ, садов и окраин посёлков, в Колумбии от низин до 2 000 м, изредка выше. Вид расселяется вслед за вырубкой лесов. Пол различить легко: самец блестяще-чёрный, а самка серо-бурая, похожая на птицу вовсе без примет; её узнают по силуэту трупиала и коническому клюву.
 

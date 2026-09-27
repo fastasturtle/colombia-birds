@@ -2,6 +2,7 @@
 id: cacicus-cela
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Чёрный с ярко-жёлтой поясницей и жёлтым основанием хвоста"
   - "Жёлтое пятно на плече крыла, низ брюха тоже жёлтый"
@@ -12,7 +13,7 @@ similar:
     how: "намного крупнее, поясница каштановая, хвост снизу жёлтый, клюв цвета слоновой кости со щитком"
   - id: cacicus-solitarius
     how: "весь чёрный, без жёлтого, клюв светлый, глаз тёмный; держится в густых зарослях у воды"
-behavior: "Гнездится колониями до сотни гнёзд-мешков на одном дереве, часто рядом с осиным гнездом. Группы кормятся в кронах крупными насекомыми, пауками, плодами и нектаром."
+behavior: "Гнездится колониями: гнёзда-мешки висят на отдельном дереве, часто рядом с осиным гнездом. Группы кормятся в кронах крупными насекомыми, пауками, плодами и нектаром."
 voice: "Очень шумный: самец поёт смесью флейтовых нот, кудахтанья, хрипов и подражаний; активную колонию слышно издалека."
 traits:
   size: pigeon
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Yellow-rumped cacique (en), Cacicus cela (es), Желтопоясничный чёрный кассик (ru), CC BY-SA 4.0 — data/texts"
   - "content/families/icteridae.md, content/species/psarocolius-angustifrons.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: окраска, голос, колонии у осиных гнёзд — en/es/ru.wikipedia (data/texts); отличие от C. solitarius (тёмный глаз, затопляемые и галерейные леса) — en/es.wikipedia (data/texts); удалена неподтверждённая цифра «до сотни гнёзд»"
 en:
   key_features:
     - "Black with a bright yellow rump and yellow tail base"
@@ -37,7 +39,8 @@ en:
       how: "much larger, chestnut rump, tail yellow below, ivory bill with a shield"
     - id: cacicus-solitarius
       how: "all black with no yellow, pale bill, dark eye; keeps in dense thickets by water"
-  behavior: "Nests in colonies of up to a hundred bag nests in one tree, often next to a wasp nest. Groups feed in the canopy on large insects, spiders, fruit and nectar."
+  behavior: "Nests in colonies, with bag nests hanging in an isolated tree, often next to a wasp nest.
+ Groups feed in the canopy on large insects, spiders, fruit and nectar."
   voice: "Very noisy: the male sings a mix of fluting notes, cackles, wheezes and mimicry; an active colony can be heard from far away."
 ---
 Yellow-rumped Cacique (желтопоясничный кассик) — обычный кассик амазонских низин, у нас до 900 м, изредка до 1 200 м. Держится там, где лес перемежается с пастбищами и крупными деревьями, и только выиграл от вырубок. Его колония — самое шумное место в деревне: самцы поют, хрипят и передразнивают соседей. Чёрно-жёлтый рисунок заметен даже в полёте против света.

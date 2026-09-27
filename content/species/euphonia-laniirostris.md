@@ -2,19 +2,20 @@
 id: euphonia-laniirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло самца жёлтое, как вся грудь и брюхо"
-  - "Жёлтая шапочка доходит примерно до глаза или чуть дальше"
+  - "Жёлтая шапочка заходит чуть за глаз, у птиц долины Магдалены — дальше на темя"
   - "Верх иссиня-чёрный; снизу на хвосте белые пятна, кроме амазонской формы"
   - "Самка оливковая, снизу зеленовато-жёлтая, без серого"
   - "Клюв толще, чем у других эуфоний, но в поле это малозаметно"
 similar:
   - id: euphonia-xanthogaster
-    how: "горло тёмное, жёлтая шапочка заходит далеко за глаз; самка с серым горлом"
+    how: "горло тёмное, иссиня-чёрное — главное отличие; у самки горло и затылок серые"
   - id: euphonia-concinna
     how: "горло тёмное, жёлтое только узкой полоской на лбу, низ охристый, клюв светлый"
 behavior: "Пары держатся на опушках, в садах, на плантациях, в перелесках и у рек; кормятся ягодами омелы и мелкими плодами."
-voice: "Разнообразная песня с подражаниями голосам других птиц; позывы — ясные «пии» и «ти-ти»."
+voice: "Сбивчивая разнообразная песня с подражаниями голосам других птиц; позывы — громкое свистовое «прит!» и жужжащие трели."
 traits:
   size: sparrow
   colors: [yellow, black, olive]
@@ -26,20 +27,21 @@ sources:
   - "Wikipedia: Thick-billed euphonia (en), Euphonia laniirostris (es), Толстоклювая эуфония (ru), CC BY-SA 4.0 — data/texts: подвиды, биотоп, высоты"
   - "Wikipedia: Orange-bellied euphonia, Velvet-fronted euphonia (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: шапочка подвида crassirostris, голос, отличие от E. xanthogaster — en.wikipedia (data/texts)"
 en:
   key_features:
     - "Male's throat yellow, like the entire breast and belly"
-    - "Yellow cap reaches about to the eye or slightly beyond"
+    - "Yellow cap reaches just past the eye, further back on the crown in Magdalena Valley birds"
     - "Blue-black above; white spots under the tail, except in the Amazonian form"
     - "Female olive, greenish-yellow below, with no gray"
     - "Bill thicker than in other euphonias, though hard to see in the field"
   similar:
     - id: euphonia-xanthogaster
-      how: "dark throat, yellow cap extending well behind the eye; female with a gray throat"
+      how: "dark blue-black throat, the key difference; female has a gray throat and nape"
     - id: euphonia-concinna
       how: "dark throat, yellow only as a narrow forehead band, ochre underparts, pale bill"
   behavior: "Pairs keep at edges, in gardens, plantations, woodlots and along rivers, feeding on mistletoe berries and small fruit."
-  voice: "A varied song with imitations of other birds; calls are clear 'pee' and 'tee-tee' notes."
+  voice: "A choppy, varied song with imitations of other birds; calls include a loud whistled 'preet!' and buzzy rattles."
 ---
 Thick-billed Euphonia (толстоклювая эуфония) — эуфония полуоткрытых мест: опушек, садов, плантаций и прибрежных лесов, по данным проекта до 1 200 м, в Колумбии изредка до 2 400 м. От похожих видов самца отличает жёлтое горло. У амазонских птиц низ темнее, оранжево-жёлтый, и белых пятен под хвостом нет. Толщину клюва в поле оценить трудно, так что смотри на горло.
 

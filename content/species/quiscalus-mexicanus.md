@@ -2,6 +2,7 @@
 id: quiscalus-mexicanus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глаз ярко-жёлтый у взрослых обоих полов"
   - "Самец чёрный с фиолетово-синим отливом, длинный хвост сложен килем, как лодочка"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Great-tailed grackle (en), Quiscalus mexicanus (es), Большехвостый гракл (ru), CC BY-SA 4.0 — data/texts"
   - "content/families/icteridae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: окраска, размеры, голос («ржавая петля», самки стрекочут), ночёвки, питание и отличия от Molothrus подтверждены en/es/ru.wikipedia (data/texts)"
 en:
   key_features:
     - "Bright yellow eye in adults of both sexes"

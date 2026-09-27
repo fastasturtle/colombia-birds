@@ -2,6 +2,7 @@
 id: myiothlypis-fulvicauda
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница и основание хвоста охристо-жёлтые, конец хвоста тёмный"
   - "Хвост постоянно помахивает и раскрывается веером из стороны в сторону"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Buff-rumped warbler (en), Myiothlypis fulvicauda (es), CC BY-SA 4.0 — data/texts: окраска, высоты в Колумбии, поведение, голос"
   - "content/species/myiothlypis-chlorophrys.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: окраска подвида semicervina, высоты, поведение, линейный участок пары вдоль ручья, песня из 8–9 звенящих нот — en/es.wikipedia (data/texts)"
 en:
   key_features:
     - "Buffy-yellow rump and tail base, dark tail tip"
