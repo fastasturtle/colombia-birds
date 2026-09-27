@@ -2,18 +2,19 @@
 id: ocreatus-peruanus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Самец: два голых стержня в хвосте с тёмными «ракетками» на концах"
-  - "Пушистые «штанишки» на ногах охристые, а не чисто белые"
-  - "Крошечный, около 3 г; самец зелёный, горло блестит"
-  - "Самка без ракеток, низ белый в зелёных крапинах"
+  - "Самец: два прямых голых стержня в хвосте с узкими чёрно-зелёными «ракетками» на концах"
+  - "Пушистые «штанишки» на ногах коричные, а не белые, у обоих полов"
+  - "Крошечный, около 3 г; самец зелёный, горло зеленовато-серое, за глазом белое пятнышко"
+  - "Самка без ракеток, горло и грудь белые в густых зелёных крапинах"
 similar:
   - id: ocreatus-underwoodii
     how: "«штанишки» чисто белые; живёт в остальных Андах Колумбии, в том числе в Чикаке и Уиле"
   - id: chaetocercus-mulsant
     how: "хвост короткий, без ракеток, брюхо белое, у самца фиолетовое горло; полёт медленный, жужжащий"
-behavior: "Кормится на опушках влажного леса у цветущих деревьев и кустов, в среднем ярусе и кронах. Часто держится у одного и того же куста, отгоняя других колибри."
-voice: "Тонкие сухие «тсит» и короткое цоканье; голос тихий."
+behavior: "Кормится на опушках и внутри влажного леса у цветущих деревьев и кустов, обычно на высоте 6–18 м, часто несколько птиц рядом. Ловит и мелких насекомых, вылетая с присады."
+voice: "Тонкая мягкая нисходящая трель «ти-тли-и-и»; кроме неё одиночные «цит» и «тррт»."
 traits:
   size: hummingbird
   colors: [green, white]
@@ -27,26 +28,27 @@ sources:
   - "Wikipedia: White-booted racket-tail (en, CC BY-SA 4.0) — описание рода, таксономия (peruanus и addae как отдельные виды у IOC и Clements)"
   - "content/species/ocreatus-underwoodii.md — согласованные признаки"
   - "Общие полевые знания автора-агента; из определителей не копировалось. Выдержки Wikipedia о самом виде в data/texts нет"
+  - "Фактчек 27.09.2026: Wikipedia Peruvian racket-tail (en, https://en.wikipedia.org/wiki/Peruvian_racket-tail) и Ocreatus peruanus (es, https://es.wikipedia.org/wiki/Ocreatus_peruanus), CC BY-SA 4.0; data/texts/ocreatus-underwoodii.json, chaetocercus-mulsant.json"
 en:
   key_features:
-    - "Male: two bare shafts in the tail with dark 'rackets' at the tips"
-    - "Fluffy leg puffs buffy, not pure white"
-    - "Tiny, about 3 g; male green with a glittering throat"
-    - "Female without rackets, white below with green spots"
+    - "Male: two straight bare tail shafts with narrow greenish-black 'rackets' at the tips"
+    - "Fluffy leg puffs cinnamon, not white, in both sexes"
+    - "Tiny, about 3 g; male green with a greenish-gray throat and a white spot behind the eye"
+    - "Female without rackets, white throat and breast heavily spotted green"
   similar:
     - id: ocreatus-underwoodii
       how: "leg puffs pure white; lives in the rest of the Colombian Andes, including Chicaque and Huila"
     - id: chaetocercus-mulsant
       how: "short tail without rackets, white belly, male with a purple throat; slow buzzing flight"
-  behavior: "Feeds at humid forest edges at flowering trees and shrubs, in the middle levels and canopy. Often stays at one bush, chasing off other hummingbirds."
-  voice: "Thin dry 'tsit' notes and a short ticking; the voice is quiet."
+  behavior: "Feeds at edges and inside humid forest at flowering trees and shrubs, usually 6–18 m up, often several birds close together. Also hawks small insects from a perch."
+  voice: "A thin, sweet, descending trill, 'ti-tlee-ee-ee'; also single 'tsit' and 'trrt' notes."
 ---
-Peruvian Racket-tail — знаменщик восточного склона Анд от юга Колумбии до Перу, примерно на 1 000–2 400 м. До разделения в eBird/Clements он входил в Booted Racket-tail; теперь белоногие птицы остальных Анд — White-booted Racket-tail (знаменщик Ундервуда), а в Колумбии перуанский вид известен почти только из Путумайо. У самца ракетки на хвосте длиной почти с тело, в полёте они трепещут позади.
+Peruvian Racket-tail — знаменщик восточного склона Анд от юга Колумбии до Перу, примерно на 1 000–2 400 м. До разделения в eBird/Clements он входил в Booted Racket-tail (SACC раздел пока отклонил); теперь белоногие птицы остальных Анд — White-booted Racket-tail (знаменщик Ундервуда), а в Колумбии перуанский вид известен почти только из Путумайо. У самца ракетки на хвосте длиной почти с тело, в полёте они трепещут позади.
 
 На маршруте вид «возможно» в долине Сибундой 15–16 октября; на Трамплине птиц 15 октября записи единичны. Любого знаменщика в Путумайо стоит сфотографировать и посмотреть на цвет «штанишек».
 
 ## English
 
-Peruvian Racket-tail is a racket-tail of the east slope of the Andes from southern Colombia to Peru, at roughly 1,000–2,400 m. Until the eBird/Clements split it was part of Booted Racket-tail; the white-booted birds of the rest of the Andes are now White-booted Racket-tail, and in Colombia the Peruvian species is known almost only from Putumayo. The male's tail rackets are nearly as long as its body and flutter behind it in flight.
+Peruvian Racket-tail is a racket-tail of the east slope of the Andes from southern Colombia to Peru, at roughly 1,000–2,400 m. Until the eBird/Clements split it was part of Booted Racket-tail (SACC has so far rejected the split); the white-booted birds of the rest of the Andes are now White-booted Racket-tail, and in Colombia the Peruvian species is known almost only from Putumayo. The male's tail rackets are nearly as long as its body and flutter behind it in flight.
 
 On the route it is rated "maybe" in the Sibundoy Valley on 15–16 October; at Trampolín de Aves on 15 October records are few. Photograph any racket-tail in Putumayo and check the colour of its leg puffs.

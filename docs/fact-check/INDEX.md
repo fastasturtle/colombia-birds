@@ -4,30 +4,15 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 980
-- Проверено: 965
-- Не проверено: 15
+- Проверено: 980
+- Не проверено: 0
 
-## Не проверено (15)
+## Не проверено (0)
 
 | Слаг | English | Группа |
 |---|---|---|
-| lophornis-verreauxii | Butterfly Coquette | Стрижи и колибри |
-| ocreatus-peruanus | Peruvian Racket-tail | Стрижи и колибри |
-| tyto-furcata | American Barn Owl | Хищные птицы и совы |
-| formicivora-intermedia | Northern White-fringed Antwren | Муравьеловки, печники и древолазы |
-| furnarius-cinnamomeus | Pacific Hornero | Муравьеловки, печники и древолазы |
-| mionectes-galbinus | Olive-striped Flycatcher | Тиранны и титиры |
-| tolmomyias-viridiceps | Olive-faced Flatbill | Тиранны и титиры |
-| zimmerius-chrysops | Golden-faced Tyrannulet | Тиранны и титиры |
-| contopus-bogotensis | Northern Tropical Pewee | Тиранны и титиры |
-| tunchiornis-ferrugineifrons | Rufous-fronted Greenlet | Ласточки, крапивники, дрозды и другие |
-| polioptila-bilineata | White-browed Gnatcatcher | Ласточки, крапивники, дрозды и другие |
-| troglodytes-musculus | Southern House Wren | Ласточки, крапивники, дрозды и другие |
-| chlorothraupis-frenata | Yellow-lored Tanager | Танагры и кардиналы |
-| setophaga-aestiva | Northern Yellow Warbler | Овсянки, древесницы, трупиалы и вьюрки |
-| setophaga-petechia | Mangrove Yellow Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 
-## Проверено (965)
+## Проверено (980)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
@@ -149,6 +134,7 @@
 | discosura-popelairii | Wire-crested Thorntail | Стрижи и колибри | 2026-09-27 |
 | discosura-langsdorffi | Black-bellied Thorntail | Стрижи и колибри | 2026-09-27 |
 | discosura-conversii | Green Thorntail | Стрижи и колибри | 2026-09-27 |
+| lophornis-verreauxii | Butterfly Coquette | Стрижи и колибри | 2026-09-27 |
 | phlogophilus-hemileucurus | Ecuadorian Piedtail | Стрижи и колибри | 2026-09-27 |
 | adelomyia-melanogenys | Speckled Hummingbird | Стрижи и колибри | 2026-09-27 |
 | aglaiocercus-kingii | Long-tailed Sylph | Стрижи и колибри | 2026-09-27 |
@@ -181,6 +167,7 @@
 | boissonneaua-matthewsii | Chestnut-breasted Coronet | Стрижи и колибри | 2026-09-27 |
 | boissonneaua-jardini | Velvet-purple Coronet | Стрижи и колибри | 2026-09-27 |
 | ocreatus-underwoodii | White-booted Racket-tail | Стрижи и колибри | 2026-09-27 |
+| ocreatus-peruanus | Peruvian Racket-tail | Стрижи и колибри | 2026-09-27 |
 | urochroa-bougueri | Rufous-gaped Hillstar | Стрижи и колибри | 2026-09-27 |
 | urochroa-leucura | Green-backed Hillstar | Стрижи и колибри | 2026-09-27 |
 | urosticte-benjamini | Purple-bibbed Whitetip | Стрижи и колибри | 2026-09-27 |
@@ -327,6 +314,7 @@
 | buteo-albonotatus | Zone-tailed Hawk | Хищные птицы и совы | 2026-09-27 |
 | buteo-albigula | White-throated Hawk | Хищные птицы и совы | 2026-09-27 |
 | buteo-brachyurus | Short-tailed Hawk | Хищные птицы и совы | 2026-09-27 |
+| tyto-furcata | American Barn Owl | Хищные птицы и совы | 2026-09-27 |
 | megascops-choliba | Tropical Screech-Owl | Хищные птицы и совы | 2026-09-27 |
 | megascops-ingens | Rufescent Screech-Owl | Хищные птицы и совы | 2026-09-27 |
 | megascops-roraimae | Foothill Screech-Owl | Хищные птицы и совы | 2026-09-27 |
@@ -477,6 +465,7 @@
 | dichrozona-cincta | Banded Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | herpsilochmus-frater | Rusty-winged Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
 | microrhopias-quixensis | Dot-winged Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
+| formicivora-intermedia | Northern White-fringed Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
 | drymophila-caudata | East Andean Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | drymophila-striaticeps | Streak-headed Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | hypocnemis-peruviana | Peruvian Warbling-Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
@@ -551,6 +540,7 @@
 | berlepschia-rikeri | Point-tailed Palmcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | pseudocolaptes-johnsoni | Pacific Tuftedcheek | Муравьеловки, печники и древолазы | 2026-09-27 |
 | premnornis-guttuliger | Rusty-winged Barbtail | Муравьеловки, печники и древолазы | 2026-09-27 |
+| furnarius-cinnamomeus | Pacific Hornero | Муравьеловки, печники и древолазы | 2026-09-27 |
 | furnarius-leucopus | Pale-legged Hornero | Муравьеловки, печники и древолазы | 2026-09-27 |
 | cinclodes-albidiventris | Chestnut-winged Cinclodes | Муравьеловки, печники и древолазы | 2026-09-27 |
 | anabacerthia-variegaticeps | Scaly-throated Foliage-gleaner | Муравьеловки, печники и древолазы | 2026-09-27 |
@@ -589,6 +579,7 @@
 | piprites-chloris | Wing-barred Piprites | Тиранны и титиры | 2026-09-27 |
 | platyrinchus-flavigularis | Yellow-throated Spadebill | Тиранны и титиры | 2026-09-27 |
 | mionectes-striaticollis | Streak-necked Flycatcher | Тиранны и титиры | 2026-09-27 |
+| mionectes-galbinus | Olive-striped Flycatcher | Тиранны и титиры | 2026-09-27 |
 | mionectes-oleagineus | Ochre-bellied Flycatcher | Тиранны и титиры | 2026-09-27 |
 | leptopogon-superciliaris | Slaty-capped Flycatcher | Тиранны и титиры | 2026-09-27 |
 | leptopogon-rufipectus | Rufous-breasted Flycatcher | Тиранны и титиры | 2026-09-27 |
@@ -616,6 +607,7 @@
 | tolmomyias-traylori | Orange-eyed Flatbill | Тиранны и титиры | 2026-09-27 |
 | tolmomyias-assimilis | Yellow-margined Flatbill | Тиранны и титиры | 2026-09-27 |
 | tolmomyias-poliocephalus | Gray-crowned Flatbill | Тиранны и титиры | 2026-09-27 |
+| tolmomyias-viridiceps | Olive-faced Flatbill | Тиранны и титиры | 2026-09-27 |
 | tolmomyias-flaviventris | Ochre-lored Flatbill | Тиранны и титиры | 2026-09-27 |
 | pyrrhomyias-cinnamomeus | Cinnamon Flycatcher | Тиранны и титиры | 2026-09-27 |
 | myiotriccus-ornatus | Ornate Flycatcher | Тиранны и титиры | 2026-09-27 |
@@ -642,11 +634,13 @@
 | serpophaga-cinerea | Torrent Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | phyllomyias-griseiceps | Sooty-headed Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | zimmerius-albigularis | Choco Tyrannulet | Тиранны и титиры | 2026-09-27 |
+| zimmerius-chrysops | Golden-faced Tyrannulet | Тиранны и титиры | 2026-09-27 |
 | myiophobus-flavicans | Flavescent Flycatcher | Тиранны и титиры | 2026-09-27 |
 | myiophobus-phoenicomitra | Orange-crested Flycatcher | Тиранны и титиры | 2026-09-27 |
 | contopus-cooperi | Olive-sided Flycatcher | Тиранны и титиры | 2026-09-27 |
 | contopus-fumigatus | Smoke-colored Pewee | Тиранны и титиры | 2026-09-27 |
 | contopus-sordidulus | Western Wood-Pewee | Тиранны и титиры | 2026-09-27 |
+| contopus-bogotensis | Northern Tropical Pewee | Тиранны и титиры | 2026-09-27 |
 | contopus-virens | Eastern Wood-Pewee | Тиранны и титиры | 2026-09-27 |
 | empidonax-virescens | Acadian Flycatcher | Тиранны и титиры | 2026-09-27 |
 | empidonax-alnorum | Alder Flycatcher | Тиранны и титиры | 2026-09-27 |
@@ -722,6 +716,7 @@
 | cyclarhis-nigrirostris | Black-billed Peppershrike | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | hylophilus-flavipes | Scrub Greenlet | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | vireolanius-leucotis | Slaty-capped Shrike-Vireo | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| tunchiornis-ferrugineifrons | Rufous-fronted Greenlet | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | pachysylvia-hypoxantha | Dusky-capped Greenlet | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | pachysylvia-semibrunnea | Rufous-naped Greenlet | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | vireo-masteri | Choco Vireo | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
@@ -746,8 +741,10 @@
 | petrochelidon-pyrrhonota | Cliff Swallow | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | microbates-cinereiventris | Tawny-faced Gnatwren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | polioptila-plumbea | Tropical Gnatcatcher | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| polioptila-bilineata | White-browed Gnatcatcher | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | microcerculus-marginatus | Scaly-breasted Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | odontorchilus-branickii | Gray-mantled Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
+| troglodytes-musculus | Southern House Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | troglodytes-solstitialis | Mountain Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | cistothorus-platensis | Grass Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
 | cistothorus-apolinari | Apolinar's Wren | Ласточки, крапивники, дрозды и другие | 2026-09-27 |
@@ -785,6 +782,7 @@
 | piranga-flava | Hepatic Tanager | Танагры и кардиналы | 2026-09-27 |
 | piranga-rubra | Summer Tanager | Танагры и кардиналы | 2026-09-27 |
 | piranga-olivacea | Scarlet Tanager | Танагры и кардиналы | 2026-09-27 |
+| chlorothraupis-frenata | Yellow-lored Tanager | Танагры и кардиналы | 2026-09-27 |
 | chlorothraupis-stolzmanni | Ochre-breasted Tanager | Танагры и кардиналы | 2026-09-27 |
 | pheucticus-aureoventris | Black-backed Grosbeak | Танагры и кардиналы | 2026-09-27 |
 | pheucticus-ludovicianus | Rose-breasted Grosbeak | Танагры и кардиналы | 2026-09-27 |
@@ -984,6 +982,8 @@
 | setophaga-cerulea | Cerulean Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | setophaga-pitiayumi | Tropical Parula | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | setophaga-fusca | Blackburnian Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
+| setophaga-aestiva | Northern Yellow Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
+| setophaga-petechia | Mangrove Yellow Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | setophaga-striata | Blackpoll Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | basileuterus-delattrii | Chestnut-capped Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | basileuterus-tristriatus | Three-striped Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |

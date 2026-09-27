@@ -9,6 +9,8 @@ key_features:
   - "Горло и грудь с оливковым или охристым налётом"
   - "На тёмном крыле две жёлтые полосы; клюв широкий, плоский, тёмный"
 similar:
+  - id: tolmomyias-viridiceps
+    how: "лицо оливковое, без охристой уздечки и кольца, низ тусклее; живёт в западной Амазонии, в том числе в Путумайо"
   - id: tolmomyias-assimilis
     how: "шапочка оливковая или сероватая, уздечка не охристая, на крыле бледно-жёлтое пятно у основания маховых, брюхо бледнее"
   - id: tolmomyias-sulphurescens
@@ -35,6 +37,8 @@ en:
     - "Olive or ochre wash on the throat and breast"
     - "Two yellow bars on the dark wing; broad, flat, dark bill"
   similar:
+    - id: tolmomyias-viridiceps
+      how: "olive face without ochre lores or eye-ring, duller below; lives in western Amazonia, Putumayo included"
     - id: tolmomyias-assimilis
       how: "olive or grayish crown, lores not ochre, pale yellow patch at the base of the flight feathers, paler belly"
     - id: tolmomyias-sulphurescens
@@ -42,12 +46,12 @@ en:
   behavior: "Keeps to the canopy, less often lower, along rivers, várzea edges and in second growth. It perches upright and makes short upward sallies to pick insects from leaves, landing on a different branch."
   voice: "Sings mostly at dawn from a hidden canopy perch: 3–5 loud, penetrating whistles 'sweeEP!' with pauses of one to several seconds; the call is a single 'sweeEP!'."
 ---
-Ochre-lored Flatbill — самый жёлтый из плоскоклювов, птица низин до 800 м. По Wikipedia этот вид в узком смысле живёт на севере и востоке Колумбии, а в западной Амазонии, в том числе в Путумайо, живёт близкий Olive-faced Flatbill (Tolmomyias viridiceps) с оливковым лицом без охристого. Так что птиц с маршрута стоит определять осторожно; надёжнее всего громкий пронзительный свист из крон.
+Ochre-lored Flatbill — самый жёлтый из плоскоклювов, птица низин до 800 м. После разделения в eBird/Clements этот вид в узком смысле — птица льяносов и карибского севера Колумбии, а в западной Амазонии, в том числе в Путумайо, живёт близкий Olive-faced Flatbill (Tolmomyias viridiceps) с оливковым лицом без охристого.
 
-На маршруте этот вид в узком смысле почти не ожидается: после обновления таксономии данных отметки в Путумайо (Финка Дискосура — «возможно») отнесены к Olive-faced Flatbill, а за Ochre-lored осталась лишь маловероятная встреча в районе Чикаке.
+На маршруте вида практически нет (у Чикаке «маловероятно»): плоскоклювы Финки Дискосура и Путумайо — это Olive-faced Flatbill, смотри его карточку.
 
 ## English
 
-Ochre-lored Flatbill is the yellowest of the flatbills, a lowland bird up to 800 m. According to Wikipedia this species in the narrow sense lives in northern and eastern Colombia, while western Amazonia, Putumayo included, holds the closely related Olive-faced Flatbill (Tolmomyias viridiceps), with an olive face lacking ochre. So birds on the route should be identified with care; the loud, penetrating whistle from the canopy is the most reliable clue.
+Ochre-lored Flatbill is the yellowest of the flatbills, a lowland bird up to 800 m. After the eBird/Clements split this species in the narrow sense is the bird of the llanos and the Caribbean north of Colombia, while western Amazonia, Putumayo included, holds the closely related Olive-faced Flatbill (Tolmomyias viridiceps), with an olive face lacking ochre.
 
-On the route this species in the narrow sense is hardly expected: after the taxonomy update of the project data, the Putumayo records (Finca Discosura, "maybe") belong to Olive-faced Flatbill, leaving Ochre-lored only an unlikely chance around Chicaque.
+It is practically absent from the route ("unlikely" around Chicaque): the flatbills of Finca Discosura and Putumayo are Olive-faced Flatbills, see that card.

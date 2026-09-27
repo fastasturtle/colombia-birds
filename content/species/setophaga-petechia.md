@@ -2,6 +2,7 @@
 id: setophaga-petechia
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец ярко-жёлтый, на темени рыжая шапочка; у части птиц рыжеет вся голова"
   - "Грудь самца в рыжих продольных пестринах"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/setophaga-petechia.json (ACO 2022, BIRDBASE 2025; статус исправлен в pipeline/mappings/aco_fixes.json), data/site_species.json (GBIF)"
   - "Wikipedia: Prothonotary warbler (en, CC BY-SA 4.0) — отличие Protonotaria citrea"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: data/texts/setophaga-petechia.json (Wikipedia Mangrove warbler en, Setophaga petechia es), protonotaria-citrea.json; Wikipedia American yellow warbler (en, https://en.wikipedia.org/wiki/American_yellow_warbler), CC BY-SA 4.0"
 en:
   key_features:
     - "Male bright yellow with a rufous cap; in some birds the whole head is rufous"
@@ -41,7 +43,7 @@ en:
   behavior: "Keeps in pairs in mangroves and coastal shrubs, from low branches to the crowns of small trees. Actively searches the foliage; the male sings from an open twig."
   voice: "A ringing, fast whistled song of several phrases; the call is a sharp 'chip'."
 ---
-Mangrove Yellow Warbler (жёлтая древесница) — оседлая древесница мангров атлантического и тихоокеанского побережий от Мексики до Перу; на побережье Нариньо живёт подвид peruviana. В ACO 2022 вид числился как Yellow Warbler вместе с перелётными птицами; по eBird/Clements 2025 перелётные выделены в Northern Yellow Warbler (S. aestiva), а за S. petechia осталась мангровая форма. Главная примета самца — рыжая шапочка на жёлтой голове.
+Mangrove Yellow Warbler («жёлтая древесница» — русское имя широкого вида Yellow Warbler, до разделения) — оседлая древесница мангров атлантического и тихоокеанского побережий от Мексики до Перу; на побережье Нариньо живёт подвид peruviana. В ACO 2022 вид числился как Yellow Warbler вместе с перелётными птицами; по eBird/Clements 2025 перелётные выделены в Northern Yellow Warbler (S. aestiva), а за S. petechia осталась мангровая форма. Главная примета самца — рыжая шапочка на жёлтой голове.
 
 На маршруте она «точно» у Тумако 21 и 23 октября и на Плайя-дель-Морро 22–23 октября, «возможно» на Финке Марагрикола 22 октября. Ищи её по краю мангров и в прибрежных кустах.
 

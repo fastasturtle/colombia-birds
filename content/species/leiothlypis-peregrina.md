@@ -11,7 +11,7 @@ key_features:
 similar:
   - id: vireo-olivaceus
     how: "крупнее и медлительнее, клюв толще, серая шапочка с белой бровью в чёрной кайме, глаз красный"
-  - id: setophaga-petechia
+  - id: setophaga-aestiva
     how: "жёлтая целиком, подхвостье тоже жёлтое, на хвосте жёлтые пятна, брови нет"
 behavior: "Северный мигрант, на зимовке держится стайками в кронах садов, парков, опушек и кофейных плантаций, часто в смешанных стаях. Кроме насекомых охотно пьёт нектар цветущих деревьев и ест мелкие плоды."
 voice: "Частое тонкое «цит» стайки в кроне; песни на зимовке почти нет."
@@ -37,7 +37,7 @@ en:
   similar:
     - id: vireo-olivaceus
       how: "larger and slower, thicker bill, gray cap with a white eyebrow bordered black, red eye"
-    - id: setophaga-petechia
+    - id: setophaga-aestiva
       how: "yellow all over, undertail yellow too, yellow tail spots, no eyebrow"
   behavior: "A boreal migrant that in winter keeps in small flocks in the canopy of gardens, parks, edges and coffee plantations, often in mixed flocks. Besides insects it readily drinks nectar from flowering trees and eats small fruit."
   voice: "Frequent thin 'tsit' calls from a flock in the canopy; almost no song in winter."
