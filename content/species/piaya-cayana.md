@@ -2,18 +2,19 @@
 id: piaya-cayana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх и голова ярко-рыжие, каштановые"
   - "Хвост очень длинный, ступенчатый, снизу чёрный с широкими белыми концами перьев"
-  - "Клюв желтоватый, глаз красный, вокруг глаза голое цветное кольцо"
+  - "Клюв желтоватый, глаз красный, у колумбийских птиц голое кольцо вокруг глаза жёлто-зелёное"
   - "Горло светлее, грудь серая, брюхо тёмное, до черноватого"
 similar:
   - id: coccycua-minuta
     how: "почти вдвое мельче, горло и грудь тёмно-каштановые, хвост короче; держится у воды в низких зарослях"
   - id: piaya-melanogaster
     how: "голова серая, клюв красный, горло и грудь рыжие, брюхо чёрное"
-behavior: "Пробирается по веткам и лианам в средних ярусах и кронах короткими прыжками, как белка, затем планирует на соседнее дерево. Часто присоединяется к смешанным стаям."
-voice: "Громкое двусложное «кип-вёу» и сухая трель «чик-ррр»."
+behavior: "Пробирается по веткам и лианам в средних ярусах и кронах короткими прыжками, как белка, затем планирует на соседнее дерево. Иногда присоединяется к смешанным стаям и к колоннам муравьёв-кочевников."
+voice: "Взрывные «кип!» и «кип! вёу»; песня — серия свистов «уип-уип-уип-уип»."
 traits:
   size: crow
   colors: [rufous, gray, black]
@@ -27,19 +28,20 @@ sources:
   - "Wikipedia: Little cuckoo, Black-bellied cuckoo (en, CC BY-SA 4.0) — отличия"
   - "content/families/cuculidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Common squirrel cuckoo (en, разделы Description, Food and feeding, подвиды; es), Little cuckoo, Black-bellied cuckoo (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Bright rufous-chestnut upperparts and head"
     - "Very long graduated tail, black below with broad white feather tips"
-    - "Yellowish bill, red eye, a bare coloured ring around the eye"
+    - "Yellowish bill, red eye; Colombian birds have a bare yellow-green eye-ring"
     - "Paler throat, gray breast, dark to blackish belly"
   similar:
     - id: coccycua-minuta
       how: "nearly half the size, dark chestnut throat and breast, shorter tail; keeps to low thickets by water"
     - id: piaya-melanogaster
       how: "gray head, red bill, rufous throat and breast, black belly"
-  behavior: "Works along branches and vines in the midstory and canopy in short hops like a squirrel, then glides to the next tree. Often joins mixed flocks."
-  voice: "A loud two-note 'kip-weeoo' and a dry rattle 'chik-rrr'."
+  behavior: "Works along branches and vines in the midstory and canopy in short hops like a squirrel, then glides to the next tree. Occasionally joins mixed flocks and army-ant swarms."
+  voice: "Explosive 'kip!' and 'kip! weeuu' calls; the song is a whistled 'wheep wheep wheep wheep'."
 ---
 Common Squirrel-Cuckoo — большая рыжая кукушка лесов и опушек от Мексики до Аргентины; в Колумбии живёт от низин до 2 800 м, выше 1 200 м реже. Почти половину её длины составляет хвост. Птица ест крупных насекомых, в том числе волосатых гусениц, которых избегает большинство птиц.
 

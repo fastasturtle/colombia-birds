@@ -2,6 +2,7 @@
 id: merganetta-armata
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова и шея белые с чёрными полосами через глаз и по шее, клюв красный"
   - "Самка: низ и горло оранжево-рыжие, голова и спина серые, клюв желтее"
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/merganetta-armata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (целевые виды)"
   - "content/families/anatidae.md (Трамплин птиц); content/species/anas-andium.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Torrent duck (en, es, ru), Andean teal (en), CC BY-SA 4.0; data/sites_resolved.json — фактчек 27.09"
 en:
   key_features:
     - "Male: white head and neck with black stripes through the eye and down the neck, red bill"

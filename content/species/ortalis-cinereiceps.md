@@ -2,6 +2,7 @@
 id: ortalis-cinereiceps
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и шея тёмно-серые, на горле красная голая кожа"
   - "Верх серо-бурый, низ светлее"
@@ -13,7 +14,7 @@ similar:
   - id: ortalis-garrula
     how: "голова и грудь бурые, низ резко белый, конец хвоста белый; живёт на карибском севере страны"
 behavior: "Держится шумными группами по 6–12 птиц в зарослях, вторичном лесу и на заброшенных полях, избегая глубины густого леса. Кормится в основном плодами, а также листьями."
-voice: "Громкие скрипучие переклички группы, особенно на рассвете."
+voice: "Для чачалаки довольно тихая: песня — мягкое «ча-ча-лак-а», стая перекликается хриплыми «клойк, клиук, краак»."
 traits:
   size: crow
   colors: [gray, brown, rufous]
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/ortalis-cinereiceps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Rufous-headed chachalaca, Chestnut-winged chachalaca (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Grey-headed chachalaca (раздел Vocalization), Chestnut-winged chachalaca (en, CC BY-SA 4.0) — фактчек 27.09"
 en:
   key_features:
     - "Dark gray head and neck, bare red skin on the throat"
@@ -38,7 +40,7 @@ en:
     - id: ortalis-garrula
       how: "brown head and breast, sharply white underparts, white tail tip; lives in the Caribbean north of the country"
   behavior: "Keeps in noisy groups of 6–12 in thickets, second growth and abandoned fields, avoiding the interior of dense forest. Feeds mostly on fruit, also on leaves."
-  voice: "Loud grating calls exchanged within the group, especially at dawn."
+  voice: "Quiet for a chachalaca: the song is a soft \"cha-cha-lac-ah\", and flocks exchange raucous \"kloik, kleeuk, kraahk\" calls."
 ---
 Gray-headed Chachalaca (сероголовая чачалака) — чачалака Центральной Америки, от Гондураса до Панамы. В Колумбию она заходит только на крайнем северо-западе, в департаменте Чоко у панамской границы. Живёт от уровня моря до 1 700 м в зарослях и вторичных лесах.
 

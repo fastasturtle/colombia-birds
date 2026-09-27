@@ -2,6 +2,7 @@
 id: nyctibius-grandis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень крупный и бледный: серовато-белый в тонкой бурой ряби"
   - "Голова большая и круглая, глаза огромные, тёмно-карие"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/nyctibius-grandis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Wikipedia: Great potoo (en), Nyctibius grandis (es), Исполинский козодой (ru), CC BY-SA 4.0 — data/texts: поведение, питание, голос, размеры"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Great potoo (en, es), Common potoo, Long-tailed potoo (en), CC BY-SA 4.0; data/sites_resolved.json, data/site_species.json — фактчек 27.09"
 en:
   key_features:
     - "Very large and pale: grayish-white with fine brown vermiculation"
@@ -41,10 +43,10 @@ en:
 ---
 Great Potoo (исполинский уратао) — самый крупный уратао, длиной около 50 см, птица влажных равнинных лесов и их окраин, в Колумбии до 1 000 м. Днём его почти невозможно найти: птица сидит неподвижно на толстом суку и выглядит как обломок ветки. Ночью его выдают рёв и отблеск глаз в луче фонаря.
 
-В данных наблюдений у маршрута встречи единичны: в Исла-Эскондиде 7–11 октября, в Пуэрто-Асисе 11–13 октября и на Плайя-Рике 12 октября. Шанс есть на ночной прогулке по опушке в низменностях Путумайо; днём спроси местных гидов о знакомых присадах.
+Вид значится среди целевых в Эль-Эскондите 13–14 октября, но в данных наблюдений у маршрута встречи единичны: у Финки Дискосура 7 октября, в Исла-Эскондиде 7–11 октября, в Пуэрто-Асисе 11–13 октября и на Плайя-Рике 12 октября. Шанс есть на ночной прогулке по опушке в низменностях Путумайо; днём спроси местных гидов о знакомых присадах.
 
 ## English
 
 Great Potoo is the largest potoo, about 50 cm long, a bird of humid lowland forest and its edges, up to 1,000 m in Colombia. By day it is almost impossible to find: it sits motionless on a thick limb and looks like a broken-off branch. At night its roar and the eyeshine in a torch beam give it away.
 
-Records near the route are few: at Isla Escondida on 7–11 October, Puerto Asís on 11–13 October and Playa Rica on 12 October. There is a chance on a night walk along the forest edge in the Putumayo lowlands; by day ask local guides about known roosts.
+It is listed among the targets at El Escondite on 13–14 October, but records near the route are few: at Finca Discosura on 7 October, Isla Escondida on 7–11 October, Puerto Asís on 11–13 October and Playa Rica on 12 October. There is a chance on a night walk along the forest edge in the Putumayo lowlands; by day ask local guides about known roosts.

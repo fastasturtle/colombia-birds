@@ -2,6 +2,7 @@
 id: podiceps-occipitalis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шея, горло и низ белые, «серебристые»; спина тёмно-серая"
   - "Шапочка и затылок чёрные, на щеках серые перьевые пучки"
@@ -11,7 +12,7 @@ similar:
   - id: podilymbus-podiceps
     how: "вся бурая, клюв толстый, короткий, светлый, глаз тёмный; коренастая и короткошеяя"
   - id: tachybaptus-dominicus
-    how: "намного мельче, тёмно-серая, глаз ярко-жёлтый; держится у зарослей на прудах"
+    how: "мельче (21–27 см) и коренастее, тёмно-серая, глаз ярко-жёлтый; держится у зарослей на прудах"
 behavior: "Держится на открытой воде высокогорных озёр небольшими группами, гнездится колониями на плавучих кучах растительности. Кормится водными насекомыми и их личинками, ныряя."
 voice: "Вне гнездования почти молчит."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/podiceps-occipitalis.json (ACO 2022 — Libro Rojo CR, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (целевые виды Ла-Кочи)"
   - "content/families/podicipedidae.md; content/species/podilymbus-podiceps.md; Wikipedia: Least grebe (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Silvery grebe, Pied-billed grebe, Least grebe (en, раздел Description), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Neck, throat and underparts white, 'silvery'; back dark gray"
@@ -36,7 +38,7 @@ en:
     - id: podilymbus-podiceps
       how: "brown all over, thick short pale bill, dark eye; stocky and short-necked"
     - id: tachybaptus-dominicus
-      how: "much smaller, dark gray, bright yellow eye; keeps to vegetation on ponds"
+      how: "smaller (21–27 cm) and stockier, dark gray, bright yellow eye; keeps to vegetation on ponds"
   behavior: "Lives on the open water of high Andean lakes in small groups and nests in colonies on floating heaps of vegetation. Feeds by diving for aquatic insects and their larvae."
   voice: "Almost silent outside the breeding season."
 ---

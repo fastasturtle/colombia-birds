@@ -2,6 +2,7 @@
 id: tachornis-squamata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Силуэт стройный, хвост длинный, глубоко вильчатый, чаще сложен в тонкую «иглу»"
   - "Крылья длинные и узкие; полёт быстрый, порхающий, с резкими поворотами"
@@ -9,11 +10,11 @@ key_features:
   - "Держится у пальм, особенно у пальмы морише, где и гнездится"
 similar:
   - id: chaetura-brachyura
-    how: "плотнее, хвост совсем короткий, поясница и подхвостье светлые"
+    how: "плотнее, хвост совсем короткий, поясница и хвост светлые, без контраста между собой"
   - id: panyptila-cayennensis
     how: "чёрно-белый: белые горло и воротник и белые пятна по бокам поясницы"
 behavior: "Кормится насекомыми в воздухе небольшими стайками до десятка птиц, низко над пальмовыми болотами, реками и посёлками. Гнездо из перьев подвешивает к засохшему пальмовому листу."
-voice: "Тонкое высокое щебетание и трели в полёте."
+voice: "В полёте — трель «тррррии» и тонкое жужжание «ззззз»."
 traits:
   size: sparrow
   colors: [brown, white]
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Fork-tailed palm swift (en, CC BY-SA 4.0) — описание, связь с пальмами, питание, гнездование"
   - "content/families/apodidae.md (силуэты стрижей маршрута)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Fork-tailed palm swift (en, раздел Vocalization; es), Short-tailed swift, Lesser swallow-tailed swift (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Slender shape, long deeply forked tail, usually closed into a thin spike"
@@ -34,11 +36,11 @@ en:
     - "Keeps around palms, especially moriche palms, where it nests"
   similar:
     - id: chaetura-brachyura
-      how: "stockier, with a very short tail, pale rump and undertail"
+      how: "stockier, with a very short tail; rump and tail pale, without contrast between them"
     - id: panyptila-cayennensis
       how: "black and white: white throat and collar and white patches on the sides of the rump"
   behavior: "Hunts insects in the air in small flocks of up to ten, low over palm swamps, rivers and villages. Hangs its feather nest from a dead palm frond."
-  voice: "Thin high twittering and trills in flight."
+  voice: "In flight, a trilling 'trrrrreeeee' and a thin buzzy 'bzzzzzz'."
 ---
 Fork-tailed Palm Swift (вилохвостый стрижик) — маленький стриж амазонских низин, всюду связанный с пальмами: пальмовыми болотами, влажными саваннами, прибрежными лесами и даже городами, где растут пальмы. Выше 1 000 м почти не поднимается. Гнездо он лепит слюной из перьев, выдернутых на лету у других птиц, чаще всего у голубей и попугаев.
 

@@ -2,6 +2,7 @@
 id: spatula-discors
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: голова сизо-серая с белым полумесяцем перед глазом, тело бурое в тёмных пятнах"
   - "Самка и самец в летнем наряде бурые, с тёмной полосой через глаз и светлым пятнышком у основания клюва"
@@ -9,7 +10,7 @@ key_features:
   - "Небольшой чирок с длинным тёмным клювом"
 similar:
   - id: spatula-cyanoptera
-    how: "самец целиком корично-рыжий; самка почти неотличима, но клюв длиннее и шире, лицо ровнее, без светлого пятна у клюва"
+    how: "самец целиком корично-рыжий; самка почти неотличима, но клюв длиннее и шире, окраска теплее, светлое пятно у клюва и полоса через глаз размыты"
   - id: anas-andium
     how: "голова серовато-бурая в мелкую крапину, без полосы через глаз, плечо в полёте не голубое"
 behavior: "Кормится на мелководье болот, прудов и озёр, процеживая воду с поверхности и опрокидываясь. Держится стайками, осенью с прилётом мигрантов их может быть много."
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/spatula-discors.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/anatidae.md; content/species/anas-andium.md, anas-georgica.md; Wikipedia: Cinnamon teal (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Blue-winged teal (en, es, ru), Cinnamon teal (en, раздел Description), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Male: bluish-gray head with a white crescent in front of the eye, brown body spotted dark"
@@ -34,7 +36,7 @@ en:
     - "A small teal with a long dark bill"
   similar:
     - id: spatula-cyanoptera
-      how: "male wholly cinnamon-red; female nearly identical, but the bill is longer and broader and the face plainer, with no pale spot by the bill"
+      how: "male wholly cinnamon-red; female nearly identical, but the bill is longer and broader, the colour richer, and the pale loral spot and eye line are blurred"
     - id: anas-andium
       how: "grayish-brown head finely speckled, no eye line, no blue forewing in flight"
   behavior: "Feeds in the shallows of marshes, ponds and lakes, sieving the surface and upending. Lives in flocks; in autumn, as migrants arrive, there can be many."

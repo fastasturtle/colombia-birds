@@ -2,6 +2,7 @@
 id: columba-livia
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голубовато-серый, с двумя чёрными полосами на крыле у «дикой» окраски"
   - "Шея с зелёно-фиолетовым металлическим блеском"
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/columba-livia.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/zenaida-auriculata.md; Wikipedia: Band-tailed pigeon (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Rock dove (en, es, ru), Band-tailed pigeon, Eared dove (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Bluish-gray with two black wing bars in the 'wild' colour type"

@@ -2,6 +2,7 @@
 id: patagioenas-plumbea
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и низ тёмно-серые с розовато-винным налётом"
   - "Спина и крылья тёмные, серо-бурые или оливковые, без рисунка"
@@ -9,11 +10,11 @@ key_features:
   - "Однотонный тёмный голубь, сидящий высоко в кронах"
 similar:
   - id: patagioenas-subvinacea
-    how: "на вид почти не отличить, окраска рыжее; надёжно различаются только по песне"
+    how: "на вид почти не отличить: чуть мельче (28 против 34 см), спина рыжее; надёжно различаются только по песне"
   - id: patagioenas-cayennensis
     how: "подхвостье светлое, на затылке медный отлив; держится на опушках и у рек, а не в кронах леса"
 behavior: "Держится парами или поодиночке в кронах влажного леса и редко спускается ниже; чаще слышен, чем виден. Кормится плодами."
-voice: "Глухое трёх-четырёхсложное воркование из кроны; по ритму отличается от Ruddy Pigeon, и голос — главный признак."
+voice: "Из кроны — ритмичная повторяемая фраза из 2–5 воркующих нот, позыв — протяжное мурлыкающее «ррррроу»; голос сильно отличается от Ruddy Pigeon и служит главным признаком."
 traits:
   size: pigeon
   colors: [gray, purple, brown]
@@ -26,6 +27,7 @@ sources:
   - "Данные проекта: data/species/patagioenas-plumbea.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Wikipedia: Ruddy pigeon, Pale-vented pigeon (en, CC BY-SA 4.0) — отличия"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Plumbeous pigeon (en, разделы Description, Vocalization; ru), Ruddy pigeon, Pale-vented pigeon (en), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Dark gray head, neck and underparts with a pinkish-vinaceous wash"
@@ -34,11 +36,11 @@ en:
     - "A uniform dark pigeon sitting high in the canopy"
   similar:
     - id: patagioenas-subvinacea
-      how: "almost identical in looks, more rufous in tone; reliably told only by song"
+      how: "almost identical in looks: a little smaller (28 vs 34 cm), more rufous on the back; reliably told only by song"
     - id: patagioenas-cayennensis
       how: "pale vent, coppery gloss on the nape; keeps to edges and rivers rather than the forest canopy"
   behavior: "Keeps in pairs or alone in the canopy of humid forest and rarely comes lower; heard more often than seen. Feeds on fruit."
-  voice: "A muffled three- or four-note cooing from the canopy; its rhythm differs from Ruddy Pigeon, and voice is the main clue."
+  voice: "From the canopy, a repeated rhythmic phrase of 2–5 coos; the call is a drawn-out purring 'rrrrrow'. The voice differs strongly from Ruddy Pigeon and is the main clue."
 ---
 Plumbeous Pigeon (свинцовый голубь) — тёмный однотонный голубь крон влажного предгорного и облачного леса, в Колумбии по данным от 200 до 1 900 м. На восточном склоне Анд живёт подвид bogotensis, на тихоокеанском — chapmani. Увидеть его сложно: птица сидит высоко в листве, а внешне почти не отличается от Ruddy Pigeon, поэтому определяют по голосу.
 
