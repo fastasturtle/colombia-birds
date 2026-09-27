@@ -3,14 +3,78 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 467
+- Карточек: 531
 - Проверено: 467
-- Не проверено: 0
+- Не проверено: 64
 
-## Не проверено (0)
+## Не проверено (64)
 
 | Слаг | English | Группа |
 |---|---|---|
+| anhima-cornuta | Horned Screamer | Утки, поганки и фламинго |
+| dendrocygna-autumnalis | Black-bellied Whistling-Duck | Утки, поганки и фламинго |
+| tachybaptus-dominicus | Least Grebe | Утки, поганки и фламинго |
+| limnodromus-griseus | Short-billed Dowitcher | Кулики, чайки и крачки |
+| phalaropus-tricolor | Wilson's Phalarope | Кулики, чайки и крачки |
+| tringa-flavipes | Lesser Yellowlegs | Кулики, чайки и крачки |
+| arenaria-interpres | Ruddy Turnstone | Кулики, чайки и крачки |
+| calidris-himantopus | Stilt Sandpiper | Кулики, чайки и крачки |
+| calidris-bairdii | Baird's Sandpiper | Кулики, чайки и крачки |
+| calidris-melanotos | Pectoral Sandpiper | Кулики, чайки и крачки |
+| calidris-mauri | Western Sandpiper | Кулики, чайки и крачки |
+| calidris-pusilla | Semipalmated Sandpiper | Кулики, чайки и крачки |
+| aulacorhynchus-albivitta | Southern Emerald-Toucanet | Туканы, бородатки и дятлы |
+| andigena-hypoglauca | Gray-breasted Mountain-Toucan | Туканы, бородатки и дятлы |
+| pteroglossus-inscriptus | Lettered Aracari | Туканы, бородатки и дятлы |
+| pteroglossus-torquatus | Collared Aracari | Туканы, бородатки и дятлы |
+| picumnus-squamulatus | Scaled Piculet | Туканы, бородатки и дятлы |
+| picumnus-olivaceus | Olivaceous Piculet | Туканы, бородатки и дятлы |
+| melanerpes-formicivorus | Acorn Woodpecker | Туканы, бородатки и дятлы |
+| melanerpes-rubricapillus | Red-crowned Woodpecker | Туканы, бородатки и дятлы |
+| leuconotopicus-fumigatus | Smoky-brown Woodpecker | Туканы, бородатки и дятлы |
+| veniliornis-kirkii | Red-rumped Woodpecker | Туканы, бородатки и дятлы |
+| campephilus-rubricollis | Red-necked Woodpecker | Туканы, бородатки и дятлы |
+| campephilus-melanoleucos | Crimson-crested Woodpecker | Туканы, бородатки и дятлы |
+| celeus-loricatus | Cinnamon Woodpecker | Туканы, бородатки и дятлы |
+| piculus-leucolaemus | White-throated Woodpecker | Туканы, бородатки и дятлы |
+| colaptes-rivolii | Crimson-mantled Woodpecker | Туканы, бородатки и дятлы |
+| euchrepomis-callinota | Rufous-rumped Antwren | Муравьеловки, печники и древолазы |
+| thamnophilus-atrinucha | Black-crowned Antshrike | Муравьеловки, печники и древолазы |
+| cercomacroides-nigrescens | Blackish Antbird | Муравьеловки, печники и древолазы |
+| xenops-rutilans | Streaked Xenops | Муравьеловки, печники и древолазы |
+| anabacerthia-variegaticeps | Scaly-throated Foliage-gleaner | Муравьеловки, печники и древолазы |
+| pheucticus-aureoventris | Black-backed Grosbeak | Танагры и кардиналы |
+| paroaria-gularis | Red-capped Cardinal | Танагры и кардиналы |
+| sericossypha-albocristata | White-capped Tanager | Танагры и кардиналы |
+| thlypopsis-superciliaris | Superciliaried Hemispingus | Танагры и кардиналы |
+| eucometis-penicillata | Gray-headed Tanager | Танагры и кардиналы |
+| loriotus-cristatus | Flame-crested Tanager | Танагры и кардиналы |
+| tachyphonus-surinamus | Fulvous-crested Tanager | Танагры и кардиналы |
+| tachyphonus-delatrii | Tawny-crested Tanager | Танагры и кардиналы |
+| lanio-fulvus | Fulvous Shrike-Tanager | Танагры и кардиналы |
+| anisognathus-somptuosus | Blue-winged Mountain Tanager | Танагры и кардиналы |
+| iridosornis-analis | Yellow-throated Tanager | Танагры и кардиналы |
+| ixothraupis-xanthogastra | Yellow-bellied Tanager | Танагры и кардиналы |
+| ixothraupis-punctata | Spotted Tanager | Танагры и кардиналы |
+| chalcothraupis-ruficervix | Golden-naped Tanager | Танагры и кардиналы |
+| tangara-vassorii | Blue-and-black Tanager | Танагры и кардиналы |
+| tangara-labradorides | Metallic-green Tanager | Танагры и кардиналы |
+| tangara-xanthocephala | Saffron-crowned Tanager | Танагры и кардиналы |
+| tangara-florida | Emerald Tanager | Танагры и кардиналы |
+| dacnis-flaviventer | Yellow-bellied Dacnis | Танагры и кардиналы |
+| dacnis-cayana | Blue Dacnis | Танагры и кардиналы |
+| cyanerpes-cyaneus | Red-legged Honeycreeper | Танагры и кардиналы |
+| chlorophanes-spiza | Green Honeycreeper | Танагры и кардиналы |
+| hemithraupis-flavicollis | Yellow-backed Tanager | Танагры и кардиналы |
+| pseudospingus-verticalis | Black-headed Hemispingus | Танагры и кардиналы |
+| sporophila-funerea | Thick-billed Seed-Finch | Танагры и кардиналы |
+| sporophila-angolensis | Chestnut-bellied Seed-Finch | Танагры и кардиналы |
+| sporophila-nigricollis | Yellow-bellied Seedeater | Танагры и кардиналы |
+| tiaris-olivaceus | Yellow-faced Grassquit | Танагры и кардиналы |
+| saltator-olivascens | Olive-gray Saltator | Танагры и кардиналы |
+| saltator-coerulescens | Bluish-gray Saltator | Танагры и кардиналы |
+| saltator-striatipectus | Streaked Saltator | Танагры и кардиналы |
+| saltator-grossus | Slate-colored Grosbeak | Танагры и кардиналы |
 
 ## Проверено (467)
 
