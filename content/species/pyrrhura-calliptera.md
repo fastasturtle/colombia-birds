@@ -2,6 +2,7 @@
 id: pyrrhura-calliptera
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь бурые, в светлых каёмках, будто в чешуйках"
   - "Кроющие кисти ярко-жёлтые: в полёте на крыле жёлто-оранжевое пятно"
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/pyrrhura-calliptera.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/pyrrhura-melanura.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/es/ru.wikipedia Flame-winged parakeet — окраска, высоты, ареал, гнездование подтверждены; голос в источниках не описан, формулировка общая; правок нет"
 en:
   key_features:
     - "Brown throat and breast with pale edges, looking scaled"

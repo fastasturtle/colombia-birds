@@ -2,6 +2,7 @@
 id: dysithamnus-puncticeps
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка самца тёмно-серая в частых белых точках"
   - "Горло и грудь белые в тёмных пестринах, бока оливково-серые"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: шапочка рыжая в тёмных точках, низ бледно-охристый"
 similar:
   - id: dysithamnus-mentalis
-    how: "шапочка без точек, грудь ровная серовато-желтоватая без пестрин, тёмная щека; живёт выше по склону"
+    how: "шапочка без точек (у самки рыжая, как у этого вида, но без точек), грудь с неясными серыми крапинами, середина брюха жёлтая, щека тёмная; на тихоокеанском склоне держится выше"
 behavior: "Кормится парами или семейками в подлеске и среднем ярусе, на высоте 3–8 м, часто с микст-флоком. Медленно осматривает листья и снимает с них насекомых, иногда коротко подпархивая."
 voice: "Песня — быстрая ровная трель, к концу слегка ускоряется и понижается; позыв — короткое нисходящее «чррр»."
 traits:
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: Spot-crowned antvireo (en, CC BY-SA 4.0) — окраска самца и самки, высоты в Колумбии, кормление, голос"
   - "Данные проекта: data/species/dysithamnus-puncticeps.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Spot-crowned antvireo, Plain antvireo — у самки Plain тоже рыжая шапочка (без точек), грудь в неясных крапинах, брюхо жёлтое; голос и высоты подтверждены"
 en:
   key_features:
     - "Male's crown dark gray, densely spotted white"
@@ -31,7 +33,7 @@ en:
     - "Female: rufous crown with dark spots, pale buff underparts"
   similar:
     - id: dysithamnus-mentalis
-      how: "crown unspotted, breast plain grayish-yellow without streaks, dark cheek; lives higher up the slope"
+      how: "crown unspotted (the female's rufous, as in this species, but without spots), breast faintly spotted gray, yellow belly centre, dark cheek; on the Pacific slope it lives higher"
   behavior: "Forages in pairs or family groups in the understory and midstory at 3–8 m, often with a mixed flock. Inspects leaves slowly and gleans insects, sometimes with short hovering sallies."
   voice: "The song is a fast even trill, slightly accelerating and dropping at the end; the call is a short descending 'chirr'."
 ---

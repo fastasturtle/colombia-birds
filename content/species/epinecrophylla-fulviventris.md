@@ -2,6 +2,7 @@
 id: epinecrophylla-fulviventris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло самца чёрное в крупных белых пятнах, как шахматная доска; лицо серое"
   - "Кроющие крыла тёмные с охристыми точками, образуют две пятнистые полосы"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: лицо и горло ровные охристые; глаз у обоих полов светлый, золотистый"
 similar:
   - id: myrmotherula-schisticolor
-    how: "самец сплошь сизый с чёрным горлом и грудью без белых пятен, самка ровная охристая; в сухих листьях не копается"
+    how: "самец сплошь сизый с чёрным горлом и грудью без белых пятен, самка ровная коричная; обирает в основном живую листву, в сухих листьях реже"
 behavior: "Кормится парами и семейками в подлеске, обычно с микст-флоком, и методично обшаривает пучки сухих листьев, застрявшие в лианах, повисая на них."
 voice: "Песня — серия отрывистых высоких нот «сии, сии, сью», обычно понижающаяся; позыв — быстрая трель и резкое «пиик»."
 traits:
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: Checker-throated stipplethroat (en, CC BY-SA 4.0) — окраска, высоты в Колумбии, кормление, голос"
   - "Данные проекта: data/species/epinecrophylla-fulviventris.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Slaty antwren — тоже берёт добычу из пучков сухих листьев, но в основном с живой листвы; голос и окраска Checker-throated подтверждены (en.wikipedia)"
 en:
   key_features:
     - "Male's throat black with large white spots, like a checkerboard; gray face"
@@ -31,7 +33,7 @@ en:
     - "Female: plain buff face and throat; pale golden eye in both sexes"
   similar:
     - id: myrmotherula-schisticolor
-      how: "male all slaty with a black throat and breast without white spots, female plain buff; does not probe dead leaves"
+      how: "male all slaty with a black throat and breast without white spots, female plain cinnamon; gleans mostly live foliage, dead leaves less often"
   behavior: "Forages in pairs and family groups in the understory, usually with a mixed flock, methodically searching clusters of dead leaves caught in vines and hanging from them."
   voice: "The song is a series of abrupt high notes, 'seee, seee, seeu', usually falling; calls are a fast rattle and a sharp 'peeyk'."
 ---

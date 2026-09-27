@@ -2,6 +2,7 @@
 id: glyphorynchus-spirurus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, клиновидный, нижний край чуть вздёрнут вверх"
   - "Самый мелкий древолаз: с воробья, бурый, поясница и хвост рыжие"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Glyphorynchus spirurus (es), Долотоклювый древолаз (ru), CC BY-SA 4.0 — data/texts"
   - "Данные проекта: data/species/glyphorynchus-spirurus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/es.wikipedia Wedge-billed woodcreeper — окраска, subrufescens на тихоокеанском склоне, песни групп подвидов, позыв «chiff» подтверждены; отличия Streaked Xenops и Spotted Woodcreeper по en.wikipedia; правок нет"
 en:
   key_features:
     - "Short wedge-shaped bill with a slightly upturned lower edge"

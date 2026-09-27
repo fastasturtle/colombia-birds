@@ -2,6 +2,7 @@
 id: dichrozona-cincta
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поперёк белой груди полоса чёрных пятен, как ожерелье"
   - "Крылья чёрные с двумя широкими белыми или охристыми полосами"
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: Banded antbird (en, CC BY-SA 4.0) — размеры, окраска, местообитания, высоты в Колумбии, голос"
   - "Данные проекта: data/species/dichrozona-cincta.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Banded antbird — в Колумбии до 500 м, Исла-Эскондида (data/sites.json, 650–1 600 м) у верхней границы пояса или выше (BIRDBASE до 800 м), но в целях участка; окраска, голос, поведение подтверждены"
 en:
   key_features:
     - "A band of black spots across the white breast, like a necklace"
@@ -37,10 +39,10 @@ en:
 ---
 Banded Antbird (перепелиный эсперито) — крошечная, почти полностью наземная муравьеловка амазонского леса терра-фирме, в Колумбии до 500 м. Длинный клюв, короткий хвост и пёстрый рисунок — чёрное ожерелье на белой груди, полосы на крыльях и пояснице — делают её непохожей ни на одну другую муравьеловку. Держится скрытно, и чаще её выдаёт долгая восходящая песня.
 
-На маршруте вид «возможно» в Исла-Эскондиде 7–11 октября, но это верхний край его высот, и встреча там — удача. Ищи его на открытой подстилке под пологом высокого леса.
+На маршруте вид «возможно» в Исла-Эскондиде 7–11 октября, и в отчётах бёрдвотчеров он числится среди целей участка, но участок (650–1 600 м) лежит у верхней границы его высот или выше (в Колумбии обычно до 500 м, по BIRDBASE до 800 м), так что встреча там — удача. Ищи его на открытой подстилке под пологом высокого леса.
 
 ## English
 
 Banded Antbird is a tiny, almost wholly terrestrial antbird of Amazonian terra firme forest, in Colombia up to 500 m. A long bill, short tail and bold pattern, a black necklace on a white breast plus bars on the wings and rump, make it unlike any other antbird. It is secretive and is more often given away by its long rising song.
 
-On the route it is "maybe" at Isla Escondida on 7–11 October, but that is the upper edge of its elevation range, and a sighting there is a lucky find. Look for it on open litter under tall forest.
+On the route it is "maybe" at Isla Escondida on 7–11 October, and birders' trip reports list it among the site's targets, but the site (650–1,600 m) is at or above the top of its elevation range (in Colombia usually up to 500 m, up to 800 m per BIRDBASE), so a sighting there is a lucky find. Look for it on open litter under tall forest.

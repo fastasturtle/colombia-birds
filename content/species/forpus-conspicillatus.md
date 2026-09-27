@@ -2,6 +2,7 @@
 id: forpus-conspicillatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный ярко-зелёный попугайчик с коротким клиновидным хвостом"
   - "У самца синее кольцо вокруг глаза, синие поясница и часть крыла"
@@ -10,8 +11,8 @@ key_features:
 similar:
   - id: forpus-coelestis
     how: "затылок и спина с сероватым налётом, у самца синяя полоска за глазом, а не кольцо; на побережье у Тумако"
-behavior: "Шумными стайками кормится семенами трав и кустарников и мелкими плодами на опушках, в садах и сухих зарослях; летает быстро и низко, с постоянным щебетом."
-voice: "Тонкий щебет и цыканье стайки."
+behavior: "Шумными стайками кормится семенами трав и кустарников и мелкими плодами на опушках, в садах и сухих зарослях; летает быстро, с постоянным щебетом."
+voice: "Щебет, чириканье и жужжащие звуки стайки."
 traits:
   size: sparrow
   colors: [green, blue]
@@ -25,6 +26,7 @@ sources:
   - "Данные проекта: data/species/forpus-conspicillatus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/forpus-coelestis.md (согласование отличий)"
   - "Общие полевые знания автора-агента (описание окраски, местообитания); из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/es.wikipedia Spectacled parrotlet (окраска, питание, голос); es.wikipedia Forpus conspicillatus caucae и поиск (подвид caucae до юго-запада Нариньо — наблюдения у Тумако правдоподобны)"
 en:
   key_features:
     - "A tiny bright green parrotlet with a short wedge-shaped tail"
@@ -34,15 +36,15 @@ en:
   similar:
     - id: forpus-coelestis
       how: "grayish wash on the nape and back, the male has a blue streak behind the eye rather than a ring; on the coast near Tumaco"
-  behavior: "Noisy small flocks feed on grass and shrub seeds and small fruit along edges, in gardens and dry scrub; they fly fast and low, twittering constantly."
-  voice: "Thin twittering and chips from the flock."
+  behavior: "Noisy small flocks feed on grass and shrub seeds and small fruit along edges, in gardens and dry scrub; they fly fast, twittering constantly."
+  voice: "Twittering, chirping and buzzy notes from the flock."
 ---
-Spectacled Parrotlet (очковый воробьиный попугайчик) — самый обычный воробьиный попугайчик Колумбии: живёт в сухих и полуоткрытых местах межгорных долин и предгорий, в садах, на пастбищах и опушках, в основном до 1 800 м. Вид почти целиком колумбийский, за пределы страны заходит лишь в Панаму и Венесуэлу. В полёте все Forpus одинаковы, поэтому рассматривай сидящую стайку.
+Spectacled Parrotlet (очковый воробьиный попугайчик) — самый распространённый воробьиный попугайчик Колумбии: живёт в сухих и полуоткрытых местах межгорных долин и предгорий, в садах, на пастбищах и опушках, в основном до 1 800 м. Вид почти целиком колумбийский, за пределы страны заходит лишь в Панаму и Венесуэлу. На юго-запад, до побережья Нариньо, доходит подвид caucae. В полёте все Forpus одинаковы, поэтому рассматривай сидящую стайку.
 
 На маршруте он «точно» на Плайя-дель-Морро 22–23 октября и «возможно» у Тумако, в Эль-Энканто и Ла-Дримофиле 4–6 октября и в Чикаке. На побережье у Тумако живёт и Pacific Parrotlet, так что проверяй каждую птицу.
 
 ## English
 
-Spectacled Parrotlet is the commonest parrotlet in Colombia: it lives in dry and semi-open country in intermontane valleys and foothills, in gardens, pastures and along edges, mostly below 1,800 m. The species is almost entirely Colombian, reaching beyond the country only into Panama and Venezuela. In flight all Forpus look the same, so study a perched flock.
+Spectacled Parrotlet is the most widespread parrotlet in Colombia: it lives in dry and semi-open country in intermontane valleys and foothills, in gardens, pastures and along edges, mostly below 1,800 m. The species is almost entirely Colombian, reaching beyond the country only into Panama and Venezuela. The subspecies caucae reaches south-west to the Nariño coast. In flight all Forpus look the same, so study a perched flock.
 
 On the route it is "sure" at Playa del Morro on 22–23 October and "maybe" near Tumaco, at El Encanto and La Drymophila on 4–6 October and at Chicaque. Pacific Parrotlet also lives on the coast near Tumaco, so check every bird.

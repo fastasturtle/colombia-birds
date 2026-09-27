@@ -2,6 +2,7 @@
 id: cercomacra-nigricans
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец угольно-чёрный, на кроющих крыла белые концы, образующие полосы"
   - "Хвост длинный, чёрный, с белыми кончиками перьев"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Jet antbird (en, CC BY-SA 4.0) — окраска, местообитания, высоты в Колумбии, голос"
   - "Данные проекта: data/species/cercomacra-nigricans.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/es.wikipedia Jet antbird, Black-crowned antshrike — окраска, биотоп, высоты, голос подтверждены; Dusky Antbird без выдержки, отличие общеизвестное; правок нет"
 en:
   key_features:
     - "Male jet black, white-tipped wing coverts forming bars"

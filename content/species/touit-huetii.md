@@ -2,6 +2,7 @@
 id: touit-huetii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Изгиб крыла и подкрылья ярко-красные, особенно заметны в полёте"
   - "Лицо спереди тёмное, вокруг глаза белое кольцо"
@@ -9,10 +10,10 @@ key_features:
   - "У самца крайние рулевые красные с чёрными концами; у самки хвост зеленовато-жёлтый"
 similar:
   - id: brotogeris-cyanoptera
-    how: "хвост длиннее и заострённый, на подбородке оранжевое пятнышко, маховые синие, красного нет"
+    how: "крупнее (18–20 см), хвост заострённый, на подбородке оранжевое пятнышко, маховые синие, красного нет"
   - id: forpus-modestus
-    how: "намного мельче, без красного на крыле, клюв тёмный"
-behavior: "Держится стайками в кронах леса на незатопляемых террасах и в пойме, кормится плодами и семенами; очень незаметен и чаще всего виден как тесная стайка, пролетающая над лесом."
+    how: "мельче (около 12 см), без красного на крыле, клюв тёмный"
+behavior: "Держится стайками в кронах леса на незатопляемых террасах и в пойме; чем и как кормится, почти не изучено. Очень незаметен и чаще всего виден как тесная стайка, пролетающая над лесом."
 voice: "Очень высокое «тьют-тьют-тьют» вперемешку с «тьер»; стая в полёте непрерывно однообразно щебечет, сидящие птицы тихо урчат."
 traits:
   size: sparrow
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/touit-huetii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/sites.json (цель Эль-Эскондите)"
   - "content/families/psittacidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/es.wikipedia (Scarlet-shouldered parrotlet, Cobalt-winged parakeet, Forpus modestus) — питание не описано, размеры похожих видов"
 en:
   key_features:
     - "Bright red bend of the wing and underwing coverts, obvious in flight"
@@ -35,10 +37,10 @@ en:
     - "Male's outer tail feathers red with black tips; female's tail greenish-yellow"
   similar:
     - id: brotogeris-cyanoptera
-      how: "longer pointed tail, small orange chin spot, blue flight feathers, no red"
+      how: "larger (18–20 cm), pointed tail, small orange chin spot, blue flight feathers, no red"
     - id: forpus-modestus
-      how: "much smaller, no red in the wing, dark bill"
-  behavior: "Flocks keep to the canopy of terra firme and floodplain forest, feeding on fruit and seeds; very unobtrusive and usually seen as a tight flock flying over the forest."
+      how: "smaller (about 12 cm), no red in the wing, dark bill"
+  behavior: "Flocks keep to the canopy of terra firme and floodplain forest; its diet and foraging are hardly documented. Very unobtrusive and usually seen as a tight flock flying over the forest."
   voice: "A very high 'tjoot-tjoot-tjoot' mixed with 'tjer'; flocks in flight chatter continuously and monotonously, perched birds give a soft churr."
 ---
 Scarlet-shouldered Parrotlet (красноплечий туети) — маленький скрытный попугай амазонских лесов, в Колумбии живёт на юго-востоке, в основном ниже 900 м. Встречается редко и неравномерно, но, по-видимому, чаще, чем кажется: стайки кочуют над огромными массивами леса. ACO оценивает его в Колумбии как уязвимый (VU). Сидя в кроне, туети почти невидим; в полёте смотри на красные подкрылья и слушай высокий щебет.

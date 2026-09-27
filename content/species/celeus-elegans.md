@@ -2,6 +2,7 @@
 id: celeus-elegans
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь тёмно-каштановый, от шоколадного до рыжего, с торчащим хохлом"
   - "Поясница кремово-жёлтая, светлое пятно видно при взлёте"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Chestnut woodpecker (en), Celeus elegans (es), Светлохохлый целеус (ru), CC BY-SA 4.0 — data/texts: окраска, подвиды, высоты, голос"
   - "content/species/celeus-flavus.md, content/species/celeus-spectabilis.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): подтверждено по en/ru.wikipedia (подвид jumanus, голос, высоты до 500 м в Колумбии); правок нет"
 en:
   key_features:
     - "Dark chestnut all over, from chocolate to rufous, with a spiky crest"
