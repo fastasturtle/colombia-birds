@@ -32,7 +32,9 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import DATA, SPECIES_DIR, get_json, log, only_slugs, read_json, write_json  # noqa: E402
+from common import (  # noqa: E402
+    DATA, SPECIES_DIR, fmt_elapsed, get_json, log, only_slugs, read_json, time_up, write_json,
+)
 
 PHOTOS = DATA / "photos"
 MAX_CANDIDATES = 4
@@ -430,27 +432,34 @@ def main() -> None:
     today = dt.date.today().isoformat()
 
     files = sorted(SPECIES_DIR.glob("*.json"))
-    done = 0
+    total = len(only) if only else len(files)
+    seen = done = skipped = failed = 0
     for f in files:
-        sp = read_json(f)
-        if only and sp["id"] not in only:
+        if only and f.stem not in only:
             continue
-        out_path = PHOTOS / f"{sp['id']}.json"
+        seen += 1
+        if seen % 100 == 0:
+            log(f"photos: {seen}/{total} species, {done} fetched, {skipped} skipped-complete, {failed} failed, "
+                f"elapsed {fmt_elapsed()}")
+        out_path = PHOTOS / f"{f.stem}.json"
         prev = read_json(out_path, {})
         if (not refresh and not only and prev and prev.get("ranking") == RANKING_VERSION
                 and all((prev.get("sources_ok") or {}).get(s) for s in ("commons", "inaturalist"))):
+            skipped += 1
             continue  # complete from an earlier run (older ranking versions are redone; HTTP is cached)
         if limit is not None and done >= limit:
             break
+        if time_up("photos"):
+            break
+        sp = read_json(f)
         try:
             rec = process(sp, prev, today)
         except Exception as e:  # never let one species stop the run
+            failed += 1
             log(f"  {sp['id']}: {e}")
             continue
-        write_json(out_path, rec)
+        write_json(out_path, rec)  # per species: an interrupted run keeps everything fetched so far
         done += 1
-        if done % 50 == 0:
-            log(f"photos: {done} species processed")
 
     # summary over everything on disk
     total = with_any = 0

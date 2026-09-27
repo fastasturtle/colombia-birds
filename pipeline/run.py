@@ -6,6 +6,11 @@ Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names
 Steps may also be given as one whitespace-separated string ("wikipedia photos upload"), as the CI
 workflow does. `--only slug ...` restricts per-species steps (wikipedia, photos, upload) to those
 slugs by setting the ONLY_SLUGS env var, which those steps read; setting ONLY_SLUGS directly also works.
+
+`--max-minutes N` (or the MAX_MINUTES env var) is a time budget for the whole run: per-species steps
+(wikipedia, photos, upload) finish the current species, write their outputs and stop cleanly once it is
+spent (later steps then stop at once); the run still exits 0. Re-running resumes where it stopped.
+The CI workflow sets MAX_MINUTES below its hard step timeout.
 """
 from __future__ import annotations
 
@@ -33,6 +38,10 @@ FILES = {
 }
 
 args = " ".join(sys.argv[1:]).split()
+if "--max-minutes" in args:
+    i = args.index("--max-minutes")
+    os.environ["MAX_MINUTES"] = args[i + 1]
+    del args[i:i + 2]
 steps, only = [], []
 target = steps
 for a in args:
@@ -46,6 +55,13 @@ steps = steps or ORDER
 unknown = [s for s in steps if s not in FILES]
 if unknown:
     sys.exit(f"unknown step(s): {', '.join(unknown)}; known: {', '.join(FILES)}")
+
+sys.path.insert(0, str(Path(__file__).parent))
+from common import sigterm_as_interrupt  # noqa: E402  (also starts the MAX_MINUTES clock)
+
+sigterm_as_interrupt()
+if os.environ.get("MAX_MINUTES"):
+    print(f"time budget: {os.environ['MAX_MINUTES']} minutes (MAX_MINUTES)", flush=True)
 
 for s in steps:
     print(f"=== {s}", flush=True)

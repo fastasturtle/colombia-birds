@@ -102,10 +102,16 @@ def get_json(url: str, params: dict[str, Any] | None = None, **kw) -> Any:
 
 
 def write_json(path: Path, obj: Any) -> None:
+    """Atomic write (tmp file + rename): an interrupted run leaves either the old or the new file,
+    and no stray .tmp file (which `git add -A data/` would otherwise commit)."""
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
-    tmp.replace(path)
+    try:
+        tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
+        tmp.replace(path)
+    except BaseException:
+        tmp.unlink(missing_ok=True)
+        raise
 
 
 def read_json(path: Path, default: Any = None) -> Any:
@@ -133,6 +139,48 @@ def log(msg: str) -> None:
 
 def env(name: str, default: str | None = None) -> str | None:
     return os.environ.get(name, default)
+
+
+# ---- Time budget for long per-species steps ----
+# MAX_MINUTES (env; run.py --max-minutes sets it) is a budget for the whole process, counted from the
+# first import of this module, so with run.py it spans all steps of the run. Per-species steps call
+# time_up() before each species: when it is true they finish nothing new, write their outputs and
+# return normally, so the CI commit step always gets consistent data well before the hard timeout.
+_START = time.monotonic()
+_stop_logged: set[str] = set()
+
+
+def elapsed_min() -> float:
+    return (time.monotonic() - _START) / 60
+
+
+def fmt_elapsed() -> str:
+    m = elapsed_min()
+    return f"{m:.0f}m" if m < 60 else f"{int(m // 60)}h{int(m % 60):02d}m"
+
+
+def sigterm_as_interrupt() -> None:
+    """Turn SIGTERM (CI cancel/timeout) into KeyboardInterrupt so `finally` blocks run."""
+    import signal
+
+    def _raise(signum, frame):
+        raise KeyboardInterrupt(f"signal {signum}")
+
+    try:
+        signal.signal(signal.SIGTERM, _raise)
+    except ValueError:  # not in the main thread
+        pass
+
+
+def time_up(step: str) -> bool:
+    """True once MAX_MINUTES has passed; logs the stop line once per step."""
+    limit = os.environ.get("MAX_MINUTES")
+    if not limit or elapsed_min() < float(limit):
+        return False
+    if step not in _stop_logged:
+        _stop_logged.add(step)
+        log(f"{step}: stopped early after {limit} minutes (MAX_MINUTES), resume by re-running")
+    return True
 
 
 def post_form(

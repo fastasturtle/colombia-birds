@@ -12,7 +12,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import DATA, SPECIES_DIR, get_json, log, only_slugs, read_json, write_json  # noqa: E402
+from common import (  # noqa: E402
+    DATA, SPECIES_DIR, fmt_elapsed, get_json, log, only_slugs, read_json, time_up, write_json,
+)
 
 TEXTS = DATA / "texts"
 LANGS = ("en", "es", "ru")
@@ -83,14 +85,18 @@ def fetch(lang: str, title: str) -> dict | None:
 def main() -> None:
     only = only_slugs(sys.argv[1:])
     files = sorted(SPECIES_DIR.glob("*.json"))
-    done = 0
+    total = len(only) if only else len(files)
+    done = fetched = skipped = 0
     for f in files:
-        sp = read_json(f)
-        if only and sp["id"] not in only:
+        if only and f.stem not in only:
             continue
+        if time_up("wikipedia"):
+            break
+        sp = read_json(f)
         out_path = TEXTS / f"{sp['id']}.json"
         existing = read_json(out_path, {})
         rec = {"id": sp["id"], "wikipedia": existing.get("wikipedia", {})}
+        n_before = len(rec["wikipedia"])
         for lang in LANGS:
             url = sp["links"]["wikipedia"].get(lang)
             if not url or lang in rec["wikipedia"]:
@@ -105,11 +111,15 @@ def main() -> None:
                 continue
             if got:
                 rec["wikipedia"][lang] = got
-        if rec["wikipedia"]:
-            write_json(out_path, rec)
+        if len(rec["wikipedia"]) > n_before:
+            write_json(out_path, rec)  # written per species, so an interrupted run keeps what it fetched
+            fetched += 1
+        else:
+            skipped += 1
         done += 1
-        if done % 50 == 0:
-            log(f"wikipedia: {done}/{len(files)}")
+        if done % 100 == 0:
+            log(f"wikipedia: {done}/{total} species, {fetched} updated, {skipped} unchanged/skipped, "
+                f"elapsed {fmt_elapsed()}")
     n = sum(1 for _ in TEXTS.glob("*.json"))
     log(f"wikipedia: texts for {n} species")
 

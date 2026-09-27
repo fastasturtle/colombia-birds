@@ -33,9 +33,12 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 330
     env:
       STEPS: ${{ inputs.steps }}
+      # time budget for run.py: per-species steps stop cleanly (exit 0) after this many minutes, well
+      # before the 300-minute hard step timeout, so data/ is consistent when the commit step runs
+      MAX_MINUTES: 270
       ONLY_SLUGS: ${{ inputs.only }}
       XENO_CANTO_API_KEY: ${{ secrets.XENO_CANTO_API_KEY }}
       EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
@@ -66,30 +69,48 @@ jobs:
 
       - name: Run pipeline
         working-directory: pipeline
-        # below the job timeout so the commit step still saves partial progress
-        timeout-minutes: 280
+        # hard stop only; MAX_MINUTES (270) normally ends the run first. 30 min left for the commit step.
+        timeout-minutes: 300
         run: uv run python run.py $STEPS
 
+      # Commits only the pipeline outputs. Anything else the run touched (e.g. pipeline/uv.lock rewritten
+      # by `uv run`) is printed, then discarded with `git checkout -- .` after the commit: those changes
+      # are never wanted in git, and leaving them made `git pull --rebase` refuse to run ("You have
+      # unstaged changes"), which lost a whole run's results. --autostash is kept as a second safety net
+      # (e.g. for untracked files a rebase would otherwise trip over).
       - name: Commit data changes
         if: always()
+        id: commit
         run: |
           git config user.name "colombia-birds-bot"
           git config user.email "colombia-birds-bot@users.noreply.github.com"
+          git status --short > "$RUNNER_TEMP/status.txt"
+          echo "--- git status after the run ($(wc -l < "$RUNNER_TEMP/status.txt") paths; first 50):"
+          head -50 "$RUNNER_TEMP/status.txt"
           git add -A data/
-          git add -A docs/research/hotspots-check.md pipeline/mappings/hotspot_suggestions.json 2>/dev/null || true
+          for p in docs/research/hotspots-check.md pipeline/mappings/; do
+            if [ -e "$p" ]; then git add -A "$p"; fi
+          done
           if git diff --cached --quiet; then
             echo "No data changes."
             exit 0
           fi
-          git commit -m "data: pipeline run ($STEPS)"
+          git commit -q -m "data: pipeline run ($STEPS)"
+          git show --stat --oneline HEAD | tail -3
+          # drop unrelated tracked changes (not committed above), so the rebase has a clean tree
+          git checkout -- .
           # light and heavy queues may push concurrently: retry pull+push a few times
           for attempt in 1 2 3; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break
-            echo "push attempt $attempt failed, retrying"; sleep $((attempt * 10))
-            [ "$attempt" = 3 ] && exit 1
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "pushed=1" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "push attempt $attempt failed, retrying"
+            sleep $((attempt * 10))
           done
-          echo "pushed=1" >> "$GITHUB_OUTPUT"
-        id: commit
+          echo "::error::could not push data commit after 3 attempts"
+          exit 1
 
       # A push made with GITHUB_TOKEN does not trigger other workflows, so start the site deploy explicitly.
       - name: Deploy site

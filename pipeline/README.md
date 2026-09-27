@@ -8,6 +8,7 @@ uv run python run.py                      # aco ebird birdbase wikidata build (d
 uv run python run.py wikipedia photos upload
 uv run python run.py "photos upload" --only grallaria-milleri rupicola-peruvianus
 uv run python steps/fetch_photos.py --limit 20     # any step can also run on its own
+uv run python run.py wikipedia photos upload --max-minutes 270   # stop cleanly after 270 min (resume by re-running)
 ```
 
 Every step is resumable: HTTP responses are cached in `pipeline/cache/` (gitignored), outputs are written
@@ -25,7 +26,7 @@ atomically, and per-species errors are logged and skipped, so re-running fills t
 | `family_names` | `steps/fetch_family_names.py` | `data/sources/family_names.json`: Wikidata (QLever) item per family (`P225` + rank `P105 = Q35409`): labels ru/en/es, ru Wikipedia title. Run before `build` |
 | `wikipedia` | `steps/fetch_wikipedia.py` | `data/texts/<slug>.json`: en/es/ru extracts (CC BY-SA 4.0) |
 | `photos` | `steps/fetch_photos.py` | `data/photos/<slug>.json`: up to 4 CC0/CC BY/CC BY-SA/PD candidates from Commons + iNaturalist (nothing downloaded) |
-| `upload` | `steps/upload_media.py` | downloads the top candidates (1 per species, 4 for slugs in `data/focus_species.json`), makes 400/1000/1600px JPEGs, uploads to R2 as `photos/<slug>/<n>-{thumb,medium,large}.jpg`, writes `data/credits/<slug>.json`, fills `photos` in species files and `photo` in `species_index.json`. `--dry-run` resizes only (files in `pipeline/cache/media/resized/`) |
+| `upload` | `steps/upload_media.py` | downloads the top candidates (1 per species, 4 for slugs in `data/focus_species.json`), makes 400/1000/1600px JPEGs, uploads to R2 as `photos/<slug>/<n>-{thumb,medium,large}.jpg`, writes `data/credits/<slug>.json` and `photos` in the species file right after each species, `photo` in `species_index.json` every 50 species and at the end. Focus species first, then alphabetical; progress line every 25 species. Photos already in R2 from the same source are not downloaded again, only their metadata is written back to `data/` (so a re-run restores a lost run quickly). `--dry-run` resizes only (files in `pipeline/cache/media/resized/`) |
 | `sites` | `steps/build_sites.py` | `data/sites_resolved.json`, `data/focus_species.json`, `data/region_species.json` from hand-authored `data/sites.json` |
 | `basemap` | `steps/build_basemap.py` | `site/src/generated/basemap.json`: static SVG base map for the route map (homepage) (land, Colombia outline, departments, rivers, place labels) clipped to `data/sites.json` ± 0.8°, from Natural Earth 1:10m (public domain). Needs shapely: `uv run --with shapely python run.py basemap`. Output is checked in; rerun after adding sites far from the current bbox |
 | `gbif_sites` | `steps/fetch_gbif_sites.py` | `data/site_species.json`: likely species per site from GBIF occurrence counts (Aves, Colombia) within 7 km (`--radius`; doubled up to x4 for sites with < 1000 records, `--min-records`), species with >= 3 records (`--min-count`), two facet queries per site, all-year (`n`) and autumn Sep-Nov (`n_aut`, `month=9,11`), with `freq_aut` = n_aut / autumn total and `state` sure (>= 1%) / maybe (0.1-1%) / unlikely (< 0.1% or n_aut < 3); thresholds `SURE_FREQ`, `MAYBE_FREQ`, `MIN_N_AUT` and `likelihood()` in `common.py` (the only place); sorted by n_aut. GBIF keys not in `data/species/*.json` `ids.gbif` are matched by scientific name, then family + epithet (genus moves), then `pipeline/mappings/gbif_to_species.json` (lumps/splits); the rest go to `data/sources/gbif_sites_unmatched.json` |
@@ -52,14 +53,18 @@ Copy `.env.example` to `.env` (never commit it).
 | `EBIRD_API_KEY` | `hotspots` (eBird API 2.0 token) |
 | `PUBLIC_MEDIA_BASE_URL` | site build only |
 | `ONLY_SLUGS` | per-species steps, see above |
+| `MAX_MINUTES` | time budget for the whole `run.py` process (`--max-minutes N` sets it): `wikipedia`, `photos`, `upload` finish the current species, write their outputs and stop with "stopped early after N minutes, resume by re-running"; exit code stays 0 |
 
 ## CI
 
 `.github/workflows/pipeline.yml` (Actions → pipeline → Run workflow) takes `steps` (default
 `wikipedia photos upload`) and optional `only` slugs, runs `run.py` with secrets `R2_ACCESS_KEY_ID`,
 `R2_SECRET_ACCESS_KEY`, `R2_CLOUDFLARE_TOKEN`, `XENO_CANTO_API_KEY`, `EBIRD_API_KEY` and variable/secret `R2_ACCOUNT_ID`,
-then commits changed files under `data/` (plus `docs/research/hotspots-check.md` and `pipeline/mappings/hotspot_suggestions.json`) back to the branch it ran on. The API cache is kept between
-runs with `actions/cache`.
+then commits changed files under `data/` (plus `docs/research/hotspots-check.md` and `pipeline/mappings/`) back to the branch it ran on. The API cache is kept between
+runs with `actions/cache`. The run gets `MAX_MINUTES=270` (hard step timeout 300, job 330), so long runs
+stop cleanly and the commit step always has time; re-dispatch to continue. The commit step prints
+`git status`, commits only those paths, discards other tracked changes (e.g. `pipeline/uv.lock`), then
+`git pull --rebase --autostash` + push, up to 3 attempts.
 
 ## Rate limits
 
