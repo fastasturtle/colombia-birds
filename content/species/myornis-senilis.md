@@ -2,6 +2,7 @@
 id: myornis-senilis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Сплошь пепельно-серый, снизу светлее, без пестрин и полос"
   - "Хвост заметно длиннее, чем у тапакуло рода Scytalopus"
@@ -9,7 +10,7 @@ key_features:
   - "Держится в густом бамбуке чускеа, от земли до 4 м"
 similar:
   - id: scytalopus-latrans
-    how: "мельче и темнее, черноватый, хвостик короткий, торчком; держится ниже, на земле в лесу"
+    how: "мельче и темнее, самец черноватый, хвостик короткий; кормится в основном на земле и у самой земли"
   - id: scytalopus-opacus
     how: "мельче, темнее, бока бурые с полосками, хвост короткий; живёт в кустах выше леса"
 behavior: "Лазит в густых зарослях бамбука чускеа и тростника в высокогорном лесу и на опушках, редко спускается на землю. Показывается очень ненадолго."
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/myornis-senilis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/scytalopus-latrans.md, content/species/scytalopus-opacus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/es.wikipedia Blackish tapaculo — пояс 1 500–4 000 м перекрывается, отличие по ярусу, а не по высоте; Ash-colored — окраска, голос, высоты подтверждены (en/ru.wikipedia)"
 en:
   key_features:
     - "Ash-gray all over, paler below, unstreaked and unbarred"
@@ -35,7 +37,7 @@ en:
     - "Keeps in dense Chusquea bamboo, from the ground to 4 m up"
   similar:
     - id: scytalopus-latrans
-      how: "smaller and darker, blackish, short cocked tail; lower down, on the forest floor"
+      how: "smaller and darker, male blackish, short tail; feeds mostly on and near the ground"
     - id: scytalopus-opacus
       how: "smaller, darker, barred brown flanks, short tail; lives in shrubs above the forest"
   behavior: "Clambers in dense Chusquea bamboo and cane in high forest and at edges, rarely going down to the ground. Shows only very briefly."

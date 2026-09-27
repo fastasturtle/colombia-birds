@@ -2,6 +2,7 @@
 id: dryocopus-lineatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хохол ярко-красный; у самца красные также лоб и «усы», у самки они чёрные"
   - "Белая полоса от основания клюва через щёку вниз по шее"
@@ -11,7 +12,7 @@ similar:
   - id: campephilus-melanoleucos
     how: "белые полосы на спине сходятся буквой V; у самца голова почти целиком красная, у самки широкая белая полоса на щеке"
   - id: campephilus-gayaquilensis
-    how: "белые полосы на спине сходятся буквой V, голова целиком красная, глаз светло-жёлтый"
+    how: "белые полосы на спине сходятся буквой V, горло чёрное, глаз светло-жёлтый; у самца голова целиком красная"
 behavior: "Пары держатся на опушках, в разреженном и вторичном лесу, на отдельных деревьях среди пастбищ. Выдалбливает большие дыры в поисках муравьёв, термитов и личинок жуков, ест и плоды."
 voice: "Громкое звонкое «уик-уик-уик»; барабанят оба пола."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Lineated woodpecker (en), Dryocopus lineatus (es), CC BY-SA 4.0 — data/texts: окраска, отличие от Campephilus, голос"
   - "content/species/campephilus-gayaquilensis.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Guayaquil woodpecker — голова целиком красная только у самца, горло чёрное"
 en:
   key_features:
     - "Bright red crest; male also has a red forehead and moustache, black in the female"
@@ -36,7 +38,7 @@ en:
     - id: campephilus-melanoleucos
       how: "white back stripes meet in a V; male's head almost wholly red, female has a broad white cheek stripe"
     - id: campephilus-gayaquilensis
-      how: "white back stripes meet in a V, head wholly red, pale yellow eye"
+      how: "white back stripes meet in a V, black throat, pale yellow eye; male's head wholly red"
   behavior: "Pairs keep at forest edges, in open and secondary woodland and on scattered trees in pastures. It chisels large holes in search of ants, termites and beetle larvae and also eats fruit."
   voice: "A loud, ringing 'wic-wic-wic'; both sexes drum."
 ---

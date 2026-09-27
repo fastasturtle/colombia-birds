@@ -2,6 +2,7 @@
 id: aratinga-weddellii
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова серо-бурая, «пыльная», тело зелёное"
   - "Широкое голое белое кольцо вокруг глаза"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Буроголовая аратинга (ru, CC BY-SA 4.0); Aratinga weddellii (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/aratinga-weddellii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Dusky-headed parakeet — окраска, местообитания, солонцы подтверждены; отличия похожих видов по en/es.wikipedia; голос в выдержке не описан, формулировка общая; правок нет"
 en:
   key_features:
     - "Gray-brown, 'dusty' head, green body"

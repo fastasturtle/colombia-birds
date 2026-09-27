@@ -2,6 +2,7 @@
 id: pionus-chalcopterus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень тёмный: тело бронзово-бурое с зеленцой, голова синевато-тёмная"
   - "Беловатое пятно на подбородке, розовые крапины на верхе груди"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/pionus-chalcopterus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/psittacidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Bronze-winged parrot — окраска, высоты в Колумбии, группы до 10 птиц подтверждены; голос в выдержке не описан, формулировка общая; правок нет"
 en:
   key_features:
     - "Very dark: bronzy-brown body with a greenish tinge, dark bluish head"

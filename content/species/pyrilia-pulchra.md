@@ -2,6 +2,7 @@
 id: pyrilia-pulchra
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо от уздечки до щёк розовое, шапочка красновато-бурая"
   - "Затылок и грудь тускло-оливково-жёлтые, тело зелёное"
@@ -11,7 +12,7 @@ similar:
   - id: pionus-menstruus
     how: "крупнее, голова синяя, подхвостье красное, клюв тёмный"
   - id: pionus-chalcopterus
-    how: "крупнее, почти чёрный, с синими крыльями, лицо без розового"
+    how: "крупнее, очень тёмный, с синими крыльями, голова тёмная, на подбородке беловатое пятно"
 behavior: "Пары и небольшие стайки держатся в кронах влажного леса, но выходят и на опушки, плантации и полуоткрытые места с отдельными деревьями; едят мелкие плоды и бананы."
 voice: "Резкое далеко слышное «шриик! шриик!» в полёте; сидя издаёт булькающие и скрипучие звуки."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Pyrilia pulchra (es, CC BY-SA 4.0)"
   - "Данные проекта: data/species/pyrilia-pulchra.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Bronze-winged parrot — у него розовое голое кольцо вокруг глаза, «лицо без розового» заменено на беловатый подбородок; остальное подтверждено en/es.wikipedia"
 en:
   key_features:
     - "Rose-pink face from lores to cheeks, reddish-brown crown"
@@ -36,7 +38,7 @@ en:
     - id: pionus-menstruus
       how: "larger, blue head, red undertail, dark bill"
     - id: pionus-chalcopterus
-      how: "larger, almost black with blue wings, no pink on the face"
+      how: "larger, very dark with blue wings, dark head with a whitish chin patch"
   behavior: "Pairs and small flocks keep to the canopy of humid forest but also come out to edges, plantations and semi-open land with scattered trees; they eat small fruit and bananas."
   voice: "A harsh, far-carrying 'shreek! shreek!' in flight; perched birds give gurgling and squeaky notes."
 ---

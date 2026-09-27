@@ -2,11 +2,12 @@
 id: berlepschia-rikeri
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея, спина и грудь в резких чёрно-белых продольных пестринах"
-  - "Поясница, крылья и хвост ярко-каштановые, контрастные"
+  - "Поясница, кроющие крыла и хвост ярко-каштановые, контрастные; маховые черноватые"
   - "Хвост ступенчатый, с острыми концами перьев"
-  - "Держится только в пальмах мориче, лазит по основаниям листьев"
+  - "Держится почти только в пальмах мориче, лазит по основаниям листьев"
 similar:
   - id: xiphorhynchus-guttatus
     how: "бурый древолаз с охристыми, а не белыми пестринами; клюв длиннее, лазит по стволам, а не по листьям пальм"
@@ -24,12 +25,13 @@ sources:
   - "Wikipedia: Berlepschia rikeri (es), Пальмолаз (ru), CC BY-SA 4.0 — data/texts"
   - "Данные проекта: data/species/berlepschia-rikeri.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en/ru.wikipedia Point-tailed palmcreeper — маховые черноватые (каштановые только кроющие), изредка в других пальмах; голос, высоты подтверждены"
 en:
   key_features:
     - "Head, neck, back and breast boldly streaked black and white"
-    - "Bright chestnut rump, wings and tail, in strong contrast"
+    - "Bright chestnut rump, wing coverts and tail, in strong contrast; blackish flight feathers"
     - "Graduated tail with pointed feather tips"
-    - "Lives only in moriche palms, creeping along frond bases"
+    - "Lives almost only in moriche palms, creeping along frond bases"
   similar:
     - id: xiphorhynchus-guttatus
       how: "a brown woodcreeper with buff, not white, streaks; longer bill, climbs trunks rather than palm fronds"

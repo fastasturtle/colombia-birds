@@ -2,6 +2,7 @@
 id: xiphocolaptes-promeropirhynchus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, массивный, слегка изогнутый, тёмный"
   - "Самый тяжёлый древолаз: размером с голубя, заметно крупнее соседей по стволу"
@@ -9,10 +10,10 @@ key_features:
   - "Голова и грудь в узких охристых штрихах, поясница и хвост каштановые"
 similar:
   - id: lepidocolaptes-lacrymiger
-    how: "намного мельче и стройнее, клюв тонкий, светлый; низ в каплевидных белых пятнах"
+    how: "намного мельче и стройнее, клюв тонкий, подклювье светлое; темя в светлых точках, низ в широких охристых штрихах с чёрной каймой"
   - id: campylorhamphus-pusillus
     how: "мельче, клюв тонкий и серповидно изогнутый"
-behavior: "Лазит по толстым стволам и ветвям в среднем ярусе и кронах старого леса, опираясь на хвост, долбит кору и бромелии. Иногда идёт с микст-флоком."
+behavior: "Лазит по толстым стволам и ветвям в среднем ярусе и кронах старого леса, опираясь на хвост, обшаривает кору, гнилую древесину и бромелии. Иногда кормится у колонн кочевых муравьёв, спускаясь к земле, и ходит с микст-флоком."
 voice: "Поёт в основном на рассвете и в сумерках: долгая звонкая нисходящая серия двусложных свистов."
 traits:
   size: pigeon
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/xiphocolaptes-promeropirhynchus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/campylorhamphus-pusillus.md — согласование отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 2026-09-27 (партия 3, список 4): en.wikipedia Strong-billed woodcreeper (кормление: обшаривает, а не долбит; кочевые муравьи), Montane woodcreeper (низ в штрихах, а не каплях)"
 en:
   key_features:
     - "Long, massive, slightly curved dark bill"
@@ -35,10 +37,10 @@ en:
     - "Head and breast with narrow buff streaks, chestnut rump and tail"
   similar:
     - id: lepidocolaptes-lacrymiger
-      how: "much smaller and slimmer, thin pale bill; underparts with white teardrop spots"
+      how: "much smaller and slimmer, thin bill with a pale lower mandible; crown spotted pale, underparts with broad black-edged buff streaks"
     - id: campylorhamphus-pusillus
       how: "smaller, with a thin sickle-shaped bill"
-  behavior: "Climbs thick trunks and limbs in the midstory and canopy of old forest, braced on its tail, hammering bark and bromeliads. Sometimes travels with a mixed flock."
+  behavior: "Climbs thick trunks and limbs in the midstory and canopy of old forest, braced on its tail, probing bark, dead wood and bromeliads. Sometimes follows army ant swarms down to the ground, and joins mixed flocks."
   voice: "Sings mostly at dawn and dusk: a long ringing descending series of two-note whistles."
 ---
 Strong-billed Woodcreeper (толстоклювый мечник) — самый тяжёлый древолаз, до 30 см длиной. Вид занимает огромный пояс высот, от низин до 3 500 м, но в Колумбии в основном держится выше 1 500 м, в старом облачном лесу. Главное — размер и клюв: птица с голубя с толстым клювом-кинжалом на стволе заметна сразу, даже если окраска в тени не видна.
