@@ -2,6 +2,7 @@
 id: schistes-geoffroyi
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, прямой, к концу резко истончается в острое жало"
   - "За глазом длинная белая полоса, заметная даже в тени"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: горло белое в зелёных крапинах, белые пятна на груди тоже есть"
 similar:
   - id: schistes-albogularis
-    how: "белая полоса проходит через всю грудь; живёт на тихоокеанском склоне"
+    how: "белая полоса проходит через всю грудь; живёт в Западной Кордильере и на западном склоне Центральной"
   - id: adelomyia-melanogenys
     how: "клюв без жала, щека чёрная, низ беловато-охристый в мелких крапинах, хвост с охристыми углами"
   - id: urosticte-ruficrissa
@@ -28,6 +29,7 @@ sources:
   - "Wikipedia: Geoffroy's daggerbill (en), Schistes geoffroyi (es), CC BY-SA 4.0 — data/texts: окраска, ареал, высоты, кормёжка, голос"
   - "content/species/schistes-albogularis.md, content/species/adelomyia-melanogenys.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts schistes-geoffroyi, schistes-albogularis, adelomyia-melanogenys, urosticte-ruficrissa (Wikipedia en/es) — ареал S. albogularis, отличия, голос, высоты"
 en:
   key_features:
     - "Short straight bill tapering abruptly to a sharp dagger point"
@@ -36,7 +38,7 @@ en:
     - "Female: white throat speckled green; the white chest patches are present too"
   similar:
     - id: schistes-albogularis
-      how: "white band right across the chest; lives on the Pacific slope"
+      how: "white band right across the chest; lives in the Western Andes and on the west slope of the Central Andes"
     - id: adelomyia-melanogenys
       how: "bill without a dagger tip, black cheek, buffy-white underparts finely speckled, buff tail corners"
     - id: urosticte-ruficrissa

@@ -2,6 +2,7 @@
 id: metallura-williami
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь тёмный, бутылочно-зелёный; горло блестит тем же зелёным"
   - "Хвост в Нариньо сверху красновато-чёрный, снизу блестящий зелёный, почти без выреза"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Viridian metaltail (en), Metallura williami (es), CC BY-SA 4.0 — data/texts: подвиды и их ареалы, окраска, высоты, кормёжка, голос"
   - "content/species/metallura-tyrianthina.md, content/species/eriocnemis-vestita.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts metallura-williami, metallura-tyrianthina, eriocnemis-vestita (Wikipedia en/es) — подвид primolina, высоты, голос, отличия"
 en:
   key_features:
     - "Male dark bottle-green all over; the throat glitters the same green"

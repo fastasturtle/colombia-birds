@@ -2,6 +2,7 @@
 id: thalasseus-sandvicensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, тонкий, чёрный, с жёлтым кончиком"
   - "Осенью лоб белый, на затылке короткий взъерошенный чёрный хохол"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/thalasseus-sandvicensis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "content/species/thalasseus-maximus.md — согласованность отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts thalasseus-sandvicensis (en/es/ru — клюв, зимний наряд, голос, Cabot's Tern), thalasseus-maximus, gelochelidon-nilotica; data/species (eBird santer1 — Clements держит acuflavidus в составе вида)"
 en:
   key_features:
     - "Long slender black bill with a yellow tip"

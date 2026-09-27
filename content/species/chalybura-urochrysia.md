@@ -2,14 +2,15 @@
 id: chalybura-urochrysia
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Подхвостье длинное, пушистое, белое"
   - "Хвост бронзово-зелёный, а не сине-чёрный"
-  - "Подклювье розово-красное с чёрным концом; лапы розоватые"
+  - "Подклювье розово-красное с чёрным концом; лапы розовые или красные"
   - "Самец весь блестящий зелёный; самка серая снизу, с зелёными крапинами по бокам"
 similar:
   - id: chalybura-buffonii
-    how: "хвост сине-чёрный, клюв целиком чёрный"
+    how: "хвост сине-чёрный, клюв и лапы чёрные"
   - id: thalurania-colombica
     how: "брюхо самца фиолетовое, хвост сине-чёрный, вильчатый; подхвостье не пушистое"
 behavior: "Кормится от подлеска до среднего яруса, особенно у геликоний, и агрессивно охраняет богатые цветами куртины. Насекомых ловит в воздухе с присады или снимает с листвы."
@@ -25,15 +26,16 @@ sources:
   - "Wikipedia: Bronze-tailed plumeleteer (en), Chalybura urochrysia (es), CC BY-SA 4.0 — data/texts: размеры, окраска, подвиды, высоты, кормёжка, голос"
   - "content/species/chalybura-buffonii.md, content/species/thalurania-colombica.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts chalybura-urochrysia (Wikipedia en/es — окраска, цвет лап, высоты, голос), chalybura-buffonii (чёрные клюв и лапы), thalurania-colombica"
 en:
   key_features:
     - "Long, fluffy white undertail coverts"
     - "Bronze-green tail, not blue-black"
-    - "Pinkish-red lower mandible with a black tip; pinkish feet"
+    - "Pinkish-red lower mandible with a black tip; pink to red feet"
     - "Male glittering green all over; female gray below with green flecks on the sides"
   similar:
     - id: chalybura-buffonii
-      how: "blue-black tail, all-black bill"
+      how: "blue-black tail, black bill and feet"
     - id: thalurania-colombica
       how: "male has a violet belly and a forked blue-black tail; undertail not fluffy"
   behavior: "Feeds from the understory to the midstory, especially at Heliconias, and aggressively defends flower-rich patches. Hawks insects from a perch or gleans them from foliage."

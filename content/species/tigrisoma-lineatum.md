@@ -2,6 +2,7 @@
 id: tigrisoma-lineatum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и грудь тёмно-рыжие, по передней стороне шеи белая полоса"
   - "Спина бурая в тонкой чёрной ряби, бока в чёрно-белых полосках"
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Rufescent tiger heron (en), Tigrisoma lineatum (es), Мраморная тигровая цапля (ru), CC BY-SA 4.0 — описание, молодые, голос, высоты"
   - "Wikipedia: Fasciated tiger heron (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts tigrisoma-lineatum (en/es/ru — окраска, молодые, голос, высоты до 1 600 м в Колумбии), tigrisoma-fasciatum"
 en:
   key_features:
     - "Dark rufous head, neck and breast, with a white stripe down the foreneck"

@@ -2,6 +2,7 @@
 id: gelochelidon-nilotica
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв короткий, толстый, целиком чёрный, как у чайки"
   - "Осенью голова белая, за глазом тёмное пятно; летом чёрная шапка"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Gull-billed tern (en), Gelochelidon nilotica (es), Чайконосая крачка (ru), CC BY-SA 4.0 — data/texts: размеры, окраска, голос, распространение"
   - "Данные проекта: data/species/gelochelidon-nilotica.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/study_lists.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts gelochelidon-nilotica (en/es/ru — окраска, голос «кер-вик», охота, зимовки северных птиц до севера Южной Америки), thalasseus-sandvicensis, sterna-hirundo"
 en:
   key_features:
     - "Short thick all-black bill, like a gull's"

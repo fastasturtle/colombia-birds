@@ -2,6 +2,7 @@
 id: ardea-herodias
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Очень крупная серо-голубая цапля; лицо белое, над глазом чёрная полоса до затылка"
   - "Шея серовато-рыжеватая, спереди белые и чёрные штрихи"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Great blue heron (en), Ardea herodias (es), Большая голубая цапля (ru), CC BY-SA 4.0 — окраска, зимовки в Колумбии и Венесуэле"
   - "Wikipedia: Cocoi heron, Little blue heron (en, CC BY-SA 4.0) — data/texts; сверено с карточкой E. caerulea"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts ardea-herodias (en/ru — окраска, зимовки, голос), ardea-cocoi, egretta-caerulea; сроки прилёта не подтверждены — убраны"
 en:
   key_features:
     - "Very large blue-gray heron; white face, a black stripe from above the eye to the nape"
@@ -41,10 +43,10 @@ en:
 ---
 Great Blue Heron (большая голубая цапля) — самая крупная цапля Северной Америки. Северные птицы зимуют к югу до Колумбии и Венесуэлы, где вид регулярен, но немногочислен, и держится в основном на побережьях и в низинах. Здесь её легко принять за южноамериканскую цаплю: обе огромные и серые, но у большой голубой шея тёмная, серовато-рыжая, а бёдра рыжие.
 
-На маршруте она «возможно» на Финке Марагрикола 22 октября, у прудов бывших креветочных ферм. В октябре мигранты только прилетают, так что встреча с ней — удача, а не правило. Каждую крупную серую цаплю на побережье проверяй по шее и бёдрам.
+На маршруте она «возможно» на Финке Марагрикола 22 октября, у прудов бывших креветочных ферм. Мигранты здесь нечасты, так что встреча с ней — удача, а не правило. Каждую крупную серую цаплю на побережье проверяй по шее и бёдрам.
 
 ## English
 
 Great Blue Heron is the largest heron of North America. Northern birds winter south to Colombia and Venezuela, where the species is regular but uncommon, mainly on the coasts and in the lowlands. Here it is easily mistaken for Cocoi Heron: both are huge and gray, but Great Blue has a dark, grayish-rufous neck and rufous thighs.
 
-On the route it is "maybe" at Finca Maragrícola on 22 October, at the ponds of former shrimp farms. In October migrants are only just arriving, so finding one is luck rather than the rule. Check every large gray heron on the coast by its neck and thighs.
+On the route it is "maybe" at Finca Maragrícola on 22 October, at the ponds of former shrimp farms. Migrants are infrequent here, so finding one is luck rather than the rule. Check every large gray heron on the coast by its neck and thighs.

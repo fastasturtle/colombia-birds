@@ -2,6 +2,7 @@
 id: discosura-conversii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница с узкой белой поперечной полосой, хорошо видной у зависшей птицы"
   - "Самец: хвост сине-чёрный, глубоко вильчатый, крайние перья узкие, как шипы"
@@ -27,6 +28,7 @@ sources:
   - "Wikipedia: Green thorntail (en), Discosura conversii (es), CC BY-SA 4.0 — data/texts: окраска, высоты в Колумбии, кормёжка, голос"
   - "content/species/discosura-popelairii.md, content/species/chlorostilbon-melanorhynchus.md — отличия похожих видов"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Факт-чек 2026-09-27: data/texts discosura-conversii, discosura-popelairii, chlorostilbon-melanorhynchus (Wikipedia en/es) — окраска, высоты, кормёжка, голос, отличия"
 en:
   key_features:
     - "Narrow white band across the rump, easy to see on a hovering bird"
