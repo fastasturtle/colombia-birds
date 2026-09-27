@@ -9,13 +9,14 @@ size:
   label: { ru: Размер, en: Size }
   min: 1
   max: 1
+  # 2026-09-27: подписи переименованы в сравнения («с дрозда», не «дрозд»): чипы читались как названия птиц. Ключи прежние.
   values:
-    hummingbird: { ru: колибри, en: hummingbird, hint: "любой колибри и прочие крошки до 10 см" }
-    sparrow: { ru: воробей, en: sparrow, hint: "10–16 см" }
-    thrush: { ru: дрозд, en: thrush, hint: "17–25 см" }
-    pigeon: { ru: голубь, en: pigeon, hint: "26–35 см" }
-    crow: { ru: ворона, en: crow, hint: "36–55 см" }
-    larger: { ru: крупнее, en: larger, hint: "больше 55 см" }
+    hummingbird: { ru: с колибри, en: hummingbird-size, hint: "любой колибри и прочие крошки до 10 см" }
+    sparrow: { ru: с воробья, en: sparrow-size, hint: "10–16 см" }
+    thrush: { ru: с дрозда, en: thrush-size, hint: "17–25 см" }
+    pigeon: { ru: с голубя, en: pigeon-size, hint: "26–35 см" }
+    crow: { ru: с ворону, en: crow-size, hint: "36–55 см" }
+    larger: { ru: крупнее вороны, en: larger than crow, hint: "больше 55 см" }
 
 colors:
   label: { ru: Цвета, en: Colours }
