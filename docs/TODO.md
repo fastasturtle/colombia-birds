@@ -41,7 +41,9 @@
 
 ## Сайт
 - [x] Кнопка «сообщить об ошибке»: `worker/` + `.github/workflows/worker.yml` + `site/src/components/ReportButton.svelte` (скилл `.claude/skills/error-reports`)
-  - [ ] Интеграция с книгой Lynx «Birds of Colombia»: ждём фото указателя от владельца (припарковано)
+  - [x] Интеграция с книгой Lynx «Birds of Colombia» (Hilty 2021): указатель, литература и индекс семейств транскрибированы в `pipeline/sources/lynx/`, шаг `lynx` → `data/lynx_pages.json`, страница показана на карточке вида и семейства
+  - [ ] Lynx: разобрать виды без страницы (`data/sources/lynx_report.md`, раздел Unmatched) — добавить маппинги в `pipeline/mappings/lynx_names.json` или подтвердить, что вида в книге нет
+  - [ ] Lynx: при случае досфотографировать с. 592–604 (испанский указатель, указатель групп) и с. 558
 - [x] Фото на весь экран по тапу (лайтбокс, свайп, Esc), к источнику только по явной ссылке
 - [x] Каркас Astro 7 + Svelte: семейства, список видов с поиском и фильтрами, карточка вида, маршрут с картой и профилем высот
 - [ ] Деплой на GitHub Pages (workflow готов, нужно: Settings → Pages → Source = GitHub Actions, слить в main)
