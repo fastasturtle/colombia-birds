@@ -9,6 +9,7 @@ import SiteCard from '../../components/SiteCard.astro';
 import StudyTile from '../../components/StudyTile.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
 import ListFilter from '../../components/ListFilter.svelte';
+import EndemicMark from '../../components/EndemicMark.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import {
   itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, fmtDateRu, dayLabel, plural, MEDIA_BASE,
@@ -86,7 +87,7 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
   </nav>
   {study && radii.length > 0 && (
     <p class="muted method">
-      «Точно» — не меньше 1 % осенних (сентябрь–ноябрь) записей птиц GBIF в радиусе {radii.join('/')} км, «возможно» — 0,1–1 %, «вряд ли» — реже или нет записей. ★ интересные: цели из отчётов о поездках, эндемики и почти-эндемики Колумбии, виды с узким ареалом; «энд.» — эндемик, «п.-энд.» — почти-эндемик (основной ареал в Колумбии); по каждой локации — на {daySites.length === 1
+      «Точно» — не меньше 1 % осенних (сентябрь–ноябрь) записей птиц GBIF в радиусе {radii.join('/')} км, «возможно» — 0,1–1 %, «вряд ли» — реже или нет записей. ★ интересные: цели из отчётов о поездках, эндемики и почти-эндемики Колумбии, виды с узким ареалом; <EndemicMark kind="end" /> — эндемик, <EndemicMark kind="near" /> — почти-эндемик (основной ареал в Колумбии); по каждой локации — на {daySites.length === 1
         ? <a href={`${base}sites/${daySites[0].id}/`}>странице локации</a>
         : 'странице локации'}.
     </p>

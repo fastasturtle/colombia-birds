@@ -1,6 +1,7 @@
 <script lang="ts">
   /** All-species list: search + elevation + the site-wide filter (state = best across route sites, see lib/data routeState). */
   import ListFilter from './ListFilter.svelte';
+  import EndemicMark from './EndemicMark.svelte';
   import { filter, passes, tierOf } from '../lib/filter';
   type State = 'sure' | 'maybe' | 'unlikely';
   interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; near: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean }
@@ -37,7 +38,7 @@
     <div class="txt">
       <div>{#if s.int}<b class="star" title="интересная">★</b>{/if}<strong>{s.ru ?? s.en}</strong></div>
       <div class="muted">{#if s.ru && s.en !== s.ru}{`${s.en} · `}{/if}<span class="sci">{s.sci}</span> · <span>{families[s.family]}</span></div>
-      <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<span class="en" title="эндемик Колумбии">энд.</span>{:else if s.near}<span class="en" title="почти-эндемик Колумбии: основной ареал в Колумбии">п.-энд.</span>{/if}</div>
+      <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<EndemicMark kind="end" />{:else if s.near}<EndemicMark kind="near" />{/if}</div>
     </div>
   </a>
 {/each}
@@ -55,6 +56,5 @@
   .stw.sure { color: var(--accent); }
   .stw.maybe { color: var(--muted); font-weight: 500; }
   .stw.unlikely { color: var(--muted); opacity: .6; font-weight: 400; }
-  .en { font-size: .72rem; font-weight: 700; color: var(--accent); }
   .star { color: var(--accent-2); margin-right: 4px; }
 </style>
