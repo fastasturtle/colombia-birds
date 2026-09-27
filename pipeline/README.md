@@ -14,6 +14,13 @@ uv run python run.py wikipedia photos upload --max-minutes 270   # stop cleanly 
 Every step is resumable: HTTP responses are cached in `pipeline/cache/` (gitignored), outputs are written
 atomically, and per-species errors are logged and skipped, so re-running fills the gaps.
 
+To reuse the HTTP cache of CI runs locally (needs the R2 vars in `.env`):
+
+```sh
+uv run python cache_sync.py pull           # download cached responses missing locally
+uv run python cache_sync.py push           # upload yours (incremental); add --dry-run to see the plan
+```
+
 ## Steps
 
 | Step | Script | Output |
@@ -48,7 +55,7 @@ Copy `.env.example` to `.env` (never commit it).
 
 | Var | Used by |
 |---|---|
-| `R2_ACCOUNT_ID`, `R2_BUCKET`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` | `upload` (not needed with `--dry-run`) |
+| `R2_ACCOUNT_ID`, `R2_BUCKET`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` | `upload` (not needed with `--dry-run`), `cache_sync.py` |
 | `R2_CLOUDFLARE_TOKEN` | Cloudflare API (bucket settings, CORS); not used by the steps above |
 | `XENO_CANTO_API_KEY` | sounds (xeno-canto API v3) |
 | `EBIRD_API_KEY` | `hotspots` (eBird API 2.0 token) |
@@ -60,12 +67,34 @@ Copy `.env.example` to `.env` (never commit it).
 
 `.github/workflows/pipeline.yml` (Actions → pipeline → Run workflow) takes `steps` (default
 `wikipedia photos upload`) and optional `only` slugs, runs `run.py` with secrets `R2_ACCESS_KEY_ID`,
-`R2_SECRET_ACCESS_KEY`, `R2_CLOUDFLARE_TOKEN`, `XENO_CANTO_API_KEY`, `EBIRD_API_KEY` and variable/secret `R2_ACCOUNT_ID`,
-then commits changed files under `data/` (plus `docs/research/hotspots-check.md` and `pipeline/mappings/`) back to the branch it ran on. The API cache is kept between
-runs with `actions/cache`. The run gets `MAX_MINUTES=270` (hard step timeout 300, job 330), so long runs
-stop cleanly and the commit step always has time; re-dispatch to continue. The commit step prints
-`git status`, commits only those paths, discards other tracked changes (e.g. `pipeline/uv.lock`), then
-`git pull --rebase --autostash` + push, up to 3 attempts.
+`R2_SECRET_ACCESS_KEY`, `R2_CLOUDFLARE_TOKEN`, `XENO_CANTO_API_KEY`, `EBIRD_API_KEY` and variable/secret
+`R2_ACCOUNT_ID`, and commits changed files under `data/` (plus `docs/research/hotspots-check.md` and
+`pipeline/mappings/`) back to the branch it ran on. The run gets `MAX_MINUTES=270` (hard step timeout 300,
+job 330), so long runs stop cleanly and the final commit always has time; re-dispatch to continue.
+
+- **HTTP cache in R2.** `cache_sync.py pull` before the run, `push` every 20 minutes and at the end
+  (`if: always()`). Objects live under `cache/http/<relpath>` in the media bucket (everything in
+  `pipeline/cache/` except `media/`, dotfiles and `*.tmp`), with a manifest `cache/http/_manifest.json`
+  (`{relpath: {sha1, size}}`) so pull/push never list thousands of keys (they list once if the manifest
+  is missing). Incremental: pull downloads only files missing locally, push uploads only new/changed
+  ones (local sha1s memoised in `pipeline/cache/.sync_hashes.json`). Nothing is ever deleted.
+  **The bucket is public (r2.dev), so `cache/http/` is world-readable.** It holds only bodies of public
+  API responses (file names are sha1 hashes of request URLs; the eBird key goes in a header and is not
+  stored); never cache anything secret or private.
+- **Progress commits.** `ci_run.sh` runs `run.py` in the background and every 20 minutes calls
+  `ci_commit.sh` ("data: pipeline progress (<steps>)", then `deploy.yml` is dispatched when on `main`)
+  and `cache_sync.py push`; a failed flush only warns, the pipeline keeps running. The loop ends when
+  `run.py` exits (cancel is forwarded to it as SIGTERM). The final "Commit data changes" step runs the
+  same `ci_commit.sh` once more ("data: pipeline run (<steps>)"), so a cancelled or crashed run loses at
+  most ~20 minutes of work.
+- **`ci_commit.sh`** never touches the working tree, HEAD or index of the checkout (run.py is still
+  writing there): it fetches the branch, loads its tip into a temporary index, stages the paths that
+  differ from the start commit (modified, new, deleted), commits that tree on top of the remote tip and
+  pushes, 3 attempts. No rebase, so no conflicts with commits pushed meanwhile (the light queue, the
+  owner, an earlier flush); a file changed by both keeps this run's version. Other touched files
+  (`pipeline/uv.lock`, `site/`) are never committed. All pipeline writes are atomic (tmp + rename,
+  `common.atomic_write` / `write_json` / `write_text`), so a snapshot never holds a half-written file;
+  `*.tmp` is gitignored.
 
 ## Rate limits
 

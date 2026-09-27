@@ -24,3 +24,6 @@ worker/node_modules/
 worker/.wrangler/
 worker/.dev.vars
 worker/wrangler.deploy.toml
+
+# atomic-write temp files (pipeline/common.py)
+*.tmp

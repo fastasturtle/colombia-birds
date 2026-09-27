@@ -29,7 +29,7 @@ from pathlib import Path
 import httpx
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from common import DATA, PIPELINE, ROOT, SOURCES, env, get, log, read_json, write_json  # noqa: E402
+from common import DATA, PIPELINE, ROOT, SOURCES, env, get, log, read_json, write_json, write_text  # noqa: E402
 
 API = "https://api.ebird.org/v2"
 OK_KM = 15.0
@@ -191,7 +191,7 @@ def write_md(report: dict, sites: list[dict]) -> None:
         cell = lambda t: t.replace("|", "\\|")
         lines.append(f"| {cell(site['name'])} (`{site['id']}`) | {cell(listed)} | {cell(sugg)} |")
     OUT_MD.parent.mkdir(parents=True, exist_ok=True)
-    OUT_MD.write_text("\n".join(lines) + "\n")
+    write_text(OUT_MD, "\n".join(lines) + "\n")
 
 
 def main() -> None:

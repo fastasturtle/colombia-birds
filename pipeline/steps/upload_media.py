@@ -42,8 +42,8 @@ from PIL import Image, ImageOps
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import (  # noqa: E402
-    CACHE, DATA, SPECIES_DIR, env, fmt_elapsed, get, log, only_slugs, read_json, sigterm_as_interrupt, time_up,
-    write_json,
+    CACHE, DATA, SPECIES_DIR, env, fmt_elapsed, get, log, only_slugs, r2_client, read_json, sigterm_as_interrupt,
+    time_up, write_json,
 )
 
 PHOTOS = DATA / "photos"
@@ -58,23 +58,6 @@ PROGRESS_EVERY = 25
 INDEX_EVERY = 50
 
 Image.MAX_IMAGE_PIXELS = 200_000_000
-
-
-def r2_client():
-    from botocore.config import Config
-    import boto3
-
-    missing = [k for k in ("R2_ACCOUNT_ID", "R2_BUCKET", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY") if not env(k)]
-    if missing:
-        sys.exit(f"upload_media: missing env {', '.join(missing)} (set them in .env or use --dry-run)")
-    return boto3.client(
-        "s3",
-        endpoint_url=f"https://{env('R2_ACCOUNT_ID')}.r2.cloudflarestorage.com",
-        aws_access_key_id=env("R2_ACCESS_KEY_ID"),
-        aws_secret_access_key=env("R2_SECRET_ACCESS_KEY"),
-        region_name="auto",
-        config=Config(retries={"max_attempts": 5, "mode": "standard"}),
-    )
 
 
 def download(url: str) -> bytes:

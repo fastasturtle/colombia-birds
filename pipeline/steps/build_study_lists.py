@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from common import DATA, SOURCES, SPECIES_DIR, STATE_RANK, STATES, log, read_json, write_json  # noqa: E402
+from common import DATA, SOURCES, SPECIES_DIR, STATE_RANK, STATES, log, read_json, write_json, write_text  # noqa: E402
 
 
 def main() -> None:
@@ -84,7 +84,7 @@ def main() -> None:
     for d, ids, n, cnt, ni, niv, nhu in rows:
         md.append(f"| {d} | {', '.join(ids) or '-'} | {n} | {cnt['sure']} | {cnt['maybe']} | {cnt['unlikely']} | "
                   f"{ni} / {niv} | {nhu} |")
-    (SOURCES / "study_lists_report.md").write_text("\n".join(md) + "\n")
+    write_text(SOURCES / "study_lists_report.md", "\n".join(md) + "\n")
     log(f"days: {len(rows)}, species per day max {max(r[2] for r in rows)}, "
         f"interesting per day max {max(r[4] for r in rows)}")
 

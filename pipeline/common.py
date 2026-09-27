@@ -84,9 +84,9 @@ def get(
             continue
         if r.status_code == 200:
             if binary:
-                path.write_bytes(r.content)
+                atomic_write(path, r.content)
                 return r.content
-            path.write_text(r.text)
+            write_text(path, r.text)
             return r.text
         if r.status_code in (429, 500, 502, 503, 504) and attempt < retries:
             wait = float(r.headers.get("Retry-After") or delay)
@@ -101,17 +101,28 @@ def get_json(url: str, params: dict[str, Any] | None = None, **kw) -> Any:
     return json.loads(get(url, params, **kw))
 
 
-def write_json(path: Path, obj: Any) -> None:
-    """Atomic write (tmp file + rename): an interrupted run leaves either the old or the new file,
-    and no stray .tmp file (which `git add -A data/` would otherwise commit)."""
+def atomic_write(path: Path, data: bytes) -> None:
+    """Write via tmp file + rename: readers (and the CI commit/cache-sync loop running beside the
+    pipeline) see either the old or the new file, never a half-written one; an interrupted run leaves
+    no stray .tmp file (`*.tmp` is also gitignored and skipped by cache_sync.py)."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp = path.with_name(f"{path.name}.{os.getpid()}.tmp")
     try:
-        tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
+        tmp.write_bytes(data)
         tmp.replace(path)
     except BaseException:
         tmp.unlink(missing_ok=True)
         raise
+
+
+def write_text(path: Path, text: str) -> None:
+    """Atomic Path.write_text (UTF-8)."""
+    atomic_write(path, text.encode())
+
+
+def write_json(path: Path, obj: Any) -> None:
+    """Atomic JSON write (see atomic_write)."""
+    write_text(path, json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
 
 
 def read_json(path: Path, default: Any = None) -> Any:
@@ -139,6 +150,25 @@ def log(msg: str) -> None:
 
 def env(name: str, default: str | None = None) -> str | None:
     return os.environ.get(name, default)
+
+
+def r2_client(who: str = "upload_media"):
+    """boto3 S3 client for the Cloudflare R2 bucket (env R2_ACCOUNT_ID, R2_ACCESS_KEY_ID,
+    R2_SECRET_ACCESS_KEY; bucket name in R2_BUCKET). Exits with a message when any is missing."""
+    from botocore.config import Config
+    import boto3
+
+    missing = [k for k in ("R2_ACCOUNT_ID", "R2_BUCKET", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY") if not env(k)]
+    if missing:
+        raise SystemExit(f"{who}: missing env {', '.join(missing)} (set them in .env or use --dry-run)")
+    return boto3.client(
+        "s3",
+        endpoint_url=f"https://{env('R2_ACCOUNT_ID')}.r2.cloudflarestorage.com",
+        aws_access_key_id=env("R2_ACCESS_KEY_ID"),
+        aws_secret_access_key=env("R2_SECRET_ACCESS_KEY"),
+        region_name="auto",
+        config=Config(retries={"max_attempts": 5, "mode": "standard"}, max_pool_connections=32),
+    )
 
 
 # ---- Time budget for long per-species steps ----
@@ -211,7 +241,7 @@ def post_form(
             delay *= 2
             continue
         if r.status_code == 200:
-            path.write_text(r.text)
+            write_text(path, r.text)
             return r.text
         if r.status_code in (429, 500, 502, 503, 504) and attempt < retries:
             time.sleep(min(float(r.headers.get("Retry-After") or delay), 120))

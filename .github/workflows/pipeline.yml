@@ -58,77 +58,45 @@ jobs:
           enable-cache: true
           cache-dependency-glob: pipeline/uv.lock
 
-      # HTTP response cache (API JSON, not images) so re-runs don't re-hit Wikimedia/iNaturalist.
-      # Split restore/save: actions/cache's post-step save is skipped on cancel/timeout, which lost
-      # the cache of long runs. The explicit save below runs with if: always().
-      # run_attempt in the key: cache keys are immutable, and a re-run keeps the same run_id.
-      - name: Restore HTTP cache
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            pipeline/cache
-            !pipeline/cache/media
-          key: pipeline-http-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: pipeline-http-
+      # Files that differ from this commit are what ci_commit.sh commits (see pipeline/ci_commit.sh).
+      - name: Remember start commit
+        run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
+      # HTTP response cache (API JSON, not images) lives in R2 under cache/http/ (pipeline/cache_sync.py),
+      # so re-runs don't re-hit Wikimedia/iNaturalist. A failed pull only means a cold cache.
+      - name: Pull HTTP cache from R2
+        working-directory: pipeline
+        run: uv run python cache_sync.py pull || echo "::warning::HTTP cache pull failed, running with a cold cache"
+
+      # ci_run.sh runs run.py and, every 20 minutes while it runs, commits+pushes data/ progress (and
+      # dispatches deploy.yml on main) and pushes the HTTP cache to R2, so a cancelled or crashed run
+      # loses at most 20 minutes. Intermediate flush failures only warn.
       - name: Run pipeline
         working-directory: pipeline
-        # hard stop only; MAX_MINUTES (270) normally ends the run first. 30 min left for the commit step.
+        # hard stop only; MAX_MINUTES (270) normally ends the run first. 30 min left for the final flush.
         timeout-minutes: 300
-        run: uv run python run.py $STEPS
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY: "1"
+        run: ./ci_run.sh uv run python run.py $STEPS
 
-      # Saved before the commit step so the cache survives even if the commit/push fails.
-      - name: Save HTTP cache
-        if: always()
-        uses: actions/cache/save@v4
-        with:
-          path: |
-            pipeline/cache
-            !pipeline/cache/media
-          key: pipeline-http-${{ github.run_id }}-${{ github.run_attempt }}
-
-      # Commits only the pipeline outputs. Anything else the run touched (e.g. pipeline/uv.lock rewritten
-      # by `uv run`) is printed, then discarded with `git checkout -- .` after the commit: those changes
-      # are never wanted in git, and leaving them made `git pull --rebase` refuse to run ("You have
-      # unstaged changes"), which lost a whole run's results. --autostash is kept as a second safety net
-      # (e.g. for untracked files a rebase would otherwise trip over).
+      # Final flush. ci_commit.sh builds the commit from the remote tip plus the paths the run changed
+      # (data/, docs/research/hotspots-check.md, pipeline/mappings/) in a temporary index, so it never
+      # rebases or touches the working tree; other touched files (e.g. pipeline/uv.lock) are ignored.
+      # 3 push attempts (light and heavy queues may push concurrently). A push made with GITHUB_TOKEN
+      # does not trigger other workflows, so on main it dispatches deploy.yml itself (DEPLOY=1).
       - name: Commit data changes
         if: always()
-        id: commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY: "1"
         run: |
-          git config user.name "colombia-birds-bot"
-          git config user.email "colombia-birds-bot@users.noreply.github.com"
           git status --short > "$RUNNER_TEMP/status.txt"
           echo "--- git status after the run ($(wc -l < "$RUNNER_TEMP/status.txt") paths; first 50):"
           head -50 "$RUNNER_TEMP/status.txt"
-          git add -A data/
-          for p in docs/research/hotspots-check.md pipeline/mappings/; do
-            if [ -e "$p" ]; then git add -A "$p"; fi
-          done
-          if git diff --cached --quiet; then
-            echo "No data changes."
-            exit 0
-          fi
-          git commit -q -m "data: pipeline run ($STEPS)"
-          git show --stat --oneline HEAD | tail -3
-          # drop unrelated tracked changes (not committed above), so the rebase has a clean tree
-          git checkout -- .
-          # light and heavy queues may push concurrently: retry pull+push a few times
-          for attempt in 1 2 3; do
-            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
-              echo "pushed=1" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-            git rebase --abort 2>/dev/null || true
-            echo "push attempt $attempt failed, retrying"
-            sleep $((attempt * 10))
-          done
-          echo "::error::could not push data commit after 3 attempts"
-          exit 1
+          pipeline/ci_commit.sh "data: pipeline run ($STEPS)"
 
-      # A push made with GITHUB_TOKEN does not trigger other workflows, so start the site deploy explicitly.
-      - name: Deploy site
-        if: always() && steps.commit.outputs.pushed == '1' && github.ref_name == 'main'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy.yml --ref main
+      - name: Push HTTP cache to R2
+        if: always()
+        working-directory: pipeline
+        run: uv run python cache_sync.py push

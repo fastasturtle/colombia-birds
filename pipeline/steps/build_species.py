@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import DATA, SOURCES, SPECIES_DIR, log, norm_sci, read_json, slugify, write_json  # noqa: E402
+from common import DATA, SOURCES, SPECIES_DIR, log, norm_sci, read_json, slugify, write_json, write_text  # noqa: E402
 
 REGION_ORDER = ["Tinamiformes"]  # unused placeholder to keep import tidy
 
@@ -60,7 +60,7 @@ def endemics_report(aco: dict, chaparro: dict, index: list[dict], src: dict) -> 
     lines += [f"- *{aco[k]['sci_name']}*: Chaparro-Herrera {chaparro[k]['code'] if k in chaparro else 'not listed'}" for k in only_aco] or ["- none"]
     lines += ["", f"## Endemic in Chaparro-Herrera, not in ACO ({len(only_ch)})", ""]
     lines += [f"- *{aco[k]['sci_name']}*: ACO status {aco[k]['status']['raw']}" for k in only_ch] or ["- none"]
-    (SOURCES / "endemics_report.md").write_text("\n".join(lines) + "\n")
+    write_text(SOURCES / "endemics_report.md", "\n".join(lines) + "\n")
     log(f"  endemics: ACO {len(aco_e)}, Chaparro-Herrera {len(ch_e)}, both {len(aco_e & ch_e)}; "
         f"near-endemic {sum(1 for i in index if i['near_endemic'])}")
     for k in only_aco:

@@ -19,7 +19,7 @@ from shapely.geometry import Point, box, shape
 from shapely.ops import unary_union
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from common import CACHE, DATA, ROOT, log  # noqa: E402
+from common import CACHE, DATA, ROOT, atomic_write, log  # noqa: E402
 
 NE_BASE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/"
 NE_DIR = CACHE / "naturalearth"
@@ -50,7 +50,7 @@ def ne(name: str) -> list[dict]:
         log(f"download {name}")
         r = httpx.get(NE_BASE + f"{name}.geojson", timeout=300, follow_redirects=True)
         r.raise_for_status()
-        path.write_bytes(r.content)
+        atomic_write(path, r.content)
     return json.loads(path.read_text())["features"]
 
 
