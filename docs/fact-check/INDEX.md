@@ -4,10 +4,10 @@
 Журнал проверок: `docs/fact-check-log.md`.
 
 - Карточек: 723
-- Проверено: 467
-- Не проверено: 256
+- Проверено: 531
+- Не проверено: 192
 
-## Не проверено (256)
+## Не проверено (192)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -75,70 +75,6 @@
 | strix-albitarsis | Rufous-banded Owl | Хищные птицы и совы |
 | herpetotheres-cachinnans | Laughing Falcon | Хищные птицы и совы |
 | ibycter-americanus | Red-throated Caracara | Хищные птицы и совы |
-| daptrius-ater | Black Caracara | Хищные птицы и совы |
-| falco-sparverius | American Kestrel | Хищные птицы и совы |
-| falco-peregrinus | Peregrine Falcon | Хищные птицы и совы |
-| trogon-collaris | Collared Trogon | Трогоны, момоты, зимородки и якамары |
-| trogon-personatus | Masked Trogon | Трогоны, момоты, зимородки и якамары |
-| momotus-aequatorialis | Andean Motmot | Трогоны, момоты, зимородки и якамары |
-| chloroceryle-amazona | Amazon Kingfisher | Трогоны, момоты, зимородки и якамары |
-| chloroceryle-americana | Green Kingfisher | Трогоны, момоты, зимородки и якамары |
-| notharchus-tectus | Pied Puffbird | Трогоны, момоты, зимородки и якамары |
-| chelidoptera-tenebrosa | Swallow-winged Puffbird | Трогоны, момоты, зимородки и якамары |
-| aulacorhynchus-albivitta | Southern Emerald-Toucanet | Туканы, бородатки и дятлы |
-| andigena-hypoglauca | Gray-breasted Mountain-Toucan | Туканы, бородатки и дятлы |
-| pteroglossus-inscriptus | Lettered Aracari | Туканы, бородатки и дятлы |
-| pteroglossus-torquatus | Collared Aracari | Туканы, бородатки и дятлы |
-| picumnus-squamulatus | Scaled Piculet | Туканы, бородатки и дятлы |
-| picumnus-olivaceus | Olivaceous Piculet | Туканы, бородатки и дятлы |
-| melanerpes-formicivorus | Acorn Woodpecker | Туканы, бородатки и дятлы |
-| melanerpes-rubricapillus | Red-crowned Woodpecker | Туканы, бородатки и дятлы |
-| leuconotopicus-fumigatus | Smoky-brown Woodpecker | Туканы, бородатки и дятлы |
-| veniliornis-kirkii | Red-rumped Woodpecker | Туканы, бородатки и дятлы |
-| campephilus-rubricollis | Red-necked Woodpecker | Туканы, бородатки и дятлы |
-| campephilus-melanoleucos | Crimson-crested Woodpecker | Туканы, бородатки и дятлы |
-| celeus-loricatus | Cinnamon Woodpecker | Туканы, бородатки и дятлы |
-| piculus-leucolaemus | White-throated Woodpecker | Туканы, бородатки и дятлы |
-| colaptes-rivolii | Crimson-mantled Woodpecker | Туканы, бородатки и дятлы |
-| brotogeris-cyanoptera | Cobalt-winged Parakeet | Попугаи |
-| amazona-autumnalis | Red-lored Amazon | Попугаи |
-| amazona-ochrocephala | Yellow-crowned Amazon | Попугаи |
-| amazona-amazonica | Orange-winged Amazon | Попугаи |
-| amazona-mercenarius | Scaly-naped Amazon | Попугаи |
-| forpus-crassirostris | Riparian Parrotlet | Попугаи |
-| pionites-melanocephalus | Black-headed Parrot | Попугаи |
-| eupsittula-pertinax | Brown-throated Parakeet | Попугаи |
-| ara-severus | Chestnut-fronted Macaw | Попугаи |
-| psittacara-wagleri | Scarlet-fronted Parakeet | Попугаи |
-| psittacara-leucophthalmus | White-eyed Parakeet | Попугаи |
-| euchrepomis-callinota | Rufous-rumped Antwren | Муравьеловки, печники и древолазы |
-| taraba-major | Great Antshrike | Муравьеловки, печники и древолазы |
-| thamnophilus-doliatus | Barred Antshrike | Муравьеловки, печники и древолазы |
-| thamnophilus-multistriatus | Bar-crested Antshrike | Муравьеловки, печники и древолазы |
-| thamnophilus-atrinucha | Black-crowned Antshrike | Муравьеловки, печники и древолазы |
-| thamnophilus-schistaceus | Plain-winged Antshrike | Муравьеловки, печники и древолазы |
-| thamnophilus-murinus | Mouse-colored Antshrike | Муравьеловки, печники и древолазы |
-| myrmotherula-pacifica | Pacific Antwren | Муравьеловки, печники и древолазы |
-| myrmotherula-schisticolor | Slaty Antwren | Муравьеловки, печники и древолазы |
-| herpsilochmus-frater | Rusty-winged Antwren | Муравьеловки, печники и древолазы |
-| drymophila-striaticeps | Streak-headed Antbird | Муравьеловки, печники и древолазы |
-| cercomacroides-tyrannina | Dusky Antbird | Муравьеловки, печники и древолазы |
-| cercomacroides-nigrescens | Blackish Antbird | Муравьеловки, печники и древолазы |
-| cercomacra-cinerascens | Gray Antbird | Муравьеловки, печники и древолазы |
-| myrmoborus-myotherinus | Black-faced Antbird | Муравьеловки, печники и древолазы |
-| myrmelastes-leucostigma | Spot-winged Antbird | Муравьеловки, печники и древолазы |
-| poliocrania-exsul | Chestnut-backed Antbird | Муравьеловки, печники и древолазы |
-| akletos-melanoceps | White-shouldered Antbird | Муравьеловки, печники и древолазы |
-| hylophylax-naevius | Spot-backed Antbird | Муравьеловки, печники и древолазы |
-| willisornis-poecilinotus | Common Scale-backed Antbird | Муравьеловки, печники и древолазы |
-| grallaria-haplonota | Plain-backed Antpitta | Муравьеловки, печники и древолазы |
-| acropternis-orthonyx | Ocellated Tapaculo | Муравьеловки, печники и древолазы |
-| formicarius-rufipectus | Rufous-breasted Antthrush | Муравьеловки, печники и древолазы |
-| nasica-longirostris | Long-billed Woodcreeper | Муравьеловки, печники и древолазы |
-| xiphorhynchus-erythropygius | Spotted Woodcreeper | Муравьеловки, печники и древолазы |
-| dendroplex-picus | Straight-billed Woodcreeper | Муравьеловки, печники и древолазы |
-| campylorhamphus-trochilirostris | Red-billed Scythebill | Муравьеловки, печники и древолазы |
-| lepidocolaptes-souleyetii | Streak-headed Woodcreeper | Муравьеловки, печники и древолазы |
 | lepidocolaptes-lacrymiger | Montane Woodcreeper | Муравьеловки, печники и древолазы |
 | xenops-rutilans | Streaked Xenops | Муравьеловки, печники и древолазы |
 | anabacerthia-variegaticeps | Scaly-throated Foliage-gleaner | Муравьеловки, печники и древолазы |
@@ -268,7 +204,7 @@
 | myiothlypis-coronata | Russet-crowned Warbler | Овсянки, древесницы, трупиалы и вьюрки |
 | myioborus-melanocephalus | Spectacled Redstart | Овсянки, древесницы, трупиалы и вьюрки |
 
-## Проверено (467)
+## Проверено (531)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
@@ -443,20 +379,30 @@
 | glaucidium-parkeri | Subtropical Pygmy-Owl | Хищные птицы и совы | 2026-09-27 |
 | micrastur-plumbeus | Plumbeous Forest-Falcon | Хищные птицы и совы | 2026-09-27 |
 | micrastur-gilvicollis | Lined Forest-Falcon | Хищные птицы и совы | 2026-09-27 |
+| daptrius-ater | Black Caracara | Хищные птицы и совы | 2026-09-27 |
+| falco-sparverius | American Kestrel | Хищные птицы и совы | 2026-09-27 |
+| falco-peregrinus | Peregrine Falcon | Хищные птицы и совы | 2026-09-27 |
 | pharomachrus-pavoninus | Pavonine Quetzal | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | pharomachrus-auriceps | Golden-headed Quetzal | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | pharomachrus-antisianus | Crested Quetzal | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | trogon-comptus | Blue-tailed Trogon | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | trogon-viridis | Green-backed Trogon | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | trogon-ramonianus | Amazonian Violaceous Trogon | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| trogon-collaris | Collared Trogon | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| trogon-personatus | Masked Trogon | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| momotus-aequatorialis | Andean Motmot | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | baryphthengus-martii | Rufous Motmot | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | electron-platyrhynchum | Broad-billed Motmot | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | megaceryle-torquata | Ringed Kingfisher | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| chloroceryle-amazona | Amazon Kingfisher | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| chloroceryle-americana | Green Kingfisher | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | notharchus-hyperrhynchus | White-necked Puffbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| notharchus-tectus | Pied Puffbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | malacoptila-fulvogularis | Black-streaked Puffbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | hapaloptila-castanea | White-faced Nunbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | monasa-nigrifrons | Black-fronted Nunbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | monasa-flavirostris | Yellow-billed Nunbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
+| chelidoptera-tenebrosa | Swallow-winged Puffbird | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | galbalcyrhynchus-leucotis | White-eared Jacamar | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | galbula-tombacea | White-chinned Jacamar | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
 | galbula-pastazae | Coppery-chested Jacamar | Трогоны, момоты, зимородки и якамары | 2026-09-27 |
@@ -465,9 +411,13 @@
 | capito-auratus | Gilded Barbet | Туканы, бородатки и дятлы | 2026-09-27 |
 | eubucco-bourcierii | Red-headed Barbet | Туканы, бородатки и дятлы | 2026-09-27 |
 | semnornis-ramphastinus | Toucan Barbet | Туканы, бородатки и дятлы | 2026-09-27 |
+| aulacorhynchus-albivitta | Southern Emerald-Toucanet | Туканы, бородатки и дятлы | 2026-09-27 |
 | aulacorhynchus-haematopygus | Crimson-rumped Toucanet | Туканы, бородатки и дятлы | 2026-09-27 |
+| andigena-hypoglauca | Gray-breasted Mountain-Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
 | andigena-laminirostris | Plate-billed Mountain-Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
 | andigena-nigrirostris | Black-billed Mountain-Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
+| pteroglossus-inscriptus | Lettered Aracari | Туканы, бородатки и дятлы | 2026-09-27 |
+| pteroglossus-torquatus | Collared Aracari | Туканы, бородатки и дятлы | 2026-09-27 |
 | pteroglossus-castanotis | Chestnut-eared Aracari | Туканы, бородатки и дятлы | 2026-09-27 |
 | pteroglossus-pluricinctus | Many-banded Aracari | Туканы, бородатки и дятлы | 2026-09-27 |
 | selenidera-reinwardtii | Golden-collared Toucanet | Туканы, бородатки и дятлы | 2026-09-27 |
@@ -475,40 +425,83 @@
 | ramphastos-tucanus | White-throated Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
 | ramphastos-brevis | Choco Toucan | Туканы, бородатки и дятлы | 2026-09-27 |
 | picumnus-lafresnayi | Lafresnaye's Piculet | Туканы, бородатки и дятлы | 2026-09-27 |
+| picumnus-squamulatus | Scaled Piculet | Туканы, бородатки и дятлы | 2026-09-27 |
+| picumnus-olivaceus | Olivaceous Piculet | Туканы, бородатки и дятлы | 2026-09-27 |
+| melanerpes-formicivorus | Acorn Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | melanerpes-cruentatus | Yellow-tufted Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | melanerpes-pucherani | Black-cheeked Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| melanerpes-rubricapillus | Red-crowned Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| leuconotopicus-fumigatus | Smoky-brown Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| veniliornis-kirkii | Red-rumped Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | veniliornis-chocoensis | Choco Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| campephilus-rubricollis | Red-necked Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| campephilus-melanoleucos | Crimson-crested Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | campephilus-gayaquilensis | Guayaquil Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | dryocopus-lineatus | Lineated Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| celeus-loricatus | Cinnamon Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | celeus-flavus | Cream-colored Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | celeus-spectabilis | Rufous-headed Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | celeus-elegans | Chestnut Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| piculus-leucolaemus | White-throated Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
+| colaptes-rivolii | Crimson-mantled Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | colaptes-punctigula | Spot-breasted Woodpecker | Туканы, бородатки и дятлы | 2026-09-27 |
 | touit-huetii | Scarlet-shouldered Parrotlet | Попугаи | 2026-09-27 |
 | touit-stictopterus | Spot-winged Parrotlet | Попугаи | 2026-09-27 |
+| brotogeris-cyanoptera | Cobalt-winged Parakeet | Попугаи | 2026-09-27 |
 | pyrilia-pulchra | Rose-faced Parrot | Попугаи | 2026-09-27 |
 | pionus-menstruus | Blue-headed Parrot | Попугаи | 2026-09-27 |
 | pionus-chalcopterus | Bronze-winged Parrot | Попугаи | 2026-09-27 |
+| amazona-autumnalis | Red-lored Amazon | Попугаи | 2026-09-27 |
+| amazona-ochrocephala | Yellow-crowned Amazon | Попугаи | 2026-09-27 |
 | amazona-farinosa | Mealy Amazon | Попугаи | 2026-09-27 |
+| amazona-amazonica | Orange-winged Amazon | Попугаи | 2026-09-27 |
+| amazona-mercenarius | Scaly-naped Amazon | Попугаи | 2026-09-27 |
+| forpus-crassirostris | Riparian Parrotlet | Попугаи | 2026-09-27 |
 | forpus-conspicillatus | Spectacled Parrotlet | Попугаи | 2026-09-27 |
 | forpus-coelestis | Pacific Parrotlet | Попугаи | 2026-09-27 |
+| pionites-melanocephalus | Black-headed Parrot | Попугаи | 2026-09-27 |
 | pyrrhura-melanura | Maroon-tailed Parakeet | Попугаи | 2026-09-27 |
 | pyrrhura-calliptera | Brown-breasted Parakeet | Попугаи | 2026-09-27 |
+| eupsittula-pertinax | Brown-throated Parakeet | Попугаи | 2026-09-27 |
 | aratinga-weddellii | Dusky-headed Parakeet | Попугаи | 2026-09-27 |
 | orthopsittaca-manilatus | Red-bellied Macaw | Попугаи | 2026-09-27 |
+| ara-severus | Chestnut-fronted Macaw | Попугаи | 2026-09-27 |
+| psittacara-wagleri | Scarlet-fronted Parakeet | Попугаи | 2026-09-27 |
+| psittacara-leucophthalmus | White-eyed Parakeet | Попугаи | 2026-09-27 |
+| euchrepomis-callinota | Rufous-rumped Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
 | frederickena-fulva | Fulvous Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
+| taraba-major | Great Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thamnophilus-doliatus | Barred Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thamnophilus-multistriatus | Bar-crested Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thamnophilus-atrinucha | Black-crowned Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thamnophilus-schistaceus | Plain-winged Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
+| thamnophilus-murinus | Mouse-colored Antshrike | Муравьеловки, печники и древолазы | 2026-09-27 |
 | dysithamnus-puncticeps | Spot-crowned Antvireo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | dysithamnus-occidentalis | Bicolored Antvireo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | epinecrophylla-fulviventris | Checker-throated Stipplethroat | Муравьеловки, печники и древолазы | 2026-09-27 |
 | epinecrophylla-spodionota | Foothill Stipplethroat | Муравьеловки, печники и древолазы | 2026-09-27 |
+| myrmotherula-pacifica | Pacific Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
+| myrmotherula-schisticolor | Slaty Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
 | dichrozona-cincta | Banded Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| herpsilochmus-frater | Rusty-winged Antwren | Муравьеловки, печники и древолазы | 2026-09-27 |
 | drymophila-caudata | East Andean Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| drymophila-striaticeps | Streak-headed Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| cercomacroides-tyrannina | Dusky Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| cercomacroides-nigrescens | Blackish Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | cercomacroides-fuscicauda | Riparian Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| cercomacra-cinerascens | Gray Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | cercomacra-nigricans | Jet Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| myrmoborus-myotherinus | Black-faced Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| myrmelastes-leucostigma | Spot-winged Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| poliocrania-exsul | Chestnut-backed Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | sipia-nigricauda | Esmeraldas Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | sipia-berlepschi | Stub-tailed Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| akletos-melanoceps | White-shouldered Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | hafferia-zeledoni | Zeledon's Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
 | rhegmatorhina-melanosticta | Hairy-crested Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| hylophylax-naevius | Spot-backed Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| willisornis-poecilinotus | Common Scale-backed Antbird | Муравьеловки, печники и древолазы | 2026-09-27 |
+| grallaria-haplonota | Plain-backed Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
 | grallaria-ruficapilla | Chestnut-crowned Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
 | grallaria-hypoleuca | White-bellied Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
 | grallaria-rufocinerea | Bicolored Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
@@ -520,6 +513,7 @@
 | grallaricula-cucullata | Hooded Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
 | grallaricula-nana | Slate-crowned Antpitta | Муравьеловки, печники и древолазы | 2026-09-27 |
 | liosceles-thoracicus | Rusty-belted Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
+| acropternis-orthonyx | Ocellated Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | myornis-senilis | Ash-colored Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | scytalopus-opacus | Paramo Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | scytalopus-micropterus | Long-tailed Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
@@ -528,10 +522,16 @@
 | scytalopus-chocoensis | Choco Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | scytalopus-griseicollis | Pale-bellied Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
 | scytalopus-spillmanni | Spillmann's Tapaculo | Муравьеловки, печники и древолазы | 2026-09-27 |
+| formicarius-rufipectus | Rufous-breasted Antthrush | Муравьеловки, печники и древолазы | 2026-09-27 |
 | chamaeza-turdina | Schwartz's Antthrush | Муравьеловки, печники и древолазы | 2026-09-27 |
 | glyphorynchus-spirurus | Wedge-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| nasica-longirostris | Long-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | xiphocolaptes-promeropirhynchus | Strong-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| xiphorhynchus-erythropygius | Spotted Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| dendroplex-picus | Straight-billed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
+| campylorhamphus-trochilirostris | Red-billed Scythebill | Муравьеловки, печники и древолазы | 2026-09-27 |
 | campylorhamphus-pusillus | Brown-billed Scythebill | Муравьеловки, печники и древолазы | 2026-09-27 |
+| lepidocolaptes-souleyetii | Streak-headed Woodcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | berlepschia-rikeri | Point-tailed Palmcreeper | Муравьеловки, печники и древолазы | 2026-09-27 |
 | furnarius-leucopus | Pale-legged Hornero | Муравьеловки, печники и древолазы | 2026-09-27 |
 | cinclodes-albidiventris | Chestnut-winged Cinclodes | Муравьеловки, печники и древолазы | 2026-09-27 |
