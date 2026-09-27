@@ -2,6 +2,7 @@
 id: sipia-nigricauda
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец тёмно-серый, крылья и хвост темнее, кроющие крыла чёрные с белыми точками"
   - "Радужка красная у обоих полов"
@@ -11,9 +12,9 @@ similar:
   - id: hafferia-zeledoni
     how: "крупнее, самец сплошь чёрный, вокруг глаза голая голубая кожа"
   - id: sipia-berlepschi
-    how: "хвост очень короткий, живёт ниже, в низинах Чоко; в предгорьях встречается реже"
+    how: "самец почти целиком чёрный, самка чёрная в белых точках снизу; хвост очень короткий; живёт ниже, обычно до 400 м"
 behavior: "Пары держатся в густом подлеске по оврагам и у ручьёв, прыгают по земле и нижним веткам. Обычно сначала слышишь, потом видишь."
-voice: "Высокая серия свистовых нот; пары перекликаются из подлеска."
+voice: "Короткая серия очень высоких тонких нот «пси-псии-пси-пси-пси-псии», последняя выше и с ударением; позыв — гнусавое падающее «скуиир»."
 traits:
   size: sparrow
   colors: [gray, black, rufous]
@@ -36,16 +37,16 @@ en:
     - id: hafferia-zeledoni
       how: "larger, male all black, with bare blue skin around the eye"
     - id: sipia-berlepschi
-      how: "very short tail, lives lower in the Chocó lowlands; scarcer in the foothills"
+      how: "male almost wholly black, female black with white spots below; very short tail; lives lower, mostly below 400 m"
   behavior: "Pairs keep to dense understory in ravines and along streams, hopping on the ground and low branches. Usually heard before seen."
-  voice: "A high series of whistled notes; pair members call back and forth from the understory."
+  voice: "A short series of very high, thin notes, 'psee-psee-psi-psi-psi-psee', the last one higher and stressed; the call is a nasal, falling 'skweeyr'."
 ---
-Esmeraldas Antbird (аспидная муравьеловка) — почти-эндемик предгорий тихоокеанского склона Колумбии и Эквадора, обычно на 500–1 000 м. Самец в тени кажется просто тёмно-серым, и первыми видны белые точки на чёрных кроющих крыла и красный глаз. Самка пёстрее и узнаётся по рябому горлу и рыжей спине.
+Esmeraldas Antbird (аспидная муравьеловка) — почти-эндемик предгорий тихоокеанского склона Колумбии и Эквадора, обычно на 500–1 200 м. Самец в тени кажется просто тёмно-серым, и первыми видны белые точки на чёрных кроющих крыла и красный глаз. Самка пёстрее и узнаётся по рябому горлу и рыжей спине.
 
 На маршруте вид «точно» во всех трёх точках склона Чоко: в Авес-и-Флорес 18–20 октября, в Рио-Ньямби 19-го и в Бангсиас-лодже 20-го. Ищи его по оврагам с ручьями, стоя тихо у густого подлеска.
 
 ## English
 
-Esmeraldas Antbird is a near-endemic of the Pacific-slope foothills of Colombia and Ecuador, usually at 500–1,000 m. In the shade the male looks plain dark gray; the first things you see are the white dots on the black wing coverts and the red eye. The female is more patterned and is known by her barred throat and rufous back.
+Esmeraldas Antbird is a near-endemic of the Pacific-slope foothills of Colombia and Ecuador, usually at 500–1,200 m. In the shade the male looks plain dark gray; the first things you see are the white dots on the black wing coverts and the red eye. The female is more patterned and is known by her barred throat and rufous back.
 
 On the route it is "sure" at all three sites on the Chocó slope: Aves y Flórez on 18–20 October, Río Ñambí on the 19th and Bangsias Lodge on the 20th. Look for it in ravines with streams, standing quietly by dense understory.

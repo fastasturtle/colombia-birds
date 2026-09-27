@@ -2,10 +2,11 @@
 id: pyrrhura-melanura
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост длинный, сверху бордово-бурый, снизу тёмный"
   - "Горло и грудь тёмно-зелёные в беловатую чешую"
-  - "Вокруг глаза голое белое кольцо, шапочка буроватая"
+  - "Голое кольцо вокруг глаза (у птиц склона Чоко серое, не белое), шапочка буроватая"
   - "На крыле красное пятно на кроющих кисти, заметное в полёте"
 similar:
   - id: pyrrhura-calliptera
@@ -31,7 +32,7 @@ en:
   key_features:
     - "Long tail, maroon-brown above, dark below"
     - "Dark green throat and breast scaled whitish"
-    - "Bare white ring around the eye, brownish crown"
+    - "Bare ring around the eye (gray, not white, in Chocó-slope birds), brownish crown"
     - "Red patch on the primary coverts, visible in flight"
   similar:
     - id: pyrrhura-calliptera
@@ -41,12 +42,12 @@ en:
   behavior: "Flocks of a few to twenty birds feed on fruit and seeds in the canopy and fly fast and low over the forest with harsh calls. When feeding they fall silent and are hard to spot."
   voice: "Harsh grating screeches from the flock in flight."
 ---
-Maroon-tailed Parakeet — самая обычная которра предгорий и облачного леса на 500–1 700 м, на тихоокеанском склоне и в Амазонии. Птицы склона Чоко темнее и почти без жёлтого на крыле. Стайка обычно видна как зелёные тени, пролетающие над дорогой с криком; сидящих птиц ищи по чешуйчатой груди и бордовому хвосту.
+Maroon-tailed Parakeet — самая обычная которра предгорий и облачного леса на 500–1 700 м (тихоокеанский подвид — до 2 200 м), на тихоокеанском склоне и в Амазонии. Птицы склона Чоко (подвид pacifica) темнее, без жёлтого на крыле, с серым кольцом вокруг глаза и тёмным клювом; в верхней Магдалене (Уила) живёт более крупный подвид chapmani с красным пятном на брюхе. Стайка обычно видна как зелёные тени, пролетающие над дорогой с криком; сидящих птиц ищи по чешуйчатой груди и бордовому хвосту.
 
 На маршруте вид «точно» на склоне Чоко: в Авес-и-Флорес 18–20 октября, в Рио-Ньямби 19-го, в Бангсиас-лодже 20-го и в Ла-Нутрии 21-го. «Возможно» также в Эль-Энканто и Ла-Дримофиле 4–6 октября.
 
 ## English
 
-Maroon-tailed Parakeet is the commonest Pyrrhura of the foothills and cloud forest at 500–1,700 m, on the Pacific slope and in Amazonia. Birds on the Chocó slope are darker, with almost no yellow in the wing. A flock usually shows as green shapes crossing the road with screeches; for perched birds look for the scaly breast and maroon tail.
+Maroon-tailed Parakeet is the commonest Pyrrhura of the foothills and cloud forest at 500–1,700 m (the Pacific subspecies up to 2,200 m), on the Pacific slope and in Amazonia. Chocó-slope birds (subspecies pacifica) are darker, with no yellow in the wing, a gray eye-ring and a dark bill; the upper Magdalena (Huila) holds the larger subspecies chapmani, with a red patch on the belly. A flock usually shows as green shapes crossing the road with screeches; for perched birds look for the scaly breast and maroon tail.
 
 On the route it is "sure" on the Chocó slope: Aves y Flórez on 18–20 October, Río Ñambí on the 19th, Bangsias Lodge on the 20th and La Nutria on the 21st. It is also "maybe" at El Encanto and La Drymophila on 4–6 October.

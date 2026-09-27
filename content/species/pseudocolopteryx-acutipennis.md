@@ -2,6 +2,7 @@
 id: pseudocolopteryx-acutipennis
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и весь низ насыщенно золотисто-жёлтые, без рисунка"
   - "Верх, голова и хвост ярко-оливковые, щёки темнее"
@@ -11,7 +12,7 @@ similar:
   - id: geothlypis-philadelphia
     how: "у самца серый капюшон с чёрным передником, у самки бледное горло; прячется в кустах, а не в тростнике"
 behavior: "Скрывается в тростнике, осоке и высокой траве болот и озёрных берегов, изредка ненадолго садится на верхушку стебля. Мелкая и незаметная, ловит насекомых у самой воды."
-voice: "Голос тихий, короткие щелчки и писк; поёт редко."
+voice: "Тихая песня «цит-цит-цит т-конк», после неё треск крыльев; при кормёжке — одиночное «цит»."
 traits:
   size: sparrow
   colors: [yellow, olive]
@@ -24,6 +25,7 @@ sources:
   - "Данные проекта: data/species/pseudocolopteryx-acutipennis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/tyrannidae.md"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Red Prensa Verde: doradito lagunero, статус CR по Резолюции 1912/2017 — https://redprensaverde.org/2018/08/15/encontraron-al-doradito-lagunero-ave-en-peligro-critico-de-extincion/"
 en:
   key_features:
     - "Throat and all underparts rich golden-yellow, unmarked"
@@ -34,14 +36,14 @@ en:
     - id: geothlypis-philadelphia
       how: "male has a gray hood with a black bib, female a pale throat; skulks in shrubs rather than reeds"
   behavior: "Hides in reeds, sedges and tall grass of marshes and lake shores, now and then perching briefly on top of a stem. Small and unobtrusive, it catches insects close to the water."
-  voice: "Quiet: short clicks and squeaks; sings rarely."
+  voice: "A quiet song, 'tzit-tzit-tzit t-konk', followed by a wing-whirr; a single 'tzit' while foraging."
 ---
-Subtropical Doradito (узкокрылый дорадито) — крошечный жёлто-оливковый тиранн тростниковых болот на высотах 2 200–3 550 м. В Колумбии он редок и распространён пятнами, а в национальной Красной книге отмечен как находящийся на грани исчезновения. Ярко-жёлтый низ заметен, только когда птица выходит на край тростника, поэтому смотри на верхушки стеблей у воды.
+Subtropical Doradito (узкокрылый дорадито) — крошечный жёлто-оливковый тиранн тростниковых болот; в Колумбии он живёт на высотах 1 500–2 800 м, редок и распространён пятнами, а в национальном списке угрожаемых видов (Резолюция 1912 от 2017 года) отмечен как находящийся на грани исчезновения. Ярко-жёлтый низ заметен, только когда птица выходит на край тростника, поэтому смотри на верхушки стеблей у воды.
 
 Главное место на маршруте — берега Лагуны Ла-Коча 16 октября, где вид «точно». В тот же день он «возможно» на Парамо Бордонсильо, а под Боготой — в тростниках Ла-Флориды.
 
 ## English
 
-Subtropical Doradito is a tiny yellow-and-olive flycatcher of reed marshes at 2,200–3,550 m. In Colombia it is rare and patchy, and the national Red Book lists it as Critically Endangered. The bright yellow underparts show only when the bird comes to the edge of the reeds, so watch the stem tops by the water.
+Subtropical Doradito is a tiny yellow-and-olive flycatcher of reed marshes; in Colombia it lives at 1,500–2,800 m, is rare and patchy, and the national list of threatened species (Resolution 1912 of 2017) rates it Critically Endangered. The bright yellow underparts show only when the bird comes to the edge of the reeds, so watch the stem tops by the water.
 
 The main site on the route is the shore of Laguna de La Cocha on 16 October, where it is "sure". The same day it is "maybe" at Páramo de Bordoncillo, and near Bogotá in the reeds of La Florida.
