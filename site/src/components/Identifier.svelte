@@ -4,6 +4,7 @@
    * The place (whole route / a day / a site) gives each species its likelihood state there (best over the place's
    * sites, as in lib/data), and the site-wide filter (lib/filter.ts, ListFilter.svelte) hides states as everywhere.
    * Species data is read from the page's <script id="identify-data"> JSON (see pages/identify/index.astro).
+   * Facet counts: every unselected chip shows how many species would match with it added (same place + filter).
    */
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
@@ -20,6 +21,8 @@
   const RANK: Record<State, number> = { sure: 2, maybe: 1, unlikely: 0 };
 
   let items = $state<Item[] | null>(null);
+  /** Per-species trait sets, built once per parse: sets[i][group] for items[i]. */
+  let sets = $derived(items ? items.map((it) => Object.fromEntries(Object.entries(it.t).map(([g, vs]) => [g, new Set(vs)])) as Record<string, Set<string>>) : []);
   let sel = $state<Record<string, string[]>>({});
   let place = $state('any');
 
@@ -77,6 +80,36 @@
       .sort((a, b) => Number(b.int) - Number(a.int) || RANK[b.state] - RANK[a.state] || a.it.en.localeCompare(b.it.en));
   });
   let shown = $derived(rows.filter((r) => passes($filter, r.state, r.int)));
+  /**
+   * counts[group][value] = species shown (place + filter) if that chip were added to the selection:
+   * OR within the chip's group (union with what is already selected there), AND with every other group.
+   * One pass over species: a species matching all groups adds to every chip it has, plus to every chip of a
+   * selected group; a species failing exactly one group adds only to that group's chips it has.
+   */
+  let counts = $derived.by(() => {
+    const out: Record<string, Record<string, number>> = {};
+    for (const g of vocab) out[g.key] = Object.fromEntries(g.values.map((v) => [v.key, 0]));
+    if (!items) return out;
+    const f = $filter;
+    const selG = vocab.filter((g) => sel[g.key]?.length).map((g) => ({ key: g.key, vs: sel[g.key] }));
+    items.forEach((it, i) => {
+      const int = it.x || it.hl.some((s) => placeSites.includes(s));
+      if (!passes(f, stateAt(it, placeSites), int)) return;
+      const ts = sets[i];
+      let fail: string | null = null;
+      for (const { key, vs } of selG) {
+        const t = ts[key];
+        if (!t || !vs.some((v) => t.has(v))) { if (fail) return; fail = key; }
+      }
+      for (const g of vocab) {
+        if (fail && g.key !== fail) continue;
+        const c = out[g.key], t = ts[g.key];
+        if (!fail && sel[g.key]?.length) { for (const k in c) c[k]++; continue; }
+        if (t) for (const v of t) if (v in c) c[v]++;
+      }
+    });
+    return out;
+  });
   let hidden = $derived(rows.length - shown.length);
   const plural = (n: number, a: string, b: string, c: string) => {
     const m10 = n % 10, m100 = n % 100;
@@ -100,12 +133,14 @@
     </select>
   </label>
   <ListFilter />
-  {#each vocab as g (g.key)}
+  {#each vocab as g, gi (g.key)}
     <fieldset class="grp">
-      <legend>{g.label}{#if sel[g.key]?.length}<span class="n"> · {sel[g.key].length}</span>{/if}</legend>
+      <legend><span>{g.label}{#if sel[g.key]?.length}<span class="n"> · {sel[g.key].length}</span>{/if}</span>{#if gi === 0}<button type="button" class="lnk clr" style:visibility={nSel > 0 ? 'visible' : 'hidden'} onclick={reset}>Сбросить</button>{/if}</legend>
       <div class="chips">
         {#each g.values as v (v.key)}
-          <button type="button" class="chip-b" aria-pressed={sel[g.key]?.includes(v.key) ?? false} title={v.hint ?? undefined} onclick={() => toggle(g.key, v.key)}>{v.label}</button>
+          {@const on = sel[g.key]?.includes(v.key) ?? false}
+          {@const n = counts[g.key]?.[v.key] ?? 0}
+          <button type="button" class="chip-b" class:zero={items !== null && !on && n === 0} aria-pressed={on} title={v.hint ?? undefined} onclick={() => toggle(g.key, v.key)}>{v.label}{#if items && !on}<span class="cnt">{n}</span>{/if}</button>
         {/each}
       </div>
     </fieldset>
@@ -145,10 +180,16 @@
   legend { font-weight: 600; font-size: .9rem; padding: 0; margin-bottom: 4px; }
   .n { color: var(--accent); }
   .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  legend { display: flex; align-items: center; width: 100%; }
+  .lnk.clr { margin: -10px 0 -10px auto; font-size: .85rem; font-weight: 400; padding: 10px 2px; }
   .chip-b {
-    min-height: 34px; padding: 0 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card);
+    display: inline-flex; align-items: center; gap: 6px;
+    min-height: 40px; padding: 0 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card);
     color: var(--fg); font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap;
   }
+  .cnt { font-size: .75rem; line-height: 1; padding: 2px 6px; border-radius: 999px; background: var(--chip); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .chip-b.zero { color: var(--muted); border-style: dashed; background: transparent; }
+  .chip-b.zero .cnt { opacity: .7; }
   .chip-b[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
   @media (prefers-color-scheme: dark) { .chip-b[aria-pressed="true"] { color: #10150f; } }
   .place { display: flex; align-items: center; gap: 8px; margin: 4px 0 0; font-weight: 600; font-size: .9rem; }
