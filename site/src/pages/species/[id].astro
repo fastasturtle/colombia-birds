@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PhotoGallery from '../../components/PhotoGallery.svelte';
 import StateWord from '../../components/StateWord.astro';
-import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, siteState, whyInteresting, STATE_RANK, WHY_RU, fmtDateRu, dayLabel, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
+import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, siteState, whyInteresting, STATE_RANK, WHY_RU, fmtDateRu, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
 export function getStaticPaths() {
   return speciesIndex().map((s) => ({ params: { id: s.id } }));
 }

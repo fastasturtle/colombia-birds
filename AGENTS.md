@@ -42,6 +42,8 @@
   локально один раз `npx playwright install chromium`. Карта маршрута — статичный SVG без онлайн-тайлов:
   подложка `site/src/generated/basemap.json` (Natural Earth, шаг пайплайна `basemap`).
 - Сборка сайта: `cd site && npm run build` (~10 с, 2 000+ страниц). Проверять перед каждым коммитом в `site/`.
+- Проверка перед коммитом в `site/`: `cd site && npm run verify` (`astro check` — 0 ошибок/предупреждений, затем сборка).
+  Тот же `astro check` гоняется в CI перед деплоем и роняет его при ошибках типов.
 
 ## Частые задачи
 

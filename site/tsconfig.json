@@ -5,6 +5,7 @@
   "compilerOptions": {
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "paths": { "@lib/*": ["src/lib/*"], "@components/*": ["src/components/*"] }
+    "paths": { "@lib/*": ["src/lib/*"], "@components/*": ["src/components/*"] },
+    "types": ["node"]
   }
 }
