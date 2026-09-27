@@ -9,6 +9,7 @@
 - [x] Wikidata: QID, внешние ID, категории Commons, ссылки на статьи Wikipedia
 - [x] Сборка `data/species/*.json`, индекса и семейств
 - [ ] Выдержки Wikipedia en/es/ru для всех видов (шаг написан, запустить в GitHub Actions)
+- [x] Ранжирование фото: чистка авторов, дубликаты, гравюры последними и не больше одной, зоопарки/музеи ниже диких
 - [x] Фото: шаги `photos` (кандидаты Commons + iNat) и `upload` (ресайз, R2, credits) написаны; Commons проверен только на моках
 - [ ] Первый запуск фото в GitHub Actions: `photos upload` для всех видов; проверить, что Commons отвечает из CI
 - [ ] Русские названия семейств: eBird `locale=ru` отдаёт английские, взять метки семейств из Wikidata (QLever) → `data/families.json`
@@ -54,5 +55,10 @@
 - [ ] CORS на бакете: origins `https://fastasturtle.github.io`, `http://localhost:4321`, методы GET/HEAD
 - [ ] Свой домен для медиа вместо r2.dev (когда появится домен в Cloudflare)
 - [x] Workflow `pipeline.yml` (workflow_dispatch, steps + only)
-- [ ] Первый запуск `wikipedia` в Actions
+- [x] Первый запуск в Actions на 10 видах: тексты, фото, R2, страница на сайте проверены
+- [ ] Полный прогон `wikipedia photos upload` на все виды (запущен 27.09, run 36314149564), затем повторный `photos upload` для 275 видов маршрута на исправленном ранжировании (run 36314663291)
+- [ ] Автодеплой после коммитов пайплайна: пуш от токена workflow не запускает deploy.yml; нужно `actions: write` + шаг `gh workflow run deploy.yml --ref main` (ждёт согласия владельца)
+- [ ] Кэш HTTP-ответов в Actions может пропасть при таймауте прогона; тогда Commons/iNat опрашиваются заново
+- [ ] `XENO_CANTO_API_KEY` приходит в job пустым: проверить имя секрета в репозитории
+- [ ] У части лицензий Commons в `license_url` нет завершающего слэша
 - [ ] Скиллы для агентов: `/write-species-text`, `/add-similar-pair`, `/fetch-photos`
