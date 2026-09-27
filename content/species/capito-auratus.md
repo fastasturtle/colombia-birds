@@ -17,7 +17,7 @@ traits:
   size: thrush
   colors: [black, yellow, orange]
   tone: bright
-  marks: [eyebrow, wing_bars, streaked_breast]
+  marks: [eyebrow, wing_bars, streaked_breast, cap]
   bill: thick
   layer: [canopy]
 sources:

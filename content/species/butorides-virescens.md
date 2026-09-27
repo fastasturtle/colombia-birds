@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [green, rufous, gray]
   tone: dull
-  marks: [crest]
+  marks: [crest, cap]
   bill: long
   layer: [water]
 sources:

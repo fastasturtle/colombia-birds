@@ -16,10 +16,10 @@ similar:
 behavior: "Пары и стайки держатся на опушках, в пойменном и вторичном лесу и на плантациях, едят плоды, семена и цветки; прилетают на глинистые солонцы."
 voice: "Резкие пронзительные крики пар и стаек в полёте."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [green, gray]
   tone: dull
-  marks: [long_tail, eye_ring]
+  marks: [long_tail, eye_ring, cap]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

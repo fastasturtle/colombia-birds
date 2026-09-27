@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [brown, gray, white]
   tone: dull
-  marks: [mask]
+  marks: [mask, wing_patch, bright_bill]
   bill: medium
   layer: [water, ground]
 sources:

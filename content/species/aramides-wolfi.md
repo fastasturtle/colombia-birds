@@ -16,10 +16,10 @@ similar:
 behavior: "Скрытный пастушок мангров, пресных болот, заболоченных лесов и речных пойм. Держится на земле и в зарослях, гнёзда устраивает на пнях, в сплетениях лиан и в кустах на высоте 1–2,5 м."
 voice: "Повторяемое громкое «куи-ко-муи»."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [brown, gray, black]
   tone: dull
-  marks: []
+  marks: [cap, bright_bill]
   bill: medium
   layer: [ground, water]
 sources:

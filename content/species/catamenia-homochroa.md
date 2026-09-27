@@ -21,7 +21,7 @@ traits:
   size: sparrow
   colors: [gray, rufous]
   tone: dull
-  marks: [plain]
+  marks: [plain, bright_bill]
   bill: [short, thick]
   layer: [understory]
 sources:

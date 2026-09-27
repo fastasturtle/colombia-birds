@@ -16,10 +16,10 @@ similar:
 behavior: "Лазает по стволам и ветвям от верха подлеска до подкроны и засовывает серповидный клюв в дупла, щели коры, бромелии и мох. Обычно поодиночке, часто в смешанных стаях."
 voice: "На западе Эквадора, где живёт тот же подвид thoracicus, — нисходящая замедляющаяся серия свистов «туви-туви-тува-тью-тью»; в других частях ареала песня другая."
 traits:
-  size: thrush
+  size: [thrush, pigeon]
   colors: [brown, rufous]
   tone: dull
-  marks: [streaked_breast]
+  marks: [streaked_breast, bright_bill]
   bill: [long, curved]
   layer: [midstory, understory]
 sources:

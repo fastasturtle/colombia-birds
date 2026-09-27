@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [gray, black, rufous]
   tone: dull
-  marks: [throat_patch]
+  marks: [throat_patch, cap]
   bill: [short, thick]
   layer: [understory]
 sources:

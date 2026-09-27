@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [brown, gray]
   tone: dull
-  marks: [spotted_breast]
+  marks: [spotted_breast, wing_patch]
   bill: [short, flat]
   layer: [water]
 sources:

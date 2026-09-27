@@ -21,7 +21,7 @@ traits:
   size: thrush
   colors: [yellow, olive, rufous]
   tone: bright
-  marks: [mask]
+  marks: [mask, cap]
   bill: [short, thick]
   layer: [understory]
 sources:

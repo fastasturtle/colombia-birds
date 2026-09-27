@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [brown, yellow]
   tone: dull
-  marks: [long_tail]
+  marks: [long_tail, bright_bill]
   bill: [medium, flat]
   layer: [water]
 sources:

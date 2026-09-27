@@ -17,10 +17,10 @@ similar:
 behavior: "Сова открытых мест: пастбищ, травяных болот, парамо. Охотится в сумерках и в пасмурные дни, облетая траву низко над землёй, на мелких грызунов; днём сидит на земле или на столбе."
 voice: "Часто молчит. Хриплое лающее «ваук-ваук-ваук» и серия «ту-ту-ту-ту»; в гнездовой период громкое «иии-йерп»."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [brown, white]
   tone: dull
-  marks: [streaked_breast]
+  marks: [streaked_breast, wing_patch]
   bill: [short, hooked]
   layer: [ground, air, night]
 sources:

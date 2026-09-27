@@ -19,9 +19,9 @@ traits:
   size: sparrow
   colors: [green, black, yellow]
   tone: bright
-  marks: [short_tail]
+  marks: [short_tail, cap]
   bill: [short, thick]
-  layer: [midstory, canopy]
+  layer: [midstory, canopy, feeder]
 sources:
   - "Wikipedia: Moss-backed tanager (en, CC BY-SA 4.0)"
   - "Wikipedia: Bangsia edwardsi (es, CC BY-SA 4.0)"

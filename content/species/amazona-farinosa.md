@@ -19,7 +19,7 @@ traits:
   size: crow
   colors: [green]
   tone: dull
-  marks: [eye_ring, short_tail]
+  marks: [eye_ring, short_tail, wing_patch]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

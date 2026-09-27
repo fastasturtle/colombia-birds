@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [yellow, black, olive]
   tone: bright
-  marks: []
+  marks: [cap, wing_patch]
   bill: [short, thick]
   layer: [canopy, midstory]
 sources:

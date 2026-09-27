@@ -16,7 +16,7 @@ similar:
 behavior: "Стаями кормится на илистых отмелях, склёвывая добычу с поверхности и неглубоко зондируя ил. Часто держится вместе с Western Sandpiper и другими мелкими песочниками."
 voice: "Короткое хрипловатое «черк» или «кит»."
 traits:
-  size: sparrow
+  size: [sparrow, thrush]
   colors: [gray, brown, white]
   tone: dull
   marks: []

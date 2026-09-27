@@ -19,7 +19,7 @@ traits:
   size: pigeon
   colors: [rufous, gray, black]
   tone: dull
-  marks: []
+  marks: [bright_bill]
   bill: medium
   layer: [ground, water]
 sources:

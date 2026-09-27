@@ -16,10 +16,10 @@ similar:
 behavior: "Держится поодиночке или парами на земле в густом подлеске и шумно ворошит клювом опавшую листву."
 voice: "Позывы — слабые высокие «пинк» и «сит»; песня — сбивчивая смесь высоких слитных свистов и отрывистых нот, легко теряется в шуме ручьёв."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [olive, gray, black]
   tone: bright
-  marks: [mask, throat_patch]
+  marks: [mask, throat_patch, cap]
   bill: [medium]
   layer: [ground, understory]
 sources:

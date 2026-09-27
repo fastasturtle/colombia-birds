@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [black, white, rufous]
   tone: bright
-  marks: [spotted_breast]
+  marks: [spotted_breast, cap]
   bill: short
   layer: [ground, understory]
 sources:

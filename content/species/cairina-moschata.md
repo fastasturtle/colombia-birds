@@ -19,7 +19,7 @@ traits:
   size: larger
   colors: [black, white]
   tone: dull
-  marks: [bare_face]
+  marks: [bare_face, wing_patch]
   bill: medium
   layer: [water, air]
 sources:

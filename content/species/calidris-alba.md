@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [white, gray, black]
   tone: dull
-  marks: [wing_bars]
+  marks: [wing_bars, wing_patch]
   bill: short
   layer: [water]
 sources:

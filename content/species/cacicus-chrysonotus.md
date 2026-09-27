@@ -16,10 +16,10 @@ similar:
 behavior: "Пары и шумные группы держатся в кронах и среднем ярусе облачного леса, нередко вместе с микст-флоками. Обшаривают кору и эпифиты в поисках насекомых. Гнездится поодиночке или маленькими колониями."
 voice: "Очень голосистый: громкие «ври-ври-ври-вриуа», одиночное «ври!» или «криуа!» и носовое «скиуа»; песня самца — визг, высокие ноты и ускоряющаяся трещотка."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [black, yellow]
   tone: bright
-  marks: [rump_patch, long_tail]
+  marks: [rump_patch, long_tail, wing_patch]
   bill: long
   layer: [canopy, midstory]
 sources:

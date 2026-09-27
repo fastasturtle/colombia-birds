@@ -21,7 +21,7 @@ traits:
   tone: bright
   marks: [long_tail, forked_tail, throat_patch]
   bill: short
-  layer: [midstory, understory, feeder]
+  layer: [midstory, understory]
 sources:
   - "Данные проекта: data/species/aglaiocercus-kingii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"

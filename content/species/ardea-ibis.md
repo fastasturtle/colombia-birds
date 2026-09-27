@@ -17,9 +17,9 @@ behavior: "Кормится стайками на лугах и пастбища
 voice: "Тихое горловое «рик-рак» в гнездовой колонии; в остальное время почти молчалива."
 traits:
   size: crow
-  colors: [white]
+  colors: [white, rufous]
   tone: dull
-  marks: [plain]
+  marks: [plain, bright_bill]
   bill: [short, thick]
   layer: [ground]
 sources:

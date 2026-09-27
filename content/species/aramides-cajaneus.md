@@ -16,10 +16,10 @@ similar:
 behavior: "Держится на земле в лесу, по берегам рек, в манграх и заболоченных зарослях, иногда взлетает на кусты и деревья. Пары вместе круглый год. Ест всё, от моллюсков до семян."
 voice: "Громкий ритмичный дуэт кудахтающих звуков, особенно на рассвете и в сумерках."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [gray, rufous, black]
   tone: dull
-  marks: []
+  marks: [cap, bright_bill]
   bill: medium
   layer: [ground, water]
 sources:

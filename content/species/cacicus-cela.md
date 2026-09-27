@@ -16,10 +16,10 @@ similar:
 behavior: "Гнездится колониями: гнёзда-мешки висят на отдельном дереве, часто рядом с осиным гнездом. Группы кормятся в кронах крупными насекомыми, пауками, плодами и нектаром."
 voice: "Очень шумный: самец поёт смесью флейтовых нот, кудахтанья, хрипов и подражаний; активную колонию слышно издалека."
 traits:
-  size: pigeon
+  size: [thrush, pigeon]
   colors: [black, yellow]
   tone: bright
-  marks: [rump_patch, long_tail]
+  marks: [rump_patch, long_tail, wing_patch, bright_bill]
   bill: long
   layer: [canopy, midstory]
 sources:

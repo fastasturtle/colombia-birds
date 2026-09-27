@@ -17,10 +17,10 @@ similar:
 behavior: "Смелый падальщик и охотник открытых мест: ходит по пастбищам и обочинам, ищет сбитых животных, насекомых, ящериц, разоряет гнёзда, отнимает добычу у других хищников. У падали вытесняет грифов."
 voice: "Сухое трескучее «кррр-кррр», иногда с запрокидыванием головы на спину."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [black, white]
   tone: bright
-  marks: [crest, bare_face, barred]
+  marks: [crest, bare_face, barred, cap, wing_patch]
   bill: [thick, hooked]
   layer: [ground, air]
 sources:

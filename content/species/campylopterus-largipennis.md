@@ -20,7 +20,7 @@ traits:
   size: hummingbird
   colors: [green, gray]
   tone: dull
-  marks: [plain]
+  marks: [plain, bright_bill]
   bill: [medium, curved]
   layer: [understory, midstory]
 sources:

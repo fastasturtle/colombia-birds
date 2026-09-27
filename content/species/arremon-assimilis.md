@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [olive, black, white]
   tone: bright
-  marks: [eyebrow]
+  marks: [eyebrow, cap]
   bill: medium
   layer: [ground, understory]
 sources:

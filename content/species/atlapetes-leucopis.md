@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [olive, black, rufous]
   tone: dull
-  marks: [eye_ring]
+  marks: [eye_ring, cap]
   bill: [short, thick]
   layer: [understory, ground]
 sources:

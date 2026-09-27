@@ -19,7 +19,7 @@ traits:
   size: sparrow
   colors: [olive, black, white]
   tone: bright
-  marks: [eyebrow]
+  marks: [eyebrow, cap, wing_patch, bright_bill]
   bill: medium
   layer: [ground, understory]
 sources:

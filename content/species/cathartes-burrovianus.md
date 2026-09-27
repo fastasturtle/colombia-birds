@@ -17,10 +17,10 @@ similar:
 behavior: "Падальщик открытых сырых мест: саванн, заливных лугов, болот, окраин мангров. Обыскивает траву в низком качающемся полёте, находя падаль по запаху и глазами; часто сидит на столбах. Крупные туши ему вскрывают другие грифы."
 voice: "Голосовых связок нет: изредка шипит и хрюкает у падали."
 traits:
-  size: larger
+  size: [crow, larger]
   colors: [black, orange]
   tone: dull
-  marks: [bare_face]
+  marks: [bare_face, wing_patch]
   bill: [hooked]
   layer: [air, ground]
 sources:

@@ -16,7 +16,7 @@ similar:
 behavior: "Скрытно лазает в густых кустах, бамбуке и эльфийском лесу у границы парамо, редко выходит на открытое. Часто держится парами."
 voice: "Высокая слабая трель, слегка ускоряется и поднимается; есть и песня из тройных нот «тидидит, тидидит»; позыв — резкое «пьик»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [brown, rufous, gray]
   tone: dull
   marks: [long_tail, throat_patch, eye_ring]

@@ -16,7 +16,7 @@ similar:
 behavior: "Тихо кормится на земле в подлеске и на плодоносящих деревьях в среднем ярусе, часто рядом со стаями танагр. Держится поодиночке, подолгу сидит неподвижно."
 voice: "На зимовке молчалив; позыв — мягкое «уит» или капающее «пуик»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [olive, brown, white]
   tone: dull
   marks: [eye_ring, spotted_breast]
