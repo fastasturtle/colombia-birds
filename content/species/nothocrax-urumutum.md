@@ -12,7 +12,6 @@ similar:
     how: "чёрный с белым брюхом и белым концом хвоста, клюв красный и массивный"
 behavior: "Кормится на земле на рассвете и в сумерках, днём отдыхает на деревьях, несмотря на название активна и днём. Поёт только ночью, чаще в ясные сухие ночи; иногда несколько птиц перекликаются."
 voice: "Ночная серия из низких гулких нот «хмм-хмм-хммм, хмм хмм-хммм, хммф!»."
-beginner_note: "Это вид, который скорее услышишь ночью, чем увидишь: попроси гида сводить на ночную прогулку."
 traits:
   size: larger
   colors: [rufous, brown, black]
@@ -35,7 +34,6 @@ en:
       how: "black with a white belly and white tail tip, heavy red bill"
   behavior: "Feeds on the ground at dawn and dusk and rests in trees by day; despite the name it is active in daylight too. Sings only at night, mostly on clear dry nights; several birds sometimes counter-sing."
   voice: "A nocturnal series of low resonant notes: 'hmm-hmm-hmmmm, hmm hmm-hmmm, hmmph!'."
-  beginner_note: "A species you are more likely to hear at night than see: ask the guide for a night walk."
 ---
 Nocturnal Curassow (красный гокко) — самый маленький из гокко, 50–57 см, и единственный с рыже-каштановым, а не чёрным оперением. Живёт в верхней Амазонии, во влажном лесу на твёрдой земле и в затопляемых лесах, обычно ниже 850 м, часто у рек с чёрной водой. Днём прячется, а поёт ночью, отсюда и название.
 

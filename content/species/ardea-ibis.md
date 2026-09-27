@@ -14,7 +14,6 @@ similar:
     how: "гораздо крупнее, с очень длинной шеей, клюв длинный жёлтый, ноги чёрные"
 behavior: "Кормится стайками на лугах и пастбищах, ловя насекомых, которых вспугивают коровы и лошади. Вечером большими стаями летит на общие ночёвки в деревьях у воды."
 voice: "Хриплые «рак» на ночёвках; в поле молчалива."
-beginner_note: "Белая цапля у коровы — почти всегда она; проверь короткий жёлтый клюв и сразу иди дальше."
 traits:
   size: crow
   colors: [white]
@@ -38,7 +37,6 @@ en:
       how: "much larger, with a very long neck, long yellow bill and black legs"
   behavior: "Feeds in small flocks on meadows and pastures, catching insects flushed by cattle and horses. In the evening flies in large flocks to communal roosts in trees near water."
   voice: "Harsh 'rack' notes at roosts; silent in the field."
-  beginner_note: "A white heron next to a cow is almost always this one; check the short yellow bill and move on."
 ---
 Western Cattle-Egret (египетская цапля) — выходец из Старого Света, который сам перебрался в Южную Америку в XIX веке и теперь обычен по всей Колумбии, от побережья до высокогорных пастбищ. Она не ждёт добычу в воде, как другие цапли, а ходит по траве за скотом и ловит вспугнутых насекомых.
 

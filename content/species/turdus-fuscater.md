@@ -14,7 +14,6 @@ similar:
     how: "мельче, светло-серовато-бурый, с тёмным клювом и пестринами на горле; держится ниже"
 behavior: "Смелый и шумный, кормится червями и плодами на земле в садах, парках и на пастбищах, при опасности с треском улетает в кусты. Обычен от городских кварталов Боготы до кустарников у парамо."
 voice: "Громкие тревожные «ку-ку-ку», трещащие крики и неспешная песня из свистов на рассвете."
-beginner_note: "Твой первый дрозд в Боготе: запомни его размер и оранжевый клюв, и сразу поймёшь, что Great Thrush действительно великан."
 traits:
   size: pigeon
   colors: [brown, orange]
@@ -38,7 +37,6 @@ en:
       how: "smaller, pale grayish-brown, with a dark bill and a streaked throat; keeps lower"
   behavior: "Bold and noisy; feeds on worms and fruit on the ground in gardens, parks and pastures and flies off chattering into bushes when alarmed. Common from Bogotá's city blocks to páramo shrubland."
   voice: "Loud alarm 'kuk-kuk-kuk', rattling calls and an unhurried whistled song at dawn."
-  beginner_note: "Your first thrush in Bogotá: memorise its size and orange bill and you will see that Great Thrush really is a giant."
 ---
 Great Thrush (большой дрозд) — самый крупный дрозд Анд, почти 30 см длиной, размером с голубя. Он обычен на высотах 1 300–4 200 м: в садах и парках Боготы, на пастбищах, в кустарниках и по краю парамо. Тёмно-бурое оперение без пятен, оранжевые клюв и ноги и крупный размер определяют его сразу.
 

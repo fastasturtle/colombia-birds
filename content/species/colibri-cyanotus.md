@@ -14,7 +14,6 @@ similar:
     how: "бурый, а не зелёный, с беловатыми усами и блестящим сине-зелёным горлом"
 behavior: "Держится на опушках, в садах и кустарниках; кормится на цветах в среднем ярусе и заходит на кормушки. Самцы подолгу поют с одной присады."
 voice: "Сухое монотонное «чип-чирип», повторяемое как метроном."
-beginner_note: "Если рядом сидит Sparkling Violetear, сравни их бок о бок: этот мельче и без синего на брюхе."
 traits:
   size: hummingbird
   colors: [green, purple]
@@ -38,7 +37,6 @@ en:
       how: "brown rather than green, with whitish malar stripes and a glittering blue-green throat"
   behavior: "Keeps to edges, gardens and shrubland; feeds at flowers in the midstory and visits feeders. Males sing for long spells from one perch."
   voice: "A dry, monotonous 'chip-chirip', repeated like a metronome."
-  beginner_note: "If a Sparkling Violetear sits nearby, compare them side by side: this one is smaller and has no blue on the belly."
 ---
 Lesser Violetear (зеленогрудый фиалкоух) — младший брат Sparkling Violetear: той же расцветки, но заметно мельче, и фиолетовое у него только на ухе. Держится ниже, на высотах 600–3 000 м, чаще на опушках и в садах, чем на открытых склонах.
 

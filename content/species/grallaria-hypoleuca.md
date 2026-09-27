@@ -14,7 +14,6 @@ similar:
     how: "крупнее, тёмная, низ серый, каштановый только затылок; держится выше, в бамбуке"
 behavior: "Скрывается в густом подлеске и на заросших склонах, по земле передвигается прыжками. На кормушках с червями быстро привыкает к людям и выходит на зов."
 voice: "Серия из трёх чистых свистов, первый длиннее, два следующих короче и выше."
-beginner_note: "На кормушке в Ла-Дримофиле не спеши с фото: дай птице спокойно подойти и рассмотри белое брюхо и серые бока."
 traits:
   size: thrush
   colors: [rufous, white, gray]
@@ -39,7 +38,6 @@ en:
       how: "larger and darker with gray underparts, chestnut only on the nape; keeps higher, in bamboo"
   behavior: "Hides in dense understory and overgrown slopes and moves on the ground in bounds. At worm feeders it quickly gets used to people and comes when called."
   voice: "A series of three clear whistles, the first longer, the next two shorter and higher."
-  beginner_note: "At the La Drymophila feeder, don't rush the photos: let the bird come in and study the white belly and gray sides."
 ---
 White-bellied Antpitta (светлобрюхая питтовая муравьеловка) живёт в облачном лесу и на заросших вырубках на высотах 1 400–2 450 м. Окраска простая, но надёжная: рыже-бурый верх, серые бока груди и белое брюхо без единой пестрины. В лесу её почти всегда только слышно.
 

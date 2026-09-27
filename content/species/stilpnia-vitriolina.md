@@ -14,7 +14,6 @@ similar:
     how: "ярко-синяя голова, чёрное тело с золотистым плечом"
 behavior: "Парами и семейными группами обыскивает кусты, плодовые деревья и живые изгороди. Часто прилетает на фруктовые кормушки в садах и на фермах."
 voice: "Тонкие высокие «цит» и сухой щебет."
-beginner_note: "Если в саду у дома кормится бледная танагра с рыжей шапкой и чёрной маской, это она; в лесу её почти нет."
 traits:
   size: sparrow
   colors: [green, rufous, gray]
@@ -38,7 +37,6 @@ en:
       how: "bright blue head, black body with a golden shoulder"
   behavior: "Pairs and family groups search shrubs, fruit trees and hedgerows. Often visits fruit feeders in gardens and on farms."
   voice: "Thin high 'tsit' notes and dry twittering."
-  beginner_note: "If a pale tanager with a rufous cap and black mask feeds in a garden by the house, it is this one; it hardly enters forest."
 ---
 Scrub Tanager (кустарниковая танагра) — небольшая бледная танагра сухих склонов, садов и кустарников на высотах 500–2 500 м; почти весь её ареал — Колумбия и север Эквадора. Рыжая шапочка и чёрная маска на серебристо-зелёном фоне запоминаются с первого раза.
 

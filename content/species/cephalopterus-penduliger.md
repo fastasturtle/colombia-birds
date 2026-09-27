@@ -12,7 +12,6 @@ similar:
     how: "серёжка короткая, в хохле видны белые стержни перьев; живёт на восточном склоне и в Амазонии"
 behavior: "Кормится крупными плодами в кронах и среднем ярусе, иногда ловит ящериц и крупных насекомых. Самцы собираются на токах, раздувают хохол и распускают серёжку, издавая низкие гудящие звуки."
 voice: "Низкое глухое гудение «муууу», как далёкая корова."
-beginner_note: "Если видишь в кроне чёрную «ворону» с пышной шапкой, остановись: под клювом должна висеть серёжка."
 traits:
   size: crow
   colors: [black]
@@ -35,7 +34,6 @@ en:
       how: "short wattle, white feather shafts in the crest; lives on the east slope and in Amazonia"
   behavior: "Feeds on large fruit in the canopy and midstory, sometimes taking lizards and large insects. Males gather at leks, raising the crest and lowering the wattle while giving low booming sounds."
   voice: "A low hollow booming 'mooo', like a distant cow."
-  beginner_note: "If you see a black 'crow' with a bushy cap in the canopy, stop: there should be a wattle hanging below the bill."
 ---
 Long-wattled Umbrellabird (эквадорская зонтичная птица) — крупная чёрная котинга Чоко, от юго-запада Колумбии до юга Эквадора, на высотах до 1 800 м. Самец носит хохол-зонтик и оперённую серёжку на груди, которая в покое свисает до 30 см; у самок серёжка крошечная или её нет. Вид уязвимый (VU) из-за вырубки предгорного леса.
 

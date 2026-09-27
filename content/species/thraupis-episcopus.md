@@ -14,7 +14,6 @@ similar:
     how: "ярко-синяя только голова, тело оливково-зелёное, держится в горном лесу"
 behavior: "Шумными парами и группами кормится на плодах и насекомых в садах, на опушках и в кронах; постоянно на виду. Смело прилетает на фруктовые кормушки вместе с Palm Tanager."
 voice: "Высокий писклявый щебет и сухие «цип», песня быстрая и скрипучая."
-beginner_note: "Самая обычная танагра Колумбии: выучи её, и каждая другая танагра будет «не такая, как сине-серая»."
 traits:
   size: sparrow
   colors: [blue, gray]
@@ -38,7 +37,6 @@ en:
       how: "bright blue only on the head, body olive-green, keeps to montane forest"
   behavior: "Noisy pairs and small groups feed on fruit and insects in gardens, edges and canopy, always in view. Comes boldly to fruit feeders together with Palm Tanager."
   voice: "High squeaky twittering and dry 'tsip' notes; the song is fast and creaky."
-  beginner_note: "The commonest tanager in Colombia: learn it, and every other tanager becomes 'not like the Blue-gray'."
 ---
 Blue-gray Tanager (сине-серая танагра) — самая обычная танагра страны, от уровня моря до 1 800 м и выше вдоль дорог и посёлков. Она держится на виду, в садах и на опушках, на проводах и фруктовых кормушках, поэтому её полезно знать как точку отсчёта: размер, форма клюва и поведение типичной танагры.
 

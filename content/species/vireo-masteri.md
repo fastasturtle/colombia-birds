@@ -14,7 +14,6 @@ similar:
     how: "серая шапочка и белая бровь с чёрной каймой, полос на крыле нет, глаз красный"
 behavior: "Обыскивает нижнюю сторону листьев в кронах и под пологом, иногда повисая вниз головой. Обычно держится поодиночке или парой в микст-флоке с танаграми и мухоловками."
 voice: "Быстрая повторяющаяся фраза из нескольких чистых нот, похожая на песни других виреонов."
-beginner_note: "Это задача для опытного глаза: сначала найди микст-флок, потом ищи оливковую птичку с двумя белыми полосами на крыле."
 traits:
   size: sparrow
   colors: [olive, yellow, white]
@@ -39,7 +38,6 @@ en:
       how: "gray cap and a white, black-bordered eyebrow, no wing bars, red eye"
   behavior: "Gleans the undersides of leaves in the canopy and subcanopy, sometimes hanging upside down. Usually single or in pairs with mixed flocks of tanagers and flycatchers."
   voice: "A fast repeated phrase of a few clear notes, like the songs of other vireos."
-  beginner_note: "A job for an experienced eye: first find a mixed flock, then look for an olive bird with two white wing bars."
 ---
 Choco Vireo (чокский виреон) — редкая птица Чоко, известная лишь из нескольких мест от Колумбии до северо-запада Эквадора; вид под угрозой (EN). Живёт в сыром, увешанном мхом и эпифитами облачном лесу на высотах 1 200–2 100 м. Двумя белыми полосами на крыле он отличается от других виреонов маршрута, у которых таких полос нет.
 

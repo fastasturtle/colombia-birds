@@ -20,7 +20,6 @@ const en = card.en;
 <section class="sc">
   <h2>Как узнать <span class:list={['diff', card.difficulty]}>{DIFFICULTY_RU[card.difficulty]}</span></h2>
   <ul class="kf">{card.key_features.map((f) => <li>{f}</li>)}</ul>
-  <p class="novice"><b>Для новичка.</b> {card.beginner_note}</p>
   {card.body.map((p) => <p>{p}</p>)}
 
   {card.similar.length > 0 && (
@@ -54,7 +53,6 @@ const en = card.en;
     <summary>English</summary>
     <h3>How to recognise</h3>
     <ul class="kf">{en.key_features.map((f) => <li>{f}</li>)}</ul>
-    <p class="novice"><b>For beginners.</b> {en.beginner_note}</p>
     {en.body.map((p) => <p>{p}</p>)}
     {en.similar.length > 0 && (
       <>
@@ -75,7 +73,6 @@ const en = card.en;
   .diff.hard { color: var(--accent-2); }
   .kf { margin: 0 0 10px; padding-left: 1.2em; }
   .kf li { margin: 2px 0; }
-  .novice { background: var(--chip); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; padding: 8px 12px; margin: 10px 0 12px; }
   .sim { list-style: none; padding: 0; margin: 0; }
   .sim li { display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--line); }
   .sim li p { margin: 0; flex: 1; min-width: 0; }

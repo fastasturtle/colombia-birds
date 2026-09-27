@@ -14,7 +14,6 @@ similar:
     how: "жёлтая только голова с чёрной маской, тело сине-зелёное"
 behavior: "Ядро микст-флоков предгорного и облачного леса: быстро перебирается по веткам в кронах и на опушках, обыскивая мох и ягоды. Иногда спускается к фруктовым кормушкам."
 voice: "Сухие высокие «цит» в стае; песня — быстрая трель из тонких нот."
-beginner_note: "Когда над головой идёт стайка танагр, начинай с неё: золотая птица с чёрным ухом видна первой."
 traits:
   size: sparrow
   colors: [yellow, black]
@@ -38,7 +37,6 @@ en:
       how: "only the head is yellow, with a black mask; body blue-green"
   behavior: "A core member of foothill and cloud-forest mixed flocks: moves quickly through branches in the canopy and along edges, searching moss and berries. Sometimes comes down to fruit feeders."
   voice: "Dry high 'tsit' notes in the flock; the song is a fast trill of thin notes."
-  beginner_note: "When a tanager flock passes overhead, start with this one: the golden bird with a black ear shows first."
 ---
 Golden Tanager (золотая танагра) — одна из самых обычных и заметных танагр предгорий и нижнего облачного леса, на высотах 1 000–1 500 м, изредка до 2 500 м. Золотисто-жёлтая окраска с чёрным ушным пятном и чёрными крыльями делает её хорошим «якорем» микст-флока: нашёл её — рядом ищи остальных.
 

@@ -16,7 +16,6 @@ similar:
     how: "молодые белые, но клюв серо-голубой с тёмным концом, ноги зеленоватые, лапы не жёлтые"
 behavior: "Охотится на мелководье, пробегая, взмахивая крыльями и шевеля жёлтой лапой, чтобы вспугнуть рыбок. Держится поодиночке или небольшими группами на лагунах, в манграх и на берегах рек."
 voice: "Хриплое гортанное «ааргх» при взлёте и в стычках."
-beginner_note: "Смотри на ноги: чёрные с жёлтыми лапами — Snowy Egret, это видно даже издалека."
 traits:
   size: larger
   colors: [white]
@@ -42,7 +41,6 @@ en:
       how: "immatures are white, but the bill is blue-gray with a dark tip, legs greenish and feet not yellow"
   behavior: "Hunts in shallows, dashing about, flicking its wings and stirring with a yellow foot to flush small fish. Single or in small groups on lagoons, mangroves and riverbanks."
   voice: "A harsh guttural 'aargh' on take-off and in squabbles."
-  beginner_note: "Look at the legs: black with yellow feet means Snowy Egret, visible even at a distance."
 ---
 Snowy Egret (снежная цапля) — стройная белая цапля побережий, лагун и речных берегов, обычная в Колумбии от уровня моря до 1 300 м. От других белых цапель её отличает сочетание тонкого чёрного клюва и чёрных ног с ярко-жёлтыми лапами. Охотится активно: бегает по мелководью и шевелит лапой, выгоняя рыбок из ила.
 

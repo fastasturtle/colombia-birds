@@ -14,7 +14,6 @@ similar:
     how: "низ ровный охристый без пестрин, живёт на открытом парамо"
 behavior: "Скрытная земляная птица: прыгает по лесной подстилке, замирает, переворачивает листья. Поёт с низкой ветки или с земли, особенно на рассвете."
 voice: "Три чистых свиста, средний выше: колумбийцы слышат в нём «ком-пра-пан» («купи хлеба»)."
-beginner_note: "Сначала выучи её песню: «ком-пра-пан» звучит на многих локациях, а увидеть птицу удаётся гораздо реже."
 traits:
   size: thrush
   colors: [rufous, olive, white]
@@ -38,7 +37,6 @@ en:
       how: "plain tawny underparts without streaks, lives on open páramo"
   behavior: "A secretive ground bird: hops over leaf litter, freezes, flips leaves. Sings from a low branch or the ground, especially at dawn."
   voice: "Three clear whistles with the middle one highest; Colombians hear it as 'com-pra-pan' ('buy bread')."
-  beginner_note: "Learn the song first: 'com-pra-pan' rings out at many sites, while seeing the bird is much rarer."
 ---
 Chestnut-crowned Antpitta (рыжешапочная питтовая муравьеловка) — одна из самых распространённых антпитт Анд, от 1 200 до 3 450 м. Живёт в облачном лесу, на вырубках, в бамбуке и даже в зарослях у пастбищ, поэтому её песню слышно почти на каждой горной локации. Каштановая голова и белая грудь в крупных пестринах отличают её от других антпитт маршрута.
 

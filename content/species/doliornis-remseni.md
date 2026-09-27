@@ -12,7 +12,6 @@ similar:
     how: "серая, без рыжего брюха, клюв светлый, на хвосте белая полоса; обычна ниже и шире"
 behavior: "Держится в низкорослом лесу и кустарниках у границы леса, кормится ягодами кустарников. Часто сидит открыто на верхушке куста, но надолго не задерживается."
 voice: "Хриплое одиночное «ррреэ», повторяемое с промежутками."
-beginner_note: "Это одна из самых желанных птиц Бордонсильо: любая тёмная птица на верхушке куста у парамо стоит проверки на рыжее брюхо."
 traits:
   size: thrush
   colors: [black, gray, rufous]
@@ -35,7 +34,6 @@ en:
       how: "gray, without a rufous belly, pale bill, white band on the tail; commoner lower and more widespread"
   behavior: "Keeps to stunted woodland and shrubs at treeline, feeding on shrub berries. Often perches in the open on a bush top but does not stay long."
   voice: "A raspy single 'rrreh', repeated at intervals."
-  beginner_note: "One of the most wanted birds of Bordoncillo: any dark bird on a bush top near the páramo is worth checking for a rufous belly."
 ---
 Chestnut-bellied Cotinga (каштановогрудая котинга) — редкая котинга верхней границы леса, описанная науке только в 1994 году. В Колумбии известна из немногих мест на юге, в Путумайо и Нариньо, на высотах около 3 100–3 650 м; вид уязвимый (VU). Живёт в низкорослом лесу и кустарниках на переходе к парамо и питается ягодами.
 

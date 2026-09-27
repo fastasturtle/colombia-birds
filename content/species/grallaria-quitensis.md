@@ -14,7 +14,6 @@ similar:
     how: "грудь белая с тёмными пестринами, голова каштановая, живёт в лесу ниже парамо"
 behavior: "Прыгает по траве и мху между кочками, замирает и покачивается, часто поёт с открытой кочки или камня. Пугливость умеренная: если стоять тихо, продолжает кормиться в нескольких метрах."
 voice: "Громкий короткий свист из трёх нот, повторяется с паузами, далеко слышен над парамо."
-beginner_note: "Самая «лёгкая» антпитта тура: ищи рыжеватый шарик на ножках на кочках вдоль дороги через парамо Бордонсильо."
 traits:
   size: thrush
   colors: [brown, rufous]
@@ -38,7 +37,6 @@ en:
       how: "white breast with dark streaks, chestnut head, lives in forest below the páramo"
   behavior: "Bounds over grass and moss between tussocks, pauses and bobs, often sings from an exposed tussock or rock. Fairly confiding: stand still and it keeps feeding a few metres away."
   voice: "A loud, short three-note whistle, repeated after pauses and carrying far over the páramo."
-  beginner_note: "The easiest antpitta of the trip: look for a tawny ball on legs on the tussocks along the road across Páramo de Bordoncillo."
 ---
 Tawny Antpitta — антпитта открытого парамо и кустарников у верхней границы леса, от 2 800 до 4 500 м. В отличие от лесных родственников, она не прячется в подлеске: стоит на кочках, камнях и обочинах, поёт на виду и спокойно даёт себя рассмотреть. Окраска скромная и ровная, без пестрин и пятен, поэтому главное — силуэт и место.
 

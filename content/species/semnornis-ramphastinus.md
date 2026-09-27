@@ -14,7 +14,6 @@ similar:
     how: "гораздо крупнее, с длинным клювом тукана и голубовато-серым низом, без красной груди"
 behavior: "Парами и семейными группами сидит в кронах и на опушках, кормится плодами и крупными насекомыми. Регулярно прилетает на фруктовые кормушки лоджей."
 voice: "Громкий звучный дуэт из низких гудящих «хонк-хонк», который пара выкрикивает по очереди."
-beginner_note: "Одна из самых фотогеничных птиц западного склона: на кормушке с бананами сиди тихо, и она подлетит на пару метров."
 traits:
   size: thrush
   colors: [gray, red, yellow]
@@ -38,7 +37,6 @@ en:
       how: "much larger, with a long toucan bill and blue-gray underparts, no red breast"
   behavior: "Pairs and family groups sit in the canopy and along edges, eating fruit and large insects. Comes regularly to lodge fruit feeders."
   voice: "A loud resonant duet of low honking 'honk-honk' notes given alternately by the pair."
-  beginner_note: "One of the most photogenic birds of the west slope: sit still at a banana feeder and it will come within a couple of metres."
 ---
 Toucan Barbet (тукановая бородатка) — бородатка облачного леса западного склона Анд, от юго-запада Колумбии до Эквадора, на высотах 1 000–2 400 м. Яркая и контрастная: чёрная маска, голубовато-серое лицо, красная грудь и массивный клюв. Близкий к уязвимому вид (NT) из-за вырубки лесов и отлова для торговли птицами.
 

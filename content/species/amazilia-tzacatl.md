@@ -14,7 +14,6 @@ similar:
     how: "синяя шапочка и тёмно-синий хвост; эндемик Колумбии, держится в долине Магдалены"
 behavior: "Смелый и драчливый: отстаивает цветущий куст или кормушку и с треском отгоняет соперников. Кормится на любой высоте, от низких цветов до крон."
 voice: "Сухие щелчки и трескучее «цк-цк-цк» во время стычек."
-beginner_note: "Один из самых частых колибри тура: увидел рыжий хвост и красный клюв — отметь и иди дальше."
 traits:
   size: hummingbird
   colors: [green, rufous]
@@ -38,7 +37,6 @@ en:
       how: "blue cap and dark blue tail; a Colombian endemic of the Magdalena valley"
   behavior: "Bold and quarrelsome: defends a flowering shrub or feeder and chases rivals with a rattle. Feeds at any height, from low flowers to the canopy."
   voice: "Dry clicks and a rattling 'tsk-tsk-tsk' during chases."
-  beginner_note: "One of the commonest hummingbirds of the trip: rufous tail plus red bill, tick it and move on."
 ---
 Rufous-tailed Hummingbird (рыжехвостая амазилия) — обычный колибри открытых мест от уровня моря до 2 500 м. Он хорошо переносит соседство с человеком: живёт в садах, на плантациях, по опушкам и почти всегда первым находит кормушку. Сочетание рыжего хвоста и красного клюва с чёрным кончиком делает его одним из самых простых колибри для определения.
 

@@ -77,7 +77,6 @@ export interface CardText {
   similar: { id: string; how: string }[];
   behavior: string;
   voice: string;
-  beginner_note: string;
   body: string[];
 }
 export interface SpeciesCard extends CardText {
@@ -103,6 +102,7 @@ function parseCard(file: string, data: Record<string, any>, content: string, kno
     return v.trim();
   };
   const text = (o: Record<string, any>, body: string, pre: string): CardText => {
+    if ('beginner_note' in o) throw fail(`${pre}beginner_note was removed (27.09): put beginner tips into the body text`);
     const kf = o.key_features;
     if (!Array.isArray(kf) || kf.length < 3 || kf.length > 5) throw fail(`${pre}key_features must list 3–5 strings`);
     const sim = o.similar ?? [];
@@ -117,7 +117,6 @@ function parseCard(file: string, data: Record<string, any>, content: string, kno
       }),
       behavior: str(o.behavior, `${pre}behavior`),
       voice: str(o.voice, `${pre}voice`),
-      beginner_note: str(o.beginner_note, `${pre}beginner_note`),
       body: paragraphs(body),
     };
   };

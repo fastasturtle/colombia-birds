@@ -14,7 +14,6 @@ similar:
     how: "почти вся ярко-синяя, с чёрной маской и крыльями"
 behavior: "Кормится парами или в составе микст-флоков в кронах и на опушках, склёвывая ягоды и обыскивая ветки. Заходит на фруктовые кормушки."
 voice: "Тонкие высокие «ци-ци» и шипящий щебет."
-beginner_note: "В стайке танагр ищи самую бледную с чёрной шапкой: самка будет рядом, зелёная, и её легко пропустить."
 traits:
   size: sparrow
   colors: [black, blue, gray]
@@ -38,7 +37,6 @@ en:
       how: "almost entirely bright blue, with black mask and wings"
   behavior: "Feeds in pairs or with mixed flocks in the canopy and along edges, picking berries and searching twigs. Visits fruit feeders."
   voice: "Thin high 'tsee-tsee' notes and a hissing twitter."
-  beginner_note: "In a tanager flock look for the palest one with a black cap: the female will be nearby, green and easy to overlook."
 ---
 Black-capped Tanager (сиреневоспинная танагра) — танагра горного леса и опушек на высотах 1 000–2 700 м. Самец с чёрной шапочкой и бледной голубовато-серебристой окраской кажется почти белёсым на фоне листвы, а зелёную самку легко принять за другой вид.
 

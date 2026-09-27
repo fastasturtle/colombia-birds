@@ -14,7 +14,6 @@ similar:
     how: "мельче, почти целиком зелёный, клюв чёрно-жёлтый"
 behavior: "Держится парами и небольшими группами в кронах, кормится плодами и перелетает между деревьями короткими планирующими бросками. Часто сидит открыто на верхушках и громко перекликается."
 voice: "Громкие гнусавые повторяющиеся крики, похожие на кряканье; самцы и самки звучат по-разному."
-beginner_note: "Клюв с жёлтой «пластинкой» не спутаешь ни с чем: если его видно, определение готово."
 traits:
   size: crow
   colors: [blue, black, yellow]
@@ -39,7 +38,6 @@ en:
       how: "smaller, almost entirely green, black-and-yellow bill"
   behavior: "Keeps in pairs and small groups in the canopy, eating fruit and moving between trees in short gliding hops. Often perches in the open on treetops and calls loudly."
   voice: "Loud nasal repeated calls like quacking; males and females sound different."
-  beginner_note: "The bill with a yellow 'plate' is unmistakable: if you can see it, you are done."
 ---
 Plate-billed Mountain-Toucan (плоскоклювый перцеяд) — горный тукан западного склона Анд, от крайнего юго-запада Колумбии (Нариньо) до Эквадора. Живёт в сыром облачном лесу, богатом эпифитами и мхом, на высотах 1 300–2 500 м. Название дано по жёлтой приподнятой пластинке на основании надклювья: у других туканов её нет. Вид близок к уязвимому (NT).
 

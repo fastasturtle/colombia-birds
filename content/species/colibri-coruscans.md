@@ -14,7 +14,6 @@ similar:
     how: "бурый, а не зелёный, с беловатыми усами; фиолетовое пятно на ухе маленькое, горло блестит сине-зелёным"
 behavior: "Шумный и драчливый: захватывает цветущие кусты и кормушки и гоняет всех колибри мельче себя. Самцы подолгу сидят на верхушках кустов и деревьев, иногда взмывают вверх и падают с раскрытым хвостом."
 voice: "Громкое металлическое «чип-чип-чип», которое повторяется минутами с одной и той же присады."
-beginner_note: "Первый колибри, которого ты увидишь в Боготе и на кормушках: запомни его как эталон «крупный зелёный с фиолетовым ухом»."
 traits:
   size: hummingbird
   colors: [green, purple, blue]
@@ -38,7 +37,6 @@ en:
       how: "brown rather than green, with whitish malar stripes; small violet ear patch and a glittering blue-green throat"
   behavior: "Noisy and pugnacious: takes over flowering shrubs and feeders and chases every smaller hummingbird. Males sit for long spells on treetops and bush tops, sometimes shooting up and diving with the tail spread."
   voice: "A loud metallic 'chip-chip-chip', repeated for minutes from the same perch."
-  beginner_note: "The first hummingbird you will see in Bogotá and at feeders: learn it as the benchmark 'big green one with a violet ear'."
 ---
 Sparkling Violetear (сверкающий фиалкоух) — самый заметный колибри Анд: крупный, шумный и почти вездесущий на высотах 1 700–4 500 м, от садов Боготы до края парамо. Отличить его просто: фиолетово-синее пятно тянется от глаза до подбородка, а на брюхе есть второе синее пятно.
 

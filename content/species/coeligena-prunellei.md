@@ -14,7 +14,6 @@ similar:
     how: "ярко-зелёный с золотистым брюхом, а не чёрный"
 behavior: "Облетает по кругу цветущие растения в дубовом облачном лесу, кормится в среднем ярусе и низко на опушках. Может заходить на кормушки и в фрагменты леса у жилья."
 voice: "Короткие сухие «цик» у цветов и на лету; песни, которую стоит учить, нет."
-beginner_note: "В тени леса он выглядит просто чёрным: ищи два белых пятна на груди, и это уже почти определение."
 traits:
   size: hummingbird
   colors: [black, white, blue]
@@ -39,14 +38,13 @@ en:
       how: "bright green with a golden belly, not black"
   behavior: "Trap-lines flowering plants in oak cloud forest, feeding at mid-levels inside and low at edges. May visit feeders and forest fragments near houses."
   voice: "Short dry 'tsik' notes at flowers and in flight; no song worth learning."
-  beginner_note: "In forest shade it just looks black: find the two white breast patches and you are nearly done."
 ---
 Black Inca (чёрный инка) — эндемик Колумбии, живёт только на западном склоне Восточной Кордильеры, на высотах 1 200–2 800 м, в основном во влажном дубовом лесу. Вид уязвимый (VU), и Чикаке под Боготой — одно из немногих доступных мест, где его реально увидеть.
 
-По данным плана он «возможно» в Чикаке 3, 23 и 24 октября. Ищи его у цветущих кустов с трубчатыми красными и жёлтыми цветками вдоль троп: инка прилетает по одному и тому же маршруту и возвращается к тем же цветам через несколько минут. Самки похожи на самцов, но тусклее и с менее вырезанным хвостом.
+По данным плана он «возможно» в Чикаке 3, 23 и 24 октября. Ищи его у цветущих кустов с трубчатыми красными и жёлтыми цветками вдоль троп: инка прилетает по одному и тому же маршруту и возвращается к тем же цветам через несколько минут. В тени леса он кажется просто чёрным: первыми бросаются в глаза белые пятна по бокам груди. Самки похожи на самцов, но тусклее и с менее вырезанным хвостом.
 
 ## English
 
 Black Inca is a Colombian endemic found only on the west slope of the Eastern Andes at 1,200–2,800 m, mostly in humid oak forest. It is Vulnerable (VU), and Chicaque near Bogotá is one of the few accessible places to see it.
 
-The plan rates it "maybe" at Chicaque on 3, 23 and 24 October. Look for it at flowering shrubs with tubular red and yellow flowers along the trails: the inca follows the same circuit and returns to the same flowers every few minutes. Females look like males but are duller, with a less forked tail.
+The plan rates it "maybe" at Chicaque on 3, 23 and 24 October. Look for it at flowering shrubs with tubular red and yellow flowers along the trails: the inca follows the same circuit and returns to the same flowers every few minutes. In forest shade it looks plain black, and the white patches on the breast sides are what catch the eye first. Females look like males but are duller, with a less forked tail.

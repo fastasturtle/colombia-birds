@@ -14,7 +14,6 @@ similar:
     how: "ярко-золотистая с чёрным ухом, а не серо-оливковая"
 behavior: "Кормится парами и группами в кронах, садах и на пальмах, обыскивая листья снизу. Охотно прилетает на фруктовые кормушки и часто держится вместе с Blue-gray Tanager."
 voice: "Быстрое писклявое щебетание, похожее на Blue-gray Tanager, но резче."
-beginner_note: "В полёте смотри на крыло: светлое плечо и чёрный край выдают её даже без бинокля."
 traits:
   size: sparrow
   colors: [olive, gray, black]
@@ -38,14 +37,13 @@ en:
       how: "bright golden with a black ear patch, not grayish-olive"
   behavior: "Feeds in pairs and groups in the canopy, gardens and on palms, searching the undersides of leaves. Comes readily to fruit feeders and often travels with Blue-gray Tanager."
   voice: "Fast squeaky twittering, like Blue-gray Tanager but sharper."
-  beginner_note: "In flight watch the wing: the pale shoulder and black trailing half give it away even without binoculars."
 ---
 Palm Tanager (пальмовая танагра) — вечный спутник Blue-gray Tanager: та же форма, то же поведение, но окраска серо-оливковая, без голубого. Живёт от уровня моря до 1 300 м, выше встречается реже. Как видно из названия, любит пальмы, но так же обычна в садах, на плантациях и по опушкам.
 
-На маршруте она «точно» будет в Уиле, Путумайо (Пуэрто-Асис, Орито, Плайя-Рика), Ла-Планаде и Плайя-дель-Морро. Там, где кормятся обе танагры, сравни их крылья: у Palm Tanager чёрная задняя половина крыла резко контрастирует со светлыми кроющими.
+На маршруте она «точно» будет в Уиле, Путумайо (Пуэрто-Асис, Орито, Плайя-Рика), Ла-Планаде и Плайя-дель-Морро. Там, где кормятся обе танагры, сравни их крылья: у Palm Tanager чёрная задняя половина крыла резко контрастирует со светлыми кроющими, и в полёте это видно даже без бинокля.
 
 ## English
 
 Palm Tanager is the constant companion of Blue-gray Tanager: the same shape and behaviour, but grayish-olive with no blue. It lives from sea level to 1,300 m and is scarcer higher up. As the name says it likes palms, but it is just as common in gardens, plantations and along edges.
 
-On the route it is "sure" in Huila, Putumayo (Puerto Asís, Orito, Playa Rica), La Planada and Playa del Morro. Where both tanagers feed together, compare the wings: in Palm Tanager the black rear half contrasts sharply with the pale coverts.
+On the route it is "sure" in Huila, Putumayo (Puerto Asís, Orito, Playa Rica), La Planada and Playa del Morro. Where both tanagers feed together, compare the wings: in Palm Tanager the black rear half contrasts sharply with the pale coverts, visible in flight even without binoculars.

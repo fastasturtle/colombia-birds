@@ -14,7 +14,6 @@ similar:
     how: "хвост тоже очень длинный, но чёрный, клюв тоньше; держится выше, у парамо"
 behavior: "Кормится в среднем ярусе и на опушках, часто зависает, раскачивая длинным хвостом. Охотно прилетает на кормушки, но держится скромнее фиалкоухов."
 voice: "Сухие трескучие «тррт» и резкие одиночные «цзит»."
-beginner_note: "Самца с хвостом-вилкой почти вдвое длиннее тела не спутаешь; самку узнавай по белому горлу и рыжему брюху."
 traits:
   size: hummingbird
   colors: [green, blue, rufous]
@@ -38,7 +37,6 @@ en:
       how: "also very long-tailed, but the tail is black and the bill thinner; keeps higher, near páramo"
   behavior: "Feeds in the midstory and along edges, often hovering with the long tail swinging. Comes readily to feeders but is less pushy than the violetears."
   voice: "Dry rattling 'trrt' notes and sharp single 'tzit' calls."
-  beginner_note: "A male with a forked tail nearly twice the body length is unmistakable; know the female by her white throat and rufous belly."
 ---
 Long-tailed Sylph (небесный сильф) — колибри облачного леса и опушек на высотах 900–3 000 м. Самец с длинным сине-зелёным хвостом-вилкой — одна из самых эффектных птиц на кормушках, а самка с белым горлом и рыжим брюхом выглядит совсем иначе, и её часто принимают за другой вид.
 

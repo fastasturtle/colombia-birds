@@ -14,7 +14,6 @@ similar:
     how: "чёрная с голубовато-серым плечом, без синего"
 behavior: "Прокалывает крючковатым клювом основание цветка и пьёт нектар «с чёрного хода», не опыляя растение. Часто ходит в микст-флоках с танаграми по опушкам."
 voice: "Быстрая звонкая щебечущая трель, часто с высокими писклявыми нотами."
-beginner_note: "Синяя птица с чёрной маской и красным глазом у цветущих кустов — самый простой цветокол тура."
 traits:
   size: sparrow
   colors: [blue, black]
@@ -38,7 +37,6 @@ en:
       how: "black with a bluish-gray shoulder, no blue"
   behavior: "Pierces the base of a flower with its hooked bill and drinks nectar 'through the back door' without pollinating it. Often joins mixed flocks with tanagers along edges."
   voice: "A fast ringing twittering trill, often with high squeaky notes."
-  beginner_note: "A blue bird with a black mask and red eye at flowering shrubs is the easiest flowerpiercer of the trip."
 ---
 Masked Flowerpiercer (масковый цветокол) — самый заметный цветокол Анд, на высотах 1 800–3 600 м. Цветоколы — танагры, которые «воруют» нектар: крючком на клюве они прокалывают трубку цветка сбоку. У этого вида глубокая синяя окраска, чёрная маска и красный глаз, и с другими цветоколами его трудно спутать.
 
