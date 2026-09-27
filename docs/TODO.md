@@ -32,8 +32,7 @@
 
 ## Сайт
 - [x] Кнопка «сообщить об ошибке»: `worker/` + `.github/workflows/worker.yml` + `site/src/components/ReportButton.svelte` (скилл `.claude/skills/error-reports`)
-  - [ ] Запустить workflow «Deploy report Worker», затем задать репо-переменную `PUBLIC_REPORT_URL=<url из summary>/report` и перезапустить деплой сайта; проверить реальный POST (issue должен появиться)
-- [ ] Интеграция с книгой Lynx «Birds of Colombia»: ждём фото указателя от владельца (припарковано)
+  - [ ] Интеграция с книгой Lynx «Birds of Colombia»: ждём фото указателя от владельца (припарковано)
 - [x] Фото на весь экран по тапу (лайтбокс, свайп, Esc), к источнику только по явной ссылке
 - [x] Каркас Astro 7 + Svelte: семейства, список видов с поиском и фильтрами, карточка вида, маршрут с картой и профилем высот
 - [ ] Деплой на GitHub Pages (workflow готов, нужно: Settings → Pages → Source = GitHub Actions, слить в main)
