@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import SpeciesFace from '../../components/SpeciesFace.astro';
 import { families, groups, speciesIndex, representativeSpecies, plural, orderRu, type Group } from '@lib/data';
+import { groupContent } from '@lib/content';
+import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
   return groups().map((g) => ({ params: { id: g.id }, props: { group: g } }));
 }
@@ -15,12 +17,55 @@ const fams = group.families.map((c) => {
 });
 const total = fams.reduce((a, x) => a + x.n, 0);
 const base = import.meta.env.BASE_URL;
+const gc = groupContent(group.id);
+const byId = new Map(groups().map((g) => [g.id, g]));
+/** One representative species from each of the first families of a group, for «С кем спутать». */
+const groupReps = (g: Group) => g.families.flatMap((c) => representativeSpecies(c, 1)).slice(0, 3);
 ---
 <Base title={group.name_ru} description={group.blurb_ru}>
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a> › группа</p>
   <h1>{group.name_ru}</h1>
   <p class="muted sub">{group.name_en} · {total} {plural(total, 'вид', 'вида', 'видов')} в {fams.length} {plural(fams.length, 'семействе', 'семействах', 'семействах')}</p>
   <p class="blurb">{group.blurb_ru}</p>
+  {gc && (
+    <section class="portrait">
+      {gc.body.map((p) => <p set:html={linkify(p, base)} />)}
+      {gc.recognize.length > 0 && (
+        <div class="card block">
+          <h2>Как узнать</h2>
+          <ul>{gc.recognize.map((r) => <li>{r}</li>)}</ul>
+        </div>
+      )}
+      {gc.confusable.length > 0 && (
+        <div class="card block">
+          <h2>С кем спутать</h2>
+          <ul class="conf">
+            {gc.confusable.map((c) => {
+              const g = byId.get(c.group);
+              const reps = g ? groupReps(g) : [];
+              return (
+                <li>
+                  {g ? (
+                    <a class="cf" href={`${base}groups/${g.id}/`}><b>{g.name_ru}</b> <span class="sci">{g.name_en}</span></a>
+                  ) : <b>{c.group}</b>}
+                  <span>{c.how}</span>
+                  {reps.length > 0 && <div class="reps">{reps.map((s) => <SpeciesFace s={s} size={84} />)}</div>}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+      {gc.fact && <p class="fact"><b>Факт.</b> {gc.fact}</p>}
+      {gc.route_note && (
+        <div class="card block route">
+          <h2>На маршруте</h2>
+          <p set:html={linkify(gc.route_note, base)} />
+        </div>
+      )}
+    </section>
+  )}
+  {gc && <h2 class="list-h">Семейства группы</h2>}
   {fams.map(({ f, n, e, faces }) => (
     <section class="card fam">
       <a class="fh" href={`${base}families/${f.slug}/`}>
@@ -34,6 +79,14 @@ const base = import.meta.env.BASE_URL;
   <details class="en" lang="en">
     <summary>English</summary>
     <p>{group.blurb_en}</p>
+    {gc?.en && (
+      <>
+        {gc.en.body.map((p) => <p set:html={linkify(p, base)} />)}
+        {gc.en.recognize.length > 0 && (<><h3>How to recognise</h3><ul>{gc.en.recognize.map((r) => <li>{r}</li>)}</ul></>)}
+        {gc.en.route_note && (<><h3>On this route</h3><p set:html={linkify(gc.en.route_note, base)} /></>)}
+        {gc.en.fact && <p class="fact"><b>Fact.</b> {gc.en.fact}</p>}
+      </>
+    )}
   </details>
 </Base>
 <style>
@@ -50,4 +103,22 @@ const base = import.meta.env.BASE_URL;
   .en { margin: 14px 0; border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
   .en summary { cursor: pointer; font-weight: 600; color: var(--muted); }
   .en p { margin: 8px 0; }
+  .en h3 { font-size: 0.95rem; margin: 12px 0 4px; }
+  .en ul { padding-left: 1.1em; margin: 0; }
+  /* portrait: same classes as families/[slug].astro */
+  .portrait { margin: 8px 0 12px; }
+  .portrait > p { margin: 0 0 12px; }
+  .block { margin: 14px 0; }
+  .block h2 { font-size: 1rem; margin: 0 0 6px; }
+  .block ul { margin: 0; padding-left: 1.1em; }
+  .block li { margin: 4px 0; }
+  .block p { margin: 0; }
+  .conf { list-style: none; padding-left: 0 !important; }
+  .conf li { display: flex; flex-direction: column; gap: 4px; padding: 10px 0; border-top: 1px solid var(--line); }
+  .conf li:first-child { border-top: 0; padding-top: 0; }
+  .conf .sci { color: var(--muted); font-weight: 400; }
+  .reps { display: flex; gap: 10px; overflow-x: auto; padding-top: 4px; }
+  .route { border-left: 4px solid var(--accent); }
+  .fact { border-left: 4px solid var(--accent-2); padding: 4px 0 4px 12px; margin: 14px 0; }
+  .list-h { font-size: 1.1rem; margin: 22px 0 8px; }
 </style>
