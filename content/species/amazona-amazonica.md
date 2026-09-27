@@ -2,6 +2,7 @@
 id: amazona-amazonica
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Зелёный амазон среднего размера, около 33 см, хвост короткий"
   - "Уздечка и полоса над глазом синие, щёки и темя жёлтые"
@@ -15,7 +16,7 @@ similar:
   - id: pionus-menstruus
     how: "голова и грудь ярко-синие, подхвостье красное, взмахи крыльев глубокие"
 behavior: "Держится парами и стаями, иногда по 50 и более птиц, во влажном лесу, варзее, манграх и на плантациях. Кормится плодами пальм и другими плодами и семенами; утром и вечером шумные стаи летят к общим ночёвкам в пальмах."
-voice: "Громкие пронзительные крики, особенно на лету: высокое повторяющееся «кви-кви» и более резкие визги."
+voice: "Громкие высокие пронзительные крики, особенно на лету; стаи у ночёвок очень шумные."
 traits:
   size: pigeon
   colors: [green, yellow, blue]
@@ -41,7 +42,7 @@ en:
     - id: pionus-menstruus
       how: "bright blue head and breast, red undertail, deep wingbeats"
   behavior: "Keeps in pairs and flocks, sometimes of 50 or more, in humid forest, várzea, mangroves and plantations. Feeds on palm fruit and other fruit and seeds; morning and evening, noisy flocks fly to communal roosts in palms."
-  voice: "Loud, shrill screams, especially in flight: a high repeated 'kwee-kwee' and harsher shrieks."
+  voice: "Loud, high-pitched shrill screams, especially in flight; flocks at the roost are very noisy."
 ---
 Orange-winged Amazon (оранжевокрылый амазон) — обычный амазон низин к востоку от Анд, у нас до 600 м, изредка до 800 м. Часто встречается рядом с людьми и на плантациях. В полёте амазоны маршрута похожи друг на друга: мелкие частые взмахи ниже линии тела, короткий хвост. Здесь помогает цвет зеркальца: оранжевое у этого вида и красное у желтошапочного и бледного амазонов.
 

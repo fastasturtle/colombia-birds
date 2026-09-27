@@ -2,6 +2,7 @@
 id: picumnus-squamulatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный дятел, 8–9 см, с коротким хвостом"
   - "Низ беловатый в тёмных чешуйках, горло белое в серо-бурых каёмках"
@@ -13,7 +14,7 @@ similar:
   - id: picumnus-olivaceus
     how: "верх ровный, без чешуек, низ желтоватый в размытых пестринах"
 behavior: "Держится поодиночке или парами в полуоткрытых местах: в галерейных лесах, на опушках, во вторичном лесу, в садах и на пастбищах с деревьями. Кормится на тонких веточках в густой листве."
-voice: "Тонкая высокая трель и резкие одиночные писки, как у других дятелков."
+voice: "Высокая писклявая серия «чи-чи-чи-и-чи», к концу переходящая в трель."
 traits:
   size: hummingbird
   colors: [brown, white, olive]
@@ -38,7 +39,7 @@ en:
     - id: picumnus-olivaceus
       how: "plain upperparts without scales, yellowish underparts with blurry streaks"
   behavior: "Keeps singly or in pairs in semi-open country: gallery forest, edges, secondary growth, gardens and pastures with trees. Forages on thin twigs in dense foliage."
-  voice: "A thin, high trill and sharp single squeaks, like other piculets."
+  voice: "A high, squeaky series 'chi-chi-chee-ee-chi', turning into a trill at the end."
 ---
 Scaled Piculet (чешуйчатый дятелок) — дятелок Колумбии и Венесуэлы, живущий в полуоткрытых местах до 1 900 м. Весь, сверху и снизу, покрыт мелкой чешуйчатой сеткой, и это его главный признак среди крошечных дятлов.
 

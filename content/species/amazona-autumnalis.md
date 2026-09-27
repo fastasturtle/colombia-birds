@@ -2,6 +2,7 @@
 id: amazona-autumnalis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб и уздечка красные, темя голубовато-сиреневое"
   - "Остальное оперение зелёное, хвост короткий, квадратный"

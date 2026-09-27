@@ -2,6 +2,7 @@
 id: pteroglossus-inscriptus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Жёлтый низ без поперечных полос"
   - "Надклювье жёлтое с чёрным коньком, чёрным концом и чёрными «письменами» по краю"
@@ -42,12 +43,12 @@ en:
   behavior: "Small groups, probably families, feed on fruit in the canopy and sometimes drop low to follow army ants. It raids other birds' nests."
   voice: "Not loud: series of guttural 'cha' notes or rapid sharp 'kkik' notes; single 'chak' calls."
 ---
-Lettered Aracari (пестроклювый арасари) — самый мелкий арасари Путумайо, около 34 см. Живёт в низменных лесах верхней Амазонии, в заливных, вторичных и галерейных лесах и на речных островах, обычно ниже 500 м. В Колумбии встречается подвид humboldti с почти чёрным подклювьем.
+Lettered Aracari (пестроклювый арасари) — один из самых мелких арасари Путумайо, около 34 см. Живёт в низменных лесах верхней Амазонии, в заливных, вторичных и галерейных лесах и на речных островах, обычно ниже 500 м. В Колумбии встречается подвид humboldti с почти чёрным подклювьем.
 
 На маршруте вид «возможно» на Финке Дискосура 7 октября, в Плайя-Рике 12 октября, у Пуэрто-Асиса 11–13 октября и в Эль-Эскондите 13–14 октября. Среди трёх арасари низин он выделяется простым жёлтым брюхом без полос: если полос нет, смотри на клюв с тонкими чёрными «буквами» по краю.
 
 ## English
 
-Lettered Aracari is the smallest aracari of the Putumayo, about 34 cm long. It lives in lowland forest of the upper Amazon: flooded, secondary and gallery forest and river islands, usually below 500 m. Colombia holds the subspecies humboldti, with an almost black lower mandible.
+Lettered Aracari is one of the smallest aracaris of the Putumayo, about 34 cm long. It lives in lowland forest of the upper Amazon: flooded, secondary and gallery forest and river islands, usually below 500 m. Colombia holds the subspecies humboldti, with an almost black lower mandible.
 
 On the route it is "maybe" at Finca Discosura on 7 October, at Playa Rica on 12 October, around Puerto Asís on 11–13 October and at El Escondite on 13–14 October. Among the three lowland aracaris it stands out by its plain yellow belly without bands: if there are no bands, look at the bill for the fine black "letters" along its edge.

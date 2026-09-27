@@ -2,6 +2,7 @@
 id: melanerpes-rubricapillus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Спина и крылья в частых чёрно-белых поперечных полосах, поясница белая"
   - "Лицо и низ светлые, серовато-охристые; на середине брюха красноватое пятно"
@@ -40,12 +41,12 @@ en:
   behavior: "Common in gardens, plantations, edges and secondary forest. Eats a lot of fruit, including bananas and papayas, as well as insects; often in the open and noisily calling."
   voice: "A wavering, drawn-out 'churr, churr, krr-r-r-r' with an abrupt end; 'wicka-wicka' in display."
 ---
-Red-crowned Woodpecker (красношапочный дятел) — самый обычный «зебровый» дятел севера и центра Колумбии, от уровня моря примерно до 1 700–1 900 м. Держится в самых разных местах, от мангров и сухих зарослей до садов, и хорошо уживается с человеком.
+Red-crowned Woodpecker (красношапочный дятел) — один из самых обычных «зебровых» дятлов севера и центра Колумбии, от уровня моря примерно до 1 700–1 900 м. Держится в самых разных местах, от мангров и сухих зарослей до садов, и хорошо уживается с человеком.
 
 На маршруте вид «возможно» в Эль-Энканто 4 и 6 октября, в Ла-Дримофиле 5 октября и в Чикаке 3 и 23–24 октября, скорее в нижних частях. В данных есть также отметки у Ла-Планады и Тумако, но на тихоокеанской стороне обычен Black-cheeked Woodpecker, так что такого дятла там проверяй по щеке: у Red-crowned она светлая.
 
 ## English
 
-Red-crowned Woodpecker is the commonest "zebra-backed" woodpecker of northern and central Colombia, from sea level to about 1,700–1,900 m. It uses a wide range of habitats, from mangroves and dry scrub to gardens, and lives comfortably alongside people.
+Red-crowned Woodpecker is one of the commonest "zebra-backed" woodpeckers of northern and central Colombia, from sea level to about 1,700–1,900 m. It uses a wide range of habitats, from mangroves and dry scrub to gardens, and lives comfortably alongside people.
 
 On the route it is "maybe" at El Encanto on 4 and 6 October, at La Drymophila on 5 October and at Chicaque on 3 and 23–24 October, more likely at the lower parts. The data also have records near La Planada and Tumaco, but Black-cheeked Woodpecker is the common one on the Pacific side, so check such a bird's cheek there: in Red-crowned it is pale.

@@ -2,6 +2,7 @@
 id: amazona-ochrocephala
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный зелёный амазон с жёлтым пятном на темени, иногда отдельными жёлтыми перьями у глаза"
   - "Вокруг глаза белое кольцо; клюв тёмный с крупным светлым пятном на надклювье"
@@ -13,7 +14,7 @@ similar:
   - id: amazona-farinosa
     how: "крупнее, жёлтого на голове почти нет, спина будто в муке, кольцо вокруг глаза шире"
 behavior: "Держится парами и стаями до 30 птиц во влажном лесу, варзее, по берегам рек и на полях; у глинистых обнажений собирается большими группами. Ест плоды, орехи, семена, цветы и почки, охотно кормится кукурузой и садовыми плодами."
-voice: "Громкие раскатистые, довольно низкие крики, звучащие иначе, чем у других амазонов."
+voice: "Громкие крики, особенно в полёте; пары и стаи перекликаются на лету."
 traits:
   size: pigeon
   colors: [green, yellow]
@@ -37,7 +38,7 @@ en:
     - id: amazona-farinosa
       how: "larger, almost no yellow on the head, floury back, broader eye ring"
   behavior: "Keeps in pairs and flocks of up to 30 in humid forest, várzea, along rivers and in fields; gathers in large groups at clay licks. Eats fruit, nuts, seeds, flowers and buds, and readily takes maize and orchard fruit."
-  voice: "Loud rolling, rather low calls, sounding different from other amazons."
+  voice: "Loud calls, especially in flight; pairs and flocks call to each other on the wing."
 ---
 Yellow-crowned Amazon (желтошапочный амазон) — амазон низин Амазонии и Гвианы, у нас в основном ниже 300 м, местами до 800–850 м на восточных предгорьях Анд. Держится у рек и на опушках, часто рядом с полями. Среди амазонов маршрута его выдаёт жёлтое пятно на темени, но разглядеть его удаётся только на присаде; в полёте ориентируйся на красное зеркальце и голос.
 

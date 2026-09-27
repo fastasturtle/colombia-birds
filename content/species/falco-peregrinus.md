@@ -2,6 +2,7 @@
 id: falco-peregrinus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова тёмная, «шлемом», с широким чёрным «усом» на белой щеке"
   - "Спина аспидно-серая, низ светлый в тонких тёмных поперечных полосах"
@@ -39,12 +40,12 @@ en:
   behavior: "Hunts birds in the air, stooping from above at huge speed. On the coast it perches on rocks, masts and tall buildings, watching for shorebirds, pigeons and seabirds."
   voice: "Silent away from the nest; at the nest a harsh 'kek-kek-kek'."
 ---
-Peregrine Falcon (сапсан) — один из самых широко распространённых хищников мира. В Колумбии он не гнездится: это мигрант, в основном из Северной Америки, прилетающий на зиму с октября; изредка залетают птицы южных популяций. Встретить его можно где угодно до 4 000 м, но чаще всего на побережье и в городах, где много голубей и куликов.
+Peregrine Falcon (сапсан) — один из самых широко распространённых хищников мира. В Колумбии это мигрант: в основном зимующие птицы из Северной Америки, прилетающие осенью; возможно, изредка залетают и птицы южных популяций (в ACO этот статус со знаком вопроса). Встретить его можно где угодно до 4 000 м, но чаще всего на побережье и в городах, где много голубей и куликов.
 
 На маршруте он «возможно» в Тумако 21 и 23 октября и на Плайя-дель-Морро 22–23 октября. Просматривай скалы, антенны и высокие здания у моря: сапсан подолгу сидит на одной присаде и хорошо виден в трубу.
 
 ## English
 
-Peregrine Falcon is one of the most widespread raptors in the world. It does not breed in Colombia: it is a migrant, mainly from North America, arriving for the winter from October; birds from southern populations turn up occasionally. It can appear anywhere up to 4,000 m, but most often on the coast and in cities, where pigeons and shorebirds are plentiful.
+Peregrine Falcon is one of the most widespread raptors in the world. In Colombia it is a migrant: mostly wintering birds from North America that arrive in autumn; birds from southern populations may also turn up occasionally (ACO marks that status with a question mark). It can appear anywhere up to 4,000 m, but most often on the coast and in cities, where pigeons and shorebirds are plentiful.
 
 On the route it is "maybe" at Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October. Scan rocks, antennas and tall buildings by the sea: a Peregrine sits on one perch for a long time and shows well through a scope.

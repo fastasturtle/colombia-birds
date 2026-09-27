@@ -2,11 +2,12 @@
 id: chloroceryle-amazona
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупный, около 30 см, верх тёмный бронзово-зелёный, с лохматым хохлом"
   - "Клюв очень длинный и массивный, чёрный"
   - "Белые горло и ошейник; у самца широкая рыжая грудь, у самки зелёные пятна по бокам груди"
-  - "На крыльях нет белых пятнышек, хвост без заметного белого"
+  - "У взрослых на крыльях нет белых пятнышек, хвост без заметного белого"
 similar:
   - id: chloroceryle-americana
     how: "намного мельче, на крыле ряды белых точек, в полёте белые края хвоста"
@@ -31,7 +32,7 @@ en:
     - "Large, about 30 cm, dark bronzy-green above, with a shaggy crest"
     - "Very long, massive black bill"
     - "White throat and collar; male with a broad rufous breast, female with green patches on the breast sides"
-    - "No white spots on the wings, no obvious white in the tail"
+    - "Adults have no white spots on the wings, no obvious white in the tail"
   similar:
     - id: chloroceryle-americana
       how: "much smaller, rows of white dots on the wing, white tail sides in flight"

@@ -2,6 +2,7 @@
 id: forpus-crassirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечный желтовато-зелёный попугай с воробья, хвост очень короткий"
   - "Самец: поясница, нижняя часть спины и передний край крыла синие"

@@ -2,10 +2,11 @@
 id: aulacorhynchus-albivitta
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Почти весь ярко-зелёный, низ светлее спины"
   - "Клюв чёрный с жёлтой полосой по коньку и белой вертикальной полоской у основания"
-  - "Горло белое у птиц Восточной Кордильеры, у других подвидов сероватое или голубоватое"
+  - "Горло белое у птиц Восточной и Центральной Кордильер, у западных подвидов сероватое или голубоватое"
   - "Подхвостье и концы хвоста каштановые, вокруг глаза голая жёлто-оранжевая кожа"
 similar:
   - id: aulacorhynchus-haematopygus
@@ -30,7 +31,7 @@ en:
   key_features:
     - "Almost wholly bright green, paler below than above"
     - "Black bill with a yellow stripe along the ridge and a white vertical line at the base"
-    - "Throat white in Eastern Andes birds, grayish or bluish in other subspecies"
+    - "Throat white in Eastern and Central Andes birds, grayish or bluish in western subspecies"
     - "Chestnut undertail and tail tips, bare yellow-orange skin around the eye"
   similar:
     - id: aulacorhynchus-haematopygus

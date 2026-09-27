@@ -2,6 +2,7 @@
 id: celeus-loricatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Весь насыщенно-рыжий, с пышным хохлом"
   - "Верх в узких чёрных поперечных полосах, хвост чёрный с широкими светлыми полосами"

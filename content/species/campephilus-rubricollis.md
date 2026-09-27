@@ -2,6 +2,7 @@
 id: campephilus-rubricollis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, шея и грудь целиком красные, с хохлом"
   - "Спина и крылья сверху чёрные, белых полос нет"

@@ -2,11 +2,12 @@
 id: campephilus-melanoleucos
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова почти целиком красная, с хохлом; у самки от клюва по щеке широкая белая полоса"
   - "Белые полосы по бокам шеи сходятся на спине буквой V"
   - "Горло и верх груди чёрные, брюхо охристое в чёрных поперечных полосах"
-  - "Глаз светлый, клюв длинный, светлый, долотом"
+  - "Глаз светлый, клюв длинный, долотом, цвета слоновой кости (у северного malherbii серый)"
 similar:
   - id: dryocopus-lineatus
     how: "белые полосы на спине идут параллельно и не сходятся; красные только темя и хохол, лицо чёрное с белой полоской от клюва"
@@ -32,7 +33,7 @@ en:
     - "Head almost wholly red and crested; the female has a broad white stripe from the bill across the cheek"
     - "White neck stripes converge on the back in a V"
     - "Black throat and upper breast, buffy belly barred black"
-    - "Pale eye, long pale chisel bill"
+    - "Pale eye, long ivory chisel bill (gray in northern malherbii)"
   similar:
     - id: dryocopus-lineatus
       how: "white back stripes run parallel and do not meet; red only on the crown and crest, black face with a white line from the bill"

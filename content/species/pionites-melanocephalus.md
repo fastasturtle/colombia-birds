@@ -2,6 +2,7 @@
 id: pionites-melanocephalus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка чёрная, от лба до затылка; на затылке рыже-оранжевая полоса"
   - "Грудь и брюхо кремово-белые, у южных птиц почти чисто белые"
@@ -11,7 +12,7 @@ similar:
   - id: pyrilia-barrabandi
     how: "голова тоже чёрная, но на щеке оранжево-жёлтое пятно, грудь оливково-зелёная, без белого"
 behavior: "Держится стайками до 8 птиц в кронах, на опушках и прогалинах влажного низинного леса, в том числе в варзее и вторичном лесу. Ест семена, плоды, цветы и листья; на глинистые обнажения, в отличие от многих попугаев, не прилетает."
-voice: "Пронзительные высокие визги и свисты, стайка перекликается непрерывно."
+voice: "В полёте высокий пронзительный визг «скиия… скиия»; на присаде очень разговорчив, крики разнообразные, порой совсем не птичьи."
 traits:
   size: thrush
   colors: [green, white, black]
@@ -33,7 +34,7 @@ en:
     - id: pyrilia-barrabandi
       how: "also black-headed, but with an orange-yellow cheek patch and olive-green breast, no white"
   behavior: "Keeps in flocks of up to 8 in the canopy, at edges and in clearings of humid lowland forest, including várzea and secondary forest. Eats seeds, fruit, flowers and leaves; unlike many parrots it does not visit clay licks."
-  voice: "Shrill high screeches and whistles; the flock calls constantly."
+  voice: "In flight a high, penetrating squeal, 'skeeea… skeeea'; very vocal when perched, with varied calls, some quite unbirdlike."
 ---
 Black-headed Parrot (черноголовый белобрюхий попугай) — небольшой яркий попугай амазонского леса, у нас до 1 000 м, но выше 500 м немногочислен. На юге Колумбии, к востоку от Анд, живёт подвид pallidus с более белым брюхом и бледной полосой на затылке. Белый низ и чёрная шапочка делают его одним из самых узнаваемых попугаев маршрута, даже когда стайка пролетает над кронами.
 
