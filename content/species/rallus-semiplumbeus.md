@@ -2,6 +2,7 @@
 id: rallus-semiplumbeus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв длинный, слегка изогнутый, красный с тёмным верхом и кончиком"
   - "Лицо, грудь и брюхо свинцово-серые, темя бурое"
@@ -12,7 +13,7 @@ similar:
   - id: rallus-limicola
     how: "мельче, грудь рыжевато-коричная, а не серая; живёт на юге страны, а не в Восточных Андах"
   - id: pardirallus-nigricans
-    how: "весь тёмный, аспидно-чёрный снизу, без полос на боках, клюв зеленовато-жёлтый"
+    how: "верх тёмно-бурый, низ тёмно-серый, горло белое, бока без полос; клюв зеленовато-жёлтый"
 behavior: "Скрывается в густых зарослях камыша и осоки по краям болот и озёр, выходит на край плёса или на сырой луг ранним утром и вечером. Бегает, подёргивая коротким хвостом."
 voice: "Хрюкающие и визгливые звуки из тростника и серии писклявых нот; слышен чаще, чем виден."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Bogotá rail (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/rallus-semiplumbeus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Blackish rail, Virginia rail (en, CC BY-SA 4.0) — data/texts"
 en:
   key_features:
     - "Long, slightly decurved bill, red with a dark culmen and tip"
@@ -37,7 +39,7 @@ en:
     - id: rallus-limicola
       how: "smaller, breast rufous-cinnamon rather than gray; lives in the south of the country, not in the Eastern Andes"
     - id: pardirallus-nigricans
-      how: "all dark, slaty-black below, no bars on the flanks, greenish-yellow bill"
+      how: "dark brown above, dark gray below, white throat, no flank bars; greenish-yellow bill"
   behavior: "Hides in dense bulrush and sedge along the edges of marshes and lakes, stepping out to the edge of open water or onto wet meadows early and late in the day. Runs flicking its short tail."
   voice: "Grunts and squeals from the reeds and series of squeaky notes; heard more often than seen."
 ---

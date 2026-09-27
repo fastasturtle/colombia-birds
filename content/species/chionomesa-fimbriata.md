@@ -2,6 +2,7 @@
 id: chionomesa-fimbriata
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь блестящие зелёные, посреди брюха белая полоса"
   - "Подхвостье белое, хвост тёмный бронзово-зелёный"
@@ -9,11 +10,11 @@ key_features:
   - "Верх золотисто-зелёный, без ярких пятен"
 similar:
   - id: chlorostilbon-mellisugus
-    how: "мельче, низ целиком зелёный, без белого; хвост сине-чёрный, клюв весь чёрный"
+    how: "мельче; у самца низ целиком зелёный, без белой полосы; хвост стально-синий, клюв весь чёрный"
   - id: chrysuronia-oenone
     how: "у самца синяя голова и медно-золотой хвост"
 behavior: "Держится на открытых и полуоткрытых местах: опушки, вторичный лес, сады, плантации и берега рек; в сомкнутый лес не заходит. Кормится у самых разных цветков и охраняет цветущие кусты."
-voice: "Сухие щелчки и короткое щебетание при погонях."
+voice: "На рассвете монотонно повторяет высокое жужжащее «цзи… цзи…»; при погонях тонкие «тси-тси-тси» и тихое стрекотание."
 traits:
   size: hummingbird
   colors: [green, white]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Glittering-throated emerald (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/chionomesa-fimbriata.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Glittering-throated emerald, Blue-tailed emerald, Golden-tailed sapphire (en, CC BY-SA 4.0) — data/texts"
 en:
   key_features:
     - "Throat and breast glittering green, a white stripe down the centre of the belly"
@@ -33,11 +35,11 @@ en:
     - "Upperparts golden green, without bright patches"
   similar:
     - id: chlorostilbon-mellisugus
-      how: "smaller, underparts all green with no white; tail blue-black, bill all black"
+      how: "smaller; the male is all green below with no white stripe; tail steel-blue, bill all black"
     - id: chrysuronia-oenone
       how: "the male has a blue head and a coppery-gold tail"
   behavior: "Keeps to open and semi-open country: edges, secondary forest, gardens, plantations and riverbanks; avoids closed forest. Feeds at a wide range of flowers and guards flowering shrubs."
-  voice: "Dry clicks and short twittering in chases."
+  voice: "At dawn repeats a high buzzy 'tzee… tzee…' over and over; thin 'tsi-tsi-tsi' series and soft chatters in chases."
 ---
 Glittering-throated Emerald (изумрудная амазилия) — обычная амазилия низин к востоку от Анд, до 500 м, изредка выше 1 000 м. Это «рабочая лошадка» амазонских садов: зелёный колибри среднего размера, у которого первым делом стоит проверить белую полосу по брюху и двухцветный клюв. В юго-восточной Колумбии горло у местных птиц может отливать бирюзовым.
 

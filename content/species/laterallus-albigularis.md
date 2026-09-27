@@ -2,6 +2,7 @@
 id: laterallus-albigularis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и верх груди белые"
   - "Лицо, бока шеи и грудь рыжие"
@@ -10,11 +11,11 @@ key_features:
   - "Крошечный, с воробья, пастушок в сырой траве"
 similar:
   - id: laterallus-exilis
-    how: "голова и грудь серые, рыжий только затылок, на спине зеленоватый оттенок"
+    how: "мельче; голова и грудь бледно-серые, рыжий только затылок"
   - id: laterallus-melanophaius
-    how: "рыжие только бока шеи и груди, середина груди и брюхо белые, бока в полосах; держится в Амазонии"
-behavior: "Бегает в густой сырой траве, по краям канав, прудов и пастбищ, почти не выходит на открытое место. Выдаёт себя голосом, особенно утром и в пасмурную погоду."
-voice: "Громкая трескучая нисходящая трель, похожая на звук мотора; пары отвечают друг другу."
+    how: "рыжие лицо и бока груди, середина груди белая, подхвостье рыжее, а не полосатое; держится в Амазонии"
+behavior: "Бегает в густой сырой траве, по краям канав, прудов и пастбищ, на открытое место выходит в основном на рассвете, в сумерки и в дождь. Чаще всего выдаёт себя голосом."
+voice: "Резкая, будто взрывная, нисходящая трескучая трель; тревога — отрывистое «чип»."
 traits:
   size: sparrow
   colors: [rufous, brown, white]
@@ -26,6 +27,8 @@ sources:
   - "Wikipedia: White-throated crake (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/laterallus-albigularis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Gray-breasted crake, Rufous-sided crake (en), Polluela carrasqueadora (es), CC BY-SA 4.0 — data/texts"
+  - "Данные проекта: data/sites.json (Финка Марагрикола — бывшие креветочные пруды)"
 en:
   key_features:
     - "White throat and upper breast"
@@ -35,11 +38,11 @@ en:
     - "A tiny, sparrow-sized crake in wet grass"
   similar:
     - id: laterallus-exilis
-      how: "gray head and breast with rufous only on the nape, a greenish tinge to the back"
+      how: "smaller; pale gray head and breast, rufous only on the nape"
     - id: laterallus-melanophaius
-      how: "rufous only on the sides of neck and breast, centre of breast and belly white, barred flanks; keeps to Amazonia"
-  behavior: "Runs through dense wet grass along ditches, ponds and pastures and rarely steps into the open. Gives itself away by voice, especially in the morning and in overcast weather."
-  voice: "A loud rattling, descending trill, like a small engine; pairs answer each other."
+      how: "rufous face and breast sides, white centre of the breast, undertail rufous rather than barred; keeps to Amazonia"
+  behavior: "Runs through dense wet grass along ditches, ponds and pastures and comes into the open mainly at dawn, at dusk and in rain. Most often gives itself away by voice."
+  voice: "An abrupt, explosive, descending churring trill; alarm a sharp 'chip'."
 ---
 White-throated Crake (белозобый коростелёк) — крошечный пастушок сырых лугов, канав и зарослей у воды, от уровня моря до 1 600 м. Его почти всегда сначала слышат: трескучая трель раздаётся из травы у самых ног, а сама птица показывается на секунду, перебегая просвет. Если повезёт увидеть, белое горло, рыжая грудь и полосатое брюхо не оставляют сомнений.
 

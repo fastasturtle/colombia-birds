@@ -2,6 +2,7 @@
 id: porphyriops-melanops
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв и лобный щиток бледно-зелёные"
   - "Лоб и темя чёрные, резко отделены от серой головы и груди"
@@ -13,7 +14,7 @@ similar:
   - id: fulica-americana
     how: "намного крупнее, вся чёрно-серая, клюв белый"
 behavior: "Плавает у кромки водной растительности и среди плавающих листьев, склёвывая корм с поверхности и часто кивая головой. Держится ближе к укрытию, чем лысухи."
-voice: "Резкие щелчки и квохтанье, а также нисходящая серия звуков."
+voice: "Высокое квохчущее «ке-ке-ке-ке», быстрые щелчки и низкое глухое уханье."
 traits:
   size: pigeon
   colors: [gray, brown, black]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Spot-flanked gallinule (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/porphyriops-melanops.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Spot-flanked gallinule (en), Gallineta pintada (es), Common gallinule (en), CC BY-SA 4.0 — data/texts"
 en:
   key_features:
     - "Pale green bill and frontal shield"
@@ -37,7 +39,7 @@ en:
     - id: fulica-americana
       how: "much larger, all blackish-gray, white bill"
   behavior: "Swims along the edge of aquatic vegetation and among floating leaves, picking food from the surface and nodding its head. Stays closer to cover than coots."
-  voice: "Sharp clicks and clucks, and a descending series of notes."
+  voice: "A high cackling 'ke-ke-ke-ke', quick clicks and a low whooping note."
 ---
 Spot-flanked Gallinule (пятнистая камышница) — небольшая камышница болот и озёр; в Колумбии живёт изолированная популяция в болотах саванны Боготы, на высотах около 2 500–3 000 м, и в национальной Красной книге она оценена как находящаяся под угрозой. Бледно-зелёный клюв и белые крапины на боках отличают её от обычных здесь камышниц и лысух.
 

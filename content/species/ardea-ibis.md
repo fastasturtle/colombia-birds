@@ -2,9 +2,10 @@
 id: ardea-ibis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Небольшая белая цапля с короткой толстой шеей"
-  - "Клюв короткий, жёлтый; ноги желтоватые или тёмные"
+  - "Клюв короткий, жёлтый; ноги серовато-жёлтые или тёмные"
   - "В брачном наряде рыже-охристые перья на макушке, груди и спине"
   - "Ходит по пастбищам рядом со скотом, а не стоит в воде"
 similar:
@@ -13,7 +14,7 @@ similar:
   - id: ardea-alba
     how: "гораздо крупнее, с очень длинной шеей, клюв длинный жёлтый, ноги чёрные"
 behavior: "Кормится стайками на лугах и пастбищах, ловя насекомых, которых вспугивают коровы и лошади. Вечером большими стаями летит на общие ночёвки в деревьях у воды."
-voice: "Хриплые «рак» на ночёвках; в поле молчалива."
+voice: "Тихое горловое «рик-рак» в гнездовой колонии; в остальное время почти молчалива."
 traits:
   size: crow
   colors: [white]
@@ -24,10 +25,12 @@ traits:
 sources:
   - "Данные проекта: data/species/ardea-ibis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Western cattle egret (en, CC BY-SA 4.0): https://en.wikipedia.org/wiki/Western_cattle_egret (локальной выгрузки нет)"
+  - "Wikipedia: Snowy egret, Great egret (en, CC BY-SA 4.0) — data/texts"
 en:
   key_features:
     - "A small white heron with a short thick neck"
-    - "Short yellow bill; legs yellowish or dark"
+    - "Short yellow bill; legs grayish-yellow or dark"
     - "In breeding plumage, orange-buff plumes on the crown, breast and back"
     - "Walks in pastures beside livestock instead of standing in water"
   similar:
@@ -36,7 +39,7 @@ en:
     - id: ardea-alba
       how: "much larger, with a very long neck, long yellow bill and black legs"
   behavior: "Feeds in small flocks on meadows and pastures, catching insects flushed by cattle and horses. In the evening flies in large flocks to communal roosts in trees near water."
-  voice: "Harsh 'rack' notes at roosts; silent in the field."
+  voice: "A quiet throaty 'rick-rack' at the breeding colony; otherwise largely silent."
 ---
 Western Cattle-Egret (египетская цапля) — выходец из Старого Света, который сам перебрался в Южную Америку в XIX веке и теперь обычен по всей Колумбии, от побережья до высокогорных пастбищ. Она не ждёт добычу в воде, как другие цапли, а ходит по траве за скотом и ловит вспугнутых насекомых.
 
