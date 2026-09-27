@@ -2,6 +2,7 @@
 id: aglaeactis-cupripennis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение рыжее и корично-бурое, без единого белого пятна"
   - "Поясница переливается лилово-золотым и зелёным, видна при взлёте"
@@ -23,6 +24,7 @@ sources:
   - "Wikipedia: Shining sunbeam (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/aglaeactis-cupripennis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Great sapphirewing (en/es), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Rufous and cinnamon-brown plumage, without a single white mark"

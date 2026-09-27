@@ -2,6 +2,7 @@
 id: crypturellus-cinereus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ровно дымчато-бурый, низ лишь чуть светлее верха, без полос и пятен"
   - "Шапочка и затылок рыжевато-бурые"
@@ -27,6 +28,7 @@ sources:
   - "Данные проекта: data/species/crypturellus-cinereus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/species/crypturellus-soui.md (отличия от малого скрытохвоста)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Wikipedia: Little tinamou (en/ru), Undulated tinamou (en/ru), CC BY-SA 4.0 — фактчек 27.09"
 en:
   key_features:
     - "Uniform smoky brown, underparts only slightly paler, no bars or spots"
