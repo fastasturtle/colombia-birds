@@ -2,6 +2,7 @@
 id: gymnopithys-leucaspis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Щёки, горло и грудь чисто белые, резко отделены от каштановых боков"
   - "Вокруг глаза голая голубая кожа"
@@ -22,7 +23,7 @@ traits:
   bill: medium
   layer: [understory, ground]
 sources:
-  - "Wikipedia: White-cheeked antbird (en, CC BY-SA 4.0) — подвид castaneus в Путумайо, окраска, поведение у муравьёв, голос"
+  - "Wikipedia: White-cheeked antbird (en, CC BY-SA 4.0) — подвид castaneus в Путумайо, окраска, поведение у муравьёв, голос; Gymnopithys leucaspis (es) — обилие у колонн"
   - "Wikipedia: White-plumed antbird, Black-spotted bare-eye (en, CC BY-SA 4.0) — отличия"
   - "Данные проекта: data/species/gymnopithys-leucaspis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
@@ -42,10 +43,10 @@ en:
 ---
 White-cheeked Antbird (белобрюхая гологлазка) — муравьеловка подлеска равнинного и предгорного леса востока, в Колумбии до 1 000 м. В Путумайо живёт подвид castaneus, темнее номинативного и с более чёрными боками. Белая «манишка» с чёрной каймой и голубое кольцо у глаза видны даже в сумраке подлеска, так что ошибиться трудно, главное — найти колонну муравьёв.
 
-На маршруте вид «возможно» на Исла-Эскондиде 7–11 октября. Если слышишь в лесу гомон и треск нескольких муравьеловок сразу, иди туда: скорее всего, это колонна, и гологлазка будет в ней одной из первых.
+На маршруте вид «возможно» на Исла-Эскондиде 7–11 октября. Если слышишь в лесу гомон и треск нескольких муравьеловок сразу, иди туда: скорее всего, это колонна, а гологлазка там часто самая многочисленная птица.
 
 ## English
 
 White-cheeked Antbird is an understory antbird of eastern lowland and foothill forest, in Colombia up to 1,000 m. Putumayo holds the subspecies castaneus, darker than the nominate with blacker sides. The white 'bib' with its black border and the blue eye-ring show even in understory gloom, so a mistake is unlikely; the hard part is finding an ant swarm.
 
-On the route it is "maybe" at Isla Escondida on 7–11 October. If you hear the chatter and rattles of several antbirds at once, go there: it is most likely a swarm, and this species will be one of the first at it.
+On the route it is "maybe" at Isla Escondida on 7–11 October. If you hear the chatter and rattles of several antbirds at once, go there: it is most likely a swarm, and this species is often the most numerous bird there.

@@ -2,6 +2,7 @@
 id: piculus-litae
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло тёмное, оливково-бурое, издали кажется чёрным"
   - "Лицо золотисто-жёлтое, у самца темя и широкие «усы» красные"
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Lita woodpecker (en), Piculus litae (es), CC BY-SA 4.0 — data/texts"
   - "Данные проекта: data/species/piculus-litae.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Карточка content/species/veniliornis-chocoensis.md; Wikipedia: Golden-olive woodpecker (en, CC BY-SA 4.0) — отличия"
+  - "Wikispecies: Piculus litae — типовое местонахождение Лита, Эквадор (https://species.wikimedia.org/wiki/Piculus_litae)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -42,10 +44,10 @@ en:
 ---
 Lita Woodpecker (колумбийский дятел) — почти-эндемик Колумбии, дятел влажных лесов тихоокеанского склона и среднего течения Магдалены, заходящий на северо-запад Эквадора, от уровня моря до 800 м. Назван по посёлку Лита в Эквадоре. Самец с красной головой и золотым лицом над тёмным горлом выглядит нарядно, но в полутени у ствола виден прежде всего полосатый светлый низ.
 
-На маршруте он «возможно» в Бангсиас-лодже 20 октября, у верхней границы своих высот. Ищи его в смешанных стаях на опушке и слушай шипящий позыв.
+На маршруте он «возможно» в Бангсиас-лодже 20 октября; лодж (900–1 200 м) чуть выше обычных для вида высот, так что искать стоит в нижней части участка. Ищи его в смешанных стаях на опушке и слушай шипящий позыв.
 
 ## English
 
 Lita Woodpecker is a Colombian near-endemic, a woodpecker of humid forest on the Pacific slope and in the middle Magdalena valley, reaching northwest Ecuador, from sea level to 800 m. It is named after the town of Lita in Ecuador. The male, with a red head and golden face above a dark throat, looks smart, but in half-shade by a trunk you mainly see the barred pale underparts.
 
-On the route it is "maybe" at Bangsias Lodge on 20 October, at the upper edge of its range. Look for it with mixed flocks at the edge and listen for the hissing call.
+On the route it is "maybe" at Bangsias Lodge on 20 October; the lodge (900–1,200 m) lies slightly above the usual range of the species, so search the lower part of the area. Look for it with mixed flocks at the edge and listen for the hissing call.

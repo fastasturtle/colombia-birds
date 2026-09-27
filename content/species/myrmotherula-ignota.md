@@ -2,6 +2,7 @@
 id: myrmotherula-ignota
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крошечная, с почти незаметным хвостом, около 8 см"
   - "Щёки белые, от клюва вниз широкий чёрный «ус», через глаз чёрная полоса"

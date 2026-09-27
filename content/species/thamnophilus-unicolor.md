@@ -2,6 +2,7 @@
 id: thamnophilus-unicolor
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец ровно тёмно-серый, почти черноватый, без пятен на крыле и спине"
   - "Глаз светлый, серовато-белый, заметен на тёмном лице у обоих полов"
@@ -43,10 +44,10 @@ en:
 ---
 Uniform Antshrike (одноцветный колючник) — колючник облачного леса Анд, в Колумбии на высотах примерно 1 200–2 200 м, во всех трёх хребтах. Самец выглядит просто тёмно-серой птицей, и в тени подлеска первым бросается в глаза светлый глаз на тёмном лице. Самка заметнее: рыжая шапка и серые щёки.
 
-На маршруте вид везде «возможно»: в Эль-Энканто 4 и 6 октября, в Ла-Дримофиле 5 октября, на Ла-Планаде 16–18 октября и на Рио-Ньямби 19 октября. Чаще его сначала слышно: медленная гнусавая серия из густых зарослей у тропы.
+На маршруте вид везде «возможно»: в Эль-Энканто 4 и 6 октября, в Ла-Дримофиле 5 октября, на Ла-Планаде 16–18 октября, в Авес-и-Флорес 18–20 октября, на Рио-Ньямби 19 октября и в Бангсиас-лодже 20 октября. Чаще его сначала слышно: медленная гнусавая серия из густых зарослей у тропы.
 
 ## English
 
 Uniform Antshrike is an antshrike of Andean cloud forest, in Colombia at roughly 1,200–2,200 m in all three ranges. The male looks like a plain dark gray bird, and in understory shade the first thing you notice is the pale eye in the dark face. The female is easier: a rufous cap and gray cheeks.
 
-On the route it is "maybe" everywhere: El Encanto on 4 and 6 October, La Drymophila on 5 October, La Planada on 16–18 October and Río Ñambí on 19 October. More often it is heard first: a slow nasal series from dense tangles beside the trail.
+On the route it is "maybe" everywhere: El Encanto on 4 and 6 October, La Drymophila on 5 October, La Planada on 16–18 October, Aves y Florez on 18–20 October, Río Ñambí on 19 October and Bangsias Lodge on 20 October. More often it is heard first: a slow nasal series from dense tangles beside the trail.

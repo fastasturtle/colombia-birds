@@ -2,6 +2,7 @@
 id: dendrexetastes-rufigula
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло тёпло-коричное, ярче остального низа"
   - "Клюв короткий для древолаза, толстый и светлый, зеленовато-роговой"
@@ -11,7 +12,7 @@ similar:
   - id: nasica-longirostris
     how: "клюв очень длинный, почти прямой; горло и бровь белые, шея длинная"
   - id: dendrocincla-fuliginosa
-    how: "мельче, клюв тёмный и тоньше, горло серовато-бурое, грудь без пестрин"
+    how: "мельче, клюв тёмный и тоньше, горло сероватое или охристое, без коричного тона, грудь почти без пестрин"
 behavior: "Кормится на стволах и ветках от среднего яруса до крон, часто в смешанных стаях. Любит опушки, пальмовые леса, вторичный лес и речные острова, а не глубину первичного леса."
 voice: "Поёт на рассвете и в сумерках: громкая быстрая трескучая серия, сначала повышается, потом спадает и заканчивается более низким «тчиу»."
 traits:
@@ -37,7 +38,7 @@ en:
     - id: nasica-longirostris
       how: "very long, almost straight bill; white throat and eyebrow, long neck"
     - id: dendrocincla-fuliginosa
-      how: "smaller, with a darker, thinner bill, gray-brown throat, unstreaked breast"
+      how: "smaller, with a darker, thinner bill, grayish or buffy throat without a cinnamon tone, breast almost unstreaked"
   behavior: "Forages on trunks and branches from the midstory to the canopy, often with mixed flocks. Prefers edges, palm forest, secondary growth and river islands to the interior of primary forest."
   voice: "Sings at dawn and dusk: a loud fast rattled series that rises, then falls away and ends with a lower 'tchew'."
 ---

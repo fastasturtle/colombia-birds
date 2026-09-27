@@ -2,6 +2,7 @@
 id: pyriglena-maura
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Глаз ярко-красный у обоих полов, виден даже в тени"
   - "Самец целиком блестяще-чёрный; белое пятно на спине видно, лишь когда он его распушает"
@@ -11,8 +12,8 @@ similar:
   - id: thamnophilus-unicolor
     how: "самец тёмно-серый, а не чёрный, глаз светлый, клюв толстый с крючком; хвост короче"
   - id: cercomacroides-nigrescens
-    how: "мельче, глаз тёмный, на кроющих крыла узкие белые каёмки; самка с рыже-охристым низом"
-behavior: "Пары держатся в густом подлеске на опушках, в зарастающих прогалах и во вторичном лесу. Часто ходят за колоннами муравьёв-кочевников, раскрывая хвост и распушая белое пятно на спине."
+    how: "мельче, глаз тёмный, на кроющих крыла белые кончики; у самки оранжево-рыжие лицо и горло"
+behavior: "Пары держатся в густом подлеске на опушках, в зарастающих прогалах и во вторичном лесу. Кормятся на земле и до 3 м над ней, подёргивая хвостом, и регулярно ходят за колоннами муравьёв-кочевников."
 voice: "Песня самца — ровная серия из коротких свистов «пи-пи-пи-пи» около 2 секунд, слегка повышается и понижается; самка отвечает более высокой и длинной серией."
 traits:
   size: thrush
@@ -24,7 +25,7 @@ traits:
 sources:
   - "Wikipedia: Western fire-eye (en, CC BY-SA 4.0) — подвид castanoptera, окраска самки, высоты в Колумбии, голос"
   - "Wikipedia: Uniform antshrike (en, CC BY-SA 4.0) — отличие T. unicolor"
-  - "content/species/cercomacroides-nigrescens.md — отличие Blackish Antbird"
+  - "content/species/cercomacroides-nigrescens.md; Wikipedia: Blackish antbird (en, CC BY-SA 4.0, https://en.wikipedia.org/wiki/Blackish_antbird) — отличие Blackish Antbird"
   - "Данные проекта: data/species/pyriglena-maura.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -37,8 +38,8 @@ en:
     - id: thamnophilus-unicolor
       how: "male dark gray rather than black, pale eye, thick hooked bill; shorter tail"
     - id: cercomacroides-nigrescens
-      how: "smaller, dark eye, narrow white fringes on the wing coverts; female rufous-ochre below"
-  behavior: "Pairs keep to dense understory at edges, in overgrown gaps and in secondary forest. They often follow army-ant swarms, spreading the tail and flaring the white back patch."
+      how: "smaller, dark eye, white tips on the wing coverts; female has an orange-rufous face and throat"
+  behavior: "Pairs keep to dense understory at edges, in overgrown gaps and in secondary forest. They feed on the ground and up to 3 m above it, pumping the tail, and regularly follow army-ant swarms."
   voice: "The male's song is an even series of short whistles, 'pee-pee-pee-pee', about 2 seconds long, rising and falling slightly; the female answers with a higher, longer series."
 ---
 Western Fire-eye (западная огнеглазка) — крупная муравьеловка предгорий и склонов Анд; в Колумбии её указывают от 500 до 2 500 м. На юге страны живёт подвид castanoptera, у которого самка не бурая, а почти чёрная с каштановой спиной. Чёрная птица с красным глазом и длинным хвостом в зарослях у дороги — почти наверняка она.

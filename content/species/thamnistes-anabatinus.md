@@ -2,6 +2,7 @@
 id: thamnistes-anabatinus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крылья и хвост ярко-рыжие, спина и шапочка оливково-бурые"
   - "Клюв толстый, с крючком на конце, для такой птицы крупный"
@@ -11,7 +12,7 @@ similar:
   - id: dendroma-rufa
     how: "крупнее, лоб и бровь ярко-охристые, низ ярко-охристый, клюв тонкий и прямой, без крючка"
 behavior: "Держится поодиночке или парами в смешанных стаях в кронах и подкроновом ярусе. Лазает по веткам и обыскивает скопления сухих листьев, как филидор, чем и сбивает с толку."
-voice: "Песня — короткая серия резких высоких свистов «тси-тси-тси»; позыв — отрывистое «чип»."
+voice: "Песня звучит редко — звонкая пронзительная серия «тиу, циу-циу-циу-циу»; позыв тоньше, свистящее «уии-цип»."
 traits:
   size: sparrow
   colors: [olive, rufous, brown]
@@ -20,7 +21,7 @@ traits:
   bill: [thick, hooked]
   layer: [canopy, midstory]
 sources:
-  - "Wikipedia: Russet antshrike (en, CC BY-SA 4.0) — окраска, подвиды (aequatorialis на восточном склоне), систематика"
+  - "Wikipedia: Russet antshrike (en, CC BY-SA 4.0) — окраска, подвиды (aequatorialis на восточном склоне), систематика, высоты; Thamnistes anabatinus (es, CC BY-SA 4.0) — голос"
   - "Wikipedia: Buff-fronted foliage-gleaner (en, CC BY-SA 4.0) — отличие Dendroma rufa, data/texts"
   - "Данные проекта: data/species/thamnistes-anabatinus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
@@ -34,7 +35,7 @@ en:
     - id: dendroma-rufa
       how: "larger, bright buff forehead and eyebrow, bright ochre underparts, thin straight bill without a hook"
   behavior: "Singly or in pairs in mixed flocks in the canopy and subcanopy. Climbs along branches and searches dead-leaf clusters like a foliage-gleaner, which is what makes it confusing."
-  voice: "The song is a short series of sharp high whistles, 'tsee-tsee-tsee'; the call is a clipped 'chip'."
+  voice: "The song, given rarely, is a loud penetrating series, 'tiiu, tsiu-tsiu-tsiu-tsiu'; the call is thinner, a sibilant 'wee-tsip'."
 ---
 Russet Antshrike (ржавчатая чока) — нетипичная муравьянка: не прячется в подлеске, а кормится в кронах вместе со стаями танагр и филидоров. На восточном склоне Анд Колумбии живёт андская группа подвидов (aequatorialis), которую некоторые систематики считают отдельным видом. В Колумбии держится в предгорьях и низменностях, изредка до 1 500 м.
 

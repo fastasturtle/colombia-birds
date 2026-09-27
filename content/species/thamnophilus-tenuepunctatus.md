@@ -2,6 +2,7 @@
 id: thamnophilus-tenuepunctatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец весь в поперечных чёрно-белых полосах; шапка и хохол сплошь чёрные"
   - "Горло самца в чёрно-белых продольных штрихах, на лбу много белого"
@@ -9,7 +10,7 @@ key_features:
   - "Глаз светлый, клюв толстый с крючком"
 similar:
   - id: thamnophilus-multistriatus
-    how: "у самца шапка и хохол в полосах, а не чёрные; самки почти одинаковы, решает место: живёт в долине Магдалены"
+    how: "у самца шапка и хохол в полосах, а не чёрные; самки почти одинаковы, решает место: живёт на склонах долины Магдалены"
   - id: cymbilaimus-lineatus
     how: "глаз красный, полосы тоньше и чаще, у самки полосатые спина и хвост; держится выше, в лианах"
 behavior: "Держится парами в густых кустах опушек, вырубок и вторичного леса, от земли до 10 м. В смешанные стаи почти не идёт, чаще сидит в глубине зарослей."
@@ -35,7 +36,7 @@ en:
     - "Pale eye, thick hooked bill"
   similar:
     - id: thamnophilus-multistriatus
-      how: "male's crown and crest barred, not black; females are nearly identical, so location decides: it lives in the Magdalena valley"
+      how: "male's crown and crest barred, not black; females are nearly identical, so location decides: it lives on the slopes of the Magdalena valley"
     - id: cymbilaimus-lineatus
       how: "red eye, finer and denser bars, female barred on back and tail; keeps higher, in vines"
   behavior: "Keeps in pairs in dense shrubs at edges, clearings and secondary growth, from the ground to 10 m. It seldom joins mixed flocks and usually sits deep in the tangles."

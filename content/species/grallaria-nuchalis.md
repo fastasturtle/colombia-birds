@@ -2,6 +2,7 @@
 id: grallaria-nuchalis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапка тёмно-каштановая, затылок и лицо рыже-каштановые"
   - "За глазом пятно голой белой кожи"
@@ -40,12 +41,12 @@ en:
   behavior: "Almost always in or near dense Chusquea bamboo, on the ground. Skulking, but at dawn it often walks out onto forest trails."
   voice: "A song of 4–7 clear whistles: several alike, the last long and sharply rising, 'keeu, kew-kew-kew, k-wheeee?'; sings at dawn and dusk."
 ---
-Chestnut-naped Antpitta (каштановоголовая питтовая муравьеловка) — крупная антпитта бамбуковых зарослей верхнего горного леса, в Колумбии на высотах 2 000–3 000 м. Каштановая голова над серым телом и белое «пятнышко» за глазом отличают её от других антпитт маршрута. Её звонкую песню с вопросительным концом слышно гораздо чаще, чем видно саму птицу.
+Chestnut-naped Antpitta (каштановоголовая питтовая муравьеловка) — крупная антпитта бамбуковых зарослей верхнего горного леса, в Колумбии на высотах 2 000–3 000 м. Каштановая голова над серым телом и белое «пятнышко» за глазом отличают её от других антпитт маршрута. Её звонкую песню с вопросительным концом слышно гораздо чаще, чем видно саму птицу. В Кундинамарке и Центральных Андах живёт подвид ruficeps, а на крайнем юге страны, в Нариньо, возможно, номинативный: его ареал на север от Эквадора прослежен плохо.
 
 На маршруте вид «возможно» на Трамплине птиц 15 октября и у Лагуны Ла-Коча 16 октября. Выходи на тропы с бамбуком на рассвете: именно тогда её чаще всего и встречают.
 
 ## English
 
-Chestnut-naped Antpitta is a large antpitta of bamboo thickets in upper montane forest, in Colombia at 2,000–3,000 m. The chestnut head over the gray body and the white 'spot' behind the eye separate it from the route's other antpittas. Its ringing song with a questioning ending is heard far more often than the bird is seen.
+Chestnut-naped Antpitta is a large antpitta of bamboo thickets in upper montane forest, in Colombia at 2,000–3,000 m. The chestnut head over the gray body and the white 'spot' behind the eye separate it from the route's other antpittas. Its ringing song with a questioning ending is heard far more often than the bird is seen. Cundinamarca and the Central Andes hold the subspecies ruficeps, while the country's far south, in Nariño, may hold the nominate: its range north of Ecuador is poorly known.
 
 On the route it is "maybe" at Trampolín de las Aves on 15 October and near Laguna de La Cocha on 16 October. Walk bamboo-lined trails at dawn: that is when it is most often met.

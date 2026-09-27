@@ -2,6 +2,7 @@
 id: myrmeciza-longipes
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх ровный коричнево-рыжий, от шапки до хвоста"
   - "У самца лицо, горло и верх груди чёрные, с серой каймой"
@@ -9,7 +10,7 @@ key_features:
   - "Самка: горло и грудь охристые, брюхо белое, на кроющих крыла чёрные полоски"
 similar:
   - id: poliocrania-exsul
-    how: "голова и низ самца аспидно-чёрные, брюхо тёмное, у глаза голая голубая кожа; живёт на тихоокеанской стороне"
+    how: "голова и низ самца аспидно-чёрные, брюхо тёмное, у глаза голая голубая кожа; держится во влажном лесу, на тихоокеанской стороне и на севере, в среднем течении Магдалены"
   - id: formicarius-analis
     how: "крупнее, ходит по земле с задранным хвостом; низ серый, подхвостье рыжее, у глаза голая кожа"
 behavior: "Пары и семьи держатся на земле и до метра над ней в густом подлеске сухих и полувлажных лесов, вторичных зарослях и галерейных лесах. Отбрасывают листья клювом, выискивая насекомых."
@@ -35,7 +36,7 @@ en:
     - "Female: buff throat and breast, white belly, black bars on the wing coverts"
   similar:
     - id: poliocrania-exsul
-      how: "male's head and underparts slaty black, dark belly, bare blue skin at the eye; lives on the Pacific side"
+      how: "male's head and underparts slaty black, dark belly, bare blue skin at the eye; keeps to humid forest, on the Pacific side and in the north, in the middle Magdalena valley"
     - id: formicarius-analis
       how: "larger, walks on the ground with the tail cocked; gray below, rufous undertail, bare skin at the eye"
   behavior: "Pairs and families keep on the ground and up to a metre above it in dense understory of dry and semi-humid forest, secondary thickets and gallery forest. They toss leaves aside with the bill in search of insects."
