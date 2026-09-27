@@ -2,6 +2,7 @@
 id: myioborus-ornatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб и передняя часть темени ярко-жёлтые"
   - "Лицо белое у птиц под Боготой, жёлтое у формы chrysops на юге и западе"
@@ -12,7 +13,7 @@ similar:
   - id: myioborus-miniatus
     how: "лицо и горло тёмно-аспидные, на темени каштановое пятно; обычно ниже по склону"
   - id: myioborus-melanocephalus
-    how: "жёлтые «очки» вокруг глаза на тёмной голове, темя рыжее"
+    how: "лицо чёрное, жёлтые только «очки»; на темени рыжее пятно, жёлтого лба нет"
 behavior: "Пары и семейные группы держатся от среднего яруса до крон и часто ведут микст-флоки. Раскрывает хвост, вспугивая насекомых, и ловит их в воздухе."
 voice: "Песня — нежная щебечущая фраза в 3–8 секунд: начинается тихо, нарастает и резко обрывается; позыв — высокое нисходящее «цит»."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Golden-fronted whitestart (en), Myioborus ornatus (es), CC BY-SA 4.0 — data/texts: подвиды, высоты, голос"
   - "Wikipedia: Slate-throated whitestart, Spectacled whitestart (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: подвиды (ornatus у Боготы и в Чикаке, chrysops на юге Восточных Анд — Сибундой, Трамплин птиц), высоты, голос, кормёжка — en/es.wikipedia (data/texts); отличие от M. melanocephalus — en.wikipedia Spectacled whitestart (data/texts)"
 en:
   key_features:
     - "Bright yellow forehead and forecrown"
@@ -37,7 +39,7 @@ en:
     - id: myioborus-miniatus
       how: "dark slaty face and throat, chestnut crown patch; usually lower on the slope"
     - id: myioborus-melanocephalus
-      how: "yellow spectacles on a dark head, rufous crown"
+      how: "black face with only yellow spectacles; rufous crown patch, no yellow forehead"
   behavior: "Pairs and family groups keep from the midstory to the canopy and often lead mixed flocks. It fans its tail to flush insects and catches them in the air."
   voice: "The song is a sweet warbling phrase of 3–8 seconds that starts faint, grows louder and stops abruptly; the call is a high, downslurred 'tsit'."
 ---

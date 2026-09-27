@@ -2,6 +2,7 @@
 id: sturnella-magna
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и низ ярко-жёлтые, на груди широкое чёрное «V»"
   - "Верх бурый в чёрных пестринах, по темени светлые и тёмные полосы"
@@ -24,6 +25,7 @@ sources:
   - "Wikipedia: Eastern meadowlark (en), Sturnella magna (es), Восточный луговой трупиал (ru), CC BY-SA 4.0 — data/texts"
   - "content/species/leistes-bellicosus.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: окраска, голос (чистые печальные свисты), высоты до 3 500 м и отличие от Leistes bellicosus подтверждены en/es/ru.wikipedia (data/texts)"
 en:
   key_features:
     - "Bright yellow throat and underparts, broad black V on the breast"

@@ -2,6 +2,7 @@
 id: spinus-psaltria
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец сверху целиком чёрный, от лба до хвоста, низ ярко-жёлтый"
   - "На чёрном крыле белое пятно у основания маховых, в полёте белая полоса"
@@ -13,7 +14,7 @@ similar:
   - id: spinus-xanthogastrus
     how: "у самца чёрные также горло и грудь, жёлтое только брюхо и полоса на крыле"
 behavior: "Пары и стайки держатся на опушках, в садах, парках и на заросших сорняками полях, кормятся семенами на верхушках кустов и трав. Летит волнообразно, перекликаясь на лету."
-voice: "Позывы — жалобное «тии-е» и сухое щебетание в полёте; песня — длинная быстрая трель с подражаниями."
+voice: "В полёте — резкое «чиг-чиг-чиг»; другой позыв — высокий протяжный свист «тии-иии» с подъёмом или спадом; песня — долгое щебетание с подражаниями."
 traits:
   size: sparrow
   colors: [yellow, black]
@@ -25,6 +26,7 @@ sources:
   - "Wikipedia: Lesser goldfinch (en), Spinus psaltria (es), Мексиканский чиж (ru), CC BY-SA 4.0 — data/texts"
   - "content/species/spinus-spinescens.md (согласование отличий)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: голос — en/es/ru.wikipedia (data/texts); отличия от S. spinescens и S. xanthogastrus подтверждены там же"
 en:
   key_features:
     - "Male wholly black above, from forehead to tail, bright yellow below"
@@ -37,7 +39,7 @@ en:
     - id: spinus-xanthogastrus
       how: "male also black on the throat and breast, yellow only on the belly and in a wing bar"
   behavior: "Pairs and small flocks keep at edges, in gardens, parks and weedy fields, feeding on seeds at the tops of shrubs and grasses. Flight undulating, with calls given on the wing."
-  voice: "Calls are a plaintive 'tee-yee' and dry twittering in flight; the song is a long, fast warble with mimicry."
+  voice: "A harsh 'chig chig chig' in flight; another call is a high, drawn-out rising or falling whistle, 'teeeyeee'; the song is a long twittering warble with mimicry."
 ---
 Lesser Goldfinch (мексиканский чиж) — мелкий вьюрок открытых мест с деревьями, в Колумбии от низин до 3 100 м. Колумбийские самцы относятся к черноспинной форме: сверху они целиком чёрные, снизу лимонно-жёлтые. Самку легко принять за певуна, пока не разглядишь конический клюв вьюрка и белую полоску на крыле.
 

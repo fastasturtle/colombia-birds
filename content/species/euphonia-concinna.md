@@ -2,6 +2,7 @@
 id: euphonia-concinna
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Жёлтое на лбу самца узкое, доходит только до глаза, у клюва отделено чёрной чертой"
   - "Горло иссиня-чёрное, как голова и спина"
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Velvet-fronted euphonia (en), Euphonia concinna (es), CC BY-SA 4.0 — data/texts: окраска, ареал, высоты, голос"
   - "Wikipedia: Thick-billed euphonia, Orange-bellied euphonia (en, CC BY-SA 4.0) — data/texts"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: окраска, ареал, высоты, голос и отличия от E. laniirostris и E. xanthogaster подтверждены en/es/ru.wikipedia (data/texts)"
 en:
   key_features:
     - "Male's yellow forehead narrow, reaching only to the eye, separated from the bill by a black line"

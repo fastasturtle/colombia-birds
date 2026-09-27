@@ -2,6 +2,7 @@
 id: coereba-flaveola
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Бровь широкая, белая, на черноватой голове"
   - "Грудь и брюхо ярко-жёлтые, горло серое"
@@ -11,7 +12,7 @@ similar:
   - id: setophaga-pitiayumi
     how: "верх голубовато-серый, горло тоже жёлтое, на крыле белые полосы, брови нет"
   - id: todirostrum-cinereum
-    how: "клюв прямой и плоский, глаз светлый, брови нет, хвост постоянно вздёрнут"
+    how: "клюв прямой и плоский, брови нет, горло жёлтое или белое, хвост часто вздёрнут"
 behavior: "Очень подвижна: скачет по цветкам и прокалывает их сбоку, ест сочные плоды, пьёт сироп на кормушках для колибри. В сплошном лесу держится в кронах, но чаще встречается в садах и на опушках."
 voice: "Песня — торопливое высокое шипящее щебетание, повторяемое часто."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Coereba flaveola (es), Банановый певун (ru), CC BY-SA 4.0 — data/texts"
   - "Данные проекта: data/species/coereba-flaveola.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
+  - "Фактчек 27.09.2026: Todirostrum: у подвида sclateri (Каука, Нариньо) горло белое, глаз иногда тёмный — en.wikipedia Common tody-flycatcher (data/texts); остальное подтверждено en/es/ru.wikipedia (data/texts)"
 en:
   key_features:
     - "Broad white brow on a blackish head"
@@ -36,7 +38,7 @@ en:
     - id: setophaga-pitiayumi
       how: "bluish-gray above, throat yellow as well, white wing bars, no brow"
     - id: todirostrum-cinereum
-      how: "bill straight and flat, eye pale, no brow, tail constantly cocked"
+      how: "bill straight and flat, no brow, throat yellow or white, tail often cocked"
   behavior: "Very active: hops over flowers and pierces them from the side, eats juicy fruit and drinks syrup at hummingbird feeders. In closed forest it keeps to the canopy, but is more often found in gardens and at edges."
   voice: "The song is a hurried, high, hissing twitter, repeated often."
 ---
