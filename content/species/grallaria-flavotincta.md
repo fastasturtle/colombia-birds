@@ -2,6 +2,7 @@
 id: grallaria-flavotincta
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло и грудь белые с отчётливым жёлтым налётом, брюхо белое"
   - "Верх ровный рыже-бурый, без пестрин, от темени до хвоста"
@@ -12,7 +13,7 @@ similar:
     how: "низ охристый, темнее на груди, без жёлтого; у клюва светлый ус с тёмной полоской; живёт ниже"
   - id: grallaria-hypoleuca
     how: "грудь серая, а не жёлтая, горло и брюхо чисто белые; на маршруте в Хуиле и Путумайо, не на тихоокеанском склоне"
-behavior: "Держится на земле внутри влажного горного леса, особенно на крутых склонах и в оврагах у ручьёв. Прыгает по подстилке, замирая и прощупывая почву; на некоторых кормушках с червями в Эквадоре стала ручной."
+behavior: "Держится на земле внутри влажного горного леса, особенно на крутых склонах и в оврагах у ручьёв. Прыгает по подстилке, замирая и прощупывая почву; регулярно приходит на кормушки с червями в заповедниках."
 voice: "Три полых свиста, первые два почти слиты, последний выше: «пу-пюю-пуух»."
 traits:
   size: thrush
@@ -37,7 +38,7 @@ en:
       how: "ochre below, darker on the breast, no yellow; pale malar with a dark stripe below; lives lower"
     - id: grallaria-hypoleuca
       how: "gray rather than yellow breast, clean white throat and belly; on the route in Huila and Putumayo, not on the Pacific slope"
-  behavior: "Keeps on the ground inside humid montane forest, especially on steep slopes and in ravines by streams. Hops over the litter, pausing to probe the soil; at some worm feeders in Ecuador it has become tame."
+  behavior: "Keeps on the ground inside humid montane forest, especially on steep slopes and in ravines by streams. Hops over the litter, pausing to probe the soil; it regularly visits worm feeders at reserves."
   voice: "Three hollow whistles, the first two almost merged, the last higher: 'poo-püüü-pooh'."
 ---
 Yellow-breasted Antpitta (желтогрудая питтовая муравьеловка) — антпитта тихоокеанского склона Анд от Антьокии до северо-запада Эквадора, почти-эндемик; в Колумбии на высотах 1 300–2 100 м. Жёлтая грудь при рыжем верхе необычна для антпитт и хорошо видна, если птица выйдет на тропу. Обычно её слышно гораздо раньше: трёхнотный полый свист из оврага.

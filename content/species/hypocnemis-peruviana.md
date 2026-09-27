@@ -2,6 +2,7 @@
 id: hypocnemis-peruviana
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапка чёрная с белой полоской посередине, над глазом белая бровь"
   - "Горло и грудь белые в частых тёмных пятнах"

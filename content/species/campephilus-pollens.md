@@ -2,6 +2,7 @@
 id: campephilus-pollens
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Поясница и низ спины белые, хорошо видны на взлёте"
   - "Лицо чёрно-белое: белая полоса от клюва под щекой уходит вниз по шее"

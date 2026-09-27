@@ -2,6 +2,7 @@
 id: grallaria-squamigera
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Низ жёлто-охристый в частых волнистых чёрных полосах"
   - "Шапка и затылок серые, спина серо-бурая в тёмной чешуе"
@@ -12,7 +13,7 @@ similar:
     how: "мельче, голова ярко-каштановая, низ белый в продольных пестринах, а не в полосах"
   - id: grallaria-gigantea
     how: "ещё крупнее и массивнее, низ рыже-бурый, полосы только на горле и груди; очень редка"
-behavior: "Держится на земле внутри высокогорного леса, часто в бамбуке и у полян. Поёт на рассвете с низкой присады; на некоторых кормушках с червями привыкает к людям."
+behavior: "Держится на земле внутри высокогорного леса, часто в зарослях бамбука Chusquea; рано утром выходит на тропы. Поёт на рассвете с низкой присады; на некоторых кормушках с червями привыкает к людям."
 voice: "Быстрая полая дрожащая трель «хохохохохохо» 3–4 секунды, чуть повышается к концу, напоминает голос маленькой совы."
 traits:
   size: thrush
@@ -38,15 +39,15 @@ en:
       how: "smaller, bright chestnut head, white underparts streaked rather than barred"
     - id: grallaria-gigantea
       how: "even larger and bulkier, rufous-brown below, barred only on throat and breast; very rare"
-  behavior: "Keeps to the ground inside high-elevation forest, often in bamboo and near clearings. Sings at dawn from a low perch; at some worm feeders it gets used to people."
+  behavior: "Keeps to the ground inside high-elevation forest, often in Chusquea bamboo; early in the day it comes out onto trails. Sings at dawn from a low perch; at some worm feeders it gets used to people."
   voice: "A fast, hollow, quavering trill, 'hohohohohoho', 3–4 seconds long and rising slightly at the end, like the voice of a small owl."
 ---
-Undulated Antpitta (чешуебрюхая питтовая муравьеловка) — самая крупная антпитта высокогорья, в Колумбии на высотах 2 200–3 700 м, до верхней границы леса. Увидеть её трудно, зато совиная трель на рассвете разносится далеко. В последние годы её приучили к кормушкам с червями в нескольких заповедниках Анд.
+Undulated Antpitta (чешуебрюхая питтовая муравьеловка) — самая крупная антпитта высокогорья после редкой Giant Antpitta, в Колумбии на высотах 2 200–3 700 м, до верхней границы леса. Увидеть её трудно, зато совиная трель на рассвете разносится далеко. В последние годы её приучили к кормушкам с червями в нескольких заповедниках Анд.
 
 В групповой программе тура данных о ней почти нет. Вид отмечен как «возможно» в Чингасе и в Обсерватории колибри под Боготой: обе локации не входят в программу тура, это варианты для самостоятельного выезда из Боготы.
 
 ## English
 
-Undulated Antpitta is the largest antpitta of the high Andes, in Colombia at 2,200–3,700 m, up to the treeline. It is hard to see, but its owl-like trill carries far at dawn. In recent years it has been trained to worm feeders at several Andean reserves.
+Undulated Antpitta is the largest antpitta of the high Andes after the rare Giant Antpitta, in Colombia at 2,200–3,700 m, up to the treeline. It is hard to see, but its owl-like trill carries far at dawn. In recent years it has been trained to worm feeders at several Andean reserves.
 
 There are hardly any records for it on the group tour programme. It is rated "maybe" at Chingaza and at the Observatorio de Colibríes near Bogotá: both are outside the tour programme, options for an independent trip from Bogotá.

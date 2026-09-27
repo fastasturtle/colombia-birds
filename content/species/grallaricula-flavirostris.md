@@ -2,6 +2,7 @@
 id: grallaricula-flavirostris
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо, горло и грудь охристые; вокруг глаза охристое кольцо"
   - "Под щекой чёрная усовая полоска, грудь в оливковых штрихах или без них"
@@ -12,7 +13,7 @@ similar:
     how: "шапка тёмная сланцево-серая, низ оранжево-рыжий без штрихов, поперёк горла белый полумесяц"
   - id: grallaricula-cucullata
     how: "вся голова ярко-оранжево-рыжая, как капюшон, грудь серая; на маршруте только в Хуиле"
-behavior: "Держится в густом подлеске влажного горного леса, у прогалов, ручьёв и в бамбуке, обычно на ветках до 1–2 м от земли. Подолгу сидит неподвижно, покачиваясь, и спрыгивает за добычей."
+behavior: "Держится в густом подлеске влажного горного леса, у прогалов, ручьёв и в бамбуке, обычно на ветках до метра от земли. Перепрыгивает в гуще, спрыгивает за добычей на землю и делает короткие броски к листьям."
 voice: "Поёт редко; в Эквадоре одна из песен — простое «виию», повторяемое через 8–10 секунд."
 traits:
   size: sparrow
@@ -37,7 +38,7 @@ en:
       how: "dark slate crown, orange-rufous underparts without streaks, a white crescent across the throat"
     - id: grallaricula-cucullata
       how: "whole head bright orange-rufous like a hood, gray breast; on the route only in Huila"
-  behavior: "Keeps to dense understory of humid montane forest, at gaps, streams and in bamboo, usually on branches up to 1–2 m above the ground. It sits still for long spells, swaying, and drops for prey."
+  behavior: "Keeps to dense understory of humid montane forest, at gaps, streams and in bamboo, usually on branches within a metre of the ground. It hops through the tangle, drops to the ground for prey and makes short sallies to leaves."
   voice: "Sings rarely; in Ecuador one song is a simple 'weeeu' repeated every 8–10 seconds."
 ---
 Ochre-breasted Antpitta (андская питтуля) — крошечная антпитта подлеска горного леса, в Колумбии на высотах примерно 500–2 000 м. На западном склоне Нариньо живёт подвид mindoensis, очень изменчивый: грудь бывает почти без штрихов или густо исчерченной, клюв целиком жёлтым или тёмным. Птица размером с воробья сидит на тонкой ветке у тропы так тихо, что её легко пройти мимо.
