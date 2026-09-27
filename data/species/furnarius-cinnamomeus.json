@@ -27,27 +27,27 @@
  "genus": "Furnarius",
  "id": "furnarius-cinnamomeus",
  "ids": {
-  "avibase": null,
+  "avibase": "09CA444FFD81EE3F",
   "birdbase": 14969,
-  "gbif": null,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "gbif": "6100758",
+  "inaturalist": "1507412",
+  "iucn": "103670862",
+  "wikidata": "Q3080103",
+  "xeno_canto": "Furnarius-cinnamomeus"
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Furnarius_cinnamomeus",
   "ebird": "https://ebird.org/species/palhor4",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1507412",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Pacific_hornero",
+   "es": "https://es.wikipedia.org/wiki/Furnarius_cinnamomeus",
+   "ru": "https://ru.wikipedia.org/wiki/Furnarius_cinnamomeus"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Furnarius+cinnamomeus"
  },
@@ -95,5 +95,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Furnarius%20cinnamomeus%20-%20Pacific%20Hornero%3B%20Antwerp%20Zoo.jpg"
+ ]
 }

@@ -27,13 +27,13 @@
  "genus": "Basileuterus",
  "id": "basileuterus-delattrii",
  "ids": {
-  "avibase": null,
+  "avibase": "F50F4ACE3D9DA570",
   "birdbase": 36419,
   "gbif": 2489785,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q40982513",
+  "xeno_canto": "Basileuterus-delattrii"
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,13 +41,13 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Basileuterus_delattrii",
   "ebird": "https://ebird.org/species/rucwar4",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Chestnut-capped_warbler",
+   "es": "https://es.wikipedia.org/wiki/Basileuterus_delattrii",
+   "ru": "https://ru.wikipedia.org/wiki/Basileuterus_delattrii"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Basileuterus+delattrii"
  },
@@ -91,5 +91,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Basileuterus%20delattrii%2003.jpg"
+ ]
 }

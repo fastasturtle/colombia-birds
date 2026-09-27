@@ -27,12 +27,12 @@
  "genus": "Pachyramphus",
  "id": "pachyramphus-salvini",
  "ids": {
-  "avibase": null,
+  "avibase": "7CF1D272082BB0BC",
   "birdbase": 18590,
   "gbif": 8120211,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q120964622",
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_salvini",
   "ebird": "https://ebird.org/species/bawbec6",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Cryptic_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_salvini",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+salvini"
@@ -94,5 +94,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cryptic%20Becard%20imported%20from%20iNaturalist%20photo%20402796356%20on%205%20August%202024.jpg"
+ ]
 }

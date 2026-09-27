@@ -27,26 +27,26 @@
  "genus": "Tolmomyias",
  "id": "tolmomyias-viridiceps",
  "ids": {
-  "avibase": null,
+  "avibase": "737A9431B0CC1CB5",
   "birdbase": 17565,
-  "gbif": null,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "gbif": "6101059",
+  "inaturalist": "1437173",
+  "iucn": "22731695",
+  "wikidata": "Q12268031",
+  "xeno_canto": "Tolmomyias-viridiceps"
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tolmomyias_viridiceps",
   "ebird": "https://ebird.org/species/yebfly4",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1437173",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Olive-faced_flatbill",
+   "es": "https://es.wikipedia.org/wiki/Tolmomyias_viridiceps",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Tolmomyias+viridiceps"
@@ -93,5 +93,7 @@
   "primary_habitat": "Riparian",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tolmomyias%20viridiceps%20108240354%20%28cropped%29.jpg"
+ ]
 }

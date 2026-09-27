@@ -27,12 +27,12 @@
  "genus": "Tunchiornis",
  "id": "tunchiornis-ferrugineifrons",
  "ids": {
-  "avibase": null,
+  "avibase": "93AB2A9011F43D10",
   "birdbase": 21429,
   "gbif": null,
-  "inaturalist": null,
+  "inaturalist": "1651929",
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q135102358",
   "xeno_canto": null
  },
  "iucn": {
@@ -43,10 +43,10 @@
  "links": {
   "commons_category": null,
   "ebird": "https://ebird.org/species/tacgre4",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1651929",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Rufous-fronted_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Tunchiornis_ferrugineifrons",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Tunchiornis+ferrugineifrons"
@@ -91,5 +91,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tunchiornis%20ferrugineifrons%20Rufous-fronted%20Greenlet%3B%20Allpahuayo-Mishana%2C%20Loreto%2C%20Peru.jpg"
+ ]
 }
