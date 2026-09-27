@@ -20,6 +20,7 @@ CC0 / CC BY / CC BY-SA / Public Domain (для текстов также CC BY-N
 | Wikipedia «List of birds of Colombia», «Endemic birds of Colombia» | 2 040 записей с флагами (V)(E)(I)(U) | CC BY-SA 4.0 | MediaWiki API `action=parse` | Сверка |
 | SACC country lists (`SACCListByCountry.xlsx`) | Коды X / X(e) / NB / V | Без лицензии, академическое цитирование | не редистрибутировать файл | Сверка |
 | Avibase Colombia, BirdLife DataZone, ProAves | Списки, ареалы, статусы | Все права защищены | — | **Только ссылки** |
+| **Hilty, S.L. (2021) «Birds of Colombia»**, Lynx Edicions (бумажная книга группы) | Номера страниц видов и семейств из указателя книги; список литературы | Все права защищены; берём только служебные разделы (указатели, литература) с фото владельца, транскрипция в `pipeline/sources/lynx/` | Шаг `lynx` (`pipeline/README.md`) | `lynx_page` на карточках вида и семейства |
 
 ## 2. Признаки, высоты, биотопы
 
