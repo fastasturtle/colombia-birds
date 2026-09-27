@@ -3,11 +3,11 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 405
+- Карточек: 467
 - Проверено: 225
-- Не проверено: 180
+- Не проверено: 242
 
-## Не проверено (180)
+## Не проверено (242)
 
 | Слаг | English | Группа |
 |---|---|---|
@@ -32,6 +32,7 @@
 | piaya-cayana | Common Squirrel-Cuckoo | Голуби, кукушки и гоацин |
 | coccyzus-americanus | Yellow-billed Cuckoo | Голуби, кукушки и гоацин |
 | hydropsalis-climacocerca | Ladder-tailed Nightjar | Козодои, потоо и гуахаро |
+| nyctiphrynus-rosenbergi | Choco Poorwill | Козодои, потоо и гуахаро |
 | nyctibius-grandis | Great Potoo | Козодои, потоо и гуахаро |
 | cypseloides-cherriei | Spot-fronted Swift | Стрижи и колибри |
 | streptoprocne-zonaris | White-collared Swift | Стрижи и колибри |
@@ -106,6 +107,14 @@
 | dryocopus-lineatus | Lineated Woodpecker | Туканы, бородатки и дятлы |
 | celeus-elegans | Chestnut Woodpecker | Туканы, бородатки и дятлы |
 | colaptes-punctigula | Spot-breasted Woodpecker | Туканы, бородатки и дятлы |
+| touit-huetii | Scarlet-shouldered Parrotlet | Попугаи |
+| touit-stictopterus | Spot-winged Parrotlet | Попугаи |
+| pyrilia-pulchra | Rose-faced Parrot | Попугаи |
+| pionus-menstruus | Blue-headed Parrot | Попугаи |
+| pionus-chalcopterus | Bronze-winged Parrot | Попугаи |
+| forpus-conspicillatus | Spectacled Parrotlet | Попугаи |
+| pyrrhura-calliptera | Brown-breasted Parakeet | Попугаи |
+| aratinga-weddellii | Dusky-headed Parakeet | Попугаи |
 | dysithamnus-puncticeps | Spot-crowned Antvireo | Муравьеловки, печники и древолазы |
 | dysithamnus-occidentalis | Bicolored Antvireo | Муравьеловки, печники и древолазы |
 | epinecrophylla-fulviventris | Checker-throated Stipplethroat | Муравьеловки, печники и древолазы |
@@ -158,18 +167,71 @@
 | myiozetetes-similis | Social Flycatcher | Тиранны и титиры |
 | legatus-leucophaius | Piratic Flycatcher | Тиранны и титиры |
 | tyrannus-tyrannus | Eastern Kingbird | Тиранны и титиры |
+| manacus-manacus | White-bearded Manakin | Котинги и манакины |
+| ampelioides-tschudii | Scaled Fruiteater | Котинги и манакины |
+| vireo-leucophrys | Brown-capped Vireo | Ласточки, крапивники, дрозды и другие |
+| vireo-olivaceus | Red-eyed Vireo | Ласточки, крапивники, дрозды и другие |
+| cyanolyca-pulchra | Beautiful Jay | Ласточки, крапивники, дрозды и другие |
+| cyanolyca-turcosa | Turquoise Jay | Ласточки, крапивники, дрозды и другие |
+| cyanocorax-violaceus | Violaceous Jay | Ласточки, крапивники, дрозды и другие |
+| progne-chalybea | Gray-breasted Martin | Ласточки, крапивники, дрозды и другие |
+| stelgidopteryx-ruficollis | Southern Rough-winged Swallow | Ласточки, крапивники, дрозды и другие |
+| atticora-fasciata | White-banded Swallow | Ласточки, крапивники, дрозды и другие |
+| pygochelidon-cyanoleuca | Blue-and-white Swallow | Ласточки, крапивники, дрозды и другие |
+| orochelidon-murina | Brown-bellied Swallow | Ласточки, крапивники, дрозды и другие |
+| hirundo-rustica | Barn Swallow | Ласточки, крапивники, дрозды и другие |
+| microbates-cinereiventris | Tawny-faced Gnatwren | Ласточки, крапивники, дрозды и другие |
+| polioptila-plumbea | Tropical Gnatcatcher | Ласточки, крапивники, дрозды и другие |
+| microcerculus-marginatus | Scaly-breasted Wren | Ласточки, крапивники, дрозды и другие |
+| odontorchilus-branickii | Gray-mantled Wren | Ласточки, крапивники, дрозды и другие |
+| cistothorus-platensis | Grass Wren | Ласточки, крапивники, дрозды и другие |
+| cinnycerthia-unirufa | Rufous Wren | Ласточки, крапивники, дрозды и другие |
+| henicorhina-leucosticta | White-breasted Wood-Wren | Ласточки, крапивники, дрозды и другие |
+| henicorhina-leucophrys | Gray-breasted Wood-Wren | Ласточки, крапивники, дрозды и другие |
+| mimus-gilvus | Tropical Mockingbird | Ласточки, крапивники, дрозды и другие |
+| catharus-ustulatus | Swainson's Thrush | Ласточки, крапивники, дрозды и другие |
+| piranga-rubra | Summer Tanager | Танагры и кардиналы |
+| piranga-olivacea | Scarlet Tanager | Танагры и кардиналы |
+| cissopis-leverianus | Magpie Tanager | Танагры и кардиналы |
 | sphenopsis-frontalis | Oleaginous Hemispingus | Танагры и кардиналы |
+| tachyphonus-rufus | White-lined Tanager | Танагры и кардиналы |
+| ramphocelus-flammigerus | Flame-rumped Tanager | Танагры и кардиналы |
+| ramphocelus-carbo | Silver-beaked Tanager | Танагры и кардиналы |
+| ramphocelus-dimidiatus | Crimson-backed Tanager | Танагры и кардиналы |
 | bangsia-flavovirens | Yellow-green Tanager | Танагры и кардиналы |
+| sporathraupis-cyanocephala | Blue-capped Tanager | Танагры и кардиналы |
+| anisognathus-lacrymosus | Lacrimose Mountain Tanager | Танагры и кардиналы |
 | anisognathus-notabilis | Black-chinned Mountain Tanager | Танагры и кардиналы |
 | iridosornis-porphyrocephalus | Purplish-mantled Tanager | Танагры и кардиналы |
 | stilpnia-nigrocincta | Masked Tanager | Танагры и кардиналы |
+| stilpnia-larvata | Golden-hooded Tanager | Танагры и кардиналы |
 | stilpnia-cyanicollis | Blue-necked Tanager | Танагры и кардиналы |
+| tangara-nigroviridis | Beryl-spangled Tanager | Танагры и кардиналы |
 | tangara-cyanotis | Blue-browed Tanager | Танагры и кардиналы |
+| tangara-mexicana | Turquoise Tanager | Танагры и кардиналы |
+| tangara-gyrola | Bay-headed Tanager | Танагры и кардиналы |
+| tangara-schrankii | Green-and-gold Tanager | Танагры и кардиналы |
+| tangara-icterocephala | Silver-throated Tanager | Танагры и кардиналы |
 | tersina-viridis | Swallow Tanager | Танагры и кардиналы |
 | dacnis-egregia | Yellow-tufted Dacnis | Танагры и кардиналы |
 | dacnis-berlepschi | Scarlet-breasted Dacnis | Танагры и кардиналы |
+| cyanerpes-caeruleus | Purple Honeycreeper | Танагры и кардиналы |
+| conirostrum-sitticolor | Blue-backed Conebill | Танагры и кардиналы |
+| diglossa-humeralis | Black Flowerpiercer | Танагры и кардиналы |
+| diglossa-albilatera | White-sided Flowerpiercer | Танагры и кардиналы |
+| diglossa-sittoides | Rusty Flowerpiercer | Танагры и кардиналы |
+| diglossa-caerulescens | Bluish Flowerpiercer | Танагры и кардиналы |
 | cnemoscopus-rubrirostris | Pink-billed Cnemoscopus | Танагры и кардиналы |
+| sicalis-flaveola | Saffron Finch | Танагры и кардиналы |
+| sicalis-luteola | Grassland Yellow-Finch | Танагры и кардиналы |
+| volatinia-jacarina | Blue-black Grassquit | Танагры и кардиналы |
+| sporophila-corvina | Variable Seedeater | Танагры и кардиналы |
+| sporophila-luctuosa | Black-and-white Seedeater | Танагры и кардиналы |
+| catamenia-inornata | Plain-colored Seedeater | Танагры и кардиналы |
 | catamenia-homochroa | Paramo Seedeater | Танагры и кардиналы |
+| coereba-flaveola | Bananaquit | Танагры и кардиналы |
+| saltator-maximus | Buff-throated Saltator | Танагры и кардиналы |
+| saltator-atripennis | Black-winged Saltator | Танагры и кардиналы |
 | euphonia-concinna | Velvet-fronted Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
 | euphonia-laniirostris | Thick-billed Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
 | euphonia-xanthogaster | Orange-bellied Euphonia | Овсянки, древесницы, трупиалы и вьюрки |
