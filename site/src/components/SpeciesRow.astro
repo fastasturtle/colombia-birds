@@ -24,7 +24,7 @@ const href = `${base}species/${s.id}/`;
     <a href={href} class="thumb empty" aria-hidden="true" tabindex="-1">🐦</a>
   )}
   <a class="txt" href={href}>
-    <div>{why.length > 0 && <b class="star" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★ </b>}<strong>{nm.main}</strong></div>
+    <div>{why.length > 0 && !s.endemic && !s.near_endemic && <b class="star" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★ </b>}<strong>{nm.main}</strong></div>
     <div class="muted">{nm.alt && <>{nm.alt} · </>}<span class="sci">{s.sci}</span></div>
     <div class="meta">
       {state && <StateWord state={state} />}

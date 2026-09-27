@@ -39,7 +39,7 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
             <a class="row sp" href={`${base}species/${r.s.id}/`} data-st={r.state} data-int={r.why.length ? '' : undefined} data-nend={r.s.endemic || r.s.near_endemic ? '' : undefined} data-end={r.s.endemic ? '' : undefined}>
               {r.s.photo ? <img class="thumb" src={mediaUrl(r.s.photo)} alt="" loading="lazy" width="48" height="48" /> : <span class="thumb empty" aria-hidden="true"></span>}
               <span class="txt">
-                <span class="l1">{r.why.length > 0 && <b class="star" title={`интересная: ${r.why.map((w) => WHY_RU[w]).join(', ')}`}>★</b>}<strong>{r.nm.main}</strong></span>
+                <span class="l1">{r.why.length > 0 && !r.s.endemic && !r.s.near_endemic && <b class="star" title={`интересная: ${r.why.map((w) => WHY_RU[w]).join(', ')}`}>★</b>}<strong>{r.nm.main}</strong></span>
                 <span class="l2 muted">{r.nm.alt && <>{r.nm.alt} · </>}<span class="sci">{r.s.sci}</span></span>
                 <span class="tags">
                   <StateWord state={r.state} title={recs(r.n)} />

@@ -175,7 +175,7 @@
           {#if r.it.photo}<img src={`${mediaBase}/${r.it.photo}`} alt="" loading="lazy" />{:else}<span class="empty">🐦</span>{/if}
           {#if r.int || r.it.e || r.it.n}
             <span class="badges">
-              {#if r.int}<span class="b hl" title="интересная">★</span>{/if}
+              {#if r.int && !r.it.e && !r.it.n}<span class="b hl" title="интересная">★</span>{/if}
               {#if r.it.e}<EndemicMark kind="end" variant="tile" />{:else if r.it.n}<EndemicMark kind="near" variant="tile" />{/if}
             </span>
           {/if}
