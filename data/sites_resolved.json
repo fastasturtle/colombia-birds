@@ -149,12 +149,12 @@
   "department": "Cundinamarca",
   "ebird_hotspots": [
    {
-    "id": "L6278091",
-    "name": "PNN Sumapaz"
-   },
-   {
     "id": "L7523158",
     "name": "PNN Sumapaz — Laguna La Virginia"
+   },
+   {
+    "id": "L2758310",
+    "name": "PNN Sumapaz — Laguna Chisacá"
    }
   ],
   "elev_max": 3800,
@@ -389,6 +389,10 @@
    {
     "id": "L1612184",
     "name": "Parque Natural Chicaque"
+   },
+   {
+    "id": "L35521462",
+    "name": "Parque Natural Chicaque — El Refugio"
    }
   ],
   "elev_max": 2700,
@@ -527,7 +531,12 @@
  {
   "coords_approx": true,
   "department": "Huila",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L5654916",
+    "name": "El Encanto Nature Reserve"
+   }
+  ],
   "elev_max": 1350,
   "elev_min": 1350,
   "habitat_ru": "Предгорный и облачный лес долины Гуарапас, сады и кормушки",
@@ -857,7 +866,12 @@
  {
   "coords_approx": true,
   "department": "Putumayo",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L3643030",
+    "name": "Vereda Rumiyaco — Los Andes"
+   }
+  ],
   "elev_max": 1000,
   "elev_min": 800,
   "habitat_ru": "Опушка предгорного леса и цветники",
@@ -1060,12 +1074,8 @@
   "department": "Putumayo",
   "ebird_hotspots": [
    {
-    "id": "L6464472",
-    "name": "El Escondite Reserva Natural"
-   },
-   {
     "id": "L17054356",
-    "name": "El Escondite (alternative ID, to verify)"
+    "name": "El Escondite Reserva Natural"
    }
   ],
   "elev_max": 450,
@@ -1170,7 +1180,16 @@
  {
   "coords_approx": true,
   "department": "Putumayo",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L21289841",
+    "name": "Madre Vieja Río Putumayo"
+   },
+   {
+    "id": "L18722308",
+    "name": "Puerto Asís — Barrio Los Pinos"
+   }
+  ],
   "elev_max": 270,
   "elev_min": 230,
   "habitat_ru": "Болота, вторичный лес и просёлки амазонской низменности",
@@ -1339,8 +1358,8 @@
   "department": "Putumayo",
   "ebird_hotspots": [
    {
-    "id": "L5390586",
-    "name": "RN La Isla Escondida"
+    "id": "L9565131",
+    "name": "Orito — Centro Ecoturístico Ma&Ju"
    }
   ],
   "elev_max": 350,
@@ -2094,12 +2113,7 @@
  {
   "coords_approx": true,
   "department": "Nariño",
-  "ebird_hotspots": [
-   {
-    "id": "L5632537",
-    "name": "Reserva La Nutria"
-   }
-  ],
+  "ebird_hotspots": [],
   "elev_max": 1400,
   "elev_min": 1000,
   "habitat_ru": "Облачный и предгорный лес с кормушками",
@@ -2156,20 +2170,20 @@
   "unmatched_targets": []
  },
  {
-  "coords_approx": true,
+  "coords_approx": false,
   "department": "Nariño",
   "ebird_hotspots": [
    {
-    "id": "L4859256",
-    "name": "Vía a Barbacoas (nearby)"
+    "id": "L16312523",
+    "name": "Km 42 — Pueblo Nuevo a Río Mira"
    }
   ],
   "elev_max": 150,
   "elev_min": 50,
   "habitat_ru": "Вторичный низинный лес с цекропиями вдоль грунтовки",
   "id": "km-42",
-  "lat": 1.55,
-  "lon": -78.55,
+  "lat": 1.5168,
+  "lon": -78.6899,
   "name": "Km 42 (Pueblo Nuevo, Junín – Tumaco road)",
   "name_ru": "Км 42",
   "notes_ru": "6–7 км грунтовки от посёлка Пуэбло-Нуэво до реки. Низинные тумбесско-чокские виды, которых нет выше по склону.",
@@ -2324,15 +2338,20 @@
   "unmatched_targets": []
  },
  {
-  "coords_approx": true,
+  "coords_approx": false,
   "department": "Nariño",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L3940729",
+    "name": "Finca Maragrícola"
+   }
+  ],
   "elev_max": 20,
   "elev_min": 0,
   "habitat_ru": "Бывшие креветочные пруды и вторичная растительность",
   "id": "finca-maragricola",
-  "lat": 1.7,
-  "lon": -78.7,
+  "lat": 1.6833,
+  "lon": -78.75,
   "name": "Finca Maragrícola",
   "name_ru": "Финка Марагрикола",
   "notes_ru": "600 га в 20 минутах от Тумако, контакт — Анхель Гевара; около 260 видов. Южные тихоокеанские виды на северном пределе ареала и кулики-мигранты.",
@@ -2405,7 +2424,16 @@
  {
   "coords_approx": false,
   "department": "Nariño",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L5480973",
+    "name": "Isla Bocagrande"
+   },
+   {
+    "id": "L7364520",
+    "name": "Parque Colón, Tumaco"
+   }
+  ],
   "elev_max": 5,
   "elev_min": 0,
   "habitat_ru": "Городское побережье и мангры",

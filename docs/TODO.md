@@ -27,7 +27,8 @@
 - [x] `data/sites.json` (27 локаций), `data/itinerary.json` (25 дней), `data/regions.json`, шаг `sites` → 274 фокусных вида
 - [ ] Red-winged Wood-Rail (Isla Escondida) нет в списке ACO — проверить, добавить как «вне списка»
 - [ ] Дни 1–2 октября (Богота) без локаций: решить, куда едем (Chingaza? La Florida? Observatorio de Colibríes?)
-- [ ] Проверить все ID хотспотов eBird через API (`ref/hotspot/info/{id}`: имя и координаты против локации) и подобрать ближайшие для локаций без ID (`ref/hotspot/geo?lat&lng&dist`); нужен `EBIRD_API_KEY` в Secrets (https://ebird.org/api/keygen). Известные ошибки: La Drymophila был L7842680 → L27775283 (исправлено вручную); El Escondite два ID (L6464472 / L17054356)
+- [x] Проверить все ID хотспотов eBird через API: шаг `hotspots`, отчёт `docs/research/hotspots-check.md`; исправлены Sumapaz, El Escondite, Orito, Km 42, La Nutria (ID удалён, рядом только Río Ñambí), добавлены ID для El Encanto, Discosura, Puerto Asís, Maragrícola, Tumaco
+- [ ] La Nutria: найти настоящий хотспот (записанный L5632537 в 230 км); El Escondite: уточнить координаты (хотспот в 15 км)
 - [ ] Найти хотспоты El Encanto, Finca Discosura, Km 42, Finca Maragrícola
 - [ ] Manakin Nature Tours PDF «Macizo, Amazon & Pacific Foothills 2026» — вытащить список видов
 

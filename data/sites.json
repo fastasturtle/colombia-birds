@@ -135,12 +135,12 @@
   "habitat_ru": "Парамо с озёрами",
   "ebird_hotspots": [
    {
-    "id": "L6278091",
-    "name": "PNN Sumapaz"
-   },
-   {
     "id": "L7523158",
     "name": "PNN Sumapaz — Laguna La Virginia"
+   },
+   {
+    "id": "L2758310",
+    "name": "PNN Sumapaz — Laguna Chisacá"
    }
   ],
   "sources": [
@@ -336,6 +336,10 @@
    {
     "id": "L1612184",
     "name": "Parque Natural Chicaque"
+   },
+   {
+    "id": "L35521462",
+    "name": "Parque Natural Chicaque — El Refugio"
    }
   ],
   "sources": [
@@ -449,7 +453,12 @@
   "elev_min": 1350,
   "elev_max": 1350,
   "habitat_ru": "Предгорный и облачный лес долины Гуарапас, сады и кормушки",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L5654916",
+    "name": "El Encanto Nature Reserve"
+   }
+  ],
   "sources": [
    "https://elencantonaturereserve.com/birding-at-el-encanto-nature-reserve/",
    "https://10000birds.com",
@@ -717,7 +726,12 @@
   "elev_min": 800,
   "elev_max": 1000,
   "habitat_ru": "Опушка предгорного леса и цветники",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L3643030",
+    "name": "Vereda Rumiyaco — Los Andes"
+   }
+  ],
   "sources": [
    "https://birdingtourscolombia.com"
   ],
@@ -885,12 +899,8 @@
   "habitat_ru": "Низинный и предгорный амазонский лес",
   "ebird_hotspots": [
    {
-    "id": "L6464472",
-    "name": "El Escondite Reserva Natural"
-   },
-   {
     "id": "L17054356",
-    "name": "El Escondite (alternative ID, to verify)"
+    "name": "El Escondite Reserva Natural"
    }
   ],
   "sources": [
@@ -976,7 +986,16 @@
   "elev_min": 230,
   "elev_max": 270,
   "habitat_ru": "Болота, вторичный лес и просёлки амазонской низменности",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L21289841",
+    "name": "Madre Vieja Río Putumayo"
+   },
+   {
+    "id": "L18722308",
+    "name": "Puerto Asís — Barrio Los Pinos"
+   }
+  ],
   "sources": [
    "https://birdingtourscolombia.com",
    "https://ornis-birding.com"
@@ -1116,8 +1135,8 @@
   "habitat_ru": "Придорожный предгорный лес",
   "ebird_hotspots": [
    {
-    "id": "L5390586",
-    "name": "RN La Isla Escondida"
+    "id": "L9565131",
+    "name": "Orito — Centro Ecoturístico Ma&Ju"
    }
   ],
   "sources": [
@@ -1743,12 +1762,7 @@
   "elev_min": 1000,
   "elev_max": 1400,
   "habitat_ru": "Облачный и предгорный лес с кормушками",
-  "ebird_hotspots": [
-   {
-    "id": "L5632537",
-    "name": "Reserva La Nutria"
-   }
-  ],
+  "ebird_hotspots": [],
   "sources": [
    "https://turismo.narino.gov.co",
    "https://uncovercolombia.com/blog/birding-in-narino-colombia/"
@@ -1791,16 +1805,16 @@
   "name_ru": "Км 42",
   "region": "narino_pacific",
   "department": "Nariño",
-  "lat": 1.55,
-  "lon": -78.55,
-  "coords_approx": true,
+  "lat": 1.5168,
+  "lon": -78.6899,
+  "coords_approx": false,
   "elev_min": 50,
   "elev_max": 150,
   "habitat_ru": "Вторичный низинный лес с цекропиями вдоль грунтовки",
   "ebird_hotspots": [
    {
-    "id": "L4859256",
-    "name": "Vía a Barbacoas (nearby)"
+    "id": "L16312523",
+    "name": "Km 42 — Pueblo Nuevo a Río Mira"
    }
   ],
   "sources": [
@@ -1931,13 +1945,18 @@
   "name_ru": "Финка Марагрикола",
   "region": "pacific_coast",
   "department": "Nariño",
-  "lat": 1.7,
-  "lon": -78.7,
-  "coords_approx": true,
+  "lat": 1.6833,
+  "lon": -78.75,
+  "coords_approx": false,
   "elev_min": 0,
   "elev_max": 20,
   "habitat_ru": "Бывшие креветочные пруды и вторичная растительность",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L3940729",
+    "name": "Finca Maragrícola"
+   }
+  ],
   "sources": [
    "https://thespeckledhatchback.blogspot.com/2018/10/post-146-colombia-southwestern-andes.html",
    "https://avocettours.com"
@@ -2002,7 +2021,16 @@
   "elev_min": 0,
   "elev_max": 5,
   "habitat_ru": "Городское побережье и мангры",
-  "ebird_hotspots": [],
+  "ebird_hotspots": [
+   {
+    "id": "L5480973",
+    "name": "Isla Bocagrande"
+   },
+   {
+    "id": "L7364520",
+    "name": "Parque Colón, Tumaco"
+   }
+  ],
   "sources": [
    "https://thespeckledhatchback.blogspot.com/2018/10/post-146-colombia-southwestern-andes.html"
   ],
