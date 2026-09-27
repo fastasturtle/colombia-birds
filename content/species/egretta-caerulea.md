@@ -2,6 +2,7 @@
 id: egretta-caerulea
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Взрослая целиком тёмная, сине-серая; голова и шея с пурпурно-бурым оттенком"
   - "Клюв двухцветный: голубовато-серый с чёрным концом"
@@ -40,12 +41,12 @@ en:
   behavior: "Hunts slowly, standing still or walking steadily through shallows, pond edges and flooded meadows for fish, crabs and small animals. Usually alone."
   voice: "Usually silent; a hoarse croak when flushed."
 ---
-Little Blue Heron (малая голубая цапля) — небольшая тёмная цапля пресных и солёных водоёмов от США до севера Южной Америки. В Колумбии есть и оседлые птицы, и зимующие с севера; у нас она встречается до 1 700 м. Молодые первого года целиком белые и похожи на Snowy Egret, а в переходном наряде выглядят пятнистыми. От других цапель её отличает и манера: она подолгу стоит неподвижно там, где соседи бегают.
+Little Blue Heron (малая голубая цапля) — небольшая тёмная цапля пресных и солёных водоёмов от США до севера Южной Америки. В Колумбии есть и оседлые птицы, и зимующие с севера; у нас она обычно встречается до 1 700 м, но в Андах залетает и до 3 700 м. Молодые первого года целиком белые и похожи на Snowy Egret, а в переходном наряде выглядят пятнистыми. От других цапель её отличает и манера: она подолгу стоит неподвижно там, где соседи бегают.
 
 На маршруте она «возможно» на Плайя-Рике 12 октября, в Эль-Эскондите 13–14 октября, на Лагуне Ла-Коча 16 октября и на побережье Нариньо 21–23 октября: в Тумако, на Финке Марагрикола и Плайя-дель-Морро.
 
 ## English
 
-Little Blue Heron is a small dark heron of fresh and salt water from the United States to northern South America. Colombia has both resident birds and wintering migrants from the north; here it occurs up to 1,700 m. First-year birds are all white and resemble Snowy Egret, and in transitional plumage they look blotchy. Its manner also helps: it stands still for long periods where its neighbours run about.
+Little Blue Heron is a small dark heron of fresh and salt water from the United States to northern South America. Colombia has both resident birds and wintering migrants from the north; here it usually occurs up to 1,700 m, but in the Andes it strays as high as 3,700 m. First-year birds are all white and resemble Snowy Egret, and in transitional plumage they look blotchy. Its manner also helps: it stands still for long periods where its neighbours run about.
 
 On the route it is "maybe" at Playa Rica on 12 October, at El Escondite on 13–14 October, at Laguna de La Cocha on 16 October and on the Nariño coast on 21–23 October: at Tumaco, Finca Maragrícola and Playa del Morro.

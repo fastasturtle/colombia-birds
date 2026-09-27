@@ -2,6 +2,7 @@
 id: elanoides-forficatus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост длинный, глубоко вильчатый, чёрный"
   - "Голова и весь низ чисто белые, спина и крылья сверху чёрные"

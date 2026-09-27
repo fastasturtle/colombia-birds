@@ -2,6 +2,7 @@
 id: calidris-himantopus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ноги длинные, зеленовато-жёлтые"
   - "Клюв длинный, с утолщённым, чуть опущенным концом"

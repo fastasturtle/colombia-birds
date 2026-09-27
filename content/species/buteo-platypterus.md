@@ -2,6 +2,7 @@
 id: buteo-platypterus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост взрослого чёрный с одной-двумя широкими белыми полосами"
   - "Снизу подкрылья светлые, с тёмной каймой по заднему краю крыла"

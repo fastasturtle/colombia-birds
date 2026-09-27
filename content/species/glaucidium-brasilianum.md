@@ -2,6 +2,7 @@
 id: glaucidium-brasilianum
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Темя в тонких светлых продольных штрихах, а не в точках"
   - "На затылке «ложное лицо» из двух чёрных пятен"
@@ -13,7 +14,7 @@ similar:
   - id: megascops-choliba
     how: "крупнее, с ушками-перьями и тёмной рамкой лицевого диска, низ в «ёлочку»; активна только ночью"
 behavior: "Охотится и днём, особенно утром и в сумерках, сидя на опушке, в полуоткрытых местах и садах. Мелкие птицы часто окружают его стаей и шумно ругаются, выдавая место."
-voice: "Длинная ровная серия свистовых «ху-ху-ху-ху», по два-три звука в секунду; птицы охотно отвечают на подражание."
+voice: "Длинная ритмичная серия свистовых «ху-ху-ху-ху»; на подражание этому свисту охотно слетаются мелкие птицы, чтобы окружить сыча."
 traits:
   size: sparrow
   colors: [rufous, brown, white]
@@ -38,7 +39,7 @@ en:
     - id: megascops-choliba
       how: "larger, with ear tufts and a dark rim to the facial disc, 'herringbone' underparts; strictly nocturnal"
   behavior: "Hunts by day too, especially in the morning and at dusk, perching at edges, in semi-open country and gardens. Small birds often mob it noisily, giving its position away."
-  voice: "A long, even series of whistled 'hoo-hoo-hoo-hoo', two or three notes a second; birds readily answer an imitation."
+  voice: "A long, rhythmic series of whistled 'hoo-hoo-hoo-hoo'; small birds readily come in to mob an imitation of it."
 ---
 Ferruginous Pygmy-Owl (рыжий сычик) — самый обычный воробьиный сыч низменностей Америки, в Колумбии на высотах 300–2 000 м, в полуоткрытых местах, на опушках и в садах. Он чуть крупнее воробья, но охотится на ящериц, крупных насекомых и мелких птиц. Проще всего найти его по голосу или по стайке мелких птиц, которые тревожно кричат вокруг одного места.
 

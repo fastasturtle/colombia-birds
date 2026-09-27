@@ -2,6 +2,7 @@
 id: calidris-melanotos
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Грудь в густых бурых пестринах, резко отделена от белого брюха"
   - "Ноги желтоватые"

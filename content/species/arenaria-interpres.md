@@ -2,6 +2,7 @@
 id: arenaria-interpres
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Ноги короткие, ярко-оранжевые"
   - "Клюв короткий, тёмный, клиновидный, чуть вздёрнут"
@@ -9,7 +10,7 @@ key_features:
   - "В полёте пёстрый рисунок: белые полосы на крыле, спине и хвосте"
 similar:
   - id: calidris-virgata
-    how: "ноги желтоватые, клюв короткий, тупой, с желтоватым основанием; нагрудника нет; держится на скалах у прибоя"
+    how: "ноги жёлтые, клюв короткий, тупой, с желтоватым основанием; вместо чёрного нагрудника однотонно серые голова и грудь; держится на скалах у прибоя"
   - id: calidris-alba
     how: "намного светлее, почти белая, без тёмного нагрудника, ноги чёрные; бегает за волной"
 behavior: "Кормится на пляжах, камнях, волноломах и среди выброшенных водорослей: переворачивает клювом камешки, ракушки и водоросли, ищет под ними рачков. Держится небольшими группами."
@@ -35,7 +36,7 @@ en:
     - "Pied pattern in flight: white stripes on the wing, back and tail"
   similar:
     - id: calidris-virgata
-      how: "yellowish legs, short blunt bill with a yellowish base; no bib; keeps to surf-washed rocks"
+      how: "yellow legs, short blunt bill with a yellowish base; plain gray head and breast instead of a black bib; keeps to surf-washed rocks"
     - id: calidris-alba
       how: "much paler, almost white, without a dark bib, black legs; chases the waves"
   behavior: "Feeds on beaches, rocks, breakwaters and among washed-up seaweed, flipping pebbles, shells and weed with its bill to find small crustaceans underneath. Keeps in small groups."

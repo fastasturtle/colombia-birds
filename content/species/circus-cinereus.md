@@ -2,6 +2,7 @@
 id: circus-cinereus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Белое пятно на пояснице, хорошо видное у летящей птицы"
   - "Самец сверху тёмно-серый, концы крыльев чёрные, брюхо в рыжих полосах"
@@ -35,12 +36,12 @@ en:
   behavior: "Quarters slowly and low over páramo, marshes and wet meadows, looking for rodents, small birds and coot chicks. Nests on the ground; pairs display in the air in the breeding season."
   voice: "Silent away from the nest; at the nest a chattering 'kek-kek-kek'."
 ---
-Cinereous Harrier (серый лунь) — лунь открытых пространств Южной Америки, от Огненной Земли до Колумбии. У нас он редок и держится на крайнем юге, на высокогорных болотах и лугах Нариньо; по данным ACO его статус в стране не вполне ясен. Хвост у него один из самых длинных относительно тела среди хищных птиц, а белое надхвостье и низкий раскачивающийся полёт узнаются издалека.
+Cinereous Harrier (серый лунь) — лунь открытых пространств Южной Америки, от Огненной Земли до Колумбии. У нас он редок и держится на крайнем юге, на высокогорных болотах и лугах Нариньо; по данным ACO его статус в стране не вполне ясен. Длинный хвост, белое надхвостье и низкий раскачивающийся полёт узнаются издалека.
 
 На маршруте он «возможно» у Лагуны Ла-Коча и на Парамо Бордонсильо 16 октября. Просматривай тростники и заболоченные берега Ла-Кочи: лунь медленно летит над самой травой.
 
 ## English
 
-Cinereous Harrier is a harrier of open country in South America, from Tierra del Fuego to Colombia. Here it is rare and keeps to the far south, on high marshes and meadows in Nariño; according to ACO its status in the country is not fully clear. Its tail is among the longest relative to body size of any raptor, and the white rump and low, tilting flight are recognisable from afar.
+Cinereous Harrier is a harrier of open country in South America, from Tierra del Fuego to Colombia. Here it is rare and keeps to the far south, on high marshes and meadows in Nariño; according to ACO its status in the country is not fully clear. The long tail, white rump and low, tilting flight are recognisable from afar.
 
 On the route it is "maybe" at Laguna de La Cocha and on Páramo Bordoncillo on 16 October. Scan the reeds and marshy shores of La Cocha: the harrier flies slowly just above the grass.

@@ -2,9 +2,10 @@
 id: eudocimus-albus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Взрослый целиком белый, чёрные только концы крыльев, видные в полёте"
-  - "Клюв длинный, изогнутый вниз, красно-оранжевый, как и голое лицо"
+  - "Клюв длинный, изогнутый вниз, красно-оранжевый; голое лицо розовое"
   - "Ноги длинные, красно-оранжевые"
   - "Молодые бурые сверху, с белыми брюхом и поясницей"
 similar:
@@ -29,7 +30,7 @@ sources:
 en:
   key_features:
     - "Adult all white, only the wingtips black, visible in flight"
-    - "Long decurved red-orange bill, same colour as the bare face"
+    - "Long decurved red-orange bill; bare pink face"
     - "Long red-orange legs"
     - "Juveniles brown above, with a white belly and rump"
   similar:
@@ -42,10 +43,10 @@ en:
 ---
 White Ibis (белый ибис) — ибис морских побережий от юго-востока США до северо-запада Южной Америки. В Колумбии держится в основном у моря и в низменностях до 150 м, изредка выше. В центральной Венесуэле он скрещивается с Scarlet Ibis, и некоторые систематики объединяют их в один вид.
 
-На маршруте он «возможно» на побережье Нариньо — в Тумако 21 и 23 октября и на Плайя-дель-Морро 22–23 октября, — а также в Эль-Эскондите 13–14 октября. Проверяй мангры и отмели при отливе: белые ибисы кормятся плотными группами и перелетают вереницами, показывая чёрные концы крыльев.
+На маршруте он «возможно» на побережье Нариньо — в Тумако 21 и 23 октября и на Плайя-дель-Морро 22–23 октября, — а также в Эль-Эскондите 13–14 октября, хотя амазонское предгорье Путумайо лежит вдали от обычного ареала вида и такую отметку стоит проверять. Проверяй мангры и отмели при отливе: белые ибисы кормятся плотными группами и перелетают вереницами, показывая чёрные концы крыльев.
 
 ## English
 
 White Ibis is an ibis of sea coasts from the southeastern United States to northwestern South America. In Colombia it keeps mainly to the coast and lowlands below 150 m, occasionally higher. In central Venezuela it interbreeds with Scarlet Ibis, and some taxonomists merge the two into one species.
 
-On the route it is "maybe" on the Nariño coast — at Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October — and also at El Escondite on 13–14 October. Check mangroves and mudflats at low tide: White Ibises feed in tight groups and fly in lines, showing their black wingtips.
+On the route it is "maybe" on the Nariño coast — at Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October — and also at El Escondite on 13–14 October, although the Amazonian foothills of Putumayo lie far from the species' usual range and such a record deserves checking. Check mangroves and mudflats at low tide: White Ibises feed in tight groups and fly in lines, showing their black wingtips.

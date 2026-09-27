@@ -2,6 +2,7 @@
 id: rostrhamus-sociabilis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв тонкий, сильно загнутый длинным крючком — для улиток"
   - "Самец целиком тёмно-аспидный, восковица, ноги и глаз красные"

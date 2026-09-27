@@ -2,6 +2,7 @@
 id: egretta-tricolor
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо белое, резко отделено от сине-серых шеи, спины и крыльев"
   - "Белая полоса по передней стороне длинной тонкой шеи"

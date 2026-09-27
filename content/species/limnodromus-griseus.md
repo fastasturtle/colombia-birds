@@ -2,6 +2,7 @@
 id: limnodromus-griseus
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв очень длинный, прямой, примерно вдвое длиннее головы"
   - "Осенью верх и грудь серые, брюхо белое, светлая бровь"
