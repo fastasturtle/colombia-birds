@@ -3,14 +3,74 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 225
+- Карточек: 285
 - Проверено: 225
-- Не проверено: 0
+- Не проверено: 60
 
-## Не проверено (0)
+## Не проверено (60)
 
 | Слаг | English | Группа |
 |---|---|---|
+| merganetta-armata | Torrent Duck | Утки, поганки и фламинго |
+| spatula-discors | Blue-winged Teal | Утки, поганки и фламинго |
+| podiceps-occipitalis | Silvery Grebe | Утки, поганки и фламинго |
+| phaethon-aethereus | Red-billed Tropicbird | Морские птицы |
+| hydrobates-tethys | Wedge-rumped Storm-Petrel | Морские птицы |
+| procellaria-parkinsoni | Parkinson's Petrel | Морские птицы |
+| sula-granti | Nazca Booby | Морские птицы |
+| nannopterum-brasilianum | Neotropic Cormorant | Морские птицы |
+| dysithamnus-puncticeps | Spot-crowned Antvireo | Муравьеловки, печники и древолазы |
+| dysithamnus-occidentalis | Bicolored Antvireo | Муравьеловки, печники и древолазы |
+| epinecrophylla-fulviventris | Checker-throated Stipplethroat | Муравьеловки, печники и древолазы |
+| dichrozona-cincta | Banded Antbird | Муравьеловки, печники и древолазы |
+| cercomacroides-fuscicauda | Riparian Antbird | Муравьеловки, печники и древолазы |
+| cercomacra-nigricans | Jet Antbird | Муравьеловки, печники и древолазы |
+| sipia-berlepschi | Stub-tailed Antbird | Муравьеловки, печники и древолазы |
+| hafferia-zeledoni | Zeledon's Antbird | Муравьеловки, печники и древолазы |
+| rhegmatorhina-melanosticta | Hairy-crested Antbird | Муравьеловки, печники и древолазы |
+| grallaria-rufula | Muisca Antpitta | Муравьеловки, печники и древолазы |
+| grallaria-alticola | Boyaca Antpitta | Муравьеловки, печники и древолазы |
+| myrmothera-fulviventris | White-lored Antpitta | Муравьеловки, печники и древолазы |
+| grallaricula-nana | Slate-crowned Antpitta | Муравьеловки, печники и древолазы |
+| liosceles-thoracicus | Rusty-belted Tapaculo | Муравьеловки, печники и древолазы |
+| myornis-senilis | Ash-colored Tapaculo | Муравьеловки, печники и древолазы |
+| scytalopus-opacus | Paramo Tapaculo | Муравьеловки, печники и древолазы |
+| glyphorynchus-spirurus | Wedge-billed Woodcreeper | Муравьеловки, печники и древолазы |
+| xiphocolaptes-promeropirhynchus | Strong-billed Woodcreeper | Муравьеловки, печники и древолазы |
+| berlepschia-rikeri | Point-tailed Palmcreeper | Муравьеловки, печники и древолазы |
+| furnarius-leucopus | Pale-legged Hornero | Муравьеловки, печники и древолазы |
+| cinclodes-albidiventris | Chestnut-winged Cinclodes | Муравьеловки, печники и древолазы |
+| thripadectes-holostictus | Striped Treehunter | Муравьеловки, печники и древолазы |
+| leptasthenura-andicola | Andean Tit-Spinetail | Муравьеловки, печники и древолазы |
+| siptornis-striaticollis | Spectacled Prickletail | Муравьеловки, печники и древолазы |
+| synallaxis-azarae | Azara's Spinetail | Муравьеловки, печники и древолазы |
+| tityra-cayana | Black-tailed Tityra | Тиранны и титиры |
+| pachyramphus-cinnamomeus | Cinnamon Becard | Тиранны и титиры |
+| platyrinchus-flavigularis | Yellow-throated Spadebill | Тиранны и титиры |
+| pogonotriccus-orbitalis | Spectacled Bristle-Tyrant | Тиранны и титиры |
+| hemitriccus-rufigularis | Buff-throated Tody-Tyrant | Тиранны и титиры |
+| todirostrum-cinereum | Common Tody-Flycatcher | Тиранны и титиры |
+| myiotriccus-ornatus | Ornate Flycatcher | Тиранны и титиры |
+| camptostoma-obsoletum | Southern Beardless-Tyrannulet | Тиранны и титиры |
+| mecocerculus-leucophrys | White-throated Tyrannulet | Тиранны и титиры |
+| tyrannulus-elatus | Yellow-crowned Tyrannulet | Тиранны и титиры |
+| elaenia-flavogaster | Yellow-bellied Elaenia | Тиранны и титиры |
+| serpophaga-cinerea | Torrent Tyrannulet | Тиранны и титиры |
+| zimmerius-albigularis | Choco Tyrannulet | Тиранны и титиры |
+| contopus-fumigatus | Smoke-colored Pewee | Тиранны и титиры |
+| contopus-virens | Eastern Wood-Pewee | Тиранны и титиры |
+| sayornis-nigricans | Black Phoebe | Тиранны и титиры |
+| pyrocephalus-rubinus | Vermilion Flycatcher | Тиранны и титиры |
+| cnemarchus-erythropygius | Red-rumped Bush-Tyrant | Тиранны и титиры |
+| ochthoeca-cinnamomeiventris | Chestnut-bellied Chat-Tyrant | Тиранны и титиры |
+| ochthoeca-fumicolor | Brown-backed Chat-Tyrant | Тиранны и титиры |
+| ramphotrigon-megacephalum | Large-headed Flatbill | Тиранны и титиры |
+| pitangus-sulphuratus | Great Kiskadee | Тиранны и титиры |
+| megarynchus-pitangua | Boat-billed Flycatcher | Тиранны и титиры |
+| myiozetetes-cayanensis | Rusty-margined Flycatcher | Тиранны и титиры |
+| myiozetetes-similis | Social Flycatcher | Тиранны и титиры |
+| legatus-leucophaius | Piratic Flycatcher | Тиранны и титиры |
+| tyrannus-tyrannus | Eastern Kingbird | Тиранны и титиры |
 
 ## Проверено (225)
 
