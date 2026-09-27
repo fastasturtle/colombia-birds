@@ -27,13 +27,13 @@
  "genus": "Amaurospiza",
  "id": "amaurospiza-aequatorialis",
  "ids": {
-  "avibase": "9551017FFB7F5D85",
+  "avibase": null,
   "birdbase": 36687,
   "gbif": 2491733,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q20801648",
-  "xeno_canto": "Amaurospiza-aequatorialis"
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amaurospiza_aequatorialis",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/blusee4",
   "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Ecuadorian_seedeater",
-   "es": "https://es.wikipedia.org/wiki/Amaurospiza_aequatorialis",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Amaurospiza+aequatorialis"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Attila Oláh",
+   "credit": "(c) Attila Oláh, some rights reserved (CC BY)",
+   "height": 1066,
+   "key_base": "photos/amaurospiza-aequatorialis/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/amaurospiza-aequatorialis/1-large.jpg",
+    "medium": "photos/amaurospiza-aequatorialis/1-medium.jpg",
+    "thumb": "photos/amaurospiza-aequatorialis/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/212637929",
+   "width": 1600
+  }
+ ],
  "sci_name": "Amaurospiza aequatorialis",
  "sci_name_aco": "Amaurospiza concolor",
  "sounds": [],
@@ -93,7 +110,5 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Amaurospiza%20aequatorialis%20-%20Ecuadorian%20Seedeater%20%28cropped%29.jpg"
- ]
+ "wikidata_images": []
 }

@@ -31,14 +31,14 @@
   "birdbase": 16882,
   "gbif": 2484049,
   "inaturalist": null,
-  "iucn": "22699075",
-  "wikidata": "Q137178192",
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
   "commons_category": null,
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Don Wellmann",
+   "credit": "no rights reserved",
+   "height": 1096,
+   "key_base": "photos/acrochordopus-zeledoni/1",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/acrochordopus-zeledoni/1-large.jpg",
+    "medium": "photos/acrochordopus-zeledoni/1-medium.jpg",
+    "thumb": "photos/acrochordopus-zeledoni/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/330674386",
+   "width": 1600
+  }
+ ],
  "sci_name": "Acrochordopus zeledoni",
  "sci_name_aco": "Phyllomyias burmeisteri",
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Phyllomyias%20zeledoni%20-%20White-fronted%20Tyrannulet.jpg"
- ]
+ "wikidata_images": []
 }

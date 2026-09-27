@@ -32,8 +32,8 @@
   "gbif": 2497921,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q468015",
-  "xeno_canto": "Tyto-furcata"
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,13 +41,13 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyto_furcata",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/brnowl",
   "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/American_barn_owl",
-   "es": "https://es.wikipedia.org/wiki/Tyto_furcata",
-   "ru": "https://ru.wikipedia.org/wiki/Tyto_furcata"
+   "en": null,
+   "es": null,
+   "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Tyto+furcata"
  },
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Strigiformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Dario Taraborelli",
+   "credit": "no rights reserved",
+   "height": 1066,
+   "key_base": "photos/tyto-furcata/1",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/tyto-furcata/1-large.jpg",
+    "medium": "photos/tyto-furcata/1-medium.jpg",
+    "thumb": "photos/tyto-furcata/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/101991292",
+   "width": 1600
+  }
+ ],
  "sci_name": "Tyto furcata",
  "sci_name_aco": "Tyto alba",
  "sounds": [],
@@ -100,7 +117,5 @@
   "primary_habitat": "Grassland",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Schleiereule%20fws.jpg"
- ]
+ "wikidata_images": []
 }

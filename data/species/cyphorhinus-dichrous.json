@@ -27,26 +27,26 @@
  "genus": "Cyphorhinus",
  "id": "cyphorhinus-dichrous",
  "ids": {
-  "avibase": "EC974AC4F93A1E43",
+  "avibase": null,
   "birdbase": 29375,
   "gbif": 5231434,
-  "inaturalist": "1585245",
-  "iucn": "103889940",
-  "wikidata": "Q55112245",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyphorhinus_dichrous",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/chbwre2",
-  "inaturalist": "https://www.inaturalist.org/taxa/1585245",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Northern_chestnut-breasted_wren",
-   "es": "https://es.wikipedia.org/wiki/Cyphorhinus_dichrous",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Cyphorhinus+dichrous"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Robert Blackmore",
+   "credit": "(c) Robert Blackmore, some rights reserved (CC BY)",
+   "height": 1066,
+   "key_base": "photos/cyphorhinus-dichrous/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/cyphorhinus-dichrous/1-large.jpg",
+    "medium": "photos/cyphorhinus-dichrous/1-medium.jpg",
+    "thumb": "photos/cyphorhinus-dichrous/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/348329730",
+   "width": 1600
+  }
+ ],
  "sci_name": "Cyphorhinus dichrous",
  "sci_name_aco": "Cyphorhinus thoracicus",
  "sounds": [],
@@ -91,8 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/CyphorinusDichrousSmit.jpg",
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyphorhinus%20thoracicus%20248733271.jpg"
- ]
+ "wikidata_images": []
 }

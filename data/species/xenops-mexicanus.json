@@ -27,12 +27,12 @@
  "genus": "Xenops",
  "id": "xenops-mexicanus",
  "ids": {
-  "avibase": "D6CF3A319F429E4F",
+  "avibase": null,
   "birdbase": 14904,
   "gbif": null,
-  "inaturalist": "1586803",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q41027426",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenops_mexicanus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/plaxen2",
-  "inaturalist": "https://www.inaturalist.org/taxa/1586803",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Northern_plain_xenops",
-   "es": "https://es.wikipedia.org/wiki/Xenops_mexicanus",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+mexicanus"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Aitor",
+   "credit": "(c) Aitor, some rights reserved (CC BY)",
+   "height": 1461,
+   "key_base": "photos/xenops-mexicanus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/xenops-mexicanus/1-large.jpg",
+    "medium": "photos/xenops-mexicanus/1-medium.jpg",
+    "thumb": "photos/xenops-mexicanus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/38494490",
+   "width": 1459
+  }
+ ],
  "sci_name": "Xenops mexicanus",
  "sci_name_aco": null,
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenops%20minutus%2033709511%20%28cropped%29.jpg"
- ]
+ "wikidata_images": []
 }

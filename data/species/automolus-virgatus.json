@@ -27,26 +27,26 @@
  "genus": "Automolus",
  "id": "automolus-virgatus",
  "ids": {
-  "avibase": "BD6ADDF58DB3B970",
+  "avibase": null,
   "birdbase": 15215,
-  "gbif": "9174663",
-  "inaturalist": "719896",
-  "iucn": "103672251",
-  "wikidata": "Q55112046",
-  "xeno_canto": "Automolus-virgatus"
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Automolus_virgatus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/strwoo5",
-  "inaturalist": "https://www.inaturalist.org/taxa/719896",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Western_woodhaunter",
-   "es": "https://es.wikipedia.org/wiki/Automolus_virgatus",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Automolus+virgatus"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Adam Jackson",
+   "credit": "no rights reserved",
+   "height": 1070,
+   "key_base": "photos/automolus-virgatus/1",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/automolus-virgatus/1-large.jpg",
+    "medium": "photos/automolus-virgatus/1-medium.jpg",
+    "thumb": "photos/automolus-virgatus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/193325441",
+   "width": 1600
+  }
+ ],
  "sci_name": "Automolus virgatus",
  "sci_name_aco": null,
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Automolus%20virgatus%20-%20Western%20Woodhaunter.jpg"
- ]
+ "wikidata_images": []
 }

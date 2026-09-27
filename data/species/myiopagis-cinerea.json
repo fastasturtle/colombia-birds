@@ -27,26 +27,26 @@
  "genus": "Myiopagis",
  "id": "myiopagis-cinerea",
  "ids": {
-  "avibase": "5423E1F890830540",
+  "avibase": null,
   "birdbase": 16905,
   "gbif": 2482960,
-  "inaturalist": "1440714",
-  "iucn": "103681580",
-  "wikidata": "Q31874427",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiopagis_caniceps_cinerea",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/gryela2",
-  "inaturalist": "https://www.inaturalist.org/taxa/1440714",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Amazonian_elaenia",
-   "es": "https://es.wikipedia.org/wiki/Myiopagis_cinerea",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+cinerea"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Thibaud Aronson",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "height": 1067,
+   "key_base": "photos/myiopagis-cinerea/1",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sizes": {
+    "large": "photos/myiopagis-cinerea/1-large.jpg",
+    "medium": "photos/myiopagis-cinerea/1-medium.jpg",
+    "thumb": "photos/myiopagis-cinerea/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/124472181",
+   "width": 1600
+  }
+ ],
  "sci_name": "Myiopagis cinerea",
  "sci_name_aco": "Myiopagis caniceps",
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Gray%20Elaenia.jpg"
- ]
+ "wikidata_images": []
 }

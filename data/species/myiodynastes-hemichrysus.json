@@ -27,26 +27,26 @@
  "genus": "Myiodynastes",
  "id": "myiodynastes-hemichrysus",
  "ids": {
-  "avibase": "049A1D8FBF256A6A",
+  "avibase": null,
   "birdbase": 18023,
   "gbif": 2483490,
-  "inaturalist": "16072",
-  "iucn": "131358269",
-  "wikidata": "Q745817",
-  "xeno_canto": "Myiodynastes-hemichrysus"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiodynastes_hemichrysus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/gobfly1",
-  "inaturalist": "https://www.inaturalist.org/taxa/16072",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Golden-bellied_flycatcher",
-   "es": "https://es.wikipedia.org/wiki/Myiodynastes_hemichrysus",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiodynastes+hemichrysus"
@@ -59,7 +59,24 @@
   "ru": "Златобрюхий бентеви"
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Esteban Poveda",
+   "credit": "(c) Esteban Poveda, some rights reserved (CC BY)",
+   "height": 1202,
+   "key_base": "photos/myiodynastes-hemichrysus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/myiodynastes-hemichrysus/1-large.jpg",
+    "medium": "photos/myiodynastes-hemichrysus/1-medium.jpg",
+    "thumb": "photos/myiodynastes-hemichrysus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/153856952",
+   "width": 1600
+  }
+ ],
  "sci_name": "Myiodynastes hemichrysus",
  "sci_name_aco": "Myiodynastes chrysocephalus",
  "sounds": [],
@@ -93,7 +110,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiodynastes%20hemichrysus%20-Costa%20Rica-8.jpg"
- ]
+ "wikidata_images": []
 }

@@ -27,26 +27,26 @@
  "genus": "Phacellodomus",
  "id": "phacellodomus-inornatus",
  "ids": {
-  "avibase": "C9C1588523AD462B",
+  "avibase": null,
   "birdbase": 15304,
   "gbif": 2485126,
-  "inaturalist": "1507582",
-  "iucn": "103672834",
-  "wikidata": "Q12265823",
-  "xeno_canto": "Phacellodomus-inornatus"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phacellodomus_inornatus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/ruftho3",
-  "inaturalist": "https://www.inaturalist.org/taxa/1507582",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Plain_thornbird",
-   "es": "https://es.wikipedia.org/wiki/Phacellodomus_inornatus",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Phacellodomus+inornatus"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Dario Taraborelli",
+   "credit": "no rights reserved",
+   "height": 1066,
+   "key_base": "photos/phacellodomus-inornatus/1",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/phacellodomus-inornatus/1-large.jpg",
+    "medium": "photos/phacellodomus-inornatus/1-medium.jpg",
+    "thumb": "photos/phacellodomus-inornatus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/197164222",
+   "width": 1600
+  }
+ ],
  "sci_name": "Phacellodomus inornatus",
  "sci_name_aco": "Phacellodomus rufifrons",
  "sounds": [],
@@ -95,7 +112,5 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Plain%20Thornbird%20imported%20from%20iNaturalist%20photo%20346047177%20on%208%20August%202024.jpg"
- ]
+ "wikidata_images": []
 }

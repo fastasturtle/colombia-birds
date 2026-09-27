@@ -30,9 +30,9 @@
   "avibase": null,
   "birdbase": 36608,
   "gbif": 6100780,
-  "inaturalist": "718137",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q55118554",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -43,7 +43,7 @@
  "links": {
   "commons_category": null,
   "ebird": "https://ebird.org/species/cartan2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718137",
+  "inaturalist": null,
   "wikipedia": {
    "en": null,
    "es": null,
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Thibaud Aronson",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "height": 1066,
+   "key_base": "photos/chlorothraupis-frenata/1",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sizes": {
+    "large": "photos/chlorothraupis-frenata/1-large.jpg",
+    "medium": "photos/chlorothraupis-frenata/1-medium.jpg",
+    "thumb": "photos/chlorothraupis-frenata/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/40289685",
+   "width": 1600
+  }
+ ],
  "sci_name": "Chlorothraupis frenata",
  "sci_name_aco": null,
  "sounds": [],

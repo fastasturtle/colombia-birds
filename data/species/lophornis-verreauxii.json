@@ -27,26 +27,26 @@
  "genus": "Lophornis",
  "id": "lophornis-verreauxii",
  "ids": {
-  "avibase": "BF9C468DE2BE8E00",
+  "avibase": null,
   "birdbase": 2915,
   "gbif": 2477001,
-  "inaturalist": "1286967",
-  "iucn": "22726690",
-  "wikidata": "Q31873707",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lophornis_verreauxii",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/fescoq2",
-  "inaturalist": "https://www.inaturalist.org/taxa/1286967",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Butterfly_coquette",
-   "es": "https://es.wikipedia.org/wiki/Lophornis_verreauxii",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Lophornis+verreauxii"
@@ -59,7 +59,72 @@
   "ru": "Кокетка-бабочка"
  },
  "order": "Apodiformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Edoardo Nardelli",
+   "credit": "(c) Edoardo Nardelli, some rights reserved (CC BY)",
+   "height": 1066,
+   "key_base": "photos/lophornis-verreauxii/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/lophornis-verreauxii/1-large.jpg",
+    "medium": "photos/lophornis-verreauxii/1-medium.jpg",
+    "thumb": "photos/lophornis-verreauxii/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/268440735",
+   "width": 1600
+  },
+  {
+   "author": "Sidnei Dantas",
+   "credit": "(c) Sidnei Dantas, some rights reserved (CC BY-SA)",
+   "height": 1525,
+   "key_base": "photos/lophornis-verreauxii/2",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sizes": {
+    "large": "photos/lophornis-verreauxii/2-large.jpg",
+    "medium": "photos/lophornis-verreauxii/2-medium.jpg",
+    "thumb": "photos/lophornis-verreauxii/2-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/70034209",
+   "width": 1600
+  },
+  {
+   "author": "Nick Athanas",
+   "credit": "https://www.flickr.com/photos/antpitta/35945770592/",
+   "height": 1200,
+   "key_base": "photos/lophornis-verreauxii/3",
+   "kind": "photo",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sizes": {
+    "large": "photos/lophornis-verreauxii/3-large.jpg",
+    "medium": "photos/lophornis-verreauxii/3-medium.jpg",
+    "thumb": "photos/lophornis-verreauxii/3-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lophornis_verreauxii_-_Butterfly_Coquette_-_female.jpg",
+   "width": 1600
+  },
+  {
+   "author": "NINA WENÓLI",
+   "credit": "no rights reserved",
+   "height": 1024,
+   "key_base": "photos/lophornis-verreauxii/4",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/lophornis-verreauxii/4-large.jpg",
+    "medium": "photos/lophornis-verreauxii/4-medium.jpg",
+    "thumb": "photos/lophornis-verreauxii/4-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/291177966",
+   "width": 944
+  }
+ ],
  "sci_name": "Lophornis verreauxii",
  "sci_name_aco": "Lophornis chalybeus",
  "sounds": [],
@@ -93,7 +158,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Lophornis%20verreauxii%20-%20Butterfly%20Coquette%20-%20female.jpg"
- ]
+ "wikidata_images": []
 }

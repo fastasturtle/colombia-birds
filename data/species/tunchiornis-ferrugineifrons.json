@@ -27,12 +27,12 @@
  "genus": "Tunchiornis",
  "id": "tunchiornis-ferrugineifrons",
  "ids": {
-  "avibase": "93AB2A9011F43D10",
+  "avibase": null,
   "birdbase": 21429,
   "gbif": null,
-  "inaturalist": "1651929",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q135102358",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -43,10 +43,10 @@
  "links": {
   "commons_category": null,
   "ebird": "https://ebird.org/species/tacgre4",
-  "inaturalist": "https://www.inaturalist.org/taxa/1651929",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Rufous-fronted_greenlet",
-   "es": "https://es.wikipedia.org/wiki/Tunchiornis_ferrugineifrons",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Tunchiornis+ferrugineifrons"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Thibaud Aronson",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "height": 1067,
+   "key_base": "photos/tunchiornis-ferrugineifrons/1",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sizes": {
+    "large": "photos/tunchiornis-ferrugineifrons/1-large.jpg",
+    "medium": "photos/tunchiornis-ferrugineifrons/1-medium.jpg",
+    "thumb": "photos/tunchiornis-ferrugineifrons/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/145902746",
+   "width": 1600
+  }
+ ],
  "sci_name": "Tunchiornis ferrugineifrons",
  "sci_name_aco": null,
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Tunchiornis%20ferrugineifrons%20Rufous-fronted%20Greenlet%3B%20Allpahuayo-Mishana%2C%20Loreto%2C%20Peru.jpg"
- ]
+ "wikidata_images": []
 }

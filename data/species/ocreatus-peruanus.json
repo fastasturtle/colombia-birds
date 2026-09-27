@@ -27,12 +27,12 @@
  "genus": "Ocreatus",
  "id": "ocreatus-peruanus",
  "ids": {
-  "avibase": "A0A70C2E841B5BE9",
+  "avibase": null,
   "birdbase": 3173,
   "gbif": 9449567,
-  "inaturalist": "718661",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q27612228",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -43,7 +43,7 @@
  "links": {
   "commons_category": null,
   "ebird": "https://ebird.org/species/boorat2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718661",
+  "inaturalist": null,
   "wikipedia": {
    "en": null,
    "es": null,
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Apodiformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Christoph Moning",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY)",
+   "height": 1001,
+   "key_base": "photos/ocreatus-peruanus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/ocreatus-peruanus/1-large.jpg",
+    "medium": "photos/ocreatus-peruanus/1-medium.jpg",
+    "thumb": "photos/ocreatus-peruanus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/99537392",
+   "width": 1600
+  }
+ ],
  "sci_name": "Ocreatus peruanus",
  "sci_name_aco": null,
  "sounds": [],

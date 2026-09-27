@@ -27,12 +27,12 @@
  "genus": "Polioptila",
  "id": "polioptila-bilineata",
  "ids": {
-  "avibase": "CE922FF7EFA174EE",
+  "avibase": null,
   "birdbase": 29463,
-  "gbif": "8924322",
+  "gbif": null,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q107486428",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polioptila_bilineata",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/trogna2",
   "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/White-browed_gnatcatcher",
-   "es": "https://es.wikipedia.org/wiki/Polioptila_bilineata",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+bilineata"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Sebastián de Jesús Herrera Buenfil",
+   "credit": "(c) Sebastián de Jesús Herrera Buenfil, some rights reserved (CC BY)",
+   "height": 1067,
+   "key_base": "photos/polioptila-bilineata/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/polioptila-bilineata/1-large.jpg",
+    "medium": "photos/polioptila-bilineata/1-medium.jpg",
+    "thumb": "photos/polioptila-bilineata/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/89986560",
+   "width": 1600
+  }
+ ],
  "sci_name": "Polioptila bilineata",
  "sci_name_aco": null,
  "sounds": [],
@@ -96,7 +113,5 @@
   "primary_habitat": "Woodland",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Tropical%20Gnatcatcher%20%2824857242030%29.jpg"
- ]
+ "wikidata_images": []
 }

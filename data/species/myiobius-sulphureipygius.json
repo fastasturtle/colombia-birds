@@ -27,26 +27,26 @@
  "genus": "Myiobius",
  "id": "myiobius-sulphureipygius",
  "ids": {
-  "avibase": "40F33966B3823362",
+  "avibase": null,
   "birdbase": 18660,
-  "gbif": "2483310",
-  "inaturalist": "73072",
-  "iucn": "22731699",
-  "wikidata": "Q1267414",
-  "xeno_canto": "Myiobius-sulphureipygius"
+  "gbif": null,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiobius_sulphureipygius",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/surfly1",
-  "inaturalist": "https://www.inaturalist.org/taxa/73072",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Sulphur-rumped_myiobius",
-   "es": "https://es.wikipedia.org/wiki/Myiobius_sulphureipygius",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiobius+sulphureipygius"
@@ -59,7 +59,24 @@
   "ru": "Желтогузый широкохвост"
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Adam Jackson",
+   "credit": "no rights reserved",
+   "height": 1066,
+   "key_base": "photos/myiobius-sulphureipygius/1",
+   "kind": "photo",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sizes": {
+    "large": "photos/myiobius-sulphureipygius/1-large.jpg",
+    "medium": "photos/myiobius-sulphureipygius/1-medium.jpg",
+    "thumb": "photos/myiobius-sulphureipygius/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/233962411",
+   "width": 1600
+  }
+ ],
  "sci_name": "Myiobius sulphureipygius",
  "sci_name_aco": null,
  "sounds": [],
@@ -92,7 +109,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Sulphur-rumped%20Flycatcher%20-%20South%20Ecuador%20S4E9093%20%2816847458046%29.jpg"
- ]
+ "wikidata_images": []
 }

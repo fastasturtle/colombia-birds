@@ -27,27 +27,27 @@
  "genus": "Oxyura",
  "id": "oxyura-ferruginea",
  "ids": {
-  "avibase": "1798573A177BC580",
+  "avibase": null,
   "birdbase": 547,
   "gbif": 2498305,
-  "inaturalist": "827374",
-  "iucn": "22727757",
-  "wikidata": "Q3591452",
-  "xeno_canto": "Oxyura-ferruginea"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxyura_ferruginea",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/andduc1",
-  "inaturalist": "https://www.inaturalist.org/taxa/827374",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Andean_duck",
-   "es": "https://es.wikipedia.org/wiki/Oxyura_ferruginea",
-   "ru": "https://ru.wikipedia.org/wiki/Oxyura_ferruginea"
+   "en": null,
+   "es": null,
+   "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Oxyura+ferruginea"
  },
@@ -59,7 +59,72 @@
   "ru": "Андская савка"
  },
  "order": "Anseriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Esteban Poveda",
+   "credit": "(c) Esteban Poveda, some rights reserved (CC BY)",
+   "height": 1200,
+   "key_base": "photos/oxyura-ferruginea/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/oxyura-ferruginea/1-large.jpg",
+    "medium": "photos/oxyura-ferruginea/1-medium.jpg",
+    "thumb": "photos/oxyura-ferruginea/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/102495147",
+   "width": 1600
+  },
+  {
+   "author": "Evee Krojmal",
+   "credit": "(c) Evee Krojmal, some rights reserved (CC BY)",
+   "height": 1233,
+   "key_base": "photos/oxyura-ferruginea/2",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/oxyura-ferruginea/2-large.jpg",
+    "medium": "photos/oxyura-ferruginea/2-medium.jpg",
+    "thumb": "photos/oxyura-ferruginea/2-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/53782268",
+   "width": 1600
+  },
+  {
+   "author": "ClaudioIsaacTP",
+   "credit": "Own work",
+   "height": 1200,
+   "key_base": "photos/oxyura-ferruginea/3",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sizes": {
+    "large": "photos/oxyura-ferruginea/3-large.jpg",
+    "medium": "photos/oxyura-ferruginea/3-medium.jpg",
+    "thumb": "photos/oxyura-ferruginea/3-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Eutrofizaci%C3%B3n.jpg",
+   "width": 1600
+  },
+  {
+   "author": "Charles J. Sharp",
+   "credit": "Own work, from Sharp Photography, sharpphotography.co.uk",
+   "height": 1067,
+   "key_base": "photos/oxyura-ferruginea/4",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sizes": {
+    "large": "photos/oxyura-ferruginea/4-large.jpg",
+    "medium": "photos/oxyura-ferruginea/4-medium.jpg",
+    "thumb": "photos/oxyura-ferruginea/4-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Andean_duck_(Oxyura_ferruginea)_male_Cundinamarca.jpg",
+   "width": 1600
+  }
+ ],
  "sci_name": "Oxyura ferruginea",
  "sci_name_aco": "Oxyura jamaicensis",
  "sounds": [],
@@ -91,8 +156,5 @@
   "primary_habitat": "Wetland",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxyura%20ferruginea%20%28Pato%20andino%29%20macho%2C%20Armenia%2C%20Colombia%20%284834528212%29.jpg",
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxyura%20ferruginea%20%28Pato%20andino%29%20hembra%2C%20Armenia%2C%20Colombia%20%284834538300%29.jpg"
- ]
+ "wikidata_images": []
 }

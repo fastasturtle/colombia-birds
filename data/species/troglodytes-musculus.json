@@ -27,12 +27,12 @@
  "genus": "Troglodytes",
  "id": "troglodytes-musculus",
  "ids": {
-  "avibase": "A41F13600803FC13",
+  "avibase": null,
   "birdbase": 29229,
   "gbif": 5231459,
-  "inaturalist": "1578442",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q10385039",
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Troglodytes_musculus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/houwre4",
-  "inaturalist": "https://www.inaturalist.org/taxa/1578442",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Southern_house_wren",
-   "es": "https://es.wikipedia.org/wiki/Troglodytes_musculus",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Troglodytes+musculus"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "RAP",
+   "credit": "(c) RAP, some rights reserved (CC BY)",
+   "height": 600,
+   "key_base": "photos/troglodytes-musculus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/troglodytes-musculus/1-large.jpg",
+    "medium": "photos/troglodytes-musculus/1-medium.jpg",
+    "thumb": "photos/troglodytes-musculus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/25272199",
+   "width": 900
+  }
+ ],
  "sci_name": "Troglodytes musculus",
  "sci_name_aco": "Troglodytes aedon",
  "sounds": [],
@@ -97,7 +114,5 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Dario%20Sanches%20-%20CURRUIRA%20%28%20Troglodytes%20musculus%29%20%286%29.jpg"
- ]
+ "wikidata_images": []
 }

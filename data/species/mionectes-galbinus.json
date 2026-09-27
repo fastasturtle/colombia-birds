@@ -27,26 +27,26 @@
  "genus": "Mionectes",
  "id": "mionectes-galbinus",
  "ids": {
-  "avibase": "E25CB1F1A4B18440",
+  "avibase": null,
   "birdbase": 17228,
   "gbif": 9504121,
-  "inaturalist": "1444111",
-  "iucn": "103680162",
-  "wikidata": "Q31874586",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mionectes_galbinus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/olsfly1",
-  "inaturalist": "https://www.inaturalist.org/taxa/1444111",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Olive-striped_flycatcher",
-   "es": "https://es.wikipedia.org/wiki/Mionectes_galbinus",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Mionectes+galbinus"
@@ -59,7 +59,24 @@
   "ru": "Оливковый тираннчик"
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Ben Hayden",
+   "credit": "(c) Ben Hayden, some rights reserved (CC BY)",
+   "height": 1066,
+   "key_base": "photos/mionectes-galbinus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/mionectes-galbinus/1-large.jpg",
+    "medium": "photos/mionectes-galbinus/1-medium.jpg",
+    "thumb": "photos/mionectes-galbinus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/17582209",
+   "width": 1600
+  }
+ ],
  "sci_name": "Mionectes galbinus",
  "sci_name_aco": "Mionectes olivaceus",
  "sounds": [],
@@ -94,7 +111,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Mionectes%20galbinus%20fasciaticollis%20-%20Olive-striped%20Flycatcher%3B%20Madre%20de%20Dios%2C%20Peru%20%28cropped%29.jpg"
- ]
+ "wikidata_images": []
 }

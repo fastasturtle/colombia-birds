@@ -27,27 +27,27 @@
  "genus": "Zimmerius",
  "id": "zimmerius-parvus",
  "ids": {
-  "avibase": "1504728022BF9F03",
+  "avibase": null,
   "birdbase": 17154,
   "gbif": 2483943,
-  "inaturalist": "827388",
-  "iucn": "103680835",
-  "wikidata": "Q15943524",
-  "xeno_canto": "Zimmerius-parvus"
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zimmerius_parvus",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/paltyr3",
-  "inaturalist": "https://www.inaturalist.org/taxa/827388",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Mistletoe_tyrannulet",
-   "es": "https://es.wikipedia.org/wiki/Zimmerius_parvus",
-   "ru": "https://ru.wikipedia.org/wiki/Zimmerius_parvus"
+   "en": null,
+   "es": null,
+   "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+parvus"
  },
@@ -59,7 +59,24 @@
   "ru": "Малый москитолов"
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Millie Basden",
+   "credit": "(c) Millie Basden, some rights reserved (CC BY)",
+   "height": 1064,
+   "key_base": "photos/zimmerius-parvus/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/zimmerius-parvus/1-large.jpg",
+    "medium": "photos/zimmerius-parvus/1-medium.jpg",
+    "thumb": "photos/zimmerius-parvus/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/189287705",
+   "width": 1600
+  }
+ ],
  "sci_name": "Zimmerius parvus",
  "sci_name_aco": "Zimmerius vilissimus",
  "sounds": [],
@@ -93,7 +110,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Paltry%20Tyrannulet.jpg"
- ]
+ "wikidata_images": []
 }

@@ -27,26 +27,26 @@
  "genus": "Rhynchocyclus",
  "id": "rhynchocyclus-aequinoctialis",
  "ids": {
-  "avibase": "776DE49EA986615F",
+  "avibase": null,
   "birdbase": 17512,
   "gbif": 5229698,
-  "inaturalist": "1506930",
-  "iucn": "103680421",
-  "wikidata": "Q31874636",
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhynchocyclus_aequinoctialis",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/olifla2",
-  "inaturalist": "https://www.inaturalist.org/taxa/1506930",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Western_olivaceous_flatbill",
-   "es": "https://es.wikipedia.org/wiki/Rhynchocyclus_aequinoctialis",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Rhynchocyclus+aequinoctialis"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Jason Alexander",
+   "credit": "(c) Jason Alexander, some rights reserved (CC BY)",
+   "height": 1200,
+   "key_base": "photos/rhynchocyclus-aequinoctialis/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/rhynchocyclus-aequinoctialis/1-large.jpg",
+    "medium": "photos/rhynchocyclus-aequinoctialis/1-medium.jpg",
+    "thumb": "photos/rhynchocyclus-aequinoctialis/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/233401795",
+   "width": 1600
+  }
+ ],
  "sci_name": "Rhynchocyclus aequinoctialis",
  "sci_name_aco": "Rhynchocyclus olivaceus",
  "sounds": [],

@@ -27,26 +27,26 @@
  "genus": "Cryptopipo",
  "id": "cryptopipo-litae",
  "ids": {
-  "avibase": "DFF331281838A525",
+  "avibase": null,
   "birdbase": 18373,
-  "gbif": "10998449",
+  "gbif": null,
   "inaturalist": null,
-  "iucn": "103676467",
-  "wikidata": "Q31874682",
+  "iucn": null,
+  "wikidata": null,
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": "least concern"
+  "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cryptopipo_litae",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/grnman1",
   "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/Choco_manakin",
-   "es": "https://es.wikipedia.org/wiki/Cryptopipo_litae",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Cryptopipo+litae"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Nick Athanas",
+   "credit": "https://www.flickr.com/photos/antpitta/36293968762/",
+   "height": 1199,
+   "key_base": "photos/cryptopipo-litae/1",
+   "kind": "photo",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sizes": {
+    "large": "photos/cryptopipo-litae/1-large.jpg",
+    "medium": "photos/cryptopipo-litae/1-medium.jpg",
+    "thumb": "photos/cryptopipo-litae/1-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cryptopipo_litae_-_Choco_Manakin.jpg",
+   "width": 1600
+  }
+ ],
  "sci_name": "Cryptopipo litae",
  "sci_name_aco": null,
  "sounds": [],
@@ -91,7 +108,5 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Cryptopipo%20litae%20-%20Choco%20Manakin.jpg"
- ]
+ "wikidata_images": []
 }

@@ -27,13 +27,13 @@
  "genus": "Setophaga",
  "id": "setophaga-aestiva",
  "ids": {
-  "avibase": "B64C749B211015EF",
+  "avibase": null,
   "birdbase": 36247,
   "gbif": 8378494,
-  "inaturalist": "1188207",
+  "inaturalist": null,
   "iucn": null,
-  "wikidata": "Q12267348",
-  "xeno_canto": "Setophaga-aestiva"
+  "wikidata": null,
+  "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_aestiva",
+  "commons_category": null,
   "ebird": "https://ebird.org/species/yelwar1",
-  "inaturalist": "https://www.inaturalist.org/taxa/1188207",
+  "inaturalist": null,
   "wikipedia": {
-   "en": "https://en.wikipedia.org/wiki/American_yellow_warbler",
-   "es": "https://es.wikipedia.org/wiki/Setophaga_aestiva",
+   "en": null,
+   "es": null,
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+aestiva"
@@ -59,7 +59,24 @@
   "ru": null
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Rhododendrites",
+   "credit": "Own work",
+   "height": 1195,
+   "key_base": "photos/setophaga-aestiva/1",
+   "kind": "photo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sizes": {
+    "large": "photos/setophaga-aestiva/1-large.jpg",
+    "medium": "photos/setophaga-aestiva/1-medium.jpg",
+    "thumb": "photos/setophaga-aestiva/1-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Yellow_warbler_(82905).jpg",
+   "width": 1600
+  }
+ ],
  "sci_name": "Setophaga aestiva",
  "sci_name_aco": null,
  "sounds": [],
@@ -96,7 +113,5 @@
   "primary_habitat": "Shrub",
   "range_restricted": null
  },
- "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow%20warbler%20%2882905%29.jpg"
- ]
+ "wikidata_images": []
 }
