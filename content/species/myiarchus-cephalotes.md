@@ -2,6 +2,7 @@
 id: myiarchus-cephalotes
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Внешние опахала крайних рулевых беловатые, края хвоста кажутся светлыми"
   - "Горло и грудь серые, брюхо жёлтое"
@@ -9,7 +10,7 @@ key_features:
   - "Небольшой хохолок, шапочка слегка пестроватая, клюв тёмный"
 similar:
   - id: myiarchus-tuberculifer
-    how: "мельче, шапочка почти чёрная, заметно темнее спины, края хвоста не светлые"
+    how: "мельче, шапочка тёмная, сажисто-бурая, заметно темнее спины, края хвоста не светлые"
   - id: myiarchus-apicalis
     how: "на хвосте светлые кремовые концы, а не края; живёт ниже, в сухих долинах"
 behavior: "Держится в кронах и на опушках горного леса и на соседних полянах, поодиночке или парами. Добычу чаще снимает с листьев на коротком зависании, иногда ловит насекомых в воздухе, ест ягоды."
@@ -34,7 +35,7 @@ en:
     - "Small crest, slightly mottled cap, dark bill"
   similar:
     - id: myiarchus-tuberculifer
-      how: "smaller, almost black cap clearly darker than the back, tail edges not pale"
+      how: "smaller, dark sooty-brown cap clearly darker than the back, tail edges not pale"
     - id: myiarchus-apicalis
       how: "pale creamy tips to the tail rather than pale edges; lives lower, in dry valleys"
   behavior: "Keeps in the canopy and along the edges of montane forest and in nearby clearings, singly or in pairs. Mostly takes prey from leaves while briefly hovering, sometimes hawks insects, and eats berries."

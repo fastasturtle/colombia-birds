@@ -2,10 +2,11 @@
 id: tyrannus-savana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Хвост очень длинный, глубоко вильчатый; у самца в 2–3 раза длиннее тела"
   - "Шапочка и лицо чёрные, спина серая, весь низ чисто белый"
-  - "У самки и молодых хвост короче, но тоже с длинными «ножницами»"
+  - "У самки «ножницы» короче, у молодых птиц — заметно короче"
   - "Сидит на изгородях, проводах и макушках кустов в открытой местности"
 similar:
   - id: tyrannus-tyrannus
@@ -13,7 +14,7 @@ similar:
   - id: tyrannus-melancholicus
     how: "брюхо ярко-жёлтое, голова светло-серая, хвост короткий, с неглубокой выемкой"
 behavior: "Держится в саваннах, на пастбищах, у болот и в полуоткрытых местах с отдельными деревьями. С открытой присады делает изящные вылеты за насекомыми; на пролёте ест и плоды и собирается в стаи."
-voice: "Сухие жужжащие позывки и слабое «тик» в полёте; крылья самца в полёте свистят."
+voice: "Сухие жужжащие позывки и слабое «тик» в полёте; крылья в полёте издают отчётливый свист."
 traits:
   size: thrush
   colors: [white, gray, black]
@@ -30,7 +31,7 @@ en:
   key_features:
     - "Very long, deeply forked tail; in the male two to three times the body length"
     - "Black cap and face, gray back, entire underparts pure white"
-    - "Females and young have shorter tails, but still with long 'scissors'"
+    - "Females have shorter 'scissors', young birds much shorter ones"
     - "Perches on fences, wires and bush tops in open country"
   similar:
     - id: tyrannus-tyrannus
@@ -38,7 +39,7 @@ en:
     - id: tyrannus-melancholicus
       how: "bright yellow belly, pale gray head, short tail with a shallow notch"
   behavior: "Lives in savanna, pastures, marshes and semi-open country with scattered trees. Makes graceful sallies after insects from an open perch; on migration also eats fruit and gathers in flocks."
-  voice: "Dry buzzy calls and a weak 'tic' in flight; the male's wings whistle in flight."
+  voice: "Dry buzzy calls and a weak 'tic' in flight; the wings make a distinct whistle in flight."
 ---
 Fork-tailed Flycatcher (вилохвостый тиранн) — тиранн открытых мест с самым длинным хвостом в роде. В Колумбии есть оседлые птицы и мигранты, приходящие с юга континента, а на пролёте вид сбивается в большие стаи. Спутать его трудно: силуэт с длинными «ножницами» на проводе виден издалека, и определение сводится к тому, чтобы его заметить.
 

@@ -2,6 +2,7 @@
 id: myiozetetes-granadensis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Шапочка и затылок серые, лоб белый, короткая белая бровь кончается сразу за глазом"
   - "Низ ярко-жёлтый, горло белое, спина оливковая"
@@ -13,7 +14,7 @@ similar:
   - id: myiozetetes-cayanensis
     how: "голова почти чёрная с длинной белой бровью, на маховых узкие рыжие каймы"
 behavior: "Держится парами и семейными группами в среднем ярусе и кронах по опушкам, у рек и в полуоткрытых местах. Ловит насекомых в воздухе и охотно ест ягоды, собираясь с другими видами на плодоносящих деревьях."
-voice: "Громкие носовые «кип!» поодиночке и сериями; песня — быстрое «кип-кип-кип… ке-ке-крии», выше и резче, чем у Social Flycatcher."
+voice: "Громкие носовые «кип!» поодиночке и сериями, а также «кип, киип, к-биир»; голос выше и резче, чем у Social Flycatcher."
 traits:
   size: thrush
   colors: [yellow, olive, gray]
@@ -38,7 +39,7 @@ en:
     - id: myiozetetes-cayanensis
       how: "almost black head with a long white brow, narrow rufous edges on the flight feathers"
   behavior: "Keeps in pairs and family groups in the midstory and canopy along forest edges, rivers and semi-open country. Hawks insects in the air and readily eats berries, gathering with other species at fruiting trees."
-  voice: "Loud nasal 'kip!' notes, single or in series; the song is a fast 'kip-kip-kip… ke-ke-kree', higher and sharper than Social Flycatcher's."
+  voice: "Loud nasal 'kip!' notes, single or in series, also 'kip, keep, k-beer'; the voice is higher and sharper than Social Flycatcher's."
 ---
 Gray-capped Flycatcher (сероголовый бентеви) — небольшой бентеви влажных низменностей и предгорий, у нас до 1 000–1 100 м. По сравнению с Social Flycatcher это более лесная птица: чаще сидит в кронах по опушкам и у рек, а не в садах и посёлках. В паре этих видов смотри на голову: сплошной маски и длинной брови нет, белое только на лбу и коротким штрихом над глазом, поэтому лицо кажется «мягким».
 

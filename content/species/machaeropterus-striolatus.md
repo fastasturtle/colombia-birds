@@ -2,6 +2,7 @@
 id: machaeropterus-striolatus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Самец: лоб, темя и затылок ярко-красные"
   - "Грудь, брюхо и бока беловатые, в частых красных продольных полосах"
@@ -13,7 +14,7 @@ similar:
   - id: lepidothrix-coronata
     how: "самка ровно-зелёная, без пестрин снизу; самец чёрный с голубой шапочкой"
 behavior: "Держится в подлеске и среднем ярусе влажного предгорного леса, ест мелкие плоды. Самцы токуют разреженными группами на тонких ветках."
-voice: "Высокие носовые свисты и сухие щелчки; голос мало известен."
+voice: "Токовый позыв самца похож на стрекот насекомого; при прыжках на току крылья издают механическое жужжание."
 traits:
   size: sparrow
   colors: [olive, red, white]
@@ -38,7 +39,7 @@ en:
     - id: lepidothrix-coronata
       how: "female plain green with no streaks below; male black with a blue cap"
   behavior: "Keeps to the understory and mid-story of humid foothill forest and eats small fruit. Males display in loose groups on thin branches."
-  voice: "High nasal whistles and dry clicks; the voice is poorly known."
+  voice: "The male's advertising call is insect-like; during display jumps the wings make a mechanical whirr."
 ---
 Striolated Manakin (полосатая пипра) — крошечный манакин предгорий, в Колумбии на 300–1 500 м. Раньше его вместе с восточнобразильским видом объединяли под названием Striped Manakin. На восточном склоне Анд живёт номинативный подвид. Самца в полосатом «свитере» и с красной шапочкой трудно спутать, но сидит он обычно в тени среднего яруса и замечается только при движении.
 

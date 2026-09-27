@@ -2,6 +2,7 @@
 id: hylophilus-flavipes
 difficulty: hard
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх тускло-оливковый, бока головы бледно-серые, без брови"
   - "Горло и грудь беловато-серые, брюхо бледно-желтоватое"

@@ -2,6 +2,7 @@
 id: pheugopedius-sclateri
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Горло, грудь и брюхо белые в частых чёрных полосках и крапинах"
   - "Щёки и бока шеи в чёрно-белую крапину, над глазом узкая белая бровь"

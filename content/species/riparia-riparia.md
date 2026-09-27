@@ -2,6 +2,7 @@
 id: riparia-riparia
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх ровный серо-бурый, низ белый"
   - "Поперёк белой груди узкая резкая бурая полоса, горло белое"
@@ -9,7 +10,7 @@ key_features:
   - "Полёт быстрый, порхающий, с частыми резкими поворотами"
 similar:
   - id: stelgidopteryx-ruficollis
-    how: "горло рыжеватое, полосы на груди нет, хвост почти прямой"
+    how: "горло рыжеватое, грудь сплошь серо-бурая, без белого и без чёткой полосы; хвост почти прямой"
   - id: progne-tapera
     how: "намного крупнее, полоса на груди размытая, полёт плавнее, с планированием"
 behavior: "Пролётный вид: кормится над реками, озёрами, болотами и полями, часто стайками вместе с другими ласточками. Отдыхает на проводах и сухих ветках у воды."
@@ -33,7 +34,7 @@ en:
     - "Fast, fluttery flight with frequent sharp turns"
   similar:
     - id: stelgidopteryx-ruficollis
-      how: "rufous throat, no breast band, nearly square tail"
+      how: "rufous throat, breast wholly gray-brown with no white and no clean band; nearly square tail"
     - id: progne-tapera
       how: "much larger, diffuse breast band, smoother flight with glides"
   behavior: "A passage migrant: it feeds over rivers, lakes, marshes and fields, often in flocks with other swallows. Rests on wires and dead branches near water."

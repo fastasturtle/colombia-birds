@@ -2,6 +2,7 @@
 id: pipreola-riefferii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Клюв и ноги ярко-красные у обоих полов, заметны даже в тени"
   - "Самец: голова и верх груди чёрно-зелёные, снизу окаймлены жёлтой полосой"
@@ -14,7 +15,7 @@ similar:
   - id: pipreola-lubomirskii
     how: "чёрный капюшон самца без жёлтой каймы, глаз жёлтый, клюв розовато-оранжевый"
 behavior: "Подолгу сидит неподвижно в среднем ярусе и подлеске облачного леса, парами или в микст-флоке. Ест плоды, срывая их с ветки на лету или сидя."
-voice: "Очень высокий тонкий писк, почти на пределе слуха; легко пропустить."
+voice: "Очень высокое шипящее «ти-ти-ти-ти» до 5 секунд, затихающее к концу; песня — «ц-с-с-с-с-сиииии-у». Легко пропустить."
 traits:
   size: thrush
   colors: [green, yellow, black]
@@ -40,14 +41,14 @@ en:
     - id: pipreola-lubomirskii
       how: "male's black hood lacks the yellow border, eye yellow, bill pinkish orange"
   behavior: "Sits motionless for long periods in the mid-story and understory of cloud forest, in pairs or with mixed flocks. Eats fruit, plucking it in a short sally or from a perch."
-  voice: "A very high, thin squeak at the edge of hearing; easy to miss."
+  voice: "A very high, sibilant 'ti-ti-ti-ti' lasting up to 5 seconds and dying away; the song is 'ts-s-s-s-s-seeeee-uw'. Easy to miss."
 ---
-Green-and-black Fruiteater (ожереловый ягодоед) — самый обычный ягодоед облачного леса Колумбии, на 1 000–2 900 м. Это котинга, но ведёт себя тихо: подолгу сидит неподвижно, и в листве её выдаёт только красный клюв. На западном склоне Анд, включая Нариньо, живёт подвид occidentalis с зеленоватым налётом на горле и груди самца и едва заметными белыми кончиками третьестепенных маховых.
+Green-and-black Fruiteater (ожереловый ягодоед) — самый обычный ягодоед облачного леса Колумбии, на 1 500–3 200 м. Это котинга, но ведёт себя тихо: подолгу сидит неподвижно, и в листве её выдаёт только красный клюв. На западном склоне Анд, включая Нариньо, живёт подвид occidentalis с зеленоватым налётом на горле и груди самца и едва заметными белыми кончиками третьестепенных маховых; в Центральных и Восточных Андах (Чикаке, Уила) — номинативный.
 
 На маршруте он «возможно» в Чикаке 3 и 23–24 октября, в Уиле 4–6 октября, на Трамплине птиц 15 октября (здесь отметок больше всего), в Сибундое 15–16 октября и в Ла-Планаде 16–18 октября.
 
 ## English
 
-Green-and-black Fruiteater is the commonest fruiteater of Colombian cloud forest, at 1,000–2,900 m. It is a cotinga but behaves quietly: it sits still for long periods, and in the foliage only the red bill gives it away. The west slope of the Andes, including Nariño, holds the subspecies occidentalis, with a greenish wash on the male's throat and chest and only faint white tertial tips.
+Green-and-black Fruiteater is the commonest fruiteater of Colombian cloud forest, at 1,500–3,200 m. It is a cotinga but behaves quietly: it sits still for long periods, and in the foliage only the red bill gives it away. The west slope of the Andes, including Nariño, holds the subspecies occidentalis, with a greenish wash on the male's throat and chest and only faint white tertial tips; the Central and Eastern Andes (Chicaque, Huila) hold the nominate subspecies.
 
 On the route it is "maybe" at Chicaque on 3 and 23–24 October, in Huila on 4–6 October, at Trampolín de Aves on 15 October (the site with the most records), at Sibundoy on 15–16 October and at La Planada on 16–18 October.

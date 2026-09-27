@@ -2,6 +2,7 @@
 id: troglodytes-solstitialis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Широкая охристая бровь, за глазом тёмная полоска, щёки тёплые охристые"
   - "Верх рыжевато-бурый, шапочка рыжее спины"
@@ -39,12 +40,12 @@ en:
   behavior: "Pairs and family groups search moss, epiphytes and vines on trunks and branches from the understory to mid-levels, sometimes in mixed flocks. Also found in bamboo thickets."
   voice: "A quiet song of high notes, like 'treee-treee-titi-tiki'; calls a repeated 'dzz' or 'dee-dee'."
 ---
-Mountain Wren (андский крапивник) — маленький рыжеватый крапивник влажного горного и облачного леса до границы леса, у нас на 1 700–3 500 м. Он похож на домового крапивника, но живёт внутри леса и лазает по замшелым ветвям, как поползень. В большей части Колумбии живёт подвид solitarius с более тёмным верхом, на крайнем юге — номинативный solstitialis.
+Mountain Wren (андский крапивник) — маленький рыжеватый крапивник влажного горного и облачного леса до границы леса, у нас на 1 700–3 500 м. Он похож на домового крапивника, но живёт внутри леса и лазает по замшелым ветвям, как поползень. В большей части Колумбии (в том числе в Чикаке) живёт подвид solitarius с более тёмным верхом и более светлым горлом, на крайнем юге — номинативный solstitialis; к какому из них относятся птицы Нариньо и Путумайо на маршруте, точно не выяснено.
 
 На маршруте он «возможно» на Трамплине птиц 15 октября, на Парамо Бордонсильо и у Лагуны Ла-Коча 16 октября, в Ла-Планаде 16–18 октября и в Чикаке 3 и 23–24 октября. Смотри на замшелые ветви в смешанных стаях.
 
 ## English
 
-Mountain Wren is a small rufous wren of humid montane and cloud forest up to treeline, here at 1,700–3,500 m. It resembles House Wren but lives inside the forest and climbs over mossy branches like a nuthatch. Most of Colombia holds the subspecies solitarius, darker above; the far south has the nominate solstitialis.
+Mountain Wren is a small rufous wren of humid montane and cloud forest up to treeline, here at 1,700–3,500 m. It resembles House Wren but lives inside the forest and climbs over mossy branches like a nuthatch. Most of Colombia (Chicaque included) holds the subspecies solitarius, darker above with a paler throat; the far south has the nominate solstitialis, and which of the two the Nariño and Putumayo birds on the route belong to is not settled.
 
 On the route it is "maybe" at Trampolín de Aves on 15 October, at Páramo Bordoncillo and Laguna de La Cocha on 16 October, at La Planada on 16–18 October and at Chicaque on 3 and 23–24 October. Watch mossy branches in mixed flocks.
