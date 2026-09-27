@@ -2,6 +2,7 @@
 id: cephalopterus-penduliger
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Крупная, целиком чёрная, размером с ворону"
   - "Хохол-«зонтик», нависающий над клювом"
@@ -9,7 +10,7 @@ key_features:
   - "Короткий хвост, тяжёлый полёт"
 similar:
   - id: cephalopterus-ornatus
-    how: "серёжка короткая, в хохле видны белые стержни перьев; живёт на восточном склоне и в Амазонии"
+    how: "серёжка короткая, в хохле белые стержни перьев, глаз светлый; живёт на восточном склоне и в Амазонии"
 behavior: "Кормится крупными плодами в кронах и среднем ярусе, иногда ловит ящериц и крупных насекомых. Самцы собираются на токах, раздувают хохол и распускают серёжку, издавая низкие гудящие звуки."
 voice: "Низкое глухое гудение «муууу», как далёкая корова."
 traits:
@@ -21,6 +22,7 @@ traits:
   layer: [canopy, midstory]
 sources:
   - "Wikipedia: Long-wattled umbrellabird (en, CC BY-SA 4.0), data/texts/cephalopterus-penduliger.json"
+  - "Wikipedia: Amazonian umbrellabird (en, CC BY-SA 4.0) — сверка отличий"
   - "Данные проекта: data/species/cephalopterus-penduliger.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -31,7 +33,7 @@ en:
     - "Short tail, heavy flight"
   similar:
     - id: cephalopterus-ornatus
-      how: "short wattle, white feather shafts in the crest; lives on the east slope and in Amazonia"
+      how: "short wattle, white feather shafts in the crest, pale eye; lives on the east slope and in Amazonia"
   behavior: "Feeds on large fruit in the canopy and midstory, sometimes taking lizards and large insects. Males gather at leks, raising the crest and lowering the wattle while giving low booming sounds."
   voice: "A low hollow booming 'mooo', like a distant cow."
 ---

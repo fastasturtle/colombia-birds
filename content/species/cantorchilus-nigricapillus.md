@@ -2,6 +2,7 @@
 id: cantorchilus-nigricapillus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова чёрная, с белыми пятнами на щеке и узкой белой бровью"
   - "Спина и крылья насыщенно-каштановые"
@@ -11,7 +12,7 @@ similar:
   - id: cantorchilus-leucopogon
     how: "намного тусклее: голова бурая, горло в полосках, низ однотонный охристый"
   - id: henicorhina-leucosticta
-    how: "крошечный, с коротким хвостиком, грудь чисто белая, шапочка чёрная, спина бурая"
+    how: "крошечный, с коротким хвостиком, грудь чисто белая, щёки в чёрно-белых штрихах, спина бурая"
 behavior: "Пары держатся в густых зарослях у ручьёв, в геликониях и на заросших опушках вдоль дорог, почти у земли. Любопытны и часто подходят близко, но в просветах показываются на секунду."
 voice: "Очень громкий дуэт из звонких свистовых фраз, быстро чередующихся между самцом и самкой."
 traits:
@@ -26,6 +27,7 @@ sources:
   - "Wikipedia: Каштановый кустарниковый крапивник (ru, CC BY-SA 4.0)"
   - "Данные проекта: data/species/cantorchilus-nigricapillus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/families/troglodytidae.md"
+  - "Wikipedia: Stripe-throated wren, White-breasted wood wren (en, CC BY-SA 4.0) — сверка отличий"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -37,7 +39,7 @@ en:
     - id: cantorchilus-leucopogon
       how: "much duller: brown head, streaked throat, plain buffy underparts"
     - id: henicorhina-leucosticta
-      how: "tiny, with a stub tail, clean white breast, black cap and brown back"
+      how: "tiny, with a stub tail, clean white breast, black-and-white streaked cheeks, brown back"
   behavior: "Pairs keep to dense tangles by streams, heliconias and overgrown roadside edges, close to the ground. Curious and often come close, but show in gaps only for a second."
   voice: "A very loud duet of ringing whistled phrases, rapidly alternating between male and female."
 ---

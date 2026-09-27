@@ -2,16 +2,17 @@
 id: buthraupis-montana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и горло чёрные, как капюшон; глаз ярко-красный"
   - "Спина и крылья ярко-синие, низ ярко-жёлтый"
-  - "Бёдра чёрные, на бледно-жёлтом брюхе заметны сбоку"
+  - "Бёдра чёрные, на ярко-жёлтом брюхе заметны сбоку"
   - "Очень крупная танагра, размером с дрозда, шумными группами"
 similar:
   - id: anisognathus-somptuosus
     how: "заметно мельче, на чёрной голове жёлтая шапочка, синие только крылья и плечо"
   - id: anisognathus-lacrymosus
-    how: "мельче, спина сине-серая, низ охристо-оранжевый, чёрного капюшона нет"
+    how: "мельче, спина сине-серая, низ охристо-оранжевый, жёлтое пятно под глазом"
 behavior: "Группы из четырёх–восьми птиц кочуют по кронам высокогорного леса и опушек, перелетают далеко над открытыми склонами и часто кормятся вместе с другими крупными птицами. Держатся на виду и не очень пугливы."
 voice: "Громкая звонкая серия «ти-ти-ти-ти», слышная издалека; на рассвете группы поют хором."
 traits:
@@ -23,7 +24,8 @@ traits:
   layer: [canopy, midstory]
 sources:
   - "Wikipedia: Hooded mountain tanager (en, CC BY-SA 4.0)"
-  - "Wikipedia: Buthraupis montana (es, CC BY-SA 4.0)"
+  - "Wikipedia: Buthraupis montana (es, CC BY-SA 4.0) — окраска, голос, поведение"
+  - "Wikipedia: Blue-winged mountain tanager, Lacrimose mountain tanager (en, CC BY-SA 4.0) — сверка отличий"
   - "Данные проекта: data/species/buthraupis-montana.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -36,7 +38,7 @@ en:
     - id: anisognathus-somptuosus
       how: "much smaller, a yellow crown on the black head, blue only on the wings and shoulder"
     - id: anisognathus-lacrymosus
-      how: "smaller, blue-gray back, ochre-orange underparts, no black hood"
+      how: "smaller, blue-gray back, ochre-orange underparts, a yellow spot below the eye"
   behavior: "Groups of four to eight roam the canopy of high Andean forest and edges, fly long distances over open slopes and often feed with other large birds. They stay in view and are not very shy."
   voice: "A loud, ringing 'ti-ti-ti-ti' series audible from far off; at dawn groups sing in chorus."
 ---

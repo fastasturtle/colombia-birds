@@ -2,6 +2,7 @@
 id: tyrannus-melancholicus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Брюхо ярко-жёлтое, грудь оливковая, горло бледно-серое"
   - "Голова светло-серая с тёмной маской через глаз"
