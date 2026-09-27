@@ -3,14 +3,87 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 125
+- Карточек: 198
 - Проверено: 125
-- Не проверено: 0
+- Не проверено: 73
 
-## Не проверено (0)
+## Не проверено (73)
 
 | Слаг | English | Группа |
 |---|---|---|
+| crypturellus-cinereus | Cinereous Tinamou | Тинаму и куриные |
+| chamaepetes-goudotii | Sickle-winged Guan | Тинаму и куриные |
+| penelope-ortoni | Baudo Guan | Тинаму и куриные |
+| mitu-salvini | Salvin's Curassow | Тинаму и куриные |
+| odontophorus-hyperythrus | Chestnut Wood-Quail | Тинаму и куриные |
+| odontophorus-melanonotus | Dark-backed Wood-Quail | Тинаму и куриные |
+| columbina-buckleyi | Ecuadorian Ground Dove | Голуби, кукушки и гоацин |
+| eutoxeres-condamini | Buff-tailed Sicklebill | Стрижи и колибри |
+| doryfera-ludovicae | Green-fronted Lancebill | Стрижи и колибри |
+| heliangelus-amethysticollis | Amethyst-throated Sunangel | Стрижи и колибри |
+| phlogophilus-hemileucurus | Ecuadorian Piedtail | Стрижи и колибри |
+| ramphomicron-microrhynchum | Purple-backed Thornbill | Стрижи и колибри |
+| haplophaedia-lugens | Hoary Puffleg | Стрижи и колибри |
+| aglaeactis-cupripennis | Shining Sunbeam | Стрижи и колибри |
+| coeligena-bonapartei | Golden-bellied Starfrontlet | Стрижи и колибри |
+| lafresnaya-lafresnayi | Mountain Velvetbreast | Стрижи и колибри |
+| heliodoxa-aurescens | Gould's Jewelfront | Стрижи и колибри |
+| heliodoxa-leadbeateri | Violet-fronted Brilliant | Стрижи и колибри |
+| chaetocercus-heliodor | Gorgeted Woodstar | Стрижи и колибри |
+| anthocephala-berlepschi | Tolima Blossomcrown | Стрижи и колибри |
+| thalurania-furcata | Fork-tailed Woodnymph | Стрижи и колибри |
+| saucerottia-cyanifrons | Indigo-capped Hummingbird | Стрижи и колибри |
+| chrysuronia-oenone | Golden-tailed Sapphire | Стрижи и колибри |
+| pharomachrus-pavoninus | Pavonine Quetzal | Трогоны, момоты, зимородки и якамары |
+| pharomachrus-antisianus | Crested Quetzal | Трогоны, момоты, зимородки и якамары |
+| trogon-viridis | Green-backed Trogon | Трогоны, момоты, зимородки и якамары |
+| trogon-ramonianus | Amazonian Violaceous Trogon | Трогоны, момоты, зимородки и якамары |
+| baryphthengus-martii | Rufous Motmot | Трогоны, момоты, зимородки и якамары |
+| notharchus-hyperrhynchus | White-necked Puffbird | Трогоны, момоты, зимородки и якамары |
+| monasa-flavirostris | Yellow-billed Nunbird | Трогоны, момоты, зимородки и якамары |
+| galbalcyrhynchus-leucotis | White-eared Jacamar | Трогоны, момоты, зимородки и якамары |
+| galbula-tombacea | White-chinned Jacamar | Трогоны, момоты, зимородки и якамары |
+| andigena-nigrirostris | Black-billed Mountain-Toucan | Туканы, бородатки и дятлы |
+| pteroglossus-pluricinctus | Many-banded Aracari | Туканы, бородатки и дятлы |
+| selenidera-reinwardtii | Golden-collared Toucanet | Туканы, бородатки и дятлы |
+| ramphastos-ambiguus | Yellow-throated Toucan | Туканы, бородатки и дятлы |
+| ramphastos-tucanus | White-throated Toucan | Туканы, бородатки и дятлы |
+| picumnus-lafresnayi | Lafresnaye's Piculet | Туканы, бородатки и дятлы |
+| campephilus-gayaquilensis | Guayaquil Woodpecker | Туканы, бородатки и дятлы |
+| celeus-flavus | Cream-colored Woodpecker | Туканы, бородатки и дятлы |
+| celeus-spectabilis | Rufous-headed Woodpecker | Туканы, бородатки и дятлы |
+| amazona-farinosa | Mealy Amazon | Попугаи |
+| frederickena-fulva | Fulvous Antshrike | Муравьеловки, печники и древолазы |
+| epinecrophylla-spodionota | Foothill Stipplethroat | Муравьеловки, печники и древолазы |
+| drymophila-caudata | East Andean Antbird | Муравьеловки, печники и древолазы |
+| grallaria-rufocinerea | Bicolored Antpitta | Муравьеловки, печники и древолазы |
+| grallaricula-cucullata | Hooded Antpitta | Муравьеловки, печники и древолазы |
+| scytalopus-micropterus | Long-tailed Tapaculo | Муравьеловки, печники и древолазы |
+| scytalopus-latrans | Blackish Tapaculo | Муравьеловки, печники и древолазы |
+| scytalopus-vicinior | Nariño Tapaculo | Муравьеловки, печники и древолазы |
+| scytalopus-spillmanni | Spillmann's Tapaculo | Муравьеловки, печники и древолазы |
+| chamaeza-turdina | Schwartz's Antthrush | Муравьеловки, печники и древолазы |
+| campylorhamphus-pusillus | Brown-billed Scythebill | Муравьеловки, печники и древолазы |
+| syndactyla-subalaris | Lineated Foliage-gleaner | Муравьеловки, печники и древолазы |
+| margarornis-squamiger | Pearled Treerunner | Муравьеловки, печники и древолазы |
+| metopothrix-aurantiaca | Orange-fronted Plushcrown | Муравьеловки, печники и древолазы |
+| poecilotriccus-ruficeps | Rufous-crowned Tody-Flycatcher | Тиранны и титиры |
+| tolmomyias-traylori | Orange-eyed Flatbill | Тиранны и титиры |
+| elaenia-frantzii | Mountain Elaenia | Тиранны и титиры |
+| fluvicola-nengeta | Masked Water-Tyrant | Тиранны и титиры |
+| attila-torridus | Ochraceous Attila | Тиранны и титиры |
+| pipreola-arcuata | Barred Fruiteater | Котинги и манакины |
+| pipreola-jucunda | Orange-breasted Fruiteater | Котинги и манакины |
+| pipreola-lubomirskii | Black-chested Fruiteater | Котинги и манакины |
+| pipreola-chlorolepidota | Fiery-throated Fruiteater | Котинги и манакины |
+| snowornis-subalaris | Gray-tailed Piha | Котинги и манакины |
+| querula-purpurata | Purple-throated Fruitcrow | Котинги и манакины |
+| cephalopterus-ornatus | Amazonian Umbrellabird | Котинги и манакины |
+| cotinga-maynana | Plum-throated Cotinga | Котинги и манакины |
+| cotinga-cayana | Spangled Cotinga | Котинги и манакины |
+| gymnoderus-foetidus | Bare-necked Fruitcrow | Котинги и манакины |
+| donacobius-atricapilla | Black-capped Donacobius | Ласточки, крапивники, дрозды и другие |
+| cichlopsis-leucogenys | Rufous-brown Solitaire | Ласточки, крапивники, дрозды и другие |
 
 ## Проверено (125)
 
