@@ -3,14 +3,19 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 934
+- Карточек: 965
 - Проверено: 723
-- Не проверено: 211
+- Не проверено: 242
 
-## Не проверено (211)
+## Не проверено (242)
 
 | Слаг | English | Группа |
 |---|---|---|
+| aburria-aburri | Wattled Guan | Тинаму и куриные |
+| pipile-cumanensis | Blue-throated Piping-Guan | Тинаму и куриные |
+| penelope-jacquacu | Spix's Guan | Тинаму и куриные |
+| odontophorus-gujanensis | Marbled Wood-Quail | Тинаму и куриные |
+| odontophorus-erythrops | Rufous-fronted Wood-Quail | Тинаму и куриные |
 | alopochen-aegyptiaca | Egyptian Goose | Утки, поганки и фламинго |
 | cairina-moschata | Muscovy Duck | Утки, поганки и фламинго |
 | aythya-affinis | Lesser Scaup | Утки, поганки и фламинго |
@@ -51,6 +56,15 @@
 | chalybura-urochrysia | Bronze-tailed Plumeleteer | Стрижи и колибри |
 | saucerottia-saucerottei | Steely-vented Hummingbird | Стрижи и колибри |
 | saucerottia-viridigaster | Green-bellied Hummingbird | Стрижи и колибри |
+| porzana-carolina | Sora | Цапли, ибисы и пастушки |
+| theristicus-caudatus | Buff-necked Ibis | Цапли, ибисы и пастушки |
+| tigrisoma-lineatum | Rufescent Tiger-Heron | Цапли, ибисы и пастушки |
+| tigrisoma-fasciatum | Fasciated Tiger-Heron | Цапли, ибисы и пастушки |
+| pilherodius-pileatus | Capped Heron | Цапли, ибисы и пастушки |
+| egretta-rufescens | Reddish Egret | Цапли, ибисы и пастушки |
+| butorides-virescens | Green Heron | Цапли, ибисы и пастушки |
+| ardea-herodias | Great Blue Heron | Цапли, ибисы и пастушки |
+| ardea-cocoi | Cocoi Heron | Цапли, ибисы и пастушки |
 | charadrius-vociferus | Killdeer | Кулики, чайки и крачки |
 | leucophaeus-pipixcan | Franklin's Gull | Кулики, чайки и крачки |
 | gelochelidon-nilotica | Gull-billed Tern | Кулики, чайки и крачки |
@@ -79,6 +93,13 @@
 | caracara-plancus | Crested Caracara | Хищные птицы и совы |
 | falco-columbarius | Merlin | Хищные птицы и совы |
 | falco-rufigularis | Bat Falcon | Хищные птицы и совы |
+| trogon-massena | Slaty-tailed Trogon | Трогоны, момоты, зимородки и якамары |
+| trogon-chionurus | White-tailed Trogon | Трогоны, момоты, зимородки и якамары |
+| trogon-curucui | Blue-crowned Trogon | Трогоны, момоты, зимородки и якамары |
+| chloroceryle-inda | Green-and-rufous Kingfisher | Трогоны, момоты, зимородки и якамары |
+| nystalus-obamai | Western Striolated-Puffbird | Трогоны, момоты, зимородки и якамары |
+| monasa-morphoeus | White-fronted Nunbird | Трогоны, момоты, зимородки и якамары |
+| galbula-ruficauda | Rufous-tailed Jacamar | Трогоны, момоты, зимородки и якамары |
 | veniliornis-passerinus | Little Woodpecker | Туканы, бородатки и дятлы |
 | veniliornis-dignus | Yellow-vented Woodpecker | Туканы, бородатки и дятлы |
 | veniliornis-nigriceps | Bar-bellied Woodpecker | Туканы, бородатки и дятлы |
@@ -130,29 +151,39 @@
 | myiobius-villosus | Tawny-breasted Flycatcher | Тиранны и титиры |
 | myiobius-atricaudus | Black-tailed Flycatcher | Тиранны и титиры |
 | mionectes-oleagineus | Ochre-bellied Flycatcher | Тиранны и титиры |
+| pogonotriccus-ophthalmicus | Marble-faced Bristle-Tyrant | Тиранны и титиры |
 | pseudotriccus-pelzelni | Bronze-olive Pygmy-Tyrant | Тиранны и титиры |
 | pseudotriccus-ruficeps | Rufous-headed Pygmy-Tyrant | Тиранны и титиры |
 | myiornis-ecaudatus | Short-tailed Pygmy-Tyrant | Тиранны и титиры |
 | hemitriccus-granadensis | Black-throated Tody-Tyrant | Тиранны и титиры |
 | poecilotriccus-latirostris | Rusty-fronted Tody-Flycatcher | Тиранны и титиры |
+| poecilotriccus-sylvia | Slate-headed Tody-Flycatcher | Тиранны и титиры |
+| poecilotriccus-calopterus | Golden-winged Tody-Flycatcher | Тиранны и титиры |
+| todirostrum-nigriceps | Black-headed Tody-Flycatcher | Тиранны и титиры |
 | rhynchocyclus-pacificus | Pacific Flatbill | Тиранны и титиры |
 | tolmomyias-sulphurescens | Yellow-olive Flatbill | Тиранны и титиры |
 | tolmomyias-assimilis | Yellow-margined Flatbill | Тиранны и титиры |
 | tolmomyias-poliocephalus | Gray-crowned Flatbill | Тиранны и титиры |
 | tolmomyias-flaviventris | Ochre-lored Flatbill | Тиранны и титиры |
+| mecocerculus-poecilocercus | White-tailed Tyrannulet | Тиранны и титиры |
 | mecocerculus-minor | Sulphur-bellied Tyrannulet | Тиранны и титиры |
 | nesotriccus-murinus | Mouse-colored Tyrannulet | Тиранны и титиры |
 | myiopagis-cinerea | Amazonian Elaenia | Тиранны и титиры |
+| myiopagis-viridicata | Greenish Elaenia | Тиранны и титиры |
 | elaenia-gigas | Mottle-backed Elaenia | Тиранны и титиры |
 | elaenia-chiriquensis | Lesser Elaenia | Тиранны и титиры |
+| elaenia-brachyptera | Coopmans's Elaenia | Тиранны и титиры |
+| elaenia-albiceps | White-crested Elaenia | Тиранны и титиры |
 | phyllomyias-griseiceps | Sooty-headed Tyrannulet | Тиранны и титиры |
 | myiophobus-flavicans | Flavescent Flycatcher | Тиранны и титиры |
 | empidonax-virescens | Acadian Flycatcher | Тиранны и титиры |
 | empidonax-alnorum | Alder Flycatcher | Тиранны и титиры |
 | knipolegus-poecilurus | Rufous-tailed Tyrant | Тиранны и титиры |
 | ochthornis-littoralis | Drab Water Tyrant | Тиранны и титиры |
+| myiotheretes-fumigatus | Smoky Bush-Tyrant | Тиранны и титиры |
 | silvicultrix-diadema | Yellow-bellied Chat-Tyrant | Тиранны и титиры |
 | attila-cinnamomeus | Cinnamon Attila | Тиранны и титиры |
+| attila-spadiceus | Bright-rumped Attila | Тиранны и титиры |
 | rhytipterna-simplex | Grayish Mourner | Тиранны и титиры |
 | myiarchus-crinitus | Great Crested Flycatcher | Тиранны и титиры |
 | myiodynastes-luteiventris | Sulphur-bellied Flycatcher | Тиранны и титиры |
