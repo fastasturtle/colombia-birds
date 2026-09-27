@@ -2,6 +2,7 @@
 id: iridosornis-rufivertex
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тело насыщенно-синее с фиолетовым отливом"
   - "Голова и горло чёрные, на темени золотисто-жёлтая шапочка"

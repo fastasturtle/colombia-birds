@@ -2,10 +2,11 @@
 id: tephrophilus-wetmorei
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лицо в чёрной маске, обрамлённой жёлтым лбом и бровью"
   - "Низ ярко-жёлтый, спина оливковая"
-  - "Плечо и крылья голубовато-серые"
+  - "Крылья черноватые, с двумя фиолетово-синими полосками; поясница ярко-жёлтая"
   - "Крупная горная танагра эльфийского леса у самой границы парамо"
 similar:
   - id: anisognathus-lacrymosus
@@ -18,18 +19,19 @@ traits:
   size: thrush
   colors: [yellow, olive, black]
   tone: bright
-  marks: [mask]
+  marks: [mask, wing_bars]
   bill: [short]
   layer: [understory, midstory]
 sources:
   - "Данные проекта: data/species/tephrophilus-wetmorei.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "content/groups/tanagers.md"
+  - "Wikipedia: Masked mountain tanager (en, CC BY-SA 4.0), https://en.wikipedia.org/wiki/Masked_mountain_tanager"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
     - "Black face mask framed by a yellow forehead and eyebrow"
     - "Bright yellow underparts, olive back"
-    - "Bluish-gray shoulder and wings"
+    - "Blackish wings with two violet-blue wing bars; bright yellow rump"
     - "Large mountain tanager of elfin forest right at the páramo edge"
   similar:
     - id: anisognathus-lacrymosus

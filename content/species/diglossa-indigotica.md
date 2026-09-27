@@ -2,6 +2,7 @@
 id: diglossa-indigotica
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся ярко-индигово-синяя, блестящая, без маски"
   - "Глаз красный, заметен на ровном синем лице"
@@ -11,7 +12,7 @@ similar:
   - id: diglossa-cyanea
     how: "крупнее, с широкой чёрной маской; живёт выше, в облачном лесу у верхней границы"
   - id: diglossa-glauca
-    how: "тёмно-синий, глаз жёлто-оранжевый; живёт только на восточном склоне Анд"
+    how: "тёмно-синий, глаз ярко-жёлтый; живёт только на восточном склоне Анд"
 behavior: "Поодиночке и парами кормится в кронах и на опушках мшистого леса, прокалывает цветки эпифитов и кустов, иногда присоединяется к смешанным стаям."
 voice: "Тихие высокие звуки; голос в определении не нужен."
 traits:
@@ -24,6 +25,7 @@ traits:
 sources:
   - "Wikipedia: Indigo flowerpiercer (en, CC BY-SA 4.0)"
   - "Wikipedia: Diglossa indigotica (es, CC BY-SA 4.0)"
+  - "Wikipedia: Golden-eyed flowerpiercer (en, CC BY-SA 4.0)"
   - "Данные проекта: data/species/diglossa-indigotica.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
@@ -36,7 +38,7 @@ en:
     - id: diglossa-cyanea
       how: "larger, with a broad black mask; lives higher, in cloud forest near treeline"
     - id: diglossa-glauca
-      how: "deep blue with a yellow-orange eye; found only on the east slope of the Andes"
+      how: "deep blue with a bright yellow eye; found only on the east slope of the Andes"
   behavior: "Feeds singly or in pairs in the canopy and edges of mossy forest, piercing flowers of epiphytes and shrubs; sometimes joins mixed flocks."
   voice: "Quiet high notes; voice is not needed for identification."
 ---
