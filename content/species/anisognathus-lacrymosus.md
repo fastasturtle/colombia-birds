@@ -2,6 +2,7 @@
 id: anisognathus-lacrymosus
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Верх тёмный сине-серый, лицо черноватое"
   - "Под глазом и на боку шеи маленькие жёлтые пятнышки, «слёзы»"
@@ -15,7 +16,7 @@ similar:
   - id: dubusia-taeniata
     how: "над глазом длинная голубая пёстрая бровь, охристая полоса поперёк груди между чёрным горлом и жёлтым брюхом"
 behavior: "Парами и небольшими группами в верхнем облачном лесу и на опушках, часто в микст-флоках. Кормится ягодами и насекомыми на всех ярусах, нередко низко."
-voice: "Высокие резкие цыканья и тонкие писки в стае."
+voice: "Голос описан скупо: в стае слышны высокие цыканья и тонкие писки."
 traits:
   size: thrush
   colors: [gray, orange]
@@ -43,7 +44,7 @@ en:
     - id: dubusia-taeniata
       how: "long pale blue speckled brow over the eye, ochre band across the breast between black throat and yellow belly"
   behavior: "In pairs and small groups in upper cloud forest and at edges, often in mixed flocks. Feeds on berries and insects at all levels, often low."
-  voice: "High sharp chips and thin squeaks within the flock."
+  voice: "Poorly described: in the flock, high chips and thin squeaks."
 ---
 Lacrimose Mountain Tanager (плачущая танагра) — горная танагра верхнего облачного леса и лесных опушек, у нас на высотах примерно 2 100–3 300 м. Название дано за жёлтые пятнышки под глазом, похожие на слёзы; вместе с тёмным лицом они видны даже в тени, когда остальная окраска кажется просто тёмной сверху и рыжеватой снизу. Держится в микст-флоках вместе с другими горными танаграми и цветоколами.
 

@@ -2,9 +2,10 @@
 id: sporophila-corvina
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Самец на юго-западе: верх чёрный, низ белый, поперёк груди чёрная полоса, иногда разорванная"
-  - "Белое пятнышко у основания маховых и светлая поясница"
+  - "Самец на юго-западе: верх чёрный, горло, полуошейник и брюхо белые, поперёк груди чёрная полоса"
+  - "Белое пятнышко у основания маховых и белая поясница"
   - "Клюв короткий, толстый, округлый, у самца чёрный"
   - "Самка оливково-бурая, снизу светлее и желтоватее, без пестрин"
 similar:
@@ -31,8 +32,8 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Male in the southwest: black above, white below, a black band across the breast, sometimes broken"
-    - "Small white spot at the base of the primaries and a pale rump"
+    - "Male in the southwest: black above, throat, half-collar and belly white, a black band across the breast"
+    - "Small white spot at the base of the primaries and a white rump"
     - "Bill short, thick and rounded, black in the male"
     - "Female olive-brown, paler and yellower below, unstreaked"
   similar:

@@ -2,6 +2,7 @@
 id: conirostrum-sitticolor
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова, горло и верх груди чёрные, как капюшон"
   - "Спина, поясница и хвост ярко-синие"

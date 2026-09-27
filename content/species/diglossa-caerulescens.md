@@ -2,6 +2,7 @@
 id: diglossa-caerulescens
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение однотонно тускло-серо-голубое, снизу чуть светлее и серее"
   - "Глаз красновато-оранжевый; у основания клюва узкая тёмная уздечка, маски нет"
@@ -13,7 +14,7 @@ similar:
   - id: diglossa-glauca
     how: "густо-тёмно-синий, глаз золотисто-жёлтый; живёт ниже по склону"
 behavior: "Поодиночке или парами в пологе и на опушках влажного горного леса, часто вместе с танаграми. Нектара пьёт меньше родственников, больше ест насекомых и ягоды."
-voice: "Тонкая быстрая трель-щебет, довольно мелодичная."
+voice: "Тонкий быстрый щебет с трелями; в открытых источниках голос описан скупо."
 traits:
   size: sparrow
   colors: [blue, gray]
@@ -39,7 +40,7 @@ en:
     - id: diglossa-glauca
       how: "deep dark blue, eye golden-yellow; lives lower on the slope"
   behavior: "Singly or in pairs in the canopy and at edges of humid montane forest, often with tanagers. Drinks less nectar than its relatives and eats more insects and berries."
-  voice: "A thin rapid trilling twitter, fairly musical."
+  voice: "A thin rapid twitter with trills; the voice is poorly described in open sources."
 ---
 Bluish Flowerpiercer (сизый цветокол) — самый неприметный из синих цветоколов, живёт в облачном лесу на 1 300–3 100 м. Нектара он пьёт меньше, чем родственники, больше ловит насекомых и ест ягоды, поэтому держится не у цветущих кустов, а в кронах, вместе со смешанными стаями. В тени выглядит просто серой птицей; присмотрись к красноватому глазу и почти прямому клюву.
 

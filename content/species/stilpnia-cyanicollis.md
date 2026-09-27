@@ -2,6 +2,7 @@
 id: stilpnia-cyanicollis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Вся голова и шея ярко-синие, подбородок и уздечка чёрные"
   - "Тело чёрное, без светлых участков снизу"

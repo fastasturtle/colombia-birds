@@ -2,6 +2,7 @@
 id: tangara-icterocephala
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Оперение почти целиком ярко-жёлтое, горло серебристо-белое"
   - "Узкая чёрная полоска-ус отделяет светлое горло от жёлтой щеки"

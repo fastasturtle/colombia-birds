@@ -2,8 +2,9 @@
 id: tangara-nigroviridis
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Голова бирюзово-зелёная с серебристым блеском, через глаз чёрная маска"
+  - "Голова бирюзово-зелёная с опаловым блеском, через глаз чёрная маска"
   - "Спина чёрная, в бирюзовых пятнах-блёстках"
   - "Грудь и брюхо чёрные, густо усеяны бирюзовыми и голубыми пятнышками"
   - "Крылья и хвост черноватые, с синей каймой"
@@ -11,7 +12,7 @@ similar:
   - id: tangara-vassorii
     how: "почти вся ярко-синяя, без пятен, крылья чёрные; живёт выше"
   - id: ixothraupis-rufigula
-    how: "низ беловатый в чёрных пятнах, горло рыжеватое, маски нет"
+    how: "низ беловатый в чёрных пятнах, под клювом тускло-рыжее горло, верх в зеленоватой чешуе, бирюзы нет"
 behavior: "Парами и стайками до 15 птиц держится в кронах и на опушках облачного леса, почти всегда в смешанных стаях. Обыскивает мох и ветки, ест мелкие плоды."
 voice: "Высокие тонкие «тсит» в стае."
 traits:
@@ -29,7 +30,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Head turquoise-green with a silvery sheen, a black mask through the eye"
+    - "Head turquoise-green with an opalescent sheen, a black mask through the eye"
     - "Back black with turquoise spangles"
     - "Breast and belly black, densely dotted turquoise and blue"
     - "Wings and tail blackish, edged blue"
@@ -37,7 +38,7 @@ en:
     - id: tangara-vassorii
       how: "almost entirely bright blue, unspotted, black wings; lives higher"
     - id: ixothraupis-rufigula
-      how: "whitish below with black spots, throat rufous, no mask"
+      how: "whitish below with black spots, dull rufous throat under the bill, greenish-scaled above, no turquoise"
   behavior: "In pairs and flocks of up to 15 in the canopy and at edges of cloud forest, nearly always in mixed flocks. Searches moss and branches and eats small fruit."
   voice: "High thin 'tsit' notes within the flock."
 ---

@@ -2,6 +2,7 @@
 id: iridosornis-porphyrocephalus
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Тёмно-синяя с фиолетовым отливом, в тени кажется почти чёрной"
   - "Горло ярко-жёлтое, резким пятном на тёмном теле"

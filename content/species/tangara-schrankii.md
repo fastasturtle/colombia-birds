@@ -2,6 +2,7 @@
 id: tangara-schrankii
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Лоб и маска чёрные, темя золотисто-жёлтое"
   - "Спина зелёная в чёрных пятнах, поясница жёлтая"

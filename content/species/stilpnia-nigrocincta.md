@@ -2,6 +2,7 @@
 id: stilpnia-nigrocincta
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова сиренево-голубая, у основания клюва и вокруг глаза чёрная маска"
   - "Спина и широкая полоса поперёк груди чёрные"

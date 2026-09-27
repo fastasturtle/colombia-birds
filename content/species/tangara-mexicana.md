@@ -2,6 +2,7 @@
 id: tangara-mexicana
 difficulty: easy
 lynx_page: null
+checked: 2026-09-27
 key_features:
   - "Голова и грудь тёмно-синие, бока в чёрных пятнах"
   - "Брюхо бледно-жёлтое, резко отделено от синей груди"

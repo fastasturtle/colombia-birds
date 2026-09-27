@@ -2,8 +2,9 @@
 id: diglossa-humeralis
 difficulty: medium
 lynx_page: null
+checked: 2026-09-27
 key_features:
-  - "Оперение матово-чёрное, без синего цвета; клюв тонкий, слегка вздёрнутый, с крючком на конце"
+  - "Оперение чёрное, лишь с лёгким синеватым глянцем у самца; клюв тонкий, вздёрнутый, с крючком"
   - "Плечо у птиц Восточных Анд (Богота) голубовато-серое, поясница сероватая; на юге (подвид aterrima) целиком чёрный"
   - "Размер мелкий, 13–14 см: заметно меньше и тусклее блестящего цветокола"
   - "Повадка: прокалывает цветки сбоку, быстро перепархивает по кустам, изгородям и садам"
@@ -29,7 +30,7 @@ sources:
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
-    - "Plumage dull black, with no blue; bill thin, slightly upturned, hook-tipped"
+    - "Plumage black, the male with only a faint bluish gloss; bill thin, upturned, hook-tipped"
     - "Shoulder blue-gray and rump grayish in Eastern Andes birds (Bogotá); in the south (subspecies aterrima) all black"
     - "Size small, 13–14 cm: clearly smaller and duller than Glossy Flowerpiercer"
     - "Habit: pierces flowers from the side, flits quickly through shrubs, hedges and gardens"
