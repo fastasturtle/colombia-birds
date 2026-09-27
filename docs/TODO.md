@@ -11,6 +11,7 @@
 - [ ] Выдержки Wikipedia en/es/ru для всех видов (шаг написан, запустить в GitHub Actions)
 - [x] Фото: шаги `photos` (кандидаты Commons + iNat) и `upload` (ресайз, R2, credits) написаны; Commons проверен только на моках
 - [ ] Первый запуск фото в GitHub Actions: `photos upload` для всех видов; проверить, что Commons отвечает из CI
+- [ ] Русские названия семейств: eBird `locale=ru` отдаёт английские, взять метки семейств из Wikidata (QLever) → `data/families.json`
 - [ ] Русские имена для 63 видов без имени в eBird/Wikidata (IOC Multilingual как fallback)
 - [ ] Эндемики и почти-эндемики из Chaparro-Herrera 2024 (CC BY-NC) → поле `near_endemic`
 - [ ] AVONET: длина клюва/крыла/хвоста для сравнения похожих видов
