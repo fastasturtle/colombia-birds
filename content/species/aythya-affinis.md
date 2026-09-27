@@ -8,7 +8,7 @@ key_features:
   - "Клюв голубовато-серый с маленьким чёрным ноготком, глаз жёлтый"
   - "Самка тёмно-бурая, у основания клюва широкое белое кольцо"
 similar:
-  - id: oxyura-jamaicensis
+  - id: oxyura-ferruginea
     how: "самец каштановый, клюв ярко-голубой и широкий, хвост жёсткий, торчком; у самки тёмная полоса по светлой щеке"
   - id: aythya-collaris
     how: "у самца спина чёрная, бока серые с белым клином у груди, на клюве белое кольцо"
@@ -33,7 +33,7 @@ en:
     - "Bluish-gray bill with a small black nail, yellow eye"
     - "Female dark brown with a broad white ring at the bill base"
   similar:
-    - id: oxyura-jamaicensis
+    - id: oxyura-ferruginea
       how: "male chestnut, with a broad bright blue bill and a stiff cocked tail; female with a dark stripe across a pale cheek"
     - id: aythya-collaris
       how: "male has a black back, gray flanks with a white wedge by the breast, a white ring on the bill"
