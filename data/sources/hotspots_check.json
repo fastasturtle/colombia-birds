@@ -1,0 +1,2531 @@
+{
+ "note": "eBird reference data only (hotspot ids, names, coordinates, species counts).",
+ "ok_km": 15.0,
+ "retrieved": "2026-09-27",
+ "sites": {
+  "aves-y-florez": {
+   "lat": 1.29,
+   "listed": [
+    {
+     "distance_km": 1.65,
+     "id": "L13281940",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "name_api": "Aves & Flórez Lodge",
+     "name_listed": "Aves y Flórez Lodge",
+     "numSpeciesAllTime": 236,
+     "reason": "1.65 km, common: florez",
+     "status": "ok"
+    }
+   ],
+   "lng": -78.09,
+   "name": "Aves y Flórez Lodge",
+   "nearby": [
+    {
+     "distance_km": 1.65,
+     "id": "L13281940",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "name": "Aves & Flórez Lodge",
+     "numSpeciesAllTime": 236
+    },
+    {
+     "distance_km": 1.79,
+     "id": "L465389",
+     "lat": 1.2859983,
+     "lng": -78.0743793,
+     "name": "RN Río Nambí",
+     "numSpeciesAllTime": 425
+    },
+    {
+     "distance_km": 2.87,
+     "id": "L7260634",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "name": "Bangsias Bird Lodge-Hotspot",
+     "numSpeciesAllTime": 304
+    },
+    {
+     "distance_km": 6.0,
+     "id": "L10216439",
+     "lat": 1.3367468,
+     "lng": -78.1169595,
+     "name": "Vda Junin Vía Barbacoas",
+     "numSpeciesAllTime": 97
+    },
+    {
+     "distance_km": 6.18,
+     "id": "L7159531",
+     "lat": 1.3405165,
+     "lng": -78.1131333,
+     "name": "Vía Junin-Barbacoas",
+     "numSpeciesAllTime": 155
+    },
+    {
+     "distance_km": 6.69,
+     "id": "L11106610",
+     "lat": 1.3499961,
+     "lng": -78.0944236,
+     "name": "El Pangán ProAves reserve",
+     "numSpeciesAllTime": 362
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "bangsias-lodge": {
+   "lat": 1.33,
+   "listed": [
+    {
+     "distance_km": 4.25,
+     "id": "L7260634",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "name_api": "Bangsias Bird Lodge-Hotspot",
+     "name_listed": "Bangsias Bird Lodge",
+     "numSpeciesAllTime": 304,
+     "reason": "4.25 km, common: bangsias",
+     "status": "ok"
+    },
+    {
+     "distance_km": 3.21,
+     "id": "L7159531",
+     "lat": 1.3405165,
+     "lng": -78.1131333,
+     "name_api": "Vía Junin-Barbacoas",
+     "name_listed": "Vía Junín–Barbacoas",
+     "numSpeciesAllTime": 155,
+     "reason": "3.21 km, common: barbacoas, junin",
+     "status": "ok"
+    }
+   ],
+   "lng": -78.14,
+   "name": "Bangsias Bird Lodge (Junín – Barbacoas road)",
+   "nearby": [
+    {
+     "distance_km": 2.67,
+     "id": "L10216439",
+     "lat": 1.3367468,
+     "lng": -78.1169595,
+     "name": "Vda Junin Vía Barbacoas",
+     "numSpeciesAllTime": 97
+    },
+    {
+     "distance_km": 3.21,
+     "id": "L7159531",
+     "lat": 1.3405165,
+     "lng": -78.1131333,
+     "name": "Vía Junin-Barbacoas",
+     "numSpeciesAllTime": 155
+    },
+    {
+     "distance_km": 4.25,
+     "id": "L7260634",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "name": "Bangsias Bird Lodge-Hotspot",
+     "numSpeciesAllTime": 304
+    },
+    {
+     "distance_km": 4.77,
+     "id": "L4859240",
+     "lat": 1.353344,
+     "lng": -78.176028,
+     "name": "Reserva La Nutria",
+     "numSpeciesAllTime": 294
+    },
+    {
+     "distance_km": 5.53,
+     "id": "L11106610",
+     "lat": 1.3499961,
+     "lng": -78.0944236,
+     "name": "El Pangán ProAves reserve",
+     "numSpeciesAllTime": 362
+    },
+    {
+     "distance_km": 7.83,
+     "id": "L13281940",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "name": "Aves & Flórez Lodge",
+     "numSpeciesAllTime": 236
+    },
+    {
+     "distance_km": 8.78,
+     "id": "L465389",
+     "lat": 1.2859983,
+     "lng": -78.0743793,
+     "name": "RN Río Nambí",
+     "numSpeciesAllTime": 425
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "chicaque": {
+   "lat": 4.607,
+   "listed": [
+    {
+     "distance_km": 0.28,
+     "id": "L1612184",
+     "lat": 4.6064869,
+     "lng": -74.3055153,
+     "name_api": "Parque Natural Chicaque",
+     "name_listed": "Parque Natural Chicaque",
+     "numSpeciesAllTime": 551,
+     "reason": "0.28 km, common: chicaque",
+     "status": "ok"
+    }
+   ],
+   "lng": -74.303,
+   "name": "Parque Natural Chicaque",
+   "nearby": [
+    {
+     "distance_km": 0.12,
+     "id": "L16769351",
+     "lat": 4.6067295,
+     "lng": -74.3019815,
+     "name": "Campo Tangara Birding & Coffe",
+     "numSpeciesAllTime": 184
+    },
+    {
+     "distance_km": 0.28,
+     "id": "L1612184",
+     "lat": 4.6064869,
+     "lng": -74.3055153,
+     "name": "Parque Natural Chicaque",
+     "numSpeciesAllTime": 551
+    },
+    {
+     "distance_km": 0.68,
+     "id": "L27564246",
+     "lat": 4.605856,
+     "lng": -74.2970181,
+     "name": "Boquemonte Reserva Natural",
+     "numSpeciesAllTime": 159
+    },
+    {
+     "distance_km": 1.27,
+     "id": "L35521462",
+     "lat": 4.6147107,
+     "lng": -74.3114805,
+     "name": "Parque Natural Chicaque--El Refugio",
+     "numSpeciesAllTime": 321
+    },
+    {
+     "distance_km": 2.56,
+     "id": "L27546381",
+     "lat": 4.5978139,
+     "lng": -74.2817831,
+     "name": "Vereda Cascajal--Corregimiento 2",
+     "numSpeciesAllTime": 96
+    },
+    {
+     "distance_km": 2.57,
+     "id": "L41307998",
+     "lat": 4.6166279,
+     "lng": -74.2818923,
+     "name": "RN El Fute",
+     "numSpeciesAllTime": 67
+    },
+    {
+     "distance_km": 2.97,
+     "id": "L12674734",
+     "lat": 4.5807883,
+     "lng": -74.2977905,
+     "name": "Mirador Salto del Tequendama",
+     "numSpeciesAllTime": 35
+    },
+    {
+     "distance_km": 2.97,
+     "id": "L19064266",
+     "lat": 4.5808261,
+     "lng": -74.3081968,
+     "name": "Reserva Parque Renacer",
+     "numSpeciesAllTime": 30
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "chingaza": {
+   "lat": 4.7,
+   "listed": [
+    {
+     "distance_km": 4.99,
+     "id": "L1127703",
+     "lat": 4.7111544,
+     "lng": -73.8063583,
+     "name_api": "PNN Chingaza (Dept. Cundinamarca)",
+     "name_listed": "PNN Chingaza",
+     "numSpeciesAllTime": null,
+     "reason": "4.99 km, common: chingaza",
+     "status": "ok"
+    },
+    {
+     "distance_km": 4.19,
+     "id": "L6200630",
+     "lat": 4.7369081,
+     "lng": -73.8424306,
+     "name_api": "PNN Chingaza--Entrada Piedras Gordas",
+     "name_listed": "PNN Chingaza — Piedras Gordas",
+     "numSpeciesAllTime": null,
+     "reason": "4.19 km, common: chingaza, gordas, piedras",
+     "status": "ok"
+    }
+   ],
+   "lng": -73.85,
+   "name": "PNN Chingaza (Piedras Gordas)",
+   "nearby": [
+    {
+     "distance_km": 0.09,
+     "id": "L10980874",
+     "lat": 4.7006215,
+     "lng": -73.8495183,
+     "name": "Bodega Palacio",
+     "numSpeciesAllTime": 52
+    },
+    {
+     "distance_km": 2.21,
+     "id": "L9053345",
+     "lat": 4.7133711,
+     "lng": -73.8352069,
+     "name": "PNN Chingaza--carretera Palacio",
+     "numSpeciesAllTime": 96
+    },
+    {
+     "distance_km": 2.38,
+     "id": "L19992933",
+     "lat": 4.6792256,
+     "lng": -73.8551744,
+     "name": "Humedal La Chucua",
+     "numSpeciesAllTime": 67
+    },
+    {
+     "distance_km": 2.46,
+     "id": "L6064273",
+     "lat": 4.718213,
+     "lng": -73.862636,
+     "name": "Finca y Reserva Suasie",
+     "numSpeciesAllTime": 230
+    },
+    {
+     "distance_km": 2.54,
+     "id": "L44352366",
+     "lat": 4.67725,
+     "lng": -73.852435,
+     "name": "Camino Chucua Mundo Nuevo",
+     "numSpeciesAllTime": 22
+    },
+    {
+     "distance_km": 2.99,
+     "id": "L63336216",
+     "lat": 4.722969,
+     "lng": -73.8360214,
+     "name": "Reserva Ecopalacio Chingaza",
+     "numSpeciesAllTime": 43
+    },
+    {
+     "distance_km": 3.73,
+     "id": "L11520279",
+     "lat": 4.7161739,
+     "lng": -73.820509,
+     "name": "PNN Chingaza--Minas de Palacio",
+     "numSpeciesAllTime": 43
+    },
+    {
+     "distance_km": 3.88,
+     "id": "L8156829",
+     "lat": 4.719201,
+     "lng": -73.820792,
+     "name": "PNN Chingaza--Humedales de Palacio",
+     "numSpeciesAllTime": 109
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "el-encanto": {
+   "lat": 1.72,
+   "listed": [],
+   "lng": -76.13,
+   "name": "El Encanto Nature Reserve",
+   "nearby": [
+    {
+     "distance_km": 0.73,
+     "id": "L11996766",
+     "lat": 1.7254618,
+     "lng": -76.1335638,
+     "name": "Granjita La Euphonia",
+     "numSpeciesAllTime": 65
+    },
+    {
+     "distance_km": 1.04,
+     "id": "L25955216",
+     "lat": 1.7266683,
+     "lng": -76.1233833,
+     "name": "Reserva Natural \" EL ALMA\"",
+     "numSpeciesAllTime": 152
+    },
+    {
+     "distance_km": 1.19,
+     "id": "L5654916",
+     "lat": 1.7201319,
+     "lng": -76.1193323,
+     "name": "El Encanto Nature Reserve",
+     "numSpeciesAllTime": 387
+    },
+    {
+     "distance_km": 5.26,
+     "id": "L12610087",
+     "lat": 1.6754441,
+     "lng": -76.1458774,
+     "name": "Reserva Agroturistica Los Robles",
+     "numSpeciesAllTime": 123
+    },
+    {
+     "distance_km": 6.72,
+     "id": "L27775283",
+     "lat": 1.6628219,
+     "lng": -76.1104488,
+     "name": "La Drymophila Nature Reserve (El Encanto)",
+     "numSpeciesAllTime": 371
+    },
+    {
+     "distance_km": 7.28,
+     "id": "L22859099",
+     "lat": 1.660185,
+     "lng": -76.156664,
+     "name": "Reserva Natural Choragi",
+     "numSpeciesAllTime": 75
+    },
+    {
+     "distance_km": 8.44,
+     "id": "L8429408",
+     "lat": 1.74866,
+     "lng": -76.2003231,
+     "name": "Reserva mi Ranchito",
+     "numSpeciesAllTime": 145
+    },
+    {
+     "distance_km": 8.86,
+     "id": "L31705084",
+     "lat": 1.6605138,
+     "lng": -76.0769635,
+     "name": "RN El Cedral--Parte Alta",
+     "numSpeciesAllTime": 18
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "el-escondite": {
+   "lat": 0.93,
+   "listed": [
+    {
+     "distance_km": null,
+     "id": "L6464472",
+     "lat": null,
+     "lng": null,
+     "name_api": null,
+     "name_listed": "El Escondite Reserva Natural",
+     "numSpeciesAllTime": null,
+     "reason": "eBird API: unknown locId (404/empty)",
+     "status": "invalid"
+    },
+    {
+     "distance_km": 15.13,
+     "id": "L17054356",
+     "lat": 0.794906,
+     "lng": -76.5835943,
+     "name_api": "El Escondite Reserva Natural",
+     "name_listed": "El Escondite (alternative ID, to verify)",
+     "numSpeciesAllTime": null,
+     "reason": "15.13 km from site (> 15)",
+     "status": "suspect"
+    }
+   ],
+   "lng": -76.6,
+   "name": "El Escondite Reserva Natural",
+   "nearby": [
+    {
+     "distance_km": 1.18,
+     "id": "L6467621",
+     "lat": 0.9385913,
+     "lng": -76.593818,
+     "name": "Vereda La Palestina",
+     "numSpeciesAllTime": 194
+    },
+    {
+     "distance_km": 4.93,
+     "id": "L6777539",
+     "lat": 0.8868531,
+     "lng": -76.5897596,
+     "name": "Vereda Islandia",
+     "numSpeciesAllTime": 152
+    },
+    {
+     "distance_km": 5.32,
+     "id": "L8552459",
+     "lat": 0.9626557,
+     "lng": -76.5650526,
+     "name": "Vereda Champagnat",
+     "numSpeciesAllTime": 124
+    },
+    {
+     "distance_km": 9.13,
+     "id": "L33918405",
+     "lat": 0.8485811,
+     "lng": -76.5895442,
+     "name": "Granja Simbiotica",
+     "numSpeciesAllTime": 10
+    },
+    {
+     "distance_km": 9.44,
+     "id": "L4974935",
+     "lat": 0.9999626,
+     "lng": -76.551919,
+     "name": "Vereda Jordania",
+     "numSpeciesAllTime": 100
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "finca-discosura": {
+   "lat": 1.15,
+   "listed": [],
+   "lng": -76.65,
+   "name": "Finca Discosura / Discosura Birding Center",
+   "nearby": [
+    {
+     "distance_km": 0.32,
+     "id": "L3643030",
+     "lat": 1.1471792,
+     "lng": -76.6504419,
+     "name": "Vereda Rumiyaco-Los Andes",
+     "numSpeciesAllTime": 194
+    },
+    {
+     "distance_km": 0.42,
+     "id": "L4505881",
+     "lat": 1.1466,
+     "lng": -76.6483471,
+     "name": "Parque General Santander",
+     "numSpeciesAllTime": 118
+    },
+    {
+     "distance_km": 1.01,
+     "id": "L4808399",
+     "lat": 1.1457311,
+     "lng": -76.6419353,
+     "name": "Puente Río Mocoa",
+     "numSpeciesAllTime": 96
+    },
+    {
+     "distance_km": 1.56,
+     "id": "L7373147",
+     "lat": 1.1437145,
+     "lng": -76.6625145,
+     "name": "Vereda Villanueva",
+     "numSpeciesAllTime": 105
+    },
+    {
+     "distance_km": 1.89,
+     "id": "L14101887",
+     "lat": 1.1670406,
+     "lng": -76.6498846,
+     "name": "Barrio el Carmen",
+     "numSpeciesAllTime": 154
+    },
+    {
+     "distance_km": 2.51,
+     "id": "L64404343",
+     "lat": 1.1414274,
+     "lng": -76.6708749,
+     "name": "Posada Kauai",
+     "numSpeciesAllTime": 137
+    },
+    {
+     "distance_km": 2.64,
+     "id": "L10824001",
+     "lat": 1.1349475,
+     "lng": -76.6683167,
+     "name": "Mocoa, Finca Aracari",
+     "numSpeciesAllTime": 129
+    },
+    {
+     "distance_km": 3.08,
+     "id": "L7317444",
+     "lat": 1.1762366,
+     "lng": -76.6589391,
+     "name": "Vereda Los Guaduales",
+     "numSpeciesAllTime": 184
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "finca-maragricola": {
+   "lat": 1.7,
+   "listed": [],
+   "lng": -78.7,
+   "name": "Finca Maragrícola",
+   "nearby": [
+    {
+     "distance_km": 5.86,
+     "id": "L3940729",
+     "lat": 1.6833333,
+     "lng": -78.75,
+     "name": "Finca Maragrícola",
+     "numSpeciesAllTime": 362
+    },
+    {
+     "distance_km": 9.55,
+     "id": "L9796744",
+     "lat": 1.616295,
+     "lng": -78.719295,
+     "name": "Las Lomitas",
+     "numSpeciesAllTime": 72
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "isla-escondida": {
+   "lat": 0.635,
+   "listed": [
+    {
+     "distance_km": 2.7,
+     "id": "L5390586",
+     "lat": 0.6541939,
+     "lng": -77.0738064,
+     "name_api": "Reserva Natural La Isla Escondida",
+     "name_listed": "RN La Isla Escondida",
+     "numSpeciesAllTime": 532,
+     "reason": "2.7 km, common: escondida, isla",
+     "status": "ok"
+    }
+   ],
+   "lng": -77.059,
+   "name": "RN La Isla Escondida",
+   "nearby": [
+    {
+     "distance_km": 0.59,
+     "id": "L52106012",
+     "lat": 0.6374368,
+     "lng": -77.0636948,
+     "name": "RN El Pedernal",
+     "numSpeciesAllTime": 150
+    },
+    {
+     "distance_km": 1.38,
+     "id": "L53983877",
+     "lat": 0.639947,
+     "lng": -77.047569,
+     "name": "Agua Bonita",
+     "numSpeciesAllTime": 109
+    },
+    {
+     "distance_km": 1.65,
+     "id": "L25420047",
+     "lat": 0.6354882,
+     "lng": -77.0441888,
+     "name": "Estación de Bombeo Guamuez",
+     "numSpeciesAllTime": 254
+    },
+    {
+     "distance_km": 2.7,
+     "id": "L5390586",
+     "lat": 0.6541939,
+     "lng": -77.0738064,
+     "name": "Reserva Natural La Isla Escondida",
+     "numSpeciesAllTime": 532
+    },
+    {
+     "distance_km": 2.87,
+     "id": "L8524967",
+     "lat": 0.65997,
+     "lng": -77.0656377,
+     "name": "RNSC Las Orquídeas",
+     "numSpeciesAllTime": 42
+    },
+    {
+     "distance_km": 2.99,
+     "id": "L36505559",
+     "lat": 0.6314694,
+     "lng": -77.0323167,
+     "name": "Cabañas Tinamú Negro",
+     "numSpeciesAllTime": 107
+    },
+    {
+     "distance_km": 3.5,
+     "id": "L53983905",
+     "lat": 0.66645,
+     "lng": -77.05725,
+     "name": "Reserva Natural Kunsi Wasi",
+     "numSpeciesAllTime": 233
+    },
+    {
+     "distance_km": 5.88,
+     "id": "L24557702",
+     "lat": 0.681451,
+     "lng": -77.084331,
+     "name": "Nuevo Mundo",
+     "numSpeciesAllTime": 317
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "jardin-botanico-bogota": {
+   "lat": 4.668,
+   "listed": [
+    {
+     "distance_km": 0.09,
+     "id": "L8005942",
+     "lat": 4.6672108,
+     "lng": -74.0997953,
+     "name_api": "Jardin Botánico José Celestino Mutis",
+     "name_listed": "Jardín Botánico José Celestino Mutis",
+     "numSpeciesAllTime": 257,
+     "reason": "0.09 km, common: botanico, celestino, jardin, jose, mutis",
+     "status": "ok"
+    }
+   ],
+   "lng": -74.1,
+   "name": "Jardín Botánico José Celestino Mutis",
+   "nearby": [
+    {
+     "distance_km": 0.09,
+     "id": "L8005942",
+     "lat": 4.6672108,
+     "lng": -74.0997953,
+     "name": "Jardin Botánico José Celestino Mutis",
+     "numSpeciesAllTime": 257
+    },
+    {
+     "distance_km": 1.08,
+     "id": "L16828986",
+     "lat": 4.6716329,
+     "lng": -74.1089898,
+     "name": "Parque Normandía (Cancha) Cra. 73 52",
+     "numSpeciesAllTime": 17
+    },
+    {
+     "distance_km": 1.26,
+     "id": "L1845061",
+     "lat": 4.6585763,
+     "lng": -74.0936208,
+     "name": "Parque Metropolitano Simón Bolivar",
+     "numSpeciesAllTime": 174
+    },
+    {
+     "distance_km": 1.33,
+     "id": "L3215379",
+     "lat": 4.6680079,
+     "lng": -74.0880203,
+     "name": "Humedal El Salitre",
+     "numSpeciesAllTime": 179
+    },
+    {
+     "distance_km": 1.51,
+     "id": "L17429801",
+     "lat": 4.6707827,
+     "lng": -74.086647,
+     "name": "Parque Barrio José Joaquín Vargas",
+     "numSpeciesAllTime": 50
+    },
+    {
+     "distance_km": 1.56,
+     "id": "L17709838",
+     "lat": 4.6568649,
+     "lng": -74.108618,
+     "name": "Parque Lineal Ciudad Salitre Occidental",
+     "numSpeciesAllTime": 38
+    },
+    {
+     "distance_km": 1.62,
+     "id": "L4549783",
+     "lat": 4.6658748,
+     "lng": -74.1144602,
+     "name": "Canal Boyacá",
+     "numSpeciesAllTime": 123
+    },
+    {
+     "distance_km": 1.64,
+     "id": "L17502636",
+     "lat": 4.6592139,
+     "lng": -74.1118751,
+     "name": "Conjunto Residencial Torres De Alba",
+     "numSpeciesAllTime": 18
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "km-42": {
+   "lat": 1.55,
+   "listed": [
+    {
+     "distance_km": 51.12,
+     "id": "L4859256",
+     "lat": 1.5363139,
+     "lng": -78.0903268,
+     "name_api": "Vía a Barbacoas",
+     "name_listed": "Vía a Barbacoas (nearby)",
+     "numSpeciesAllTime": null,
+     "reason": "51.12 km from site (> 15)",
+     "status": "suspect"
+    }
+   ],
+   "lng": -78.55,
+   "name": "Km 42 (Pueblo Nuevo, Junín – Tumaco road)",
+   "nearby": [
+    {
+     "distance_km": 15.98,
+     "id": "L16312523",
+     "lat": 1.5168483,
+     "lng": -78.6899106,
+     "name": "Km 42 - Pueblo Nuevo a Rio Mira",
+     "numSpeciesAllTime": 227
+    },
+    {
+     "distance_km": 16.25,
+     "id": "L37284355",
+     "lat": 1.5636976,
+     "lng": -78.6955251,
+     "name": "Finca La Bendición",
+     "numSpeciesAllTime": 63
+    },
+    {
+     "distance_km": 17.24,
+     "id": "L10465537",
+     "lat": 1.545834,
+     "lng": -78.705041,
+     "name": "Agrosavia - Rhodospingus stake out",
+     "numSpeciesAllTime": 160
+    },
+    {
+     "distance_km": 17.42,
+     "id": "L6558662",
+     "lat": 1.462147,
+     "lng": -78.67977,
+     "name": "Puente Río Mira",
+     "numSpeciesAllTime": 151
+    },
+    {
+     "distance_km": 18.45,
+     "id": "L7159656",
+     "lat": 1.3874043,
+     "lng": -78.5169311,
+     "name": "IPS Yorente",
+     "numSpeciesAllTime": 34
+    },
+    {
+     "distance_km": 18.84,
+     "id": "L6558667",
+     "lat": 1.4934471,
+     "lng": -78.7097669,
+     "name": "Río Mira--Muelle Candelilla",
+     "numSpeciesAllTime": 115
+    },
+    {
+     "distance_km": 19.05,
+     "id": "L10438198",
+     "lat": 1.39748,
+     "lng": -78.47191,
+     "name": "El Pinde",
+     "numSpeciesAllTime": 182
+    },
+    {
+     "distance_km": 20.2,
+     "id": "L6591531",
+     "lat": 1.6103532,
+     "lng": -78.7214291,
+     "name": "Universidad Nacional de Colombia Sede Tumaco",
+     "numSpeciesAllTime": 115
+    }
+   ],
+   "nearby_dist_km": 25
+  },
+  "la-drymophila": {
+   "lat": 1.7,
+   "listed": [
+    {
+     "distance_km": 4.29,
+     "id": "L27775283",
+     "lat": 1.6628219,
+     "lng": -76.1104488,
+     "name_api": "La Drymophila Nature Reserve (El Encanto)",
+     "name_listed": "La Drymophila Nature Reserve",
+     "numSpeciesAllTime": 371,
+     "reason": "4.29 km, common: drymophila",
+     "status": "ok"
+    }
+   ],
+   "lng": -76.1,
+   "name": "La Drymophila Nature Reserve",
+   "nearby": [
+    {
+     "distance_km": 3.1,
+     "id": "L5654916",
+     "lat": 1.7201319,
+     "lng": -76.1193323,
+     "name": "El Encanto Nature Reserve",
+     "numSpeciesAllTime": 387
+    },
+    {
+     "distance_km": 3.94,
+     "id": "L25955216",
+     "lat": 1.7266683,
+     "lng": -76.1233833,
+     "name": "Reserva Natural \" EL ALMA\"",
+     "numSpeciesAllTime": 152
+    },
+    {
+     "distance_km": 4.29,
+     "id": "L27775283",
+     "lat": 1.6628219,
+     "lng": -76.1104488,
+     "name": "La Drymophila Nature Reserve (El Encanto)",
+     "numSpeciesAllTime": 371
+    },
+    {
+     "distance_km": 4.68,
+     "id": "L11996766",
+     "lat": 1.7254618,
+     "lng": -76.1335638,
+     "name": "Granjita La Euphonia",
+     "numSpeciesAllTime": 65
+    },
+    {
+     "distance_km": 5.08,
+     "id": "L31705084",
+     "lat": 1.6605138,
+     "lng": -76.0769635,
+     "name": "RN El Cedral--Parte Alta",
+     "numSpeciesAllTime": 18
+    },
+    {
+     "distance_km": 5.78,
+     "id": "L12610087",
+     "lat": 1.6754441,
+     "lng": -76.1458774,
+     "name": "Reserva Agroturistica Los Robles",
+     "numSpeciesAllTime": 123
+    },
+    {
+     "distance_km": 7.7,
+     "id": "L22859099",
+     "lat": 1.660185,
+     "lng": -76.156664,
+     "name": "Reserva Natural Choragi",
+     "numSpeciesAllTime": 75
+    },
+    {
+     "distance_km": 9.69,
+     "id": "L14223863",
+     "lat": 1.6583791,
+     "lng": -76.0234499,
+     "name": "Sendero Los Chorros",
+     "numSpeciesAllTime": 223
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "la-florida": {
+   "lat": 4.73,
+   "listed": [
+    {
+     "distance_km": 0.08,
+     "id": "L656882",
+     "lat": 4.7302826,
+     "lng": -74.1493195,
+     "name_api": "Parque La Florida",
+     "name_listed": "Parque La Florida",
+     "numSpeciesAllTime": 399,
+     "reason": "0.08 km, common: florida",
+     "status": "ok"
+    }
+   ],
+   "lng": -74.15,
+   "name": "Parque La Florida",
+   "nearby": [
+    {
+     "distance_km": 0.08,
+     "id": "L656882",
+     "lat": 4.7302826,
+     "lng": -74.1493195,
+     "name": "Parque La Florida",
+     "numSpeciesAllTime": 399
+    },
+    {
+     "distance_km": 0.37,
+     "id": "L6269747",
+     "lat": 4.7294676,
+     "lng": -74.1532785,
+     "name": "Club de Golf La Florida",
+     "numSpeciesAllTime": 111
+    },
+    {
+     "distance_km": 0.76,
+     "id": "L17151519",
+     "lat": 4.7325493,
+     "lng": -74.1436386,
+     "name": "Parque Regional La Florida",
+     "numSpeciesAllTime": 140
+    },
+    {
+     "distance_km": 1.54,
+     "id": "L4077722",
+     "lat": 4.7214555,
+     "lng": -74.1390549,
+     "name": "Parque Ecológico Distrital Humedal Jaboque",
+     "numSpeciesAllTime": 194
+    },
+    {
+     "distance_km": 2.5,
+     "id": "L61126022",
+     "lat": 4.7268338,
+     "lng": -74.1276982,
+     "name": "Río Bogotá Calle 80",
+     "numSpeciesAllTime": 52
+    },
+    {
+     "distance_km": 2.94,
+     "id": "L9509379",
+     "lat": 4.7511537,
+     "lng": -74.1658473,
+     "name": "Humedal Villamery",
+     "numSpeciesAllTime": 21
+    },
+    {
+     "distance_km": 3.08,
+     "id": "L9195052",
+     "lat": 4.7108763,
+     "lng": -74.1299274,
+     "name": "Humedal Jaboque-- Parque La Rivera",
+     "numSpeciesAllTime": 67
+    },
+    {
+     "distance_km": 3.13,
+     "id": "L4397562",
+     "lat": 4.7019688,
+     "lng": -74.1470504,
+     "name": "Aeropuerto Internacional El Dorado",
+     "numSpeciesAllTime": 151
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "la-nutria": {
+   "lat": 1.27,
+   "listed": [
+    {
+     "distance_km": 229.53,
+     "id": "L5632537",
+     "lat": 1.8647501,
+     "lng": -76.0725653,
+     "name_api": "Reserva Ecológica La Casa de La Nutria",
+     "name_listed": "Reserva La Nutria",
+     "numSpeciesAllTime": null,
+     "reason": "229.53 km from site (> 15)",
+     "status": "suspect"
+    }
+   ],
+   "lng": -78.05,
+   "name": "Reserva La Nutria «Piman»",
+   "nearby": [
+    {
+     "distance_km": 3.24,
+     "id": "L465389",
+     "lat": 1.2859983,
+     "lng": -78.0743793,
+     "name": "RN Río Nambí",
+     "numSpeciesAllTime": 425
+    },
+    {
+     "distance_km": 5.03,
+     "id": "L13281940",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "name": "Aves & Flórez Lodge",
+     "numSpeciesAllTime": 236
+    },
+    {
+     "distance_km": 7.82,
+     "id": "L7260634",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "name": "Bangsias Bird Lodge-Hotspot",
+     "numSpeciesAllTime": 304
+    },
+    {
+     "distance_km": 9.05,
+     "id": "L11988214",
+     "lat": 1.2106297,
+     "lng": -77.9943076,
+     "name": "Ricaurte y alrededores",
+     "numSpeciesAllTime": 233
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "la-planada": {
+   "lat": 1.153,
+   "listed": [
+    {
+     "distance_km": 1.7,
+     "id": "L465390",
+     "lat": 1.156726,
+     "lng": -77.9781353,
+     "name_api": "RN La Planada",
+     "name_listed": "RN La Planada",
+     "numSpeciesAllTime": 402,
+     "reason": "1.7 km, common: planada",
+     "status": "ok"
+    }
+   ],
+   "lng": -77.993,
+   "name": "RN La Planada",
+   "nearby": [
+    {
+     "distance_km": 1.7,
+     "id": "L465390",
+     "lat": 1.156726,
+     "lng": -77.9781353,
+     "name": "RN La Planada",
+     "numSpeciesAllTime": 402
+    },
+    {
+     "distance_km": 2.19,
+     "id": "L13821175",
+     "lat": 1.1622734,
+     "lng": -77.9756676,
+     "name": "RN La Planada - Sendero El Mirador",
+     "numSpeciesAllTime": 183
+    },
+    {
+     "distance_km": 4.24,
+     "id": "L9355309",
+     "lat": 1.1372288,
+     "lng": -77.9582592,
+     "name": "Reserva Natural El Bosque",
+     "numSpeciesAllTime": 257
+    },
+    {
+     "distance_km": 4.85,
+     "id": "L19767967",
+     "lat": 1.193012,
+     "lng": -77.975651,
+     "name": "Vereda San Isidro",
+     "numSpeciesAllTime": 67
+    },
+    {
+     "distance_km": 5.05,
+     "id": "L19245141",
+     "lat": 1.1824933,
+     "lng": -77.9584727,
+     "name": "Reserva Manantiales del Río Guabo",
+     "numSpeciesAllTime": 65
+    },
+    {
+     "distance_km": 6.41,
+     "id": "L11988214",
+     "lat": 1.2106297,
+     "lng": -77.9943076,
+     "name": "Ricaurte y alrededores",
+     "numSpeciesAllTime": 233
+    },
+    {
+     "distance_km": 8.12,
+     "id": "L9201506",
+     "lat": 1.2203696,
+     "lng": -77.9647062,
+     "name": "Reserva Natural los Tirapuentes",
+     "numSpeciesAllTime": 125
+    },
+    {
+     "distance_km": 9.53,
+     "id": "L13229494",
+     "lat": 1.1725046,
+     "lng": -77.9094884,
+     "name": "Mallama y Alrededores",
+     "numSpeciesAllTime": 180
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "laguna-la-cocha": {
+   "lat": 1.1,
+   "listed": [
+    {
+     "distance_km": 1.4,
+     "id": "L1770863",
+     "lat": 1.1002131,
+     "lng": -77.1473694,
+     "name_api": "Laguna La Cocha",
+     "name_listed": "Laguna La Cocha — El Encano",
+     "numSpeciesAllTime": 242,
+     "reason": "1.4 km, common: cocha, laguna",
+     "status": "ok"
+    }
+   ],
+   "lng": -77.16,
+   "name": "Laguna La Cocha / El Encano",
+   "nearby": [
+    {
+     "distance_km": 0.71,
+     "id": "L8090180",
+     "lat": 1.0984884,
+     "lng": -77.1661936,
+     "name": "Reserva El Buho",
+     "numSpeciesAllTime": 71
+    },
+    {
+     "distance_km": 1.06,
+     "id": "L14684733",
+     "lat": 1.095465,
+     "lng": -77.1683742,
+     "name": "Reserva Natural Taki Yacu",
+     "numSpeciesAllTime": 61
+    },
+    {
+     "distance_km": 1.4,
+     "id": "L1770863",
+     "lat": 1.1002131,
+     "lng": -77.1473694,
+     "name": "Laguna La Cocha",
+     "numSpeciesAllTime": 242
+    },
+    {
+     "distance_km": 3.54,
+     "id": "L14680772",
+     "lat": 1.1299487,
+     "lng": -77.1491351,
+     "name": "Santuario de Flora Isla Corota",
+     "numSpeciesAllTime": 68
+    },
+    {
+     "distance_km": 3.93,
+     "id": "L6597656",
+     "lat": 1.1326767,
+     "lng": -77.1735692,
+     "name": "Vereda El Motilon",
+     "numSpeciesAllTime": 96
+    },
+    {
+     "distance_km": 4.3,
+     "id": "L27178055",
+     "lat": 1.0624467,
+     "lng": -77.1691458,
+     "name": "RN El Vicundo",
+     "numSpeciesAllTime": 46
+    },
+    {
+     "distance_km": 4.34,
+     "id": "L7766286",
+     "lat": 1.0743564,
+     "lng": -77.1306075,
+     "name": "RN Encanto Andino",
+     "numSpeciesAllTime": 146
+    },
+    {
+     "distance_km": 4.45,
+     "id": "L37192121",
+     "lat": 1.139928,
+     "lng": -77.1621323,
+     "name": "Mirador de Aves - La Cocha",
+     "numSpeciesAllTime": 71
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "observatorio-colibries": {
+   "lat": 4.664,
+   "listed": [
+    {
+     "distance_km": 0.08,
+     "id": "L3892139",
+     "lat": 4.6643333,
+     "lng": -73.9643611,
+     "name_api": "Observatorio de Colibries",
+     "name_listed": "Observatorio de Colibríes",
+     "numSpeciesAllTime": 241,
+     "reason": "0.08 km, common: colibries, observatorio",
+     "status": "ok"
+    }
+   ],
+   "lng": -73.965,
+   "name": "Observatorio de Colibríes (La Calera)",
+   "nearby": [
+    {
+     "distance_km": 0.08,
+     "id": "L3892139",
+     "lat": 4.6643333,
+     "lng": -73.9643611,
+     "name": "Observatorio de Colibries",
+     "numSpeciesAllTime": 241
+    },
+    {
+     "distance_km": 0.74,
+     "id": "L8539860",
+     "lat": 4.6692697,
+     "lng": -73.9690375,
+     "name": "Los Lagos",
+     "numSpeciesAllTime": 39
+    },
+    {
+     "distance_km": 1.27,
+     "id": "L6934243",
+     "lat": 4.663632,
+     "lng": -73.976478,
+     "name": "Colegio Hacienda Los Alcaparros",
+     "numSpeciesAllTime": 66
+    },
+    {
+     "distance_km": 1.29,
+     "id": "L30508467",
+     "lat": 4.6701251,
+     "lng": -73.95509,
+     "name": "Hobu Montaña",
+     "numSpeciesAllTime": 12
+    },
+    {
+     "distance_km": 1.48,
+     "id": "L3829819",
+     "lat": 4.6728215,
+     "lng": -73.9550257,
+     "name": "Finca La Muchareja",
+     "numSpeciesAllTime": 44
+    },
+    {
+     "distance_km": 1.6,
+     "id": "L36139162",
+     "lat": 4.6773864,
+     "lng": -73.9701969,
+     "name": "Vereda El Salitre",
+     "numSpeciesAllTime": 12
+    },
+    {
+     "distance_km": 2.7,
+     "id": "L6165908",
+     "lat": 4.647773,
+     "lng": -73.946866,
+     "name": "Reserva Los Tapaculos",
+     "numSpeciesAllTime": 123
+    },
+    {
+     "distance_km": 3.08,
+     "id": "L19445370",
+     "lat": 4.6824323,
+     "lng": -73.985689,
+     "name": "Bosque Chocolatero",
+     "numSpeciesAllTime": 17
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "orito": {
+   "lat": 0.67,
+   "listed": [
+    {
+     "distance_km": 22.73,
+     "id": "L5390586",
+     "lat": 0.6541939,
+     "lng": -77.0738064,
+     "name_api": "Reserva Natural La Isla Escondida",
+     "name_listed": "RN La Isla Escondida",
+     "numSpeciesAllTime": null,
+     "reason": "22.73 km from site (> 15)",
+     "status": "suspect"
+    }
+   ],
+   "lng": -76.87,
+   "name": "Orito",
+   "nearby": [
+    {
+     "distance_km": 3.95,
+     "id": "L9565131",
+     "lat": 0.6349743,
+     "lng": -76.875768,
+     "name": "Orito, Centro Ecoturistico Ma&Ju",
+     "numSpeciesAllTime": 114
+    },
+    {
+     "distance_km": 4.5,
+     "id": "L4232497",
+     "lat": 0.6979567,
+     "lng": -76.8407917,
+     "name": "Resguardo Indígena El Alto Temblón",
+     "numSpeciesAllTime": null
+    },
+    {
+     "distance_km": 6.89,
+     "id": "L31068637",
+     "lat": 0.72129,
+     "lng": -76.904825,
+     "name": "La Cornuta",
+     "numSpeciesAllTime": 99
+    },
+    {
+     "distance_km": 8.29,
+     "id": "L48768133",
+     "lat": 0.7352699,
+     "lng": -76.906094,
+     "name": "Sagy Ecolodge",
+     "numSpeciesAllTime": 162
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "paramo-bordoncillo": {
+   "lat": 1.16,
+   "listed": [
+    {
+     "distance_km": 1.17,
+     "id": "L3662791",
+     "lat": 1.1503568,
+     "lng": -77.0957149,
+     "name_api": "Páramo Bordoncillo",
+     "name_listed": "Páramo Bordoncillo",
+     "numSpeciesAllTime": 167,
+     "reason": "1.17 km, common: bordoncillo, paramo",
+     "status": "ok"
+    }
+   ],
+   "lng": -77.1,
+   "name": "Páramo Bordoncillo",
+   "nearby": [
+    {
+     "distance_km": 0.55,
+     "id": "L3638126",
+     "lat": 1.1566616,
+     "lng": -77.0964074,
+     "name": "Páramo Quilinsayaco",
+     "numSpeciesAllTime": 98
+    },
+    {
+     "distance_km": 1.17,
+     "id": "L3662791",
+     "lat": 1.1503568,
+     "lng": -77.0957149,
+     "name": "Páramo Bordoncillo",
+     "numSpeciesAllTime": 167
+    },
+    {
+     "distance_km": 4.59,
+     "id": "L12597726",
+     "lat": 1.1316389,
+     "lng": -77.1299444,
+     "name": "RNSC Las Margaritas",
+     "numSpeciesAllTime": 18
+    },
+    {
+     "distance_km": 5.29,
+     "id": "L20967627",
+     "lat": 1.1377612,
+     "lng": -77.1420264,
+     "name": "Chalet Guamuez",
+     "numSpeciesAllTime": 73
+    },
+    {
+     "distance_km": 5.59,
+     "id": "L6542922",
+     "lat": 1.1799169,
+     "lng": -77.1462107,
+     "name": "RN Castelvi",
+     "numSpeciesAllTime": 62
+    },
+    {
+     "distance_km": 6.4,
+     "id": "L14680772",
+     "lat": 1.1299487,
+     "lng": -77.1491351,
+     "name": "Santuario de Flora Isla Corota",
+     "numSpeciesAllTime": 68
+    },
+    {
+     "distance_km": 7.26,
+     "id": "L37192121",
+     "lat": 1.139928,
+     "lng": -77.1621323,
+     "name": "Mirador de Aves - La Cocha",
+     "numSpeciesAllTime": 71
+    },
+    {
+     "distance_km": 7.98,
+     "id": "L7797887",
+     "lat": 1.1590515,
+     "lng": -77.1717716,
+     "name": "RN El Arrayán",
+     "numSpeciesAllTime": 53
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "playa-del-morro": {
+   "lat": 1.82,
+   "listed": [
+    {
+     "distance_km": 2.29,
+     "id": "L3940738",
+     "lat": 1.8299853,
+     "lng": -78.7319943,
+     "name_api": "Playa del Morro",
+     "name_listed": "Playa del Morro",
+     "numSpeciesAllTime": 236,
+     "reason": "2.29 km, common: morro, playa",
+     "status": "ok"
+    }
+   ],
+   "lng": -78.75,
+   "name": "Playa del Morro (Hotel Los Corales)",
+   "nearby": [
+    {
+     "distance_km": 0.8,
+     "id": "L4909316",
+     "lat": 1.8191118,
+     "lng": -78.7571132,
+     "name": "Viaducto Puente del Morro",
+     "numSpeciesAllTime": 90
+    },
+    {
+     "distance_km": 0.86,
+     "id": "L7330780",
+     "lat": 1.8123989,
+     "lng": -78.751545,
+     "name": "Aeropuerto La Florida",
+     "numSpeciesAllTime": 119
+    },
+    {
+     "distance_km": 1.5,
+     "id": "L5997834",
+     "lat": 1.8237872,
+     "lng": -78.7629229,
+     "name": "Playa El Bajito",
+     "numSpeciesAllTime": 106
+    },
+    {
+     "distance_km": 2.09,
+     "id": "L9832993",
+     "lat": 1.8212516,
+     "lng": -78.7312069,
+     "name": "Centro de Investigaciones Oceanográficas e Hidrográficas del Pacífico",
+     "numSpeciesAllTime": 61
+    },
+    {
+     "distance_km": 2.15,
+     "id": "L7364520",
+     "lat": 1.8061578,
+     "lng": -78.7635183,
+     "name": "Parque Colón, Tumaco, Nariño",
+     "numSpeciesAllTime": 40
+    },
+    {
+     "distance_km": 2.29,
+     "id": "L3940738",
+     "lat": 1.8299853,
+     "lng": -78.7319943,
+     "name": "Playa del Morro",
+     "numSpeciesAllTime": 236
+    },
+    {
+     "distance_km": 3.33,
+     "id": "L73574380",
+     "lat": 1.7987291,
+     "lng": -78.7710969,
+     "name": "Isla de los Pajaros",
+     "numSpeciesAllTime": 4
+    },
+    {
+     "distance_km": 5.08,
+     "id": "L5480973",
+     "lat": 1.8259319,
+     "lng": -78.7953615,
+     "name": "Isla Bocagrande",
+     "numSpeciesAllTime": 151
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "playa-rica": {
+   "lat": 0.48,
+   "listed": [
+    {
+     "distance_km": 3.67,
+     "id": "L8651662",
+     "lat": 0.4611452,
+     "lng": -76.4770837,
+     "name_api": "Sendero Ecológico Playa Rica",
+     "name_listed": "Playa Rica",
+     "numSpeciesAllTime": 336,
+     "reason": "3.67 km, common: playa, rica",
+     "status": "ok"
+    }
+   ],
+   "lng": -76.45,
+   "name": "Playa Rica (Río Putumayo)",
+   "nearby": [
+    {
+     "distance_km": 2.48,
+     "id": "L5890326",
+     "lat": 0.4908222,
+     "lng": -76.4694759,
+     "name": "Sendero Finca de Los Carpinteros",
+     "numSpeciesAllTime": 205
+    },
+    {
+     "distance_km": 2.97,
+     "id": "L4007292",
+     "lat": 0.4708699,
+     "lng": -76.4750858,
+     "name": "Muelle La Esmeralda",
+     "numSpeciesAllTime": 112
+    },
+    {
+     "distance_km": 2.99,
+     "id": "L4979474",
+     "lat": 0.495666,
+     "lng": -76.4718819,
+     "name": "Vereda Cocaya",
+     "numSpeciesAllTime": 191
+    },
+    {
+     "distance_km": 3.67,
+     "id": "L8651662",
+     "lat": 0.4611452,
+     "lng": -76.4770837,
+     "name": "Sendero Ecológico Playa Rica",
+     "numSpeciesAllTime": 336
+    },
+    {
+     "distance_km": 4.68,
+     "id": "L8844823",
+     "lat": 0.4917492,
+     "lng": -76.4904075,
+     "name": "Turpial Amazónico - Bosque Madre Vieja Río Putumayo",
+     "numSpeciesAllTime": 201
+    },
+    {
+     "distance_km": 4.72,
+     "id": "L6797826",
+     "lat": 0.4947745,
+     "lng": -76.4897781,
+     "name": "Humedal Barrio Las Colinas",
+     "numSpeciesAllTime": 131
+    },
+    {
+     "distance_km": 4.96,
+     "id": "L5839756",
+     "lat": 0.5016203,
+     "lng": -76.4889769,
+     "name": "Humedal San Fernando",
+     "numSpeciesAllTime": 163
+    },
+    {
+     "distance_km": 5.42,
+     "id": "L21289841",
+     "lat": 0.4926094,
+     "lng": -76.4971065,
+     "name": "Madre Vieja Río Putumayo",
+     "numSpeciesAllTime": 220
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "puerto-asis": {
+   "lat": 0.5,
+   "listed": [],
+   "lng": -76.5,
+   "name": "Puerto Asís / Hojarasca Center",
+   "nearby": [
+    {
+     "distance_km": 0.67,
+     "id": "L18722308",
+     "lat": 0.5018211,
+     "lng": -76.5057114,
+     "name": "Puerto Asís - Barrio Los Pinos",
+     "numSpeciesAllTime": 117
+    },
+    {
+     "distance_km": 0.83,
+     "id": "L5715257",
+     "lat": 0.4955588,
+     "lng": -76.5059888,
+     "name": "Quebrada Singuiya",
+     "numSpeciesAllTime": 164
+    },
+    {
+     "distance_km": 0.88,
+     "id": "L21289841",
+     "lat": 0.4926094,
+     "lng": -76.4971065,
+     "name": "Madre Vieja Río Putumayo",
+     "numSpeciesAllTime": 220
+    },
+    {
+     "distance_km": 1.24,
+     "id": "L5839756",
+     "lat": 0.5016203,
+     "lng": -76.4889769,
+     "name": "Humedal San Fernando",
+     "numSpeciesAllTime": 163
+    },
+    {
+     "distance_km": 1.28,
+     "id": "L6797826",
+     "lat": 0.4947745,
+     "lng": -76.4897781,
+     "name": "Humedal Barrio Las Colinas",
+     "numSpeciesAllTime": 131
+    },
+    {
+     "distance_km": 1.41,
+     "id": "L8844823",
+     "lat": 0.4917492,
+     "lng": -76.4904075,
+     "name": "Turpial Amazónico - Bosque Madre Vieja Río Putumayo",
+     "numSpeciesAllTime": 201
+    },
+    {
+     "distance_km": 1.54,
+     "id": "L4894558",
+     "lat": 0.4881239,
+     "lng": -76.5071851,
+     "name": "Vía Vereda La Playa",
+     "numSpeciesAllTime": 190
+    },
+    {
+     "distance_km": 1.92,
+     "id": "L7361699",
+     "lat": 0.487845,
+     "lng": -76.5122062,
+     "name": "Brisas del Hong Kong",
+     "numSpeciesAllTime": 99
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "rio-nambi": {
+   "lat": 1.3,
+   "listed": [
+    {
+     "distance_km": 1.68,
+     "id": "L465389",
+     "lat": 1.2859983,
+     "lng": -78.0743793,
+     "name_api": "RN Río Nambí",
+     "name_listed": "RN Río Ñambí",
+     "numSpeciesAllTime": 425,
+     "reason": "1.68 km, common: nambi, rio",
+     "status": "ok"
+    }
+   ],
+   "lng": -78.08,
+   "name": "RN Río Ñambí",
+   "nearby": [
+    {
+     "distance_km": 1.68,
+     "id": "L465389",
+     "lat": 1.2859983,
+     "lng": -78.0743793,
+     "name": "RN Río Nambí",
+     "numSpeciesAllTime": 425
+    },
+    {
+     "distance_km": 3.14,
+     "id": "L13281940",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "name": "Aves & Flórez Lodge",
+     "numSpeciesAllTime": 236
+    },
+    {
+     "distance_km": 3.49,
+     "id": "L7260634",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "name": "Bangsias Bird Lodge-Hotspot",
+     "numSpeciesAllTime": 304
+    },
+    {
+     "distance_km": 5.79,
+     "id": "L11106610",
+     "lat": 1.3499961,
+     "lng": -78.0944236,
+     "name": "El Pangán ProAves reserve",
+     "numSpeciesAllTime": 362
+    },
+    {
+     "distance_km": 5.79,
+     "id": "L10216439",
+     "lat": 1.3367468,
+     "lng": -78.1169595,
+     "name": "Vda Junin Vía Barbacoas",
+     "numSpeciesAllTime": 97
+    },
+    {
+     "distance_km": 5.82,
+     "id": "L7159531",
+     "lat": 1.3405165,
+     "lng": -78.1131333,
+     "name": "Vía Junin-Barbacoas",
+     "numSpeciesAllTime": 155
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "sibundoy": {
+   "lat": 1.2,
+   "listed": [
+    {
+     "distance_km": 14.27,
+     "id": "L3662159",
+     "lat": 1.0725635,
+     "lng": -76.9050157,
+     "name_api": "Valle de Sibundoy - El Cedral",
+     "name_listed": "Valle de Sibundoy",
+     "numSpeciesAllTime": null,
+     "reason": "14.27 km, common: cedral, sibundoy, valle",
+     "status": "ok"
+    }
+   ],
+   "lng": -76.92,
+   "name": "Valle de Sibundoy (Portachuelo – Minchoy, El Cedral)",
+   "nearby": [
+    {
+     "distance_km": 1.54,
+     "id": "L32795990",
+     "lat": 1.212575,
+     "lng": -76.9258829,
+     "name": "Posadas Turísticas Villa Beatriz",
+     "numSpeciesAllTime": 31
+    },
+    {
+     "distance_km": 1.85,
+     "id": "L3657970",
+     "lat": 1.2079989,
+     "lng": -76.9053805,
+     "name": "Vereda Hidraulica",
+     "numSpeciesAllTime": 81
+    },
+    {
+     "distance_km": 2.31,
+     "id": "L3662720",
+     "lat": 1.2126598,
+     "lng": -76.9035263,
+     "name": "RN Encanto Verde",
+     "numSpeciesAllTime": 21
+    },
+    {
+     "distance_km": 2.35,
+     "id": "L56201553",
+     "lat": 1.2168778,
+     "lng": -76.9073161,
+     "name": "Chalet",
+     "numSpeciesAllTime": 10
+    },
+    {
+     "distance_km": 3.25,
+     "id": "L3655340",
+     "lat": 1.2277827,
+     "lng": -76.9289732,
+     "name": "Vereda Bellavista",
+     "numSpeciesAllTime": 144
+    },
+    {
+     "distance_km": 4.23,
+     "id": "L4136114",
+     "lat": 1.1955347,
+     "lng": -76.8821955,
+     "name": "Vereda la Cumbre",
+     "numSpeciesAllTime": 46
+    },
+    {
+     "distance_km": 4.65,
+     "id": "L3630676",
+     "lat": 1.2411434,
+     "lng": -76.9123006,
+     "name": "Vereda Villa Flor",
+     "numSpeciesAllTime": 61
+    },
+    {
+     "distance_km": 5.05,
+     "id": "L3664592",
+     "lat": 1.2347505,
+     "lng": -76.8907142,
+     "name": "Páramo Paramillo",
+     "numSpeciesAllTime": 48
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "sumapaz": {
+   "lat": 4.29,
+   "listed": [
+    {
+     "distance_km": 64.57,
+     "id": "L6278091",
+     "lat": 3.7502661,
+     "lng": -74.414649,
+     "name_api": "Paramo de Sumapaz",
+     "name_listed": "PNN Sumapaz",
+     "numSpeciesAllTime": null,
+     "reason": "64.57 km from site (> 15)",
+     "status": "suspect"
+    },
+    {
+     "distance_km": 0.72,
+     "id": "L7523158",
+     "lat": 4.2835664,
+     "lng": -74.2009896,
+     "name_api": "PNN Sumapaz--Laguna La Virginia",
+     "name_listed": "PNN Sumapaz — Laguna La Virginia",
+     "numSpeciesAllTime": 106,
+     "reason": "0.72 km, common: laguna, sumapaz, virginia",
+     "status": "ok"
+    }
+   ],
+   "lng": -74.2,
+   "name": "PNN Sumapaz",
+   "nearby": [
+    {
+     "distance_km": 0.72,
+     "id": "L7523158",
+     "lat": 4.2835664,
+     "lng": -74.2009896,
+     "name": "PNN Sumapaz--Laguna La Virginia",
+     "numSpeciesAllTime": 106
+    },
+    {
+     "distance_km": 0.99,
+     "id": "L2758310",
+     "lat": 4.286329,
+     "lng": -74.2081833,
+     "name": "PNN Sumapaz--Laguna Chisacá",
+     "numSpeciesAllTime": 179
+    },
+    {
+     "distance_km": 1.5,
+     "id": "L39020727",
+     "lat": 4.2983116,
+     "lng": -74.2106724,
+     "name": "PNN Sumapaz--Límite Usme -Sumapaz",
+     "numSpeciesAllTime": 82
+    },
+    {
+     "distance_km": 3.16,
+     "id": "L5879952",
+     "lat": 4.2634579,
+     "lng": -74.1897438,
+     "name": "PNN Sumapaz (Distrito Capital de Bogotá)",
+     "numSpeciesAllTime": 148
+    },
+    {
+     "distance_km": 5.89,
+     "id": "L24465911",
+     "lat": 4.238247,
+     "lng": -74.1885066,
+     "name": "PNN Sumapaz--Sede Pinos",
+     "numSpeciesAllTime": 67
+    },
+    {
+     "distance_km": 8.5,
+     "id": "L12737426",
+     "lat": 4.3366742,
+     "lng": -74.1393019,
+     "name": "Curubirtal",
+     "numSpeciesAllTime": 55
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "trampolin-aves": {
+   "lat": 1.17,
+   "listed": [
+    {
+     "distance_km": 12.92,
+     "id": "L6473704",
+     "lat": 1.0684443,
+     "lng": -76.7435575,
+     "name_api": "Trampolin de Las Aves--Filo de Hambre",
+     "name_listed": "Vía Mocoa–San Francisco — Filo de Hambre",
+     "numSpeciesAllTime": null,
+     "reason": "12.92 km, common: filo, hambre, trampolin",
+     "status": "ok"
+    },
+    {
+     "distance_km": 9.71,
+     "id": "L3630830",
+     "lat": 1.0845776,
+     "lng": -76.8180799,
+     "name_api": "Vía San Francisco-Mocoa--El Silencio",
+     "name_listed": "Vía Mocoa–San Francisco — El Silencio",
+     "numSpeciesAllTime": null,
+     "reason": "9.71 km, common: francisco, mocoa, san, silencio",
+     "status": "ok"
+    }
+   ],
+   "lng": -76.8,
+   "name": "Trampolín de las Aves (Mocoa – San Francisco road)",
+   "nearby": [
+    {
+     "distance_km": 3.17,
+     "id": "L4189126",
+     "lat": 1.1868677,
+     "lng": -76.7770529,
+     "name": "Vereda La Esperanza",
+     "numSpeciesAllTime": 209
+    },
+    {
+     "distance_km": 4.39,
+     "id": "L3661854",
+     "lat": 1.2060038,
+     "lng": -76.8162775,
+     "name": "La Suzunga, Patoyaco",
+     "numSpeciesAllTime": 81
+    },
+    {
+     "distance_km": 4.65,
+     "id": "L3630578",
+     "lat": 1.2115815,
+     "lng": -76.8044329,
+     "name": "Vereda Patoyaco",
+     "numSpeciesAllTime": 210
+    },
+    {
+     "distance_km": 4.91,
+     "id": "L3639325",
+     "lat": 1.2000828,
+     "lng": -76.8323278,
+     "name": "Vereda Minchoy",
+     "numSpeciesAllTime": 336
+    },
+    {
+     "distance_km": 5.52,
+     "id": "L3791030",
+     "lat": 1.1458491,
+     "lng": -76.8434215,
+     "name": "Vereda La Siberia",
+     "numSpeciesAllTime": 75
+    },
+    {
+     "distance_km": 5.98,
+     "id": "L39634365",
+     "lat": 1.1452828,
+     "lng": -76.8478014,
+     "name": "Páramo - Las Antenas RTVC",
+     "numSpeciesAllTime": 53
+    },
+    {
+     "distance_km": 6.47,
+     "id": "L3662565",
+     "lat": 1.1531647,
+     "lng": -76.8557516,
+     "name": "Vereda Chorlavi Los Salados",
+     "numSpeciesAllTime": 90
+    },
+    {
+     "distance_km": 6.81,
+     "id": "L3817910",
+     "lat": 1.1221779,
+     "lng": -76.8383346,
+     "name": "Vereda La Cabaña",
+     "numSpeciesAllTime": 111
+    }
+   ],
+   "nearby_dist_km": 10
+  },
+  "tumaco": {
+   "lat": 1.8,
+   "listed": [],
+   "lng": -78.78,
+   "name": "Tumaco",
+   "nearby": [
+    {
+     "distance_km": 1.0,
+     "id": "L73574380",
+     "lat": 1.7987291,
+     "lng": -78.7710969,
+     "name": "Isla de los Pajaros",
+     "numSpeciesAllTime": 4
+    },
+    {
+     "distance_km": 1.96,
+     "id": "L7364520",
+     "lat": 1.8061578,
+     "lng": -78.7635183,
+     "name": "Parque Colón, Tumaco, Nariño",
+     "numSpeciesAllTime": 40
+    },
+    {
+     "distance_km": 3.26,
+     "id": "L5997834",
+     "lat": 1.8237872,
+     "lng": -78.7629229,
+     "name": "Playa El Bajito",
+     "numSpeciesAllTime": 106
+    },
+    {
+     "distance_km": 3.31,
+     "id": "L4909316",
+     "lat": 1.8191118,
+     "lng": -78.7571132,
+     "name": "Viaducto Puente del Morro",
+     "numSpeciesAllTime": 90
+    },
+    {
+     "distance_km": 3.35,
+     "id": "L5480973",
+     "lat": 1.8259319,
+     "lng": -78.7953615,
+     "name": "Isla Bocagrande",
+     "numSpeciesAllTime": 151
+    },
+    {
+     "distance_km": 3.45,
+     "id": "L7330780",
+     "lat": 1.8123989,
+     "lng": -78.751545,
+     "name": "Aeropuerto La Florida",
+     "numSpeciesAllTime": 119
+    },
+    {
+     "distance_km": 5.88,
+     "id": "L8454366",
+     "lat": 1.8189489,
+     "lng": -78.8294407,
+     "name": "DNMI Cabo Manglares Bajo Mira",
+     "numSpeciesAllTime": 43
+    },
+    {
+     "distance_km": 5.92,
+     "id": "L9832993",
+     "lat": 1.8212516,
+     "lng": -78.7312069,
+     "name": "Centro de Investigaciones Oceanográficas e Hidrográficas del Pacífico",
+     "numSpeciesAllTime": 61
+    }
+   ],
+   "nearby_dist_km": 10
+  }
+ },
+ "suggestions": {
+  "aves-y-florez": [
+   {
+    "distance_km": 1.65,
+    "id": "L13281940",
+    "name": "Aves & Flórez Lodge",
+    "numSpeciesAllTime": 236
+   },
+   {
+    "distance_km": 1.79,
+    "id": "L465389",
+    "name": "RN Río Nambí",
+    "numSpeciesAllTime": 425
+   }
+  ],
+  "bangsias-lodge": [
+   {
+    "distance_km": 3.21,
+    "id": "L7159531",
+    "name": "Vía Junin-Barbacoas",
+    "numSpeciesAllTime": 155
+   },
+   {
+    "distance_km": 4.25,
+    "id": "L7260634",
+    "name": "Bangsias Bird Lodge-Hotspot",
+    "numSpeciesAllTime": 304
+   },
+   {
+    "distance_km": 2.67,
+    "id": "L10216439",
+    "name": "Vda Junin Vía Barbacoas",
+    "numSpeciesAllTime": 97
+   }
+  ],
+  "chicaque": [
+   {
+    "distance_km": 0.28,
+    "id": "L1612184",
+    "name": "Parque Natural Chicaque",
+    "numSpeciesAllTime": 551
+   },
+   {
+    "distance_km": 1.27,
+    "id": "L35521462",
+    "name": "Parque Natural Chicaque--El Refugio",
+    "numSpeciesAllTime": 321
+   },
+   {
+    "distance_km": 0.12,
+    "id": "L16769351",
+    "name": "Campo Tangara Birding & Coffe",
+    "numSpeciesAllTime": 184
+   }
+  ],
+  "chingaza": [
+   {
+    "distance_km": 2.21,
+    "id": "L9053345",
+    "name": "PNN Chingaza--carretera Palacio",
+    "numSpeciesAllTime": 96
+   },
+   {
+    "distance_km": 2.99,
+    "id": "L63336216",
+    "name": "Reserva Ecopalacio Chingaza",
+    "numSpeciesAllTime": 43
+   },
+   {
+    "distance_km": 3.73,
+    "id": "L11520279",
+    "name": "PNN Chingaza--Minas de Palacio",
+    "numSpeciesAllTime": 43
+   }
+  ],
+  "el-encanto": [
+   {
+    "distance_km": 1.19,
+    "id": "L5654916",
+    "name": "El Encanto Nature Reserve",
+    "numSpeciesAllTime": 387
+   },
+   {
+    "distance_km": 6.72,
+    "id": "L27775283",
+    "name": "La Drymophila Nature Reserve (El Encanto)",
+    "numSpeciesAllTime": 371
+   },
+   {
+    "distance_km": 0.73,
+    "id": "L11996766",
+    "name": "Granjita La Euphonia",
+    "numSpeciesAllTime": 65
+   }
+  ],
+  "el-escondite": [
+   {
+    "distance_km": 1.18,
+    "id": "L6467621",
+    "name": "Vereda La Palestina",
+    "numSpeciesAllTime": 194
+   }
+  ],
+  "finca-discosura": [
+   {
+    "distance_km": 0.32,
+    "id": "L3643030",
+    "name": "Vereda Rumiyaco-Los Andes",
+    "numSpeciesAllTime": 194
+   }
+  ],
+  "finca-maragricola": [
+   {
+    "distance_km": 5.86,
+    "id": "L3940729",
+    "name": "Finca Maragrícola",
+    "numSpeciesAllTime": 362
+   }
+  ],
+  "isla-escondida": [
+   {
+    "distance_km": 2.7,
+    "id": "L5390586",
+    "name": "Reserva Natural La Isla Escondida",
+    "numSpeciesAllTime": 532
+   },
+   {
+    "distance_km": 0.59,
+    "id": "L52106012",
+    "name": "RN El Pedernal",
+    "numSpeciesAllTime": 150
+   }
+  ],
+  "jardin-botanico-bogota": [
+   {
+    "distance_km": 0.09,
+    "id": "L8005942",
+    "name": "Jardin Botánico José Celestino Mutis",
+    "numSpeciesAllTime": 257
+   },
+   {
+    "distance_km": 1.51,
+    "id": "L17429801",
+    "name": "Parque Barrio José Joaquín Vargas",
+    "numSpeciesAllTime": 50
+   }
+  ],
+  "km-42": [
+   {
+    "distance_km": 15.98,
+    "id": "L16312523",
+    "name": "Km 42 - Pueblo Nuevo a Rio Mira",
+    "numSpeciesAllTime": 227
+   },
+   {
+    "distance_km": 20.2,
+    "id": "L6591531",
+    "name": "Universidad Nacional de Colombia Sede Tumaco",
+    "numSpeciesAllTime": 115
+   }
+  ],
+  "la-drymophila": [
+   {
+    "distance_km": 4.29,
+    "id": "L27775283",
+    "name": "La Drymophila Nature Reserve (El Encanto)",
+    "numSpeciesAllTime": 371
+   },
+   {
+    "distance_km": 3.1,
+    "id": "L5654916",
+    "name": "El Encanto Nature Reserve",
+    "numSpeciesAllTime": 387
+   }
+  ],
+  "la-florida": [
+   {
+    "distance_km": 0.08,
+    "id": "L656882",
+    "name": "Parque La Florida",
+    "numSpeciesAllTime": 399
+   },
+   {
+    "distance_km": 0.37,
+    "id": "L6269747",
+    "name": "Club de Golf La Florida",
+    "numSpeciesAllTime": 111
+   },
+   {
+    "distance_km": 0.76,
+    "id": "L17151519",
+    "name": "Parque Regional La Florida",
+    "numSpeciesAllTime": 140
+   }
+  ],
+  "la-nutria": [
+   {
+    "distance_km": 3.24,
+    "id": "L465389",
+    "name": "RN Río Nambí",
+    "numSpeciesAllTime": 425
+   }
+  ],
+  "la-planada": [
+   {
+    "distance_km": 1.7,
+    "id": "L465390",
+    "name": "RN La Planada",
+    "numSpeciesAllTime": 402
+   },
+   {
+    "distance_km": 2.19,
+    "id": "L13821175",
+    "name": "RN La Planada - Sendero El Mirador",
+    "numSpeciesAllTime": 183
+   }
+  ],
+  "laguna-la-cocha": [
+   {
+    "distance_km": 1.4,
+    "id": "L1770863",
+    "name": "Laguna La Cocha",
+    "numSpeciesAllTime": 242
+   },
+   {
+    "distance_km": 4.45,
+    "id": "L37192121",
+    "name": "Mirador de Aves - La Cocha",
+    "numSpeciesAllTime": 71
+   },
+   {
+    "distance_km": 0.71,
+    "id": "L8090180",
+    "name": "Reserva El Buho",
+    "numSpeciesAllTime": 71
+   }
+  ],
+  "observatorio-colibries": [
+   {
+    "distance_km": 0.08,
+    "id": "L3892139",
+    "name": "Observatorio de Colibries",
+    "numSpeciesAllTime": 241
+   }
+  ],
+  "orito": [
+   {
+    "distance_km": 3.95,
+    "id": "L9565131",
+    "name": "Orito, Centro Ecoturistico Ma&Ju",
+    "numSpeciesAllTime": 114
+   },
+   {
+    "distance_km": 8.29,
+    "id": "L48768133",
+    "name": "Sagy Ecolodge",
+    "numSpeciesAllTime": 162
+   }
+  ],
+  "paramo-bordoncillo": [
+   {
+    "distance_km": 1.17,
+    "id": "L3662791",
+    "name": "Páramo Bordoncillo",
+    "numSpeciesAllTime": 167
+   },
+   {
+    "distance_km": 0.55,
+    "id": "L3638126",
+    "name": "Páramo Quilinsayaco",
+    "numSpeciesAllTime": 98
+   }
+  ],
+  "playa-del-morro": [
+   {
+    "distance_km": 2.29,
+    "id": "L3940738",
+    "name": "Playa del Morro",
+    "numSpeciesAllTime": 236
+   },
+   {
+    "distance_km": 0.8,
+    "id": "L4909316",
+    "name": "Viaducto Puente del Morro",
+    "numSpeciesAllTime": 90
+   },
+   {
+    "distance_km": 1.5,
+    "id": "L5997834",
+    "name": "Playa El Bajito",
+    "numSpeciesAllTime": 106
+   }
+  ],
+  "playa-rica": [
+   {
+    "distance_km": 3.67,
+    "id": "L8651662",
+    "name": "Sendero Ecológico Playa Rica",
+    "numSpeciesAllTime": 336
+   },
+   {
+    "distance_km": 4.68,
+    "id": "L8844823",
+    "name": "Turpial Amazónico - Bosque Madre Vieja Río Putumayo",
+    "numSpeciesAllTime": 201
+   },
+   {
+    "distance_km": 5.42,
+    "id": "L21289841",
+    "name": "Madre Vieja Río Putumayo",
+    "numSpeciesAllTime": 220
+   }
+  ],
+  "puerto-asis": [
+   {
+    "distance_km": 0.67,
+    "id": "L18722308",
+    "name": "Puerto Asís - Barrio Los Pinos",
+    "numSpeciesAllTime": 117
+   },
+   {
+    "distance_km": 0.88,
+    "id": "L21289841",
+    "name": "Madre Vieja Río Putumayo",
+    "numSpeciesAllTime": 220
+   }
+  ],
+  "rio-nambi": [
+   {
+    "distance_km": 1.68,
+    "id": "L465389",
+    "name": "RN Río Nambí",
+    "numSpeciesAllTime": 425
+   }
+  ],
+  "sibundoy": [
+   {
+    "distance_km": 1.54,
+    "id": "L32795990",
+    "name": "Posadas Turísticas Villa Beatriz",
+    "numSpeciesAllTime": 31
+   },
+   {
+    "distance_km": 3.25,
+    "id": "L3655340",
+    "name": "Vereda Bellavista",
+    "numSpeciesAllTime": 144
+   }
+  ],
+  "sumapaz": [
+   {
+    "distance_km": 0.72,
+    "id": "L7523158",
+    "name": "PNN Sumapaz--Laguna La Virginia",
+    "numSpeciesAllTime": 106
+   },
+   {
+    "distance_km": 0.99,
+    "id": "L2758310",
+    "name": "PNN Sumapaz--Laguna Chisacá",
+    "numSpeciesAllTime": 179
+   },
+   {
+    "distance_km": 1.5,
+    "id": "L39020727",
+    "name": "PNN Sumapaz--Límite Usme -Sumapaz",
+    "numSpeciesAllTime": 82
+   }
+  ],
+  "trampolin-aves": [
+   {
+    "distance_km": 3.17,
+    "id": "L4189126",
+    "name": "Vereda La Esperanza",
+    "numSpeciesAllTime": 209
+   },
+   {
+    "distance_km": 4.91,
+    "id": "L3639325",
+    "name": "Vereda Minchoy",
+    "numSpeciesAllTime": 336
+   }
+  ],
+  "tumaco": [
+   {
+    "distance_km": 1.96,
+    "id": "L7364520",
+    "name": "Parque Colón, Tumaco, Nariño",
+    "numSpeciesAllTime": 40
+   },
+   {
+    "distance_km": 1.0,
+    "id": "L73574380",
+    "name": "Isla de los Pajaros",
+    "numSpeciesAllTime": 4
+   },
+   {
+    "distance_km": 3.35,
+    "id": "L5480973",
+    "name": "Isla Bocagrande",
+    "numSpeciesAllTime": 151
+   }
+  ]
+ },
+ "summary": {
+  "invalid": 1,
+  "listed": 27,
+  "ok": 21,
+  "problems": [
+   "sumapaz:L6278091:suspect",
+   "el-escondite:L6464472:invalid",
+   "el-escondite:L17054356:suspect",
+   "orito:L5390586:suspect",
+   "la-nutria:L5632537:suspect",
+   "km-42:L4859256:suspect"
+  ],
+  "sites": 27,
+  "sites_without_ids": [
+   "el-encanto",
+   "finca-discosura",
+   "puerto-asis",
+   "finca-maragricola",
+   "tumaco"
+  ],
+  "suspect": 5
+ }
+}
