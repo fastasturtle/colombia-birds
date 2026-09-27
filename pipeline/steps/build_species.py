@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import DATA, SOURCES, SPECIES_DIR, log, norm_sci, read_json, slugify, write_json, write_text  # noqa: E402
+from common import DATA, MAPPINGS, SOURCES, SPECIES_DIR, checklist, log, norm_sci, read_json, slugify, write_json, write_text  # noqa: E402
 
 REGION_ORDER = ["Tinamiformes"]  # unused placeholder to keep import tidy
 
@@ -24,6 +24,14 @@ def wiki_url(lang: str, title: str | None) -> str | None:
     if not title:
         return None
     return f"https://{lang}.wikipedia.org/wiki/{title.replace(' ', '_')}"
+
+
+def ru_name(name: str | None) -> str | None:
+    """Clean a Russian species name: None when it has no Cyrillic letter (Wikidata labels that are the Latin
+    binomial), first letter upper case (Wikidata labels are lower case: «масковый дакнис»)."""
+    if not name or not re.search(r"[а-яё]", name, re.I):
+        return None
+    return name[0].upper() + name[1:]
 
 
 def family_names(sci: str, ebird_names: dict, wd: dict | None) -> dict:
@@ -111,6 +119,7 @@ def endemics_report(aco: dict, chaparro: dict, index: list[dict], src: dict) -> 
     """Log and write data/sources/endemics_report.md: ACO endemics vs Chaparro-Herrera et al. 2024."""
     if not src:
         return
+    aco = {k: a for k, a in aco.items() if a["source"] == "aco2022"}  # the report compares the two lists only
     aco_e = {k for k, a in aco.items() if a["endemic"]}
     ch_e = {k for k, v in chaparro.items() if v["category"] == "endemic"}
     only_aco = sorted(aco_e - ch_e)
@@ -143,7 +152,7 @@ def endemics_report(aco: dict, chaparro: dict, index: list[dict], src: dict) -> 
 
 
 def main() -> None:
-    aco = read_json(SOURCES / "aco.json")["species"]
+    aco = checklist()  # ACO 2022 (+ aco_fixes) + clements2025 additions
     ebird = read_json(SOURCES / "ebird.json")
     ebird_sp, ebird_fam = ebird["species"], ebird["families"]
     name_map = read_json(SOURCES / "ebird_name_map.json")
@@ -156,6 +165,10 @@ def main() -> None:
     fam_names = (read_json(SOURCES / "family_names.json") or {}).get("families", {})
     # Chaparro-Herrera et al. 2024 (step `endemics`), keyed by ACO key. ACO's `endemic` flag stays canonical.
     endemics_src = read_json(SOURCES / "endemics.json") or {}
+    # Russian names fixed by hand (typos, ru.wikipedia titles): mappings/names_ru_overrides.json
+    ru_overrides = {k: v for k, v in (read_json(MAPPINGS / "names_ru_overrides.json") or {}).items() if not k.startswith("_")}
+    # One-off slug renames after eBird/Clements remaps (mappings/clements2025.json `renamed`)
+    renamed = (read_json(MAPPINGS / "clements2025.json") or {}).get("renamed", {})
     chaparro = {v["aco_key"]: v for v in endemics_src.get("species", {}).values() if v.get("aco_key")}
     if not endemics_src:
         log("  WARNING: data/sources/endemics.json missing, run step `endemics`; near_endemic will be false")
@@ -166,6 +179,10 @@ def main() -> None:
     for p in SPECIES_DIR.glob("*.json"):
         old = read_json(p) or {}
         preserved[p.stem] = {k: old[k] for k in ("photos", "texts", "sounds", "book") if old.get(k)}
+    for old_slug, r in renamed.items():  # the new slug inherits media of the old one (same Colombian bird)
+        if r.get("carry") and old_slug in preserved and r["to"] not in preserved:
+            preserved[r["to"]] = {k: v for k, v in preserved[old_slug].items() if k != "book"}
+            log(f"  renamed {old_slug} -> {r['to']}: kept {', '.join(preserved[r['to']]) or 'nothing'}")
     # Lynx "Birds of Colombia" page per species (step `lynx`); without it keep what the files already have.
     lynx_pages = read_json(DATA / "lynx_pages.json")
     if lynx_pages is None:
@@ -180,15 +197,22 @@ def main() -> None:
         b = birdbase.get(key, {})
         w = wikidata.get(key, {})
         sci = e["sci_name"]
+        if norm_sci(w.get("sci_wikidata") or "") == key != norm_sci(sci) and key in ebird_sp:
+            # ACO taxon remapped to the other half of an eBird split (aco_to_ebird.json) and wikidata.json still
+            # holds the item of the ACO name (the extralimital species): ignore it until step `wikidata` re-runs.
+            log(f"  wikidata: {key} -> {sci}: stale item {w.get('qid')} ({w.get('sci_wikidata')}) ignored, re-run `wikidata`")
+            w = {}
         slug = slugify(sci)
         if slug in slugs:  # two ACO taxa lumped into one Clements species
             slug = slugify(a["sci_name"])
         slugs[slug] = key
 
-        name_ru = e["names"].get("ru") or None
+        name_ru = ru_name(e["names"].get("ru"))
         name_ru_source = "ebird" if name_ru else None
-        if not name_ru and w.get("labels", {}).get("ru"):
-            name_ru, name_ru_source = w["labels"]["ru"], "wikidata"
+        if not name_ru and ru_name(w.get("labels", {}).get("ru")):
+            name_ru, name_ru_source = ru_name(w["labels"]["ru"]), "wikidata"
+        if slug in ru_overrides:
+            name_ru, name_ru_source = ru_name(ru_overrides[slug]["ru"]), ru_overrides[slug].get("source")
 
         fam_code = e["family_code"]
         fam = ebird_fam.get(fam_code, {})
@@ -211,13 +235,16 @@ def main() -> None:
         )
 
         taxonomy_note = None
-        if norm_sci(sci) != key:
+        if a["source"] == "clements2025":
+            taxonomy_note = f"Not in the ACO 2022 checklist (split from {a['split_from']}); added from eBird/Clements 2025. {a.get('clements_note') or ''}".strip()
+        elif norm_sci(sci) != key:
             taxonomy_note = f"ACO/SACC lists this as {a['sci_name']}; eBird/Clements uses {sci}."
 
         rec = {
             "id": slug,
+            "source": a["source"],
             "sci_name": sci,
-            "sci_name_aco": a["sci_name"],
+            "sci_name_aco": a["sci_name"] if a["source"] == "aco2022" else None,
             "authorship": a["authorship"],
             "taxonomy_note": taxonomy_note,
             "names": {
@@ -292,6 +319,7 @@ def main() -> None:
             {
                 "id": slug,
                 "sci": sci,
+                "source": a["source"],
                 "en": rec["names"]["en"],
                 "ru": name_ru,
                 "family": fam_code,

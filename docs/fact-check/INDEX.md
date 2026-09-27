@@ -20,7 +20,7 @@
 | columbina-buckleyi | Ecuadorian Ground Dove | Голуби, кукушки и гоацин |
 | eutoxeres-condamini | Buff-tailed Sicklebill | Стрижи и колибри |
 | doryfera-ludovicae | Green-fronted Lancebill | Стрижи и колибри |
-| heliangelus-amethysticollis | Amethyst-throated Sunangel | Стрижи и колибри |
+| heliangelus-clarisse | Longuemare's Sunangel | Стрижи и колибри |
 | phlogophilus-hemileucurus | Ecuadorian Piedtail | Стрижи и колибри |
 | ramphomicron-microrhynchum | Purple-backed Thornbill | Стрижи и колибри |
 | haplophaedia-lugens | Hoary Puffleg | Стрижи и колибри |
@@ -106,7 +106,7 @@
 | chlorophonia-flavirostris | Yellow-collared Chlorophonia | Овсянки, древесницы, трупиалы и вьюрки |
 | atlapetes-albofrenatus | Moustached Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
 | atlapetes-fuscoolivaceus | Dusky-headed Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
-| atlapetes-tricolor | Golden-crowned Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
+| atlapetes-crassus | Choco Brushfinch | Овсянки, древесницы, трупиалы и вьюрки |
 | leistes-bellicosus | Peruvian Meadowlark | Овсянки, древесницы, трупиалы и вьюрки |
 | hypopyrrhus-pyrohypogaster | Red-bellied Grackle | Овсянки, древесницы, трупиалы и вьюрки |
 | setophaga-cerulea | Cerulean Warbler | Овсянки, древесницы, трупиалы и вьюрки |
@@ -155,7 +155,7 @@
 | chaetocercus-mulsant | White-bellied Woodstar | Стрижи и колибри | 2026-09-27 |
 | amazilia-tzacatl | Rufous-tailed Hummingbird | Стрижи и колибри | 2026-09-27 |
 | chionomesa-fimbriata | Glittering-throated Emerald | Стрижи и колибри | 2026-09-27 |
-| rallus-limicola | Virginia Rail | Цапли, ибисы и пастушки | 2026-09-27 |
+| rallus-aequatorialis | Ecuadorian Rail | Цапли, ибисы и пастушки | 2026-09-27 |
 | rallus-semiplumbeus | Bogota Rail | Цапли, ибисы и пастушки | 2026-09-27 |
 | porphyriops-melanops | Spot-flanked Gallinule | Цапли, ибисы и пастушки | 2026-09-27 |
 | fulica-ardesiaca | Slate-colored Coot | Цапли, ибисы и пастушки | 2026-09-27 |
@@ -163,7 +163,7 @@
 | egretta-thula | Snowy Egret | Цапли, ибисы и пастушки | 2026-09-27 |
 | ardea-ibis | Western Cattle-Egret | Цапли, ибисы и пастушки | 2026-09-27 |
 | vanellus-chilensis | Southern Lapwing | Кулики, чайки и крачки | 2026-09-27 |
-| numenius-phaeopus | Eurasian Whimbrel | Кулики, чайки и крачки | 2026-09-27 |
+| numenius-hudsonicus | Hudsonian Whimbrel | Кулики, чайки и крачки | 2026-09-27 |
 | gallinago-nobilis | Noble Snipe | Кулики, чайки и крачки | 2026-09-27 |
 | actitis-macularius | Spotted Sandpiper | Кулики, чайки и крачки | 2026-09-27 |
 | chroicocephalus-serranus | Andean Gull | Кулики, чайки и крачки | 2026-09-27 |
@@ -240,4 +240,4 @@
 | psarocolius-angustifrons | Russet-backed Oropendola | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | chrysomus-icterocephalus | Yellow-hooded Blackbird | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | setophaga-fusca | Blackburnian Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
-| myiothlypis-chrysogaster | Cuzco Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
+| myiothlypis-chlorophrys | Choco Warbler | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |

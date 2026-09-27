@@ -1,5 +1,5 @@
 ---
-id: rallus-limicola
+id: rallus-aequatorialis
 difficulty: hard
 lynx_page: null
 checked: 2026-09-27
@@ -24,7 +24,7 @@ traits:
   layer: [water, ground]
 sources:
   - "Wikipedia: Virginia rail (en, CC BY-SA 4.0)"
-  - "Данные проекта: data/species/rallus-limicola.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Данные проекта: data/species/rallus-aequatorialis.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
   - "Wikipedia: Ecuadorian rail (en, CC BY-SA 4.0): https://en.wikipedia.org/wiki/Ecuadorian_rail"
   - "eBird: Ecuadorian Rail, https://ebird.org/species/virrai1 (по сниппету поиска)"
@@ -43,12 +43,12 @@ en:
   behavior: "Creeps through dense reeds and sedge at the water's edge, occasionally stepping onto open mud. Its narrow body lets it slip between stems almost without moving them."
   voice: "A descending, accelerating series of wheezy squeals and grunts, higher-pitched than in northern birds."
 ---
-Virginia Rail (виргинский пастушок) — в Колумбии это оседлая андская форма aequatorialis, которая живёт в тростниковых болотах крайнего юга страны, до 3 800 м; она мельче северных птиц (20–21 см). Некоторые списки (IOC) считают её отдельным видом, Ecuadorian Rail (Rallus aequatorialis). Как и все пастушки, он скрытен, и в поле обычно видят лишь силуэт с длинным клювом на краю тростника. Ключ к определению — сочетание серых щёк, рыжеватой груди и полосатых боков.
+Ecuadorian Rail (русского названия нет) — оседлый пастушок Анд от юга Колумбии до Перу; в Колумбии он живёт в тростниковых болотах крайнего юга страны, до 3 800 м. Раньше его считали андской формой Virginia Rail (виргинского пастушка), и в списке ACO 2022 он стоит под этим именем (Rallus limicola); IOC и eBird/Clements 2025 считают его отдельным видом. Он мельче северных виргинских пастушков (20–21 см). Как и все пастушки, он скрытен, и в поле обычно видят лишь силуэт с длинным клювом на краю тростника. Ключ к определению — сочетание серых щёк, рыжеватой груди и полосатых боков.
 
 На маршруте он «точно» на Лагуне Ла-Коча и «возможен» у Бордонсильо, оба 16 октября. Ищи его в тростниках у Эль-Энкано на рассвете, когда пастушки перекликаются и иногда выходят на открытый край.
 
 ## English
 
-Virginia Rail in Colombia is the resident Andean form aequatorialis, living in reed marshes in the far south of the country up to 3,800 m; it is smaller than northern birds (20–21 cm). Some checklists (IOC) treat it as a separate species, Ecuadorian Rail (Rallus aequatorialis). Like all rails it is secretive, and in the field one usually sees only a long-billed silhouette at the reed edge. The key is the combination of gray cheeks, a rufous breast and barred flanks.
+Ecuadorian Rail is a resident Andean rail from southern Colombia to Peru; in Colombia it lives in reed marshes in the far south of the country, up to 3,800 m. It used to be treated as the Andean form of Virginia Rail, and the ACO 2022 checklist lists it under that name (Rallus limicola); IOC and eBird/Clements 2025 treat it as a separate species. It is smaller than northern Virginia Rails (20–21 cm). Like all rails it is secretive, and in the field one usually sees only a long-billed silhouette at the reed edge. The key is the combination of gray cheeks, a rufous breast and barred flanks.
 
 On the route it is "sure" at Laguna de La Cocha and "maybe" near Bordoncillo, both on 16 October. Look for it in the reeds at El Encano at dawn, when rails call to each other and sometimes step to the open edge.

@@ -10,7 +10,7 @@ confusable:
     how: "Танагры держатся выше, окраска ярче, у цветоколов крючковатый клюв; атлапеты — птицы земли и нижнего яруса"
   - family: paruli1
     how: "Горные древесницы тоже оливково-жёлтые с полосатой головой, но клюв тонкий, и они всё время в движении"
-route_note: "Эндемичная Dusky-headed Brushfinch — в Эль-Энканто и Ла-Дримофиле (дни 2–4), Moustached Brushfinch — в Чикаке (дни 1 и 22), White-rimmed Brushfinch — в Сибундое и на Трамплине птиц (дни 13–14), Northern Slaty Brushfinch — у Ла-Кочи и на Бордонсильо (день 14). На склоне Чоко (дни 17–18) обычна Golden-crowned Brushfinch."
+route_note: "Эндемичная Dusky-headed Brushfinch — в Эль-Энканто и Ла-Дримофиле (дни 2–4), Moustached Brushfinch — в Чикаке (дни 1 и 22), White-rimmed Brushfinch — в Сибундое и на Трамплине птиц (дни 13–14), Northern Slaty Brushfinch — у Ла-Кочи и на Бордонсильо (день 14). На склоне Чоко (дни 17–18) обычна Choco Brushfinch."
 fact: "Песни рыжешейной зонотрихии (Rufous-collared Sparrow) складываются в местные диалекты, которые меняются с высотой и биотопом, — классический пример птичьего «акцента»."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Brushfinches are large, grey or olive, with a rufous, white or yellow crown and head stripes; they rustle in edge thickets"
     - "Chlorospingus are small, olive-yellow, with a white spot behind the eye, moving in noisy groups in mixed flocks"
     - "Sparrows are streaked, with a contrasting head pattern, feeding on the ground along roads and in gardens"
-  route_note: "The endemic Dusky-headed Brushfinch is at El Encanto and La Drymophila (days 2–4), Moustached Brushfinch at Chicaque (days 1 and 22), White-rimmed Brushfinch at Sibundoy and Trampolín de las Aves (days 13–14), Northern Slaty Brushfinch at La Cocha and Bordoncillo (day 14). On the Chocó slope (days 17–18) Golden-crowned Brushfinch is common."
+  route_note: "The endemic Dusky-headed Brushfinch is at El Encanto and La Drymophila (days 2–4), Moustached Brushfinch at Chicaque (days 1 and 22), White-rimmed Brushfinch at Sibundoy and Trampolín de las Aves (days 13–14), Northern Slaty Brushfinch at La Cocha and Bordoncillo (day 14). On the Chocó slope (days 17–18) Choco Brushfinch is common."
   fact: "Rufous-collared Sparrow songs form local dialects that shift with elevation and habitat, a classic example of a bird 'accent'."
 ---
 Американские овсянковые — семейство без устоявшегося русского названия; бёрдеры обычно говорят о его группах: атлапеты, хлороспингусы, воробьи. В Колумбии 40 видов, и почти все держатся у земли или в нижнем ярусе, а клюв у них короткий и конический, как у наших овсянок. Самый обычный — Rufous-collared Sparrow (рыжешейная зонотрихия), серо-рыжий воробей с хохолком, который живёт везде, от улиц Боготы до края парамо.

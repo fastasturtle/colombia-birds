@@ -1,0 +1,5 @@
+{
+ "_comment": "Field corrections to the ACO 2022 Darwin Core archive (data/sources/aco.json), applied by common.checklist() for every step that reads the list. Key = normalised ACO scientific name. Grallaria saturata / G. saltuensis: the archive's vernacularName values are swapped (saturata = Equatorial Antpitta, saltuensis = Perijá Antpitta, as in SACC and eBird/Clements).",
+ "grallaria saturata": {"name_en_aco": "Equatorial Antpitta"},
+ "grallaria saltuensis": {"name_en_aco": "Perijá Antpitta"}
+}

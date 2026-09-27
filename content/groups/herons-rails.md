@@ -13,7 +13,7 @@ confusable:
     how: "Утки и поганки держатся на открытой воде и плавают постоянно; лысуха плавает, но кивает головой, и у неё куриный клюв"
   - group: tinamous-gamebirds
     how: "Лесные пастушки ходят по лесной подстилке, как тинаму, но у них длинные ноги, клюв и дёргающийся хвост"
-route_note: "Болота Пуэрто-Асиса (дни 9–11) — лучшее место для погонышей: Gray-breasted Crake, Rufous-sided Crake, Ash-throated и Black-banded Crake, там же Green Ibis. Sunbittern ходит по берегу реки у Плайя-Рики (день 10). На Лагуне Ла-Коче (день 14) — Slate-colored Coot и Virginia Rail, у Тумако (дни 20–21) — Yellow-crowned Night Heron, Glossy Ibis и White-throated Crake."
+route_note: "Болота Пуэрто-Асиса (дни 9–11) — лучшее место для погонышей: Gray-breasted Crake, Rufous-sided Crake, Ash-throated и Black-banded Crake, там же Green Ibis. Sunbittern ходит по берегу реки у Плайя-Рики (день 10). На Лагуне Ла-Коче (день 14) — Slate-colored Coot и Ecuadorian Rail, у Тумако (дни 20–21) — Yellow-crowned Night Heron, Glossy Ibis и White-throated Crake."
 fact: "Солнечная цапля при угрозе раскрывает крылья и показывает на них два огромных «глаза» из рыжих и чёрных полос."
 en:
   recognize:
@@ -22,7 +22,7 @@ en:
     - "Storks: bigger than herons, massive bill, soar in thermals with the neck outstretched"
     - "Rails and crakes: chicken-like, short tail flicked upward; hide in reeds and are mostly heard"
     - "Sunbittern and Limpkin: walk the water's edge; the first shows a sunburst on spread wings, the second has a long curved bill"
-  route_note: "The Puerto Asís marshes (days 9–11) are the best place for crakes: Gray-breasted Crake, Rufous-sided Crake, Ash-throated and Black-banded Crake, plus Green Ibis. Sunbittern walks the riverbank at Playa Rica (day 10). Laguna La Cocha (day 14) has Slate-colored Coot and Virginia Rail; near Tumaco (days 20–21) Yellow-crowned Night Heron, Glossy Ibis and White-throated Crake."
+  route_note: "The Puerto Asís marshes (days 9–11) are the best place for crakes: Gray-breasted Crake, Rufous-sided Crake, Ash-throated and Black-banded Crake, plus Green Ibis. Sunbittern walks the riverbank at Playa Rica (day 10). Laguna La Cocha (day 14) has Slate-colored Coot and Ecuadorian Rail; near Tumaco (days 20–21) Yellow-crowned Night Heron, Glossy Ibis and White-throated Crake."
   fact: "When threatened, the Sunbittern spreads its wings and flashes two huge 'eyes' made of rufous and black bands."
 ---
 Длинные ноги и жизнь у воды объединяют птиц этой группы, хотя это несколько разных ветвей. Одни стоят открыто на берегу и видны издалека, другие прячутся в тростнике так, что за весь тур их можно только услышать.

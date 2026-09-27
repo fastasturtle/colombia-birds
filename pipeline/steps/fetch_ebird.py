@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import SOURCES, get_json, log, norm_sci, read_json, write_json  # noqa: E402
+from common import SOURCES, checklist, get_json, log, norm_sci, read_json, write_json  # noqa: E402
 
 URL = "https://api.ebird.org/v2/ref/taxonomy/ebird"
 LOCALES = {"ru": "ru", "en": "en", "es": "es_CO"}
@@ -20,7 +20,7 @@ CITATION = (
 
 
 def main() -> None:
-    aco = read_json(SOURCES / "aco.json")["species"]
+    aco = checklist()  # ACO 2022 + clements2025 additions
     wanted = set(aco)
     manual = read_json(Path(__file__).resolve().parents[1] / "mappings" / "aco_to_ebird.json", {})
     # manual: {aco_norm_sci: ebird_sci_name}

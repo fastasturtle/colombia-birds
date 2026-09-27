@@ -45,10 +45,10 @@ en:
 ---
 Black-faced Dacnis (масковый дакнис) — маленькая танагра амазонских низин и предгорий, в кронах влажного леса и на опушках до 1 200 м. Жёлтый глаз на чёрной маске — лучшая примета, особенно когда птица сидит высоко и цвета против света пропадают. Самку в одиночку определить трудно; ищи её рядом с самцом.
 
-На маршруте он «возможен» в Исла-Эскондиде 7–11 октября и в Финке Дискосуре 7 октября. Данные отмечают его и на Км 42 21 октября и в Финке Марагрикола 22 октября, но на тихоокеанской стороне живёт форма с жёлтыми пучками по бокам груди, которую Clements выделяет в отдельный вид, Yellow-tufted Dacnis.
+На маршруте он «возможен» в Исла-Эскондиде 7–11 октября и в Финке Дискосуре 7 октября. На тихоокеанской стороне (Км 42, Финка Марагрикола) живёт другой вид с жёлтыми пучками по бокам груди, Yellow-tufted Dacnis (Dacnis egregia), которого eBird/Clements отделяет от Black-faced Dacnis.
 
 ## English
 
 Black-faced Dacnis is a small tanager of the Amazonian lowlands and foothills, in the canopy and edges of humid forest up to 1,200 m. The yellow eye in the black mask is the best mark, especially when the bird sits high and colours vanish against the light. A lone female is hard to identify; look for her next to a male.
 
-On the route it is "maybe" at Isla Escondida on 7–11 October and at Finca Discosura on 7 October. The data also list it at Km 42 on 21 October and Finca Maragrícola on 22 October, but on the Pacific side lives the form with yellow tufts on the breast sides that Clements treats as a separate species, Yellow-tufted Dacnis.
+On the route it is "maybe" at Isla Escondida on 7–11 October and at Finca Discosura on 7 October. The Pacific side (Km 42, Finca Maragrícola) has a different species with yellow tufts on the breast sides, Yellow-tufted Dacnis (Dacnis egregia), which eBird/Clements splits from Black-faced Dacnis.

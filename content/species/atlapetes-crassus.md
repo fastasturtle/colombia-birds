@@ -1,5 +1,5 @@
 ---
-id: atlapetes-tricolor
+id: atlapetes-crassus
 difficulty: medium
 lynx_page: null
 key_features:
@@ -23,7 +23,7 @@ traits:
   layer: [understory, ground]
 sources:
   - "Wikipedia: Tricolored brushfinch (en, CC BY-SA 4.0) — описание перуанской формы, использовано с осторожностью"
-  - "Данные проекта: data/species/atlapetes-tricolor.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
+  - "Данные проекта: data/species/atlapetes-crassus.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF)"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -39,12 +39,12 @@ en:
   behavior: "Keeps in pairs and family groups in dense bushes at edges, clearings and secondary forest. Feeds low, on the ground and in the lower storey, sometimes moving with a mixed flock."
   voice: "Thin high 'tsip' notes from the bushes and short whistled songs."
 ---
-Golden-crowned Brushfinch (трёхцветная атлапета) в Колумбии — птица тихоокеанского склона Анд на юго-западе страны. Колумбийско-эквадорскую форму crassus часть списков выделяет в отдельный вид, Choco Brushfinch, а описания в Wikipedia относятся к перуанской форме; высоты в данных проекта (1 525–3 050 м) тоже перуанские. На маршруте её отмечают в предгорном и облачном лесу примерно от 1 000 до 1 900 м.
+Choco Brushfinch (русского названия нет) — атлапета тихоокеанского склона Анд на юго-западе Колумбии и в Эквадоре. eBird/Clements отделяет её от перуанской Golden-crowned Brushfinch (Atlapetes tricolor), под именем которой (Tricolored Brushfinch) колумбийские птицы стоят в списке ACO 2022; описания в Wikipedia относятся к перуанскому виду. На маршруте её отмечают в предгорном и облачном лесу примерно от 1 000 до 1 900 м.
 
 Она «возможна» в Ла-Планаде 16–18 октября, в Рио-Ньямби 19 октября, у Авес-и-Флорес и в Бангсиас-лодже 20 октября. Смотри на золотую шапку в кустах вдоль дорог и опушек.
 
 ## English
 
-In Colombia, Golden-crowned Brushfinch is a bird of the Pacific slope of the Andes in the southwest. Some lists split the Colombian-Ecuadorian form crassus as a separate species, Choco Brushfinch, while the Wikipedia descriptions refer to the Peruvian form; the elevations in the project data (1,525–3,050 m) are Peruvian too. On the route it is recorded in foothill and cloud forest at roughly 1,000–1,900 m.
+Choco Brushfinch is a brushfinch of the Pacific slope of the Andes in southwest Colombia and Ecuador. eBird/Clements splits it from the Peruvian Golden-crowned Brushfinch (Atlapetes tricolor), under whose name (Tricolored Brushfinch) the ACO 2022 checklist lists Colombian birds; the Wikipedia descriptions refer to the Peruvian species. On the route it is recorded in foothill and cloud forest at roughly 1,000–1,900 m.
 
 It is "maybe" at La Planada on 16–18 October, Río Ñambí on 19 October, around Aves y Flórez and at Bangsias Lodge on 20 October. Look for the golden cap in bushes along roads and forest edges.

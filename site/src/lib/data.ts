@@ -38,7 +38,9 @@ export interface Photo {
   width?: number; height?: number; author: string; license: string; license_url?: string; source_url: string; credit?: string;
 }
 export interface Species {
-  id: string; sci_name: string; sci_name_aco: string; authorship: string; taxonomy_note: string | null;
+  id: string; sci_name: string; sci_name_aco: string | null; authorship: string; taxonomy_note: string | null;
+  /** aco2022 = ACO 2022 checklist taxon; clements2025 = eBird/Clements 2025 species absent from ACO (docs/DECISIONS.md row 19) */
+  source?: 'aco2022' | 'clements2025';
   names: { en: string; ru: string | null; es: string | null; en_aco: string }; name_ru_source: string | null;
   ebird_code: string; taxon_order: number; order: string; family: { code: string; sci: string; en: string | null }; genus: string;
   colombia: { status: string[]; status_uncertain: boolean; status_raw: string; endemic: boolean; introduced: boolean;

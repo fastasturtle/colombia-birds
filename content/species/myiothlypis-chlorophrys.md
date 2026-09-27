@@ -1,5 +1,5 @@
 ---
-id: myiothlypis-chrysogaster
+id: myiothlypis-chlorophrys
 difficulty: medium
 lynx_page: null
 checked: 2026-09-27
@@ -25,7 +25,7 @@ traits:
 sources:
   - "Wikipedia: Myiothlypis chrysogaster (es, CC BY-SA 4.0)"
   - "Wikipedia: Choco warbler (en, CC BY-SA 4.0), https://en.wikipedia.org/wiki/Choco_warbler"
-  - "Данные проекта: data/species/myiothlypis-chrysogaster.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), pipeline/mappings/gbif_to_species.json"
+  - "Данные проекта: data/species/myiothlypis-chlorophrys.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), pipeline/mappings/gbif_to_species.json"
   - "Общие полевые знания автора-агента; из определителей не копировалось"
 en:
   key_features:
@@ -41,12 +41,12 @@ en:
   behavior: "Pairs and family groups forage from mid-levels to the lower canopy, often with mixed flocks, gleaning prey from leaves and branches."
   voice: "The song is very thin, wiry and buzzy; calls are a high 'tsee' and a peculiar rough, burry 'rrweet'."
 ---
-На сайте вид стоит под именем Cuzco Warbler (золотобрюхий корольковый певун), но на нашем маршруте живёт тихоокеанская форма chlorophrys, которую Clements выделяет как Choco Warbler; настоящий Cuzco Warbler обитает в Перу и Боливии. Это жёлтобрюхий певун сырого предгорного леса Чоко, на высотах 500–1 500 м. В тени леса он выглядит просто жёлтым снизу; смотри на оранжевую полосу на темени и бровь, жёлтую только перед глазом.
+Choco Warbler (русского названия нет) — жёлтобрюхий певун сырого предгорного леса Чоко, на высотах 500–1 500 м. В 2022 году Clements отделил его от Cuzco Warbler из Перу и Боливии; в списке ACO 2022 колумбийские птицы ещё стоят под общим именем Golden-bellied Warbler (Myiothlypis chrysogaster). В тени леса он выглядит просто жёлтым снизу; смотри на оранжевую полосу на темени и бровь, жёлтую только перед глазом.
 
 Он «точно» в Авес-и-Флорес 18–20 октября, в Рио-Ньямби 19-го и в Бангсиас-лодже 20 октября, «возможен» в Ла-Нутрии 21 октября.
 
 ## English
 
-On the site the species appears as Cuzco Warbler, but the bird on our route is the Pacific form chlorophrys, which Clements treats as Choco Warbler; the true Cuzco Warbler lives in Peru and Bolivia. It is a yellow-bellied warbler of wet Chocó foothill forest at 500–1,500 m. In the forest shade it looks simply yellow below; check the orange crown stripe and the eyebrow, yellow only in front of the eye.
+Choco Warbler is a yellow-bellied warbler of wet Chocó foothill forest at 500–1,500 m. Clements split it from Cuzco Warbler of Peru and Bolivia in 2022; the ACO 2022 checklist still lists Colombian birds under the shared name Golden-bellied Warbler (Myiothlypis chrysogaster). In the forest shade it looks simply yellow below; check the orange crown stripe and the eyebrow, yellow only in front of the eye.
 
 It is "sure" at Aves y Flórez on 18–20 October, Río Ñambí on the 19th and Bangsias Lodge on 20 October, and "maybe" at La Nutria on 21 October.

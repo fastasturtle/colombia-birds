@@ -10,7 +10,7 @@ confusable:
     how: "Виреоны медлительнее, клюв толще, с крючком на конце"
   - family: tyrann2
     how: "Мелкие тиранновые сидят вертикально и ждут добычу, клюв плоский и широкий"
-route_note: "Октябрь — пик прилёта северных мигрантов. Blackburnian Warbler попадается почти на каждой точке, от Чикаке (день 1) до Сибундоя; Cerulean Warbler ищи в кронах Эль-Энканто и Ла-Дримофилы (дни 2–4), Canada Warbler — в подлеске Исла-Эскондиды (дни 5–9). Из местных видов Cuzco Warbler — обычная птица склона Чоко и Ла-Планады (дни 15–18)."
+route_note: "Октябрь — пик прилёта северных мигрантов. Blackburnian Warbler попадается почти на каждой точке, от Чикаке (день 1) до Сибундоя; Cerulean Warbler ищи в кронах Эль-Энканто и Ла-Дримофилы (дни 2–4), Canada Warbler — в подлеске Исла-Эскондиды (дни 5–9). Из местных видов Choco Warbler — обычная птица склона Чоко и Ла-Планады (дни 15–18)."
 fact: "Blackpoll Warbler осенью летит из Северной Америки к Южной над Атлантикой без посадки, до 2 500 км за два-три дня."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Plenty of yellow, olive and grey; migrants show wing bars, tail spots and bright head markings"
     - "Redstarts (Myioborus) fan a white-edged tail and droop their wings to flush insects"
     - "Resident Myiothlypis are olive-yellow with a striped head and keep to the understory in pairs"
-  route_note: "October is the peak arrival of northern migrants. Blackburnian Warbler turns up at almost every site, from Chicaque (day 1) to Sibundoy; look for Cerulean Warbler in the canopy at El Encanto and La Drymophila (days 2–4), and Canada Warbler in the understory at Isla Escondida (days 5–9). Among residents, Cuzco Warbler is common on the Chocó slope and at La Planada (days 15–18)."
+  route_note: "October is the peak arrival of northern migrants. Blackburnian Warbler turns up at almost every site, from Chicaque (day 1) to Sibundoy; look for Cerulean Warbler in the canopy at El Encanto and La Drymophila (days 2–4), and Canada Warbler in the understory at Isla Escondida (days 5–9). Among residents, Choco Warbler is common on the Chocó slope and at La Planada (days 15–18)."
   fact: "In autumn the Blackpoll Warbler flies from North America towards South America over the Atlantic non-stop, up to 2,500 km in two to three days."
 ---
 Древесницевые — американский аналог наших пеночек и славок: мелкие подвижные насекомоядные птицы с тонким клювом (56 видов в Колумбии). На маршруте это две совершенно разные группы. Местные оседлые виды — канделиты (redstarts) с чёрно-белым веером хвоста и жёлтым брюшком и оливковые Myiothlypis с полосатой головой — держатся парами и составляют постоянное ядро смешанных стай облачного леса. Вторая группа — мигранты, которые гнездятся в лесах Северной Америки и зимуют в Андах и Амазонии.

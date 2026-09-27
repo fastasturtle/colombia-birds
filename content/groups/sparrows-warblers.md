@@ -13,7 +13,7 @@ confusable:
     how: "Мухоловки сидят вертикально и подолгу на одной присаде, делая вылеты; древесницы не сидят на месте"
   - group: cotingas-manakins
     how: "Самка манакина пухлая и короткохвостая, как эуфония, но оливковая целиком и держится в подлеске, а не в кронах"
-route_note: "В Эль-Энканто (дни 2–4) — эндемики Dusky-headed Brushfinch и Velvet-fronted Euphonia и зимующий Cerulean Warbler. В Чикаке (день 1) — Moustached Brushfinch, на Трамплине птиц (день 13) — эндемичный Red-bellied Grackle и White-rimmed Brushfinch. У Бангсиас-лоджа (день 18) — Yellow-collared Chlorophonia и Golden-crowned Brushfinch, на побережье у Тумако (дни 19–20) — Peruvian Meadowlark."
+route_note: "В Эль-Энканто (дни 2–4) — эндемики Dusky-headed Brushfinch и Velvet-fronted Euphonia и зимующий Cerulean Warbler. В Чикаке (день 1) — Moustached Brushfinch, на Трамплине птиц (день 13) — эндемичный Red-bellied Grackle и White-rimmed Brushfinch. У Бангсиас-лоджа (день 18) — Yellow-collared Chlorophonia и Choco Brushfinch, на побережье у Тумако (дни 19–20) — Peruvian Meadowlark."
 fact: "Cerulean Warbler весит около 9 граммов и каждую осень летит из лесов востока США в предгорья Анд, где зимует в том числе в тенистых кофейных плантациях."
 en:
   recognize:
@@ -22,7 +22,7 @@ en:
     - "Blackbirds, oropendolas and caciques: large, black with yellow or rufous, long pointed bill; colonies of hanging nests in trees"
     - "Euphonias and chlorophonias: tiny, plump, short-tailed, blue and yellow or bright green; feed on mistletoe in the canopy"
     - "Introduced munias and House Sparrow keep to houses and fields"
-  route_note: "El Encanto (days 2–4) has the endemics Dusky-headed Brushfinch and Velvet-fronted Euphonia, plus the wintering Cerulean Warbler. Chicaque (day 1) has Moustached Brushfinch, Trampolín de las Aves (day 13) the endemic Red-bellied Grackle and White-rimmed Brushfinch. Bangsias Lodge (day 18) has Yellow-collared Chlorophonia and Golden-crowned Brushfinch, the coast near Tumaco (days 19–20) Peruvian Meadowlark."
+  route_note: "El Encanto (days 2–4) has the endemics Dusky-headed Brushfinch and Velvet-fronted Euphonia, plus the wintering Cerulean Warbler. Chicaque (day 1) has Moustached Brushfinch, Trampolín de las Aves (day 13) the endemic Red-bellied Grackle and White-rimmed Brushfinch. Bangsias Lodge (day 18) has Yellow-collared Chlorophonia and Choco Brushfinch, the coast near Tumaco (days 19–20) Peruvian Meadowlark."
   fact: "The Cerulean Warbler weighs about 9 grams and every autumn flies from forests in the eastern US to the Andean foothills, wintering among other places in shade coffee plantations."
 ---
 Эта группа объединяет мелких певчих птиц, которые пришли в Южную Америку из Северной, и их узнаёшь по знакомым силуэтам: воробей, пеночка, скворец, щегол. В октябре их ряды пополняются северными мигрантами: древесницы и другие зимующие виды вливаются в местные микст-флоки.
