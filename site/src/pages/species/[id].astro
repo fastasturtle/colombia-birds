@@ -28,6 +28,8 @@ const el = sp.traits.elevation_m;
 const enText = tx?.wikipedia?.en;
 const ruText = tx?.wikipedia?.ru;
 const descr = enText?.sections?.['Description'] ?? enText?.sections?.['Identification'] ?? null;
+// Page in Hilty (2021) «Birds of Colombia», Lynx: manual override in content frontmatter wins over data.
+const lynxPage = card?.lynx_page ?? sp.book?.lynx_page ?? null;
 const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
 ---
 <Base title={title} species={sp.id} description={`${sp.names.en} (${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
@@ -37,6 +39,7 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
     <span class="sci">{sp.sci_name}</span> <span class="muted">{sp.authorship}</span>
     {sp.names.ru && <><br /><strong>{sp.names.ru}</strong></>}
     {sp.names.es && <span class="muted"> · исп. {sp.names.es}</span>}
+    {lynxPage != null && <><br /><span class="muted book">Lynx Birds of Colombia — с.&nbsp;{lynxPage}</span></>}
   </p>
   <p>
     {sp.colombia.status.map((s) => <span class:list={['chip', { endemic: s === 'endemic' }]}>{STATUS_RU[s] ?? s}{sp.colombia.status_uncertain ? '?' : ''}</span>)}
@@ -142,5 +145,6 @@ const title = sp.names.ru ? `${sp.names.ru} · ${sp.names.en}` : sp.names.en;
   .otag { font-size: .78rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
   .wdays { display: flex; flex-wrap: wrap; gap: 4px; flex-basis: 100%; }
   .small { font-size: .85rem; }
+  .book { font-size: .85rem; }
   .pn { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--line); }
 </style>

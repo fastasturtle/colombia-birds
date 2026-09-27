@@ -3,6 +3,10 @@
 Canonical taxonomy is eBird/Clements (matches Merlin and eBird in the field). The ACO checklist is the
 canonical *list* of what occurs in Colombia and carries the status flags. Hand-written content lives in
 content/species/<slug>.md and is merged at site build time, never here.
+
+Lynx "Birds of Colombia" (Hilty 2021) pages from step `lynx`: `book.lynx_page` in the species files,
+`lynx_page` in species_index.json (from data/lynx_pages.json) and in families.json (from
+data/sources/lynx_families.json + lynx_index.json). Kept from the previous build when that step never ran.
 """
 from __future__ import annotations
 
@@ -32,6 +36,75 @@ def family_names(sci: str, ebird_names: dict, wd: dict | None) -> dict:
         if ru and ru.lower() != sci.lower() and re.search(r"[а-яё]", ru, re.I) and "(" not in ru:
             names["ru"] = ru
     return names
+
+
+# eBird/Clements family name -> family name in the Lynx "Birds of Colombia" family index (HBW/BirdLife names).
+# Every pair checked against the book's own index line for the Latin family name (e.g. ANATIDAE 39).
+LYNX_FAMILY_ALIASES = {
+    "Ducks, Geese, and Waterfowl": "Ducks, Geese and Swans",
+    "New World Quail": "New World Quails",
+    "Nightjars and Allies": "Nightjars",
+    "Stilts and Avocets": "Avocets and Stilts",
+    "Plovers and Lapwings": "Plovers",
+    "Skuas and Jaegers": "Skuas",
+    "Gulls, Terns, and Skimmers": "Gulls and Terns",
+    "Shearwaters and Petrels": "Petrels and Shearwaters",
+    "Boobies and Gannets": "Gannets and Boobies",
+    "Anhingas": "Darters",
+    "Cormorants and Shags": "Cormorants",
+    "Herons, Egrets, and Bitterns": "Herons",
+    "Hawks, Eagles, and Kites": "Hawks and Eagles",
+    "Owls": "Typical Owls",
+    "Toucan-Barbets": "Prong-billed Barbets",
+    "New World and African Parrots": "Parrots",
+    "Antthrushes": "Ground-antbirds",
+    "Ovenbirds and Woodcreepers": "Ovenbirds",
+    "Tityras and Allies": "Tityras, Becards, Schiffornises and Mourners",
+    "Royal Flycatchers and Allies": "Long-bristled Flycatchers",
+    "Vireos, Shrike-Babblers, and Erpornis": "Vireos",
+    "Crows, Jays, and Magpies": "Crows and Jays",
+    "Swallows": "Swallows and Martins",
+    "Thrushes and Allies": "Thrushes",
+    "Waxbills and Allies": "Waxbills",
+    "Wagtails and Pipits": "Pipits and Wagtails",
+    "Finches, Euphonias, and Allies": "Finches",
+    "Troupials and Allies": "New World Blackbirds",
+    "Mitrospingid Tanagers": "Aberrant Tanagers",
+    "Cardinals and Allies": "Cardinals",
+    "Tanagers and Allies": "Tanagers",
+}
+
+
+def _norm_family(name: str) -> str:
+    s = re.sub(r"\band\b|&", " ", name.lower())
+    return re.sub(r"[^a-z]", "", s)
+
+
+def lynx_family_pages(fam_list: list[dict]) -> dict[str, int | None] | None:
+    """Family code -> first page in the Lynx book (step `lynx`): by English name in the book's family index
+    (with LYNX_FAMILY_ALIASES), else by the Latin family line of the main index (ANATIDAE 39). None when
+    the step has not run."""
+    book_fams = read_json(SOURCES / "lynx_families.json")
+    index = read_json(SOURCES / "lynx_index.json")
+    if book_fams is None and index is None:
+        return None
+    by_name = {_norm_family(f["name"]): f["page"] for f in book_fams or [] if not f.get("fragment") and f.get("page")}
+    by_sci = {e["family"].lower(): e["first_page"] for e in (index or {}).get("entries", [])
+              if e["kind"] == "family" and e.get("first_page")}
+    out: dict[str, int | None] = {}
+    for f in fam_list:
+        en = f["names"].get("en") or ""
+        page = by_name.get(_norm_family(LYNX_FAMILY_ALIASES.get(en, en)))
+        sci_page = by_sci.get(f["sci"].lower())
+        if page is None and sci_page is not None:
+            log(f"  lynx: family {en} ({f['sci']}) not in the family index, page {sci_page} from the main index")
+            page = sci_page
+        elif page is None:
+            log(f"  lynx: family {en} ({f['sci']}) not found in the book")
+        elif sci_page is not None and sci_page != page:
+            log(f"  lynx: family {en}: family index {page} vs main index {f['sci'].upper()} {sci_page}")
+        out[f["code"]] = page
+    return out
 
 
 def endemics_report(aco: dict, chaparro: dict, index: list[dict], src: dict) -> None:
@@ -92,7 +165,11 @@ def main() -> None:
     preserved: dict[str, dict] = {}
     for p in SPECIES_DIR.glob("*.json"):
         old = read_json(p) or {}
-        preserved[p.stem] = {k: old[k] for k in ("photos", "texts", "sounds") if old.get(k)}
+        preserved[p.stem] = {k: old[k] for k in ("photos", "texts", "sounds", "book") if old.get(k)}
+    # Lynx "Birds of Colombia" page per species (step `lynx`); without it keep what the files already have.
+    lynx_pages = read_json(DATA / "lynx_pages.json")
+    if lynx_pages is None:
+        log("  lynx: data/lynx_pages.json missing (step `lynx`), keeping book pages from the previous build")
     old_files = {p.stem for p in SPECIES_DIR.glob("*.json")}
 
     index = []
@@ -203,6 +280,10 @@ def main() -> None:
             "photos": preserved.get(slug, {}).get("photos", []),
             "texts": preserved.get(slug, {}).get("texts", {}),
             "sounds": preserved.get(slug, {}).get("sounds", []),
+            "book": (
+                {"lynx_page": (lynx_pages.get(slug) or {}).get("page")} if lynx_pages is not None
+                else preserved.get(slug, {}).get("book", {"lynx_page": None})
+            ),
             # Filled by agents (content/species/<slug>.md) — kept null here on purpose
             "difficulty": None,
         }
@@ -223,6 +304,7 @@ def main() -> None:
                 "elev": [b.get("elevation", {}).get("min"), b.get("elevation", {}).get("max")] if b.get("elevation") else None,
                 "habitat": b.get("primary_habitat"),
                 "photo": rec["photos"][0]["sizes"]["thumb"] if rec["photos"] else None,
+                "lynx_page": rec["book"].get("lynx_page"),
             }
         )
 
@@ -232,11 +314,18 @@ def main() -> None:
         (SPECIES_DIR / f"{stale}.json").unlink()
     write_json(DATA / "species_index.json", index)
     fam_list = sorted(families.values(), key=lambda f: min(i["taxon_order"] for i in index if i["family"] == f["code"]))
+    fam_pages = lynx_family_pages(fam_list)
+    if fam_pages is None:  # step `lynx` never ran: keep pages from the previous families.json
+        old_fams = {f["code"]: f for f in read_json(DATA / "families.json") or []}
+        fam_pages = {f["code"]: old_fams.get(f["code"], {}).get("lynx_page") for f in fam_list}
+    for f in fam_list:
+        f["lynx_page"] = fam_pages.get(f["code"])
     write_json(DATA / "families.json", fam_list)
     log(f"built {len(index)} species, {len(fam_list)} families")
     log(f"  ru names: {sum(1 for i in index if i['ru'])} (ebird {sum(1 for i in index if i['ru'] and read_json(SPECIES_DIR / (i['id'] + '.json'))['name_ru_source']=='ebird')})")
     log(f"  photos kept: {sum(1 for i in index if i['photo'])}; families with ru name: {sum(1 for f in fam_list if f['names'].get('ru'))}")
     log(f"  elevation: {sum(1 for i in index if i['elev'])}")
+    log(f"  lynx pages: {sum(1 for i in index if i['lynx_page'])} species, {sum(1 for f in fam_list if f['lynx_page'])} families")
 
 
 if __name__ == "__main__":

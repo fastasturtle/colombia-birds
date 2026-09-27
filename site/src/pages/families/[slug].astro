@@ -51,7 +51,7 @@ const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>
   <h1>{title}</h1>
   <p class="muted sub">{family.names.ru && <>{family.names.en} · </>}<span class="sci">{family.sci}</span> · {sp.length} {plural(sp.length, 'вид', 'вида', 'видов')} в Колумбии</p>
-  <p class="muted ord">Отряд: {ordRu ? <>{ordRu} · <span class="sci">{family.order}</span></> : <span class="sci">{family.order}</span>}</p>
+  <p class="muted ord">Отряд: {ordRu ? <>{ordRu} · <span class="sci">{family.order}</span></> : <span class="sci">{family.order}</span>}{family.lynx_page != null && <><br />в Lynx: с.&nbsp;{family.lynx_page}</>}</p>
   {faces.length > 0 && (
     <div class="faces" aria-label="Фото видов семейства">{faces.map((s) => <SpeciesFace s={s} size={faces.length === 1 ? 260 : 180} />)}</div>
   )}

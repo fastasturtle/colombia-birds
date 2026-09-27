@@ -25,9 +25,13 @@ export interface IndexEntry {
   /** near-endemic of Colombia (pipeline field; missing in older data = false) */
   near_endemic: boolean;
   elev: [number | null, number | null] | null; habitat: string | null; photo: string | null;
+  /** page in Hilty (2021) «Birds of Colombia», Lynx Edicions; null = not found */
+  lynx_page: number | null;
 }
 export interface Family {
   code: string; sci: string; order: string; names: Record<string, string>; species_count: number; slug: string;
+  /** first page of the family in Hilty (2021) «Birds of Colombia», Lynx; null = not found */
+  lynx_page: number | null;
 }
 export interface Photo {
   key_base: string; sizes: { thumb: string; medium: string; large: string };
@@ -46,6 +50,8 @@ export interface Species {
   ids: Record<string, string | number | null>;
   links: { ebird: string; wikipedia: Record<string, string | null>; commons_category: string | null; xeno_canto: string; inaturalist: string | null };
   wikidata_images: string[]; photos: Photo[]; texts: Record<string, unknown>; sounds: unknown[]; difficulty: string | null;
+  /** field guide reference: Hilty (2021) «Birds of Colombia», Lynx Edicions */
+  book: { lynx_page: number | null };
 }
 export interface WikiText {
   title: string; url: string; revision: number | null; retrieved: string; license: string; license_url: string;
