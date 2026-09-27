@@ -36,7 +36,7 @@
 - [ ] Деплой на GitHub Pages (workflow готов, нужно: Settings → Pages → Source = GitHub Actions, слить в main)
 - [ ] Показ фото из R2 (после загрузки)
 - [ ] PWA: service worker вручную (плагин не поддерживает Astro 7), карта маршрута уже статичная (SVG, без тайлов)
-- [ ] Ареал вида на нашей SVG-карте. Сначала попробовать экспертные полигоны Vélez et al. 2021 «Distribution of birds in Colombia» (BDJ 9:e59202, CC BY 4.0, 1 889 видов): найти шейпфайлы (дополнения статьи / SiB Colombia / Zenodo 4533435), упростить, спроецировать как basemap. Fallback: GBIF occurrence API (`facet=gadmGid` по департаментам или hex-биннинг `api.gbif.org/v2/map` в MVT) → закрашивать департаменты/гексы на `basemap.json` с той же проекцией; кэшировать в `data/ranges/<slug>.json`, показывать на карточке вида
+- [ ] Ареал вида на нашей SVG-карте. Данные найдены: Vélez et al. 2021 (CC BY 4.0), шейпфайл `BIRD_Colombia.7z` (22 МБ) с GeoNetwork Института Гумбольдта, запись `5c2b19d2-6893-4955-aa65-509d1c3f2706`, URL через `/geonetwork/srv/api/records/<uuid>/attachments`; 1 889 полигонов, имена по Ayerbe-Quiñones 2019 → 1 833 наших видов совпадают, 133 нужна таблица синонимов. План: шаг `ranges` (py7zr + pyshp + shapely): клип по bbox подложки, упрощение 0.01–0.02°, проекция как в basemap, `data/ranges/<slug>.json` с path `d`, ленивая загрузка на карточке вида. Второй слой: GBIF `facet=gadmLevel1Gid` (нужны полигоны департаментов с ключами GADM в basemap)
 - [ ] Страница региона: виды по высотному поясу и биотопу
 - [ ] Определитель по признакам: семейство × регион × высота × биотоп × размер
 - [ ] Страницы «похожие виды» из `content/similar/`
