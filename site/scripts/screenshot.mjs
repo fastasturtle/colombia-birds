@@ -36,7 +36,13 @@ const srv = createServer((req, res) => {
 }).listen(0);
 const port = srv.address().port;
 
-const browser = await chromium.launch();
+// Claude Code cloud sessions ship Chromium at /opt/pw-browsers/chromium; a newer Playwright than that build
+// refuses its default path, so fall back to the explicit executable (see PLAYWRIGHT_CHROMIUM_EXECUTABLE too).
+const explicit = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE ?? '/opt/pw-browsers/chromium';
+const browser = await chromium.launch().catch(async (e) => {
+  if (existsSync(explicit)) return chromium.launch({ executablePath: explicit });
+  throw e;
+});
 const ctx = await browser.newContext({ viewport: { width, height: 844 }, deviceScaleFactor: 2, colorScheme: dark ? 'dark' : 'light' });
 for (const p of paths) {
   const page = await ctx.newPage();
