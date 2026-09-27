@@ -20,7 +20,7 @@ traits:
   size: pigeon
   colors: [red, black, rufous]
   tone: bright
-  marks: [crest]
+  marks: [crest, cap]
   bill: long
   layer: [midstory, canopy]
 sources:

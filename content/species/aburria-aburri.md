@@ -21,7 +21,7 @@ traits:
   size: larger
   colors: [black]
   tone: dull
-  marks: [wattle, long_tail]
+  marks: [wattle, long_tail, bright_bill]
   bill: short
   layer: [canopy]
 sources:

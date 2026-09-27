@@ -16,10 +16,10 @@ similar:
 behavior: "Пары кормятся в среднем ярусе и кронах, часто на сравнительно тонких ветках; держатся и в высоком лесу, и на опушках, у рек и на плантациях с большими деревьями."
 voice: "Барабанная дробь «ДА-дррр»: сильный удар и затухающая трель; позывы — полое «ткеп-ткеп-ткеп» и хриплое «ка-ва-ррр»."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [black, red, white]
   tone: bright
-  marks: [crest, barred]
+  marks: [crest, barred, cap]
   bill: long
   layer: [midstory, canopy]
 sources:

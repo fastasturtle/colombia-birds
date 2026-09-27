@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [black, red, blue]
   tone: bright
-  marks: [rump_patch]
+  marks: [rump_patch, wing_patch]
   bill: [short]
   layer: [midstory, understory]
 sources:

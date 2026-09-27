@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [black]
   tone: dull
-  marks: [plain]
+  marks: [plain, bright_bill]
   bill: long
   layer: [understory]
 sources:

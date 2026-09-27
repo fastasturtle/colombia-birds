@@ -19,7 +19,7 @@ traits:
   size: hummingbird
   colors: [purple, green, white]
   tone: bright
-  marks: []
+  marks: [cap]
   bill: short
   layer: [midstory, canopy, feeder]
 sources:

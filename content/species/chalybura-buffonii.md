@@ -21,7 +21,7 @@ traits:
   tone: dull
   marks: []
   bill: medium
-  layer: [understory, midstory, feeder]
+  layer: [understory, midstory]
 sources:
   - "Данные проекта: data/species/chalybura-buffonii.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json"
   - "Wikipedia: White-vented plumeleteer (en), Chalybura buffonii (es), CC BY-SA 4.0 — data/texts"

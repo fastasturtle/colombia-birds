@@ -14,10 +14,10 @@ similar:
 behavior: "Обычно парами кормится на всех ярусах леса, на опушках, в садах и на пастбищах с деревьями, часто вместе со смешанными стаями. Ест плоды и ягоды, реже насекомых."
 voice: "Песня — низкая очень быстрая мурлыкающая трель; позывка — резкое «трик»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [black, white, orange]
   tone: bright
-  marks: []
+  marks: [cap, wing_patch]
   bill: thick
   layer: [canopy, midstory]
 sources:

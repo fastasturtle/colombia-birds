@@ -19,7 +19,7 @@ traits:
   size: thrush
   colors: [olive, yellow, black]
   tone: dull
-  marks: [short_tail]
+  marks: [short_tail, cap]
   bill: short
   layer: [midstory, canopy]
 sources:

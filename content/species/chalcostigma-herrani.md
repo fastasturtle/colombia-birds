@@ -19,7 +19,7 @@ traits:
   size: hummingbird
   colors: [green, rufous]
   tone: bright
-  marks: [throat_patch, forked_tail, white_tail_tips]
+  marks: [throat_patch, forked_tail, white_tail_tips, cap]
   bill: short
   layer: [understory]
 sources:

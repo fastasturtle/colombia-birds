@@ -21,7 +21,7 @@ traits:
   size: larger
   colors: [white]
   tone: dull
-  marks: [plain]
+  marks: [plain, bright_bill]
   bill: long
   layer: [water]
 sources:

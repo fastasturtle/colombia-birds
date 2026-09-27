@@ -16,10 +16,10 @@ similar:
 behavior: "Держится низко в густом подлеске, на опушках, в зарослях по оврагам и на кофейных плантациях, часто прыгает по земле. Скрытен, но поющий самец сидит на присаде подолгу."
 voice: "Песня — короткая скрипучая, нестройная трель-щебет, повторяемая с паузами; позыв — громкое гнусавое «ва-а-а»."
 traits:
-  size: thrush
+  size: [sparrow, thrush]
   colors: [olive, gray]
   tone: dull
-  marks: [eye_ring, plain]
+  marks: [eye_ring, plain, bright_bill]
   bill: medium
   layer: [understory, ground]
 sources:

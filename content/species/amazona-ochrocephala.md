@@ -16,10 +16,10 @@ similar:
 behavior: "Держится парами и стаями до 30 птиц во влажном лесу, варзее, по берегам рек и на полях; у глинистых обнажений собирается большими группами. Ест плоды, орехи, семена, цветы и почки, охотно кормится кукурузой и садовыми плодами."
 voice: "Громкие крики, особенно в полёте; пары и стаи перекликаются на лету."
 traits:
-  size: pigeon
+  size: [pigeon, crow]
   colors: [green, yellow]
   tone: dull
-  marks: [short_tail, eye_ring]
+  marks: [short_tail, eye_ring, cap, wing_patch]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

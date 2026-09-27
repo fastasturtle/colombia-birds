@@ -16,10 +16,10 @@ similar:
 behavior: "Летает парами и тройками, часто в составе рыхлых стай, над влажным лесом, варзеей, болотами и пальмовыми рощами. Кормится орехами пальм, плодами и семенами, прилетает на глинистые обнажения у рек."
 voice: "Громкие хриплые, скрипучие крики, которые пары подают на лету."
 traits:
-  size: crow
+  size: [pigeon, crow]
   colors: [green, red, blue]
   tone: bright
-  marks: [long_tail, bare_face]
+  marks: [long_tail, bare_face, wing_patch]
   bill: [thick, hooked]
   layer: [canopy, air]
 sources:

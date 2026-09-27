@@ -18,7 +18,7 @@ voice: "Отрывистое трескучее «ке-тек-тек-тек», �
 traits:
   size: thrush
   colors: [brown, white, black]
-  tone: bright
+  tone: dull
   marks: []
   bill: short
   layer: [water, ground]

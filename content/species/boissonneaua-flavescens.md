@@ -18,11 +18,11 @@ behavior: "Очень территориален: занимает кормуш�
 voice: "Песня — серия высоких одиночных «цит»; при стычках — писклявое щебетание и трескучие трели."
 traits:
   size: hummingbird
-  colors: [green, yellow]
+  colors: [green, rufous]
   tone: bright
   marks: []
   bill: short
-  layer: [midstory, canopy, feeder]
+  layer: [midstory, canopy]
 sources:
   - "Данные проекта: data/species/boissonneaua-flavescens.json (ACO 2022, BIRDBASE 2025), data/site_species.json (GBIF), data/itinerary.json, data/sites.json (высоты локаций)"
   - "Wikipedia: Buff-tailed coronet (en), Boissonneaua flavescens (es), Бледнохвостый венценосный колибри (ru), CC BY-SA 4.0 — data/texts"
