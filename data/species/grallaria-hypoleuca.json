@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbant3",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-hypoleuca",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16560,
+  "gbif": 2490539,
+  "inaturalist": "116901",
+  "iucn": "22703308",
+  "wikidata": "Q671889",
+  "xeno_canto": "Grallaria-hypoleuca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_hypoleuca",
+  "ebird": "https://ebird.org/species/whbant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/116901",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bellied_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_hypoleuca",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+hypoleuca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bellied Antpitta",
+  "en_aco": "White-bellied Antpitta",
+  "es": "Tororoí Ventriblanco",
+  "ru": "Светлобрюхая питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria hypoleuca",
+ "sci_name_aco": "Grallaria hypoleuca",
+ "sounds": [],
+ "taxon_order": 14259.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2450,
+   "max_extreme": null,
+   "min": 1400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 71.675,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-bellied%20Antpitta%20-%20San%20Isidro%20-%20South%20Ecuador%20S4E3747.jpg"
+ ]
+}

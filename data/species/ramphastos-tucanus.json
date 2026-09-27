@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whttou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Ramphastos",
+ "id": "ramphastos-tucanus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11164,
+  "gbif": 2478774,
+  "inaturalist": "18799",
+  "iucn": "22682153",
+  "wikidata": "Q384839",
+  "xeno_canto": "Ramphastos-tucanus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphastos_tucanus",
+  "ebird": "https://ebird.org/species/whttou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18799",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_toucan",
+   "es": "https://es.wikipedia.org/wiki/Ramphastos_tucanus",
+   "ru": "https://ru.wikipedia.org/wiki/Белогрудый_тукан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphastos+tucanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Toucan",
+  "en_aco": "White-throated Toucan",
+  "es": "Tucán Pechiblanco",
+  "ru": "Белогрудый тукан"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Ramphastos tucanus",
+ "sci_name_aco": "Ramphastos tucanus",
+ "sounds": [],
+ "taxon_order": 10931.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "eggs",
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1440,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 672.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iwokrama%20Rainforest%2C%20Guyana%20%2812178909973%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tucano-de-papo-branco.jpg"
+ ]
+}

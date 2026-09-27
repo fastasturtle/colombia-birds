@@ -1,0 +1,92 @@
+{
+ "authorship": "(Daudin, 1800)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batfal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Falco",
+ "id": "falco-rufigularis",
+ "ids": {
+  "avibase": "EF9568DE5FD1E028",
+  "birdbase": 12942,
+  "gbif": 2481033,
+  "inaturalist": "4664",
+  "iucn": "22696457",
+  "wikidata": "Q844220",
+  "xeno_canto": "Falco-rufigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Falco_rufigularis",
+  "ebird": "https://ebird.org/species/batfal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4664",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bat_falcon",
+   "es": "https://es.wikipedia.org/wiki/Falco_rufigularis",
+   "ru": "https://ru.wikipedia.org/wiki/Вечерний_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Falco+rufigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bat Falcon",
+  "en_aco": "Bat Falcon",
+  "es": "Halcón Murcielaguero",
+  "ru": "Вечерний сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Falco rufigularis",
+ "sci_name_aco": "Falco rufigularis",
+ "sounds": [],
+ "taxon_order": 12096.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 3250,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 169.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Falco%20rufigularis-Argentina-4.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/OFalco%20rufigularis%20Bat%20Falcon%20%28cropped%29.jpg"
+ ]
+}

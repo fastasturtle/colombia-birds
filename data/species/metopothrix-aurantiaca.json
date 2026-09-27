@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orfplu2",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Metopothrix",
+ "id": "metopothrix-aurantiaca",
+ "ids": {
+  "avibase": "6E14FE472CE72FAD",
+  "birdbase": 15415,
+  "gbif": 2485947,
+  "inaturalist": "11737",
+  "iucn": "22702679",
+  "wikidata": "Q574607",
+  "xeno_canto": "Metopothrix-aurantiaca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Metopothrix_aurantiaca",
+  "ebird": "https://ebird.org/species/orfplu2",
+  "inaturalist": "https://www.inaturalist.org/taxa/11737",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-fronted_plushcrown",
+   "es": "https://es.wikipedia.org/wiki/Metopothrix_aurantiaca",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Metopothrix+aurantiaca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-fronted Plushcrown",
+  "en_aco": "Orange-fronted Plushcrown",
+  "es": "Coronafelpa",
+  "ru": "Коронадо"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Metopothrix aurantiaca",
+ "sci_name_aco": "Metopothrix aurantiaca",
+ "sounds": [],
+ "taxon_order": 15460.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 650,
+   "max_extreme": null,
+   "min": 150,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MetopothrixAurantiacusSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Metopothrix%20aurantiaca%20-%20Orange-fronted%20Plushcrown%3B%20Ramal%20do%20Noca%2C%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

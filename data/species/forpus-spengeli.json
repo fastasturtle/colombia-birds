@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hartlaub, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buwpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Forpus",
+ "id": "forpus-spengeli",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13347,
+  "gbif": 8732196,
+  "inaturalist": null,
+  "iucn": "45428679",
+  "wikidata": "Q21191097",
+  "xeno_canto": "Forpus-spengeli"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/buwpar1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Turquoise-winged_parrotlet",
+   "es": null,
+   "ru": "https://ru.wikipedia.org/wiki/Forpus_spengeli"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Forpus+spengeli"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Turquoise-winged Parrotlet",
+  "en_aco": "Turquoise-winged Parrotlet",
+  "es": "Cotorrita Aliturquesa",
+  "ru": null
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Forpus spengeli",
+ "sci_name_aco": "Forpus spengeli",
+ "sounds": [],
+ "taxon_order": 12984.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "shrubland"
+  ],
+  "mass_g": 26.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PsittaculaSmit.jpg"
+ ]
+}

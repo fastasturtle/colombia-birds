@@ -1,0 +1,95 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cincon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-cinereum",
+ "ids": {
+  "avibase": "CB5F3DD187FA7D13",
+  "birdbase": 37440,
+  "gbif": 5230612,
+  "inaturalist": "10012",
+  "iucn": "103834574",
+  "wikidata": "Q1585673",
+  "xeno_canto": "Conirostrum-cinereum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conirostrum_cinereum",
+  "ebird": "https://ebird.org/species/cincon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10012",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinereous_conebill",
+   "es": "https://es.wikipedia.org/wiki/Conirostrum_cinereum",
+   "ru": "https://ru.wikipedia.org/wiki/Серый_остроклювый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+cinereum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinereous Conebill",
+  "en_aco": "Cinereous Conebill",
+  "es": "Conirrostro Cinéreo",
+  "ru": "Серый конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum cinereum",
+ "sci_name_aco": "Conirostrum cinereum",
+ "sounds": [],
+ "taxon_order": 35265.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 9.200000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinereous%20Conebill%20RWD2.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinereous%20Conebill%20%28Conirostrum%20cinereum%29%20%289496969599%29.jpg"
+ ]
+}

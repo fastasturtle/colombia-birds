@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# pipeline raw caches (re-downloadable)
+pipeline/cache/
+pipeline/.venv/
+__pycache__/
+*.pyc
+
+# site
+site/node_modules/
+site/dist/
+site/.astro/
+
+.DS_Store

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wantat1",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Tringa",
+ "id": "tringa-incana",
+ "ids": {
+  "avibase": "13854B6E3E56F536",
+  "birdbase": 6771,
+  "gbif": 9733156,
+  "inaturalist": "144490",
+  "iucn": "22693305",
+  "wikidata": "Q15728057",
+  "xeno_canto": "Tringa-incana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tringa_incana",
+  "ebird": "https://ebird.org/species/wantat1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144490",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wandering_tattler",
+   "es": "https://es.wikipedia.org/wiki/Tringa_incana",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_пепельный_улит"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tringa+incana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wandering Tattler",
+  "en_aco": "Wandering Tattler",
+  "es": "Playero de Alaska",
+  "ru": "Американский пепельный улит"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Tringa incana",
+ "sci_name_aco": "Tringa incana",
+ "sounds": [],
+ "taxon_order": 6134.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1230,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "riparian",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 118.64999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wandering%20Tattler%20with%20fish%20-%20March%203%2C%202025.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bonaparte, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batgua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Penelope",
+ "id": "penelope-argyrotis",
+ "ids": {
+  "avibase": "540D21F5EC301AE2",
+  "birdbase": 673,
+  "gbif": 2482208,
+  "inaturalist": "2072",
+  "iucn": "22678354",
+  "wikidata": "Q516052",
+  "xeno_canto": "Penelope-argyrotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Penelope_argyrotis",
+  "ebird": "https://ebird.org/species/batgua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2072",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_guan",
+   "es": "https://es.wikipedia.org/wiki/Penelope_argyrotis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Penelope+argyrotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Guan",
+  "en_aco": "Band-tailed Guan",
+  "es": "Pava Camata",
+  "ru": "Белолобая пенелопа"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Penelope argyrotis",
+ "sci_name_aco": "Penelope argyrotis",
+ "sounds": [],
+ "taxon_order": 873.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 3050,
+   "min": 550,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 798,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Band-tailed%20Guan%20127%20DSC1337-kl.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Annals%20of%20the%20Carnegie%20Museum%20%281922%29%20%2818413004515%29.jpg"
+ ]
+}

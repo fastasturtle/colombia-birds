@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grasal3",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Saltator",
+ "id": "saltator-coerulescens",
+ "ids": {
+  "avibase": "6D75BBB8FAC41AB3",
+  "birdbase": 36906,
+  "gbif": 9819034,
+  "inaturalist": "9850",
+  "iucn": "103812647",
+  "wikidata": "Q531938",
+  "xeno_canto": "Saltator-coerulescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Saltator_coerulescens",
+  "ebird": "https://ebird.org/species/grasal3",
+  "inaturalist": "https://www.inaturalist.org/taxa/9850",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bluish-grey_saltator",
+   "es": "https://es.wikipedia.org/wiki/Saltator_coerulescens",
+   "ru": "https://ru.wikipedia.org/wiki/Серый_сальтатор"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saltator+coerulescens"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Bluish-gray Saltator",
+  "en_aco": "Bluish-gray Saltator",
+  "es": "Pepitero Grisáceo del Amazonas",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Saltator coerulescens",
+ "sci_name_aco": "Saltator coerulescens",
+ "sounds": [],
+ "taxon_order": 35813.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 58,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Saltator%20coerulescens%20-%20Greyish%20Saltator.JPG"
+ ]
+}

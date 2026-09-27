@@ -1,0 +1,92 @@
+{
+ "authorship": "(Krabbe, 2017)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samsco1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-gilesi",
+ "ids": {
+  "avibase": null,
+  "birdbase": 9674,
+  "gbif": 10784281,
+  "inaturalist": "574610",
+  "iucn": "155254743",
+  "wikidata": "Q50839744",
+  "xeno_canto": "Megascops-gilesi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_gilesi",
+  "ebird": "https://ebird.org/species/samsco1",
+  "inaturalist": "https://www.inaturalist.org/taxa/574610",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_gilesi",
+   "ru": "https://ru.wikipedia.org/wiki/Megascops_gilesi"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+gilesi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Screech-Owl",
+  "en_aco": "Santa Marta Screech-Owl",
+  "es": "Autillo de Santa Marta",
+  "ru": "Сантамартийская совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops gilesi",
+ "sci_name_aco": "Megascops gilesi",
+ "sounds": [],
+ "taxon_order": 8875.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 132,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megascops%20gilesi%20254622558.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megascops%20gilesi%20%2812763060445%29.jpg"
+ ]
+}

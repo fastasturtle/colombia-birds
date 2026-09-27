@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greani1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Crotophaga",
+ "id": "crotophaga-major",
+ "ids": {
+  "avibase": "0DD11B7501C1FD3C",
+  "birdbase": 3860,
+  "gbif": 2496210,
+  "inaturalist": "1970",
+  "iucn": "22684431",
+  "wikidata": "Q730129",
+  "xeno_canto": "Crotophaga-major"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crotophaga_major",
+  "ebird": "https://ebird.org/species/greani1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1970",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greater_ani",
+   "es": "https://es.wikipedia.org/wiki/Crotophaga_major",
+   "ru": "https://ru.wikipedia.org/wiki/Большой_ани"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crotophaga+major"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Greater Ani",
+  "en_aco": "Greater Ani",
+  "es": "Garrapatero Mayor",
+  "ru": "Большая ани"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Crotophaga major",
+ "sci_name_aco": "Crotophaga major",
+ "sounds": [],
+ "taxon_order": 3025.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 184.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Greater%20ani%20%28Crotophaga%20major%29%20Rio%20Napo.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(S.F. Baird, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ybsvir1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireolanius",
+ "id": "vireolanius-eximius",
+ "ids": {
+  "avibase": "5482299A49323FB2",
+  "birdbase": 21386,
+  "gbif": 2487486,
+  "inaturalist": "17416",
+  "iucn": "22705138",
+  "wikidata": "Q3727625",
+  "xeno_canto": "Vireolanius-eximius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireolanius_eximius",
+  "ebird": "https://ebird.org/species/ybsvir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17416",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-browed_shrike-vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireolanius_eximius",
+   "ru": "https://ru.wikipedia.org/wiki/Vireolanius_eximius"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireolanius+eximius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-browed Shrike-Vireo",
+  "en_aco": "Yellow-browed Shrike-Vireo",
+  "es": "Vireón Cejiamarillo",
+  "ru": "Желтобровый сорокопутовый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireolanius eximius",
+ "sci_name_aco": "Vireolanius eximius",
+ "sounds": [],
+ "taxon_order": 19113.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1700,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 29,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireolanius%20eximius%20-%20Yellow-browed%20Shrike-Vireo%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/VireolaniusIcterophrysWolf.jpg"
+ ]
+}

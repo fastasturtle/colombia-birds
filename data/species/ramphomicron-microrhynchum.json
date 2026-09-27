@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pubtho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Ramphomicron",
+ "id": "ramphomicron-microrhynchum",
+ "ids": {
+  "avibase": "B2CD184B3E446FFA",
+  "birdbase": 2987,
+  "gbif": 2476052,
+  "inaturalist": "6297",
+  "iucn": "22687984",
+  "wikidata": "Q903066",
+  "xeno_canto": "Ramphomicron-microrhynchum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphomicron_microrhynchum",
+  "ebird": "https://ebird.org/species/pubtho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6297",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple-backed_thornbill",
+   "es": "https://es.wikipedia.org/wiki/Ramphomicron_microrhynchum",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурноспинный_короткоклювый_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphomicron+microrhynchum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple-backed Thornbill",
+  "en_aco": "Purple-backed Thornbill",
+  "es": "Colibrí Piquicorto Común",
+  "ru": "Пурпурный короткоклюв"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Ramphomicron microrhynchum",
+ "sci_name_aco": "Ramphomicron microrhynchum",
+ "sounds": [],
+ "taxon_order": 4516.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "grassland"
+  ],
+  "mass_g": 3.3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple-backed%20Thornbill%20%28Ramphomicron%20microrhynchum%29%20%288079763797%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple-backed%20Thornbill%20%28Ramphomicron%20microrhynchum%29.jpg"
+ ]
+}

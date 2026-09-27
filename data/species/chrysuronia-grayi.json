@@ -1,0 +1,97 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blhsap1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysuronia",
+ "id": "chrysuronia-grayi",
+ "ids": {
+  "avibase": "D4920C9260830EEF",
+  "birdbase": 3663,
+  "gbif": 11038734,
+  "inaturalist": "5975",
+  "iucn": null,
+  "wikidata": "Q882949",
+  "xeno_canto": "Hylocharis-grayi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chrysuronia_grayi",
+  "ebird": "https://ebird.org/species/blhsap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5975",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-headed_sapphire",
+   "es": "https://es.wikipedia.org/wiki/Chrysuronia_grayi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysuronia+grayi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-headed Sapphire",
+  "en_aco": "Blue-headed Sapphire",
+  "es": "Amazilia Cabeciazul",
+  "ru": "Синеголовый сапфир"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysuronia grayi",
+ "sci_name_aco": "Chrysuronia grayi",
+ "sounds": [],
+ "taxon_order": 5159.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2600,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 5.6499999999999995,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylocharis%20grayi%20Gould.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-headed%20Sapphire%20-%20Colombia.jpg"
+ ]
+}

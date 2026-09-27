@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1878)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wrbfin1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-leucopis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35674,
+  "gbif": 2491439,
+  "inaturalist": "10327",
+  "iucn": "22721424",
+  "wikidata": "Q2226731",
+  "xeno_canto": "Atlapetes-leucopis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_leucopis",
+  "ebird": "https://ebird.org/species/wrbfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10327",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-rimmed_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_leucopis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+leucopis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-rimmed Brushfinch",
+  "en_aco": "White-rimmed Brushfinch",
+  "es": "Atlapetes Embridado",
+  "ru": "Очковая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes leucopis",
+ "sci_name_aco": "Atlapetes leucopis",
+ "sounds": [],
+ "taxon_order": 33469.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": 3200,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 43,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/BuarremonLeucopisSmit.jpg"
+ ]
+}

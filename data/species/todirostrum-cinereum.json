@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cotfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Todirostrum",
+ "id": "todirostrum-cinereum",
+ "ids": {
+  "avibase": "E3F6238ACC609014",
+  "birdbase": 17482,
+  "gbif": 2483274,
+  "inaturalist": "17148",
+  "iucn": "22699027",
+  "wikidata": "Q619229",
+  "xeno_canto": "Todirostrum-cinereum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Todirostrum_cinereum",
+  "ebird": "https://ebird.org/species/cotfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17148",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Todirostrum_cinereum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Todirostrum+cinereum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Tody-Flycatcher",
+  "en_aco": "Common Tody-Flycatcher",
+  "es": "Titirijí Común",
+  "ru": "Желтобрюхий тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Todirostrum cinereum",
+ "sci_name_aco": "Todirostrum cinereum",
+ "sounds": [],
+ "taxon_order": 16429.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 6.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Todirostrum%20cinereum.jpg"
+ ]
+}

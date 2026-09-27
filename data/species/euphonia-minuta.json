@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whveup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-minuta",
+ "ids": {
+  "avibase": "A243C1D2977F227F",
+  "birdbase": 34834,
+  "gbif": 2488004,
+  "inaturalist": "9293",
+  "iucn": "22722760",
+  "wikidata": "Q1300976",
+  "xeno_canto": "Euphonia-minuta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_minuta",
+  "ebird": "https://ebird.org/species/whveup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9293",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-vented_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_minuta",
+   "ru": "https://ru.wikipedia.org/wiki/Белобрюхая_эуфония"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+minuta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-vented Euphonia",
+  "en_aco": "White-vented Euphonia",
+  "es": "Eufonia Culiblanca",
+  "ru": "Белогузая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia minuta",
+ "sci_name_aco": "Euphonia minuta",
+ "sounds": [],
+ "taxon_order": 32022.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.7,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Euphonia%20minuta%20-%20White-vented%20Euphonia%20%28male%29%3B%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

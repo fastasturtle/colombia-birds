@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral incierto | Residente",
+  "status": [
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Austral? - Residente",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "bratea1",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Amazonetta",
+ "id": "amazonetta-brasiliensis",
+ "ids": {
+  "avibase": "DDFC6B2BE011ECC5",
+  "birdbase": 366,
+  "gbif": 2498411,
+  "inaturalist": "7182",
+  "iucn": "22680115",
+  "wikidata": "Q456423",
+  "xeno_canto": "Amazonetta-brasiliensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazonetta_brasiliensis",
+  "ebird": "https://ebird.org/species/bratea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7182",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brazilian_teal",
+   "es": "https://es.wikipedia.org/wiki/Amazonetta_brasiliensis",
+   "ru": "https://ru.wikipedia.org/wiki/Амазонский_чирок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazonetta+brasiliensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brazilian Teal",
+  "en_aco": "Brazilian Teal",
+  "es": "Pato Brasileño",
+  "ru": "Бразильский чирок"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Amazonetta brasiliensis",
+ "sci_name_aco": "Amazonetta brasiliensis",
+ "sounds": [],
+ "taxon_order": 461.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 468,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazonetta%20brasiliensis.jpg"
+ ]
+}

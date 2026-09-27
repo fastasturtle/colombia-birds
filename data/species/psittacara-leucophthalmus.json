@@ -1,0 +1,97 @@
+{
+ "authorship": "(Müller & Pls, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whepar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Psittacara",
+ "id": "psittacara-leucophthalmus",
+ "ids": {
+  "avibase": "53A45E877F3A5DFF",
+  "birdbase": 13578,
+  "gbif": 8317396,
+  "inaturalist": "367573",
+  "iucn": "22685682",
+  "wikidata": "Q27075005",
+  "xeno_canto": "Psittacara-leucophthalmus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Psittacara_leucophthalmus",
+  "ebird": "https://ebird.org/species/whepar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367573",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-eyed_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Psittacara_leucophthalmus",
+   "ru": "https://ru.wikipedia.org/wiki/Белоглазая_аратинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Psittacara+leucophthalmus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-eyed Parakeet",
+  "en_aco": "White-eyed Parakeet",
+  "es": "Aratinga Ojiblanca",
+  "ru": "Белоглазая аратинга"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Psittacara leucophthalmus",
+ "sci_name_aco": "Psittacara leucophthalmus",
+ "sounds": [],
+ "taxon_order": 13205.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 159,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aratinga%20leucophthalma%20-Reserva%20Guainumbi%2C%20Sao%20Luis%20do%20Paraitinga%2C%20Sao%20Paulo%2C%20Brasil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aratinga%20leucophthalma%20-Piraju%20-Brazil-8.jpg"
+ ]
+}

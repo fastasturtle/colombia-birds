@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1883)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slaela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-strepera",
+ "ids": {
+  "avibase": "7DDAC0D3403DD30F",
+  "birdbase": 16957,
+  "gbif": 5229631,
+  "inaturalist": "16720",
+  "iucn": "22699277",
+  "wikidata": "Q581413",
+  "xeno_canto": "Elaenia-strepera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_strepera",
+  "ebird": "https://ebird.org/species/slaela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16720",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_strepera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+strepera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty Elaenia",
+  "en_aco": "Slaty Elaenia",
+  "es": "Fiofío Plomizo",
+  "ru": "Дымчатая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia strepera",
+ "sci_name_aco": "Elaenia strepera",
+ "sounds": [],
+ "taxon_order": 16690.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 18.075,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elaenia%20strepera%20201366841.jpg"
+ ]
+}

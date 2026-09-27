@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wibwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Microcerculus",
+ "id": "microcerculus-bambla",
+ "ids": {
+  "avibase": "E4221D69BFAF755C",
+  "birdbase": 29371,
+  "gbif": 2493834,
+  "inaturalist": "7639",
+  "iucn": "22711551",
+  "wikidata": "Q917093",
+  "xeno_canto": "Microcerculus-bambla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Microcerculus_bambla",
+  "ebird": "https://ebird.org/species/wibwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7639",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wing-banded_wren",
+   "es": "https://es.wikipedia.org/wiki/Microcerculus_bambla",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microcerculus+bambla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wing-banded Wren",
+  "en_aco": "Wing-banded Wren",
+  "es": "Cucarachero Alifranjeado",
+  "ru": "Полосатокрылый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Microcerculus bambla",
+ "sci_name_aco": "Microcerculus bambla",
+ "sounds": [],
+ "taxon_order": 27176.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Microcerculus%20bambla%20Wing-banded%20Wren%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Microcerculus%20bamblaDraw.jpg"
+ ]
+}

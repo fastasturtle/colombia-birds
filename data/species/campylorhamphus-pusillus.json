@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brbscy1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Campylorhamphus",
+ "id": "campylorhamphus-pusillus",
+ "ids": {
+  "avibase": "D285B68F130B5265",
+  "birdbase": 14839,
+  "gbif": 2485937,
+  "inaturalist": "11190",
+  "iucn": "22703191",
+  "wikidata": "Q1264048",
+  "xeno_canto": "Campylorhamphus-pusillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylorhamphus_pusillus",
+  "ebird": "https://ebird.org/species/brbscy1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11190",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-billed_scythebill",
+   "es": "https://es.wikipedia.org/wiki/Campylorhamphus_pusillus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylorhamphus+pusillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-billed Scythebill",
+  "en_aco": "Brown-billed Scythebill",
+  "es": "Picoguadaña Andino",
+  "ru": "Буроклювый дугоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Campylorhamphus pusillus",
+ "sci_name_aco": "Campylorhamphus pusillus",
+ "sounds": [],
+ "taxon_order": 14912.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2500,
+   "min": 600,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 40,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylorhamphus%20pusillus%20-%20Brown-billed%20Scythebill%201%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylorhamphus%20pusillus.jpg"
+ ]
+}

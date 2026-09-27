@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bufpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Touit",
+ "id": "touit-dilectissimus",
+ "ids": {
+  "avibase": "D8C977FC360ED0D5",
+  "birdbase": 13150,
+  "gbif": 2480138,
+  "inaturalist": "73510",
+  "iucn": "22686021",
+  "wikidata": "Q1270783",
+  "xeno_canto": "Touit-dilectissimus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Touit_dilectissimus",
+  "ebird": "https://ebird.org/species/bufpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73510",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-fronted_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Touit_dilectissimus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Touit+dilectissimus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-fronted Parrotlet",
+  "en_aco": "Blue-fronted Parrotlet",
+  "es": "Cotorrita Cariazul",
+  "ru": "Синелобый туети"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Touit dilectissimus",
+ "sci_name_aco": "Touit dilectissimus",
+ "sounds": [],
+ "taxon_order": 12797.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 3000,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 65,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/UrochromaDilectissimaSmit.jpg"
+ ]
+}

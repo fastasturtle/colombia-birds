@@ -1,0 +1,100 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grtgra",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Quiscalus",
+ "id": "quiscalus-mexicanus",
+ "ids": {
+  "avibase": "5CBA339176A501A5",
+  "birdbase": 36068,
+  "gbif": 9476062,
+  "inaturalist": "9607",
+  "iucn": "22724308",
+  "wikidata": "Q1234856",
+  "xeno_canto": "Quiscalus-mexicanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Quiscalus_mexicanus",
+  "ebird": "https://ebird.org/species/grtgra",
+  "inaturalist": "https://www.inaturalist.org/taxa/9607",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great-tailed_grackle",
+   "es": "https://es.wikipedia.org/wiki/Quiscalus_mexicanus",
+   "ru": "https://ru.wikipedia.org/wiki/Большехвостый_гракл"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Quiscalus+mexicanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great-tailed Grackle",
+  "en_aco": "Great-tailed Grackle",
+  "es": "Zanate Mexicano",
+  "ru": "Большехвостый гракл"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Quiscalus mexicanus",
+ "sci_name_aco": "Quiscalus mexicanus",
+ "sounds": [],
+ "taxon_order": 33864.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 8,
+  "habitats": [
+   "bamboo",
+   "shrubland",
+   "grassland",
+   "desert",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 167.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Artificial",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grackle%20%2851135251724%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Quiscalus%20mexicanus%2C%20female%2C%20Santa%20Cruz%20Huatulco%2C%20Oaxaca%2C%20M%C3%A9xico.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Great-tailed%20Grackle%2C%20Huauchinango%2C%20Puebla%2C%20Mexico%20%28148541059%29.jpg"
+ ]
+}

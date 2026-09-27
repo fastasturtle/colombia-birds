@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whhwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Campylorhynchus",
+ "id": "campylorhynchus-albobrunneus",
+ "ids": {
+  "avibase": "75EAF2CAB569ACF8",
+  "birdbase": 28859,
+  "gbif": 5231470,
+  "inaturalist": "7475",
+  "iucn": "22711316",
+  "wikidata": "Q1586950",
+  "xeno_canto": "Campylorhynchus-albobrunneus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylorhynchus_albobrunneus",
+  "ebird": "https://ebird.org/species/whhwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7475",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-headed_wren",
+   "es": "https://es.wikipedia.org/wiki/Campylorhynchus_albobrunneus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylorhynchus+albobrunneus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-headed Wren",
+  "en_aco": "White-headed Wren",
+  "es": "Cucarachero Cabeciblanco",
+  "ru": "Белоголовый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Campylorhynchus albobrunneus",
+ "sci_name_aco": "Campylorhynchus albobrunneus",
+ "sounds": [],
+ "taxon_order": 27380.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 33.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-headed%20Wren.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whmtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Arundinicola",
+ "id": "arundinicola-leucocephala",
+ "ids": {
+  "avibase": "9C4B6D6D67B8AF28",
+  "birdbase": 17904,
+  "gbif": 2482671,
+  "inaturalist": "17333",
+  "iucn": "22700291",
+  "wikidata": "Q778373",
+  "xeno_canto": "Arundinicola-leucocephala"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Arundinicola_leucocephala",
+  "ebird": "https://ebird.org/species/whmtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17333",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-headed_marsh_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Arundinicola_leucocephala",
+   "ru": "https://ru.wikipedia.org/wiki/Тростниковый_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arundinicola+leucocephala"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-headed Marsh Tyrant",
+  "en_aco": "White-headed Marsh Tyrant",
+  "es": "Viudita Cabeciblanca",
+  "ru": "Белоголовый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Arundinicola leucocephala",
+ "sci_name_aco": "Arundinicola leucocephala",
+ "sounds": [],
+ "taxon_order": 17159.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 13.533333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arundinicola%20leucocephala%20-Piraju%2C%20Sao%20Paulo%2C%20Brasil%20-female-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arundinicola%20leucocephala%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil%20-male-8.jpg"
+ ]
+}

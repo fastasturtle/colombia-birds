@@ -1,0 +1,95 @@
+{
+ "authorship": "(Fraser, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tousun1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliangelus",
+ "id": "heliangelus-exortis",
+ "ids": {
+  "avibase": "D13C5D606F4DE1C8",
+  "birdbase": 2879,
+  "gbif": 2476708,
+  "inaturalist": "6199",
+  "iucn": "22687893",
+  "wikidata": "Q1263086",
+  "xeno_canto": "Heliangelus-exortis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliangelus_exortis",
+  "ebird": "https://ebird.org/species/tousun1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6199",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tourmaline_sunangel",
+   "es": "https://es.wikipedia.org/wiki/Heliangelus_exortis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliangelus+exortis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tourmaline Sunangel",
+  "en_aco": "Tourmaline Sunangel",
+  "es": "Colibrí Turmalina",
+  "ru": "Турмалиновый феб"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliangelus exortis",
+ "sci_name_aco": "Heliangelus exortis",
+ "sounds": [],
+ "taxon_order": 4414.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": null,
+   "min": 2300,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 5.3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tourmaline%20Sunangel%20RWD2b.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tourmaline%20sunangel%20%28Heliangelus%20exortis%29%20male%20Caldas%202.jpg"
+ ]
+}

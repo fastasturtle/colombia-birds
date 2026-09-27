@@ -1,0 +1,90 @@
+{
+ "authorship": "(Griscom, 1924)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tabtan1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Chlorospingus",
+ "id": "chlorospingus-tacarcunae",
+ "ids": {
+  "avibase": "433EF57BF8495817",
+  "birdbase": 35118,
+  "gbif": 2488750,
+  "inaturalist": "10215",
+  "iucn": "22722167",
+  "wikidata": "Q1301462",
+  "xeno_canto": "Chlorospingus-tacarcunae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorospingus_tacarcunae",
+  "ebird": "https://ebird.org/species/tabtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10215",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tacarcuna_chlorospingus",
+   "es": "https://es.wikipedia.org/wiki/Chlorospingus_tacarcunae",
+   "ru": "https://ru.wikipedia.org/wiki/Такаркунская_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorospingus+tacarcunae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tacarcuna Chlorospingus",
+  "en_aco": "Tacarcuna Chlorospingus",
+  "es": "Clorospingo del Tacarcuna",
+  "ru": "Такаркунский дромник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorospingus tacarcunae",
+ "sci_name_aco": "Chlorospingus tacarcunae",
+ "sounds": [],
+ "taxon_order": 32899.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1440,
+   "max_extreme": null,
+   "min": 840,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 18.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crecur2",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Mitu",
+ "id": "mitu-tomentosum",
+ "ids": {
+  "avibase": "5C20314DD579BB92",
+  "birdbase": 739,
+  "gbif": 2482282,
+  "inaturalist": "73058",
+  "iucn": "22678464",
+  "wikidata": "Q1264409",
+  "xeno_canto": "Mitu-tomentosum"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mitu_tomentosum",
+  "ebird": "https://ebird.org/species/crecur2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73058",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crestless_curassow",
+   "es": "https://es.wikipedia.org/wiki/Mitu_tomentosum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mitu+tomentosum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crestless Curassow",
+  "en_aco": "Crestless Curassow",
+  "es": "Paují Culicastaño",
+  "ru": "Малый гокко"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Mitu tomentosum",
+ "sci_name_aco": "Mitu tomentosum",
+ "sounds": [],
+ "taxon_order": 925.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 2268.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mitu%20tomentosum.jpg"
+ ]
+}

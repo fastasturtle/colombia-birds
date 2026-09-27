@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "snakit",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Rostrhamus",
+ "id": "rostrhamus-sociabilis",
+ "ids": {
+  "avibase": "6E4430A893DBCBFF",
+  "birdbase": 8700,
+  "gbif": 2480415,
+  "inaturalist": "5349",
+  "iucn": "22695048",
+  "wikidata": "Q839657",
+  "xeno_canto": "Rostrhamus-sociabilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rostrhamus_sociabilis",
+  "ebird": "https://ebird.org/species/snakit",
+  "inaturalist": "https://www.inaturalist.org/taxa/5349",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Snail_kite",
+   "es": "https://es.wikipedia.org/wiki/Rostrhamus_sociabilis",
+   "ru": "https://ru.wikipedia.org/wiki/Коршун-слизнеед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rostrhamus+sociabilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Snail Kite",
+  "en_aco": "Snail Kite",
+  "es": "Caracolero Común",
+  "ru": "Коршун-слизнеед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Rostrhamus sociabilis",
+ "sci_name_aco": "Rostrhamus sociabilis",
+ "sounds": [],
+ "taxon_order": 8403.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 375.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/087%20Male%20Snail%20kite%20in%20Encontro%20das%20%C3%81guas%20State%20Park%20Photo%20by%20Giles%20Laurent.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rostrhamus%20sociabilis%20sitting.jpg"
+ ]
+}

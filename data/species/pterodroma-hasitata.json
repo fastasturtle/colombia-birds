@@ -1,0 +1,94 @@
+{
+ "authorship": "(Kuhl, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkcpet",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Pterodroma",
+ "id": "pterodroma-hasitata",
+ "ids": {
+  "avibase": "DCD73C3AFC4BDD4B",
+  "birdbase": 7498,
+  "gbif": 2481477,
+  "inaturalist": "4029",
+  "iucn": "22698092",
+  "wikidata": "Q1264430",
+  "xeno_canto": "Pterodroma-hasitata"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pterodroma_hasitata",
+  "ebird": "https://ebird.org/species/bkcpet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4029",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-capped_petrel",
+   "es": "https://es.wikipedia.org/wiki/Pterodroma_hasitata",
+   "ru": "https://ru.wikipedia.org/wiki/Черношапочный_тайфунник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pterodroma+hasitata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-capped Petrel",
+  "en_aco": "Black-capped Petrel",
+  "es": "Petrel Antillano",
+  "ru": "Черношапочный тайфунник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Pterodroma hasitata",
+ "sci_name_aco": "Pterodroma hasitata",
+ "sounds": [],
+ "taxon_order": 7130.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2350,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "riparian",
+   "rivers_lakes",
+   "sea"
+  ],
+  "mass_g": 443.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pterodroma%20hasitataPCCA20070623-3608B.jpg"
+ ]
+}

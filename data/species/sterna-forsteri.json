@@ -1,0 +1,94 @@
+{
+ "authorship": "(Nuttall, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "forter",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sterna",
+ "id": "sterna-forsteri",
+ "ids": {
+  "avibase": "D13B91229B2F157E",
+  "birdbase": 7019,
+  "gbif": 5229247,
+  "inaturalist": "4457",
+  "iucn": "22694646",
+  "wikidata": "Q430529",
+  "xeno_canto": "Sterna-forsteri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sterna_forsteri",
+  "ebird": "https://ebird.org/species/forter",
+  "inaturalist": "https://www.inaturalist.org/taxa/4457",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Forster's_tern",
+   "es": "https://es.wikipedia.org/wiki/Sterna_forsteri",
+   "ru": "https://ru.wikipedia.org/wiki/Крачка_Форстера"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sterna+forsteri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Forster's Tern",
+  "en_aco": "Forster's Tern",
+  "es": "Charrán de Forster",
+  "ru": "Черноухая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sterna forsteri",
+ "sci_name_aco": "Sterna forsteri",
+ "sounds": [],
+ "taxon_order": 6731.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 151.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Forster%27s%20Tern.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Forster%27s%20Tern%2C%20Horicon%20NWR%2C%20Wisconsin.jpg"
+ ]
+}

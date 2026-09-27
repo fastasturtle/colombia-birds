@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.T. Zimmer, 1931)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blaant5",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Cercomacroides",
+ "id": "cercomacroides-fuscicauda",
+ "ids": {
+  "avibase": "C9654C4022678478",
+  "birdbase": 16268,
+  "gbif": 8029817,
+  "inaturalist": "558493",
+  "iucn": null,
+  "wikidata": "Q20720985",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cercomacra_fuscicauda",
+  "ebird": "https://ebird.org/species/blaant5",
+  "inaturalist": "https://www.inaturalist.org/taxa/558493",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cercomacroides+fuscicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Riparian Antbird",
+  "en_aco": "Riparian Antbird",
+  "es": "Hormiguero Ribereño",
+  "ru": "Речная муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cercomacroides fuscicauda",
+ "sci_name_aco": "Cercomacroides fuscicauda",
+ "sounds": [],
+ "taxon_order": 13922.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 850,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cercomacroides%20fuscicauda%20-%20Riparian%20antbird%20%28female%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cercomacroides%20fuscicauda%20Riparian%20Antbird%20%28male%29%3B%20Ramal%20do%20Noca%2C%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

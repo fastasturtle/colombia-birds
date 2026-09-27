@@ -1,0 +1,95 @@
+{
+ "authorship": "(Des Murs, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "eardov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Zenaida",
+ "id": "zenaida-auriculata",
+ "ids": {
+  "avibase": "71958FA9547209D0",
+  "birdbase": 5036,
+  "gbif": 2495358,
+  "inaturalist": "3439",
+  "iucn": "22690747",
+  "wikidata": "Q1006452",
+  "xeno_canto": "Zenaida-auriculata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zenaida_auriculata",
+  "ebird": "https://ebird.org/species/eardov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3439",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Eared_dove",
+   "es": "https://es.wikipedia.org/wiki/Zenaida_auriculata",
+   "ru": "https://ru.wikipedia.org/wiki/Ушастая_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zenaida+auriculata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Eared Dove",
+  "en_aco": "Eared Dove",
+  "es": "Zenaida Torcaza",
+  "ru": "Ушастая горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Zenaida auriculata",
+ "sci_name_aco": "Zenaida auriculata",
+ "sounds": [],
+ "taxon_order": 2400.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 4400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 117.83333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aruba-Zenaida-auriculata.JPG"
+ ]
+}

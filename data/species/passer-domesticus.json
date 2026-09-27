@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": true,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "introduced"
+  ],
+  "status_raw": "Exótica establecida",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "houspa",
+ "family": {
+  "code": "passer4",
+  "en": "Old World Sparrows",
+  "sci": "Passeridae"
+ },
+ "genus": "Passer",
+ "id": "passer-domesticus",
+ "ids": {
+  "avibase": "240E33900CE34D44",
+  "birdbase": 32939,
+  "gbif": 5231190,
+  "inaturalist": "13858",
+  "iucn": "103818789",
+  "wikidata": "Q14683",
+  "xeno_canto": "Passer domesticus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Passer_domesticus",
+  "ebird": "https://ebird.org/species/houspa",
+  "inaturalist": "https://www.inaturalist.org/taxa/13858",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/House_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Passer_domesticus",
+   "ru": "https://ru.wikipedia.org/wiki/Домовый_воробей"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Passer+domesticus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "House Sparrow",
+  "en_aco": "House Sparrow",
+  "es": "Gorrión Común",
+  "ru": "Домовый воробей"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Passer domesticus",
+ "sci_name_aco": "Passer domesticus",
+ "sounds": [],
+ "taxon_order": 31534.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4600,
+   "max_extreme": 4900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 27.439999999999998,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Artificial",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/House%20sparrow%20male%20in%20Prospect%20Park%20%2853532%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/House%20Sparrow%2C%20England%20-%20May%2009.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bobfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Megarynchus",
+ "id": "megarynchus-pitangua",
+ "ids": {
+  "avibase": "8118C647F026C0A7",
+  "birdbase": 18040,
+  "gbif": 2483410,
+  "inaturalist": "16737",
+  "iucn": "22700533",
+  "wikidata": "Q876231",
+  "xeno_canto": "Megarynchus-pitangua"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megarynchus_pitangua",
+  "ebird": "https://ebird.org/species/bobfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16737",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Boat-billed_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Megarynchus_pitangua",
+   "ru": "https://ru.wikipedia.org/wiki/Лодкоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megarynchus+pitangua"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Boat-billed Flycatcher",
+  "en_aco": "Boat-billed Flycatcher",
+  "es": "Bienteveo Pitanguá",
+  "ru": "Челноклювый бентеви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Megarynchus pitangua",
+ "sci_name_aco": "Megarynchus pitangua",
+ "sounds": [],
+ "taxon_order": 17379.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1850,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 67.16666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Boat-billed%20flycatcher.jpg"
+ ]
+}

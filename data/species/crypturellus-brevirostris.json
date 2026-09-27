@@ -1,0 +1,89 @@
+{
+ "authorship": "(Pelzeln, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rustin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-brevirostris",
+ "ids": {
+  "avibase": "45EE168A01B5B40E",
+  "birdbase": 146,
+  "gbif": 2477532,
+  "inaturalist": "20551",
+  "iucn": "22678226",
+  "wikidata": "Q1269697",
+  "xeno_canto": "Crypturellus-brevirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/rustin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20551",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_brevirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Ржавчатый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+brevirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rusty Tinamou",
+  "en_aco": "Rusty Tinamou",
+  "es": "Tinamú Herrumbroso",
+  "ru": "Ржавчатый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus brevirostris",
+ "sci_name_aco": "Crypturellus brevirostris",
+ "sounds": [],
+ "taxon_order": 173.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 273.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

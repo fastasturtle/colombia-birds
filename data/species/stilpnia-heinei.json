@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Stilpnia",
+ "id": "stilpnia-heinei",
+ "ids": {
+  "avibase": "41A0DB768C440C9F",
+  "birdbase": 37844,
+  "gbif": 10913109,
+  "inaturalist": "9567",
+  "iucn": "22722936",
+  "wikidata": "Q918308",
+  "xeno_canto": "Tangara-heinei"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_heinei",
+  "ebird": "https://ebird.org/species/blctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9567",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-capped_tanager",
+   "es": "https://es.wikipedia.org/wiki/Stilpnia_heinei",
+   "ru": "https://ru.wikipedia.org/wiki/Черноголовая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+heinei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-capped Tanager",
+  "en_aco": "Black-capped Tanager",
+  "es": "Tangara Coroninegra",
+  "ru": "Сиреневоспинная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stilpnia heinei",
+ "sci_name_aco": "Stilpnia heinei",
+ "sounds": [],
+ "taxon_order": 34999.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 20.849999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-capped%20Tanager%20%28f%29%20JCB%20%28cropped%20and%20mirrored%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20heinei%20T%C3%A1ngara%20capirotada%20Black-capped%20Tanager%20%28male%29%20%2810937083674%29.jpg"
+ ]
+}

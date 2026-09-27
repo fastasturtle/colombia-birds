@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ivbara1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Pteroglossus",
+ "id": "pteroglossus-azara",
+ "ids": {
+  "avibase": "B34327A12A71F661",
+  "birdbase": 11202,
+  "gbif": 2478817,
+  "inaturalist": "18589",
+  "iucn": "22735207",
+  "wikidata": "Q1061009",
+  "xeno_canto": "Pteroglossus-azara"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pteroglossus_azara",
+  "ebird": "https://ebird.org/species/ivbara1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18589",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ivory-billed_aracari",
+   "es": "https://es.wikipedia.org/wiki/Pteroglossus_azara",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pteroglossus+azara"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ivory-billed Aracari",
+  "en_aco": "Ivory-billed Aracari",
+  "es": "Arasarí de Azara",
+  "ru": "Красногрудый арасари"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Pteroglossus azara",
+ "sci_name_aco": "Pteroglossus azara",
+ "sounds": [],
+ "taxon_order": 10903.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 146.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ivory-billed%20Aracari%20RWD4.jpg"
+ ]
+}

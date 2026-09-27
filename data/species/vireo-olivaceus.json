@@ -1,0 +1,92 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "reevir1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-olivaceus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 21470,
+  "gbif": 2487430,
+  "inaturalist": "634991",
+  "iucn": null,
+  "wikidata": "Q22113242",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/reevir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/634991",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+olivaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-eyed Vireo",
+  "en_aco": "Red-eyed Vireo",
+  "es": "Vireo Ojirrojo",
+  "ru": "Красноглазый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo olivaceus",
+ "sci_name_aco": "Vireo olivaceus",
+ "sounds": [],
+ "taxon_order": 19267.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 19.19666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

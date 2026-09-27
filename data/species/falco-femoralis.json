@@ -1,0 +1,94 @@
+{
+ "authorship": "(Temminck, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "aplfal",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Falco",
+ "id": "falco-femoralis",
+ "ids": {
+  "avibase": "5EC5BE3F4FBC07F2",
+  "birdbase": 12927,
+  "gbif": 2481006,
+  "inaturalist": "4645",
+  "iucn": "22696450",
+  "wikidata": "Q773651",
+  "xeno_canto": "Falco-femoralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Falco_femoralis",
+  "ebird": "https://ebird.org/species/aplfal",
+  "inaturalist": "https://www.inaturalist.org/taxa/4645",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Aplomado_falcon",
+   "es": "https://es.wikipedia.org/wiki/Falco_femoralis",
+   "ru": "https://ru.wikipedia.org/wiki/Южномексиканский_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Falco+femoralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Aplomado Falcon",
+  "en_aco": "Aplomado Falcon",
+  "es": "Halcón Aleto",
+  "ru": "Апломадо"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Falco femoralis",
+ "sci_name_aco": "Falco femoralis",
+ "sounds": [],
+ "taxon_order": 12092.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": 4400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 328.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Falc%C3%A3o%20De%20Coleira%20Aplomado%20Falcon%20Falco%20Femoralis%20%2845602460%29.jpeg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lesson, 1828)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "siwgua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Chamaepetes",
+ "id": "chamaepetes-goudotii",
+ "ids": {
+  "avibase": "B019CEB915F5ECD7",
+  "birdbase": 730,
+  "gbif": 2482183,
+  "inaturalist": "2076",
+  "iucn": "22678446",
+  "wikidata": "Q1078580",
+  "xeno_canto": "Chamaepetes-goudotii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chamaepetes_goudotii",
+  "ebird": "https://ebird.org/species/siwgua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2076",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sickle-winged_guan",
+   "es": "https://es.wikipedia.org/wiki/Chamaepetes_goudotii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chamaepetes+goudotii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sickle-winged Guan",
+  "en_aco": "Sickle-winged Guan",
+  "es": "Pava Falcialar",
+  "ru": "Серпокрылый гуан"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Chamaepetes goudotii",
+ "sci_name_aco": "Chamaepetes goudotii",
+ "sounds": [],
+ "taxon_order": 855.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1100,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 702,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sickle-winged%20Guan.jpg"
+ ]
+}

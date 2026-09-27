@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "oribla1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Gymnomystax",
+ "id": "gymnomystax-mexicanus",
+ "ids": {
+  "avibase": "2F92B33311F71E7D",
+  "birdbase": 36085,
+  "gbif": 2484109,
+  "inaturalist": "10504",
+  "iucn": "22724166",
+  "wikidata": "Q1585911",
+  "xeno_canto": "Gymnomystax-mexicanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gymnomystax_mexicanus",
+  "ebird": "https://ebird.org/species/oribla1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10504",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Oriole_blackbird",
+   "es": "https://es.wikipedia.org/wiki/Gymnomystax_mexicanus",
+   "ru": "https://ru.wikipedia.org/wiki/Иволговый_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gymnomystax+mexicanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Oriole Blackbird",
+  "en_aco": "Oriole Blackbird",
+  "es": "Chango Oriolino",
+  "ru": "Иволговый гракл"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Gymnomystax mexicanus",
+ "sci_name_aco": "Gymnomystax mexicanus",
+ "sounds": [],
+ "taxon_order": 33907.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 950,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 95.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gymnomystax%20mexicanus%20-%20Tordo%20maicero%20-%20Venezuela.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oriole%20Blackbird%2C%20Loreto%2C%20Peru.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blhpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pionus",
+ "id": "pionus-menstruus",
+ "ids": {
+  "avibase": "FF68945E45C9E79A",
+  "birdbase": 13245,
+  "gbif": 2479902,
+  "inaturalist": "19096",
+  "iucn": "45429607",
+  "wikidata": "Q641947",
+  "xeno_canto": "Pionus-menstruus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pionus_menstruus",
+  "ebird": "https://ebird.org/species/blhpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19096",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-headed_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pionus_menstruus",
+   "ru": "https://ru.wikipedia.org/wiki/Синеголовый_красногузый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pionus+menstruus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-headed Parrot",
+  "en_aco": "Blue-headed Parrot",
+  "es": "Loro Cabeciazul",
+  "ru": "Синеголовый амазонет"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pionus menstruus",
+ "sci_name_aco": "Pionus menstruus",
+ "sounds": [],
+ "taxon_order": 12889.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 242.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pionus%20menstruus%20%28Cotorra%20cheja%29%20-%20Flickr%20-%20Alejandro%20Bayer.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-headed%20Parrot%20Cotorra%20Cabeciazul%20%28Pionus%20menstruus%20menstruus%29%20%2826718134883%29.jpg"
+ ]
+}

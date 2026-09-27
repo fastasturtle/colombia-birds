@@ -1,0 +1,94 @@
+{
+ "authorship": "(Fraser, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebeme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorostilbon",
+ "id": "chlorostilbon-gibsoni",
+ "ids": {
+  "avibase": "114CC90EA154A599",
+  "birdbase": 3370,
+  "gbif": 2476063,
+  "inaturalist": "6111",
+  "iucn": "22687342",
+  "wikidata": "Q1273197",
+  "xeno_canto": "Chlorostilbon-gibsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorostilbon_gibsoni",
+  "ebird": "https://ebird.org/species/rebeme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6111",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-billed_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chlorostilbon_gibsoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorostilbon+gibsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-billed Emerald",
+  "en_aco": "Red-billed Emerald",
+  "es": "Esmeralda Piquirroja",
+  "ru": "Красноклювый изумруд"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorostilbon gibsoni",
+ "sci_name_aco": "Chlorostilbon gibsoni",
+ "sounds": [],
+ "taxon_order": 4896.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 3.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-billed%20Emerald%20%28Chlorostilbon%20gibsoni%29%20%288079740325%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-billed%20Emerald%20%28Chlorostilbon%20gibsoni%29.jpg"
+ ]
+}

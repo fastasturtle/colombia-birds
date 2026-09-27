@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swtkit",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Elanoides",
+ "id": "elanoides-forficatus",
+ "ids": {
+  "avibase": "1BAC66452DCC9AC9",
+  "birdbase": 8222,
+  "gbif": 2480461,
+  "inaturalist": "5301",
+  "iucn": "22695017",
+  "wikidata": "Q430540",
+  "xeno_canto": "Elanoides-forficatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elanoides_forficatus",
+  "ebird": "https://ebird.org/species/swtkit",
+  "inaturalist": "https://www.inaturalist.org/taxa/5301",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swallow-tailed_kite",
+   "es": "https://es.wikipedia.org/wiki/Elanoides_forficatus",
+   "ru": "https://ru.wikipedia.org/wiki/Вилохвостый_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elanoides+forficatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swallow-tailed Kite",
+  "en_aco": "Swallow-tailed Kite",
+  "es": "Elanio Tijereta",
+  "ru": "Вилохвостый коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Elanoides forficatus",
+ "sci_name_aco": "Elanoides forficatus",
+ "sounds": [],
+ "taxon_order": 7921.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 438.1666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Swallow-tailed%20Kite%20%2834163638494%29.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "royfly1",
+ "family": {
+  "code": "rfaall1",
+  "en": "Royal Flycatchers and Allies",
+  "sci": "Onychorhynchidae"
+ },
+ "genus": "Onychorhynchus",
+ "id": "onychorhynchus-coronatus",
+ "ids": {
+  "avibase": "659CF5C671B96099",
+  "birdbase": 18646,
+  "gbif": 2483680,
+  "inaturalist": "16462",
+  "iucn": "22699647",
+  "wikidata": "Q81901857",
+  "xeno_canto": "Onychorhynchus-coronatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Onychorhynchus_coronatus",
+  "ebird": "https://ebird.org/species/royfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16462",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tropical_royal_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Onychorhynchus_coronatus",
+   "ru": "https://ru.wikipedia.org/wiki/Амазонский_венценосный_мухоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Onychorhynchus+coronatus"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Tropical Royal Flycatcher",
+  "en_aco": "Royal Flycatcher",
+  "es": "Mosquero Real Amazónico",
+  "ru": "амазонский венценосный мухоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Onychorhynchus coronatus",
+ "sci_name_aco": "Onychorhynchus coronatus",
+ "sounds": [],
+ "taxon_order": 16101.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.950000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Onychorhynchus%20coronatus%20-%20Amazonian%20Royal%20Flycatcher.JPG"
+ ]
+}

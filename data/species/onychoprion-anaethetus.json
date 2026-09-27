@@ -1,0 +1,92 @@
+{
+ "authorship": "(Scopoli, 1786)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "briter1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Onychoprion",
+ "id": "onychoprion-anaethetus",
+ "ids": {
+  "avibase": "E6518B9D5C802F2A",
+  "birdbase": 6959,
+  "gbif": 5789286,
+  "inaturalist": "144527",
+  "iucn": "22694730",
+  "wikidata": "Q28490",
+  "xeno_canto": "Onychoprion-anaethetus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Onychoprion_anaethetus",
+  "ebird": "https://ebird.org/species/briter1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144527",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bridled_tern",
+   "es": "https://es.wikipedia.org/wiki/Onychoprion_anaethetus",
+   "ru": "https://ru.wikipedia.org/wiki/Бурокрылая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Onychoprion+anaethetus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bridled Tern",
+  "en_aco": "Bridled Tern",
+  "es": "Charrán Embridado",
+  "ru": "Бурокрылая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Onychoprion anaethetus",
+ "sci_name_aco": "Onychoprion anaethetus",
+ "sounds": [],
+ "taxon_order": 6673.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "coastal"
+  ],
+  "mass_g": 129.13333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bridled%20Tern%20%28%20Sterna%20anaethetus%20%29%20...%20Great%20Barrier%20Reef%20%2C%20Australia%20%2853374667291%29.jpg"
+ ]
+}

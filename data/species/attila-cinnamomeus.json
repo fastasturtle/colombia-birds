@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cinatt1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Attila",
+ "id": "attila-cinnamomeus",
+ "ids": {
+  "avibase": "A6AB77CAA434DF5C",
+  "birdbase": 18191,
+  "gbif": 2483645,
+  "inaturalist": "16747",
+  "iucn": "22700337",
+  "wikidata": "Q780875",
+  "xeno_canto": "Attila-cinnamomeus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Attila_cinnamomeus",
+  "ebird": "https://ebird.org/species/cinatt1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16747",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon_attila",
+   "es": "https://es.wikipedia.org/wiki/Attila_cinnamomeus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Attila+cinnamomeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon Attila",
+  "en_aco": "Cinnamon Attila",
+  "es": "Atila Canelo",
+  "ru": "Рыжий аттила"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Attila cinnamomeus",
+ "sci_name_aco": "Attila cinnamomeus",
+ "sounds": [],
+ "taxon_order": 17237.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 37.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Attila%20cinnamomeus%20-%20Cinnamon%20Attila%3B%20Caxias%2C%20Maranh%C3%A3o%2C%20Brazil.jpg"
+ ]
+}

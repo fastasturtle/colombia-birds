@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcspa1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Platyrinchus",
+ "id": "platyrinchus-platyrhynchos",
+ "ids": {
+  "avibase": "5A40987FFB535C05",
+  "birdbase": 17600,
+  "gbif": 5229575,
+  "inaturalist": "16221",
+  "iucn": "22699641",
+  "wikidata": "Q839926",
+  "xeno_canto": "Platyrinchus-platyrhynchos"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Platyrinchus_platyrhynchos",
+  "ebird": "https://ebird.org/species/whcspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16221",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-crested_spadebill",
+   "es": "https://es.wikipedia.org/wiki/Platyrinchus_platyrhynchos",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Platyrinchus+platyrhynchos"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-crested Spadebill",
+  "en_aco": "White-crested Spadebill",
+  "es": "Picoplano Crestiblanco",
+  "ru": "Белохохлый плоскоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Platyrinchus platyrhynchos",
+ "sci_name_aco": "Platyrinchus platyrhynchos",
+ "sounds": [],
+ "taxon_order": 16189.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 12.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Platyrinchus%20platyrhynchos%20White-crested%20Spadebill%3B%20Machadinho%20d%27Oeste%2C%20Rond%C3%B4nia%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

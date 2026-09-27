@@ -1,0 +1,91 @@
+{
+ "authorship": "(Du Bus de Gisignies, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wictho2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Discosura",
+ "id": "discosura-popelairii",
+ "ids": {
+  "avibase": "592083CCEFDBED7A",
+  "birdbase": 2897,
+  "gbif": 2476903,
+  "inaturalist": "6398",
+  "iucn": "22687253",
+  "wikidata": "Q1269750",
+  "xeno_canto": "Discosura-popelairii"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Discosura_popelairii",
+  "ebird": "https://ebird.org/species/wictho2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6398",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wire-crested_thorntail",
+   "es": "https://es.wikipedia.org/wiki/Discosura_popelairii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Discosura+popelairii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wire-crested Thorntail",
+  "en_aco": "Wire-crested Thorntail",
+  "es": "Rabudito Crestado",
+  "ru": "Острохохлая шипохвостка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Discosura popelairii",
+ "sci_name_aco": "Discosura popelairii",
+ "sounds": [],
+ "taxon_order": 4433.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 2.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Discosura%20popelairii%20-near%20Manu%20Road%2C%20Peru-8.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufpot1",
+ "family": {
+  "code": "nyctib1",
+  "en": "Potoos",
+  "sci": "Nyctibiidae"
+ },
+ "genus": "Phyllaemulor",
+ "id": "phyllaemulor-bracteatus",
+ "ids": {
+  "avibase": "0B46DD9586BA55C2",
+  "birdbase": 2142,
+  "gbif": 10159747,
+  "inaturalist": "19666",
+  "iucn": null,
+  "wikidata": "Q1259483",
+  "xeno_canto": "Nyctibius-bracteatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctibius_bracteatus",
+  "ebird": "https://ebird.org/species/rufpot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19666",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous_potoo",
+   "es": "https://es.wikipedia.org/wiki/Phyllaemulor_bracteatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phyllaemulor+bracteatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous Potoo",
+  "en_aco": "Rufous Potoo",
+  "es": "Nictibio Rufo",
+  "ru": "Рыжий уратао"
+ },
+ "order": "Nyctibiiformes",
+ "photos": [],
+ "sci_name": "Phyllaemulor bracteatus",
+ "sci_name_aco": "Phyllaemulor bracteatus",
+ "sounds": [],
+ "taxon_order": 3745.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 550,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 50.666666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/NyctibiusBracteatusSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20Potoo.jpg"
+ ]
+}

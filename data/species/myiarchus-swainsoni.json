@@ -1,0 +1,95 @@
+{
+ "authorship": "(Cabanis & Heine, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swafly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-swainsoni",
+ "ids": {
+  "avibase": "EF21F7B5356EB94A",
+  "birdbase": 18129,
+  "gbif": 2483567,
+  "inaturalist": "16029",
+  "iucn": "22700405",
+  "wikidata": "Q1262874",
+  "xeno_canto": "Myiarchus-swainsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_swainsoni",
+  "ebird": "https://ebird.org/species/swafly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16029",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swainson's_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_swainsoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+swainsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swainson's Flycatcher",
+  "en_aco": "Swainson's Flycatcher",
+  "es": "Copetón de Swainson",
+  "ru": "Буланый миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus swainsoni",
+ "sci_name_aco": "Myiarchus swainsoni",
+ "sounds": [],
+ "taxon_order": 17301.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 26.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20swainsoni%20-%20Swainson%27s%20Flycatcher%3B%20Iporanga%2C%20S%C3%A3o%20Paulo%3B%20Brazil.jpg"
+ ]
+}

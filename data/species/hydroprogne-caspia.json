@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pallas, 1770)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "caster1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Hydroprogne",
+ "id": "hydroprogne-caspia",
+ "ids": {
+  "avibase": "BC06BC0D1056BC7B",
+  "birdbase": 7000,
+  "gbif": 2481236,
+  "inaturalist": "144537",
+  "iucn": "22694524",
+  "wikidata": "Q27129",
+  "xeno_canto": "Hydroprogne-caspia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hydroprogne_caspia",
+  "ebird": "https://ebird.org/species/caster1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144537",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Caspian_tern",
+   "es": "https://es.wikipedia.org/wiki/Hydroprogne_caspia",
+   "ru": "https://ru.wikipedia.org/wiki/Чеграва"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydroprogne+caspia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Caspian Tern",
+  "en_aco": "Caspian Tern",
+  "es": "Pagaza Piquirroja",
+  "ru": "Чеграва"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Hydroprogne caspia",
+ "sci_name_aco": "Hydroprogne caspia",
+ "sounds": [],
+ "taxon_order": 6718.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "riparian",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 656,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sterna-caspia-010.jpg"
+ ]
+}

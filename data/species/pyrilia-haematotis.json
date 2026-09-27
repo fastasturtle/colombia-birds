@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brhpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrilia",
+ "id": "pyrilia-haematotis",
+ "ids": {
+  "avibase": "B197D2D105598E5B",
+  "birdbase": 13206,
+  "gbif": 7340177,
+  "inaturalist": "73323",
+  "iucn": "22686097",
+  "wikidata": "Q1062472",
+  "xeno_canto": "Pyrilia-haematotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrilia_haematotis",
+  "ebird": "https://ebird.org/species/brhpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73323",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-hooded_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pyrilia_haematotis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrilia+haematotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-hooded Parrot",
+  "en_aco": "Brown-hooded Parrot",
+  "es": "Lorito Encapuchado",
+  "ru": "Буроголовый лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrilia haematotis",
+ "sci_name_aco": "Pyrilia haematotis",
+ "sounds": [],
+ "taxon_order": 12861.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 147.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown-hooded%20Parrot%20%2816471231772%29.jpg"
+ ]
+}

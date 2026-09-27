@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltbri1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-schreibersii",
+ "ids": {
+  "avibase": "F3CD71B9EC42D902",
+  "birdbase": 3192,
+  "gbif": 2476935,
+  "inaturalist": "5911",
+  "iucn": "45450140",
+  "wikidata": "Q1261008",
+  "xeno_canto": "Heliodoxa-schreibersii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_schreibersii",
+  "ebird": "https://ebird.org/species/bltbri1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5911",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-throated_brilliant",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_schreibersii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+schreibersii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Brilliant",
+  "en_aco": "Black-throated Brilliant",
+  "es": "Brillante Ventrinegro",
+  "ru": "Черногорлый бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa schreibersii",
+ "sci_name_aco": "Heliodoxa schreibersii",
+ "sounds": [],
+ "taxon_order": 4698.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1900,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 8.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliodoxa%20schreibersii.jpg"
+ ]
+}

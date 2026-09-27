@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tortyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Serpophaga",
+ "id": "serpophaga-cinerea",
+ "ids": {
+  "avibase": "F42A12965AFE6BD3",
+  "birdbase": 17074,
+  "gbif": 2483963,
+  "inaturalist": "17206",
+  "iucn": "22699331",
+  "wikidata": "Q1260494",
+  "xeno_canto": "Serpophaga-cinerea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Serpophaga_cinerea",
+  "ebird": "https://ebird.org/species/tortyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17206",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Torrent_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Serpophaga_cinerea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Serpophaga+cinerea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Torrent Tyrannulet",
+  "en_aco": "Torrent Tyrannulet",
+  "es": "Piojito Guardarríos",
+  "ru": "Серый пиохито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Serpophaga cinerea",
+ "sci_name_aco": "Serpophaga cinerea",
+ "sounds": [],
+ "taxon_order": 16746.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": 3700,
+   "min": 100,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 7.8500000000000005,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Serpophaga%20cinnerea%20%28Tiranuelo%20de%20los%20torrentes%29%20-%20Flickr%20-%20Alejandro%20Bayer%20%282%29.jpg"
+ ]
+}

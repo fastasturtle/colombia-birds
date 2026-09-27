@@ -1,0 +1,94 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grethr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-fuscater",
+ "ids": {
+  "avibase": "23C068E4B4FA96AD",
+  "birdbase": 30727,
+  "gbif": 2490717,
+  "inaturalist": "12781",
+  "iucn": "22708848",
+  "wikidata": "Q1067396",
+  "xeno_canto": "Turdus-fuscater"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_fuscater",
+  "ebird": "https://ebird.org/species/grethr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12781",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_fuscater",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+fuscater"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Thrush",
+  "en_aco": "Great Thrush",
+  "es": "Mirlo Grande",
+  "ru": "Большой дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus fuscater",
+ "sci_name_aco": "Turdus fuscater",
+ "sounds": [],
+ "taxon_order": 28677.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4200,
+   "max_extreme": 4250,
+   "min": 1300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 142.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GreatThrush.jpg"
+ ]
+}

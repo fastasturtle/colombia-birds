@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruthum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysolampis",
+ "id": "chrysolampis-mosquitus",
+ "ids": {
+  "avibase": "0ED012F9F8E9BA80",
+  "birdbase": 2840,
+  "gbif": 2476346,
+  "inaturalist": "6462",
+  "iucn": "22687160",
+  "wikidata": "Q1072367",
+  "xeno_canto": "Chrysolampis-mosquitus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chrysolampis_mosquitus",
+  "ebird": "https://ebird.org/species/ruthum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6462",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruby-topaz_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Chrysolampis_mosquitus",
+   "ru": "https://ru.wikipedia.org/wiki/Рубиновый_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysolampis+mosquitus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruby-topaz Hummingbird",
+  "en_aco": "Ruby-topaz Hummingbird",
+  "es": "Colibrí Rubí",
+  "ru": "Колибри-москит"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysolampis mosquitus",
+ "sci_name_aco": "Chrysolampis mosquitus",
+ "sounds": [],
+ "taxon_order": 4382.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chrysolampis%20mosquitus%20-%20Tiergarten%20Sch%C3%B6nbrunn%202.jpg"
+ ]
+}

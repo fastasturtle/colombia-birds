@@ -1,0 +1,93 @@
+{
+ "authorship": "(Streets, 1877)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chrshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Puffinus",
+ "id": "puffinus-nativitatis",
+ "ids": {
+  "avibase": "EBFA76B40C3EF5F3",
+  "birdbase": 7571,
+  "gbif": 5229340,
+  "inaturalist": "4101",
+  "iucn": "22698222",
+  "wikidata": "Q1269689",
+  "xeno_canto": "Puffinus-nativitatis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Puffinus_nativitatis",
+  "ebird": "https://ebird.org/species/chrshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/4101",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Christmas_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Puffinus_nativitatis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Puffinus+nativitatis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Christmas Shearwater",
+  "en_aco": "Christmas Shearwater",
+  "es": "Pardela de Kiritimati",
+  "ru": "Рождественский буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Puffinus nativitatis",
+ "sci_name_aco": "Puffinus nativitatis",
+ "sounds": [],
+ "taxon_order": 7216.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 10,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "sea",
+   "other"
+  ],
+  "mass_g": 357.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Puffinus%20nav%20flying.JPG"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Sutton, 1928)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pygswi1",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Tachornis",
+ "id": "tachornis-furcata",
+ "ids": {
+  "avibase": "F986369F04DB87D9",
+  "birdbase": 2551,
+  "gbif": 2477430,
+  "inaturalist": "6870",
+  "iucn": "22686747",
+  "wikidata": "Q1271008",
+  "xeno_canto": "Tachornis-furcata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/pygswi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6870",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pygmy_palm_swift",
+   "es": "https://es.wikipedia.org/wiki/Tachornis_furcata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tachornis+furcata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pygmy Palm Swift",
+  "en_aco": "Pygmy Palm Swift",
+  "es": "Vencejillo Venezolano",
+  "ru": "Карликовый стрижик"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Tachornis furcata",
+ "sci_name_aco": "Tachornis furcata",
+ "sounds": [],
+ "taxon_order": 4191.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": null,
+   "max_extreme": null,
+   "min": null,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 6.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

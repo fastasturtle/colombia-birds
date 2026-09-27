@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "redsis1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Spinus",
+ "id": "spinus-cucullatus",
+ "ids": {
+  "avibase": "8B583CC87A1E6FDD",
+  "birdbase": 34775,
+  "gbif": 5845578,
+  "inaturalist": "145314",
+  "iucn": "22720374",
+  "wikidata": "Q27075875",
+  "xeno_canto": "Spinus-cucullatus"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spinus_cucullata",
+  "ebird": "https://ebird.org/species/redsis1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145314",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red_siskin",
+   "es": "https://es.wikipedia.org/wiki/Spinus_cucullatus",
+   "ru": "https://ru.wikipedia.org/wiki/Огненный_чиж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spinus+cucullatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red Siskin",
+  "en_aco": "Red Siskin",
+  "es": "Jilguero Rojo",
+  "ru": "Огненный чиж"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spinus cucullatus",
+ "sci_name_aco": "Spinus cucullatus",
+ "sounds": [],
+ "taxon_order": 32634.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1700,
+   "min": 200,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 9.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cucullatamachocolombia.jpg"
+ ]
+}

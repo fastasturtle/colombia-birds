@@ -1,0 +1,92 @@
+{
+ "authorship": "(Temminck, 1815)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brotin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-obsoletus",
+ "ids": {
+  "avibase": "D624C373688A1733",
+  "birdbase": 93,
+  "gbif": 2477535,
+  "inaturalist": "20599",
+  "iucn": "22678176",
+  "wikidata": "Q843266",
+  "xeno_canto": "Crypturellus-obsoletus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_obsoletus",
+  "ebird": "https://ebird.org/species/brotin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20599",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_obsoletus",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+obsoletus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Tinamou",
+  "en_aco": "Brown Tinamou",
+  "es": "Tinamú Café",
+  "ru": "Каштановый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus obsoletus",
+ "sci_name_aco": "Crypturellus obsoletus",
+ "sounds": [],
+ "taxon_order": 159.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3300,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 478.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crypturellus%20obsoletus.jpg"
+ ]
+}

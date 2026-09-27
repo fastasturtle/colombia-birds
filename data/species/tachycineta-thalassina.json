@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vigswa",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Tachycineta",
+ "id": "tachycineta-thalassina",
+ "ids": {
+  "avibase": "75DC49ADA7DBE82B",
+  "birdbase": 25147,
+  "gbif": 5230754,
+  "inaturalist": "11931",
+  "iucn": "22712077",
+  "wikidata": "Q1059968",
+  "xeno_canto": "Tachycineta-thalassina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tachycineta_thalassina",
+  "ebird": "https://ebird.org/species/vigswa",
+  "inaturalist": "https://www.inaturalist.org/taxa/11931",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violet-green_swallow",
+   "es": "https://es.wikipedia.org/wiki/Tachycineta_thalassina",
+   "ru": "https://ru.wikipedia.org/wiki/Фиолетово-зелёная_американская_ласточка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tachycineta+thalassina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violet-green Swallow",
+  "en_aco": "Violet-green Swallow",
+  "es": "Golondrina Verdemar",
+  "ru": "Фиолетово-зелёная ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tachycineta thalassina",
+ "sci_name_aco": "Tachycineta thalassina",
+ "sounds": [],
+ "taxon_order": 24074.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 4000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "coastal"
+  ],
+  "mass_g": 14.325,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violet-green%20Swallow%2C%20Mono%20Lake%2C%20California.jpg"
+ ]
+}

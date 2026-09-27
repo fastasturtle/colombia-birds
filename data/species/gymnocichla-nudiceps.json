@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cassin, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bacant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Gymnocichla",
+ "id": "gymnocichla-nudiceps",
+ "ids": {
+  "avibase": "497886702A920BED",
+  "birdbase": 16390,
+  "gbif": 2490070,
+  "inaturalist": "15753",
+  "iucn": "22701746",
+  "wikidata": "Q1061278",
+  "xeno_canto": "Gymnocichla-nudiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gymnocichla_nudiceps",
+  "ebird": "https://ebird.org/species/bacant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15753",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bare-crowned_antbird",
+   "es": "https://es.wikipedia.org/wiki/Gymnocichla_nudiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gymnocichla+nudiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bare-crowned Antbird",
+  "en_aco": "Bare-crowned Antbird",
+  "es": "Hormiguero Calvo",
+  "ru": "Лысая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Gymnocichla nudiceps",
+ "sci_name_aco": "Gymnocichla nudiceps",
+ "sounds": [],
+ "taxon_order": 13979.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 650,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 31.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gymnocichla%20nudiceps%20-%20Bare-crowned%20Antbird.jpg"
+ ]
+}

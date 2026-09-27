@@ -1,0 +1,97 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crcwoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Celeus",
+ "id": "celeus-flavus",
+ "ids": {
+  "avibase": "2186DAF534147862",
+  "birdbase": 12498,
+  "gbif": 5228966,
+  "inaturalist": "18071",
+  "iucn": "22681344",
+  "wikidata": "Q549537",
+  "xeno_canto": "Celeus-flavus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Celeus_flavus",
+  "ebird": "https://ebird.org/species/crcwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/18071",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cream-colored_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Celeus_flavus",
+   "ru": "https://ru.wikipedia.org/wiki/Кремовый_целеус"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Celeus+flavus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cream-colored Woodpecker",
+  "en_aco": "Cream-colored Woodpecker",
+  "es": "Carpintero Amarillo",
+  "ru": "Кремовый дятел-гренадер"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Celeus flavus",
+ "sci_name_aco": "Celeus flavus",
+ "sounds": [],
+ "taxon_order": 11809.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 134.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Celeus%20flavus%20Cream-colored%20Woodpecker%20%28female%29%3B%20Santana%2C%20Amap%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Celeus%20flavus%2C%20Cream-colored%20Woodpecker%20%28cropped%29.jpg"
+ ]
+}

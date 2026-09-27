@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "indbun",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Passerina",
+ "id": "passerina-cyanea",
+ "ids": {
+  "avibase": "043F337AA25E7D97",
+  "birdbase": 36721,
+  "gbif": 2490327,
+  "inaturalist": "10227",
+  "iucn": "22723951",
+  "wikidata": "Q1049642",
+  "xeno_canto": "Passerina-cyanea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Passerina_cyanea",
+  "ebird": "https://ebird.org/species/indbun",
+  "inaturalist": "https://www.inaturalist.org/taxa/10227",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Indigo_bunting",
+   "es": "https://es.wikipedia.org/wiki/Passerina_cyanea",
+   "ru": "https://ru.wikipedia.org/wiki/Индиговый_овсянковый_кардинал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Passerina+cyanea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Indigo Bunting",
+  "en_aco": "Indigo Bunting",
+  "es": "Azulillo Índigo",
+  "ru": "Индиговый колорин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Passerina cyanea",
+ "sci_name_aco": "Passerina cyanea",
+ "sounds": [],
+ "taxon_order": 34607.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 15.649999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Indigo%20Bunting%20Female%20by%20Dan%20Pancamo%201.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bangs, 1907)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stcspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Cranioleuca",
+ "id": "cranioleuca-hellmayri",
+ "ids": {
+  "avibase": "2A1CC66852C09044",
+  "birdbase": 15479,
+  "gbif": 2485323,
+  "inaturalist": "11250",
+  "iucn": "22702426",
+  "wikidata": "Q1260282",
+  "xeno_canto": "Cranioleuca-hellmayri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cranioleuca_hellmayri",
+  "ebird": "https://ebird.org/species/stcspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11250",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-capped_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Cranioleuca_hellmayri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cranioleuca+hellmayri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-capped Spinetail",
+  "en_aco": "Streak-capped Spinetail",
+  "es": "Curutié de Santa Marta",
+  "ru": "Пестрощёкая курутия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cranioleuca hellmayri",
+ "sci_name_aco": "Cranioleuca hellmayri",
+ "sounds": [],
+ "taxon_order": 15521.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1520,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cranioleuca%20hellmayri%20-%20Streak-capped%20Spinetail.jpg"
+ ]
+}

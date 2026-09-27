@@ -1,0 +1,97 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grykin",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannus",
+ "id": "tyrannus-dominicensis",
+ "ids": {
+  "avibase": "F5388B5EF2C0D783",
+  "birdbase": 18076,
+  "gbif": 5229678,
+  "inaturalist": "16798",
+  "iucn": "22700509",
+  "wikidata": "Q945200",
+  "xeno_canto": "Tyrannus-dominicensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannus_dominicensis",
+  "ebird": "https://ebird.org/species/grykin",
+  "inaturalist": "https://www.inaturalist.org/taxa/16798",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gray_kingbird",
+   "es": "https://es.wikipedia.org/wiki/Tyrannus_dominicensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannus+dominicensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray Kingbird",
+  "en_aco": "Gray Kingbird",
+  "es": "Tirano Dominicano",
+  "ru": "Серый тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannus dominicensis",
+ "sci_name_aco": "Tyrannus dominicensis",
+ "sounds": [],
+ "taxon_order": 17474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 53,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Kingbird%20%28Tyrannus%20dominicensis%29.jpg"
+ ]
+}

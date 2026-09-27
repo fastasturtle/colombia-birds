@@ -1,0 +1,92 @@
+{
+ "authorship": "(Deville & P.L. Sclater, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "putcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Porphyrolaema",
+ "id": "porphyrolaema-porphyrolaema",
+ "ids": {
+  "avibase": "0B8453B70BFFB31C",
+  "birdbase": 18319,
+  "gbif": 2486351,
+  "inaturalist": "8856",
+  "iucn": "22700868",
+  "wikidata": "Q908803",
+  "xeno_canto": "Porphyrolaema-porphyrolaema"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Porphyrolaema_porphyrolaema",
+  "ebird": "https://ebird.org/species/putcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8856",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple-throated_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Porphyrolaema_porphyrolaema",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурногорлая_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Porphyrolaema+porphyrolaema"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple-throated Cotinga",
+  "en_aco": "Purple-throated Cotinga",
+  "es": "Cotinga Gorjimorado",
+  "ru": "Сорочья котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Porphyrolaema porphyrolaema",
+ "sci_name_aco": "Porphyrolaema porphyrolaema",
+ "sounds": [],
+ "taxon_order": 15948.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 54.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Porphyrolaema%20porphyrolaema%20-%20Purple-throated%20cotinga%20%28male%29%2001.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Porphyrolaema%20porphyrolaema%20-%20Purple-throated%20cotinga%20%28female%29.JPG"
+ ]
+}

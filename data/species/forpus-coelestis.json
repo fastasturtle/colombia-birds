@@ -1,0 +1,97 @@
+{
+ "authorship": "(Lesson, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pacpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Forpus",
+ "id": "forpus-coelestis",
+ "ids": {
+  "avibase": "2A07367C43A5DDEA",
+  "birdbase": 13364,
+  "gbif": 2479087,
+  "inaturalist": "19066",
+  "iucn": "22685949",
+  "wikidata": "Q882870",
+  "xeno_canto": "Forpus-coelestis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Forpus_coelestis",
+  "ebird": "https://ebird.org/species/pacpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/19066",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pacific_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Forpus_coelestis",
+   "ru": "https://ru.wikipedia.org/wiki/Воробьиный_попугайчик_Лессона"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Forpus+coelestis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pacific Parrotlet",
+  "en_aco": "Pacific Parrotlet",
+  "es": "Cotorrita de Piura",
+  "ru": "Западный воробьиный попугайчик"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Forpus coelestis",
+ "sci_name_aco": "Forpus coelestis",
+ "sounds": [],
+ "taxon_order": 13000.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 26.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tuim%20Forpus%20coelestes.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Forpus%20coelestis%20-two%20in%20Ecuador-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Forpus%20coelestis%20-Peru%20-male-8.jpg"
+ ]
+}

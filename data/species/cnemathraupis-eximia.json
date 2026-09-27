@@ -1,0 +1,91 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bcmtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cnemathraupis",
+ "id": "cnemathraupis-eximia",
+ "ids": {
+  "avibase": "5B8B2C85FFDF8E39",
+  "birdbase": 37687,
+  "gbif": 8161703,
+  "inaturalist": "339885",
+  "iucn": "22722606",
+  "wikidata": "Q28822679",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buthraupis_eximia",
+  "ebird": "https://ebird.org/species/bcmtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339885",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-chested_mountain_tanager",
+   "es": "https://es.wikipedia.org/wiki/Cnemathraupis_eximia",
+   "ru": "https://ru.wikipedia.org/wiki/Черногрудая_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cnemathraupis+eximia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-chested Mountain Tanager",
+  "en_aco": "Black-chested Mountain-Tanager",
+  "es": "Tangara Dorsiverde",
+  "ru": "Черногрудая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cnemathraupis eximia",
+ "sci_name_aco": "Cnemathraupis eximia",
+ "sounds": [],
+ "taxon_order": 34863.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": 3800,
+   "min": 2700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 60.050000000000004,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-chested%20Mountain-Tanager.jpg"
+ ]
+}

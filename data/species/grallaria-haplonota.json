@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1877)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plbant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-haplonota",
+ "ids": {
+  "avibase": "BC3FAE8B311E7D45",
+  "birdbase": 16524,
+  "gbif": 2490518,
+  "inaturalist": "116900",
+  "iucn": "22703259",
+  "wikidata": "Q841840",
+  "xeno_canto": "Grallaria-haplonota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_haplonota",
+  "ebird": "https://ebird.org/species/plbant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116900",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-backed_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_haplonota",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+haplonota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-backed Antpitta",
+  "en_aco": "Plain-backed Antpitta",
+  "es": "Tororoí Torero",
+  "ru": "Буроспинная питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria haplonota",
+ "sci_name_aco": "Grallaria haplonota",
+ "sounds": [],
+ "taxon_order": 14227.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1950,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 83,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plain-backed%20Antpitta%20a.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GrallariaHaplonotaSmit.jpg"
+ ]
+}

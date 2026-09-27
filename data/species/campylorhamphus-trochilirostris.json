@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lichtenstein, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebscy1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Campylorhamphus",
+ "id": "campylorhamphus-trochilirostris",
+ "ids": {
+  "avibase": "D5961A8ED9C376F5",
+  "birdbase": 14811,
+  "gbif": 2485917,
+  "inaturalist": "11201",
+  "iucn": "22703185",
+  "wikidata": "Q1078618",
+  "xeno_canto": "Campylorhamphus-trochilirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylorhamphus_trochilirostris",
+  "ebird": "https://ebird.org/species/rebscy1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11201",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-billed_scythebill",
+   "es": "https://es.wikipedia.org/wiki/Campylorhamphus_trochilirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Красноспинный_пищухоклювый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylorhamphus+trochilirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-billed Scythebill",
+  "en_aco": "Red-billed Scythebill",
+  "es": "Picoguadaña Piquirrojo",
+  "ru": "Красноклювый дугоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Campylorhamphus trochilirostris",
+ "sci_name_aco": "Campylorhamphus trochilirostris",
+ "sounds": [],
+ "taxon_order": 14887.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 42.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylorhamphus%20trochilirostris%20major%20-%20Red-billed%20Scythebill%3B%20Araripe%2C%20Cear%C3%A1%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brvear1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Colibri",
+ "id": "colibri-delphinae",
+ "ids": {
+  "avibase": "A76C26A1F4E07B49",
+  "birdbase": 2810,
+  "gbif": 5228485,
+  "inaturalist": "6076",
+  "iucn": "22687106",
+  "wikidata": "Q535416",
+  "xeno_canto": "Colibri-delphinae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colibri_delphinae",
+  "ebird": "https://ebird.org/species/brvear1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6076",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_violetear",
+   "es": "https://es.wikipedia.org/wiki/Colibri_delphinae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colibri+delphinae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Violetear",
+  "en_aco": "Brown Violetear",
+  "es": "Colibrí Pardo",
+  "ru": "Бурый фиалкоух"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Colibri delphinae",
+ "sci_name_aco": "Colibri delphinae",
+ "sounds": [],
+ "taxon_order": 4357.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 6.2,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown%20Violetear%20JCB.jpg"
+ ]
+}

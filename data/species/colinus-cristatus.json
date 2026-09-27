@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crebob1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Colinus",
+ "id": "colinus-cristatus",
+ "ids": {
+  "avibase": "5C8A2A0C53DF562D",
+  "birdbase": 909,
+  "gbif": 5228112,
+  "inaturalist": "1300",
+  "iucn": "45093141",
+  "wikidata": "Q961494",
+  "xeno_canto": "Colinus-cristatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colinus_cristatus",
+  "ebird": "https://ebird.org/species/crebob1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1300",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_bobwhite",
+   "es": "https://es.wikipedia.org/wiki/Colinus_cristatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colinus+cristatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Bobwhite",
+  "en_aco": "Crested Bobwhite",
+  "es": "Colín Crestudo",
+  "ru": "Хохлатый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Colinus cristatus",
+ "sci_name_aco": "Colinus cristatus",
+ "sounds": [],
+ "taxon_order": 1066.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 132.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Rainbirder%20-%20Crested%20Bobwhite%20%28Colinus%20cristatus%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Hartert, 1902)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "duspig2",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-goodsoni",
+ "ids": {
+  "avibase": "A057002FE9FA2C5D",
+  "birdbase": 4588,
+  "gbif": 2495333,
+  "inaturalist": "3081",
+  "iucn": "22690340",
+  "wikidata": "Q977748",
+  "xeno_canto": "Patagioenas-goodsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_goodsoni",
+  "ebird": "https://ebird.org/species/duspig2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3081",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_goodsoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+goodsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky Pigeon",
+  "en_aco": "Dusky Pigeon",
+  "es": "Paloma Oscura",
+  "ru": "Тёмный голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas goodsoni",
+ "sci_name_aco": "Patagioenas goodsoni",
+ "sounds": [],
+ "taxon_order": 2001.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20goodsoni%20-NW%20Ecuador-6.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20goodsoni%201.jpg"
+ ]
+}

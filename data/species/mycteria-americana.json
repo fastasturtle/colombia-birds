@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "woosto",
+ "family": {
+  "code": "ciconi2",
+  "en": "Storks",
+  "sci": "Ciconiidae"
+ },
+ "genus": "Mycteria",
+ "id": "mycteria-americana",
+ "ids": {
+  "avibase": "19196211B7630B88",
+  "birdbase": 7643,
+  "gbif": 2481937,
+  "inaturalist": "4742",
+  "iucn": "22697648",
+  "wikidata": "Q990175",
+  "xeno_canto": "Mycteria-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mycteria_americana",
+  "ebird": "https://ebird.org/species/woosto",
+  "inaturalist": "https://www.inaturalist.org/taxa/4742",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wood_stork",
+   "es": "https://es.wikipedia.org/wiki/Mycteria_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_клювач"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mycteria+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wood Stork",
+  "en_aco": "Wood Stork",
+  "es": "Tántalo Americano",
+  "ru": "Американский клювач"
+ },
+ "order": "Ciconiiformes",
+ "photos": [],
+ "sci_name": "Mycteria americana",
+ "sci_name_aco": "Mycteria americana",
+ "sounds": [],
+ "taxon_order": 7306.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 2655,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/WoodStorkWhole.JPG"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Eyton, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lessca",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Aythya",
+ "id": "aythya-affinis",
+ "ids": {
+  "avibase": "50566E50C91B8686",
+  "birdbase": 500,
+  "gbif": 2498257,
+  "inaturalist": "7054",
+  "iucn": "22680402",
+  "wikidata": "Q833243",
+  "xeno_canto": "Aythya-affinis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aythya_affinis",
+  "ebird": "https://ebird.org/species/lessca",
+  "inaturalist": "https://www.inaturalist.org/taxa/7054",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_scaup",
+   "es": "https://es.wikipedia.org/wiki/Aythya_affinis",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_морская_чернеть"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aythya+affinis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Scaup",
+  "en_aco": "Lesser Scaup",
+  "es": "Porrón Bola",
+  "ru": "Малая морская чернеть"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Aythya affinis",
+ "sci_name_aco": "Aythya affinis",
+ "sounds": [],
+ "taxon_order": 700.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "M",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 853.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aythya%20affinis.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Scaup%20%28male%29%20-%20Aythya%20affinis%2C%20Oakley%20Street%2C%20Cambridge%2C%20Maryland.jpg"
+ ]
+}

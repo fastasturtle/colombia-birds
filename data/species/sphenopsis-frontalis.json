@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olehem1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sphenopsis",
+ "id": "sphenopsis-frontalis",
+ "ids": {
+  "avibase": "0539220A13714D0E",
+  "birdbase": 37341,
+  "gbif": 9370602,
+  "inaturalist": "558555",
+  "iucn": "22722230",
+  "wikidata": "Q28843119",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sphenopsis_frontalis",
+  "ebird": "https://ebird.org/species/olehem1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558555",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Oleaginous_hemispingus",
+   "es": "https://es.wikipedia.org/wiki/Sphenopsis_frontalis",
+   "ru": "https://ru.wikipedia.org/wiki/Оливковоспинный_хемиспингус"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sphenopsis+frontalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Oleaginous Hemispingus",
+  "en_aco": "Oleaginous Hemispingus",
+  "es": "Hemispingo Oleaginoso",
+  "ru": "Оливковая пипира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sphenopsis frontalis",
+ "sci_name_aco": "Sphenopsis frontalis",
+ "sounds": [],
+ "taxon_order": 34678.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": null,
+   "min": 1400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 17,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oleaginous%20Hemispingus%2C%20Abra%20la%20Esperanza%2C%20Huancabamba%20District%2C%20Peru%201.jpg"
+ ]
+}

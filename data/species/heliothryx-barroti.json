@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pucfai1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliothryx",
+ "id": "heliothryx-barroti",
+ "ids": {
+  "avibase": "B70BC2CB300418D0",
+  "birdbase": 2825,
+  "gbif": 2476219,
+  "inaturalist": "6387",
+  "iucn": "22688108",
+  "wikidata": "Q1271908",
+  "xeno_canto": "Heliothryx-barroti"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliothryx_barroti",
+  "ebird": "https://ebird.org/species/pucfai1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6387",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple-crowned_fairy",
+   "es": "https://es.wikipedia.org/wiki/Heliothryx_barroti",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliothryx+barroti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple-crowned Fairy",
+  "en_aco": "Purple-crowned Fairy",
+  "es": "Colibrí Hada Occidental",
+  "ru": "Колибри-фея"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliothryx barroti",
+ "sci_name_aco": "Heliothryx barroti",
+ "sounds": [],
+ "taxon_order": 4368.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1675,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 5.48,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliothryx%20barroti%20on%20nest.jpg"
+ ]
+}

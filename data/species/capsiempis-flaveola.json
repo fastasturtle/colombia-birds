@@ -1,0 +1,97 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yeltyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Capsiempis",
+ "id": "capsiempis-flaveola",
+ "ids": {
+  "avibase": "C4D2BEC12A3F9B83",
+  "birdbase": 17101,
+  "gbif": 2483845,
+  "inaturalist": "17268",
+  "iucn": "22699194",
+  "wikidata": "Q858281",
+  "xeno_canto": "Capsiempis-flaveola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Capsiempis_flaveola",
+  "ebird": "https://ebird.org/species/yeltyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17268",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Capsiempis_flaveola",
+   "ru": "https://ru.wikipedia.org/wiki/Жёлтый_тиранчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Capsiempis+flaveola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow Tyrannulet",
+  "en_aco": "Yellow Tyrannulet",
+  "es": "Mosquerito Amarillo",
+  "ru": "Жёлтый комароед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Capsiempis flaveola",
+ "sci_name_aco": "Capsiempis flaveola",
+ "sounds": [],
+ "taxon_order": 16634.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 7.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Capsiempis%20flaveola%20-Costa%20Rica-8%20%281%29.jpg"
+ ]
+}

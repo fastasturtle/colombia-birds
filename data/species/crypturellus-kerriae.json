@@ -1,0 +1,89 @@
+{
+ "authorship": "(Chapman, 1915)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chotin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-kerriae",
+ "ids": {
+  "avibase": "2ED97B5485B54942",
+  "birdbase": 144,
+  "gbif": 2477557,
+  "inaturalist": "20563",
+  "iucn": "22678194",
+  "wikidata": "Q1265238",
+  "xeno_canto": "Crypturellus-kerriae"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_kerriae",
+  "ebird": "https://ebird.org/species/chotin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20563",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Choco_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_kerriae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+kerriae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Tinamou",
+  "en_aco": "Choco Tinamou",
+  "es": "Tinamú del Chocó",
+  "ru": "Чокский скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus kerriae",
+ "sci_name_aco": "Crypturellus kerriae",
+ "sounds": [],
+ "taxon_order": 217.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

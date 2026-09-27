@@ -1,0 +1,92 @@
+{
+ "authorship": "(Scopoli, 1769)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scoshe1",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Calonectris",
+ "id": "calonectris-diomedea",
+ "ids": {
+  "avibase": "CA4D268D439B2832",
+  "birdbase": 7558,
+  "gbif": 2481521,
+  "inaturalist": "509656",
+  "iucn": "45061132",
+  "wikidata": "Q216850",
+  "xeno_canto": "Calonectris-diomedea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calonectris_diomedea",
+  "ebird": "https://ebird.org/species/scoshe1",
+  "inaturalist": "https://www.inaturalist.org/taxa/509656",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scopoli's_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Calonectris_diomedea",
+   "ru": "https://ru.wikipedia.org/wiki/Средиземноморский_буревестник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calonectris+diomedea"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Scopoli's Shearwater",
+  "en_aco": "Cory's Shearwater",
+  "es": "Pardela Cenicienta Mediterránea",
+  "ru": "Средиземноморский буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Calonectris diomedea",
+ "sci_name_aco": "Calonectris diomedea",
+ "sounds": [],
+ "taxon_order": 7201.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 435,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 707,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calonectris%20diomedea%2C%20Cabrera%20National%20Park%20%2812076283283%29.jpg"
+ ]
+}

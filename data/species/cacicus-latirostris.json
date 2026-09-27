@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batoro1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-latirostris",
+ "ids": {
+  "avibase": "E3289E7BDBDAE4E5",
+  "birdbase": 35858,
+  "gbif": 7642358,
+  "inaturalist": "367695",
+  "iucn": "22723997",
+  "wikidata": "Q27076011",
+  "xeno_canto": "Cacicus-latirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_latirostris",
+  "ebird": "https://ebird.org/species/batoro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367695",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_latirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Cacicus_latirostris"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+latirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Cacique",
+  "en_aco": "Band-tailed Cacique",
+  "es": "Cacique Colibandeado",
+  "ru": "Ширококлювая оропендола"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus latirostris",
+ "sci_name_aco": "Cacicus latirostris",
+ "sounds": [],
+ "taxon_order": 33659.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 96.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cacicus%20latirostris%20Band-tailed%20Oropendola%3B%20M%C3%A2ncio%20Lima%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

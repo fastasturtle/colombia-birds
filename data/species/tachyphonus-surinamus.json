@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fuctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tachyphonus",
+ "id": "tachyphonus-surinamus",
+ "ids": {
+  "avibase": "A90F77DC3085A6ED",
+  "birdbase": 37146,
+  "gbif": 2488566,
+  "inaturalist": "10076",
+  "iucn": null,
+  "wikidata": "Q2891900",
+  "xeno_canto": "Tachyphonus-surinamus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tachyphonus_surinamus",
+  "ebird": "https://ebird.org/species/fuctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10076",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fulvous-crested_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tachyphonus_surinamus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tachyphonus+surinamus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous-crested Tanager",
+  "en_aco": "Fulvous-crested Tanager",
+  "es": "Tangara Crestifulva",
+  "ru": "Украшенная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tachyphonus surinamus",
+ "sci_name_aco": "Tachyphonus surinamus",
+ "sounds": [],
+ "taxon_order": 34769.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 20.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tachyphonus%20surinamus%20female%20ecuador.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tachyphonus%20surinamus%20-%20Fulvous-crested%20Tanager%20%28male%29%20%3B%20Ramal%20do%20Pau%20Rosa%2C%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

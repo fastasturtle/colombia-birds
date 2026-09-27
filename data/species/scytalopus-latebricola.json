@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bangs, 1899)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brrtap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-latebricola",
+ "ids": {
+  "avibase": "04128FC46882D67C",
+  "birdbase": 16825,
+  "gbif": 2491000,
+  "inaturalist": "14744",
+  "iucn": "22703513",
+  "wikidata": "Q1270944",
+  "xeno_canto": "Scytalopus-latebricola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_latebricola",
+  "ebird": "https://ebird.org/species/brrtap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14744",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-rumped_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_latebricola",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+latebricola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-rumped Tapaculo",
+  "en_aco": "Brown-rumped Tapaculo",
+  "es": "Churrín Ratona",
+  "ru": "Буропоясничный тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus latebricola",
+ "sci_name_aco": "Scytalopus latebricola",
+ "sounds": [],
+ "taxon_order": 14457.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3660,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 22.233333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20latebricola.jpg"
+ ]
+}

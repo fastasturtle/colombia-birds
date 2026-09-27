@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1887)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yecela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiopagis",
+ "id": "myiopagis-flavivertex",
+ "ids": {
+  "avibase": "890CA87241EF9404",
+  "birdbase": 16915,
+  "gbif": 2482945,
+  "inaturalist": "16883",
+  "iucn": "22699242",
+  "wikidata": "Q905294",
+  "xeno_canto": "Myiopagis-flavivertex"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiopagis_flavivertex",
+  "ebird": "https://ebird.org/species/yecela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16883",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-crowned_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Myiopagis_flavivertex",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+flavivertex"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-crowned Elaenia",
+  "en_aco": "Yellow-crowned Elaenia",
+  "es": "Fiofío Coroniamarillo",
+  "ru": "Желтохохлая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiopagis flavivertex",
+ "sci_name_aco": "Myiopagis flavivertex",
+ "sounds": [],
+ "taxon_order": 16670.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiopagis%20flavivertex%20-%20Yellow-crowned%20elaenia%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-crowned%20Elaenia.jpg"
+ ]
+}

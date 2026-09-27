@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "varcha1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-motmot",
+ "ids": {
+  "avibase": "E0BC6A2EF6137127",
+  "birdbase": 667,
+  "gbif": 5229436,
+  "inaturalist": "2080",
+  "iucn": "22678342",
+  "wikidata": "Q1270466",
+  "xeno_canto": "Ortalis-motmot"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_motmot",
+  "ebird": "https://ebird.org/species/varcha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2080",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Little_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_motmot",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+motmot"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Variable Chachalaca",
+  "en_aco": "Variable Chachalaca",
+  "es": "Chachalaca Guayanesa",
+  "ru": "Малая чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis motmot",
+ "sci_name_aco": "Ortalis motmot",
+ "sounds": [],
+ "taxon_order": 956.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 482.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ortalis%20motmot%20-%20Little%20Chachalaca%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grgtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chlorornis",
+ "id": "chlorornis-riefferii",
+ "ids": {
+  "avibase": "C2BD666A00E49AE2",
+  "birdbase": 37681,
+  "gbif": 5230635,
+  "inaturalist": "10466",
+  "iucn": "22722150",
+  "wikidata": "Q263341",
+  "xeno_canto": "Chlorornis-riefferii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorornis_riefferii",
+  "ebird": "https://ebird.org/species/grgtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10466",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grass-green_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chlorornis_riefferii",
+   "ru": "https://ru.wikipedia.org/wiki/Попугайная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorornis+riefferii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grass-green Tanager",
+  "en_aco": "Grass-green Tanager",
+  "es": "Tangara Lorito",
+  "ru": "Попугаевая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorornis riefferii",
+ "sci_name_aco": "Chlorornis riefferii",
+ "sounds": [],
+ "taxon_order": 34857.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3350,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 50.48333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorornis%20riefferii.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vepcor1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Boissonneaua",
+ "id": "boissonneaua-jardini",
+ "ids": {
+  "avibase": "1A8C5D443D0CACEB",
+  "birdbase": 3166,
+  "gbif": 2476786,
+  "inaturalist": "6446",
+  "iucn": "22687874",
+  "wikidata": "Q944609",
+  "xeno_canto": "Boissonneaua-jardini"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Boissonneaua_jardini",
+  "ebird": "https://ebird.org/species/vepcor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6446",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Velvet-purple_coronet",
+   "es": "https://es.wikipedia.org/wiki/Boissonneaua_jardini",
+   "ru": "https://ru.wikipedia.org/wiki/Boissonneaua_jardini"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Boissonneaua+jardini"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Velvet-purple Coronet",
+  "en_aco": "Velvet-purple Coronet",
+  "es": "Colibrí Sietecolores",
+  "ru": "Гиацинтовый венценосец"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Boissonneaua jardini",
+ "sci_name_aco": "Boissonneaua jardini",
+ "sounds": [],
+ "taxon_order": 4676.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": 350
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 9.4,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Velvet%20purple%20Coronet.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slcfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Leptopogon",
+ "id": "leptopogon-superciliaris",
+ "ids": {
+  "avibase": "16C172E1199F9F49",
+  "birdbase": 17269,
+  "gbif": 5229505,
+  "inaturalist": "16380",
+  "iucn": "103680303",
+  "wikidata": "Q1258942",
+  "xeno_canto": "Leptopogon-superciliaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptopogon_superciliaris",
+  "ebird": "https://ebird.org/species/slcfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16380",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-capped_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Leptopogon_superciliaris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptopogon+superciliaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty-capped Flycatcher",
+  "en_aco": "Slaty-capped Flycatcher",
+  "es": "Orejero Coronigrís",
+  "ru": "Пепельноголовый ореджеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leptopogon superciliaris",
+ "sci_name_aco": "Leptopogon superciliaris",
+ "sounds": [],
+ "taxon_order": 16240.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": 120
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 12.1,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leptopogon%20superciliaris.jpg"
+ ]
+}

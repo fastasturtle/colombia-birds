@@ -1,0 +1,95 @@
+{
+ "authorship": "(Thunberg, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-flavogaster",
+ "ids": {
+  "avibase": "B655AA73AA4B4A97",
+  "birdbase": 16929,
+  "gbif": 5229606,
+  "inaturalist": "16714",
+  "iucn": "22699262",
+  "wikidata": "Q684078",
+  "xeno_canto": "Elaenia-flavogaster"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_flavogaster",
+  "ebird": "https://ebird.org/species/yebela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16714",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-bellied_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_flavogaster",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+flavogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Elaenia",
+  "en_aco": "Yellow-bellied Elaenia",
+  "es": "Fiofío Ventriamarillo",
+  "ru": "Желтобрюхая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia flavogaster",
+ "sci_name_aco": "Elaenia flavogaster",
+ "sounds": [],
+ "taxon_order": 16698.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Dario%20Sanches%20-%20GUARACAVA-DE-BARRIGA-AMARELA%20%28Elaenia%20flavogaster%29.jpg"
+ ]
+}

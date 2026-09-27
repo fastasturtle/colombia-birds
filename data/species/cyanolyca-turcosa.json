@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bonaparte, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "turjay1",
+ "family": {
+  "code": "corvid1",
+  "en": "Crows, Jays, and Magpies",
+  "sci": "Corvidae"
+ },
+ "genus": "Cyanolyca",
+ "id": "cyanolyca-turcosa",
+ "ids": {
+  "avibase": "0844621D8FC2C389",
+  "birdbase": 22696,
+  "gbif": 2482549,
+  "inaturalist": "8171",
+  "iucn": "22705649",
+  "wikidata": "Q1083056",
+  "xeno_canto": "Cyanolyca-turcosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanolyca_turcosa",
+  "ebird": "https://ebird.org/species/turjay1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8171",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Turquoise_jay",
+   "es": "https://es.wikipedia.org/wiki/Cyanolyca_turcosa",
+   "ru": "https://ru.wikipedia.org/wiki/Cyanolyca_turcosa"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanolyca+turcosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Turquoise Jay",
+  "en_aco": "Turquoise Jay",
+  "es": "Chara Turquesa",
+  "ru": "Бирюзовая сойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanolyca turcosa",
+ "sci_name_aco": "Cyanolyca turcosa",
+ "sounds": [],
+ "taxon_order": 21210.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3500,
+   "min": 1850,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 97.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turquoise%20jay%20Ecuador%201241a.jpg"
+ ]
+}

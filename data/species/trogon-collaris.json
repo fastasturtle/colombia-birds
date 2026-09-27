@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "coltro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-collaris",
+ "ids": {
+  "avibase": "A1458984CE7E23CA",
+  "birdbase": 9997,
+  "gbif": 2496700,
+  "inaturalist": "20754",
+  "iucn": "61692251",
+  "wikidata": "Q1034953",
+  "xeno_canto": "Trogon-collaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_collaris",
+  "ebird": "https://ebird.org/species/coltro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20754",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_collaris",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+collaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Collared Trogon",
+  "en_aco": "Collared Trogon",
+  "es": "Trogón Acollarado",
+  "ru": "Ошейниковый трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon collaris",
+ "sci_name_aco": "Trogon collaris",
+ "sounds": [],
+ "taxon_order": 9579.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 3100,
+   "min": 700,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 58.56,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Collared%20Trogon%20%28Trogon%20collaris%29%20%284090278016%29.jpg"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "horlar",
+ "family": {
+  "code": "alaudi1",
+  "en": "Larks",
+  "sci": "Alaudidae"
+ },
+ "genus": "Eremophila",
+ "id": "eremophila-alpestris",
+ "ids": {
+  "avibase": "77AFF9B86BC9FEE3",
+  "birdbase": 24375,
+  "gbif": 9415596,
+  "inaturalist": "7294",
+  "iucn": "22717434",
+  "wikidata": "Q207249",
+  "xeno_canto": "Eremophila-alpestris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eremophila_alpestris",
+  "ebird": "https://ebird.org/species/horlar",
+  "inaturalist": "https://www.inaturalist.org/taxa/7294",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Horned_lark",
+   "es": "https://es.wikipedia.org/wiki/Eremophila_alpestris",
+   "ru": "https://ru.wikipedia.org/wiki/Рогатый_жаворонок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eremophila+alpestris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Horned Lark",
+  "en_aco": "Horned Lark",
+  "es": "Alondra Cornuda",
+  "ru": "Рогатый жаворонок"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Eremophila alpestris",
+ "sci_name_aco": "Eremophila alpestris",
+ "sounds": [],
+ "taxon_order": 22710.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "plantation",
+   "riparian",
+   "desert",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 34.916666666666664,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Plains",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Horned%20Lark%20on%20Seedskadee%20NWR%20%2824752443620%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Horned%20Lark%20%28Eremophila%20alpestris%29%20%2812391512375%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Horned%20Lark%20%28Eremophila%20alpestris%29%20%2837497330556%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eremophila%20alpestris%20flava%2C%20Blyth%203.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blttit1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Tityra",
+ "id": "tityra-cayana",
+ "ids": {
+  "avibase": "CB7A4FE8D92D1995",
+  "birdbase": 18499,
+  "gbif": 2486483,
+  "inaturalist": "8830",
+  "iucn": "103676987",
+  "wikidata": "Q903929",
+  "xeno_canto": "Tityra-cayana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tityra_cayana",
+  "ebird": "https://ebird.org/species/blttit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8830",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-tailed_tityra",
+   "es": "https://es.wikipedia.org/wiki/Tityra_cayana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tityra+cayana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-tailed Tityra",
+  "en_aco": "Black-tailed Tityra",
+  "es": "Titira Colinegro",
+  "ru": "Чернохвостая титира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tityra cayana",
+ "sci_name_aco": "Tityra cayana",
+ "sounds": [],
+ "taxon_order": 15958.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1450,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 69.14999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tityra%20cayana%20-%20Black-tailed%20Tityra%20%28male%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tityra%20cayana%20-%20Black-tailed%20Tityra%20%28female%29%3B%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

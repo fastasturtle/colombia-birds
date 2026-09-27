@@ -1,0 +1,92 @@
+{
+ "authorship": "(Nuttall, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olsfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Contopus",
+ "id": "contopus-cooperi",
+ "ids": {
+  "avibase": "951C150C10C1B0BA",
+  "birdbase": 17668,
+  "gbif": 5229743,
+  "inaturalist": "16110",
+  "iucn": "22699787",
+  "wikidata": "Q580893",
+  "xeno_canto": "Contopus-cooperi"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Contopus_cooperi",
+  "ebird": "https://ebird.org/species/olsfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16110",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olive-sided_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Contopus_cooperi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Contopus+cooperi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olive-sided Flycatcher",
+  "en_aco": "Olive-sided Flycatcher",
+  "es": "Pibí Boreal",
+  "ru": "Оливковобокий пиви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Contopus cooperi",
+ "sci_name_aco": "Contopus cooperi",
+ "sounds": [],
+ "taxon_order": 16890.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3350,
+   "min": 600,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 33.833333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Olive-sided%20Flycatcher%20%2833585416604%29.jpg"
+ ]
+}

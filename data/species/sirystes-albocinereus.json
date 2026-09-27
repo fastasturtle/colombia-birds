@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whrsir1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Sirystes",
+ "id": "sirystes-albocinereus",
+ "ids": {
+  "avibase": "524DE233C8D515CB",
+  "birdbase": 18101,
+  "gbif": 8356516,
+  "inaturalist": "367623",
+  "iucn": "103682320",
+  "wikidata": "Q17560758",
+  "xeno_canto": "Sirystes-albocinereus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sirystes_albocinereus",
+  "ebird": "https://ebird.org/species/whrsir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367623",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-rumped_sirystes",
+   "es": "https://es.wikipedia.org/wiki/Sirystes_albocinereus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sirystes+albocinereus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-rumped Sirystes",
+  "en_aco": "White-rumped Sirystes",
+  "es": "Mosquero Culiblanco",
+  "ru": "Белогузая сириста"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sirystes albocinereus",
+ "sci_name_aco": "Sirystes albocinereus",
+ "sounds": [],
+ "taxon_order": 17263.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 550,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 31,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sirystes%20albocinereus%20-%20White-rumped%20Sirystes%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

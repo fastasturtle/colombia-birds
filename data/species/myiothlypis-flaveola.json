@@ -1,0 +1,93 @@
+{
+ "authorship": "(S.F. Baird, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "flawar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myiothlypis",
+ "id": "myiothlypis-flaveola",
+ "ids": {
+  "avibase": "40BD9900ED4EEB31",
+  "birdbase": 36358,
+  "gbif": 8082419,
+  "inaturalist": "201223",
+  "iucn": "22722038",
+  "wikidata": "Q27075946",
+  "xeno_canto": "Myiothlypis-flaveola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_flaveola",
+  "ebird": "https://ebird.org/species/flawar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201223",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Flavescent_warbler",
+   "es": "https://es.wikipedia.org/wiki/Myiothlypis_flaveola",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+flaveola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Flavescent Warbler",
+  "en_aco": "Flavescent Warbler",
+  "es": "Reinita Amarillenta",
+  "ru": "Жёлтый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiothlypis flaveola",
+ "sci_name_aco": "Myiothlypis flaveola",
+ "sounds": [],
+ "taxon_order": 34299.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiothlypis%20flaveola%20482313130.jpg"
+ ]
+}

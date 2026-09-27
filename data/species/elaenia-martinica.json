@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "carela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-martinica",
+ "ids": {
+  "avibase": "14ED46F064422C20",
+  "birdbase": 16934,
+  "gbif": 5229632,
+  "inaturalist": "16702",
+  "iucn": "22699259",
+  "wikidata": "Q1273672",
+  "xeno_canto": "Elaenia-martinica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_martinica",
+  "ebird": "https://ebird.org/species/carela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16702",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Caribbean_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_martinica",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+martinica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Caribbean Elaenia",
+  "en_aco": "Caribbean Elaenia",
+  "es": "Fiofío Caribeño",
+  "ru": "Карибская эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia martinica",
+ "sci_name_aco": "Elaenia martinica",
+ "sounds": [],
+ "taxon_order": 16733.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 23.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Caribbean%20Elaenia.jpg"
+ ]
+}

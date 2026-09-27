@@ -1,0 +1,92 @@
+{
+ "authorship": "(Berlepsch, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Bangsia",
+ "id": "bangsia-rothschildi",
+ "ids": {
+  "avibase": "26D354A045A58365",
+  "birdbase": 37737,
+  "gbif": 2488332,
+  "inaturalist": "10384",
+  "iucn": "22722576",
+  "wikidata": "Q1588522",
+  "xeno_canto": "Bangsia-rothschildi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bangsia_rothschildi",
+  "ebird": "https://ebird.org/species/goctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10384",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-chested_tanager",
+   "es": "https://es.wikipedia.org/wiki/Bangsia_rothschildi",
+   "ru": "https://ru.wikipedia.org/wiki/Золотогрудая_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bangsia+rothschildi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-chested Tanager",
+  "en_aco": "Golden-chested Tanager",
+  "es": "Tangara de Rothschild",
+  "ru": "Манишковая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bangsia rothschildi",
+ "sci_name_aco": "Bangsia rothschildi",
+ "sounds": [],
+ "taxon_order": 34834.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1500,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 48.25,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bangsia%20rothschildi%201897.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vichum2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Sternoclyta",
+ "id": "sternoclyta-cyanopectus",
+ "ids": {
+  "avibase": "B1A4A6A075AAE499",
+  "birdbase": 3216,
+  "gbif": 2476985,
+  "inaturalist": "6405",
+  "iucn": "22687753",
+  "wikidata": "Q368609",
+  "xeno_canto": "Sternoclyta-cyanopectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sternoclyta_cyanopectus",
+  "ebird": "https://ebird.org/species/vichum2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6405",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violet-chested_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Sternoclyta_cyanopectus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sternoclyta+cyanopectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violet-chested Hummingbird",
+  "en_aco": "Violet-chested Hummingbird",
+  "es": "Colibrí Pechiazul",
+  "ru": "Лиловогрудый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Sternoclyta cyanopectus",
+ "sci_name_aco": "Sternoclyta cyanopectus",
+ "sounds": [],
+ "taxon_order": 4721.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 7.816666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochi2Goul%200078%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sternoclyta%20cyanopectus%2030520075%20%28cropped%29.jpg"
+ ]
+}

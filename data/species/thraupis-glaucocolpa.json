@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "glatan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Thraupis",
+ "id": "thraupis-glaucocolpa",
+ "ids": {
+  "avibase": "9BB9F4C2B0ACE06B",
+  "birdbase": 37823,
+  "gbif": 2488633,
+  "inaturalist": "10296",
+  "iucn": null,
+  "wikidata": "Q1588082",
+  "xeno_canto": "Thraupis-glaucocolpa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thraupis_glaucocolpa",
+  "ebird": "https://ebird.org/species/glatan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10296",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Glaucous_tanager",
+   "es": "https://es.wikipedia.org/wiki/Thraupis_glaucocolpa",
+   "ru": "https://ru.wikipedia.org/wiki/Thraupis_glaucocolpa"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thraupis+glaucocolpa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Glaucous Tanager",
+  "en_aco": "Glaucous Tanager",
+  "es": "Tangara Glauca",
+  "ru": "Серо-голубая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thraupis glaucocolpa",
+ "sci_name_aco": "Thraupis glaucocolpa",
+ "sounds": [],
+ "taxon_order": 34953.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 33.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thraupis%20glaucocolpa%20%28cropped%29.jpg"
+ ]
+}

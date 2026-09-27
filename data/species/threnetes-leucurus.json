@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "patbar1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Threnetes",
+ "id": "threnetes-leucurus",
+ "ids": {
+  "avibase": "488FDA28995B0A42",
+  "birdbase": 2694,
+  "gbif": 5228472,
+  "inaturalist": "6036",
+  "iucn": "219584015",
+  "wikidata": "Q1270356",
+  "xeno_canto": "Threnetes-leucurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Threnetes_leucurus",
+  "ebird": "https://ebird.org/species/patbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6036",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-tailed_barbthroat",
+   "es": "https://es.wikipedia.org/wiki/Threnetes_leucurus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Threnetes+leucurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-tailed Barbthroat",
+  "en_aco": "Pale-tailed Barbthroat",
+  "es": "Ermitaño Barbudo Coliblanco",
+  "ru": "Бородатый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Threnetes leucurus",
+ "sci_name_aco": "Threnetes leucurus",
+ "sounds": [],
+ "taxon_order": 4249.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 5.42,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thenetes%20leucurus%20Pale-tailed%20Barbthroat%3B%20Santa%20B%C3%A1rbara%20do%20Par%C3%A1%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

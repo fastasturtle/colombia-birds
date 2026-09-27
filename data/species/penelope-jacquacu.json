@@ -1,0 +1,94 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spigua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Penelope",
+ "id": "penelope-jacquacu",
+ "ids": {
+  "avibase": "1D1EDAF0EE6355AD",
+  "birdbase": 704,
+  "gbif": 9462558,
+  "inaturalist": "2073",
+  "iucn": "22678386",
+  "wikidata": "Q948701",
+  "xeno_canto": "Penelope-jacquacu"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Penelope_jacquacu",
+  "ebird": "https://ebird.org/species/spigua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2073",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spix's_guan",
+   "es": "https://es.wikipedia.org/wiki/Penelope_jacquacu",
+   "ru": "https://ru.wikipedia.org/wiki/Спиксова_пенелопа"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Penelope+jacquacu"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spix's Guan",
+  "en_aco": "Spix's Guan",
+  "es": "Pava Amazónica",
+  "ru": "Амазонская пенелопа"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Penelope jacquacu",
+ "sci_name_aco": "Penelope jacquacu",
+ "sounds": [],
+ "taxon_order": 909.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 1469.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Penelope%20jacquacu%20-%20Spix-Guan%20-%20Spix%27s%20Guan.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Penelope%20jacquacu%20-Manu%20National%20Park%2C%20Peru-8.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "norscr1",
+ "family": {
+  "code": "anhimi1",
+  "en": "Screamers",
+  "sci": "Anhimidae"
+ },
+ "genus": "Chauna",
+ "id": "chauna-chavaria",
+ "ids": {
+  "avibase": "013B2B0B83B5F4CF",
+  "birdbase": 225,
+  "gbif": 5959223,
+  "inaturalist": "6911",
+  "iucn": "22679726",
+  "wikidata": "Q997306",
+  "xeno_canto": "Chauna-chavaria"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chauna_chavaria",
+  "ebird": "https://ebird.org/species/norscr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6911",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_screamer",
+   "es": "https://es.wikipedia.org/wiki/Chauna_chavaria",
+   "ru": "https://ru.wikipedia.org/wiki/Черношейная_паламедея"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chauna+chavaria"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Screamer",
+  "en_aco": "Northern Screamer",
+  "es": "Chajá Chicagüire",
+  "ru": "Черношейная паламедея"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Chauna chavaria",
+ "sci_name_aco": "Chauna chavaria",
+ "sounds": [],
+ "taxon_order": 234.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 2345.6666666666665,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chauna%20chavaria-8.jpg"
+ ]
+}

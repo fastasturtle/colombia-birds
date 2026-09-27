@@ -1,0 +1,92 @@
+{
+ "authorship": "(Ascanio, 2009)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "riospi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-beverlyae",
+ "ids": {
+  "avibase": "4435DE4C484A2E18",
+  "birdbase": 15582,
+  "gbif": 6089868,
+  "inaturalist": "73468",
+  "iucn": "22736309",
+  "wikidata": "Q1260457",
+  "xeno_canto": "Synallaxis-beverlyae"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_beverlyae",
+  "ebird": "https://ebird.org/species/riospi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73468",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Río_Orinoco_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_beverlyae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+beverlyae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rio Orinoco Spinetail",
+  "en_aco": "Rio Orinoco Spinetail",
+  "es": "Pijuí del Orinoco",
+  "ru": "Оринокская иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis beverlyae",
+ "sci_name_aco": "Synallaxis beverlyae",
+ "sounds": [],
+ "taxon_order": 15616.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": null,
+   "max_extreme": null,
+   "min": null,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20beverlyae%20-%20Rio%20Orinoco%20Spinetail%3B%20eastern%20Venezuela.jpg"
+ ]
+}

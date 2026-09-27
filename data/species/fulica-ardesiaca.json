@@ -1,0 +1,93 @@
+{
+ "authorship": "(Tschudi, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slccoo1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Fulica",
+ "id": "fulica-ardesiaca",
+ "ids": {
+  "avibase": "D24D92669C323254",
+  "birdbase": 5938,
+  "gbif": 2474383,
+  "inaturalist": "479",
+  "iucn": "22692932",
+  "wikidata": "Q1262940",
+  "xeno_canto": "Fulica-ardesiaca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Fulica_ardesiaca",
+  "ebird": "https://ebird.org/species/slccoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/479",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_coot",
+   "es": "https://es.wikipedia.org/wiki/Fulica_ardesiaca",
+   "ru": "https://ru.wikipedia.org/wiki/Андская_лысуха"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Fulica+ardesiaca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slate-colored Coot",
+  "en_aco": "Slate-colored Coot",
+  "es": "Focha Andina",
+  "ru": "Андская лысуха"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Fulica ardesiaca",
+ "sci_name_aco": "Fulica ardesiaca",
+ "sounds": [],
+ "taxon_order": 5506.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4700,
+   "max_extreme": null,
+   "min": 2100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 1000,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean%20Coot%20RWD2.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/FulicaArdesiacaSmit.jpg"
+ ]
+}

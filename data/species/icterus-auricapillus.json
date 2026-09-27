@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cassin, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orcori1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-auricapillus",
+ "ids": {
+  "avibase": "A27737B7A5A5EDEE",
+  "birdbase": 35961,
+  "gbif": 5229923,
+  "inaturalist": "9353",
+  "iucn": "22724099",
+  "wikidata": "Q1300601",
+  "xeno_canto": "Icterus-auricapillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_auricapillus",
+  "ebird": "https://ebird.org/species/orcori1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9353",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-crowned_oriole",
+   "es": "https://es.wikipedia.org/wiki/Icterus_auricapillus",
+   "ru": "https://ru.wikipedia.org/wiki/Золотоголовый_цветной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+auricapillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-crowned Oriole",
+  "en_aco": "Orange-crowned Oriole",
+  "es": "Turpial Coroninaranja",
+  "ru": "Оранжевоголовый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus auricapillus",
+ "sci_name_aco": "Icterus auricapillus",
+ "sounds": [],
+ "taxon_order": 33698.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "wetland"
+  ],
+  "mass_g": 32.166666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Icterus%20auricapillus%20Turpial%20cabecirrojo%20Orange-crowned%20Oriole%20%287491227590%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orange-crowned%20Oriole%20f2.jpg"
+ ]
+}

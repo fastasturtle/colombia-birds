@@ -1,0 +1,94 @@
+{
+ "authorship": "(Shaw, 1812)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltsta2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliomaster",
+ "id": "heliomaster-furcifer",
+ "ids": {
+  "avibase": "8E2B55E83CFF2861",
+  "birdbase": 3236,
+  "gbif": 2476998,
+  "inaturalist": "5868",
+  "iucn": "22688144",
+  "wikidata": "Q591388",
+  "xeno_canto": "Heliomaster-furcifer"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliomaster_furcifer",
+  "ebird": "https://ebird.org/species/bltsta2",
+  "inaturalist": "https://www.inaturalist.org/taxa/5868",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-tufted_starthroat",
+   "es": "https://es.wikipedia.org/wiki/Heliomaster_furcifer",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliomaster+furcifer"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-tufted Starthroat",
+  "en_aco": "Blue-tufted Starthroat",
+  "es": "Colibrí de Barbijo",
+  "ru": "Синий ангел"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliomaster furcifer",
+ "sci_name_aco": "Heliomaster furcifer",
+ "sounds": [],
+ "taxon_order": 4735.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 5.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Histoire%20naturelle%20des%20oiseaux-mouches%2C%20ou%2C%20Colibris%20constituant%20la%20famille%20des%20trochilid%C3%A9s%20%28Plate%20XLVIII%29%20%287462493216%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-tufted%20Starthroat%20%28Heliomaster%20furcifer%29.jpg"
+ ]
+}

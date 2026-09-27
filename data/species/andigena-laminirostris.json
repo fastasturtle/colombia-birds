@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pbmtou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Andigena",
+ "id": "andigena-laminirostris",
+ "ids": {
+  "avibase": "2EF3405B70C48CCC",
+  "birdbase": 11228,
+  "gbif": 2478861,
+  "inaturalist": "18846",
+  "iucn": "22682050",
+  "wikidata": "Q762935",
+  "xeno_canto": "Andigena-laminirostris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Andigena_laminirostris",
+  "ebird": "https://ebird.org/species/pbmtou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18846",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plate-billed_mountain_toucan",
+   "es": "https://es.wikipedia.org/wiki/Andigena_laminirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Плоскоклювая_андигена"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Andigena+laminirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plate-billed Mountain-Toucan",
+  "en_aco": "Plate-billed Mountain-Toucan",
+  "es": "Tucán Piquiplano",
+  "ru": "Плоскоклювый перцеяд"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Andigena laminirostris",
+ "sci_name_aco": "Andigena laminirostris",
+ "sounds": [],
+ "taxon_order": 10874.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3600,
+   "min": 1300,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 315,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plate-billed%20Mountain-toucan%20%2847792081302%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andigena%20laminirostris.jpg"
+ ]
+}

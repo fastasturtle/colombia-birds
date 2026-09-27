@@ -1,0 +1,94 @@
+{
+ "authorship": "(G.R. Gray, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chhoro1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Psarocolius",
+ "id": "psarocolius-wagleri",
+ "ids": {
+  "avibase": "0B4AD6B38A5E82D1",
+  "birdbase": 35811,
+  "gbif": 2484237,
+  "inaturalist": "10125",
+  "iucn": "22723994",
+  "wikidata": "Q590485",
+  "xeno_canto": "Psarocolius-wagleri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Psarocolius_wagleri",
+  "ebird": "https://ebird.org/species/chhoro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10125",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-headed_oropendola",
+   "es": "https://es.wikipedia.org/wiki/Psarocolius_wagleri",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановогорлая_оропендола"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Psarocolius+wagleri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-headed Oropendola",
+  "en_aco": "Chestnut-headed Oropendola",
+  "es": "Cacique Cabecicastaño",
+  "ru": "Каштановоголовая оропендола"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Psarocolius wagleri",
+ "sci_name_aco": "Psarocolius wagleri",
+ "sounds": [],
+ "taxon_order": 33629.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 154.33333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-headed%20Oropendola%2C%20Rancho%20Naturalista%2C%20Costa%20Rica%2C%20January%202018%20%2840230971362%29%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "obfgle3",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Automolus",
+ "id": "automolus-infuscatus",
+ "ids": {
+  "avibase": "70B85047639A9A28",
+  "birdbase": 15223,
+  "gbif": 5230257,
+  "inaturalist": "204469",
+  "iucn": "22733651",
+  "wikidata": "Q1262895",
+  "xeno_canto": "Automolus-infuscatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Automolus_infuscatus",
+  "ebird": "https://ebird.org/species/obfgle3",
+  "inaturalist": "https://www.inaturalist.org/taxa/204469",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olive-backed_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Automolus_infuscatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Automolus+infuscatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olive-backed Foliage-gleaner",
+  "en_aco": "Olive-backed Foliage-gleaner",
+  "es": "Ticotico Oliváceo",
+  "ru": "Оливковоспинная лесовка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Automolus infuscatus",
+ "sci_name_aco": "Automolus infuscatus",
+ "sounds": [],
+ "taxon_order": 15273.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 34.28333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Automolus%20infuscatus%2095308384%20%28cropped%29.jpg"
+ ]
+}

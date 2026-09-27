@@ -1,0 +1,95 @@
+{
+ "authorship": "(Ridgway, 1884)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "manvir1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-pallens",
+ "ids": {
+  "avibase": "5A15759C1E5718FC",
+  "birdbase": 21557,
+  "gbif": 6100766,
+  "inaturalist": "17374",
+  "iucn": "22705191",
+  "wikidata": "Q1302920",
+  "xeno_canto": "Vireo-pallens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_pallens",
+  "ebird": "https://ebird.org/species/manvir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17374",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mangrove_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_pallens",
+   "ru": "https://ru.wikipedia.org/wiki/Мангровый_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+pallens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mangrove Vireo",
+  "en_aco": "Providencia Vireo",
+  "es": "Vireo de Manglar",
+  "ru": "Мангровый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo pallens",
+ "sci_name_aco": "Vireo approximans",
+ "sounds": [],
+ "taxon_order": 19180.0,
+ "taxonomy_note": "ACO/SACC lists this as Vireo approximans; eBird/Clements uses Vireo pallens.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 11.166666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo%20pallens.jpg"
+ ]
+}

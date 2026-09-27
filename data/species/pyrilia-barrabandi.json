@@ -1,0 +1,92 @@
+{
+ "authorship": "(Kuhl, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orcpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrilia",
+ "id": "pyrilia-barrabandi",
+ "ids": {
+  "avibase": "05B5B7D0279F58D9",
+  "birdbase": 13212,
+  "gbif": 7340175,
+  "inaturalist": "73321",
+  "iucn": "22686116",
+  "wikidata": "Q1267230",
+  "xeno_canto": "Pyrilia-barrabandi"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrilia_barrabandi",
+  "ebird": "https://ebird.org/species/orcpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73321",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-cheeked_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pyrilia_barrabandi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrilia+barrabandi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-cheeked Parrot",
+  "en_aco": "Orange-cheeked Parrot",
+  "es": "Lorito Carinaranja",
+  "ru": "Желтощёкий лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrilia barrabandi",
+ "sci_name_aco": "Pyrilia barrabandi",
+ "sounds": [],
+ "taxon_order": 12866.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 174.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyrilia%20barrabandi%20-Napo%20Wildlife%20Reserve-4.jpg"
+ ]
+}

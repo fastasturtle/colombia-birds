@@ -1,0 +1,91 @@
+{
+ "authorship": "(F.W. Hutton, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "belgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-belcheri",
+ "ids": {
+  "avibase": "2864A5B05DE1A330",
+  "birdbase": 7129,
+  "gbif": 2481179,
+  "inaturalist": "4371",
+  "iucn": "22694282",
+  "wikidata": "Q478233",
+  "xeno_canto": "Larus-belcheri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_belcheri",
+  "ebird": "https://ebird.org/species/belgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4371",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Belcher's_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_belcheri",
+   "ru": "https://ru.wikipedia.org/wiki/Чайка_Симеона"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+belcheri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Belcher's Gull",
+  "en_aco": "Belcher's Gull",
+  "es": "Gaviota Simeón",
+  "ru": "Бельчерова чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus belcheri",
+ "sci_name_aco": "Larus belcheri",
+ "sounds": [],
+ "taxon_order": 6509.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "coastal"
+  ],
+  "mass_g": 642.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Belchers%20Gull%20RWD.jpg"
+ ]
+}

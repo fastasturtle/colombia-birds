@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "piwtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Fluvicola",
+ "id": "fluvicola-pica",
+ "ids": {
+  "avibase": "453C35A845F48B07",
+  "birdbase": 17897,
+  "gbif": 5229564,
+  "inaturalist": "17281",
+  "iucn": "22700274",
+  "wikidata": "Q901879",
+  "xeno_canto": "Fluvicola-pica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Fluvicola_pica",
+  "ebird": "https://ebird.org/species/piwtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17281",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pied_water_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Fluvicola_pica",
+   "ru": "https://ru.wikipedia.org/wiki/Пегий_водяной_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Fluvicola+pica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pied Water-Tyrant",
+  "en_aco": "Pied Water-Tyrant",
+  "es": "Viudita Pía",
+  "ru": "Пегий мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Fluvicola pica",
+ "sci_name_aco": "Fluvicola pica",
+ "sounds": [],
+ "taxon_order": 17160.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 450,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 12.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fluvicola%20pica.jpg"
+ ]
+}

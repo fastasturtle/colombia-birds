@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1880)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Bolborhynchus",
+ "id": "bolborhynchus-ferrugineifrons",
+ "ids": {
+  "avibase": "2706D697594EC20F",
+  "birdbase": 13169,
+  "gbif": 5229120,
+  "inaturalist": "19035",
+  "iucn": "22685919",
+  "wikidata": "Q1263475",
+  "xeno_canto": "Bolborhynchus-ferrugineifrons"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bolborhynchus_ferrugineifrons",
+  "ebird": "https://ebird.org/species/rufpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19035",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-fronted_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Bolborhynchus_ferrugineifrons",
+   "ru": "https://ru.wikipedia.org/wiki/Краснолобый_толстоклювый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bolborhynchus+ferrugineifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-fronted Parakeet",
+  "en_aco": "Rufous-fronted Parakeet",
+  "es": "Catita Frentirrufa",
+  "ru": "Краснолобый калита"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Bolborhynchus ferrugineifrons",
+ "sci_name_aco": "Bolborhynchus ferrugineifrons",
+ "sounds": [],
+ "taxon_order": 12814.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 3200,
+   "min_extreme": 2835
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 64,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-fronted%20Parakeet%20%28Bolborhynchus%20ferrugineifrons%29.jpg"
+ ]
+}

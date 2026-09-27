@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pabhor2",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Furnarius",
+ "id": "furnarius-torridus",
+ "ids": {
+  "avibase": "2D43DA6A6B8C814D",
+  "birdbase": 14980,
+  "gbif": 2485813,
+  "inaturalist": "11274",
+  "iucn": "22702140",
+  "wikidata": "Q1266868",
+  "xeno_canto": "Furnarius-torridus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Furnarius_torridus",
+  "ebird": "https://ebird.org/species/pabhor2",
+  "inaturalist": "https://www.inaturalist.org/taxa/11274",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bay_hornero",
+   "es": "https://es.wikipedia.org/wiki/Furnarius_torridus",
+   "ru": "https://ru.wikipedia.org/wiki/Furnarius_torridus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Furnarius+torridus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-billed Hornero",
+  "en_aco": "Pale-billed Hornero",
+  "es": "Hornero Castaño",
+  "ru": "Светлоклювый печник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Furnarius torridus",
+ "sci_name_aco": "Furnarius torridus",
+ "sounds": [],
+ "taxon_order": 15045.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 150,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 51.26666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/FurnariusTorridusSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Furnarius%20torridus%20Pale-billed%20Hornero%3B%20Benjamin%20Constant%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

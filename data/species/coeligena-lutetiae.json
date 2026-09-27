@@ -1,0 +1,94 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buwsta1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-lutetiae",
+ "ids": {
+  "avibase": "0702D924EC1F2324",
+  "birdbase": 3135,
+  "gbif": 2477040,
+  "inaturalist": "6237",
+  "iucn": "22687837",
+  "wikidata": "Q898544",
+  "xeno_canto": "Coeligena-lutetiae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_lutetiae",
+  "ebird": "https://ebird.org/species/buwsta1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6237",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-winged_starfrontlet",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_lutetiae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+lutetiae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-winged Starfrontlet",
+  "en_aco": "Buff-winged Starfrontlet",
+  "es": "Inca Alihabano",
+  "ru": "Бледнокрылый инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena lutetiae",
+ "sci_name_aco": "Coeligena lutetiae",
+ "sounds": [],
+ "taxon_order": 4648.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4800,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 7.025,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buff-winged%20starfrontlet%20%28Coeligena%20lutetiae%20lutetiae%29%20female%20Caldas.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buff-Winged%20Starfrontlet%20%28Coeligena%20lutetiae%29.jpg"
+ ]
+}

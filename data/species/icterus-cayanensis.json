@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "epaori1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-cayanensis",
+ "ids": {
+  "avibase": "FE43E0CDF2B1D50E",
+  "birdbase": 35967,
+  "gbif": 5229845,
+  "inaturalist": "9343",
+  "iucn": "22724076",
+  "wikidata": "Q1300841",
+  "xeno_canto": "Icterus-cayanensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_cayanensis",
+  "ebird": "https://ebird.org/species/epaori1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9343",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Epaulet_oriole",
+   "es": "https://es.wikipedia.org/wiki/Icterus_cayanensis",
+   "ru": "https://ru.wikipedia.org/wiki/Кайенский_цветной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+cayanensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Epaulet Oriole",
+  "en_aco": "Epaulet Oriole",
+  "es": "Turpial Boyerito",
+  "ru": "Эполетовый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus cayanensis",
+ "sci_name_aco": "Icterus cayanensis",
+ "sounds": [],
+ "taxon_order": 33706.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 34.54,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Epaulet%20Oriole%20-%20Pantanal%20-%20Brazil%20H8O1352%20%2823781001732%29.jpg"
+ ]
+}

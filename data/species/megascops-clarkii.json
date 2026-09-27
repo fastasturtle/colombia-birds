@@ -1,0 +1,92 @@
+{
+ "authorship": "(L. Kelso & E.H. Kelso, 1935)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bssowl",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-clarkii",
+ "ids": {
+  "avibase": "C24A665C7D288D38",
+  "birdbase": 9591,
+  "gbif": 2497376,
+  "inaturalist": "19732",
+  "iucn": "22688799",
+  "wikidata": "Q1260341",
+  "xeno_canto": "Megascops-clarkii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_clarkii",
+  "ebird": "https://ebird.org/species/bssowl",
+  "inaturalist": "https://www.inaturalist.org/taxa/19732",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bare-shanked_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_clarkii",
+   "ru": "https://ru.wikipedia.org/wiki/Голоногая_совка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+clarkii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bare-shanked Screech-Owl",
+  "en_aco": "Bare-shanked Screech-Owl",
+  "es": "Autillo Serrano",
+  "ru": "Голоногая совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops clarkii",
+ "sci_name_aco": "Megascops clarkii",
+ "sounds": [],
+ "taxon_order": 8799.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2350,
+   "max_extreme": 3300,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 155.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bare-shanked%20Screech-Owl%20%28Megascops%20clarkii%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bare-shanked%20Screech-Owl.jpg"
+ ]
+}

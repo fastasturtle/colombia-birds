@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greela",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiopagis",
+ "id": "myiopagis-viridicata",
+ "ids": {
+  "avibase": "F219499BB0B271C1",
+  "birdbase": 16916,
+  "gbif": 2482947,
+  "inaturalist": "16892",
+  "iucn": "22699248",
+  "wikidata": "Q942878",
+  "xeno_canto": "Myiopagis-viridicata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiopagis_viridicata",
+  "ebird": "https://ebird.org/species/greela",
+  "inaturalist": "https://www.inaturalist.org/taxa/16892",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greenish_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Myiopagis_viridicata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+viridicata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Greenish Elaenia",
+  "en_aco": "Greenish Elaenia",
+  "es": "Fiofío Verdoso",
+  "ru": "Зелёная эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiopagis viridicata",
+ "sci_name_aco": "Myiopagis viridicata",
+ "sounds": [],
+ "taxon_order": 16672.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiopagis%20viridicata%20-%20Greenish%20elaenia.JPG"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Sharpe, 1875)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "capowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Glaucidium",
+ "id": "glaucidium-griseiceps",
+ "ids": {
+  "avibase": "0F9969E8B0B9BBF4",
+  "birdbase": 9231,
+  "gbif": 5232132,
+  "inaturalist": "19856",
+  "iucn": "22729012",
+  "wikidata": "Q1126064",
+  "xeno_canto": "Glaucidium-griseiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Glaucidium_griseiceps",
+  "ebird": "https://ebird.org/species/capowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19856",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Central_American_pygmy_owl",
+   "es": "https://es.wikipedia.org/wiki/Glaucidium_griseiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucidium+griseiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Central American Pygmy-Owl",
+  "en_aco": "Central American Pygmy-Owl",
+  "es": "Mochuelo Centroamericano",
+  "ru": "Центральноамериканский сычик"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Glaucidium griseiceps",
+ "sci_name_aco": "Glaucidium griseiceps",
+ "sounds": [],
+ "taxon_order": 9025.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 54.76666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GlaucidiumPumilumGriseicepsKeulemans.jpg"
+ ]
+}

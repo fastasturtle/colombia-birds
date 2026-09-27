@@ -1,0 +1,93 @@
+{
+ "authorship": "(H. Saunders, 1893)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sopsku1",
+ "family": {
+  "code": "sterco1",
+  "en": "Skuas and Jaegers",
+  "sci": "Stercorariidae"
+ },
+ "genus": "Stercorarius",
+ "id": "stercorarius-maccormicki",
+ "ids": {
+  "avibase": "7D1A9D5CCCDC597C",
+  "birdbase": 7209,
+  "gbif": 2481616,
+  "inaturalist": "144296",
+  "iucn": "22694218",
+  "wikidata": "Q571268",
+  "xeno_canto": "Stercorarius-maccormicki"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stercorarius_maccormicki",
+  "ebird": "https://ebird.org/species/sopsku1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144296",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/South_polar_skua",
+   "es": "https://es.wikipedia.org/wiki/Stercorarius_maccormicki",
+   "ru": "https://ru.wikipedia.org/wiki/Южнополярный_поморник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stercorarius+maccormicki"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "South Polar Skua",
+  "en_aco": "South Polar Skua",
+  "es": "Págalo Polar",
+  "ru": "Южнополярный поморник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Stercorarius maccormicki",
+ "sci_name_aco": "Stercorarius maccormicki",
+ "sounds": [],
+ "taxon_order": 6372.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1315,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Skua%20Terra%20Nova%20Bay%2001.jpg"
+ ]
+}

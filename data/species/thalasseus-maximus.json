@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "royter1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Thalasseus",
+ "id": "thalasseus-maximus",
+ "ids": {
+  "avibase": "68EDCC23F8128FA8",
+  "birdbase": 7068,
+  "gbif": 5789281,
+  "inaturalist": "144539",
+  "iucn": "22694542",
+  "wikidata": "Q28423",
+  "xeno_canto": "Thalasseus-maximus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thalasseus_maximus",
+  "ebird": "https://ebird.org/species/royter1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144539",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Royal_tern",
+   "es": "https://es.wikipedia.org/wiki/Thalasseus_maximus",
+   "ru": "https://ru.wikipedia.org/wiki/Королевская_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thalasseus+maximus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Royal Tern",
+  "en_aco": "Royal Tern",
+  "es": "Charrán Real Americano",
+  "ru": "Королевская крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Thalasseus maximus",
+ "sci_name_aco": "Thalasseus maximus",
+ "sounds": [],
+ "taxon_order": 6789.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "riparian",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 402.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Tern%20-%20Thalasseus%20maximus%20%2833285813120%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Tern%20%28Thalasseus%20maxima%29%20RWD2.jpg"
+ ]
+}

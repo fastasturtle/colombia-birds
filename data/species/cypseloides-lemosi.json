@@ -1,0 +1,94 @@
+{
+ "authorship": "(Eisenmann & Lehmann, 1962)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcswi2",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Cypseloides",
+ "id": "cypseloides-lemosi",
+ "ids": {
+  "avibase": "B66A13A91015DB9B",
+  "birdbase": 2272,
+  "gbif": 2477290,
+  "inaturalist": "6665",
+  "iucn": "22686447",
+  "wikidata": "Q1273346",
+  "xeno_canto": "Cypseloides-lemosi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cypseloides_lemosi",
+  "ebird": "https://ebird.org/species/whcswi2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6665",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chested_swift",
+   "es": "https://es.wikipedia.org/wiki/Cypseloides_lemosi",
+   "ru": "https://ru.wikipedia.org/wiki/Белогрудый_американский_стриж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cypseloides+lemosi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chested Swift",
+  "en_aco": "White-chested Swift",
+  "es": "Vencejo Pechiblanco",
+  "ru": "Белогрудый стриж"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Cypseloides lemosi",
+ "sci_name_aco": "Cypseloides lemosi",
+ "sounds": [],
+ "taxon_order": 3830.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 2100,
+   "min": 1000,
+   "min_extreme": 250
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 28.400000000000002,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cypseloides%20lemosi.jpg"
+ ]
+}

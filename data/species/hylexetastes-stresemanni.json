@@ -1,0 +1,91 @@
+{
+ "authorship": "(E. Snethlage, 1925)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Hylexetastes",
+ "id": "hylexetastes-stresemanni",
+ "ids": {
+  "avibase": "8DA960E654FE7493",
+  "birdbase": 14662,
+  "gbif": 2485244,
+  "inaturalist": "11533",
+  "iucn": "22703055",
+  "wikidata": "Q1265821",
+  "xeno_canto": "Hylexetastes-stresemanni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylexetastes_stresemanni",
+  "ebird": "https://ebird.org/species/babwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11533",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bar-bellied_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Hylexetastes_stresemanni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylexetastes+stresemanni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bar-bellied Woodcreeper",
+  "en_aco": "Bar-bellied Woodcreeper",
+  "es": "Trepatroncos de Stresemann",
+  "ru": "Полосатобрюхий древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylexetastes stresemanni",
+ "sci_name_aco": "Hylexetastes stresemanni",
+ "sounds": [],
+ "taxon_order": 14741.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 113,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylexetastes%20stresemanni%20Bar-bellied%20Woodcreeper%3B%20Porto%20Velho%2C%20Rond%C3%B4nia%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

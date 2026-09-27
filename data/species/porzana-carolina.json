@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sora",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Porzana",
+ "id": "porzana-carolina",
+ "ids": {
+  "avibase": "2CC21529B5674AEB",
+  "birdbase": 5880,
+  "gbif": 2474639,
+  "inaturalist": "162",
+  "iucn": "22692684",
+  "wikidata": "Q936740",
+  "xeno_canto": "Porzana-carolina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Porzana_carolina",
+  "ebird": "https://ebird.org/species/sora",
+  "inaturalist": "https://www.inaturalist.org/taxa/162",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sora_(bird)",
+   "es": "https://es.wikipedia.org/wiki/Porzana_carolina",
+   "ru": "https://ru.wikipedia.org/wiki/Каролинский_погоныш"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Porzana+carolina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sora",
+  "en_aco": "Sora",
+  "es": "Polluela Sora",
+  "ru": "Каролинский погоныш"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Porzana carolina",
+ "sci_name_aco": "Porzana carolina",
+ "sounds": [],
+ "taxon_order": 5455.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4080,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 86.33333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sora%20%28Porzana%20carolina%29.jpg"
+ ]
+}

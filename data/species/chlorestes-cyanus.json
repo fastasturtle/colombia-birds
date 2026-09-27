@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcsap1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorestes",
+ "id": "chlorestes-cyanus",
+ "ids": {
+  "avibase": "8564ACE3CD9B4360",
+  "birdbase": 3708,
+  "gbif": 10933139,
+  "inaturalist": "5981",
+  "iucn": "22687439",
+  "wikidata": "Q1259313",
+  "xeno_canto": "Hylocharis-cyanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylocharis_cyanus",
+  "ebird": "https://ebird.org/species/whcsap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5981",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chinned_sapphire",
+   "es": "https://es.wikipedia.org/wiki/Chlorestes_cyanus",
+   "ru": "https://ru.wikipedia.org/wiki/Белогорлый_сапфир"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorestes+cyanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chinned Sapphire",
+  "en_aco": "White-chinned Sapphire",
+  "es": "Zafiro Gorjiblanco",
+  "ru": "Белобородый сапфир"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorestes cyanus",
+ "sci_name_aco": "Chlorestes cyanus",
+ "sounds": [],
+ "taxon_order": 5199.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylocharis%20cyanus%202.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylocharis%20cyanus%20-Brazil-8.jpg"
+ ]
+}

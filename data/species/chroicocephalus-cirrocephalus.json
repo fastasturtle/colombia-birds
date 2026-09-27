@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grhgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Chroicocephalus",
+ "id": "chroicocephalus-cirrocephalus",
+ "ids": {
+  "avibase": "6EB497FA1859864B",
+  "birdbase": 7105,
+  "gbif": 6065820,
+  "inaturalist": "144508",
+  "iucn": null,
+  "wikidata": "Q652348",
+  "xeno_canto": "Chroicocephalus-cirrocephalus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chroicocephalus_cirrocephalus",
+  "ebird": "https://ebird.org/species/grhgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/144508",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-headed_gull",
+   "es": "https://es.wikipedia.org/wiki/Chroicocephalus_cirrocephalus",
+   "ru": "https://ru.wikipedia.org/wiki/Сероголовая_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chroicocephalus+cirrocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-hooded Gull",
+  "en_aco": "Gray-hooded Gull",
+  "es": "Gaviota Cabecigrís",
+  "ru": "Сероголовая чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Chroicocephalus cirrocephalus",
+ "sci_name_aco": "Chroicocephalus cirrocephalus",
+ "sounds": [],
+ "taxon_order": 6480.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "riparian",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 357.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chroicocephalus%20cirrocephalus%2C%20Naivasha%2C%20Kenya.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chroicocephalus%20cirrocephalus%2C%20Cassino%2C%20Rio%20Grande%20do%20Sul%2C%20Brazil%201.jpg"
+ ]
+}

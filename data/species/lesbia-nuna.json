@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grttra1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Lesbia",
+ "id": "lesbia-nuna",
+ "ids": {
+  "avibase": "5DEE6DC87973BF07",
+  "birdbase": 2978,
+  "gbif": 5228490,
+  "inaturalist": "6017",
+  "iucn": "22687974",
+  "wikidata": "Q1270091",
+  "xeno_canto": "Lesbia-nuna"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lesbia_nuna",
+  "ebird": "https://ebird.org/species/grttra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6017",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-tailed_trainbearer",
+   "es": "https://es.wikipedia.org/wiki/Lesbia_nuna",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lesbia+nuna"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-tailed Trainbearer",
+  "en_aco": "Green-tailed Trainbearer",
+  "es": "Colibrí Colilargo Menor",
+  "ru": "Зеленохвостая комета"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Lesbia nuna",
+ "sci_name_aco": "Lesbia nuna",
+ "sounds": [],
+ "taxon_order": 4506.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 3.733333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesbia%20nuna%20Cometa%20coliverde%20Green-tailed%20Trainbearer%20%288743056764%29.jpg"
+ ]
+}

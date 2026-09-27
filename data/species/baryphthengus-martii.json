@@ -1,0 +1,92 @@
+{
+ "authorship": "(Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufmot1",
+ "family": {
+  "code": "momoti1",
+  "en": "Motmots",
+  "sci": "Momotidae"
+ },
+ "genus": "Baryphthengus",
+ "id": "baryphthengus-martii",
+ "ids": {
+  "avibase": null,
+  "birdbase": 10821,
+  "gbif": 2475270,
+  "inaturalist": "2163",
+  "iucn": "22682995",
+  "wikidata": "Q188202",
+  "xeno_canto": "Baryphthengus-martii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Baryphthengus_martii",
+  "ebird": "https://ebird.org/species/rufmot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2163",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous_motmot",
+   "es": "https://es.wikipedia.org/wiki/Baryphthengus_martii",
+   "ru": "https://ru.wikipedia.org/wiki/Baryphthengus_martii"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Baryphthengus+martii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous Motmot",
+  "en_aco": "Rufous Motmot",
+  "es": "Momoto Yeruvá Occidental",
+  "ru": "Рыжий момот"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Baryphthengus martii",
+ "sci_name_aco": "Baryphthengus martii",
+ "sounds": [],
+ "taxon_order": 9883.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 1750,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 175,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20Motmot%20%2840747430212%29.jpg"
+ ]
+}

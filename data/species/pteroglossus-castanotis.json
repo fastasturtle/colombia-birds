@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gould, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cheara1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Pteroglossus",
+ "id": "pteroglossus-castanotis",
+ "ids": {
+  "avibase": "766425133B13A871",
+  "birdbase": 11208,
+  "gbif": 2478822,
+  "inaturalist": "18581",
+  "iucn": "22682014",
+  "wikidata": "Q790670",
+  "xeno_canto": "Pteroglossus-castanotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pteroglossus_castanotis",
+  "ebird": "https://ebird.org/species/cheara1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18581",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-eared_aracari",
+   "es": "https://es.wikipedia.org/wiki/Pteroglossus_castanotis",
+   "ru": "https://ru.wikipedia.org/wiki/Буроухий_арасари"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pteroglossus+castanotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-eared Aracari",
+  "en_aco": "Chestnut-eared Aracari",
+  "es": "Arasarí Caripardo",
+  "ru": "Каштановоухий арасари"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Pteroglossus castanotis",
+ "sci_name_aco": "Pteroglossus castanotis",
+ "sounds": [],
+ "taxon_order": 10899.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 265,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%C3%A7ari-castanho-RPPN%20Cristalino%20I-Rafael%20Mitsuo%28001%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pteroglossus%20castanotis%20364539833.jpg"
+ ]
+}

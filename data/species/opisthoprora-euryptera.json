@@ -1,0 +1,93 @@
+{
+ "authorship": "(Loddiges, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mouavo1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Opisthoprora",
+ "id": "opisthoprora-euryptera",
+ "ids": {
+  "avibase": "42C0AED1878712C5",
+  "birdbase": 2969,
+  "gbif": 2476693,
+  "inaturalist": "6506",
+  "iucn": "22688046",
+  "wikidata": "Q283461",
+  "xeno_canto": "Opisthoprora-euryptera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Opisthoprora_euryptera",
+  "ebird": "https://ebird.org/species/mouavo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6506",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mountain_avocetbill",
+   "es": "https://es.wikipedia.org/wiki/Opisthoprora_euryptera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Opisthoprora+euryptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mountain Avocetbill",
+  "en_aco": "Mountain Avocetbill",
+  "es": "Colibrí Picolezna",
+  "ru": "Колибри-шилонос"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Opisthoprora euryptera",
+ "sci_name_aco": "Opisthoprora euryptera",
+ "sounds": [],
+ "taxon_order": 4501.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 2400,
+   "min_extreme": 1700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 6.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Opisthoprora%20euryptera%20182487486.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Opisthoprora%20euryptera.jpg"
+ ]
+}

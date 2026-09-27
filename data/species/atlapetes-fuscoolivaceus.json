@@ -1,0 +1,93 @@
+{
+ "authorship": "(Chapman, 1914)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dhbfin1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-fuscoolivaceus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35673,
+  "gbif": 2491464,
+  "inaturalist": "10339",
+  "iucn": "22721445",
+  "wikidata": "Q3313759",
+  "xeno_canto": "Atlapetes-fuscoolivaceus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_fuscoolivaceus",
+  "ebird": "https://ebird.org/species/dhbfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10339",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-headed_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_fuscoolivaceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+fuscoolivaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-headed Brushfinch",
+  "en_aco": "Dusky-headed Brushfinch",
+  "es": "Atlapetes Sombrío",
+  "ru": "Темноголовая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes fuscoolivaceus",
+ "sci_name_aco": "Atlapetes fuscoolivaceus",
+ "sounds": [],
+ "taxon_order": 33467.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 30.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dusky-headed%20Brush-finch%20%288079919489%29.jpg"
+ ]
+}

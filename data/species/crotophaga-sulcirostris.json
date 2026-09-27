@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbani",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Crotophaga",
+ "id": "crotophaga-sulcirostris",
+ "ids": {
+  "avibase": "C5B34740987E450C",
+  "birdbase": 3862,
+  "gbif": 2496211,
+  "inaturalist": "1972",
+  "iucn": "22684438",
+  "wikidata": "Q791145",
+  "xeno_canto": "Crotophaga-sulcirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crotophaga_sulcirostris",
+  "ebird": "https://ebird.org/species/grbani",
+  "inaturalist": "https://www.inaturalist.org/taxa/1972",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Groove-billed_ani",
+   "es": "https://es.wikipedia.org/wiki/Crotophaga_sulcirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Бороздчатоклювый_ани"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crotophaga+sulcirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Groove-billed Ani",
+  "en_aco": "Groove-billed Ani",
+  "es": "Garrapatero Asurcado",
+  "ru": "Морщинистоклювая ани"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Crotophaga sulcirostris",
+ "sci_name_aco": "Crotophaga sulcirostris",
+ "sounds": [],
+ "taxon_order": 3027.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 80.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Groove-billed%20ani%20%28Crotophaga%20sulcirostris%29%20Cayo.jpg"
+ ]
+}

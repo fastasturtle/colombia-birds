@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pebcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccyzus",
+ "id": "coccyzus-euleri",
+ "ids": {
+  "avibase": "BBA3CB9AC0CFD95D",
+  "birdbase": 4113,
+  "gbif": 2496293,
+  "inaturalist": "1968",
+  "iucn": "22684334",
+  "wikidata": "Q516097",
+  "xeno_canto": "Coccyzus-euleri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccyzus_euleri",
+  "ebird": "https://ebird.org/species/pebcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1968",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pearly-breasted_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccyzus_euleri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccyzus+euleri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pearly-breasted Cuckoo",
+  "en_aco": "Pearly-breasted Cuckoo",
+  "es": "Cuclillo Ventriblanco",
+  "ru": "Жемчужногрудая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccyzus euleri",
+ "sci_name_aco": "Coccyzus euleri",
+ "sounds": [],
+ "taxon_order": 3239.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 52.46666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pearly-breasted%20Cuckoo.jpg"
+ ]
+}

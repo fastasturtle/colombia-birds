@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-ignobilis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30750,
+  "gbif": 2490722,
+  "inaturalist": "12722",
+  "iucn": "103890779",
+  "wikidata": "Q1591704",
+  "xeno_canto": "Turdus-ignobilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_ignobilis",
+  "ebird": "https://ebird.org/species/blbthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12722",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_ignobilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+ignobilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Thrush",
+  "en_aco": "Black-billed Thrush",
+  "es": "Zorzal Piquinegro",
+  "ru": "Черноклювый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus ignobilis",
+ "sci_name_aco": "Turdus ignobilis",
+ "sounds": [],
+ "taxon_order": 28702.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 64.71666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20ignobilis%20Mirla%20embarradora%20Black-Billed%20Thrush%20%2810740816565%29.jpg"
+ ]
+}

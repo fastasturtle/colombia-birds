@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rucspa1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Zonotrichia",
+ "id": "zonotrichia-capensis",
+ "ids": {
+  "avibase": "A7280FF0F3B5EC81",
+  "birdbase": 35375,
+  "gbif": 5231103,
+  "inaturalist": "9183",
+  "iucn": "22721079",
+  "wikidata": "Q587505",
+  "xeno_canto": "Zonotrichia-capensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zonotrichia_capensis",
+  "ebird": "https://ebird.org/species/rucspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9183",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-collared_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Zonotrichia_capensis",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжегрудая_зонотрихия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zonotrichia+capensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-collared Sparrow",
+  "en_aco": "Rufous-collared Sparrow",
+  "es": "Chingolo Común",
+  "ru": "Рыжешейная зонотрихия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zonotrichia capensis",
+ "sci_name_aco": "Zonotrichia capensis",
+ "sounds": [],
+ "taxon_order": 33158.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 23.78333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zonotrichia%20capensis%2C06.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zonotrichia%20capensis%20-Buenos%20Aires%2C%20Argentina-8.jpg"
+ ]
+}

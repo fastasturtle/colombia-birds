@@ -1,0 +1,95 @@
+{
+ "authorship": "(Stephens, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "veery",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Catharus",
+ "id": "catharus-fuscescens",
+ "ids": {
+  "avibase": "0B8F4EE60AFF4B25",
+  "birdbase": 30340,
+  "gbif": 2490804,
+  "inaturalist": "12901",
+  "iucn": "22708655",
+  "wikidata": "Q1047971",
+  "xeno_canto": "Catharus-fuscescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catharus_fuscescens",
+  "ebird": "https://ebird.org/species/veery",
+  "inaturalist": "https://www.inaturalist.org/taxa/12901",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Veery",
+   "es": "https://es.wikipedia.org/wiki/Catharus_fuscescens",
+   "ru": "https://ru.wikipedia.org/wiki/Бурый_короткоклювый_дрозд"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catharus+fuscescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Veery",
+  "en_aco": "Veery",
+  "es": "Zorzalito Rojizo",
+  "ru": "Бурый соловьиный дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catharus fuscescens",
+ "sci_name_aco": "Catharus fuscescens",
+ "sounds": [],
+ "taxon_order": 28313.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3250,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 38.843333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Veery%20in%20CP%20%2843277%29.jpg"
+ ]
+}

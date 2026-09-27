@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mcgdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Paraclaravis",
+ "id": "paraclaravis-mondetoura",
+ "ids": {
+  "avibase": "B3FE23FBC64B86D2",
+  "birdbase": 4913,
+  "gbif": 11100322,
+  "inaturalist": "2991",
+  "iucn": null,
+  "wikidata": "Q1264202",
+  "xeno_canto": "Claravis-mondetoura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/mcgdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2991",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Paraclaravis+mondetoura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Maroon-chested Ground Dove",
+  "en_aco": "Maroon-chested Ground Dove",
+  "es": "Tortolita Pechimorada",
+  "ru": "Каштановогрудая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Paraclaravis mondetoura",
+ "sci_name_aco": "Paraclaravis mondetoura",
+ "sounds": [],
+ "taxon_order": 2289.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 91.23333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carpophaga%20cineracea%20-%201700-1880%20-%20Print%20-%20Iconographia%20Zoologica%20-%20Special%20Collections%20University%20of%20Amsterdam%20-%20UBA01%20IZ15600113.tif"
+ ]
+}

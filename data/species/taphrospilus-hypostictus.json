@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mashum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Taphrospilus",
+ "id": "taphrospilus-hypostictus",
+ "ids": {
+  "avibase": "FBF86EEAD9AAF5C8",
+  "birdbase": 3526,
+  "gbif": 2476313,
+  "inaturalist": "6496",
+  "iucn": "22687503",
+  "wikidata": "Q1190011",
+  "xeno_canto": "Taphrospilus-hypostictus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Taphrospilus_hypostictus",
+  "ebird": "https://ebird.org/species/mashum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6496",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Many-spotted_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Taphrospilus_hypostictus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Taphrospilus+hypostictus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Many-spotted Hummingbird",
+  "en_aco": "Many-spotted Hummingbird",
+  "es": "Colibrí Moteado",
+  "ru": "Пёстрый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Taphrospilus hypostictus",
+ "sci_name_aco": "Taphrospilus hypostictus",
+ "sounds": [],
+ "taxon_order": 5031.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2800,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 7.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Taphrospilus%20hypostictus%20%2812711177483%29.jpg"
+ ]
+}

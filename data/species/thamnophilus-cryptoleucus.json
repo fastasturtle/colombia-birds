@@ -1,0 +1,92 @@
+{
+ "authorship": "(Menegaux & Hellmayr, 1906)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "casant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-cryptoleucus",
+ "ids": {
+  "avibase": "E211C58799C64665",
+  "birdbase": 16015,
+  "gbif": 5959201,
+  "inaturalist": "15765",
+  "iucn": "22701306",
+  "wikidata": "Q1076028",
+  "xeno_canto": "Thamnophilus-cryptoleucus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_cryptoleucus",
+  "ebird": "https://ebird.org/species/casant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15765",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Castelnau's_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_cryptoleucus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+cryptoleucus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Castelnau's Antshrike",
+  "en_aco": "Castelnau's Antshrike",
+  "es": "Batará de Castelnau",
+  "ru": "Речной колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus cryptoleucus",
+ "sci_name_aco": "Thamnophilus cryptoleucus",
+ "sounds": [],
+ "taxon_order": 13551.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 31.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20cryptoleucus%20-%20Castelnau%27s%20Antshrike%20%28cropped%29.jpg"
+ ]
+}

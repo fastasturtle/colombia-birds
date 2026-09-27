@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lichtenstein, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendrocincla",
+ "id": "dendrocincla-merula",
+ "ids": {
+  "avibase": "A3525AA5D97487D5",
+  "birdbase": 14570,
+  "gbif": 2485965,
+  "inaturalist": "10882",
+  "iucn": "22703023",
+  "wikidata": "Q1271974",
+  "xeno_canto": "Dendrocincla-merula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocincla_merula",
+  "ebird": "https://ebird.org/species/whcwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10882",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chinned_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendrocincla_merula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocincla+merula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chinned Woodcreeper",
+  "en_aco": "White-chinned Woodcreeper",
+  "es": "Trepatroncos Barbiblanco",
+  "ru": "Белобородый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendrocincla merula",
+ "sci_name_aco": "Dendrocincla merula",
+ "sounds": [],
+ "taxon_order": 14645.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "rivers_lakes"
+  ],
+  "mass_g": 42.92,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendrocincla%20merula%20-%20White-chinned%20Woodcreeper%3B%20Madre%20de%20Dios%2C%20Per%C3%BA.jpg"
+ ]
+}

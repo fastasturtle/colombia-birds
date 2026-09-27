@@ -1,0 +1,97 @@
+{
+ "authorship": "(Hermann, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lesnig",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Chordeiles",
+ "id": "chordeiles-acutipennis",
+ "ids": {
+  "avibase": "9690689D23AEC109",
+  "birdbase": 1839,
+  "gbif": 2497052,
+  "inaturalist": "19587",
+  "iucn": "22689711",
+  "wikidata": "Q1274529",
+  "xeno_canto": "Chordeiles-acutipennis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chordeiles_acutipennis",
+  "ebird": "https://ebird.org/species/lesnig",
+  "inaturalist": "https://www.inaturalist.org/taxa/19587",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Chordeiles_acutipennis",
+   "ru": "https://ru.wikipedia.org/wiki/Малый_сумеречный_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chordeiles+acutipennis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Nighthawk",
+  "en_aco": "Lesser Nighthawk",
+  "es": "Añapero Garrapena",
+  "ru": "Малый сумеречник"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Chordeiles acutipennis",
+ "sci_name_aco": "Chordeiles acutipennis",
+ "sounds": [],
+ "taxon_order": 3484.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Stones and burned wood",
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "plantation",
+   "desert",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 50,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Nighthawk.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Parzudaki, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbpur1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Iodopleura",
+ "id": "iodopleura-isabellae",
+ "ids": {
+  "avibase": "C12DB91E3D352552",
+  "birdbase": 18552,
+  "gbif": 2486517,
+  "inaturalist": "8872",
+  "iucn": "22700821",
+  "wikidata": "Q63903",
+  "xeno_canto": "Iodopleura-isabellae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Iodopleura_isabellae",
+  "ebird": "https://ebird.org/species/whbpur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8872",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-browed_purpletuft",
+   "es": "https://es.wikipedia.org/wiki/Iodopleura_isabellae",
+   "ru": "https://ru.wikipedia.org/wiki/Белобровая_плюмажная_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Iodopleura+isabellae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-browed Purpletuft",
+  "en_aco": "White-browed Purpletuft",
+  "es": "Cotinguita Cejiblanco",
+  "ru": "Белолицый эполетник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Iodopleura isabellae",
+ "sci_name_aco": "Iodopleura isabellae",
+ "sounds": [],
+ "taxon_order": 16008.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 20,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iodopleura%20isabellae%20-%20White-bellied%20purpletuft%20%28female%29%3B%20Beruri%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iodopleura%20isabellae%20White-bellied%20purpletuft%20%28male%29%3B%20Cachoeira%20da%20Serra%2C%20Altamira%2C%20Par%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iodopleura%20isabellae%20White-browed%20Purpletuft%20%28couple%29%3B%20Amazonia%20National%20Park%2C%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

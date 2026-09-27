@@ -1,0 +1,92 @@
+{
+ "authorship": "(Chapman, 1914)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "apowre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Cistothorus",
+ "id": "cistothorus-apolinari",
+ "ids": {
+  "avibase": "E3052D44066D6D1C",
+  "birdbase": 28962,
+  "gbif": 2493862,
+  "inaturalist": "7600",
+  "iucn": "22711366",
+  "wikidata": "Q367270",
+  "xeno_canto": "Cistothorus-apolinari"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cistothorus_apolinari",
+  "ebird": "https://ebird.org/species/apowre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7600",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Apolinar's_wren",
+   "es": "https://es.wikipedia.org/wiki/Cistothorus_apolinari",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cistothorus+apolinari"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Apolinar's Wren",
+  "en_aco": "Apolinar's Wren",
+  "es": "Cucarachero de Apolinar",
+  "ru": "Боготский крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cistothorus apolinari",
+ "sci_name_aco": "Cistothorus apolinari",
+ "sounds": [],
+ "taxon_order": 27326.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3015,
+   "max_extreme": 3900,
+   "min": 2500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "wetland"
+  ],
+  "mass_g": 17.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cistothorus%20apolinari%20%2817186001322%29.jpg"
+ ]
+}

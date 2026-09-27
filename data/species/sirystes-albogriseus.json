@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "siryst3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Sirystes",
+ "id": "sirystes-albogriseus",
+ "ids": {
+  "avibase": "33EB23987D33F2D2",
+  "birdbase": 18105,
+  "gbif": 6101055,
+  "inaturalist": "367622",
+  "iucn": "103682304",
+  "wikidata": "Q12267457",
+  "xeno_canto": "Sirystes-albogriseus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sirystes_albogriseus",
+  "ebird": "https://ebird.org/species/siryst3",
+  "inaturalist": "https://www.inaturalist.org/taxa/367622",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Choco_sirystes",
+   "es": "https://es.wikipedia.org/wiki/Sirystes_albogriseus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sirystes+albogriseus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Sirystes",
+  "en_aco": "Choco Sirystes",
+  "es": "Mosquero del Chocó",
+  "ru": "Белокрылая сириста"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sirystes albogriseus",
+ "sci_name_aco": "Sirystes albogriseus",
+ "sounds": [],
+ "taxon_order": 17262.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 34,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Choco%20Sirystes%20-%20Darien%20-%20Panama%20%2848444492627%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sirystes%20albogriseus%20Biologia%20Centrali-Americana%201902.jpg"
+ ]
+}

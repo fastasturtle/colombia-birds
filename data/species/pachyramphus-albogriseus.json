@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawbec7",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-albogriseus",
+ "ids": {
+  "avibase": "0F9B6F63F5FAC4EA",
+  "birdbase": 18605,
+  "gbif": 5230352,
+  "inaturalist": "8665",
+  "iucn": "22700655",
+  "wikidata": "Q1306531",
+  "xeno_canto": "Pachyramphus-albogriseus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_albogriseus",
+  "ebird": "https://ebird.org/species/bawbec7",
+  "inaturalist": "https://www.inaturalist.org/taxa/8665",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-white_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_albogriseus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+albogriseus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Becard",
+  "en_aco": "Black-and-white Becard",
+  "es": "Anambé Blanquinegro",
+  "ru": "Сероспинный бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus albogriseus",
+ "sci_name_aco": "Pachyramphus albogriseus",
+ "sounds": [],
+ "taxon_order": 16057.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.75,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-and-White%20Becard%20-%20Ecuador%20S4E3868%20%2816298262843%29.jpg"
+ ]
+}

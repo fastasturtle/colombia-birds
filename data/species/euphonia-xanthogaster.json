@@ -1,0 +1,94 @@
+{
+ "authorship": "(Sundevall, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orbeup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-xanthogaster",
+ "ids": {
+  "avibase": "2D1A6C0F3363EE13",
+  "birdbase": 34864,
+  "gbif": 2488011,
+  "inaturalist": "9306",
+  "iucn": "22722766",
+  "wikidata": "Q1301056",
+  "xeno_canto": "Euphonia-xanthogaster"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_xanthogaster",
+  "ebird": "https://ebird.org/species/orbeup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9306",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-bellied_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_xanthogaster",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+xanthogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-bellied Euphonia",
+  "en_aco": "Orange-bellied Euphonia",
+  "es": "Eufonia Ventrinaranja",
+  "ru": "Оранжевобрюхая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia xanthogaster",
+ "sci_name_aco": "Euphonia xanthogaster",
+ "sounds": [],
+ "taxon_order": 32052.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2250,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Euphonia%20xanthogaster%201.jpg"
+ ]
+}

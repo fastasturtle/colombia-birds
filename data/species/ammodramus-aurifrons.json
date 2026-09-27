@@ -1,0 +1,94 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebspa1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Ammodramus",
+ "id": "ammodramus-aurifrons",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35176,
+  "gbif": 2491298,
+  "inaturalist": "10146",
+  "iucn": "22721150",
+  "wikidata": "Q2229941",
+  "xeno_canto": "Ammodramus-aurifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ammodramus_aurifrons",
+  "ebird": "https://ebird.org/species/yebspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10146",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-browed_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Ammodramus_aurifrons",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ammodramus+aurifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-browed Sparrow",
+  "en_aco": "Yellow-browed Sparrow",
+  "es": "Chingolo Cejigualdo",
+  "ru": "Желтощёкая овсянка-барсучок"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ammodramus aurifrons",
+ "sci_name_aco": "Ammodramus aurifrons",
+ "sounds": [],
+ "taxon_order": 32960.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 15.666666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-crowned%20Sparrow.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Massena & Souance, 1854)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brbpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrrhura",
+ "id": "pyrrhura-calliptera",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13451,
+  "gbif": 2479816,
+  "inaturalist": "19153",
+  "iucn": "22685867",
+  "wikidata": "Q781001",
+  "xeno_canto": "Pyrrhura-calliptera"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrrhura_calliptera",
+  "ebird": "https://ebird.org/species/brbpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/19153",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Flame-winged_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Pyrrhura_calliptera",
+   "ru": "https://ru.wikipedia.org/wiki/Роскошный_краснохвостый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrrhura+calliptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-breasted Parakeet",
+  "en_aco": "Brown-breasted Parakeet",
+  "es": "Cotorra Pechiparda",
+  "ru": "Коричневогруая которра"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrrhura calliptera",
+ "sci_name_aco": "Pyrrhura calliptera",
+ "sounds": [],
+ "taxon_order": 13067.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 88,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhura%20calliptera.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown-breasted%20Parakeet%202.jpg"
+ ]
+}

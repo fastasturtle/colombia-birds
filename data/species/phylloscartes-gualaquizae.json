@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1887)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ecutyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Phylloscartes",
+ "id": "phylloscartes-gualaquizae",
+ "ids": {
+  "avibase": "4618EFE90BA6EB3A",
+  "birdbase": 17208,
+  "gbif": 2483236,
+  "inaturalist": "16920",
+  "iucn": "22699488",
+  "wikidata": "Q1267086",
+  "xeno_canto": "Phylloscartes-gualaquizae"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phylloscartes_gualaquizae",
+  "ebird": "https://ebird.org/species/ecutyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16920",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ecuadorian_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Phylloscartes_gualaquizae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phylloscartes+gualaquizae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ecuadorian Tyrannulet",
+  "en_aco": "Ecuadorian Tyrannulet",
+  "es": "Orejerito Ecuatoriano",
+  "ru": "Эквадорский каричи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Phylloscartes gualaquizae",
+ "sci_name_aco": "Phylloscartes gualaquizae",
+ "sounds": [],
+ "taxon_order": 16278.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ecuadorian%20Tyrannulet%20-%20South%20Ecuador%20S4E0296%20%2816685960400%29.jpg"
+ ]
+}

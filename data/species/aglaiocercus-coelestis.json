@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vitsyl1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Aglaiocercus",
+ "id": "aglaiocercus-coelestis",
+ "ids": {
+  "avibase": "C1C10CECF87809A9",
+  "birdbase": 2945,
+  "gbif": 2476385,
+  "inaturalist": "5887",
+  "iucn": "22688059",
+  "wikidata": "Q934165",
+  "xeno_canto": "Aglaiocercus-coelestis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aglaiocercus_coelestis",
+  "ebird": "https://ebird.org/species/vitsyl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5887",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violet-tailed_sylph",
+   "es": "https://es.wikipedia.org/wiki/Aglaiocercus_coelestis",
+   "ru": "https://ru.wikipedia.org/wiki/Длиннохвостый_сильф"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aglaiocercus+coelestis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violet-tailed Sylph",
+  "en_aco": "Violet-tailed Sylph",
+  "es": "Silfo Celeste",
+  "ru": "Фиолетовохвостый сильф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Aglaiocercus coelestis",
+ "sci_name_aco": "Aglaiocercus coelestis",
+ "sounds": [],
+ "taxon_order": 4478.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.483333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violet-tailed%20Sylph%20%28female%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violet-tailed%20Sylph%20%28Aglaiocercus%20coelestis%29.jpg"
+ ]
+}

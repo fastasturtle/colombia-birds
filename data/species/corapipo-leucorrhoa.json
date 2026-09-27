@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbman2",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Corapipo",
+ "id": "corapipo-leucorrhoa",
+ "ids": {
+  "avibase": "AE0C6B0EEDA4915E",
+  "birdbase": 18367,
+  "gbif": 2487777,
+  "inaturalist": "14338",
+  "iucn": "103676541",
+  "wikidata": "Q1307485",
+  "xeno_canto": "Corapipo-leucorrhoa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Corapipo_leucorrhoa",
+  "ebird": "https://ebird.org/species/whbman2",
+  "inaturalist": "https://www.inaturalist.org/taxa/14338",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bibbed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Corapipo_leucorrhoa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Corapipo+leucorrhoa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bibbed Manakin",
+  "en_aco": "White-bibbed Manakin",
+  "es": "Saltarín Gorjiblanco Occidental",
+  "ru": "Белощёкий манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Corapipo leucorrhoa",
+ "sci_name_aco": "Corapipo leucorrhoa",
+ "sounds": [],
+ "taxon_order": 15721.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 11.75,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-bibbed%20Manakin.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PipraLeucorrhoaWolf.jpg"
+ ]
+}

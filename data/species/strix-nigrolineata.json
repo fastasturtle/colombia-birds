@@ -1,0 +1,96 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Strix",
+ "id": "strix-nigrolineata",
+ "ids": {
+  "avibase": "557C100E286BAC3E",
+  "birdbase": 9798,
+  "gbif": 4843093,
+  "inaturalist": "144598",
+  "iucn": "22689133",
+  "wikidata": "Q27865413",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bawowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144598",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Strix+nigrolineata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Owl",
+  "en_aco": "Black-and-white Owl",
+  "es": "Cárabo Blanquinegro",
+  "ru": "Чёрно-белая неясыть"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Strix nigrolineata",
+ "sci_name_aco": "Strix nigrolineata",
+ "sounds": [],
+ "taxon_order": 9167.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 470.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-and-white%20Owl.jpg"
+ ]
+}

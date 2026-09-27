@@ -1,0 +1,91 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fustan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Lanio",
+ "id": "lanio-fulvus",
+ "ids": {
+  "avibase": "FD883BFD83D1E5E4",
+  "birdbase": 37159,
+  "gbif": 2488285,
+  "inaturalist": "10570",
+  "iucn": "22722347",
+  "wikidata": "Q1591271",
+  "xeno_canto": "Lanio-fulvus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lanio_fulvus",
+  "ebird": "https://ebird.org/species/fustan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10570",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fulvous_shrike-tanager",
+   "es": "https://es.wikipedia.org/wiki/Lanio_fulvus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lanio+fulvus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous Shrike-Tanager",
+  "en_aco": "Fulvous Shrike-Tanager",
+  "es": "Tangara Fulva",
+  "ru": "Рыжегрудая сорокопутовая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lanio fulvus",
+ "sci_name_aco": "Lanio fulvus",
+ "sounds": [],
+ "taxon_order": 34780.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 24.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lanio%20fulvus%20-%20Fulvous%20Shrike-Tanager%20%28male%29%3B%20Botanic%20Garden%2C%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

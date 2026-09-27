@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orcman3",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Heterocercus",
+ "id": "heterocercus-aurantiivertex",
+ "ids": {
+  "avibase": "9A003ACA2A56C369",
+  "birdbase": 18404,
+  "gbif": 5230538,
+  "inaturalist": "14359",
+  "iucn": "22701165",
+  "wikidata": "Q1304682",
+  "xeno_canto": "Heterocercus-aurantiivertex"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heterocercus_aurantiivertex",
+  "ebird": "https://ebird.org/species/orcman3",
+  "inaturalist": "https://www.inaturalist.org/taxa/14359",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-crested_manakin",
+   "es": "https://es.wikipedia.org/wiki/Heterocercus_aurantiivertex",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heterocercus+aurantiivertex"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-crowned Manakin",
+  "en_aco": "Orange-crowned Manakin",
+  "es": "Saltarín Crestinaranja",
+  "ru": "Оранжевошапочный манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Heterocercus aurantiivertex",
+ "sci_name_aco": "Heterocercus aurantiivertex",
+ "sounds": [],
+ "taxon_order": 15760.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 21.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heterocercus%20aurantiivertex%20Orange-crowned%20Manakin%20%28male%29%2C%20Atalaia%20do%20Norte%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/HeterocercusAurantiivertex.jpg"
+ ]
+}

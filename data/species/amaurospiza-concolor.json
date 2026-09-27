@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blusee1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Amaurospiza",
+ "id": "amaurospiza-concolor",
+ "ids": {
+  "avibase": "15D9EAD08D5B5231",
+  "birdbase": 36683,
+  "gbif": 2491733,
+  "inaturalist": "9890",
+  "iucn": null,
+  "wikidata": "Q1591459",
+  "xeno_canto": "Amaurospiza-concolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amaurospiza_concolor",
+  "ebird": "https://ebird.org/species/blusee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9890",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Amaurospiza_concolor",
+   "ru": "https://ru.wikipedia.org/wiki/Синяя_лысушка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amaurospiza+concolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue Seedeater",
+  "en_aco": "Blue Seedeater",
+  "es": "Semillero Azul",
+  "ru": "Индиговый кардинальчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Amaurospiza concolor",
+ "sci_name_aco": "Amaurospiza concolor",
+ "sounds": [],
+ "taxon_order": 34573.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 13.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amaurospiza%20concolor%20Blue%20Seedeater%3B%20Turrialba%2C%20Costa%20Rica.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Chiroxiphia",
+ "id": "chiroxiphia-pareola",
+ "ids": {
+  "avibase": "F9CEDB911F6D1C91",
+  "birdbase": 18341,
+  "gbif": 2487766,
+  "inaturalist": "14301",
+  "iucn": "22701077",
+  "wikidata": "Q74381",
+  "xeno_canto": "Chiroxiphia-pareola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chiroxiphia_pareola",
+  "ebird": "https://ebird.org/species/blbman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14301",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-backed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Chiroxiphia_pareola",
+   "ru": "https://ru.wikipedia.org/wiki/Синеспинный_красноногий_манакин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chiroxiphia+pareola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-backed Manakin",
+  "en_aco": "Blue-backed Manakin",
+  "es": "Saltarín Dorsiazul",
+  "ru": "Синеспинный манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chiroxiphia pareola",
+ "sci_name_aco": "Chiroxiphia pareola",
+ "sounds": [],
+ "taxon_order": 15701.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 750,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 19.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Prachtpipra%20%28Chiroxiphia%20pareola%29%2001.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Wagler, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "jamori1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-leucopteryx",
+ "ids": {
+  "avibase": "4690E0C3270CF547",
+  "birdbase": 35875,
+  "gbif": 5229931,
+  "inaturalist": "9335",
+  "iucn": "22724090",
+  "wikidata": "Q1301541",
+  "xeno_canto": "Icterus-leucopteryx"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_leucopteryx",
+  "ebird": "https://ebird.org/species/jamori1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9335",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Jamaican_oriole",
+   "es": "https://es.wikipedia.org/wiki/Icterus_leucopteryx",
+   "ru": "https://ru.wikipedia.org/wiki/Ямайский_цветной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+leucopteryx"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Jamaican Oriole",
+  "en_aco": "Jamaican Oriole",
+  "es": "Turpial Jamaicano",
+  "ru": "Ямайский трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus leucopteryx",
+ "sci_name_aco": "Icterus leucopteryx",
+ "sounds": [],
+ "taxon_order": 33741.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 38,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Icterus%20leucopteryx%20Turpial%20Jamaiquino%20Jamaican%20Oriole%20%2815352565110%29.jpg"
+ ]
+}

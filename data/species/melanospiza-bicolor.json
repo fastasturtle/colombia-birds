@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkfgra",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Melanospiza",
+ "id": "melanospiza-bicolor",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37036,
+  "gbif": 9426540,
+  "inaturalist": "10315",
+  "iucn": null,
+  "wikidata": "Q941987",
+  "xeno_canto": "Tiaris-bicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tiaris_bicolor",
+  "ebird": "https://ebird.org/species/bkfgra",
+  "inaturalist": "https://www.inaturalist.org/taxa/10315",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Melanospiza+bicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-faced Grassquit",
+  "en_aco": "Black-faced Grassquit",
+  "es": "Semillero Bicolor",
+  "ru": "Чернолицый семилеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Melanospiza bicolor",
+ "sci_name_aco": "Melanospiza bicolor",
+ "sounds": [],
+ "taxon_order": 35722.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 860,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 10,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-faced%20grassquit%20%28Tiaris%20bicolor%29%20female.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-faced%20Grassquit-rwd1.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tiaris%20bicolor%20Semillero%20pechinegro%20Black-faced%20Grassquit%20%289149617739%29.jpg"
+ ]
+}

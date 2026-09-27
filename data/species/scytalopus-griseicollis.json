@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mattap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-griseicollis",
+ "ids": {
+  "avibase": "2CA03D58",
+  "birdbase": 16820,
+  "gbif": 2490998,
+  "inaturalist": "14743",
+  "iucn": "22729291",
+  "wikidata": "Q1268434",
+  "xeno_canto": "Scytalopus-griseicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_griseicollis",
+  "ebird": "https://ebird.org/species/mattap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14743",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-bellied_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_griseicollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+griseicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-bellied Tapaculo",
+  "en_aco": "Pale-bellied Tapaculo",
+  "es": "Churrín de Matorral",
+  "ru": "Сероголовый тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus griseicollis",
+ "sci_name_aco": "Scytalopus griseicollis",
+ "sounds": [],
+ "taxon_order": 14453.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3900,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 17.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20griseicollis%20morenoi%20%2826041458852%29.jpg"
+ ]
+}

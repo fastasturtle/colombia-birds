@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gramou1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Rhytipterna",
+ "id": "rhytipterna-simplex",
+ "ids": {
+  "avibase": "DB5BFD24DF40D870",
+  "birdbase": 18090,
+  "gbif": 2483676,
+  "inaturalist": "16589",
+  "iucn": "22700376",
+  "wikidata": "Q1272329",
+  "xeno_canto": "Rhytipterna-simplex"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhytipterna_simplex",
+  "ebird": "https://ebird.org/species/gramou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16589",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greyish_mourner",
+   "es": "https://es.wikipedia.org/wiki/Rhytipterna_simplex",
+   "ru": "https://ru.wikipedia.org/wiki/Rhytipterna_simplex"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhytipterna+simplex"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grayish Mourner",
+  "en_aco": "Grayish Mourner",
+  "es": "Plañidera Gris",
+  "ru": "Серый тиранн-плакса"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhytipterna simplex",
+ "sci_name_aco": "Rhytipterna simplex",
+ "sounds": [],
+ "taxon_order": 17274.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 33.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rhytipterna%20simplex%20-%20Grayish%20Mourner.jpg"
+ ]
+}

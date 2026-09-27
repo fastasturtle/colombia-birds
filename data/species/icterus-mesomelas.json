@@ -1,0 +1,95 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yetori1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-mesomelas",
+ "ids": {
+  "avibase": "7F1FF92AFE226D31",
+  "birdbase": 35911,
+  "gbif": 5229869,
+  "inaturalist": "9350",
+  "iucn": "22724096",
+  "wikidata": "Q1302700",
+  "xeno_canto": "Icterus-mesomelas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_mesomelas",
+  "ebird": "https://ebird.org/species/yetori1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9350",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-tailed_oriole",
+   "es": "https://es.wikipedia.org/wiki/Icterus_mesomelas",
+   "ru": "https://ru.wikipedia.org/wiki/Желтохвостый_цветной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+mesomelas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-tailed Oriole",
+  "en_aco": "Yellow-tailed Oriole",
+  "es": "Turpial Coliamarillo",
+  "ru": "Желтохвостый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus mesomelas",
+ "sci_name_aco": "Icterus mesomelas",
+ "sounds": [],
+ "taxon_order": 33700.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 48.82000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Icterus%20mesomelas.jpg"
+ ]
+}

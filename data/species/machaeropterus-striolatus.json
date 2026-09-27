@@ -1,0 +1,92 @@
+{
+ "authorship": "(Hahn, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "strman5",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Machaeropterus",
+ "id": "machaeropterus-striolatus",
+ "ids": {
+  "avibase": "B4FFD3993307F7E7",
+  "birdbase": 18450,
+  "gbif": 6101077,
+  "inaturalist": "827391",
+  "iucn": "103676114",
+  "wikidata": "Q12262806",
+  "xeno_canto": "Machaeropterus-striolatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Machaeropterus_striolatus",
+  "ebird": "https://ebird.org/species/strman5",
+  "inaturalist": "https://www.inaturalist.org/taxa/827391",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Striolated_manakin",
+   "es": "https://es.wikipedia.org/wiki/Machaeropterus_striolatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Machaeropterus+striolatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Striolated Manakin",
+  "en_aco": "Striolated Manakin",
+  "es": "Saltarín Rayado Occidental",
+  "ru": "Полосатая пипра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Machaeropterus striolatus",
+ "sci_name_aco": "Machaeropterus striolatus",
+ "sounds": [],
+ "taxon_order": 15805.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 9.566666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Machaeropterus%20striolatus%20-%20Western%20Striped%20Manakin%20%28male%29%3B%20Serra%20do%20Divisor%20National%20Park%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

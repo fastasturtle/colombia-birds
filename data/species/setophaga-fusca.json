@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkbwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-fusca",
+ "ids": {
+  "avibase": "4168AF09C7BCB40B",
+  "birdbase": 36246,
+  "gbif": 6093199,
+  "inaturalist": "145237",
+  "iucn": "22721695",
+  "wikidata": "Q27075919",
+  "xeno_canto": "Setophaga-fusca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_fusca",
+  "ebird": "https://ebird.org/species/bkbwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145237",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blackburnian_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_fusca",
+   "ru": "https://ru.wikipedia.org/wiki/Еловый_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+fusca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blackburnian Warbler",
+  "en_aco": "Blackburnian Warbler",
+  "es": "Reinita Gorjinaranja",
+  "ru": "Еловая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga fusca",
+ "sci_name_aco": "Setophaga fusca",
+ "sounds": [],
+ "taxon_order": 34084.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 10.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blackburnian%20warbler%20%2871064%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blackburnian%20warbler%20%2881156%29.jpg"
+ ]
+}

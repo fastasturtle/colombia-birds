@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "anhing",
+ "family": {
+  "code": "anhing3",
+  "en": "Anhingas",
+  "sci": "Anhingidae"
+ },
+ "genus": "Anhinga",
+ "id": "anhinga-anhinga",
+ "ids": {
+  "avibase": "FBDAE86A5CF7B698",
+  "birdbase": 7710,
+  "gbif": 2482082,
+  "inaturalist": "5063",
+  "iucn": "22696702",
+  "wikidata": "Q469940",
+  "xeno_canto": "Anhinga-anhinga"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anhinga_anhinga",
+  "ebird": "https://ebird.org/species/anhing",
+  "inaturalist": "https://www.inaturalist.org/taxa/5063",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Anhinga",
+   "es": "https://es.wikipedia.org/wiki/Anhinga_anhinga",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_змеешейка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anhinga+anhinga"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Anhinga",
+  "en_aco": "Anhinga",
+  "es": "Anhinga Americana",
+  "ru": "Американская змеешейка"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Anhinga anhinga",
+ "sci_name_aco": "Anhinga anhinga",
+ "sounds": [],
+ "taxon_order": 7367.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1085,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anhinga%20anhinga%20-Costa%20Rica-8.jpg"
+ ]
+}

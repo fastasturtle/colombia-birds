@@ -1,0 +1,91 @@
+{
+ "authorship": "(G.R. Gray, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scafru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Ampelioides",
+ "id": "ampelioides-tschudii",
+ "ids": {
+  "avibase": "4D9E317C04BE8CB5",
+  "birdbase": 18215,
+  "gbif": 2486328,
+  "inaturalist": "8918",
+  "iucn": "22700815",
+  "wikidata": "Q662232",
+  "xeno_canto": "Ampelioides-tschudii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ampelioides_tschudii",
+  "ebird": "https://ebird.org/species/scafru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8918",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaled_fruiteater",
+   "es": "https://es.wikipedia.org/wiki/Ampelioides_tschudii",
+   "ru": "https://ru.wikipedia.org/wiki/Чешуйчатый_плодоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ampelioides+tschudii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaled Fruiteater",
+  "en_aco": "Scaled Fruiteater",
+  "es": "Frutero Escamoso",
+  "ru": "Чешуйчатый ягодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ampelioides tschudii",
+ "sci_name_aco": "Ampelioides tschudii",
+ "sounds": [],
+ "taxon_order": 15881.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 575,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 80.91666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scaled%20fruiteater%20%28Ampelioides%20tschudii%29%20La%20Tangaras.jpg"
+ ]
+}

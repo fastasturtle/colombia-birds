@@ -1,0 +1,91 @@
+{
+ "authorship": "(Chapman, 1914)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rutxen1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Microxenops",
+ "id": "microxenops-milleri",
+ "ids": {
+  "avibase": "4405C73D00DCED42",
+  "birdbase": 14931,
+  "gbif": 5846364,
+  "inaturalist": "201095",
+  "iucn": "22702984",
+  "wikidata": "Q843631",
+  "xeno_canto": "Microxenops-milleri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Microxenops_milleri",
+  "ebird": "https://ebird.org/species/rutxen1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201095",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-tailed_xenops",
+   "es": "https://es.wikipedia.org/wiki/Microxenops_milleri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microxenops+milleri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-tailed Xenops",
+  "en_aco": "Rufous-tailed Xenops",
+  "es": "Picolezna Colirrufo",
+  "ru": "Краснохвостый долотоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Microxenops milleri",
+ "sci_name_aco": "Microxenops milleri",
+ "sounds": [],
+ "taxon_order": 15001.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 12.183333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Microxenops%20milleri%20-%20Rufous-tailed%20Xenops%3B%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

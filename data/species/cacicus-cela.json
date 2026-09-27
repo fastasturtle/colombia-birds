@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yercac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-cela",
+ "ids": {
+  "avibase": "EC71EBACA5EC1A5C",
+  "birdbase": 35842,
+  "gbif": 5229832,
+  "inaturalist": "10359",
+  "iucn": "103792683",
+  "wikidata": "Q580297",
+  "xeno_canto": "Cacicus-cela"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_cela",
+  "ebird": "https://ebird.org/species/yercac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10359",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-rumped_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_cela",
+   "ru": "https://ru.wikipedia.org/wiki/Желтопоясничный_чёрный_кассик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+cela"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-rumped Cacique",
+  "en_aco": "Yellow-rumped Cacique",
+  "es": "Cacique Lomiamarillo",
+  "ru": "Желтопоясничный кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus cela",
+ "sci_name_aco": "Cacicus cela",
+ "sounds": [],
+ "taxon_order": 33649.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 87.60000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cacicus%20cela%20Yellow-rumped%20Cacique%3B%20M%C3%A2ncio%20Lima%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

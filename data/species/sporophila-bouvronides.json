@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lessee2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-bouvronides",
+ "ids": {
+  "avibase": "CF81E248FE3244C6",
+  "birdbase": 37201,
+  "gbif": 2491339,
+  "inaturalist": "9490",
+  "iucn": "22723431",
+  "wikidata": "Q1306678",
+  "xeno_canto": "Sporophila-bouvronides"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_bouvronides",
+  "ebird": "https://ebird.org/species/lessee2",
+  "inaturalist": "https://www.inaturalist.org/taxa/9490",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesson's_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_bouvronides",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+bouvronides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesson's Seedeater",
+  "en_aco": "Lesson's Seedeater",
+  "es": "Semillero de Lesson",
+  "ru": "Белоусый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila bouvronides",
+ "sci_name_aco": "Sporophila bouvronides",
+ "sounds": [],
+ "taxon_order": 35514.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 9.38,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20bouvronides%20-%20Leson%27s%20Seedeater%20%28male%29%3B%20Iranduba%2C%20Amazonas%2C%20Brazil%2002.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1875)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cratan1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Driophlox",
+ "id": "driophlox-cristata",
+ "ids": {
+  "avibase": "231FAF072E56F873",
+  "birdbase": 36602,
+  "gbif": 5230723,
+  "inaturalist": "9931",
+  "iucn": "22722437",
+  "wikidata": "Q1301436",
+  "xeno_canto": "Habia-cristata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Habia_cristata",
+  "ebird": "https://ebird.org/species/cratan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9931",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_ant_tanager",
+   "es": "https://es.wikipedia.org/wiki/Habia_cristata",
+   "ru": "https://ru.wikipedia.org/wiki/Хохлатая_хабия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Driophlox+cristata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Ant-Tanager",
+  "en_aco": "Crested Ant-Tanager",
+  "es": "Habia Copetona",
+  "ru": "Хохлатая хабия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Driophlox cristata",
+ "sci_name_aco": "Habia cristata",
+ "sounds": [],
+ "taxon_order": 34491.0,
+ "taxonomy_note": "ACO/SACC lists this as Habia cristata; eBird/Clements uses Driophlox cristata.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crested%20Ant%20Tanager%20%28Habia%20cristata%29%20%288079775659%29.jpg"
+ ]
+}

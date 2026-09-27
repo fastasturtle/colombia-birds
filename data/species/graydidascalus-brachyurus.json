@@ -1,0 +1,94 @@
+{
+ "authorship": "(Kuhl, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shtpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Graydidascalus",
+ "id": "graydidascalus-brachyurus",
+ "ids": {
+  "avibase": "44DA4D4E2BABF787",
+  "birdbase": 13254,
+  "gbif": 2479735,
+  "inaturalist": "19127",
+  "iucn": "22686172",
+  "wikidata": "Q1262737",
+  "xeno_canto": "Graydidascalus-brachyurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Graydidascalus_brachyurus",
+  "ebird": "https://ebird.org/species/shtpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/19127",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-tailed_parrot",
+   "es": "https://es.wikipedia.org/wiki/Graydidascalus_brachyurus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Graydidascalus+brachyurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-tailed Parrot",
+  "en_aco": "Short-tailed Parrot",
+  "es": "Lorito Colicorto",
+  "ru": "Короткохвостый амазонет"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Graydidascalus brachyurus",
+ "sci_name_aco": "Graydidascalus brachyurus",
+ "sounds": [],
+ "taxon_order": 12897.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 195.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Graydidascalus%20brachyurus%20-%20Short-tailed%20parrot%2C%20Careiro%20da%20V%C3%A1rzea%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

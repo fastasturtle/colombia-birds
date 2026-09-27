@@ -1,0 +1,91 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scsvir1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireolanius",
+ "id": "vireolanius-leucotis",
+ "ids": {
+  "avibase": "D674D8F4A5999F9B",
+  "birdbase": 21389,
+  "gbif": 2487484,
+  "inaturalist": "17418",
+  "iucn": "103693756",
+  "wikidata": "Q1588787",
+  "xeno_canto": "Vireolanius-leucotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireolanius_leucotis",
+  "ebird": "https://ebird.org/species/scsvir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17418",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-capped_shrike-vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireolanius_leucotis",
+   "ru": "https://ru.wikipedia.org/wiki/Серошапочный_сорокопутовый_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireolanius+leucotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty-capped Shrike-Vireo",
+  "en_aco": "Slaty-capped Shrike-Vireo",
+  "es": "Vireón Coronigrís",
+  "ru": "Серошапочный сорокопутовый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireolanius leucotis",
+ "sci_name_aco": "Vireolanius leucotis",
+ "sounds": [],
+ "taxon_order": 19116.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2100,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 25.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/VireolaniusLeucotisKeulemans.jpg"
+ ]
+}

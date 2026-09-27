@@ -1,0 +1,91 @@
+{
+ "authorship": "(Chubb, 1914)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkbthr3",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-arthuri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30756,
+  "gbif": 7765228,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q21355431",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bkbthr3",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+arthuri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Campina Thrush",
+  "en_aco": "Campina Thrush",
+  "es": "Zorzal Guayanés",
+  "ru": "Гвианский дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus arthuri",
+ "sci_name_aco": "Turdus arthuri",
+ "sounds": [],
+ "taxon_order": 28707.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 58,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

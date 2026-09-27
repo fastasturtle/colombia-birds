@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cobtan1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Chlorospingus",
+ "id": "chlorospingus-flavopectus",
+ "ids": {
+  "avibase": "5F80B24D527A729F",
+  "birdbase": 35080,
+  "gbif": 2488710,
+  "inaturalist": "339893",
+  "iucn": "22722162",
+  "wikidata": "Q2630970",
+  "xeno_canto": "Chlorospingus-flavopectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorospingus_flavopectus",
+  "ebird": "https://ebird.org/species/cobtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339893",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_chlorospingus",
+   "es": "https://es.wikipedia.org/wiki/Chlorospingus_flavopectus",
+   "ru": "https://ru.wikipedia.org/wiki/Очковая_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorospingus+flavopectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Chlorospingus",
+  "en_aco": "Common Chlorospingus",
+  "es": "Clorospingo Común",
+  "ru": "Очковый дромник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorospingus flavopectus",
+ "sci_name_aco": "Chlorospingus flavopectus",
+ "sounds": [],
+ "taxon_order": 32867.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3500,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 19.733333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorospingus%20ophthalmicus%20Santa%20Elena%201.JPG"
+ ]
+}

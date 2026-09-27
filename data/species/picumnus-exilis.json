@@ -1,0 +1,96 @@
+{
+ "authorship": "(M.H.K. Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gospic1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-exilis",
+ "ids": {
+  "avibase": "B2E68FE67FDC5E50",
+  "birdbase": 11689,
+  "gbif": 5228733,
+  "inaturalist": "17751",
+  "iucn": "61487852",
+  "wikidata": "Q1271295",
+  "xeno_canto": "Picumnus-exilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_exilis",
+  "ebird": "https://ebird.org/species/gospic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17751",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-spangled_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_exilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+exilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-spangled Piculet",
+  "en_aco": "Golden-spangled Piculet",
+  "es": "Carpinterito Telegrafista",
+  "ru": "Малый дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus exilis",
+ "sci_name_aco": "Picumnus exilis",
+ "sounds": [],
+ "taxon_order": 11032.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "savanna",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 9.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20exilis%20buffonii%20-%20Golden-spangled%20Piculet%20%28female%29%3B%20Pte.%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

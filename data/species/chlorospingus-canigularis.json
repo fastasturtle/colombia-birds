@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "atbtan1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Chlorospingus",
+ "id": "chlorospingus-canigularis",
+ "ids": {
+  "avibase": "C6F07B0B029C9F9A",
+  "birdbase": 35070,
+  "gbif": 2488739,
+  "inaturalist": "10207",
+  "iucn": "22722203",
+  "wikidata": "Q673194",
+  "xeno_canto": "Chlorospingus-canigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorospingus_canigularis",
+  "ebird": "https://ebird.org/species/atbtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10207",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ashy-throated_chlorospingus",
+   "es": "https://es.wikipedia.org/wiki/Chlorospingus_canigularis",
+   "ru": "https://ru.wikipedia.org/wiki/Серогорлая_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorospingus+canigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ashy-throated Chlorospingus",
+  "en_aco": "Ashy-throated Chlorospingus",
+  "es": "Clorospingo Gorjigrís",
+  "ru": "Серогорлый дромник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorospingus canigularis",
+ "sci_name_aco": "Chlorospingus canigularis",
+ "sounds": [],
+ "taxon_order": 32857.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 17.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorospingus%20canigularis%20%28Montero%20pectoral%29%20%2814144366981%29.jpg"
+ ]
+}

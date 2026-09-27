@@ -1,0 +1,94 @@
+{
+ "authorship": "(Jardine, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "toubar1",
+ "family": {
+  "code": "semnor1",
+  "en": "Toucan-Barbets",
+  "sci": "Semnornithidae"
+ },
+ "genus": "Semnornis",
+ "id": "semnornis-ramphastinus",
+ "ids": {
+  "avibase": "0283EBE33192D852",
+  "birdbase": 11153,
+  "gbif": 2478863,
+  "inaturalist": "117180",
+  "iucn": "22681956",
+  "wikidata": "Q592956",
+  "xeno_canto": "Semnornis-ramphastinus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Semnornis_ramphastinus",
+  "ebird": "https://ebird.org/species/toubar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/117180",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Toucan_barbet",
+   "es": "https://es.wikipedia.org/wiki/Semnornis_ramphastinus",
+   "ru": "https://ru.wikipedia.org/wiki/Туканий_бородастик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Semnornis+ramphastinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Toucan Barbet",
+  "en_aco": "Toucan Barbet",
+  "es": "Cabezón Tucán",
+  "ru": "Тукановая бородатка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Semnornis ramphastinus",
+ "sci_name_aco": "Semnornis ramphastinus",
+ "sounds": [],
+ "taxon_order": 10832.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 98.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Semnornis%20ramphastinus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TOBAatFeeder.JPG"
+ ]
+}

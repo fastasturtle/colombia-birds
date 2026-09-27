@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blapew1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Contopus",
+ "id": "contopus-nigrescens",
+ "ids": {
+  "avibase": "F5A714291DF0AA95",
+  "birdbase": 17704,
+  "gbif": 5229739,
+  "inaturalist": "16076",
+  "iucn": "22699824",
+  "wikidata": "Q1269180",
+  "xeno_canto": "Contopus-nigrescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Contopus_nigrescens",
+  "ebird": "https://ebird.org/species/blapew1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16076",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blackish_pewee",
+   "es": "https://es.wikipedia.org/wiki/Contopus_nigrescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Contopus+nigrescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blackish Pewee",
+  "en_aco": "Blackish Pewee",
+  "es": "Pibí Negruzco",
+  "ru": "Черноватый пиви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Contopus nigrescens",
+ "sci_name_aco": "Contopus nigrescens",
+ "sounds": [],
+ "taxon_order": 16906.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3000,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Contopus%20nigrescens%20-%20Blackish%20pewee.JPG"
+ ]
+}

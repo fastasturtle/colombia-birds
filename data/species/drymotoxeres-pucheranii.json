@@ -1,0 +1,91 @@
+{
+ "authorship": "(Des Murs, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grescy1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Drymotoxeres",
+ "id": "drymotoxeres-pucheranii",
+ "ids": {
+  "avibase": "AC386DCD3EF02107",
+  "birdbase": 14845,
+  "gbif": 6085997,
+  "inaturalist": "144693",
+  "iucn": "22703177",
+  "wikidata": "Q27075114",
+  "xeno_canto": "Drymotoxeres-pucheranii"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Drymotoxeres_pucheranii",
+  "ebird": "https://ebird.org/species/grescy1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144693",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greater_scythebill",
+   "es": "https://es.wikipedia.org/wiki/Drymotoxeres_pucheranii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Drymotoxeres+pucheranii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Greater Scythebill",
+  "en_aco": "Greater Scythebill",
+  "es": "Picoguadaña Grande",
+  "ru": "Большой дугоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Drymotoxeres pucheranii",
+ "sci_name_aco": "Drymotoxeres pucheranii",
+ "sounds": [],
+ "taxon_order": 14919.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3250,
+   "min": 2000,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 70.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Drymotoxeres%20pucheranii%201849.jpg"
+ ]
+}

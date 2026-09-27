@@ -1,0 +1,93 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "homtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Buthraupis",
+ "id": "buthraupis-montana",
+ "ids": {
+  "avibase": "B2725161D647D655",
+  "birdbase": 37664,
+  "gbif": 2488303,
+  "inaturalist": "10381",
+  "iucn": "22722601",
+  "wikidata": "Q1586718",
+  "xeno_canto": "Buthraupis-montana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buthraupis_montana",
+  "ebird": "https://ebird.org/species/homtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10381",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hooded_mountain_tanager",
+   "es": "https://es.wikipedia.org/wiki/Buthraupis_montana",
+   "ru": "https://ru.wikipedia.org/wiki/Синеспинная_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buthraupis+montana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hooded Mountain Tanager",
+  "en_aco": "Hooded Mountain-Tanager",
+  "es": "Tangara Montana",
+  "ru": "Горная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Buthraupis montana",
+ "sci_name_aco": "Buthraupis montana",
+ "sounds": [],
+ "taxon_order": 34839.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": 1100
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 85.66666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buthraupis%20montana%20%28Azulejo%20real%29%20%2816394162371%29.jpg"
+ ]
+}

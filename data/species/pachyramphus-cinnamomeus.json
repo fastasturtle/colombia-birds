@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cinbec1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-cinnamomeus",
+ "ids": {
+  "avibase": "BBABBA539E0A29E1",
+  "birdbase": 18585,
+  "gbif": 5230338,
+  "inaturalist": "8690",
+  "iucn": "22700641",
+  "wikidata": "Q1310320",
+  "xeno_canto": "Pachyramphus-cinnamomeus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_cinnamomeus",
+  "ebird": "https://ebird.org/species/cinbec1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8690",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_cinnamomeus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+cinnamomeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon Becard",
+  "en_aco": "Cinnamon Becard",
+  "es": "Anambé Canelo",
+  "ru": "Коричневый бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus cinnamomeus",
+ "sci_name_aco": "Pachyramphus cinnamomeus",
+ "sounds": [],
+ "taxon_order": 16037.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 20.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Rainbirder%20-%20Cinnamon%20Becard%20%28Pachyramphus%20cinnamomeus%29%20%281%29%20%28cropped%29.jpg"
+ ]
+}

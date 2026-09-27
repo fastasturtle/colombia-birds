@@ -1,0 +1,93 @@
+{
+ "authorship": "(Chapman, 1923)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bicant4",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Dysithamnus",
+ "id": "dysithamnus-occidentalis",
+ "ids": {
+  "avibase": "F894C14050784304",
+  "birdbase": 15952,
+  "gbif": 2490030,
+  "inaturalist": "15915",
+  "iucn": "22701407",
+  "wikidata": "Q1263966",
+  "xeno_canto": "Dysithamnus-occidentalis"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dysithamnus_occidentalis",
+  "ebird": "https://ebird.org/species/bicant4",
+  "inaturalist": "https://www.inaturalist.org/taxa/15915",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bicolored_antvireo",
+   "es": "https://es.wikipedia.org/wiki/Dysithamnus_occidentalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dysithamnus+occidentalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bicolored Antvireo",
+  "en_aco": "Bicolored Antvireo",
+  "es": "Batarito Bicolor",
+  "ru": "Западный батарито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dysithamnus occidentalis",
+ "sci_name_aco": "Dysithamnus occidentalis",
+ "sounds": [],
+ "taxon_order": 13649.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dysithamnus%20occidentalis%20-%20Bicolored%20Antvireo.jpg"
+ ]
+}

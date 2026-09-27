@@ -1,0 +1,91 @@
+{
+ "authorship": "(Temminck, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ameoys",
+ "family": {
+  "code": "haemat1",
+  "en": "Oystercatchers",
+  "sci": "Haematopodidae"
+ },
+ "genus": "Haematopus",
+ "id": "haematopus-palliatus",
+ "ids": {
+  "avibase": "981CE782575DD8E7",
+  "birdbase": 6398,
+  "gbif": 2480273,
+  "inaturalist": "4840",
+  "iucn": "22693644",
+  "wikidata": "Q692644",
+  "xeno_canto": "Haematopus-palliatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Haematopus_palliatus",
+  "ebird": "https://ebird.org/species/ameoys",
+  "inaturalist": "https://www.inaturalist.org/taxa/4840",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_oystercatcher",
+   "es": "https://es.wikipedia.org/wiki/Haematopus_palliatus",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_кулик-сорока"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Haematopus+palliatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Oystercatcher",
+  "en_aco": "American Oystercatcher",
+  "es": "Ostrero Pío Americano",
+  "ru": "Американский кулик-сорока"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Haematopus palliatus",
+ "sci_name_aco": "Haematopus palliatus",
+ "sounds": [],
+ "taxon_order": 5799.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "L",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "coastal"
+  ],
+  "mass_g": 590.6666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20oystercatchers%20at%20Fort%20Tilden%20%2860747%29.jpg"
+ ]
+}

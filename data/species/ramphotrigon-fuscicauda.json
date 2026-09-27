@@ -1,0 +1,93 @@
+{
+ "authorship": "(Chapman, 1925)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dutfla1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Ramphotrigon",
+ "id": "ramphotrigon-fuscicauda",
+ "ids": {
+  "avibase": "872F0AA9CE5B25CF",
+  "birdbase": 18189,
+  "gbif": 2483868,
+  "inaturalist": "17000",
+  "iucn": "22700473",
+  "wikidata": "Q1264272",
+  "xeno_canto": "Ramphotrigon-fuscicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphotrigon_fuscicauda",
+  "ebird": "https://ebird.org/species/dutfla1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17000",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-tailed_flatbill",
+   "es": "https://es.wikipedia.org/wiki/Ramphotrigon_fuscicauda",
+   "ru": "https://ru.wikipedia.org/wiki/Темнохвостый_плоскоклювый_мухоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphotrigon+fuscicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-tailed Flatbill",
+  "en_aco": "Dusky-tailed Flatbill",
+  "es": "Picoplano Colioscuro",
+  "ru": "Темнохвостый плосконос"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ramphotrigon fuscicauda",
+ "sci_name_aco": "Ramphotrigon fuscicauda",
+ "sounds": [],
+ "taxon_order": 17234.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1050,
+   "max_extreme": null,
+   "min": 250,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 18.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphotrigon%20fuscicauda%20-%20Dusky-tailed%20Flatbill%3B%20Ramal%20do%20Noca%2C%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

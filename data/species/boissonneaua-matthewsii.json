@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbcor1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Boissonneaua",
+ "id": "boissonneaua-matthewsii",
+ "ids": {
+  "avibase": "AF91A813BCFDB7F7",
+  "birdbase": 3165,
+  "gbif": 2476790,
+  "inaturalist": "6445",
+  "iucn": "22687871",
+  "wikidata": "Q1260811",
+  "xeno_canto": "Boissonneaua-matthewsii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Boissonneaua_matthewsii",
+  "ebird": "https://ebird.org/species/chbcor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6445",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-breasted_coronet",
+   "es": "https://es.wikipedia.org/wiki/Boissonneaua_matthewsii",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановогрудый_венценосный_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Boissonneaua+matthewsii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-breasted Coronet",
+  "en_aco": "Chestnut-breasted Coronet",
+  "es": "Colibrí Pechirrojo",
+  "ru": "Каштановогрудый венценосец"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Boissonneaua matthewsii",
+ "sci_name_aco": "Boissonneaua matthewsii",
+ "sounds": [],
+ "taxon_order": 4675.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 7.4125000000000005,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-breasted%20Coronet%20JCB%20%28cropped%29.jpg"
+ ]
+}

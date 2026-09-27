@@ -1,0 +1,92 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whihaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Pseudastur",
+ "id": "pseudastur-albicollis",
+ "ids": {
+  "avibase": "E35448DEFB562CCC",
+  "birdbase": 8750,
+  "gbif": 8357600,
+  "inaturalist": "199830",
+  "iucn": "22695786",
+  "wikidata": "Q968906",
+  "xeno_canto": "Pseudastur-albicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pseudastur_albicollis",
+  "ebird": "https://ebird.org/species/whihaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/199830",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White_hawk",
+   "es": "https://es.wikipedia.org/wiki/Pseudastur_albicollis",
+   "ru": "https://ru.wikipedia.org/wiki/Белый_пегий_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pseudastur+albicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White Hawk",
+  "en_aco": "White Hawk",
+  "es": "Busardo Blanco",
+  "ru": "Белая агуйла"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Pseudastur albicollis",
+ "sci_name_aco": "Pseudastur albicollis",
+ "sounds": [],
+ "taxon_order": 8463.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 702.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Hawk%201%202496239182%20cropped.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "surfbi",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-virgata",
+ "ids": {
+  "avibase": "11CF8C9A9638ADFC",
+  "birdbase": 6807,
+  "gbif": 7964835,
+  "inaturalist": "339592",
+  "iucn": "22693356",
+  "wikidata": "Q28070835",
+  "xeno_canto": "Calidris-virgata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_virgata",
+  "ebird": "https://ebird.org/species/surfbi",
+  "inaturalist": "https://www.inaturalist.org/taxa/339592",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Surfbird",
+   "es": "https://es.wikipedia.org/wiki/Calidris_virgata",
+   "ru": "https://ru.wikipedia.org/wiki/Бурунный_кулик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+virgata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Surfbird",
+  "en_aco": "Surfbird",
+  "es": "Correlimos de Rompientes",
+  "ru": "Бурунный песочник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris virgata",
+ "sci_name_aco": "Calidris virgata",
+ "sounds": [],
+ "taxon_order": 6174.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "riparian",
+   "coastal"
+  ],
+  "mass_g": 190.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aphriza%20virgata%20Cayucos%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Surf%20Bird%20%28Aphriza%20virgata%29%20%2813853530975%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Surfbird%20RWD5.jpg"
+ ]
+}

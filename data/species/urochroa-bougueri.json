@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whthil2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Urochroa",
+ "id": "urochroa-bougueri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 3178,
+  "gbif": 2476897,
+  "inaturalist": "567991",
+  "iucn": null,
+  "wikidata": "Q27612024",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/whthil2",
+  "inaturalist": "https://www.inaturalist.org/taxa/567991",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Urochroa+bougueri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-gaped Hillstar",
+  "en_aco": "Rufous-gaped Hillstar",
+  "es": "Colibrí de Bouguer Occidental",
+  "ru": "Оранжевоусый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Urochroa bougueri",
+ "sci_name_aco": "Urochroa bougueri",
+ "sounds": [],
+ "taxon_order": 4689.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": 1600
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.35,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruswoo1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chaetocercus",
+ "id": "chaetocercus-jourdanii",
+ "ids": {
+  "avibase": "956D9AB76A2C8D39",
+  "birdbase": 3293,
+  "gbif": 5228579,
+  "inaturalist": "6177",
+  "iucn": "22688290",
+  "wikidata": "Q1270211",
+  "xeno_canto": "Chaetocercus-jourdanii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetocercus_jourdanii",
+  "ebird": "https://ebird.org/species/ruswoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6177",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-shafted_woodstar",
+   "es": "https://es.wikipedia.org/wiki/Chaetocercus_jourdanii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetocercus+jourdanii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-shafted Woodstar",
+  "en_aco": "Rufous-shafted Woodstar",
+  "es": "Colibrí de Jourdan",
+  "ru": "Красногорлый эльф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetocercus jourdanii",
+ "sci_name_aco": "Chaetocercus jourdanii",
+ "sounds": [],
+ "taxon_order": 4789.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3000,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 3.26,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Histoirenaturell31877muls%200351.jpg"
+ ]
+}

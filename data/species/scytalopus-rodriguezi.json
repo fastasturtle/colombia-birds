@@ -1,0 +1,89 @@
+{
+ "authorship": "(Krabbe, P.G.W. Salaman, A. Cortes, A. Quevedo, L.A. Ortega & C.D. Cadena, 2005)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "upmtap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-rodriguezi",
+ "ids": {
+  "avibase": "44F1FA5E528D3C56",
+  "birdbase": 16812,
+  "gbif": 5789077,
+  "inaturalist": "73380",
+  "iucn": "22734661",
+  "wikidata": "Q973602",
+  "xeno_canto": "Scytalopus-rodriguezi"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_rodriguezi",
+  "ebird": "https://ebird.org/species/upmtap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73380",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Magdalena_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_rodriguezi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+rodriguezi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Magdalena Tapaculo",
+  "en_aco": "Magdalena Tapaculo",
+  "es": "Churrín del Alto Magdalena",
+  "ru": "Магдаленский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus rodriguezi",
+ "sci_name_aco": "Scytalopus rodriguezi",
+ "sounds": [],
+ "taxon_order": 14445.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 20.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

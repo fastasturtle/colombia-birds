@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.R. Forster, 1772)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkpwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-striata",
+ "ids": {
+  "avibase": "544A5E6BC69CEAAC",
+  "birdbase": 36294,
+  "gbif": 6092935,
+  "inaturalist": "145240",
+  "iucn": "22721737",
+  "wikidata": "Q27075924",
+  "xeno_canto": "Setophaga-striata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_striata",
+  "ebird": "https://ebird.org/species/bkpwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145240",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_striata",
+   "ru": "https://ru.wikipedia.org/wiki/Пестрогрудый_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+striata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blackpoll Warbler",
+  "en_aco": "Blackpoll Warbler",
+  "es": "Reinita Estriada",
+  "ru": "Пестрогрудая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga striata",
+ "sci_name_aco": "Setophaga striata",
+ "sounds": [],
+ "taxon_order": 34138.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 14.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-poll%20Warbler%20NGM-v31-p313-B.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blackpoll%20Warbler%20PJT.JPG"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blftan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Schistochlamys",
+ "id": "schistochlamys-melanopis",
+ "ids": {
+  "avibase": "C78F380385259557",
+  "birdbase": 37752,
+  "gbif": 2488064,
+  "inaturalist": "10437",
+  "iucn": "22722123",
+  "wikidata": "Q770865",
+  "xeno_canto": "Schistochlamys-melanopis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schistochlamys_melanopis",
+  "ebird": "https://ebird.org/species/blftan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10437",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-faced_tanager",
+   "es": "https://es.wikipedia.org/wiki/Schistochlamys_melanopis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schistochlamys+melanopis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-faced Tanager",
+  "en_aco": "Black-faced Tanager",
+  "es": "Tangara Carinegra",
+  "ru": "Чернолицая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Schistochlamys melanopis",
+ "sci_name_aco": "Schistochlamys melanopis",
+ "sounds": [],
+ "taxon_order": 34647.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 34.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-faced%20tanager.jpg"
+ ]
+}

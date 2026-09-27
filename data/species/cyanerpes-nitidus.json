@@ -1,0 +1,92 @@
+{
+ "authorship": "(Hartlaub, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shbhon2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cyanerpes",
+ "id": "cyanerpes-nitidus",
+ "ids": {
+  "avibase": "2027B6CC7F0F6ECC",
+  "birdbase": 36859,
+  "gbif": 2488902,
+  "inaturalist": "10263",
+  "iucn": "22723003",
+  "wikidata": "Q1300439",
+  "xeno_canto": "Cyanerpes-nitidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanerpes_nitidus",
+  "ebird": "https://ebird.org/species/shbhon2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10263",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-billed_honeycreeper",
+   "es": "https://es.wikipedia.org/wiki/Cyanerpes_nitidus",
+   "ru": "https://ru.wikipedia.org/wiki/Короткоклювая_танагра-медосос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanerpes+nitidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-billed Honeycreeper",
+  "en_aco": "Short-billed Honeycreeper",
+  "es": "Mielerito Piquicorto",
+  "ru": "Короткоклювый саи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanerpes nitidus",
+ "sci_name_aco": "Cyanerpes nitidus",
+ "sounds": [],
+ "taxon_order": 35164.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanerpes%20nitidus%20-%20Short-billed%20Honeycreeper%20%28female%29%3B%20Novo%20Mundo%20Mato%20Grosso%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanerpes%20nitidus%20-%20Short-billed%20Honeycreeper%20%28male%29%3B%20Novo%20Mundo%2C%20Mato%20Grosso%2C%20Brazil.jpg"
+ ]
+}

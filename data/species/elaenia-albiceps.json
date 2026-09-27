@@ -1,0 +1,95 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral | Residente",
+  "status": [
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Austral - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-albiceps",
+ "ids": {
+  "avibase": "95859FA12322C927",
+  "birdbase": 16946,
+  "gbif": 5229651,
+  "inaturalist": "16686",
+  "iucn": "22699271",
+  "wikidata": "Q997313",
+  "xeno_canto": "Elaenia-albiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_albiceps",
+  "ebird": "https://ebird.org/species/whcela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16686",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-crested_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_albiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+albiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-crested Elaenia",
+  "en_aco": "White-crested Elaenia",
+  "es": "Fiofío Crestiblanco",
+  "ru": "Белохохлая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia albiceps",
+ "sci_name_aco": "Elaenia albiceps",
+ "sounds": [],
+ "taxon_order": 16712.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 18.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/In%20the%20trail%20to%20Pogog%2003%2C%20Elaenia%20albiceps.jpg"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "authorship": "(G.R. Graves, 1988)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "anbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pogonotriccus",
+ "id": "pogonotriccus-lanyoni",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17195,
+  "gbif": 2483200,
+  "inaturalist": "16926",
+  "iucn": null,
+  "wikidata": "Q842296",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/anbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16926",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pogonotriccus+lanyoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Antioquia Bristle-Tyrant",
+  "en_aco": "Antioquia Bristle-Tyrant",
+  "es": "Orejerito Antioqueño",
+  "ru": "Колумбийский тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pogonotriccus lanyoni",
+ "sci_name_aco": "Phylloscartes lanyoni",
+ "sounds": [],
+ "taxon_order": 16252.0,
+ "taxonomy_note": "ACO/SACC lists this as Phylloscartes lanyoni; eBird/Clements uses Pogonotriccus lanyoni.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 450,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

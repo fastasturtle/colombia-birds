@@ -1,0 +1,95 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rusflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-sittoides",
+ "ids": {
+  "avibase": "4D0ECEE5D5D773BD",
+  "birdbase": 37579,
+  "gbif": 5230689,
+  "inaturalist": "9844",
+  "iucn": "22723644",
+  "wikidata": "Q370309",
+  "xeno_canto": "Diglossa-sittoides"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_sittoides",
+  "ebird": "https://ebird.org/species/rusflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9844",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_sittoides",
+   "ru": "https://ru.wikipedia.org/wiki/Diglossa_sittoides"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+sittoides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rusty Flowerpiercer",
+  "en_aco": "Rusty Flowerpiercer",
+  "es": "Pinchaflor Ferrugíneo",
+  "ru": "Поползневый цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa sittoides",
+ "sci_name_aco": "Diglossa sittoides",
+ "sounds": [],
+ "taxon_order": 35313.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 4200,
+   "min": 400,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 8.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20sittoides%20Picaflor%20canela%20Rusty%20Flowerpiercer%20%28male%29%20%286218963698%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20sittoides%20Picaflor%20canela%20Rusty%20Flowerpiercer%20%28female%29%20%2814659849378%29.jpg"
+ ]
+}

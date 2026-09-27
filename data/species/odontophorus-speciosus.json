@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rbwqua1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Odontophorus",
+ "id": "odontophorus-speciosus",
+ "ids": {
+  "avibase": "F761F6C4010CC3E6",
+  "birdbase": 952,
+  "gbif": 5228035,
+  "inaturalist": "1361",
+  "iucn": "22679668",
+  "wikidata": "Q1270476",
+  "xeno_canto": "Odontophorus-speciosus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontophorus_speciosus",
+  "ebird": "https://ebird.org/species/rbwqua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1361",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_wood_quail",
+   "es": "https://es.wikipedia.org/wiki/Odontophorus_speciosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontophorus+speciosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Wood-Quail",
+  "en_aco": "Rufous-breasted Wood-Quail",
+  "es": "Corcovado Pechirrufo",
+  "ru": "Рыжегрудый зубцеклювый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Odontophorus speciosus",
+ "sci_name_aco": "Odontophorus speciosus",
+ "sounds": [],
+ "taxon_order": 1159.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1750,
+   "max_extreme": 2600,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 317,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Odontophorus%20speciosus%20-%201700-1880%20-%20Print%20-%20Iconographia%20Zoologica%20-%20Special%20Collections%20University%20of%20Amsterdam%20-%20UBA01%20IZ17100191.png"
+ ]
+}

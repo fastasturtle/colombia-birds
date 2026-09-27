@@ -1,0 +1,93 @@
+{
+ "authorship": "(Todd, 1913)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samwar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myiothlypis",
+ "id": "myiothlypis-basilica",
+ "ids": {
+  "avibase": "FFEF8EFD7303A319",
+  "birdbase": 36356,
+  "gbif": 7832100,
+  "inaturalist": "339884",
+  "iucn": "22721982",
+  "wikidata": "Q27075943",
+  "xeno_canto": "Myiothlypis-basilica"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_basilica",
+  "ebird": "https://ebird.org/species/samwar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339884",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_warbler",
+   "es": "https://es.wikipedia.org/wiki/Myiothlypis_basilica",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+basilica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Warbler",
+  "en_aco": "Santa Marta Warbler",
+  "es": "Reinita de Santa Marta",
+  "ru": "Сантамартийский певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiothlypis basilica",
+ "sci_name_aco": "Myiothlypis basilica",
+ "sounds": [],
+ "taxon_order": 34290.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 2300,
+   "min_extreme": 2100
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 16,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiothlypis%20basilica.jpg"
+ ]
+}

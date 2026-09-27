@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbpep1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Cyclarhis",
+ "id": "cyclarhis-nigrirostris",
+ "ids": {
+  "avibase": "444E59872B4B272F",
+  "birdbase": 21373,
+  "gbif": 2487405,
+  "inaturalist": "17420",
+  "iucn": "22705127",
+  "wikidata": "Q1588839",
+  "xeno_canto": "Cyclarhis-nigrirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyclarhis_nigrirostris",
+  "ebird": "https://ebird.org/species/blbpep1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17420",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_peppershrike",
+   "es": "https://es.wikipedia.org/wiki/Cyclarhis_nigrirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyclarhis+nigrirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Peppershrike",
+  "en_aco": "Black-billed Peppershrike",
+  "es": "Vireón Piquinegro",
+  "ru": "Черноклювый попугаевый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyclarhis nigrirostris",
+ "sci_name_aco": "Cyclarhis nigrirostris",
+ "sounds": [],
+ "taxon_order": 19076.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 2700,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 31.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CyclorhisAtrirostrisKeulemans.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-billed%20Peppershrike%20-%20Ecuador%20S4E3905%20%2822586281998%29.jpg"
+ ]
+}

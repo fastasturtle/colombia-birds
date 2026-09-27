@@ -1,0 +1,91 @@
+{
+ "authorship": "(Stiles, Laverde-R, O & Cadena, 2017)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "alptap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-alvarezlopezi",
+ "ids": {
+  "avibase": "01280CF86863B55D",
+  "birdbase": 16816,
+  "gbif": 9472726,
+  "inaturalist": "534776",
+  "iucn": "155256104",
+  "wikidata": "Q28922311",
+  "xeno_canto": "Scytalopus-alvarezlopezi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_alvarezlopezi",
+  "ebird": "https://ebird.org/species/alptap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/534776",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tatama_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_alvarezlopezi",
+   "ru": "https://ru.wikipedia.org/wiki/Scytalopus_alvarezlopezi"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+alvarezlopezi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tatama Tapaculo",
+  "en_aco": "Tatama Tapaculo",
+  "es": "Churrín de Tatamá",
+  "ru": "Татамский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus alvarezlopezi",
+ "sci_name_aco": "Scytalopus alvarezlopezi",
+ "sounds": [],
+ "taxon_order": 14449.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 1300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 24.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20alvarezlopezi%20-%20Tatama%20Tapaculo%3B%20Tatama%20Reserve%2C%20Pueblo%20Rico%2C%20Risaralda%2C%20Colombia.jpg"
+ ]
+}

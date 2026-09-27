@@ -1,0 +1,94 @@
+{
+ "authorship": "(Zimmer, 1937)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cocant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-praecox",
+ "ids": {
+  "avibase": "21C497F4411D17DD",
+  "birdbase": 16008,
+  "gbif": 5959218,
+  "inaturalist": "15771",
+  "iucn": "22701299",
+  "wikidata": "Q178662",
+  "xeno_canto": "Thamnophilus-praecox"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_praecox",
+  "ebird": "https://ebird.org/species/cocant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15771",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cocha_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_praecox",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+praecox"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cocha Antshrike",
+  "en_aco": "Cocha Antshrike",
+  "es": "Batará de Cocha",
+  "ru": "Рыже-чёрный колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus praecox",
+ "sci_name_aco": "Thamnophilus praecox",
+ "sounds": [],
+ "taxon_order": 13550.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 250,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 27.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20praecox%20-%20Cocha%20Antshrike%20-%20female%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20praecox%20-%20Cocha%20Antshrike%20-%20male%20%28cropped%29.jpg"
+ ]
+}

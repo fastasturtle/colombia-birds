@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lesson, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "doccor",
+ "family": {
+  "code": "phalac1",
+  "en": "Cormorants and Shags",
+  "sci": "Phalacrocoracidae"
+ },
+ "genus": "Nannopterum",
+ "id": "nannopterum-auritum",
+ "ids": {
+  "avibase": "3AC46C54EE4A6251",
+  "birdbase": 7771,
+  "gbif": 2481875,
+  "inaturalist": "4265",
+  "iucn": null,
+  "wikidata": "Q725289",
+  "xeno_canto": "Phalacrocorax-auritus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/doccor",
+  "inaturalist": "https://www.inaturalist.org/taxa/4265",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Phalacrocorax_auritus",
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nannopterum+auritum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Double-crested Cormorant",
+  "en_aco": "Double-crested Cormorant",
+  "es": "Cormorán Orejudo",
+  "ru": "Ушастый баклан"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Nannopterum auritum",
+ "sci_name_aco": "Phalacrocorax auritus",
+ "sounds": [],
+ "taxon_order": 7424.0,
+ "taxonomy_note": "ACO/SACC lists this as Phalacrocorax auritus; eBird/Clements uses Nannopterum auritum.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "riparian",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1936,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

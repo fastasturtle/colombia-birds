@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "reccar3",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Paroaria",
+ "id": "paroaria-nigrogenis",
+ "ids": {
+  "avibase": "D3859FE2802B4F81",
+  "birdbase": 37771,
+  "gbif": 5845551,
+  "inaturalist": "108801",
+  "iucn": "22736357",
+  "wikidata": "Q5403459",
+  "xeno_canto": "Paroaria-nigrogenis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Paroaria_nigrogenis",
+  "ebird": "https://ebird.org/species/reccar3",
+  "inaturalist": "https://www.inaturalist.org/taxa/108801",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_cardinal",
+   "es": "https://es.wikipedia.org/wiki/Paroaria_nigrogenis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Paroaria+nigrogenis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Cardinal",
+  "en_aco": "Masked Cardinal",
+  "es": "Cardenilla Enmascarada",
+  "ru": "Масковая танагра-кардинал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Paroaria nigrogenis",
+ "sci_name_aco": "Paroaria nigrogenis",
+ "sounds": [],
+ "taxon_order": 34632.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "savanna"
+  ],
+  "mass_g": 22.26666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-capped%20Cardinal.jpg"
+ ]
+}

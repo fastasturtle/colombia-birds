@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1874)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crespi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Cranioleuca",
+ "id": "cranioleuca-subcristata",
+ "ids": {
+  "avibase": "F88DF5402BFA9D36",
+  "birdbase": 15456,
+  "gbif": 2485288,
+  "inaturalist": "11222",
+  "iucn": "22702429",
+  "wikidata": "Q1151437",
+  "xeno_canto": "Cranioleuca-subcristata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cranioleuca_subcristata",
+  "ebird": "https://ebird.org/species/crespi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11222",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Cranioleuca_subcristata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cranioleuca+subcristata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Spinetail",
+  "en_aco": "Crested Spinetail",
+  "es": "Curutié Copetón",
+  "ru": "Хохлатая курутия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cranioleuca subcristata",
+ "sci_name_aco": "Cranioleuca subcristata",
+ "sounds": [],
+ "taxon_order": 15497.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1950,
+   "max_extreme": 2300,
+   "min": 50,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 14.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/SynallaxisSubcristataSmit.jpg"
+ ]
+}

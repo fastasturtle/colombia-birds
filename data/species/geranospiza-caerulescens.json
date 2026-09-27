@@ -1,0 +1,99 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crahaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Geranospiza",
+ "id": "geranospiza-caerulescens",
+ "ids": {
+  "avibase": "25266E29FD258C83",
+  "birdbase": 8690,
+  "gbif": 2480435,
+  "inaturalist": "5411",
+  "iucn": "22695729",
+  "wikidata": "Q744953",
+  "xeno_canto": "Geranospiza-caerulescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geranospiza_caerulescens",
+  "ebird": "https://ebird.org/species/crahaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5411",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crane_hawk",
+   "es": "https://es.wikipedia.org/wiki/Geranospiza_caerulescens",
+   "ru": "https://ru.wikipedia.org/wiki/Журавлиный_ястреб"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geranospiza+caerulescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crane Hawk",
+  "en_aco": "Crane Hawk",
+  "es": "Azor Zancón",
+  "ru": "Журавлиный коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Geranospiza caerulescens",
+ "sci_name_aco": "Geranospiza caerulescens",
+ "sounds": [],
+ "taxon_order": 8391.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 750,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 8,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 356.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geranospiza%20caerulescens.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geranospiza%20caerulescens%201.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Des Murs, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sthwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Lepidocolaptes",
+ "id": "lepidocolaptes-souleyetii",
+ "ids": {
+  "avibase": "65EA1A083ED97080",
+  "birdbase": 14850,
+  "gbif": 2486044,
+  "inaturalist": "11553",
+  "iucn": "22703152",
+  "wikidata": "Q63877",
+  "xeno_canto": "Lepidocolaptes-souleyetii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lepidocolaptes_souleyetii",
+  "ebird": "https://ebird.org/species/sthwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11553",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-headed_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Lepidocolaptes_souleyetii",
+   "ru": "https://ru.wikipedia.org/wiki/Пестроголовый_чешуйчатый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lepidocolaptes+souleyetii"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Streak-headed Woodcreeper",
+  "en_aco": "Streak-headed Woodcreeper",
+  "es": "Trepatroncos Cabecirrayado",
+  "ru": "Пестроголовый чешуйчатый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lepidocolaptes souleyetii",
+ "sci_name_aco": "Lepidocolaptes souleyetii",
+ "sounds": [],
+ "taxon_order": 14921.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 27,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Streak-headed%20Woodcreeper%20-%20Dari%C3%A9n%20-%20Panama%20%2848444473992%29.jpg"
+ ]
+}

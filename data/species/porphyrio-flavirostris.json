@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral incierto",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "azugal1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Porphyrio",
+ "id": "porphyrio-flavirostris",
+ "ids": {
+  "avibase": "1CE84B66B28ECEC9",
+  "birdbase": 5944,
+  "gbif": 5228154,
+  "inaturalist": "520",
+  "iucn": "22692848",
+  "wikidata": "Q1261648",
+  "xeno_canto": "Porphyrio-flavirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Porphyrio_flavirostris",
+  "ebird": "https://ebird.org/species/azugal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/520",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Azure_gallinule",
+   "es": "https://es.wikipedia.org/wiki/Porphyrio_flavirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Лазурная_султанка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Porphyrio+flavirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Azure Gallinule",
+  "en_aco": "Azure Gallinule",
+  "es": "Calamoncillo Celeste",
+  "ru": "Лазурная султанка"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Porphyrio flavirostris",
+ "sci_name_aco": "Porphyrio flavirostris",
+ "sounds": [],
+ "taxon_order": 5516.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 92.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Porphyrio%20flavirostris%2C%20Laguna%20Cashibococha%2C%20Ucayali%2C%20Peru%20328051607.jpg"
+ ]
+}

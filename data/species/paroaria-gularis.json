@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "reccar4",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Paroaria",
+ "id": "paroaria-gularis",
+ "ids": {
+  "avibase": "D2B0894568689ABD",
+  "birdbase": 37773,
+  "gbif": 2492082,
+  "inaturalist": "10255",
+  "iucn": "22736352",
+  "wikidata": "Q2668125",
+  "xeno_canto": "Paroaria-gularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Paroaria_gularis",
+  "ebird": "https://ebird.org/species/reccar4",
+  "inaturalist": "https://www.inaturalist.org/taxa/10255",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-capped_cardinal",
+   "es": "https://es.wikipedia.org/wiki/Paroaria_gularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Paroaria+gularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-capped Cardinal",
+  "en_aco": "Red-capped Cardinal",
+  "es": "Cardenilla Capirroja",
+  "ru": "Черногорлая танагра-кардинал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Paroaria gularis",
+ "sci_name_aco": "Paroaria gularis",
+ "sounds": [],
+ "taxon_order": 34633.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 25.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-capped%20Cardinal%20-%20Manu%20NP%208889%20%2823024331769%29.jpg"
+ ]
+}

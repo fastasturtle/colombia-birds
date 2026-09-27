@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yetwoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Melanerpes",
+ "id": "melanerpes-cruentatus",
+ "ids": {
+  "avibase": "BFF72DFE773FCE10",
+  "birdbase": 11800,
+  "gbif": 2478122,
+  "inaturalist": "18218",
+  "iucn": "22680824",
+  "wikidata": "Q557447",
+  "xeno_canto": "Melanerpes-cruentatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Melanerpes_cruentatus",
+  "ebird": "https://ebird.org/species/yetwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/18218",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-tufted_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Melanerpes_cruentatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Melanerpes+cruentatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-tufted Woodpecker",
+  "en_aco": "Yellow-tufted Woodpecker",
+  "es": "Carpintero Azulado",
+  "ru": "Златобровый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Melanerpes cruentatus",
+ "sci_name_aco": "Melanerpes cruentatus",
+ "sounds": [],
+ "taxon_order": 11156.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1500,
+   "min": 250,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 57,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes%20cruentatus%20JJK%271.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes%20cruentatus%20Yellow-tufted%20Woodpecker.jpg"
+ ]
+}

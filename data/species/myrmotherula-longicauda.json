@@ -1,0 +1,95 @@
+{
+ "authorship": "(Berlepsch & Stolzmann, 1894)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stcant4",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmotherula",
+ "id": "myrmotherula-longicauda",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15771,
+  "gbif": 2490198,
+  "inaturalist": "15825",
+  "iucn": "22701454",
+  "wikidata": "Q842302",
+  "xeno_canto": "Myrmotherula-longicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_longicauda",
+  "ebird": "https://ebird.org/species/stcant4",
+  "inaturalist": "https://www.inaturalist.org/taxa/15825",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stripe-chested_antwren",
+   "es": "https://es.wikipedia.org/wiki/Myrmotherula_longicauda",
+   "ru": "https://ru.wikipedia.org/wiki/Пёстрая_крапивниковая_муравьеловка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmotherula+longicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stripe-chested Antwren",
+  "en_aco": "Stripe-chested Antwren",
+  "es": "Hormiguerito Pechilistado",
+  "ru": "Длиннохвостый муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmotherula longicauda",
+ "sci_name_aco": "Myrmotherula longicauda",
+ "sounds": [],
+ "taxon_order": 13726.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1550,
+   "max_extreme": 1800,
+   "min": 400,
+   "min_extreme": 150
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 8.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stripe-chested%20Antwren%20-%20Manu%20NP%207858%20%2816635561888%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Chapman, 1912)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "inwpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Hapalopsittaca",
+ "id": "hapalopsittaca-fuertesi",
+ "ids": {
+  "avibase": "485B3D874EAF9370",
+  "birdbase": 13222,
+  "gbif": 2479477,
+  "inaturalist": "19325",
+  "iucn": "22686163",
+  "wikidata": "Q1062772",
+  "xeno_canto": "Hapalopsittaca-fuertesi"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hapalopsittaca_fuertesi",
+  "ebird": "https://ebird.org/species/inwpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19325",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fuertes's_parrot",
+   "es": "https://es.wikipedia.org/wiki/Hapalopsittaca_fuertesi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hapalopsittaca+fuertesi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Indigo-winged Parrot",
+  "en_aco": "Indigo-winged Parrot",
+  "es": "Lorito de Fuertes",
+  "ru": "Желтолицый лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Hapalopsittaca fuertesi",
+ "sci_name_aco": "Hapalopsittaca fuertesi",
+ "sounds": [],
+ "taxon_order": 12856.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3150,
+   "max_extreme": 3800,
+   "min": 2900,
+   "min_extreme": 2610
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 124,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/The%20American%20Museum%20journal%20%28c1900-%281918%29%29%20%2817541216363%29.jpg"
+ ]
+}

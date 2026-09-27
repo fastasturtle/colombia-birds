@@ -1,0 +1,93 @@
+{
+ "authorship": "(Rothschild, 1901)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "litwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Piculus",
+ "id": "piculus-litae",
+ "ids": {
+  "avibase": null,
+  "birdbase": 12341,
+  "gbif": 5228883,
+  "inaturalist": "73247",
+  "iucn": "22681234",
+  "wikidata": "Q1263217",
+  "xeno_canto": "Piculus-litae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piculus_litae",
+  "ebird": "https://ebird.org/species/litwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73247",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lita_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Piculus_litae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piculus+litae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lita Woodpecker",
+  "en_aco": "Lita Woodpecker",
+  "es": "Carpintero de Lita",
+  "ru": "Колумбийский дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Piculus litae",
+ "sci_name_aco": "Piculus litae",
+ "sounds": [],
+ "taxon_order": 11838.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piculus%20litae%20104826755%20%28cropped%29.jpg"
+ ]
+}

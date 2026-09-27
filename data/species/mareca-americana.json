@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amewig",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Mareca",
+ "id": "mareca-americana",
+ "ids": {
+  "avibase": "D201EB7230F20770",
+  "birdbase": 401,
+  "gbif": 2498155,
+  "inaturalist": "485176",
+  "iucn": "22680163",
+  "wikidata": "Q28106685",
+  "xeno_canto": "Mareca-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mareca_americana",
+  "ebird": "https://ebird.org/species/amewig",
+  "inaturalist": "https://www.inaturalist.org/taxa/485176",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_wigeon",
+   "es": "https://es.wikipedia.org/wiki/Mareca_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_свиязь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mareca+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Wigeon",
+  "en_aco": "American Wigeon",
+  "es": "Silbón Americano",
+  "ru": "Американская свиязь"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Mareca americana",
+ "sci_name_aco": "Mareca americana",
+ "sounds": [],
+ "taxon_order": 517.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "M",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 938.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anas-americana-004.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anas%20americana%20-%20drake.jpg"
+ ]
+}

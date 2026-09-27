@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkspet",
+ "family": {
+  "code": "hydrob1",
+  "en": "Northern Storm-Petrels",
+  "sci": "Hydrobatidae"
+ },
+ "genus": "Hydrobates",
+ "id": "hydrobates-melania",
+ "ids": {
+  "avibase": null,
+  "birdbase": 7439,
+  "gbif": 11068810,
+  "inaturalist": "4066",
+  "iucn": null,
+  "wikidata": "Q1269064",
+  "xeno_canto": "Oceanodroma-melania"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hydrobates_melania",
+  "ebird": "https://ebird.org/species/bkspet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4066",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Oceanodroma_melania",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрная_качурка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrobates+melania"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Storm-Petrel",
+  "en_aco": "Black Storm-Petrel",
+  "es": "Paíño Negro",
+  "ru": "Чёрная качурка"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Hydrobates melania",
+ "sci_name_aco": "Hydrobates melania",
+ "sounds": [],
+ "taxon_order": 7074.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 66.19999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/BlackStormPetrels.JPG"
+ ]
+}

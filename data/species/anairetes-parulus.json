@@ -1,0 +1,93 @@
+{
+ "authorship": "(Kittlitz, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tuttyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Anairetes",
+ "id": "anairetes-parulus",
+ "ids": {
+  "avibase": "2B0C9AD53F8DF4A2",
+  "birdbase": 17064,
+  "gbif": 2482688,
+  "inaturalist": "16433",
+  "iucn": "22699406",
+  "wikidata": "Q698551",
+  "xeno_canto": "Anairetes-parulus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anairetes_parulus",
+  "ebird": "https://ebird.org/species/tuttyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16433",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tufted_tit-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Anairetes_parulus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anairetes+parulus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tufted Tit-Tyrant",
+  "en_aco": "Tufted Tit-Tyrant",
+  "es": "Cachudito Piquinegro",
+  "ru": "Синицевый гренадерчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anairetes parulus",
+ "sci_name_aco": "Anairetes parulus",
+ "sounds": [],
+ "taxon_order": 16609.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 6.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tufted%20Tit-Tyrant.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Swainson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "clcspa",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Spizella",
+ "id": "spizella-pallida",
+ "ids": {
+  "avibase": "486265CF44FC17F2",
+  "birdbase": 35228,
+  "gbif": 2492101,
+  "inaturalist": "9148",
+  "iucn": "22721165",
+  "wikidata": "Q551729",
+  "xeno_canto": "Spizella-pallida"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spizella_pallida",
+  "ebird": "https://ebird.org/species/clcspa",
+  "inaturalist": "https://www.inaturalist.org/taxa/9148",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Clay-colored_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Spizella_pallida",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spizella+pallida"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Clay-colored Sparrow",
+  "en_aco": "Clay-colored Sparrow",
+  "es": "Chingolo Pálido",
+  "ru": "Бледная малая овсянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spizella pallida",
+ "sci_name_aco": "Spizella pallida",
+ "sounds": [],
+ "taxon_order": 32996.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 11.983333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spizella%20pallida4%20edit.jpg"
+ ]
+}

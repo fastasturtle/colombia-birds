@@ -1,0 +1,93 @@
+{
+ "authorship": "(Malherbe, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plbpic1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-castelnau",
+ "ids": {
+  "avibase": "8F8E0C7860A1ED53",
+  "birdbase": 11745,
+  "gbif": 5228723,
+  "inaturalist": "17770",
+  "iucn": "22680768",
+  "wikidata": "Q961705",
+  "xeno_canto": "Picumnus-castelnau"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_castelnau",
+  "ebird": "https://ebird.org/species/plbpic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17770",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-breasted_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_castelnau",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+castelnau"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-breasted Piculet",
+  "en_aco": "Plain-breasted Piculet",
+  "es": "Carpinterito Blancuzco",
+  "ru": "Бледный дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus castelnau",
+ "sci_name_aco": "Picumnus castelnau",
+ "sounds": [],
+ "taxon_order": 11088.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.466666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20castelnau%20Plain-breasted%20Piculet%20%28male%29%3B%20Benjamin%20Constant%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20castelnau%20Plain-breasted%20Piculet%20%28female%29%20%2817924610744%29.jpg"
+ ]
+}

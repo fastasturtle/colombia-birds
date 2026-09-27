@@ -1,0 +1,93 @@
+{
+ "authorship": "(Orbigny, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "forela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiopagis",
+ "id": "myiopagis-gaimardii",
+ "ids": {
+  "avibase": "54EC52361E1D2262",
+  "birdbase": 16895,
+  "gbif": 2482965,
+  "inaturalist": "16884",
+  "iucn": "22699230",
+  "wikidata": "Q840136",
+  "xeno_canto": "Myiopagis-gaimardii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiopagis_gaimardii",
+  "ebird": "https://ebird.org/species/forela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16884",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Forest_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Myiopagis_gaimardii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+gaimardii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Forest Elaenia",
+  "en_aco": "Forest Elaenia",
+  "es": "Fiofío Selvático",
+  "ru": "Лесная эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiopagis gaimardii",
+ "sci_name_aco": "Myiopagis gaimardii",
+ "sounds": [],
+ "taxon_order": 16654.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiopagis%20gaimardii%20-%20Forest%20Elaenia%3B%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bahtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-gyrola",
+ "ids": {
+  "avibase": "AB91656827EEF542",
+  "birdbase": 37898,
+  "gbif": 2488114,
+  "inaturalist": "9556",
+  "iucn": "22722878",
+  "wikidata": "Q2669329",
+  "xeno_canto": "Tangara-gyrola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_gyrola",
+  "ebird": "https://ebird.org/species/bahtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9556",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bay-headed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_gyrola",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+gyrola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bay-headed Tanager",
+  "en_aco": "Bay-headed Tanager",
+  "es": "Tangara Cabecibaya",
+  "ru": "Рыжеголовая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara gyrola",
+ "sci_name_aco": "Tangara gyrola",
+ "sounds": [],
+ "taxon_order": 35088.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 21.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bay-headed%20Tanager%20-%20San%20Luis%20-%20Costa%20Rica%20MG%201171%20%2826075030873%29.jpg"
+ ]
+}

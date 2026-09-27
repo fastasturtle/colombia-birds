@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shisun1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Aglaeactis",
+ "id": "aglaeactis-cupripennis",
+ "ids": {
+  "avibase": "5875989578285F52",
+  "birdbase": 3085,
+  "gbif": 2476308,
+  "inaturalist": "6210",
+  "iucn": "22687788",
+  "wikidata": "Q1271890",
+  "xeno_canto": "Aglaeactis-cupripennis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aglaeactis_cupripennis",
+  "ebird": "https://ebird.org/species/shisun1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6210",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Shining_sunbeam",
+   "es": "https://es.wikipedia.org/wiki/Aglaeactis_cupripennis",
+   "ru": "https://ru.wikipedia.org/wiki/Розовый_солнечный_луч"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aglaeactis+cupripennis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Shining Sunbeam",
+  "en_aco": "Shining Sunbeam",
+  "es": "Colibrí Cobrizo",
+  "ru": "Медная ирида"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Aglaeactis cupripennis",
+ "sci_name_aco": "Aglaeactis cupripennis",
+ "sounds": [],
+ "taxon_order": 4604.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4300,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 7.540000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Shining%20sunbeam%20%28Aglaeactis%20cupripennis%20cupripennis%29%20Caldas.jpg"
+ ]
+}

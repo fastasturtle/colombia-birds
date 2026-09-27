@@ -1,0 +1,91 @@
+{
+ "authorship": "(R. Lesson, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "guawoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Campephilus",
+ "id": "campephilus-gayaquilensis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 12582,
+  "gbif": 2478579,
+  "inaturalist": "18278",
+  "iucn": "22681408",
+  "wikidata": "Q1266947",
+  "xeno_canto": "Campephilus-gayaquilensis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campephilus_gayaquilensis",
+  "ebird": "https://ebird.org/species/guawoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/18278",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Guayaquil_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Campephilus_gayaquilensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campephilus+gayaquilensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Guayaquil Woodpecker",
+  "en_aco": "Guayaquil Woodpecker",
+  "es": "Picamaderos de Guayaquil",
+  "ru": "Гуаякильский дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Campephilus gayaquilensis",
+ "sci_name_aco": "Campephilus gayaquilensis",
+ "sounds": [],
+ "taxon_order": 11566.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 241.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Guayaquil%20woodpecker%20%28Campephilus%20gayaquilensis%29%20%286995906660%29.jpg"
+ ]
+}

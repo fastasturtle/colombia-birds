@@ -1,0 +1,92 @@
+{
+ "authorship": "(Blake, 1957)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubant1",
+ "family": {
+  "code": "formic2",
+  "en": "Antthrushes",
+  "sci": "Formicariidae"
+ },
+ "genus": "Formicarius",
+ "id": "formicarius-rufipectus",
+ "ids": {
+  "avibase": "54D732400C9A0946",
+  "birdbase": 16456,
+  "gbif": 2490552,
+  "inaturalist": "9015",
+  "iucn": "22703209",
+  "wikidata": "Q902690",
+  "xeno_canto": "Formicarius-rufipectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Formicarius_rufipectus",
+  "ebird": "https://ebird.org/species/rubant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9015",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_antthrush",
+   "es": "https://es.wikipedia.org/wiki/Formicarius_rufipectus",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжегрудая_питтоподобная_муравьеловка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Formicarius+rufipectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Antthrush",
+  "en_aco": "Rufous-breasted Antthrush",
+  "es": "Formicario Pechirrufo",
+  "ru": "Рыжегрудая муравейница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Formicarius rufipectus",
+ "sci_name_aco": "Formicarius rufipectus",
+ "sounds": [],
+ "taxon_order": 14494.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 3100,
+   "min": 850,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 74.16666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Formicarius%20rufipectus.jpg"
+ ]
+}

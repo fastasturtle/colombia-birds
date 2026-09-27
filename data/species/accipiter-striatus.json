@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shshaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Accipiter",
+ "id": "accipiter-striatus",
+ "ids": {
+  "avibase": "862DF14942ABC6D0",
+  "birdbase": 8556,
+  "gbif": 9740253,
+  "inaturalist": "5097",
+  "iucn": "22734130",
+  "wikidata": "Q386569",
+  "xeno_canto": "Accipiter-striatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Accipiter_striatus",
+  "ebird": "https://ebird.org/species/shshaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5097",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sharp-shinned_hawk",
+   "es": "https://es.wikipedia.org/wiki/Accipiter_striatus",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатый_ястреб"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Accipiter+striatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sharp-shinned Hawk",
+  "en_aco": "Sharp-shinned Hawk",
+  "es": "Gavilán Americano",
+  "ru": "Американский перепелятник"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Accipiter striatus",
+ "sci_name_aco": "Accipiter striatus",
+ "sounds": [],
+ "taxon_order": 8256.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 134.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Accipiter%20striatus%2C%20Canet%20Road%2C%20San%20Luis%20Obispo%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Puerto%20Rican%20Sharp-shinned%20hawk%20perched%20on%20tree%20limb.jpg"
+ ]
+}

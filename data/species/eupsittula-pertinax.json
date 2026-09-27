@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brtpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Eupsittula",
+ "id": "eupsittula-pertinax",
+ "ids": {
+  "avibase": "C96642592C6262A2",
+  "birdbase": 13487,
+  "gbif": 7926461,
+  "inaturalist": "367560",
+  "iucn": "22685745",
+  "wikidata": "Q27074965",
+  "xeno_canto": "Eupsittula-pertinax"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aratinga_pertinax",
+  "ebird": "https://ebird.org/species/brtpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367560",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-throated_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Eupsittula_pertinax",
+   "ru": "https://ru.wikipedia.org/wiki/Коричневощёкая_аратинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eupsittula+pertinax"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-throated Parakeet",
+  "en_aco": "Brown-throated Parakeet",
+  "es": "Aratinga Pertinaz",
+  "ru": "Бурощёкая аратинга"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Eupsittula pertinax",
+ "sci_name_aco": "Eupsittula pertinax",
+ "sounds": [],
+ "taxon_order": 13102.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 89,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown-throated%20Parakeet%20%28Aratinga%20pertinax%29%20-pet.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aratinga%20pertinax%20-national%20park%20-Aruba-8.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tropar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-pitiayumi",
+ "ids": {
+  "avibase": "4926BC8C8C3C7895",
+  "birdbase": 36228,
+  "gbif": 7341895,
+  "inaturalist": "145234",
+  "iucn": "103798640",
+  "wikidata": "Q27075912",
+  "xeno_canto": "Setophaga-pitiayumi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_pitiayumi",
+  "ebird": "https://ebird.org/species/tropar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145234",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tropical_parula",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_pitiayumi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+pitiayumi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tropical Parula",
+  "en_aco": "Tropical Parula",
+  "es": "Parula Pitiayumí",
+  "ru": "Тропическая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga pitiayumi",
+ "sci_name_aco": "Setophaga pitiayumi",
+ "sounds": [],
+ "taxon_order": 34066.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 7.1,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Parula%20pitiayumi%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Setophaga%20pitiayumi%20Monteverde%2003.jpg"
+ ]
+}

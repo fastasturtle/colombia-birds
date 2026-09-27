@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grrpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Forpus",
+ "id": "forpus-passerinus",
+ "ids": {
+  "avibase": "E43CCCA642160851",
+  "birdbase": 13354,
+  "gbif": 2479081,
+  "inaturalist": "19065",
+  "iucn": "22685926",
+  "wikidata": "Q775513",
+  "xeno_canto": "Forpus-passerinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Forpus_passerinus",
+  "ebird": "https://ebird.org/species/grrpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19065",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-rumped_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Forpus_passerinus",
+   "ru": "https://ru.wikipedia.org/wiki/Воробьиный_попугайчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Forpus+passerinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-rumped Parrotlet",
+  "en_aco": "Green-rumped Parrotlet",
+  "es": "Cotorrita Culiverde",
+  "ru": "Зелёный воробьиный попугайчик"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Forpus passerinus",
+ "sci_name_aco": "Forpus passerinus",
+ "sounds": [],
+ "taxon_order": 12990.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 24,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green-rumped%20parrotlet.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "norhar2",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Circus",
+ "id": "circus-hudsonius",
+ "ids": {
+  "avibase": "A091D50AA92D949C",
+  "birdbase": 8618,
+  "gbif": 6101217,
+  "inaturalist": "558446",
+  "iucn": "22727740",
+  "wikidata": "Q2603050",
+  "xeno_canto": "Circus-hudsonius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Circus_hudsonius",
+  "ebird": "https://ebird.org/species/norhar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/558446",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_harrier",
+   "es": "https://es.wikipedia.org/wiki/Circus_hudsonius",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_лунь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Circus+hudsonius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Harrier",
+  "en_aco": "Northern Harrier",
+  "es": "Aguilucho de Hudson",
+  "ru": "Американский лунь"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Circus hudsonius",
+ "sci_name_aco": "Circus hudsonius",
+ "sounds": [],
+ "taxon_order": 8324.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "eggs",
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 2800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "desert",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 470.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/20250215%20northern%20harrier%20hockanum%20reservoir%20PD208081.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Circus%20hudsonius%2C%20male%20perched%2C%20Berkeley%2C%20California%20%28cropped%29.jpg"
+ ]
+}

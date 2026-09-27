@@ -1,0 +1,94 @@
+{
+ "authorship": "(A. Wilson, 1810)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-castanea",
+ "ids": {
+  "avibase": "10C601D3BCC5A85C",
+  "birdbase": 36245,
+  "gbif": 6093202,
+  "inaturalist": "145236",
+  "iucn": "22721734",
+  "wikidata": "Q27075917",
+  "xeno_canto": "Setophaga-castanea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_castanea",
+  "ebird": "https://ebird.org/species/babwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145236",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bay-breasted_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_castanea",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановый_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+castanea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bay-breasted Warbler",
+  "en_aco": "Bay-breasted Warbler",
+  "es": "Reinita Castaña",
+  "ru": "Каштановая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga castanea",
+ "sci_name_aco": "Setophaga castanea",
+ "sounds": [],
+ "taxon_order": 34083.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "wetland"
+  ],
+  "mass_g": 11.883333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bay-breasted%20warbler%20in%20Central%20Park%20%2843472%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroica-castanea-001.jpg"
+ ]
+}

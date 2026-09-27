@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "woothr",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Hylocichla",
+ "id": "hylocichla-mustelina",
+ "ids": {
+  "avibase": "8E1D9327B8DAFD54",
+  "birdbase": 30240,
+  "gbif": 2490872,
+  "inaturalist": "13270",
+  "iucn": "22708670",
+  "wikidata": "Q599921",
+  "xeno_canto": "Hylocichla-mustelina"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylocichla_mustelina",
+  "ebird": "https://ebird.org/species/woothr",
+  "inaturalist": "https://www.inaturalist.org/taxa/13270",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wood_thrush",
+   "es": "https://es.wikipedia.org/wiki/Hylocichla_mustelina",
+   "ru": "https://ru.wikipedia.org/wiki/Лесной_дрозд"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylocichla+mustelina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wood Thrush",
+  "en_aco": "Wood Thrush",
+  "es": "Zorzalito Maculado",
+  "ru": "Лесной дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylocichla mustelina",
+ "sci_name_aco": "Hylocichla mustelina",
+ "sounds": [],
+ "taxon_order": 28347.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1325,
+   "max_extreme": 1500,
+   "min": 50,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 53.875,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylocichla%20mustelina%20%28cropped%29.jpg"
+ ]
+}

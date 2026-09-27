@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-palliatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15999,
+  "gbif": 5959210,
+  "inaturalist": "15759",
+  "iucn": "22733844",
+  "wikidata": "Q840174",
+  "xeno_canto": "Thamnophilus-palliatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_palliatus",
+  "ebird": "https://ebird.org/species/chbant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15759",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-backed_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_palliatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+palliatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-backed Antshrike",
+  "en_aco": "Chestnut-backed Antshrike",
+  "es": "Batará Dorsicastaño",
+  "ru": "Рыжеспинный колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus palliatus",
+ "sci_name_aco": "Thamnophilus palliatus",
+ "sounds": [],
+ "taxon_order": 13527.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 25.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-backed%20Antshrike%20%28Thamnophilus%20palliatus%29.jpg"
+ ]
+}

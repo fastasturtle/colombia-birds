@@ -1,0 +1,94 @@
+{
+ "authorship": "(Sparrman, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gryfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sicalis",
+ "id": "sicalis-luteola",
+ "ids": {
+  "avibase": "85C6D2E5CE2F7915",
+  "birdbase": 37464,
+  "gbif": 2491846,
+  "inaturalist": "9869",
+  "iucn": "22735428",
+  "wikidata": "Q3114766",
+  "xeno_canto": "Sicalis-luteola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sicalis_luteola",
+  "ebird": "https://ebird.org/species/gryfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9869",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grassland_yellow_finch",
+   "es": "https://es.wikipedia.org/wiki/Sicalis_luteola",
+   "ru": "https://ru.wikipedia.org/wiki/Короткоклювый_сикалис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sicalis+luteola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grassland Yellow-Finch",
+  "en_aco": "Grassland Yellow-Finch",
+  "es": "Chirigüe Sabanero",
+  "ru": "Короткоклювый зерноед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sicalis luteola",
+ "sci_name_aco": "Sicalis luteola",
+ "sounds": [],
+ "taxon_order": 35483.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 16.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sicalis%20luteola.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "matpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrrhura",
+ "id": "pyrrhura-melanura",
+ "ids": {
+  "avibase": "3B161E52EC907065",
+  "birdbase": 13437,
+  "gbif": 2479824,
+  "inaturalist": "19160",
+  "iucn": "155070695",
+  "wikidata": "Q1263902",
+  "xeno_canto": "Pyrrhura-melanura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrrhura_melanura",
+  "ebird": "https://ebird.org/species/matpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/19160",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Maroon-tailed_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Pyrrhura_melanura",
+   "ru": "https://ru.wikipedia.org/wiki/Чернохвостый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrrhura+melanura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Maroon-tailed Parakeet",
+  "en_aco": "Maroon-tailed Parakeet",
+  "es": "Cotorra Colinegra",
+  "ru": "Коричневохвотсая которра"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrrhura melanura",
+ "sci_name_aco": "Pyrrhura melanura",
+ "sounds": [],
+ "taxon_order": 13055.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 3200,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 74.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhura%20melanura%20berlepschi%20Keulemans.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(G.R. Gray, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rwgcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Neomorphus",
+ "id": "neomorphus-rufipennis",
+ "ids": {
+  "avibase": "712BCA853B72EEDF",
+  "birdbase": 3896,
+  "gbif": 5232014,
+  "inaturalist": "1813",
+  "iucn": "22684478",
+  "wikidata": "Q1267475",
+  "xeno_canto": "Neomorphus-rufipennis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neomorphus_rufipennis",
+  "ebird": "https://ebird.org/species/rwgcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1813",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-winged_ground_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Neomorphus_rufipennis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neomorphus+rufipennis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-winged Ground-Cuckoo",
+  "en_aco": "Rufous-winged Ground-Cuckoo",
+  "es": "Cuco Hormiguero Alirrufo",
+  "ru": "Краснокрылая земляная кукушка"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Neomorphus rufipennis",
+ "sci_name_aco": "Neomorphus rufipennis",
+ "sounds": [],
+ "taxon_order": 3051.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 381.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CultridesRufipennisWolf.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Swainson, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goowoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Colaptes",
+ "id": "colaptes-rubiginosus",
+ "ids": {
+  "avibase": "2257DD17485E53DF",
+  "birdbase": 12358,
+  "gbif": 7340161,
+  "inaturalist": "72755",
+  "iucn": "61533973",
+  "wikidata": "Q264640",
+  "xeno_canto": "Colaptes-rubiginosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colaptes_rubiginosus",
+  "ebird": "https://ebird.org/species/goowoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72755",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-olive_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Colaptes_rubiginosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colaptes+rubiginosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-olive Woodpecker",
+  "en_aco": "Golden-olive Woodpecker",
+  "es": "Carpintero Oliváceo",
+  "ru": "Рубиновоусый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Colaptes rubiginosus",
+ "sci_name_aco": "Colaptes rubiginosus",
+ "sounds": [],
+ "taxon_order": 11852.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 61.666666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-Olive%20Woodpecker.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-olive%20Woodpecker.jpg"
+ ]
+}

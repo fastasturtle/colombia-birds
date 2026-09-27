@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barhaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Morphnarchus",
+ "id": "morphnarchus-princeps",
+ "ids": {
+  "avibase": "C39D115A808D6CE8",
+  "birdbase": 8706,
+  "gbif": 8298810,
+  "inaturalist": "201040",
+  "iucn": "22695754",
+  "wikidata": "Q1270132",
+  "xeno_canto": "Morphnarchus-princeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Morphnarchus_princeps",
+  "ebird": "https://ebird.org/species/barhaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201040",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_hawk",
+   "es": "https://es.wikipedia.org/wiki/Morphnarchus_princeps",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатый_пегий_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Morphnarchus+princeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Hawk",
+  "en_aco": "Barred Hawk",
+  "es": "Busardo Azoreño",
+  "ru": "Полосатая агуйла"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Morphnarchus princeps",
+ "sci_name_aco": "Morphnarchus princeps",
+ "sounds": [],
+ "taxon_order": 8408.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3000,
+   "min": 500,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 872,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/LeucopternisPrincepsWolf.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Barred%20Hawk%20%286914695390%29.jpg"
+ ]
+}

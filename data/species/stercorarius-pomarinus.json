@@ -1,0 +1,93 @@
+{
+ "authorship": "(Temminck, 1815)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pomjae",
+ "family": {
+  "code": "sterco1",
+  "en": "Skuas and Jaegers",
+  "sci": "Stercorariidae"
+ },
+ "genus": "Stercorarius",
+ "id": "stercorarius-pomarinus",
+ "ids": {
+  "avibase": "7CB8F5B711DE64D0",
+  "birdbase": 7197,
+  "gbif": 2481609,
+  "inaturalist": "4491",
+  "iucn": "22694240",
+  "wikidata": "Q212767",
+  "xeno_canto": "Stercorarius-pomarinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stercorarius_pomarinus",
+  "ebird": "https://ebird.org/species/pomjae",
+  "inaturalist": "https://www.inaturalist.org/taxa/4491",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pomarine_jaeger",
+   "es": "https://es.wikipedia.org/wiki/Stercorarius_pomarinus",
+   "ru": "https://ru.wikipedia.org/wiki/Средний_поморник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stercorarius+pomarinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pomarine Jaeger",
+  "en_aco": "Pomarine Jaeger",
+  "es": "Págalo Pomarino",
+  "ru": "Средний поморник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Stercorarius pomarinus",
+ "sci_name_aco": "Stercorarius pomarinus",
+ "sounds": [],
+ "taxon_order": 6363.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 760.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pomarine%20Skua%20%28%20Stercorarius%20pomarinus%20%29%20Adult%20summer%20...%20Coatham%20Sands%20%2C%20Redcar%20%2853247051024%29.jpg"
+ ]
+}

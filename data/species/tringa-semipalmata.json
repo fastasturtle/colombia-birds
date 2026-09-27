@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "willet1",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Tringa",
+ "id": "tringa-semipalmata",
+ "ids": {
+  "avibase": "E7A14E91456CB432",
+  "birdbase": 6784,
+  "gbif": 5789298,
+  "inaturalist": "144491",
+  "iucn": "22693319",
+  "wikidata": "Q831611",
+  "xeno_canto": "Tringa-semipalmata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tringa_semipalmata",
+  "ebird": "https://ebird.org/species/willet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144491",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Willet",
+   "es": "https://es.wikipedia.org/wiki/Tringa_semipalmata",
+   "ru": "https://ru.wikipedia.org/wiki/Перепончатопалый_улит"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tringa+semipalmata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Willet",
+  "en_aco": "Willet",
+  "es": "Playero Aliblanco",
+  "ru": "Перепончатопалый улит"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Tringa semipalmata",
+ "sci_name_aco": "Tringa semipalmata",
+ "sounds": [],
+ "taxon_order": 6147.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 271.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Willet%20Tringa%20semipalmata%2C%20Eddy%20Creek%2C%20Merrit%20Island%2C%20Brevard%20Co%2C%20Florida.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Catoptrophorus%20semipalmatus%20edit.jpg"
+ ]
+}

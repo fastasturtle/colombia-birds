@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rudpig",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-subvinacea",
+ "ids": {
+  "avibase": "F4F72BD91E9F0A9E",
+  "birdbase": 4575,
+  "gbif": 2495321,
+  "inaturalist": "3095",
+  "iucn": "22690328",
+  "wikidata": "Q1260727",
+  "xeno_canto": "Patagioenas-subvinacea"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_subvinacea",
+  "ebird": "https://ebird.org/species/rudpig",
+  "inaturalist": "https://www.inaturalist.org/taxa/3095",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_subvinacea",
+   "ru": "https://ru.wikipedia.org/wiki/Румяный_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+subvinacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Pigeon",
+  "en_aco": "Ruddy Pigeon",
+  "es": "Paloma Vinosa",
+  "ru": "Румяный голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas subvinacea",
+ "sci_name_aco": "Patagioenas subvinacea",
+ "sounds": [],
+ "taxon_order": 1987.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 155.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20subvinacea%20-NW%20Ecuador-8.jpg"
+ ]
+}

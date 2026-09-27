@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whthaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Geranoaetus",
+ "id": "geranoaetus-albicaudatus",
+ "ids": {
+  "avibase": "72A838365CB10BF7",
+  "birdbase": 8756,
+  "gbif": 7787493,
+  "inaturalist": "201043",
+  "iucn": "22695906",
+  "wikidata": "Q997713",
+  "xeno_canto": "Geranoaetus-albicaudatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geranoaetus_albicaudatus",
+  "ebird": "https://ebird.org/species/whthaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/201043",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_hawk",
+   "es": "https://es.wikipedia.org/wiki/Geranoaetus_albicaudatus",
+   "ru": "https://ru.wikipedia.org/wiki/Белохвостый_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geranoaetus+albicaudatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Hawk",
+  "en_aco": "White-tailed Hawk",
+  "es": "Busardo Coliblanco",
+  "ru": "Белохвостая агуйя"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Geranoaetus albicaudatus",
+ "sci_name_aco": "Geranoaetus albicaudatus",
+ "sounds": [],
+ "taxon_order": 8449.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 975.3333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-tailed%20Hawk.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gavi%C3%A3o%20do%20rabo%20branco.jpg"
+ ]
+}

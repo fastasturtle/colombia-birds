@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hacant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Rhegmatorhina",
+ "id": "rhegmatorhina-melanosticta",
+ "ids": {
+  "avibase": "64B07D9415271148",
+  "birdbase": 16176,
+  "gbif": 2490210,
+  "inaturalist": "15890",
+  "iucn": "22701895",
+  "wikidata": "Q1274499",
+  "xeno_canto": "Rhegmatorhina-melanosticta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhegmatorhina_melanosticta",
+  "ebird": "https://ebird.org/species/hacant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15890",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hairy-crested_antbird",
+   "es": "https://es.wikipedia.org/wiki/Rhegmatorhina_melanosticta",
+   "ru": "https://ru.wikipedia.org/wiki/Серохохлая_гологлазая_муравьянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhegmatorhina+melanosticta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hairy-crested Antbird",
+  "en_aco": "Hairy-crested Antbird",
+  "es": "Hormiguero Canoso",
+  "ru": "Серохохлая гологлазка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhegmatorhina melanosticta",
+ "sci_name_aco": "Rhegmatorhina melanosticta",
+ "sounds": [],
+ "taxon_order": 14099.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 31.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rhegmatorhina%20melanosticta%201907.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rhegmatorhina%20melanosticta%20Hairy-crested%20Antbird%3B%20Careiro%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

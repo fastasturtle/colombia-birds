@@ -1,0 +1,92 @@
+{
+ "authorship": "(Ridgway, 1882)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ochwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Troglodytes",
+ "id": "troglodytes-ochraceus",
+ "ids": {
+  "avibase": "2E21DCF1FEBB39AE",
+  "birdbase": 29271,
+  "gbif": 5231453,
+  "inaturalist": "7568",
+  "iucn": "22711500",
+  "wikidata": "Q2224793",
+  "xeno_canto": "Troglodytes-ochraceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Troglodytes_ochraceus",
+  "ebird": "https://ebird.org/species/ochwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7568",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ochraceous_wren",
+   "es": "https://es.wikipedia.org/wiki/Troglodytes_ochraceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Troglodytes+ochraceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ochraceous Wren",
+  "en_aco": "Ochraceous Wren",
+  "es": "Chochín Ocráceo",
+  "ru": "Охристый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Troglodytes ochraceus",
+ "sci_name_aco": "Troglodytes ochraceus",
+ "sounds": [],
+ "taxon_order": 27241.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2450,
+   "max_extreme": 3000,
+   "min": 900,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 9.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Troglodytes%20ochraceus%20171476803.jpg"
+ ]
+}

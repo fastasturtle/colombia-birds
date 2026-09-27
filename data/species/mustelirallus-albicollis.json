@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "astcra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Mustelirallus",
+ "id": "mustelirallus-albicollis",
+ "ids": {
+  "avibase": "65A6922D94FB42FD",
+  "birdbase": 5696,
+  "gbif": 7532956,
+  "inaturalist": "184",
+  "iucn": "22692690",
+  "wikidata": "Q1267482",
+  "xeno_canto": "Porzana-albicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mustelirallus_albicollis",
+  "ebird": "https://ebird.org/species/astcra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/184",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ash-throated_crake",
+   "es": "https://es.wikipedia.org/wiki/Mustelirallus_albicollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mustelirallus+albicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ash-throated Crake",
+  "en_aco": "Ash-throated Crake",
+  "es": "Polluela Turura",
+  "ru": "Пепельногорлый погоныш"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Mustelirallus albicollis",
+ "sci_name_aco": "Mustelirallus albicollis",
+ "sounds": [],
+ "taxon_order": 5422.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 104,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ash-throated%20Crake.jpg"
+ ]
+}

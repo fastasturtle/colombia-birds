@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "varant2",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-varia",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16502,
+  "gbif": 2490545,
+  "inaturalist": "116908",
+  "iucn": "22703246",
+  "wikidata": "Q1027866",
+  "xeno_canto": "Grallaria-varia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_varia",
+  "ebird": "https://ebird.org/species/varant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/116908",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Variegated_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_varia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+varia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Variegated Antpitta",
+  "en_aco": "Variegated Antpitta",
+  "es": "Tororoí Pintado",
+  "ru": "Королевская питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria varia",
+ "sci_name_aco": "Grallaria varia",
+ "sounds": [],
+ "taxon_order": 14201.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 650,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 111.28333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20varia.jpg"
+ ]
+}

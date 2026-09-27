@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chiswi",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Chaetura",
+ "id": "chaetura-pelagica",
+ "ids": {
+  "avibase": "C3AD1AFF63D26461",
+  "birdbase": 2513,
+  "gbif": 4409023,
+  "inaturalist": "6571",
+  "iucn": "22686709",
+  "wikidata": "Q912863",
+  "xeno_canto": "Chaetura-pelagica"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetura_pelagica",
+  "ebird": "https://ebird.org/species/chiswi",
+  "inaturalist": "https://www.inaturalist.org/taxa/6571",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chimney_swift",
+   "es": "https://es.wikipedia.org/wiki/Chaetura_pelagica",
+   "ru": "https://ru.wikipedia.org/wiki/Дымчатый_иглохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetura+pelagica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chimney Swift",
+  "en_aco": "Chimney Swift",
+  "es": "Vencejo de Chimenea",
+  "ru": "Дымчатый иглохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetura pelagica",
+ "sci_name_aco": "Chaetura pelagica",
+ "sounds": [],
+ "taxon_order": 3896.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 22.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Artificial",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chaetura%20pelagica%2C%20by%20Lake%20Erie%2C%20Cleveland%2C%20Ohio%2C%20USA%20339593191.jpg"
+ ]
+}

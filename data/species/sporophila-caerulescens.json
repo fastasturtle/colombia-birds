@@ -1,0 +1,92 @@
+{
+ "authorship": "(Vieillot, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "docsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-caerulescens",
+ "ids": {
+  "avibase": "0BCC3F94E323E787",
+  "birdbase": 37233,
+  "gbif": 2491376,
+  "inaturalist": "9517",
+  "iucn": "22723451",
+  "wikidata": "Q2668397",
+  "xeno_canto": "Sporophila-caerulescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_caerulescens",
+  "ebird": "https://ebird.org/species/docsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9517",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Double-collared_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_caerulescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+caerulescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Double-collared Seedeater",
+  "en_aco": "Double-collared Seedeater",
+  "es": "Semillero Corbatita",
+  "ru": "Расписной просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila caerulescens",
+ "sci_name_aco": "Sporophila caerulescens",
+ "sounds": [],
+ "taxon_order": 35589.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 9.916666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Double-collared%20seedeater%20%28Sporophila%20caerulescens%20caerulescens%29%20male%20Colonia.jpg"
+ ]
+}

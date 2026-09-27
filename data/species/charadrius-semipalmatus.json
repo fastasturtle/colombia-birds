@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "semplo",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Charadrius",
+ "id": "charadrius-semipalmatus",
+ "ids": {
+  "avibase": "95E28A57CB50B0D7",
+  "birdbase": 6472,
+  "gbif": 2480295,
+  "inaturalist": "4817",
+  "iucn": "22693764",
+  "wikidata": "Q468009",
+  "xeno_canto": "Charadrius-semipalmatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Charadrius_semipalmatus",
+  "ebird": "https://ebird.org/species/semplo",
+  "inaturalist": "https://www.inaturalist.org/taxa/4817",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Semipalmated_plover",
+   "es": "https://es.wikipedia.org/wiki/Charadrius_semipalmatus",
+   "ru": "https://ru.wikipedia.org/wiki/Перепончатопалый_галстучник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Charadrius+semipalmatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Semipalmated Plover",
+  "en_aco": "Semipalmated Plover",
+  "es": "Chorlitejo Semipalmeado",
+  "ru": "Перепончатопалый галстучник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Charadrius semipalmatus",
+ "sci_name_aco": "Charadrius semipalmatus",
+ "sounds": [],
+ "taxon_order": 5834.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 50.416666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Semipalmated%20plover%20in%20Quogue%20%2826942%29.jpg"
+ ]
+}

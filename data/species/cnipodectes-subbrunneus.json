@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brofly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Cnipodectes",
+ "id": "cnipodectes-subbrunneus",
+ "ids": {
+  "avibase": "8D786D76E65E96F3",
+  "birdbase": 17500,
+  "gbif": 2483288,
+  "inaturalist": "16501",
+  "iucn": "22699590",
+  "wikidata": "Q839188",
+  "xeno_canto": "Cnipodectes-subbrunneus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cnipodectes_subbrunneus",
+  "ebird": "https://ebird.org/species/brofly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16501",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brownish_twistwing",
+   "es": "https://es.wikipedia.org/wiki/Cnipodectes_subbrunneus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cnipodectes+subbrunneus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brownish Twistwing",
+  "en_aco": "Brownish Twistwing",
+  "es": "Mosquero Pardo",
+  "ru": "Коричневый мухоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cnipodectes subbrunneus",
+ "sci_name_aco": "Cnipodectes subbrunneus",
+ "sounds": [],
+ "taxon_order": 16449.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 23.733333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cnipodectes%20subbrunneus%20-%20Brownish%20twistwing%2C%20Careiro%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bangs & T. E. Penard, 1921)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dbptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Lophotriccus",
+ "id": "lophotriccus-vitiosus",
+ "ids": {
+  "avibase": "85F4E49198FD5BB8",
+  "birdbase": 17422,
+  "gbif": 2483396,
+  "inaturalist": "17104",
+  "iucn": "22699559",
+  "wikidata": "Q282543",
+  "xeno_canto": "Lophotriccus-vitiosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lophotriccus_vitiosus",
+  "ebird": "https://ebird.org/species/dbptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17104",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Double-banded_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Lophotriccus_vitiosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lophotriccus+vitiosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Double-banded Pygmy-Tyrant",
+  "en_aco": "Double-banded Pygmy-Tyrant",
+  "es": "Cimerillo Bilistado",
+  "ru": "Серохохлая чубатка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lophotriccus vitiosus",
+ "sci_name_aco": "Lophotriccus vitiosus",
+ "sounds": [],
+ "taxon_order": 16311.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 7.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lophotriccus%20vitiosus%20-%20Double-banded%20pygmy-tyrant.jpg"
+ ]
+}

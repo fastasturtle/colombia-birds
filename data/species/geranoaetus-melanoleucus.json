@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bcbeag1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Geranoaetus",
+ "id": "geranoaetus-melanoleucus",
+ "ids": {
+  "avibase": "51405606DCBA4A00",
+  "birdbase": 8766,
+  "gbif": 2480668,
+  "inaturalist": "5422",
+  "iucn": "22695845",
+  "wikidata": "Q633877",
+  "xeno_canto": "Geranoaetus-melanoleucus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geranoaetus_melanoleucus",
+  "ebird": "https://ebird.org/species/bcbeag1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5422",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-chested_buzzard-eagle",
+   "es": "https://es.wikipedia.org/wiki/Geranoaetus_melanoleucus",
+   "ru": "https://ru.wikipedia.org/wiki/Агуйа"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geranoaetus+melanoleucus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-chested Buzzard-Eagle",
+  "en_aco": "Black-chested Buzzard-Eagle",
+  "es": "Águila Mora",
+  "ru": "Агуйя"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Geranoaetus melanoleucus",
+ "sci_name_aco": "Geranoaetus melanoleucus",
+ "sounds": [],
+ "taxon_order": 8458.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": 4600,
+   "min": 1600,
+   "min_extreme": "L"
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 2457.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Parque%20Estadual%20do%20Ibitipoca%20Est%C3%BAdio%20Anderson%20Mello%20%282%29.jpg"
+ ]
+}

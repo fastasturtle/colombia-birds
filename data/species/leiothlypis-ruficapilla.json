@@ -1,0 +1,93 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "naswar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Leiothlypis",
+ "id": "leiothlypis-ruficapilla",
+ "ids": {
+  "avibase": "183E5F909449A603",
+  "birdbase": 36157,
+  "gbif": 7531611,
+  "inaturalist": "145221",
+  "iucn": "22721627",
+  "wikidata": "Q27075894",
+  "xeno_canto": "Leiothlypis-ruficapilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leiothlypis_ruficapilla",
+  "ebird": "https://ebird.org/species/naswar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145221",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Nashville_warbler",
+   "es": "https://es.wikipedia.org/wiki/Leiothlypis_ruficapilla",
+   "ru": "https://ru.wikipedia.org/wiki/Красношапочный_пеночковый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leiothlypis+ruficapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Nashville Warbler",
+  "en_aco": "Nashville Warbler",
+  "es": "Reinita de Nashville",
+  "ru": "Красношапочная древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leiothlypis ruficapilla",
+ "sci_name_aco": "Leiothlypis ruficapilla",
+ "sounds": [],
+ "taxon_order": 33981.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 9.383333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20Warbler%20%287986439682%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20Warbler.jpg"
+ ]
+}

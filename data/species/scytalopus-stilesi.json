@@ -1,0 +1,89 @@
+{
+ "authorship": "(A.M. Cuervo, C.D. Cadena, Krabbe & Renjifo, 2005)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stitap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-stilesi",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16815,
+  "gbif": 5789072,
+  "inaturalist": "73382",
+  "iucn": "22734658",
+  "wikidata": "Q1270203",
+  "xeno_canto": "Scytalopus-stilesi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_stilesi",
+  "ebird": "https://ebird.org/species/stitap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73382",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stiles's_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_stilesi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+stilesi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stiles's Tapaculo",
+  "en_aco": "Stiles's Tapaculo",
+  "es": "Churrín de Stiles",
+  "ru": "Медельинский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus stilesi",
+ "sci_name_aco": "Scytalopus stilesi",
+ "sounds": [],
+ "taxon_order": 14448.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2130,
+   "max_extreme": null,
+   "min": 1420,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 21.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

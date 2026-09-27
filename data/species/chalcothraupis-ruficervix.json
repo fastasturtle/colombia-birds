@@ -1,0 +1,93 @@
+{
+ "authorship": "(Prevost & Des Murs, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gontan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chalcothraupis",
+ "id": "chalcothraupis-ruficervix",
+ "ids": {
+  "avibase": "4B490812CC621063",
+  "birdbase": 37794,
+  "gbif": 10985391,
+  "inaturalist": "9575",
+  "iucn": "103846006",
+  "wikidata": "Q2934255",
+  "xeno_canto": "Tangara-ruficervix"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chalcothraupis_ruficervix",
+  "ebird": "https://ebird.org/species/gontan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9575",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-naped_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chalcothraupis_ruficervix",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chalcothraupis+ruficervix"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-naped Tanager",
+  "en_aco": "Golden-naped Tanager",
+  "es": "Tangara Nuquirrufa",
+  "ru": "Тиаровая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chalcothraupis ruficervix",
+ "sci_name_aco": "Chalcothraupis ruficervix",
+ "sounds": [],
+ "taxon_order": 34983.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": 1100
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 18.066666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-naped%20tanager%20%28Chalcothraupis%20ruficervix%20leucotis%29%20Paz%20de%20las%20Aves.jpg"
+ ]
+}

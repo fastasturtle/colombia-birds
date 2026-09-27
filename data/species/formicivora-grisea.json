@@ -1,0 +1,96 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whfant3",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Formicivora",
+ "id": "formicivora-grisea",
+ "ids": {
+  "avibase": "921F689564974C1C",
+  "birdbase": 15841,
+  "gbif": 2490042,
+  "inaturalist": "15909",
+  "iucn": "103657300",
+  "wikidata": "Q1272909",
+  "xeno_canto": "Formicivora-grisea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Formicivora_grisea",
+  "ebird": "https://ebird.org/species/whfant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/15909",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_white-fringed_antwren",
+   "es": "https://es.wikipedia.org/wiki/Formicivora_grisea",
+   "ru": "https://ru.wikipedia.org/wiki/Серая_короткоклювая_муравьеловка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Formicivora+grisea"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Southern White-fringed Antwren",
+  "en_aco": "White-fringed Antwren",
+  "es": "Hormiguerito Coicorita Sureño",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Formicivora grisea",
+ "sci_name_aco": "Formicivora grisea",
+ "sounds": [],
+ "taxon_order": 13839.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 10.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-fringed%20Antwren%20%28Formicivora%20grisea%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Formicivora%20grisea%20White-fringed%20Antwren%20%28female%29%2C%20Virua%20National%20Park%2C%20Roraima%2C%20Brazil.jpg"
+ ]
+}

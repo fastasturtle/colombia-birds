@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sittan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-icterocephala",
+ "ids": {
+  "avibase": "E3DA11F175BC036A",
+  "birdbase": 37941,
+  "gbif": 2488222,
+  "inaturalist": "9550",
+  "iucn": "22722851",
+  "wikidata": "Q2630992",
+  "xeno_canto": "Tangara-icterocephala"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_icterocephala",
+  "ebird": "https://ebird.org/species/sittan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9550",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Silver-throated_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_icterocephala",
+   "ru": "https://ru.wikipedia.org/wiki/Серебряногорлая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+icterocephala"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Silver-throated Tanager",
+  "en_aco": "Silver-throated Tanager",
+  "es": "Tangara Goliplateada",
+  "ru": "Серебристогорлая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara icterocephala",
+ "sci_name_aco": "Tangara icterocephala",
+ "sounds": [],
+ "taxon_order": 35130.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2300,
+   "min": 600,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 21.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Silver-throated%20Tanager%20-%20Panama%20H8O1974%20%2822882490849%29.jpg"
+ ]
+}

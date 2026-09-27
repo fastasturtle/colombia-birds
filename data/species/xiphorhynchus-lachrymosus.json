@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blswoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Xiphorhynchus",
+ "id": "xiphorhynchus-lachrymosus",
+ "ids": {
+  "avibase": "B5C72DF0CA883B09",
+  "birdbase": 14777,
+  "gbif": 5230187,
+  "inaturalist": "11060",
+  "iucn": "22703140",
+  "wikidata": "Q1273237",
+  "xeno_canto": "Xiphorhynchus-lachrymosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xiphorhynchus_lachrymosus",
+  "ebird": "https://ebird.org/species/blswoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11060",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-striped_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Xiphorhynchus_lachrymosus",
+   "ru": "https://ru.wikipedia.org/wiki/Пёстрый_мечеклювый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xiphorhynchus+lachrymosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-striped Woodcreeper",
+  "en_aco": "Black-striped Woodcreeper",
+  "es": "Trepatroncos Pinto",
+  "ru": "Жемчужноспинный древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xiphorhynchus lachrymosus",
+ "sci_name_aco": "Xiphorhynchus lachrymosus",
+ "sounds": [],
+ "taxon_order": 14853.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 58.51666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xiphorhynchus%20lachrymosus.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whttro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-chionurus",
+ "ids": {
+  "avibase": "D2C4BCF962D808B2",
+  "birdbase": 9950,
+  "gbif": 5788448,
+  "inaturalist": "73524",
+  "iucn": "22736244",
+  "wikidata": "Q1268064",
+  "xeno_canto": "Trogon-chionurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_chionurus",
+  "ebird": "https://ebird.org/species/whttro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73524",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_chionurus",
+   "ru": "https://ru.wikipedia.org/wiki/Trogon_chionurus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+chionurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Trogon",
+  "en_aco": "White-tailed Trogon",
+  "es": "Trogón Coliblanco",
+  "ru": "Белохвостый трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon chionurus",
+ "sci_name_aco": "Trogon chionurus",
+ "sounds": [],
+ "taxon_order": 9540.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 88,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20chionurus%20Trog%C3%B3n%20coliblanco%20occidental%20White-tailed%20Trogon%20%28male%29%20%288116334845%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-tailed%20Trogon%20%2841114697601%29.jpg"
+ ]
+}

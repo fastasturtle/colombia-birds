@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lesson, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pitbec1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-minor",
+ "ids": {
+  "avibase": "58599303B1EEA876",
+  "birdbase": 18621,
+  "gbif": 5230362,
+  "inaturalist": "8680",
+  "iucn": "22700677",
+  "wikidata": "Q1303340",
+  "xeno_canto": "Pachyramphus-minor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_minor",
+  "ebird": "https://ebird.org/species/pitbec1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8680",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pink-throated_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_minor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+minor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pink-throated Becard",
+  "en_aco": "Pink-throated Becard",
+  "es": "Anambé Gorjirrosa",
+  "ru": "Красногорлый бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus minor",
+ "sci_name_aco": "Pachyramphus minor",
+ "sounds": [],
+ "taxon_order": 16087.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 37.166666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pachyramphus%20minor%20-%20Pink-throated%20Becard%20%28male%29.JPG"
+ ]
+}

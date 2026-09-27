@@ -1,0 +1,93 @@
+{
+ "authorship": "(Hellmayr, 1909)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "socpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Bucco",
+ "id": "bucco-noanamae",
+ "ids": {
+  "avibase": "C10F8D95CA7020E6",
+  "birdbase": 11007,
+  "gbif": 5228275,
+  "inaturalist": "72575",
+  "iucn": null,
+  "wikidata": "Q617131",
+  "xeno_canto": "Bucco-noanamae"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/socpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72575",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sooty-capped_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Bucco_noanamae",
+   "ru": "https://ru.wikipedia.org/wiki/Черношапочная_пуховка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bucco+noanamae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sooty-capped Puffbird",
+  "en_aco": "Sooty-capped Puffbird",
+  "es": "Buco de Noanamá",
+  "ru": "Темноголовая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Bucco noanamae",
+ "sci_name_aco": "Bucco noanamae",
+ "sounds": [],
+ "taxon_order": 10394.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 38.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sooty-capped%20puffbird%20%28Bucco%20noanamae%29.jpg"
+ ]
+}

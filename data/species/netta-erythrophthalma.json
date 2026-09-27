@@ -1,0 +1,93 @@
+{
+ "authorship": "(Wied-Neuwied, 1833)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soupoc1",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Netta",
+ "id": "netta-erythrophthalma",
+ "ids": {
+  "avibase": "36C0242EAEB3388E",
+  "birdbase": 482,
+  "gbif": 2498177,
+  "inaturalist": "7123",
+  "iucn": "22680354",
+  "wikidata": "Q269082",
+  "xeno_canto": "Netta-erythrophthalma"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Netta_erythrophthalma",
+  "ebird": "https://ebird.org/species/soupoc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7123",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_pochard",
+   "es": "https://es.wikipedia.org/wiki/Netta_erythrophthalma",
+   "ru": "https://ru.wikipedia.org/wiki/Красноглазый_нырок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Netta+erythrophthalma"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Southern Pochard",
+  "en_aco": "Southern Pochard",
+  "es": "Pato Morado",
+  "ru": "Красноглазый нырок"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Netta erythrophthalma",
+ "sci_name_aco": "Netta erythrophthalma",
+ "sounds": [],
+ "taxon_order": 662.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3650,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 820.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Southern%20Pochard%20%28Netta%20erythrophthalma%29%20RWD1.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Netta%20erythrophthalma%20Germany01.jpg"
+ ]
+}

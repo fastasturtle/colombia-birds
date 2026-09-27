@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wessan",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-mauri",
+ "ids": {
+  "avibase": "01060BFDFF0D9D28",
+  "birdbase": 6846,
+  "gbif": 2481742,
+  "inaturalist": "3855",
+  "iucn": "22693376",
+  "wikidata": "Q488341",
+  "xeno_canto": "Calidris-mauri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_mauri",
+  "ebird": "https://ebird.org/species/wessan",
+  "inaturalist": "https://www.inaturalist.org/taxa/3855",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Western_sandpiper",
+   "es": "https://es.wikipedia.org/wiki/Calidris_mauri",
+   "ru": "https://ru.wikipedia.org/wiki/Перепончатопалый_песочник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+mauri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Western Sandpiper",
+  "en_aco": "Western Sandpiper",
+  "es": "Correlimos de Alaska",
+  "ru": "Перепончатопалый песочник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris mauri",
+ "sci_name_aco": "Calidris mauri",
+ "sounds": [],
+ "taxon_order": 6231.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 28.233333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Sandpiper.jpg"
+ ]
+}

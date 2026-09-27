@@ -1,0 +1,94 @@
+{
+ "authorship": "(R. Lesson, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltsta1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-helianthea",
+ "ids": {
+  "avibase": "F9BD34D84F437791",
+  "birdbase": 3144,
+  "gbif": 2477050,
+  "inaturalist": "6228",
+  "iucn": "22687834",
+  "wikidata": "Q898534",
+  "xeno_canto": "Coeligena-helianthea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_helianthea",
+  "ebird": "https://ebird.org/species/bltsta1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6228",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-throated_starfrontlet",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_helianthea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+helianthea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-throated Starfrontlet",
+  "en_aco": "Blue-throated Starfrontlet",
+  "es": "Inca Ventrivioleta",
+  "ru": "Синегорлый инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena helianthea",
+ "sci_name_aco": "Coeligena helianthea",
+ "sounds": [],
+ "taxon_order": 4654.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 1900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 6.775,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-throated%20starfrontlet%20%28Coeligena%20helianthea%20helianthea%29%20male%20Cundinamarca.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coeligena%20helianthea%2029472948%20%28cropped%29.jpg"
+ ]
+}

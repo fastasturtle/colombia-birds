@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cassin, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brbpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Notharchus",
+ "id": "notharchus-ordii",
+ "ids": {
+  "avibase": "6CA1819D4A7BB822",
+  "birdbase": 10990,
+  "gbif": 2475107,
+  "inaturalist": "1592",
+  "iucn": "22682243",
+  "wikidata": "Q1262089",
+  "xeno_canto": "Notharchus-ordii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Notharchus_ordii",
+  "ebird": "https://ebird.org/species/brbpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1592",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-banded_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Notharchus_ordii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Notharchus+ordii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-banded Puffbird",
+  "en_aco": "Brown-banded Puffbird",
+  "es": "Buco Pechipardo",
+  "ru": "Бурогрудая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Notharchus ordii",
+ "sci_name_aco": "Notharchus ordii",
+ "sounds": [],
+ "taxon_order": 10383.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 150,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 52.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Notharchus%20ordii%20Brown-banded%20Puffbird%3B%20Porto%20Velho%2C%20Rond%C3%B4nia%2C%20Brazil.jpg"
+ ]
+}

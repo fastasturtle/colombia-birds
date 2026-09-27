@@ -1,0 +1,95 @@
+{
+ "authorship": "(Pallas, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ampkin1",
+ "family": {
+  "code": "alcedi1",
+  "en": "Kingfishers",
+  "sci": "Alcedinidae"
+ },
+ "genus": "Chloroceryle",
+ "id": "chloroceryle-aenea",
+ "ids": {
+  "avibase": "A08C5C0687704F82",
+  "birdbase": 10740,
+  "gbif": 2475483,
+  "inaturalist": "2676",
+  "iucn": "22683658",
+  "wikidata": "Q588267",
+  "xeno_canto": "Chloroceryle-aenea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chloroceryle_aenea",
+  "ebird": "https://ebird.org/species/ampkin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2676",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_pygmy_kingfisher",
+   "es": "https://es.wikipedia.org/wiki/Chloroceryle_aenea",
+   "ru": "https://ru.wikipedia.org/wiki/Карликовый_зелёный_зимородок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chloroceryle+aenea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Pygmy Kingfisher",
+  "en_aco": "American Pygmy Kingfisher",
+  "es": "Martín Pescador Enano",
+  "ru": "Изумрудный зимородок"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Chloroceryle aenea",
+ "sci_name_aco": "Chloroceryle aenea",
+ "sounds": [],
+ "taxon_order": 10313.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 13.983333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/026%20American%20pygmy%20kingfisher%20in%20Encontro%20das%20%C3%81guas%20State%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

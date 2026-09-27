@@ -1,0 +1,94 @@
+{
+ "authorship": "(Temminck, 1828)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkbalb",
+ "family": {
+  "code": "diomed1",
+  "en": "Albatrosses",
+  "sci": "Diomedeidae"
+ },
+ "genus": "Thalassarche",
+ "id": "thalassarche-melanophris",
+ "ids": {
+  "avibase": "F9CBC9EB6CE43281",
+  "birdbase": 7410,
+  "gbif": 2481410,
+  "inaturalist": "144433",
+  "iucn": "22698375",
+  "wikidata": "Q602598",
+  "xeno_canto": "Thalassarche-melanophris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thalassarche_melanophris",
+  "ebird": "https://ebird.org/species/bkbalb",
+  "inaturalist": "https://www.inaturalist.org/taxa/144433",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-browed_albatross",
+   "es": "https://es.wikipedia.org/wiki/Thalassarche_melanophrys",
+   "ru": "https://ru.wikipedia.org/wiki/Чернобровый_альбатрос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thalassarche+melanophris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-browed Albatross",
+  "en_aco": "Black-browed Albatross",
+  "es": "Albatros Ojeroso",
+  "ru": "Чернобровый альбатрос"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Thalassarche melanophris",
+ "sci_name_aco": "Thalassarche melanophris",
+ "sounds": [],
+ "taxon_order": 7006.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 3198.3333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thalassarche%20melanophrys%20-%20SE%20Tasmania.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-browed%20albatross.jpg"
+ ]
+}

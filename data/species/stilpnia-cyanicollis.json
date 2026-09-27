@@ -1,0 +1,95 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blntan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Stilpnia",
+ "id": "stilpnia-cyanicollis",
+ "ids": {
+  "avibase": "98A1673541105E41",
+  "birdbase": 37850,
+  "gbif": 10992187,
+  "inaturalist": "9588",
+  "iucn": "22722915",
+  "wikidata": "Q794366",
+  "xeno_canto": "Tangara-cyanicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stilpnia_cyanicollis",
+  "ebird": "https://ebird.org/species/blntan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9588",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-necked_tanager",
+   "es": "https://es.wikipedia.org/wiki/Stilpnia_cyanicollis",
+   "ru": "https://ru.wikipedia.org/wiki/Синеголовая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+cyanicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-necked Tanager",
+  "en_aco": "Blue-necked Tanager",
+  "es": "Tangara Cabeciazul",
+  "ru": "Лазурноголовая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stilpnia cyanicollis",
+ "sci_name_aco": "Stilpnia cyanicollis",
+ "sounds": [],
+ "taxon_order": 35027.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-necked%20Tanager%20-%20Manu%20NP%20-%20Per%C3%B9%208872%20%2822856153227%29.jpg"
+ ]
+}

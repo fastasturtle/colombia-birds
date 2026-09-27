@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ytbtan1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Chlorospingus",
+ "id": "chlorospingus-flavigularis",
+ "ids": {
+  "avibase": "3B14D5D64BDFCAB0",
+  "birdbase": 35061,
+  "gbif": 2488703,
+  "inaturalist": "10213",
+  "iucn": "103768776",
+  "wikidata": "Q261819",
+  "xeno_canto": "Chlorospingus-flavigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorospingus_flavigularis",
+  "ebird": "https://ebird.org/species/ytbtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10213",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-throated_chlorospingus",
+   "es": "https://es.wikipedia.org/wiki/Chlorospingus_flavigularis",
+   "ru": "https://ru.wikipedia.org/wiki/Желтогорлая_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorospingus+flavigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-throated Chlorospingus",
+  "en_aco": "Yellow-throated Chlorospingus",
+  "es": "Clorospingo Gorjiamarillo",
+  "ru": "Желтогорлый дромник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorospingus flavigularis",
+ "sci_name_aco": "Chlorospingus flavigularis",
+ "sounds": [],
+ "taxon_order": 32847.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2300,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 26.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorospingus%20flavigularis%20-NBII%20Image%20Gallery-a00254.jpg"
+ ]
+}

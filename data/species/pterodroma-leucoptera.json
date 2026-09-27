@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goupet1",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Pterodroma",
+ "id": "pterodroma-leucoptera",
+ "ids": {
+  "avibase": "A27F9AF63B250F19",
+  "birdbase": 7526,
+  "gbif": 2481452,
+  "inaturalist": "4035",
+  "iucn": "22697970",
+  "wikidata": "Q1267254",
+  "xeno_canto": "Pterodroma-leucoptera"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pterodroma_leucoptera",
+  "ebird": "https://ebird.org/species/goupet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4035",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gould's_petrel",
+   "es": "https://es.wikipedia.org/wiki/Pterodroma_leucoptera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pterodroma+leucoptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gould's Petrel",
+  "en_aco": "Gould's Petrel",
+  "es": "Petrel Aliblanco",
+  "ru": "Белокрылый тайфунник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Pterodroma leucoptera",
+ "sci_name_aco": "Pterodroma leucoptera",
+ "sounds": [],
+ "taxon_order": 7147.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 650,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "sea"
+  ],
+  "mass_g": 194.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pterodroma%20leucoptera%20-%20Southport%20-%20Christopher%20Watson.jpg"
+ ]
+}

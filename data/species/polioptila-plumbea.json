@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "trogna1",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Polioptila",
+ "id": "polioptila-plumbea",
+ "ids": {
+  "avibase": "F2D05388EB7D46FF",
+  "birdbase": 29443,
+  "gbif": 2487583,
+  "inaturalist": "7508",
+  "iucn": "103882288",
+  "wikidata": "Q773487",
+  "xeno_canto": "Polioptila-plumbea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polioptila_plumbea",
+  "ebird": "https://ebird.org/species/trogna1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7508",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tropical_gnatcatcher",
+   "es": "https://es.wikipedia.org/wiki/Polioptila_plumbea",
+   "ru": "https://ru.wikipedia.org/wiki/Черношапочная_комароловка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+plumbea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tropical Gnatcatcher",
+  "en_aco": "Tropical Gnatcatcher",
+  "es": "Perlita Tropical",
+  "ru": "Амазонская комароловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Polioptila plumbea",
+ "sci_name_aco": "Polioptila plumbea",
+ "sounds": [],
+ "taxon_order": 27107.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 6.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tropical%20Gnatcatcher%20Annai%20march%202015%20%2816654698237%29.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spfgal1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Porphyriops",
+ "id": "porphyriops-melanops",
+ "ids": {
+  "avibase": null,
+  "birdbase": 5876,
+  "gbif": 2474784,
+  "inaturalist": "507881",
+  "iucn": "22692887",
+  "wikidata": "Q27074649",
+  "xeno_canto": "Porphyriops-melanops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Porphyriops_melanops",
+  "ebird": "https://ebird.org/species/spfgal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/507881",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-flanked_gallinule",
+   "es": "https://es.wikipedia.org/wiki/Gallinula_melanops",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Porphyriops+melanops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-flanked Gallinule",
+  "en_aco": "Spot-flanked Gallinule",
+  "es": "Gallineta Pintada",
+  "ru": "Пятнистая камышница"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Porphyriops melanops",
+ "sci_name_aco": "Porphyriops melanops",
+ "sounds": [],
+ "taxon_order": 5451.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 189.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spot-flanked%20Gallinule.jpg"
+ ]
+}

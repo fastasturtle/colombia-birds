@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin & Godman, 1892)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wesant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-atrinucha",
+ "ids": {
+  "avibase": "E61CE1008257EF07",
+  "birdbase": 16043,
+  "gbif": 5959200,
+  "inaturalist": "15770",
+  "iucn": "22729060",
+  "wikidata": "Q1261013",
+  "xeno_canto": "Thamnophilus-atrinucha"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_atrinucha",
+  "ebird": "https://ebird.org/species/wesant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15770",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-crowned_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_atrinucha",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+atrinucha"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-crowned Antshrike",
+  "en_aco": "Black-crowned Antshrike",
+  "es": "Batará Pizarroso Occidental",
+  "ru": "Пестрокрылый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus atrinucha",
+ "sci_name_aco": "Thamnophilus atrinucha",
+ "sounds": [],
+ "taxon_order": 13536.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 23.633333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Slaty-Antshrike%20RWD.jpg"
+ ]
+}

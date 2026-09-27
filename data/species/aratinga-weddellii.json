@@ -1,0 +1,94 @@
+{
+ "authorship": "(Deville, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "duhpar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Aratinga",
+ "id": "aratinga-weddellii",
+ "ids": {
+  "avibase": "02C13BB0583FCCE2",
+  "birdbase": 13508,
+  "gbif": 2479113,
+  "inaturalist": "19182",
+  "iucn": "22685732",
+  "wikidata": "Q740580",
+  "xeno_canto": "Aratinga-weddellii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aratinga_weddellii",
+  "ebird": "https://ebird.org/species/duhpar",
+  "inaturalist": "https://www.inaturalist.org/taxa/19182",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-headed_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Aratinga_weddellii",
+   "ru": "https://ru.wikipedia.org/wiki/Буроголовая_аратинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aratinga+weddellii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-headed Parakeet",
+  "en_aco": "Dusky-headed Parakeet",
+  "es": "Aratinga Cabecifusca",
+  "ru": "Буроголовая аратинга"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Aratinga weddellii",
+ "sci_name_aco": "Aratinga weddellii",
+ "sounds": [],
+ "taxon_order": 13127.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 112.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aratinga%20weddellii%20Perico%20canoso%20Dusky-headed%20Parakeet%20%2824170575340%29.jpg"
+ ]
+}

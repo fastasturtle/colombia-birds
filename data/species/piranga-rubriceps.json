@@ -1,0 +1,92 @@
+{
+ "authorship": "(G.R. Gray, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rehtan2",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Piranga",
+ "id": "piranga-rubriceps",
+ "ids": {
+  "avibase": "0830FB52D6ED51C5",
+  "birdbase": 36571,
+  "gbif": 2488518,
+  "inaturalist": "9914",
+  "iucn": "22722486",
+  "wikidata": "Q2226559",
+  "xeno_canto": "Piranga-rubriceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piranga_rubriceps",
+  "ebird": "https://ebird.org/species/rehtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/9914",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-hooded_tanager",
+   "es": "https://es.wikipedia.org/wiki/Piranga_rubriceps",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурноголовая_пиранга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piranga+rubriceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-hooded Tanager",
+  "en_aco": "Red-hooded Tanager",
+  "es": "Piranga Capuchirroja",
+  "ru": "Красногрудая пиранга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Piranga rubriceps",
+ "sci_name_aco": "Piranga rubriceps",
+ "sounds": [],
+ "taxon_order": 34457.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piranga%20rubriceps%20Red-hooded%20Tanager%3B%20Abra%20Patricia%2C%20Peru.jpg"
+ ]
+}

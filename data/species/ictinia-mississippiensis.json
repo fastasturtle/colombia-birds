@@ -1,0 +1,95 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "miskit",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Ictinia",
+ "id": "ictinia-mississippiensis",
+ "ids": {
+  "avibase": "ACFC8EB619367A2B",
+  "birdbase": 8688,
+  "gbif": 2480719,
+  "inaturalist": "5416",
+  "iucn": "22695066",
+  "wikidata": "Q1262840",
+  "xeno_canto": "Ictinia-mississippiensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ictinia_mississippiensis",
+  "ebird": "https://ebird.org/species/miskit",
+  "inaturalist": "https://www.inaturalist.org/taxa/5416",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mississippi_kite",
+   "es": "https://es.wikipedia.org/wiki/Ictinia_mississippiensis",
+   "ru": "https://ru.wikipedia.org/wiki/Миссисипский_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ictinia+mississippiensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mississippi Kite",
+  "en_aco": "Mississippi Kite",
+  "es": "Elanio del Misisipi",
+  "ru": "Миссисипский коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Ictinia mississippiensis",
+ "sci_name_aco": "Ictinia mississippiensis",
+ "sounds": [],
+ "taxon_order": 8388.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 276,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MississippiKite.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mississippi%20Kite.jpg"
+ ]
+}

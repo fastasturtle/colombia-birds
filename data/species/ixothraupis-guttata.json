@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spetan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ixothraupis",
+ "id": "ixothraupis-guttata",
+ "ids": {
+  "avibase": "14DFDF9F8B96A971",
+  "birdbase": 37784,
+  "gbif": 9628189,
+  "inaturalist": "9568",
+  "iucn": "22722869",
+  "wikidata": "Q2637638",
+  "xeno_canto": "Tangara-guttata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_guttata",
+  "ebird": "https://ebird.org/species/spetan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9568",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_tanager",
+   "es": "https://es.wikipedia.org/wiki/Ixothraupis_guttata",
+   "ru": "https://ru.wikipedia.org/wiki/Крапчатая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ixothraupis+guttata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Tanager",
+  "en_aco": "Speckled Tanager",
+  "es": "Tangara Pintoja",
+  "ru": "Крапчатая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ixothraupis guttata",
+ "sci_name_aco": "Ixothraupis guttata",
+ "sounds": [],
+ "taxon_order": 34966.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 17.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Speckled%20Tanager%20-%20San%20Luis%20-%20Costa%20Rica%20S4E1543%20%2826073869893%29.jpg"
+ ]
+}

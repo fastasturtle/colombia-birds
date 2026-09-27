@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin & Godman, 1880)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubhel1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Oxypogon",
+ "id": "oxypogon-cyanolaemus",
+ "ids": {
+  "avibase": "2B7764F836D3EB39",
+  "birdbase": 2998,
+  "gbif": 7858664,
+  "inaturalist": "367516",
+  "iucn": "22726798",
+  "wikidata": "Q17517273",
+  "xeno_canto": "Oxypogon-cyanolaemus"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxypogon_cyanolaemus",
+  "ebird": "https://ebird.org/species/bubhel1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367516",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-bearded_helmetcrest",
+   "es": "https://es.wikipedia.org/wiki/Oxypogon_cyanolaemus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oxypogon+cyanolaemus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-bearded Helmetcrest",
+  "en_aco": "Blue-bearded Helmetcrest",
+  "es": "Colibrí Chivito de Santa Marta",
+  "ru": "Синебородая горная нимфа"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Oxypogon cyanolaemus",
+ "sci_name_aco": "Oxypogon cyanolaemus",
+ "sounds": [],
+ "taxon_order": 4534.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4800,
+   "max_extreme": 5200,
+   "min": 3000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "grassland"
+  ],
+  "mass_g": 4.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-bearded%20Helmetcrest.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebdac1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Dacnis",
+ "id": "dacnis-flaviventer",
+ "ids": {
+  "avibase": "852887242CA1F366",
+  "birdbase": 36876,
+  "gbif": 2488370,
+  "inaturalist": "10513",
+  "iucn": "22722982",
+  "wikidata": "Q1588561",
+  "xeno_canto": "Dacnis-flaviventer"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dacnis_flaviventer",
+  "ebird": "https://ebird.org/species/yebdac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10513",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-bellied_dacnis",
+   "es": "https://es.wikipedia.org/wiki/Dacnis_flaviventer",
+   "ru": "https://ru.wikipedia.org/wiki/Желтобрюхий_дакнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+flaviventer"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Dacnis",
+  "en_aco": "Yellow-bellied Dacnis",
+  "es": "Dacnis Ventriamarillo",
+  "ru": "Желтобрюхий дакнис"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dacnis flaviventer",
+ "sci_name_aco": "Dacnis flaviventer",
+ "sounds": [],
+ "taxon_order": 35146.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1400,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20flaviventer%2C%20Yellow-bellied%20Dacnis%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20flaviventer%201847.jpg"
+ ]
+}

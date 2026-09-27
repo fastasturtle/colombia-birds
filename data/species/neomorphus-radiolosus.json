@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1878)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bagcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Neomorphus",
+ "id": "neomorphus-radiolosus",
+ "ids": {
+  "avibase": "AD3195D1BC7BBE29",
+  "birdbase": 3895,
+  "gbif": 5232019,
+  "inaturalist": "1814",
+  "iucn": "22684473",
+  "wikidata": "Q1265863",
+  "xeno_canto": "Neomorphus-radiolosus"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neomorphus_radiolosus",
+  "ebird": "https://ebird.org/species/bagcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1814",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Banded_ground_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Neomorphus_radiolosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neomorphus+radiolosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Banded Ground-Cuckoo",
+  "en_aco": "Banded Ground-Cuckoo",
+  "es": "Cuco Hormiguero Escamoso",
+  "ru": "Полосатая земляная кукушка"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Neomorphus radiolosus",
+ "sci_name_aco": "Neomorphus radiolosus",
+ "sounds": [],
+ "taxon_order": 3050.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1525,
+   "min": 700,
+   "min_extreme": 430
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 399,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/NeomorphusRadiolosusSmit.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmophylax",
+ "id": "myrmophylax-atrothorax",
+ "ids": {
+  "avibase": "6877831AE6CA88B3",
+  "birdbase": 15748,
+  "gbif": 9422157,
+  "inaturalist": "554084",
+  "iucn": "22701851",
+  "wikidata": "Q28861901",
+  "xeno_canto": "Myrmophylax-atrothorax"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bltant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/554084",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmophylax+atrothorax"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Antbird",
+  "en_aco": "Black-throated Antbird",
+  "es": "Hormiguero Gorjinegro",
+  "ru": "Черногрудый алапи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmophylax atrothorax",
+ "sci_name_aco": "Myrmophylax atrothorax",
+ "sounds": [],
+ "taxon_order": 14062.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

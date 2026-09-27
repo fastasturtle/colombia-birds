@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leskis1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Philohydor",
+ "id": "philohydor-lictor",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18009,
+  "gbif": 2482751,
+  "inaturalist": "16953",
+  "iucn": null,
+  "wikidata": "Q1062555",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/leskis1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16953",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Philohydor+lictor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Kiskadee",
+  "en_aco": "Lesser Kiskadee",
+  "es": "Bienteveo Chico",
+  "ru": "Малый бентеви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Philohydor lictor",
+ "sci_name_aco": "Pitangus lictor",
+ "sounds": [],
+ "taxon_order": 17365.0,
+ "taxonomy_note": "ACO/SACC lists this as Pitangus lictor; eBird/Clements uses Philohydor lictor.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 25.639999999999997,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20kiskadee%20%28Pitangus%20lictor%20panamense%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pitangus%20lictor%20-Colombia%20-two-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pitangus%20lictor%20Bichofu%C3%A9%20chico%20Lesser%20Kiskadee%20%288492920848%29.jpg"
+ ]
+}

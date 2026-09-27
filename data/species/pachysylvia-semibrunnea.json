@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rungre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Pachysylvia",
+ "id": "pachysylvia-semibrunnea",
+ "ids": {
+  "avibase": "204918E7C671BAC6",
+  "birdbase": 21458,
+  "gbif": 7971774,
+  "inaturalist": "515244",
+  "iucn": "22705306",
+  "wikidata": "Q28846235",
+  "xeno_canto": "Pachysylvia-semibrunnea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/rungre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/515244",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-naped_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Pachysylvia_semibrunnea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachysylvia+semibrunnea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-naped Greenlet",
+  "en_aco": "Rufous-naped Greenlet",
+  "es": "Verdillo Nuquirrufo",
+  "ru": "Каштановоголовый виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachysylvia semibrunnea",
+ "sci_name_aco": "Pachysylvia semibrunnea",
+ "sounds": [],
+ "taxon_order": 19155.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 450
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 11.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylophilus%20semibrunneus%20%28Verder%C3%B3n%20casta%C3%B1o%29%20%2828231647886%29.jpg"
+ ]
+}

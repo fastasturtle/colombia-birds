@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blugrb1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Passerina",
+ "id": "passerina-caerulea",
+ "ids": {
+  "avibase": "A7A75EA1A9A57185",
+  "birdbase": 36713,
+  "gbif": 5230862,
+  "inaturalist": "73155",
+  "iucn": "22723939",
+  "wikidata": "Q794337",
+  "xeno_canto": "Passerina-caerulea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Passerina_caerulea",
+  "ebird": "https://ebird.org/species/blugrb1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73155",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue_grosbeak",
+   "es": "https://es.wikipedia.org/wiki/Passerina_caerulea",
+   "ru": "https://ru.wikipedia.org/wiki/Голубая_гуирака"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Passerina+caerulea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue Grosbeak",
+  "en_aco": "Blue Grosbeak",
+  "es": "Azulillo Grande",
+  "ru": "Толстоклювый колорин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Passerina caerulea",
+ "sci_name_aco": "Passerina caerulea",
+ "sounds": [],
+ "taxon_order": 34598.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 29,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Grosbeak%20female%20RWD2.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Grosbeak%20by%20Dan%20Pancamo.jpg"
+ ]
+}

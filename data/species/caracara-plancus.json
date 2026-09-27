@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.F. Miller, 1777)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "y00678",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Caracara",
+ "id": "caracara-plancus",
+ "ids": {
+  "avibase": "CFED276FD6D14015",
+  "birdbase": 12802,
+  "gbif": 2480989,
+  "inaturalist": "4715",
+  "iucn": "22729784",
+  "wikidata": "Q755119",
+  "xeno_canto": "Caracara-plancus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Caracara_plancus",
+  "ebird": "https://ebird.org/species/y00678",
+  "inaturalist": "https://www.inaturalist.org/taxa/4715",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_caracara",
+   "es": "https://es.wikipedia.org/wiki/Caracara_plancus",
+   "ru": "https://ru.wikipedia.org/wiki/Обыкновенная_каракара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Caracara+plancus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Caracara",
+  "en_aco": "Crested Caracara",
+  "es": "Caracara Carancho",
+  "ru": "Равнинная каракара"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Caracara plancus",
+ "sci_name_aco": "Caracara plancus",
+ "sounds": [],
+ "taxon_order": 11962.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 1129.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schopfkarakara.jpg"
+ ]
+}

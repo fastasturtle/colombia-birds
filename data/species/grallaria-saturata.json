@@ -1,0 +1,93 @@
+{
+ "authorship": "(Domaniewski & Stolzmann, 1918)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "equant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-saturata",
+ "ids": {
+  "avibase": "312C29242B6F2F7D",
+  "birdbase": 16576,
+  "gbif": 11144039,
+  "inaturalist": "1276420",
+  "iucn": null,
+  "wikidata": "Q100307364",
+  "xeno_canto": "grallaria-saturata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_saturata",
+  "ebird": "https://ebird.org/species/equant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1276420",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Equatorial_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_saturata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+saturata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Equatorial Antpitta",
+  "en_aco": "Perijá Antpitta",
+  "es": "Tororoí Ecuatorial",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria saturata",
+ "sci_name_aco": "Grallaria saturata",
+ "sounds": [],
+ "taxon_order": 14277.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": 3900,
+   "min": 2500,
+   "min_extreme": 2200
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 40.88333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20saturata%20Equatorial%20Antpitta%3B%20Manizales%2C%20Caldas%2C%20Colombia.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Temminck, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scspar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Touit",
+ "id": "touit-huetii",
+ "ids": {
+  "avibase": "2BFD21848543B0B0",
+  "birdbase": 13147,
+  "gbif": 2480135,
+  "inaturalist": "19136",
+  "iucn": "22686014",
+  "wikidata": "Q1261484",
+  "xeno_canto": "Touit-huetii"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Touit_huetii",
+  "ebird": "https://ebird.org/species/scspar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19136",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet-shouldered_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Touit_huetii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Touit+huetii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-shouldered Parrotlet",
+  "en_aco": "Scarlet-shouldered Parrotlet",
+  "es": "Cotorrita Alirroja",
+  "ru": "Красноплечий туети"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Touit huetii",
+ "sci_name_aco": "Touit huetii",
+ "sounds": [],
+ "taxon_order": 12795.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 62,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Touit%20huetii%20-Napo%20Wildlife%20Centre%2C%20Yasuni%20National%20Park%2C%20Ecuador%20-clay%20lick-6.jpg"
+ ]
+}

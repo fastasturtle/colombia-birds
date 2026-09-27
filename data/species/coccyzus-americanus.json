@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebcuc",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccyzus",
+ "id": "coccyzus-americanus",
+ "ids": {
+  "avibase": "0CF12F8155708DC8",
+  "birdbase": 4110,
+  "gbif": 2496287,
+  "inaturalist": "1965",
+  "iucn": "22684331",
+  "wikidata": "Q852265",
+  "xeno_canto": "Coccyzus-americanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccyzus_americanus",
+  "ebird": "https://ebird.org/species/yebcuc",
+  "inaturalist": "https://www.inaturalist.org/taxa/1965",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-billed_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccyzus_americanus",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоклювая_американская_кукушка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccyzus+americanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-billed Cuckoo",
+  "en_aco": "Yellow-billed Cuckoo",
+  "es": "Cuclillo Piquigualdo",
+  "ru": "Желтоклювая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccyzus americanus",
+ "sci_name_aco": "Coccyzus americanus",
+ "sounds": [],
+ "taxon_order": 3238.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 4200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 56.73333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-billed%20cuckoo%20%2842690%29.jpg"
+ ]
+}

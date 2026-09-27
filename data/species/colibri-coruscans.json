@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spvear1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Colibri",
+ "id": "colibri-coruscans",
+ "ids": {
+  "avibase": "51F7C3616210CEDA",
+  "birdbase": 2819,
+  "gbif": 5228474,
+  "inaturalist": "6072",
+  "iucn": "22687114",
+  "wikidata": "Q929489",
+  "xeno_canto": "Colibri-coruscans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colibri_coruscans",
+  "ebird": "https://ebird.org/species/spvear1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6072",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sparkling_violetear",
+   "es": "https://es.wikipedia.org/wiki/Colibri_coruscans",
+   "ru": "https://ru.wikipedia.org/wiki/Сверкающий_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colibri+coruscans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sparkling Violetear",
+  "en_aco": "Sparkling Violetear",
+  "es": "Colibrí Rutilante",
+  "ru": "Сверкающий фиалкоух"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Colibri coruscans",
+ "sci_name_aco": "Colibri coruscans",
+ "sounds": [],
+ "taxon_order": 4354.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": 200
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "plantation",
+   "agricultural"
+  ],
+  "mass_g": 6.683333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sparkling%20violetear%20%28Colibri%20coruscans%20coruscans%29%20in%20flight%20Cundinamarca.jpg"
+ ]
+}

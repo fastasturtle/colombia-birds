@@ -1,0 +1,96 @@
+{
+ "authorship": "(Temminck, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hobkit",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Chondrohierax",
+ "id": "chondrohierax-uncinatus",
+ "ids": {
+  "avibase": "DCB3560C8BC93B42",
+  "birdbase": 8166,
+  "gbif": 2480571,
+  "inaturalist": "5329",
+  "iucn": "22694971",
+  "wikidata": "Q872872",
+  "xeno_canto": "Chondrohierax-uncinatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chondrohierax_uncinatus",
+  "ebird": "https://ebird.org/species/hobkit",
+  "inaturalist": "https://www.inaturalist.org/taxa/5329",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hook-billed_kite",
+   "es": "https://es.wikipedia.org/wiki/Chondrohierax_uncinatus",
+   "ru": "https://ru.wikipedia.org/wiki/Длинноклювый_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chondrohierax+uncinatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hook-billed Kite",
+  "en_aco": "Hook-billed Kite",
+  "es": "Milano Picogarfio",
+  "ru": "Длинноклювый улиткоед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Chondrohierax uncinatus",
+ "sci_name_aco": "Chondrohierax uncinatus",
+ "sounds": [],
+ "taxon_order": 7867.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 295,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chondrohierax%20uncinatus%2076608753.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chondrohierax%20uncinatus%20-%20Hook-billed%20Kite.JPG"
+ ]
+}

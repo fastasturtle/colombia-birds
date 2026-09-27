@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pelzeln, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blcjay1",
+ "family": {
+  "code": "corvid1",
+  "en": "Crows, Jays, and Magpies",
+  "sci": "Corvidae"
+ },
+ "genus": "Cyanocorax",
+ "id": "cyanocorax-affinis",
+ "ids": {
+  "avibase": "C63A2BBFF5C42B78",
+  "birdbase": 22757,
+  "gbif": 2482559,
+  "inaturalist": "8479",
+  "iucn": "22705723",
+  "wikidata": "Q1588102",
+  "xeno_canto": "Cyanocorax-affinis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanocorax_affinis",
+  "ebird": "https://ebird.org/species/blcjay1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8479",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-chested_jay",
+   "es": "https://es.wikipedia.org/wiki/Cyanocorax_affinis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanocorax+affinis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-chested Jay",
+  "en_aco": "Black-chested Jay",
+  "es": "Chara Pechinegra",
+  "ru": "Черногрудая сойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanocorax affinis",
+ "sci_name_aco": "Cyanocorax affinis",
+ "sounds": [],
+ "taxon_order": 21259.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 206.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanocorax%20affinis.jpg"
+ ]
+}

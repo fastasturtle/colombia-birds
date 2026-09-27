@@ -1,0 +1,93 @@
+{
+ "authorship": "(Salvin, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "patfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Todirostrum",
+ "id": "todirostrum-pictum",
+ "ids": {
+  "avibase": "3562664229F2B852",
+  "birdbase": 17492,
+  "gbif": 2483260,
+  "inaturalist": "17164",
+  "iucn": "22699039",
+  "wikidata": "Q1263865",
+  "xeno_canto": "Todirostrum-pictum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Todirostrum_pictum",
+  "ebird": "https://ebird.org/species/patfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17164",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Painted_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Todirostrum_pictum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Todirostrum+pictum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Painted Tody-Flycatcher",
+  "en_aco": "Painted Tody-flycatcher",
+  "es": "Titirijí Pintado",
+  "ru": "Белогорлый тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Todirostrum pictum",
+ "sci_name_aco": "Todirostrum pictum",
+ "sounds": [],
+ "taxon_order": 16441.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 6.966666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Todirostrum%20pictum%20-%20Painted%20Tody-Flycatcher%3B%20Botanic%20Garden%20Tower%2C%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

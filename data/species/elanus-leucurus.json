@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtkit",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Elanus",
+ "id": "elanus-leucurus",
+ "ids": {
+  "avibase": "CAA5E106BE76C1D0",
+  "birdbase": 8140,
+  "gbif": 2480367,
+  "inaturalist": "5277",
+  "iucn": "22695036",
+  "wikidata": "Q693593",
+  "xeno_canto": "Elanus-leucurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elanus_leucurus",
+  "ebird": "https://ebird.org/species/whtkit",
+  "inaturalist": "https://www.inaturalist.org/taxa/5277",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_kite",
+   "es": "https://es.wikipedia.org/wiki/Elanus_leucurus",
+   "ru": "https://ru.wikipedia.org/wiki/Белохвостый_дымчатый_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elanus+leucurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Kite",
+  "en_aco": "White-tailed Kite",
+  "es": "Elanio Maromero",
+  "ru": "Белохвостый коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Elanus leucurus",
+ "sci_name_aco": "Elanus leucurus",
+ "sounds": [],
+ "taxon_order": 7843.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 4200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 308,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elanus%20leucurus%203.jpg"
+ ]
+}

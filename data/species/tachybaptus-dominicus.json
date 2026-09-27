@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leagre",
+ "family": {
+  "code": "podici1",
+  "en": "Grebes",
+  "sci": "Podicipedidae"
+ },
+ "genus": "Tachybaptus",
+ "id": "tachybaptus-dominicus",
+ "ids": {
+  "avibase": "267BDB866AB8F090",
+  "birdbase": 6212,
+  "gbif": 2482044,
+  "inaturalist": "4239",
+  "iucn": "22696571",
+  "wikidata": "Q953976",
+  "xeno_canto": "Tachybaptus-dominicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tachybaptus_dominicus",
+  "ebird": "https://ebird.org/species/leagre",
+  "inaturalist": "https://www.inaturalist.org/taxa/4239",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Least_grebe",
+   "es": "https://es.wikipedia.org/wiki/Tachybaptus_dominicus",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_поганка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tachybaptus+dominicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Least Grebe",
+  "en_aco": "Least Grebe",
+  "es": "Zampullín Macacito",
+  "ru": "Южноамериканская поганка"
+ },
+ "order": "Podicipediformes",
+ "photos": [],
+ "sci_name": "Tachybaptus dominicus",
+ "sci_name_aco": "Tachybaptus dominicus",
+ "sounds": [],
+ "taxon_order": 6849.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 134.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Least%20Grebe%20Tachybaptus%20dominicus%20dominicus%2C%20Key%20Biscayne%2C%20Florida%2C%20USA%203.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tachybaptus%20dominicus%20brachyrhynchus%20-%20Least%20grebe%3B%20Pantanal%20route-park%2C%20Corumb%C3%A1%2C%20Mato%20Grosso%20do%20Sul%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "butsic1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eutoxeres",
+ "id": "eutoxeres-condamini",
+ "ids": {
+  "avibase": "198F8B560C54654E",
+  "birdbase": 2678,
+  "gbif": 2476377,
+  "inaturalist": "6048",
+  "iucn": "22687016",
+  "wikidata": "Q1261602",
+  "xeno_canto": "Eutoxeres-condamini"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eutoxeres_condamini",
+  "ebird": "https://ebird.org/species/butsic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6048",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-tailed_sicklebill",
+   "es": "https://es.wikipedia.org/wiki/Eutoxeres_condamini",
+   "ru": "https://ru.wikipedia.org/wiki/Краснохвостый_орлиноклювый_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eutoxeres+condamini"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-tailed Sicklebill",
+  "en_aco": "Buff-tailed Sicklebill",
+  "es": "Picohoz Colicanela",
+  "ru": "Краснохвостый орлиноклюв"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eutoxeres condamini",
+ "sci_name_aco": "Eutoxeres condamini",
+ "sounds": [],
+ "taxon_order": 4235.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 180,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 9.98,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Haaksnavelkolibrie.jpg"
+ ]
+}

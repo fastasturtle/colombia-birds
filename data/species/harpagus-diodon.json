@@ -1,0 +1,91 @@
+{
+ "authorship": "(Temminck, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rutkit1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Harpagus",
+ "id": "harpagus-diodon",
+ "ids": {
+  "avibase": "CE6511AB4710203A",
+  "birdbase": 8646,
+  "gbif": 5229192,
+  "inaturalist": "5281",
+  "iucn": "22695063",
+  "wikidata": "Q787907",
+  "xeno_canto": "Harpagus-diodon"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Harpagus_diodon",
+  "ebird": "https://ebird.org/species/rutkit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5281",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-thighed_kite",
+   "es": "https://es.wikipedia.org/wiki/Harpagus_diodon",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжебокий_двузубый_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Harpagus+diodon"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-thighed Kite",
+  "en_aco": "Rufous-thighed Kite",
+  "es": "Milano Muslirrufo",
+  "ru": "Серогрудый зубцеклювый коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Harpagus diodon",
+ "sci_name_aco": "Harpagus diodon",
+ "sounds": [],
+ "taxon_order": 8341.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 187,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-thighed%20Kite%20%28Harpagus%20diodon%29.jpg"
+ ]
+}

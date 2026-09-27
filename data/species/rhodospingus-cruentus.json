@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crbfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Rhodospingus",
+ "id": "rhodospingus-cruentus",
+ "ids": {
+  "avibase": "4ED9C1DBB127B9A2",
+  "birdbase": 37155,
+  "gbif": 2491895,
+  "inaturalist": "10572",
+  "iucn": "22723055",
+  "wikidata": "Q927834",
+  "xeno_canto": "Rhodospingus-cruentus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhodospingus_cruentus",
+  "ebird": "https://ebird.org/species/crbfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10572",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crimson-breasted_finch",
+   "es": "https://es.wikipedia.org/wiki/Rhodospingus_cruentus",
+   "ru": "https://ru.wikipedia.org/wiki/Красно-чёрная_овсянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhodospingus+cruentus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crimson-breasted Finch",
+  "en_aco": "Crimson-breasted Finch",
+  "es": "Soldadito Carmesí",
+  "ru": "Огненная арагуира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhodospingus cruentus",
+ "sci_name_aco": "Rhodospingus cruentus",
+ "sounds": [],
+ "taxon_order": 35641.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 10.966666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/RhodospingusHart.jpg"
+ ]
+}

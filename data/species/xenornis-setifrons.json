@@ -1,0 +1,94 @@
+{
+ "authorship": "(Chapman, 1924)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spfant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Xenornis",
+ "id": "xenornis-setifrons",
+ "ids": {
+  "avibase": "181C3DF99790486C",
+  "birdbase": 16142,
+  "gbif": 2490037,
+  "inaturalist": "15945",
+  "iucn": "22701368",
+  "wikidata": "Q578155",
+  "xeno_canto": "Xenornis-setifrons"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenornis_setifrons",
+  "ebird": "https://ebird.org/species/spfant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15945",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Xenornis_setifrons",
+   "ru": "https://ru.wikipedia.org/wiki/Чоко_(птица)"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xenornis+setifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spiny-faced Antshrike",
+  "en_aco": "Spiny-faced Antshrike",
+  "es": "Batará Moteado",
+  "ru": "Чешуйчатый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xenornis setifrons",
+ "sci_name_aco": "Xenornis setifrons",
+ "sounds": [],
+ "taxon_order": 13674.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 24.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenornis%20setifrons%20-%20Spiny-faced%20Antshrike.jpg"
+ ]
+}

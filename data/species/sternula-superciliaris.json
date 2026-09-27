@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebter2",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sternula",
+ "id": "sternula-superciliaris",
+ "ids": {
+  "avibase": "8B4BBC2A71F3403E",
+  "birdbase": 6980,
+  "gbif": 5789280,
+  "inaturalist": "144531",
+  "iucn": "22694679",
+  "wikidata": "Q1269049",
+  "xeno_canto": "Sternula-superciliaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sternula_superciliaris",
+  "ebird": "https://ebird.org/species/yebter2",
+  "inaturalist": "https://www.inaturalist.org/taxa/144531",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-billed_tern",
+   "es": "https://es.wikipedia.org/wiki/Sternula_superciliaris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sternula+superciliaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-billed Tern",
+  "en_aco": "Yellow-billed Tern",
+  "es": "Charrancito Amazónico",
+  "ru": "Амазонская крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sternula superciliaris",
+ "sci_name_aco": "Sternula superciliaris",
+ "sounds": [],
+ "taxon_order": 6704.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 47.800000000000004,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/YellowBilledTern.jpg"
+ ]
+}

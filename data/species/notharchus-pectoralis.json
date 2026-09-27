@@ -1,0 +1,92 @@
+{
+ "authorship": "(G.R. Gray, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Notharchus",
+ "id": "notharchus-pectoralis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 10989,
+  "gbif": 2475108,
+  "inaturalist": "1590",
+  "iucn": "22682240",
+  "wikidata": "Q1265418",
+  "xeno_canto": "Notharchus-pectoralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Notharchus_pectoralis",
+  "ebird": "https://ebird.org/species/blbpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1590",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-breasted_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Notharchus_pectoralis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Notharchus+pectoralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-breasted Puffbird",
+  "en_aco": "Black-breasted Puffbird",
+  "es": "Buco Pechinegro",
+  "ru": "Черногрудая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Notharchus pectoralis",
+ "sci_name_aco": "Notharchus pectoralis",
+ "sounds": [],
+ "taxon_order": 10382.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 66.03333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Notharchus%20pectoralis.jpg"
+ ]
+}

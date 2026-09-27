@@ -1,0 +1,96 @@
+{
+ "authorship": "(Tunstall, 1771)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amepip",
+ "family": {
+  "code": "motaci1",
+  "en": "Wagtails and Pipits",
+  "sci": "Motacillidae"
+ },
+ "genus": "Anthus",
+ "id": "anthus-rubescens",
+ "ids": {
+  "avibase": "CDA2E56B",
+  "birdbase": 34083,
+  "gbif": 2490263,
+  "inaturalist": "13732",
+  "iucn": "22718575",
+  "wikidata": "Q871527",
+  "xeno_canto": "Anthus-rubescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anthus_rubescens",
+  "ebird": "https://ebird.org/species/amepip",
+  "inaturalist": "https://www.inaturalist.org/taxa/13732",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_pipit",
+   "es": "https://es.wikipedia.org/wiki/Anthus_rubescens",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_конёк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthus+rubescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Pipit",
+  "en_aco": "American Pipit",
+  "es": "Bisbita Norteamericano",
+  "ru": "Американский конёк"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anthus rubescens",
+ "sci_name_aco": "Anthus rubescens",
+ "sounds": [],
+ "taxon_order": 31883.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Snow",
+  "elevation_m": {
+   "max": 3250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 21.98,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anthus%20rubescens%20-Harney%20County%2C%20Oregon%2C%20USA-8.jpg"
+ ]
+}

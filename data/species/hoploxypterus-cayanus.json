@@ -1,0 +1,96 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pielap1",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Hoploxypterus",
+ "id": "hoploxypterus-cayanus",
+ "ids": {
+  "avibase": "FC943B05BAEB347E",
+  "birdbase": 6495,
+  "gbif": 5229152,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q25683596",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/pielap1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hoploxypterus+cayanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pied Plover",
+  "en_aco": "Pied Lapwing",
+  "es": "Avefría de Cayena",
+  "ru": "Диадемовая пигалица"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Hoploxypterus cayanus",
+ "sci_name_aco": "Vanellus cayanus",
+ "sounds": [],
+ "taxon_order": 5823.0,
+ "taxonomy_note": "ACO/SACC lists this as Vanellus cayanus; eBird/Clements uses Hoploxypterus cayanus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 850,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "savanna",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 72.33333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vanellus%20cayanus%20Pellar%20playero%20Pied%20Lapwing%20%2816396951246%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vanellus%20cayanus-Pied%20Lapwing.jpg"
+ ]
+}

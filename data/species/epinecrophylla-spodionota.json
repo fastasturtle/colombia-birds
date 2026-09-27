@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fooant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Epinecrophylla",
+ "id": "epinecrophylla-spodionota",
+ "ids": {
+  "avibase": "A186C9C645B5EAD0",
+  "birdbase": 15736,
+  "gbif": 7341740,
+  "inaturalist": "72838",
+  "iucn": "22701484",
+  "wikidata": "Q1271337",
+  "xeno_canto": "Epinecrophylla-spodionota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Epinecrophylla_spodionota",
+  "ebird": "https://ebird.org/species/fooant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72838",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Foothill_stipplethroat",
+   "es": "https://es.wikipedia.org/wiki/Epinecrophylla_spodionota",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Epinecrophylla+spodionota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Foothill Stipplethroat",
+  "en_aco": "Foothill Stipplethroat",
+  "es": "Hormiguerito Submontano",
+  "ru": "Сероспинный алапи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Epinecrophylla spodionota",
+ "sci_name_aco": "Epinecrophylla spodionota",
+ "sounds": [],
+ "taxon_order": 13701.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 9.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Epinecrophylla%20spodionota%20Foothill%20Antwren%3B%20Oxapampa%2C%20Pasco%2C%20Peru.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blcwar2",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myiothlypis",
+ "id": "myiothlypis-nigrocristata",
+ "ids": {
+  "avibase": "3D4F2A70AC192AE0",
+  "birdbase": 36367,
+  "gbif": 7811145,
+  "inaturalist": "201226",
+  "iucn": "22721975",
+  "wikidata": "Q27075951",
+  "xeno_canto": "Myiothlypis-nigrocristata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_nigrocristata",
+  "ebird": "https://ebird.org/species/blcwar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/201226",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-crested_warbler",
+   "es": "https://es.wikipedia.org/wiki/Myiothlypis_nigrocristata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+nigrocristata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-crested Warbler",
+  "en_aco": "Black-crested Warbler",
+  "es": "Reinita Crestinegra",
+  "ru": "Черношапочный певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiothlypis nigrocristata",
+ "sci_name_aco": "Myiothlypis nigrocristata",
+ "sounds": [],
+ "taxon_order": 34307.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 14.075,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-crested%20Warbler%20%28Basileuterus%20nigrocristatus%29.jpg"
+ ]
+}

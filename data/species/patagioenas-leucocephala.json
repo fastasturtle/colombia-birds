@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcpig2",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-leucocephala",
+ "ids": {
+  "avibase": "5F571C8A089382FB",
+  "birdbase": 4523,
+  "gbif": 2495310,
+  "inaturalist": "3093",
+  "iucn": "22690229",
+  "wikidata": "Q1269998",
+  "xeno_canto": "Patagioenas-leucocephala"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_leucocephala",
+  "ebird": "https://ebird.org/species/whcpig2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3093",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-crowned_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_leucocephala",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+leucocephala"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-crowned Pigeon",
+  "en_aco": "White-crowned Pigeon",
+  "es": "Paloma Coronita",
+  "ru": "Белошапочный голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas leucocephala",
+ "sci_name_aco": "Patagioenas leucocephala",
+ "sounds": [],
+ "taxon_order": 1956.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 242.33333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-crowned%20Pigeon%20%28Patagioenas%20leucocephala%29.jpg"
+ ]
+}

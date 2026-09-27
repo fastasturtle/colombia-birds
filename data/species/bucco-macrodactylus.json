@@ -1,0 +1,95 @@
+{
+ "authorship": "(von Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chcpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Bucco",
+ "id": "bucco-macrodactylus",
+ "ids": {
+  "avibase": "C22326DFC2A0F4B4",
+  "birdbase": 10997,
+  "gbif": 5228265,
+  "inaturalist": "72574",
+  "iucn": null,
+  "wikidata": "Q1264233",
+  "xeno_canto": "Bucco-macrodactylus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bucco_macrodactylus",
+  "ebird": "https://ebird.org/species/chcpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72574",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-capped_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Bucco_macrodactylus",
+   "ru": "https://ru.wikipedia.org/wiki/Бурошапочная_пуховка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bucco+macrodactylus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-capped Puffbird",
+  "en_aco": "Chestnut-capped Puffbird",
+  "es": "Buco Cabecirrojo",
+  "ru": "Буроголовая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Bucco macrodactylus",
+ "sci_name_aco": "Bucco macrodactylus",
+ "sounds": [],
+ "taxon_order": 10389.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 660,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-capped%20Puffbird.jpg"
+ ]
+}

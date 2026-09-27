@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stcwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Piculus",
+ "id": "piculus-callopterus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 12337,
+  "gbif": 5228885,
+  "inaturalist": "17705",
+  "iucn": "22681231",
+  "wikidata": "Q915876",
+  "xeno_canto": "Piculus-callopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piculus_callopterus",
+  "ebird": "https://ebird.org/species/stcwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17705",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stripe-cheeked_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Piculus_callopterus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piculus+callopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stripe-cheeked Woodpecker",
+  "en_aco": "Stripe-cheeked Woodpecker",
+  "es": "Carpintero Panameño",
+  "ru": "Панамский дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Piculus callopterus",
+ "sci_name_aco": "Piculus callopterus",
+ "sounds": [],
+ "taxon_order": 11836.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 51,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stripe-cheeked%20Woodpecker%20%28Piculus%20callopterus%29%202.jpg"
+ ]
+}

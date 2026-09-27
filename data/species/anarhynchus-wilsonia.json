@@ -1,0 +1,94 @@
+{
+ "authorship": "(Ord, 1814)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wilplo",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Anarhynchus",
+ "id": "anarhynchus-wilsonia",
+ "ids": {
+  "avibase": "654D660CF51DB8B1",
+  "birdbase": 6569,
+  "gbif": 2480302,
+  "inaturalist": "4795",
+  "iucn": "22693774",
+  "wikidata": "Q979488",
+  "xeno_canto": "Charadrius-wilsonia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Charadrius_wilsonia",
+  "ebird": "https://ebird.org/species/wilplo",
+  "inaturalist": "https://www.inaturalist.org/taxa/4795",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wilson's_plover",
+   "es": "https://es.wikipedia.org/wiki/Charadrius_wilsonia",
+   "ru": "https://ru.wikipedia.org/wiki/Зуёк_Вильсона"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anarhynchus+wilsonia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wilson's Plover",
+  "en_aco": "Wilson's Plover",
+  "es": "Chorlitejo Piquigrueso",
+  "ru": "Вильсонов зуёк"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Anarhynchus wilsonia",
+ "sci_name_aco": "Charadrius wilsonia",
+ "sounds": [],
+ "taxon_order": 5928.0,
+ "taxonomy_note": "ACO/SACC lists this as Charadrius wilsonia; eBird/Clements uses Anarhynchus wilsonia.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "coastal"
+  ],
+  "mass_g": 63.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Charadrius%20wilsonia%20070430%20GWADA.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wilson%27s%20Plover%20female%20RWD9.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wilson%27s%20Plover%20male%20RWD2.jpg"
+ ]
+}

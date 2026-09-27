@@ -1,0 +1,93 @@
+{
+ "authorship": "(Tschudi, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andlap1",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Vanellus",
+ "id": "vanellus-resplendens",
+ "ids": {
+  "avibase": "D0591043977E5A4E",
+  "birdbase": 6543,
+  "gbif": 5229141,
+  "inaturalist": "4873",
+  "iucn": "22694078",
+  "wikidata": "Q249290",
+  "xeno_canto": "Vanellus-resplendens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vanellus_resplendens",
+  "ebird": "https://ebird.org/species/andlap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4873",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_lapwing",
+   "es": "https://es.wikipedia.org/wiki/Vanellus_resplendens",
+   "ru": "https://ru.wikipedia.org/wiki/Андская_пигалица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vanellus+resplendens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Lapwing",
+  "en_aco": "Andean Lapwing",
+  "es": "Avefría Andina",
+  "ru": "Андский чибис"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Vanellus resplendens",
+ "sci_name_aco": "Vanellus resplendens",
+ "sounds": [],
+ "taxon_order": 5902.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5000,
+   "max_extreme": null,
+   "min": 2700,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 211.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean%20Lapwing%20%28Vanellus%20resplendens%29%20on%20the%20ground%2C%20side%20view.jpg"
+ ]
+}

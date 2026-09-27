@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1874)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sitspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-subpudica",
+ "ids": {
+  "avibase": "B96EBCC19223441E",
+  "birdbase": 15559,
+  "gbif": 2484994,
+  "inaturalist": "10922",
+  "iucn": "22702331",
+  "wikidata": "Q1267031",
+  "xeno_canto": "Synallaxis-subpudica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_subpudica",
+  "ebird": "https://ebird.org/species/sitspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10922",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Silvery-throated_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_subpudica",
+   "ru": "https://ru.wikipedia.org/wiki/Серебряногорлый_иглохвостый_печник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+subpudica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Silvery-throated Spinetail",
+  "en_aco": "Silvery-throated Spinetail",
+  "es": "Pijuí de Cundinamarca",
+  "ru": "Серозобая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis subpudica",
+ "sci_name_aco": "Synallaxis subpudica",
+ "sounds": [],
+ "taxon_order": 15597.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 2100,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 18.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20subpudica%20-%20Silvery-throated%20Spinetail.jpg"
+ ]
+}

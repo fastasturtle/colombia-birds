@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yerwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-coronata",
+ "ids": {
+  "avibase": "BC5A949807108302",
+  "birdbase": 36307,
+  "gbif": 7341805,
+  "inaturalist": "145245",
+  "iucn": "103798425",
+  "wikidata": "Q18390024",
+  "xeno_canto": "Setophaga-coronata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_coronata",
+  "ebird": "https://ebird.org/species/yerwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145245",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-rumped_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_coronata",
+   "ru": "https://ru.wikipedia.org/wiki/Миртовый_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+coronata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-rumped Warbler",
+  "en_aco": "Yellow-rumped Warbler",
+  "es": "Reinita Coronada",
+  "ru": "Миртовый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga coronata",
+ "sci_name_aco": "Setophaga coronata",
+ "sounds": [],
+ "taxon_order": 34159.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1140,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "desert",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 13.666666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-rumped%20warbler%20singing%20%2841612%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-rumped%20warbler%20%2853768%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Wied-Neuwied, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scrpih1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Lipaugus",
+ "id": "lipaugus-vociferans",
+ "ids": {
+  "avibase": "7F74A59591365442",
+  "birdbase": 18297,
+  "gbif": 2486506,
+  "inaturalist": "8755",
+  "iucn": "22700856",
+  "wikidata": "Q1067401",
+  "xeno_canto": "Lipaugus-vociferans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lipaugus_vociferans",
+  "ebird": "https://ebird.org/species/scrpih1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8755",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Screaming_piha",
+   "es": "https://es.wikipedia.org/wiki/Lipaugus_vociferans",
+   "ru": "https://ru.wikipedia.org/wiki/Крикливая_сорокопутовая_пиха"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lipaugus+vociferans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Screaming Piha",
+  "en_aco": "Screaming Piha",
+  "es": "Guardabosques Gritón",
+  "ru": "Крикливая пиха"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lipaugus vociferans",
+ "sci_name_aco": "Lipaugus vociferans",
+ "sounds": [],
+ "taxon_order": 15933.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "wetland"
+  ],
+  "mass_g": 79.16666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lipaugus%20vociferans%20-%20Screaming%20Piha%3B%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

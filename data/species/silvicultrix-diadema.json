@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hartlaub, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebcht1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Silvicultrix",
+ "id": "silvicultrix-diadema",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17919,
+  "gbif": 2483172,
+  "inaturalist": "16198",
+  "iucn": null,
+  "wikidata": "Q1261755",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/yebcht1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16198",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Silvicultrix+diadema"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Chat-Tyrant",
+  "en_aco": "Yellow-bellied Chat-Tyrant",
+  "es": "Pitajo Diademado",
+  "ru": "Диадемовая тираннита"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Silvicultrix diadema",
+ "sci_name_aco": "Ochthoeca diadema",
+ "sounds": [],
+ "taxon_order": 17181.0,
+ "taxonomy_note": "ACO/SACC lists this as Ochthoeca diadema; eBird/Clements uses Silvicultrix diadema.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": 800
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chat%20in%20hand.JPG"
+ ]
+}

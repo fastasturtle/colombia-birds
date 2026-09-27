@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chwwid",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Antrostomus",
+ "id": "antrostomus-carolinensis",
+ "ids": {
+  "avibase": "8D3E887123F5C670",
+  "birdbase": 1961,
+  "gbif": 6101173,
+  "inaturalist": "199833",
+  "iucn": "22689778",
+  "wikidata": "Q1262147",
+  "xeno_canto": "Antrostomus-carolinensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Antrostomus_carolinensis",
+  "ebird": "https://ebird.org/species/chwwid",
+  "inaturalist": "https://www.inaturalist.org/taxa/199833",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chuck-will's-widow",
+   "es": "https://es.wikipedia.org/wiki/Antrostomus_carolinensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Antrostomus+carolinensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chuck-will's-widow",
+  "en_aco": "Chuck-will's-widow",
+  "es": "Chotacabras de Carolina",
+  "ru": "Каролинский козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Antrostomus carolinensis",
+ "sci_name_aco": "Antrostomus carolinensis",
+ "sounds": [],
+ "taxon_order": 3594.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 112.94000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Caprimulgus%20carolinensisDF28N01B.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chuck-wills-widow%20RWD7.jpg"
+ ]
+}

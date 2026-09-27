@@ -1,0 +1,94 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whttyr2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mecocerculus",
+ "id": "mecocerculus-leucophrys",
+ "ids": {
+  "avibase": "AA12C545AD776D20",
+  "birdbase": 17028,
+  "gbif": 2483822,
+  "inaturalist": "16407",
+  "iucn": "22699313",
+  "wikidata": "Q1269225",
+  "xeno_canto": "Mecocerculus-leucophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mecocerculus_leucophrys",
+  "ebird": "https://ebird.org/species/whttyr2",
+  "inaturalist": "https://www.inaturalist.org/taxa/16407",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Mecocerculus_leucophrys",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mecocerculus+leucophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Tyrannulet",
+  "en_aco": "White-throated Tyrannulet",
+  "es": "Piojito Gargantilla",
+  "ru": "Белогорлый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mecocerculus leucophrys",
+ "sci_name_aco": "Mecocerculus leucophrys",
+ "sounds": [],
+ "taxon_order": 16582.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4400,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 11.78,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-throated%20tyrannulet%20%28Mecocerculus%20leucophrys%20setophagoides%29%20Cundinamarca.jpg"
+ ]
+}

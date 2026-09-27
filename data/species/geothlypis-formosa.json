@@ -1,0 +1,95 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "kenwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Geothlypis",
+ "id": "geothlypis-formosa",
+ "ids": {
+  "avibase": "8C105C3C647C7E36",
+  "birdbase": 36184,
+  "gbif": 6093586,
+  "inaturalist": "145225",
+  "iucn": "22721812",
+  "wikidata": "Q27075899",
+  "xeno_canto": "Geothlypis-formosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geothlypis_formosa",
+  "ebird": "https://ebird.org/species/kenwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145225",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Kentucky_warbler",
+   "es": "https://es.wikipedia.org/wiki/Geothlypis_formosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geothlypis+formosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Kentucky Warbler",
+  "en_aco": "Kentucky Warbler",
+  "es": "Reinita de Kentucky",
+  "ru": "Златобровая желтогрудка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Geothlypis formosa",
+ "sci_name_aco": "Geothlypis formosa",
+ "sounds": [],
+ "taxon_order": 34011.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2310,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.133333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Kentucky%20Warbler%20%2834562405685%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oporornis%20formosus%20FWS.jpg"
+ ]
+}

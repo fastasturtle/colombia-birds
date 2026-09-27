@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "purgal2",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Porphyrio",
+ "id": "porphyrio-martinica",
+ "ids": {
+  "avibase": "72A4F8EBF168E80D",
+  "birdbase": 5943,
+  "gbif": 5228136,
+  "inaturalist": "519",
+  "iucn": null,
+  "wikidata": "Q27074644",
+  "xeno_canto": "Porphyrio-martinica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Porphyrio_martinica",
+  "ebird": "https://ebird.org/species/purgal2",
+  "inaturalist": "https://www.inaturalist.org/taxa/519",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_purple_gallinule",
+   "es": "https://es.wikipedia.org/wiki/Porphyrio_martinica",
+   "ru": "https://ru.wikipedia.org/wiki/Малая_султанка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Porphyrio+martinica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple Gallinule",
+  "en_aco": "Purple Gallinule",
+  "es": "Calamoncillo Americano",
+  "ru": "Малая султанка"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Porphyrio martinica",
+ "sci_name_aco": "Porphyrio martinica",
+ "sounds": [],
+ "taxon_order": 5515.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4080,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 239.5666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple%20Gallinule%20-%20Porphyrio%20martinica%2C%20Everglades%20National%20Park%2C%20Homestead%2C%20Florida%20%2838539237780%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PurpleGallinule.jpg"
+ ]
+}

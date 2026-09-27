@@ -1,0 +1,95 @@
+{
+ "authorship": "(Malherbe, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rerwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Veniliornis",
+ "id": "veniliornis-kirkii",
+ "ids": {
+  "avibase": "CB586CF63D62C020",
+  "birdbase": 12190,
+  "gbif": 10860672,
+  "inaturalist": "18020",
+  "iucn": "22681212",
+  "wikidata": "Q631542",
+  "xeno_canto": "Veniliornis-kirkii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Veniliornis_kirkii",
+  "ebird": "https://ebird.org/species/rerwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18020",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-rumped_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Veniliornis_kirkii",
+   "ru": "https://ru.wikipedia.org/wiki/Краснопоясничный_венилиорнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Veniliornis+kirkii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-rumped Woodpecker",
+  "en_aco": "Red-rumped Woodpecker",
+  "es": "Carpintero Culirrojo",
+  "ru": "Огненоспинный дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Veniliornis kirkii",
+ "sci_name_aco": "Dryobates kirkii",
+ "sounds": [],
+ "taxon_order": 11467.0,
+ "taxonomy_note": "ACO/SACC lists this as Dryobates kirkii; eBird/Clements uses Veniliornis kirkii.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "savanna",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 34,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-Rumped%20Woodpecker%20%28Veniliornis%20kirkii%29.jpg"
+ ]
+}

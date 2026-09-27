@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "giaant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-gigantea",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16495,
+  "gbif": 2490517,
+  "inaturalist": "117201",
+  "iucn": "22703240",
+  "wikidata": "Q839942",
+  "xeno_canto": "Grallaria-gigantea"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_gigantea",
+  "ebird": "https://ebird.org/species/giaant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/117201",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Giant_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_gigantea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+gigantea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Giant Antpitta",
+  "en_aco": "Giant Antpitta",
+  "es": "Tororoí Gigante",
+  "ru": "Гигантская питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria gigantea",
+ "sci_name_aco": "Grallaria gigantea",
+ "sounds": [],
+ "taxon_order": 14193.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 241.33333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20gigantea.jpg"
+ ]
+}

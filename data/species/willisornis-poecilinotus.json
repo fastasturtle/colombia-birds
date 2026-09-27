@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scbant3",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Willisornis",
+ "id": "willisornis-poecilinotus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16191,
+  "gbif": 7341168,
+  "inaturalist": "144252",
+  "iucn": "103658813",
+  "wikidata": "Q1063238",
+  "xeno_canto": "Willisornis-poecilinotus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Willisornis_poecilonotus",
+  "ebird": "https://ebird.org/species/scbant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/144252",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_scale-backed_antbird",
+   "es": "https://es.wikipedia.org/wiki/Willisornis_poecilinotus",
+   "ru": "https://ru.wikipedia.org/wiki/Чешуйчатая_короткохвостая_муравьянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Willisornis+poecilinotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Scale-backed Antbird",
+  "en_aco": "Common Scale-backed Antbird",
+  "es": "Hormiguero Dorsiescamado Común",
+  "ru": "Чешуйчатоспинная муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Willisornis poecilinotus",
+ "sci_name_aco": "Willisornis poecilinotus",
+ "sounds": [],
+ "taxon_order": 14114.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 950,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 17.716666666666665,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Willisornis%20poecilonotus%20male.jpg"
+ ]
+}

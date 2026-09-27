@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slabru1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-schistaceus",
+ "ids": {
+  "avibase": "8B1FBB86E1BB6A8E",
+  "birdbase": 35682,
+  "gbif": 2491392,
+  "inaturalist": "10333",
+  "iucn": "103774619",
+  "wikidata": "Q1134262",
+  "xeno_canto": "Atlapetes-schistaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_schistaceus",
+  "ebird": "https://ebird.org/species/slabru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10333",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_schistaceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+schistaceus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Northern Slaty Brushfinch",
+  "en_aco": "Slaty Brushfinch",
+  "es": "Atlapetes Pizarroso",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes schistaceus",
+ "sci_name_aco": "Atlapetes schistaceus",
+ "sounds": [],
+ "taxon_order": 33474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": 1800
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 30.875,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/BuarremonSmit1875.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atlapetes%20schistaceus%20%28Atlapetes%20pizarra%29%20%2814053082482%29.jpg"
+ ]
+}

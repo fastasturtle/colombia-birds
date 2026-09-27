@@ -1,0 +1,92 @@
+{
+ "authorship": "(Natterer & Malherbe, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtwoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Piculus",
+ "id": "piculus-leucolaemus",
+ "ids": {
+  "avibase": "B18AF355DE9CBC60",
+  "birdbase": 12339,
+  "gbif": 5228881,
+  "inaturalist": "17701",
+  "iucn": "22681237",
+  "wikidata": "Q1259132",
+  "xeno_canto": "Piculus-leucolaemus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piculus_leucolaemus",
+  "ebird": "https://ebird.org/species/whtwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/17701",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Piculus_leucolaemus",
+   "ru": "https://ru.wikipedia.org/wiki/Белогорлый_полосатобрюхий_дятел"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piculus+leucolaemus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Woodpecker",
+  "en_aco": "White-throated Woodpecker",
+  "es": "Carpintero Gorjiblanco",
+  "ru": "Белогорлый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Piculus leucolaemus",
+ "sci_name_aco": "Piculus leucolaemus",
+ "sounds": [],
+ "taxon_order": 11837.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 69,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piculus%20leucolaemus%20-%20White-throated%20woodpecker%20%28male%29.jpg"
+ ]
+}

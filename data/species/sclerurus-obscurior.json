@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hartert & Ejo, 1901)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soalea1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Sclerurus",
+ "id": "sclerurus-obscurior",
+ "ids": {
+  "avibase": "561897FD7D3041BC",
+  "birdbase": 14457,
+  "gbif": 8867648,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q18046732",
+  "xeno_canto": "Sclerurus-obscurior"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sclerurus_obscurior",
+  "ebird": "https://ebird.org/species/soalea1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky_leaftosser",
+   "es": "https://es.wikipedia.org/wiki/Sclerurus_obscurior",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sclerurus+obscurior"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "South American Leaftosser",
+  "en_aco": "South American Leaftosser",
+  "es": "Tirahojas Oscuro",
+  "ru": "Тёмный тенелюб"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sclerurus obscurior",
+ "sci_name_aco": "Sclerurus obscurior",
+ "sounds": [],
+ "taxon_order": 14537.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 23.833333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tawny-throated%20Leaftosser.jpg"
+ ]
+}

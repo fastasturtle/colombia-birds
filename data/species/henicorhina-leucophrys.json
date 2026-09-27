@@ -1,0 +1,95 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gbwwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Henicorhina",
+ "id": "henicorhina-leucophrys",
+ "ids": {
+  "avibase": "57420691A32A007C",
+  "birdbase": 29319,
+  "gbif": 2493957,
+  "inaturalist": "7612",
+  "iucn": "103889800",
+  "wikidata": "Q2667795",
+  "xeno_canto": "Henicorhina-leucophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Henicorhina_leucophrys",
+  "ebird": "https://ebird.org/species/gbwwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7612",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-breasted_wood_wren",
+   "es": "https://es.wikipedia.org/wiki/Henicorhina_leucophrys",
+   "ru": "https://ru.wikipedia.org/wiki/Серогрудый_лесной_крапивник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Henicorhina+leucophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-breasted Wood-Wren",
+  "en_aco": "Gray-breasted Wood-Wren",
+  "es": "Cucarachero Pechigrís",
+  "ru": "Серогрудый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Henicorhina leucophrys",
+ "sci_name_aco": "Henicorhina leucophrys",
+ "sounds": [],
+ "taxon_order": 27612.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 16.483333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Henicorhina%20leucophrys%20Santa%20Elena.JPG"
+ ]
+}

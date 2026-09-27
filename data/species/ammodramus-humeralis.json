@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bosc, 1792)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "graspa1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Ammodramus",
+ "id": "ammodramus-humeralis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35171,
+  "gbif": 2491303,
+  "inaturalist": "10134",
+  "iucn": "22721147",
+  "wikidata": "Q3314713",
+  "xeno_canto": "Ammodramus%20humeralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ammodramus_humeralis",
+  "ebird": "https://ebird.org/species/graspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10134",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grassland_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Ammodramus_humeralis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ammodramus+humeralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grassland Sparrow",
+  "en_aco": "Grassland Sparrow",
+  "es": "Chingolo Pajonalero",
+  "ru": "Желтобровая овсянка-барсучок"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ammodramus humeralis",
+ "sci_name_aco": "Ammodramus humeralis",
+ "sounds": [],
+ "taxon_order": 32955.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 16.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grassland%20sparrow%20%28Ammodramus%20humeralis%29%20Colonia.jpg"
+ ]
+}

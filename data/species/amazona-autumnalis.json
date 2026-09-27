@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "relpar10",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Amazona",
+ "id": "amazona-autumnalis",
+ "ids": {
+  "avibase": "5D40E6465B7F77BD",
+  "birdbase": 13281,
+  "gbif": 2479623,
+  "inaturalist": "18990",
+  "iucn": "22728292",
+  "wikidata": "Q922333",
+  "xeno_canto": "Amazona-autumnalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazona_autumnalis",
+  "ebird": "https://ebird.org/species/relpar10",
+  "inaturalist": "https://www.inaturalist.org/taxa/18990",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-lored_amazon",
+   "es": "https://es.wikipedia.org/wiki/Amazona_autumnalis",
+   "ru": "https://ru.wikipedia.org/wiki/Краснолобый_амазон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazona+autumnalis"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Red-lored Amazon",
+  "en_aco": "Red-lored Parrot",
+  "es": "Amazona Frentirroja",
+  "ru": "Желтощёкий амазон"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Amazona autumnalis",
+ "sci_name_aco": "Amazona autumnalis",
+ "sounds": [],
+ "taxon_order": 12909.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 408.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-lored%20Parrot%20%28Amazona%20autumnalis%29%20%286777353237%29.jpg"
+ ]
+}

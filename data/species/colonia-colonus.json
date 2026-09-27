@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lottyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Colonia",
+ "id": "colonia-colonus",
+ "ids": {
+  "avibase": "3EB54C47B29EBCEF",
+  "birdbase": 17963,
+  "gbif": 5229809,
+  "inaturalist": "16909",
+  "iucn": "22700318",
+  "wikidata": "Q1048555",
+  "xeno_canto": "Colonia-colonus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colonia_colonus",
+  "ebird": "https://ebird.org/species/lottyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16909",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-tailed_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Colonia_colonus",
+   "ru": "https://ru.wikipedia.org/wiki/Длиннохвостый_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colonia+colonus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-tailed Tyrant",
+  "en_aco": "Long-tailed Tyrant",
+  "es": "Mosquero Colilargo",
+  "ru": "Длиннохвостая колония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Colonia colonus",
+ "sci_name_aco": "Colonia colonus",
+ "sounds": [],
+ "taxon_order": 17220.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Colonia%20colonus%20-Parque%20Nacional%20do%20Itatiaia%2C%20Rio%20de%20Janeiro%2C%20Brazil-8.jpg"
+ ]
+}

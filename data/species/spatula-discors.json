@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buwtea",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Spatula",
+ "id": "spatula-discors",
+ "ids": {
+  "avibase": "90E2543E9A4ABA0A",
+  "birdbase": 389,
+  "gbif": 9422220,
+  "inaturalist": "558433",
+  "iucn": "22680229",
+  "wikidata": "Q28106778",
+  "xeno_canto": "Spatula-discors"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spatula_discors",
+  "ebird": "https://ebird.org/species/buwtea",
+  "inaturalist": "https://www.inaturalist.org/taxa/558433",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-winged_teal",
+   "es": "https://es.wikipedia.org/wiki/Spatula_discors",
+   "ru": "https://ru.wikipedia.org/wiki/Голубокрылый_чирок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spatula+discors"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-winged Teal",
+  "en_aco": "Blue-winged Teal",
+  "es": "Cerceta Aliazul",
+  "ru": "Синекрылый чирок"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Spatula discors",
+ "sci_name_aco": "Spatula discors",
+ "sounds": [],
+ "taxon_order": 485.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 400.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-wingedTeal-16DEC2017.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-wingedTeal-16DEC2017%282%29.jpg"
+ ]
+}

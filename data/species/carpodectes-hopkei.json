@@ -1,0 +1,92 @@
+{
+ "authorship": "(Berlepsch, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Carpodectes",
+ "id": "carpodectes-hopkei",
+ "ids": {
+  "avibase": "4A9F737091BCA9A5",
+  "birdbase": 18325,
+  "gbif": 2486497,
+  "inaturalist": "8925",
+  "iucn": "22700910",
+  "wikidata": "Q844631",
+  "xeno_canto": "Carpodectes-hopkei"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Carpodectes_hopkei",
+  "ebird": "https://ebird.org/species/bltcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8925",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-tipped_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Carpodectes_hopkei",
+   "ru": "https://ru.wikipedia.org/wiki/Серебристая_белая_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Carpodectes+hopkei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-tipped Cotinga",
+  "en_aco": "Black-tipped Cotinga",
+  "es": "Cotinga Blanco",
+  "ru": "Белая котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Carpodectes hopkei",
+ "sci_name_aco": "Carpodectes hopkei",
+ "sounds": [],
+ "taxon_order": 15949.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1450,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 107.33333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carpodectes%20hopkei%20-%20Black-tipped%20Cotinga.jpg"
+ ]
+}

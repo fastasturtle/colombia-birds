@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sntkin1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannus",
+ "id": "tyrannus-niveigularis",
+ "ids": {
+  "avibase": "B826FFA55E26AC03",
+  "birdbase": 18054,
+  "gbif": 5229677,
+  "inaturalist": "16769",
+  "iucn": "22700479",
+  "wikidata": "Q1268184",
+  "xeno_canto": "Tyrannus-niveigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannus_niveigularis",
+  "ebird": "https://ebird.org/species/sntkin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16769",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Snowy-throated_kingbird",
+   "es": "https://es.wikipedia.org/wiki/Tyrannus_niveigularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannus+niveigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Snowy-throated Kingbird",
+  "en_aco": "Snowy-throated Kingbird",
+  "es": "Tirano Gorjiníveo",
+  "ru": "Белогорлый тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannus niveigularis",
+ "sci_name_aco": "Tyrannus niveigularis",
+ "sounds": [],
+ "taxon_order": 17450.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "desert",
+   "agricultural"
+  ],
+  "mass_g": 34.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus%20niveigularis%20110043413.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TyrannusNiveigularisSmit.jpg"
+ ]
+}

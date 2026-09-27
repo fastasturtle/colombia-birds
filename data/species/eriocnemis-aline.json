@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "embpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-aline",
+ "ids": {
+  "avibase": "39F4DE42721BFDAC",
+  "birdbase": 3081,
+  "gbif": 6101165,
+  "inaturalist": "201074",
+  "iucn": "22687944",
+  "wikidata": "Q1263833",
+  "xeno_canto": "Eriocnemis-aline"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_aline",
+  "ebird": "https://ebird.org/species/embpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201074",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Emerald-bellied_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_aline",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+aline"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Emerald-bellied Puffleg",
+  "en_aco": "Emerald-bellied Puffleg",
+  "es": "Calzadito Pechiblanco",
+  "ru": "Изумрудный эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis aline",
+ "sci_name_aco": "Eriocnemis aline",
+ "sounds": [],
+ "taxon_order": 4600.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 2300,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eriocnemis%20aline%20237102256%20%28cropped%29.jpg"
+ ]
+}

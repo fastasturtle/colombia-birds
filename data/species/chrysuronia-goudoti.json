@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shghum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysuronia",
+ "id": "chrysuronia-goudoti",
+ "ids": {
+  "avibase": "2BE9465CF19C93A3",
+  "birdbase": 3631,
+  "gbif": 11006952,
+  "inaturalist": null,
+  "iucn": "22687421",
+  "wikidata": "Q115862746",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/shghum1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysuronia+goudoti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Shining-green Hummingbird",
+  "en_aco": "Shining-green Hummingbird",
+  "es": "Colibrí de Goudot",
+  "ru": "Зелёный колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysuronia goudoti",
+ "sci_name_aco": "Chrysuronia goudoti",
+ "sounds": [],
+ "taxon_order": 5142.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 3.9333333333333336,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

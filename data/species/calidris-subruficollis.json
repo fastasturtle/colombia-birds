@@ -1,0 +1,92 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubsan",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-subruficollis",
+ "ids": {
+  "avibase": "3A3C62BC935BDA72",
+  "birdbase": 6819,
+  "gbif": 8292425,
+  "inaturalist": "339596",
+  "iucn": "22693447",
+  "wikidata": "Q27452709",
+  "xeno_canto": "Calidris-subruficollis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_subruficollis",
+  "ebird": "https://ebird.org/species/bubsan",
+  "inaturalist": "https://www.inaturalist.org/taxa/339596",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+   "es": "https://es.wikipedia.org/wiki/Calidris_subruficollis",
+   "ru": "https://ru.wikipedia.org/wiki/Канадский_песочник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+subruficollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-breasted Sandpiper",
+  "en_aco": "Buff-breasted Sandpiper",
+  "es": "Correlimos Canelo",
+  "ru": "Желтозобик"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris subruficollis",
+ "sci_name_aco": "Calidris subruficollis",
+ "sounds": [],
+ "taxon_order": 6188.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 66.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grasl%C3%A4ufer%20%28Calidris%20subruficollis%29%20am%20Strand%20im%20Willapa%20National%20Wildlife%20Refuge.jpg"
+ ]
+}

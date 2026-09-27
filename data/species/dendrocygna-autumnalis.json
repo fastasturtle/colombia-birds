@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bbwduc",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Dendrocygna",
+ "id": "dendrocygna-autumnalis",
+ "ids": {
+  "avibase": "C01A22D6C148AC65",
+  "birdbase": 229,
+  "gbif": 2498393,
+  "inaturalist": "6893",
+  "iucn": "22679780",
+  "wikidata": "Q752461",
+  "xeno_canto": "Dendrocygna-autumnalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocygna_autumnalis",
+  "ebird": "https://ebird.org/species/bbwduc",
+  "inaturalist": "https://www.inaturalist.org/taxa/6893",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-bellied_whistling_duck",
+   "es": "https://es.wikipedia.org/wiki/Dendrocygna_autumnalis",
+   "ru": "https://ru.wikipedia.org/wiki/Осенняя_древесная_утка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocygna+autumnalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-bellied Whistling-Duck",
+  "en_aco": "Black-bellied Whistling-Duck",
+  "es": "Suirirí Piquirrojo",
+  "ru": "Красноклювая древесная утка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Dendrocygna autumnalis",
+ "sci_name_aco": "Dendrocygna autumnalis",
+ "sounds": [],
+ "taxon_order": 243.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 757.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-bellied%20Whistling%20Duck%2C%20Tobago%2C%20Trinidad%20and%20Tobago%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendrocygna%20autumnalis%20%28Black-bellied%20Whistling%20Duck%29%2046.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cabanis & Heine, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nateme2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorostilbon",
+ "id": "chlorostilbon-stenurus",
+ "ids": {
+  "avibase": "142F4F29A4FF26F6",
+  "birdbase": 3391,
+  "gbif": 2476069,
+  "inaturalist": "6117",
+  "iucn": "22687348",
+  "wikidata": "Q1264627",
+  "xeno_canto": "Chlorostilbon-stenurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorostilbon_stenurus",
+  "ebird": "https://ebird.org/species/nateme2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6117",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Narrow-tailed_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chlorostilbon_stenurus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorostilbon+stenurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Narrow-tailed Emerald",
+  "en_aco": "Narrow-tailed Emerald",
+  "es": "Esmeralda Colifina",
+  "ru": "Острохвостый изумруд"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorostilbon stenurus",
+ "sci_name_aco": "Chlorostilbon stenurus",
+ "sounds": [],
+ "taxon_order": 4908.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 3.4000000000000004,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochiSupplementGoul%200326%20%28cropped%29%20Panychlora%20stenura.jpg"
+ ]
+}

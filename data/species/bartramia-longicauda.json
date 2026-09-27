@@ -1,0 +1,95 @@
+{
+ "authorship": "(Bechstein, 1812)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "uplsan",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Bartramia",
+ "id": "bartramia-longicauda",
+ "ids": {
+  "avibase": "BF1DA86E0714FD01",
+  "birdbase": 6656,
+  "gbif": 2481705,
+  "inaturalist": "3962",
+  "iucn": "22693203",
+  "wikidata": "Q530194",
+  "xeno_canto": "Bartramia-longicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bartramia_longicauda",
+  "ebird": "https://ebird.org/species/uplsan",
+  "inaturalist": "https://www.inaturalist.org/taxa/3962",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Upland_sandpiper",
+   "es": "https://es.wikipedia.org/wiki/Bartramia_longicauda",
+   "ru": "https://ru.wikipedia.org/wiki/Бартрамия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bartramia+longicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Upland Sandpiper",
+  "en_aco": "Upland Sandpiper",
+  "es": "Correlimos Batitú",
+  "ru": "Прерийный кроншнеп"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Bartramia longicauda",
+ "sci_name_aco": "Bartramia longicauda",
+ "sounds": [],
+ "taxon_order": 6009.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1585,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 160.83333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bartramia%20longicauda%20Orangeburg%201.jpg"
+ ]
+}

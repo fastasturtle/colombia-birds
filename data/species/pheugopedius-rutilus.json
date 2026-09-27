@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Pheugopedius",
+ "id": "pheugopedius-rutilus",
+ "ids": {
+  "avibase": "13450F636684A7A2",
+  "birdbase": 29081,
+  "gbif": 7341141,
+  "inaturalist": "144863",
+  "iucn": "22711427",
+  "wikidata": "Q74228",
+  "xeno_canto": "Pheugopedius-rutilus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheugopedius_rutilus",
+  "ebird": "https://ebird.org/species/rubwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144863",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_wren",
+   "es": "https://es.wikipedia.org/wiki/Pheugopedius_rutilus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheugopedius+rutilus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Wren",
+  "en_aco": "Rufous-breasted Wren",
+  "es": "Cucarachero Pechirrufo",
+  "ru": "Рыжегрудый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheugopedius rutilus",
+ "sci_name_aco": "Pheugopedius rutilus",
+ "sounds": [],
+ "taxon_order": 27483.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 16,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-breasted%20Wren%20-%20Panama%20H8O7861%20%2816980522778%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheugopedius%20rutilus%201841.jpg"
+ ]
+}

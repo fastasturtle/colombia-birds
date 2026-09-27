@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1877)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ecgdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-buckleyi",
+ "ids": {
+  "avibase": "19BFB346739AF9B2",
+  "birdbase": 4898,
+  "gbif": 2495892,
+  "inaturalist": "3567",
+  "iucn": "22690789",
+  "wikidata": "Q955859",
+  "xeno_canto": "Columbina-buckleyi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_buckleyi",
+  "ebird": "https://ebird.org/species/ecgdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3567",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ecuadorian_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_buckleyi",
+   "ru": "https://ru.wikipedia.org/wiki/Columbina_buckleyi"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+buckleyi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ecuadorian Ground Dove",
+  "en_aco": "Ecuadorian Ground Dove",
+  "es": "Columbina Ecuatoriana",
+  "ru": "Эквадорская земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina buckleyi",
+ "sci_name_aco": "Columbina buckleyi",
+ "sounds": [],
+ "taxon_order": 2275.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 49.166666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ecuadorian%20Ground-Dove%20S4E7911%202-transformed.jpeg"
+ ]
+}

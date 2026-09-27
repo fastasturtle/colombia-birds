@@ -1,0 +1,94 @@
+{
+ "authorship": "(Say, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batpig1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-fasciata",
+ "ids": {
+  "avibase": "31ACA9981952B4C4",
+  "birdbase": 4534,
+  "gbif": 2495266,
+  "inaturalist": "3108",
+  "iucn": "22725264",
+  "wikidata": "Q512061",
+  "xeno_canto": "Patagioenas-fasciata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_fasciata",
+  "ebird": "https://ebird.org/species/batpig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3108",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_fasciata",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатохвостый_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+fasciata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Pigeon",
+  "en_aco": "Band-tailed Pigeon",
+  "es": "Paloma Torcaza",
+  "ru": "Полосатохвостый голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas fasciata",
+ "sci_name_aco": "Patagioenas fasciata",
+ "sounds": [],
+ "taxon_order": 1966.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 364,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20fasciata%20-San%20Luis%20Obispo%2C%20California%2C%20USA-8%20%281%29.jpg"
+ ]
+}

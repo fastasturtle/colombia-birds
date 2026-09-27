@@ -1,0 +1,94 @@
+{
+ "authorship": "(Du Bus de Gisignies, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "viojay1",
+ "family": {
+  "code": "corvid1",
+  "en": "Crows, Jays, and Magpies",
+  "sci": "Corvidae"
+ },
+ "genus": "Cyanocorax",
+ "id": "cyanocorax-violaceus",
+ "ids": {
+  "avibase": "6D69986ED7C789D7",
+  "birdbase": 22724,
+  "gbif": 2482564,
+  "inaturalist": "8468",
+  "iucn": "22705711",
+  "wikidata": "Q1588111",
+  "xeno_canto": "Cyanocorax-violaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanocorax_violaceus",
+  "ebird": "https://ebird.org/species/viojay1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8468",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violaceous_jay",
+   "es": "https://es.wikipedia.org/wiki/Cyanocorax_violaceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanocorax+violaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violaceous Jay",
+  "en_aco": "Violaceous Jay",
+  "es": "Chara Violácea",
+  "ru": "Гиацинтовая сойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanocorax violaceus",
+ "sci_name_aco": "Cyanocorax violaceus",
+ "sounds": [],
+ "taxon_order": 21228.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 243.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violaceous%20Jay%20JCB.jpg"
+ ]
+}

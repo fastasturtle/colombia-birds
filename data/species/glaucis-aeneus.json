@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "broher",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Glaucis",
+ "id": "glaucis-aeneus",
+ "ids": {
+  "avibase": "2ABFB40A638B22E5",
+  "birdbase": 2683,
+  "gbif": 2476888,
+  "inaturalist": "6392",
+  "iucn": "22686903",
+  "wikidata": "Q1271821",
+  "xeno_canto": "Glaucis-aeneus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Glaucis_aeneus",
+  "ebird": "https://ebird.org/species/broher",
+  "inaturalist": "https://www.inaturalist.org/taxa/6392",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronzy_hermit",
+   "es": "https://es.wikipedia.org/wiki/Glaucis_aeneus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucis+aeneus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronzy Hermit",
+  "en_aco": "Bronzy Hermit",
+  "es": "Ermitaño Bronceado",
+  "ru": "Бронзовый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Glaucis aeneus",
+ "sci_name_aco": "Glaucis aeneus",
+ "sounds": [],
+ "taxon_order": 4241.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 4.6499999999999995,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bronzy%20Hermit%20%283529655516%29%20%28cropped%29.jpg"
+ ]
+}

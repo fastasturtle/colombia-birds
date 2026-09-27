@@ -1,0 +1,91 @@
+{
+ "authorship": "(zu Wied-Neuwied, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whwpot1",
+ "family": {
+  "code": "nyctib1",
+  "en": "Potoos",
+  "sci": "Nyctibiidae"
+ },
+ "genus": "Nyctibius",
+ "id": "nyctibius-leucopterus",
+ "ids": {
+  "avibase": "46E2FA4948BD063E",
+  "birdbase": 2162,
+  "gbif": 2496814,
+  "inaturalist": "19684",
+  "iucn": "22689653",
+  "wikidata": "Q1262312",
+  "xeno_canto": "Nyctibius-leucopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctibius_leucopterus",
+  "ebird": "https://ebird.org/species/whwpot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19684",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-winged_potoo",
+   "es": "https://es.wikipedia.org/wiki/Nyctibius_leucopterus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctibius+leucopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-winged Potoo",
+  "en_aco": "White-winged Potoo",
+  "es": "Nictibio Aliblanco",
+  "ru": "Белокрылый уратао"
+ },
+ "order": "Nyctibiiformes",
+ "photos": [],
+ "sci_name": "Nyctibius leucopterus",
+ "sci_name_aco": "Nyctibius leucopterus",
+ "sounds": [],
+ "taxon_order": 3763.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": null,
+   "max_extreme": null,
+   "min": null,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 87.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nyctibius%20leucopterus%20White-winged%20Potoo%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

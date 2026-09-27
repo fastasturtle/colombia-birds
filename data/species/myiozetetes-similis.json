@@ -1,0 +1,95 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "socfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiozetetes",
+ "id": "myiozetetes-similis",
+ "ids": {
+  "avibase": "468B520CCD1A02F7",
+  "birdbase": 17983,
+  "gbif": 2482913,
+  "inaturalist": "16842",
+  "iucn": "22700586",
+  "wikidata": "Q1265429",
+  "xeno_canto": "Myiozetetes-similis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiozetetes_similis",
+  "ebird": "https://ebird.org/species/socfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16842",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Social_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiozetetes_similis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiozetetes+similis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Social Flycatcher",
+  "en_aco": "Social Flycatcher",
+  "es": "Bienteveo Sociable",
+  "ru": "Красношапочный бентеви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiozetetes similis",
+ "sci_name_aco": "Myiozetetes similis",
+ "sounds": [],
+ "taxon_order": 17392.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 28.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiozetetes-similis-001.jpg"
+ ]
+}

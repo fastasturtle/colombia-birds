@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "putwoo1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Philodice",
+ "id": "philodice-mitchellii",
+ "ids": {
+  "avibase": "A6345E7E4233367F",
+  "birdbase": 3280,
+  "gbif": 5228511,
+  "inaturalist": "6326",
+  "iucn": "22688163",
+  "wikidata": "Q946800",
+  "xeno_canto": "Calliphlox-mitchellii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calliphlox_mitchellii",
+  "ebird": "https://ebird.org/species/putwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6326",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple-throated_woodstar",
+   "es": "https://es.wikipedia.org/wiki/Philodice_mitchellii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Philodice+mitchellii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple-throated Woodstar",
+  "en_aco": "Purple-throated Woodstar",
+  "es": "Colibrí de Mitchell",
+  "ru": "Пурпурногорлый эльф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Philodice mitchellii",
+ "sci_name_aco": "Philodice mitchellii",
+ "sounds": [],
+ "taxon_order": 4795.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "coastal"
+  ],
+  "mass_g": 3.15,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple-throated%20Woodstar%20-%20Colombia%20S4E3309.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple-throated%20Woodstar%20%28Calliphlox%20mitchellii%29.jpg"
+ ]
+}

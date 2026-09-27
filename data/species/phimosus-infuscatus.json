@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bafibi1",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Phimosus",
+ "id": "phimosus-infuscatus",
+ "ids": {
+  "avibase": "89289A1D6E9D20AD",
+  "birdbase": 7853,
+  "gbif": 2480812,
+  "inaturalist": "3736",
+  "iucn": "22697418",
+  "wikidata": "Q926047",
+  "xeno_canto": "Phimosus-infuscatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phimosus_infuscatus",
+  "ebird": "https://ebird.org/species/bafibi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3736",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bare-faced_ibis",
+   "es": "https://es.wikipedia.org/wiki/Phimosus_infuscatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phimosus+infuscatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bare-faced Ibis",
+  "en_aco": "Bare-faced Ibis",
+  "es": "Ibis Afeitado",
+  "ru": "Гололицый ибис"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Phimosus infuscatus",
+ "sci_name_aco": "Phimosus infuscatus",
+ "sounds": [],
+ "taxon_order": 7478.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 546.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phimosus%20infuscatus%20-Mato%20Grosso%20do%20Sul%2C%20Brazil-8.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mocant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-murinus",
+ "ids": {
+  "avibase": "AE3CEAEDA415CEE8",
+  "birdbase": 16038,
+  "gbif": 5959209,
+  "inaturalist": "15766",
+  "iucn": "22701318",
+  "wikidata": "Q1262123",
+  "xeno_canto": "Thamnophilus-murinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_murinus",
+  "ebird": "https://ebird.org/species/mocant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15766",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mouse-colored_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_murinus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+murinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mouse-colored Antshrike",
+  "en_aco": "Mouse-colored Antshrike",
+  "es": "Batará Murino",
+  "ru": "Серебристый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus murinus",
+ "sci_name_aco": "Thamnophilus murinus",
+ "sounds": [],
+ "taxon_order": 13544.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 18.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20murinus%20-%20Mouse-colored%20Antshrike%20%28male%29.jpg"
+ ]
+}

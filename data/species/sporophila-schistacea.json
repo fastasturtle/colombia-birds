@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slcsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-schistacea",
+ "ids": {
+  "avibase": "6DA5E4F480255FBA",
+  "birdbase": 37264,
+  "gbif": 2491321,
+  "inaturalist": "9496",
+  "iucn": "22723406",
+  "wikidata": "Q1306484",
+  "xeno_canto": "Sporophila-schistacea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_schistacea",
+  "ebird": "https://ebird.org/species/slcsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9496",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slate-coloured_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_schistacea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+schistacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slate-colored Seedeater",
+  "en_aco": "Slate-colored Seedeater",
+  "es": "Semillero Pizarroso",
+  "ru": "Аспидный просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila schistacea",
+ "sci_name_aco": "Sporophila schistacea",
+ "sounds": [],
+ "taxon_order": 35593.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 12.325,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20schistacea%20by%20Franscesco%20Veronesi%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkbplo",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Pluvialis",
+ "id": "pluvialis-squatarola",
+ "ids": {
+  "avibase": "27903EF7E618A6A2",
+  "birdbase": 6446,
+  "gbif": 2480327,
+  "inaturalist": "4892",
+  "iucn": "22693749",
+  "wikidata": "Q18835",
+  "xeno_canto": "Pluvialis-squatarola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pluvialis_squatarola",
+  "ebird": "https://ebird.org/species/bkbplo",
+  "inaturalist": "https://www.inaturalist.org/taxa/4892",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey_plover",
+   "es": "https://es.wikipedia.org/wiki/Pluvialis_squatarola",
+   "ru": "https://ru.wikipedia.org/wiki/Тулес"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pluvialis+squatarola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-bellied Plover",
+  "en_aco": "Black-bellied Plover",
+  "es": "Chorlito Gris",
+  "ru": "Тулес"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Pluvialis squatarola",
+ "sci_name_aco": "Pluvialis squatarola",
+ "sounds": [],
+ "taxon_order": 5811.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 229.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pluvialis%20squatarola%20%28summer%20plumage%29.jpg"
+ ]
+}

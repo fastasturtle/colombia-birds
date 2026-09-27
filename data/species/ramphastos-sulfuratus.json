@@ -1,0 +1,95 @@
+{
+ "authorship": "(R. Lesson, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "kebtou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Ramphastos",
+ "id": "ramphastos-sulfuratus",
+ "ids": {
+  "avibase": "BB0FBBA4DEE10E3C",
+  "birdbase": 11175,
+  "gbif": 2478771,
+  "inaturalist": "18796",
+  "iucn": "22682102",
+  "wikidata": "Q47501",
+  "xeno_canto": "Ramphastos-sulfuratus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphastos_sulfuratus",
+  "ebird": "https://ebird.org/species/kebtou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18796",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Keel-billed_toucan",
+   "es": "https://es.wikipedia.org/wiki/Ramphastos_sulfuratus",
+   "ru": "https://ru.wikipedia.org/wiki/Радужный_тукан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphastos+sulfuratus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Keel-billed Toucan",
+  "en_aco": "Keel-billed Toucan",
+  "es": "Tucán Piquiverde",
+  "ru": "Радужный тукан"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Ramphastos sulfuratus",
+ "sci_name_aco": "Ramphastos sulfuratus",
+ "sounds": [],
+ "taxon_order": 10936.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 401,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Keel%20billed%20toucan%20costa%20rica%20%28cropped%29.jpg"
+ ]
+}

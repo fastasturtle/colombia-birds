@@ -1,0 +1,91 @@
+{
+ "authorship": "(Taczanowski, 1874)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mfbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pogonotriccus",
+ "id": "pogonotriccus-ophthalmicus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17189,
+  "gbif": 2483217,
+  "inaturalist": "16933",
+  "iucn": null,
+  "wikidata": "Q739949",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phylloscartes_ophthalmicus",
+  "ebird": "https://ebird.org/species/mfbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16933",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pogonotriccus+ophthalmicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Marble-faced Bristle-Tyrant",
+  "en_aco": "Marble-faced Bristle-Tyrant",
+  "es": "Orejerito Jaspeado",
+  "ru": "Черноухий тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pogonotriccus ophthalmicus",
+ "sci_name_aco": "Phylloscartes ophthalmicus",
+ "sounds": [],
+ "taxon_order": 16248.0,
+ "taxonomy_note": "ACO/SACC lists this as Phylloscartes ophthalmicus; eBird/Clements uses Pogonotriccus ophthalmicus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 10.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Marble-faced%20Bristle-Tyrant%20-%20Colombia%20S4E0221%20%2816872356141%29.jpg"
+ ]
+}

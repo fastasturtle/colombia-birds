@@ -1,0 +1,92 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spwant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Pygiptila",
+ "id": "pygiptila-stellaris",
+ "ids": {
+  "avibase": "E57EE0EDB3D0666C",
+  "birdbase": 15679,
+  "gbif": 2490142,
+  "inaturalist": "15955",
+  "iucn": "22701349",
+  "wikidata": "Q614649",
+  "xeno_canto": "Pygiptila-stellaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pygiptila_stellaris",
+  "ebird": "https://ebird.org/species/spwant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15955",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-winged_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Pygiptila_stellaris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pygiptila+stellaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-winged Antshrike",
+  "en_aco": "Spot-winged Antshrike",
+  "es": "Batará Estrellado",
+  "ru": "Пестрокрылая чока"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pygiptila stellaris",
+ "sci_name_aco": "Pygiptila stellaris",
+ "sounds": [],
+ "taxon_order": 13680.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 24.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pygiptila%20stellaris%20Spot-winged%20Antshrike%20%28male%29%3B%20Candeias%20do%20Jamari%2C%20R%C3%B4ndonia%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pygiptila%20stellaris%20Spot-winged%20Antshrike%20%28female%29%3B%20Candeias%20do%20Jamari%2C%20R%C3%B4ndonia%2C%20Brazil.jpg"
+ ]
+}

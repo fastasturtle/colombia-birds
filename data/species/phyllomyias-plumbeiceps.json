@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plctyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Phyllomyias",
+ "id": "phyllomyias-plumbeiceps",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16878,
+  "gbif": 2484047,
+  "inaturalist": "16488",
+  "iucn": "22699110",
+  "wikidata": "Q1261866",
+  "xeno_canto": "Phyllomyias-plumbeiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phyllomyias_plumbeiceps",
+  "ebird": "https://ebird.org/species/plctyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16488",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous-crowned_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Phyllomyias_plumbeiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phyllomyias+plumbeiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous-crowned Tyrannulet",
+  "en_aco": "Plumbeous-crowned Tyrannulet",
+  "es": "Mosquerito Coroniplomizo",
+  "ru": "Андский москитеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Phyllomyias plumbeiceps",
+ "sci_name_aco": "Phyllomyias plumbeiceps",
+ "sounds": [],
+ "taxon_order": 16778.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phyllomyias%20plumbeiceps%20-%20Plumbeous-crowned%20Tyrannulet.jpg"
+ ]
+}

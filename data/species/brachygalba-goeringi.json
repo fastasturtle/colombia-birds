@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pahjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Brachygalba",
+ "id": "brachygalba-goeringi",
+ "ids": {
+  "avibase": "F3E3C721DE61CB4C",
+  "birdbase": 10929,
+  "gbif": 2475049,
+  "inaturalist": "1457",
+  "iucn": "22682177",
+  "wikidata": "Q1273654",
+  "xeno_canto": "Brachygalba-goeringi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brachygalba_goeringi",
+  "ebird": "https://ebird.org/species/pahjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1457",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-headed_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Brachygalba_goeringi",
+   "ru": "https://ru.wikipedia.org/wiki/Бледноголовая_брахигальба"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brachygalba+goeringi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-headed Jacamar",
+  "en_aco": "Pale-headed Jacamar",
+  "es": "Jacamará Acollarado",
+  "ru": "Светлоголовая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Brachygalba goeringi",
+ "sci_name_aco": "Brachygalba goeringi",
+ "sounds": [],
+ "taxon_order": 10492.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 17,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/BrachygalbaGoeringiSmit.jpg"
+ ]
+}

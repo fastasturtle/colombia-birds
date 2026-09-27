@@ -1,0 +1,96 @@
+{
+ "authorship": "(M.H.K. Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbtou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Ramphastos",
+ "id": "ramphastos-vitellinus",
+ "ids": {
+  "avibase": "C3C2D47D",
+  "birdbase": 11180,
+  "gbif": 2478782,
+  "inaturalist": "18803",
+  "iucn": "22726222",
+  "wikidata": "Q998465",
+  "xeno_canto": "Ramphastos-vitellinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphastos_vitellinus",
+  "ebird": "https://ebird.org/species/chbtou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18803",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Channel-billed_toucan",
+   "es": "https://es.wikipedia.org/wiki/Ramphastos_vitellinus",
+   "ru": "https://ru.wikipedia.org/wiki/Тукан-ариель"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphastos+vitellinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Channel-billed Toucan",
+  "en_aco": "Channel-billed Toucan",
+  "es": "Tucán Vitelino",
+  "ru": "Тукан-ариель"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Ramphastos vitellinus",
+ "sci_name_aco": "Ramphastos vitellinus",
+ "sounds": [],
+ "taxon_order": 10940.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 361.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Channel-billed%20Toucan%20in%20the%20Rain%20-%20Flickr%20-%20treegrow.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphastos%20vitellinus%20-Matsue%20Vogel%20Park-8a-4c.jpg"
+ ]
+}

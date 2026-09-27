@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mawtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Fluvicola",
+ "id": "fluvicola-nengeta",
+ "ids": {
+  "avibase": "4EB649D25783B9C2",
+  "birdbase": 17901,
+  "gbif": 5229568,
+  "inaturalist": "17278",
+  "iucn": "22700284",
+  "wikidata": "Q522791",
+  "xeno_canto": "Fluvicola-nengeta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Fluvicola_nengeta",
+  "ebird": "https://ebird.org/species/mawtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17278",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_water_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Fluvicola_nengeta",
+   "ru": "https://ru.wikipedia.org/wiki/Масковый_водяной_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Fluvicola+nengeta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Water-Tyrant",
+  "en_aco": "Masked Water-Tyrant",
+  "es": "Viudita Enmascarada",
+  "ru": "Масковый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Fluvicola nengeta",
+ "sci_name_aco": "Fluvicola nengeta",
+ "sounds": [],
+ "taxon_order": 17162.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 18.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fluvicola%20nengeta%2C%20Tiradentes%2C%20Minas%20Gerais%2C%20Brasil%201.jpg"
+ ]
+}

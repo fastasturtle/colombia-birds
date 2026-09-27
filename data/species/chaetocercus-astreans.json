@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bangs, 1899)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samwoo2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chaetocercus",
+ "id": "chaetocercus-astreans",
+ "ids": {
+  "avibase": "5506AB34AAF51223",
+  "birdbase": 3289,
+  "gbif": 5228584,
+  "inaturalist": "6185",
+  "iucn": "22688274",
+  "wikidata": "Q1263655",
+  "xeno_canto": "Chaetocercus-astreans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetocercus_astreans",
+  "ebird": "https://ebird.org/species/samwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6185",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_woodstar",
+   "es": "https://es.wikipedia.org/wiki/Chaetocercus_astreans",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetocercus+astreans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Woodstar",
+  "en_aco": "Santa Marta Woodstar",
+  "es": "Colibrí Astral",
+  "ru": "Сантамартийский эльф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetocercus astreans",
+ "sci_name_aco": "Chaetocercus astreans",
+ "sounds": [],
+ "taxon_order": 4787.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2800,
+   "min": 825,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 2.605,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chaetocercus%20astreans.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Hellmayr & Seilern, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "klaant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Drymophila",
+ "id": "drymophila-klagesi",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16217,
+  "gbif": 8210181,
+  "inaturalist": "339645",
+  "iucn": "103658669",
+  "wikidata": "Q6419588",
+  "xeno_canto": "Drymophila-klagesi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Drymophila_klagesi",
+  "ebird": "https://ebird.org/species/klaant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/339645",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Klages's_antbird",
+   "es": "https://es.wikipedia.org/wiki/Drymophila_klagesi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Drymophila+klagesi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Klages's Antbird",
+  "en_aco": "Klages's Antbird",
+  "es": "Tiluchí del Perijá",
+  "ru": "Перихская муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Drymophila klagesi",
+ "sci_name_aco": "Drymophila klagesi",
+ "sounds": [],
+ "taxon_order": 13872.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1800,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 12,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Drymophila%20klagesi%20%28Klages%27s%20Antbird%29%20-%20female%20and%20male%20%287612302738%29.jpg"
+ ]
+}

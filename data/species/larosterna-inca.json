@@ -1,0 +1,94 @@
+{
+ "authorship": "(R. Lesson & Garnot, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "incter1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larosterna",
+ "id": "larosterna-inca",
+ "ids": {
+  "avibase": "FF6C3B9C8E71701B",
+  "birdbase": 7003,
+  "gbif": 2481125,
+  "inaturalist": "4551",
+  "iucn": "22694834",
+  "wikidata": "Q839862",
+  "xeno_canto": "Larosterna-inca"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larosterna_inca",
+  "ebird": "https://ebird.org/species/incter1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4551",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Inca_tern",
+   "es": "https://es.wikipedia.org/wiki/Larosterna_inca",
+   "ru": "https://ru.wikipedia.org/wiki/Крачка-инка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larosterna+inca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Inca Tern",
+  "en_aco": "Inca Tern",
+  "es": "Charrán Inca",
+  "ru": "Крачка-инка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larosterna inca",
+ "sci_name_aco": "Larosterna inca",
+ "sounds": [],
+ "taxon_order": 6719.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 199.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larosterna%20inca%20-Lima%2C%20Peru%20-adult-8%20%281%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larosterna%20inca3.jpg"
+ ]
+}

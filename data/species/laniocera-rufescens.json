@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spemou1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Laniocera",
+ "id": "laniocera-rufescens",
+ "ids": {
+  "avibase": "7609CE3963E8EA0C",
+  "birdbase": 18543,
+  "gbif": 2486353,
+  "inaturalist": "8736",
+  "iucn": "22700383",
+  "wikidata": "Q1306258",
+  "xeno_canto": "Laniocera-rufescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laniocera_rufescens",
+  "ebird": "https://ebird.org/species/spemou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8736",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_mourner",
+   "es": "https://es.wikipedia.org/wiki/Laniocera_rufescens",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжеватая_аулия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laniocera+rufescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Mourner",
+  "en_aco": "Speckled Mourner",
+  "es": "Plañidera Moteada",
+  "ru": "Рыжеватая аулия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Laniocera rufescens",
+ "sci_name_aco": "Laniocera rufescens",
+ "sounds": [],
+ "taxon_order": 16004.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 47.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Speckled%20Mourner.jpg"
+ ]
+}

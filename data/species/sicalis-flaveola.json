@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "saffin",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sicalis",
+ "id": "sicalis-flaveola",
+ "ids": {
+  "avibase": "A5AA0BEC2D8F5EA9",
+  "birdbase": 37454,
+  "gbif": 2491862,
+  "inaturalist": "9864",
+  "iucn": "22723346",
+  "wikidata": "Q1064372",
+  "xeno_canto": "Sicalis-flaveola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sicalis_flaveola",
+  "ebird": "https://ebird.org/species/saffin",
+  "inaturalist": "https://www.inaturalist.org/taxa/9864",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Saffron_finch",
+   "es": "https://es.wikipedia.org/wiki/Sicalis_flaveola",
+   "ru": "https://ru.wikipedia.org/wiki/Шафрановый_вьюрок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sicalis+flaveola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Saffron Finch",
+  "en_aco": "Saffron Finch",
+  "es": "Chirigüe Azafranado",
+  "ru": "Шафрановый зерноед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sicalis flaveola",
+ "sci_name_aco": "Sicalis flaveola",
+ "sounds": [],
+ "taxon_order": 35477.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sicalis%20flaveola%20por%20Luiz%20Alves%20%2801%29.jpg"
+ ]
+}

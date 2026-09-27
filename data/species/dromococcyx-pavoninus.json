@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1870)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pavcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Dromococcyx",
+ "id": "dromococcyx-pavoninus",
+ "ids": {
+  "avibase": "489295C7AEBFA666",
+  "birdbase": 3872,
+  "gbif": 2496516,
+  "inaturalist": "1981",
+  "iucn": "22684455",
+  "wikidata": "Q1262999",
+  "xeno_canto": "Dromococcyx-pavoninus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dromococcyx_pavoninus",
+  "ebird": "https://ebird.org/species/pavcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1981",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pavonine_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Dromococcyx_pavoninus",
+   "ru": "https://ru.wikipedia.org/wiki/Павлинья_кукушка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dromococcyx+pavoninus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pavonine Cuckoo",
+  "en_aco": "Pavonine Cuckoo",
+  "es": "Cuclillo Pavonino",
+  "ru": "Павлинья кукушка"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Dromococcyx pavoninus",
+ "sci_name_aco": "Dromococcyx pavoninus",
+ "sounds": [],
+ "taxon_order": 3033.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 47.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dromococcyx%20pavoninus%20-%20Pavonine%20Cuckoo.jpg"
+ ]
+}

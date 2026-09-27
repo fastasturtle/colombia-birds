@@ -1,0 +1,95 @@
+{
+ "authorship": "(Taczanowski, 1884)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "perwaa1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Hypocnemis",
+ "id": "hypocnemis-peruviana",
+ "ids": {
+  "avibase": "8B45C5393B8971A0",
+  "birdbase": 16233,
+  "gbif": 7341402,
+  "inaturalist": "72939",
+  "iucn": "22735479",
+  "wikidata": "Q1271666",
+  "xeno_canto": "Hypocnemis-peruviana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hypocnemis_peruviana",
+  "ebird": "https://ebird.org/species/perwaa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72939",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Peruvian_warbling_antbird",
+   "es": "https://es.wikipedia.org/wiki/Hypocnemis_peruviana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hypocnemis+peruviana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Peruvian Warbling-Antbird",
+  "en_aco": "Peruvian Warbling-Antbird",
+  "es": "Hormiguero Peruano",
+  "ru": "Перуанская муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hypocnemis peruviana",
+ "sci_name_aco": "Hypocnemis peruviana",
+ "sounds": [],
+ "taxon_order": 13882.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hypocnemis%20peruviana%20-%20Peruvian%20Warbling-Antbird%20%28female%29%3B%20Porto%20Velho%2C%20Rond%C3%B4nia%2C%20Brazil%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hypocnemis%20peruviana%20-%20Peruvian%20Warbling-Antbird%20%28male%29%3B%20Cruzeiro%20do%20Sul%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

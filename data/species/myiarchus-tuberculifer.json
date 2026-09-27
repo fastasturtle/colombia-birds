@@ -1,0 +1,94 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ducfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-tuberculifer",
+ "ids": {
+  "avibase": "3D57A9826B626847",
+  "birdbase": 18115,
+  "gbif": 2483531,
+  "inaturalist": "15990",
+  "iucn": "22700399",
+  "wikidata": "Q834638",
+  "xeno_canto": "Myiarchus-tuberculifer"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_tuberculifer",
+  "ebird": "https://ebird.org/species/ducfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/15990",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-capped_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_tuberculifer",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+tuberculifer"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-capped Flycatcher",
+  "en_aco": "Dusky-capped Flycatcher",
+  "es": "Copetón Capirotado",
+  "ru": "Темноголовый миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus tuberculifer",
+ "sci_name_aco": "Myiarchus tuberculifer",
+ "sounds": [],
+ "taxon_order": 17284.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 20.133333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20tuberculifer%20tuberculifer%2C%20Puerto%20Nari%C3%B1o%2C%20Amazonas%2C%20Colombia.jpg"
+ ]
+}

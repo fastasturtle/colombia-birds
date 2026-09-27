@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brfgle1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Automolus",
+ "id": "automolus-melanopezus",
+ "ids": {
+  "avibase": "A1CCBC5B56BB27B1",
+  "birdbase": 15203,
+  "gbif": 5230235,
+  "inaturalist": "10795",
+  "iucn": "22702938",
+  "wikidata": "Q1266194",
+  "xeno_canto": "Automolus-melanopezus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Automolus_melanopezus",
+  "ebird": "https://ebird.org/species/brfgle1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10795",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-rumped_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Automolus_melanopezus",
+   "ru": "https://ru.wikipedia.org/wiki/Буропоясничный_лесной_филидор"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Automolus+melanopezus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-rumped Foliage-gleaner",
+  "en_aco": "Brown-rumped Foliage-gleaner",
+  "es": "Ticotico Pardo",
+  "ru": "Черноногая лесовка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Automolus melanopezus",
+ "sci_name_aco": "Automolus melanopezus",
+ "sounds": [],
+ "taxon_order": 15254.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 600,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 29.98,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Automolus%20melanopezus%20-%20Brown-rumped%20Foliage-gleaner%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

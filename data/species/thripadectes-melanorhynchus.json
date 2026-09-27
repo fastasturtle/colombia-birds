@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbtre1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Thripadectes",
+ "id": "thripadectes-melanorhynchus",
+ "ids": {
+  "avibase": "2BB5C0FD47EBFAC6",
+  "birdbase": 15186,
+  "gbif": 2485269,
+  "inaturalist": "10769",
+  "iucn": "22702896",
+  "wikidata": "Q1263232",
+  "xeno_canto": "Thripadectes-melanorhynchus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thripadectes_melanorhynchus",
+  "ebird": "https://ebird.org/species/blbtre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10769",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_treehunter",
+   "es": "https://es.wikipedia.org/wiki/Thripadectes_melanorhynchus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thripadectes+melanorhynchus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Treehunter",
+  "en_aco": "Black-billed Treehunter",
+  "es": "Trepamusgos Piquinegro",
+  "ru": "Черноклювый лесовик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thripadectes melanorhynchus",
+ "sci_name_aco": "Thripadectes melanorhynchus",
+ "sounds": [],
+ "taxon_order": 15248.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 44.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thripadectes%20melanorhynchus%20-%20Black-billed%20Treehunter.jpg"
+ ]
+}

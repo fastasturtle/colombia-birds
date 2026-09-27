@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtcra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Laterallus",
+ "id": "laterallus-albigularis",
+ "ids": {
+  "avibase": "011EB942F2267D7B",
+  "birdbase": 6018,
+  "gbif": 2474599,
+  "inaturalist": "324",
+  "iucn": "22692346",
+  "wikidata": "Q1268156",
+  "xeno_canto": "Laterallus-albigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laterallus_albigularis",
+  "ebird": "https://ebird.org/species/whtcra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/324",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_crake",
+   "es": "https://es.wikipedia.org/wiki/Laterallus_albigularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laterallus+albigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Crake",
+  "en_aco": "White-throated Crake",
+  "es": "Polluela Carrasqueadora",
+  "ru": "Белозобый коростелёк"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Laterallus albigularis",
+ "sci_name_aco": "Laterallus albigularis",
+ "sounds": [],
+ "taxon_order": 5643.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 47.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laterallus%20albigularis.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "subdor1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pseudocolopteryx",
+ "id": "pseudocolopteryx-acutipennis",
+ "ids": {
+  "avibase": "72A61A241219B459",
+  "birdbase": 17115,
+  "gbif": 2482649,
+  "inaturalist": "16593",
+  "iucn": "22699430",
+  "wikidata": "Q1271610",
+  "xeno_canto": "Pseudocolopteryx-acutipennis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pseudocolopteryx_acutipennis",
+  "ebird": "https://ebird.org/species/subdor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16593",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Subtropical_doradito",
+   "es": "https://es.wikipedia.org/wiki/Pseudocolopteryx_acutipennis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pseudocolopteryx+acutipennis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Subtropical Doradito",
+  "en_aco": "Subtropical Doradito",
+  "es": "Doradito Oliváceo",
+  "ru": "Узкокрылый дорадито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pseudocolopteryx acutipennis",
+ "sci_name_aco": "Pseudocolopteryx acutipennis",
+ "sounds": [],
+ "taxon_order": 16647.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3550,
+   "max_extreme": null,
+   "min": 2200,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 7.8,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pseudocolopteryx%20acutipennis%20Subtropical%20Dordito%3B%20Mongagu%C3%A1%2C%20S%C3%A3o%20Paulo%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

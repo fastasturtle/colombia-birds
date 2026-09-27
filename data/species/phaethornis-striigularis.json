@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stther2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-striigularis",
+ "ids": {
+  "avibase": "2FF56FC2768182FE",
+  "birdbase": 2717,
+  "gbif": 2476600,
+  "inaturalist": "5589",
+  "iucn": "22730147",
+  "wikidata": "Q875964",
+  "xeno_canto": "Phaethornis-striigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_striigularis",
+  "ebird": "https://ebird.org/species/stther2",
+  "inaturalist": "https://www.inaturalist.org/taxa/5589",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stripe-throated_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_striigularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+striigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stripe-throated Hermit",
+  "en_aco": "Stripe-throated Hermit",
+  "es": "Ermitaño Gorjiestriado",
+  "ru": "Пестрогорлый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis striigularis",
+ "sci_name_aco": "Phaethornis striigularis",
+ "sounds": [],
+ "taxon_order": 4310.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1570,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 2.6399999999999997,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethornis%20striigularis.jpg"
+ ]
+}

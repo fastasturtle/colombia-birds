@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sericossypha",
+ "id": "sericossypha-albocristata",
+ "ids": {
+  "avibase": "961A51A723D30F75",
+  "birdbase": 36751,
+  "gbif": 2488675,
+  "inaturalist": "10609",
+  "iucn": "22722156",
+  "wikidata": "Q507250",
+  "xeno_canto": "Sericossypha-albocristata"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sericossypha_albocristata",
+  "ebird": "https://ebird.org/species/whctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10609",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-capped_tanager",
+   "es": "https://es.wikipedia.org/wiki/Sericossypha_albocristata",
+   "ru": "https://ru.wikipedia.org/wiki/Белошапочная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sericossypha+albocristata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-capped Tanager",
+  "en_aco": "White-capped Tanager",
+  "es": "Tangara Coroniblanca",
+  "ru": "Белошапочная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sericossypha albocristata",
+ "sci_name_aco": "Sericossypha albocristata",
+ "sounds": [],
+ "taxon_order": 34661.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 105,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-capped%20Tanager%20-%20Colombia%20S4E3845%20%2822954514250%29.jpg"
+ ]
+}

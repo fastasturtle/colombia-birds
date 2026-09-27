@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "masduc",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Nomonyx",
+ "id": "nomonyx-dominicus",
+ "ids": {
+  "avibase": "98C6F8857AF96C4D",
+  "birdbase": 543,
+  "gbif": 2498316,
+  "inaturalist": "7172",
+  "iucn": "22679789",
+  "wikidata": "Q849019",
+  "xeno_canto": "Nomonyx-dominicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nomonyx_dominicus",
+  "ebird": "https://ebird.org/species/masduc",
+  "inaturalist": "https://www.inaturalist.org/taxa/7172",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_duck",
+   "es": "https://es.wikipedia.org/wiki/Nomonyx_dominicus",
+   "ru": "https://ru.wikipedia.org/wiki/Масковая_савка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nomonyx+dominicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Duck",
+  "en_aco": "Masked Duck",
+  "es": "Malvasía Enmascarada",
+  "ru": "Масковая савка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Nomonyx dominicus",
+ "sci_name_aco": "Nomonyx dominicus",
+ "sounds": [],
+ "taxon_order": 777.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1450,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 361,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nomonyx%20dominicus%20Pato%20enmascarado%20Masked%20Duck%20%2815112703808%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nomonyx%20dominicus%20Pato%20enmascarado%20Masked%20Duck%20%28female%29%20%2811329665986%29.jpg"
+ ]
+}

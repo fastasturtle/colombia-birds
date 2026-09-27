@@ -1,0 +1,90 @@
+{
+ "authorship": "(Hekstra, 1982)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "versco2",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-centralis",
+ "ids": {
+  "avibase": "6880BD07793B231C",
+  "birdbase": 9665,
+  "gbif": 6101162,
+  "inaturalist": "827380",
+  "iucn": null,
+  "wikidata": "Q3133549",
+  "xeno_canto": "Megascops-centralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_centralis",
+  "ebird": "https://ebird.org/species/versco2",
+  "inaturalist": "https://www.inaturalist.org/taxa/827380",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chocó_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_centralis",
+   "ru": "https://ru.wikipedia.org/wiki/Megascops_centralis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+centralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Screech-Owl",
+  "en_aco": "Choco Screech-Owl",
+  "es": "Autillo del Chocó",
+  "ru": "Чокская совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops centralis",
+ "sci_name_aco": "Megascops centralis",
+ "sounds": [],
+ "taxon_order": 8840.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1575,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 114.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

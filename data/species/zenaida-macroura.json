@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "moudov",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Zenaida",
+ "id": "zenaida-macroura",
+ "ids": {
+  "avibase": "00124D987C95811B",
+  "birdbase": 5028,
+  "gbif": 2495347,
+  "inaturalist": "3454",
+  "iucn": "22690736",
+  "wikidata": "Q750027",
+  "xeno_canto": "Zenaida-macroura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zenaida_macroura",
+  "ebird": "https://ebird.org/species/moudov",
+  "inaturalist": "https://www.inaturalist.org/taxa/3454",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mourning_dove",
+   "es": "https://es.wikipedia.org/wiki/Zenaida_macroura",
+   "ru": "https://ru.wikipedia.org/wiki/Плачущая_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zenaida+macroura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mourning Dove",
+  "en_aco": "Mourning Dove",
+  "es": "Zenaida Huilota",
+  "ru": "Плачущая горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Zenaida macroura",
+ "sci_name_aco": "Zenaida macroura",
+ "sounds": [],
+ "taxon_order": 2412.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "plantation",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 127,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mourning%20dove%20perched%20%2861179%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zenaida%20macroura%20macroura%2C%20Santo%20Domingo%2C%20Dominican%20Republic.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zenaida%20macroura%20-California-8-2c.jpg"
+ ]
+}

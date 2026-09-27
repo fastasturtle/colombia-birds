@@ -1,0 +1,92 @@
+{
+ "authorship": "(Daudin, 1802)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whttro",
+ "family": {
+  "code": "phaeth1",
+  "en": "Tropicbirds",
+  "sci": "Phaethontidae"
+ },
+ "genus": "Phaethon",
+ "id": "phaethon-lepturus",
+ "ids": {
+  "avibase": "1D07B501FEAF0840",
+  "birdbase": 7286,
+  "gbif": 2481364,
+  "inaturalist": "4314",
+  "iucn": "22696645",
+  "wikidata": "Q528117",
+  "xeno_canto": "Phaethon-lepturus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethon_lepturus",
+  "ebird": "https://ebird.org/species/whttro",
+  "inaturalist": "https://www.inaturalist.org/taxa/4314",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_tropicbird",
+   "es": "https://es.wikipedia.org/wiki/Phaethon_lepturus",
+   "ru": "https://ru.wikipedia.org/wiki/Белохвостый_фаэтон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethon+lepturus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Tropicbird",
+  "en_aco": "White-tailed Tropicbird",
+  "es": "Rabijunco Menor",
+  "ru": "Белохвостый фаэтон"
+ },
+ "order": "Phaethontiformes",
+ "photos": [],
+ "sci_name": "Phaethon lepturus",
+ "sci_name_aco": "Phaethon lepturus",
+ "sounds": [],
+ "taxon_order": 6908.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 399,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethon%20lepturus%2C%20Seychelles.jpg"
+ ]
+}

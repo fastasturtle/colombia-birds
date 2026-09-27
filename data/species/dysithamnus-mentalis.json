@@ -1,0 +1,95 @@
+{
+ "authorship": "(Temminck, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plaant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Dysithamnus",
+ "id": "dysithamnus-mentalis",
+ "ids": {
+  "avibase": "90AD65F26191985D",
+  "birdbase": 15927,
+  "gbif": 2490033,
+  "inaturalist": "15917",
+  "iucn": "22701378",
+  "wikidata": "Q903045",
+  "xeno_canto": "Dysithamnus-mentalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dysithamnus_mentalis",
+  "ebird": "https://ebird.org/species/plaant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15917",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain_antvireo",
+   "es": "https://es.wikipedia.org/wiki/Dysithamnus_mentalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dysithamnus+mentalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain Antvireo",
+  "en_aco": "Plain Antvireo",
+  "es": "Batarito Cabecigrís",
+  "ru": "Виреоновый батарито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dysithamnus mentalis",
+ "sci_name_aco": "Dysithamnus mentalis",
+ "sounds": [],
+ "taxon_order": 13627.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dysithamnus%20mentalis%20-%20Ecuador.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dysithamnus%20mentalis%20-%20Plain%20Antvireo%20%28male%29.JPG"
+ ]
+}

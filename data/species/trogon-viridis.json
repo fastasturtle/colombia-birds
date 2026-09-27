@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gnbtro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-viridis",
+ "ids": {
+  "avibase": "BA2F0BFD6F2C9654",
+  "birdbase": 9954,
+  "gbif": 2496647,
+  "inaturalist": "20773",
+  "iucn": "22736238",
+  "wikidata": "Q925086",
+  "xeno_canto": "Trogon-viridis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_viridis",
+  "ebird": "https://ebird.org/species/gnbtro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20773",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-backed_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_viridis",
+   "ru": "https://ru.wikipedia.org/wiki/Белохвостый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+viridis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-backed Trogon",
+  "en_aco": "Green-backed Trogon",
+  "es": "Trogón Dorsiverde",
+  "ru": "Зеленохвостый трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon viridis",
+ "sci_name_aco": "Trogon viridis",
+ "sounds": [],
+ "taxon_order": 9541.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 89.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20viridis%20-%20White-tailed%20Trogon%20%28female%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20viridis%20%28Green-backed%20Trogon%29%2C%20male%2C%20Restinga%20de%20Bertioga%20-%20SP%20-%20Brasil.jpg"
+ ]
+}

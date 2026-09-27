@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-doliatus",
+ "ids": {
+  "avibase": "5CD1D54C71595944",
+  "birdbase": 15968,
+  "gbif": 5959208,
+  "inaturalist": "15764",
+  "iucn": "22701275",
+  "wikidata": "Q863581",
+  "xeno_canto": "Thamnophilus-doliatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_doliatus",
+  "ebird": "https://ebird.org/species/barant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15764",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_doliatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+doliatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Antshrike",
+  "en_aco": "Barred Antshrike",
+  "es": "Batará Barrado",
+  "ru": "Чернополосый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus doliatus",
+ "sci_name_aco": "Thamnophilus doliatus",
+ "sounds": [],
+ "taxon_order": 13491.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 27.23333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20doliatus%20female%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Barred%20Antshrike%20-%20Lake%20Bayano%20-%20Panama.jpg"
+ ]
+}

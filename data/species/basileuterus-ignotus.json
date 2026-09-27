@@ -1,0 +1,91 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pirwar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Basileuterus",
+ "id": "basileuterus-ignotus",
+ "ids": {
+  "avibase": "F0D7DABDF73B804D",
+  "birdbase": 36427,
+  "gbif": 2489759,
+  "inaturalist": "10024",
+  "iucn": "22722025",
+  "wikidata": "Q1585606",
+  "xeno_canto": "Basileuterus-ignotus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Basileuterus_ignotus",
+  "ebird": "https://ebird.org/species/pirwar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10024",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pirre_warbler",
+   "es": "https://es.wikipedia.org/wiki/Basileuterus_ignotus",
+   "ru": "https://ru.wikipedia.org/wiki/Basileuterus_ignotus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Basileuterus+ignotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pirre Warbler",
+  "en_aco": "Pirre Warbler",
+  "es": "Reinita del Pirre",
+  "ru": "Охристобровая корольковка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Basileuterus ignotus",
+ "sci_name_aco": "Basileuterus ignotus",
+ "sounds": [],
+ "taxon_order": 34243.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1650,
+   "max_extreme": null,
+   "min": 1350,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pirre%20Warbler%20%28cropped%29.jpg"
+ ]
+}

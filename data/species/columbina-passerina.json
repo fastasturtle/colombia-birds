@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cogdov",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-passerina",
+ "ids": {
+  "avibase": "F9AED5486FD85258",
+  "birdbase": 4873,
+  "gbif": 2495869,
+  "inaturalist": "3545",
+  "iucn": "22690774",
+  "wikidata": "Q510766",
+  "xeno_canto": "Columbina-passerina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_passerina",
+  "ebird": "https://ebird.org/species/cogdov",
+  "inaturalist": "https://www.inaturalist.org/taxa/3545",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_passerina",
+   "ru": "https://ru.wikipedia.org/wiki/Воробьиная_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+passerina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Ground Dove",
+  "en_aco": "Common Ground Dove",
+  "es": "Columbina Común",
+  "ru": "Воробьиная земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina passerina",
+ "sci_name_aco": "Columbina passerina",
+ "sounds": [],
+ "taxon_order": 2243.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 32.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columbina%20passerina%20-near%20Salton%20Sea%2C%20California%2C%20USA-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columbina%20passerina.jpg"
+ ]
+}

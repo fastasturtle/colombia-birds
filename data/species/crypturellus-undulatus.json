@@ -1,0 +1,95 @@
+{
+ "authorship": "(Temminck, 1815)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "undtin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-undulatus",
+ "ids": {
+  "avibase": "7A600A0FFE87DB71",
+  "birdbase": 107,
+  "gbif": 2477560,
+  "inaturalist": "20592",
+  "iucn": "22678182",
+  "wikidata": "Q510118",
+  "xeno_canto": "Crypturellus-undulatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_undulatus",
+  "ebird": "https://ebird.org/species/undtin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20592",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Undulated_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_undulatus",
+   "ru": "https://ru.wikipedia.org/wiki/Волнистый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+undulatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Undulated Tinamou",
+  "en_aco": "Undulated Tinamou",
+  "es": "Tinamú Ondeado",
+  "ru": "Волнистый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus undulatus",
+ "sci_name_aco": "Crypturellus undulatus",
+ "sounds": [],
+ "taxon_order": 189.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 550.6666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crypturellus%20undulatus.JPG"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orbfru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Pipreola",
+ "id": "pipreola-jucunda",
+ "ids": {
+  "avibase": "3793CD7534B9A8A8",
+  "birdbase": 18230,
+  "gbif": 2486363,
+  "inaturalist": "8757",
+  "iucn": "22700794",
+  "wikidata": "Q1306857",
+  "xeno_canto": "Pipreola-jucunda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipreola_jucunda",
+  "ebird": "https://ebird.org/species/orbfru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8757",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-breasted_fruiteater",
+   "es": "https://es.wikipedia.org/wiki/Pipreola_jucunda",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipreola+jucunda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-breasted Fruiteater",
+  "en_aco": "Orange-breasted Fruiteater",
+  "es": "Frutero Pechinaranja",
+  "ru": "Оранжевогрудый ягодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pipreola jucunda",
+ "sci_name_aco": "Pipreola jucunda",
+ "sounds": [],
+ "taxon_order": 15866.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 2300,
+   "min": 1100,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/EuchlornisJucundaJennens.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orange-breasted%20Fruiteater%20-%20Mindo%20-%20Ecuador%20S4E5422.jpg"
+ ]
+}

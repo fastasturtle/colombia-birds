@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lafresnaye, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orisal1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Saltator",
+ "id": "saltator-orenocensis",
+ "ids": {
+  "avibase": "4D6CD9F66387952D",
+  "birdbase": 36889,
+  "gbif": 5230925,
+  "inaturalist": "9857",
+  "iucn": "22723885",
+  "wikidata": "Q3313753",
+  "xeno_canto": "Saltator-orenocensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Saltator_orenocensis",
+  "ebird": "https://ebird.org/species/orisal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9857",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orinoco_saltator",
+   "es": "https://es.wikipedia.org/wiki/Saltator_orenocensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saltator+orenocensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orinocan Saltator",
+  "en_aco": "Orinocan Saltator",
+  "es": "Pepitero del Orinoco",
+  "ru": "Оринокский сальтатор"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Saltator orenocensis",
+ "sci_name_aco": "Saltator orenocensis",
+ "sounds": [],
+ "taxon_order": 35799.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 34.650000000000006,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orinocan%20Saltator%20Saltator%20orenocensis%20%2827324503289%29.jpg"
+ ]
+}

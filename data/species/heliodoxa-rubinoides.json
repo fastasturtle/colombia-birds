@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fabbri1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-rubinoides",
+ "ids": {
+  "avibase": "06B7366C5CC58053",
+  "birdbase": 3197,
+  "gbif": 2476931,
+  "inaturalist": "5921",
+  "iucn": "22687737",
+  "wikidata": "Q281002",
+  "xeno_canto": "Heliodoxa-rubinoides"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_rubinoides",
+  "ebird": "https://ebird.org/species/fabbri1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5921",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fawn-breasted_brilliant",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_rubinoides",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+rubinoides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fawn-breasted Brilliant",
+  "en_aco": "Fawn-breasted Brilliant",
+  "es": "Brillante Pechigamuza",
+  "ru": "Буробрюхий бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa rubinoides",
+ "sci_name_aco": "Heliodoxa rubinoides",
+ "sounds": [],
+ "taxon_order": 4702.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 1100,
+   "min_extreme": 1000
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 7.368,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliodoxa%20rubinoides.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "magwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-magnolia",
+ "ids": {
+  "avibase": "1E82CE1ECC54F928",
+  "birdbase": 36244,
+  "gbif": 6093209,
+  "inaturalist": "145235",
+  "iucn": "22721667",
+  "wikidata": "Q27075915",
+  "xeno_canto": "Setophaga-magnolia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_magnolia",
+  "ebird": "https://ebird.org/species/magwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145235",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Magnolia_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_magnolia",
+   "ru": "https://ru.wikipedia.org/wiki/Магнолиевый_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+magnolia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Magnolia Warbler",
+  "en_aco": "Magnolia Warbler",
+  "es": "Reinita de Magnolia",
+  "ru": "Магнолиевая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga magnolia",
+ "sci_name_aco": "Setophaga magnolia",
+ "sounds": [],
+ "taxon_order": 34079.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 8.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Magnolia%20warbler%20%2881252%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroica%20magnolia%20MN.jpg"
+ ]
+}

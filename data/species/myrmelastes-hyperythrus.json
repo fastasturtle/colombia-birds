@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pluant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmelastes",
+ "id": "myrmelastes-hyperythrus",
+ "ids": {
+  "avibase": "85D49ECBCB6CB299",
+  "birdbase": 16326,
+  "gbif": 9383100,
+  "inaturalist": "554135",
+  "iucn": "22701832",
+  "wikidata": "Q28863674",
+  "xeno_canto": "Myrmelastes-hyperythrus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmelastes_hyperythrus",
+  "ebird": "https://ebird.org/species/pluant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554135",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous_antbird",
+   "es": "https://es.wikipedia.org/wiki/Myrmelastes_hyperythrus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmelastes+hyperythrus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous Antbird",
+  "en_aco": "Plumbeous Antbird",
+  "es": "Hormiguero Plomizo",
+  "ru": "Серо-рыжая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmelastes hyperythrus",
+ "sci_name_aco": "Myrmelastes hyperythrus",
+ "sounds": [],
+ "taxon_order": 14002.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 450,
+   "max_extreme": 750,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 41,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmelastes%20hyperythrus%20-%20Plumbeous%20antbird%20%28male%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmelastes%20hyperythrus%20-%20Plumbeous%20antbird%20%28female%29.jpg"
+ ]
+}

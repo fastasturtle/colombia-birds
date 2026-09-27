@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baytan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chrysothlypis",
+ "id": "chrysothlypis-chrysomelas",
+ "ids": {
+  "avibase": "96D85716E116757E",
+  "birdbase": 36804,
+  "gbif": 2488535,
+  "inaturalist": "72672",
+  "iucn": "22722281",
+  "wikidata": "Q2984004",
+  "xeno_canto": "Chrysothlypis-chrysomelas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chrysothlypis_chrysomelas",
+  "ebird": "https://ebird.org/species/baytan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72672",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-yellow_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chrysothlypis_chrysomelas",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрно-жёлтая_пегая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysothlypis+chrysomelas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-yellow Tanager",
+  "en_aco": "Black-and-yellow Tanager",
+  "es": "Tangara Negriamarilla",
+  "ru": "Чёрно-жёлтая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chrysothlypis chrysomelas",
+ "sci_name_aco": "Chrysothlypis chrysomelas",
+ "sounds": [],
+ "taxon_order": 35230.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 350,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TachyphonusChrysomelasSmit.jpg"
+ ]
+}

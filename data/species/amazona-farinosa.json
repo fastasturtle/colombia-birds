@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "meapar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Amazona",
+ "id": "amazona-farinosa",
+ "ids": {
+  "avibase": "A05EF311D490F5E9",
+  "birdbase": 13325,
+  "gbif": 2479606,
+  "inaturalist": "19005",
+  "iucn": "45430572",
+  "wikidata": "Q927429",
+  "xeno_canto": "Amazona-farinosa"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazona_farinosa",
+  "ebird": "https://ebird.org/species/meapar",
+  "inaturalist": "https://www.inaturalist.org/taxa/19005",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mealy_amazon",
+   "es": "https://es.wikipedia.org/wiki/Amazona_farinosa",
+   "ru": "https://ru.wikipedia.org/wiki/Амазон_Мюллера"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazona+farinosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mealy Amazon",
+  "en_aco": "Mealy Parrot",
+  "es": "Amazona Harinosa",
+  "ru": "Бледный амазон"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Amazona farinosa",
+ "sci_name_aco": "Amazona farinosa",
+ "sounds": [],
+ "taxon_order": 12960.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 651,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazona%20farinosa%20237958721.jpg"
+ ]
+}

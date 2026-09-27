@@ -1,0 +1,95 @@
+{
+ "authorship": "(Wagler, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fragul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Leucophaeus",
+ "id": "leucophaeus-pipixcan",
+ "ids": {
+  "avibase": "57C93A74CBC9863F",
+  "birdbase": 7116,
+  "gbif": 5846430,
+  "inaturalist": "144515",
+  "iucn": null,
+  "wikidata": "Q756795",
+  "xeno_canto": "Leucophaeus-pipixcan"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leucophaeus_pipixcan",
+  "ebird": "https://ebird.org/species/fragul",
+  "inaturalist": "https://www.inaturalist.org/taxa/144515",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Franklin's_gull",
+   "es": "https://es.wikipedia.org/wiki/Leucophaeus_pipixcan",
+   "ru": "https://ru.wikipedia.org/wiki/Франклинова_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leucophaeus+pipixcan"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Franklin's Gull",
+  "en_aco": "Franklin's Gull",
+  "es": "Gaviota Pipizcan",
+  "ru": "Франклинова чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Leucophaeus pipixcan",
+ "sci_name_aco": "Leucophaeus pipixcan",
+ "sounds": [],
+ "taxon_order": 6494.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 4500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 279.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Franklin%27s%20Gull%20Brisbane98.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leucophaeus%20pipixcan%20Tule%20Lake%20California%202.jpg"
+ ]
+}

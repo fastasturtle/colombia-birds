@@ -1,0 +1,94 @@
+{
+ "authorship": "(Jardine, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mascan1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Asthenes",
+ "id": "asthenes-flammulata",
+ "ids": {
+  "avibase": "18C02E15EC4A72BA",
+  "birdbase": 15350,
+  "gbif": 5230077,
+  "inaturalist": "11347",
+  "iucn": "22702572",
+  "wikidata": "Q1273521",
+  "xeno_canto": "Asthenes-flammulata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Asthenes_flammulata",
+  "ebird": "https://ebird.org/species/mascan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11347",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Many-striped_canastero",
+   "es": "https://es.wikipedia.org/wiki/Asthenes_flammulata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Asthenes+flammulata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Many-striped Canastero",
+  "en_aco": "Many-striped Canastero",
+  "es": "Canastero Flamulado",
+  "ru": "Пёстрый канастеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Asthenes flammulata",
+ "sci_name_aco": "Asthenes flammulata",
+ "sounds": [],
+ "taxon_order": 15395.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": 2800
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 22,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Many-striped%20Canastero%20-%20Colombia%20S4E1138.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bond & Meyer de Schauensee, 1943)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "toldov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotila",
+ "id": "leptotila-conoveri",
+ "ids": {
+  "avibase": "52700241C30B3D1B",
+  "birdbase": 5001,
+  "gbif": 2496093,
+  "inaturalist": "3309",
+  "iucn": "22690898",
+  "wikidata": "Q1268595",
+  "xeno_canto": "Leptotila-conoveri"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotila_conoveri",
+  "ebird": "https://ebird.org/species/toldov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3309",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tolima_dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotila_conoveri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotila+conoveri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tolima Dove",
+  "en_aco": "Tolima Dove",
+  "es": "Paloma Montaraz de Tolima",
+  "ru": "Толимская голубка"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotila conoveri",
+ "sci_name_aco": "Leptotila conoveri",
+ "sounds": [],
+ "taxon_order": 2351.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 154.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tolima%20Dove.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "verfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pyrocephalus",
+ "id": "pyrocephalus-rubinus",
+ "ids": {
+  "avibase": "1456993D48B01C82",
+  "birdbase": 17762,
+  "gbif": 2483647,
+  "inaturalist": "16447",
+  "iucn": "103682912",
+  "wikidata": "Q572657",
+  "xeno_canto": "Pyrocephalus-rubinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrocephalus_rubinus",
+  "ebird": "https://ebird.org/species/verfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16447",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Pyrocephalus_rubinus",
+   "ru": "https://ru.wikipedia.org/wiki/Огненный_мухоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrocephalus+rubinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Vermilion Flycatcher",
+  "en_aco": "Vermilion Flycatcher",
+  "es": "Mosquero Cardenal",
+  "ru": "Красный мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pyrocephalus rubinus",
+ "sci_name_aco": "Pyrocephalus rubinus",
+ "sounds": [],
+ "taxon_order": 17029.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3050,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "desert",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.383333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scarlet%20Flycatcher%2C%20female%2C%20Ayolas%2C%20Paraguay%20%281%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/095%20Scarlet%20Flycatcher%20in%20Encontro%20das%20%C3%81guas%20State%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

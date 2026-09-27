@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Stilpnia",
+ "id": "stilpnia-cayana",
+ "ids": {
+  "avibase": "D9A843C8A421D467",
+  "birdbase": 37863,
+  "gbif": 10895981,
+  "inaturalist": "979978",
+  "iucn": null,
+  "wikidata": "Q117260081",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bubtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/979978",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+cayana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Burnished-buff Tanager",
+  "en_aco": "Burnished-buff Tanager",
+  "es": "Tangara Isabel",
+  "ru": "Разноцветная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stilpnia cayana",
+ "sci_name_aco": "Stilpnia cayana",
+ "sounds": [],
+ "taxon_order": 35007.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 19.416666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

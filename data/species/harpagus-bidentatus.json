@@ -1,0 +1,91 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dotkit1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Harpagus",
+ "id": "harpagus-bidentatus",
+ "ids": {
+  "avibase": "E640A9535FFF817C",
+  "birdbase": 8643,
+  "gbif": 5229191,
+  "inaturalist": "5280",
+  "iucn": "22695060",
+  "wikidata": "Q1267434",
+  "xeno_canto": "Harpagus-bidentatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Harpagus_bidentatus",
+  "ebird": "https://ebird.org/species/dotkit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5280",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Double-toothed_kite",
+   "es": "https://es.wikipedia.org/wiki/Harpagus_bidentatus",
+   "ru": "https://ru.wikipedia.org/wiki/Двузубый_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Harpagus+bidentatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Double-toothed Kite",
+  "en_aco": "Double-toothed Kite",
+  "es": "Milano Bidentado",
+  "ru": "Рыжегрудый зубцеклювый коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Harpagus bidentatus",
+ "sci_name_aco": "Harpagus bidentatus",
+ "sounds": [],
+ "taxon_order": 8338.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 216.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Harpagus%20bidentatus%20160471680%20%28cropped%29.jpg"
+ ]
+}

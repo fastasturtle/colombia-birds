@@ -1,0 +1,91 @@
+{
+ "authorship": "(Taczanowski, 1884)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gycfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tolmomyias",
+ "id": "tolmomyias-poliocephalus",
+ "ids": {
+  "avibase": "672EA938D18E3A53",
+  "birdbase": 17556,
+  "gbif": 2482908,
+  "inaturalist": "16555",
+  "iucn": "22699615",
+  "wikidata": "Q1270575",
+  "xeno_canto": "Tolmomyias-poliocephalus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tolmomyias_poliocephalus",
+  "ebird": "https://ebird.org/species/gycfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16555",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-crowned_flatbill",
+   "es": "https://es.wikipedia.org/wiki/Tolmomyias_poliocephalus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tolmomyias+poliocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-crowned Flatbill",
+  "en_aco": "Gray-crowned Flycatcher",
+  "es": "Picoplano Cabecigrís",
+  "ru": "Сероголовый мухоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tolmomyias poliocephalus",
+ "sci_name_aco": "Tolmomyias poliocephalus",
+ "sounds": [],
+ "taxon_order": 16505.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 10.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tolmomyias%20poliocephalus%20-%20Gray-crowned%20Flycatcher.JPG"
+ ]
+}

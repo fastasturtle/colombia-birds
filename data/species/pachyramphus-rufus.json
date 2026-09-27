@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cinbec2",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-rufus",
+ "ids": {
+  "avibase": "69D111A7A85D0B34",
+  "birdbase": 18576,
+  "gbif": 5230318,
+  "inaturalist": "8725",
+  "iucn": "22700664",
+  "wikidata": "Q1306503",
+  "xeno_canto": "Pachyramphus-rufus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_rufus",
+  "ebird": "https://ebird.org/species/cinbec2",
+  "inaturalist": "https://www.inaturalist.org/taxa/8725",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinereous_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_rufus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+rufus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinereous Becard",
+  "en_aco": "Cinereous Becard",
+  "es": "Anambé Cinéreo",
+  "ru": "Серый бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus rufus",
+ "sci_name_aco": "Pachyramphus rufus",
+ "sounds": [],
+ "taxon_order": 16034.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 18.099999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pachyramphys%20rufus%20-%20Cinereous%20becard%20%28male%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pachyramphys%20rufus%20-%20Cinereous%20becard%20%28female%29%2001.jpg"
+ ]
+}

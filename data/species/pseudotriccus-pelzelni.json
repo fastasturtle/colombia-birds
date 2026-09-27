@@ -1,0 +1,91 @@
+{
+ "authorship": "(Taczanowski & Berlepsch, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "boptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pseudotriccus",
+ "id": "pseudotriccus-pelzelni",
+ "ids": {
+  "avibase": "257BC6C68DC4953D",
+  "birdbase": 17118,
+  "gbif": 2483814,
+  "inaturalist": "17217",
+  "iucn": "22698819",
+  "wikidata": "Q841136",
+  "xeno_canto": "Pseudotriccus-pelzelni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pseudotriccus_pelzelni",
+  "ebird": "https://ebird.org/species/boptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17217",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronze-olive_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Pseudotriccus_pelzelni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pseudotriccus+pelzelni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronze-olive Pygmy-Tyrant",
+  "en_aco": "Bronze-olive Pygmy-Tyrant",
+  "es": "Tiranuelo Bronceado",
+  "ru": "Бронзовый каполего"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pseudotriccus pelzelni",
+ "sci_name_aco": "Pseudotriccus pelzelni",
+ "sounds": [],
+ "taxon_order": 16281.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 10.299999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pseudotriccus%20pelzelni.jpg"
+ ]
+}

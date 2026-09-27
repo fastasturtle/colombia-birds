@@ -1,0 +1,95 @@
+{
+ "authorship": "(Jardine, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shtswi1",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Chaetura",
+ "id": "chaetura-brachyura",
+ "ids": {
+  "avibase": "5368983F2524C467",
+  "birdbase": 2532,
+  "gbif": 5228607,
+  "inaturalist": "6566",
+  "iucn": "22686725",
+  "wikidata": "Q1268338",
+  "xeno_canto": "Chaetura-brachyura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetura_brachyura",
+  "ebird": "https://ebird.org/species/shtswi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6566",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-tailed_swift",
+   "es": "https://es.wikipedia.org/wiki/Chaetura_brachyura",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetura+brachyura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-tailed Swift",
+  "en_aco": "Short-tailed Swift",
+  "es": "Vencejo Rabón",
+  "ru": "Короткохвостый иглохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetura brachyura",
+ "sci_name_aco": "Chaetura brachyura",
+ "sounds": [],
+ "taxon_order": 3911.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 18.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chaetura%20brachyura%20-%20Short-tailed%20Swift.JPG"
+ ]
+}

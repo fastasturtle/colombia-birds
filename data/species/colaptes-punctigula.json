@@ -1,0 +1,96 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spbwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Colaptes",
+ "id": "colaptes-punctigula",
+ "ids": {
+  "avibase": "897E43C8CB9977FD",
+  "birdbase": 12400,
+  "gbif": 2478237,
+  "inaturalist": "18265",
+  "iucn": "22681272",
+  "wikidata": "Q1260919",
+  "xeno_canto": "Colaptes-punctigula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colaptes_punctigula",
+  "ebird": "https://ebird.org/species/spbwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18265",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-breasted_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Colaptes_punctigula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colaptes+punctigula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-breasted Woodpecker",
+  "en_aco": "Spot-breasted Woodpecker",
+  "es": "Carpintero Moteado",
+  "ru": "Веснушчатый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Colaptes punctigula",
+ "sci_name_aco": "Colaptes punctigula",
+ "sounds": [],
+ "taxon_order": 11885.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 63.333333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spot-breasted%20Woodpecker%20700.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "guista1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmotherula",
+ "id": "myrmotherula-surinamensis",
+ "ids": {
+  "avibase": "C663585722F355BD",
+  "birdbase": 15763,
+  "gbif": 2490184,
+  "inaturalist": "15847",
+  "iucn": "22701445",
+  "wikidata": "Q1260292",
+  "xeno_canto": "Myrmotherula-surinamensis"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_surinamensis",
+  "ebird": "https://ebird.org/species/guista1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15847",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Guianan_streaked_antwren",
+   "es": "https://es.wikipedia.org/wiki/Myrmotherula_surinamensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmotherula+surinamensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Guianan Streaked-Antwren",
+  "en_aco": "Guianan Streaked-Antwren",
+  "es": "Hormiguerito de Surinam",
+  "ru": "Гвианский муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmotherula surinamensis",
+ "sci_name_aco": "Myrmotherula surinamensis",
+ "sounds": [],
+ "taxon_order": 13721.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 450,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 8.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20surinamensis%20-%20Guianan%20Streaked-Antwren%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20surinamensis%20Guianan%20Streaked-Antwren%20%28female%29%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil%2001.jpg"
+ ]
+}

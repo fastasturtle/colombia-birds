@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "relhon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cyanerpes",
+ "id": "cyanerpes-cyaneus",
+ "ids": {
+  "avibase": "5A126D2762C9CEA2",
+  "birdbase": 36847,
+  "gbif": 2488890,
+  "inaturalist": "10262",
+  "iucn": "22723012",
+  "wikidata": "Q1071693",
+  "xeno_canto": "Cyanerpes-cyaneus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanerpes_cyaneus",
+  "ebird": "https://ebird.org/species/relhon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10262",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-legged_honeycreeper",
+   "es": "https://es.wikipedia.org/wiki/Cyanerpes_cyaneus",
+   "ru": "https://ru.wikipedia.org/wiki/Бирюзовая_танагра-медосос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanerpes+cyaneus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-legged Honeycreeper",
+  "en_aco": "Red-legged Honeycreeper",
+  "es": "Mielerito Patirrojo",
+  "ru": "Красноногий саи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanerpes cyaneus",
+ "sci_name_aco": "Cyanerpes cyaneus",
+ "sounds": [],
+ "taxon_order": 35174.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.65,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-legged%20honeycreeper%20%2826870031818%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Phelps & WH Jr, 1977)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "perthi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Asthenes",
+ "id": "asthenes-perijana",
+ "ids": {
+  "avibase": "2EC35E3922EA72A4",
+  "birdbase": 15407,
+  "gbif": 6088359,
+  "inaturalist": "72544",
+  "iucn": "22702200",
+  "wikidata": "Q1140441",
+  "xeno_canto": "Asthenes-perijana"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Asthenes_perijana",
+  "ebird": "https://ebird.org/species/perthi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72544",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Perijá_thistletail",
+   "es": "https://es.wikipedia.org/wiki/Asthenes_perijana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Asthenes+perijana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Perija Thistletail",
+  "en_aco": "Perija Thistletail",
+  "es": "Piscuiz del Perijá",
+  "ru": "Перихский чертополошник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Asthenes perijana",
+ "sci_name_aco": "Asthenes perijana",
+ "sounds": [],
+ "taxon_order": 15450.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": null,
+   "min": 2950,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 18.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Asthenes%20perijana%20%2815635163495%29.jpg"
+ ]
+}

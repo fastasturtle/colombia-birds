@@ -1,0 +1,92 @@
+{
+ "authorship": "(R. Lesson, 1828)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "watgua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Aburria",
+ "id": "aburria-aburri",
+ "ids": {
+  "avibase": "50A427758325F170",
+  "birdbase": 728,
+  "gbif": 2482313,
+  "inaturalist": "2103",
+  "iucn": "22678440",
+  "wikidata": "Q1266228",
+  "xeno_canto": "Aburria-aburri"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aburria_aburri",
+  "ebird": "https://ebird.org/species/watgua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2103",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wattled_guan",
+   "es": "https://es.wikipedia.org/wiki/Aburria_aburri",
+   "ru": "https://ru.wikipedia.org/wiki/Серёжчатая_абурри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aburria+aburri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wattled Guan",
+  "en_aco": "Wattled Guan",
+  "es": "Pava Aburria",
+  "ru": "Серёжчатый гуан"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Aburria aburri",
+ "sci_name_aco": "Aburria aburri",
+ "sounds": [],
+ "taxon_order": 862.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3500,
+   "min": 400,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 1398.3333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wattled%20Guan%20%288079915812%29.jpg"
+ ]
+}

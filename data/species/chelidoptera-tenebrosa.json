@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pallas, 1782)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swwpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Chelidoptera",
+ "id": "chelidoptera-tenebrosa",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11093,
+  "gbif": 5228262,
+  "inaturalist": "1507",
+  "iucn": "22682337",
+  "wikidata": "Q1274755",
+  "xeno_canto": "Chelidoptera-tenebrosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chelidoptera_tenebrosa",
+  "ebird": "https://ebird.org/species/swwpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1507",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swallow-winged_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Chelidoptera_tenebrosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chelidoptera+tenebrosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swallow-winged Puffbird",
+  "en_aco": "Swallow-winged Puffbird",
+  "es": "Buco Golondrina",
+  "ru": "Ласточковая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Chelidoptera tenebrosa",
+ "sci_name_aco": "Chelidoptera tenebrosa",
+ "sounds": [],
+ "taxon_order": 10474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1750,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 35.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Urubuzinho%20%28Chelidoptera%20tenebrosa%29%20as%20margens%20do%20rio%20Araguari%20%28Floresta%20Nacional%20de%20Amap%C3%A1%29.jpg"
+ ]
+}

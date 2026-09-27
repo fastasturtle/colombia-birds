@@ -1,0 +1,93 @@
+{
+ "authorship": "(Stone, 1917)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sabhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysuronia",
+ "id": "chrysuronia-lilliae",
+ "ids": {
+  "avibase": "7AADCEC060CB6B11",
+  "birdbase": 3659,
+  "gbif": 10983511,
+  "inaturalist": "5939",
+  "iucn": "22687417",
+  "wikidata": "Q882410",
+  "xeno_canto": "Lepidopyga-lilliae"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lepidopyga_lilliae",
+  "ebird": "https://ebird.org/species/sabhum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5939",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sapphire-bellied_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Chrysuronia_lilliae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysuronia+lilliae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sapphire-bellied Hummingbird",
+  "en_aco": "Sapphire-bellied Hummingbird",
+  "es": "Colibrí Ventrizafiro",
+  "ru": "Сапфировобрюхий колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysuronia lilliae",
+ "sci_name_aco": "Chrysuronia lilliae",
+ "sounds": [],
+ "taxon_order": 5156.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "coastal"
+  ],
+  "mass_g": 4.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lepidopyga%20lilliae.png"
+ ]
+}

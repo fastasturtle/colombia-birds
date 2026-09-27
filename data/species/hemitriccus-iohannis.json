@@ -1,0 +1,93 @@
+{
+ "authorship": "(E. Snethlage, 1907)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "jottyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Hemitriccus",
+ "id": "hemitriccus-iohannis",
+ "ids": {
+  "avibase": "7B213A40DE0A3483",
+  "birdbase": 17372,
+  "gbif": 2482984,
+  "inaturalist": "16291",
+  "iucn": "22698914",
+  "wikidata": "Q1267142",
+  "xeno_canto": "Hemitriccus-iohannis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hemitriccus_iohannis",
+  "ebird": "https://ebird.org/species/jottyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16291",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Johannes's_tody-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Hemitriccus_iohannis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hemitriccus+iohannis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Johannes's Tody-Tyrant",
+  "en_aco": "Johannes's Tody-Tyrant",
+  "es": "Titirijí de Joao",
+  "ru": "Амазонский тоди-тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hemitriccus iohannis",
+ "sci_name_aco": "Hemitriccus iohannis",
+ "sounds": [],
+ "taxon_order": 16351.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 10.633333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hemitriccus%20iohannis%20-%20Johannes%27s%20Tody-Tyrant%3B%20Cruzeiro%20do%20Sul%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

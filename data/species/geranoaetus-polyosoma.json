@@ -1,0 +1,95 @@
+{
+ "authorship": "(Quoy, JRC; Gaimard, JP 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebhaw2",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Geranoaetus",
+ "id": "geranoaetus-polyosoma",
+ "ids": {
+  "avibase": "6F57FA04035D938D",
+  "birdbase": 8760,
+  "gbif": 8033105,
+  "inaturalist": "201044",
+  "iucn": "22735520",
+  "wikidata": "Q1576679",
+  "xeno_canto": "Geranoaetus-polyosoma"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geranoaetus_polyosoma",
+  "ebird": "https://ebird.org/species/rebhaw2",
+  "inaturalist": "https://www.inaturalist.org/taxa/201044",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Variable_hawk",
+   "es": "https://es.wikipedia.org/wiki/Geranoaetus_polyosoma",
+   "ru": "https://ru.wikipedia.org/wiki/Красноспинный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geranoaetus+polyosoma"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Variable Hawk",
+  "en_aco": "Variable Hawk",
+  "es": "Busardo Dorsirrojo",
+  "ru": "Красноспинная агуйя"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Geranoaetus polyosoma",
+ "sci_name_aco": "Geranoaetus polyosoma",
+ "sounds": [],
+ "taxon_order": 8453.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 983.3333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-backed%20Hawk%20%28Buteo%20polyosoma%29%201.jpg"
+ ]
+}

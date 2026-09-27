@@ -1,0 +1,94 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Catamenia",
+ "id": "catamenia-analis",
+ "ids": {
+  "avibase": "19B4343AFBD9FBCD",
+  "birdbase": 37541,
+  "gbif": 2491185,
+  "inaturalist": "10541",
+  "iucn": "22723570",
+  "wikidata": "Q2668141",
+  "xeno_canto": "Catamenia-analis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catamenia_analis",
+  "ebird": "https://ebird.org/species/batsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10541",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Catamenia_analis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catamenia+analis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Seedeater",
+  "en_aco": "Band-tailed Seedeater",
+  "es": "Semillero Colifajado",
+  "ru": "Пестрохвостый семеноед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catamenia analis",
+ "sci_name_aco": "Catamenia analis",
+ "sounds": [],
+ "taxon_order": 35612.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": 4650,
+   "min": 1000,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 13.450000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Artificial",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Band-tailed%20Seedeater%2C%20Lomas%20de%20Lachay%2C%20Peru%20%285964875508%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Catamenia%20analis%20Band-tailed%20Seedeater%20%28female%29%2C%20Quebrada%20del%20Condorito%2C%20C%C3%B3rdoba%2C%20Argentina.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "drwtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Ochthornis",
+ "id": "ochthornis-littoralis",
+ "ids": {
+  "avibase": "BFE83634FCFDBDBD",
+  "birdbase": 17779,
+  "gbif": 2483664,
+  "inaturalist": "17335",
+  "iucn": "22699970",
+  "wikidata": "Q526922",
+  "xeno_canto": "Ochthornis-littoralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ochthornis_littoralis",
+  "ebird": "https://ebird.org/species/drwtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17335",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Drab_water_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Ochthornis_littoralis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ochthornis+littoralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Drab Water Tyrant",
+  "en_aco": "Drab Water Tyrant",
+  "es": "Mosquerito Guardarríos",
+  "ru": "Прибрежный мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ochthornis littoralis",
+ "sci_name_aco": "Ochthornis littoralis",
+ "sounds": [],
+ "taxon_order": 17079.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "rivers_lakes"
+  ],
+  "mass_g": 13.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ochthornis%20littoralis%20-%20Drab%20Water-Tyrant.jpg"
+ ]
+}

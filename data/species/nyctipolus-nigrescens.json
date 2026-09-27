@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cabanis, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blanig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Nyctipolus",
+ "id": "nyctipolus-nigrescens",
+ "ids": {
+  "avibase": "63F4EDD002E0E9E9",
+  "birdbase": 1876,
+  "gbif": 7658073,
+  "inaturalist": "339617",
+  "iucn": "22689862",
+  "wikidata": "Q27074749",
+  "xeno_canto": "Nyctipolus-nigrescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctipolus_nigrescens",
+  "ebird": "https://ebird.org/species/blanig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339617",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blackish_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Nyctipolus_nigrescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctipolus+nigrescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blackish Nightjar",
+  "en_aco": "Blackish Nightjar",
+  "es": "Chotacabras Negruzco",
+  "ru": "Траурный козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Nyctipolus nigrescens",
+ "sci_name_aco": "Nyctipolus nigrescens",
+ "sounds": [],
+ "taxon_order": 3522.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 35.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/%28Hydropsalis%20nigrescens%29%20or%20%28Nyctipolus%20nigrescens%29%20-%20Blackish%20Nightjar.jpg"
+ ]
+}

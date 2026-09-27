@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "coffal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Micrastur",
+ "id": "micrastur-semitorquatus",
+ "ids": {
+  "avibase": "8217BC4F4EA08CA0",
+  "birdbase": 12841,
+  "gbif": 2481088,
+  "inaturalist": "4698",
+  "iucn": "22696291",
+  "wikidata": "Q594915",
+  "xeno_canto": "Micrastur-semitorquatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Micrastur_semitorquatus",
+  "ebird": "https://ebird.org/species/coffal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4698",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_forest_falcon",
+   "es": "https://es.wikipedia.org/wiki/Micrastur_semitorquatus",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковый_лесной_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Micrastur+semitorquatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Collared Forest-Falcon",
+  "en_aco": "Collared Forest-Falcon",
+  "es": "Halcón Montés Collarejo",
+  "ru": "Ошейниковый лесной сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Micrastur semitorquatus",
+ "sci_name_aco": "Micrastur semitorquatus",
+ "sounds": [],
+ "taxon_order": 11943.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1950,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "coastal"
+  ],
+  "mass_g": 675.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Micrastur%20semitorquatus%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Micrastur%20semitorquatus%201902.jpg"
+ ]
+}

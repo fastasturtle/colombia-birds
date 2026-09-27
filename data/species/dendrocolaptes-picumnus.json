@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lichtenstein, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendrocolaptes",
+ "id": "dendrocolaptes-picumnus",
+ "ids": {
+  "avibase": "3459505DAB59B526",
+  "birdbase": 14644,
+  "gbif": 9680445,
+  "inaturalist": "11131",
+  "iucn": "22703089",
+  "wikidata": "Q1272878",
+  "xeno_canto": "Dendrocolaptes-picumnus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocolaptes_picumnus",
+  "ebird": "https://ebird.org/species/blbwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11131",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-banded_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendrocolaptes_picumnus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocolaptes+picumnus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-banded Woodcreeper",
+  "en_aco": "Black-banded Woodcreeper",
+  "es": "Trepatroncos Variable",
+  "ru": "Изменчивый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendrocolaptes picumnus",
+ "sci_name_aco": "Dendrocolaptes picumnus",
+ "sounds": [],
+ "taxon_order": 14723.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 450,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 70.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendrocolaptes%20picumnus%20picumnus%20-%20Black-banded%20Woodcreeper%3B%20Manaus%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/DendrocolaptesPuncticollisSmit.jpg"
+ ]
+}

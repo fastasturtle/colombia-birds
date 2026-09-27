@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spobar1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Premnoplex",
+ "id": "premnoplex-brunnescens",
+ "ids": {
+  "avibase": "B023E37883BB7D29",
+  "birdbase": 15235,
+  "gbif": 2485279,
+  "inaturalist": "11178",
+  "iucn": "22702707",
+  "wikidata": "Q1271132",
+  "xeno_canto": "Premnoplex-brunnescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Premnoplex_brunnescens",
+  "ebird": "https://ebird.org/species/spobar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11178",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spotted_barbtail",
+   "es": "https://es.wikipedia.org/wiki/Premnoplex_brunnescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Premnoplex+brunnescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Barbtail",
+  "en_aco": "Spotted Barbtail",
+  "es": "Subepalo Moteado",
+  "ru": "Пятнистый зубцехвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Premnoplex brunnescens",
+ "sci_name_aco": "Premnoplex brunnescens",
+ "sounds": [],
+ "taxon_order": 15287.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": 3000,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 16.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spotted%20barbtail.jpg"
+ ]
+}

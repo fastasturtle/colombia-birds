@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "musduc",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Cairina",
+ "id": "cairina-moschata",
+ "ids": {
+  "avibase": "8DE140468464FA45",
+  "birdbase": 354,
+  "gbif": 9751099,
+  "inaturalist": "7120",
+  "iucn": "22680061",
+  "wikidata": "Q242851",
+  "xeno_canto": "Cairina-moschata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cairina_moschata",
+  "ebird": "https://ebird.org/species/musduc",
+  "inaturalist": "https://www.inaturalist.org/taxa/7120",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Muscovy_duck",
+   "es": "https://es.wikipedia.org/wiki/Cairina_moschata",
+   "ru": "https://ru.wikipedia.org/wiki/Мускусная_утка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cairina+moschata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Muscovy Duck",
+  "en_aco": "Muscovy Duck",
+  "es": "Pato Criollo",
+  "ru": "Мускусная утка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Cairina moschata",
+ "sci_name_aco": "Cairina moschata",
+ "sounds": [],
+ "taxon_order": 445.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 2140,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Muskovy%20duck%20%28Cairina%20moschata%29.JPG"
+ ]
+}

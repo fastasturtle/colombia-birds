@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rinkin1",
+ "family": {
+  "code": "alcedi1",
+  "en": "Kingfishers",
+  "sci": "Alcedinidae"
+ },
+ "genus": "Megaceryle",
+ "id": "megaceryle-torquata",
+ "ids": {
+  "avibase": "5EFB075F50AF96F8",
+  "birdbase": 10763,
+  "gbif": 2475466,
+  "inaturalist": "2552",
+  "iucn": "22683634",
+  "wikidata": "Q1272848",
+  "xeno_canto": "Megaceryle-torquata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megaceryle_torquata",
+  "ebird": "https://ebird.org/species/rinkin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2552",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ringed_kingfisher",
+   "es": "https://es.wikipedia.org/wiki/Megaceryle_torquata",
+   "ru": "https://ru.wikipedia.org/wiki/Красногрудый_пегий_зимородок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megaceryle+torquata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ringed Kingfisher",
+  "en_aco": "Ringed Kingfisher",
+  "es": "Martín Gigante Neotropical",
+  "ru": "Красногрудый зимородок"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Megaceryle torquata",
+ "sci_name_aco": "Megaceryle torquata",
+ "sounds": [],
+ "taxon_order": 10301.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 323,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ringed%20Kingfisher%20%28Megaceryle%20torquata%29%20male%20%2828808454175%29.jpg"
+ ]
+}

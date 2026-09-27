@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spcbar1",
+ "family": {
+  "code": "capito2",
+  "en": "New World Barbets",
+  "sci": "Capitonidae"
+ },
+ "genus": "Capito",
+ "id": "capito-maculicoronatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11100,
+  "gbif": 2479041,
+  "inaturalist": "116851",
+  "iucn": "22681908",
+  "wikidata": "Q1273822",
+  "xeno_canto": "Capito-maculicoronatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Capito_maculicoronatus",
+  "ebird": "https://ebird.org/species/spcbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116851",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-crowned_barbet",
+   "es": "https://es.wikipedia.org/wiki/Capito_maculicoronatus",
+   "ru": "https://ru.wikipedia.org/wiki/Пятнистый_кабезон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Capito+maculicoronatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-crowned Barbet",
+  "en_aco": "Spot-crowned Barbet",
+  "es": "Cabezón Pechiblanco",
+  "ru": "Желтогрудая бородатка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Capito maculicoronatus",
+ "sci_name_aco": "Capito maculicoronatus",
+ "sounds": [],
+ "taxon_order": 10787.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 53.26666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spot-crowned%20Barbet%2C%20crop.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spot-crowned-barbet2%2C%20crop.png"
+ ]
+}

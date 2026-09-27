@@ -1,0 +1,92 @@
+{
+ "authorship": "(Menegaux & Hellmayr, 1906)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "strant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Drymophila",
+ "id": "drymophila-devillei",
+ "ids": {
+  "avibase": "3C30F1FF686010DB",
+  "birdbase": 16212,
+  "gbif": 5230838,
+  "inaturalist": "15863",
+  "iucn": "22701629",
+  "wikidata": "Q1265731",
+  "xeno_canto": "Drymophila-devillei"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Drymophila_devillei",
+  "ebird": "https://ebird.org/species/strant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15863",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Striated_antbird",
+   "es": "https://es.wikipedia.org/wiki/Drymophila_devillei",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Drymophila+devillei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Striated Antbird",
+  "en_aco": "Striated Antbird",
+  "es": "Tiluchí Estriado Occidental",
+  "ru": "Пестрохвостая муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Drymophila devillei",
+ "sci_name_aco": "Drymophila devillei",
+ "sounds": [],
+ "taxon_order": 13868.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 10.575,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Drymophila%20devillei%20-%20Striated%20Antbird%3B%20Madre%20de%20Dios%2C%20Peru.jpg"
+ ]
+}

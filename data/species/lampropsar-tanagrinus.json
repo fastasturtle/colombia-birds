@@ -1,0 +1,94 @@
+{
+ "authorship": "(Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vefgra1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Lampropsar",
+ "id": "lampropsar-tanagrinus",
+ "ids": {
+  "avibase": "1D065546358EE8B8",
+  "birdbase": 36079,
+  "gbif": 2484188,
+  "inaturalist": "10696",
+  "iucn": "22724283",
+  "wikidata": "Q1586166",
+  "xeno_canto": "Lampropsar-tanagrinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lampropsar_tanagrinus",
+  "ebird": "https://ebird.org/species/vefgra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10696",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Velvet-fronted_grackle",
+   "es": "https://es.wikipedia.org/wiki/Lampropsar_tanagrinus",
+   "ru": "https://ru.wikipedia.org/wiki/Танагровый_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lampropsar+tanagrinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Velvet-fronted Grackle",
+  "en_aco": "Velvet-fronted Grackle",
+  "es": "Chango Terciopelo",
+  "ru": "Танагровый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lampropsar tanagrinus",
+ "sci_name_aco": "Lampropsar tanagrinus",
+ "sounds": [],
+ "taxon_order": 33901.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 55.300000000000004,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lampropsar%20tanagrinus%20Velvet-fronted%20Grackle%3B%20Atalaia%20do%20Norte%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

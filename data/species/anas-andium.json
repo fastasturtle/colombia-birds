@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spetea3",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Anas",
+ "id": "anas-andium",
+ "ids": {
+  "avibase": "0642F0F9BA60DF25",
+  "birdbase": 456,
+  "gbif": 2498068,
+  "inaturalist": "72501",
+  "iucn": "22735557",
+  "wikidata": "Q524270",
+  "xeno_canto": "Anas-andium"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anas_andium",
+  "ebird": "https://ebird.org/species/spetea3",
+  "inaturalist": "https://www.inaturalist.org/taxa/72501",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_teal",
+   "es": "https://es.wikipedia.org/wiki/Anas_andium",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anas+andium"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Teal",
+  "en_aco": "Andean Teal",
+  "es": "Cerceta Andina",
+  "ru": "Андский чирок"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Anas andium",
+ "sci_name_aco": "Anas andium",
+ "sounds": [],
+ "taxon_order": 626.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4300,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": 200
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 457,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean-Teal.jpg"
+ ]
+}

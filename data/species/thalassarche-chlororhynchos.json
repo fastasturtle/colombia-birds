@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yenalb2",
+ "family": {
+  "code": "diomed1",
+  "en": "Albatrosses",
+  "sci": "Diomedeidae"
+ },
+ "genus": "Thalassarche",
+ "id": "thalassarche-chlororhynchos",
+ "ids": {
+  "avibase": "EA2FA91827802E23",
+  "birdbase": 7393,
+  "gbif": 2481399,
+  "inaturalist": "4091",
+  "iucn": "22698425",
+  "wikidata": "Q1146629",
+  "xeno_canto": "Thalassarche-chlororhynchos"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thalassarche_chlororhynchos",
+  "ebird": "https://ebird.org/species/yenalb2",
+  "inaturalist": "https://www.inaturalist.org/taxa/4091",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Atlantic_yellow-nosed_albatross",
+   "es": "https://es.wikipedia.org/wiki/Thalassarche_chlororhynchos",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоклювый_альбатрос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thalassarche+chlororhynchos"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Atlantic Yellow-nosed Albatross",
+  "en_aco": "Yellow-nosed Albatross",
+  "es": "Albatros Picofino Atlántico",
+  "ru": "Желтоклювый альбатрос"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Thalassarche chlororhynchos",
+ "sci_name_aco": "Thalassarche chlororhynchos",
+ "sounds": [],
+ "taxon_order": 6993.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 2295,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Albatros%20%C3%A0%20bec%20jaunes.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thalassarche%20chlororhynchos.png"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Sundevall, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "galpen1",
+ "family": {
+  "code": "spheni1",
+  "en": "Penguins",
+  "sci": "Spheniscidae"
+ },
+ "genus": "Spheniscus",
+ "id": "spheniscus-mendiculus",
+ "ids": {
+  "avibase": "ACAA25BF00481EA8",
+  "birdbase": 7320,
+  "gbif": 5229383,
+  "inaturalist": "3815",
+  "iucn": "22697825",
+  "wikidata": "Q206668",
+  "xeno_canto": "Spheniscus-mendiculus"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spheniscus_mendiculus",
+  "ebird": "https://ebird.org/species/galpen1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3815",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Galapagos_penguin",
+   "es": "https://es.wikipedia.org/wiki/Spheniscus_mendiculus",
+   "ru": "https://ru.wikipedia.org/wiki/Галапагосский_пингвин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spheniscus+mendiculus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Galapagos Penguin",
+  "en_aco": "Galapagos Penguin",
+  "es": "Pingüino de Galápagos",
+  "ru": "Галапагосский пингвин"
+ },
+ "order": "Sphenisciformes",
+ "photos": [],
+ "sci_name": "Spheniscus mendiculus",
+ "sci_name_aco": "Spheniscus mendiculus",
+ "sounds": [],
+ "taxon_order": 6958.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 40,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 2040,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galapagos%20penguin%20%28Spheniscus%20mendiculus%29%20-Isabela2.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gal%C3%A1pagos%20penguin%20%28Spheniscus%20mendiculus%29%20male.jpg"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barswa",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Hirundo",
+ "id": "hirundo-rustica",
+ "ids": {
+  "avibase": "58C502EA7AF3E023",
+  "birdbase": 25255,
+  "gbif": 9515886,
+  "inaturalist": "11901",
+  "iucn": "22712252",
+  "wikidata": "Q25429",
+  "xeno_canto": "Hirundo-rustica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hirundo_rustica",
+  "ebird": "https://ebird.org/species/barswa",
+  "inaturalist": "https://www.inaturalist.org/taxa/11901",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barn_swallow",
+   "es": "https://es.wikipedia.org/wiki/Hirundo_rustica",
+   "ru": "https://ru.wikipedia.org/wiki/Деревенская_ласточка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hirundo+rustica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barn Swallow",
+  "en_aco": "Barn Swallow",
+  "es": "Golondrina Común",
+  "ru": "Деревенская ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hirundo rustica",
+ "sci_name_aco": "Hirundo rustica",
+ "sounds": [],
+ "taxon_order": 24187.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggshells",
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "grassland",
+   "plantation",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 19.349999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Plains",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Barn%20Swallow%20%2895504589%29.jpeg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hirundo-rustica-001.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rauchschwalbe%20Hirundo%20rustica.jpg"
+ ]
+}

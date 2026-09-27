@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "horscr1",
+ "family": {
+  "code": "anhimi1",
+  "en": "Screamers",
+  "sci": "Anhimidae"
+ },
+ "genus": "Anhima",
+ "id": "anhima-cornuta",
+ "ids": {
+  "avibase": "71BA40DCE729C6A7",
+  "birdbase": 224,
+  "gbif": 2497983,
+  "inaturalist": "6908",
+  "iucn": "22679723",
+  "wikidata": "Q732753",
+  "xeno_canto": "Anhima-cornuta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anhima_cornuta",
+  "ebird": "https://ebird.org/species/horscr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6908",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Horned_screamer",
+   "es": "https://es.wikipedia.org/wiki/Anhima_cornuta",
+   "ru": "https://ru.wikipedia.org/wiki/Рогатая_паламедея"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anhima+cornuta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Horned Screamer",
+  "en_aco": "Horned Screamer",
+  "es": "Chajá Añuma",
+  "ru": "Рогатая паламедея"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Anhima cornuta",
+ "sci_name_aco": "Anhima cornuta",
+ "sounds": [],
+ "taxon_order": 232.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 3450,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anhima%20cornuta%20%28Vincent%20Vos%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anhima%20cornuta.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anhima%20cornuta%20-near%20Manu%20Wildlife%20Center%2C%20Manu%20National%20Park%2C%20Peru%20-three-8.jpg"
+ ]
+}

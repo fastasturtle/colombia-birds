@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shtstr1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Lochmias",
+ "id": "lochmias-nematura",
+ "ids": {
+  "avibase": "79B462A52072E3C5",
+  "birdbase": 14989,
+  "gbif": 2485506,
+  "inaturalist": "11114",
+  "iucn": "22702732",
+  "wikidata": "Q1039940",
+  "xeno_canto": "Lochmias-nematura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lochmias_nematura",
+  "ebird": "https://ebird.org/species/shtstr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11114",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sharp-tailed_streamcreeper",
+   "es": "https://es.wikipedia.org/wiki/Lochmias_nematura",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lochmias+nematura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sharp-tailed Streamcreeper",
+  "en_aco": "Sharp-tailed Streamcreeper",
+  "es": "Riachuelero",
+  "ru": "Острохвостая ручейница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lochmias nematura",
+ "sci_name_aco": "Lochmias nematura",
+ "sounds": [],
+ "taxon_order": 15055.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2780,
+   "max_extreme": null,
+   "min": 725,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 29,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lochmias%20nematura%20-Parque%20Estadual%20da%20Serra%20da%20Cantareira%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

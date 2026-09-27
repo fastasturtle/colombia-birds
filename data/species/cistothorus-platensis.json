@@ -1,0 +1,94 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sedwre",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Cistothorus",
+ "id": "cistothorus-platensis",
+ "ids": {
+  "avibase": "CB4C1514AEC720CD",
+  "birdbase": 28965,
+  "gbif": 2493890,
+  "inaturalist": "7596",
+  "iucn": "103886997",
+  "wikidata": "Q746317",
+  "xeno_canto": "Cistothorus-platensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cistothorus_platensis",
+  "ebird": "https://ebird.org/species/sedwre",
+  "inaturalist": "https://www.inaturalist.org/taxa/7596",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grass_wren",
+   "es": "https://es.wikipedia.org/wiki/Cistothorus_platensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cistothorus+platensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grass Wren",
+  "en_aco": "Grass Wren",
+  "es": "Cucarachero Sabanero",
+  "ru": "Травяной крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cistothorus platensis",
+ "sci_name_aco": "Cistothorus platensis",
+ "sounds": [],
+ "taxon_order": 27304.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": 4600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "plantation",
+   "coastal"
+  ],
+  "mass_g": 10.316666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cistothorus%20platensis%2C%20Serra%20da%20Canastra%2C%20Minas%20Gerais%2C%20Brasil.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Daudin, 1800)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "creowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Lophostrix",
+ "id": "lophostrix-cristata",
+ "ids": {
+  "avibase": "4DC2A2BF8BE1092F",
+  "birdbase": 9698,
+  "gbif": 2497873,
+  "inaturalist": "20397",
+  "iucn": "22689177",
+  "wikidata": "Q1259391",
+  "xeno_canto": "Lophostrix-cristata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lophostrix_cristata",
+  "ebird": "https://ebird.org/species/creowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20397",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_owl",
+   "es": "https://es.wikipedia.org/wiki/Lophostrix_cristata",
+   "ru": "https://ru.wikipedia.org/wiki/Рогатая_неясыть"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lophostrix+cristata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Owl",
+  "en_aco": "Crested Owl",
+  "es": "Búho Corniblanco",
+  "ru": "Рогатая неясыть"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Lophostrix cristata",
+ "sci_name_aco": "Lophostrix cristata",
+ "sounds": [],
+ "taxon_order": 8892.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 520,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lophostrix%20cristata%20-Panama-8.jpg"
+ ]
+}

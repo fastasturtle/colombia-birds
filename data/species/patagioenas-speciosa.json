@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scapig2",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-speciosa",
+ "ids": {
+  "avibase": "3EAF09036AD9402C",
+  "birdbase": 4525,
+  "gbif": 2495339,
+  "inaturalist": "3082",
+  "iucn": "22690235",
+  "wikidata": "Q1273870",
+  "xeno_canto": "Patagioenas-speciosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_speciosa",
+  "ebird": "https://ebird.org/species/scapig2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3082",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaled_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_speciosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+speciosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaled Pigeon",
+  "en_aco": "Scaled Pigeon",
+  "es": "Paloma Escamosa",
+  "ru": "Чешуйчатый голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas speciosa",
+ "sci_name_aco": "Patagioenas speciosa",
+ "sounds": [],
+ "taxon_order": 1947.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1524,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 279,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20speciosa%20-Zooparque%20Itatiba%2C%20Sao%20Paulo%20State%2C%20Brazil%20-adult-8a.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Meyer de Schauensee, 1945)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dugant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Herpsilochmus",
+ "id": "herpsilochmus-dugandi",
+ "ids": {
+  "avibase": "2D649D9F140DF273",
+  "birdbase": 15904,
+  "gbif": 5788618,
+  "inaturalist": "62542",
+  "iucn": "22729224",
+  "wikidata": "Q1259360",
+  "xeno_canto": "Herpsilochmus-dugandi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Herpsilochmus_dugandi",
+  "ebird": "https://ebird.org/species/dugant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/62542",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dugand's_antwren",
+   "es": "https://es.wikipedia.org/wiki/Herpsilochmus_dugandi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Herpsilochmus+dugandi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dugand's Antwren",
+  "en_aco": "Dugand's Antwren",
+  "es": "Tiluchí de Dugand",
+  "ru": "Амазонский эсперито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Herpsilochmus dugandi",
+ "sci_name_aco": "Herpsilochmus dugandi",
+ "sounds": [],
+ "taxon_order": 13798.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 450,
+   "max_extreme": 600,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 10.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Herpsilochmus%20dugandi%20-%20Dugand%27s%20Antwren.jpg"
+ ]
+}

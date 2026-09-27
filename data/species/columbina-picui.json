@@ -1,0 +1,94 @@
+{
+ "authorship": "(Temminck, 1813)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pigdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-picui",
+ "ids": {
+  "avibase": "C5E145ECB89F5CFB",
+  "birdbase": 4906,
+  "gbif": 2495865,
+  "inaturalist": "3577",
+  "iucn": "22690794",
+  "wikidata": "Q1193037",
+  "xeno_canto": "Columbina-picui"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_picui",
+  "ebird": "https://ebird.org/species/pigdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3577",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Picui_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_picui",
+   "ru": "https://ru.wikipedia.org/wiki/Сероглазая_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+picui"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Picui Ground Dove",
+  "en_aco": "Picui Ground Dove",
+  "es": "Columbina Picuí",
+  "ru": "Сероглазая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina picui",
+ "sci_name_aco": "Columbina picui",
+ "sounds": [],
+ "taxon_order": 2282.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 48.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picui%20Ground%20Dove%2C%20Parque%20San%20Rafael%2C%20Paraguay.jpg"
+ ]
+}

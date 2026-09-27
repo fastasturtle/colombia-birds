@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "eawpew",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Contopus",
+ "id": "contopus-virens",
+ "ids": {
+  "avibase": "9891BF73279CAB69",
+  "birdbase": 17691,
+  "gbif": 5229734,
+  "inaturalist": "16100",
+  "iucn": "22699816",
+  "wikidata": "Q606809",
+  "xeno_canto": "Contopus-virens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Contopus_virens",
+  "ebird": "https://ebird.org/species/eawpew",
+  "inaturalist": "https://www.inaturalist.org/taxa/16100",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Eastern_wood_pewee",
+   "es": "https://es.wikipedia.org/wiki/Contopus_virens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Contopus+virens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Eastern Wood-Pewee",
+  "en_aco": "Eastern Wood-Pewee",
+  "es": "Pibí Oriental",
+  "ru": "Восточный пиви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Contopus virens",
+ "sci_name_aco": "Contopus virens",
+ "sounds": [],
+ "taxon_order": 16924.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2850,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 14.040000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20wood%20pewee%20%2871095%29.jpg"
+ ]
+}

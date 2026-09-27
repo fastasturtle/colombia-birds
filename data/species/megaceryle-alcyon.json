@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "belkin1",
+ "family": {
+  "code": "alcedi1",
+  "en": "Kingfishers",
+  "sci": "Alcedinidae"
+ },
+ "genus": "Megaceryle",
+ "id": "megaceryle-alcyon",
+ "ids": {
+  "avibase": "3558066B4F7EEB8E",
+  "birdbase": 10767,
+  "gbif": 2475472,
+  "inaturalist": "2548",
+  "iucn": "22683623",
+  "wikidata": "Q736052",
+  "xeno_canto": "Megaceryle-alcyon"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megaceryle_alcyon",
+  "ebird": "https://ebird.org/species/belkin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2548",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Belted_kingfisher",
+   "es": "https://es.wikipedia.org/wiki/Megaceryle_alcyon",
+   "ru": "https://ru.wikipedia.org/wiki/Опоясанный_пегий_зимородок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megaceryle+alcyon"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Belted Kingfisher",
+  "en_aco": "Belted Kingfisher",
+  "es": "Martín Gigante Norteamericano",
+  "ru": "Опоясанный зимородок"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Megaceryle alcyon",
+ "sci_name_aco": "Megaceryle alcyon",
+ "sounds": [],
+ "taxon_order": 10306.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 157,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megaceryle%20alcyon%20femelle.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Belted%20Kingfisher.jpg"
+ ]
+}

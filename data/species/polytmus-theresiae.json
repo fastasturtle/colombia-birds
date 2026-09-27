@@ -1,0 +1,93 @@
+{
+ "authorship": "(Da Silva Maia, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grtgol1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Polytmus",
+ "id": "polytmus-theresiae",
+ "ids": {
+  "avibase": "5CA2331E85509A7A",
+  "birdbase": 2836,
+  "gbif": 2477024,
+  "inaturalist": "5787",
+  "iucn": "22687488",
+  "wikidata": "Q1259380",
+  "xeno_canto": "Polytmus-theresiae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polytmus_theresiae",
+  "ebird": "https://ebird.org/species/grtgol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5787",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-tailed_goldenthroat",
+   "es": "https://es.wikipedia.org/wiki/Polytmus_theresiae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polytmus+theresiae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-tailed Goldenthroat",
+  "en_aco": "Green-tailed Goldenthroat",
+  "es": "Colibrí de Teresa",
+  "ru": "Зелёнохвостый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Polytmus theresiae",
+ "sci_name_aco": "Polytmus theresiae",
+ "sounds": [],
+ "taxon_order": 4378.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 3.575,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Polytmus%20theresiae%20-%20Green-tailed%20Goldenthroat%3B%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

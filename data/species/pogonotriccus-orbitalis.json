@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pogonotriccus",
+ "id": "pogonotriccus-orbitalis",
+ "ids": {
+  "avibase": "884A2A84F525DCAA",
+  "birdbase": 17193,
+  "gbif": 2483201,
+  "inaturalist": "1440099",
+  "iucn": "22699473",
+  "wikidata": "Q27075162",
+  "xeno_canto": "Pogonotriccus-orbitalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pogonotriccus_orbitalis",
+  "ebird": "https://ebird.org/species/spbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1440099",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spectacled_bristle_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Pogonotriccus_orbitalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pogonotriccus+orbitalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spectacled Bristle-Tyrant",
+  "en_aco": "Spectacled Bristle-Tyrant",
+  "es": "Orejerito de Anteojos",
+  "ru": "Очковый тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pogonotriccus orbitalis",
+ "sci_name_aco": "Phylloscartes orbitalis",
+ "sounds": [],
+ "taxon_order": 16256.0,
+ "taxonomy_note": "ACO/SACC lists this as Phylloscartes orbitalis; eBird/Clements uses Pogonotriccus orbitalis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 7.3999999999999995,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pogonotriccus%20orbitalis%20Spectacled%20Bristle-Tyrant%3B%20La%20Merced%2C%20Jun%C3%ADn%2C%20Peru.jpg"
+ ]
+}

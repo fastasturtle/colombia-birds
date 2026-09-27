@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ocbfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mionectes",
+ "id": "mionectes-oleagineus",
+ "ids": {
+  "avibase": "0EFCDBB88117489F",
+  "birdbase": 17236,
+  "gbif": 5229541,
+  "inaturalist": "16513",
+  "iucn": "22698796",
+  "wikidata": "Q528567",
+  "xeno_canto": "Mionectes-oleagineus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mionectes_oleagineus",
+  "ebird": "https://ebird.org/species/ocbfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16513",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ochre-bellied_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Mionectes_oleagineus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mionectes+oleagineus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ochre-bellied Flycatcher",
+  "en_aco": "Ochre-bellied Flycatcher",
+  "es": "Mosquero Aceitunado",
+  "ru": "Охристобрюхий тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mionectes oleagineus",
+ "sci_name_aco": "Mionectes oleagineus",
+ "sounds": [],
+ "taxon_order": 16214.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 12.083333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Abre-asa%2015%2008%2011.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mionectes%20oleagineus%202.jpg"
+ ]
+}

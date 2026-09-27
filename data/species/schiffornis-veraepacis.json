@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "thlsch2",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Schiffornis",
+ "id": "schiffornis-veraepacis",
+ "ids": {
+  "avibase": "BB758322F1F6AA4E",
+  "birdbase": 18519,
+  "gbif": 7792707,
+  "inaturalist": "201097",
+  "iucn": "103677449",
+  "wikidata": "Q10818950",
+  "xeno_canto": "Schiffornis-veraepacis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schiffornis_veraepacis",
+  "ebird": "https://ebird.org/species/thlsch2",
+  "inaturalist": "https://www.inaturalist.org/taxa/201097",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_schiffornis",
+   "es": "https://es.wikipedia.org/wiki/Schiffornis_veraepacis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schiffornis+veraepacis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Schiffornis",
+  "en_aco": "Northern Schiffornis",
+  "es": "Llorón de Verapaz",
+  "ru": "Тёмная сельвиния"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Schiffornis veraepacis",
+ "sci_name_aco": "Schiffornis veraepacis",
+ "sounds": [],
+ "taxon_order": 15984.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1425,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 32.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schiffornis%20veraepacis%20%2815150857585%29.jpg"
+ ]
+}

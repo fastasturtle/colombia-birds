@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruther1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Tigrisoma",
+ "id": "tigrisoma-lineatum",
+ "ids": {
+  "avibase": "435D9988DEB2C2FD",
+  "birdbase": 7878,
+  "gbif": 2480869,
+  "inaturalist": "5048",
+  "iucn": "22697269",
+  "wikidata": "Q333239",
+  "xeno_canto": "Tigrisoma-lineatum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tigrisoma_lineatum",
+  "ebird": "https://ebird.org/species/ruther1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5048",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufescent_tiger_heron",
+   "es": "https://es.wikipedia.org/wiki/Tigrisoma_lineatum",
+   "ru": "https://ru.wikipedia.org/wiki/Мраморная_тигровая_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tigrisoma+lineatum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufescent Tiger-Heron",
+  "en_aco": "Rufescent Tiger-Heron",
+  "es": "Avetigre Colorada",
+  "ru": "Мраморная тигровая выпь"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Tigrisoma lineatum",
+ "sci_name_aco": "Tigrisoma lineatum",
+ "sounds": [],
+ "taxon_order": 7537.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1150,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 805,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufescent%20Tiger%20Heron%2C%20Berazategui%2C%20Buenos%20Aires%2C%20Argentina%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tigrisoma%20lineatum%20-Parque%20del%20Este%2C%20Caracas%2C%20Venezuela-8.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lifgle1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Syndactyla",
+ "id": "syndactyla-subalaris",
+ "ids": {
+  "avibase": "93B0214599260D8D",
+  "birdbase": 15123,
+  "gbif": 2485362,
+  "inaturalist": "11458",
+  "iucn": "22702771",
+  "wikidata": "Q1270646",
+  "xeno_canto": "Syndactyla-subalaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Syndactyla_subalaris",
+  "ebird": "https://ebird.org/species/lifgle1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11458",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lineated_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Syndactyla_subalaris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Syndactyla+subalaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lineated Foliage-gleaner",
+  "en_aco": "Lineated Foliage-gleaner",
+  "es": "Ticotico Rayado",
+  "ru": "Исчерченный сростнопал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Syndactyla subalaris",
+ "sci_name_aco": "Syndactyla subalaris",
+ "sounds": [],
+ "taxon_order": 15166.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 31.633333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Syndactyla%20subalaris.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gretho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Discosura",
+ "id": "discosura-conversii",
+ "ids": {
+  "avibase": "88B5FB8A0B0FA9C5",
+  "birdbase": 2896,
+  "gbif": 2476911,
+  "inaturalist": "6396",
+  "iucn": "22687275",
+  "wikidata": "Q942943",
+  "xeno_canto": "Discosura-conversii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Discosura_conversii",
+  "ebird": "https://ebird.org/species/gretho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6396",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_thorntail",
+   "es": "https://es.wikipedia.org/wiki/Discosura_conversii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Discosura+conversii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Thorntail",
+  "en_aco": "Green Thorntail",
+  "es": "Rabudito Verde",
+  "ru": "Зелёная шипохвостка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Discosura conversii",
+ "sci_name_aco": "Discosura conversii",
+ "sounds": [],
+ "taxon_order": 4438.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1150,
+   "max_extreme": 1400,
+   "min": 60,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Discosura%20conversii%20Santa%20Elena.JPG"
+ ]
+}

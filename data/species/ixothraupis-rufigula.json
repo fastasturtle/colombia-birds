@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruttan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ixothraupis",
+ "id": "ixothraupis-rufigula",
+ "ids": {
+  "avibase": "454C067FA2191BAE",
+  "birdbase": 37777,
+  "gbif": 9315630,
+  "inaturalist": "9545",
+  "iucn": "22722875",
+  "wikidata": "Q2934254",
+  "xeno_canto": "Tangara-rufigula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_rufigula",
+  "ebird": "https://ebird.org/species/ruttan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9545",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-throated_tanager",
+   "es": "https://es.wikipedia.org/wiki/Ixothraupis_rufigula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ixothraupis+rufigula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-throated Tanager",
+  "en_aco": "Rufous-throated Tanager",
+  "es": "Tangara Golirrufa",
+  "ru": "Рыжегорлая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ixothraupis rufigula",
+ "sci_name_aco": "Ixothraupis rufigula",
+ "sounds": [],
+ "taxon_order": 34965.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 19.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20rufigula%20-NW%20Ecuador-4.jpg"
+ ]
+}

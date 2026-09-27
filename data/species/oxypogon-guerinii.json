@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gnbhel1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Oxypogon",
+ "id": "oxypogon-guerinii",
+ "ids": {
+  "avibase": "5C67D209B4F0D0C3",
+  "birdbase": 3002,
+  "gbif": 5228550,
+  "inaturalist": "6291",
+  "iucn": "22726790",
+  "wikidata": "Q1092111",
+  "xeno_canto": "Oxypogon-guerinii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxypogon_guerinii",
+  "ebird": "https://ebird.org/species/gnbhel1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6291",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-bearded_helmetcrest",
+   "es": "https://es.wikipedia.org/wiki/Oxypogon_guerinii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oxypogon+guerinii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-bearded Helmetcrest",
+  "en_aco": "Green-bearded Helmetcrest",
+  "es": "Colibrí Chivito de Bogotá",
+  "ru": "Шлемоносная горная нимфа"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Oxypogon guerinii",
+ "sci_name_aco": "Oxypogon guerinii",
+ "sounds": [],
+ "taxon_order": 4536.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5200,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 5.175000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxypogon%20guerinii%20female.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxypogon%20guerinii%20236915214.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blchem1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Kleinothraupis",
+ "id": "kleinothraupis-atropileus",
+ "ids": {
+  "avibase": "99C7090AB4C7F1DC",
+  "birdbase": 37334,
+  "gbif": 9377161,
+  "inaturalist": "558551",
+  "iucn": "103823004",
+  "wikidata": "Q2628952",
+  "xeno_canto": "Hemispingus-atropileus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hemispingus_atropileus",
+  "ebird": "https://ebird.org/species/blchem1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558551",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-capped_hemispingus",
+   "es": "https://es.wikipedia.org/wiki/Kleinothraupis_atropileus",
+   "ru": "https://ru.wikipedia.org/wiki/Черношапочный_хемиспингус"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Kleinothraupis+atropileus"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Black-capped Hemispingus",
+  "en_aco": "Black-capped Hemispingus",
+  "es": "Hemispingo Capirotado",
+  "ru": "Черношапочный хемиспингус"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Kleinothraupis atropileus",
+ "sci_name_aco": "Kleinothraupis atropileus",
+ "sounds": [],
+ "taxon_order": 34672.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 22,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Kleinothraupis%20atropileus.jpg"
+ ]
+}

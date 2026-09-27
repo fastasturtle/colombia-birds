@@ -1,0 +1,91 @@
+{
+ "authorship": "(Wetmore, 1964)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gyhvul1",
+ "family": {
+  "code": "cathar2",
+  "en": "New World Vultures",
+  "sci": "Cathartidae"
+ },
+ "genus": "Cathartes",
+ "id": "cathartes-melambrotus",
+ "ids": {
+  "avibase": "2432C7DDAC28B9EA",
+  "birdbase": 8127,
+  "gbif": 2481929,
+  "inaturalist": "4760",
+  "iucn": "22697633",
+  "wikidata": "Q250490",
+  "xeno_canto": "Cathartes-melambrotus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cathartes_melambrotus",
+  "ebird": "https://ebird.org/species/gyhvul1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4760",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greater_yellow-headed_vulture",
+   "es": "https://es.wikipedia.org/wiki/Cathartes_melambrotus",
+   "ru": "https://ru.wikipedia.org/wiki/Большая_желтоголовая_катарта"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cathartes+melambrotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Greater Yellow-headed Vulture",
+  "en_aco": "Greater Yellow-headed Vulture",
+  "es": "Aura Selvática",
+  "ru": "Большая желтоголовая катарта"
+ },
+ "order": "Cathartiformes",
+ "photos": [],
+ "sci_name": "Cathartes melambrotus",
+ "sci_name_aco": "Cathartes melambrotus",
+ "sounds": [],
+ "taxon_order": 7826.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 1440,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Scavenger",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Greater%20Yellow-headed%20Vulture%20%28Cathartes%20melambrotus%29%20in%20flight%20from%20below.jpg"
+ ]
+}

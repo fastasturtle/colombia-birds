@@ -1,0 +1,89 @@
+{
+ "authorship": "(Chapman, 1915)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tactap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-panamensis",
+ "ids": {
+  "avibase": "DC8FE9A99319ACBA",
+  "birdbase": 16809,
+  "gbif": 2490978,
+  "inaturalist": "14755",
+  "iucn": "22703501",
+  "wikidata": "Q1270654",
+  "xeno_canto": "Scytalopus-panamensis"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_panamensis",
+  "ebird": "https://ebird.org/species/tactap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14755",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tacarcuna_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_panamensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+panamensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tacarcuna Tapaculo",
+  "en_aco": "Tacarcuna Tapaculo",
+  "es": "Churrín Panameño",
+  "ru": "Панамский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus panamensis",
+ "sci_name_aco": "Scytalopus panamensis",
+ "sounds": [],
+ "taxon_order": 14443.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 1050,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 17.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

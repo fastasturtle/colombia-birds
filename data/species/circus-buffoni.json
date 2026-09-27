@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lowhar1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Circus",
+ "id": "circus-buffoni",
+ "ids": {
+  "avibase": "07E22FE291DC864D",
+  "birdbase": 8621,
+  "gbif": 5229178,
+  "inaturalist": "5177",
+  "iucn": "22695373",
+  "wikidata": "Q520910",
+  "xeno_canto": "Circus-buffoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Circus_buffoni",
+  "ebird": "https://ebird.org/species/lowhar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5177",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-winged_harrier",
+   "es": "https://es.wikipedia.org/wiki/Circus_buffoni",
+   "ru": "https://ru.wikipedia.org/wiki/Длиннокрылый_лунь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Circus+buffoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-winged Harrier",
+  "en_aco": "Long-winged Harrier",
+  "es": "Aguilucho de Azara",
+  "ru": "Длиннокрылый лунь"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Circus buffoni",
+ "sci_name_aco": "Circus buffoni",
+ "sounds": [],
+ "taxon_order": 8318.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 474.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Kourou%20bird%20rapace%20fleuve.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Circus%20buffoni%20GAVILAN%20ALIARGO.jpg"
+ ]
+}

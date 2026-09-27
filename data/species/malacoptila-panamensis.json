@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whwpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Malacoptila",
+ "id": "malacoptila-panamensis",
+ "ids": {
+  "avibase": "46451CCECF896E42",
+  "birdbase": 11048,
+  "gbif": 2475147,
+  "inaturalist": "1514",
+  "iucn": "22682292",
+  "wikidata": "Q788821",
+  "xeno_canto": "Malacoptila-panamensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Malacoptila_panamensis",
+  "ebird": "https://ebird.org/species/whwpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1514",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-whiskered_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Malacoptila_panamensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Malacoptila+panamensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-whiskered Puffbird",
+  "en_aco": "White-whiskered Puffbird",
+  "es": "Buco Barbón",
+  "ru": "Белоусая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Malacoptila panamensis",
+ "sci_name_aco": "Malacoptila panamensis",
+ "sounds": [],
+ "taxon_order": 10424.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 42.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White%20whiskered%20puffbird.jpg"
+ ]
+}

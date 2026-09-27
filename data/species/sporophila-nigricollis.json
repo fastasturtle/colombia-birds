@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-nigricollis",
+ "ids": {
+  "avibase": "52DEFF09D3E065B7",
+  "birdbase": 37237,
+  "gbif": 2491335,
+  "inaturalist": "9515",
+  "iucn": "105963139",
+  "wikidata": "Q1413302",
+  "xeno_canto": "Sporophila-nigricollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_nigricollis",
+  "ebird": "https://ebird.org/species/yebsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9515",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-bellied_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_nigricollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+nigricollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Seedeater",
+  "en_aco": "Yellow-bellied Seedeater",
+  "es": "Semillero Ventriamarillo",
+  "ru": "Желтобрюхий просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila nigricollis",
+ "sci_name_aco": "Sporophila nigricollis",
+ "sounds": [],
+ "taxon_order": 35583.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 9.566666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20nigricollis%20Espiguero%20capuchino%20Yellow-bellied%20Seedeater%20%2811482712664%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20nigricollis%20%28f%C3%AAmea%29.jpg"
+ ]
+}

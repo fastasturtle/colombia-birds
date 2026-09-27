@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtspa1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Platyrinchus",
+ "id": "platyrinchus-mystaceus",
+ "ids": {
+  "avibase": "F0BFC39BFCFED853",
+  "birdbase": 17577,
+  "gbif": 9701018,
+  "inaturalist": "16230",
+  "iucn": "103679869",
+  "wikidata": "Q899244",
+  "xeno_canto": "Platyrinchus-mystaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Platyrinchus_mystaceus",
+  "ebird": "https://ebird.org/species/whtspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16230",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_spadebill",
+   "es": "https://es.wikipedia.org/wiki/Platyrinchus_mystaceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Platyrinchus+mystaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Spadebill",
+  "en_aco": "White-throated Spadebill",
+  "es": "Picoplano Bigotudo",
+  "ru": "Белогорлый плоскоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Platyrinchus mystaceus",
+ "sci_name_aco": "Platyrinchus mystaceus",
+ "sounds": [],
+ "taxon_order": 16165.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 9.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/%22Platyrinchus%20mystaceus%22-%20White-throated%20Spadebill%2C%20Gelbscheitel-Breitschnabeltyrann.jpg"
+ ]
+}

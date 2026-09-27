@@ -1,0 +1,93 @@
+{
+ "authorship": "(Leach, 1814)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fasant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Cymbilaimus",
+ "id": "cymbilaimus-lineatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16108,
+  "gbif": 2490079,
+  "inaturalist": "15750",
+  "iucn": "22701223",
+  "wikidata": "Q169370",
+  "xeno_canto": "Cymbilaimus-lineatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cymbilaimus_lineatus",
+  "ebird": "https://ebird.org/species/fasant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15750",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fasciated_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Cymbilaimus_lineatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cymbilaimus+lineatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fasciated Antshrike",
+  "en_aco": "Fasciated Antshrike",
+  "es": "Batará Lineado",
+  "ru": "Зебровый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cymbilaimus lineatus",
+ "sci_name_aco": "Cymbilaimus lineatus",
+ "sounds": [],
+ "taxon_order": 13445.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 37.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cymbilaimus%20lineatus%20%28female%29%20-Panama-6-4c.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fasciated%20Antshrike%20male.jpg"
+ ]
+}

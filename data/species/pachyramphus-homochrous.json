@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "oncbec1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-homochrous",
+ "ids": {
+  "avibase": "5B66BF7CB3CCB668",
+  "birdbase": 18617,
+  "gbif": 5230358,
+  "inaturalist": "8661",
+  "iucn": "22700673",
+  "wikidata": "Q1304401",
+  "xeno_canto": "Pachyramphus-homochrous"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_homochrous",
+  "ebird": "https://ebird.org/species/oncbec1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8661",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/One-colored_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_homochrous",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+homochrous"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "One-colored Becard",
+  "en_aco": "One-colored Becard",
+  "es": "Anambé Unicolor",
+  "ru": "Угольный бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus homochrous",
+ "sci_name_aco": "Pachyramphus homochrous",
+ "sounds": [],
+ "taxon_order": 16083.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 36.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/One-colored%20Becard%20m%20-%20South%20Ecuador%20S4E8722%20%2816730610578%29.jpg"
+ ]
+}

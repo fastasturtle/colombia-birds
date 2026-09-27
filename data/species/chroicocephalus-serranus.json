@@ -1,0 +1,93 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andgul1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Chroicocephalus",
+ "id": "chroicocephalus-serranus",
+ "ids": {
+  "avibase": "A971CBD40BB0DC71",
+  "birdbase": 7101,
+  "gbif": 6065825,
+  "inaturalist": "144503",
+  "iucn": null,
+  "wikidata": "Q490439",
+  "xeno_canto": "Chroicocephalus-serranus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chroicocephalus_serranus",
+  "ebird": "https://ebird.org/species/andgul1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144503",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_gull",
+   "es": "https://es.wikipedia.org/wiki/Chroicocephalus_serranus",
+   "ru": "https://ru.wikipedia.org/wiki/Андская_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chroicocephalus+serranus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Gull",
+  "en_aco": "Andean Gull",
+  "es": "Gaviota Andina",
+  "ru": "Андская чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Chroicocephalus serranus",
+ "sci_name_aco": "Chroicocephalus serranus",
+ "sounds": [],
+ "taxon_order": 6470.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 5300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 478,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chroicocephalus%20serranus%20Altiplano3%20cropped.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean%20Gull%20RWD5.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vigors, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "peakit1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Gampsonyx",
+ "id": "gampsonyx-swainsonii",
+ "ids": {
+  "avibase": "D36BA36153C1F129",
+  "birdbase": 8135,
+  "gbif": 2480710,
+  "inaturalist": "5342",
+  "iucn": "22695025",
+  "wikidata": "Q1047238",
+  "xeno_canto": "Gampsonyx-swainsonii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gampsonyx_swainsonii",
+  "ebird": "https://ebird.org/species/peakit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5342",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pearl_kite",
+   "es": "https://es.wikipedia.org/wiki/Gampsonyx_swainsonii",
+   "ru": "https://ru.wikipedia.org/wiki/Жемчужный_коршун-крошка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gampsonyx+swainsonii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pearl Kite",
+  "en_aco": "Pearl Kite",
+  "es": "Elanio Enano",
+  "ru": "Коршун-крошка"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Gampsonyx swainsonii",
+ "sci_name_aco": "Gampsonyx swainsonii",
+ "sounds": [],
+ "taxon_order": 7838.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 99.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gampsonyx%20swainsonii%20Pearl%20Kite.jpg"
+ ]
+}

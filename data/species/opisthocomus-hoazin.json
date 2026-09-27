@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hoatzi1",
+ "family": {
+  "code": "opisth1",
+  "en": "Hoatzin",
+  "sci": "Opisthocomidae"
+ },
+ "genus": "Opisthocomus",
+ "id": "opisthocomus-hoazin",
+ "ids": {
+  "avibase": "7E83A1B3DC1F8644",
+  "birdbase": 8109,
+  "gbif": 2496202,
+  "inaturalist": "1626",
+  "iucn": "22684428",
+  "wikidata": "Q188660",
+  "xeno_canto": "Opisthocomus-hoazin"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Opisthocomus_hoazin",
+  "ebird": "https://ebird.org/species/hoatzi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1626",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hoatzin",
+   "es": "https://es.wikipedia.org/wiki/Opisthocomus_hoazin",
+   "ru": "https://ru.wikipedia.org/wiki/Гоацин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Opisthocomus+hoazin"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hoatzin",
+  "en_aco": "Hoatzin",
+  "es": "Hoazín",
+  "ru": "Гоацин"
+ },
+ "order": "Opisthocomiformes",
+ "photos": [],
+ "sci_name": "Opisthocomus hoazin",
+ "sci_name_aco": "Opisthocomus hoazin",
+ "sounds": [],
+ "taxon_order": 6898.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1448,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 771.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hoatzin%20%28Opisthocomus%20hoazin%29%20Rio%20Napo.jpg"
+ ]
+}

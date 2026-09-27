@@ -1,0 +1,91 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcman2",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Pseudopipra",
+ "id": "pseudopipra-pipra",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18460,
+  "gbif": 9226874,
+  "inaturalist": "339669",
+  "iucn": null,
+  "wikidata": "Q28747718",
+  "xeno_canto": "Dixiphia-pipra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/whcman2",
+  "inaturalist": "https://www.inaturalist.org/taxa/339669",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pseudopipra+pipra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-crowned Manakin",
+  "en_aco": "White-crowned Manakin",
+  "es": "Saltarín Coroniblanco",
+  "ru": "Белошапочная пипра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pseudopipra pipra",
+ "sci_name_aco": "Pseudopipra pipra",
+ "sounds": [],
+ "taxon_order": 15818.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 13.040000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dixiphia%20pipra%20-%20male.jpg"
+ ]
+}

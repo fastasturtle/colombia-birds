@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dickci",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Spiza",
+ "id": "spiza-americana",
+ "ids": {
+  "avibase": "592E58CE67D092DA",
+  "birdbase": 36693,
+  "gbif": 2490363,
+  "inaturalist": "10676",
+  "iucn": "22723796",
+  "wikidata": "Q1210224",
+  "xeno_canto": "Spiza-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spiza_americana",
+  "ebird": "https://ebird.org/species/dickci",
+  "inaturalist": "https://www.inaturalist.org/taxa/10676",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dickcissel",
+   "es": "https://es.wikipedia.org/wiki/Spiza_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_спиза"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spiza+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dickcissel",
+  "en_aco": "Dickcissel",
+  "es": "Arrocero",
+  "ru": "Овсянковый кардинальчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spiza americana",
+ "sci_name_aco": "Spiza americana",
+ "sounds": [],
+ "taxon_order": 34627.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 31.259999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dickcissel%20%288925583702%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dickcissel%20Full%20Frame%20%287165366039%29.jpg"
+ ]
+}

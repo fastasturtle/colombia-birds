@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grcfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-crinitus",
+ "ids": {
+  "avibase": "8D6D5F2BEA07A0CF",
+  "birdbase": 18157,
+  "gbif": 2483597,
+  "inaturalist": "16028",
+  "iucn": "22700433",
+  "wikidata": "Q1052057",
+  "xeno_canto": "Myiarchus-crinitus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_crinitus",
+  "ebird": "https://ebird.org/species/grcfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16028",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_crested_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_crinitus",
+   "ru": "https://ru.wikipedia.org/wiki/Хохлатый_желтобрюхий_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+crinitus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Crested Flycatcher",
+  "en_aco": "Great Crested Flycatcher",
+  "es": "Copetón Viajero",
+  "ru": "Хохлатый миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus crinitus",
+ "sci_name_aco": "Myiarchus crinitus",
+ "sounds": [],
+ "taxon_order": 17334.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 1850,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 33.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20crinitus%20SamSmith%20Park%20Toronto.jpg"
+ ]
+}

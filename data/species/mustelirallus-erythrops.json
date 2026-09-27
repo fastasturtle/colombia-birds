@@ -1,0 +1,95 @@
+{
+ "authorship": "(Sclater, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pabcra",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Mustelirallus",
+ "id": "mustelirallus-erythrops",
+ "ids": {
+  "avibase": "993DE54F66379B72",
+  "birdbase": 5703,
+  "gbif": 8418047,
+  "inaturalist": "528",
+  "iucn": "22692760",
+  "wikidata": "Q1274289",
+  "xeno_canto": "Neocrex-erythrops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neocrex_erythrops",
+  "ebird": "https://ebird.org/species/pabcra",
+  "inaturalist": "https://www.inaturalist.org/taxa/528",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Paint-billed_crake",
+   "es": "https://es.wikipedia.org/wiki/Mustelirallus_erythrops",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mustelirallus+erythrops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Paint-billed Crake",
+  "en_aco": "Paint-billed Crake",
+  "es": "Polluela Picopinta",
+  "ru": "Желтоклювый туру"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Mustelirallus erythrops",
+ "sci_name_aco": "Mustelirallus erythrops",
+ "sounds": [],
+ "taxon_order": 5429.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3375,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 55.833333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PorzanaErythropsSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Neocrex%20erythrops%20-%20Paint-billed%20Crake%3B%20Arari%3B%20Maranh%C3%A3o%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baymac",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ara",
+ "id": "ara-ararauna",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13521,
+  "gbif": 5959231,
+  "inaturalist": "19018",
+  "iucn": "22685539",
+  "wikidata": "Q205477",
+  "xeno_canto": "Ara-ararauna"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ara_ararauna",
+  "ebird": "https://ebird.org/species/baymac",
+  "inaturalist": "https://www.inaturalist.org/taxa/19018",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-and-yellow_macaw",
+   "es": "https://es.wikipedia.org/wiki/Ara_ararauna",
+   "ru": "https://ru.wikipedia.org/wiki/Сине-жёлтый_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ara+ararauna"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-and-yellow Macaw",
+  "en_aco": "Blue-and-yellow Macaw",
+  "es": "Guacamayo Azuliamarillo",
+  "ru": "Сине-жёлтый ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ara ararauna",
+ "sci_name_aco": "Ara ararauna",
+ "sounds": [],
+ "taxon_order": 13140.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 1105,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%20ararauna%20Luc%20Viatour.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%20ararauna%20%28Costa%20Rica%29.jpg"
+ ]
+}

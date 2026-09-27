@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ycnher",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Nyctanassa",
+ "id": "nyctanassa-violacea",
+ "ids": {
+  "avibase": "C677249004161A94",
+  "birdbase": 7926,
+  "gbif": 2480953,
+  "inaturalist": "4999",
+  "iucn": "22697203",
+  "wikidata": "Q764282",
+  "xeno_canto": "Nyctanassa-violacea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctanassa_violacea",
+  "ebird": "https://ebird.org/species/ycnher",
+  "inaturalist": "https://www.inaturalist.org/taxa/4999",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-crowned_night_heron",
+   "es": "https://es.wikipedia.org/wiki/Nyctanassa_violacea",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоголовая_кваква"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctanassa+violacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-crowned Night Heron",
+  "en_aco": "Yellow-crowned Night-Heron",
+  "es": "Martinete Coronado",
+  "ru": "Крабовая кваква"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Nyctanassa violacea",
+ "sci_name_aco": "Nyctanassa violacea",
+ "sounds": [],
+ "taxon_order": 7591.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 703.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-crowned%20Night-heron2.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax%20violaceus%20%28at%20beach%29.jpg"
+ ]
+}

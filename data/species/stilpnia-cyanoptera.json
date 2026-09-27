@@ -1,0 +1,90 @@
+{
+ "authorship": "(Swainson, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkhtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Stilpnia",
+ "id": "stilpnia-cyanoptera",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37833,
+  "gbif": 10969159,
+  "inaturalist": "718985",
+  "iucn": null,
+  "wikidata": "Q27637962",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bkhtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/718985",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+cyanoptera"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Black-headed Tanager",
+  "en_aco": "Black-headed Tanager",
+  "es": "Tangara Cabecinegra",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stilpnia cyanoptera",
+ "sci_name_aco": "Stilpnia cyanoptera",
+ "sounds": [],
+ "taxon_order": 34994.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 21.775,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

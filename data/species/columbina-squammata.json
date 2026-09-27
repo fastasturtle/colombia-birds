@@ -1,0 +1,96 @@
+{
+ "authorship": "(R. Lesson, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scadov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-squammata",
+ "ids": {
+  "avibase": "26085D755AE75E42",
+  "birdbase": 4870,
+  "gbif": 2495888,
+  "inaturalist": "3564",
+  "iucn": "22690768",
+  "wikidata": "Q1259412",
+  "xeno_canto": "Columbina-squammata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_squammata",
+  "ebird": "https://ebird.org/species/scadov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3564",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaled_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_squammata",
+   "ru": "https://ru.wikipedia.org/wiki/Чешуйчатая_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+squammata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaled Dove",
+  "en_aco": "Scaled Dove",
+  "es": "Tortolita Escamosa",
+  "ru": "Чешуйчатая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina squammata",
+ "sci_name_aco": "Columbina squammata",
+ "sounds": [],
+ "taxon_order": 2278.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 54,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tortolita%20Maraquita%20o%20Tortolita%20Escamosa%28Columbina%20squammata%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columbina%20squammata%20-Bonito%2C%20Mato%20Grosso%20do%20Sul%2C%20Brazil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columbina%20squammata%20ridgwayi.jpg"
+ ]
+}

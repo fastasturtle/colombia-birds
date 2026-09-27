@@ -1,0 +1,93 @@
+{
+ "authorship": "(Jacquin, 1784)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baepig2",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-corensis",
+ "ids": {
+  "avibase": "A87AEB7804A58479",
+  "birdbase": 4529,
+  "gbif": 2495331,
+  "inaturalist": "3084",
+  "iucn": "22690247",
+  "wikidata": "Q177222",
+  "xeno_canto": "Patagioenas-corensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_corensis",
+  "ebird": "https://ebird.org/species/baepig2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3084",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bare-eyed_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_corensis",
+   "ru": "https://ru.wikipedia.org/wiki/Гологлазый_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+corensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bare-eyed Pigeon",
+  "en_aco": "Bare-eyed Pigeon",
+  "es": "Paloma Aliblanca",
+  "ru": "Гологлазый голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas corensis",
+ "sci_name_aco": "Patagioenas corensis",
+ "sounds": [],
+ "taxon_order": 1952.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 272.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bare-eyed%20pigeon.jpg"
+ ]
+}

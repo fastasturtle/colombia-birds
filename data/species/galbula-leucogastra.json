@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brojac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-leucogastra",
+ "ids": {
+  "avibase": "EB348872475925EA",
+  "birdbase": 10966,
+  "gbif": 5228243,
+  "inaturalist": "1482",
+  "iucn": "22682218",
+  "wikidata": "Q1264459",
+  "xeno_canto": "Galbula-leucogastra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_leucogastra",
+  "ebird": "https://ebird.org/species/brojac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1482",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronzy_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_leucogastra",
+   "ru": "https://ru.wikipedia.org/wiki/Бронзовая_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+leucogastra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronzy Jacamar",
+  "en_aco": "Bronzy Jacamar",
+  "es": "Jacamará Bronceado",
+  "ru": "Бронзовая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula leucogastra",
+ "sci_name_aco": "Galbula leucogastra",
+ "sounds": [],
+ "taxon_order": 10515.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purplish%20Jacamar%20%28Galbula%20leucogastra%29.jpg"
+ ]
+}

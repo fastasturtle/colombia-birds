@@ -1,0 +1,94 @@
+{
+ "authorship": "(Wied-Neuwied, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pilfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Coryphospingus",
+ "id": "coryphospingus-pileatus",
+ "ids": {
+  "avibase": "FBCA67B2F7857074",
+  "birdbase": 37138,
+  "gbif": 2491988,
+  "inaturalist": "10311",
+  "iucn": "22723047",
+  "wikidata": "Q2668333",
+  "xeno_canto": "Coryphospingus-pileatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coryphospingus_pileatus",
+  "ebird": "https://ebird.org/species/pilfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10311",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey_pileated_finch",
+   "es": "https://es.wikipedia.org/wiki/Coryphospingus_pileatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coryphospingus+pileatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pileated Finch",
+  "en_aco": "Pileated Finch",
+  "es": "Soldadito Capirotado",
+  "ru": "Серая арагуира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Coryphospingus pileatus",
+ "sci_name_aco": "Coryphospingus pileatus",
+ "sounds": [],
+ "taxon_order": 35633.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coryphospingus%20pileatus%20-%20Pileated%20Finch%20%28female%29%3B%20Riachuelo%2C%20Rio%20Grande%20do%20Norte%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coryphospingus%20pileatus%20-%20Grey-pileated%20Finch%20%28male%29%3B%20Juazeiro%2C%20Bahia%2C%20Brazil.jpg"
+ ]
+}

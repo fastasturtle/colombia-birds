@@ -1,0 +1,96 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1870)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruhcha1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-erythroptera",
+ "ids": {
+  "avibase": "7B8E0E0F652CC418",
+  "birdbase": 644,
+  "gbif": 5229435,
+  "inaturalist": "2086",
+  "iucn": "22678318",
+  "wikidata": "Q1261192",
+  "xeno_canto": "Ortalis-erythroptera"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_erythroptera",
+  "ebird": "https://ebird.org/species/ruhcha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2086",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-headed_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_erythroptera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+erythroptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-headed Chachalaca",
+  "en_aco": "Rufous-headed Chachalaca",
+  "es": "Chachalaca Cabecirrufa",
+  "ru": "Красноголовая чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis erythroptera",
+ "sci_name_aco": "Ortalis erythroptera",
+ "sounds": [],
+ "taxon_order": 955.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1390,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 632.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-headed%20Chachalaca.jpg"
+ ]
+}

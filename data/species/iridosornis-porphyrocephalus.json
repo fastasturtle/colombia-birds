@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pumtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Iridosornis",
+ "id": "iridosornis-porphyrocephalus",
+ "ids": {
+  "avibase": "7999BD70D23F681E",
+  "birdbase": 37633,
+  "gbif": 2488652,
+  "inaturalist": "72958",
+  "iucn": "22722659",
+  "wikidata": "Q778207",
+  "xeno_canto": "Iridosornis-porphyrocephalus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Iridosornis_porphyrocephalus",
+  "ebird": "https://ebird.org/species/pumtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72958",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purplish-mantled_tanager",
+   "es": "https://es.wikipedia.org/wiki/Iridosornis_porphyrocephalus",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурная_иридосорния"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Iridosornis+porphyrocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purplish-mantled Tanager",
+  "en_aco": "Purplish-mantled Tanager",
+  "es": "Tangara Capiazul",
+  "ru": "Фиолетовая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Iridosornis porphyrocephalus",
+ "sci_name_aco": "Iridosornis porphyrocephalus",
+ "sounds": [],
+ "taxon_order": 34907.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2700,
+   "min": 1500,
+   "min_extreme": 750
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 22.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iridosornis%20porphyrocephalus.jpg"
+ ]
+}

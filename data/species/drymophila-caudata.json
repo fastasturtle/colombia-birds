@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lotant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Drymophila",
+ "id": "drymophila-caudata",
+ "ids": {
+  "avibase": "4B4906E5BD590EFA",
+  "birdbase": 16220,
+  "gbif": 5230840,
+  "inaturalist": "15864",
+  "iucn": "103658659",
+  "wikidata": "Q910102",
+  "xeno_canto": "Drymophila-caudata"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Drymophila_caudata",
+  "ebird": "https://ebird.org/species/lotant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15864",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/East_Andean_antbird",
+   "es": "https://es.wikipedia.org/wiki/Drymophila_caudata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Drymophila+caudata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "East Andean Antbird",
+  "en_aco": "East Andean Antbird",
+  "es": "Tiluchí de Santander",
+  "ru": "Длиннохвостая муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Drymophila caudata",
+ "sci_name_aco": "Drymophila caudata",
+ "sounds": [],
+ "taxon_order": 13871.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 2700,
+   "min": 1200,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 11.975,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/FormicivoraCaudataWolf%20%28cropped%29.jpg"
+ ]
+}

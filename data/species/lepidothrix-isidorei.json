@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blrman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Lepidothrix",
+ "id": "lepidothrix-isidorei",
+ "ids": {
+  "avibase": "7BAF5701D78D0C2A",
+  "birdbase": 18400,
+  "gbif": 5230521,
+  "inaturalist": "14318",
+  "iucn": "22701056",
+  "wikidata": "Q570129",
+  "xeno_canto": "Lepidothrix-isidorei"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lepidothrix_isidorei",
+  "ebird": "https://ebird.org/species/blrman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14318",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-rumped_manakin",
+   "es": "https://es.wikipedia.org/wiki/Lepidothrix_isidorei",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lepidothrix+isidorei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-rumped Manakin",
+  "en_aco": "Blue-rumped Manakin",
+  "es": "Saltarín Lomiazul",
+  "ru": "Синепоясничный манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lepidothrix isidorei",
+ "sci_name_aco": "Lepidothrix isidorei",
+ "sounds": [],
+ "taxon_order": 15755.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-rumped%20Manakin%20-%20South%20Ecuador%20S4E1232%20%2816658666718%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lepidothrix%20isidorei%20%28female%29%20-NBII%20Image%20Gallery-a00295.jpg"
+ ]
+}

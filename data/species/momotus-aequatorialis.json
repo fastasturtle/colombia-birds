@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "higmot1",
+ "family": {
+  "code": "momoti1",
+  "en": "Motmots",
+  "sci": "Momotidae"
+ },
+ "genus": "Momotus",
+ "id": "momotus-aequatorialis",
+ "ids": {
+  "avibase": "6CAC15FBBC46544B",
+  "birdbase": 10818,
+  "gbif": 2475311,
+  "inaturalist": "144645",
+  "iucn": "22729189",
+  "wikidata": "Q10428555",
+  "xeno_canto": "Momotus-aequatorialis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Momotus_aequatorialis",
+  "ebird": "https://ebird.org/species/higmot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144645",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_motmot",
+   "es": "https://es.wikipedia.org/wiki/Momotus_aequatorialis",
+   "ru": "https://ru.wikipedia.org/wiki/Momotus_aequatorialis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Momotus+aequatorialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Motmot",
+  "en_aco": "Andean Motmot",
+  "es": "Momoto Serrano",
+  "ru": "Горный момот"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Momotus aequatorialis",
+ "sci_name_aco": "Momotus aequatorialis",
+ "sounds": [],
+ "taxon_order": 9880.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 162.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MomotusAequatorialisKeulemans.jpg"
+ ]
+}

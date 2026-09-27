@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbcon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-sitticolor",
+ "ids": {
+  "avibase": "EF7A953807743DA5",
+  "birdbase": 37432,
+  "gbif": 5230603,
+  "inaturalist": "10004",
+  "iucn": "22722108",
+  "wikidata": "Q1588614",
+  "xeno_canto": "Conirostrum-sitticolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conirostrum_sitticolor",
+  "ebird": "https://ebird.org/species/blbcon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10004",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-backed_conebill",
+   "es": "https://es.wikipedia.org/wiki/Conirostrum_sitticolor",
+   "ru": "https://ru.wikipedia.org/wiki/Синеспинный_остроклювый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+sitticolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-backed Conebill",
+  "en_aco": "Blue-backed Conebill",
+  "es": "Conirrostro Dorsiazul",
+  "ru": "Синеспинный конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum sitticolor",
+ "sci_name_aco": "Conirostrum sitticolor",
+ "sounds": [],
+ "taxon_order": 35250.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 3800,
+   "min": 2500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.233333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Conirostrum%20sitticolor%20-%20Conirrostro%20encapuchado%20-%20Blue-backed%20Conebill%20%288730321476%29.jpg"
+ ]
+}

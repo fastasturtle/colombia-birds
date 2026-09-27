@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lesson, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "audshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Puffinus",
+ "id": "puffinus-lherminieri",
+ "ids": {
+  "avibase": "06C36D41443C29AF",
+  "birdbase": 7590,
+  "gbif": 5229361,
+  "inaturalist": "201450",
+  "iucn": "45959182",
+  "wikidata": "Q1262671",
+  "xeno_canto": "Puffinus-lherminieri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Puffinus_lherminieri",
+  "ebird": "https://ebird.org/species/audshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/201450",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sargasso_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Puffinus_lherminieri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Puffinus+lherminieri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sargasso Shearwater",
+  "en_aco": "Audubon's Shearwater",
+  "es": "Pardela de Audubon",
+  "ru": "Темноспинный буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Puffinus lherminieri",
+ "sci_name_aco": "Puffinus lherminieri",
+ "sounds": [],
+ "taxon_order": 7247.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 209,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Audobon%27s%20Shearwater.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Puffinus%20lherminieri%20154209340.jpg"
+ ]
+}

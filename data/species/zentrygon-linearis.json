@@ -1,0 +1,91 @@
+{
+ "authorship": "(Prévost, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "liqdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Zentrygon",
+ "id": "zentrygon-linearis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 5019,
+  "gbif": 7671500,
+  "inaturalist": "367489",
+  "iucn": "22690946",
+  "wikidata": "Q27074690",
+  "xeno_canto": "Zentrygon-linearis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zentrygon_linearis",
+  "ebird": "https://ebird.org/species/liqdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367489",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lined_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Geotrygon_linearis",
+   "ru": "https://ru.wikipedia.org/wiki/Бледнолицый_земляной_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zentrygon+linearis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lined Quail-Dove",
+  "en_aco": "Lined Quail-Dove",
+  "es": "Paloma Perdiz Embridada",
+  "ru": "Бледнолицая перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Zentrygon linearis",
+ "sci_name_aco": "Zentrygon linearis",
+ "sounds": [],
+ "taxon_order": 2380.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 267.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zentrygon%20linearis.jpg"
+ ]
+}

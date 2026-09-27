@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yelpip2",
+ "family": {
+  "code": "motaci1",
+  "en": "Wagtails and Pipits",
+  "sci": "Motacillidae"
+ },
+ "genus": "Anthus",
+ "id": "anthus-chii",
+ "ids": {
+  "avibase": "5CAA1EA8EE7B45DB",
+  "birdbase": 34124,
+  "gbif": 10884972,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q107055637",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/yelpip2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthus+chii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellowish Pipit",
+  "en_aco": "Yellowish Pipit",
+  "es": "Bisbita Amarillento",
+  "ru": "Саванный конёк"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anthus chii",
+ "sci_name_aco": "Anthus chii",
+ "sounds": [],
+ "taxon_order": 31890.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 15.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anthus%20chii%20-%20Parque%20Estadual%20da%20Serra%20do%20Mar%20-%20iNaturalist%20109649815%20%283%29.jpeg"
+ ]
+}

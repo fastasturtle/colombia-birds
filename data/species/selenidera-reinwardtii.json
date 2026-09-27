@@ -1,0 +1,92 @@
+{
+ "authorship": "(Wagler, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goctou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Selenidera",
+ "id": "selenidera-reinwardtii",
+ "ids": {
+  "avibase": "6AAA613244629521",
+  "birdbase": 11240,
+  "gbif": 2478761,
+  "inaturalist": "18509",
+  "iucn": "22727100",
+  "wikidata": "Q1266353",
+  "xeno_canto": "Selenidera-reinwardtii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Selenidera_reinwardtii",
+  "ebird": "https://ebird.org/species/goctou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18509",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-collared_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Selenidera_reinwardtii",
+   "ru": "https://ru.wikipedia.org/wiki/Золотошейная_селенидера"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Selenidera+reinwardtii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-collared Toucanet",
+  "en_aco": "Golden-collared Toucanet",
+  "es": "Tucanete de Reinwardt",
+  "ru": "Золотошейний туканчик"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Selenidera reinwardtii",
+ "sci_name_aco": "Selenidera reinwardtii",
+ "sounds": [],
+ "taxon_order": 10916.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 162.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Selenidera%20reinwardtii%20langsdorfii%20-%20Golden-collared%20toucanet%20%28male%29%3B%20Careiro%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Selenidera%20reinwardtii%20langsdorfii%20-%20Golden-collared%20toucanet%20%28female%29%3B%20Careiro%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

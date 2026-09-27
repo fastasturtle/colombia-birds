@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ructho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chalcostigma",
+ "id": "chalcostigma-ruficeps",
+ "ids": {
+  "avibase": "8A7C972FD6867F36",
+  "birdbase": 3008,
+  "gbif": 2476804,
+  "inaturalist": "5899",
+  "iucn": "22688024",
+  "wikidata": "Q1263925",
+  "xeno_canto": "Chalcostigma-ruficeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chalcostigma_ruficeps",
+  "ebird": "https://ebird.org/species/ructho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5899",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-capped_thornbill",
+   "es": "https://es.wikipedia.org/wiki/Chalcostigma_ruficeps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chalcostigma+ruficeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-capped Thornbill",
+  "en_aco": "Rufous-capped Thornbill",
+  "es": "Colibrí Capirrufo",
+  "ru": "Красношапочный радужник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chalcostigma ruficeps",
+ "sci_name_aco": "Chalcostigma ruficeps",
+ "sounds": [],
+ "taxon_order": 4521.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 3800,
+   "min": 1400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.6666666666666665,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chalcostigma%20ruficeps%20252645072.jpg"
+ ]
+}

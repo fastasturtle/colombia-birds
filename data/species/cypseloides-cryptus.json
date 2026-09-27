@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.T. Zimmer, 1945)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcswi1",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Cypseloides",
+ "id": "cypseloides-cryptus",
+ "ids": {
+  "avibase": "0770CE133D46975C",
+  "birdbase": 2264,
+  "gbif": 2477280,
+  "inaturalist": "6671",
+  "iucn": "22686464",
+  "wikidata": "Q1262062",
+  "xeno_canto": "Cypseloides-cryptus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/whcswi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6671",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chinned_swift",
+   "es": "https://es.wikipedia.org/wiki/Cypseloides_cryptus",
+   "ru": "https://ru.wikipedia.org/wiki/Белогорлый_американский_стриж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cypseloides+cryptus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chinned Swift",
+  "en_aco": "White-chinned Swift",
+  "es": "Vencejo Barbiblanco",
+  "ru": "Белобородый стриж"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Cypseloides cryptus",
+ "sci_name_aco": "Cypseloides cryptus",
+ "sounds": [],
+ "taxon_order": 3834.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "savanna",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 35.95,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cypseloides%20cryptus%20-%20Paulo%20Mascaretti%20-%20516283675.jpeg"
+ ]
+}

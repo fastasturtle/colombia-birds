@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crbtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ramphocelus",
+ "id": "ramphocelus-dimidiatus",
+ "ids": {
+  "avibase": "32121D981BB66DA0",
+  "birdbase": 37182,
+  "gbif": 2488424,
+  "inaturalist": "10057",
+  "iucn": "22722500",
+  "wikidata": "Q684954",
+  "xeno_canto": "Ramphocelus-dimidiatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphocelus_dimidiatus",
+  "ebird": "https://ebird.org/species/crbtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10057",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crimson-backed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Ramphocelus_dimidiatus",
+   "ru": "https://ru.wikipedia.org/wiki/Малиновобрюхая_расписная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphocelus+dimidiatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crimson-backed Tanager",
+  "en_aco": "Crimson-backed Tanager",
+  "es": "Tangara Dorsirroja",
+  "ru": "Колумбийский сереброклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ramphocelus dimidiatus",
+ "sci_name_aco": "Ramphocelus dimidiatus",
+ "sounds": [],
+ "taxon_order": 34820.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 27.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crimson-backed%20Tanager%20-%20Panama%20H8O8413%20%2822954596730%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crimson-backed%20Tanager%20%28Ramphocelus%20dimidiatus%29%20%288079786801%29.jpg"
+ ]
+}

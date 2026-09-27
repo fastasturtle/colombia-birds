@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "virrai",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Rallus",
+ "id": "rallus-limicola",
+ "ids": {
+  "avibase": "87705CC47B47F3FD",
+  "birdbase": 5762,
+  "gbif": 2474825,
+  "inaturalist": "243",
+  "iucn": "22692479",
+  "wikidata": "Q747837",
+  "xeno_canto": "Rallus-limicola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rallus_limicola",
+  "ebird": "https://ebird.org/species/virrai",
+  "inaturalist": "https://www.inaturalist.org/taxa/243",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Virginia_rail",
+   "es": "https://es.wikipedia.org/wiki/Rallus_limicola",
+   "ru": "https://ru.wikipedia.org/wiki/Центральноамериканский_пастушок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rallus+limicola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Virginia Rail",
+  "en_aco": "Virginia Rail",
+  "es": "Rascón de Virginia",
+  "ru": "Виргинский пастушок"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Rallus limicola",
+ "sci_name_aco": "Rallus limicola",
+ "sounds": [],
+ "taxon_order": 5297.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2370,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 83.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rallus%20limicola%20-Cloisters%20Park%2C%20Morro%20Bay%2C%20California%2C%20USA-8%20%281%29.jpg"
+ ]
+}

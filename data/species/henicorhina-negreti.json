@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.G.W. Salaman, Coopmans, T.M. Donegan, M. Mulligan, A. Cortes, S.L. Hilty & L.A. Ortega, 2003)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "munwow1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Henicorhina",
+ "id": "henicorhina-negreti",
+ "ids": {
+  "avibase": "228BABC3ED6D68CF",
+  "birdbase": 29354,
+  "gbif": 5789241,
+  "inaturalist": "72918",
+  "iucn": "22733110",
+  "wikidata": "Q2225214",
+  "xeno_canto": "Henicorhina-negreti"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Henicorhina_negreti",
+  "ebird": "https://ebird.org/species/munwow1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72918",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Munchique_wood_wren",
+   "es": "https://es.wikipedia.org/wiki/Henicorhina_negreti",
+   "ru": "https://ru.wikipedia.org/wiki/Henicorhina_negreti"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Henicorhina+negreti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Munchique Wood-Wren",
+  "en_aco": "Munchique Wood-Wren",
+  "es": "Cucarachero de Munchique",
+  "ru": "Лесной крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Henicorhina negreti",
+ "sci_name_aco": "Henicorhina negreti",
+ "sounds": [],
+ "taxon_order": 27629.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2640,
+   "max_extreme": null,
+   "min": 2250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 15.98,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Munchique%20Wood-Wren%20-%20Colombia%20S4E3862%20%2817166668302%29%20%28cropped%29.jpg"
+ ]
+}

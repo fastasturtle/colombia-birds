@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-dea",
+ "ids": {
+  "avibase": "FBD3D3904F65DD7B",
+  "birdbase": 10969,
+  "gbif": 5228256,
+  "inaturalist": "1489",
+  "iucn": "22682221",
+  "wikidata": "Q942459",
+  "xeno_canto": "Galbula-dea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_dea",
+  "ebird": "https://ebird.org/species/parjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1489",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Paradise_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_dea",
+   "ru": "https://ru.wikipedia.org/wiki/Райская_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+dea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Paradise Jacamar",
+  "en_aco": "Paradise Jacamar",
+  "es": "Jacamará Colilargo",
+  "ru": "Райская якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula dea",
+ "sci_name_aco": "Galbula dea",
+ "sounds": [],
+ "taxon_order": 10516.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 27.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbula%20dea%20-%20Paradise%20Jacamar.JPG"
+ ]
+}

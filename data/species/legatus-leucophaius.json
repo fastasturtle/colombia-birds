@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pirfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Legatus",
+ "id": "legatus-leucophaius",
+ "ids": {
+  "avibase": "9971C83EE46CC66C",
+  "birdbase": 17974,
+  "gbif": 2482940,
+  "inaturalist": "17312",
+  "iucn": "22700596",
+  "wikidata": "Q1093948",
+  "xeno_canto": "Legatus-leucophaius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Legatus_leucophaius",
+  "ebird": "https://ebird.org/species/pirfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17312",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Piratic_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Legatus_leucophaius",
+   "ru": "https://ru.wikipedia.org/wiki/Тиранн-разбойник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Legatus+leucophaius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Piratic Flycatcher",
+  "en_aco": "Piratic Flycatcher",
+  "es": "Mosquero Pirata",
+  "ru": "Тиранн-разбойник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Legatus leucophaius",
+ "sci_name_aco": "Legatus leucophaius",
+ "sounds": [],
+ "taxon_order": 17440.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1850,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 22.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piratic%20flycatcher.jpg"
+ ]
+}

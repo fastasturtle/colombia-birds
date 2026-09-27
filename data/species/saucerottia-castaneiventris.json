@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1856)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Saucerottia",
+ "id": "saucerottia-castaneiventris",
+ "ids": {
+  "avibase": "73879DB010C659DD",
+  "birdbase": 3581,
+  "gbif": 11077667,
+  "inaturalist": null,
+  "iucn": "22687614",
+  "wikidata": "Q790679",
+  "xeno_canto": "Amazilia-castaneiventris"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazilia_castaneiventris",
+  "ebird": "https://ebird.org/species/chbhum1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-bellied_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Saucerottia_castaneiventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saucerottia+castaneiventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-bellied Hummingbird",
+  "en_aco": "Chestnut-bellied Hummingbird",
+  "es": "Amazilia Ventricastaña",
+  "ru": "Каштановобрюхая амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Saucerottia castaneiventris",
+ "sci_name_aco": "Saucerottia castaneiventris",
+ "sounds": [],
+ "taxon_order": 5082.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2200,
+   "min": 500,
+   "min_extreme": 120
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazilia%20castaneiventris%20Amazilia%20buchicasta%C3%B1a%20Chestnut-bellied%20Hummingbird%20%288771904965%29.jpg"
+ ]
+}

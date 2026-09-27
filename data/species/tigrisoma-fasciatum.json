@@ -1,0 +1,93 @@
+{
+ "authorship": "(Such, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "father1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Tigrisoma",
+ "id": "tigrisoma-fasciatum",
+ "ids": {
+  "avibase": "4F6C59889D899AE7",
+  "birdbase": 7882,
+  "gbif": 2480868,
+  "inaturalist": "5050",
+  "iucn": "22697264",
+  "wikidata": "Q248721",
+  "xeno_canto": "Tigrisoma-fasciatum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tigrisoma_fasciatum",
+  "ebird": "https://ebird.org/species/father1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5050",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fasciated_tiger_heron",
+   "es": "https://es.wikipedia.org/wiki/Tigrisoma_fasciatum",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатая_тигровая_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tigrisoma+fasciatum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fasciated Tiger-Heron",
+  "en_aco": "Fasciated Tiger-Heron",
+  "es": "Avetigre Oscura",
+  "ru": "Полосатая тигровая выпь"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Tigrisoma fasciatum",
+ "sci_name_aco": "Tigrisoma fasciatum",
+ "sounds": [],
+ "taxon_order": 7541.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 3300,
+   "min": 300,
+   "min_extreme": 180
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 850,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tigrisoma%20fasciatum%20-%20....Christopher%20Borges....%20-%20377943834.jpeg"
+ ]
+}

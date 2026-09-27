@@ -1,0 +1,93 @@
+{
+ "authorship": "(O'Reilly, B 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Ardenna",
+ "id": "ardenna-gravis",
+ "ids": {
+  "avibase": "8B879DFA2AFB1481",
+  "birdbase": 7570,
+  "gbif": 8596590,
+  "inaturalist": "475120",
+  "iucn": "22698201",
+  "wikidata": "Q27074609",
+  "xeno_canto": "Ardenna-gravis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardenna_gravis",
+  "ebird": "https://ebird.org/species/greshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/475120",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Ardenna_gravis",
+   "ru": "https://ru.wikipedia.org/wiki/Большой_пестробрюхий_буревестник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardenna+gravis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Shearwater",
+  "en_aco": "Great Shearwater",
+  "es": "Pardela Capirotada",
+  "ru": "Пестробрюхий буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Ardenna gravis",
+ "sci_name_aco": "Ardenna gravis",
+ "sounds": [],
+ "taxon_order": 7207.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "grassland",
+   "sea"
+  ],
+  "mass_g": 832.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/131%20-%20GREAT%20SHEARWATER%20%289-15-2918%29%20MAS%20pelagic%20trip%2C%20out%20of%20bar%20harbor%2C%20me%20-37%20%2842977042330%29.jpg"
+ ]
+}

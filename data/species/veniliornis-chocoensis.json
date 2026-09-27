@@ -1,0 +1,89 @@
+{
+ "authorship": "(Todd, 1919)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chowoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Veniliornis",
+ "id": "veniliornis-chocoensis",
+ "ids": {
+  "avibase": "BFB999B16D732B68",
+  "birdbase": 12201,
+  "gbif": 10701057,
+  "inaturalist": "18030",
+  "iucn": "22681215",
+  "wikidata": "Q1271284",
+  "xeno_canto": "Veniliornis-chocoensis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/chowoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18030",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chocó_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Veniliornis_chocoensis",
+   "ru": "https://ru.wikipedia.org/wiki/Veniliornis_chocoensis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Veniliornis+chocoensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Woodpecker",
+  "en_aco": "Choco Woodpecker",
+  "es": "Carpintero del Chocó",
+  "ru": "Чокский дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Veniliornis chocoensis",
+ "sci_name_aco": "Dryobates chocoensis",
+ "sounds": [],
+ "taxon_order": 11513.0,
+ "taxonomy_note": "ACO/SACC lists this as Dryobates chocoensis; eBird/Clements uses Veniliornis chocoensis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 30,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

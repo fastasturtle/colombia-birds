@@ -1,0 +1,94 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dstkne",
+ "family": {
+  "code": "burhin2",
+  "en": "Thick-knees",
+  "sci": "Burhinidae"
+ },
+ "genus": "Hesperoburhinus",
+ "id": "hesperoburhinus-bistriatus",
+ "ids": {
+  "avibase": "984EC0A015EE6B0A",
+  "birdbase": 6351,
+  "gbif": 2482101,
+  "inaturalist": "4924",
+  "iucn": "22693594",
+  "wikidata": "Q541424",
+  "xeno_canto": "Burhinus-bistriatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Burhinus_bistriatus",
+  "ebird": "https://ebird.org/species/dstkne",
+  "inaturalist": "https://www.inaturalist.org/taxa/4924",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Double-striped_thick-knee",
+   "es": "https://es.wikipedia.org/wiki/Hesperoburhinus_bistriatus",
+   "ru": "https://ru.wikipedia.org/wiki/Доминиканская_авдотка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hesperoburhinus+bistriatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Double-striped Thick-knee",
+  "en_aco": "Double-striped Thick-knee",
+  "es": "Alcaraván Venezolano",
+  "ru": "Двухполосая авдотка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Hesperoburhinus bistriatus",
+ "sci_name_aco": "Burhinus bistriatus",
+ "sounds": [],
+ "taxon_order": 5734.0,
+ "taxonomy_note": "ACO/SACC lists this as Burhinus bistriatus; eBird/Clements uses Hesperoburhinus bistriatus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 730.6666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Burhinus%20bistriatus%20Alcarav%C3%A1n%20Venezolano%20Double-striped%20Thick-Knee%20%2816153130620%29.jpg"
+ ]
+}

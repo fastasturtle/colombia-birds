@@ -1,0 +1,90 @@
+{
+ "authorship": "(Sparrman, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plaxen4",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Xenops",
+ "id": "xenops-minutus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 14916,
+  "gbif": 5230220,
+  "inaturalist": "719088",
+  "iucn": null,
+  "wikidata": "Q27616848",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/plaxen4",
+  "inaturalist": "https://www.inaturalist.org/taxa/719088",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+minutus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Atlantic Plain-Xenops",
+  "en_aco": "Plain Xenops",
+  "es": "Picolezna Gorjiblanco",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xenops minutus",
+ "sci_name_aco": "Xenops minutus",
+ "sounds": [],
+ "taxon_order": 14985.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 10.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "noccur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Nothocrax",
+ "id": "nothocrax-urumutum",
+ "ids": {
+  "avibase": "B4CC6C9FCD5671A1",
+  "birdbase": 738,
+  "gbif": 2482190,
+  "inaturalist": "2113",
+  "iucn": "22678461",
+  "wikidata": "Q788509",
+  "xeno_canto": "Nothocrax-urumutum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nothocrax_urumutum",
+  "ebird": "https://ebird.org/species/noccur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2113",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Nocturnal_curassow",
+   "es": "https://es.wikipedia.org/wiki/Nothocrax_urumutum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nothocrax+urumutum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Nocturnal Curassow",
+  "en_aco": "Nocturnal Curassow",
+  "es": "Paují Nocturno",
+  "ru": "Красный гокко"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Nothocrax urumutum",
+ "sci_name_aco": "Nothocrax urumutum",
+ "sounds": [],
+ "taxon_order": 919.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 850,
+   "max_extreme": 1480,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 1368,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nothocrax%20urumutum%20-head%20-zoo-8a.jpg"
+ ]
+}

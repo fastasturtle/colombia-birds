@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1878)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bbsfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-atrirostris",
+ "ids": {
+  "avibase": "D57B98B94EE0F1DD",
+  "birdbase": 37261,
+  "gbif": 7969087,
+  "inaturalist": "367686",
+  "iucn": "22723532",
+  "wikidata": "Q28867624",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_atrirostris",
+  "ebird": "https://ebird.org/species/bbsfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367686",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_seed_finch",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_atrirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+atrirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Seed-Finch",
+  "en_aco": "Black-billed Seed-Finch",
+  "es": "Semillero Piquinegro",
+  "ru": "Черноклювый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila atrirostris",
+ "sci_name_aco": "Sporophila atrirostris",
+ "sounds": [],
+ "taxon_order": 35557.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "wetland"
+  ],
+  "mass_g": 26,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20atrirostris%20-%20Black-billed%20Seed-Finch%20-%20male.jpg"
+ ]
+}

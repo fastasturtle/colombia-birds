@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plcela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-cristata",
+ "ids": {
+  "avibase": "4D9DD372C1A3D74B",
+  "birdbase": 16960,
+  "gbif": 5229640,
+  "inaturalist": "16730",
+  "iucn": "22699289",
+  "wikidata": "Q906558",
+  "xeno_canto": "Elaenia-cristata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_cristata",
+  "ebird": "https://ebird.org/species/plcela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16730",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-crested_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_cristata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+cristata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-crested Elaenia",
+  "en_aco": "Plain-crested Elaenia",
+  "es": "Fiofío Crestado",
+  "ru": "Хохлатая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia cristata",
+ "sci_name_aco": "Elaenia cristata",
+ "sounds": [],
+ "taxon_order": 16686.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 18.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elaenia%20cristata%20-%20Plain-crested%20elaenia%3B%20Serra%20da%20Canastra%20National%20Park%2C%20Minas%20Gerais%2C%20Brazil.jpg"
+ ]
+}

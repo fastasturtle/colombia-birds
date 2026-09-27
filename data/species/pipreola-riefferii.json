@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gabfru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Pipreola",
+ "id": "pipreola-riefferii",
+ "ids": {
+  "avibase": "FCFD16887C5B0515",
+  "birdbase": 18244,
+  "gbif": 2486371,
+  "inaturalist": "8762",
+  "iucn": "22700782",
+  "wikidata": "Q907892",
+  "xeno_canto": "Pipreola-riefferii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipreola_riefferii",
+  "ebird": "https://ebird.org/species/gabfru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8762",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-and-black_fruiteater",
+   "es": "https://es.wikipedia.org/wiki/Pipreola_riefferii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipreola+riefferii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-and-black Fruiteater",
+  "en_aco": "Green-and-black Fruiteater",
+  "es": "Frutero Verdinegro",
+  "ru": "Ожереловый ягодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pipreola riefferii",
+ "sci_name_aco": "Pipreola riefferii",
+ "sounds": [],
+ "taxon_order": 15849.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": 3300,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 50.68,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green-and-black%20Fruiteater%20-%20Colombia%20S4E1819.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pipreola%20riefferii%20Museum%20de%20Gen%C3%A8ve.JPG"
+ ]
+}

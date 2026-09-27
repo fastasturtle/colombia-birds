@@ -1,0 +1,92 @@
+{
+ "authorship": "(Ridgway, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "audshe3",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Puffinus",
+ "id": "puffinus-subalaris",
+ "ids": {
+  "avibase": "5FE42C6D7EAEBA84",
+  "birdbase": 7603,
+  "gbif": 5843962,
+  "inaturalist": "144440",
+  "iucn": "22733979",
+  "wikidata": "Q1271926",
+  "xeno_canto": "Puffinus-subalaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Puffinus_subalaris",
+  "ebird": "https://ebird.org/species/audshe3",
+  "inaturalist": "https://www.inaturalist.org/taxa/144440",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Galápagos_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Puffinus_subalaris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Puffinus+subalaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Galapagos Shearwater",
+  "en_aco": "Galapagos Shearwater",
+  "es": "Pardela de Galápagos",
+  "ru": "Галапагосский буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Puffinus subalaris",
+ "sci_name_aco": "Puffinus subalaris",
+ "sounds": [],
+ "taxon_order": 7217.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 176.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Puffinus%20subalaris.jpg"
+ ]
+}

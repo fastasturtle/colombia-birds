@@ -1,0 +1,90 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gyhbut2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cnemoscopus",
+ "id": "cnemoscopus-rubrirostris",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37314,
+  "gbif": 2488759,
+  "inaturalist": "718204",
+  "iucn": null,
+  "wikidata": "Q27637559",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/gyhbut2",
+  "inaturalist": "https://www.inaturalist.org/taxa/718204",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cnemoscopus+rubrirostris"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Pink-billed Cnemoscopus",
+  "en_aco": "Gray-hooded Bush Tanager",
+  "es": "Tangara Piquirrubia",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cnemoscopus rubrirostris",
+ "sci_name_aco": "Cnemoscopus rubrirostris",
+ "sounds": [],
+ "taxon_order": 35432.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3350,
+   "max_extreme": null,
+   "min": 1900,
+   "min_extreme": 1460
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 19.066666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

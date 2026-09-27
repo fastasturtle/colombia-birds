@@ -1,0 +1,96 @@
+{
+ "authorship": "(Temminck, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pabspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-albescens",
+ "ids": {
+  "avibase": "346286FC47EB3519",
+  "birdbase": 15583,
+  "gbif": 2484936,
+  "inaturalist": "10999",
+  "iucn": "22702301",
+  "wikidata": "Q1266389",
+  "xeno_canto": "Synallaxis-albescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_albescens",
+  "ebird": "https://ebird.org/species/pabspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10999",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-breasted_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_albescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+albescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-breasted Spinetail",
+  "en_aco": "Pale-breasted Spinetail",
+  "es": "Pijuí Pechiblanco",
+  "ru": "Светлогрудая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis albescens",
+ "sci_name_aco": "Synallaxis albescens",
+ "sounds": [],
+ "taxon_order": 15617.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20albescens%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20albescens%201838.jpg"
+ ]
+}

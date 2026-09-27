@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stcant2",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Hylopezus",
+ "id": "hylopezus-perspicillatus",
+ "ids": {
+  "avibase": "FC8137F036EBD87D",
+  "birdbase": 16605,
+  "gbif": 2490558,
+  "inaturalist": "116934",
+  "iucn": "22703339",
+  "wikidata": "Q250651",
+  "xeno_canto": "Hylopezus-perspicillatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylopezus_perspicillatus",
+  "ebird": "https://ebird.org/species/stcant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/116934",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-chested_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Hylopezus_perspicillatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylopezus+perspicillatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-chested Antpitta",
+  "en_aco": "Streak-chested Antpitta",
+  "es": "Tororoí de Anteojos",
+  "ru": "Очковый торорой"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylopezus perspicillatus",
+ "sci_name_aco": "Hylopezus perspicillatus",
+ "sounds": [],
+ "taxon_order": 14296.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 43.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Streak-breasted%20Antpitta%20%287047751613%29%20%28cropped%29.jpg"
+ ]
+}

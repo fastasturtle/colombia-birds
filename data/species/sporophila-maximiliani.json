@@ -1,0 +1,95 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident",
+   "extinct"
+  ],
+  "status_raw": "Residente - Extinta?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "gbsfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-maximiliani",
+ "ids": {
+  "avibase": "CA594DA21F6CEA3B",
+  "birdbase": 37255,
+  "gbif": 7350166,
+  "inaturalist": "367684",
+  "iucn": "22723537",
+  "wikidata": "Q28867706",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_maximiliani",
+  "ebird": "https://ebird.org/species/gbsfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367684",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great-billed_seed_finch",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_maximiliani",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+maximiliani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great-billed Seed-Finch",
+  "en_aco": "Great-billed Seed-Finch",
+  "es": "Semillero de Maximilian",
+  "ru": "Серебристоклювый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila maximiliani",
+ "sci_name_aco": "Sporophila maximiliani",
+ "sounds": [],
+ "taxon_order": 35551.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 24.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20maximiliani%20Great-billed%20Seed-finch%20%28male%29%2C%20Mato%20Grosso%2C%20Brazil.jpg"
+ ]
+}

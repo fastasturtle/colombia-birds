@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ratcoq2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Discosura",
+ "id": "discosura-longicaudus",
+ "ids": {
+  "avibase": "831ECD375C89FE1F",
+  "birdbase": 2902,
+  "gbif": 2476905,
+  "inaturalist": "6395",
+  "iucn": "22687285",
+  "wikidata": "Q922321",
+  "xeno_canto": "Discosura-longicaudus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Discosura_longicaudus",
+  "ebird": "https://ebird.org/species/ratcoq2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6395",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Racket-tipped_thorntail",
+   "es": "https://es.wikipedia.org/wiki/Discosura_longicaudus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Discosura+longicaudus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Racket-tipped Thorntail",
+  "en_aco": "Racket-tipped Thorntail",
+  "es": "Rabudito de Raquetas",
+  "ru": "Флагохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Discosura longicaudus",
+ "sci_name_aco": "Discosura longicaudus",
+ "sounds": [],
+ "taxon_order": 4439.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": 910,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bandeirinha%20%28Discosura%20longicaudus%29%20ESEC%20de%20Caet%C3%A9s%2C%20PE.jpg"
+ ]
+}

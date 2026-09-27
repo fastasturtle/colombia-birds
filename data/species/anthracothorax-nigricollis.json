@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltman1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Anthracothorax",
+ "id": "anthracothorax-nigricollis",
+ "ids": {
+  "avibase": "36FEAD7A7F45381D",
+  "birdbase": 2850,
+  "gbif": 2476718,
+  "inaturalist": "5807",
+  "iucn": "22687130",
+  "wikidata": "Q998729",
+  "xeno_canto": "Anthracothorax-nigricollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anthracothorax_nigricollis",
+  "ebird": "https://ebird.org/species/bltman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5807",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-throated_mango",
+   "es": "https://es.wikipedia.org/wiki/Anthracothorax_nigricollis",
+   "ru": "https://ru.wikipedia.org/wiki/Черногорлый_манго"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthracothorax+nigricollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Mango",
+  "en_aco": "Black-throated Mango",
+  "es": "Mango Gorjinegro",
+  "ru": "Черногорлый манго"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Anthracothorax nigricollis",
+ "sci_name_aco": "Anthracothorax nigricollis",
+ "sounds": [],
+ "taxon_order": 4384.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 7.333333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anthracothorax%20nigricollis%201152.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20mango%20%28Anthracothorax%20nigricollis%29%20female.jpg"
+ ]
+}

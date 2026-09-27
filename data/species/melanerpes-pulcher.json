@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1870)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "beawoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Melanerpes",
+ "id": "melanerpes-pulcher",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11809,
+  "gbif": 5789377,
+  "inaturalist": "73021",
+  "iucn": "22733737",
+  "wikidata": "Q146487",
+  "xeno_canto": "Melanerpes-pulcher"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Melanerpes_pulcher",
+  "ebird": "https://ebird.org/species/beawoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73021",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Beautiful_woodpecker",
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Melanerpes+pulcher"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Beautiful Woodpecker",
+  "en_aco": "Beautiful Woodpecker",
+  "es": "Carpintero Lindo",
+  "ru": "Красивый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Melanerpes pulcher",
+ "sci_name_aco": "Melanerpes pulcher",
+ "sounds": [],
+ "taxon_order": 11158.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 50,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes%20pulcher%20nesting.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "litpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Touit",
+ "id": "touit-batavicus",
+ "ids": {
+  "avibase": "D61A8FB25ED815A2",
+  "birdbase": 13146,
+  "gbif": 2480122,
+  "inaturalist": "73509",
+  "iucn": "22686006",
+  "wikidata": "Q1057518",
+  "xeno_canto": "Touit-batavicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Touit_batavicus",
+  "ebird": "https://ebird.org/species/litpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73509",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lilac-tailed_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Touit_batavicus",
+   "ru": "https://ru.wikipedia.org/wiki/Семицветный_пестрохвостый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Touit+batavicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lilac-tailed Parrotlet",
+  "en_aco": "Lilac-tailed Parrotlet",
+  "es": "Cotorrita Sietecolores",
+  "ru": "Семицветный туети"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Touit batavicus",
+ "sci_name_aco": "Touit batavicus",
+ "sounds": [],
+ "taxon_order": 12794.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 62,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Levaillant%20Parrot%2069.jpg"
+ ]
+}

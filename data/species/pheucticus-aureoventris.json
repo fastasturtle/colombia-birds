@@ -1,0 +1,95 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbgro2",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Pheucticus",
+ "id": "pheucticus-aureoventris",
+ "ids": {
+  "avibase": "488CD1D8F05630C1",
+  "birdbase": 36624,
+  "gbif": 2490499,
+  "inaturalist": "10273",
+  "iucn": "22723810",
+  "wikidata": "Q2226721",
+  "xeno_canto": "Pheucticus-aureoventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheucticus_aureoventris",
+  "ebird": "https://ebird.org/species/blbgro2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10273",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-backed_grosbeak",
+   "es": "https://es.wikipedia.org/wiki/Pheucticus_aureoventris",
+   "ru": "https://ru.wikipedia.org/wiki/Золотобрюхий_дубоносовый_кардинал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheucticus+aureoventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-backed Grosbeak",
+  "en_aco": "Black-backed Grosbeak",
+  "es": "Picogrueso Dorsinegro",
+  "ru": "Черноспинный толстонос"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheucticus aureoventris",
+ "sci_name_aco": "Pheucticus aureoventris",
+ "sounds": [],
+ "taxon_order": 34550.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": 3700,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 58.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheucticus%20aureoventris%20Black-backed%20Grosbeak%20%28female%29%3B%20Peruibe%3B%20S%C3%A3o%20Paulo%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheucticus%20aureoventris%200.jpg"
+ ]
+}

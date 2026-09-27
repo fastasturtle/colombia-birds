@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1874)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stctre1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Thripadectes",
+ "id": "thripadectes-virgaticeps",
+ "ids": {
+  "avibase": "20B6505401EC36CF",
+  "birdbase": 15193,
+  "gbif": 2485257,
+  "inaturalist": "10781",
+  "iucn": "22702893",
+  "wikidata": "Q1261850",
+  "xeno_canto": "Thripadectes-virgaticeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thripadectes_virgaticeps",
+  "ebird": "https://ebird.org/species/stctre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10781",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-capped_treehunter",
+   "es": "https://es.wikipedia.org/wiki/Thripadectes_virgaticeps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thripadectes+virgaticeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-capped Treehunter",
+  "en_aco": "Streak-capped Treehunter",
+  "es": "Trepamusgos Cabecirrayado",
+  "ru": "Пестроголовый лесовик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thripadectes virgaticeps",
+ "sci_name_aco": "Thripadectes virgaticeps",
+ "sounds": [],
+ "taxon_order": 15240.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": 2500,
+   "min": 1300,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 57.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Streak-capped%20Treehunter%20%28Thripadectes%20virgaticeps%29%20%288079775965%29.jpg"
+ ]
+}

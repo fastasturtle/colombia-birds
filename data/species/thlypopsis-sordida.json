@@ -1,0 +1,95 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orhtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Thlypopsis",
+ "id": "thlypopsis-sordida",
+ "ids": {
+  "avibase": "B185095D38AFD28B",
+  "birdbase": 37362,
+  "gbif": 2488692,
+  "inaturalist": "9887",
+  "iucn": "22722263",
+  "wikidata": "Q1042862",
+  "xeno_canto": "Thlypopsis-sordida"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thlypopsis_sordida",
+  "ebird": "https://ebird.org/species/orhtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9887",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-headed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Thlypopsis_sordida",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thlypopsis+sordida"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-headed Tanager",
+  "en_aco": "Orange-headed Tanager",
+  "es": "Tangara Cabecinaranja",
+  "ru": "Рыжеголовая пипира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thlypopsis sordida",
+ "sci_name_aco": "Thlypopsis sordida",
+ "sounds": [],
+ "taxon_order": 34695.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thlypopsis%20sordida-2.jpg"
+ ]
+}

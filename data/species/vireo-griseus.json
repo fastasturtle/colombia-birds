@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whevir",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-griseus",
+ "ids": {
+  "avibase": "D97F93CC",
+  "birdbase": 21571,
+  "gbif": 2487413,
+  "inaturalist": "17408",
+  "iucn": "22705188",
+  "wikidata": "Q512812",
+  "xeno_canto": "Vireo-griseus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_griseus",
+  "ebird": "https://ebird.org/species/whevir",
+  "inaturalist": "https://www.inaturalist.org/taxa/17408",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-eyed_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_griseus",
+   "ru": "https://ru.wikipedia.org/wiki/Белоглазый_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+griseus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-eyed Vireo",
+  "en_aco": "White-eyed Vireo",
+  "es": "Vireo Ojiblanco",
+  "ru": "Белоглазый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo griseus",
+ "sci_name_aco": "Vireo griseus",
+ "sounds": [],
+ "taxon_order": 19165.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 11.173333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-eyed%20vireo%20blandair%205.5.21%20DSC%205168.jpg"
+ ]
+}

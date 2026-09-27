@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chfmac1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ara",
+ "id": "ara-severus",
+ "ids": {
+  "avibase": "25BE172968F96FCC",
+  "birdbase": 13524,
+  "gbif": 5959228,
+  "inaturalist": "72520",
+  "iucn": "22685577",
+  "wikidata": "Q852709",
+  "xeno_canto": "Ara-severus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ara_severus",
+  "ebird": "https://ebird.org/species/chfmac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72520",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-fronted_macaw",
+   "es": "https://es.wikipedia.org/wiki/Ara_severus",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановолобый_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ara+severus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-fronted Macaw",
+  "en_aco": "Chestnut-fronted Macaw",
+  "es": "Guacamayo Severo",
+  "ru": "Каштановолобый ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ara severus",
+ "sci_name_aco": "Ara severus",
+ "sounds": [],
+ "taxon_order": 13142.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 357.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%20severus%20-%20Guacamaya%20cariseca%20-%20Chestnut-Fronted%20Macaw%20%287503884654%29.jpg"
+ ]
+}

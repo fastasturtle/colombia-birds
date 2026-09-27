@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hermann, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "muswre2",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Cyphorhinus",
+ "id": "cyphorhinus-arada",
+ "ids": {
+  "avibase": "FAF1A28980E3F077",
+  "birdbase": 29379,
+  "gbif": 7340634,
+  "inaturalist": "72791",
+  "iucn": "22711560",
+  "wikidata": "Q63898",
+  "xeno_canto": "Cyphorhinus-arada"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyphorhinus_arada",
+  "ebird": "https://ebird.org/species/muswre2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72791",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Musician_wren",
+   "es": "https://es.wikipedia.org/wiki/Cyphorhinus_arada",
+   "ru": "https://ru.wikipedia.org/wiki/Певчий_толстоклювый_крапивник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyphorhinus+arada"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Musician Wren",
+  "en_aco": "Musician Wren",
+  "es": "Cucarachero Musical",
+  "ru": "Толстоклювый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyphorhinus arada",
+ "sci_name_aco": "Cyphorhinus arada",
+ "sounds": [],
+ "taxon_order": 27639.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 21.266666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyphorhinus%20arada%20arada%20-%20Musician%20wren%2C%20Pte.%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

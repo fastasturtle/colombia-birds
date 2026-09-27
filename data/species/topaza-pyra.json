@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fietop1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Topaza",
+ "id": "topaza-pyra",
+ "ids": {
+  "avibase": "66D9C57E74E34672",
+  "birdbase": 2666,
+  "gbif": 5228593,
+  "inaturalist": "980024",
+  "iucn": "22687756",
+  "wikidata": "Q1189971",
+  "xeno_canto": "Topaza-pyra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Topaza_pyra",
+  "ebird": "https://ebird.org/species/fietop1",
+  "inaturalist": "https://www.inaturalist.org/taxa/980024",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fiery_topaz",
+   "es": "https://es.wikipedia.org/wiki/Topaza_pyra",
+   "ru": "https://ru.wikipedia.org/wiki/Пламенный_топазовый_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Topaza+pyra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fiery Topaz",
+  "en_aco": "Fiery Topaz",
+  "es": "Colibrí Ígneo",
+  "ru": "Чернохвостый топаз"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Topaza pyra",
+ "sci_name_aco": "Topaza pyra",
+ "sounds": [],
+ "taxon_order": 4223.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 750,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Topaza%20Pyra.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Topaza%20pyra%20Fiery%20Topaz%20%28male%29%3B%20ParNa%20Serra%20do%20Divisor%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

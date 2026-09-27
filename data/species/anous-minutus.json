@@ -1,0 +1,93 @@
+{
+ "authorship": "(F. Boie, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blknod",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Anous",
+ "id": "anous-minutus",
+ "ids": {
+  "avibase": "C67DCF31BFAC9C63",
+  "birdbase": 6931,
+  "gbif": 9803471,
+  "inaturalist": "4537",
+  "iucn": "22694799",
+  "wikidata": "Q1273772",
+  "xeno_canto": "Anous-minutus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anous_minutus",
+  "ebird": "https://ebird.org/species/blknod",
+  "inaturalist": "https://www.inaturalist.org/taxa/4537",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_noddy",
+   "es": "https://es.wikipedia.org/wiki/Anous_minutus",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрная_кланяющаяся_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anous+minutus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Noddy",
+  "en_aco": "Black Noddy",
+  "es": "Tiñosa Menuda",
+  "ru": "Чёрная кланяющаяся крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Anous minutus",
+ "sci_name_aco": "Anous minutus",
+ "sounds": [],
+ "taxon_order": 6642.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 112.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anous%20minutus.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anous%20minutus%20by%20Gregg%20Yan%2002.jpg"
+ ]
+}

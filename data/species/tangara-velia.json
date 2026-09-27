@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "oprtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-velia",
+ "ids": {
+  "avibase": "81144BF759BDC78B",
+  "birdbase": 37970,
+  "gbif": 2488157,
+  "inaturalist": "9559",
+  "iucn": "22722953",
+  "wikidata": "Q2934252",
+  "xeno_canto": "Tangara-velia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_velia",
+  "ebird": "https://ebird.org/species/oprtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9559",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Opal-rumped_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_velia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+velia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Opal-rumped Tanager",
+  "en_aco": "Opal-rumped Tanager",
+  "es": "Tangara Velia",
+  "ru": "Индиговая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara velia",
+ "sci_name_aco": "Tangara velia",
+ "sounds": [],
+ "taxon_order": 35069.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 20.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Opal-rumped%20tanager%20%28Tangara%20velia%20iridina%29%20Rio%20Napo.jpg"
+ ]
+}

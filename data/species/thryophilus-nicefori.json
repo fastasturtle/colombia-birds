@@ -1,0 +1,91 @@
+{
+ "authorship": "(Meyer de Schauensee, 1946)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nicwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Thryophilus",
+ "id": "thryophilus-nicefori",
+ "ids": {
+  "avibase": "CDEAC37100D5B1B2",
+  "birdbase": 29111,
+  "gbif": 6089798,
+  "inaturalist": "144871",
+  "iucn": "22711458",
+  "wikidata": "Q27075585",
+  "xeno_canto": "Thryophilus-nicefori"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thryophilus_nicefori",
+  "ebird": "https://ebird.org/species/nicwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144871",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Niceforo's_wren",
+   "es": "https://es.wikipedia.org/wiki/Thryophilus_nicefori",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thryophilus+nicefori"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Niceforo's Wren",
+  "en_aco": "Niceforo's Wren",
+  "es": "Cucarachero de Nicéforo",
+  "ru": "Кустарниковый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thryophilus nicefori",
+ "sci_name_aco": "Thryophilus nicefori",
+ "sounds": [],
+ "taxon_order": 27530.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1850,
+   "max_extreme": null,
+   "min": 1100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "shrubland"
+  ],
+  "mass_g": 27.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Niceforo%27s%20Wren.jpg"
+ ]
+}

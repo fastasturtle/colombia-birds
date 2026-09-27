@@ -1,0 +1,94 @@
+{
+ "authorship": "(Olson & Reveal, 2009)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buwwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Vermivora",
+ "id": "vermivora-cyanoptera",
+ "ids": {
+  "avibase": "B617FE7DF96090DD",
+  "birdbase": 36138,
+  "gbif": 6093846,
+  "inaturalist": "73553",
+  "iucn": "22721610",
+  "wikidata": "Q25679108",
+  "xeno_canto": "Vermivora-cyanoptera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vermivora_cyanoptera",
+  "ebird": "https://ebird.org/species/buwwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/73553",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-winged_warbler",
+   "es": "https://es.wikipedia.org/wiki/Vermivora_cyanoptera",
+   "ru": "https://ru.wikipedia.org/wiki/Синекрылый_пеночковый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vermivora+cyanoptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-winged Warbler",
+  "en_aco": "Blue-winged Warbler",
+  "es": "Reinita Aliazul",
+  "ru": "Голубокрылая червеедка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vermivora cyanoptera",
+ "sci_name_aco": "Vermivora cyanoptera",
+ "sounds": [],
+ "taxon_order": 33957.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 8.983333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vermivora%20cyanoptera%20-North%20Berwick%2C%20Maine%2C%20USA-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-winged%20Warbler.jpg"
+ ]
+}

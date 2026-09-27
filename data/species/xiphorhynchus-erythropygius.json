@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spowoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Xiphorhynchus",
+ "id": "xiphorhynchus-erythropygius",
+ "ids": {
+  "avibase": "9FBAF86816278AB5",
+  "birdbase": 14781,
+  "gbif": 5230172,
+  "inaturalist": "11026",
+  "iucn": "103670271",
+  "wikidata": "Q909211",
+  "xeno_canto": "Xiphorhynchus-erythropygius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xiphorhynchus_erythropygius",
+  "ebird": "https://ebird.org/species/spowoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11026",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spotted_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Xiphorhynchus_erythropygius",
+   "ru": "https://ru.wikipedia.org/wiki/Пятнистый_мечеклювый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xiphorhynchus+erythropygius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Woodcreeper",
+  "en_aco": "Spotted Woodcreeper",
+  "es": "Trepatroncos Manchado",
+  "ru": "Ржавчатый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xiphorhynchus erythropygius",
+ "sci_name_aco": "Xiphorhynchus erythropygius",
+ "sounds": [],
+ "taxon_order": 14857.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2500,
+   "min": 600,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 46.56666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xiphorhynchus%20erythropygius%20-NW%20Ecuador-8.jpg"
+ ]
+}

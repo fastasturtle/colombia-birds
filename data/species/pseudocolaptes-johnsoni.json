@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lönnberg & Rendahl, 1922)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buftuf3",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Pseudocolaptes",
+ "id": "pseudocolaptes-johnsoni",
+ "ids": {
+  "avibase": "399DC57420468EDF",
+  "birdbase": 14945,
+  "gbif": 6100763,
+  "inaturalist": "628713",
+  "iucn": "22728530",
+  "wikidata": "Q2065504",
+  "xeno_canto": "Pseudocolaptes-johnsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pseudocolaptes_johnsoni",
+  "ebird": "https://ebird.org/species/buftuf3",
+  "inaturalist": "https://www.inaturalist.org/taxa/628713",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pacific_tuftedcheek",
+   "es": "https://es.wikipedia.org/wiki/Pseudocolaptes_johnsoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pseudocolaptes+johnsoni"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Pacific Tuftedcheek",
+  "en_aco": "Pacific Tuftedcheek",
+  "es": "Trepamusgos Barbablanca del Pacífico",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pseudocolaptes johnsoni",
+ "sci_name_aco": "Pseudocolaptes johnsoni",
+ "sounds": [],
+ "taxon_order": 15013.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 900,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 58,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pseudocolaptes%20johnsoni%20Pacific%20Tuftedcheek%3B%20Risaralda%2C%20Colombia.jpg"
+ ]
+}

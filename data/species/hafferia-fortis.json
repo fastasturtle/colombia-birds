@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sooant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Hafferia",
+ "id": "hafferia-fortis",
+ "ids": {
+  "avibase": "C4D9D479CA67F491",
+  "birdbase": 16419,
+  "gbif": 9572442,
+  "inaturalist": "554112",
+  "iucn": "22701841",
+  "wikidata": "Q28863268",
+  "xeno_canto": "Hafferia-fortis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmeciza_fortis",
+  "ebird": "https://ebird.org/species/sooant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554112",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sooty_antbird",
+   "es": "https://es.wikipedia.org/wiki/Hafferia_fortis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hafferia+fortis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sooty Antbird",
+  "en_aco": "Sooty Antbird",
+  "es": "Hormiguero Tiznado",
+  "ru": "Тёмная муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hafferia fortis",
+ "sci_name_aco": "Hafferia fortis",
+ "sounds": [],
+ "taxon_order": 14052.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 45.333333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hafferia%20fortis%20-%20Sooty%20Antbird%20-%20male.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grtjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-galbula",
+ "ids": {
+  "avibase": "CC59842FC8A33A55",
+  "birdbase": 10958,
+  "gbif": 5228252,
+  "inaturalist": "1485",
+  "iucn": "22682203",
+  "wikidata": "Q1262221",
+  "xeno_canto": "Galbula-galbula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_galbula",
+  "ebird": "https://ebird.org/species/grtjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1485",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-tailed_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_galbula",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёная_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+galbula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-tailed Jacamar",
+  "en_aco": "Green-tailed Jacamar",
+  "es": "Jacamará Coliverde",
+  "ru": "Зелёная якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula galbula",
+ "sci_name_aco": "Galbula galbula",
+ "sounds": [],
+ "taxon_order": 10508.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 23.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbula%20galbula%20-%20Green-tailed%20Jacamar%20%28male%29%3B%20Anavilhanas%20islands%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ashtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyranniscus",
+ "id": "tyranniscus-cinereiceps",
+ "ids": {
+  "avibase": "68EA03E877AB8181",
+  "birdbase": 16892,
+  "gbif": 2484046,
+  "inaturalist": "16470",
+  "iucn": "22699116",
+  "wikidata": "Q1274129",
+  "xeno_canto": "Phyllomyias-cinereiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phyllomyias_cinereiceps",
+  "ebird": "https://ebird.org/species/ashtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16470",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ashy-headed_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Phyllomyias_cinereiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyranniscus+cinereiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ashy-headed Tyrannulet",
+  "en_aco": "Ashy-headed Tyrannulet",
+  "es": "Mosquerito Cenizo",
+  "ru": "Черноухий москитеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyranniscus cinereiceps",
+ "sci_name_aco": "Phyllomyias cinereiceps",
+ "sounds": [],
+ "taxon_order": 16793.0,
+ "taxonomy_note": "ACO/SACC lists this as Phyllomyias cinereiceps; eBird/Clements uses Tyranniscus cinereiceps.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 1350,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ashy-headed%20Tyrannulet%20-%20South%20Ecuador%20S4E8985%20%2816250969804%29%20%28cropped%29.jpg"
+ ]
+}

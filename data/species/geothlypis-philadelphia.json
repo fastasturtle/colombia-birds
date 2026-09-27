@@ -1,0 +1,94 @@
+{
+ "authorship": "(A. Wilson, 1810)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mouwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Geothlypis",
+ "id": "geothlypis-philadelphia",
+ "ids": {
+  "avibase": "1A0096F2F929CEA2",
+  "birdbase": 36183,
+  "gbif": 5789148,
+  "inaturalist": "145224",
+  "iucn": "22721824",
+  "wikidata": "Q27075897",
+  "xeno_canto": "Geothlypis-philadelphia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geothlypis_philadelphia",
+  "ebird": "https://ebird.org/species/mouwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145224",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mourning_warbler",
+   "es": "https://es.wikipedia.org/wiki/Geothlypis_philadelphia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geothlypis+philadelphia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mourning Warbler",
+  "en_aco": "Mourning Warbler",
+  "es": "Reinita Plañidera",
+  "ru": "Черногорлая хвойница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Geothlypis philadelphia",
+ "sci_name_aco": "Geothlypis philadelphia",
+ "sounds": [],
+ "taxon_order": 34006.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 13.016666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20philadelphia%20MP%2001.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mourning%20Warbler%20%28Geothlypis%20philadelphia%29%20%288502058570%29.jpg"
+ ]
+}

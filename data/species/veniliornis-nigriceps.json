@@ -1,0 +1,93 @@
+{
+ "authorship": "(d'Orbigny, 1841)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babwoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Veniliornis",
+ "id": "veniliornis-nigriceps",
+ "ids": {
+  "avibase": "FED6FBFC79E3178A",
+  "birdbase": 12185,
+  "gbif": 10768037,
+  "inaturalist": "18043",
+  "iucn": "22681190",
+  "wikidata": "Q1262798",
+  "xeno_canto": "Veniliornis-nigriceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Veniliornis_nigriceps",
+  "ebird": "https://ebird.org/species/babwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/18043",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bar-bellied_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Veniliornis_nigriceps",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатобрюхий_венилиорнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Veniliornis+nigriceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bar-bellied Woodpecker",
+  "en_aco": "Bar-bellied Woodpecker",
+  "es": "Carpintero Ventribarrado",
+  "ru": "Зебровый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Veniliornis nigriceps",
+ "sci_name_aco": "Dryobates nigriceps",
+ "sounds": [],
+ "taxon_order": 11503.0,
+ "taxonomy_note": "ACO/SACC lists this as Dryobates nigriceps; eBird/Clements uses Veniliornis nigriceps.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": 4000,
+   "min": 2600,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland"
+  ],
+  "mass_g": 43.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Veniliornis%20nigriceps%201847.jpg"
+ ]
+}

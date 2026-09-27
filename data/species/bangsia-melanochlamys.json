@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hellmayr, 1910)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bagtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Bangsia",
+ "id": "bangsia-melanochlamys",
+ "ids": {
+  "avibase": "44CDF1D443E63C89",
+  "birdbase": 37738,
+  "gbif": 2488330,
+  "inaturalist": "10386",
+  "iucn": "22722567",
+  "wikidata": "Q1302576",
+  "xeno_canto": "Bangsia-melanochlamys"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bangsia_melanochlamys",
+  "ebird": "https://ebird.org/species/bagtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10386",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-gold_tanager",
+   "es": "https://es.wikipedia.org/wiki/Bangsia_melanochlamys",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрно-золотая_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bangsia+melanochlamys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-gold Tanager",
+  "en_aco": "Black-and-gold Tanager",
+  "es": "Tangara Negrigualda",
+  "ru": "Чёрно-золотая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bangsia melanochlamys",
+ "sci_name_aco": "Bangsia melanochlamys",
+ "sounds": [],
+ "taxon_order": 34833.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2450,
+   "min": 1200,
+   "min_extreme": 950
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 37.1,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bangsia%20melanochlamys%20-%20Tangara%20aurinegra%20-%20Black-and-Gold%20Tanager%20%288553364280%29.jpg"
+ ]
+}

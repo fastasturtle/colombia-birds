@@ -1,0 +1,95 @@
+{
+ "authorship": "(Waterhouse, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bbmtou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Andigena",
+ "id": "andigena-nigrirostris",
+ "ids": {
+  "avibase": "64516AE0ACD1E341",
+  "birdbase": 11229,
+  "gbif": 2478854,
+  "inaturalist": "18851",
+  "iucn": "22682066",
+  "wikidata": "Q175388",
+  "xeno_canto": "Andigena-nigrirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Andigena_nigrirostris",
+  "ebird": "https://ebird.org/species/bbmtou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18851",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_mountain_toucan",
+   "es": "https://es.wikipedia.org/wiki/Andigena_nigrirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Черноклювая_андигена"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Andigena+nigrirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Mountain-Toucan",
+  "en_aco": "Black-billed Mountain-Toucan",
+  "es": "Tucán Piquinegro",
+  "ru": "Черноклювый перцеяд"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Andigena nigrirostris",
+ "sci_name_aco": "Andigena nigrirostris",
+ "sounds": [],
+ "taxon_order": 10876.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": 3245,
+   "min": 1700,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 369.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andigena%20nigrirostris%20Terlaque%20pechiazul%20Black-billed%20Mounatin-Toucan%20%288720844545%29.jpg"
+ ]
+}

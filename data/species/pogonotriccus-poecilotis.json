@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vabtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pogonotriccus",
+ "id": "pogonotriccus-poecilotis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17183,
+  "gbif": 2483222,
+  "inaturalist": "16917",
+  "iucn": null,
+  "wikidata": "Q1263460",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phylloscartes_poecilotis",
+  "ebird": "https://ebird.org/species/vabtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16917",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pogonotriccus+poecilotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Variegated Bristle-Tyrant",
+  "en_aco": "Variegated Bristle-Tyrant",
+  "es": "Orejerito Variegado",
+  "ru": "Пёстрый тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pogonotriccus poecilotis",
+ "sci_name_aco": "Phylloscartes poecilotis",
+ "sounds": [],
+ "taxon_order": 16254.0,
+ "taxonomy_note": "ACO/SACC lists this as Phylloscartes poecilotis; eBird/Clements uses Pogonotriccus poecilotis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 1400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 8.32,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Variegated%20Bristle-Tyrant%20-%20Colombia%20S4E9894%20%2816251007584%29.jpg"
+ ]
+}

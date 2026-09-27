@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blttra1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Lesbia",
+ "id": "lesbia-victoriae",
+ "ids": {
+  "avibase": "E90F598E30CCE7DC",
+  "birdbase": 2970,
+  "gbif": 5228496,
+  "inaturalist": "6023",
+  "iucn": "22687971",
+  "wikidata": "Q931643",
+  "xeno_canto": "Lesbia-victoriae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lesbia_victoriae",
+  "ebird": "https://ebird.org/species/blttra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6023",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-tailed_trainbearer",
+   "es": "https://es.wikipedia.org/wiki/Lesbia_victoriae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lesbia+victoriae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-tailed Trainbearer",
+  "en_aco": "Black-tailed Trainbearer",
+  "es": "Colibrí Colilargo Mayor",
+  "ru": "Чернохвостая комета"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Lesbia victoriae",
+ "sci_name_aco": "Lesbia victoriae",
+ "sounds": [],
+ "taxon_order": 4502.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 4.9,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-tailed%20trainbearer%20%28Lesbia%20victoriae%20victoriae%29%20male%20Cundinamarca.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20%28132680679%29.jpeg"
+ ]
+}

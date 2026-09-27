@@ -1,0 +1,93 @@
+{
+ "authorship": "(Deville, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lanmon1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Micromonacha",
+ "id": "micromonacha-lanceolata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11055,
+  "gbif": 2475207,
+  "inaturalist": "1546",
+  "iucn": "22682298",
+  "wikidata": "Q1259029",
+  "xeno_canto": "Micromonacha-lanceolata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Micromonacha_lanceolata",
+  "ebird": "https://ebird.org/species/lanmon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1546",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lanceolated_monklet",
+   "es": "https://es.wikipedia.org/wiki/Micromonacha_lanceolata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Micromonacha+lanceolata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lanceolated Monklet",
+  "en_aco": "Lanceolated Monklet",
+  "es": "Monjilla Lanceolada",
+  "ru": "Пестробрюхая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Micromonacha lanceolata",
+ "sci_name_aco": "Micromonacha lanceolata",
+ "sounds": [],
+ "taxon_order": 10434.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2100,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 20.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lanceolated%20Monklet%20%28Micromonacha%20lanceolata%29.jpg"
+ ]
+}

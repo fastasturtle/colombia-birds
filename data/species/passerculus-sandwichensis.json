@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "savspa",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Passerculus",
+ "id": "passerculus-sandwichensis",
+ "ids": {
+  "avibase": "31CE00C71528322F",
+  "birdbase": 35452,
+  "gbif": 5231142,
+  "inaturalist": "9981",
+  "iucn": "103780243",
+  "wikidata": "Q287893",
+  "xeno_canto": "Passerculus-sandwichensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Passerculus_sandwichensis",
+  "ebird": "https://ebird.org/species/savspa",
+  "inaturalist": "https://www.inaturalist.org/taxa/9981",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Savannah_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Passerculus_sandwichensis",
+   "ru": "https://ru.wikipedia.org/wiki/Саванная_овсянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Passerculus+sandwichensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Savannah Sparrow",
+  "en_aco": "Savannah Sparrow",
+  "es": "Chingolo Sabanero",
+  "ru": "Саванная овсянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Passerculus sandwichensis",
+ "sci_name_aco": "Passerculus sandwichensis",
+ "sounds": [],
+ "taxon_order": 33244.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "plantation",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 21.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Passerculus%20sandwichensis%20crop.jpg"
+ ]
+}

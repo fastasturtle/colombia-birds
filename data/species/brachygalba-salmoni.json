@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1879)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dubjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Brachygalba",
+ "id": "brachygalba-salmoni",
+ "ids": {
+  "avibase": "26E37EC3B6AB6724",
+  "birdbase": 10928,
+  "gbif": 2475051,
+  "inaturalist": "1456",
+  "iucn": "22682174",
+  "wikidata": "Q1273597",
+  "xeno_canto": "Brachygalba-salmoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brachygalba_salmoni",
+  "ebird": "https://ebird.org/species/dubjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1456",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-backed_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Brachygalba_salmoni",
+   "ru": "https://ru.wikipedia.org/wiki/Темноспинная_брахигальба"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brachygalba+salmoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-backed Jacamar",
+  "en_aco": "Dusky-backed Jacamar",
+  "es": "Jacamará Dorsioscuro",
+  "ru": "Тёмноспинная якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Brachygalba salmoni",
+ "sci_name_aco": "Brachygalba salmoni",
+ "sounds": [],
+ "taxon_order": 10493.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/A%20monograph%20of%20the%20jacamars%20and%20puff-birds%2C%20or%20families%20Galbulid%20and%20Bucconid%20%281882%29%20%2814564669748%29.jpg"
+ ]
+}

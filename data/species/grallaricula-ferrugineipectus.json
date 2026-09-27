@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubant5",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaricula",
+ "id": "grallaricula-ferrugineipectus",
+ "ids": {
+  "avibase": "E95533575B9D307B",
+  "birdbase": 16661,
+  "gbif": 2490509,
+  "inaturalist": "116910",
+  "iucn": "103660906",
+  "wikidata": "Q842527",
+  "xeno_canto": "Grallaricula-ferrugineipectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaricula_ferrugineipectus",
+  "ebird": "https://ebird.org/species/rubant5",
+  "inaturalist": "https://www.inaturalist.org/taxa/116910",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty-breasted_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaricula_ferrugineipectus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaricula+ferrugineipectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rusty-breasted Antpitta",
+  "en_aco": "Rusty-breasted Antpitta",
+  "es": "Ponchito Pechicastaño Sureño",
+  "ru": "Ржавогрудая питтуля"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaricula ferrugineipectus",
+ "sci_name_aco": "Grallaricula ferrugineipectus",
+ "sounds": [],
+ "taxon_order": 14348.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 17,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaire%20%C3%A0%20poitrine%20rousse.jpg"
+ ]
+}

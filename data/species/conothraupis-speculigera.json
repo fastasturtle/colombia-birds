@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática incierto",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "bawtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conothraupis",
+ "id": "conothraupis-speculigera",
+ "ids": {
+  "avibase": "FEAFE529FC387C85",
+  "birdbase": 37104,
+  "gbif": 2488775,
+  "inaturalist": "10495",
+  "iucn": "22722133",
+  "wikidata": "Q3182648",
+  "xeno_canto": "Conothraupis-speculigera"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conothraupis_speculigera",
+  "ebird": "https://ebird.org/species/bawtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10495",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-white_tanager",
+   "es": "https://es.wikipedia.org/wiki/Conothraupis_speculigera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conothraupis+speculigera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Tanager",
+  "en_aco": "Black-and-white Tanager",
+  "es": "Tangara Albinegra",
+  "ru": "Чёрно-белая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conothraupis speculigera",
+ "sci_name_aco": "Conothraupis speculigera",
+ "sounds": [],
+ "taxon_order": 34658.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 1950,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 24.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ConothraupisSpeculigeraSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Conothraupis%20speculigera%20-%20Black-and-white%20Tanager%20-%20male%20%28cropped%29.jpg"
+ ]
+}

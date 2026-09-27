@@ -1,0 +1,91 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "liffal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Micrastur",
+ "id": "micrastur-gilvicollis",
+ "ids": {
+  "avibase": "DB09421450C60F32",
+  "birdbase": 12837,
+  "gbif": 2481084,
+  "inaturalist": "4700",
+  "iucn": "22696281",
+  "wikidata": "Q282760",
+  "xeno_canto": "Micrastur-gilvicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Micrastur_gilvicollis",
+  "ebird": "https://ebird.org/species/liffal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4700",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lined_forest_falcon",
+   "es": "https://es.wikipedia.org/wiki/Micrastur_gilvicollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Micrastur+gilvicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lined Forest-Falcon",
+  "en_aco": "Lined Forest-Falcon",
+  "es": "Halcón Montés Cabecigrís",
+  "ru": "Двуполосый лесной сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Micrastur gilvicollis",
+ "sci_name_aco": "Micrastur gilvicollis",
+ "sounds": [],
+ "taxon_order": 11957.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 206.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lined%20Forest%20Falcon.jpg"
+ ]
+}

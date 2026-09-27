@@ -1,0 +1,92 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stnfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mionectes",
+ "id": "mionectes-striaticollis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17219,
+  "gbif": 5229534,
+  "inaturalist": "16506",
+  "iucn": "22698790",
+  "wikidata": "Q906527",
+  "xeno_canto": "Mionectes-striaticollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mionectes_striaticollis",
+  "ebird": "https://ebird.org/species/stnfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16506",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-necked_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Mionectes_striaticollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mionectes+striaticollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-necked Flycatcher",
+  "en_aco": "Streak-necked Flycatcher",
+  "es": "Mosquero Gorjiestriado",
+  "ru": "Пестрогрудый тираннчик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mionectes striaticollis",
+ "sci_name_aco": "Mionectes striaticollis",
+ "sounds": [],
+ "taxon_order": 16201.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": 3400,
+   "min": 1200,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mionectes%20striaticollis%20-NBII%20Image%20Gallery-a00255.jpg"
+ ]
+}

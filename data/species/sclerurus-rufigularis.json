@@ -1,0 +1,91 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shblea1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Sclerurus",
+ "id": "sclerurus-rufigularis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 14465,
+  "gbif": 2485209,
+  "inaturalist": "11656",
+  "iucn": "22702965",
+  "wikidata": "Q589526",
+  "xeno_canto": "Sclerurus-rufigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sclerurus_rufigularis",
+  "ebird": "https://ebird.org/species/shblea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11656",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-billed_leaftosser",
+   "es": "https://es.wikipedia.org/wiki/Sclerurus_rufigularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sclerurus+rufigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-billed Leaftosser",
+  "en_aco": "Short-billed Leaftosser",
+  "es": "Tirahojas Piquicorto",
+  "ru": "Короткоклювый тенелюб"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sclerurus rufigularis",
+ "sci_name_aco": "Sclerurus rufigularis",
+ "sounds": [],
+ "taxon_order": 14544.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 22,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sclerurus%20rufigularis%20Castelnau.jpg"
+ ]
+}

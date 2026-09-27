@@ -1,0 +1,91 @@
+{
+ "authorship": "(Des Murs, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baceag2",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Spizaetus",
+ "id": "spizaetus-isidori",
+ "ids": {
+  "avibase": "D31EE7190803FB0F",
+  "birdbase": 8343,
+  "gbif": 5788512,
+  "inaturalist": "73432",
+  "iucn": "22696207",
+  "wikidata": "Q1260020",
+  "xeno_canto": "Spizaetus-isidori"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spizaetus_isidori",
+  "ebird": "https://ebird.org/species/baceag2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73432",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-chestnut_eagle",
+   "es": "https://es.wikipedia.org/wiki/Spizaetus_isidori",
+   "ru": "https://ru.wikipedia.org/wiki/Траурный_орёл"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spizaetus+isidori"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-chestnut Eagle",
+  "en_aco": "Black-and-chestnut Eagle",
+  "es": "Águila Poma",
+  "ru": "Траурный хохлатый орёл"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Spizaetus isidori",
+ "sci_name_aco": "Spizaetus isidori",
+ "sounds": [],
+ "taxon_order": 8028.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": 3500,
+   "min": 400,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 2950,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black%20and%20chestnut%20Eagle.jpg"
+ ]
+}

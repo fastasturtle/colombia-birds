@@ -1,0 +1,94 @@
+{
+ "authorship": "(Taczanowski, 1877)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paethr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-leucops",
+ "ids": {
+  "avibase": "EE26D2EAB44A7C38",
+  "birdbase": 30698,
+  "gbif": 5789052,
+  "inaturalist": "73543",
+  "iucn": "22708684",
+  "wikidata": "Q1935561",
+  "xeno_canto": "Turdus-leucops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_leucops",
+  "ebird": "https://ebird.org/species/paethr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73543",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-eyed_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_leucops",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+leucops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-eyed Thrush",
+  "en_aco": "Pale-eyed Thrush",
+  "es": "Mirlo Ojiblanco",
+  "ru": "Светлоглазый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus leucops",
+ "sci_name_aco": "Turdus leucops",
+ "sounds": [],
+ "taxon_order": 28653.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3100,
+   "min": 900,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 67,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20leucops.jpg"
+ ]
+}

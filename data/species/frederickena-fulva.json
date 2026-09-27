@@ -1,0 +1,92 @@
+{
+ "authorship": "(Zimmer, 1944)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fulant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Frederickena",
+ "id": "frederickena-fulva",
+ "ids": {
+  "avibase": "74491D29EDA82D16",
+  "birdbase": 16133,
+  "gbif": 6093919,
+  "inaturalist": "144694",
+  "iucn": null,
+  "wikidata": "Q1265503",
+  "xeno_canto": "Frederickena-fulva"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Frederickena_fulva",
+  "ebird": "https://ebird.org/species/fulant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144694",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fulvous_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Frederickena_fulva",
+   "ru": "https://ru.wikipedia.org/wiki/Frederickena_fulva"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Frederickena+fulva"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous Antshrike",
+  "en_aco": "Fulvous Antshrike",
+  "es": "Batará Leonado",
+  "ru": "Бурая тараба"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Frederickena fulva",
+ "sci_name_aco": "Frederickena fulva",
+ "sounds": [],
+ "taxon_order": 13462.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 81.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fulvous%20antshrike.png"
+ ]
+}

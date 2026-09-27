@@ -1,0 +1,94 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rbctyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Ochthoeca",
+ "id": "ochthoeca-rufipectoralis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17936,
+  "gbif": 2483157,
+  "inaturalist": "16167",
+  "iucn": "22699930",
+  "wikidata": "Q532529",
+  "xeno_canto": "Ochthoeca-rufipectoralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ochthoeca_rufipectoralis",
+  "ebird": "https://ebird.org/species/rbctyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16167",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_chat-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Ochthoeca_rufipectoralis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ochthoeca+rufipectoralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Chat-Tyrant",
+  "en_aco": "Rufous-breasted Chat-Tyrant",
+  "es": "Pitajo Pechirrufo",
+  "ru": "Рыжегрудая тираннита"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ochthoeca rufipectoralis",
+ "sci_name_aco": "Ochthoeca rufipectoralis",
+ "sounds": [],
+ "taxon_order": 17194.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": 4100,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-breasted%20Chat-tyrant%20%28Ochthoeca%20rufipectoralis%29.jpg"
+ ]
+}

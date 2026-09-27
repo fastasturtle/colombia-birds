@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "linwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Dryocopus",
+ "id": "dryocopus-lineatus",
+ "ids": {
+  "avibase": "3CD8FECCC54D40ED",
+  "birdbase": 12518,
+  "gbif": 5228831,
+  "inaturalist": "17858",
+  "iucn": null,
+  "wikidata": "Q1269603",
+  "xeno_canto": "Dryocopus-lineatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dryocopus_lineatus",
+  "ebird": "https://ebird.org/species/linwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17858",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lineated_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Dryocopus_lineatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dryocopus+lineatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lineated Woodpecker",
+  "en_aco": "Lineated Woodpecker",
+  "es": "Picamaderos Listado",
+  "ru": "Полосатая желна"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Dryocopus lineatus",
+ "sci_name_aco": "Dryocopus lineatus",
+ "sounds": [],
+ "taxon_order": 11754.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 191.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus%20lineatus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus%20lineatus%20%28Carpintero%20real%29%20%2824793532516%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lineated%20Woodpecker%20%28Dendropicus%20lineatus%29%20female%20%2828558789666%29.jpg"
+ ]
+}

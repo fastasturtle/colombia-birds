@@ -1,0 +1,95 @@
+{
+ "authorship": "(Jardine & Bonaparte, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andsni1",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Gallinago",
+ "id": "gallinago-jamesoni",
+ "ids": {
+  "avibase": "4A691A330A8CC696",
+  "birdbase": 6729,
+  "gbif": 2481816,
+  "inaturalist": "3916",
+  "iucn": "22693124",
+  "wikidata": "Q1263014",
+  "xeno_canto": "Gallinago-jamesoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gallinago_jamesoni",
+  "ebird": "https://ebird.org/species/andsni1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3916",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Jameson's_snipe",
+   "es": "https://es.wikipedia.org/wiki/Gallinago_jamesoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gallinago+jamesoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Jameson's Snipe",
+  "en_aco": "Jameson's Snipe",
+  "es": "Agachadiza Andina",
+  "ru": "Андский бекас"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Gallinago jamesoni",
+ "sci_name_aco": "Gallinago jamesoni",
+ "sounds": [],
+ "taxon_order": 6084.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": 4400,
+   "min": 2100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 196,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gallinago%20jamesoni%2C%20Quijos%2C%20Ecuador%2009.jpg"
+ ]
+}

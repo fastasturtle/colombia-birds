@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rcatan1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Habia",
+ "id": "habia-rubica",
+ "ids": {
+  "avibase": "C90411308ABCD931",
+  "birdbase": 36572,
+  "gbif": 5230705,
+  "inaturalist": "9935",
+  "iucn": "22722409",
+  "wikidata": "Q2628790",
+  "xeno_canto": "Habia-rubica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Habia_rubica",
+  "ebird": "https://ebird.org/species/rcatan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9935",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-crowned_ant_tanager",
+   "es": "https://es.wikipedia.org/wiki/Habia_rubica",
+   "ru": "https://ru.wikipedia.org/wiki/Карминная_хабия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Habia+rubica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-crowned Ant-Tanager",
+  "en_aco": "Red-crowned Ant-Tanager",
+  "es": "Habia Coronirroja",
+  "ru": "Карминная хабия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Habia rubica",
+ "sci_name_aco": "Habia rubica",
+ "sounds": [],
+ "taxon_order": 34459.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 32.525,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Habia%20rubica%20-%20Red-crowned%20Ant-Tanager%20%28male%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Habia%20rubica%20-Miracatu%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

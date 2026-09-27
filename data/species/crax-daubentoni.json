@@ -1,0 +1,95 @@
+{
+ "authorship": "(G.R. Gray, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yekcur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Crax",
+ "id": "crax-daubentoni",
+ "ids": {
+  "avibase": "0A74C21D028624C1",
+  "birdbase": 755,
+  "gbif": 2482172,
+  "inaturalist": "2053",
+  "iucn": "22678530",
+  "wikidata": "Q1267444",
+  "xeno_canto": "Crax-daubentoni"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crax_daubentoni",
+  "ebird": "https://ebird.org/species/yekcur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2053",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-knobbed_curassow",
+   "es": "https://es.wikipedia.org/wiki/Crax_daubentoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crax+daubentoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-knobbed Curassow",
+  "en_aco": "Yellow-knobbed Curassow",
+  "es": "Pavón Porú",
+  "ru": "Желтоклювый кракс"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Crax daubentoni",
+ "sci_name_aco": "Crax daubentoni",
+ "sounds": [],
+ "taxon_order": 929.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Gravel and earth",
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 2383.3333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crax%20daubentoni%20002.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crax%20daubentoni%20-Philadelphia%20Zoo%20-female-8a-4c.jpg"
+ ]
+}

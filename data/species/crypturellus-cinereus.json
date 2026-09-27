@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cintin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-cinereus",
+ "ids": {
+  "avibase": "7C90F8DB10FFD1F8",
+  "birdbase": 74,
+  "gbif": 2477533,
+  "inaturalist": "20534",
+  "iucn": "22678166",
+  "wikidata": "Q870092",
+  "xeno_canto": "Crypturellus-cinereus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_cinereus",
+  "ebird": "https://ebird.org/species/cintin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20534",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinereous_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_cinereus",
+   "ru": "https://ru.wikipedia.org/wiki/Серый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+cinereus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinereous Tinamou",
+  "en_aco": "Cinereous Tinamou",
+  "es": "Tinamú Sombrío",
+  "ru": "Серый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus cinereus",
+ "sci_name_aco": "Crypturellus cinereus",
+ "sounds": [],
+ "taxon_order": 151.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 502.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crypturellus%20cinereus.jpg"
+ ]
+}

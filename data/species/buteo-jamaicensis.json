@@ -1,0 +1,100 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rethaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-jamaicensis",
+ "ids": {
+  "avibase": "536A5157A50E1F3C",
+  "birdbase": 8803,
+  "gbif": 2480542,
+  "inaturalist": "5212",
+  "iucn": "22695933",
+  "wikidata": "Q457471",
+  "xeno_canto": "Buteo-jamaicensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_jamaicensis",
+  "ebird": "https://ebird.org/species/rethaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5212",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-tailed_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_jamaicensis",
+   "ru": "https://ru.wikipedia.org/wiki/Краснохвостый_сарыч"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+jamaicensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-tailed Hawk",
+  "en_aco": "Red-tailed Hawk",
+  "es": "Busardo Colirrojo",
+  "ru": "Краснохвостый канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo jamaicensis",
+ "sci_name_aco": "Buteo jamaicensis",
+ "sounds": [],
+ "taxon_order": 8506.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 10,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "plantation",
+   "desert",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1072.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-tailed%20hawk%20%2844371%29.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gbbgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-marinus",
+ "ids": {
+  "avibase": "E826E9F3FBAED223",
+  "birdbase": 7167,
+  "gbif": 2481172,
+  "inaturalist": "4368",
+  "iucn": "22694324",
+  "wikidata": "Q26629",
+  "xeno_canto": "Larus-marinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_marinus",
+  "ebird": "https://ebird.org/species/gbbgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4368",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_black-backed_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_marinus",
+   "ru": "https://ru.wikipedia.org/wiki/Морская_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+marinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Black-backed Gull",
+  "en_aco": "Great Black-backed Gull",
+  "es": "Gavión Atlántico",
+  "ru": "Морская чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus marinus",
+ "sci_name_aco": "Larus marinus",
+ "sounds": [],
+ "taxon_order": 6562.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 1678.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Black-backed%20Gull%20Larus%20marinus.jpg"
+ ]
+}

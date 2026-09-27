@@ -1,0 +1,92 @@
+{
+ "authorship": "(Berlepsch, 1907)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "broela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-pelzelni",
+ "ids": {
+  "avibase": "A58DD6C710743B45",
+  "birdbase": 16959,
+  "gbif": 5229630,
+  "inaturalist": "16719",
+  "iucn": "22699286",
+  "wikidata": "Q790709",
+  "xeno_canto": "Elaenia-pelzelni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_pelzelni",
+  "ebird": "https://ebird.org/species/broela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16719",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brownish_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_pelzelni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+pelzelni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brownish Elaenia",
+  "en_aco": "Brownish Elaenia",
+  "es": "Fiofío Pardo",
+  "ru": "Бурая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia pelzelni",
+ "sci_name_aco": "Elaenia pelzelni",
+ "sounds": [],
+ "taxon_order": 16704.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 23.55,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elaenia%20pelzelni%20-%20Brownish%20elaenia%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Du Bus de Gisignies, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goetan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-chrysotis",
+ "ids": {
+  "avibase": "B67CF692C0CABAA4",
+  "birdbase": 37912,
+  "gbif": 2488163,
+  "inaturalist": "9565",
+  "iucn": "22722857",
+  "wikidata": "Q2637243",
+  "xeno_canto": "Tangara-chrysotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_chrysotis",
+  "ebird": "https://ebird.org/species/goetan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9565",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-eared_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_chrysotis",
+   "ru": "https://ru.wikipedia.org/wiki/Золотоухая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+chrysotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-eared Tanager",
+  "en_aco": "Golden-eared Tanager",
+  "es": "Tangara Orejidorada",
+  "ru": "Золотистоухая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara chrysotis",
+ "sci_name_aco": "Tangara chrysotis",
+ "sounds": [],
+ "taxon_order": 35101.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2400,
+   "min": 1100,
+   "min_extreme": 760
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 24.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-eared%20Tanager%20-%20Manu%20NP%20-%20Per%C3%B9%207900%20%2822954456080%29.jpg"
+ ]
+}

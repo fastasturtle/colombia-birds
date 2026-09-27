@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1828)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chtsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-telasco",
+ "ids": {
+  "avibase": "F00E876B740EB302",
+  "birdbase": 37289,
+  "gbif": 2491354,
+  "inaturalist": "9489",
+  "iucn": "22733599",
+  "wikidata": "Q3117469",
+  "xeno_canto": "Sporophila-telasco"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_telasco",
+  "ebird": "https://ebird.org/species/chtsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9489",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-throated_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_telasco",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+telasco"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-throated Seedeater",
+  "en_aco": "Chestnut-throated Seedeater",
+  "es": "Semillero Gorjicastaño",
+  "ru": "Каштановогорлый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila telasco",
+ "sci_name_aco": "Sporophila telasco",
+ "sounds": [],
+ "taxon_order": 35528.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 9.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-throatedSeedeater%20%28cropped%29.jpg"
+ ]
+}

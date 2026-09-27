@@ -1,0 +1,94 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gagtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-schrankii",
+ "ids": {
+  "avibase": "1A222683132D296B",
+  "birdbase": 37923,
+  "gbif": 2488133,
+  "inaturalist": "9590",
+  "iucn": "22722842",
+  "wikidata": "Q688607",
+  "xeno_canto": "Tangara-schrankii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_schrankii",
+  "ebird": "https://ebird.org/species/gagtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/9590",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-and-gold_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_schrankii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+schrankii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-and-gold Tanager",
+  "en_aco": "Green-and-gold Tanager",
+  "es": "Tangara de Schrank",
+  "ru": "Золотогрудая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara schrankii",
+ "sci_name_aco": "Tangara schrankii",
+ "sounds": [],
+ "taxon_order": 35111.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 19.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green-and-gold%20tanager%20%28Tangara%20schrankii%20schrankii%29%20Rio%20Napo.jpg"
+ ]
+}

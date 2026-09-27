@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1886)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sawtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chrysothlypis",
+ "id": "chrysothlypis-salmoni",
+ "ids": {
+  "avibase": "D11A3B3E86172A1A",
+  "birdbase": 36803,
+  "gbif": 2488533,
+  "inaturalist": "10629",
+  "iucn": "22722287",
+  "wikidata": "Q1588675",
+  "xeno_canto": "Chrysothlypis-salmoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chrysothlypis_salmoni",
+  "ebird": "https://ebird.org/species/sawtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10629",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet-and-white_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chrysothlypis_salmoni",
+   "ru": "https://ru.wikipedia.org/wiki/Красно-белая_пегая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysothlypis+salmoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-and-white Tanager",
+  "en_aco": "Scarlet-and-white Tanager",
+  "es": "Tangara Rojiblanca",
+  "ru": "Красно-белая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chrysothlypis salmoni",
+ "sci_name_aco": "Chrysothlypis salmoni",
+ "sounds": [],
+ "taxon_order": 35234.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": 25
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 12.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chrysothlypis%20salmoni%20-%20Scarlet-and-White%20Tanager.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chrysothlypis%20salmoni%20Smit.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tobhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Androdon",
+ "id": "androdon-aequatorialis",
+ "ids": {
+  "avibase": "E82816C6C2091FEC",
+  "birdbase": 2823,
+  "gbif": 2476330,
+  "inaturalist": "6456",
+  "iucn": "22687019",
+  "wikidata": "Q143941",
+  "xeno_canto": "Androdon-aequatorialis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Androdon_aequatorialis",
+  "ebird": "https://ebird.org/species/tobhum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6456",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tooth-billed_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Androdon_aequatorialis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Androdon+aequatorialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tooth-billed Hummingbird",
+  "en_aco": "Tooth-billed Hummingbird",
+  "es": "Colibrí Piquidentado",
+  "ru": "Зубцеклювый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Androdon aequatorialis",
+ "sci_name_aco": "Androdon aequatorialis",
+ "sounds": [],
+ "taxon_order": 4367.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 7.220000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tooth-billed%20Hummingbird.jpg"
+ ]
+}

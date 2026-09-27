@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blkswi",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Cypseloides",
+ "id": "cypseloides-niger",
+ "ids": {
+  "avibase": "7FB66FEB52C865E7",
+  "birdbase": 2268,
+  "gbif": 2477282,
+  "inaturalist": "6667",
+  "iucn": "22686440",
+  "wikidata": "Q1267488",
+  "xeno_canto": "Cypseloides-niger"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cypseloides_niger",
+  "ebird": "https://ebird.org/species/blkswi",
+  "inaturalist": "https://www.inaturalist.org/taxa/6667",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_black_swift",
+   "es": "https://es.wikipedia.org/wiki/Cypseloides_niger",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_американский_стриж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cypseloides+niger"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Swift",
+  "en_aco": "Black Swift",
+  "es": "Vencejo Negro",
+  "ru": "Американский стриж"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Cypseloides niger",
+ "sci_name_aco": "Cypseloides niger",
+ "sounds": [],
+ "taxon_order": 3826.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3560,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 41.55,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zapata%20Falls%2C%20United%20States%20%28Unsplash%29.jpg"
+ ]
+}

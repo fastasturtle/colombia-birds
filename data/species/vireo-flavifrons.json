@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yetvir",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-flavifrons",
+ "ids": {
+  "avibase": "F8DDF6A6429E64D0",
+  "birdbase": 21538,
+  "gbif": 2487453,
+  "inaturalist": "17365",
+  "iucn": "22705237",
+  "wikidata": "Q596518",
+  "xeno_canto": "Vireo-flavifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_flavifrons",
+  "ebird": "https://ebird.org/species/yetvir",
+  "inaturalist": "https://www.inaturalist.org/taxa/17365",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-throated_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_flavifrons",
+   "ru": "https://ru.wikipedia.org/wiki/Желтогорлый_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+flavifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-throated Vireo",
+  "en_aco": "Yellow-throated Vireo",
+  "es": "Vireo Gorjiamarillo",
+  "ru": "Желтогорлый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo flavifrons",
+ "sci_name_aco": "Vireo flavifrons",
+ "sounds": [],
+ "taxon_order": 19220.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.866666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo-flavifrons-001.jpg"
+ ]
+}

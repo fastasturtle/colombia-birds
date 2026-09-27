@@ -1,0 +1,91 @@
+{
+ "authorship": "(Stiles, 1996)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chieme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorostilbon",
+ "id": "chlorostilbon-olivaresi",
+ "ids": {
+  "avibase": "727A9FFC63CF5964",
+  "birdbase": 3384,
+  "gbif": 2476076,
+  "inaturalist": "6093",
+  "iucn": "22724623",
+  "wikidata": "Q259914",
+  "xeno_canto": "Chlorostilbon-olivaresi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorostilbon_olivaresi",
+  "ebird": "https://ebird.org/species/chieme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6093",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chiribiquete_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chlorostilbon_olivaresi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorostilbon+olivaresi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chiribiquete Emerald",
+  "en_aco": "Chiribiquete Emerald",
+  "es": "Esmeralda del Chiribiquete",
+  "ru": "Чирибикетесский изумруд"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorostilbon olivaresi",
+ "sci_name_aco": "Chlorostilbon olivaresi",
+ "sounds": [],
+ "taxon_order": 4895.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 3.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Dalmas, 1900)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blwtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-johannae",
+ "ids": {
+  "avibase": "FB061C9B1D62C2AB",
+  "birdbase": 37922,
+  "gbif": 2488153,
+  "inaturalist": "9564",
+  "iucn": "22722839",
+  "wikidata": "Q2630962",
+  "xeno_canto": "Tangara-johannae"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_johannae",
+  "ebird": "https://ebird.org/species/blwtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9564",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-whiskered_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_johannae",
+   "ru": "https://ru.wikipedia.org/wiki/Синебородая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+johannae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-whiskered Tanager",
+  "en_aco": "Blue-whiskered Tanager",
+  "es": "Tangara Bigotuda",
+  "ru": "Синеусая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara johannae",
+ "sci_name_aco": "Tangara johannae",
+ "sounds": [],
+ "taxon_order": 35114.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 21.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TangaraJohannaeKeulemans.jpg"
+ ]
+}

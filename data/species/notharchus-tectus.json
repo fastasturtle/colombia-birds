@@ -1,0 +1,98 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "piepuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Notharchus",
+ "id": "notharchus-tectus",
+ "ids": {
+  "avibase": "70D5AC76A370FD48",
+  "birdbase": 10991,
+  "gbif": 2475098,
+  "inaturalist": "1593",
+  "iucn": "61998234",
+  "wikidata": "Q945942",
+  "xeno_canto": "Notharchus-tectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Notharchus_tectus",
+  "ebird": "https://ebird.org/species/piepuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1593",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pied_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Notharchus_tectus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Notharchus+tectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pied Puffbird",
+  "en_aco": "Pied Puffbird",
+  "es": "Buco Pío",
+  "ru": "Пегая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Notharchus tectus",
+ "sci_name_aco": "Notharchus tectus",
+ "sounds": [],
+ "taxon_order": 10384.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 8,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 30.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pied%20Puffbird%20-%20Ecuador.jpg"
+ ]
+}

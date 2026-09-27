@@ -1,0 +1,92 @@
+{
+ "authorship": "(Orbigny, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andsol1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Myadestes",
+ "id": "myadestes-ralloides",
+ "ids": {
+  "avibase": "8FE62CA53C11A847",
+  "birdbase": 30210,
+  "gbif": 2490848,
+  "inaturalist": "12962",
+  "iucn": "22708605",
+  "wikidata": "Q3489509",
+  "xeno_canto": "Myadestes-ralloides"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myadestes_ralloides",
+  "ebird": "https://ebird.org/species/andsol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12962",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_solitaire",
+   "es": "https://es.wikipedia.org/wiki/Myadestes_ralloides",
+   "ru": "https://ru.wikipedia.org/wiki/Андский_дрозд-отшельник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myadestes+ralloides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Solitaire",
+  "en_aco": "Andean Solitaire",
+  "es": "Solitario Andino",
+  "ru": "Андский кларино"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myadestes ralloides",
+ "sci_name_aco": "Myadestes ralloides",
+ "sounds": [],
+ "taxon_order": 28186.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 4500,
+   "min": 800,
+   "min_extreme": 650
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 28.056,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myadestes%20ralloides%2075757649.jpg"
+ ]
+}

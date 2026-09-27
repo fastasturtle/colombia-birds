@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brratt1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Attila",
+ "id": "attila-spadiceus",
+ "ids": {
+  "avibase": "BA09A296EE7B7D70",
+  "birdbase": 18200,
+  "gbif": 2483629,
+  "inaturalist": "16748",
+  "iucn": "22700354",
+  "wikidata": "Q1269881",
+  "xeno_canto": "Attila-spadiceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Attila_spadiceus",
+  "ebird": "https://ebird.org/species/brratt1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16748",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bright-rumped_attila",
+   "es": "https://es.wikipedia.org/wiki/Attila_spadiceus",
+   "ru": "https://ru.wikipedia.org/wiki/Золотохвостый_аттила"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Attila+spadiceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bright-rumped Attila",
+  "en_aco": "Bright-rumped Attila",
+  "es": "Atila Polimorfo",
+  "ru": "Желтопоясный атилла"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Attila spadiceus",
+ "sci_name_aco": "Attila spadiceus",
+ "sounds": [],
+ "taxon_order": 17246.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 37.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bright-rumped%20Attila%20-%20January%2024%2C%202023.jpg"
+ ]
+}

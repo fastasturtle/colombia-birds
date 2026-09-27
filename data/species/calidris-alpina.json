@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dunlin",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-alpina",
+ "ids": {
+  "avibase": "15369E8EB4CBD064",
+  "birdbase": 6823,
+  "gbif": 2481759,
+  "inaturalist": "3857",
+  "iucn": "22693427",
+  "wikidata": "Q26650",
+  "xeno_canto": "Calidris-alpina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_alpina",
+  "ebird": "https://ebird.org/species/dunlin",
+  "inaturalist": "https://www.inaturalist.org/taxa/3857",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dunlin",
+   "es": "https://es.wikipedia.org/wiki/Calidris_alpina",
+   "ru": "https://ru.wikipedia.org/wiki/Чернозобик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+alpina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dunlin",
+  "en_aco": "Dunlin",
+  "es": "Correlimos Común",
+  "ru": "Чернозобик"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris alpina",
+ "sci_name_aco": "Calidris alpina",
+ "sounds": [],
+ "taxon_order": 6192.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 60.45000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calidris%20alpina%20alpina%2C%20Riga%2C%20Latvia%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calidris-alpina-001%20edit.jpg"
+ ]
+}

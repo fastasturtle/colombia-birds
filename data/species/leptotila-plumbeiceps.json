@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gyhdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotila",
+ "id": "leptotila-plumbeiceps",
+ "ids": {
+  "avibase": "41E03340D8C8EBAF",
+  "birdbase": 4981,
+  "gbif": 2496075,
+  "inaturalist": "3268",
+  "iucn": "22690862",
+  "wikidata": "Q1269952",
+  "xeno_canto": "Leptotila-plumbeiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotila_plumbeiceps",
+  "ebird": "https://ebird.org/species/gyhdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3268",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-headed_dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotila_plumbeiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotila+plumbeiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-headed Dove",
+  "en_aco": "Gray-headed Dove",
+  "es": "Paloma Montaraz Cabecigrís",
+  "ru": "Сероголовая голубка"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotila plumbeiceps",
+ "sci_name_aco": "Leptotila plumbeiceps",
+ "sounds": [],
+ "taxon_order": 2353.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 172,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leptotila%20plumbeiceps%201902.jpg"
+ ]
+}

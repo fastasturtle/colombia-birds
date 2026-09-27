@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "balori",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-galbula",
+ "ids": {
+  "avibase": "E4B3332D6979E6BD",
+  "birdbase": 35909,
+  "gbif": 2484340,
+  "inaturalist": "9346",
+  "iucn": "22724126",
+  "wikidata": "Q805774",
+  "xeno_canto": "Icterus-galbula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_galbula",
+  "ebird": "https://ebird.org/species/balori",
+  "inaturalist": "https://www.inaturalist.org/taxa/9346",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Baltimore_oriole",
+   "es": "https://es.wikipedia.org/wiki/Icterus_galbula",
+   "ru": "https://ru.wikipedia.org/wiki/Балтиморская_иволга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+galbula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Baltimore Oriole",
+  "en_aco": "Baltimore Oriole",
+  "es": "Turpial de Baltimore",
+  "ru": "Балтиморский трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus galbula",
+ "sci_name_aco": "Icterus galbula",
+ "sounds": [],
+ "taxon_order": 33770.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland",
+   "desert",
+   "agricultural"
+  ],
+  "mass_g": 33.43333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Icterus%20galbula1.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Icterus-galbula-002.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Icterus%20galbula%20male%201.jpg"
+ ]
+}

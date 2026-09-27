@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whwpar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Brotogeris",
+ "id": "brotogeris-versicolurus",
+ "ids": {
+  "avibase": "B42BCB40EE7553FF",
+  "birdbase": 13183,
+  "gbif": 2479582,
+  "inaturalist": "19210",
+  "iucn": "22685959",
+  "wikidata": "Q1273110",
+  "xeno_canto": "Brotogeris-versicolurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brotogeris_versicolurus",
+  "ebird": "https://ebird.org/species/whwpar",
+  "inaturalist": "https://www.inaturalist.org/taxa/19210",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-winged_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Brotogeris_versicolurus",
+   "ru": "https://ru.wikipedia.org/wiki/Канареечнокрылый_тонкоклювый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brotogeris+versicolurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-winged Parakeet",
+  "en_aco": "Canary-winged Parakeet",
+  "es": "Catita Versicolor",
+  "ru": "Светлокрылая катита"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Brotogeris versicolurus",
+ "sci_name_aco": "Brotogeris versicolurus",
+ "sounds": [],
+ "taxon_order": 12829.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 2700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 70.425,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-winged%20Parakeet%20From%20The%20Crossley%20ID%20Guide%20Eastern%20Birds.jpg"
+ ]
+}

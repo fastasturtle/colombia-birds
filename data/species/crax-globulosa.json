@@ -1,0 +1,93 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "watcur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Crax",
+ "id": "crax-globulosa",
+ "ids": {
+  "avibase": "E3180F5D3B18A6A5",
+  "birdbase": 760,
+  "gbif": 2482171,
+  "inaturalist": "2049",
+  "iucn": "22678537",
+  "wikidata": "Q1043312",
+  "xeno_canto": "Crax-globulosa"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crax_globulosa",
+  "ebird": "https://ebird.org/species/watcur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2049",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wattled_curassow",
+   "es": "https://es.wikipedia.org/wiki/Crax_globulosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crax+globulosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wattled Curassow",
+  "en_aco": "Wattled Curassow",
+  "es": "Pavón Carunculado",
+  "ru": "Серёжчатый кракс"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Crax globulosa",
+ "sci_name_aco": "Crax globulosa",
+ "sounds": [],
+ "taxon_order": 934.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 2500,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wattled%20Curassow%20Crax%20globulosa%20Bird%201400px.jpg"
+ ]
+}

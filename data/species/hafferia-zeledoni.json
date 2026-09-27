@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "zelant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Hafferia",
+ "id": "hafferia-zeledoni",
+ "ids": {
+  "avibase": "7B3A4DDBE4F22CFB",
+  "birdbase": 16426,
+  "gbif": 9379128,
+  "inaturalist": "554113",
+  "iucn": "103660162",
+  "wikidata": "Q55112000",
+  "xeno_canto": "Hafferia-zeledoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hafferia_zeledoni",
+  "ebird": "https://ebird.org/species/zelant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554113",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Zeledon's_antbird",
+   "es": "https://es.wikipedia.org/wiki/Hafferia_zeledoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hafferia+zeledoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Zeledon's Antbird",
+  "en_aco": "Zeledon's Antbird",
+  "es": "Hormiguero de Zeledón",
+  "ru": "Панамская муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hafferia zeledoni",
+ "sci_name_aco": "Hafferia zeledoni",
+ "sounds": [],
+ "taxon_order": 14055.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2000,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 47.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zeledon%27s%20antbird%20%28M%29.jpg"
+ ]
+}

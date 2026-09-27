@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pltwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Pheugopedius",
+ "id": "pheugopedius-euophrys",
+ "ids": {
+  "avibase": "B24D2A00A46E3D6B",
+  "birdbase": 29035,
+  "gbif": 7341209,
+  "inaturalist": "144858",
+  "iucn": "103888269",
+  "wikidata": "Q4752620",
+  "xeno_canto": "Pheugopedius-euophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheugopedius_euophrys",
+  "ebird": "https://ebird.org/species/pltwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144858",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-tailed_wren",
+   "es": "https://es.wikipedia.org/wiki/Pheugopedius_euophrys",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheugopedius+euophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-tailed Wren",
+  "en_aco": "Plain-tailed Wren",
+  "es": "Cucarachero Coliliso",
+  "ru": "Рыжехвостый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheugopedius euophrys",
+ "sci_name_aco": "Pheugopedius euophrys",
+ "sounds": [],
+ "taxon_order": 27448.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": 1850
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 26.916666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Bamboo",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plain-tailedwren2.jpg"
+ ]
+}

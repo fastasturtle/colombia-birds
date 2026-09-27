@@ -1,0 +1,91 @@
+{
+ "authorship": "(Elliot, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wvspet1",
+ "family": {
+  "code": "oceani2",
+  "en": "Southern Storm-Petrels",
+  "sci": "Oceanitidae"
+ },
+ "genus": "Oceanites",
+ "id": "oceanites-gracilis",
+ "ids": {
+  "avibase": "934FEF660A167CB0",
+  "birdbase": 7345,
+  "gbif": 5229416,
+  "inaturalist": "4149",
+  "iucn": "22698442",
+  "wikidata": "Q1268523",
+  "xeno_canto": "Oceanites-gracilis"
+ },
+ "iucn": {
+  "aco_2022": "DD",
+  "birdbase_2024": "DD",
+  "wikidata": "Data Deficient"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oceanites_gracilis",
+  "ebird": "https://ebird.org/species/wvspet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4149",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Elliot's_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Oceanites_gracilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oceanites+gracilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Elliot's Storm-Petrel",
+  "en_aco": "Elliot's Storm-Petrel",
+  "es": "Paíño de Elliot",
+  "ru": "Изящная океанида"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Oceanites gracilis",
+ "sci_name_aco": "Oceanites gracilis",
+ "sounds": [],
+ "taxon_order": 7020.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "sea"
+  ],
+  "mass_g": 18.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eliotts%20storm%20petrel.jpg"
+ ]
+}

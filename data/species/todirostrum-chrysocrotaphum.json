@@ -1,0 +1,92 @@
+{
+ "authorship": "(Strickland, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ybtfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Todirostrum",
+ "id": "todirostrum-chrysocrotaphum",
+ "ids": {
+  "avibase": "6D2F0F0B55527F9F",
+  "birdbase": 17493,
+  "gbif": 2483262,
+  "inaturalist": "17158",
+  "iucn": "22699043",
+  "wikidata": "Q776007",
+  "xeno_canto": "Todirostrum-chrysocrotaphum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Todirostrum_chrysocrotaphum",
+  "ebird": "https://ebird.org/species/ybtfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17158",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-browed_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Todirostrum_chrysocrotaphum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Todirostrum+chrysocrotaphum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-browed Tody-Flycatcher",
+  "en_aco": "Yellow-browed Tody-Flycatcher",
+  "es": "Titirijí Cejiamarillo",
+  "ru": "Желтобровый тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Todirostrum chrysocrotaphum",
+ "sci_name_aco": "Todirostrum chrysocrotaphum",
+ "sounds": [],
+ "taxon_order": 16442.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Todirostrum%20chrysocrotaphum%20-%20Yellow-browed%20Tody-Flycatcher.JPG"
+ ]
+}

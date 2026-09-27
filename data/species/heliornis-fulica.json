@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sungre1",
+ "family": {
+  "code": "helior1",
+  "en": "Finfoots",
+  "sci": "Heliornithidae"
+ },
+ "genus": "Heliornis",
+ "id": "heliornis-fulica",
+ "ids": {
+  "avibase": "097FAA36037C0D0D",
+  "birdbase": 5622,
+  "gbif": 2474343,
+  "inaturalist": "68",
+  "iucn": "22692192",
+  "wikidata": "Q1086846",
+  "xeno_canto": "Heliornis-fulica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliornis_fulica",
+  "ebird": "https://ebird.org/species/sungre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/68",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sungrebe",
+   "es": "https://es.wikipedia.org/wiki/Heliornis_fulica",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканский_лапчатоног"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliornis+fulica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sungrebe",
+  "en_aco": "Sungrebe",
+  "es": "Avesol Americano",
+  "ru": "Южноамериканский лапчатоног"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Heliornis fulica",
+ "sci_name_aco": "Heliornis fulica",
+ "sounds": [],
+ "taxon_order": 5669.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 136.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sungrebe.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sungrebe2.jpeg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stbspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-cinnamomea",
+ "ids": {
+  "avibase": "5EA3AA05E87AFDDC",
+  "birdbase": 15636,
+  "gbif": 2484995,
+  "inaturalist": "10961",
+  "iucn": "22702381",
+  "wikidata": "Q1276028",
+  "xeno_canto": "Synallaxis-cinnamomea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_cinnamomea",
+  "ebird": "https://ebird.org/species/stbspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10961",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stripe-breasted_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_cinnamomea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+cinnamomea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stripe-breasted Spinetail",
+  "en_aco": "Stripe-breasted Spinetail",
+  "es": "Pijuí Pechiestriado",
+  "ru": "Пестрогрудая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis cinnamomea",
+ "sci_name_aco": "Synallaxis cinnamomea",
+ "sounds": [],
+ "taxon_order": 15664.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 19,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stripe-breasted%20Spinetail%20%28Synallaxis%20cinnamomea%29.jpg"
+ ]
+}

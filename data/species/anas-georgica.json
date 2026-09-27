@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebpin1",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Anas",
+ "id": "anas-georgica",
+ "ids": {
+  "avibase": "B940CCD55F94CFD4",
+  "birdbase": 439,
+  "gbif": 2498127,
+  "inaturalist": "6988",
+  "iucn": "22680310",
+  "wikidata": "Q598302",
+  "xeno_canto": "Anas-georgica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anas_georgica",
+  "ebird": "https://ebird.org/species/yebpin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6988",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-billed_pintail",
+   "es": "https://es.wikipedia.org/wiki/Anas_georgica",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоклювая_шилохвость"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anas+georgica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-billed Pintail",
+  "en_aco": "Yellow-billed Pintail",
+  "es": "Ánade Maicero",
+  "ru": "Желтоклювая шилохвость"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Anas georgica",
+ "sci_name_aco": "Anas georgica",
+ "sounds": [],
+ "taxon_order": 606.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 626.6666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anas%20georgica%20-Puerto%20Natales%2C%20Patagonia%2C%20Chile-8%20%281%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anas%20georgica%20-Curitiba%20Zoo%2C%20Parana%2C%20Brazil-8a.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Temminck, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orbfal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Falco",
+ "id": "falco-deiroleucus",
+ "ids": {
+  "avibase": "FF01908392BADA32",
+  "birdbase": 12946,
+  "gbif": 2481021,
+  "inaturalist": "4682",
+  "iucn": "22696516",
+  "wikidata": "Q383789",
+  "xeno_canto": "Falco-deiroleucus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Falco_deiroleucus",
+  "ebird": "https://ebird.org/species/orbfal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4682",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-breasted_falcon",
+   "es": "https://es.wikipedia.org/wiki/Falco_deiroleucus",
+   "ru": "https://ru.wikipedia.org/wiki/Красногрудый_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Falco+deiroleucus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-breasted Falcon",
+  "en_aco": "Orange-breasted Falcon",
+  "es": "Halcón Pechirrojo",
+  "ru": "Рыжегрудый чеглок"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Falco deiroleucus",
+ "sci_name_aco": "Falco deiroleucus",
+ "sounds": [],
+ "taxon_order": 12100.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "savanna",
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 500,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Falco%20deiroleucus%20-%20Orange-breasted%20Falcon.JPG"
+ ]
+}

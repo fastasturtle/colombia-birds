@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "smbani",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Crotophaga",
+ "id": "crotophaga-ani",
+ "ids": {
+  "avibase": "469BC7B8CAF14C59",
+  "birdbase": 3861,
+  "gbif": 2496209,
+  "inaturalist": "1971",
+  "iucn": "22684434",
+  "wikidata": "Q256046",
+  "xeno_canto": "Crotophaga-ani"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crotophaga_ani",
+  "ebird": "https://ebird.org/species/smbani",
+  "inaturalist": "https://www.inaturalist.org/taxa/1971",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Smooth-billed_ani",
+   "es": "https://es.wikipedia.org/wiki/Crotophaga_ani",
+   "ru": "https://ru.wikipedia.org/wiki/Ани_(птица)"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crotophaga+ani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Smooth-billed Ani",
+  "en_aco": "Smooth-billed Ani",
+  "es": "Garrapatero Aní",
+  "ru": "Гладкоклювая ани"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Crotophaga ani",
+ "sci_name_aco": "Crotophaga ani",
+ "sounds": [],
+ "taxon_order": 3026.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 125.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Smooth-billed%20ani%20%28Crotophaga%20ani%29%20GC.JPG"
+ ]
+}

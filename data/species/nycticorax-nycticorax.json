@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bcnher",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Nycticorax",
+ "id": "nycticorax-nycticorax",
+ "ids": {
+  "avibase": "6BB94D7EA4D041A8",
+  "birdbase": 7934,
+  "gbif": 2480863,
+  "inaturalist": "4981",
+  "iucn": "22697211",
+  "wikidata": "Q126216",
+  "xeno_canto": "Nycticorax-nycticorax"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nycticorax_nycticorax",
+  "ebird": "https://ebird.org/species/bcnher",
+  "inaturalist": "https://www.inaturalist.org/taxa/4981",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-crowned_night_heron",
+   "es": "https://es.wikipedia.org/wiki/Nycticorax_nycticorax",
+   "ru": "https://ru.wikipedia.org/wiki/Обыкновенная_кваква"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nycticorax+nycticorax"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-crowned Night Heron",
+  "en_aco": "Black-crowned Night-Heron",
+  "es": "Martinete Común",
+  "ru": "Кваква"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Nycticorax nycticorax",
+ "sci_name_aco": "Nycticorax nycticorax",
+ "sounds": [],
+ "taxon_order": 7600.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4816,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 779.425,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax-nycticorax-004.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax%20nycticorax%20nycticorax%2C%20Camargue%20%2833620984464%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax%20nycticorax%20Tome%20Chile.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-crowned%20night%20heron%20in%20PP%20%2836399%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax%20nycticorax%2C%20West%20Point%20Island%2C%20Falkland%20Islands%202.jpg"
+ ]
+}

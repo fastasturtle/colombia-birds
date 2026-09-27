@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baywre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Cantorchilus",
+ "id": "cantorchilus-nigricapillus",
+ "ids": {
+  "avibase": "8F45CD3F1E24765B",
+  "birdbase": 29145,
+  "gbif": 7341063,
+  "inaturalist": "144876",
+  "iucn": "22711438",
+  "wikidata": "Q4767755",
+  "xeno_canto": "Cantorchilus-nigricapillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cantorchilus_nigricapillus",
+  "ebird": "https://ebird.org/species/baywre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144876",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bay_wren",
+   "es": "https://es.wikipedia.org/wiki/Cantorchilus_nigricapillus",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановый_кустарниковый_крапивник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cantorchilus+nigricapillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bay Wren",
+  "en_aco": "Bay Wren",
+  "es": "Cucarachero Cabecinegro",
+  "ru": "Черноголовый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cantorchilus nigricapillus",
+ "sci_name_aco": "Cantorchilus nigricapillus",
+ "sounds": [],
+ "taxon_order": 27541.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 22.600000000000005,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bay%20Wren.jpg"
+ ]
+}

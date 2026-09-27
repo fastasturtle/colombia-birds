@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bonaparte, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubpic1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-rufiventris",
+ "ids": {
+  "avibase": "15C88984B9AD808E",
+  "birdbase": 11736,
+  "gbif": 5228751,
+  "inaturalist": "17808",
+  "iucn": "22680756",
+  "wikidata": "Q945581",
+  "xeno_canto": "Picumnus-rufiventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_rufiventris",
+  "ebird": "https://ebird.org/species/rubpic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17808",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_rufiventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+rufiventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Piculet",
+  "en_aco": "Rufous-breasted Piculet",
+  "es": "Carpinterito Ventrirrufo",
+  "ru": "Рыжебрюхий дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus rufiventris",
+ "sci_name_aco": "Picumnus rufiventris",
+ "sounds": [],
+ "taxon_order": 11080.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": 1500,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.166666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20rufiventris%20-%20Rufous-breeasted%20Piculet%20%28female%29%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

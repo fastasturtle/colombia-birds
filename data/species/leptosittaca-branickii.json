@@ -1,0 +1,92 @@
+{
+ "authorship": "(Berlepsch & Stolzmann, 1894)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goppar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Leptosittaca",
+ "id": "leptosittaca-branickii",
+ "ids": {
+  "avibase": "B6D7DD310F119FC8",
+  "birdbase": 13541,
+  "gbif": 2480179,
+  "inaturalist": "19298",
+  "iucn": "22685755",
+  "wikidata": "Q1272552",
+  "xeno_canto": "Leptosittaca-branickii"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptosittaca_branickii",
+  "ebird": "https://ebird.org/species/goppar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19298",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-plumed_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Leptosittaca_branickii",
+   "ru": "https://ru.wikipedia.org/wiki/Андский_высокогорный_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptosittaca+branickii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-plumed Parakeet",
+  "en_aco": "Golden-plumed Parakeet",
+  "es": "Aratinga de Pinceles",
+  "ru": "Желтоусый попугай"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Leptosittaca branickii",
+ "sci_name_aco": "Leptosittaca branickii",
+ "sounds": [],
+ "taxon_order": 13161.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": 3600,
+   "min": 2400,
+   "min_extreme": 1400
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 157.76749999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leptosittaca%20branickii%20-Tapichalaca%20Reserve-8.jpg"
+ ]
+}

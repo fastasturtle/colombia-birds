@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gyldenstolpe, 1930)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chtspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-cherriei",
+ "ids": {
+  "avibase": "F7040F57ACA2B388",
+  "birdbase": 15656,
+  "gbif": 2484990,
+  "inaturalist": "10980",
+  "iucn": "22702363",
+  "wikidata": "Q1269875",
+  "xeno_canto": "Synallaxis-cherriei"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_cherriei",
+  "ebird": "https://ebird.org/species/chtspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10980",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-throated_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_cherriei",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+cherriei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-throated Spinetail",
+  "en_aco": "Chestnut-throated Spinetail",
+  "es": "Pijuí Gorjicastaño",
+  "ru": "Каштановая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis cherriei",
+ "sci_name_aco": "Synallaxis cherriei",
+ "sounds": [],
+ "taxon_order": 15681.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1450,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 15.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20cherriei%20-%20Chestnut-throated%20spinetail.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lichtenstein, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "jabiru",
+ "family": {
+  "code": "ciconi2",
+  "en": "Storks",
+  "sci": "Ciconiidae"
+ },
+ "genus": "Jabiru",
+ "id": "jabiru-mycteria",
+ "ids": {
+  "avibase": "49BD1F795F1F8A5C",
+  "birdbase": 7647,
+  "gbif": 2481953,
+  "inaturalist": "4773",
+  "iucn": "22697710",
+  "wikidata": "Q17970",
+  "xeno_canto": "Jabiru-mycteria"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Jabiru_mycteria",
+  "ebird": "https://ebird.org/species/jabiru",
+  "inaturalist": "https://www.inaturalist.org/taxa/4773",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Jabiru",
+   "es": "https://es.wikipedia.org/wiki/Jabiru_mycteria",
+   "ru": "https://ru.wikipedia.org/wiki/Бразильский_ябиру"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Jabiru+mycteria"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Jabiru",
+  "en_aco": "Jabiru",
+  "es": "Jabirú Americano",
+  "ru": "Ябиру"
+ },
+ "order": "Ciconiiformes",
+ "photos": [],
+ "sci_name": "Jabiru mycteria",
+ "sci_name_aco": "Jabiru mycteria",
+ "sounds": [],
+ "taxon_order": 7301.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 6164.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Jabiru%20Mato%20Grosso%20Pantanal%20Brazil-2.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Donovan, 1809)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rinduc",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Aythya",
+ "id": "aythya-collaris",
+ "ids": {
+  "avibase": "0783A7EA9C26947D",
+  "birdbase": 495,
+  "gbif": 2498264,
+  "inaturalist": "7044",
+  "iucn": "22680370",
+  "wikidata": "Q601055",
+  "xeno_canto": "Aythya-collaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aythya_collaris",
+  "ebird": "https://ebird.org/species/rinduc",
+  "inaturalist": "https://www.inaturalist.org/taxa/7044",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ring-necked_duck",
+   "es": "https://es.wikipedia.org/wiki/Aythya_collaris",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковая_чернеть"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aythya+collaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ring-necked Duck",
+  "en_aco": "Ring-necked Duck",
+  "es": "Porrón Acollarado",
+  "ru": "Кольчатая чернеть"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Aythya collaris",
+ "sci_name_aco": "Aythya collaris",
+ "sounds": [],
+ "taxon_order": 673.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 825.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ring-necked%20Duck%20%28f%29%20%2826058476660%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ring-necked%20Duck%20%28m%29%20%2826265137481%29.jpg"
+ ]
+}

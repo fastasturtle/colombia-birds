@@ -1,0 +1,91 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sthbrf8",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Arremon",
+ "id": "arremon-assimilis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35257,
+  "gbif": 7341896,
+  "inaturalist": "145288",
+  "iucn": "22724905",
+  "wikidata": "Q5608066",
+  "xeno_canto": "Arremon-assimilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Arremon_assimilis",
+  "ebird": "https://ebird.org/species/sthbrf8",
+  "inaturalist": "https://www.inaturalist.org/taxa/145288",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-browed_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Arremon_assimilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arremon+assimilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-browed Brushfinch",
+  "en_aco": "Gray-browed Brushfinch",
+  "es": "Cerquero Picofino",
+  "ru": "Серобровый тохи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Arremon assimilis",
+ "sci_name_aco": "Arremon assimilis",
+ "sounds": [],
+ "taxon_order": 33041.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 38.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buarremon%20assimilis%20%28Atlapetes%20listado%29%20%2822654443455%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkttro6",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-rufus",
+ "ids": {
+  "avibase": "EB24DFEE3F0B69E3",
+  "birdbase": 9978,
+  "gbif": 2496683,
+  "inaturalist": "20722",
+  "iucn": "22682810",
+  "wikidata": "Q998727",
+  "xeno_canto": "Trogon-rufus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_rufus",
+  "ebird": "https://ebird.org/species/bkttro6",
+  "inaturalist": "https://www.inaturalist.org/taxa/20722",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_black-throated_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_rufus",
+   "ru": "https://ru.wikipedia.org/wiki/Черногорлый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+rufus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Amazonian Black-throated Trogon",
+  "en_aco": "Black-throated Trogon",
+  "es": "Trogón Amarillo Esmeralda",
+  "ru": null
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon rufus",
+ "sci_name_aco": "Trogon rufus",
+ "sounds": [],
+ "taxon_order": 9562.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "rivers_lakes"
+  ],
+  "mass_g": 54.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20rufus%20Amazonian%20Black-throated%20Trogon%20%28male%29%3B%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

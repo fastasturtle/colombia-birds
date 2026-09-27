@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "graspa",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Ammodramus",
+ "id": "ammodramus-savannarum",
+ "ids": {
+  "avibase": "5BFFE091FBA75EA2",
+  "birdbase": 35158,
+  "gbif": 2491123,
+  "inaturalist": "10139",
+  "iucn": "22721144",
+  "wikidata": "Q1588210",
+  "xeno_canto": "Ammodramus-savannarum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ammodramus_savannarum",
+  "ebird": "https://ebird.org/species/graspa",
+  "inaturalist": "https://www.inaturalist.org/taxa/10139",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grasshopper_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Ammodramus_savannarum",
+   "ru": "https://ru.wikipedia.org/wiki/Кузнечиковая_саванная_овсянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ammodramus+savannarum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grasshopper Sparrow",
+  "en_aco": "Grasshopper Sparrow",
+  "es": "Chingolo Saltamontes",
+  "ru": "Кузнечиковая овсянка-барсучок"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ammodramus savannarum",
+ "sci_name_aco": "Ammodramus savannarum",
+ "sounds": [],
+ "taxon_order": 32943.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1550,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland"
+  ],
+  "mass_g": 18.566666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grasshopper%20Sparrow%20-%20Geronimo%20Trail%20-%20CNF%20-%20NM%20-%202015-09-12at09-11-0018%20%2821738356828%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blfhaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Leucopternis",
+ "id": "leucopternis-melanops",
+ "ids": {
+  "avibase": "95D16974660EA62B",
+  "birdbase": 8770,
+  "gbif": 2480402,
+  "inaturalist": "5250",
+  "iucn": "22695757",
+  "wikidata": "Q1261497",
+  "xeno_canto": "Leucopternis-melanops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leucopternis_melanops",
+  "ebird": "https://ebird.org/species/blfhaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5250",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-faced_hawk",
+   "es": "https://es.wikipedia.org/wiki/Leucopternis_melanops",
+   "ru": "https://ru.wikipedia.org/wiki/Чернолицый_пегий_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leucopternis+melanops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-faced Hawk",
+  "en_aco": "Black-faced Hawk",
+  "es": "Busardo Carinegro",
+  "ru": "Чернолицая агуйла"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Leucopternis melanops",
+ "sci_name_aco": "Leucopternis melanops",
+ "sounds": [],
+ "taxon_order": 8470.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 327.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leucopternis%20melanops%20-%20Black-faced%20hawk.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Bonaparte, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "clcrob",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-grayi",
+ "ids": {
+  "avibase": "B337C841CBCAED19",
+  "birdbase": 30814,
+  "gbif": 2490716,
+  "inaturalist": "12720",
+  "iucn": "22708914",
+  "wikidata": "Q551736",
+  "xeno_canto": "Turdus-grayi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_grayi",
+  "ebird": "https://ebird.org/species/clcrob",
+  "inaturalist": "https://www.inaturalist.org/taxa/12720",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Clay-colored_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_grayi",
+   "ru": "https://ru.wikipedia.org/wiki/Дрозд_Грея"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+grayi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Clay-colored Thrush",
+  "en_aco": "Clay-colored Thrush",
+  "es": "Zorzal Pardo",
+  "ru": "Рыжеватый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus grayi",
+ "sci_name_aco": "Turdus grayi",
+ "sounds": [],
+ "taxon_order": 28767.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2450,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "plantation",
+   "agricultural"
+  ],
+  "mass_g": 78.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Clay-coloured%20thrush%20%28Turdus%20grayi%20megas%29%20Palopo.jpg"
+ ]
+}

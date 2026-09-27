@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye & Orbigny, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "moucac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-chrysonotus",
+ "ids": {
+  "avibase": "4663E94B8B8453EF",
+  "birdbase": 35853,
+  "gbif": 5229822,
+  "inaturalist": "10364",
+  "iucn": "22731290",
+  "wikidata": "Q1300883",
+  "xeno_canto": "Cacicus-chrysonotus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_chrysonotus",
+  "ebird": "https://ebird.org/species/moucac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10364",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mountain_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_chrysonotus",
+   "ru": "https://ru.wikipedia.org/wiki/Cacicus_chrysonotus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+chrysonotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mountain Cacique",
+  "en_aco": "Mountain Cacique",
+  "es": "Cacique Montano",
+  "ru": "Жёлтоспинный кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus chrysonotus",
+ "sci_name_aco": "Cacicus chrysonotus",
+ "sounds": [],
+ "taxon_order": 33654.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 78.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Mountain%20Cacique%20%28Cacicus%20chrysonotus%29.jpg"
+ ]
+}

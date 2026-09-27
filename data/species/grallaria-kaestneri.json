@@ -1,0 +1,93 @@
+{
+ "authorship": "(F.G. Stiles, 1992)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cunant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-kaestneri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16542,
+  "gbif": 2490530,
+  "inaturalist": "116776",
+  "iucn": "22703268",
+  "wikidata": "Q606642",
+  "xeno_canto": "Grallaria-kaestneri"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_kaestneri",
+  "ebird": "https://ebird.org/species/cunant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116776",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cundinamarca_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_kaestneri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+kaestneri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cundinamarca Antpitta",
+  "en_aco": "Cundinamarca Antpitta",
+  "es": "Tororoí de Cundinamarca",
+  "ru": "Колумбийская питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria kaestneri",
+ "sci_name_aco": "Grallaria kaestneri",
+ "sounds": [],
+ "taxon_order": 14244.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 47.599999999999994,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20kaestneri%20237096721.jpg"
+ ]
+}

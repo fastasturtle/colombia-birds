@@ -1,0 +1,97 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "glteme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chionomesa",
+ "id": "chionomesa-fimbriata",
+ "ids": {
+  "avibase": "91AD1DE4F0918A55",
+  "birdbase": 3673,
+  "gbif": 10941997,
+  "inaturalist": "5683",
+  "iucn": "22687534",
+  "wikidata": "Q873437",
+  "xeno_canto": "Amazilia-fimbriata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazilia_fimbriata",
+  "ebird": "https://ebird.org/species/glteme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5683",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Glittering-throated_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chionomesa_fimbriata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chionomesa+fimbriata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Glittering-throated Emerald",
+  "en_aco": "Glittering-throated Emerald",
+  "es": "Amazilia Listada",
+  "ru": "Изумрудная амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chionomesa fimbriata",
+ "sci_name_aco": "Chionomesa fimbriata",
+ "sounds": [],
+ "taxon_order": 5168.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 4.766666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazilia%20fimbriata.jpg"
+ ]
+}

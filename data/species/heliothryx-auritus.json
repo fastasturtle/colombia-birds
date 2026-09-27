@@ -1,0 +1,91 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkefai1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliothryx",
+ "id": "heliothryx-auritus",
+ "ids": {
+  "avibase": "EFBDAE18E7F4D901",
+  "birdbase": 2827,
+  "gbif": 2476220,
+  "inaturalist": "6383",
+  "iucn": "22688111",
+  "wikidata": "Q521821",
+  "xeno_canto": "Heliothryx-auritus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliothryx_auritus",
+  "ebird": "https://ebird.org/species/bkefai1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6383",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-eared_fairy",
+   "es": "https://es.wikipedia.org/wiki/Heliothryx_auritus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliothryx+auritus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-eared Fairy",
+  "en_aco": "Black-eared Fairy",
+  "es": "Colibrí Hada Oriental",
+  "ru": "Черноухая колибри-фея"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliothryx auritus",
+ "sci_name_aco": "Heliothryx auritus",
+ "sounds": [],
+ "taxon_order": 4369.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 5.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-eared%20Fairy%20%28Heliothryx%20aurita%29.jpg"
+ ]
+}

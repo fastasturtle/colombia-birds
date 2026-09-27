@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcpet1",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Procellaria",
+ "id": "procellaria-aequinoctialis",
+ "ids": {
+  "avibase": "35EB45A0494AEE57",
+  "birdbase": 7548,
+  "gbif": 2481495,
+  "inaturalist": "4136",
+  "iucn": "22698140",
+  "wikidata": "Q276206",
+  "xeno_canto": "Procellaria-aequinoctialis"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Procellaria_aequinoctialis",
+  "ebird": "https://ebird.org/species/whcpet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4136",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chinned_petrel",
+   "es": "https://es.wikipedia.org/wiki/Procellaria_aequinoctialis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Procellaria+aequinoctialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chinned Petrel",
+  "en_aco": "White-chinned Petrel",
+  "es": "Pardela Gorjiblanca",
+  "ru": "Белогорлый буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Procellaria aequinoctialis",
+ "sci_name_aco": "Procellaria aequinoctialis",
+ "sounds": [],
+ "taxon_order": 7192.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 420,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "sea"
+  ],
+  "mass_g": 1432.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Procellaria%20aequinoctialis%20off%20Kaikoura.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Procellaria%20aequinoctialis%20in%20flight.jpg"
+ ]
+}

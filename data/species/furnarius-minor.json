@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leshor1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Furnarius",
+ "id": "furnarius-minor",
+ "ids": {
+  "avibase": "9CC0B18FB12ACA92",
+  "birdbase": 14981,
+  "gbif": 2485830,
+  "inaturalist": "11289",
+  "iucn": "22702128",
+  "wikidata": "Q3089866",
+  "xeno_canto": "Furnarius-minor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Furnarius_minor",
+  "ebird": "https://ebird.org/species/leshor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11289",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_hornero",
+   "es": "https://es.wikipedia.org/wiki/Furnarius_minor",
+   "ru": "https://ru.wikipedia.org/wiki/Малый_настоящий_печник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Furnarius+minor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Hornero",
+  "en_aco": "Lesser Hornero",
+  "es": "Hornero Chico",
+  "ru": "Малый печник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Furnarius minor",
+ "sci_name_aco": "Furnarius minor",
+ "sounds": [],
+ "taxon_order": 15046.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": 300,
+   "min": 50,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 26,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Furnarius%20minor%20-%20Lesser%20Hornero%20at%20Amazonas.JPG"
+ ]
+}

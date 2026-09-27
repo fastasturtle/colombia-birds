@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leanig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Chordeiles",
+ "id": "chordeiles-pusillus",
+ "ids": {
+  "avibase": "897A81B0FCAFE097",
+  "birdbase": 1828,
+  "gbif": 2497045,
+  "inaturalist": "19595",
+  "iucn": "22689701",
+  "wikidata": "Q1263110",
+  "xeno_canto": "Chordeiles-pusillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chordeiles_pusillus",
+  "ebird": "https://ebird.org/species/leanig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19595",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Least_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Chordeiles_pusillus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chordeiles+pusillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Least Nighthawk",
+  "en_aco": "Least Nighthawk",
+  "es": "Añapero Menudo",
+  "ru": "Карликовый сумеречник"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Chordeiles pusillus",
+ "sci_name_aco": "Chordeiles pusillus",
+ "sounds": [],
+ "taxon_order": 3474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland"
+  ],
+  "mass_g": 29.733333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bacurauzinho.jpg"
+ ]
+}

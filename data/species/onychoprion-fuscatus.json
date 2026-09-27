@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sooter1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Onychoprion",
+ "id": "onychoprion-fuscatus",
+ "ids": {
+  "avibase": "3E7F825D03C0DC3E",
+  "birdbase": 6950,
+  "gbif": 5789284,
+  "inaturalist": "144525",
+  "iucn": "22694740",
+  "wikidata": "Q28482",
+  "xeno_canto": "Onychoprion-fuscatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Onychoprion_fuscatus",
+  "ebird": "https://ebird.org/species/sooter1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144525",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sooty_tern",
+   "es": "https://es.wikipedia.org/wiki/Onychoprion_fuscatus",
+   "ru": "https://ru.wikipedia.org/wiki/Тёмная_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Onychoprion+fuscatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sooty Tern",
+  "en_aco": "Sooty Tern",
+  "es": "Charrán Sombrío",
+  "ru": "Тёмная крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Onychoprion fuscatus",
+ "sci_name_aco": "Onychoprion fuscatus",
+ "sounds": [],
+ "taxon_order": 6665.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 183,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Onychoprion%20fuscatus%20Ascension%20Island%207.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sterna%20fuscata.JPG"
+ ]
+}

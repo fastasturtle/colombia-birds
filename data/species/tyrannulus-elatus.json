@@ -1,0 +1,94 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yectyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannulus",
+ "id": "tyrannulus-elatus",
+ "ids": {
+  "avibase": "C28307D6363A11CC",
+  "birdbase": 16894,
+  "gbif": 2483855,
+  "inaturalist": "17266",
+  "iucn": "22699227",
+  "wikidata": "Q537956",
+  "xeno_canto": "Tyrannulus-elatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannulus_elatus",
+  "ebird": "https://ebird.org/species/yectyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17266",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-crowned_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Tyrannulus_elatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannulus+elatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-crowned Tyrannulet",
+  "en_aco": "Yellow-crowned Tyrannulet",
+  "es": "Mosquerito Coronado",
+  "ru": "Корольковый москерито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannulus elatus",
+ "sci_name_aco": "Tyrannulus elatus",
+ "sounds": [],
+ "taxon_order": 16653.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 7.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrannulus%20elatus%20Tiranuelo%20coronado%20Yellow-crowned%20Tyrannulet%20%286515681957%29%20%28cropped%29.jpg"
+ ]
+}

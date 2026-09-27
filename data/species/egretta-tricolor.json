@@ -1,0 +1,96 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "triher",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Egretta",
+ "id": "egretta-tricolor",
+ "ids": {
+  "avibase": "031409C72898108C",
+  "birdbase": 7959,
+  "gbif": 2480881,
+  "inaturalist": "4938",
+  "iucn": "22696931",
+  "wikidata": "Q392139",
+  "xeno_canto": "Egretta-tricolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Egretta_tricolor",
+  "ebird": "https://ebird.org/species/triher",
+  "inaturalist": "https://www.inaturalist.org/taxa/4938",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tricolored_heron",
+   "es": "https://es.wikipedia.org/wiki/Egretta_tricolor",
+   "ru": "https://ru.wikipedia.org/wiki/Трёхцветная_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Egretta+tricolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tricolored Heron",
+  "en_aco": "Tricolored Heron",
+  "es": "Garceta Tricolor",
+  "ru": "Трёхцветная цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Egretta tricolor",
+ "sci_name_aco": "Egretta tricolor",
+ "sounds": [],
+ "taxon_order": 7630.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1680,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 317,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Egretta%20tricolor%2C%20Marco%20Island%2C%20Florida.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Adult%20Tricolored%20Heron.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%207277tricolored-heron-border.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tricolored%20Heron%20Wading.jpg"
+ ]
+}

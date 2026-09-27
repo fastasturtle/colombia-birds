@@ -1,0 +1,92 @@
+{
+ "authorship": "(Loddiges, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "butcor1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Boissonneaua",
+ "id": "boissonneaua-flavescens",
+ "ids": {
+  "avibase": "8DA07483E99977D8",
+  "birdbase": 3162,
+  "gbif": 2476787,
+  "inaturalist": "6447",
+  "iucn": "22687868",
+  "wikidata": "Q1266737",
+  "xeno_canto": "Boissonneaua-flavescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Boissonneaua_flavescens",
+  "ebird": "https://ebird.org/species/butcor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6447",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-tailed_coronet",
+   "es": "https://es.wikipedia.org/wiki/Boissonneaua_flavescens",
+   "ru": "https://ru.wikipedia.org/wiki/Бледнохвостый_венценосный_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Boissonneaua+flavescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-tailed Coronet",
+  "en_aco": "Buff-tailed Coronet",
+  "es": "Colibrí Colihabano",
+  "ru": "Бледнохвостый венценосец"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Boissonneaua flavescens",
+ "sci_name_aco": "Boissonneaua flavescens",
+ "sounds": [],
+ "taxon_order": 4672.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 8.033333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/BuffTailedCoronent.jpg"
+ ]
+}

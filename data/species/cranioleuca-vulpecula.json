@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Cranioleuca",
+ "id": "cranioleuca-vulpecula",
+ "ids": {
+  "avibase": "2FE6EB5002702EC6",
+  "birdbase": 15454,
+  "gbif": 2485329,
+  "inaturalist": "11233",
+  "iucn": "22733869",
+  "wikidata": "Q1151424",
+  "xeno_canto": "Cranioleuca-vulpecula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cranioleuca_vulpecula",
+  "ebird": "https://ebird.org/species/parspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11233",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Parker's_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Cranioleuca_vulpecula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cranioleuca+vulpecula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Parker's Spinetail",
+  "en_aco": "Parker's Spinetail",
+  "es": "Curutié de Parker",
+  "ru": "Амазонская курутия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cranioleuca vulpecula",
+ "sci_name_aco": "Cranioleuca vulpecula",
+ "sounds": [],
+ "taxon_order": 15496.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cranioleuca%20vulpecula%20-%20Parker%27s%20spinetail%3B%20Marchantaria%20island%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orcpar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Brotogeris",
+ "id": "brotogeris-jugularis",
+ "ids": {
+  "avibase": "C360AA2FB43A0820",
+  "birdbase": 13189,
+  "gbif": 2479563,
+  "inaturalist": "19211",
+  "iucn": "22685980",
+  "wikidata": "Q520983",
+  "xeno_canto": "Brotogeris-jugularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brotogeris_jugularis",
+  "ebird": "https://ebird.org/species/orcpar",
+  "inaturalist": "https://www.inaturalist.org/taxa/19211",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-chinned_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Brotogeris_jugularis",
+   "ru": "https://ru.wikipedia.org/wiki/Оранжевогорлый_тонкоклювый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brotogeris+jugularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-chinned Parakeet",
+  "en_aco": "Orange-chinned Parakeet",
+  "es": "Catita Churica",
+  "ru": "Оранжевогорлая катита"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Brotogeris jugularis",
+ "sci_name_aco": "Brotogeris jugularis",
+ "sounds": [],
+ "taxon_order": 12836.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 61.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brotogeris%20jugularis%20%28Perico%20bronceado%29%20%281%29%20-%20Flickr%20-%20Alejandro%20Bayer.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orange-chinned%20Parakeet%20%2816238697748%29.jpg"
+ ]
+}

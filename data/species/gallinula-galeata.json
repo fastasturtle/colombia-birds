@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lichtenstein, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal incierto | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal? - Residente",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "comgal1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Gallinula",
+ "id": "gallinula-galeata",
+ "ids": {
+  "avibase": "3EF081A8ED429A45",
+  "birdbase": 5896,
+  "gbif": 7340222,
+  "inaturalist": "144479",
+  "iucn": "62120280",
+  "wikidata": "Q1263469",
+  "xeno_canto": "Gallinula-galeata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gallinula_galeata",
+  "ebird": "https://ebird.org/species/comgal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144479",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_gallinule",
+   "es": "https://es.wikipedia.org/wiki/Gallinula_galeata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gallinula+galeata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Gallinule",
+  "en_aco": "Common Gallinule",
+  "es": "Gallineta Americana",
+  "ru": "Американская камышница"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Gallinula galeata",
+ "sci_name_aco": "Gallinula galeata",
+ "sounds": [],
+ "taxon_order": 5468.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 374.8333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gallinula%20galeata-walking.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gallinula%20galeata%20NBII.jpg"
+ ]
+}

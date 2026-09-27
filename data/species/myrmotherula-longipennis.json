@@ -1,0 +1,91 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lowant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmotherula",
+ "id": "myrmotherula-longipennis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15796,
+  "gbif": 2490190,
+  "inaturalist": "15837",
+  "iucn": "22701511",
+  "wikidata": "Q1269301",
+  "xeno_canto": "Myrmotherula-longipennis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_longipennis",
+  "ebird": "https://ebird.org/species/lowant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15837",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-winged_antwren",
+   "es": "https://es.wikipedia.org/wiki/Myrmotherula_longipennis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmotherula+longipennis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-winged Antwren",
+  "en_aco": "Long-winged Antwren",
+  "es": "Hormiguerito Alilargo",
+  "ru": "Длиннокрылый муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmotherula longipennis",
+ "sci_name_aco": "Myrmotherula longipennis",
+ "sounds": [],
+ "taxon_order": 13749.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20longipennis%20-%20Long-winged%20antwren%20%28male%29.jpg"
+ ]
+}

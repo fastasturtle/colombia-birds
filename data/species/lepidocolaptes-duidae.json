@@ -1,0 +1,92 @@
+{
+ "authorship": "(J.T. Zimmer, 1934)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "linwoo4",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Lepidocolaptes",
+ "id": "lepidocolaptes-duidae",
+ "ids": {
+  "avibase": "E41639E70A5C85AC",
+  "birdbase": 14891,
+  "gbif": 9599337,
+  "inaturalist": "488484",
+  "iucn": "103670608",
+  "wikidata": "Q18551949",
+  "xeno_canto": "Lepidocolaptes-duidae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lepidocolaptes_duidae",
+  "ebird": "https://ebird.org/species/linwoo4",
+  "inaturalist": "https://www.inaturalist.org/taxa/488484",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Duida_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Lepidocolaptes_duidae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lepidocolaptes+duidae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Duida Woodcreeper",
+  "en_aco": "Duida Woodcreeper",
+  "es": "Trepatroncos del Duida",
+  "ru": "Темнобрюхий древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lepidocolaptes duidae",
+ "sci_name_aco": "Lepidocolaptes duidae",
+ "sounds": [],
+ "taxon_order": 14960.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 24.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Duida%20Woodcreeper.jpg"
+ ]
+}

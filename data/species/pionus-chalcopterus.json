@@ -1,0 +1,91 @@
+{
+ "authorship": "(Fraser, 1841)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brwpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pionus",
+ "id": "pionus-chalcopterus",
+ "ids": {
+  "avibase": "3B0B6BD9C4B14A05",
+  "birdbase": 13253,
+  "gbif": 2479901,
+  "inaturalist": "19099",
+  "iucn": "22686195",
+  "wikidata": "Q850014",
+  "xeno_canto": "Pionus-chalcopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pionus_chalcopterus",
+  "ebird": "https://ebird.org/species/brwpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19099",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronze-winged_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pionus_chalcopterus",
+   "ru": "https://ru.wikipedia.org/wiki/Бронзовокрылый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pionus+chalcopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronze-winged Parrot",
+  "en_aco": "Bronze-winged Parrot",
+  "es": "Loro Alibronceado",
+  "ru": "Бронзовокрылый амазонет"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pionus chalcopterus",
+ "sci_name_aco": "Pionus chalcopterus",
+ "sounds": [],
+ "taxon_order": 12895.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 2800,
+   "min": 1400,
+   "min_extreme": 120
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 265,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bronze-winged%20parrot%20%2840882670343%29.jpg"
+ ]
+}

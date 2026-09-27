@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruqdov",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Geotrygon",
+ "id": "geotrygon-montana",
+ "ids": {
+  "avibase": "4817EC0131FB3E2F",
+  "birdbase": 4939,
+  "gbif": 2496121,
+  "inaturalist": "3503",
+  "iucn": "22690966",
+  "wikidata": "Q173887",
+  "xeno_canto": "Geotrygon-montana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geotrygon_montana",
+  "ebird": "https://ebird.org/species/ruqdov",
+  "inaturalist": "https://www.inaturalist.org/taxa/3503",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Geotrygon_montana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geotrygon+montana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Quail-Dove",
+  "en_aco": "Ruddy Quail-Dove",
+  "es": "Paloma Perdiz Común",
+  "ru": "Рыжая перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Geotrygon montana",
+ "sci_name_aco": "Geotrygon montana",
+ "sounds": [],
+ "taxon_order": 2314.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 125.03333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geotrygon%20montana%20-%20Ruddy%20Quail-Dove%2C%20Trememb%C3%A9%2C%20S%C3%A3o%20Paulo%2C%20Brazil.jpg"
+ ]
+}

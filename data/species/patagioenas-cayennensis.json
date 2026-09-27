@@ -1,0 +1,96 @@
+{
+ "authorship": "(Bonnaterre, 1792)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pavpig2",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-cayennensis",
+ "ids": {
+  "avibase": "A890819453F03B28",
+  "birdbase": 4547,
+  "gbif": 2495295,
+  "inaturalist": "3085",
+  "iucn": "22690290",
+  "wikidata": "Q1263074",
+  "xeno_canto": "Patagioenas-cayennensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_cayennensis",
+  "ebird": "https://ebird.org/species/pavpig2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3085",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-vented_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_cayennensis",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжий_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+cayennensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-vented Pigeon",
+  "en_aco": "Pale-vented Pigeon",
+  "es": "Paloma Colorada",
+  "ru": "Рыжспинный голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas cayennensis",
+ "sci_name_aco": "Patagioenas cayennensis",
+ "sounds": [],
+ "taxon_order": 1940.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 232.16666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20cayennensis.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pale-vented%20Pigeon%20-Sarapiqui%20-%20Costa%20Rica%20S4E0867%20%2826697349415%29%20%28cropped%29.jpg"
+ ]
+}

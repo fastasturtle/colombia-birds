@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grtlea1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Sclerurus",
+ "id": "sclerurus-albigularis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 14482,
+  "gbif": 2485229,
+  "inaturalist": "11642",
+  "iucn": "22702968",
+  "wikidata": "Q844032",
+  "xeno_canto": "Sclerurus-albigularis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sclerurus_albigularis",
+  "ebird": "https://ebird.org/species/grtlea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11642",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-throated_leaftosser",
+   "es": "https://es.wikipedia.org/wiki/Sclerurus_albigularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sclerurus+albigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-throated Leaftosser",
+  "en_aco": "Gray-throated Leaftosser",
+  "es": "Tirahojas Gorjigrís",
+  "ru": "Серогрудый тенелюб"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sclerurus albigularis",
+ "sci_name_aco": "Sclerurus albigularis",
+ "sounds": [],
+ "taxon_order": 14560.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2200,
+   "min": 600,
+   "min_extreme": 50
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 37.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gray%20throated%20leaftosser.jpg"
+ ]
+}

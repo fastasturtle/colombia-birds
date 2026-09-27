@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hellmayr, 1906)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colcha1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-columbiana",
+ "ids": {
+  "avibase": "1F58D15F8B188713",
+  "birdbase": 664,
+  "gbif": 5229460,
+  "inaturalist": "107936",
+  "iucn": "22728519",
+  "wikidata": "Q1270435",
+  "xeno_canto": "Ortalis-columbiana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_columbiana",
+  "ebird": "https://ebird.org/species/colcha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/107936",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Colombian_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_columbiana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+columbiana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Colombian Chachalaca",
+  "en_aco": "Colombian Chachalaca",
+  "es": "Chachalaca Colombiana",
+  "ru": "Колумбийская чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis columbiana",
+ "sci_name_aco": "Ortalis columbiana",
+ "sounds": [],
+ "taxon_order": 961.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 486.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ortalis%20columbiana.JPG"
+ ]
+}

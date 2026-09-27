@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "clifly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Hirundinea",
+ "id": "hirundinea-ferruginea",
+ "ids": {
+  "avibase": "13DAA65D84518F1A",
+  "birdbase": 17619,
+  "gbif": 2483242,
+  "inaturalist": "17180",
+  "iucn": "22699738",
+  "wikidata": "Q979415",
+  "xeno_canto": "Hirundinea-ferruginea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hirundinea_ferruginea",
+  "ebird": "https://ebird.org/species/clifly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17180",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cliff_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Hirundinea_ferruginea",
+   "ru": "https://ru.wikipedia.org/wiki/Ласточковый_мухоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hirundinea+ferruginea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cliff Flycatcher",
+  "en_aco": "Cliff Flycatcher",
+  "es": "Birro Roquero",
+  "ru": "Ласточковый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hirundinea ferruginea",
+ "sci_name_aco": "Hirundinea ferruginea",
+ "sounds": [],
+ "taxon_order": 16528.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 3900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "agricultural"
+  ],
+  "mass_g": 31.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hirundinea%20ferruginea%20-Piraju%2C%20Sao%20Paulo%2C%20Brasil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gib%C3%A3o%20de%20couro.jpg"
+ ]
+}

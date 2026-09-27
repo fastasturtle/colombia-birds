@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bobher1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Cochlearius",
+ "id": "cochlearius-cochlearius",
+ "ids": {
+  "avibase": "743689848534F1F7",
+  "birdbase": 7886,
+  "gbif": 2480833,
+  "inaturalist": "5036",
+  "iucn": "22697250",
+  "wikidata": "Q210341",
+  "xeno_canto": "Cochlearius-cochlearius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cochlearius_cochlearius",
+  "ebird": "https://ebird.org/species/bobher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5036",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Boat-billed_heron",
+   "es": "https://es.wikipedia.org/wiki/Cochlearius_cochlearius",
+   "ru": "https://ru.wikipedia.org/wiki/Челноклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cochlearius+cochlearius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Boat-billed Heron",
+  "en_aco": "Boat-billed Heron",
+  "es": "Martinete Cucharón",
+  "ru": "Челноклюв"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Cochlearius cochlearius",
+ "sci_name_aco": "Cochlearius cochlearius",
+ "sounds": [],
+ "taxon_order": 7546.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 650,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 644,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cochlearius%20cochleariaPCCA20071227-8443B.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cochlearius%20cochlearius%20Cockscomb%2003.JPG"
+ ]
+}

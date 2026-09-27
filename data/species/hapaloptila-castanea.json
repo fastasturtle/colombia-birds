@@ -1,0 +1,92 @@
+{
+ "authorship": "(J. Verreaux, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whfnun2",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Hapaloptila",
+ "id": "hapaloptila-castanea",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11078,
+  "gbif": 2475205,
+  "inaturalist": "1620",
+  "iucn": "22682322",
+  "wikidata": "Q1269398",
+  "xeno_canto": "Hapaloptila-castanea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hapaloptila_castanea",
+  "ebird": "https://ebird.org/species/whfnun2",
+  "inaturalist": "https://www.inaturalist.org/taxa/1620",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-faced_nunbird",
+   "es": "https://es.wikipedia.org/wiki/Hapaloptila_castanea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hapaloptila+castanea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-faced Nunbird",
+  "en_aco": "White-faced Nunbird",
+  "es": "Buco Cariblanco",
+  "ru": "Белолицая ленивка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Hapaloptila castanea",
+ "sci_name_aco": "Hapaloptila castanea",
+ "sounds": [],
+ "taxon_order": 10456.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": 750
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 79.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hapaloptila%20castanea%20imported%20from%20iNaturalist%20photo%2015050877%20on%2020%20June%202020.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Lafresnaye, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baerob1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-nudigenis",
+ "ids": {
+  "avibase": "F697CCD28CE8B3F8",
+  "birdbase": 30826,
+  "gbif": 2490763,
+  "inaturalist": "12767",
+  "iucn": "22708919",
+  "wikidata": "Q2670041",
+  "xeno_canto": "Turdus-nudigenis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_nudigenis",
+  "ebird": "https://ebird.org/species/baerob1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12767",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spectacled_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_nudigenis",
+   "ru": "https://ru.wikipedia.org/wiki/Гологлазый_дрозд"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+nudigenis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spectacled Thrush",
+  "en_aco": "Spectacled Thrush",
+  "es": "Zorzal Caripelado",
+  "ru": "Желтоглазый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus nudigenis",
+ "sci_name_aco": "Turdus nudigenis",
+ "sounds": [],
+ "taxon_order": 28761.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 62.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20nudigenis%20-%20perched.jpg"
+ ]
+}

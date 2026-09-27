@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hoowar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-citrina",
+ "ids": {
+  "avibase": "15EB30007E1908FD",
+  "birdbase": 36222,
+  "gbif": 6093374,
+  "inaturalist": "145229",
+  "iucn": "22721876",
+  "wikidata": "Q27075904",
+  "xeno_canto": "Setophaga-citrina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_citrina",
+  "ebird": "https://ebird.org/species/hoowar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145229",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hooded_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_citrina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+citrina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hooded Warbler",
+  "en_aco": "Hooded Warbler",
+  "es": "Reinita Encapuchada",
+  "ru": "Капюшоновая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga citrina",
+ "sci_name_aco": "Setophaga citrina",
+ "sounds": [],
+ "taxon_order": 34057.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 10.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hooded%20Warbler%20f%2001.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wilsonia%20citrina%20%28Belize%29.jpg"
+ ]
+}

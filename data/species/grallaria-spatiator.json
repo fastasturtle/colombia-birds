@@ -1,0 +1,89 @@
+{
+ "authorship": "(Bangs, 1898)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufant5",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-spatiator",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16566,
+  "gbif": 11163929,
+  "inaturalist": "718417",
+  "iucn": null,
+  "wikidata": "Q27617810",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/rufant5",
+  "inaturalist": "https://www.inaturalist.org/taxa/718417",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+spatiator"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Sierra Nevada Antpitta",
+  "en_aco": "Sierra Nevada Antpitta",
+  "es": "Tororoí de Sierra Nevada",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria spatiator",
+ "sci_name_aco": "Grallaria spatiator",
+ "sounds": [],
+ "taxon_order": 14265.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": null,
+   "min": 2200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

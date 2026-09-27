@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bucmot3",
+ "family": {
+  "code": "momoti1",
+  "en": "Motmots",
+  "sci": "Momotidae"
+ },
+ "genus": "Momotus",
+ "id": "momotus-subrufescens",
+ "ids": {
+  "avibase": "0DB8CE9831AA1CE9",
+  "birdbase": 10797,
+  "gbif": 7342297,
+  "inaturalist": "144643",
+  "iucn": "61634657",
+  "wikidata": "Q3325200",
+  "xeno_canto": "Momotus-subrufescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Momotus_subrufescens",
+  "ebird": "https://ebird.org/species/bucmot3",
+  "inaturalist": "https://www.inaturalist.org/taxa/144643",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Whooping_motmot",
+   "es": "https://es.wikipedia.org/wiki/Momotus_subrufescens",
+   "ru": "https://ru.wikipedia.org/wiki/Momotus_subrufescens"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Momotus+subrufescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Whooping Motmot",
+  "en_aco": "Whooping Motmot",
+  "es": "Momoto Rojizo",
+  "ru": "Карибский момот"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Momotus subrufescens",
+ "sci_name_aco": "Momotus subrufescens",
+ "sounds": [],
+ "taxon_order": 9863.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 99.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Whooping%20Motmot%20%2840682542231%29.jpg"
+ ]
+}

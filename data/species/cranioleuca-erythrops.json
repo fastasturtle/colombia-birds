@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "refspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Cranioleuca",
+ "id": "cranioleuca-erythrops",
+ "ids": {
+  "avibase": "6D00ECAF9030E289",
+  "birdbase": 15472,
+  "gbif": 2485336,
+  "inaturalist": "11218",
+  "iucn": "22702408",
+  "wikidata": "Q796677",
+  "xeno_canto": "Cranioleuca-erythrops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cranioleuca_erythrops",
+  "ebird": "https://ebird.org/species/refspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11218",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-faced_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Cranioleuca_erythrops",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cranioleuca+erythrops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-faced Spinetail",
+  "en_aco": "Red-faced Spinetail",
+  "es": "Curutié Carirrojo",
+  "ru": "Краснолицая курутия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cranioleuca erythrops",
+ "sci_name_aco": "Cranioleuca erythrops",
+ "sounds": [],
+ "taxon_order": 15514.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": 150
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 16.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-faced%20Spinetail%20-%20Colombia%20S4E4386.jpg"
+ ]
+}

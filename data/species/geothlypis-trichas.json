@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "comyel",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Geothlypis",
+ "id": "geothlypis-trichas",
+ "ids": {
+  "avibase": "BA4C8A02839564AC",
+  "birdbase": 36201,
+  "gbif": 2489670,
+  "inaturalist": "9721",
+  "iucn": "22721836",
+  "wikidata": "Q281555",
+  "xeno_canto": "Geothlypis-trichas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geothlypis_trichas",
+  "ebird": "https://ebird.org/species/comyel",
+  "inaturalist": "https://www.inaturalist.org/taxa/9721",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_yellowthroat",
+   "es": "https://es.wikipedia.org/wiki/Geothlypis_trichas",
+   "ru": "https://ru.wikipedia.org/wiki/Желтогорлый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geothlypis+trichas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Yellowthroat",
+  "en_aco": "Common Yellowthroat",
+  "es": "Mascarita Común",
+  "ru": "Северная желтогрудка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Geothlypis trichas",
+ "sci_name_aco": "Geothlypis trichas",
+ "sounds": [],
+ "taxon_order": 34028.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "wetland"
+  ],
+  "mass_g": 11.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Common%20yellowthroat%20in%20Quogue%20%2884327%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Common%20yellowthroat%20in%20PP%20%2814155%29.jpg"
+ ]
+}

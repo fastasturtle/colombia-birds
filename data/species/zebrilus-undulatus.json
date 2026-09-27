@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "zigher1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Zebrilus",
+ "id": "zebrilus-undulatus",
+ "ids": {
+  "avibase": "5917AF018A0FB7BE",
+  "birdbase": 7893,
+  "gbif": 5229211,
+  "inaturalist": "5054",
+  "iucn": "22697291",
+  "wikidata": "Q198470",
+  "xeno_canto": "Zebrilus-undulatus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zebrilus_undulatus",
+  "ebird": "https://ebird.org/species/zigher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5054",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Zigzag_heron",
+   "es": "https://es.wikipedia.org/wiki/Zebrilus_undulatus",
+   "ru": "https://ru.wikipedia.org/wiki/Зебровая_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zebrilus+undulatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Zigzag Heron",
+  "en_aco": "Zigzag Heron",
+  "es": "Avetigre Enana",
+  "ru": "Зебровая выпь"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Zebrilus undulatus",
+ "sci_name_aco": "Zebrilus undulatus",
+ "sounds": [],
+ "taxon_order": 7555.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 123,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zigzag%20Heron.jpg"
+ ]
+}

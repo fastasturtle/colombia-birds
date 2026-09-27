@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawhae1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Spizaetus",
+ "id": "spizaetus-melanoleucus",
+ "ids": {
+  "avibase": "9131A9705E35DC0D",
+  "birdbase": 8339,
+  "gbif": 5788513,
+  "inaturalist": "73433",
+  "iucn": "22696120",
+  "wikidata": "Q1259996",
+  "xeno_canto": "Spizaetus-melanoleucus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spizaetus_melanoleucus",
+  "ebird": "https://ebird.org/species/bawhae1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73433",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-white_hawk-eagle",
+   "es": "https://es.wikipedia.org/wiki/Spizaetus_melanoleucus",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрно-белый_орёл"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spizaetus+melanoleucus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Hawk-Eagle",
+  "en_aco": "Black-and-white Hawk-Eagle",
+  "es": "Águila Blanquinegra",
+  "ru": "Чёрно-белый орёл"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Spizaetus melanoleucus",
+ "sci_name_aco": "Spizaetus melanoleucus",
+ "sounds": [],
+ "taxon_order": 8024.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 880.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spizaetus%20melanoleucas%20-%20Flickr%20-%20Dick%20Culbert.jpg"
+ ]
+}

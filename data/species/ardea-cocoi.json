@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cocher1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Ardea",
+ "id": "ardea-cocoi",
+ "ids": {
+  "avibase": "B49AB61348C178BD",
+  "birdbase": 8076,
+  "gbif": 2480951,
+  "inaturalist": "4952",
+  "iucn": "22697001",
+  "wikidata": "Q911449",
+  "xeno_canto": "Ardea-cocoi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardea_cocoi",
+  "ebird": "https://ebird.org/species/cocher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4952",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cocoi_heron",
+   "es": "https://es.wikipedia.org/wiki/Ardea_cocoi",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardea+cocoi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cocoi Heron",
+  "en_aco": "Cocoi Heron",
+  "es": "Garza Cuca",
+  "ru": "Южноамериканская цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Ardea cocoi",
+ "sci_name_aco": "Ardea cocoi",
+ "sounds": [],
+ "taxon_order": 7762.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2550,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1899.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GARZA%20MORA%20Ardea%20cocoi.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ardea%20cocoi%20-Apure%20State%2C%20Venezuela-8.jpg"
+ ]
+}

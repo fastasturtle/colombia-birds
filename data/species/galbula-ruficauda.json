@@ -1,0 +1,98 @@
+{
+ "authorship": "(Cuvier, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rutjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-ruficauda",
+ "ids": {
+  "avibase": "2EE639E92756A469",
+  "birdbase": 10949,
+  "gbif": 5228236,
+  "inaturalist": "1468",
+  "iucn": "22682200",
+  "wikidata": "Q765770",
+  "xeno_canto": "Galbula-ruficauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_ruficauda",
+  "ebird": "https://ebird.org/species/rutjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1468",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-tailed_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_ruficauda",
+   "ru": "https://ru.wikipedia.org/wiki/Краснохвостая_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+ruficauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-tailed Jacamar",
+  "en_aco": "Rufous-tailed Jacamar",
+  "es": "Jacamará Colirrufo",
+  "ru": "Рыжехвостая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula ruficauda",
+ "sci_name_aco": "Galbula ruficauda",
+ "sounds": [],
+ "taxon_order": 10499.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 27,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ariramba-de-cauda-ruiva%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbula%20ruficauda%20Jacamar%20colirrufo%20Rufous-tailed%20Jacamar%20%288491003559%29.jpg"
+ ]
+}

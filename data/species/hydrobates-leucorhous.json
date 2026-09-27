@@ -1,0 +1,92 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lcspet",
+ "family": {
+  "code": "hydrob1",
+  "en": "Northern Storm-Petrels",
+  "sci": "Hydrobatidae"
+ },
+ "genus": "Hydrobates",
+ "id": "hydrobates-leucorhous",
+ "ids": {
+  "avibase": "05E98392444BE5C7",
+  "birdbase": 7423,
+  "gbif": 9461262,
+  "inaturalist": "4080",
+  "iucn": "132438298",
+  "wikidata": "Q211986",
+  "xeno_canto": "Oceanodroma-leucorhoa"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oceanodroma_leucorhoa",
+  "ebird": "https://ebird.org/species/lcspet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4080",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Leach's_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Hydrobates_leucorhus",
+   "ru": "https://ru.wikipedia.org/wiki/Северная_качурка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrobates+leucorhous"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Leach's Storm-Petrel",
+  "en_aco": "Leach's Storm-Petrel",
+  "es": "Paíño Boreal",
+  "ru": "Северная качурка"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Hydrobates leucorhous",
+ "sci_name_aco": "Hydrobates leucorhous",
+ "sounds": [],
+ "taxon_order": 7053.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 42.583333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leach%27s%20Storm-petrel%20Saint-Jean-de-Monts%2001.jpg"
+ ]
+}

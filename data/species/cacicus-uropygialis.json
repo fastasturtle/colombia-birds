@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scrcac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-uropygialis",
+ "ids": {
+  "avibase": "73399D4E1FBF7231",
+  "birdbase": 35851,
+  "gbif": 5229817,
+  "inaturalist": "10360",
+  "iucn": "22733589",
+  "wikidata": "Q1301531",
+  "xeno_canto": "Cacicus-uropygialis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_uropygialis",
+  "ebird": "https://ebird.org/species/scrcac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10360",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Subtropical_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_uropygialis",
+   "ru": "https://ru.wikipedia.org/wiki/Краснопоясничный_чёрный_кассик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+uropygialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-rumped Cacique",
+  "en_aco": "Scarlet-rumped Cacique",
+  "es": "Cacique Lomiescarlata",
+  "ru": "Краснопоясничный кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus uropygialis",
+ "sci_name_aco": "Cacicus uropygialis",
+ "sounds": [],
+ "taxon_order": 33645.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2450,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": 1000
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 89.63333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scarlet-rumped%20Cacique%20%2825089377726%29.jpg"
+ ]
+}

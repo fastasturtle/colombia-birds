@@ -1,0 +1,95 @@
+{
+ "authorship": "(G.R. Gray, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grhcha1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-cinereiceps",
+ "ids": {
+  "avibase": "3760C5DCF9883C98",
+  "birdbase": 633,
+  "gbif": 5229450,
+  "inaturalist": "2087",
+  "iucn": "22678308",
+  "wikidata": "Q1267644",
+  "xeno_canto": "Ortalis-cinereiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_cinereiceps",
+  "ebird": "https://ebird.org/species/grhcha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2087",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-headed_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_cinereiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+cinereiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-headed Chachalaca",
+  "en_aco": "Gray-headed Chachalaca",
+  "es": "Chachalaca Cabecigrís",
+  "ru": "Сероголовая чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis cinereiceps",
+ "sci_name_aco": "Ortalis cinereiceps",
+ "sounds": [],
+ "taxon_order": 954.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 566.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gray-headed%20chachalacas%20%2834008%29.jpg"
+ ]
+}

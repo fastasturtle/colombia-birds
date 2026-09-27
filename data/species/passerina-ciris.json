@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paibun",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Passerina",
+ "id": "passerina-ciris",
+ "ids": {
+  "avibase": "0BDB87DE301150B2",
+  "birdbase": 36728,
+  "gbif": 5230852,
+  "inaturalist": "10224",
+  "iucn": "22723957",
+  "wikidata": "Q932970",
+  "xeno_canto": "Passerina-ciris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Passerina_ciris",
+  "ebird": "https://ebird.org/species/paibun",
+  "inaturalist": "https://www.inaturalist.org/taxa/10224",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Painted_bunting",
+   "es": "https://es.wikipedia.org/wiki/Passerina_ciris",
+   "ru": "https://ru.wikipedia.org/wiki/Расписной_овсянковый_кардинал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Passerina+ciris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Painted Bunting",
+  "en_aco": "Painted Bunting",
+  "es": "Azulillo Sietecolores",
+  "ru": "Расписной колорин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Passerina ciris",
+ "sci_name_aco": "Passerina ciris",
+ "sounds": [],
+ "taxon_order": 34621.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.825000000000003,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Painted-bunting-branch.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Passerina%20ciris%20ciris%2C%20Miami%2C%20Florida%204.jpg"
+ ]
+}

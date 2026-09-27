@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gycher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-griseogularis",
+ "ids": {
+  "avibase": "72304E2114A5E5B9",
+  "birdbase": 2723,
+  "gbif": 2476584,
+  "inaturalist": "5605",
+  "iucn": "22726661",
+  "wikidata": "Q1267407",
+  "xeno_canto": "Phaethornis-griseogularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_griseogularis",
+  "ebird": "https://ebird.org/species/gycher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5605",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-chinned_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_griseogularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+griseogularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-chinned Hermit",
+  "en_aco": "Gray-chinned Hermit",
+  "es": "Ermitaño Barbigrís",
+  "ru": "Серогорлый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis griseogularis",
+ "sci_name_aco": "Phaethornis griseogularis",
+ "sounds": [],
+ "taxon_order": 4315.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2200,
+   "min": 600,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 2.4166666666666665,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/A%20monograph%20of%20the%20Trochilid%C3%A6%2C%20or%20family%20of%20humming-birds%20%28Plate%2036%29%20%286987084711%29.jpg"
+ ]
+}

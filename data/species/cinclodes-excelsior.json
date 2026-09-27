@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stbcin1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Cinclodes",
+ "id": "cinclodes-excelsior",
+ "ids": {
+  "avibase": "C7E1C0612D78AF5C",
+  "birdbase": 15051,
+  "gbif": 2485064,
+  "inaturalist": "11374",
+  "iucn": "22702095",
+  "wikidata": "Q1262253",
+  "xeno_canto": "Cinclodes-excelsior"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cinclodes_excelsior",
+  "ebird": "https://ebird.org/species/stbcin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11374",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stout-billed_cinclodes",
+   "es": "https://es.wikipedia.org/wiki/Cinclodes_excelsior",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cinclodes+excelsior"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stout-billed Cinclodes",
+  "en_aco": "Stout-billed Cinclodes",
+  "es": "Remolinera Ecuatoriana",
+  "ru": "Эквадорская трясохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cinclodes excelsior",
+ "sci_name_aco": "Cinclodes excelsior",
+ "sounds": [],
+ "taxon_order": 15108.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5200,
+   "max_extreme": null,
+   "min": 3200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 63,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinclodes%20excelsior%20%28C%C3%ADnclodes%20cavador%29%20%2814036519102%29.jpg"
+ ]
+}

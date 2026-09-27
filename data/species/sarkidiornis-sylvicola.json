@@ -1,0 +1,94 @@
+{
+ "authorship": "(H. Ihering & R. Ihering, 1907)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "comduc3",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Sarkidiornis",
+ "id": "sarkidiornis-sylvicola",
+ "ids": {
+  "avibase": "6C8A4060DCC4781D",
+  "birdbase": 325,
+  "gbif": 2498003,
+  "inaturalist": "827371",
+  "iucn": "22724744",
+  "wikidata": "Q3473539",
+  "xeno_canto": "Sarkidiornis-sylvicola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sarkidiornis_sylvicola",
+  "ebird": "https://ebird.org/species/comduc3",
+  "inaturalist": "https://www.inaturalist.org/taxa/827371",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Comb_duck",
+   "es": "https://es.wikipedia.org/wiki/Sarkidiornis_sylvicola",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sarkidiornis+sylvicola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Comb Duck",
+  "en_aco": "Comb Duck",
+  "es": "Pato Crestudo Americano",
+  "ru": "Шишконосая утка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Sarkidiornis sylvicola",
+ "sci_name_aco": "Sarkidiornis sylvicola",
+ "sounds": [],
+ "taxon_order": 397.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 1817.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amerikanische%20H%C3%B6ckerglanzgans%20Sarkidiornis%20sylvicola%2005%20%281%29.jpg"
+ ]
+}

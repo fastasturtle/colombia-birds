@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rutsap1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Hylocharis",
+ "id": "hylocharis-sapphirina",
+ "ids": {
+  "avibase": "584DC7EF633128D7",
+  "birdbase": 3688,
+  "gbif": 5228570,
+  "inaturalist": "5974",
+  "iucn": null,
+  "wikidata": "Q1266692",
+  "xeno_canto": "Hylocharis-sapphirina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylocharis_sapphirina",
+  "ebird": "https://ebird.org/species/rutsap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5974",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-throated_sapphire",
+   "es": "https://es.wikipedia.org/wiki/Hylocharis_sapphirina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylocharis+sapphirina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-throated Sapphire",
+  "en_aco": "Rufous-throated Sapphire",
+  "es": "Amazilia Gorjirroja",
+  "ru": "Рыжебородый сапфир"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Hylocharis sapphirina",
+ "sci_name_aco": "Hylocharis sapphirina",
+ "sounds": [],
+ "taxon_order": 5182.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1850,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 4.239999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylocharys%20sapphirina%20Rufous-throated%20Sapphire%20%28female%29%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brasil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylocharys%20sapphirina%20Rufous-throated%20Sapphire%20%28male%29%3B%20Porto%20Seguro%2C%20Bahia%2C%20Brazil%2001.jpg"
+ ]
+}

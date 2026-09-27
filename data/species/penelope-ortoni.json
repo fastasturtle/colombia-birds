@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin, 1874)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baugua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Penelope",
+ "id": "penelope-ortoni",
+ "ids": {
+  "avibase": "BA3D0CC1D2B727F7",
+  "birdbase": 680,
+  "gbif": 2482216,
+  "inaturalist": "2070",
+  "iucn": "22678360",
+  "wikidata": "Q1273741",
+  "xeno_canto": "Penelope-ortoni"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Penelope_ortoni",
+  "ebird": "https://ebird.org/species/baugua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2070",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Baudo_guan",
+   "es": "https://es.wikipedia.org/wiki/Penelope_ortoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Penelope+ortoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Baudo Guan",
+  "en_aco": "Baudo Guan",
+  "es": "Pava de Orton",
+  "ru": "Ортонова пенелопа"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Penelope ortoni",
+ "sci_name_aco": "Penelope ortoni",
+ "sounds": [],
+ "taxon_order": 899.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3100,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 1025.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orton%27s%20Guan%20%28Penelope%20ortoni%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grhkit1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Leptodon",
+ "id": "leptodon-cayanensis",
+ "ids": {
+  "avibase": "C2A2B3630E901B72",
+  "birdbase": 8172,
+  "gbif": 5229197,
+  "inaturalist": "5283",
+  "iucn": "22694967",
+  "wikidata": "Q1260051",
+  "xeno_canto": "Leptodon-cayanensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptodon_cayanensis",
+  "ebird": "https://ebird.org/species/grhkit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5283",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gray-headed_kite",
+   "es": "https://es.wikipedia.org/wiki/Leptodon_cayanensis",
+   "ru": "https://ru.wikipedia.org/wiki/Кайенский_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptodon+cayanensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-headed Kite",
+  "en_aco": "Gray-headed Kite",
+  "es": "Milano Cabecigrís",
+  "ru": "Кайеннский коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Leptodon cayanensis",
+ "sci_name_aco": "Leptodon cayanensis",
+ "sounds": [],
+ "taxon_order": 7871.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Honeycomb",
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 506.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leptodon%20cayannensis%20-%20Gray-headed%20kite.JPG"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blhthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-olivater",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30718,
+  "gbif": 2490787,
+  "inaturalist": "12724",
+  "iucn": "22708872",
+  "wikidata": "Q1589138",
+  "xeno_canto": "Turdus-olivater"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_olivater",
+  "ebird": "https://ebird.org/species/blhthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12724",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-hooded_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_olivater",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+olivater"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-hooded Thrush",
+  "en_aco": "Black-hooded Thrush",
+  "es": "Zorzal Cabecinegro",
+  "ru": "Дрозд-капуцин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus olivater",
+ "sci_name_aco": "Turdus olivater",
+ "sounds": [],
+ "taxon_order": 28667.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 83.61666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-hooded%20Thrush%20-%20Paraulata%20Cabecinegra%20%28Turdus%20olivater%20olivater%29.jpg"
+ ]
+}

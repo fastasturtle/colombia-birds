@@ -1,0 +1,95 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rutpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Hypnelus",
+ "id": "hypnelus-ruficollis",
+ "ids": {
+  "avibase": "C98A8A1B86DFABC3",
+  "birdbase": 11025,
+  "gbif": 2475165,
+  "inaturalist": "1538",
+  "iucn": "61999582",
+  "wikidata": "Q1271806",
+  "xeno_canto": "Hypnelus-ruficollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hypnelus_ruficollis",
+  "ebird": "https://ebird.org/species/rutpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1538",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Russet-throated_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Hypnelus_ruficollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hypnelus+ruficollis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Russet-throated Puffbird",
+  "en_aco": "Russet-throated Puffbird",
+  "es": "Buco Bobito",
+  "ru": null
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Hypnelus ruficollis",
+ "sci_name_aco": "Hypnelus ruficollis",
+ "sounds": [],
+ "taxon_order": 10407.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "wetland"
+  ],
+  "mass_g": 49,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hypnellus%20ruficollis.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Russet-throated%20Puffbird%20%28Hypnelus%20ruficollis%29.jpg"
+ ]
+}

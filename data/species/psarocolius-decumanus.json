@@ -1,0 +1,95 @@
+{
+ "authorship": "(Pallas, 1769)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "creoro1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Psarocolius",
+ "id": "psarocolius-decumanus",
+ "ids": {
+  "avibase": "509940AF4614AE9C",
+  "birdbase": 35824,
+  "gbif": 2484217,
+  "inaturalist": "10126",
+  "iucn": "22723982",
+  "wikidata": "Q906518",
+  "xeno_canto": "Psarocolius-decumanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Psarocolius_decumanus",
+  "ebird": "https://ebird.org/species/creoro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10126",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_oropendola",
+   "es": "https://es.wikipedia.org/wiki/Psarocolius_decumanus",
+   "ru": "https://ru.wikipedia.org/wiki/Хохлатая_оропендола"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Psarocolius+decumanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Oropendola",
+  "en_aco": "Crested Oropendola",
+  "es": "Cacique Crestado",
+  "ru": "Хохлатая оропендола"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Psarocolius decumanus",
+ "sci_name_aco": "Psarocolius decumanus",
+ "sounds": [],
+ "taxon_order": 33624.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 229.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Psarocolius%20decumanus.jpg"
+ ]
+}

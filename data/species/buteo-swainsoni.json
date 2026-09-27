@@ -1,0 +1,95 @@
+{
+ "authorship": "(Bonaparte, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swahaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-swainsoni",
+ "ids": {
+  "avibase": "DE473F42C06227F0",
+  "birdbase": 8801,
+  "gbif": 2480562,
+  "inaturalist": "5196",
+  "iucn": "22695903",
+  "wikidata": "Q833963",
+  "xeno_canto": "Buteo-swainsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_swainsoni",
+  "ebird": "https://ebird.org/species/swahaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5196",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swainson's_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_swainsoni",
+   "ru": "https://ru.wikipedia.org/wiki/Свенсонов_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+swainsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swainson's Hawk",
+  "en_aco": "Swainson's Hawk",
+  "es": "Busardo Chapulinero",
+  "ru": "Свенсонов канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo swainsoni",
+ "sci_name_aco": "Buteo swainsoni",
+ "sounds": [],
+ "taxon_order": 8504.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland",
+   "desert"
+  ],
+  "mass_g": 847.1666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buteo%20swainsoni%20%28Calibas%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Swainson%27s%20Hawk%2C%20Dark%20Morph%20%2834369977675%29.jpg"
+ ]
+}

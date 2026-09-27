@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "beatac1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Polystictus",
+ "id": "polystictus-pectoralis",
+ "ids": {
+  "avibase": "5439BFE4271123D2",
+  "birdbase": 17108,
+  "gbif": 5229775,
+  "inaturalist": "17119",
+  "iucn": "22699420",
+  "wikidata": "Q1271271",
+  "xeno_canto": "Polystictus-pectoralis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polystictus_pectoralis",
+  "ebird": "https://ebird.org/species/beatac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17119",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bearded_tachuri",
+   "es": "https://es.wikipedia.org/wiki/Polystictus_pectoralis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polystictus+pectoralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bearded Tachuri",
+  "en_aco": "Bearded Tachuri",
+  "es": "Tachurí Barbado",
+  "ru": "Пампасный тачури"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Polystictus pectoralis",
+ "sci_name_aco": "Polystictus pectoralis",
+ "sounds": [],
+ "taxon_order": 16640.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland"
+  ],
+  "mass_g": 6.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Polystictus%20pectoralis%20Bearded%20Tachuri.JPG"
+ ]
+}

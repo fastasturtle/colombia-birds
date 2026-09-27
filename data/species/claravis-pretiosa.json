@@ -1,0 +1,94 @@
+{
+ "authorship": "(Ferrari-Pérez, 1886)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blgdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Claravis",
+ "id": "claravis-pretiosa",
+ "ids": {
+  "avibase": "C4C9F313CB04424E",
+  "birdbase": 4911,
+  "gbif": 2495922,
+  "inaturalist": "2998",
+  "iucn": "22690809",
+  "wikidata": "Q766613",
+  "xeno_canto": "Claravis-pretiosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Claravis_pretiosa",
+  "ebird": "https://ebird.org/species/blgdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2998",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Claravis_pretiosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Claravis+pretiosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue Ground Dove",
+  "en_aco": "Blue Ground Dove",
+  "es": "Tortolita Azulada",
+  "ru": "Голубая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Claravis pretiosa",
+ "sci_name_aco": "Claravis pretiosa",
+ "sounds": [],
+ "taxon_order": 2288.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 73.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Ground%20Dove%20female.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Claravis%20pretiosa%20558213084.jpg"
+ ]
+}

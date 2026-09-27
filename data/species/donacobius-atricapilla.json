@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkcdon",
+ "family": {
+  "code": "donaco1",
+  "en": "Donacobius",
+  "sci": "Donacobiidae"
+ },
+ "genus": "Donacobius",
+ "id": "donacobius-atricapilla",
+ "ids": {
+  "avibase": "878C7D44D622C044",
+  "birdbase": 26302,
+  "gbif": 2493895,
+  "inaturalist": "116877",
+  "iucn": "22711273",
+  "wikidata": "Q1424769",
+  "xeno_canto": "Donacobius-atricapilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Donacobius_atricapilla",
+  "ebird": "https://ebird.org/species/bkcdon",
+  "inaturalist": "https://www.inaturalist.org/taxa/116877",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-capped_donacobius",
+   "es": "https://es.wikipedia.org/wiki/Donacobius_atricapilla",
+   "ru": "https://ru.wikipedia.org/wiki/Черноголовый_пересмешник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Donacobius+atricapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-capped Donacobius",
+  "en_aco": "Black-capped Donacobius",
+  "es": "Angú",
+  "ru": "Черноголовый ангу"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Donacobius atricapilla",
+ "sci_name_aco": "Donacobius atricapilla",
+ "sounds": [],
+ "taxon_order": 23957.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 37.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Donacobius%20atricapilla%20-Fazenda%20Campo%20de%20Ouro%2C%20Piraju%2C%20Sao%20Paulo%2C%20Brasil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Donacobius.jpg"
+ ]
+}

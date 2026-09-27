@@ -1,0 +1,97 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "norwat",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Parkesia",
+ "id": "parkesia-noveboracensis",
+ "ids": {
+  "avibase": "709AF716468341F7",
+  "birdbase": 36132,
+  "gbif": 6093856,
+  "inaturalist": "73149",
+  "iucn": "22721793",
+  "wikidata": "Q27075884",
+  "xeno_canto": "Parkesia-noveboracensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Parkesia_noveboracensis",
+  "ebird": "https://ebird.org/species/norwat",
+  "inaturalist": "https://www.inaturalist.org/taxa/73149",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_waterthrush",
+   "es": "https://es.wikipedia.org/wiki/Parkesia_noveboracensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Parkesia+noveboracensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Waterthrush",
+  "en_aco": "Northern Waterthrush",
+  "es": "Reinita Charquera Norteña",
+  "ru": "Речной певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Parkesia noveboracensis",
+ "sci_name_aco": "Parkesia noveboracensis",
+ "sounds": [],
+ "taxon_order": 33953.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 16.55,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Waterthrush%2C%20Prospect%20Park%2C%20Brooklyn%2C%20New%20York%202022.jpg"
+ ]
+}

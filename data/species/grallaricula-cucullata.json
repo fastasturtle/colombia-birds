@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hooant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaricula",
+ "id": "grallaricula-cucullata",
+ "ids": {
+  "avibase": "3DAB83EBF54D330D",
+  "birdbase": 16656,
+  "gbif": 2490515,
+  "inaturalist": "117203",
+  "iucn": "22703392",
+  "wikidata": "Q874684",
+  "xeno_canto": "Grallaricula-cucullata"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaricula_cucullata",
+  "ebird": "https://ebird.org/species/hooant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/117203",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hooded_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaricula_cucullata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaricula+cucullata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hooded Antpitta",
+  "en_aco": "Hooded Antpitta",
+  "es": "Ponchito Encapuchado",
+  "ru": "Красноголовая питтуля"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaricula cucullata",
+ "sci_name_aco": "Grallaricula cucullata",
+ "sounds": [],
+ "taxon_order": 14342.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2150,
+   "max_extreme": 2700,
+   "min": 1800,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hooded%20Antpitta.jpg"
+ ]
+}

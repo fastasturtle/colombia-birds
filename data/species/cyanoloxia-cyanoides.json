@@ -1,0 +1,97 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubgro1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Cyanoloxia",
+ "id": "cyanoloxia-cyanoides",
+ "ids": {
+  "avibase": "BD833C24F0104AC5",
+  "birdbase": 36695,
+  "gbif": 9332343,
+  "inaturalist": "558591",
+  "iucn": "103810895",
+  "wikidata": "Q28837722",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanoloxia_cyanoides",
+  "ebird": "https://ebird.org/species/bubgro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558591",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-black_grosbeak",
+   "es": "https://es.wikipedia.org/wiki/Cyanoloxia_cyanoides",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрно-синий_большеклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanoloxia+cyanoides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-black Grosbeak",
+  "en_aco": "Blue-black Grosbeak",
+  "es": "Picogrueso Negriazul",
+  "ru": "Синяя гуирака"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanoloxia cyanoides",
+ "sci_name_aco": "Cyanoloxia cyanoides",
+ "sounds": [],
+ "taxon_order": 34580.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 29.733333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanoloxia%20cyanoides%20458674834.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanoloxia%20cyanoides%2079529940.jpg"
+ ]
+}

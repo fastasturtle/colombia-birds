@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goctan4",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Iridosornis",
+ "id": "iridosornis-rufivertex",
+ "ids": {
+  "avibase": "699BDB3EA9941E53",
+  "birdbase": 37640,
+  "gbif": 2488644,
+  "inaturalist": "9278",
+  "iucn": "22722675",
+  "wikidata": "Q1586576",
+  "xeno_canto": "Iridosornis-rufivertex"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Iridosornis_rufivertex",
+  "ebird": "https://ebird.org/species/goctan4",
+  "inaturalist": "https://www.inaturalist.org/taxa/9278",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-crowned_tanager",
+   "es": "https://es.wikipedia.org/wiki/Iridosornis_rufivertex",
+   "ru": "https://ru.wikipedia.org/wiki/Золотоголовая_иридосорния"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Iridosornis+rufivertex"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-crowned Tanager",
+  "en_aco": "Golden-crowned Tanager",
+  "es": "Tangara Coronidorada",
+  "ru": "Корольковая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Iridosornis rufivertex",
+ "sci_name_aco": "Iridosornis rufivertex",
+ "sounds": [],
+ "taxon_order": 34912.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": 3800,
+   "min": 2500,
+   "min_extreme": 2100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 23,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iridosornis%20rufivertex.jpg"
+ ]
+}

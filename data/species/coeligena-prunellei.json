@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blainc1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-prunellei",
+ "ids": {
+  "avibase": "76079E12EF24EC2D",
+  "birdbase": 3103,
+  "gbif": 2477039,
+  "inaturalist": "6252",
+  "iucn": "22687813",
+  "wikidata": "Q653965",
+  "xeno_canto": "Coeligena-prunellei"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_prunellei",
+  "ebird": "https://ebird.org/species/blainc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6252",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_inca",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_prunellei",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+prunellei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Inca",
+  "en_aco": "Black Inca",
+  "es": "Inca Negro",
+  "ru": "Чёрный инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena prunellei",
+ "sci_name_aco": "Coeligena prunellei",
+ "sounds": [],
+ "taxon_order": 4622.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coeligena%20prunellei%20Inca%20negro%20Black%20Inca%20%286491815755%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colgna1",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Microbates",
+ "id": "microbates-collaris",
+ "ids": {
+  "avibase": "2C4579F1BECDDDCC",
+  "birdbase": 29426,
+  "gbif": 5230510,
+  "inaturalist": "7622",
+  "iucn": "22711571",
+  "wikidata": "Q940954",
+  "xeno_canto": "Microbates-collaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Microbates_collaris",
+  "ebird": "https://ebird.org/species/colgna1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7622",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_gnatwren",
+   "es": "https://es.wikipedia.org/wiki/Microbates_collaris",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковая_крапивниковая_камышовка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microbates+collaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Collared Gnatwren",
+  "en_aco": "Collared Gnatwren",
+  "es": "Soterillo Acollarado",
+  "ru": "Ошейниковая комароловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Microbates collaris",
+ "sci_name_aco": "Microbates collaris",
+ "sounds": [],
+ "taxon_order": 27065.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 10.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Microbates%20collaris%20-%20Collared%20Gnatwren%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MicrobatesCollarisSmit.jpg"
+ ]
+}

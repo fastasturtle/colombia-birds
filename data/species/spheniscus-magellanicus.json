@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.R. Forster, 1781)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "magpen1",
+ "family": {
+  "code": "spheni1",
+  "en": "Penguins",
+  "sci": "Spheniscidae"
+ },
+ "genus": "Spheniscus",
+ "id": "spheniscus-magellanicus",
+ "ids": {
+  "avibase": "3B4B29E097464863",
+  "birdbase": 7322,
+  "gbif": 5229385,
+  "inaturalist": "3812",
+  "iucn": "22697822",
+  "wikidata": "Q207246",
+  "xeno_canto": "Spheniscus-magellanicus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spheniscus_magellanicus",
+  "ebird": "https://ebird.org/species/magpen1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3812",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Magellanic_penguin",
+   "es": "https://es.wikipedia.org/wiki/Spheniscus_magellanicus",
+   "ru": "https://ru.wikipedia.org/wiki/Магелланов_пингвин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spheniscus+magellanicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Magellanic Penguin",
+  "en_aco": "Magellanic Penguin",
+  "es": "Pingüino Magallánico",
+  "ru": "Магелланов пингвин"
+ },
+ "order": "Sphenisciformes",
+ "photos": [],
+ "sci_name": "Spheniscus magellanicus",
+ "sci_name_aco": "Spheniscus magellanicus",
+ "sounds": [],
+ "taxon_order": 6959.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 85,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "grassland",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 4585,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Magellanic-penguin.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Magellanic%20penguin.jpg"
+ ]
+}

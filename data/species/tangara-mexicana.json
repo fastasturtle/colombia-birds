@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "turtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-mexicana",
+ "ids": {
+  "avibase": "186AE9369E4E6C63",
+  "birdbase": 37957,
+  "gbif": 2488169,
+  "inaturalist": "9551",
+  "iucn": "103849376",
+  "wikidata": "Q2669189",
+  "xeno_canto": "Tangara-mexicana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_mexicana",
+  "ebird": "https://ebird.org/species/turtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9551",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Turquoise_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_mexicana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+mexicana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Turquoise Tanager",
+  "en_aco": "Turquoise Tanager",
+  "es": "Tangara Turquesa",
+  "ru": "Сапфировая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara mexicana",
+ "sci_name_aco": "Tangara mexicana",
+ "sounds": [],
+ "taxon_order": 35058.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 21,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sa%C3%ADra-de-bando%20%28cropped%29.jpg"
+ ]
+}

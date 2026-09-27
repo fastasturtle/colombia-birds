@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fudtre1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Margarornis",
+ "id": "margarornis-stellatus",
+ "ids": {
+  "avibase": "3AED50B1D59FE14E",
+  "birdbase": 15256,
+  "gbif": 2485845,
+  "inaturalist": "10905",
+  "iucn": "22702722",
+  "wikidata": "Q1268726",
+  "xeno_canto": "Margarornis-stellatus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Margarornis_stellatus",
+  "ebird": "https://ebird.org/species/fudtre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10905",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Star-chested_treerunner",
+   "es": "https://es.wikipedia.org/wiki/Margarornis_stellatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Margarornis+stellatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous-dotted Treerunner",
+  "en_aco": "Fulvous-dotted Treerunner",
+  "es": "Subepalo Estrellado",
+  "ru": "Жемчужногорлый щетинкохвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Margarornis stellatus",
+ "sci_name_aco": "Margarornis stellatus",
+ "sounds": [],
+ "taxon_order": 15303.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 21.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fulvous-dotted%20Treerunner%20-%20Colombia%20S4E9530.jpg"
+ ]
+}

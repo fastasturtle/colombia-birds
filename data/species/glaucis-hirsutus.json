@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubher",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Glaucis",
+ "id": "glaucis-hirsutus",
+ "ids": {
+  "avibase": "2486FC7807369CB1",
+  "birdbase": 2685,
+  "gbif": 2476892,
+  "inaturalist": "6389",
+  "iucn": "22686911",
+  "wikidata": "Q1266303",
+  "xeno_canto": "Glaucis-hirsutus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Glaucis_hirsutus",
+  "ebird": "https://ebird.org/species/rubher",
+  "inaturalist": "https://www.inaturalist.org/taxa/6389",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_hermit",
+   "es": "https://es.wikipedia.org/wiki/Glaucis_hirsutus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucis+hirsutus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Hermit",
+  "en_aco": "Rufous-breasted Hermit",
+  "es": "Ermitaño Hirsuto",
+  "ru": "Краснохвостый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Glaucis hirsutus",
+ "sci_name_aco": "Glaucis hirsutus",
+ "sounds": [],
+ "taxon_order": 4242.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 6.533333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Glaucis%20hirsutus%20%28Trinidad%29.jpg"
+ ]
+}

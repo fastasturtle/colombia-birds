@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gofgre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Pachysylvia",
+ "id": "pachysylvia-aurantiifrons",
+ "ids": {
+  "avibase": "05336066B3997B9C",
+  "birdbase": 21454,
+  "gbif": 7787690,
+  "inaturalist": "515243",
+  "iucn": "22705309",
+  "wikidata": "Q28845665",
+  "xeno_canto": "Pachysylvia-aurantiifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/gofgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/515243",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-fronted_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Pachysylvia_aurantiifrons",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachysylvia+aurantiifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-fronted Greenlet",
+  "en_aco": "Golden-fronted Greenlet",
+  "es": "Verdillo Luisucho",
+  "ru": "Желтолобый виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachysylvia aurantiifrons",
+ "sci_name_aco": "Pachysylvia aurantiifrons",
+ "sounds": [],
+ "taxon_order": 19151.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 9.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pachysylvia%20aurantiifrons%20241691460.jpeg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tutpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-godini",
+ "ids": {
+  "avibase": "250E2A415CC271BF",
+  "birdbase": 3068,
+  "gbif": 5228535,
+  "inaturalist": "6285",
+  "iucn": "22687922",
+  "wikidata": "Q1263508",
+  "xeno_canto": "Eriocnemis-godini"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR (PE)",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_godini",
+  "ebird": "https://ebird.org/species/tutpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6285",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Turquoise-throated_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_godini",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+godini"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Turquoise-throated Puffleg",
+  "en_aco": "Turquoise-throated Puffleg",
+  "es": "Calzadito Turquesa",
+  "ru": "Бирюзовый эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis godini",
+ "sci_name_aco": "Eriocnemis godini",
+ "sounds": [],
+ "taxon_order": 4587.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 2100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 5.06,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eriocnemis%20godini.jpg"
+ ]
+}

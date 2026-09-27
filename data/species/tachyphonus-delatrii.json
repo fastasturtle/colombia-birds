@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tactan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tachyphonus",
+ "id": "tachyphonus-delatrii",
+ "ids": {
+  "avibase": "D145C51732D88272",
+  "birdbase": 37151,
+  "gbif": 2488592,
+  "inaturalist": "10074",
+  "iucn": null,
+  "wikidata": "Q1242914",
+  "xeno_canto": "Tachyphonus-delatrii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tachyphonus_delatrii",
+  "ebird": "https://ebird.org/species/tactan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10074",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-crested_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tachyphonus_delatrii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tachyphonus+delatrii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-crested Tanager",
+  "en_aco": "Tawny-crested Tanager",
+  "es": "Tangara de Delattre",
+  "ru": "Златохохлая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tachyphonus delatrii",
+ "sci_name_aco": "Tachyphonus delatrii",
+ "sounds": [],
+ "taxon_order": 34775.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 18.099999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tachyphonus%20delatrii%20-Costa%20Rica-6.jpg"
+ ]
+}

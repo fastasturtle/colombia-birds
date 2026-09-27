@@ -1,0 +1,93 @@
+{
+ "authorship": "(Du Bus de Gisignies, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebsis1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Spinus",
+ "id": "spinus-xanthogastrus",
+ "ids": {
+  "avibase": "8E56A1C63BA573DD",
+  "birdbase": 34755,
+  "gbif": 7341765,
+  "inaturalist": "145313",
+  "iucn": "22720398",
+  "wikidata": "Q27075869",
+  "xeno_canto": "Spinus-xanthogastrus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spinus_xanthogastrus",
+  "ebird": "https://ebird.org/species/yebsis1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145313",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-bellied_siskin",
+   "es": "https://es.wikipedia.org/wiki/Spinus_xanthogastrus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spinus+xanthogastrus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Siskin",
+  "en_aco": "Yellow-bellied Siskin",
+  "es": "Jilguero Ventriamarillo",
+  "ru": "Желтобрюхий чиж"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spinus xanthogastrus",
+ "sci_name_aco": "Spinus xanthogastrus",
+ "sounds": [],
+ "taxon_order": 32631.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3700,
+   "min": 1400,
+   "min_extreme": 800
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 12.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carduelis%20xanthogastra%20-Manizales%2C%20Caldas%2C%20Colombia-8.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "webhum3",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Schistes",
+ "id": "schistes-albogularis",
+ "ids": {
+  "avibase": "DBD9E3FFB5F10706",
+  "birdbase": 2800,
+  "gbif": 8752472,
+  "inaturalist": "827377",
+  "iucn": "22726824",
+  "wikidata": "Q30688437",
+  "xeno_canto": "Schistes-albogularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schistes_albogularis",
+  "ebird": "https://ebird.org/species/webhum3",
+  "inaturalist": "https://www.inaturalist.org/taxa/827377",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_daggerbill",
+   "es": "https://es.wikipedia.org/wiki/Schistes_albogularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schistes+albogularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Daggerbill",
+  "en_aco": "White-throated Daggerbill",
+  "es": "Colibrí Picocuña Occidental",
+  "ru": "Ошейниковый кинжалоклюв"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Schistes albogularis",
+ "sci_name_aco": "Schistes albogularis",
+ "sounds": [],
+ "taxon_order": 4343.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.925,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schistes%20albogularis%20240980514%20%28cropped%29.jpg"
+ ]
+}

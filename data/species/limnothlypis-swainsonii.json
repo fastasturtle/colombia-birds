@@ -1,0 +1,93 @@
+{
+ "authorship": "(Audubon, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swawar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Limnothlypis",
+ "id": "limnothlypis-swainsonii",
+ "ids": {
+  "avibase": "D3624203E6C65D28",
+  "birdbase": 36141,
+  "gbif": 2489636,
+  "inaturalist": "10442",
+  "iucn": "22721776",
+  "wikidata": "Q783095",
+  "xeno_canto": "Limnothlypis-swainsonii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Limnothlypis_swainsonii",
+  "ebird": "https://ebird.org/species/swawar",
+  "inaturalist": "https://www.inaturalist.org/taxa/10442",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swainson's_warbler",
+   "es": "https://es.wikipedia.org/wiki/Limnothlypis_swainsonii",
+   "ru": "https://ru.wikipedia.org/wiki/Большой_певун-барсучок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Limnothlypis+swainsonii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swainson's Warbler",
+  "en_aco": "Swainson's Warbler",
+  "es": "Reinita de Swainson",
+  "ru": "Скрытная червеедка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Limnothlypis swainsonii",
+ "sci_name_aco": "Limnothlypis swainsonii",
+ "sounds": [],
+ "taxon_order": 33964.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "wetland"
+  ],
+  "mass_g": 15.199999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Swainson%E2%80%99s%20Warbler%20Tex.jpg"
+ ]
+}

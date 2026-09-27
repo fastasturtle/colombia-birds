@@ -1,0 +1,93 @@
+{
+ "authorship": "(Des Murs, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whejac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbalcyrhynchus",
+ "id": "galbalcyrhynchus-leucotis",
+ "ids": {
+  "avibase": "E3EC251CBFAA31E3",
+  "birdbase": 10924,
+  "gbif": 2475087,
+  "inaturalist": "1501",
+  "iucn": "22682167",
+  "wikidata": "Q1259597",
+  "xeno_canto": "Galbalcyrhynchus-leucotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbalcyrhynchus_leucotis",
+  "ebird": "https://ebird.org/species/whejac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1501",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-eared_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbalcyrhynchus_leucotis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbalcyrhynchus+leucotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-eared Jacamar",
+  "en_aco": "White-eared Jacamar",
+  "es": "Jacamará Orejiblanco",
+  "ru": "Белоухая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbalcyrhynchus leucotis",
+ "sci_name_aco": "Galbalcyrhynchus leucotis",
+ "sounds": [],
+ "taxon_order": 10480.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 46.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbalcyrhynchus%20leucotis%20-Peru-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbalcyrhynchus%20leucotis%201849.jpg"
+ ]
+}

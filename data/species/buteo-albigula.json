@@ -1,0 +1,91 @@
+{
+ "authorship": "(Philippi, 1899)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whthaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-albigula",
+ "ids": {
+  "avibase": "B7DB09E87456D610",
+  "birdbase": 8796,
+  "gbif": 2480535,
+  "inaturalist": "5223",
+  "iucn": "22695900",
+  "wikidata": "Q1262619",
+  "xeno_canto": "Buteo-albigula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_albigula",
+  "ebird": "https://ebird.org/species/whthaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5223",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_albigula",
+   "ru": "https://ru.wikipedia.org/wiki/Buteo_albigula"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+albigula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Hawk",
+  "en_aco": "White-throated Hawk",
+  "es": "Busardo Gorjiblanco",
+  "ru": "Белогорлый канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo albigula",
+ "sci_name_aco": "Buteo albigula",
+ "sounds": [],
+ "taxon_order": 8500.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 150,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 478.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buteo%20albigula.PNG"
+ ]
+}

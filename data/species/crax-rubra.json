@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grecur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Crax",
+ "id": "crax-rubra",
+ "ids": {
+  "avibase": "BA8A14D2626B00A7",
+  "birdbase": 750,
+  "gbif": 2482168,
+  "inaturalist": "2052",
+  "iucn": "22678521",
+  "wikidata": "Q572638",
+  "xeno_canto": "Crax-rubra"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crax_rubra",
+  "ebird": "https://ebird.org/species/grecur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2052",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_curassow",
+   "es": "https://es.wikipedia.org/wiki/Crax_rubra",
+   "ru": "https://ru.wikipedia.org/wiki/Большой_кракс"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crax+rubra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Curassow",
+  "en_aco": "Great Curassow",
+  "es": "Pavón Norteño",
+  "ru": "Большой кракс"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Crax rubra",
+ "sci_name_aco": "Crax rubra",
+ "sounds": [],
+ "taxon_order": 930.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 3756.1666666666665,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crax%20rubra%20%28Great%20Curassow%29%20-%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20curassow%20%2871145%29.jpg"
+ ]
+}

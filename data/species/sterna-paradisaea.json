@@ -1,0 +1,96 @@
+{
+ "authorship": "(Pontoppidan, 1763)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "arcter",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sterna",
+ "id": "sterna-paradisaea",
+ "ids": {
+  "avibase": "BDC5CF80BE6CFC21",
+  "birdbase": 7021,
+  "gbif": 5229230,
+  "inaturalist": "4449",
+  "iucn": "22694629",
+  "wikidata": "Q26800",
+  "xeno_canto": "Sterna-paradisaea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sterna_paradisaea",
+  "ebird": "https://ebird.org/species/arcter",
+  "inaturalist": "https://www.inaturalist.org/taxa/4449",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Arctic_tern",
+   "es": "https://es.wikipedia.org/wiki/Sterna_paradisaea",
+   "ru": "https://ru.wikipedia.org/wiki/Полярная_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sterna+paradisaea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Arctic Tern",
+  "en_aco": "Arctic Tern",
+  "es": "Charrán Ártico",
+  "ru": "Полярная крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sterna paradisaea",
+ "sci_name_aco": "Sterna paradisaea",
+ "sounds": [],
+ "taxon_order": 6733.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 115.16666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2009%2007%2002%20-%20Arctic%20tern%20on%20Farne%20Islands%20-%20The%20blue%20rope%20demarcates%20the%20visitors%27%20path.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arctic%20terns%20%28Sterna%20paradisaea%29%20displaying.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/00%203786.%20K%C3%BCstenseeschwalbe.jpg"
+ ]
+}

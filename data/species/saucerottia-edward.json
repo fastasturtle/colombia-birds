@@ -1,0 +1,95 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "snbhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Saucerottia",
+ "id": "saucerottia-edward",
+ "ids": {
+  "avibase": "A5F5E55515ED2BB3",
+  "birdbase": 3567,
+  "gbif": 10902385,
+  "inaturalist": null,
+  "iucn": "22687599",
+  "wikidata": "Q1065091",
+  "xeno_canto": "Amazilia-edward"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazilia_edward",
+  "ebird": "https://ebird.org/species/snbhum1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Snowy-bellied_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Saucerottia_edward",
+   "ru": "https://ru.wikipedia.org/wiki/Белобрюхая_амазилия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saucerottia+edward"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Snowy-bellied Hummingbird",
+  "en_aco": "Snowy-bellied Hummingbird",
+  "es": "Amazilia de Edward",
+  "ru": "Бронзовоплечая амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Saucerottia edward",
+ "sci_name_aco": "Saucerottia edward",
+ "sounds": [],
+ "taxon_order": 5071.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 4.92,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Snowy-breasted%20Hummingbird.jpg"
+ ]
+}

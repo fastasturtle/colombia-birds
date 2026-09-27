@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mouwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Troglodytes",
+ "id": "troglodytes-solstitialis",
+ "ids": {
+  "avibase": "A223AEB9EE059F49",
+  "birdbase": 29275,
+  "gbif": 5231437,
+  "inaturalist": "7543",
+  "iucn": "22711506",
+  "wikidata": "Q3726415",
+  "xeno_canto": "Troglodytes-solstitialis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Troglodytes_solstitialis",
+  "ebird": "https://ebird.org/species/mouwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7543",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mountain_wren",
+   "es": "https://es.wikipedia.org/wiki/Troglodytes_solstitialis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Troglodytes+solstitialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mountain Wren",
+  "en_aco": "Mountain Wren",
+  "es": "Chochín Montañés",
+  "ru": "Андский крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Troglodytes solstitialis",
+ "sci_name_aco": "Troglodytes solstitialis",
+ "sounds": [],
+ "taxon_order": 27245.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 3600,
+   "min": 1700,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 11.600000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Troglodytes%20solstitialis%20Smit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20Wren%20-%20Ecuador%20S4E3967%20%2817168286775%29.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ornfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiotriccus",
+ "id": "myiotriccus-ornatus",
+ "ids": {
+  "avibase": "8897A0C59885B1B7",
+  "birdbase": 17336,
+  "gbif": 2483666,
+  "inaturalist": "17225",
+  "iucn": "103680660",
+  "wikidata": "Q940844",
+  "xeno_canto": "Myiotriccus-ornatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiotriccus_ornatus",
+  "ebird": "https://ebird.org/species/ornfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17225",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ornate_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiotriccus_ornatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiotriccus+ornatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ornate Flycatcher",
+  "en_aco": "Ornate Flycatcher",
+  "es": "Mosquerito Adornado",
+  "ru": "Уккрашенная курэта"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiotriccus ornatus",
+ "sci_name_aco": "Myiotriccus ornatus",
+ "sounds": [],
+ "taxon_order": 16535.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.02,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TyrannulaWolf.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ornate%20Flycatcher.jpg"
+ ]
+}

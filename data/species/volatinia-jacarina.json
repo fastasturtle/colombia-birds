@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbgra1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Volatinia",
+ "id": "volatinia-jacarina",
+ "ids": {
+  "avibase": "C50D59CFF9C409ED",
+  "birdbase": 37100,
+  "gbif": 2491741,
+  "inaturalist": "10288",
+  "iucn": "22723396",
+  "wikidata": "Q1099397",
+  "xeno_canto": "Volatinia-jacarina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Volatinia_jacarina",
+  "ebird": "https://ebird.org/species/blbgra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10288",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-black_grassquit",
+   "es": "https://es.wikipedia.org/wiki/Volatinia_jacarina",
+   "ru": "https://ru.wikipedia.org/wiki/Якарина"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Volatinia+jacarina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-black Grassquit",
+  "en_aco": "Blue-black Grassquit",
+  "es": "Semillero Volatinero",
+  "ru": "Якарина"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Volatinia jacarina",
+ "sci_name_aco": "Volatinia jacarina",
+ "sounds": [],
+ "taxon_order": 35510.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 10,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tiziu.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Volatinia%20jacarina%20female.jpg"
+ ]
+}

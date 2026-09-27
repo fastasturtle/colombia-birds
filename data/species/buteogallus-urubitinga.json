@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbhaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteogallus",
+ "id": "buteogallus-urubitinga",
+ "ids": {
+  "avibase": "EE908632CACAB29E",
+  "birdbase": 8723,
+  "gbif": 2480657,
+  "inaturalist": "5238",
+  "iucn": "22695827",
+  "wikidata": "Q1261514",
+  "xeno_canto": "Buteogallus-urubitinga"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteogallus_urubitinga",
+  "ebird": "https://ebird.org/species/grbhaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5238",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_black_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteogallus_urubitinga",
+   "ru": "https://ru.wikipedia.org/wiki/Мексиканский_крабовый_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteogallus+urubitinga"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Black Hawk",
+  "en_aco": "Great Black Hawk",
+  "es": "Busardo Urubitinga",
+  "ru": "Большой крабоед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteogallus urubitinga",
+ "sci_name_aco": "Buteogallus urubitinga",
+ "sounds": [],
+ "taxon_order": 8421.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 1163.1666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buteogallus%20urubitinga%20NBII.jpg"
+ ]
+}

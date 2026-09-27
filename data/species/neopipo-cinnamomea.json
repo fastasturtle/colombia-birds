@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cinmat1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Neopipo",
+ "id": "neopipo-cinnamomea",
+ "ids": {
+  "avibase": "81362B1557DA4A78",
+  "birdbase": 17606,
+  "gbif": 2483463,
+  "inaturalist": "17239",
+  "iucn": "22701155",
+  "wikidata": "Q940937",
+  "xeno_canto": "Neopipo-cinnamomea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neopipo_cinnamomea",
+  "ebird": "https://ebird.org/species/cinmat1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17239",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon_neopipo",
+   "es": "https://es.wikipedia.org/wiki/Neopipo_cinnamomea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neopipo+cinnamomea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon Manakin-Tyrant",
+  "en_aco": "Cinnamon Manakin-Tyrant",
+  "es": "Mosquerito Canelo",
+  "ru": "Манакиновый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Neopipo cinnamomea",
+ "sci_name_aco": "Neopipo cinnamomea",
+ "sounds": [],
+ "taxon_order": 16157.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Neopipo%20cinnamomea%20-%20Cinnamon%20neopipo.jpg"
+ ]
+}

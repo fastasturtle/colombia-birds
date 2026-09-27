@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvadori, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brgeup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-mesochrysa",
+ "ids": {
+  "avibase": "B432643533F2FD40",
+  "birdbase": 34876,
+  "gbif": 2487955,
+  "inaturalist": "9303",
+  "iucn": "22722757",
+  "wikidata": "Q3047433",
+  "xeno_canto": "Euphonia-mesochrysa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_mesochrysa",
+  "ebird": "https://ebird.org/species/brgeup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9303",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronze-green_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_mesochrysa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+mesochrysa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronze-green Euphonia",
+  "en_aco": "Bronze-green Euphonia",
+  "es": "Eufonia Verdosa",
+  "ru": "Зелёная эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia mesochrysa",
+ "sci_name_aco": "Euphonia mesochrysa",
+ "sounds": [],
+ "taxon_order": 32064.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2150,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": 150
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bronze-green%20Euphonia%20-%20South%20Ecuador%20S4E0810%20%2823250387345%29%20%28cropped%29.jpg"
+ ]
+}

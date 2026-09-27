@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "anpowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Glaucidium",
+ "id": "glaucidium-jardinii",
+ "ids": {
+  "avibase": "431CE379D48BA4DB",
+  "birdbase": 9223,
+  "gbif": 5232137,
+  "inaturalist": "19820",
+  "iucn": "22689222",
+  "wikidata": "Q490242",
+  "xeno_canto": "Glaucidium-jardinii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Glaucidium_jardinii",
+  "ebird": "https://ebird.org/species/anpowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19820",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_pygmy_owl",
+   "es": "https://es.wikipedia.org/wiki/Glaucidium_jardinii",
+   "ru": "https://ru.wikipedia.org/wiki/Glaucidium_jardinii"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucidium+jardinii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Pygmy-Owl",
+  "en_aco": "Andean Pygmy-Owl",
+  "es": "Mochuelo Andino",
+  "ru": "Андский сычик"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Glaucidium jardinii",
+ "sci_name_aco": "Glaucidium jardinii",
+ "sounds": [],
+ "taxon_order": 9022.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 4000,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 65.83333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean%20Pygmy-owl%20%28Glaucidium%20jardinii%29%20in%20tree.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stbwoo2",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendroplex",
+ "id": "dendroplex-picus",
+ "ids": {
+  "avibase": "2EA7DC7D9A452EA0",
+  "birdbase": 14793,
+  "gbif": 7342224,
+  "inaturalist": "72806",
+  "iucn": "22703095",
+  "wikidata": "Q903968",
+  "xeno_canto": "Dendroplex-picus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendroplex_picus",
+  "ebird": "https://ebird.org/species/stbwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72806",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Straight-billed_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendroplex_picus",
+   "ru": "https://ru.wikipedia.org/wiki/Чешуегрудый_мечеклювый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendroplex+picus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Straight-billed Woodcreeper",
+  "en_aco": "Straight-billed Woodcreeper",
+  "es": "Trepatroncos Piquirrecto",
+  "ru": "Прямоклювый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendroplex picus",
+ "sci_name_aco": "Dendroplex picus",
+ "sounds": [],
+ "taxon_order": 14871.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 40.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroplex%20picus%20-%20Straight-billed%20Woodcreeper.JPG"
+ ]
+}

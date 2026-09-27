@@ -1,0 +1,89 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "zimant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Sciaphylax",
+ "id": "sciaphylax-castanea",
+ "ids": {
+  "avibase": "30B38306631539E1",
+  "birdbase": 16254,
+  "gbif": 9389579,
+  "inaturalist": "554091",
+  "iucn": "22733153",
+  "wikidata": "Q28862181",
+  "xeno_canto": "Sciaphylax-castanea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/zimant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554091",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sciaphylax+castanea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Zimmer's Antbird",
+  "en_aco": "Zimmer's Antbird",
+  "es": "Hormiguero Colicastaño Norteño",
+  "ru": "Каштановохвостая муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sciaphylax castanea",
+ "sci_name_aco": "Sciaphylax castanea",
+ "sounds": [],
+ "taxon_order": 14037.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 125,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 16.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

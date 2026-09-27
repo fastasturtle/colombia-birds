@@ -1,0 +1,90 @@
+{
+ "authorship": "(Chapman, 1922)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pafswa1",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Orochelidon",
+ "id": "orochelidon-flavipes",
+ "ids": {
+  "avibase": null,
+  "birdbase": 25200,
+  "gbif": 6086696,
+  "inaturalist": "144781",
+  "iucn": "22712131",
+  "wikidata": "Q28866633",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/pafswa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144781",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-footed_swallow",
+   "es": "https://es.wikipedia.org/wiki/Orochelidon_flavipes",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Orochelidon+flavipes"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-footed Swallow",
+  "en_aco": "Pale-footed Swallow",
+  "es": "Golondrina Paticlara",
+  "ru": "Бледноногая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Orochelidon flavipes",
+ "sci_name_aco": "Orochelidon flavipes",
+ "sounds": [],
+ "taxon_order": 24134.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": 1550
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 10.066666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

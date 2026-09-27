@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lbsfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-crassirostris",
+ "ids": {
+  "avibase": "EA9E7D2EE8A14F48",
+  "birdbase": 37258,
+  "gbif": 8362699,
+  "inaturalist": "367685",
+  "iucn": "22723527",
+  "wikidata": "Q28867677",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_crassirostris",
+  "ebird": "https://ebird.org/species/lbsfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367685",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Large-billed_seed_finch",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_crassirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+crassirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Large-billed Seed-Finch",
+  "en_aco": "Large-billed Seed-Finch",
+  "es": "Semillero Piquigrande",
+  "ru": "Большеклювый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila crassirostris",
+ "sci_name_aco": "Sporophila crassirostris",
+ "sounds": [],
+ "taxon_order": 35554.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 23.399999999999995,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Large-billed%20Seed-Finch%20-%20Darien%20-%20Panama%20%2848444795082%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Large-billedSeed-Finch2.jpg"
+ ]
+}

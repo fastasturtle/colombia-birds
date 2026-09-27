@@ -1,0 +1,92 @@
+{
+ "authorship": "(Chapman, 1912)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yehbrf1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-flaviceps",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35672,
+  "gbif": 2491438,
+  "inaturalist": "10344",
+  "iucn": "22721439",
+  "wikidata": "Q2835152",
+  "xeno_canto": "Atlapetes-flaviceps"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_flaviceps",
+  "ebird": "https://ebird.org/species/yehbrf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10344",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-headed_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_flaviceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+flaviceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-headed Brushfinch",
+  "en_aco": "Yellow-headed Brushfinch",
+  "es": "Atlapetes Cabecigualdo",
+  "ru": "Желтоголовая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes flaviceps",
+ "sci_name_aco": "Atlapetes flaviceps",
+ "sounds": [],
+ "taxon_order": 33466.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2440,
+   "max_extreme": 2500,
+   "min": 1900,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 31,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atlapetes%20flaviceps%20%28cropped%29.jpg"
+ ]
+}

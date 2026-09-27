@@ -1,0 +1,92 @@
+{
+ "authorship": "(G.R. Gray, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parpet1",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Procellaria",
+ "id": "procellaria-parkinsoni",
+ "ids": {
+  "avibase": "DB67DB1FF087F469",
+  "birdbase": 7553,
+  "gbif": 2481499,
+  "inaturalist": "4137",
+  "iucn": "22698150",
+  "wikidata": "Q276087",
+  "xeno_canto": "Procellaria-parkinsoni"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Procellaria_parkinsoni",
+  "ebird": "https://ebird.org/species/parpet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4137",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_petrel",
+   "es": "https://es.wikipedia.org/wiki/Procellaria_parkinsoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Procellaria+parkinsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Parkinson's Petrel",
+  "en_aco": "Parkinson's Petrel",
+  "es": "Pardela de Parkinson",
+  "ru": "Чёрный буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Procellaria parkinsoni",
+ "sci_name_aco": "Procellaria parkinsoni",
+ "sounds": [],
+ "taxon_order": 7196.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "sea"
+  ],
+  "mass_g": 737.8333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blackpetrel.jpg"
+ ]
+}

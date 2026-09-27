@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crocht1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Silvicultrix",
+ "id": "silvicultrix-frontalis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17909,
+  "gbif": 2483194,
+  "inaturalist": "16194",
+  "iucn": null,
+  "wikidata": "Q1265431",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/crocht1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16194",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Silvicultrix+frontalis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Crowned Chat-Tyrant",
+  "en_aco": "Crowned Chat-Tyrant",
+  "es": "Pitajo Coronado",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Silvicultrix frontalis",
+ "sci_name_aco": "Ochthoeca frontalis",
+ "sounds": [],
+ "taxon_order": 17170.0,
+ "taxonomy_note": "ACO/SACC lists this as Ochthoeca frontalis; eBird/Clements uses Silvicultrix frontalis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 2800,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 10,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ochthoeca%20frontalis%20-NBII%20Image%20Gallery-a00286.jpg"
+ ]
+}

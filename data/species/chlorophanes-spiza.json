@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grehon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chlorophanes",
+ "id": "chlorophanes-spiza",
+ "ids": {
+  "avibase": "64E4030B8968E3C7",
+  "birdbase": 36792,
+  "gbif": 5230641,
+  "inaturalist": "10485",
+  "iucn": "22723000",
+  "wikidata": "Q1083101",
+  "xeno_canto": "Chlorophanes-spiza"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorophanes_spiza",
+  "ebird": "https://ebird.org/species/grehon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10485",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_honeycreeper",
+   "es": "https://es.wikipedia.org/wiki/Chlorophanes_spiza",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёный_саи"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorophanes+spiza"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Honeycreeper",
+  "en_aco": "Green Honeycreeper",
+  "es": "Mielerito Verde",
+  "ru": "Малахитовый саи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorophanes spiza",
+ "sci_name_aco": "Chlorophanes spiza",
+ "sounds": [],
+ "taxon_order": 35188.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%81rea%20de%20Relevante%20Interesse%20Ecol%C3%B3gico%20do%20Morro%20do%20Boa%20Vista%20-%20Luiz%20Alves%20%2801%29.jpg"
+ ]
+}

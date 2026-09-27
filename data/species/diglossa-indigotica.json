@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "indflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-indigotica",
+ "ids": {
+  "avibase": "AC4EB902736D2D17",
+  "birdbase": 37578,
+  "gbif": 5788714,
+  "inaturalist": "72813",
+  "iucn": "22723694",
+  "wikidata": "Q1302468",
+  "xeno_canto": "Diglossa-indigotica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_indigotica",
+  "ebird": "https://ebird.org/species/indflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72813",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Indigo_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_indigotica",
+   "ru": "https://ru.wikipedia.org/wiki/Индиговый_крючкоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+indigotica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Indigo Flowerpiercer",
+  "en_aco": "Indigo Flowerpiercer",
+  "es": "Pinchaflor Índigo",
+  "ru": "Индиговый цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa indigotica",
+ "sci_name_aco": "Diglossa indigotica",
+ "sounds": [],
+ "taxon_order": 35305.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 14.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Indigo%20Flowerpiercer%20-%20Colombia%20S4E9812%20%2822765133693%29.jpg"
+ ]
+}

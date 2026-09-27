@@ -1,0 +1,92 @@
+{
+ "authorship": "(Taczanowski, 1879)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blcfru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Pipreola",
+ "id": "pipreola-lubomirskii",
+ "ids": {
+  "avibase": "2B9CF96A07977217",
+  "birdbase": 18228,
+  "gbif": 2486362,
+  "inaturalist": "8787",
+  "iucn": "22700797",
+  "wikidata": "Q681214",
+  "xeno_canto": "Pipreola-lubomirskii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipreola_lubomirskii",
+  "ebird": "https://ebird.org/species/blcfru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8787",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-chested_fruiteater",
+   "es": "https://es.wikipedia.org/wiki/Pipreola_lubomirskii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipreola+lubomirskii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-chested Fruiteater",
+  "en_aco": "Black-chested Fruiteater",
+  "es": "Frutero Pechinegro",
+  "ru": "Черногрудый ягодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pipreola lubomirskii",
+ "sci_name_aco": "Pipreola lubomirskii",
+ "sounds": [],
+ "taxon_order": 15867.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 54,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pipreola%20lubomirskii.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PipreolaLubomirskiiSmit.jpg"
+ ]
+}

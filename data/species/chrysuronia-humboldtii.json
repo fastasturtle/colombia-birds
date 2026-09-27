@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "humsap2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysuronia",
+ "id": "chrysuronia-humboldtii",
+ "ids": {
+  "avibase": "8BF8D4683F688811",
+  "birdbase": 3661,
+  "gbif": 9134116,
+  "inaturalist": "5980",
+  "iucn": null,
+  "wikidata": "Q1266744",
+  "xeno_canto": "Hylocharis-humboldtii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylocharis_humboldtii",
+  "ebird": "https://ebird.org/species/humsap2",
+  "inaturalist": "https://www.inaturalist.org/taxa/5980",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Humboldt's_sapphire",
+   "es": "https://es.wikipedia.org/wiki/Chrysuronia_humboldtii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysuronia+humboldtii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Humboldt's Sapphire",
+  "en_aco": "Humboldt's Sapphire",
+  "es": "Amazilia de Humboldt",
+  "ru": "Гумбольдтов сапфир"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysuronia humboldtii",
+ "sci_name_aco": "Chrysuronia humboldtii",
+ "sounds": [],
+ "taxon_order": 5158.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "coastal"
+  ],
+  "mass_g": 6.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chrysuronia%20humboldtii%20Humboldt%27s%20Sapphire%3B%20Choc%C3%B3%2C%20Colombia.jpg"
+ ]
+}

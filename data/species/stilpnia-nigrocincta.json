@@ -1,0 +1,95 @@
+{
+ "authorship": "(Bonaparte, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mastan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Stilpnia",
+ "id": "stilpnia-nigrocincta",
+ "ids": {
+  "avibase": "CE1DF3F8882ACC56",
+  "birdbase": 37858,
+  "gbif": 10921174,
+  "inaturalist": "9552",
+  "iucn": "22722921",
+  "wikidata": "Q2934248",
+  "xeno_canto": "Tangara-nigrocincta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stilpnia_nigrocincta",
+  "ebird": "https://ebird.org/species/mastan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9552",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_tanager",
+   "es": "https://es.wikipedia.org/wiki/Stilpnia_nigrocincta",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+nigrocincta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Tanager",
+  "en_aco": "Masked Tanager",
+  "es": "Tangara Pechinegra",
+  "ru": "Масковая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stilpnia nigrocincta",
+ "sci_name_aco": "Stilpnia nigrocincta",
+ "sounds": [],
+ "taxon_order": 35021.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1400,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 16.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20nigrocincta%20-%20Masked%20Tanager%3B%20Alta%20Floresta%2C%20Mato%20Grosso%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20nigrocincta%20nigrocincta%201849.jpg"
+ ]
+}

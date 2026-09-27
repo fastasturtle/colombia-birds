@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dusspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-moesta",
+ "ids": {
+  "avibase": "AFB20B1FC1B1285D",
+  "birdbase": 15564,
+  "gbif": 2484950,
+  "inaturalist": "10916",
+  "iucn": "22702321",
+  "wikidata": "Q1268027",
+  "xeno_canto": "Synallaxis-moesta"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_moesta",
+  "ebird": "https://ebird.org/species/dusspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10916",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_moesta",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+moesta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky Spinetail",
+  "en_aco": "Dusky Spinetail",
+  "es": "Pijuí Oscuro",
+  "ru": "Траурная иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis moesta",
+ "sci_name_aco": "Synallaxis moesta",
+ "sounds": [],
+ "taxon_order": 15603.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 22.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

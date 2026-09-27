@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spwant3",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmelastes",
+ "id": "myrmelastes-leucostigma",
+ "ids": {
+  "avibase": "9736A466C1C86D3D",
+  "birdbase": 16328,
+  "gbif": 9530969,
+  "inaturalist": "558496",
+  "iucn": "22736153",
+  "wikidata": "Q28886440",
+  "xeno_canto": "Myrmelastes-leucostigma"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmelastes_leucostigma",
+  "ebird": "https://ebird.org/species/spwant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/558496",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-winged_antbird",
+   "es": "https://es.wikipedia.org/wiki/Myrmelastes_leucostigma",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmelastes+leucostigma"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-winged Antbird",
+  "en_aco": "Spot-winged Antbird",
+  "es": "Hormiguero Alimoteado",
+  "ru": "Пятнистокрылая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmelastes leucostigma",
+ "sci_name_aco": "Myrmelastes leucostigma",
+ "sounds": [],
+ "taxon_order": 14003.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1650,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 23.759999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmelastes%20leucostigma%20intensus%20%E2%99%82%2C%20Parque%20Nacional%20Yanachaga%20Chemillen%2C%20Peru%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmelastes%20leucostigma%20intensus%20%E2%99%80%2C%20Parque%20Nacional%20Yanachaga%20Chemillen%2C%20Peru%201.jpg"
+ ]
+}

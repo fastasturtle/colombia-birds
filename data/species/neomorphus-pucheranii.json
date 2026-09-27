@@ -1,0 +1,91 @@
+{
+ "authorship": "(Deville, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rbgcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Neomorphus",
+ "id": "neomorphus-pucheranii",
+ "ids": {
+  "avibase": "CE4505F8E7A6D9BA",
+  "birdbase": 3899,
+  "gbif": 5232016,
+  "inaturalist": "1823",
+  "iucn": "22684483",
+  "wikidata": "Q1273631",
+  "xeno_canto": "Neomorphus-pucheranii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neomorphus_pucheranii",
+  "ebird": "https://ebird.org/species/rbgcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1823",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-billed_ground_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Neomorphus_pucheranii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neomorphus+pucheranii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-billed Ground-Cuckoo",
+  "en_aco": "Red-billed Ground-Cuckoo",
+  "es": "Cuco Hormiguero Piquirrojo",
+  "ru": "Красноклювая земляная кукушка"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Neomorphus pucheranii",
+ "sci_name_aco": "Neomorphus pucheranii",
+ "sounds": [],
+ "taxon_order": 3052.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 330,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/F%20de%20Castelnau-oiseauxPl7.jpg"
+ ]
+}

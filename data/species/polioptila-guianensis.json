@@ -1,0 +1,90 @@
+{
+ "authorship": "(Todd, 1920)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "guigna3",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Polioptila",
+ "id": "polioptila-guianensis",
+ "ids": {
+  "avibase": "64EC317BE30A955D",
+  "birdbase": 29434,
+  "gbif": 2487584,
+  "inaturalist": "979907",
+  "iucn": "106020330",
+  "wikidata": "Q841856",
+  "xeno_canto": "Polioptila-guianensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polioptila_guianensis",
+  "ebird": "https://ebird.org/species/guigna3",
+  "inaturalist": "https://www.inaturalist.org/taxa/979907",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Guianan_gnatcatcher",
+   "es": "https://es.wikipedia.org/wiki/Polioptila_guianensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+guianensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Guianan Gnatcatcher",
+  "en_aco": "Guianan Gnatcatcher",
+  "es": "Perlita Guayanesa",
+  "ru": "Гвианская комароловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Polioptila guianensis",
+ "sci_name_aco": "Polioptila guianensis",
+ "sounds": [],
+ "taxon_order": 27093.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 5.96,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

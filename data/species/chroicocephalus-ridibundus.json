@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkhgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Chroicocephalus",
+ "id": "chroicocephalus-ridibundus",
+ "ids": {
+  "avibase": "FB02DD9658CC1EC6",
+  "birdbase": 7103,
+  "gbif": 6065824,
+  "inaturalist": "144510",
+  "iucn": "22694420",
+  "wikidata": "Q25634",
+  "xeno_canto": "Chroicocephalus-ridibundus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chroicocephalus_ridibundus",
+  "ebird": "https://ebird.org/species/bkhgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/144510",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-headed_gull",
+   "es": "https://es.wikipedia.org/wiki/Chroicocephalus_ridibundus",
+   "ru": "https://ru.wikipedia.org/wiki/Озёрная_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chroicocephalus+ridibundus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-headed Gull",
+  "en_aco": "Black-headed Gull",
+  "es": "Gaviota Reidora",
+  "ru": "Озёрная чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Chroicocephalus ridibundus",
+ "sci_name_aco": "Chroicocephalus ridibundus",
+ "sounds": [],
+ "taxon_order": 6474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 261,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-headed%20Gull%20-%20St%20James%27s%20Park%2C%20London%20-%20Nov%202006.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-headed%20gull%20%2805557%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lachm%C3%B6we%20Chroicocephalus%20ridibundus.jpg"
+ ]
+}

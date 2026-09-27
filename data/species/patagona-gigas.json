@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "giahum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Patagona",
+ "id": "patagona-gigas",
+ "ids": {
+  "avibase": "59067C71DACB05F6",
+  "birdbase": 3212,
+  "gbif": 2476964,
+  "inaturalist": "6255",
+  "iucn": "22687785",
+  "wikidata": "Q282973",
+  "xeno_canto": "Patagona-gigas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagona_gigas",
+  "ebird": "https://ebird.org/species/giahum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6255",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_giant_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Patagona_gigas",
+   "ru": "https://ru.wikipedia.org/wiki/Исполинский_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagona+gigas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Giant Hummingbird",
+  "en_aco": "Giant Hummingbird",
+  "es": "Colibrí Gigante",
+  "ru": "Исполинский колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Patagona gigas",
+ "sci_name_aco": "Patagona gigas",
+ "sounds": [],
+ "taxon_order": 4718.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.925,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagona%20Gigas.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagona%20gigas.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lesgre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Pachysylvia",
+ "id": "pachysylvia-decurtata",
+ "ids": {
+  "avibase": "58274D5FA6720538",
+  "birdbase": 21437,
+  "gbif": 7623200,
+  "inaturalist": "515240",
+  "iucn": "22705321",
+  "wikidata": "Q28846216",
+  "xeno_canto": "Pachysylvia-decurtata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/lesgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/515240",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Pachysylvia_decurtata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachysylvia+decurtata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Greenlet",
+  "en_aco": "Lesser Greenlet",
+  "es": "Verdillo Menor",
+  "ru": "Короткохвостый виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachysylvia decurtata",
+ "sci_name_aco": "Pachysylvia decurtata",
+ "sounds": [],
+ "taxon_order": 19136.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 8.940000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Greenlet%20-%20Chiapas%20-%20Mexico%20S4E7300%20%2822381845824%29.jpg"
+ ]
+}

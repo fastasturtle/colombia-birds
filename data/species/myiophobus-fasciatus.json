@@ -1,0 +1,95 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brcfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiophobus",
+ "id": "myiophobus-fasciatus",
+ "ids": {
+  "avibase": "83BB46D7FB1D897E",
+  "birdbase": 17320,
+  "gbif": 5229801,
+  "inaturalist": "16862",
+  "iucn": "103682408",
+  "wikidata": "Q941858",
+  "xeno_canto": "Myiophobus-fasciatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiophobus_fasciatus",
+  "ebird": "https://ebird.org/species/brcfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16862",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bran-colored_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiophobus_fasciatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiophobus+fasciatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bran-colored Flycatcher",
+  "en_aco": "Bran-colored Flycatcher",
+  "es": "Mosquero Estriado",
+  "ru": "Ржавчатая курэта"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiophobus fasciatus",
+ "sci_name_aco": "Myiophobus fasciatus",
+ "sounds": [],
+ "taxon_order": 16859.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 10.82,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiophobus%20fasciatus%2054670465.jpg"
+ ]
+}

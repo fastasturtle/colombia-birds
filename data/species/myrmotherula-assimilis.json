@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leaant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmotherula",
+ "id": "myrmotherula-assimilis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15825,
+  "gbif": 2490201,
+  "inaturalist": "15838",
+  "iucn": "22701540",
+  "wikidata": "Q1268126",
+  "xeno_canto": "Myrmotherula-assimilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_assimilis",
+  "ebird": "https://ebird.org/species/leaant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15838",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Leaden_antwren",
+   "es": "https://es.wikipedia.org/wiki/Myrmotherula_assimilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmotherula+assimilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Leaden Antwren",
+  "en_aco": "Leaden Antwren",
+  "es": "Hormiguerito Plomizo",
+  "ru": "Варзейский муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmotherula assimilis",
+ "sci_name_aco": "Myrmotherula assimilis",
+ "sounds": [],
+ "taxon_order": 13781.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 175,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 9.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20assimilis%20-%20Leaden%20antwren%20%28female%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20assimilis%20-%20Leaden%20antwren%20%28male%29.jpg"
+ ]
+}

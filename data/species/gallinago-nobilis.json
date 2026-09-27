@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nobsni1",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Gallinago",
+ "id": "gallinago-nobilis",
+ "ids": {
+  "avibase": "0A79923BFD9426C8",
+  "birdbase": 6751,
+  "gbif": 2481827,
+  "inaturalist": "3926",
+  "iucn": "22693118",
+  "wikidata": "Q1268218",
+  "xeno_canto": "Gallinago-nobilis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gallinago_nobilis",
+  "ebird": "https://ebird.org/species/nobsni1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3926",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Noble_snipe",
+   "es": "https://es.wikipedia.org/wiki/Gallinago_nobilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gallinago+nobilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Noble Snipe",
+  "en_aco": "Noble Snipe",
+  "es": "Agachadiza Noble",
+  "ru": "Длинноклювый бекас"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Gallinago nobilis",
+ "sci_name_aco": "Gallinago nobilis",
+ "sounds": [],
+ "taxon_order": 6109.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3900,
+   "max_extreme": 4200,
+   "min": 2500,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 188.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gallinago%20nobilis%20%28Caica%20paramuna%29%20%2824701320152%29.jpg"
+ ]
+}

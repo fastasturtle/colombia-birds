@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whvplu1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chalybura",
+ "id": "chalybura-buffonii",
+ "ids": {
+  "avibase": "643E1B0CDEBEF1A5",
+  "birdbase": 3460,
+  "gbif": 2476774,
+  "inaturalist": "5810",
+  "iucn": "219586279",
+  "wikidata": "Q614633",
+  "xeno_canto": "Chalybura-buffonii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chalybura_buffonii",
+  "ebird": "https://ebird.org/species/whvplu1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5810",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-vented_plumeleteer",
+   "es": "https://es.wikipedia.org/wiki/Chalybura_buffonii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chalybura+buffonii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-vented Plumeleteer",
+  "en_aco": "White-vented Plumeleteer",
+  "es": "Colibrí de Buffon",
+  "ru": "Белогузый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chalybura buffonii",
+ "sci_name_aco": "Chalybura buffonii",
+ "sounds": [],
+ "taxon_order": 4967.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 6.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chalybura%20buffonii%20%28colibr%C3%AD%20de%20Buffon%29%20-%20hembra.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-vented%20Plumeleteer.jpg"
+ ]
+}

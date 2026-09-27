@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "easmea",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Sturnella",
+ "id": "sturnella-magna",
+ "ids": {
+  "avibase": "4A11480B216EBB80",
+  "birdbase": 35772,
+  "gbif": 2484254,
+  "inaturalist": "9528",
+  "iucn": "22735434",
+  "wikidata": "Q1589550",
+  "xeno_canto": "Sturnella-magna"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sturnella_magna",
+  "ebird": "https://ebird.org/species/easmea",
+  "inaturalist": "https://www.inaturalist.org/taxa/9528",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Eastern_meadowlark",
+   "es": "https://es.wikipedia.org/wiki/Sturnella_magna",
+   "ru": "https://ru.wikipedia.org/wiki/Восточный_луговой_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sturnella+magna"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Eastern Meadowlark",
+  "en_aco": "Eastern Meadowlark",
+  "es": "Pradero Oriental",
+  "ru": "Большой луговой трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sturnella magna",
+ "sci_name_aco": "Sturnella magna",
+ "sounds": [],
+ "taxon_order": 33568.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 98.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Meadowlark%2C%20Naperville%2C%20DuPage%2C%20Chicago%204.jpg"
+ ]
+}

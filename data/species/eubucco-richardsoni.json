@@ -1,0 +1,93 @@
+{
+ "authorship": "(G.R. Gray, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "letbar1",
+ "family": {
+  "code": "capito2",
+  "en": "New World Barbets",
+  "sci": "Capitonidae"
+ },
+ "genus": "Eubucco",
+ "id": "eubucco-richardsoni",
+ "ids": {
+  "avibase": "993FE0B36AB074E7",
+  "birdbase": 11130,
+  "gbif": 2478973,
+  "inaturalist": "116886",
+  "iucn": "22726156",
+  "wikidata": "Q1268271",
+  "xeno_canto": "Eubucco-richardsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eubucco_richardsoni",
+  "ebird": "https://ebird.org/species/letbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116886",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lemon-throated_barbet",
+   "es": "https://es.wikipedia.org/wiki/Eubucco_richardsoni",
+   "ru": "https://ru.wikipedia.org/wiki/Златогрудый_эубукко"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eubucco+richardsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lemon-throated Barbet",
+  "en_aco": "Lemon-throated Barbet",
+  "es": "Cabezón Pechiamarillo",
+  "ru": "Златогрудая бородатка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Eubucco richardsoni",
+ "sci_name_aco": "Eubucco richardsoni",
+ "sounds": [],
+ "taxon_order": 10810.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1375,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 34,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lemon-throated%20Barbet%20%28Eubucco%20richardsoni%29.jpg"
+ ]
+}

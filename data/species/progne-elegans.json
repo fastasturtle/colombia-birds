@@ -1,0 +1,97 @@
+{
+ "authorship": "(S.F. Baird, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soumar",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Progne",
+ "id": "progne-elegans",
+ "ids": {
+  "avibase": "AF527712EAC38F6F",
+  "birdbase": 25162,
+  "gbif": 2489140,
+  "inaturalist": "11866",
+  "iucn": "22731723",
+  "wikidata": "Q3136322",
+  "xeno_canto": "Progne-elegans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Progne_elegans",
+  "ebird": "https://ebird.org/species/soumar",
+  "inaturalist": "https://www.inaturalist.org/taxa/11866",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_martin",
+   "es": "https://es.wikipedia.org/wiki/Progne_elegans",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Progne+elegans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Southern Martin",
+  "en_aco": "Southern Martin",
+  "es": "Golondrina Sureña",
+  "ru": "Южная ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Progne elegans",
+ "sci_name_aco": "Progne elegans",
+ "sounds": [],
+ "taxon_order": 24097.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "riparian",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 50.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Progne%20elegans%20%28southern%20martin%29.jpg"
+ ]
+}

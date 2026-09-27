@@ -1,0 +1,91 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gohman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Ceratopipra",
+ "id": "ceratopipra-erythrocephala",
+ "ids": {
+  "avibase": "1C713394C9EE96CF",
+  "birdbase": 18487,
+  "gbif": 8381098,
+  "inaturalist": "339674",
+  "iucn": "22700997",
+  "wikidata": "Q27075189",
+  "xeno_canto": "Ceratopipra-erythrocephala"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipra_erythrocephala",
+  "ebird": "https://ebird.org/species/gohman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339674",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-headed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Ceratopipra_erythrocephala",
+   "ru": "https://ru.wikipedia.org/wiki/Золотоголовая_пипра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ceratopipra+erythrocephala"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-headed Manakin",
+  "en_aco": "Golden-headed Manakin",
+  "es": "Saltarín Cabecidorado",
+  "ru": "Желтоголовая пипра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ceratopipra erythrocephala",
+ "sci_name_aco": "Ceratopipra erythrocephala",
+ "sounds": [],
+ "taxon_order": 15840.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 14,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ceratopipra%20erythrocephala%20Golden-headed%20Manakin%20%28male%29%2C%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1805)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hoosis1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Spinus",
+ "id": "spinus-magellanicus",
+ "ids": {
+  "avibase": "83A6422733565BAA",
+  "birdbase": 34759,
+  "gbif": 7341745,
+  "inaturalist": "145316",
+  "iucn": "22720383",
+  "wikidata": "Q27075872",
+  "xeno_canto": "Spinus-magellanicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spinus_magellanicus",
+  "ebird": "https://ebird.org/species/hoosis1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145316",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hooded_siskin",
+   "es": "https://es.wikipedia.org/wiki/Spinus_magellanicus",
+   "ru": "https://ru.wikipedia.org/wiki/Черноголовый_чиж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spinus+magellanicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hooded Siskin",
+  "en_aco": "Hooded Siskin",
+  "es": "Jilguero Encapuchado",
+  "ru": "Магелланов чиж"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spinus magellanicus",
+ "sci_name_aco": "Spinus magellanicus",
+ "sounds": [],
+ "taxon_order": 32638.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 12.366666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spinus%20magellanicus%20-%20Frank%20Thomas%20Sautter%20-%20581434377.jpeg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spinus%20magellanicus%20-%20Frank%20Thomas%20Sautter%20-%20581434013.jpeg"
+ ]
+}

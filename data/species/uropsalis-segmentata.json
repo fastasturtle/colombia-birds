@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cassin, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swtnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Uropsalis",
+ "id": "uropsalis-segmentata",
+ "ids": {
+  "avibase": "3981B194A6FE9080",
+  "birdbase": 1915,
+  "gbif": 2497078,
+  "inaturalist": "19561",
+  "iucn": "22690040",
+  "wikidata": "Q1272944",
+  "xeno_canto": "Uropsalis-segmentata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Uropsalis_segmentata",
+  "ebird": "https://ebird.org/species/swtnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19561",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swallow-tailed_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Uropsalis_segmentata",
+   "ru": "https://ru.wikipedia.org/wiki/Вилохвостый_ласточковый_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Uropsalis+segmentata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swallow-tailed Nightjar",
+  "en_aco": "Swallow-tailed Nightjar",
+  "es": "Chotacabras Golondrina",
+  "ru": "Ласточкохвостый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Uropsalis segmentata",
+ "sci_name_aco": "Uropsalis segmentata",
+ "sounds": [],
+ "taxon_order": 3537.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 42.25000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Uropsalis%20segmentata%20-Ecuador-8.jpg"
+ ]
+}

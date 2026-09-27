@@ -1,0 +1,92 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "putfru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Querula",
+ "id": "querula-purpurata",
+ "ids": {
+  "avibase": "183649E52AE88144",
+  "birdbase": 18282,
+  "gbif": 2486253,
+  "inaturalist": "8931",
+  "iucn": "22700925",
+  "wikidata": "Q854711",
+  "xeno_canto": "Querula-purpurata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Querula_purpurata",
+  "ebird": "https://ebird.org/species/putfru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8931",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple-throated_fruitcrow",
+   "es": "https://es.wikipedia.org/wiki/Querula_purpurata",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурногорлый_плодоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Querula+purpurata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple-throated Fruitcrow",
+  "en_aco": "Purple-throated Fruitcrow",
+  "es": "Cotinga Quérula",
+  "ru": "Пурпурногорлый плодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Querula purpurata",
+ "sci_name_aco": "Querula purpurata",
+ "sounds": [],
+ "taxon_order": 15910.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 106,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Querula%20purpurata%20-%20Purple-throated%20Fruitcrow%20%28male%29%3B%20Parauapebas%2C%20Par%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Querula%20purpurata%20-%20Purple-throated%20Fruitcrow%20%28female%29%3B%20Parauapebas%2C%20Par%C3%A1%2C%20Brazil.jpg"
+ ]
+}

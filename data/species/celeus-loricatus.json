@@ -1,0 +1,92 @@
+{
+ "authorship": "(Reichenbach, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cinwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Celeus",
+ "id": "celeus-loricatus",
+ "ids": {
+  "avibase": "9556A2DBE64AA00F",
+  "birdbase": 12460,
+  "gbif": 5228950,
+  "inaturalist": "18088",
+  "iucn": "22681317",
+  "wikidata": "Q995596",
+  "xeno_canto": "Celeus-loricatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Celeus_loricatus",
+  "ebird": "https://ebird.org/species/cinwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18088",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Celeus_loricatus",
+   "ru": "https://ru.wikipedia.org/wiki/Красногорлый_целеус"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Celeus+loricatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon Woodpecker",
+  "en_aco": "Cinnamon Woodpecker",
+  "es": "Carpintero Canelo",
+  "ru": "Коричневый дятел-гренадер"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Celeus loricatus",
+ "sci_name_aco": "Celeus loricatus",
+ "sounds": [],
+ "taxon_order": 11788.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 78.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinnamon%20Woodpecker%20%28Celeus%20loricatus%29%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinnamon%20woodpecker%20%28Celeus%20loricatus%20mentalis%29%20female%20making%20hole%20in%20tree.jpg"
+ ]
+}

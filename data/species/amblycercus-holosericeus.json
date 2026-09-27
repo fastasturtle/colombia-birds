@@ -1,0 +1,96 @@
+{
+ "authorship": "(Deppe, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebcac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Amblycercus",
+ "id": "amblycercus-holosericeus",
+ "ids": {
+  "avibase": "8DAADD7F224DD9B5",
+  "birdbase": 35805,
+  "gbif": 2484419,
+  "inaturalist": "10426",
+  "iucn": "22724065",
+  "wikidata": "Q1300850",
+  "xeno_canto": "Amblycercus-holosericeus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amblycercus_holosericeus",
+  "ebird": "https://ebird.org/species/yebcac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10426",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-billed_cacique",
+   "es": "https://es.wikipedia.org/wiki/Amblycercus_holosericeus",
+   "ru": "https://ru.wikipedia.org/wiki/Amblycercus_holosericeus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amblycercus+holosericeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-billed Cacique",
+  "en_aco": "Yellow-billed Cacique",
+  "es": "Cacique Piquiclaro",
+  "ru": "Желтоклювый кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Amblycercus holosericeus",
+ "sci_name_aco": "Amblycercus holosericeus",
+ "sounds": [],
+ "taxon_order": 33607.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 64.775,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amblycercus%20holosericeus%20%28cropped%29.jpg"
+ ]
+}

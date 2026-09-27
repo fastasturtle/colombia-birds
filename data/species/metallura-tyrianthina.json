@@ -1,0 +1,94 @@
+{
+ "authorship": "(Loddiges, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tyrmet1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Metallura",
+ "id": "metallura-tyrianthina",
+ "ids": {
+  "avibase": "7AEDC0147FAFBB8D",
+  "birdbase": 3018,
+  "gbif": 2476860,
+  "inaturalist": "5572",
+  "iucn": "22688015",
+  "wikidata": "Q587047",
+  "xeno_canto": "Metallura-tyrianthina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Metallura_tyrianthina",
+  "ebird": "https://ebird.org/species/tyrmet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5572",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tyrian_metaltail",
+   "es": "https://es.wikipedia.org/wiki/Metallura_tyrianthina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Metallura+tyrianthina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tyrian Metaltail",
+  "en_aco": "Tyrian Metaltail",
+  "es": "Metalura Tiria",
+  "ru": "Изумрудный металлохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Metallura tyrianthina",
+ "sci_name_aco": "Metallura tyrianthina",
+ "sounds": [],
+ "taxon_order": 4542.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": 4200,
+   "min": 2000,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 3.72,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrian%20Metaltail%20JCB.jpg"
+ ]
+}

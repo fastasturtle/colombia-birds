@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "strowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Asio",
+ "id": "asio-clamator",
+ "ids": {
+  "avibase": "849E5AD25E73636F",
+  "birdbase": 9435,
+  "gbif": 4843115,
+  "inaturalist": "558468",
+  "iucn": "22689522",
+  "wikidata": "Q1273314",
+  "xeno_canto": "Asio-clamator"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Asio_clamator",
+  "ebird": "https://ebird.org/species/strowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558468",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Striped_owl",
+   "es": "https://es.wikipedia.org/wiki/Asio_clamator",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатая_сова"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Asio+clamator"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Striped Owl",
+  "en_aco": "Striped Owl",
+  "es": "Búho Gritón",
+  "ru": "Полосатая сова"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Asio clamator",
+ "sci_name_aco": "Asio clamator",
+ "sounds": [],
+ "taxon_order": 9264.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 458.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Asio%20clamator%20-%20Agust%C3%ADn%20Zarco%20-%20465964998.jpeg"
+ ]
+}

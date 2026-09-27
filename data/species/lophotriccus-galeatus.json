@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "heptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Lophotriccus",
+ "id": "lophotriccus-galeatus",
+ "ids": {
+  "avibase": "AD336ABC3CA1E115",
+  "birdbase": 17428,
+  "gbif": 2483401,
+  "inaturalist": "17116",
+  "iucn": "22699569",
+  "wikidata": "Q901975",
+  "xeno_canto": "Lophotriccus-galeatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lophotriccus_galeatus",
+  "ebird": "https://ebird.org/species/heptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17116",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Helmeted_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Lophotriccus_galeatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lophotriccus+galeatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Helmeted Pygmy-Tyrant",
+  "en_aco": "Helmeted Pygmy-Tyrant",
+  "es": "Cimerillo de Casquete",
+  "ru": "Шлемоносная чубатка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lophotriccus galeatus",
+ "sci_name_aco": "Lophotriccus galeatus",
+ "sounds": [],
+ "taxon_order": 16317.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 7.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lophotriccus%20galeatus%20-%20Helmeted%20Pygmy%20Tyrant%2C%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil%2001.jpg"
+ ]
+}

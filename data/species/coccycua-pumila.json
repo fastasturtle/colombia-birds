@@ -1,0 +1,93 @@
+{
+ "authorship": "(Strickland, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dwacuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccycua",
+ "id": "coccycua-pumila",
+ "ids": {
+  "avibase": "F0677C4BDA98E464",
+  "birdbase": 4084,
+  "gbif": 5788391,
+  "inaturalist": "72741",
+  "iucn": "22684309",
+  "wikidata": "Q1261104",
+  "xeno_canto": "Coccycua-pumila"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccycua_pumila",
+  "ebird": "https://ebird.org/species/dwacuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72741",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dwarf_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccycua_pumila",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccycua+pumila"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dwarf Cuckoo",
+  "en_aco": "Dwarf Cuckoo",
+  "es": "Cuclillo Enano",
+  "ru": "Карликовая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccycua pumila",
+ "sci_name_aco": "Coccycua pumila",
+ "sounds": [],
+ "taxon_order": 3215.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 41.96,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coccycua%20pumila%20%28Cuco%20enano%29%20%2815430611517%29.jpg"
+ ]
+}

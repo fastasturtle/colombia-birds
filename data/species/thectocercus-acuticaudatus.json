@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bucpar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Thectocercus",
+ "id": "thectocercus-acuticaudatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13549,
+  "gbif": 7826906,
+  "inaturalist": "367564",
+  "iucn": null,
+  "wikidata": "Q27074980",
+  "xeno_canto": "Thectocercus-acuticaudatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thectocercus_acuticaudatus",
+  "ebird": "https://ebird.org/species/bucpar",
+  "inaturalist": "https://www.inaturalist.org/taxa/367564",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-crowned_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Thectocercus_acuticaudatus",
+   "ru": "https://ru.wikipedia.org/wiki/Синелобая_аратинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thectocercus+acuticaudatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-crowned Parakeet",
+  "en_aco": "Blue-crowned Parakeet",
+  "es": "Aratinga Cabeciazul",
+  "ru": "Синелобая аратинга"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Thectocercus acuticaudatus",
+ "sci_name_aco": "Thectocercus acuticaudatus",
+ "sounds": [],
+ "taxon_order": 13164.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2650,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 179.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-crowned%20Parakeet%20%28Thectocercus%20acuticaudatus%29%20%288077633598%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-crowned%20Parakeet%20%28Thectocercus%20acuticaudatus%29%20Pocon%C3%A9%2C%20Mato%20Grosso.jpg"
+ ]
+}

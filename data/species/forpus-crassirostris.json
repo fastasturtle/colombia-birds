@@ -1,0 +1,92 @@
+{
+ "authorship": "(Taczanowski, 1883)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buwpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Forpus",
+ "id": "forpus-crassirostris",
+ "ids": {
+  "avibase": "64C68E69FB4281B1",
+  "birdbase": 13345,
+  "gbif": 5788410,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q21191085",
+  "xeno_canto": "Forpus-crassirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Forpus_crassirostris",
+  "ebird": "https://ebird.org/species/buwpar2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Riparian_parrotlet",
+   "es": null,
+   "ru": "https://ru.wikipedia.org/wiki/Forpus_crassirostris"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Forpus+crassirostris"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Riparian Parrotlet",
+  "en_aco": "Riparian Parrotlet",
+  "es": "Cotorrita Azuleja",
+  "ru": null
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Forpus crassirostris",
+ "sci_name_aco": "Forpus crassirostris",
+ "sounds": [],
+ "taxon_order": 12985.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-winged%20Parrotlet%20-%20REGUA%20-%20Brazil%20S4E2247%20%2812931340974%29.jpg"
+ ]
+}

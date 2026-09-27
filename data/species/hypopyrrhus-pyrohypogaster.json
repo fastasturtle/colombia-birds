@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tarragon, 1847)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebgra1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Hypopyrrhus",
+ "id": "hypopyrrhus-pyrohypogaster",
+ "ids": {
+  "avibase": "65FE369718B0EFE6",
+  "birdbase": 36078,
+  "gbif": 2484281,
+  "inaturalist": "10641",
+  "iucn": "22724268",
+  "wikidata": "Q1300290",
+  "xeno_canto": "Hypopyrrhus-pyrohypogaster"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hypopyrrhus_pyrohypogaster",
+  "ebird": "https://ebird.org/species/rebgra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10641",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-bellied_grackle",
+   "es": "https://es.wikipedia.org/wiki/Hypopyrrhus_pyrohypogaster",
+   "ru": "https://ru.wikipedia.org/wiki/Краснобрюхий_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hypopyrrhus+pyrohypogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-bellied Grackle",
+  "en_aco": "Red-bellied Grackle",
+  "es": "Chango Ventrirrojo",
+  "ru": "Краснобрюхий гракл"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hypopyrrhus pyrohypogaster",
+ "sci_name_aco": "Hypopyrrhus pyrohypogaster",
+ "sounds": [],
+ "taxon_order": 33900.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2750,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": 800
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 111,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hypopyrrhus%20pyrohypogaster%20Cacique%20candela%20Red-bellied%20Grackle%20%2813724950754%29.jpg"
+ ]
+}

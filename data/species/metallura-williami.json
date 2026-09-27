@@ -1,0 +1,93 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "virmet1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Metallura",
+ "id": "metallura-williami",
+ "ids": {
+  "avibase": "8023D26D4759ED29",
+  "birdbase": 3028,
+  "gbif": 2476875,
+  "inaturalist": "5582",
+  "iucn": "22687990",
+  "wikidata": "Q1272427",
+  "xeno_canto": "Metallura-williami"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Metallura_williami",
+  "ebird": "https://ebird.org/species/virmet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5582",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Viridian_metaltail",
+   "es": "https://es.wikipedia.org/wiki/Metallura_williami",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Metallura+williami"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Viridian Metaltail",
+  "en_aco": "Viridian Metaltail",
+  "es": "Metalura Verde",
+  "ru": "Зелёный металлохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Metallura williami",
+ "sci_name_aco": "Metallura williami",
+ "sounds": [],
+ "taxon_order": 4552.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 2700,
+   "min_extreme": 2100
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 4.6,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Metallura%20williami%20atrigularis%201894.jpg"
+ ]
+}

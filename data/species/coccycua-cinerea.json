@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "asccuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccycua",
+ "id": "coccycua-cinerea",
+ "ids": {
+  "avibase": "83A0647B5E3F980A",
+  "birdbase": 4085,
+  "gbif": 5788393,
+  "inaturalist": "72739",
+  "iucn": "22684318",
+  "wikidata": "Q1267974",
+  "xeno_canto": "Coccycua-cinerea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccycua_cinerea",
+  "ebird": "https://ebird.org/species/asccuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72739",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ash-colored_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccycua_cinerea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccycua+cinerea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ash-colored Cuckoo",
+  "en_aco": "Ash-colored Cuckoo",
+  "es": "Cuclillo Ceniciento",
+  "ru": "Пепельная пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccycua cinerea",
+ "sci_name_aco": "Coccycua cinerea",
+ "sounds": [],
+ "taxon_order": 3216.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 43.760000000000005,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coccycua%20cinerea.jpg"
+ ]
+}

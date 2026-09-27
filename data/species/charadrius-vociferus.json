@@ -1,0 +1,99 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "killde",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Charadrius",
+ "id": "charadrius-vociferus",
+ "ids": {
+  "avibase": "BCF9A19AFE372627",
+  "birdbase": 6464,
+  "gbif": 2480320,
+  "inaturalist": "4793",
+  "iucn": "22693777",
+  "wikidata": "Q755737",
+  "xeno_canto": "Charadrius-vociferus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Charadrius_vociferus",
+  "ebird": "https://ebird.org/species/killde",
+  "inaturalist": "https://www.inaturalist.org/taxa/4793",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Killdeer",
+   "es": "https://es.wikipedia.org/wiki/Charadrius_vociferus",
+   "ru": "https://ru.wikipedia.org/wiki/Крикливый_зуёк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Charadrius+vociferus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Killdeer",
+  "en_aco": "Killdeer",
+  "es": "Chorlitejo Culirrojo",
+  "ru": "Крикливый зуёк"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Charadrius vociferus",
+ "sci_name_aco": "Charadrius vociferus",
+ "sounds": [],
+ "taxon_order": 5827.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2438,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "plantation",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 100.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Plains",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Juvenile%20killdeer.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Killdeer.jpg"
+ ]
+}

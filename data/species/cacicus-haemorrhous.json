@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rercac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-haemorrhous",
+ "ids": {
+  "avibase": "020E619988274619",
+  "birdbase": 35860,
+  "gbif": 5229828,
+  "inaturalist": "10357",
+  "iucn": "22724034",
+  "wikidata": "Q278983",
+  "xeno_canto": "Cacicus-haemorrhous"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_haemorrhous",
+  "ebird": "https://ebird.org/species/rercac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10357",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-rumped_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_haemorrhous",
+   "ru": "https://ru.wikipedia.org/wiki/Красноспинный_чёрный_кассик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+haemorrhous"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-rumped Cacique",
+  "en_aco": "Red-rumped Cacique",
+  "es": "Cacique Lomirrojo",
+  "ru": "Красноспинный кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus haemorrhous",
+ "sci_name_aco": "Cacicus haemorrhous",
+ "sounds": [],
+ "taxon_order": 33660.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-rumped%20Cacique.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Kuhl, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pionites",
+ "id": "pionites-leucogaster",
+ "ids": {
+  "avibase": "7FEDAAABA994FD68",
+  "birdbase": 13371,
+  "gbif": 2479441,
+  "inaturalist": "19254",
+  "iucn": "62181308",
+  "wikidata": "Q775636",
+  "xeno_canto": "Pionites-leucogaster"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pionites_leucogaster",
+  "ebird": "https://ebird.org/species/whbpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19254",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bellied_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pionites_leucogaster",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжеголовый_белобрюхий_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pionites+leucogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bellied Parrot",
+  "en_aco": "White-bellied Parrot",
+  "es": "Lorito Rubio",
+  "ru": "Белобрюхий лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pionites leucogaster",
+ "sci_name_aco": "Pionites leucogaster",
+ "sounds": [],
+ "taxon_order": 13006.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 155,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pionites%20leucogaster%20-%20White-bellied%20Parrot%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

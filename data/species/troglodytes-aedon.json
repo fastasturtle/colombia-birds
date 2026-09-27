@@ -1,0 +1,97 @@
+{
+ "authorship": "(Vieillot, 1809)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "houwre",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Troglodytes",
+ "id": "troglodytes-aedon",
+ "ids": {
+  "avibase": "1181E29791E92A94",
+  "birdbase": 29220,
+  "gbif": 5231459,
+  "inaturalist": "7562",
+  "iucn": "103886826",
+  "wikidata": "Q524799",
+  "xeno_canto": "Troglodytes-aedon"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Troglodytes_aedon",
+  "ebird": "https://ebird.org/species/houwre",
+  "inaturalist": "https://www.inaturalist.org/taxa/7562",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_house_wren",
+   "es": "https://es.wikipedia.org/wiki/Troglodytes_aedon",
+   "ru": "https://ru.wikipedia.org/wiki/Домовый_крапивник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Troglodytes+aedon"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Northern House Wren",
+  "en_aco": "House Wren",
+  "es": "Chochín Criollo Norteño",
+  "ru": "Домовый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Troglodytes aedon",
+ "sci_name_aco": "Troglodytes aedon",
+ "sounds": [],
+ "taxon_order": 27191.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 11.133333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/House%20wren%20in%20Prospect%20Park%20%2823218%29.jpg"
+ ]
+}

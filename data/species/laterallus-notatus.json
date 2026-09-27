@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1841)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sperai1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Laterallus",
+ "id": "laterallus-notatus",
+ "ids": {
+  "avibase": "0E761CC4688DD458",
+  "birdbase": 5995,
+  "gbif": 5228186,
+  "inaturalist": "545",
+  "iucn": "22692278",
+  "wikidata": "Q1264209",
+  "xeno_canto": "Coturnicops-notatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coturnicops_notatus",
+  "ebird": "https://ebird.org/species/sperai1",
+  "inaturalist": "https://www.inaturalist.org/taxa/545",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_rail",
+   "es": "https://es.wikipedia.org/wiki/Laterallus_notatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laterallus+notatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Rail",
+  "en_aco": "Speckled Rail",
+  "es": "Polluela de Darwin",
+  "ru": "Пёстрая курочка-малютка"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Laterallus notatus",
+ "sci_name_aco": "Coturnicops notatus",
+ "sounds": [],
+ "taxon_order": 5630.0,
+ "taxonomy_note": "ACO/SACC lists this as Coturnicops notatus; eBird/Clements uses Laterallus notatus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": "Fine gravel",
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 27.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coturnicops%20notata%20notata.jpg"
+ ]
+}

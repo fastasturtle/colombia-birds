@@ -1,0 +1,89 @@
+{
+ "authorship": "(Fitzpatrick & O'Neill, 1986)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cinsco1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-petersoni",
+ "ids": {
+  "avibase": "C2937B686D876C21",
+  "birdbase": 9662,
+  "gbif": 2497379,
+  "inaturalist": "19736",
+  "iucn": "22688840",
+  "wikidata": "Q204001",
+  "xeno_canto": "Megascops-petersoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_petersoni",
+  "ebird": "https://ebird.org/species/cinsco1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19736",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_petersoni",
+   "ru": "https://ru.wikipedia.org/wiki/Коричневая_совка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+petersoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon Screech-Owl",
+  "en_aco": "Cinnamon Screech-Owl",
+  "es": "Autillo de Peterson",
+  "ru": "Коричневая совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops petersoni",
+ "sci_name_aco": "Megascops petersoni",
+ "sounds": [],
+ "taxon_order": 8828.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2450,
+   "max_extreme": null,
+   "min": 1650,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 101,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

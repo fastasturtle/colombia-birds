@@ -1,0 +1,94 @@
+{
+ "authorship": "(Audubon, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yefsis1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Spinus",
+ "id": "spinus-yarrellii",
+ "ids": {
+  "avibase": "9C5F13F6A218E437",
+  "birdbase": 34774,
+  "gbif": 6092655,
+  "inaturalist": "145312",
+  "iucn": "22720368",
+  "wikidata": "Q10820720",
+  "xeno_canto": "Spinus-yarrellii"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spinus_yarrellii",
+  "ebird": "https://ebird.org/species/yefsis1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145312",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-faced_siskin",
+   "es": "https://es.wikipedia.org/wiki/Spinus_yarrellii",
+   "ru": "https://ru.wikipedia.org/wiki/Желтолицый_чиж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spinus+yarrellii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-faced Siskin",
+  "en_aco": "Yellow-faced Siskin",
+  "es": "Jilguero Cariamarillo",
+  "ru": "Желтолицый чиж"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spinus yarrellii",
+ "sci_name_aco": "Spinus yarrellii",
+ "sounds": [],
+ "taxon_order": 32630.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 550,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carduelis%20yarrellii.JPG"
+ ]
+}

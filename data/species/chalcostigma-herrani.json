@@ -1,0 +1,95 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rabtho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chalcostigma",
+ "id": "chalcostigma-herrani",
+ "ids": {
+  "avibase": "C14098B2417157AB",
+  "birdbase": 3005,
+  "gbif": 2476805,
+  "inaturalist": "5900",
+  "iucn": "22688036",
+  "wikidata": "Q1260684",
+  "xeno_canto": "Chalcostigma-herrani"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chalcostigma_herrani",
+  "ebird": "https://ebird.org/species/rabtho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5900",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rainbow-bearded_thornbill",
+   "es": "https://es.wikipedia.org/wiki/Chalcostigma_herrani",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chalcostigma+herrani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rainbow-bearded Thornbill",
+  "en_aco": "Rainbow-bearded Thornbill",
+  "es": "Colibrí de Herrán",
+  "ru": "Бородатый радужник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chalcostigma herrani",
+ "sci_name_aco": "Chalcostigma herrani",
+ "sounds": [],
+ "taxon_order": 4530.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": 4000,
+   "min": 2700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 6.183333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chalcostigma%20herrani%20-NW%20Ecuador-6.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rainbow-Bearded%20Thornbill%20%28Chalcostigma%20herrani%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chalcostigma%20herrani%20Picoespina%20arcoiris%20Rainbow-bearded%20Thornbill%20%2814361829555%29.jpg"
+ ]
+}

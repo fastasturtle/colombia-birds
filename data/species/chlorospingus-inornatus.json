@@ -1,0 +1,92 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pibtan1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Chlorospingus",
+ "id": "chlorospingus-inornatus",
+ "ids": {
+  "avibase": "2F0F98C24C628498",
+  "birdbase": 35119,
+  "gbif": 2488745,
+  "inaturalist": "10209",
+  "iucn": "22722172",
+  "wikidata": "Q860927",
+  "xeno_canto": "Chlorospingus-inornatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorospingus_inornatus",
+  "ebird": "https://ebird.org/species/pibtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10209",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pirre_chlorospingus",
+   "es": "https://es.wikipedia.org/wiki/Chlorospingus_inornatus",
+   "ru": "https://ru.wikipedia.org/wiki/Чернощёкая_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorospingus+inornatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pirre Chlorospingus",
+  "en_aco": "Pirre Chlorospingus",
+  "es": "Clorospingo del Pirre",
+  "ru": "Чернощёкий дромник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorospingus inornatus",
+ "sci_name_aco": "Chlorospingus inornatus",
+ "sounds": [],
+ "taxon_order": 32900.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 780,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 28,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,89 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "thlsch4",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Schiffornis",
+ "id": "schiffornis-stenorhyncha",
+ "ids": {
+  "avibase": "32718B62D45947A0",
+  "birdbase": 18527,
+  "gbif": 8118237,
+  "inaturalist": "201099",
+  "iucn": "103677383",
+  "wikidata": "Q10818949",
+  "xeno_canto": "Schiffornis-stenorhyncha"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schiffornis_stenorhyncha",
+  "ebird": "https://ebird.org/species/thlsch4",
+  "inaturalist": "https://www.inaturalist.org/taxa/201099",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Russet-winged_schiffornis",
+   "es": "https://es.wikipedia.org/wiki/Schiffornis_stenorhyncha",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schiffornis+stenorhyncha"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Russet-winged Schiffornis",
+  "en_aco": "Russet-winged Schiffornis",
+  "es": "Llorón Picofino",
+  "ru": "Бурокрылая сельвиния"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Schiffornis stenorhyncha",
+ "sci_name_aco": "Schiffornis stenorhyncha",
+ "sounds": [],
+ "taxon_order": 15991.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 32.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

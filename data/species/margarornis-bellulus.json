@@ -1,0 +1,89 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "beatre1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Margarornis",
+ "id": "margarornis-bellulus",
+ "ids": {
+  "avibase": "5D9734CEB6ACBD66",
+  "birdbase": 15252,
+  "gbif": 2485846,
+  "inaturalist": "10906",
+  "iucn": "22702726",
+  "wikidata": "Q796676",
+  "xeno_canto": "Margarornis-bellulus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/beatre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10906",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Beautiful_treerunner",
+   "es": "https://es.wikipedia.org/wiki/Margarornis_bellulus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Margarornis+bellulus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Beautiful Treerunner",
+  "en_aco": "Beautiful Treerunner",
+  "es": "Subepalo Bonito",
+  "ru": "Украшенный щетинкохвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Margarornis bellulus",
+ "sci_name_aco": "Margarornis bellulus",
+ "sounds": [],
+ "taxon_order": 15299.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 1350,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 18.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

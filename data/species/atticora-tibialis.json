@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cassin, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtswa1",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Atticora",
+ "id": "atticora-tibialis",
+ "ids": {
+  "avibase": "40A0818911AB9C78",
+  "birdbase": 25190,
+  "gbif": 7340409,
+  "inaturalist": "144785",
+  "iucn": "22712143",
+  "wikidata": "Q28866471",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atticora_tibialis",
+  "ebird": "https://ebird.org/species/whtswa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144785",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-thighed_swallow",
+   "es": "https://es.wikipedia.org/wiki/Neochelidon_tibialis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atticora+tibialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-thighed Swallow",
+  "en_aco": "White-thighed Swallow",
+  "es": "Golondrina Patiblanca",
+  "ru": "Карликовая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atticora tibialis",
+ "sci_name_aco": "Atticora tibialis",
+ "sounds": [],
+ "taxon_order": 24123.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atticora%20%28Neochelidon%29%20tibialis%20-%20White-thighed%20Swallow%20%28cropped%29.jpg"
+ ]
+}

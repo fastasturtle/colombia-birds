@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "peaant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Megastictus",
+ "id": "megastictus-margaritatus",
+ "ids": {
+  "avibase": "4FB0F5F32AAB1264",
+  "birdbase": 15888,
+  "gbif": 2490220,
+  "inaturalist": "15947",
+  "iucn": "22701352",
+  "wikidata": "Q930693",
+  "xeno_canto": "Megastictus-margaritatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megastictus_margaritatus",
+  "ebird": "https://ebird.org/species/peaant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15947",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pearly_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Megastictus_margaritatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megastictus+margaritatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pearly Antshrike",
+  "en_aco": "Pearly Antshrike",
+  "es": "Batará Perlado",
+  "ru": "Жемчужный эсперито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Megastictus margaritatus",
+ "sci_name_aco": "Megastictus margaritatus",
+ "sounds": [],
+ "taxon_order": 13610.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1250,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 19.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megastictus%20margaritatus%20-%20Pearly%20Antshrike%20%28male%29%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MyrmecizaMargaritataWolf.jpg"
+ ]
+}

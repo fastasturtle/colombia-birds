@@ -1,0 +1,93 @@
+{
+ "authorship": "(Hellmayr, 1909)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gagtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Poecilostreptus",
+ "id": "poecilostreptus-palmeri",
+ "ids": {
+  "avibase": "8298ABC56D516C3B",
+  "birdbase": 37803,
+  "gbif": 11090140,
+  "inaturalist": "9574",
+  "iucn": "22722816",
+  "wikidata": "Q2934249",
+  "xeno_canto": "Tangara-palmeri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Poecilostreptus_palmeri",
+  "ebird": "https://ebird.org/species/gagtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9574",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-and-gold_tanager",
+   "es": "https://es.wikipedia.org/wiki/Poecilostreptus_palmeri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Poecilostreptus+palmeri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-and-gold Tanager",
+  "en_aco": "Gray-and-gold Tanager",
+  "es": "Tangara Grisdorada",
+  "ru": "Серо-золотая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Poecilostreptus palmeri",
+ "sci_name_aco": "Poecilostreptus palmeri",
+ "sounds": [],
+ "taxon_order": 34993.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 31.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CalospizaPalmeriGronvold.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Poecilostreptus%20palmeri%20-%20Gray-and-gold%20Tanager%20%28cropped%29.jpg"
+ ]
+}

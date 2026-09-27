@@ -1,0 +1,94 @@
+{
+ "authorship": "(Molina, 1782)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bwgdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Metriopelia",
+ "id": "metriopelia-melanoptera",
+ "ids": {
+  "avibase": "C28815B3B270CF14",
+  "birdbase": 4925,
+  "gbif": 2495178,
+  "inaturalist": "3320",
+  "iucn": "22690839",
+  "wikidata": "Q1263498",
+  "xeno_canto": "Metriopelia-melanoptera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Metriopelia_melanoptera",
+  "ebird": "https://ebird.org/species/bwgdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3320",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-winged_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Metriopelia_melanoptera",
+   "ru": "https://ru.wikipedia.org/wiki/Чернокрылая_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Metriopelia+melanoptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-winged Ground Dove",
+  "en_aco": "Black-winged Ground Dove",
+  "es": "Palomita Alinegra",
+  "ru": "Чернокрылая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Metriopelia melanoptera",
+ "sci_name_aco": "Metriopelia melanoptera",
+ "sounds": [],
+ "taxon_order": 2302.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4900,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 102.21666666666665,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-winged%20Ground-dove.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wbgtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Muscisaxicola",
+ "id": "muscisaxicola-albilora",
+ "ids": {
+  "avibase": "16B459601737FDE4",
+  "birdbase": 17808,
+  "gbif": 2483719,
+  "inaturalist": "16159",
+  "iucn": "22700173",
+  "wikidata": "Q1270061",
+  "xeno_canto": "Muscisaxicola-albilora"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Muscisaxicola_albilora",
+  "ebird": "https://ebird.org/species/wbgtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16159",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-browed_ground_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Muscisaxicola_albilora",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Muscisaxicola+albilora"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-browed Ground-Tyrant",
+  "en_aco": "White-browed Ground-Tyrant",
+  "es": "Dormilona Cejiblanca",
+  "ru": "Белобровая дормилона"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Muscisaxicola albilora",
+ "sci_name_aco": "Muscisaxicola albilora",
+ "sounds": [],
+ "taxon_order": 17102.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4200,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 27,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-browed%20Ground-Tyrant%20%28Muscisaxicola%20albilora%29%20%2815774926697%29.jpg"
+ ]
+}

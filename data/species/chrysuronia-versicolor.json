@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vereme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysuronia",
+ "id": "chrysuronia-versicolor",
+ "ids": {
+  "avibase": "36964F822434E6F7",
+  "birdbase": 3644,
+  "gbif": 11021619,
+  "inaturalist": "1289647",
+  "iucn": "22687525",
+  "wikidata": "Q117253733",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/vereme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1289647",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Versicolored_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chrysuronia_versicolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysuronia+versicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Versicolored Emerald",
+  "en_aco": "Versicolored Emerald",
+  "es": "Amazilia Versicolor",
+  "ru": "Блестящая амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysuronia versicolor",
+ "sci_name_aco": "Chrysuronia versicolor",
+ "sounds": [],
+ "taxon_order": 5134.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": 1700,
+   "min": 50,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.5599999999999996,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chrysuronia%20versicolor%20-%20Carlos%20Alexandre%20Mattos%20Raposo%20-%20587020444.jpeg"
+ ]
+}

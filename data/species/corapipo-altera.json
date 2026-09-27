@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hellmayr, 1906)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whrman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Corapipo",
+ "id": "corapipo-altera",
+ "ids": {
+  "avibase": "DED4C1C196538E9E",
+  "birdbase": 18364,
+  "gbif": 2487779,
+  "inaturalist": "14340",
+  "iucn": null,
+  "wikidata": "Q842538",
+  "xeno_canto": "Corapipo-altera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Corapipo_altera",
+  "ebird": "https://ebird.org/species/whrman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14340",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-ruffed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Corapipo_altera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Corapipo+altera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-ruffed Manakin",
+  "en_aco": "White-ruffed Manakin",
+  "es": "Saltarín Gorjiblanco Centroamericano",
+  "ru": "Белогорлый манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Corapipo altera",
+ "sci_name_aco": "Corapipo altera",
+ "sounds": [],
+ "taxon_order": 15718.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1585,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.486666666666666,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-ruffed%20Manakin%20%28C.%20altera%29.JPG"
+ ]
+}

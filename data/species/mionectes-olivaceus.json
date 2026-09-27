@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olsfly2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mionectes",
+ "id": "mionectes-olivaceus",
+ "ids": {
+  "avibase": "5396E3F301092EC3",
+  "birdbase": 17226,
+  "gbif": 9504121,
+  "inaturalist": "16529",
+  "iucn": "103680120",
+  "wikidata": "Q1264771",
+  "xeno_canto": "Mionectes-olivaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mionectes_olivaceus",
+  "ebird": "https://ebird.org/species/olsfly2",
+  "inaturalist": "https://www.inaturalist.org/taxa/16529",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olive-streaked_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Mionectes_olivaceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mionectes+olivaceus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Olive-streaked Flycatcher",
+  "en_aco": "Olive-striped Flycatcher",
+  "es": "Mosquero Oliváceo",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mionectes olivaceus",
+ "sci_name_aco": "Mionectes olivaceus",
+ "sounds": [],
+ "taxon_order": 16206.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2150,
+   "max_extreme": 3000,
+   "min": 500,
+   "min_extreme": 50
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 14.7,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mionectes%20olivaceus%20Olive-streaked%20Flycatcher%3B%20Ant%C3%B3n%2C%20Cocl%C3%A9%2C%20Panam%C3%A1.jpg"
+ ]
+}

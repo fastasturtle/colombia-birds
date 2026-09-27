@@ -1,0 +1,92 @@
+{
+ "authorship": "(Taczanowski, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paefly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-cephalotes",
+ "ids": {
+  "avibase": "C7D1E218F239A13F",
+  "birdbase": 18143,
+  "gbif": 2483528,
+  "inaturalist": "16054",
+  "iucn": "22700418",
+  "wikidata": "Q1042845",
+  "xeno_canto": "Myiarchus-cephalotes"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_cephalotes",
+  "ebird": "https://ebird.org/species/paefly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16054",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-edged_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_cephalotes",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+cephalotes"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-edged Flycatcher",
+  "en_aco": "Pale-edged Flycatcher",
+  "es": "Copetón Montañero",
+  "ru": "Андский миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus cephalotes",
+ "sci_name_aco": "Myiarchus cephalotes",
+ "sounds": [],
+ "taxon_order": 17320.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 26.583333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20cephalotes%20Atrapamoscas%20monta%C3%B1ero%20Pale-edged%20Flycatcher%20%2813975565116%29.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "purhon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cyanerpes",
+ "id": "cyanerpes-caeruleus",
+ "ids": {
+  "avibase": "A0A7D1B2A28F8758",
+  "birdbase": 36841,
+  "gbif": 2488903,
+  "inaturalist": "10261",
+  "iucn": "22723009",
+  "wikidata": "Q518693",
+  "xeno_canto": "Cyanerpes-caeruleus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanerpes_caeruleus",
+  "ebird": "https://ebird.org/species/purhon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10261",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple_honeycreeper",
+   "es": "https://es.wikipedia.org/wiki/Cyanerpes_caeruleus",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурная_танагра-медосос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanerpes+caeruleus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple Honeycreeper",
+  "en_aco": "Purple Honeycreeper",
+  "es": "Mielerito Cerúleo",
+  "ru": "Фиолетовый саи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanerpes caeruleus",
+ "sci_name_aco": "Cyanerpes caeruleus",
+ "sounds": [],
+ "taxon_order": 35168.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.016666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purpurnaschvogel%20%28Cyanerpes%20caeruleus%29%2003.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple%20honey%20creeper%20%28Cyanerpes%20caeruleus%20longirostris%29%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple%20honey%20creeper%20%28Cyanerpes%20caeruleus%20longirostris%29%20female.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Swainson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bnrcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Phoenicircus",
+ "id": "phoenicircus-nigricollis",
+ "ids": {
+  "avibase": "34A7416AA312B894",
+  "birdbase": 18264,
+  "gbif": 2486344,
+  "inaturalist": "8891",
+  "iucn": "22700695",
+  "wikidata": "Q605946",
+  "xeno_canto": "Phoenicircus-nigricollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phoenicircus_nigricollis",
+  "ebird": "https://ebird.org/species/bnrcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8891",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-necked_red_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Phoenicircus_nigricollis",
+   "ru": "https://ru.wikipedia.org/wiki/Большая_чёрно-красная_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phoenicircus+nigricollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-necked Red-Cotinga",
+  "en_aco": "Black-necked Red-Cotinga",
+  "es": "Cotinga Rojo Cuellinegro",
+  "ru": "Черношейная котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Phoenicircus nigricollis",
+ "sci_name_aco": "Phoenicircus nigricollis",
+ "sounds": [],
+ "taxon_order": 15898.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 97.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenicircus%20nigricollis%20-%20Black-necked%20Red-Cotinga%20-%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenicircus%20nigricollis%20Black-necked%20red%20Cotinga%20%28female%29%3B%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

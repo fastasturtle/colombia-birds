@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cliswa",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Petrochelidon",
+ "id": "petrochelidon-pyrrhonota",
+ "ids": {
+  "avibase": "F5C181CA4478FD86",
+  "birdbase": 25344,
+  "gbif": 2489169,
+  "inaturalist": "11858",
+  "iucn": "22712427",
+  "wikidata": "Q1591775",
+  "xeno_canto": "Petrochelidon-pyrrhonota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Petrochelidon_pyrrhonota",
+  "ebird": "https://ebird.org/species/cliswa",
+  "inaturalist": "https://www.inaturalist.org/taxa/11858",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cliff_swallow",
+   "es": "https://es.wikipedia.org/wiki/Petrochelidon_pyrrhonota",
+   "ru": "https://ru.wikipedia.org/wiki/Белолобая_горная_ласточка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Petrochelidon+pyrrhonota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cliff Swallow",
+  "en_aco": "Cliff Swallow",
+  "es": "Golondrina Risquera",
+  "ru": "Белолобая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Petrochelidon pyrrhonota",
+ "sci_name_aco": "Petrochelidon pyrrhonota",
+ "sounds": [],
+ "taxon_order": 24281.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2770,
+   "max_extreme": 3800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "agricultural"
+  ],
+  "mass_g": 22.386666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Petrochelidon%20pyrrhonota%20-flight%20-Palo%20Alto%20Baylands-8.jpg"
+ ]
+}

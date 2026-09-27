@@ -1,0 +1,91 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "smcpew1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Contopus",
+ "id": "contopus-fumigatus",
+ "ids": {
+  "avibase": "ECF2FBB2B62909A8",
+  "birdbase": 17675,
+  "gbif": 5229760,
+  "inaturalist": "16090",
+  "iucn": "22699804",
+  "wikidata": "Q339429",
+  "xeno_canto": "Contopus-fumigatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Contopus_fumigatus",
+  "ebird": "https://ebird.org/species/smcpew1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16090",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Smoke-colored_pewee",
+   "es": "https://es.wikipedia.org/wiki/Contopus_fumigatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Contopus+fumigatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Smoke-colored Pewee",
+  "en_aco": "Smoke-colored Pewee",
+  "es": "Pibí Ahumado",
+  "ru": "Дымчатый пиви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Contopus fumigatus",
+ "sci_name_aco": "Contopus fumigatus",
+ "sounds": [],
+ "taxon_order": 16896.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3000,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.266666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Contopus%20fumigatus%20Pib%C3%AD%20oscuro%20Smoke-colored%20Pewee%20%2814018741813%29.jpg"
+ ]
+}

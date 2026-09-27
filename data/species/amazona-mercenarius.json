@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scnpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Amazona",
+ "id": "amazona-mercenarius",
+ "ids": {
+  "avibase": "CED01CA4801596CF",
+  "birdbase": 13322,
+  "gbif": 4501534,
+  "inaturalist": "144265",
+  "iucn": "22686354",
+  "wikidata": "Q582720",
+  "xeno_canto": "Amazona-mercenarius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazona_mercenarius",
+  "ebird": "https://ebird.org/species/scnpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144265",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaly-naped_amazon",
+   "es": "https://es.wikipedia.org/wiki/Amazona_mercenarius",
+   "ru": "https://ru.wikipedia.org/wiki/Солдатский_амазон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazona+mercenarius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaly-naped Amazon",
+  "en_aco": "Scaly-naped Parrot",
+  "es": "Amazona Mercenaria",
+  "ru": "Солдатский амазон"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Amazona mercenarius",
+ "sci_name_aco": "Amazona mercenarius",
+ "sounds": [],
+ "taxon_order": 12974.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3600,
+   "min": 1500,
+   "min_extreme": 800
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 340,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazona%20mercenaria%20%28Lora%20andina%29%20-%20Flickr%20-%20Alejandro%20Bayer.jpg"
+ ]
+}

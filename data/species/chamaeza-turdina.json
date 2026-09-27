@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis & Heine, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "schant1",
+ "family": {
+  "code": "formic2",
+  "en": "Antthrushes",
+  "sci": "Formicariidae"
+ },
+ "genus": "Chamaeza",
+ "id": "chamaeza-turdina",
+ "ids": {
+  "avibase": "588B7DC5B691AB71",
+  "birdbase": 16486,
+  "gbif": 2490565,
+  "inaturalist": "9023",
+  "iucn": "22703218",
+  "wikidata": "Q859975",
+  "xeno_canto": "Chamaeza-turdina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chamaeza_turdina",
+  "ebird": "https://ebird.org/species/schant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9023",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Schwartz's_antthrush",
+   "es": "https://es.wikipedia.org/wiki/Chamaeza_turdina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chamaeza+turdina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Schwartz's Antthrush",
+  "en_aco": "Schwartz's Antthrush",
+  "es": "Tovacá Turdino",
+  "ru": "Дроздовая муравейница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chamaeza turdina",
+ "sci_name_aco": "Chamaeza turdina",
+ "sounds": [],
+ "taxon_order": 14524.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 67,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bird%20lore%20%281914%29%20%2814753372034%29.jpg"
+ ]
+}

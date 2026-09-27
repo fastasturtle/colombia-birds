@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Phelpsia",
+ "id": "phelpsia-inornata",
+ "ids": {
+  "avibase": "A9828586B76BEE2D",
+  "birdbase": 17977,
+  "gbif": 2483418,
+  "inaturalist": "144702",
+  "iucn": "22700609",
+  "wikidata": "Q740784",
+  "xeno_canto": "Phelpsia-inornata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phelpsia",
+  "ebird": "https://ebird.org/species/whbfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144702",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bearded_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Phelpsia_inornata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phelpsia+inornata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "White-bearded Flycatcher",
+  "en_aco": "White-bearded Flycatcher",
+  "es": "Bienteveo Barbiblanco",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Phelpsia inornata",
+ "sci_name_aco": "Phelpsia inornata",
+ "sounds": [],
+ "taxon_order": 17411.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 30.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phelpsia%20inornata%20White-bearded%20Flycatcher%20%286515680991%29%20%28cropped%29.jpg"
+ ]
+}

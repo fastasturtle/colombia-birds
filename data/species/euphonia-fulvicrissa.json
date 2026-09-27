@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fuveup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-fulvicrissa",
+ "ids": {
+  "avibase": "0676F27A87E284AC",
+  "birdbase": 34857,
+  "gbif": 2488027,
+  "inaturalist": "9286",
+  "iucn": "22722747",
+  "wikidata": "Q1302683",
+  "xeno_canto": "Euphonia-fulvicrissa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_fulvicrissa",
+  "ebird": "https://ebird.org/species/fuveup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9286",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fulvous-vented_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_fulvicrissa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+fulvicrissa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous-vented Euphonia",
+  "en_aco": "Fulvous-vented Euphonia",
+  "es": "Eufonia Ventricanela",
+  "ru": "Желтобрюхая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia fulvicrissa",
+ "sci_name_aco": "Euphonia fulvicrissa",
+ "sounds": [],
+ "taxon_order": 32045.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 11.025,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fulvous-vented%20Euphonia%20%28Female%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fulvous-vented%20Euphonia.jpg"
+ ]
+}

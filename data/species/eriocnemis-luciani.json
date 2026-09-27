@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "savpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-luciani",
+ "ids": {
+  "avibase": "D47BC7114DBF5BD9",
+  "birdbase": 3070,
+  "gbif": 5228518,
+  "inaturalist": "6270",
+  "iucn": "61162182",
+  "wikidata": "Q1263310",
+  "xeno_canto": "Eriocnemis-luciani"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_luciani",
+  "ebird": "https://ebird.org/species/savpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6270",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sapphire-vented_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_luciani",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+luciani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sapphire-vented Puffleg",
+  "en_aco": "Sapphire-vented Puffleg",
+  "es": "Calzadito Colilargo",
+  "ru": "Длиннохвостый эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis luciani",
+ "sci_name_aco": "Eriocnemis luciani",
+ "sounds": [],
+ "taxon_order": 4589.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": null,
+   "min": 2400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 6.050000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Vented%20Puffleg%20%28Eriocnemis%20luciani%29.jpg"
+ ]
+}

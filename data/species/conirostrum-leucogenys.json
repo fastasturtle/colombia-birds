@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whecon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-leucogenys",
+ "ids": {
+  "avibase": "5198F288DB8DF577",
+  "birdbase": 37417,
+  "gbif": 5230608,
+  "inaturalist": "10009",
+  "iucn": "22722086",
+  "wikidata": "Q1588735",
+  "xeno_canto": "Conirostrum-leucogenys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conirostrum_leucogenys",
+  "ebird": "https://ebird.org/species/whecon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10009",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-eared_conebill",
+   "es": "https://es.wikipedia.org/wiki/Conirostrum_leucogenys",
+   "ru": "https://ru.wikipedia.org/wiki/Белоухий_остроклювый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+leucogenys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-eared Conebill",
+  "en_aco": "White-eared Conebill",
+  "es": "Conirrostro Orejiblanco",
+  "ru": "Белоухий конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum leucogenys",
+ "sci_name_aco": "Conirostrum leucogenys",
+ "sounds": [],
+ "taxon_order": 35244.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-eared%20Conebill%20-%20Dari%C3%A9n%20-%20Panama%20%2848444527412%29.jpg"
+ ]
+}

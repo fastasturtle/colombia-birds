@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lawrence, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Empidonax",
+ "id": "empidonax-flaviventris",
+ "ids": {
+  "avibase": "7B0669CBD8FC7A17",
+  "birdbase": 17721,
+  "gbif": 2482785,
+  "inaturalist": "16603",
+  "iucn": "22699839",
+  "wikidata": "Q1062634",
+  "xeno_canto": "Empidonax-flaviventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Empidonax_flaviventris",
+  "ebird": "https://ebird.org/species/yebfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16603",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-bellied_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Empidonax_flaviventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Empidonax+flaviventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Flycatcher",
+  "en_aco": "Yellow-bellied Flycatcher",
+  "es": "Mosquero Ventriamarillo",
+  "ru": "Желтобрюхий мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Empidonax flaviventris",
+ "sci_name_aco": "Empidonax flaviventris",
+ "sounds": [],
+ "taxon_order": 16949.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 11.866666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Empidonax%20flaviventris%20Toronto.jpg"
+ ]
+}

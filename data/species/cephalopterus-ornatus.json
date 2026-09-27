@@ -1,0 +1,93 @@
+{
+ "authorship": "(E. Geoffroy Saint-Hilaire, 1809)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amaumb1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Cephalopterus",
+ "id": "cephalopterus-ornatus",
+ "ids": {
+  "avibase": "5892D240AFF7B276",
+  "birdbase": 18291,
+  "gbif": 5959196,
+  "inaturalist": "8809",
+  "iucn": "22700940",
+  "wikidata": "Q2469246",
+  "xeno_canto": "Cephalopterus-ornatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cephalopterus_ornatus",
+  "ebird": "https://ebird.org/species/amaumb1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8809",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_umbrellabird",
+   "es": "https://es.wikipedia.org/wiki/Cephalopterus_ornatus",
+   "ru": "https://ru.wikipedia.org/wiki/Амазонская_зонтичная_птица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cephalopterus+ornatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazonian Umbrellabird",
+  "en_aco": "Amazonian Umbrellabird",
+  "es": "Paragüero Ornado",
+  "ru": "Амазонская зонтичная птица"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cephalopterus ornatus",
+ "sci_name_aco": "Cephalopterus ornatus",
+ "sounds": [],
+ "taxon_order": 15918.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 477,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cephalopterus%20ornatus%20-%20Amazonian%20umbrellabird%3B%20Alta%20Floresta%2C%20Mato%20Grosso%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazonian%20Umbrellabird%20fem%20-%20Manu%20NP%208291%20%2816834437801%29.jpg"
+ ]
+}

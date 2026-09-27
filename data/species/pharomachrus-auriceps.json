@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gohque1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Pharomachrus",
+ "id": "pharomachrus-auriceps",
+ "ids": {
+  "avibase": "A9525D744A915488",
+  "birdbase": 9915,
+  "gbif": 2496720,
+  "inaturalist": "20853",
+  "iucn": "22682738",
+  "wikidata": "Q248541",
+  "xeno_canto": "Pharomachrus-auriceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pharomachrus_auriceps",
+  "ebird": "https://ebird.org/species/gohque1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20853",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-headed_quetzal",
+   "es": "https://es.wikipedia.org/wiki/Pharomachrus_auriceps",
+   "ru": "https://ru.wikipedia.org/wiki/Золотистоголовый_квезал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pharomachrus+auriceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-headed Quetzal",
+  "en_aco": "Golden-headed Quetzal",
+  "es": "Quetzal Cabecidorado",
+  "ru": "Златоголовый кетцаль"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Pharomachrus auriceps",
+ "sci_name_aco": "Pharomachrus auriceps",
+ "sounds": [],
+ "taxon_order": 9505.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 188,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pharomachrus%20auriceps%20Quetzal%20colinegro%20Golden-headed%20Quetzal%20%288448497936%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-headed%20Quetzal%28Pharomachrus%20auriceps%29%20%2820523385529%29.jpg"
+ ]
+}

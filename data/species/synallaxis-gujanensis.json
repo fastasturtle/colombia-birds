@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plcspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-gujanensis",
+ "ids": {
+  "avibase": "CFEEAE9D2AA8D5EF",
+  "birdbase": 15533,
+  "gbif": 2485007,
+  "inaturalist": "10932",
+  "iucn": "22702354",
+  "wikidata": "Q1271412",
+  "xeno_canto": "Synallaxis-gujanensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_gujanensis",
+  "ebird": "https://ebird.org/species/plcspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10932",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-crowned_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_gujanensis",
+   "ru": "https://ru.wikipedia.org/wiki/Кайеннский_иглохвостый_печник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+gujanensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-crowned Spinetail",
+  "en_aco": "Plain-crowned Spinetail",
+  "es": "Pijuí Coronipardo",
+  "ru": "Гвианская иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis gujanensis",
+ "sci_name_aco": "Synallaxis gujanensis",
+ "sounds": [],
+ "taxon_order": 15575.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20gujanensis%20-%20Plain-crowned%20Spinetail%3B%20Amazon%20river%20island%2C%20Itacoatiara%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

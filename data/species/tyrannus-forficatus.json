@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sctfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannus",
+ "id": "tyrannus-forficatus",
+ "ids": {
+  "avibase": "6F65F82B4A1BA7F2",
+  "birdbase": 18069,
+  "gbif": 5229687,
+  "inaturalist": "16783",
+  "iucn": "22700500",
+  "wikidata": "Q1189983",
+  "xeno_canto": "Tyrannus-forficatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannus_forficatus",
+  "ebird": "https://ebird.org/species/sctfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16783",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scissor-tailed_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Tyrannus_forficatus",
+   "ru": "https://ru.wikipedia.org/wiki/Длиннохвостый_королевский_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannus+forficatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scissor-tailed Flycatcher",
+  "en_aco": "Scissor-tailed Flycatcher",
+  "es": "Tijereta Rosada",
+  "ru": "Длиннохвостый тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannus forficatus",
+ "sci_name_aco": "Tyrannus forficatus",
+ "sounds": [],
+ "taxon_order": 17489.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2330,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 41.70000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus%20forficatus%20on%20branch.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scissor-tailed%20Flycatcher%20RWD7.jpg"
+ ]
+}

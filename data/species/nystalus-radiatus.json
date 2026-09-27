@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Nystalus",
+ "id": "nystalus-radiatus",
+ "ids": {
+  "avibase": "4B154EA6ADCD4B05",
+  "birdbase": 11010,
+  "gbif": 2475200,
+  "inaturalist": "1612",
+  "iucn": "22682261",
+  "wikidata": "Q954033",
+  "xeno_canto": "Nystalus-radiatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nystalus_radiatus",
+  "ebird": "https://ebird.org/species/barpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1612",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Nystalus_radiatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nystalus+radiatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Puffbird",
+  "en_aco": "Barred Puffbird",
+  "es": "Buco Barrado",
+  "ru": "Рябая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Nystalus radiatus",
+ "sci_name_aco": "Nystalus radiatus",
+ "sounds": [],
+ "taxon_order": 10396.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1675,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 61,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nystalus-radiatus-001.jpg"
+ ]
+}

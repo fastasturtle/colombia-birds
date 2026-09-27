@@ -1,0 +1,92 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vartin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-variegatus",
+ "ids": {
+  "avibase": "F8BBC7A787C42026",
+  "birdbase": 145,
+  "gbif": 2477527,
+  "inaturalist": "20565",
+  "iucn": "22678223",
+  "wikidata": "Q1271939",
+  "xeno_canto": "Crypturellus-variegatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_variegatus",
+  "ebird": "https://ebird.org/species/vartin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20565",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Variegated_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_variegatus",
+   "ru": "https://ru.wikipedia.org/wiki/Красногрудый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+variegatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Variegated Tinamou",
+  "en_aco": "Variegated Tinamou",
+  "es": "Tinamú Abigarrado",
+  "ru": "Красногрудый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus variegatus",
+ "sci_name_aco": "Crypturellus variegatus",
+ "sounds": [],
+ "taxon_order": 170.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 363,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crypturellus%20variegatus1.jpg"
+ ]
+}

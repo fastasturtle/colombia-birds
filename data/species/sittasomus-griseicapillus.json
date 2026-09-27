@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "oliwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Sittasomus",
+ "id": "sittasomus-griseicapillus",
+ "ids": {
+  "avibase": "5DE4409C303EA7B1",
+  "birdbase": 14532,
+  "gbif": 2485628,
+  "inaturalist": "11511",
+  "iucn": "103661274",
+  "wikidata": "Q874879",
+  "xeno_canto": "Sittasomus-griseicapillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sittasomus_griseicapillus",
+  "ebird": "https://ebird.org/species/oliwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11511",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olivaceous_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Sittasomus_griseicapillus",
+   "ru": "https://ru.wikipedia.org/wiki/Поползневый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sittasomus+griseicapillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olivaceous Woodcreeper",
+  "en_aco": "Olivaceous Woodcreeper",
+  "es": "Trepatroncos Oliváceo",
+  "ru": "Поползневый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sittasomus griseicapillus",
+ "sci_name_aco": "Sittasomus griseicapillus",
+ "sounds": [],
+ "taxon_order": 14613.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Olivaceous%20Woodcreeper%20-79%20100-%20%2823978227148%29.jpg"
+ ]
+}

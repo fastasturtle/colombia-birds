@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blcant4",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Sakesphorus",
+ "id": "sakesphorus-canadensis",
+ "ids": {
+  "avibase": "E81903BC3860E5A6",
+  "birdbase": 16094,
+  "gbif": 2490049,
+  "inaturalist": "15810",
+  "iucn": "103657712",
+  "wikidata": "Q1270857",
+  "xeno_canto": "Sakesphorus-canadensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sakesphorus_canadensis",
+  "ebird": "https://ebird.org/species/blcant4",
+  "inaturalist": "https://www.inaturalist.org/taxa/15810",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-crested_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Sakesphorus_canadensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sakesphorus+canadensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-crested Antshrike",
+  "en_aco": "Black-crested Antshrike",
+  "es": "Batará Crestinegro",
+  "ru": "Чернохохлый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sakesphorus canadensis",
+ "sci_name_aco": "Sakesphorus canadensis",
+ "sounds": [],
+ "taxon_order": 13475.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 24.166666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sakesphorus%20canadensis%20Batar%C3%A1%20copet%C3%B3n%20Black-crested%20Antshrike%20%28male%29%20%287673205542%29.jpg"
+ ]
+}

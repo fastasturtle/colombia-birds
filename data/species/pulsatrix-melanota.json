@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Pulsatrix",
+ "id": "pulsatrix-melanota",
+ "ids": {
+  "avibase": "AEE70B31FE6FE4E2",
+  "birdbase": 9695,
+  "gbif": 2497886,
+  "inaturalist": "20027",
+  "iucn": "22689183",
+  "wikidata": "Q516398",
+  "xeno_canto": "Pulsatrix-melanota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pulsatrix_melanota",
+  "ebird": "https://ebird.org/species/babowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20027",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-bellied_owl",
+   "es": "https://es.wikipedia.org/wiki/Pulsatrix_melanota",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pulsatrix+melanota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-bellied Owl",
+  "en_aco": "Band-bellied Owl",
+  "es": "Lechuzón Acollarado Grande",
+  "ru": "Перуанская неясыть"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Pulsatrix melanota",
+ "sci_name_aco": "Pulsatrix melanota",
+ "sounds": [],
+ "taxon_order": 8905.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 650,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 82,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pulsatrix%20melanota.jpg"
+ ]
+}

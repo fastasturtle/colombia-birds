@@ -1,0 +1,96 @@
+{
+ "authorship": "(R. Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lotsyl1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Aglaiocercus",
+ "id": "aglaiocercus-kingii",
+ "ids": {
+  "avibase": "F9C6A6530D61E8E1",
+  "birdbase": 2935,
+  "gbif": 2476388,
+  "inaturalist": "367513",
+  "iucn": "22733886",
+  "wikidata": "Q432073",
+  "xeno_canto": "Aglaiocercus-kingii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aglaiocercus_kingii",
+  "ebird": "https://ebird.org/species/lotsyl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367513",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-tailed_sylph",
+   "es": "https://es.wikipedia.org/wiki/Aglaiocercus_kingii",
+   "ru": "https://ru.wikipedia.org/wiki/Небесный_сильф"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aglaiocercus+kingii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-tailed Sylph",
+  "en_aco": "Long-tailed Sylph",
+  "es": "Silfo de King",
+  "ru": "Небесный сильф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Aglaiocercus kingii",
+ "sci_name_aco": "Aglaiocercus kingii",
+ "sounds": [],
+ "taxon_order": 4471.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 5.25,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aglaiocercus%20kingi%20-Manizales%2C%20Caldas%2C%20Colombia%20-female-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Long-tailed%20Sylph.jpg"
+ ]
+}

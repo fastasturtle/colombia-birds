@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "semhaw2",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Microspizias",
+ "id": "microspizias-collaris",
+ "ids": {
+  "avibase": "32760AD517EDD421",
+  "birdbase": 8642,
+  "gbif": 12152602,
+  "inaturalist": "5117",
+  "iucn": "22695568",
+  "wikidata": "Q114521",
+  "xeno_canto": "Accipiter-collaris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Accipiter_collaris",
+  "ebird": "https://ebird.org/species/semhaw2",
+  "inaturalist": "https://www.inaturalist.org/taxa/5117",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Semicollared_hawk",
+   "es": "https://es.wikipedia.org/wiki/Microspizias_collaris",
+   "ru": "https://ru.wikipedia.org/wiki/Полуошейниковый_ястреб"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microspizias+collaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Semicollared Hawk",
+  "en_aco": "Semicollared Hawk",
+  "es": "Gavilancito Torcaz",
+  "ru": "Белогорлый ястреб-крошка"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Microspizias collaris",
+ "sci_name_aco": "Microspizias collaris",
+ "sounds": [],
+ "taxon_order": 8337.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2500,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 215.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Accipiter%20collaris%201860.jpg"
+ ]
+}

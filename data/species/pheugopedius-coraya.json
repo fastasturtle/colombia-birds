@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "corwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Pheugopedius",
+ "id": "pheugopedius-coraya",
+ "ids": {
+  "avibase": "FB669B0D75311F88",
+  "birdbase": 29056,
+  "gbif": 7341156,
+  "inaturalist": "144862",
+  "iucn": "22711416",
+  "wikidata": "Q4744860",
+  "xeno_canto": "Pheugopedius-coraya"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheugopedius_coraya",
+  "ebird": "https://ebird.org/species/corwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144862",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Coraya_wren",
+   "es": "https://es.wikipedia.org/wiki/Pheugopedius_coraya",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheugopedius+coraya"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Coraya Wren",
+  "en_aco": "Coraya Wren",
+  "es": "Cucarachero Coraya",
+  "ru": "Корайский крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheugopedius coraya",
+ "sci_name_aco": "Pheugopedius coraya",
+ "sounds": [],
+ "taxon_order": 27470.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.566666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheugopedius%20coraya%20-%20Coraya%20Wren%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

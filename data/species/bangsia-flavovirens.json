@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ygbtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Bangsia",
+ "id": "bangsia-flavovirens",
+ "ids": {
+  "avibase": "0D919D11A287B2F0",
+  "birdbase": 37731,
+  "gbif": 9697915,
+  "inaturalist": "10211",
+  "iucn": null,
+  "wikidata": "Q2668326",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/ygbtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10211",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-green_tanager",
+   "es": "https://es.wikipedia.org/wiki/Bangsia_flavovirens",
+   "ru": "https://ru.wikipedia.org/wiki/Чернолобая_жёлто-зелёная_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bangsia+flavovirens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-green Tanager",
+  "en_aco": "Yellow-green Tanager",
+  "es": "Tangara Verdiamarilla",
+  "ru": "Жёлто-зелёная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bangsia flavovirens",
+ "sci_name_aco": "Bangsia flavovirens",
+ "sounds": [],
+ "taxon_order": 34837.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1050,
+   "max_extreme": 1200,
+   "min": 500,
+   "min_extreme": 450
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 21.599999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bangsia%20flavovirens%20-%20Yellow-green%20Tanager%202%20%28cropped%29.jpg"
+ ]
+}

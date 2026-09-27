@@ -1,0 +1,95 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "palhor3",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Furnarius",
+ "id": "furnarius-leucopus",
+ "ids": {
+  "avibase": "CD7D95F85257AE02",
+  "birdbase": 14974,
+  "gbif": 9309489,
+  "inaturalist": "11281",
+  "iucn": "103670881",
+  "wikidata": "Q1265893",
+  "xeno_canto": "Furnarius-leucopus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Furnarius_leucopus",
+  "ebird": "https://ebird.org/species/palhor3",
+  "inaturalist": "https://www.inaturalist.org/taxa/11281",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-legged_hornero",
+   "es": "https://es.wikipedia.org/wiki/Furnarius_leucopus",
+   "ru": "https://ru.wikipedia.org/wiki/Бледноногий_настоящий_печник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Furnarius+leucopus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Pale-legged Hornero",
+  "en_aco": "Pale-legged Hornero",
+  "es": "Hornero Paticlaro",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Furnarius leucopus",
+ "sci_name_aco": "Furnarius leucopus",
+ "sounds": [],
+ "taxon_order": 15040.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 47.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Furnarius%20leucopus%20assimilis%20-%20Pale-legged%20hornero%3B%20Riachuelo%2C%20Rio%20Grande%20do%20Norte%2C%20Brazil.jpg"
+ ]
+}

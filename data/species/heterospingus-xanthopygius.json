@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scbtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Heterospingus",
+ "id": "heterospingus-xanthopygius",
+ "ids": {
+  "avibase": "0E92010ABB3C26DB",
+  "birdbase": 36810,
+  "gbif": 2488266,
+  "inaturalist": "10615",
+  "iucn": "22722377",
+  "wikidata": "Q1588589",
+  "xeno_canto": "Heterospingus-xanthopygius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heterospingus_xanthopygius",
+  "ebird": "https://ebird.org/species/scbtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10615",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet-browed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Heterospingus_xanthopygius",
+   "ru": "https://ru.wikipedia.org/wiki/Танагра-инка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heterospingus+xanthopygius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-browed Tanager",
+  "en_aco": "Scarlet-browed Tanager",
+  "es": "Tangara Cejirroja",
+  "ru": "Танагра-инка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Heterospingus xanthopygius",
+ "sci_name_aco": "Heterospingus xanthopygius",
+ "sounds": [],
+ "taxon_order": 35200.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Flowers",
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 38.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scarlet-browed%20Tanager%20%28Heterospingus%20xanthopygius%20%288079749074%29.jpg"
+ ]
+}

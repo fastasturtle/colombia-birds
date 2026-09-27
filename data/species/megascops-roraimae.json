@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "foosco1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-roraimae",
+ "ids": {
+  "avibase": "5D195B1859C5CC3B",
+  "birdbase": 9666,
+  "gbif": 6101164,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q2166327",
+  "xeno_canto": "Megascops-roraimae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/foosco1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Foothill_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_roraimae",
+   "ru": "https://ru.wikipedia.org/wiki/Совка_Рорейма"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+roraimae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Foothill Screech-Owl",
+  "en_aco": "Foothill Screech-Owl",
+  "es": "Autillo de Piedemonte",
+  "ru": "Рораймская совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops roraimae",
+ "sci_name_aco": "Megascops roraimae",
+ "sounds": [],
+ "taxon_order": 8842.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1800,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 114.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megascops%20roraimae.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "savhaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteogallus",
+ "id": "buteogallus-meridionalis",
+ "ids": {
+  "avibase": "BAA762A5F95219C3",
+  "birdbase": 8721,
+  "gbif": 2480655,
+  "inaturalist": "5235",
+  "iucn": "22695832",
+  "wikidata": "Q600791",
+  "xeno_canto": "Buteogallus-meridionalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteogallus_meridionalis",
+  "ebird": "https://ebird.org/species/savhaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5235",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Savanna_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteogallus_meridionalis",
+   "ru": "https://ru.wikipedia.org/wiki/Саванный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteogallus+meridionalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Savanna Hawk",
+  "en_aco": "Savanna Hawk",
+  "es": "Busardo Sabanero",
+  "ru": "Саванный крабоед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteogallus meridionalis",
+ "sci_name_aco": "Buteogallus meridionalis",
+ "sounds": [],
+ "taxon_order": 8419.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2075,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 937,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Hawk%20%28Buteogallus%20meridionalis%29%20%2828209553996%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20hawk%20%28Buteogallus%20meridionalis%29.JPG"
+ ]
+}

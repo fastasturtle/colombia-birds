@@ -1,0 +1,96 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "witman2",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Pipra",
+ "id": "pipra-filicauda",
+ "ids": {
+  "avibase": "3B5C0E159DDD7E67",
+  "birdbase": 18438,
+  "gbif": 2487626,
+  "inaturalist": "14268",
+  "iucn": "22700991",
+  "wikidata": "Q903829",
+  "xeno_canto": "Pipra-filicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipra_filicauda",
+  "ebird": "https://ebird.org/species/witman2",
+  "inaturalist": "https://www.inaturalist.org/taxa/14268",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wire-tailed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Pipra_filicauda",
+   "ru": "https://ru.wikipedia.org/wiki/Нитехвостая_пипра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipra+filicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wire-tailed Manakin",
+  "en_aco": "Wire-tailed Manakin",
+  "es": "Saltarín Uirapuru",
+  "ru": "Нитехвостая пипра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pipra filicauda",
+ "sci_name_aco": "Pipra filicauda",
+ "sounds": [],
+ "taxon_order": 15795.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pipra%20filicauda%20-%20Wire-tailed%20manakin%20%28female%29%2C%20Anavilhanas%20islands%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pipra%20filicauda%20-%20Wire-tailed%20Manakin%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rabo%20de%20arame.jpg"
+ ]
+}

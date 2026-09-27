@@ -1,0 +1,92 @@
+{
+ "authorship": "(Temminck, 1809)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "viqdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Geotrygon",
+ "id": "geotrygon-violacea",
+ "ids": {
+  "avibase": "391978757FB7D503",
+  "birdbase": 4943,
+  "gbif": 2496109,
+  "inaturalist": "3511",
+  "iucn": "22690962",
+  "wikidata": "Q1067534",
+  "xeno_canto": "Geotrygon-violacea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geotrygon_violacea",
+  "ebird": "https://ebird.org/species/viqdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3511",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violaceous_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Geotrygon_violacea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geotrygon+violacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violaceous Quail-Dove",
+  "en_aco": "Violaceous Quail-Dove",
+  "es": "Paloma Perdiz Violácea",
+  "ru": "Цветная перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Geotrygon violacea",
+ "sci_name_aco": "Geotrygon violacea",
+ "sounds": [],
+ "taxon_order": 2317.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1650,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 120,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violaceous%20Quail-Dove%2C%20Panama%20%288143020744%29.jpg"
+ ]
+}

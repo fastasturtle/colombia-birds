@@ -1,0 +1,92 @@
+{
+ "authorship": "(Deville, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente incierto",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "casoro2",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-oseryi",
+ "ids": {
+  "avibase": "408714DF0212B381",
+  "birdbase": 35859,
+  "gbif": 8065606,
+  "inaturalist": "367696",
+  "iucn": "22723976",
+  "wikidata": "Q27076014",
+  "xeno_canto": "Cacicus-oseryi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Clypicterus_oseryi",
+  "ebird": "https://ebird.org/species/casoro2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367696",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Casqued_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_oseryi",
+   "ru": "https://ru.wikipedia.org/wiki/Cacicus_oseryi"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+oseryi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Casqued Cacique",
+  "en_aco": "Casqued Cacique",
+  "es": "Cacique de Yelmo",
+  "ru": "Шлемоносная оропендола"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus oseryi",
+ "sci_name_aco": "Cacicus oseryi",
+ "sounds": [],
+ "taxon_order": 33663.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 750,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 142.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Clypicterus%20oseryi%20Castelnau.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Casqued%20Cacique%20%28Cacicus%20oseryi%29%2001%20%28cropped%29.jpg"
+ ]
+}

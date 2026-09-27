@@ -1,0 +1,94 @@
+{
+ "authorship": "(Prévost, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crgdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-cruziana",
+ "ids": {
+  "avibase": "E981792A6E8D5FF0",
+  "birdbase": 4909,
+  "gbif": 2495891,
+  "inaturalist": "3576",
+  "iucn": "22690799",
+  "wikidata": "Q775383",
+  "xeno_canto": "Columbina-cruziana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_cruziana",
+  "ebird": "https://ebird.org/species/crgdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3576",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Croaking_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_cruziana",
+   "ru": "https://ru.wikipedia.org/wiki/Перуанская_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+cruziana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Croaking Ground Dove",
+  "en_aco": "Croaking Ground Dove",
+  "es": "Columbina Quiquagua",
+  "ru": "Перуанская земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina cruziana",
+ "sci_name_aco": "Columbina cruziana",
+ "sounds": [],
+ "taxon_order": 2285.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 2900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 48.475,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columbina%20cruziana.JPG"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Salvin & Godman, 1880)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbtho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Ramphomicron",
+ "id": "ramphomicron-dorsale",
+ "ids": {
+  "avibase": "868924FC6764D49A",
+  "birdbase": 2986,
+  "gbif": 2476057,
+  "inaturalist": "6302",
+  "iucn": "22687987",
+  "wikidata": "Q1269109",
+  "xeno_canto": "Ramphomicron-dorsale"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphomicron_dorsale",
+  "ebird": "https://ebird.org/species/blbtho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6302",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-backed_thornbill",
+   "es": "https://es.wikipedia.org/wiki/Ramphomicron_dorsale",
+   "ru": "https://ru.wikipedia.org/wiki/Черноспинный_короткоклювый_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphomicron+dorsale"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-backed Thornbill",
+  "en_aco": "Black-backed Thornbill",
+  "es": "Colibrí Piquicorto Dorsinegro",
+  "ru": "Черноспинный короткоклюв"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Ramphomicron dorsale",
+ "sci_name_aco": "Ramphomicron dorsale",
+ "sounds": [],
+ "taxon_order": 4515.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4600,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "grassland"
+  ],
+  "mass_g": 3.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphomicron%20dorsale%2099062797.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/RhamphomicronDorsaleKeulemans.jpg"
+ ]
+}

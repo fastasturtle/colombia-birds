@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "neocor",
+ "family": {
+  "code": "phalac1",
+  "en": "Cormorants and Shags",
+  "sci": "Phalacrocoracidae"
+ },
+ "genus": "Nannopterum",
+ "id": "nannopterum-brasilianum",
+ "ids": {
+  "avibase": "56036504EDE6F930",
+  "birdbase": 7768,
+  "gbif": 9399113,
+  "inaturalist": "1289601",
+  "iucn": null,
+  "wikidata": "Q117254632",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nannopterum_brasilianum",
+  "ebird": "https://ebird.org/species/neocor",
+  "inaturalist": "https://www.inaturalist.org/taxa/1289601",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Neotropic_cormorant",
+   "es": "https://es.wikipedia.org/wiki/Phalacrocorax_brasilianus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nannopterum+brasilianum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Neotropic Cormorant",
+  "en_aco": "Neotropic Cormorant",
+  "es": "Cormorán Biguá",
+  "ru": "Неотропический баклан"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Nannopterum brasilianum",
+ "sci_name_aco": "Phalacrocorax brasilianus",
+ "sounds": [],
+ "taxon_order": 7431.0,
+ "taxonomy_note": "ACO/SACC lists this as Phalacrocorax brasilianus; eBird/Clements uses Nannopterum brasilianum.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": 5000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "riparian",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1452.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phalacrocorax%20brasilianus%20%28Costa%20Rica%29.jpg"
+ ]
+}

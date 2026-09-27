@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stbcan9",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Asthenes",
+ "id": "asthenes-wyatti",
+ "ids": {
+  "avibase": "210B36A8D477A6AA",
+  "birdbase": 15358,
+  "gbif": 5230067,
+  "inaturalist": "11296",
+  "iucn": "103673405",
+  "wikidata": "Q1264360",
+  "xeno_canto": "Asthenes-wyatti"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Asthenes_wyatti",
+  "ebird": "https://ebird.org/species/stbcan9",
+  "inaturalist": "https://www.inaturalist.org/taxa/11296",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-backed_canastero",
+   "es": "https://es.wikipedia.org/wiki/Asthenes_wyatti",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Asthenes+wyatti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-backed Canastero",
+  "en_aco": "Streak-backed Canastero",
+  "es": "Canastero de Wyatt",
+  "ru": "Пестроспинный канастеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Asthenes wyatti",
+ "sci_name_aco": "Asthenes wyatti",
+ "sounds": [],
+ "taxon_order": 15403.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": 5000,
+   "min": 2000,
+   "min_extreme": 1800
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 19.733333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Asthenes%20wyatti%20-%20Streak-backed%20Canastero%3B%20Junin%20Lake%2C%20Peru%20%28cropped%29.jpg"
+ ]
+}

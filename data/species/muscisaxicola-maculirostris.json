@@ -1,0 +1,94 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sbgtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Muscisaxicola",
+ "id": "muscisaxicola-maculirostris",
+ "ids": {
+  "avibase": "DC8BFB794408DECB",
+  "birdbase": 17782,
+  "gbif": 2483709,
+  "inaturalist": "16143",
+  "iucn": "22700132",
+  "wikidata": "Q587396",
+  "xeno_canto": "Muscisaxicola-maculirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Muscisaxicola_maculirostris",
+  "ebird": "https://ebird.org/species/sbgtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16143",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-billed_ground_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Muscisaxicola_maculirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Muscisaxicola+maculirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-billed Ground-Tyrant",
+  "en_aco": "Spot-billed Ground-Tyrant",
+  "es": "Dormilona Chica",
+  "ru": "Пестроклювая дормилона"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Muscisaxicola maculirostris",
+ "sci_name_aco": "Muscisaxicola maculirostris",
+ "sounds": [],
+ "taxon_order": 17082.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "plantation",
+   "wetland"
+  ],
+  "mass_g": 14.233333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Plains",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spot-billed%20Ground-Tyrant.jpg"
+ ]
+}

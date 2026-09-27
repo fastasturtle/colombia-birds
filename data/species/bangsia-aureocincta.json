@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hellmayr, 1910)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gortan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Bangsia",
+ "id": "bangsia-aureocincta",
+ "ids": {
+  "avibase": "E6653E574521558D",
+  "birdbase": 37735,
+  "gbif": 2488331,
+  "inaturalist": "10385",
+  "iucn": "22722592",
+  "wikidata": "Q2668384",
+  "xeno_canto": "Bangsia-aureocincta"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bangsia_aureocincta",
+  "ebird": "https://ebird.org/species/gortan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10385",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gold-ringed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Bangsia_aureocincta",
+   "ru": "https://ru.wikipedia.org/wiki/Золотогалстучная_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bangsia+aureocincta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gold-ringed Tanager",
+  "en_aco": "Gold-ringed Tanager",
+  "es": "Tangara del Tatamá",
+  "ru": "Арлекиновая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bangsia aureocincta",
+ "sci_name_aco": "Bangsia aureocincta",
+ "sounds": [],
+ "taxon_order": 34836.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2195,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": 1350
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 41.980000000000004,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bangsia%20aureocincta%20by%20Franscesco%20Veronesi.jpg"
+ ]
+}

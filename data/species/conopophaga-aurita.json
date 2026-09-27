@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbgna1",
+ "family": {
+  "code": "conopo1",
+  "en": "Gnateaters",
+  "sci": "Conopophagidae"
+ },
+ "genus": "Conopophaga",
+ "id": "conopophaga-aurita",
+ "ids": {
+  "avibase": "2EBD6D075488EB57",
+  "birdbase": 16680,
+  "gbif": 2488939,
+  "inaturalist": "7820",
+  "iucn": "103660322",
+  "wikidata": "Q942420",
+  "xeno_canto": "Conopophaga-aurita"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conopophaga_aurita",
+  "ebird": "https://ebird.org/species/chbgna1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7820",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-belted_gnateater",
+   "es": "https://es.wikipedia.org/wiki/Conopophaga_aurita",
+   "ru": "https://ru.wikipedia.org/wiki/Золотистый_гусеницеед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conopophaga+aurita"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Chestnut-belted Gnateater",
+  "en_aco": "Chestnut-belted Gnateater",
+  "es": "Jejenero Orejudo",
+  "ru": "Золотистый гусеницеед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conopophaga aurita",
+ "sci_name_aco": "Conopophaga aurita",
+ "sounds": [],
+ "taxon_order": 14167.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 22.416666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Conopophaga%20aurita%20Chestnut-belted%20Gnateater%20%28male%29%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

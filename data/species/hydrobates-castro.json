@@ -1,0 +1,92 @@
+{
+ "authorship": "(Harcourt, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barpet",
+ "family": {
+  "code": "hydrob1",
+  "en": "Northern Storm-Petrels",
+  "sci": "Hydrobatidae"
+ },
+ "genus": "Hydrobates",
+ "id": "hydrobates-castro",
+ "ids": {
+  "avibase": "D0BDB12CC1F189E6",
+  "birdbase": 7432,
+  "gbif": 9272607,
+  "inaturalist": "204553",
+  "iucn": null,
+  "wikidata": "Q1062575",
+  "xeno_canto": "Oceanodroma-castro"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hydrobates_castro",
+  "ebird": "https://ebird.org/species/barpet",
+  "inaturalist": "https://www.inaturalist.org/taxa/204553",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-rumped_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Hydrobates_castro",
+   "ru": "https://ru.wikipedia.org/wiki/Мадейрская_качурка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrobates+castro"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-rumped Storm-Petrel",
+  "en_aco": "Band-rumped Storm-Petrel",
+  "es": "Paíño de Madeira",
+  "ru": "Мадейрская качурка"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Hydrobates castro",
+ "sci_name_aco": "Hydrobates castro",
+ "sounds": [],
+ "taxon_order": 7064.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 49.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Band%20rumped%20storm%20petrel%20Andre%20Raine%20KESRP%20%2821789178016%29.jpg"
+ ]
+}

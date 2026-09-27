@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "recman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Ceratopipra",
+ "id": "ceratopipra-mentalis",
+ "ids": {
+  "avibase": "AB0B75D80A0E1F8B",
+  "birdbase": 18482,
+  "gbif": 8338270,
+  "inaturalist": "339673",
+  "iucn": "22700994",
+  "wikidata": "Q27075187",
+  "xeno_canto": "Ceratopipra-mentalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipra_mentalis",
+  "ebird": "https://ebird.org/species/recman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339673",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-capped_manakin",
+   "es": "https://es.wikipedia.org/wiki/Ceratopipra_mentalis",
+   "ru": "https://ru.wikipedia.org/wiki/Красношапочная_пипра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ceratopipra+mentalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-capped Manakin",
+  "en_aco": "Red-capped Manakin",
+  "es": "Saltarín Cabecirrojo Norteño",
+  "ru": "Желтоусая пипра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ceratopipra mentalis",
+ "sci_name_aco": "Ceratopipra mentalis",
+ "sounds": [],
+ "taxon_order": 15836.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1050,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 15.883333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-capped-manakin.png",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-capped%20Manakin%20-%20Rio%20Tigre%20-%20Costa%20Rica%20MG%208090%20%2826651295756%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tafgna1",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Microbates",
+ "id": "microbates-cinereiventris",
+ "ids": {
+  "avibase": "0AA192503B97A59F",
+  "birdbase": 29418,
+  "gbif": 5230511,
+  "inaturalist": "7623",
+  "iucn": "22711574",
+  "wikidata": "Q637143",
+  "xeno_canto": "Microbates-cinereiventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Microbates_cinereiventris",
+  "ebird": "https://ebird.org/species/tafgna1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7623",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-faced_gnatwren",
+   "es": "https://es.wikipedia.org/wiki/Microbates_cinereiventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microbates+cinereiventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-faced Gnatwren",
+  "en_aco": "Half-collared Gnatwren",
+  "es": "Soterillo Caricastaño",
+  "ru": "Крапивниковая комароловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Microbates cinereiventris",
+ "sci_name_aco": "Microbates cinereiventris",
+ "sounds": [],
+ "taxon_order": 27069.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Microbates%20cinereiventris%2094212331.jpg"
+ ]
+}

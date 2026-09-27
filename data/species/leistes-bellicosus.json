@@ -1,0 +1,96 @@
+{
+ "authorship": "(de Filippi, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "permea1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Leistes",
+ "id": "leistes-bellicosus",
+ "ids": {
+  "avibase": "822B2E03E81F04A6",
+  "birdbase": 35795,
+  "gbif": 9653580,
+  "inaturalist": "9539",
+  "iucn": null,
+  "wikidata": "Q2668277",
+  "xeno_canto": "Leistes-bellicosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sturnella_bellicosa",
+  "ebird": "https://ebird.org/species/permea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9539",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Peruvian_meadowlark",
+   "es": "https://es.wikipedia.org/wiki/Leistes_bellicosus",
+   "ru": "https://ru.wikipedia.org/wiki/Перуанский_луговой_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leistes+bellicosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Peruvian Meadowlark",
+  "en_aco": "Peruvian Meadowlark",
+  "es": "Loica Peruana",
+  "ru": "Перуанская лойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leistes bellicosus",
+ "sci_name_aco": "Leistes bellicosus",
+ "sounds": [],
+ "taxon_order": 33596.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "grassland",
+   "desert",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 65.96666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Artificial",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Peruvian%20Meadowlark%20-%20Ecuador%2005%20dgs%282%29%20%2823781009842%29.jpg"
+ ]
+}

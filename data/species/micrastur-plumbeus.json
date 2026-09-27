@@ -1,0 +1,91 @@
+{
+ "authorship": "(W. L. Sclater, 1918)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plffal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Micrastur",
+ "id": "micrastur-plumbeus",
+ "ids": {
+  "avibase": "97461F73007A3E15",
+  "birdbase": 12835,
+  "gbif": 2481086,
+  "inaturalist": "4694",
+  "iucn": "22696275",
+  "wikidata": "Q747469",
+  "xeno_canto": "Micrastur-plumbeus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Micrastur_plumbeus",
+  "ebird": "https://ebird.org/species/plffal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4694",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous_forest_falcon",
+   "es": "https://es.wikipedia.org/wiki/Micrastur_plumbeus",
+   "ru": "https://ru.wikipedia.org/wiki/Сизый_лесной_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Micrastur+plumbeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous Forest-Falcon",
+  "en_aco": "Plumbeous Forest-Falcon",
+  "es": "Halcón Montés Plomizo",
+  "ru": "Сизый лесной сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Micrastur plumbeus",
+ "sci_name_aco": "Micrastur plumbeus",
+ "sounds": [],
+ "taxon_order": 11955.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 188.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MicrasturPlumbeusGronvold.jpg"
+ ]
+}

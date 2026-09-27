@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gambel, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "eleter1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Thalasseus",
+ "id": "thalasseus-elegans",
+ "ids": {
+  "avibase": "3F9E1C51FBD48FC1",
+  "birdbase": 7060,
+  "gbif": 2481285,
+  "inaturalist": "144542",
+  "iucn": "22694552",
+  "wikidata": "Q524893",
+  "xeno_canto": "Thalasseus-elegans"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thalasseus_elegans",
+  "ebird": "https://ebird.org/species/eleter1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144542",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Elegant_tern",
+   "es": "https://es.wikipedia.org/wiki/Thalasseus_elegans",
+   "ru": "https://ru.wikipedia.org/wiki/Элегантная_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thalasseus+elegans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Elegant Tern",
+  "en_aco": "Elegant Tern",
+  "es": "Charrán Elegante",
+  "ru": "Элегантная крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Thalasseus elegans",
+ "sci_name_aco": "Thalasseus elegans",
+ "sounds": [],
+ "taxon_order": 6780.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 236.16666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2022-04-16%20Thalasseus%20elegans%2C%20Upper%20Newport%20Bay%2C%20California%204.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/SternaElegansBC.JPG"
+ ]
+}

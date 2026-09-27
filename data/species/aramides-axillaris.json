@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rnwrai1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Aramides",
+ "id": "aramides-axillaris",
+ "ids": {
+  "avibase": "4EAFBF4CC8251EED",
+  "birdbase": 5710,
+  "gbif": 2474671,
+  "inaturalist": "457",
+  "iucn": "22692565",
+  "wikidata": "Q1262002",
+  "xeno_canto": "Aramides-axillaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aramides_axillaris",
+  "ebird": "https://ebird.org/species/rnwrai1",
+  "inaturalist": "https://www.inaturalist.org/taxa/457",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-necked_wood_rail",
+   "es": "https://es.wikipedia.org/wiki/Aramides_axillaris",
+   "ru": "https://ru.wikipedia.org/wiki/Буроголовый_лесной_пастушок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aramides+axillaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-necked Wood-Rail",
+  "en_aco": "Rufous-necked Wood-Rail",
+  "es": "Cotara Cuellirrufa",
+  "ru": "Рыжегрудый саракура"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Aramides axillaris",
+ "sci_name_aco": "Aramides axillaris",
+ "sounds": [],
+ "taxon_order": 5439.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 285.6666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-necked%20Wood%20Rail.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shthaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-brachyurus",
+ "ids": {
+  "avibase": "81463CC09F2A3CC4",
+  "birdbase": 8798,
+  "gbif": 2480553,
+  "inaturalist": "5186",
+  "iucn": "22695897",
+  "wikidata": "Q586194",
+  "xeno_canto": "Buteo-brachyurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_brachyurus",
+  "ebird": "https://ebird.org/species/shthaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5186",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-tailed_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_brachyurus",
+   "ru": "https://ru.wikipedia.org/wiki/Короткохвостый_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+brachyurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-tailed Hawk",
+  "en_aco": "Short-tailed Hawk",
+  "es": "Busardo Colicorto",
+  "ru": "Короткохвостый канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo brachyurus",
+ "sci_name_aco": "Buteo brachyurus",
+ "sounds": [],
+ "taxon_order": 8501.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 511.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Male%20-%20black%20phase%20-%20short%20tail%20hawk.JPG"
+ ]
+}

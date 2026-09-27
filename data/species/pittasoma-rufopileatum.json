@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hartert, 1901)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rucant3",
+ "family": {
+  "code": "conopo1",
+  "en": "Gnateaters",
+  "sci": "Conopophagidae"
+ },
+ "genus": "Pittasoma",
+ "id": "pittasoma-rufopileatum",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16708,
+  "gbif": 2490572,
+  "inaturalist": "9061",
+  "iucn": "22703234",
+  "wikidata": "Q291255",
+  "xeno_canto": "Pittasoma-rufopileatum"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pittasoma_rufopileatum",
+  "ebird": "https://ebird.org/species/rucant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/9061",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-crowned_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Pittasoma_rufopileatum",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжешапочная_питтасома"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pittasoma+rufopileatum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-crowned Antpitta",
+  "en_aco": "Rufous-crowned Antpitta",
+  "es": "Tororoí Capirrufo",
+  "ru": "Рыжеголовая питтасома"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pittasoma rufopileatum",
+ "sci_name_aco": "Pittasoma rufopileatum",
+ "sounds": [],
+ "taxon_order": 14158.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 96.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PittasomaRufopileatumKeulemans.jpg"
+ ]
+}

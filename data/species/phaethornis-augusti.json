@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "socher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-augusti",
+ "ids": {
+  "avibase": "F7DEB8B1F17927F3",
+  "birdbase": 2737,
+  "gbif": 2476628,
+  "inaturalist": "5594",
+  "iucn": "22686973",
+  "wikidata": "Q1269968",
+  "xeno_canto": "Phaethornis-augusti"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_augusti",
+  "ebird": "https://ebird.org/species/socher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5594",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sooty-capped_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_augusti",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+augusti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sooty-capped Hermit",
+  "en_aco": "Sooty-capped Hermit",
+  "es": "Ermitaño Limpiacasa",
+  "ru": "Серобрюхий колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis augusti",
+ "sci_name_aco": "Phaethornis augusti",
+ "sounds": [],
+ "taxon_order": 4328.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 4.916666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethornis%20augusti%20345618420.jpg"
+ ]
+}

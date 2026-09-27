@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mecocerculus",
+ "id": "mecocerculus-stictopterus",
+ "ids": {
+  "avibase": "15F3B9ECB1D9C812",
+  "birdbase": 17046,
+  "gbif": 2483838,
+  "inaturalist": "16402",
+  "iucn": "22699328",
+  "wikidata": "Q1276524",
+  "xeno_canto": "Mecocerculus-stictopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mecocerculus_stictopterus",
+  "ebird": "https://ebird.org/species/whbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16402",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-banded_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Mecocerculus_stictopterus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mecocerculus+stictopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-banded Tyrannulet",
+  "en_aco": "White-banded Tyrannulet",
+  "es": "Piojito Alifranjeado",
+  "ru": "Полосатокрылый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mecocerculus stictopterus",
+ "sci_name_aco": "Mecocerculus stictopterus",
+ "sounds": [],
+ "taxon_order": 16578.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": 3600,
+   "min": 2300,
+   "min_extreme": 1900
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 9.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mecocerculus%20stictopterus%20-Eduador-8.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbtou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Aulacorhynchus",
+ "id": "aulacorhynchus-sulcatus",
+ "ids": {
+  "avibase": "96711EDE05847B28",
+  "birdbase": 11285,
+  "gbif": 5229028,
+  "inaturalist": "18817",
+  "iucn": "61567591",
+  "wikidata": "Q883140",
+  "xeno_canto": "Aulacorhynchus-sulcatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aulacorhynchus_sulcatus",
+  "ebird": "https://ebird.org/species/grbtou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18817",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Groove-billed_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Aulacorhynchus_sulcatus",
+   "ru": "https://ru.wikipedia.org/wiki/Голуболицый_туканет"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aulacorhynchus+sulcatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Groove-billed Toucanet",
+  "en_aco": "Groove-billed Toucanet",
+  "es": "Tucanete Picosurcado",
+  "ru": "Зелёный туканет"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Aulacorhynchus sulcatus",
+ "sci_name_aco": "Aulacorhynchus sulcatus",
+ "sounds": [],
+ "taxon_order": 10855.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 530,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 172.16666666666666,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aulacorhynchus%20sulcatus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aulacorhynchus%20sulcatus%20-Aragua%20State%20-Venezuela-8.jpg"
+ ]
+}

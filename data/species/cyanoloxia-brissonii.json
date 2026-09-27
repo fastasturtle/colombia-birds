@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lichtenstein & Mhc, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ultgro1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Cyanoloxia",
+ "id": "cyanoloxia-brissonii",
+ "ids": {
+  "avibase": "7B85224200E05467",
+  "birdbase": 36701,
+  "gbif": 9555348,
+  "inaturalist": "558592",
+  "iucn": "22723932",
+  "wikidata": "Q28837198",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanoloxia_brissonii",
+  "ebird": "https://ebird.org/species/ultgro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558592",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ultramarine_grosbeak",
+   "es": "https://es.wikipedia.org/wiki/Cyanoloxia_brissonii",
+   "ru": "https://ru.wikipedia.org/wiki/Ультрамариновый_большеклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanoloxia+brissonii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ultramarine Grosbeak",
+  "en_aco": "Ultramarine Grosbeak",
+  "es": "Picogrueso de Brisson",
+  "ru": "Ультрамариновая гуирака"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanoloxia brissonii",
+ "sci_name_aco": "Cyanoloxia brissonii",
+ "sounds": [],
+ "taxon_order": 34586.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "plantation"
+  ],
+  "mass_g": 27.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanoloxia%20brissonii%20-%20Ultramarine%20Grosbeak%20%28female%29%3B%20Canudos%2C%20Bahia%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanocompsa%20brissonii%20-Vale%20do%20Ribeira%2C%20Registro%2C%20Sao%20Paulo%2C%20Brasil%20-male-8.jpg"
+ ]
+}

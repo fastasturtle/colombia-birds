@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cabanis, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scrbla1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Dives",
+ "id": "dives-warczewiczi",
+ "ids": {
+  "avibase": "96EA43D770709508",
+  "birdbase": 36030,
+  "gbif": 6100778,
+  "inaturalist": "509028",
+  "iucn": "22724305",
+  "wikidata": "Q1585903",
+  "xeno_canto": "Dives-warczewiczi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dives_warczewiczi",
+  "ebird": "https://ebird.org/species/scrbla1",
+  "inaturalist": "https://www.inaturalist.org/taxa/509028",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scrub_blackbird",
+   "es": "https://es.wikipedia.org/wiki/Dives_warszewiczi",
+   "ru": "https://ru.wikipedia.org/wiki/Кустарниковый_траурный_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dives+warczewiczi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scrub Blackbird",
+  "en_aco": "Scrub Blackbird",
+  "es": "Zanate Matorralero",
+  "ru": "Кустарниковый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dives warczewiczi",
+ "sci_name_aco": "Dives warczewiczi",
+ "sounds": [],
+ "taxon_order": 33844.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "desert",
+   "agricultural"
+  ],
+  "mass_g": 88.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scrub%20Blackbird%20-%20South%20Ecuador%20S4E7818%20%2823806878191%29.jpg"
+ ]
+}

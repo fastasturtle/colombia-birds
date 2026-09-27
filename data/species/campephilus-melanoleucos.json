@@ -1,0 +1,96 @@
+{
+ "authorship": "(P. P. King, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crcwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Campephilus",
+ "id": "campephilus-melanoleucos",
+ "ids": {
+  "avibase": null,
+  "birdbase": 12572,
+  "gbif": 2478564,
+  "inaturalist": "18273",
+  "iucn": "22681405",
+  "wikidata": "Q1269588",
+  "xeno_canto": "Campephilus-melanoleucos"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campephilus_melanoleucos",
+  "ebird": "https://ebird.org/species/crcwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18273",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crimson-crested_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Campephilus_melanoleucos",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campephilus+melanoleucos"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crimson-crested Woodpecker",
+  "en_aco": "Crimson-crested Woodpecker",
+  "es": "Picamaderos Barbinegro",
+  "ru": "Черногорлый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Campephilus melanoleucos",
+ "sci_name_aco": "Campephilus melanoleucos",
+ "sounds": [],
+ "taxon_order": 11558.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 247,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crimson-crested%20Woodpecker%20%28Campephilus%20melanoleucus%29%20female%20investigating%20a%20possible%20nesting%20site%20...%20%2827874788734%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crimson-crestewoodpecker.jpg"
+ ]
+}

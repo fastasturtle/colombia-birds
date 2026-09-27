@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcdip1",
+ "family": {
+  "code": "cincli1",
+  "en": "Dippers",
+  "sci": "Cinclidae"
+ },
+ "genus": "Cinclus",
+ "id": "cinclus-leucocephalus",
+ "ids": {
+  "avibase": "DE849BDB7AE02377",
+  "birdbase": 32023,
+  "gbif": 5231776,
+  "inaturalist": "7646",
+  "iucn": "22708166",
+  "wikidata": "Q372465",
+  "xeno_canto": "Cinclus-leucocephalus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cinclus_leucocephalus",
+  "ebird": "https://ebird.org/species/whcdip1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7646",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-capped_dipper",
+   "es": "https://es.wikipedia.org/wiki/Cinclus_leucocephalus",
+   "ru": "https://ru.wikipedia.org/wiki/Белоголовая_оляпка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cinclus+leucocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-capped Dipper",
+  "en_aco": "White-capped Dipper",
+  "es": "Mirlo Acuático Coroniblanco",
+  "ru": "Белоголовая оляпка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cinclus leucocephalus",
+ "sci_name_aco": "Cinclus leucocephalus",
+ "sounds": [],
+ "taxon_order": 27674.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "rock",
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 46.225,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-capped%20Dipper%20%28Cinclus%20leucocephalus%29.jpg"
+ ]
+}

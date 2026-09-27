@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slafin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Haplospiza",
+ "id": "haplospiza-rustica",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37524,
+  "gbif": 2491290,
+  "inaturalist": "558577",
+  "iucn": "22723122",
+  "wikidata": "Q28842329",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/slafin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558577",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Haplospiza+rustica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty Finch",
+  "en_aco": "Slaty Finch",
+  "es": "Yal Pizarroso",
+  "ru": "Шиферный овсяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Haplospiza rustica",
+ "sci_name_aco": "Haplospiza rustica",
+ "sounds": [],
+ "taxon_order": 35389.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3250,
+   "max_extreme": 3500,
+   "min": 1350,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 15.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

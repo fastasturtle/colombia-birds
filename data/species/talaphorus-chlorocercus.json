@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olshum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Talaphorus",
+ "id": "talaphorus-chlorocercus",
+ "ids": {
+  "avibase": "ACC50DCF3D1F0272",
+  "birdbase": 3536,
+  "gbif": 10918272,
+  "inaturalist": null,
+  "iucn": "22687500",
+  "wikidata": "Q117253551",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/olshum1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": "https://es.wikipedia.org/wiki/Talaphorus_chlorocercus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Talaphorus+chlorocercus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olive-spotted Hummingbird",
+  "en_aco": "Olive-spotted Hummingbird",
+  "es": "Colibrí Blanquioliva",
+  "ru": "Пятнистый левкипп"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Talaphorus chlorocercus",
+ "sci_name_aco": "Talaphorus chlorocercus",
+ "sounds": [],
+ "taxon_order": 5039.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 4.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

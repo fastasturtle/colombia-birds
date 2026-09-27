@@ -1,0 +1,91 @@
+{
+ "authorship": "(C. Chubb, 1921)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Catamenia",
+ "id": "catamenia-homochroa",
+ "ids": {
+  "avibase": "2143C9BFBD5443CF",
+  "birdbase": 37555,
+  "gbif": 2491193,
+  "inaturalist": "10539",
+  "iucn": "22723577",
+  "wikidata": "Q600779",
+  "xeno_canto": "Catamenia-homochroa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catamenia_homochroa",
+  "ebird": "https://ebird.org/species/parsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10539",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Paramo_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Catamenia_homochroa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catamenia+homochroa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Paramo Seedeater",
+  "en_aco": "Paramo Seedeater",
+  "es": "Semillero Paramero",
+  "ru": "Семеноед парамо"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catamenia homochroa",
+ "sci_name_aco": "Catamenia homochroa",
+ "sounds": [],
+ "taxon_order": 35624.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "shrubland"
+  ],
+  "mass_g": 13.360000000000003,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Paramo%20seedeater.jpg"
+ ]
+}

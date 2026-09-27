@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bangs, 1899)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "smbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiotheretes",
+ "id": "myiotheretes-pernix",
+ "ids": {
+  "avibase": "EA2A3AC26812767C",
+  "birdbase": 17871,
+  "gbif": 2483334,
+  "inaturalist": "16998",
+  "iucn": "22699992",
+  "wikidata": "Q1261124",
+  "xeno_canto": "Myiotheretes-pernix"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiotheretes_pernix",
+  "ebird": "https://ebird.org/species/smbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16998",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_bush_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Myiotheretes_pernix",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiotheretes+pernix"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Bush-Tyrant",
+  "en_aco": "Santa Marta Bush-Tyrant",
+  "es": "Birro de Santa Marta",
+  "ru": "Сантамартийская гевара"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiotheretes pernix",
+ "sci_name_aco": "Myiotheretes pernix",
+ "sounds": [],
+ "taxon_order": 17151.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": 3580,
+   "min": 2100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 33,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiotheretes%20pernix.jpg"
+ ]
+}

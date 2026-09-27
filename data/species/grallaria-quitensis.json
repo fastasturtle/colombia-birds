@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lesson, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tawant3",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-quitensis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16592,
+  "gbif": 2490542,
+  "inaturalist": "718410",
+  "iucn": null,
+  "wikidata": "Q27617823",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/tawant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/718410",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+quitensis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Tawny Antpitta",
+  "en_aco": "Tawny Antpitta",
+  "es": "Tororoí Leonado Occidental",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria quitensis",
+ "sci_name_aco": "Grallaria quitensis",
+ "sounds": [],
+ "taxon_order": 14286.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 2800,
+   "min_extreme": 2200
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 69,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

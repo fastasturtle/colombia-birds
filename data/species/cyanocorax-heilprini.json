@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gentry, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "aznjay1",
+ "family": {
+  "code": "corvid1",
+  "en": "Crows, Jays, and Magpies",
+  "sci": "Corvidae"
+ },
+ "genus": "Cyanocorax",
+ "id": "cyanocorax-heilprini",
+ "ids": {
+  "avibase": null,
+  "birdbase": 22760,
+  "gbif": 2482573,
+  "inaturalist": "8477",
+  "iucn": "22705717",
+  "wikidata": "Q2667834",
+  "xeno_canto": "Cyanocorax-heilprini"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanocorax_heilprini",
+  "ebird": "https://ebird.org/species/aznjay1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8477",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Azure-naped_jay",
+   "es": "https://es.wikipedia.org/wiki/Cyanocorax_heilprini",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanocorax+heilprini"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Azure-naped Jay",
+  "en_aco": "Azure-naped Jay",
+  "es": "Chara Nuquiazul",
+  "ru": "Сиреневошейная сойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanocorax heilprini",
+ "sci_name_aco": "Cyanocorax heilprini",
+ "sounds": [],
+ "taxon_order": 21262.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 250,
+   "max_extreme": 450,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 183,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Azure-naped%20Jay.jpg"
+ ]
+}

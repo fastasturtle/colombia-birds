@@ -1,0 +1,95 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "specha3",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-guttata",
+ "ids": {
+  "avibase": "E14D2BC45D824299",
+  "birdbase": 653,
+  "gbif": 2482254,
+  "inaturalist": "2079",
+  "iucn": "155238855",
+  "wikidata": "Q1266317",
+  "xeno_canto": "Ortalis-guttata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_guttata",
+  "ebird": "https://ebird.org/species/specha3",
+  "inaturalist": "https://www.inaturalist.org/taxa/2079",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_guttata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+guttata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Chachalaca",
+  "en_aco": "Speckled Chachalaca",
+  "es": "Chachalaca Moteada",
+  "ru": "Глазчатая чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis guttata",
+ "sci_name_aco": "Ortalis guttata",
+ "sounds": [],
+ "taxon_order": 962.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 502.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ortalis%20guttata%2C%20Speckled%20Chachalaca%20%28cropped%29.jpg"
+ ]
+}

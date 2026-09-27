@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bktflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-brunneiventris",
+ "ids": {
+  "avibase": "C77C89B260E3195B",
+  "birdbase": 37620,
+  "gbif": 5230673,
+  "inaturalist": "9841",
+  "iucn": "22723677",
+  "wikidata": "Q1565826",
+  "xeno_canto": "Diglossa-brunneiventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_brunneiventris",
+  "ebird": "https://ebird.org/species/bktflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9841",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-throated_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_brunneiventris",
+   "ru": "https://ru.wikipedia.org/wiki/Diglossa_brunneiventris"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+brunneiventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Flowerpiercer",
+  "en_aco": "Black-throated Flowerpiercer",
+  "es": "Pinchaflor Gorjinegro",
+  "ru": "Черногорлый цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa brunneiventris",
+ "sci_name_aco": "Diglossa brunneiventris",
+ "sounds": [],
+ "taxon_order": 35285.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4300,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20Flowerpiercer%20RWD.jpg"
+ ]
+}

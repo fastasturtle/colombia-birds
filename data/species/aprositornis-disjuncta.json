@@ -1,0 +1,90 @@
+{
+ "authorship": "(Friedmann, 1945)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yapant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Aprositornis",
+ "id": "aprositornis-disjuncta",
+ "ids": {
+  "avibase": "78E30C1367CE66DB",
+  "birdbase": 15746,
+  "gbif": 9617367,
+  "inaturalist": "554101",
+  "iucn": "22701820",
+  "wikidata": "Q28862259",
+  "xeno_canto": "Aprositornis-disjuncta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/yapant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554101",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aprositornis+disjuncta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yapacana Antbird",
+  "en_aco": "Yapacana Antbird",
+  "es": "Hormiguero del Yapacana",
+  "ru": "Япаканский алапи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Aprositornis disjuncta",
+ "sci_name_aco": "Aprositornis disjuncta",
+ "sounds": [],
+ "taxon_order": 14061.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 150,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 14.333333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

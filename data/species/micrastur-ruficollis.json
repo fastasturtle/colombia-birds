@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "baffal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Micrastur",
+ "id": "micrastur-ruficollis",
+ "ids": {
+  "avibase": "846E1C25E722E64D",
+  "birdbase": 12828,
+  "gbif": 2481082,
+  "inaturalist": "4699",
+  "iucn": "22696270",
+  "wikidata": "Q1089154",
+  "xeno_canto": "Micrastur-ruficollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Micrastur_ruficollis",
+  "ebird": "https://ebird.org/species/baffal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4699",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_forest_falcon",
+   "es": "https://es.wikipedia.org/wiki/Micrastur_ruficollis",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатый_лесной_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Micrastur+ruficollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Forest-Falcon",
+  "en_aco": "Barred Forest-Falcon",
+  "es": "Halcón Montés Agavilanado",
+  "ru": "Полосатый лесной сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Micrastur ruficollis",
+ "sci_name_aco": "Micrastur ruficollis",
+ "sounds": [],
+ "taxon_order": 11947.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 206.16666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Halc%C3%B3n%20mont%C3%A9s%20chico%20%28Micrastur%20ruficollis%29%20%28vertical%20crop%29.jpg"
+ ]
+}

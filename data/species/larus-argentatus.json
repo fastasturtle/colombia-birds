@@ -1,0 +1,97 @@
+{
+ "authorship": "(Pontoppidan, 1763)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "euhgul1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-argentatus",
+ "ids": {
+  "avibase": "F002188E226DF09C",
+  "birdbase": 7154,
+  "gbif": 2481139,
+  "inaturalist": "204533",
+  "iucn": "62030608",
+  "wikidata": "Q28236",
+  "xeno_canto": "Larus-argentatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_argentatus",
+  "ebird": "https://ebird.org/species/euhgul1",
+  "inaturalist": "https://www.inaturalist.org/taxa/204533",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/European_herring_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_argentatus",
+   "ru": "https://ru.wikipedia.org/wiki/Серебристая_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+argentatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "European Herring Gull",
+  "en_aco": "Herring Gull",
+  "es": "Gaviota Argéntea Europea",
+  "ru": "Серебристая чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus argentatus",
+ "sci_name_aco": "Larus argentatus",
+ "sounds": [],
+ "taxon_order": 6545.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "riparian",
+   "agricultural",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 1110,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20argentatus01.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/European%20herring%20gull%20vocalizing%20%2800170%29.jpg"
+ ]
+}

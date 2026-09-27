@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rhptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Pseudotriccus",
+ "id": "pseudotriccus-ruficeps",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17124,
+  "gbif": 2483820,
+  "inaturalist": "17223",
+  "iucn": "22698829",
+  "wikidata": "Q254189",
+  "xeno_canto": "Pseudotriccus-ruficeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pseudotriccus_ruficeps",
+  "ebird": "https://ebird.org/species/rhptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17223",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-headed_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Pseudotriccus_ruficeps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pseudotriccus+ruficeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-headed Pygmy-Tyrant",
+  "en_aco": "Rufous-headed Pygmy-Tyrant",
+  "es": "Tiranuelo Cabecirrojo",
+  "ru": "Рыжеголовый каполего"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pseudotriccus ruficeps",
+ "sci_name_aco": "Pseudotriccus ruficeps",
+ "sounds": [],
+ "taxon_order": 16289.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3350,
+   "max_extreme": null,
+   "min": 1850,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 10.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pseudotriccus%20ruficeps%20-NBII%20Image%20Gallery-a00198.jpg"
+ ]
+}

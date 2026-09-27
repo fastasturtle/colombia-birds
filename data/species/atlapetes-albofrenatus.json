@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mobfin1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-albofrenatus",
+ "ids": {
+  "avibase": "054753E884C2B31C",
+  "birdbase": 35653,
+  "gbif": 2491399,
+  "inaturalist": "10329",
+  "iucn": "103773936",
+  "wikidata": "Q2096798",
+  "xeno_canto": "Atlapetes-albofrenatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_albofrenatus",
+  "ebird": "https://ebird.org/species/mobfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10329",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Moustached_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_albofrenatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+albofrenatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Moustached Brushfinch",
+  "en_aco": "Moustached Brushfinch",
+  "es": "Atlapetes Bigotudo",
+  "ru": "Белоусая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes albofrenatus",
+ "sci_name_aco": "Atlapetes albofrenatus",
+ "sounds": [],
+ "taxon_order": 33448.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": 1000
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 28,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atlapetes%20albofrenatus%20Gorri%C3%B3n%20mont%C3%A9s%20bigotudo%20Moustached%20Brush-Finch%20%288614182238%29.jpg"
+ ]
+}

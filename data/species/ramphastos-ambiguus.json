@@ -1,0 +1,96 @@
+{
+ "authorship": "(Swainson, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkmtou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Ramphastos",
+ "id": "ramphastos-ambiguus",
+ "ids": {
+  "avibase": "536B31DF57D1E470",
+  "birdbase": 11159,
+  "gbif": 2478779,
+  "inaturalist": "339907",
+  "iucn": "22727999",
+  "wikidata": "Q645586",
+  "xeno_canto": "Ramphastos-ambiguus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphastos_ambiguus",
+  "ebird": "https://ebird.org/species/bkmtou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339907",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-throated_toucan",
+   "es": "https://es.wikipedia.org/wiki/Ramphastos_ambiguus",
+   "ru": "https://ru.wikipedia.org/wiki/Желтогорлый_тукан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphastos+ambiguus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-throated Toucan",
+  "en_aco": "Yellow-throated Toucan",
+  "es": "Tucán Pechigualdo",
+  "ru": "Желтогорлый тукан"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Ramphastos ambiguus",
+ "sci_name_aco": "Ramphastos ambiguus",
+ "sounds": [],
+ "taxon_order": 10926.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2286,
+   "min": 800,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 661.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-throated%20toucan%20%2802923%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-throated%20Toucan%20%2831630599617%29.jpg"
+ ]
+}

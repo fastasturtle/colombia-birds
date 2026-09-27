@@ -1,0 +1,94 @@
+{
+ "authorship": "(Berlepsch, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rofpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrilia",
+ "id": "pyrilia-pulchra",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13210,
+  "gbif": 5788420,
+  "inaturalist": "73324",
+  "iucn": "22686107",
+  "wikidata": "Q587874",
+  "xeno_canto": "Pyrilia-pulchra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrilia_pulchra",
+  "ebird": "https://ebird.org/species/rofpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73324",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rose-faced_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pyrilia_pulchra",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrilia+pulchra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rose-faced Parrot",
+  "en_aco": "Rose-faced Parrot",
+  "es": "Lorito Carirrosado",
+  "ru": "Розовощёкий лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrilia pulchra",
+ "sci_name_aco": "Pyrilia pulchra",
+ "sounds": [],
+ "taxon_order": 12864.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 153.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2022-05-11%20Rosenwangenpapagei%2003.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rose-faced%20Parrot%20%285183941237%29.jpg"
+ ]
+}

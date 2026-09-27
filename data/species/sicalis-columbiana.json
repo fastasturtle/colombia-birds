@@ -1,0 +1,95 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ofyfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sicalis",
+ "id": "sicalis-columbiana",
+ "ids": {
+  "avibase": "09191B9820048BF3",
+  "birdbase": 37460,
+  "gbif": 2491857,
+  "inaturalist": "9863",
+  "iucn": "22723341",
+  "wikidata": "Q918405",
+  "xeno_canto": "Sicalis-columbiana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sicalis_columbiana",
+  "ebird": "https://ebird.org/species/ofyfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9863",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-fronted_yellow_finch",
+   "es": "https://es.wikipedia.org/wiki/Sicalis_columbiana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sicalis+columbiana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-fronted Yellow-Finch",
+  "en_aco": "Orange-fronted Yellow-Finch",
+  "es": "Chirigüe Frentinaranja",
+  "ru": "Карликовый зерноед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sicalis columbiana",
+ "sci_name_aco": "Sicalis columbiana",
+ "sounds": [],
+ "taxon_order": 35473.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.850000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sicalis%20columbiana%20-%20Orange-fronted%20Yellow%20Finch%20%28couple%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orange-fronted%20yellow%20finch.jpg"
+ ]
+}

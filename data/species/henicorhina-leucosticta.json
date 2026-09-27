@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wbwwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Henicorhina",
+ "id": "henicorhina-leucosticta",
+ "ids": {
+  "avibase": "3563183FFB1454A5",
+  "birdbase": 29303,
+  "gbif": 2493958,
+  "inaturalist": "7613",
+  "iucn": "22711521",
+  "wikidata": "Q2225337",
+  "xeno_canto": "Henicorhina-leucosticta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Henicorhina_leucosticta",
+  "ebird": "https://ebird.org/species/wbwwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7613",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-breasted_wood_wren",
+   "es": "https://es.wikipedia.org/wiki/Henicorhina_leucosticta",
+   "ru": "https://ru.wikipedia.org/wiki/Белогрудый_лесной_крапивник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Henicorhina+leucosticta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-breasted Wood-Wren",
+  "en_aco": "White-breasted Wood-Wren",
+  "es": "Cucarachero Pechiblanco",
+  "ru": "Белогрудый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Henicorhina leucosticta",
+ "sci_name_aco": "Henicorhina leucosticta",
+ "sounds": [],
+ "taxon_order": 27594.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 14.933333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Henicorhina%20leucosticta%20-%20White-breasted%20Wood%20Wren%3B%20Balbina%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

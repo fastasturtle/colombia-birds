@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greibi1",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Mesembrinibis",
+ "id": "mesembrinibis-cayennensis",
+ "ids": {
+  "avibase": "08DD4E80E6F4B5AE",
+  "birdbase": 7852,
+  "gbif": 2480808,
+  "inaturalist": "3770",
+  "iucn": "22697460",
+  "wikidata": "Q912057",
+  "xeno_canto": "Mesembrinibis-cayennensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mesembrinibis_cayennensis",
+  "ebird": "https://ebird.org/species/greibi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3770",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_ibis",
+   "es": "https://es.wikipedia.org/wiki/Mesembrinibis_cayennensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mesembrinibis+cayennensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Ibis",
+  "en_aco": "Green Ibis",
+  "es": "Ibis Verde",
+  "ru": "Кайеннский ибис"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Mesembrinibis cayennensis",
+ "sci_name_aco": "Mesembrinibis cayennensis",
+ "sounds": [],
+ "taxon_order": 7477.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 758.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mesembrinibis%20cayennensis%20por%20Luiz%20Alves%20%2802%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/180%20Green%20ibis%20in%20Encontro%20das%20%C3%81guas%20State%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

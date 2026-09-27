@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lesvio1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Colibri",
+ "id": "colibri-cyanotus",
+ "ids": {
+  "avibase": "81FC15DDC9AFBB17",
+  "birdbase": 2814,
+  "gbif": 9053125,
+  "inaturalist": "508367",
+  "iucn": null,
+  "wikidata": "Q27074775",
+  "xeno_canto": "Colibri cyanotus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colibri_cyanotus",
+  "ebird": "https://ebird.org/species/lesvio1",
+  "inaturalist": "https://www.inaturalist.org/taxa/508367",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_violetear",
+   "es": "https://es.wikipedia.org/wiki/Colibri_cyanotus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colibri+cyanotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Violetear",
+  "en_aco": "Lesser Violetear",
+  "es": "Colibrí Verdemar Menor",
+  "ru": "Зелоногрудый фиалкоух"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Colibri cyanotus",
+ "sci_name_aco": "Colibri cyanotus",
+ "sounds": [],
+ "taxon_order": 4359.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3300,
+   "min": 600,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "grassland"
+  ],
+  "mass_g": 4.866666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/002%20Lesser%20violetear%20displaying%20its%20ears%20to%20a%20Green-crowned%20brilliant%20in%20Los%20Quetzales%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

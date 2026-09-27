@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "glopuf2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-vestita",
+ "ids": {
+  "avibase": "B8D63EF5900C6B46",
+  "birdbase": 3060,
+  "gbif": 5228524,
+  "inaturalist": "6276",
+  "iucn": "22687914",
+  "wikidata": "Q1269647",
+  "xeno_canto": "Eriocnemis-vestita"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_vestita",
+  "ebird": "https://ebird.org/species/glopuf2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6276",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Glowing_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_vestita",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+vestita"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Glowing Puffleg",
+  "en_aco": "Glowing Puffleg",
+  "es": "Calzadito Reluciente",
+  "ru": "Бронзовый эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis vestita",
+ "sci_name_aco": "Eriocnemis vestita",
+ "sounds": [],
+ "taxon_order": 4581.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 4200,
+   "min": 2800,
+   "min_extreme": 2250
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 4.716666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eriocnemis%20vestitus.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Migratorio Boreal incierto | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal? - Residente",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "rudduc",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Oxyura",
+ "id": "oxyura-jamaicensis",
+ "ids": {
+  "avibase": "DF1E2A1D",
+  "birdbase": 544,
+  "gbif": 2498305,
+  "inaturalist": "7079",
+  "iucn": "22727750",
+  "wikidata": "Q647461",
+  "xeno_canto": "Oxyura-jamaicensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxyura_jamaicensis",
+  "ebird": "https://ebird.org/species/rudduc",
+  "inaturalist": "https://www.inaturalist.org/taxa/7079",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_duck",
+   "es": "https://es.wikipedia.org/wiki/Oxyura_jamaicensis",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_савка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oxyura+jamaicensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Duck",
+  "en_aco": "Ruddy Duck",
+  "es": "Malvasía Canela",
+  "ru": "Американская савка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Oxyura jamaicensis",
+ "sci_name_aco": "Oxyura jamaicensis",
+ "sounds": [],
+ "taxon_order": 778.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 586.6666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/065%20-%20RUDDY%20DUCK%20%2811-27-07%29%20fem%2C%20oso%20flaco%2C%20sloco%2C%20ca%20oso%20%281%29%20%288718083235%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/065%20-%20RUDDY%20DUCK%20%283-26-13%29%20mustang%20island%2C%20nueces%20co%2C%20tx%20%288719200030%29.jpg"
+ ]
+}

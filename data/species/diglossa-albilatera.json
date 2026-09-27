@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whsflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-albilatera",
+ "ids": {
+  "avibase": "C33D6D15A11D894A",
+  "birdbase": 37613,
+  "gbif": 5230649,
+  "inaturalist": "9839",
+  "iucn": "22723652",
+  "wikidata": "Q536912",
+  "xeno_canto": "Diglossa-albilatera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_albilatera",
+  "ebird": "https://ebird.org/species/whsflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9839",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-sided_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_albilatera",
+   "ru": "https://ru.wikipedia.org/wiki/Шиферный_крючкоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+albilatera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-sided Flowerpiercer",
+  "en_aco": "White-sided Flowerpiercer",
+  "es": "Pinchaflor Flanquiblanco",
+  "ru": "Белобокий цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa albilatera",
+ "sci_name_aco": "Diglossa albilatera",
+ "sounds": [],
+ "taxon_order": 35291.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3300,
+   "min": 1600,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 10.149999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20albilatera.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-sided%20flowerpiecer%20%28Diglossa%20albilatera%20albilatera%29%20Cundinamarca%202.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Brewster, 1895)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "aldfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Empidonax",
+ "id": "empidonax-alnorum",
+ "ids": {
+  "avibase": "338088120A17D3EA",
+  "birdbase": 17728,
+  "gbif": 2482809,
+  "inaturalist": "16620",
+  "iucn": "22699845",
+  "wikidata": "Q681933",
+  "xeno_canto": "Empidonax-alnorum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Empidonax_alnorum",
+  "ebird": "https://ebird.org/species/aldfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16620",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Alder_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Empidonax_alnorum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Empidonax+alnorum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Alder Flycatcher",
+  "en_aco": "Alder Flycatcher",
+  "es": "Mosquero Alisero",
+  "ru": "Лесной мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Empidonax alnorum",
+ "sci_name_aco": "Empidonax alnorum",
+ "sounds": [],
+ "taxon_order": 16951.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 13.283333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Empidonax%20alnorum%20CT2.jpg"
+ ]
+}

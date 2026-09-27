@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebsap",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Sphyrapicus",
+ "id": "sphyrapicus-varius",
+ "ids": {
+  "avibase": "9BE68BD390E0D2FF",
+  "birdbase": 11874,
+  "gbif": 2478605,
+  "inaturalist": "18463",
+  "iucn": "22680868",
+  "wikidata": "Q934735",
+  "xeno_canto": "Sphyrapicus-varius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sphyrapicus_varius",
+  "ebird": "https://ebird.org/species/yebsap",
+  "inaturalist": "https://www.inaturalist.org/taxa/18463",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-bellied_sapsucker",
+   "es": "https://es.wikipedia.org/wiki/Sphyrapicus_varius",
+   "ru": "https://ru.wikipedia.org/wiki/Желтобрюхий_дятел-сосун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sphyrapicus+varius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-bellied Sapsucker",
+  "en_aco": "Yellow-bellied Sapsucker",
+  "es": "Chupasavia Norteño",
+  "ru": "Желтобрюхий дятел-сокоед"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Sphyrapicus varius",
+ "sci_name_aco": "Sphyrapicus varius",
+ "sounds": [],
+ "taxon_order": 11126.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Sap, phloem",
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 48.48333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-bellied%20sapsucker%20in%20CP%20%2840484%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-bellied%20sapsucker%20%28Sphyrapicus%20varius%29%20female.JPG"
+ ]
+}

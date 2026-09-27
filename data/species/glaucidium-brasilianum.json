@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fepowl",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Glaucidium",
+ "id": "glaucidium-brasilianum",
+ "ids": {
+  "avibase": "40EB82DAF4A09B0D",
+  "birdbase": 9240,
+  "gbif": 5232118,
+  "inaturalist": "19822",
+  "iucn": "22689248",
+  "wikidata": "Q518608",
+  "xeno_canto": "Glaucidium-brasilianum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Glaucidium_brasilianum",
+  "ebird": "https://ebird.org/species/fepowl",
+  "inaturalist": "https://www.inaturalist.org/taxa/19822",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ferruginous_pygmy_owl",
+   "es": "https://es.wikipedia.org/wiki/Glaucidium_brasilianum",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжий_воробьиный_сыч"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucidium+brasilianum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ferruginous Pygmy-Owl",
+  "en_aco": "Ferruginous Pygmy-Owl",
+  "es": "Mochuelo Caburé",
+  "ru": "Рыжий сычик"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Glaucidium brasilianum",
+ "sci_name_aco": "Glaucidium brasilianum",
+ "sounds": [],
+ "taxon_order": 9037.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2300,
+   "min": 300,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 71.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cactus%20Ferruginous%20Pygmy-owl.jpg"
+ ]
+}

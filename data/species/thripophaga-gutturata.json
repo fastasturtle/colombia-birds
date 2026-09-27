@@ -1,0 +1,91 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spespi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Thripophaga",
+ "id": "thripophaga-gutturata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15428,
+  "gbif": 2485302,
+  "inaturalist": "11228",
+  "iucn": null,
+  "wikidata": "Q1259503",
+  "xeno_canto": "Cranioleuca-gutturata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cranioleuca_gutturata",
+  "ebird": "https://ebird.org/species/spespi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11228",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Thripophaga_gutturata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thripophaga+gutturata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Spinetail",
+  "en_aco": "Speckled Spinetail",
+  "es": "Curutié Jaspeado",
+  "ru": "Крапчатая курутия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thripophaga gutturata",
+ "sci_name_aco": "Cranioleuca gutturata",
+ "sounds": [],
+ "taxon_order": 15472.0,
+ "taxonomy_note": "ACO/SACC lists this as Cranioleuca gutturata; eBird/Clements uses Thripophaga gutturata.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cranioleuca%20gutturata%2C%20Speckled%20Spinetail.jpg"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "authorship": "(Cabanis, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "asbant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmoborus",
+ "id": "myrmoborus-lugubris",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16385,
+  "gbif": 2490124,
+  "inaturalist": "15876",
+  "iucn": "22701720",
+  "wikidata": "Q1268056",
+  "xeno_canto": "Myrmoborus-lugubris"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmoborus_lugubris",
+  "ebird": "https://ebird.org/species/asbant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15876",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ash-breasted_antbird",
+   "es": "https://es.wikipedia.org/wiki/Myrmoborus_lugubris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmoborus+lugubris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ash-breasted Antbird",
+  "en_aco": "Ash-breasted Antbird",
+  "es": "Hormiguero Lúgubre",
+  "ru": "Серогрудая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmoborus lugubris",
+ "sci_name_aco": "Myrmoborus lugubris",
+ "sounds": [],
+ "taxon_order": 13959.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 125,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 21.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

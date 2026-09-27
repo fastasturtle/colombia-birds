@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin & Godman, 1880)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whlwar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myiothlypis",
+ "id": "myiothlypis-conspicillata",
+ "ids": {
+  "avibase": "BA47292D71E7FBF0",
+  "birdbase": 36389,
+  "gbif": 8330576,
+  "inaturalist": "201228",
+  "iucn": "22721989",
+  "wikidata": "Q27075989",
+  "xeno_canto": "Myiothlypis-conspicillata"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_conspicillata",
+  "ebird": "https://ebird.org/species/whlwar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201228",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-lored_warbler",
+   "es": "https://es.wikipedia.org/wiki/Myiothlypis_conspicillata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+conspicillata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-lored Warbler",
+  "en_aco": "White-lored Warbler",
+  "es": "Reinita Embridada",
+  "ru": "Уздечковый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiothlypis conspicillata",
+ "sci_name_aco": "Myiothlypis conspicillata",
+ "sounds": [],
+ "taxon_order": 34330.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2250,
+   "min": 750,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 13.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiothlypis%20conspicillata%20285502325.jpg"
+ ]
+}

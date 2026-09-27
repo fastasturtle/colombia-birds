@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bonaparte, 1828)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "coohaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Astur",
+ "id": "astur-cooperii",
+ "ids": {
+  "avibase": "EB98812F50A648A1",
+  "birdbase": 8591,
+  "gbif": 2480621,
+  "inaturalist": "5112",
+  "iucn": "22695656",
+  "wikidata": "Q862896",
+  "xeno_canto": "Accipiter-cooperii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Astur_cooperii",
+  "ebird": "https://ebird.org/species/coohaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5112",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cooper's_hawk",
+   "es": "https://es.wikipedia.org/wiki/Astur_cooperii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Astur+cooperii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cooper's Hawk",
+  "en_aco": "Cooper's Hawk",
+  "es": "Gavilán de Cooper",
+  "ru": "Куперов ястреб"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Astur cooperii",
+ "sci_name_aco": "Accipiter cooperii",
+ "sounds": [],
+ "taxon_order": 8278.0,
+ "taxonomy_note": "ACO/SACC lists this as Accipiter cooperii; eBird/Clements uses Astur cooperii.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 429.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Accipiter%20cooperii%20m%20Sam%20Smith%20Toronto3.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cooper%27s%20hawk%20in%20Prospect%20Park%20%2822513%29.jpg"
+ ]
+}

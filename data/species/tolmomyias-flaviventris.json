@@ -1,0 +1,96 @@
+{
+ "authorship": "(Wied-Neuwied, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebfly3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tolmomyias",
+ "id": "tolmomyias-flaviventris",
+ "ids": {
+  "avibase": "E0B5F9D3DC324D24",
+  "birdbase": 17560,
+  "gbif": 2482874,
+  "inaturalist": "16559",
+  "iucn": "103680560",
+  "wikidata": "Q1270583",
+  "xeno_canto": "Tolmomyias-flaviventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tolmomyias_flaviventris",
+  "ebird": "https://ebird.org/species/yebfly3",
+  "inaturalist": "https://www.inaturalist.org/taxa/16559",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ochre-lored_flatbill",
+   "es": "https://es.wikipedia.org/wiki/Tolmomyias_flaviventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tolmomyias+flaviventris"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Ochre-lored Flatbill",
+  "en_aco": "Yellow-breasted Flycatcher",
+  "es": "Picoplano Pechiamarillo",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tolmomyias flaviventris",
+ "sci_name_aco": "Tolmomyias flaviventris",
+ "sounds": [],
+ "taxon_order": 16513.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 13.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tolmomyias%20flaviventris%20-%20Yellow-breasted%20Flycatcher.JPG"
+ ]
+}

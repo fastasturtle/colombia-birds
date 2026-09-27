@@ -1,0 +1,94 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spfpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pionus",
+ "id": "pionus-tumultuosus",
+ "ids": {
+  "avibase": "BF66BBFC10128D88",
+  "birdbase": 13241,
+  "gbif": 2479913,
+  "inaturalist": "19098",
+  "iucn": "22727615",
+  "wikidata": "Q1190018",
+  "xeno_canto": "Pionus-tumultuosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pionus_tumultuosus",
+  "ebird": "https://ebird.org/species/spfpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19098",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plum-crowned_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pionus_tumultuosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pionus+tumultuosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckle-faced Parrot",
+  "en_aco": "Speckle-faced Parrot",
+  "es": "Loro Tumultuoso",
+  "ru": "Сливоголовый амазонет"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pionus tumultuosus",
+ "sci_name_aco": "Pionus tumultuosus",
+ "sounds": [],
+ "taxon_order": 12886.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 239,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pionus%20tumultuosus%2069270129%20%28cropped%29.jpg"
+ ]
+}

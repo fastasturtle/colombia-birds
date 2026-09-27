@@ -1,0 +1,92 @@
+{
+ "authorship": "(Ridgway, 1893)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spfswi1",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Cypseloides",
+ "id": "cypseloides-cherriei",
+ "ids": {
+  "avibase": "258B1B375050DC54",
+  "birdbase": 2263,
+  "gbif": 2477289,
+  "inaturalist": "6674",
+  "iucn": "22686458",
+  "wikidata": "Q3046541",
+  "xeno_canto": "Cypseloides-cherriei"
+ },
+ "iucn": {
+  "aco_2022": "DD",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cypseloides_cherriei",
+  "ebird": "https://ebird.org/species/spfswi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6674",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-fronted_swift",
+   "es": "https://es.wikipedia.org/wiki/Cypseloides_cherriei",
+   "ru": "https://ru.wikipedia.org/wiki/Пятнистолобый_американский_стриж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cypseloides+cherriei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-fronted Swift",
+  "en_aco": "Spot-fronted Swift",
+  "es": "Vencejo Cuatroojos",
+  "ru": "Пятнистолобый стриж"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Cypseloides cherriei",
+ "sci_name_aco": "Cypseloides cherriei",
+ "sounds": [],
+ "taxon_order": 3835.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 1100,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "savanna"
+  ],
+  "mass_g": 22.725,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cypseloides%20cherriei.jpg"
+ ]
+}

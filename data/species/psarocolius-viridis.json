@@ -1,0 +1,91 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greoro1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Psarocolius",
+ "id": "psarocolius-viridis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35829,
+  "gbif": 2484216,
+  "inaturalist": "10127",
+  "iucn": "22723985",
+  "wikidata": "Q1301012",
+  "xeno_canto": "Psarocolius-viridis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Psarocolius_viridis",
+  "ebird": "https://ebird.org/species/greoro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10127",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_oropendola",
+   "es": "https://es.wikipedia.org/wiki/Psarocolius_viridis",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёная_оропендола"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Psarocolius+viridis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Oropendola",
+  "en_aco": "Green Oropendola",
+  "es": "Cacique Verde",
+  "ru": "Зелёная оропендола"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Psarocolius viridis",
+ "sci_name_aco": "Psarocolius viridis",
+ "sounds": [],
+ "taxon_order": 33623.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 353.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Oropendola%20-%20Psarocolius%20viridis.jpg"
+ ]
+}

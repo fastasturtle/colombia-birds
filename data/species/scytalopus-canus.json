@@ -1,0 +1,90 @@
+{
+ "authorship": "(Chapman, 1915)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "partap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-canus",
+ "ids": {
+  "avibase": "71CF5120",
+  "birdbase": 16761,
+  "gbif": 2491005,
+  "inaturalist": "14754",
+  "iucn": "22736477",
+  "wikidata": "Q1259206",
+  "xeno_canto": "Scytalopus-canus"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_canus",
+  "ebird": "https://ebird.org/species/partap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14754",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Paramillo_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_canus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+canus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Paramillo Tapaculo",
+  "en_aco": "Paramillo Tapaculo",
+  "es": "Churrín del Paramillo",
+  "ru": "Сизый тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus canus",
+ "sci_name_aco": "Scytalopus canus",
+ "sounds": [],
+ "taxon_order": 14407.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 3300,
+   "min_extreme": 2600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 17.075,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

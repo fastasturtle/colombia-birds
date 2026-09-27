@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "varsee3",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-corvina",
+ "ids": {
+  "avibase": "53BF86BF5C97B8C5",
+  "birdbase": 37213,
+  "gbif": 2491356,
+  "inaturalist": "54980",
+  "iucn": "103817300",
+  "wikidata": "Q3121257",
+  "xeno_canto": "Sporophila-corvina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_corvina",
+  "ebird": "https://ebird.org/species/varsee3",
+  "inaturalist": "https://www.inaturalist.org/taxa/54980",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Variable_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_corvina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+corvina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Variable Seedeater",
+  "en_aco": "Variable Seedeater",
+  "es": "Semillero Corvino",
+  "ru": "Чёрный просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila corvina",
+ "sci_name_aco": "Sporophila corvina",
+ "sounds": [],
+ "taxon_order": 35560.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila-corvina-002.jpg"
+ ]
+}

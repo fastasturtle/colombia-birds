@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sathum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chrysuronia",
+ "id": "chrysuronia-coeruleogularis",
+ "ids": {
+  "avibase": "D3D0C21B714A76C3",
+  "birdbase": 3655,
+  "gbif": 10962601,
+  "inaturalist": "5935",
+  "iucn": "22687414",
+  "wikidata": "Q1271702",
+  "xeno_canto": "Lepidopyga-coeruleogularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lepidopyga_coeruleogularis",
+  "ebird": "https://ebird.org/species/sathum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5935",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sapphire-throated_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Chrysuronia_coeruleogularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysuronia+coeruleogularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sapphire-throated Hummingbird",
+  "en_aco": "Sapphire-throated Hummingbird",
+  "es": "Colibrí Gorjizafiro",
+  "ru": "Синегорлый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chrysuronia coeruleogularis",
+ "sci_name_aco": "Chrysuronia coeruleogularis",
+ "sounds": [],
+ "taxon_order": 5152.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "coastal"
+  ],
+  "mass_g": 4.133333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-throated%20hummingbird%20%28Lepidopyga%20coeruleogularis%20coeruleogularis%29%20male.jpg"
+ ]
+}

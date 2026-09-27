@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gowspa1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Arremon",
+ "id": "arremon-schlegeli",
+ "ids": {
+  "avibase": "A149DC0A3619FF07",
+  "birdbase": 35282,
+  "gbif": 2491624,
+  "inaturalist": "10063",
+  "iucn": "22721372",
+  "wikidata": "Q1535692",
+  "xeno_canto": "Arremon-schlegeli"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Arremon_schlegeli",
+  "ebird": "https://ebird.org/species/gowspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10063",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-winged_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Arremon_schlegeli",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arremon+schlegeli"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-winged Sparrow",
+  "en_aco": "Golden-winged Sparrow",
+  "es": "Cerquero Alidorado",
+  "ru": "Тохи-монах"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Arremon schlegeli",
+ "sci_name_aco": "Arremon schlegeli",
+ "sounds": [],
+ "taxon_order": 33063.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 27.425,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arremon%20schlegeli.jpg"
+ ]
+}

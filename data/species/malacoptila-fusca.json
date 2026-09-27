@@ -1,0 +1,91 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Malacoptila",
+ "id": "malacoptila-fusca",
+ "ids": {
+  "avibase": "6D14FBBAEE660AEF",
+  "birdbase": 11037,
+  "gbif": 2475157,
+  "inaturalist": "1511",
+  "iucn": "22682277",
+  "wikidata": "Q1265106",
+  "xeno_canto": "Malacoptila-fusca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Malacoptila_fusca",
+  "ebird": "https://ebird.org/species/whcpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1511",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chested_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Malacoptila_fusca",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Malacoptila+fusca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chested Puffbird",
+  "en_aco": "White-chested Puffbird",
+  "es": "Buco Pechiblanco",
+  "ru": "Тёмная пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Malacoptila fusca",
+ "sci_name_aco": "Malacoptila fusca",
+ "sounds": [],
+ "taxon_order": 10416.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 46,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Malacoptila%20fusca%20White-chested%20Puffbird%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

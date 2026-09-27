@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruff",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-pugnax",
+ "ids": {
+  "avibase": "2DABF98FBEEAB7BB",
+  "birdbase": 6808,
+  "gbif": 8250742,
+  "inaturalist": "339593",
+  "iucn": "22693468",
+  "wikidata": "Q28122714",
+  "xeno_canto": "Philomachus-pugnax"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_pugnax",
+  "ebird": "https://ebird.org/species/ruff",
+  "inaturalist": "https://www.inaturalist.org/taxa/339593",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruff_(bird)",
+   "es": "https://es.wikipedia.org/wiki/Calidris_pugnax",
+   "ru": "https://ru.wikipedia.org/wiki/Турухтан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+pugnax"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruff",
+  "en_aco": "Ruff",
+  "es": "Combatiente",
+  "ru": "Турухтан"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris pugnax",
+ "sci_name_aco": "Calidris pugnax",
+ "sounds": [],
+ "taxon_order": 6177.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 156,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Philomachus%20pugnaxRuffKampfl%C3%A4ufer.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ruff%2C%20Philomachus%20pugnax%2C%20at%20Marievale%20Nature%20Reserve%2C%20Gauteng%2C%20South%20Africa%20%2821014304581%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wiki-erimakisigi.jpg"
+ ]
+}

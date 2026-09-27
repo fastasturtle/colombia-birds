@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sctdac1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Dacnis",
+ "id": "dacnis-venusta",
+ "ids": {
+  "avibase": "223EB3AD052CEC00",
+  "birdbase": 36864,
+  "gbif": 2488361,
+  "inaturalist": "10508",
+  "iucn": "22722988",
+  "wikidata": "Q901086",
+  "xeno_canto": "Dacnis-venusta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dacnis_venusta",
+  "ebird": "https://ebird.org/species/sctdac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10508",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet-thighed_dacnis",
+   "es": "https://es.wikipedia.org/wiki/Dacnis_venusta",
+   "ru": "https://ru.wikipedia.org/wiki/Краснобёдрый_дакнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+venusta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-thighed Dacnis",
+  "en_aco": "Scarlet-thighed Dacnis",
+  "es": "Dacnis Muslirrojo",
+  "ru": "Краснобёдрый дакнис"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dacnis venusta",
+ "sci_name_aco": "Dacnis venusta",
+ "sounds": [],
+ "taxon_order": 35149.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1920,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 15.641666666666666,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20venusta%20-Panama-8a.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20venusta%201863.jpg"
+ ]
+}

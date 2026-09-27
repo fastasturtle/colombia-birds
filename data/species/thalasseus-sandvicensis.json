@@ -1,0 +1,92 @@
+{
+ "authorship": "(Latham, 1787)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "santer1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Thalasseus",
+ "id": "thalasseus-sandvicensis",
+ "ids": {
+  "avibase": "04B49AE78FFF9B68",
+  "birdbase": 7054,
+  "gbif": 2481240,
+  "inaturalist": "144541",
+  "iucn": "22694591",
+  "wikidata": "Q27547",
+  "xeno_canto": "Thalasseus-sandvicensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thalasseus_sandvicensis",
+  "ebird": "https://ebird.org/species/santer1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144541",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sandwich_tern",
+   "es": "https://es.wikipedia.org/wiki/Thalasseus_sandvicensis",
+   "ru": "https://ru.wikipedia.org/wiki/Пестроносая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thalasseus+sandvicensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sandwich Tern",
+  "en_aco": "Sandwich Tern",
+  "es": "Charrán Patinegro",
+  "ru": "Пестроносая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Thalasseus sandvicensis",
+ "sci_name_aco": "Thalasseus sandvicensis",
+ "sounds": [],
+ "taxon_order": 6775.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "coastal"
+  ],
+  "mass_g": 223.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2020-07-18%20Thalasseus%20sandvicensis%2C%20St%20Marys%20Island%2C%20Northumberland%2005.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thalasseus%20sandvicensis%20StMarys.jpg"
+ ]
+}

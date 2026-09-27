@@ -1,0 +1,92 @@
+{
+ "authorship": "(Hartlaub, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barbec1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-versicolor",
+ "ids": {
+  "avibase": "69B72BD02EE412F0",
+  "birdbase": 18571,
+  "gbif": 5230348,
+  "inaturalist": "8701",
+  "iucn": "22700638",
+  "wikidata": "Q427450",
+  "xeno_canto": "Pachyramphus-versicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_versicolor",
+  "ebird": "https://ebird.org/species/barbec1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8701",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_versicolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+versicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Becard",
+  "en_aco": "Barred Becard",
+  "es": "Anambé Barrado",
+  "ru": "Пёстрый бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus versicolor",
+ "sci_name_aco": "Pachyramphus versicolor",
+ "sounds": [],
+ "taxon_order": 16029.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3500,
+   "min": 1500,
+   "min_extreme": 1100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 15.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pachyramphus%20versicolor%20%28male%29%20-NW%20Ecuador-6.jpg"
+ ]
+}

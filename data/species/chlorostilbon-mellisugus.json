@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blteme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorostilbon",
+ "id": "chlorostilbon-mellisugus",
+ "ids": {
+  "avibase": "EFE80E7B84CB16D2",
+  "birdbase": 3374,
+  "gbif": 2476077,
+  "inaturalist": "6095",
+  "iucn": "22687313",
+  "wikidata": "Q942904",
+  "xeno_canto": "Chlorostilbon-mellisugus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorostilbon_mellisugus",
+  "ebird": "https://ebird.org/species/blteme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6095",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-tailed_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chlorostilbon_mellisugus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorostilbon+mellisugus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-tailed Emerald",
+  "en_aco": "Blue-tailed Emerald",
+  "es": "Esmeralda Coliazul",
+  "ru": "Синехвостый изумруд"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorostilbon mellisugus",
+ "sci_name_aco": "Chlorostilbon mellisugus",
+ "sounds": [],
+ "taxon_order": 4888.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 750,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 2.6466666666666665,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aruba-Blue-tailed-Emerald-Arikok-NP.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-tailed%20Emerald%20-%20Ecuador%20S4E0715.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grejac2",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Jacamerops",
+ "id": "jacamerops-aureus",
+ "ids": {
+  "avibase": "268D99098BE003B8",
+  "birdbase": 10975,
+  "gbif": 2475080,
+  "inaturalist": "1495",
+  "iucn": "22682224",
+  "wikidata": "Q1264910",
+  "xeno_canto": "Jacamerops-aureus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Jacamerops_aureus",
+  "ebird": "https://ebird.org/species/grejac2",
+  "inaturalist": "https://www.inaturalist.org/taxa/1495",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Jacamerops_aureus",
+   "ru": "https://ru.wikipedia.org/wiki/Большая_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Jacamerops+aureus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Jacamar",
+  "en_aco": "Great Jacamar",
+  "es": "Jacamará Grande",
+  "ru": "Большая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Jacamerops aureus",
+ "sci_name_aco": "Jacamerops aureus",
+ "sounds": [],
+ "taxon_order": 10522.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 66.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Jacamar%20-%20Panama%20H8O2675.jpg"
+ ]
+}

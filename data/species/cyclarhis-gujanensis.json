@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubpep1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Cyclarhis",
+ "id": "cyclarhis-gujanensis",
+ "ids": {
+  "avibase": "8776BD04D3C6BD81",
+  "birdbase": 21350,
+  "gbif": 2487404,
+  "inaturalist": "17421",
+  "iucn": "22705124",
+  "wikidata": "Q678728",
+  "xeno_canto": "Cyclarhis-gujanensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyclarhis_gujanensis",
+  "ebird": "https://ebird.org/species/rubpep1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17421",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-browed_peppershrike",
+   "es": "https://es.wikipedia.org/wiki/Cyclarhis_gujanensis",
+   "ru": "https://ru.wikipedia.org/wiki/Краснобровый_попугайный_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyclarhis+gujanensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-browed Peppershrike",
+  "en_aco": "Rufous-browed Peppershrike",
+  "es": "Vireón Cejirrufo",
+  "ru": "Краснобровый попугаевый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyclarhis gujanensis",
+ "sci_name_aco": "Cyclarhis gujanensis",
+ "sounds": [],
+ "taxon_order": 19051.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 2800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 28.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyclarhis%20gujanensis%20-eating%20green%20caterpillar.jpg"
+ ]
+}

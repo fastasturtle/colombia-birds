@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lafresnaye, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tyrwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendrocincla",
+ "id": "dendrocincla-tyrannina",
+ "ids": {
+  "avibase": "871963BCB42C3A7E",
+  "birdbase": 14566,
+  "gbif": 2485976,
+  "inaturalist": "10879",
+  "iucn": "22703007",
+  "wikidata": "Q1268716",
+  "xeno_canto": "Dendrocincla-tyrannina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocincla_tyrannina",
+  "ebird": "https://ebird.org/species/tyrwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10879",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tyrannine_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendrocincla_tyrannina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocincla+tyrannina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tyrannine Woodcreeper",
+  "en_aco": "Tyrannine Woodcreeper",
+  "es": "Trepatroncos Tiranino",
+  "ru": "Дятловый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendrocincla tyrannina",
+ "sci_name_aco": "Dendrocincla tyrannina",
+ "sounds": [],
+ "taxon_order": 14642.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 1300,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 52,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrannine%20woodcreeper%202.jpg"
+ ]
+}

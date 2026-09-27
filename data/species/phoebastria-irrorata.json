@@ -1,0 +1,94 @@
+{
+ "authorship": "(Salvin, 1883)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wavalb",
+ "family": {
+  "code": "diomed1",
+  "en": "Albatrosses",
+  "sci": "Diomedeidae"
+ },
+ "genus": "Phoebastria",
+ "id": "phoebastria-irrorata",
+ "ids": {
+  "avibase": "1BC289CB4D3D322D",
+  "birdbase": 7387,
+  "gbif": 2481379,
+  "inaturalist": "4143",
+  "iucn": "22698320",
+  "wikidata": "Q735296",
+  "xeno_canto": "Phoebastria-irrorata"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phoebastria_irrorata",
+  "ebird": "https://ebird.org/species/wavalb",
+  "inaturalist": "https://www.inaturalist.org/taxa/4143",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Waved_albatross",
+   "es": "https://es.wikipedia.org/wiki/Phoebastria_irrorata",
+   "ru": "https://ru.wikipedia.org/wiki/Галапагосский_альбатрос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phoebastria+irrorata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Waved Albatross",
+  "en_aco": "Waved Albatross",
+  "es": "Albatros de Galápagos",
+  "ru": "Галапагосский альбатрос"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Phoebastria irrorata",
+ "sci_name_aco": "Phoebastria irrorata",
+ "sounds": [],
+ "taxon_order": 6986.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 3395,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Scavenger",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Waved%20Albatross%20pair.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Waved%20Albatross%20in%20flight%2C%20Espa%C3%B1ola%20Island%202.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Waved%20albatross%20courtship.jpg"
+ ]
+}

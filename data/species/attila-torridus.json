@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ochatt1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Attila",
+ "id": "attila-torridus",
+ "ids": {
+  "avibase": "2896E1DBBCBED979",
+  "birdbase": 18192,
+  "gbif": 2483628,
+  "inaturalist": "16745",
+  "iucn": "22700340",
+  "wikidata": "Q1268934",
+  "xeno_canto": "Attila-torridus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Attila_torridus",
+  "ebird": "https://ebird.org/species/ochatt1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16745",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ochraceous_attila",
+   "es": "https://es.wikipedia.org/wiki/Attila_torridus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Attila+torridus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ochraceous Attila",
+  "en_aco": "Ochraceous Attila",
+  "es": "Atila Ocre",
+  "ru": "Охристый аттила"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Attila torridus",
+ "sci_name_aco": "Attila torridus",
+ "sounds": [],
+ "taxon_order": 17238.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 46,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Attila%20torridus%20-%20Ochraceous%20Attila%202.jpg"
+ ]
+}

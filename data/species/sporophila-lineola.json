@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "linsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-lineola",
+ "ids": {
+  "avibase": "7B104DA6971B0FC8",
+  "birdbase": 37204,
+  "gbif": 2491330,
+  "inaturalist": "9491",
+  "iucn": "22723434",
+  "wikidata": "Q1302765",
+  "xeno_canto": "Sporophila-lineola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_lineola",
+  "ebird": "https://ebird.org/species/linsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9491",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lined_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_lineola",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+lineola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lined Seedeater",
+  "en_aco": "Lined Seedeater",
+  "es": "Semillero Overo",
+  "ru": "Диадемовый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila lineola",
+ "sci_name_aco": "Sporophila lineola",
+ "sounds": [],
+ "taxon_order": 35517.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 4250,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 9.733333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/BIGODINHO%20%28Sporophila%20lineola%20%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Dario%20Sanches%20-%20BIGODINHO%20f%C3%AAmea%20%28Sporophila%20lineola%29%20%282%29.jpg"
+ ]
+}

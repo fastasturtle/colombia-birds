@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yefgra1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tiaris",
+ "id": "tiaris-olivaceus",
+ "ids": {
+  "avibase": "A8E1B59A95F7CF95",
+  "birdbase": 37000,
+  "gbif": 5231037,
+  "inaturalist": "73504",
+  "iucn": "22723603",
+  "wikidata": "Q728336",
+  "xeno_canto": "Tiaris-olivaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tiaris_olivaceus",
+  "ebird": "https://ebird.org/species/yefgra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73504",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-faced_grassquit",
+   "es": "https://es.wikipedia.org/wiki/Tiaris_olivaceus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tiaris+olivaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-faced Grassquit",
+  "en_aco": "Yellow-faced Grassquit",
+  "es": "Semillero Tomeguín",
+  "ru": "Желтолицый семилеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tiaris olivaceus",
+ "sci_name_aco": "Tiaris olivaceus",
+ "sounds": [],
+ "taxon_order": 35692.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 8.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tiaris%20olivaceus%20CR%2002.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tiaris%20olivaceus%20Semillero%20cariamarillo%20Yellow-faced%20Grassquit%20%28female%29%20%2811480491436%29.jpg"
+ ]
+}

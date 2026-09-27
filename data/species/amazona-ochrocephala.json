@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ywcpar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Amazona",
+ "id": "amazona-ochrocephala",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13309,
+  "gbif": 2479612,
+  "inaturalist": "19003",
+  "iucn": "22686346",
+  "wikidata": "Q852737",
+  "xeno_canto": "Amazona-ochrocephala"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazona_ochrocephala",
+  "ebird": "https://ebird.org/species/ywcpar",
+  "inaturalist": "https://www.inaturalist.org/taxa/19003",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-crowned_amazon",
+   "es": "https://es.wikipedia.org/wiki/Amazona_ochrocephala",
+   "ru": "https://ru.wikipedia.org/wiki/Желтолобый_амазон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazona+ochrocephala"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-crowned Amazon",
+  "en_aco": "Yellow-crowned Parrot",
+  "es": "Amazona Real",
+  "ru": "Желтошапочный амазон"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Amazona ochrocephala",
+ "sci_name_aco": "Amazona ochrocephala",
+ "sounds": [],
+ "taxon_order": 12933.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 850,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 436.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Loro%20Real%20aliment%C3%A1ndose.JPG"
+ ]
+}

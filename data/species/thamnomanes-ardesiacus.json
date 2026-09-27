@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dutant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnomanes",
+ "id": "thamnomanes-ardesiacus",
+ "ids": {
+  "avibase": "321807493ED4B498",
+  "birdbase": 15873,
+  "gbif": 2490218,
+  "inaturalist": "15853",
+  "iucn": "22701415",
+  "wikidata": "Q576662",
+  "xeno_canto": "Thamnomanes-ardesiacus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnomanes_ardesiacus",
+  "ebird": "https://ebird.org/species/dutant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15853",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-throated_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnomanes_ardesiacus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnomanes+ardesiacus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-throated Antshrike",
+  "en_aco": "Dusky-throated Antshrike",
+  "es": "Batará Gorjioscuro",
+  "ru": "Серый эсперито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnomanes ardesiacus",
+ "sci_name_aco": "Thamnomanes ardesiacus",
+ "sounds": [],
+ "taxon_order": 13657.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1050,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 17.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnomanes%20ardesiacus%20Dusky-throated%20Antshrike%20%28male%29%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnomanes%20ardesiacus%20Dusky-throated%20Antshrike%20%28female%29%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil.jpg"
+ ]
+}

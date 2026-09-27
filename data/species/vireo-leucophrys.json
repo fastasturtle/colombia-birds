@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brcvir1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-leucophrys",
+ "ids": {
+  "avibase": "66DCDF47E2051564",
+  "birdbase": 21507,
+  "gbif": 2487452,
+  "inaturalist": "17386",
+  "iucn": "22705273",
+  "wikidata": "Q2667703",
+  "xeno_canto": "Vireo-leucophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_leucophrys",
+  "ebird": "https://ebird.org/species/brcvir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17386",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-capped_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_leucophrys",
+   "ru": "https://ru.wikipedia.org/wiki/Vireo_leucophrys"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+leucophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-capped Vireo",
+  "en_aco": "Brown-capped Vireo",
+  "es": "Vireo Coronipardo",
+  "ru": "Светлобровый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo leucophrys",
+ "sci_name_aco": "Vireo leucophrys",
+ "sounds": [],
+ "taxon_order": 19253.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3150,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo%20leucophrys%20Verder%C3%B3n%20monta%C3%B1ero%20Brown-capped%20Vireo%20%2814393305319%29.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Mathews, 1914)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "magfri",
+ "family": {
+  "code": "fregat1",
+  "en": "Frigatebirds",
+  "sci": "Fregatidae"
+ },
+ "genus": "Fregata",
+ "id": "fregata-magnificens",
+ "ids": {
+  "avibase": "8AA3B42E976C7B2A",
+  "birdbase": 7668,
+  "gbif": 2480189,
+  "inaturalist": "4631",
+  "iucn": "22697724",
+  "wikidata": "Q647512",
+  "xeno_canto": "Fregata-magnificens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Fregata_magnificens",
+  "ebird": "https://ebird.org/species/magfri",
+  "inaturalist": "https://www.inaturalist.org/taxa/4631",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Magnificent_frigatebird",
+   "es": "https://es.wikipedia.org/wiki/Fregata_magnificens",
+   "ru": "https://ru.wikipedia.org/wiki/Великолепный_фрегат"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Fregata+magnificens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Magnificent Frigatebird",
+  "en_aco": "Magnificent Frigatebird",
+  "es": "Rabihorcado Magnífico",
+  "ru": "Великолепный фрегат"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Fregata magnificens",
+ "sci_name_aco": "Fregata magnificens",
+ "sounds": [],
+ "taxon_order": 7315.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1498.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fregata%20magnificens%20-Galapagos%2C%20Ecuador%20-male-8%20%281%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Magnificent%20frigatebird%20%28Fregata%20magnificens%20rothschildi%29%20female%20with%20open%20wings.jpg"
+ ]
+}

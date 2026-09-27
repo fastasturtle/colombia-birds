@@ -1,0 +1,93 @@
+{
+ "authorship": "(Des Murs, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dobant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Hylophylax",
+ "id": "hylophylax-punctulatus",
+ "ids": {
+  "avibase": "C207B0AF7B901DE8",
+  "birdbase": 16318,
+  "gbif": 5788605,
+  "inaturalist": "72935",
+  "iucn": "22701922",
+  "wikidata": "Q1263316",
+  "xeno_canto": "Hylophylax-punctulatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylophylax_punctulatus",
+  "ebird": "https://ebird.org/species/dobant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72935",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dot-backed_antbird",
+   "es": "https://es.wikipedia.org/wiki/Hylophylax_punctulatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylophylax+punctulatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dot-backed Antbird",
+  "en_aco": "Dot-backed Antbird",
+  "es": "Hormiguero Lomipunteado",
+  "ru": "Жемчужноспинная муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylophylax punctulatus",
+ "sci_name_aco": "Hylophylax punctulatus",
+ "sounds": [],
+ "taxon_order": 14113.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 350,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.133333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylophylax%20punctulatus%20-%20Dot-backed%20Antbird%20%28male%29%3B%20Atalaia%20do%20Norte%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

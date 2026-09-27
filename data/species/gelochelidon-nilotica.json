@@ -1,0 +1,97 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gubter2",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Gelochelidon",
+ "id": "gelochelidon-nilotica",
+ "ids": {
+  "avibase": "87168739",
+  "birdbase": 6991,
+  "gbif": 2481263,
+  "inaturalist": "144536",
+  "iucn": "62026481",
+  "wikidata": "Q18834",
+  "xeno_canto": "Gelochelidon-nilotica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gelochelidon_nilotica",
+  "ebird": "https://ebird.org/species/gubter2",
+  "inaturalist": "https://www.inaturalist.org/taxa/144536",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gull-billed_tern",
+   "es": "https://es.wikipedia.org/wiki/Gelochelidon_nilotica",
+   "ru": "https://ru.wikipedia.org/wiki/Чайконосая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gelochelidon+nilotica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gull-billed Tern",
+  "en_aco": "Gull-billed Tern",
+  "es": "Pagaza Piconegra",
+  "ru": "Чайконосая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Gelochelidon nilotica",
+ "sci_name_aco": "Gelochelidon nilotica",
+ "sounds": [],
+ "taxon_order": 6710.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "grassland",
+   "plantation",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 214.075,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gull-billed%20Tern%20%28Gelochelidon%20nilotica%29%20%2834149541540%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gelochelidon%20nilotica%201.jpg"
+ ]
+}

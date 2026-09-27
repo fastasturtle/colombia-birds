@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bucmot4",
+ "family": {
+  "code": "momoti1",
+  "en": "Motmots",
+  "sci": "Momotidae"
+ },
+ "genus": "Momotus",
+ "id": "momotus-momota",
+ "ids": {
+  "avibase": null,
+  "birdbase": 10808,
+  "gbif": 2475290,
+  "inaturalist": "204447",
+  "iucn": "61634607",
+  "wikidata": "Q904932",
+  "xeno_canto": "Momotus-momota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Momotus_momota",
+  "ebird": "https://ebird.org/species/bucmot4",
+  "inaturalist": "https://www.inaturalist.org/taxa/204447",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_motmot",
+   "es": "https://es.wikipedia.org/wiki/Momotus_momota",
+   "ru": "https://ru.wikipedia.org/wiki/Синешапочный_момот"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Momotus+momota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazonian Motmot",
+  "en_aco": "Amazonian Motmot",
+  "es": "Momoto Amazónico",
+  "ru": "Синешапочный момот"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Momotus momota",
+ "sci_name_aco": "Momotus momota",
+ "sounds": [],
+ "taxon_order": 9870.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2150,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Momotus%20momota%20-%20Amazonian%20motmot%3B%20Bonito%2C%20Mato%20Grosso%20do%20Sul%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Momotus%20momota%20-Los%20Amigos%20Conservation%20Concession%2C%20Madre%20de%20Dios%2C%20Peru%20-head-8.jpg"
+ ]
+}

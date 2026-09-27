@@ -1,0 +1,93 @@
+{
+ "authorship": "(Holt, 1931)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pebcon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-margaritae",
+ "ids": {
+  "avibase": "51CE233C216A69D0",
+  "birdbase": 37409,
+  "gbif": 5230625,
+  "inaturalist": "10008",
+  "iucn": "22722093",
+  "wikidata": "Q1588605",
+  "xeno_canto": "Conirostrum-margaritae"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conirostrum_margaritae",
+  "ebird": "https://ebird.org/species/pebcon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10008",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pearly-breasted_conebill",
+   "es": "https://es.wikipedia.org/wiki/Conirostrum_margaritae",
+   "ru": "https://ru.wikipedia.org/wiki/Жемчужный_остроклювый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+margaritae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pearly-breasted Conebill",
+  "en_aco": "Pearly-breasted Conebill",
+  "es": "Conirrostro Pechigrís",
+  "ru": "Жемчужный конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum margaritae",
+ "sci_name_aco": "Conirostrum margaritae",
+ "sounds": [],
+ "taxon_order": 35239.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Conirostrum%20margaritae%20-%20Pearly-breasted%20conebill%3B%20Marchantaria%20island%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

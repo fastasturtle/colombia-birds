@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1874)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "multan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chlorochrysa",
+ "id": "chlorochrysa-nitidissima",
+ "ids": {
+  "avibase": "2920E66BACEC2E06",
+  "birdbase": 37724,
+  "gbif": 5230597,
+  "inaturalist": "9543",
+  "iucn": "22722799",
+  "wikidata": "Q368013",
+  "xeno_canto": "Chlorochrysa-nitidissima"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorochrysa_nitidissima",
+  "ebird": "https://ebird.org/species/multan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9543",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Multicoloured_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chlorochrysa_nitidissima",
+   "ru": "https://ru.wikipedia.org/wiki/Черноухая_цветная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorochrysa+nitidissima"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Multicolored Tanager",
+  "en_aco": "Multicolored Tanager",
+  "es": "Tangara Multicolor",
+  "ru": "Многоцветная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorochrysa nitidissima",
+ "sci_name_aco": "Chlorochrysa nitidissima",
+ "sounds": [],
+ "taxon_order": 34932.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 1300,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 19.450000000000003,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ChlorochrysaNitidissimaKeulemans.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sptnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Antiurus",
+ "id": "antiurus-maculicaudus",
+ "ids": {
+  "avibase": "28045DA0D3FB6B69",
+  "birdbase": 1929,
+  "gbif": 7792881,
+  "inaturalist": "337419",
+  "iucn": "22689847",
+  "wikidata": "Q27074765",
+  "xeno_canto": "Hydropsalis-maculicaudus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Caprimulgus_maculicaudus",
+  "ebird": "https://ebird.org/species/sptnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/337419",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-tailed_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Hydropsalis_maculicaudus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Antiurus+maculicaudus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-tailed Nightjar",
+  "en_aco": "Spot-tailed Nightjar",
+  "es": "Chotacabras Colipinto",
+  "ru": "Пятнистохвостый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Antiurus maculicaudus",
+ "sci_name_aco": "Hydropsalis maculicaudus",
+ "sounds": [],
+ "taxon_order": 3548.0,
+ "taxonomy_note": "ACO/SACC lists this as Hydropsalis maculicaudus; eBird/Clements uses Antiurus maculicaudus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 32.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hydropsalis%20maculicaudus%20-%20Caprimulgus%20maculicaudus%20-%20Spot-tailed%20Nightjar.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Caprimulgus%20maculicaudus.jpg"
+ ]
+}

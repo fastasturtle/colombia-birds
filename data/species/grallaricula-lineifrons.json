@@ -1,0 +1,91 @@
+{
+ "authorship": "(Chapman, 1924)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crfant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaricula",
+ "id": "grallaricula-lineifrons",
+ "ids": {
+  "avibase": "FA147336E8DEBC3B",
+  "birdbase": 16676,
+  "gbif": 2490511,
+  "inaturalist": "117159",
+  "iucn": "22703389",
+  "wikidata": "Q1270558",
+  "xeno_canto": "Grallaricula-lineifrons"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaricula_lineifrons",
+  "ebird": "https://ebird.org/species/crfant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/117159",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crescent-faced_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaricula_lineifrons",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaricula+lineifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crescent-faced Antpitta",
+  "en_aco": "Crescent-faced Antpitta",
+  "es": "Ponchito Medialuna",
+  "ru": "Полулунная питтуля"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaricula lineifrons",
+ "sci_name_aco": "Grallaricula lineifrons",
+ "sounds": [],
+ "taxon_order": 14363.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": 3700,
+   "min": 2900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 20.866666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crescent-faced%20Antpitta.jpg"
+ ]
+}

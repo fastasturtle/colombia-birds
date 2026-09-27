@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cassin, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soffin1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Arremon",
+ "id": "arremon-crassirostris",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35318,
+  "gbif": 5788840,
+  "inaturalist": "72529",
+  "iucn": "22721566",
+  "wikidata": "Q3726906",
+  "xeno_canto": "Arremon%20crassirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Arremon_crassirostris",
+  "ebird": "https://ebird.org/species/soffin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72529",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sooty-faced_finch",
+   "es": "https://es.wikipedia.org/wiki/Arremon_crassirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arremon+crassirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sooty-faced Finch",
+  "en_aco": "Sooty-faced Finch",
+  "es": "Cerquero Carisucio",
+  "ru": "Темнолиций тохи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Arremon crassirostris",
+ "sci_name_aco": "Arremon crassirostris",
+ "sounds": [],
+ "taxon_order": 33093.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2340,
+   "max_extreme": 3100,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 38.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arremon%20crassirostris%20-%20Sooty-faced%20Finch%20-%20singing.jpg"
+ ]
+}

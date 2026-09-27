@@ -1,0 +1,96 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hootan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Nemosia",
+ "id": "nemosia-pileata",
+ "ids": {
+  "avibase": "B112B15754CF5692",
+  "birdbase": 36742,
+  "gbif": 5230589,
+  "inaturalist": "10648",
+  "iucn": "22722290",
+  "wikidata": "Q2668130",
+  "xeno_canto": "Nemosia-pileata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nemosia_pileata",
+  "ebird": "https://ebird.org/species/hootan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10648",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hooded_tanager",
+   "es": "https://es.wikipedia.org/wiki/Nemosia_pileata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nemosia+pileata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hooded Tanager",
+  "en_aco": "Hooded Tanager",
+  "es": "Tangara Encapuchada",
+  "ru": "Черношапочная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Nemosia pileata",
+ "sci_name_aco": "Nemosia pileata",
+ "sounds": [],
+ "taxon_order": 34662.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 16.35,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nemosia%20pileata%20Hooded%20Tanager%20%28male%29%2C%20S%C3%A3o%20Domingos%2C%20Goi%C3%A1s%2C%20Brazil.jpg"
+ ]
+}

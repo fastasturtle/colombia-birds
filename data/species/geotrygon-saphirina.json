@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bonaparte, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sapqud2",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Geotrygon",
+ "id": "geotrygon-saphirina",
+ "ids": {
+  "avibase": "B6C1516E4419055C",
+  "birdbase": 4935,
+  "gbif": 2496115,
+  "inaturalist": "3495",
+  "iucn": "22728277",
+  "wikidata": "Q1067817",
+  "xeno_canto": "Geotrygon-saphirina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geotrygon_saphirina",
+  "ebird": "https://ebird.org/species/sapqud2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3495",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sapphire_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Geotrygon_saphirina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geotrygon+saphirina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sapphire Quail-Dove",
+  "en_aco": "Sapphire Quail-Dove",
+  "es": "Paloma Perdiz Zafiro",
+  "ru": "Сапфировая перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Geotrygon saphirina",
+ "sci_name_aco": "Geotrygon saphirina",
+ "sounds": [],
+ "taxon_order": 2310.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1350,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 171.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/1%20Somaliland%20Shilling%20Coins%20Reverse%201994.jpg"
+ ]
+}

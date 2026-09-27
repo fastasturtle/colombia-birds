@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vefeup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-concinna",
+ "ids": {
+  "avibase": "D6D63B24E34D50C5",
+  "birdbase": 34823,
+  "gbif": 2487974,
+  "inaturalist": "9285",
+  "iucn": "22722712",
+  "wikidata": "Q3315182",
+  "xeno_canto": "Euphonia-concinna"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_concinna",
+  "ebird": "https://ebird.org/species/vefeup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9285",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Velvet-fronted_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_concinna",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+concinna"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Velvet-fronted Euphonia",
+  "en_aco": "Velvet-fronted Euphonia",
+  "es": "Eufonia del Magdalena",
+  "ru": "Бархатнолобая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia concinna",
+ "sci_name_aco": "Euphonia concinna",
+ "sounds": [],
+ "taxon_order": 32010.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1800,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 10.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Velvet-fronted%20euphonia%20%28Euphonia%20concinna%29%20male%20Cundinamarca.jpg"
+ ]
+}

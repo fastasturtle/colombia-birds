@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amabaw1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendrocolaptes",
+ "id": "dendrocolaptes-certhia",
+ "ids": {
+  "avibase": "274205A27404EF77",
+  "birdbase": 14633,
+  "gbif": 2485789,
+  "inaturalist": "11142",
+  "iucn": "22703079",
+  "wikidata": "Q606781",
+  "xeno_canto": "Dendrocolaptes-certhia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocolaptes_certhia",
+  "ebird": "https://ebird.org/species/amabaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11142",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_barred_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendrocolaptes_certhia",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатый_настоящий_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocolaptes+certhia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazonian Barred-Woodcreeper",
+  "en_aco": "Amazonian Barred-Woodcreeper",
+  "es": "Trepatroncos Barrado Amazónico",
+  "ru": "Амазонский древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendrocolaptes certhia",
+ "sci_name_aco": "Dendrocolaptes certhia",
+ "sounds": [],
+ "taxon_order": 14713.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 66,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazonian%20Barred-woodcreeper%20%28Dendrocolaptes%20certhia%29.jpg"
+ ]
+}

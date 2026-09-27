@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fuhtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Thlypopsis",
+ "id": "thlypopsis-fulviceps",
+ "ids": {
+  "avibase": "9EDD2366C84040BE",
+  "birdbase": 37356,
+  "gbif": 2488684,
+  "inaturalist": "9883",
+  "iucn": "22722254",
+  "wikidata": "Q3182688",
+  "xeno_canto": "Thlypopsis-fulviceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thlypopsis_fulviceps",
+  "ebird": "https://ebird.org/species/fuhtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9883",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fulvous-headed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Thlypopsis_fulviceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thlypopsis+fulviceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous-headed Tanager",
+  "en_aco": "Fulvous-headed Tanager",
+  "es": "Tangara Cabecifulva",
+  "ru": "Буроголовая пипира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thlypopsis fulviceps",
+ "sci_name_aco": "Thlypopsis fulviceps",
+ "sounds": [],
+ "taxon_order": 34701.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 750,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 12,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fulvous-headed%20Tanager%20-%20frutero%20cabecileonado%20%28Thlypopsis%20fulviceps%20fulviceps%29.jpg"
+ ]
+}

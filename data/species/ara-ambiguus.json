@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bechstein, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grgmac",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ara",
+ "id": "ara-ambiguus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13534,
+  "gbif": 5959233,
+  "inaturalist": "47675",
+  "iucn": "22685553",
+  "wikidata": "Q846974",
+  "xeno_canto": "Ara-ambiguus"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ara_ambiguus",
+  "ebird": "https://ebird.org/species/grgmac",
+  "inaturalist": "https://www.inaturalist.org/taxa/47675",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_green_macaw",
+   "es": "https://es.wikipedia.org/wiki/Ara_ambiguus",
+   "ru": "https://ru.wikipedia.org/wiki/Солдатский_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ara+ambiguus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Green Macaw",
+  "en_aco": "Great Green Macaw",
+  "es": "Guacamayo Ambiguo",
+  "ru": "Зелёный ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ara ambiguus",
+ "sci_name_aco": "Ara ambiguus",
+ "sounds": [],
+ "taxon_order": 13149.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 1131.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Green%20Macaw%2C%20Gavilan%20Lodge%2C%20Costa%20Rica%2C%20January%202018%20%2840394669981%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%20ambigua.JPG"
+ ]
+}

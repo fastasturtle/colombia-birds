@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rawwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Thryophilus",
+ "id": "thryophilus-rufalbus",
+ "ids": {
+  "avibase": "0A9020EB4E2424FE",
+  "birdbase": 29103,
+  "gbif": 7341088,
+  "inaturalist": "144870",
+  "iucn": "22711455",
+  "wikidata": "Q4777047",
+  "xeno_canto": "Thryophilus-rufalbus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thryophilus_rufalbus",
+  "ebird": "https://ebird.org/species/rawwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144870",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-and-white_wren",
+   "es": "https://es.wikipedia.org/wiki/Thryophilus_rufalbus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thryophilus+rufalbus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-and-white Wren",
+  "en_aco": "Rufous-and-white Wren",
+  "es": "Cucarachero Rufiblanco",
+  "ru": "Рыже-белый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thryophilus rufalbus",
+ "sci_name_aco": "Thryophilus rufalbus",
+ "sounds": [],
+ "taxon_order": 27523.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1600,
+   "min": 300,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 26.03333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thryophilus%20rufalbus%2039065696%20%28cropped%29.jpg"
+ ]
+}

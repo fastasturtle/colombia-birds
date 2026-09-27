@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wewpew",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Contopus",
+ "id": "contopus-sordidulus",
+ "ids": {
+  "avibase": "F6CA75F0A391294D",
+  "birdbase": 17683,
+  "gbif": 5229754,
+  "inaturalist": "16079",
+  "iucn": "22699811",
+  "wikidata": "Q941102",
+  "xeno_canto": "Contopus-sordidulus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Contopus_sordidulus",
+  "ebird": "https://ebird.org/species/wewpew",
+  "inaturalist": "https://www.inaturalist.org/taxa/16079",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Western_wood_pewee",
+   "es": "https://es.wikipedia.org/wiki/Contopus_sordidulus",
+   "ru": "https://ru.wikipedia.org/wiki/Западный_пиви"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Contopus+sordidulus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Western Wood-Pewee",
+  "en_aco": "Western Wood-Pewee",
+  "es": "Pibí Occidental",
+  "ru": "Западный пиви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Contopus sordidulus",
+ "sci_name_aco": "Contopus sordidulus",
+ "sounds": [],
+ "taxon_order": 16912.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 12.766666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Contopus%20sordidulus%201.jpg"
+ ]
+}

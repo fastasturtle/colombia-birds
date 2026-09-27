@@ -1,0 +1,94 @@
+{
+ "authorship": "(Illiger, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swatan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tersina",
+ "id": "tersina-viridis",
+ "ids": {
+  "avibase": "EB9B653A49B15F67",
+  "birdbase": 36837,
+  "gbif": 2488545,
+  "inaturalist": "10607",
+  "iucn": "22723018",
+  "wikidata": "Q583812",
+  "xeno_canto": "Tersina-viridis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tersina_viridis",
+  "ebird": "https://ebird.org/species/swatan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10607",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swallow_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tersina_viridis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tersina+viridis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swallow Tanager",
+  "en_aco": "Swallow Tanager",
+  "es": "Tangara Golondrina",
+  "ru": "Ласточковая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tersina viridis",
+ "sci_name_aco": "Tersina viridis",
+ "sounds": [],
+ "taxon_order": 35137.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 30.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tersina%20viridis%20-%20Guillermo%20Debandi%20-%20197935442.jpeg"
+ ]
+}

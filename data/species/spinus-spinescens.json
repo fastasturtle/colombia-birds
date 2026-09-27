@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andsis1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Spinus",
+ "id": "spinus-spinescens",
+ "ids": {
+  "avibase": "56FF55E54A08DC7F",
+  "birdbase": 34781,
+  "gbif": 7341772,
+  "inaturalist": "145311",
+  "iucn": "22720365",
+  "wikidata": "Q27075880",
+  "xeno_canto": "Spinus-spinescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spinus_spinescens",
+  "ebird": "https://ebird.org/species/andsis1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145311",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_siskin",
+   "es": "https://es.wikipedia.org/wiki/Spinus_spinescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spinus+spinescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Siskin",
+  "en_aco": "Andean Siskin",
+  "es": "Jilguero Andino",
+  "ru": "Андский чиж"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spinus spinescens",
+ "sci_name_aco": "Spinus spinescens",
+ "sounds": [],
+ "taxon_order": 32627.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4100,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 11.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporagra%20spinescens%20%28Jilguero%20andino%29%20-%20Flickr%20-%20Alejandro%20Bayer%20%282%29%20%28cropped%29.jpg"
+ ]
+}

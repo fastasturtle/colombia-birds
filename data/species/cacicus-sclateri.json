@@ -1,0 +1,93 @@
+{
+ "authorship": "(Dubois, 1887)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ecucac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-sclateri",
+ "ids": {
+  "avibase": "91B94FDBA5A58423",
+  "birdbase": 35841,
+  "gbif": 5229827,
+  "inaturalist": "10362",
+  "iucn": "22724054",
+  "wikidata": "Q1302643",
+  "xeno_canto": "Cacicus-sclateri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_sclateri",
+  "ebird": "https://ebird.org/species/ecucac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10362",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ecuadorian_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_sclateri",
+   "ru": "https://ru.wikipedia.org/wiki/Эквадорский_чёрный_кассик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+sclateri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ecuadorian Cacique",
+  "en_aco": "Ecuadorian Cacique",
+  "es": "Cacique Ecuatoriano",
+  "ru": "Эквадорский кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus sclateri",
+ "sci_name_aco": "Cacicus sclateri",
+ "sounds": [],
+ "taxon_order": 33643.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 750,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 53,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ecuadorian%20Cacique%20%28Cacicus%20sclateri%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cacicus%20sclateri%201888.jpg"
+ ]
+}

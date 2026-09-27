@@ -1,0 +1,93 @@
+{
+ "authorship": "(Coues, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lawthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-lawrencii",
+ "ids": {
+  "avibase": "69C20D914D557570",
+  "birdbase": 30739,
+  "gbif": 2490736,
+  "inaturalist": "12752",
+  "iucn": "22708902",
+  "wikidata": "Q1591695",
+  "xeno_canto": "Turdus-lawrencii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_lawrencii",
+  "ebird": "https://ebird.org/species/lawthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12752",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lawrence's_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_lawrencii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+lawrencii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lawrence's Thrush",
+  "en_aco": "Lawrence's Thrush",
+  "es": "Zorzal Imitador",
+  "ru": "Пестрогорлый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus lawrencii",
+ "sci_name_aco": "Turdus lawrencii",
+ "sounds": [],
+ "taxon_order": 28719.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 71.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20lawrencii%20Lawrence%27s%20Thrush%3B%20Porto%20Velho%2C%20Rond%C3%B4nia%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TurdusLawrenciiKeulemans.jpg"
+ ]
+}

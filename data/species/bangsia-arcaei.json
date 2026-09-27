@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bagtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Bangsia",
+ "id": "bangsia-arcaei",
+ "ids": {
+  "avibase": "B005C25FA5EBAB96",
+  "birdbase": 37732,
+  "gbif": 2488333,
+  "inaturalist": "10387",
+  "iucn": "22722558",
+  "wikidata": "Q1588289",
+  "xeno_canto": "Bangsia-arcaei"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bangsia_arcaei",
+  "ebird": "https://ebird.org/species/bagtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10387",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-and-gold_tanager",
+   "es": "https://es.wikipedia.org/wiki/Bangsia_arcaei",
+   "ru": "https://ru.wikipedia.org/wiki/Сине-золотая_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bangsia+arcaei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-and-gold Tanager",
+  "en_aco": "Blue-and-gold Tanager",
+  "es": "Tangara de Arcé",
+  "ru": "Сине-золотая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bangsia arcaei",
+ "sci_name_aco": "Bangsia arcaei",
+ "sounds": [],
+ "taxon_order": 34830.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1500,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 37.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bangsia%20arcaei%20-Costa%20Rica-8.jpg"
+ ]
+}

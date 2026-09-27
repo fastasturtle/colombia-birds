@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin, 1893)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tolblo1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Anthocephala",
+ "id": "anthocephala-berlepschi",
+ "ids": {
+  "avibase": "C072BD0DFD3EC3CB",
+  "birdbase": 3429,
+  "gbif": 7516718,
+  "inaturalist": "513978",
+  "iucn": "154809350",
+  "wikidata": "Q20020647",
+  "xeno_canto": "Anthocephala-berlepschi"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anthocephala_berlepschi",
+  "ebird": "https://ebird.org/species/tolblo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/513978",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tolima_blossomcrown",
+   "es": "https://es.wikipedia.org/wiki/Anthocephala_berlepschi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthocephala+berlepschi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tolima Blossomcrown",
+  "en_aco": "Tolima Blossomcrown",
+  "es": "Colibrí Florido de Tolima",
+  "ru": "Андский цветноголов"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Anthocephala berlepschi",
+ "sci_name_aco": "Anthocephala berlepschi",
+ "sounds": [],
+ "taxon_order": 4946.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 3.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blossomcrown.jpg"
+ ]
+}

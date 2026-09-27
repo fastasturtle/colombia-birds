@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brnboo",
+ "family": {
+  "code": "sulida1",
+  "en": "Boobies and Gannets",
+  "sci": "Sulidae"
+ },
+ "genus": "Sula",
+ "id": "sula-leucogaster",
+ "ids": {
+  "avibase": "5EC21767FC58DB7D",
+  "birdbase": 7693,
+  "gbif": 2480975,
+  "inaturalist": "3797",
+  "iucn": "22696698",
+  "wikidata": "Q320193",
+  "xeno_canto": "Sula-leucogaster"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sula_leucogaster",
+  "ebird": "https://ebird.org/species/brnboo",
+  "inaturalist": "https://www.inaturalist.org/taxa/3797",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_booby",
+   "es": "https://es.wikipedia.org/wiki/Sula_leucogaster",
+   "ru": "https://ru.wikipedia.org/wiki/Бурая_олуша"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sula+leucogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Booby",
+  "en_aco": "Brown Booby",
+  "es": "Piquero Pardo",
+  "ru": "Бурая олуша"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Sula leucogaster",
+ "sci_name_aco": "Sula leucogaster",
+ "sounds": [],
+ "taxon_order": 7342.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 15,
+   "max_extreme": 100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1378.6750000000002,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atob%C3%A1-pardo.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wei%C3%9Fbauchtoelpel.jpg"
+ ]
+}

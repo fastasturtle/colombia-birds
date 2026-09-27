@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "heptan",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Piranga",
+ "id": "piranga-flava",
+ "ids": {
+  "avibase": "A0C4893501786AE3",
+  "birdbase": 36543,
+  "gbif": 2488498,
+  "inaturalist": "9924",
+  "iucn": "103811599",
+  "wikidata": "Q1587905",
+  "xeno_canto": "Piranga-flava"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piranga_flava",
+  "ebird": "https://ebird.org/species/heptan",
+  "inaturalist": "https://www.inaturalist.org/taxa/9924",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red_tanager",
+   "es": "https://es.wikipedia.org/wiki/Piranga_flava",
+   "ru": "https://ru.wikipedia.org/wiki/Красная_пиранга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piranga+flava"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hepatic Tanager",
+  "en_aco": "Hepatic Tanager",
+  "es": "Piranga Bermeja",
+  "ru": "Красная пиранга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Piranga flava",
+ "sci_name_aco": "Piranga flava",
+ "sounds": [],
+ "taxon_order": 34413.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": null,
+   "max_extreme": null,
+   "min": null,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 34.15,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piranga%20flava%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piranga%20flava%20-Campos%20do%20Jordao%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

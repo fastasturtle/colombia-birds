@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Poliocrania",
+ "id": "poliocrania-exsul",
+ "ids": {
+  "avibase": "B61DB943D3FAD485",
+  "birdbase": 16345,
+  "gbif": 9599432,
+  "inaturalist": "554103",
+  "iucn": "103659811",
+  "wikidata": "Q28862289",
+  "xeno_canto": "Poliocrania-exsul"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Poliocrania_exsul",
+  "ebird": "https://ebird.org/species/chbant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554103",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-backed_antbird",
+   "es": "https://es.wikipedia.org/wiki/Poliocrania_exsul",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Poliocrania+exsul"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-backed Antbird",
+  "en_aco": "Chestnut-backed Antbird",
+  "es": "Hormiguero Dorsicastaño",
+  "ru": "Коричневоспинная муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Poliocrania exsul",
+ "sci_name_aco": "Poliocrania exsul",
+ "sounds": [],
+ "taxon_order": 14020.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1200,
+   "min": 50,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 27.583333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-backed%20Antbird%20-%20Sarapiqui%20-%20Costa%20Rica%20S4E9851%20%2826678050545%29.jpg"
+ ]
+}

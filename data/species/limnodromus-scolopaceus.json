@@ -1,0 +1,92 @@
+{
+ "authorship": "(Say, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lobdow",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Limnodromus",
+ "id": "limnodromus-scolopaceus",
+ "ids": {
+  "avibase": "CB343E43E8CAF303",
+  "birdbase": 6695,
+  "gbif": 2481670,
+  "inaturalist": "3873",
+  "iucn": "22693348",
+  "wikidata": "Q476350",
+  "xeno_canto": "Limnodromus-scolopaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Limnodromus_scolopaceus",
+  "ebird": "https://ebird.org/species/lobdow",
+  "inaturalist": "https://www.inaturalist.org/taxa/3873",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-billed_dowitcher",
+   "es": "https://es.wikipedia.org/wiki/Limnodromus_scolopaceus",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_бекасовидный_веретенник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Limnodromus+scolopaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-billed Dowitcher",
+  "en_aco": "Long-billed Dowitcher",
+  "es": "Agujeta Escolopácea",
+  "ru": "Американский бекасовидный веретенник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Limnodromus scolopaceus",
+ "sci_name_aco": "Limnodromus scolopaceus",
+ "sounds": [],
+ "taxon_order": 6061.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 114.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Limnodromus%20scolopaceus%20Mike%20Baird%20crop.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orbtro3",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-croconotus",
+ "ids": {
+  "avibase": "4B32828D253196E7",
+  "birdbase": 35928,
+  "gbif": 7340254,
+  "inaturalist": "62564",
+  "iucn": "22735315",
+  "wikidata": "Q1307046",
+  "xeno_canto": "Icterus-croconotus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_croconotus",
+  "ebird": "https://ebird.org/species/orbtro3",
+  "inaturalist": "https://www.inaturalist.org/taxa/62564",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-backed_troupial",
+   "es": "https://es.wikipedia.org/wiki/Icterus_croconotus",
+   "ru": "https://ru.wikipedia.org/wiki/Icterus_croconotus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+croconotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-backed Troupial",
+  "en_aco": "Orange-backed Troupial",
+  "es": "Turpial Amazónico",
+  "ru": "Оранжевоспинный трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus croconotus",
+ "sci_name_aco": "Icterus croconotus",
+ "sounds": [],
+ "taxon_order": 33720.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 47.833333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orange-backed%20troupial.jpg"
+ ]
+}

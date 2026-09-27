@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shihon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cyanerpes",
+ "id": "cyanerpes-lucidus",
+ "ids": {
+  "avibase": "D2EF7CEA257A4F70",
+  "birdbase": 36860,
+  "gbif": 2488909,
+  "inaturalist": "10264",
+  "iucn": "22723006",
+  "wikidata": "Q794373",
+  "xeno_canto": "Cyanerpes-lucidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanerpes_lucidus",
+  "ebird": "https://ebird.org/species/shihon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10264",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Shining_honeycreeper",
+   "es": "https://es.wikipedia.org/wiki/Cyanerpes_lucidus",
+   "ru": "https://ru.wikipedia.org/wiki/Лазурная_танагра-медосос"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanerpes+lucidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Shining Honeycreeper",
+  "en_aco": "Shining Honeycreeper",
+  "es": "Mielerito Reluciente",
+  "ru": "Желтоногий саи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanerpes lucidus",
+ "sci_name_aco": "Cyanerpes lucidus",
+ "sounds": [],
+ "taxon_order": 35165.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.450000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanerpes%20lucidus%20%28female%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanerpes%20lucidus%2C%20Nusagandi%2C%20Panama.jpg"
+ ]
+}

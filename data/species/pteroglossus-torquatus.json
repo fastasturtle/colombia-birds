@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colara2",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Pteroglossus",
+ "id": "pteroglossus-torquatus",
+ "ids": {
+  "avibase": "542B4FCB0F9377B6",
+  "birdbase": 11219,
+  "gbif": 2478838,
+  "inaturalist": "18584",
+  "iucn": "22726200",
+  "wikidata": "Q619058",
+  "xeno_canto": "Pteroglossus-torquatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pteroglossus_torquatus",
+  "ebird": "https://ebird.org/species/colara2",
+  "inaturalist": "https://www.inaturalist.org/taxa/18584",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_aracari",
+   "es": "https://es.wikipedia.org/wiki/Pteroglossus_torquatus",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковый_арасари"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pteroglossus+torquatus"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Collared Aracari",
+  "en_aco": "Collared Aracari",
+  "es": "Arasarí Acollarado",
+  "ru": "Ошейниковый арасари"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Pteroglossus torquatus",
+ "sci_name_aco": "Pteroglossus torquatus",
+ "sounds": [],
+ "taxon_order": 10885.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 214.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Collared%20Aracari%20%2844517373101%29.jpg"
+ ]
+}

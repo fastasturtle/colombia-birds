@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pelzeln, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ccfgle2",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Automolus",
+ "id": "automolus-rufipileatus",
+ "ids": {
+  "avibase": "BB4AD3F298BFF464",
+  "birdbase": 15200,
+  "gbif": 5230246,
+  "inaturalist": "10825",
+  "iucn": "22702946",
+  "wikidata": "Q1270084",
+  "xeno_canto": "Automolus-rufipileatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Automolus_rufipileatus",
+  "ebird": "https://ebird.org/species/ccfgle2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10825",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-crowned_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Automolus_rufipileatus",
+   "ru": "https://ru.wikipedia.org/wiki/Красношапочный_лесной_филидор"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Automolus+rufipileatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-crowned Foliage-gleaner",
+  "en_aco": "Chestnut-crowned Foliage-gleaner",
+  "es": "Ticotico Coronicastaño",
+  "ru": "Рыжешапочная лесовка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Automolus rufipileatus",
+ "sci_name_aco": "Automolus rufipileatus",
+ "sounds": [],
+ "taxon_order": 15251.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "rivers_lakes"
+  ],
+  "mass_g": 34.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Automolus%20rufipileatus%20-%20Chestnut-crowned%20Foliage-gleaner%20%2C%20Carajas%20National%20Forest%2C%20Par%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PhilydorConsobrinusSmit.jpg"
+ ]
+}

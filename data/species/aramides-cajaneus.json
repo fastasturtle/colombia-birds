@@ -1,0 +1,96 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gycwor1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Aramides",
+ "id": "aramides-cajaneus",
+ "ids": {
+  "avibase": "F0CDDB1458141D52",
+  "birdbase": 5718,
+  "gbif": 5227256,
+  "inaturalist": "513889",
+  "iucn": "154837348",
+  "wikidata": "Q1268308",
+  "xeno_canto": "Aramides-cajaneus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aramides_cajaneus",
+  "ebird": "https://ebird.org/species/gycwor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/513889",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-cowled_wood_rail",
+   "es": "https://es.wikipedia.org/wiki/Aramides_cajaneus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aramides+cajaneus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-cowled Wood-Rail",
+  "en_aco": "Gray-cowled Wood-Rail",
+  "es": "Cotara Chiricote",
+  "ru": "Серошейный саракура"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Aramides cajaneus",
+ "sci_name_aco": "Aramides cajaneus",
+ "sounds": [],
+ "taxon_order": 5441.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 400,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey-necked%20Wood%20Rail%20%28Aramides%20cajanea%29%20%2828439453400%29.jpg"
+ ]
+}

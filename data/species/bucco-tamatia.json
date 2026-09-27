@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spopuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Bucco",
+ "id": "bucco-tamatia",
+ "ids": {
+  "avibase": "EE7CBD360D78E454",
+  "birdbase": 11000,
+  "gbif": 5228270,
+  "inaturalist": "72576",
+  "iucn": null,
+  "wikidata": "Q1276054",
+  "xeno_canto": "Bucco-tamatia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bucco_tamatia",
+  "ebird": "https://ebird.org/species/spopuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72576",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spotted_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Bucco_tamatia",
+   "ru": "https://ru.wikipedia.org/wiki/Пятнистая_малакоптила"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bucco+tamatia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Puffbird",
+  "en_aco": "Spotted Puffbird",
+  "es": "Buco Moteado",
+  "ru": "Пятнистая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Bucco tamatia",
+ "sci_name_aco": "Bucco tamatia",
+ "sounds": [],
+ "taxon_order": 10390.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 43.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rapazinho-carij%C3%B3%20%28Bucco%20tamatia%20Gmelin%2C%201788%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-vassorii",
+ "ids": {
+  "avibase": "26BE0F1E2E4C04BE",
+  "birdbase": 37877,
+  "gbif": 2488175,
+  "inaturalist": "9555",
+  "iucn": "103849068",
+  "wikidata": "Q768646",
+  "xeno_canto": "Tangara-vassorii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_vassorii",
+  "ebird": "https://ebird.org/species/babtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9555",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-and-black_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_vassorii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+vassorii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-and-black Tanager",
+  "en_aco": "Blue-and-black Tanager",
+  "es": "Tangara Azulinegra",
+  "ru": "Сине-чёрная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara vassorii",
+ "sci_name_aco": "Tangara vassorii",
+ "sounds": [],
+ "taxon_order": 35036.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 17,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20vassorii%20by%20Francesco%20Veronesi%20%28cropped2%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leabit",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Botaurus",
+ "id": "botaurus-exilis",
+ "ids": {
+  "avibase": "0B361ED83051417E",
+  "birdbase": 7903,
+  "gbif": 2480852,
+  "inaturalist": "5009",
+  "iucn": "22697314",
+  "wikidata": "Q469586",
+  "xeno_canto": "Ixobrychus-exilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Botaurus_exilis",
+  "ebird": "https://ebird.org/species/leabit",
+  "inaturalist": "https://www.inaturalist.org/taxa/5009",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Least_bittern",
+   "es": "https://es.wikipedia.org/wiki/Botaurus_exilis",
+   "ru": "https://ru.wikipedia.org/wiki/Индейский_волчок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Botaurus+exilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Least Bittern",
+  "en_aco": "Least Bittern",
+  "es": "Avetorillo Americano",
+  "ru": "Американский волчок"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Botaurus exilis",
+ "sci_name_aco": "Ixobrychus exilis",
+ "sounds": [],
+ "taxon_order": 7565.0,
+ "taxonomy_note": "ACO/SACC lists this as Ixobrychus exilis; eBird/Clements uses Botaurus exilis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 77.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Least%20bittern%20%2871430%29.jpg"
+ ]
+}

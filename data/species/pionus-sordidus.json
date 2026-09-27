@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pionus",
+ "id": "pionus-sordidus",
+ "ids": {
+  "avibase": "7BAAE4E38A137F50",
+  "birdbase": 13228,
+  "gbif": 2479917,
+  "inaturalist": "19095",
+  "iucn": "22686178",
+  "wikidata": "Q1087599",
+  "xeno_canto": "Pionus-sordidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pionus_sordidus",
+  "ebird": "https://ebird.org/species/rebpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/19095",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-billed_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pionus_sordidus",
+   "ru": "https://ru.wikipedia.org/wiki/Красноклювый_красногузый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pionus+sordidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-billed Parrot",
+  "en_aco": "Red-billed Parrot",
+  "es": "Loro Piquirrojo",
+  "ru": "Красноклювый амазонет"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pionus sordidus",
+ "sci_name_aco": "Pionus sordidus",
+ "sounds": [],
+ "taxon_order": 12874.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2400,
+   "min": 500,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 265.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-billed%20Parrot.jpg"
+ ]
+}

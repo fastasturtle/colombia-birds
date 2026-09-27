@@ -1,0 +1,93 @@
+{
+ "authorship": "(Jardine, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruvcha1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-ruficauda",
+ "ids": {
+  "avibase": "E6447877C310D69D",
+  "birdbase": 639,
+  "gbif": 5229447,
+  "inaturalist": "2084",
+  "iucn": "22678315",
+  "wikidata": "Q940808",
+  "xeno_canto": "Ortalis-ruficauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_ruficauda",
+  "ebird": "https://ebird.org/species/ruvcha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2084",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-vented_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_ruficauda",
+   "ru": "https://ru.wikipedia.org/wiki/Краснохвостая_чачалака"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+ruficauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-vented Chachalaca",
+  "en_aco": "Rufous-vented Chachalaca",
+  "es": "Chachalaca Culirroja",
+  "ru": "Краснохвостая чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis ruficauda",
+ "sci_name_aco": "Ortalis ruficauda",
+ "sounds": [],
+ "taxon_order": 971.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 604.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-vented%20Chachalaca%20-%20Guacharaca%20del%20Norte%20%28Ortalis%20ruficauda%29%20%288629080871%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "strant3",
+ "family": {
+  "code": "formic2",
+  "en": "Antthrushes",
+  "sci": "Formicariidae"
+ },
+ "genus": "Chamaeza",
+ "id": "chamaeza-nobilis",
+ "ids": {
+  "avibase": "37339289E6A08D48",
+  "birdbase": 16478,
+  "gbif": 2490569,
+  "inaturalist": "9019",
+  "iucn": "22703215",
+  "wikidata": "Q859967",
+  "xeno_canto": "Chamaeza-nobilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chamaeza_nobilis",
+  "ebird": "https://ebird.org/species/strant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/9019",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Striated_antthrush",
+   "es": "https://es.wikipedia.org/wiki/Chamaeza_nobilis",
+   "ru": "https://ru.wikipedia.org/wiki/Пёстрая_дроздовидная_муравейница"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chamaeza+nobilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Striated Antthrush",
+  "en_aco": "Striated Antthrush",
+  "es": "Tovacá Noble",
+  "ru": "Пёстрая муравейница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chamaeza nobilis",
+ "sci_name_aco": "Chamaeza nobilis",
+ "sounds": [],
+ "taxon_order": 14518.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 132.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chamaeza%20nobilis.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Fraser, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blkflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-humeralis",
+ "ids": {
+  "avibase": "CC7387DB280476E1",
+  "birdbase": 37626,
+  "gbif": 5230680,
+  "inaturalist": "9836",
+  "iucn": "22723673",
+  "wikidata": "Q1586820",
+  "xeno_canto": "Diglossa-humeralis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_humeralis",
+  "ebird": "https://ebird.org/species/blkflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9836",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_humeralis",
+   "ru": "https://ru.wikipedia.org/wiki/Diglossa_humeralis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+humeralis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Flowerpiercer",
+  "en_aco": "Black Flowerpiercer",
+  "es": "Pinchaflor Negro",
+  "ru": "Чёрный цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa humeralis",
+ "sci_name_aco": "Diglossa humeralis",
+ "sounds": [],
+ "taxon_order": 35281.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 1850,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 12.883333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20humeralis%20Picaflor%20negro%20Black%20Flowerpiercer%20%288730319702%29.jpg"
+ ]
+}

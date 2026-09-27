@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mastro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-personatus",
+ "ids": {
+  "avibase": "DEF0668899DD8D07",
+  "birdbase": 10010,
+  "gbif": 2496673,
+  "inaturalist": "20744",
+  "iucn": "22682807",
+  "wikidata": "Q1264109",
+  "xeno_canto": "Trogon-personatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_personatus",
+  "ebird": "https://ebird.org/species/mastro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20744",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_personatus",
+   "ru": "https://ru.wikipedia.org/wiki/Масковый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+personatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Trogon",
+  "en_aco": "Masked Trogon",
+  "es": "Trogón Enmascarado",
+  "ru": "Масковый трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon personatus",
+ "sci_name_aco": "Trogon personatus",
+ "sounds": [],
+ "taxon_order": 9592.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 66,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masked%20Trogon%20%28Trogon%20personatus%29%20%2820144038635%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masked%20trogon%20%28F%29.jpg"
+ ]
+}

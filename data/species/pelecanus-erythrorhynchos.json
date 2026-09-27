@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amwpel",
+ "family": {
+  "code": "peleca1",
+  "en": "Pelicans",
+  "sci": "Pelecanidae"
+ },
+ "genus": "Pelecanus",
+ "id": "pelecanus-erythrorhynchos",
+ "ids": {
+  "avibase": "866903B93D70056B",
+  "birdbase": 8100,
+  "gbif": 5229155,
+  "inaturalist": "4334",
+  "iucn": "22697611",
+  "wikidata": "Q735190",
+  "xeno_canto": "Pelecanus-erythrorhynchos"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pelecanus_erythrorhynchos",
+  "ebird": "https://ebird.org/species/amwpel",
+  "inaturalist": "https://www.inaturalist.org/taxa/4334",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_white_pelican",
+   "es": "https://es.wikipedia.org/wiki/Pelecanus_erythrorhynchos",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_белый_пеликан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pelecanus+erythrorhynchos"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American White Pelican",
+  "en_aco": "American White Pelican",
+  "es": "Pelícano Norteamericano",
+  "ru": "Пеликан-носорог"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Pelecanus erythrorhynchos",
+ "sci_name_aco": "Pelecanus erythrorhynchos",
+ "sounds": [],
+ "taxon_order": 7791.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 6530,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20White%20Pelican.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "strher2",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Butorides",
+ "id": "butorides-striata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 8024,
+  "gbif": 2480824,
+  "inaturalist": "718074",
+  "iucn": null,
+  "wikidata": "Q27604339",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Butorides_striata_striata",
+  "ebird": "https://ebird.org/species/strher2",
+  "inaturalist": "https://www.inaturalist.org/taxa/718074",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Butorides+striata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Striated Heron",
+  "en_aco": "Striated Heron",
+  "es": "Garcilla Azulada",
+  "ru": null
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Butorides striata",
+ "sci_name_aco": "Butorides striata",
+ "sounds": [],
+ "taxon_order": 7669.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 4050,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 162,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Butorides%20striata%20striata-PARNA%20do%20Igua%C3%A7u-JSBS2%28001%29.jpg"
+ ]
+}

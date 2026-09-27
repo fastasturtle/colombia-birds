@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebtyr2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Satrapa",
+ "id": "satrapa-icterophrys",
+ "ids": {
+  "avibase": "366930652E44EE8A",
+  "birdbase": 17780,
+  "gbif": 2482673,
+  "inaturalist": "17345",
+  "iucn": "22700315",
+  "wikidata": "Q957205",
+  "xeno_canto": "Satrapa-icterophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Satrapa_icterophrys",
+  "ebird": "https://ebird.org/species/yebtyr2",
+  "inaturalist": "https://www.inaturalist.org/taxa/17345",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-browed_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Satrapa_icterophrys",
+   "ru": "https://ru.wikipedia.org/wiki/Золотой_сатрап"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Satrapa+icterophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-browed Tyrant",
+  "en_aco": "Yellow-browed Tyrant",
+  "es": "Mosquero Cejiamarillo",
+  "ru": "Золотистый сатрап"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Satrapa icterophrys",
+ "sci_name_aco": "Satrapa icterophrys",
+ "sounds": [],
+ "taxon_order": 17080.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 22.599999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Satrapa%20icterophrys%20-%20En%C3%A9as%20V.%20Gouv%C3%AAa%20Junior%20-%20601329055.jpeg"
+ ]
+}

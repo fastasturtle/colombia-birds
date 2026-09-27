@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "clwman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Machaeropterus",
+ "id": "machaeropterus-deliciosus",
+ "ids": {
+  "avibase": "D76775F302E09B7C",
+  "birdbase": 18447,
+  "gbif": 2487754,
+  "inaturalist": "14347",
+  "iucn": "22701122",
+  "wikidata": "Q1302311",
+  "xeno_canto": "Machaeropterus-deliciosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Machaeropterus_deliciosus",
+  "ebird": "https://ebird.org/species/clwman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14347",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Club-winged_manakin",
+   "es": "https://es.wikipedia.org/wiki/Machaeropterus_deliciosus",
+   "ru": "https://ru.wikipedia.org/wiki/Красношапочный_корольковый_манакин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Machaeropterus+deliciosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Club-winged Manakin",
+  "en_aco": "Club-winged Manakin",
+  "es": "Saltarín Alitorcido",
+  "ru": "Рыжая пипра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Machaeropterus deliciosus",
+ "sci_name_aco": "Machaeropterus deliciosus",
+ "sounds": [],
+ "taxon_order": 15804.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 13.666666666666666,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Machaeropterus%20deliciosus%20-NW%20Ecuador-6%20%28cropped%29.jpg"
+ ]
+}

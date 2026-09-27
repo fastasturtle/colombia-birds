@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1875)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bcptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiornis",
+ "id": "myiornis-atricapillus",
+ "ids": {
+  "avibase": "F238A1318FEFF16E",
+  "birdbase": 17407,
+  "gbif": 2482867,
+  "inaturalist": "17088",
+  "iucn": "22699544",
+  "wikidata": "Q1266879",
+  "xeno_canto": "Myiornis-atricapillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiornis_atricapillus",
+  "ebird": "https://ebird.org/species/bcptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17088",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-capped_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Myiornis_atricapillus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiornis+atricapillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-capped Pygmy-Tyrant",
+  "en_aco": "Black-capped Pygmy-Tyrant",
+  "es": "Mosqueta Capirotada",
+  "ru": "Черношапочная аруна"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiornis atricapillus",
+ "sci_name_aco": "Myiornis atricapillus",
+ "sounds": [],
+ "taxon_order": 16301.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.425,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiornis%20atricapillus%201.jpg"
+ ]
+}

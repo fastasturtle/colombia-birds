@@ -1,0 +1,93 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blchaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Busarellus",
+ "id": "busarellus-nigricollis",
+ "ids": {
+  "avibase": "37148B746946E231",
+  "birdbase": 8697,
+  "gbif": 2480692,
+  "inaturalist": "5346",
+  "iucn": "22695842",
+  "wikidata": "Q1264645",
+  "xeno_canto": "Busarellus-nigricollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Busarellus_nigricollis",
+  "ebird": "https://ebird.org/species/blchaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5346",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-collared_hawk",
+   "es": "https://es.wikipedia.org/wiki/Busarellus_nigricollis",
+   "ru": "https://ru.wikipedia.org/wiki/Рыбный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Busarellus+nigricollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-collared Hawk",
+  "en_aco": "Black-collared Hawk",
+  "es": "Busardo Colorado",
+  "ru": "Канюк-рыболов"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Busarellus nigricollis",
+ "sci_name_aco": "Busarellus nigricollis",
+ "sounds": [],
+ "taxon_order": 8400.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 926,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gavi%C3%A3o-belo-PARNA%20do%20Pantanal%20Matogrossense-Claudiarlfranco%28001%29.jpg"
+ ]
+}

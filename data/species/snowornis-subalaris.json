@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gytpih1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Snowornis",
+ "id": "snowornis-subalaris",
+ "ids": {
+  "avibase": "413E0E1A907284B6",
+  "birdbase": 18251,
+  "gbif": 2486236,
+  "inaturalist": "8745",
+  "iucn": "22700831",
+  "wikidata": "Q1921529",
+  "xeno_canto": "Snowornis-subalaris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Snowornis_subalaris",
+  "ebird": "https://ebird.org/species/gytpih1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8745",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-tailed_piha",
+   "es": "https://es.wikipedia.org/wiki/Snowornis_subalaris",
+   "ru": "https://ru.wikipedia.org/wiki/Серохвостая_сорокопутовая_пиха"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Snowornis+subalaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-tailed Piha",
+  "en_aco": "Gray-tailed Piha",
+  "es": "Guardabosques Coligrís",
+  "ru": "Серохвостая пиха"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Snowornis subalaris",
+ "sci_name_aco": "Snowornis subalaris",
+ "sounds": [],
+ "taxon_order": 15905.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 80.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Snowornis%20subalaris%20Gray-tailed%20Piha%3B%20Napo%2C%20Ecuador.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/LipaugusSubalarisSmit.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blabus1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Neoctantes",
+ "id": "neoctantes-niger",
+ "ids": {
+  "avibase": "65C3F16E1DB4314C",
+  "birdbase": 15705,
+  "gbif": 2490238,
+  "inaturalist": "15924",
+  "iucn": "22701355",
+  "wikidata": "Q945879",
+  "xeno_canto": "Neoctantes-niger"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neoctantes_niger",
+  "ebird": "https://ebird.org/species/blabus1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15924",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_bushbird",
+   "es": "https://es.wikipedia.org/wiki/Neoctantes_niger",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neoctantes+niger"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Bushbird",
+  "en_aco": "Black Bushbird",
+  "es": "Batará Arbustero",
+  "ru": "Чёрный копьеклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Neoctantes niger",
+ "sci_name_aco": "Neoctantes niger",
+ "sounds": [],
+ "taxon_order": 13611.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 30.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Neoctantes%20niger%20-%20Black%20Bushbird%20-%20male%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Neoctantes%20niger%20Black%20Bushbird%20%28female%29%3B%20Atalaia%20do%20Norte%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

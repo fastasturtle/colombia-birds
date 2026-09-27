@@ -1,0 +1,95 @@
+{
+ "authorship": "(Molina, 1782)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soulap1",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Vanellus",
+ "id": "vanellus-chilensis",
+ "ids": {
+  "avibase": "AE459A9B04429E79",
+  "birdbase": 6538,
+  "gbif": 5229146,
+  "inaturalist": "4867",
+  "iucn": "22694075",
+  "wikidata": "Q855348",
+  "xeno_canto": "Vanellus-chilensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vanellus_chilensis",
+  "ebird": "https://ebird.org/species/soulap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4867",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_lapwing",
+   "es": "https://es.wikipedia.org/wiki/Vanellus_chilensis",
+   "ru": "https://ru.wikipedia.org/wiki/Кайеннская_пигалица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vanellus+chilensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Southern Lapwing",
+  "en_aco": "Southern Lapwing",
+  "es": "Avefría Tero",
+  "ru": "Кайеннский чибис"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Vanellus chilensis",
+ "sci_name_aco": "Vanellus chilensis",
+ "sounds": [],
+ "taxon_order": 5896.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 291.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Southern%20lapwing%20%28Vanellus%20chilensis%20chilensis%29%20Chiloe.jpg"
+ ]
+}

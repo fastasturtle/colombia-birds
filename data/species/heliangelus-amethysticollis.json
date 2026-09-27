@@ -1,0 +1,95 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amtsun3",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliangelus",
+ "id": "heliangelus-amethysticollis",
+ "ids": {
+  "avibase": "01E5E927612C6BBE",
+  "birdbase": 2863,
+  "gbif": 2476699,
+  "inaturalist": "6192",
+  "iucn": "60859997",
+  "wikidata": "Q470381",
+  "xeno_canto": "Heliangelus-amethysticollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliangelus_amethysticollis",
+  "ebird": "https://ebird.org/species/amtsun3",
+  "inaturalist": "https://www.inaturalist.org/taxa/6192",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amethyst-throated_sunangel",
+   "es": "https://es.wikipedia.org/wiki/Heliangelus_amethysticollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliangelus+amethysticollis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Amethyst-throated Sunangel",
+  "en_aco": "Amethyst-throated Sunangel",
+  "es": "Colibrí Gorjiamatista",
+  "ru": null
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliangelus amethysticollis",
+ "sci_name_aco": "Heliangelus amethysticollis",
+ "sounds": [],
+ "taxon_order": 4408.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": 3700,
+   "min": 1800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 5.433333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amethyst-throated%20Sunangel%20-%20Ecuador%20S4E1868.jpg"
+ ]
+}

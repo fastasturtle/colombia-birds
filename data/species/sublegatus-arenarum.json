@@ -1,0 +1,94 @@
+{
+ "authorship": "(Salvin, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nosfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Sublegatus",
+ "id": "sublegatus-arenarum",
+ "ids": {
+  "avibase": "1C60CF9672E2826D",
+  "birdbase": 17284,
+  "gbif": 2483420,
+  "inaturalist": "17067",
+  "iucn": "22699200",
+  "wikidata": "Q262450",
+  "xeno_canto": "Sublegatus-arenarum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sublegatus_arenarum",
+  "ebird": "https://ebird.org/species/nosfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17067",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_scrub_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Sublegatus_arenarum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sublegatus+arenarum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Scrub-Flycatcher",
+  "en_aco": "Northern Scrub-Flycatcher",
+  "es": "Mosquero Matorralero Norteño",
+  "ru": "Кустарниковый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sublegatus arenarum",
+ "sci_name_aco": "Sublegatus arenarum",
+ "sounds": [],
+ "taxon_order": 17017.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "desert",
+   "coastal"
+  ],
+  "mass_g": 12.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Scrub%20Flycatcher.jpg"
+ ]
+}

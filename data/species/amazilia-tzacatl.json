@@ -1,0 +1,93 @@
+{
+ "authorship": "(de la Llave, 1833)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rtlhum",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Amazilia",
+ "id": "amazilia-tzacatl",
+ "ids": {
+  "avibase": "7739D5A5FFC8750E",
+  "birdbase": 3611,
+  "gbif": 2476441,
+  "inaturalist": "5676",
+  "iucn": "22730168",
+  "wikidata": "Q901824",
+  "xeno_canto": "Amazilia-tzacatl"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazilia_tzacatl",
+  "ebird": "https://ebird.org/species/rtlhum",
+  "inaturalist": "https://www.inaturalist.org/taxa/5676",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-tailed_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Amazilia_tzacatl",
+   "ru": "https://ru.wikipedia.org/wiki/Коричневохвостая_амазилия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazilia+tzacatl"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-tailed Hummingbird",
+  "en_aco": "Rufous-tailed Hummingbird",
+  "es": "Amazilia Tzacatl",
+  "ru": "Рыжехвостая амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Amazilia tzacatl",
+ "sci_name_aco": "Amazilia tzacatl",
+ "sounds": [],
+ "taxon_order": 5111.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 5.04,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-tailed%20Hummingbird.jpg"
+ ]
+}

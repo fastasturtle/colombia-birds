@@ -1,0 +1,92 @@
+{
+ "authorship": "(Shaw, 1796)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcswi",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Streptoprocne",
+ "id": "streptoprocne-zonaris",
+ "ids": {
+  "avibase": "88D7E68DB7827611",
+  "birdbase": 2280,
+  "gbif": 2477082,
+  "inaturalist": "6597",
+  "iucn": "22686476",
+  "wikidata": "Q1269417",
+  "xeno_canto": "Streptoprocne-zonaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Streptoprocne_zonaris",
+  "ebird": "https://ebird.org/species/whcswi",
+  "inaturalist": "https://www.inaturalist.org/taxa/6597",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-collared_swift",
+   "es": "https://es.wikipedia.org/wiki/Streptoprocne_zonaris",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковый_американский_стриж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Streptoprocne+zonaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-collared Swift",
+  "en_aco": "White-collared Swift",
+  "es": "Vencejo Acollarado",
+  "ru": "Ошейниковый стриж"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Streptoprocne zonaris",
+ "sci_name_aco": "Streptoprocne zonaris",
+ "sounds": [],
+ "taxon_order": 3843.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": 4350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 106.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-collared%20swift%20%28Streptoprocne%20zonaris%20altissima%29%20in%20flight%20Caldas.jpg"
+ ]
+}

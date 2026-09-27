@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "acafly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Empidonax",
+ "id": "empidonax-virescens",
+ "ids": {
+  "avibase": "2778A3F42BBFEBD5",
+  "birdbase": 17722,
+  "gbif": 2482802,
+  "inaturalist": "16638",
+  "iucn": "22699842",
+  "wikidata": "Q252175",
+  "xeno_canto": "Empidonax-virescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Empidonax_virescens",
+  "ebird": "https://ebird.org/species/acafly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16638",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Acadian_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Empidonax_virescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Empidonax+virescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Acadian Flycatcher",
+  "en_aco": "Acadian Flycatcher",
+  "es": "Mosquero Verdoso",
+  "ru": "Восточный мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Empidonax virescens",
+ "sci_name_aco": "Empidonax virescens",
+ "sounds": [],
+ "taxon_order": 16950.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2850,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 12.633333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Acadian%20Flycatcher%20Fall%20Out%202%20Sabine%20Woods%20TX%202018-04-09%2014-00-14%20%2826637940077%29.jpg"
+ ]
+}

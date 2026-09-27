@@ -1,0 +1,94 @@
+{
+ "authorship": "(Temminck, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral incierto | Residente incierto",
+  "status": [
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Austral? - Residente?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "tahswa2",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Alopochelidon",
+ "id": "alopochelidon-fucata",
+ "ids": {
+  "avibase": "355CAC4F65776BD2",
+  "birdbase": 25199,
+  "gbif": 4352334,
+  "inaturalist": "72485",
+  "iucn": "22712146",
+  "wikidata": "Q1586929",
+  "xeno_canto": "Alopochelidon-fucata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Alopochelidon_fucata",
+  "ebird": "https://ebird.org/species/tahswa2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72485",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-headed_swallow",
+   "es": "https://es.wikipedia.org/wiki/Alopochelidon_fucata",
+   "ru": "https://ru.wikipedia.org/wiki/Лисья_ласточка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Alopochelidon+fucata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-headed Swallow",
+  "en_aco": "Tawny-headed Swallow",
+  "es": "Golondrina Cabecicastaña",
+  "ru": "Лисья ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Alopochelidon fucata",
+ "sci_name_aco": "Alopochelidon fucata",
+ "sounds": [],
+ "taxon_order": 24133.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 14,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andorinha-morena%20%28Alopochelidon%20fucata%29%20%2818053664071%29.jpg"
+ ]
+}

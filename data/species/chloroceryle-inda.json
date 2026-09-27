@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "garkin1",
+ "family": {
+  "code": "alcedi1",
+  "en": "Kingfishers",
+  "sci": "Alcedinidae"
+ },
+ "genus": "Chloroceryle",
+ "id": "chloroceryle-inda",
+ "ids": {
+  "avibase": "5352C72242959F81",
+  "birdbase": 10752,
+  "gbif": 2475492,
+  "inaturalist": "2675",
+  "iucn": "22683655",
+  "wikidata": "Q232606",
+  "xeno_canto": "Chloroceryle-inda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chloroceryle_inda",
+  "ebird": "https://ebird.org/species/garkin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2675",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-and-rufous_kingfisher",
+   "es": "https://es.wikipedia.org/wiki/Chloroceryle_inda",
+   "ru": "https://ru.wikipedia.org/wiki/Двуцветный_зелёный_зимородок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chloroceryle+inda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-and-rufous Kingfisher",
+  "en_aco": "Green-and-rufous Kingfisher",
+  "es": "Martín Pescador Verdirrufo",
+  "ru": "Зелёно-рыжий зимородок"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Chloroceryle inda",
+ "sci_name_aco": "Chloroceryle inda",
+ "sounds": [],
+ "taxon_order": 10322.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 53.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chloroceryle%20inda%20-Madidi%20National%20Park%20-Bolivia-8a-4c.jpg"
+ ]
+}

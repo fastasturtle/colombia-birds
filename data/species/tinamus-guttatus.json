@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whttin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Tinamus",
+ "id": "tinamus-guttatus",
+ "ids": {
+  "avibase": "0480B7C9A9D64DA6",
+  "birdbase": 62,
+  "gbif": 2477621,
+  "inaturalist": "20668",
+  "iucn": "22678151",
+  "wikidata": "Q916853",
+  "xeno_canto": "Tinamus-guttatus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tinamus_guttatus",
+  "ebird": "https://ebird.org/species/whttin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20668",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Tinamus_guttatus",
+   "ru": "https://ru.wikipedia.org/wiki/Белогорлый_тинаму"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tinamus+guttatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Tinamou",
+  "en_aco": "White-throated Tinamou",
+  "es": "Tinamú Moteado",
+  "ru": "Белогорлый тинаму"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Tinamus guttatus",
+ "sci_name_aco": "Tinamus guttatus",
+ "sounds": [],
+ "taxon_order": 145.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 688.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tinamus%20guttatus1.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tinamus%20guttatus.JPG"
+ ]
+}

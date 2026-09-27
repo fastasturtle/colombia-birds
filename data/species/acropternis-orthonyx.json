@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ocetap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Acropternis",
+ "id": "acropternis-orthonyx",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16712,
+  "gbif": 2490975,
+  "inaturalist": "14795",
+  "iucn": "22703554",
+  "wikidata": "Q481997",
+  "xeno_canto": "Acropternis-orthonyx"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Acropternis_orthonyx",
+  "ebird": "https://ebird.org/species/ocetap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14795",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ocellated_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Acropternis_orthonyx",
+   "ru": "https://ru.wikipedia.org/wiki/Глазчатый_топаколо"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Acropternis+orthonyx"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ocellated Tapaculo",
+  "en_aco": "Ocellated Tapaculo",
+  "es": "Tapaculo Ocelado",
+  "ru": "Глазчатый тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Acropternis orthonyx",
+ "sci_name_aco": "Acropternis orthonyx",
+ "sounds": [],
+ "taxon_order": 14380.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3900,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": 1900
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland"
+  ],
+  "mass_g": 90,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ocellated%20Tapaculo%20%28Acropternis%20orthonyx%29.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whnpuf2",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Notharchus",
+ "id": "notharchus-hyperrhynchus",
+ "ids": {
+  "avibase": "6CC108F6E85A4E6D",
+  "birdbase": 10981,
+  "gbif": 7340220,
+  "inaturalist": "73106",
+  "iucn": "22733880",
+  "wikidata": "Q586253",
+  "xeno_canto": "Notharchus-hyperrhynchus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Notharchus_hyperrhynchus",
+  "ebird": "https://ebird.org/species/whnpuf2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73106",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-necked_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Notharchus_hyperrhynchus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Notharchus+hyperrhynchus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-necked Puffbird",
+  "en_aco": "White-necked Puffbird",
+  "es": "Buco Picogordo Occidental",
+  "ru": "Белошейная пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Notharchus hyperrhynchus",
+ "sci_name_aco": "Notharchus hyperrhynchus",
+ "sounds": [],
+ "taxon_order": 10377.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 93.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-necked%20puffbird%20%28Notharchus%20hyperrhynchus%20hyperrhynchus%29%20Rio%20Napo.jpg"
+ ]
+}

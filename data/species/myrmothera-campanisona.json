@@ -1,0 +1,93 @@
+{
+ "authorship": "(Hermann, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "thlant2",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Myrmothera",
+ "id": "myrmothera-campanisona",
+ "ids": {
+  "avibase": "A54A1842CC128680",
+  "birdbase": 16638,
+  "gbif": 2490554,
+  "inaturalist": "116983",
+  "iucn": "22703355",
+  "wikidata": "Q1259078",
+  "xeno_canto": "Myrmothera-campanisona"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmothera_campanisona",
+  "ebird": "https://ebird.org/species/thlant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/116983",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Thrush-like_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Myrmothera_campanisona",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmothera+campanisona"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Thrush-like Antpitta",
+  "en_aco": "Thrush-like Antpitta",
+  "es": "Tororoí Campanero",
+  "ru": "Равнинная мирмотера"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmothera campanisona",
+ "sci_name_aco": "Myrmothera campanisona",
+ "sounds": [],
+ "taxon_order": 14319.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 850,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 47.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GrallariaModestaWolf.jpg"
+ ]
+}

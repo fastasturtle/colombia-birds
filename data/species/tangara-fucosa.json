@@ -1,0 +1,89 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grntan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-fucosa",
+ "ids": {
+  "avibase": "7F58387333CCDE6C",
+  "birdbase": 37889,
+  "gbif": 2488162,
+  "inaturalist": "9546",
+  "iucn": "22722927",
+  "wikidata": "Q426459",
+  "xeno_canto": "Tangara-fucosa"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_fucosa",
+  "ebird": "https://ebird.org/species/grntan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9546",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-naped_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_fucosa",
+   "ru": "https://ru.wikipedia.org/wiki/Tangara_fucosa"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+fucosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-naped Tanager",
+  "en_aco": "Green-naped Tanager",
+  "es": "Tangara Nuquiverde",
+  "ru": "Жемчужногрудая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara fucosa",
+ "sci_name_aco": "Tangara fucosa",
+ "sounds": [],
+ "taxon_order": 35047.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 1350,
+   "min_extreme": 550
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rudtur",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Arenaria",
+ "id": "arenaria-interpres",
+ "ids": {
+  "avibase": "DC3050A9771F2CE9",
+  "birdbase": 6795,
+  "gbif": 2481776,
+  "inaturalist": "3938",
+  "iucn": "22693336",
+  "wikidata": "Q26892",
+  "xeno_canto": "Arenaria-interpres"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Arenaria_interpres",
+  "ebird": "https://ebird.org/species/rudtur",
+  "inaturalist": "https://www.inaturalist.org/taxa/3938",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_turnstone",
+   "es": "https://es.wikipedia.org/wiki/Arenaria_interpres",
+   "ru": "https://ru.wikipedia.org/wiki/Камнешарка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arenaria+interpres"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Turnstone",
+  "en_aco": "Ruddy Turnstone",
+  "es": "Vuelvepiedras Común",
+  "ru": "Камнешарка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Arenaria interpres",
+ "sci_name_aco": "Arenaria interpres",
+ "sounds": [],
+ "taxon_order": 6161.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 126,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arenaria%20interpres%202%20-%20Boat%20Harbour%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ruddy%20Turnstone%20%281%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arenaria%20interpres%20%28habitus%29.jpg"
+ ]
+}

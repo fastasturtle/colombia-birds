@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1809)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "louwat",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Parkesia",
+ "id": "parkesia-motacilla",
+ "ids": {
+  "avibase": "7AB0F3A4A62BD4BF",
+  "birdbase": 36131,
+  "gbif": 6093862,
+  "inaturalist": "73148",
+  "iucn": "22721803",
+  "wikidata": "Q27075882",
+  "xeno_canto": "Parkesia-motacilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Parkesia_motacilla",
+  "ebird": "https://ebird.org/species/louwat",
+  "inaturalist": "https://www.inaturalist.org/taxa/73148",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Louisiana_waterthrush",
+   "es": "https://es.wikipedia.org/wiki/Parkesia_motacilla",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Parkesia+motacilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Louisiana Waterthrush",
+  "en_aco": "Louisiana Waterthrush",
+  "es": "Reinita Charquera de Luisiana",
+  "ru": "Трясогузковый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Parkesia motacilla",
+ "sci_name_aco": "Parkesia motacilla",
+ "sounds": [],
+ "taxon_order": 33952.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 20.23333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Louisiana%20Waterthrush%20%28Parkesia%20motacilla%29%20%2830117012420%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Louisiana%20waterthrush%20%28Parkesia%20motacilla%29%20Orange%20Walk.jpg"
+ ]
+}

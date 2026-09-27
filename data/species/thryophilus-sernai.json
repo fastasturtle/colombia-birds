@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lara, Cuervo, Valderrama, Calderón-F & Cadena, 2012)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "antwre2",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Thryophilus",
+ "id": "thryophilus-sernai",
+ "ids": {
+  "avibase": "B0D4848CD3AEC7B6",
+  "birdbase": 29110,
+  "gbif": 7652738,
+  "inaturalist": "201172",
+  "iucn": "103889265",
+  "wikidata": "Q3281154",
+  "xeno_canto": "Thryophilus-sernai"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thryophilus_sernai",
+  "ebird": "https://ebird.org/species/antwre2",
+  "inaturalist": "https://www.inaturalist.org/taxa/201172",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Antioquia_wren",
+   "es": "https://es.wikipedia.org/wiki/Thryophilus_sernai",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thryophilus+sernai"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Antioquia Wren",
+  "en_aco": "Antioquia Wren",
+  "es": "Cucarachero Antioqueño",
+  "ru": "Меделинский крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thryophilus sernai",
+ "sci_name_aco": "Thryophilus sernai",
+ "sounds": [],
+ "taxon_order": 27529.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 850,
+   "max_extreme": null,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 22.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Antioquia%20wren%20-%20Thryophilus%20sernai.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cassin, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "barpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Bolborhynchus",
+ "id": "bolborhynchus-lineola",
+ "ids": {
+  "avibase": "0AD535893198E3D2",
+  "birdbase": 13165,
+  "gbif": 5229121,
+  "inaturalist": "19032",
+  "iucn": "22685913",
+  "wikidata": "Q911080",
+  "xeno_canto": "Bolborhynchus-lineola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bolborhynchus_lineola",
+  "ebird": "https://ebird.org/species/barpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19032",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Bolborhynchus_lineola",
+   "ru": "https://ru.wikipedia.org/wiki/Толстоклювый_попугай_Катерины"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bolborhynchus+lineola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Parakeet",
+  "en_aco": "Barred Parakeet",
+  "es": "Catita Barrada",
+  "ru": "Полосатый калита"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Bolborhynchus lineola",
+ "sci_name_aco": "Bolborhynchus lineola",
+ "sounds": [],
+ "taxon_order": 12811.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 53.175,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Barred%20Parakeet%2C%20Oxapampa%2C%20Pasco%2C%20Peru%201.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blehem1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sphenopsis",
+ "id": "sphenopsis-melanotis",
+ "ids": {
+  "avibase": "2F027A590C52680C",
+  "birdbase": 37347,
+  "gbif": 9398243,
+  "inaturalist": "558556",
+  "iucn": "103823252",
+  "wikidata": "Q28843191",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sphenopsis_melanotis",
+  "ebird": "https://ebird.org/species/blehem1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558556",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-eared_hemispingus",
+   "es": "https://es.wikipedia.org/wiki/Sphenopsis_melanotis",
+   "ru": "https://ru.wikipedia.org/wiki/Черноухий_хемиспингус"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sphenopsis+melanotis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Black-eared Hemispingus",
+  "en_aco": "Black-eared Hemispingus",
+  "es": "Hemispingo Orejinegro",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sphenopsis melanotis",
+ "sci_name_aco": "Sphenopsis melanotis",
+ "sounds": [],
+ "taxon_order": 34686.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": 3050,
+   "min": 1100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 16,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ChlorospingusMelanotisWolf.jpg"
+ ]
+}

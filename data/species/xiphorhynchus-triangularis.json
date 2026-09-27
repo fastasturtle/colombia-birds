@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lafresnaye, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olbwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Xiphorhynchus",
+ "id": "xiphorhynchus-triangularis",
+ "ids": {
+  "avibase": "79447EBBF2A2DE54",
+  "birdbase": 14788,
+  "gbif": 5230123,
+  "inaturalist": "11087",
+  "iucn": "22703146",
+  "wikidata": "Q1268046",
+  "xeno_canto": "Xiphorhynchus-triangularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xiphorhynchus_triangularis",
+  "ebird": "https://ebird.org/species/olbwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11087",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olive-backed_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Xiphorhynchus_triangularis",
+   "ru": "https://ru.wikipedia.org/wiki/Оливковоспинный_мечеклювый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xiphorhynchus+triangularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olive-backed Woodcreeper",
+  "en_aco": "Olive-backed Woodcreeper",
+  "es": "Trepatroncos Dorsioliva",
+  "ru": "Оливковоспинный древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xiphorhynchus triangularis",
+ "sci_name_aco": "Xiphorhynchus triangularis",
+ "sounds": [],
+ "taxon_order": 14865.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 2700,
+   "min": 1000,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 45.300000000000004,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Olive-backed%20Woodcreeper%20-%20Ecuador%20S4E3621%20%2816568144480%29.jpg"
+ ]
+}

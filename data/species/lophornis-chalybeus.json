@@ -1,0 +1,90 @@
+{
+ "authorship": "(Temminck, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fescoq3",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Lophornis",
+ "id": "lophornis-chalybeus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 2913,
+  "gbif": 2477001,
+  "inaturalist": "718520",
+  "iucn": null,
+  "wikidata": "Q27611567",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/fescoq3",
+  "inaturalist": "https://www.inaturalist.org/taxa/718520",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lophornis+chalybeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Festive Coquette",
+  "en_aco": "Festive Coquette",
+  "es": "Coqueta Verde Sureña",
+  "ru": "Зелёнохохлая кокетка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Lophornis chalybeus",
+ "sci_name_aco": "Lophornis chalybeus",
+ "sounds": [],
+ "taxon_order": 4451.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

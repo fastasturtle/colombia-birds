@@ -1,0 +1,91 @@
+{
+ "authorship": "(A.B. Meyer, 1884)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bufhel1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Oxypogon",
+ "id": "oxypogon-stuebelii",
+ "ids": {
+  "avibase": "876F6202D39B8199",
+  "birdbase": 2996,
+  "gbif": 8847274,
+  "inaturalist": "979853",
+  "iucn": "22726810",
+  "wikidata": "Q17517323",
+  "xeno_canto": "Oxypogon-stuebelii"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxypogon_stuebelii",
+  "ebird": "https://ebird.org/species/bufhel1",
+  "inaturalist": "https://www.inaturalist.org/taxa/979853",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buffy_helmetcrest",
+   "es": "https://es.wikipedia.org/wiki/Oxypogon_stuebelii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oxypogon+stuebelii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buffy Helmetcrest",
+  "en_aco": "Buffy Helmetcrest",
+  "es": "Colibrí Chivito del Nevado del Ruiz",
+  "ru": "Фиолетовобородая горная нимфа"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Oxypogon stuebelii",
+ "sci_name_aco": "Oxypogon stuebelii",
+ "sounds": [],
+ "taxon_order": 4533.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5200,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "shrubland"
+  ],
+  "mass_g": 5.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxypogon%20stuebelii%20-%20Buffy%20Helmetcrest%20-%20Colibr%C3%AD%20Chivito%20del%20Ruiz.jpg"
+ ]
+}

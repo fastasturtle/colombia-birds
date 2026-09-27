@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parpip1",
+ "family": {
+  "code": "motaci1",
+  "en": "Wagtails and Pipits",
+  "sci": "Motacillidae"
+ },
+ "genus": "Anthus",
+ "id": "anthus-bogotensis",
+ "ids": {
+  "avibase": "5FC6B00322EA9DC8",
+  "birdbase": 34146,
+  "gbif": 2490249,
+  "inaturalist": "13723",
+  "iucn": "22718600",
+  "wikidata": "Q1588749",
+  "xeno_canto": "Anthus-bogotensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anthus_bogotensis",
+  "ebird": "https://ebird.org/species/parpip1",
+  "inaturalist": "https://www.inaturalist.org/taxa/13723",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Paramo_pipit",
+   "es": "https://es.wikipedia.org/wiki/Anthus_bogotensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthus+bogotensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Paramo Pipit",
+  "en_aco": "Paramo Pipit",
+  "es": "Bisbita Andino",
+  "ru": "Конёк парамо"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anthus bogotensis",
+ "sci_name_aco": "Anthus bogotensis",
+ "sounds": [],
+ "taxon_order": 31911.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4200,
+   "max_extreme": 4500,
+   "min": 2100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 24.65,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/AnthusBotogensisWolf.jpg"
+ ]
+}

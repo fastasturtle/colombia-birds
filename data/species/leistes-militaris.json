@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebbla1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Leistes",
+ "id": "leistes-militaris",
+ "ids": {
+  "avibase": "5E08EF7369DCED33",
+  "birdbase": 35791,
+  "gbif": 4846744,
+  "inaturalist": "793308",
+  "iucn": "22729346",
+  "wikidata": "Q28919173",
+  "xeno_canto": "Leistes-militaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/rebbla1",
+  "inaturalist": "https://www.inaturalist.org/taxa/793308",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leistes+militaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-breasted Meadowlark",
+  "en_aco": "Red-breasted Meadowlark",
+  "es": "Loica Pechirroja",
+  "ru": "Красногрудая лойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leistes militaris",
+ "sci_name_aco": "Leistes militaris",
+ "sounds": [],
+ "taxon_order": 33594.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1855,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 45.775,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Naturalis%20Biodiversity%20Center%20-%20RMNH.AVES.8409%202%20-%20Leistes%20militaris%20militaris%20%28Linnaeus%2C%201758%29%20-%20Icteridae%20-%20bird%20skin%20specimen.jpeg"
+ ]
+}

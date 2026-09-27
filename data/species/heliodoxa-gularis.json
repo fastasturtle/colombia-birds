@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pitbri1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-gularis",
+ "ids": {
+  "avibase": "79CC5B96943C025D",
+  "birdbase": 3190,
+  "gbif": 2476952,
+  "inaturalist": "5918",
+  "iucn": "22687721",
+  "wikidata": "Q1261802",
+  "xeno_canto": "Heliodoxa-gularis"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_gularis",
+  "ebird": "https://ebird.org/species/pitbri1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5918",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pink-throated_brilliant",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_gularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+gularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pink-throated Brilliant",
+  "en_aco": "Pink-throated Brilliant",
+  "es": "Brillante Gorjirrosado",
+  "ru": "Красногорлый бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa gularis",
+ "sci_name_aco": "Heliodoxa gularis",
+ "sounds": [],
+ "taxon_order": 4696.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1050,
+   "max_extreme": null,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6.533333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pink-throated%20Brilliant%20P1015519%20DxO8.jpg"
+ ]
+}

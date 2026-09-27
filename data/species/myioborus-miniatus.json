@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sltred",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myioborus",
+ "id": "myioborus-miniatus",
+ "ids": {
+  "avibase": "CB8A94374DC4F1A7",
+  "birdbase": 36487,
+  "gbif": 2489837,
+  "inaturalist": "9457",
+  "iucn": "22721898",
+  "wikidata": "Q972551",
+  "xeno_canto": "Myioborus-miniatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myioborus_miniatus",
+  "ebird": "https://ebird.org/species/sltred",
+  "inaturalist": "https://www.inaturalist.org/taxa/9457",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slate-throated_whitestart",
+   "es": "https://es.wikipedia.org/wiki/Myioborus_miniatus",
+   "ru": "https://ru.wikipedia.org/wiki/Красно-чёрный_горихвостковый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myioborus+miniatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slate-throated Redstart",
+  "en_aco": "Slate-throated Redstart",
+  "es": "Candelita Plomiza",
+  "ru": "Черногорлая канделита"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myioborus miniatus",
+ "sci_name_aco": "Myioborus miniatus",
+ "sounds": [],
+ "taxon_order": 34360.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 9.450000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myioborus%20miniatus%20-NW%20Ecuador-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Slate-throated%20Redstart%20-%20Hunter%20Canyon%20-%20Sierra%20Vista%20-%20AZ%20-%202015-09-08at09-27-115%20%2820635593204%29.jpg"
+ ]
+}

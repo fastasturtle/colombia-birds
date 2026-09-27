@@ -1,0 +1,95 @@
+{
+ "authorship": "(Wied-Neuwied, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plusee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-plumbea",
+ "ids": {
+  "avibase": "1AA93871D9935DA6",
+  "birdbase": 37271,
+  "gbif": 2491380,
+  "inaturalist": "367713",
+  "iucn": "22723414",
+  "wikidata": "Q3121382",
+  "xeno_canto": "Sporophila-plumbea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_plumbea",
+  "ebird": "https://ebird.org/species/plusee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367713",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_plumbea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+plumbea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous Seedeater",
+  "en_aco": "Plumbeous Seedeater",
+  "es": "Semillero Plomizo",
+  "ru": "Свинцовый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila plumbea",
+ "sci_name_aco": "Sporophila plumbea",
+ "sounds": [],
+ "taxon_order": 35601.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 10.180000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plumbeous%20Seedeater%20-%20Espiguero%20Plomizo%20%28Sporophila%20plumbea%20whiteleyana%29%20%28%E2%99%80%29%20%2822456402823%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20plumbea%20-%20Plumbeous%20Seedeater%20%28male%29%3B%20Serra%20da%20Canastra%20National%20Park%2C%20Minas%20Gerais%2C%20Brazil.jpg"
+ ]
+}

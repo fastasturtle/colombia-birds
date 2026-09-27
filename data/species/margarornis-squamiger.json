@@ -1,0 +1,92 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "peatre1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Margarornis",
+ "id": "margarornis-squamiger",
+ "ids": {
+  "avibase": "CDBA9E0C95EC562D",
+  "birdbase": 15257,
+  "gbif": 2485847,
+  "inaturalist": "10907",
+  "iucn": "22702729",
+  "wikidata": "Q1030323",
+  "xeno_canto": "Margarornis-squamiger"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Margarornis_squamiger",
+  "ebird": "https://ebird.org/species/peatre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10907",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pearled_treerunner",
+   "es": "https://es.wikipedia.org/wiki/Margarornis_squamiger",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Margarornis+squamiger"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pearled Treerunner",
+  "en_aco": "Pearled Treerunner",
+  "es": "Subepalo Perlado",
+  "ru": "Жемчужный щетинкохвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Margarornis squamiger",
+ "sci_name_aco": "Margarornis squamiger",
+ "sounds": [],
+ "taxon_order": 15304.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": 3800,
+   "min": 2500,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 16.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Margarornis%20squamiger%2068812121.jpg"
+ ]
+}

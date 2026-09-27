@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vercar1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Cardinalis",
+ "id": "cardinalis-phoeniceus",
+ "ids": {
+  "avibase": "5FAF3F1B49A8FA99",
+  "birdbase": 36667,
+  "gbif": 2490404,
+  "inaturalist": "9082",
+  "iucn": "22723822",
+  "wikidata": "Q854674",
+  "xeno_canto": "Cardinalis-phoeniceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cardinalis_phoeniceus",
+  "ebird": "https://ebird.org/species/vercar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9082",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Vermilion_cardinal",
+   "es": "https://es.wikipedia.org/wiki/Cardinalis_phoeniceus",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурный_кардинал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cardinalis+phoeniceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Vermilion Cardinal",
+  "en_aco": "Vermilion Cardinal",
+  "es": "Cardenal de la Guajira",
+  "ru": "Пурпурный кардинал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cardinalis phoeniceus",
+ "sci_name_aco": "Cardinalis phoeniceus",
+ "sounds": [],
+ "taxon_order": 34514.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 850,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "desert"
+  ],
+  "mass_g": 29.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cardinalis%20phoenicius%20Cardenal%20guajiro%20Vermilion%20Cardinal%20%28male%29%20%288619284898%29.jpg"
+ ]
+}

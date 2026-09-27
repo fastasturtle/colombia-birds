@@ -1,0 +1,91 @@
+{
+ "authorship": "(Ridgway, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andpot1",
+ "family": {
+  "code": "nyctib1",
+  "en": "Potoos",
+  "sci": "Nyctibiidae"
+ },
+ "genus": "Nyctibius",
+ "id": "nyctibius-maculosus",
+ "ids": {
+  "avibase": "29C4EF9C0A1158BC",
+  "birdbase": 2160,
+  "gbif": 2496800,
+  "inaturalist": "19683",
+  "iucn": "22689650",
+  "wikidata": "Q1265686",
+  "xeno_canto": "Nyctibius-maculosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctibius_maculosus",
+  "ebird": "https://ebird.org/species/andpot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19683",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_potoo",
+   "es": "https://es.wikipedia.org/wiki/Nyctibius_maculosus",
+   "ru": "https://ru.wikipedia.org/wiki/Андский_лесной_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctibius+maculosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Potoo",
+  "en_aco": "Andean Potoo",
+  "es": "Nictibio Andino",
+  "ru": "Андский уратао"
+ },
+ "order": "Nyctibiiformes",
+ "photos": [],
+ "sci_name": "Nyctibius maculosus",
+ "sci_name_aco": "Nyctibius maculosus",
+ "sounds": [],
+ "taxon_order": 3762.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3200,
+   "min": 1800,
+   "min_extreme": 1400
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 174,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean%20Potto%20%28Nyctibius%20maculosus%29%20on%20a%20branch.jpg"
+ ]
+}

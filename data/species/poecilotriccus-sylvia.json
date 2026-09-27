@@ -1,0 +1,93 @@
+{
+ "authorship": "(Desmarest, 1806)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shtfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Poecilotriccus",
+ "id": "poecilotriccus-sylvia",
+ "ids": {
+  "avibase": "579EA7EA0B458F4B",
+  "birdbase": 17462,
+  "gbif": 2483899,
+  "inaturalist": "17041",
+  "iucn": "22699007",
+  "wikidata": "Q1268763",
+  "xeno_canto": "Poecilotriccus-sylvia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Poecilotriccus_sylvia",
+  "ebird": "https://ebird.org/species/shtfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17041",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-headed_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Poecilotriccus_sylvia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Poecilotriccus+sylvia"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Slate-headed Tody-Flycatcher",
+  "en_aco": "Slate-headed Tody-Flycatcher",
+  "es": "Titirijí Gris",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Poecilotriccus sylvia",
+ "sci_name_aco": "Poecilotriccus sylvia",
+ "sounds": [],
+ "taxon_order": 16410.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 7.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Poecilotriccus%20sylvia%20-%20Slaty-headed%20tody-tyrant.JPG"
+ ]
+}

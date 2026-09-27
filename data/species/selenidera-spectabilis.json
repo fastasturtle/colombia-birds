@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cassin, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yeetou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Selenidera",
+ "id": "selenidera-spectabilis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11237,
+  "gbif": 2478758,
+  "inaturalist": "18515",
+  "iucn": "22682071",
+  "wikidata": "Q1270907",
+  "xeno_canto": "Selenidera-spectabilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Selenidera_spectabilis",
+  "ebird": "https://ebird.org/species/yeetou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18515",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-eared_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Selenidera_spectabilis",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоухая_селенидера"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Selenidera+spectabilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-eared Toucanet",
+  "en_aco": "Yellow-eared Toucanet",
+  "es": "Tucanete Orejigualdo",
+  "ru": "Желтоухий туканчик"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Selenidera spectabilis",
+ "sci_name_aco": "Selenidera spectabilis",
+ "sounds": [],
+ "taxon_order": 10914.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1500,
+   "min": 300,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 210,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-eared%20Toucanet.jpg"
+ ]
+}

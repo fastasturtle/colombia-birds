@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gloflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-lafresnayii",
+ "ids": {
+  "avibase": "2C186D879C08C036",
+  "birdbase": 37598,
+  "gbif": 5230669,
+  "inaturalist": "9835",
+  "iucn": "22723660",
+  "wikidata": "Q1584955",
+  "xeno_canto": "Diglossa-lafresnayii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_lafresnayii",
+  "ebird": "https://ebird.org/species/gloflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9835",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Glossy_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_lafresnayii",
+   "ru": "https://ru.wikipedia.org/wiki/Блестящий_крючкоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+lafresnayii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Glossy Flowerpiercer",
+  "en_aco": "Glossy Flowerpiercer",
+  "es": "Pinchaflor Satinado",
+  "ru": "Блестящий цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa lafresnayii",
+ "sci_name_aco": "Diglossa lafresnayii",
+ "sounds": [],
+ "taxon_order": 35274.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": 3750,
+   "min": 2700,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 16.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20lafresnayii.jpg"
+ ]
+}

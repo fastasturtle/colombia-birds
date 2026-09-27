@@ -1,0 +1,92 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pltcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Cotinga",
+ "id": "cotinga-maynana",
+ "ids": {
+  "avibase": "4E7079A1326CD288",
+  "birdbase": 18312,
+  "gbif": 5230382,
+  "inaturalist": "8910",
+  "iucn": "22700880",
+  "wikidata": "Q869376",
+  "xeno_canto": "Cotinga-maynana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cotinga_maynana",
+  "ebird": "https://ebird.org/species/pltcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8910",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plum-throated_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Cotinga_maynana",
+   "ru": "https://ru.wikipedia.org/wiki/Бирюзовая_настоящая_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cotinga+maynana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plum-throated Cotinga",
+  "en_aco": "Plum-throated Cotinga",
+  "es": "Cotinga Mayna",
+  "ru": "Желтоглазая котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cotinga maynana",
+ "sci_name_aco": "Cotinga maynana",
+ "sounds": [],
+ "taxon_order": 15924.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 66,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plum-throated%20Cotinga%20%28Cotinga%20maynana%29%20%2816781121739%29.jpg"
+ ]
+}

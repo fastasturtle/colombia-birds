@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral | Residente",
+  "status": [
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Austral - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brcmar1",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Progne",
+ "id": "progne-tapera",
+ "ids": {
+  "avibase": "9BC43968E17EB3CB",
+  "birdbase": 25151,
+  "gbif": 2489136,
+  "inaturalist": "11870",
+  "iucn": "22712092",
+  "wikidata": "Q2667801",
+  "xeno_canto": "Progne-tapera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Progne_tapera",
+  "ebird": "https://ebird.org/species/brcmar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11870",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-chested_martin",
+   "es": "https://es.wikipedia.org/wiki/Progne_tapera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Progne+tapera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-chested Martin",
+  "en_aco": "Brown-chested Martin",
+  "es": "Golondrina Parda",
+  "ru": "Буроватая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Progne tapera",
+ "sci_name_aco": "Progne tapera",
+ "sounds": [],
+ "taxon_order": 24102.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 35.833333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown-chested%20martin%20%28Progne%20tapera%29%20Colonia.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Des Murs, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "varsch1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Schiffornis",
+ "id": "schiffornis-major",
+ "ids": {
+  "avibase": "FDC7999137C119A0",
+  "birdbase": 18514,
+  "gbif": 2486462,
+  "inaturalist": "8789",
+  "iucn": "22700617",
+  "wikidata": "Q1308676",
+  "xeno_canto": "Schiffornis-major"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schiffornis_major",
+  "ebird": "https://ebird.org/species/varsch1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8789",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Varzea_schiffornis",
+   "es": "https://es.wikipedia.org/wiki/Schiffornis_major",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schiffornis+major"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Varzea Schiffornis",
+  "en_aco": "Varzea Schiffornis",
+  "es": "Llorón de Várzea",
+  "ru": "Рыжеватая сельвиния"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Schiffornis major",
+ "sci_name_aco": "Schiffornis major",
+ "sounds": [],
+ "taxon_order": 15980.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 30.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schiffornis%20major%20-%20Greater%20schiffornis%3B%20Anavilhanas%20islands%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

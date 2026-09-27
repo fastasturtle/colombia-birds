@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "kinvul1",
+ "family": {
+  "code": "cathar2",
+  "en": "New World Vultures",
+  "sci": "Cathartidae"
+ },
+ "genus": "Sarcoramphus",
+ "id": "sarcoramphus-papa",
+ "ids": {
+  "avibase": "9306DA2F3B23E74C",
+  "birdbase": 8111,
+  "gbif": 2481923,
+  "inaturalist": "4763",
+  "iucn": "22697645",
+  "wikidata": "Q192705",
+  "xeno_canto": "Sarcoramphus-papa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sarcoramphus_papa",
+  "ebird": "https://ebird.org/species/kinvul1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4763",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/King_vulture",
+   "es": "https://es.wikipedia.org/wiki/Sarcoramphus_papa",
+   "ru": "https://ru.wikipedia.org/wiki/Королевский_гриф"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sarcoramphus+papa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "King Vulture",
+  "en_aco": "King Vulture",
+  "es": "Zopilote Rey",
+  "ru": "Королевская катарта"
+ },
+ "order": "Cathartiformes",
+ "photos": [],
+ "sci_name": "Sarcoramphus papa",
+ "sci_name_aco": "Sarcoramphus papa",
+ "sounds": [],
+ "taxon_order": 7809.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "savanna",
+   "grassland"
+  ],
+  "mass_g": 4031.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Scavenger",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Urubu%20rei%20-%20Sarcoramphus%20papa.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sarcoramphus%20papa%20-National%20Zoo%20-Washington%20-USA-8a.jpg"
+ ]
+}

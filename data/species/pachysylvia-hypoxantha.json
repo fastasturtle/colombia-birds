@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ducgre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Pachysylvia",
+ "id": "pachysylvia-hypoxantha",
+ "ids": {
+  "avibase": "7FE65F399B783CB1",
+  "birdbase": 21444,
+  "gbif": 7997843,
+  "inaturalist": "515241",
+  "iucn": "22705303",
+  "wikidata": "Q28846221",
+  "xeno_canto": "Pachysylvia-hypoxantha"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/ducgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/515241",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-capped_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Pachysylvia_hypoxantha",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachysylvia+hypoxantha"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-capped Greenlet",
+  "en_aco": "Dusky-capped Greenlet",
+  "es": "Verdillo Ventriamarillo",
+  "ru": "Желтобрюхий виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachysylvia hypoxantha",
+ "sci_name_aco": "Pachysylvia hypoxantha",
+ "sounds": [],
+ "taxon_order": 19141.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 17,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dusky-capped%20Greenlet%20%28Hylophilus%20hypoxanthus%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylophilus%20hypoxanthus%20fuscicapillus%20Keulemans.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pavthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-obsoletus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30794,
+  "gbif": 2490754,
+  "inaturalist": "12756",
+  "iucn": "22708905",
+  "wikidata": "Q2651853",
+  "xeno_canto": "Turdus-obsoletus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_obsoletus",
+  "ebird": "https://ebird.org/species/pavthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12756",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-vented_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_obsoletus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+obsoletus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-vented Thrush",
+  "en_aco": "Pale-vented Thrush",
+  "es": "Zorzal Ventripálido",
+  "ru": "Белогузый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus obsoletus",
+ "sci_name_aco": "Turdus obsoletus",
+ "sounds": [],
+ "taxon_order": 28720.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1900,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 77.56666666666666,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20obsoletus.jpg"
+ ]
+}

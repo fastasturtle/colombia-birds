@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1844)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gowqua1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Odontophorus",
+ "id": "odontophorus-strophium",
+ "ids": {
+  "avibase": "744EE96BD847B415",
+  "birdbase": 959,
+  "gbif": 5228041,
+  "inaturalist": "1358",
+  "iucn": "22679678",
+  "wikidata": "Q1193048",
+  "xeno_canto": "Odontophorus-strophium"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontophorus_strophium",
+  "ebird": "https://ebird.org/species/gowqua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1358",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gorgeted_wood_quail",
+   "es": "https://es.wikipedia.org/wiki/Odontophorus_strophium",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontophorus+strophium"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gorgeted Wood-Quail",
+  "en_aco": "Gorgeted Wood-Quail",
+  "es": "Corcovado Gorjiblanco",
+  "ru": "Воротничковый зубцеклювый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Odontophorus strophium",
+ "sci_name_aco": "Odontophorus strophium",
+ "sounds": [],
+ "taxon_order": 1164.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2050,
+   "max_extreme": 2500,
+   "min": 1600,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 302,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Odontophorus%20strophium%20-%201820-1863%20-%20Print%20-%20Iconographia%20Zoologica%20-%20Special%20Collections%20University%20of%20Amsterdam%20-%20UBA01%20IZ17100201%20%28cropped%29.tif"
+ ]
+}

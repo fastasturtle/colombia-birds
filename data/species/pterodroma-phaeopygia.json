@@ -1,0 +1,94 @@
+{
+ "authorship": "(Salvin, 1876)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "galpet",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Pterodroma",
+ "id": "pterodroma-phaeopygia",
+ "ids": {
+  "avibase": "0DF68A874B9BB663",
+  "birdbase": 7518,
+  "gbif": 2481460,
+  "inaturalist": "4041",
+  "iucn": "22698020",
+  "wikidata": "Q1274614",
+  "xeno_canto": "Pterodroma-phaeopygia"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pterodroma_phaeopygia",
+  "ebird": "https://ebird.org/species/galpet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4041",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Galápagos_petrel",
+   "es": "https://es.wikipedia.org/wiki/Pterodroma_phaeopygia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pterodroma+phaeopygia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Galapagos Petrel",
+  "en_aco": "Galapagos Petrel",
+  "es": "Petrel de Galápagos",
+  "ru": "Галапагосский тайфунник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Pterodroma phaeopygia",
+ "sci_name_aco": "Pterodroma phaeopygia",
+ "sounds": [],
+ "taxon_order": 7137.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "sea"
+  ],
+  "mass_g": 410.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PterodromaPhaeopygia.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pterodroma%20phaeopygia.jpg"
+ ]
+}

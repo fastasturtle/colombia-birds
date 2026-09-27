@@ -1,0 +1,94 @@
+{
+ "authorship": "(Molina, 1782)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chifla1",
+ "family": {
+  "code": "phoeni1",
+  "en": "Flamingos",
+  "sci": "Phoenicopteridae"
+ },
+ "genus": "Phoenicopterus",
+ "id": "phoenicopterus-chilensis",
+ "ids": {
+  "avibase": "4F28673C181D26B8",
+  "birdbase": 6267,
+  "gbif": 2481110,
+  "inaturalist": "4258",
+  "iucn": "22697365",
+  "wikidata": "Q317220",
+  "xeno_canto": "Phoenicopterus-chilensis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phoenicopterus_chilensis",
+  "ebird": "https://ebird.org/species/chifla1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4258",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chilean_flamingo",
+   "es": "https://es.wikipedia.org/wiki/Phoenicopterus_chilensis",
+   "ru": "https://ru.wikipedia.org/wiki/Чилийский_фламинго"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phoenicopterus+chilensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chilean Flamingo",
+  "en_aco": "Chilean Flamingo",
+  "es": "Flamenco Chileno",
+  "ru": "Чилийский фламинго"
+ },
+ "order": "Phoenicopteriformes",
+ "photos": [],
+ "sci_name": "Phoenicopterus chilensis",
+ "sci_name_aco": "Phoenicopterus chilensis",
+ "sounds": [],
+ "taxon_order": 6806.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 2460,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenicopterus%20chilensis%20-Tavares%2C%20Rio%20Grande%20do%20Sul%2C%20Brazil%20-flying-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenicopterus%20chilensis%20at%20Salar%20de%20Atacama%206.JPG"
+ ]
+}

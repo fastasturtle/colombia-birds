@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1888)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greman2",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Cryptopipo",
+ "id": "cryptopipo-holochlora",
+ "ids": {
+  "avibase": "B829B8FFEE9EE732",
+  "birdbase": 18376,
+  "gbif": 7467919,
+  "inaturalist": "367628",
+  "iucn": "103676429",
+  "wikidata": "Q27075184",
+  "xeno_canto": "Cryptopipo-holochlora"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cryptopipo_holochlora",
+  "ebird": "https://ebird.org/species/greman2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367628",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_manakin",
+   "es": "https://es.wikipedia.org/wiki/Cryptopipo_holochlora",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cryptopipo+holochlora"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Manakin",
+  "en_aco": "Green Manakin",
+  "es": "Saltarín Verde",
+  "ru": "Зелёный манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cryptopipo holochlora",
+ "sci_name_aco": "Cryptopipo holochlora",
+ "sounds": [],
+ "taxon_order": 15730.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1500,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 14.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenopipo%20holochlora%20a00282.jpg"
+ ]
+}

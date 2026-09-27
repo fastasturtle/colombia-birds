@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "btbwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-caerulescens",
+ "ids": {
+  "avibase": "67B455A71B1C2506",
+  "birdbase": 36295,
+  "gbif": 7341828,
+  "inaturalist": "199916",
+  "iucn": "22721673",
+  "wikidata": "Q27075926",
+  "xeno_canto": "Setophaga-caerulescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_caerulescens",
+  "ebird": "https://ebird.org/species/btbwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/199916",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-throated_blue_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_caerulescens",
+   "ru": "https://ru.wikipedia.org/wiki/Синеспинный_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+caerulescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Blue Warbler",
+  "en_aco": "Black-throated Blue Warbler",
+  "es": "Reinita Azulada",
+  "ru": "Синеспинная древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga caerulescens",
+ "sci_name_aco": "Setophaga caerulescens",
+ "sounds": [],
+ "taxon_order": 34141.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 10.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20blue%20warblers%20%287140435321%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20Blue%20Warbler%20-%20female%20%288034317693%29.jpg"
+ ]
+}

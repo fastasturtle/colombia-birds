@@ -1,0 +1,92 @@
+{
+ "authorship": "(Hellmayr, 1922)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whctap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-atratus",
+ "ids": {
+  "avibase": "5C0D05100EFEA465",
+  "birdbase": 16782,
+  "gbif": 2490992,
+  "inaturalist": "14759",
+  "iucn": "22729245",
+  "wikidata": "Q1262200",
+  "xeno_canto": "Scytalopus-atratus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_atratus",
+  "ebird": "https://ebird.org/species/whctap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14759",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-crowned_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_atratus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+atratus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-crowned Tapaculo",
+  "en_aco": "White-crowned Tapaculo",
+  "es": "Churrín Coroniblanco",
+  "ru": "Белошапочный тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus atratus",
+ "sci_name_aco": "Scytalopus atratus",
+ "sounds": [],
+ "taxon_order": 14423.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 850,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 27.46666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20atratus%20168095436%20%28cropped%29.jpg"
+ ]
+}

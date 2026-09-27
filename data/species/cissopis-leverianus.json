@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "magtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Cissopis",
+ "id": "cissopis-leverianus",
+ "ids": {
+  "avibase": "7766CC3C37B083E1",
+  "birdbase": 37749,
+  "gbif": 2488854,
+  "inaturalist": "72727",
+  "iucn": "22722142",
+  "wikidata": "Q1060456",
+  "xeno_canto": "Cissopis-leverianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cissopis_leverianus",
+  "ebird": "https://ebird.org/species/magtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72727",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Magpie_tanager",
+   "es": "https://es.wikipedia.org/wiki/Cissopis_leverianus",
+   "ru": "https://ru.wikipedia.org/wiki/Сорочья_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cissopis+leverianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Magpie Tanager",
+  "en_aco": "Magpie Tanager",
+  "es": "Tangara Urraca",
+  "ru": "Сорочья танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cissopis leverianus",
+ "sci_name_aco": "Cissopis leverianus",
+ "sounds": [],
+ "taxon_order": 34654.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 74.82000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cissopis%20leverianus%20-%20Magpie%20Tanager%3B%20Dourado%2C%20S%C3%A3o%20Paulo%2C%20Brazil.jpg"
+ ]
+}

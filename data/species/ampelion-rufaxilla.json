@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chccot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Ampelion",
+ "id": "ampelion-rufaxilla",
+ "ids": {
+  "avibase": "2ED22C83B318A6D0",
+  "birdbase": 18278,
+  "gbif": 2486417,
+  "inaturalist": "8819",
+  "iucn": "22700761",
+  "wikidata": "Q370148",
+  "xeno_canto": "Ampelion-rufaxilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ampelion_rufaxilla",
+  "ebird": "https://ebird.org/species/chccot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8819",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-crested_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Ampelion_rufaxilla",
+   "ru": "https://ru.wikipedia.org/wiki/Каштановохохлый_ампелион"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ampelion+rufaxilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-crested Cotinga",
+  "en_aco": "Chestnut-crested Cotinga",
+  "es": "Cotinga Cresticastaño",
+  "ru": "Каштановохохлая котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ampelion rufaxilla",
+ "sci_name_aco": "Ampelion rufaxilla",
+ "sounds": [],
+ "taxon_order": 15894.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 72.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ampelion%20rufaxilla%20-%20Chestnut-crested%20Cotinga%20%285741252596%29.jpg"
+ ]
+}

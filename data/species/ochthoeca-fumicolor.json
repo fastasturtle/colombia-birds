@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bbctyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Ochthoeca",
+ "id": "ochthoeca-fumicolor",
+ "ids": {
+  "avibase": "D5E07ED015570908",
+  "birdbase": 17944,
+  "gbif": 9597316,
+  "inaturalist": "16188",
+  "iucn": "103682812",
+  "wikidata": "Q1268812",
+  "xeno_canto": "Ochthoeca-fumicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ochthoeca_fumicolor",
+  "ebird": "https://ebird.org/species/bbctyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16188",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-backed_chat-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Ochthoeca_fumicolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ochthoeca+fumicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-backed Chat-Tyrant",
+  "en_aco": "Brown-backed Chat-Tyrant",
+  "es": "Pitajo Dorsipardo",
+  "ru": "Буроспинная тираннита"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ochthoeca fumicolor",
+ "sci_name_aco": "Ochthoeca fumicolor",
+ "sounds": [],
+ "taxon_order": 17202.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4200,
+   "max_extreme": 4500,
+   "min": 2200,
+   "min_extreme": 1800
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 16.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown-backed%20Chat-Tyrant%20-%20Colombia%20S4E1525.jpg"
+ ]
+}

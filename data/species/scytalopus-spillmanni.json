@@ -1,0 +1,90 @@
+{
+ "authorship": "(Stresemann, 1937)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spitap2",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-spillmanni",
+ "ids": {
+  "avibase": "20768B0CF128DFAE",
+  "birdbase": 16833,
+  "gbif": 2490984,
+  "inaturalist": "14762",
+  "iucn": "22729270",
+  "wikidata": "Q1269788",
+  "xeno_canto": "Scytalopus-spillmanni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_spillmanni",
+  "ebird": "https://ebird.org/species/spitap2",
+  "inaturalist": "https://www.inaturalist.org/taxa/14762",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spillmann's_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_spillmanni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+spillmanni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spillmann's Tapaculo",
+  "en_aco": "Spillmann's Tapaculo",
+  "es": "Churrín de Spillmann",
+  "ru": "Чускейский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus spillmanni",
+ "sci_name_aco": "Scytalopus spillmanni",
+ "sounds": [],
+ "taxon_order": 14463.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": 3700,
+   "min": 1900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 25.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

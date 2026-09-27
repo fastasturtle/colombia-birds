@@ -1,0 +1,91 @@
+{
+ "authorship": "(Ménétriés, 1835)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wesfie1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Pyriglena",
+ "id": "pyriglena-maura",
+ "ids": {
+  "avibase": "2438D7896292E971",
+  "birdbase": 16395,
+  "gbif": 11033593,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q100869319",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyriglena_maura",
+  "ebird": "https://ebird.org/species/wesfie1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Western_fire-eye",
+   "es": "https://es.wikipedia.org/wiki/Pyriglena_maura",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyriglena+maura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Western Fire-eye",
+  "en_aco": "East Amazonian Fire-eye",
+  "es": "Ojodefuego Occidental",
+  "ru": "Западная огнеглазка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pyriglena maura",
+ "sci_name_aco": "Pyriglena maura",
+ "sounds": [],
+ "taxon_order": 13938.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 31,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyriglena%20maura%20-%20Western%20Fire-eye%20%28male%29%3B%20Vila%20Bela%20da%20Sant%C3%ADssima%20Trindade%2C%20Mato%20Grosso%2C%20Brazil.jpg"
+ ]
+}

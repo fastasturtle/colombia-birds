@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stfgle1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Anabacerthia",
+ "id": "anabacerthia-variegaticeps",
+ "ids": {
+  "avibase": "C9861D7FBDAFBE3C",
+  "birdbase": 15096,
+  "gbif": 2485691,
+  "inaturalist": "11724",
+  "iucn": "22702786",
+  "wikidata": "Q698197",
+  "xeno_canto": "Anabacerthia-variegaticeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anabacerthia_variegaticeps",
+  "ebird": "https://ebird.org/species/stfgle1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11724",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaly-throated_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Anabacerthia_variegaticeps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anabacerthia+variegaticeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaly-throated Foliage-gleaner",
+  "en_aco": "Scaly-throated Foliage-gleaner",
+  "es": "Ticotico de Anteojos",
+  "ru": "Чешуегорлая казарита"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anabacerthia variegaticeps",
+ "sci_name_aco": "Anabacerthia variegaticeps",
+ "sounds": [],
+ "taxon_order": 15147.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 24.53333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scaly-throated%20Foliage-gleaner.jpg"
+ ]
+}

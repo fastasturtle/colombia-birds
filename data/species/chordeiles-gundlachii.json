@@ -1,0 +1,96 @@
+{
+ "authorship": "(Lawrence, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "antnig",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Chordeiles",
+ "id": "chordeiles-gundlachii",
+ "ids": {
+  "avibase": "E025D44042EE90C5",
+  "birdbase": 1858,
+  "gbif": 2497031,
+  "inaturalist": "19602",
+  "iucn": "22689717",
+  "wikidata": "Q1269012",
+  "xeno_canto": "Chordeiles-gundlachii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chordeiles_gundlachii",
+  "ebird": "https://ebird.org/species/antnig",
+  "inaturalist": "https://www.inaturalist.org/taxa/19602",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Antillean_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Chordeiles_gundlachii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chordeiles+gundlachii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Antillean Nighthawk",
+  "en_aco": "Antillean Nighthawk",
+  "es": "Añapero Querequeté",
+  "ru": "Антильский сумеречник"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Chordeiles gundlachii",
+ "sci_name_aco": "Chordeiles gundlachii",
+ "sounds": [],
+ "taxon_order": 3502.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 56.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Antillean%20Nighthawk%20From%20The%20Crossley%20ID%20Guide%20Eastern%20Birds.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Antillean%20Nighthawk%20%28Chordeiles%20gundlachii%29%3B%20Cabo%20Rojo%20National%20Wildlife%20Refuge%2C%20Puerto%20Rico.JPG"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "norpin",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Anas",
+ "id": "anas-acuta",
+ "ids": {
+  "avibase": "56CCA7179C9FA71D",
+  "birdbase": 446,
+  "gbif": 2498112,
+  "inaturalist": "6933",
+  "iucn": "22680301",
+  "wikidata": "Q25450",
+  "xeno_canto": "Anas-acuta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anas_acuta",
+  "ebird": "https://ebird.org/species/norpin",
+  "inaturalist": "https://www.inaturalist.org/taxa/6933",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_pintail",
+   "es": "https://es.wikipedia.org/wiki/Anas_acuta",
+   "ru": "https://ru.wikipedia.org/wiki/Шилохвость"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anas+acuta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Pintail",
+  "en_aco": "Northern Pintail",
+  "es": "Ánade Rabudo",
+  "ru": "Шилохвость"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Anas acuta",
+ "sci_name_aco": "Anas acuta",
+ "sounds": [],
+ "taxon_order": 594.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 912.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Male%20northern%20pintail%20at%20Llano%20Seco.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Pintail%20%28Female%29-%20Feeding%20I%20IMG%200910.jpg"
+ ]
+}

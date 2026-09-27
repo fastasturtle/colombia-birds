@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "btnwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-virens",
+ "ids": {
+  "avibase": "9FFEDE99DC82DD92",
+  "birdbase": 36345,
+  "gbif": 6092631,
+  "inaturalist": "145258",
+  "iucn": "22721689",
+  "wikidata": "Q27075940",
+  "xeno_canto": "Setophaga-virens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_virens",
+  "ebird": "https://ebird.org/species/btnwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145258",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-throated_green_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_virens",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёный_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+virens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Green Warbler",
+  "en_aco": "Black-throated Green Warbler",
+  "es": "Reinita Dorsiverde",
+  "ru": "Зелёная древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga virens",
+ "sci_name_aco": "Setophaga virens",
+ "sounds": [],
+ "taxon_order": 34218.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": "M",
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "riparian",
+   "wetland"
+  ],
+  "mass_g": 9.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20green%20warbler%20in%20PP%20%2814050%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20green%20warbler%20%2881422%29.jpg"
+ ]
+}

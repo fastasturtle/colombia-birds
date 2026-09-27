@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cassin, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruwtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-lavinia",
+ "ids": {
+  "avibase": "7C975BC24079B061",
+  "birdbase": 37908,
+  "gbif": 2488206,
+  "inaturalist": "9572",
+  "iucn": "22722881",
+  "wikidata": "Q1042519",
+  "xeno_canto": "Tangara-lavinia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_lavinia",
+  "ebird": "https://ebird.org/species/ruwtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9572",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-winged_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_lavinia",
+   "ru": "https://ru.wikipedia.org/wiki/Золотокрылая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+lavinia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-winged Tanager",
+  "en_aco": "Rufous-winged Tanager",
+  "es": "Tangara Alirrufa",
+  "ru": "Рыжекрылая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara lavinia",
+ "sci_name_aco": "Tangara lavinia",
+ "sounds": [],
+ "taxon_order": 35084.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": 1000,
+   "min": 50,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 24,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-winged%20Tanager%20-%20Nusagandi%20-%20Panama%20%2848446197336%29.jpg"
+ ]
+}

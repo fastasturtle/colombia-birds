@@ -1,0 +1,96 @@
+{
+ "authorship": "(Berlepsch & Hartert, 1902)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cheant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmotherula",
+ "id": "myrmotherula-cherriei",
+ "ids": {
+  "avibase": "4B4619CD565C6964",
+  "birdbase": 15769,
+  "gbif": 2490183,
+  "inaturalist": "15826",
+  "iucn": "22701451",
+  "wikidata": "Q1273029",
+  "xeno_canto": "Myrmotherula-cherriei"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_cherriei",
+  "ebird": "https://ebird.org/species/cheant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15826",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cherrie's_antwren",
+   "es": "https://es.wikipedia.org/wiki/Myrmotherula_cherriei",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmotherula+cherriei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cherrie's Antwren",
+  "en_aco": "Cherrie's Antwren",
+  "es": "Hormiguerito de Cherrie",
+  "ru": "Пёстрый муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmotherula cherriei",
+ "sci_name_aco": "Myrmotherula cherriei",
+ "sounds": [],
+ "taxon_order": 13724.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 550,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 8.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20cherriei%20-%20Cherrie%27s%20antwren%20%28male%29%20%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmotherula%20cherriei%20Cherrie%27s%20Antwren%20%28female%29%3B%20Caracara%C3%AD%2C%20Roraima%2C%20Brazil.jpg"
+ ]
+}

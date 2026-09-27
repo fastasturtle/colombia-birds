@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bechstein, 1812)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lobcur",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Numenius",
+ "id": "numenius-americanus",
+ "ids": {
+  "avibase": "5284C27B1DE872F2",
+  "birdbase": 6669,
+  "gbif": 2481794,
+  "inaturalist": "3906",
+  "iucn": "22693195",
+  "wikidata": "Q76471",
+  "xeno_canto": "Numenius-americanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Numenius_americanus",
+  "ebird": "https://ebird.org/species/lobcur",
+  "inaturalist": "https://www.inaturalist.org/taxa/3906",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-billed_curlew",
+   "es": "https://es.wikipedia.org/wiki/Numenius_americanus",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_кроншнеп"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Numenius+americanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-billed Curlew",
+  "en_aco": "Long-billed Curlew",
+  "es": "Zarapito Americano",
+  "ru": "Американский кроншнеп"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Numenius americanus",
+ "sci_name_aco": "Numenius americanus",
+ "sounds": [],
+ "taxon_order": 6021.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1220,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 689.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Curlew%20-%20natures%20pics.jpg"
+ ]
+}

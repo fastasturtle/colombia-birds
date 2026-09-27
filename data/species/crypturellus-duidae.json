@@ -1,0 +1,92 @@
+{
+ "authorship": "(J.T. Zimmer, 1938)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gyltin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-duidae",
+ "ids": {
+  "avibase": "D2592D39D2770996",
+  "birdbase": 116,
+  "gbif": 2477534,
+  "inaturalist": "20550",
+  "iucn": "22678213",
+  "wikidata": "Q742093",
+  "xeno_canto": "Crypturellus-duidae"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_duidae",
+  "ebird": "https://ebird.org/species/gyltin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20550",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-legged_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_duidae",
+   "ru": "https://ru.wikipedia.org/wiki/Сероногий_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+duidae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-legged Tinamou",
+  "en_aco": "Gray-legged Tinamou",
+  "es": "Tinamú Patigrís",
+  "ru": "Сероногий скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus duidae",
+ "sci_name_aco": "Crypturellus duidae",
+ "sounds": [],
+ "taxon_order": 226.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 429.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crypturellus%20duidae.JPG"
+ ]
+}

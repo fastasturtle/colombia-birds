@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bhtfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Todirostrum",
+ "id": "todirostrum-nigriceps",
+ "ids": {
+  "avibase": "3951009EF4F27C08",
+  "birdbase": 17499,
+  "gbif": 2483261,
+  "inaturalist": "17157",
+  "iucn": "22699035",
+  "wikidata": "Q1266646",
+  "xeno_canto": "Todirostrum-nigriceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Todirostrum_nigriceps",
+  "ebird": "https://ebird.org/species/bhtfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17157",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-headed_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Todirostrum_nigriceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Todirostrum+nigriceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-headed Tody-Flycatcher",
+  "en_aco": "Black-headed Tody-Flycatcher",
+  "es": "Titirijí Cabecinegro",
+  "ru": "Черноголовый тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Todirostrum nigriceps",
+ "sci_name_aco": "Todirostrum nigriceps",
+ "sounds": [],
+ "taxon_order": 16440.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 6.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-headed%20Tody-Flycatcher%20-%20Dari%C3%A9n%20-%20Panama%20%2848444476207%29.jpg"
+ ]
+}

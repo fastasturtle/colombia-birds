@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gycgre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Hylophilus",
+ "id": "hylophilus-semicinereus",
+ "ids": {
+  "avibase": "4FB729B252375D1A",
+  "birdbase": 21419,
+  "gbif": 5230498,
+  "inaturalist": "17434",
+  "iucn": "22705286",
+  "wikidata": "Q1588456",
+  "xeno_canto": "Hylophilus-semicinereus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylophilus_semicinereus",
+  "ebird": "https://ebird.org/species/gycgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17434",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-chested_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Hylophilus_semicinereus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylophilus+semicinereus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-chested Greenlet",
+  "en_aco": "Gray-chested Greenlet",
+  "es": "Verdillo Pechigrís",
+  "ru": "Серогрудый виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylophilus semicinereus",
+ "sci_name_aco": "Hylophilus semicinereus",
+ "sounds": [],
+ "taxon_order": 19095.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylophilus%20semicinereus%20-%20Grey-chested%20Greenlet.JPG"
+ ]
+}

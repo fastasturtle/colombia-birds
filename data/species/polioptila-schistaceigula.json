@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hartert, 1898)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sltgna1",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Polioptila",
+ "id": "polioptila-schistaceigula",
+ "ids": {
+  "avibase": "07742DD44744FE49",
+  "birdbase": 29436,
+  "gbif": 2487582,
+  "inaturalist": "7492",
+  "iucn": "22711611",
+  "wikidata": "Q747988",
+  "xeno_canto": "Polioptila-schistaceigula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polioptila_schistaceigula",
+  "ebird": "https://ebird.org/species/sltgna1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7492",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slate-throated_gnatcatcher",
+   "es": "https://es.wikipedia.org/wiki/Polioptila_schistaceigula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+schistaceigula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slate-throated Gnatcatcher",
+  "en_aco": "Slate-throated Gnatcatcher",
+  "es": "Perlita Pizarrosa",
+  "ru": "Серогорлая комароловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Polioptila schistaceigula",
+ "sci_name_aco": "Polioptila schistaceigula",
+ "sounds": [],
+ "taxon_order": 27094.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Polioptila%20schistaceigula%20-%20Slate-throated%20Gnatcatcher%20-%20male%20%28cropped%29.jpg"
+ ]
+}

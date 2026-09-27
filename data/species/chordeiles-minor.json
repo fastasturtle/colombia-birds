@@ -1,0 +1,97 @@
+{
+ "authorship": "(J.R. Forster, 1771)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "comnig",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Chordeiles",
+ "id": "chordeiles-minor",
+ "ids": {
+  "avibase": "24E39ACD5692DA4A",
+  "birdbase": 1848,
+  "gbif": 2497035,
+  "inaturalist": "19577",
+  "iucn": "22689714",
+  "wikidata": "Q943329",
+  "xeno_canto": "Chordeiles-minor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chordeiles_minor",
+  "ebird": "https://ebird.org/species/comnig",
+  "inaturalist": "https://www.inaturalist.org/taxa/19577",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Chordeiles_minor",
+   "ru": "https://ru.wikipedia.org/wiki/Виргинский_сумеречный_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chordeiles+minor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Nighthawk",
+  "en_aco": "Common Nighthawk",
+  "es": "Añapero Yanqui",
+  "ru": "Виргинский сумеречник"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Chordeiles minor",
+ "sci_name_aco": "Chordeiles minor",
+ "sounds": [],
+ "taxon_order": 3492.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "riparian",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 71.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chordeiles%20minor%20-British%20Columbia%20-Canada-8c.jpg"
+ ]
+}

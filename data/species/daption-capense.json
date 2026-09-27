@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cappet",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Daption",
+ "id": "daption-capense",
+ "ids": {
+  "avibase": "AAC2D6136C46A743",
+  "birdbase": 7453,
+  "gbif": 2481545,
+  "inaturalist": "4168",
+  "iucn": "22697879",
+  "wikidata": "Q524740",
+  "xeno_canto": "Daption-capense"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Daption_capense",
+  "ebird": "https://ebird.org/species/cappet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4168",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pintado_petrel",
+   "es": "https://es.wikipedia.org/wiki/Daption_capense",
+   "ru": "https://ru.wikipedia.org/wiki/Капский_голубок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Daption+capense"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pintado Petrel",
+  "en_aco": "Cape Petrel",
+  "es": "Petrel Damero",
+  "ru": "Капский голубок"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Daption capense",
+ "sci_name_aco": "Daption capense",
+ "sounds": [],
+ "taxon_order": 7097.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 444.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Daption%20capense%20-west%20of%20Falkland%20Islands-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Daption%20capense%20in%20flight%20-%20SE%20Tasmania.jpg"
+ ]
+}

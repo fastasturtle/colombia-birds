@@ -1,0 +1,94 @@
+{
+ "authorship": "(Deville & Des Murs, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "viotro3",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-ramonianus",
+ "ids": {
+  "avibase": "09B20241EF8CB687",
+  "birdbase": 9961,
+  "gbif": 7340140,
+  "inaturalist": "73526",
+  "iucn": null,
+  "wikidata": "Q12846684",
+  "xeno_canto": "Trogon-ramonianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_ramonianus",
+  "ebird": "https://ebird.org/species/viotro3",
+  "inaturalist": "https://www.inaturalist.org/taxa/73526",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_ramonianus",
+   "ru": "https://ru.wikipedia.org/wiki/Амазонский_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+ramonianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazonian Violaceous Trogon",
+  "en_aco": "Amazonian Trogon",
+  "es": "Trogón Amazónico",
+  "ru": "Амазонский трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon ramonianus",
+ "sci_name_aco": "Trogon ramonianus",
+ "sounds": [],
+ "taxon_order": 9548.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland"
+  ],
+  "mass_g": 47,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20ramonianus%20-%20Amazonian%20Trogon%20%28male%29%2C%20Parauapebas%2C%20Par%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20ramonianus%208253030.jpg"
+ ]
+}

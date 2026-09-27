@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "capher1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Pilherodius",
+ "id": "pilherodius-pileatus",
+ "ids": {
+  "avibase": "9A0A9C743DC7F62B",
+  "birdbase": 7954,
+  "gbif": 2480816,
+  "inaturalist": "5058",
+  "iucn": "22696987",
+  "wikidata": "Q217951",
+  "xeno_canto": "Pilherodius-pileatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pilherodius_pileatus",
+  "ebird": "https://ebird.org/species/capher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5058",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Capped_heron",
+   "es": "https://es.wikipedia.org/wiki/Pilherodius_pileatus",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_кваква"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pilherodius+pileatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Capped Heron",
+  "en_aco": "Capped Heron",
+  "es": "Garza Capirotada",
+  "ru": "Капюшоновая цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Pilherodius pileatus",
+ "sci_name_aco": "Pilherodius pileatus",
+ "sounds": [],
+ "taxon_order": 7625.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 550.8333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pilherodius%20pileatus%20-near%20pond-6.JPG"
+ ]
+}

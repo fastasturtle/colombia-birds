@@ -1,0 +1,92 @@
+{
+ "authorship": "(Todd, 1913)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sampar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrrhura",
+ "id": "pyrrhura-viridicata",
+ "ids": {
+  "avibase": "2997FB71510FA401",
+  "birdbase": 13433,
+  "gbif": 2479854,
+  "inaturalist": "19155",
+  "iucn": "22685836",
+  "wikidata": "Q958816",
+  "xeno_canto": "Pyrrhura-viridicata"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrrhura_viridicata",
+  "ebird": "https://ebird.org/species/sampar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19155",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Pyrrhura_viridicata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrrhura+viridicata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Parakeet",
+  "en_aco": "Santa Marta Parakeet",
+  "es": "Cotorra de Santa Marta",
+  "ru": "Сантамартийская которра"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrrhura viridicata",
+ "sci_name_aco": "Pyrrhura viridicata",
+ "sounds": [],
+ "taxon_order": 13051.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 87.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhura%20viridicata%2060458515.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1807)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": true,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "introduced"
+  ],
+  "status_raw": "Exótica establecida",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chemun",
+ "family": {
+  "code": "estril1",
+  "en": "Waxbills and Allies",
+  "sci": "Estrildidae"
+ },
+ "genus": "Lonchura",
+ "id": "lonchura-atricapilla",
+ "ids": {
+  "avibase": "D269ABD260FBFDF6",
+  "birdbase": 33425,
+  "gbif": 2493623,
+  "inaturalist": "72989",
+  "iucn": "22729138",
+  "wikidata": "Q766579",
+  "xeno_canto": "Lonchura-atricapilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lonchura_atricapilla",
+  "ebird": "https://ebird.org/species/chemun",
+  "inaturalist": "https://www.inaturalist.org/taxa/72989",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut_munia",
+   "es": "https://es.wikipedia.org/wiki/Lonchura_atricapilla",
+   "ru": "https://ru.wikipedia.org/wiki/Восточная_черноголовая_муния"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lonchura+atricapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut Munia",
+  "en_aco": "Chestnut Munia",
+  "es": "Capuchino Castaño",
+  "ru": "Черноголовая муния"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lonchura atricapilla",
+ "sci_name_aco": "Lonchura atricapilla",
+ "sounds": [],
+ "taxon_order": 31117.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 12.95,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lonchura%20atricapilla%20jagori%20-Cebu-8-3c.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Kaup, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "zothaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-albonotatus",
+ "ids": {
+  "avibase": "597D7DD64AE96CDF",
+  "birdbase": 8794,
+  "gbif": 2480541,
+  "inaturalist": "5180",
+  "iucn": "22695926",
+  "wikidata": "Q595114",
+  "xeno_canto": "Buteo-albonotatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_albonotatus",
+  "ebird": "https://ebird.org/species/zothaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5180",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Zone-tailed_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_albonotatus",
+   "ru": "https://ru.wikipedia.org/wiki/Болотный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+albonotatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Zone-tailed Hawk",
+  "en_aco": "Zone-tailed Hawk",
+  "es": "Busardo Aura",
+  "ru": "Болотный канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo albonotatus",
+ "sci_name_aco": "Buteo albonotatus",
+ "sounds": [],
+ "taxon_order": 8498.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "riparian",
+   "agricultural"
+  ],
+  "mass_g": 764,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ZonetailedHawk2.jpg"
+ ]
+}

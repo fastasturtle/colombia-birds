@@ -1,0 +1,95 @@
+{
+ "authorship": "(Chapman, 1926)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pattyr3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Inezia",
+ "id": "inezia-caudata",
+ "ids": {
+  "avibase": "DE77BA6A2B8C84BC",
+  "birdbase": 17301,
+  "gbif": 5229716,
+  "inaturalist": "16341",
+  "iucn": "22733120",
+  "wikidata": "Q390139",
+  "xeno_canto": "Inezia-caudata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Inezia_caudata",
+  "ebird": "https://ebird.org/species/pattyr3",
+  "inaturalist": "https://www.inaturalist.org/taxa/16341",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-tipped_inezia",
+   "es": "https://es.wikipedia.org/wiki/Inezia_caudata",
+   "ru": "https://ru.wikipedia.org/wiki/Inezia_caudata"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Inezia+caudata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-tipped Tyrannulet",
+  "en_aco": "Pale-tipped Tyrannulet",
+  "es": "Piojito Coludo",
+  "ru": "Белоглазая инезия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Inezia caudata",
+ "sci_name_aco": "Inezia caudata",
+ "sounds": [],
+ "taxon_order": 16841.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "coastal"
+  ],
+  "mass_g": 8.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Inezia%20caudata%20-%20Pale-tipped%20inezia.jpg"
+ ]
+}

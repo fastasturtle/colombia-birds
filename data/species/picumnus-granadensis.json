@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grapic1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-granadensis",
+ "ids": {
+  "avibase": "2A87E89C0DB967D1",
+  "birdbase": 11754,
+  "gbif": 5228793,
+  "inaturalist": "17780",
+  "iucn": "22680777",
+  "wikidata": "Q1273861",
+  "xeno_canto": "Picumnus-granadensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_granadensis",
+  "ebird": "https://ebird.org/species/grapic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17780",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greyish_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_granadensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+granadensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Grayish Piculet",
+  "en_aco": "Grayish Piculet",
+  "es": "Carpinterito Colombiano",
+  "ru": "Буроспинный дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus granadensis",
+ "sci_name_aco": "Picumnus granadensis",
+ "sounds": [],
+ "taxon_order": 11097.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Greyish%20Piculet%20%28Picumnus%20granadensis%29%20%288079750994%29.jpg"
+ ]
+}

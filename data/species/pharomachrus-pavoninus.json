@@ -1,0 +1,91 @@
+{
+ "authorship": "(Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pavque1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Pharomachrus",
+ "id": "pharomachrus-pavoninus",
+ "ids": {
+  "avibase": "3CCFE7C862202C74",
+  "birdbase": 9912,
+  "gbif": 2496718,
+  "inaturalist": "20859",
+  "iucn": "22682741",
+  "wikidata": "Q685999",
+  "xeno_canto": "Pharomachrus-pavoninus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pharomachrus_pavoninus",
+  "ebird": "https://ebird.org/species/pavque1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20859",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pavonine_quetzal",
+   "es": "https://es.wikipedia.org/wiki/Pharomachrus_pavoninus",
+   "ru": "https://ru.wikipedia.org/wiki/Златоглавый_квезаль"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pharomachrus+pavoninus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pavonine Quetzal",
+  "en_aco": "Pavonine Quetzal",
+  "es": "Quetzal Pavonino",
+  "ru": "Павлиний кетцаль"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Pharomachrus pavoninus",
+ "sci_name_aco": "Pharomachrus pavoninus",
+ "sounds": [],
+ "taxon_order": 9504.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 163.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pharomachrus%20pavoninus%201838.jpg"
+ ]
+}

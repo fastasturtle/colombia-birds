@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gowman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Masius",
+ "id": "masius-chrysopterus",
+ "ids": {
+  "avibase": "2F4691A7D07CDCF8",
+  "birdbase": 18357,
+  "gbif": 2487740,
+  "inaturalist": "14310",
+  "iucn": "22701087",
+  "wikidata": "Q924333",
+  "xeno_canto": "Masius-chrysopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Masius_chrysopterus",
+  "ebird": "https://ebird.org/species/gowman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14310",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-winged_manakin",
+   "es": "https://es.wikipedia.org/wiki/Masius_chrysopterus",
+   "ru": "https://ru.wikipedia.org/wiki/Золотокрылый_манакин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Masius+chrysopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-winged Manakin",
+  "en_aco": "Golden-winged Manakin",
+  "es": "Saltarín Alidorado",
+  "ru": "Желтокрылый манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Masius chrysopterus",
+ "sci_name_aco": "Masius chrysopterus",
+ "sounds": [],
+ "taxon_order": 15712.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2300,
+   "min": 800,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 10.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masius%20chrysopterus%20-%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masius%20chrysopterus%20-%20Golden-winged%20Manakin%20-%20female%20%28cropped%29.jpg"
+ ]
+}

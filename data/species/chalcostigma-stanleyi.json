@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente incierto",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "blmtho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chalcostigma",
+ "id": "chalcostigma-stanleyi",
+ "ids": {
+  "avibase": "A9F8C65816E9B135",
+  "birdbase": 3014,
+  "gbif": 2476800,
+  "inaturalist": "5903",
+  "iucn": "22688030",
+  "wikidata": "Q1258878",
+  "xeno_canto": "Chalcostigma-stanleyi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chalcostigma_stanleyi",
+  "ebird": "https://ebird.org/species/blmtho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5903",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-mantled_thornbill",
+   "es": "https://es.wikipedia.org/wiki/Chalcostigma_stanleyi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chalcostigma+stanleyi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-mantled Thornbill",
+  "en_aco": "Blue-mantled Thornbill",
+  "es": "Colibrí de Stanley",
+  "ru": "Черноголовый радужник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chalcostigma stanleyi",
+ "sci_name_aco": "Chalcostigma stanleyi",
+ "sounds": [],
+ "taxon_order": 4525.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4200,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": 2200
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 5.2749999999999995,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-mantled%20Thornbill%20-%20Ecuador%20S4E3147.jpg"
+ ]
+}

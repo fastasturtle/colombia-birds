@@ -1,0 +1,93 @@
+{
+ "authorship": "(Todd, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tocspa1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Arremonops",
+ "id": "arremonops-tocuyensis",
+ "ids": {
+  "avibase": "53B7F6716CB8EF3B",
+  "birdbase": 35202,
+  "gbif": 2491041,
+  "inaturalist": "10177",
+  "iucn": "22721395",
+  "wikidata": "Q3315456",
+  "xeno_canto": "Arremonops-tocuyensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/tocspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10177",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tocuyo_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Arremonops_tocuyensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arremonops+tocuyensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tocuyo Sparrow",
+  "en_aco": "Tocuyo Sparrow",
+  "es": "Cerquero de El Tocuyo",
+  "ru": "Токуйский тохи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Arremonops tocuyensis",
+ "sci_name_aco": "Arremonops tocuyensis",
+ "sounds": [],
+ "taxon_order": 32989.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 19,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tocuyo%20Sparrow.jpg"
+ ]
+}

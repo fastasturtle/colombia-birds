@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lesela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-chiriquensis",
+ "ids": {
+  "avibase": "6AC0CC9E6A93DCDF",
+  "birdbase": 16963,
+  "gbif": 5229615,
+  "inaturalist": "578460",
+  "iucn": "103681244",
+  "wikidata": "Q603897",
+  "xeno_canto": "Elaenia-chiriquensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_chiriquensis",
+  "ebird": "https://ebird.org/species/lesela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/578460",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_chiriquensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+chiriquensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Elaenia",
+  "en_aco": "Lesser Elaenia",
+  "es": "Fiofío Belicoso",
+  "ru": "Малая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia chiriquensis",
+ "sci_name_aco": "Elaenia chiriquensis",
+ "sounds": [],
+ "taxon_order": 16708.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 16.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elaenia%20chiriquensis%20albivertex%20-%20Lesser%20Elaenia%3B%20Santana%20do%20Riacho%3B%20Minas%20Gerais%2C%20Brazil.jpg"
+ ]
+}

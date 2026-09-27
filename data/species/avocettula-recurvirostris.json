@@ -1,0 +1,95 @@
+{
+ "authorship": "(Swainson, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fitawl1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Avocettula",
+ "id": "avocettula-recurvirostris",
+ "ids": {
+  "avibase": "6B46AD2F0C1C4B40",
+  "birdbase": 2839,
+  "gbif": 2476721,
+  "inaturalist": "72556",
+  "iucn": "22687146",
+  "wikidata": "Q1028657",
+  "xeno_canto": "Avocettula-recurvirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Avocettula_recurvirostris",
+  "ebird": "https://ebird.org/species/fitawl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72556",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fiery-tailed_awlbill",
+   "es": "https://es.wikipedia.org/wiki/Avocettula_recurvirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Avocettula+recurvirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fiery-tailed Awlbill",
+  "en_aco": "Fiery-tailed Awlbill",
+  "es": "Mango Picolezna",
+  "ru": "Курносый манго"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Avocettula recurvirostris",
+ "sci_name_aco": "Avocettula recurvirostris",
+ "sounds": [],
+ "taxon_order": 4381.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 4.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Avocettula%20recurvirostris%20Fiery-tailed%20Awlbill%2C%20Guyana%2002%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colpuf1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Bucco",
+ "id": "bucco-capensis",
+ "ids": {
+  "avibase": "6D419BE7818199C4",
+  "birdbase": 11008,
+  "gbif": 5228276,
+  "inaturalist": "1534",
+  "iucn": "22682258",
+  "wikidata": "Q1272542",
+  "xeno_canto": "Bucco-capensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bucco_capensis",
+  "ebird": "https://ebird.org/species/colpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1534",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_puffbird",
+   "es": "https://es.wikipedia.org/wiki/Bucco_capensis",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковая_пуховка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bucco+capensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Collared Puffbird",
+  "en_aco": "Collared Puffbird",
+  "es": "Buco Musiú",
+  "ru": "Ошейниковая пуховка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Bucco capensis",
+ "sci_name_aco": "Bucco capensis",
+ "sounds": [],
+ "taxon_order": 10395.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 54,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bucco%20capensis%2062884158.jpg"
+ ]
+}

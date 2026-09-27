@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmochanes",
+ "id": "myrmochanes-hemileucus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15830,
+  "gbif": 2490101,
+  "inaturalist": "15940",
+  "iucn": "22701743",
+  "wikidata": "Q1084883",
+  "xeno_canto": "Myrmochanes-hemileucus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmochanes_hemileucus",
+  "ebird": "https://ebird.org/species/bawant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15940",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-white_antbird",
+   "es": "https://es.wikipedia.org/wiki/Myrmochanes_hemileucus",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрно-белая_муравьянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmochanes+hemileucus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Antbird",
+  "en_aco": "Black-and-white Antbird",
+  "es": "Hormiguero Negriblanco",
+  "ru": "Пегий муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmochanes hemileucus",
+ "sci_name_aco": "Myrmochanes hemileucus",
+ "sounds": [],
+ "taxon_order": 13978.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmochanes%20hemileucus%20-%20Black-and-white%20antbird%20%28male%29%3B%20Marchantaria%20island%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

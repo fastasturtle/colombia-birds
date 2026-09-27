@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fabtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Pipraeidea",
+ "id": "pipraeidea-melanonota",
+ "ids": {
+  "avibase": "F403E113768C53F4",
+  "birdbase": 37645,
+  "gbif": 2488795,
+  "inaturalist": "10711",
+  "iucn": "22722691",
+  "wikidata": "Q384702",
+  "xeno_canto": "Pipraeidea-melanonota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipraeidea_melanonota",
+  "ebird": "https://ebird.org/species/fabtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10711",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fawn-breasted_tanager",
+   "es": "https://es.wikipedia.org/wiki/Pipraeidea_melanonota",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipraeidea+melanonota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fawn-breasted Tanager",
+  "en_aco": "Fawn-breasted Tanager",
+  "es": "Tangara de Antifaz",
+  "ru": "Черноухая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pipraeidea melanonota",
+ "sci_name_aco": "Pipraeidea melanonota",
+ "sounds": [],
+ "taxon_order": 34917.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": 3800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 22.233333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pipraeidea%20melanonota%2C%20Sa%C3%ADra-vi%C3%BAva%2C%20Fawn-breasted%20Tanager.jpg"
+ ]
+}

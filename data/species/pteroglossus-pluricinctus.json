@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1836)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mabara1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Pteroglossus",
+ "id": "pteroglossus-pluricinctus",
+ "ids": {
+  "avibase": "6D83E2D8EB015197",
+  "birdbase": 11211,
+  "gbif": 2478826,
+  "inaturalist": "18567",
+  "iucn": "22682038",
+  "wikidata": "Q735952",
+  "xeno_canto": "Pteroglossus-pluricinctus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pteroglossus_pluricinctus",
+  "ebird": "https://ebird.org/species/mabara1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18567",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Many-banded_aracari",
+   "es": "https://es.wikipedia.org/wiki/Pteroglossus_pluricinctus",
+   "ru": "https://ru.wikipedia.org/wiki/Многополосый_арасари"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pteroglossus+pluricinctus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Many-banded Aracari",
+  "en_aco": "Many-banded Aracari",
+  "es": "Arasarí Fajado",
+  "ru": "Полосатый арасари"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Pteroglossus pluricinctus",
+ "sci_name_aco": "Pteroglossus pluricinctus",
+ "sounds": [],
+ "taxon_order": 10902.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 255.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Many-banded%20Aracari%2C%20Ecuador.jpg"
+ ]
+}

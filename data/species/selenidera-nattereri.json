@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1835)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tattou1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Selenidera",
+ "id": "selenidera-nattereri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 11239,
+  "gbif": 2478759,
+  "inaturalist": "18514",
+  "iucn": "22682081",
+  "wikidata": "Q974659",
+  "xeno_canto": "Selenidera-nattereri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Selenidera_nattereri",
+  "ebird": "https://ebird.org/species/tattou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18514",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-tufted_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Selenidera_nattereri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Selenidera+nattereri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-tufted Toucanet",
+  "en_aco": "Tawny-tufted Toucanet",
+  "es": "Tucanete de Natterer",
+  "ru": "Рыжеухий туканчик"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Selenidera nattereri",
+ "sci_name_aco": "Selenidera nattereri",
+ "sounds": [],
+ "taxon_order": 10919.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": null,
+   "max_extreme": null,
+   "min": null,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 158,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tawny-tufted%20Toucanet.jpg"
+ ]
+}

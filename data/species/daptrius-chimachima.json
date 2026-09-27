@@ -1,0 +1,97 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yehcar1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Daptrius",
+ "id": "daptrius-chimachima",
+ "ids": {
+  "avibase": "BA33DDD5D79EAB89",
+  "birdbase": 12810,
+  "gbif": 2481066,
+  "inaturalist": "4726",
+  "iucn": "22696261",
+  "wikidata": "Q28484",
+  "xeno_canto": "Milvago-chimachima"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Milvago_chimachima",
+  "ebird": "https://ebird.org/species/yehcar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4726",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-headed_caracara",
+   "es": "https://es.wikipedia.org/wiki/Daptrius_chimachima",
+   "ru": "https://ru.wikipedia.org/wiki/Химахима"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Daptrius+chimachima"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-headed Caracara",
+  "en_aco": "Yellow-headed Caracara",
+  "es": "Caracara Chimachima",
+  "ru": "Химахима"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Daptrius chimachima",
+ "sci_name_aco": "Milvago chimachima",
+ "sounds": [],
+ "taxon_order": 11966.0,
+ "taxonomy_note": "ACO/SACC lists this as Milvago chimachima; eBird/Clements uses Daptrius chimachima.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 307.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gelbkopfkarakara%20Milvago%20chimachima.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Milvago%20chimachima%20cordatus%202.jpg"
+ ]
+}

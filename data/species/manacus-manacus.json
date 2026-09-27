@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Manacus",
+ "id": "manacus-manacus",
+ "ids": {
+  "avibase": "091F833EA9F00594",
+  "birdbase": 18407,
+  "gbif": 2487672,
+  "inaturalist": "14235",
+  "iucn": "22701112",
+  "wikidata": "Q74588",
+  "xeno_canto": "Manacus-manacus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Manacus_manacus",
+  "ebird": "https://ebird.org/species/whbman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14235",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bearded_manakin",
+   "es": "https://es.wikipedia.org/wiki/Manacus_manacus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Manacus+manacus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bearded Manakin",
+  "en_aco": "White-bearded Manakin",
+  "es": "Saltarín Barbiblanco",
+  "ru": "Сорочий манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Manacus manacus",
+ "sci_name_aco": "Manacus manacus",
+ "sounds": [],
+ "taxon_order": 15772.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 16.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Manacus%20manacus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Manacus%20manacus%20-Registro%2C%20Sao%20Paulo%2C%20Brazil%20-female-8.jpg"
+ ]
+}

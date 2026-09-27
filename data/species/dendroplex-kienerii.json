@@ -1,0 +1,92 @@
+{
+ "authorship": "(Zimmer, 1934)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "zimwoo2",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendroplex",
+ "id": "dendroplex-kienerii",
+ "ids": {
+  "avibase": "12F9A070E3CAD8A8",
+  "birdbase": 14809,
+  "gbif": 5788709,
+  "inaturalist": "72805",
+  "iucn": "22703103",
+  "wikidata": "Q753431",
+  "xeno_canto": "Dendroplex-kienerii"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendroplex_kienerii",
+  "ebird": "https://ebird.org/species/zimwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72805",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Zimmer's_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendroplex_kienerii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendroplex+kienerii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Zimmer's Woodcreeper",
+  "en_aco": "Zimmer's Woodcreeper",
+  "es": "Trepatroncos de Zimmer",
+  "ru": "Приречный древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendroplex kienerii",
+ "sci_name_aco": "Dendroplex kienerii",
+ "sounds": [],
+ "taxon_order": 14885.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 44.425,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroplex%20kienerii%20-%20Zimmer%27s%20Woodcreeper.JPG"
+ ]
+}

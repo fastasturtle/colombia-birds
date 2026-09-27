@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lesson, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "guacor1",
+ "family": {
+  "code": "phalac1",
+  "en": "Cormorants and Shags",
+  "sci": "Phalacrocoracidae"
+ },
+ "genus": "Leucocarbo",
+ "id": "leucocarbo-bougainvilliorum",
+ "ids": {
+  "avibase": "86B80955F5FA24A1",
+  "birdbase": 7778,
+  "gbif": 2481884,
+  "inaturalist": "1580339",
+  "iucn": "22696810",
+  "wikidata": "Q27074617",
+  "xeno_canto": "Leucocarbo-bougainvillii"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leucocarbo_bougainvilliorum",
+  "ebird": "https://ebird.org/species/guacor1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1580339",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Guanay_cormorant",
+   "es": "https://es.wikipedia.org/wiki/Leucocarbo_bougainvillii",
+   "ru": "https://ru.wikipedia.org/wiki/Баклан_Бугенвиля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leucocarbo+bougainvilliorum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Guanay Cormorant",
+  "en_aco": "Guanay Cormorant",
+  "es": "Cormorán Guanay",
+  "ru": "Перуанский баклан"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Leucocarbo bougainvilliorum",
+ "sci_name_aco": "Phalacrocorax bougainvillii",
+ "sounds": [],
+ "taxon_order": 7437.0,
+ "taxonomy_note": "ACO/SACC lists this as Phalacrocorax bougainvillii; eBird/Clements uses Leucocarbo bougainvilliorum.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 2280.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leucocarbo%20bougainvillii%2C%20Islas%20Ballestas%205.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Chapman, 1912)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-gloriosissima",
+ "ids": {
+  "avibase": "B5A814A59401D232",
+  "birdbase": 37600,
+  "gbif": 5230666,
+  "inaturalist": "9838",
+  "iucn": "22723656",
+  "wikidata": "Q1586490",
+  "xeno_canto": "Diglossa-gloriosissima"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_gloriosissima",
+  "ebird": "https://ebird.org/species/chbflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9838",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-bellied_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_gloriosissima",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+gloriosissima"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-bellied Flowerpiercer",
+  "en_aco": "Chestnut-bellied Flowerpiercer",
+  "es": "Pinchaflor Ventrirrufo",
+  "ru": "Каштановобрюхий цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa gloriosissima",
+ "sci_name_aco": "Diglossa gloriosissima",
+ "sounds": [],
+ "taxon_order": 35271.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3750,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": 2400
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 15.733333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20gloriosissima%20%28Diglosa%20pechirrufa%29%20%2813960827078%29.jpg"
+ ]
+}

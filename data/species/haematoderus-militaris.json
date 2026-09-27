@@ -1,0 +1,92 @@
+{
+ "authorship": "(Shaw, 1792)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crifru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Haematoderus",
+ "id": "haematoderus-militaris",
+ "ids": {
+  "avibase": "A3944A95B5DE76F7",
+  "birdbase": 18281,
+  "gbif": 2486487,
+  "inaturalist": "8935",
+  "iucn": "22700919",
+  "wikidata": "Q431228",
+  "xeno_canto": "Haematoderus-militaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Haematoderus_militaris",
+  "ebird": "https://ebird.org/species/crifru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8935",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crimson_fruitcrow",
+   "es": "https://es.wikipedia.org/wiki/Haematoderus_militaris",
+   "ru": "https://ru.wikipedia.org/wiki/Карликовый_плодоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Haematoderus+militaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crimson Fruitcrow",
+  "en_aco": "Crimson Fruitcrow",
+  "es": "Cotinga Militar",
+  "ru": "Карминный плодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Haematoderus militaris",
+ "sci_name_aco": "Haematoderus militaris",
+ "sounds": [],
+ "taxon_order": 15909.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 227,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Haematoderus%20militaris.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Haematoderus%20militaris%20Crimson%20Fruitcrow%3B%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

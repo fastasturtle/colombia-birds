@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1864)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruwbar1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Premnornis",
+ "id": "premnornis-guttuliger",
+ "ids": {
+  "avibase": "039C6E39AD28D37F",
+  "birdbase": 14958,
+  "gbif": 6100762,
+  "inaturalist": "144284",
+  "iucn": "22702698",
+  "wikidata": "Q843815",
+  "xeno_canto": "Premnornis-guttuliger"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Premnornis_guttuliger",
+  "ebird": "https://ebird.org/species/ruwbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144284",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty-winged_barbtail",
+   "es": "https://es.wikipedia.org/wiki/Premnornis_guttuliger",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Premnornis+guttuliger"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rusty-winged Barbtail",
+  "en_aco": "Rusty-winged Barbtail",
+  "es": "Subepalo Alirrojizo",
+  "ru": "Бурокрылый шипохвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Premnornis guttuliger",
+ "sci_name_aco": "Premnornis guttuliger",
+ "sounds": [],
+ "taxon_order": 15025.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2750,
+   "max_extreme": null,
+   "min": 2000,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 15.299999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Premnornis%20guttuliger%20Rusty-winged%20barbtail%3B%20Pereira%2C%20Risaralda%2C%20Colombia.jpg"
+ ]
+}

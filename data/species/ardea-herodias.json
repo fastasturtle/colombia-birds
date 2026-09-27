@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbher3",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Ardea",
+ "id": "ardea-herodias",
+ "ids": {
+  "avibase": "93694BB5492F7012",
+  "birdbase": 8069,
+  "gbif": 9630752,
+  "inaturalist": "4956",
+  "iucn": "181500967",
+  "wikidata": "Q333796",
+  "xeno_canto": "Ardea-herodias"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardea_herodias",
+  "ebird": "https://ebird.org/species/grbher3",
+  "inaturalist": "https://www.inaturalist.org/taxa/4956",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_blue_heron",
+   "es": "https://es.wikipedia.org/wiki/Ardea_herodias",
+   "ru": "https://ru.wikipedia.org/wiki/Большая_голубая_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardea+herodias"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Blue Heron",
+  "en_aco": "Great Blue Heron",
+  "es": "Garza Azulada",
+  "ru": "Большая голубая цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Ardea herodias",
+ "sci_name_aco": "Ardea herodias",
+ "sounds": [],
+ "taxon_order": 7753.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 2536.3333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Grand%20Heron%20Profil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20blue%20heron%20in%20GWC%20%2821718%29.jpg"
+ ]
+}

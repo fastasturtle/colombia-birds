@@ -1,0 +1,94 @@
+{
+ "authorship": "(Wagler, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "latman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Chiroxiphia",
+ "id": "chiroxiphia-lanceolata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18352,
+  "gbif": 2487765,
+  "inaturalist": "14308",
+  "iucn": "22701074",
+  "wikidata": "Q841116",
+  "xeno_canto": "Chiroxiphia-lanceolata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chiroxiphia_lanceolata",
+  "ebird": "https://ebird.org/species/latman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14308",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lance-tailed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Chiroxiphia_lanceolata",
+   "ru": "https://ru.wikipedia.org/wiki/Острохвостый_красноногий_манакин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chiroxiphia+lanceolata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lance-tailed Manakin",
+  "en_aco": "Lance-tailed Manakin",
+  "es": "Saltarín Lanceolado",
+  "ru": "Ланцетохвостый манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chiroxiphia lanceolata",
+ "sci_name_aco": "Chiroxiphia lanceolata",
+ "sounds": [],
+ "taxon_order": 15699.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 17.233333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lance-tailed%20Manakin%20%2814700946111%29.jpg"
+ ]
+}

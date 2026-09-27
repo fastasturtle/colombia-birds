@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cory, 1913)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Inezia",
+ "id": "inezia-tenuirostris",
+ "ids": {
+  "avibase": "2741129523F290C7",
+  "birdbase": 17296,
+  "gbif": 5229715,
+  "inaturalist": "16340",
+  "iucn": "22699346",
+  "wikidata": "Q1259223",
+  "xeno_canto": "Inezia-tenuirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Inezia_tenuirostris",
+  "ebird": "https://ebird.org/species/slbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16340",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slender-billed_inezia",
+   "es": "https://es.wikipedia.org/wiki/Inezia_tenuirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Тонкоклювая_инезия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Inezia+tenuirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slender-billed Tyrannulet",
+  "en_aco": "Slender-billed Tyrannulet",
+  "es": "Piojito Picofino",
+  "ru": "Тонкоклювая инезия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Inezia tenuirostris",
+ "sci_name_aco": "Inezia tenuirostris",
+ "sounds": [],
+ "taxon_order": 16836.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 6.333333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Inezia%20tenuirostris%20cropped.jpg"
+ ]
+}

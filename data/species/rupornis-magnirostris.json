@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "roahaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Rupornis",
+ "id": "rupornis-magnirostris",
+ "ids": {
+  "avibase": "C39CC0F2B0D88669",
+  "birdbase": 8730,
+  "gbif": 5844398,
+  "inaturalist": "201041",
+  "iucn": "22695880",
+  "wikidata": "Q426708",
+  "xeno_canto": "Rupornis-magnirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rupornis_magnirostris",
+  "ebird": "https://ebird.org/species/roahaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/201041",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Roadside_hawk",
+   "es": "https://es.wikipedia.org/wiki/Rupornis_magnirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Дорожный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rupornis+magnirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Roadside Hawk",
+  "en_aco": "Roadside Hawk",
+  "es": "Busardo Caminero",
+  "ru": "Дорожный канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Rupornis magnirostris",
+ "sci_name_aco": "Rupornis magnirostris",
+ "sounds": [],
+ "taxon_order": 8430.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 315.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buteo%20magnirostris%20-Goias%20-Brazil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rupornis%20magnirostris%20Gavil%C3%A1n%20caminero%20Roadside%20Hawk%20%2812480876794%29.jpg"
+ ]
+}

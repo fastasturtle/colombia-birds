@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufgle1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Clibanornis",
+ "id": "clibanornis-rubiginosus",
+ "ids": {
+  "avibase": "B8BC23708BC06D3B",
+  "birdbase": 15159,
+  "gbif": 8009306,
+  "inaturalist": "367618",
+  "iucn": "22736330",
+  "wikidata": "Q28813014",
+  "xeno_canto": "Clibanornis-rubiginosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Clibanornis_rubiginosus",
+  "ebird": "https://ebird.org/species/rufgle1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367618",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Clibanornis_rubiginosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Clibanornis+rubiginosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Foliage-gleaner",
+  "en_aco": "Ruddy Foliage-gleaner",
+  "es": "Ticotico Castaño",
+  "ru": "Коричневогорлый лесовик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Clibanornis rubiginosus",
+ "sci_name_aco": "Clibanornis rubiginosus",
+ "sounds": [],
+ "taxon_order": 15211.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 38.75,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Clibanornis%20rubiginosus%20-%20Ruddy%20Foliage-gleaner.jpg"
+ ]
+}

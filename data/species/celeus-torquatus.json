@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rinwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Celeus",
+ "id": "celeus-torquatus",
+ "ids": {
+  "avibase": "E07BFF559F06041F",
+  "birdbase": 12509,
+  "gbif": 5228945,
+  "inaturalist": "18108",
+  "iucn": "22726469",
+  "wikidata": "Q1262789",
+  "xeno_canto": "Celeus-torquatus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Celeus_torquatus",
+  "ebird": "https://ebird.org/species/rinwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18108",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ringed_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Celeus_torquatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Celeus+torquatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ringed Woodpecker",
+  "en_aco": "Ringed Woodpecker",
+  "es": "Carpintero Pechinegro",
+  "ru": "Черногрудый дятел-гренадер"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Celeus torquatus",
+ "sci_name_aco": "Celeus torquatus",
+ "sounds": [],
+ "taxon_order": 11793.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 121,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Celeus%20torquatus%20-%20Ringed%20woodpecker%20%28male%29.jpg"
+ ]
+}

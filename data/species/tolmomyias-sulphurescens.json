@@ -1,0 +1,95 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yeofly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tolmomyias",
+ "id": "tolmomyias-sulphurescens",
+ "ids": {
+  "avibase": "90069CDDF5B27154",
+  "birdbase": 17526,
+  "gbif": 2482882,
+  "inaturalist": "16567",
+  "iucn": "22699605",
+  "wikidata": "Q948121",
+  "xeno_canto": "Tolmomyias-sulphurescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tolmomyias_sulphurescens",
+  "ebird": "https://ebird.org/species/yeofly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16567",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-olive_flatbill",
+   "es": "https://es.wikipedia.org/wiki/Tolmomyias_sulphurescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tolmomyias+sulphurescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-olive Flatbill",
+  "en_aco": "Yellow-olive Flycatcher",
+  "es": "Picoplano Sulfuroso",
+  "ru": "Желтоватый мухоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tolmomyias sulphurescens",
+ "sci_name_aco": "Tolmomyias sulphurescens",
+ "sounds": [],
+ "taxon_order": 16475.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tolmomyias%20sulphurescens%20-Parque%20Estadual%20da%20Cantareira%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

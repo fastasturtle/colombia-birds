@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcpin",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Anas",
+ "id": "anas-bahamensis",
+ "ids": {
+  "avibase": "D2F97D13FC8654A2",
+  "birdbase": 434,
+  "gbif": 2498090,
+  "inaturalist": "6951",
+  "iucn": "22680287",
+  "wikidata": "Q800212",
+  "xeno_canto": "Anas-bahamensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anas_bahamensis",
+  "ebird": "https://ebird.org/species/whcpin",
+  "inaturalist": "https://www.inaturalist.org/taxa/6951",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-cheeked_pintail",
+   "es": "https://es.wikipedia.org/wiki/Anas_bahamensis",
+   "ru": "https://ru.wikipedia.org/wiki/Белощёкая_шилохвость"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anas+bahamensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-cheeked Pintail",
+  "en_aco": "White-cheeked Pintail",
+  "es": "Ánade Gargantillo",
+  "ru": "Багамская шилохвость"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Anas bahamensis",
+ "sci_name_aco": "Anas bahamensis",
+ "sounds": [],
+ "taxon_order": 585.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 544.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-cheeked%20Pintail%2C%20St.%20Thomas%2C%20US%20Virgin%20Islands.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galapagos%20white-cheeked%20pintail%20duck%20-Santa%20Cruz%20highlands.jpg"
+ ]
+}

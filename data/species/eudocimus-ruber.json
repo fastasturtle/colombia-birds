@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scaibi",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Eudocimus",
+ "id": "eudocimus-ruber",
+ "ids": {
+  "avibase": "45039A43F7F8A9CF",
+  "birdbase": 7860,
+  "gbif": 5229204,
+  "inaturalist": "3750",
+  "iucn": "22697415",
+  "wikidata": "Q467996",
+  "xeno_canto": "Eudocimus-ruber"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eudocimus_ruber",
+  "ebird": "https://ebird.org/species/scaibi",
+  "inaturalist": "https://www.inaturalist.org/taxa/3750",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet_ibis",
+   "es": "https://es.wikipedia.org/wiki/Eudocimus_ruber",
+   "ru": "https://ru.wikipedia.org/wiki/Красный_ибис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eudocimus+ruber"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet Ibis",
+  "en_aco": "Scarlet Ibis",
+  "es": "Corocoro Rojo",
+  "ru": "Алый ибис"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Eudocimus ruber",
+ "sci_name_aco": "Eudocimus ruber",
+ "sounds": [],
+ "taxon_order": 7465.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 778.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eudocimus%20ruber%20Corocora%20Scarlet%20Ibis%20%286264848783%29.jpg"
+ ]
+}

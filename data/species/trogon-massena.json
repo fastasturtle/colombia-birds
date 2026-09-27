@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gould, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slttro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-massena",
+ "ids": {
+  "avibase": "E676EACDF54DAA99",
+  "birdbase": 9933,
+  "gbif": 2496643,
+  "inaturalist": "20733",
+  "iucn": "22682760",
+  "wikidata": "Q1268477",
+  "xeno_canto": "Trogon-massena"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_massena",
+  "ebird": "https://ebird.org/species/slttro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20733",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-tailed_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_massena",
+   "ru": "https://ru.wikipedia.org/wiki/Аспиднохвостый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+massena"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty-tailed Trogon",
+  "en_aco": "Slaty-tailed Trogon",
+  "es": "Trogón Grande",
+  "ru": "Аспиднохвостый трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon massena",
+ "sci_name_aco": "Trogon massena",
+ "sounds": [],
+ "taxon_order": 9522.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 147.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Slaty-tailed%20Trogon%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Female%20Slaty-Tailed%20Trogon.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20massena%20-Belize%20-male-8.jpg"
+ ]
+}

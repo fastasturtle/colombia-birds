@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubsol1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Cichlopsis",
+ "id": "cichlopsis-leucogenys",
+ "ids": {
+  "avibase": "AE736F910770AB32",
+  "birdbase": 30230,
+  "gbif": 2490933,
+  "inaturalist": "12866",
+  "iucn": "103880486",
+  "wikidata": "Q1083124",
+  "xeno_canto": "Cichlopsis-leucogenys"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cichlopsis_leucogenys",
+  "ebird": "https://ebird.org/species/rubsol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12866",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-brown_solitaire",
+   "es": "https://es.wikipedia.org/wiki/Cichlopsis_leucogenys",
+   "ru": "https://ru.wikipedia.org/wiki/Красноспинный_дрозд-отшельник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cichlopsis+leucogenys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-brown Solitaire",
+  "en_aco": "Rufous-brown Solitaire",
+  "es": "Solitario Ocre",
+  "ru": "Рыжеватый кларино"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cichlopsis leucogenys",
+ "sci_name_aco": "Cichlopsis leucogenys",
+ "sounds": [],
+ "taxon_order": 28350.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 850,
+   "max_extreme": null,
+   "min": 750,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 53,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CichlopsisLeucogonysSmit.jpg"
+ ]
+}

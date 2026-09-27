@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1876)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "debflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-glauca",
+ "ids": {
+  "avibase": "ACA0A34E914F6A5B",
+  "birdbase": 37560,
+  "gbif": 7342093,
+  "inaturalist": "72812",
+  "iucn": "22723701",
+  "wikidata": "Q970207",
+  "xeno_canto": "Diglossa-glauca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_glauca",
+  "ebird": "https://ebird.org/species/debflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72812",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-eyed_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_glauca",
+   "ru": "https://ru.wikipedia.org/wiki/Ультрамариновый_крючкоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+glauca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Deep-blue Flowerpiercer",
+  "en_aco": "Deep-blue Flowerpiercer",
+  "es": "Pinchaflor Glauco",
+  "ru": "Синий цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa glauca",
+ "sci_name_aco": "Diglossa glauca",
+ "sounds": [],
+ "taxon_order": 35320.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": 2800,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Diglossa%20glauca.jpg"
+ ]
+}

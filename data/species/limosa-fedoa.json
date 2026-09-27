@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "margod",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Limosa",
+ "id": "limosa-fedoa",
+ "ids": {
+  "avibase": "249AE8DFD7F51354",
+  "birdbase": 6691,
+  "gbif": 2481684,
+  "inaturalist": "3954",
+  "iucn": "22693162",
+  "wikidata": "Q844714",
+  "xeno_canto": "Limosa-fedoa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Limosa_fedoa",
+  "ebird": "https://ebird.org/species/margod",
+  "inaturalist": "https://www.inaturalist.org/taxa/3954",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Marbled_godwit",
+   "es": "https://es.wikipedia.org/wiki/Limosa_fedoa",
+   "ru": "https://ru.wikipedia.org/wiki/Пятнистый_веретенник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Limosa+fedoa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Marbled Godwit",
+  "en_aco": "Marbled Godwit",
+  "es": "Aguja Canela",
+  "ru": "Пятнистый веретенник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Limosa fedoa",
+ "sci_name_aco": "Limosa fedoa",
+ "sounds": [],
+ "taxon_order": 6051.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 369.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MarbledGodwit.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "renpha",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Phalaropus",
+ "id": "phalaropus-lobatus",
+ "ids": {
+  "avibase": "E6F3BA54577746FB",
+  "birdbase": 6762,
+  "gbif": 5739290,
+  "inaturalist": "3959",
+  "iucn": "22693490",
+  "wikidata": "Q206840",
+  "xeno_canto": "Phalaropus-lobatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phalaropus_lobatus",
+  "ebird": "https://ebird.org/species/renpha",
+  "inaturalist": "https://www.inaturalist.org/taxa/3959",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-necked_phalarope",
+   "es": "https://es.wikipedia.org/wiki/Phalaropus_lobatus",
+   "ru": "https://ru.wikipedia.org/wiki/Круглоносый_плавунчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phalaropus+lobatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-necked Phalarope",
+  "en_aco": "Red-necked Phalarope",
+  "es": "Falaropo Picofino",
+  "ru": "Круглоносый плавунчик"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Phalaropus lobatus",
+ "sci_name_aco": "Phalaropus lobatus",
+ "sounds": [],
+ "taxon_order": 6121.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 35.166666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-necked%20Phalarope.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phalaropus%20lobatus.jpg"
+ ]
+}

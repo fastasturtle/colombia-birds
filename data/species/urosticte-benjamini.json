@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pubwhi1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Urosticte",
+ "id": "urosticte-benjamini",
+ "ids": {
+  "avibase": "AE7EE8C8ABB7EAE8",
+  "birdbase": 3182,
+  "gbif": 2476279,
+  "inaturalist": "6472",
+  "iucn": "22687962",
+  "wikidata": "Q277660",
+  "xeno_canto": "Urosticte-benjamini"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Urosticte_benjamini",
+  "ebird": "https://ebird.org/species/pubwhi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6472",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple-bibbed_whitetip",
+   "es": "https://es.wikipedia.org/wiki/Urosticte_benjamini",
+   "ru": "https://ru.wikipedia.org/wiki/Бенджаминов_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Urosticte+benjamini"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple-bibbed Whitetip",
+  "en_aco": "Purple-bibbed Whitetip",
+  "es": "Colibrí Puntiblanco Occidental",
+  "ru": "Пурпурногрудый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Urosticte benjamini",
+ "sci_name_aco": "Urosticte benjamini",
+ "sounds": [],
+ "taxon_order": 4691.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 4,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple-bibbed%20whitetip%20%28Urosticte%20benjamini%29%20female%20Paz%20de%20las%20Aves.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Purple-bibbed%20whitetip%20%28Urosticte%20benjamini%29%20male%20Las%20Tangaras.jpg"
+ ]
+}

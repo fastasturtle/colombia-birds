@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cassin, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tabsco1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-watsonii",
+ "ids": {
+  "avibase": "D33F04937F307552",
+  "birdbase": 9678,
+  "gbif": 2497332,
+  "inaturalist": "19775",
+  "iucn": "22688856",
+  "wikidata": "Q1266827",
+  "xeno_canto": "Megascops-watsonii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_watsonii",
+  "ebird": "https://ebird.org/species/tabsco1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19775",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-bellied_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_watsonii",
+   "ru": "https://ru.wikipedia.org/wiki/Буробрюхая_совка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+watsonii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-bellied Screech-Owl",
+  "en_aco": "Tawny-bellied Screech-Owl",
+  "es": "Autillo del Amazonas",
+  "ru": "Буробрюхая совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops watsonii",
+ "sci_name_aco": "Megascops watsonii",
+ "sounds": [],
+ "taxon_order": 8879.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 143,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2014%2002%2009%20648-evaldo.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tawny-bellied%20screech-owl.jpg"
+ ]
+}

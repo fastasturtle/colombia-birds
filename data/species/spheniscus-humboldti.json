@@ -1,0 +1,93 @@
+{
+ "authorship": "(Meyen, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "humpen1",
+ "family": {
+  "code": "spheni1",
+  "en": "Penguins",
+  "sci": "Spheniscidae"
+ },
+ "genus": "Spheniscus",
+ "id": "spheniscus-humboldti",
+ "ids": {
+  "avibase": "37FC130FE446358F",
+  "birdbase": 7321,
+  "gbif": 5229386,
+  "inaturalist": "3814",
+  "iucn": "22697817",
+  "wikidata": "Q224151",
+  "xeno_canto": "Spheniscus-humboldti"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spheniscus_humboldti",
+  "ebird": "https://ebird.org/species/humpen1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3814",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Humboldt_penguin",
+   "es": "https://es.wikipedia.org/wiki/Spheniscus_humboldti",
+   "ru": "https://ru.wikipedia.org/wiki/Пингвин_Гумбольдта"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spheniscus+humboldti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Humboldt Penguin",
+  "en_aco": "Humboldt Penguin",
+  "es": "Pingüino de Humboldt",
+  "ru": "Гумбольдтов пингвин"
+ },
+ "order": "Sphenisciformes",
+ "photos": [],
+ "sci_name": "Spheniscus humboldti",
+ "sci_name_aco": "Spheniscus humboldti",
+ "sounds": [],
+ "taxon_order": 6957.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 80,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 4416.666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spheniscus%20humboldti%20%2854905367722%29.jpg"
+ ]
+}

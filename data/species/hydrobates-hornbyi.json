@@ -1,0 +1,92 @@
+{
+ "authorship": "(G.R. Gray, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rispet1",
+ "family": {
+  "code": "hydrob1",
+  "en": "Northern Storm-Petrels",
+  "sci": "Hydrobatidae"
+ },
+ "genus": "Hydrobates",
+ "id": "hydrobates-hornbyi",
+ "ids": {
+  "avibase": null,
+  "birdbase": 7420,
+  "gbif": 10764845,
+  "inaturalist": "1289623",
+  "iucn": null,
+  "wikidata": "Q1263541",
+  "xeno_canto": "Oceanodroma-hornbyi"
+ },
+ "iucn": {
+  "aco_2022": "DD",
+  "birdbase_2024": "NT",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oceanodroma_hornbyi",
+  "ebird": "https://ebird.org/species/rispet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1289623",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ringed_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Hydrobates_hornbyi",
+   "ru": "https://ru.wikipedia.org/wiki/Качурка_Хорнби"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrobates+hornbyi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ringed Storm-Petrel",
+  "en_aco": "Hornby's Storm-Petrel",
+  "es": "Paíño Acollarado",
+  "ru": "Ошейниковая качурка"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Hydrobates hornbyi",
+ "sci_name_aco": "Hydrobates hornbyi",
+ "sounds": [],
+ "taxon_order": 7052.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2225,
+   "max_extreme": 3800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "desert",
+   "sea"
+  ],
+  "mass_g": 39.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hydrobates%20hornbyi.jpg"
+ ]
+}

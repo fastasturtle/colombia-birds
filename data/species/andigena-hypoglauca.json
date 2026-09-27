@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1833)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gybmot1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Andigena",
+ "id": "andigena-hypoglauca",
+ "ids": {
+  "avibase": "B02554D83393F363",
+  "birdbase": 11234,
+  "gbif": 2478858,
+  "inaturalist": "18848",
+  "iucn": "22682055",
+  "wikidata": "Q642262",
+  "xeno_canto": "Andigena-hypoglauca"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Andigena_hypoglauca",
+  "ebird": "https://ebird.org/species/gybmot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18848",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-breasted_mountain_toucan",
+   "es": "https://es.wikipedia.org/wiki/Andigena_hypoglauca",
+   "ru": "https://ru.wikipedia.org/wiki/Голубая_андигена"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Andigena+hypoglauca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-breasted Mountain-Toucan",
+  "en_aco": "Gray-breasted Mountain-Toucan",
+  "es": "Tucán Pechigrís",
+  "ru": "Голубой перцеяд"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Andigena hypoglauca",
+ "sci_name_aco": "Andigena hypoglauca",
+ "sounds": [],
+ "taxon_order": 10871.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3650,
+   "max_extreme": null,
+   "min": 2200,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 312.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gray-breasted%20Mountain-Toucan%20%28Andigena%20hypoglauca%29.jpg"
+ ]
+}

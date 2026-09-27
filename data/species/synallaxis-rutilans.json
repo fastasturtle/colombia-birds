@@ -1,0 +1,91 @@
+{
+ "authorship": "(Temminck, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rudspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Synallaxis",
+ "id": "synallaxis-rutilans",
+ "ids": {
+  "avibase": "FF69CFDBAB9A8ABD",
+  "birdbase": 15644,
+  "gbif": 2484963,
+  "inaturalist": "11013",
+  "iucn": "22702360",
+  "wikidata": "Q1273878",
+  "xeno_canto": "Synallaxis-rutilans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_rutilans",
+  "ebird": "https://ebird.org/species/rudspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11013",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Synallaxis_rutilans",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Synallaxis+rutilans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Spinetail",
+  "en_aco": "Ruddy Spinetail",
+  "es": "Pijuí Rojizo",
+  "ru": "Темнохвостая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Synallaxis rutilans",
+ "sci_name_aco": "Synallaxis rutilans",
+ "sounds": [],
+ "taxon_order": 15672.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 18.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Synallaxis%20rutilans%20Ruddy%20Spinetail%3B%20Amazonia%20National%20Park%2C%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Wied-Neuwied, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "thlsch3",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Schiffornis",
+ "id": "schiffornis-turdina",
+ "ids": {
+  "avibase": "D54C8603FF426300",
+  "birdbase": 18530,
+  "gbif": 2486447,
+  "inaturalist": "513975",
+  "iucn": "103677312",
+  "wikidata": "Q1308722",
+  "xeno_canto": "Schiffornis-turdina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schiffornis_turdina",
+  "ebird": "https://ebird.org/species/thlsch3",
+  "inaturalist": "https://www.inaturalist.org/taxa/513975",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-winged_schiffornis",
+   "es": "https://es.wikipedia.org/wiki/Schiffornis_turdina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schiffornis+turdina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-winged Schiffornis",
+  "en_aco": "Brown-winged Schiffornis",
+  "es": "Llorón Turdino",
+  "ru": "Дроздовая сельвиния"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Schiffornis turdina",
+ "sci_name_aco": "Schiffornis turdina",
+ "sounds": [],
+ "taxon_order": 15994.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 32.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schiffornis%20turdina.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcthi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Asthenes",
+ "id": "asthenes-fuliginosa",
+ "ids": {
+  "avibase": "92EDD5BE33168731",
+  "birdbase": 15408,
+  "gbif": 7340791,
+  "inaturalist": "72538",
+  "iucn": "22702217",
+  "wikidata": "Q1267161",
+  "xeno_canto": "Asthenes-fuliginosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Asthenes_fuliginosa",
+  "ebird": "https://ebird.org/species/whcthi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72538",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chinned_thistletail",
+   "es": "https://es.wikipedia.org/wiki/Asthenes_fuliginosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Asthenes+fuliginosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chinned Thistletail",
+  "en_aco": "White-chinned Thistletail",
+  "es": "Piscuiz Barbiblanco",
+  "ru": "Белобородый чертополошник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Asthenes fuliginosa",
+ "sci_name_aco": "Asthenes fuliginosa",
+ "sounds": [],
+ "taxon_order": 15451.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": 4300,
+   "min": 2800,
+   "min_extreme": 2300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 17,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-chinned%20Thistletail%20-%20Ecuador%20S4E4517.jpg"
+ ]
+}

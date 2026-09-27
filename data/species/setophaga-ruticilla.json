@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amered",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-ruticilla",
+ "ids": {
+  "avibase": "BED38F505F0B8509",
+  "birdbase": 36223,
+  "gbif": 2489985,
+  "inaturalist": "10247",
+  "iucn": "22721762",
+  "wikidata": "Q922772",
+  "xeno_canto": "Setophaga-ruticilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_ruticilla",
+  "ebird": "https://ebird.org/species/amered",
+  "inaturalist": "https://www.inaturalist.org/taxa/10247",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_redstart",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_ruticilla",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_горихвостка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+ruticilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Redstart",
+  "en_aco": "American Redstart",
+  "es": "Candelita Norteña",
+  "ru": "Горихвостковая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga ruticilla",
+ "sci_name_aco": "Setophaga ruticilla",
+ "sounds": [],
+ "taxon_order": 34058.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "coastal"
+  ],
+  "mass_g": 8.274999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20redstart%20%2881581%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Setophaga%20ruticilla%20-Chiquimula%2C%20Guatemala%20-male-8-4c.jpg"
+ ]
+}

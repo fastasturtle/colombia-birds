@@ -1,0 +1,91 @@
+{
+ "authorship": "(Nelson, 1911)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vichum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Goldmania",
+ "id": "goldmania-violiceps",
+ "ids": {
+  "avibase": "2CF120F2B57310C4",
+  "birdbase": 3500,
+  "gbif": 5228540,
+  "inaturalist": "6494",
+  "iucn": "22687461",
+  "wikidata": "Q607745",
+  "xeno_canto": "Goldmania-violiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Goldmania_violiceps",
+  "ebird": "https://ebird.org/species/vichum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6494",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violet-capped_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Goldmania_violiceps",
+   "ru": "https://ru.wikipedia.org/wiki/Goldmania_violiceps"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Goldmania+violiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violet-capped Hummingbird",
+  "en_aco": "Violet-capped Hummingbird",
+  "es": "Colibrí de Goldman",
+  "ru": "Фиолетовошапочный колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Goldmania violiceps",
+ "sci_name_aco": "Goldmania violiceps",
+ "sounds": [],
+ "taxon_order": 5010.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3.8666666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Goldmania%20violiceps%2062186536.jpg"
+ ]
+}

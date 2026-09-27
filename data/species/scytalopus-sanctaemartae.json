@@ -1,0 +1,91 @@
+{
+ "authorship": "(Chapman, 1915)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samtap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-sanctaemartae",
+ "ids": {
+  "avibase": "86FEE4EB51A4F718",
+  "birdbase": 16786,
+  "gbif": 5789075,
+  "inaturalist": "73381",
+  "iucn": "22729258",
+  "wikidata": "Q1272050",
+  "xeno_canto": "Scytalopus-sanctaemartae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_sanctaemartae",
+  "ebird": "https://ebird.org/species/samtap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73381",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_sanctaemartae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+sanctaemartae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Tapaculo",
+  "en_aco": "Santa Marta Tapaculo",
+  "es": "Churrín de Santa Marta",
+  "ru": "Сантамартийский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus sanctaemartae",
+ "sci_name_aco": "Scytalopus sanctaemartae",
+ "sounds": [],
+ "taxon_order": 14427.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20sanctaemartae%20180499630.jpg"
+ ]
+}

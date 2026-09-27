@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "srwswa1",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Stelgidopteryx",
+ "id": "stelgidopteryx-ruficollis",
+ "ids": {
+  "avibase": "EE5B7812C488C153",
+  "birdbase": 25182,
+  "gbif": 2489203,
+  "inaturalist": "11972",
+  "iucn": "22712162",
+  "wikidata": "Q2718656",
+  "xeno_canto": "Stelgidopteryx-ruficollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stelgidopteryx_ruficollis",
+  "ebird": "https://ebird.org/species/srwswa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11972",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_rough-winged_swallow",
+   "es": "https://es.wikipedia.org/wiki/Stelgidopteryx_ruficollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stelgidopteryx+ruficollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Southern Rough-winged Swallow",
+  "en_aco": "Southern Rough-winged Swallow",
+  "es": "Golondrina Gorjirrufa",
+  "ru": "Пампасная ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stelgidopteryx ruficollis",
+ "sci_name_aco": "Stelgidopteryx ruficollis",
+ "sounds": [],
+ "taxon_order": 24116.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 15.866666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stelgidopteryx%20ruficollis%20-Manizales%2C%20Caldas%2C%20Colombia-8%20%28cropped%29.jpg"
+ ]
+}

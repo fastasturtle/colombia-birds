@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "categr1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Ardea",
+ "id": "ardea-ibis",
+ "ids": {
+  "avibase": "AB1CB216",
+  "birdbase": 8059,
+  "gbif": 2480830,
+  "inaturalist": null,
+  "iucn": "22697109",
+  "wikidata": "Q132669",
+  "xeno_canto": "Bubulcus-ibis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardea_ibis",
+  "ebird": "https://ebird.org/species/categr1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardea+ibis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Western Cattle-Egret",
+  "en_aco": "Cattle Egret",
+  "es": "Garcilla Bueyera Occidental",
+  "ru": "Египетская цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Ardea ibis",
+ "sci_name_aco": "Bubulcus ibis",
+ "sounds": [],
+ "taxon_order": 7724.0,
+ "taxonomy_note": "ACO/SACC lists this as Bubulcus ibis; eBird/Clements uses Ardea ibis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 4080,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 8,
+  "habitats": [
+   "forest",
+   "woodland",
+   "savanna",
+   "grassland",
+   "plantation",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 385.68333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bubulcus%20ibis%20%28Linnaeus%2C%201758%29%205938046541%20%283%29.jpg"
+ ]
+}

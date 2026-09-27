@@ -1,0 +1,94 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brojac2",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Brachygalba",
+ "id": "brachygalba-lugubris",
+ "ids": {
+  "avibase": "8B22F11F10F8ECFD",
+  "birdbase": 10930,
+  "gbif": 2475040,
+  "inaturalist": "1459",
+  "iucn": "22682180",
+  "wikidata": "Q614789",
+  "xeno_canto": "Brachygalba-lugubris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brachygalba_lugubris",
+  "ebird": "https://ebird.org/species/brojac2",
+  "inaturalist": "https://www.inaturalist.org/taxa/1459",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Brachygalba_lugubris",
+   "ru": "https://ru.wikipedia.org/wiki/Бурогорлая_брахигальба"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brachygalba+lugubris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Jacamar",
+  "en_aco": "Brown Jacamar",
+  "es": "Jacamará Pardo",
+  "ru": "Бурая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Brachygalba lugubris",
+ "sci_name_aco": "Brachygalba lugubris",
+ "sounds": [],
+ "taxon_order": 10483.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brachygalba%20lugubris%20-%20Brown%20jacamar%3B%20Olimpia%2C%20S%C3%A3o%20Paulo%2C%20Brazil.jpg"
+ ]
+}

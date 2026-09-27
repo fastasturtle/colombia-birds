@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "woewar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Helmitheros",
+ "id": "helmitheros-vermivorum",
+ "ids": {
+  "avibase": "295C4CD62A12ADEF",
+  "birdbase": 36130,
+  "gbif": 2489603,
+  "inaturalist": "72912",
+  "iucn": "22721768",
+  "wikidata": "Q269463",
+  "xeno_canto": "Helmitheros-vermivorum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Helmitheros_vermivorum",
+  "ebird": "https://ebird.org/species/woewar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72912",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Worm-eating_warbler",
+   "es": "https://es.wikipedia.org/wiki/Helmitheros_vermivorum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Helmitheros+vermivorum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Worm-eating Warbler",
+  "en_aco": "Worm-eating Warbler",
+  "es": "Reinita Gusanera",
+  "ru": "Певун-червеед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Helmitheros vermivorum",
+ "sci_name_aco": "Helmitheros vermivorum",
+ "sounds": [],
+ "taxon_order": 33950.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Worm-eating%20Warbler.jpg"
+ ]
+}

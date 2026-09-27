@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cassin, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lestan",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Chlorothraupis",
+ "id": "chlorothraupis-olivacea",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36610,
+  "gbif": 2488773,
+  "inaturalist": "10560",
+  "iucn": null,
+  "wikidata": "Q2630935",
+  "xeno_canto": "Chlorothraupis-olivacea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorothraupis_olivacea",
+  "ebird": "https://ebird.org/species/lestan",
+  "inaturalist": "https://www.inaturalist.org/taxa/10560",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lemon-spectacled_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chlorothraupis_olivacea",
+   "ru": "https://ru.wikipedia.org/wiki/Желтобровая_ширококлювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorothraupis+olivacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lemon-spectacled Tanager",
+  "en_aco": "Lemon-spectacled Tanager",
+  "es": "Tangara Olivácea",
+  "ru": "Очковая хабия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorothraupis olivacea",
+ "sci_name_aco": "Chlorothraupis olivacea",
+ "sounds": [],
+ "taxon_order": 34498.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 38.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorothraupis%20olivacea.jpg"
+ ]
+}

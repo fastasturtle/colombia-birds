@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cuervo, Cadena, M.L.Isler & Chesser, 2020)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chaant4",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-alvarezi",
+ "ids": {
+  "avibase": "4248B7F645F2BD8C",
+  "birdbase": 16575,
+  "gbif": 11142889,
+  "inaturalist": "1289552",
+  "iucn": null,
+  "wikidata": "Q98108597",
+  "xeno_canto": "grallaria-alvarezi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_alvarezi",
+  "ebird": "https://ebird.org/species/chaant4",
+  "inaturalist": "https://www.inaturalist.org/taxa/1289552",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chami_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_alvarezi",
+   "ru": "https://ru.wikipedia.org/wiki/Grallaria_alvarezi"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+alvarezi"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Chami Antpitta",
+  "en_aco": "Chamí Antpitta",
+  "es": "Tororoí Chamí",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria alvarezi",
+ "sci_name_aco": "Grallaria alvarezi",
+ "sounds": [],
+ "taxon_order": 14276.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3650,
+   "max_extreme": null,
+   "min": 2350,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20alvarezi%20Cham%C3%AD%20Antpitta%3B%20Riosucio%2C%20Caldas%2C%20Colombia.jpg"
+ ]
+}

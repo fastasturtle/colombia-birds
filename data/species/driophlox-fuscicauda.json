@@ -1,0 +1,95 @@
+{
+ "authorship": "(Cabanis, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rtatan1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Driophlox",
+ "id": "driophlox-fuscicauda",
+ "ids": {
+  "avibase": "8DD1FA5589109F8D",
+  "birdbase": 36593,
+  "gbif": 5230697,
+  "inaturalist": "9933",
+  "iucn": "22722416",
+  "wikidata": "Q1588596",
+  "xeno_canto": "Habia-fuscicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Habia_fuscicauda",
+  "ebird": "https://ebird.org/species/rtatan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9933",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-throated_ant_tanager",
+   "es": "https://es.wikipedia.org/wiki/Habia_fuscicauda",
+   "ru": "https://ru.wikipedia.org/wiki/Джунглевая_хабия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Driophlox+fuscicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-throated Ant-Tanager",
+  "en_aco": "Red-throated Ant-Tanager",
+  "es": "Habia Gorjirroja",
+  "ru": "Джунглевая хабия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Driophlox fuscicauda",
+ "sci_name_aco": "Habia fuscicauda",
+ "sounds": [],
+ "taxon_order": 34480.0,
+ "taxonomy_note": "ACO/SACC lists this as Habia fuscicauda; eBird/Clements uses Driophlox fuscicauda.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "wetland"
+  ],
+  "mass_g": 38.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Habia%20fuscicauda%20-Belize-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Habia%20fuscicauda%20-near%20Rancho%20Naturalista%2C%20Cordillera%20de%20Talamanca%2C%20Costa%20Rica%20-female-8.jpg"
+ ]
+}

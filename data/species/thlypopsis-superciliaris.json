@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "suphem1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Thlypopsis",
+ "id": "thlypopsis-superciliaris",
+ "ids": {
+  "avibase": "7DC2B3F6AECEA964",
+  "birdbase": 37368,
+  "gbif": 9637395,
+  "inaturalist": "558558",
+  "iucn": "22722223",
+  "wikidata": "Q28843277",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thlypopsis_superciliaris",
+  "ebird": "https://ebird.org/species/suphem1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558558",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Superciliaried_hemispingus",
+   "es": "https://es.wikipedia.org/wiki/Thlypopsis_superciliaris",
+   "ru": "https://ru.wikipedia.org/wiki/Светлобровый_хемиспингус"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thlypopsis+superciliaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Superciliaried Hemispingus",
+  "en_aco": "Superciliaried Hemispingus",
+  "es": "Hemispingo Cejudo",
+  "ru": "Светлобровая пипира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thlypopsis superciliaris",
+ "sci_name_aco": "Thlypopsis superciliaris",
+ "sounds": [],
+ "taxon_order": 34708.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3350,
+   "max_extreme": 3700,
+   "min": 2100,
+   "min_extreme": 1900
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 14,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hemispingus%20superciliaris%20-Ecuador-8.jpg"
+ ]
+}

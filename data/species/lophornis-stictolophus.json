@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin & D. G. Elliot, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spacoq1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Lophornis",
+ "id": "lophornis-stictolophus",
+ "ids": {
+  "avibase": "09271BADCEA6854D",
+  "birdbase": 2911,
+  "gbif": 2477010,
+  "inaturalist": "6345",
+  "iucn": "22687211",
+  "wikidata": "Q1004833",
+  "xeno_canto": "Lophornis-stictolophus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lophornis_stictolophus",
+  "ebird": "https://ebird.org/species/spacoq1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6345",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spangled_coquette",
+   "es": "https://es.wikipedia.org/wiki/Lophornis_stictolophus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lophornis+stictolophus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spangled Coquette",
+  "en_aco": "Spangled Coquette",
+  "es": "Coqueta Coronada",
+  "ru": "Пестрохохлая кокетка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Lophornis stictolophus",
+ "sci_name_aco": "Lophornis stictolophus",
+ "sounds": [],
+ "taxon_order": 4447.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 2.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spangled%20Coquette%20%28cropped%29.jpg"
+ ]
+}

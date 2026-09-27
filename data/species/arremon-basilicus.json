@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bangs, 1898)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sthbrf4",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Arremon",
+ "id": "arremon-basilicus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35244,
+  "gbif": 6093284,
+  "inaturalist": "145284",
+  "iucn": "22724893",
+  "wikidata": "Q7511521",
+  "xeno_canto": "Arremon-basilicus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Arremon_basilicus",
+  "ebird": "https://ebird.org/species/sthbrf4",
+  "inaturalist": "https://www.inaturalist.org/taxa/145284",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sierra_Nevada_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Arremon_basilicus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Arremon+basilicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sierra Nevada Brushfinch",
+  "en_aco": "Sierra Nevada Brushfinch",
+  "es": "Cerquero de Bangs",
+  "ru": "Сантамартийский тохи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Arremon basilicus",
+ "sci_name_aco": "Arremon basilicus",
+ "sounds": [],
+ "taxon_order": 33034.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 39,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Arremon%20basilicus.jpg"
+ ]
+}

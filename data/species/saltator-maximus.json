@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "butsal1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Saltator",
+ "id": "saltator-maximus",
+ "ids": {
+  "avibase": "8A80DE669B5B789D",
+  "birdbase": 36925,
+  "gbif": 5230942,
+  "inaturalist": "9855",
+  "iucn": "22723872",
+  "wikidata": "Q918325",
+  "xeno_canto": "Saltator-maximus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Saltator_maximus",
+  "ebird": "https://ebird.org/species/butsal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9855",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-throated_saltator",
+   "es": "https://es.wikipedia.org/wiki/Saltator_maximus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saltator+maximus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-throated Saltator",
+  "en_aco": "Buff-throated Saltator",
+  "es": "Pepitero Gorjicanelo",
+  "ru": "Большой сальтатор"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Saltator maximus",
+ "sci_name_aco": "Saltator maximus",
+ "sounds": [],
+ "taxon_order": 35783.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1650,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 47.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buff-throated%20saltator%20%2803199%29.jpg"
+ ]
+}

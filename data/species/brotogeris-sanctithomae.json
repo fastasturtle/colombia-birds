@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tuipar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Brotogeris",
+ "id": "brotogeris-sanctithomae",
+ "ids": {
+  "avibase": "0223FDB137D6CA4C",
+  "birdbase": 13179,
+  "gbif": 2479573,
+  "inaturalist": "19208",
+  "iucn": "22685994",
+  "wikidata": "Q1274256",
+  "xeno_canto": "Brotogeris-sanctithomae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brotogeris_sanctithomae",
+  "ebird": "https://ebird.org/species/tuipar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19208",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tui_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Brotogeris_sanctithomae",
+   "ru": "https://ru.wikipedia.org/wiki/Золотоголовый_тонкоклювый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brotogeris+sanctithomae"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Tui Parakeet",
+  "en_aco": "Tui Parakeet",
+  "es": "Catita Frentigualda",
+  "ru": "золотоголовый тонкоклювый попугай"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Brotogeris sanctithomae",
+ "sci_name_aco": "Brotogeris sanctithomae",
+ "sounds": [],
+ "taxon_order": 12825.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "rivers_lakes"
+  ],
+  "mass_g": 59,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brotogeris%20sanctithomae%20-Uarini%2C%20Amazonas%2C%20Brasil-8.jpg"
+ ]
+}

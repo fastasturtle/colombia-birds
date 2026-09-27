@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "squcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Piaya",
+ "id": "piaya-cayana",
+ "ids": {
+  "avibase": "6AA111B5364FA03C",
+  "birdbase": 4086,
+  "gbif": 2496432,
+  "inaturalist": "1758",
+  "iucn": "61418830",
+  "wikidata": "Q1270495",
+  "xeno_canto": "Piaya-cayana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piaya_cayana",
+  "ebird": "https://ebird.org/species/squcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1758",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_squirrel_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Piaya_cayana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piaya+cayana"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Common Squirrel-Cuckoo",
+  "en_aco": "Squirrel Cuckoo",
+  "es": "Cuco Ardilla Común",
+  "ru": null
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Piaya cayana",
+ "sci_name_aco": "Piaya cayana",
+ "sounds": [],
+ "taxon_order": 3218.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 103.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ALMA-DE-GATO%20%28Piaya%20cayana%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piaya%20cayana%20%28Cuco%20ardilla%20-%20Squirrel%20cuckoo%29%20%2845788138352%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Conover, 1949)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blatin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Tinamus",
+ "id": "tinamus-osgoodi",
+ "ids": {
+  "avibase": "63C5F122B24D11DB",
+  "birdbase": 46,
+  "gbif": 2477618,
+  "inaturalist": "20669",
+  "iucn": "22678145",
+  "wikidata": "Q998385",
+  "xeno_canto": "Tinamus-osgoodi"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tinamus_osgoodi",
+  "ebird": "https://ebird.org/species/blatin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20669",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Tinamus_osgoodi",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_тинаму"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tinamus+osgoodi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Tinamou",
+  "en_aco": "Black Tinamou",
+  "es": "Tinamú Negro",
+  "ru": "Чёрный тинаму"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Tinamus osgoodi",
+ "sci_name_aco": "Tinamus osgoodi",
+ "sounds": [],
+ "taxon_order": 146.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 1392.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tinamus%20osgoodi%20imported%20from%20iNaturalist%20photo%2070265010%20on%2010%20April%202021.jpg"
+ ]
+}

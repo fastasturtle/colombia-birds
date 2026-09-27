@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bknsti",
+ "family": {
+  "code": "recurv1",
+  "en": "Stilts and Avocets",
+  "sci": "Recurvirostridae"
+ },
+ "genus": "Himantopus",
+ "id": "himantopus-mexicanus",
+ "ids": {
+  "avibase": "62DAF6CC29ADBF9A",
+  "birdbase": 6434,
+  "gbif": 5229128,
+  "inaturalist": "4836",
+  "iucn": null,
+  "wikidata": "Q280358",
+  "xeno_canto": "Himantopus-mexicanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Himantopus_mexicanus",
+  "ebird": "https://ebird.org/species/bknsti",
+  "inaturalist": "https://www.inaturalist.org/taxa/4836",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-necked_stilt",
+   "es": "https://es.wikipedia.org/wiki/Himantopus_mexicanus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Himantopus+mexicanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-necked Stilt",
+  "en_aco": "Black-necked Stilt",
+  "es": "Cigüeñuela Cuellinegra",
+  "ru": "Американский ходулочник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Himantopus mexicanus",
+ "sci_name_aco": "Himantopus mexicanus",
+ "sounds": [],
+ "taxon_order": 5770.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 6100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "wetland"
+  ],
+  "mass_g": 173,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-necked-stilt-morro-creek%20306.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-necked%20Stilt%20%28Himantopus%20mexicanus%29%2C%20Corte%20Madera.jpg"
+ ]
+}

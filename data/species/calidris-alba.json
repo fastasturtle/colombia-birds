@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pallas, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sander",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-alba",
+ "ids": {
+  "avibase": "06B9BD243A756B28",
+  "birdbase": 6820,
+  "gbif": 2481748,
+  "inaturalist": "3849",
+  "iucn": "22693369",
+  "wikidata": "Q58958",
+  "xeno_canto": "Calidris-alba"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_alba",
+  "ebird": "https://ebird.org/species/sander",
+  "inaturalist": "https://www.inaturalist.org/taxa/3849",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sanderling",
+   "es": "https://es.wikipedia.org/wiki/Calidris_alba",
+   "ru": "https://ru.wikipedia.org/wiki/Песчанка_(птица)"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+alba"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sanderling",
+  "en_aco": "Sanderling",
+  "es": "Correlimos Tridáctilo",
+  "ru": "Песчанка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris alba",
+ "sci_name_aco": "Calidris alba",
+ "sounds": [],
+ "taxon_order": 6189.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 60,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 61,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sanderling%20%28Calidris%20alba%29%20%286%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2014-05-25%20Sanderling%2C%20Paignton%20Beach%2C%20Devon%201.jpg"
+ ]
+}

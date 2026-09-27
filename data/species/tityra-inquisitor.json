@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blctit1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Tityra",
+ "id": "tityra-inquisitor",
+ "ids": {
+  "avibase": "85750F2BCDF9637A",
+  "birdbase": 18492,
+  "gbif": 2486476,
+  "inaturalist": "8823",
+  "iucn": "22700692",
+  "wikidata": "Q1305621",
+  "xeno_canto": "Tityra-inquisitor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tityra_inquisitor",
+  "ebird": "https://ebird.org/species/blctit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8823",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-crowned_tityra",
+   "es": "https://es.wikipedia.org/wiki/Tityra_inquisitor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tityra+inquisitor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-crowned Tityra",
+  "en_aco": "Black-crowned Tityra",
+  "es": "Titira Piquinegro",
+  "ru": "Черноголовая титира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tityra inquisitor",
+ "sci_name_aco": "Tityra inquisitor",
+ "sounds": [],
+ "taxon_order": 15961.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 51.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-crowned%20tityra.jpg"
+ ]
+}

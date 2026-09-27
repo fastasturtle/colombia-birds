@@ -1,0 +1,91 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-derbyi",
+ "ids": {
+  "avibase": "AD8A1A5AFCDB33CF",
+  "birdbase": 3065,
+  "gbif": 5228538,
+  "inaturalist": "6289",
+  "iucn": "22687947",
+  "wikidata": "Q1269434",
+  "xeno_canto": "Eriocnemis-derbyi"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_derbyi",
+  "ebird": "https://ebird.org/species/bltpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6289",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-thighed_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_derbyi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+derbyi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-thighed Puffleg",
+  "en_aco": "Black-thighed Puffleg",
+  "es": "Calzadito Patinegro",
+  "ru": "Чернобёдрый эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis derbyi",
+ "sci_name_aco": "Eriocnemis derbyi",
+ "sounds": [],
+ "taxon_order": 4586.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 2900,
+   "min_extreme": 2500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 5.25,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eriocnemis%20derbyi%20%28Paramero%20rabihorcado%29%20%2815484965256%29.jpg"
+ ]
+}

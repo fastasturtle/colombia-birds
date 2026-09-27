@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bonaparte, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "powwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Campephilus",
+ "id": "campephilus-pollens",
+ "ids": {
+  "avibase": "7AD8B03645DD8531",
+  "birdbase": 12560,
+  "gbif": 2478569,
+  "inaturalist": "18285",
+  "iucn": "22681386",
+  "wikidata": "Q1270221",
+  "xeno_canto": "Campephilus-pollens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campephilus_pollens",
+  "ebird": "https://ebird.org/species/powwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18285",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Powerful_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Campephilus_pollens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campephilus+pollens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Powerful Woodpecker",
+  "en_aco": "Powerful Woodpecker",
+  "es": "Picamaderos Poderoso",
+  "ru": "Рыжеполосый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Campephilus pollens",
+ "sci_name_aco": "Campephilus pollens",
+ "sounds": [],
+ "taxon_order": 11547.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": 3750,
+   "min": 1700,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 189,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Powerful%20Woodpecker%20-%20Ecuador%20S4E2767.jpg"
+ ]
+}

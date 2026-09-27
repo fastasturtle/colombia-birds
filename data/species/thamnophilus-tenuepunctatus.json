@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "linant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-tenuepunctatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15995,
+  "gbif": 7341969,
+  "inaturalist": "62536",
+  "iucn": "22733849",
+  "wikidata": "Q1076015",
+  "xeno_canto": "Thamnophilus-tenuepunctatus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_tenuepunctatus",
+  "ebird": "https://ebird.org/species/linant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/62536",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lined_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_tenuepunctatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+tenuepunctatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lined Antshrike",
+  "en_aco": "Lined Antshrike",
+  "es": "Batará Vermiculado",
+  "ru": "Рябой колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus tenuepunctatus",
+ "sci_name_aco": "Thamnophilus tenuepunctatus",
+ "sounds": [],
+ "taxon_order": 13523.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2500,
+   "min": 500,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 24,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lined-Antshrike.jpg"
+ ]
+}

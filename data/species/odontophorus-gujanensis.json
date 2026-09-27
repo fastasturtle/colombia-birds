@@ -1,0 +1,91 @@
+{
+ "authorship": "(C. Chubb, 1919)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mawqua1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Odontophorus",
+ "id": "odontophorus-gujanensis",
+ "ids": {
+  "avibase": "B41E681C2E1EE5C1",
+  "birdbase": 923,
+  "gbif": 5228058,
+  "inaturalist": "1375",
+  "iucn": "22679630",
+  "wikidata": "Q929945",
+  "xeno_canto": "Odontophorus-gujanensis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontophorus_gujanensis",
+  "ebird": "https://ebird.org/species/mawqua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1375",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Marbled_wood_quail",
+   "es": "https://es.wikipedia.org/wiki/Odontophorus_gujanensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontophorus+gujanensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Marbled Wood-Quail",
+  "en_aco": "Marbled Wood-Quail",
+  "es": "Corcovado Común",
+  "ru": "Мраморный зубцеклювый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Odontophorus gujanensis",
+ "sci_name_aco": "Odontophorus gujanensis",
+ "sounds": [],
+ "taxon_order": 1135.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 318.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Marbled%20Wood-Quail%20-%20Rio%20Tigre%20-%20Costa%20Rica%20MG%207758%20%2826101675664%29.jpg"
+ ]
+}

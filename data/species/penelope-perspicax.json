@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bangs, 1911)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "caugua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Penelope",
+ "id": "penelope-perspicax",
+ "ids": {
+  "avibase": "2296FCC4EA06C614",
+  "birdbase": 701,
+  "gbif": 2482224,
+  "inaturalist": "2067",
+  "iucn": "22678379",
+  "wikidata": "Q1261205",
+  "xeno_canto": "Penelope-perspicax"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Penelope_perspicax",
+  "ebird": "https://ebird.org/species/caugua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2067",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cauca_guan",
+   "es": "https://es.wikipedia.org/wiki/Penelope_perspicax",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Penelope+perspicax"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cauca Guan",
+  "en_aco": "Cauca Guan",
+  "es": "Pava del Cauca",
+  "ru": "Колумбийская пенелопа"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Penelope perspicax",
+ "sci_name_aco": "Penelope perspicax",
+ "sounds": [],
+ "taxon_order": 916.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Pebbles",
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": 2690,
+   "min": 1200,
+   "min_extreme": 816
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 1197,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Penelope%20perspicax%20Pava%20caucana%20Cauca%20Guan%20%2810726666385%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bestan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-nigroviridis",
+ "ids": {
+  "avibase": "D311DF971A9639E9",
+  "birdbase": 37882,
+  "gbif": 2488106,
+  "inaturalist": "9576",
+  "iucn": "22722930",
+  "wikidata": "Q918165",
+  "xeno_canto": "Tangara-nigroviridis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_nigroviridis",
+  "ebird": "https://ebird.org/species/bestan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9576",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Beryl-spangled_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_nigroviridis",
+   "ru": "https://ru.wikipedia.org/wiki/Берилловая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+nigroviridis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Beryl-spangled Tanager",
+  "en_aco": "Beryl-spangled Tanager",
+  "es": "Tangara de Lentejuelas",
+  "ru": "Берилловая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara nigroviridis",
+ "sci_name_aco": "Tangara nigroviridis",
+ "sounds": [],
+ "taxon_order": 35041.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": 3000,
+   "min": 1400,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 15.833333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20nigroviridis%20T%C3%A1ngara%20berlina%20Beryl-spangled%20Tanager%20%2814996504381%29%20%28cropped%29.jpg"
+ ]
+}

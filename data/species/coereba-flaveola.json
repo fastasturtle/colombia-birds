@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "banana",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Coereba",
+ "id": "coereba-flaveola",
+ "ids": {
+  "avibase": "B78F2D6F0E30160C",
+  "birdbase": 36957,
+  "gbif": 2493744,
+  "inaturalist": "10199",
+  "iucn": "22722080",
+  "wikidata": "Q228125",
+  "xeno_canto": "Coereba-flaveola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coereba_flaveola",
+  "ebird": "https://ebird.org/species/banana",
+  "inaturalist": "https://www.inaturalist.org/taxa/10199",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bananaquit",
+   "es": "https://es.wikipedia.org/wiki/Coereba_flaveola",
+   "ru": "https://ru.wikipedia.org/wiki/Банановый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coereba+flaveola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bananaquit",
+  "en_aco": "Bananaquit",
+  "es": "Platanero",
+  "ru": "Банановая кареба, сахарная цветочница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Coereba flaveola",
+ "sci_name_aco": "Coereba flaveola",
+ "sounds": [],
+ "taxon_order": 35644.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 10.200000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bananaquits.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coereba%20flaveola%20MHNT%20228%20Martinique.jpg"
+ ]
+}

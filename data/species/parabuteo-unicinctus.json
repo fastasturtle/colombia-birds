@@ -1,0 +1,96 @@
+{
+ "authorship": "(Temminck, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hrshaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Parabuteo",
+ "id": "parabuteo-unicinctus",
+ "ids": {
+  "avibase": "FBED1927FAA44D27",
+  "birdbase": 8743,
+  "gbif": 2480410,
+  "inaturalist": "5355",
+  "iucn": "22695838",
+  "wikidata": "Q742698",
+  "xeno_canto": "Parabuteo-unicinctus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Parabuteo_unicinctus",
+  "ebird": "https://ebird.org/species/hrshaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5355",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Harris's_hawk",
+   "es": "https://es.wikipedia.org/wiki/Parabuteo_unicinctus",
+   "ru": "https://ru.wikipedia.org/wiki/Пустынный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Parabuteo+unicinctus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Harris's Hawk",
+  "en_aco": "Harris's Hawk",
+  "es": "Busardo Mixto",
+  "ru": "Орлиный канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Parabuteo unicinctus",
+ "sci_name_aco": "Parabuteo unicinctus",
+ "sounds": [],
+ "taxon_order": 8445.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 936,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Harris%27s%20Hawk%20eyes%20me.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Harris%27s%20Hawk%20%28Parabuteo%20unicinctus%29%203%20of%204%20in%20set.jpg"
+ ]
+}

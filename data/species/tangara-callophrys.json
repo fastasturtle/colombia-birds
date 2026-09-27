@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cabanis, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "opctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-callophrys",
+ "ids": {
+  "avibase": "3B1E365F725942BE",
+  "birdbase": 37969,
+  "gbif": 2488113,
+  "inaturalist": "9563",
+  "iucn": "22722958",
+  "wikidata": "Q1587552",
+  "xeno_canto": "Tangara-callophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_callophrys",
+  "ebird": "https://ebird.org/species/opctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9563",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Opal-crowned_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_callophrys",
+   "ru": "https://ru.wikipedia.org/wiki/Опаловая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+callophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Opal-crowned Tanager",
+  "en_aco": "Opal-crowned Tanager",
+  "es": "Tangara Opalina",
+  "ru": "Гиацинтовая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara callophrys",
+ "sci_name_aco": "Tangara callophrys",
+ "sounds": [],
+ "taxon_order": 35075.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 950,
+   "max_extreme": 1000,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 23.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20callophrys%20-%20Opal-crowned%20Tanager%3B%20Serra%20do%20Divisor%20National%20Park%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

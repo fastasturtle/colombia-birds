@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brnnod",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Anous",
+ "id": "anous-stolidus",
+ "ids": {
+  "avibase": "A070171E774B95B5",
+  "birdbase": 6922,
+  "gbif": 9512459,
+  "inaturalist": "4535",
+  "iucn": "22694794",
+  "wikidata": "Q525717",
+  "xeno_canto": "Anous-stolidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anous_stolidus",
+  "ebird": "https://ebird.org/species/brnnod",
+  "inaturalist": "https://www.inaturalist.org/taxa/4535",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_noddy",
+   "es": "https://es.wikipedia.org/wiki/Anous_stolidus",
+   "ru": "https://ru.wikipedia.org/wiki/Обыкновенная_глупая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anous+stolidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Noddy",
+  "en_aco": "Brown Noddy",
+  "es": "Tiñosa Boba",
+  "ru": "Бурая кланяющаяся крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Anous stolidus",
+ "sci_name_aco": "Anous stolidus",
+ "sounds": [],
+ "taxon_order": 6634.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 184.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Common%20Noddy.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anous%20stolidus%20by%20Gregg%20Yan%2001.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Mazaria",
+ "id": "mazaria-propinqua",
+ "ids": {
+  "avibase": "DB42555B6DABE335",
+  "birdbase": 15524,
+  "gbif": 9255047,
+  "inaturalist": "10995",
+  "iucn": null,
+  "wikidata": "Q1263871",
+  "xeno_canto": "Mazaria-propinqua"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Synallaxis_propinqua",
+  "ebird": "https://ebird.org/species/whbspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10995",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bellied_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Mazaria_propinqua",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mazaria+propinqua"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bellied Spinetail",
+  "en_aco": "White-bellied Spinetail",
+  "es": "Pijuí Ventriblanco",
+  "ru": "Белобрюхая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mazaria propinqua",
+ "sci_name_aco": "Mazaria propinqua",
+ "sounds": [],
+ "taxon_order": 15566.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 19.583333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mazaria%20propinqua%20-%20White-bellied%20Spinetail%3B%20Marchantaria%20Island%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

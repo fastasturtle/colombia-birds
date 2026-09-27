@@ -1,0 +1,97 @@
+{
+ "authorship": "(Molina, 1782)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "snoegr",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Egretta",
+ "id": "egretta-thula",
+ "ids": {
+  "avibase": "AA7901D88E7203E5",
+  "birdbase": 7973,
+  "gbif": 2480873,
+  "inaturalist": "4940",
+  "iucn": "22696974",
+  "wikidata": "Q59785",
+  "xeno_canto": "Egretta-thula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Egretta_thula",
+  "ebird": "https://ebird.org/species/snoegr",
+  "inaturalist": "https://www.inaturalist.org/taxa/4940",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Snowy_egret",
+   "es": "https://es.wikipedia.org/wiki/Egretta_thula",
+   "ru": "https://ru.wikipedia.org/wiki/Белая_американская_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Egretta+thula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Snowy Egret",
+  "en_aco": "Snowy Egret",
+  "es": "Garceta Nívea",
+  "ru": "Снежная цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Egretta thula",
+ "sci_name_aco": "Egretta thula",
+ "sounds": [],
+ "taxon_order": 7645.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1280,
+   "max_extreme": 4000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 370,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Snowy%20Egret%20-%20February%2025%2C%202022.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Egretta%20thula%20at%20Las%20Gallinas%20Wildlife%20Ponds.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aigrette%20neigeuse.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/SnowyEgret-Florida.jpg"
+ ]
+}

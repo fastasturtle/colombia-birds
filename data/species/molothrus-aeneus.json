@@ -1,0 +1,95 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brocow",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Molothrus",
+ "id": "molothrus-aeneus",
+ "ids": {
+  "avibase": "EAEEA0934F069A51",
+  "birdbase": 36019,
+  "gbif": 2484404,
+  "inaturalist": "10369",
+  "iucn": "22732035",
+  "wikidata": "Q1190592",
+  "xeno_canto": "Molothrus-aeneus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Molothrus_aeneus",
+  "ebird": "https://ebird.org/species/brocow",
+  "inaturalist": "https://www.inaturalist.org/taxa/10369",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronzed_cowbird",
+   "es": "https://es.wikipedia.org/wiki/Molothrus_aeneus",
+   "ru": "https://ru.wikipedia.org/wiki/Красноглазый_коровий_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Molothrus+aeneus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronzed Cowbird",
+  "en_aco": "Bronzed Cowbird",
+  "es": "Tordo Ojirrojo",
+  "ru": "Красноглазый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Molothrus aeneus",
+ "sci_name_aco": "Molothrus aeneus",
+ "sounds": [],
+ "taxon_order": 33826.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland",
+   "desert",
+   "agricultural"
+  ],
+  "mass_g": 51.550000000000004,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Molothrus%20aeneus%20-Tucson%2C%20Arizona%2C%20USA-8%20%281%29.jpg"
+ ]
+}

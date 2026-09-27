@@ -1,0 +1,91 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gretin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Tinamus",
+ "id": "tinamus-major",
+ "ids": {
+  "avibase": "42D72AE118D2DE82",
+  "birdbase": 49,
+  "gbif": 2477630,
+  "inaturalist": "20672",
+  "iucn": "22678148",
+  "wikidata": "Q852723",
+  "xeno_canto": "Tinamus-major"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tinamus_major",
+  "ebird": "https://ebird.org/species/gretin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20672",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Tinamus_major",
+   "ru": "https://ru.wikipedia.org/wiki/Большой_тинаму"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tinamus+major"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Tinamou",
+  "en_aco": "Great Tinamou",
+  "es": "Tinamú Oliváceo",
+  "ru": "Большой тинаму"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Tinamus major",
+ "sci_name_aco": "Tinamus major",
+ "sounds": [],
+ "taxon_order": 126.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 1006.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tinamus%20majorPCSL00504B.jpg"
+ ]
+}

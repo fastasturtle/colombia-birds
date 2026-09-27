@@ -1,0 +1,94 @@
+{
+ "authorship": "(Trudeau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whwtan1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Piranga",
+ "id": "piranga-leucoptera",
+ "ids": {
+  "avibase": "CA0D68AEB313EC60",
+  "birdbase": 36563,
+  "gbif": 2488493,
+  "inaturalist": "9920",
+  "iucn": "22722476",
+  "wikidata": "Q3117574",
+  "xeno_canto": "Piranga-leucoptera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piranga_leucoptera",
+  "ebird": "https://ebird.org/species/whwtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9920",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-winged_tanager",
+   "es": "https://es.wikipedia.org/wiki/Piranga_leucoptera",
+   "ru": "https://ru.wikipedia.org/wiki/Белокрылая_пиранга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piranga+leucoptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-winged Tanager",
+  "en_aco": "White-winged Tanager",
+  "es": "Piranga Aliblanca",
+  "ru": "Белокрылая пиранга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Piranga leucoptera",
+ "sci_name_aco": "Piranga leucoptera",
+ "sounds": [],
+ "taxon_order": 34449.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2600,
+   "min": 100,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 16.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piranga%20leucoptera%20%28female%29%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piranga%20leucoptera%20-%20Waraira%20Repano%20National%20Park%2C%20Venezuela%20-male-8.jpg"
+ ]
+}

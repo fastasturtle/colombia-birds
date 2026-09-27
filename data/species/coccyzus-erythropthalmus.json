@@ -1,0 +1,95 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkbcuc",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccyzus",
+ "id": "coccyzus-erythropthalmus",
+ "ids": {
+  "avibase": "41E9F54BDA04ACBA",
+  "birdbase": 4130,
+  "gbif": 2496286,
+  "inaturalist": "1960",
+  "iucn": "22684328",
+  "wikidata": "Q19027",
+  "xeno_canto": "Coccyzus-erythropthalmus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccyzus_erythropthalmus",
+  "ebird": "https://ebird.org/species/bkbcuc",
+  "inaturalist": "https://www.inaturalist.org/taxa/1960",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccyzus_erythropthalmus",
+   "ru": "https://ru.wikipedia.org/wiki/Черноклювая_американская_кукушка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccyzus+erythropthalmus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Cuckoo",
+  "en_aco": "Black-billed Cuckoo",
+  "es": "Cuclillo Piquinegro",
+  "ru": "Черноклювая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccyzus erythropthalmus",
+ "sci_name_aco": "Coccyzus erythropthalmus",
+ "sounds": [],
+ "taxon_order": 3243.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 3950,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 53.20000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-billed-cuckoo2.jpg"
+ ]
+}

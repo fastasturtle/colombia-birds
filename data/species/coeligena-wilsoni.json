@@ -1,0 +1,91 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "broinc2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-wilsoni",
+ "ids": {
+  "avibase": "F2DABE413581AE84",
+  "birdbase": 3102,
+  "gbif": 2477042,
+  "inaturalist": "6236",
+  "iucn": "22687810",
+  "wikidata": "Q510226",
+  "xeno_canto": "Coeligena-wilsoni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_wilsoni",
+  "ebird": "https://ebird.org/species/broinc2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6236",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_inca",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_wilsoni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+wilsoni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Inca",
+  "en_aco": "Brown Inca",
+  "es": "Inca Pardo",
+  "ru": "Коричневый инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena wilsoni",
+ "sci_name_aco": "Coeligena wilsoni",
+ "sounds": [],
+ "taxon_order": 4621.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": 2400,
+   "min": 700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6.88,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown%20Inca%20%28Coeligena%20wilsoni%29.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whrsan",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-fuscicollis",
+ "ids": {
+  "avibase": "153BA3069DFCDDCA",
+  "birdbase": 6844,
+  "gbif": 2481756,
+  "inaturalist": "3866",
+  "iucn": "22693399",
+  "wikidata": "Q599749",
+  "xeno_canto": "Calidris-fuscicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_fuscicollis",
+  "ebird": "https://ebird.org/species/whrsan",
+  "inaturalist": "https://www.inaturalist.org/taxa/3866",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-rumped_sandpiper",
+   "es": "https://es.wikipedia.org/wiki/Calidris_fuscicollis",
+   "ru": "https://ru.wikipedia.org/wiki/Бонапартов_песочник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+fuscicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-rumped Sandpiper",
+  "en_aco": "White-rumped Sandpiper",
+  "es": "Correlimos Culiblanco",
+  "ru": "Бонапартов песочник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris fuscicollis",
+ "sci_name_aco": "Calidris fuscicollis",
+ "sounds": [],
+ "taxon_order": 6221.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 42.03333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-rumped%20Sandpiper.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calidris%20fuscicollis.jpg"
+ ]
+}

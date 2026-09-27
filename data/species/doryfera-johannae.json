@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blflan1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Doryfera",
+ "id": "doryfera-johannae",
+ "ids": {
+  "avibase": "60EFC3838668D83F",
+  "birdbase": 2797,
+  "gbif": 2476968,
+  "inaturalist": "6319",
+  "iucn": "22687032",
+  "wikidata": "Q661929",
+  "xeno_canto": "Doryfera-johannae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Doryfera_johannae",
+  "ebird": "https://ebird.org/species/blflan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6319",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-fronted_lancebill",
+   "es": "https://es.wikipedia.org/wiki/Doryfera_johannae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Doryfera+johannae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-fronted Lancebill",
+  "en_aco": "Blue-fronted Lancebill",
+  "es": "Colibrí Picolanza Menor",
+  "ru": "Синелобый ланцетоклюв"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Doryfera johannae",
+ "sci_name_aco": "Doryfera johannae",
+ "sounds": [],
+ "taxon_order": 4340.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 2000,
+   "min": 800,
+   "min_extreme": 280
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "riparian"
+  ],
+  "mass_g": 4.540000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Histoirenaturell11874muls%200207.jpg"
+ ]
+}

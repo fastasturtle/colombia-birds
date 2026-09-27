@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1877)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olipih2",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Snowornis",
+ "id": "snowornis-cryptolophus",
+ "ids": {
+  "avibase": "E117776E0BB7F4DF",
+  "birdbase": 18252,
+  "gbif": 2486238,
+  "inaturalist": "8742",
+  "iucn": "22700838",
+  "wikidata": "Q1316505",
+  "xeno_canto": "Snowornis-cryptolophus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Snowornis_cryptolophus",
+  "ebird": "https://ebird.org/species/olipih2",
+  "inaturalist": "https://www.inaturalist.org/taxa/8742",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olivaceous_piha",
+   "es": "https://es.wikipedia.org/wiki/Snowornis_cryptolophus",
+   "ru": "https://ru.wikipedia.org/wiki/Желтобрюхая_сорокопутовая_пиха"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Snowornis+cryptolophus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olivaceous Piha",
+  "en_aco": "Olivaceous Piha",
+  "es": "Guardabosques Oliváceo",
+  "ru": "Оливковая пиха"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Snowornis cryptolophus",
+ "sci_name_aco": "Snowornis cryptolophus",
+ "sounds": [],
+ "taxon_order": 15906.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 570
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 83.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Olivaceous%20Piha%20%2832908961087%29.jpg"
+ ]
+}

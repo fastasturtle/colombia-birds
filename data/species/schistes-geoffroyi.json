@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "webhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Schistes",
+ "id": "schistes-geoffroyi",
+ "ids": {
+  "avibase": "47E87B13FB330724",
+  "birdbase": 2802,
+  "gbif": 2476199,
+  "inaturalist": "850877",
+  "iucn": "22726816",
+  "wikidata": "Q669331",
+  "xeno_canto": "Schistes-geoffroyi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schistes_geoffroyi",
+  "ebird": "https://ebird.org/species/webhum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/850877",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Geoffroy's_daggerbill",
+   "es": "https://es.wikipedia.org/wiki/Schistes_geoffroyi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schistes+geoffroyi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Geoffroy's Daggerbill",
+  "en_aco": "Geoffroy's Daggerbill",
+  "es": "Colibrí Picocuña Oriental",
+  "ru": "Клиноклювый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Schistes geoffroyi",
+ "sci_name_aco": "Schistes geoffroyi",
+ "sounds": [],
+ "taxon_order": 4344.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 475
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3.8,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schistes%20geoffroyi%20%28Pico%20de%20cu%C3%B1a%29%20%2822653616465%29.jpg"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "merlin",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Falco",
+ "id": "falco-columbarius",
+ "ids": {
+  "avibase": "F3DA111CC8A6841B",
+  "birdbase": 12931,
+  "gbif": 9813242,
+  "inaturalist": "4672",
+  "iucn": "22696453",
+  "wikidata": "Q131918",
+  "xeno_canto": "Falco-columbarius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Falco_columbarius",
+  "ebird": "https://ebird.org/species/merlin",
+  "inaturalist": "https://www.inaturalist.org/taxa/4672",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Merlin_(bird)",
+   "es": "https://es.wikipedia.org/wiki/Falco_columbarius",
+   "ru": "https://ru.wikipedia.org/wiki/Дербник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Falco+columbarius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Merlin",
+  "en_aco": "Merlin",
+  "es": "Esmerejón",
+  "ru": "Дербник"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Falco columbarius",
+ "sci_name_aco": "Falco columbarius",
+ "sounds": [],
+ "taxon_order": 12062.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "plantation",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 193,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Merlin%20prey%20fencepost%20Cochrane%20cropped.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Falco%20columbarius%20PP.jpg"
+ ]
+}

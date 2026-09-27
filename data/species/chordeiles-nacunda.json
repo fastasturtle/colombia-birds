@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nacnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Chordeiles",
+ "id": "chordeiles-nacunda",
+ "ids": {
+  "avibase": "6E297C5B629A437E",
+  "birdbase": 1825,
+  "gbif": 7342291,
+  "inaturalist": "19661",
+  "iucn": "22689723",
+  "wikidata": "Q1260007",
+  "xeno_canto": "Chordeiles-nacunda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chordeiles_nacunda",
+  "ebird": "https://ebird.org/species/nacnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19661",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Nacunda_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Chordeiles_nacunda",
+   "ru": "https://ru.wikipedia.org/wiki/Chordeiles_nacunda"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chordeiles+nacunda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Nacunda Nighthawk",
+  "en_aco": "Nacunda Nighthawk",
+  "es": "Añapero Ñacundá",
+  "ru": "Белобрюхий сумеречник"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Chordeiles nacunda",
+ "sci_name_aco": "Chordeiles nacunda",
+ "sounds": [],
+ "taxon_order": 3471.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 157,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nacunda%20Nighthawk.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nacunda%20nighthawk.jpg"
+ ]
+}

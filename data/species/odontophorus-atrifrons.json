@@ -1,0 +1,92 @@
+{
+ "authorship": "(J.A. Allen, 1900)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bfwqua1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Odontophorus",
+ "id": "odontophorus-atrifrons",
+ "ids": {
+  "avibase": "C45218DF88B1C5FE",
+  "birdbase": 946,
+  "gbif": 5228053,
+  "inaturalist": "1365",
+  "iucn": "22679650",
+  "wikidata": "Q1258916",
+  "xeno_canto": "Odontophorus-atrifrons"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontophorus_atrifrons",
+  "ebird": "https://ebird.org/species/bfwqua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1365",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-fronted_wood_quail",
+   "es": "https://es.wikipedia.org/wiki/Odontophorus_atrifrons",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontophorus+atrifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-fronted Wood-Quail",
+  "en_aco": "Black-fronted Wood-Quail",
+  "es": "Corcovado Carinegro",
+  "ru": "Чернолобый зубцеклювый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Odontophorus atrifrons",
+ "sci_name_aco": "Odontophorus atrifrons",
+ "sounds": [],
+ "taxon_order": 1150.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 290.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-fronted%20wood%20quail.jpg"
+ ]
+}

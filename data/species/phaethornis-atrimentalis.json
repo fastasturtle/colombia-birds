@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkther1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-atrimentalis",
+ "ids": {
+  "avibase": "BF1FDF215680C1E7",
+  "birdbase": 2714,
+  "gbif": 2476632,
+  "inaturalist": "5599",
+  "iucn": "22733197",
+  "wikidata": "Q944117",
+  "xeno_canto": "Phaethornis-atrimentalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_atrimentalis",
+  "ebird": "https://ebird.org/species/bkther1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5599",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-throated_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_atrimentalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+atrimentalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-throated Hermit",
+  "en_aco": "Black-throated Hermit",
+  "es": "Ermitaño Barbinegro",
+  "ru": "Черногорлый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis atrimentalis",
+ "sci_name_aco": "Phaethornis atrimentalis",
+ "sounds": [],
+ "taxon_order": 4307.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 2.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20Hermit%20imported%20from%20iNaturalist%20photo%2094209850%20on%209%20January%202023.jpg"
+ ]
+}

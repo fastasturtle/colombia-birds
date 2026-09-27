@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubtap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Liosceles",
+ "id": "liosceles-thoracicus",
+ "ids": {
+  "avibase": "C09A5A72E1906B4A",
+  "birdbase": 16731,
+  "gbif": 2490961,
+  "inaturalist": "14789",
+  "iucn": "22703446",
+  "wikidata": "Q903099",
+  "xeno_canto": "Liosceles-thoracicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Liosceles_thoracicus",
+  "ebird": "https://ebird.org/species/rubtap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14789",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty-belted_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Liosceles_thoracicus",
+   "ru": "https://ru.wikipedia.org/wiki/Красногалстучный_топаколо"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Liosceles+thoracicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rusty-belted Tapaculo",
+  "en_aco": "Rusty-belted Tapaculo",
+  "es": "Tapaculo Amazónico",
+  "ru": "Амазонский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Liosceles thoracicus",
+ "sci_name_aco": "Liosceles thoracicus",
+ "sounds": [],
+ "taxon_order": 14376.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 40.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Liosceles%20thoracicus%20Rusty-belted%20Tapaculo%3B%20Amazonia%20National%20Park%2C%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PteroptochusThoracicusJennens.jpg"
+ ]
+}

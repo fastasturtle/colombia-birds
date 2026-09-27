@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ocbant1",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaricula",
+ "id": "grallaricula-flavirostris",
+ "ids": {
+  "avibase": "051DF113908CF3A1",
+  "birdbase": 16646,
+  "gbif": 2490514,
+  "inaturalist": "116911",
+  "iucn": "22703362",
+  "wikidata": "Q905611",
+  "xeno_canto": "Grallaricula-flavirostris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaricula_flavirostris",
+  "ebird": "https://ebird.org/species/ocbant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116911",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ochre-breasted_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaricula_flavirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaricula+flavirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ochre-breasted Antpitta",
+  "en_aco": "Ochre-breasted Antpitta",
+  "es": "Ponchito Ocráceo",
+  "ru": "Андская питтуля"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaricula flavirostris",
+ "sci_name_aco": "Grallaricula flavirostris",
+ "sounds": [],
+ "taxon_order": 14332.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2750,
+   "min": 900,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 16.783333333333335,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ochre-breasted%20Antpitta%202.jpg"
+ ]
+}

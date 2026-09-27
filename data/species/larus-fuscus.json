@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lbbgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-fuscus",
+ "ids": {
+  "avibase": "49025D8B171EFAD7",
+  "birdbase": 7173,
+  "gbif": 2481174,
+  "inaturalist": "4381",
+  "iucn": "22694373",
+  "wikidata": "Q27160",
+  "xeno_canto": "Larus-fuscus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_fuscus",
+  "ebird": "https://ebird.org/species/lbbgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4381",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_fuscus",
+   "ru": "https://ru.wikipedia.org/wiki/Клуша"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+fuscus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Black-backed Gull",
+  "en_aco": "Lesser Black-backed Gull",
+  "es": "Gaviota Sombría",
+  "ru": "Клуша"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus fuscus",
+ "sci_name_aco": "Larus fuscus",
+ "sounds": [],
+ "taxon_order": 6576.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 841.3333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20fuscus%20Finnboda%202012.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus-fuscus-taxbox.jpg"
+ ]
+}

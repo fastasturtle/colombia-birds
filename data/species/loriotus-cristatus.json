@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "flctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Loriotus",
+ "id": "loriotus-cristatus",
+ "ids": {
+  "avibase": "7572F846490E3010",
+  "birdbase": 37120,
+  "gbif": 10901072,
+  "inaturalist": "10075",
+  "iucn": null,
+  "wikidata": "Q1590393",
+  "xeno_canto": "Tachyphonus-cristatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tachyphonus_cristatus",
+  "ebird": "https://ebird.org/species/flctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10075",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Flame-crested_tanager",
+   "es": "https://es.wikipedia.org/wiki/Loriotus_cristatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Loriotus+cristatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Flame-crested Tanager",
+  "en_aco": "Flame-crested Tanager",
+  "es": "Tangara Crestifuego",
+  "ru": "Огненохохлая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Loriotus cristatus",
+ "sci_name_aco": "Loriotus cristatus",
+ "sounds": [],
+ "taxon_order": 34751.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 19.183333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tachyphonus%20cristatus%20-%20Flame-crested%20Tanager%20%28male%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tachyphonus%20cristatus%20-%20Flame-crested%20Tanager%20%28female%29%2001.JPG"
+ ]
+}

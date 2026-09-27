@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sumtan",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Piranga",
+ "id": "piranga-rubra",
+ "ids": {
+  "avibase": "891798D9EFFE1F8D",
+  "birdbase": 36554,
+  "gbif": 2488485,
+  "inaturalist": "9915",
+  "iucn": "22722456",
+  "wikidata": "Q1078246",
+  "xeno_canto": "Piranga-rubra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piranga_rubra",
+  "ebird": "https://ebird.org/species/sumtan",
+  "inaturalist": "https://www.inaturalist.org/taxa/9915",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Summer_tanager",
+   "es": "https://es.wikipedia.org/wiki/Piranga_rubra",
+   "ru": "https://ru.wikipedia.org/wiki/Алая_пиранга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piranga+rubra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Summer Tanager",
+  "en_aco": "Summer Tanager",
+  "es": "Piranga Roja",
+  "ru": "Алая пиранга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Piranga rubra",
+ "sci_name_aco": "Piranga rubra",
+ "sounds": [],
+ "taxon_order": 34432.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 28.759999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Female%20Summer%20Tanager%20%287093902581%29.jpg"
+ ]
+}

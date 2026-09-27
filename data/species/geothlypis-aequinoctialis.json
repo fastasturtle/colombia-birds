@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "masyel2",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Geothlypis",
+ "id": "geothlypis-aequinoctialis",
+ "ids": {
+  "avibase": "0B42CDFF495E072D",
+  "birdbase": 36171,
+  "gbif": 2489649,
+  "inaturalist": "9739",
+  "iucn": "103795554",
+  "wikidata": "Q1300593",
+  "xeno_canto": "Geothlypis-aequinoctialis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geothlypis_aequinoctialis",
+  "ebird": "https://ebird.org/species/masyel2",
+  "inaturalist": "https://www.inaturalist.org/taxa/9739",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_yellowthroat",
+   "es": "https://es.wikipedia.org/wiki/Geothlypis_aequinoctialis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geothlypis+aequinoctialis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Masked Yellowthroat",
+  "en_aco": "Masked Yellowthroat",
+  "es": "Mascarita Equinoccial",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Geothlypis aequinoctialis",
+ "sci_name_aco": "Geothlypis aequinoctialis",
+ "sounds": [],
+ "taxon_order": 33999.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 13.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20aequinoctialis%20Masked%20Yellowthroat%20%28male%29%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20aequinoctialis%20Masked%20Yellowthroat%20%28female%29%3B%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Nuttall, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swathr",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Catharus",
+ "id": "catharus-ustulatus",
+ "ids": {
+  "avibase": "E53FC25C090A6AD8",
+  "birdbase": 30293,
+  "gbif": 2490821,
+  "inaturalist": "12878",
+  "iucn": "103881682",
+  "wikidata": "Q545006",
+  "xeno_canto": "Catharus-ustulatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catharus_ustulatus",
+  "ebird": "https://ebird.org/species/swathr",
+  "inaturalist": "https://www.inaturalist.org/taxa/12878",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Swainson's_thrush",
+   "es": "https://es.wikipedia.org/wiki/Catharus_ustulatus",
+   "ru": "https://ru.wikipedia.org/wiki/Дрозд_Свенсона"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catharus+ustulatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Swainson's Thrush",
+  "en_aco": "Swainson's Thrush",
+  "es": "Zorzalito de Swainson",
+  "ru": "Дрозд Свэнсона"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catharus ustulatus",
+ "sci_name_aco": "Catharus ustulatus",
+ "sounds": [],
+ "taxon_order": 28324.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 34.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Catharus%20ustulatus%20-North%20Dakota-8a.jpg"
+ ]
+}

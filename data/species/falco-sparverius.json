@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal incierto | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal? - Residente",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "amekes",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Falco",
+ "id": "falco-sparverius",
+ "ids": {
+  "avibase": "20C2214E655A79AB",
+  "birdbase": 12892,
+  "gbif": 9685907,
+  "inaturalist": "4665",
+  "iucn": "22696395",
+  "wikidata": "Q651545",
+  "xeno_canto": "Falco-sparverius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Falco_sparverius",
+  "ebird": "https://ebird.org/species/amekes",
+  "inaturalist": "https://www.inaturalist.org/taxa/4665",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_kestrel",
+   "es": "https://es.wikipedia.org/wiki/Falco_sparverius",
+   "ru": "https://ru.wikipedia.org/wiki/Воробьиная_пустельга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Falco+sparverius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Kestrel",
+  "en_aco": "American Kestrel",
+  "es": "Cernícalo Americano",
+  "ru": "Воробьиная пустельга"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Falco sparverius",
+ "sci_name_aco": "Falco sparverius",
+ "sounds": [],
+ "taxon_order": 12028.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 119.33333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20Kestrel%2C%20Colorado.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Falco%20sparverius%2005.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20Kestrel%20%28Falco%20sparverius%29%20%2814547482002%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1876)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "beajay1",
+ "family": {
+  "code": "corvid1",
+  "en": "Crows, Jays, and Magpies",
+  "sci": "Corvidae"
+ },
+ "genus": "Cyanolyca",
+ "id": "cyanolyca-pulchra",
+ "ids": {
+  "avibase": "9C916E02D5FBCDBB",
+  "birdbase": 22698,
+  "gbif": 2482546,
+  "inaturalist": "8172",
+  "iucn": "22705666",
+  "wikidata": "Q690706",
+  "xeno_canto": "Cyanolyca-pulchra"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanolyca_pulchra",
+  "ebird": "https://ebird.org/species/beajay1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8172",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Beautiful_jay",
+   "es": "https://es.wikipedia.org/wiki/Cyanolyca_pulchra",
+   "ru": "https://ru.wikipedia.org/wiki/Красивая_мексиканская_сойка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanolyca+pulchra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Beautiful Jay",
+  "en_aco": "Beautiful Jay",
+  "es": "Chara Hermosa",
+  "ru": "Красивая сойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanolyca pulchra",
+ "sci_name_aco": "Cyanolyca pulchra",
+ "sounds": [],
+ "taxon_order": 21204.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 97.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyanolyca%20pulchra%20-NW%20Ecuador-6.jpg"
+ ]
+}

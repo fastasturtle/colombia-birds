@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grflan1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Doryfera",
+ "id": "doryfera-ludovicae",
+ "ids": {
+  "avibase": "0EB01930E20923FD",
+  "birdbase": 2792,
+  "gbif": 2476971,
+  "inaturalist": "6322",
+  "iucn": "22687035",
+  "wikidata": "Q963942",
+  "xeno_canto": "Doryfera-ludovicae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Doryfera_ludovicae",
+  "ebird": "https://ebird.org/species/grflan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6322",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-fronted_lancebill",
+   "es": "https://es.wikipedia.org/wiki/Doryfera_ludovicae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Doryfera+ludovicae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-fronted Lancebill",
+  "en_aco": "Green-fronted Lancebill",
+  "es": "Colibrí Picolanza Mayor",
+  "ru": "Зеленолобый ланцетоклюв"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Doryfera ludovicae",
+ "sci_name_aco": "Doryfera ludovicae",
+ "sounds": [],
+ "taxon_order": 4337.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": 2950,
+   "min": 550,
+   "min_extreme": 150
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.95,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Doryfera%20ludovicae%2072210478%20%28cropped%29.jpg"
+ ]
+}

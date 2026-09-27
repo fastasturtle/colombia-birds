@@ -1,0 +1,95 @@
+{
+ "authorship": "(Pallas, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sibtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ramphocelus",
+ "id": "ramphocelus-carbo",
+ "ids": {
+  "avibase": "EF01FD7605BFE5DD",
+  "birdbase": 37192,
+  "gbif": 2488442,
+  "inaturalist": "10056",
+  "iucn": "22722507",
+  "wikidata": "Q906965",
+  "xeno_canto": "Ramphocelus-carbo"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphocelus_carbo",
+  "ebird": "https://ebird.org/species/sibtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10056",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Silver-beaked_tanager",
+   "es": "https://es.wikipedia.org/wiki/Ramphocelus_carbo",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурная_расписная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphocelus+carbo"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Silver-beaked Tanager",
+  "en_aco": "Silver-beaked Tanager",
+  "es": "Tangara Picoplata",
+  "ru": "Пурпурный сереброклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ramphocelus carbo",
+ "sci_name_aco": "Ramphocelus carbo",
+ "sounds": [],
+ "taxon_order": 34810.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 29.833333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphocelus%20carbo%20female%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphocelus%20carbo%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil%20-male-8.jpg"
+ ]
+}

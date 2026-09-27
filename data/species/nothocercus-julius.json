@@ -1,0 +1,89 @@
+{
+ "authorship": "(Bonaparte, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tabtin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Nothocercus",
+ "id": "nothocercus-julius",
+ "ids": {
+  "avibase": "5FB99321E253348D",
+  "birdbase": 69,
+  "gbif": 2477472,
+  "inaturalist": "20700",
+  "iucn": "22678157",
+  "wikidata": "Q765610",
+  "xeno_canto": "Nothocercus-julius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nothocercus_julius",
+  "ebird": "https://ebird.org/species/tabtin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20700",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-breasted_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Nothocercus_julius",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжегрудый_трёхпалый_тинаму"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nothocercus+julius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-breasted Tinamou",
+  "en_aco": "Tawny-breasted Tinamou",
+  "es": "Tinamú Cabecirrojo",
+  "ru": "Желтогрудый трёхпалый тинаму"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Nothocercus julius",
+ "sci_name_aco": "Nothocercus julius",
+ "sounds": [],
+ "taxon_order": 115.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 683.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "puntea1",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Spatula",
+ "id": "spatula-puna",
+ "ids": {
+  "avibase": "86B0BAFACB911D06",
+  "birdbase": 377,
+  "gbif": 9583342,
+  "inaturalist": "558432",
+  "iucn": "22680326",
+  "wikidata": "Q28106890",
+  "xeno_canto": "Spatula-puna"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spatula_puna",
+  "ebird": "https://ebird.org/species/puntea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558432",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Puna_teal",
+   "es": "https://es.wikipedia.org/wiki/Spatula_puna",
+   "ru": "https://ru.wikipedia.org/wiki/Чирок_пуны"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spatula+puna"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Puna Teal",
+  "en_aco": "Puna Teal",
+  "es": "Cerceta de la Puna",
+  "ru": "Чирок пуны"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Spatula puna",
+ "sci_name_aco": "Spatula puna",
+ "sounds": [],
+ "taxon_order": 484.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4600,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 507.75,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anas%20puna%20-%20Puna%20teal%2C%20San%20Pedro%20de%20Atacama%2C%20Chile.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paipar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrrhura",
+ "id": "pyrrhura-picta",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13406,
+  "gbif": 2479831,
+  "inaturalist": "517806",
+  "iucn": null,
+  "wikidata": "Q27615139",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/paipar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/517806",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrrhura+picta"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Painted Parakeet",
+  "en_aco": "Painted Parakeet",
+  "es": "Cotorra Pintada",
+  "ru": null
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrrhura picta",
+ "sci_name_aco": "Pyrrhura picta",
+ "sounds": [],
+ "taxon_order": 13039.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1565,
+   "max_extreme": 2200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "coastal"
+  ],
+  "mass_g": 65.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

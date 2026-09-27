@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yecman2",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Heterocercus",
+ "id": "heterocercus-flavivertex",
+ "ids": {
+  "avibase": "08F2D7DF1FF6B4A3",
+  "birdbase": 18405,
+  "gbif": 5230537,
+  "inaturalist": "14361",
+  "iucn": "22701161",
+  "wikidata": "Q1305579",
+  "xeno_canto": "Heterocercus-flavivertex"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heterocercus_flavivertex",
+  "ebird": "https://ebird.org/species/yecman2",
+  "inaturalist": "https://www.inaturalist.org/taxa/14361",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-crested_manakin",
+   "es": "https://es.wikipedia.org/wiki/Heterocercus_flavivertex",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heterocercus+flavivertex"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-crowned Manakin",
+  "en_aco": "Yellow-crowned Manakin",
+  "es": "Saltarín Crestiamarillo",
+  "ru": "Златошапочный манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Heterocercus flavivertex",
+ "sci_name_aco": "Heterocercus flavivertex",
+ "sounds": [],
+ "taxon_order": 15761.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 21.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heterocercus%20flavivertex%20-%20Yellow-crowned%20Manakin.JPG"
+ ]
+}

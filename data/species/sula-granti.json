@@ -1,0 +1,94 @@
+{
+ "authorship": "(Rothschild, 1902)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nazboo1",
+ "family": {
+  "code": "sulida1",
+  "en": "Boobies and Gannets",
+  "sci": "Sulidae"
+ },
+ "genus": "Sula",
+ "id": "sula-granti",
+ "ids": {
+  "avibase": "0C4DB4A520E4195C",
+  "birdbase": 7704,
+  "gbif": 2480971,
+  "inaturalist": "56768",
+  "iucn": "22728990",
+  "wikidata": "Q115487",
+  "xeno_canto": "Sula-granti"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sula_granti",
+  "ebird": "https://ebird.org/species/nazboo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/56768",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Nazca_booby",
+   "es": "https://es.wikipedia.org/wiki/Sula_granti",
+   "ru": "https://ru.wikipedia.org/wiki/Насканская_олуша"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sula+granti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Nazca Booby",
+  "en_aco": "Nazca Booby",
+  "es": "Piquero Nazca",
+  "ru": "Насканская олуша"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Sula granti",
+ "sci_name_aco": "Sula granti",
+ "sounds": [],
+ "taxon_order": 7355.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1752.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nazca-Booby.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/SulaGranti.JPG"
+ ]
+}

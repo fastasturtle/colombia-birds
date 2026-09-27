@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wilpha",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Phalaropus",
+ "id": "phalaropus-tricolor",
+ "ids": {
+  "avibase": "667C6969D7874433",
+  "birdbase": 6760,
+  "gbif": 5229389,
+  "inaturalist": "144497",
+  "iucn": null,
+  "wikidata": "Q45696",
+  "xeno_canto": "Phalaropus-tricolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phalaropus_tricolor",
+  "ebird": "https://ebird.org/species/wilpha",
+  "inaturalist": "https://www.inaturalist.org/taxa/144497",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wilson's_phalarope",
+   "es": "https://es.wikipedia.org/wiki/Phalaropus_tricolor",
+   "ru": "https://ru.wikipedia.org/wiki/Трёхцветный_плавунчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phalaropus+tricolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wilson's Phalarope",
+  "en_aco": "Wilson's Phalarope",
+  "es": "Falaropo Tricolor",
+  "ru": "Большой плавунчик"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Phalaropus tricolor",
+ "sci_name_aco": "Phalaropus tricolor",
+ "sounds": [],
+ "taxon_order": 6119.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 4100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 78,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phalaropus%20tricolor%20Ork%2002.jpg"
+ ]
+}

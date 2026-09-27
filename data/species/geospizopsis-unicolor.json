@@ -1,0 +1,94 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plsfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Geospizopsis",
+ "id": "geospizopsis-unicolor",
+ "ids": {
+  "avibase": "66F4277FBB3EC3CB",
+  "birdbase": 37515,
+  "gbif": 9491290,
+  "inaturalist": "558575",
+  "iucn": "22723085",
+  "wikidata": "Q28870009",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geospizopsis_unicolor",
+  "ebird": "https://ebird.org/species/plsfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558575",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous_sierra_finch",
+   "es": "https://es.wikipedia.org/wiki/Geospizopsis_unicolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geospizopsis+unicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous Sierra Finch",
+  "en_aco": "Plumbeous Sierra Finch",
+  "es": "Yal Plomizo",
+  "ru": "Свинцово-серый овсяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Geospizopsis unicolor",
+ "sci_name_aco": "Geospizopsis unicolor",
+ "sounds": [],
+ "taxon_order": 35376.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5300,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 24.03333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geospizopsis%20unicolor%20geospizopsis%20154169787.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phrygilus%20unicolor-Plumbeous%20sierra%20finch%20%28Female%29.jpg"
+ ]
+}

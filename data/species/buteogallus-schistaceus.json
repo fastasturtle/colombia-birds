@@ -1,0 +1,94 @@
+{
+ "authorship": "(Sundevall, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slchaw2",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteogallus",
+ "id": "buteogallus-schistaceus",
+ "ids": {
+  "avibase": "B2A7EC844831A577",
+  "birdbase": 8710,
+  "gbif": 7951098,
+  "inaturalist": "201037",
+  "iucn": "22695745",
+  "wikidata": "Q1274029",
+  "xeno_canto": "Buteogallus-schistaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteogallus_schistaceus",
+  "ebird": "https://ebird.org/species/slchaw2",
+  "inaturalist": "https://www.inaturalist.org/taxa/201037",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slate-colored_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteogallus_schistaceus",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканский_пегий_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteogallus+schistaceus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slate-colored Hawk",
+  "en_aco": "Slate-colored Hawk",
+  "es": "Busardo Pizarroso",
+  "ru": "Шиферный крабоед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteogallus schistaceus",
+ "sci_name_aco": "Buteogallus schistaceus",
+ "sounds": [],
+ "taxon_order": 8410.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 455,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buteogallus%20schistaceus%20JJK%271.jpg"
+ ]
+}

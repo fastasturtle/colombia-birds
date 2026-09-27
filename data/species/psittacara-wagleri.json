@@ -1,0 +1,93 @@
+{
+ "authorship": "(G.R. Gray, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scfpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Psittacara",
+ "id": "psittacara-wagleri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13564,
+  "gbif": 7634300,
+  "inaturalist": "367570",
+  "iucn": "62293391",
+  "wikidata": "Q27074995",
+  "xeno_canto": "Psittacara-wagleri"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Psittacara_wagleri",
+  "ebird": "https://ebird.org/species/scfpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367570",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Psittacara+wagleri"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Scarlet-fronted Parakeet",
+  "en_aco": "Scarlet-fronted Parakeet",
+  "es": "Aratinga de Wagler",
+  "ru": null
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Psittacara wagleri",
+ "sci_name_aco": "Psittacara wagleri",
+ "sounds": [],
+ "taxon_order": 13189.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2500,
+   "min": 350,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "riparian",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 189.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

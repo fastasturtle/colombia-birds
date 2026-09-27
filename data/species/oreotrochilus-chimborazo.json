@@ -1,0 +1,96 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ecuhil1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Oreotrochilus",
+ "id": "oreotrochilus-chimborazo",
+ "ids": {
+  "avibase": "49B76084B82B45A0",
+  "birdbase": 2960,
+  "gbif": 2476681,
+  "inaturalist": "5853",
+  "iucn": "22687762",
+  "wikidata": "Q873459",
+  "xeno_canto": "Oreotrochilus-chimborazo"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oreotrochilus_chimborazo",
+  "ebird": "https://ebird.org/species/ecuhil1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5853",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ecuadorian_hillstar",
+   "es": "https://es.wikipedia.org/wiki/Oreotrochilus_chimborazo",
+   "ru": "https://ru.wikipedia.org/wiki/Эквадорская_горная_звезда"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oreotrochilus+chimborazo"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ecuadorian Hillstar",
+  "en_aco": "Ecuadorian Hillstar",
+  "es": "Colibrí del Chimborazo",
+  "ru": "Эквадорская ореада"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Oreotrochilus chimborazo",
+ "sci_name_aco": "Oreotrochilus chimborazo",
+ "sounds": [],
+ "taxon_order": 4487.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5200,
+   "max_extreme": null,
+   "min": 3500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "riparian",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 8.383333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20in%20Cotopaxi%20National%20Park.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ecuadorian%20Hillstar.jpg"
+ ]
+}

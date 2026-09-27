@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shcfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-ferox",
+ "ids": {
+  "avibase": "825CACEF8254D9E3",
+  "birdbase": 18138,
+  "gbif": 2483559,
+  "inaturalist": "16006",
+  "iucn": "22700415",
+  "wikidata": "Q221422",
+  "xeno_canto": "Myiarchus-ferox"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_ferox",
+  "ebird": "https://ebird.org/species/shcfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16006",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-crested_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_ferox",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+ferox"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-crested Flycatcher",
+  "en_aco": "Short-crested Flycatcher",
+  "es": "Copetón Feroz",
+  "ru": "Короткохохлый миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus ferox",
+ "sci_name_aco": "Myiarchus ferox",
+ "sounds": [],
+ "taxon_order": 17312.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1375,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 27.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20ferox%20Atrapamoscas%20garrochero%20Short-crested%20Flycatcher%20%2816340490505%29%20%28cropped%29.jpg"
+ ]
+}

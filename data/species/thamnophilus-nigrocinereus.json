@@ -1,0 +1,97 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blgant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-nigrocinereus",
+ "ids": {
+  "avibase": "41100533BBB6605D",
+  "birdbase": 16009,
+  "gbif": 5959203,
+  "inaturalist": "15755",
+  "iucn": "22701302",
+  "wikidata": "Q1266146",
+  "xeno_canto": "Thamnophilus-nigrocinereus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_nigrocinereus",
+  "ebird": "https://ebird.org/species/blgant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15755",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blackish-grey_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_nigrocinereus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+nigrocinereus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blackish-gray Antshrike",
+  "en_aco": "Blackish-gray Antshrike",
+  "es": "Batará Ceniciento",
+  "ru": "Серо-чёрный колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus nigrocinereus",
+ "sci_name_aco": "Thamnophilus nigrocinereus",
+ "sounds": [],
+ "taxon_order": 13552.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 29.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20nigrocinereus%20Blackish-gray%20Antshrike%20%28male%29%3B%20river%20Tapaj%C3%B3s%20island%2C%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20nigrocinereus%20Blackish-gray%20Antshrike%20%28female%29%3B%20river%20Tapaj%C3%B3s%20island%2C%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ThamnophilusNigrocinereusWolf.jpg"
+ ]
+}

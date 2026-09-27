@@ -1,0 +1,93 @@
+{
+ "authorship": "(A. Wilson, 1810)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cerwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-cerulea",
+ "ids": {
+  "avibase": "D00EC2C974F1B880",
+  "birdbase": 36226,
+  "gbif": 6093350,
+  "inaturalist": "145232",
+  "iucn": "22721740",
+  "wikidata": "Q25066647",
+  "xeno_canto": "Setophaga-cerulea"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_cerulea",
+  "ebird": "https://ebird.org/species/cerwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145232",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cerulean_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_cerulea",
+   "ru": "https://ru.wikipedia.org/wiki/Голубой_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+cerulea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cerulean Warbler",
+  "en_aco": "Cerulean Warbler",
+  "es": "Reinita Cerúlea",
+  "ru": "Голубоватая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga cerulea",
+ "sci_name_aco": "Setophaga cerulea",
+ "sounds": [],
+ "taxon_order": 34061.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2200,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "wetland"
+  ],
+  "mass_g": 9.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cerulean%20Warbler%20female%2C%20Convention%20Center%2C%20South%20Padre%20Island%2C%20Texas%2002.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroica-cerulea-002.jpg"
+ ]
+}

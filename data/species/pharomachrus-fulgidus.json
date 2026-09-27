@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtque1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Pharomachrus",
+ "id": "pharomachrus-fulgidus",
+ "ids": {
+  "avibase": "A3896AE9326DDFFD",
+  "birdbase": 9923,
+  "gbif": 2496715,
+  "inaturalist": "20849",
+  "iucn": "22682735",
+  "wikidata": "Q1264098",
+  "xeno_canto": "Pharomachrus-fulgidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pharomachrus_fulgidus",
+  "ebird": "https://ebird.org/species/whtque1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20849",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tipped_quetzal",
+   "es": "https://es.wikipedia.org/wiki/Pharomachrus_fulgidus",
+   "ru": "https://ru.wikipedia.org/wiki/Алмазный_квезаль"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pharomachrus+fulgidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tipped Quetzal",
+  "en_aco": "White-tipped Quetzal",
+  "es": "Quetzal Fúlgido",
+  "ru": "Алмазный кетцаль"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Pharomachrus fulgidus",
+ "sci_name_aco": "Pharomachrus fulgidus",
+ "sounds": [],
+ "taxon_order": 9511.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 725
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 160,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/A%20monograph%20of%20the%20Trogonidae%2C%20or%20family%20of%20trogons%20%2840570576671%29.jpg"
+ ]
+}

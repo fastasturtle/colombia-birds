@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sbnthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Catharus",
+ "id": "catharus-fuscater",
+ "ids": {
+  "avibase": "345A1B6EF5032FEE",
+  "birdbase": 30274,
+  "gbif": 2490802,
+  "inaturalist": "12886",
+  "iucn": "22708635",
+  "wikidata": "Q3089436",
+  "xeno_canto": "Catharus-fuscater"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catharus_fuscater",
+  "ebird": "https://ebird.org/species/sbnthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12886",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-backed_nightingale-thrush",
+   "es": "https://es.wikipedia.org/wiki/Catharus_fuscater",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catharus+fuscater"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty-backed Nightingale-Thrush",
+  "en_aco": "Slaty-backed Nightingale-Thrush",
+  "es": "Zorzalito Sombrío",
+  "ru": "Белоглазый соловьиный дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catharus fuscater",
+ "sci_name_aco": "Catharus fuscater",
+ "sounds": [],
+ "taxon_order": 28274.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3250,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 36.266666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Catharus%20fuscater%20Santa%20Elena%202.JPG"
+ ]
+}

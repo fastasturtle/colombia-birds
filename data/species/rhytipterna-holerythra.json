@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufmou1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Rhytipterna",
+ "id": "rhytipterna-holerythra",
+ "ids": {
+  "avibase": "229BCEE1448DBAE7",
+  "birdbase": 18095,
+  "gbif": 2483673,
+  "inaturalist": "16586",
+  "iucn": "22700373",
+  "wikidata": "Q1269889",
+  "xeno_canto": "Rhytipterna-holerythra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhytipterna_holerythra",
+  "ebird": "https://ebird.org/species/rufmou1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16586",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous_mourner",
+   "es": "https://es.wikipedia.org/wiki/Rhytipterna_holerythra",
+   "ru": "https://ru.wikipedia.org/wiki/Rhytipterna_holerythra"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhytipterna+holerythra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous Mourner",
+  "en_aco": "Rufous Mourner",
+  "es": "Plañidera Rojiza",
+  "ru": "Рыжия тиранн-плакса"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhytipterna holerythra",
+ "sci_name_aco": "Rhytipterna holerythra",
+ "sounds": [],
+ "taxon_order": 17271.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 35.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20Mourner%20-%20Panama%20H8O0032.jpg"
+ ]
+}

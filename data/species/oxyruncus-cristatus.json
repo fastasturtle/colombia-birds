@@ -1,0 +1,91 @@
+{
+ "authorship": "(Swainson, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sharpb1",
+ "family": {
+  "code": "oxyrun1",
+  "en": "Sharpbill",
+  "sci": "Oxyruncidae"
+ },
+ "genus": "Oxyruncus",
+ "id": "oxyruncus-cristatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 18635,
+  "gbif": 2486438,
+  "inaturalist": "116998",
+  "iucn": "22700982",
+  "wikidata": "Q920534",
+  "xeno_canto": "Oxyruncus-cristatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxyruncus_cristatus",
+  "ebird": "https://ebird.org/species/sharpb1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116998",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sharpbill",
+   "es": "https://es.wikipedia.org/wiki/Oxyruncus_cristatus",
+   "ru": "https://ru.wikipedia.org/wiki/Остроклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oxyruncus+cristatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sharpbill",
+  "en_aco": "Sharpbill",
+  "es": "Picoagudo",
+  "ru": "Остроклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Oxyruncus cristatus",
+ "sci_name_aco": "Oxyruncus cristatus",
+ "sounds": [],
+ "taxon_order": 16093.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1200,
+   "min": 400,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 41.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sharpbill.jpg"
+ ]
+}

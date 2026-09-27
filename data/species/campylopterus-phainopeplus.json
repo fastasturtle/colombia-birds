@@ -1,0 +1,94 @@
+{
+ "authorship": "(Salvin & Godman, 1879)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samsab1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Campylopterus",
+ "id": "campylopterus-phainopeplus",
+ "ids": {
+  "avibase": "1BA07F2C7278C89C",
+  "birdbase": 3447,
+  "gbif": 2476132,
+  "inaturalist": "6010",
+  "iucn": "22687086",
+  "wikidata": "Q1265085",
+  "xeno_canto": "Campylopterus-phainopeplus"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylopterus_phainopeplus",
+  "ebird": "https://ebird.org/species/samsab1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6010",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_sabrewing",
+   "es": "https://es.wikipedia.org/wiki/Campylopterus_phainopeplus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylopterus+phainopeplus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Sabrewing",
+  "en_aco": "Santa Marta Sabrewing",
+  "es": "Colibrí de Santa Marta",
+  "ru": "Сантамартийский саблекрыл"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Campylopterus phainopeplus",
+ "sci_name_aco": "Campylopterus phainopeplus",
+ "sounds": [],
+ "taxon_order": 4961.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4800,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 6.825,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CampylopterusOxypogonKeulemans%2C%20Campylopterus%20phainopeplus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylopterus%20phainopeplus.jpg"
+ ]
+}

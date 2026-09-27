@@ -1,0 +1,95 @@
+{
+ "authorship": "(Audubon, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "linspa",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Melospiza",
+ "id": "melospiza-lincolnii",
+ "ids": {
+  "avibase": "AF49F8903B6DC7A5",
+  "birdbase": 35518,
+  "gbif": 2492192,
+  "inaturalist": "9092",
+  "iucn": "22721064",
+  "wikidata": "Q692323",
+  "xeno_canto": "Melospiza-lincolnii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Melospiza_lincolnii",
+  "ebird": "https://ebird.org/species/linspa",
+  "inaturalist": "https://www.inaturalist.org/taxa/9092",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lincoln's_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Melospiza_lincolnii",
+   "ru": "https://ru.wikipedia.org/wiki/Зонотрихия_Линкольна"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Melospiza+lincolnii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lincoln's Sparrow",
+  "en_aco": "Lincoln's Sparrow",
+  "es": "Chingolo de Lincoln",
+  "ru": "Еловая овсянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Melospiza lincolnii",
+ "sci_name_aco": "Melospiza lincolnii",
+ "sounds": [],
+ "taxon_order": 33310.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 18.866666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lincoln%27s%20sparrow%20%2814367%29.jpg"
+ ]
+}

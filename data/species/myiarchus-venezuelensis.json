@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "venfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-venezuelensis",
+ "ids": {
+  "avibase": "A1288AF257D45DA2",
+  "birdbase": 18134,
+  "gbif": 9544285,
+  "inaturalist": "16044",
+  "iucn": "22700408",
+  "wikidata": "Q1271366",
+  "xeno_canto": "Myiarchus-venezuelensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_venezuelensis",
+  "ebird": "https://ebird.org/species/venfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16044",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Venezuelan_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_venezuelensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+venezuelensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Venezuelan Flycatcher",
+  "en_aco": "Venezuelan Flycatcher",
+  "es": "Copetón Venezolano",
+  "ru": "Венесуэльский миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus venezuelensis",
+ "sci_name_aco": "Myiarchus venezuelensis",
+ "sounds": [],
+ "taxon_order": 17307.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 29.666666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20venezuelensis%20Atrapamoscas%20venezolano%20Venezuelan%20Flycatcher%20%286267398869%29.jpg"
+ ]
+}

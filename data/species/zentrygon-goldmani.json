@@ -1,0 +1,91 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rcqdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Zentrygon",
+ "id": "zentrygon-goldmani",
+ "ids": {
+  "avibase": null,
+  "birdbase": 5025,
+  "gbif": 8184592,
+  "inaturalist": "367491",
+  "iucn": "22690942",
+  "wikidata": "Q27074695",
+  "xeno_canto": "Zentrygon-goldmani"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zentrygon_goldmani",
+  "ebird": "https://ebird.org/species/rcqdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367491",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Russet-crowned_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Zentrygon_goldmani",
+   "ru": "https://ru.wikipedia.org/wiki/Панамский_земляной_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zentrygon+goldmani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Russet-crowned Quail-Dove",
+  "en_aco": "Russet-crowned Quail-Dove",
+  "es": "Paloma Perdiz de Goldman",
+  "ru": "Панамская перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Zentrygon goldmani",
+ "sci_name_aco": "Zentrygon goldmani",
+ "sounds": [],
+ "taxon_order": 2384.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 750,
+   "min_extreme": 90
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 258,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zentrygon%20goldmani%20254392185.jpg"
+ ]
+}

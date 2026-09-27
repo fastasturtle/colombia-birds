@@ -1,0 +1,91 @@
+{
+ "authorship": "(Pelzeln, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rurfog1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Neophilydor",
+ "id": "neophilydor-erythrocercum",
+ "ids": {
+  "avibase": "D4E8559F08CE5657",
+  "birdbase": 15079,
+  "gbif": 2485721,
+  "inaturalist": "11162",
+  "iucn": "22734184",
+  "wikidata": "Q1270918",
+  "xeno_canto": "Philydor-erythrocercum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Philydor_erythrocercum",
+  "ebird": "https://ebird.org/species/rurfog1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11162",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-rumped_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Neophilydor_erythrocercum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neophilydor+erythrocercum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-rumped Foliage-gleaner",
+  "en_aco": "Rufous-rumped Foliage-gleaner",
+  "es": "Ticotico Lomirrufo",
+  "ru": "Рыжехвостый филидор"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Neophilydor erythrocercum",
+ "sci_name_aco": "Philydor erythrocercum",
+ "sounds": [],
+ "taxon_order": 15136.0,
+ "taxonomy_note": "ACO/SACC lists this as Philydor erythrocercum; eBird/Clements uses Neophilydor erythrocercum.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 1650,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Philydor%20erythrocercum%20-%20Rufous-rumped%20Foliage-gleaner.jpg"
+ ]
+}

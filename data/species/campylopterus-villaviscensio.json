@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "napsab1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Campylopterus",
+ "id": "campylopterus-villaviscensio",
+ "ids": {
+  "avibase": "A99D6174A53DE0B3",
+  "birdbase": 3454,
+  "gbif": 2476127,
+  "inaturalist": "6005",
+  "iucn": "22687090",
+  "wikidata": "Q1259465",
+  "xeno_canto": "Campylopterus-villaviscensio"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylopterus_villaviscensio",
+  "ebird": "https://ebird.org/species/napsab1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6005",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Napo_sabrewing",
+   "es": "https://es.wikipedia.org/wiki/Campylopterus_villaviscensio",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylopterus+villaviscensio"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Napo Sabrewing",
+  "en_aco": "Napo Sabrewing",
+  "es": "Colibrí del Napo",
+  "ru": "Напоанский саблекрыл"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Campylopterus villaviscensio",
+ "sci_name_aco": "Campylopterus villaviscensio",
+ "sounds": [],
+ "taxon_order": 4959.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": 780
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 7.325,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylopterus%20villaviscensio%202.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylopterus%20villaviscensio.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(von Humboldt, 1817 )",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "oilbir1",
+ "family": {
+  "code": "steato1",
+  "en": "Oilbird",
+  "sci": "Steatornithidae"
+ },
+ "genus": "Steatornis",
+ "id": "steatornis-caripensis",
+ "ids": {
+  "avibase": "A820F1653743ABDF",
+  "birdbase": 2141,
+  "gbif": 2497150,
+  "inaturalist": "19727",
+  "iucn": "22689633",
+  "wikidata": "Q213785",
+  "xeno_canto": "Steatornis-caripensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Steatornis_caripensis",
+  "ebird": "https://ebird.org/species/oilbir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19727",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Oilbird",
+   "es": "https://es.wikipedia.org/wiki/Steatornis_caripensis",
+   "ru": "https://ru.wikipedia.org/wiki/Гуахаро"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Steatornis+caripensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Oilbird",
+  "en_aco": "Oilbird",
+  "es": "Guácharo",
+  "ru": "Гуахаро"
+ },
+ "order": "Steatornithiformes",
+ "photos": [],
+ "sci_name": "Steatornis caripensis",
+ "sci_name_aco": "Steatornis caripensis",
+ "sounds": [],
+ "taxon_order": 3766.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3650,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "riparian"
+  ],
+  "mass_g": 414,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oilbirds.jpg"
+ ]
+}

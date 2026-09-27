@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yehbla2",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Chrysomus",
+ "id": "chrysomus-icterocephalus",
+ "ids": {
+  "avibase": "42826912478AC2CE",
+  "birdbase": 36119,
+  "gbif": 2484103,
+  "inaturalist": "69688",
+  "iucn": "22724200",
+  "wikidata": "Q1589691",
+  "xeno_canto": "Chrysomus-icterocephalus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chrysomus_icterocephalus",
+  "ebird": "https://ebird.org/species/yehbla2",
+  "inaturalist": "https://www.inaturalist.org/taxa/69688",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-hooded_blackbird",
+   "es": "https://es.wikipedia.org/wiki/Chrysomus_icterocephalus",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоголовый_чёрный_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chrysomus+icterocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-hooded Blackbird",
+  "en_aco": "Yellow-hooded Blackbird",
+  "es": "Varillero Capuchino",
+  "ru": "Желтоголовый курен"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chrysomus icterocephalus",
+ "sci_name_aco": "Chrysomus icterocephalus",
+ "sounds": [],
+ "taxon_order": 33938.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 31.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chrysomus%20icterocephalus%20%28Monjita%20pantanera%29%20%288%29%20%2814420579547%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-hooded%20Blackbird%20female%20RWD5.jpg"
+ ]
+}

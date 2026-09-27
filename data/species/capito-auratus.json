@@ -1,0 +1,95 @@
+{
+ "authorship": "(Dumont, 1805)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gilbar1",
+ "family": {
+  "code": "capito2",
+  "en": "New World Barbets",
+  "sci": "Capitonidae"
+ },
+ "genus": "Capito",
+ "id": "capito-auratus",
+ "ids": {
+  "avibase": "6F0D3DCD814CAC8D",
+  "birdbase": 11115,
+  "gbif": 2479031,
+  "inaturalist": "116847",
+  "iucn": "22733724",
+  "wikidata": "Q135469",
+  "xeno_canto": "Capito-auratus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Capito_auratus",
+  "ebird": "https://ebird.org/species/gilbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116847",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gilded_barbet",
+   "es": "https://es.wikipedia.org/wiki/Capito_auratus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Capito+auratus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gilded Barbet",
+  "en_aco": "Gilded Barbet",
+  "es": "Cabezón Dorado",
+  "ru": "Золотистая бородатка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Capito auratus",
+ "sci_name_aco": "Capito auratus",
+ "sounds": [],
+ "taxon_order": 10800.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 62.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gilded%20Barbet%20f.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Capito%20auratus%20-%20Gilded%20barbet%20%28male%29%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Wied-Neuwied, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blheag1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Spizaetus",
+ "id": "spizaetus-tyrannus",
+ "ids": {
+  "avibase": "7680293AEE20F452",
+  "birdbase": 8336,
+  "gbif": 2480672,
+  "inaturalist": "5291",
+  "iucn": "22696193",
+  "wikidata": "Q1273682",
+  "xeno_canto": "Spizaetus-tyrannus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spizaetus_tyrannus",
+  "ebird": "https://ebird.org/species/blheag1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5291",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_hawk-eagle",
+   "es": "https://es.wikipedia.org/wiki/Spizaetus_tyrannus",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_хохлатый_орёл"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spizaetus+tyrannus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Hawk-Eagle",
+  "en_aco": "Black Hawk-Eagle",
+  "es": "Águila Negra",
+  "ru": "Чёрный хохлатый орёл"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Spizaetus tyrannus",
+ "sci_name_aco": "Spizaetus tyrannus",
+ "sounds": [],
+ "taxon_order": 8021.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 1024,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black%20Hawk-Eagle.jpg"
+ ]
+}

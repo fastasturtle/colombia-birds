@@ -1,0 +1,93 @@
+{
+ "authorship": "(Nordmann, 1835)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-malaris",
+ "ids": {
+  "avibase": "97C2A2A485799C4A",
+  "birdbase": 2784,
+  "gbif": 2476612,
+  "inaturalist": "5634",
+  "iucn": "22686946",
+  "wikidata": "Q1269383",
+  "xeno_canto": "Phaethornis-malaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_malaris",
+  "ebird": "https://ebird.org/species/grbher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5634",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great-billed_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_malaris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+malaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great-billed Hermit",
+  "en_aco": "Great-billed Hermit",
+  "es": "Ermitaño Picogrande",
+  "ru": "Большеклювый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis malaris",
+ "sci_name_aco": "Phaethornis malaris",
+ "sounds": [],
+ "taxon_order": 4286.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 6.4799999999999995,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethornis%20malaris%20-%20Great-billed%20Hermit%3B%20Serra%20do%20Divisor%20Nationa%20Park%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

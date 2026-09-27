@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colplo1",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Anarhynchus",
+ "id": "anarhynchus-collaris",
+ "ids": {
+  "avibase": "03D0649C8C087F4D",
+  "birdbase": 6575,
+  "gbif": 2480296,
+  "inaturalist": "4807",
+  "iucn": "22693842",
+  "wikidata": "Q1264712",
+  "xeno_canto": "Charadrius-collaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Charadrius_collaris",
+  "ebird": "https://ebird.org/species/colplo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4807",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_plover",
+   "es": "https://es.wikipedia.org/wiki/Charadrius_collaris",
+   "ru": "https://ru.wikipedia.org/wiki/Воротничковый_зуёк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anarhynchus+collaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Collared Plover",
+  "en_aco": "Collared Plover",
+  "es": "Chorlitejo de Azara",
+  "ru": "Воротничковый зуёк"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Anarhynchus collaris",
+ "sci_name_aco": "Charadrius collaris",
+ "sounds": [],
+ "taxon_order": 5933.0,
+ "taxonomy_note": "ACO/SACC lists this as Charadrius collaris; eBird/Clements uses Anarhynchus collaris.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2550,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "savanna",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 33.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Charadrius%20collaris.jpg"
+ ]
+}

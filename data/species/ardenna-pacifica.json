@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wetshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Ardenna",
+ "id": "ardenna-pacifica",
+ "ids": {
+  "avibase": "E94A7272C71031C6",
+  "birdbase": 7562,
+  "gbif": 7763948,
+  "inaturalist": "475125",
+  "iucn": "22698175",
+  "wikidata": "Q27074601",
+  "xeno_canto": "Ardenna-pacifica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardenna_pacifica",
+  "ebird": "https://ebird.org/species/wetshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/475125",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wedge-tailed_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Ardenna_pacifica",
+   "ru": "https://ru.wikipedia.org/wiki/Клинохвостый_буревестник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardenna+pacifica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wedge-tailed Shearwater",
+  "en_aco": "Wedge-tailed Shearwater",
+  "es": "Pardela del Pacífico",
+  "ru": "Клинохвостый буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Ardenna pacifica",
+ "sci_name_aco": "Ardenna pacifica",
+ "sounds": [],
+ "taxon_order": 7209.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "grassland",
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 435,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/W-tail.JPG"
+ ]
+}

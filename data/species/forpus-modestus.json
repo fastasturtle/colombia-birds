@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dubpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Forpus",
+ "id": "forpus-modestus",
+ "ids": {
+  "avibase": "23C704E1DA3C138A",
+  "birdbase": 13338,
+  "gbif": 2479060,
+  "inaturalist": "72865",
+  "iucn": "22685940",
+  "wikidata": "Q531132",
+  "xeno_canto": "Forpus-modestus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Forpus_modestus",
+  "ebird": "https://ebird.org/species/dubpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72865",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-billed_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Forpus_modestus",
+   "ru": "https://ru.wikipedia.org/wiki/Forpus_modestus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Forpus+modestus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-billed Parrotlet",
+  "en_aco": "Dusky-billed Parrotlet",
+  "es": "Cotorrita de Sclater",
+  "ru": "Скромный воробьиный попугайчик"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Forpus modestus",
+ "sci_name_aco": "Forpus modestus",
+ "sounds": [],
+ "taxon_order": 12978.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 29.566666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PsittaculaSclateriKeulemans.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Forpus%20sclateri%20-%20Dusky-billed%20Parrotlet%2001.JPG"
+ ]
+}

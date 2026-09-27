@@ -1,0 +1,94 @@
+{
+ "authorship": "(Humboldt, 1805)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chwcha1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Ortalis",
+ "id": "ortalis-garrula",
+ "ids": {
+  "avibase": "B679EB0CC3CE7D58",
+  "birdbase": 637,
+  "gbif": 5229446,
+  "inaturalist": "2085",
+  "iucn": "22678312",
+  "wikidata": "Q1272557",
+  "xeno_canto": "Ortalis-garrula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ortalis_garrula",
+  "ebird": "https://ebird.org/species/chwcha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2085",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-winged_chachalaca",
+   "es": "https://es.wikipedia.org/wiki/Ortalis_garrula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ortalis+garrula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-winged Chachalaca",
+  "en_aco": "Chestnut-winged Chachalaca",
+  "es": "Chachalaca Alirroja",
+  "ru": "Краснокрылая чачалака"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Ortalis garrula",
+ "sci_name_aco": "Ortalis garrula",
+ "sounds": [],
+ "taxon_order": 970.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1550,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 639,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-winged%20Chachalaca.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Ord, 1815)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ribgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-delawarensis",
+ "ids": {
+  "avibase": "23863F65441680FA",
+  "birdbase": 7139,
+  "gbif": 2481134,
+  "inaturalist": "4364",
+  "iucn": "22694317",
+  "wikidata": "Q754885",
+  "xeno_canto": "Larus-delawarensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_delawarensis",
+  "ebird": "https://ebird.org/species/ribgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4364",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ring-billed_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_delawarensis",
+   "ru": "https://ru.wikipedia.org/wiki/Делавэрская_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+delawarensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ring-billed Gull",
+  "en_aco": "Ring-billed Gull",
+  "es": "Gaviota de Delaware",
+  "ru": "Делавэрская чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus delawarensis",
+ "sci_name_aco": "Larus delawarensis",
+ "sounds": [],
+ "taxon_order": 6521.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 500,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ring-billed%20gull%20in%20Red%20Hook%20%2842799%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ring-billed%20gull%20in%20flight%20over%20Bush%20Terminal%20Park%20%2885214%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20delawarensis%20-Lake%20Erie%2C%20Ohio%2C%20USA%20-adult%20non-breeding-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ring-Billed%20Gull%20at%20Toronto%2010.jpg"
+ ]
+}

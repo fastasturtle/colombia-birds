@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rehbar1",
+ "family": {
+  "code": "capito2",
+  "en": "New World Barbets",
+  "sci": "Capitonidae"
+ },
+ "genus": "Eubucco",
+ "id": "eubucco-bourcierii",
+ "ids": {
+  "avibase": "81825EC27859BD0B",
+  "birdbase": 11137,
+  "gbif": 2478979,
+  "inaturalist": "116885",
+  "iucn": "22681939",
+  "wikidata": "Q490209",
+  "xeno_canto": "Eubucco-bourcierii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eubucco_bourcierii",
+  "ebird": "https://ebird.org/species/rehbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116885",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-headed_barbet",
+   "es": "https://es.wikipedia.org/wiki/Eubucco_bourcierii",
+   "ru": "https://ru.wikipedia.org/wiki/Андский_эубукко"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eubucco+bourcierii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-headed Barbet",
+  "en_aco": "Red-headed Barbet",
+  "es": "Cabezón Cabecirrojo",
+  "ru": "Андская бородатка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Eubucco bourcierii",
+ "sci_name_aco": "Eubucco bourcierii",
+ "sounds": [],
+ "taxon_order": 10818.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1950,
+   "max_extreme": 2400,
+   "min": 621,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 37,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Female%20Red-headed%20Barbet%20in%20Ecuador%20%2814799181451%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Male%20Red-headed%20Barbet%20in%20Ecuador%20%2814619063547%29.jpg"
+ ]
+}

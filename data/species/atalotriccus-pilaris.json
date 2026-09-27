@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cabanis, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "peptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Atalotriccus",
+ "id": "atalotriccus-pilaris",
+ "ids": {
+  "avibase": "CD3601B0BCFA8C21",
+  "birdbase": 17429,
+  "gbif": 2483807,
+  "inaturalist": "17297",
+  "iucn": "22699574",
+  "wikidata": "Q901907",
+  "xeno_canto": "Atalotriccus-pilaris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atalotriccus_pilaris",
+  "ebird": "https://ebird.org/species/peptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17297",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-eyed_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Atalotriccus_pilaris",
+   "ru": "https://ru.wikipedia.org/wiki/Светлоглазый_тиранчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atalotriccus+pilaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-eyed Pygmy-Tyrant",
+  "en_aco": "Pale-eyed Pygmy-Tyrant",
+  "es": "Mosquerito Ojiblanco",
+  "ru": "Светлоглазый тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atalotriccus pilaris",
+ "sci_name_aco": "Atalotriccus pilaris",
+ "sounds": [],
+ "taxon_order": 16319.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 6.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atalotriccus%20pilaris.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lesson, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "masboo",
+ "family": {
+  "code": "sulida1",
+  "en": "Boobies and Gannets",
+  "sci": "Sulidae"
+ },
+ "genus": "Sula",
+ "id": "sula-dactylatra",
+ "ids": {
+  "avibase": "22D1B4A2F0911712",
+  "birdbase": 7699,
+  "gbif": 2480967,
+  "inaturalist": "3788",
+  "iucn": "22736173",
+  "wikidata": "Q602084",
+  "xeno_canto": "Sula-dactylatra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sula_dactylatra",
+  "ebird": "https://ebird.org/species/masboo",
+  "inaturalist": "https://www.inaturalist.org/taxa/3788",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_booby",
+   "es": "https://es.wikipedia.org/wiki/Sula_dactylatra",
+   "ru": "https://ru.wikipedia.org/wiki/Голуболицая_олуша"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sula+dactylatra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Booby",
+  "en_aco": "Masked Booby",
+  "es": "Piquero Enmascarado",
+  "ru": "Голуболицая олуша"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Sula dactylatra",
+ "sci_name_aco": "Sula dactylatra",
+ "sounds": [],
+ "taxon_order": 7349.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1811.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atob%C3%A1.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masked%20booby%20with%20chick.JPG"
+ ]
+}

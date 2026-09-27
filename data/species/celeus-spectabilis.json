@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruhwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Celeus",
+ "id": "celeus-spectabilis",
+ "ids": {
+  "avibase": "BC618F4B265DA22D",
+  "birdbase": 12504,
+  "gbif": 5228920,
+  "inaturalist": "18059",
+  "iucn": "22733772",
+  "wikidata": "Q328359",
+  "xeno_canto": "Celeus-spectabilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Celeus_spectabilis",
+  "ebird": "https://ebird.org/species/ruhwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18059",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-headed_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Celeus_spectabilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Celeus+spectabilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-headed Woodpecker",
+  "en_aco": "Rufous-headed Woodpecker",
+  "es": "Carpintero Cabecirrufo",
+  "ru": "Рыжеголовый дятел-гренадер"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Celeus spectabilis",
+ "sci_name_aco": "Celeus spectabilis",
+ "sounds": [],
+ "taxon_order": 11814.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 113.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Celeus%20spectabilis.jpg"
+ ]
+}

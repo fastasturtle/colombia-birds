@@ -1,0 +1,96 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chepic1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-cinnamomeus",
+ "ids": {
+  "avibase": "5945045BA94DEC03",
+  "birdbase": 11757,
+  "gbif": 5228762,
+  "inaturalist": "17797",
+  "iucn": "22680781",
+  "wikidata": "Q1267561",
+  "xeno_canto": "Picumnus-cinnamomeus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_cinnamomeus",
+  "ebird": "https://ebird.org/species/chepic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17797",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_cinnamomeus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+cinnamomeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut Piculet",
+  "en_aco": "Chestnut Piculet",
+  "es": "Carpinterito Castaño",
+  "ru": "Каштановый дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus cinnamomeus",
+ "sci_name_aco": "Picumnus cinnamomeus",
+ "sounds": [],
+ "taxon_order": 11100.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "plantation",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20cinnamomeus%20-%201820-1863%20-%20Print%20-%20Iconographia%20Zoologica%20-%20Special%20Collections%20University%20of%20Amsterdam%20-%20UBA01%20IZ18700019%20%28cropped%29.tif"
+ ]
+}

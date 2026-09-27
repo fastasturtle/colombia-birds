@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1881)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "apifly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-apicalis",
+ "ids": {
+  "avibase": "AA902955A737926B",
+  "birdbase": 18142,
+  "gbif": 2483558,
+  "inaturalist": "16004",
+  "iucn": "22700424",
+  "wikidata": "Q1270334",
+  "xeno_canto": "Myiarchus-apicalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_apicalis",
+  "ebird": "https://ebird.org/species/apifly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16004",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Apical_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_apicalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+apicalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Apical Flycatcher",
+  "en_aco": "Apical Flycatcher",
+  "es": "Copetón Apical",
+  "ru": "Колумбийский миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus apicalis",
+ "sci_name_aco": "Myiarchus apicalis",
+ "sounds": [],
+ "taxon_order": 17316.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2500,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 29.599999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20apicalis%20Atrapamoscas%20apical%20Apical%20Flycatcher%20%288937699247%29.jpg"
+ ]
+}

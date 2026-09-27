@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bcmtan2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Anisognathus",
+ "id": "anisognathus-notabilis",
+ "ids": {
+  "avibase": "C42E650C564095FC",
+  "birdbase": 37704,
+  "gbif": 5230540,
+  "inaturalist": "10187",
+  "iucn": "22722651",
+  "wikidata": "Q2630986",
+  "xeno_canto": "Anisognathus-notabilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anisognathus_notabilis",
+  "ebird": "https://ebird.org/species/bcmtan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10187",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-chinned_mountain_tanager",
+   "es": "https://es.wikipedia.org/wiki/Anisognathus_notabilis",
+   "ru": "https://ru.wikipedia.org/wiki/Черногорлая_горная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anisognathus+notabilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-chinned Mountain Tanager",
+  "en_aco": "Black-chinned Mountain-Tanager",
+  "es": "Tangara Barbinegra",
+  "ru": "Эквадорская танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anisognathus notabilis",
+ "sci_name_aco": "Anisognathus notabilis",
+ "sounds": [],
+ "taxon_order": 34900.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2750,
+   "min": 900,
+   "min_extreme": 300
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 56.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-chinned%20Mountain%20Tanager%20%2826850227000%29.jpg"
+ ]
+}

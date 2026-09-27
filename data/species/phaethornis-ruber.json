@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "redher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-ruber",
+ "ids": {
+  "avibase": "1EAB2C48B126DF9A",
+  "birdbase": 2729,
+  "gbif": 2476636,
+  "inaturalist": "5612",
+  "iucn": "22686991",
+  "wikidata": "Q1267401",
+  "xeno_canto": "Phaethornis-ruber"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_ruber",
+  "ebird": "https://ebird.org/species/redher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5612",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Reddish_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_ruber",
+   "ru": "https://ru.wikipedia.org/wiki/Краснобрюхий_солнечный_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+ruber"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Reddish Hermit",
+  "en_aco": "Reddish Hermit",
+  "es": "Ermitaño Rojizo",
+  "ru": "Коричневый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis ruber",
+ "sci_name_aco": "Phaethornis ruber",
+ "sounds": [],
+ "taxon_order": 4320.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 2.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Reddish%20Hermit%20-%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Cassini, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "phivir",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-philadelphicus",
+ "ids": {
+  "avibase": "447A1BA516A43F9A",
+  "birdbase": 21497,
+  "gbif": 2487408,
+  "inaturalist": "17364",
+  "iucn": "22705240",
+  "wikidata": "Q596275",
+  "xeno_canto": "Vireo-philadelphicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_philadelphicus",
+  "ebird": "https://ebird.org/species/phivir",
+  "inaturalist": "https://www.inaturalist.org/taxa/17364",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Philadelphia_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_philadelphicus",
+   "ru": "https://ru.wikipedia.org/wiki/Тонкоклювый_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+philadelphicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Philadelphia Vireo",
+  "en_aco": "Philadelphia Vireo",
+  "es": "Vireo de Filadelfia",
+  "ru": "Лимонный виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo philadelphicus",
+ "sci_name_aco": "Vireo philadelphicus",
+ "sounds": [],
+ "taxon_order": 19244.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2130,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 12.22,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia%20vireo%20hotel%20bougainvillea%204.1.24%20DSC%206028-topaz-denoiseraw-sharpen%20%28cropped%29.jpg"
+ ]
+}

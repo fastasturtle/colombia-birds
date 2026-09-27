@@ -1,0 +1,92 @@
+{
+ "authorship": "(Wetmore, 1946)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "permet1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Metallura",
+ "id": "metallura-iracunda",
+ "ids": {
+  "avibase": "5A77A64773376EC5",
+  "birdbase": 3027,
+  "gbif": 2476870,
+  "inaturalist": "5581",
+  "iucn": "22688018",
+  "wikidata": "Q373638",
+  "xeno_canto": "Metallura-iracunda"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Metallura_iracunda",
+  "ebird": "https://ebird.org/species/permet1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5581",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Perijá_metaltail",
+   "es": "https://es.wikipedia.org/wiki/Metallura_iracunda",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Metallura+iracunda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Perija Metaltail",
+  "en_aco": "Perija Metaltail",
+  "es": "Metalura Iracunda",
+  "ru": "Золотистый металлохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Metallura iracunda",
+ "sci_name_aco": "Metallura iracunda",
+ "sounds": [],
+ "taxon_order": 4541.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 2400,
+   "min_extreme": 1850
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 3.8499999999999996,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Metallura%20iracunda%20%2815636003252%29.jpg"
+ ]
+}

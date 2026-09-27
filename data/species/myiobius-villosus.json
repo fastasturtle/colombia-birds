@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tabfly1",
+ "family": {
+  "code": "rfaall1",
+  "en": "Royal Flycatchers and Allies",
+  "sci": "Onychorhynchidae"
+ },
+ "genus": "Myiobius",
+ "id": "myiobius-villosus",
+ "ids": {
+  "avibase": "9C468DC37264C109",
+  "birdbase": 18655,
+  "gbif": 2483293,
+  "inaturalist": "16666",
+  "iucn": "22699717",
+  "wikidata": "Q1260704",
+  "xeno_canto": "Myiobius-villosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiobius_villosus",
+  "ebird": "https://ebird.org/species/tabfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16666",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-breasted_myiobius",
+   "es": "https://es.wikipedia.org/wiki/Myiobius_villosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiobius+villosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-breasted Flycatcher",
+  "en_aco": "Tawny-breasted Flycatcher",
+  "es": "Moscareta Vellosa",
+  "ru": "Охристый широкохвост"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiobius villosus",
+ "sci_name_aco": "Myiobius villosus",
+ "sounds": [],
+ "taxon_order": 16119.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.933333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tawny-breasted%20Flycatcher.jpg"
+ ]
+}

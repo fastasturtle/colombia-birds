@@ -1,0 +1,95 @@
+{
+ "authorship": "(Gould, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plctan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-inornata",
+ "ids": {
+  "avibase": "6E314A86F5F1117F",
+  "birdbase": 37953,
+  "gbif": 2488164,
+  "inaturalist": "9548",
+  "iucn": "22722803",
+  "wikidata": "Q1590551",
+  "xeno_canto": "Tangara-inornata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_inornata",
+  "ebird": "https://ebird.org/species/plctan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9548",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-colored_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_inornata",
+   "ru": "https://ru.wikipedia.org/wiki/Серая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+inornata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-colored Tanager",
+  "en_aco": "Plain-colored Tanager",
+  "es": "Tangara Cenicienta",
+  "ru": "Серая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara inornata",
+ "sci_name_aco": "Tangara inornata",
+ "sounds": [],
+ "taxon_order": 35054.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.475,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plain-collared%20tanager%20%2839761228985%29.jpg"
+ ]
+}

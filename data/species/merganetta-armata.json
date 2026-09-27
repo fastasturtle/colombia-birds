@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "torduc1",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Merganetta",
+ "id": "merganetta-armata",
+ "ids": {
+  "avibase": "C10685103180BD72",
+  "birdbase": 315,
+  "gbif": 2498275,
+  "inaturalist": "7168",
+  "iucn": "22680118",
+  "wikidata": "Q914045",
+  "xeno_canto": "Merganetta-armata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Merganetta_armata",
+  "ebird": "https://ebird.org/species/torduc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7168",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Torrent_duck",
+   "es": "https://es.wikipedia.org/wiki/Merganetta_armata",
+   "ru": "https://ru.wikipedia.org/wiki/Андская_утка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Merganetta+armata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Torrent Duck",
+  "en_aco": "Torrent Duck",
+  "es": "Pato Torrentero",
+  "ru": "Ручьевая утка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Merganetta armata",
+ "sci_name_aco": "Merganetta armata",
+ "sounds": [],
+ "taxon_order": 468.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": 4500,
+   "min": 1500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "rivers_lakes"
+  ],
+  "mass_g": 366.875,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TorrentDuckM.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Merganetta%20armata%20-%20Rio%20Urumamba%2C%20Peru%20-pair-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TorrentDuckF.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whnjac1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Florisuga",
+ "id": "florisuga-mellivora",
+ "ids": {
+  "avibase": "80DA04641FA03DC5",
+  "birdbase": 2669,
+  "gbif": 2476195,
+  "inaturalist": "6417",
+  "iucn": "22687097",
+  "wikidata": "Q1084570",
+  "xeno_canto": "Florisuga-mellivora"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Florisuga_mellivora",
+  "ebird": "https://ebird.org/species/whnjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6417",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-necked_jacobin",
+   "es": "https://es.wikipedia.org/wiki/Florisuga_mellivora",
+   "ru": "https://ru.wikipedia.org/wiki/Колибри-якобин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Florisuga+mellivora"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-necked Jacobin",
+  "en_aco": "White-necked Jacobin",
+  "es": "Colibrí Nuquiblanco",
+  "ru": "Ошейниковый якобин"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Florisuga mellivora",
+ "sci_name_aco": "Florisuga mellivora",
+ "sounds": [],
+ "taxon_order": 4227.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 7.666666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-necked%20Jacobin%204.jpg"
+ ]
+}

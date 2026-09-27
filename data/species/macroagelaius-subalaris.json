@@ -1,0 +1,91 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mougra1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Macroagelaius",
+ "id": "macroagelaius-subalaris",
+ "ids": {
+  "avibase": "7290E17C0D315F99",
+  "birdbase": 36086,
+  "gbif": 2484179,
+  "inaturalist": "10476",
+  "iucn": "22724290",
+  "wikidata": "Q580539",
+  "xeno_canto": "Macroagelaius-subalaris"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Macroagelaius_subalaris",
+  "ebird": "https://ebird.org/species/mougra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10476",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Colombian_mountain_grackle",
+   "es": "https://es.wikipedia.org/wiki/Macroagelaius_subalaris",
+   "ru": "https://ru.wikipedia.org/wiki/Колумбийский_лесной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Macroagelaius+subalaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mountain Grackle",
+  "en_aco": "Mountain Grackle",
+  "es": "Chango Colombiano",
+  "ru": "Колумбийский гракл"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Macroagelaius subalaris",
+ "sci_name_aco": "Macroagelaius subalaris",
+ "sounds": [],
+ "taxon_order": 33908.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 1900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 62,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columbian%20Mountain%20Grackle%20%28Macroagelaius%20subalaris%29%20%288079736640%29.jpg"
+ ]
+}

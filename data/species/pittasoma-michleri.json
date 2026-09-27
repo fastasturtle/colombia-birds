@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cassin, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blcant1",
+ "family": {
+  "code": "conopo1",
+  "en": "Gnateaters",
+  "sci": "Conopophagidae"
+ },
+ "genus": "Pittasoma",
+ "id": "pittasoma-michleri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16705,
+  "gbif": 2490573,
+  "inaturalist": "9060",
+  "iucn": "22703231",
+  "wikidata": "Q737239",
+  "xeno_canto": "Pittasoma-michleri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pittasoma_michleri",
+  "ebird": "https://ebird.org/species/blcant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9060",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-crowned_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Pittasoma_michleri",
+   "ru": "https://ru.wikipedia.org/wiki/Черношапочная_питтасома"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pittasoma+michleri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-crowned Antpitta",
+  "en_aco": "Black-crowned Antpitta",
+  "es": "Tororoí Capinegro",
+  "ru": "Чешуйчатая питтасома"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pittasoma michleri",
+ "sci_name_aco": "Pittasoma michleri",
+ "sounds": [],
+ "taxon_order": 14155.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": "L"
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 106,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pittasoma%20michleri%20-Panama-8.jpg"
+ ]
+}

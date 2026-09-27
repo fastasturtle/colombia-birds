@@ -1,0 +1,95 @@
+{
+ "authorship": "(Bonaparte, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtdov",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotila",
+ "id": "leptotila-verreauxi",
+ "ids": {
+  "avibase": "6141E8C89B794FFA",
+  "birdbase": 4955,
+  "gbif": 2496060,
+  "inaturalist": "3280",
+  "iucn": "22690854",
+  "wikidata": "Q1066498",
+  "xeno_canto": "Leptotila-verreauxi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotila_verreauxi",
+  "ebird": "https://ebird.org/species/whtdov",
+  "inaturalist": "https://www.inaturalist.org/taxa/3280",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tipped_dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotila_verreauxi",
+   "ru": "https://ru.wikipedia.org/wiki/Малая_белолобая_лептотила"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotila+verreauxi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tipped Dove",
+  "en_aco": "White-tipped Dove",
+  "es": "Paloma Montaraz Común",
+  "ru": "Белолобая голубка"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotila verreauxi",
+ "sci_name_aco": "Leptotila verreauxi",
+ "sounds": [],
+ "taxon_order": 2325.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 3200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 151,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Whitetippeddove.jpg"
+ ]
+}

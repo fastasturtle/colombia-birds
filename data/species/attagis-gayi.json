@@ -1,0 +1,92 @@
+{
+ "authorship": "(I. Geoffroy Saint-Hilaire & R. Lesson, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubsee2",
+ "family": {
+  "code": "thinoc1",
+  "en": "Seedsnipes",
+  "sci": "Thinocoridae"
+ },
+ "genus": "Attagis",
+ "id": "attagis-gayi",
+ "ids": {
+  "avibase": "7C72CD006ED8295C",
+  "birdbase": 6640,
+  "gbif": 2480958,
+  "inaturalist": "3782",
+  "iucn": "22693036",
+  "wikidata": "Q1268282",
+  "xeno_canto": "Attagis-gayi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Attagis_gayi",
+  "ebird": "https://ebird.org/species/rubsee2",
+  "inaturalist": "https://www.inaturalist.org/taxa/3782",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-bellied_seedsnipe",
+   "es": "https://es.wikipedia.org/wiki/Attagis_gayi",
+   "ru": "https://ru.wikipedia.org/wiki/Краснобрюхий_аттагис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Attagis+gayi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-bellied Seedsnipe",
+  "en_aco": "Rufous-bellied Seedsnipe",
+  "es": "Agachona Grande",
+  "ru": "Краснобрюхий зобатый бегунок"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Attagis gayi",
+ "sci_name_aco": "Attagis gayi",
+ "sounds": [],
+ "taxon_order": 5968.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 5500,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "wetland"
+  ],
+  "mass_g": 339.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-bellied%20Seedsnipe%20%28Attagis%20gayi%29%20-%20Papallacta%20-%20Ecuador.jpg"
+ ]
+}

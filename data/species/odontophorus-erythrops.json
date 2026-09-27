@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rfwqua1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Odontophorus",
+ "id": "odontophorus-erythrops",
+ "ids": {
+  "avibase": "DCE5A94645FA4AAD",
+  "birdbase": 941,
+  "gbif": 5228045,
+  "inaturalist": "1354",
+  "iucn": "22679645",
+  "wikidata": "Q1259880",
+  "xeno_canto": "Odontophorus-erythrops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontophorus_erythrops",
+  "ebird": "https://ebird.org/species/rfwqua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1354",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-fronted_wood_quail",
+   "es": "https://es.wikipedia.org/wiki/Odontophorus_erythrops",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontophorus+erythrops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-fronted Wood-Quail",
+  "en_aco": "Rufous-fronted Wood-Quail",
+  "es": "Corcovado Frentirrojo",
+  "ru": "Краснолобый зубцеклювый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Odontophorus erythrops",
+ "sci_name_aco": "Odontophorus erythrops",
+ "sounds": [],
+ "taxon_order": 1154.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 278.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Odontophorus%20erythrops%20parambae%201897.jpg"
+ ]
+}

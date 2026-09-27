@@ -1,0 +1,95 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shtibi1",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Cercibis",
+ "id": "cercibis-oxycerca",
+ "ids": {
+  "avibase": "237E5445EF31A5A7",
+  "birdbase": 7851,
+  "gbif": 2480795,
+  "inaturalist": "3772",
+  "iucn": "22697432",
+  "wikidata": "Q737454",
+  "xeno_canto": "Cercibis-oxycerca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cercibis_oxycerca",
+  "ebird": "https://ebird.org/species/shtibi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3772",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sharp-tailed_ibis",
+   "es": "https://es.wikipedia.org/wiki/Cercibis_oxycerca",
+   "ru": "https://ru.wikipedia.org/wiki/Острохвостый_ибис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cercibis+oxycerca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sharp-tailed Ibis",
+  "en_aco": "Sharp-tailed Ibis",
+  "es": "Ibis Rabudo",
+  "ru": "Острохвостый ибис"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Cercibis oxycerca",
+ "sci_name_aco": "Cercibis oxycerca",
+ "sounds": [],
+ "taxon_order": 7476.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tapicuru%20de%20cara%20palida.jpg"
+ ]
+}

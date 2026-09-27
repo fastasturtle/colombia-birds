@@ -1,0 +1,92 @@
+{
+ "authorship": "(Taczanowski, 1879)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "subtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mecocerculus",
+ "id": "mecocerculus-minor",
+ "ids": {
+  "avibase": "95D9C295ED7F59B7",
+  "birdbase": 17045,
+  "gbif": 2483842,
+  "inaturalist": "16421",
+  "iucn": "22699325",
+  "wikidata": "Q1267169",
+  "xeno_canto": "Mecocerculus-minor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mecocerculus_minor",
+  "ebird": "https://ebird.org/species/subtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16421",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sulphur-bellied_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Mecocerculus_minor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mecocerculus+minor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sulphur-bellied Tyrannulet",
+  "en_aco": "Sulphur-bellied Tyrannulet",
+  "es": "Piojito Azufre",
+  "ru": "Желтобрюхий москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mecocerculus minor",
+ "sci_name_aco": "Mecocerculus minor",
+ "sounds": [],
+ "taxon_order": 16595.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 9.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mecocerculus%20minor%20-%20Sulphur-bellied%20Tyrannulet%20%28cropped%29.jpg"
+ ]
+}

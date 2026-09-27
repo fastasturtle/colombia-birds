@@ -1,0 +1,95 @@
+{
+ "authorship": "(Say, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lesgol",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Spinus",
+ "id": "spinus-psaltria",
+ "ids": {
+  "avibase": "CD5C21CAB91A75EB",
+  "birdbase": 34737,
+  "gbif": 5231647,
+  "inaturalist": "145308",
+  "iucn": "22720410",
+  "wikidata": "Q27075863",
+  "xeno_canto": "Spinus-psaltria"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spinus_psaltria",
+  "ebird": "https://ebird.org/species/lesgol",
+  "inaturalist": "https://www.inaturalist.org/taxa/145308",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_goldfinch",
+   "es": "https://es.wikipedia.org/wiki/Spinus_psaltria",
+   "ru": "https://ru.wikipedia.org/wiki/Мексиканский_чиж"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spinus+psaltria"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Goldfinch",
+  "en_aco": "Lesser Goldfinch",
+  "es": "Jilguero Menor",
+  "ru": "Мексиканский чиж"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Spinus psaltria",
+ "sci_name_aco": "Spinus psaltria",
+ "sounds": [],
+ "taxon_order": 32609.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 9.716666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Goldfinch%20%2841437417532%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Goldfinch%20%2813894618587%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carduelis%20psaltria%20female.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Temminck, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slbkit1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Helicolestes",
+ "id": "helicolestes-hamatus",
+ "ids": {
+  "avibase": "58078CCA004B027C",
+  "birdbase": 8705,
+  "gbif": 5788500,
+  "inaturalist": "72911",
+  "iucn": "22695051",
+  "wikidata": "Q283251",
+  "xeno_canto": "Helicolestes-hamatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Helicolestes_hamatus",
+  "ebird": "https://ebird.org/species/slbkit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72911",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slender-billed_kite",
+   "es": "https://es.wikipedia.org/wiki/Helicolestes_hamatus",
+   "ru": "https://ru.wikipedia.org/wiki/Тонкоклювый_коршун-слизнеед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Helicolestes+hamatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slender-billed Kite",
+  "en_aco": "Slender-billed Kite",
+  "es": "Caracolero Plomizo",
+  "ru": "Тонкоклювый коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Helicolestes hamatus",
+ "sci_name_aco": "Helicolestes hamatus",
+ "sounds": [],
+ "taxon_order": 8407.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 419.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Helicolestes%20hamatus%20-%20Slender-billed%20kite%2C%20Careiro%20da%20V%C3%A1rzea%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cattyr",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Machetornis",
+ "id": "machetornis-rixosa",
+ "ids": {
+  "avibase": "87874F973B876854",
+  "birdbase": 17970,
+  "gbif": 2482934,
+  "inaturalist": "17289",
+  "iucn": "22700321",
+  "wikidata": "Q656000",
+  "xeno_canto": "Machetornis-rixosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Machetornis_rixosa",
+  "ebird": "https://ebird.org/species/cattyr",
+  "inaturalist": "https://www.inaturalist.org/taxa/17289",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cattle_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Machetornis_rixosa",
+   "ru": "https://ru.wikipedia.org/wiki/Коровий_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Machetornis+rixosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cattle Tyrant",
+  "en_aco": "Cattle Tyrant",
+  "es": "Picabuey",
+  "ru": "Коровий тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Machetornis rixosa",
+ "sci_name_aco": "Machetornis rixosa",
+ "sounds": [],
+ "taxon_order": 17361.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 32.800000000000004,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Machetornis%20rixosa%20%28picabuey%29%2C%20color%20amendment.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bartin2",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-bartletti",
+ "ids": {
+  "avibase": "88B9ABC184D124D1",
+  "birdbase": 147,
+  "gbif": 2477556,
+  "inaturalist": "20566",
+  "iucn": "22678229",
+  "wikidata": "Q790940",
+  "xeno_canto": "Crypturellus-bartletti"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_bartletti",
+  "ebird": "https://ebird.org/species/bartin2",
+  "inaturalist": "https://www.inaturalist.org/taxa/20566",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bartlett's_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_bartletti",
+   "ru": "https://ru.wikipedia.org/wiki/Скрытохвост_Бартлетта"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+bartletti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bartlett's Tinamou",
+  "en_aco": "Bartlett's Tinamou",
+  "es": "Tinamú de Bartlett",
+  "ru": "Бартлеттов скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus bartletti",
+ "sci_name_aco": "Crypturellus bartletti",
+ "sounds": [],
+ "taxon_order": 171.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 241,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CrypturusBartlettiKeulemans.jpg"
+ ]
+}

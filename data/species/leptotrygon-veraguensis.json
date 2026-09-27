@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "obqdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotrygon",
+ "id": "leptotrygon-veraguensis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 4954,
+  "gbif": 8320381,
+  "inaturalist": "367480",
+  "iucn": "22690928",
+  "wikidata": "Q27074681",
+  "xeno_canto": "Leptotrygon-veraguensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotrygon_veraguensis",
+  "ebird": "https://ebird.org/species/obqdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367480",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olive-backed_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotrygon_veraguensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotrygon+veraguensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Olive-backed Quail-Dove",
+  "en_aco": "Olive-backed Quail-Dove",
+  "es": "Paloma Perdiz de Veragua",
+  "ru": "Оливковая перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotrygon veraguensis",
+ "sci_name_aco": "Leptotrygon veraguensis",
+ "sounds": [],
+ "taxon_order": 2324.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 152.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leptotrygon%20veraguensis%2C%20Selva%20Verde%2C%20Costa%20Rica.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GeotrygonRufiventrisSmit.jpg"
+ ]
+}

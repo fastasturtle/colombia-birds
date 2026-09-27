@@ -1,0 +1,92 @@
+{
+ "authorship": "(Temminck, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olifla3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Rhynchocyclus",
+ "id": "rhynchocyclus-olivaceus",
+ "ids": {
+  "avibase": "DF0D4F4751655BC0",
+  "birdbase": 17521,
+  "gbif": 5229698,
+  "inaturalist": "16355",
+  "iucn": "103680403",
+  "wikidata": "Q1268636",
+  "xeno_canto": "Rhynchocyclus-olivaceus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhynchocyclus_olivaceus",
+  "ebird": "https://ebird.org/species/olifla3",
+  "inaturalist": "https://www.inaturalist.org/taxa/16355",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Eastern_olivaceous_flatbill",
+   "es": "https://es.wikipedia.org/wiki/Rhynchocyclus_olivaceus",
+   "ru": "https://ru.wikipedia.org/wiki/Оливковый_тиранн-плоскоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhynchocyclus+olivaceus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Eastern Olivaceous Flatbill",
+  "en_aco": "Olivaceous Flatbill",
+  "es": "Picoplano Oliváceo",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhynchocyclus olivaceus",
+ "sci_name_aco": "Rhynchocyclus olivaceus",
+ "sounds": [],
+ "taxon_order": 16466.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 21.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rhynchocyclus%20olivaceus%20-%20Olivaceous%20flatbill%3B%20Linhares%2C%20Espiritu%20Santo%2C%20Brazil.jpg"
+ ]
+}

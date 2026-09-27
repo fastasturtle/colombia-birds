@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "refpar3",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Deroptyus",
+ "id": "deroptyus-accipitrinus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13377,
+  "gbif": 2479535,
+  "inaturalist": "19202",
+  "iucn": "22686416",
+  "wikidata": "Q913090",
+  "xeno_canto": "Deroptyus-accipitrinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Deroptyus_accipitrinus",
+  "ebird": "https://ebird.org/species/refpar3",
+  "inaturalist": "https://www.inaturalist.org/taxa/19202",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-fan_parrot",
+   "es": "https://es.wikipedia.org/wiki/Deroptyus_accipitrinus",
+   "ru": "https://ru.wikipedia.org/wiki/Веерный_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Deroptyus+accipitrinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-fan Parrot",
+  "en_aco": "Red-fan Parrot",
+  "es": "Loro Cacique",
+  "ru": "Веерный попугай"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Deroptyus accipitrinus",
+ "sci_name_aco": "Deroptyus accipitrinus",
+ "sounds": [],
+ "taxon_order": 13010.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 245,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Deroptyus%20accipitrinus-20090405.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Deroptyus%20accipitrinus%20or%20Red-fan%20Parrot%20on%20ground.jpg"
+ ]
+}

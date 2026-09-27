@@ -1,0 +1,90 @@
+{
+ "authorship": "(Meyer de Schauensee, 1959)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EX",
+  "migration_note": "Residente",
+  "status": [
+   "endemic",
+   "extinct"
+  ],
+  "status_raw": "Residente Endémica - Extinta",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colgre1",
+ "family": {
+  "code": "podici1",
+  "en": "Grebes",
+  "sci": "Podicipedidae"
+ },
+ "genus": "Podiceps",
+ "id": "podiceps-andinus",
+ "ids": {
+  "avibase": "A62CBDD64A2A962B",
+  "birdbase": 6248,
+  "gbif": 2482050,
+  "inaturalist": "4223",
+  "iucn": "22696615",
+  "wikidata": "Q490504",
+  "xeno_canto": "Podiceps-andinus"
+ },
+ "iucn": {
+  "aco_2022": "EX",
+  "birdbase_2024": "EX",
+  "wikidata": "extinct"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Podiceps_andinus",
+  "ebird": "https://ebird.org/species/colgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4223",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Colombian_grebe",
+   "es": "https://es.wikipedia.org/wiki/Podiceps_andinus",
+   "ru": "https://ru.wikipedia.org/wiki/Андская_поганка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Podiceps+andinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Colombian Grebe",
+  "en_aco": "Colombian Grebe",
+  "es": "Zampullín Colombiano",
+  "ru": "Андская поганка"
+ },
+ "order": "Podicipediformes",
+ "photos": [],
+ "sci_name": "Podiceps andinus",
+ "sci_name_aco": "Podiceps andinus",
+ "sounds": [],
+ "taxon_order": 6881.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3015,
+   "max_extreme": 3100,
+   "min": 2600,
+   "min_extreme": 2500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "wetland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Tschudi, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "perboo1",
+ "family": {
+  "code": "sulida1",
+  "en": "Boobies and Gannets",
+  "sci": "Sulidae"
+ },
+ "genus": "Sula",
+ "id": "sula-variegata",
+ "ids": {
+  "avibase": "AD43BCD919FC62EC",
+  "birdbase": 7709,
+  "gbif": 2480970,
+  "inaturalist": "3796",
+  "iucn": "22696686",
+  "wikidata": "Q912035",
+  "xeno_canto": "Sula-variegata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sula_variegata",
+  "ebird": "https://ebird.org/species/perboo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3796",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Peruvian_booby",
+   "es": "https://es.wikipedia.org/wiki/Sula_variegata",
+   "ru": "https://ru.wikipedia.org/wiki/Перуанская_олуша"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sula+variegata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Peruvian Booby",
+  "en_aco": "Peruvian Booby",
+  "es": "Piquero Peruano",
+  "ru": "Перуанская олуша"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Sula variegata",
+ "sci_name_aco": "Sula variegata",
+ "sounds": [],
+ "taxon_order": 7362.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1406.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Peruvian%20Booby.JPG"
+ ]
+}

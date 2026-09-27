@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "olitan1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Chlorothraupis",
+ "id": "chlorothraupis-carmioli",
+ "ids": {
+  "avibase": "8720A456203561E0",
+  "birdbase": 36603,
+  "gbif": 2488765,
+  "inaturalist": "10558",
+  "iucn": null,
+  "wikidata": "Q1585663",
+  "xeno_canto": "Chlorothraupis-carmioli"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorothraupis_carmioli",
+  "ebird": "https://ebird.org/species/olitan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10558",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Carmiol's_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chlorothraupis_carmioli",
+   "ru": "https://ru.wikipedia.org/wiki/Жёлтая_ширококлювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorothraupis+carmioli"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Carmiol's Tanager",
+  "en_aco": "Carmiol's Tanager",
+  "es": "Tangara de Carmiol",
+  "ru": "Зелёная хабия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorothraupis carmioli",
+ "sci_name_aco": "Chlorothraupis carmioli",
+ "sounds": [],
+ "taxon_order": 34493.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 1450,
+   "min": 200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 38.95,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorothraupis%20carmioli%20-Costa%20Rica-8.jpg"
+ ]
+}

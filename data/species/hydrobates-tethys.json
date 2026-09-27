@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wrspet",
+ "family": {
+  "code": "hydrob1",
+  "en": "Northern Storm-Petrels",
+  "sci": "Hydrobatidae"
+ },
+ "genus": "Hydrobates",
+ "id": "hydrobates-tethys",
+ "ids": {
+  "avibase": null,
+  "birdbase": 7436,
+  "gbif": 11043398,
+  "inaturalist": "4064",
+  "iucn": null,
+  "wikidata": "Q1263022",
+  "xeno_canto": "Oceanodroma-tethys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oceanodroma_tethys",
+  "ebird": "https://ebird.org/species/wrspet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4064",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wedge-rumped_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Hydrobates_tethys",
+   "ru": "https://ru.wikipedia.org/wiki/Галапагосская_качурка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrobates+tethys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wedge-rumped Storm-Petrel",
+  "en_aco": "Wedge-rumped Storm-Petrel",
+  "es": "Paíño de Galápagos",
+  "ru": "Галапагосская качурка"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Hydrobates tethys",
+ "sci_name_aco": "Hydrobates tethys",
+ "sounds": [],
+ "taxon_order": 7071.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 27,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galapagos%20storm%20petrel.jpg"
+ ]
+}

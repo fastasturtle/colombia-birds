@@ -1,0 +1,91 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "retcar2",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Ibycter",
+ "id": "ibycter-americanus",
+ "ids": {
+  "avibase": "104A29946F99617F",
+  "birdbase": 12808,
+  "gbif": 2480994,
+  "inaturalist": "4729",
+  "iucn": "22696229",
+  "wikidata": "Q517757",
+  "xeno_canto": "Ibycter-americanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ibycter_americanus",
+  "ebird": "https://ebird.org/species/retcar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/4729",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-throated_caracara",
+   "es": "https://es.wikipedia.org/wiki/Ibycter_americanus",
+   "ru": "https://ru.wikipedia.org/wiki/Красногорлая_чёрная_каракара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ibycter+americanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-throated Caracara",
+  "en_aco": "Red-throated Caracara",
+  "es": "Caracara Gorjirrojo",
+  "ru": "Красногорлая каракара"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Ibycter americanus",
+ "sci_name_aco": "Ibycter americanus",
+ "sounds": [],
+ "taxon_order": 11965.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 595,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ibycter%20americanus%20-%20journal.pone.0084114.g001A.png"
+ ]
+}

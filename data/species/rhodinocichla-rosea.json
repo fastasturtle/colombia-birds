@@ -1,0 +1,94 @@
+{
+ "authorship": "(R. Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rottan2",
+ "family": {
+  "code": "rhodin1",
+  "en": "Thrush-Tanager",
+  "sci": "Rhodinocichlidae"
+ },
+ "genus": "Rhodinocichla",
+ "id": "rhodinocichla-rosea",
+ "ids": {
+  "avibase": "358DFBA288093A93",
+  "birdbase": 34901,
+  "gbif": 2488552,
+  "inaturalist": "10483",
+  "iucn": "22722313",
+  "wikidata": "Q679711",
+  "xeno_canto": "Rhodinocichla-rosea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rhodinocichla_rosea",
+  "ebird": "https://ebird.org/species/rottan2",
+  "inaturalist": "https://www.inaturalist.org/taxa/10483",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rosy_thrush-tanager",
+   "es": "https://es.wikipedia.org/wiki/Rhodinocichla_rosea",
+   "ru": "https://ru.wikipedia.org/wiki/Танагра-кео"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rhodinocichla+rosea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rosy Thrush-Tanager",
+  "en_aco": "Rosy Thrush-Tanager",
+  "es": "Tangara Rosada",
+  "ru": "Дроздовидная кео"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rhodinocichla rosea",
+ "sci_name_aco": "Rhodinocichla rosea",
+ "sounds": [],
+ "taxon_order": 32684.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Sand",
+  "elevation_m": {
+   "max": 1450,
+   "max_extreme": 1700,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 47.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rosy%20Thrush-Tanager%20%2840717613441%29.jpg"
+ ]
+}

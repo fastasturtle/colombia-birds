@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pbgdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-minuta",
+ "ids": {
+  "avibase": "37691FA2157469BB",
+  "birdbase": 4893,
+  "gbif": 2495853,
+  "inaturalist": "3570",
+  "iucn": "22690779",
+  "wikidata": "Q244422",
+  "xeno_canto": "Columbina-minuta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_minuta",
+  "ebird": "https://ebird.org/species/pbgdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3570",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-breasted_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_minuta",
+   "ru": "https://ru.wikipedia.org/wiki/Карликовая_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+minuta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-breasted Ground Dove",
+  "en_aco": "Plain-breasted Ground Dove",
+  "es": "Columbina Menuda",
+  "ru": "Карликовая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina minuta",
+ "sci_name_aco": "Columbina minuta",
+ "sounds": [],
+ "taxon_order": 2263.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 33.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Torcazas%20-%20Camino%20de%20Pasoancho%20%28Cali%29%20%284111461954%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Systellura",
+ "id": "systellura-longirostris",
+ "ids": {
+  "avibase": null,
+  "birdbase": 1902,
+  "gbif": 7784172,
+  "inaturalist": "339620",
+  "iucn": "22725678",
+  "wikidata": "Q27074761",
+  "xeno_canto": "Systellura-longirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Caprimulgus_longirostris",
+  "ebird": "https://ebird.org/species/bawnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339620",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-winged_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Systellura_longirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Systellura+longirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-winged Nightjar",
+  "en_aco": "Band-winged Nightjar",
+  "es": "Chotacabras Ñañarca Grande",
+  "ru": "Полосатокрылый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Systellura longirostris",
+ "sci_name_aco": "Systellura longirostris",
+ "sounds": [],
+ "taxon_order": 3549.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4400,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 45.666666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Systellura%20longirostris%20%28Guardacaminos%20andino%29%20-%20Flickr%20-%20Alejandro%20Bayer.jpg"
+ ]
+}

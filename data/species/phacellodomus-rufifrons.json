@@ -1,0 +1,96 @@
+{
+ "authorship": "(Wied-Neuwied, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruftho1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Phacellodomus",
+ "id": "phacellodomus-rufifrons",
+ "ids": {
+  "avibase": "189CA0EDB228D07F",
+  "birdbase": 15298,
+  "gbif": 2485126,
+  "inaturalist": "11624",
+  "iucn": "103672742",
+  "wikidata": "Q1260809",
+  "xeno_canto": "Phacellodomus-rufifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phacellodomus_rufifrons",
+  "ebird": "https://ebird.org/species/ruftho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11624",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-fronted_thornbird",
+   "es": "https://es.wikipedia.org/wiki/Phacellodomus_rufifrons",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phacellodomus+rufifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-fronted Thornbird",
+  "en_aco": "Rufous-fronted Thornbird",
+  "es": "Espinero Frentirrufo",
+  "ru": "Рыжелобый эспинеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Phacellodomus rufifrons",
+ "sci_name_aco": "Phacellodomus rufifrons",
+ "sounds": [],
+ "taxon_order": 15347.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": 2300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 23.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phacellodomus%20rufrifrons%20-%20Rufous-fronted%20thornbird%3B%20Boa%20Nova%2C%20Bahia%2C%20Brazil.jpg"
+ ]
+}

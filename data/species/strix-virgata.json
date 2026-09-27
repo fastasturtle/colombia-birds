@@ -1,0 +1,96 @@
+{
+ "authorship": "(Cassin, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "motowl",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Strix",
+ "id": "strix-virgata",
+ "ids": {
+  "avibase": "192FC14D288B0F46",
+  "birdbase": 9790,
+  "gbif": 2497440,
+  "inaturalist": "144597",
+  "iucn": "22689122",
+  "wikidata": "Q27865519",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/motowl",
+  "inaturalist": "https://www.inaturalist.org/taxa/144597",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Strix+virgata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mottled Owl",
+  "en_aco": "Mottled Owl",
+  "es": "Cárabo Café",
+  "ru": "Крапчатая неясыть"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Strix virgata",
+ "sci_name_aco": "Strix virgata",
+ "sounds": [],
+ "taxon_order": 9157.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 304.6666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mottled%20Owl%20%28Ciccaba%20virgata%29%20%285783277865%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mottled%20Owl%20%28Ciccaba%20virgata%29%20%285772425268%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ciccaba%20virgata%200zz.jpg"
+ ]
+}

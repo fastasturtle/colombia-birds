@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hauthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-hauxwelli",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30809,
+  "gbif": 2490743,
+  "inaturalist": "203817",
+  "iucn": "103888313",
+  "wikidata": "Q2653479",
+  "xeno_canto": "Turdus-hauxwelli"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_hauxwelli",
+  "ebird": "https://ebird.org/species/hauthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/203817",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hauxwell's_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_hauxwelli",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+hauxwelli"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hauxwell's Thrush",
+  "en_aco": "Hauxwell's Thrush",
+  "es": "Zorzal de Hauxwell",
+  "ru": "Темноклювый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus hauxwelli",
+ "sci_name_aco": "Turdus hauxwelli",
+ "sounds": [],
+ "taxon_order": 28750.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 67,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20hauxwelli.jpg"
+ ]
+}

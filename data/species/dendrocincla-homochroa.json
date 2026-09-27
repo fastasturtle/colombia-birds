@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rudwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendrocincla",
+ "id": "dendrocincla-homochroa",
+ "ids": {
+  "avibase": "A36EA7483EEC0700",
+  "birdbase": 14578,
+  "gbif": 2485979,
+  "inaturalist": "10871",
+  "iucn": "22703026",
+  "wikidata": "Q1262945",
+  "xeno_canto": "Dendrocincla-homochroa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocincla_homochroa",
+  "ebird": "https://ebird.org/species/rudwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10871",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendrocincla_homochroa",
+   "ru": "https://ru.wikipedia.org/wiki/Красноватый_дятловый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocincla+homochroa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Woodcreeper",
+  "en_aco": "Ruddy Woodcreeper",
+  "es": "Trepatroncos Rojizo",
+  "ru": "Рыжий древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendrocincla homochroa",
+ "sci_name_aco": "Dendrocincla homochroa",
+ "sounds": [],
+ "taxon_order": 14655.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 1800,
+   "min": 300,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 36.325,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendrocincla%20homochroa%20114947624.jpg"
+ ]
+}

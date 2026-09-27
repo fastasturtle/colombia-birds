@@ -1,0 +1,93 @@
+{
+ "authorship": "(Taczanowski & Berlepsch, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bbbtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Urothraupis",
+ "id": "urothraupis-stolzmanni",
+ "ids": {
+  "avibase": "18279EA867F8269D",
+  "birdbase": 37390,
+  "gbif": 2492180,
+  "inaturalist": "10532",
+  "iucn": "22723028",
+  "wikidata": "Q528537",
+  "xeno_canto": "Urothraupis-stolzmanni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Urothraupis_stolzmanni",
+  "ebird": "https://ebird.org/species/bbbtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10532",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-backed_bush_tanager",
+   "es": "https://es.wikipedia.org/wiki/Urothraupis_stolzmanni",
+   "ru": "https://ru.wikipedia.org/wiki/Черноспинная_овсянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Urothraupis+stolzmanni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-backed Bush Tanager",
+  "en_aco": "Black-backed Bush Tanager",
+  "es": "Tangara de Stolzmann",
+  "ru": "Черноспинный монтеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Urothraupis stolzmanni",
+ "sci_name_aco": "Urothraupis stolzmanni",
+ "sounds": [],
+ "taxon_order": 35342.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": 2750
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 23,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/UrothraupisStolzmanniSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-backed%20Bush%20Tanager.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(d'Orbigny, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "creque1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Pharomachrus",
+ "id": "pharomachrus-antisianus",
+ "ids": {
+  "avibase": "A968CFA781C7C5C0",
+  "birdbase": 9926,
+  "gbif": 2496719,
+  "inaturalist": "20852",
+  "iucn": "22682732",
+  "wikidata": "Q1262480",
+  "xeno_canto": "Pharomachrus-antisianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pharomachrus_antisianus",
+  "ebird": "https://ebird.org/species/creque1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20852",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_quetzal",
+   "es": "https://es.wikipedia.org/wiki/Pharomachrus_antisianus",
+   "ru": "https://ru.wikipedia.org/wiki/Хохлатый_квезал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pharomachrus+antisianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Quetzal",
+  "en_aco": "Crested Quetzal",
+  "es": "Quetzal Crestado",
+  "ru": "Хохлатый кетцаль"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Pharomachrus antisianus",
+ "sci_name_aco": "Pharomachrus antisianus",
+ "sounds": [],
+ "taxon_order": 9514.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": 1000
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 160.75,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crested%20quetzal%20%28Pharomachrus%20antisianus%29%20male%20San%20Isidro.jpg"
+ ]
+}

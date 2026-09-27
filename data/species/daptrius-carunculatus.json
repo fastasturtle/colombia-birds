@@ -1,0 +1,93 @@
+{
+ "authorship": "(Des Murs, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "carcar1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Daptrius",
+ "id": "daptrius-carunculatus",
+ "ids": {
+  "avibase": "4E716ECB9C173034",
+  "birdbase": 12817,
+  "gbif": 2481094,
+  "inaturalist": "4703",
+  "iucn": "22696238",
+  "wikidata": "Q875909",
+  "xeno_canto": "Phalcoboenus-carunculatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phalcoboenus_carunculatus",
+  "ebird": "https://ebird.org/species/carcar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4703",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Carunculated_caracara",
+   "es": "https://es.wikipedia.org/wiki/Daptrius_carunculatus",
+   "ru": "https://ru.wikipedia.org/wiki/Морщинистая_каракара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Daptrius+carunculatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Carunculated Caracara",
+  "en_aco": "Carunculated Caracara",
+  "es": "Caracara Carunculado",
+  "ru": "Пёстрая каракара"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Daptrius carunculatus",
+ "sci_name_aco": "Phalcoboenus carunculatus",
+ "sounds": [],
+ "taxon_order": 11973.0,
+ "taxonomy_note": "ACO/SACC lists this as Phalcoboenus carunculatus; eBird/Clements uses Daptrius carunculatus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": 4700,
+   "min": 3000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ecuador%200698b%20Carunculated%20Caracara.jpg"
+ ]
+}

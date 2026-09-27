@@ -1,0 +1,94 @@
+{
+ "authorship": "(Coues, 1864)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pifshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Ardenna",
+ "id": "ardenna-creatopus",
+ "ids": {
+  "avibase": "9A77D2B0EFBE0CBB",
+  "birdbase": 7568,
+  "gbif": 8475930,
+  "inaturalist": "475115",
+  "iucn": "22698195",
+  "wikidata": "Q27074606",
+  "xeno_canto": "Puffinus-creatopus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardenna_creatopus",
+  "ebird": "https://ebird.org/species/pifshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/475115",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pink-footed_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Ardenna_creatopus",
+   "ru": "https://ru.wikipedia.org/wiki/Розовоногий_буревестник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardenna+creatopus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pink-footed Shearwater",
+  "en_aco": "Pink-footed Shearwater",
+  "es": "Pardela Patirrosa",
+  "ru": "Розовоногий буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Ardenna creatopus",
+ "sci_name_aco": "Ardenna creatopus",
+ "sounds": [],
+ "taxon_order": 7205.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 390,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "sea"
+  ],
+  "mass_g": 718,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Shearwater%20pink-footed%20ventral%20fall%20monterey%20calif%202a.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pink-footed%20Shearwater%20%288004546479%29.jpg"
+ ]
+}

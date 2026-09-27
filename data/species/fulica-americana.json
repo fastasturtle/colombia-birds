@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "y00475",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Fulica",
+ "id": "fulica-americana",
+ "ids": {
+  "avibase": "4FB248BAEFEC2868",
+  "birdbase": 5933,
+  "gbif": 2474393,
+  "inaturalist": "473",
+  "iucn": "62169677",
+  "wikidata": "Q470016",
+  "xeno_canto": "Fulica-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Fulica_americana",
+  "ebird": "https://ebird.org/species/y00475",
+  "inaturalist": "https://www.inaturalist.org/taxa/473",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_coot",
+   "es": "https://es.wikipedia.org/wiki/Fulica_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_лысуха"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Fulica+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Coot",
+  "en_aco": "American Coot",
+  "es": "Focha Americana",
+  "ru": "Американская лысуха"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Fulica americana",
+ "sci_name_aco": "Fulica americana",
+ "sounds": [],
+ "taxon_order": 5500.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 568.1666666666666,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20coot%20in%20Prospect%20Park%20%2806152%29.jpg"
+ ]
+}

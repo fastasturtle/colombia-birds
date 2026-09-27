@@ -1,0 +1,91 @@
+{
+ "authorship": "(Cabanis, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "btttyr2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Hemitriccus",
+ "id": "hemitriccus-rufigularis",
+ "ids": {
+  "avibase": "447039A9F408E85E",
+  "birdbase": 17401,
+  "gbif": 2483012,
+  "inaturalist": "16305",
+  "iucn": "22698945",
+  "wikidata": "Q1272164",
+  "xeno_canto": "Hemitriccus-rufigularis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hemitriccus_rufigularis",
+  "ebird": "https://ebird.org/species/btttyr2",
+  "inaturalist": "https://www.inaturalist.org/taxa/16305",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-throated_tody-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Hemitriccus_rufigularis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hemitriccus+rufigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-throated Tody-Tyrant",
+  "en_aco": "Buff-throated Tody-Tyrant",
+  "es": "Titirijí Gorjirrufo",
+  "ru": "Перуанский тоди-тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hemitriccus rufigularis",
+ "sci_name_aco": "Hemitriccus rufigularis",
+ "sounds": [],
+ "taxon_order": 16381.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 750,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.133333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hemitriccus%20rufigularis%20-%20Buff-throated%20Tody-Tyrant%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Taczanowski & von Berlepsch, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cocjac2",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-pastazae",
+ "ids": {
+  "avibase": "988D86DAEE4BA762",
+  "birdbase": 10959,
+  "gbif": 5228247,
+  "inaturalist": "1488",
+  "iucn": "22682206",
+  "wikidata": "Q534082",
+  "xeno_canto": "Galbula-pastazae"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_pastazae",
+  "ebird": "https://ebird.org/species/cocjac2",
+  "inaturalist": "https://www.inaturalist.org/taxa/1488",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Coppery-chested_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_pastazae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+pastazae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Coppery-chested Jacamar",
+  "en_aco": "Coppery-chested Jacamar",
+  "es": "Jacamará Cobrizo",
+  "ru": "Рыжебрюхая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula pastazae",
+ "sci_name_aco": "Galbula pastazae",
+ "sounds": [],
+ "taxon_order": 10513.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1600,
+   "min": 750,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 31.833333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbula%20pastazae%20166954227.jpg"
+ ]
+}

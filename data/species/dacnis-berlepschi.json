@@ -1,0 +1,92 @@
+{
+ "authorship": "(E. Hartert, 1900)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scbdac1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Dacnis",
+ "id": "dacnis-berlepschi",
+ "ids": {
+  "avibase": "38EDD76666B1F8FC",
+  "birdbase": 36863,
+  "gbif": 2488368,
+  "inaturalist": "10507",
+  "iucn": "22722997",
+  "wikidata": "Q1588767",
+  "xeno_canto": "Dacnis-berlepschi"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dacnis_berlepschi",
+  "ebird": "https://ebird.org/species/scbdac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10507",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet-breasted_dacnis",
+   "es": "https://es.wikipedia.org/wiki/Dacnis_berlepschi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+berlepschi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-breasted Dacnis",
+  "en_aco": "Scarlet-breasted Dacnis",
+  "es": "Dacnis Pechirrojo",
+  "ru": "Красногрудый дакнис"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dacnis berlepschi",
+ "sci_name_aco": "Dacnis berlepschi",
+ "sounds": [],
+ "taxon_order": 35162.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1200,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria-DacnisKeulemans.jpg"
+ ]
+}

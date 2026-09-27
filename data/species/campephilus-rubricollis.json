@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "renwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Campephilus",
+ "id": "campephilus-rubricollis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 12567,
+  "gbif": 2478573,
+  "inaturalist": "18295",
+  "iucn": "22681396",
+  "wikidata": "Q1268603",
+  "xeno_canto": "Campephilus-rubricollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campephilus_rubricollis",
+  "ebird": "https://ebird.org/species/renwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18295",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-necked_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Campephilus_rubricollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campephilus+rubricollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-necked Woodpecker",
+  "en_aco": "Red-necked Woodpecker",
+  "es": "Picamaderos Cuellirrojo",
+  "ru": "Красношейный дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Campephilus rubricollis",
+ "sci_name_aco": "Campephilus rubricollis",
+ "sounds": [],
+ "taxon_order": 11553.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 208.16666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campephilus%20rubricollis%20-%20Red-necked%20Woodpecker.JPG"
+ ]
+}

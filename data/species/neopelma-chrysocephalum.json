@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sctman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Neopelma",
+ "id": "neopelma-chrysocephalum",
+ "ids": {
+  "avibase": "CBFD1721BC4C38BB",
+  "birdbase": 18330,
+  "gbif": 5230515,
+  "inaturalist": "14363",
+  "iucn": "22701173",
+  "wikidata": "Q1302780",
+  "xeno_canto": "Neopelma-chrysocephalum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neopelma_chrysocephalum",
+  "ebird": "https://ebird.org/species/sctman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14363",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Saffron-crested_tyrant-manakin",
+   "es": "https://es.wikipedia.org/wiki/Neopelma_chrysocephalum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neopelma+chrysocephalum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Saffron-crested Tyrant-Manakin",
+  "en_aco": "Saffron-crested Tyrant-Manakin",
+  "es": "Saltarín Coronigualdo",
+  "ru": "Златохохлый сальтарин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Neopelma chrysocephalum",
+ "sci_name_aco": "Neopelma chrysocephalum",
+ "sounds": [],
+ "taxon_order": 15691.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 15.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Neopelma%20chrysocephalum%20-%20Saffron-crested%20Tyrant-Manakin%3B%20Manaus%2C%20Amazonas%2C%20Brazil.tif"
+ ]
+}

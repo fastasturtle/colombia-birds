@@ -1,0 +1,91 @@
+{
+ "authorship": "(Krabbe & Schulenberg, 1997)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chotap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-chocoensis",
+ "ids": {
+  "avibase": "7011CE6F00136FAB",
+  "birdbase": 16811,
+  "gbif": 2490983,
+  "inaturalist": "14740",
+  "iucn": "22729076",
+  "wikidata": "Q1261876",
+  "xeno_canto": "Scytalopus-chocoensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_chocoensis",
+  "ebird": "https://ebird.org/species/chotap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14740",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chocó_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_chocoensis",
+   "ru": "https://ru.wikipedia.org/wiki/Scytalopus_chocoensis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+chocoensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Tapaculo",
+  "en_aco": "Choco Tapaculo",
+  "es": "Churrín del Chocó",
+  "ru": "Чокский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus chocoensis",
+ "sci_name_aco": "Scytalopus chocoensis",
+ "sounds": [],
+ "taxon_order": 14444.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1465,
+   "max_extreme": null,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20chocoensis%20-%20Choco%20Tapaculo.jpg"
+ ]
+}

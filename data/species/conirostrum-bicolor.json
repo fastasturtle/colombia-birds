@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1809)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "biccon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-bicolor",
+ "ids": {
+  "avibase": "FA9420B41F4E9560",
+  "birdbase": 37410,
+  "gbif": 5230618,
+  "inaturalist": "10007",
+  "iucn": "22722089",
+  "wikidata": "Q1590459",
+  "xeno_canto": "Conirostrum-bicolor"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conirostrum_bicolor",
+  "ebird": "https://ebird.org/species/biccon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10007",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bicolored_conebill",
+   "es": "https://es.wikipedia.org/wiki/Conirostrum_bicolor",
+   "ru": "https://ru.wikipedia.org/wiki/Двуцветный_остроклювый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+bicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bicolored Conebill",
+  "en_aco": "Bicolored Conebill",
+  "es": "Conirrostro Bicolor",
+  "ru": "Двухцветный конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum bicolor",
+ "sci_name_aco": "Conirostrum bicolor",
+ "sounds": [],
+ "taxon_order": 35236.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 10.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bicolored%20Conebill%20%28Conirostrum%20bicolor%29.jpg"
+ ]
+}

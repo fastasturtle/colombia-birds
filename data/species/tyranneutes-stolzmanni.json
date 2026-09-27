@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hellmayr, 1906)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dwtman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Tyranneutes",
+ "id": "tyranneutes-stolzmanni",
+ "ids": {
+  "avibase": "3992E426AFD1FDAC",
+  "birdbase": 18328,
+  "gbif": 2487708,
+  "inaturalist": "14370",
+  "iucn": "22701195",
+  "wikidata": "Q843354",
+  "xeno_canto": "Tyranneutes-stolzmanni"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyranneutes_stolzmanni",
+  "ebird": "https://ebird.org/species/dwtman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14370",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dwarf_tyrant-manakin",
+   "es": "https://es.wikipedia.org/wiki/Tyranneutes_stolzmanni",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyranneutes+stolzmanni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dwarf Tyrant-Manakin",
+  "en_aco": "Dwarf Tyrant-Manakin",
+  "es": "Saltarín Enano",
+  "ru": "Тиранновый сальтарин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyranneutes stolzmanni",
+ "sci_name_aco": "Tyranneutes stolzmanni",
+ "sounds": [],
+ "taxon_order": 15688.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 8.633333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyranneutes%20stolzmanni%20132818882.jpg"
+ ]
+}

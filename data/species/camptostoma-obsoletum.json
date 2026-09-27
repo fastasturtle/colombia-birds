@@ -1,0 +1,95 @@
+{
+ "authorship": "(Temminck, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sobtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Camptostoma",
+ "id": "camptostoma-obsoletum",
+ "ids": {
+  "avibase": "FE36D76BCC9B0EC1",
+  "birdbase": 17002,
+  "gbif": 2483511,
+  "inaturalist": "16972",
+  "iucn": "22699182",
+  "wikidata": "Q857875",
+  "xeno_canto": "Camptostoma-obsoletum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Camptostoma_obsoletum",
+  "ebird": "https://ebird.org/species/sobtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16972",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_beardless_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Camptostoma_obsoletum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Camptostoma+obsoletum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Southern Beardless-Tyrannulet",
+  "en_aco": "Southern Beardless-Tyrannulet",
+  "es": "Mosquerito Silbón",
+  "ru": "Южноамериканский москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Camptostoma obsoletum",
+ "sci_name_aco": "Camptostoma obsoletum",
+ "sounds": [],
+ "taxon_order": 16554.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3120,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Camptostoma%20obsoletum%20obsoletum%20-%20Southern%20beardless%20tyrannulet.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wfspet",
+ "family": {
+  "code": "oceani2",
+  "en": "Southern Storm-Petrels",
+  "sci": "Oceanitidae"
+ },
+ "genus": "Pelagodroma",
+ "id": "pelagodroma-marina",
+ "ids": {
+  "avibase": null,
+  "birdbase": 7351,
+  "gbif": 2481991,
+  "inaturalist": "4153",
+  "iucn": "22698453",
+  "wikidata": "Q845982",
+  "xeno_canto": "Pelagodroma-marina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pelagodroma_marina",
+  "ebird": "https://ebird.org/species/wfspet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4153",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-faced_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Pelagodroma_marina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pelagodroma+marina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-faced Storm-Petrel",
+  "en_aco": "White-faced Storm-Petrel",
+  "es": "Paíño Pechialbo",
+  "ru": "Белолицая океанида"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Pelagodroma marina",
+ "sci_name_aco": "Pelagodroma marina",
+ "sounds": [],
+ "taxon_order": 7025.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 54,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Whitefacedstormpetrel1.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Godmanstormlg.jpg"
+ ]
+}

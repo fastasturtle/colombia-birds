@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "compot1",
+ "family": {
+  "code": "nyctib1",
+  "en": "Potoos",
+  "sci": "Nyctibiidae"
+ },
+ "genus": "Nyctibius",
+ "id": "nyctibius-griseus",
+ "ids": {
+  "avibase": "7333ADB3332EB885",
+  "birdbase": 2156,
+  "gbif": 2496811,
+  "inaturalist": "19667",
+  "iucn": "22689646",
+  "wikidata": "Q1258935",
+  "xeno_canto": "Nyctibius-griseus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctibius_griseus",
+  "ebird": "https://ebird.org/species/compot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19667",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_potoo",
+   "es": "https://es.wikipedia.org/wiki/Nyctibius_griseus",
+   "ru": "https://ru.wikipedia.org/wiki/Серый_исполинский_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctibius+griseus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Potoo",
+  "en_aco": "Common Potoo",
+  "es": "Nictibio Urutaú",
+  "ru": "Серый уратао"
+ },
+ "order": "Nyctibiiformes",
+ "photos": [],
+ "sci_name": "Nyctibius griseus",
+ "sci_name_aco": "Nyctibius griseus",
+ "sounds": [],
+ "taxon_order": 3751.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 165.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Parque%20Nacional%20Guaricana%20-%20Luiz%20Alves%20%2801%29.jpg"
+ ]
+}

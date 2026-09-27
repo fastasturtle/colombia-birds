@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bacant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-multistriatus",
+ "ids": {
+  "avibase": "33EA04F1B912CF71",
+  "birdbase": 15990,
+  "gbif": 5959202,
+  "inaturalist": "15760",
+  "iucn": "22701285",
+  "wikidata": "Q1076012",
+  "xeno_canto": "Thamnophilus-multistriatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_multistriatus",
+  "ebird": "https://ebird.org/species/bacant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15760",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bar-crested_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_multistriatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+multistriatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bar-crested Antshrike",
+  "en_aco": "Bar-crested Antshrike",
+  "es": "Batará Crestibarrado",
+  "ru": "Пестрохохлый колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus multistriatus",
+ "sci_name_aco": "Thamnophilus multistriatus",
+ "sounds": [],
+ "taxon_order": 13518.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": 250
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 26.333333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20multistriatus%20%28Batar%C3%A1%20carcajada%20-%20Bar-crested%20Antshrike%29%20%2843925451680%29.jpg"
+ ]
+}

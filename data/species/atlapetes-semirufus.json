@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "obbfin1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-semirufus",
+ "ids": {
+  "avibase": "22518A8277EE6983",
+  "birdbase": 35665,
+  "gbif": 2491430,
+  "inaturalist": "10330",
+  "iucn": "22721499",
+  "wikidata": "Q1854439",
+  "xeno_canto": "Atlapetes-semirufus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_semirufus",
+  "ebird": "https://ebird.org/species/obbfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10330",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ochre-breasted_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_semirufus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+semirufus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ochre-breasted Brushfinch",
+  "en_aco": "Ochre-breasted Brushfinch",
+  "es": "Atlapetes Semirrufo",
+  "ru": "Рыжеголовая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes semirufus",
+ "sci_name_aco": "Atlapetes semirufus",
+ "sounds": [],
+ "taxon_order": 33459.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 30.400000000000002,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ochre-breasted%20Brushfinch%20-%20Atlapetes%20Ajicero%20%28Atlapetes%20semirufus%20denisei%29%20%2825112939111%29.jpg"
+ ]
+}

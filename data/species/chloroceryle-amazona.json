@@ -1,0 +1,96 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amakin1",
+ "family": {
+  "code": "alcedi1",
+  "en": "Kingfishers",
+  "sci": "Alcedinidae"
+ },
+ "genus": "Chloroceryle",
+ "id": "chloroceryle-amazona",
+ "ids": {
+  "avibase": "331DC00B72FD8419",
+  "birdbase": 10737,
+  "gbif": 2475482,
+  "inaturalist": "2679",
+  "iucn": "22683649",
+  "wikidata": "Q456421",
+  "xeno_canto": "Chloroceryle-amazona"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chloroceryle_amazona",
+  "ebird": "https://ebird.org/species/amakin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2679",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazon_kingfisher",
+   "es": "https://es.wikipedia.org/wiki/Chloroceryle_amazona",
+   "ru": "https://ru.wikipedia.org/wiki/Амазонский_зелёный_зимородок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chloroceryle+amazona"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazon Kingfisher",
+  "en_aco": "Amazon Kingfisher",
+  "es": "Martín Pescador Amazónico",
+  "ru": "Амазонский зимородок"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Chloroceryle amazona",
+ "sci_name_aco": "Chloroceryle amazona",
+ "sounds": [],
+ "taxon_order": 10312.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 121,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chloroceryle%20amazona%20-%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazon%20Kingfisher.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chloroceryle%20amazona%20-Goiania%2C%20Goias%2C%20Brazil%20-female-8.jpg"
+ ]
+}

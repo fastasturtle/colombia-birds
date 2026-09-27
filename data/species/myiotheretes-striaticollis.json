@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiotheretes",
+ "id": "myiotheretes-striaticollis",
+ "ids": {
+  "avibase": "8200F58CF0A9414B",
+  "birdbase": 17867,
+  "gbif": 2483326,
+  "inaturalist": "16989",
+  "iucn": "22699987",
+  "wikidata": "Q659742",
+  "xeno_canto": "Myiotheretes-striaticollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiotheretes_striaticollis",
+  "ebird": "https://ebird.org/species/stbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16989",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-throated_bush_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Myiotheretes_striaticollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiotheretes+striaticollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-throated Bush-Tyrant",
+  "en_aco": "Streak-throated Bush-Tyrant",
+  "es": "Birro Grande",
+  "ru": "Пестрогорлая гевара"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiotheretes striaticollis",
+ "sci_name_aco": "Myiotheretes striaticollis",
+ "sounds": [],
+ "taxon_order": 17148.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": 3700,
+   "min": 2400,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 60.35,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiotheretes%20striaticollis%20Atrapamoscas%20chiflaperro%20Streak-throated%20Bush-Tyrant%20%2813975951386%29.jpg"
+ ]
+}

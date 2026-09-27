@@ -1,0 +1,93 @@
+{
+ "authorship": "(Jardine & Selby, 1833)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "flrtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ramphocelus",
+ "id": "ramphocelus-flammigerus",
+ "ids": {
+  "avibase": "BCF7B7226170CA4B",
+  "birdbase": 37171,
+  "gbif": 2488439,
+  "inaturalist": "10058",
+  "iucn": "22722519",
+  "wikidata": "Q3114690",
+  "xeno_canto": "Ramphocelus-flammigerus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphocelus_flammigerus",
+  "ebird": "https://ebird.org/species/flrtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10058",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Flame-rumped_tanager",
+   "es": "https://es.wikipedia.org/wiki/Ramphocelus_flammigerus",
+   "ru": "https://ru.wikipedia.org/wiki/Огненно-спинная_расписная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphocelus+flammigerus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Flame-rumped Tanager",
+  "en_aco": "Flame-rumped Tanager",
+  "es": "Tangara Flamígera",
+  "ru": "Красноспинный сереброклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ramphocelus flammigerus",
+ "sci_name_aco": "Ramphocelus flammigerus",
+ "sounds": [],
+ "taxon_order": 34796.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 33.55,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flame-rumped%20tanager%20%28Ramphocelus%20flammigerus%29%20female%20Las%20Tanagaras.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flame-rumped%20tanager%20%28Ramphocelus%20flammigerus%29%20male%20Las%20Tangaras.jpg"
+ ]
+}

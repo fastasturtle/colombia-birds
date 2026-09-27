@@ -1,0 +1,93 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruccra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Rufirallus",
+ "id": "rufirallus-viridis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 5988,
+  "gbif": 2474489,
+  "inaturalist": "258",
+  "iucn": null,
+  "wikidata": "Q1263893",
+  "xeno_canto": "Rufirallus-viridis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laterallus_viridis",
+  "ebird": "https://ebird.org/species/ruccra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/258",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Russet-crowned_crake",
+   "es": "https://es.wikipedia.org/wiki/Rufirallus_viridis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rufirallus+viridis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Russet-crowned Crake",
+  "en_aco": "Russet-crowned Crake",
+  "es": "Polluela Coronirrufa",
+  "ru": "Кайеннский коростелёк"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Rufirallus viridis",
+ "sci_name_aco": "Anurolimnas viridis",
+ "sounds": [],
+ "taxon_order": 5616.0,
+ "taxonomy_note": "ACO/SACC lists this as Anurolimnas viridis; eBird/Clements uses Rufirallus viridis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufirallus%20viridis%20-%20Russet-crowned%20crake%2C%20Dourado%2C%20S%C3%A3o%20Paulo%2C%20Brazil.jpg"
+ ]
+}

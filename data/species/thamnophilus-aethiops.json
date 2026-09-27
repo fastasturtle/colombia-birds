@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whsant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Thamnophilus",
+ "id": "thamnophilus-aethiops",
+ "ids": {
+  "avibase": "2ABCDA03CF4F704C",
+  "birdbase": 16017,
+  "gbif": 5959213,
+  "inaturalist": "15761",
+  "iucn": "22701309",
+  "wikidata": "Q372834",
+  "xeno_canto": "Thamnophilus-aethiops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thamnophilus_aethiops",
+  "ebird": "https://ebird.org/species/whsant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15761",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-shouldered_antshrike",
+   "es": "https://es.wikipedia.org/wiki/Thamnophilus_aethiops",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thamnophilus+aethiops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-shouldered Antshrike",
+  "en_aco": "White-shouldered Antshrike",
+  "es": "Batará Hombroblanco",
+  "ru": "Белоплечий колючник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thamnophilus aethiops",
+ "sci_name_aco": "Thamnophilus aethiops",
+ "sounds": [],
+ "taxon_order": 13584.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "rivers_lakes"
+  ],
+  "mass_g": 26,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20aethiops%20White-shouldered%20Antshrike%20%28male%29%3B%20Porto%20Velho%2C%20Rond%C3%B4nia%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thamnophilus%20aethiops%20-%20White-shouldered%20antshrike%20%28female%29.jpg"
+ ]
+}

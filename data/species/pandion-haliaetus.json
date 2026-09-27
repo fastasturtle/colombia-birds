@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "osprey",
+ "family": {
+  "code": "pandio1",
+  "en": "Osprey",
+  "sci": "Pandionidae"
+ },
+ "genus": "Pandion",
+ "id": "pandion-haliaetus",
+ "ids": {
+  "avibase": "5BCF1891777ED3D3",
+  "birdbase": 8129,
+  "gbif": 2480726,
+  "inaturalist": "116999",
+  "iucn": "22694938",
+  "wikidata": "Q25332",
+  "xeno_canto": "Pandion-haliaetus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pandion_haliaetus",
+  "ebird": "https://ebird.org/species/osprey",
+  "inaturalist": "https://www.inaturalist.org/taxa/116999",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Osprey",
+   "es": "https://es.wikipedia.org/wiki/Pandion_haliaetus",
+   "ru": "https://ru.wikipedia.org/wiki/Скопа"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pandion+haliaetus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Osprey",
+  "en_aco": "Osprey",
+  "es": "Águila Pescadora",
+  "ru": "Скопа"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Pandion haliaetus",
+ "sci_name_aco": "Pandion haliaetus",
+ "sounds": [],
+ "taxon_order": 7832.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1510,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Balbuzard%20pecheur%20Lac%20de%20Tunis.jpg"
+ ]
+}

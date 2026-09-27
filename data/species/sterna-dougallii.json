@@ -1,0 +1,94 @@
+{
+ "authorship": "(Montagu, 1813)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "roster",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sterna",
+ "id": "sterna-dougallii",
+ "ids": {
+  "avibase": "74236837A4AFD042",
+  "birdbase": 7043,
+  "gbif": 5229249,
+  "inaturalist": "4436",
+  "iucn": "22694601",
+  "wikidata": "Q321293",
+  "xeno_canto": "Sterna-dougallii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sterna_dougallii",
+  "ebird": "https://ebird.org/species/roster",
+  "inaturalist": "https://www.inaturalist.org/taxa/4436",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Roseate_tern",
+   "es": "https://es.wikipedia.org/wiki/Sterna_dougallii",
+   "ru": "https://ru.wikipedia.org/wiki/Розовая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sterna+dougallii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Roseate Tern",
+  "en_aco": "Roseate Tern",
+  "es": "Charrán Rosado",
+  "ru": "Розовая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sterna dougallii",
+ "sci_name_aco": "Sterna dougallii",
+ "sounds": [],
+ "taxon_order": 6761.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 18,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 114.33333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2020-07-18%20Sterna%20dougallii%2C%20St%20Marys%20Island%2C%20Northumberland%2019.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2021-07-10%20Sterna%20dougallii%2C%20St%20Marys%20Island%2C%20Northumberland%2017.jpg"
+ ]
+}

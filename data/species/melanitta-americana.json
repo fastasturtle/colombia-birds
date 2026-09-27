@@ -1,0 +1,92 @@
+{
+ "authorship": "(Swainson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blksco2",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Melanitta",
+ "id": "melanitta-americana",
+ "ids": {
+  "avibase": "B7B1A5DD94724A05",
+  "birdbase": 522,
+  "gbif": 2498250,
+  "inaturalist": "144220",
+  "iucn": "22732425",
+  "wikidata": "Q529048",
+  "xeno_canto": "Melanitta-americana"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Melanitta_americana",
+  "ebird": "https://ebird.org/species/blksco2",
+  "inaturalist": "https://www.inaturalist.org/taxa/144220",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_scoter",
+   "es": "https://es.wikipedia.org/wiki/Melanitta_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_синьга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Melanitta+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Scoter",
+  "en_aco": "Black Scoter",
+  "es": "Negrón Americano",
+  "ru": "Американская синьга"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Melanitta americana",
+ "sci_name_aco": "Melanitta americana",
+ "sounds": [],
+ "taxon_order": 737.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "L",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 1046.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Melanitta%20americana%20Barnegat%20NJ.jpg"
+ ]
+}

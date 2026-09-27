@@ -1,0 +1,94 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mactan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ramphocelus",
+ "id": "ramphocelus-nigrogularis",
+ "ids": {
+  "avibase": "73179694250F3681",
+  "birdbase": 37188,
+  "gbif": 2488438,
+  "inaturalist": "10060",
+  "iucn": "22722497",
+  "wikidata": "Q26248",
+  "xeno_canto": "Ramphocelus-nigrogularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ramphocelus_nigrogularis",
+  "ebird": "https://ebird.org/species/mactan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10060",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_crimson_tanager",
+   "es": "https://es.wikipedia.org/wiki/Ramphocelus_nigrogularis",
+   "ru": "https://ru.wikipedia.org/wiki/Масковая_расписная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ramphocelus+nigrogularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Crimson Tanager",
+  "en_aco": "Masked Crimson Tanager",
+  "es": "Tangara Enmascarada",
+  "ru": "Масковый сереброклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ramphocelus nigrogularis",
+ "sci_name_aco": "Ramphocelus nigrogularis",
+ "sounds": [],
+ "taxon_order": 34819.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 31.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphocelus%20nigrogularis-20030523.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ramphocelus%20nigrogularis%20-%20Masked%20Crimson%20Tanager%20%28female%29%2C%20Careiro%20da%20V%C3%A1rzea%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

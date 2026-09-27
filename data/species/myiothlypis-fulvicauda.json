@@ -1,0 +1,92 @@
+{
+ "authorship": "(von Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "burwar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myiothlypis",
+ "id": "myiothlypis-fulvicauda",
+ "ids": {
+  "avibase": "0232E9DC51E069FE",
+  "birdbase": 36368,
+  "gbif": 7341658,
+  "inaturalist": "145266",
+  "iucn": "22722041",
+  "wikidata": "Q27075953",
+  "xeno_canto": "Myiothlypis-fulvicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_fulvicauda",
+  "ebird": "https://ebird.org/species/burwar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145266",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-rumped_warbler",
+   "es": "https://es.wikipedia.org/wiki/Myiothlypis_fulvicauda",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+fulvicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-rumped Warbler",
+  "en_aco": "Buff-rumped Warbler",
+  "es": "Reinita Culiparda",
+  "ru": "Каменковый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiothlypis fulvicauda",
+ "sci_name_aco": "Myiothlypis fulvicauda",
+ "sounds": [],
+ "taxon_order": 34308.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.466666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiothlypis%20fulvicauda%20Ara%C3%B1ero%20ribere%C3%B1o%20Buff-rumped%20Warbler%20%287558817478%29.jpg"
+ ]
+}

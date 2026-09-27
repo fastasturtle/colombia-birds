@@ -1,0 +1,94 @@
+{
+ "authorship": "(Hellmayr, 1924)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blatap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-latrans",
+ "ids": {
+  "avibase": "058E053699654EDA",
+  "birdbase": 16800,
+  "gbif": 7340755,
+  "inaturalist": "62506",
+  "iucn": "22730438",
+  "wikidata": "Q907845",
+  "xeno_canto": "Scytalopus-latrans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_latrans",
+  "ebird": "https://ebird.org/species/blatap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/62506",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blackish_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_latrans",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+latrans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blackish Tapaculo",
+  "en_aco": "Blackish Tapaculo",
+  "es": "Churrín Negruzco",
+  "ru": "Чёрный тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus latrans",
+ "sci_name_aco": "Scytalopus latrans",
+ "sounds": [],
+ "taxon_order": 14435.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 17.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20latrans%20-NBII%20Image%20Gallery-a00273.jpg"
+ ]
+}

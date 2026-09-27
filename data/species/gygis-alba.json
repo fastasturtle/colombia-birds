@@ -1,0 +1,92 @@
+{
+ "authorship": "(Sparrman, 1786)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whiter3",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Gygis",
+ "id": "gygis-alba",
+ "ids": {
+  "avibase": null,
+  "birdbase": 6912,
+  "gbif": 2481213,
+  "inaturalist": "517778",
+  "iucn": null,
+  "wikidata": "Q27608848",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gygis_alba_alba",
+  "ebird": "https://ebird.org/species/whiter3",
+  "inaturalist": "https://www.inaturalist.org/taxa/517778",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gygis+alba"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Atlantic White-Tern",
+  "en_aco": "White Tern",
+  "es": "Charrán Blanco Atlántico",
+  "ru": null
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Gygis alba",
+ "sci_name_aco": "Gygis alba",
+ "sounds": [],
+ "taxon_order": 6626.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "riparian",
+   "agricultural",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 138,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

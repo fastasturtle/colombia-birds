@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "labter1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Phaetusa",
+ "id": "phaetusa-simplex",
+ "ids": {
+  "avibase": "C3C30D037278088D",
+  "birdbase": 6988,
+  "gbif": 5229213,
+  "inaturalist": "4569",
+  "iucn": "22694791",
+  "wikidata": "Q1073630",
+  "xeno_canto": "Phaetusa-simplex"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaetusa_simplex",
+  "ebird": "https://ebird.org/species/labter1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4569",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Large-billed_tern",
+   "es": "https://es.wikipedia.org/wiki/Phaetusa_simplex",
+   "ru": "https://ru.wikipedia.org/wiki/Большеклювая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaetusa+simplex"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Large-billed Tern",
+  "en_aco": "Large-billed Tern",
+  "es": "Charrán Picudo",
+  "ru": "Большеклювая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Phaetusa simplex",
+ "sci_name_aco": "Phaetusa simplex",
+ "sounds": [],
+ "taxon_order": 6707.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 241.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Large-billed%20Tern%20%28Phaetusa%20simplex%29%2C%20Pantanal%2C%20Brazil.jpg"
+ ]
+}

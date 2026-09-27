@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gochon2",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Iridophanes",
+ "id": "iridophanes-pulcherrimus",
+ "ids": {
+  "avibase": "098ABCAEA6C041E0",
+  "birdbase": 36800,
+  "gbif": 2488677,
+  "inaturalist": "72957",
+  "iucn": "22722961",
+  "wikidata": "Q1042575",
+  "xeno_canto": "Iridophanes-pulcherrimus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Iridophanes_pulcherrimus",
+  "ebird": "https://ebird.org/species/gochon2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72957",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-collared_honeycreeper",
+   "es": "https://es.wikipedia.org/wiki/Iridophanes_pulcherrimus",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Iridophanes+pulcherrimus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-collared Honeycreeper",
+  "en_aco": "Golden-collared Honeycreeper",
+  "es": "Mielerito Collarejo",
+  "ru": "Ошейниковый саи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Iridophanes pulcherrimus",
+ "sci_name_aco": "Iridophanes pulcherrimus",
+ "sounds": [],
+ "taxon_order": 35196.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2150,
+   "min": 1000,
+   "min_extreme": 650
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Iridophanes%20pulcherrimus%20-%20Golden-collared%20Honeycreeper%3B%20Ecuador.jpg"
+ ]
+}

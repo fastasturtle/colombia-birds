@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "guitan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Hemithraupis",
+ "id": "hemithraupis-guira",
+ "ids": {
+  "avibase": "0C58C65EA21AC189",
+  "birdbase": 36825,
+  "gbif": 2488072,
+  "inaturalist": "10303",
+  "iucn": "22722272",
+  "wikidata": "Q1028619",
+  "xeno_canto": "Hemithraupis-guira"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hemithraupis_guira",
+  "ebird": "https://ebird.org/species/guitan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10303",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Guira_tanager",
+   "es": "https://es.wikipedia.org/wiki/Hemithraupis_guira",
+   "ru": "https://ru.wikipedia.org/wiki/Гуирская_славковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hemithraupis+guira"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Guira Tanager",
+  "en_aco": "Guira Tanager",
+  "es": "Tangara Guirá",
+  "ru": "Танагра-гуира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hemithraupis guira",
+ "sci_name_aco": "Hemithraupis guira",
+ "sounds": [],
+ "taxon_order": 35203.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.083333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hemithraupis%20guira%20Pintasilgo%20g%C3%BCira%20Guira%20Tanager%20%28female%29%20%2812979717134%29.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gadwal",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Mareca",
+ "id": "mareca-strepera",
+ "ids": {
+  "avibase": "C235A4D712BB8855",
+  "birdbase": 395,
+  "gbif": 9362027,
+  "inaturalist": "558439",
+  "iucn": "22680149",
+  "wikidata": "Q28106966",
+  "xeno_canto": "Mareca-strepera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mareca_strepera",
+  "ebird": "https://ebird.org/species/gadwal",
+  "inaturalist": "https://www.inaturalist.org/taxa/558439",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gadwall",
+   "es": "https://es.wikipedia.org/wiki/Mareca_strepera",
+   "ru": "https://ru.wikipedia.org/wiki/Серая_утка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mareca+strepera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gadwall",
+  "en_aco": "Gadwall",
+  "es": "Ánade Friso",
+  "ru": "Серая утка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Mareca strepera",
+ "sci_name_aco": "Mareca strepera",
+ "sounds": [],
+ "taxon_order": 505.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2730,
+   "max_extreme": 4700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 857.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Plant",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anas%20strepera%20pair.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-female.jpg"
+ ]
+}

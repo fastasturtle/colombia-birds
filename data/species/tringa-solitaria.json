@@ -1,0 +1,96 @@
+{
+ "authorship": "(A. Wilson, 1813)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "solsan",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Tringa",
+ "id": "tringa-solitaria",
+ "ids": {
+  "avibase": "D4A73324DB24F142",
+  "birdbase": 6767,
+  "gbif": 2481710,
+  "inaturalist": "3875",
+  "iucn": "22693239",
+  "wikidata": "Q836304",
+  "xeno_canto": "Tringa-solitaria"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tringa_solitaria",
+  "ebird": "https://ebird.org/species/solsan",
+  "inaturalist": "https://www.inaturalist.org/taxa/3875",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Solitary_sandpiper",
+   "es": "https://es.wikipedia.org/wiki/Tringa_solitaria",
+   "ru": "https://ru.wikipedia.org/wiki/Улит-отшельник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tringa+solitaria"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Solitary Sandpiper",
+  "en_aco": "Solitary Sandpiper",
+  "es": "Andarríos Solitario",
+  "ru": "Улит-отшельник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Tringa solitaria",
+ "sci_name_aco": "Tringa solitaria",
+ "sounds": [],
+ "taxon_order": 6129.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "savanna",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 49.43333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tringa%20solitaria%20337150303%20%28cropped%29.jpg"
+ ]
+}

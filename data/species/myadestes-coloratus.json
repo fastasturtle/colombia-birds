@@ -1,0 +1,89 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "varsol1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Myadestes",
+ "id": "myadestes-coloratus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30208,
+  "gbif": 2490835,
+  "inaturalist": "12954",
+  "iucn": "22708602",
+  "wikidata": "Q2225686",
+  "xeno_canto": "Myadestes-coloratus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/varsol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12954",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Varied_solitaire",
+   "es": "https://es.wikipedia.org/wiki/Myadestes_coloratus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myadestes+coloratus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Varied Solitaire",
+  "en_aco": "Varied Solitaire",
+  "es": "Solitario Variado",
+  "ru": "Разноцветный кларино"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myadestes coloratus",
+ "sci_name_aco": "Myadestes coloratus",
+ "sounds": [],
+ "taxon_order": 28182.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 29.083333333333332,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

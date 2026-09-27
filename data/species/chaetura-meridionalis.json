@@ -1,0 +1,93 @@
+{
+ "authorship": "(Hellmayr, 1907)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sicswi1",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Chaetura",
+ "id": "chaetura-meridionalis",
+ "ids": {
+  "avibase": "C228806464245DA2",
+  "birdbase": 2530,
+  "gbif": 5228629,
+  "inaturalist": "6581",
+  "iucn": "22733018",
+  "wikidata": "Q1259019",
+  "xeno_canto": "Chaetura-meridionalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetura_meridionalis",
+  "ebird": "https://ebird.org/species/sicswi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6581",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sick's_swift",
+   "es": "https://es.wikipedia.org/wiki/Chaetura_meridionalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetura+meridionalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sick's Swift",
+  "en_aco": "Sick's Swift",
+  "es": "Vencejo de Tormenta",
+  "ru": "Бразильский иглохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetura meridionalis",
+ "sci_name_aco": "Chaetura meridionalis",
+ "sounds": [],
+ "taxon_order": 3910.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 19.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chaetura%20meridionalis-Sick%27s%20Swift.jpg"
+ ]
+}

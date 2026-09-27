@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spacot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Cotinga",
+ "id": "cotinga-cayana",
+ "ids": {
+  "avibase": "0AEB98CC5AE72E3D",
+  "birdbase": 18313,
+  "gbif": 5230383,
+  "inaturalist": "8909",
+  "iucn": "22700891",
+  "wikidata": "Q425643",
+  "xeno_canto": "Cotinga-cayana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cotinga_cayana",
+  "ebird": "https://ebird.org/species/spacot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8909",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spangled_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Cotinga_cayana",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковая_настоящая_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cotinga+cayana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spangled Cotinga",
+  "en_aco": "Spangled Cotinga",
+  "es": "Cotinga Celeste",
+  "ru": "Голубая котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cotinga cayana",
+ "sci_name_aco": "Cotinga cayana",
+ "sounds": [],
+ "taxon_order": 15927.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 64,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spangled%20cotinga%20%28Cotinga%20cayana%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spangled%20cotinga%20-%20female.jpg"
+ ]
+}

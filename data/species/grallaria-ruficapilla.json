@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1842)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chcant2",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-ruficapilla",
+ "ids": {
+  "avibase": "F46A4E196B6CC4F5",
+  "birdbase": 16531,
+  "gbif": 2490523,
+  "inaturalist": "116905",
+  "iucn": "22703274",
+  "wikidata": "Q903017",
+  "xeno_canto": "Grallaria-ruficapilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_ruficapilla",
+  "ebird": "https://ebird.org/species/chcant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/116905",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-crowned_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_ruficapilla",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжешапочная_граллярия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+ruficapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-crowned Antpitta",
+  "en_aco": "Chestnut-crowned Antpitta",
+  "es": "Tororoí Compadre",
+  "ru": "Рыжешапочная питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria ruficapilla",
+ "sci_name_aco": "Grallaria ruficapilla",
+ "sounds": [],
+ "taxon_order": 14234.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3450,
+   "max_extreme": 3600,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "agricultural"
+  ],
+  "mass_g": 81.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-crowned%20Antpitta%20-%20Colombia.jpg"
+ ]
+}

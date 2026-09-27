@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sarpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Touit",
+ "id": "touit-purpuratus",
+ "ids": {
+  "avibase": "520D149FE4649055",
+  "birdbase": 13152,
+  "gbif": 2480131,
+  "inaturalist": "73511",
+  "iucn": "22686029",
+  "wikidata": "Q607375",
+  "xeno_canto": "Touit-purpuratus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Touit_purpuratus",
+  "ebird": "https://ebird.org/species/sarpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73511",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sapphire-rumped_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Touit_purpuratus",
+   "ru": "https://ru.wikipedia.org/wiki/Бурошапочный_пестрохвостый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Touit+purpuratus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sapphire-rumped Parrotlet",
+  "en_aco": "Sapphire-rumped Parrotlet",
+  "es": "Cotorrita Purpurada",
+  "ru": "Тёмношапочный туети"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Touit purpuratus",
+ "sci_name_aco": "Touit purpuratus",
+ "sounds": [],
+ "taxon_order": 12798.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 59.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Touit%20purpuratus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Touit%20purpuratus%20-%20Sapphire-rumped%20Parrotlet%3B%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

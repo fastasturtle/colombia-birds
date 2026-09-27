@@ -1,0 +1,92 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruscra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Laterallus",
+ "id": "laterallus-melanophaius",
+ "ids": {
+  "avibase": "2202698C064C1CC1",
+  "birdbase": 6027,
+  "gbif": 2474585,
+  "inaturalist": "329",
+  "iucn": "22692337",
+  "wikidata": "Q1267636",
+  "xeno_canto": "Laterallus-melanophaius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laterallus_melanophaius",
+  "ebird": "https://ebird.org/species/ruscra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/329",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-sided_crake",
+   "es": "https://es.wikipedia.org/wiki/Laterallus_melanophaius",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laterallus+melanophaius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-sided Crake",
+  "en_aco": "Rufous-sided Crake",
+  "es": "Polluela Burrito",
+  "ru": "Рыжешейный коростелёк"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Laterallus melanophaius",
+ "sci_name_aco": "Laterallus melanophaius",
+ "sounds": [],
+ "taxon_order": 5638.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 54.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laterallus%20melanophaius%20-%20En%C3%A9as%20V.%20Gouv%C3%AAa%20Junior%20-%20397483492.jpeg"
+ ]
+}

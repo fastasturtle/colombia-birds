@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yelthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-flavipes",
+ "ids": {
+  "avibase": "83389238E5DA5809",
+  "birdbase": 30758,
+  "gbif": 7342122,
+  "inaturalist": "73542",
+  "iucn": "22708676",
+  "wikidata": "Q541001",
+  "xeno_canto": "Turdus-flavipes"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_flavipes",
+  "ebird": "https://ebird.org/species/yelthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73542",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-legged_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_flavipes",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+flavipes"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-legged Thrush",
+  "en_aco": "Yellow-legged Thrush",
+  "es": "Mirlo Azulado",
+  "ru": "Желтоногий дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus flavipes",
+ "sci_name_aco": "Turdus flavipes",
+ "sounds": [],
+ "taxon_order": 28710.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 62,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20flavipes%20-Parque%20Estadual%20da%20Cantareira%2C%20Sao%20Paulo%2C%20Brazil%20-female-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20flavipes%20-Parque%20Estadual%20da%20Serra%20da%20Cantareira%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

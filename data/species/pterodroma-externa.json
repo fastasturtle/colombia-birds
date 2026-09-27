@@ -1,0 +1,93 @@
+{
+ "authorship": "(Salvin, 1875)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "jufpet",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Pterodroma",
+ "id": "pterodroma-externa",
+ "ids": {
+  "avibase": "DC2BA23B403BC4D5",
+  "birdbase": 7502,
+  "gbif": 2481467,
+  "inaturalist": "4038",
+  "iucn": "22698030",
+  "wikidata": "Q559959",
+  "xeno_canto": "Pterodroma-externa"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pterodroma_externa",
+  "ebird": "https://ebird.org/species/jufpet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4038",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Juan_Fernández_petrel",
+   "es": "https://es.wikipedia.org/wiki/Pterodroma_externa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pterodroma+externa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Juan Fernandez Petrel",
+  "en_aco": "Juan Fernandez Petrel",
+  "es": "Petrel de las Juan Fernández",
+  "ru": "Белошейный тайфунник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Pterodroma externa",
+ "sci_name_aco": "Pterodroma externa",
+ "sounds": [],
+ "taxon_order": 7135.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "sea"
+  ],
+  "mass_g": 432.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pterodroma%20externa%20378848054%20%28cropped%29.jpg"
+ ]
+}

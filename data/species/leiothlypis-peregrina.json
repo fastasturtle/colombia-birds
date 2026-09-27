@@ -1,0 +1,95 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tenwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Leiothlypis",
+ "id": "leiothlypis-peregrina",
+ "ids": {
+  "avibase": "D204A9309E8CCC3A",
+  "birdbase": 36149,
+  "gbif": 7415507,
+  "inaturalist": "979756",
+  "iucn": "22721621",
+  "wikidata": "Q126925",
+  "xeno_canto": "Leiothlypis-peregrina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leiothlypis_peregrina",
+  "ebird": "https://ebird.org/species/tenwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/979756",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tennessee_warbler",
+   "es": "https://es.wikipedia.org/wiki/Leiothlypis_peregrina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leiothlypis+peregrina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tennessee Warbler",
+  "en_aco": "Tennessee Warbler",
+  "es": "Reinita de Tennessee",
+  "ru": "Пеночковая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leiothlypis peregrina",
+ "sci_name_aco": "Leiothlypis peregrina",
+ "sounds": [],
+ "taxon_order": 33972.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 10.033333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tennessee%20Warbler%202.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tennessee%20Warbler%20%2820318546674%29.jpg"
+ ]
+}

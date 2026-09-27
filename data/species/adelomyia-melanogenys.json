@@ -1,0 +1,91 @@
+{
+ "authorship": "(Fraser, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spehum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Adelomyia",
+ "id": "adelomyia-melanogenys",
+ "ids": {
+  "avibase": "0A1A1F0F86C629F6",
+  "birdbase": 2925,
+  "gbif": 2476168,
+  "inaturalist": "6166",
+  "iucn": "22687696",
+  "wikidata": "Q503619",
+  "xeno_canto": "Adelomyia-melanogenys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Adelomyia_melanogenys",
+  "ebird": "https://ebird.org/species/spehum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6166",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Adelomyia_melanogenys",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Adelomyia+melanogenys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Hummingbird",
+  "en_aco": "Speckled Hummingbird",
+  "es": "Colibrí Jaspeado",
+  "ru": "Черноухий колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Adelomyia melanogenys",
+ "sci_name_aco": "Adelomyia melanogenys",
+ "sounds": [],
+ "taxon_order": 4460.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 4.300000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Speckled%20hummingbird%20%28Adelomyia%20melanogenys%20melanogenys%29%20Cundinamarca.jpg"
+ ]
+}

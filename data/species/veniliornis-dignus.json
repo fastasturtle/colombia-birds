@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1877)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yevwoo1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Veniliornis",
+ "id": "veniliornis-dignus",
+ "ids": {
+  "avibase": "34E5F17CA4531411",
+  "birdbase": 12181,
+  "gbif": 10835052,
+  "inaturalist": "18015",
+  "iucn": "22681187",
+  "wikidata": "Q1265011",
+  "xeno_canto": "Veniliornis-dignus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Veniliornis_dignus",
+  "ebird": "https://ebird.org/species/yevwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/18015",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-vented_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Veniliornis_dignus",
+   "ru": "https://ru.wikipedia.org/wiki/Желтобрюхий_венилиорнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Veniliornis+dignus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-vented Woodpecker",
+  "en_aco": "Yellow-vented Woodpecker",
+  "es": "Carpintero Ventriamarillo",
+  "ru": "Желтобокий дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Veniliornis dignus",
+ "sci_name_aco": "Dryobates dignus",
+ "sounds": [],
+ "taxon_order": 11499.0,
+ "taxonomy_note": "ACO/SACC lists this as Dryobates dignus; eBird/Clements uses Veniliornis dignus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 40.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ChloronerpesDignusSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-vented%20Woodpecker%20-%20Colombia%20S4E8871%20%2816223080170%29.jpg"
+ ]
+}

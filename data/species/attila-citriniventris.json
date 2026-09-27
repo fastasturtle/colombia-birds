@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cibatt1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Attila",
+ "id": "attila-citriniventris",
+ "ids": {
+  "avibase": "DE32243684E794E2",
+  "birdbase": 18193,
+  "gbif": 2483641,
+  "inaturalist": "16746",
+  "iucn": "22700343",
+  "wikidata": "Q1262886",
+  "xeno_canto": "Attila-citriniventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Attila_citriniventris",
+  "ebird": "https://ebird.org/species/cibatt1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16746",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Citron-bellied_attila",
+   "es": "https://es.wikipedia.org/wiki/Attila_citriniventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Attila+citriniventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Citron-bellied Attila",
+  "en_aco": "Citron-bellied Attila",
+  "es": "Atila Citrino",
+  "ru": "Желтобрюхий аттила"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Attila citriniventris",
+ "sci_name_aco": "Attila citriniventris",
+ "sounds": [],
+ "taxon_order": 17239.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 34,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Attila%20citriniventris%20-%20Citron-bellied%20Attila%3B%20Careiro%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

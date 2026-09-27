@@ -1,0 +1,92 @@
+{
+ "authorship": "(Chapman, 1924)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chotyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Zimmerius",
+ "id": "zimmerius-albigularis",
+ "ids": {
+  "avibase": "23DF2A079B47C13D",
+  "birdbase": 17177,
+  "gbif": 5789111,
+  "inaturalist": "73567",
+  "iucn": "22735786",
+  "wikidata": "Q1277295",
+  "xeno_canto": "Zimmerius-albigularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zimmerius_albigularis",
+  "ebird": "https://ebird.org/species/chotyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73567",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Choco_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Zimmerius_albigularis",
+   "ru": "https://ru.wikipedia.org/wiki/Zimmerius_albigularis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+albigularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Tyrannulet",
+  "en_aco": "Choco Tyrannulet",
+  "es": "Mosquerito del Chocó",
+  "ru": "Чокский москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zimmerius albigularis",
+ "sci_name_aco": "Zimmerius albigularis",
+ "sounds": [],
+ "taxon_order": 16802.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "agricultural"
+  ],
+  "mass_g": 8.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Choco%20Tyrannulet.jpg"
+ ]
+}

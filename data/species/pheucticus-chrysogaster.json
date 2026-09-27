@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gobgro1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Pheucticus",
+ "id": "pheucticus-chrysogaster",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36621,
+  "gbif": 2490491,
+  "inaturalist": "10270",
+  "iucn": "22723803",
+  "wikidata": "Q3285221",
+  "xeno_canto": "Pheucticus-chrysogaster"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheucticus_chrysogaster",
+  "ebird": "https://ebird.org/species/gobgro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10270",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden_grosbeak",
+   "es": "https://es.wikipedia.org/wiki/Pheucticus_chrysogaster",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheucticus+chrysogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden Grosbeak",
+  "en_aco": "Golden Grosbeak",
+  "es": "Picogrueso Ventriamarillo",
+  "ru": "Желтогрудый толстонос"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheucticus chrysogaster",
+ "sci_name_aco": "Pheucticus chrysogaster",
+ "sounds": [],
+ "taxon_order": 34546.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 56.85,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vilcabamba%20Ecuador251%20%28cropped%29.JPG"
+ ]
+}

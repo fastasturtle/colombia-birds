@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lichtenstein, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "butwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Xiphorhynchus",
+ "id": "xiphorhynchus-guttatus",
+ "ids": {
+  "avibase": "2786839E89DFEAF9",
+  "birdbase": 14746,
+  "gbif": 5230139,
+  "inaturalist": "11072",
+  "iucn": "103670045",
+  "wikidata": "Q1265676",
+  "xeno_canto": "Xiphorhynchus-guttatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xiphorhynchus_guttatus",
+  "ebird": "https://ebird.org/species/butwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11072",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-throated_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Xiphorhynchus_guttatus",
+   "ru": "https://ru.wikipedia.org/wiki/Желтогорлый_мечеклювый_древолаз"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xiphorhynchus+guttatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-throated Woodcreeper",
+  "en_aco": "Buff-throated Woodcreeper",
+  "es": "Trepatroncos Pegón",
+  "ru": "Светлогорлый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xiphorhynchus guttatus",
+ "sci_name_aco": "Xiphorhynchus guttatus",
+ "sounds": [],
+ "taxon_order": 14832.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1250,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 60.166666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xiphorhyinchus%20guttatus%20-%20Buff-throated%20Woodcreeper.JPG"
+ ]
+}

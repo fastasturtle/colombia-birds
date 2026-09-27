@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "duftan1",
+ "family": {
+  "code": "mitros1",
+  "en": "Mitrospingid Tanagers",
+  "sci": "Mitrospingidae"
+ },
+ "genus": "Mitrospingus",
+ "id": "mitrospingus-cassinii",
+ "ids": {
+  "avibase": "D59309B60C60271D",
+  "birdbase": 36522,
+  "gbif": 2488752,
+  "inaturalist": "10611",
+  "iucn": "22722317",
+  "wikidata": "Q1590528",
+  "xeno_canto": "Mitrospingus-cassinii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mitrospingus_cassinii",
+  "ebird": "https://ebird.org/species/duftan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10611",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-faced_tanager",
+   "es": "https://es.wikipedia.org/wiki/Mitrospingus_cassinii",
+   "ru": "https://ru.wikipedia.org/wiki/Темнолицая_тростниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mitrospingus+cassinii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-faced Tanager",
+  "en_aco": "Dusky-faced Tanager",
+  "es": "Tangara Carinegruzca",
+  "ru": "Темнолицая силипипа"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mitrospingus cassinii",
+ "sci_name_aco": "Mitrospingus cassinii",
+ "sounds": [],
+ "taxon_order": 34400.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 37.56,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dusky-faced%20Tanager%20%28Mitrospingus%20cassinii%29.jpg"
+ ]
+}

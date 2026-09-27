@@ -1,0 +1,93 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "andcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Rupicola",
+ "id": "rupicola-peruvianus",
+ "ids": {
+  "avibase": "33440684D62482BF",
+  "birdbase": 18257,
+  "gbif": 5230374,
+  "inaturalist": "8877",
+  "iucn": "22700974",
+  "wikidata": "Q490393",
+  "xeno_canto": "Rupicola-peruvianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rupicola_peruvianus",
+  "ebird": "https://ebird.org/species/andcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8877",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_cock-of-the-rock",
+   "es": "https://es.wikipedia.org/wiki/Rupicola_peruvianus",
+   "ru": "https://ru.wikipedia.org/wiki/Андский_скальный_петушок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rupicola+peruvianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Cock-of-the-rock",
+  "en_aco": "Andean Cock-of-the-rock",
+  "es": "Gallito de las Rocas Peruano",
+  "ru": "Андский скальный петушок"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Rupicola peruvianus",
+ "sci_name_aco": "Rupicola peruvianus",
+ "sounds": [],
+ "taxon_order": 15900.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 245,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rupicola%20peruvianus%20Gallito%20de%20roca%20andino%20Andean-Cock-of-the-Rock%20%28male%29%20%2813995876801%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/P1010107mod.jpg"
+ ]
+}

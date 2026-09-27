@@ -1,0 +1,93 @@
+{
+ "authorship": "(Du Bus de Gisignies, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lamtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Anisognathus",
+ "id": "anisognathus-lacrymosus",
+ "ids": {
+  "avibase": "11BC1FFEBA2C1354",
+  "birdbase": 37713,
+  "gbif": 5230558,
+  "inaturalist": "10185",
+  "iucn": "22722630",
+  "wikidata": "Q2630955",
+  "xeno_canto": "Anisognathus-lacrymosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anisognathus_lacrymosus",
+  "ebird": "https://ebird.org/species/lamtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10185",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lacrimose_mountain_tanager",
+   "es": "https://es.wikipedia.org/wiki/Anisognathus_lacrymosus",
+   "ru": "https://ru.wikipedia.org/wiki/Плакучая_горная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anisognathus+lacrymosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lacrimose Mountain Tanager",
+  "en_aco": "Lacrimose Mountain-Tanager",
+  "es": "Tangara Lacrimosa",
+  "ru": "Плачущая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Anisognathus lacrymosus",
+ "sci_name_aco": "Anisognathus lacrymosus",
+ "sounds": [],
+ "taxon_order": 34872.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": 3800,
+   "min": 2100,
+   "min_extreme": 1800
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 34.95,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lacrimose%20Mountain-Tanager%20-%20Colombia%20S4E2958%20%2822882330889%29.jpg"
+ ]
+}

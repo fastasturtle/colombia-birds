@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1835)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chttou3",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Aulacorhynchus",
+ "id": "aulacorhynchus-derbianus",
+ "ids": {
+  "avibase": "D47AF7745B43B469",
+  "birdbase": 11283,
+  "gbif": 5229006,
+  "inaturalist": "18823",
+  "iucn": "22727086",
+  "wikidata": "Q1199958",
+  "xeno_canto": "Aulacorhynchus-derbianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aulacorhynchus_derbianus",
+  "ebird": "https://ebird.org/species/chttou3",
+  "inaturalist": "https://www.inaturalist.org/taxa/18823",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-tipped_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Aulacorhynchus_derbianus",
+   "ru": "https://ru.wikipedia.org/wiki/Туканет_Дерби"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aulacorhynchus+derbianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-tipped Toucanet",
+  "en_aco": "Chestnut-tipped Toucanet",
+  "es": "Tucanete de Derby",
+  "ru": "Малахитовый туканет"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Aulacorhynchus derbianus",
+ "sci_name_aco": "Aulacorhynchus derbianus",
+ "sounds": [],
+ "taxon_order": 10860.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 213.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-tipped%20Toucanet.JPG"
+ ]
+}

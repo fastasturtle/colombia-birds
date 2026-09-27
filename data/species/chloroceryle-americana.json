@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grnkin",
+ "family": {
+  "code": "alcedi1",
+  "en": "Kingfishers",
+  "sci": "Alcedinidae"
+ },
+ "genus": "Chloroceryle",
+ "id": "chloroceryle-americana",
+ "ids": {
+  "avibase": "ED7D674117006CCB",
+  "birdbase": 10743,
+  "gbif": 2475486,
+  "inaturalist": "2669",
+  "iucn": "22683652",
+  "wikidata": "Q580159",
+  "xeno_canto": "Chloroceryle-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chloroceryle_americana",
+  "ebird": "https://ebird.org/species/grnkin",
+  "inaturalist": "https://www.inaturalist.org/taxa/2669",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_kingfisher",
+   "es": "https://es.wikipedia.org/wiki/Chloroceryle_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёный_зимородок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chloroceryle+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Kingfisher",
+  "en_aco": "Green Kingfisher",
+  "es": "Martín Pescador Verde",
+  "ru": "Зелёный зимородок"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Chloroceryle americana",
+ "sci_name_aco": "Chloroceryle americana",
+ "sounds": [],
+ "taxon_order": 10316.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": 2800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 32.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20kingfisher%20%28Chloroceryle%20americana%20americana%29%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/024%20Male%20green%20kingfisher%20in%20Encontro%20das%20%C3%81guas%20State%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

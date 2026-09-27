@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cabanis, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-castaneiventris",
+ "ids": {
+  "avibase": "96F2444FECEEFAAD",
+  "birdbase": 37292,
+  "gbif": 2491348,
+  "inaturalist": "9498",
+  "iucn": "22723492",
+  "wikidata": "Q3114684",
+  "xeno_canto": "Sporophila-castaneiventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_castaneiventris",
+  "ebird": "https://ebird.org/species/chbsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9498",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-bellied_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_castaneiventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+castaneiventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-bellied Seedeater",
+  "en_aco": "Chestnut-bellied Seedeater",
+  "es": "Semillero Ventricastaño",
+  "ru": "Серобокий просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila castaneiventris",
+ "sci_name_aco": "Sporophila castaneiventris",
+ "sounds": [],
+ "taxon_order": 35530.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 950,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 7.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20castaneiventris%20-%20Chestnut-bellied%20seedeater%20%28male%29%2C%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rucela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-ruficeps",
+ "ids": {
+  "avibase": "D4A776C8E33E3BD2",
+  "birdbase": 16968,
+  "gbif": 5229650,
+  "inaturalist": "16735",
+  "iucn": "22699292",
+  "wikidata": "Q906495",
+  "xeno_canto": "Elaenia-ruficeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_ruficeps",
+  "ebird": "https://ebird.org/species/rucela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16735",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-crowned_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_ruficeps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+ruficeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-crowned Elaenia",
+  "en_aco": "Rufous-crowned Elaenia",
+  "es": "Fiofío Crestirrufo",
+  "ru": "Краснохохлая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia ruficeps",
+ "sci_name_aco": "Elaenia ruficeps",
+ "sounds": [],
+ "taxon_order": 16689.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 18.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elaenia%20ruficeps%20-%20Rufous-crowned%20Elaenia.jpg"
+ ]
+}

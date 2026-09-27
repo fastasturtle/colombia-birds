@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cassin, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "taceup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-anneae",
+ "ids": {
+  "avibase": null,
+  "birdbase": 34861,
+  "gbif": 2487960,
+  "inaturalist": "9301",
+  "iucn": "22722763",
+  "wikidata": "Q1300986",
+  "xeno_canto": "Euphonia-anneae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_anneae",
+  "ebird": "https://ebird.org/species/taceup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9301",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-capped_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_anneae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+anneae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-capped Euphonia",
+  "en_aco": "Tawny-capped Euphonia",
+  "es": "Eufonia Coronirrufa",
+  "ru": "Корольковая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia anneae",
+ "sci_name_aco": "Euphonia anneae",
+ "sounds": [],
+ "taxon_order": 32049.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2100,
+   "min": 600,
+   "min_extreme": 50
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 14.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tawny-capped%20Euphonia.jpg"
+ ]
+}

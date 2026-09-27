@@ -1,0 +1,91 @@
+{
+ "authorship": "(Vigors, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "partan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-chilensis",
+ "ids": {
+  "avibase": "9655118F87C5165E",
+  "birdbase": 37964,
+  "gbif": 2488217,
+  "inaturalist": "9593",
+  "iucn": "22722820",
+  "wikidata": "Q1543890",
+  "xeno_canto": "Tangara-chilensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_chilensis",
+  "ebird": "https://ebird.org/species/partan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9593",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Paradise_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_chilensis",
+   "ru": "https://ru.wikipedia.org/wiki/Райская_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+chilensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Paradise Tanager",
+  "en_aco": "Paradise Tanager",
+  "es": "Tangara del Paraíso",
+  "ru": "Райская танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara chilensis",
+ "sci_name_aco": "Tangara chilensis",
+ "sounds": [],
+ "taxon_order": 35064.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1700,
+   "min": 100,
+   "min_extreme": 25
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 19.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20chilensis%2094893412.jpg"
+ ]
+}

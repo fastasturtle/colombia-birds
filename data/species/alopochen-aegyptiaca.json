@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": true,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "introduced"
+  ],
+  "status_raw": "Exótica establecida",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "egygoo",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Alopochen",
+ "id": "alopochen-aegyptiaca",
+ "ids": {
+  "avibase": "DA2F24E310CF72A6",
+  "birdbase": 330,
+  "gbif": 2498252,
+  "inaturalist": "72486",
+  "iucn": "22679993",
+  "wikidata": "Q274179",
+  "xeno_canto": "Alopochen-aegyptiaca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Alopochen_aegyptiaca",
+  "ebird": "https://ebird.org/species/egygoo",
+  "inaturalist": "https://www.inaturalist.org/taxa/72486",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Egyptian_goose",
+   "es": "https://es.wikipedia.org/wiki/Alopochen_aegyptiaca",
+   "ru": "https://ru.wikipedia.org/wiki/Нильский_гусь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Alopochen+aegyptiaca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Egyptian Goose",
+  "en_aco": "Egyptian Goose",
+  "es": "Ganso del Nilo",
+  "ru": "Нильский гусь"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Alopochen aegyptiaca",
+ "sci_name_aco": "Alopochen aegyptiaca",
+ "sounds": [],
+ "taxon_order": 417.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": 3810,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 2021.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Egyptian%20goose%20%2805659%29.jpg"
+ ]
+}

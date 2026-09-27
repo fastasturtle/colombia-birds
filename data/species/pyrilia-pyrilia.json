@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bonaparte, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sahpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pyrilia",
+ "id": "pyrilia-pyrilia",
+ "ids": {
+  "avibase": "3F7F7C19068D73F8",
+  "birdbase": 13209,
+  "gbif": 5788422,
+  "inaturalist": "73325",
+  "iucn": "22686125",
+  "wikidata": "Q549112",
+  "xeno_canto": "Pyrilia-pyrilia"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrilia_pyrilia",
+  "ebird": "https://ebird.org/species/sahpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73325",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Saffron-headed_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pyrilia_pyrilia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyrilia+pyrilia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Saffron-headed Parrot",
+  "en_aco": "Saffron-headed Parrot",
+  "es": "Lorito Cabecigualdo",
+  "ru": "Желтоголовый лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pyrilia pyrilia",
+ "sci_name_aco": "Pyrilia pyrilia",
+ "sounds": [],
+ "taxon_order": 12865.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1650,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 103,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Saffron-headed%20Parrot%20%28Pyrilia%20pyrilia%29%20%288079746799%29.jpg"
+ ]
+}

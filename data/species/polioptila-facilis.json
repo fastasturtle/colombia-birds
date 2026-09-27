@@ -1,0 +1,89 @@
+{
+ "authorship": "(Zimmer, 1942)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "guigna2",
+ "family": {
+  "code": "poliop1",
+  "en": "Gnatcatchers",
+  "sci": "Polioptilidae"
+ },
+ "genus": "Polioptila",
+ "id": "polioptila-facilis",
+ "ids": {
+  "avibase": "73B2C287DFBDDCAB",
+  "birdbase": 29432,
+  "gbif": 6101142,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q12266104",
+  "xeno_canto": "Polioptila-facilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polioptila_facilis",
+  "ebird": "https://ebird.org/species/guigna2",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rio_Negro_gnatcatcher",
+   "es": "https://es.wikipedia.org/wiki/Polioptila_facilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+facilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rio Negro Gnatcatcher",
+  "en_aco": "Rio Negro Gnatcatcher",
+  "es": "Perlita del Río Negro",
+  "ru": "Рионегросская комароловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Polioptila facilis",
+ "sci_name_aco": "Polioptila facilis",
+ "sounds": [],
+ "taxon_order": 27096.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

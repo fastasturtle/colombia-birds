@@ -1,0 +1,96 @@
+{
+ "authorship": "(Audebert & Vieillot, 1801)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lobsta1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliomaster",
+ "id": "heliomaster-longirostris",
+ "ids": {
+  "avibase": "7DB659EF4A59C023",
+  "birdbase": 3226,
+  "gbif": 2476994,
+  "inaturalist": "5869",
+  "iucn": "22688138",
+  "wikidata": "Q1268074",
+  "xeno_canto": "Heliomaster-longirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliomaster_longirostris",
+  "ebird": "https://ebird.org/species/lobsta1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5869",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-billed_starthroat",
+   "es": "https://es.wikipedia.org/wiki/Heliomaster_longirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliomaster+longirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-billed Starthroat",
+  "en_aco": "Long-billed Starthroat",
+  "es": "Colibrí Piquilargo",
+  "ru": "Длинноклювый ангел"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliomaster longirostris",
+ "sci_name_aco": "Heliomaster longirostris",
+ "sounds": [],
+ "taxon_order": 4725.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 6.540000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliomaster%20longirostris%20-%20Gould.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Long-billed%20Starthroat.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Long-billed%20startthroat%20%28Heliomaster%20longirostris%20longirostris%29.jpg"
+ ]
+}

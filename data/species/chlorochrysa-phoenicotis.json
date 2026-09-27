@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bonaparte, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "glgtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Chlorochrysa",
+ "id": "chlorochrysa-phoenicotis",
+ "ids": {
+  "avibase": "DC50B0C26E1A662B",
+  "birdbase": 37723,
+  "gbif": 5230596,
+  "inaturalist": "9541",
+  "iucn": "22722793",
+  "wikidata": "Q2630949",
+  "xeno_canto": "Chlorochrysa-phoenicotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorochrysa_phoenicotis",
+  "ebird": "https://ebird.org/species/glgtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9541",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Glistening-green_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chlorochrysa_phoenicotis",
+   "ru": "https://ru.wikipedia.org/wiki/Красноухая_цветная_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorochrysa+phoenicotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Glistening-green Tanager",
+  "en_aco": "Glistening-green Tanager",
+  "es": "Tangara Verde",
+  "ru": "Красноухая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorochrysa phoenicotis",
+ "sci_name_aco": "Chlorochrysa phoenicotis",
+ "sounds": [],
+ "taxon_order": 34926.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2400,
+   "min": 1000,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 22.166666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Glistening-green%20Tanager.jpeg"
+ ]
+}

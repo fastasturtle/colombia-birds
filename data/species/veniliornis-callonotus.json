@@ -1,0 +1,94 @@
+{
+ "authorship": "(Waterhouse, 1841)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scbwoo3",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Veniliornis",
+ "id": "veniliornis-callonotus",
+ "ids": {
+  "avibase": "3AA3F6E4AC731087",
+  "birdbase": 12178,
+  "gbif": 10680427,
+  "inaturalist": "18026",
+  "iucn": "22681184",
+  "wikidata": "Q1265073",
+  "xeno_canto": "Veniliornis-callonotus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Veniliornis_callonotus",
+  "ebird": "https://ebird.org/species/scbwoo3",
+  "inaturalist": "https://www.inaturalist.org/taxa/18026",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet-backed_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Veniliornis_callonotus",
+   "ru": "https://ru.wikipedia.org/wiki/Рубиновый_венилиорнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Veniliornis+callonotus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet-backed Woodpecker",
+  "en_aco": "Scarlet-backed Woodpecker",
+  "es": "Carpintero Escarlata",
+  "ru": "Рубиновый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Veniliornis callonotus",
+ "sci_name_aco": "Dryobates callonotus",
+ "sounds": [],
+ "taxon_order": 11496.0,
+ "taxonomy_note": "ACO/SACC lists this as Dryobates callonotus; eBird/Clements uses Veniliornis callonotus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 27.339999999999996,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Veniliornis%20callonotus%201849.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Gymnopithys",
+ "id": "gymnopithys-leucaspis",
+ "ids": {
+  "avibase": "235DE47B13DAA3FE",
+  "birdbase": 16159,
+  "gbif": 2490003,
+  "inaturalist": "15731",
+  "iucn": "22730404",
+  "wikidata": "Q384994",
+  "xeno_canto": "Gymnopithys-leucaspis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gymnopithys_leucaspis",
+  "ebird": "https://ebird.org/species/whcant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15731",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-cheeked_antbird",
+   "es": "https://es.wikipedia.org/wiki/Gymnopithys_leucaspis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gymnopithys+leucaspis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-cheeked Antbird",
+  "en_aco": "White-cheeked Antbird",
+  "es": "Hormiguero Cariblanco",
+  "ru": "Белобрюхая гологлазка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Gymnopithys leucaspis",
+ "sci_name_aco": "Gymnopithys leucaspis",
+ "sounds": [],
+ "taxon_order": 14082.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 30.650000000000002,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gymnopithys%20leucaspis%20-%20White-cheeked%20Antbird%20%28male%29%3B%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

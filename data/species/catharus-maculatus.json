@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sponit2",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Catharus",
+ "id": "catharus-maculatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30245,
+  "gbif": 9784421,
+  "inaturalist": "1286839",
+  "iucn": "155183519",
+  "wikidata": "Q49000970",
+  "xeno_canto": "Catharus-maculatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catharus_maculatus",
+  "ebird": "https://ebird.org/species/sponit2",
+  "inaturalist": "https://www.inaturalist.org/taxa/1286839",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Speckled_nightingale-thrush",
+   "es": "https://es.wikipedia.org/wiki/Catharus_maculatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catharus+maculatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Speckled Nightingale-Thrush",
+  "en_aco": "Speckled Nightingale-Thrush",
+  "es": "Zorzalito Pinto",
+  "ru": "Андский соловьиный дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catharus maculatus",
+ "sci_name_aco": "Catharus maculatus",
+ "sounds": [],
+ "taxon_order": 28310.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": 175
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "wetland"
+  ],
+  "mass_g": 37.8,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Catharus%20maculatus.jpg"
+ ]
+}

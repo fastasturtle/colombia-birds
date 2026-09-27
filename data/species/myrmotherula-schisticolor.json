@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "slaant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Myrmotherula",
+ "id": "myrmotherula-schisticolor",
+ "ids": {
+  "avibase": "CF8A33941B7EEE70",
+  "birdbase": 15788,
+  "gbif": 2490202,
+  "inaturalist": "15827",
+  "iucn": "22701505",
+  "wikidata": "Q1274171",
+  "xeno_canto": "Myrmotherula-schisticolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_schisticolor",
+  "ebird": "https://ebird.org/species/slaant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15827",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty_antwren",
+   "es": "https://es.wikipedia.org/wiki/Myrmotherula_schisticolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmotherula+schisticolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty Antwren",
+  "en_aco": "Slaty Antwren",
+  "es": "Hormiguerito Pizarroso",
+  "ru": "Сизый муравьелов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmotherula schisticolor",
+ "sci_name_aco": "Myrmotherula schisticolor",
+ "sounds": [],
+ "taxon_order": 13740.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2400,
+   "min": 600,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 9.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Slaty%20Antwren%20-%20Ecuador%2005%20dgs%20%2816823121085%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spepar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Forpus",
+ "id": "forpus-conspicillatus",
+ "ids": {
+  "avibase": "44585D054313D530",
+  "birdbase": 13360,
+  "gbif": 2479071,
+  "inaturalist": "19064",
+  "iucn": "22685937",
+  "wikidata": "Q760373",
+  "xeno_canto": "Forpus-conspicillatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Forpus_conspicillatus",
+  "ebird": "https://ebird.org/species/spepar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19064",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spectacled_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Forpus_conspicillatus",
+   "ru": "https://ru.wikipedia.org/wiki/Очковый_воробьиный_попугайчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Forpus+conspicillatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spectacled Parrotlet",
+  "en_aco": "Spectacled Parrotlet",
+  "es": "Cotorrita de Anteojos",
+  "ru": "Очковый воробьиный попугайчик"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Forpus conspicillatus",
+ "sci_name_aco": "Forpus conspicillatus",
+ "sounds": [],
+ "taxon_order": 12996.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2600,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 26.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Forpus%20conspicillatus%20%28Periquito%20de%20anteojos%29%20-%20Flickr%20-%20Alejandro%20Bayer%20%281%29.jpg"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "authorship": "(Meyer de Schauensee, 1967)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colpuf2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-mirabilis",
+ "ids": {
+  "avibase": "CD3CA2CC826D1A02",
+  "birdbase": 3080,
+  "gbif": 5228536,
+  "inaturalist": "6283",
+  "iucn": "22687939",
+  "wikidata": "Q882411",
+  "xeno_canto": "Eriocnemis-mirabilis"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_mirabilis",
+  "ebird": "https://ebird.org/species/colpuf2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6283",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Colorful_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_mirabilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+mirabilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Colorful Puffleg",
+  "en_aco": "Colorful Puffleg",
+  "es": "Calzadito Admirable",
+  "ru": "Удивительный эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis mirabilis",
+ "sci_name_aco": "Eriocnemis mirabilis",
+ "sounds": [],
+ "taxon_order": 4599.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2440,
+   "max_extreme": null,
+   "min": 2200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.06,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1869)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tartyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyranniscus",
+ "id": "tyranniscus-uropygialis",
+ "ids": {
+  "avibase": "CE406BCB844909EC",
+  "birdbase": 16893,
+  "gbif": 2484048,
+  "inaturalist": "16489",
+  "iucn": "22699119",
+  "wikidata": "Q1271093",
+  "xeno_canto": "Phyllomyias-uropygialis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phyllomyias_uropygialis",
+  "ebird": "https://ebird.org/species/tartyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16489",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tawny-rumped_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Phyllomyias_uropygialis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyranniscus+uropygialis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tawny-rumped Tyrannulet",
+  "en_aco": "Tawny-rumped Tyrannulet",
+  "es": "Mosquerito Culirrufo",
+  "ru": "Светлогузый москитеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyranniscus uropygialis",
+ "sci_name_aco": "Phyllomyias uropygialis",
+ "sounds": [],
+ "taxon_order": 16794.0,
+ "taxonomy_note": "ACO/SACC lists this as Phyllomyias uropygialis; eBird/Clements uses Tyranniscus uropygialis.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 8.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phyllomyias%20uropygialis%20cropped.jpg"
+ ]
+}

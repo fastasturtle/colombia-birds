@@ -1,0 +1,91 @@
+{
+ "authorship": "(G.R. Graves, 1997)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Cercomacroides",
+ "id": "cercomacroides-parkeri",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16261,
+  "gbif": 8307977,
+  "inaturalist": "558489",
+  "iucn": "22724618",
+  "wikidata": "Q28823868",
+  "xeno_canto": "Cercomacroides-parkeri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/parant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/558489",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cercomacroides+parkeri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Parker's Antbird",
+  "en_aco": "Parker's Antbird",
+  "es": "Hormiguero de Parker",
+  "ru": "Колумбийская муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cercomacroides parkeri",
+ "sci_name_aco": "Cercomacroides parkeri",
+ "sounds": [],
+ "taxon_order": 13905.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1950,
+   "max_extreme": null,
+   "min": 1130,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 18,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cercomacroides%20parkeri%20%2828136184469%29.jpg"
+ ]
+}

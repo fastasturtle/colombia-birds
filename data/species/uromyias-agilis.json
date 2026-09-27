@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "agitit1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Uromyias",
+ "id": "uromyias-agilis",
+ "ids": {
+  "avibase": "636DC34908C4A78E",
+  "birdbase": 17069,
+  "gbif": 2482693,
+  "inaturalist": "339663",
+  "iucn": "22699369",
+  "wikidata": "Q1263615",
+  "xeno_canto": "Uromyias-agilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anairetes_agilis",
+  "ebird": "https://ebird.org/species/agitit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339663",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Agile_tit-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Uromyias_agilis",
+   "ru": "https://ru.wikipedia.org/wiki/Длиннохвостая_уромия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Uromyias+agilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Agile Tit-Tyrant",
+  "en_aco": "Agile Tit-Tyrant",
+  "es": "Cachudito Ágil",
+  "ru": "Длиннохвостый качудито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Uromyias agilis",
+ "sci_name_aco": "Uromyias agilis",
+ "sounds": [],
+ "taxon_order": 16615.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3400,
+   "max_extreme": null,
+   "min": 2700,
+   "min_extreme": 1800
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 8.95,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anairetes%20agilis.jpg"
+ ]
+}

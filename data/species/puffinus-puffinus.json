@@ -1,0 +1,93 @@
+{
+ "authorship": "(Brünnich, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "manshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Puffinus",
+ "id": "puffinus-puffinus",
+ "ids": {
+  "avibase": "5AEDC00231A5201C",
+  "birdbase": 7572,
+  "gbif": 5229380,
+  "inaturalist": "4093",
+  "iucn": "22698226",
+  "wikidata": "Q208405",
+  "xeno_canto": "Puffinus-puffinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Puffinus_puffinus",
+  "ebird": "https://ebird.org/species/manshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/4093",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Manx_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Puffinus_puffinus",
+   "ru": "https://ru.wikipedia.org/wiki/Обыкновенный_буревестник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Puffinus+puffinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Manx Shearwater",
+  "en_aco": "Manx Shearwater",
+  "es": "Pardela Pichoneta",
+  "ru": "Малый буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Puffinus puffinus",
+ "sci_name_aco": "Puffinus puffinus",
+ "sounds": [],
+ "taxon_order": 7220.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 482.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Manx%20Shearwater.JPG"
+ ]
+}

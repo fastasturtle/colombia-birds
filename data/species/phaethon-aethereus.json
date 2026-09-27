@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente incierto",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "rebtro",
+ "family": {
+  "code": "phaeth1",
+  "en": "Tropicbirds",
+  "sci": "Phaethontidae"
+ },
+ "genus": "Phaethon",
+ "id": "phaethon-aethereus",
+ "ids": {
+  "avibase": "7EE005BD2701D129",
+  "birdbase": 7277,
+  "gbif": 9743996,
+  "inaturalist": "4317",
+  "iucn": "22696637",
+  "wikidata": "Q686600",
+  "xeno_canto": "Phaethon-aethereus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethon_aethereus",
+  "ebird": "https://ebird.org/species/rebtro",
+  "inaturalist": "https://www.inaturalist.org/taxa/4317",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-billed_tropicbird",
+   "es": "https://es.wikipedia.org/wiki/Phaethon_aethereus",
+   "ru": "https://ru.wikipedia.org/wiki/Красноклювый_фаэтон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethon+aethereus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-billed Tropicbird",
+  "en_aco": "Red-billed Tropicbird",
+  "es": "Rabijunco Etéreo",
+  "ru": "Красноклювый фаэтон"
+ },
+ "order": "Phaethontiformes",
+ "photos": [],
+ "sci_name": "Phaethon aethereus",
+ "sci_name_aco": "Phaethon aethereus",
+ "sounds": [],
+ "taxon_order": 6915.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "sea"
+  ],
+  "mass_g": 632,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/20180811-Red-billed%20tropicbird%20at%20Plaza%20Sur%20%280374%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethon%20aethereus%20Little%20Tobago.jpg"
+ ]
+}

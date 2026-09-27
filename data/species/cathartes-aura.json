@@ -1,0 +1,103 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "turvul",
+ "family": {
+  "code": "cathar2",
+  "en": "New World Vultures",
+  "sci": "Cathartidae"
+ },
+ "genus": "Cathartes",
+ "id": "cathartes-aura",
+ "ids": {
+  "avibase": "36B3872DAFE1EC1C",
+  "birdbase": 8117,
+  "gbif": 2481930,
+  "inaturalist": "4756",
+  "iucn": "22697627",
+  "wikidata": "Q245181",
+  "xeno_canto": "Cathartes-aura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cathartes_aura",
+  "ebird": "https://ebird.org/species/turvul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4756",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Turkey_vulture",
+   "es": "https://es.wikipedia.org/wiki/Cathartes_aura",
+   "ru": "https://ru.wikipedia.org/wiki/Гриф-индейка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cathartes+aura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Turkey Vulture",
+  "en_aco": "Turkey Vulture",
+  "es": "Aura Gallipavo",
+  "ru": "Катарта-индейка"
+ },
+ "order": "Cathartiformes",
+ "photos": [],
+ "sci_name": "Cathartes aura",
+ "sci_name_aco": "Cathartes aura",
+ "sounds": [],
+ "taxon_order": 7815.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 4500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 10,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "riparian",
+   "desert",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1495.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Scavenger",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cathartes%20aura%20at%20Tomales%20Bay.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cathartes%20aura%20-Mexico-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Urubu-de-cabe%C3%A7a-vermelha.jpg"
+ ]
+}

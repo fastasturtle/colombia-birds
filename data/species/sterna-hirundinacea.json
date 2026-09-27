@@ -1,0 +1,94 @@
+{
+ "authorship": "(R. Lesson, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soater1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sterna",
+ "id": "sterna-hirundinacea",
+ "ids": {
+  "avibase": "ECAE1DA1B2F5B949",
+  "birdbase": 7022,
+  "gbif": 5229231,
+  "inaturalist": "4454",
+  "iucn": "22694618",
+  "wikidata": "Q1260013",
+  "xeno_canto": "Sterna-hirundinacea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sterna_hirundinacea",
+  "ebird": "https://ebird.org/species/soater1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4454",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/South_American_tern",
+   "es": "https://es.wikipedia.org/wiki/Sterna_hirundinacea",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sterna+hirundinacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "South American Tern",
+  "en_aco": "South American Tern",
+  "es": "Charrán Sudamericano",
+  "ru": "Южноамериканская крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sterna hirundinacea",
+ "sci_name_aco": "Sterna hirundinacea",
+ "sounds": [],
+ "taxon_order": 6735.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "riparian",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 190.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/SternaHirundinacea.jpg"
+ ]
+}

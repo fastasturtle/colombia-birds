@@ -1,0 +1,94 @@
+{
+ "authorship": "(Nelson, 1912)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Aphanotriccus",
+ "id": "aphanotriccus-audax",
+ "ids": {
+  "avibase": "3AC7C7769FFB61C4",
+  "birdbase": 17633,
+  "gbif": 2483929,
+  "inaturalist": "17326",
+  "iucn": "22699770",
+  "wikidata": "Q1268732",
+  "xeno_canto": "Aphanotriccus-audax"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aphanotriccus_audax",
+  "ebird": "https://ebird.org/species/blbfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17326",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-billed_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Aphanotriccus_audax",
+   "ru": "https://ru.wikipedia.org/wiki/Черноклювый_колумбийский_мухоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aphanotriccus+audax"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-billed Flycatcher",
+  "en_aco": "Black-billed Flycatcher",
+  "es": "Mosquero Piquinegro",
+  "ru": "Черноклювый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Aphanotriccus audax",
+ "sci_name_aco": "Aphanotriccus audax",
+ "sounds": [],
+ "taxon_order": 16880.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 700,
+   "min": 100,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 11.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aphanotriccus%20audax%2058380546.jpg"
+ ]
+}

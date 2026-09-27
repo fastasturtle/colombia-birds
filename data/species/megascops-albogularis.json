@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cassin, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtsco1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-albogularis",
+ "ids": {
+  "avibase": "F72A3AA5322DEA31",
+  "birdbase": 9592,
+  "gbif": 2497408,
+  "inaturalist": "19778",
+  "iucn": "22688903",
+  "wikidata": "Q1259890",
+  "xeno_canto": "Megascops-albogularis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_albogularis",
+  "ebird": "https://ebird.org/species/whtsco1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19778",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-throated_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_albogularis",
+   "ru": "https://ru.wikipedia.org/wiki/Белогорлая_совка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+albogularis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-throated Screech-Owl",
+  "en_aco": "White-throated Screech-Owl",
+  "es": "Autillo Gorjiblanco",
+  "ru": "Белогорлая совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops albogularis",
+ "sci_name_aco": "Megascops albogularis",
+ "sounds": [],
+ "taxon_order": 8804.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3700,
+   "min": 2000,
+   "min_extreme": 1300
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland"
+  ],
+  "mass_g": 157.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megascops%20albogularis%20000.jpg"
+ ]
+}

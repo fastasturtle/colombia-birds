@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ventro1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-icterus",
+ "ids": {
+  "avibase": "B7C6DEB5671C3D9F",
+  "birdbase": 35924,
+  "gbif": 5229915,
+  "inaturalist": "9345",
+  "iucn": "22735310",
+  "wikidata": "Q997708",
+  "xeno_canto": "Icterus-icterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_icterus",
+  "ebird": "https://ebird.org/species/ventro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9345",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Venezuelan_troupial",
+   "es": "https://es.wikipedia.org/wiki/Icterus_icterus",
+   "ru": "https://ru.wikipedia.org/wiki/Обыкновенный_цветной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+icterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Venezuelan Troupial",
+  "en_aco": "Venezuelan Troupial",
+  "es": "Turpial Venezolano",
+  "ru": "Цветной трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus icterus",
+ "sci_name_aco": "Icterus icterus",
+ "sounds": [],
+ "taxon_order": 33715.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 67.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Curacao-Icterus-Icterus-2013.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/A%20Troupial%20on%20a%20cactus%20in%20Cura%C3%A7ao.jpg"
+ ]
+}

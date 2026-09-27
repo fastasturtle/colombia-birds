@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "laufal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Herpetotheres",
+ "id": "herpetotheres-cachinnans",
+ "ids": {
+  "avibase": "24C90C1A39BB96D5",
+  "birdbase": 12823,
+  "gbif": 2481071,
+  "inaturalist": "4719",
+  "iucn": "22696267",
+  "wikidata": "Q903642",
+  "xeno_canto": "Herpetotheres-cachinnans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Herpetotheres_cachinnans",
+  "ebird": "https://ebird.org/species/laufal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4719",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Laughing_falcon",
+   "es": "https://es.wikipedia.org/wiki/Herpetotheres_cachinnans",
+   "ru": "https://ru.wikipedia.org/wiki/Смеющийся_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Herpetotheres+cachinnans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Laughing Falcon",
+  "en_aco": "Laughing Falcon",
+  "es": "Halcón Reidor",
+  "ru": "Смеющийся сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Herpetotheres cachinnans",
+ "sci_name_aco": "Herpetotheres cachinnans",
+ "sounds": [],
+ "taxon_order": 11939.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 655,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lachfalke.jpg"
+ ]
+}

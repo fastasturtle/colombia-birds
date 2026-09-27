@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boucard, 1892)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stther1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-rupurumii",
+ "ids": {
+  "avibase": "D7585C3D070CE78D",
+  "birdbase": 2704,
+  "gbif": 2476580,
+  "inaturalist": "5602",
+  "iucn": "22733918",
+  "wikidata": "Q1273366",
+  "xeno_canto": "Phaethornis-rupurumii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_rupurumii",
+  "ebird": "https://ebird.org/species/stther1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5602",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streak-throated_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_rupurumii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+rupurumii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streak-throated Hermit",
+  "en_aco": "Streak-throated Hermit",
+  "es": "Ermitaño del Rupununí",
+  "ru": "Гвианский колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis rupurumii",
+ "sci_name_aco": "Phaethornis rupurumii",
+ "sounds": [],
+ "taxon_order": 4300.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 3.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethornis%20rupununi%20-%20Streak-throated%20hermit%3B%20Anavilhanas%20islands%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

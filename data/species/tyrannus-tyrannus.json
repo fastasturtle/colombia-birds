@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "easkin",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannus",
+ "id": "tyrannus-tyrannus",
+ "ids": {
+  "avibase": "082D833CF61D6360",
+  "birdbase": 18075,
+  "gbif": 5229688,
+  "inaturalist": "16782",
+  "iucn": "22700506",
+  "wikidata": "Q1071571",
+  "xeno_canto": "Tyrannus-tyrannus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannus_tyrannus",
+  "ebird": "https://ebird.org/species/easkin",
+  "inaturalist": "https://www.inaturalist.org/taxa/16782",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Eastern_kingbird",
+   "es": "https://es.wikipedia.org/wiki/Tyrannus_tyrannus",
+   "ru": "https://ru.wikipedia.org/wiki/Королевский_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannus+tyrannus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Eastern Kingbird",
+  "en_aco": "Eastern Kingbird",
+  "es": "Tirano Oriental",
+  "ru": "Восточный тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannus tyrannus",
+ "sci_name_aco": "Tyrannus tyrannus",
+ "sounds": [],
+ "taxon_order": 17472.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1850,
+   "max_extreme": 3700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "riparian",
+   "agricultural"
+  ],
+  "mass_g": 42.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20kingbird%20on%20the%20hunt%20%2856948%29.jpg"
+ ]
+}

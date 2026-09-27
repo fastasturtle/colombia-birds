@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1856)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "empbri1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-imperatrix",
+ "ids": {
+  "avibase": "5F1473EE6BDE4259",
+  "birdbase": 3205,
+  "gbif": 2476953,
+  "inaturalist": "5919",
+  "iucn": "22687715",
+  "wikidata": "Q513226",
+  "xeno_canto": "Heliodoxa-imperatrix"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_imperatrix",
+  "ebird": "https://ebird.org/species/empbri1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5919",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Empress_brilliant",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_imperatrix",
+   "ru": "https://ru.wikipedia.org/wiki/Королевский_бриллиант"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+imperatrix"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Empress Brilliant",
+  "en_aco": "Empress Brilliant",
+  "es": "Brillante Emperador",
+  "ru": "Королевский бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa imperatrix",
+ "sci_name_aco": "Heliodoxa imperatrix",
+ "sounds": [],
+ "taxon_order": 4710.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 8.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Empress%20Brilliant.jpg"
+ ]
+}

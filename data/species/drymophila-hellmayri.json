@@ -1,0 +1,92 @@
+{
+ "authorship": "(Todd, 1915)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Drymophila",
+ "id": "drymophila-hellmayri",
+ "ids": {
+  "avibase": "7694CC98CF6355FF",
+  "birdbase": 16215,
+  "gbif": 7421670,
+  "inaturalist": "339646",
+  "iucn": "103658673",
+  "wikidata": "Q7419736",
+  "xeno_canto": "Drymophila-hellmayri"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Drymophila_hellmayri",
+  "ebird": "https://ebird.org/species/samant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/339646",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_antbird",
+   "es": "https://es.wikipedia.org/wiki/Drymophila_hellmayri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Drymophila+hellmayri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Antbird",
+  "en_aco": "Santa Marta Antbird",
+  "es": "Tiluchí de Santa Marta",
+  "ru": "Сантамартийская муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Drymophila hellmayri",
+ "sci_name_aco": "Drymophila hellmayri",
+ "sounds": [],
+ "taxon_order": 13873.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 12,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Drymophila%20hellmayri.jpg"
+ ]
+}

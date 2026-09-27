@@ -1,0 +1,93 @@
+{
+ "authorship": "(Daudin, 1800)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orheag1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Spizaetus",
+ "id": "spizaetus-ornatus",
+ "ids": {
+  "avibase": "EA4FB522AC938413",
+  "birdbase": 8340,
+  "gbif": 2480679,
+  "inaturalist": "5294",
+  "iucn": "22696197",
+  "wikidata": "Q602388",
+  "xeno_canto": "Spizaetus-ornatus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spizaetus_ornatus",
+  "ebird": "https://ebird.org/species/orheag1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5294",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ornate_hawk-eagle",
+   "es": "https://es.wikipedia.org/wiki/Spizaetus_ornatus",
+   "ru": "https://ru.wikipedia.org/wiki/Нарядный_хохлатый_орёл"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spizaetus+ornatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ornate Hawk-Eagle",
+  "en_aco": "Ornate Hawk-Eagle",
+  "es": "Águila Galana",
+  "ru": "Нарядный хохлатый орёл"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Spizaetus ornatus",
+ "sci_name_aco": "Spizaetus ornatus",
+ "sounds": [],
+ "taxon_order": 8025.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 1144.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gavi%C3%A3o-de-penacho-PE%20Tur%C3%ADstico%20do%20Alto%20do%20Ribeira-Marcelo%20Figueiroa%28001%29.jpg"
+ ]
+}

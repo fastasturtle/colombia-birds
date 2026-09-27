@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orwpar",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Amazona",
+ "id": "amazona-amazonica",
+ "ids": {
+  "avibase": "0F2066D5BB706CD2",
+  "birdbase": 13334,
+  "gbif": 2479666,
+  "inaturalist": "18982",
+  "iucn": "22686350",
+  "wikidata": "Q586803",
+  "xeno_canto": "Amazona-amazonica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazona_amazonica",
+  "ebird": "https://ebird.org/species/orwpar",
+  "inaturalist": "https://www.inaturalist.org/taxa/18982",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-winged_amazon",
+   "es": "https://es.wikipedia.org/wiki/Amazona_amazonica",
+   "ru": "https://ru.wikipedia.org/wiki/Венесуэльский_амазон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amazona+amazonica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-winged Amazon",
+  "en_aco": "Orange-winged Parrot",
+  "es": "Amazona Alinaranja",
+  "ru": "Оранжевокрылый амазон"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Amazona amazonica",
+ "sci_name_aco": "Amazona amazonica",
+ "sounds": [],
+ "taxon_order": 12970.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 383.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazona%20amazonica%20%281%29.jpg"
+ ]
+}

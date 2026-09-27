@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wibsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-americana",
+ "ids": {
+  "avibase": "F516D6755FF1688B",
+  "birdbase": 37226,
+  "gbif": 2491332,
+  "inaturalist": "9511",
+  "iucn": "22733946",
+  "wikidata": "Q3180758",
+  "xeno_canto": "Sporophila-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_americana",
+  "ebird": "https://ebird.org/species/wibsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9511",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wing-barred_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_americana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wing-barred Seedeater",
+  "en_aco": "Wing-barred Seedeater",
+  "es": "Semillero Aliblanco",
+  "ru": "Пегий просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila americana",
+ "sci_name_aco": "Sporophila americana",
+ "sounds": [],
+ "taxon_order": 35569.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": 150,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 12,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20americana%20-%20Wing-barred%20seedeater%20%28male%29.JPG"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "asctap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Myornis",
+ "id": "myornis-senilis",
+ "ids": {
+  "avibase": "EFE9D5AA5F5C8D69",
+  "birdbase": 16739,
+  "gbif": 2490963,
+  "inaturalist": "14783",
+  "iucn": "22703483",
+  "wikidata": "Q844179",
+  "xeno_canto": "Myornis-senilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myornis_senilis",
+  "ebird": "https://ebird.org/species/asctap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14783",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ash-colored_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Myornis_senilis",
+   "ru": "https://ru.wikipedia.org/wiki/Серый_топаколо"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myornis+senilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ash-colored Tapaculo",
+  "en_aco": "Ash-colored Tapaculo",
+  "es": "Tapaculo Cenizo",
+  "ru": "Пепельный тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myornis senilis",
+ "sci_name_aco": "Myornis senilis",
+ "sounds": [],
+ "taxon_order": 14391.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3350,
+   "max_extreme": 3950,
+   "min": 2300,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 21.525,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myornis%20senilis%20-%20Ash-colored%20Tapaculo.jpg"
+ ]
+}

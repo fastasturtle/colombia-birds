@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blkrai",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Laterallus",
+ "id": "laterallus-jamaicensis",
+ "ids": {
+  "avibase": "C5DF08E75E27B2B5",
+  "birdbase": 6000,
+  "gbif": 2474590,
+  "inaturalist": "316",
+  "iucn": "22692353",
+  "wikidata": "Q1268977",
+  "xeno_canto": "Laterallus-jamaicensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laterallus_jamaicensis",
+  "ebird": "https://ebird.org/species/blkrai",
+  "inaturalist": "https://www.inaturalist.org/taxa/316",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_rail",
+   "es": "https://es.wikipedia.org/wiki/Laterallus_jamaicensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laterallus+jamaicensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Rail",
+  "en_aco": "Black Rail",
+  "es": "Polluela Negruzca",
+  "ru": "Шиферный коростелёк"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Laterallus jamaicensis",
+ "sci_name_aco": "Laterallus jamaicensis",
+ "sounds": [],
+ "taxon_order": 5651.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "savanna",
+   "wetland"
+  ],
+  "mass_g": 32.96666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laterallus%20jamaicensis%20-%20Black%20Rail%3B%20Arari%2C%20Maranh%C3%A3o%2C%20Brazil.jpg"
+ ]
+}

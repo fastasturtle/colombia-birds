@@ -1,0 +1,93 @@
+{
+ "authorship": "(D. G. Elliot, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mobtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Bangsia",
+ "id": "bangsia-edwardsi",
+ "ids": {
+  "avibase": "5C7EE0EEBD6633D8",
+  "birdbase": 37736,
+  "gbif": 2488336,
+  "inaturalist": "10383",
+  "iucn": "22722584",
+  "wikidata": "Q922524",
+  "xeno_canto": "Bangsia-edwardsi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bangsia_edwardsi",
+  "ebird": "https://ebird.org/species/mobtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10383",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Moss-backed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Bangsia_edwardsi",
+   "ru": "https://ru.wikipedia.org/wiki/Зеленоспинная_короткоклювая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bangsia+edwardsi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Moss-backed Tanager",
+  "en_aco": "Moss-backed Tanager",
+  "es": "Tangara de Edwards",
+  "ru": "Зеленоспинная танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bangsia edwardsi",
+ "sci_name_aco": "Bangsia edwardsi",
+ "sounds": [],
+ "taxon_order": 34835.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 36.45,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Moss-backed%20Tanager%20%2815742706581%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bangsia%20edwardsi.jpg"
+ ]
+}

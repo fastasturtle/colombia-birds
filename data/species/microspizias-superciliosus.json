@@ -1,0 +1,91 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tinhaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Microspizias",
+ "id": "microspizias-superciliosus",
+ "ids": {
+  "avibase": "F23F7695C9C32556",
+  "birdbase": 8639,
+  "gbif": 12003679,
+  "inaturalist": "5113",
+  "iucn": "22695565",
+  "wikidata": "Q127828",
+  "xeno_canto": "Accipiter-superciliosus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Accipiter_superciliosus",
+  "ebird": "https://ebird.org/species/tinhaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5113",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tiny_hawk",
+   "es": "https://es.wikipedia.org/wiki/Microspizias_superciliosus",
+   "ru": "https://ru.wikipedia.org/wiki/Ястреб-крошка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microspizias+superciliosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tiny Hawk",
+  "en_aco": "Tiny Hawk",
+  "es": "Gavilancito Americano",
+  "ru": "Ястреб-крошка"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Microspizias superciliosus",
+ "sci_name_aco": "Microspizias superciliosus",
+ "sounds": [],
+ "taxon_order": 8334.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 103.675,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Accipiter%20superciliosus%20Azor%20diminuto%20Tiny%20Hawk%20%28female%29%20%288114042342%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Temminck, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spoant6",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Hylopezus",
+ "id": "hylopezus-macularius",
+ "ids": {
+  "avibase": "CE02A627B489D67C",
+  "birdbase": 16611,
+  "gbif": 2490562,
+  "inaturalist": "204522",
+  "iucn": "22724505",
+  "wikidata": "Q920687",
+  "xeno_canto": "Hylopezus-macularius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylopezus_macularius",
+  "ebird": "https://ebird.org/species/spoant6",
+  "inaturalist": "https://www.inaturalist.org/taxa/204522",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spotted_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Hylopezus_macularius",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylopezus+macularius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Antpitta",
+  "en_aco": "Spotted Antpitta",
+  "es": "Tororoí Moteado",
+  "ru": "Пятнистый торорой"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylopezus macularius",
+ "sci_name_aco": "Hylopezus macularius",
+ "sounds": [],
+ "taxon_order": 14302.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 45.86666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Torom-carij%C3%B3%20%28Hylopezus%20macularius%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Thunberg, 1822)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blnchl1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Chlorophonia",
+ "id": "chlorophonia-cyanea",
+ "ids": {
+  "avibase": null,
+  "birdbase": 34799,
+  "gbif": 2488315,
+  "inaturalist": "10461",
+  "iucn": "22722781",
+  "wikidata": "Q1552323",
+  "xeno_canto": "Chlorophonia-cyanea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorophonia_cyanea",
+  "ebird": "https://ebird.org/species/blnchl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10461",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-naped_chlorophonia",
+   "es": "https://es.wikipedia.org/wiki/Chlorophonia_cyanea",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёный_органист"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorophonia+cyanea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-naped Chlorophonia",
+  "en_aco": "Blue-naped Chlorophonia",
+  "es": "Clorofonia Nuquiazul",
+  "ru": "Синеспинный органист"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorophonia cyanea",
+ "sci_name_aco": "Chlorophonia cyanea",
+ "sounds": [],
+ "taxon_order": 31988.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorophonia%20cyanea%20-Parque%20Nacional%20do%20Itatiaia%2C%20Rio%20de%20Janeiro%2C%20Brazil-8.jpg"
+ ]
+}

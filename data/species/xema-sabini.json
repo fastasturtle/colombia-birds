@@ -1,0 +1,94 @@
+{
+ "authorship": "(Sabine, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sabgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Xema",
+ "id": "xema-sabini",
+ "ids": {
+  "avibase": "86182656472B476B",
+  "birdbase": 7086,
+  "gbif": 2481221,
+  "inaturalist": "4571",
+  "iucn": "22694479",
+  "wikidata": "Q212047",
+  "xeno_canto": "Xema-sabini"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xema_sabini",
+  "ebird": "https://ebird.org/species/sabgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4571",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sabine's_gull",
+   "es": "https://es.wikipedia.org/wiki/Xema_sabini",
+   "ru": "https://ru.wikipedia.org/wiki/Вилохвостая_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xema+sabini"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sabine's Gull",
+  "en_aco": "Sabine's Gull",
+  "es": "Gaviota de Sabine",
+  "ru": "Вилохвостая чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Xema sabini",
+ "sci_name_aco": "Xema sabini",
+ "sounds": [],
+ "taxon_order": 6455.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 182.16666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sabine%27s%20gull%20%2853706724037%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sabine%27s%20gull%20%2853706725122%29.jpg"
+ ]
+}

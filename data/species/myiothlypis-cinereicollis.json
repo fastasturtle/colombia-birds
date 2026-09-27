@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1864)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gytwar1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myiothlypis",
+ "id": "myiothlypis-cinereicollis",
+ "ids": {
+  "avibase": "69D734FBCC234AB9",
+  "birdbase": 36390,
+  "gbif": 7341638,
+  "inaturalist": "145271",
+  "iucn": "22721985",
+  "wikidata": "Q27075991",
+  "xeno_canto": "Myiothlypis-cinereicollis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiothlypis_cinereicollis",
+  "ebird": "https://ebird.org/species/gytwar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/145271",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-throated_warbler",
+   "es": "https://es.wikipedia.org/wiki/Myiothlypis_cinereicollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiothlypis+cinereicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-throated Warbler",
+  "en_aco": "Gray-throated Warbler",
+  "es": "Reinita Gorjigrís",
+  "ru": "Серогрудый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiothlypis cinereicollis",
+ "sci_name_aco": "Myiothlypis cinereicollis",
+ "sounds": [],
+ "taxon_order": 34326.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiothlypis%20cinereicollis%20273469729.jpg"
+ ]
+}

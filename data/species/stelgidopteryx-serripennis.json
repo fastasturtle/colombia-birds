@@ -1,0 +1,93 @@
+{
+ "authorship": "(Audubon, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nrwswa",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Stelgidopteryx",
+ "id": "stelgidopteryx-serripennis",
+ "ids": {
+  "avibase": "188707A5E73A4BCC",
+  "birdbase": 25174,
+  "gbif": 2489202,
+  "inaturalist": "11970",
+  "iucn": "22712152",
+  "wikidata": "Q2735005",
+  "xeno_canto": "Stelgidopteryx-serripennis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stelgidopteryx_serripennis",
+  "ebird": "https://ebird.org/species/nrwswa",
+  "inaturalist": "https://www.inaturalist.org/taxa/11970",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_rough-winged_swallow",
+   "es": "https://es.wikipedia.org/wiki/Stelgidopteryx_serripennis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stelgidopteryx+serripennis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Rough-winged Swallow",
+  "en_aco": "Northern Rough-winged Swallow",
+  "es": "Golondrina Aserrada",
+  "ru": "Североамериканская ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stelgidopteryx serripennis",
+ "sci_name_aco": "Stelgidopteryx serripennis",
+ "sounds": [],
+ "taxon_order": 24106.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 14.3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stelgidopteryx%20serripennis.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bicwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Campylorhynchus",
+ "id": "campylorhynchus-griseus",
+ "ids": {
+  "avibase": "F21BA62ACEF8A2B5",
+  "birdbase": 28884,
+  "gbif": 5231480,
+  "inaturalist": "7483",
+  "iucn": "22711299",
+  "wikidata": "Q790641",
+  "xeno_canto": "Campylorhynchus-griseus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylorhynchus_griseus",
+  "ebird": "https://ebird.org/species/bicwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7483",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bicolored_wren",
+   "es": "https://es.wikipedia.org/wiki/Campylorhynchus_griseus",
+   "ru": "https://ru.wikipedia.org/wiki/Белобровый_кактусовый_крапивник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylorhynchus+griseus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bicolored Wren",
+  "en_aco": "Bicolored Wren",
+  "es": "Cucarachero Currucuchú",
+  "ru": "Белобровый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Campylorhynchus griseus",
+ "sci_name_aco": "Campylorhynchus griseus",
+ "sounds": [],
+ "taxon_order": 27429.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 41.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylorhynchus%20griseus%20Bicolored%20Wren%3B%20Boa%20Vista%2C%20Roraima%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shteme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorostilbon",
+ "id": "chlorostilbon-poortmani",
+ "ids": {
+  "avibase": "0A7F307EDBA27B61",
+  "birdbase": 3396,
+  "gbif": 2476066,
+  "inaturalist": "6121",
+  "iucn": "22687362",
+  "wikidata": "Q1259647",
+  "xeno_canto": "Chlorostilbon-poortmani"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorostilbon_poortmani",
+  "ebird": "https://ebird.org/species/shteme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6121",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-tailed_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chlorostilbon_poortmani",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorostilbon+poortmani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-tailed Emerald",
+  "en_aco": "Short-tailed Emerald",
+  "es": "Esmeralda Colicorta",
+  "ru": "Короткохвостый изумруд"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorostilbon poortmani",
+ "sci_name_aco": "Chlorostilbon poortmani",
+ "sounds": [],
+ "taxon_order": 4905.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2800,
+   "min": 750,
+   "min_extreme": 150
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 3.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Short-tailed%20Emerald%20%28Chlorostilbon%20poortmani%29.jpg"
+ ]
+}

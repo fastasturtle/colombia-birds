@@ -1,0 +1,92 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gobpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-mosquera",
+ "ids": {
+  "avibase": "E1D0A144889273E9",
+  "birdbase": 3078,
+  "gbif": 5228534,
+  "inaturalist": "6282",
+  "iucn": "22687933",
+  "wikidata": "Q1273286",
+  "xeno_canto": "Eriocnemis-mosquera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_mosquera",
+  "ebird": "https://ebird.org/species/gobpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6282",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-breasted_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_mosquera",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+mosquera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-breasted Puffleg",
+  "en_aco": "Golden-breasted Puffleg",
+  "es": "Calzadito de Mosquera",
+  "ru": "Златогрудый эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis mosquera",
+ "sci_name_aco": "Eriocnemis mosquera",
+ "sounds": [],
+ "taxon_order": 4597.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 5.625,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-Breasted%20Puffleg%20%28Eriocnemis%20mosquera%29.jpg"
+ ]
+}

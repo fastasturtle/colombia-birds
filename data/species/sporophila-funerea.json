@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tbsfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-funerea",
+ "ids": {
+  "avibase": "64EDEAE0BE8F4F9E",
+  "birdbase": 37244,
+  "gbif": 7465752,
+  "inaturalist": "367681",
+  "iucn": "22729107",
+  "wikidata": "Q28867703",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_funerea",
+  "ebird": "https://ebird.org/species/tbsfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367681",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Thick-billed_seed_finch",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_funerea",
+   "ru": "https://ru.wikipedia.org/wiki/Sporophila_funerea"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+funerea"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Thick-billed Seed-Finch",
+  "en_aco": "Thick-billed Seed-Finch",
+  "es": "Semillero Piquigrueso",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila funerea",
+ "sci_name_aco": "Sporophila funerea",
+ "sounds": [],
+ "taxon_order": 35546.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 12.633333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thick-billed%20Seed-Finch%20Sporophila%20funerea%20-%20Flickr%20-%20gailhampshire.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20funerea%20Arrocero%20piquigrueso%20Thick-billed%20Seed-Finch%20%28female%29%20%288173114957%29.jpg"
+ ]
+}

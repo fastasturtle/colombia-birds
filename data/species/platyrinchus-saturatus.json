@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin & Godman, 1892)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cicspa1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Platyrinchus",
+ "id": "platyrinchus-saturatus",
+ "ids": {
+  "avibase": "38DF7456CA618C6B",
+  "birdbase": 17570,
+  "gbif": 5229571,
+  "inaturalist": "16245",
+  "iucn": "22699626",
+  "wikidata": "Q839939",
+  "xeno_canto": "Platyrinchus-saturatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Platyrinchus_saturatus",
+  "ebird": "https://ebird.org/species/cicspa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16245",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon-crested_spadebill",
+   "es": "https://es.wikipedia.org/wiki/Platyrinchus_saturatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Platyrinchus+saturatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon-crested Spadebill",
+  "en_aco": "Cinnamon-crested Spadebill",
+  "es": "Picoplano Cresticanela",
+  "ru": "Рыжехохлый плоскоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Platyrinchus saturatus",
+ "sci_name_aco": "Platyrinchus saturatus",
+ "sounds": [],
+ "taxon_order": 16161.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.266666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Platyrinchus%20saturatus%20Cinnamon-crested%20Spadebill.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whimbr5",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Numenius",
+ "id": "numenius-phaeopus",
+ "ids": {
+  "avibase": "082F3A63",
+  "birdbase": 6658,
+  "gbif": 2481784,
+  "inaturalist": "3901",
+  "iucn": "22693178",
+  "wikidata": "Q18858",
+  "xeno_canto": "Numenius-phaeopus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Numenius_phaeopus",
+  "ebird": "https://ebird.org/species/whimbr5",
+  "inaturalist": "https://www.inaturalist.org/taxa/3901",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Eurasian_whimbrel",
+   "es": "https://es.wikipedia.org/wiki/Numenius_phaeopus",
+   "ru": "https://ru.wikipedia.org/wiki/Средний_кроншнеп"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Numenius+phaeopus"
+ },
+ "name_ru_source": "wikidata",
+ "names": {
+  "en": "Eurasian Whimbrel",
+  "en_aco": "Whimbrel",
+  "es": "Zarapito Trinador Euroasiático",
+  "ru": "Средний кроншнеп"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Numenius phaeopus",
+ "sci_name_aco": "Numenius phaeopus",
+ "sounds": [],
+ "taxon_order": 6012.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "grassland",
+   "plantation",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 380.1666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Whimbrel%20Numenius%20phaeopus.jpg"
+ ]
+}

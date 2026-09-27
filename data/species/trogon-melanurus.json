@@ -1,0 +1,96 @@
+{
+ "authorship": "(Swainson, 1838)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blttro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-melanurus",
+ "ids": {
+  "avibase": "2CC8DFAA7CEF9FDD",
+  "birdbase": 9940,
+  "gbif": 9429836,
+  "inaturalist": "20738",
+  "iucn": "22736251",
+  "wikidata": "Q998535",
+  "xeno_canto": "Trogon-melanurus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_melanurus",
+  "ebird": "https://ebird.org/species/blttro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20738",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-tailed_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_melanurus",
+   "ru": "https://ru.wikipedia.org/wiki/Чернохвостый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+melanurus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-tailed Trogon",
+  "en_aco": "Black-tailed Trogon",
+  "es": "Trogón Colinegro Común",
+  "ru": "Чернохвостый трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon melanurus",
+ "sci_name_aco": "Trogon melanurus",
+ "sounds": [],
+ "taxon_order": 9529.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 87,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20melanurus%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20melanurus.jpg"
+ ]
+}

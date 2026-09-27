@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pelzeln, 1870)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "styfin1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sicalis",
+ "id": "sicalis-citrina",
+ "ids": {
+  "avibase": "961B34B344B27D4F",
+  "birdbase": 37445,
+  "gbif": 2491841,
+  "inaturalist": "9865",
+  "iucn": "22723306",
+  "wikidata": "Q3117590",
+  "xeno_canto": "Sicalis-citrina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sicalis_citrina",
+  "ebird": "https://ebird.org/species/styfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9865",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stripe-tailed_yellow_finch",
+   "es": "https://es.wikipedia.org/wiki/Sicalis_citrina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sicalis+citrina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stripe-tailed Yellow-Finch",
+  "en_aco": "Stripe-tailed Yellow-Finch",
+  "es": "Chirigüe Citrino",
+  "ru": "Лимонный зерноед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sicalis citrina",
+ "sci_name_aco": "Sicalis citrina",
+ "sounds": [],
+ "taxon_order": 35456.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3700,
+   "min": 400,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland"
+  ],
+  "mass_g": 11.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sicalis%20citrina%20-%20Stripe-tailed%20yellow%20finch%20%28female%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Can%C3%A1rio-rasteiro%20%28cropped%29.jpg"
+ ]
+}

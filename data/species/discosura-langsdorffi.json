@@ -1,0 +1,91 @@
+{
+ "authorship": "(Temminck, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkbtho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Discosura",
+ "id": "discosura-langsdorffi",
+ "ids": {
+  "avibase": "67671AD1C6992C79",
+  "birdbase": 2898,
+  "gbif": 2476907,
+  "inaturalist": "6399",
+  "iucn": "22687259",
+  "wikidata": "Q1273051",
+  "xeno_canto": "Discosura-langsdorffi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Discosura_langsdorffi",
+  "ebird": "https://ebird.org/species/bkbtho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6399",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-bellied_thorntail",
+   "es": "https://es.wikipedia.org/wiki/Discosura_langsdorffi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Discosura+langsdorffi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-bellied Thorntail",
+  "en_aco": "Black-bellied Thorntail",
+  "es": "Rabudito Ventrinegro",
+  "ru": "Чернобрюхая шипохвостка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Discosura langsdorffi",
+ "sci_name_aco": "Discosura langsdorffi",
+ "sounds": [],
+ "taxon_order": 4434.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Histoirenaturel04muls%200363%20%28cropped%29.jpg"
+ ]
+}

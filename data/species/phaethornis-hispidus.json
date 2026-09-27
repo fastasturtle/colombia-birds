@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-hispidus",
+ "ids": {
+  "avibase": "2FA996CEF4293018",
+  "birdbase": 2749,
+  "gbif": 2476619,
+  "inaturalist": "5620",
+  "iucn": "22686952",
+  "wikidata": "Q1263294",
+  "xeno_canto": "Phaethornis-hispidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_hispidus",
+  "ebird": "https://ebird.org/species/whbher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5620",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bearded_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_hispidus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+hispidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bearded Hermit",
+  "en_aco": "White-bearded Hermit",
+  "es": "Ermitaño Barbiblanco",
+  "ru": "Белобородый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis hispidus",
+ "sci_name_aco": "Phaethornis hispidus",
+ "sounds": [],
+ "taxon_order": 4258.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 4.975,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochi1Goul%200232.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethornis%20hispidus%20White-bearded%20Hermit%3B%20Porto%20Velho%2C%20Rond%C3%B4nia%2C%20Brazil.jpg"
+ ]
+}

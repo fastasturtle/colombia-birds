@@ -1,0 +1,92 @@
+{
+ "authorship": "(Chapman, 1926)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lewtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Stigmatura",
+ "id": "stigmatura-napensis",
+ "ids": {
+  "avibase": "7D568545CC8B0F01",
+  "birdbase": 17142,
+  "gbif": 2483249,
+  "inaturalist": "17097",
+  "iucn": "103681041",
+  "wikidata": "Q1263141",
+  "xeno_canto": "Stigmatura-napensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stigmatura_napensis",
+  "ebird": "https://ebird.org/species/lewtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17097",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_wagtail-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Stigmatura_napensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stigmatura+napensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Wagtail-Tyrant",
+  "en_aco": "Lesser Wagtail-Tyrant",
+  "es": "Rabicano Menor",
+  "ru": "Малая каландрита"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stigmatura napensis",
+ "sci_name_aco": "Stigmatura napensis",
+ "sounds": [],
+ "taxon_order": 16827.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 9.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stigmatura%20napensis%20-%20Lesser%20Wagtail-Tyrant%20%28cropped%29.jpg"
+ ]
+}

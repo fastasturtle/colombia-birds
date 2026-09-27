@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubfly2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Leptopogon",
+ "id": "leptopogon-rufipectus",
+ "ids": {
+  "avibase": "5C461582FFB31F09",
+  "birdbase": 17279,
+  "gbif": 5229514,
+  "inaturalist": "16388",
+  "iucn": "22698807",
+  "wikidata": "Q1263845",
+  "xeno_canto": "Leptopogon-rufipectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptopogon_rufipectus",
+  "ebird": "https://ebird.org/species/rubfly2",
+  "inaturalist": "https://www.inaturalist.org/taxa/16388",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-breasted_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Leptopogon_rufipectus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptopogon+rufipectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-breasted Flycatcher",
+  "en_aco": "Rufous-breasted Flycatcher",
+  "es": "Orejero Pechirrufo",
+  "ru": "Ржавогрудый ореджеро"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leptopogon rufipectus",
+ "sci_name_aco": "Leptopogon rufipectus",
+ "sounds": [],
+ "taxon_order": 16244.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 13.16,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous-breasted%20Flycatcher%20-%20Ecuador%20S4E4101%20%2816253355453%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/LeptopogonErythropsSmit.jpg"
+ ]
+}

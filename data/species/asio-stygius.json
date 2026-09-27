@@ -1,0 +1,94 @@
+{
+ "authorship": "(Wagler, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "styowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Asio",
+ "id": "asio-stygius",
+ "ids": {
+  "avibase": "C1EAF183CC749CD2",
+  "birdbase": 9450,
+  "gbif": 2497311,
+  "inaturalist": "20331",
+  "iucn": "22689504",
+  "wikidata": "Q1263556",
+  "xeno_canto": "Asio-stygius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Asio_stygius",
+  "ebird": "https://ebird.org/species/styowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20331",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stygian_owl",
+   "es": "https://es.wikipedia.org/wiki/Asio_stygius",
+   "ru": "https://ru.wikipedia.org/wiki/Центральноамериканская_ушастая_сова"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Asio+stygius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stygian Owl",
+  "en_aco": "Stygian Owl",
+  "es": "Búho Negruzco",
+  "ru": "Черноватая сова"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Asio stygius",
+ "sci_name_aco": "Asio stygius",
+ "sounds": [],
+ "taxon_order": 9269.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 547.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/20100216-mocho-diabo-hgfischer.jpg"
+ ]
+}

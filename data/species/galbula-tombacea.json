@@ -1,0 +1,93 @@
+{
+ "authorship": "(von Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-tombacea",
+ "ids": {
+  "avibase": "7E2D591FFC436065",
+  "birdbase": 10960,
+  "gbif": 5228249,
+  "inaturalist": "1478",
+  "iucn": "22682209",
+  "wikidata": "Q1274562",
+  "xeno_canto": "Galbula-tombacea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_tombacea",
+  "ebird": "https://ebird.org/species/whcjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1478",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-chinned_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_tombacea",
+   "ru": "https://ru.wikipedia.org/wiki/Белогорлая_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+tombacea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-chinned Jacamar",
+  "en_aco": "White-chinned Jacamar",
+  "es": "Jacamará Barbiblanco",
+  "ru": "Белобородая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula tombacea",
+ "sci_name_aco": "Galbula tombacea",
+ "sounds": [],
+ "taxon_order": 10509.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 22.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbula%20tombacea%20-%20White-chinned%20Jacamar%2C%20Careiro%20da%20V%C3%A1rzea%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

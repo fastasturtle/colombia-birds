@@ -1,0 +1,94 @@
+{
+ "authorship": "(Delattre, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lobher",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-longirostris",
+ "ids": {
+  "avibase": "E2EAB55EDD4F6C34",
+  "birdbase": 2772,
+  "gbif": 2476621,
+  "inaturalist": "603211",
+  "iucn": "22725723",
+  "wikidata": "Q1055821",
+  "xeno_canto": "Phaethornis-longirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_longirostris",
+  "ebird": "https://ebird.org/species/lobher",
+  "inaturalist": "https://www.inaturalist.org/taxa/603211",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-billed_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_longirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+longirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-billed Hermit",
+  "en_aco": "Long-billed Hermit",
+  "es": "Ermitaño Piquilargo",
+  "ru": "Длинноклювый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis longirostris",
+ "sci_name_aco": "Phaethornis longirostris",
+ "sounds": [],
+ "taxon_order": 4273.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "riparian",
+   "agricultural"
+  ],
+  "mass_g": 5.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Long-tailed%20Hermit%20-%20Rio%20Tigre%20-%20Costa%20Rica%20MG%208436%20%2826084791724%29.jpg"
+ ]
+}

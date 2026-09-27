@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pallas, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "litgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Hydrocoloeus",
+ "id": "hydrocoloeus-minutus",
+ "ids": {
+  "avibase": "F89FD6E3A367C008",
+  "birdbase": 7079,
+  "gbif": 6065841,
+  "inaturalist": "144512",
+  "iucn": "22694469",
+  "wikidata": "Q164467",
+  "xeno_canto": "Hydrocoloeus-minutus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hydrocoloeus_minutus",
+  "ebird": "https://ebird.org/species/litgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/144512",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Little_gull",
+   "es": "https://es.wikipedia.org/wiki/Hydrocoloeus_minutus",
+   "ru": "https://ru.wikipedia.org/wiki/Малая_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrocoloeus+minutus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Little Gull",
+  "en_aco": "Little Gull",
+  "es": "Gaviota Enana",
+  "ru": "Малая чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Hydrocoloeus minutus",
+ "sci_name_aco": "Hydrocoloeus minutus",
+ "sounds": [],
+ "taxon_order": 6447.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 114.08333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bird%20Yyterin%20lietteet%204.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hydrocoloeus%20minutus%20Russia%2042.jpg"
+ ]
+}

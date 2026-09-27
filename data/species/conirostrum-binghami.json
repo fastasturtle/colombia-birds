@@ -1,0 +1,91 @@
+{
+ "authorship": "(Chapman, 1919)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "giacon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-binghami",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37428,
+  "gbif": 9594691,
+  "inaturalist": "10518",
+  "iucn": null,
+  "wikidata": "Q1065486",
+  "xeno_canto": "Oreomanes-fraseri"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oreomanes_fraseri",
+  "ebird": "https://ebird.org/species/giacon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10518",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": "https://ru.wikipedia.org/wiki/Большая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+binghami"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Giant Conebill",
+  "en_aco": "Giant Conebill",
+  "es": "Conirrostro Gigante",
+  "ru": "Большой конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum binghami",
+ "sci_name_aco": "Conirostrum binghami",
+ "sounds": [],
+ "taxon_order": 35248.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Sugary secretions",
+  "elevation_m": {
+   "max": 4850,
+   "max_extreme": null,
+   "min": 2700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "woodland"
+  ],
+  "mass_g": 22.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Giant%20Conebill%2C%20Cajas%2C%20Ecuador%20%285771232969%29.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebmer",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Mergus",
+ "id": "mergus-serrator",
+ "ids": {
+  "avibase": "8DB64266A42FC19B",
+  "birdbase": 538,
+  "gbif": 2498375,
+  "inaturalist": "6996",
+  "iucn": "22680485",
+  "wikidata": "Q189609",
+  "xeno_canto": "Mergus-serrator"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mergus_serrator",
+  "ebird": "https://ebird.org/species/rebmer",
+  "inaturalist": "https://www.inaturalist.org/taxa/6996",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-breasted_merganser",
+   "es": "https://es.wikipedia.org/wiki/Mergus_serrator",
+   "ru": "https://ru.wikipedia.org/wiki/Средний_крохаль"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mergus+serrator"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-breasted Merganser",
+  "en_aco": "Red-breasted Merganser",
+  "es": "Serreta Mediana",
+  "ru": "Длинноносый крохаль"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Mergus serrator",
+ "sci_name_aco": "Mergus serrator",
+ "sounds": [],
+ "taxon_order": 770.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "F",
+   "max_extreme": "M",
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1058.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-breasted%20merganser%20female%20in%20CP%20%2840744%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Merganser%20%2853630992394%29.jpg"
+ ]
+}

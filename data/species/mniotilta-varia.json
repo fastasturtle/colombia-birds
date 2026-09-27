@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Mniotilta",
+ "id": "mniotilta-varia",
+ "ids": {
+  "avibase": "4D207AF69A79DDCF",
+  "birdbase": 36139,
+  "gbif": 2489613,
+  "inaturalist": "10286",
+  "iucn": "22721758",
+  "wikidata": "Q669888",
+  "xeno_canto": "Mniotilta-varia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mniotilta_varia",
+  "ebird": "https://ebird.org/species/bawwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/10286",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-white_warbler",
+   "es": "https://es.wikipedia.org/wiki/Mniotilta_varia",
+   "ru": "https://ru.wikipedia.org/wiki/Пегий_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mniotilta+varia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Warbler",
+  "en_aco": "Black-and-white Warbler",
+  "es": "Reinita Trepadora",
+  "ru": "Пищуховая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mniotilta varia",
+ "sci_name_aco": "Mniotilta varia",
+ "sounds": [],
+ "taxon_order": 33962.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 10.280000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Reed-black-white-warbler.png",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-and-white%20warbler%20in%20Prospect%20Park%20%2806193%292.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-and-white%20Warbler%202.jpg"
+ ]
+}

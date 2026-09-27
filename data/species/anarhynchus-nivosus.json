@@ -1,0 +1,96 @@
+{
+ "authorship": "(Cassin, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "snoplo5",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Anarhynchus",
+ "id": "anarhynchus-nivosus",
+ "ids": {
+  "avibase": "F012ED4BC8CD3876",
+  "birdbase": 6586,
+  "gbif": 6065879,
+  "inaturalist": "144485",
+  "iucn": "22725033",
+  "wikidata": "Q1263624",
+  "xeno_canto": "Charadrius-nivosus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Charadrius_nivosus",
+  "ebird": "https://ebird.org/species/snoplo5",
+  "inaturalist": "https://www.inaturalist.org/taxa/144485",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Snowy_plover",
+   "es": "https://es.wikipedia.org/wiki/Charadrius_nivosus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anarhynchus+nivosus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Snowy Plover",
+  "en_aco": "Snowy Plover",
+  "es": "Chorlitejo Nivoso",
+  "ru": "Бледный зуёк"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Anarhynchus nivosus",
+ "sci_name_aco": "Charadrius nivosus",
+ "sounds": [],
+ "taxon_order": 5941.0,
+ "taxonomy_note": "ACO/SACC lists this as Charadrius nivosus; eBird/Clements uses Anarhynchus nivosus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3048,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 45.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Charadrius%20nivosus%20%281%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Snowy%20Plover%2C%20Los%20Placeres%2C%20Ovalle%2C%20Chile%20%28110751445%29.jpg"
+ ]
+}

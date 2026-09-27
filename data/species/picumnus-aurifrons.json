@@ -1,0 +1,91 @@
+{
+ "authorship": "(Pelzeln, 1870)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babpic1",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-aurifrons",
+ "ids": {
+  "avibase": "5095CDB189FCD40F",
+  "birdbase": 11674,
+  "gbif": 5228784,
+  "inaturalist": "17789",
+  "iucn": "22680697",
+  "wikidata": "Q1272687",
+  "xeno_canto": "Picumnus-aurifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_aurifrons",
+  "ebird": "https://ebird.org/species/babpic1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17789",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bar-breasted_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_aurifrons",
+   "ru": "https://ru.wikipedia.org/wiki/Золотолобый_дятелок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+aurifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bar-breasted Piculet",
+  "en_aco": "Bar-breasted Piculet",
+  "es": "Carpinterito del Amazonas",
+  "ru": "Золотолобый дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus aurifrons",
+ "sci_name_aco": "Picumnus aurifrons",
+ "sounds": [],
+ "taxon_order": 11018.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 8.95,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20aurifrons%20-%20Bar-breasted%20Piculet%20%28male%29%2C%20Careiro%20da%20V%C3%A1rzea%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

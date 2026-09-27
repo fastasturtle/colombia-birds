@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "canwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Cardellina",
+ "id": "cardellina-canadensis",
+ "ids": {
+  "avibase": "F2D675AFB11EEEFF",
+  "birdbase": 36473,
+  "gbif": 6091946,
+  "inaturalist": "145275",
+  "iucn": "22721882",
+  "wikidata": "Q27076004",
+  "xeno_canto": "Cardellina-canadensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cardellina_canadensis",
+  "ebird": "https://ebird.org/species/canwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145275",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Canada_warbler",
+   "es": "https://es.wikipedia.org/wiki/Cardellina_canadensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cardellina+canadensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Canada Warbler",
+  "en_aco": "Canada Warbler",
+  "es": "Reinita Canadiense",
+  "ru": "Канадская вильсония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cardellina canadensis",
+ "sci_name_aco": "Cardellina canadensis",
+ "sounds": [],
+ "taxon_order": 34344.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3150,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 10.799999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Migrant%20Canada%20warbler%20%2837091907812%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/8G7D5475-Canada.jpg"
+ ]
+}

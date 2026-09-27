@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkwvir",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-altiloquus",
+ "ids": {
+  "avibase": "F57ECDC524C8B011",
+  "birdbase": 21477,
+  "gbif": 2487463,
+  "inaturalist": "17399",
+  "iucn": "22705254",
+  "wikidata": "Q2667746",
+  "xeno_canto": "Vireo-altiloquus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_altiloquus",
+  "ebird": "https://ebird.org/species/bkwvir",
+  "inaturalist": "https://www.inaturalist.org/taxa/17399",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-whiskered_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_altiloquus",
+   "ru": "https://ru.wikipedia.org/wiki/Черноусый_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+altiloquus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-whiskered Vireo",
+  "en_aco": "Black-whiskered Vireo",
+  "es": "Vireo Bigotudo",
+  "ru": "Черноусый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo altiloquus",
+ "sci_name_aco": "Vireo altiloquus",
+ "sounds": [],
+ "taxon_order": 19294.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 18.933333333333334,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo%20altiloquus%20Martinique.jpg"
+ ]
+}

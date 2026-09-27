@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1874)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rawspi2",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Certhiaxis",
+ "id": "certhiaxis-mustelinus",
+ "ids": {
+  "avibase": "BB585523F30F16DB",
+  "birdbase": 15523,
+  "gbif": 2486070,
+  "inaturalist": "11363",
+  "iucn": "22702479",
+  "wikidata": "Q1260090",
+  "xeno_canto": "Certhiaxis-mustelinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Certhiaxis_mustelinus",
+  "ebird": "https://ebird.org/species/rawspi2",
+  "inaturalist": "https://www.inaturalist.org/taxa/11363",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-and-white_spinetail",
+   "es": "https://es.wikipedia.org/wiki/Certhiaxis_mustelinus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Certhiaxis+mustelinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-and-white Spinetail",
+  "en_aco": "Red-and-white Spinetail",
+  "es": "Curutié Rojiblanco",
+  "ru": "Красно-белая пищуховая иглохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Certhiaxis mustelinus",
+ "sci_name_aco": "Certhiaxis mustelinus",
+ "sounds": [],
+ "taxon_order": 15563.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 150,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Certhiaxis%20mustelinus%20-%20Red-and-white%20spinetail%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin, 1897)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whmbar1",
+ "family": {
+  "code": "capito2",
+  "en": "New World Barbets",
+  "sci": "Capitonidae"
+ },
+ "genus": "Capito",
+ "id": "capito-hypoleucus",
+ "ids": {
+  "avibase": "9DA6DE60832EDC24",
+  "birdbase": 11106,
+  "gbif": 2479046,
+  "inaturalist": "116775",
+  "iucn": "22681914",
+  "wikidata": "Q1270006",
+  "xeno_canto": "Capito-hypoleucus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Capito_hypoleucus",
+  "ebird": "https://ebird.org/species/whmbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/116775",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-mantled_barbet",
+   "es": "https://es.wikipedia.org/wiki/Capito_hypoleucus",
+   "ru": "https://ru.wikipedia.org/wiki/Белоспинный_кабезон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Capito+hypoleucus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-mantled Barbet",
+  "en_aco": "White-mantled Barbet",
+  "es": "Cabezón Dorsiblanco",
+  "ru": "Белоспинная бородатка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Capito hypoleucus",
+ "sci_name_aco": "Capito hypoleucus",
+ "sounds": [],
+ "taxon_order": 10791.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 700,
+   "min_extreme": 200
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 70.94,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Capito%20hypoleucus.jpg"
+ ]
+}

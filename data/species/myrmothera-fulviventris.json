@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whlant2",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Myrmothera",
+ "id": "myrmothera-fulviventris",
+ "ids": {
+  "avibase": "601048C685EF7BCF",
+  "birdbase": 16623,
+  "gbif": 5426733,
+  "inaturalist": "116931",
+  "iucn": "22703343",
+  "wikidata": "Q630641",
+  "xeno_canto": "Hylopezus-fulviventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylopezus_fulviventris",
+  "ebird": "https://ebird.org/species/whlant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/116931",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-lored_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Myrmothera_fulviventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myrmothera+fulviventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-lored Antpitta",
+  "en_aco": "White-lored Antpitta",
+  "es": "Tororoí Ventricanela Ecuatoriano",
+  "ru": "Серошапочный торорой"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myrmothera fulviventris",
+ "sci_name_aco": "Myrmothera fulviventris",
+ "sounds": [],
+ "taxon_order": 14309.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 46.23333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmothera%20fulviventris%20fulviventris%20iNaturalist.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GrallariaFulviventrisSmit.jpg"
+ ]
+}

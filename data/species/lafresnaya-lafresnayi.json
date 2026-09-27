@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mouvel1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Lafresnaya",
+ "id": "lafresnaya-lafresnayi",
+ "ids": {
+  "avibase": "9ECA2AFB65F5AE84",
+  "birdbase": 3147,
+  "gbif": 2476238,
+  "inaturalist": "6056",
+  "iucn": "22687801",
+  "wikidata": "Q946856",
+  "xeno_canto": "Lafresnaya-lafresnayi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lafresnaya_lafresnayi",
+  "ebird": "https://ebird.org/species/mouvel1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6056",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mountain_velvetbreast",
+   "es": "https://es.wikipedia.org/wiki/Lafresnaya_lafresnayi",
+   "ru": "https://ru.wikipedia.org/wiki/Горный_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lafresnaya+lafresnayi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mountain Velvetbreast",
+  "en_aco": "Mountain Velvetbreast",
+  "es": "Colibrí Aterciopelado",
+  "ru": "Бархатная ореада"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Lafresnaya lafresnayi",
+ "sci_name_aco": "Lafresnaya lafresnayi",
+ "sounds": [],
+ "taxon_order": 4659.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3700,
+   "min": 2000,
+   "min_extreme": 1800
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.6,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20velvetbreast%20%28Lafresnaya%20lafresnayi%20longirostris%29%20female%20Caldas.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20velvetbreast%20%28Lafresnaya%20lafresnayi%20longirostris%29%20male%20Caldas.jpg"
+ ]
+}

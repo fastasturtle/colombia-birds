@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "trsowl",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Megascops",
+ "id": "megascops-choliba",
+ "ids": {
+  "avibase": "E2B40A6E68F699C4",
+  "birdbase": 9598,
+  "gbif": 2497365,
+  "inaturalist": "19788",
+  "iucn": "22688774",
+  "wikidata": "Q265026",
+  "xeno_canto": "Megascops-choliba"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Megascops_choliba",
+  "ebird": "https://ebird.org/species/trsowl",
+  "inaturalist": "https://www.inaturalist.org/taxa/19788",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tropical_screech_owl",
+   "es": "https://es.wikipedia.org/wiki/Megascops_choliba",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_совка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Megascops+choliba"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tropical Screech-Owl",
+  "en_aco": "Tropical Screech-Owl",
+  "es": "Autillo Chóliba",
+  "ru": "Южноамериканская совка"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Megascops choliba",
+ "sci_name_aco": "Megascops choliba",
+ "sounds": [],
+ "taxon_order": 8810.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 133.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Megascops%20choliba%20-Ceara%2C%20Brazil-8.jpg"
+ ]
+}

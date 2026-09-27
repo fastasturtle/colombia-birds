@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goftyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Zimmerius",
+ "id": "zimmerius-chrysops",
+ "ids": {
+  "avibase": "102A6B97881859B3",
+  "birdbase": 17172,
+  "gbif": 2483936,
+  "inaturalist": "16261",
+  "iucn": "22735791",
+  "wikidata": "Q1272563",
+  "xeno_canto": "Zimmerius-chrysops"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zimmerius_chrysops",
+  "ebird": "https://ebird.org/species/goftyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16261",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-faced_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Zimmerius_chrysops",
+   "ru": "https://ru.wikipedia.org/wiki/Zimmerius_chrysops"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+chrysops"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-faced Tyrannulet",
+  "en_aco": "Golden-faced Tyrannulet",
+  "es": "Mosquerito Caridorado",
+  "ru": "Златолицый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zimmerius chrysops",
+ "sci_name_aco": "Zimmerius chrysops",
+ "sounds": [],
+ "taxon_order": 16806.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2400,
+   "min": 500,
+   "min_extreme": "L"
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 9.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zimmerius%20chrysops%20Tiranuelo%20cejiamarillo%20Golden-faced%20Tyrannulet%20%2813020651623%29.jpg"
+ ]
+}

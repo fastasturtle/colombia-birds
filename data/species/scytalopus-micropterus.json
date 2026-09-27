@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lottap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-micropterus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16788,
+  "gbif": 2490989,
+  "inaturalist": "14770",
+  "iucn": "22733272",
+  "wikidata": "Q1270956",
+  "xeno_canto": "Scytalopus-micropterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_micropterus",
+  "ebird": "https://ebird.org/species/lottap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14770",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Long-tailed_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_micropterus",
+   "ru": "https://ru.wikipedia.org/wiki/Scytalopus_micropterus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+micropterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Long-tailed Tapaculo",
+  "en_aco": "Long-tailed Tapaculo",
+  "es": "Churrín Colilargo",
+  "ru": "Длиннохвостый тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus micropterus",
+ "sci_name_aco": "Scytalopus micropterus",
+ "sounds": [],
+ "taxon_order": 14428.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 1250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 29.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Long-tailed%20Tapaculo%20-%20Ecuador%20S4E4271%20%2816831736745%29.jpg"
+ ]
+}

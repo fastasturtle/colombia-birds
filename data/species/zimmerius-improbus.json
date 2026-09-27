@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paltyr4",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Zimmerius",
+ "id": "zimmerius-improbus",
+ "ids": {
+  "avibase": "5173665645F076B9",
+  "birdbase": 17156,
+  "gbif": 2483949,
+  "inaturalist": "115266",
+  "iucn": "104008963",
+  "wikidata": "Q5419999",
+  "xeno_canto": "Zimmerius-improbus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zimmerius_improbus",
+  "ebird": "https://ebird.org/species/paltyr4",
+  "inaturalist": "https://www.inaturalist.org/taxa/115266",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spectacled_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Zimmerius_improbus",
+   "ru": "https://ru.wikipedia.org/wiki/Zimmerius_improbus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+improbus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spectacled Tyrannulet",
+  "en_aco": "Spectacled Tyrannulet",
+  "es": "Mosquerito Serrano",
+  "ru": "Невзрачный москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zimmerius improbus",
+ "sci_name_aco": "Zimmerius improbus",
+ "sounds": [],
+ "taxon_order": 16803.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 3000,
+   "min": 1500,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 10.633333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zimmerius%20improbus%20%2815014408014%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zimmerius%20improbus%20improbus%20Smit.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "redkno",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-canutus",
+ "ids": {
+  "avibase": "B5CE8FAD18923A94",
+  "birdbase": 6800,
+  "gbif": 2481765,
+  "inaturalist": "3845",
+  "iucn": "22693363",
+  "wikidata": "Q27124",
+  "xeno_canto": "Calidris-canutus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_canutus",
+  "ebird": "https://ebird.org/species/redkno",
+  "inaturalist": "https://www.inaturalist.org/taxa/3845",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red_knot",
+   "es": "https://es.wikipedia.org/wiki/Calidris_canutus",
+   "ru": "https://ru.wikipedia.org/wiki/Исландский_песочник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+canutus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red Knot",
+  "en_aco": "Red Knot",
+  "es": "Correlimos Gordo",
+  "ru": "Исландский песочник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris canutus",
+ "sci_name_aco": "Calidris canutus",
+ "sounds": [],
+ "taxon_order": 6166.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 187,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Knot%201%20-%20Boat%20Harbour.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calidris%20canutus%20no.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calidris%20canutus%20%28summer%29.jpg"
+ ]
+}

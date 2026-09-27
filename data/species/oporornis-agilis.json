@@ -1,0 +1,95 @@
+{
+ "authorship": "(A. Wilson, 1812)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "conwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Oporornis",
+ "id": "oporornis-agilis",
+ "ids": {
+  "avibase": "0B23929DF27B0963",
+  "birdbase": 36163,
+  "gbif": 2489611,
+  "inaturalist": "10431",
+  "iucn": "22721818",
+  "wikidata": "Q760374",
+  "xeno_canto": "Oporornis-agilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oporornis_agilis",
+  "ebird": "https://ebird.org/species/conwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/10431",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Connecticut_warbler",
+   "es": "https://es.wikipedia.org/wiki/Oporornis_agilis",
+   "ru": "https://ru.wikipedia.org/wiki/Очковый_масковый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Oporornis+agilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Connecticut Warbler",
+  "en_aco": "Connecticut Warbler",
+  "es": "Reinita de Connecticut",
+  "ru": "Очковая хвойница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Oporornis agilis",
+ "sci_name_aco": "Oporornis agilis",
+ "sounds": [],
+ "taxon_order": 33991.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 4200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "wetland"
+  ],
+  "mass_g": 13.783333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oporornis%20agilis%20Youghiogheny%20River%20MD.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/813%20-%20Connecticut%20Warbler%20%286-6-2018%29%20south%20county%20line%20road%2C%20Bayfield%20County%2C%20WI%20-04%20%2841937384324%29.jpg"
+ ]
+}

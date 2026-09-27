@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cabanis, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blaman1",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Xenopipo",
+ "id": "xenopipo-atronitens",
+ "ids": {
+  "avibase": "DB094E7D49E23925",
+  "birdbase": 18372,
+  "gbif": 2487700,
+  "inaturalist": "14224",
+  "iucn": "22701125",
+  "wikidata": "Q839917",
+  "xeno_canto": "Xenopipo-atronitens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenopipo_atronitens",
+  "ebird": "https://ebird.org/species/blaman1",
+  "inaturalist": "https://www.inaturalist.org/taxa/14224",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_manakin",
+   "es": "https://es.wikipedia.org/wiki/Xenopipo_atronitens",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_манакин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xenopipo+atronitens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Manakin",
+  "en_aco": "Black Manakin",
+  "es": "Saltarín Negro",
+  "ru": "Чёрный манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xenopipo atronitens",
+ "sci_name_aco": "Xenopipo atronitens",
+ "sounds": [],
+ "taxon_order": 15726.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 700,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 15.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenopipo%20atronitens%20Black%20Manakin%20%28female%29%3B%20Canutama%2C%20Amazonas%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenopipo%20atronitens%20Black%20Manakin%20%28male%29%3B%20Machadinho%20d%27Oeste%2C%20Rond%C3%B4nia%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": true,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "introduced"
+  ],
+  "status_raw": "Exótica establecida",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rocpig",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columba",
+ "id": "columba-livia",
+ "ids": {
+  "avibase": "BBA263C235B15B88",
+  "birdbase": 4421,
+  "gbif": 2495414,
+  "inaturalist": "3017",
+  "iucn": "22690066",
+  "wikidata": "Q42326",
+  "xeno_canto": "Columba-livia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columba_livia",
+  "ebird": "https://ebird.org/species/rocpig",
+  "inaturalist": "https://www.inaturalist.org/taxa/3017",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rock_dove",
+   "es": "https://es.wikipedia.org/wiki/Columba_livia",
+   "ru": "https://ru.wikipedia.org/wiki/Сизый_голубь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columba+livia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rock Pigeon",
+  "en_aco": "Rock Pigeon",
+  "es": "Paloma Bravía",
+  "ru": "Сизый голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columba livia",
+ "sci_name_aco": "Columba livia",
+ "sounds": [],
+ "taxon_order": 1853.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 4500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 349.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Rocky",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20%28Rock%20Dove%2C%20wild%29%2C%20Duncansby%20Head%2C%20Caithness%2C%20Scotland%201.jpg"
+ ]
+}

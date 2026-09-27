@@ -1,0 +1,91 @@
+{
+ "authorship": "(Gould, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "litwoo5",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chaetocercus",
+ "id": "chaetocercus-bombus",
+ "ids": {
+  "avibase": "E15587CBB535F219",
+  "birdbase": 3285,
+  "gbif": 5228583,
+  "inaturalist": "6186",
+  "iucn": "22688257",
+  "wikidata": "Q1263774",
+  "xeno_canto": "Chaetocercus-bombus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetocercus_bombus",
+  "ebird": "https://ebird.org/species/litwoo5",
+  "inaturalist": "https://www.inaturalist.org/taxa/6186",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Little_woodstar",
+   "es": "https://es.wikipedia.org/wiki/Chaetocercus_bombus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetocercus+bombus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Little Woodstar",
+  "en_aco": "Little Woodstar",
+  "es": "Colibrí Abejorro",
+  "ru": "Шмелевидный эльф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetocercus bombus",
+ "sci_name_aco": "Chaetocercus bombus",
+ "sounds": [],
+ "taxon_order": 4783.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochiSupplementGoul%200166.jpg"
+ ]
+}

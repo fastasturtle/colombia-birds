@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cedwax",
+ "family": {
+  "code": "bombyc1",
+  "en": "Waxwings",
+  "sci": "Bombycillidae"
+ },
+ "genus": "Bombycilla",
+ "id": "bombycilla-cedrorum",
+ "ids": {
+  "avibase": "9437D635FF4E2607",
+  "birdbase": 23506,
+  "gbif": 2484609,
+  "inaturalist": "7428",
+  "iucn": "22708153",
+  "wikidata": "Q184314",
+  "xeno_canto": "Bombycilla-cedrorum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bombycilla_cedrorum",
+  "ebird": "https://ebird.org/species/cedwax",
+  "inaturalist": "https://www.inaturalist.org/taxa/7428",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cedar_waxwing",
+   "es": "https://es.wikipedia.org/wiki/Bombycilla_cedrorum",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_свиристель"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bombycilla+cedrorum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cedar Waxwing",
+  "en_aco": "Cedar Waxwing",
+  "es": "Ampelis Americano",
+  "ru": "Кедровый свиристель"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Bombycilla cedrorum",
+ "sci_name_aco": "Bombycilla cedrorum",
+ "sounds": [],
+ "taxon_order": 29888.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 33.025,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cedar%20Waxwing%20August%2014%202012%20Newfoundland%20PA.jpg"
+ ]
+}

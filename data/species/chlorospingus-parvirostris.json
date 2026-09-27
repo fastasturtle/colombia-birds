@@ -1,0 +1,93 @@
+{
+ "authorship": "(Chapman, 1901)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shbbut1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Chlorospingus",
+ "id": "chlorospingus-parvirostris",
+ "ids": {
+  "avibase": "E5DB38E43C5A385A",
+  "birdbase": 35066,
+  "gbif": 2488746,
+  "inaturalist": "10214",
+  "iucn": "22722187",
+  "wikidata": "Q1587407",
+  "xeno_canto": "Chlorospingus-parvirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorospingus_parvirostris",
+  "ebird": "https://ebird.org/species/shbbut1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10214",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-whiskered_chlorospingus",
+   "es": "https://es.wikipedia.org/wiki/Chlorospingus_parvirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Короткоклювая_кустарниковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorospingus+parvirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-billed Chlorospingus",
+  "en_aco": "Short-billed Chlorospingus",
+  "es": "Clorospingo Bigotudo",
+  "ru": "Короткоклювый дромник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorospingus parvirostris",
+ "sci_name_aco": "Chlorospingus parvirostris",
+ "sounds": [],
+ "taxon_order": 32852.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2750,
+   "max_extreme": null,
+   "min": 1100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 23,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-whiskeredBush-Tanager.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scbhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaeochroa",
+ "id": "phaeochroa-cuvierii",
+ "ids": {
+  "avibase": "058A126EBC4E91E3",
+  "birdbase": 3512,
+  "gbif": 2476178,
+  "inaturalist": "73194",
+  "iucn": null,
+  "wikidata": "Q387934",
+  "xeno_canto": "Phaeochroa-cuvierii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaeochroa_cuvierii",
+  "ebird": "https://ebird.org/species/scbhum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73194",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaly-breasted_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Phaeochroa_cuvierii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaeochroa+cuvierii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaly-breasted Hummingbird",
+  "en_aco": "Scaly-breasted Hummingbird",
+  "es": "Colibrí de Cuvier",
+  "ru": "Чешуйчатогрудый саблекрыл"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaeochroa cuvierii",
+ "sci_name_aco": "Phaeochroa cuvierii",
+ "sounds": [],
+ "taxon_order": 5020.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 8.959999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scaly-breasted%20Hummingbird%20-%20Sarapiqui%20-%20Costa%20Rica%20S4E0291%20%2826084747394%29.jpg"
+ ]
+}

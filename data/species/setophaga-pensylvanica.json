@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chswar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-pensylvanica",
+ "ids": {
+  "avibase": "7AB1229BD3F33F46",
+  "birdbase": 36293,
+  "gbif": 6092942,
+  "inaturalist": "145239",
+  "iucn": "22721664",
+  "wikidata": "Q27075922",
+  "xeno_canto": "Setophaga-pensylvanica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_pensylvanica",
+  "ebird": "https://ebird.org/species/chswar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145239",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-sided_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_pensylvanica",
+   "ru": "https://ru.wikipedia.org/wiki/Желтошапочный_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+pensylvanica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-sided Warbler",
+  "en_aco": "Chestnut-sided Warbler",
+  "es": "Reinita de Pensilvania",
+  "ru": "Рыжебокая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga pensylvanica",
+ "sci_name_aco": "Setophaga pensylvanica",
+ "sounds": [],
+ "taxon_order": 34133.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1300,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 9.916666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-sided%20warbler%20in%20Central%20Park%20%2891518%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-sided%20Warbler%20%28male%29%20Sabine%20Woods%20TX%202018-04-28%2007-15-04%20%2841479720584%29.jpg"
+ ]
+}

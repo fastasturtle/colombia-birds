@@ -1,0 +1,94 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rucnun1",
+ "family": {
+  "code": "buccon2",
+  "en": "Puffbirds",
+  "sci": "Bucconidae"
+ },
+ "genus": "Nonnula",
+ "id": "nonnula-ruficapilla",
+ "ids": {
+  "avibase": "C6EC8B370C42F930",
+  "birdbase": 11072,
+  "gbif": 2475130,
+  "inaturalist": "1564",
+  "iucn": "22682315",
+  "wikidata": "Q1260029",
+  "xeno_canto": "Nonnula-ruficapilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nonnula_ruficapilla",
+  "ebird": "https://ebird.org/species/rucnun1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1564",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-capped_nunlet",
+   "es": "https://es.wikipedia.org/wiki/Nonnula_ruficapilla",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nonnula+ruficapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-capped Nunlet",
+  "en_aco": "Rufous-capped Nunlet",
+  "es": "Monjilla Coronada",
+  "ru": "Красношапочная ленивка"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Nonnula ruficapilla",
+ "sci_name_aco": "Nonnula ruficapilla",
+ "sounds": [],
+ "taxon_order": 10449.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1650,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 18,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nonnula%20ruficapilla%20112030246.jpg"
+ ]
+}

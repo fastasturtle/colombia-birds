@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "camwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-tigrina",
+ "ids": {
+  "avibase": "DB20CB6B0A720B90",
+  "birdbase": 36225,
+  "gbif": 6093357,
+  "inaturalist": "145231",
+  "iucn": "22721670",
+  "wikidata": "Q27075908",
+  "xeno_canto": "Setophaga-tigrina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_tigrina",
+  "ebird": "https://ebird.org/species/camwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145231",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cape_May_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_tigrina",
+   "ru": "https://ru.wikipedia.org/wiki/Тигровый_лесной_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+tigrina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cape May Warbler",
+  "en_aco": "Cape May Warbler",
+  "es": "Reinita Atigrada",
+  "ru": "Тигровая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga tigrina",
+ "sci_name_aco": "Setophaga tigrina",
+ "sounds": [],
+ "taxon_order": 34060.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 10.325,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cape%20May%20Warbler%20RWD3.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroica%20tigrina%20FWS.jpg"
+ ]
+}

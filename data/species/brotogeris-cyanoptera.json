@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cowpar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Brotogeris",
+ "id": "brotogeris-cyanoptera",
+ "ids": {
+  "avibase": "14FCAD62B3A68AF6",
+  "birdbase": 13193,
+  "gbif": 2479576,
+  "inaturalist": "19212",
+  "iucn": "22685983",
+  "wikidata": "Q657630",
+  "xeno_canto": "Brotogeris-cyanoptera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Brotogeris_cyanoptera",
+  "ebird": "https://ebird.org/species/cowpar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19212",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cobalt-winged_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Brotogeris_cyanoptera",
+   "ru": "https://ru.wikipedia.org/wiki/Синекрылый_тонкоклювый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Brotogeris+cyanoptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cobalt-winged Parakeet",
+  "en_aco": "Cobalt-winged Parakeet",
+  "es": "Catita Aliazul",
+  "ru": "Синекрылая катита"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Brotogeris cyanoptera",
+ "sci_name_aco": "Brotogeris cyanoptera",
+ "sounds": [],
+ "taxon_order": 12839.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1350,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 63.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cobalt-winged%20Parakeets%20%28Brotogeris%20cyanoptera%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(A.M. Cuervo, P.G. W. Salaman, T.M. Donegan & J.M. Ochoa, 2001)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chcpih1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Lipaugus",
+ "id": "lipaugus-weberi",
+ "ids": {
+  "avibase": "5309608BF3E11C82",
+  "birdbase": 18301,
+  "gbif": 2486504,
+  "inaturalist": "8751",
+  "iucn": "22729457",
+  "wikidata": "Q1317030",
+  "xeno_canto": "Lipaugus-weberi"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lipaugus_weberi",
+  "ebird": "https://ebird.org/species/chcpih1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8751",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-capped_piha",
+   "es": "https://es.wikipedia.org/wiki/Lipaugus_weberi",
+   "ru": "https://ru.wikipedia.org/wiki/Lipaugus_weberi"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lipaugus+weberi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-capped Piha",
+  "en_aco": "Chestnut-capped Piha",
+  "es": "Guardabosques Antioqueño",
+  "ru": "Рыжешапочная пиха"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Lipaugus weberi",
+ "sci_name_aco": "Lipaugus weberi",
+ "sounds": [],
+ "taxon_order": 15937.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1925,
+   "max_extreme": null,
+   "min": 1400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 72.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lipaugus%20weberi%20237331331%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lipaugus%20weberi%20%28Chestnut-capped%20Piha%29%20-%20Arriero%20Antioque%C3%B1o%20%286929394022%29.jpg"
+ ]
+}

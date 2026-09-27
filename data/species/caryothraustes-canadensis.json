@@ -1,0 +1,91 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yeggro1",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Caryothraustes",
+ "id": "caryothraustes-canadensis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36675,
+  "gbif": 2490354,
+  "inaturalist": "10492",
+  "iucn": "22723831",
+  "wikidata": "Q2226642",
+  "xeno_canto": "Caryothraustes-canadensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Caryothraustes_canadensis",
+  "ebird": "https://ebird.org/species/yeggro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10492",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-green_grosbeak",
+   "es": "https://es.wikipedia.org/wiki/Caryothraustes_canadensis",
+   "ru": "https://ru.wikipedia.org/wiki/Желтобрюхий_толстоклювый_кардинал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Caryothraustes+canadensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-green Grosbeak",
+  "en_aco": "Yellow-green Grosbeak",
+  "es": "Picogrueso Verdiamarillo",
+  "ru": "Жёлто-зеленый толстонос"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Caryothraustes canadensis",
+ "sci_name_aco": "Caryothraustes canadensis",
+ "sounds": [],
+ "taxon_order": 34508.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 33.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Caryothraustes%20canadensis%20-%20Yellow-green%20Grosbeak%3B%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

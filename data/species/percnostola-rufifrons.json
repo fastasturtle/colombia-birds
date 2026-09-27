@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blhant3",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Percnostola",
+ "id": "percnostola-rufifrons",
+ "ids": {
+  "avibase": "E9FBE71FD1E9E90D",
+  "birdbase": 16411,
+  "gbif": 2490116,
+  "inaturalist": "15930",
+  "iucn": "22701752",
+  "wikidata": "Q1263668",
+  "xeno_canto": "Percnostola-rufifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Percnostola_rufifrons",
+  "ebird": "https://ebird.org/species/blhant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/15930",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-headed_antbird",
+   "es": "https://es.wikipedia.org/wiki/Percnostola_rufifrons",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Percnostola+rufifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-headed Antbird",
+  "en_aco": "Black-headed Antbird",
+  "es": "Hormiguero Cabecinegro",
+  "ru": "Рыжелобая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Percnostola rufifrons",
+ "sci_name_aco": "Percnostola rufifrons",
+ "sounds": [],
+ "taxon_order": 13990.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 550,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 27.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Percnostola%20rufifrons%20subcristata%20Black-headed%20Antbird%20%28female%29%3B%20Cant%C3%A1%2C%20Roraima%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Percnostola%20rufifrons%20Black-headed%20Antbird%20%28male%29%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

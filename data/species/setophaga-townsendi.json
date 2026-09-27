@@ -1,0 +1,92 @@
+{
+ "authorship": "(J.K. Townsend, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "towwar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Setophaga",
+ "id": "setophaga-townsendi",
+ "ids": {
+  "avibase": "F6C6C3F7E27ED557",
+  "birdbase": 36342,
+  "gbif": 6092651,
+  "inaturalist": "145255",
+  "iucn": "22721683",
+  "wikidata": "Q512543",
+  "xeno_canto": "Setophaga-townsendi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_townsendi",
+  "ebird": "https://ebird.org/species/towwar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145255",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Townsend's_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_townsendi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+townsendi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Townsend's Warbler",
+  "en_aco": "Townsend's Warbler",
+  "es": "Reinita de Townsend",
+  "ru": "Желтобровая древесница"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Setophaga townsendi",
+ "sci_name_aco": "Setophaga townsendi",
+ "sounds": [],
+ "taxon_order": 34206.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 8.925,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dendroica%20townsendi%20284.jpg"
+ ]
+}

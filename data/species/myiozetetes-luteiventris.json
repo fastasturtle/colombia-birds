@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ducfly2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiozetetes",
+ "id": "myiozetetes-luteiventris",
+ "ids": {
+  "avibase": "D486B51A4A11B3D7",
+  "birdbase": 17995,
+  "gbif": 2482926,
+  "inaturalist": "16830",
+  "iucn": "22700593",
+  "wikidata": "Q1264762",
+  "xeno_canto": "Myiozetetes-luteiventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiozetetes_luteiventris",
+  "ebird": "https://ebird.org/species/ducfly2",
+  "inaturalist": "https://www.inaturalist.org/taxa/16830",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky-chested_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiozetetes_luteiventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiozetetes+luteiventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky-chested Flycatcher",
+  "en_aco": "Dusky-chested Flycatcher",
+  "es": "Bienteveo Pechioscuro",
+  "ru": "Темногрудый бентеви"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiozetetes luteiventris",
+ "sci_name_aco": "Myiozetetes luteiventris",
+ "sounds": [],
+ "taxon_order": 17407.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 19.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiozetetes%20luteiventris%20-%20Dusky-chested%20Flycatcher%3B%20Carajas%20National%20Forest%2C%20Par%C3%A1%2C%20Brazil.jpg"
+ ]
+}

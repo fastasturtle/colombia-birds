@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goreup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Chlorophonia",
+ "id": "chlorophonia-cyanocephala",
+ "ids": {
+  "avibase": null,
+  "birdbase": 34795,
+  "gbif": 11296330,
+  "inaturalist": "9309",
+  "iucn": "22722741",
+  "wikidata": "Q1302676",
+  "xeno_canto": "Euphonia-cyanocephala"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_cyanocephala",
+  "ebird": "https://ebird.org/species/goreup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9309",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-rumped_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_cyanocephala",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorophonia+cyanocephala"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-rumped Euphonia",
+  "en_aco": "Golden-rumped Euphonia",
+  "es": "Eufonia Culidorada",
+  "ru": "Синеголовая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorophonia cyanocephala",
+ "sci_name_aco": "Chlorophonia cyanocephala",
+ "sounds": [],
+ "taxon_order": 31984.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3250,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-rumped%20Euphonia%20%282%29.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sactan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-xanthocephala",
+ "ids": {
+  "avibase": "4929583B7F2C6A79",
+  "birdbase": 37913,
+  "gbif": 2488242,
+  "inaturalist": "9554",
+  "iucn": "22722854",
+  "wikidata": "Q645658",
+  "xeno_canto": "Tangara-xanthocephala"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_xanthocephala",
+  "ebird": "https://ebird.org/species/sactan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9554",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Saffron-crowned_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_xanthocephala",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+xanthocephala"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Saffron-crowned Tanager",
+  "en_aco": "Saffron-crowned Tanager",
+  "es": "Tangara Coronigualda",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara xanthocephala",
+ "sci_name_aco": "Tangara xanthocephala",
+ "sounds": [],
+ "taxon_order": 35102.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": 3150,
+   "min": 1000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 17.866666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Saffron-crowned%20Tanager%20%28Tangara%20xanthocephala%29%20%28cropped%29.jpg"
+ ]
+}

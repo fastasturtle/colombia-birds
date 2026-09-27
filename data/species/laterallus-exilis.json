@@ -1,0 +1,94 @@
+{
+ "authorship": "(Temminck, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbcra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Laterallus",
+ "id": "laterallus-exilis",
+ "ids": {
+  "avibase": "8ABC8268F1439C0B",
+  "birdbase": 6015,
+  "gbif": 2474589,
+  "inaturalist": "322",
+  "iucn": "22692349",
+  "wikidata": "Q535625",
+  "xeno_canto": "Laterallus-exilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laterallus_exilis",
+  "ebird": "https://ebird.org/species/grbcra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/322",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-breasted_crake",
+   "es": "https://es.wikipedia.org/wiki/Laterallus_exilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Laterallus+exilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-breasted Crake",
+  "en_aco": "Gray-breasted Crake",
+  "es": "Polluela Pechigrís",
+  "ru": "Серогрудый коростелёк"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Laterallus exilis",
+ "sci_name_aco": "Laterallus exilis",
+ "sounds": [],
+ "taxon_order": 5649.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 33.875,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laterallus%20exilis%20-%20Grey-breasted%20Crake%3B%20Arari%2C%20Maranh%C3%A3o%2C%20Brazil.jpg"
+ ]
+}

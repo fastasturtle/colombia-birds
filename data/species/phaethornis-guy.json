@@ -1,0 +1,92 @@
+{
+ "authorship": "(R. Lesson, 1833)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-guy",
+ "ids": {
+  "avibase": "5C47DAE84A06C3A6",
+  "birdbase": 2753,
+  "gbif": 2476607,
+  "inaturalist": "5628",
+  "iucn": "22686934",
+  "wikidata": "Q1076873",
+  "xeno_canto": "Phaethornis-guy"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_guy",
+  "ebird": "https://ebird.org/species/greher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5628",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_guy",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+guy"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Hermit",
+  "en_aco": "Green Hermit",
+  "es": "Ermitaño Verde",
+  "ru": "Зелёный колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis guy",
+ "sci_name_aco": "Phaethornis guy",
+ "sounds": [],
+ "taxon_order": 4260.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.416666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20hermit%20cocora%20cloud%20forest%203.27.24%20DSC%202173-topaz-denoiseraw-sharpen.jpg"
+ ]
+}

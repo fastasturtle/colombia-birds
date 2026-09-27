@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blkter",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Chlidonias",
+ "id": "chlidonias-niger",
+ "ids": {
+  "avibase": "115AF02DD58018FB",
+  "birdbase": 7014,
+  "gbif": 2481119,
+  "inaturalist": "4512",
+  "iucn": "22694787",
+  "wikidata": "Q27215",
+  "xeno_canto": "Chlidonias-niger"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlidonias_niger",
+  "ebird": "https://ebird.org/species/blkter",
+  "inaturalist": "https://www.inaturalist.org/taxa/4512",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_tern",
+   "es": "https://es.wikipedia.org/wiki/Chlidonias_niger",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрная_болотная_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlidonias+niger"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Tern",
+  "en_aco": "Black Tern",
+  "es": "Fumarel Común",
+  "ru": "Чёрная крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Chlidonias niger",
+ "sci_name_aco": "Chlidonias niger",
+ "sounds": [],
+ "taxon_order": 6725.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1540,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 73.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlidonias%20niger.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/%C4%8Cor%C3%ADk%20%C4%8Dierny%20%28Chlidonias%20niger%29%20a%20%284644831482%29.jpg"
+ ]
+}

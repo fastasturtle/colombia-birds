@@ -1,0 +1,94 @@
+{
+ "authorship": "(Du Bus de Gisignies, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gohtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Stilpnia",
+ "id": "stilpnia-larvata",
+ "ids": {
+  "avibase": "C8C30E94FC10BE6B",
+  "birdbase": 37845,
+  "gbif": 10955666,
+  "inaturalist": "9566",
+  "iucn": "22722918",
+  "wikidata": "Q2406809",
+  "xeno_canto": "Tangara-larvata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_larvata",
+  "ebird": "https://ebird.org/species/gohtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9566",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-hooded_tanager",
+   "es": "https://es.wikipedia.org/wiki/Stilpnia_larvata",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурномасковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+larvata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-hooded Tanager",
+  "en_aco": "Golden-hooded Tanager",
+  "es": "Tangara Cabecidorada",
+  "ru": "Золотистоголовая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Stilpnia larvata",
+ "sci_name_aco": "Stilpnia larvata",
+ "sounds": [],
+ "taxon_order": 35022.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 19.22,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden-hooded%20Tanager%20%2815824065884%29.jpg"
+ ]
+}

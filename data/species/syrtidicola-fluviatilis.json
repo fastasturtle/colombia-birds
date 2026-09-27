@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ligtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Syrtidicola",
+ "id": "syrtidicola-fluviatilis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 17781,
+  "gbif": 11351659,
+  "inaturalist": "1289531",
+  "iucn": "22700137",
+  "wikidata": "Q117255697",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/ligtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1289531",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Syrtidicola+fluviatilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Little Ground-Tyrant",
+  "en_aco": "Little Ground-Tyrant",
+  "es": "Dormilona Enana",
+  "ru": "Малая дормилона"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Syrtidicola fluviatilis",
+ "sci_name_aco": "Syrtidicola fluviatilis",
+ "sounds": [],
+ "taxon_order": 17081.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 3800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "grassland",
+   "rivers_lakes"
+  ],
+  "mass_g": 14.200000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/LittleGround-Tyrant.jpg"
+ ]
+}

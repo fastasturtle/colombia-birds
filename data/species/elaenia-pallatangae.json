@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sieela3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-pallatangae",
+ "ids": {
+  "avibase": "A443B64D21B5D7F6",
+  "birdbase": 16982,
+  "gbif": 9514023,
+  "inaturalist": "16695",
+  "iucn": "103681315",
+  "wikidata": "Q1265713",
+  "xeno_canto": "Elaenia-pallatangae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_pallatangae",
+  "ebird": "https://ebird.org/species/sieela3",
+  "inaturalist": "https://www.inaturalist.org/taxa/16695",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sierran_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_pallatangae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+pallatangae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sierran Elaenia",
+  "en_aco": "Sierran Elaenia",
+  "es": "Fiofío de Pallatanga",
+  "ru": "Андская эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia pallatangae",
+ "sci_name_aco": "Elaenia pallatangae",
+ "sounds": [],
+ "taxon_order": 16721.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3650,
+   "min": 1500,
+   "min_extreme": 1000
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 16.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sierran%20Elaenia%20-%20South%20Ecuador.jpg"
+ ]
+}

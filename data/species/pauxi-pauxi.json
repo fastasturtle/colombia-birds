@@ -1,0 +1,92 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "helcur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Pauxi",
+ "id": "pauxi-pauxi",
+ "ids": {
+  "avibase": "04689F34F3AAACCC",
+  "birdbase": 743,
+  "gbif": 2482271,
+  "inaturalist": "2094",
+  "iucn": "22678497",
+  "wikidata": "Q767354",
+  "xeno_canto": "Pauxi-pauxi"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pauxi_pauxi",
+  "ebird": "https://ebird.org/species/helcur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2094",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Helmeted_curassow",
+   "es": "https://es.wikipedia.org/wiki/Pauxi_pauxi",
+   "ru": "https://ru.wikipedia.org/wiki/Шлемоносный_кракс"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pauxi+pauxi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Helmeted Curassow",
+  "en_aco": "Helmeted Curassow",
+  "es": "Paují de Yelmo",
+  "ru": "Шлемоносный гокко"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Pauxi pauxi",
+ "sci_name_aco": "Pauxi pauxi",
+ "sounds": [],
+ "taxon_order": 920.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 2200,
+   "min": 1000,
+   "min_extreme": 350
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3150,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Stavenn%20Pauxi%20pauxi%2000.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/NorthernHelmetedCurassow02.jpg"
+ ]
+}

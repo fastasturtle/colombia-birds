@@ -1,0 +1,91 @@
+{
+ "authorship": "(Robbins & Stiles, 1999)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "clopyo1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Glaucidium",
+ "id": "glaucidium-nubicola",
+ "ids": {
+  "avibase": "F00FC380AFF91FF9",
+  "birdbase": 9222,
+  "gbif": 5232136,
+  "inaturalist": "19808",
+  "iucn": "22724604",
+  "wikidata": "Q1267289",
+  "xeno_canto": "Glaucidium-nubicola"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Glaucidium_nubicola",
+  "ebird": "https://ebird.org/species/clopyo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19808",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cloud-forest_pygmy_owl",
+   "es": "https://es.wikipedia.org/wiki/Glaucidium_nubicola",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucidium+nubicola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cloud-forest Pygmy-Owl",
+  "en_aco": "Cloud-forest Pygmy-Owl",
+  "es": "Mochuelo Ecuatoriano",
+  "ru": "Горный сычик"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Glaucidium nubicola",
+ "sci_name_aco": "Glaucidium nubicola",
+ "sounds": [],
+ "taxon_order": 9021.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2400,
+   "min": 1400,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 77.39999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2728%20Cloud-forest%20Pygmy-Owl%202%20%282076601412%29.jpg"
+ ]
+}

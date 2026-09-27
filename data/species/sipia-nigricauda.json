@@ -1,0 +1,92 @@
+{
+ "authorship": "(Cassin, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "esmant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Sipia",
+ "id": "sipia-nigricauda",
+ "ids": {
+  "avibase": "48C31429E592C61D",
+  "birdbase": 16354,
+  "gbif": 5788647,
+  "inaturalist": "554087",
+  "iucn": "22701813",
+  "wikidata": "Q28864038",
+  "xeno_canto": "Sipia-nigricauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/esmant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/554087",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Esmeraldas_antbird",
+   "es": "https://es.wikipedia.org/wiki/Sipia_nigricauda",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sipia+nigricauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Esmeraldas Antbird",
+  "en_aco": "Esmeraldas Antbird",
+  "es": "Hormiguero de Esmeraldas",
+  "ru": "Аспидная муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sipia nigricauda",
+ "sci_name_aco": "Sipia nigricauda",
+ "sounds": [],
+ "taxon_order": 14031.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1500,
+   "min": 500,
+   "min_extreme": 150
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 23,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myrmeciza%20nigricauda%20%28male%29%20-NW%20Ecuador-4.jpg"
+ ]
+}

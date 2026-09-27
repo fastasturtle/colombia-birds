@@ -1,0 +1,92 @@
+{
+ "authorship": "(Temminck, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "strxen1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Xenops",
+ "id": "xenops-rutilans",
+ "ids": {
+  "avibase": null,
+  "birdbase": 14918,
+  "gbif": 5230207,
+  "inaturalist": "11426",
+  "iucn": null,
+  "wikidata": "Q1272035",
+  "xeno_canto": "Xenops-rutilans"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenops_rutilans",
+  "ebird": "https://ebird.org/species/strxen1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11426",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Streaked_xenops",
+   "es": "https://es.wikipedia.org/wiki/Xenops_rutilans",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжий_ксенопс"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+rutilans"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Streaked Xenops",
+  "en_aco": "Streaked Xenops",
+  "es": "Picolezna Rojizo",
+  "ru": "Рыжеватый долотоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xenops rutilans",
+ "sci_name_aco": "Xenops rutilans",
+ "sounds": [],
+ "taxon_order": 14986.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2450,
+   "max_extreme": 2800,
+   "min": 540,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenops%20rutilans%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

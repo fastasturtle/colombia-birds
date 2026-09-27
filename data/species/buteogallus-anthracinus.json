@@ -1,0 +1,93 @@
+{
+ "authorship": "(Deppe, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "comblh1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteogallus",
+ "id": "buteogallus-anthracinus",
+ "ids": {
+  "avibase": "97FDBB06AE09EA7F",
+  "birdbase": 8711,
+  "gbif": 2480651,
+  "inaturalist": "5233",
+  "iucn": "22735514",
+  "wikidata": "Q1267120",
+  "xeno_canto": "Buteogallus-anthracinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteogallus_anthracinus",
+  "ebird": "https://ebird.org/species/comblh1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5233",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_black_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteogallus_anthracinus",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_крабовый_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteogallus+anthracinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Black Hawk",
+  "en_aco": "Common Black Hawk",
+  "es": "Busardo Negro",
+  "ru": "Чёрный крабоед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteogallus anthracinus",
+ "sci_name_aco": "Buteogallus anthracinus",
+ "sounds": [],
+ "taxon_order": 8411.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 958.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Common%20Black%20Hawk%20-%20Gavil%C3%A1n%20cangrejero%20%28Buteogallus%20anthracinus%20anthracinus%29%20%2810460279303%29.v01.jpg"
+ ]
+}

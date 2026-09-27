@@ -1,0 +1,92 @@
+{
+ "authorship": "(Todd, 1915)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Setopagis",
+ "id": "setopagis-heterura",
+ "ids": {
+  "avibase": null,
+  "birdbase": 1892,
+  "gbif": 8265214,
+  "inaturalist": "367506",
+  "iucn": "22734672",
+  "wikidata": "Q27074754",
+  "xeno_canto": "Setopagis-heterura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setopagis_heterura",
+  "ebird": "https://ebird.org/species/samnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367506",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Todd's_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Setopagis_heterura",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Setopagis+heterura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Todd's Nightjar",
+  "en_aco": "Todd's Nightjar",
+  "es": "Chotacabras de Todd",
+  "ru": "Сантамартийский козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Setopagis heterura",
+ "sci_name_aco": "Setopagis heterura",
+ "sounds": [],
+ "taxon_order": 3545.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 36.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goujew1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-aurescens",
+ "ids": {
+  "avibase": "0BCA95F51BA1A713",
+  "birdbase": 3196,
+  "gbif": 2476943,
+  "inaturalist": "5920",
+  "iucn": "22687731",
+  "wikidata": "Q1035118",
+  "xeno_canto": "Heliodoxa-aurescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_aurescens",
+  "ebird": "https://ebird.org/species/goujew1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5920",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gould's_jewelfront",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_aurescens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+aurescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gould's Jewelfront",
+  "en_aco": "Gould's Jewelfront",
+  "es": "Brillante Pechicastaño",
+  "ru": "Златогрудый бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa aurescens",
+ "sci_name_aco": "Heliodoxa aurescens",
+ "sounds": [],
+ "taxon_order": 4701.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 5.975,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliodoxa%20aurescens%20-near%20Amazonia%20Lodge%2C%20Manu%20National%20Park%2C%20Peru-8.jpg"
+ ]
+}

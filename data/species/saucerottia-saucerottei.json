@@ -1,0 +1,94 @@
+{
+ "authorship": "(Delattre & Bourcier, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stvhum2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Saucerottia",
+ "id": "saucerottia-saucerottei",
+ "ids": {
+  "avibase": null,
+  "birdbase": 3573,
+  "gbif": 10755999,
+  "inaturalist": "1289654",
+  "iucn": "22687590",
+  "wikidata": "Q117253606",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/stvhum2",
+  "inaturalist": "https://www.inaturalist.org/taxa/1289654",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saucerottia+saucerottei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Steely-vented Hummingbird",
+  "en_aco": "Steely-vented Hummingbird",
+  "es": "Amazilia Verdiazul",
+  "ru": "Стальная амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Saucerottia saucerottei",
+ "sci_name_aco": "Saucerottia saucerottei",
+ "sounds": [],
+ "taxon_order": 5076.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 4.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amazilia%20saucerrottei%20%28Amazilia%20coliazul%29%20%2814572122501%29.jpg"
+ ]
+}

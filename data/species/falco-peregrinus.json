@@ -1,0 +1,103 @@
+{
+ "authorship": "(Tunstall, 1771)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Migratorio Austral incierto",
+  "status": [
+   "boreal_migrant",
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Boreal - Austral?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "perfal",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Falco",
+ "id": "falco-peregrinus",
+ "ids": {
+  "avibase": "C7F1C08CB3F7F2DA",
+  "birdbase": 12987,
+  "gbif": 2481047,
+  "inaturalist": "4647",
+  "iucn": "45354964",
+  "wikidata": "Q30535",
+  "xeno_canto": "Falco-peregrinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Falco_peregrinus",
+  "ebird": "https://ebird.org/species/perfal",
+  "inaturalist": "https://www.inaturalist.org/taxa/4647",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+   "es": "https://es.wikipedia.org/wiki/Falco_peregrinus",
+   "ru": "https://ru.wikipedia.org/wiki/Сапсан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Falco+peregrinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Peregrine Falcon",
+  "en_aco": "Peregrine Falcon",
+  "es": "Halcón Peregrino",
+  "ru": "Сапсан"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Falco peregrinus",
+ "sci_name_aco": "Falco peregrinus",
+ "sounds": [],
+ "taxon_order": 12114.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 8,
+  "habitats": [
+   "grassland",
+   "plantation",
+   "riparian",
+   "desert",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 916.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Plains",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Faucon%20pelerin%207%20mai.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/American%20Peregrine%20Falcon%20%28Falco%20peregrinus%29%20%2810700651733%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Peregrine%20Falcon%20Nepal.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Peregrine%20Falcon%20Kobble%20Apr07.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Falco%20peregrinus%20minor%2C%20Cape%20Town%2C%20South%20Africa%20118534019.jpg"
+ ]
+}

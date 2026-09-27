@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "tromoc",
+ "family": {
+  "code": "mimida2",
+  "en": "Mockingbirds and Thrashers",
+  "sci": "Mimidae"
+ },
+ "genus": "Mimus",
+ "id": "mimus-gilvus",
+ "ids": {
+  "avibase": "1281617BEF615F49",
+  "birdbase": 29689,
+  "gbif": 5231676,
+  "inaturalist": "14884",
+  "iucn": "22711029",
+  "wikidata": "Q1591500",
+  "xeno_canto": "Mimus-gilvus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mimus_gilvus",
+  "ebird": "https://ebird.org/species/tromoc",
+  "inaturalist": "https://www.inaturalist.org/taxa/14884",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tropical_mockingbird",
+   "es": "https://es.wikipedia.org/wiki/Mimus_gilvus",
+   "ru": "https://ru.wikipedia.org/wiki/Тропический_певчий_пересмешник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mimus+gilvus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tropical Mockingbird",
+  "en_aco": "Tropical Mockingbird",
+  "es": "Sinsonte Tropical",
+  "ru": "Тропический пересмешник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mimus gilvus",
+ "sci_name_aco": "Mimus gilvus",
+ "sounds": [],
+ "taxon_order": 28101.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 66.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Centzontle%20Tropical%2C%20Tropical%20Mockingbird%2C%20Mimus%20gilvus%20%2811060791884%29.jpg"
+ ]
+}

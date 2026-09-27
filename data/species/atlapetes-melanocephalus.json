@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin & Godman, 1880)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "smbfin1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-melanocephalus",
+ "ids": {
+  "avibase": "71DAB8C329FC47D5",
+  "birdbase": 35664,
+  "gbif": 2491466,
+  "inaturalist": "10341",
+  "iucn": "22721434",
+  "wikidata": "Q3315285",
+  "xeno_canto": "Atlapetes-melanocephalus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_melanocephalus",
+  "ebird": "https://ebird.org/species/smbfin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10341",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_melanocephalus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+melanocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Brushfinch",
+  "en_aco": "Santa Marta Brushfinch",
+  "es": "Atlapetes de Santa Marta",
+  "ru": "Сероухая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes melanocephalus",
+ "sci_name_aco": "Atlapetes melanocephalus",
+ "sounds": [],
+ "taxon_order": 33458.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 1300,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 27.799999999999997,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atlapetes%20melanocephalus.jpg"
+ ]
+}

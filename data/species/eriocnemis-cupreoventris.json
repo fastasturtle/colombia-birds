@@ -1,0 +1,93 @@
+{
+ "authorship": "(Fraser, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cobpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-cupreoventris",
+ "ids": {
+  "avibase": "3AA14D7DC1A6D74F",
+  "birdbase": 3069,
+  "gbif": 5228537,
+  "inaturalist": "6281",
+  "iucn": "22687930",
+  "wikidata": "Q990758",
+  "xeno_canto": "Eriocnemis-cupreoventris"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_cupreoventris",
+  "ebird": "https://ebird.org/species/cobpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6281",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Coppery-bellied_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_cupreoventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+cupreoventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Coppery-bellied Puffleg",
+  "en_aco": "Coppery-bellied Puffleg",
+  "es": "Calzadito Cobrizo",
+  "ru": "Меднобрюхий эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis cupreoventris",
+ "sci_name_aco": "Eriocnemis cupreoventris",
+ "sounds": [],
+ "taxon_order": 4588.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 5.1,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eriocnemis%20cupreoventris%20181480450%20%28cropped%29.jpg"
+ ]
+}

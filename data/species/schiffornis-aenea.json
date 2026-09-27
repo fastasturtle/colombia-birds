@@ -1,0 +1,91 @@
+{
+ "authorship": "(J.T. Zimmer, 1936)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "thlsch8",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Schiffornis",
+ "id": "schiffornis-aenea",
+ "ids": {
+  "avibase": "9A159343DC490113",
+  "birdbase": 18525,
+  "gbif": 7850153,
+  "inaturalist": "201098",
+  "iucn": "103677427",
+  "wikidata": "Q10818946",
+  "xeno_canto": "Schiffornis-aenea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Schiffornis_aenea",
+  "ebird": "https://ebird.org/species/thlsch8",
+  "inaturalist": "https://www.inaturalist.org/taxa/201098",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Foothill_schiffornis",
+   "es": "https://es.wikipedia.org/wiki/Schiffornis_aenea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Schiffornis+aenea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Foothill Schiffornis",
+  "en_aco": "Foothill Schiffornis",
+  "es": "Llorón Bronceado",
+  "ru": "Эквадорская сельвиния"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Schiffornis aenea",
+ "sci_name_aco": "Schiffornis aenea",
+ "sounds": [],
+ "taxon_order": 15990.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 30.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schiffornis%20aenea.jpg"
+ ]
+}

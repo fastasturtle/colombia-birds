@@ -1,0 +1,96 @@
+{
+ "authorship": "(Temminck, 1810)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rugdov",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Columbina",
+ "id": "columbina-talpacoti",
+ "ids": {
+  "avibase": "ADD11A5FC7F58167",
+  "birdbase": 4901,
+  "gbif": 2495858,
+  "inaturalist": "3580",
+  "iucn": "22690784",
+  "wikidata": "Q1386698",
+  "xeno_canto": "Columbina-talpacoti"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Columbina_talpacoti",
+  "ebird": "https://ebird.org/species/rugdov",
+  "inaturalist": "https://www.inaturalist.org/taxa/3580",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy_ground_dove",
+   "es": "https://es.wikipedia.org/wiki/Columbina_talpacoti",
+   "ru": "https://ru.wikipedia.org/wiki/Коричневая_земляная_горлица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Columbina+talpacoti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy Ground Dove",
+  "en_aco": "Ruddy Ground Dove",
+  "es": "Columbina Colorada",
+  "ru": "Коричневая земляная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Columbina talpacoti",
+ "sci_name_aco": "Columbina talpacoti",
+ "sounds": [],
+ "taxon_order": 2268.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 46.166666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ruddy%20Ground%20Dove.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Dario%20Sanches%20-%20ROLINHA-ROXA%20%28Columbina%20talpacoti%29.jpg"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orcori",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Icterus",
+ "id": "icterus-spurius",
+ "ids": {
+  "avibase": "000482C9FC0553CD",
+  "birdbase": 35945,
+  "gbif": 5229935,
+  "inaturalist": "9325",
+  "iucn": "103793298",
+  "wikidata": "Q1586976",
+  "xeno_canto": "Icterus-spurius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Icterus_spurius",
+  "ebird": "https://ebird.org/species/orcori",
+  "inaturalist": "https://www.inaturalist.org/taxa/9325",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orchard_oriole",
+   "es": "https://es.wikipedia.org/wiki/Icterus_spurius",
+   "ru": "https://ru.wikipedia.org/wiki/Садовый_цветной_трупиал"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Icterus+spurius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orchard Oriole",
+  "en_aco": "Orchard Oriole",
+  "es": "Turpial Castaño",
+  "ru": "Садовый трупиал"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Icterus spurius",
+ "sci_name_aco": "Icterus spurius",
+ "sounds": [],
+ "taxon_order": 33679.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 21.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nesting%20Orchard%20Orioles%20in%20Carondelet%20Park%20-%2050980664811.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orchard%20Oriole%20by%20Dan%20Pancamo%202.jpg"
+ ]
+}

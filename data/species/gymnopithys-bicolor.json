@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bicant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Gymnopithys",
+ "id": "gymnopithys-bicolor",
+ "ids": {
+  "avibase": "0351F4F2FCBF8A99",
+  "birdbase": 16153,
+  "gbif": 2490005,
+  "inaturalist": "367613",
+  "iucn": "22730409",
+  "wikidata": "Q11843765",
+  "xeno_canto": "Gymnopithys-bicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Gymnopithys_bicolor",
+  "ebird": "https://ebird.org/species/bicant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367613",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bicolored_antbird",
+   "es": "https://es.wikipedia.org/wiki/Gymnopithys_bicolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Gymnopithys+bicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bicolored Antbird",
+  "en_aco": "Bicolored Antbird",
+  "es": "Hormiguero Bicolor",
+  "ru": "Двухцветная гологлазка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Gymnopithys bicolor",
+ "sci_name_aco": "Gymnopithys bicolor",
+ "sounds": [],
+ "taxon_order": 14076.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 32.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gymnopithys-leucaspis-001%20edit2.jpg"
+ ]
+}

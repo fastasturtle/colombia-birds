@@ -1,0 +1,96 @@
+{
+ "authorship": "(d'Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "thbeup1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Euphonia",
+ "id": "euphonia-laniirostris",
+ "ids": {
+  "avibase": "F1D2C3453D71338E",
+  "birdbase": 34847,
+  "gbif": 2487998,
+  "inaturalist": "9308",
+  "iucn": "22722724",
+  "wikidata": "Q1210137",
+  "xeno_canto": "Euphonia-laniirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euphonia_laniirostris",
+  "ebird": "https://ebird.org/species/thbeup1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9308",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Thick-billed_euphonia",
+   "es": "https://es.wikipedia.org/wiki/Euphonia_laniirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Толстоклювая_эуфония"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euphonia+laniirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Thick-billed Euphonia",
+  "en_aco": "Thick-billed Euphonia",
+  "es": "Eufonia Piquigruesa",
+  "ru": "Толстоклювая эуфония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euphonia laniirostris",
+ "sci_name_aco": "Euphonia laniirostris",
+ "sounds": [],
+ "taxon_order": 32033.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 15.166666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thick-billed%20euphonia%20%28Euphonia%20laniirostris%20crassirostris%29%20male.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thick-billed%20Euphonia%202.jpg"
+ ]
+}

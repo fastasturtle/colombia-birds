@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spotan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Ixothraupis",
+ "id": "ixothraupis-punctata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37778,
+  "gbif": 9334801,
+  "inaturalist": "558572",
+  "iucn": null,
+  "wikidata": "Q58295189",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/spotan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558572",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ixothraupis+punctata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Tanager",
+  "en_aco": "Spotted Tanager",
+  "es": "Tangara Puntosa",
+  "ru": "Пятнистая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ixothraupis punctata",
+ "sci_name_aco": "Ixothraupis punctata",
+ "sounds": [],
+ "taxon_order": 34976.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 14.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20punctata-20090405.jpg"
+ ]
+}

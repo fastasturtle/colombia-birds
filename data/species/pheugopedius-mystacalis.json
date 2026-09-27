@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whiwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Pheugopedius",
+ "id": "pheugopedius-mystacalis",
+ "ids": {
+  "avibase": "A5AADBF7509BED70",
+  "birdbase": 29047,
+  "gbif": 7341190,
+  "inaturalist": "144860",
+  "iucn": "22711410",
+  "wikidata": "Q3726828",
+  "xeno_canto": "Pheugopedius-mystacalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheugopedius_mystacalis",
+  "ebird": "https://ebird.org/species/whiwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144860",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Whiskered_wren",
+   "es": "https://es.wikipedia.org/wiki/Pheugopedius_mystacalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheugopedius+mystacalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Whiskered Wren",
+  "en_aco": "Whiskered Wren",
+  "es": "Cucarachero Bigotudo Montano",
+  "ru": "Бородатый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheugopedius mystacalis",
+ "sci_name_aco": "Pheugopedius mystacalis",
+ "sounds": [],
+ "taxon_order": 27456.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 2800,
+   "min": 1200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 27.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheugopedius%20mystacalis%20-%20Whiskered%20wren%3B%20Rubio%2C%20T%C3%A1chira%2C%20Venezuela.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheugopedius%20mystacalis%20102096526.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blacur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Crax",
+ "id": "crax-alector",
+ "ids": {
+  "avibase": "16A1A2B113F97BA7",
+  "birdbase": 757,
+  "gbif": 2482173,
+  "inaturalist": "2045",
+  "iucn": "22678534",
+  "wikidata": "Q998275",
+  "xeno_canto": "Crax-alector"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crax_alector",
+  "ebird": "https://ebird.org/species/blacur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2045",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_curassow",
+   "es": "https://es.wikipedia.org/wiki/Crax_alector",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crax+alector"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Curassow",
+  "en_aco": "Black Curassow",
+  "es": "Pavón Guayanés",
+  "ru": "Чёрный кракс"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Crax alector",
+ "sci_name_aco": "Crax alector",
+ "sounds": [],
+ "taxon_order": 936.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 3106.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crax%20alector%20-%20scaup%20-%20467858162.jpeg"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "authorship": "(Todd, 1916)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "parswi1",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Chaetura",
+ "id": "chaetura-egregia",
+ "ids": {
+  "avibase": "33352866DC0384EE",
+  "birdbase": 2511,
+  "gbif": 5228633,
+  "inaturalist": "6587",
+  "iucn": "22686706",
+  "wikidata": "Q1261422",
+  "xeno_canto": "Chaetura-egregia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/parswi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6587",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-rumped_swift",
+   "es": "https://es.wikipedia.org/wiki/Chaetura_egregia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetura+egregia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-rumped Swift",
+  "en_aco": "Pale-rumped Swift",
+  "es": "Vencejo Egregio",
+  "ru": "Боливийский иглохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetura egregia",
+ "sci_name_aco": "Chaetura egregia",
+ "sounds": [],
+ "taxon_order": 3895.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 23.68,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grnjay",
+ "family": {
+  "code": "corvid1",
+  "en": "Crows, Jays, and Magpies",
+  "sci": "Corvidae"
+ },
+ "genus": "Cyanocorax",
+ "id": "cyanocorax-yncas",
+ "ids": {
+  "avibase": "84548B616C8E787E",
+  "birdbase": 22738,
+  "gbif": 2482565,
+  "inaturalist": "8474",
+  "iucn": "22705738",
+  "wikidata": "Q918078",
+  "xeno_canto": "Cyanocorax-yncas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyanocorax_yncas",
+  "ebird": "https://ebird.org/species/grnjay",
+  "inaturalist": "https://www.inaturalist.org/taxa/8474",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Inca_jay",
+   "es": "https://es.wikipedia.org/wiki/Cyanocorax_yncas",
+   "ru": "https://ru.wikipedia.org/wiki/Перуанская_разноцветная_сойка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cyanocorax+yncas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Jay",
+  "en_aco": "Green Jay",
+  "es": "Chara Verde",
+  "ru": "Перуанская сойка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cyanocorax yncas",
+ "sci_name_aco": "Cyanocorax yncas",
+ "sounds": [],
+ "taxon_order": 21233.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 900,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 75.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Inca%20jay%20%28Cyanocorax%20yncas%20yncas%29%20San%20Isidro.jpg"
+ ]
+}

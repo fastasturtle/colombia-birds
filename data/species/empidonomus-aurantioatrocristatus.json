@@ -1,0 +1,93 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "croslf1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Empidonomus",
+ "id": "empidonomus-aurantioatrocristatus",
+ "ids": {
+  "avibase": "1BAC8667184B8C32",
+  "birdbase": 18051,
+  "gbif": 2484086,
+  "inaturalist": null,
+  "iucn": "22700523",
+  "wikidata": "Q1272199",
+  "xeno_canto": "Griseotyrannus-aurantioatrocristatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Griseotyrannus_aurantioatrocristatus",
+  "ebird": "https://ebird.org/species/croslf1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crowned_slaty_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Griseotyrannus_aurantioatrocristatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Empidonomus+aurantioatrocristatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crowned Slaty Flycatcher",
+  "en_aco": "Crowned Slaty Flycatcher",
+  "es": "Tuquito Gris",
+  "ru": "Аргентинский тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Empidonomus aurantioatrocristatus",
+ "sci_name_aco": "Empidonomus aurantioatrocristatus",
+ "sounds": [],
+ "taxon_order": 17446.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 31.875,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Griseotyrannus%20aurantioatrocristatus%20Crowned%20Slaty%20Flycatcher%3B%20Capivara%2C%20Santa%20Fe%2C%20Argentina.jpg"
+ ]
+}

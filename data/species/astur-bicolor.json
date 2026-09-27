@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bichaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Astur",
+ "id": "astur-bicolor",
+ "ids": {
+  "avibase": "FB27427BB7288B30",
+  "birdbase": 8584,
+  "gbif": 2480599,
+  "inaturalist": "5137",
+  "iucn": "22695669",
+  "wikidata": "Q597105",
+  "xeno_canto": "Accipiter-bicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Accipiter_bicolor",
+  "ebird": "https://ebird.org/species/bichaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5137",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bicolored_hawk",
+   "es": "https://es.wikipedia.org/wiki/Astur_bicolor",
+   "ru": "https://ru.wikipedia.org/wiki/Двуцветный_ястреб"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Astur+bicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bicolored Hawk",
+  "en_aco": "Bicolored Hawk",
+  "es": "Gavilán Bicolor",
+  "ru": "Двуцветный ястреб"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Astur bicolor",
+ "sci_name_aco": "Accipiter bicolor",
+ "sounds": [],
+ "taxon_order": 8269.0,
+ "taxonomy_note": "ACO/SACC lists this as Accipiter bicolor; eBird/Clements uses Astur bicolor.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 326.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/AccipiterBicolorSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bicoloured%20Hawk%20%28Accipiter%20bicolor%29%20with%20prey.jpg"
+ ]
+}

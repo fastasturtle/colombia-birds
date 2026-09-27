@@ -1,0 +1,92 @@
+{
+ "authorship": "(Shaw, 1792)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rerfru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Pyroderus",
+ "id": "pyroderus-scutatus",
+ "ids": {
+  "avibase": "50B7979C1446161B",
+  "birdbase": 18283,
+  "gbif": 2486243,
+  "inaturalist": "8884",
+  "iucn": "22700928",
+  "wikidata": "Q1063255",
+  "xeno_canto": "Pyroderus-scutatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyroderus_scutatus",
+  "ebird": "https://ebird.org/species/rerfru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8884",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-ruffed_fruitcrow",
+   "es": "https://es.wikipedia.org/wiki/Pyroderus_scutatus",
+   "ru": "https://ru.wikipedia.org/wiki/Красногрудый_плодоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pyroderus+scutatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-ruffed Fruitcrow",
+  "en_aco": "Red-ruffed Fruitcrow",
+  "es": "Yacutoro",
+  "ru": "Красногрудый плодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pyroderus scutatus",
+ "sci_name_aco": "Pyroderus scutatus",
+ "sounds": [],
+ "taxon_order": 15911.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 372.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyroderus%20scutatus%201838.jpg"
+ ]
+}

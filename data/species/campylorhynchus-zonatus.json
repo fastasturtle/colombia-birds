@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "babwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Campylorhynchus",
+ "id": "campylorhynchus-zonatus",
+ "ids": {
+  "avibase": "DA03B16FC1768D08",
+  "birdbase": 28862,
+  "gbif": 5231469,
+  "inaturalist": "7478",
+  "iucn": "22711313",
+  "wikidata": "Q1586963",
+  "xeno_canto": "Campylorhynchus-zonatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylorhynchus_zonatus",
+  "ebird": "https://ebird.org/species/babwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7478",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-backed_wren",
+   "es": "https://es.wikipedia.org/wiki/Campylorhynchus_zonatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylorhynchus+zonatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-backed Wren",
+  "en_aco": "Band-backed Wren",
+  "es": "Cucarachero Barrado",
+  "ru": "Тигровый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Campylorhynchus zonatus",
+ "sci_name_aco": "Campylorhynchus zonatus",
+ "sounds": [],
+ "taxon_order": 27383.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 30.32,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Band-backed%20Wren%20%28Campylorhynchus%20zonatus%29.jpg"
+ ]
+}

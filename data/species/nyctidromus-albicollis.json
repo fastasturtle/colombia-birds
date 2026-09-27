@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "compau",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Nyctidromus",
+ "id": "nyctidromus-albicollis",
+ "ids": {
+  "avibase": "F2CB69EC613FDFE7",
+  "birdbase": 1882,
+  "gbif": 2496990,
+  "inaturalist": "19627",
+  "iucn": "22689731",
+  "wikidata": "Q1122212",
+  "xeno_canto": "Nyctidromus-albicollis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctidromus_albicollis",
+  "ebird": "https://ebird.org/species/compau",
+  "inaturalist": "https://www.inaturalist.org/taxa/19627",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pauraque",
+   "es": "https://es.wikipedia.org/wiki/Nyctidromus_albicollis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctidromus+albicollis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Pauraque",
+  "en_aco": "Common Pauraque",
+  "es": "Chotacabras Pauraque",
+  "ru": "Пораке"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Nyctidromus albicollis",
+ "sci_name_aco": "Nyctidromus albicollis",
+ "sounds": [],
+ "taxon_order": 3527.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": 3050,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 54.275,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nyctidromus%20albicollis%20-%20Adam%20Jackson%20-%20441800224.jpeg"
+ ]
+}

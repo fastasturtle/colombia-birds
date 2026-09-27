@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brhgre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Hylophilus",
+ "id": "hylophilus-brunneiceps",
+ "ids": {
+  "avibase": "04FCFB94C34F8052",
+  "birdbase": 21402,
+  "gbif": 5230495,
+  "inaturalist": "17432",
+  "iucn": "22705300",
+  "wikidata": "Q1588470",
+  "xeno_canto": "Hylophilus-brunneiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylophilus_brunneiceps",
+  "ebird": "https://ebird.org/species/brhgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17432",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-headed_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Hylophilus_brunneiceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylophilus+brunneiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-headed Greenlet",
+  "en_aco": "Brown-headed Greenlet",
+  "es": "Verdillo Cabecicastaño",
+  "ru": "Буроголовый виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylophilus brunneiceps",
+ "sci_name_aco": "Hylophilus brunneiceps",
+ "sounds": [],
+ "taxon_order": 19099.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 9.666666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylophilus%20brunneiceps%20Keulemans.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylophilus%20brunneiceps%20-%20Brown-headed%20Greenlet%2C%20Iranduba%2C%20Amazonas%2C%20Brazil%2002.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin, 1883)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "maspet",
+ "family": {
+  "code": "hydrob1",
+  "en": "Northern Storm-Petrels",
+  "sci": "Hydrobatidae"
+ },
+ "genus": "Hydrobates",
+ "id": "hydrobates-markhami",
+ "ids": {
+  "avibase": null,
+  "birdbase": 7441,
+  "gbif": 10910683,
+  "inaturalist": "4074",
+  "iucn": null,
+  "wikidata": "Q939222",
+  "xeno_canto": "Oceanodroma-markhami"
+ },
+ "iucn": {
+  "aco_2022": "DD",
+  "birdbase_2024": "NT",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hydrobates_markhami",
+  "ebird": "https://ebird.org/species/maspet",
+  "inaturalist": "https://www.inaturalist.org/taxa/4074",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Markham's_storm_petrel",
+   "es": "https://es.wikipedia.org/wiki/Hydrobates_markhami",
+   "ru": "https://ru.wikipedia.org/wiki/Качурка_Маркема"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydrobates+markhami"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Markham's Storm-Petrel",
+  "en_aco": "Markham's Storm-Petrel",
+  "es": "Paíño Ahumado",
+  "ru": "Перуанская качурка"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Hydrobates markhami",
+ "sci_name_aco": "Hydrobates markhami",
+ "sounds": [],
+ "taxon_order": 7076.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "desert",
+   "sea"
+  ],
+  "mass_g": 53,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oceanodroma%20markhami%20by%20Roar%20Johansen.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brwhaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-platypterus",
+ "ids": {
+  "avibase": "79F3C681417F2056",
+  "birdbase": 8779,
+  "gbif": 2480538,
+  "inaturalist": "5227",
+  "iucn": "22695891",
+  "wikidata": "Q1075004",
+  "xeno_canto": "Buteo-platypterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_platypterus",
+  "ebird": "https://ebird.org/species/brwhaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/5227",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_platypterus",
+   "ru": "https://ru.wikipedia.org/wiki/Ширококрылый_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+platypterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Broad-winged Hawk",
+  "en_aco": "Broad-winged Hawk",
+  "es": "Busardo Aliancho",
+  "ru": "Ширококрылый канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo platypterus",
+ "sci_name_aco": "Buteo platypterus",
+ "sounds": [],
+ "taxon_order": 8479.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 413,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Julie%20Waters%20broad%20winged%20hawk.JPG"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubmot3",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Dubusia",
+ "id": "dubusia-taeniata",
+ "ids": {
+  "avibase": null,
+  "birdbase": 37657,
+  "gbif": 2488325,
+  "inaturalist": "723041",
+  "iucn": null,
+  "wikidata": "Q27637792",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/bubmot3",
+  "inaturalist": "https://www.inaturalist.org/taxa/723041",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dubusia+taeniata"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Buff-banded Mountain Tanager",
+  "en_aco": "Buff-breasted Mountain-Tanager",
+  "es": "Tangara Pechifulva Norteña",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dubusia taeniata",
+ "sci_name_aco": "Dubusia taeniata",
+ "sounds": [],
+ "taxon_order": 34902.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": 1900
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 38,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

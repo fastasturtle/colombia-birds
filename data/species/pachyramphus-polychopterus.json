@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whwbec1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Pachyramphus",
+ "id": "pachyramphus-polychopterus",
+ "ids": {
+  "avibase": "CE997BBDEBCC30DB",
+  "birdbase": 18593,
+  "gbif": 5230363,
+  "inaturalist": "8716",
+  "iucn": "22700647",
+  "wikidata": "Q1306523",
+  "xeno_canto": "Pachyramphus-polychopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pachyramphus_polychopterus",
+  "ebird": "https://ebird.org/species/whwbec1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8716",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-winged_becard",
+   "es": "https://es.wikipedia.org/wiki/Pachyramphus_polychopterus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pachyramphus+polychopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-winged Becard",
+  "en_aco": "White-winged Becard",
+  "es": "Anambé Aliblanco",
+  "ru": "Белокрылый бекард"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pachyramphus polychopterus",
+ "sci_name_aco": "Pachyramphus polychopterus",
+ "sounds": [],
+ "taxon_order": 16048.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 21.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pachyramphus%20polychopterus%20-Panama-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-winged%20Becard%20CW.jpg"
+ ]
+}

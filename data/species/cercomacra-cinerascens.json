@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gryant2",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Cercomacra",
+ "id": "cercomacra-cinerascens",
+ "ids": {
+  "avibase": "E807EA75071C406B",
+  "birdbase": 16282,
+  "gbif": 2490137,
+  "inaturalist": "15738",
+  "iucn": "22701662",
+  "wikidata": "Q859634",
+  "xeno_canto": "Cercomacra-cinerascens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cercomacra_cinerascens",
+  "ebird": "https://ebird.org/species/gryant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/15738",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey_antbird",
+   "es": "https://es.wikipedia.org/wiki/Cercomacra_cinerascens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cercomacra+cinerascens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray Antbird",
+  "en_aco": "Gray Antbird",
+  "es": "Hormiguero Gris",
+  "ru": "Серая муравьянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cercomacra cinerascens",
+ "sci_name_aco": "Cercomacra cinerascens",
+ "sounds": [],
+ "taxon_order": 13926.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1150,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 16.966666666666665,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cercomacra%20cinerascens%20-%20Gray%20Anbird%20male%3B%20Caraj%C3%A1s%20National%20Forest%2C%20Para%2C%20Brazil.jpg"
+ ]
+}

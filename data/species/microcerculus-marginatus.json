@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scbwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Microcerculus",
+ "id": "microcerculus-marginatus",
+ "ids": {
+  "avibase": "6167E812D179ED9B",
+  "birdbase": 29357,
+  "gbif": 2493836,
+  "inaturalist": "7638",
+  "iucn": "22711542",
+  "wikidata": "Q2667984",
+  "xeno_canto": "Microcerculus-marginatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Microcerculus_marginatus",
+  "ebird": "https://ebird.org/species/scbwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7638",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_nightingale-wren",
+   "es": "https://es.wikipedia.org/wiki/Microcerculus_marginatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Microcerculus+marginatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaly-breasted Wren",
+  "en_aco": "Scaly-breasted Wren",
+  "es": "Cucarachero Ruiseñor Sureño",
+  "ru": "Соловьиный крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Microcerculus marginatus",
+ "sci_name_aco": "Microcerculus marginatus",
+ "sounds": [],
+ "taxon_order": 27162.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 18.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Microcerculus%20marginatus%20-%20Scaly-brested%20Wren%3B%20Careiro%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

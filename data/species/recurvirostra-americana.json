@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ameavo",
+ "family": {
+  "code": "recurv1",
+  "en": "Stilts and Avocets",
+  "sci": "Recurvirostridae"
+ },
+ "genus": "Recurvirostra",
+ "id": "recurvirostra-americana",
+ "ids": {
+  "avibase": "8EB0C1FABC1D725A",
+  "birdbase": 6443,
+  "gbif": 2480258,
+  "inaturalist": "4885",
+  "iucn": "22693717",
+  "wikidata": "Q469992",
+  "xeno_canto": "Recurvirostra-americana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Recurvirostra_americana",
+  "ebird": "https://ebird.org/species/ameavo",
+  "inaturalist": "https://www.inaturalist.org/taxa/4885",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_avocet",
+   "es": "https://es.wikipedia.org/wiki/Recurvirostra_americana",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_шилоклювка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Recurvirostra+americana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Avocet",
+  "en_aco": "American Avocet",
+  "es": "Avoceta Americana",
+  "ru": "Американская шилоклювка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Recurvirostra americana",
+ "sci_name_aco": "Recurvirostra americana",
+ "sounds": [],
+ "taxon_order": 5780.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 307.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dan%20pancamo%20American%20Avocet%202.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Recurvirostra%20americana%20-Palo%20Alto%20Baylands-8.jpg"
+ ]
+}

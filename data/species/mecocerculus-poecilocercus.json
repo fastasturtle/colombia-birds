@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1873)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whttyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Mecocerculus",
+ "id": "mecocerculus-poecilocercus",
+ "ids": {
+  "avibase": "A8BB18CDA2EAC0D3",
+  "birdbase": 17042,
+  "gbif": 2483836,
+  "inaturalist": "16401",
+  "iucn": "22699316",
+  "wikidata": "Q1271964",
+  "xeno_canto": "Mecocerculus-poecilocercus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Mecocerculus_poecilocercus",
+  "ebird": "https://ebird.org/species/whttyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16401",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Mecocerculus_poecilocercus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mecocerculus+poecilocercus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Tyrannulet",
+  "en_aco": "White-tailed Tyrannulet",
+  "es": "Piojito Coliblanco",
+  "ru": "Белохвостый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Mecocerculus poecilocercus",
+ "sci_name_aco": "Mecocerculus poecilocercus",
+ "sounds": [],
+ "taxon_order": 16576.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": 3050,
+   "min": 1800,
+   "min_extreme": 1400
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-tailedTyrannulet.jpg"
+ ]
+}

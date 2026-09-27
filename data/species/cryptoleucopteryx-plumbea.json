@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin, 1872)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pluhaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Cryptoleucopteryx",
+ "id": "cryptoleucopteryx-plumbea",
+ "ids": {
+  "avibase": "A6775D0C69D1C00B",
+  "birdbase": 8709,
+  "gbif": 7506330,
+  "inaturalist": "201036",
+  "iucn": "22695732",
+  "wikidata": "Q1271897",
+  "xeno_canto": "Cryptoleucopteryx-plumbea"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cryptoleucopteryx_plumbea",
+  "ebird": "https://ebird.org/species/pluhaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/201036",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous_hawk",
+   "es": "https://es.wikipedia.org/wiki/Cryptoleucopterix_plumbea",
+   "ru": "https://ru.wikipedia.org/wiki/Свинцово-серый_пегий_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cryptoleucopteryx+plumbea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous Hawk",
+  "en_aco": "Plumbeous Hawk",
+  "es": "Busardo Plomizo",
+  "ru": "Свинцовый крабоед"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Cryptoleucopteryx plumbea",
+ "sci_name_aco": "Cryptoleucopteryx plumbea",
+ "sounds": [],
+ "taxon_order": 8409.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1400,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "wetland"
+  ],
+  "mass_g": 482,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leucopternisplumbeus.JPG"
+ ]
+}

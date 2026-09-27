@@ -1,0 +1,93 @@
+{
+ "authorship": "(Spix, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "phecuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Dromococcyx",
+ "id": "dromococcyx-phasianellus",
+ "ids": {
+  "avibase": "D39515106435FC5A",
+  "birdbase": 3869,
+  "gbif": 2496517,
+  "inaturalist": "1982",
+  "iucn": "22684452",
+  "wikidata": "Q1004548",
+  "xeno_canto": "Dromococcyx-phasianellus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dromococcyx_phasianellus",
+  "ebird": "https://ebird.org/species/phecuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1982",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pheasant_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Dromococcyx_phasianellus",
+   "ru": "https://ru.wikipedia.org/wiki/Краснохохлая_павлинья_кукушка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dromococcyx+phasianellus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pheasant Cuckoo",
+  "en_aco": "Pheasant Cuckoo",
+  "es": "Cuclillo Faisán",
+  "ru": "Фазановая кукушка"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Dromococcyx phasianellus",
+ "sci_name_aco": "Dromococcyx phasianellus",
+ "sounds": [],
+ "taxon_order": 3032.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 88.48333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dromococcyx%20phasianellus%20-%20Pheasant%20Cuckoo%3B%20Caxias%2C%20Maranh%C3%A3o%2C%20Brazil.jpg"
+ ]
+}

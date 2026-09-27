@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "larela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-spectabilis",
+ "ids": {
+  "avibase": "79E2622153056C71",
+  "birdbase": 16942,
+  "gbif": 5229614,
+  "inaturalist": "16734",
+  "iucn": "22699265",
+  "wikidata": "Q841821",
+  "xeno_canto": "Elaenia-spectabilis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_spectabilis",
+  "ebird": "https://ebird.org/species/larela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16734",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Large_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_spectabilis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+spectabilis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Large Elaenia",
+  "en_aco": "Large Elaenia",
+  "es": "Fiofío Grande",
+  "ru": "Серогрудая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia spectabilis",
+ "sci_name_aco": "Elaenia spectabilis",
+ "sounds": [],
+ "taxon_order": 16705.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 27.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Elaenia%20spectabilis.jpeg"
+ ]
+}

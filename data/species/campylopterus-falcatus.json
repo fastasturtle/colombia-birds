@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1821)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lazsab1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Campylopterus",
+ "id": "campylopterus-falcatus",
+ "ids": {
+  "avibase": "D6C1978F9A414725",
+  "birdbase": 3446,
+  "gbif": 2476125,
+  "inaturalist": "5990",
+  "iucn": "22687083",
+  "wikidata": "Q1265474",
+  "xeno_canto": "Campylopterus-falcatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylopterus_falcatus",
+  "ebird": "https://ebird.org/species/lazsab1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5990",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lazuline_sabrewing",
+   "es": "https://es.wikipedia.org/wiki/Campylopterus_falcatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylopterus+falcatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lazuline Sabrewing",
+  "en_aco": "Lazuline Sabrewing",
+  "es": "Colibrí Lazulita",
+  "ru": "Краснохвостый саблекрыл"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Campylopterus falcatus",
+ "sci_name_aco": "Campylopterus falcatus",
+ "sounds": [],
+ "taxon_order": 4960.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": 3000,
+   "min": 1200,
+   "min_extreme": 450
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 7.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylopterus%20falcatus.jpg"
+ ]
+}

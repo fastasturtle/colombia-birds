@@ -1,0 +1,93 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gryhaw3",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteo",
+ "id": "buteo-nitidus",
+ "ids": {
+  "avibase": "4ECE179D1C09157B",
+  "birdbase": 8775,
+  "gbif": 2480556,
+  "inaturalist": "201285",
+  "iucn": "22727766",
+  "wikidata": "Q1260070",
+  "xeno_canto": "Buteo-nitidus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteo_nitidus",
+  "ebird": "https://ebird.org/species/gryhaw3",
+  "inaturalist": "https://www.inaturalist.org/taxa/201285",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gray-lined_hawk",
+   "es": "https://es.wikipedia.org/wiki/Buteo_nitidus",
+   "ru": "https://ru.wikipedia.org/wiki/Сизый_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteo+nitidus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-lined Hawk",
+  "en_aco": "Gray-lined Hawk",
+  "es": "Busardo Gris Meridional",
+  "ru": "Полосатый канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteo nitidus",
+ "sci_name_aco": "Buteo nitidus",
+ "sounds": [],
+ "taxon_order": 8474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "savanna"
+  ],
+  "mass_g": 463.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buteo%20nitidus%20Trinidad%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey-lined%20hawk%20%28Buteo%20nitidus%29%20Puno%2C%20Per%C3%BA.jpg"
+ ]
+}

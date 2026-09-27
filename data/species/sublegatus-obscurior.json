@@ -1,0 +1,93 @@
+{
+ "authorship": "(Todd, 1920)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amsfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Sublegatus",
+ "id": "sublegatus-obscurior",
+ "ids": {
+  "avibase": "7EAD555371AB4680",
+  "birdbase": 17291,
+  "gbif": 2483427,
+  "inaturalist": "17074",
+  "iucn": "22699205",
+  "wikidata": "Q1272389",
+  "xeno_canto": "Sublegatus-obscurior"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sublegatus_obscurior",
+  "ebird": "https://ebird.org/species/amsfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17074",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_scrub_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Sublegatus_obscurior",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sublegatus+obscurior"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazonian Scrub-Flycatcher",
+  "en_aco": "Amazonian Scrub-Flycatcher",
+  "es": "Mosquero Matorralero Amazónico",
+  "ru": "Амазонский мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sublegatus obscurior",
+ "sci_name_aco": "Sublegatus obscurior",
+ "sounds": [],
+ "taxon_order": 17024.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 450,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 16.833333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sublegatus%20obscurior%20-%20Todd%27s%20scrub-flycatcher%2C%20Pte.%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

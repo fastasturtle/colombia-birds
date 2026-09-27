@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Pheugopedius",
+ "id": "pheugopedius-fasciatoventris",
+ "ids": {
+  "avibase": "9335AB39E8420633",
+  "birdbase": 29031,
+  "gbif": 7341215,
+  "inaturalist": "144857",
+  "iucn": "22711401",
+  "wikidata": "Q4741856",
+  "xeno_canto": "Pheugopedius-fasciatoventris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pheugopedius_fasciatoventris",
+  "ebird": "https://ebird.org/species/blbwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144857",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-bellied_wren",
+   "es": "https://es.wikipedia.org/wiki/Pheugopedius_fasciatoventris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pheugopedius+fasciatoventris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-bellied Wren",
+  "en_aco": "Black-bellied Wren",
+  "es": "Cucarachero Ventrinegro",
+  "ru": "Чернобрюхий крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pheugopedius fasciatoventris",
+ "sci_name_aco": "Pheugopedius fasciatoventris",
+ "sounds": [],
+ "taxon_order": 27444.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 26,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ThryothorusKeulemans.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pheugopedius%20fasciatoventris%20209057076.jpg"
+ ]
+}

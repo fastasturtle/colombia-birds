@@ -1,0 +1,95 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mastit1",
+ "family": {
+  "code": "tityri1",
+  "en": "Tityras and Allies",
+  "sci": "Tityridae"
+ },
+ "genus": "Tityra",
+ "id": "tityra-semifasciata",
+ "ids": {
+  "avibase": "EA93E0B1725F2991",
+  "birdbase": 18503,
+  "gbif": 2486467,
+  "inaturalist": "8834",
+  "iucn": "22700689",
+  "wikidata": "Q1304903",
+  "xeno_canto": "Tityra-semifasciata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tityra_semifasciata",
+  "ebird": "https://ebird.org/species/mastit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8834",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_tityra",
+   "es": "https://es.wikipedia.org/wiki/Tityra_semifasciata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tityra+semifasciata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Tityra",
+  "en_aco": "Masked Tityra",
+  "es": "Titira Enmascarado",
+  "ru": "Масковая титира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tityra semifasciata",
+ "sci_name_aco": "Tityra semifasciata",
+ "sounds": [],
+ "taxon_order": 15969.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 82.02000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masked%20Tityra%203.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masked%20Tityra%20%2816409452250%29.jpg"
+ ]
+}

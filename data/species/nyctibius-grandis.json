@@ -1,0 +1,97 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grepot1",
+ "family": {
+  "code": "nyctib1",
+  "en": "Potoos",
+  "sci": "Nyctibiidae"
+ },
+ "genus": "Nyctibius",
+ "id": "nyctibius-grandis",
+ "ids": {
+  "avibase": "EBEFFDBF2E7B41B9",
+  "birdbase": 2143,
+  "gbif": 2496801,
+  "inaturalist": "19680",
+  "iucn": "22689636",
+  "wikidata": "Q1262284",
+  "xeno_canto": "Nyctibius-grandis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctibius_grandis",
+  "ebird": "https://ebird.org/species/grepot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19680",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_potoo",
+   "es": "https://es.wikipedia.org/wiki/Nyctibius_grandis",
+   "ru": "https://ru.wikipedia.org/wiki/Исполинский_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctibius+grandis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Potoo",
+  "en_aco": "Great Potoo",
+  "es": "Nictibio Grande",
+  "ru": "Исполинский уратао"
+ },
+ "order": "Nyctibiiformes",
+ "photos": [],
+ "sci_name": "Nyctibius grandis",
+ "sci_name_aco": "Nyctibius grandis",
+ "sounds": [],
+ "taxon_order": 3746.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 492,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A3e-da-lua-gigante%20%28Nyctibius%20grandis%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nyctibius%20grandis%20-%20Great%20Potoo%3B%20Apiac%C3%A1s%2C%20Mato%20Grosso%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

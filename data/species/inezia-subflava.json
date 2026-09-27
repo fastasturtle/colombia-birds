@@ -1,0 +1,93 @@
+{
+ "authorship": "(Chapman, 1926)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amatyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Inezia",
+ "id": "inezia-subflava",
+ "ids": {
+  "avibase": "DA9DCEC18772F4FB",
+  "birdbase": 17298,
+  "gbif": 5229719,
+  "inaturalist": "16337",
+  "iucn": "22733832",
+  "wikidata": "Q1269154",
+  "xeno_canto": "Inezia-subflava"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Inezia_subflava",
+  "ebird": "https://ebird.org/species/amatyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16337",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazonian_inezia",
+   "es": "https://es.wikipedia.org/wiki/Inezia_subflava",
+   "ru": "https://ru.wikipedia.org/wiki/Буроголовая_инезия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Inezia+subflava"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amazonian Tyrannulet",
+  "en_aco": "Amazonian Tyrannulet",
+  "es": "Piojito Pantanero",
+  "ru": "Буроголовая инезия"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Inezia subflava",
+ "sci_name_aco": "Inezia subflava",
+ "sounds": [],
+ "taxon_order": 16838.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 8.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Inezia%20subflava%20-%20Amazonian%20inezia%2C%20Anavilhanas%20National%20Park%2C%20Novo%20Air%C3%A3o%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

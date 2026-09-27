@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rivtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Serpophaga",
+ "id": "serpophaga-hypoleuca",
+ "ids": {
+  "avibase": "9132B3470B42CBDF",
+  "birdbase": 17077,
+  "gbif": 2483959,
+  "inaturalist": "17202",
+  "iucn": "22699337",
+  "wikidata": "Q1273269",
+  "xeno_canto": "Serpophaga-hypoleuca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Serpophaga_hypoleuca",
+  "ebird": "https://ebird.org/species/rivtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17202",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/River_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Serpophaga_hypoleuca",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Serpophaga+hypoleuca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "River Tyrannulet",
+  "en_aco": "River Tyrannulet",
+  "es": "Piojito Ribereño",
+  "ru": "Речной пиохито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Serpophaga hypoleuca",
+ "sci_name_aco": "Serpophaga hypoleuca",
+ "sounds": [],
+ "taxon_order": 16749.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": 600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 6.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Serpophaga%20hypoleuca%20-%20River%20tyrannulet%3B%20Marchantaria%20Island%2C%20Iranduba%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

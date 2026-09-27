@@ -1,0 +1,96 @@
+{
+ "authorship": "(Desmarest, 1806)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sptfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Todirostrum",
+ "id": "todirostrum-maculatum",
+ "ids": {
+  "avibase": "9B1A56FF8DCA375E",
+  "birdbase": 17475,
+  "gbif": 2483268,
+  "inaturalist": "17165",
+  "iucn": "22699018",
+  "wikidata": "Q1263124",
+  "xeno_canto": "Todirostrum-maculatum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Todirostrum_maculatum",
+  "ebird": "https://ebird.org/species/sptfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17165",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spotted_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Todirostrum_maculatum",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Todirostrum+maculatum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Tody-Flycatcher",
+  "en_aco": "Spotted Tody-Flycatcher",
+  "es": "Titirijí Moteado",
+  "ru": "Пятнистый тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Todirostrum maculatum",
+ "sci_name_aco": "Todirostrum maculatum",
+ "sounds": [],
+ "taxon_order": 16422.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 7.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Todirostrum%20maculatum%20JJK%271.jpg"
+ ]
+}

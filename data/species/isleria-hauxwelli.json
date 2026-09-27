@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pltant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Isleria",
+ "id": "isleria-hauxwelli",
+ "ids": {
+  "avibase": "DCF9CFE87EEDB62A",
+  "birdbase": 15867,
+  "gbif": 7444611,
+  "inaturalist": "201091",
+  "iucn": "22701457",
+  "wikidata": "Q1271537",
+  "xeno_canto": "Isleria-hauxwelli"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myrmotherula_hauxwelli",
+  "ebird": "https://ebird.org/species/pltant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201091",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-throated_antwren",
+   "es": "https://es.wikipedia.org/wiki/Isleria_hauxwelli",
+   "ru": "https://ru.wikipedia.org/wiki/Серобрюхая_крапивниковая_муравьеловка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Isleria+hauxwelli"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-throated Antwren",
+  "en_aco": "Plain-throated Antwren",
+  "es": "Hormiguerito de Hauxwell",
+  "ru": "Серобрюхий эсперито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Isleria hauxwelli",
+ "sci_name_aco": "Isleria hauxwelli",
+ "sounds": [],
+ "taxon_order": 13675.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 12,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Isleria%20hauxwelli%20-%20Plain-throated%20Antwren%20%28female%29%3B%20Carajas%20National%20Forest%2C%20Para%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Isleria%20Hauxwelli%20-%20Plain-throated%20antwren%20%28male%29.jpg"
+ ]
+}

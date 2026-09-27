@@ -1,0 +1,92 @@
+{
+ "authorship": "(Hartlaub, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sctlea1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Sclerurus",
+ "id": "sclerurus-guatemalensis",
+ "ids": {
+  "avibase": "8A2B456C1D827AB4",
+  "birdbase": 14470,
+  "gbif": 2485239,
+  "inaturalist": "11649",
+  "iucn": "22702978",
+  "wikidata": "Q845227",
+  "xeno_canto": "Sclerurus-guatemalensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sclerurus_guatemalensis",
+  "ebird": "https://ebird.org/species/sctlea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11649",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaly-throated_leaftosser",
+   "es": "https://es.wikipedia.org/wiki/Sclerurus_guatemalensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sclerurus+guatemalensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scaly-throated Leaftosser",
+  "en_aco": "Scaly-throated Leaftosser",
+  "es": "Tirahojas Guatemalteco",
+  "ru": "Чешуегорлый тенелюб"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sclerurus guatemalensis",
+ "sci_name_aco": "Sclerurus guatemalensis",
+ "sounds": [],
+ "taxon_order": 14549.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1250,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 30.566666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sclerurus%20guatemalensis%201902.jpg"
+ ]
+}

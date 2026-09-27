@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grcdov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotila",
+ "id": "leptotila-cassinii",
+ "ids": {
+  "avibase": "34B0DFFA7061157D",
+  "birdbase": 4996,
+  "gbif": 2496089,
+  "inaturalist": "367482",
+  "iucn": "22690891",
+  "wikidata": "Q1082117",
+  "xeno_canto": "Leptotila-cassinii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotila_cassinii",
+  "ebird": "https://ebird.org/species/grcdov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367482",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-chested_dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotila_cassinii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotila+cassinii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-chested Dove",
+  "en_aco": "Gray-chested Dove",
+  "es": "Paloma Montaraz Pechigrís",
+  "ru": "Серогрудая голубка"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotila cassinii",
+ "sci_name_aco": "Leptotila cassinii",
+ "sounds": [],
+ "taxon_order": 2347.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1400,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 150.16666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey-chested%20Dove%20-%20Rio%20Tigre%20-%20Costa%20Rica%20MG%207710%20%2826434929200%29.jpg"
+ ]
+}

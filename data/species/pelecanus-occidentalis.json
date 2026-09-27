@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brnpel",
+ "family": {
+  "code": "peleca1",
+  "en": "Pelicans",
+  "sci": "Pelecanidae"
+ },
+ "genus": "Pelecanus",
+ "id": "pelecanus-occidentalis",
+ "ids": {
+  "avibase": "F59AB6B357BF97D8",
+  "birdbase": 8101,
+  "gbif": 5229158,
+  "inaturalist": "4328",
+  "iucn": "22733989",
+  "wikidata": "Q208714",
+  "xeno_canto": "Pelecanus-occidentalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pelecanus_occidentalis",
+  "ebird": "https://ebird.org/species/brnpel",
+  "inaturalist": "https://www.inaturalist.org/taxa/4328",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_pelican",
+   "es": "https://es.wikipedia.org/wiki/Pelecanus_occidentalis",
+   "ru": "https://ru.wikipedia.org/wiki/Американский_бурый_пеликан"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pelecanus+occidentalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Pelican",
+  "en_aco": "Brown Pelican",
+  "es": "Pelícano Pardo",
+  "ru": "Бурый пеликан"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Pelecanus occidentalis",
+ "sci_name_aco": "Pelecanus occidentalis",
+ "sounds": [],
+ "taxon_order": 7792.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "L",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "coastal"
+  ],
+  "mass_g": 3040,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pelecanus%20occidentalis%20at%20Bodega%20Head.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown%20Pelican21K.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown%20pelican%20-%20natures%20pics.jpg"
+ ]
+}

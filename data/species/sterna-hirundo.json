@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "comter",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sterna",
+ "id": "sterna-hirundo",
+ "ids": {
+  "avibase": "4D2FF6F13790ED7E",
+  "birdbase": 7034,
+  "gbif": 9367409,
+  "inaturalist": "4450",
+  "iucn": "22694623",
+  "wikidata": "Q18875",
+  "xeno_canto": "Sterna-hirundo"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sterna_hirundo",
+  "ebird": "https://ebird.org/species/comter",
+  "inaturalist": "https://www.inaturalist.org/taxa/4450",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Common_tern",
+   "es": "https://es.wikipedia.org/wiki/Sterna_hirundo",
+   "ru": "https://ru.wikipedia.org/wiki/Речная_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sterna+hirundo"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Common Tern",
+  "en_aco": "Common Tern",
+  "es": "Charrán Común",
+  "ru": "Речная крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sterna hirundo",
+ "sci_name_aco": "Sterna hirundo",
+ "sounds": [],
+ "taxon_order": 6748.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "grassland",
+   "riparian",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 125.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Common%20tern%202025%2007%2008%2008.jpg"
+ ]
+}

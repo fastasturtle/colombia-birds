@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "megtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-labradorides",
+ "ids": {
+  "avibase": "19CC72C910B7EE0D",
+  "birdbase": 37895,
+  "gbif": 2488101,
+  "inaturalist": "9553",
+  "iucn": "22722909",
+  "wikidata": "Q1042525",
+  "xeno_canto": "Tangara -labradorides"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_labradorides",
+  "ebird": "https://ebird.org/species/megtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9553",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Metallic-green_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_labradorides",
+   "ru": "https://ru.wikipedia.org/wiki/Металлическая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+labradorides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Metallic-green Tanager",
+  "en_aco": "Metallic-green Tanager",
+  "es": "Tangara Verdinegra",
+  "ru": "Блестящая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara labradorides",
+ "sci_name_aco": "Tangara labradorides",
+ "sounds": [],
+ "taxon_order": 35048.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2750,
+   "max_extreme": null,
+   "min": 1300,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 14.133333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Metallic-green%20Tanager%20JCB.jpg"
+ ]
+}

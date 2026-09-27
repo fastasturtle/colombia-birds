@@ -1,0 +1,92 @@
+{
+ "authorship": "(Berlepsch & Hartert, 1902)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orisof1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Thripophaga",
+ "id": "thripophaga-cherriei",
+ "ids": {
+  "avibase": "22823A6462F7053F",
+  "birdbase": 15430,
+  "gbif": 2486008,
+  "inaturalist": "11802",
+  "iucn": "22702585",
+  "wikidata": "Q909205",
+  "xeno_canto": "Thripophaga-cherriei"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thripophaga_cherriei",
+  "ebird": "https://ebird.org/species/orisof1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11802",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orinoco_softtail",
+   "es": "https://es.wikipedia.org/wiki/Thripophaga_cherriei",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thripophaga+cherriei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orinoco Softtail",
+  "en_aco": "Orinoco Softtail",
+  "es": "Colasuave del Orinoco",
+  "ru": "Оринокская мягкохвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thripophaga cherriei",
+ "sci_name_aco": "Thripophaga cherriei",
+ "sounds": [],
+ "taxon_order": 15474.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 150,
+   "max_extreme": null,
+   "min": 120,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thripophaga%20cherriei%20%28Orinoco%20Softtail%29%20near%20In%C3%ADrida%2C%20Guainia%2C%20Colombia%20-%20David%20Jeffrey%20Ringer.jpg"
+ ]
+}

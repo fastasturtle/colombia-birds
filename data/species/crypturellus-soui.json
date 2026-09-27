@@ -1,0 +1,95 @@
+{
+ "authorship": "(Hermann, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "littin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-soui",
+ "ids": {
+  "avibase": "39DD9DD76680A7F0",
+  "birdbase": 75,
+  "gbif": 2477507,
+  "inaturalist": "20535",
+  "iucn": "22678169",
+  "wikidata": "Q609761",
+  "xeno_canto": "Crypturellus-soui"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_soui",
+  "ebird": "https://ebird.org/species/littin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20535",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Little_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_soui",
+   "ru": "https://ru.wikipedia.org/wiki/Малый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+soui"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Little Tinamou",
+  "en_aco": "Little Tinamou",
+  "es": "Tinamú Chico",
+  "ru": "Малый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus soui",
+ "sci_name_aco": "Crypturellus soui",
+ "sounds": [],
+ "taxon_order": 174.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "agricultural"
+  ],
+  "mass_g": 247.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crypturellus%20soui%20%28Vincent%20Vos%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Little%20tinamou.jpg"
+ ]
+}

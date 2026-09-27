@@ -1,0 +1,93 @@
+{
+ "authorship": "(Swainson, 1834)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "btther1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Tigrisoma",
+ "id": "tigrisoma-mexicanum",
+ "ids": {
+  "avibase": "9DB9D67563F08964",
+  "birdbase": 7881,
+  "gbif": 2480867,
+  "inaturalist": "5049",
+  "iucn": "22697259",
+  "wikidata": "Q248025",
+  "xeno_canto": "Tigrisoma-mexicanum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tigrisoma_mexicanum",
+  "ebird": "https://ebird.org/species/btther1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5049",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bare-throated_tiger_heron",
+   "es": "https://es.wikipedia.org/wiki/Tigrisoma_mexicanum",
+   "ru": "https://ru.wikipedia.org/wiki/Гологорлая_тигровая_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tigrisoma+mexicanum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bare-throated Tiger-Heron",
+  "en_aco": "Bare-throated Tiger-Heron",
+  "es": "Avetigre Mexicana",
+  "ru": "Мексиканская тигровая выпь"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Tigrisoma mexicanum",
+ "sci_name_aco": "Tigrisoma mexicanum",
+ "sounds": [],
+ "taxon_order": 7540.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 974.6666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tigrisoma%20mexicanum%203.jpg"
+ ]
+}

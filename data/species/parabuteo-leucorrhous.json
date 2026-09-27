@@ -1,0 +1,92 @@
+{
+ "authorship": "(Quoy & Gaimard, 1824)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whrhaw1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Parabuteo",
+ "id": "parabuteo-leucorrhous",
+ "ids": {
+  "avibase": "8C150371514CA7D5",
+  "birdbase": 8747,
+  "gbif": 7982966,
+  "inaturalist": "201042",
+  "iucn": "22695894",
+  "wikidata": "Q27074635",
+  "xeno_canto": "Parabuteo-leucorrhous"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Parabuteo_leucorrhous",
+  "ebird": "https://ebird.org/species/whrhaw1",
+  "inaturalist": "https://www.inaturalist.org/taxa/201042",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-rumped_hawk",
+   "es": "https://es.wikipedia.org/wiki/Parabuteo_leucorrhous",
+   "ru": "https://ru.wikipedia.org/wiki/Белопоясничный_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Parabuteo+leucorrhous"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-rumped Hawk",
+  "en_aco": "White-rumped Hawk",
+  "es": "Busardo Culiblanco",
+  "ru": "Белопоясничный канюк"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Parabuteo leucorrhous",
+ "sci_name_aco": "Parabuteo leucorrhous",
+ "sounds": [],
+ "taxon_order": 8448.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 353,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Parabuteo%20leucorrhous.jpg"
+ ]
+}

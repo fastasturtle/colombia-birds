@@ -1,0 +1,91 @@
+{
+ "authorship": "(Donegan, 2007)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "antbrf1",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Atlapetes",
+ "id": "atlapetes-blancae",
+ "ids": {
+  "avibase": null,
+  "birdbase": 35692,
+  "gbif": 5788834,
+  "inaturalist": "72547",
+  "iucn": "22735460",
+  "wikidata": "Q580894",
+  "xeno_canto": "Atlapetes-blancae"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atlapetes_blancae",
+  "ebird": "https://ebird.org/species/antbrf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72547",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Antioquia_brushfinch",
+   "es": "https://es.wikipedia.org/wiki/Atlapetes_blancae",
+   "ru": "https://ru.wikipedia.org/wiki/Atlapetes_blancae"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atlapetes+blancae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Antioquia Brushfinch",
+  "en_aco": "Antioquia Brushfinch",
+  "es": "Atlapetes Antioqueño",
+  "ru": "Масковая атлапета"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atlapetes blancae",
+ "sci_name_aco": "Atlapetes blancae",
+ "sounds": [],
+ "taxon_order": 33483.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2950,
+   "max_extreme": null,
+   "min": 2493,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 27.865000000000002,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Antioquia%20Brushfinch%20imported%20from%20iNaturalist%20photo%2053700275%20on%201%20October%202021.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pabher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-anthophilus",
+ "ids": {
+  "avibase": "0636BA022DB80318",
+  "birdbase": 2745,
+  "gbif": 2476595,
+  "inaturalist": "5651",
+  "iucn": "22686955",
+  "wikidata": "Q1271493",
+  "xeno_canto": "Phaethornis-anthophilus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_anthophilus",
+  "ebird": "https://ebird.org/species/pabher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5651",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-bellied_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_anthophilus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+anthophilus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-bellied Hermit",
+  "en_aco": "Pale-bellied Hermit",
+  "es": "Ermitaño Ventripálido",
+  "ru": "Светлобрюхий колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis anthophilus",
+ "sci_name_aco": "Phaethornis anthophilus",
+ "sounds": [],
+ "taxon_order": 4295.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 5.166666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaethornis%20anthophilus%20416392905.jpg"
+ ]
+}

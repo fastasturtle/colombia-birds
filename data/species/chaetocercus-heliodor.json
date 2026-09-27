@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gorwoo2",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chaetocercus",
+ "id": "chaetocercus-heliodor",
+ "ids": {
+  "avibase": "42C220C55A8A0F30",
+  "birdbase": 3286,
+  "gbif": 5228575,
+  "inaturalist": "6182",
+  "iucn": "22688268",
+  "wikidata": "Q1269318",
+  "xeno_canto": "Chaetocercus-heliodor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetocercus_heliodor",
+  "ebird": "https://ebird.org/species/gorwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6182",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gorgeted_woodstar",
+   "es": "https://es.wikipedia.org/wiki/Chaetocercus_heliodor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetocercus+heliodor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gorgeted Woodstar",
+  "en_aco": "Gorgeted Woodstar",
+  "es": "Colibrí de Heliodoro",
+  "ru": "Гелиодоровый эльф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetocercus heliodor",
+ "sci_name_aco": "Chaetocercus heliodor",
+ "sounds": [],
+ "taxon_order": 4784.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 2.225,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chaetocercus%20heliodor%20260007507.jpg"
+ ]
+}

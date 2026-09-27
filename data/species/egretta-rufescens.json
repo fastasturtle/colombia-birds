@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "redegr",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Egretta",
+ "id": "egretta-rufescens",
+ "ids": {
+  "avibase": "D8A24A3EDDC19AA4",
+  "birdbase": 7964,
+  "gbif": 2480888,
+  "inaturalist": "4948",
+  "iucn": "22696916",
+  "wikidata": "Q258791",
+  "xeno_canto": "Egretta-rufescens"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Egretta_rufescens",
+  "ebird": "https://ebird.org/species/redegr",
+  "inaturalist": "https://www.inaturalist.org/taxa/4948",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Reddish_egret",
+   "es": "https://es.wikipedia.org/wiki/Egretta_rufescens",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжеватая_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Egretta+rufescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Reddish Egret",
+  "en_aco": "Reddish Egret",
+  "es": "Garceta Rojiza",
+  "ru": "Рыжеватая цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Egretta rufescens",
+ "sci_name_aco": "Egretta rufescens",
+ "sounds": [],
+ "taxon_order": 7634.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 50,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 616.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Reddish%20Egret%20%2827535568193%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Reddish%20Egret%20%28White%20Morph%29.JPG"
+ ]
+}

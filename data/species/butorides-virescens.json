@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grnher",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Butorides",
+ "id": "butorides-virescens",
+ "ids": {
+  "avibase": "86D45B8F04F61F0E",
+  "birdbase": 8028,
+  "gbif": 9539567,
+  "inaturalist": "5020",
+  "iucn": null,
+  "wikidata": "Q498228",
+  "xeno_canto": "Butorides-virescens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Butorides_virescens",
+  "ebird": "https://ebird.org/species/grnher",
+  "inaturalist": "https://www.inaturalist.org/taxa/5020",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green_heron",
+   "es": "https://es.wikipedia.org/wiki/Butorides_virescens",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_зелёная_кваква"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Butorides+virescens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green Heron",
+  "en_aco": "Green Heron",
+  "es": "Garcilla Verde",
+  "ru": "Зеленоспинная цапля"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Butorides virescens",
+ "sci_name_aco": "Butorides virescens",
+ "sounds": [],
+ "taxon_order": 7704.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "M",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 192.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Heron%20at%20Dunes%20Golf%20Course%2C%20Sanibel.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Butorides%20virescens2.jpg"
+ ]
+}

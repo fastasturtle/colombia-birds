@@ -1,0 +1,94 @@
+{
+ "authorship": "(G.R. Gray, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ragmac1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ara",
+ "id": "ara-chloropterus",
+ "ids": {
+  "avibase": "5DBFB188461107DF",
+  "birdbase": 13540,
+  "gbif": 5959225,
+  "inaturalist": "19016",
+  "iucn": "22685566",
+  "wikidata": "Q739089",
+  "xeno_canto": "Ara-chloropterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ara_chloropterus",
+  "ebird": "https://ebird.org/species/ragmac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19016",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-and-green_macaw",
+   "es": "https://es.wikipedia.org/wiki/Ara_chloropterus",
+   "ru": "https://ru.wikipedia.org/wiki/Зеленокрылый_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ara+chloropterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-and-green Macaw",
+  "en_aco": "Red-and-green Macaw",
+  "es": "Guacamayo Aliverde",
+  "ru": "Зеленокрылый ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ara chloropterus",
+ "sci_name_aco": "Ara chloropterus",
+ "sounds": [],
+ "taxon_order": 13157.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 1379,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/189%20Red-and-green%20macaw%20couple%20flying%20in%20Chapada%20dos%20Guimar%C3%A3es%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ructan3",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Thlypopsis",
+ "id": "thlypopsis-ornata",
+ "ids": {
+  "avibase": "0F68CD7D6A3B417B",
+  "birdbase": 37376,
+  "gbif": 2488696,
+  "inaturalist": "9888",
+  "iucn": "22722257",
+  "wikidata": "Q3114794",
+  "xeno_canto": "Thlypopsis-ornata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Thlypopsis_ornata",
+  "ebird": "https://ebird.org/species/ructan3",
+  "inaturalist": "https://www.inaturalist.org/taxa/9888",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-chested_tanager",
+   "es": "https://es.wikipedia.org/wiki/Thlypopsis_ornata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Thlypopsis+ornata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-chested Tanager",
+  "en_aco": "Rufous-chested Tanager",
+  "es": "Tangara Pechicanela",
+  "ru": "Оранжевая пипира"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Thlypopsis ornata",
+ "sci_name_aco": "Thlypopsis ornata",
+ "sounds": [],
+ "taxon_order": 34718.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": 3800,
+   "min": 1600,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 12.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Thlypopsis%20ornata%20103050574%20%28cropped%29.jpg"
+ ]
+}

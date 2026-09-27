@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cabanis & Heine, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "roltyr3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Acrochordopus",
+ "id": "acrochordopus-burmeisteri",
+ "ids": {
+  "avibase": "0A367B5627D1A4BE",
+  "birdbase": 16880,
+  "gbif": 2484049,
+  "inaturalist": "16481",
+  "iucn": "22699081",
+  "wikidata": "Q1270514",
+  "xeno_canto": "Phyllomyias-burmeisteri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phyllomyias_burmeisteri",
+  "ebird": "https://ebird.org/species/roltyr3",
+  "inaturalist": "https://www.inaturalist.org/taxa/16481",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rough-legged_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Phyllomyias_burmeisteri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Acrochordopus+burmeisteri"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Rough-legged Tyrannulet",
+  "en_aco": "Rough-legged Tyrannulet",
+  "es": "Mosquerito de Burmeister",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Acrochordopus burmeisteri",
+ "sci_name_aco": "Phyllomyias burmeisteri",
+ "sounds": [],
+ "taxon_order": 16788.0,
+ "taxonomy_note": "ACO/SACC lists this as Phyllomyias burmeisteri; eBird/Clements uses Acrochordopus burmeisteri.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 14.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phyllomyias%20burmeisteri%20-%20Rough-legged%20tyrannulet%3B%20Extrema%2C%20Minas%20Gerais%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/TyranniscusSmit1870.jpg"
+ ]
+}

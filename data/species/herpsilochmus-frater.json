@@ -1,0 +1,95 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1880)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruwant3",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Herpsilochmus",
+ "id": "herpsilochmus-frater",
+ "ids": {
+  "avibase": "4E6C31E99CC61C83",
+  "birdbase": 15919,
+  "gbif": 9133663,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q41000235",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Herpsilochmus_frater",
+  "ebird": "https://ebird.org/species/ruwant3",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty-winged_antwren",
+   "es": "https://es.wikipedia.org/wiki/Herpsilochmus_frater",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Herpsilochmus+frater"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Rusty-winged Antwren",
+  "en_aco": "Rufous-margined Antwren",
+  "es": "Tiluchí Alirrufo Norteño",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Herpsilochmus frater",
+ "sci_name_aco": "Herpsilochmus frater",
+ "sounds": [],
+ "taxon_order": 13812.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 10.916666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Herpsilochmus%20rufimarginatus%20exiguus%20-%20Rufous-winged%20Antwren%20-%20Dari%C3%A9n%20-%20Panama.jpg"
+ ]
+}

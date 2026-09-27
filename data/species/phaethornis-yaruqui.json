@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whwher1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Phaethornis",
+ "id": "phaethornis-yaruqui",
+ "ids": {
+  "avibase": "0D34BFF1B31A7FFE",
+  "birdbase": 2750,
+  "gbif": 2476588,
+  "inaturalist": "5633",
+  "iucn": "22686931",
+  "wikidata": "Q259849",
+  "xeno_canto": "Phaethornis-yaruqui"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaethornis_yaruqui",
+  "ebird": "https://ebird.org/species/whwher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5633",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-whiskered_hermit",
+   "es": "https://es.wikipedia.org/wiki/Phaethornis_yaruqui",
+   "ru": "https://ru.wikipedia.org/wiki/Синехвостый_солнечный_колибри"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phaethornis+yaruqui"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-whiskered Hermit",
+  "en_aco": "White-whiskered Hermit",
+  "es": "Ermitaño de Yaruquí",
+  "ru": "Усатый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Phaethornis yaruqui",
+ "sci_name_aco": "Phaethornis yaruqui",
+ "sounds": [],
+ "taxon_order": 4259.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 5.416666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-whiskered%20Hermit%20%28Phaethornis%20yaruqui%29.jpg"
+ ]
+}

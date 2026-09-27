@@ -1,0 +1,94 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bsbeye1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Phlegopsis",
+ "id": "phlegopsis-nigromaculata",
+ "ids": {
+  "avibase": "6FC078E56FA8D965",
+  "birdbase": 16181,
+  "gbif": 2490230,
+  "inaturalist": "15818",
+  "iucn": "22701945",
+  "wikidata": "Q903893",
+  "xeno_canto": "Phlegopsis-nigromaculata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phlegopsis_nigromaculata",
+  "ebird": "https://ebird.org/species/bsbeye1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15818",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-spotted_bare-eye",
+   "es": "https://es.wikipedia.org/wiki/Phlegopsis_nigromaculata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phlegopsis+nigromaculata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-spotted Bare-eye",
+  "en_aco": "Black-spotted Bare-eye",
+  "es": "Hormiguero Maculado",
+  "ru": "Чернопятнистая гологлазка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Phlegopsis nigromaculata",
+ "sci_name_aco": "Phlegopsis nigromaculata",
+ "sounds": [],
+ "taxon_order": 14126.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 44.666666666666664,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phlegopsis%20nigromaculata%201847.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phlegopsis%20nigromaculata%208543335.jpg"
+ ]
+}

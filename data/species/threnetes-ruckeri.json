@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bourcier, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batbar1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Threnetes",
+ "id": "threnetes-ruckeri",
+ "ids": {
+  "avibase": "DDCF894EA9B05C78",
+  "birdbase": 2689,
+  "gbif": 5228462,
+  "inaturalist": "6032",
+  "iucn": "22686925",
+  "wikidata": "Q644670",
+  "xeno_canto": "Threnetes-ruckeri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Threnetes_ruckeri",
+  "ebird": "https://ebird.org/species/batbar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6032",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_barbthroat",
+   "es": "https://es.wikipedia.org/wiki/Threnetes_ruckeri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Threnetes+ruckeri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Barbthroat",
+  "en_aco": "Band-tailed Barbthroat",
+  "es": "Ermitaño Barbudo Colibandeado",
+  "ru": "Полосатохвостый колибри-отшельник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Threnetes ruckeri",
+ "sci_name_aco": "Threnetes ruckeri",
+ "sounds": [],
+ "taxon_order": 4245.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Band-tailed%20Barbthroat%20%28Threnetes%20ruckeri%29.jpg"
+ ]
+}

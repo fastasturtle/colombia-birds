@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "silant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Sclateria",
+ "id": "sclateria-naevia",
+ "ids": {
+  "avibase": "54F437ED1646CF0B",
+  "birdbase": 16321,
+  "gbif": 2490205,
+  "inaturalist": "15949",
+  "iucn": "22701749",
+  "wikidata": "Q1038207",
+  "xeno_canto": "Sclateria-naevia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sclateria_naevia",
+  "ebird": "https://ebird.org/species/silant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15949",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Silvered_antbird",
+   "es": "https://es.wikipedia.org/wiki/Sclateria_naevia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sclateria+naevia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Silvered Antbird",
+  "en_aco": "Silvered Antbird",
+  "es": "Hormiguero Plateado",
+  "ru": "Серебристая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sclateria naevia",
+ "sci_name_aco": "Sclateria naevia",
+ "sounds": [],
+ "taxon_order": 13984.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 23.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sclateria%20naevia%20Silvered%20Antbird%20%28female%29%2C%20Canutama%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L.S. Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amgplo",
+ "family": {
+  "code": "charad1",
+  "en": "Plovers and Lapwings",
+  "sci": "Charadriidae"
+ },
+ "genus": "Pluvialis",
+ "id": "pluvialis-dominica",
+ "ids": {
+  "avibase": "2143A8526CA7C809",
+  "birdbase": 6456,
+  "gbif": 2480328,
+  "inaturalist": "4893",
+  "iucn": "22693740",
+  "wikidata": "Q216836",
+  "xeno_canto": "Pluvialis-dominica"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pluvialis_dominica",
+  "ebird": "https://ebird.org/species/amgplo",
+  "inaturalist": "https://www.inaturalist.org/taxa/4893",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_golden_plover",
+   "es": "https://es.wikipedia.org/wiki/Pluvialis_dominica",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_бурокрылая_ржанка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pluvialis+dominica"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Golden-Plover",
+  "en_aco": "American Golden-Plover",
+  "es": "Chorlito Dorado Americano",
+  "ru": "Американская ржанка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Pluvialis dominica",
+ "sci_name_aco": "Pluvialis dominica",
+ "sounds": [],
+ "taxon_order": 5815.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "BONES",
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 154.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pluvialis%20dominica1.jpg"
+ ]
+}

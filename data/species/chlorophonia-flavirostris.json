@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yecchl1",
+ "family": {
+  "code": "fringi1",
+  "en": "Finches, Euphonias, and Allies",
+  "sci": "Fringillidae"
+ },
+ "genus": "Chlorophonia",
+ "id": "chlorophonia-flavirostris",
+ "ids": {
+  "avibase": null,
+  "birdbase": 34808,
+  "gbif": 2488313,
+  "inaturalist": "10458",
+  "iucn": "22722778",
+  "wikidata": "Q2632829",
+  "xeno_canto": "Chlorophonia-flavirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorophonia_flavirostris",
+  "ebird": "https://ebird.org/species/yecchl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10458",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-collared_chlorophonia",
+   "es": "https://es.wikipedia.org/wiki/Chlorophonia_flavirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковый_органист"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorophonia+flavirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-collared Chlorophonia",
+  "en_aco": "Yellow-collared Chlorophonia",
+  "es": "Clorofonia Acollarada",
+  "ru": "Красноклювый органист"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chlorophonia flavirostris",
+ "sci_name_aco": "Chlorophonia flavirostris",
+ "sounds": [],
+ "taxon_order": 31997.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": null,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 11.466666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chlorophonia%20flavirostris%20-%20Joseph%20Smit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/ChlorophoniaSmit.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bond & Meyer de Schauensee, 1942)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stavir1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-caribaeus",
+ "ids": {
+  "avibase": "27936203923F0B39",
+  "birdbase": 21570,
+  "gbif": 2487431,
+  "inaturalist": "17388",
+  "iucn": "22705203",
+  "wikidata": "Q1302037",
+  "xeno_canto": "Vireo-caribaeus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_caribaeus",
+  "ebird": "https://ebird.org/species/stavir1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17388",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/San_Andres_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_caribaeus",
+   "ru": "https://ru.wikipedia.org/wiki/Карибский_виреон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+caribaeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "San Andres Vireo",
+  "en_aco": "San Andrés Vireo",
+  "es": "Vireo de San Andrés",
+  "ru": "Карибский виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo caribaeus",
+ "sci_name_aco": "Vireo caribaeus",
+ "sounds": [],
+ "taxon_order": 19192.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 55,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "coastal"
+  ],
+  "mass_g": 9.399999999999999,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Andres%20Vireo%20%28Vireo%20caribaeus%29.jpg"
+ ]
+}

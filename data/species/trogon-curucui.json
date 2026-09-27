@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blctro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-curucui",
+ "ids": {
+  "avibase": "706C5A16BE29C46C",
+  "birdbase": 9966,
+  "gbif": 2496659,
+  "inaturalist": "20729",
+  "iucn": "22682816",
+  "wikidata": "Q688318",
+  "xeno_canto": "Trogon-curucui"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_curucui",
+  "ebird": "https://ebird.org/species/blctro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20729",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-crowned_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_curucui",
+   "ru": "https://ru.wikipedia.org/wiki/Синешапочный_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+curucui"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-crowned Trogon",
+  "en_aco": "Blue-crowned Trogon",
+  "es": "Trogón Curucuí",
+  "ru": "Синешапочный трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon curucui",
+ "sci_name_aco": "Trogon curucui",
+ "sounds": [],
+ "taxon_order": 9552.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1750,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 52,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20curucui%202.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-crowned%20trogon%20%28Trogon%20curucui%20peruvianus%29%20male%20Sumaco.jpg"
+ ]
+}

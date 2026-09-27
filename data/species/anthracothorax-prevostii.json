@@ -1,0 +1,97 @@
+{
+ "authorship": "(R. Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gnbman",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Anthracothorax",
+ "id": "anthracothorax-prevostii",
+ "ids": {
+  "avibase": "E266FD04521300C3",
+  "birdbase": 2843,
+  "gbif": 2476722,
+  "inaturalist": "5798",
+  "iucn": "22687125",
+  "wikidata": "Q1065472",
+  "xeno_canto": "Anthracothorax-prevostii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anthracothorax_prevostii",
+  "ebird": "https://ebird.org/species/gnbman",
+  "inaturalist": "https://www.inaturalist.org/taxa/5798",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-breasted_mango",
+   "es": "https://es.wikipedia.org/wiki/Anthracothorax_prevostii",
+   "ru": "https://ru.wikipedia.org/wiki/Колибри_Прево"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthracothorax+prevostii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-breasted Mango",
+  "en_aco": "Green-breasted Mango",
+  "es": "Mango Pechiverde",
+  "ru": "Зеленогрудый манго"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Anthracothorax prevostii",
+ "sci_name_aco": "Anthracothorax prevostii",
+ "sounds": [],
+ "taxon_order": 4388.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 6.483333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green-breasted%20Mango%20%28Anthracothorax%20prevostii%29RWD.jpg"
+ ]
+}

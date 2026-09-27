@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pibgre",
+ "family": {
+  "code": "podici1",
+  "en": "Grebes",
+  "sci": "Podicipedidae"
+ },
+ "genus": "Podilymbus",
+ "id": "podilymbus-podiceps",
+ "ids": {
+  "avibase": "9A8E55D00554A088",
+  "birdbase": 6218,
+  "gbif": 2482077,
+  "inaturalist": "4246",
+  "iucn": "22696574",
+  "wikidata": "Q579718",
+  "xeno_canto": "Podilymbus-podiceps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Podilymbus_podiceps",
+  "ebird": "https://ebird.org/species/pibgre",
+  "inaturalist": "https://www.inaturalist.org/taxa/4246",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pied-billed_grebe",
+   "es": "https://es.wikipedia.org/wiki/Podilymbus_podiceps",
+   "ru": "https://ru.wikipedia.org/wiki/Каролинская_поганка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Podilymbus+podiceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pied-billed Grebe",
+  "en_aco": "Pied-billed Grebe",
+  "es": "Zampullín Picogrueso",
+  "ru": "Пестроклювая поганка"
+ },
+ "order": "Podicipediformes",
+ "photos": [],
+ "sci_name": "Podilymbus podiceps",
+ "sci_name_aco": "Podilymbus podiceps",
+ "sounds": [],
+ "taxon_order": 6855.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4080,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 407,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pied-billed%20Grebe%20%2853638106406%29%20%28cropped%29.jpg"
+ ]
+}

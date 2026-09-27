@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gould, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gorsun1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliangelus",
+ "id": "heliangelus-strophianus",
+ "ids": {
+  "avibase": "D88EA52817EE5D51",
+  "birdbase": 2874,
+  "gbif": 2476710,
+  "inaturalist": "6189",
+  "iucn": "22687890",
+  "wikidata": "Q118698",
+  "xeno_canto": "Heliangelus-strophianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliangelus_strophianus",
+  "ebird": "https://ebird.org/species/gorsun1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6189",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gorgeted_sunangel",
+   "es": "https://es.wikipedia.org/wiki/Heliangelus_strophianus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliangelus+strophianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gorgeted Sunangel",
+  "en_aco": "Gorgeted Sunangel",
+  "es": "Colibrí Pectoral",
+  "ru": "Ошейниковый феб"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliangelus strophianus",
+ "sci_name_aco": "Heliangelus strophianus",
+ "sounds": [],
+ "taxon_order": 4413.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5.3999999999999995,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gorgeted%20Sunangel%20JCB.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliangelus%20strophianus.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gorgeted%20Sunangel%20%28m%29%20JCB.jpg"
+ ]
+}

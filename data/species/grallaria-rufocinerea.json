@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1879)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bicant3",
+ "family": {
+  "code": "gralla2",
+  "en": "Antpittas",
+  "sci": "Grallariidae"
+ },
+ "genus": "Grallaria",
+ "id": "grallaria-rufocinerea",
+ "ids": {
+  "avibase": "E1A86347487501C4",
+  "birdbase": 16572,
+  "gbif": 2490543,
+  "inaturalist": "117202",
+  "iucn": "22703292",
+  "wikidata": "Q905290",
+  "xeno_canto": "Grallaria-rufocinerea"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_rufocinerea",
+  "ebird": "https://ebird.org/species/bicant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/117202",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bicolored_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_rufocinerea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+rufocinerea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bicolored Antpitta",
+  "en_aco": "Bicolored Antpitta",
+  "es": "Tororoí Bicolor",
+  "ru": "Рыжеголовая питтовая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Grallaria rufocinerea",
+ "sci_name_aco": "Grallaria rufocinerea",
+ "sounds": [],
+ "taxon_order": 14267.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3150,
+   "max_extreme": 3300,
+   "min": 2200,
+   "min_extreme": 1900
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 44.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bicoloured%20antpitta%20%28Grallaria%20rufocinerea%20rufocinerea%29%20Caldas.jpg"
+ ]
+}

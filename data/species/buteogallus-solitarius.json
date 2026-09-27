@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "soleag1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Buteogallus",
+ "id": "buteogallus-solitarius",
+ "ids": {
+  "avibase": "5C9AF2BEB3ADDAC6",
+  "birdbase": 8726,
+  "gbif": 7836955,
+  "inaturalist": "199912",
+  "iucn": "22695849",
+  "wikidata": "Q1272859",
+  "xeno_canto": "Buteogallus-solitarius"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Buteogallus_solitarius",
+  "ebird": "https://ebird.org/species/soleag1",
+  "inaturalist": "https://www.inaturalist.org/taxa/199912",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Solitary_eagle",
+   "es": "https://es.wikipedia.org/wiki/Buteogallus_solitarius",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_орёл-отшельник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Buteogallus+solitarius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Solitary Eagle",
+  "en_aco": "Solitary Eagle",
+  "es": "Águila Solitaria",
+  "ru": "Горная агуйя-отшельник"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Buteogallus solitarius",
+ "sci_name_aco": "Buteogallus solitarius",
+ "sounds": [],
+ "taxon_order": 8425.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": 2900,
+   "min": 500,
+   "min_extreme": 200
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 2500,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Solitary%20Eagle.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cassin, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bufowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Aegolius",
+ "id": "aegolius-harrisii",
+ "ids": {
+  "avibase": "10C68CA361530093",
+  "birdbase": 9098,
+  "gbif": 5232210,
+  "inaturalist": "20367",
+  "iucn": "22689378",
+  "wikidata": "Q257878",
+  "xeno_canto": "Aegolius-harrisii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aegolius_harrisii",
+  "ebird": "https://ebird.org/species/bufowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20367",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-fronted_owl",
+   "es": "https://es.wikipedia.org/wiki/Aegolius_harrisii",
+   "ru": "https://ru.wikipedia.org/wiki/Светлолобый_мохноногий_сыч"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aegolius+harrisii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-fronted Owl",
+  "en_aco": "Buff-fronted Owl",
+  "es": "Mochuelo Canela",
+  "ru": "Масковый сыч"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Aegolius harrisii",
+ "sci_name_aco": "Aegolius harrisii",
+ "sounds": [],
+ "taxon_order": 9314.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 109.66666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aegolius%20harrisii-Buff-fronted%20Owl.jpg"
+ ]
+}

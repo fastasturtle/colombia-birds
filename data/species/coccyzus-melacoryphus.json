@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dabcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccyzus",
+ "id": "coccyzus-melacoryphus",
+ "ids": {
+  "avibase": "5426F64E9FDF41DE",
+  "birdbase": 4109,
+  "gbif": 2496297,
+  "inaturalist": "1966",
+  "iucn": "22684343",
+  "wikidata": "Q969834",
+  "xeno_canto": "Coccyzus-melacoryphus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccyzus_melacoryphus",
+  "ebird": "https://ebird.org/species/dabcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1966",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dark-billed_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccyzus_melacoryphus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccyzus+melacoryphus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dark-billed Cuckoo",
+  "en_aco": "Dark-billed Cuckoo",
+  "es": "Cuclillo Canela",
+  "ru": "Галапагосская пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccyzus melacoryphus",
+ "sci_name_aco": "Coccyzus melacoryphus",
+ "sounds": [],
+ "taxon_order": 3237.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 950,
+   "max_extreme": 3600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 53.125,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2018-12-30%2008.54.52-DSC04763.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coccyzus%20melacoryphus.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Cabanis, 1849)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grasal4",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Saltator",
+ "id": "saltator-olivascens",
+ "ids": {
+  "avibase": "BBCAE2A7705182D0",
+  "birdbase": 36902,
+  "gbif": 9105847,
+  "inaturalist": "1286908",
+  "iucn": "103812685",
+  "wikidata": "Q55118652",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Saltator_olivascens",
+  "ebird": "https://ebird.org/species/grasal4",
+  "inaturalist": "https://www.inaturalist.org/taxa/1286908",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Olive-grey_saltator",
+   "es": "https://es.wikipedia.org/wiki/Saltator_olivascens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saltator+olivascens"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Olive-gray Saltator",
+  "en_aco": "Olive-gray Saltator",
+  "es": "Pepitero Grisáceo del Caribe",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Saltator olivascens",
+ "sci_name_aco": "Saltator olivascens",
+ "sounds": [],
+ "taxon_order": 35802.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 53.083333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Saltator%20coerulescens%20-Ocumare%20de%20la%20Costa%2C%20Aragua%2C%20Venezuela-8-4c.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Salvin & Godman, 1881)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "copeme1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorostilbon",
+ "id": "chlorostilbon-russatus",
+ "ids": {
+  "avibase": "3B22C2E7111AB992",
+  "birdbase": 3390,
+  "gbif": 2476065,
+  "inaturalist": "6114",
+  "iucn": "22687345",
+  "wikidata": "Q1261475",
+  "xeno_canto": "Chlorostilbon-russatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorostilbon_russatus",
+  "ebird": "https://ebird.org/species/copeme1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6114",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Coppery_emerald",
+   "es": "https://es.wikipedia.org/wiki/Chlorostilbon_russatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorostilbon+russatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Coppery Emerald",
+  "en_aco": "Coppery Emerald",
+  "es": "Esmeralda Bronceada",
+  "ru": "Бронзовохвостый изумруд"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorostilbon russatus",
+ "sci_name_aco": "Chlorostilbon russatus",
+ "sounds": [],
+ "taxon_order": 4912.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2600,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 3.3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Shrub",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coppery%20Emerald%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochiSupplementGoul%200326%20%28cropped2%29.jpg"
+ ]
+}

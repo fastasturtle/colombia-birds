@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gobfru1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Pipreola",
+ "id": "pipreola-aureopectus",
+ "ids": {
+  "avibase": "7A7926356E9C573A",
+  "birdbase": 18234,
+  "gbif": 2486386,
+  "inaturalist": "8777",
+  "iucn": "22700791",
+  "wikidata": "Q610194",
+  "xeno_canto": "Pipreola-aureopectus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipreola_aureopectus",
+  "ebird": "https://ebird.org/species/gobfru1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8777",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-breasted_fruiteater",
+   "es": "https://es.wikipedia.org/wiki/Pipreola_aureopectus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipreola+aureopectus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-breasted Fruiteater",
+  "en_aco": "Golden-breasted Fruiteater",
+  "es": "Frutero Pechidorado",
+  "ru": "Златогрудый ягодоед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pipreola aureopectus",
+ "sci_name_aco": "Pipreola aureopectus",
+ "sounds": [],
+ "taxon_order": 15862.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 48.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pipreola%20aureopectus%20Museum%20de%20Gen%C3%A8ve.JPG"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "treswa",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Tachycineta",
+ "id": "tachycineta-bicolor",
+ "ids": {
+  "avibase": "BBA2F9DF60AE60BF",
+  "birdbase": 25132,
+  "gbif": 2489181,
+  "inaturalist": "11935",
+  "iucn": "22712057",
+  "wikidata": "Q922192",
+  "xeno_canto": "Tachycineta-bicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tachycineta_bicolor",
+  "ebird": "https://ebird.org/species/treswa",
+  "inaturalist": "https://www.inaturalist.org/taxa/11935",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tree_swallow",
+   "es": "https://es.wikipedia.org/wiki/Tachycineta_bicolor",
+   "ru": "https://ru.wikipedia.org/wiki/Древесная_американская_ласточка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tachycineta+bicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tree Swallow",
+  "en_aco": "Tree Swallow",
+  "es": "Golondrina Bicolor",
+  "ru": "Древесная ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tachycineta bicolor",
+ "sci_name_aco": "Tachycineta bicolor",
+ "sounds": [],
+ "taxon_order": 24064.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 20.875,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tree%20swallow%20in%20JBWR%20%2825579%29.jpg"
+ ]
+}

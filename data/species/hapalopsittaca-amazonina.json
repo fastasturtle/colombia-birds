@@ -1,0 +1,92 @@
+{
+ "authorship": "(Des Murs, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rufpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Hapalopsittaca",
+ "id": "hapalopsittaca-amazonina",
+ "ids": {
+  "avibase": "6967FA9429E08358",
+  "birdbase": 13218,
+  "gbif": 2479473,
+  "inaturalist": "19324",
+  "iucn": "22686158",
+  "wikidata": "Q1261295",
+  "xeno_canto": "Hapalopsittaca-amazonina"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hapalopsittaca_amazonina",
+  "ebird": "https://ebird.org/species/rufpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/19324",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rusty-faced_parrot",
+   "es": "https://es.wikipedia.org/wiki/Hapalopsittaca_amazonina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hapalopsittaca+amazonina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rusty-faced Parrot",
+  "en_aco": "Rusty-faced Parrot",
+  "es": "Lorito Amazonino",
+  "ru": "Рыжелицый лорито"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Hapalopsittaca amazonina",
+ "sci_name_aco": "Hapalopsittaca amazonina",
+ "sounds": [],
+ "taxon_order": 12852.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": null,
+   "min": 2500,
+   "min_extreme": 2000
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 106,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hapalopsittaca%20amazonina%201849.jpg"
+ ]
+}

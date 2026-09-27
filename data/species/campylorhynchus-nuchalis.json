@@ -1,0 +1,95 @@
+{
+ "authorship": "(Cabanis, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stbwre2",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Campylorhynchus",
+ "id": "campylorhynchus-nuchalis",
+ "ids": {
+  "avibase": "5987A3C3605C954F",
+  "birdbase": 28875,
+  "gbif": 5231472,
+  "inaturalist": "7468",
+  "iucn": "22711319",
+  "wikidata": "Q2667961",
+  "xeno_canto": "Campylorhynchus-nuchalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Campylorhynchus_nuchalis",
+  "ebird": "https://ebird.org/species/stbwre2",
+  "inaturalist": "https://www.inaturalist.org/taxa/7468",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Stripe-backed_wren",
+   "es": "https://es.wikipedia.org/wiki/Campylorhynchus_nuchalis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Campylorhynchus+nuchalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Stripe-backed Wren",
+  "en_aco": "Stripe-backed Wren",
+  "es": "Cucarachero Chocorocoy",
+  "ru": "Полосатый крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Campylorhynchus nuchalis",
+ "sci_name_aco": "Campylorhynchus nuchalis",
+ "sounds": [],
+ "taxon_order": 27422.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 23.3,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Campylorhynchus%20nuchalis%20brevipennis%202.jpg"
+ ]
+}

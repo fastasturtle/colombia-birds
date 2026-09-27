@@ -1,0 +1,89 @@
+{
+ "authorship": "(Chapman, 1929)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bartin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-casiquiare",
+ "ids": {
+  "avibase": "26D1CE28B517420A",
+  "birdbase": 149,
+  "gbif": 2477570,
+  "inaturalist": "20533",
+  "iucn": "22678235",
+  "wikidata": "Q1151428",
+  "xeno_canto": "Crypturellus-casiquiare"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_casiquiare",
+  "ebird": "https://ebird.org/species/bartin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20533",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Barred_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_casiquiare",
+   "ru": "https://ru.wikipedia.org/wiki/Полосатый_скрытохвост"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+casiquiare"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Barred Tinamou",
+  "en_aco": "Barred Tinamou",
+  "es": "Tinamú del Casiquiare",
+  "ru": "Полосатый скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus casiquiare",
+ "sci_name_aco": "Crypturellus casiquiare",
+ "sounds": [],
+ "taxon_order": 172.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 200,
+   "max_extreme": null,
+   "min": "L",
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 287.625,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

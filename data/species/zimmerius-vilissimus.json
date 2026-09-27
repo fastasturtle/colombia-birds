@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1859)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paltyr2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Zimmerius",
+ "id": "zimmerius-vilissimus",
+ "ids": {
+  "avibase": "236A79C71F383CC0",
+  "birdbase": 17152,
+  "gbif": 2483943,
+  "inaturalist": "16255",
+  "iucn": "103680824",
+  "wikidata": "Q837572",
+  "xeno_canto": "Zimmerius-vilissimus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zimmerius_vilissimus",
+  "ebird": "https://ebird.org/species/paltyr2",
+  "inaturalist": "https://www.inaturalist.org/taxa/16255",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Guatemalan_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Zimmerius_vilissimus",
+   "ru": "https://ru.wikipedia.org/wiki/Очковый_карликовый_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zimmerius+vilissimus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Guatemalan Tyrannulet",
+  "en_aco": "Mistletoe Tyrannulet",
+  "es": "Mosquerito Nimio",
+  "ru": "Очковый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zimmerius vilissimus",
+ "sci_name_aco": "Zimmerius vilissimus",
+ "sounds": [],
+ "taxon_order": 16799.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 10.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Zimmerius%20vilissimus%20%26%20Myiopagis%20viridicata%20placens%201859%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubcon1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Conirostrum",
+ "id": "conirostrum-rufum",
+ "ids": {
+  "avibase": "1F1C4F9397F2030D",
+  "birdbase": 37439,
+  "gbif": 5230617,
+  "inaturalist": "10006",
+  "iucn": "22722105",
+  "wikidata": "Q1588548",
+  "xeno_canto": "Conirostrum-rufum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Conirostrum_rufum",
+  "ebird": "https://ebird.org/species/rubcon1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10006",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-browed_conebill",
+   "es": "https://es.wikipedia.org/wiki/Conirostrum_rufum",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжебровый_остроклювый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Conirostrum+rufum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-browed Conebill",
+  "en_aco": "Rufous-browed Conebill",
+  "es": "Conirrostro Rufo",
+  "ru": "Рыжебровый конусоклюв"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Conirostrum rufum",
+ "sci_name_aco": "Conirostrum rufum",
+ "sounds": [],
+ "taxon_order": 35264.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 11,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Conirostrum%20rufum.jpg"
+ ]
+}

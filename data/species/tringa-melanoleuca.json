@@ -1,0 +1,95 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "greyel",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Tringa",
+ "id": "tringa-melanoleuca",
+ "ids": {
+  "avibase": "6EB81C98A8FD9CE6",
+  "birdbase": 6790,
+  "gbif": 2481720,
+  "inaturalist": "3892",
+  "iucn": "22693231",
+  "wikidata": "Q570379",
+  "xeno_canto": "Tringa-melanoleuca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tringa_melanoleuca",
+  "ebird": "https://ebird.org/species/greyel",
+  "inaturalist": "https://www.inaturalist.org/taxa/3892",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greater_yellowlegs",
+   "es": "https://es.wikipedia.org/wiki/Tringa_melanoleuca",
+   "ru": "https://ru.wikipedia.org/wiki/Пёстрый_улит"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tringa+melanoleuca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Greater Yellowlegs",
+  "en_aco": "Greater Yellowlegs",
+  "es": "Archibebe Patigualdo Grande",
+  "ru": "Пёстрый улит"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Tringa melanoleuca",
+ "sci_name_aco": "Tringa melanoleuca",
+ "sounds": [],
+ "taxon_order": 6154.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 169.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Greater%20Yellowlegs2.jpg"
+ ]
+}

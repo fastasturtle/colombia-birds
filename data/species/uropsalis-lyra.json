@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bonaparte, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lytnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Uropsalis",
+ "id": "uropsalis-lyra",
+ "ids": {
+  "avibase": "59EE32400DBA266C",
+  "birdbase": 1918,
+  "gbif": 2497074,
+  "inaturalist": "19557",
+  "iucn": "22690043",
+  "wikidata": "Q1269311",
+  "xeno_canto": "Uropsalis-lyra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Uropsalis_lyra",
+  "ebird": "https://ebird.org/species/lytnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19557",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lyre-tailed_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Uropsalis_lyra",
+   "ru": "https://ru.wikipedia.org/wiki/Лирохвостый_ласточковый_козодой"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Uropsalis+lyra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lyre-tailed Nightjar",
+  "en_aco": "Lyre-tailed Nightjar",
+  "es": "Chotacabras Lira",
+  "ru": "Лирохвостый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Uropsalis lyra",
+ "sci_name_aco": "Uropsalis lyra",
+ "sounds": [],
+ "taxon_order": 3540.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": 3500,
+   "min": 1100,
+   "min_extreme": 800
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "riparian"
+  ],
+  "mass_g": 71.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Uropsalis%20lyra%20%28male%29%20-NW%20Ecuacor-3.jpg"
+ ]
+}

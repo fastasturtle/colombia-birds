@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "souemt1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Aulacorhynchus",
+ "id": "aulacorhynchus-albivitta",
+ "ids": {
+  "avibase": "570F25913107A415",
+  "birdbase": 11262,
+  "gbif": 6101211,
+  "inaturalist": "558484",
+  "iucn": "42611196",
+  "wikidata": "Q3532791",
+  "xeno_canto": "Aulacorhynchus-albivitta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aulacorhynchus_albivitta",
+  "ebird": "https://ebird.org/species/souemt1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558484",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Southern_emerald_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Aulacorhynchus_albivitta",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aulacorhynchus+albivitta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Southern Emerald-Toucanet",
+  "en_aco": "Southern Emerald-Toucanet",
+  "es": "Tucanete Gorjiblanco",
+  "ru": "Андский туканет"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Aulacorhynchus albivitta",
+ "sci_name_aco": "Aulacorhynchus albivitta",
+ "sounds": [],
+ "taxon_order": 10845.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": 3100,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "plantation"
+  ],
+  "mass_g": 191.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aulacorhynchus%20albivitta%20%2814458390459%29.jpg"
+ ]
+}

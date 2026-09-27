@@ -1,0 +1,92 @@
+{
+ "authorship": "(Swainson, 1835)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gryela3",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiopagis",
+ "id": "myiopagis-caniceps",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16907,
+  "gbif": 2482960,
+  "inaturalist": "718613",
+  "iucn": null,
+  "wikidata": "Q27618022",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/gryela3",
+  "inaturalist": "https://www.inaturalist.org/taxa/718613",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+caniceps"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Gray-headed Elaenia",
+  "en_aco": "Gray Elaenia",
+  "es": "Fiofío Gris del Atlántico",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiopagis caniceps",
+ "sci_name_aco": "Myiopagis caniceps",
+ "sounds": [],
+ "taxon_order": 16668.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

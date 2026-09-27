@@ -1,0 +1,93 @@
+{
+ "authorship": "(Natterer & Malherbe, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wavwoo5",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Celeus",
+ "id": "celeus-undatus",
+ "ids": {
+  "avibase": "66D79712516227C7",
+  "birdbase": 12466,
+  "gbif": 5228935,
+  "inaturalist": "18076",
+  "iucn": "22681320",
+  "wikidata": "Q977516",
+  "xeno_canto": "Celeus-grammicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Celeus_grammicus",
+  "ebird": "https://ebird.org/species/wavwoo5",
+  "inaturalist": "https://www.inaturalist.org/taxa/18076",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scaly-breasted_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Celeus_grammicus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Celeus+undatus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Waved Woodpecker",
+  "en_aco": "Scale-breasted Woodpecker",
+  "es": "Carpintero Ondulado",
+  "ru": null
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Celeus undatus",
+ "sci_name_aco": "Celeus grammicus",
+ "sounds": [],
+ "taxon_order": 11799.0,
+ "taxonomy_note": "ACO/SACC lists this as Celeus grammicus; eBird/Clements uses Celeus undatus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1140,
+   "min": 100,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 67.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Celeus%20grammicus%20-%20Scaly-breasted%20woodpecker%20%28female%29%2C%20Manacapuru%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

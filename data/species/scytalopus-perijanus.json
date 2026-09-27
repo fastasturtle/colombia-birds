@@ -1,0 +1,92 @@
+{
+ "authorship": "(Avendaño, Cuervo, López-O, Gutiérrez-Pinto, Cortés-Diago & Cadena, 2015)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pertap1",
+ "family": {
+  "code": "rhinoc1",
+  "en": "Tapaculos",
+  "sci": "Rhinocryptidae"
+ },
+ "genus": "Scytalopus",
+ "id": "scytalopus-perijanus",
+ "ids": {
+  "avibase": "C98B936330D30636",
+  "birdbase": 16827,
+  "gbif": 8986607,
+  "inaturalist": "475001",
+  "iucn": "103661232",
+  "wikidata": "Q19728858",
+  "xeno_canto": "Scytalopus-perijanus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Scytalopus_perijanus",
+  "ebird": "https://ebird.org/species/pertap1",
+  "inaturalist": "https://www.inaturalist.org/taxa/475001",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Perijá_tapaculo",
+   "es": "https://es.wikipedia.org/wiki/Scytalopus_perijanus",
+   "ru": "https://ru.wikipedia.org/wiki/Scytalopus_perijanus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Scytalopus+perijanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Perija Tapaculo",
+  "en_aco": "Perija Tapaculo",
+  "es": "Churrín del Perijá",
+  "ru": "Перихский тапакуло"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Scytalopus perijanus",
+ "sci_name_aco": "Scytalopus perijanus",
+ "sounds": [],
+ "taxon_order": 14458.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3225,
+   "min": 2500,
+   "min_extreme": 1600
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 18.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scytalopus%20perijanus%20%2816786170472%29.jpg"
+ ]
+}

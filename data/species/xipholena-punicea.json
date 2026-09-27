@@ -1,0 +1,93 @@
+{
+ "authorship": "(Pallas, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pomcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Xipholena",
+ "id": "xipholena-punicea",
+ "ids": {
+  "avibase": "FCFA9431307AE5A7",
+  "birdbase": 18322,
+  "gbif": 2486348,
+  "inaturalist": "8905",
+  "iucn": "22700894",
+  "wikidata": "Q942473",
+  "xeno_canto": "Xipholena-punicea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xipholena_punicea",
+  "ebird": "https://ebird.org/species/pomcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8905",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pompadour_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Xipholena_punicea",
+   "ru": "https://ru.wikipedia.org/wiki/Котинга-помпадур"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Xipholena+punicea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pompadour Cotinga",
+  "en_aco": "Pompadour Cotinga",
+  "es": "Cotinga Pompadour",
+  "ru": "Котинга-помпадур"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Xipholena punicea",
+ "sci_name_aco": "Xipholena punicea",
+ "sounds": [],
+ "taxon_order": 15952.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 67.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Perched%20Pompadour%20Cotinga.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xipholena%20punicea%20Cotinga%20Pompadour%20%28female%29%2C%20ZF%20canopy%20tower%2C%20Manaus%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
+}

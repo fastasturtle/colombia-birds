@@ -1,0 +1,95 @@
+{
+ "authorship": "(Hermann, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "beabel1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Procnias",
+ "id": "procnias-averano",
+ "ids": {
+  "avibase": "C5682CE468C95F4D",
+  "birdbase": 18309,
+  "gbif": 2486400,
+  "inaturalist": "8851",
+  "iucn": "22700965",
+  "wikidata": "Q776062",
+  "xeno_canto": "Procnias-averano"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Procnias_averano",
+  "ebird": "https://ebird.org/species/beabel1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8851",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bearded_bellbird",
+   "es": "https://es.wikipedia.org/wiki/Procnias_averano",
+   "ru": "https://ru.wikipedia.org/wiki/Чернокрылый_звонарь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Procnias+averano"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bearded Bellbird",
+  "en_aco": "Bearded Bellbird",
+  "es": "Campanero Barbudo",
+  "ru": "Бородатый звонарь"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Procnias averano",
+ "sci_name_aco": "Procnias averano",
+ "sounds": [],
+ "taxon_order": 15944.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 150,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 143.5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Procnias%20averano%201838.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Procnias%20averano%20-%20Bearded%20Bellbird%20%28female%29%3B%20Caxias%2C%20Maranh%C3%A3o%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Rainbirder%20-%20Bearded%20Bellbird%20%28Procnias%20averano%29%20male%20calling.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grcbri1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-jacula",
+ "ids": {
+  "avibase": "826BF290C159A3EE",
+  "birdbase": 3201,
+  "gbif": 2476948,
+  "inaturalist": "5914",
+  "iucn": "22687740",
+  "wikidata": "Q1265911",
+  "xeno_canto": "Heliodoxa-jacula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_jacula",
+  "ebird": "https://ebird.org/species/grcbri1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5914",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-crowned_brilliant",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_jacula",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+jacula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-crowned Brilliant",
+  "en_aco": "Green-crowned Brilliant",
+  "es": "Brillante Coroniverde",
+  "ru": "Синегрудый бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa jacula",
+ "sci_name_aco": "Heliodoxa jacula",
+ "sounds": [],
+ "taxon_order": 4706.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 300,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 7.633333333333333,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Green-crowned%20Brilliant%20JCB.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliodoxa%20jacula2.jpg"
+ ]
+}

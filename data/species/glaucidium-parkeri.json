@@ -1,0 +1,89 @@
+{
+ "authorship": "(Robbins & S.N.G.Howell, 1995)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "supowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Glaucidium",
+ "id": "glaucidium-parkeri",
+ "ids": {
+  "avibase": "4F3948B7687B8FB3",
+  "birdbase": 9235,
+  "gbif": 5232095,
+  "inaturalist": "19804",
+  "iucn": "22729162",
+  "wikidata": "Q145846",
+  "xeno_canto": "Glaucidium-parkeri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/supowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19804",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Subtropical_pygmy_owl",
+   "es": "https://es.wikipedia.org/wiki/Glaucidium_parkeri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Glaucidium+parkeri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Subtropical Pygmy-Owl",
+  "en_aco": "Subtropical Pygmy-Owl",
+  "es": "Mochuelo de Parker",
+  "ru": "Субтропический сычик"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Glaucidium parkeri",
+ "sci_name_aco": "Glaucidium parkeri",
+ "sounds": [],
+ "taxon_order": 9024.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 61.599999999999994,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rinant2",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Corythopis",
+ "id": "corythopis-torquatus",
+ "ids": {
+  "avibase": "3765D5316D79914A",
+  "birdbase": 17125,
+  "gbif": 2484069,
+  "inaturalist": "17259",
+  "iucn": "22699061",
+  "wikidata": "Q869267",
+  "xeno_canto": "Corythopis-torquatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Corythopis_torquatus",
+  "ebird": "https://ebird.org/species/rinant2",
+  "inaturalist": "https://www.inaturalist.org/taxa/17259",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ringed_antpipit",
+   "es": "https://es.wikipedia.org/wiki/Corythopis_torquatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Corythopis+torquatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ringed Antpipit",
+  "en_aco": "Ringed Antpipit",
+  "es": "Mosquero Terrestre Norteño",
+  "ru": "Коньковый москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Corythopis torquatus",
+ "sci_name_aco": "Corythopis torquatus",
+ "sounds": [],
+ "taxon_order": 16290.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 15.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Corythopis%20torquatus%20-%20Ringed%20Antpipit%3B%20Rio%20Branco%2C%20Acre%2C%20Brazil%2001.jpg"
+ ]
+}

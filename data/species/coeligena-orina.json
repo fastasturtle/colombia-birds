@@ -1,0 +1,91 @@
+{
+ "authorship": "(Wetmore, 1953)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "dussta1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-orina",
+ "ids": {
+  "avibase": "A6DBD3C6AF8920A8",
+  "birdbase": 3133,
+  "gbif": 2477035,
+  "inaturalist": "72748",
+  "iucn": "22687828",
+  "wikidata": "Q548673",
+  "xeno_canto": "Coeligena-orina"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_orina",
+  "ebird": "https://ebird.org/species/dussta1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72748",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky_starfrontlet",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_orina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+orina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky Starfrontlet",
+  "en_aco": "Dusky Starfrontlet",
+  "es": "Inca de Antioquía",
+  "ru": "Зелёный инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena orina",
+ "sci_name_aco": "Coeligena orina",
+ "sounds": [],
+ "taxon_order": 4647.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 3100,
+   "min_extreme": 2500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6.95,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dusky%20Starfrontlet%20%28male%29.jpg"
+ ]
+}

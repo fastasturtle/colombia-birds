@@ -1,0 +1,94 @@
+{
+ "authorship": "(Tschudi, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grygul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Leucophaeus",
+ "id": "leucophaeus-modestus",
+ "ids": {
+  "avibase": "804CCA3A1ECAF682",
+  "birdbase": 7111,
+  "gbif": 6065847,
+  "inaturalist": "144513",
+  "iucn": null,
+  "wikidata": "Q1265250",
+  "xeno_canto": "Leucophaeus-modestus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leucophaeus_modestus",
+  "ebird": "https://ebird.org/species/grygul",
+  "inaturalist": "https://www.inaturalist.org/taxa/144513",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey_gull",
+   "es": "https://es.wikipedia.org/wiki/Leucophaeus_modestus",
+   "ru": "https://ru.wikipedia.org/wiki/Серая_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leucophaeus+modestus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray Gull",
+  "en_aco": "Gray Gull",
+  "es": "Gaviota Garuma",
+  "ru": "Серая чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Leucophaeus modestus",
+ "sci_name_aco": "Leucophaeus modestus",
+ "sounds": [],
+ "taxon_order": 6488.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "riparian",
+   "desert",
+   "coastal"
+  ],
+  "mass_g": 325,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Gull%2C%20Santa%20Elena%2C%20Ecuador%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gaviota%20garuma%20%28Leucophaeus%20modestus%29.%20Parque%20nacional%20Pan%20de%20Az%C3%BAcar.%20Regi%C3%B3n%20de%20Atacama.%20Chile.jpg"
+ ]
+}

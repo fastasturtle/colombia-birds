@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Hydropsalis",
+ "id": "hydropsalis-cayennensis",
+ "ids": {
+  "avibase": "663835A693CBCD31",
+  "birdbase": 1922,
+  "gbif": 7676017,
+  "inaturalist": "337418",
+  "iucn": "22689823",
+  "wikidata": "Q27074763",
+  "xeno_canto": "Hydropsalis-cayennensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Caprimulgus_cayennensis",
+  "ebird": "https://ebird.org/species/whtnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/337418",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Hydropsalis_cayennensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydropsalis+cayennensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Nightjar",
+  "en_aco": "White-tailed Nightjar",
+  "es": "Chotacabras Coliblanco",
+  "ru": "Белохвостый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Hydropsalis cayennensis",
+ "sci_name_aco": "Hydropsalis cayennensis",
+ "sounds": [],
+ "taxon_order": 3560.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1200,
+   "max_extreme": 2100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland"
+  ],
+  "mass_g": 35.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-tailed%20Nightjar.jpg"
+ ]
+}

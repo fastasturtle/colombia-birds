@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1853)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "samblo1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Anthocephala",
+ "id": "anthocephala-floriceps",
+ "ids": {
+  "avibase": "5DC3CCCDB66921A4",
+  "birdbase": 3427,
+  "gbif": 5228486,
+  "inaturalist": "6476",
+  "iucn": "154807906",
+  "wikidata": "Q772052",
+  "xeno_canto": "Anthocephala-floriceps"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Anthocephala_floriceps",
+  "ebird": "https://ebird.org/species/samblo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6476",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Santa_Marta_blossomcrown",
+   "es": "https://es.wikipedia.org/wiki/Anthocephala_floriceps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Anthocephala+floriceps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Santa Marta Blossomcrown",
+  "en_aco": "Santa Marta Blossomcrown",
+  "es": "Colibrí Florido de Santa Marta",
+  "ru": "Сантамартийский цветноголов"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Anthocephala floriceps",
+ "sci_name_aco": "Anthocephala floriceps",
+ "sounds": [],
+ "taxon_order": 4945.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 3.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Anthocephala%20floriceps.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Marta%20Blossomcrown%20iNaturalist%20%28cropped%29.jpg"
+ ]
+}

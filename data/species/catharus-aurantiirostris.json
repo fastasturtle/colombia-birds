@@ -1,0 +1,96 @@
+{
+ "authorship": "(Hartlaub, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "obnthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Catharus",
+ "id": "catharus-aurantiirostris",
+ "ids": {
+  "avibase": "7FC3681FDB70C5AD",
+  "birdbase": 30249,
+  "gbif": 2490801,
+  "inaturalist": "12900",
+  "iucn": "22708631",
+  "wikidata": "Q775368",
+  "xeno_canto": "Catharus-aurantiirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catharus_aurantiirostris",
+  "ebird": "https://ebird.org/species/obnthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12900",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-billed_nightingale-thrush",
+   "es": "https://es.wikipedia.org/wiki/Catharus_aurantiirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоносый_короткоклювый_дрозд"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catharus+aurantiirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-billed Nightingale-Thrush",
+  "en_aco": "Orange-billed Nightingale-Thrush",
+  "es": "Zorzalito Piquigualdo",
+  "ru": "Оранжевоклювый соловьиный дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catharus aurantiirostris",
+ "sci_name_aco": "Catharus aurantiirostris",
+ "sounds": [],
+ "taxon_order": 28256.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 28.666666666666668,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orange-billed%20Nightingale-Thrush.jpg"
+ ]
+}

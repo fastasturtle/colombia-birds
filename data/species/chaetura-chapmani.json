@@ -1,0 +1,94 @@
+{
+ "authorship": "(Hellmayr, 1907)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chaswi2",
+ "family": {
+  "code": "apodid1",
+  "en": "Swifts",
+  "sci": "Apodidae"
+ },
+ "genus": "Chaetura",
+ "id": "chaetura-chapmani",
+ "ids": {
+  "avibase": "B4EA32F1CF2FB671",
+  "birdbase": 2524,
+  "gbif": 5228630,
+  "inaturalist": "6582",
+  "iucn": "22686717",
+  "wikidata": "Q1062775",
+  "xeno_canto": "Chaetura-chapmani"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chaetura_chapmani",
+  "ebird": "https://ebird.org/species/chaswi2",
+  "inaturalist": "https://www.inaturalist.org/taxa/6582",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chapman's_swift",
+   "es": "https://es.wikipedia.org/wiki/Chaetura_chapmani",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chaetura+chapmani"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chapman's Swift",
+  "en_aco": "Chapman's Swift",
+  "es": "Vencejo de Chapman",
+  "ru": "Темногрудый иглохвост"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chaetura chapmani",
+ "sci_name_aco": "Chaetura chapmani",
+ "sounds": [],
+ "taxon_order": 3906.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 23.416666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chaetura%20chapmani%20Chapman%27s%20Swift%3B%20Ramal%20do%20Noca%2C%20Rio%20Branco%2C%20Acre%2C%20Brazil.jpg"
+ ]
+}

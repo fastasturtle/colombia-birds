@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1871)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mobela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-gigas",
+ "ids": {
+  "avibase": "2956BBB3DE23F1A8",
+  "birdbase": 16958,
+  "gbif": 5229643,
+  "inaturalist": "16693",
+  "iucn": "22699283",
+  "wikidata": "Q841863",
+  "xeno_canto": "Elaenia-gigas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_gigas",
+  "ebird": "https://ebird.org/species/mobela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16693",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mottle-backed_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_gigas",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+gigas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mottle-backed Elaenia",
+  "en_aco": "Mottle-backed Elaenia",
+  "es": "Fiofío Gigante",
+  "ru": "Чубатая эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia gigas",
+ "sci_name_aco": "Elaenia gigas",
+ "sounds": [],
+ "taxon_order": 16691.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": 1800,
+   "min": 250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 31,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mottle-backedElaenia.jpg"
+ ]
+}

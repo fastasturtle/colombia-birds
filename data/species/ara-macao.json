@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scamac1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ara",
+ "id": "ara-macao",
+ "ids": {
+  "avibase": "5B015EDA14786E2D",
+  "birdbase": 13537,
+  "gbif": 5959227,
+  "inaturalist": "19022",
+  "iucn": "22685563",
+  "wikidata": "Q243761",
+  "xeno_canto": "Ara-macao"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ara_macao",
+  "ebird": "https://ebird.org/species/scamac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19022",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scarlet_macaw",
+   "es": "https://es.wikipedia.org/wiki/Ara_macao",
+   "ru": "https://ru.wikipedia.org/wiki/Красный_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ara+macao"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scarlet Macaw",
+  "en_aco": "Scarlet Macaw",
+  "es": "Guacamayo Macao",
+  "ru": "Красный ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ara macao",
+ "sci_name_aco": "Ara macao",
+ "sounds": [],
+ "taxon_order": 13152.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "savanna",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 1224.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%20macao%20-Puntarenas%20Province%2C%20Costa%20Rica-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scarlet%20macaw%20%28Ara%20macao%20cyanopterus%29%20Copan.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scharlachara%20%28Ara%20macao%29.jpg"
+ ]
+}

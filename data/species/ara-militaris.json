@@ -1,0 +1,91 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "milmac",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ara",
+ "id": "ara-militaris",
+ "ids": {
+  "avibase": "50C9E950BB3C1E90",
+  "birdbase": 13530,
+  "gbif": 5959230,
+  "inaturalist": "19020",
+  "iucn": "22685548",
+  "wikidata": "Q838924",
+  "xeno_canto": "Ara-militaris"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ara_militaris",
+  "ebird": "https://ebird.org/species/milmac",
+  "inaturalist": "https://www.inaturalist.org/taxa/19020",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Military_macaw",
+   "es": "https://es.wikipedia.org/wiki/Ara_militaris",
+   "ru": "https://ru.wikipedia.org/wiki/Малый_солдатский_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ara+militaris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Military Macaw",
+  "en_aco": "Military Macaw",
+  "es": "Guacamayo Militar",
+  "ru": "Солдатский ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ara militaris",
+ "sci_name_aco": "Ara militaris",
+ "sounds": [],
+ "taxon_order": 13145.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 1053,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ara%20militaris%20-London%20Zoo-8a.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Cantorchilus",
+ "id": "cantorchilus-leucotis",
+ "ids": {
+  "avibase": "DF6E7F1C91A07B2A",
+  "birdbase": 29123,
+  "gbif": 7341038,
+  "inaturalist": "144878",
+  "iucn": "22711467",
+  "wikidata": "Q4780970",
+  "xeno_canto": "Cantorchilus-leucotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cantorchilus_leucotis",
+  "ebird": "https://ebird.org/species/bubwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144878",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-breasted_wren",
+   "es": "https://es.wikipedia.org/wiki/Cantorchilus_leucotis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cantorchilus+leucotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-breasted Wren",
+  "en_aco": "Buff-breasted Wren",
+  "es": "Cucarachero Pechihabano",
+  "ru": "Белоухий крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cantorchilus leucotis",
+ "sci_name_aco": "Cantorchilus leucotis",
+ "sounds": [],
+ "taxon_order": 27554.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 950,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 19.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Garrinch%C3%A3o-de-barriga-vermelha%20%28Cantorchilus%20leucotis%29.jpg"
+ ]
+}

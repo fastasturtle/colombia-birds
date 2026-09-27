@@ -1,0 +1,95 @@
+{
+ "authorship": "(Bechstein, 1793)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blkvul",
+ "family": {
+  "code": "cathar2",
+  "en": "New World Vultures",
+  "sci": "Cathartidae"
+ },
+ "genus": "Coragyps",
+ "id": "coragyps-atratus",
+ "ids": {
+  "avibase": "4FF7DE80F4192276",
+  "birdbase": 8113,
+  "gbif": 2481942,
+  "inaturalist": "4765",
+  "iucn": "22697624",
+  "wikidata": "Q213366",
+  "xeno_canto": "Coragyps-atratus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coragyps_atratus",
+  "ebird": "https://ebird.org/species/blkvul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4765",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_vulture",
+   "es": "https://es.wikipedia.org/wiki/Coragyps_atratus",
+   "ru": "https://ru.wikipedia.org/wiki/Американская_чёрная_катарта"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coragyps+atratus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Vulture",
+  "en_aco": "Black Vulture",
+  "es": "Zopilote Negro",
+  "ru": "Чёрная катарта"
+ },
+ "order": "Cathartiformes",
+ "photos": [],
+ "sci_name": "Coragyps atratus",
+ "sci_name_aco": "Coragyps atratus",
+ "sounds": [],
+ "taxon_order": 7811.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 1811.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Scavenger",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/APA%20Campos%20do%20Jord%C3%A3o-Wdiane%28045%29.jpg"
+ ]
+}

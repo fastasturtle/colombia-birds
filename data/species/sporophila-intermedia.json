@@ -1,0 +1,97 @@
+{
+ "authorship": "(Cabanis, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grysee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-intermedia",
+ "ids": {
+  "avibase": "1F11E4F124AD3F65",
+  "birdbase": 37220,
+  "gbif": 2491310,
+  "inaturalist": "9487",
+  "iucn": "22723410",
+  "wikidata": "Q2226426",
+  "xeno_canto": "Sporophila-intermedia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_intermedia",
+  "ebird": "https://ebird.org/species/grysee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9487",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_intermedia",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+intermedia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray Seedeater",
+  "en_aco": "Gray Seedeater",
+  "es": "Semillero Intermedio",
+  "ru": "Серый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila intermedia",
+ "sci_name_aco": "Sporophila intermedia",
+ "sounds": [],
+ "taxon_order": 35566.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20intermedia%20Espiguero%20gris%20Grey%20Seedeater%20%2816133817298%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20intermedia%20Espiguero%20gris%20Grey%20Seedeater%20%28female%29%20%2816133852658%29.jpg"
+ ]
+}

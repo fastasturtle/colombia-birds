@@ -1,0 +1,93 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grbhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Saucerottia",
+ "id": "saucerottia-viridigaster",
+ "ids": {
+  "avibase": "973C1360C9470542",
+  "birdbase": 3582,
+  "gbif": 11027010,
+  "inaturalist": null,
+  "iucn": "61201742",
+  "wikidata": "Q941990",
+  "xeno_canto": "Amazilia-viridigaster"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amazilia_viridigaster",
+  "ebird": "https://ebird.org/species/grbhum1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Green-bellied_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Saucerottia_viridigaster",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saucerottia+viridigaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Green-bellied Hummingbird",
+  "en_aco": "Green-bellied Hummingbird",
+  "es": "Amazilia Colimorada",
+  "ru": "Зеленобрюхая амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Saucerottia viridigaster",
+ "sci_name_aco": "Saucerottia viridigaster",
+ "sounds": [],
+ "taxon_order": 5083.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2100,
+   "min": 400,
+   "min_extreme": 200
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 4.366666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochi5Goul%200131%20%28cropped%29.jpg"
+ ]
+}

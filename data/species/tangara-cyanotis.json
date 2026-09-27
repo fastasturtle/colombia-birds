@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1858)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbtan3",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-cyanotis",
+ "ids": {
+  "avibase": "45F0E18EB5200006",
+  "birdbase": 37891,
+  "gbif": 2488203,
+  "inaturalist": "9589",
+  "iucn": "22722912",
+  "wikidata": "Q248299",
+  "xeno_canto": "Tangara-cyanotis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_cyanotis",
+  "ebird": "https://ebird.org/species/blbtan3",
+  "inaturalist": "https://www.inaturalist.org/taxa/9589",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-browed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_cyanotis",
+   "ru": "https://ru.wikipedia.org/wiki/Синебровая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+cyanotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-browed Tanager",
+  "en_aco": "Blue-browed Tanager",
+  "es": "Tangara Cejiazul",
+  "ru": "Синебровая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara cyanotis",
+ "sci_name_aco": "Tangara cyanotis",
+ "sounds": [],
+ "taxon_order": 35051.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 1250,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 14,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20cyanotis%20-%20Blue-browed%20Tanager%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20cyanotis%20melanotis%20%26%20Tangara%20cyanotis%20cyanotis%201876.jpg"
+ ]
+}

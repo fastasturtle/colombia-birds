@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1870)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "antspi1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Leptasthenura",
+ "id": "leptasthenura-andicola",
+ "ids": {
+  "avibase": "3367E902041DA8A5",
+  "birdbase": 15291,
+  "gbif": 2485160,
+  "inaturalist": "11682",
+  "iucn": "22702192",
+  "wikidata": "Q1276469",
+  "xeno_canto": "Leptasthenura-andicola"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptasthenura_andicola",
+  "ebird": "https://ebird.org/species/antspi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11682",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Andean_tit-spinetail",
+   "es": "https://es.wikipedia.org/wiki/Leptasthenura_andicola",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptasthenura+andicola"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Andean Tit-Spinetail",
+  "en_aco": "Andean Tit-Spinetail",
+  "es": "Tijeral Andino",
+  "ru": "Андская колючехвостка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Leptasthenura andicola",
+ "sci_name_aco": "Leptasthenura andicola",
+ "sounds": [],
+ "taxon_order": 15336.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": 4700,
+   "min": 3000,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Andean%20Tit-Spinetail%20-%20South%20Ecuador%20S4E3047.jpg"
+ ]
+}

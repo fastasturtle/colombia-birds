@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gowtof1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Poecilotriccus",
+ "id": "poecilotriccus-calopterus",
+ "ids": {
+  "avibase": "A4A6DEC157EB4A75",
+  "birdbase": 17468,
+  "gbif": 2483887,
+  "inaturalist": "17022",
+  "iucn": "22699047",
+  "wikidata": "Q850255",
+  "xeno_canto": "Poecilotriccus-calopterus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Poecilotriccus_calopterus",
+  "ebird": "https://ebird.org/species/gowtof1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17022",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden-winged_tody-flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Poecilotriccus_calopterus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Poecilotriccus+calopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-winged Tody-Flycatcher",
+  "en_aco": "Golden-winged Tody-Flycatcher",
+  "es": "Titirijí Alidorado",
+  "ru": "Желтоплечий тоди-мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Poecilotriccus calopterus",
+ "sci_name_aco": "Poecilotriccus calopterus",
+ "sounds": [],
+ "taxon_order": 16416.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1450,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 6.94,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Poecilotriccus%20calopterus%20-%20Golden-winged%20Tody-Flycatcher.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Poecilotriccus%20calopterus%20Wolf.jpg"
+ ]
+}

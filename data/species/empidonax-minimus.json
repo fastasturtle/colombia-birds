@@ -1,0 +1,93 @@
+{
+ "authorship": "(W.M. Baird & S.F. Baird, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leafly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Empidonax",
+ "id": "empidonax-minimus",
+ "ids": {
+  "avibase": "F5837054F30BA49D",
+  "birdbase": 17733,
+  "gbif": 2482791,
+  "inaturalist": "16602",
+  "iucn": "22699854",
+  "wikidata": "Q944011",
+  "xeno_canto": "Empidonax-minimus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Empidonax_minimus",
+  "ebird": "https://ebird.org/species/leafly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16602",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Least_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Empidonax_minimus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Empidonax+minimus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Least Flycatcher",
+  "en_aco": "Least Flycatcher",
+  "es": "Mosquero Mínimo",
+  "ru": "Малый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Empidonax minimus",
+ "sci_name_aco": "Empidonax minimus",
+ "sounds": [],
+ "taxon_order": 16963.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 10.700000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Empidonax-minimus-001.jpg"
+ ]
+}

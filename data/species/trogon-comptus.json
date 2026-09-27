@@ -1,0 +1,93 @@
+{
+ "authorship": "(J.T. Zimmer, 1948)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "buttro1",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-comptus",
+ "ids": {
+  "avibase": "8E5824B042DD225A",
+  "birdbase": 9937,
+  "gbif": 2496669,
+  "inaturalist": "20791",
+  "iucn": "22682771",
+  "wikidata": "Q258798",
+  "xeno_canto": "Trogon-comptus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_comptus",
+  "ebird": "https://ebird.org/species/buttro1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20791",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chocó_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_comptus",
+   "ru": "https://ru.wikipedia.org/wiki/Синехвостый_трогон"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+comptus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-tailed Trogon",
+  "en_aco": "Blue-tailed Trogon",
+  "es": "Trogón Coliazul",
+  "ru": "Чокский трогон"
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon comptus",
+ "sci_name_aco": "Trogon comptus",
+ "sounds": [],
+ "taxon_order": 9527.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 113,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Trogon%20comptus%20%28male%29%20-NW%20Ecuador-8.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1848)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gycthr",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Catharus",
+ "id": "catharus-minimus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 30335,
+  "gbif": 2490826,
+  "inaturalist": "12883",
+  "iucn": "22708658",
+  "wikidata": "Q1367569",
+  "xeno_canto": "Catharus-minimus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catharus_minimus",
+  "ebird": "https://ebird.org/species/gycthr",
+  "inaturalist": "https://www.inaturalist.org/taxa/12883",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gray-cheeked_thrush",
+   "es": "https://es.wikipedia.org/wiki/Catharus_minimus",
+   "ru": "https://ru.wikipedia.org/wiki/Малый_дрозд"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catharus+minimus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-cheeked Thrush",
+  "en_aco": "Gray-cheeked Thrush",
+  "es": "Zorzalito Carigrís",
+  "ru": "Малый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catharus minimus",
+ "sci_name_aco": "Catharus minimus",
+ "sounds": [],
+ "taxon_order": 28318.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 31.883333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gray-cheeked%20thrush%20%2871096%29.jpg"
+ ]
+}

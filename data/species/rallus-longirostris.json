@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "manrai1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Rallus",
+ "id": "rallus-longirostris",
+ "ids": {
+  "avibase": "89DB7F74E2C61252",
+  "birdbase": 5749,
+  "gbif": 9395900,
+  "inaturalist": "367714",
+  "iucn": "62154828",
+  "wikidata": "Q1271783",
+  "xeno_canto": "Rallus-longirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Rallus_longirostris",
+  "ebird": "https://ebird.org/species/manrai1",
+  "inaturalist": "https://www.inaturalist.org/taxa/367714",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mangrove_rail",
+   "es": "https://es.wikipedia.org/wiki/Rallus_longirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Пастушок-трескун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rallus+longirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mangrove Rail",
+  "en_aco": "Mangrove Rail",
+  "es": "Rascón de Manglar",
+  "ru": "Длинноклювый пастушок"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Rallus longirostris",
+ "sci_name_aco": "Rallus longirostris",
+ "sounds": [],
+ "taxon_order": 5262.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 288.8333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rallus%20longirostris%20-%20David%20F.%20Belmonte%20-%20255792941%20%28cropped%29.jpeg"
+ ]
+}

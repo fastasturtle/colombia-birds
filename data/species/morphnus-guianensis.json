@@ -1,0 +1,92 @@
+{
+ "authorship": "(Daudin, 1800)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "creeag1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Morphnus",
+ "id": "morphnus-guianensis",
+ "ids": {
+  "avibase": "E19434C9EE8CF258",
+  "birdbase": 8312,
+  "gbif": 2480576,
+  "inaturalist": "5384",
+  "iucn": "22695991",
+  "wikidata": "Q620443",
+  "xeno_canto": "Morphnus-guianensis"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Morphnus_guianensis",
+  "ebird": "https://ebird.org/species/creeag1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5384",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_eagle",
+   "es": "https://es.wikipedia.org/wiki/Morphnus_guianensis",
+   "ru": "https://ru.wikipedia.org/wiki/Гвианская_гарпия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Morphnus+guianensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Eagle",
+  "en_aco": "Crested Eagle",
+  "es": "Arpía Menor",
+  "ru": "Гвианская гарпия"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Morphnus guianensis",
+ "sci_name_aco": "Morphnus guianensis",
+ "sounds": [],
+ "taxon_order": 8083.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 2200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 1629.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Morphnus%20guianensis%20eating%20green%20snake%20-Bolivia-8.jpg"
+ ]
+}

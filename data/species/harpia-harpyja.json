@@ -1,0 +1,91 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hareag1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Harpia",
+ "id": "harpia-harpyja",
+ "ids": {
+  "avibase": "4D324C9C5A1A7566",
+  "birdbase": 8313,
+  "gbif": 2480516,
+  "inaturalist": "5321",
+  "iucn": "22695998",
+  "wikidata": "Q53745",
+  "xeno_canto": "Harpia-harpyja"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Harpia_harpyja",
+  "ebird": "https://ebird.org/species/hareag1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5321",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Harpy_eagle",
+   "es": "https://es.wikipedia.org/wiki/Harpia_harpyja",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_гарпия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Harpia+harpyja"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Harpy Eagle",
+  "en_aco": "Harpy Eagle",
+  "es": "Arpía Mayor",
+  "ru": "Гарпия"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Harpia harpyja",
+ "sci_name_aco": "Harpia harpyja",
+ "sounds": [],
+ "taxon_order": 8084.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 6349.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Harpia-harpyja-001.jpg"
+ ]
+}

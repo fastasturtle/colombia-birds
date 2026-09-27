@@ -1,0 +1,92 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "crmwoo2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Colaptes",
+ "id": "colaptes-rivolii",
+ "ids": {
+  "avibase": "8947FC5394BC6A9F",
+  "birdbase": 12389,
+  "gbif": 7340159,
+  "inaturalist": "72754",
+  "iucn": "22726390",
+  "wikidata": "Q1269530",
+  "xeno_canto": "Colaptes-rivolii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Colaptes_rivolii",
+  "ebird": "https://ebird.org/species/crmwoo2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72754",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crimson-mantled_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Colaptes_rivolii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Colaptes+rivolii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crimson-mantled Woodpecker",
+  "en_aco": "Crimson-mantled Woodpecker",
+  "es": "Carpintero Candela",
+  "ru": "Нарядный дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Colaptes rivolii",
+ "sci_name_aco": "Colaptes rivolii",
+ "sounds": [],
+ "taxon_order": 11874.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3500,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "grassland"
+  ],
+  "mass_g": 98.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crimson-mantled%20Woodpecker%20-%20Colombia%20S4E2671.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Cassin, 1851)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yegvir",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Vireo",
+ "id": "vireo-flavoviridis",
+ "ids": {
+  "avibase": "6A7F76A728D8690F",
+  "birdbase": 21463,
+  "gbif": 2487426,
+  "inaturalist": "17367",
+  "iucn": "22705248",
+  "wikidata": "Q1588139",
+  "xeno_canto": "Vireo-flavoviridis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_flavoviridis",
+  "ebird": "https://ebird.org/species/yegvir",
+  "inaturalist": "https://www.inaturalist.org/taxa/17367",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-green_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_flavoviridis",
+   "ru": "https://ru.wikipedia.org/wiki/Vireo_flavoviridis"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+flavoviridis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-green Vireo",
+  "en_aco": "Yellow-green Vireo",
+  "es": "Vireo Verdiamarillo",
+  "ru": "Зелёно-жёлтый виреон"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Vireo flavoviridis",
+ "sci_name_aco": "Vireo flavoviridis",
+ "sounds": [],
+ "taxon_order": 19287.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 17.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-green%20Vireo%20-%20Carara%20-%20Costa%20Rica%20S4E0062%20%2826670622936%29.jpg"
+ ]
+}

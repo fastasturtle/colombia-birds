@@ -1,0 +1,94 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltgol1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorestes",
+ "id": "chlorestes-eliciae",
+ "ids": {
+  "avibase": "1939B2C8399ECCEB",
+  "birdbase": 3705,
+  "gbif": 10933955,
+  "inaturalist": "5976",
+  "iucn": "22687432",
+  "wikidata": "Q1275212",
+  "xeno_canto": "Hylocharis-eliciae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylocharis_eliciae",
+  "ebird": "https://ebird.org/species/bltgol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5976",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-throated_goldentail",
+   "es": "https://es.wikipedia.org/wiki/Chlorestes_eliciae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorestes+eliciae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-throated Goldentail",
+  "en_aco": "Blue-throated Goldentail",
+  "es": "Zafiro de Elicia",
+  "ru": "Златохвостый сапфир"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorestes eliciae",
+ "sci_name_aco": "Chlorestes eliciae",
+ "sounds": [],
+ "taxon_order": 5196.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 3.66,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue-throated%20Goldentail.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MonographTrochi5Goul%200188.jpg"
+ ]
+}

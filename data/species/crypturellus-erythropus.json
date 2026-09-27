@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pelzeln, 1863)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "reltin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Crypturellus",
+ "id": "crypturellus-erythropus",
+ "ids": {
+  "avibase": "4E03F38D44C4C8A4",
+  "birdbase": 117,
+  "gbif": 2477546,
+  "inaturalist": "20578",
+  "iucn": "22729569",
+  "wikidata": "Q1266282",
+  "xeno_canto": "Crypturellus-erythropus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crypturellus_erythropus",
+  "ebird": "https://ebird.org/species/reltin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20578",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-legged_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Crypturellus_erythropus",
+   "ru": "https://ru.wikipedia.org/wiki/Crypturellus_erythropus"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crypturellus+erythropus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-legged Tinamou",
+  "en_aco": "Red-legged Tinamou",
+  "es": "Tinamú Patirrojo",
+  "ru": "Красноногий скрытохвост"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Crypturellus erythropus",
+ "sci_name_aco": "Crypturellus erythropus",
+ "sounds": [],
+ "taxon_order": 218.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 485,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CrypturusErythropusKeulemans.jpg"
+ ]
+}

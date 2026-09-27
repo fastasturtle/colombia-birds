@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pallas, 1781)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sunbit1",
+ "family": {
+  "code": "eurypy1",
+  "en": "Sunbittern",
+  "sci": "Eurypygidae"
+ },
+ "genus": "Eurypyga",
+ "id": "eurypyga-helias",
+ "ids": {
+  "avibase": "900C590B5EEE5157",
+  "birdbase": 7273,
+  "gbif": 2474332,
+  "inaturalist": "19",
+  "iucn": "22691893",
+  "wikidata": "Q601107",
+  "xeno_canto": "Eurypyga-helias"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eurypyga_helias",
+  "ebird": "https://ebird.org/species/sunbit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sunbittern",
+   "es": "https://es.wikipedia.org/wiki/Eurypyga_helias",
+   "ru": "https://ru.wikipedia.org/wiki/Солнечная_цапля"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eurypyga+helias"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sunbittern",
+  "en_aco": "Sunbittern",
+  "es": "Tigana",
+  "ru": "Солнечная цапля"
+ },
+ "order": "Eurypygiformes",
+ "photos": [],
+ "sci_name": "Eurypyga helias",
+ "sci_name_aco": "Eurypyga helias",
+ "sounds": [],
+ "taxon_order": 6902.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 227.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/2022-05-12%20Sonnenralle%20Mindo%20Ecuador%2003.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/075%20Sunbittern%20in%20Encontro%20das%20%C3%81guas%20State%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

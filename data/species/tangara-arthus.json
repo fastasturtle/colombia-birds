@@ -1,0 +1,93 @@
+{
+ "authorship": "(R. Lesson, 1832)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "goltan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Tangara",
+ "id": "tangara-arthus",
+ "ids": {
+  "avibase": "0D05B12A55531AC3",
+  "birdbase": 37926,
+  "gbif": 2488179,
+  "inaturalist": "9560",
+  "iucn": "103849276",
+  "wikidata": "Q776016",
+  "xeno_canto": "Tangara-arthus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tangara_arthus",
+  "ebird": "https://ebird.org/species/goltan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9560",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Golden_tanager",
+   "es": "https://es.wikipedia.org/wiki/Tangara_arthus",
+   "ru": "https://ru.wikipedia.org/wiki/Золотая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tangara+arthus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden Tanager",
+  "en_aco": "Golden Tanager",
+  "es": "Tangara Dorada",
+  "ru": "Золотая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tangara arthus",
+ "sci_name_aco": "Tangara arthus",
+ "sounds": [],
+ "taxon_order": 35115.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2500,
+   "min": 1000,
+   "min_extreme": 700
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 23.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Golden%20Tanager%20Tangara%20Dorada%20%28Tangara%20arthus%20arthus%29%20%2827279453011%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20arthus%20-%20T%C3%A1ngara%20dorada%20-%20Golden%20Tanager%20%288542820434%29.jpg"
+ ]
+}

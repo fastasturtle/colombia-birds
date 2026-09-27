@@ -1,0 +1,91 @@
+{
+ "authorship": "(Massena & Souance, 1854)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yeepar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Ognorhynchus",
+ "id": "ognorhynchus-icterotis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 13542,
+  "gbif": 2480100,
+  "inaturalist": "19315",
+  "iucn": "22685760",
+  "wikidata": "Q734211",
+  "xeno_canto": "Ognorhynchus-icterotis"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ognorhynchus_icterotis",
+  "ebird": "https://ebird.org/species/yeepar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19315",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-eared_parrot",
+   "es": "https://es.wikipedia.org/wiki/Ognorhynchus_icterotis",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоухий_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ognorhynchus+icterotis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-eared Parrot",
+  "en_aco": "Yellow-eared Parrot",
+  "es": "Aratinga Orejigualda",
+  "ru": "Желтоухий арара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Ognorhynchus icterotis",
+ "sci_name_aco": "Ognorhynchus icterotis",
+ "sounds": [],
+ "taxon_order": 13162.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3000,
+   "max_extreme": 3400,
+   "min": 2000,
+   "min_extreme": 1200
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 285,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow-eared%20Parrot.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(von Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Rock",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Nyctiprogne",
+ "id": "nyctiprogne-leucopyga",
+ "ids": {
+  "avibase": "73F8FC019D68C196",
+  "birdbase": 1869,
+  "gbif": 2496817,
+  "inaturalist": "19620",
+  "iucn": "22689720",
+  "wikidata": "Q1261746",
+  "xeno_canto": "Nyctiprogne-leucopyga"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctiprogne_leucopyga",
+  "ebird": "https://ebird.org/species/batnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19620",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Nyctiprogne_leucopyga",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctiprogne+leucopyga"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Nighthawk",
+  "en_aco": "Band-tailed Nighthawk",
+  "es": "Añapero Colibandeado",
+  "ru": "Амазонский сумеречник"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Nyctiprogne leucopyga",
+ "sci_name_aco": "Nyctiprogne leucopyga",
+ "sounds": [],
+ "taxon_order": 3514.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "savanna",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 24.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nyctiprogne%20leucopyga%20Band-tailed%20Nighthawk%3B%20Arari%2C%20Maranh%C3%A3o%2C%20Brazil.jpg"
+ ]
+}

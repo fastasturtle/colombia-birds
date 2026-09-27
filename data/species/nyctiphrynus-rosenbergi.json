@@ -1,0 +1,91 @@
+{
+ "authorship": "(Hartert, 1895)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chopoo1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Nyctiphrynus",
+ "id": "nyctiphrynus-rosenbergi",
+ "ids": {
+  "avibase": "A7CDF961244BAA99",
+  "birdbase": 1945,
+  "gbif": 2497009,
+  "inaturalist": "19643",
+  "iucn": "22724499",
+  "wikidata": "Q1261378",
+  "xeno_canto": "Nyctiphrynus-rosenbergi"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctiphrynus_rosenbergi",
+  "ebird": "https://ebird.org/species/chopoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19643",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chocó_poorwill",
+   "es": "https://es.wikipedia.org/wiki/Nyctiphrynus_rosenbergi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctiphrynus+rosenbergi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Choco Poorwill",
+  "en_aco": "Choco Poorwill",
+  "es": "Chotacabras del Chocó",
+  "ru": "Чокский козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Nyctiphrynus rosenbergi",
+ "sci_name_aco": "Nyctiphrynus rosenbergi",
+ "sounds": [],
+ "taxon_order": 3587.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 49.65,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nyctiphrynus%20rosenbergi%20104824432.jpg"
+ ]
+}

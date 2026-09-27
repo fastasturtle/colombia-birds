@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbcuc1",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Piaya",
+ "id": "piaya-melanogaster",
+ "ids": {
+  "avibase": "1AE8B7CDE081E7ED",
+  "birdbase": 4106,
+  "gbif": 2496431,
+  "inaturalist": "1773",
+  "iucn": "22684376",
+  "wikidata": "Q1273042",
+  "xeno_canto": "Piaya-melanogaster"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Piaya_melanogaster",
+  "ebird": "https://ebird.org/species/blbcuc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1773",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-bellied_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Piaya_melanogaster",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Piaya+melanogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-bellied Cuckoo",
+  "en_aco": "Black-bellied Cuckoo",
+  "es": "Cuco Ardilla Ventrinegro",
+  "ru": "Чернобрюхая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Piaya melanogaster",
+ "sci_name_aco": "Piaya melanogaster",
+ "sounds": [],
+ "taxon_order": 3235.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 102.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Piaya%20melanogaster%20Black-bellied%20Cuckoo%3B%20ZF%20Canopy%20Tower%2C%20Manaus%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

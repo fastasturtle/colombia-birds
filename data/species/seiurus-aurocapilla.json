@@ -1,0 +1,92 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ovenbi1",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Seiurus",
+ "id": "seiurus-aurocapilla",
+ "ids": {
+  "avibase": "CEA5B6AA48218C8A",
+  "birdbase": 36126,
+  "gbif": 2489590,
+  "inaturalist": "62550",
+  "iucn": "22721779",
+  "wikidata": "Q796672",
+  "xeno_canto": "Seiurus-aurocapilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Seiurus_aurocapilla",
+  "ebird": "https://ebird.org/species/ovenbi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/62550",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ovenbird",
+   "es": "https://es.wikipedia.org/wiki/Seiurus_aurocapilla",
+   "ru": "https://ru.wikipedia.org/wiki/Золотоголовый_дроздовый_певун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Seiurus+aurocapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ovenbird",
+  "en_aco": "Ovenbird",
+  "es": "Reinita Hornera",
+  "ru": "Дроздовый певун"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Seiurus aurocapilla",
+ "sci_name_aco": "Seiurus aurocapilla",
+ "sounds": [],
+ "taxon_order": 33946.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1900,
+   "max_extreme": 2200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 20.733333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ovenbird%20%2890497%29.jpg"
+ ]
+}

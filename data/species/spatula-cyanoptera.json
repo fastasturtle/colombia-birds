@@ -1,0 +1,93 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cintea",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Spatula",
+ "id": "spatula-cyanoptera",
+ "ids": {
+  "avibase": "0E599E6CC209AFAD",
+  "birdbase": 383,
+  "gbif": 9345027,
+  "inaturalist": "558434",
+  "iucn": "22680233",
+  "wikidata": "Q28106764",
+  "xeno_canto": "Spatula-cyanoptera"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Spatula_cyanoptera",
+  "ebird": "https://ebird.org/species/cintea",
+  "inaturalist": "https://www.inaturalist.org/taxa/558434",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Cinnamon_teal",
+   "es": "https://es.wikipedia.org/wiki/Spatula_cyanoptera",
+   "ru": "https://ru.wikipedia.org/wiki/Коричневый_чирок"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Spatula+cyanoptera"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Cinnamon Teal",
+  "en_aco": "Cinnamon Teal",
+  "es": "Cerceta Colorada",
+  "ru": "Коричневый чирок"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Spatula cyanoptera",
+ "sci_name_aco": "Spatula cyanoptera",
+ "sounds": [],
+ "taxon_order": 487.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "wetland"
+  ],
+  "mass_g": 406.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinnamon%20teal%20at%20Seedskadee%20National%20Wildlife%20Refuge%20%2848025979048%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cinnamon%20teal%20%2853706590927%29.jpg"
+ ]
+}

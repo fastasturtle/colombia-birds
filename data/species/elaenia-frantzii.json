@@ -1,0 +1,94 @@
+{
+ "authorship": "(Lawrence, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mouela1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Elaenia",
+ "id": "elaenia-frantzii",
+ "ids": {
+  "avibase": "97AD0B38E9213498",
+  "birdbase": 16969,
+  "gbif": 5229622,
+  "inaturalist": "16721",
+  "iucn": "22699298",
+  "wikidata": "Q901862",
+  "xeno_canto": "Elaenia-frantzii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Elaenia_frantzii",
+  "ebird": "https://ebird.org/species/mouela1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16721",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mountain_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Elaenia_frantzii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Elaenia+frantzii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mountain Elaenia",
+  "en_aco": "Mountain Elaenia",
+  "es": "Fiofío Montano",
+  "ru": "Горная эления"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Elaenia frantzii",
+ "sci_name_aco": "Elaenia frantzii",
+ "sounds": [],
+ "taxon_order": 16725.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": 3600,
+   "min": 1300,
+   "min_extreme": 900
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 19.05,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20Elaenia%20-%20Colombia%20S4E2481.jpg"
+ ]
+}

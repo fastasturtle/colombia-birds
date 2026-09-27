@@ -1,0 +1,96 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shtnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Lurocalis",
+ "id": "lurocalis-semitorquatus",
+ "ids": {
+  "avibase": "518ADDBCB4C79473",
+  "birdbase": 1861,
+  "gbif": 2497082,
+  "inaturalist": "19645",
+  "iucn": "22689695",
+  "wikidata": "Q1260518",
+  "xeno_canto": "Lurocalis-semitorquatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Lurocalis_semitorquatus",
+  "ebird": "https://ebird.org/species/shtnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19645",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-tailed_nighthawk",
+   "es": "https://es.wikipedia.org/wiki/Lurocalis_semitorquatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Lurocalis+semitorquatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-tailed Nighthawk",
+  "en_aco": "Short-tailed Nighthawk",
+  "es": "Añapero Colicorto",
+  "ru": "Полуошейниковый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Lurocalis semitorquatus",
+ "sci_name_aco": "Lurocalis semitorquatus",
+ "sounds": [],
+ "taxon_order": 3507.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2550,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 80.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lurocalis%20semitorquatus%20-%20Short-tailed%20Nighthawk%3B%20Botanic%20Garden%2C%20S%C3%A3o%20Paulo%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/LurocalisSemitorquatusGray.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1819)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral | Residente",
+  "status": [
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Austral - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "trokin",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannus",
+ "id": "tyrannus-melancholicus",
+ "ids": {
+  "avibase": "BB6B236FADABFB3F",
+  "birdbase": 18056,
+  "gbif": 5229662,
+  "inaturalist": "16787",
+  "iucn": "22700485",
+  "wikidata": "Q1273578",
+  "xeno_canto": "Tyrannus-melancholicus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannus_melancholicus",
+  "ebird": "https://ebird.org/species/trokin",
+  "inaturalist": "https://www.inaturalist.org/taxa/16787",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tropical_kingbird",
+   "es": "https://es.wikipedia.org/wiki/Tyrannus_melancholicus",
+   "ru": "https://ru.wikipedia.org/wiki/Траурный_королевский_тиранн"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannus+melancholicus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tropical Kingbird",
+  "en_aco": "Tropical Kingbird",
+  "es": "Tirano Melancólico",
+  "ru": "Королевский тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannus melancholicus",
+ "sci_name_aco": "Tyrannus melancholicus",
+ "sounds": [],
+ "taxon_order": 17452.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": 3100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 38.050000000000004,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tropical%20kingbird%20%28Tyrannus%20melancholicus%29.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus-melancholicus-001.jpg"
+ ]
+}

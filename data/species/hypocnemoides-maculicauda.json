@@ -1,0 +1,92 @@
+{
+ "authorship": "(Pelzeln, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "batant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Hypocnemoides",
+ "id": "hypocnemoides-maculicauda",
+ "ids": {
+  "avibase": null,
+  "birdbase": 16304,
+  "gbif": 2490009,
+  "inaturalist": "15899",
+  "iucn": "22701740",
+  "wikidata": "Q1261835",
+  "xeno_canto": "Hypocnemoides-maculicauda"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hypocnemoides_maculicauda",
+  "ebird": "https://ebird.org/species/batant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15899",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Band-tailed_antbird",
+   "es": "https://es.wikipedia.org/wiki/Hypocnemoides_maculicauda",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hypocnemoides+maculicauda"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Band-tailed Antbird",
+  "en_aco": "Band-tailed Antbird",
+  "es": "Hormiguero Colibandeado",
+  "ru": "Ручьевая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hypocnemoides maculicauda",
+ "sci_name_aco": "Hypocnemoides maculicauda",
+ "sounds": [],
+ "taxon_order": 13977.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hypocnemoides%20maculicauda%20-%20Band-tailed%20Antbird.JPG"
+ ]
+}

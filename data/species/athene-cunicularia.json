@@ -1,0 +1,97 @@
+{
+ "authorship": "(Molina, 1782)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "burowl",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Athene",
+ "id": "athene-cunicularia",
+ "ids": {
+  "avibase": "B9EE9676FFEC8B11",
+  "birdbase": 9104,
+  "gbif": 2497240,
+  "inaturalist": "19975",
+  "iucn": "22689353",
+  "wikidata": "Q467068",
+  "xeno_canto": "Athene-cunicularia"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Athene_cunicularia",
+  "ebird": "https://ebird.org/species/burowl",
+  "inaturalist": "https://www.inaturalist.org/taxa/19975",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Burrowing_owl",
+   "es": "https://es.wikipedia.org/wiki/Athene_cunicularia",
+   "ru": "https://ru.wikipedia.org/wiki/Кроличий_сыч"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Athene+cunicularia"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Burrowing Owl",
+  "en_aco": "Burrowing Owl",
+  "es": "Mochuelo de Madriguera",
+  "ru": "Кроличий сыч"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Athene cunicularia",
+ "sci_name_aco": "Athene cunicularia",
+ "sounds": [],
+ "taxon_order": 9133.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "savanna",
+   "grassland",
+   "desert",
+   "agricultural"
+  ],
+  "mass_g": 193.28333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Western%20burrowing%20owl%2C%20Glenn%20County-0550.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Burrowing%20Owl%204354.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brazilian%20burrowing%20owl%20%28Athene%20cunicularia%20grallaria%29%20Rio%20Negro.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Athene%20cunicularia%20-Vale%20do%20Ribeira%2C%20Juquia%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

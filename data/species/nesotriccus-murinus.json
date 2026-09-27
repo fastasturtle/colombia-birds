@@ -1,0 +1,95 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "y01204",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Nesotriccus",
+ "id": "nesotriccus-murinus",
+ "ids": {
+  "avibase": "0C9AFF6FDD80F534",
+  "birdbase": 17089,
+  "gbif": 2484076,
+  "inaturalist": "17186",
+  "iucn": "103681893",
+  "wikidata": "Q940854",
+  "xeno_canto": "Phaeomyias-murina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phaeomyias_murina",
+  "ebird": "https://ebird.org/species/y01204",
+  "inaturalist": "https://www.inaturalist.org/taxa/17186",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mouse-colored_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Nesotriccus_murinus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nesotriccus+murinus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Mouse-colored Tyrannulet",
+  "en_aco": "Mouse-colored Tyrannulet",
+  "es": "Piojito Pardo",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Nesotriccus murinus",
+ "sci_name_aco": "Phaeomyias murina",
+ "sounds": [],
+ "taxon_order": 16626.0,
+ "taxonomy_note": "ACO/SACC lists this as Phaeomyias murina; eBird/Clements uses Nesotriccus murinus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2150,
+   "max_extreme": 3085,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 8.85,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phaeomyias%20murina3.jpg"
+ ]
+}

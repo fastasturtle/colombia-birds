@@ -1,0 +1,92 @@
+{
+ "authorship": "(Jacquin, 1784)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "butpig1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Pipile",
+ "id": "pipile-cumanensis",
+ "ids": {
+  "avibase": null,
+  "birdbase": 719,
+  "gbif": 2482310,
+  "inaturalist": "322342",
+  "iucn": null,
+  "wikidata": "Q27601345",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/butpig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/322342",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pipile+cumanensis"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Blue-throated Piping-Guan",
+  "en_aco": "Blue-throated Piping-Guan",
+  "es": "Pava Goliazul",
+  "ru": null
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Pipile cumanensis",
+ "sci_name_aco": "Pipile cumanensis",
+ "sounds": [],
+ "taxon_order": 865.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 1228,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

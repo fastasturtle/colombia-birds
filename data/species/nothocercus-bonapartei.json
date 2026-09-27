@@ -1,0 +1,92 @@
+{
+ "authorship": "(G.R. Gray, 1867)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "higtin1",
+ "family": {
+  "code": "tinami1",
+  "en": "Tinamous",
+  "sci": "Tinamidae"
+ },
+ "genus": "Nothocercus",
+ "id": "nothocercus-bonapartei",
+ "ids": {
+  "avibase": "66C31E09F8C285D6",
+  "birdbase": 63,
+  "gbif": 2477473,
+  "inaturalist": "20701",
+  "iucn": "22678154",
+  "wikidata": "Q834414",
+  "xeno_canto": "Nothocercus-bonapartei"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nothocercus_bonapartei",
+  "ebird": "https://ebird.org/species/higtin1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20701",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Highland_tinamou",
+   "es": "https://es.wikipedia.org/wiki/Nothocercus_bonapartei",
+   "ru": "https://ru.wikipedia.org/wiki/Горный_трёхпалый_тинаму"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nothocercus+bonapartei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Highland Tinamou",
+  "en_aco": "Highland Tinamou",
+  "es": "Tinamú Serrano",
+  "ru": "Горный трёхпалый тинаму"
+ },
+ "order": "Tinamiformes",
+ "photos": [],
+ "sci_name": "Nothocercus bonapartei",
+ "sci_name_aco": "Nothocercus bonapartei",
+ "sounds": [],
+ "taxon_order": 119.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3075,
+   "min": 1500,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "bamboo"
+  ],
+  "mass_g": 712.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nothocercus%20bonapartei%201902.jpg"
+ ]
+}

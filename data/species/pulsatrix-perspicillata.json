@@ -1,0 +1,94 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "speowl1",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Pulsatrix",
+ "id": "pulsatrix-perspicillata",
+ "ids": {
+  "avibase": "BA3C3A5CA9C8F367",
+  "birdbase": 9686,
+  "gbif": 2497878,
+  "inaturalist": "20020",
+  "iucn": "22689180",
+  "wikidata": "Q911908",
+  "xeno_canto": "Pulsatrix-perspicillata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pulsatrix_perspicillata",
+  "ebird": "https://ebird.org/species/speowl1",
+  "inaturalist": "https://www.inaturalist.org/taxa/20020",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spectacled_owl",
+   "es": "https://es.wikipedia.org/wiki/Pulsatrix_perspicillata",
+   "ru": "https://ru.wikipedia.org/wiki/Очковая_неотропическая_сова"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pulsatrix+perspicillata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spectacled Owl",
+  "en_aco": "Spectacled Owl",
+  "es": "Lechuzón de Anteojos",
+  "ru": "Очковая неясыть"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Pulsatrix perspicillata",
+ "sci_name_aco": "Pulsatrix perspicillata",
+ "sounds": [],
+ "taxon_order": 8897.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 870.3333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pulsatrix%20perspicillata%20chapmani%20%28Costa%20Rica%29.jpg"
+ ]
+}

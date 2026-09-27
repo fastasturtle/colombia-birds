@@ -1,0 +1,96 @@
+{
+ "authorship": "(Gould, 1833)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "",
+  "status": [
+   "hypothetical"
+  ],
+  "status_raw": "Hipotética",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "noremt1",
+ "family": {
+  "code": "rampha1",
+  "en": "Toucans",
+  "sci": "Ramphastidae"
+ },
+ "genus": "Aulacorhynchus",
+ "id": "aulacorhynchus-prasinus",
+ "ids": {
+  "avibase": "B35771C79152F9B3",
+  "birdbase": 11251,
+  "gbif": 5229012,
+  "inaturalist": "559387",
+  "iucn": "22726170",
+  "wikidata": "Q179747",
+  "xeno_canto": "Aulacorhynchus-prasinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aulacorhynchus_prasinus",
+  "ebird": "https://ebird.org/species/noremt1",
+  "inaturalist": "https://www.inaturalist.org/taxa/559387",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_emerald_toucanet",
+   "es": "https://es.wikipedia.org/wiki/Aulacorhynchus_prasinus",
+   "ru": "https://ru.wikipedia.org/wiki/Изумрудный_туканет"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aulacorhynchus+prasinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Emerald-Toucanet",
+  "en_aco": "Northern Emerald-Toucanet",
+  "es": "Tucanete Esmeralda",
+  "ru": "Изумрудный туканет"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Aulacorhynchus prasinus",
+ "sci_name_aco": "Aulacorhynchus prasinus",
+ "sounds": [],
+ "taxon_order": 10836.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": 3000,
+   "min": 550,
+   "min_extreme": 250
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 186.66666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/063%20Northern%20Emerald-toucanet%20in%20Los%20Quetzales%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fuwduc",
+ "family": {
+  "code": "anatid1",
+  "en": "Ducks, Geese, and Waterfowl",
+  "sci": "Anatidae"
+ },
+ "genus": "Dendrocygna",
+ "id": "dendrocygna-bicolor",
+ "ids": {
+  "avibase": "9A60617EE376ABE9",
+  "birdbase": 234,
+  "gbif": 2498402,
+  "inaturalist": "6899",
+  "iucn": "22679746",
+  "wikidata": "Q740741",
+  "xeno_canto": "Dendrocygna-bicolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocygna_bicolor",
+  "ebird": "https://ebird.org/species/fuwduc",
+  "inaturalist": "https://www.inaturalist.org/taxa/6899",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fulvous_whistling_duck",
+   "es": "https://es.wikipedia.org/wiki/Dendrocygna_bicolor",
+   "ru": "https://ru.wikipedia.org/wiki/Рыжая_свистящая_утка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocygna+bicolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fulvous Whistling-Duck",
+  "en_aco": "Fulvous Whistling-Duck",
+  "es": "Suirirí Bicolor",
+  "ru": "Рыжая древесная утка"
+ },
+ "order": "Anseriformes",
+ "photos": [],
+ "sci_name": "Dendrocygna bicolor",
+ "sci_name_aco": "Dendrocygna bicolor",
+ "sounds": [],
+ "taxon_order": 249.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 4080,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 733.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Marrecas-caneleiras%20-%20Dendrocygna%20bicolor.jpg"
+ ]
+}

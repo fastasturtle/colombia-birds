@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1858)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chwqua1",
+ "family": {
+  "code": "odonto1",
+  "en": "New World Quail",
+  "sci": "Odontophoridae"
+ },
+ "genus": "Odontophorus",
+ "id": "odontophorus-hyperythrus",
+ "ids": {
+  "avibase": "D8BFC2F1F70BD4DD",
+  "birdbase": 950,
+  "gbif": 5228067,
+  "inaturalist": "1353",
+  "iucn": "22679655",
+  "wikidata": "Q1269538",
+  "xeno_canto": "Odontophorus-hyperythrus"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontophorus_hyperythrus",
+  "ebird": "https://ebird.org/species/chwqua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1353",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut_wood_quail",
+   "es": "https://es.wikipedia.org/wiki/Odontophorus_hyperythrus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontophorus+hyperythrus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut Wood-Quail",
+  "en_aco": "Chestnut Wood-Quail",
+  "es": "Corcovado Castaño",
+  "ru": "Каштановый зубцеклювый перепел"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Odontophorus hyperythrus",
+ "sci_name_aco": "Odontophorus hyperythrus",
+ "sounds": [],
+ "taxon_order": 1157.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2800,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 340,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut%20wood%20quail%20%28Odontophorus%20hyperythrus%29.jpg"
+ ]
+}

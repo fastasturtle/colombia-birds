@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bonaparte, 1850)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubowl3",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Strix",
+ "id": "strix-albitarsis",
+ "ids": {
+  "avibase": "2FBDE42C46DC0A19",
+  "birdbase": 9802,
+  "gbif": 2497536,
+  "inaturalist": "144600",
+  "iucn": "22689154",
+  "wikidata": "Q28125241",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/rubowl3",
+  "inaturalist": "https://www.inaturalist.org/taxa/144600",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Strix+albitarsis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-banded Owl",
+  "en_aco": "Rufous-banded Owl",
+  "es": "Cárabo Patiblanco",
+  "ru": "Андская неясыть"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Strix albitarsis",
+ "sci_name_aco": "Strix albitarsis",
+ "sounds": [],
+ "taxon_order": 9172.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": null,
+   "min": 1700,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 307.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ciccaba%20albitarsis%20Buho%20ocelado%20Rufous-banded%20Owl%20%28juvenile%29%20%2817030777228%29.jpg"
+ ]
+}

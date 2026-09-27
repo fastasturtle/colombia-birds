@@ -1,0 +1,95 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "litcuc2",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccycua",
+ "id": "coccycua-minuta",
+ "ids": {
+  "avibase": "07DD8007BC9EA1DA",
+  "birdbase": 4078,
+  "gbif": 7340209,
+  "inaturalist": "72740",
+  "iucn": "22684379",
+  "wikidata": "Q1267915",
+  "xeno_canto": "Coccycua-minuta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccycua_minuta",
+  "ebird": "https://ebird.org/species/litcuc2",
+  "inaturalist": "https://www.inaturalist.org/taxa/72740",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Little_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccycua_minuta",
+   "ru": "https://ru.wikipedia.org/wiki/Малая_пиайа"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccycua+minuta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Little Cuckoo",
+  "en_aco": "Little Cuckoo",
+  "es": "Cuco Ardilla Menor",
+  "ru": "Малая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccycua minuta",
+ "sci_name_aco": "Coccycua minuta",
+ "sounds": [],
+ "taxon_order": 3209.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 37.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coccycua%20minuta%20Little%20Cuckoo%3B%20Miranda%2C%20Mato%20Grosso%20do%20Sul%2C%20Brazil.jpg"
+ ]
+}

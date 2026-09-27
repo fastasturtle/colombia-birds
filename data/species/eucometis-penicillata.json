@@ -1,0 +1,96 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grhtan1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Eucometis",
+ "id": "eucometis-penicillata",
+ "ids": {
+  "avibase": "05296BB442B0E644",
+  "birdbase": 37108,
+  "gbif": 2488524,
+  "inaturalist": "10698",
+  "iucn": "22722343",
+  "wikidata": "Q1587130",
+  "xeno_canto": "Eucometis-penicillata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eucometis_penicillata",
+  "ebird": "https://ebird.org/species/grhtan1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10698",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-headed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Eucometis_penicillata",
+   "ru": "https://ru.wikipedia.org/wiki/Кисточковая_танагра"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eucometis+penicillata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-headed Tanager",
+  "en_aco": "Gray-headed Tanager",
+  "es": "Tangara Cabecigrís",
+  "ru": "Серохохлая танагра"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Eucometis penicillata",
+ "sci_name_aco": "Eucometis penicillata",
+ "sounds": [],
+ "taxon_order": 34740.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 28.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eucometis%20penicillata%20-%20Adam%20Jackson%20-%20453395555%20%28cropped%29.jpeg"
+ ]
+}

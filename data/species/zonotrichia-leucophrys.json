@@ -1,0 +1,97 @@
+{
+ "authorship": "(J.R. Forster, 1772)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whcspa",
+ "family": {
+  "code": "passer3",
+  "en": "New World Sparrows",
+  "sci": "Passerellidae"
+ },
+ "genus": "Zonotrichia",
+ "id": "zonotrichia-leucophrys",
+ "ids": {
+  "avibase": "8601A4678CABA542",
+  "birdbase": 35406,
+  "gbif": 5231132,
+  "inaturalist": "9176",
+  "iucn": "22721088",
+  "wikidata": "Q686673",
+  "xeno_canto": "Zonotrichia-leucophrys"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Zonotrichia_leucophrys",
+  "ebird": "https://ebird.org/species/whcspa",
+  "inaturalist": "https://www.inaturalist.org/taxa/9176",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-crowned_sparrow",
+   "es": "https://es.wikipedia.org/wiki/Zonotrichia_leucophrys",
+   "ru": "https://ru.wikipedia.org/wiki/Белоголовая_зонотрихия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Zonotrichia+leucophrys"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-crowned Sparrow",
+  "en_aco": "White-crowned Sparrow",
+  "es": "Chingolo Coroniblanco",
+  "ru": "Белобровая овсянка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Zonotrichia leucophrys",
+ "sci_name_aco": "Zonotrichia leucophrys",
+ "sounds": [],
+ "taxon_order": 33187.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 29.861666666666665,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White-crowned-Sparrow.jpg"
+ ]
+}

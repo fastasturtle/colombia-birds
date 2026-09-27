@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "amewoo1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Calliphlox",
+ "id": "calliphlox-amethystina",
+ "ids": {
+  "avibase": "0431F843973D7B23",
+  "birdbase": 3268,
+  "gbif": 2476373,
+  "inaturalist": "6331",
+  "iucn": "22688211",
+  "wikidata": "Q694749",
+  "xeno_canto": "Calliphlox-amethystina"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calliphlox_amethystina",
+  "ebird": "https://ebird.org/species/amewoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6331",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amethyst_woodstar",
+   "es": "https://es.wikipedia.org/wiki/Calliphlox_amethystina",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calliphlox+amethystina"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Amethyst Woodstar",
+  "en_aco": "Amethyst Woodstar",
+  "es": "Colibrí Amatista",
+  "ru": "Аметистовый эльф"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Calliphlox amethystina",
+ "sci_name_aco": "Calliphlox amethystina",
+ "sounds": [],
+ "taxon_order": 4769.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "savanna"
+  ],
+  "mass_g": 2.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Calliphlox%20amethystina%20%28male%29.jpg"
+ ]
+}

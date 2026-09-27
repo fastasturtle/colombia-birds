@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lafresnaye, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-luctuosa",
+ "ids": {
+  "avibase": "F17ED91CDD1BE71B",
+  "birdbase": 37232,
+  "gbif": 2491313,
+  "inaturalist": "9509",
+  "iucn": "22723437",
+  "wikidata": "Q2226106",
+  "xeno_canto": "Sporophila-luctuosa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_luctuosa",
+  "ebird": "https://ebird.org/species/bawsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9509",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-and-white_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_luctuosa",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+luctuosa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-and-white Seedeater",
+  "en_aco": "Black-and-white Seedeater",
+  "es": "Semillero Negriblanco",
+  "ru": "Траурный просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila luctuosa",
+ "sci_name_aco": "Sporophila luctuosa",
+ "sounds": [],
+ "taxon_order": 35582.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3100,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": 240
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 12.25,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20luctuosa%20Espiguero%20negriblanco%20Black-and-White%20Seedeater%20%2815184250877%29.jpg"
+ ]
+}

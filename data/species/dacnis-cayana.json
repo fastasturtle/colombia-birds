@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bludac1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Dacnis",
+ "id": "dacnis-cayana",
+ "ids": {
+  "avibase": "C72B6A62428B18A6",
+  "birdbase": 36867,
+  "gbif": 2488352,
+  "inaturalist": "10506",
+  "iucn": "22722991",
+  "wikidata": "Q779743",
+  "xeno_canto": "Dacnis-cayana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dacnis_cayana",
+  "ebird": "https://ebird.org/species/bludac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10506",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue_dacnis",
+   "es": "https://es.wikipedia.org/wiki/Dacnis_cayana",
+   "ru": "https://ru.wikipedia.org/wiki/Синий_дакнис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+cayana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue Dacnis",
+  "en_aco": "Blue Dacnis",
+  "es": "Dacnis Azul",
+  "ru": "Синий дакнис"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dacnis cayana",
+ "sci_name_aco": "Dacnis cayana",
+ "sounds": [],
+ "taxon_order": 35152.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20cayana%20-Registro%2C%20Sao%20Paulo%2C%20Brazil%20-female-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20cayana%20-Vale%20do%20Ribeira%2C%20Registro%2C%20Sao%20Paulo%2C%20Brasil-8.jpg"
+ ]
+}

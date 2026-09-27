@@ -1,0 +1,93 @@
+{
+ "authorship": "(Audubon, 1828)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wilfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Empidonax",
+ "id": "empidonax-traillii",
+ "ids": {
+  "avibase": "5BC4E0EFAB129B9D",
+  "birdbase": 17723,
+  "gbif": 2482786,
+  "inaturalist": "16611",
+  "iucn": "22699848",
+  "wikidata": "Q903847",
+  "xeno_canto": "Empidonax-traillii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Empidonax_traillii",
+  "ebird": "https://ebird.org/species/wilfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16611",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Willow_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Empidonax_traillii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Empidonax+traillii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Willow Flycatcher",
+  "en_aco": "Willow Flycatcher",
+  "es": "Mosquero Saucero",
+  "ru": "Ивовый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Empidonax traillii",
+ "sci_name_aco": "Empidonax traillii",
+ "sounds": [],
+ "taxon_order": 16952.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 13.316666666666668,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/20250524%20willow%20flycatcher%20major%20donnelly%20PD202635.jpg"
+ ]
+}

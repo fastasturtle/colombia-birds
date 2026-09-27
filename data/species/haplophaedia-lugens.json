@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gould, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "hoapuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Haplophaedia",
+ "id": "haplophaedia-lugens",
+ "ids": {
+  "avibase": "745C796B4B9CEC37",
+  "birdbase": 3056,
+  "gbif": 2476344,
+  "inaturalist": "6262",
+  "iucn": "22687957",
+  "wikidata": "Q537825",
+  "xeno_canto": "Haplophaedia-lugens"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Haplophaedia_lugens",
+  "ebird": "https://ebird.org/species/hoapuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6262",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Hoary_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Haplophaedia_lugens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Haplophaedia+lugens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Hoary Puffleg",
+  "en_aco": "Hoary Puffleg",
+  "es": "Calzadito Canoso",
+  "ru": "Седой эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Haplophaedia lugens",
+ "sci_name_aco": "Haplophaedia lugens",
+ "sounds": [],
+ "taxon_order": 4578.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 6.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hoary%20Puffleg.jpg"
+ ]
+}

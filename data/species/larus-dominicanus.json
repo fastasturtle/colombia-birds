@@ -1,0 +1,96 @@
+{
+ "authorship": "(M.H.K. Lichtenstein, 1823)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "kelgul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Larus",
+ "id": "larus-dominicanus",
+ "ids": {
+  "avibase": "E6536E4E904EF414",
+  "birdbase": 7147,
+  "gbif": 2481173,
+  "inaturalist": "4388",
+  "iucn": "22694329",
+  "wikidata": "Q1127687",
+  "xeno_canto": "Larus-dominicanus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Larus_dominicanus",
+  "ebird": "https://ebird.org/species/kelgul",
+  "inaturalist": "https://www.inaturalist.org/taxa/4388",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Kelp_gull",
+   "es": "https://es.wikipedia.org/wiki/Larus_dominicanus",
+   "ru": "https://ru.wikipedia.org/wiki/Доминиканская_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Larus+dominicanus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Kelp Gull",
+  "en_aco": "Kelp Gull",
+  "es": "Gaviota Cocinera",
+  "ru": "Доминиканская чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Larus dominicanus",
+ "sci_name_aco": "Larus dominicanus",
+ "sounds": [],
+ "taxon_order": 6533.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "eggs",
+  "elevation_m": {
+   "max": 760,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "riparian",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 955.8333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20dominicanus%20-Tavares%2C%20Rio%20Grande%20do%20Sul%2C%20Brazil%20-eating-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Larus%20dominicanus%20-Kenton-on-Sea%2C%20Eastern%20Cape%2C%20South%20Africa-8.jpg"
+ ]
+}

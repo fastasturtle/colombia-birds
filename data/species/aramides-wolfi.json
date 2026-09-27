@@ -1,0 +1,93 @@
+{
+ "authorship": "(Berlepsch & Taczanowski, 1884)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brwrai1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Aramides",
+ "id": "aramides-wolfi",
+ "ids": {
+  "avibase": "56FEE33758779B00",
+  "birdbase": 5724,
+  "gbif": 2474669,
+  "inaturalist": "456",
+  "iucn": "22692581",
+  "wikidata": "Q1273147",
+  "xeno_canto": "Aramides-wolfi"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aramides_wolfi",
+  "ebird": "https://ebird.org/species/brwrai1",
+  "inaturalist": "https://www.inaturalist.org/taxa/456",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown_wood_rail",
+   "es": "https://es.wikipedia.org/wiki/Aramides_wolfi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aramides+wolfi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown Wood-Rail",
+  "en_aco": "Brown Wood-Rail",
+  "es": "Cotara Morena",
+  "ru": "Бурый саракура"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Aramides wolfi",
+ "sci_name_aco": "Aramides wolfi",
+ "sounds": [],
+ "taxon_order": 5437.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 474,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Planches%20enlumin%C3%A9es%20d%27histoire%20naturelle%20%289933212185%29.jpg"
+ ]
+}

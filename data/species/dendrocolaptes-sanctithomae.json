@@ -1,0 +1,95 @@
+{
+ "authorship": "(Lafresnaye, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "nobwoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Dendrocolaptes",
+ "id": "dendrocolaptes-sanctithomae",
+ "ids": {
+  "avibase": "89B7BA8EDAECFD5C",
+  "birdbase": 14624,
+  "gbif": 2485796,
+  "inaturalist": "11126",
+  "iucn": "103661292",
+  "wikidata": "Q839235",
+  "xeno_canto": "Dendrocolaptes-sanctithomae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dendrocolaptes_sanctithomae",
+  "ebird": "https://ebird.org/species/nobwoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11126",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_barred_woodcreeper",
+   "es": "https://es.wikipedia.org/wiki/Dendrocolaptes_sanctithomae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dendrocolaptes+sanctithomae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Northern Barred-Woodcreeper",
+  "en_aco": "Northern Barred-Woodcreeper",
+  "es": "Trepatroncos Barrado Norteño",
+  "ru": "Полосатый древолаз"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dendrocolaptes sanctithomae",
+ "sci_name_aco": "Dendrocolaptes sanctithomae",
+ "sounds": [],
+ "taxon_order": 14707.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 65.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Barred-Woodcreeper%20-13%20100-%20%2832671439464%29.jpg"
+ ]
+}

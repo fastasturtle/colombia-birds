@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bunibi1",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Theristicus",
+ "id": "theristicus-caudatus",
+ "ids": {
+  "avibase": "5E393799E1B88D43",
+  "birdbase": 7844,
+  "gbif": 2480790,
+  "inaturalist": "3766",
+  "iucn": "22697441",
+  "wikidata": "Q574693",
+  "xeno_canto": "Theristicus-caudatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Theristicus_caudatus",
+  "ebird": "https://ebird.org/species/bunibi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3766",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Buff-necked_ibis",
+   "es": "https://es.wikipedia.org/wiki/Theristicus_caudatus",
+   "ru": "https://ru.wikipedia.org/wiki/Белошейный_ибис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Theristicus+caudatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Buff-necked Ibis",
+  "en_aco": "Buff-necked Ibis",
+  "es": "Bandurria Común",
+  "ru": "Светлошейный ибис"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Theristicus caudatus",
+ "sci_name_aco": "Theristicus caudatus",
+ "sounds": [],
+ "taxon_order": 7484.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 1708,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CURICACA%20%28%20Theristicus%20caudatus%20%29.jpg"
+ ]
+}

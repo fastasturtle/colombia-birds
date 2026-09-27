@@ -1,0 +1,93 @@
+{
+ "authorship": "(P.L. Sclater, 1852)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yehman2",
+ "family": {
+  "code": "piprid1",
+  "en": "Manakins",
+  "sci": "Pipridae"
+ },
+ "genus": "Chloropipo",
+ "id": "chloropipo-flavicapilla",
+ "ids": {
+  "avibase": "05596C5CE9916FFE",
+  "birdbase": 18337,
+  "gbif": 2487706,
+  "inaturalist": "367625",
+  "iucn": "22701147",
+  "wikidata": "Q27075181",
+  "xeno_canto": "Chloropipo-flavicapilla"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chloropipo_flavicapilla",
+  "ebird": "https://ebird.org/species/yehman2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367625",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-headed_manakin",
+   "es": "https://es.wikipedia.org/wiki/Chloropipo_flavicapilla",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chloropipo+flavicapilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-headed Manakin",
+  "en_aco": "Yellow-headed Manakin",
+  "es": "Saltarín Amarillo",
+  "ru": "Желтоголовый манакин"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Chloropipo flavicapilla",
+ "sci_name_aco": "Chloropipo flavicapilla",
+ "sounds": [],
+ "taxon_order": 15695.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1200,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 17.775,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chloropipo%20flavicapilla%20Yellow-headed%20Manakin%3B%20Antioquia%2C%20Colombia%20%28cropped%29.jpg"
+ ]
+}

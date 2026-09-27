@@ -1,0 +1,94 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "latnig1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Hydropsalis",
+ "id": "hydropsalis-climacocerca",
+ "ids": {
+  "avibase": "27032D1880C4B756",
+  "birdbase": 1930,
+  "gbif": 2497011,
+  "inaturalist": "19568",
+  "iucn": "22690029",
+  "wikidata": "Q1263936",
+  "xeno_canto": "Hydropsalis-climacocerca"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hydropsalis_climacocerca",
+  "ebird": "https://ebird.org/species/latnig1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19568",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ladder-tailed_nightjar",
+   "es": "https://es.wikipedia.org/wiki/Hydropsalis_climacocerca",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hydropsalis+climacocerca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ladder-tailed Nightjar",
+  "en_aco": "Ladder-tailed Nightjar",
+  "es": "Chotacabras de Escalera",
+  "ru": "Трезубцехвостый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Hydropsalis climacocerca",
+ "sci_name_aco": "Hydropsalis climacocerca",
+ "sounds": [],
+ "taxon_order": 3567.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 48,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hydropsalis%20climacocerca%20female.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hydropsalis%20climacocerca%20male.jpg"
+ ]
+}

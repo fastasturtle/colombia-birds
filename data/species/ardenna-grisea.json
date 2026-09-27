@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral",
+  "status": [
+   "austral_migrant"
+  ],
+  "status_raw": "Migratorio Austral",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sooshe",
+ "family": {
+  "code": "procel3",
+  "en": "Shearwaters and Petrels",
+  "sci": "Procellariidae"
+ },
+ "genus": "Ardenna",
+ "id": "ardenna-grisea",
+ "ids": {
+  "avibase": "1725B07D51A40D6A",
+  "birdbase": 7566,
+  "gbif": 8249990,
+  "inaturalist": "502899",
+  "iucn": "22698209",
+  "wikidata": "Q27074603",
+  "xeno_canto": "Ardenna-grisea"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ardenna_grisea",
+  "ebird": "https://ebird.org/species/sooshe",
+  "inaturalist": "https://www.inaturalist.org/taxa/502899",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Sooty_shearwater",
+   "es": "https://es.wikipedia.org/wiki/Ardenna_grisea",
+   "ru": "https://ru.wikipedia.org/wiki/Серый_буревестник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ardenna+grisea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Sooty Shearwater",
+  "en_aco": "Sooty Shearwater",
+  "es": "Pardela Sombría",
+  "ru": "Серый буревестник"
+ },
+ "order": "Procellariiformes",
+ "photos": [],
+ "sci_name": "Ardenna grisea",
+ "sci_name_aco": "Ardenna grisea",
+ "sounds": [],
+ "taxon_order": 7213.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 814,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sooty%20Shearwater.jpg"
+ ]
+}

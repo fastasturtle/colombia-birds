@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier & Mulsant, 1846)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grepuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Haplophaedia",
+ "id": "haplophaedia-aureliae",
+ "ids": {
+  "avibase": "A10F06E5BFD32C7C",
+  "birdbase": 3046,
+  "gbif": 2476336,
+  "inaturalist": "6263",
+  "iucn": "22733896",
+  "wikidata": "Q428275",
+  "xeno_canto": "Haplophaedia-aureliae"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Haplophaedia_aureliae",
+  "ebird": "https://ebird.org/species/grepuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6263",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Greenish_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Haplophaedia_aureliae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Haplophaedia+aureliae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Greenish Puffleg",
+  "en_aco": "Greenish Puffleg",
+  "es": "Calzadito Verdoso Norteño",
+  "ru": "Сверкающий эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Haplophaedia aureliae",
+ "sci_name_aco": "Haplophaedia aureliae",
+ "sounds": [],
+ "taxon_order": 4568.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 3100,
+   "min": 1500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 5.666666666666667,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Haplophaedia%20aureliae%20Calzoncitos%20verdoso%20Greenish%20Puffleg%20%288429395418%29.jpg"
+ ]
+}

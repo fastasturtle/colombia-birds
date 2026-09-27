@@ -1,0 +1,96 @@
+{
+ "authorship": "(Swainson, 1827)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "acowoo",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Melanerpes",
+ "id": "melanerpes-formicivorus",
+ "ids": {
+  "avibase": "7E3273031F76242B",
+  "birdbase": 11791,
+  "gbif": 2478133,
+  "inaturalist": "18209",
+  "iucn": "22680813",
+  "wikidata": "Q368657",
+  "xeno_canto": "Melanerpes-formicivorus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Melanerpes_formicivorus",
+  "ebird": "https://ebird.org/species/acowoo",
+  "inaturalist": "https://www.inaturalist.org/taxa/18209",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Acorn_woodpecker",
+   "es": "https://es.wikipedia.org/wiki/Melanerpes_formicivorus",
+   "ru": "https://ru.wikipedia.org/wiki/Муравьиный_меланерпес"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Melanerpes+formicivorus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Acorn Woodpecker",
+  "en_aco": "Acorn Woodpecker",
+  "es": "Carpintero Bellotero",
+  "ru": "Желудёвый дятел"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Melanerpes formicivorus",
+ "sci_name_aco": "Melanerpes formicivorus",
+ "sounds": [],
+ "taxon_order": 11146.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Sap, Eggs",
+  "elevation_m": {
+   "max": 3300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland",
+   "desert"
+  ],
+  "mass_g": 78.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes%20formicivorus%20-San%20Luis%20Obispo%2C%20California%2C%20USA%20-male-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes%20formicivorus%20-Madera%20Canyon%2C%20Arizona%2C%20USA%20-female-8-2c.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carpintero%20bellotero%20-%20panoramio.jpg"
+ ]
+}

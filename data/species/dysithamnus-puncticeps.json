@@ -1,0 +1,92 @@
+{
+ "authorship": "(Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spcant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Dysithamnus",
+ "id": "dysithamnus-puncticeps",
+ "ids": {
+  "avibase": null,
+  "birdbase": 15947,
+  "gbif": 2490029,
+  "inaturalist": "15911",
+  "iucn": "22701384",
+  "wikidata": "Q1263081",
+  "xeno_canto": "Dysithamnus-puncticeps"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dysithamnus_puncticeps",
+  "ebird": "https://ebird.org/species/spcant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15911",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-crowned_antvireo",
+   "es": "https://es.wikipedia.org/wiki/Dysithamnus_puncticeps",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dysithamnus+puncticeps"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-crowned Antvireo",
+  "en_aco": "Spot-crowned Antvireo",
+  "es": "Batarito Coronipunteado",
+  "ru": "Жемчужношапочный батарито"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dysithamnus puncticeps",
+ "sci_name_aco": "Dysithamnus puncticeps",
+ "sounds": [],
+ "taxon_order": 13647.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 15.8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dysithamnus%20puncticeps%201902.jpg"
+ ]
+}

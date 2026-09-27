@@ -1,0 +1,93 @@
+{
+ "authorship": "(Latham, 1790)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "yebjac1",
+ "family": {
+  "code": "galbul2",
+  "en": "Jacamars",
+  "sci": "Galbulidae"
+ },
+ "genus": "Galbula",
+ "id": "galbula-albirostris",
+ "ids": {
+  "avibase": "3F3135FF0D9C0290",
+  "birdbase": 10943,
+  "gbif": 5228253,
+  "inaturalist": "1475",
+  "iucn": "22727035",
+  "wikidata": "Q902787",
+  "xeno_canto": "Galbula-albirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Galbula_albirostris",
+  "ebird": "https://ebird.org/species/yebjac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/1475",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Yellow-billed_jacamar",
+   "es": "https://es.wikipedia.org/wiki/Galbula_albirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Желтоклювая_якамара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Galbula+albirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Yellow-billed Jacamar",
+  "en_aco": "Yellow-billed Jacamar",
+  "es": "Jacamará Piquigualdo",
+  "ru": "Желтоклювая якамара"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Galbula albirostris",
+ "sci_name_aco": "Galbula albirostris",
+ "sounds": [],
+ "taxon_order": 10495.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 900,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 20.05,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Galbula%20albirostris%20-%20Yellow-billed%20jacamar%20%28male%29.jpg"
+ ]
+}

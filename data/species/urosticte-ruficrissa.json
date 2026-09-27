@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lawrence, 1864)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ruvwhi1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Urosticte",
+ "id": "urosticte-ruficrissa",
+ "ids": {
+  "avibase": "C43B3BAC8AD9BD08",
+  "birdbase": 3185,
+  "gbif": 2476281,
+  "inaturalist": "73550",
+  "iucn": "22687965",
+  "wikidata": "Q576605",
+  "xeno_canto": "Urosticte-ruficrissa"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Urosticte_ruficrissa",
+  "ebird": "https://ebird.org/species/ruvwhi1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73550",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-vented_whitetip",
+   "es": "https://es.wikipedia.org/wiki/Urosticte_ruficrissa",
+   "ru": "https://ru.wikipedia.org/wiki/Urosticte_ruficrissa"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Urosticte+ruficrissa"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-vented Whitetip",
+  "en_aco": "Rufous-vented Whitetip",
+  "es": "Colibrí Puntiblanco Oriental",
+  "ru": "Красногузый колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Urosticte ruficrissa",
+ "sci_name_aco": "Urosticte ruficrissa",
+ "sounds": [],
+ "taxon_order": 4692.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 4.15,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Urosticte%20ruficrissa%20Rufous-vented%20Whitetip%3B%20Napo%2C%20Ecuador.jpg"
+ ]
+}

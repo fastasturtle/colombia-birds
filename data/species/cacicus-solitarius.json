@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sobcac1",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Cacicus",
+ "id": "cacicus-solitarius",
+ "ids": {
+  "avibase": "FF72F24A0A41A65B",
+  "birdbase": 35838,
+  "gbif": 5229826,
+  "inaturalist": "10365",
+  "iucn": "22724057",
+  "wikidata": "Q944938",
+  "xeno_canto": "Cacicus-solitarius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cacicus_solitarius",
+  "ebird": "https://ebird.org/species/sobcac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10365",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Solitary_cacique",
+   "es": "https://es.wikipedia.org/wiki/Cacicus_solitarius",
+   "ru": "https://ru.wikipedia.org/wiki/Траурный_чёрный_кассик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cacicus+solitarius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Solitary Black Cacique",
+  "en_aco": "Solitary Black Cacique",
+  "es": "Cacique Solitario",
+  "ru": "Траурный кассик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cacicus solitarius",
+ "sci_name_aco": "Cacicus solitarius",
+ "sounds": [],
+ "taxon_order": 33641.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 82.55000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cacicus%20solitarius%20416898267.jpg"
+ ]
+}

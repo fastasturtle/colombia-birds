@@ -1,0 +1,93 @@
+{
+ "authorship": "(Lawrence, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brctyr",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Ornithion",
+ "id": "ornithion-brunneicapillus",
+ "ids": {
+  "avibase": "BF56665950BD377D",
+  "birdbase": 16994,
+  "gbif": 2483382,
+  "inaturalist": "17143",
+  "iucn": "22699166",
+  "wikidata": "Q839634",
+  "xeno_canto": "Ornithion-brunneicapillus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ornithion_brunneicapillus",
+  "ebird": "https://ebird.org/species/brctyr",
+  "inaturalist": "https://www.inaturalist.org/taxa/17143",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-capped_tyrannulet",
+   "es": "https://es.wikipedia.org/wiki/Ornithion_brunneicapillus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ornithion+brunneicapillus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-capped Tyrannulet",
+  "en_aco": "Brown-capped Tyrannulet",
+  "es": "Mosquerito Coronipardo",
+  "ru": "Бурошапочный москитолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ornithion brunneicapillus",
+ "sci_name_aco": "Ornithion brunneicapillus",
+ "sounds": [],
+ "taxon_order": 16549.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 7.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Brown-capped%20Tyrannulet%20%28Ornithion%20brunneicapillus%29%20%288079747729%29.jpg"
+ ]
+}

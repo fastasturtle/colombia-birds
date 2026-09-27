@@ -1,0 +1,94 @@
+{
+ "authorship": "(Vieillot, 1817)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Austral | Residente",
+  "status": [
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Austral - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bawswa1",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Pygochelidon",
+ "id": "pygochelidon-cyanoleuca",
+ "ids": {
+  "avibase": "DFFD116E6090456D",
+  "birdbase": 25194,
+  "gbif": 2489207,
+  "inaturalist": "68826",
+  "iucn": "22712122",
+  "wikidata": "Q55112153",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pygochelidon_cyanoleuca",
+  "ebird": "https://ebird.org/species/bawswa1",
+  "inaturalist": "https://www.inaturalist.org/taxa/68826",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-and-white_swallow",
+   "es": "https://es.wikipedia.org/wiki/Pygochelidon_cyanoleuca",
+   "ru": "https://ru.wikipedia.org/wiki/Патагонская_ласточка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pygochelidon+cyanoleuca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-and-white Swallow",
+  "en_aco": "Blue-and-white Swallow",
+  "es": "Golondrina Barranquera",
+  "ru": "Патагонская ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pygochelidon cyanoleuca",
+ "sci_name_aco": "Pygochelidon cyanoleuca",
+ "sounds": [],
+ "taxon_order": 24128.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 10.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Artificial",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pygochelidon%20cyanoleuca%20%28Golondrina%20azul%20y%20blanca%29%20%2814025350735%29.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Sundevall, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbpic2",
+ "family": {
+  "code": "picida1",
+  "en": "Woodpeckers",
+  "sci": "Picidae"
+ },
+ "genus": "Picumnus",
+ "id": "picumnus-spilogaster",
+ "ids": {
+  "avibase": "58A28C6E5003D2FC",
+  "birdbase": 11708,
+  "gbif": 5228797,
+  "inaturalist": "17818",
+  "iucn": "22680723",
+  "wikidata": "Q1264620",
+  "xeno_canto": "Picumnus-spilogaster"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Picumnus_spilogaster",
+  "ebird": "https://ebird.org/species/whbpic2",
+  "inaturalist": "https://www.inaturalist.org/taxa/17818",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-bellied_piculet",
+   "es": "https://es.wikipedia.org/wiki/Picumnus_spilogaster",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Picumnus+spilogaster"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-bellied Piculet",
+  "en_aco": "White-bellied Piculet",
+  "es": "Carpinterito Ventriblanco",
+  "ru": "Белобрюхий дятелок"
+ },
+ "order": "Piciformes",
+ "photos": [],
+ "sci_name": "Picumnus spilogaster",
+ "sci_name_aco": "Picumnus spilogaster",
+ "sounds": [],
+ "taxon_order": 11048.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 13.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Picumnus%20spilogaster%2022730308.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Coastal",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "laugul",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Leucophaeus",
+ "id": "leucophaeus-atricilla",
+ "ids": {
+  "avibase": "6CDC3C9C8B50EA71",
+  "birdbase": 7113,
+  "gbif": 6065844,
+  "inaturalist": "144514",
+  "iucn": null,
+  "wikidata": "Q528764",
+  "xeno_canto": "Leucophaeus-atricilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leucophaeus_atricilla",
+  "ebird": "https://ebird.org/species/laugul",
+  "inaturalist": "https://www.inaturalist.org/taxa/144514",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Laughing_gull",
+   "es": "https://es.wikipedia.org/wiki/Leucophaeus_atricilla",
+   "ru": "https://ru.wikipedia.org/wiki/Ацтекская_чайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leucophaeus+atricilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Laughing Gull",
+  "en_aco": "Laughing Gull",
+  "es": "Gaviota Guanaguanare",
+  "ru": "Ацтекская чайка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Leucophaeus atricilla",
+ "sci_name_aco": "Leucophaeus atricilla",
+ "sounds": [],
+ "taxon_order": 6490.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "coastal"
+  ],
+  "mass_g": 307.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laughing%20Gull%20in%20winter%20plumage%2C%20Lido%20Beach%2C%20Florida.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laughing%20Gull%20adult%20summer%2C%20Daytona%20Beach%2C%20Florida.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leucophaeus%20atricilla%20Caye%20Caulker%2004.JPG"
+ ]
+}

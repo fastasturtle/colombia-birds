@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "VU",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spwpar2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Touit",
+ "id": "touit-stictopterus",
+ "ids": {
+  "avibase": "72692065B2DA8854",
+  "birdbase": 13157,
+  "gbif": 2480129,
+  "inaturalist": "73512",
+  "iucn": "22686066",
+  "wikidata": "Q597272",
+  "xeno_canto": "Touit-stictopterus"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Touit_stictopterus",
+  "ebird": "https://ebird.org/species/spwpar2",
+  "inaturalist": "https://www.inaturalist.org/taxa/73512",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spot-winged_parrotlet",
+   "es": "https://es.wikipedia.org/wiki/Touit_sticopterus",
+   "ru": "https://ru.wikipedia.org/wiki/Буроплечий_пестрохвостый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Touit+stictopterus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spot-winged Parrotlet",
+  "en_aco": "Spot-winged Parrotlet",
+  "es": "Cotorrita Alipinta",
+  "ru": "Пестрокрылый туети"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Touit stictopterus",
+ "sci_name_aco": "Touit stictopterus",
+ "sounds": [],
+ "taxon_order": 12803.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1700,
+   "max_extreme": 2400,
+   "min": 1050,
+   "min_extreme": 500
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 77.375,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/UrochromaStictopteraWolf.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cardov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotila",
+ "id": "leptotila-jamaicensis",
+ "ids": {
+  "avibase": "401B5C83CBE94DB0",
+  "birdbase": 4991,
+  "gbif": 2496098,
+  "inaturalist": "3272",
+  "iucn": "22690883",
+  "wikidata": "Q943451",
+  "xeno_canto": "Leptotila-jamaicensis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotila_jamaicensis",
+  "ebird": "https://ebird.org/species/cardov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3272",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Caribbean_dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotila_jamaicensis",
+   "ru": "https://ru.wikipedia.org/wiki/Ямайская_лептотила"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotila+jamaicensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Caribbean Dove",
+  "en_aco": "Caribbean Dove",
+  "es": "Paloma Montaraz Jamaicana",
+  "ru": "Ямайская голубка"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotila jamaicensis",
+ "sci_name_aco": "Leptotila jamaicensis",
+ "sounds": [],
+ "taxon_order": 2342.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Gravel",
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 161.18333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Caribbean%20Dove%20%28Leptotila%20jamaicensis%29%20%288082126278%29.jpg"
+ ]
+}

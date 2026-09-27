@@ -1,0 +1,99 @@
+{
+ "authorship": "(J.F. Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grhowl",
+ "family": {
+  "code": "strigi1",
+  "en": "Owls",
+  "sci": "Strigidae"
+ },
+ "genus": "Bubo",
+ "id": "bubo-virginianus",
+ "ids": {
+  "avibase": "FC366114BD3B51A0",
+  "birdbase": 9476,
+  "gbif": 5959118,
+  "inaturalist": "20044",
+  "iucn": "61752071",
+  "wikidata": "Q81515",
+  "xeno_canto": "Bubo-virginianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Bubo_virginianus",
+  "ebird": "https://ebird.org/species/grhowl",
+  "inaturalist": "https://www.inaturalist.org/taxa/20044",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_horned_owl",
+   "es": "https://es.wikipedia.org/wiki/Bubo_virginianus",
+   "ru": "https://ru.wikipedia.org/wiki/Виргинский_филин"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Bubo+virginianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Horned Owl",
+  "en_aco": "Great Horned Owl",
+  "es": "Búho Americano",
+  "ru": "Виргинский филин"
+ },
+ "order": "Strigiformes",
+ "photos": [],
+ "sci_name": "Bubo virginianus",
+ "sci_name_aco": "Bubo virginianus",
+ "sounds": [],
+ "taxon_order": 8910.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 8,
+  "habitats": [
+   "forest",
+   "woodland",
+   "riparian",
+   "desert",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1392.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bubo%20virginianus%20-Canada-6.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bubo%20virginianus1.jpg"
+ ]
+}

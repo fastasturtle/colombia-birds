@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1853)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rrbtyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Cnemarchus",
+ "id": "cnemarchus-erythropygius",
+ "ids": {
+  "avibase": "3BB9E319BDA76236",
+  "birdbase": 17847,
+  "gbif": 2483780,
+  "inaturalist": "17285",
+  "iucn": "22699978",
+  "wikidata": "Q256206",
+  "xeno_canto": "Cnemarchus-erythropygius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cnemarchus_erythropygius",
+  "ebird": "https://ebird.org/species/rrbtyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17285",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-rumped_bush_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Cnemarchus_erythropygius",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cnemarchus+erythropygius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-rumped Bush-Tyrant",
+  "en_aco": "Red-rumped Bush-Tyrant",
+  "es": "Birro Culirrojo",
+  "ru": "Красногузая гевара"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cnemarchus erythropygius",
+ "sci_name_aco": "Cnemarchus erythropygius",
+ "sounds": [],
+ "taxon_order": 17110.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4300,
+   "max_extreme": null,
+   "min": 2850,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 60.26666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Red-rumped-Bush-tyrant.jpg"
+ ]
+}

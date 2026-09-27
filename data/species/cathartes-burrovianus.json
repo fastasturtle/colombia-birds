@@ -1,0 +1,97 @@
+{
+ "authorship": "(Cassin, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "lyhvul1",
+ "family": {
+  "code": "cathar2",
+  "en": "New World Vultures",
+  "sci": "Cathartidae"
+ },
+ "genus": "Cathartes",
+ "id": "cathartes-burrovianus",
+ "ids": {
+  "avibase": "4807686BED3992FB",
+  "birdbase": 8124,
+  "gbif": 2481928,
+  "inaturalist": "4761",
+  "iucn": "22697630",
+  "wikidata": "Q852751",
+  "xeno_canto": "Cathartes-burrovianus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cathartes_burrovianus",
+  "ebird": "https://ebird.org/species/lyhvul1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4761",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Lesser_yellow-headed_vulture",
+   "es": "https://es.wikipedia.org/wiki/Cathartes_burrovianus",
+   "ru": "https://ru.wikipedia.org/wiki/Малая_желтоголовая_катарта"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cathartes+burrovianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Lesser Yellow-headed Vulture",
+  "en_aco": "Lesser Yellow-headed Vulture",
+  "es": "Aura Sabanera",
+  "ru": "Малая желтоголовая катарта"
+ },
+ "order": "Cathartiformes",
+ "photos": [],
+ "sci_name": "Cathartes burrovianus",
+ "sci_name_aco": "Cathartes burrovianus",
+ "sounds": [],
+ "taxon_order": 7823.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": 1000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1185,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Scavenger",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Urubu-de-cabe%C3%A7a-amarela.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Yellow-headed%20Vulture%20%28Cathartes%20burrovianus%29%20%2828695241483%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cathartes%20burrovianus%20-Amsterdam%20Zoo%20-upper%20body-8a.jpg"
+ ]
+}

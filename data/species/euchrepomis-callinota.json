@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1855)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rurant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Euchrepomis",
+ "id": "euchrepomis-callinota",
+ "ids": {
+  "avibase": "AEF03581284DFBF2",
+  "birdbase": 15660,
+  "gbif": 8360089,
+  "inaturalist": "339634",
+  "iucn": "22701650",
+  "wikidata": "Q1271642",
+  "xeno_canto": "Euchrepomis-callinota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Terenura_callinota",
+  "ebird": "https://ebird.org/species/rurant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339634",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-rumped_antwren",
+   "es": "https://es.wikipedia.org/wiki/Euchrepomis_callinota",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Euchrepomis+callinota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-rumped Antwren",
+  "en_aco": "Rufous-rumped Antwren",
+  "es": "Tiluchí Lomirrufo",
+  "ru": "Рыжегузый тилучи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Euchrepomis callinota",
+ "sci_name_aco": "Euchrepomis callinota",
+ "sounds": [],
+ "taxon_order": 13433.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 800,
+   "min_extreme": 600
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 7.766666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/FormicivoraCallinotaWolf.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Euchrepomis%20callinota%20-%20Amber%20M.%20King%20-%20527296483.jpeg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Taczanowski & Berlepsch, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gymwre1",
+ "family": {
+  "code": "troglo1",
+  "en": "Wrens",
+  "sci": "Troglodytidae"
+ },
+ "genus": "Odontorchilus",
+ "id": "odontorchilus-branickii",
+ "ids": {
+  "avibase": "E59FF7D2FDF5B465",
+  "birdbase": 28919,
+  "gbif": 2493953,
+  "inaturalist": "7626",
+  "iucn": "22711325",
+  "wikidata": "Q2225230",
+  "xeno_canto": "Odontorchilus-branickii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Odontorchilus_branickii",
+  "ebird": "https://ebird.org/species/gymwre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/7626",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-mantled_wren",
+   "es": "https://es.wikipedia.org/wiki/Odontorchilus_branickii",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Odontorchilus+branickii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-mantled Wren",
+  "en_aco": "Gray-mantled Wren",
+  "es": "Cucarachero Dorsigrís",
+  "ru": "Шиферный крапивник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Odontorchilus branickii",
+ "sci_name_aco": "Odontorchilus branickii",
+ "sounds": [],
+ "taxon_order": 27180.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2300,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 100
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.6,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey-mantled%20Wren.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Odontorchilus%20branickii.jpg"
+ ]
+}

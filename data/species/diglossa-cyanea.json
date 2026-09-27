@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "masflo1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Diglossa",
+ "id": "diglossa-cyanea",
+ "ids": {
+  "avibase": "480CCA00771279B3",
+  "birdbase": 37571,
+  "gbif": 7342077,
+  "inaturalist": "72811",
+  "iucn": "22723715",
+  "wikidata": "Q1301708",
+  "xeno_canto": "Diglossa-cyanea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Diglossa_cyanea",
+  "ebird": "https://ebird.org/species/masflo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72811",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Masked_flowerpiercer",
+   "es": "https://es.wikipedia.org/wiki/Diglossa_cyanea",
+   "ru": "https://ru.wikipedia.org/wiki/Масковый_крючкоклюв"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Diglossa+cyanea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Masked Flowerpiercer",
+  "en_aco": "Masked Flowerpiercer",
+  "es": "Pinchaflor Enmascarado",
+  "ru": "Масковый цветокол"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Diglossa cyanea",
+ "sci_name_aco": "Diglossa cyanea",
+ "sounds": [],
+ "taxon_order": 35330.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3600,
+   "max_extreme": null,
+   "min": 1800,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 17.225,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Masked%20flowerpiercer%20%28Diglossa%20cyanea%20cyanea%29%20Caldas.jpg"
+ ]
+}

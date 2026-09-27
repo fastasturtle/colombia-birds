@@ -1,0 +1,97 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whiibi",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Eudocimus",
+ "id": "eudocimus-albus",
+ "ids": {
+  "avibase": "74EDE3CA4FD29DC6",
+  "birdbase": 7857,
+  "gbif": 5229205,
+  "inaturalist": "3751",
+  "iucn": "22697411",
+  "wikidata": "Q589171",
+  "xeno_canto": "Eudocimus-albus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eudocimus_albus",
+  "ebird": "https://ebird.org/species/whiibi",
+  "inaturalist": "https://www.inaturalist.org/taxa/3751",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_white_ibis",
+   "es": "https://es.wikipedia.org/wiki/Eudocimus_albus",
+   "ru": "https://ru.wikipedia.org/wiki/Белый_ибис"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eudocimus+albus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White Ibis",
+  "en_aco": "White Ibis",
+  "es": "Corocoro Blanco",
+  "ru": "Белый ибис"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Eudocimus albus",
+ "sci_name_aco": "Eudocimus albus",
+ "sounds": [],
+ "taxon_order": 7462.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 150,
+   "max_extreme": 1500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "grassland",
+   "agricultural",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 894.1666666666666,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Ibis%20%28Eudocimus%20albus%29%20%2815009116595%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Ibis%20%28Eudocimus%20albus%29%20RWD2.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Eudocimus%20albus%20%284111616588%29.jpg"
+ ]
+}

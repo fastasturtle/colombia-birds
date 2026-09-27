@@ -1,0 +1,94 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bncfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiarchus",
+ "id": "myiarchus-tyrannulus",
+ "ids": {
+  "avibase": "FC9E06A0082B1CD5",
+  "birdbase": 18158,
+  "gbif": 2483589,
+  "inaturalist": "16016",
+  "iucn": "22700436",
+  "wikidata": "Q903898",
+  "xeno_canto": "Myiarchus-tyrannulus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiarchus_tyrannulus",
+  "ebird": "https://ebird.org/species/bncfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16016",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Brown-crested_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiarchus_tyrannulus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiarchus+tyrannulus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Brown-crested Flycatcher",
+  "en_aco": "Brown-crested Flycatcher",
+  "es": "Copetón Tiranillo",
+  "ru": "Коричневохохлый миарх"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiarchus tyrannulus",
+ "sci_name_aco": "Myiarchus tyrannulus",
+ "sounds": [],
+ "taxon_order": 17335.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 39.76666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiarchus%20tyrannulus%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil-8.jpg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gosse, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "unicra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Amaurolimnas",
+ "id": "amaurolimnas-concolor",
+ "ids": {
+  "avibase": "C25C4DCB22D0BBB3",
+  "birdbase": 5706,
+  "gbif": 2474448,
+  "inaturalist": "498",
+  "iucn": "22692601",
+  "wikidata": "Q1266427",
+  "xeno_canto": "Amaurolimnas-concolor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amaurolimnas_concolor",
+  "ebird": "https://ebird.org/species/unicra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/498",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Uniform_crake",
+   "es": "https://es.wikipedia.org/wiki/Amaurolimnas_concolor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Amaurolimnas+concolor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Uniform Crake",
+  "en_aco": "Uniform Crake",
+  "es": "Cotara Café",
+  "ru": "Одноцветный саракура"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Amaurolimnas concolor",
+ "sci_name_aco": "Amaurolimnas concolor",
+ "sounds": [],
+ "taxon_order": 5432.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 114,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amaurolimnas%20concolor%20-%20Miguel%20-%20569387954.jpeg"
+ ]
+}

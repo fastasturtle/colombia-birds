@@ -1,0 +1,94 @@
+{
+ "authorship": "(Pallas, 1764)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtgol1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Polytmus",
+ "id": "polytmus-guainumbi",
+ "ids": {
+  "avibase": "D78E94DFB03B1BBC",
+  "birdbase": 2831,
+  "gbif": 2477020,
+  "inaturalist": "5783",
+  "iucn": "22687482",
+  "wikidata": "Q515275",
+  "xeno_canto": "Polytmus-guainumbi"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polytmus_guainumbi",
+  "ebird": "https://ebird.org/species/whtgol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5783",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_goldenthroat",
+   "es": "https://es.wikipedia.org/wiki/Polytmus_guainumbi",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Polytmus+guainumbi"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Goldenthroat",
+  "en_aco": "White-tailed Goldenthroat",
+  "es": "Colibrí Guainumbí",
+  "ru": "Бронзовоспинный колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Polytmus guainumbi",
+ "sci_name_aco": "Polytmus guainumbi",
+ "sounds": [],
+ "taxon_order": 4373.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "shrubland",
+   "savanna",
+   "grassland",
+   "wetland"
+  ],
+  "mass_g": 4.7,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Polytmus%20guainumbi-White-tailed%20Goldenthroat.jpg"
+ ]
+}

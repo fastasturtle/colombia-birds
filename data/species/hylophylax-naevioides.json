@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "spoant1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Hylophylax",
+ "id": "hylophylax-naevioides",
+ "ids": {
+  "avibase": "87EC464390F646F2",
+  "birdbase": 16307,
+  "gbif": 5230831,
+  "inaturalist": "15884",
+  "iucn": "22701911",
+  "wikidata": "Q1274102",
+  "xeno_canto": "Hylophylax-naevioides"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylophylax_naevioides",
+  "ebird": "https://ebird.org/species/spoant1",
+  "inaturalist": "https://www.inaturalist.org/taxa/15884",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Spotted_antbird",
+   "es": "https://es.wikipedia.org/wiki/Hylophylax_naevioides",
+   "ru": "https://ru.wikipedia.org/wiki/Пятнистая_короткохвостая_муравьянка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylophylax+naevioides"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Spotted Antbird",
+  "en_aco": "Spotted Antbird",
+  "es": "Hormiguero Moteado",
+  "ru": "Пятнистая муравьеловка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylophylax naevioides",
+ "sci_name_aco": "Hylophylax naevioides",
+ "sounds": [],
+ "taxon_order": 14104.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 17.2,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Spotted%20Antbird%20-%20Dari%C3%A9n%20-%20Panama%20%2848444521417%29.jpg"
+ ]
+}

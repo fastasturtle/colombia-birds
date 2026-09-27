@@ -1,0 +1,91 @@
+{
+ "authorship": "(Lawrence, 1861)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "semhaw",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Leucopternis",
+ "id": "leucopternis-semiplumbeus",
+ "ids": {
+  "avibase": "B4B9A3B4C1E41E35",
+  "birdbase": 8769,
+  "gbif": 2480395,
+  "inaturalist": "62532",
+  "iucn": "22695775",
+  "wikidata": "Q1266360",
+  "xeno_canto": "Leucopternis-semiplumbeus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leucopternis_semiplumbeus",
+  "ebird": "https://ebird.org/species/semhaw",
+  "inaturalist": "https://www.inaturalist.org/taxa/62532",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Semiplumbeous_hawk",
+   "es": "https://es.wikipedia.org/wiki/Leucopternis_semiplumbeus",
+   "ru": "https://ru.wikipedia.org/wiki/Чайковый_пегий_канюк"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leucopternis+semiplumbeus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Semiplumbeous Hawk",
+  "en_aco": "Semiplumbeous Hawk",
+  "es": "Busardo Semiplomizo",
+  "ru": "Сероголовая агуйла"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Leucopternis semiplumbeus",
+ "sci_name_aco": "Leucopternis semiplumbeus",
+ "sounds": [],
+ "taxon_order": 8469.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 287.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leucopternis%20semiplumbeus%20-Costa%20Rica-8.jpg"
+ ]
+}

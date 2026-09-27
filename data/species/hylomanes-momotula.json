@@ -1,0 +1,91 @@
+{
+ "authorship": "(M.H.K. Lichtenstein, 1839)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "todmot1",
+ "family": {
+  "code": "momoti1",
+  "en": "Motmots",
+  "sci": "Momotidae"
+ },
+ "genus": "Hylomanes",
+ "id": "hylomanes-momotula",
+ "ids": {
+  "avibase": "6436068455E6923D",
+  "birdbase": 10781,
+  "gbif": 2475285,
+  "inaturalist": "2177",
+  "iucn": "22682980",
+  "wikidata": "Q426947",
+  "xeno_canto": "Hylomanes-momotula"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylomanes_momotula",
+  "ebird": "https://ebird.org/species/todmot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2177",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Tody_motmot",
+   "es": "https://es.wikipedia.org/wiki/Hylomanes_momotula",
+   "ru": "https://ru.wikipedia.org/wiki/Малый_момот"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylomanes+momotula"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Tody Motmot",
+  "en_aco": "Tody Motmot",
+  "es": "Momoto Enano",
+  "ru": "Малый момот"
+ },
+ "order": "Coraciiformes",
+ "photos": [],
+ "sci_name": "Hylomanes momotula",
+ "sci_name_aco": "Hylomanes momotula",
+ "sounds": [],
+ "taxon_order": 9846.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1850,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 28.883333333333336,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Hylomanes-momotula-001.jpg"
+ ]
+}

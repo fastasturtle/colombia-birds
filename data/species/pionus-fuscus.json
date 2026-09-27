@@ -1,0 +1,93 @@
+{
+ "authorship": "(Statius Müller, 1776)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "duspar1",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Pionus",
+ "id": "pionus-fuscus",
+ "ids": {
+  "avibase": "1A87E3A9BB090B07",
+  "birdbase": 13227,
+  "gbif": 2479912,
+  "inaturalist": "19097",
+  "iucn": "22686198",
+  "wikidata": "Q1087593",
+  "xeno_canto": "Pionus-fuscus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pionus_fuscus",
+  "ebird": "https://ebird.org/species/duspar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19097",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Dusky_parrot",
+   "es": "https://es.wikipedia.org/wiki/Pionus_fuscus",
+   "ru": "https://ru.wikipedia.org/wiki/Тёмный_красногузый_попугай"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pionus+fuscus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Dusky Parrot",
+  "en_aco": "Dusky Parrot",
+  "es": "Loro Morado",
+  "ru": "Тёмный амазонет"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Pionus fuscus",
+ "sci_name_aco": "Pionus fuscus",
+ "sounds": [],
+ "taxon_order": 12873.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes"
+  ],
+  "mass_g": 203.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": null
+  },
+  "primary_diet": "Herbivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pionus%20fuscus-0.jpg"
+ ]
+}

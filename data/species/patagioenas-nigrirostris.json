@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1860)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shbpig",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Patagioenas",
+ "id": "patagioenas-nigrirostris",
+ "ids": {
+  "avibase": "1D706BD018DD0C63",
+  "birdbase": 4586,
+  "gbif": 2495284,
+  "inaturalist": "3079",
+  "iucn": "22690334",
+  "wikidata": "Q1266517",
+  "xeno_canto": "Patagioenas-nigrirostris"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Patagioenas_nigrirostris",
+  "ebird": "https://ebird.org/species/shbpig",
+  "inaturalist": "https://www.inaturalist.org/taxa/3079",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-billed_pigeon",
+   "es": "https://es.wikipedia.org/wiki/Patagioenas_nigrirostris",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Patagioenas+nigrirostris"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-billed Pigeon",
+  "en_aco": "Short-billed Pigeon",
+  "es": "Paloma Piquicorta",
+  "ru": "Короткоклювый голубь"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Patagioenas nigrirostris",
+ "sci_name_aco": "Patagioenas nigrirostris",
+ "sounds": [],
+ "taxon_order": 1999.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Gravel",
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 161.33333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Patagioenas%20nigrirostris.jpg"
+ ]
+}

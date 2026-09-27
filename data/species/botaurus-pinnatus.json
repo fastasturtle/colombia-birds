@@ -1,0 +1,93 @@
+{
+ "authorship": "(Wagler, 1829)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente incierto",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente?",
+  "status_uncertain": true
+ },
+ "difficulty": null,
+ "ebird_code": "pinbit1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Botaurus",
+ "id": "botaurus-pinnatus",
+ "ids": {
+  "avibase": "A3E4F16C77933D21",
+  "birdbase": 7899,
+  "gbif": 2480913,
+  "inaturalist": "5031",
+  "iucn": "22697343",
+  "wikidata": "Q888542",
+  "xeno_canto": "Botaurus-pinnatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Botaurus_pinnatus",
+  "ebird": "https://ebird.org/species/pinbit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5031",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pinnated_bittern",
+   "es": "https://es.wikipedia.org/wiki/Botaurus_pinnatus",
+   "ru": "https://ru.wikipedia.org/wiki/Южноамериканская_выпь"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Botaurus+pinnatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pinnated Bittern",
+  "en_aco": "Pinnated Bittern",
+  "es": "Avetoro Mirasol",
+  "ru": "Южноамериканская выпь"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Botaurus pinnatus",
+ "sci_name_aco": "Botaurus pinnatus",
+ "sounds": [],
+ "taxon_order": 7561.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 400,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 775,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Botaurus%20pinnatus.jpg"
+ ]
+}

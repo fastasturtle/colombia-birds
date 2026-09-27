@@ -1,0 +1,93 @@
+{
+ "authorship": "(A. Wilson, 1811)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "wlswar",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Cardellina",
+ "id": "cardellina-pusilla",
+ "ids": {
+  "avibase": "1F09CCCCBD97B861",
+  "birdbase": 36474,
+  "gbif": 7341606,
+  "inaturalist": "145276",
+  "iucn": "22721879",
+  "wikidata": "Q27076007",
+  "xeno_canto": "Cardellina-pusilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cardellina_pusilla",
+  "ebird": "https://ebird.org/species/wlswar",
+  "inaturalist": "https://www.inaturalist.org/taxa/145276",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Wilson's_warbler",
+   "es": "https://es.wikipedia.org/wiki/Cardellina_pusilla",
+   "ru": "https://ru.wikipedia.org/wiki/Малая_вильсония"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cardellina+pusilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Wilson's Warbler",
+  "en_aco": "Wilson's Warbler",
+  "es": "Reinita de Wilson",
+  "ru": "Малая вильсония"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cardellina pusilla",
+ "sci_name_aco": "Cardellina pusilla",
+ "sounds": [],
+ "taxon_order": 34346.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2700,
+   "max_extreme": 3500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 8.083333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Wilson%27s%20Warbler%20%2851699797214%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Female%20Wilson%27s%20Warbler%20%289328053851%29.jpg"
+ ]
+}

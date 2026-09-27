@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-minuta",
+ "ids": {
+  "avibase": "96944A784EB6D2F3",
+  "birdbase": 37293,
+  "gbif": 2491367,
+  "inaturalist": "9492",
+  "iucn": "22723478",
+  "wikidata": "Q1306467",
+  "xeno_canto": "Sporophila-minuta"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_minuta",
+  "ebird": "https://ebird.org/species/rubsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/9492",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ruddy-breasted_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_minuta",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+minuta"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ruddy-breasted Seedeater",
+  "en_aco": "Ruddy-breasted Seedeater",
+  "es": "Semillero Pechirrufo",
+  "ru": "Малый просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila minuta",
+ "sci_name_aco": "Sporophila minuta",
+ "sounds": [],
+ "taxon_order": 35531.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2200,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "grassland",
+   "agricultural"
+  ],
+  "mass_g": 8,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20minuta%20Espiguero%20ladrillo%20Ruddy-breasted%20Seedeater%20%28female%29%20%2811482619296%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20minuta%20Espiguero%20ladrillo%20Ruddy-breasted%20Seedeater%20%2811481101056%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ruddy-breasted%20Seedeater.jpg"
+ ]
+}

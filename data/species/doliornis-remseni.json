@@ -1,0 +1,93 @@
+{
+ "authorship": "(Robbins, G. H. Rosenberg & F. S. Molina, 1994)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chbcot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Doliornis",
+ "id": "doliornis-remseni",
+ "ids": {
+  "avibase": "E95B88A6D06B77E3",
+  "birdbase": 18276,
+  "gbif": 2486397,
+  "inaturalist": "8844",
+  "iucn": "22700747",
+  "wikidata": "Q286759",
+  "xeno_canto": "Doliornis-remseni"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Doliornis_remseni",
+  "ebird": "https://ebird.org/species/chbcot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8844",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-bellied_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Doliornis_remseni",
+   "ru": "https://ru.wikipedia.org/wiki/Doliornis_remseni"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Doliornis+remseni"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-bellied Cotinga",
+  "en_aco": "Chestnut-bellied Cotinga",
+  "es": "Cotinga de Remsen",
+  "ru": "Каштановогрудая котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Doliornis remseni",
+ "sci_name_aco": "Doliornis remseni",
+ "sounds": [],
+ "taxon_order": 15891.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3650,
+   "max_extreme": null,
+   "min": 3100,
+   "min_extreme": 2875
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "grassland"
+  ],
+  "mass_g": 64.83333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Doliornis%20remseni%20262570674.jpg"
+ ]
+}

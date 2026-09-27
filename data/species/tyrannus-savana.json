@@ -1,0 +1,97 @@
+{
+ "authorship": "(Vieillot, 1808)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Migratorio Austral | Residente",
+  "status": [
+   "boreal_migrant",
+   "austral_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Austral - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fotfly",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Tyrannus",
+ "id": "tyrannus-savana",
+ "ids": {
+  "avibase": "A2510EF44C67DD52",
+  "birdbase": 18070,
+  "gbif": 5229693,
+  "inaturalist": "16793",
+  "iucn": "22700503",
+  "wikidata": "Q1078611",
+  "xeno_canto": "Tyrannus-savana"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyrannus_savana",
+  "ebird": "https://ebird.org/species/fotfly",
+  "inaturalist": "https://www.inaturalist.org/taxa/16793",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fork-tailed_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Tyrannus_savana",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Tyrannus+savana"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fork-tailed Flycatcher",
+  "en_aco": "Fork-tailed Flycatcher",
+  "es": "Tijereta Sabanera",
+  "ru": "Вилохвостый тиранн"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Tyrannus savana",
+ "sci_name_aco": "Tyrannus savana",
+ "sounds": [],
+ "taxon_order": 17494.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "savanna",
+   "grassland",
+   "coastal"
+  ],
+  "mass_g": 31.099999999999998,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Savanna",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus%20savana%20-Colombia-8.jpg"
+ ]
+}

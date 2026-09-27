@@ -1,0 +1,94 @@
+{
+ "authorship": "(P.L. Sclater & Salvin, 1868)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blbcra1",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Rufirallus",
+ "id": "rufirallus-fasciatus",
+ "ids": {
+  "avibase": null,
+  "birdbase": 5984,
+  "gbif": 2474493,
+  "inaturalist": "257",
+  "iucn": null,
+  "wikidata": "Q1263247",
+  "xeno_canto": "Laterallus-fasciatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laterallus_fasciatus",
+  "ebird": "https://ebird.org/species/blbcra1",
+  "inaturalist": "https://www.inaturalist.org/taxa/257",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-banded_crake",
+   "es": "https://es.wikipedia.org/wiki/Rufirallus_fasciatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Rufirallus+fasciatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-banded Crake",
+  "en_aco": "Black-banded Crake",
+  "es": "Polluela Barreada",
+  "ru": "Опоясанный коростелёк"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Rufirallus fasciatus",
+ "sci_name_aco": "Anurolimnas fasciatus",
+ "sounds": [],
+ "taxon_order": 5619.0,
+ "taxonomy_note": "ACO/SACC lists this as Anurolimnas fasciatus; eBird/Clements uses Rufirallus fasciatus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "shrubland",
+   "rivers_lakes",
+   "wetland"
+  ],
+  "mass_g": 69,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PorzanaHauxwelliSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-banded%20crake%20%28Porzana%20fasiata%29%2003.jpg"
+ ]
+}

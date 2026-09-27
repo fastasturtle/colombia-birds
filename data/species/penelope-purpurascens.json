@@ -1,0 +1,95 @@
+{
+ "authorship": "(Wagler, 1830)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cregua1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Penelope",
+ "id": "penelope-purpurascens",
+ "ids": {
+  "avibase": "01A3897928028F1C",
+  "birdbase": 697,
+  "gbif": 2482225,
+  "inaturalist": "2062",
+  "iucn": "22678376",
+  "wikidata": "Q848140",
+  "xeno_canto": "Penelope-purpurascens"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Penelope_purpurascens",
+  "ebird": "https://ebird.org/species/cregua1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2062",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Crested_guan",
+   "es": "https://es.wikipedia.org/wiki/Penelope_purpurascens",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Penelope+purpurascens"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Crested Guan",
+  "en_aco": "Crested Guan",
+  "es": "Pava Cojolita",
+  "ru": "Хохлатая пенелопа"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Penelope purpurascens",
+ "sci_name_aco": "Penelope purpurascens",
+ "sounds": [],
+ "taxon_order": 884.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 2500,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 1939.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crested%20guan%20%28Penelope%20purpurascens%20purpurascens%29%20Orange%20Walk.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Penelope%20purpurascens%202.jpg"
+ ]
+}

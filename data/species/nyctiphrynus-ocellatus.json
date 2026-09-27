@@ -1,0 +1,91 @@
+{
+ "authorship": "(Tschudi, 1844)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Woodland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "ocepoo1",
+ "family": {
+  "code": "caprim2",
+  "en": "Nightjars and Allies",
+  "sci": "Caprimulgidae"
+ },
+ "genus": "Nyctiphrynus",
+ "id": "nyctiphrynus-ocellatus",
+ "ids": {
+  "avibase": "F546974F05BC6A46",
+  "birdbase": 1951,
+  "gbif": 2497005,
+  "inaturalist": "19636",
+  "iucn": "22689773",
+  "wikidata": "Q1266712",
+  "xeno_canto": "Nyctiphrynus-ocellatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Nyctiphrynus_ocellatus",
+  "ebird": "https://ebird.org/species/ocepoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/19636",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Ocellated_poorwill",
+   "es": "https://es.wikipedia.org/wiki/Nyctiphrynus_ocellatus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Nyctiphrynus+ocellatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Ocellated Poorwill",
+  "en_aco": "Ocellated Poorwill",
+  "es": "Chotacabras Ocelado",
+  "ru": "Глазчатый козодой"
+ },
+ "order": "Caprimulgiformes",
+ "photos": [],
+ "sci_name": "Nyctiphrynus ocellatus",
+ "sci_name_aco": "Nyctiphrynus ocellatus",
+ "sounds": [],
+ "taxon_order": 3584.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1350,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 38.12,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Nyctiphrynus%20ocellatus%20Ocellated%20Poorwill.JPG"
+ ]
+}

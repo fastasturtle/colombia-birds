@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blucot1",
+ "family": {
+  "code": "coting1",
+  "en": "Cotingas",
+  "sci": "Cotingidae"
+ },
+ "genus": "Cotinga",
+ "id": "cotinga-nattererii",
+ "ids": {
+  "avibase": "206E4EAA3E57CE0D",
+  "birdbase": 18315,
+  "gbif": 5230387,
+  "inaturalist": "8912",
+  "iucn": "22700877",
+  "wikidata": "Q747000",
+  "xeno_canto": "Cotinga-nattererii"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cotinga_nattererii",
+  "ebird": "https://ebird.org/species/blucot1",
+  "inaturalist": "https://www.inaturalist.org/taxa/8912",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue_cotinga",
+   "es": "https://es.wikipedia.org/wiki/Cotinga_nattererii",
+   "ru": "https://ru.wikipedia.org/wiki/Пурпурногорлая_настоящая_котинга"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cotinga+nattererii"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue Cotinga",
+  "en_aco": "Blue Cotinga",
+  "es": "Cotinga Azul",
+  "ru": "Синяя котинга"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cotinga nattererii",
+ "sci_name_aco": "Cotinga nattererii",
+ "sounds": [],
+ "taxon_order": 15923.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "woodland"
+  ],
+  "mass_g": 78,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cotinga%20nattererii%20-Panama-8a.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Cotinga%20-%20Darien%20-%20Panama%20%2848444493617%29%20%28cropped%29.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Fraser, 1852)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bubcur1",
+ "family": {
+  "code": "cracid2",
+  "en": "Guans, Chachalacas, and Curassows",
+  "sci": "Cracidae"
+ },
+ "genus": "Crax",
+ "id": "crax-alberti",
+ "ids": {
+  "avibase": "9260D3DD345F6787",
+  "birdbase": 753,
+  "gbif": 2482178,
+  "inaturalist": "2050",
+  "iucn": "22678525",
+  "wikidata": "Q1043334",
+  "xeno_canto": "Crax-alberti"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Crax_alberti",
+  "ebird": "https://ebird.org/species/bubcur1",
+  "inaturalist": "https://www.inaturalist.org/taxa/2050",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Blue-billed_curassow",
+   "es": "https://es.wikipedia.org/wiki/Crax_alberti",
+   "ru": "https://ru.wikipedia.org/wiki/Синеклювый_кракс"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Crax+alberti"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Blue-billed Curassow",
+  "en_aco": "Blue-billed Curassow",
+  "es": "Pavón Piquiazul",
+  "ru": "Синеклювый кракс"
+ },
+ "order": "Galliformes",
+ "photos": [],
+ "sci_name": "Crax alberti",
+ "sci_name_aco": "Crax alberti",
+ "sounds": [],
+ "taxon_order": 933.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "sand and small stones to aid digestion",
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 1200,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 2650,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Crax%20alberti%20183250321.jpg"
+ ]
+}

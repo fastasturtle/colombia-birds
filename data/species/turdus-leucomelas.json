@@ -1,0 +1,96 @@
+{
+ "authorship": "(Vieillot, 1818)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "pabthr1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Turdus",
+ "id": "turdus-leucomelas",
+ "ids": {
+  "avibase": "C09382470E0D642D",
+  "birdbase": 30798,
+  "gbif": 2490726,
+  "inaturalist": "12737",
+  "iucn": "22708888",
+  "wikidata": "Q1589021",
+  "xeno_canto": "Turdus-leucomelas"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_leucomelas",
+  "ebird": "https://ebird.org/species/pabthr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/12737",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pale-breasted_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_leucomelas",
+   "ru": "https://ru.wikipedia.org/wiki/Бледногрудый_дрозд"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+leucomelas"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pale-breasted Thrush",
+  "en_aco": "Pale-breasted Thrush",
+  "es": "Zorzal Sabiá",
+  "ru": "Бледногрудый дрозд"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Turdus leucomelas",
+ "sci_name_aco": "Turdus leucomelas",
+ "sounds": [],
+ "taxon_order": 28745.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": 2000,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 63,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20leucomelas%20-%20Kaz%20Born.jpeg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20leucomelas.jpg"
+ ]
+}

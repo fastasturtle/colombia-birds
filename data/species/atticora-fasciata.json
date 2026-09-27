@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whbswa2",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Atticora",
+ "id": "atticora-fasciata",
+ "ids": {
+  "avibase": "DA652FA14372557D",
+  "birdbase": 25188,
+  "gbif": 5230746,
+  "inaturalist": "11977",
+  "iucn": "22712137",
+  "wikidata": "Q1587061",
+  "xeno_canto": "Atticora-fasciata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Atticora_fasciata",
+  "ebird": "https://ebird.org/species/whbswa2",
+  "inaturalist": "https://www.inaturalist.org/taxa/11977",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-banded_swallow",
+   "es": "https://es.wikipedia.org/wiki/Atticora_fasciata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Atticora+fasciata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-banded Swallow",
+  "en_aco": "White-banded Swallow",
+  "es": "Golondrina Fajiblanca",
+  "ru": "Белопоясковая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Atticora fasciata",
+ "sci_name_aco": "Atticora fasciata",
+ "sounds": [],
+ "taxon_order": 24127.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 1400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Atticora%20fasciata%20181560461.jpg"
+ ]
+}

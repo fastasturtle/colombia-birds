@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rebmac2",
+ "family": {
+  "code": "psitta3",
+  "en": "New World and African Parrots",
+  "sci": "Psittacidae"
+ },
+ "genus": "Orthopsittaca",
+ "id": "orthopsittaca-manilatus",
+ "ids": {
+  "avibase": "9A5F4D9573252F25",
+  "birdbase": 13517,
+  "gbif": 9173084,
+  "inaturalist": "367563",
+  "iucn": "22685585",
+  "wikidata": "Q177191",
+  "xeno_canto": "Orthopsittaca-manilatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Orthopsittaca_manilatus",
+  "ebird": "https://ebird.org/species/rebmac2",
+  "inaturalist": "https://www.inaturalist.org/taxa/367563",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red-bellied_macaw",
+   "es": "https://es.wikipedia.org/wiki/Orthopsittaca_manilatus",
+   "ru": "https://ru.wikipedia.org/wiki/Краснобрюхий_ара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Orthopsittaca+manilatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red-bellied Macaw",
+  "en_aco": "Red-bellied Macaw",
+  "es": "Guacamayo Ventrirrojo",
+  "ru": "Краснобрюхий ара"
+ },
+ "order": "Psittaciformes",
+ "photos": [],
+ "sci_name": "Orthopsittaca manilatus",
+ "sci_name_aco": "Psittacus manilatus",
+ "sounds": [],
+ "taxon_order": 13136.0,
+ "taxonomy_note": "ACO/SACC lists this as Psittacus manilatus; eBird/Clements uses Orthopsittaca manilatus.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 650,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "woodland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 341,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Orthopsittaca%20manilata%20-Brazil-6.jpg"
+ ]
+}

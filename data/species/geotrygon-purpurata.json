@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin, 1878)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sapqud1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Geotrygon",
+ "id": "geotrygon-purpurata",
+ "ids": {
+  "avibase": "B18C3C10D46AA944",
+  "birdbase": 4933,
+  "gbif": 5843937,
+  "inaturalist": "339597",
+  "iucn": "22728282",
+  "wikidata": "Q2984148",
+  "xeno_canto": "Geotrygon-purpurata"
+ },
+ "iucn": {
+  "aco_2022": "EN",
+  "birdbase_2024": "EN",
+  "wikidata": "endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Geotrygon_purpurata",
+  "ebird": "https://ebird.org/species/sapqud1",
+  "inaturalist": "https://www.inaturalist.org/taxa/339597",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Purple_quail-dove",
+   "es": "https://es.wikipedia.org/wiki/Geotrygon_purpurata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Geotrygon+purpurata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Purple Quail-Dove",
+  "en_aco": "Purple Quail-Dove",
+  "es": "Paloma Perdiz Purpúrea",
+  "ru": "Пурпурноголовая перепелиная горлица"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Geotrygon purpurata",
+ "sci_name_aco": "Geotrygon purpurata",
+ "sounds": [],
+ "taxon_order": 2309.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1100,
+   "max_extreme": null,
+   "min": 200,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 142,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Geotrygon%20purpurata%20DT%20-P%20Milpe-Pachijal-%20%286%29%20%2820671077419%29.jpg"
+ ]
+}

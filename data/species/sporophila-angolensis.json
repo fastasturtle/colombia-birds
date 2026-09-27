@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "cbsfin",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Sporophila",
+ "id": "sporophila-angolensis",
+ "ids": {
+  "avibase": "8F23E84FDD8DF9D0",
+  "birdbase": 37250,
+  "gbif": 8239823,
+  "inaturalist": "367682",
+  "iucn": "22723542",
+  "wikidata": "Q28867456",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sporophila_angolensis",
+  "ebird": "https://ebird.org/species/cbsfin",
+  "inaturalist": "https://www.inaturalist.org/taxa/367682",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-bellied_seed_finch",
+   "es": "https://es.wikipedia.org/wiki/Sporophila_angolensis",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sporophila+angolensis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-bellied Seed-Finch",
+  "en_aco": "Chestnut-bellied Seed-Finch",
+  "es": "Semillero Curió",
+  "ru": "Каштаново-чёрный просяночник"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sporophila angolensis",
+ "sci_name_aco": "Sporophila angolensis",
+ "sounds": [],
+ "taxon_order": 35547.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 12.966666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-bellied%20Seed-Finch%20%28Oryzoborus%20angolensis%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sporophila%20angolensis%20-%20Chestnut-bellied%20Seed-finch%20%28female%29%3B%20Boa%20Esperan%C3%A7a%20do%20Sul%2C%20S%C3%A3o%20Paulo%2C%20Brazil.jpg"
+ ]
+}

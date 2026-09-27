@@ -1,0 +1,92 @@
+{
+ "authorship": "(Orbigny & Lafresnaye, 1837)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "stptyr1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiornis",
+ "id": "myiornis-ecaudatus",
+ "ids": {
+  "avibase": "B452B6964CCB3983",
+  "birdbase": 17409,
+  "gbif": 2482868,
+  "inaturalist": "17085",
+  "iucn": "22699549",
+  "wikidata": "Q1269145",
+  "xeno_canto": "Myiornis-ecaudatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiornis_ecaudatus",
+  "ebird": "https://ebird.org/species/stptyr1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17085",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-tailed_pygmy_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Myiornis_ecaudatus",
+   "ru": "https://ru.wikipedia.org/wiki/Короткохвостая_аруна"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiornis+ecaudatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-tailed Pygmy-Tyrant",
+  "en_aco": "Short-tailed Pygmy-Tyrant",
+  "es": "Mosqueta Colicorta",
+  "ru": "Короткохвостая аруна"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiornis ecaudatus",
+ "sci_name_aco": "Myiornis ecaudatus",
+ "sounds": [],
+ "taxon_order": 16302.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 950,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 5.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiornis%20ecaudatus%201847.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiornis%20ecaudatus%20-%20Short-tailed%20Pigmy-Tyrant%20%28Manaus%29.jpg"
+ ]
+}

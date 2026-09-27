@@ -1,0 +1,96 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "limpki",
+ "family": {
+  "code": "aramid1",
+  "en": "Limpkin",
+  "sci": "Aramidae"
+ },
+ "genus": "Aramus",
+ "id": "aramus-guarauna",
+ "ids": {
+  "avibase": "5D864313BEB5CCAA",
+  "birdbase": 6184,
+  "gbif": 2474337,
+  "inaturalist": "7",
+  "iucn": "22692174",
+  "wikidata": "Q725276",
+  "xeno_canto": "Aramus-guarauna"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Aramus_guarauna",
+  "ebird": "https://ebird.org/species/limpki",
+  "inaturalist": "https://www.inaturalist.org/taxa/7",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Limpkin",
+   "es": "https://es.wikipedia.org/wiki/Aramus_guarauna",
+   "ru": "https://ru.wikipedia.org/wiki/Арама_(птица)"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Aramus+guarauna"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Limpkin",
+  "en_aco": "Limpkin",
+  "es": "Carrao",
+  "ru": "Арама"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Aramus guarauna",
+ "sci_name_aco": "Aramus guarauna",
+ "sounds": [],
+ "taxon_order": 5671.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 1153.3333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aramus%20guarauna.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Limpkin1.jpg"
+ ]
+}

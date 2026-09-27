@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1766)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gloibi",
+ "family": {
+  "code": "thresk1",
+  "en": "Ibises and Spoonbills",
+  "sci": "Threskiornithidae"
+ },
+ "genus": "Plegadis",
+ "id": "plegadis-falcinellus",
+ "ids": {
+  "avibase": "D4540F880A3EC3BB",
+  "birdbase": 7861,
+  "gbif": 2480773,
+  "inaturalist": "3756",
+  "iucn": "22697422",
+  "wikidata": "Q178811",
+  "xeno_canto": "Plegadis-falcinellus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Plegadis_falcinellus",
+  "ebird": "https://ebird.org/species/gloibi",
+  "inaturalist": "https://www.inaturalist.org/taxa/3756",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Glossy_ibis",
+   "es": "https://es.wikipedia.org/wiki/Plegadis_falcinellus",
+   "ru": "https://ru.wikipedia.org/wiki/Каравайка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Plegadis+falcinellus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Glossy Ibis",
+  "en_aco": "Glossy Ibis",
+  "es": "Morito Común",
+  "ru": "Каравайка"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Plegadis falcinellus",
+ "sci_name_aco": "Plegadis falcinellus",
+ "sounds": [],
+ "taxon_order": 7467.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 620.8333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plegadis%20falcinellus%20Syracuse.jpg"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "authorship": "(J.F. Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "shbdow",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Limnodromus",
+ "id": "limnodromus-griseus",
+ "ids": {
+  "avibase": "4A3B2CFF53868550",
+  "birdbase": 6697,
+  "gbif": 2481672,
+  "inaturalist": "3869",
+  "iucn": "22693344",
+  "wikidata": "Q371633",
+  "xeno_canto": "Limnodromus-griseus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "VU",
+  "wikidata": "vulnerable"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Limnodromus_griseus",
+  "ebird": "https://ebird.org/species/shbdow",
+  "inaturalist": "https://www.inaturalist.org/taxa/3869",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Short-billed_dowitcher",
+   "es": "https://es.wikipedia.org/wiki/Limnodromus_griseus",
+   "ru": "https://ru.wikipedia.org/wiki/Короткоклювый_бекасовидный_веретенник"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Limnodromus+griseus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Short-billed Dowitcher",
+  "en_aco": "Short-billed Dowitcher",
+  "es": "Agujeta Gris",
+  "ru": "Короткоклювый бекасовидный веретенник"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Limnodromus griseus",
+ "sci_name_aco": "Limnodromus griseus",
+ "sounds": [],
+ "taxon_order": 6057.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 110.68333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Short-billed%20Dowitcher%20breeding%20RWD.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Short-billed%20dowitcher%20in%20JBWR%20%2840844%29.jpg"
+ ]
+}

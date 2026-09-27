@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plukit1",
+ "family": {
+  "code": "accipi1",
+  "en": "Hawks, Eagles, and Kites",
+  "sci": "Accipitridae"
+ },
+ "genus": "Ictinia",
+ "id": "ictinia-plumbea",
+ "ids": {
+  "avibase": "5A97BF277A68EF9B",
+  "birdbase": 8689,
+  "gbif": 2480720,
+  "inaturalist": "5415",
+  "iucn": "22695069",
+  "wikidata": "Q1264502",
+  "xeno_canto": "Ictinia-plumbea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ictinia_plumbea",
+  "ebird": "https://ebird.org/species/plukit1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5415",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plumbeous_kite",
+   "es": "https://es.wikipedia.org/wiki/Ictinia_plumbea",
+   "ru": "https://ru.wikipedia.org/wiki/Сизый_коршун"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ictinia+plumbea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plumbeous Kite",
+  "en_aco": "Plumbeous Kite",
+  "es": "Elanio Plomizo",
+  "ru": "Сизый коршун"
+ },
+ "order": "Accipitriformes",
+ "photos": [],
+ "sci_name": "Ictinia plumbea",
+ "sci_name_aco": "Ictinia plumbea",
+ "sounds": [],
+ "taxon_order": 8389.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "rivers_lakes"
+  ],
+  "mass_g": 253.25,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ictinia%20plumbea%20-Piraju%2C%20Sao%20Paulo%2C%20Brazil-8.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ictinia%20plumbea%20-Mato%20Grosso%20do%20Sul%2C%20Brazil-8.jpg"
+ ]
+}

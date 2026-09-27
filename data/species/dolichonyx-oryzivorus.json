@@ -1,0 +1,94 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "boboli",
+ "family": {
+  "code": "icteri1",
+  "en": "Troupials and Allies",
+  "sci": "Icteridae"
+ },
+ "genus": "Dolichonyx",
+ "id": "dolichonyx-oryzivorus",
+ "ids": {
+  "avibase": "F845062FC976B85B",
+  "birdbase": 35768,
+  "gbif": 2484417,
+  "inaturalist": "10487",
+  "iucn": "22724367",
+  "wikidata": "Q591831",
+  "xeno_canto": "Dolichonyx-oryzivorus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dolichonyx_oryzivorus",
+  "ebird": "https://ebird.org/species/boboli",
+  "inaturalist": "https://www.inaturalist.org/taxa/10487",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bobolink",
+   "es": "https://es.wikipedia.org/wiki/Dolichonyx_oryzivorus",
+   "ru": "https://ru.wikipedia.org/wiki/Рисовая_птица"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dolichonyx+oryzivorus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bobolink",
+  "en_aco": "Bobolink",
+  "es": "Tordo Charlatán",
+  "ru": "Боболинк"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dolichonyx oryzivorus",
+ "sci_name_aco": "Dolichonyx oryzivorus",
+ "sounds": [],
+ "taxon_order": 33564.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": 3400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "agricultural",
+   "wetland"
+  ],
+  "mass_g": 36.9,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/20250702%20bobolink%20glastonbury%20meadows%20PD206869%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Bobolink%20%28female%29%20%285005682834%29.jpg"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "authorship": "(Bangs, 1898)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "DD",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colcra2",
+ "family": {
+  "code": "rallid1",
+  "en": "Rails, Gallinules, and Coots",
+  "sci": "Rallidae"
+ },
+ "genus": "Mustelirallus",
+ "id": "mustelirallus-colombianus",
+ "ids": {
+  "avibase": "E016F3ACECACD340",
+  "birdbase": 5700,
+  "gbif": 8340372,
+  "inaturalist": "531",
+  "iucn": "22692740",
+  "wikidata": "Q1269548",
+  "xeno_canto": "Neocrex-colombiana"
+ },
+ "iucn": {
+  "aco_2022": "DD",
+  "birdbase_2024": "DD",
+  "wikidata": "Data Deficient"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Neocrex_colombiana",
+  "ebird": "https://ebird.org/species/colcra2",
+  "inaturalist": "https://www.inaturalist.org/taxa/531",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Colombian_crake",
+   "es": "https://es.wikipedia.org/wiki/Mustelirallus_colombianus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Mustelirallus+colombianus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Colombian Crake",
+  "en_aco": "Colombian Crake",
+  "es": "Polluela Colombiana",
+  "ru": "Колумбийский туру"
+ },
+ "order": "Gruiformes",
+ "photos": [],
+ "sci_name": "Mustelirallus colombianus",
+ "sci_name_aco": "Mustelirallus colombianus",
+ "sounds": [],
+ "taxon_order": 5426.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2100,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "savanna",
+   "wetland"
+  ],
+  "mass_g": null,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

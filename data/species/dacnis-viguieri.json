@@ -1,0 +1,92 @@
+{
+ "authorship": "(Oustalet, 1883)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "NT",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "virdac1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Dacnis",
+ "id": "dacnis-viguieri",
+ "ids": {
+  "avibase": "B433F5E3BCDBD42F",
+  "birdbase": 36884,
+  "gbif": 2488349,
+  "inaturalist": "10511",
+  "iucn": "22722994",
+  "wikidata": "Q1588711",
+  "xeno_canto": "Dacnis-viguieri"
+ },
+ "iucn": {
+  "aco_2022": "NT",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dacnis_viguieri",
+  "ebird": "https://ebird.org/species/virdac1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10511",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Viridian_dacnis",
+   "es": "https://es.wikipedia.org/wiki/Dacnis_viguieri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Dacnis+viguieri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Viridian Dacnis",
+  "en_aco": "Viridian Dacnis",
+  "es": "Dacnis Verdoso",
+  "ru": "Панамский дакнис"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Dacnis viguieri",
+ "sci_name_aco": "Dacnis viguieri",
+ "sounds": [],
+ "taxon_order": 35161.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 700,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 13,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Omnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Dacnis%20viguieri%201902.jpg"
+ ]
+}

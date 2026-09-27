@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bangs, 1898)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "whtsta1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-phalerata",
+ "ids": {
+  "avibase": "2954B8747EB9639A",
+  "birdbase": 3132,
+  "gbif": 2477041,
+  "inaturalist": "6253",
+  "iucn": "22687825",
+  "wikidata": "Q935133",
+  "xeno_canto": "Coeligena-phalerata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_phalerata",
+  "ebird": "https://ebird.org/species/whtsta1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6253",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/White-tailed_starfrontlet",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_phalerata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+phalerata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "White-tailed Starfrontlet",
+  "en_aco": "White-tailed Starfrontlet",
+  "es": "Inca Coliblanco",
+  "ru": "Белохвостый инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena phalerata",
+ "sci_name_aco": "Coeligena phalerata",
+ "sounds": [],
+ "taxon_order": 4646.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3700,
+   "max_extreme": null,
+   "min": 1400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 6.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coeligena%20phalerata%2C%20male%20%2812711468004%29.jpg"
+ ]
+}

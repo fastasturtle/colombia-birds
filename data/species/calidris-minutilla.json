@@ -1,0 +1,93 @@
+{
+ "authorship": "(Leisler, 1812)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal",
+  "status": [
+   "boreal_migrant"
+  ],
+  "status_raw": "Migratorio Boreal",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leasan",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Calidris",
+ "id": "calidris-minutilla",
+ "ids": {
+  "avibase": "A47B0BD448AA34E0",
+  "birdbase": 6843,
+  "gbif": 2481745,
+  "inaturalist": "3864",
+  "iucn": "22693396",
+  "wikidata": "Q913052",
+  "xeno_canto": "Calidris-minutilla"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Calidris_minutilla",
+  "ebird": "https://ebird.org/species/leasan",
+  "inaturalist": "https://www.inaturalist.org/taxa/3864",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Least_sandpiper",
+   "es": "https://es.wikipedia.org/wiki/Calidris_minutilla",
+   "ru": "https://ru.wikipedia.org/wiki/Песочник-крошка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Calidris+minutilla"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Least Sandpiper",
+  "en_aco": "Least Sandpiper",
+  "es": "Correlimos Menudillo",
+  "ru": "Песочник-крошка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Calidris minutilla",
+ "sci_name_aco": "Calidris minutilla",
+ "sounds": [],
+ "taxon_order": 6226.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 24.833333333333332,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Least%20Sandpiper.jpg"
+ ]
+}

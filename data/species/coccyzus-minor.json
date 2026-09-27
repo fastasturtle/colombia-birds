@@ -1,0 +1,93 @@
+{
+ "authorship": "(Gmelin, 1788)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "mancuc",
+ "family": {
+  "code": "cuculi1",
+  "en": "Cuckoos",
+  "sci": "Cuculidae"
+ },
+ "genus": "Coccyzus",
+ "id": "coccyzus-minor",
+ "ids": {
+  "avibase": "84F096F742884C1B",
+  "birdbase": 4114,
+  "gbif": 2496294,
+  "inaturalist": "1964",
+  "iucn": "22684337",
+  "wikidata": "Q18923",
+  "xeno_canto": "Coccyzus-minor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coccyzus_minor",
+  "ebird": "https://ebird.org/species/mancuc",
+  "inaturalist": "https://www.inaturalist.org/taxa/1964",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Mangrove_cuckoo",
+   "es": "https://es.wikipedia.org/wiki/Coccyzus_minor",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coccyzus+minor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Mangrove Cuckoo",
+  "en_aco": "Mangrove Cuckoo",
+  "es": "Cuclillo de Manglar",
+  "ru": "Мангровая пиайя"
+ },
+ "order": "Cuculiformes",
+ "photos": [],
+ "sci_name": "Coccyzus minor",
+ "sci_name_aco": "Coccyzus minor",
+ "sounds": [],
+ "taxon_order": 3241.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 1250,
+   "max_extreme": 1385,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "woodland",
+   "shrubland",
+   "coastal"
+  ],
+  "mass_g": 66.85000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Mangrove%20Cuckoo.jpg"
+ ]
+}

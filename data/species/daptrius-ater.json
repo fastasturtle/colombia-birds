@@ -1,0 +1,94 @@
+{
+ "authorship": "(Boddaert, 1783)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blacar1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Daptrius",
+ "id": "daptrius-ater",
+ "ids": {
+  "avibase": null,
+  "birdbase": 12809,
+  "gbif": 2481073,
+  "inaturalist": "4717",
+  "iucn": "22696226",
+  "wikidata": "Q520013",
+  "xeno_canto": "Daptrius-ater"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Daptrius_ater",
+  "ebird": "https://ebird.org/species/blacar1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4717",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_caracara",
+   "es": "https://es.wikipedia.org/wiki/Daptrius_ater",
+   "ru": "https://ru.wikipedia.org/wiki/Желтогорлая_чёрная_каракара"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Daptrius+ater"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Caracara",
+  "en_aco": "Black Caracara",
+  "es": "Caracara Negro",
+  "ru": "Чёрная каракара"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Daptrius ater",
+ "sci_name_aco": "Daptrius ater",
+ "sounds": [],
+ "taxon_order": 11969.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 890,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "rivers_lakes",
+   "coastal"
+  ],
+  "mass_g": 353,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Carnivore",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gavi%C3%A3o-de-anta-PARNA%20do%20Juruena-Rafael%20Mitsuo%28001%29.jpg"
+ ]
+}

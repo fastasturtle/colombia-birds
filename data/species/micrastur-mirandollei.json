@@ -1,0 +1,93 @@
+{
+ "authorship": "(Schlegel, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "sbffal1",
+ "family": {
+  "code": "falcon1",
+  "en": "Falcons and Caracaras",
+  "sci": "Falconidae"
+ },
+ "genus": "Micrastur",
+ "id": "micrastur-mirandollei",
+ "ids": {
+  "avibase": "553F3A667A6E1FD5",
+  "birdbase": 12840,
+  "gbif": 2481083,
+  "inaturalist": "4696",
+  "iucn": "22696286",
+  "wikidata": "Q527542",
+  "xeno_canto": "Micrastur-mirandollei"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Micrastur_mirandollei",
+  "ebird": "https://ebird.org/species/sbffal1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4696",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-backed_forest_falcon",
+   "es": "https://es.wikipedia.org/wiki/Micrastur_mirandollei",
+   "ru": "https://ru.wikipedia.org/wiki/Дымчатый_лесной_сокол"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Micrastur+mirandollei"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty-backed Forest-Falcon",
+  "en_aco": "Slaty-backed Forest-Falcon",
+  "es": "Halcón Montés Dorsigrís",
+  "ru": "Дымчатый лесной сокол"
+ },
+ "order": "Falconiformes",
+ "photos": [],
+ "sci_name": "Micrastur mirandollei",
+ "sci_name_aco": "Micrastur mirandollei",
+ "sounds": [],
+ "taxon_order": 11946.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 506.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Vertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Micrastur%20mirandollei%201902.jpg"
+ ]
+}

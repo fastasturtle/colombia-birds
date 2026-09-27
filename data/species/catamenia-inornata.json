@@ -1,0 +1,92 @@
+{
+ "authorship": "(Lafresnaye, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "plcsee1",
+ "family": {
+  "code": "thraup2",
+  "en": "Tanagers and Allies",
+  "sci": "Thraupidae"
+ },
+ "genus": "Catamenia",
+ "id": "catamenia-inornata",
+ "ids": {
+  "avibase": "830AC9D2A0FAB913",
+  "birdbase": 37550,
+  "gbif": 2491197,
+  "inaturalist": "10540",
+  "iucn": "22723573",
+  "wikidata": "Q1587803",
+  "xeno_canto": "Catamenia-inornata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Catamenia_inornata",
+  "ebird": "https://ebird.org/species/plcsee1",
+  "inaturalist": "https://www.inaturalist.org/taxa/10540",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Plain-colored_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Catamenia_inornata",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Catamenia+inornata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Plain-colored Seedeater",
+  "en_aco": "Plain-colored Seedeater",
+  "es": "Semillero Sencillo",
+  "ru": "Невзрачный семеноед"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Catamenia inornata",
+ "sci_name_aco": "Catamenia inornata",
+ "sounds": [],
+ "taxon_order": 35620.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4400,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "shrubland",
+   "grassland"
+  ],
+  "mass_g": 13.4,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Catamenia%20inornata%20Semillero%20andino%20Plain-coloured%20Seedeater%20%2814175316188%29.jpg"
+ ]
+}

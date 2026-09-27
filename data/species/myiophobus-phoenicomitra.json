@@ -1,0 +1,91 @@
+{
+ "authorship": "(Taczanowski & Berlepsch, 1885)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "orcfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Myiophobus",
+ "id": "myiophobus-phoenicomitra",
+ "ids": {
+  "avibase": "F9FB9FEE034D312B",
+  "birdbase": 17311,
+  "gbif": 5229797,
+  "inaturalist": "16875",
+  "iucn": "22699671",
+  "wikidata": "Q839632",
+  "xeno_canto": "Myiophobus-phoenicomitra"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiophobus_phoenicomitra",
+  "ebird": "https://ebird.org/species/orcfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/16875",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Orange-crested_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Myiophobus_phoenicomitra",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myiophobus+phoenicomitra"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Orange-crested Flycatcher",
+  "en_aco": "Orange-crested Flycatcher",
+  "es": "Mosquero Crestinaranja",
+  "ru": "Оливковая курэта"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Myiophobus phoenicomitra",
+ "sci_name_aco": "Myiophobus phoenicomitra",
+ "sounds": [],
+ "taxon_order": 16850.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1550,
+   "max_extreme": null,
+   "min": 500,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 10.700000000000001,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Myiophobus%20phoenicomitra%20-%20Orange-crested%20Flycatcher%20%28cropped%29.jpg"
+ ]
+}

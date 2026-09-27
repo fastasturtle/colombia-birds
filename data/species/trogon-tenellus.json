@@ -1,0 +1,94 @@
+{
+ "authorship": "(Cabanis, 1862)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bkttro7",
+ "family": {
+  "code": "trogon1",
+  "en": "Trogons",
+  "sci": "Trogonidae"
+ },
+ "genus": "Trogon",
+ "id": "trogon-tenellus",
+ "ids": {
+  "avibase": "A70C6C931AAA6C4C",
+  "birdbase": 9974,
+  "gbif": 9213738,
+  "inaturalist": null,
+  "iucn": null,
+  "wikidata": "Q123100141",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Trogon_tenellus",
+  "ebird": "https://ebird.org/species/bkttro7",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Northern_black-throated_trogon",
+   "es": "https://es.wikipedia.org/wiki/Trogon_tenellus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Trogon+tenellus"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Graceful Black-throated Trogon",
+  "en_aco": "Graceful Trogon",
+  "es": "Trogón Amarillo Norteño",
+  "ru": null
+ },
+ "order": "Trogoniformes",
+ "photos": [],
+ "sci_name": "Trogon tenellus",
+ "sci_name_aco": "Trogon tenellus",
+ "sounds": [],
+ "taxon_order": 9560.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1370,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "agricultural"
+  ],
+  "mass_g": 54.13333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": null
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Female%20Black-throated%20Trogon%20%28female%29%2C%20Carate%2C%20Peninsula%20di%20Osa%2C%20Costa%20Rica%20%283987801916%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Black-throated%20Trogon%20-%20Sarapiqui%20-%20Costa%20Rica%20S4E0882%20%2826074307243%29%20%28cropped%29.jpg"
+ ]
+}

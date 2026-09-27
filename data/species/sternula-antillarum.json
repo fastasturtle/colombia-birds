@@ -1,0 +1,96 @@
+{
+ "authorship": "(R. Lesson, 1847)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Riverine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Migratorio Boreal | Residente",
+  "status": [
+   "boreal_migrant",
+   "resident"
+  ],
+  "status_raw": "Migratorio Boreal - Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "leater1",
+ "family": {
+  "code": "larida1",
+  "en": "Gulls, Terns, and Skimmers",
+  "sci": "Laridae"
+ },
+ "genus": "Sternula",
+ "id": "sternula-antillarum",
+ "ids": {
+  "avibase": "BE78E765F1DA8123",
+  "birdbase": 6976,
+  "gbif": 5789285,
+  "inaturalist": "144530",
+  "iucn": "22694673",
+  "wikidata": "Q28168",
+  "xeno_canto": "Sternula-antillarum"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sternula_antillarum",
+  "ebird": "https://ebird.org/species/leater1",
+  "inaturalist": "https://www.inaturalist.org/taxa/144530",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Least_tern",
+   "es": "https://es.wikipedia.org/wiki/Sternula_antillarum",
+   "ru": "https://ru.wikipedia.org/wiki/Карликовая_крачка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sternula+antillarum"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Least Tern",
+  "en_aco": "Least Tern",
+  "es": "Charrancito Americano",
+  "ru": "Карликовая крачка"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Sternula antillarum",
+ "sci_name_aco": "Sternula antillarum",
+ "sounds": [],
+ "taxon_order": 6699.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 46.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sternula%20antillarum%20browni%2C%20San%20Luis%20Obispo%2C%20California%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sternula%20antillarum%20-Atlantic%20coast%2C%20New%20Jersey%2C%20USA-8%20%281%29.jpg"
+ ]
+}

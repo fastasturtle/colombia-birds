@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1890)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rutant3",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Epinecrophylla",
+ "id": "epinecrophylla-erythrura",
+ "ids": {
+  "avibase": "A682D4FBC3014388",
+  "birdbase": 15721,
+  "gbif": 7341727,
+  "inaturalist": "72831",
+  "iucn": "22701494",
+  "wikidata": "Q1261956",
+  "xeno_canto": "Epinecrophylla-erythrura"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Epinecrophylla_erythrura",
+  "ebird": "https://ebird.org/species/rutant3",
+  "inaturalist": "https://www.inaturalist.org/taxa/72831",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-tailed_stipplethroat",
+   "es": "https://es.wikipedia.org/wiki/Epinecrophylla_erythrura",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Epinecrophylla+erythrura"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-tailed Stipplethroat",
+  "en_aco": "Rufous-tailed Stipplethroat",
+  "es": "Hormiguerito Colirrufo",
+  "ru": "Рыжехвостый алапи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Epinecrophylla erythrura",
+ "sci_name_aco": "Epinecrophylla erythrura",
+ "sounds": [],
+ "taxon_order": 13711.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 600,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 11.133333333333333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MyrmotherulaErythruraSmit.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Epinecrophyla%20erythrura%20Rufous-tailed%20Antwren%20%28male%29%3B%20Atalaia%20do%20Norte%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

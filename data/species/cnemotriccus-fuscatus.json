@@ -1,0 +1,94 @@
+{
+ "authorship": "(Wied-Neuwied, 1831)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "fusfly1",
+ "family": {
+  "code": "tyrann2",
+  "en": "Tyrant Flycatchers",
+  "sci": "Tyrannidae"
+ },
+ "genus": "Cnemotriccus",
+ "id": "cnemotriccus-fuscatus",
+ "ids": {
+  "avibase": "4AB94B0019DD7276",
+  "birdbase": 17634,
+  "gbif": 2483387,
+  "inaturalist": "17076",
+  "iucn": "22699748",
+  "wikidata": "Q868088",
+  "xeno_canto": "Cnemotriccus-fuscatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cnemotriccus_fuscatus",
+  "ebird": "https://ebird.org/species/fusfly1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17076",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Fuscous_flycatcher",
+   "es": "https://es.wikipedia.org/wiki/Cnemotriccus_fuscatus",
+   "ru": "https://ru.wikipedia.org/wiki/Бурый_мухоед"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Cnemotriccus+fuscatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Fuscous Flycatcher",
+  "en_aco": "Fuscous Flycatcher",
+  "es": "Mosquero Parduzco",
+  "ru": "Бурый мухолов"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Cnemotriccus fuscatus",
+ "sci_name_aco": "Cnemotriccus fuscatus",
+ "sounds": [],
+ "taxon_order": 16940.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 2400,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 13.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Woodland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cnemotriccus%20fuscatus%20-%20Fuscous%20Flycatcher%3B%20Ramal%20do%20Noca%2C%20Rio%20Branco%2C%20Acre%20%2C%20Brazil.jpg"
+ ]
+}

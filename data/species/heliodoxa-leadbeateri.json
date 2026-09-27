@@ -1,0 +1,95 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vifbri1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Heliodoxa",
+ "id": "heliodoxa-leadbeateri",
+ "ids": {
+  "avibase": "1368181F5CF8B78E",
+  "birdbase": 3206,
+  "gbif": 2476938,
+  "inaturalist": "5929",
+  "iucn": "22687743",
+  "wikidata": "Q1268606",
+  "xeno_canto": "Heliodoxa-leadbeateri"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Heliodoxa_leadbeateri",
+  "ebird": "https://ebird.org/species/vifbri1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5929",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violet-fronted_brilliant",
+   "es": "https://es.wikipedia.org/wiki/Heliodoxa_leadbeateri",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Heliodoxa+leadbeateri"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violet-fronted Brilliant",
+  "en_aco": "Violet-fronted Brilliant",
+  "es": "Brillante Frentivioleta",
+  "ru": "Фиолетоволобый бриллиант"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Heliodoxa leadbeateri",
+ "sci_name_aco": "Heliodoxa leadbeateri",
+ "sounds": [],
+ "taxon_order": 4712.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2400,
+   "max_extreme": null,
+   "min": 400,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "agricultural"
+  ],
+  "mass_g": 7.183333333333334,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violet-fronted%20Brilliant%20JCB.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Heliodoxa%20leadbeateri.jpg"
+ ]
+}

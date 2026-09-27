@@ -1,0 +1,94 @@
+{
+ "authorship": "(Garnot, 1826)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "silgre1",
+ "family": {
+  "code": "podici1",
+  "en": "Grebes",
+  "sci": "Podicipedidae"
+ },
+ "genus": "Podiceps",
+ "id": "podiceps-occipitalis",
+ "ids": {
+  "avibase": "C0F86DA23B294336",
+  "birdbase": 6250,
+  "gbif": 2482063,
+  "inaturalist": "4227",
+  "iucn": "62114375",
+  "wikidata": "Q994488",
+  "xeno_canto": "Podiceps-occipitalis"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Podiceps_occipitalis",
+  "ebird": "https://ebird.org/species/silgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/4227",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Silvery_grebe",
+   "es": "https://es.wikipedia.org/wiki/Podiceps_occipitalis",
+   "ru": "https://ru.wikipedia.org/wiki/Серебристая_поганка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Podiceps+occipitalis"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Silvery Grebe",
+  "en_aco": "Silvery Grebe",
+  "es": "Zampullín Plateado",
+  "ru": "Серебристая поганка"
+ },
+ "order": "Podicipediformes",
+ "photos": [],
+ "sci_name": "Podiceps occipitalis",
+ "sci_name_aco": "Podiceps occipitalis",
+ "sounds": [],
+ "taxon_order": 6882.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 4850,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 333,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Silvery%20Grebe%2C%20Antisana%2C%20Ecuador%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Podiceps%20occipitalis%20248396375.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(Spix, 1825)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "chwhoo1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Ancistrops",
+ "id": "ancistrops-strigilatus",
+ "ids": {
+  "avibase": "21CFD0C9C8BC29C8",
+  "birdbase": 15140,
+  "gbif": 2485039,
+  "inaturalist": "11848",
+  "iucn": "22702757",
+  "wikidata": "Q760292",
+  "xeno_canto": "Ancistrops-strigilatus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ancistrops_strigilatus",
+  "ebird": "https://ebird.org/species/chwhoo1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11848",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Chestnut-winged_hookbill",
+   "es": "https://es.wikipedia.org/wiki/Ancistrops_strigilatus",
+   "ru": "https://ru.wikipedia.org/wiki/Крючкоклювый_филидор"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Ancistrops+strigilatus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Chestnut-winged Hookbill",
+  "en_aco": "Chestnut-winged Hookbill",
+  "es": "Ticotico Picogancho",
+  "ru": "Крючкоклювый лесовик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Ancistrops strigilatus",
+ "sci_name_aco": "Ancistrops strigilatus",
+ "sounds": [],
+ "taxon_order": 15192.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 900,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 35.15,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Avium%20Species%20Novae%20%288422834063%29%20%28cropped%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Ancistrops%20strigilatus%20Chestnut-winged%20Hookbill%3B%20Igarap%C3%A9%20Marmelos%2C%20Machadinho%20d%27Oeste%2C%20Rond%C3%B4nia%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

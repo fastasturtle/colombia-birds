@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Marine",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grefri",
+ "family": {
+  "code": "fregat1",
+  "en": "Frigatebirds",
+  "sci": "Fregatidae"
+ },
+ "genus": "Fregata",
+ "id": "fregata-minor",
+ "ids": {
+  "avibase": "788EBCAB63213E04",
+  "birdbase": 7678,
+  "gbif": 2480187,
+  "inaturalist": "4636",
+  "iucn": "22697733",
+  "wikidata": "Q648494",
+  "xeno_canto": "Fregata-minor"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Fregata_minor",
+  "ebird": "https://ebird.org/species/grefri",
+  "inaturalist": "https://www.inaturalist.org/taxa/4636",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Great_frigatebird",
+   "es": "https://es.wikipedia.org/wiki/Fregata_minor",
+   "ru": "https://ru.wikipedia.org/wiki/Большой_фрегат"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Fregata+minor"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Great Frigatebird",
+  "en_aco": "Great Frigatebird",
+  "es": "Rabihorcado Grande",
+  "ru": "Большой фрегат"
+ },
+ "order": "Suliformes",
+ "photos": [],
+ "sci_name": "Fregata minor",
+ "sci_name_aco": "Fregata minor",
+ "sounds": [],
+ "taxon_order": 7323.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": "Eggs",
+  "elevation_m": {
+   "max": 150,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "sea"
+  ],
+  "mass_g": 1161.1666666666667,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": 1,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Sea",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/NPSgreaterfrigatebird.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Fragata%20com%C3%BAn%20%28Fregata%20minor%29%2C%20isla%20Lobos%2C%20islas%20Gal%C3%A1pagos%2C%20Ecuador%2C%202015-07-25%2C%20DD%2055.JPG",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Male%20greater%20frigate%20bird%20displaying.jpg"
+ ]
+}

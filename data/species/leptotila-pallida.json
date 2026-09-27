@@ -1,0 +1,93 @@
+{
+ "authorship": "(von Berlepsch & Taczanowski, 1884)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "paldov1",
+ "family": {
+  "code": "columb2",
+  "en": "Pigeons and Doves",
+  "sci": "Columbidae"
+ },
+ "genus": "Leptotila",
+ "id": "leptotila-pallida",
+ "ids": {
+  "avibase": "D4CDB0EABB57FDA3",
+  "birdbase": 4985,
+  "gbif": 2496078,
+  "inaturalist": "3301",
+  "iucn": "22690886",
+  "wikidata": "Q1263299",
+  "xeno_canto": "Leptotila-pallida"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Leptotila_pallida",
+  "ebird": "https://ebird.org/species/paldov1",
+  "inaturalist": "https://www.inaturalist.org/taxa/3301",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Pallid_dove",
+   "es": "https://es.wikipedia.org/wiki/Leptotila_pallida",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Leptotila+pallida"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Pallid Dove",
+  "en_aco": "Pallid Dove",
+  "es": "Paloma Montaraz Pálida",
+  "ru": "Бледная голубка"
+ },
+ "order": "Columbiformes",
+ "photos": [],
+ "sci_name": "Leptotila pallida",
+ "sci_name_aco": "Leptotila pallida",
+ "sounds": [],
+ "taxon_order": 2368.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 800,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 3,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland"
+  ],
+  "mass_g": 143,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Seed",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Leptotila%20pallida.jpg"
+ ]
+}

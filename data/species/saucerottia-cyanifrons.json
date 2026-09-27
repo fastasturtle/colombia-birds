@@ -1,0 +1,92 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "inchum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Saucerottia",
+ "id": "saucerottia-cyanifrons",
+ "ids": {
+  "avibase": "657A5A012CAEAE40",
+  "birdbase": 3577,
+  "gbif": 9088790,
+  "inaturalist": null,
+  "iucn": "119194033",
+  "wikidata": "Q1265835",
+  "xeno_canto": "Amazilia-cyanifrons"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Saucerottia_cyanifrons",
+  "ebird": "https://ebird.org/species/inchum1",
+  "inaturalist": null,
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Amazilia_cyanifrons",
+   "es": null,
+   "ru": "https://ru.wikipedia.org/wiki/Индиговая_амазилия"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Saucerottia+cyanifrons"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Indigo-capped Hummingbird",
+  "en_aco": "Indigo-capped Hummingbird",
+  "es": "Amazilia Capiazul",
+  "ru": "Синешапочная амазилия"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Saucerottia cyanifrons",
+ "sci_name_aco": "Saucerottia cyanifrons",
+ "sounds": [],
+ "taxon_order": 5081.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2000,
+   "max_extreme": 3000,
+   "min": 400,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 5,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Indigo-capped%20Hummingbird%20%28Amazilia%20cyanifrons%29%20%288079781711%29.jpg"
+ ]
+}

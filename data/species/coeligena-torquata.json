@@ -1,0 +1,93 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "colinc1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Coeligena",
+ "id": "coeligena-torquata",
+ "ids": {
+  "avibase": "A40F87D866053DF2",
+  "birdbase": 3106,
+  "gbif": 2477053,
+  "inaturalist": "6214",
+  "iucn": "22726720",
+  "wikidata": "Q645799",
+  "xeno_canto": "Coeligena-torquata"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Coeligena_torquata",
+  "ebird": "https://ebird.org/species/colinc1",
+  "inaturalist": "https://www.inaturalist.org/taxa/6214",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Collared_inca",
+   "es": "https://es.wikipedia.org/wiki/Coeligena_torquata",
+   "ru": "https://ru.wikipedia.org/wiki/Ошейниковый_инка"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Coeligena+torquata"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Collared Inca",
+  "en_aco": "Collared Inca",
+  "es": "Inca Acollarado",
+  "ru": "Ошейниковый инка"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Coeligena torquata",
+ "sci_name_aco": "Coeligena torquata",
+ "sounds": [],
+ "taxon_order": 4623.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3200,
+   "max_extreme": null,
+   "min": 1600,
+   "min_extreme": 1500
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "grassland"
+  ],
+  "mass_g": 7.675000000000001,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coeligena%20torquata%20%28female%29%20-NBII%20Image%20Gallery-a00189.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Coeligena%20torquata.jpg"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "authorship": "(Vieillot, 1816)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "bltlea1",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Sclerurus",
+ "id": "sclerurus-caudacutus",
+ "ids": {
+  "avibase": "68408033BEBC09B5",
+  "birdbase": 14474,
+  "gbif": 2485214,
+  "inaturalist": "11661",
+  "iucn": "22702972",
+  "wikidata": "Q845231",
+  "xeno_canto": "Sclerurus-caudacutus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Sclerurus_caudacutus",
+  "ebird": "https://ebird.org/species/bltlea1",
+  "inaturalist": "https://www.inaturalist.org/taxa/11661",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-tailed_leaftosser",
+   "es": "https://es.wikipedia.org/wiki/Sclerurus_caudacutus",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Sclerurus+caudacutus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-tailed Leaftosser",
+  "en_aco": "Black-tailed Leaftosser",
+  "es": "Tirahojas Colinegro",
+  "ru": "Чернохвостый тенелюб"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Sclerurus caudacutus",
+ "sci_name_aco": "Sclerurus caudacutus",
+ "sounds": [],
+ "taxon_order": 14553.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1100,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 38,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Sclerurus%20caudacutus%20Black-tailed%20Leaftosser%3B%20Yasun%C3%AD%20National%20Park%2C%20Ecuador.jpg"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "authorship": "(P.L. Sclater, 1865)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Shrubland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "robcha2",
+ "family": {
+  "code": "cardin1",
+  "en": "Cardinals and Allies",
+  "sci": "Cardinalidae"
+ },
+ "genus": "Granatellus",
+ "id": "granatellus-pelzelni",
+ "ids": {
+  "avibase": null,
+  "birdbase": 36643,
+  "gbif": 2489620,
+  "inaturalist": "718423",
+  "iucn": null,
+  "wikidata": "Q27638682",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/robcha2",
+  "inaturalist": "https://www.inaturalist.org/taxa/718423",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Granatellus+pelzelni"
+ },
+ "name_ru_source": null,
+ "names": {
+  "en": "Rose-breasted Chat",
+  "en_aco": "Rose-breasted Chat",
+  "es": "Reinita Pechirroja Común",
+  "ru": null
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Granatellus pelzelni",
+ "sci_name_aco": "Granatellus pelzelni",
+ "sounds": [],
+ "taxon_order": 34571.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 850,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.175,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": []
+}

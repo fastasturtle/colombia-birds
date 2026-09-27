@@ -1,0 +1,93 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "EN",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "grefla2",
+ "family": {
+  "code": "phoeni1",
+  "en": "Flamingos",
+  "sci": "Phoenicopteridae"
+ },
+ "genus": "Phoenicopterus",
+ "id": "phoenicopterus-ruber",
+ "ids": {
+  "avibase": "E3FF6313179EC968",
+  "birdbase": 6264,
+  "gbif": 9691034,
+  "inaturalist": "4257",
+  "iucn": "22729706",
+  "wikidata": "Q208004",
+  "xeno_canto": "Phoenicopterus-ruber"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phoenicopterus_ruber",
+  "ebird": "https://ebird.org/species/grefla2",
+  "inaturalist": "https://www.inaturalist.org/taxa/4257",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/American_flamingo",
+   "es": "https://es.wikipedia.org/wiki/Phoenicopterus_ruber",
+   "ru": "https://ru.wikipedia.org/wiki/Красный_фламинго"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phoenicopterus+ruber"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "American Flamingo",
+  "en_aco": "American Flamingo",
+  "es": "Flamenco Rojo",
+  "ru": "Красный фламинго"
+ },
+ "order": "Phoenicopteriformes",
+ "photos": [],
+ "sci_name": "Phoenicopterus ruber",
+ "sci_name_aco": "Phoenicopterus ruber",
+ "sounds": [],
+ "taxon_order": 6807.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 0,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 3090,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 2,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenicopterus%20ruber%20Bonaire%201.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Caribbean%20Flamingo.jpg"
+ ]
+}

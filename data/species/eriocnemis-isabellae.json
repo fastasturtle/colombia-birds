@@ -1,0 +1,89 @@
+{
+ "authorship": "(Cortés-Diago, Ortega, Mazariegos-Hurtado & Weller, 2007)",
+ "colombia": {
+  "endemic": true,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "CR",
+  "migration_note": "Residente",
+  "status": [
+   "endemic"
+  ],
+  "status_raw": "Residente Endémica",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gorpuf1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Eriocnemis",
+ "id": "eriocnemis-isabellae",
+ "ids": {
+  "avibase": "12F472A37DA14B6F",
+  "birdbase": 3059,
+  "gbif": 5788552,
+  "inaturalist": "72841",
+  "iucn": "22735457",
+  "wikidata": "Q1007804",
+  "xeno_canto": "Eriocnemis-isabellae"
+ },
+ "iucn": {
+  "aco_2022": "CR",
+  "birdbase_2024": "CR",
+  "wikidata": "critically endangered"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Eriocnemis_isabellae",
+  "ebird": "https://ebird.org/species/gorpuf1",
+  "inaturalist": "https://www.inaturalist.org/taxa/72841",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Gorgeted_puffleg",
+   "es": "https://es.wikipedia.org/wiki/Eriocnemis_isabellae",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Eriocnemis+isabellae"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gorgeted Puffleg",
+  "en_aco": "Gorgeted Puffleg",
+  "es": "Calzadito del Pinche",
+  "ru": "Синехвостый эрион"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Eriocnemis isabellae",
+ "sci_name_aco": "Eriocnemis isabellae",
+ "sounds": [],
+ "taxon_order": 4580.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2900,
+   "max_extreme": null,
+   "min": 2600,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 4.3,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": []
+}

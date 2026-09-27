@@ -1,0 +1,91 @@
+{
+ "authorship": "(P.L. Sclater, 1857)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "rubsti1",
+ "family": {
+  "code": "thamno3",
+  "en": "Typical Antbirds",
+  "sci": "Thamnophilidae"
+ },
+ "genus": "Epinecrophylla",
+ "id": "epinecrophylla-haematonota",
+ "ids": {
+  "avibase": "2C26F660817B3B00",
+  "birdbase": 15730,
+  "gbif": 7341751,
+  "inaturalist": "578588",
+  "iucn": "103657355",
+  "wikidata": "Q1263152",
+  "xeno_canto": "Epinecrophylla-haematonota"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Epinecrophylla_haematonota",
+  "ebird": "https://ebird.org/species/rubsti1",
+  "inaturalist": "https://www.inaturalist.org/taxa/578588",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Rufous-backed_stipplethroat",
+   "es": "https://es.wikipedia.org/wiki/Epinecrophylla_haematonota",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Epinecrophylla+haematonota"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Rufous-backed Stipplethroat",
+  "en_aco": "Rufous-backed Stipplethroat",
+  "es": "Hormiguerito Dorsirrojo",
+  "ru": "Пестрогорлый алапи"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Epinecrophylla haematonota",
+ "sci_name_aco": "Epinecrophylla haematonota",
+ "sounds": [],
+ "taxon_order": 13692.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 500,
+   "max_extreme": 1300,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 9.34,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Epinecrophylla%20haematonota%20Rufous-backed%20Stipplethroat%20%28male%29%3B%20Atalaia%20do%20Norte%2C%20Amazonas%2C%20Brazil%20%28cropped%29.jpg"
+ ]
+}

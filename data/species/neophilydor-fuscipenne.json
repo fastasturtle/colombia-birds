@@ -1,0 +1,91 @@
+{
+ "authorship": "(Salvin, 1866)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "swfgle",
+ "family": {
+  "code": "furnar2",
+  "en": "Ovenbirds and Woodcreepers",
+  "sci": "Furnariidae"
+ },
+ "genus": "Neophilydor",
+ "id": "neophilydor-fuscipenne",
+ "ids": {
+  "avibase": "C1A0DE397C7CA39A",
+  "birdbase": 15076,
+  "gbif": 2485697,
+  "inaturalist": "11157",
+  "iucn": "22702814",
+  "wikidata": "Q1266093",
+  "xeno_canto": "Philydor-fuscipenne"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Philydor_fuscipenne",
+  "ebird": "https://ebird.org/species/swfgle",
+  "inaturalist": "https://www.inaturalist.org/taxa/11157",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Slaty-winged_foliage-gleaner",
+   "es": "https://es.wikipedia.org/wiki/Neophilydor_fuscipenne",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Neophilydor+fuscipenne"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Slaty-winged Foliage-gleaner",
+  "en_aco": "Slaty-winged Foliage-gleaner",
+  "es": "Ticotico Aligrís",
+  "ru": "Темнокрылый филидор"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Neophilydor fuscipenne",
+ "sci_name_aco": "Philydor fuscipenne",
+ "sounds": [],
+ "taxon_order": 15133.0,
+ "taxonomy_note": "ACO/SACC lists this as Philydor fuscipenne; eBird/Clements uses Neophilydor fuscipenne.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1000,
+   "max_extreme": 1400,
+   "min": 500,
+   "min_extreme": 0
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 26.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/PhilydorErythronotusSmit%20cleaned.png"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Boissonneau, 1840)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "brttho1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chalcostigma",
+ "id": "chalcostigma-heteropogon",
+ "ids": {
+  "avibase": "38D52634B2B2C586",
+  "birdbase": 3004,
+  "gbif": 2476811,
+  "inaturalist": "5898",
+  "iucn": "22688033",
+  "wikidata": "Q928399",
+  "xeno_canto": "Chalcostigma-heteropogon"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chalcostigma_heteropogon",
+  "ebird": "https://ebird.org/species/brttho1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5898",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Bronze-tailed_thornbill",
+   "es": "https://es.wikipedia.org/wiki/Chalcostigma_heteropogon",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chalcostigma+heteropogon"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Bronze-tailed Thornbill",
+  "en_aco": "Bronze-tailed Thornbill",
+  "es": "Colibrí Picoespina",
+  "ru": "Бронзовохвостый радужник"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chalcostigma heteropogon",
+ "sci_name_aco": "Chalcostigma heteropogon",
+ "sounds": [],
+ "taxon_order": 4529.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 3900,
+   "max_extreme": null,
+   "min": 3000,
+   "min_extreme": 2900
+  },
+  "habitat_breadth": 5,
+  "habitats": [
+   "forest",
+   "woodland",
+   "shrubland",
+   "grassland",
+   "riparian"
+  ],
+  "mass_g": 5.65,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Chalcostigma%20heteropogon%20%2817187640355%29.jpg"
+ ]
+}

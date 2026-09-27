@@ -1,0 +1,91 @@
+{
+ "authorship": "(Bourcier, 1843)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "vibhum1",
+ "family": {
+  "code": "trochi1",
+  "en": "Hummingbirds",
+  "sci": "Trochilidae"
+ },
+ "genus": "Chlorestes",
+ "id": "chlorestes-julie",
+ "ids": {
+  "avibase": "F730C44EA6A75A50",
+  "birdbase": 3715,
+  "gbif": 11080380,
+  "inaturalist": "558480",
+  "iucn": "22687411",
+  "wikidata": "Q27074781",
+  "xeno_canto": "Damophila-julie"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Damophila_julie",
+  "ebird": "https://ebird.org/species/vibhum1",
+  "inaturalist": "https://www.inaturalist.org/taxa/558480",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Violet-bellied_hummingbird",
+   "es": "https://es.wikipedia.org/wiki/Chlorestes_julie",
+   "ru": "https://ru.wikipedia.org/wiki/Фиолетовобрюхая_дамофила"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Chlorestes+julie"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Violet-bellied Hummingbird",
+  "en_aco": "Violet-bellied Hummingbird",
+  "es": "Colibrí de Julia",
+  "ru": "Фиолетовобрюхий колибри"
+ },
+ "order": "Apodiformes",
+ "photos": [],
+ "sci_name": "Chlorestes julie",
+ "sci_name_aco": "Chlorestes julie",
+ "sounds": [],
+ "taxon_order": 5205.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1750,
+   "max_extreme": 1800,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 1,
+  "habitats": [
+   "forest"
+  ],
+  "mass_g": 3.1759999999999997,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Nectar",
+  "primary_habitat": "Forest",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Violet-bellied%20Hummingbird.jpg"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "authorship": "(Lafresnaye, 1845)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Human Modified",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "scrgre1",
+ "family": {
+  "code": "vireon1",
+  "en": "Vireos, Shrike-Babblers, and Erpornis",
+  "sci": "Vireonidae"
+ },
+ "genus": "Hylophilus",
+ "id": "hylophilus-flavipes",
+ "ids": {
+  "avibase": "8D6D0F253D3CA471",
+  "birdbase": 21409,
+  "gbif": 5230506,
+  "inaturalist": "17427",
+  "iucn": "103693596",
+  "wikidata": "Q1302054",
+  "xeno_canto": "Hylophilus-flavipes"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Hylophilus_flavipes",
+  "ebird": "https://ebird.org/species/scrgre1",
+  "inaturalist": "https://www.inaturalist.org/taxa/17427",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Scrub_greenlet",
+   "es": "https://es.wikipedia.org/wiki/Hylophilus_flavipes",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Hylophilus+flavipes"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Scrub Greenlet",
+  "en_aco": "Scrub Greenlet",
+  "es": "Verdillo Paticlaro",
+  "ru": "Кустарниковый виреончик"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Hylophilus flavipes",
+ "sci_name_aco": "Hylophilus flavipes",
+ "sounds": [],
+ "taxon_order": 19085.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1500,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 6,
+  "habitats": [
+   "forest",
+   "bamboo",
+   "woodland",
+   "shrubland",
+   "agricultural",
+   "rivers_lakes"
+  ],
+  "mass_g": 12.45,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Shrub",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Scrub%20Greenlet.jpg"
+ ]
+}

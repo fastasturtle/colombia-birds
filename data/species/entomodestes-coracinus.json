@@ -1,0 +1,93 @@
+{
+ "authorship": "(Berlepsch, 1897)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Forest",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blasol1",
+ "family": {
+  "code": "turdid1",
+  "en": "Thrushes and Allies",
+  "sci": "Turdidae"
+ },
+ "genus": "Entomodestes",
+ "id": "entomodestes-coracinus",
+ "ids": {
+  "avibase": "C2CEE19A68C8936F",
+  "birdbase": 30238,
+  "gbif": 2490712,
+  "inaturalist": "13176",
+  "iucn": "22708624",
+  "wikidata": "Q2309917",
+  "xeno_canto": "Entomodestes-coracinus"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Entomodestes_coracinus",
+  "ebird": "https://ebird.org/species/blasol1",
+  "inaturalist": "https://www.inaturalist.org/taxa/13176",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black_solitaire",
+   "es": "https://es.wikipedia.org/wiki/Entomodestes_coracinus",
+   "ru": "https://ru.wikipedia.org/wiki/Чёрный_кларино"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Entomodestes+coracinus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black Solitaire",
+  "en_aco": "Black Solitaire",
+  "es": "Solitario Negro",
+  "ru": "Чёрный кларино"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Entomodestes coracinus",
+ "sci_name_aco": "Entomodestes coracinus",
+ "sounds": [],
+ "taxon_order": 28348.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 1600,
+   "max_extreme": 1900,
+   "min": 600,
+   "min_extreme": 400
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "forest",
+   "shrubland"
+  ],
+  "mass_g": 57,
+  "mobility": {
+   "altitudinal": 1,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": null,
+   "sedentary": null
+  },
+  "primary_diet": "Fruit",
+  "primary_habitat": "Forest",
+  "range_restricted": 1
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Entomodestes%20coracinus%20Black%20Solitaire%3B%20Mashpi%20Amagusa%20Reserve%2C%20Pichincha%2C%20Ecuador.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/MyiadestesCoracinusKeulemans.jpg"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "gybmar",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Progne",
+ "id": "progne-chalybea",
+ "ids": {
+  "avibase": "ECA64B1892C99539",
+  "birdbase": 25164,
+  "gbif": 2489133,
+  "inaturalist": "11872",
+  "iucn": "22712110",
+  "wikidata": "Q3136297",
+  "xeno_canto": "Progne-chalybea"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Progne_chalybea",
+  "ebird": "https://ebird.org/species/gybmar",
+  "inaturalist": "https://www.inaturalist.org/taxa/11872",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Grey-breasted_martin",
+   "es": "https://es.wikipedia.org/wiki/Progne_chalybea",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Progne+chalybea"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Gray-breasted Martin",
+  "en_aco": "Gray-breasted Martin",
+  "es": "Golondrina Pechigrís",
+  "ru": "Серогрудая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Progne chalybea",
+ "sci_name_aco": "Progne chalybea",
+ "sounds": [],
+ "taxon_order": 24093.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 2500,
+   "max_extreme": 2570,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 7,
+  "habitats": [
+   "woodland",
+   "savanna",
+   "grassland",
+   "agricultural",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 41.75,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": 1,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Grassland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Progne%20chalybea%20-Sao%20Jose%20do%20Norte%2C%20Rio%20Grande%20do%20Sul%2C%20Brasil-8.jpg"
+ ]
+}

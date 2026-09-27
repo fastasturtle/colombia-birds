@@ -1,0 +1,94 @@
+{
+ "authorship": "(Gmelin, 1789)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "agaher1",
+ "family": {
+  "code": "ardeid1",
+  "en": "Herons, Egrets, and Bitterns",
+  "sci": "Ardeidae"
+ },
+ "genus": "Agamia",
+ "id": "agamia-agami",
+ "ids": {
+  "avibase": "86095930B3D839E1",
+  "birdbase": 7892,
+  "gbif": 2480836,
+  "inaturalist": "5052",
+  "iucn": "22697200",
+  "wikidata": "Q218312",
+  "xeno_canto": "Agamia-agami"
+ },
+ "iucn": {
+  "aco_2022": "VU",
+  "birdbase_2024": "NT",
+  "wikidata": "near threatened"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Agamia_agami",
+  "ebird": "https://ebird.org/species/agaher1",
+  "inaturalist": "https://www.inaturalist.org/taxa/5052",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Agami_heron",
+   "es": "https://es.wikipedia.org/wiki/Agamia_agami",
+   "ru": "https://ru.wikipedia.org/wiki/Агами"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Agamia+agami"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Agami Heron",
+  "en_aco": "Agami Heron",
+  "es": "Garza Agamí",
+  "ru": "Агами"
+ },
+ "order": "Pelecaniformes",
+ "photos": [],
+ "sci_name": "Agamia agami",
+ "sci_name_aco": "Agamia agami",
+ "sounds": [],
+ "taxon_order": 7554.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": 2600,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "forest",
+   "rivers_lakes",
+   "coastal",
+   "wetland"
+  ],
+  "mass_g": 527.5,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Fish",
+  "primary_habitat": "Wetland",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gar%C3%A7a-da-mata%20-%20PE%20Encontro%20das%20%C3%81guas-Erisvaldo%20Almeida%28001%29.jpg"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "authorship": "(Linnaeus, 1758)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Wetland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Errática",
+  "status": [
+   "vagrant"
+  ],
+  "status_raw": "Errática",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "redpha1",
+ "family": {
+  "code": "scolop2",
+  "en": "Sandpipers and Allies",
+  "sci": "Scolopacidae"
+ },
+ "genus": "Phalaropus",
+ "id": "phalaropus-fulicarius",
+ "ids": {
+  "avibase": "18A1938091EEEA73",
+  "birdbase": 6761,
+  "gbif": 5229390,
+  "inaturalist": "73203",
+  "iucn": "22693494",
+  "wikidata": "Q208335",
+  "xeno_canto": "Phalaropus-fulicarius"
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phalaropus_fulicarius",
+  "ebird": "https://ebird.org/species/redpha1",
+  "inaturalist": "https://www.inaturalist.org/taxa/73203",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Red_phalarope",
+   "es": "https://es.wikipedia.org/wiki/Phalaropus_fulicarius",
+   "ru": "https://ru.wikipedia.org/wiki/Плосконосый_плавунчик"
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Phalaropus+fulicarius"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Red Phalarope",
+  "en_aco": "Red Phalarope",
+  "es": "Falaropo Picogrueso",
+  "ru": "Плосконосый плавунчик"
+ },
+ "order": "Charadriiformes",
+ "photos": [],
+ "sci_name": "Phalaropus fulicarius",
+ "sci_name_aco": "Phalaropus fulicarius",
+ "sounds": [],
+ "taxon_order": 6120.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": "L",
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 4,
+  "habitats": [
+   "grassland",
+   "coastal",
+   "wetland",
+   "sea"
+  ],
+  "mass_g": 60.1,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": null,
+   "migratory": 1,
+   "sedentary": null
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Coastal",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phalaropus%20fulicarius%2010.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Phalarope.jpg"
+ ]
+}

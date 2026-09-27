@@ -1,0 +1,92 @@
+{
+ "authorship": "(M.Wied-Neuwied, 1820)",
+ "colombia": {
+  "endemic": false,
+  "habitat_aco": "Grassland",
+  "introduced": false,
+  "libro_rojo": "No Evaluado",
+  "migration_note": "Residente",
+  "status": [
+   "resident"
+  ],
+  "status_raw": "Residente",
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "blcswa2",
+ "family": {
+  "code": "hirund2",
+  "en": "Swallows",
+  "sci": "Hirundinidae"
+ },
+ "genus": "Pygochelidon",
+ "id": "pygochelidon-melanoleuca",
+ "ids": {
+  "avibase": null,
+  "birdbase": 25198,
+  "gbif": 6086702,
+  "inaturalist": "144780",
+  "iucn": "22712140",
+  "wikidata": "Q28812972",
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": "LC",
+  "birdbase_2024": "LC",
+  "wikidata": "least concern"
+ },
+ "links": {
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pygochelidon_melanoleuca",
+  "ebird": "https://ebird.org/species/blcswa2",
+  "inaturalist": "https://www.inaturalist.org/taxa/144780",
+  "wikipedia": {
+   "en": "https://en.wikipedia.org/wiki/Black-collared_swallow",
+   "es": "https://es.wikipedia.org/wiki/Pygochelidon_melanoleuca",
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Pygochelidon+melanoleuca"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Black-collared Swallow",
+  "en_aco": "Black-collared Swallow",
+  "es": "Golondrina Acollarada",
+  "ru": "Ожереловая ласточка"
+ },
+ "order": "Passeriformes",
+ "photos": [],
+ "sci_name": "Pygochelidon melanoleuca",
+ "sci_name_aco": "Pygochelidon melanoleuca",
+ "sounds": [],
+ "taxon_order": 24132.0,
+ "taxonomy_note": null,
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": {
+   "max": 300,
+   "max_extreme": null,
+   "min": 0,
+   "min_extreme": null
+  },
+  "habitat_breadth": 2,
+  "habitats": [
+   "riparian",
+   "rivers_lakes"
+  ],
+  "mass_g": 11.025,
+  "mobility": {
+   "altitudinal": null,
+   "dispersive": null,
+   "irregular": 1,
+   "migratory": null,
+   "sedentary": 1
+  },
+  "primary_diet": "Invertebrate",
+  "primary_habitat": "Riparian",
+  "range_restricted": 0
+ },
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pygochelidon%20melanoleuca%20Black-collared%20Swallow%3B%20river%20Ji-Parana%2C%20Machadinho%20d%27Oeste%2C%20Rond%C3%B4nia%2C%20Brazil%2002.jpg"
+ ]
+}
