@@ -45,10 +45,7 @@ const path = Astro.url.pathname;
     </header>
     <main><slot /></main>
     <footer class="foot">
-      <div class="foot-links">
-        {reportUrl && <ReportButton client:idle endpoint={reportUrl} species={species} />}
-        <a class="foot-offline" href={`${base}offline/`}>Офлайн</a>
-      </div>
+      {reportUrl && <ReportButton client:idle endpoint={reportUrl} species={species} />}
       Данные: ACO 2022 (CC BY), BIRDBASE 2025 (CC BY), eBird/Clements 2025, Wikidata (CC0), Wikipedia (CC BY-SA), фото авторов с Wikimedia Commons и iNaturalist по свободным лицензиям.
     </footer>
     <div class="new-version" id="new-version" role="status" hidden>
@@ -84,18 +81,23 @@ const path = Astro.url.pathname;
         toast.querySelector('.nv-close').addEventListener('click', function () {
           toast.hidden = true; try { sessionStorage.setItem('cb.nv.dismissed', buildId); } catch (e) {}
         });
-        function checkVersion() {
-          if (!prod || navigator.onLine === false) return;
+        // «Обновить» reloads the page, which would abort an offline-pack download (OfflinePack.svelte sets
+        // <html data-cb-downloading> and fires cb:download-start/-end), so the toast waits for the run to end
+        function downloading() { return document.documentElement.dataset.cbDownloading === '1'; }
+        function checkVersion(force) {
+          if (!prod || navigator.onLine === false || downloading()) return;
           try {
             var now = Date.now(), last = +(sessionStorage.getItem('cb.nv.checked') || 0);
-            if (now - last < 60000) return;
+            if (!force && now - last < 60000) return;
             sessionStorage.setItem('cb.nv.checked', String(now));
             if (sessionStorage.getItem('cb.nv.dismissed') === buildId) return;
           } catch (e) {}
           fetch(base + 'version.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (v) { if (v && v.version && v.version !== buildId) toast.hidden = false; }).catch(function () {});
+            .then(function (v) { if (v && v.version && v.version !== buildId && !downloading()) toast.hidden = false; }).catch(function () {});
         }
         document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') checkVersion(); });
+        document.addEventListener('cb:download-start', function () { toast.hidden = true; });
+        document.addEventListener('cb:download-end', function () { checkVersion(true); });
         checkVersion();
       })();
     </script>
@@ -129,9 +131,6 @@ const path = Astro.url.pathname;
   .top nav { display: flex; gap: 14px; }
   .top nav a { color: var(--muted); min-height: 40px; display: inline-flex; align-items: center; padding: 0 2px; }
   .top nav a[aria-current="page"] { color: var(--fg); box-shadow: inset 0 -2px 0 var(--accent); }
-  /* the report block keeps its own 16px bottom margin; when its form opens it grows and «Офлайн» wraps below */
-  .foot-links { display: flex; flex-wrap: wrap; align-items: flex-start; column-gap: 10px; }
-  .foot-offline { min-height: 40px; display: inline-flex; align-items: center; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--muted); font-size: .9rem; margin-bottom: 16px; }
   .offline-strip { display: block; padding: 3px 16px; background: var(--chip); color: var(--fg); font-size: .8rem; text-align: center; border-top: 1px solid var(--line); }
   .offline-strip[hidden] { display: none; }
   .new-version { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 20; max-width: 420px; margin: 0 auto;
