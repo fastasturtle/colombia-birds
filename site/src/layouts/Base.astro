@@ -77,7 +77,13 @@ const path = Astro.url.pathname;
         addEventListener('online', syncStrip); addEventListener('offline', syncStrip); syncStrip();
 
         var toast = document.getElementById('new-version');
-        toast.querySelector('.nv-reload').addEventListener('click', function () { location.reload(); });
+        // The worker answers the reload from its cache, which the background refresh has normally updated by
+        // now. If it has not, the reloaded page is still the old build: dropping the 60 s throttle lets it
+        // check version.json again and show the toast again instead of silently staying stale.
+        toast.querySelector('.nv-reload').addEventListener('click', function () {
+          try { sessionStorage.removeItem('cb.nv.checked'); } catch (e) {}
+          location.reload();
+        });
         toast.querySelector('.nv-close').addEventListener('click', function () {
           toast.hidden = true; try { sessionStorage.setItem('cb.nv.dismissed', buildId); } catch (e) {}
         });

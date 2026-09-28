@@ -7,6 +7,11 @@
  * (OfflinePack.svelte) straight into the same two caches. On a normal visit the worker caches only what the
  * user actually opens (pages, assets, photos) plus the /offline/ page itself.
  *
+ * HTML is stale-while-revalidate: a cached page is shown at once (no waiting for the network, so the
+ * home-screen app does not open on a black screen) and refreshed in the background. Freshness is signalled
+ * by the «Есть новая версия» toast (version.json vs <meta name="build-version">, see Base.astro). Whenever a
+ * fresh page is stored, the _astro files it references are stored too, so it also works offline right away.
+ *
  *   pages-v1  same-origin HTML and assets (keys: absolute URL without ?query)
  *   media-v1  photos from R2 (keys: absolute URL)
  * Cache names are NOT versioned per build: the pack diff on /offline/ handles updates. Changing a constant
@@ -17,7 +22,6 @@ const BASE = '__BASE__'; // "/colombia-birds/"
 const MEDIA_ORIGIN = '__MEDIA_ORIGIN__';
 const PAGES = 'pages-v1';
 const MEDIA = 'media-v1';
-const HTML_TIMEOUT_MS = 3000;
 const OFFLINE_URL = new URL(BASE + 'offline/', self.location.origin).href;
 /** Must always come from the network (never cached, never answered from cache). */
 const PASSTHROUGH = new Set(['sw.js', 'version.json', 'offline-manifest.json'].map((f) => BASE + f));
@@ -54,13 +58,20 @@ async function precacheOfflinePage() {
   if (!res.ok) return;
   const html = await res.clone().text();
   await cache.put(OFFLINE_URL, res);
-  // its CSS/JS (content-hashed, tiny): /colombia-birds/_astro/…
+  await cacheAssetsOf(html);
+}
+
+/** Stores the CSS/JS a page references (content-hashed, small: BASE + '_astro/…') that are not cached yet. */
+async function cacheAssetsOf(html) {
+  const cache = await caches.open(PAGES);
   const assets = new Set(html.match(new RegExp(escapeRe(BASE) + '_astro/[^"\'\\s)]+', 'g')) || []);
   await Promise.all([...assets].map(async (path) => {
-    const url = new URL(path, self.location.origin).href;
-    if (await cache.match(url)) return;
-    const r = await fetch(url);
-    if (r.ok) await cache.put(url, r);
+    try {
+      const url = new URL(path, self.location.origin).href;
+      if (await cache.match(url)) return;
+      const r = await fetch(url);
+      if (r.ok && r.type === 'basic') await cache.put(url, r);
+    } catch (e) { /* best effort: one missing file must not stop the others */ }
   }));
 }
 
@@ -91,39 +102,27 @@ self.addEventListener('fetch', (event) => {
   // any other origin: not intercepted
 });
 
-// ---------- HTML: network first (bypassing the HTTP cache), cache on failure/timeout ----------
+// ---------- HTML: stale-while-revalidate ----------
+// Cached: answer from the cache immediately and fetch a fresh copy in the background (event.waitUntil) for
+// the next visit. Not cached: the network (and store the page); network error: the offline page, else an
+// inline 503 stub.
+// A user reload (navigate with cache 'reload') also gets the cached copy first. That is intended: the
+// toast's «Обновить» is pressed after the background refresh started by this very page load has normally
+// completed, so the reload shows the fresh page. Freshness is the toast's job, not a network wait.
 
 async function handleHtml(event) {
   const req = event.request;
   const key = stripQuery(req.url);
-  // `cache: 'no-cache'` revalidates with the server, skipping GitHub Pages' 10-minute max-age.
-  // A fresh request from the URL (a navigate Request cannot be re-used with an init in every browser);
-  // redirect: 'manual' hands a redirect (e.g. missing trailing slash) back as an opaqueredirect, which a
-  // navigation accepts and follows itself. Such responses (and errors) are never cached.
-  const network = fetch(req.url, { cache: 'no-cache', credentials: 'same-origin', redirect: 'manual' }).then(async (res) => {
-    if (res.ok && res.type === 'basic' && !res.redirected) {
-      const cache = await caches.open(PAGES);
-      await cache.put(key, res.clone());
-    }
-    return res;
-  });
-  // keep the worker alive until the cache write finishes even when we answer from the cache first
-  event.waitUntil(network.then(() => {}, () => {}));
-
-  let timer;
-  const timeout = new Promise((resolve) => { timer = setTimeout(() => resolve(null), HTML_TIMEOUT_MS); });
+  const hit = await matchPage(key);
+  if (hit) {
+    // revalidate the URL the copy is stored under (matchPage may have found the trailing-slash form)
+    event.waitUntil(fetchPage(event, hit.key, hit.key).catch(() => {}));
+    return hit.res;
+  }
   try {
-    const first = await Promise.race([network, timeout]);
-    if (first) return first;
-    // Slow network: a cached copy (possibly older) now beats waiting. Nothing cached: keep waiting,
-    // because a slow page is better than the offline stub.
-    const cached = await matchPage(key);
-    if (cached) return cached;
-    return await network;
+    return await fetchPage(event, req.url, key);
   } catch (e) {
-    // network error (offline, DNS, …)
-    const cached = await matchPage(key);
-    if (cached) return cached;
+    // network error (offline, DNS, …) and nothing cached
     const offline = await caches.match(OFFLINE_URL, { cacheName: PAGES });
     if (offline) return clean(offline);
     return new Response(
@@ -131,20 +130,46 @@ async function handleHtml(event) {
       + '<title>Нет сети</title><body style="font:16px/1.5 system-ui,sans-serif;padding:24px">'
       + '<h1>Нет сети и страница не скачана</h1><p>Откройте эту страницу, когда появится связь.</p></body>',
       { status: 503, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
-  } finally {
-    clearTimeout(timer);
   }
 }
 
-/** Cached page by URL without query; also tries the trailing-slash form of directory URLs. */
+/**
+ * Fetches a page from the network; a plain 200 is stored under `key` and then (in event.waitUntil, never
+ * delaying the response) the _astro files it references are stored too, so the page also works offline
+ * right after a background refresh brought new hashed JS/CSS. Rejects on a network error.
+ * `cache: 'no-cache'` revalidates with the server, skipping GitHub Pages' 10-minute max-age.
+ * A fresh request from the URL (a navigate Request cannot be re-used with an init in every browser);
+ * redirect: 'manual' hands a redirect (e.g. missing trailing slash) back as an opaqueredirect, which a
+ * navigation accepts and follows itself. Such responses (and 404s, errors) are returned, never cached.
+ */
+async function fetchPage(event, url, key) {
+  const res = await fetch(url, { cache: 'no-cache', credentials: 'same-origin', redirect: 'manual' });
+  if (res.ok && res.type === 'basic' && !res.redirected) {
+    const copy = res.clone();
+    event.waitUntil((async () => {
+      const html = await copy.clone().text();
+      await (await caches.open(PAGES)).put(key, copy);
+      await cacheAssetsOf(html);
+    })().catch(() => {}));
+  }
+  return res;
+}
+
+/**
+ * Cached page by URL without query; also tries the trailing-slash form of directory URLs.
+ * Returns { res, key } (key: the URL the copy is stored under) or undefined.
+ */
 async function matchPage(key) {
   const cache = await caches.open(PAGES);
   let res = await cache.match(key, { ignoreSearch: true });
   if (!res) {
     const u = new URL(key);
-    if (!u.pathname.endsWith('/') && !/\.[a-z0-9]+$/i.test(u.pathname)) res = await cache.match(key + '/');
+    if (!u.pathname.endsWith('/') && !/\.[a-z0-9]+$/i.test(u.pathname)) {
+      key += '/';
+      res = await cache.match(key);
+    }
   }
-  return res ? clean(res) : undefined;
+  return res ? { res: await clean(res), key } : undefined;
 }
 
 /** A redirected response cannot answer a navigation; re-wrap it (body and headers stay the same). */

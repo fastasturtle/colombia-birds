@@ -8,7 +8,10 @@
  * 2. Opens /offline/ and waits for the service worker to control the page.
  * 3. Instead of the full ~440 MB pack, points the downloader at a small manifest (window.__OFFLINE_MANIFEST_URL__,
  *    see OfflinePack.svelte): a few pages + all _astro assets + 2 photos of Spatula discors, served from memory.
- * 4. Clicks «Скачать пакет», waits for «Пакет скачан», then goes offline (context.setOffline + the server is closed)
+ * 4. Clicks «Скачать пакет», waits for «Пакет скачан». Online, checks stale-while-revalidate: a cached page
+ *    comes from the cache although the server is slow, and the server is asked for it in the background; a page
+ *    changed on the server shows up on the next visit and its new _astro file is already cached.
+ * 5. Goes offline (context.setOffline + the server is closed)
  *    and checks: a cached species page renders its H1 and its cached medium photo; a cached day page shows the
  *    cached thumb; a page that was never cached gets the offline page with «эта страница не скачана».
  * Photo checks are skipped when R2 is unreachable from the browser (e.g. no network in CI).
@@ -27,7 +30,8 @@ const full = JSON.parse(readFileSync(join(dist, 'offline-manifest.json'), 'utf8'
 const SPECIES = `${BASE}/species/spatula-discors/`;
 const DAY = `${BASE}/days/2026-10-03/`;
 const UNCACHED = `${BASE}/species/saltator-maximus/`;
-const pages = [`${BASE}/offline/`, `${BASE}/`, SPECIES, DAY, `${BASE}/words/`];
+const WORDS = `${BASE}/words/`; // cached; its content is changed on the server to test the background refresh
+const pages = [`${BASE}/offline/`, `${BASE}/`, SPECIES, DAY, WORDS];
 const photoKeys = ['photos/spatula-discors/1-thumb.jpg', 'photos/spatula-discors/1-medium.jpg'];
 const files = full.files.filter((e) =>
   pages.includes(e[0]) || e[0].startsWith(`${BASE}/_astro/`) || photoKeys.some((k) => e[0].endsWith('/' + k)));
@@ -38,9 +42,13 @@ const TEST_MANIFEST = `${BASE}/__test-manifest.json`;
 
 const types = { html: 'text/html; charset=utf-8', js: 'text/javascript', css: 'text/css', svg: 'image/svg+xml', json: 'application/json', webmanifest: 'application/manifest+json' };
 const hits = []; // paths the server was asked for
-const srv = createServer((req, res) => {
+const delays = new Map(); // path → ms before answering (to tell a cache answer from a network one)
+const overrides = new Map(); // path → [content-type, body] served instead of dist
+const srv = createServer(async (req, res) => {
   const p = decodeURIComponent(req.url.split('?')[0]);
   hits.push(p);
+  if (delays.has(p)) await new Promise((ok) => setTimeout(ok, delays.get(p)));
+  if (overrides.has(p)) { const [t, body] = overrides.get(p); res.setHeader('content-type', t); return res.end(body); }
   if (p === TEST_MANIFEST) { res.setHeader('content-type', types.json); return res.end(testManifest); }
   if (!p.startsWith(BASE)) { res.statusCode = 404; return res.end(); }
   let f = join(dist, p.slice(BASE.length));
@@ -119,12 +127,45 @@ try {
     }
   }).then(() => { if (!photosReachable) console.log('     (photos not asserted)'); });
 
-  await step('online navigation to a cached page still asks the server (network first)', async () => {
+  const waitFor = async (cond, what, ms = 10000) => {
+    for (const t0 = Date.now(); !(await cond());) {
+      if (Date.now() - t0 > ms) throw new Error(`timed out waiting for ${what}`);
+      await new Promise((ok) => setTimeout(ok, 100));
+    }
+  };
+
+  await step('online navigation to a cached page is served from cache, then revalidated in the background', async () => {
     hits.length = 0;
-    await page.goto(`${origin}${SPECIES}`, { waitUntil: 'load' });
-    assert.ok(hits.includes(SPECIES), `server was asked for ${SPECIES}; got ${hits.join(', ')}`);
-    assert.ok((await page.locator('main h1').first().textContent())?.trim(), 'H1 has text');
-    assert.ok(await page.evaluate(() => !!navigator.serviceWorker.controller), 'page is controlled');
+    delays.set(SPECIES, 4000); // the server is slow: only a cache answer can be fast
+    try {
+      const t0 = Date.now();
+      await page.goto(`${origin}${SPECIES}`, { waitUntil: 'load' });
+      const ms = Date.now() - t0;
+      assert.ok(ms < 2500, `page shown from cache without waiting for the server (took ${ms} ms)`);
+      assert.ok((await page.locator('main h1').first().textContent())?.trim(), 'H1 has text');
+      assert.ok(await page.evaluate(() => !!navigator.serviceWorker.controller), 'page is controlled');
+      await waitFor(() => hits.includes(SPECIES), `a revalidation request for ${SPECIES}; got ${hits.join(', ')}`, 5000);
+    } finally { delays.delete(SPECIES); }
+  });
+
+  await step('a page changed on the server shows up on the next visit, with its new _astro file cached', async () => {
+    const oldHtml = readFileSync(join(dist, 'words/index.html'), 'utf8');
+    const oldH1 = oldHtml.match(/<h1[^>]*>([^<]*)<\/h1>/)[1];
+    const NEW_H1 = 'Обновлённый заголовок (тест)';
+    const ASSET = `${BASE}/_astro/__test-refresh.js`;
+    overrides.set(ASSET, [types.js, 'document.documentElement.dataset.testRefresh = "1";']);
+    overrides.set(WORDS, [types.html, oldHtml
+      .replace(/(<h1[^>]*>)[^<]*(<\/h1>)/, `$1${NEW_H1}$2`)
+      .replace('</head>', `<script type="module" src="${ASSET}"></script></head>`)]);
+    hits.length = 0;
+    await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
+    assert.equal((await page.locator('main h1').first().textContent())?.trim(), oldH1, 'first visit: the cached (stale) page');
+    await waitFor(() => hits.includes(WORDS), `a revalidation request for ${WORDS}`);
+    await waitFor(() => page.evaluate((u) => caches.open('pages-v1').then((c) => c.match(u)).then((r) => !!r), origin + ASSET),
+      'the refreshed page\'s new _astro file in pages-v1');
+    await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
+    assert.equal((await page.locator('main h1').first().textContent())?.trim(), NEW_H1, 'second visit: the refreshed page');
+    await page.waitForFunction(() => document.documentElement.dataset.testRefresh === '1', null, { timeout: 5000 });
   });
 
   // go offline: browser-level emulation + the server really stops answering
