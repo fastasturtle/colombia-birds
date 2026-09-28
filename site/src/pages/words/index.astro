@@ -1,35 +1,31 @@
 ---
 /**
- * Birder's English: flashcards (WordCards.svelte) and a plain alphabetical dictionary of content/vocabulary.yaml.
+ * Birder's English: flashcards (WordCards.svelte) over content/vocabulary.yaml; the alphabetical list is /words/all/.
  * The words go into the page as one JSON block (<script type="application/json" id="words-data">):
- * [{en, ru, note, ex: [{id, en}]}]; the dictionary below is static HTML.
+ * [{en, ru, note, ex: [{id, en, ph}]}], ph = photo key from data/species_index.json (null when none);
+ * the component builds image URLs as `media + ph`, media = mediaUrl('').
  */
 import Base from '../../layouts/Base.astro';
 import WordCards from '../../components/WordCards.svelte';
 import { vocabulary } from '@lib/vocabulary';
+import { mediaUrl } from '@lib/data';
 
+const base = import.meta.env.BASE_URL;
 const words = vocabulary();
-const json = JSON.stringify(words.map((w) => ({ en: w.en, ru: w.ru, note: w.note, ex: w.examples }))).replace(/</g, '\\u003c');
-const abc = [...words].sort((a, b) => a.en.localeCompare(b.en, 'en'));
+const json = JSON.stringify(
+  words.map((w) => ({ en: w.en, ru: w.ru, note: w.note, ex: w.examples.map((s) => ({ id: s.id, en: s.en, ph: s.photo })) })),
+).replace(/</g, '\\u003c');
 ---
 <Base title="Слова" description="Английские слова из названий и описаний птиц: карточки для заучивания и словарик">
   <h1>Английские слова</h1>
-  <p class="muted lead">Слова из английских названий птиц и описаний видов нашего маршрута: окраска, части тела, повадки, места обитания. Нажмите на карточку, чтобы увидеть перевод.</p>
+  <p class="muted lead">Слова из английских названий птиц и описаний видов нашего маршрута: окраска, части тела, повадки, места обитания. Нажмите на карточку, чтобы увидеть перевод, и отметьте, правильно ли вы его вспомнили.</p>
   <script type="application/json" id="words-data" set:html={json}></script>
-  <WordCards client:load />
-
-  <h2 id="all">Все слова <span class="muted n">{words.length}</span></h2>
-  <ul class="dict">
-    {abc.map((w) => (
-      <li><b lang="en">{w.en}</b> — {w.ru}{w.note && <span class="muted">. {w.note}</span>}</li>
-    ))}
-  </ul>
+  <WordCards client:load media={mediaUrl('')} />
+  <p class="all"><a class="more" href={`${base}words/all/`}>Все слова ({words.length}) →</a></p>
 </Base>
 
 <style>
   .lead { margin-top: 0; }
-  .n { font-weight: 400; font-size: .9rem; }
-  .dict { list-style: none; margin: 0; padding: 0; columns: 2 320px; column-gap: 28px; font-size: .92rem; line-height: 1.35; }
-  .dict li { padding: 5px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
-  .dict .muted { font-size: .85rem; }
+  .all { max-width: 480px; margin: 4px auto 0; }
+  .more { min-height: 44px; display: inline-flex; align-items: center; }
 </style>

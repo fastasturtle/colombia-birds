@@ -1,0 +1,28 @@
+---
+/** Birder's English: the whole content/vocabulary.yaml as a plain alphabetical dictionary (flashcards are on /words/). */
+import Base from '../../layouts/Base.astro';
+import { vocabulary } from '@lib/vocabulary';
+
+const base = import.meta.env.BASE_URL;
+const words = vocabulary();
+const abc = [...words].sort((a, b) => a.en.localeCompare(b.en, 'en'));
+---
+<Base title="Все слова" description="Английские слова из названий и описаний птиц: алфавитный словарик с переводом">
+  <p class="back"><a href={`${base}words/`}>← Карточки</a></p>
+  <h1>Все слова <span class="muted n">{words.length}</span></h1>
+  <ul class="dict">
+    {abc.map((w) => (
+      <li><b lang="en">{w.en}</b> — {w.ru}{w.note && <span class="muted">. {w.note}</span>}</li>
+    ))}
+  </ul>
+</Base>
+
+<style>
+  .back { margin: 0; font-size: .92rem; }
+  .back a { min-height: 40px; display: inline-flex; align-items: center; }
+  h1 { margin-top: 0; }
+  .n { font-weight: 400; font-size: 1rem; }
+  .dict { list-style: none; margin: 0; padding: 0; columns: 2 320px; column-gap: 28px; font-size: .92rem; line-height: 1.35; }
+  .dict li { padding: 5px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+  .dict .muted { font-size: .85rem; }
+</style>

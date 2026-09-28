@@ -1,5 +1,5 @@
 /**
- * Birder's English vocabulary (content/vocabulary.yaml) for the /words/ page. Build time only. Entries are validated:
+ * Birder's English vocabulary (content/vocabulary.yaml) for the /words/ and /words/all/ pages. Build time only. Entries are validated:
  * a missing en/ru, a duplicate word or an example id missing from data/species_index.json fails `npm run build`.
  * freq and examples are recomputed by scripts/vocab_freq.py --fill.
  */
@@ -15,8 +15,8 @@ export interface VocabWord {
   ru: string;
   note: string | null;
   freq: number;
-  /** example species: id + English name */
-  examples: { id: string; en: string }[];
+  /** example species: id, English name, photo key (data/species_index.json `photo`, null when none) */
+  examples: { id: string; en: string; photo: string | null }[];
 }
 
 let _words: VocabWord[] | null = null;
@@ -37,7 +37,7 @@ export function vocabulary(): VocabWord[] {
     const examples = (Array.isArray(e.examples) ? e.examples : []).map((id: unknown) => {
       const s = idx.get(String(id));
       if (!s) throw bad(`"${en}": unknown species id "${id}"`);
-      return { id: s.id, en: s.en };
+      return { id: s.id, en: s.en, photo: s.photo };
     });
     return { en, ru: String(e.ru), note: e.note ? String(e.note) : null, freq: Number(e.freq) || 0, examples };
   });

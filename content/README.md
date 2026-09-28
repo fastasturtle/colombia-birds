@@ -120,7 +120,7 @@ The same text in English.
 
 ## `content/vocabulary.yaml` — английские слова бёрдера
 
-Карточки и словарик на странице `/words/` (читает `site/src/lib/vocabulary.ts`; пустые `en`/`ru`, повтор слова или
+Карточки на странице `/words/` (на обороте до трёх примеров видов с фото из `examples`) и алфавитный словарик `/words/all/` (читает `site/src/lib/vocabulary.ts`; пустые `en`/`ru`, повтор слова или
 неизвестный id вида в `examples` роняют сборку). Список записей:
 
 ```yaml
