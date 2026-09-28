@@ -116,6 +116,60 @@
   ru: оттенок, налёт
   note: tinged — с налётом (buff-tinged — с охристым налётом)
   freq: 381
+- en: dark
+  ru: тёмный
+  note: dark-billed — темноклювый; darker — темнее
+  freq: 1223
+  examples: [odontophorus-melanonotus, coccyzus-melacoryphus, synallaxis-albigularis]
+- en: bright
+  ru: яркий
+  note: brighter — ярче
+  freq: 415
+  examples: [attila-spadiceus]
+- en: blackish
+  ru: черноватый
+  note: -ish — «-оватый», не чистый цвет
+  freq: 628
+  examples: [scytalopus-latrans, nyctipolus-nigrescens, pardirallus-nigricans]
+- en: whitish
+  ru: беловатый
+  freq: 495
+- en: grayish
+  ru: сероватый
+  note: британское greyish
+  freq: 479
+  examples: [picumnus-granadensis, rhytipterna-simplex]
+- en: brownish
+  ru: буроватый
+  note: brown в описаниях птиц — чаще бурый
+  freq: 464
+  examples: [cnipodectes-subbrunneus, elaenia-pelzelni]
+- en: yellowish
+  ru: желтоватый
+  freq: 403
+  examples: [anthus-chii]
+- en: reddish
+  ru: красноватый, рыжеватый
+  note: Reddish Egret — рыжеватая цапля
+  freq: 397
+  examples: [phaethornis-ruber, egretta-rufescens, phlegopsis-erythroptera]
+- en: greenish
+  ru: зеленоватый
+  freq: 315
+  examples: [haplophaedia-aureliae, myiopagis-viridicata]
+- en: bluish
+  ru: голубоватый, синеватый
+  freq: 242
+  examples: [diglossa-caerulescens, saltator-coerulescens]
+- en: golden
+  ru: золотистый
+  note: в названиях и «золотой»
+  freq: 221
+  examples: [eriocnemis-mosquera, coeligena-bonapartei, chrysuronia-oenone]
+- en: creamy
+  ru: кремовый
+  note: также cream, cream-colored
+  freq: 100
 
 # --- Части тела и перья ---
 - en: crown
@@ -331,8 +385,73 @@
   ru: номинативный
   note: nominate subspecies — подвид, описанный первым
   freq: 833
+- en: chin
+  ru: подбородок
+  note: -chinned — с таким-то подбородком
+  freq: 317
+  examples: [galbula-tombacea, asthenes-fuliginosa, anisognathus-notabilis]
+- en: forehead
+  ru: лоб
+  note: в названиях -fronted (White-fronted — белолобый)
+  freq: 288
+- en: cheek
+  ru: щека
+  note: -cheeked — -щёкий (Black-cheeked — чернощёкий)
+  freq: 181
+  examples: [anas-bahamensis, nonnula-frontalis, melanerpes-pucherani]
+- en: neck
+  ru: шея
+  note: -necked — -шейный (White-necked — белошейный)
+  freq: 415
+  examples: [notharchus-hyperrhynchus, gymnoderus-foetidus, florisuga-mellivora]
+- en: chest
+  ru: грудь
+  note: чаще верх груди; -chested ≈ -breasted
+  freq: 208
+  examples: [galbula-pastazae, pipreola-lubomirskii, bangsia-rothschildi]
+- en: thigh
+  ru: голень, «штаны»
+  note: букв. бедро; у птиц — оперённая голень над цевкой; -thighed
+  freq: 65
+  examples: [eriocnemis-derbyi, harpagus-diodon, atticora-tibialis]
+- en: feather
+  ru: перо
+  note: feathered — оперённый
+  freq: 1097
+- en: beak
+  ru: клюв
+  note: то же bill; в определителях чаще bill
+  freq: 208
+  examples: [ramphocelus-carbo]
+- en: headed
+  ru: -головый
+  note: Black-headed — черноголовый
+  freq: 206
+  examples: [ortalis-cinereiceps, klais-guimeti, eubucco-bourcierii]
+- en: tailed
+  ru: -хвостый
+  note: Long-tailed — длиннохвостый
+  freq: 319
+  examples: [hydropsalis-climacocerca, eutoxeres-condamini, aglaiocercus-kingii]
+- en: winged
+  ru: -крылый
+  note: Blue-winged — синекрылый
+  freq: 201
+  examples: [chamaepetes-goudotii, psophia-crepitans, touit-stictopterus]
+- en: underwing
+  ru: нижняя сторона крыла
+  note: underwing coverts — нижние кроющие крыла
+  freq: 135
+- en: tail feathers
+  ru: рулевые перья
+  note: перья хвоста; научно rectrices
+  freq: 234
+- en: flight feathers
+  ru: маховые перья
+  note: научно remiges; primaries и secondaries
+  freq: 429
 
-# --- Рисунок и форма ---
+# --- Рисунок ---
 - en: streaked
   ru: в продольных пестринах
   note: streak — продольная пестрина
@@ -390,6 +509,52 @@
 - en: conspicuous
   ru: заметный, бросающийся в глаза
   freq: 102
+- en: pattern
+  ru: рисунок, узор
+  note: patterned — узорчатый
+  freq: 285
+- en: markings
+  ru: отметины, рисунок
+  note: пятна и полосы на оперении; mark — отметина
+  freq: 194
+- en: line
+  ru: линия, тонкая полоска
+  note: lined — в тонких полосках (Lined Forest-Falcon)
+  freq: 535
+  examples: [zentrygon-linearis, micrastur-gilvicollis, buteo-nitidus]
+- en: border
+  ru: кайма, край
+  note: bordered — окаймлённый
+  freq: 330
+- en: ring
+  ru: кольцо
+  note: -ringed — с кольцом (Ring-necked — с кольцом на шее)
+  freq: 301
+  examples: [megaceryle-torquata, celeus-torquatus, corythopis-torquatus]
+- en: blotch
+  ru: крупное пятно
+  note: неровное, размытое; blotched — в крупных пятнах
+  freq: 80
+- en: wash
+  ru: налёт, размытый оттенок
+  note: washed with buff — с охристым налётом; близко к tinge
+  freq: 196
+- en: contrasting
+  ru: контрастный
+  note: резко выделяющийся на фоне
+  freq: 60
+- en: whiskered
+  ru: усатый
+  note: с «усами» — полоской или перьями у основания клюва
+  freq: 27
+  examples: [phaethornis-yaruqui, malacoptila-panamensis, synallaxis-candei]
+- en: bearded
+  ru: бородатый
+  note: с «бородкой» из перьев под клювом
+  freq: 21
+  examples: [chalcostigma-herrani, oxypogon-guerinii, phaethornis-hispidus]
+
+# --- Размер и форма ---
 - en: decurved
   ru: изогнутый вниз
   note: о клюве
@@ -420,6 +585,58 @@
   note: пара к Greater — большой
   freq: 170
   examples: [aythya-affinis, chordeiles-acutipennis, panyptila-cayennensis]
+- en: tiny
+  ru: крошечный
+  freq: 58
+  examples: [microspizias-superciliosus]
+- en: stocky
+  ru: коренастый, плотный
+  freq: 28
+- en: plump
+  ru: пухлый, упитанный
+  note: о кругленькой птице
+  freq: 28
+- en: elongated
+  ru: удлинённый
+  freq: 48
+- en: rounded
+  ru: закруглённый
+  note: rounded tail, rounded wings; round — круглый
+  freq: 70
+- en: pointed
+  ru: заострённый
+  note: pointed wings — острые крылья
+  freq: 121
+- en: notched
+  ru: с выемкой
+  note: notched tail — хвост с неглубокой выемкой, мельче чем forked
+  freq: 20
+- en: square
+  ru: прямо срезанный
+  note: square tail — хвост с прямым концом
+  freq: 59
+- en: wedge
+  ru: клин
+  note: wedge-shaped — клиновидный; Wedge-tailed — клинохвостый
+  freq: 41
+  examples: [hydrobates-tethys, glyphorynchus-spirurus, emberizoides-herbicola]
+- en: broad
+  ru: широкий
+  note: Broad-winged — ширококрылый
+  freq: 153
+  examples: [buteo-platypterus, electron-platyrhynchum]
+- en: straight
+  ru: прямой
+  note: обычно о клюве
+  freq: 143
+  examples: [phaethornis-bourcieri, dendroplex-picus]
+- en: medium-sized
+  ru: среднего размера
+  note: thrush-sized — размером с дрозда
+  freq: 167
+- en: wingspan
+  ru: размах крыльев
+  freq: 266
 
 # --- Поведение, голос, гнездо ---
 - en: forage
@@ -558,6 +775,64 @@
   ru: эндемик
   note: живёт только в этой стране или области
   freq: 149
+- en: note
+  ru: нота, звук
+  note: отдельный звук в песне или позывке
+  freq: 914
+- en: series
+  ru: серия
+  note: a series of notes — серия звуков
+  freq: 617
+- en: high-pitched
+  ru: высокий, тонкий
+  note: о голосе; low-pitched — низкий
+  freq: 250
+- en: harsh
+  ru: резкий, хриплый
+  note: о голосе
+  freq: 116
+- en: rattle
+  ru: треск, трещотка
+  note: сухая быстрая трель
+  freq: 132
+- en: chatter
+  ru: стрекотание, трескотня
+  freq: 126
+- en: nasal
+  ru: гнусавый
+  note: о голосе
+  freq: 177
+- en: hop
+  ru: прыгать, скакать
+  note: передвигаться прыжками
+  freq: 76
+- en: glide
+  ru: планировать
+  note: лететь, не взмахивая крыльями
+  freq: 46
+- en: soar
+  ru: парить
+  note: кружить на восходящих потоках
+  freq: 42
+- en: dive
+  ru: нырять, пикировать
+  freq: 77
+- en: flush
+  ru: вспугнуть
+  note: flushed — вспугнутый, взлетевший из-под ног
+  freq: 51
+- en: roost
+  ru: ночёвка, ночевать
+  note: communal roost — общая ночёвка
+  freq: 113
+- en: singly
+  ru: поодиночке
+  note: singly or in pairs — поодиночке или парами
+  freq: 408
+- en: prey
+  ru: добыча
+  note: preys on — охотится на
+  freq: 726
 
 # --- Места обитания ---
 - en: understory
@@ -671,6 +946,48 @@
   ru: ареал
   note: также горный хребет
   freq: 1628
+- en: slope
+  ru: склон
+  note: Pacific slope — тихоокеанский склон
+  freq: 511
+- en: valley
+  ru: долина
+  note: долины Магдалены и Кауки
+  freq: 240
+- en: stream
+  ru: ручей, речка
+  freq: 132
+- en: cliff
+  ru: скала, обрыв
+  freq: 66
+  examples: [hirundinea-ferruginea, petrochelidon-pyrrhonota]
+- en: grassland
+  ru: луга, травяные равнины
+  freq: 145
+  examples: [ammodramus-humeralis, sicalis-luteola]
+- en: pasture
+  ru: пастбище
+  freq: 151
+- en: woodland
+  ru: редколесье
+  note: светлый лес с просветами
+  freq: 377
+- en: undergrowth
+  ru: подрост, густой подлесок
+  note: кусты и молодые деревья под пологом
+  freq: 147
+- en: humid
+  ru: влажный
+  note: humid forest — влажный лес
+  freq: 604
+- en: dense
+  ru: густой
+  note: dense undergrowth — густой подлесок
+  freq: 399
+- en: feeder
+  ru: кормушка
+  note: у лоджей — поилки с сиропом для колибри
+  freq: 83
 
 # --- Слова из названий птиц ---
 - en: tanager
@@ -902,3 +1219,121 @@
   note: американские sparrows — овсянковые, не воробьи
   freq: 79
   examples: [ammodramus-savannarum, ammodramus-humeralis, ammodramus-aurifrons]
+- en: pigeon
+  ru: голубь
+  note: крупные голуби Patagioenas; dove — обычно мельче
+  freq: 45
+  examples: [patagioenas-cayennensis, patagioenas-speciosa, patagioenas-corensis]
+- en: swallow
+  ru: ласточка
+  note: Swallow-tailed — вилохвостый, ласточкохвостый
+  freq: 105
+  examples: [riparia-riparia, tachycineta-bicolor, tachycineta-albiventer]
+- en: thrush
+  ru: дрозд
+  note: Nightingale-Thrush — соловьиный дрозд
+  freq: 91
+  examples: [turdus-ignobilis, catharus-aurantiirostris, catharus-fuscater]
+- en: finch
+  ru: вьюрок
+  note: в Колумбии это танагровые — зерноед, тохи, просяночник
+  freq: 88
+  examples: [geospizopsis-unicolor, oreothraupis-arremonops, arremon-crassirostris]
+- en: jay
+  ru: сойка
+  freq: 41
+  examples: [cyanolyca-pulchra, cyanolyca-turcosa, cyanolyca-armillata]
+- en: oriole
+  ru: трупиал
+  note: американские иволги; в Старом Свете oriole — иволга
+  freq: 42
+  examples: [icterus-spurius, icterus-chrysater, icterus-auricapillus]
+- en: heron
+  ru: цапля
+  note: Tiger-Heron — тигровая выпь, Night Heron — кваква
+  freq: 57
+  examples: [nyctanassa-violacea, tigrisoma-lineatum, tigrisoma-mexicanum]
+- en: egret
+  ru: белая цапля
+  note: Cattle-Egret — египетская цапля
+  freq: 26
+  examples: [egretta-rufescens, egretta-thula, ardea-ibis]
+- en: teal
+  ru: чирок
+  freq: 20
+  examples: [anas-andium, amazonetta-brasiliensis, spatula-discors]
+- en: plover
+  ru: ржанка, зуёк
+  note: мелкие виды — зуйки
+  freq: 20
+  examples: [pluvialis-squatarola, pluvialis-dominica, hoploxypterus-cayanus]
+- en: sandpiper
+  ru: песочник
+  note: также улиты и перевозчик
+  freq: 44
+  examples: [bartramia-longicauda, actitis-macularius, tringa-solitaria]
+- en: gull
+  ru: чайка
+  freq: 80
+  examples: [chroicocephalus-serranus, creagrus-furcatus, xema-sabini]
+- en: tern
+  ru: крачка
+  freq: 59
+  examples: [thalasseus-maximus, gygis-candida, onychoprion-anaethetus]
+- en: owl
+  ru: сова
+  note: Screech-Owl — совка, Pygmy-Owl — сычик; Strix — неясыть
+  freq: 114
+  examples: [megascops-roraimae, pulsatrix-melanota, glaucidium-nubicola]
+- en: nightjar
+  ru: козодой
+  freq: 35
+  examples: [hydropsalis-climacocerca, nyctipolus-nigrescens, uropsalis-segmentata]
+- en: falcon
+  ru: сокол
+  note: Forest-Falcon — лесной сокол
+  freq: 71
+  examples: [micrastur-plumbeus, micrastur-gilvicollis, herpetotheres-cachinnans]
+- en: vulture
+  ru: катарта, американский гриф
+  note: в русских названиях eBird — катарта
+  freq: 35
+  examples: [sarcoramphus-papa, coragyps-atratus, cathartes-aura]
+- en: macaw
+  ru: ара
+  note: крупные длиннохвостые попугаи
+  freq: 18
+  examples: [orthopsittaca-manilatus, ara-ararauna, ara-severus]
+- en: toucan
+  ru: тукан
+  note: Mountain-Toucan — перцеяд
+  freq: 41
+  examples: [andigena-laminirostris, andigena-nigrirostris, ramphastos-ambiguus]
+- en: woodpecker
+  ru: дятел
+  freq: 143
+  examples: [veniliornis-chocoensis, campephilus-gayaquilensis, celeus-flavus]
+- en: kingfisher
+  ru: зимородок
+  freq: 16
+  examples: [megaceryle-torquata, megaceryle-alcyon, chloroceryle-amazona]
+- en: hummingbird
+  ru: колибри
+  note: в русских названиях часто по роду — амазилия, левкипп
+  freq: 207
+  examples: [ensifera-ensifera, patagona-gigas, klais-guimeti]
+- en: cuckoo
+  ru: кукушка, пиайя
+  note: американские кукушки Coccyzus и Piaya — пиайи
+  freq: 47
+  examples: [neomorphus-radiolosus, tapera-naevia, dromococcyx-phasianellus]
+- en: tinamou
+  ru: тинаму, скрытохвост
+  note: Crypturellus — скрытохвосты
+  freq: 45
+  examples: [tinamus-osgoodi, crypturellus-cinereus, crypturellus-soui]
+- en: quail
+  ru: перепел
+  note: Wood-Quail — зубцеклювый перепел; Quail-Dove — перепелиная горлица
+  freq: 55
+  examples: [odontophorus-hyperythrus, odontophorus-melanonotus, rhynchortyx-cinctus]
