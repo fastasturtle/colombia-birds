@@ -2,7 +2,7 @@
 group: antbirds-ovenbirds
 recognize:
   - "Муравьеловки: скачут в листве и лианах подлеска, самец чёрно-серый с белыми точками на крыльях, самка бурая или рыжая"
-  - "Антпитты и комароловки: круглые «мячики на ходулях» почти без хвоста, стоят вертикально на земле и прыгают"
+  - "Антпитты: круглые «мячики на ходулях» почти без хвоста, стоят вертикально на земле и прыгают"
   - "Тапакуло: маленькие, тёмно-серые, хвостик торчит вверх, шныряют у земли во мху, как мыши"
   - "Муравьиные дрозды: ходят по земле шагом, как маленькие пастушки, с приподнятым хвостом"
   - "Печниковые и древолазы: бурые и рыжие, самцы и самки одинаковые; листовики роются в сухих листьях, древолазы лезут по стволу с опорой на хвост"
@@ -13,21 +13,21 @@ confusable:
     how: "Крапивники бурые, с тонкими поперечными полосками на крыльях и хвосте, громко поют; тапакуло и антпитты без полосок на крыльях"
   - group: flycatchers
     how: "Тиранновые сидят вертикально на присаде и ловят насекомых в воздухе; муравьеловки обыскивают листву и не делают вылетов"
-route_note: "Ла-Дримофила (день 3) — кормушки с червями, где выходят Hooded и White-bellied Antpitta, а рядом эндемик East Andean Antbird и Schwartz's Antthrush. В Исла-Эскондиде (дни 5–9) — Banded и Hairy-crested Antbird у колонн кочующих муравьёв. На Бордонсильо (день 14) открыто прыгает Tawny Antpitta. В Чикаке (день 1) — эндемик Silvery-throated Spinetail и Strong-billed Woodcreeper, в Ла-Планаде (дни 14–16) — Nariño и Choco Tapaculo."
-fact: "Печниковые названы в честь рыжего печника из Аргентины, который лепит из глины гнездо-печку с входом и внутренней стенкой."
+route_note: "Ла-Дримофила (день 3) — кормушки с червями, где выходят Hooded и White-bellied Antpitta, а рядом возможны эндемик East Andean Antbird и Schwartz's Antthrush. В Исла-Эскондиде (дни 5–9) при удаче попадётся Banded Antbird — наземная муравьеловка, шагающая по подстилке. На Бордонсильо (день 14) открыто прыгает Tawny Antpitta. В Чикаке (день 1) возможны эндемик Silvery-throated Spinetail и Strong-billed Woodcreeper; Choco Tapaculo — обычный голос Рио-Ньямби, Бангсиаса и Авес-и-Флорес (дни 16–18), Nariño Tapaculo возможен там же и в Ла-Планаде."
+fact: "Печниковые названы по роду печников Furnarius (лат. furnus — «печь»): рыжий печник, национальная птица Аргентины, лепит из глины гнездо, похожее на старинную хлебную печь."
 en:
   recognize:
     - "Antbirds: hop through understory foliage and vines; male black and grey with white wing spots, female brown or rufous"
-    - "Antpittas and gnateaters: round 'balls on stilts' with almost no tail, stand upright on the ground and bound"
+    - "Antpittas: round 'balls on stilts' with almost no tail, stand upright on the ground and bound"
     - "Tapaculos: small, dark grey, tail cocked, scurry at ground level through moss like mice"
     - "Antthrushes: walk the ground step by step, like small rails, with a raised tail"
     - "Ovenbirds and woodcreepers: brown and rufous, sexes alike; foliage-gleaners rummage in dead leaves, woodcreepers climb trunks propped on the tail"
-  route_note: "La Drymophila (day 3) has the worm feeders where Hooded and White-bellied Antpitta come out, plus the endemic East Andean Antbird and Schwartz's Antthrush. Isla Escondida (days 5–9) has Banded and Hairy-crested Antbird at army-ant swarms. On Bordoncillo (day 14) Tawny Antpitta hops in the open. Chicaque (day 1) has the endemic Silvery-throated Spinetail and Strong-billed Woodcreeper, La Planada (days 14–16) Nariño and Choco Tapaculo."
-  fact: "Ovenbirds are named after Argentina's Rufous Hornero, which builds a clay nest shaped like a bread oven, with an entrance and an inner wall."
+  route_note: "La Drymophila (day 3) has the worm feeders where Hooded and White-bellied Antpitta come out, and the endemic East Andean Antbird and Schwartz's Antthrush are possible nearby. At Isla Escondida (days 5–9) you may be lucky with Banded Antbird, a ground antbird that walks the leaf litter. On Bordoncillo (day 14) Tawny Antpitta hops in the open. At Chicaque (day 1) the endemic Silvery-throated Spinetail and Strong-billed Woodcreeper are possible; Choco Tapaculo is a common voice at Río Ñambí, Bangsias and Aves y Flórez (days 16–18), and Nariño Tapaculo is possible there and at La Planada."
+  fact: "Ovenbirds are named after the horneros, genus Furnarius (Latin furnus, 'oven'): the Rufous Hornero, Argentina's national bird, builds a clay nest shaped like an old wood-fired oven."
 ---
 Это самая большая и самая «трудная» группа неотропического леса: сотни бурых, серых и рыжих птиц подлеска, которые прячутся в густых зарослях. Все они родственники, древняя южноамериканская ветвь воробьиных, и объединяет их скрытность и громкие голоса. Большинство сначала слышишь и только потом, может быть, видишь.
 
-Семейство определяется по тому, где и как двигается птица. Прыгает в листве и лианах на уровне глаз, самец чёрно-серый с белыми точками, а самка рыжая — это муравьеловка. Стоит на земле столбиком, круглая, почти без хвоста, на длинных ногах, прыгает и замирает — антпитта. Совсем маленькая тёмно-серая птичка с торчащим хвостиком шныряет во мху у самой земли — тапакуло. Ходит по подстилке шагом, покачивая приподнятым хвостом, — муравьиный дрозд. Бурая птица роется в сухих листьях или висит вниз головой на мху, самец и самка одинаковые — печниковая (листовик, пищуха, колючехвостка). Лезет вверх по стволу, опираясь на хвост, с тонким, часто изогнутым клювом — древолаз.
+Семейство определяется по тому, где и как двигается птица. Прыгает в листве и лианах на уровне глаз, самец чёрно-серый с белыми точками, а самка рыжая — это муравьеловка. Стоит на земле столбиком, круглая, почти без хвоста, на длинных ногах, прыгает и замирает — антпитта. Совсем маленькая тёмно-серая птичка с торчащим хвостиком шныряет во мху у самой земли — тапакуло. Ходит по подстилке шагом, покачивая приподнятым хвостом, — муравьиный дрозд. Бурая птица роется в сухих листьях или висит вниз головой на мху, самец и самка одинаковые — печниковая (листовик, иглохвостка, колючехвостка). Лезет вверх по стволу, опираясь на хвост, с тонким, часто изогнутым клювом — древолаз.
 
 До вида их определяют по голосу и высоте, поэтому заранее прослушай песни целевых видов. Лучший шанс рассмотреть — кормушки с червями и колонны кочующих муравьёв.
 

@@ -8,10 +8,10 @@ recognize:
   - "Гоацин: крупный, бурый, с растрёпанным хохлом и голубым лицом; сидит группами в кустах над водой"
 confusable:
   - group: tinamous-gamebirds
-    how: "Тинаму тоже ходят по подстилке, но у них нет хвоста, шея длиннее, а голова совсем маленькая"
+    how: "Тинаму тоже ходят по подстилке, но хвоста у них почти не видно, шея длиннее, а голова совсем маленькая"
   - group: raptors-owls
     how: "Голубь в полёте похож на мелкого сокола, но у него маленькая голова и прямой клюв, и он не парит"
-route_note: "В Эль-Энканто (дни 2–4) — эндемичный Tolima Dove, в Чикаке (день 1) — Lined Quail-Dove, в Исла-Эскондиде — Sapphire Quail-Dove. Hoatzin сидит в зарослях у реки Путумайо в Плайя-Рике (день 10). На побережье у Тумако (дни 19–20) — Croaking Ground Dove и Ecuadorian Ground Dove, Pallid Dove и Greater Ani. Редкая мечта маршрута — Banded Ground-Cuckoo на Рио-Ньямби (день 17)."
+route_note: "В Эль-Энканто и Ла-Дримофиле (дни 2–4) — эндемичный Tolima Dove, там же и в Чикаке (день 1) возможен Lined Quail-Dove. Hoatzin и Greater Ani сидят в зарослях у реки Путумайо в Плайя-Рике и у Пуэрто-Асиса (дни 9–11). На побережье у Тумако (дни 19–20) — Croaking Ground Dove, Pallid Dove (на Км 42), возможен Ecuadorian Ground Dove. Редкая мечта маршрута — Banded Ground-Cuckoo на Рио-Ньямби (день 17), но по данным eBird встреча маловероятна."
 fact: "У птенцов гоацина на крыльях есть когти: упав в воду, они выныривают и карабкаются обратно на ветки."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Cuckoos: slim body and long graduated tail with white tips; clamber through branches like squirrels"
     - "Anis: black, with a tall laterally flattened bill, in noisy flocks in pastures"
     - "Hoatzin: large, brown, with a shaggy crest and blue face; sits in groups in bushes over water"
-  route_note: "El Encanto (days 2–4) has the endemic Tolima Dove, Chicaque (day 1) Lined Quail-Dove, Isla Escondida Sapphire Quail-Dove. The Hoatzin sits in thickets along the Putumayo at Playa Rica (day 10). On the coast near Tumaco (days 19–20): Croaking Ground Dove and Ecuadorian Ground Dove, Pallid Dove and Greater Ani. The route's long-shot dream is Banded Ground-Cuckoo at Río Ñambí (day 17)."
+  route_note: "El Encanto and La Drymophila (days 2–4) have the endemic Tolima Dove, and Lined Quail-Dove is possible there and at Chicaque (day 1). Hoatzin and Greater Ani sit in thickets along the Putumayo at Playa Rica and near Puerto Asís (days 9–11). On the coast near Tumaco (days 19–20): Croaking Ground Dove, Pallid Dove (at Km 42), and possibly Ecuadorian Ground Dove. The route's long-shot dream is Banded Ground-Cuckoo at Río Ñambí (day 17), though eBird data make it unlikely."
   fact: "Hoatzin chicks have claws on their wings: if they drop into the water, they swim back and climb up into the branches."
 ---
 Три семейства этой группы не родственники, их объединяет только то, что начинающий видит их постоянно и легко узнаёт форму. Голуби есть везде, от городских площадей Боготы до парамо, кукушки мелькают в кустах и на опушках, а гоацин — одна из самых странных птиц Амазонии.
