@@ -27,13 +27,13 @@
  "genus": "Chlorothraupis",
  "id": "chlorothraupis-frenata",
  "ids": {
-  "avibase": null,
+  "avibase": "F455871D4691BC98",
   "birdbase": 36608,
   "gbif": 6100780,
-  "inaturalist": null,
+  "inaturalist": "718137",
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q3125281",
+  "xeno_canto": "Chlorothraupis-frenata"
  },
  "iucn": {
   "aco_2022": null,
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Chlorothraupis_frenata",
   "ebird": "https://ebird.org/species/cartan2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/718137",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Yellow-lored_tanager",
+   "es": "https://es.wikipedia.org/wiki/Chlorothraupis_frenata",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Chlorothraupis+frenata"
@@ -109,5 +109,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Carmiol%27s%20Tanager%20%28Chlorothraupis%20carmioli%29%20%289496887429%29.jpg"
+ ]
 }

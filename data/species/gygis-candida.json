@@ -30,9 +30,9 @@
   "avibase": null,
   "birdbase": 6914,
   "gbif": 2481213,
-  "inaturalist": null,
+  "inaturalist": "1649784",
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q116718643",
   "xeno_canto": null
  },
  "iucn": {
@@ -43,9 +43,9 @@
  "links": {
   "commons_category": null,
   "ebird": "https://ebird.org/species/whiter4",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1649784",
   "wikipedia": {
-   "en": null,
+   "en": "https://en.wikipedia.org/wiki/Blue-billed_white_tern",
    "es": null,
    "ru": null
   },
@@ -111,5 +111,7 @@
   "primary_habitat": "Sea",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Witte-stern-Seychellen.jpg"
+ ]
 }

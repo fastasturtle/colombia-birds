@@ -27,12 +27,12 @@
  "genus": "Troglodytes",
  "id": "troglodytes-musculus",
  "ids": {
-  "avibase": null,
+  "avibase": "A41F13600803FC13",
   "birdbase": 29229,
   "gbif": 5231459,
-  "inaturalist": null,
+  "inaturalist": "1578442",
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q10385039",
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Troglodytes_musculus",
   "ebird": "https://ebird.org/species/houwre4",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1578442",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Southern_house_wren",
+   "es": "https://es.wikipedia.org/wiki/Troglodytes_musculus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Troglodytes+musculus"
@@ -114,5 +114,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Dario%20Sanches%20-%20CURRUIRA%20%28%20Troglodytes%20musculus%29%20%286%29.jpg"
+ ]
 }

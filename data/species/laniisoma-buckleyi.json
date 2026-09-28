@@ -27,26 +27,26 @@
  "genus": "Laniisoma",
  "id": "laniisoma-buckleyi",
  "ids": {
-  "avibase": null,
+  "avibase": "73808E9901D3B153",
   "birdbase": 18555,
   "gbif": 2486411,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "1507609",
+  "iucn": "22728535",
+  "wikidata": "Q12261855",
+  "xeno_canto": "Laniisoma-buckleyi"
  },
  "iucn": {
   "aco_2022": "NT",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Laniisoma_buckleyi",
   "ebird": "https://ebird.org/species/shlcot2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1507609",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Andean_laniisoma",
+   "es": "https://es.wikipedia.org/wiki/Laniisoma_buckleyi",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Laniisoma+buckleyi"
@@ -109,5 +109,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Laniisoma%20buckleyi%20%28cropped%29.jpg"
+ ]
 }

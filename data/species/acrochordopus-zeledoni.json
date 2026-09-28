@@ -31,14 +31,14 @@
   "birdbase": 16882,
   "gbif": 2484049,
   "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "iucn": "22699075",
+  "wikidata": "Q137178192",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
   "commons_category": null,
@@ -108,5 +108,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Phyllomyias%20zeledoni%20-%20White-fronted%20Tyrannulet.jpg"
+ ]
 }

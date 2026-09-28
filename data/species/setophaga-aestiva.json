@@ -27,13 +27,13 @@
  "genus": "Setophaga",
  "id": "setophaga-aestiva",
  "ids": {
-  "avibase": null,
+  "avibase": "B64C749B211015EF",
   "birdbase": 36247,
   "gbif": 8378494,
-  "inaturalist": null,
+  "inaturalist": "1188207",
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q12267348",
+  "xeno_canto": "Setophaga-aestiva"
  },
  "iucn": {
   "aco_2022": null,
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Setophaga_aestiva",
   "ebird": "https://ebird.org/species/yelwar1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1188207",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/American_yellow_warbler",
+   "es": "https://es.wikipedia.org/wiki/Setophaga_aestiva",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Setophaga+aestiva"
@@ -113,5 +113,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow%20warbler%20%2882905%29.jpg"
+ ]
 }

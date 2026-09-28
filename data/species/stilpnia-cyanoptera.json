@@ -27,36 +27,36 @@
  "genus": "Stilpnia",
  "id": "stilpnia-cyanoptera",
  "ids": {
-  "avibase": null,
+  "avibase": "2823F536B1EE999B",
   "birdbase": 37833,
   "gbif": 10969159,
-  "inaturalist": "718985",
+  "inaturalist": "979975",
   "iucn": null,
-  "wikidata": "Q27637962",
+  "wikidata": "Q1586689",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "NT",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "near threatened"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Stilpnia_cyanoptera",
   "ebird": "https://ebird.org/species/bkhtan1",
-  "inaturalist": "https://www.inaturalist.org/taxa/718985",
+  "inaturalist": "https://www.inaturalist.org/taxa/979975",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Black-headed_tanager",
+   "es": "https://es.wikipedia.org/wiki/Stilpnia_cyanoptera",
+   "ru": "https://ru.wikipedia.org/wiki/Синекрылая_танагра"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Stilpnia+cyanoptera"
  },
- "name_ru_source": null,
+ "name_ru_source": "wikidata",
  "names": {
   "en": "Black-headed Tanager",
   "en_aco": "Black-headed Tanager",
   "es": "Tangara Cabecinegra",
-  "ru": null
+  "ru": "Синекрылая танагра"
  },
  "order": "Passeriformes",
  "photos": [
@@ -109,5 +109,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20cyanoptera%2C%20Minca%2C%20Santa%20Marta%2C%20Colombia%201.jpg"
+ ]
 }

@@ -31,27 +31,27 @@
  "genus": "Urochroa",
  "id": "urochroa-bougueri",
  "ids": {
-  "avibase": null,
+  "avibase": "25A791F13394C4E4",
   "birdbase": 3178,
   "gbif": 2476897,
-  "inaturalist": "567991",
-  "iucn": null,
-  "wikidata": "Q27612024",
-  "xeno_canto": null
+  "inaturalist": "850878",
+  "iucn": "22725814",
+  "wikidata": "Q997349",
+  "xeno_canto": "Urochroa-bougueri"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Urochroa_bougueri",
   "ebird": "https://ebird.org/species/whthil2",
-  "inaturalist": "https://www.inaturalist.org/taxa/567991",
+  "inaturalist": "https://www.inaturalist.org/taxa/850878",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Rufous-gaped_hillstar",
+   "es": "https://es.wikipedia.org/wiki/Urochroa_bougueri",
+   "ru": "https://ru.wikipedia.org/wiki/Белохвостый_колибри"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Urochroa+bougueri"
  },
@@ -114,5 +114,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Urochroa%20bougueri%20%28Colibr%C3%AD%20nag%C3%BCiblanco%29%20%2814144500332%29.jpg"
+ ]
 }

@@ -27,26 +27,26 @@
  "genus": "Euscarthmus",
  "id": "euscarthmus-fulviceps",
  "ids": {
-  "avibase": null,
+  "avibase": "DBE488CEA21B6A8F",
   "birdbase": 17134,
   "gbif": 8896866,
-  "inaturalist": "718366",
-  "iucn": null,
-  "wikidata": "Q27618206",
+  "inaturalist": "1286937",
+  "iucn": "103681074",
+  "wikidata": "Q31874456",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Euscarthmus_fulviceps",
   "ebird": "https://ebird.org/species/tacpyt2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718366",
+  "inaturalist": "https://www.inaturalist.org/taxa/1286937",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Fulvous-faced_scrub_tyrant",
+   "es": "https://es.wikipedia.org/wiki/Euscarthmus_fulviceps",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Euscarthmus+fulviceps"
@@ -109,5 +109,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Euscarthmus%20fulviceps%201.jpg"
+ ]
 }

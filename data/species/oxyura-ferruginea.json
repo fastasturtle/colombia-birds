@@ -27,27 +27,27 @@
  "genus": "Oxyura",
  "id": "oxyura-ferruginea",
  "ids": {
-  "avibase": null,
+  "avibase": "1798573A177BC580",
   "birdbase": 547,
   "gbif": 2498305,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "827374",
+  "iucn": "22727757",
+  "wikidata": "Q3591452",
+  "xeno_canto": "Oxyura-ferruginea"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Oxyura_ferruginea",
   "ebird": "https://ebird.org/species/andduc1",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/827374",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Andean_duck",
+   "es": "https://es.wikipedia.org/wiki/Oxyura_ferruginea",
+   "ru": "https://ru.wikipedia.org/wiki/Oxyura_ferruginea"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Oxyura+ferruginea"
  },
@@ -156,5 +156,8 @@
   "primary_habitat": "Wetland",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxyura%20ferruginea%20%28Pato%20andino%29%20macho%2C%20Armenia%2C%20Colombia%20%284834528212%29.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Oxyura%20ferruginea%20%28Pato%20andino%29%20hembra%2C%20Armenia%2C%20Colombia%20%284834538300%29.jpg"
+ ]
 }

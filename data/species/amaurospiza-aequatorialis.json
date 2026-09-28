@@ -27,13 +27,13 @@
  "genus": "Amaurospiza",
  "id": "amaurospiza-aequatorialis",
  "ids": {
-  "avibase": null,
+  "avibase": "9551017FFB7F5D85",
   "birdbase": 36687,
   "gbif": 2491733,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q20801648",
+  "xeno_canto": "Amaurospiza-aequatorialis"
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Amaurospiza_aequatorialis",
   "ebird": "https://ebird.org/species/blusee4",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Ecuadorian_seedeater",
+   "es": "https://es.wikipedia.org/wiki/Amaurospiza_aequatorialis",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Amaurospiza+aequatorialis"
@@ -110,5 +110,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Amaurospiza%20aequatorialis%20-%20Ecuadorian%20Seedeater%20%28cropped%29.jpg"
+ ]
 }

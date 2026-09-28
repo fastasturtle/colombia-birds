@@ -27,27 +27,27 @@
  "genus": "Granatellus",
  "id": "granatellus-pelzelni",
  "ids": {
-  "avibase": null,
+  "avibase": "37E546A438F566F4",
   "birdbase": 36643,
   "gbif": 2489620,
-  "inaturalist": "718423",
-  "iucn": null,
-  "wikidata": "Q27638682",
-  "xeno_canto": null
+  "inaturalist": "9627",
+  "iucn": "103804346",
+  "wikidata": "Q1588858",
+  "xeno_canto": "Granatellus-pelzelni"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Granatellus_pelzelni",
   "ebird": "https://ebird.org/species/robcha2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718423",
+  "inaturalist": "https://www.inaturalist.org/taxa/9627",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Rose-breasted_chat",
+   "es": "https://es.wikipedia.org/wiki/Granatellus_pelzelni",
+   "ru": "https://ru.wikipedia.org/wiki/Розовогрудая_гранателла"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Granatellus+pelzelni"
  },
@@ -111,5 +111,8 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Granatellus%20pelzelni%20-%20Rose-breasted%20Chat%20%28male%29%3B%20Parauapebas%2C%20Par%C3%A1%2C%20Brazil.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/GranatellusPelzelniJennens.jpg"
+ ]
 }

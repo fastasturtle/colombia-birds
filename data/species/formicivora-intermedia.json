@@ -27,27 +27,27 @@
  "genus": "Formicivora",
  "id": "formicivora-intermedia",
  "ids": {
-  "avibase": null,
+  "avibase": "E62C56950E52E045",
   "birdbase": 15833,
   "gbif": 6100904,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "1507128",
+  "iucn": "103657347",
+  "wikidata": "Q12257912",
+  "xeno_canto": "Formicivora-intermedia"
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Formicivora_intermedia",
   "ebird": "https://ebird.org/species/whfant4",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1507128",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Northern_white-fringed_antwren",
+   "es": "https://es.wikipedia.org/wiki/Formicivora_intermedia",
+   "ru": "https://ru.wikipedia.org/wiki/Formicivora_intermedia"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Formicivora+intermedia"
  },
@@ -111,5 +111,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Formicivora%20intermedia.jpg"
+ ]
 }

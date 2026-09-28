@@ -27,26 +27,26 @@
  "genus": "Xenops",
  "id": "xenops-genibarbis",
  "ids": {
-  "avibase": null,
+  "avibase": "618651480D5A3FD0",
   "birdbase": 14910,
   "gbif": 5230220,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "inaturalist": "1586809",
+  "iucn": "103670758",
+  "wikidata": "Q31874617",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenops_genibarbis",
   "ebird": "https://ebird.org/species/plaxen3",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1586809",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Amazonian_plain_xenops",
+   "es": "https://es.wikipedia.org/wiki/Xenops_genibarbis",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+genibarbis"
@@ -108,5 +108,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenops%20genibarbis%20Amazonian%20Xenops%3B%20Francisco%20de%20Orellana%2C%20Ecuador.jpg"
+ ]
 }

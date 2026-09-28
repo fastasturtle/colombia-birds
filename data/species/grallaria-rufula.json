@@ -31,26 +31,26 @@
  "genus": "Grallaria",
  "id": "grallaria-rufula",
  "ids": {
-  "avibase": null,
+  "avibase": "8E101A71",
   "birdbase": 16570,
   "gbif": 2490533,
-  "inaturalist": "718415",
-  "iucn": null,
-  "wikidata": "Q27617813",
-  "xeno_canto": null
+  "inaturalist": "116906",
+  "iucn": "103660383",
+  "wikidata": "Q945394",
+  "xeno_canto": "Grallaria-rufula"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_rufula",
   "ebird": "https://ebird.org/species/rufant7",
-  "inaturalist": "https://www.inaturalist.org/taxa/718415",
+  "inaturalist": "https://www.inaturalist.org/taxa/116906",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Muisca_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_rufula",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+rufula"
@@ -115,5 +115,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20Antpitta%2C%20Tapichalaca%2C%20Ecuador%20%285746102588%29.jpg"
+ ]
 }

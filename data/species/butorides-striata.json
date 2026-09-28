@@ -27,36 +27,36 @@
  "genus": "Butorides",
  "id": "butorides-striata",
  "ids": {
-  "avibase": null,
+  "avibase": "67ADD2E32D0F64B7",
   "birdbase": 8024,
   "gbif": 2480824,
-  "inaturalist": "718074",
-  "iucn": null,
-  "wikidata": "Q27604339",
-  "xeno_canto": null
+  "inaturalist": "62528",
+  "iucn": "22728182",
+  "wikidata": "Q270722",
+  "xeno_canto": "Butorides-striata"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": "https://commons.wikimedia.org/wiki/Category:Butorides_striata_striata",
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Butorides_striata",
   "ebird": "https://ebird.org/species/strher2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718074",
+  "inaturalist": "https://www.inaturalist.org/taxa/62528",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Striated_heron",
+   "es": "https://es.wikipedia.org/wiki/Butorides_striata",
+   "ru": "https://ru.wikipedia.org/wiki/Зелёная_кваква"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Butorides+striata"
  },
- "name_ru_source": null,
+ "name_ru_source": "wikidata",
  "names": {
   "en": "Striated Heron",
   "en_aco": "Striated Heron",
   "es": "Garcilla Azulada",
-  "ru": null
+  "ru": "Зелёная кваква"
  },
  "order": "Pelecaniformes",
  "photos": [
@@ -112,6 +112,6 @@
   "range_restricted": 0
  },
  "wikidata_images": [
-  "http://commons.wikimedia.org/wiki/Special:FilePath/Butorides%20striata%20striata-PARNA%20do%20Igua%C3%A7u-JSBS2%28001%29.jpg"
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Butorides%20striata%20Garcita%20rayada%20Striated%20Heron%20%286549356697%29.jpg"
  ]
 }

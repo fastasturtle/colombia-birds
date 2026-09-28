@@ -32,8 +32,8 @@
   "gbif": 2497921,
   "inaturalist": null,
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q468015",
+  "xeno_canto": "Tyto-furcata"
  },
  "iucn": {
   "aco_2022": "LC",
@@ -41,13 +41,13 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Tyto_furcata",
   "ebird": "https://ebird.org/species/brnowl",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/American_barn_owl",
+   "es": "https://es.wikipedia.org/wiki/Tyto_furcata",
+   "ru": "https://ru.wikipedia.org/wiki/Tyto_furcata"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Tyto+furcata"
  },
@@ -117,5 +117,7 @@
   "primary_habitat": "Grassland",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Schleiereule%20fws.jpg"
+ ]
 }
