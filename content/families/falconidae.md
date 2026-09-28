@@ -8,7 +8,7 @@ recognize:
 confusable:
   - family: accipi1
     how: "Ястребы без зубца на надклювье; лесных соколов легко принять за ястребов, но голова у них крупнее, вокруг глаза голая кожа, голоса другие"
-route_note: "Black Caracara обычна вдоль реки Путумайо у Плайя-Рики (день 10), шумные стаи Red-throated Caracara и скрытный Lined Forest-Falcon — в Исла-Эскондиде (дни 5–9). Редкий Plumbeous Forest-Falcon — цель Ла-Планады и склона Чоко (дни 15–19). На побережье у Тумако (дни 20–21) в октябре появляются северные мигранты, в том числе Peregrine Falcon."
+route_note: "Black Caracara возможна вдоль реки Путумайо у Плайя-Рики и Пуэрто-Асиса (дни 9–11), шумные стаи Red-throated Caracara и скрытный Lined Forest-Falcon — в Исла-Эскондиде (дни 5–9). Редкий Plumbeous Forest-Falcon — цель Ла-Планады и склона Чоко (дни 14–18), но шанс его увидеть мал. На побережье у Тумако (дни 19–21) в октябре появляются северные мигранты, в том числе Peregrine Falcon."
 fact: "По ДНК соколиные ближе к попугаям и воробьиным, чем к ястребам и орлам: сходство с ними возникло независимо."
 en:
   recognize:
@@ -16,7 +16,7 @@ en:
     - "Caracaras: large, long-legged, with bright bare facial skin; walk on the ground eating carrion, insects and wasp larvae"
     - "Forest-falcons (Micrastur): short rounded wings, long barred tail, perch in the understory; heard at dawn far more than seen"
     - "Laughing Falcon: big pale head with a black mask, sits in the open on a bare branch for long spells"
-  route_note: "Black Caracara is common along the Putumayo River at Playa Rica (day 10); noisy groups of Red-throated Caracara and the secretive Lined Forest-Falcon are at Isla Escondida (days 5–9). The rare Plumbeous Forest-Falcon is a target at La Planada and on the Chocó slope (days 15–19). On the coast around Tumaco (days 20–21) northern migrants arrive in October, Peregrine Falcon among them."
+  route_note: "Black Caracara is possible along the Putumayo River at Playa Rica and Puerto Asís (days 9–11); noisy groups of Red-throated Caracara and the secretive Lined Forest-Falcon are at Isla Escondida (days 5–9). The rare Plumbeous Forest-Falcon is a target at La Planada and on the Chocó slope (days 14–18), though the chance of seeing it is small. On the coast around Tumaco (days 19–21) northern migrants arrive in October, Peregrine Falcon among them."
   fact: "DNA shows falcons are closer to parrots and songbirds than to hawks and eagles: the resemblance evolved independently."
 ---
 Соколиные — небольшое семейство (18 видов в Колумбии), но очень разное по образу жизни. На маршруте встречаются три группы. Настоящие соколы (Falco) — стремительные охотники открытых мест: Bat Falcon сидит на сухой вершине у реки и в сумерках ловит летучих мышей и стрижей, а местные American Kestrel в октябре пополняются мигрантами с севера. Каракары — скорее «вороны» среди хищников: они ходят по земле, собирают падаль, насекомых и плоды, разоряют осиные гнёзда. Лесные соколы (Micrastur) — скрытные охотники подлеска с короткими крыльями и длинным хвостом.

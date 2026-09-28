@@ -12,7 +12,7 @@ confusable:
   - family: piprid1
     how: "Самки манакинов тоже оливковые и короткохвостые, но держатся в подлеске, а не в кронах, и клюв у них тоньше"
 route_note: "Эндемичная Velvet-fronted Euphonia — цель Эль-Энканто и Ла-Дримофилы (дни 2–4). Yellow-collared Chlorophonia кормится в кронах Бангсиас-лоджа и Рио-Ньямби (дни 17–18), где очень обычна и Orange-bellied Euphonia. Andean Siskin стайками держится у Ла-Кочи и на Бордонсильо (день 14)."
-fact: "Эуфонии — главные распространители омелы: липкие семена проходят через их кишечник и остаются на ветках, где из них вырастают новые кусты."
+fact: "Эуфонии — одни из главных распространителей омелы: липкие семена проходят через их кишечник и остаются на ветках, где из них вырастают новые кусты."
 en:
   recognize:
     - "Small stocky bird with a short tail and a short thick bill"
@@ -21,7 +21,7 @@ en:
     - "Siskins and goldfinches are yellow and black with a yellow wing bar, feeding on seeds in flocks at edges"
     - "Euphonias and chlorophonias eat mistletoe berries in the canopy and give themselves away with thin ringing whistles"
   route_note: "The endemic Velvet-fronted Euphonia is a target at El Encanto and La Drymophila (days 2–4). Yellow-collared Chlorophonia feeds in the canopy at Bangsias Lodge and Río Ñambí (days 17–18), where Orange-bellied Euphonia is very common too. Andean Siskin keeps in small flocks at La Cocha and Bordoncillo (day 14)."
-  fact: "Euphonias are the main dispersers of mistletoe: the sticky seeds pass through their gut and stay on branches, where new plants sprout."
+  fact: "Euphonias are among the main dispersers of mistletoe: the sticky seeds pass through their gut and stay on branches, where new plants sprout."
 ---
 Вьюрковые в Колумбии (23 вида) выглядят не так, как в Европе: из привычных вьюрков здесь только чижи и щеглы, а большую часть семейства составляют эуфонии и органисты (хлорофонии). Долго их считали танаграми, но генетика показала, что это родня наших щеглов и зябликов. Эуфонии — крошечные коренастые короткохвостые птички кроны; самцы большинства видов сине-чёрные сверху и лимонно-жёлтые снизу и различаются цветом лба, горла и подхвостья. Органисты — ярко-зелёные, с синими или жёлтыми деталями, держатся в кронах облачного леса.
 

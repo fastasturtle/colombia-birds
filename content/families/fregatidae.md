@@ -11,7 +11,7 @@ confusable:
     how: "Вилохвостый коршун (Swallow-tailed Kite) тоже с вильчатым хвостом, но снизу белый, мельче и летает над лесом, а не над морем"
   - family: larida1
     how: "Крачки с вильчатым хвостом гораздо мельче, светлые, часто машут крыльями и ныряют в воду"
-route_note: "На тихоокеанском побережье самая заметная птица: Magnificent Frigatebird десятками висит над Тумако и Плайя-дель-Морро (дни 19–21), залетает на Финку Марагрикола и иногда вглубь суши до Км 42. Смотри, как он отбирает рыбу у Blue-footed Booby и Brown Pelican."
+route_note: "На тихоокеанском побережье самая заметная птица: Magnificent Frigatebird десятками висит над Тумако и Плайя-дель-Морро (дни 19–21), возможен и над Финкой Марагрикола. Смотри, как он отбирает рыбу у Blue-footed Booby и Brown Pelican."
 fact: "Оперение фрегата намокает, поэтому он почти никогда не садится на воду: рыбу хватает с поверхности на лету или отбирает у других птиц."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Soars over the coast for hours with hardly a wingbeat, sometimes very high"
     - "Male all black with a red throat pouch, female white-breasted, young white-headed"
     - "Chases boobies and terns to steal their fish, but never settles on the water itself"
-  route_note: "The most obvious bird on the Pacific coast: Magnificent Frigatebird hangs in dozens over Tumaco and Playa del Morro (days 19–21), drifts over Finca Maragrícola and sometimes inland to Km 42. Watch it rob fish from Blue-footed Booby and Brown Pelican."
+  route_note: "The most obvious bird on the Pacific coast: Magnificent Frigatebird hangs in dozens over Tumaco and Playa del Morro (days 19–21), and may drift over Finca Maragrícola too. Watch it rob fish from Blue-footed Booby and Brown Pelican."
   fact: "A frigatebird's plumage is not waterproof, so it almost never lands on the sea: it snatches fish from the surface in flight or steals them from other birds."
 ---
 Фрегатовые — небольшое семейство морских птиц-планеристов: в мире пять видов, в Колумбии два, и на нашем маршруте реален один, великолепный фрегат. Это одна из самых узнаваемых птиц тропических побережий. Представь чёрный крест в небе с узкими изломанными крыльями и длинным раздвоенным хвостом, который неподвижно висит над гаванью и лишь изредка поворачивает хвостом, как рулём. Ноги у фрегата крошечные, по земле он почти не ходит, а отдыхает на деревьях и мачтах.
