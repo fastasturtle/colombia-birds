@@ -1,0 +1,904 @@
+# Английские слова бёрдера: карточки и словарь на странице /words/ (формат — content/README.md).
+# en, ru, note пишутся руками; freq и examples пересчитывает скрипт:
+#   python3 scripts/vocab_freq.py --fill content/vocabulary.yaml
+# Слово ищется вместе с простыми формами (rump -> rumped, bar -> barred, belly -> bellied).
+
+# --- Цвета и оттенки ---
+- en: chestnut
+  ru: каштановый
+  note: тёмный красно-коричневый
+  freq: 409
+  examples: [odontophorus-hyperythrus, boissonneaua-matthewsii, grallaria-ruficapilla]
+- en: rufous
+  ru: рыжий
+  note: самый частый цвет в названиях птиц Колумбии
+  freq: 616
+  examples: [laterallus-melanophaius, baryphthengus-martii, celeus-spectabilis]
+- en: buff
+  ru: охристый
+  note: светлый желтовато-бежевый, цвет буйволовой кожи
+  freq: 579
+  examples: [eutoxeres-condamini, hemitriccus-rufigularis, dubusia-taeniata]
+- en: tawny
+  ru: рыжевато-бурый
+  note: тёплый жёлто-коричневый, «львиный»
+  freq: 183
+  examples: [grallaria-quitensis, nothocercus-julius, rhynchortyx-cinctus]
+- en: cinnamon
+  ru: коричный, светло-рыжий
+  note: цвет корицы
+  freq: 352
+  examples: [spatula-cyanoptera, megascops-petersoni, celeus-loricatus]
+- en: ochre
+  ru: охряный
+  note: жёлто-бурый
+  freq: 77
+  examples: [chlorothraupis-stolzmanni, grallaria-dignissima, grallaricula-flavirostris]
+- en: fulvous
+  ru: рыжевато-жёлтый
+  freq: 37
+  examples: [frederickena-fulva, dendrocygna-bicolor, margarornis-stellatus]
+- en: rusty
+  ru: ржавый, ржаво-рыжий
+  freq: 94
+  examples: [nonnula-rubecula, hapalopsittaca-amazonina, herpsilochmus-frater]
+- en: ruddy
+  ru: красновато-рыжий
+  freq: 39
+  examples: [patagioenas-subvinacea, columbina-talpacoti, geotrygon-montana]
+- en: olive
+  ru: оливковый
+  note: зеленовато-бурый, частый цвет спины
+  freq: 708
+  examples: [leptotrygon-veraguensis, talaphorus-chlorocercus, colaptes-rubiginosus]
+- en: slaty
+  ru: аспидный
+  note: тёмный синевато-серый, как сланец
+  freq: 83
+  examples: [atlapetes-schistaceus, trogon-massena, micrastur-mirandollei]
+- en: plumbeous
+  ru: свинцово-серый
+  freq: 32
+  examples: [ictinia-plumbea, micrastur-plumbeus, geospizopsis-unicolor]
+- en: cinereous
+  ru: пепельно-серый
+  freq: 21
+  examples: [crypturellus-cinereus, circus-cinereus, thamnomanes-caesius]
+- en: sooty
+  ru: закопчённый, сажистый
+  note: тёмный буровато-серый
+  freq: 122
+  examples: [phaethornis-augusti, ardenna-grisea, bucco-noanamae]
+- en: dusky
+  ru: темноватый, сумрачный
+  note: тусклый тёмный тон без чёткого цвета
+  freq: 484
+  examples: [atlapetes-fuscoolivaceus, patagioenas-goodsoni, coeligena-orina]
+- en: pale
+  ru: бледный, светлый
+  freq: 855
+  examples: [scytalopus-griseicollis, patagioenas-cayennensis, threnetes-leucurus]
+- en: dull
+  ru: тусклый, неяркий
+  freq: 385
+  examples: [sipia-laemosticta, attila-bolivianus, asemospiza-obscura]
+- en: scarlet
+  ru: алый
+  freq: 55
+  examples: [touit-huetii, dacnis-berlepschi, chrysothlypis-salmoni]
+- en: crimson
+  ru: малиновый, тёмно-красный
+  freq: 42
+  examples: [ramphocelus-nigrogularis, aulacorhynchus-haematopygus, campephilus-haematogaster]
+- en: bronzy
+  ru: бронзовый
+  note: также bronze, bronzed
+  freq: 95
+  examples: [glaucis-aeneus, coeligena-coeligena, galbula-leucogastra]
+- en: emerald
+  ru: изумрудный
+  note: и название группы колибри — изумруды
+  freq: 91
+  examples: [chionomesa-fimbriata, chlorostilbon-mellisugus, chlorostilbon-olivaresi]
+- en: glossy
+  ru: глянцевый, с блеском
+  freq: 128
+  examples: [plegadis-falcinellus, diglossa-lafresnayii, turdus-serranus]
+- en: iridescent
+  ru: переливчатый
+  note: радужный отлив перьев, особенно у колибри
+  freq: 72
+- en: bicolored
+  ru: двуцветный
+  freq: 21
+  examples: [dysithamnus-occidentalis, grallaria-rufocinerea, astur-bicolor]
+- en: tinge
+  ru: оттенок, налёт
+  note: tinged — с налётом (buff-tinged — с охристым налётом)
+  freq: 381
+
+# --- Части тела и перья ---
+- en: crown
+  ru: темя
+  note: верх головы; -crowned — с таким-то теменем
+  freq: 993
+  examples: [nyctanassa-violacea, grallaria-ruficapilla, grallaricula-nana]
+- en: cap
+  ru: шапочка
+  note: -capped — с шапочкой, «-шапочный»
+  freq: 190
+  examples: [saucerottia-cyanifrons, donacobius-atricapilla, kleinothraupis-atropileus]
+- en: fronted
+  ru: -лобый
+  note: White-fronted — белолобый
+  freq: 83
+  examples: [cypseloides-cherriei, doryfera-ludovicae, heliodoxa-leadbeateri]
+- en: nape
+  ru: затылок
+  note: -naped — с таким-то затылком
+  freq: 498
+  examples: [amazona-mercenarius, grallaria-nuchalis, pachysylvia-semibrunnea]
+- en: collar
+  ru: ошейник
+  note: collared — ошейниковый
+  freq: 134
+  examples: [selenidera-reinwardtii, chlorophonia-flavirostris, streptoprocne-rutila]
+- en: hood
+  ru: капюшон
+  note: hooded — вся голова другого цвета
+  freq: 58
+  examples: [grallaricula-cucullata, chrysomus-icterocephalus, buthraupis-montana]
+- en: mask
+  ru: маска
+  note: тёмное пятно вокруг глаз; masked
+  freq: 119
+  examples: [fluvicola-nengeta, ramphocelus-nigrogularis, tephrophilus-wetmorei]
+- en: lores
+  ru: уздечка
+  note: участок между глазом и клювом
+  freq: 302
+- en: supercilium
+  ru: бровь
+  note: светлая полоса над глазом, надбровье
+  freq: 262
+- en: browed
+  ru: -бровый
+  note: White-browed — белобровый; eyebrow — бровь
+  freq: 61
+  examples: [tangara-cyanotis, conirostrum-rufum, hypocnemis-hypoxantha]
+- en: eye ring
+  ru: окологлазное кольцо
+  note: в названиях eye-ringed
+  freq: 139
+  examples: [rhynchocyclus-brevirostris]
+- en: spectacled
+  ru: очковый
+  note: с «очками» — кольцо вокруг глаза и полоса к клюву
+  freq: 30
+  examples: [siptornis-striaticollis, pogonotriccus-orbitalis, pulsatrix-perspicillata]
+- en: ear coverts
+  ru: кроющие уха
+  note: пятно на щеке за глазом; auriculars
+  freq: 169
+- en: malar
+  ru: усы, малярная полоса
+  note: полоса от угла клюва вниз по горлу; moustachial stripe
+  freq: 76
+- en: throat
+  ru: горло
+  note: -throated — -горлый
+  freq: 1268
+  examples: [schistes-albogularis, coeligena-helianthea, chionomesa-fimbriata]
+- en: gorget
+  ru: горжет
+  note: блестящее пятно на горле колибри
+  freq: 42
+  examples: [chaetocercus-heliodor, odontophorus-strophium, heliangelus-strophianus]
+- en: bib
+  ru: нагрудник
+  note: тёмное пятно на горле и верхе груди
+  freq: 15
+  examples: [urosticte-benjamini, corapipo-leucorrhoa]
+- en: breast
+  ru: грудь
+  note: -breasted — -грудый
+  freq: 1138
+  examples: [eriocnemis-mosquera, boissonneaua-matthewsii, laterallus-exilis]
+- en: belly
+  ru: брюхо
+  note: -bellied — -брюхий
+  freq: 1015
+  examples: [discosura-langsdorffi, eriocnemis-cupreoventris, coeligena-bonapartei]
+- en: flank
+  ru: бок
+  note: обычно во множественном — flanks
+  freq: 600
+  examples: [porphyriops-melanops, myrmotherula-axillaris]
+- en: vent
+  ru: подхвостье
+  note: область клоаки под хвостом; -vented
+  freq: 171
+  examples: [ortalis-ruficauda, patagioenas-cayennensis, neomorphus-geoffroyi]
+- en: undertail
+  ru: низ хвоста
+  note: undertail coverts — подхвостье (нижние кроющие хвоста)
+  freq: 413
+- en: rump
+  ru: надхвостье
+  note: низ спины над хвостом; -rumped — -гузый
+  freq: 614
+  examples: [hydrobates-tethys, chaetura-cinereiventris, chaetura-spinicaudus]
+- en: mantle
+  ru: мантия, верх спины
+  note: спина между крыльями; -mantled
+  freq: 113
+  examples: [odontorchilus-branickii, iridosornis-porphyrocephalus, chalcostigma-stanleyi]
+- en: backed
+  ru: -спинный
+  note: Olive-backed — оливковоспинный
+  freq: 143
+  examples: [odontophorus-melanonotus, ramphomicron-microrhynchum, urochroa-leucura]
+- en: upperparts
+  ru: верх тела
+  note: спина, крылья и хвост сверху
+  freq: 982
+- en: underparts
+  ru: низ тела
+  note: горло, грудь, брюхо, подхвостье
+  freq: 1048
+- en: coverts
+  ru: кроющие перья
+  note: прикрывают основания маховых и рулевых
+  freq: 865
+- en: primaries
+  ru: первостепенные маховые
+  note: длинные перья на конце крыла
+  freq: 193
+- en: scapulars
+  ru: плечевые перья
+  freq: 90
+- en: shoulder
+  ru: плечо
+  note: пятно на сгибе крыла; -shouldered
+  freq: 100
+  examples: [touit-huetii, thamnophilus-aethiops, akletos-melanoceps]
+- en: wing bar
+  ru: полоса на крыле
+  note: светлые кончики кроющих; wing-barred
+  freq: 147
+  examples: [piprites-chloris, sporophila-americana]
+- en: bill
+  ru: клюв
+  note: -billed — -клювый
+  freq: 1282
+  examples: [anas-georgica, ensifera-ensifera, phaethon-aethereus]
+- en: mandible
+  ru: подклювье
+  note: строго — любая половина клюва; upper mandible — надклювье
+  freq: 421
+- en: tarsus
+  ru: цевка
+  note: неоперённая часть ноги над пальцами
+  freq: 78
+- en: iris
+  ru: радужка
+  note: цвет глаза в описаниях
+  freq: 744
+- en: crest
+  ru: хохол
+  note: crested — хохлатый
+  freq: 241
+  examples: [discosura-popelairii, pharomachrus-antisianus, rhegmatorhina-melanosticta]
+- en: tuft
+  ru: пучок перьев
+  note: tufted — с хохолком или пучками
+  freq: 64
+  examples: [dacnis-egregia, heliomaster-furcifer, selenidera-nattereri]
+- en: wattle
+  ru: серёжка
+  note: голый кожистый вырост на голове или шее
+  freq: 20
+  examples: [cephalopterus-penduliger, aburria-aburri, crax-globulosa]
+- en: bare
+  ru: голый, неоперённый
+  note: bare parts — клюв, ноги, голая кожа
+  freq: 206
+  examples: [gymnoderus-foetidus, patagioenas-corensis, phimosus-infuscatus]
+- en: plumage
+  ru: оперение, наряд
+  freq: 948
+- en: tip
+  ru: кончик
+  note: -tipped — с кончиками (white-tipped — с белыми кончиками)
+  freq: 759
+  examples: [leptotila-verreauxi, aeronautes-montivagus, eutoxeres-aquila]
+- en: morph
+  ru: морфа
+  note: цветовая форма внутри вида (светлая, тёмная)
+  freq: 57
+- en: juvenile
+  ru: молодая птица
+  note: первый наряд после гнезда
+  freq: 732
+- en: immature
+  ru: неполовозрелая птица
+  freq: 241
+- en: alike
+  ru: похожи
+  note: sexes alike — самец и самка окрашены одинаково
+  freq: 119
+- en: nominate
+  ru: номинативный
+  note: nominate subspecies — подвид, описанный первым
+  freq: 833
+
+# --- Рисунок и форма ---
+- en: streaked
+  ru: в продольных пестринах
+  note: streak — продольная пестрина
+  freq: 187
+  examples: [malacoptila-fulvogularis, dysithamnus-leucostictus, myrmotherula-multostriata]
+- en: stripe
+  ru: полоса
+  note: обычно продольная; striped — полосатый
+  freq: 341
+  examples: [thripadectes-holostictus, asthenes-flammulata, tapera-naevia]
+- en: barred
+  ru: поперечно-полосатый
+  note: bar — поперечная полоска; barring — поперечный рисунок
+  freq: 146
+  examples: [pipreola-arcuata, crypturellus-casiquiare, morphnarchus-princeps]
+- en: spotted
+  ru: пятнистый
+  note: spot — пятно
+  freq: 167
+  examples: [taphrospilus-hypostictus, talaphorus-chlorocercus, pardirallus-maculatus]
+- en: speckled
+  ru: крапчатый
+  freq: 66
+  examples: [ortalis-guttata, adelomyia-melanogenys, thripophaga-gutturata]
+- en: scaled
+  ru: чешуйчатый
+  note: светлая кайма перьев даёт «чешую»; то же scaly
+  freq: 32
+  examples: [ampelioides-tschudii, patagioenas-speciosa, columbina-squammata]
+- en: mottled
+  ru: пёстрый, в разводах
+  freq: 86
+  examples: [strix-virgata]
+- en: marbled
+  ru: мраморный
+  freq: 11
+  examples: [odontophorus-gujanensis, limosa-fedoa]
+- en: banded
+  ru: опоясанный, с поясом
+  note: band — широкая полоса, пояс
+  freq: 75
+  examples: [neomorphus-radiolosus, rufirallus-fasciatus, pteroglossus-pluricinctus]
+- en: plain
+  ru: однотонный
+  note: без рисунка
+  freq: 154
+  examples: [columbina-minuta, picumnus-castelnau, thamnophilus-schistaceus]
+- en: patch
+  ru: пятно
+  note: участок другого цвета
+  freq: 459
+- en: faint
+  ru: слабый, еле заметный
+  freq: 212
+- en: conspicuous
+  ru: заметный, бросающийся в глаза
+  freq: 102
+- en: decurved
+  ru: изогнутый вниз
+  note: о клюве
+  freq: 77
+- en: hooked
+  ru: крючковатый
+  note: о клюве
+  freq: 45
+- en: stout
+  ru: толстый, крепкий
+  freq: 72
+  examples: [cinclodes-excelsior]
+- en: slender
+  ru: тонкий, стройный
+  freq: 84
+  examples: [helicolestes-hamatus, xenops-tenuirostris, zimmerius-gracilipes]
+- en: forked
+  ru: вильчатый
+  note: хвост с глубоким вырезом
+  freq: 110
+- en: pygmy
+  ru: карликовый
+  note: в названиях — самый мелкий в группе
+  freq: 42
+  examples: [glaucidium-nubicola, glaucidium-jardinii, glaucidium-parkeri]
+- en: lesser
+  ru: малый
+  note: пара к Greater — большой
+  freq: 170
+  examples: [aythya-affinis, chordeiles-acutipennis, panyptila-cayennensis]
+
+# --- Поведение, голос, гнездо ---
+- en: forage
+  ru: кормиться
+  note: foraging — поиск корма
+  freq: 1083
+- en: glean
+  ru: склёвывать с листьев
+  note: gleaning — собирать насекомых с листвы и веток
+  freq: 412
+- en: sally
+  ru: вылет за добычей
+  note: взлёт с присады за насекомым и возврат
+  freq: 286
+- en: hover
+  ru: зависать в воздухе
+  freq: 241
+- en: hawking
+  ru: ловля насекомых в полёте
+  freq: 98
+- en: flick
+  ru: подёргивать
+  note: крыльями или хвостом
+  freq: 45
+- en: perch
+  ru: присада
+  note: и глагол «сидеть на ветке»
+  freq: 673
+- en: flock
+  ru: стая
+  freq: 824
+- en: mixed species
+  ru: смешанная стая
+  note: mixed-species flock — стая из разных видов
+  freq: 565
+- en: army ant
+  ru: кочевые муравьи
+  note: ant swarm — колонна, за которой кормятся муравьеловки
+  freq: 168
+- en: lek
+  ru: ток
+  note: место брачных демонстраций самцов
+  freq: 49
+- en: display
+  ru: демонстрация
+  note: брачное или угрожающее поведение
+  freq: 262
+- en: duet
+  ru: дуэт
+  note: самец и самка поют вместе
+  freq: 64
+- en: secretive
+  ru: скрытный
+  note: то же skulking
+  freq: 33
+- en: solitary
+  ru: одиночный
+  freq: 77
+  examples: [tringa-solitaria, buteogallus-solitarius, cacicus-solitarius]
+- en: gregarious
+  ru: стайный, общественный
+  freq: 63
+- en: arboreal
+  ru: древесный
+  note: живёт на деревьях
+  freq: 70
+- en: terrestrial
+  ru: наземный
+  freq: 85
+- en: nocturnal
+  ru: ночной
+  freq: 62
+  examples: [nothocrax-urumutum]
+- en: resident
+  ru: оседлый, местный
+  note: живёт здесь круглый год
+  freq: 898
+- en: migratory
+  ru: перелётный
+  freq: 243
+- en: vagrant
+  ru: залётный
+  freq: 233
+- en: wintering
+  ru: зимующий
+  freq: 149
+- en: breeding
+  ru: гнездование
+  note: breeding plumage — брачный наряд
+  freq: 1622
+- en: clutch
+  ru: кладка
+  freq: 792
+- en: incubation
+  ru: насиживание
+  freq: 591
+- en: nestling
+  ru: птенец
+  freq: 314
+- en: fledge
+  ru: вылетать из гнезда
+  note: fledgling — слёток
+  freq: 157
+- en: cavity
+  ru: дупло
+  note: cavity nester — гнездится в дуплах
+  freq: 203
+- en: call
+  ru: позывка
+  note: короткий сигнал, не песня
+  freq: 1253
+- en: trill
+  ru: трель
+  freq: 272
+- en: whistle
+  ru: свист
+  freq: 335
+- en: insectivorous
+  ru: насекомоядный
+  freq: 46
+- en: frugivorous
+  ru: плодоядный
+  freq: 18
+- en: raptor
+  ru: хищная птица
+  freq: 61
+- en: shorebird
+  ru: кулик
+  note: британское wader
+  freq: 42
+- en: passerine
+  ru: воробьиная птица
+  note: из отряда воробьинообразных
+  freq: 236
+- en: endemic
+  ru: эндемик
+  note: живёт только в этой стране или области
+  freq: 149
+
+# --- Места обитания ---
+- en: understory
+  ru: подлесок
+  note: нижний ярус леса; британское understorey
+  freq: 194
+- en: subcanopy
+  ru: подпологовый ярус
+  freq: 67
+- en: canopy
+  ru: полог леса
+  note: верхний ярус, кроны
+  freq: 398
+- en: thicket
+  ru: чаща, заросли
+  freq: 142
+  examples: [myrmothera-dives]
+- en: tangle
+  ru: сплетение ветвей
+  note: vine tangles — клубки лиан
+  freq: 91
+- en: epiphyte
+  ru: эпифит
+  note: растения на ветвях (бромелии, орхидеи, мхи)
+  freq: 98
+- en: leaf litter
+  ru: лесная подстилка
+  freq: 85
+- en: edge
+  ru: опушка
+  note: forest edge; не путать с edged — окаймлённый
+  freq: 1037
+  examples: []
+- en: clearing
+  ru: поляна, вырубка
+  freq: 263
+- en: secondary forest
+  ru: вторичный лес
+  note: то же second growth
+  freq: 455
+- en: cloud forest
+  ru: облачный лес
+  note: горный лес в туманах
+  freq: 54
+  examples: [glaucidium-nubicola]
+- en: elfin
+  ru: криволесье
+  note: elfin forest — низкий лес у верхней границы леса
+  freq: 63
+- en: páramo
+  ru: парамо
+  note: высокогорные луга Анд выше границы леса
+  freq: 67
+- en: montane
+  ru: горный
+  freq: 414
+  examples: [lepidocolaptes-lacrymiger, anabacerthia-striaticollis]
+- en: foothill
+  ru: предгорья
+  note: обычно во множественном — foothills
+  freq: 206
+  examples: [megascops-roraimae, epinecrophylla-spodionota, schiffornis-aenea]
+- en: lowland
+  ru: низменность
+  note: lowland forest — равнинный лес
+  freq: 474
+- en: ravine
+  ru: овраг, ущелье
+  freq: 54
+- en: deciduous
+  ru: листопадный
+  freq: 178
+- en: várzea
+  ru: варзеа
+  note: сезонно затопляемый лес Амазонии
+  freq: 223
+- en: terra firme
+  ru: терра-фирме
+  note: незатопляемый лес Амазонии
+  freq: 226
+- en: gallery forest
+  ru: галерейный лес
+  note: полоса леса вдоль реки
+  freq: 171
+- en: riparian
+  ru: прибрежный
+  note: у рек и ручьёв
+  freq: 65
+  examples: [cercomacroides-fuscicauda, forpus-crassirostris]
+- en: marsh
+  ru: травяное болото
+  freq: 121
+  examples: [arundinicola-leucocephala]
+- en: swamp
+  ru: заболоченный лес, топь
+  freq: 136
+- en: mangrove
+  ru: мангры
+  freq: 152
+  examples: [rallus-longirostris, vireo-pallens, setophaga-petechia]
+- en: scrub
+  ru: кустарник
+  note: заросли кустарника
+  freq: 120
+  examples: [euscarthmus-meloryphus, sublegatus-arenarum, sublegatus-obscurior]
+- en: elevation
+  ru: высота над уровнем моря
+  note: то же altitude
+  freq: 1074
+- en: range
+  ru: ареал
+  note: также горный хребет
+  freq: 1628
+
+# --- Слова из названий птиц ---
+- en: tanager
+  ru: танагра
+  freq: 305
+  examples: [chlorothraupis-stolzmanni, ramphocelus-nigrogularis, bangsia-rothschildi]
+- en: antbird
+  ru: муравьеловка
+  note: букв. «муравьиная птица»
+  freq: 178
+  examples: [dichrozona-cincta, drymophila-caudata, cercomacroides-fuscicauda]
+- en: antshrike
+  ru: колючник
+  note: букв. «муравьиный сорокопут»
+  freq: 59
+  examples: [frederickena-fulva, cymbilaimus-lineatus, taraba-major]
+- en: antwren
+  ru: муравьелов
+  note: букв. «муравьиный крапивник»
+  freq: 57
+  examples: [euchrepomis-callinota, euchrepomis-spodioptila, isleria-hauxwelli]
+- en: antpitta
+  ru: муравьиная питта
+  note: круглые длинноногие птицы подлеска; в русских названиях eBird часто «муравьеловка»
+  freq: 68
+  examples: [grallaria-ruficapilla, grallaria-hypoleuca, grallaria-rufocinerea]
+- en: antthrush
+  ru: муравейница
+  note: букв. «муравьиный дрозд»
+  freq: 19
+  examples: [chamaeza-turdina, formicarius-colma, formicarius-analis]
+- en: flycatcher
+  ru: мухолов
+  freq: 300
+  examples: [poecilotriccus-ruficeps, onychorhynchus-coronatus, terenotriccus-erythrurus]
+- en: tyrant
+  ru: тиранн
+  note: тиранновые мухоловки
+  freq: 266
+  examples: [pogonotriccus-orbitalis, hemitriccus-rufigularis, uromyias-agilis]
+- en: tyrannulet
+  ru: москитолов
+  note: букв. «маленький тиранн»
+  freq: 57
+  examples: [zimmerius-albigularis, phylloscartes-superciliaris, ornithion-brunneicapillus]
+- en: kingbird
+  ru: королевский тиранн
+  freq: 16
+  examples: [tyrannus-niveigularis, tyrannus-melancholicus, tyrannus-tyrannus]
+- en: spinetail
+  ru: иглохвостка
+  note: букв. «колючий хвост»
+  freq: 56
+  examples: [synallaxis-subpudica, leptasthenura-andicola, hellmayrea-gularis]
+- en: woodcreeper
+  ru: древолаз
+  note: лазает по стволам, как пищуха
+  freq: 64
+  examples: [xiphocolaptes-promeropirhynchus, certhiasomus-stictolaemus, sittasomus-griseicapillus]
+- en: foliage gleaner
+  ru: филидор, древесник
+  note: букв. «сборщик с листвы»
+  freq: 34
+  examples: [syndactyla-subalaris, anabazenops-dorsalis, neophilydor-fuscipenne]
+- en: puffbird
+  ru: пуховка
+  freq: 41
+  examples: [notharchus-hyperrhynchus, malacoptila-fulvogularis, notharchus-pectoralis]
+- en: barbet
+  ru: бородатка
+  freq: 20
+  examples: [capito-squamatus, capito-auratus, eubucco-bourcierii]
+- en: woodstar
+  ru: эльф
+  note: крошечные колибри
+  freq: 14
+  examples: [chaetocercus-mulsant, chaetocercus-heliodor, calliphlox-amethystina]
+- en: puffleg
+  ru: эрион
+  note: колибри с белыми «пуховыми штанами»
+  freq: 22
+  examples: [haplophaedia-lugens, eriocnemis-vestita, eriocnemis-cupreoventris]
+- en: sunangel
+  ru: феб
+  note: букв. «солнечный ангел», колибри
+  freq: 7
+  examples: [heliangelus-clarisse, heliangelus-exortis, heliangelus-mavors]
+- en: starfrontlet
+  ru: инка
+  note: колибри рода Coeligena
+  freq: 11
+  examples: [coeligena-bonapartei, coeligena-helianthea, coeligena-phalerata]
+- en: hermit
+  ru: колибри-отшельник
+  freq: 43
+  examples: [phaethornis-yaruqui, glaucis-aeneus, glaucis-hirsutus]
+- en: thornbill
+  ru: радужник, короткоклюв
+  note: колибри с коротким клювом
+  freq: 12
+  examples: [ramphomicron-microrhynchum, chalcostigma-heteropogon, chalcostigma-herrani]
+- en: flowerpiercer
+  ru: цветокол
+  note: прокалывает цветок у основания
+  freq: 24
+  examples: [diglossa-lafresnayii, diglossa-indigotica, diglossa-glauca]
+- en: conebill
+  ru: конусоклюв
+  freq: 18
+  examples: [conirostrum-rufum, conirostrum-bicolor, conirostrum-margaritae]
+- en: seedeater
+  ru: просяночник
+  note: букв. «семяед»
+  freq: 38
+  examples: [sporophila-telasco, catamenia-homochroa, amaurospiza-aequatorialis]
+- en: brushfinch
+  ru: атлапета, тохи
+  note: букв. «кустарниковый вьюрок»
+  freq: 34
+  examples: [atlapetes-albofrenatus, atlapetes-fuscoolivaceus, atlapetes-leucopis]
+- en: grosbeak
+  ru: толстонос
+  freq: 28
+  examples: [caryothraustes-canadensis, pheucticus-chrysogaster, pheucticus-aureoventris]
+- en: honeycreeper
+  ru: саи
+  note: букв. «медолаз»
+  freq: 18
+  examples: [cyanerpes-nitidus, cyanerpes-lucidus, cyanerpes-caeruleus]
+- en: greenlet
+  ru: виреончик
+  freq: 26
+  examples: [hylophilus-flavipes, hylophilus-brunneiceps, hylophilus-thoracicus]
+- en: solitaire
+  ru: кларино
+  note: букв. «одиночка»; дрозды с флейтовой песней
+  freq: 9
+  examples: [myadestes-ralloides, entomodestes-coracinus, cichlopsis-leucogenys]
+- en: redstart
+  ru: канделита
+  note: в Андах — Myioborus, другое название whitestart
+  freq: 13
+  examples: [setophaga-ruticilla, myioborus-miniatus, myioborus-flavivertex]
+- en: nighthawk
+  ru: сумеречник
+  note: козодой, охотящийся в сумерках
+  freq: 21
+  examples: [chordeiles-nacunda, chordeiles-pusillus, chordeiles-rupestris]
+- en: potoo
+  ru: уратао
+  freq: 13
+  examples: [nyctibius-grandis, phyllaemulor-bracteatus, nyctibius-aethereus]
+- en: screech owl
+  ru: совка
+  freq: 25
+  examples: [megascops-roraimae, megascops-clarkii, megascops-albogularis]
+- en: pygmy owl
+  ru: сычик
+  freq: 15
+  examples: [glaucidium-nubicola, glaucidium-jardinii, glaucidium-parkeri]
+- en: guan
+  ru: пенелопа, гуан
+  freq: 38
+  examples: [chamaepetes-goudotii, penelope-ortoni, penelope-montagnii]
+- en: curassow
+  ru: гокко, кракс
+  freq: 31
+  examples: [nothocrax-urumutum, mitu-salvini, pauxi-pauxi]
+- en: dove
+  ru: голубь, горлица
+  note: обычно мелкие голуби
+  freq: 78
+  examples: [columbina-buckleyi, columbina-cruziana, geotrygon-saphirina]
+- en: parakeet
+  ru: попугай, аратинга
+  note: мелкий длиннохвостый попугай
+  freq: 36
+  examples: [pyrrhura-melanura, bolborhynchus-lineola, bolborhynchus-ferrugineifrons]
+- en: parrotlet
+  ru: воробьиный попугайчик
+  freq: 22
+  examples: [touit-huetii, touit-stictopterus, forpus-coelestis]
+- en: piculet
+  ru: дятелок
+  freq: 23
+  examples: [picumnus-lafresnayi, picumnus-pumilus, picumnus-exilis]
+- en: crake
+  ru: погоныш
+  freq: 33
+  examples: [mustelirallus-albicollis, rufirallus-fasciatus, laterallus-melanophaius]
+- en: rail
+  ru: пастушок
+  freq: 52
+  examples: [rallus-aequatorialis, rallus-semiplumbeus, rallus-longirostris]
+- en: kite
+  ru: коршун
+  note: не путать с kite — воздушный змей
+  freq: 35
+  examples: [chondrohierax-uncinatus, ictinia-plumbea, gampsonyx-swainsonii]
+- en: harrier
+  ru: лунь
+  freq: 20
+  examples: [circus-buffoni, circus-cinereus, circus-hudsonius]
+- en: hawk
+  ru: ястреб, канюк
+  note: в Америке так зовут и канюков
+  freq: 242
+  examples: [accipiter-poliogaster, accipiter-striatus, astur-bicolor]
+- en: swift
+  ru: стриж
+  freq: 53
+  examples: [cypseloides-cherriei, cypseloides-niger, cypseloides-lemosi]
+- en: martin
+  ru: ласточка
+  note: обычно крупные ласточки Progne
+  freq: 32
+  examples: [progne-subis, progne-chalybea, progne-tapera]
+- en: wren
+  ru: крапивник
+  freq: 87
+  examples: [odontorchilus-branickii, cistothorus-apolinari, cantorchilus-nigricapillus]
+- en: warbler
+  ru: древесница
+  note: американские древесницы; в Старом Свете — славки
+  freq: 124
+  examples: [setophaga-cerulea, setophaga-fusca, myiothlypis-chlorophrys]
+- en: sparrow
+  ru: воробей, овсянка
+  note: американские sparrows — овсянковые, не воробьи
+  freq: 79
+  examples: [ammodramus-savannarum, ammodramus-humeralis, ammodramus-aurifrons]
