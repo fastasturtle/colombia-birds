@@ -10,7 +10,7 @@ confusable:
     how: "Цапли с прямым клювом-кинжалом, в полёте втягивают шею в плечи, охотятся стоя неподвижно"
   - family: scolop2
     how: "Кроншнепы на побережье тоже с изогнутым клювом, но они бурые, пёстрые, мельче и на коротких ногах бегают по илу"
-route_note: "Green Ibis — целевой вид болот и берегов Путумайо у Пуэрто-Асиса и Плайя-Рики (дни 10–11), лучше всего на рассвете и в сумерках. Glossy Ibis ищем на прудах Финки Марагрикола (день 20), White Ibis — в манграх у Тумако, а Bare-faced Ibis обычен на пастбищах и газонах вокруг Боготы."
+route_note: "Green Ibis — целевой вид болот и берегов Путумайо у Пуэрто-Асиса и Плайя-Рики (дни 10–11), лучше всего на рассвете и в сумерках. Glossy Ibis значится целью Финки Марагрикола (день 20), но в eBird там не отмечен; реальнее он на болотах Ла-Флориды у Боготы. White Ibis — в манграх у Тумако, а Bare-faced Ibis обычен на пастбищах и газонах вокруг Боготы."
 fact: "Каравайка (Glossy Ibis) — тот же вид, что гнездится на юге России; в Америку она, по-видимому, сама перелетела из Африки в XIX веке."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Flies with the neck stretched out, alternating quick flaps and glides, often in lines"
     - "Wanders over shallows and wet meadows, probing mud and grass with the bill"
     - "Crow- to goose-sized; plumage dark with a metallic sheen, white or pink"
-  route_note: "Green Ibis is a target of the marshes and river banks of the Putumayo around Puerto Asís and Playa Rica (days 10–11), best at dawn and dusk. We look for Glossy Ibis at the ponds of Finca Maragrícola (day 20) and White Ibis in the mangroves near Tumaco, while Bare-faced Ibis is common on pastures and lawns around Bogotá."
+  route_note: "Green Ibis is a target of the marshes and river banks of the Putumayo around Puerto Asís and Playa Rica (days 10–11), best at dawn and dusk. Glossy Ibis is listed as a Finca Maragrícola target (day 20) but has no eBird records there; it is more likely in the La Florida marshes near Bogotá. White Ibis is in the mangroves near Tumaco, while Bare-faced Ibis is common on pastures and lawns around Bogotá."
   fact: "The Glossy Ibis is the same species that breeds in southern Russia; it apparently reached the Americas from Africa on its own in the 19th century."
 ---
 Ибисовые — болотные птицы с длинными ногами и характерным клювом: у ибисов он длинный и изогнутый вниз, у колпиц расширен на конце в «ложку». В Колумбии восемь видов, и почти все живут в низинах: на болотах, по берегам рек, в манграх и на влажных пастбищах. Ибис кормится, медленно шагая и прощупывая клювом ил, траву и воду в поисках червей, раков и насекомых. В полёте его легко отличить от цапли: шея вытянута вперёд, взмахи частые, а стая летит ровной цепочкой или клином.
