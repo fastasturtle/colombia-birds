@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "check": "astro check",
     "verify": "astro check && astro build",
-    "shots": "node scripts/screenshot.mjs"
+    "shots": "node scripts/screenshot.mjs",
+    "test:offline": "node tests/offline.spec.mjs"
   },
   "dependencies": {
     "@astrojs/svelte": "^9.0.1",

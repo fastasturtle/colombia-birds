@@ -1,0 +1,19 @@
+---
+/**
+ * «Офлайн»: download the offline pack (all pages + thumb/medium photos) into the service worker caches,
+ * see its status, update or delete it. The logic lives in OfflinePack.svelte; the worker in
+ * site/integrations/sw.template.js; the pack manifest is built by site/integrations/offline.mjs.
+ * The worker also serves this page for any page that is not cached when there is no network.
+ */
+import Base from '../../layouts/Base.astro';
+import OfflinePack from '../../components/OfflinePack.svelte';
+---
+<Base title="Офлайн" description="Скачать сайт целиком, чтобы пользоваться им без сети">
+  <h1>Офлайн</h1>
+  <p class="muted lead">Скачайте пакет, пока есть хороший интернет: все страницы и фото (кроме самых крупных) останутся на устройстве, и сайт будет работать без сети. Пока связь есть, сайт всегда показывает свежие данные.</p>
+  <OfflinePack client:load />
+</Base>
+
+<style>
+  .lead { margin-top: 0; font-size: .95rem; }
+</style>
