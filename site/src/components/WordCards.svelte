@@ -3,8 +3,8 @@
    * Flashcards for birder's English (/words/) as a study session. Words come from the page's <script id="words-data"> JSON
    * (see pages/words/index.astro), read on mount, so the shuffle never meets server-rendered markup.
    * The deck is shuffled on load; each card shows English or Russian first at random. Tap / Enter / Space flips the card;
-   * once it has been flipped, «Правильно» / «Неправильно» record the answer and show the next card (→ on the flipped card
-   * focuses «Правильно», ← / → move between the two). The counter shows position and score; «Начать заново» reshuffles
+   * once it has been flipped, «Неправильно» (left) / «Правильно» (right, accent) record the answer and show the next card
+   * (→ on the flipped card focuses the nearer «Неправильно»; then → moves to «Правильно» and ← back, matching the layout). The counter shows position and score; «Начать заново» reshuffles
    * the whole deck and resets the score. At the end a summary offers «Повторить ошибки» (a new session of the cards
    * answered «Неправильно») and «Начать заново». Nothing is stored: a reload starts a fresh session.
    * On a card's first flip the page scrolls (only if needed) so the answer buttons are on screen.
@@ -92,13 +92,11 @@
     }, 350);
   }
   function cardKey(e: KeyboardEvent) {
-    if (e.key === 'ArrowRight' && seen) { e.preventDefault(); yesBtn?.focus(); }
+    if (e.key === 'ArrowRight' && seen) { e.preventDefault(); noBtn?.focus(); }
   }
   function answerKey(e: KeyboardEvent) {
-    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-      e.preventDefault();
-      (e.currentTarget === yesBtn ? noBtn : yesBtn)?.focus();
-    }
+    if (e.key === 'ArrowRight' && e.currentTarget === noBtn) { e.preventDefault(); yesBtn?.focus(); }
+    else if (e.key === 'ArrowLeft' && e.currentTarget === yesBtn) { e.preventDefault(); noBtn?.focus(); }
   }
 </script>
 
@@ -162,8 +160,8 @@
     </div>
     {#if w && seen}
       <div class="answer" bind:this={answerRow}>
-        <button bind:this={yesBtn} class="btn primary" onclick={() => answer(true)} onkeydown={answerKey}>Правильно</button>
         <button bind:this={noBtn} class="btn" onclick={() => answer(false)} onkeydown={answerKey}>Неправильно</button>
+        <button bind:this={yesBtn} class="btn primary" onclick={() => answer(true)} onkeydown={answerKey}>Правильно</button>
       </div>
     {/if}
   {/if}
