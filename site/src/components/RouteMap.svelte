@@ -65,8 +65,13 @@
   const toggle = (id: string) => (e: Event) => { e.stopPropagation(); sel = sel === id ? null : id; };
   const key = (id: string) => (e: KeyboardEvent) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(id)(e); } if (e.key === 'Escape') sel = null; };
 
-  const profile = days.map((d) => ({ d, e: d.elev_sleep ?? siteOf[d.sites[0]]?.elev_min ?? 0 }));
-  const maxE = Math.max(3000, ...profile.map((p) => p.e));
+  // e: overnight elevation (bar); top: highest point of the day's sites (tick)
+  const profile = days.map((d) => {
+    const e = d.elev_sleep ?? siteOf[d.sites[0]]?.elev_min ?? 0;
+    const top = Math.max(e, ...d.sites.map((id) => siteOf[id]?.elev_max ?? siteOf[id]?.elev_min ?? 0));
+    return { d, e, top };
+  });
+  const maxE = Math.ceil(Math.max(3000, ...profile.map((p) => p.top)) / 500) * 500;
 </script>
 
 <div class="wrap" style={`--ar:${W / H}`}>
@@ -115,15 +120,16 @@
 </div>
 
 <h2>Профиль высот по дням</h2>
-<div class="profile" role="img" aria-label="Высота ночёвки по дням">
+<div class="profile" role="img" aria-label="Высота ночёвки и максимальная высота по дням">
   {#each profile as p, i}
-    <a href={`${base}days/${p.d.date}/`} class="bar" class:today={i === todayIdx} title={`${p.d.date}: ${p.e} м`}>
+    <a href={`${base}days/${p.d.date}/`} class="bar" class:today={i === todayIdx} title={`${p.d.date}: ночёвка ${p.e} м, максимум ${p.top} м`}>
       <span class="fill" style={`height:${(p.e / maxE) * 100}%; background:${color[p.d.region] ?? '#999'}`}></span>
+      {#if p.top > 0}<span class="peak" style={`bottom:${(p.top / maxE) * 100}%; background:${color[p.d.region] ?? '#999'}`}></span>{/if}
       <span class="lbl">{typeof p.d.day === 'number' ? p.d.day : ''}</span>
     </a>
   {/each}
 </div>
-<p class="muted" style="font-size:.8rem">Столбики: высота места ночёвки, от уровня моря до {maxE} м. Тап по столбику открывает день.</p>
+<p class="muted" style="font-size:.8rem">Столбики — высота ночёвки, чёрточка — максимальная высота дня; шкала от уровня моря до {maxE} м. Тап по столбику открывает день.</p>
 
 <style>
   .wrap {
@@ -184,5 +190,6 @@
   .bar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; position: relative; min-width: 0; }
   .fill { display: block; border-radius: 3px 3px 0 0; opacity: .85; }
   .bar.today .fill { outline: 2px solid var(--fg); }
+  .peak { position: absolute; left: 1px; right: 1px; height: 3px; margin-bottom: -1.5px; border-radius: 1px; box-shadow: 0 0 0 1px var(--fg); pointer-events: none; }
   .lbl { font-size: .6rem; color: var(--muted); text-align: center; position: absolute; bottom: -16px; left: 0; right: 0; }
 </style>
