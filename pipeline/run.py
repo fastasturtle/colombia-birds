@@ -1,7 +1,8 @@
 """Run pipeline steps in order. Usage: uv run python run.py [step ...] [--only slug ...]
 
 Steps: aco ebird birdbase wikidata build   (default: all of these, in order)
-Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study, lynx) are run explicitly.
+Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study, lynx, ioc_names) are run explicitly.
+`ioc_names` runs before `build` (IOC Multilingual Russian names, the last fallback before the overrides).
 `lynx` runs after `build` (needs species_index.json); re-run `build` afterwards to merge the book pages:
 `uv run python run.py lynx build`.
 
@@ -39,6 +40,7 @@ FILES = {
     "study": "build_study_lists.py",
     "endemics": "fetch_endemics.py",
     "lynx": "build_lynx.py",
+    "ioc_names": "fetch_ioc_names.py",
 }
 
 args = " ".join(sys.argv[1:]).split()
