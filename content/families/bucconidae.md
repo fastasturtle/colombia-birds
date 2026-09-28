@@ -11,7 +11,7 @@ confusable:
     how: "Якамары стройнее, с длинным тонким клювом-иглой и металлическим блеском, постоянно вертят головой"
   - family: capito2
     how: "Бородатки ярко-пёстрые, подвижные, лазают по веткам в смешанной стае, а не сидят часами на одном месте"
-route_note: "Четыре целевых вида: White-necked Puffbird на Финке Марагрикола (день 20), Black-streaked Puffbird на Финке Дискосура (день 5), редкая White-faced Nunbird в Ла-Планаде (дни 15–16) и Yellow-billed Nunbird в Эль-Эскондите (дни 11–12). На берегах Путумайо у Пуэрто-Асиса шумят Black-fronted Nunbird, а на сухих ветках над рекой сидят ласточковые пуховки."
+route_note: "Четыре целевых вида: White-necked Puffbird на Финке Марагрикола (день 20), Black-streaked Puffbird на Финке Дискосура (день 5; в сводке eBird там почти не отмечается, шанс невелик), редкая White-faced Nunbird в Ла-Планаде (дни 15–16) и Yellow-billed Nunbird в Эль-Эскондите (дни 11–12). На берегах Путумайо у Пуэрто-Асиса шумят Black-fronted Nunbird, а на сухих ветках над рекой сидят ласточковые пуховки."
 fact: "Белолицая ленивка (White-faced Nunbird) живёт в облачном лесу на высоте 1 500–2 900 м — выше любой другой пуховки Колумбии."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Sallies suddenly for a large insect and returns to the same perch"
     - "Brown, black-and-white or barred; nunbirds are dark grey with a bright red or yellow bill"
     - "Nunbirds keep in noisy groups and call back and forth in chorus"
-  route_note: "Four target species: White-necked Puffbird at Finca Maragrícola (day 20), Black-streaked Puffbird at Finca Discosura (day 5), the scarce White-faced Nunbird at La Planada (days 15–16) and Yellow-billed Nunbird at El Escondite (days 11–12). Along the Putumayo near Puerto Asís, Black-fronted Nunbird calls noisily and swallow-winged puffbirds sit on dead snags over the river."
+  route_note: "Four target species: White-necked Puffbird at Finca Maragrícola (day 20), Black-streaked Puffbird at Finca Discosura (day 5; rarely reported there on eBird, so chances are slim), the scarce White-faced Nunbird at La Planada (days 15–16) and Yellow-billed Nunbird at El Escondite (days 11–12). Along the Putumayo near Puerto Asís, Black-fronted Nunbird calls noisily and swallow-winged puffbirds sit on dead snags over the river."
   fact: "The White-faced Nunbird lives in cloud forest at 1,500–2,900 m, higher than any other puffbird in Colombia."
 ---
 Пуховковые, или пуховки, — неотропическое семейство родственников якамар; в Колумбии 25 видов, включая монашенок (Monasa). Название дано за рыхлое, пушистое оперение, из-за которого голова кажется огромной. Пуховки — засадные охотники: часами сидят на ветке, почти не двигаясь, а потом резко слетают за цикадой, жуком или ящерицей и возвращаются. Из-за этой манеры их легко проглядеть, зато найденная пуховка обычно спокойно позирует.

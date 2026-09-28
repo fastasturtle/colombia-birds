@@ -4,23 +4,23 @@ recognize:
   - "Длинные ноги, длинная шея буквой S и прямой острый клюв-кинжал"
   - "В полёте втягивает шею в плечи, ноги вытянуты за хвостом, взмахи медленные и глубокие"
   - "Охотится стоя неподвижно или медленно подкрадываясь у воды, затем резко бьёт клювом"
-  - "Размер от дрозда (волчки) до крупной цапли почти в полтора метра ростом"
+  - "Размер от голубя (волчки, около 30 см) до крупной цапли почти в полтора метра ростом"
   - "Кваквы и тигровые выпи коренастые, с короткой шеей, часто активны в сумерках"
 confusable:
   - family: thresk1
     how: "Ибисы с изогнутым вниз клюв-серпом, в полёте держат шею вытянутой"
   - family: eurypy1
     how: "Солнечная цапля держится горизонтально, клюв короче, а на раскрытых крыльях вспыхивает рыжий «глаз»"
-route_note: "Yellow-crowned Night Heron — целевой вид мангров и пляжа Плайя-дель-Морро (дни 20–21). Fasciated Tiger-Heron стоит на камнях горных рек у Исла-Эскондиды и в Чоко; на лодке из Пуэрто-Асиса в Плайя-Рику (день 10) ищем Cocoi Heron и редкую Agami Heron, а египетские цапли будут у коров всего маршрута."
+route_note: "Yellow-crowned Night Heron — целевой вид мангров и пляжа Плайя-дель-Морро (дни 20–21). Fasciated Tiger-Heron стоит на камнях горных рек у Исла-Эскондиды и на Трамплине птиц; на лодке из Пуэрто-Асиса в Плайя-Рику (день 10) ищем Cocoi Heron, Rufescent Tiger-Heron и Capped Heron с голубым клювом, а египетские цапли (Western Cattle-Egret) будут у коров всего маршрута."
 fact: "Зелёные кваквы (род Butorides) умеют рыбачить на приманку: бросают в воду кусочек хлеба, перо или насекомое и ждут, когда подплывёт рыба."
 en:
   recognize:
     - "Long legs, a long S-curved neck and a straight, sharp dagger bill"
     - "In flight the neck is drawn back into the shoulders, legs trail behind, wingbeats slow and deep"
     - "Hunts standing still or stalking slowly at the water's edge, then strikes fast"
-    - "Size from thrush (small bitterns) to a big heron standing nearly one and a half metres tall"
+    - "Size from pigeon (small bitterns, about 30 cm) to a big heron standing nearly one and a half metres tall"
     - "Night-herons and tiger-herons are stocky and short-necked, often active at dusk"
-  route_note: "Yellow-crowned Night Heron is a target of the mangroves and beach at Playa del Morro (days 20–21). Fasciated Tiger-Heron stands on rocks in mountain rivers at Isla Escondida and in the Chocó; on the boat from Puerto Asís to Playa Rica (day 10) we look for Cocoi Heron and the scarce Agami Heron, and cattle egrets will follow livestock along the whole route."
+  route_note: "Yellow-crowned Night Heron is a target of the mangroves and beach at Playa del Morro (days 20–21). Fasciated Tiger-Heron stands on rocks in mountain rivers at Isla Escondida and on the Trampolín de las Aves; on the boat from Puerto Asís to Playa Rica (day 10) we look for Cocoi Heron, Rufescent Tiger-Heron and the blue-billed Capped Heron, and Western Cattle-Egrets will follow livestock along the whole route."
   fact: "Herons of the genus Butorides fish with bait: they drop a bit of bread, a feather or an insect on the water and wait for a fish to come up."
 ---
 Цаплевые — большое семейство околоводных птиц: цапли, кваквы, выпи и тигровые выпи; в Колумбии 23 вида. Общий план тела у всех одинаков: длинные ноги, длинная гибкая шея и прямой острый клюв. Цапля охотится терпеливо: стоит неподвижно у воды или медленно крадётся, а потом молниеносно выбрасывает шею и хватает рыбу, лягушку или ящерицу. В полёте цаплю выдаёт втянутая шея и вытянутые назад ноги; ибисы и аисты летят с вытянутой шеей.
