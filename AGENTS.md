@@ -15,7 +15,7 @@
    Avibase, BirdLife, ICESI WikiAves, ProAves — только ссылки. У каждого фото и текста хранить автора,
    лицензию с версией, URL источника, дату. Подробности: `docs/research/sources.md`.
 4. **Таксономия.** Канон — eBird/Clements 2025 (совпадает с Merlin). Список видов и статусы — ACO 2022.
-   Русские имена из eBird (`locale=ru`), fallback Wikidata/IOC, источник в `name_ru_source`.
+   Русские имена из eBird (`locale=ru`), fallback Wikidata/IOC, затем заголовок статьи ru.wikipedia (только кириллица), источник в `name_ru_source`.
 5. **Секреты** только в `.env` и GitHub Secrets (`XENO_CANTO_API_KEY`, `R2_ACCESS_KEY_ID`,
    `R2_SECRET_ACCESS_KEY`, `R2_CLOUDFLARE_TOKEN`). Никогда не коммитить и не печатать в чат.
 6. **Сеть из облачной сессии Claude Code**: Wikimedia (Wikipedia, Commons, WDQS) режет общий IP
