@@ -34,6 +34,11 @@ jobs:
         env:
           PUBLIC_MEDIA_BASE_URL: ${{ vars.PUBLIC_MEDIA_BASE_URL || 'https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev' }}
           PUBLIC_REPORT_URL: ${{ vars.PUBLIC_REPORT_URL }}
+      # service worker + offline pack smoke test on the built site/dist (site/tests/offline.spec.mjs);
+      # runs before the deploy job, so a broken worker never ships
+      - name: Offline smoke test
+        working-directory: site
+        run: npx playwright install --with-deps chromium && npm run test:offline
   deploy:
     needs: build
     runs-on: ubuntu-latest

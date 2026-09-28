@@ -10,7 +10,10 @@ const nav = [
   { href: `${base}families/`, label: 'Семейства' },
   { href: `${base}identify/`, label: 'Определить' },
   { href: `${base}words/`, label: 'Слова' },
+  { href: `${base}offline/`, label: 'Офлайн' },
 ];
+const buildId = __BUILD_ID__;
+const prod = import.meta.env.PROD;
 const path = Astro.url.pathname;
 ---
 <!doctype html>
@@ -22,6 +25,7 @@ const path = Astro.url.pathname;
     <meta name="theme-color" content="#14532d" />
     <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
     <link rel="manifest" href={`${base}manifest.webmanifest`} />
+    <meta name="build-version" content={buildId} />
     <title>{title} · Птицы Колумбии</title>
   </head>
   <body>
@@ -34,15 +38,67 @@ const path = Astro.url.pathname;
         <script is:inline>
           // phones: the nav scrolls sideways; keep the current section in view
           (function () { var n = document.querySelector('.top nav'), a = n && n.querySelector('[aria-current]');
-            if (!a) return; var d = a.getBoundingClientRect().right - n.getBoundingClientRect().right; if (d > 0) n.scrollLeft += d + 16; })();
+            if (!a) return; var d = a.getBoundingClientRect().right - n.getBoundingClientRect().right; if (d > 0) n.scrollLeft += d + 40; })();
         </script>
       </div>
+      <a class="offline-strip" id="offline-strip" href={`${base}offline/`} hidden>Офлайн · <span>пакет не скачан</span></a>
     </header>
     <main><slot /></main>
     <footer class="foot">
-      {reportUrl && <ReportButton client:idle endpoint={reportUrl} species={species} />}
+      <div class="foot-links">
+        {reportUrl && <ReportButton client:idle endpoint={reportUrl} species={species} />}
+        <a class="foot-offline" href={`${base}offline/`}>Офлайн</a>
+      </div>
       Данные: ACO 2022 (CC BY), BIRDBASE 2025 (CC BY), eBird/Clements 2025, Wikidata (CC0), Wikipedia (CC BY-SA), фото авторов с Wikimedia Commons и iNaturalist по свободным лицензиям.
     </footer>
+    <div class="new-version" id="new-version" role="status" hidden>
+      <span>Есть новая версия</span>
+      <button type="button" class="nv-reload">Обновить</button>
+      <button type="button" class="nv-close" aria-label="Закрыть">×</button>
+    </div>
+    <script is:inline define:vars={{ base, prod }}>
+      // Offline shell (see site/integrations/offline.mjs and /offline/):
+      // 1) service worker; 2) «Офлайн» strip while navigator.onLine is false; 3) «Есть новая версия» toast.
+      (function () {
+        // the build id lives only in <meta name="build-version">, so it is the one line that differs between builds
+        // (the offline-pack hash of a page ignores that meta: an unchanged page is not re-downloaded)
+        var buildId = (document.querySelector('meta[name="build-version"]') || {}).content || '';
+        if (prod && 'serviceWorker' in navigator) {
+          navigator.serviceWorker.register(base + 'sw.js', { scope: base, updateViaCache: 'none' }).catch(function () {});
+        }
+        var strip = document.getElementById('offline-strip');
+        function packDate() {
+          try { var p = JSON.parse(localStorage.getItem('cb.offline.pack') || 'null');
+            if (p && p.built) return 'данные от ' + new Date(p.built).toLocaleDateString('ru-RU'); } catch (e) {}
+          return 'пакет не скачан';
+        }
+        function syncStrip() {
+          if (!strip) return;
+          strip.hidden = navigator.onLine !== false;
+          if (!strip.hidden) strip.querySelector('span').textContent = packDate();
+        }
+        addEventListener('online', syncStrip); addEventListener('offline', syncStrip); syncStrip();
+
+        var toast = document.getElementById('new-version');
+        toast.querySelector('.nv-reload').addEventListener('click', function () { location.reload(); });
+        toast.querySelector('.nv-close').addEventListener('click', function () {
+          toast.hidden = true; try { sessionStorage.setItem('cb.nv.dismissed', buildId); } catch (e) {}
+        });
+        function checkVersion() {
+          if (!prod || navigator.onLine === false) return;
+          try {
+            var now = Date.now(), last = +(sessionStorage.getItem('cb.nv.checked') || 0);
+            if (now - last < 60000) return;
+            sessionStorage.setItem('cb.nv.checked', String(now));
+            if (sessionStorage.getItem('cb.nv.dismissed') === buildId) return;
+          } catch (e) {}
+          fetch(base + 'version.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (v) { if (v && v.version && v.version !== buildId) toast.hidden = false; }).catch(function () {});
+        }
+        document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') checkVersion(); });
+        checkVersion();
+      })();
+    </script>
   </body>
 </html>
 <style is:global>
@@ -73,6 +129,19 @@ const path = Astro.url.pathname;
   .top nav { display: flex; gap: 14px; }
   .top nav a { color: var(--muted); min-height: 40px; display: inline-flex; align-items: center; padding: 0 2px; }
   .top nav a[aria-current="page"] { color: var(--fg); box-shadow: inset 0 -2px 0 var(--accent); }
+  /* the report block keeps its own 16px bottom margin; when its form opens it grows and «Офлайн» wraps below */
+  .foot-links { display: flex; flex-wrap: wrap; align-items: flex-start; column-gap: 10px; }
+  .foot-offline { min-height: 40px; display: inline-flex; align-items: center; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--muted); font-size: .9rem; margin-bottom: 16px; }
+  .offline-strip { display: block; padding: 3px 16px; background: var(--chip); color: var(--fg); font-size: .8rem; text-align: center; border-top: 1px solid var(--line); }
+  .offline-strip[hidden] { display: none; }
+  .new-version { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 20; max-width: 420px; margin: 0 auto;
+    display: flex; align-items: center; gap: 8px; padding: 6px 6px 6px 14px; background: var(--card); color: var(--fg);
+    border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.15); font-size: .9rem; }
+  .new-version[hidden] { display: none; }
+  .new-version span { flex: 1; }
+  .new-version button { min-height: 40px; border: 0; border-radius: 999px; font: inherit; cursor: pointer; }
+  .nv-reload { padding: 0 16px; background: var(--accent); color: var(--bg); font-weight: 600; }
+  .nv-close { width: 40px; background: transparent; color: var(--muted); font-size: 1.3rem; }
   .foot { max-width: 960px; margin: 32px auto; padding: 0 16px 32px; color: var(--muted); font-size: 0.8rem; }
   .muted { color: var(--muted); }
   .sci { font-style: italic; }
@@ -89,9 +158,9 @@ const path = Astro.url.pathname;
   @media (max-width: 480px) {
     .top-inner { flex-wrap: wrap; }
     main { padding: 12px 16px; }
-    /* five sections do not fit 390px: the nav scrolls sideways, the cut-off label at the fading edge hints at it */
+    /* six sections do not fit 390px: the nav scrolls sideways, the cut-off label at the fading edge hints at it */
     .top nav { gap: 10px; font-size: .9rem; flex: 1 0 100%; min-width: 0; overflow-x: auto; scrollbar-width: none;
-      margin: 0 -16px; padding: 0 16px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent);
+      margin: 0 -16px; padding: 0 40px 0 16px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent);
       mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); }
     .top nav::-webkit-scrollbar { display: none; }
     .top nav a { flex: none; }
