@@ -11,7 +11,7 @@ confusable:
     how: "Чайки и крачки часто машут гибкими изогнутыми крыльями, ныряют с зависания и сидят на пляже; буревестник скользит на жёстких крыльях и на берег не выходит"
   - family: hydrob1
     how: "Качурки гораздо мельче, с ласточку, порхают и петляют над самой водой"
-route_note: "Только для моря у Тумако (дни 20–21). С Плайя-дель-Морро изредка видны Sooty Shearwater и другие буревестники далеко над водой; Parkinson's Petrel, записанный в цели локации, реален лишь при выходе на лодке к банке Тумако."
+route_note: "Только для моря у Тумако (дни 20–21). В данных наблюдений по точкам маршрута буревестников нет, с Плайя-дель-Морро их можно разве что заметить далеко над водой; Parkinson's Petrel, записанный в цели этой локации, и Sooty Shearwater реальны лишь при выходе на лодке в открытое море."
 fact: "Чёрный буревестник (Parkinson's Petrel) гнездится только на двух островах у Новой Зеландии, а зимует в восточной части тропического Тихого океана, в том числе у берегов Колумбии."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Tube nostrils on top of a hooked bill"
     - "Dark or two-toned: dark above, pale below; as it banks it flashes back, then belly"
     - "Hardly ever seen from shore; stays far out and rafts on the water in flocks"
-  route_note: "Only for the sea off Tumaco (days 20–21). From Playa del Morro you may occasionally see Sooty Shearwater and other shearwaters far out; Parkinson's Petrel, listed as a site target, is realistic only on a boat trip to the Tumaco bank."
+  route_note: "Only for the sea off Tumaco (days 20–21). The observation data for the route sites hold no shearwaters or petrels, and from Playa del Morro you might at best spot one far out; Parkinson's Petrel, listed as a target for that site, and Sooty Shearwater are realistic only on a boat trip out to open sea."
   fact: "Parkinson's Petrel breeds on just two islands off New Zealand and winters in the eastern tropical Pacific, including off Colombia."
 ---
 Буревестниковые — большое семейство трубконосых морских птиц: буревестники, тайфунники и глупыши. В Колумбии отмечено 18 видов, и все они жители открытого моря, которые приходят к суше только на гнездовье, причём почти никто из них не гнездится в Колумбии. Главный признак, видный издалека, — полёт. Птица идёт на прямых, жёстких, узких крыльях, почти не взмахивая, и скользит над самыми гребнями волн, заваливаясь то на одно крыло, то на другое. Ноздри вынесены в трубочки на клюве: через них выводится лишняя соль, и ими птица чует добычу по запаху.

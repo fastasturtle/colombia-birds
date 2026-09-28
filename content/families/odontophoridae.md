@@ -1,23 +1,23 @@
 ---
 family: odonto1
 recognize:
-  - "Коренастая птица размером с голубя или крупнее, с коротким хвостом и толстым коротким клювом"
+  - "Коренастая птица размером с небольшого голубя (лесные перепела 23–29 см), с коротким хвостом и толстым коротким клювом"
   - "Лесные перепела (Odontophorus) с небольшим хохолком и голым кольцом кожи вокруг глаза"
   - "Ходят по лесной подстилке группой из нескольких птиц, при тревоге разбегаются, а не взлетают"
   - "Громкий ритмичный дуэт или хор на рассвете, часто единственный признак присутствия"
 confusable:
   - family: tinami1
-    how: "Тинаму крупнее, с тонкой шеей и маленькой головой без хохла, держатся поодиночке и поют протяжными свистами"
-route_note: "Два целевых вида, оба больше на слух: эндемичный Chestnut Wood-Quail в Эль-Энканто и Ла-Дримофиле (дни 2–4) и уязвимый Dark-backed Wood-Quail в Ла-Планаде и Рио-Ньямби (дни 15–17). В Исла-Эскондиде поёт Marbled Wood-Quail, ниже по склону Чоко — Rufous-fronted Wood-Quail."
-fact: "Пара лесных перепелов поёт дуэтом так слаженно, что кажется, будто кричит одна птица."
+    how: "Тинаму с тонкой шеей и маленькой головой без хохла, держатся поодиночке и поют протяжными свистами"
+route_note: "Два целевых вида, оба больше на слух: эндемичный Chestnut Wood-Quail в Эль-Энканто и Ла-Дримофиле (дни 2–4) и уязвимый в Колумбии Dark-backed Wood-Quail в Ла-Планаде, на Рио-Ньямби и у Авес-и-Флорес (дни 15–17). В Исла-Эскондиде возможен Marbled Wood-Quail, ниже по склону Чоко (Авес-и-Флорес, Бангсиас, Рио-Ньямби) — Rufous-fronted Wood-Quail."
+fact: "Пара лесных перепелов поёт дуэтом, чередуя слоги так слаженно, что со стороны его легко принять за песню одной птицы."
 en:
   recognize:
-    - "A stocky bird, pigeon-sized or larger, with a short tail and a thick short bill"
+    - "A stocky bird the size of a small pigeon (wood-quail 23–29 cm), with a short tail and a thick short bill"
     - "Wood-quail (Odontophorus) have a small crest and a ring of bare skin round the eye"
     - "Walk the forest floor in small groups; when alarmed they run rather than fly"
     - "A loud rhythmic duet or chorus at dawn is often the only sign they are there"
-  route_note: "Two target species, both mostly heard: the endemic Chestnut Wood-Quail at El Encanto and La Drymophila (days 2–4) and the vulnerable Dark-backed Wood-Quail at La Planada and Río Ñambí (days 15–17). Marbled Wood-Quail sings at Isla Escondida, and Rufous-fronted Wood-Quail lower on the Chocó slope."
-  fact: "A pair of wood-quail duets so precisely that it sounds like a single bird calling."
+  route_note: "Two target species, both mostly heard: the endemic Chestnut Wood-Quail at El Encanto and La Drymophila (days 2–4) and Dark-backed Wood-Quail, Vulnerable in Colombia, at La Planada, Río Ñambí and Aves y Flórez (days 15–17). Marbled Wood-Quail is possible at Isla Escondida, and Rufous-fronted Wood-Quail lower on the Chocó slope (Aves y Flórez, Bangsias, Río Ñambí)."
+  fact: "A wood-quail pair duets by alternating syllables so tightly that it is easily taken for the song of a single bird."
 ---
 Зубчатоклювые куропатки (у бёрдеров просто «лесные перепела», wood-quail) — американские родственники куропаток и перепелов. В Колумбии 10 видов, но на маршруте нас интересуют лесные перепела рода Odontophorus: коренастые бурые птицы с коротким хвостом, хохолком и голым кольцом вокруг глаза. Они живут семейными группами в подлеске, ходят по земле, разгребают подстилку в поисках семян и насекомых и почти никогда не показываются на открытом месте.
 

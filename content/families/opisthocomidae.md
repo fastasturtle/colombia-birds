@@ -8,7 +8,7 @@ recognize:
 confusable:
   - family: cracid2
     how: "Пенелопы и гуаны тёмные, без хохла-ирокеза, с красным горлом, и держатся в лесу, а не над водой"
-route_note: "Один вид, и один из самых надёжных на маршруте: Hoatzin группами сидит в зарослях по берегам Путумайо у Плайя-Рики (день 10), куда плывём на лодке от Пуэрто-Асиса. Ищи шевеление в кустах над водой и слушай шипение; там же в прибрежной траве сидит Black-capped Donacobius."
+route_note: "Один вид, и один из самых надёжных на маршруте: Hoatzin группами сидит в зарослях по берегам Путумайо у Плайя-Рики (день 10), куда плывём на лодке от Пуэрто-Асиса. Ищи шевеление в кустах над водой и слушай шипение; там же в прибрежной траве возможен Black-capped Donacobius. Гоацин отмечен и у Пуэрто-Асиса."
 fact: "У птенцов гоацина на крыльях есть когти: при опасности птенец прыгает в воду, а потом карабкается обратно на ветку, цепляясь крыльями."
 en:
   recognize:
@@ -16,7 +16,7 @@ en:
     - "Sits in groups in shrubs and trees over water, clambers clumsily and flaps heavily"
     - "Hisses, wheezes and grunts as a boat approaches"
     - "Long dark tail with a pale tip, chestnut flight feathers"
-  route_note: "A single species and one of the most reliable birds of the route: Hoatzin sits in groups in the vegetation along the Putumayo at Playa Rica (day 10), reached by boat from Puerto Asís. Look for movement in the bushes over the water and listen for hissing; Black-capped Donacobius sits in the waterside grass nearby."
+  route_note: "A single species and one of the most reliable birds of the route: Hoatzin sits in groups in the vegetation along the Putumayo at Playa Rica (day 10), reached by boat from Puerto Asís. Look for movement in the bushes over the water and listen for hissing; Black-capped Donacobius is possible in the waterside grass nearby. Hoatzin is also recorded around Puerto Asís."
   fact: "Hoatzin chicks have claws on their wings: when threatened a chick drops into the water and later climbs back to its branch, gripping with its wings."
 ---
 Гоациновые — семейство из одного вида, Hoatzin, и одна из самых странных птиц Южной Америки. Родственные связи гоацина до сих пор спорны: это древняя ветвь без близкой родни среди современных птиц. Гоацин почти целиком питается листьями, которые переваривает с помощью бактерий в огромном зобе, как корова в рубце. Из-за брожения от птицы пахнет навозом, за что местные и англоязычные бёрдеры называют её вонючкой.

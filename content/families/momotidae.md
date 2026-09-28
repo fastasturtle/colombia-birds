@@ -11,7 +11,7 @@ confusable:
     how: "Трогоны сидят вертикально, хвост без ракеток и не качается, клюв короткий, брюхо красное или жёлтое"
   - family: alcedi1
     how: "Зимородки держатся у воды, у них короткий хвост и большой прямой клюв-кинжал"
-route_note: "Rufous Motmot — цель Рио-Ньямби (день 17), он же вместе с Broad-billed Motmot обычен у Авес-и-Флорес и Бангсиас-лоджа (дни 16–18). Andean Motmot ищем в Эль-Энканто, Ла-Дримофиле (дни 2–4) и Сибундое (день 13), Amazonian Motmot — в низинах Исла-Эскондиды и Эль-Эскондите."
+route_note: "Rufous Motmot — цель Рио-Ньямби (день 17), возможен и у Авес-и-Флорес, Бангсиас-лоджа и Ла-Нутрии (дни 16–19); Broad-billed Motmot на Рио-Ньямби, у Авес-и-Флорес и Бангсиаса обычен. Andean Motmot возможен на Трамплине и в долине Сибундой (день 13)."
 fact: "Момот качает хвостом, заметив хищника, и этим сообщает ему: «я тебя вижу, гнаться бесполезно»."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Green and rufous plumage, a black mask through the eye and a black spot on the breast"
     - "A stout, slightly curved bill with serrated edges"
     - "Sits still in the shady understory; at dawn gives a hollow 'hoo-doo'"
-  route_note: "Rufous Motmot is a target at Río Ñambí (day 17), and it is common, together with Broad-billed Motmot, around Aves y Flórez and Bangsias Lodge (days 16–18). We look for Andean Motmot at El Encanto, La Drymophila (days 2–4) and Sibundoy (day 13), and for Amazonian Motmot in the lowlands of Isla Escondida and El Escondite."
+  route_note: "Rufous Motmot is a target at Río Ñambí (day 17) and is also possible around Aves y Flórez, Bangsias Lodge and La Nutria (days 16–19); Broad-billed Motmot is common at Río Ñambí, Aves y Flórez and Bangsias. Andean Motmot is possible at Trampolín and in the Sibundoy Valley (day 13)."
   fact: "A motmot wags its tail when it spots a predator, telling it 'I have seen you, chasing me is pointless'."
 ---
 Момотовые — небольшое неотропическое семейство (в Колумбии шесть видов) родственников зимородков и щурок. Это птицы размером с дрозда или голубя с длинным хвостом, окрашенные в зелёные, бирюзовые и рыжие тона, с чёрной маской и крепким клювом. У большинства видов на конце хвоста «ракетки»: два центральных пера с голыми стержнями и опахалом на кончике. Опахало в этом месте держится слабо и осыпается само при чистке и трении, так что голые стержни — результат износа.

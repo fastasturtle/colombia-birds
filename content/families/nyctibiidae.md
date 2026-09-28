@@ -10,7 +10,7 @@ confusable:
     how: "Козодои мельче и днём лежат на земле или вдоль ветки, а не сидят столбиком"
   - family: strigi1
     how: "У сов лицевой диск, крючковатый клюв и глаза, смотрящие вперёд"
-route_note: "Great Potoo — целевой вид Эль-Эскондите (дни 11–12), но реальнее всего в низинах у Пуэрто-Асиса и на Плайя-Рике, где гиды знают дневные присады. Common Potoo возможен ночью в Исла-Эскондиде и на склоне Чоко у Авес-и-Флорес."
+route_note: "Great Potoo — целевой вид Эль-Эскондите (дни 11–12), но в данных наблюдений по точкам маршрута он не значится даже как возможный: без гида, знающего дневную присаду, шансы малы. Common Potoo возможен ночью в Исла-Эскондиде, Орито (дни 5–9) и Ла-Нутрии (день 19)."
 fact: "В верхнем веке уратао есть узкие щели, и птица видит, даже когда кажется, что глаза закрыты."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Big flat head, huge eyes, tiny bill and an enormous gape"
     - "Motionless by day, eyes half-closed and head stretched upwards"
     - "Voice at night: a hoarse roar from Great Potoo, a mournful descending scale from Common Potoo"
-  route_note: "Great Potoo is a target at El Escondite (days 11–12), but the best odds are in the lowlands around Puerto Asís and Playa Rica, where guides know day roosts. Common Potoo is possible at night at Isla Escondida and on the Chocó slope near Aves y Florez."
+  route_note: "Great Potoo is a target at El Escondite (days 11–12), but the observation data for the route sites do not list it even as possible: without a guide who knows a day roost the odds are low. Common Potoo is possible at night at Isla Escondida, Orito (days 5–9) and La Nutria (day 19)."
   fact: "A potoo's upper eyelid has narrow slits, so it can see even when its eyes appear closed."
 ---
 Исполинские козодои (уратао) — маленькое неотропическое семейство ночных птиц, в Колумбии 6 видов. Днём уратао сидит на верхушке сухого пня или обломанного сука, вытянув тело и голову вверх, и превращается в продолжение дерева. Эта маскировка настолько хороша, что птицу, сидящую на виду в двадцати метрах, можно не заметить часами. Ночью уратао вылетает с присады за крупными насекомыми и возвращается на то же место.
