@@ -3,7 +3,7 @@ family: hydrob1
 recognize:
   - "Маленькая (15–20 см) тёмная морская птица размером с ласточку, у многих видов белое надхвостье"
   - "Летит низко над волнами порхающим, «летучемышиным» полётом, резко меняя курс"
-  - "Кормится на лету: зависает над водой и словно шагает лапками по поверхности"
+  - "Кормится на лету: склёвывает корм с поверхности, иногда зависая и касаясь воды лапками"
   - "Трубчатые ноздри на крючковатом клювике видны только на хорошем фото"
   - "С берега почти не видна: держится в открытом море, к суше подлетает только к гнёздам"
 confusable:
@@ -11,16 +11,16 @@ confusable:
     how: "Южные качурки (например Elliot's Storm-Petrel) с короткими широкими крыльями, их лапы в полёте торчат за хвост, а по воде они «прыгают» чаще"
   - family: procel3
     how: "Буревестники крупнее, летят на прямых жёстких крыльях, плавно скользя и заваливаясь с боку на бок, а не порхают"
-route_note: "Только тихоокеанский берег у Тумако (дни 20–21). С пляжа Плайя-дель-Морро качурок почти не видно: Wedge-rumped Storm-Petrel и более редкая Band-rumped Storm-Petrel реальны лишь при выходе на лодке в море к банке Тумако, если его удастся организовать."
+route_note: "Только тихоокеанский берег у Тумако (дни 19–21). С пляжа Плайя-дель-Морро качурок почти не видно: Wedge-rumped Storm-Petrel, мигрант с юга, реальна лишь при выходе на лодке в открытое море, если его удастся организовать."
 fact: "Галапагосская качурка, в отличие от большинства родственников, прилетает к своим колониям на Галапагосах днём, а не под покровом ночи."
 en:
   recognize:
     - "A small (15–20 cm), swallow-sized dark seabird, many species with a white rump"
     - "Flies low over the waves with a fluttering, bat-like flight and sudden changes of direction"
-    - "Feeds on the wing: hovers over the water and seems to walk on the surface with its feet"
+    - "Feeds on the wing: picks food from the surface, sometimes hovering and touching the water with its feet"
     - "Tube nostrils on the small hooked bill are visible only in a good photo"
     - "Hardly ever seen from shore: lives far out at sea and comes to land only to nest"
-  route_note: "Only on the Pacific coast near Tumaco (days 20–21). From the beach at Playa del Morro storm-petrels are rarely seen: Wedge-rumped Storm-Petrel and the scarcer Band-rumped Storm-Petrel are realistic only on a boat trip out to the Tumaco bank, if one can be arranged."
+  route_note: "Only on the Pacific coast near Tumaco (days 19–21). From the beach at Playa del Morro storm-petrels are rarely seen: Wedge-rumped Storm-Petrel, a migrant from the south, is realistic only on a boat trip out to open sea, if one can be arranged."
   fact: "Unlike most of its relatives, the Wedge-rumped Storm-Petrel visits its Galápagos colonies by day rather than under cover of darkness."
 ---
 Качурки — самые маленькие морские птицы из отряда трубконосых, родня буревестников и альбатросов. Это тёмные, почти чёрные птички с ласточку, которые проводят всю жизнь над открытым океаном и выходят на сушу только на гнездовье, обычно на удалённых островах. Узнать качурку можно по манере полёта: низко над водой, порхая и петляя, иногда зависая и касаясь поверхности лапками, будто птица идёт по волнам. Корм — мелкие рачки, рыбья молодь и жир на поверхности, который они находят по запаху.
