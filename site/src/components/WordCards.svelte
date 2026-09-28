@@ -4,9 +4,13 @@
    * (see pages/words/index.astro), read on mount, so the shuffle never meets server-rendered markup.
    * The deck is shuffled on load and on «Заново»; each card shows English or Russian first at random.
    * Tap / Enter / Space flips the card, «Дальше», a left swipe or → goes to the next one.
+   * Under the card, up to three example species (thumb + English name, links to the species page) appear once the card
+   * is flipped; the row grows open under the card (and collapses when it turns back), and images are only requested after the first flip of a card.
    */
   import { onMount } from 'svelte';
-  interface Word { en: string; ru: string; note: string | null; ex: { id: string; en: string }[] }
+  interface Word { en: string; ru: string; note: string | null; ex: { id: string; en: string; ph: string | null }[] }
+  /** Media base with a trailing slash (mediaUrl('') on the page); a photo URL is media + ph. */
+  let { media }: { media: string } = $props();
 
   const base = import.meta.env.BASE_URL;
   let words = $state<Word[]>([]);
@@ -15,6 +19,8 @@
   let pos = $state(0);
   let flipped = $state(false);
   let instant = $state(false);
+  /** This card has been flipped at least once: its example photos may load. */
+  let seen = $state(false);
 
   let done = $derived(words.length > 0 && pos >= order.length);
   let w = $derived(!done && order.length ? words[order[pos]] : null);
@@ -37,6 +43,7 @@
   function unflip() {
     instant = true;
     flipped = false;
+    seen = false;
     requestAnimationFrame(() => requestAnimationFrame(() => (instant = false)));
   }
 
@@ -65,6 +72,7 @@
   function click() {
     if (swiped) { swiped = false; return; }
     flipped = !flipped;
+    if (flipped) seen = true;
   }
   function key(e: KeyboardEvent) {
     if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
@@ -111,10 +119,21 @@
         </span>
       </button>
       {#if w && w.ex.length}
-        <p class="ex" class:shown={flipped} aria-hidden={!flipped}>
-          <span class="muted">Например:</span>
-          {#each w.ex as s, i (s.id)}<a href={`${base}species/${s.id}/`} lang="en" tabindex={flipped ? 0 : -1}>{s.en}</a>{i < w.ex.length - 1 ? ', ' : ''}{/each}
-        </p>
+        <div class="ex" class:shown={flipped} class:instant aria-hidden={!flipped}>
+          <div class="exin">
+            <p class="exh muted">Например:</p>
+            <ul>
+              {#each w.ex as s (s.id)}
+                <li>
+                  <a href={`${base}species/${s.id}/`} tabindex={flipped ? 0 : -1}>
+                    {#if s.ph && seen}<img src={media + s.ph} alt="" loading="lazy" decoding="async" />{:else}<span class="ph">{s.ph ? '' : '🐦'}</span>{/if}
+                    <span class="nm" lang="en">{s.en}</span>
+                  </a>
+                </li>
+              {/each}
+            </ul>
+          </div>
+        </div>
       {/if}
     </div>
     <div class="bar">
@@ -126,7 +145,7 @@
 
 <style>
   .deck { max-width: 480px; margin: 12px auto 8px; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 2px 10px rgb(0 0 0 / .06); overflow: hidden; }
+  .card { padding: 0; background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 2px 10px rgb(0 0 0 / .06); overflow: hidden; }
   .flip {
     display: block; width: 100%; height: 240px; padding: 0; border: 0; background: none; color: inherit; font: inherit;
     cursor: pointer; perspective: 900px; -webkit-tap-highlight-color: transparent; touch-action: pan-y; user-select: none; -webkit-user-select: none;
@@ -150,9 +169,20 @@
   .hint { position: absolute; bottom: 12px; left: 0; right: 0; font-size: .78rem; color: var(--muted); }
   .small { font-size: .95rem; color: var(--muted); }
   .note { font-size: .92rem; line-height: 1.35; max-width: 34ch; }
-  .ex { margin: 0; padding: 10px 14px 12px; border-top: 1px solid var(--line); font-size: .88rem; line-height: 1.45; visibility: hidden; opacity: 0; transition: opacity .2s; }
-  .ex.shown { visibility: visible; opacity: 1; }
-  .ex a { white-space: nowrap; }
+  .ex { display: grid; grid-template-rows: 0fr; visibility: hidden; opacity: 0; transition: grid-template-rows .3s ease, opacity .25s ease, visibility .3s; }
+  .ex.shown { grid-template-rows: 1fr; visibility: visible; opacity: 1; }
+  .ex.instant { transition: none; }
+  @media (prefers-reduced-motion: reduce) { .ex { transition: none; } }
+  .exin { min-height: 0; overflow: hidden; border-top: 1px solid var(--line); }
+  .exh { margin: 0 0 8px; padding: 10px 14px 0; font-size: .82rem; }
+  .ex ul { list-style: none; margin: 0; padding: 0 14px 12px; display: flex; flex-wrap: wrap; gap: 12px 14px; }
+  .ex li { width: 88px; min-width: 0; }
+  .ex a { color: inherit; display: flex; flex-direction: column; gap: 4px; font-size: .75rem; line-height: 1.25; }
+  .ex a:hover { text-decoration: none; }
+  .ex a:hover .nm { text-decoration: underline; }
+  .ex img, .ex .ph { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; background: var(--chip); display: block; }
+  .ex .ph { display: grid; place-items: center; color: var(--muted); font-size: 1.6rem; }
+  .nm { font-weight: 600; overflow-wrap: break-word; hyphens: auto; }
   .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
   .count { color: var(--muted); font-variant-numeric: tabular-nums; }
   .btn { min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--fg); font: inherit; font-weight: 600; cursor: pointer; }
