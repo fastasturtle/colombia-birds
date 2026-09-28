@@ -16,5 +16,8 @@ export default defineConfig({
   base: BASE,
   trailingSlash: 'always',
   integrations: [svelte(), offline({ base: BASE, mediaBase: MEDIA_BASE, dataDir: join(process.cwd(), '..', 'data') })],
-  build: { format: 'directory' },
+  // With 'auto' Base.astro's ~3 KB global CSS is inlined into all 2 150 pages unless the ReportButton island pushes the
+  // chunk past the 4 KB limit, so builds with/without PUBLIC_REPORT_URL differed by 6 MB in the offline pack;
+  // 'never' keeps it one shared file and the pack 6 MB smaller.
+  build: { format: 'directory', inlineStylesheets: 'never' },
 });
