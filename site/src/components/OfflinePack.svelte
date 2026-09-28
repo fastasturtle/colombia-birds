@@ -20,6 +20,10 @@
    *
    * Test hook: `window.__OFFLINE_MANIFEST_URL__` (e.g. set by Playwright's addInitScript) or `?manifest=<path>`
    * (same origin only) replaces the real manifest with a small one; version.json is then ignored.
+   *
+   * While a download runs, <html data-cb-downloading="1"> is set and `cb:download-start` / `cb:download-end`
+   * are dispatched on document: the shell (Base.astro) then keeps the «Есть новая версия» toast (whose
+   * «Обновить» reloads the page and would abort the run) hidden until the run ends.
    */
   import { onMount } from 'svelte';
 
@@ -88,6 +92,14 @@
     try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* private mode / full */ }
   }
   function removeLS(k: string) { try { localStorage.removeItem(k); } catch { /* ignore */ } }
+
+  /** Tell the shell a download is (not) running; see the header comment. */
+  function markDownloading(on: boolean) {
+    const root = document.documentElement;
+    if (on === (root.dataset.cbDownloading === '1')) return;
+    if (on) root.dataset.cbDownloading = '1'; else delete root.dataset.cbDownloading;
+    document.dispatchEvent(new CustomEvent(on ? 'cb:download-start' : 'cb:download-end'));
+  }
 
   const nf = new Intl.NumberFormat('ru-RU');
   const mb = (b: number) => { const m = b / 1048576; return m >= 10 || m === 0 ? nf.format(Math.round(m)) : m.toFixed(1).replace('.', ','); };
@@ -183,72 +195,81 @@
     if (!m || running || navigator.onLine === false) return;
     running = true; stopped = false; quota = false; finished = false; deleted = false; confirmDelete = false;
     errors = 0; lastError = null;
-    try { persisted = (await navigator.storage?.persist?.()) ? 'да' : 'нет'; } catch { /* unsupported */ }
-    ac = new AbortController();
-    // keep the screen on while downloading (a locked phone suspends the page); best effort
-    let wake: { release(): Promise<void> } | null = null;
-    try { wake = await (navigator as unknown as { wakeLock?: { request(t: string): Promise<{ release(): Promise<void> }> } }).wakeLock?.request('screen') ?? null; } catch { /* unsupported or denied */ }
-    const signal = ac.signal;
-    const pagesCache = await caches.open(PAGES);
-    const mediaCache = await caches.open(MEDIA);
-    // keep a copy of the manifest so the status can be computed offline
-    await pagesCache.put(manifestUrl(), new Response(JSON.stringify(m), { headers: { 'Content-Type': 'application/json' } }));
-    await recompute();
-    const todo = missing.slice();
-    const versions = readLS<Record<string, string>>(K_VERSIONS) ?? {};
-    let next = 0, done = 0, hf = haveFiles, hb = haveBytes, errs = 0;
-    let last: { url: string; status: string } | null = null;
-    const flushProgress = () => {
-      haveFiles = hf; haveBytes = hb; errors = errs; lastError = last;
-      writeLS(K_VERSIONS, versions);
-    };
+    markDownloading(true);
+    try {
+      try { persisted = (await navigator.storage?.persist?.()) ? 'да' : 'нет'; } catch { /* unsupported */ }
+      ac = new AbortController();
+      // keep the screen on while downloading (a locked phone suspends the page); best effort
+      let wake: { release(): Promise<void> } | null = null;
+      try { wake = await (navigator as unknown as { wakeLock?: { request(t: string): Promise<{ release(): Promise<void> }> } }).wakeLock?.request('screen') ?? null; } catch { /* unsupported or denied */ }
+      const signal = ac.signal;
+      const pagesCache = await caches.open(PAGES);
+      const mediaCache = await caches.open(MEDIA);
+      // keep a copy of the manifest so the status can be computed offline
+      await pagesCache.put(manifestUrl(), new Response(JSON.stringify(m), { headers: { 'Content-Type': 'application/json' } }));
+      await recompute();
+      const todo = missing.slice();
+      const versions = readLS<Record<string, string>>(K_VERSIONS) ?? {};
+      let next = 0, done = 0, hf = haveFiles, hb = haveBytes, errs = 0;
+      let last: { url: string; status: string } | null = null;
+      const flushProgress = () => {
+        haveFiles = hf; haveBytes = hb; errors = errs; lastError = last;
+        writeLS(K_VERSIONS, versions);
+      };
 
-    /** fetch with RETRIES extra attempts on a network error (flaky mobile links, dropped connections) */
-    async function get(url: string, init: RequestInit): Promise<Response> {
-      for (let attempt = 0; ; attempt++) {
-        try { return await fetch(url, init); } catch (err) {
-          if (signal.aborted || attempt >= RETRIES || navigator.onLine === false) throw err;
-          await new Promise((r) => setTimeout(r, RETRY_MS * (attempt + 1)));
+      /** fetch with RETRIES extra attempts on a network error (flaky mobile links, dropped connections) */
+      async function get(url: string, init: RequestInit): Promise<Response> {
+        for (let attempt = 0; ; attempt++) {
+          try { return await fetch(url, init); } catch (err) {
+            if (signal.aborted || attempt >= RETRIES || navigator.onLine === false) throw err;
+            await new Promise((r) => setTimeout(r, RETRY_MS * (attempt + 1)));
+          }
         }
       }
-    }
 
-    async function one(e: Entry) {
-      const url = abs(e[0]);
-      const photo = isPhoto(e);
-      try {
-        // cache: 'no-cache' also tells the service worker to stay out of the way (see sw.template.js)
-        const res = await get(url, photo
-          ? { mode: 'cors', credentials: 'omit', cache: 'no-cache', signal }
-          : { cache: 'no-cache', signal });
-        if (res.status === 200) {
-          await (photo ? mediaCache : pagesCache).put(url, res);
-          if (!photo) versions[e[0]] = e[1];
-          hf++; hb += sizeOf(e, m!).size;
-        } else {
-          errs++; last = { url, status: String(res.status) };
+      async function one(e: Entry) {
+        const url = abs(e[0]);
+        const photo = isPhoto(e);
+        try {
+          // cache: 'no-cache' also tells the service worker to stay out of the way (see sw.template.js)
+          const res = await get(url, photo
+            ? { mode: 'cors', credentials: 'omit', cache: 'no-cache', signal }
+            : { cache: 'no-cache', signal });
+          if (res.status === 200) {
+            await (photo ? mediaCache : pagesCache).put(url, res);
+            if (!photo) versions[e[0]] = e[1];
+            hf++; hb += sizeOf(e, m!).size;
+          } else {
+            errs++; last = { url, status: String(res.status) };
+          }
+        } catch (err) {
+          const name = (err as Error).name || 'Error';
+          if (signal.aborted && name !== 'QuotaExceededError') return; // stopped (or stopping after a quota error)
+          if (name === 'QuotaExceededError') { quota = true; ac?.abort(); }
+          errs++; last = { url, status: name === 'TypeError' ? 'нет связи' : name };
         }
-      } catch (err) {
-        const name = (err as Error).name || 'Error';
-        if (signal.aborted && name !== 'QuotaExceededError') return; // stopped (or stopping after a quota error)
-        if (name === 'QuotaExceededError') { quota = true; ac?.abort(); }
-        errs++; last = { url, status: name === 'TypeError' ? 'нет связи' : name };
+        if (++done % PROGRESS_EVERY === 0) flushProgress();
       }
-      if (++done % PROGRESS_EVERY === 0) flushProgress();
-    }
 
-    async function worker() {
-      while (!signal.aborted && next < todo.length) await one(todo[next++]);
+      async function worker() {
+        while (!signal.aborted && next < todo.length) await one(todo[next++]);
+      }
+      await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+      flushProgress();
+      wake?.release().catch(() => {});
+      running = false;
+      stopped = signal.aborted && !quota;
+      ac = null;
+      await recompute();
+      if (!signal.aborted && errs === 0 && missing.length === 0) { await finalize(m); finished = true; }
+      refreshDiagnostics();
+    } finally {
+      running = false;
+      markDownloading(false);
     }
-    await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-    flushProgress();
-    wake?.release().catch(() => {});
-    running = false;
-    stopped = signal.aborted && !quota;
-    ac = null;
-    await recompute();
-    if (!signal.aborted && errs === 0 && missing.length === 0) { await finalize(m); finished = true; }
-    refreshDiagnostics();
+    // the site may have been redeployed during the run: check() then loads the newer manifest,
+    // which shows «Доступно обновление…» / «Обновить пакет»
+    if (online) await check();
   }
 
   /** After a complete run: drop cache entries the manifest no longer lists, remember the pack version. */
@@ -331,7 +352,7 @@
       check().then(refreshDiagnostics);
       navigator.serviceWorker.addEventListener('controllerchange', refreshDiagnostics);
     }
-    return () => { removeEventListener('online', on); removeEventListener('offline', off); ac?.abort(); };
+    return () => { removeEventListener('online', on); removeEventListener('offline', off); ac?.abort(); markDownloading(false); };
   });
 
   const pct = $derived(totalFiles ? Math.floor((haveFiles / totalFiles) * 1000) / 10 : 0);
