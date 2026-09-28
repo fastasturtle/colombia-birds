@@ -10,7 +10,7 @@ confusable:
     how: "Кассики и оропендолы тоже ходят шумными стаями, но клюв светлый, длинный и острый, в окраске жёлтое или красное, а не синее"
   - family: thraup2
     how: "Синие и горные танагры мельче, хвост короче, держатся в смешанных стаях, а не отдельными крикливыми группами"
-route_note: "Violaceous Jay — обычная шумная птица низин и предгорий Путумайо, от Исла-Эскондиды (дни 5–9) до Пуэрто-Асиса. Green Jay живёт в Эль-Энканто и Ла-Дримофиле (дни 2–4), Black-collared Jay — на Трамплине птиц и в Сибундое (дни 13–14). Beautiful Jay, эндемик региона Чоко, — цель Ла-Планады (дни 15–16) и склона до Ла-Нутрии."
+route_note: "Violaceous Jay — обычная шумная птица низин и предгорий Путумайо, от Исла-Эскондиды (дни 5–9) до Пуэрто-Асиса. Green Jay живёт в Эль-Энканто и Ла-Дримофиле (дни 2–4), Black-collared Jay — на Трамплине птиц и в Сибундое (дни 13–14). Beautiful Jay, эндемик региона Чоко, — редкая цель Ла-Планады (дни 15–16)."
 fact: "В Колумбии нет ни одной вороны или сороки: все семь видов врановых здесь — сойки."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Plenty of blue, from turquoise and azure to violet; many have a black mask, breast or collar"
     - "Travel in noisy groups, crossing a road or clearing one bird at a time"
     - "Loud, varied voices: rattling screams, clicks, ringing calls"
-  route_note: "Violaceous Jay is a common, noisy bird of the Putumayo lowlands and foothills, from Isla Escondida (days 5–9) to Puerto Asís. Green Jay lives at El Encanto and La Drymophila (days 2–4), Black-collared Jay at Trampolín de las Aves and Sibundoy (days 13–14). Beautiful Jay, a Chocó-region endemic, is a target at La Planada (days 15–16) and along the slope down to La Nutria."
+  route_note: "Violaceous Jay is a common, noisy bird of the Putumayo lowlands and foothills, from Isla Escondida (days 5–9) to Puerto Asís. Green Jay lives at El Encanto and La Drymophila (days 2–4), Black-collared Jay at Trampolín de las Aves and Sibundoy (days 13–14). Beautiful Jay, a Chocó-region endemic, is a scarce target at La Planada (days 15–16)."
   fact: "Colombia has no crows or magpies at all: all seven of its corvids are jays."
 ---
 Врановые в Колумбии — это только сойки: семь видов, и все яркие. Ворон и сорок здесь нет, их роль играют неотропические сойки двух родов. Cyanocorax — крупные и длиннохвостые, живут шумными семейными группами, вместе кормятся и вместе окрикивают хищников. Cyanolyca — сойки облачного леса, мельче и скрытнее, сине-бирюзовые с чёрной маской, держатся парами или присоединяются к смешанным стаям в кронах.
