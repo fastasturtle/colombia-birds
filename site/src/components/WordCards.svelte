@@ -1,34 +1,47 @@
 <script lang="ts">
   /**
-   * Flashcards for birder's English (/words/). Words come from the page's <script id="words-data"> JSON
+   * Flashcards for birder's English (/words/) as a study session. Words come from the page's <script id="words-data"> JSON
    * (see pages/words/index.astro), read on mount, so the shuffle never meets server-rendered markup.
-   * The deck is shuffled on load and on «Заново»; each card shows English or Russian first at random.
-   * Tap / Enter / Space flips the card, «Дальше», a left swipe or → goes to the next one.
+   * The deck is shuffled on load; each card shows English or Russian first at random. Tap / Enter / Space flips the card;
+   * once it has been flipped, «Правильно» / «Неправильно» record the answer and show the next card (→ on the flipped card
+   * focuses «Правильно», ← / → move between the two). The counter shows position and score; «Начать заново» reshuffles
+   * the whole deck and resets the score. At the end a summary offers «Повторить ошибки» (a new session of the cards
+   * answered «Неправильно») and «Начать заново». Nothing is stored: a reload starts a fresh session.
+   * On a card's first flip the page scrolls (only if needed) so the answer buttons are on screen.
    * Under the card, up to three example species (thumb + English name, links to the species page) appear once the card
    * is flipped; the row grows open under the card (and collapses when it turns back), and images are only requested after the first flip of a card.
    */
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
   interface Word { en: string; ru: string; note: string | null; ex: { id: string; en: string; ph: string | null }[] }
   /** Media base with a trailing slash (mediaUrl('') on the page); a photo URL is media + ph. */
   let { media }: { media: string } = $props();
 
   const base = import.meta.env.BASE_URL;
   let words = $state<Word[]>([]);
+  /** Word indices of the current session, in play order. */
   let order = $state<number[]>([]);
   let enFirst = $state<boolean[]>([]);
   let pos = $state(0);
+  let right = $state(0);
+  /** Word indices answered «Неправильно» in this session. */
+  let wrong = $state<number[]>([]);
   let flipped = $state(false);
   let instant = $state(false);
-  /** This card has been flipped at least once: its example photos may load. */
+  /** This card has been flipped at least once: it can be answered and its example photos may load. */
   let seen = $state(false);
+  let flipBtn = $state<HTMLButtonElement>();
+  let yesBtn = $state<HTMLButtonElement>();
+  let noBtn = $state<HTMLButtonElement>();
+  let answerRow = $state<HTMLDivElement>();
 
-  let done = $derived(words.length > 0 && pos >= order.length);
+  let done = $derived(order.length > 0 && pos >= order.length);
   let w = $derived(!done && order.length ? words[order[pos]] : null);
   let front = $derived(w ? (enFirst[pos] ? { text: w.en, lang: 'en' } : { text: w.ru, lang: 'ru' }) : null);
   let back = $derived(w ? (enFirst[pos] ? { text: w.ru, lang: 'ru' } : { text: w.en, lang: 'en' }) : null);
 
-  function shuffle() {
-    const a = words.map((_, i) => i);
+  /** New session over the given word indices, in random order, with a fresh score. */
+  function start(idx: number[]) {
+    const a = [...idx];
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [a[i], a[j]] = [a[j], a[i]];
@@ -36,8 +49,12 @@
     order = a;
     enFirst = a.map(() => Math.random() < 0.5);
     pos = 0;
+    right = 0;
+    wrong = [];
     unflip();
   }
+  const restart = () => start(words.map((_, i) => i));
+  const retry = () => start(wrong);
 
   /** Turn the card face up without animating, so the next word's back side never shows mid-turn. */
   function unflip() {
@@ -47,57 +64,64 @@
     requestAnimationFrame(() => requestAnimationFrame(() => (instant = false)));
   }
 
-  function next() {
-    if (done) return;
+  async function answer(ok: boolean) {
+    if (!w || !seen) return;
+    const kbd = document.activeElement === yesBtn || document.activeElement === noBtn;
+    if (ok) right += 1;
+    else wrong = [...wrong, order[pos]];
     pos += 1;
     unflip();
+    if (kbd) { await tick(); flipBtn?.focus(); }
   }
 
   onMount(() => {
     try { words = JSON.parse(document.getElementById('words-data')?.textContent || '[]'); } catch { words = []; }
-    shuffle();
+    restart();
   });
 
-  // Left swipe = next; the click that follows the swipe must not flip the card.
-  let x0: number | null = null;
-  let y0 = 0;
-  let swiped = false;
-  function down(e: PointerEvent) { x0 = e.clientX; y0 = e.clientY; swiped = false; }
-  function up(e: PointerEvent) {
-    if (x0 === null) return;
-    const dx = e.clientX - x0, dy = e.clientY - y0;
-    x0 = null;
-    if (dx < -50 && Math.abs(dx) > Math.abs(dy) * 1.5) { swiped = true; next(); }
-  }
-  function click() {
-    if (swiped) { swiped = false; return; }
+  /** First flip of a card: once the photos row has grown open, scroll just enough to bring the answer buttons into view. */
+  function flip() {
     flipped = !flipped;
-    if (flipped) seen = true;
+    if (!flipped || seen) return;
+    seen = true;
+    const card = pos;
+    setTimeout(() => {
+      if (pos !== card || !answerRow) return;
+      const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      answerRow.scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
+    }, 350);
   }
-  function key(e: KeyboardEvent) {
-    if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
+  function cardKey(e: KeyboardEvent) {
+    if (e.key === 'ArrowRight' && seen) { e.preventDefault(); yesBtn?.focus(); }
+  }
+  function answerKey(e: KeyboardEvent) {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      (e.currentTarget === yesBtn ? noBtn : yesBtn)?.focus();
+    }
   }
 </script>
 
 <div class="deck">
+  <div class="bar">
+    <span class="count">
+      {#if order.length}
+        {Math.min(pos + 1, order.length)} / {order.length} · <span class="ok">✓ {right}</span> · <span class="bad">✗ {wrong.length}</span>
+      {/if}
+    </span>
+    <button class="btn small" onclick={restart} disabled={!words.length}>Начать заново</button>
+  </div>
   {#if done}
     <div class="card end">
-      <p class="endmsg">Все {order.length} слов пройдены.</p>
-      <button class="btn primary" onclick={shuffle}>Заново</button>
+      <p class="endmsg">Готово: {right} из {order.length} правильно</p>
+      <div class="endbtns">
+        {#if wrong.length}<button class="btn primary" onclick={retry}>Повторить ошибки</button>{/if}
+        <button class="btn" onclick={restart}>Начать заново</button>
+      </div>
     </div>
   {:else}
     <div class="card">
-      <button
-        class="flip"
-        class:flipped
-        class:instant
-        disabled={!w}
-        onclick={click}
-        onpointerdown={down}
-        onpointerup={up}
-        onpointercancel={() => (x0 = null)}
-        onkeydown={key}
-      >
+      <button bind:this={flipBtn} class="flip" class:flipped class:instant disabled={!w} onclick={flip} onkeydown={cardKey}>
         <span class="inner">
           <span class="face" aria-hidden={flipped}>
             {#if front}
@@ -136,10 +160,12 @@
         </div>
       {/if}
     </div>
-    <div class="bar">
-      <span class="count">{order.length ? `${pos + 1} / ${order.length}` : ''}</span>
-      <button class="btn primary" onclick={next} disabled={!w}>Дальше</button>
-    </div>
+    {#if w && seen}
+      <div class="answer" bind:this={answerRow}>
+        <button bind:this={yesBtn} class="btn primary" onclick={() => answer(true)} onkeydown={answerKey}>Правильно</button>
+        <button bind:this={noBtn} class="btn" onclick={() => answer(false)} onkeydown={answerKey}>Неправильно</button>
+      </div>
+    {/if}
   {/if}
 </div>
 
@@ -148,7 +174,7 @@
   .card { padding: 0; background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 2px 10px rgb(0 0 0 / .06); overflow: hidden; }
   .flip {
     display: block; width: 100%; height: 240px; padding: 0; border: 0; background: none; color: inherit; font: inherit;
-    cursor: pointer; perspective: 900px; -webkit-tap-highlight-color: transparent; touch-action: pan-y; user-select: none; -webkit-user-select: none;
+    cursor: pointer; perspective: 900px; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none;
   }
   .flip:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; border-radius: 16px; }
   .inner {
@@ -183,12 +209,18 @@
   .ex img, .ex .ph { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; background: var(--chip); display: block; }
   .ex .ph { display: grid; place-items: center; color: var(--muted); font-size: 1.6rem; }
   .nm { font-weight: 600; overflow-wrap: break-word; hyphens: auto; }
-  .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
-  .count { color: var(--muted); font-variant-numeric: tabular-nums; }
-  .btn { min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--fg); font: inherit; font-weight: 600; cursor: pointer; }
-  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-  @media (prefers-color-scheme: dark) { .btn.primary { color: #10150f; } }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+  .count { color: var(--muted); font-variant-numeric: tabular-nums; font-size: .92rem; }
+  .ok { color: var(--accent); }
+  .bad { color: var(--accent-2); }
+  .btn { min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--fg); font: inherit; font-weight: 600; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+  .btn.small { padding: 0 14px; font-size: .88rem; font-weight: 500; color: var(--muted); flex-shrink: 0; }
   .btn:disabled { opacity: .5; cursor: default; }
-  .end { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; height: 240px; padding: 20px; }
-  .endmsg { margin: 0; font-size: 1.1rem; }
+  .answer { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; scroll-margin-bottom: 16px; }
+  .answer .btn { min-height: 52px; padding: 0 12px; }
+  .end { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; min-height: 240px; padding: 20px; text-align: center; }
+  .endmsg { margin: 0; font-size: 1.2rem; font-weight: 600; }
+  .endbtns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 </style>
