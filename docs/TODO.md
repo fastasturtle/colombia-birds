@@ -63,7 +63,10 @@
 ## Контент
 - [x] Портреты семейств: 57 семейств с видами маршрута (ru + en)
 - [x] Портреты 18 групп
-- [ ] `/fact-check content/families content/groups`: агенты сами пометили факты из памяти — размеры клюва Hook-billed Kite, появление Glossy Ibis в Америках в XIX в., «два вида» у Semnornithidae, аукцион имени Chocó Vireo, эпоним Пола Шварца, перелёт Blackpoll Warbler 2 500 км
+- [x] `/fact-check content/families content/groups` (28.09, все 75 файлов; логи docs/fact-check/portraits-2026-09-28-*.md)
+- [ ] Решить: считать ли в подсчётах семейств («N колумбийских видов») гипотетические и вымершие виды (сейчас включены); `target_species` в sites.json vs GBIF — портреты теперь говорят «цель по отчётам, шансы малы», данные не меняли; в data/groups.json blurb колибри «165» при 166 в индексе; /polish: «амазонеты» vs «пионы» в двух страницах попугаев; «Комароловки/пищуха» поправлены
+- [ ] piranga-flava: eBird/Clements для южноамериканских птиц — Tooth-billed Tanager *P. lutea*; проверить маппинг и переименовать
+- [ ] Кормушка «маловероятные» портретные цели: проверить гипотетический статус Little Woodstar (цель Río Ñambí): агенты сами пометили факты из памяти — размеры клюва Hook-billed Kite, появление Glossy Ibis в Америках в XIX в., «два вида» у Semnornithidae, аукцион имени Chocó Vireo, эпоним Пола Шварца, перелёт Blackpoll Warbler 2 500 км
 - [ ] Русские названия семейств без метки в Wikidata: Semnornithidae, Donacobiidae, Passerellidae и ещё 6 — принять варианты агентов или подобрать
 - [x] Карточки видов, партия 1 (27.09): 100 видов «точно» на маршруте, 88 фокусных, 4 агента (docs/fact-check/batch1-*.md — 110 флагов)
 - [x] `/fact-check content/species` партия 1: все 125 карточек проверены 27.09 (8 агентов, логи docs/fact-check/log-2026-09-27-*.md, ~2–3 мин/карточка)
