@@ -8,7 +8,7 @@ recognize:
 confusable:
   - family: charad1
     how: "Ржанки с коротким клювом и крупным глазом кормятся рывками: пробежка, остановка, клевок"
-route_note: "Единственный целевой вид — Noble Snipe, крупный андский бекас болот Ла-Флориды (свободный день в Боготе). Остальное — северные мигранты октября: Spotted Sandpiper на реках Путумайо и в Тумако, Willet, Sanderling и Ruddy Turnstone на пляже Плайя-дель-Морро (дни 20–21)."
+route_note: "Единственный целевой вид — Noble Snipe, крупный андский бекас болот Ла-Флориды (свободный день в Боготе); возможен и на Ла-Коче и Бордонсильо (день 14). Остальное — северные мигранты октября: Spotted Sandpiper на реках Путумайо и в Тумако, Hudsonian Whimbrel, Willet, Sanderling и Ruddy Turnstone на пляже Плайя-дель-Морро (дни 20–21)."
 fact: "Кончик клюва у бекаса гибкий и усажен чувствительными тельцами: птица нащупывает червя в иле и открывает только самый конец клюва."
 en:
   recognize:
@@ -16,7 +16,7 @@ en:
     - "Mostly grey-brown; autumn migrants are in drab winter plumage"
     - "Snipes, with a striped head and bill twice the head length, flush from underfoot in a zigzag"
     - "Spotted Sandpiper constantly bobs its rear and flies low over water on stiff, flickering wings"
-  route_note: "The only target is Noble Snipe, a large Andean snipe of the La Florida marshes (free day in Bogotá). The rest are northern migrants in October: Spotted Sandpiper on Putumayo rivers and at Tumaco, Willet, Sanderling and Ruddy Turnstone on the beach at Playa del Morro (days 20–21)."
+  route_note: "The only target is Noble Snipe, a large Andean snipe of the La Florida marshes (free day in Bogotá); also possible at La Cocha and Bordoncillo (day 14). The rest are northern migrants in October: Spotted Sandpiper on Putumayo rivers and at Tumaco, Hudsonian Whimbrel, Willet, Sanderling and Ruddy Turnstone on the beach at Playa del Morro (days 20–21)."
   fact: "A snipe's bill tip is flexible and packed with sensory receptors: the bird feels a worm in the mud and opens just the very tip of the bill."
 ---
 Бекасовые (у бёрдеров просто кулики) — большое семейство околоводных птиц, в Колумбии 36 видов. Почти все они гнездятся в Северной Америке и Арктике, а в Колумбию прилетают на зиму, так что в октябре их поток как раз в разгаре. Типичный кулик — птица с длинным клювом и длинными ногами, которая бегает по кромке воды или бродит по мелководью, зондируя ил. Местных гнездящихся видов мало, и главный из них для нас — Noble Snipe андских болот.
