@@ -13,9 +13,15 @@
 # How: a temporary index is loaded from the fresh remote tip, the paths the run changed relative to
 # BASE_SHA (modified, new, deleted) are staged into it from the working tree, and the resulting tree is
 # committed with the remote tip as parent. Nothing is rebased, so there are no conflicts with commits
-# pushed meanwhile (another queue, an earlier flush of this run); a file changed both by this run and
-# upstream takes this run's version. Files are read whole: pipeline writes are atomic (tmp + rename,
-# common.atomic_write), so a snapshot never contains a half-written file; *.tmp is gitignored.
+# pushed meanwhile (another queue, an earlier flush of this run). A file changed both by this run and
+# upstream takes this run's version, EXCEPT data/species/*.json and data/species_index.json: two runs
+# started from the same commit both rewrite them (build on the light queue, upload on the heavy one), and
+# taking the whole file once wiped the other run's photos / Wikipedia links (27.09.2026). For those,
+# ci_merge_json.py does a 3-way merge (base = BASE_SHA): the remote version plus the top-level keys
+# (species files) or per-`id` entry fields (index) this run changed; a key changed on both sides takes
+# this run's value. Files deleted by the run or unchanged upstream keep the default. Files are read
+# whole: pipeline writes are atomic (tmp + rename, common.atomic_write), so a snapshot never contains a
+# half-written file; *.tmp is gitignored.
 set -uo pipefail
 
 msg=${1:?commit message}
@@ -26,8 +32,8 @@ paths=(data docs/research/hotspots-check.md pipeline/mappings)
 cd "$(git rev-parse --show-toplevel)" || exit 1
 export GIT_AUTHOR_NAME=colombia-birds-bot GIT_AUTHOR_EMAIL=colombia-birds-bot@users.noreply.github.com
 export GIT_COMMITTER_NAME=$GIT_AUTHOR_NAME GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
-idx=$(mktemp); list=$(mktemp)
-trap 'rm -f "$idx" "$list"' EXIT
+idx=$(mktemp); list=$(mktemp); merged=$(mktemp)
+trap 'rm -f "$idx" "$list" "$merged"' EXIT
 
 for attempt in 1 2 3; do
   tree=
@@ -43,6 +49,8 @@ for attempt in 1 2 3; do
     fi
     GIT_INDEX_FILE=$idx git read-tree "$remote" &&
       GIT_INDEX_FILE=$idx git update-index --add --remove -z --stdin < "$list" &&
+      python3 pipeline/ci_merge_json.py "$base" "$remote" < "$list" > "$merged" &&
+      GIT_INDEX_FILE=$idx git update-index --index-info < "$merged" &&
       tree=$(GIT_INDEX_FILE=$idx git write-tree)
     if [ -n "${tree:-}" ]; then
       if [ "$tree" = "$(git rev-parse "$remote^{tree}")" ]; then

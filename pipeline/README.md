@@ -108,7 +108,14 @@ job 330), so long runs stop cleanly and the final commit always has time; re-dis
   writing there): it fetches the branch, loads its tip into a temporary index, stages the paths that
   differ from the start commit (modified, new, deleted), commits that tree on top of the remote tip and
   pushes, 3 attempts. No rebase, so no conflicts with commits pushed meanwhile (the light queue, the
-  owner, an earlier flush); a file changed by both keeps this run's version. Other touched files
+  owner, an earlier flush); a file changed by both keeps this run's version, except `data/species/*.json`
+  and `data/species_index.json`, which `ci_merge_json.py` (stdlib only) merges 3-way with `BASE_SHA` as
+  the base: the remote file plus the top-level keys (species) or per-`id` entry fields (index) this run
+  changed, this run winning on a key changed by both. Two runs started from the same commit rewrite those
+  files (light `build`, heavy `upload`); on 27.09.2026 whole-file commits wiped `photos` of 4 species and
+  the Wikipedia links / ids of 34. Files deleted by the run, new ones and ones unchanged upstream keep the
+  default. Tests: `uv run python tests/test_ci_merge_json.py` (incl. an end-to-end run of `ci_commit.sh`
+  against a temporary bare repo). Other touched files
   (`pipeline/uv.lock`, `site/`) are never committed. All pipeline writes are atomic (tmp + rename,
   `common.atomic_write` / `write_json` / `write_text`), so a snapshot never holds a half-written file;
   `*.tmp` is gitignored.
