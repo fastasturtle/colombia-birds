@@ -27,13 +27,13 @@
  "genus": "Ocreatus",
  "id": "ocreatus-peruanus",
  "ids": {
-  "avibase": null,
+  "avibase": "A0A70C2E841B5BE9",
   "birdbase": 3173,
   "gbif": 9449567,
-  "inaturalist": null,
+  "inaturalist": "718661",
   "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "wikidata": "Q30692891",
+  "xeno_canto": "Ocreatus-peruanus"
  },
  "iucn": {
   "aco_2022": null,
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ocreatus_peruanus",
   "ebird": "https://ebird.org/species/boorat2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/718661",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Peruvian_racket-tail",
+   "es": "https://es.wikipedia.org/wiki/Ocreatus_peruanus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Ocreatus+peruanus"
@@ -108,5 +108,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Peruvian%20Racket-tail%20JCB.jpg"
+ ]
 }

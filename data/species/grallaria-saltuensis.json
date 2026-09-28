@@ -31,26 +31,26 @@
  "genus": "Grallaria",
  "id": "grallaria-saltuensis",
  "ids": {
-  "avibase": null,
+  "avibase": "A8A394CF426E468F",
   "birdbase": 16568,
   "gbif": 10717908,
   "inaturalist": "718416",
-  "iucn": null,
-  "wikidata": "Q27617811",
+  "iucn": "103660400",
+  "wikidata": "Q31874235",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "NT",
-  "wikidata": null
+  "wikidata": "near threatened"
  },
  "links": {
   "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_rufula_saltuensis",
   "ebird": "https://ebird.org/species/rufant6",
   "inaturalist": "https://www.inaturalist.org/taxa/718416",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Perija_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_saltuensis",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+saltuensis"
@@ -95,5 +95,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 1
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20rufula%20saltuensis%20%2815014406554%29.jpg"
+ ]
 }

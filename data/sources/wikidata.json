@@ -3260,7 +3260,7 @@
     "es": "Atlapetes latinuchus",
     "ru": null
    },
-   "xeno_canto": "Atlapetes%20latinuchus"
+   "xeno_canto": "Atlapetes-latinuchus"
   },
   "atlapetes leucopis": {
    "avibase_id": null,
@@ -5250,30 +5250,32 @@
    "xeno_canto": "Buthraupis-montana"
   },
   "butorides striata": {
-   "avibase_id": null,
-   "commons_category": "Butorides striata striata",
-   "ebird_code": "strher2",
-   "gbif_key": "7190954",
+   "avibase_id": "67ADD2E32D0F64B7",
+   "commons_category": "Butorides striata",
+   "ebird_code": "strher",
+   "gbif_key": "2480824",
    "images": [
-    "http://commons.wikimedia.org/wiki/Special:FilePath/Butorides%20striata%20striata-PARNA%20do%20Igua%C3%A7u-JSBS2%28001%29.jpg"
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Butorides%20striata%20Garcita%20rayada%20Striated%20Heron%20%286549356697%29.jpg"
    ],
-   "inaturalist_id": "718074",
-   "iucn_id": null,
-   "iucn_status": null,
+   "inaturalist_id": "62528",
+   "iucn_id": "22728182",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Striated Heron",
     "es": null,
-    "ru": null
+    "ru": "Зелёная кваква"
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27604339",
-   "sci_wikidata": "Butorides striata striata",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q270722",
+   "sci_wikidata": "Butorides striata",
+   "subspecies_qid": "Q27604339",
+   "subspecies_sci": "Butorides striata striata",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Striated heron",
+    "es": "Butorides striata",
+    "ru": "Зелёная кваква"
    },
-   "xeno_canto": null
+   "xeno_canto": "Butorides-striata"
   },
   "butorides virescens": {
    "avibase_id": "86D45B8F04F61F0E",
@@ -9536,11 +9538,13 @@
    "xeno_canto": "Chlorothraupis-carmioli"
   },
   "chlorothraupis frenata": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "F455871D4691BC98",
+   "commons_category": "Chlorothraupis frenata",
    "ebird_code": "cartan2",
-   "gbif_key": "6172061",
-   "images": [],
+   "gbif_key": "6100780",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Carmiol%27s%20Tanager%20%28Chlorothraupis%20carmioli%29%20%289496887429%29.jpg"
+   ],
    "inaturalist_id": "718137",
    "iucn_id": null,
    "iucn_status": null,
@@ -9549,15 +9553,17 @@
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q55118554",
-   "sci_wikidata": "Chlorothraupis carmioli frenata",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q3125281",
+   "sci_wikidata": "Chlorothraupis frenata",
+   "subspecies_qid": "Q55118554",
+   "subspecies_sci": "Chlorothraupis carmioli frenata",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Yellow-lored tanager",
+    "es": "Chlorothraupis frenata",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Chlorothraupis-frenata"
   },
   "chlorothraupis olivacea": {
    "avibase_id": null,
@@ -10666,28 +10672,32 @@
    "xeno_canto": null
   },
   "cnemoscopus rubrirostris": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "gyhbut2",
-   "gbif_key": "6172137",
-   "images": [],
-   "inaturalist_id": "718204",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "F6B4F02BFD6843FE",
+   "commons_category": "Cnemoscopus rubrirostris",
+   "ebird_code": "gyhbut1",
+   "gbif_key": "2488759",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Cnemoscopus%20rubrirostris.jpg"
+   ],
+   "inaturalist_id": "10520",
+   "iucn_id": "103819177",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Grey-hooded Bush Tanager",
     "es": null,
-    "ru": null
+    "ru": "Красноклювая танагра"
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27637559",
-   "sci_wikidata": "Cnemoscopus rubrirostris rubrirostris",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q262449",
+   "sci_wikidata": "Cnemoscopus rubrirostris",
+   "subspecies_qid": "Q27637559",
+   "subspecies_sci": "Cnemoscopus rubrirostris rubrirostris",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Grey-hooded bush tanager",
+    "es": "Cnemoscopus rubrirostris",
+    "ru": "Красноклювая танагра"
    },
-   "xeno_canto": null
+   "xeno_canto": "Cnemoscopus-rubrirostris"
   },
   "cnemotriccus fuscatus": {
    "avibase_id": "4AB94B0019DD7276",
@@ -13867,8 +13877,8 @@
    "ebird_code": "chbwre2",
    "gbif_key": "8190242",
    "images": [
-    "http://commons.wikimedia.org/wiki/Special:FilePath/CyphorinusDichrousSmit.jpg",
-    "http://commons.wikimedia.org/wiki/Special:FilePath/Cyphorhinus%20thoracicus%20248733271.jpg"
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Cyphorhinus%20thoracicus%20248733271.jpg",
+    "http://commons.wikimedia.org/wiki/Special:FilePath/CyphorinusDichrousSmit.jpg"
    ],
    "inaturalist_id": "1585245",
    "iucn_id": "103889940",
@@ -13878,9 +13888,11 @@
     "es": null,
     "ru": null
    },
-   "matched_by": "sci_name",
+   "matched_by": "ebird_code_subspecies->species",
    "qid": "Q55112245",
    "sci_wikidata": "Cyphorhinus dichrous",
+   "subspecies_qid": "Q27629522",
+   "subspecies_sci": "Cyphorhinus thoracicus dichrous",
    "wikipedia": {
     "en": "Northern chestnut-breasted wren",
     "es": "Cyphorhinus dichrous",
@@ -15723,28 +15735,32 @@
    "xeno_canto": "Dryocopus-lineatus"
   },
   "dubusia taeniata": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "bubmot3",
-   "gbif_key": "7192238",
-   "images": [],
-   "inaturalist_id": "723041",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "13B9C70FF3F852B5",
+   "commons_category": "Dubusia taeniata",
+   "ebird_code": "bbmtan1",
+   "gbif_key": "2488325",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Buff-breastedMountain-Tanager.jpg"
+   ],
+   "inaturalist_id": "10468",
+   "iucn_id": "103843076",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Buff-breasted Mountain Tanager",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27637792",
-   "sci_wikidata": "Dubusia taeniata taeniata",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q430958",
+   "sci_wikidata": "Dubusia taeniata",
+   "subspecies_qid": "Q27637792",
+   "subspecies_sci": "Dubusia taeniata taeniata",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Buff-banded mountain tanager",
+    "es": "Dubusia taeniata",
+    "ru": "Дюбузия"
    },
-   "xeno_canto": null
+   "xeno_canto": "Dubusia-taeniata"
   },
   "dumetella carolinensis": {
    "avibase_id": "95B77F083F49835F",
@@ -17667,25 +17683,29 @@
    "xeno_canto": "Eurypyga-helias"
   },
   "euscarthmus fulviceps": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "DBE488CEA21B6A8F",
+   "commons_category": "Euscarthmus fulviceps",
    "ebird_code": "tacpyt2",
-   "gbif_key": "6174495",
-   "images": [],
-   "inaturalist_id": "718366",
-   "iucn_id": null,
-   "iucn_status": null,
+   "gbif_key": "8896866",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Euscarthmus%20fulviceps%201.jpg"
+   ],
+   "inaturalist_id": "1286937",
+   "iucn_id": "103681074",
+   "iucn_status": "least concern",
    "labels": {
     "en": null,
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27618206",
-   "sci_wikidata": "Euscarthmus meloryphus fulviceps",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q31874456",
+   "sci_wikidata": "Euscarthmus fulviceps",
+   "subspecies_qid": "Q27618206",
+   "subspecies_sci": "Euscarthmus meloryphus fulviceps",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Fulvous-faced scrub tyrant",
+    "es": "Euscarthmus fulviceps",
     "ru": null
    },
    "xeno_canto": null
@@ -18931,30 +18951,32 @@
    "xeno_canto": "Gallinago-nobilis"
   },
   "gallinago paraguaiae": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "soasni2",
-   "gbif_key": "6065994",
+   "avibase_id": "96681F6BAD3B57E2",
+   "commons_category": "Gallinago paraguaiae",
+   "ebird_code": "soasni1",
+   "gbif_key": "2481829",
    "images": [
     "http://commons.wikimedia.org/wiki/Special:FilePath/Gallinago%20paraguaiae.jpg"
    ],
-   "inaturalist_id": "718383",
-   "iucn_id": null,
-   "iucn_status": null,
+   "inaturalist_id": "3927",
+   "iucn_id": "216557760",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "South American Snipe",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q16570573",
-   "sci_wikidata": "Gallinago paraguaiae paraguaiae",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q1266081",
+   "sci_wikidata": "Gallinago paraguaiae",
+   "subspecies_qid": "Q16570573",
+   "subspecies_sci": "Gallinago paraguaiae paraguaiae",
    "wikipedia": {
-    "en": null,
-    "es": "Gallinago paraguaiae paraguaiae",
+    "en": "Pantanal snipe",
+    "es": "Gallinago paraguaiae",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Gallinago-paraguaiae"
   },
   "gallinago undulata": {
    "avibase_id": "CBB7DCF0C18BEF3B",
@@ -19096,8 +19118,8 @@
    "ebird_code": "masyel1",
    "gbif_key": "2489649",
    "images": [
-    "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20aequinoctialis%20Masked%20Yellowthroat%20%28female%29%3B%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg",
-    "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20aequinoctialis%20Masked%20Yellowthroat%20%28male%29%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil.jpg"
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20aequinoctialis%20Masked%20Yellowthroat%20%28male%29%3B%20Serra%20do%20Navio%2C%20Amap%C3%A1%2C%20Brazil.jpg",
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Geothlypis%20aequinoctialis%20Masked%20Yellowthroat%20%28female%29%3B%20Itaituba%2C%20Par%C3%A1%2C%20Brazil%20%28cropped%29.jpg"
    ],
    "inaturalist_id": "9739",
    "iucn_id": "103795554",
@@ -19717,25 +19739,29 @@
    "xeno_canto": "Grallaria-alleni"
   },
   "grallaria alticola": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "0416064D9F42A1B7",
+   "commons_category": "Grallaria alticola",
    "ebird_code": "tawant2",
-   "gbif_key": "6089172",
-   "images": [],
-   "inaturalist_id": null,
-   "iucn_id": null,
-   "iucn_status": null,
+   "gbif_key": "10797540",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Boyaca%20Antpitta%20imported%20from%20iNaturalist%20photo%20361077740%20on%2025%20July%202024.jpg"
+   ],
+   "inaturalist_id": "1507403",
+   "iucn_id": "103660427",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Boyaca antpitta",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27617820",
-   "sci_wikidata": "Grallaria quitensis alticola",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q31874408",
+   "sci_wikidata": "Grallaria alticola",
+   "subspecies_qid": "Q27617820",
+   "subspecies_sci": "Grallaria quitensis alticola",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Boyaca antpitta",
+    "es": "Grallaria alticola",
     "ru": null
    },
    "xeno_canto": null
@@ -20030,28 +20056,32 @@
    "xeno_canto": "Grallaria-nuchalis"
   },
   "grallaria quitensis": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "tawant3",
-   "gbif_key": "7340962",
-   "images": [],
-   "inaturalist_id": "718410",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "889C98A2D371584B",
+   "commons_category": "Grallaria quitensis",
+   "ebird_code": "tawant1",
+   "gbif_key": "2490542",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Tawny%20Antpitta.jpg"
+   ],
+   "inaturalist_id": "116904",
+   "iucn_id": "103660417",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Tawny Antpitta",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27617823",
-   "sci_wikidata": "Grallaria quitensis quitensis",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q942687",
+   "sci_wikidata": "Grallaria quitensis",
+   "subspecies_qid": "Q27617823",
+   "subspecies_sci": "Grallaria quitensis quitensis",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Tawny antpitta",
+    "es": "Grallaria quitensis",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Grallaria-quitensis"
   },
   "grallaria ruficapilla": {
    "avibase_id": "F46A4E196B6CC4F5",
@@ -20106,49 +20136,57 @@
    "xeno_canto": "Grallaria-rufocinerea"
   },
   "grallaria rufula": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "rufant7",
-   "gbif_key": "7340969",
-   "images": [],
-   "inaturalist_id": "718415",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "8E101A71",
+   "commons_category": "Grallaria rufula",
+   "ebird_code": "rufant1",
+   "gbif_key": "2490533",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20Antpitta%2C%20Tapichalaca%2C%20Ecuador%20%285746102588%29.jpg"
+   ],
+   "inaturalist_id": "116906",
+   "iucn_id": "103660383",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Muisca antpitta",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27617813",
-   "sci_wikidata": "Grallaria rufula rufula",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q945394",
+   "sci_wikidata": "Grallaria rufula",
+   "subspecies_qid": "Q27617813",
+   "subspecies_sci": "Grallaria rufula rufula",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Muisca antpitta",
+    "es": "Grallaria rufula",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Grallaria-rufula"
   },
   "grallaria saltuensis": {
-   "avibase_id": null,
+   "avibase_id": "A8A394CF426E468F",
    "commons_category": "Grallaria rufula saltuensis",
    "ebird_code": "rufant6",
-   "gbif_key": "6089233",
-   "images": [],
+   "gbif_key": "10717908",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20rufula%20saltuensis%20%2815014406554%29.jpg"
+   ],
    "inaturalist_id": "718416",
-   "iucn_id": null,
-   "iucn_status": null,
+   "iucn_id": "103660400",
+   "iucn_status": "near threatened",
    "labels": {
     "en": null,
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27617811",
-   "sci_wikidata": "Grallaria rufula saltuensis",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q31874235",
+   "sci_wikidata": "Grallaria saltuensis",
+   "subspecies_qid": "Q27617811",
+   "subspecies_sci": "Grallaria rufula saltuensis",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Perija antpitta",
+    "es": "Grallaria saltuensis",
     "ru": null
    },
    "xeno_canto": null
@@ -20180,28 +20218,32 @@
    "xeno_canto": "grallaria-saturata"
   },
   "grallaria spatiator": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "7F337E40F2948568",
+   "commons_category": "Grallaria spatiator",
    "ebird_code": "rufant5",
-   "gbif_key": "6089238",
-   "images": [],
-   "inaturalist_id": "718417",
+   "gbif_key": "11163929",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20spatiator%20Sierra%20Nevada%20Antipitta%3B%20Santa%20Marta%2C%20Colombia%20%28cropped%29.jpg"
+   ],
+   "inaturalist_id": "1286957",
    "iucn_id": null,
    "iucn_status": null,
    "labels": {
-    "en": null,
+    "en": "Sierra Nevada Antpitta",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27617810",
-   "sci_wikidata": "Grallaria rufula spatiator",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q98173986",
+   "sci_wikidata": "Grallaria spatiator",
+   "subspecies_qid": "Q27617810",
+   "subspecies_sci": "Grallaria rufula spatiator",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Sierra Nevada antpitta",
+    "es": "Grallaria spatiator",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "grallaria-spatiator"
   },
   "grallaria squamigera": {
    "avibase_id": "D9979344844C8801",
@@ -20412,28 +20454,33 @@
    "xeno_canto": "Grallaricula-nana"
   },
   "granatellus pelzelni": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "robcha2",
-   "gbif_key": "7191660",
-   "images": [],
-   "inaturalist_id": "718423",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "37E546A438F566F4",
+   "commons_category": "Granatellus pelzelni",
+   "ebird_code": "robcha1",
+   "gbif_key": "2489620",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Granatellus%20pelzelni%20-%20Rose-breasted%20Chat%20%28male%29%3B%20Parauapebas%2C%20Par%C3%A1%2C%20Brazil.jpg",
+    "http://commons.wikimedia.org/wiki/Special:FilePath/GranatellusPelzelniJennens.jpg"
+   ],
+   "inaturalist_id": "9627",
+   "iucn_id": "103804346",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Rose-breasted Chat",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27638682",
-   "sci_wikidata": "Granatellus pelzelni pelzelni",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q1588858",
+   "sci_wikidata": "Granatellus pelzelni",
+   "subspecies_qid": "Q27638682",
+   "subspecies_sci": "Granatellus pelzelni pelzelni",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Rose-breasted chat",
+    "es": "Granatellus pelzelni",
+    "ru": "Розовогрудая гранателла"
    },
-   "xeno_canto": null
+   "xeno_canto": "Granatellus-pelzelni"
   },
   "graydidascalus brachyurus": {
    "avibase_id": "44DA4D4E2BABF787",
@@ -29093,9 +29140,11 @@
     "es": null,
     "ru": null
    },
-   "matched_by": "sci_name",
+   "matched_by": "ebird_code_subspecies->species",
    "qid": "Q31874427",
    "sci_wikidata": "Myiopagis cinerea",
+   "subspecies_qid": "Q27618021",
+   "subspecies_sci": "Myiopagis caniceps cinerea",
    "wikipedia": {
     "en": "Amazonian elaenia",
     "es": "Myiopagis cinerea",
@@ -31663,28 +31712,32 @@
    "xeno_canto": "Oceanites-gracilis"
   },
   "ochthoeca cinnamomeiventris": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "slbcht2",
-   "gbif_key": "7192123",
-   "images": [],
-   "inaturalist_id": "718656",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "5E381EA46C01043E",
+   "commons_category": "Ochthoeca cinnamomeiventris",
+   "ebird_code": "sbctyr1",
+   "gbif_key": "2483152",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Slaty-backed%20Chat-Tyrant%20-%20South%20Ecuador%20S4E2448.jpg"
+   ],
+   "inaturalist_id": "16206",
+   "iucn_id": "103682781",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Slaty-backed Chat-Tyrant",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q40551684",
-   "sci_wikidata": "Ochthoeca cinnamomeiventris cinnamomeiventris",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q898022",
+   "sci_wikidata": "Ochthoeca cinnamomeiventris",
+   "subspecies_qid": "Q40551684",
+   "subspecies_sci": "Ochthoeca cinnamomeiventris cinnamomeiventris",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Slaty-backed chat-tyrant",
+    "es": "Ochthoeca cinnamomeiventris",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Ochthoeca-cinnamomeiventris"
   },
   "ochthoeca diadema": {
    "avibase_id": null,
@@ -31818,27 +31871,31 @@
   },
   "ocreatus peruanus": {
    "avibase_id": "A0A70C2E841B5BE9",
-   "commons_category": null,
+   "commons_category": "Ocreatus peruanus",
    "ebird_code": "boorat2",
-   "gbif_key": "6178928",
-   "images": [],
+   "gbif_key": "9449567",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Peruvian%20Racket-tail%20JCB.jpg"
+   ],
    "inaturalist_id": "718661",
    "iucn_id": null,
    "iucn_status": null,
    "labels": {
-    "en": null,
+    "en": "Peruvian racket-tail",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27612228",
-   "sci_wikidata": "Ocreatus underwoodii peruanus",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q30692891",
+   "sci_wikidata": "Ocreatus peruanus",
+   "subspecies_qid": "Q27612228",
+   "subspecies_sci": "Ocreatus underwoodii peruanus",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Peruvian racket-tail",
+    "es": "Ocreatus peruanus",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Ocreatus-peruanus"
   },
   "ocreatus underwoodii": {
    "avibase_id": "D3ECED637552A51F",
@@ -36799,28 +36856,32 @@
    "xeno_canto": "Pionus-tumultuosus"
   },
   "pipile cumanensis": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "A936BA7FB218EA68",
+   "commons_category": "Pipile cumanensis",
    "ebird_code": "butpig1",
-   "gbif_key": "6177873",
-   "images": [],
-   "inaturalist_id": "322342",
-   "iucn_id": null,
-   "iucn_status": null,
+   "gbif_key": "2482310",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Aburria%20cumanensis%2C%20Blue-throated%20Piping-guan%20%28cropped%29.jpg"
+   ],
+   "inaturalist_id": "2108",
+   "iucn_id": "22727323",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Blue-throated Piping Guan",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27601345",
-   "sci_wikidata": "Pipile cumanensis cumanensis",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q546348",
+   "sci_wikidata": "Pipile cumanensis",
+   "subspecies_qid": "Q27601345",
+   "subspecies_sci": "Pipile cumanensis cumanensis",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Blue-throated piping guan",
+    "es": "Pipile cumanensis",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Pipile-cumanensis"
   },
   "pipra filicauda": {
    "avibase_id": "3B5C0E159DDD7E67",
@@ -39810,28 +39871,32 @@
    "xeno_canto": "Pyrrhura-melanura"
   },
   "pyrrhura picta": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "paipar2",
-   "gbif_key": "7192680",
-   "images": [],
-   "inaturalist_id": "517806",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "6342A20B11ED8C15",
+   "commons_category": "Pyrrhura picta",
+   "ebird_code": "paipar1",
+   "gbif_key": "2479831",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhura%20picta%20-%20Painted%20parakeet%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+   ],
+   "inaturalist_id": "604305",
+   "iucn_id": "45422115",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Painted Parakeet",
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27615139",
-   "sci_wikidata": "Pyrrhura picta picta",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q1270389",
+   "sci_wikidata": "Pyrrhura picta",
+   "subspecies_qid": "Q27615139",
+   "subspecies_sci": "Pyrrhura picta picta",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Painted parakeet",
+    "es": "Pyrrhura picta",
     "ru": null
    },
-   "xeno_canto": null
+   "xeno_canto": "Pyrrhura-picta"
   },
   "pyrrhura viridicata": {
    "avibase_id": "2997FB71510FA401",
@@ -41578,7 +41643,7 @@
    "images": [
     "http://commons.wikimedia.org/wiki/Special:FilePath/Schistes%20geoffroyi%20%28Pico%20de%20cu%C3%B1a%29%20%2822653616465%29.jpg"
    ],
-   "inaturalist_id": "6304",
+   "inaturalist_id": "850877",
    "iucn_id": "22726816",
    "iucn_status": "least concern",
    "labels": {
@@ -44987,26 +45052,30 @@
    "xeno_canto": "Tangara-cyanicollis"
   },
   "stilpnia cyanoptera": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "2823F536B1EE999B",
+   "commons_category": "Stilpnia cyanoptera",
    "ebird_code": "bkhtan1",
-   "gbif_key": "7060638",
-   "images": [],
-   "inaturalist_id": "718985",
+   "gbif_key": null,
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Tangara%20cyanoptera%2C%20Minca%2C%20Santa%20Marta%2C%20Colombia%201.jpg"
+   ],
+   "inaturalist_id": "979975",
    "iucn_id": null,
-   "iucn_status": null,
+   "iucn_status": "near threatened",
    "labels": {
     "en": null,
     "es": null,
-    "ru": null
+    "ru": "Синекрылая танагра"
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27637962",
-   "sci_wikidata": "Tangara cyanoptera cyanoptera",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q1586689",
+   "sci_wikidata": "Stilpnia cyanoptera",
+   "subspecies_qid": "Q27637962",
+   "subspecies_sci": "Tangara cyanoptera cyanoptera",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Black-headed tanager",
+    "es": "Stilpnia cyanoptera",
+    "ru": "Синекрылая танагра"
    },
    "xeno_canto": null
   },
@@ -49635,25 +49704,29 @@
    "xeno_canto": "Turdus-albicollis"
   },
   "turdus arthuri": {
-   "avibase_id": null,
-   "commons_category": null,
+   "avibase_id": "F28463EA44A873B4",
+   "commons_category": "Turdus arthuri",
    "ebird_code": "bkbthr3",
-   "gbif_key": "6094106",
-   "images": [],
-   "inaturalist_id": null,
-   "iucn_id": null,
-   "iucn_status": null,
+   "gbif_key": "7765228",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20arthuri%20-%20The%20birds%20of%20British%20Guiana%201921.jpg"
+   ],
+   "inaturalist_id": "980030",
+   "iucn_id": "103891016",
+   "iucn_status": "least concern",
    "labels": {
     "en": null,
     "es": null,
     "ru": null
    },
-   "matched_by": "ebird_code",
-   "qid": "Q21355431",
-   "sci_wikidata": "Turdus ignobilis arthuri",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q55115394",
+   "sci_wikidata": "Turdus arthuri",
+   "subspecies_qid": "Q21355431",
+   "subspecies_sci": "Turdus ignobilis arthuri",
    "wikipedia": {
-    "en": null,
-    "es": null,
+    "en": "Campina thrush",
+    "es": "Turdus arthuri",
     "ru": null
    },
    "xeno_canto": null
@@ -50393,28 +50466,32 @@
    "xeno_canto": "Amazilia-franciae"
   },
   "urochroa bougueri": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "whthil2",
-   "gbif_key": "7060065",
-   "images": [],
-   "inaturalist_id": "567991",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "25A791F13394C4E4",
+   "commons_category": "Urochroa bougueri",
+   "ebird_code": "whthil1",
+   "gbif_key": "2476897",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Urochroa%20bougueri%20%28Colibr%C3%AD%20nag%C3%BCiblanco%29%20%2814144500332%29.jpg"
+   ],
+   "inaturalist_id": "850878",
+   "iucn_id": "22725814",
+   "iucn_status": "least concern",
    "labels": {
     "en": null,
-    "es": null,
-    "ru": null
+    "es": "colibrí nagüiblanco",
+    "ru": "белохвостый колибри"
    },
-   "matched_by": "ebird_code",
-   "qid": "Q27612024",
-   "sci_wikidata": "Urochroa bougueri bougueri",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q997349",
+   "sci_wikidata": "Urochroa bougueri",
+   "subspecies_qid": "Q27612024",
+   "subspecies_sci": "Urochroa bougueri bougueri",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Rufous-gaped hillstar",
+    "es": "Urochroa bougueri",
+    "ru": "Белохвостый колибри"
    },
-   "xeno_canto": null
+   "xeno_canto": "Urochroa-bougueri"
   },
   "urochroa leucura": {
    "avibase_id": "41B02B1C4605BC79",
@@ -50968,28 +51045,32 @@
    "xeno_canto": "Vireo-masteri"
   },
   "vireo olivaceus": {
-   "avibase_id": null,
-   "commons_category": null,
-   "ebird_code": "reevir1",
-   "gbif_key": "7341237",
-   "images": [],
-   "inaturalist_id": "634991",
-   "iucn_id": null,
-   "iucn_status": null,
+   "avibase_id": "7254F08DB80D349C",
+   "commons_category": "Vireo olivaceus",
+   "ebird_code": "reevir",
+   "gbif_key": "2487430",
+   "images": [
+    "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo%20olivaceus%20-Madison%20-Wisconsin%20-USA-8.jpg"
+   ],
+   "inaturalist_id": "17366",
+   "iucn_id": "155115462",
+   "iucn_status": "least concern",
    "labels": {
-    "en": null,
+    "en": "Red-eyed Vireo",
     "es": null,
-    "ru": null
+    "ru": "Красноглазый виреон"
    },
-   "matched_by": "ebird_code",
-   "qid": "Q22113242",
-   "sci_wikidata": "Vireo olivaceus olivaceus",
+   "matched_by": "ebird_code_subspecies->species",
+   "qid": "Q582976",
+   "sci_wikidata": "Vireo olivaceus",
+   "subspecies_qid": "Q22113242",
+   "subspecies_sci": "Vireo olivaceus olivaceus",
    "wikipedia": {
-    "en": null,
-    "es": null,
-    "ru": null
+    "en": "Red-eyed vireo",
+    "es": "Vireo olivaceus",
+    "ru": "Красноглазый виреон"
    },
-   "xeno_canto": null
+   "xeno_canto": "Vireo-olivaceus"
   },
   "vireo philadelphicus": {
    "avibase_id": "447A1BA516A43F9A",

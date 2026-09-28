@@ -27,36 +27,36 @@
  "genus": "Phacellodomus",
  "id": "phacellodomus-inornatus",
  "ids": {
-  "avibase": null,
+  "avibase": "C9C1588523AD462B",
   "birdbase": 15304,
   "gbif": 2485126,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "inaturalist": "1507582",
+  "iucn": "103672834",
+  "wikidata": "Q12265823",
+  "xeno_canto": "Phacellodomus-inornatus"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Phacellodomus_inornatus",
   "ebird": "https://ebird.org/species/ruftho3",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1507582",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Plain_thornbird",
+   "es": "https://es.wikipedia.org/wiki/Phacellodomus_inornatus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Phacellodomus+inornatus"
  },
- "name_ru_source": null,
+ "name_ru_source": "ioc",
  "names": {
   "en": "Plain Thornbird",
   "en_aco": "Rufous-fronted Thornbird",
   "es": "Espinero Liso",
-  "ru": null
+  "ru": "Одноцветный эспинеро"
  },
  "order": "Passeriformes",
  "photos": [
@@ -112,5 +112,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Plain%20Thornbird%20imported%20from%20iNaturalist%20photo%20346047177%20on%208%20August%202024.jpg"
+ ]
 }

@@ -27,39 +27,104 @@
  "genus": "Grallaria",
  "id": "grallaria-alticola",
  "ids": {
-  "avibase": null,
+  "avibase": "0416064D9F42A1B7",
   "birdbase": 16594,
   "gbif": 10797540,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": "Q27617820",
+  "inaturalist": "1507403",
+  "iucn": "103660427",
+  "wikidata": "Q31874408",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_alticola",
   "ebird": "https://ebird.org/species/tawant2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1507403",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Boyaca_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_alticola",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+alticola"
  },
- "name_ru_source": null,
+ "name_ru_source": "constructed",
  "names": {
   "en": "Boyaca Antpitta",
   "en_aco": null,
   "es": "Tororoí Leonado Norteño",
-  "ru": null
+  "ru": "Боякская питтовая муравьеловка"
  },
  "order": "Passeriformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "Ryan F. Mandelbaum",
+   "credit": "(c) Ryan F. Mandelbaum, some rights reserved (CC BY)",
+   "height": 1067,
+   "key_base": "photos/grallaria-alticola/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/grallaria-alticola/1-large.jpg",
+    "medium": "photos/grallaria-alticola/1-medium.jpg",
+    "thumb": "photos/grallaria-alticola/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/204296181",
+   "width": 1600
+  },
+  {
+   "author": "GERMAN LEONEL SARMIENTO CRUZ",
+   "credit": "(c) GERMAN LEONEL SARMIENTO CRUZ, some rights reserved (CC BY)",
+   "height": 1066,
+   "key_base": "photos/grallaria-alticola/2",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/grallaria-alticola/2-large.jpg",
+    "medium": "photos/grallaria-alticola/2-medium.jpg",
+    "thumb": "photos/grallaria-alticola/2-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/18736111",
+   "width": 1600
+  },
+  {
+   "author": "Ryan F. Mandelbaum",
+   "credit": "https://www.inaturalist.org/photos/361077740",
+   "height": 1068,
+   "key_base": "photos/grallaria-alticola/3",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "sizes": {
+    "large": "photos/grallaria-alticola/3-large.jpg",
+    "medium": "photos/grallaria-alticola/3-medium.jpg",
+    "thumb": "photos/grallaria-alticola/3-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Boyaca_Antpitta_imported_from_iNaturalist_photo_361077740_on_25_July_2024.jpg",
+   "width": 1600
+  },
+  {
+   "author": "Ariel Gallego",
+   "credit": "(c) Ariel Gallego, some rights reserved (CC BY)",
+   "height": 899,
+   "key_base": "photos/grallaria-alticola/4",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/grallaria-alticola/4-large.jpg",
+    "medium": "photos/grallaria-alticola/4-medium.jpg",
+    "thumb": "photos/grallaria-alticola/4-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/154179560",
+   "width": 1600
+  }
+ ],
  "sci_name": "Grallaria alticola",
  "sci_name_aco": null,
  "sounds": [],
@@ -95,5 +160,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 1
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Boyaca%20Antpitta%20imported%20from%20iNaturalist%20photo%20361077740%20on%2025%20July%202024.jpg"
+ ]
 }

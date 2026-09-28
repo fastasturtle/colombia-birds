@@ -51,15 +51,64 @@
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Rallus+aequatorialis"
  },
- "name_ru_source": null,
+ "name_ru_source": "ioc",
  "names": {
   "en": "Ecuadorian Rail",
   "en_aco": "Virginia Rail",
   "es": "Rascón Ecuatoriano",
-  "ru": null
+  "ru": "Эквадорский пастушок"
  },
  "order": "Gruiformes",
- "photos": [],
+ "photos": [
+  {
+   "author": "sandy-espinozaf",
+   "credit": "(c) sandy-espinozaf, some rights reserved (CC BY)",
+   "height": 1200,
+   "key_base": "photos/rallus-aequatorialis/1",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/rallus-aequatorialis/1-large.jpg",
+    "medium": "photos/rallus-aequatorialis/1-medium.jpg",
+    "thumb": "photos/rallus-aequatorialis/1-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/31677774",
+   "width": 1600
+  },
+  {
+   "author": "Esteban Poveda",
+   "credit": "(c) Esteban Poveda, some rights reserved (CC BY)",
+   "height": 1200,
+   "key_base": "photos/rallus-aequatorialis/2",
+   "kind": "photo",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "sizes": {
+    "large": "photos/rallus-aequatorialis/2-large.jpg",
+    "medium": "photos/rallus-aequatorialis/2-medium.jpg",
+    "thumb": "photos/rallus-aequatorialis/2-thumb.jpg"
+   },
+   "source_url": "https://www.inaturalist.org/observations/200943182",
+   "width": 1600
+  },
+  {
+   "author": "John Gerrard Keulemans",
+   "credit": "Catalogue of the birds in the British Museum (Vol. 23 Plate II)",
+   "height": 1123,
+   "key_base": "photos/rallus-aequatorialis/3",
+   "kind": "illustration",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "sizes": {
+    "large": "photos/rallus-aequatorialis/3-large.jpg",
+    "medium": "photos/rallus-aequatorialis/3-medium.jpg",
+    "thumb": "photos/rallus-aequatorialis/3-thumb.jpg"
+   },
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rallus_aequatorialis_Keulemans.jpg",
+   "width": 1600
+  }
+ ],
  "sci_name": "Rallus aequatorialis",
  "sci_name_aco": "Rallus limicola",
  "sounds": [],

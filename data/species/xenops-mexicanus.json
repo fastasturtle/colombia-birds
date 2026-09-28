@@ -27,12 +27,12 @@
  "genus": "Xenops",
  "id": "xenops-mexicanus",
  "ids": {
-  "avibase": null,
+  "avibase": "D6CF3A319F429E4F",
   "birdbase": 14904,
   "gbif": null,
-  "inaturalist": null,
+  "inaturalist": "1586803",
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q41027426",
   "xeno_canto": null
  },
  "iucn": {
@@ -41,12 +41,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Xenops_mexicanus",
   "ebird": "https://ebird.org/species/plaxen2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1586803",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Northern_plain_xenops",
+   "es": "https://es.wikipedia.org/wiki/Xenops_mexicanus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Xenops+mexicanus"
@@ -108,5 +108,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Xenops%20minutus%2033709511%20%28cropped%29.jpg"
+ ]
 }

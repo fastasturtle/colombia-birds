@@ -27,36 +27,36 @@
  "genus": "Pipile",
  "id": "pipile-cumanensis",
  "ids": {
-  "avibase": null,
+  "avibase": "A936BA7FB218EA68",
   "birdbase": 719,
   "gbif": 2482310,
-  "inaturalist": "322342",
-  "iucn": null,
-  "wikidata": "Q27601345",
-  "xeno_canto": null
+  "inaturalist": "2108",
+  "iucn": "22727323",
+  "wikidata": "Q546348",
+  "xeno_canto": "Pipile-cumanensis"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pipile_cumanensis",
   "ebird": "https://ebird.org/species/butpig1",
-  "inaturalist": "https://www.inaturalist.org/taxa/322342",
+  "inaturalist": "https://www.inaturalist.org/taxa/2108",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Blue-throated_piping_guan",
+   "es": "https://es.wikipedia.org/wiki/Pipile_cumanensis",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Pipile+cumanensis"
  },
- "name_ru_source": null,
+ "name_ru_source": "ioc",
  "names": {
   "en": "Blue-throated Piping-Guan",
   "en_aco": "Blue-throated Piping-Guan",
   "es": "Pava Goliazul",
-  "ru": null
+  "ru": "Синегорлый гуан"
  },
  "order": "Galliformes",
  "photos": [
@@ -111,5 +111,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Aburria%20cumanensis%2C%20Blue-throated%20Piping-guan%20%28cropped%29.jpg"
+ ]
 }

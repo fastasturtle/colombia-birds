@@ -27,36 +27,36 @@
  "genus": "Pyrrhura",
  "id": "pyrrhura-picta",
  "ids": {
-  "avibase": null,
+  "avibase": "6342A20B11ED8C15",
   "birdbase": 13406,
   "gbif": 2479831,
-  "inaturalist": "517806",
-  "iucn": null,
-  "wikidata": "Q27615139",
-  "xeno_canto": null
+  "inaturalist": "604305",
+  "iucn": "45422115",
+  "wikidata": "Q1270389",
+  "xeno_canto": "Pyrrhura-picta"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Pyrrhura_picta",
   "ebird": "https://ebird.org/species/paipar2",
-  "inaturalist": "https://www.inaturalist.org/taxa/517806",
+  "inaturalist": "https://www.inaturalist.org/taxa/604305",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Painted_parakeet",
+   "es": "https://es.wikipedia.org/wiki/Pyrrhura_picta",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Pyrrhura+picta"
  },
- "name_ru_source": null,
+ "name_ru_source": "ioc",
  "names": {
   "en": "Painted Parakeet",
   "en_aco": "Painted Parakeet",
   "es": "Cotorra Pintada",
-  "ru": null
+  "ru": "Расписная которра"
  },
  "order": "Psittaciformes",
  "photos": [
@@ -110,5 +110,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhura%20picta%20-%20Painted%20parakeet%3B%20Presidente%20Figueiredo%2C%20Amazonas%2C%20Brazil.jpg"
+ ]
 }

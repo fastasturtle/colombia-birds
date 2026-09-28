@@ -27,27 +27,27 @@
  "genus": "Vireo",
  "id": "vireo-olivaceus",
  "ids": {
-  "avibase": null,
+  "avibase": "7254F08DB80D349C",
   "birdbase": 21470,
   "gbif": 2487430,
-  "inaturalist": "634991",
-  "iucn": null,
-  "wikidata": "Q22113242",
-  "xeno_canto": null
+  "inaturalist": "17366",
+  "iucn": "155115462",
+  "wikidata": "Q582976",
+  "xeno_canto": "Vireo-olivaceus"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Vireo_olivaceus",
   "ebird": "https://ebird.org/species/reevir1",
-  "inaturalist": "https://www.inaturalist.org/taxa/634991",
+  "inaturalist": "https://www.inaturalist.org/taxa/17366",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Red-eyed_vireo",
+   "es": "https://es.wikipedia.org/wiki/Vireo_olivaceus",
+   "ru": "https://ru.wikipedia.org/wiki/Красноглазый_виреон"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Vireo+olivaceus"
  },
@@ -111,5 +111,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Vireo%20olivaceus%20-Madison%20-Wisconsin%20-USA-8.jpg"
+ ]
 }

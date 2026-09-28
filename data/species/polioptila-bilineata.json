@@ -27,12 +27,12 @@
  "genus": "Polioptila",
  "id": "polioptila-bilineata",
  "ids": {
-  "avibase": null,
+  "avibase": "CE922FF7EFA174EE",
   "birdbase": 29463,
-  "gbif": null,
+  "gbif": "8924322",
   "inaturalist": null,
   "iucn": null,
-  "wikidata": null,
+  "wikidata": "Q107486428",
   "xeno_canto": null
  },
  "iucn": {
@@ -41,22 +41,22 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Polioptila_bilineata",
   "ebird": "https://ebird.org/species/trogna2",
   "inaturalist": null,
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/White-browed_gnatcatcher",
+   "es": "https://es.wikipedia.org/wiki/Polioptila_bilineata",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Polioptila+bilineata"
  },
- "name_ru_source": null,
+ "name_ru_source": "constructed",
  "names": {
   "en": "White-browed Gnatcatcher",
   "en_aco": null,
   "es": "Perlita Cejiancha",
-  "ru": null
+  "ru": "Белобровая комароловка"
  },
  "order": "Passeriformes",
  "photos": [
@@ -113,5 +113,7 @@
   "primary_habitat": "Woodland",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Tropical%20Gnatcatcher%20%2824857242030%29.jpg"
+ ]
 }

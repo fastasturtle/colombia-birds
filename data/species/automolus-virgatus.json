@@ -27,36 +27,36 @@
  "genus": "Automolus",
  "id": "automolus-virgatus",
  "ids": {
-  "avibase": null,
+  "avibase": "BD6ADDF58DB3B970",
   "birdbase": 15215,
-  "gbif": null,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
-  "xeno_canto": null
+  "gbif": "9174663",
+  "inaturalist": "719896",
+  "iucn": "103672251",
+  "wikidata": "Q55112046",
+  "xeno_canto": "Automolus-virgatus"
  },
  "iucn": {
   "aco_2022": null,
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Automolus_virgatus",
   "ebird": "https://ebird.org/species/strwoo5",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/719896",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Western_woodhaunter",
+   "es": "https://es.wikipedia.org/wiki/Automolus_virgatus",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Automolus+virgatus"
  },
- "name_ru_source": null,
+ "name_ru_source": "ioc",
  "names": {
   "en": "Western Woodhaunter",
   "en_aco": null,
   "es": "Ticotico Listado Occidental",
-  "ru": null
+  "ru": "Андская лесовка"
  },
  "order": "Passeriformes",
  "photos": [
@@ -108,5 +108,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Automolus%20virgatus%20-%20Western%20Woodhaunter.jpg"
+ ]
 }

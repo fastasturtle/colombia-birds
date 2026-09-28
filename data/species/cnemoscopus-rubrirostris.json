@@ -27,36 +27,36 @@
  "genus": "Cnemoscopus",
  "id": "cnemoscopus-rubrirostris",
  "ids": {
-  "avibase": null,
+  "avibase": "F6B4F02BFD6843FE",
   "birdbase": 37314,
   "gbif": 2488759,
-  "inaturalist": "718204",
-  "iucn": null,
-  "wikidata": "Q27637559",
-  "xeno_canto": null
+  "inaturalist": "10520",
+  "iucn": "103819177",
+  "wikidata": "Q262449",
+  "xeno_canto": "Cnemoscopus-rubrirostris"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cnemoscopus_rubrirostris",
   "ebird": "https://ebird.org/species/gyhbut2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718204",
+  "inaturalist": "https://www.inaturalist.org/taxa/10520",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Grey-hooded_bush_tanager",
+   "es": "https://es.wikipedia.org/wiki/Cnemoscopus_rubrirostris",
+   "ru": "https://ru.wikipedia.org/wiki/Красноклювая_танагра"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Cnemoscopus+rubrirostris"
  },
- "name_ru_source": null,
+ "name_ru_source": "wikidata",
  "names": {
   "en": "Pink-billed Cnemoscopus",
   "en_aco": "Gray-hooded Bush Tanager",
   "es": "Tangara Piquirrubia",
-  "ru": null
+  "ru": "Красноклювая танагра"
  },
  "order": "Passeriformes",
  "photos": [
@@ -109,5 +109,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cnemoscopus%20rubrirostris.jpg"
+ ]
 }

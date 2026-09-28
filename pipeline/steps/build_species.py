@@ -34,6 +34,17 @@ def ru_name(name: str | None) -> str | None:
     return name[0].upper() + name[1:]
 
 
+def ruwiki_name(title: str | None) -> str | None:
+    """Russian name from a ru.wikipedia article title: disambiguation suffix «(птица)» stripped, None when the
+    title has any Latin letter (articles titled by the binomial: «Rallus aequatorialis»), then `ru_name`."""
+    if not title:
+        return None
+    title = re.sub(r"\s*\([^)]*\)\s*$", "", title).strip()
+    if re.search(r"[A-Za-z]", title):
+        return None
+    return ru_name(title)
+
+
 def family_names(sci: str, ebird_names: dict, wd: dict | None) -> dict:
     """en/es from eBird; ru from Wikidata (label, else ru Wikipedia title), null when missing or Latin.
 
@@ -167,6 +178,10 @@ def main() -> None:
     endemics_src = read_json(SOURCES / "endemics.json") or {}
     # Russian names fixed by hand (typos, ru.wikipedia titles): mappings/names_ru_overrides.json
     ru_overrides = {k: v for k, v in (read_json(MAPPINGS / "names_ru_overrides.json") or {}).items() if not k.startswith("_")}
+    # IOC World Bird List Multilingual Russian names (step `ioc_names`), keyed by norm_sci binomial
+    ioc = (read_json(SOURCES / "ioc_names.json") or {}).get("species", {})
+    if not ioc:
+        log("  WARNING: data/sources/ioc_names.json missing, run step `ioc_names`; no IOC ru fallback")
     # One-off slug renames after eBird/Clements remaps (mappings/clements2025.json `renamed`)
     renamed = (read_json(MAPPINGS / "clements2025.json") or {}).get("renamed", {})
     # ACO keys of those remaps (the old slug is the old eBird name; `aco` gives the ACO name when it differs)
@@ -192,6 +207,7 @@ def main() -> None:
     old_files = {p.stem for p in SPECIES_DIR.glob("*.json")}
 
     index = []
+    ruwiki_used: list[str] = []  # slugs whose ru name is the ru.wikipedia title (after overrides)
     families: dict[str, dict] = {}
     slugs: dict[str, str] = {}
     for key, a in sorted(aco.items(), key=lambda kv: ebird_sp.get(aco_to_ebird[kv[0]], {}).get("taxon_order", 1e9)):
@@ -215,8 +231,20 @@ def main() -> None:
         name_ru_source = "ebird" if name_ru else None
         if not name_ru and ru_name(w.get("labels", {}).get("ru")):
             name_ru, name_ru_source = ru_name(w["labels"]["ru"]), "wikidata"
+        if not name_ru and ruwiki_name(w.get("wikipedia", {}).get("ru")):
+            name_ru, name_ru_source = ruwiki_name(w["wikipedia"]["ru"]), "ruwiki"
+        if not name_ru:  # IOC Multilingual (step `ioc_names`): exact binomial, eBird name then ACO name
+            ioc_ru = ru_name((ioc.get(norm_sci(sci)) or {}).get("ru"))
+            if not ioc_ru and key not in ebird_sp and key not in renamed_aco:
+                # the ACO name only when it is not itself an eBird species: for a split remap
+                # (T. aedon -> T. musculus) it names the other, extralimital half
+                ioc_ru = ru_name((ioc.get(key) or {}).get("ru"))
+            if ioc_ru:
+                name_ru, name_ru_source = ioc_ru, "ioc"
         if slug in ru_overrides:
             name_ru, name_ru_source = ru_name(ru_overrides[slug]["ru"]), ru_overrides[slug].get("source")
+        if name_ru_source == "ruwiki":
+            ruwiki_used.append(slug)
 
         fam_code = e["family_code"]
         fam = ebird_fam.get(fam_code, {})
@@ -355,6 +383,15 @@ def main() -> None:
     write_json(DATA / "families.json", fam_list)
     log(f"built {len(index)} species, {len(fam_list)} families")
     log(f"  ru names: {sum(1 for i in index if i['ru'])} (ebird {sum(1 for i in index if i['ru'] and read_json(SPECIES_DIR / (i['id'] + '.json'))['name_ru_source']=='ebird')})")
+    log(f"  ru names from ru.wikipedia titles: {len(ruwiki_used)}")
+    log(f"  ru names from IOC: {sum(1 for i in index if i['ru'] and read_json(SPECIES_DIR / (i['id'] + '.json'))['name_ru_source'] == 'ioc')}")
+    same_ru: dict[str, list[dict]] = {}
+    for i in index:
+        if i["ru"]:
+            same_ru.setdefault(i["ru"].lower().replace("ё", "е"), []).append(i)
+    for dup in same_ru.values():
+        if len(dup) > 1:
+            log(f"  WARNING: ru name «{dup[0]['ru']}» shared by {', '.join(i['id'] for i in dup)} (mappings/names_ru_overrides.json)")
     log(f"  photos kept: {sum(1 for i in index if i['photo'])}; families with ru name: {sum(1 for f in fam_list if f['names'].get('ru'))}")
     log(f"  elevation: {sum(1 for i in index if i['elev'])}")
     log(f"  lynx pages: {sum(1 for i in index if i['lynx_page'])} species, {sum(1 for f in fam_list if f['lynx_page'])} families")

@@ -27,36 +27,36 @@
  "genus": "Myiopagis",
  "id": "myiopagis-cinerea",
  "ids": {
-  "avibase": null,
+  "avibase": "5423E1F890830540",
   "birdbase": 16905,
   "gbif": 2482960,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "inaturalist": "1440714",
+  "iucn": "103681580",
+  "wikidata": "Q31874427",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Myiopagis_caniceps_cinerea",
   "ebird": "https://ebird.org/species/gryela2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1440714",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Amazonian_elaenia",
+   "es": "https://es.wikipedia.org/wiki/Myiopagis_cinerea",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Myiopagis+cinerea"
  },
- "name_ru_source": null,
+ "name_ru_source": "constructed",
  "names": {
   "en": "Amazonian Elaenia",
   "en_aco": "Gray Elaenia",
   "es": "Fiofío Gris Amazónico",
-  "ru": null
+  "ru": "Амазонская эления"
  },
  "order": "Passeriformes",
  "photos": [
@@ -108,5 +108,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Gray%20Elaenia.jpg"
+ ]
 }

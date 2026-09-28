@@ -31,13 +31,13 @@
  "genus": "Grallaria",
  "id": "grallaria-spatiator",
  "ids": {
-  "avibase": null,
+  "avibase": "7F337E40F2948568",
   "birdbase": 16566,
   "gbif": 11163929,
-  "inaturalist": "718417",
+  "inaturalist": "1286957",
   "iucn": null,
-  "wikidata": "Q27617810",
-  "xeno_canto": null
+  "wikidata": "Q98173986",
+  "xeno_canto": "grallaria-spatiator"
  },
  "iucn": {
   "aco_2022": "LC",
@@ -45,12 +45,12 @@
   "wikidata": null
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Grallaria_spatiator",
   "ebird": "https://ebird.org/species/rufant5",
-  "inaturalist": "https://www.inaturalist.org/taxa/718417",
+  "inaturalist": "https://www.inaturalist.org/taxa/1286957",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Sierra_Nevada_antpitta",
+   "es": "https://es.wikipedia.org/wiki/Grallaria_spatiator",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Grallaria+spatiator"
@@ -112,5 +112,7 @@
   "primary_habitat": "Forest",
   "range_restricted": null
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Grallaria%20spatiator%20Sierra%20Nevada%20Antipitta%3B%20Santa%20Marta%2C%20Colombia%20%28cropped%29.jpg"
+ ]
 }

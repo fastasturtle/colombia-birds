@@ -27,36 +27,36 @@
  "genus": "Dubusia",
  "id": "dubusia-taeniata",
  "ids": {
-  "avibase": null,
+  "avibase": "13B9C70FF3F852B5",
   "birdbase": 37657,
   "gbif": 2488325,
-  "inaturalist": "723041",
-  "iucn": null,
-  "wikidata": "Q27637792",
-  "xeno_canto": null
+  "inaturalist": "10468",
+  "iucn": "103843076",
+  "wikidata": "Q430958",
+  "xeno_canto": "Dubusia-taeniata"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Dubusia_taeniata",
   "ebird": "https://ebird.org/species/bubmot3",
-  "inaturalist": "https://www.inaturalist.org/taxa/723041",
+  "inaturalist": "https://www.inaturalist.org/taxa/10468",
   "wikipedia": {
-   "en": null,
-   "es": null,
-   "ru": null
+   "en": "https://en.wikipedia.org/wiki/Buff-banded_mountain_tanager",
+   "es": "https://es.wikipedia.org/wiki/Dubusia_taeniata",
+   "ru": "https://ru.wikipedia.org/wiki/Дюбузия"
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Dubusia+taeniata"
  },
- "name_ru_source": null,
+ "name_ru_source": "ruwiki",
  "names": {
   "en": "Buff-banded Mountain Tanager",
   "en_aco": "Buff-breasted Mountain-Tanager",
   "es": "Tangara Pechifulva Norteña",
-  "ru": null
+  "ru": "Дюбузия"
  },
  "order": "Passeriformes",
  "photos": [
@@ -159,5 +159,7 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Buff-breastedMountain-Tanager.jpg"
+ ]
 }

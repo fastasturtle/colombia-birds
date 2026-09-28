@@ -27,26 +27,26 @@
  "genus": "Turdus",
  "id": "turdus-arthuri",
  "ids": {
-  "avibase": null,
+  "avibase": "F28463EA44A873B4",
   "birdbase": 30756,
   "gbif": 7765228,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": "Q21355431",
+  "inaturalist": "980030",
+  "iucn": "103891016",
+  "wikidata": "Q55115394",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Turdus_arthuri",
   "ebird": "https://ebird.org/species/bkbthr3",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/980030",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Campina_thrush",
+   "es": "https://es.wikipedia.org/wiki/Turdus_arthuri",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Turdus+arthuri"
@@ -110,5 +110,7 @@
   "primary_habitat": "Woodland",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Turdus%20arthuri%20-%20The%20birds%20of%20British%20Guiana%201921.jpg"
+ ]
 }

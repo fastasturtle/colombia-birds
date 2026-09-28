@@ -25,7 +25,11 @@ metadata, or for objects uploaded before that metadata existed from a 64 KB rang
 header), and the metadata is filled into data/ again. This restores data/ after a lost run and re-applies
 `photos` after build_species.py wiped them. Honours MAX_MINUTES (see run.py).
 
-Usage: uv run python steps/upload_media.py [--dry-run] [--only slug ...]
+`--from-credits` works offline (no R2, no downloads): for every species whose `photos` is empty but
+data/credits/<slug>.json exists, `photos` and the index `photo` are rebuilt from the credits (they hold the
+full chosen records). Use it after a clobbered commit wiped `photos` while the credits survived.
+
+Usage: uv run python steps/upload_media.py [--dry-run | --from-credits] [--only slug ...]
   (slugs can also come from the ONLY_SLUGS env var)
 Env: R2_ACCOUNT_ID, R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY (not needed with --dry-run)
 """
@@ -223,10 +227,35 @@ def write_species(slug: str, chosen: list[dict]) -> None:
             write_json(sp_path, sp)
 
 
+def restore_from_credits(only: set[str] | None) -> None:
+    """Offline: refill empty species `photos` (and the index `photo`) from data/credits/<slug>.json."""
+    index_path = DATA / "species_index.json"
+    index = read_json(index_path, [])
+    restored = []
+    for e in index:
+        slug = e["id"]
+        if only and slug not in only:
+            continue
+        sp = read_json(SPECIES_DIR / f"{slug}.json") or {}
+        chosen = (read_json(CREDITS / f"{slug}.json") or {}).get("photos") or []
+        # credits of this very slug only (a renamed species never inherits another slug's R2 keys)
+        if sp.get("photos") or not chosen or any(not c["key_base"].startswith(f"photos/{slug}/") for c in chosen):
+            continue
+        write_species(slug, chosen)
+        e["photo"] = chosen[0]["sizes"]["thumb"]
+        restored.append(slug)
+    if restored:
+        write_json(index_path, index)
+    log(f"upload --from-credits: restored photos of {len(restored)} species" + (f": {' '.join(restored)}" if restored else ""))
+
+
 def main() -> None:
     args = sys.argv[1:]
     dry = "--dry-run" in args
-    only = only_slugs([a for a in args if a != "--dry-run" and a != "--only"])
+    only = only_slugs([a for a in args if a not in ("--dry-run", "--only", "--from-credits")])
+    if "--from-credits" in args:
+        restore_from_credits(only)
+        return
     sigterm_as_interrupt()
 
     if not FOCUS.exists():

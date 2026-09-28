@@ -27,36 +27,36 @@
  "genus": "Ochthoeca",
  "id": "ochthoeca-cinnamomeiventris",
  "ids": {
-  "avibase": null,
+  "avibase": "5E381EA46C01043E",
   "birdbase": 17929,
   "gbif": 2483152,
-  "inaturalist": "718656",
-  "iucn": null,
-  "wikidata": "Q40551684",
-  "xeno_canto": null
+  "inaturalist": "16206",
+  "iucn": "103682781",
+  "wikidata": "Q898022",
+  "xeno_canto": "Ochthoeca-cinnamomeiventris"
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Ochthoeca_cinnamomeiventris",
   "ebird": "https://ebird.org/species/slbcht2",
-  "inaturalist": "https://www.inaturalist.org/taxa/718656",
+  "inaturalist": "https://www.inaturalist.org/taxa/16206",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Slaty-backed_chat-tyrant",
+   "es": "https://es.wikipedia.org/wiki/Ochthoeca_cinnamomeiventris",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Ochthoeca+cinnamomeiventris"
  },
- "name_ru_source": null,
+ "name_ru_source": "ioc",
  "names": {
   "en": "Chestnut-bellied Chat-Tyrant",
   "en_aco": "Slaty-backed Chat-Tyrant",
   "es": "Pitajo Ventricastaño",
-  "ru": null
+  "ru": "Каштановая тираннита"
  },
  "order": "Passeriformes",
  "photos": [
@@ -111,5 +111,7 @@
   "primary_habitat": "Shrub",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Slaty-backed%20Chat-Tyrant%20-%20South%20Ecuador%20S4E2448.jpg"
+ ]
 }

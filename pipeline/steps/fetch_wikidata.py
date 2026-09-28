@@ -1,6 +1,13 @@
 """Wikidata (CC0) spine: QID, labels ru/en/es, external IDs, IUCN status, Commons category, sitelinks.
 
 Query by eBird species code (P3444) first, then by scientific name (P225) for the rest.
+
+Wikidata sometimes carries the eBird code on a SUBSPECIES item (trinomial P225, e.g. "Butorides striata striata"),
+which has no sitelinks, ru label or Commons category. Such matches are replaced by the species item: the eBird
+name by P225, then the subspecies' parent taxon (P171, rank species), then the first two words of the trinomial,
+accepting a candidate only when its epithet is the eBird one (a genus move like Tangara -> Stilpnia is fine, but
+"Grallaria quitensis alticola" must not resolve to Grallaria quitensis, a different eBird species). The record
+keeps `subspecies_qid` (and takes the eBird/iNat/Avibase ids the species item lacks from it); with no acceptable species item the subspecies record stays (`ebird_code_subspecies`).
 """
 from __future__ import annotations
 
@@ -42,6 +49,16 @@ SELECT ?item ?sci ?ebird ?avibase ?iucnId ?iucn ?commonsCat ?image ?inat ?gbif ?
 """
 
 
+PARENT_QUERY = """
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+SELECT ?sub ?parent ?psci WHERE {
+  VALUES ?sub { %(values)s }
+  ?sub wdt:P171 ?parent . ?parent wdt:P225 ?psci ; wdt:P105 wd:Q7432 .
+}
+"""
+
+
 def run(prop: str, var: str, values: list[str]) -> list[dict]:
     rows = []
     for i in range(0, len(values), BATCH):
@@ -71,6 +88,42 @@ def wiki_title(url: str | None) -> str | None:
     return unquote(url.rsplit("/wiki/", 1)[-1]).replace("_", " ")
 
 
+def qid(r: dict) -> str:
+    return r["item"].rsplit("/", 1)[-1]
+
+
+def n_sitelinks(r: dict) -> int:
+    return sum(1 for k in ("enwiki", "eswiki", "ruwiki") if r.get(k))
+
+
+def parents(qids: list[str]) -> dict[str, list[str]]:
+    """Subspecies QID -> scientific names of its parent taxa of rank species (P171, P105 = Q7432)."""
+    out: dict[str, list[str]] = {}
+    for i in range(0, len(qids), BATCH):
+        q = PARENT_QUERY % {"values": " ".join(f"wd:{v}" for v in qids[i : i + BATCH])}
+        data = get_json(ENDPOINT, {"query": q}, kind="wikidata", min_interval=1.0, headers={"Accept": "application/sparql-results+json"})
+        for b in data["results"]["bindings"]:
+            out.setdefault(b["sub"]["value"].rsplit("/", 1)[-1], []).append(b["psci"]["value"])
+    return out
+
+
+def species_for_subspecies(sub: dict, target: str, parent_names: list[str], by_sci: dict[str, list[dict]]) -> tuple[dict, str] | None:
+    """The species item for a subspecies row matched by eBird code: `target` (the eBird name) by P225, then the
+    parent taxon, then the trinomial's first two words; only candidates with the eBird epithet are accepted."""
+    epithet = target.split()[1]
+    first_two = " ".join(norm_sci(sub["sci"]).split()[:2])
+    cands = [(target, "ebird_code_subspecies->species")]
+    cands += [(norm_sci(n), "ebird_code_subspecies->parent") for n in parent_names]
+    cands.append((first_two, "ebird_code_subspecies->binomial"))
+    for name, how in cands:
+        if len(name.split()) != 2 or name.split()[1] != epithet:
+            continue
+        rows = by_sci.get(name) or []
+        if rows:  # homonyms (fossils, plants): the item with most sitelinks
+            return max(rows, key=n_sitelinks), how
+    return None
+
+
 def main() -> None:
     aco = checklist()  # ACO 2022 + clements2025 additions
     ebird = read_json(SOURCES / "ebird.json")["species"]
@@ -86,11 +139,11 @@ def main() -> None:
 
     out: dict[str, dict] = {}
 
-    def store(aco_key: str, r: dict, matched_by: str) -> None:
+    def store(aco_key: str, r: dict, matched_by: str, subspecies: dict | None = None) -> None:
         if aco_key in out:
             return
         out[aco_key] = {
-            "qid": r["item"].rsplit("/", 1)[-1],
+            "qid": qid(r),
             "sci_wikidata": r.get("sci"),
             "matched_by": matched_by,
             "ebird_code": r.get("ebird"),
@@ -108,10 +161,41 @@ def main() -> None:
             },
             "wikipedia": {"en": wiki_title(r.get("enwiki")), "es": wiki_title(r.get("eswiki")), "ru": wiki_title(r.get("ruwiki"))},
         }
+        if subspecies:  # eBird code sits on a subspecies item; keep it for reference
+            out[aco_key]["subspecies_qid"] = qid(subspecies)
+            out[aco_key]["subspecies_sci"] = subspecies.get("sci")
+            # ids the species item lacks: the subspecies' (same population concept, e.g. iNat taxa of recent splits)
+            for f, k in (("ebird_code", "ebird"), ("inaturalist_id", "inat"), ("avibase_id", "avibase")):
+                out[aco_key][f] = out[aco_key][f] or subspecies.get(k)
 
-    for r in run("P3444", "ebird", sorted(code_to_aco)):
+    code_rows = run("P3444", "ebird", sorted(code_to_aco))
+    # eBird code on a subspecies item (trinomial P225): resolve the species item (see module docstring).
+    subs = {qid(r): r for r in code_rows if len(norm_sci(r["sci"]).split()) == 3}
+    sub_parents = parents(sorted(subs)) if subs else {}
+    targets = {aco_key: norm_sci(ebird[aco_to_ebird[aco_key]]["sci_name"]) for r in subs.values() for aco_key in code_to_aco.get(r["ebird"], [])}
+    cand_names = set(targets.values()) | {norm_sci(n) for ns in sub_parents.values() for n in ns}
+    cand_names |= {" ".join(norm_sci(r["sci"]).split()[:2]) for r in subs.values()}
+    sp_by_sci: dict[str, list[dict]] = {}
+    if cand_names:
+        # P225 literals are case-sensitive: query the capitalised binomial
+        for r in run("P225", "sci", sorted(n[0].upper() + n[1:] for n in cand_names)):
+            sp_by_sci.setdefault(norm_sci(r["sci"]), []).append(r)
+    n_sub = n_sub_ok = 0
+    for r in code_rows:
         for aco_key in code_to_aco.get(r["ebird"], []):
-            store(aco_key, r, "ebird_code")
+            if qid(r) in subs:
+                n_sub += 1
+                found = species_for_subspecies(r, targets[aco_key], sub_parents.get(qid(r), []), sp_by_sci)
+                if found:
+                    n_sub_ok += 1
+                    store(aco_key, found[0], found[1], subspecies=r)
+                    continue
+                log(f"  {aco_key}: eBird code on subspecies {qid(r)} ({r['sci']}), no species item with that epithet")
+                store(aco_key, r, "ebird_code_subspecies")
+            else:
+                store(aco_key, r, "ebird_code")
+    if n_sub:
+        log(f"  eBird code on a subspecies item: {n_sub}, resolved to the species item: {n_sub_ok}")
 
     # Whole-species remaps (clements2025.json `renamed`): the ACO name is the extralimital half of a split, never use it
     # (eBird codes are reused after splits, so the item found by code can be the other half or one of its subspecies).
@@ -123,9 +207,11 @@ def main() -> None:
 
     rest = [k for k in aco if k not in out]
     names = sorted({aco[k]["sci_name"] for k in rest} | {ebird[aco_to_ebird[k]]["sci_name"] for k in rest if aco_to_ebird[k] in ebird})
-    by_sci = {}
+    by_sci: dict[str, dict] = {}
     for r in run("P225", "sci", names):
-        by_sci[norm_sci(r["sci"])] = r
+        k = norm_sci(r["sci"])
+        if k not in by_sci or n_sitelinks(r) > n_sitelinks(by_sci[k]):
+            by_sci[k] = r
     for k in rest:
         # After a split (ACO name and eBird name are both eBird species, aco_to_ebird.json) the ACO name is the
         # other half of the split: try the eBird name first.

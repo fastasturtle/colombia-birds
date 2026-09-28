@@ -27,26 +27,26 @@
  "genus": "Cyphorhinus",
  "id": "cyphorhinus-dichrous",
  "ids": {
-  "avibase": null,
+  "avibase": "EC974AC4F93A1E43",
   "birdbase": 29375,
   "gbif": 5231434,
-  "inaturalist": null,
-  "iucn": null,
-  "wikidata": null,
+  "inaturalist": "1585245",
+  "iucn": "103889940",
+  "wikidata": "Q55112245",
   "xeno_canto": null
  },
  "iucn": {
   "aco_2022": "LC",
   "birdbase_2024": "LC",
-  "wikidata": null
+  "wikidata": "least concern"
  },
  "links": {
-  "commons_category": null,
+  "commons_category": "https://commons.wikimedia.org/wiki/Category:Cyphorhinus_dichrous",
   "ebird": "https://ebird.org/species/chbwre2",
-  "inaturalist": null,
+  "inaturalist": "https://www.inaturalist.org/taxa/1585245",
   "wikipedia": {
-   "en": null,
-   "es": null,
+   "en": "https://en.wikipedia.org/wiki/Northern_chestnut-breasted_wren",
+   "es": "https://es.wikipedia.org/wiki/Cyphorhinus_dichrous",
    "ru": null
   },
   "xeno_canto": "https://xeno-canto.org/explore?query=Cyphorhinus+dichrous"
@@ -108,5 +108,8 @@
   "primary_habitat": "Forest",
   "range_restricted": 0
  },
- "wikidata_images": []
+ "wikidata_images": [
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Cyphorhinus%20thoracicus%20248733271.jpg",
+  "http://commons.wikimedia.org/wiki/Special:FilePath/CyphorinusDichrousSmit.jpg"
+ ]
 }
