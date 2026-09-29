@@ -423,8 +423,8 @@
 
 # --- Рисунок ---
 - en: streaked
-  ru: в продольных пестринах
-  note: streak — продольная пестрина
+  ru: в продольных пестринах, исчерченный
+  note: streak — продольная пестрина; в названиях пестро- (Streak-headed — пестроголовый); не путать с barred — поперечные полосы
   freq: 187
   examples: [malacoptila-fulvogularis, dysithamnus-leucostictus, myrmotherula-multostriata]
 - en: stripe
@@ -433,8 +433,8 @@
   freq: 341
   examples: [thripadectes-holostictus, asthenes-flammulata, tapera-naevia]
 - en: barred
-  ru: поперечно-полосатый
-  note: bar — поперечная полоска; barring — поперечный рисунок
+  ru: поперечно-полосатый, рябой
+  note: bar — поперечная полоска; barring — поперечная рябь; в названиях обычно «полосатый» (Barred Hawk — полосатая агуйла); не путать со streaked — продольные пестрины
   freq: 146
   examples: [pipreola-arcuata, crypturellus-casiquiare, morphnarchus-princeps]
 - en: spotted
@@ -452,7 +452,8 @@
   freq: 32
   examples: [ampelioides-tschudii, patagioenas-speciosa, columbina-squammata]
 - en: mottled
-  ru: пёстрый, в разводах
+  ru: пёстрый, крапчатый, в разводах
+  note: в неровных размытых пятнах; Mottled Owl — крапчатая неясыть
   freq: 86
   examples: [strix-virgata]
 - en: marbled
@@ -460,13 +461,13 @@
   freq: 11
   examples: [odontophorus-gujanensis, limosa-fedoa]
 - en: banded
-  ru: опоясанный, с поясом
-  note: band — широкая полоса, пояс
+  ru: опоясанный, с поясом, полосатый
+  note: band — широкая полоса, пояс; в названиях и «полосатый» (Banded Ground-Cuckoo — полосатая земляная кукушка)
   freq: 75
   examples: [neomorphus-radiolosus, rufirallus-fasciatus, pteroglossus-pluricinctus]
 - en: plain
-  ru: однотонный
-  note: без рисунка
+  ru: однотонный, одноцветный
+  note: без рисунка; Plain Thornbird — одноцветный эспинеро
   freq: 154
   examples: [columbina-minuta, picumnus-castelnau, thamnophilus-schistaceus]
 - en: patch
@@ -534,7 +535,8 @@
   note: о клюве
   freq: 45
 - en: stout
-  ru: толстый, крепкий
+  ru: толстый, массивный
+  note: о клюве; stocky — о теле
   freq: 72
   examples: [cinclodes-excelsior]
 - en: slender
@@ -547,7 +549,7 @@
   freq: 110
 - en: pygmy
   ru: карликовый
-  note: в названиях — самый мелкий в группе
+  note: в названиях — самый мелкий в группе; Pygmy-Owl — сычик
   freq: 42
   examples: [glaucidium-nubicola, glaucidium-jardinii, glaucidium-parkeri]
 - en: lesser
@@ -618,8 +620,8 @@
   note: gleaning — собирать насекомых с листвы и веток
   freq: 412
 - en: sally
-  ru: вылет за добычей
-  note: взлёт с присады за насекомым и возврат
+  ru: бросок, вылет за добычей
+  note: взлёт с присады за насекомым и возврат на присаду; sallying — ловля «с присады»
   freq: 286
 - en: hover
   ru: зависать в воздухе
@@ -663,7 +665,8 @@
   note: то же skulking
   freq: 33
 - en: solitary
-  ru: одиночный
+  ru: одиночный, отшельник
+  note: в названиях — «отшельник» (Solitary Sandpiper — улит-отшельник)
   freq: 77
   examples: [tringa-solitaria, buteogallus-solitarius, cacicus-solitarius]
 - en: gregarious
@@ -715,8 +718,8 @@
   note: cavity nester — гнездится в дуплах
   freq: 203
 - en: call
-  ru: позывка
-  note: короткий сигнал, не песня
+  ru: позывка, крик
+  note: короткий сигнал, не песня (song)
   freq: 1253
 - en: trill
   ru: трель
