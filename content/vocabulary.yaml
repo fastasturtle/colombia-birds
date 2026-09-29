@@ -817,11 +817,12 @@
 
 # --- Места обитания ---
 - en: understory
-  ru: подлесок
+  ru: подлесок, нижний ярус
   note: нижний ярус леса; британское understorey
   freq: 194
 - en: subcanopy
   ru: подпологовый ярус
+  note: средний ярус леса, под кронами
   freq: 67
 - en: canopy
   ru: полог леса
@@ -832,8 +833,8 @@
   freq: 142
   examples: [myrmothera-dives]
 - en: tangle
-  ru: сплетение ветвей
-  note: vine tangles — клубки лиан
+  ru: переплетение ветвей, лиан
+  note: vine tangles — клубки лиан; bamboo tangles — заросли бамбука
   freq: 91
 - en: epiphyte
   ru: эпифит
@@ -855,25 +856,25 @@
   note: то же second growth
   freq: 455
 - en: cloud forest
-  ru: облачный лес
-  note: горный лес в туманах
+  ru: туманный лес, облачный лес
+  note: горный лес в облаках, весь во мхах и эпифитах
   freq: 54
   examples: [glaucidium-nubicola]
 - en: elfin
-  ru: криволесье
-  note: elfin forest — низкий лес у верхней границы леса
+  ru: криволесье, карликовый лес
+  note: elfin forest — букв. «эльфийский лес»; низкий корявый мшистый лес у верхней границы леса, ниже парамо
   freq: 63
 - en: páramo
   ru: парамо
-  note: высокогорные луга Анд выше границы леса
+  note: высокогорные луга и пустоши северных Анд выше границы леса; Paramo Pipit — конёк парамо
   freq: 67
 - en: montane
   ru: горный
   freq: 414
   examples: [lepidocolaptes-lacrymiger, anabacerthia-striaticollis]
 - en: foothill
-  ru: предгорья
-  note: обычно во множественном — foothills
+  ru: предгорья, предгорный
+  note: обычно во множественном — foothills; в названиях (Foothill Elaenia) — «предгорный»
   freq: 206
   examples: [megascops-roraimae, epinecrophylla-spodionota, schiffornis-aenea]
 - en: lowland
@@ -888,7 +889,7 @@
   freq: 178
 - en: várzea
   ru: варзеа
-  note: сезонно затопляемый лес Амазонии
+  note: сезонно затопляемый лес Амазонии (реки с «белой» водой); Varzea Thrush — варзейский дрозд
   freq: 223
 - en: terra firme
   ru: терра-фирме
@@ -896,27 +897,30 @@
   freq: 226
 - en: gallery forest
   ru: галерейный лес
-  note: полоса леса вдоль реки
+  note: полоса леса вдоль реки среди саванны или льянос
   freq: 171
 - en: riparian
-  ru: прибрежный
-  note: у рек и ручьёв
+  ru: приречный, прибрежный
+  note: у рек и ручьёв, не у моря; Riparian Antbird — речная муравьянка
   freq: 65
   examples: [cercomacroides-fuscicauda, forpus-crassirostris]
 - en: marsh
   ru: травяное болото
+  note: открытое болото с тростником и осокой, без деревьев
   freq: 121
   examples: [arundinicola-leucocephala]
 - en: swamp
-  ru: заболоченный лес, топь
+  ru: болото, заболоченный лес
+  note: болото с деревьями; травяное — marsh
   freq: 136
 - en: mangrove
-  ru: мангры
+  ru: мангры, мангровый
+  note: мангровые заросли; Mangrove Swallow — мангровая ласточка
   freq: 152
   examples: [rallus-longirostris, vireo-pallens, setophaga-petechia]
 - en: scrub
-  ru: кустарник
-  note: заросли кустарника
+  ru: кустарниковые заросли
+  note: в названиях — «кустарниковый» (Scrub Tanager — кустарниковая танагра)
   freq: 120
   examples: [euscarthmus-meloryphus, sublegatus-arenarum, sublegatus-obscurior]
 - en: elevation
@@ -939,22 +943,23 @@
   ru: ручей, речка
   freq: 132
 - en: cliff
-  ru: скала, обрыв
+  ru: скала, утёс, обрыв
   freq: 66
   examples: [hirundinea-ferruginea, petrochelidon-pyrrhonota]
 - en: grassland
-  ru: луга, травяные равнины
+  ru: луга, травянистые равнины
+  note: в Колумбии — льянос и саванны
   freq: 145
   examples: [ammodramus-humeralis, sicalis-luteola]
 - en: pasture
   ru: пастбище
   freq: 151
 - en: woodland
-  ru: редколесье
-  note: светлый лес с просветами
+  ru: редколесье, лес
+  note: светлый лес с несомкнутым пологом; часто просто «лес»
   freq: 377
 - en: undergrowth
-  ru: подрост, густой подлесок
+  ru: подлесок, подрост
   note: кусты и молодые деревья под пологом
   freq: 147
 - en: humid
