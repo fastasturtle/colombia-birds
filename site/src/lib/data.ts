@@ -348,6 +348,65 @@ export function defaultCounts(list: { state: State; interesting: boolean }[]) {
 export function daysForSite(siteId: string): Day[] {
   return itinerary().filter((d) => d.sites.includes(siteId));
 }
+
+/* ---- Weather forecast (pipeline step weather, data/weather.json from Open-Meteo); optional, refreshed daily by CI ---- */
+export type WeatherPeriodName = 'morning' | 'day' | 'evening';
+export interface WeatherPeriod {
+  t_min: number; t_max: number;
+  /** max precipitation probability over the period, % */
+  precip_prob: number | null;
+  /** precipitation sum, mm */
+  precip: number | null;
+  /** mean cloud cover, % */
+  cloud_cover: number | null;
+  /** most severe WMO weather code of the period's hours */
+  weather_code: number | null;
+}
+export interface WeatherSite {
+  id: string; name_ru: string; elevation: number | null; overnight: boolean;
+  periods: Partial<Record<WeatherPeriodName, WeatherPeriod>>;
+}
+export interface Weather { fetched_at: string; source: string; days: Record<string, { sites: WeatherSite[] }> }
+export const WEATHER_PERIODS: { id: WeatherPeriodName; ru: string }[] = [
+  { id: 'morning', ru: 'Утро' }, { id: 'day', ru: 'День' }, { id: 'evening', ru: 'Вечер' },
+];
+let _weather: Weather | null | undefined;
+/** The whole forecast file, or null when data/weather.json is missing or malformed. */
+export function weather(): Weather | null {
+  if (_weather === undefined) {
+    const w = readJson<Weather | null>('weather.json', null);
+    _weather = w && typeof w === 'object' && w.days && typeof w.days === 'object' ? w : null;
+  }
+  return _weather;
+}
+/** Forecast rows of a date (day sites first, overnight last), or null when there is none. */
+export function weatherDay(date: string): WeatherSite[] | null {
+  const rows = weather()?.days[date]?.sites;
+  return Array.isArray(rows) && rows.length ? rows : null;
+}
+/** WMO weather code -> Unicode icon + short Russian label. */
+export function wmo(code: number | null | undefined): { icon: string; ru: string } {
+  if (code == null) return { icon: '·', ru: '' };
+  if (code === 0) return { icon: '☀️', ru: 'ясно' };
+  if (code === 1) return { icon: '🌤️', ru: 'малооблачно' };
+  if (code === 2) return { icon: '⛅', ru: 'облачно' };
+  if (code === 3) return { icon: '☁️', ru: 'пасмурно' };
+  if (code === 45 || code === 48) return { icon: '🌫️', ru: 'туман' };
+  if (code >= 51 && code <= 57) return { icon: '🌦️', ru: 'морось' };
+  if (code >= 61 && code <= 67) return { icon: '🌧️', ru: 'дождь' };
+  if (code >= 71 && code <= 77) return { icon: '🌨️', ru: 'снег' };
+  if (code >= 80 && code <= 82) return { icon: '🌧️', ru: 'ливень' };
+  if (code >= 85 && code <= 86) return { icon: '🌨️', ru: 'снегопад' };
+  if (code >= 95) return { icon: '⛈️', ru: 'гроза' };
+  return { icon: '·', ru: '' };
+}
+/** '29 сентября, 05:12' in Bogotá time (UTC-5, no DST) from an ISO UTC timestamp. */
+export function fmtBogota(iso: string): string {
+  const t = new Date(new Date(iso).getTime() - 5 * 3600e3);
+  if (Number.isNaN(t.getTime())) return iso;
+  const hm = `${String(t.getUTCHours()).padStart(2, '0')}:${String(t.getUTCMinutes()).padStart(2, '0')}`;
+  return `${t.getUTCDate()} ${RU_MONTHS_GEN[t.getUTCMonth()]}, ${hm}`;
+}
 export const RU_MONTHS_GEN = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
 export const RU_WEEKDAYS = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
 /** '2026-10-05' -> '5 октября, понедельник' */

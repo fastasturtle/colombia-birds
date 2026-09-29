@@ -1,0 +1,69 @@
+---
+/**
+ * Forecast of a trip day (data/weather.json, pipeline step weather, refreshed daily by CI): one dense row per
+ * location (day sites, overnight last) with three cells Утро / День / Вечер: icon, temperature range, rain
+ * chance. Precipitation mm and cloud cover stay in the JSON and the cell tooltip only. Renders nothing when
+ * the date has no forecast (outside the 16-day window, or no file).
+ */
+import { weather, weatherDay, wmo, fmtBogota, WEATHER_PERIODS, type WeatherPeriod } from '@lib/data';
+interface Props { date: string }
+const { date } = Astro.props;
+const rows = weatherDay(date);
+const fetched = weather()?.fetched_at;
+const temp = (p: WeatherPeriod) => (p.t_min === p.t_max ? `${p.t_max}°` : `${p.t_min}–${p.t_max}°`);
+const tip = (p: WeatherPeriod) => [
+  wmo(p.weather_code).ru, temp(p),
+  p.precip_prob != null && `осадки ${p.precip_prob}%`,
+  p.precip ? `${String(p.precip).replace('.', ',')} мм` : null,
+  p.cloud_cover != null && `облачность ${p.cloud_cover}%`,
+].filter(Boolean).join(', ');
+---
+{rows && (
+  <section class="wx" aria-label="Прогноз погоды">
+    <table>
+      <thead>
+        <tr><th class="wn">Погода</th>{WEATHER_PERIODS.map((p) => <th>{p.ru}</th>)}</tr>
+      </thead>
+      <tbody>
+        {rows.map((s) => (
+          <tr>
+            <th class="wn" scope="row">
+              <span class="nm" title={s.name_ru}>{s.name_ru}</span>
+              <span class="el">{s.elevation != null && `${s.elevation} м`}{s.overnight && <>{s.elevation != null && ' · '}<b>ночёвка</b></>}</span>
+            </th>
+            {WEATHER_PERIODS.map(({ id }) => {
+              const p = s.periods[id];
+              if (!p) return <td class="na">—</td>;
+              const w = wmo(p.weather_code);
+              return (
+                <td title={tip(p)}>
+                  <span class="t"><span class="ic" aria-label={w.ru}>{w.icon}</span>{temp(p)}</span>
+                  {p.precip_prob != null && <span class={p.precip_prob >= 60 ? 'pr hi' : 'pr'}>{p.precip_prob}%</span>}
+                </td>
+              );
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    {fetched && <p class="src" title="Утро 6–10, день 10–16, вечер 16–19 ч; значок — худшая погода периода; % — вероятность осадков">Open-Meteo, {fmtBogota(fetched)} · % — шанс дождя</p>}
+  </section>
+)}
+<style>
+  .wx { margin: 10px 0 0; }
+  .wx table { table-layout: fixed; font-size: .8rem; line-height: 1.25; }
+  .wx th, .wx td { padding: 3px 4px; vertical-align: middle; }
+  .wx thead th { font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); padding-top: 0; padding-bottom: 2px; }
+  .wx .wn { width: 36%; padding-left: 8px; text-align: left; }
+  .wx tbody .wn { font-weight: 500; }
+  .nm { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .el { display: block; color: var(--muted); font-size: .7rem; font-weight: 400; white-space: nowrap; }
+  .el b { font-weight: 600; color: var(--accent); }
+  .wx td { white-space: nowrap; }
+  .t { display: block; font-variant-numeric: tabular-nums; }
+  .ic { display: inline-block; width: 1.3em; font-size: .95rem; line-height: 1; }
+  .pr { display: block; padding-left: 1.55em; color: var(--muted); font-size: .7rem; font-variant-numeric: tabular-nums; }
+  .pr.hi { color: var(--accent-2); font-weight: 600; }
+  .na { color: var(--muted); }
+  .src { margin: 3px 0 0 8px; font-size: .7rem; color: var(--muted); }
+</style>

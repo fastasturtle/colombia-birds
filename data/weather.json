@@ -1,0 +1,734 @@
+{
+ "days": {
+  "2026-10-01": {
+   "sites": [
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 97,
+       "precip": 2.2,
+       "precip_prob": 83,
+       "t_max": 19,
+       "t_min": 17,
+       "weather_code": 53
+      },
+      "evening": {
+       "cloud_cover": 99,
+       "precip": 0.1,
+       "precip_prob": 75,
+       "t_max": 16,
+       "t_min": 15,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 89,
+       "precip": 0.0,
+       "precip_prob": 18,
+       "t_max": 18,
+       "t_min": 12,
+       "weather_code": 3
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-02": {
+   "sites": [
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 90,
+       "precip": 1.7,
+       "precip_prob": 100,
+       "t_max": 18,
+       "t_min": 17,
+       "weather_code": 53
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 0.1,
+       "precip_prob": 86,
+       "t_max": 17,
+       "t_min": 14,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 86,
+       "precip": 0.1,
+       "precip_prob": 25,
+       "t_max": 16,
+       "t_min": 11,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-03": {
+   "sites": [
+    {
+     "elevation": 2350,
+     "id": "chicaque",
+     "name_ru": "Чикаке",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 84,
+       "precip": 4.7,
+       "precip_prob": 97,
+       "t_max": 19,
+       "t_min": 16,
+       "weather_code": 55
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 2.2,
+       "precip_prob": 94,
+       "t_max": 16,
+       "t_min": 14,
+       "weather_code": 55
+      },
+      "morning": {
+       "cloud_cover": 92,
+       "precip": 0.4,
+       "precip_prob": 56,
+       "t_max": 18,
+       "t_min": 13,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 70,
+       "precip": 0.3,
+       "precip_prob": 51,
+       "t_max": 19,
+       "t_min": 17,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 97,
+       "precip": 0.0,
+       "precip_prob": 31,
+       "t_max": 17,
+       "t_min": 14,
+       "weather_code": 3
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.0,
+       "precip_prob": 23,
+       "t_max": 16,
+       "t_min": 12,
+       "weather_code": 3
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-04": {
+   "sites": [
+    {
+     "elevation": 1350,
+     "id": "el-encanto",
+     "name_ru": "Эль-Энканто",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 33,
+       "precip": 0.2,
+       "precip_prob": 87,
+       "t_max": 29,
+       "t_min": 26,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 57,
+       "precip": 0.1,
+       "precip_prob": 88,
+       "t_max": 26,
+       "t_min": 22,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 39,
+       "precip": 0.0,
+       "precip_prob": 13,
+       "t_max": 24,
+       "t_min": 18,
+       "weather_code": 2
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-05": {
+   "sites": [
+    {
+     "elevation": 2000,
+     "id": "la-drymophila",
+     "name_ru": "Ла-Дримофила",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 93,
+       "precip": 2.2,
+       "precip_prob": 85,
+       "t_max": 22,
+       "t_min": 19,
+       "weather_code": 53
+      },
+      "evening": {
+       "cloud_cover": 49,
+       "precip": 1.5,
+       "precip_prob": 86,
+       "t_max": 20,
+       "t_min": 17,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.6,
+       "precip_prob": 25,
+       "t_max": 17,
+       "t_min": 14,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 1350,
+     "id": "el-encanto",
+     "name_ru": "Эль-Энканто",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 89,
+       "precip": 0.6,
+       "precip_prob": 85,
+       "t_max": 29,
+       "t_min": 25,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 34,
+       "precip": 0.3,
+       "precip_prob": 86,
+       "t_max": 26,
+       "t_min": 22,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 99,
+       "precip": 0.2,
+       "precip_prob": 25,
+       "t_max": 22,
+       "t_min": 19,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-06": {
+   "sites": [
+    {
+     "elevation": 1350,
+     "id": "el-encanto",
+     "name_ru": "Эль-Энканто",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 46,
+       "precip": 2.0,
+       "precip_prob": 100,
+       "t_max": 24,
+       "t_min": 22,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 69,
+       "precip": 1.2,
+       "precip_prob": 100,
+       "t_max": 22,
+       "t_min": 21,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 54,
+       "precip": 0.6,
+       "precip_prob": 41,
+       "t_max": 21,
+       "t_min": 18,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-07": {
+   "sites": [
+    {
+     "elevation": 900,
+     "id": "finca-discosura",
+     "name_ru": "Финка Дискосура",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 99,
+       "precip": 7.2,
+       "precip_prob": 100,
+       "t_max": 23,
+       "t_min": 22,
+       "weather_code": 55
+      },
+      "evening": {
+       "cloud_cover": 99,
+       "precip": 3.6,
+       "precip_prob": 100,
+       "t_max": 22,
+       "t_min": 22,
+       "weather_code": 55
+      },
+      "morning": {
+       "cloud_cover": 98,
+       "precip": 2.4,
+       "precip_prob": 47,
+       "t_max": 21,
+       "t_min": 20,
+       "weather_code": 55
+      }
+     }
+    },
+    {
+     "elevation": 1125,
+     "id": "isla-escondida",
+     "name_ru": "Исла-Эскондида",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 99,
+       "precip": 5.0,
+       "precip_prob": 58,
+       "t_max": 24,
+       "t_min": 22,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 99,
+       "precip": 6.3,
+       "precip_prob": 78,
+       "t_max": 23,
+       "t_min": 21,
+       "weather_code": 80
+      },
+      "morning": {
+       "cloud_cover": 95,
+       "precip": 0.4,
+       "precip_prob": 38,
+       "t_max": 21,
+       "t_min": 19,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-08": {
+   "sites": [
+    {
+     "elevation": 1125,
+     "id": "isla-escondida",
+     "name_ru": "Исла-Эскондида",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 92,
+       "precip": 2.6,
+       "precip_prob": 82,
+       "t_max": 24,
+       "t_min": 22,
+       "weather_code": 53
+      },
+      "evening": {
+       "cloud_cover": 96,
+       "precip": 0.9,
+       "precip_prob": 89,
+       "t_max": 22,
+       "t_min": 21,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 77,
+       "precip": 1.0,
+       "precip_prob": 49,
+       "t_max": 22,
+       "t_min": 21,
+       "weather_code": 53
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-09": {
+   "sites": [
+    {
+     "elevation": 1125,
+     "id": "isla-escondida",
+     "name_ru": "Исла-Эскондида",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 99,
+       "precip": 7.4,
+       "precip_prob": 93,
+       "t_max": 23,
+       "t_min": 22,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 4.5,
+       "precip_prob": 93,
+       "t_max": 21,
+       "t_min": 20,
+       "weather_code": 80
+      },
+      "morning": {
+       "cloud_cover": 99,
+       "precip": 2.2,
+       "precip_prob": 58,
+       "t_max": 21,
+       "t_min": 19,
+       "weather_code": 55
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-10": {
+   "sites": [
+    {
+     "elevation": 1125,
+     "id": "isla-escondida",
+     "name_ru": "Исла-Эскондида",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 6.0,
+       "precip_prob": 87,
+       "t_max": 24,
+       "t_min": 21,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 6.0,
+       "precip_prob": 87,
+       "t_max": 22,
+       "t_min": 20,
+       "weather_code": 80
+      },
+      "morning": {
+       "cloud_cover": 99,
+       "precip": 1.0,
+       "precip_prob": 59,
+       "t_max": 20,
+       "t_min": 19,
+       "weather_code": 53
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-11": {
+   "sites": [
+    {
+     "elevation": 1125,
+     "id": "isla-escondida",
+     "name_ru": "Исла-Эскондида",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 77,
+       "precip": 3.8,
+       "precip_prob": 86,
+       "t_max": 26,
+       "t_min": 23,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 90,
+       "precip": 4.5,
+       "precip_prob": 87,
+       "t_max": 24,
+       "t_min": 21,
+       "weather_code": 80
+      },
+      "morning": {
+       "cloud_cover": 97,
+       "precip": 1.0,
+       "precip_prob": 53,
+       "t_max": 21,
+       "t_min": 18,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 325,
+     "id": "orito",
+     "name_ru": "Орито",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 30,
+       "precip": 4.2,
+       "precip_prob": 71,
+       "t_max": 31,
+       "t_min": 27,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 71,
+       "precip": 4.5,
+       "precip_prob": 73,
+       "t_max": 28,
+       "t_min": 25,
+       "weather_code": 80
+      },
+      "morning": {
+       "cloud_cover": 90,
+       "precip": 2.8,
+       "precip_prob": 62,
+       "t_max": 25,
+       "t_min": 22,
+       "weather_code": 55
+      }
+     }
+    },
+    {
+     "elevation": 250,
+     "id": "puerto-asis",
+     "name_ru": "Пуэрто-Асис",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 2.4,
+       "precip_prob": 72,
+       "t_max": 29,
+       "t_min": 26,
+       "weather_code": 53
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 2.4,
+       "precip_prob": 76,
+       "t_max": 27,
+       "t_min": 25,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 98,
+       "precip": 1.6,
+       "precip_prob": 58,
+       "t_max": 25,
+       "t_min": 23,
+       "weather_code": 53
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-12": {
+   "sites": [
+    {
+     "elevation": 230,
+     "id": "playa-rica",
+     "name_ru": "Плайя-Рика",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 62,
+       "precip": 0.4,
+       "precip_prob": 52,
+       "t_max": 30,
+       "t_min": 27,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 84,
+       "precip": 0.0,
+       "precip_prob": 53,
+       "t_max": 28,
+       "t_min": 26,
+       "weather_code": 3
+      },
+      "morning": {
+       "cloud_cover": 95,
+       "precip": 0.4,
+       "precip_prob": 50,
+       "t_max": 25,
+       "t_min": 23,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 250,
+     "id": "puerto-asis",
+     "name_ru": "Пуэрто-Асис",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 72,
+       "precip": 0.4,
+       "precip_prob": 52,
+       "t_max": 30,
+       "t_min": 27,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 87,
+       "precip": 0.0,
+       "precip_prob": 53,
+       "t_max": 28,
+       "t_min": 26,
+       "weather_code": 3
+      },
+      "morning": {
+       "cloud_cover": 96,
+       "precip": 0.6,
+       "precip_prob": 50,
+       "t_max": 25,
+       "t_min": 22,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-13": {
+   "sites": [
+    {
+     "elevation": 250,
+     "id": "puerto-asis",
+     "name_ru": "Пуэрто-Асис",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 2.6,
+       "precip_prob": 59,
+       "t_max": 31,
+       "t_min": 27,
+       "weather_code": 95
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 2.8,
+       "precip_prob": 68,
+       "t_max": 28,
+       "t_min": 25,
+       "weather_code": 55
+      },
+      "morning": {
+       "cloud_cover": 98,
+       "precip": 1.8,
+       "precip_prob": 43,
+       "t_max": 26,
+       "t_min": 23,
+       "weather_code": 53
+      }
+     }
+    },
+    {
+     "elevation": 400,
+     "id": "el-escondite",
+     "name_ru": "Эль-Эскондите",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 0.6,
+       "precip_prob": 49,
+       "t_max": 31,
+       "t_min": 27,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 1.1,
+       "precip_prob": 59,
+       "t_max": 28,
+       "t_min": 25,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 99,
+       "precip": 0.2,
+       "precip_prob": 41,
+       "t_max": 25,
+       "t_min": 22,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-14": {
+   "sites": [
+    {
+     "elevation": 400,
+     "id": "el-escondite",
+     "name_ru": "Эль-Эскондите",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 0.0,
+       "precip_prob": 44,
+       "t_max": 34,
+       "t_min": 30,
+       "weather_code": 3
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 0.0,
+       "precip_prob": 67,
+       "t_max": 29,
+       "t_min": 27,
+       "weather_code": 3
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.0,
+       "precip_prob": 26,
+       "t_max": 28,
+       "t_min": 23,
+       "weather_code": 3
+      }
+     }
+    }
+   ]
+  }
+ },
+ "fetched_at": "2026-09-29T16:37:05Z",
+ "source": "open-meteo"
+}

@@ -63,4 +63,7 @@
 - Добавить пару «похожие виды»: `content/similar/<slug-a>--<slug-b>.md`.
 - Факт-чек карточек: скилл `fact-check` ставит `checked: <дата>` во frontmatter; `python3 scripts/card_index.py` пересобирает `docs/fact-check/INDEX.md` (сколько проверено, какие нет).
 - Загрузить фото для набора видов: Actions → pipeline → steps `photos upload`, `only` = слаги.
+- Погода: `data/weather.json` (прогноз Open-Meteo утро/день/вечер по дням и локациям) обновляет без ИИ ежедневный
+  workflow `.github/workflows/weather.yml` (05:00 Боготы, шаг `weather`, коммит + деплой). Вручную: `uv run python run.py weather`
+  или Actions → weather → Run workflow. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
 - Прогресс пайплайна в CI: `curl -s https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json` (обновляется раз в минуту; локально `pipeline/cache/status.json`, см. `pipeline/README.md`).

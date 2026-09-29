@@ -6,6 +6,7 @@
  */
 import Base from '../../layouts/Base.astro';
 import SiteCard from '../../components/SiteCard.astro';
+import WeatherDay from '../../components/WeatherDay.astro';
 import StudyTile from '../../components/StudyTile.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
 import ListFilter from '../../components/ListFilter.svelte';
@@ -58,6 +59,7 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
     <tr><th>Переезды</th><td>{day.travel_ru || '—'}</td></tr>
     <tr><th>Ночёвка</th><td>{day.overnight_site && siteOf[day.overnight_site] ? <a href={`${base}sites/${day.overnight_site}/`}>{day.overnight}</a> : day.overnight}{day.elev_sleep != null && <span class="muted"> · {day.elev_sleep} м</span>}</td></tr>
   </table>
+  <WeatherDay date={day.date} />
 
   {daySites.length > 0 && <div class="strip">{daySites.map((s) => <SiteCard s={s} />)}</div>}
 
