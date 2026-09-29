@@ -39,10 +39,10 @@ en:
 ---
 Shining Sunbeam (медная ирида) — колибри высокогорья, от субпарамо до парамо, на высотах 2 500–4 300 м, во всех трёх хребтах Анд Колумбии. Таких рыжих колибри в горах мало, и птицу на верхушке куста у края парамо видно издалека. Блеск поясницы заметен лишь при взлёте или на солнце, так что главный признак — рыжий силуэт с коротким клювом.
 
-На маршруте вид отмечен как «возможный» только в Сумапасе. Он не входит в программу тура — это вариант для самостоятельного выезда из Боготы.
+На маршруте вид отмечен как «возможный» только в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября.
 
 ## English
 
 Shining Sunbeam is a high-elevation hummingbird, from sub-páramo to páramo at 2,500–4,300 m, in all three Andean ranges of Colombia. There are few such rufous hummingbirds in the mountains, and a bird on top of a bush at the páramo edge can be seen from far away. The rump gloss shows only on take-off or in sunlight, so the main mark is the rufous silhouette with a short bill.
 
-On the route it is rated "maybe" only at Sumapaz. That site is not in the tour programme: an option for an independent trip from Bogotá.
+On the route it is rated "maybe" only at Sumapaz, visited with the guide León on 2 October.

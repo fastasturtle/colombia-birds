@@ -42,10 +42,10 @@ en:
 ---
 Bank Swallow (береговушка) — та же береговушка, что гнездится по речным обрывам в России: в Колумбию она прилетает с севера Америки, в основном на пролёте, и встречается от побережья до высоких плато, по данным до 2 100 м, в отдельных случаях гораздо выше. В сентябре–октябре стаи идут на юг, так что даты тура приходятся на осенний пролёт.
 
-В программе тура она везде отмечена как «маловероятно». Чаще её видят у Боготы, над озёрами Ла-Флориды, в Ботаническом саду, над парамо Сумапаса и Чингасы, но все эти места не входят в программу тура: это вариант для самостоятельного выезда из Боготы. Проверяй каждую бурую ласточку над водой.
+В программе тура она «возможно» только над парамо Сумапаса, куда запланирован выезд 2 октября, на остальных точках — «маловероятно». Чаще её видят у Боготы, над озёрами Ла-Флориды, в Ботаническом саду и над Чингасой, но эти места не входят в программу тура. Проверяй каждую бурую ласточку над водой.
 
 ## English
 
 Bank Swallow is the same Sand Martin that nests in river banks across Russia: it reaches Colombia from North America, mainly on passage, and occurs from the coast to the high plateaus, up to 2,100 m in the data and occasionally much higher. In September–October flocks move south, so the tour dates fall in autumn migration.
 
-Within the tour programme it is rated "unlikely" everywhere. It is seen more often near Bogotá, over the lakes of La Florida, at the Botanical Garden and over the páramo of Sumapaz and Chingaza, but none of these is in the tour programme: they are options for an independent trip from Bogotá. Check every brown swallow over water.
+Within the tour programme it is "maybe" only over the Sumapaz páramo, visited on 2 October, and "unlikely" elsewhere. It is seen more often near Bogotá, over the lakes of La Florida, at the Botanical Garden and over Chingaza, but these are not in the tour programme. Check every brown swallow over water.

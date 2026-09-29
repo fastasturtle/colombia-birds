@@ -39,10 +39,10 @@ en:
 ---
 Green-bearded Helmetcrest (шлемоносная горная нимфа) — эндемик Колумбии, живёт только на влажных парамо Восточных Анд до Кундинамарки, на высотах около 3 000–4 200 м. Это самый «панковский» колибри страны: белый хохол, чёрно-белое лицо и зелёная бородка. Самка без хохла и бородки, снизу беловатая в зеленоватых пятнах.
 
-В основной маршрут вид не входит. Шанс есть только при самостоятельном выезде из Боготы на парамо, не входящие в программу тура: он «точно» на Сумапасе и «возможно» в Чингасе. Смотри на цветущие фрайлехоны и на мелькание белого в хвосте при взлёте.
+Вид «точно» на Сумапасе, куда запланирован выезд с гидом Леоном 2 октября, и «возможно» в Чингасе (не входит в программу тура). Смотри на цветущие фрайлехоны и на мелькание белого в хвосте при взлёте.
 
 ## English
 
 Green-bearded Helmetcrest is a Colombian endemic found only on the humid páramos of the Eastern Andes south to Cundinamarca, at roughly 3,000–4,200 m. It is the country's most "punk" hummingbird: a white crest, a black-and-white face and a green beard. The female lacks the crest and beard and is whitish below with greenish mottling.
 
-The species is not on the main route. The only chance is a trip on your own from Bogotá to páramos outside the tour programme: it is "sure" at Sumapaz and "maybe" at Chingaza. Watch flowering frailejones and the flash of white in the tail as a bird takes off.
+It is "sure" at Sumapaz, visited with the guide León on 2 October, and "maybe" at Chingaza (not in the tour programme). Watch flowering frailejones and the flash of white in the tail as a bird takes off.

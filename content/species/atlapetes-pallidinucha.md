@@ -44,10 +44,10 @@ en:
 ---
 Pale-naped Brushfinch (рыжелобая атлапета) — атлапета кустов у верхней границы леса и эльфийского леса; в Колумбии она живёт на высотах около 2 400–3 300 м, по данным проекта до 3 600 м. Под Боготой встречается номинативная форма с корично-рыжей полосой ото лба, а в Центральных Андах и на юге — форма papallactae с почти жёлтым лбом и более тусклым низом. Выдаёт её светлый затылок, заметный даже со спины.
 
-На маршруте она «точно» на Парамо Бордонсильо 16 октября и «возможно» у Лагуны Ла-Коча в тот же день и в Чикаке. В Чингасе, Сумапасе и Обсерватории колибри она обычна, но это выезды из Боготы вне программы тура.
+На маршруте она «точно» на Парамо Бордонсильо 16 октября и «возможно» у Лагуны Ла-Коча в тот же день и в Чикаке. Она обычна в Сумапасе (выезд 2 октября), а также в Чингасе и Обсерватории колибри, которые в программу тура не входят.
 
 ## English
 
 Pale-naped Brushfinch is a brushfinch of treeline shrubs and elfin forest; in Colombia it lives at about 2,400–3,300 m, up to 3,600 m according to the project data. Around Bogotá lives the nominate form with a cinnamon stripe from the forehead, while the Central Andes and the south hold the form papallactae with an almost yellow forehead and duller underparts. The pale nape gives it away, even seen from behind.
 
-On the route it is "sure" at Páramo Bordoncillo on 16 October and "maybe" at Laguna de La Cocha the same day and at Chicaque. It is common at Chingaza, Sumapaz and the Observatorio de Colibríes, but those are trips from Bogotá outside the tour programme.
+On the route it is "sure" at Páramo Bordoncillo on 16 October and "maybe" at Laguna de La Cocha the same day and at Chicaque. It is common at Sumapaz (visited on 2 October) and at Chingaza and the Observatorio de Colibríes, which are outside the tour programme.

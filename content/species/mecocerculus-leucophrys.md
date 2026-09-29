@@ -46,10 +46,10 @@ en:
 ---
 White-throated Tyrannulet (белогорлый москитолов) — один из самых обычных мелких тиранновых высокогорья: от верхней части облачного леса до кустов парамо, в Колумбии на 2 500–3 600 м. В Восточных Андах вокруг Боготы живёт подвид setophagoides с кремовым брюхом и бледными полосами на крыле, в Нариньо — rufomarginatus с рыжими полосами и тёплой бурой спиной. Даже в тени его выдаёт белое горло, будто распушённое.
 
-На маршруте тура он «возможно» в Чикаке 3 и 24 октября. Надёжнее всего он в Чингасе, Сумапасе, Обсерватории колибри и Ботаническом саду Боготы, но это места вне программы тура, вариант для самостоятельного выезда.
+На маршруте тура он «возможно» в Чикаке 3 и 24 октября. Надёжнее всего он в Сумапасе (выезд 2 октября), а также в Чингасе, Обсерватории колибри и Ботаническом саду Боготы, которые в программу тура не входят.
 
 ## English
 
 White-throated Tyrannulet is one of the commonest small flycatchers of high elevations, from upper cloud forest to páramo shrubs, in Colombia at 2,500–3,600 m. The Eastern Andes around Bogotá hold the subspecies setophagoides, with a creamy belly and pale wing bars; Nariño has rufomarginatus, with rufous wing bars and a warm brown back. Even in shade the white throat gives it away, looking as if puffed out.
 
-On the tour route it is "maybe" at Chicaque on 3 and 24 October. It is most reliable at Chingaza, Sumapaz, the Observatorio de Colibríes and the Bogotá Botanical Garden, but these sites are outside the tour programme, an option for an independent outing.
+On the tour route it is "maybe" at Chicaque on 3 and 24 October. It is most reliable at Sumapaz (visited on 2 October) and at Chingaza, the Observatorio de Colibríes and the Bogotá Botanical Garden, which are outside the tour programme.

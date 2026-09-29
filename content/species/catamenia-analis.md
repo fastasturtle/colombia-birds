@@ -44,10 +44,10 @@ en:
 ---
 Band-tailed Seedeater (пестрохвостый семеноед) — зерноядная птица открытых мест высокогорья Анд, в Колумбии обычно на высотах 1 000–3 700 м. Сидящую птицу легко принять за другого серого семеноеда, но стоит ей взлететь, как белая перевязь поперёк хвоста всё решает. Это самая надёжная примета и для бурых пёстрых самок.
 
-На программе тура вид отмечен только как «маловероятный» в Чикаке. «Возможно» он в Чингасе, на Сумапасе и у Обсерватории колибри, но эти места не входят в программу тура: это варианты для самостоятельного выезда из Боготы. Там ищи его на обочинах и полях у кромки парамо.
+В программе тура он «возможно» на Сумапасе, куда запланирован выезд 2 октября, и «маловероятен» в Чикаке. «Возможно» он также в Чингасе и у Обсерватории колибри, но эти места не входят в программу тура. Там ищи его на обочинах и полях у кромки парамо.
 
 ## English
 
 Band-tailed Seedeater is a seed-eater of open country in the high Andes, in Colombia usually at 1,000–3,700 m. A perched bird is easy to take for another gray seedeater, but once it flies, the white band across the tail settles it. This is also the most reliable mark for the brown, streaked females.
 
-Within the tour programme the species is rated only "unlikely", at Chicaque. It is "maybe" at Chingaza, Sumapaz and the Observatorio de Colibríes, but these sites are not in the tour programme: they are options for an independent trip from Bogotá. There, look for it along road edges and fields at the páramo margin.
+Within the tour programme it is "maybe" at Sumapaz, visited on 2 October, and "unlikely" at Chicaque. It is also "maybe" at Chingaza and the Observatorio de Colibríes, but these sites are not in the tour programme. There, look for it along road edges and fields at the páramo margin.

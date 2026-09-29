@@ -43,10 +43,10 @@ en:
 ---
 Muisca Antpitta (рыжая питтовая муравьеловка) — одна из форм бывшего вида Rufous Antpitta, который в 2020 году разделили на несколько видов по окраске, голосу и генетике. Muisca живёт в Восточных Андах от Тачиры в Венесуэле до Кундинамарки и запада Меты, в том числе над Боготой, в верхнем облачном лесу и у границы парамо, на 1 850–3 800 м. Маленький рыжий шарик на длинных ногах трудно спутать с чем-то, кроме родственных антпитт.
 
-В программу тура её места не входят. Вид «точно» есть на Чингасе и «возможно» в Обсерватории колибри и в Сумапасе; всё это не входит в программу тура, вариант для самостоятельного выезда из Боготы. В Чикаке 3 и 23–24 октября она почти не отмечается.
+Вид «точно» есть на Чингасе и «возможно» в Обсерватории колибри (оба места не входят в программу тура) и в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября. В Чикаке 3 и 23–24 октября она почти не отмечается.
 
 ## English
 
 Muisca Antpitta is one of the forms of the former Rufous Antpitta, split in 2020 into several species on plumage, voice and genetics. Muisca lives in the Eastern Andes from Táchira in Venezuela to Cundinamarca and western Meta, including above Bogotá, in upper cloud forest and at the páramo edge, at 1,850–3,800 m. A small rufous ball on long legs can hardly be confused with anything but related antpittas.
 
-Its sites are not in the tour programme. It is "sure" at Chingaza and "maybe" at the Observatorio de Colibríes and Sumapaz; all of these are outside the tour programme, an option for an independent trip from Bogotá. At Chicaque on 3 and 23–24 October it is hardly ever recorded.
+It is "sure" at Chingaza and "maybe" at the Observatorio de Colibríes (both outside the tour programme) and at Sumapaz, visited with the guide León on 2 October. At Chicaque on 3 and 23–24 October it is hardly ever recorded.

@@ -44,10 +44,10 @@ en:
 ---
 Bronze-tailed Thornbill (бронзовохвостый радужник) — почти-эндемик Колумбии: живёт на парамо Восточных Анд от венесуэльского массива Тама до Кундинамарки, на высотах 3 000–3 900 м. На камне или кусте он выглядит тёмным, и лучшие приметы — медное надхвостье при взлёте и узкая бородка, сияющая розовым на конце.
 
-В основной маршрут вид не входит: он «точно» на парамо Чингаса и Сумапас у Боготы. Эти парамо не входят в программу тура, шанс есть только при самостоятельном выезде из Боготы; там же ищут шлемоносную горную нимфу, и эти два колибри хорошо сравнивать.
+Вид «точно» на парамо Чингаса и Сумапас у Боготы. Сумапас запланирован на 2 октября с гидом Леоном, Чингаса в программу тура не входит; там же ищут шлемоносную горную нимфу, и эти два колибри хорошо сравнивать.
 
 ## English
 
 Bronze-tailed Thornbill is a Colombian near-endemic of the Eastern Andes páramos from the Tamá massif in Venezuela to Cundinamarca, at 3,000–3,900 m. On a rock or shrub it looks dark, and the best marks are the coppery rump as it takes off and the narrow beard glowing pink at its tip.
 
-The species is not on the main route: it is "sure" on the Chingaza and Sumapaz páramos near Bogotá. These páramos are not in the tour programme, so the only chance is a trip on your own from Bogotá; Green-bearded Helmetcrest is searched for at the same places, and the two are good to compare.
+It is "sure" on the Chingaza and Sumapaz páramos near Bogotá. Sumapaz is planned for 2 October with the guide León, Chingaza is not in the tour programme; Green-bearded Helmetcrest is searched for at the same places, and the two are good to compare.

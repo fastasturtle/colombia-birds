@@ -43,10 +43,10 @@ en:
 ---
 Paramo Pipit (конёк парамо) — единственный конёк высокогорий Колумбии; латинское имя вида дано по Боготе. Живёт на открытых безлесных плато, у нас на высотах около 3 100–3 600 м: в парамо с низкой травой, кочками и болотцами и на соседних пастбищах. Незаметен, пока не взлетит из-под ног.
 
-В программе тура вид не ожидается. Шанс есть в парамо Сумапаса (там он «возможно») и реже в Чингасе, но оба места не входят в программу тура: это вариант для самостоятельного выезда из Боготы.
+Шанс есть в парамо Сумапаса (там он «возможно»), куда запланирован выезд с гидом Леоном 2 октября, и реже в Чингасе, которая в программу тура не входит.
 
 ## English
 
 Paramo Pipit is the only pipit of the Colombian highlands; its Latin name refers to Bogotá. It lives on open treeless plateaus, in Colombia at about 3,100–3,600 m: páramo with short grass, tussocks and small bogs, and the pastures next to it. It goes unnoticed until it flies up from underfoot.
 
-The species is not expected within the tour programme. There is a chance in the páramo of Sumapaz (rated "maybe") and less so at Chingaza, but neither is in the tour programme: they are options for an independent trip from Bogotá.
+There is a chance in the páramo of Sumapaz (rated "maybe"), visited with the guide León on 2 October, and less so at Chingaza, which is not in the tour programme.

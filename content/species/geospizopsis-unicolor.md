@@ -43,10 +43,10 @@ en:
 ---
 Plumbeous Sierra Finch (свинцово-серый овсяночник) — птица открытого парамо и высокогорных пастбищ, в основном выше 3 000 м. Самец похож на маленькую серую овсянку без единого пятна; самка совсем другая, бурая и пёстрая, и её легко принять за воробьиную птицу другого семейства. Смотри на клюв и на то, что птица кормится на земле среди травы.
 
-На основном маршруте шанс невелик: на Бордонсильо 16 октября вид отмечен как маловероятный. Надёжные места — парамо Сумапаса и Чингасы у Боготы; они не в программе тура, это варианты для самостоятельного выезда.
+На основном маршруте шанс невелик: на Бордонсильо 16 октября вид отмечен как маловероятный. Надёжные места — парамо Сумапаса и Чингасы у Боготы; на Сумапас запланирован выезд с гидом Леоном 2 октября, Чингаса в программу тура не входит.
 
 ## English
 
 Plumbeous Sierra Finch is a bird of open páramo and high pastures, mostly above 3,000 m. The male looks like a small gray bunting without a single mark; the female is quite different, brown and streaky, and is easily taken for something from another family. Watch the bill and the habit of feeding on the ground in the grass.
 
-The main route offers little chance: on Bordoncillo on 16 October the species is rated unlikely. The reliable places are the páramos of Sumapaz and Chingaza near Bogotá; they are not in the tour programme, only options for a trip on your own.
+The main route offers little chance: on Bordoncillo on 16 October the species is rated unlikely. The reliable places are the páramos of Sumapaz and Chingaza near Bogotá; Sumapaz is planned for 2 October with the guide León, Chingaza is not in the tour programme.

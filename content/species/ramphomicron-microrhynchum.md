@@ -43,10 +43,10 @@ en:
 ---
 Purple-backed Thornbill (пурпурный короткоклюв) — колибри опушек горного леса, криволесья и парамо на высотах 1 700–3 600 м; в сезон дождей поднимается выше. Спина самца на свету горит пурпуром, а в тени кажется почти чёрной, и тогда первым бросается в глаз клюв: он такой короткий, что голова выглядит «безносой».
 
-На маршруте вид «возможен» на Лагуне Ла-Коча 16 октября: проверяй цветущие кусты по опушкам. Его отмечают также в Чингасе, Сумапасе и Обсерватории колибри, но они не входят в программу тура — это вариант для самостоятельного выезда из Боготы.
+На маршруте вид «возможен» на Лагуне Ла-Коча 16 октября: проверяй цветущие кусты по опушкам. Его отмечают также в Сумапасе (выезд 2 октября), Чингасе и Обсерватории колибри; два последних места в программу тура не входят.
 
 ## English
 
 Purple-backed Thornbill is a hummingbird of montane forest edges, elfin woodland and páramo at 1,700–3,600 m; in the rainy season it moves higher. In good light the male's back glows purple, in shade it looks almost black, and then the bill catches the eye first: it is so short that the head looks "noseless".
 
-On the route it is "maybe" at Laguna de La Cocha on 16 October: check flowering shrubs along the edges. It is also recorded at Chingaza, Sumapaz and the Observatorio de Colibríes, but these are not in the tour programme: an option for an independent trip from Bogotá.
+On the route it is "maybe" at Laguna de La Cocha on 16 October: check flowering shrubs along the edges. It is also recorded at Sumapaz (visited on 2 October), Chingaza and the Observatorio de Colibríes; the last two are not in the tour programme.

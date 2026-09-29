@@ -48,10 +48,10 @@ en:
 ---
 Paramo Seedeater (семеноед парамо) — самый тёмный и самый скрытный из трёх видов катамений Колумбии. По данным проекта он живёт на высотах 1 600–3 800 м, но обычно держится у верхней границы леса, в густых кустах и на опушках, реже в открытом парамо. Встречается редко и пятнами. Самца узнают по ровной тёмной окраске без пестрин, рыжему подхвостью и светлому клюву.
 
-Все точки со статусом «возможно» — Сумапас, Чингаса и Обсерватория колибри: они не входят в программу тура, это вариант для самостоятельного выезда из Боготы. На самом маршруте небольшой шанс есть у Лагуны Ла-Коча 16 октября.
+Точки со статусом «возможно» — Сумапас, куда запланирован выезд с гидом Леоном 2 октября, а также Чингаса и Обсерватория колибри, которые в программу тура не входят. На самом маршруте небольшой шанс есть у Лагуны Ла-Коча 16 октября.
 
 ## English
 
 Paramo Seedeater is the darkest and most secretive of Colombia's three Catamenia seedeaters. Project data give 1,600–3,800 m, but it usually keeps to treeline, in dense shrubs and edges, less often in open páramo. It is scarce and patchy. The male is known by its uniform dark plumage without streaks, rufous undertail and pale bill.
 
-All its "maybe" sites (Sumapaz, Chingaza and the Observatorio de Colibríes) are outside the tour programme, options for an independent trip from Bogotá. On the route itself there is a small chance at Laguna de La Cocha on 16 October.
+Its "maybe" sites are Sumapaz, visited with the guide León on 2 October, and Chingaza and the Observatorio de Colibríes, which are outside the tour programme. On the route itself there is a small chance at Laguna de La Cocha on 16 October.

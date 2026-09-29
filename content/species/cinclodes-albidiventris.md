@@ -40,10 +40,10 @@ en:
 ---
 Chestnut-winged Cinclodes (каштановокрылая трясохвостка) — птица парамо и высокогорных лугов на 3 200–4 300 м, изредка выше. Раньше её считали подвидом Bar-winged Cinclodes. Это бурая птица размером с дрозда, которая ведёт себя почти как трясогузка: бегает по мокрой земле и камням, и главный её признак виден, когда она взлетает, — рыжая полоса через всё крыло.
 
-В программу тура её места не входят. Под Боготой она «точно» в Сумапасе, на Чингасе редка; оба парка не входят в программу тура, это вариант для самостоятельного выезда из Боготы. Ищи её у ручьёв и луж вдоль дороги через парамо.
+Под Боготой она «точно» в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября; на Чингасе (вне программы тура) редка. Ищи её у ручьёв и луж вдоль дороги через парамо.
 
 ## English
 
 Chestnut-winged Cinclodes is a bird of páramo and high grassland at 3,200–4,300 m, occasionally higher. It was formerly treated as a subspecies of Bar-winged Cinclodes. It is a thrush-sized brown bird that behaves almost like a wagtail, running over wet ground and rocks, and its main mark shows on take-off: a rufous band across the whole wing.
 
-Its sites are not in the tour programme. Near Bogotá it is "sure" at Sumapaz and scarce at Chingaza; both parks are outside the tour programme, an option for an independent trip from Bogotá. Look for it by streams and puddles along the road across the páramo.
+Near Bogotá it is "sure" at Sumapaz, visited with the guide León on 2 October, and scarce at Chingaza (outside the tour programme). Look for it by streams and puddles along the road across the páramo.

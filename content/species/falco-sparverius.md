@@ -42,10 +42,10 @@ en:
 ---
 American Kestrel (воробьиная пустельга) — самый мелкий и самый обычный сокол Америки. В Колумбии живёт оседлая андская форма, а осенью к ней добавляются мигранты с севера; держится на открытых местах от низменностей до 4 000 м: на пастбищах, полях, у дорог и в парамо. Рыжая спина, пёстрое лицо с двумя чёрными полосами и привычка зависать над полем делают её одной из самых простых хищных птиц.
 
-На маршруте она «возможно» в Эль-Энканто и Ла-Дримофиле 4–6 октября, в Сибундое 15–16 октября, на Бордонсильо и у Лагуны Ла-Коча 16 октября. Под Боготой она бывает в Чингасе и Сумапасе, но это места вне программы тура, вариант для самостоятельного выезда.
+На маршруте она «возможно» в Эль-Энканто и Ла-Дримофиле 4–6 октября, в Сибундое 15–16 октября, на Бордонсильо и у Лагуны Ла-Коча 16 октября. Под Боготой она бывает в Сумапасе (выезд 2 октября) и в Чингасе, которая в программу тура не входит.
 
 ## English
 
 American Kestrel is the smallest and commonest falcon in the Americas. Colombia has a resident Andean form, joined in autumn by migrants from the north; it keeps to open country from the lowlands to 4,000 m: pastures, fields, roadsides and páramo. The rufous back, the patterned face with two black bars and the habit of hovering over a field make it one of the easiest raptors.
 
-On the route it is "maybe" at El Encanto and La Drymophila on 4–6 October, at Sibundoy on 15–16 October, and at Bordoncillo and Laguna de La Cocha on 16 October. Near Bogotá it occurs at Chingaza and Sumapaz, but these sites are outside the tour programme, an option for an independent outing.
+On the route it is "maybe" at El Encanto and La Drymophila on 4–6 October, at Sibundoy on 15–16 October, and at Bordoncillo and Laguna de La Cocha on 16 October. Near Bogotá it occurs at Sumapaz (visited on 2 October) and at Chingaza, which is outside the tour programme.

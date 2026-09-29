@@ -40,10 +40,10 @@ en:
 ---
 Eastern Meadowlark (большой луговой трупиал) — лойка открытых травяных мест; в Колумбии она живёт от низин до 2 500 м, местами до 3 500 м, в том числе на пастбищах саванны Боготы. Сидящая в траве птица сверху пёстро-бурая и почти незаметна, но стоит ей повернуться грудью, и жёлтый низ с чёрным «V» виден издалека.
 
-«Точно» она у Обсерватории колибри и в Чингасе, «возможно» в Ла-Флориде и Сумапасе, но всё это выезды из Боготы вне программы тура. На самом маршруте она «возможна» только на пастбищах у Чикаке 3 и 23–24 октября.
+«Точно» она у Обсерватории колибри и в Чингасе, «возможно» в Ла-Флориде (всё это выезды из Боготы вне программы тура) и в Сумапасе, куда запланирован выезд 2 октября. На самом маршруте она «возможна» только на пастбищах у Чикаке 3 и 23–24 октября.
 
 ## English
 
 Eastern Meadowlark is a meadowlark of open grassy country; in Colombia it lives from the lowlands up to 2,500 m, locally to 3,500 m, including the pastures of the Bogotá savanna. A bird sitting in the grass is streaky brown above and almost invisible, but once it turns its breast towards you, the yellow underparts with a black V show from afar.
 
-It is "sure" at the Observatorio de Colibríes and Chingaza and "maybe" at La Florida and Sumapaz, but all of these are trips from Bogotá outside the tour programme. On the route itself it is "maybe" only in pastures around Chicaque on 3 and 23–24 October.
+It is "sure" at the Observatorio de Colibríes and Chingaza and "maybe" at La Florida (all trips from Bogotá outside the tour programme) and at Sumapaz, visited on 2 October. On the route itself it is "maybe" only in pastures around Chicaque on 3 and 23–24 October.

@@ -44,10 +44,10 @@ en:
 ---
 Streak-throated Bush-Tyrant (пестрогорлая гевара) — крупная тиранновая Анд, в Колумбии на высотах 2 400–3 400 м. Живёт на опушках, в кустарниках и на пастбищах верхнего облачного пояса. Местное название в Колумбии и Венесуэле — «чифлаперро» (от исп. chiflar «свистеть» и perro «собака»): её громкий человеческий свист часто слышен раньше, чем видна сама птица. В полёте ярко вспыхивают рыжие крылья.
 
-На маршруте вид «возможно» в Чикаке 3 и 23–24 октября; чаще его отмечают в Чингасе, Сумапасе и у Обсерватории колибри, но это выезды вне программы тура. Проверяй голые верхушки деревьев на опушке.
+На маршруте вид «возможно» в Чикаке 3 и 23–24 октября; чаще его отмечают в Сумапасе (выезд 2 октября), Чингасе и у Обсерватории колибри; два последних места в программу тура не входят. Проверяй голые верхушки деревьев на опушке.
 
 ## English
 
 Streak-throated Bush-Tyrant is a large Andean tyrant flycatcher, in Colombia at 2,400–3,400 m. It lives along forest edges, in shrubland and in pastures of the upper cloud-forest belt. Its local name in Colombia and Venezuela is "chiflaperro" (from Spanish chiflar, "to whistle", and perro, "dog"): its loud, human-like whistle is often heard before the bird is seen. In flight the rufous wings flash brightly.
 
-On the route it is "maybe" at Chicaque on 3 and 23–24 October; it is recorded more often at Chingaza, Sumapaz and the Observatorio de Colibríes, but those are optional trips outside the tour programme. Check bare treetops at the forest edge.
+On the route it is "maybe" at Chicaque on 3 and 23–24 October; it is recorded more often at Sumapaz (visited on 2 October), Chingaza and the Observatorio de Colibríes; the last two are outside the tour programme. Check bare treetops at the forest edge.

@@ -44,10 +44,10 @@ en:
 ---
 Greater Yellowlegs (пёстрый улит) — северный мигрант: гнездится на болотах тайги Канады и Аляски, а с сентября по апрель встречается по всей Колумбии, от морских лагун до высокогорных озёр, по данным до 4 100 м. Это крупный длинноногий улит длиной около 30–35 см, заметно больше похожего Lesser Yellowlegs. Когда птицы стоят рядом, решает клюв: у большого он длиннее головы и чуть вздёрнут.
 
-На маршруте вид «возможно» на прудах Финки Марагрикола 22 октября, на Лагуне Ла-Коча 16 октября и у Эль-Эскондите 13–14 октября. Под Боготой он «точно» в Сумапасе и «возможно» в Ла-Флориде, но это выезды вне программы тура.
+На маршруте вид «возможно» на прудах Финки Марагрикола 22 октября, на Лагуне Ла-Коча 16 октября и у Эль-Эскондите 13–14 октября. Под Боготой он «точно» в Сумапасе (выезд 2 октября) и «возможно» в Ла-Флориде, которая в программу тура не входит.
 
 ## English
 
 Greater Yellowlegs is a northern migrant: it breeds in boreal bogs of Canada and Alaska and from September to April occurs throughout Colombia, from coastal lagoons to high Andean lakes, up to 4,100 m in the data. It is a large long-legged shank of about 30–35 cm, clearly bigger than the similar Lesser Yellowlegs. When the two stand together, the bill decides it: in the Greater it is longer than the head and slightly upturned.
 
-On the route it is "maybe" at the Finca Maragrícola ponds on 22 October, at Laguna de La Cocha on 16 October and at El Escondite on 13–14 October. Near Bogotá it is "sure" at Sumapaz and "maybe" at La Florida, but those are optional trips outside the tour programme.
+On the route it is "maybe" at the Finca Maragrícola ponds on 22 October, at Laguna de La Cocha on 16 October and at El Escondite on 13–14 October. Near Bogotá it is "sure" at Sumapaz (visited on 2 October) and "maybe" at La Florida, which is outside the tour programme.

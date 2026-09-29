@@ -44,10 +44,10 @@ en:
 ---
 Black Flowerpiercer (чёрный цветокол) — самый обычный цветокол садов и кустарников Анд, в Колумбии на высотах примерно 1 850–4 000 м, чаще всего 2 700–3 400 м. Он легко уживается рядом с человеком: живые изгороди, парки, эвкалиптовые посадки. В тени это просто маленькая чёрная птичка у цветков; смотри на вздёрнутый клюв и на то, как она пристраивается к венчику сбоку.
 
-На маршруте тура он «возможно» у Лагуны Ла-Коча и на Бордонсильо 16 октября и в Чикаке 3, 23 и 24 октября. «Точно» он в Ботаническом саду Боготы, Обсерватории колибри, Чингасе и Сумапасе, но это не входит в программу тура, вариант для самостоятельного выезда из Боготы.
+На маршруте тура он «возможно» у Лагуны Ла-Коча и на Бордонсильо 16 октября и в Чикаке 3, 23 и 24 октября. «Точно» он в Сумапасе (выезд 2 октября), а также в Ботаническом саду Боготы, Обсерватории колибри и Чингасе, которые в программу тура не входят.
 
 ## English
 
 Black Flowerpiercer is the commonest flowerpiercer of Andean gardens and shrubland, in Colombia at about 1,850–4,000 m, mostly 2,700–3,400 m. It lives easily alongside people: hedgerows, parks, eucalyptus plantations. In shade it is just a small black bird at flowers; look for the upturned bill and the way it settles beside a flower to reach in from the side.
 
-On the tour route it is "maybe" at Laguna de La Cocha and Bordoncillo on 16 October and at Chicaque on 3, 23 and 24 October. It is "sure" at the Bogotá Botanical Garden, the Observatorio de Colibríes, Chingaza and Sumapaz, but these are not in the tour programme: an option for an independent trip from Bogotá.
+On the tour route it is "maybe" at Laguna de La Cocha and Bordoncillo on 16 October and at Chicaque on 3, 23 and 24 October. It is "sure" at Sumapaz (visited on 2 October) and at the Bogotá Botanical Garden, the Observatorio de Colibríes and Chingaza, which are not in the tour programme.
