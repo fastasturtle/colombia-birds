@@ -11,7 +11,7 @@
       "day": {
        "cloud_cover": 97,
        "precip": 2.2,
-       "precip_prob": 83,
+       "precip_prob": 75,
        "t_max": 19,
        "t_min": 17,
        "weather_code": 53
@@ -19,7 +19,7 @@
       "evening": {
        "cloud_cover": 99,
        "precip": 0.1,
-       "precip_prob": 75,
+       "precip_prob": 81,
        "t_max": 16,
        "t_min": 15,
        "weather_code": 51
@@ -27,7 +27,7 @@
       "morning": {
        "cloud_cover": 89,
        "precip": 0.0,
-       "precip_prob": 18,
+       "precip_prob": 10,
        "t_max": 18,
        "t_min": 12,
        "weather_code": 3
@@ -47,7 +47,7 @@
       "day": {
        "cloud_cover": 90,
        "precip": 1.7,
-       "precip_prob": 100,
+       "precip_prob": 94,
        "t_max": 18,
        "t_min": 17,
        "weather_code": 53
@@ -55,7 +55,7 @@
       "evening": {
        "cloud_cover": 100,
        "precip": 0.1,
-       "precip_prob": 86,
+       "precip_prob": 82,
        "t_max": 17,
        "t_min": 14,
        "weather_code": 51
@@ -63,7 +63,7 @@
       "morning": {
        "cloud_cover": 86,
        "precip": 0.1,
-       "precip_prob": 25,
+       "precip_prob": 34,
        "t_max": 16,
        "t_min": 11,
        "weather_code": 51
@@ -115,7 +115,7 @@
       "day": {
        "cloud_cover": 70,
        "precip": 0.3,
-       "precip_prob": 51,
+       "precip_prob": 71,
        "t_max": 19,
        "t_min": 17,
        "weather_code": 51
@@ -123,7 +123,7 @@
       "evening": {
        "cloud_cover": 97,
        "precip": 0.0,
-       "precip_prob": 31,
+       "precip_prob": 51,
        "t_max": 17,
        "t_min": 14,
        "weather_code": 3
@@ -131,7 +131,7 @@
       "morning": {
        "cloud_cover": 100,
        "precip": 0.0,
-       "precip_prob": 23,
+       "precip_prob": 10,
        "t_max": 16,
        "t_min": 12,
        "weather_code": 3
@@ -151,7 +151,7 @@
       "day": {
        "cloud_cover": 33,
        "precip": 0.2,
-       "precip_prob": 87,
+       "precip_prob": 73,
        "t_max": 29,
        "t_min": 26,
        "weather_code": 51
@@ -159,7 +159,7 @@
       "evening": {
        "cloud_cover": 57,
        "precip": 0.1,
-       "precip_prob": 88,
+       "precip_prob": 69,
        "t_max": 26,
        "t_min": 22,
        "weather_code": 51
@@ -167,7 +167,7 @@
       "morning": {
        "cloud_cover": 39,
        "precip": 0.0,
-       "precip_prob": 13,
+       "precip_prob": 8,
        "t_max": 24,
        "t_min": 18,
        "weather_code": 2
@@ -729,6 +729,6 @@
    ]
   }
  },
- "fetched_at": "2026-09-29T16:37:05Z",
+ "fetched_at": "2026-09-29T16:44:44Z",
  "source": "open-meteo"
 }
