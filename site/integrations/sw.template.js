@@ -8,8 +8,11 @@
  * user actually opens (pages, assets, photos) plus the /offline/ page itself.
  *
  * HTML is stale-while-revalidate: a cached page is shown at once (no waiting for the network, so the
- * home-screen app does not open on a black screen) and refreshed in the background. Freshness is signalled
- * by the «Есть новая версия» toast (version.json vs <meta name="build-version">, see Base.astro). Whenever a
+ * home-screen app does not open on a black screen) and refreshed in the background. Once the fresh copy is
+ * stored, the worker posts PAGE_REFRESHED with its build id to the page (notifyRefreshed); if it differs from
+ * the page's own, Base.astro reloads the page once while the user has not started reading, otherwise shows the
+ * «Есть новая версия» toast (which also has its own fallback check: version.json vs
+ * <meta name="build-version">). Whenever a
  * fresh page is stored, the _astro files it references are stored too, so it also works offline right away.
  *
  *   pages-v1  same-origin HTML and assets (keys: absolute URL without ?query)
@@ -108,7 +111,8 @@ self.addEventListener('fetch', (event) => {
 // inline 503 stub.
 // A user reload (navigate with cache 'reload') also gets the cached copy first. That is intended: the
 // toast's «Обновить» is pressed after the background refresh started by this very page load has normally
-// completed, so the reload shows the fresh page. Freshness is the toast's job, not a network wait.
+// completed, so the reload shows the fresh page. Freshness is the job of PAGE_REFRESHED (a one-time silent
+// reload or the toast) and of the toast's own check, not a network wait.
 
 async function handleHtml(event) {
   const req = event.request;
@@ -150,9 +154,30 @@ async function fetchPage(event, url, key) {
       const html = await copy.clone().text();
       await (await caches.open(PAGES)).put(key, copy);
       await cacheAssetsOf(html);
+      try { await notifyRefreshed(event, key, html); } catch (e) { /* never affects the response */ }
     })().catch(() => {}));
   }
   return res;
+}
+
+/**
+ * Tells the page that made the request which build its URL now has in the cache:
+ * { type: 'PAGE_REFRESHED', url: key, version }. It matters after a stale answer: Base.astro reloads the page
+ * once (or shows the toast) when the version differs from the one the page was rendered with. Sent after a
+ * first (uncached) fetch too, where the versions match and nothing happens. For a navigation the page is
+ * event.resultingClientId: clientId is empty there, or (Chrome) the page the navigation started from, so
+ * resultingClientId wins whenever it is set (it is empty for subresource requests). clients.get waits for
+ * such a reserved client to be ready; the short retry covers a browser that resolves undefined meanwhile.
+ */
+async function notifyRefreshed(event, key, html) {
+  const m = html.match(/<meta name="build-version" content="([^"]*)"/);
+  const id = event.resultingClientId || event.clientId;
+  if (!m || !id) return;
+  for (let i = 0; i < 10; i++) {
+    const client = await self.clients.get(id);
+    if (client) { client.postMessage({ type: 'PAGE_REFRESHED', url: key, version: m[1] }); return; }
+    await new Promise((ok) => setTimeout(ok, 300));
+  }
 }
 
 /**

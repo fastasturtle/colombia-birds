@@ -10,7 +10,9 @@
  *    see OfflinePack.svelte): a few pages + all _astro assets + 2 photos of Spatula discors, served from memory.
  * 4. Clicks «Скачать пакет», waits for «Пакет скачан». Online, checks stale-while-revalidate: a cached page
  *    comes from the cache although the server is slow, and the server is asked for it in the background; a page
- *    changed on the server shows up on the next visit and its new _astro file is already cached.
+ *    changed on the server (another build id) reloads itself once, silently, when the background refresh lands,
+ *    with its new _astro file already cached; after that one reload, or once the user has scrolled, the
+ *    «Есть новая версия» toast shows instead.
  * 5. Goes offline (context.setOffline + the server is closed)
  *    and checks: a cached species page renders its H1 and its cached medium photo; a cached day page shows the
  *    cached thumb; a page that was never cached gets the offline page with «эта страница не скачана».
@@ -156,24 +158,69 @@ try {
     } finally { delays.delete(SPECIES); }
   });
 
-  await step('a page changed on the server shows up on the next visit, with its new _astro file cached', async () => {
-    const oldHtml = readFileSync(join(dist, 'words/index.html'), 'utf8');
-    const oldH1 = oldHtml.match(/<h1[^>]*>([^<]*)<\/h1>/)[1];
+  // The words page as a newer build: another H1, another build id in <meta name="build-version"> (the worker
+  // reads it and posts PAGE_REFRESHED), optionally an extra head tag.
+  const wordsHtml = readFileSync(join(dist, 'words/index.html'), 'utf8');
+  const changedWords = (h1, suffix, head = '') => wordsHtml
+    .replace(/(<h1[^>]*>)[^<]*(<\/h1>)/, `$1${h1}$2`)
+    .replace(/(<meta name="build-version" content=")([^"]*)"/, `$1$2${suffix}"`)
+    .replace('</head>', `${head}</head>`);
+  const h1Text = () => page.locator('main h1').first().textContent({ timeout: 2000 }).then((t) => t?.trim(), () => null);
+  // pages at test builds must not get the toast from the fallback version.json check (throttled for 60 s by
+  // this timestamp; one in the future throttles it for the whole run), only from PAGE_REFRESHED
+  const throttleVersionCheck = () => page.evaluate(() => sessionStorage.setItem('cb.nv.checked', '9e15'));
+
+  await step('a page changed on the server reloads itself once when the refresh lands, with its new _astro file cached', async () => {
+    const oldH1 = wordsHtml.match(/<h1[^>]*>([^<]*)<\/h1>/)[1];
     const NEW_H1 = 'Обновлённый заголовок (тест)';
     const ASSET = `${BASE}/_astro/__test-refresh.js`;
     overrides.set(ASSET, [types.js, 'document.documentElement.dataset.testRefresh = "1";']);
-    overrides.set(WORDS, [types.html, oldHtml
-      .replace(/(<h1[^>]*>)[^<]*(<\/h1>)/, `$1${NEW_H1}$2`)
-      .replace('</head>', `<script type="module" src="${ASSET}"></script></head>`)]);
+    overrides.set(WORDS, [types.html, changedWords(NEW_H1, '-t1', `<script type="module" src="${ASSET}"></script>`)]);
+    delays.set(WORDS, 1500); // the refresh lands after the stale page has been checked
     hits.length = 0;
-    await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
-    assert.equal((await page.locator('main h1').first().textContent())?.trim(), oldH1, 'first visit: the cached (stale) page');
-    await waitFor(() => hits.includes(WORDS), `a revalidation request for ${WORDS}`);
-    await waitFor(() => page.evaluate((u) => caches.open('pages-v1').then((c) => c.match(u)).then((r) => !!r), origin + ASSET),
-      'the refreshed page\'s new _astro file in pages-v1');
-    await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
-    assert.equal((await page.locator('main h1').first().textContent())?.trim(), NEW_H1, 'second visit: the refreshed page');
+    try {
+      await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
+      assert.equal(await h1Text(), oldH1, 'first visit: the cached (stale) page');
+      await page.evaluate(() => { window.__stale = 1; });
+      await waitFor(async () => (await h1Text()) === NEW_H1, `the page to reload itself with H1 «${NEW_H1}»`);
+    } finally { delays.delete(WORDS); }
+    await page.waitForLoadState('load');
+    assert.ok(hits.includes(WORDS), `a revalidation request for ${WORDS}`);
+    assert.equal(await page.evaluate(() => window.__stale), undefined, 'a new document (reloaded, not patched)');
+    assert.equal(await page.evaluate(() => sessionStorage.getItem('cb.autoreload')),
+      full.version + '-t1', 'the reload is remembered for this version');
     await page.waitForFunction(() => document.documentElement.dataset.testRefresh === '1', null, { timeout: 5000 });
+    assert.ok(await page.evaluate((u) => caches.open('pages-v1').then((c) => c.match(u)).then((r) => !!r), origin + ASSET),
+      'the refreshed page\'s new _astro file in pages-v1');
+    await throttleVersionCheck();
+  });
+
+  await step('no second reload for the same version: the toast shows instead', async () => {
+    const H1_2 = 'Обновлённый заголовок 2 (тест)';
+    overrides.set(WORDS, [types.html, changedWords(H1_2, '-t2')]);
+    await page.evaluate((v) => sessionStorage.setItem('cb.autoreload', v), full.version + '-t2'); // "already reloaded once"
+    delays.set(WORDS, 1000);
+    try {
+      await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
+      await page.evaluate(() => { window.__stale = 1; });
+      await page.locator('#new-version').waitFor({ state: 'visible', timeout: 10000 });
+    } finally { delays.delete(WORDS); }
+    assert.equal(await page.evaluate(() => window.__stale), 1, 'not reloaded');
+    assert.notEqual(await h1Text(), H1_2, 'still the stale copy');
+  });
+
+  await step('a user who has scrolled gets the toast, not a reload', async () => {
+    const H1_3 = 'Обновлённый заголовок 3 (тест)';
+    overrides.set(WORDS, [types.html, changedWords(H1_3, '-t3')]);
+    delays.set(WORDS, 2000);
+    try {
+      await page.goto(`${origin}${WORDS}`, { waitUntil: 'load' });
+      await page.evaluate(() => { window.__stale = 1; document.body.style.minHeight = '3000px'; scrollTo(0, 400); });
+      await page.locator('#new-version').waitFor({ state: 'visible', timeout: 10000 });
+    } finally { delays.delete(WORDS); }
+    assert.equal(await page.evaluate(() => window.__stale), 1, 'not reloaded');
+    assert.notEqual(await h1Text(), H1_3, 'still the stale copy');
+    assert.notEqual(await page.evaluate(() => sessionStorage.getItem('cb.autoreload')), full.version + '-t3', 'no reload recorded');
   });
 
   // go offline: browser-level emulation + the server really stops answering
