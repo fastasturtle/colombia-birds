@@ -49,4 +49,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           DEPLOY: "1"
-        run: pipeline/ci_commit.sh "data: weather forecast"
+        run: |
+          pipeline/ci_commit.sh "data: weather forecast"
