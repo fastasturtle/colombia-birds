@@ -962,54 +962,57 @@
 # --- Слова из названий птиц ---
 - en: tanager
   ru: танагра
+  note: в названиях иногда по роду — хабия (Ant-Tanager), пиранга, сереброклюв (Ramphocelus)
   freq: 305
   examples: [chlorothraupis-stolzmanni, ramphocelus-nigrogularis, bangsia-rothschildi]
 - en: antbird
-  ru: муравьеловка
-  note: букв. «муравьиная птица»
+  ru: муравьеловка, муравьянка
+  note: букв. «муравьиная птица»; Drymophila, Cercomacra и др. — муравьянки, Gymnopithys — гологлазки
   freq: 178
   examples: [dichrozona-cincta, drymophila-caudata, cercomacroides-fuscicauda]
 - en: antshrike
   ru: колючник
-  note: букв. «муравьиный сорокопут»
+  note: букв. «муравьиный сорокопут»; в ru.wikipedia Thamnophilus — сорокопутовые муравьеловки
   freq: 59
   examples: [frederickena-fulva, cymbilaimus-lineatus, taraba-major]
 - en: antwren
   ru: муравьелов
-  note: букв. «муравьиный крапивник»
+  note: букв. «муравьиный крапивник»; в ru.wikipedia Myrmotherula — крапивниковые муравьеловки
   freq: 57
   examples: [euchrepomis-callinota, euchrepomis-spodioptila, isleria-hauxwelli]
 - en: antpitta
-  ru: муравьиная питта
-  note: круглые длинноногие птицы подлеска; в русских названиях eBird часто «муравьеловка»
+  ru: питтовая муравьеловка, питтуля
+  note: букв. «муравьиная питта»; круглые длинноногие птицы подлеска. Grallaria — питтовые муравьеловки (в ru.wikipedia граллярии), мелкие Grallaricula — питтули, Hylopezus и Myrmothera — торорои
   freq: 68
   examples: [grallaria-ruficapilla, grallaria-hypoleuca, grallaria-rufocinerea]
 - en: antthrush
   ru: муравейница
-  note: букв. «муравьиный дрозд»
+  note: букв. «муравьиный дрозд»; в ru.wikipedia Formicarius — питтоподобные муравьеловки
   freq: 19
   examples: [chamaeza-turdina, formicarius-colma, formicarius-analis]
 - en: flycatcher
   ru: мухолов
+  note: американские — тиранновые, в названиях также бентеви, миарх, тоди-мухолов; мухоловки Старого Света — тоже flycatcher
   freq: 300
   examples: [poecilotriccus-ruficeps, onychorhynchus-coronatus, terenotriccus-erythrurus]
 - en: tyrant
   ru: тиранн
-  note: тиранновые мухоловки
+  note: тиранновые; составные (Chat-Tyrant, Bush-Tyrant, Ground-Tyrant) часто по роду — тираннита, гевара, дормилона
   freq: 266
   examples: [pogonotriccus-orbitalis, hemitriccus-rufigularis, uromyias-agilis]
 - en: tyrannulet
-  ru: москитолов
-  note: букв. «маленький тиранн»
+  ru: москитолов, москитеро
+  note: букв. «тираннчик», мелкие тиранновые; также по родам — инезия, каричи, пиохито; в ru.wikipedia Zimmerius — карликовые тиранны
   freq: 57
   examples: [zimmerius-albigularis, phylloscartes-superciliaris, ornithion-brunneicapillus]
 - en: kingbird
-  ru: королевский тиранн
+  ru: тиранн
+  note: букв. «король-птица»; все Tyrannus — тиранны, а «королевский тиранн» — один вид, Tropical Kingbird
   freq: 16
   examples: [tyrannus-niveigularis, tyrannus-melancholicus, tyrannus-tyrannus]
 - en: spinetail
-  ru: иглохвостка
-  note: букв. «колючий хвост»
+  ru: иглохвостка, курутия
+  note: букв. «колючий хвост»; Cranioleuca и Thripophaga — курутии
   freq: 56
   examples: [synallaxis-subpudica, leptasthenura-andicola, hellmayrea-gularis]
 - en: woodcreeper
@@ -1018,45 +1021,48 @@
   freq: 64
   examples: [xiphocolaptes-promeropirhynchus, certhiasomus-stictolaemus, sittasomus-griseicapillus]
 - en: foliage gleaner
-  ru: филидор, древесник
-  note: букв. «сборщик с листвы»
+  ru: филидор, лесовка, казарита
+  note: букв. «сборщик с листвы»; русские названия по родам, встречаются также лесовик, древесник
   freq: 34
   examples: [syndactyla-subalaris, anabazenops-dorsalis, neophilydor-fuscipenne]
 - en: puffbird
   ru: пуховка
+  note: букв. «пуховая птица» — сидит нахохлившись
   freq: 41
   examples: [notharchus-hyperrhynchus, malacoptila-fulvogularis, notharchus-pectoralis]
 - en: barbet
   ru: бородатка
+  note: от франц. barbe «борода» — щетинки у клюва
   freq: 20
   examples: [capito-squamatus, capito-auratus, eubucco-bourcierii]
 - en: woodstar
   ru: эльф
-  note: крошечные колибри
+  note: букв. «лесная звезда»; крошечные колибри
   freq: 14
   examples: [chaetocercus-mulsant, chaetocercus-heliodor, calliphlox-amethystina]
 - en: puffleg
   ru: эрион
-  note: колибри с белыми «пуховыми штанами»
+  note: букв. «пуховые ноги» — колибри с белыми «штанами»; в ru.wikipedia Eriocnemis — колибри-эрионы
   freq: 22
   examples: [haplophaedia-lugens, eriocnemis-vestita, eriocnemis-cupreoventris]
 - en: sunangel
   ru: феб
-  note: букв. «солнечный ангел», колибри
+  note: букв. «солнечный ангел»; колибри Heliangelus, в ru.wikipedia — колибри-нимфы
   freq: 7
   examples: [heliangelus-clarisse, heliangelus-exortis, heliangelus-mavors]
 - en: starfrontlet
   ru: инка
-  note: колибри рода Coeligena
+  note: букв. «звёздный лобик»; колибри рода Coeligena (колибри-инки)
   freq: 11
   examples: [coeligena-bonapartei, coeligena-helianthea, coeligena-phalerata]
 - en: hermit
   ru: колибри-отшельник
+  note: букв. «отшельник»; Hermit Wood-Wren — крапивник-отшельник
   freq: 43
   examples: [phaethornis-yaruqui, glaucis-aeneus, glaucis-hirsutus]
 - en: thornbill
   ru: радужник, короткоклюв
-  note: колибри с коротким клювом
+  note: букв. «шипоклюв» — колибри с коротким острым клювом; Chalcostigma — радужники (в ru.wikipedia блестящехвостые колибри)
   freq: 12
   examples: [ramphomicron-microrhynchum, chalcostigma-heteropogon, chalcostigma-herrani]
 - en: flowerpiercer
@@ -1069,8 +1075,8 @@
   freq: 18
   examples: [conirostrum-rufum, conirostrum-bicolor, conirostrum-margaritae]
 - en: seedeater
-  ru: просяночник
-  note: букв. «семяед»
+  ru: просяночник, семеноед
+  note: букв. «семяед»; Sporophila — просяночники, Catamenia — семеноеды
   freq: 38
   examples: [sporophila-telasco, catamenia-homochroa, amaurospiza-aequatorialis]
 - en: brushfinch
@@ -1080,34 +1086,37 @@
   examples: [atlapetes-albofrenatus, atlapetes-fuscoolivaceus, atlapetes-leucopis]
 - en: grosbeak
   ru: толстонос
+  note: букв. «толстоклюв»; в названиях также по роду — гуирака, сальтатор, колорин
   freq: 28
   examples: [caryothraustes-canadensis, pheucticus-chrysogaster, pheucticus-aureoventris]
 - en: honeycreeper
-  ru: саи
-  note: букв. «медолаз»
+  ru: саи, танагра-медосос
+  note: букв. «медолаз»; саи — от порт. saí (бразильское название); в ru.wikipedia Cyanerpes — танагры-медососы
   freq: 18
   examples: [cyanerpes-nitidus, cyanerpes-lucidus, cyanerpes-caeruleus]
 - en: greenlet
   ru: виреончик
+  note: букв. «зеленушка»; мелкие виреоновые
   freq: 26
   examples: [hylophilus-flavipes, hylophilus-brunneiceps, hylophilus-thoracicus]
 - en: solitaire
-  ru: кларино
-  note: букв. «одиночка»; дрозды с флейтовой песней
+  ru: кларино, дрозд-отшельник
+  note: букв. «отшельник, одиночка»; дрозды с флейтовой песней. В eBird ru — кларино (так звалась старинная труба; нем. Klarino), в ru.wikipedia Myadestes — дрозды-отшельники
   freq: 9
   examples: [myadestes-ralloides, entomodestes-coracinus, cichlopsis-leucogenys]
 - en: redstart
-  ru: канделита
-  note: в Андах — Myioborus, другое название whitestart
+  ru: канделита, горихвостка
+  note: букв. «красный хвост», как горихвостка. В Андах это Myioborus (англ. тж. whitestart) — канделиты, от исп. candelita «свечка»; в ru.wikipedia — горихвостковые певуны. American Redstart — горихвостковая древесница; горихвостки Евразии (Phoenicurus) — тоже redstart
   freq: 13
   examples: [setophaga-ruticilla, myioborus-miniatus, myioborus-flavivertex]
 - en: nighthawk
   ru: сумеречник
-  note: козодой, охотящийся в сумерках
+  note: букв. «ночной ястреб»; козодой, охотящийся в сумерках; Lurocalis — просто козодои
   freq: 21
   examples: [chordeiles-nacunda, chordeiles-pusillus, chordeiles-rupestris]
 - en: potoo
-  ru: уратао
+  ru: уратао, исполинский козодой
+  note: в ru.wikipedia Nyctibius — исполинские (лесные) козодои; днём замирает, как сучок
   freq: 13
   examples: [nyctibius-grandis, phyllaemulor-bracteatus, nyctibius-aethereus]
 - en: screech owl
@@ -1120,24 +1129,27 @@
   examples: [glaucidium-nubicola, glaucidium-jardinii, glaucidium-parkeri]
 - en: guan
   ru: пенелопа, гуан
+  note: Penelope — пенелопы, прочие (Chamaepetes и др.) — гуаны
   freq: 38
   examples: [chamaepetes-goudotii, penelope-ortoni, penelope-montagnii]
 - en: curassow
   ru: гокко, кракс
+  note: Crax — краксы; Mitu, Pauxi и Nothocrax — гокко
   freq: 31
   examples: [nothocrax-urumutum, mitu-salvini, pauxi-pauxi]
 - en: dove
-  ru: голубь, горлица
-  note: обычно мелкие голуби
+  ru: горлица, голубка
+  note: обычно мелкие голуби; Ground Dove — земляная горлица, Quail-Dove — перепелиная горлица, Leptotila — голубки
   freq: 78
   examples: [columbina-buckleyi, columbina-cruziana, geotrygon-saphirina]
 - en: parakeet
-  ru: попугай, аратинга
-  note: мелкий длиннохвостый попугай
+  ru: аратинга, попугай
+  note: мелкий длиннохвостый попугай; Pyrrhura — которры, Brotogeris — катиты
   freq: 36
   examples: [pyrrhura-melanura, bolborhynchus-lineola, bolborhynchus-ferrugineifrons]
 - en: parrotlet
-  ru: воробьиный попугайчик
+  ru: воробьиный попугайчик, туети
+  note: мелкие короткохвостые попугаи; Forpus — воробьиные попугайчики, Touit — туети
   freq: 22
   examples: [touit-huetii, touit-stictopterus, forpus-coelestis]
 - en: piculet
@@ -1145,16 +1157,18 @@
   freq: 23
   examples: [picumnus-lafresnayi, picumnus-pumilus, picumnus-exilis]
 - en: crake
-  ru: погоныш
+  ru: погоныш, коростелёк
+  note: мелкие пастушковые; Laterallus и Rufirallus — коростельки; Corn Crake — коростель
   freq: 33
   examples: [mustelirallus-albicollis, rufirallus-fasciatus, laterallus-melanophaius]
 - en: rail
   ru: пастушок
+  note: Wood-Rail (Aramides) — саракура, Pardirallus — галлинета
   freq: 52
   examples: [rallus-aequatorialis, rallus-semiplumbeus, rallus-longirostris]
 - en: kite
   ru: коршун
-  note: не путать с kite — воздушный змей
+  note: не путать с kite — воздушный змей; Hook-billed Kite — улиткоед
   freq: 35
   examples: [chondrohierax-uncinatus, ictinia-plumbea, gampsonyx-swainsonii]
 - en: harrier
@@ -1163,16 +1177,17 @@
   examples: [circus-buffoni, circus-cinereus, circus-hudsonius]
 - en: hawk
   ru: ястреб, канюк
-  note: в Америке так зовут и канюков
+  note: в Америке так зовут и канюков; в названиях также крабоед, агуйла; Hawk-Eagle — орёл
   freq: 242
   examples: [accipiter-poliogaster, accipiter-striatus, astur-bicolor]
 - en: swift
   ru: стриж
+  note: Chaetura — иглохвосты
   freq: 53
   examples: [cypseloides-cherriei, cypseloides-niger, cypseloides-lemosi]
 - en: martin
   ru: ласточка
-  note: обычно крупные ласточки Progne
+  note: обычно крупные ласточки Progne; брит. Sand Martin — береговушка, House Martin — воронок
   freq: 32
   examples: [progne-subis, progne-chalybea, progne-tapera]
 - en: wren
@@ -1180,13 +1195,13 @@
   freq: 87
   examples: [odontorchilus-branickii, cistothorus-apolinari, cantorchilus-nigricapillus]
 - en: warbler
-  ru: древесница
-  note: американские древесницы; в Старом Свете — славки
+  ru: древесница, певун
+  note: американские древесницевые (Setophaga, Myiothlypis — певуны, Basileuterus — корольковки); в Старом Свете warbler — славки, пеночки, камышевки
   freq: 124
   examples: [setophaga-cerulea, setophaga-fusca, myiothlypis-chlorophrys]
 - en: sparrow
   ru: воробей, овсянка
-  note: американские sparrows — овсянковые, не воробьи
+  note: американские sparrows — американские овсянки (Passerellidae) и тохи, не воробьи
   freq: 79
   examples: [ammodramus-savannarum, ammodramus-humeralis, ammodramus-aurifrons]
 - en: pigeon
@@ -1206,7 +1221,7 @@
   examples: [turdus-ignobilis, catharus-aurantiirostris, catharus-fuscater]
 - en: finch
   ru: вьюрок
-  note: в Колумбии это танагровые — зерноед, тохи, просяночник
+  note: в Колумбии обычно не вьюрки, а танагровые (просяночник, зерноед) и тохи из американских овсянок
   freq: 88
   examples: [geospizopsis-unicolor, oreothraupis-arremonops, arremon-crassirostris]
 - en: jay
@@ -1224,8 +1239,8 @@
   freq: 57
   examples: [nyctanassa-violacea, tigrisoma-lineatum, tigrisoma-mexicanum]
 - en: egret
-  ru: белая цапля
-  note: Cattle-Egret — египетская цапля
+  ru: цапля, белая цапля
+  note: Great Egret — большая белая цапля, Snowy Egret — снежная цапля, Cattle-Egret — египетская цапля
   freq: 26
   examples: [egretta-rufescens, egretta-thula, ardea-ibis]
 - en: teal
@@ -1234,7 +1249,7 @@
   examples: [anas-andium, amazonetta-brasiliensis, spatula-discors]
 - en: plover
   ru: ржанка, зуёк
-  note: мелкие виды — зуйки
+  note: мелкие виды — зуйки; Semipalmated Plover — галстучник
   freq: 20
   examples: [pluvialis-squatarola, pluvialis-dominica, hoploxypterus-cayanus]
 - en: sandpiper
@@ -1248,6 +1263,7 @@
   examples: [chroicocephalus-serranus, creagrus-furcatus, xema-sabini]
 - en: tern
   ru: крачка
+  note: Caspian Tern — чеграва
   freq: 59
   examples: [thalasseus-maximus, gygis-candida, onychoprion-anaethetus]
 - en: owl
@@ -1294,7 +1310,7 @@
   examples: [ensifera-ensifera, patagona-gigas, klais-guimeti]
 - en: cuckoo
   ru: кукушка, пиайя
-  note: американские кукушки Coccyzus и Piaya — пиайи
+  note: американские кукушки Coccyzus и Piaya — пиайи; Ground-Cuckoo — земляная кукушка
   freq: 47
   examples: [neomorphus-radiolosus, tapera-naevia, dromococcyx-phasianellus]
 - en: tinamou
