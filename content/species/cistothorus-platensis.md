@@ -44,10 +44,10 @@ en:
 ---
 Grass Wren (травяной крапивник) — крошечный крапивник сырых лугов, осоковых болот и парамо; в колумбийских Андах он живёт в межгорных долинах, на пастбищах и у озёр, в основном высоко. Птица больше слышна, чем видна: песня звучит из травы, и лишь иногда поющий самец садится на верхушку стебля, где хорошо видны пёстрая спина и вздёрнутый хвост.
 
-На маршруте он «точно» на осоковых лугах у Лагуны Ла-Коча 16 октября и «возможно» на Парамо Бордонсильо в тот же день. Под Боготой его можно найти в Сумапасе и Чингасе, но они не входят в программу тура — вариант для самостоятельного выезда из Боготы.
+На маршруте он «точно» на осоковых лугах у Лагуны Ла-Коча 16 октября и «возможно» на Парамо Бордонсильо в тот же день. Под Боготой его можно найти в Сумапасе (выезд с гидом Леоном 2 октября) и в Чингасе, которая в программу тура не входит.
 
 ## English
 
 Grass Wren is a tiny wren of wet meadows, sedge marshes and páramo; in the Colombian Andes it lives in intermontane valleys, pastures and around lakes, mostly at high elevations. It is heard far more than seen: the song comes from the grass, and only now and then does a singing male perch on top of a stem, showing its streaked back and cocked tail.
 
-On the route it is "sure" in the sedge meadows at Laguna de La Cocha on 16 October and "maybe" at Páramo Bordoncillo the same day. Near Bogotá it can be found at Sumapaz and Chingaza, but these are not part of the tour programme, only options for an independent trip from Bogotá.
+On the route it is "sure" in the sedge meadows at Laguna de La Cocha on 16 October and "maybe" at Páramo Bordoncillo the same day. Near Bogotá it can be found at Sumapaz (trip with the guide León on 2 October) and at Chingaza, which is not part of the tour programme.

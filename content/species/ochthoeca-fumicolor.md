@@ -44,10 +44,10 @@ en:
 ---
 Brown-backed Chat-Tyrant (буроспинная тираннита) — самая обычная тираннита у границы леса: в Колумбии живёт на высотах 2 500–3 600 м, в карликовом лесу, зарослях парамо и на кустистых пастбищах. Под Боготой встречается номинативный подвид с беловатой бровью, в Центральных и Западных Андах и на юге страны, в том числе в Нариньо, — подвид brunneifrons с целиком охристой бровью и более широкими рыжими полосами на крыле. На фоне тёмных кустов первым бросается в глаза рыжий низ, потом светлая бровь.
 
-На маршруте тура она «возможно» на Парамо Бордонсильо 16 октября. «Точно» она в Сумапасе и Чингасе, но эти выезды не входят в программу тура: это вариант для самостоятельной поездки из Боготы.
+На маршруте тура она «возможно» на Парамо Бордонсильо 16 октября. «Точно» она в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября, и в Чингасе, которая в программу тура не входит.
 
 ## English
 
 Brown-backed Chat-Tyrant is the most common chat-tyrant at treeline: in Colombia it lives at 2,500–3,600 m in stunted forest, páramo scrub and shrubby pastures. Near Bogotá it is the nominate subspecies with a whitish eyebrow; the Central and Western Andes and the south, including Nariño, hold brunneifrons, with an entirely buffy eyebrow and broader rufous wing bars. Against dark shrubs the rufous underparts catch the eye first, then the pale eyebrow.
 
-On the tour route it is "maybe" at Páramo Bordoncillo on 16 October. It is "sure" at Sumapaz and Chingaza, but these trips are not part of the tour programme: they are an option for an independent outing from Bogotá.
+On the tour route it is "maybe" at Páramo Bordoncillo on 16 October. It is "sure" at Sumapaz, visited with the guide León on 2 October, and at Chingaza, which is not part of the tour programme.

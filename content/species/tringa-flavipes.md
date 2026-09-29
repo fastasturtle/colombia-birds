@@ -47,10 +47,10 @@ en:
 ---
 Lesser Yellowlegs (желтоногий улит) — северный мигрант, который зимует от юга США до юга Южной Америки. В Колумбии встречается на пресных и солоноватых мелководьях от побережья до высокогорных озёр, по данным проекта до 3 800 м.
 
-На маршруте вид «возможно» на Финке Марагрикола 22 октября, в Эль-Эскондите 13–14 октября, на Лагуне Ла-Коча 16 октября и на Км 42 21 октября; отмечен также на водоёмах Ла-Флориды и Сумапаса, но это выезды вне программы тура. Если рядом кормятся два желтоногих улита, сравни клювы: у этого вида клюв не длиннее головы.
+На маршруте вид «возможно» на Финке Марагрикола 22 октября, в Эль-Эскондите 13–14 октября, на Лагуне Ла-Коча 16 октября и на Км 42 21 октября; отмечен также на водоёмах Сумапаса (выезд 2 октября) и Ла-Флориды (вне программы тура). Если рядом кормятся два желтоногих улита, сравни клювы: у этого вида клюв не длиннее головы.
 
 ## English
 
 Lesser Yellowlegs is a northern migrant that winters from the southern US to southern South America. In Colombia it uses fresh and brackish shallows from the coast to high lakes, up to 3,800 m in the project data.
 
-On the route it is "maybe" at Finca Maragrícola on 22 October, at El Escondite on 13–14 October, at Laguna de La Cocha on 16 October and at Km 42 on 21 October; it is also recorded at La Florida and Sumapaz wetlands, but those are optional trips outside the tour programme. If two yellowlegs feed side by side, compare bills: in this species the bill is no longer than the head.
+On the route it is "maybe" at Finca Maragrícola on 22 October, at El Escondite on 13–14 October, at Laguna de La Cocha on 16 October and at Km 42 on 21 October; it is also recorded at the Sumapaz wetlands (visited on 2 October) and at La Florida (outside the tour programme). If two yellowlegs feed side by side, compare bills: in this species the bill is no longer than the head.

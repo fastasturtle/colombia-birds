@@ -10,7 +10,7 @@ confusable:
     how: "Поганки сидят ниже, почти без хвоста, с острым, а не плоским клювом, и ныряют гораздо чаще"
   - family: rallid1
     how: "Лысухи и камышницы с острым клювом и лобной бляшкой, на плаву кивают головой"
-route_note: "Главное место — Лагуна Ла-Коча (день 14): Yellow-billed Pintail и Andean Duck, а Torrent Duck ищем на порожистых реках вдоль Трамплина птиц (день 13). White-cheeked Pintail — на прудах Финки Марагрикола (день 20), Andean Teal возможен на Ла-Коче и в Ла-Флориде (свободный день в Боготе), а наверняка — на озёрах Сумапаса."
+route_note: "Главное место — Лагуна Ла-Коча (день 14): Yellow-billed Pintail и Andean Duck, а Torrent Duck ищем на порожистых реках вдоль Трамплина птиц (день 13). White-cheeked Pintail — на прудах Финки Марагрикола (день 20), Andean Teal возможен на Ла-Коче и в Ла-Флориде (свободный день в Боготе), а наверняка — на озёрах Сумапаса (2 октября)."
 fact: "У ручьевой утки на сгибе крыла есть острая костная шпора, которой птицы дерутся за свой участок реки."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Feeds at the surface by upending, or dives"
     - "Stifftails hold the tail cocked; the male Andean Duck is chestnut with a black head and blue bill"
     - "Torrent Duck stands on wet rocks in a raging mountain river and dives against the current"
-  route_note: "The key site is Laguna La Cocha (day 14): Yellow-billed Pintail and Andean Duck, while Torrent Duck is searched for on rapids along Trampolín de las Aves (day 13). White-cheeked Pintail is on the ponds of Finca Maragrícola (day 20), and Andean Teal is possible at La Cocha and at La Florida (free day in Bogotá), and near-certain on the lakes of Sumapaz."
+  route_note: "The key site is Laguna La Cocha (day 14): Yellow-billed Pintail and Andean Duck, while Torrent Duck is searched for on rapids along Trampolín de las Aves (day 13). White-cheeked Pintail is on the ponds of Finca Maragrícola (day 20), and Andean Teal is possible at La Cocha and at La Florida (free day in Bogotá), and near-certain on the lakes of Sumapaz (2 October)."
   fact: "The Torrent Duck has a sharp bony spur at the bend of the wing, which birds use in fights over their stretch of river."
 ---
 В колумбийском списке 27 видов утиных (пять из них залётные или не подтверждены), но на нашем маршруте их немного: большая часть тура проходит в лесу. Уток встретим на высокогорных озёрах и болотах Анд, на прудах тихоокеанского побережья и изредка на амазонских реках. Узнать утку просто: плоский клюв, перепончатые лапы, привычная посадка на воде. Сложнее определить вид, особенно у самок и молодых.

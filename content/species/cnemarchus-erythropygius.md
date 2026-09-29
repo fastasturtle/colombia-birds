@@ -43,10 +43,10 @@ en:
 ---
 Red-rumped Bush-Tyrant (красногузая гевара) — крупный тиранн парамо, в Колумбии на высотах около 3 100–4 000 м. Встречается двумя изолированными популяциями: подвид orinomus в Восточных Андах (Кундинамарка, Норте-де-Сантандер) и на Сьерра-Неваде-де-Санта-Марта, номинативный — в Нариньо. У orinomus, по описаниям, спина серее, а поясница бурее, так что главная примета под Боготой — рыже-чёрный хвост и белый лоб.
 
-На маршрутных точках тура вид не отмечен. Реальный шанс — Сумапас, где он «точно», но это выезд вне программы тура, вариант для самостоятельной поездки из Боготы.
+Реальный шанс — Сумапас, где он «точно»: туда запланирован выезд с гидом Леоном 2 октября.
 
 ## English
 
 Red-rumped Bush-Tyrant is a large páramo flycatcher, found in Colombia at about 3,100–4,000 m. It occurs in two isolated populations: the subspecies orinomus in the Eastern Andes (Cundinamarca, Norte de Santander) and the Santa Marta mountains, and the nominate in Nariño. Orinomus is described as grayer-backed with a browner rump, so near Bogotá the key marks are the rufous-and-black tail and the white forehead.
 
-It is not recorded at the tour's route sites. The real chance is Sumapaz, where it is "sure", but that trip is outside the tour programme, an option for an independent outing from Bogotá.
+The real chance is Sumapaz, where it is "sure", visited with the guide León on 2 October.

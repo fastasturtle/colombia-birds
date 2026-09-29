@@ -168,7 +168,6 @@
   "name": "PNN Sumapaz",
   "name_ru": "Сумапас",
   "notes_ru": "Крупнейший парамо мира к югу от Боготы, около 2–3 часов езды. Холодно и ветрено; озёрные популяции пастушка и крапивника Аполинара.",
-  "optional": true,
   "region": "bogota",
   "sources": [
    "https://thespeckledhatchback.blogspot.com/2018/08/colombia-eastern-andes-cundinamarca.html"
@@ -225,6 +224,96 @@
    {
     "en": "Páramo Seedeater",
     "sci": "Catamenia homochroa"
+   }
+  ],
+  "unmatched_targets": []
+ },
+ {
+  "coords_approx": false,
+  "department": "Cundinamarca",
+  "ebird_hotspots": [
+   {
+    "id": "L1335070",
+    "name": "RFP Bosque Oriental de Bogotá--Cerro Monserrate"
+   }
+  ],
+  "elev_max": 3170,
+  "elev_min": 2700,
+  "habitat_ru": "Высокогорный лес с кормушками для колибри (Восточные холмы Боготы)",
+  "id": "monserrate",
+  "lat": 4.6057,
+  "lon": -74.0557,
+  "name": "Cerro de Monserrate",
+  "name_ru": "Монсеррате",
+  "notes_ru": "Святилище на вершине горы над центром Боготы: наверх на фуникулёре или канатной дороге от нижней станции (~2700 м). Кормушки для колибри стоят вдоль экотропы El Paramuno (~300 м) у святилища, здесь больше десятка видов колибри и горные танагры, бывает андский гуан. Выезд во второй половине дня после Сумапаса.",
+  "region": "bogota",
+  "sources": [
+   "https://ebird.org/hotspot/L1335070",
+   "https://api.gbif.org/v1/occurrence/search?datasetKey=4fa7b334-ce0d-4e88-aaae-2e0c138d049e&locality=RFP%20Bosque%20Oriental%20de%20Bogot%C3%A1--Cerro%20Monserrate&facet=speciesKey",
+   "https://thebirdersshow.com/blog/urban-birding-in-bogota-monserrate"
+  ],
+  "target_species": [
+   "aglaeactis-cupripennis",
+   "lesbia-victoriae",
+   "eriocnemis-vestita",
+   "ensifera-ensifera",
+   "metallura-tyrianthina",
+   "coeligena-helianthea",
+   "eriocnemis-cupreoventris",
+   "pterophanes-cyanopterus",
+   "lesbia-nuna",
+   "anisognathus-igniventris",
+   "atlapetes-pallidinucha",
+   "penelope-montagnii"
+  ],
+  "target_species_raw": [
+   {
+    "en": "Shining Sunbeam",
+    "sci": "Aglaeactis cupripennis"
+   },
+   {
+    "en": "Black-tailed Trainbearer",
+    "sci": "Lesbia victoriae"
+   },
+   {
+    "en": "Glowing Puffleg",
+    "sci": "Eriocnemis vestita"
+   },
+   {
+    "en": "Sword-billed Hummingbird",
+    "sci": "Ensifera ensifera"
+   },
+   {
+    "en": "Tyrian Metaltail",
+    "sci": "Metallura tyrianthina"
+   },
+   {
+    "en": "Blue-throated Starfrontlet",
+    "sci": "Coeligena helianthea"
+   },
+   {
+    "en": "Coppery-bellied Puffleg",
+    "sci": "Eriocnemis cupreoventris"
+   },
+   {
+    "en": "Great Sapphirewing",
+    "sci": "Pterophanes cyanopterus"
+   },
+   {
+    "en": "Green-tailed Trainbearer",
+    "sci": "Lesbia nuna"
+   },
+   {
+    "en": "Scarlet-bellied Mountain-Tanager",
+    "sci": "Anisognathus igniventris"
+   },
+   {
+    "en": "Pale-naped Brushfinch",
+    "sci": "Atlapetes pallidinucha"
+   },
+   {
+    "en": "Andean Guan",
+    "sci": "Penelope montagnii"
    }
   ],
   "unmatched_targets": []
@@ -383,6 +472,91 @@
    {
     "en": "Cerulean Warbler",
     "sci": null
+   }
+  ],
+  "unmatched_targets": []
+ },
+ {
+  "coords_approx": false,
+  "department": "Cundinamarca",
+  "ebird_hotspots": [
+   {
+    "id": "L34139615",
+    "name": "Campo Tangara"
+   }
+  ],
+  "elev_max": 2700,
+  "elev_min": 2600,
+  "habitat_ru": "Кормушки для колибри и танагр на краю облачного леса у въезда в Чикаке",
+  "id": "campo-tangara",
+  "lat": 4.6067,
+  "lon": -74.302,
+  "name": "Campo Tangara Birding & Coffee",
+  "name_ru": "Кампо-Тангара",
+  "notes_ru": "Частная станция с кормушками для колибри и танагр на дороге к Чикаке, в нескольких сотнях метров от входа в парк. Остановка по пути в Чикаке 3 октября, вход 40 000 COP.",
+  "region": "bogota",
+  "sources": [
+   "https://ebird.org/hotspot/L34139615",
+   "https://www.instagram.com/campotangara/",
+   "https://api.gbif.org/v1/occurrence/search?datasetKey=4fa7b334-ce0d-4e88-aaae-2e0c138d049e&locality=Campo%20Tangara%20Birding%20%26%20Coffe&facet=speciesKey"
+  ],
+  "target_species": [
+   "coeligena-bonapartei",
+   "coeligena-torquata",
+   "heliangelus-exortis",
+   "boissonneaua-flavescens",
+   "colibri-cyanotus",
+   "colibri-coruscans",
+   "chaetocercus-mulsant",
+   "chaetocercus-heliodor",
+   "aglaiocercus-kingii",
+   "tangara-nigroviridis",
+   "sporathraupis-cyanocephala"
+  ],
+  "target_species_raw": [
+   {
+    "en": "Golden-bellied Starfrontlet",
+    "sci": "Coeligena bonapartei"
+   },
+   {
+    "en": "Collared Inca",
+    "sci": "Coeligena torquata"
+   },
+   {
+    "en": "Tourmaline Sunangel",
+    "sci": "Heliangelus exortis"
+   },
+   {
+    "en": "Buff-tailed Coronet",
+    "sci": "Boissonneaua flavescens"
+   },
+   {
+    "en": "Lesser Violetear",
+    "sci": "Colibri cyanotus"
+   },
+   {
+    "en": "Sparkling Violetear",
+    "sci": "Colibri coruscans"
+   },
+   {
+    "en": "White-bellied Woodstar",
+    "sci": "Chaetocercus mulsant"
+   },
+   {
+    "en": "Gorgeted Woodstar",
+    "sci": "Chaetocercus heliodor"
+   },
+   {
+    "en": "Long-tailed Sylph",
+    "sci": "Aglaiocercus kingii"
+   },
+   {
+    "en": "Beryl-spangled Tanager",
+    "sci": "Tangara nigroviridis"
+   },
+   {
+    "en": "Blue-capped Tanager",
+    "sci": "Sporathraupis cyanocephala"
    }
   ],
   "unmatched_targets": []

@@ -43,10 +43,10 @@ en:
 ---
 Boyaca Antpitta — эндемик Колумбии, выделенный из Tawny Antpitta в 2023 году (IOC и Clements; ACO пока держит его в составе Tawny). Живёт только в Восточных Андах, в Бояке и Кундинамарке, на парамо и в высокогорных кустарниках на 2 800–4 000 м. Это одна из немногих антпитт, которую легко увидеть: она стоит на открытом месте, как маленький круглый дрозд без хвоста.
 
-В программу тура её места не входят. Под Боготой вид «точно» есть в Сумапасе и «возможно» на Чингасе; оба парка не входят в программу тура, это вариант для самостоятельного выезда из Боготы. В Чикаке 3 и 23–24 октября её ждать не стоит: там для неё слишком низко.
+Под Боготой вид «точно» есть в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября, и «возможно» на Чингасе (не входит в программу тура). В Чикаке 3 и 23–24 октября её ждать не стоит: там для неё слишком низко.
 
 ## English
 
 Boyaca Antpitta is a Colombian endemic, split from Tawny Antpitta in 2023 (IOC and Clements; ACO still lumps it with Tawny). It lives only in the Eastern Andes, in Boyacá and Cundinamarca, on páramo and high shrubland at 2,800–4,000 m. It is one of the few antpittas that are easy to see: it stands in the open like a small round thrush with no tail.
 
-Its sites are not in the tour programme. Near Bogotá it is "sure" at Sumapaz and "maybe" at Chingaza; both parks are outside the tour programme, an option for an independent trip from Bogotá. Do not expect it at Chicaque on 3 and 23–24 October: that is too low for it.
+Near Bogotá it is "sure" at Sumapaz, visited with the guide León on 2 October, and "maybe" at Chingaza (not in the tour programme). Do not expect it at Chicaque on 3 and 23–24 October: that is too low for it.

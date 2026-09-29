@@ -45,10 +45,10 @@ en:
 ---
 Merlin (дербник) — небольшой плотный сокол длиной 24–33 см, гнездящийся в Северной Америке и Евразии. В Колумбию он прилетает на зимовку примерно с октября, держится от побережья до 3 000 м в открытых местах. Главное в полевом определении — неконтрастная голова, пестрины на груди и полёт: дербник проносится низко над землёй, как брошенный камень.
 
-На маршруте он «возможно» в Тумако 21 и 23 октября и у Плайя-дель-Морро 22–23 октября: смотри на столбы и коряги у пляжа, где отдыхают кулики. Под Боготой его отмечают на Ла-Флориде и в Сумапасе, но эти места не входят в программу тура.
+На маршруте он «возможно» в Тумако 21 и 23 октября и у Плайя-дель-Морро 22–23 октября: смотри на столбы и коряги у пляжа, где отдыхают кулики. Под Боготой его отмечают в Сумапасе (выезд 2 октября) и на Ла-Флориде, которая в программу тура не входит.
 
 ## English
 
 Merlin is a small, stocky falcon 24–33 cm long that breeds in North America and Eurasia. It reaches Colombia to winter from about October and keeps to open country from the coast to 3,000 m. The keys in the field are the low-contrast head, the streaked breast and the flight: a Merlin shoots low over the ground like a thrown stone.
 
-On the route it is "maybe" at Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October: check posts and beach snags where shorebirds rest. Near Bogotá it is recorded at La Florida and Sumapaz, but those sites are not in the tour programme.
+On the route it is "maybe" at Tumaco on 21 and 23 October and at Playa del Morro on 22–23 October: check posts and beach snags where shorebirds rest. Near Bogotá it is recorded at Sumapaz (visited on 2 October) and at La Florida, which is not in the tour programme.

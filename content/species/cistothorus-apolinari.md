@@ -44,10 +44,10 @@ en:
 ---
 Apolinar's Wren (боготский крапивник) — эндемик Восточных Анд Колумбии и вымирающий вид: высокогорные болота вокруг Боготы осушают и застраивают. Основная популяция живёт в тростниках озёр и болот на 2 500–3 000 м, а отдельный подвид — в парамо массива Сумапас на 3 800–3 900 м. Птица долго сидит в стеблях, но громкий голос выдаёт её издалека.
 
-У Боготы вид «точно» в Сумапасе и «возможно» в тростниках Ла-Флориды на её окраине. Оба места не входят в программу тура, это варианты для самостоятельного выезда: Ла-Флорида ближе и проще.
+У Боготы вид «точно» в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября, и «возможно» в тростниках Ла-Флориды на её окраине (вне программы тура, самостоятельно).
 
 ## English
 
 Apolinar's Wren is an endemic of the Eastern Andes of Colombia and an endangered species: the highland marshes around Bogotá are being drained and built over. The main population lives in the reeds of lakes and marshes at 2,500–3,000 m, and a separate subspecies in the páramo of the Sumapaz massif at 3,800–3,900 m. The bird sits deep in the stems for long spells, but its loud voice gives it away from afar.
 
-Near Bogotá it is "sure" at Sumapaz and "maybe" in the reeds of La Florida on the city's edge. Neither is in the tour programme; both are options for a trip on your own: La Florida is closer and easier.
+Near Bogotá it is "sure" at Sumapaz, visited with the guide León on 2 October, and "maybe" in the reeds of La Florida on the city's edge (outside the tour programme, on your own).

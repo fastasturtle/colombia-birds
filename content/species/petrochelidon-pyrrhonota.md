@@ -43,10 +43,10 @@ en:
 ---
 Cliff Swallow (белолобая ласточка) гнездится колониями под мостами и карнизами Северной Америки, а зимует на юге Южной Америки. Через Колумбию она проходит транзитом на пролёте, от побережья до высокогорий, изредка до 3 800 м. Пролёт короткий, и стаи могут появиться и исчезнуть за один день.
 
-На маршруте вид «возможно» у Лагуны Ла-Коча 16 октября: проверяй стаи ласточек над озером. Чаще её отмечают у Боготы, в Сумапасе, Ла-Флориде, Ботаническом саду, Обсерватории колибри и Чингасе, но все эти места не входят в программу тура, это варианты для самостоятельного выезда из Боготы.
+На маршруте вид «возможно» у Лагуны Ла-Коча 16 октября: проверяй стаи ласточек над озером. Чаще её отмечают у Боготы: в Сумапасе, куда запланирован выезд 2 октября, а также в Ла-Флориде, Ботаническом саду, Обсерватории колибри и Чингасе, которые в программу тура не входят.
 
 ## English
 
 Cliff Swallow nests in colonies under bridges and eaves in North America and winters in southern South America. It passes through Colombia on migration, from the coast to the highlands, occasionally up to 3,800 m. Passage is brief, and flocks can appear and vanish within a day.
 
-On the route it is "maybe" at Laguna de La Cocha on 16 October: check the swallow flocks over the lake. It is recorded more often around Bogotá, at Sumapaz, La Florida, the Botanical Garden, the Observatorio de Colibríes and Chingaza, but none of these are in the tour programme; they are options for a self-organised trip from Bogotá.
+On the route it is "maybe" at Laguna de La Cocha on 16 October: check the swallow flocks over the lake. It is recorded more often around Bogotá: at Sumapaz, visited on 2 October, and at La Florida, the Botanical Garden, the Observatorio de Colibríes and Chingaza, which are not in the tour programme.

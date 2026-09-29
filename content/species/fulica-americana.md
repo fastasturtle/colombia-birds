@@ -43,10 +43,10 @@ en:
 ---
 American Coot (американская лысуха) — обычная лысуха болот и озёр Саваны Боготы. В Колумбии и на севере Эквадора живёт оседлый подвид columbiana, к которому изредка добавляются северные мигранты. По данным проекта вид встречается до 2 500 м, но на юге держится и на Лагуне Ла-Коча, почти на 2 800 м, рядом с андской лысухой, и там их надо различать.
 
-На маршруте она «точно» на Лагуне Ла-Коча 16 октября; в Ла-Флориде, Ботаническом саду Боготы и Сумапасе тоже «точно», но это выезды вне программы тура. Главная примета — белые пятна по бокам подхвостья, которых нет у андской лысухи.
+На маршруте она «точно» на Лагуне Ла-Коча 16 октября; в Сумапасе (выезд 2 октября), Ла-Флориде и Ботаническом саду Боготы тоже «точно», но два последних места не входят в программу тура. Главная примета — белые пятна по бокам подхвостья, которых нет у андской лысухи.
 
 ## English
 
 American Coot is the common coot of marshes and lakes on the Sabana de Bogotá. Colombia and northern Ecuador hold the resident subspecies columbiana, occasionally joined by northern migrants. Project data give up to 2,500 m, but in the south it also lives at Laguna de La Cocha, at almost 2,800 m, next to Slate-colored Coot, and there the two must be told apart.
 
-On the route it is "sure" at Laguna de La Cocha on 16 October; it is also "sure" at La Florida, the Bogotá Botanical Garden and Sumapaz, but these are trips outside the tour programme. The key mark is the white patches at the sides of the undertail, which Slate-colored Coot lacks.
+On the route it is "sure" at Laguna de La Cocha on 16 October; it is also "sure" at Sumapaz (visited on 2 October), La Florida and the Bogotá Botanical Garden, though the last two are outside the tour programme. The key mark is the white patches at the sides of the undertail, which Slate-colored Coot lacks.

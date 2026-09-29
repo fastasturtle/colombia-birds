@@ -49,10 +49,10 @@ en:
 ---
 Plain-colored Seedeater (невзрачный семеноед) — семеноед высокогорья: кустарникового парамо, лугов и полей у верхней границы леса, по данным ACO на 2 600–4 400 м. Название подходит: серый самец в поле выглядит неприметно, и определять его приходится по розоватому толстому клюву и рыжему подхвостью, а не по общему виду. Рядом часто кормятся другие семеноеды и вьюрки парамо, так что проверяй каждую серую птицу.
 
-На маршруте вид «возможно» у Лагуны Ла-Коча и на Бордонсильо 16 октября. «Точно» он в Сумапасе, «возможно» в Чингасе, но это не входит в программу тура, вариант для самостоятельного выезда из Боготы.
+На маршруте вид «возможно» у Лагуны Ла-Коча и на Бордонсильо 16 октября. «Точно» он в Сумапасе, куда запланирован выезд с гидом Леоном 2 октября, и «возможно» в Чингасе, которая в программу тура не входит.
 
 ## English
 
 Plain-colored Seedeater is a seedeater of the high country: shrubby páramo, meadows and fields near the treeline, at 2,600–4,400 m according to ACO. The name fits: the gray male looks nondescript in the field and has to be identified by its thick pinkish bill and rufous undertail rather than by overall appearance. Other seedeaters and páramo finches often feed nearby, so check every gray bird.
 
-On the route it is "maybe" at Laguna de La Cocha and Bordoncillo on 16 October. It is "sure" at Sumapaz and "maybe" at Chingaza, but these are not in the tour programme: an option for an independent trip from Bogotá.
+On the route it is "maybe" at Laguna de La Cocha and Bordoncillo on 16 October. It is "sure" at Sumapaz, visited with the guide León on 2 October, and "maybe" at Chingaza, which is not in the tour programme.

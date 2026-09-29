@@ -44,10 +44,10 @@ en:
 ---
 Andean Siskin (андский чиж) — почти-эндемик Колумбии, мелкий чиж кустарников, опушек и открытых склонов с кустами на высотах 1 800–3 700 м, до парамо. Стайка часто сидит на верхушке дерева, а кормится внизу, на фрайлехонах и сорных травах. Обычно сначала видна жёлтая полоса на чёрном крыле при взлёте.
 
-У Боготы он «точно» в Сумапасе, Чингасе, парке Ла-Флорида и у Обсерватории колибри; эти места не в программе тура, это варианты для самостоятельного выезда. На основном маршруте он «возможен» на Бордонсильо и у Лагуны Ла-Коча 16 октября.
+У Боготы он «точно» в Сумапасе, куда запланирован выезд 2 октября, а также в Чингасе, парке Ла-Флорида и у Обсерватории колибри, которые в программу тура не входят. На основном маршруте он «возможен» на Бордонсильо и у Лагуны Ла-Коча 16 октября.
 
 ## English
 
 Andean Siskin is a Colombian near-endemic, a small siskin of shrubland, edges and open slopes with bushes at 1,800–3,700 m, up to the páramo. A flock often sits in a treetop but feeds low, on frailejones and weedy plants. Usually the first thing you see is the yellow bar on the black wing as it flies off.
 
-Near Bogotá it is "sure" at Sumapaz, Chingaza, La Florida park and the Observatorio de Colibríes; these are not in the tour programme, only options for a trip on your own. On the main route it is "maybe" on Bordoncillo and at Laguna La Cocha on 16 October.
+Near Bogotá it is "sure" at Sumapaz, visited on 2 October, and at Chingaza, La Florida park and the Observatorio de Colibríes, which are not in the tour programme. On the main route it is "maybe" on Bordoncillo and at Laguna La Cocha on 16 October.

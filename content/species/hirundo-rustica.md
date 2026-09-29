@@ -43,10 +43,10 @@ en:
 ---
 Barn Swallow (деревенская ласточка) — та же касатка, что и в Евразии, только из североамериканских популяций: в Колумбию она прилетает на зимовку, примерно с сентября по апрель, и встречается от побережья до 3 000 м над открытыми местами. В октябре идёт пролёт, и многие птицы молодые, с короткими косицами и бледным горлом, так что силуэт не всегда классический.
 
-На маршруте она «точно» над Лагуной Ла-Коча 16 октября и «возможно» у Плайя-Рики 12 октября и на Км 42 21 октября. Под Боготой её отмечают в Ла-Флориде и Сумапасе, но эти места не входят в программу тура.
+На маршруте она «точно» над Лагуной Ла-Коча 16 октября и «возможно» у Плайя-Рики 12 октября и на Км 42 21 октября. Под Боготой её отмечают в Сумапасе (выезд 2 октября) и в Ла-Флориде, которая в программу тура не входит.
 
 ## English
 
 Barn Swallow is the same species as the Eurasian swallow, here from North American populations: it comes to Colombia for the winter, roughly September to April, and occurs from the coast up to 3,000 m over open country. October is passage time, and many birds are young, with short streamers and a pale throat, so the silhouette is not always the classic one.
 
-On the route it is "sure" over Laguna de La Cocha on 16 October and "maybe" near Playa Rica on 12 October and at Km 42 on 21 October. Near Bogotá it is recorded at La Florida and Sumapaz, but these are not part of the tour programme.
+On the route it is "sure" over Laguna de La Cocha on 16 October and "maybe" near Playa Rica on 12 October and at Km 42 on 21 October. Near Bogotá it is recorded at Sumapaz (visited on 2 October) and at La Florida, which is not part of the tour programme.

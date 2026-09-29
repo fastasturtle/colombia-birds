@@ -43,10 +43,10 @@ en:
 ---
 Noble Snipe (длинноклювый бекас) — почти-эндемик северных Анд, живёт в сырых лугах и болотах парамо на высотах 2 500–3 900 м. Из местных бекасов у него самый длинный клюв и чистое белое брюхо. Обычно его видят одно мгновение: птица вырывается из осоки почти из-под ботинка и уходит низко над болотом. Вид считается почти угрожаемым.
 
-Надёжнее всего он в парамо Сумапаса под Боготой, но эта точка в маршрут не входит. 16 октября вид «возможен» на сырых пастбищах Парамо Бордонсильо и у берегов Лагуны Ла-Коча: проходи медленно по краю болот и следи за тем, что взлетит.
+Надёжнее всего он в парамо Сумапаса под Боготой, куда запланирован выезд с гидом Леоном 2 октября. 16 октября вид «возможен» на сырых пастбищах Парамо Бордонсильо и у берегов Лагуны Ла-Коча: проходи медленно по краю болот и следи за тем, что взлетит.
 
 ## English
 
 Noble Snipe is a near-endemic of the northern Andes, living in wet meadows and bogs of the páramo at 2,500–3,900 m. Among the local snipes it has the longest bill and a clean white belly. It is usually seen for a moment: the bird bursts out of the sedge almost from under a boot and flies off low over the bog. It is considered Near Threatened.
 
-It is most reliable in the Sumapaz páramo near Bogotá, but that site is not on the route. On 16 October it is "maybe" on the wet pastures of Páramo Bordoncillo and along the shores of Laguna de La Cocha: walk slowly along the bog edges and watch what flushes.
+It is most reliable in the Sumapaz páramo near Bogotá, visited with the guide León on 2 October. On 16 October it is "maybe" on the wet pastures of Páramo Bordoncillo and along the shores of Laguna de La Cocha: walk slowly along the bog edges and watch what flushes.
