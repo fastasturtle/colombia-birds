@@ -55,7 +55,8 @@ const path = Astro.url.pathname;
     </div>
     <script is:inline define:vars={{ base, prod }}>
       // Offline shell (see site/integrations/offline.mjs and /offline/):
-      // 1) service worker; 2) «Офлайн» strip while navigator.onLine is false; 3) «Есть новая версия» toast.
+      // 1) service worker; 2) «Офлайн» strip while navigator.onLine is false; 3) «Есть новая версия» toast
+      // (or a one-time silent reload when a stale page's fresh copy lands before the user starts reading).
       (function () {
         // the build id lives only in <meta name="build-version">, so it is the one line that differs between builds
         // (the offline-pack hash of a page ignores that meta: an unchanged page is not re-downloaded)
@@ -99,7 +100,44 @@ const path = Astro.url.pathname;
             if (sessionStorage.getItem('cb.nv.dismissed') === buildId) return;
           } catch (e) {}
           fetch(base + 'version.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (v) { if (v && v.version && v.version !== buildId && !downloading()) toast.hidden = false; }).catch(function () {});
+            .then(function (v) { if (v && v.version && v.version !== buildId) showToast(); }).catch(function () {});
+        }
+        function showToast() {
+          if (downloading()) return;
+          try { if (sessionStorage.getItem('cb.nv.dismissed') === buildId) return; } catch (e) {}
+          toast.hidden = false;
+        }
+
+        // Stale page, fresh copy: the worker answered from its cache and, once the background refresh has
+        // stored the new copy, posts PAGE_REFRESHED { url, version } (sw.template.js, notifyRefreshed). If
+        // that build differs from this page's and the user has not started reading (no scroll past 40 px, no
+        // touch/click/key, < 15 s since load, no pack download, not /offline/ whose island keeps state), the
+        // page reloads itself once, silently: the reload is answered from the cache, now the fresh copy.
+        // Otherwise the toast. sessionStorage['cb.autoreload'] = that version guards against a reload loop.
+        var loadedAt = Date.now();
+        var interacted = location.pathname === base + 'offline/' || downloading();
+        function markInteracted() { interacted = true; }
+        function onScroll() { if (scrollY > 40) { interacted = true; removeEventListener('scroll', onScroll); } }
+        addEventListener('scroll', onScroll, { passive: true });
+        ['touchstart', 'pointerdown', 'keydown'].forEach(function (t) {
+          addEventListener(t, markInteracted, { passive: true, capture: true, once: true });
+        });
+        document.addEventListener('cb:download-start', markInteracted);
+        if (prod && 'serviceWorker' in navigator) {
+          navigator.serviceWorker.addEventListener('message', function (e) {
+            var d = e.data || {};
+            if (d.type !== 'PAGE_REFRESHED' || !d.version || d.version === buildId) return;
+            var here = new URL(location.href); here.search = ''; here.hash = '';
+            if (d.url !== here.href && d.url !== here.href + '/' && d.url + '/' !== here.href) return;
+            var reloaded = null;
+            try { reloaded = sessionStorage.getItem('cb.autoreload'); } catch (err) {}
+            if (!interacted && !downloading() && Date.now() - loadedAt < 15000 && reloaded !== d.version) {
+              try { sessionStorage.setItem('cb.autoreload', d.version); } catch (err) { showToast(); return; }
+              location.reload();
+            } else {
+              showToast();
+            }
+          });
         }
         document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') checkVersion(); });
         document.addEventListener('cb:download-start', function () { toast.hidden = true; });
