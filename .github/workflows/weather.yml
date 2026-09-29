@@ -1,0 +1,52 @@
+name: weather
+
+# Daily forecast for the trip days (pipeline step `weather`, Open-Meteo, no key, no AI): writes
+# data/weather.json, commits it back via pipeline/ci_commit.sh and, when something was pushed to main,
+# dispatches deploy.yml (ci_commit.sh does that only after a real push, so an unchanged file, or a run
+# after the trip when the step leaves the file untouched, deploys nothing).
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 05:00 Bogotá (UTC-5)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to dispatch deploy.yml after committing data (bot pushes don't trigger workflows)
+
+concurrency:
+  group: pipeline-light
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      STEPS: weather
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: pipeline/uv.lock
+
+      # Files that differ from this commit are what ci_commit.sh commits (see pipeline/ci_commit.sh).
+      - name: Remember start commit
+        run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      # A few minutes at most: no ci_run.sh (its periodic flushes and R2 status uploads are for long runs),
+      # and no HTTP cache (forecasts must be fresh; the step does not use it).
+      - name: Fetch forecast
+        working-directory: pipeline
+        run: uv run python run.py weather
+
+      - name: Commit data/weather.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY: "1"
+        run: pipeline/ci_commit.sh "data: weather forecast"
