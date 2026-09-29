@@ -32,7 +32,7 @@
   const MEDIA = 'media-v1';
   const CONCURRENCY = 6;
   const PROGRESS_EVERY = 20;
-  const RETRIES = 2;
+  const RETRIES = 3;
   const RETRY_MS = 1000;
   const K_PACK = 'cb.offline.pack';
   const K_CHECKED = 'cb.offline.checked';
@@ -217,13 +217,27 @@
         writeLS(K_VERSIONS, versions);
       };
 
-      /** fetch with RETRIES extra attempts on a network error (flaky mobile links, dropped connections) */
+      /**
+       * fetch with RETRIES extra attempts on a network error (flaky mobile links, dropped connections)
+       * or a transient HTTP status (5xx, 429, 408: the Pages CDN sometimes answers one request with 503).
+       * Backoff RETRY_MS * (attempt + 1), or a numeric Retry-After (seconds, capped at 10 s). After the
+       * last attempt a network error is thrown and a bad status is returned as is (the caller records it).
+       */
       async function get(url: string, init: RequestInit): Promise<Response> {
         for (let attempt = 0; ; attempt++) {
-          try { return await fetch(url, init); } catch (err) {
+          let wait = RETRY_MS * (attempt + 1);
+          try {
+            const res = await fetch(url, init);
+            if (!(res.status >= 500 || res.status === 429 || res.status === 408)) return res;
+            if (signal.aborted || attempt >= RETRIES || navigator.onLine === false) return res;
+            const h = res.headers.get('Retry-After')?.trim(); // null on a cross-origin photo (not CORS-exposed)
+            const ra = h ? Number(h) : NaN;
+            if (Number.isFinite(ra) && ra >= 0) wait = Math.min(ra, 10) * 1000;
+            res.body?.cancel().catch(() => {});
+          } catch (err) {
             if (signal.aborted || attempt >= RETRIES || navigator.onLine === false) throw err;
-            await new Promise((r) => setTimeout(r, RETRY_MS * (attempt + 1)));
           }
+          await new Promise((r) => setTimeout(r, wait));
         }
       }
 

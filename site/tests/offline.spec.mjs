@@ -44,10 +44,12 @@ const types = { html: 'text/html; charset=utf-8', js: 'text/javascript', css: 't
 const hits = []; // paths the server was asked for
 const delays = new Map(); // path → ms before answering (to tell a cache answer from a network one)
 const overrides = new Map(); // path → [content-type, body] served instead of dist
+const failures = new Map(); // path → how many more times to answer 503 (a flaky CDN) before serving it
 const srv = createServer(async (req, res) => {
   const p = decodeURIComponent(req.url.split('?')[0]);
   hits.push(p);
   if (delays.has(p)) await new Promise((ok) => setTimeout(ok, delays.get(p)));
+  if (failures.get(p) > 0) { failures.set(p, failures.get(p) - 1); res.statusCode = 503; return res.end('busy'); }
   if (overrides.has(p)) { const [t, body] = overrides.get(p); res.setHeader('content-type', t); return res.end(body); }
   if (p === TEST_MANIFEST) { res.setHeader('content-type', types.json); return res.end(testManifest); }
   if (!p.startsWith(BASE)) { res.statusCode = 404; return res.end(); }
@@ -111,10 +113,16 @@ try {
     const btn = page.getByRole('button', { name: /Скачать пакет/ });
     await btn.waitFor({ timeout: 15000 });
     await page.getByText('тестовый манифест').waitFor();
-    await btn.click();
-    await page.getByText('Пакет скачан: сайт работает без сети.').waitFor({ timeout: 60000 })
-      .catch(async (e) => { console.log(await page.locator('main').innerText()); throw e; });
+    hits.length = 0;
+    failures.set(DAY, 2); // the CDN answers 503 twice: the downloader retries and gets it on the 3rd try
+    try {
+      await btn.click();
+      await page.getByText('Пакет скачан: сайт работает без сети.').waitFor({ timeout: 60000 })
+        .catch(async (e) => { console.log(await page.locator('main').innerText()); throw e; });
+    } finally { failures.delete(DAY); }
     await page.getByText(`Скачано ${files.length} из ${files.length} файлов`).waitFor();
+    assert.equal(await page.getByText(/Не скачалось/).count(), 0, 'no download errors');
+    assert.equal(hits.filter((h) => h === DAY).length, 3, `${DAY} fetched 3 times (2 × 503, then 200)`);
     const keys = await page.evaluate(async () => {
       const out = [];
       for (const n of ['pages-v1', 'media-v1']) for (const r of await (await caches.open(n)).keys()) out.push(r.url);
