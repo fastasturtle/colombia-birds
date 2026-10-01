@@ -9,6 +9,7 @@ import { join } from 'node:path';
 import matter from 'gray-matter';
 import { validateTraits, type Traits } from './traits';
 import { speciesIndex } from './data';
+import { linkify } from './linkify';
 
 const CONTENT = join(process.cwd(), '..', 'content');
 
@@ -174,4 +175,90 @@ export function speciesCards(): Map<string, SpeciesCard> {
 /** Card for a species id, or null if none written yet. */
 export function speciesCard(id: string): SpeciesCard | null {
   return speciesCards().get(id) ?? null;
+}
+
+/* ---- Standalone reference pages: content/history.md ---- */
+
+/** One block of a reference page body. Inline text is already HTML (escaped, linkified). */
+export type PageBlock =
+  | { kind: 'h2'; id: string; html: string }
+  | { kind: 'h3'; id: string; html: string }
+  | { kind: 'p'; html: string }
+  | { kind: 'ul'; items: string[] }
+  | { kind: 'table'; head: string[]; rows: string[][] };
+
+export interface ReferencePage {
+  title: string;
+  lead: string | null;
+  updated: string | null;
+  sources: string[];
+  blocks: PageBlock[];
+}
+
+const escHtml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+/** Inline markdown subset: **bold**, *italic*, [text](https://…); plain text goes through linkify (site and species names). */
+function inline(text: string, base: string): string {
+  const re = /\*\*(.+?)\*\*|\*(.+?)\*|\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+  let out = '';
+  let pos = 0;
+  for (let m = re.exec(text); m; m = re.exec(text)) {
+    out += linkify(text.slice(pos, m.index), base);
+    if (m[1] != null) out += `<strong>${linkify(m[1], base)}</strong>`;
+    else if (m[2] != null) out += `<em>${linkify(m[2], base)}</em>`;
+    else out += `<a href="${escHtml(m[4])}" rel="noopener">${escHtml(m[3])}</a>`;
+    pos = re.lastIndex;
+  }
+  return out + linkify(text.slice(pos), base);
+}
+
+/** Bare URLs in a source line become links; the rest is escaped. */
+function sourceHtml(s: string): string {
+  return s.split(/(https?:\/\/\S+)/)
+    .map((part, i) => (i % 2 ? `<a href="${escHtml(part)}" rel="noopener">${escHtml(part)}</a>` : escHtml(part)))
+    .join('');
+}
+
+/**
+ * Parse a reference page (content/<name>.md): frontmatter `title`, `lead`, `updated`, `sources`, then a body of
+ * `## Heading` sections (with `### Subheading` inside them), paragraphs (blank-line separated, like the portraits),
+ * `- ` lists and `| a | b |` tables (header + `|---|` row). A deliberately small markdown subset, no extra dependency.
+ */
+export function referencePage(name: string, base: string): ReferencePage {
+  const { data, content } = matter(readFileSync(join(CONTENT, `${name}.md`), 'utf8'));
+  if (typeof data.title !== 'string' || !data.title.trim()) throw new Error(`content/${name}.md: missing "title" in frontmatter`);
+  const updated = data.updated instanceof Date ? data.updated.toISOString().slice(0, 10) : data.updated ? String(data.updated) : null;
+  const cells = (row: string) => row.trim().replace(/^\||\|$/g, '').split('|').map((c) => inline(c.trim(), base));
+  const blocks: PageBlock[] = [];
+  for (const chunk of content.split(/\n\s*\n/)) {
+    const lines = chunk.split('\n').map((l) => l.trimEnd()).filter((l) => l.trim());
+    if (!lines.length) continue;
+    const first = lines[0].trim();
+    const h = /^(##|###)\s+(.+)$/.exec(first);
+    if (h) {
+      const id = h[2].toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
+      blocks.push(h[1] === '##' ? { kind: 'h2', id, html: inline(h[2], base) } : { kind: 'h3', id, html: inline(h[2], base) });
+      if (lines.length > 1) blocks.push({ kind: 'p', html: inline(lines.slice(1).join(' '), base) });
+    } else if (first.startsWith('|')) {
+      const [head, sep, ...rows] = lines;
+      if (!sep || !/^\|?[\s:|-]+\|?$/.test(sep.trim())) throw new Error(`content/${name}.md: a table needs a |---| row after the header`);
+      blocks.push({ kind: 'table', head: cells(head), rows: rows.map(cells) });
+    } else if (/^[-*]\s/.test(first)) {
+      const items: string[] = [];
+      for (const l of lines) {
+        if (/^\s*[-*]\s/.test(l)) items.push(l.replace(/^\s*[-*]\s+/, ''));
+        else items[items.length - 1] += ' ' + l.trim();
+      }
+      blocks.push({ kind: 'ul', items: items.map((i) => inline(i, base)) });
+    } else {
+      blocks.push({ kind: 'p', html: inline(lines.map((l) => l.trim()).join(' '), base) });
+    }
+  }
+  return {
+    title: data.title.trim(),
+    lead: typeof data.lead === 'string' ? data.lead.trim() : null,
+    updated,
+    sources: (Array.isArray(data.sources) ? data.sources : []).map((s: unknown) => sourceHtml(String(s))),
+    blocks,
+  };
 }

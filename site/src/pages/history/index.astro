@@ -1,0 +1,80 @@
+---
+/**
+ * «История Колумбии»: a general history primer for tour participants, from content/history.md
+ * (frontmatter title/lead/updated/sources + a small markdown body, parsed by referencePage() in lib/content.ts).
+ * The first table is the timeline; research notes and unverified facts: docs/research/colombia-history.md.
+ */
+import Base from '../../layouts/Base.astro';
+import { referencePage } from '@lib/content';
+import { fmtDateRu } from '@lib/data';
+
+const base = import.meta.env.BASE_URL;
+const page = referencePage('history', base);
+const toc = page.blocks.filter((b) => b.kind === 'h2');
+let tables = 0;
+---
+<Base title={page.title} description="Краткая история Колумбии для участников тура: от муисков и Сан-Агустина до выборов 2026 года">
+  <h1>{page.title}</h1>
+  {page.lead && <p class="muted lead">{page.lead}</p>}
+  {toc.length > 0 && (
+    <nav class="toc" aria-label="Разделы">
+      {toc.map((h) => <a class="chip tap" href={`#${h.id}`} set:html={h.html.replace(/<[^>]+>/g, '')} />)}
+    </nav>
+  )}
+  <article class="hist">
+    {page.blocks.map((b) => {
+      if (b.kind === 'h2') return <h2 id={b.id} set:html={b.html} />;
+      if (b.kind === 'h3') return <h3 id={b.id} set:html={b.html} />;
+      if (b.kind === 'p') return <p set:html={b.html} />;
+      if (b.kind === 'ul') return <ul>{b.items.map((i) => <li set:html={i} />)}</ul>;
+      const timeline = tables++ === 0;
+      return (
+        <table class={timeline ? 'tl' : 'md'}>
+          <thead><tr>{b.head.map((c) => <th set:html={c} />)}</tr></thead>
+          <tbody>{b.rows.map((r) => <tr>{r.map((c) => <td set:html={c} />)}</tr>)}</tbody>
+        </table>
+      );
+    })}
+  </article>
+  {page.sources.length > 0 && (
+    <section class="src">
+      <h2 id="istochniki">Источники</h2>
+      <ol>{page.sources.map((s) => <li set:html={s} />)}</ol>
+      {page.updated && <p class="muted">Обновлено {fmtDateRu(page.updated, false)} {page.updated.slice(0, 4)}&nbsp;г.</p>}
+    </section>
+  )}
+</Base>
+
+<style>
+  .lead { margin-top: 0; }
+  /* section chips: one row that scrolls sideways on phones (nine sections would take half a screen when wrapped) */
+  .toc { display: flex; overflow-x: auto; scrollbar-width: none; margin: 4px -16px 8px; padding: 0 16px; }
+  .toc::-webkit-scrollbar { display: none; }
+  .toc .chip { color: var(--fg); flex: none; white-space: nowrap; }
+  .hist { max-width: 42rem; }
+  .hist p { margin: 0 0 12px; }
+  .hist h2 { scroll-margin-top: 96px; }
+  .hist h3 { font-size: 1.05rem; margin: 18px 0 8px; scroll-margin-top: 96px; }
+  .hist ul { padding-left: 1.1em; margin: 0 0 12px; }
+  .hist li { margin: 0 0 8px; }
+  /* timeline: two columns that fit 360px — a narrow date column, the event wraps */
+  .tl { table-layout: fixed; margin: 4px 0 16px; font-size: .95rem; }
+  .tl th:first-child, .tl td:first-child { width: 7.2em; color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .tl th { color: var(--muted); font-weight: 500; font-size: .85rem; }
+  .tl td, .tl th { padding: 6px 8px 6px 0; overflow-wrap: anywhere; }
+  .tl tbody tr:nth-child(odd) td { background: var(--chip); }
+  .tl td:first-child { padding-left: 8px; border-radius: 8px 0 0 8px; }
+  .tl td:last-child { border-radius: 0 8px 8px 0; }
+  .tl th:first-child { padding-left: 8px; }
+  .tl td { border-bottom: 0; }
+  .md { margin: 4px 0 16px; }
+  .md td, .md th { overflow-wrap: anywhere; }
+  .src { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 4px; font-size: .85rem; }
+  .src ol { padding-left: 1.4em; margin: 0 0 8px; }
+  .src li { margin: 0 0 6px; overflow-wrap: anywhere; }
+  .src h2 { font-size: 1rem; scroll-margin-top: 96px; }
+  @media (max-width: 480px) {
+    .tl { font-size: .9rem; }
+    .tl th:first-child, .tl td:first-child { width: 6.4em; }
+  }
+</style>
