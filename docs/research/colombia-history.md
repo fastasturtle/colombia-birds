@@ -243,3 +243,62 @@
 По-прежнему не проверено независимо: датировка «Муисского плота» (XIV в., только Википедия); год выхода *One River*
 (1996, Kirkus и Википедия); год «Ста лет одиночества» (общеизвестно). UNESCO, nobelprize.org и travel.state.gov
 по-прежнему закрыты для бота; рекомендации Госдепа США не сверены (вместо них — Канада).
+
+## Факты для рассказа в дороге
+
+Раздел «Что рассказать в дороге» на странице (30 пунктов) собран из подборки исследователя (`docs/research/colombia-fun-facts.md`, 34 факта). Дата обращения ко всем источникам — **01.10.2026**. На страницу попали только детали, подтверждённые минимум двумя открытыми источниками; спорные детали, которые не удалось подтвердить, убраны. Номер в скобках — номер факта в подборке.
+
+### Богота (6)
+
+1. **Третья по высоте столица** (4). Britannica *Bogotá*; Wikipedia *Bogotá*. Фраза об основании города опущена: она уже есть на странице.
+2. **Гумбольдт в гостях у Мутиса** (1). Sociedad Geográfica de Colombia, *Humboldt y sus relaciones con Mutis y Caldas*; EBSCO Research Starters *Humboldt and Bonpland's Expedition*.
+3. **Ваза 20 июля** (2). Radio Nacional; Wikipedia *Florero de Llorente*. Кто именно ходил за вазой, не названо (источники расходятся). «XVIII века» у донца убрано.
+4. **Кастро на «Боготасо»** (3). Semana *Fidel Castro y el Bogotazo*; Wikipedia *Bogotazo*.
+5. **Сокровище Кимбайя** (30). Radio Nacional; El Debate (Мадрид), 16.06.2026. Год подарка не указан (1892 или 1893).
+6. **Воскресная сикловиа** (5). Alcaldía de Bogotá; El Espectador. Длина — диапазоном 120–128 км.
+
+### Уила (4)
+
+7. **Кофейная столица страны** (6). Portafolio (2026); Agronegocios (2026); дополнительно Radio Nacional (2021). Питалито не назван «первым» муниципалитетом.
+8. **Глиняная чива** (7). Canal Trece; El Universal (Картахена). Убраны «250 семей» и деталь о детстве (только Canal Trece).
+9. **Речная звезда** (8). Radio Nacional *San Sebastián, Cauca: la tierra ancestral del agua*; Wikipedia *Colombian Massif*. Год биосферного резервата не включён.
+10. **Пустыня, которая не пустыня** (9). Semana; Wikipedia *Tatacoa Desert*. Площадь и название рода черепахи не включены.
+
+### Путумайо (6)
+
+11. **Чемпион Global Big Day** (15). MinCIT (2026, 2025); Forbes Colombia (2026); El Espectador (2022). Безопасная формулировка «почти каждый год с 2017-го»: Forbes пишет о четырёх победах подряд (2023–2026), MinCIT — о девяти к 2025 году; страницы результатов eBird (ebird.org/news) закрыты для бота (антибот-страница), так что полную серию подтвердить не удалось. Число наблюдателей (4210) и счёт Перу (1438) есть только в одном из открытых источников и убраны. Путумайо назван «в пятёрке департаментов с наибольшим числом записей» — так у MinCIT и Forbes (речь о числе записей, а не видов).
+12. **Нефть Орито** (12). AAPG Explorer; Wikipedia *Transandino pipeline*. Длина «около 300 км» (305 или ≈311). Высота перевала 3500 м убрана (только AAPG).
+13. **Дорога капуцинов** (10). Kuan Bahamón, *Anuario de Historia Regional y de las Fronteras* 25(2), 2020; Radio Nacional *Historia de Puerto Asís*.
+14. **Бой при Гуэпи** (11). Comando General de las Fuerzas Militares; Diario del Sur; Wikipedia *Colombia–Peru War*. Численность сил не указана; фраза о первой совместной операции и наборе добровольцев в Пасто опущена ради краткости.
+15. **Долина-болото** (14). Instituto SINCHI, *Atlas de conflictos socioambientales* (2024); Wikipedia (исп.) *Sibundoy*.
+16. **Язык без родни** (13). A. Fabre (2002), Universidad Nacional; Wikipedia *Camsá language*.
+
+### Нариньо и Тумако (8)
+
+17. **Самый маленький заповедник** (16). Parques Nacionales Naturales, *Descripción SFF Isla de la Corota*; Colombia Travel; дополнительно A. L. Narváez Apráez, магистерская диссертация, Universidad de Buenos Aires (2014) — те же 12 га суши и 4 га тоторы. Сравнение с панцирем черепахи и сведения о закрытии острова (резолюция № 542 от 15.12.2025, закрыт на январь 2026) не включены: первое — ради краткости, второе — устаревшая логистика, открыт ли остров в октябре 2026, не проверялось (уточнить у местного гида).
+18. **Приезжая форель** (17). El Espectador; FishConsult. Год завоза дан как «конец 1930-х» (1938 или 1939).
+19. **Карнавал чёрных и белых** (18). UNESCO ICH; Wikipedia *Blacks and Whites' Carnival*; Diario del Sur. Место бунта рабов 1607 года и клич «Да здравствуют беленькие!» не включены.
+20. **Галерас, 1993** (19). Servicio Geológico Colombiano (девять погибших, первый международный семинар по Галерасу); Wikipedia *Galeras tragedy*; Outside (*In the Shadow of Galeras*: девять погибших, Стэнли Уильямс едва выжил). Высота вулкана, «самый активный вулкан», время взрыва, состав погибших (шесть вулканологов, в том числе россиянин Игорь Меняйлов) и роль Уильямса как руководителя группы убраны: в открытых текстах это есть только у Wikipedia.
+21. **Голос в каньоне** (20). ACI Prensa; Wikipedia *Las Lajas Sanctuary* (глухонемая дочь — также Miracle Hunter по подборке). Годы постройки храма опущены, они уже есть на странице.
+22. **Ла-Планада у ава** (21). Mongabay Latam (2023); Key Biodiversity Areas, factsheet 14431. Убраны «одна из первых гражданских резерватов», площадь и число видов.
+23. **«Чудо Тумако»** (23). **Подтверждено дополнительно:** Servicio Geológico Colombiano, *Magnitud 8.8: la historia del terremoto más grande registrado en Colombia* — https://www2.sgc.gov.co/Noticias/Paginas/Magnitud-8.8-la-historia-del-terremoto-mas-grande-registrado-en-Colombia.aspx : магнитуда 8,8, 31.01.1906, волны 2–5 м, около 600 погибших, затоплены побережья от Тумако до Тимбики. Вместе с Wikipedia (≥500) — «от 500 до 600 человек». Предание: Radio Nacional; ACI Prensa (2026). Фраза о поднятых навстречу волне Святых Дарах сокращена.
+24. **«Рояль сельвы»** (24). UNESCO ICH; Radio Nacional. Названия барабанов (кунуно, бомбо) и трещоток (гуаса), а также названия жанров (курруляо, алабао) убраны — их нет в открытых текстах.
+
+### Про Колумбию вообще (6)
+
+25. **Имя от Миранды** (25). El Tiempo; Britannica *Colombia*; Wikipedia *Francisco de Miranda*.
+26. **Гимн итальянца** (27). Alcaldía de Bogotá (авторы, закон 1920 года, 11 куплетов, 6:00 и 18:00); Wikipedia *National Anthem of Colombia*. **Подтверждено дополнительно:** Biografías y Vidas, *Oreste Síndici* — https://www.biografiasyvidas.com/biografia/s/sindici.htm (родился в Чеккано, премьера 11.11.1887 в Боготе, в «театре варьете» школы); Cancillería de Colombia, речь Х. С. Турбая в Чеккано (1992) — https://www.cancilleria.gov.co/sites/default/files/FOTOS2020/1992_jc_turbay_oreste_sindici_en_colombia.pdf (Синдичи — «сын Чеккано»). Конкретное здание не названо: Wikipedia пишет о школе Санта-Клары, Biografías y Vidas — о школе при соборе; оба в Боготе. «Дети из трёх школ» убраны (только Wikipedia). Обязанность трансляции установлена законом 198 от 1995 года (Wikipedia), на странице — просто «по закону».
+27. **Панама на гербе** (28). Wikipedia *Coat of arms of Colombia*; Blu Radio.
+28. **Автогол Андреса Эскобара** (32). Radio Nacional; Wikipedia *Andrés Escobar*. **Цитата подтверждена:** El Colombiano, *A 30 años de su asesinato…* — https://www.elcolombiano.com/deportes/a-30-anos-de-su-asesinato-revivimos-los-ultimos-10-dias-de-andres-escobar-CH24892572 (колонка в El Tiempo 29.06.1994, «Hasta pronto porque la vida no termina aquí»), вместе с Wikipedia. Число пришедших на похороны (120 тысяч) и прозвище «джентльмен поля» убраны: только Wikipedia (El Colombiano пишет лишь о «многолюдном прощании»).
+29. **Нобель в ликилики** (33). El Colombiano; Vanguardia. **«Ликилики» подтверждено:** Prensa Mercosur, *La parranda que fue y vino de Estocolmo* (2022) — https://prensamercosur.org/2022/12/11/la-parranda-que-fue-y-vino-de-estocolmo/ («в белом костюме… известном как ликилики», «жёлтая роза»); OnCuba News — https://oncubanews.com/cultura/literatura/gabo-la-habana (ликилики на церемонии 1982 года). Убраны: «сшит на Кубе», «четвёртый латиноамериканец» и объяснение жёлтого цветка суеверием (только El Colombiano).
+30. **Восковая пальма** (34). El Espectador; Wikipedia *Ceroxylon quindiuense*. Высота «обычно до 40–45 м»; «почти целиком зависит» смягчено до «во многом зависит».
+
+### Не вошло на страницу
+
+- **Флаг и Гёте** (26), **галеон «Сан-Хосе»** (29), **Армеро, 1985** (31) — сюжеты далеки от маршрута, выпущены ради объёма (30 пунктов). Источники в подборке.
+- **Граница с Эквадором, 1916** (22) — конечные точки только у Wikipedia, без них сюжет слишком сухой.
+- **Закрытие острова Ла-Корота** — см. п. 17.
+
+### Высота Ла-Кочи
+
+В `content/history.md` высота озера не указана. В `data/sites.json` у `laguna-la-cocha` стоит `elev_min` 2760 / `elev_max` 2830 — это совпадает с источниками: уровень воды 2760 м над уровнем моря, высшая точка острова Ла-Корота 2843 м (Narváez Apráez 2014, UBA); Рамсарский участок «Laguna de la Cocha» лежит на высоте 2760–3400 м (там же, по данным Рамсарской анкеты). Цифра Colombia Travel «2280 м» ошибочна. Правок не потребовалось.

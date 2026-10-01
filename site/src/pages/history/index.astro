@@ -24,6 +24,7 @@ let tables = 0;
   <article class="hist">
     {page.blocks.map((b) => {
       if (b.kind === 'h2') return <h2 id={b.id} set:html={b.html} />;
+      if (b.kind === 'h3') return <h3 id={b.id} set:html={b.html} />;
       if (b.kind === 'p') return <p set:html={b.html} />;
       if (b.kind === 'ul') return <ul>{b.items.map((i) => <li set:html={i} />)}</ul>;
       const timeline = tables++ === 0;
@@ -53,6 +54,7 @@ let tables = 0;
   .hist { max-width: 42rem; }
   .hist p { margin: 0 0 12px; }
   .hist h2 { scroll-margin-top: 96px; }
+  .hist h3 { font-size: 1.05rem; margin: 18px 0 8px; scroll-margin-top: 96px; }
   .hist ul { padding-left: 1.1em; margin: 0 0 12px; }
   .hist li { margin: 0 0 8px; }
   /* timeline: two columns that fit 360px — a narrow date column, the event wraps */

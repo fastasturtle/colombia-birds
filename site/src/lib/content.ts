@@ -182,6 +182,7 @@ export function speciesCard(id: string): SpeciesCard | null {
 /** One block of a reference page body. Inline text is already HTML (escaped, linkified). */
 export type PageBlock =
   | { kind: 'h2'; id: string; html: string }
+  | { kind: 'h3'; id: string; html: string }
   | { kind: 'p'; html: string }
   | { kind: 'ul'; items: string[] }
   | { kind: 'table'; head: string[]; rows: string[][] };
@@ -220,8 +221,8 @@ function sourceHtml(s: string): string {
 
 /**
  * Parse a reference page (content/<name>.md): frontmatter `title`, `lead`, `updated`, `sources`, then a body of
- * `## Heading` sections, paragraphs (blank-line separated, like the portraits), `- ` lists and `| a | b |` tables
- * (header + `|---|` row). A deliberately small markdown subset, no extra dependency.
+ * `## Heading` sections (with `### Subheading` inside them), paragraphs (blank-line separated, like the portraits),
+ * `- ` lists and `| a | b |` tables (header + `|---|` row). A deliberately small markdown subset, no extra dependency.
  */
 export function referencePage(name: string, base: string): ReferencePage {
   const { data, content } = matter(readFileSync(join(CONTENT, `${name}.md`), 'utf8'));
@@ -233,10 +234,10 @@ export function referencePage(name: string, base: string): ReferencePage {
     const lines = chunk.split('\n').map((l) => l.trimEnd()).filter((l) => l.trim());
     if (!lines.length) continue;
     const first = lines[0].trim();
-    const h = /^##\s+(.+)$/.exec(first);
+    const h = /^(##|###)\s+(.+)$/.exec(first);
     if (h) {
-      const id = h[1].toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
-      blocks.push({ kind: 'h2', id, html: inline(h[1], base) });
+      const id = h[2].toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
+      blocks.push(h[1] === '##' ? { kind: 'h2', id, html: inline(h[2], base) } : { kind: 'h3', id, html: inline(h[2], base) });
       if (lines.length > 1) blocks.push({ kind: 'p', html: inline(lines.slice(1).join(' '), base) });
     } else if (first.startsWith('|')) {
       const [head, sep, ...rows] = lines;
