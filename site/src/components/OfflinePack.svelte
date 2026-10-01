@@ -2,6 +2,8 @@
   /**
    * «Офлайн» page island: downloads the offline pack into the service worker's caches and shows its status.
    * The download runs HERE (not in the worker); the worker (site/integrations/sw.template.js) only serves.
+   * Caches: `cb-pages-v1` (pages, _astro, manifest) and `cb-media-v1` (R2 photos). The cb- prefix keeps them
+   * apart from other projects on the shared fastasturtle.github.io origin (Cache Storage is per origin).
    *
    * Pack = dist/offline-manifest.json (built by site/integrations/offline.mjs):
    *   { version, hash, built, photoEstimate, files: [[url, ver, size?], ...] }
@@ -28,8 +30,8 @@
   import { onMount } from 'svelte';
 
   const BASE = import.meta.env.BASE_URL.replace(/\/?$/, '/'); // "/colombia-birds/"
-  const PAGES = 'pages-v1';
-  const MEDIA = 'media-v1';
+  const PAGES = 'cb-pages-v1';
+  const MEDIA = 'cb-media-v1';
   const CONCURRENCY = 6;
   const PROGRESS_EVERY = 20;
   const RETRIES = 3;

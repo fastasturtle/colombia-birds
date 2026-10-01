@@ -15,16 +15,21 @@
  * <meta name="build-version">). Whenever a
  * fresh page is stored, the _astro files it references are stored too, so it also works offline right away.
  *
- *   pages-v1  same-origin HTML and assets (keys: absolute URL without ?query)
- *   media-v1  photos from R2 (keys: absolute URL)
+ *   cb-pages-v1  same-origin HTML and assets (keys: absolute URL without ?query)
+ *   cb-media-v1  photos from R2 (keys: absolute URL)
  * Cache names are NOT versioned per build: the pack diff on /offline/ handles updates. Changing a constant
- * below is the escape hatch that drops everything (old caches are deleted on activate).
+ * below is the escape hatch that drops everything (old cb-* caches are deleted on activate).
+ * The cb- prefix matters: Cache Storage is per origin, and fastasturtle.github.io hosts other projects with
+ * their own workers (brazil-birding-layover uses pages-v1/media-v1 and prunes them to its own manifest).
  */
 const VERSION = '__VERSION__';
 const BASE = '__BASE__'; // "/colombia-birds/"
 const MEDIA_ORIGIN = '__MEDIA_ORIGIN__';
-const PAGES = 'pages-v1';
-const MEDIA = 'media-v1';
+const PAGES = 'cb-pages-v1';
+const MEDIA = 'cb-media-v1';
+/** Shared, unprefixed caches used before 01.10; our entries are moved out of them on activate. */
+const LEGACY_PAGES = 'pages-v1';
+const LEGACY_MEDIA = 'media-v1';
 const OFFLINE_URL = new URL(BASE + 'offline/', self.location.origin).href;
 /** Must always come from the network (never cached, never answered from cache). */
 const PASSTHROUGH = new Set(['sw.js', 'version.json', 'offline-manifest.json'].map((f) => BASE + f));
@@ -40,8 +45,17 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
+    // The origin (fastasturtle.github.io) is shared with other GitHub Pages projects, so only our own
+    // cb-* caches are ever deleted; anything without the prefix may belong to someone else.
     const keep = new Set([PAGES, MEDIA]);
-    for (const name of await caches.keys()) if (!keep.has(name)) await caches.delete(name);
+    for (const name of await caches.keys()) {
+      if (name.startsWith('cb-') && !keep.has(name)) await caches.delete(name);
+    }
+    // Best effort: move our entries out of the legacy shared caches (never delete those caches themselves).
+    try {
+      await migrateLegacy(LEGACY_PAGES, PAGES, self.location.origin + BASE);
+      await migrateLegacy(LEGACY_MEDIA, MEDIA, MEDIA_ORIGIN + '/photos/');
+    } catch (e) { /* a failed migration must not block activation */ }
     await self.clients.claim();
   })());
 });
@@ -54,6 +68,21 @@ self.addEventListener('message', (event) => {
     else if (event.source) event.source.postMessage(reply);
   }
 });
+
+/** Moves entries whose URL starts with `prefix` from cache `from` to cache `to` (if `to` lacks the key). */
+async function migrateLegacy(from, to, prefix) {
+  if (!(await caches.has(from))) return;
+  const old = await caches.open(from);
+  const cache = await caches.open(to);
+  for (const req of await old.keys()) {
+    if (!req.url.startsWith(prefix)) continue;
+    if (!(await cache.match(req.url))) {
+      const res = await old.match(req);
+      if (res) await cache.put(req.url, res);
+    }
+    await old.delete(req);
+  }
+}
 
 async function precacheOfflinePage() {
   const cache = await caches.open(PAGES);

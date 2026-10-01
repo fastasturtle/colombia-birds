@@ -127,7 +127,7 @@ try {
     assert.equal(hits.filter((h) => h === DAY).length, 3, `${DAY} fetched 3 times (2 × 503, then 200)`);
     const keys = await page.evaluate(async () => {
       const out = [];
-      for (const n of ['pages-v1', 'media-v1']) for (const r of await (await caches.open(n)).keys()) out.push(r.url);
+      for (const n of ['cb-pages-v1', 'cb-media-v1']) for (const r of await (await caches.open(n)).keys()) out.push(r.url);
       return out;
     });
     for (const e of files) {
@@ -190,8 +190,8 @@ try {
     assert.equal(await page.evaluate(() => sessionStorage.getItem('cb.autoreload')),
       full.version + '-t1', 'the reload is remembered for this version');
     await page.waitForFunction(() => document.documentElement.dataset.testRefresh === '1', null, { timeout: 5000 });
-    assert.ok(await page.evaluate((u) => caches.open('pages-v1').then((c) => c.match(u)).then((r) => !!r), origin + ASSET),
-      'the refreshed page\'s new _astro file in pages-v1');
+    assert.ok(await page.evaluate((u) => caches.open('cb-pages-v1').then((c) => c.match(u)).then((r) => !!r), origin + ASSET),
+      'the refreshed page\'s new _astro file in cb-pages-v1');
     await throttleVersionCheck();
   });
 
