@@ -27,7 +27,7 @@ const BASE = '__BASE__'; // "/colombia-birds/"
 const MEDIA_ORIGIN = '__MEDIA_ORIGIN__';
 const PAGES = 'cb-pages-v1';
 const MEDIA = 'cb-media-v1';
-/** Shared, unprefixed caches used before 01.10; our entries are moved out of them on activate. */
+/** Shared, unprefixed caches used before 01.10; our entries are moved out of them in the background. */
 const LEGACY_PAGES = 'pages-v1';
 const LEGACY_MEDIA = 'media-v1';
 const OFFLINE_URL = new URL(BASE + 'offline/', self.location.origin).href;
@@ -44,6 +44,8 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
+  // Only quick work inside waitUntil: the browser holds every fetch event (the app's first navigation too)
+  // until activation settles, so anything slow here means a blank screen on open.
   event.waitUntil((async () => {
     // The origin (fastasturtle.github.io) is shared with other GitHub Pages projects, so only our own
     // cb-* caches are ever deleted; anything without the prefix may belong to someone else.
@@ -51,13 +53,10 @@ self.addEventListener('activate', (event) => {
     for (const name of await caches.keys()) {
       if (name.startsWith('cb-') && !keep.has(name)) await caches.delete(name);
     }
-    // Best effort: move our entries out of the legacy shared caches (never delete those caches themselves).
-    try {
-      await migrateLegacy(LEGACY_PAGES, PAGES, self.location.origin + BASE);
-      await migrateLegacy(LEGACY_MEDIA, MEDIA, MEDIA_ORIGIN + '/photos/');
-    } catch (e) { /* a failed migration must not block activation */ }
     await self.clients.claim();
   })());
+  // Not awaited by the event (see migrateLegacyAll).
+  migrateLegacyAll().catch(() => {});
 });
 
 self.addEventListener('message', (event) => {
@@ -69,18 +68,41 @@ self.addEventListener('message', (event) => {
   }
 });
 
-/** Moves entries whose URL starts with `prefix` from cache `from` to cache `to` (if `to` lacks the key). */
+/**
+ * Moves our entries out of the legacy shared caches (pages-v1/media-v1) into cb-*, in the background: never
+ * inside activate's waitUntil (fetch events wait for activation, and moving up to ~5 000 photos takes seconds;
+ * a worker terminated mid-way would also stay "activating" and re-run activate, with the delay, on every open).
+ * Started from activate and at every worker start (bottom of this file), so an interrupted move resumes.
+ * Idempotent and cheap when there is nothing to move; one run at a time per worker instance.
+ */
+let migrating = null;
+function migrateLegacyAll() {
+  if (!migrating) {
+    migrating = (async () => {
+      await migrateLegacy(LEGACY_PAGES, PAGES, self.location.origin + BASE);
+      await migrateLegacy(LEGACY_MEDIA, MEDIA, MEDIA_ORIGIN + '/photos/');
+    })().finally(() => { migrating = null; });
+  }
+  return migrating;
+}
+
+/**
+ * Moves entries whose URL starts with `prefix` from cache `from` to cache `to` (copied only if `to` lacks the
+ * key, then deleted from `from`). The legacy cache itself is never deleted: it may belong to another project.
+ */
 async function migrateLegacy(from, to, prefix) {
   if (!(await caches.has(from))) return;
   const old = await caches.open(from);
   const cache = await caches.open(to);
   for (const req of await old.keys()) {
     if (!req.url.startsWith(prefix)) continue;
-    if (!(await cache.match(req.url))) {
-      const res = await old.match(req);
-      if (res) await cache.put(req.url, res);
-    }
-    await old.delete(req);
+    try {
+      if (!(await cache.match(req.url))) {
+        const res = await old.match(req);
+        if (res) await cache.put(req.url, res);
+      }
+      await old.delete(req);
+    } catch (e) { /* best effort: one bad entry must not stop the others */ }
   }
 }
 
@@ -295,3 +317,7 @@ function stripQuery(u) {
 function escapeRe(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
+
+// ---------- startup ----------
+// Resume a legacy-cache move that a terminated worker left unfinished (fire-and-forget, see migrateLegacyAll).
+migrateLegacyAll().catch(() => {});

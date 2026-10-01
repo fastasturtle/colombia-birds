@@ -5,7 +5,9 @@
  *
  * 1. Serves ./dist under /colombia-birds/ on port 4321 (the R2 bucket's CORS allows http://localhost:4321;
  *    if the port is busy a random one is used and the photo checks are skipped).
- * 2. Opens /offline/ and waits for the service worker to control the page.
+ * 2. Before any worker is registered, seeds the legacy shared caches pages-v1/media-v1 with one entry of ours
+ *    each (plus a foreign one); opens /offline/, waits for the service worker to control the page and for the
+ *    background migration to move our entries into cb-pages-v1/cb-media-v1.
  * 3. Instead of the full ~440 MB pack, points the downloader at a small manifest (window.__OFFLINE_MANIFEST_URL__,
  *    see OfflinePack.svelte): a few pages + all _astro assets + 2 photos of Spatula discors, served from memory.
  * 4. Clicks «Скачать пакет», waits for «Пакет скачан». Online, checks stale-while-revalidate: a cached page
@@ -97,6 +99,24 @@ try {
   }
   console.log(`serving dist on ${origin}; test manifest: ${files.length} files; R2 photos ${photosReachable ? 'reachable' : 'NOT reachable, photo checks skipped'}`);
 
+  // Legacy shared caches as left by the old worker: our entries must move to cb-*, a foreign one must stay.
+  const MEDIA_ORIGIN = new URL(files.find((e) => e[1] === 'key')[0]).origin;
+  const legacy = {
+    page: `${origin}${BASE}/__test-legacy/`, photo: `${MEDIA_ORIGIN}/photos/__test-legacy/1-thumb.jpg`,
+    foreign: `${origin}/another-project/`,
+  };
+  await step('seed the legacy caches before the worker is registered', async () => {
+    overrides.set('/__seed', [types.html, '<!doctype html><title>seed</title>']); // outside the base: no worker
+    await page.goto(`${origin}/__seed`);
+    assert.equal(await page.evaluate(() => navigator.serviceWorker.getRegistrations().then((r) => r.length)), 0, 'no worker yet');
+    await page.evaluate(async (l) => {
+      const p = await caches.open('pages-v1');
+      await p.put(l.page, new Response('<!doctype html><title>legacy</title>', { headers: { 'content-type': 'text/html' } }));
+      await p.put(l.foreign, new Response('foreign'));
+      await (await caches.open('media-v1')).put(l.photo, new Response('jpg', { headers: { 'content-type': 'image/jpeg' } }));
+    }, legacy);
+  });
+
   await step('service worker controls /offline/', async () => {
     await page.goto(`${origin}${BASE}/offline/`, { waitUntil: 'load' });
     await page.evaluate(() => navigator.serviceWorker.ready);
@@ -109,6 +129,26 @@ try {
       navigator.serviceWorker.controller.postMessage({ type: 'GET_VERSION' }, [ch.port2]);
     }));
     assert.equal(v, full.version, 'GET_VERSION returns the baked build id');
+  });
+
+  await step('our entries are moved out of the legacy caches in the background', async () => {
+    const state = () => page.evaluate(async (l) => {
+      const has = async (cache, url) => !!(await (await caches.open(cache)).match(url));
+      return {
+        legacyExist: (await caches.has('pages-v1')) && (await caches.has('media-v1')),
+        pageNew: await has('cb-pages-v1', l.page), pageOld: await has('pages-v1', l.page),
+        photoNew: await has('cb-media-v1', l.photo), photoOld: await has('media-v1', l.photo),
+        foreign: await has('pages-v1', l.foreign),
+      };
+    }, legacy);
+    const done = (s) => s.pageNew && !s.pageOld && s.photoNew && !s.photoOld;
+    for (const t0 = Date.now(); !done(await state());) {
+      if (Date.now() - t0 > 5000) throw new Error(`migration not done: ${JSON.stringify(await state())}`);
+      await new Promise((ok) => setTimeout(ok, 100));
+    }
+    const s = await state();
+    assert.ok(s.legacyExist, 'legacy caches themselves are kept');
+    assert.ok(s.foreign, 'a foreign entry stays in pages-v1');
   });
 
   await step('download the test pack', async () => {
