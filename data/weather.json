@@ -1,105 +1,5 @@
 {
  "days": {
-  "2026-10-03": {
-   "sites": [
-    {
-     "elevation": 2650,
-     "id": "campo-tangara",
-     "name_ru": "Кампо-Тангара",
-     "overnight": false,
-     "periods": {
-      "day": {
-       "cloud_cover": 100,
-       "precip": 5.0,
-       "precip_prob": 97,
-       "t_max": 18,
-       "t_min": 14,
-       "weather_code": 81
-      },
-      "evening": {
-       "cloud_cover": 100,
-       "precip": 0.8,
-       "precip_prob": 100,
-       "t_max": 15,
-       "t_min": 13,
-       "weather_code": 53
-      },
-      "morning": {
-       "cloud_cover": 100,
-       "precip": 0.3,
-       "precip_prob": 33,
-       "t_max": 15,
-       "t_min": 12,
-       "weather_code": 51
-      }
-     }
-    },
-    {
-     "elevation": 2350,
-     "id": "chicaque",
-     "name_ru": "Чикаке",
-     "overnight": false,
-     "periods": {
-      "day": {
-       "cloud_cover": 100,
-       "precip": 5.0,
-       "precip_prob": 97,
-       "t_max": 20,
-       "t_min": 16,
-       "weather_code": 81
-      },
-      "evening": {
-       "cloud_cover": 100,
-       "precip": 0.8,
-       "precip_prob": 100,
-       "t_max": 16,
-       "t_min": 14,
-       "weather_code": 53
-      },
-      "morning": {
-       "cloud_cover": 100,
-       "precip": 0.3,
-       "precip_prob": 33,
-       "t_max": 16,
-       "t_min": 13,
-       "weather_code": 51
-      }
-     }
-    },
-    {
-     "elevation": 2600,
-     "id": "bogota",
-     "name_ru": "Богота",
-     "overnight": true,
-     "periods": {
-      "day": {
-       "cloud_cover": 97,
-       "precip": 0.9,
-       "precip_prob": 75,
-       "t_max": 18,
-       "t_min": 16,
-       "weather_code": 51
-      },
-      "evening": {
-       "cloud_cover": 99,
-       "precip": 0.1,
-       "precip_prob": 65,
-       "t_max": 16,
-       "t_min": 13,
-       "weather_code": 51
-      },
-      "morning": {
-       "cloud_cover": 100,
-       "precip": 0.1,
-       "precip_prob": 1,
-       "t_max": 15,
-       "t_min": 11,
-       "weather_code": 51
-      }
-     }
-    }
-   ]
-  },
   "2026-10-04": {
    "sites": [
     {
@@ -109,28 +9,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 63,
-       "precip": 2.5,
-       "precip_prob": 81,
+       "cloud_cover": 82,
+       "precip": 0.3,
+       "precip_prob": 86,
        "t_max": 28,
-       "t_min": 24,
-       "weather_code": 80
+       "t_min": 26,
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 81,
-       "precip": 0.7,
-       "precip_prob": 80,
-       "t_max": 24,
-       "t_min": 20,
-       "weather_code": 53
+       "cloud_cover": 87,
+       "precip": 0.0,
+       "precip_prob": 78,
+       "t_max": 25,
+       "t_min": 23,
+       "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 50,
+       "cloud_cover": 93,
        "precip": 0.0,
-       "precip_prob": 3,
+       "precip_prob": 2,
        "t_max": 24,
-       "t_min": 17,
-       "weather_code": 2
+       "t_min": 19,
+       "weather_code": 3
       }
      }
     }
@@ -145,28 +45,28 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 34,
-       "precip": 0.5,
-       "precip_prob": 85,
-       "t_max": 23,
+       "cloud_cover": 42,
+       "precip": 1.1,
+       "precip_prob": 84,
+       "t_max": 22,
        "t_min": 21,
-       "weather_code": 51
+       "weather_code": 53
       },
       "evening": {
-       "cloud_cover": 84,
-       "precip": 0.0,
+       "cloud_cover": 59,
+       "precip": 0.3,
        "precip_prob": 65,
        "t_max": 20,
        "t_min": 17,
-       "weather_code": 3
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 5,
-       "precip": 0.0,
-       "precip_prob": 2,
+       "cloud_cover": 22,
+       "precip": 0.1,
+       "precip_prob": 0,
        "t_max": 21,
-       "t_min": 13,
-       "weather_code": 0
+       "t_min": 12,
+       "weather_code": 51
       }
      }
     },
@@ -177,27 +77,27 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 29,
-       "precip": 0.7,
-       "precip_prob": 85,
-       "t_max": 29,
-       "t_min": 26,
+       "cloud_cover": 36,
+       "precip": 0.2,
+       "precip_prob": 84,
+       "t_max": 28,
+       "t_min": 27,
        "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 85,
-       "precip": 1.3,
+       "cloud_cover": 74,
+       "precip": 0.0,
        "precip_prob": 65,
-       "t_max": 25,
-       "t_min": 21,
-       "weather_code": 55
+       "t_max": 26,
+       "t_min": 22,
+       "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 6,
+       "cloud_cover": 12,
        "precip": 0.0,
-       "precip_prob": 2,
-       "t_max": 24,
-       "t_min": 17,
+       "precip_prob": 0,
+       "t_max": 25,
+       "t_min": 16,
        "weather_code": 0
       }
      }
@@ -213,25 +113,25 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 40,
-       "precip": 1.9,
+       "cloud_cover": 68,
+       "precip": 1.5,
        "precip_prob": 100,
-       "t_max": 28,
+       "t_max": 27,
        "t_min": 24,
-       "weather_code": 80
+       "weather_code": 55
       },
       "evening": {
-       "cloud_cover": 39,
-       "precip": 0.9,
-       "precip_prob": 94,
-       "t_max": 23,
-       "t_min": 20,
-       "weather_code": 53
+       "cloud_cover": 91,
+       "precip": 0.2,
+       "precip_prob": 92,
+       "t_max": 24,
+       "t_min": 21,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 40,
+       "cloud_cover": 76,
        "precip": 0.0,
-       "precip_prob": 20,
+       "precip_prob": 35,
        "t_max": 24,
        "t_min": 18,
        "weather_code": 3
@@ -249,28 +149,28 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 69,
-       "precip": 1.6,
-       "precip_prob": 100,
-       "t_max": 28,
-       "t_min": 25,
-       "weather_code": 51
+       "cloud_cover": 53,
+       "precip": 3.5,
+       "precip_prob": 96,
+       "t_max": 29,
+       "t_min": 24,
+       "weather_code": 80
       },
       "evening": {
-       "cloud_cover": 44,
+       "cloud_cover": 96,
        "precip": 0.1,
-       "precip_prob": 96,
-       "t_max": 27,
-       "t_min": 24,
+       "precip_prob": 94,
+       "t_max": 25,
+       "t_min": 23,
        "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 98,
-       "precip": 1.4,
-       "precip_prob": 34,
-       "t_max": 26,
-       "t_min": 19,
-       "weather_code": 53
+       "cloud_cover": 74,
+       "precip": 16.3,
+       "precip_prob": 49,
+       "t_max": 22,
+       "t_min": 18,
+       "weather_code": 95
       }
      }
     },
@@ -281,28 +181,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 71,
-       "precip": 3.5,
-       "precip_prob": 85,
-       "t_max": 26,
+       "cloud_cover": 56,
+       "precip": 2.4,
+       "precip_prob": 76,
+       "t_max": 27,
        "t_min": 24,
-       "weather_code": 95
+       "weather_code": 80
       },
       "evening": {
-       "cloud_cover": 81,
-       "precip": 0.5,
-       "precip_prob": 88,
+       "cloud_cover": 92,
+       "precip": 0.7,
+       "precip_prob": 78,
        "t_max": 25,
-       "t_min": 22,
-       "weather_code": 51
+       "t_min": 21,
+       "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 97,
-       "precip": 1.6,
-       "precip_prob": 34,
-       "t_max": 23,
-       "t_min": 18,
-       "weather_code": 53
+       "cloud_cover": 62,
+       "precip": 1.1,
+       "precip_prob": 56,
+       "t_max": 22,
+       "t_min": 16,
+       "weather_code": 55
       }
      }
     }
@@ -317,28 +217,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 96,
-       "precip": 3.3,
-       "precip_prob": 78,
+       "cloud_cover": 76,
+       "precip": 2.0,
+       "precip_prob": 84,
        "t_max": 26,
-       "t_min": 22,
+       "t_min": 23,
        "weather_code": 53
       },
       "evening": {
-       "cloud_cover": 89,
-       "precip": 0.6,
-       "precip_prob": 84,
+       "cloud_cover": 91,
+       "precip": 2.2,
+       "precip_prob": 86,
        "t_max": 22,
-       "t_min": 21,
+       "t_min": 20,
        "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 99,
-       "precip": 2.8,
-       "precip_prob": 36,
-       "t_max": 21,
-       "t_min": 18,
-       "weather_code": 53
+       "cloud_cover": 76,
+       "precip": 0.2,
+       "precip_prob": 42,
+       "t_max": 23,
+       "t_min": 19,
+       "weather_code": 51
       }
      }
     }
@@ -353,28 +253,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 98,
-       "precip": 1.4,
-       "precip_prob": 74,
-       "t_max": 26,
+       "cloud_cover": 62,
+       "precip": 2.9,
+       "precip_prob": 88,
+       "t_max": 25,
        "t_min": 23,
        "weather_code": 53
       },
       "evening": {
-       "cloud_cover": 88,
-       "precip": 2.1,
-       "precip_prob": 87,
-       "t_max": 23,
+       "cloud_cover": 83,
+       "precip": 3.9,
+       "precip_prob": 88,
+       "t_max": 22,
        "t_min": 21,
-       "weather_code": 53
+       "weather_code": 80
       },
       "morning": {
-       "cloud_cover": 89,
-       "precip": 0.0,
-       "precip_prob": 41,
-       "t_max": 21,
+       "cloud_cover": 48,
+       "precip": 0.6,
+       "precip_prob": 32,
+       "t_max": 22,
        "t_min": 18,
-       "weather_code": 3
+       "weather_code": 51
       }
      }
     }
@@ -389,28 +289,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 97,
-       "precip": 2.8,
-       "precip_prob": 84,
-       "t_max": 24,
-       "t_min": 22,
-       "weather_code": 53
+       "cloud_cover": 98,
+       "precip": 5.4,
+       "precip_prob": 90,
+       "t_max": 22,
+       "t_min": 20,
+       "weather_code": 80
       },
       "evening": {
-       "cloud_cover": 97,
-       "precip": 1.8,
-       "precip_prob": 85,
-       "t_max": 22,
+       "cloud_cover": 99,
+       "precip": 0.3,
+       "precip_prob": 90,
+       "t_max": 21,
        "t_min": 21,
-       "weather_code": 53
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 86,
-       "precip": 1.8,
-       "precip_prob": 62,
-       "t_max": 21,
-       "t_min": 19,
-       "weather_code": 53
+       "cloud_cover": 100,
+       "precip": 3.2,
+       "precip_prob": 65,
+       "t_max": 19,
+       "t_min": 18,
+       "weather_code": 80
       }
      }
     }
@@ -425,27 +325,27 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 100,
-       "precip": 1.4,
-       "precip_prob": 79,
+       "cloud_cover": 92,
+       "precip": 2.0,
+       "precip_prob": 80,
+       "t_max": 25,
+       "t_min": 23,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 85,
+       "precip": 1.2,
+       "precip_prob": 87,
        "t_max": 24,
        "t_min": 22,
        "weather_code": 51
       },
-      "evening": {
-       "cloud_cover": 100,
-       "precip": 0.3,
-       "precip_prob": 79,
-       "t_max": 22,
-       "t_min": 21,
-       "weather_code": 51
-      },
       "morning": {
-       "cloud_cover": 100,
+       "cloud_cover": 98,
        "precip": 0.6,
-       "precip_prob": 60,
-       "t_max": 21,
-       "t_min": 19,
+       "precip_prob": 44,
+       "t_max": 22,
+       "t_min": 20,
        "weather_code": 51
       }
      }
@@ -457,28 +357,28 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 48,
-       "precip": 2.8,
-       "precip_prob": 63,
-       "t_max": 29,
-       "t_min": 26,
-       "weather_code": 53
+       "cloud_cover": 98,
+       "precip": 0.8,
+       "precip_prob": 54,
+       "t_max": 31,
+       "t_min": 27,
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 79,
-       "precip": 0.0,
-       "precip_prob": 63,
+       "cloud_cover": 99,
+       "precip": 0.6,
+       "precip_prob": 66,
        "t_max": 28,
        "t_min": 26,
-       "weather_code": 3
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 93,
-       "precip": 4.8,
-       "precip_prob": 57,
-       "t_max": 24,
+       "cloud_cover": 100,
+       "precip": 0.2,
+       "precip_prob": 58,
+       "t_max": 26,
        "t_min": 22,
-       "weather_code": 80
+       "weather_code": 51
       }
      }
     },
@@ -489,26 +389,26 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 88,
-       "precip": 4.2,
-       "precip_prob": 65,
-       "t_max": 27,
-       "t_min": 25,
+       "cloud_cover": 92,
+       "precip": 4.0,
+       "precip_prob": 60,
+       "t_max": 30,
+       "t_min": 26,
        "weather_code": 55
       },
       "evening": {
        "cloud_cover": 95,
-       "precip": 0.3,
-       "precip_prob": 63,
-       "t_max": 26,
-       "t_min": 26,
-       "weather_code": 51
+       "precip": 0.0,
+       "precip_prob": 65,
+       "t_max": 28,
+       "t_min": 27,
+       "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 98,
-       "precip": 4.4,
-       "precip_prob": 54,
-       "t_max": 24,
+       "cloud_cover": 99,
+       "precip": 3.0,
+       "precip_prob": 45,
+       "t_max": 25,
        "t_min": 23,
        "weather_code": 55
       }
@@ -525,27 +425,27 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 100,
-       "precip": 3.6,
-       "precip_prob": 57,
-       "t_max": 30,
+       "cloud_cover": 88,
+       "precip": 0.6,
+       "precip_prob": 55,
+       "t_max": 31,
        "t_min": 28,
-       "weather_code": 95
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 99,
-       "precip": 3.6,
-       "precip_prob": 64,
+       "cloud_cover": 95,
+       "precip": 0.3,
+       "precip_prob": 65,
        "t_max": 28,
-       "t_min": 25,
-       "weather_code": 55
+       "t_min": 26,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 100,
-       "precip": 0.6,
-       "precip_prob": 43,
+       "cloud_cover": 98,
+       "precip": 0.2,
+       "precip_prob": 29,
        "t_max": 26,
-       "t_min": 24,
+       "t_min": 23,
        "weather_code": 51
       }
      }
@@ -557,28 +457,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 97,
-       "precip": 4.8,
-       "precip_prob": 57,
-       "t_max": 28,
-       "t_min": 27,
-       "weather_code": 80
+       "cloud_cover": 87,
+       "precip": 0.4,
+       "precip_prob": 55,
+       "t_max": 31,
+       "t_min": 28,
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 98,
-       "precip": 4.2,
-       "precip_prob": 64,
-       "t_max": 27,
-       "t_min": 25,
-       "weather_code": 80
+       "cloud_cover": 94,
+       "precip": 0.0,
+       "precip_prob": 65,
+       "t_max": 28,
+       "t_min": 26,
+       "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 100,
-       "precip": 1.0,
-       "precip_prob": 43,
+       "cloud_cover": 98,
+       "precip": 0.2,
+       "precip_prob": 29,
        "t_max": 26,
-       "t_min": 24,
-       "weather_code": 53
+       "t_min": 23,
+       "weather_code": 51
       }
      }
     }
@@ -593,28 +493,28 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 98,
-       "precip": 7.8,
-       "precip_prob": 69,
-       "t_max": 25,
-       "t_min": 24,
-       "weather_code": 80
+       "cloud_cover": 99,
+       "precip": 2.2,
+       "precip_prob": 67,
+       "t_max": 32,
+       "t_min": 28,
+       "weather_code": 95
       },
       "evening": {
-       "cloud_cover": 99,
-       "precip": 0.9,
-       "precip_prob": 78,
-       "t_max": 24,
-       "t_min": 24,
-       "weather_code": 51
+       "cloud_cover": 100,
+       "precip": 2.7,
+       "precip_prob": 74,
+       "t_max": 29,
+       "t_min": 26,
+       "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 98,
-       "precip": 3.6,
-       "precip_prob": 46,
-       "t_max": 24,
-       "t_min": 24,
-       "weather_code": 80
+       "cloud_cover": 99,
+       "precip": 0.2,
+       "precip_prob": 53,
+       "t_max": 26,
+       "t_min": 23,
+       "weather_code": 51
       }
      }
     },
@@ -625,28 +525,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 97,
-       "precip": 5.6,
-       "precip_prob": 70,
-       "t_max": 25,
-       "t_min": 25,
-       "weather_code": 55
+       "cloud_cover": 88,
+       "precip": 0.4,
+       "precip_prob": 68,
+       "t_max": 32,
+       "t_min": 29,
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 100,
-       "precip": 3.6,
-       "precip_prob": 77,
-       "t_max": 25,
-       "t_min": 24,
-       "weather_code": 55
+       "cloud_cover": 95,
+       "precip": 0.6,
+       "precip_prob": 72,
+       "t_max": 29,
+       "t_min": 26,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 92,
-       "precip": 2.0,
-       "precip_prob": 46,
-       "t_max": 24,
+       "cloud_cover": 98,
+       "precip": 0.2,
+       "precip_prob": 54,
+       "t_max": 27,
        "t_min": 24,
-       "weather_code": 53
+       "weather_code": 51
       }
      }
     }
@@ -661,28 +561,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 100,
-       "precip": 4.6,
-       "precip_prob": 80,
-       "t_max": 28,
+       "cloud_cover": 97,
+       "precip": 1.2,
+       "precip_prob": 88,
+       "t_max": 30,
        "t_min": 27,
-       "weather_code": 53
+       "weather_code": 51
       },
       "evening": {
        "cloud_cover": 100,
-       "precip": 1.5,
-       "precip_prob": 85,
-       "t_max": 26,
-       "t_min": 24,
-       "weather_code": 53
+       "precip": 0.6,
+       "precip_prob": 90,
+       "t_max": 28,
+       "t_min": 25,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 98,
-       "precip": 1.8,
+       "cloud_cover": 100,
+       "precip": 2.6,
        "precip_prob": 63,
-       "t_max": 26,
-       "t_min": 24,
-       "weather_code": 53
+       "t_max": 25,
+       "t_min": 22,
+       "weather_code": 55
       }
      }
     }
@@ -697,28 +597,28 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 97,
-       "precip": 7.0,
-       "precip_prob": 98,
-       "t_max": 17,
-       "t_min": 16,
-       "weather_code": 80
+       "cloud_cover": 91,
+       "precip": 5.8,
+       "precip_prob": 100,
+       "t_max": 18,
+       "t_min": 17,
+       "weather_code": 55
       },
       "evening": {
-       "cloud_cover": 98,
-       "precip": 2.1,
+       "cloud_cover": 97,
+       "precip": 2.7,
        "precip_prob": 100,
-       "t_max": 16,
+       "t_max": 17,
        "t_min": 15,
        "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 100,
-       "precip": 3.0,
-       "precip_prob": 56,
+       "cloud_cover": 80,
+       "precip": 2.2,
+       "precip_prob": 54,
        "t_max": 16,
-       "t_min": 15,
-       "weather_code": 80
+       "t_min": 14,
+       "weather_code": 55
       }
      }
     },
@@ -729,27 +629,27 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 100,
-       "precip": 2.6,
+       "cloud_cover": 91,
+       "precip": 2.4,
        "precip_prob": 94,
        "t_max": 17,
        "t_min": 15,
-       "weather_code": 53
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 99,
-       "precip": 2.1,
+       "cloud_cover": 94,
+       "precip": 1.2,
        "precip_prob": 93,
-       "t_max": 15,
+       "t_max": 16,
        "t_min": 14,
-       "weather_code": 53
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 100,
-       "precip": 0.6,
-       "precip_prob": 50,
-       "t_max": 15,
-       "t_min": 13,
+       "cloud_cover": 98,
+       "precip": 1.0,
+       "precip_prob": 40,
+       "t_max": 14,
+       "t_min": 12,
        "weather_code": 51
       }
      }
@@ -765,27 +665,27 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 44,
-       "precip": 0.6,
-       "precip_prob": 98,
+       "cloud_cover": 84,
+       "precip": 1.0,
+       "precip_prob": 100,
        "t_max": 20,
-       "t_min": 17,
+       "t_min": 16,
        "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 40,
-       "precip": 0.3,
-       "precip_prob": 99,
+       "cloud_cover": 92,
+       "precip": 0.9,
+       "precip_prob": 100,
        "t_max": 17,
-       "t_min": 14,
+       "t_min": 15,
        "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 67,
+       "cloud_cover": 98,
        "precip": 0.2,
-       "precip_prob": 38,
-       "t_max": 15,
-       "t_min": 12,
+       "precip_prob": 36,
+       "t_max": 14,
+       "t_min": 11,
        "weather_code": 51
       }
      }
@@ -797,28 +697,28 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 50,
-       "precip": 0.0,
-       "precip_prob": 98,
-       "t_max": 14,
-       "t_min": 12,
-       "weather_code": 2
+       "cloud_cover": 72,
+       "precip": 0.6,
+       "precip_prob": 100,
+       "t_max": 13,
+       "t_min": 11,
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 47,
-       "precip": 0.0,
-       "precip_prob": 99,
+       "cloud_cover": 88,
+       "precip": 0.3,
+       "precip_prob": 100,
        "t_max": 12,
-       "t_min": 9,
-       "weather_code": 2
+       "t_min": 10,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 84,
-       "precip": 0.0,
-       "precip_prob": 38,
+       "cloud_cover": 96,
+       "precip": 0.2,
+       "precip_prob": 36,
        "t_max": 10,
        "t_min": 8,
-       "weather_code": 3
+       "weather_code": 51
       }
      }
     },
@@ -829,25 +729,25 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 53,
-       "precip": 0.6,
+       "cloud_cover": 73,
+       "precip": 1.2,
        "precip_prob": 87,
-       "t_max": 17,
-       "t_min": 14,
+       "t_max": 14,
+       "t_min": 13,
        "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 58,
-       "precip": 0.3,
+       "cloud_cover": 88,
+       "precip": 0.6,
        "precip_prob": 85,
        "t_max": 14,
-       "t_min": 11,
+       "t_min": 13,
        "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 92,
-       "precip": 0.2,
-       "precip_prob": 40,
+       "cloud_cover": 96,
+       "precip": 0.4,
+       "precip_prob": 41,
        "t_max": 12,
        "t_min": 10,
        "weather_code": 51
@@ -861,28 +761,28 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 94,
-       "precip": 1.8,
+       "cloud_cover": 100,
+       "precip": 13.6,
        "precip_prob": 100,
-       "t_max": 19,
-       "t_min": 18,
-       "weather_code": 53
+       "t_max": 18,
+       "t_min": 17,
+       "weather_code": 81
       },
       "evening": {
-       "cloud_cover": 97,
-       "precip": 1.5,
+       "cloud_cover": 100,
+       "precip": 15.6,
        "precip_prob": 100,
-       "t_max": 18,
+       "t_max": 17,
        "t_min": 17,
-       "weather_code": 53
+       "weather_code": 81
       },
       "morning": {
-       "cloud_cover": 96,
-       "precip": 0.4,
-       "precip_prob": 63,
-       "t_max": 18,
-       "t_min": 17,
-       "weather_code": 51
+       "cloud_cover": 100,
+       "precip": 10.6,
+       "precip_prob": 64,
+       "t_max": 16,
+       "t_min": 16,
+       "weather_code": 81
       }
      }
     }
@@ -898,27 +798,27 @@
      "periods": {
       "day": {
        "cloud_cover": 98,
-       "precip": 1.0,
-       "precip_prob": 99,
-       "t_max": 20,
+       "precip": 6.0,
+       "precip_prob": 98,
+       "t_max": 19,
        "t_min": 18,
-       "weather_code": 51
+       "weather_code": 80
       },
       "evening": {
        "cloud_cover": 100,
-       "precip": 1.2,
+       "precip": 5.4,
        "precip_prob": 100,
-       "t_max": 19,
+       "t_max": 18,
        "t_min": 17,
-       "weather_code": 51
+       "weather_code": 80
       },
       "morning": {
-       "cloud_cover": 93,
-       "precip": 0.2,
-       "precip_prob": 59,
-       "t_max": 18,
+       "cloud_cover": 92,
+       "precip": 1.6,
+       "precip_prob": 71,
+       "t_max": 17,
        "t_min": 16,
-       "weather_code": 51
+       "weather_code": 53
       }
      }
     }
@@ -933,27 +833,95 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 88,
-       "precip": 2.7,
-       "precip_prob": 94,
-       "t_max": 22,
-       "t_min": 19,
-       "weather_code": 53
+       "cloud_cover": 91,
+       "precip": 2.8,
+       "precip_prob": 98,
+       "t_max": 21,
+       "t_min": 18,
+       "weather_code": 55
+      },
+      "evening": {
+       "cloud_cover": 97,
+       "precip": 3.5,
+       "precip_prob": 100,
+       "t_max": 20,
+       "t_min": 17,
+       "weather_code": 55
+      },
+      "morning": {
+       "cloud_cover": 89,
+       "precip": 0.2,
+       "precip_prob": 56,
+       "t_max": 17,
+       "t_min": 14,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 1200,
+     "id": "aves-y-florez",
+     "name_ru": "Авес-и-Флорес",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 97,
+       "precip": 6.6,
+       "precip_prob": 98,
+       "t_max": 23,
+       "t_min": 21,
+       "weather_code": 80
       },
       "evening": {
        "cloud_cover": 100,
-       "precip": 6.1,
-       "precip_prob": 98,
-       "t_max": 18,
-       "t_min": 18,
-       "weather_code": 81
+       "precip": 6.5,
+       "precip_prob": 100,
+       "t_max": 22,
+       "t_min": 20,
+       "weather_code": 80
       },
       "morning": {
-       "cloud_cover": 86,
-       "precip": 0.0,
-       "precip_prob": 63,
+       "cloud_cover": 91,
+       "precip": 1.4,
+       "precip_prob": 56,
        "t_max": 20,
-       "t_min": 15,
+       "t_min": 18,
+       "weather_code": 53
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-19": {
+   "sites": [
+    {
+     "elevation": 1500,
+     "id": "rio-nambi",
+     "name_ru": "Рио-Ньямби",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 3.4,
+       "precip_prob": 78,
+       "t_max": 22,
+       "t_min": 19,
+       "weather_code": 55
+      },
+      "evening": {
+       "cloud_cover": 98,
+       "precip": 2.1,
+       "precip_prob": 93,
+       "t_max": 19,
+       "t_min": 18,
+       "weather_code": 55
+      },
+      "morning": {
+       "cloud_cover": 90,
+       "precip": 0.0,
+       "precip_prob": 69,
+       "t_max": 20,
+       "t_min": 16,
        "weather_code": 3
       }
      }
@@ -965,34 +933,34 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 87,
-       "precip": 2.6,
-       "precip_prob": 74,
-       "t_max": 24,
-       "t_min": 21,
-       "weather_code": 55
+       "cloud_cover": 99,
+       "precip": 1.1,
+       "precip_prob": 78,
+       "t_max": 22,
+       "t_min": 22,
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 100,
-       "precip": 3.4,
-       "precip_prob": 94,
-       "t_max": 20,
+       "cloud_cover": 95,
+       "precip": 1.8,
+       "precip_prob": 93,
+       "t_max": 22,
        "t_min": 19,
-       "weather_code": 55
+       "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 96,
-       "precip": 0.2,
-       "precip_prob": 61,
-       "t_max": 22,
+       "cloud_cover": 88,
+       "precip": 0.0,
+       "precip_prob": 69,
+       "t_max": 21,
        "t_min": 18,
-       "weather_code": 51
+       "weather_code": 3
       }
      }
     }
    ]
   }
  },
- "fetched_at": "2026-10-03T14:31:46Z",
+ "fetched_at": "2026-10-04T15:09:18Z",
  "source": "open-meteo"
 }
