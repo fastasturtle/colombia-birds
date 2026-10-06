@@ -10,7 +10,9 @@
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
   import EndemicMark from './EndemicMark.svelte';
+  import FacetChip from './FacetChip.svelte';
   import { filter, passes, tierOf } from '../lib/filter';
+  import { facetCounts, plural } from '../lib/facets';
   type State = 'sure' | 'maybe' | 'unlikely';
   interface Item { id: string; en: string; ru: string | null; photo: string | null; t: Record<string, string[]>; st: Record<string, 's' | 'm'>; hl: string[]; x: boolean; e: boolean; n?: boolean }
   interface Group { key: string; label: string; values: { key: string; label: string; hint: string | null }[] }
@@ -90,34 +92,16 @@
    * One pass over species: a species matching all groups adds to the chips it has in unselected groups; a species
    * failing exactly one (selected) group adds only to that group's chips it has. Failing two or more adds nothing.
    */
+  const facetGroups = vocab.map((g) => ({ key: g.key, values: g.values.map((v) => v.key) }));
   let counts = $derived.by(() => {
-    const out: Record<string, Record<string, number>> = {};
-    for (const g of vocab) out[g.key] = Object.fromEntries(g.values.map((v) => [v.key, 0]));
-    if (!items) return out;
+    const its = items ?? [];
     const f = $filter;
-    const selG = vocab.filter((g) => sel[g.key]?.length).map((g) => ({ key: g.key, vs: sel[g.key] }));
-    items.forEach((it, i) => {
+    return facetCounts(its.length, facetGroups, sel, (i) => {
+      const it = its[i];
       const int = it.x || it.hl.some((s) => placeSites.includes(s));
-      if (!passes(f, stateAt(it, placeSites), tierOf(int, !!it.n, it.e))) return;
-      const ts = sets[i];
-      let fail: string | null = null;
-      for (const { key, vs } of selG) {
-        const t = ts[key];
-        if (!t || !vs.some((v) => t.has(v))) { if (fail) return; fail = key; }
-      }
-      for (const g of vocab) {
-        if (fail && g.key !== fail) continue;
-        const c = out[g.key], t = ts[g.key];
-        if (!fail && sel[g.key]?.length) continue; // already in the results: adds nothing to this group's deltas
-        if (t) for (const v of t) if (v in c) c[v]++;
-      }
-    });
-    return out;
+      return passes(f, stateAt(it, placeSites), tierOf(int, !!it.n, it.e));
+    }, (i, g) => sets[i][g]);
   });
-  const plural = (n: number, a: string, b: string, c: string) => {
-    const m10 = n % 10, m100 = n % 100;
-    return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? b : c;
-  };
   const dayPlaces = places.filter((p) => p.group === 'День');
   const sitePlaces = places.filter((p) => p.group === 'Место');
   // any other group (e.g. «Возможные выезды из Боготы») gets its own <optgroup> after «Место», in input order
@@ -149,14 +133,8 @@
       <legend><span>{g.label}{#if sel[g.key]?.length}<span class="n"> · {sel[g.key].length}</span>{/if}</span>{#if gi === 0}<button type="button" class="lnk clr" style:visibility={nSel > 0 ? 'visible' : 'hidden'} onclick={reset}>Сбросить</button>{/if}</legend>
       <div class="chips">
         {#each g.values as v (v.key)}
-          {@const on = sel[g.key]?.includes(v.key) ?? false}
-          {@const n = counts[g.key]?.[v.key] ?? 0}
-          {@const delta = (sel[g.key]?.length ?? 0) > 0}
-          {@const how = items && !on ? `${delta ? 'добавит' : plural(n, 'подойдёт', 'подойдут', 'подойдут')} ${n} ${plural(n, 'вид', 'вида', 'видов')}` : null}
-          <button type="button" class="chip-b" class:zero={items !== null && !on && n === 0} aria-pressed={on}
-            aria-label={how ? `${v.label}: ${how}` : undefined}
-            title={[v.hint, how && how[0].toUpperCase() + how.slice(1)].filter(Boolean).join('. ') || undefined}
-            onclick={() => toggle(g.key, v.key)}>{v.label}{#if how}<span class="cnt" aria-hidden="true">{delta ? `+${n}` : n}</span>{/if}</button>
+          <FacetChip label={v.label} hint={v.hint} on={sel[g.key]?.includes(v.key) ?? false} n={items ? (counts[g.key]?.[v.key] ?? 0) : null}
+            delta={(sel[g.key]?.length ?? 0) > 0} onclick={() => toggle(g.key, v.key)} />
         {/each}
       </div>
     </fieldset>
@@ -197,16 +175,6 @@
   .chips { display: flex; flex-wrap: wrap; gap: 5px; }
   legend { display: flex; align-items: center; width: 100%; }
   .lnk.clr { margin: -10px 0 -10px auto; font-size: .85rem; font-weight: 400; padding: 10px 2px; }
-  .chip-b {
-    display: inline-flex; align-items: center; gap: 6px;
-    min-height: 40px; padding: 0 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card);
-    color: var(--fg); font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap;
-  }
-  .cnt { font-size: .75rem; line-height: 1; padding: 2px 6px; border-radius: 999px; background: var(--chip); color: var(--muted); font-variant-numeric: tabular-nums; }
-  .chip-b.zero { color: var(--muted); border-style: dashed; background: transparent; }
-  .chip-b.zero .cnt { opacity: .7; }
-  .chip-b[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-  @media (prefers-color-scheme: dark) { .chip-b[aria-pressed="true"] { color: #10150f; } }
   .place { display: flex; align-items: center; gap: 8px; margin: 4px 0 0; font-weight: 600; font-size: .9rem; }
   .place select {
     flex: 1; min-width: 0; min-height: 40px; padding: 0 10px; border: 1px solid var(--line); border-radius: 10px;

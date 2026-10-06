@@ -1,20 +1,24 @@
 ---
 /**
- * Wrapper for a static species list that follows the site-wide filter (lib/filter.ts, ListFilter.svelte).
- * Children mark items with data-st / data-int / data-nend / data-end / data-new and groups with data-lf-group. The inline script at the
- * end applies the saved filter while the page is still parsing, so the first paint is already filtered.
+ * Wrapper for a static species list that follows the site-wide filter and the page's own narrowing (lib/filter.ts;
+ * mount ScopeFilter.svelte inside, client:load). Children mark items with data-st / data-int / data-nend / data-end /
+ * data-new + data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts) and groups with data-lf-group. The inline script
+ * at the end applies the saved filter and the URL state while the page is still parsing, so the first paint is already
+ * filtered. `key`: URL parameter prefix when a page has two lists (`d` -> `d-q`, `d-fam`, `d-site`).
  */
-import { applyFilterDom, readFilter } from '@lib/filter';
-interface Props { class?: string }
-const { class: cls } = Astro.props;
-const js = `(${applyFilterDom.toString()})(document.currentScript.parentElement,(${readFilter.toString()})())`;
+import { applyFilterDom, readFilter, readNarrow, rowOf, rowPasses, scopeCtx } from '@lib/filter';
+/** ctx: listFacets().ctx of the rows inside */
+interface Props { class?: string; key?: string; ctx: string }
+const { class: cls, key = '', ctx } = Astro.props;
+const js = `(function(s){(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${rowPasses.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
 ---
-<div class:list={['lf-scope', cls]} data-lf-scope data-lv="maybe" data-tag="all">
+<div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="maybe" data-tag="all">
   <slot />
-  <p class="lf-empty muted" data-lf-empty hidden>Под этот фильтр видов нет.</p>
+  <p class="lf-empty muted" data-lf-empty hidden>Ничего не найдено. Измени поиск или сбрось фильтры.</p>
   <script is:inline set:html={js}></script>
 </div>
 <style is:global>
+  [data-lf-scope] [data-lf-out],
   [data-lf-scope][data-lv="sure"] [data-st="maybe"],
   [data-lf-scope][data-lv="sure"] [data-st="unlikely"],
   [data-lf-scope][data-lv="maybe"] [data-st="unlikely"],

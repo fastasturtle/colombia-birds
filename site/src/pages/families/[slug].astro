@@ -3,10 +3,10 @@ import Base from '../../layouts/Base.astro';
 import SpeciesRow from '../../components/SpeciesRow.astro';
 import SpeciesFace from '../../components/SpeciesFace.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
-import ListFilter from '../../components/ListFilter.svelte';
+import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import StateWord from '../../components/StateWord.astro';
-import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, speciesNames, type IndexEntry } from '@lib/data';
+import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, speciesNames, sitesListing, listFacets, routeSiteIds, type IndexEntry } from '@lib/data';
 import { familyContent } from '@lib/content';
 import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
@@ -41,11 +41,14 @@ const faces = sp.filter((s) => s.photo).sort(cmp).slice(0, 3);
 /* Family by itinerary day: interesting first, then by state and autumn frequency (lib cmpPlace). */
 const byDay = days.map((d) => {
   const list = d.species.filter((s) => byId.get(s.id)?.family === family.code).sort(cmpPlace)
-    .map((p) => ({ s: byId.get(p.id)!, p }));
+    .map((p) => ({ s: byId.get(p.id)!, p, at: sitesListing(p.id, d.day.sites) }));
   return { day: d.day, list };
 }).filter((d) => d.list.length > 0);
 /* All species of the family: state = best across route sites, «интересная» over the whole route. */
-const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.id) }));
+const route = routeSiteIds();
+const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.id), at: sitesListing(s.id, route) }));
+const dayFacets = listFacets(byDay.flatMap((d) => d.list.map((x) => ({ family: x.s.family, sites: x.at }))), [...new Set(byDay.flatMap((d) => d.day.sites))]);
+const allFacets = listFacets(rows.map((r) => ({ family: r.s.family, sites: r.at })), route);
 ---
 <Base title={title}>
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>
@@ -97,16 +100,16 @@ const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.
     <div class="card block days">
       <h2>Это семейство по дням маршрута</h2>
       <p class="muted small">Виды семейства на локациях дня (GBIF); <span class="chip hl mini">★</span> — интересные: цели из отчётов о поездках, эндемики и почти-эндемики, узкий ареал.</p>
-      <FilterScope>
-        <ListFilter client:load />
+      <FilterScope key="d" ctx={dayFacets.ctx}>
+        <ScopeFilter client:load fams={dayFacets.fams} sites={dayFacets.sites} total={byDay.reduce((a, d) => a + d.list.length, 0)} />
         <ol class="dl">
           {byDay.map(({ day, list }) => (
             <li data-lf-group>
               <a class="dh" href={`${base}days/${day.date}/`}><b>{fmtDateRu(day.date, false)}</b> <span class="muted">· {dayLabel(day)} · {day.title_ru}</span></a>
               <div class="chips">
-                {list.map(({ s, p }) => (
-                  <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined} data-nend={s.endemic || s.near_endemic ? '' : undefined} data-end={s.endemic ? '' : undefined}
-                    title={[speciesNames(s).alt, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}{speciesNames(s).main} <StateWord state={p.state} /></a>
+                {list.map(({ s, p, at }) => (
+                  <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined} data-nend={s.endemic || s.near_endemic ? '' : undefined} data-end={s.endemic ? '' : undefined} {...dayFacets.attrs(s, at)}
+                    title={[speciesNames(s).alt, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}<span data-n>{speciesNames(s).main}</span> <StateWord state={p.state} /></a>
                 ))}
               </div>
             </li>
@@ -128,10 +131,10 @@ const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.
       )}
     </section>
   )}
-  <FilterScope>
+  <FilterScope ctx={allFacets.ctx}>
     <h2 class="list-h">Все виды семейства <span class="cnt muted" data-lf-summary></span></h2>
-    <ListFilter client:load />
-    <div>{rows.map((r) => <SpeciesRow s={r.s} state={r.state} why={r.why} />)}</div>
+    <ScopeFilter client:load fams={allFacets.fams} sites={allFacets.sites} total={rows.length} />
+    <div>{rows.map((r) => <SpeciesRow s={r.s} state={r.state} why={r.why} fa={allFacets.attrs(r.s, r.at, { alt: true, sci: true })} />)}</div>
   </FilterScope>
   {sp.some((s) => s.photo) && <ThumbLightbox client:idle mediaBase={MEDIA_BASE} />}
 </Base>

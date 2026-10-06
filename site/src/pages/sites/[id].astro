@@ -1,9 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
-import ListFilter from '../../components/ListFilter.svelte';
+import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
-import { sites, regions, siteSpecies, speciesForSites, daysForSite, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import { sites, regions, siteSpecies, speciesForSites, daysForSite, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -12,6 +12,8 @@ const region = regions().find((r) => r.id === s.region);
 const gb = siteSpecies()[s.id];
 const items = speciesForSites([s.id]);
 const dc = defaultCounts(items);
+const famOf = new Map(speciesIndex().map((x) => [x.id, x.family]));
+const facets = listFacets(items.map((x) => ({ family: famOf.get(x.id) ?? '', sites: [] })), []);
 const nVis = dc.sure + dc.maybe;
 const days = daysForSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
@@ -49,10 +51,10 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   )}
 
   {items.length === 0 ? <><h2>Виды</h2><p class="card muted">Данных пока нет.</p></> : (
-    <FilterScope>
+    <FilterScope ctx={facets.ctx}>
       <h2 class="vh">Виды <span class="cnt muted" data-lf-summary>{nVis} {plural(nVis, 'вид', 'вида', 'видов')}{dc.interesting > 0 && ` · ${dc.interesting} ${plural(dc.interesting, 'интересный', 'интересных', 'интересных')}`}</span></h2>
-      <ListFilter client:load />
-      <SpeciesChecklist items={items} />
+      <ScopeFilter client:load fams={facets.fams} sites={facets.sites} total={items.length} />
+      <SpeciesChecklist items={items} fa={(x) => facets.attrs(x, [], { alt: true, sci: true })} />
     </FilterScope>
   )}
 

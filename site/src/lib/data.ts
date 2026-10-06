@@ -4,6 +4,7 @@
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { searchKey } from './filter';
 
 const DATA = join(process.cwd(), '..', 'data');
 /** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
@@ -309,6 +310,55 @@ export function speciesForSites(siteIds: string[]): PlaceSpecies[] {
   for (const e of res) { e.why = whyInteresting(e.id, ids); e.interesting = e.why.length > 0; }
   return res.sort(cmpPlace);
 }
+/** Of the given sites, those that list the species (GBIF list at any state, or a trip-report target): FilterBar's «Место». */
+export function sitesListing(spId: string, siteIds: string[]): string[] {
+  const siteOf = sitesById();
+  return siteIds.filter((sid) => siteEntry(sid, spId) || siteOf.get(sid)?.target_species?.includes(spId));
+}
+let _enAlt: Map<string, string> | null = null;
+/** ACO English name where it differs from the eBird/Clements one (older or alternative name; searchable). */
+export function enAltName(spId: string): string | null {
+  if (!_enAlt) {
+    const idx = new Map(speciesIndex().map((s) => [s.id, s.en]));
+    _enAlt = new Map(allSpecies().filter((s) => s.names.en_aco && s.names.en_aco !== idx.get(s.id)).map((s) => [s.id, s.names.en_aco]));
+  }
+  return _enAlt.get(spId) ?? null;
+}
+/**
+ * Facet options of a list for FilterBar: the families present (taxonomic order) and the sites present (given order).
+ * rows: family code and the row's site ids (sitesListing).
+ */
+export function facetOptions(rows: { family: string; sites: string[] }[], siteOrder: string[]) {
+  const famSet = new Set(rows.map((r) => r.family));
+  const siteSet = new Set(rows.flatMap((r) => r.sites));
+  const siteOf = sitesById();
+  return {
+    fams: families().filter((f) => famSet.has(f.code)).map((f) => ({ code: f.code, ru: f.names.ru ?? null, en: f.names.en ?? null, sci: f.sci })),
+    sites: siteOrder.filter((id) => siteSet.has(id)).map((id) => ({ id, name: siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id })),
+  };
+}
+/**
+ * Everything a static list needs for FilterBar (FilterScope + ScopeFilter): the facet options, `ctx` for the scope
+ * (data-lf-ctx: family codes with their searchable names, site ids; rows refer to both by index to keep pages small)
+ * and `attrs(s, siteIds)`, the row's data-fam / data-sites / data-q to spread next to data-st.
+ */
+export function listFacets(rows: { family: string; sites: string[] }[], siteOrder: string[]) {
+  const { fams, sites: siteOpts } = facetOptions(rows, siteOrder);
+  const fi = new Map(fams.map((f, i) => [f.code, i]));
+  const si = new Map(siteOpts.map((s, i) => [s.id, i]));
+  return {
+    fams, sites: siteOpts,
+    ctx: JSON.stringify({ f: fams.map((f) => [f.code, searchKey([f.ru, f.en])]), s: siteOpts.map((s) => s.id) }),
+    /** shown: which names the row already prints inside [data-n] elements (rowOf reads them; the main name always is),
+     * so data-q only carries the rest */
+    attrs: (s: IndexEntry, siteIds: string[] = [], shown: { alt?: boolean; sci?: boolean } = {}): Record<string, string | undefined> => {
+      const at = siteIds.filter((x) => si.has(x)).map((x) => si.get(x)).join(' ');
+      const q = searchKey([!shown.alt ? speciesNames(s).alt : null, !shown.sci ? s.sci : null, enAltName(s.id)]);
+      return { 'data-fam': String(fi.get(s.family) ?? ''), 'data-sites': at || undefined, 'data-q': q || undefined };
+    },
+  };
+}
+export type RowAttrs = Record<string, string | undefined>;
 export const cmpPlace = (a: { interesting: boolean; state: State; freq_aut: number; id: string }, b: typeof a) =>
   Number(b.interesting) - Number(a.interesting) || STATE_RANK[b.state] - STATE_RANK[a.state] || b.freq_aut - a.freq_aut || a.id.localeCompare(b.id);
 
