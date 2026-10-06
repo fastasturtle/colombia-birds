@@ -3,8 +3,11 @@
    * The one filter control of every species list (/species/, day, site and family pages).
    * Collapsed: search + «Фильтры» (badge = active non-default filters) + «показано N из M» + removable chips of the
    * active filters. Expanded (remembered in localStorage `cb.filter.open`): the site-wide ListFilter (likelihood, tag),
-   * families and sites as facet chips with counts (lib/facets.ts, as in the identifier), elevation where `elev` is set,
-   * and «Признаки» (its own fold, `cb.filter.traits`): the identifier's trait groups, same semantics and counts.
+   * families and sites as facet chips with counts (lib/facets.ts), elevation where `elev` is set, and «Признаки» (its
+   * own fold, `cb.filter.traits`): trait groups of content/traits.yaml, OR within a group, AND across groups.
+   * `?panel=traits` in the URL (the «Определить» nav item, the old /identify/ page) opens the panel and «Признаки» for
+   * this visit and scrolls «Признаки» into view (`?panel=1`: the panel only); nothing is saved, and the flag is dropped
+   * from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
    * Long chip groups (> FOLD_FROM chips) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
    * the rest. State: level + tag in the global `filter` store; search, families, sites, elevation, traits in `u`
@@ -23,8 +26,24 @@
   const OPEN_KEY = 'cb.filter.open', TR_KEY = 'cb.filter.traits';
   let open = $state(false);
   let trOpen = $state(false);
+  /** `?panel=traits`: scroll «Признаки» into view once it is rendered (static lists read their rows after mount) */
+  let toTraits = $state(false);
+  let trsEl = $state<HTMLElement | null>(null);
   onMount(() => {
     try { open = localStorage.getItem(OPEN_KEY) === '1'; trOpen = localStorage.getItem(TR_KEY) === '1'; } catch { /* private mode */ }
+    const url = new URL(location.href), panel = url.searchParams.get('panel');
+    if (panel != null) {
+      open = true;
+      if (panel === 'traits') trOpen = toTraits = true;
+      url.searchParams.delete('panel');
+      history.replaceState(history.state, '', url.href);
+    }
+  });
+  $effect(() => {
+    if (!toTraits || !trsEl) return;
+    toTraits = false;
+    const head = document.querySelector<HTMLElement>('header.top');
+    window.scrollTo({ top: trsEl.getBoundingClientRect().top + window.scrollY - (head?.offsetHeight ?? 0) - 8 });
   });
   const toggleOpen = () => {
     open = !open;
@@ -161,13 +180,13 @@
         <label class="elev">Встречается на высоте <input type="number" min="0" max="5000" step="100" placeholder="напр. 2000" bind:value={u.elev} /> м</label>
       {/if}
       {#if showTraits}
-        <div class="trs">
+        <div class="trs" bind:this={trsEl}>
           <button type="button" class="trh" aria-expanded={trOpen} aria-controls={`fb-tr-${uid}`} onclick={toggleTrOpen}>
             <span>Признаки{#if nTr}<span class="n">{" · "}{nTr}</span>{/if}</span><span class="car" aria-hidden="true">▾</span>
           </button>
           {#if trOpen}
             <div id={`fb-tr-${uid}`}>
-              <p class="muted trn">Как в <a href={`${import.meta.env.BASE_URL}identify/`}>определителе</a>: внутри группы подходит любой из отмеченных, между группами нужны все. Признаки описаны у {nWithTr} из {rows?.length ?? 0} {plural(rows?.length ?? 0, 'вида', 'видов', 'видов')} списка.</p>
+              <p class="muted trn">Отметь, что успел разглядеть: внутри группы подходит любой из отмеченных, между группами нужны все. Признаки описаны у {nWithTr} из {rows?.length ?? 0} {plural(rows?.length ?? 0, 'вида', 'видов', 'видов')} списка.</p>
               {#if noTr > 0}<p class="trw">Ещё {noTr} {plural(noTr, 'вид', 'вида', 'видов')} без описания признаков {plural(noTr, 'скрыт', 'скрыты', 'скрыты')}.</p>{/if}
               {#each traits as g (g.key)}
                 <fieldset class="grp">

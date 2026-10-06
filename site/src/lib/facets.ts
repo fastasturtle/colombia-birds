@@ -1,7 +1,7 @@
 import { rowPasses, type Filter, type Narrow, type Row } from './filter';
 
 /**
- * Facet chips with counts, shared by the identifier (trait groups) and FilterBar (families, sites, trait groups).
+ * Facet chips with counts for FilterBar (families, sites, trait groups).
  * Selection: OR within a group, AND across groups. Counts, over the items that pass `base` (everything outside the facets):
  * - group without a selection: items that would match if the chip were selected (AND with all other groups);
  * - group with a selection: delta, items that selecting the chip too would ADD (match all other groups, have the chip,
@@ -62,9 +62,9 @@ export function rowFacets(r: Row): RowFacets {
 /** Facet group key of a trait group in listCounts. */
 export const trGroup = (g: string) => `t.${g}`;
 /**
- * Counts of the facet chips of a list (FilterBar; the identifier with trait groups only): `groups` are any of
+ * Counts of the facet chips of a list (FilterBar): `groups` are any of
  * `fam`, `site`, `t.<trait group>` (trGroup) with their values. Everything else in `u` (search, elevation) and the
- * site-wide filter `f` is the base every count respects. One implementation for both: rowPasses + facetCounts.
+ * site-wide filter `f` is the base every count respects: rowPasses + facetCounts.
  */
 export function listCounts(rows: Row[], sets: RowFacets[], f: Filter, u: Narrow, groups: { key: string; values: string[] }[]) {
   const sel: Sel = { fam: u.fam, site: u.site };

@@ -1,5 +1,5 @@
 /**
- * Closed trait vocabulary of the identifier (content/traits.yaml) and the validator for `traits` in species cards
+ * Closed trait vocabulary (content/traits.yaml; «Признаки» in FilterBar) and the validator for `traits` in species cards
  * (content/species/<slug>.md). Build time only. Any value outside the vocabulary, or a wrong number of values in a
  * group, throws with the file name, so `npm run build` fails instead of shipping a silently unmatched card.
  */
@@ -70,7 +70,7 @@ export function validateTraits(raw: unknown, file: string): Traits {
   return out;
 }
 
-/** The vocabulary for the client (lib/filter TraitOpt: FilterBar, the identifier): Russian labels, hints only where set. */
+/** The vocabulary for the client (lib/filter TraitOpt: FilterBar): Russian labels, hints only where set. */
 export function traitOpts(): { key: string; label: string; values: { key: string; label: string; hint?: string }[] }[] {
   return traitVocabulary().map((g) => ({
     key: g.key, label: g.label.ru,

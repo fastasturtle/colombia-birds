@@ -3,7 +3,7 @@
    * Endemic / near-endemic mark, shared by every species list, tile and the filter buttons, so they all look identical.
    * ◆ filled diamond = endemic of Colombia, ◇ hollow diamond = near-endemic (main range in Colombia).
    * Drawn as a tiny inline SVG rather than a text glyph: fonts place ◆/◇ at different heights and some fall back to emoji.
-   * variant: 'tile' = chip over a photo, same box as the ★ chip (.b in StudyTile/Identifier);
+   * variant: 'tile' = chip over a photo, same box as the ★ chip (.b in StudyTile);
    *          'inline' = smaller chip inside a text row (does not grow the line box);
    *          'icon' = bare decorative diamond in currentColor (filter buttons; the parent sets the colour).
    * Usable from Astro without a client directive (renders to static HTML).

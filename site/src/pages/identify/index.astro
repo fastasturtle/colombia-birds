@@ -1,60 +1,50 @@
 ---
 /**
- * Identifier by traits (content/traits.yaml + species cards). The species data goes into the page as one compact
- * JSON block (<script type="application/json" id="identify-data">) that Identifier.svelte reads on mount:
- * {id, en, ru, photo, t: traits, st: {siteId: 's'|'m'} (unlikely omitted), hl: sites where it is a trip-report
- * target, x: endemic, near-endemic or range-restricted, e: endemic, n: near-endemic (not endemic)}. Grows with the cards; keep it under ~300 KB.
+ * The old identifier (/identify/) moved into the shared filter bar: «Признаки» on /species/ and on every list.
+ * This page only keeps old links and bookmarks working: it sends the visitor to /species/?panel=traits (FilterBar
+ * opens the panel and «Признаки»). A selection the old page saved in localStorage `cb.identify` ({place, sel}) is
+ * carried over once: sel -> `t=group:v,v;…`, the place (a day or a site) -> `site=…`; then the key is removed.
+ * Meta refresh + a visible link without JS. Standalone HTML (no Base): nothing here is worth a layout.
  */
-import Base from '../../layouts/Base.astro';
-import Identifier from '../../components/Identifier.svelte';
-import { speciesCards } from '@lib/content';
-import { traitVocabulary } from '@lib/traits';
-import { speciesIndex, siteSpecies, sites, itinerary, routeSiteIds, isOptionalSite, OPTIONAL_SITES_RU, rangeRestricted, fmtDateRu, dayLabel, MEDIA_BASE } from '@lib/data';
+import { itinerary } from '@lib/data';
 
-const idx = new Map(speciesIndex().map((s) => [s.id, s]));
-const total = speciesIndex().length;
-const ss = siteSpecies();
-const siteList = sites();
-const rr = rangeRestricted();
-const items = [...speciesCards().values()].map((c) => {
-  const s = idx.get(c.id)!;
-  const st: Record<string, 's' | 'm'> = {};
-  for (const [sid, v] of Object.entries(ss)) {
-    const e = v.species.find((x) => x.id === c.id);
-    if (e && e.state !== 'unlikely') st[sid] = e.state === 'sure' ? 's' : 'm';
-  }
-  return {
-    id: c.id, en: s.en, ru: s.ru, photo: s.photo, t: c.traits, st,
-    hl: siteList.filter((x) => x.target_species?.includes(c.id)).map((x) => x.id),
-    x: s.endemic || s.near_endemic || rr.has(c.id),
-    e: s.endemic,
-    n: s.near_endemic && !s.endemic,
-  };
-});
-const json = JSON.stringify(items).replace(/</g, '\\u003c');
-
-const route = routeSiteIds();
-const nameOf = new Map(siteList.map((s) => [s.id, s.name_ru || s.name]));
-const places = [
-  { key: 'any', label: 'Весь маршрут', group: '', sites: route },
-  ...itinerary().filter((d) => d.sites.length > 0).map((d) => ({
-    key: `day:${d.date}`, group: 'День',
-    label: `${fmtDateRu(d.date, false)} · ${dayLabel(d)} · ${d.sites.map((x) => nameOf.get(x) ?? x).join(', ')}`,
-    sites: d.sites,
-  })),
-  ...route.map((id) => ({ key: `site:${id}`, group: 'Место', label: nameOf.get(id) ?? id, sites: [id] })),
-  // optional sites (not in the tour programme) after the tour ones; «Весь маршрут» stays tour-only
-  ...siteList.filter((s) => isOptionalSite(s.id) && !route.includes(s.id))
-    .map((s) => ({ key: `site:${s.id}`, group: OPTIONAL_SITES_RU, label: nameOf.get(s.id) ?? s.id, sites: [s.id] })),
-];
-const vocab = traitVocabulary().map((g) => ({ key: g.key, label: g.label.ru, values: g.values.map((v) => ({ key: v.key, label: v.ru, hint: v.hint })) }));
+const base = import.meta.env.BASE_URL;
+const target = `${base}species/?panel=traits`;
+// day:<date> -> its sites, for the carried-over place
+const days: Record<string, string[]> = Object.fromEntries(itinerary().filter((d) => d.sites.length).map((d) => [d.date, d.sites]));
 ---
-<Base title="Определитель" description="Определитель птиц маршрута по размеру, цвету, приметам, клюву и ярусу">
-  <h1>Определитель</h1>
-  <p class="muted lead">Отметь, что успел разглядеть: внутри группы подходит любой из выбранных признаков, между группами нужны все. Место сужает список до тех, кого там реально встретить.</p>
-  <script type="application/json" id="identify-data" set:html={json}></script>
-  <Identifier client:load vocab={vocab} places={places} mediaBase={MEDIA_BASE} total={total} marked={items.length} />
-</Base>
-<style>
-  .lead { margin-top: -4px; font-size: .92rem; }
-</style>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Определитель переехал · Птицы Колумбии</title>
+    <link rel="canonical" href={`${Astro.site?.origin ?? ''}${base}species/`} />
+    <script is:inline define:vars={{ target, days }}>
+      var url = new URL(target, location.href);
+      try {
+        var v = JSON.parse(localStorage.getItem('cb.identify') || 'null');
+        if (v && v.sel && typeof v.sel === 'object') {
+          var t = Object.keys(v.sel).filter(function (g) { return Array.isArray(v.sel[g]) && v.sel[g].length; })
+            .map(function (g) { return g + ':' + v.sel[g].join(','); }).join(';');
+          if (t) url.searchParams.set('t', t);
+        }
+        var p = v && typeof v.place === 'string' ? v.place : '';
+        var site = p.indexOf('site:') === 0 ? p.slice(5) : p.indexOf('day:') === 0 ? (days[p.slice(4)] || []).join(',') : '';
+        if (site) url.searchParams.set('site', site);
+        localStorage.removeItem('cb.identify');
+      } catch (e) { /* private mode, bad JSON */ }
+      location.replace(url.href);
+    </script>
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <style is:inline>
+      body { margin: 0; padding: 24px 16px; font: 16px/1.5 system-ui, sans-serif; background: #f7f6f2; color: #1c1f1a; }
+      a { color: #14532d; }
+      @media (prefers-color-scheme: dark) { body { background: #10150f; color: #e6e9e3; } a { color: #86d19a; } }
+    </style>
+  </head>
+  <body>
+    <p><a href={target}>Определитель переехал на страницу видов</a>: признаки теперь в «Фильтрах» любого списка.</p>
+  </body>
+</html>

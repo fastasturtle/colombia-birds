@@ -1,6 +1,6 @@
 <script lang="ts">
   /**
-   * Toggle chip with a facet count (lib/facets.ts), shared by the identifier and FilterBar.
+   * Toggle chip with a facet count (lib/facets.ts), used by FilterBar (families, sites, traits).
    * n = null while the data is loading (no count); delta = the chip's group already has a selection, so the count is
    * «+N» (species it would add) instead of the absolute number. Zero-count chips are dimmed but stay clickable.
    */

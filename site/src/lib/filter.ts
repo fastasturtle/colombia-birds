@@ -45,17 +45,12 @@ export function readFilter(): { level: 'sure' | 'maybe' | 'all'; tag: 'all' | 'i
 export function passesTag(f: Filter, tier: Tier): boolean {
   return tier >= TAGS.indexOf(f.tag);
 }
-/** Is a species with this state and tier (tierOf) shown under the filter? (Identifier; lists use rowPasses.) */
-export function passes(f: Filter, state: string, tier: Tier): boolean {
-  if (!passesTag(f, tier)) return false;
-  return f.level === 'all' || state === 'sure' || (f.level === 'maybe' && state === 'maybe');
-}
 
 /* ---- Page-level narrowing (FilterBar.svelte): search, families, sites, elevation, traits ----
  * Lives in the page URL (`q`, `fam`, `site`, `elev`; lists comma-separated; traits as `t=size:small,medium;colors:red`;
  * a scope with data-lf-key="d" uses `d-q` etc.), so links are shareable and nothing leaks between pages. Filters only
  * narrow: EMPTY_NARROW passes every row. */
-/** Selected identifier traits (content/traits.yaml): group key -> value keys. OR within a group, AND across groups. */
+/** Selected traits (content/traits.yaml): group key -> value keys. OR within a group, AND across groups. */
 export type TraitSel = Record<string, string[]>;
 export interface Narrow { q: string; fam: string[]; site: string[]; elev: number | null; tr: TraitSel }
 export const EMPTY_NARROW: Narrow = { q: '', fam: [], site: [], elev: null, tr: {} };
@@ -137,8 +132,8 @@ export function scopeCtx(scope: HTMLElement): { f: [string, string][]; s: string
 }
 /**
  * The one predicate: does a row pass the site-wide filter f and the page's narrow state u? Families OR, sites OR,
- * trait values OR within their group (rows without traits fail any trait selection), AND across everything. Also the
- * identifier's matcher. Self-contained: inlined into pages via toString().
+ * trait values OR within their group (rows without traits fail any trait selection), AND across everything.
+ * Self-contained: inlined into pages via toString().
  */
 export function rowPasses(
   r: { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null },
