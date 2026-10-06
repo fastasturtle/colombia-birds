@@ -7,7 +7,7 @@ const siteOf = Object.fromEntries(sites().map((s) => [s.id, s]));
 const color = regions().find((r) => r.id === day.region)?.color ?? 'var(--line)';
 const base = import.meta.env.BASE_URL;
 const study = studyList(day.date);
-// counts under the default filter («Точно и возможно»), static: the card has no JS
+// counts under the default filter (level «Все»: «интересных» over every species of the day), static: the card has no JS
 const c = study ? defaultCounts(study.species) : null;
 // one-glance forecast of the day's first location (data/weather.json): worst weather, temperature range, max rain
 // chance; shown right of the site chips (free space, no extra line), on the Ночёвка line when there are no sites
@@ -34,7 +34,7 @@ const wx = (() => {
   {day.sites.length > 0 && (
     <div class="sites">{day.sites.map((sid) => siteOf[sid] && <a class="chip tap" href={`${base}sites/${sid}/`}>{siteOf[sid].name_ru || siteOf[sid].name}</a>)}{wx && <span class="wx small muted" title={wx.title}>{wx.icon} {wx.t}{wx.prob != null && ` ${wx.prob}%`}</span>}</div>
   )}
-  {c && c.sure + c.maybe > 0 && (
+  {c && c.sure + c.maybe + c.interesting > 0 && (
     <div class="small stats">
       <b class="sure">{c.sure} точно</b> · {c.maybe} возможно{c.interesting > 0 && <> · <b class="hl">{c.interesting} {plural(c.interesting, 'интересный', 'интересных', 'интересных')}</b></>}
     </div>

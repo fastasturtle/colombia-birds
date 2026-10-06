@@ -3,13 +3,14 @@
    * The one filter control of every species list (/species/, day, site and family pages).
    * Collapsed: search + «Фильтры» (badge = active non-default filters) + «показано N из M» + removable chips of the
    * active filters. Expanded (remembered in localStorage `cb.filter.open`): the site-wide ListFilter (likelihood, tag),
-   * families and sites as facet chips with counts (lib/facets.ts), elevation where `elev` is set, and «Признаки» (its
+   * families as facet chips with counts (lib/facets.ts), sites as a dropdown of checkboxes with the same counts
+   * (PlacePicker.svelte), elevation where `elev` is set, and «Признаки» (its
    * own fold, `cb.filter.traits`): trait groups of content/traits.yaml, OR within a group, AND across groups.
    * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» for
    * this visit and scrolls «Признаки» into view (`?panel=1`: the panel only); nothing is saved, and the flag is dropped
    * from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
-   * Long chip groups (> FOLD_FROM chips) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
+   * Long chip groups (> FOLD_FROM chips; PlacePicker orders its rows the same way) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
    * the rest. State: level + tag in the global `filter` store; search, families, sites, elevation, traits in `u`
    * (bound; the parent keeps it in the URL and applies it).
    * Rows: one descriptor per list row (lib/filter Row); null while the parent is still reading them.
@@ -17,6 +18,7 @@
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
   import FacetChip from './FacetChip.svelte';
+  import PlacePicker from './PlacePicker.svelte';
   import { filter, normQ, rowPasses, trCount, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   import { listCounts, rowFacets, noTraitsHidden, trGroup, plural } from '../lib/facets';
 
@@ -90,7 +92,7 @@
   let active = $derived.by<Active[]>(() => {
     const out: Active[] = [];
     const f = $filter;
-    if (f.level !== DEFAULT_FILTER.level) out.push({ key: 'lv', label: f.level === 'sure' ? 'Только «точно»' : 'Включая «вряд ли»', drop: () => filter.update((x) => ({ ...x, level: DEFAULT_FILTER.level })) });
+    if (f.level !== DEFAULT_FILTER.level) out.push({ key: 'lv', label: f.level === 'sure' ? 'Только «точно»' : '«Точно» и «возможно»', drop: () => filter.update((x) => ({ ...x, level: DEFAULT_FILTER.level })) });
     if (f.tag !== DEFAULT_FILTER.tag) out.push({ key: 'tag', label: `${f.tag === 'end' ? '◆' : f.tag === 'near' ? '◇' : '★'} ${TAG_LABEL[f.tag]}`, drop: () => filter.update((x) => ({ ...x, tag: DEFAULT_FILTER.tag })) });
     for (const c of u.fam) { const fo = famOf.get(c); out.push({ key: `f:${c}`, label: fo ? famName(fo) : c, drop: () => toggle('fam', c) }); }
     for (const s of u.site) out.push({ key: `s:${s}`, label: siteOf.get(s)?.name ?? s, drop: () => toggle('site', s) });
@@ -123,7 +125,6 @@
     return { main, rest };
   }
   let famOpts = $derived(famsShown.map((f) => ({ key: f.code, label: famName(f), sub: f.sci, hint: f.ru && f.en ? `${f.en} · ${f.sci}` : f.sci })));
-  let siteOpts = $derived(sites.map((s) => ({ key: s.id, label: s.name })));
 </script>
 
 {#snippet chipGroup(g: string, opts: Opt[], sel: string[], onpick: (v: string) => void, fold: boolean)}
@@ -171,9 +172,8 @@
       {#if sites.length > 1}
         <fieldset class="grp">
           <legend>Место{#if u.site.length}<span class="n">{" · "}{u.site.length}</span>{/if}</legend>
-          <div class="chips">
-            {@render chipGroup('site', siteOpts, u.site, (v) => toggle('site', v), true)}
-          </div>
+          <PlacePicker {sites} sel={u.site} counts={rows ? (counts.site ?? {}) : null} fold={FOLD_FROM}
+            onpick={(v) => toggle('site', v)} onclear={() => (u.site = [])} />
         </fieldset>
       {/if}
       {#if elev}

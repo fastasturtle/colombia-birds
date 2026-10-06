@@ -14,7 +14,7 @@ const items = speciesForSites([s.id]);
 const dc = defaultCounts(items);
 const famOf = new Map(speciesIndex().map((x) => [x.id, x.family]));
 const facets = listFacets(items.map((x) => ({ id: x.id, family: famOf.get(x.id) ?? '', sites: [] })), []);
-const nVis = dc.sure + dc.maybe;
+const nVis = dc.total;
 const days = daysForSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
 const othersTour = others.filter((o) => !isOptionalSite(o.id));
