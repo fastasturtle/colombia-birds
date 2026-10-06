@@ -51,19 +51,41 @@ export function passes(f: Filter, state: string, tier: Tier): boolean {
   return f.level === 'all' || state === 'sure' || (f.level === 'maybe' && state === 'maybe');
 }
 
-/* ---- Page-level narrowing (FilterBar.svelte): search, families, sites, elevation ----
- * Lives in the page URL (`q`, `fam`, `site`, `elev`; lists comma-separated; a scope with data-lf-key="d" uses `d-q`
- * etc.), so links are shareable and nothing leaks between pages. Filters only narrow: EMPTY_NARROW passes every row. */
-export interface Narrow { q: string; fam: string[]; site: string[]; elev: number | null }
-export const EMPTY_NARROW: Narrow = { q: '', fam: [], site: [], elev: null };
+/* ---- Page-level narrowing (FilterBar.svelte): search, families, sites, elevation, traits ----
+ * Lives in the page URL (`q`, `fam`, `site`, `elev`; lists comma-separated; traits as `t=size:small,medium;colors:red`;
+ * a scope with data-lf-key="d" uses `d-q` etc.), so links are shareable and nothing leaks between pages. Filters only
+ * narrow: EMPTY_NARROW passes every row. */
+/** Selected identifier traits (content/traits.yaml): group key -> value keys. OR within a group, AND across groups. */
+export type TraitSel = Record<string, string[]>;
+export interface Narrow { q: string; fam: string[]; site: string[]; elev: number | null; tr: TraitSel }
+export const EMPTY_NARROW: Narrow = { q: '', fam: [], site: [], elev: null, tr: {} };
+/** The trait vocabulary as the client sees it (lib/traits traitOpts): groups and values in display order. */
+export interface TraitOpt { key: string; label: string; values: { key: string; label: string; hint?: string | null }[] }
+/**
+ * Row traits travel as one character per value: String.fromCharCode(65 + i), i = the value's index in the flattened
+ * vocabulary (traitFlat; at most 62 values). rowOf decodes the same way inline.
+ */
+export const traitFlat = (tv: TraitOpt[]) => tv.flatMap((g) => g.values.map((v) => `${g.key}:${v.key}`));
+export const decodeTr = (s: string, flat: string[]) => Array.from(s, (c) => flat[c.charCodeAt(0) - 65]).filter(Boolean);
+/** A selection limited to the vocabulary (a stale link must not hide everything). */
+export function cleanTr(sel: TraitSel, tv: TraitOpt[]): TraitSel {
+  const out: TraitSel = {};
+  for (const g of tv) {
+    const ok = new Set(g.values.map((v) => v.key));
+    const vs = (sel[g.key] ?? []).filter((v) => ok.has(v));
+    if (vs.length) out[g.key] = vs;
+  }
+  return out;
+}
+export const trCount = (sel: TraitSel) => Object.values(sel).reduce((a, b) => a + b.length, 0);
 /**
  * One list row, from a static row's dataset (rowOf) or built from JSON (SpeciesList). q: searchable names (species
  * Russian / English / ACO English / Latin, family Russian / English), normQ'd and joined with «|»; on static rows they
  * come from the row's [data-n] elements (printed names) + data-q (names not printed) + the family entry of the scope
  * ctx. sites: ids of this page's sites where the species is listed (GBIF list or trip-report target); elev: altitude
- * range, only on /species/.
+ * range, only on /species/. tr: the species' traits as «group:value» (species card), null when it has no card.
  */
-export interface Row { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null }
+export interface Row { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null }
 
 /** FilterBar facet options (lib/data facetOptions). */
 export interface FamOpt { code: string; ru: string | null; en: string | null; sci: string }
@@ -75,48 +97,63 @@ export const normQ = (s: string) => s.toLowerCase().replace(/ё/g, 'е');
 export const searchKey = (parts: (string | null | undefined)[]) => [...new Set(parts.filter(Boolean))].join('|');
 
 /** Narrow state from the URL. Self-contained: inlined into pages via toString(). */
-export function readNarrow(key: string): { q: string; fam: string[]; site: string[]; elev: number | null } {
+export function readNarrow(key: string): { q: string; fam: string[]; site: string[]; elev: number | null; tr: Record<string, string[]> } {
   const p = new URLSearchParams(location.search), k = key ? key + '-' : '';
   const list = (n: string) => (p.get(k + n) || '').split(',').filter(Boolean);
   const e = parseInt(p.get(k + 'elev') || '', 10);
-  return { q: p.get(k + 'q') || '', fam: list('fam'), site: list('site'), elev: Number.isFinite(e) ? e : null };
+  const tr: Record<string, string[]> = {};
+  for (const part of (p.get(k + 't') || '').split(';')) {
+    const i = part.indexOf(':'), vs = part.slice(i + 1).split(',').filter(Boolean);
+    if (i > 0 && vs.length) tr[part.slice(0, i)] = vs;
+  }
+  return { q: p.get(k + 'q') || '', fam: list('fam'), site: list('site'), elev: Number.isFinite(e) ? e : null, tr };
 }
 /** Write the narrow state into the URL (replaceState; other params and the hash are kept). */
 export function writeNarrow(key: string, u: Narrow): void {
   const url = new URL(location.href), k = key ? key + '-' : '';
   const set = (n: string, v: string) => { if (v) url.searchParams.set(k + n, v); else url.searchParams.delete(k + n); };
   set('q', u.q.trim()); set('fam', u.fam.join(',')); set('site', u.site.join(',')); set('elev', u.elev != null ? String(u.elev) : '');
+  set('t', Object.entries(u.tr).filter(([, vs]) => vs.length).map(([g, vs]) => `${g}:${vs.join(',')}`).join(';'));
   if (url.href !== location.href) history.replaceState(history.state, '', url.href);
 }
-/** The scope's data-lf-ctx (lib/data listFacets): f = [family code, its searchable names], s = site ids; rows index both. */
-export interface ScopeCtx { f: [string, string][]; s: string[] }
+/** The scope's data-lf-ctx (lib/data listFacets): f = [family code, its searchable names], s = site ids; rows index both.
+ * tv: the trait vocabulary, present when some row of the scope has traits (data-tr indexes its flattened values). */
+export interface ScopeCtx { f: [string, string][]; s: string[]; tv?: TraitOpt[] }
 /** Row descriptor of a static row. Self-contained: inlined into pages via toString(). */
-export function rowOf(el: HTMLElement, ctx: { f: [string, string][]; s: string[] }): { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string } {
+export function rowOf(el: HTMLElement, ctx: { f: [string, string][]; s: string[]; tv?: { key: string; values: { key: string }[] }[]; _tf?: string[] }): { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; tr: string[] | null } {
   const d = el.dataset, f = (d.fam ? ctx.f[+d.fam] : null) || ['', ''];
+  // flattened trait vocabulary (as traitFlat), cached on the ctx object
+  const tf = ctx._tf || (ctx._tf = (ctx.tv || []).flatMap((g) => g.values.map((v) => g.key + ':' + v.key)));
   return {
     st: d.st || '', int: 'int' in d, nend: 'nend' in d, end: 'end' in d, fam: f[0],
     sites: (d.sites || '').split(' ').filter(Boolean).map((i) => ctx.s[+i]),
     q: [d.q || '', f[1], ...Array.from(el.querySelectorAll('[data-n]'), (n) => n.textContent || '')].join('|').toLowerCase().replace(/ё/g, 'е'),
+    tr: d.tr != null ? Array.from(d.tr, (c) => tf[c.charCodeAt(0) - 65]).filter(Boolean) : null,
   };
 }
 /** The scope's ctx. Self-contained: inlined into pages via toString(). */
-export function scopeCtx(scope: HTMLElement): { f: [string, string][]; s: string[] } {
+export function scopeCtx(scope: HTMLElement): { f: [string, string][]; s: string[]; tv?: { key: string; label: string; values: { key: string; label: string; hint?: string | null }[] }[] } {
   try { return JSON.parse(scope.dataset.lfCtx || ''); } catch { return { f: [], s: [] }; }
 }
 /**
  * The one predicate: does a row pass the site-wide filter f and the page's narrow state u? Families OR, sites OR,
- * AND across everything. Self-contained: inlined into pages via toString().
+ * trait values OR within their group (rows without traits fail any trait selection), AND across everything. Also the
+ * identifier's matcher. Self-contained: inlined into pages via toString().
  */
 export function rowPasses(
-  r: { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null },
+  r: { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null },
   f: { level: string; tag: string },
-  u: { q: string; fam: string[]; site: string[]; elev: number | null },
+  u: { q: string; fam: string[]; site: string[]; elev: number | null; tr?: Record<string, string[]> },
 ): boolean {
   if (f.tag === 'int' ? !r.int : f.tag === 'near' ? !r.nend : f.tag === 'end' ? !r.end : false) return false;
   if (!(f.level === 'all' || r.st === 'sure' || (f.level === 'maybe' && r.st === 'maybe'))) return false;
   if (u.fam.length && !u.fam.includes(r.fam)) return false;
   if (u.site.length && !r.sites.some((s) => u.site.includes(s))) return false;
   if (u.elev != null && r.elev && ((r.elev[0] ?? 0) > u.elev || (r.elev[1] ?? 9000) < u.elev)) return false;
+  for (const g in u.tr || {}) {
+    const vs = u.tr![g];
+    if (vs.length && !(r.tr && vs.some((v) => r.tr!.includes(g + ':' + v)))) return false;
+  }
   const t = u.q.trim().toLowerCase().replace(/ё/g, 'е');
   return !t || r.q.includes(t);
 }
@@ -127,7 +164,7 @@ export function rowPasses(
  * <details> groups that have hits. Self-contained (helpers come in as arguments): inlined into pages via toString().
  */
 export function applyFilterDom(
-  scope: HTMLElement, f: { level: string; tag: string }, u: { q: string; fam: string[]; site: string[]; elev: number | null },
+  scope: HTMLElement, f: { level: string; tag: string }, u: { q: string; fam: string[]; site: string[]; elev: number | null; tr: Record<string, string[]> },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   rowOf: (el: HTMLElement, ctx: any) => any, rowPasses: (r: any, f: { level: string; tag: string }, u: any) => boolean, ctx: { f: [string, string][]; s: string[] },
 ): void {

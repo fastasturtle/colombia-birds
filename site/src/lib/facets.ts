@@ -1,5 +1,7 @@
+import { rowPasses, type Filter, type Narrow, type Row } from './filter';
+
 /**
- * Facet chips with counts, shared by the identifier (trait groups) and FilterBar (families, sites).
+ * Facet chips with counts, shared by the identifier (trait groups) and FilterBar (families, sites, trait groups).
  * Selection: OR within a group, AND across groups. Counts, over the items that pass `base` (everything outside the facets):
  * - group without a selection: items that would match if the chip were selected (AND with all other groups);
  * - group with a selection: delta, items that selecting the chip too would ADD (match all other groups, have the chip,
@@ -46,6 +48,33 @@ export function facetCounts(
   }
   return out;
 }
+
+/** Facet values of one list row: `fam`, `site` and `t.<trait group>` (see listCounts). Build once per row. */
+export type RowFacets = Record<string, ReadonlySet<string>>;
+export function rowFacets(r: Row): RowFacets {
+  const o: Record<string, Set<string>> = { fam: new Set([r.fam]), site: new Set(r.sites) };
+  for (const x of r.tr ?? []) {
+    const i = x.indexOf(':'), k = `t.${x.slice(0, i)}`;
+    (o[k] ??= new Set()).add(x.slice(i + 1));
+  }
+  return o;
+}
+/** Facet group key of a trait group in listCounts. */
+export const trGroup = (g: string) => `t.${g}`;
+/**
+ * Counts of the facet chips of a list (FilterBar; the identifier with trait groups only): `groups` are any of
+ * `fam`, `site`, `t.<trait group>` (trGroup) with their values. Everything else in `u` (search, elevation) and the
+ * site-wide filter `f` is the base every count respects. One implementation for both: rowPasses + facetCounts.
+ */
+export function listCounts(rows: Row[], sets: RowFacets[], f: Filter, u: Narrow, groups: { key: string; values: string[] }[]) {
+  const sel: Sel = { fam: u.fam, site: u.site };
+  for (const [g, vs] of Object.entries(u.tr)) sel[trGroup(g)] = vs;
+  const rest: Narrow = { ...u, fam: [], site: [], tr: {} };
+  return facetCounts(rows.length, groups, sel, (i) => rowPasses(rows[i], f, rest), (i, g) => sets[i][g]);
+}
+/** Rows that pass everything but the trait selection and have no traits: hidden only because they have no card. */
+export const noTraitsHidden = (rows: Row[], f: Filter, u: Narrow) =>
+  Object.values(u.tr).some((v) => v.length) ? rows.filter((r) => !r.tr && rowPasses(r, f, { ...u, tr: {} })).length : 0;
 
 /** Russian plural (1 вид, 2 вида, 5 видов). */
 export const plural = (n: number, a: string, b: string, c: string) => {

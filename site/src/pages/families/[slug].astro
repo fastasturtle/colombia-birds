@@ -47,8 +47,8 @@ const byDay = days.map((d) => {
 /* All species of the family: state = best across route sites, «интересная» over the whole route. */
 const route = routeSiteIds();
 const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.id), at: sitesListing(s.id, route) }));
-const dayFacets = listFacets(byDay.flatMap((d) => d.list.map((x) => ({ family: x.s.family, sites: x.at }))), [...new Set(byDay.flatMap((d) => d.day.sites))]);
-const allFacets = listFacets(rows.map((r) => ({ family: r.s.family, sites: r.at })), route);
+const dayFacets = listFacets(byDay.flatMap((d) => d.list.map((x) => ({ id: x.s.id, family: x.s.family, sites: x.at }))), [...new Set(byDay.flatMap((d) => d.day.sites))]);
+const allFacets = listFacets(rows.map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), route);
 ---
 <Base title={title}>
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>

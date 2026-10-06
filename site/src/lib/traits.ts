@@ -69,3 +69,24 @@ export function validateTraits(raw: unknown, file: string): Traits {
   }
   return out;
 }
+
+/** The vocabulary for the client (lib/filter TraitOpt: FilterBar, the identifier): Russian labels, hints only where set. */
+export function traitOpts(): { key: string; label: string; values: { key: string; label: string; hint?: string }[] }[] {
+  return traitVocabulary().map((g) => ({
+    key: g.key, label: g.label.ru,
+    values: g.values.map((v) => ({ key: v.key, label: v.ru, ...(v.hint ? { hint: v.hint } : {}) })),
+  }));
+}
+let _flat: Map<string, number> | null = null;
+/**
+ * A card's traits as the compact row token of lib/filter (data-tr): one character per value, String.fromCharCode(65 + i),
+ * i = the value's index in the flattened vocabulary. 62 values at most (65..126 is plain ASCII that needs no escaping).
+ */
+export function traitToken(t: Traits): string {
+  if (!_flat) {
+    const flat = traitVocabulary().flatMap((g) => g.values.map((v) => `${g.key}:${v.key}`));
+    if (flat.length > 62) throw new Error('content/traits.yaml: more than 62 values, extend the row token encoding (lib/filter)');
+    _flat = new Map(flat.map((k, i) => [k, i]));
+  }
+  return Object.entries(t).flatMap(([g, vs]) => vs.map((v) => String.fromCharCode(65 + _flat!.get(`${g}:${v}`)!))).join('');
+}

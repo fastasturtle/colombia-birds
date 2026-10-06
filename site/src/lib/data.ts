@@ -5,6 +5,9 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { searchKey } from './filter';
+// content.ts imports this module too; the cycle is safe, both only call each other inside functions
+import { speciesCards } from './content';
+import { traitOpts, traitToken } from './traits';
 
 const DATA = join(process.cwd(), '..', 'data');
 /** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
@@ -340,21 +343,26 @@ export function facetOptions(rows: { family: string; sites: string[] }[], siteOr
 /**
  * Everything a static list needs for FilterBar (FilterScope + ScopeFilter): the facet options, `ctx` for the scope
  * (data-lf-ctx: family codes with their searchable names, site ids; rows refer to both by index to keep pages small)
- * and `attrs(s, siteIds)`, the row's data-fam / data-sites / data-q to spread next to data-st.
+ * and `attrs(s, siteIds)`, the row's data-fam / data-sites / data-q / data-tr to spread next to data-st.
+ * Traits: when a row has a species card, ctx.tv carries the trait vocabulary once (lib/traits traitOpts) and each
+ * card row a data-tr token (traitToken, a few characters); rows without a card have no data-tr.
  */
-export function listFacets(rows: { family: string; sites: string[] }[], siteOrder: string[]) {
+export function listFacets(rows: { id: string; family: string; sites: string[] }[], siteOrder: string[]) {
   const { fams, sites: siteOpts } = facetOptions(rows, siteOrder);
   const fi = new Map(fams.map((f, i) => [f.code, i]));
   const si = new Map(siteOpts.map((s, i) => [s.id, i]));
+  const cards = speciesCards();
+  const tv = rows.some((r) => cards.has(r.id)) ? traitOpts() : undefined;
   return {
     fams, sites: siteOpts,
-    ctx: JSON.stringify({ f: fams.map((f) => [f.code, searchKey([f.ru, f.en])]), s: siteOpts.map((s) => s.id) }),
+    ctx: JSON.stringify({ f: fams.map((f) => [f.code, searchKey([f.ru, f.en])]), s: siteOpts.map((s) => s.id), ...(tv ? { tv } : {}) }),
     /** shown: which names the row already prints inside [data-n] elements (rowOf reads them; the main name always is),
      * so data-q only carries the rest */
     attrs: (s: IndexEntry, siteIds: string[] = [], shown: { alt?: boolean; sci?: boolean } = {}): Record<string, string | undefined> => {
       const at = siteIds.filter((x) => si.has(x)).map((x) => si.get(x)).join(' ');
       const q = searchKey([!shown.alt ? speciesNames(s).alt : null, !shown.sci ? s.sci : null, enAltName(s.id)]);
-      return { 'data-fam': String(fi.get(s.family) ?? ''), 'data-sites': at || undefined, 'data-q': q || undefined };
+      const card = cards.get(s.id);
+      return { 'data-fam': String(fi.get(s.family) ?? ''), 'data-sites': at || undefined, 'data-q': q || undefined, 'data-tr': card ? traitToken(card.traits) : undefined };
     },
   };
 }

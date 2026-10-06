@@ -6,13 +6,15 @@
    * Species data is read from the page's <script id="identify-data"> JSON (see pages/identify/index.astro).
    * Facet counts (same place + filter): in a group with no selection a chip shows the absolute count if selected;
    * in a group with a selection an unselected chip shows «+N», the species it would add; selected chips show none.
+   * Matching and counting are the species lists' own (lib/filter rowPasses, lib/facets listCounts, FilterBar
+   * «Признаки»): each species becomes a list Row with its state at the place and its traits.
    */
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
   import EndemicMark from './EndemicMark.svelte';
   import FacetChip from './FacetChip.svelte';
-  import { filter, passes, tierOf } from '../lib/filter';
-  import { facetCounts, plural } from '../lib/facets';
+  import { filter, rowPasses, EMPTY_NARROW, type Row, type Narrow } from '../lib/filter';
+  import { listCounts, rowFacets, trGroup, plural } from '../lib/facets';
   type State = 'sure' | 'maybe' | 'unlikely';
   interface Item { id: string; en: string; ru: string | null; photo: string | null; t: Record<string, string[]>; st: Record<string, 's' | 'm'>; hl: string[]; x: boolean; e: boolean; n?: boolean }
   interface Group { key: string; label: string; values: { key: string; label: string; hint: string | null }[] }
@@ -25,8 +27,9 @@
   const RANK: Record<State, number> = { sure: 2, maybe: 1, unlikely: 0 };
 
   let items = $state<Item[] | null>(null);
-  /** Per-species trait sets, built once per parse: sets[i][group] for items[i]. */
-  let sets = $derived(items ? items.map((it) => Object.fromEntries(Object.entries(it.t).map(([g, vs]) => [g, new Set(vs)])) as Record<string, Set<string>>) : []);
+  /** Per-species traits as «group:value» (lib/filter Row.tr) and their facet sets, built once per parse. */
+  let trs = $derived(items ? items.map((it) => Object.entries(it.t).flatMap(([g, vs]) => vs.map((v) => `${g}:${v}`))) : []);
+  let sets = $derived(trs.map((tr) => rowFacets({ st: '', int: false, nend: false, end: false, fam: '', sites: [], q: '', tr })));
   let sel = $state<Record<string, string[]>>({});
   let place = $state('any');
 
@@ -71,37 +74,19 @@
     }
     return best;
   };
-  let rows = $derived.by(() => {
-    if (!items) return [];
-    const groups = Object.entries(sel).filter(([, v]) => v.length);
-    return items
-      .filter((it) => groups.every(([g, vs]) => (it.t[g] ?? []).some((x) => vs.includes(x))))
-      .map((it) => {
-        const state = stateAt(it, placeSites);
-        const int = it.x || it.hl.some((s) => placeSites.includes(s));
-        return { it, state, int };
-      })
-      .sort((a, b) => Number(b.int) - Number(a.int) || RANK[b.state] - RANK[a.state] || (a.it.ru ?? a.it.en).localeCompare(b.it.ru ?? b.it.en, 'ru'));
-  });
-  let shown = $derived(rows.filter((r) => passes($filter, r.state, tierOf(r.int, !!r.it.n, r.it.e))));
-  /**
-   * counts[group][value], over species shown (place + filter):
-   * - group without a selection: species that would match if the chip were selected (AND with all other groups);
-   * - group with a selection: delta, species that selecting the chip too would ADD (match all other groups, have
-   *   the chip, match none of the group's selected chips).
-   * One pass over species: a species matching all groups adds to the chips it has in unselected groups; a species
-   * failing exactly one (selected) group adds only to that group's chips it has. Failing two or more adds nothing.
-   */
-  const facetGroups = vocab.map((g) => ({ key: g.key, values: g.values.map((v) => v.key) }));
-  let counts = $derived.by(() => {
-    const its = items ?? [];
-    const f = $filter;
-    return facetCounts(its.length, facetGroups, sel, (i) => {
-      const it = its[i];
-      const int = it.x || it.hl.some((s) => placeSites.includes(s));
-      return passes(f, stateAt(it, placeSites), tierOf(int, !!it.n, it.e));
-    }, (i, g) => sets[i][g]);
-  });
+  /** Each species as a list Row at the place: state there, «интересная» (int: as the tiles show it) and its traits. */
+  let placed = $derived((items ?? []).map((it, i) => {
+    const state = stateAt(it, placeSites);
+    const int = it.x || it.hl.some((s) => placeSites.includes(s));
+    const row: Row = { st: state, int: int || !!it.n || it.e, nend: !!it.n || it.e, end: it.e, fam: '', sites: [], q: '', tr: trs[i] };
+    return { it, state, int, row };
+  }));
+  let narrow = $derived<Narrow>({ ...EMPTY_NARROW, tr: sel });
+  let shown = $derived(placed.filter((p) => rowPasses(p.row, $filter, narrow))
+    .sort((a, b) => Number(b.int) - Number(a.int) || RANK[b.state] - RANK[a.state] || (a.it.ru ?? a.it.en).localeCompare(b.it.ru ?? b.it.en, 'ru')));
+  /** counts[trGroup(group)][value] over species at the place under the filter (lib/facets listCounts, as FilterBar) */
+  const facetGroups = vocab.map((g) => ({ key: trGroup(g.key), values: g.values.map((v) => v.key) }));
+  let counts = $derived(listCounts(placed.map((p) => p.row), sets, $filter, narrow, facetGroups));
   const dayPlaces = places.filter((p) => p.group === 'День');
   const sitePlaces = places.filter((p) => p.group === 'Место');
   // any other group (e.g. «Возможные выезды из Боготы») gets its own <optgroup> after «Место», in input order
@@ -133,7 +118,7 @@
       <legend><span>{g.label}{#if sel[g.key]?.length}<span class="n"> · {sel[g.key].length}</span>{/if}</span>{#if gi === 0}<button type="button" class="lnk clr" style:visibility={nSel > 0 ? 'visible' : 'hidden'} onclick={reset}>Сбросить</button>{/if}</legend>
       <div class="chips">
         {#each g.values as v (v.key)}
-          <FacetChip label={v.label} hint={v.hint} on={sel[g.key]?.includes(v.key) ?? false} n={items ? (counts[g.key]?.[v.key] ?? 0) : null}
+          <FacetChip label={v.label} hint={v.hint} on={sel[g.key]?.includes(v.key) ?? false} n={items ? (counts[trGroup(g.key)]?.[v.key] ?? 0) : null}
             delta={(sel[g.key]?.length ?? 0) > 0} onclick={() => toggle(g.key, v.key)} />
         {/each}
       </div>

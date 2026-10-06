@@ -2,26 +2,30 @@
   /**
    * All-species list: the shared FilterBar (search, likelihood, tag, families, sites, elevation) over rows built from
    * the items JSON; the predicate is lib/filter rowPasses, as on the static lists. State = best across route sites
-   * (lib/data routeState). Search / families / sites / elevation live in the URL (writeNarrow).
+   * (lib/data routeState). Search / families / sites / elevation / traits live in the URL (writeNarrow).
    */
   import { onMount } from 'svelte';
   import FilterBar from './FilterBar.svelte';
   import EndemicMark from './EndemicMark.svelte';
-  import { filter, rowPasses, searchKey, normQ, readNarrow, writeNarrow, EMPTY_NARROW, type Narrow, type Row, type FamOpt, type SiteOpt } from '../lib/filter';
+  import { filter, rowPasses, searchKey, normQ, readNarrow, writeNarrow, traitFlat, decodeTr, cleanTr, EMPTY_NARROW, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   import { plural } from '../lib/facets';
   type State = 'sure' | 'maybe' | 'unlikely';
-  /** ea: ACO English name when it differs (searchable); si: space-separated indices into `sites` that list the species */
+  /** ea: ACO English name when it differs (searchable); si: space-separated indices into `sites` that list the species;
+   * trs: the items' trait tokens (lib/traits traitToken), space-separated in item order, empty for species without a card */
   interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; near: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean; ea?: string; si?: string }
-  let { items, fams, sites, base, mediaBase }: { items: Item[]; fams: FamOpt[]; sites: SiteOpt[]; base: string; mediaBase: string } = $props();
+  let { items, fams, sites, traits, trs, base, mediaBase }: { items: Item[]; fams: FamOpt[]; sites: SiteOpt[]; traits: TraitOpt[]; trs: string; base: string; mediaBase: string } = $props();
+  const trFlat = traitFlat(traits);
+  const trTok = trs.split(' ');
   const STATE_RU: Record<State, string> = { sure: 'точно', maybe: 'возможно', unlikely: 'вряд ли' };
   const LIMIT = 300;
   const famOf = new Map(fams.map((f) => [f.code, f]));
   const famName = (code: string) => { const f = famOf.get(code); return f ? (f.ru ?? f.en ?? f.sci) : code; };
-  const rows: Row[] = items.map((s) => {
+  const rows: Row[] = items.map((s, i) => {
     const f = famOf.get(s.family);
     return {
       st: s.state, int: s.int || s.near || s.endemic, nend: s.near || s.endemic, end: s.endemic, fam: s.family,
       sites: s.si ? s.si.split(' ').map((i) => sites[+i].id) : [], elev: s.elev, q: normQ(searchKey([s.ru, s.en, s.ea, s.sci, f?.ru, f?.en])),
+      tr: trTok[i] ? decodeTr(trTok[i], trFlat) : null,
     };
   });
 
@@ -30,7 +34,7 @@
   onMount(() => {
     const r = readNarrow('');
     const fk = new Set(fams.map((f) => f.code)), sk = new Set(sites.map((s) => s.id));
-    u = { ...r, fam: r.fam.filter((c) => fk.has(c)), site: r.site.filter((s) => sk.has(s)) };
+    u = { ...r, fam: r.fam.filter((c) => fk.has(c)), site: r.site.filter((s) => sk.has(s)), tr: cleanTr(r.tr, traits) };
     ready = true;
   });
   let timer: ReturnType<typeof setTimeout> | undefined;
@@ -44,7 +48,7 @@
   let shown = $derived(items.filter((_, i) => rowPasses(rows[i], $filter, u)));
 </script>
 
-<FilterBar rows={rows} total={items.length} {fams} {sites} bind:u elev />
+<FilterBar rows={rows} total={items.length} {fams} {sites} {traits} bind:u elev />
 <p class="muted note">{shown.length > LIMIT ? `Показаны первые ${LIMIT}. ` : ''}«Точно» и «возможно» — хотя бы на одной локации маршрута.</p>
 {#each shown.slice(0, LIMIT) as s (s.id)}
   <a class="row" href={`${base}species/${s.id}/`}>

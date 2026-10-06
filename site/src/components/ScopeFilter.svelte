@@ -1,12 +1,13 @@
 <script lang="ts">
   /**
    * FilterBar for a static list: mount inside a FilterScope.astro (client:load). Reads the row descriptors from the
-   * scope's DOM (lib/filter rowOf), keeps search / families / sites in the URL (key = the scope's data-lf-key) and
-   * re-applies applyFilterDom on every change. fams / sites: the list's facet options (lib/data facetOptions).
+   * scope's DOM (lib/filter rowOf), keeps search / families / sites / traits in the URL (key = the scope's data-lf-key)
+   * and re-applies applyFilterDom on every change. fams / sites: the list's facet options (lib/data facetOptions); the
+   * trait vocabulary comes from the scope's ctx (tv), so it is in the page once.
    */
   import { onMount } from 'svelte';
   import FilterBar from './FilterBar.svelte';
-  import { filter, applyFilterDom, readNarrow, writeNarrow, rowOf, rowPasses, scopeCtx, EMPTY_NARROW, type Narrow, type Row, type ScopeCtx, type FamOpt, type SiteOpt } from '../lib/filter';
+  import { filter, applyFilterDom, readNarrow, writeNarrow, rowOf, rowPasses, scopeCtx, cleanTr, EMPTY_NARROW, type Narrow, type Row, type ScopeCtx, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   interface Props { fams: FamOpt[]; sites: SiteOpt[]; total: number }
   const { fams, sites, total }: Props = $props();
 
@@ -19,6 +20,7 @@
   const rowFor = (x: HTMLElement) => byEl.get(x) ?? rowOf(x, ctx);
   let rows = $state<Row[] | null>(null);
   let u = $state<Narrow>({ ...EMPTY_NARROW });
+  let traits = $state<TraitOpt[]>([]);
 
   onMount(() => {
     // the island can hydrate while a long page is still parsing: read the rows once all of them are there
@@ -37,7 +39,8 @@
     const r = readNarrow(key);
     // codes not on this page (stale link) would hide everything: drop them
     const fk = new Set(fams.map((f) => f.code)), sk = new Set(sites.map((s) => s.id));
-    u = { ...r, fam: r.fam.filter((c) => fk.has(c)), site: r.site.filter((s) => sk.has(s)) };
+    traits = ctx.tv ?? [];
+    u = { ...r, fam: r.fam.filter((c) => fk.has(c)), site: r.site.filter((s) => sk.has(s)), tr: cleanTr(r.tr, traits) };
   }
 
   let timer: ReturnType<typeof setTimeout> | undefined;
@@ -51,4 +54,4 @@
   });
 </script>
 
-<div bind:this={el}><FilterBar {rows} {total} {fams} {sites} bind:u /></div>
+<div bind:this={el}><FilterBar {rows} {total} {fams} {sites} {traits} bind:u /></div>
