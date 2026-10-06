@@ -49,7 +49,7 @@
 </script>
 
 <FilterBar rows={rows} total={items.length} {fams} {sites} {traits} bind:u elev />
-<p class="muted note">{shown.length > LIMIT ? `Показаны первые ${LIMIT}. ` : ''}«Точно» и «возможно» — хотя бы на одной локации маршрута.</p>
+<p class="muted note">{shown.length > LIMIT ? `Показаны первые ${LIMIT}. ` : ''}«Точно», «возможно», «вряд ли» — лучшее по локациям маршрута.</p>
 {#each shown.slice(0, LIMIT) as s (s.id)}
   <a class="row" href={`${base}species/${s.id}/`}>
     {#if s.photo}<img class="thumb" src={`${mediaBase}/${s.photo}`} alt="" loading="lazy" />{:else}<div class="thumb empty">🐦</div>{/if}

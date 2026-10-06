@@ -12,7 +12,7 @@ interface Props { class?: string; key?: string; ctx: string }
 const { class: cls, key = '', ctx } = Astro.props;
 const js = `(function(s){(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${rowPasses.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
 ---
-<div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="maybe" data-tag="all">
+<div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="all" data-tag="all">
   <slot />
   <p class="lf-empty muted" data-lf-empty hidden>Ничего не найдено. Измени поиск или сбрось фильтры.</p>
   <script is:inline set:html={js}></script>

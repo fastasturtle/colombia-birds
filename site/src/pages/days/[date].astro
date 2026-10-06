@@ -45,7 +45,7 @@ const dayGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id
   .filter((g) => g.rows.length);
 const hasPhotos = list.some((x) => idx.get(x.id)?.photo);
 const dc = defaultCounts(list);
-const nVis = dc.sure + dc.maybe;
+const nVis = dc.total;
 const allNew = list.every((x) => x.new_for_route);
 const ss = siteSpecies();
 const radii = [...new Set(studySites.map((id) => ss[id]?.radius_km).filter(Boolean))];

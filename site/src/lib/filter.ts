@@ -1,6 +1,8 @@
 /**
  * Shared species filter: «Точно · Точно и возможно · Все» + «Все · Интересные · Почти-эндемики · Эндемики».
- * One choice for the whole site, persisted in localStorage `cb.filter` and applied identically on every page.
+ * One choice for the whole site, persisted in localStorage `cb.filter2` and applied identically on every page.
+ * Default: level «Все», tag «Все» (nothing hidden). Until 06.10 the default level was «Точно и возможно», saved under
+ * `cb.filter`; readFilter migrates that key once (see there) and the store then drops it.
  * On top of it every list page has its own narrowing (search, families, sites, elevation; FilterBar.svelte), kept in the
  * page URL (readNarrow / writeNarrow). Both go through the one predicate rowPasses() over a plain Row descriptor.
  *
@@ -23,17 +25,24 @@ export const TAGS: Tag[] = ['all', 'int', 'near', 'end'];
 export const tierOf = (interesting: boolean, nearEndemic: boolean, endemic: boolean): Tier =>
   endemic ? 3 : nearEndemic ? 2 : interesting ? 1 : 0;
 export interface Filter { level: Level; tag: Tag }
-export const FILTER_KEY = 'cb.filter';
-export const DEFAULT_FILTER: Filter = { level: 'maybe', tag: 'all' };
+export const FILTER_KEY = 'cb.filter2';
+/** The pre-06.10 key, whose level defaulted to «Точно и возможно» (readFilter migrates it). */
+export const OLD_FILTER_KEY = 'cb.filter';
+export const DEFAULT_FILTER: Filter = { level: 'all', tag: 'all' };
 export const LEVEL_LABEL: Record<Level, string> = { sure: 'Точно', maybe: 'Точно и возможно', all: 'Все' };
 export const TAG_LABEL: Record<Tag, string> = { all: 'Все', int: 'Интересные', near: 'Почти-эндемики', end: 'Эндемики' };
 
-/** Saved filter or the default; migrates the old `interesting: true` to «Интересные».
- * Self-contained: inlined into pages via toString(). */
+/** Saved filter or the default («Все» + «Все»). Migration: without `cb.filter2`, the old `cb.filter` is read, its
+ * tag kept (and its older `interesting: true` read as «Интересные»), its level kept only when it is not the old
+ * default `maybe`, which was rarely a choice: everyone lands on «Все» once. Self-contained: inlined into pages via toString(). */
 export function readFilter(): { level: 'sure' | 'maybe' | 'all'; tag: 'all' | 'int' | 'near' | 'end' } {
-  let level: 'sure' | 'maybe' | 'all' = 'maybe', tag: 'all' | 'int' | 'near' | 'end' = 'all';
+  let level: 'sure' | 'maybe' | 'all' = 'all', tag: 'all' | 'int' | 'near' | 'end' = 'all';
   try {
-    const v = JSON.parse(localStorage.getItem('cb.filter') || 'null');
+    let v = JSON.parse(localStorage.getItem('cb.filter2') || 'null');
+    if (!v) {
+      v = JSON.parse(localStorage.getItem('cb.filter') || 'null');
+      if (v && v.level === 'maybe') v.level = 'all';
+    }
     if (v && (v.level === 'sure' || v.level === 'maybe' || v.level === 'all')) level = v.level;
     if (v && (v.tag === 'all' || v.tag === 'int' || v.tag === 'near' || v.tag === 'end')) tag = v.tag;
     else if (v && v.interesting === true) tag = 'int';
@@ -210,7 +219,7 @@ function createStore() {
   if (typeof window !== 'undefined') {
     s.set(readFilter());
     s.subscribe((f) => {
-      try { localStorage.setItem(FILTER_KEY, JSON.stringify(f)); } catch { /* ignore */ }
+      try { localStorage.setItem(FILTER_KEY, JSON.stringify(f)); localStorage.removeItem(OLD_FILTER_KEY); } catch { /* ignore */ }
       applyAllScopes(f);
     });
     window.addEventListener('storage', (e) => { if (e.key === FILTER_KEY) s.set(readFilter()); });

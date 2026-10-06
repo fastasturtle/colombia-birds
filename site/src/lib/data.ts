@@ -396,11 +396,13 @@ export function studyList(date: string): StudyList | null {
   }
   return _study[date] ?? null;
 }
-/** Counts under the default filter («Точно и возможно», all species): used where there is no JS (home day cards). */
+/** Counts under the default filter (lib/filter DEFAULT_FILTER: level «Все», all species), for the server-rendered
+ * counters (home day cards, which have no JS; first paint of the day / site list headers). total = every species;
+ * sure / maybe / unlikely split it by likelihood; interesting over all of them. */
 export function defaultCounts(list: { state: State; interesting: boolean }[]) {
-  const vis = list.filter((x) => x.state !== 'unlikely');
-  return { sure: vis.filter((x) => x.state === 'sure').length, maybe: vis.filter((x) => x.state === 'maybe').length,
-    interesting: vis.filter((x) => x.interesting).length, unlikely: list.length - vis.length };
+  const n = (s: State) => list.filter((x) => x.state === s).length;
+  return { total: list.length, sure: n('sure'), maybe: n('maybe'), unlikely: n('unlikely'),
+    interesting: list.filter((x) => x.interesting).length };
 }
 /** Days (in itinerary order) that visit a site. */
 export function daysForSite(siteId: string): Day[] {
