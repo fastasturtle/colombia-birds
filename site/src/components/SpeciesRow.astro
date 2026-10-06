@@ -6,16 +6,17 @@
  */
 import StateWord from './StateWord.astro';
 import EndemicMark from './EndemicMark.svelte';
-import { mediaUrl, species, speciesNames, WHY_RU, type IndexEntry, type State, type Why } from '@lib/data';
-interface Props { s: IndexEntry; state?: State; why?: Why[] }
-const { s, state, why = [] } = Astro.props;
+import { mediaUrl, species, speciesNames, WHY_RU, type RowAttrs, type IndexEntry, type State, type Why } from '@lib/data';
+/** fa: FilterBar attributes of the row (lib/data listFacets().attrs), with `state` */
+interface Props { s: IndexEntry; state?: State; why?: Why[]; fa?: RowAttrs }
+const { s, state, why = [], fa = {} } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const nm = speciesNames(s);
 const p = s.photo ? species(s.id).photos[0] : null;
 const lb = p && JSON.stringify({ alt: [nm.main, nm.alt].filter(Boolean).join(' · '), photo: { sizes: p.sizes, author: p.author, license: p.license, license_url: p.license_url, source_url: p.source_url } });
 const href = `${base}species/${s.id}/`;
 ---
-<div class="row" data-st={state} data-int={state && why.length ? '' : undefined} data-nend={state && (s.endemic || s.near_endemic) ? '' : undefined} data-end={state && s.endemic ? '' : undefined}>
+<div class="row" data-st={state} data-int={state && why.length ? '' : undefined} data-nend={state && (s.endemic || s.near_endemic) ? '' : undefined} data-end={state && s.endemic ? '' : undefined} {...fa}>
   {p ? (
     <button type="button" class="thumb-btn" data-lb={lb} aria-label={`Фото: ${nm.main}, на весь экран`}>
       <img class="thumb" src={mediaUrl(s.photo!)} alt="" loading="lazy" />
@@ -24,8 +25,8 @@ const href = `${base}species/${s.id}/`;
     <a href={href} class="thumb empty" aria-hidden="true" tabindex="-1">🐦</a>
   )}
   <a class="txt" href={href}>
-    <div>{why.length > 0 && !s.endemic && !s.near_endemic && <b class="star" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★ </b>}<strong>{nm.main}</strong></div>
-    <div class="muted">{nm.alt && <>{nm.alt} · </>}<span class="sci">{s.sci}</span></div>
+    <div>{why.length > 0 && !s.endemic && !s.near_endemic && <b class="star" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★ </b>}<strong data-n>{nm.main}</strong></div>
+    <div class="muted" data-n>{nm.alt && <>{nm.alt} · </>}<span class="sci">{s.sci}</span></div>
     <div class="meta">
       {state && <StateWord state={state} />}
       {s.endemic && <EndemicMark kind="end" />}

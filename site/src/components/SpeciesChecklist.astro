@@ -1,15 +1,16 @@
 ---
 /**
  * Species of a place grouped by family in taxonomic order, following the site-wide filter
- * (wrap in FilterScope and mount ListFilter above). Rows carry data-st / data-int / data-nend / data-end; families are data-lf-group
+ * (wrap in FilterScope and mount ScopeFilter above). Rows carry data-st / data-int / data-nend / data-end; families are data-lf-group
  * with live counts. Long lists (>= collapseFrom) render every family as a closed <details>.
  */
 import StateWord from './StateWord.astro';
 import EndemicMark from './EndemicMark.svelte';
 import { families, speciesIndex, speciesNames, mediaUrl, IUCN_RU, WHY_RU, plural, type IndexEntry, type State, type Why } from '@lib/data';
 export interface Item { id: string; n: number; state: State; why: Why[] }
-interface Props { items: Item[]; collapseFrom?: number }
-const { items, collapseFrom = 300 } = Astro.props;
+/** fa: FilterBar row attributes (lib/data listFacets().attrs) */
+interface Props { items: Item[]; collapseFrom?: number; fa: (s: IndexEntry) => Record<string, string | undefined> }
+const { items, collapseFrom = 300, fa } = Astro.props;
 const idx = new Map(speciesIndex().map((s) => [s.id, s]));
 const fams = new Map(families().map((f) => [f.code, f]));
 const rows = items.map((it) => ({ ...it, s: idx.get(it.id)! })).filter((r) => r.s).map((r) => ({ ...r, nm: speciesNames(r.s) }))
@@ -36,11 +37,11 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
             <span class="cnt"><span data-lf-gcount>{g.rows.length}</span><b class="hl" data-lf-gint hidden></b></span>
           </summary>
           {g.rows.map((r) => (
-            <a class="row sp" href={`${base}species/${r.s.id}/`} data-st={r.state} data-int={r.why.length ? '' : undefined} data-nend={r.s.endemic || r.s.near_endemic ? '' : undefined} data-end={r.s.endemic ? '' : undefined}>
+            <a class="row sp" href={`${base}species/${r.s.id}/`} data-st={r.state} data-int={r.why.length ? '' : undefined} data-nend={r.s.endemic || r.s.near_endemic ? '' : undefined} data-end={r.s.endemic ? '' : undefined} {...fa(r.s)}>
               {r.s.photo ? <img class="thumb" src={mediaUrl(r.s.photo)} alt="" loading="lazy" width="48" height="48" /> : <span class="thumb empty" aria-hidden="true"></span>}
               <span class="txt">
-                <span class="l1">{r.why.length > 0 && !r.s.endemic && !r.s.near_endemic && <b class="star" title={`интересная: ${r.why.map((w) => WHY_RU[w]).join(', ')}`}>★</b>}<strong>{r.nm.main}</strong></span>
-                <span class="l2 muted">{r.nm.alt && <>{r.nm.alt} · </>}<span class="sci">{r.s.sci}</span></span>
+                <span class="l1">{r.why.length > 0 && !r.s.endemic && !r.s.near_endemic && <b class="star" title={`интересная: ${r.why.map((w) => WHY_RU[w]).join(', ')}`}>★</b>}<strong data-n>{r.nm.main}</strong></span>
+                <span class="l2 muted" data-n>{r.nm.alt && <>{r.nm.alt} · </>}<span class="sci">{r.s.sci}</span></span>
                 <span class="tags">
                   <StateWord state={r.state} title={recs(r.n)} />
                   {r.s.endemic && <EndemicMark kind="end" />}

@@ -1,15 +1,27 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SpeciesList from '../../components/SpeciesList.svelte';
-import { speciesIndex, families, routeState, whyInteresting } from '@lib/data';
+import { speciesIndex, sites, routeState, whyInteresting, enAltName, sitesListing, facetOptions } from '@lib/data';
+import { speciesCards } from '@lib/content';
+import { traitOpts, traitToken } from '@lib/traits';
 // No place context: state = best across the route's sites, «интересная» over the whole route.
-const items = speciesIndex().map((s) => ({
+// si: space-separated indices into `sites` (all sites, route ones first) that list the species, for FilterBar «Место».
+// trs: each species' traits as a row token (lib/traits traitToken; empty without a card), space-separated in item
+// order: one string prop instead of a field per item, which Astro would serialise and escape item by item.
+const allSites = sites().map((s) => s.id);
+const cards = speciesCards();
+const raw = speciesIndex().map((s) => ({ s, at: sitesListing(s.id, allSites) }));
+const facets = facetOptions(raw.map((r) => ({ family: r.s.family, sites: r.at })), allSites);
+const siteIdx = new Map(facets.sites.map((x, i) => [x.id, i]));
+const items = raw.map(({ s, at }) => ({
   id: s.id, sci: s.sci, en: s.en, ru: s.ru, family: s.family, endemic: s.endemic, near: s.near_endemic, elev: s.elev, photo: s.photo,
   state: routeState(s.id), int: whyInteresting(s.id).length > 0,
+  // omitted when empty: Astro serialises every island prop value verbosely
+  ...(enAltName(s.id) ? { ea: enAltName(s.id)! } : {}), ...(at.length ? { si: at.map((id) => siteIdx.get(id)!).join(' ') } : {}),
 }));
-const fams = Object.fromEntries(families().map((f) => [f.code, f.names.ru ?? f.names.en]));
+const trs = raw.map(({ s }) => (cards.has(s.id) ? traitToken(cards.get(s.id)!.traits) : '')).join(' ');
 ---
 <Base title="Все виды">
   <h1>Все виды</h1>
-  <SpeciesList client:load items={items} families={fams} base={import.meta.env.BASE_URL} mediaBase={import.meta.env.PUBLIC_MEDIA_BASE_URL ?? 'https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev'} />
+  <SpeciesList client:load items={items} fams={facets.fams} sites={facets.sites} traits={traitOpts()} trs={trs} base={import.meta.env.BASE_URL} mediaBase={import.meta.env.PUBLIC_MEDIA_BASE_URL ?? 'https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev'} />
 </Base>

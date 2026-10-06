@@ -2,18 +2,18 @@
 /**
  * Day page = a short study page for the evening before: facts, the day's sites, and «Виды дня»
  * (data/study_lists.json: every species of the day's sites with state + «интересная»), grouped by bird group,
- * filtered by the site-wide ListFilter. No study list -> no species section.
+ * filtered by the shared FilterBar (ScopeFilter.svelte). No study list -> no species section.
  */
 import Base from '../../layouts/Base.astro';
 import SiteCard from '../../components/SiteCard.astro';
 import WeatherDay from '../../components/WeatherDay.astro';
 import StudyTile from '../../components/StudyTile.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
-import ListFilter from '../../components/ListFilter.svelte';
+import ScopeFilter from '../../components/ScopeFilter.svelte';
 import EndemicMark from '../../components/EndemicMark.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import {
-  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, fmtDateRu, dayLabel, plural, MEDIA_BASE,
+  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, sitesListing, listFacets, fmtDateRu, dayLabel, plural, MEDIA_BASE,
   type Day, type IndexEntry, type StudyEntry,
 } from '@lib/data';
 export function getStaticPaths() {
@@ -32,12 +32,14 @@ const study = studyList(day.date);
 // all species of the day, grouped by bird group (groups.json order); inside a group the pipeline order
 // (interesting first, then sure > maybe > unlikely, then autumn frequency)
 const list = study?.species ?? [];
-const byGroup = new Map<string, { f: StudyEntry; s: IndexEntry }[]>();
+const studySites = study?.sites.length ? study.sites : day.sites;
+const byGroup = new Map<string, { f: StudyEntry; s: IndexEntry; at: string[] }[]>();
 for (const f of list) {
   const s = idx.get(f.id)!;
   const g = groupOfFamily(s.family)?.id ?? '';
-  (byGroup.get(g) ?? byGroup.set(g, []).get(g)!).push({ f, s });
+  (byGroup.get(g) ?? byGroup.set(g, []).get(g)!).push({ f, s, at: sitesListing(s.id, studySites) });
 }
+const facets = listFacets([...byGroup.values()].flat().map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), studySites);
 const dayGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id: '', name: 'Прочие' }]
   .map((g) => ({ ...g, rows: byGroup.get(g.id) ?? [] }))
   .filter((g) => g.rows.length);
@@ -46,7 +48,7 @@ const dc = defaultCounts(list);
 const nVis = dc.sure + dc.maybe;
 const allNew = list.every((x) => x.new_for_route);
 const ss = siteSpecies();
-const radii = [...new Set((study?.sites.length ? study.sites : day.sites).map((id) => ss[id]?.radius_km).filter(Boolean))];
+const radii = [...new Set(studySites.map((id) => ss[id]?.radius_km).filter(Boolean))];
 const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
 ---
 <Base title={`${fmtDateRu(day.date, false)}: ${day.title_ru}`} description={`${dayLabel(day)}: ${day.title_ru}. Виды дня: кого увидим точно, кого возможно, кто интересен.`}>
@@ -65,15 +67,15 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
 
   {study && dayGroups.length > 0 && (
     <section>
-      <FilterScope>
+      <FilterScope ctx={facets.ctx}>
         <h2 class="vh">Виды дня <span class="cnt muted" data-lf-summary>{nVis} {plural(nVis, 'вид', 'вида', 'видов')}{dc.interesting > 0 && ` · ${dc.interesting} ${plural(dc.interesting, 'интересный', 'интересных', 'интересных')}`}</span></h2>
         {!allNew && <p class="muted newl" data-lf-new></p>}
-        <ListFilter client:load />
+        <ScopeFilter client:load fams={facets.fams} sites={facets.sites} total={list.length} />
         {dayGroups.map((g) => (
           <div data-lf-group>
             <h3 class="grp">{g.name}</h3>
             <div class="tiles">
-              {g.rows.map(({ f, s }) => <StudyTile s={s} state={f.state} why={f.why} isNew={f.new_for_route} />)}
+              {g.rows.map(({ f, s, at }) => <StudyTile s={s} state={f.state} why={f.why} isNew={f.new_for_route} fa={facets.attrs(s, at, { alt: true })} />)}
             </div>
           </div>
         ))}

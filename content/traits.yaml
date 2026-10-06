@@ -1,5 +1,5 @@
 # Closed vocabulary for `traits` in content/species/<slug>.md (see content/README.md).
-# The site reads this file at build time: chip groups of the identifier (/identify/) and validation of every card
+# The site reads this file at build time: chip groups of «Признаки» in the species-list filter (FilterBar) and validation of every card
 # (site/src/lib/traits.ts). A value not listed here fails `npm run build`. Adding a value = editing this file on purpose.
 #
 # Per group: label (ru/en), min/max = how many values a card may have (max 1 → a single string in the card),
@@ -10,7 +10,7 @@
 #   Keys unchanged; new values are optional, so existing cards still build.
 #   * size: max 1 → 2. A card may carry two ADJACENT classes when the published length range crosses a class boundary
 #     (72 of 327 measured non-hummingbird cards do, e.g. 16–18 cm) or when a long tail makes up half the length
-#     (Asthenes fuliginosa, motmots). The identifier ORs chips within a group, so the bird is found from either guess.
+#     (Asthenes fuliginosa, motmots). The filter ORs chips within a group, so the bird is found from either guess.
 #   * size.hummingbird relabelled «колибри и крошки»: the chip read as "hummingbirds only", while piculets and
 #     tody-flycatchers of 9–10 cm sit in it. Boundary made explicit: shorter than 10 cm; exactly 10 cm is sparrow.
 #   * marks: + cap, wing_patch, bright_bill (max 17 → 20). 87 cards had `marks: []`; most of them are tanagers,
