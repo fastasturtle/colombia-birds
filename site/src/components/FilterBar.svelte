@@ -5,7 +5,7 @@
    * active filters. Expanded (remembered in localStorage `cb.filter.open`): the site-wide ListFilter (likelihood, tag),
    * families and sites as facet chips with counts (lib/facets.ts), elevation where `elev` is set, and «Признаки» (its
    * own fold, `cb.filter.traits`): trait groups of content/traits.yaml, OR within a group, AND across groups.
-   * `?panel=traits` in the URL (the «Определить» nav item, the old /identify/ page) opens the panel and «Признаки» for
+   * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» for
    * this visit and scrolls «Признаки» into view (`?panel=1`: the panel only); nothing is saved, and the flag is dropped
    * from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
