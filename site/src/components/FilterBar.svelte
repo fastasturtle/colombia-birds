@@ -3,14 +3,14 @@
    * The one filter control of every species list (/species/, day, site and family pages).
    * Collapsed: search + «Фильтры» (badge = active non-default filters) + «показано N из M» + removable chips of the
    * active filters. Expanded (remembered in localStorage `cb.filter.open`): the site-wide ListFilter (likelihood, tag),
-   * families as facet chips with counts (lib/facets.ts), sites as a dropdown of checkboxes with the same counts
-   * (PlacePicker.svelte), elevation where `elev` is set, and «Признаки» (its
+   * families and sites as dropdowns of checkboxes with facet counts (FacetPicker.svelte, lib/facets.ts; side by side
+   * on wide screens, one open at a time), elevation where `elev` is set, and «Признаки» (its
    * own fold, `cb.filter.traits`): trait groups of content/traits.yaml, OR within a group, AND across groups.
    * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» for
    * this visit and scrolls «Признаки» into view (`?panel=1`: the panel only); nothing is saved, and the flag is dropped
    * from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
-   * Long chip groups (> FOLD_FROM chips; PlacePicker orders its rows the same way) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
+   * Long chip groups (> FOLD_FROM chips; FacetPicker orders its rows the same way) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
    * the rest. State: level + tag in the global `filter` store; search, families, sites, elevation, traits in `u`
    * (bound; the parent keeps it in the URL and applies it).
    * Rows: one descriptor per list row (lib/filter Row); null while the parent is still reading them.
@@ -18,8 +18,8 @@
   import { onMount } from 'svelte';
   import ListFilter from './ListFilter.svelte';
   import FacetChip from './FacetChip.svelte';
-  import PlacePicker from './PlacePicker.svelte';
-  import { filter, normQ, rowPasses, trCount, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
+  import FacetPicker, { type PickOpt } from './FacetPicker.svelte';
+  import { filter, rowPasses, trCount, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   import { listCounts, rowFacets, noTraitsHidden, trGroup, plural } from '../lib/facets';
 
   interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean }
@@ -105,30 +105,23 @@
     u.q = ''; u.fam = []; u.site = []; u.elev = null; u.tr = {};
   };
 
-  let famQ = $state('');
-  const FAM_SEARCH_FROM = 15;
-  let famsShown = $derived.by(() => {
-    const t = normQ(famQ.trim());
-    if (!t) return fams;
-    return fams.filter((f) => u.fam.includes(f.code) || [f.ru, f.en, f.sci].some((x) => x && normQ(x).includes(t)));
-  });
-
   /* Fold of long chip groups: chips with a count (and selected ones) first, in their order; «ещё N» shows the rest. */
   const FOLD_FROM = 12;
   type Opt = { key: string; label: string; sub?: string | null; hint?: string | null };
   let unfolded = $state<Record<string, boolean>>({});
-  function split(g: string, opts: Opt[], sel: string[], fold: boolean): { main: Opt[]; rest: Opt[] } {
+  function split(g: string, opts: Opt[], sel: string[]): { main: Opt[]; rest: Opt[] } {
     const c = counts[g];
-    if (!fold || !rows || !c || opts.length <= FOLD_FROM) return { main: opts, rest: [] };
+    if (!rows || !c || opts.length <= FOLD_FROM) return { main: opts, rest: [] };
     const main: Opt[] = [], rest: Opt[] = [];
     for (const o of opts) (sel.includes(o.key) || (c[o.key] ?? 0) > 0 ? main : rest).push(o);
     return { main, rest };
   }
-  let famOpts = $derived(famsShown.map((f) => ({ key: f.code, label: famName(f), sub: f.sci, hint: f.ru && f.en ? `${f.en} · ${f.sci}` : f.sci })));
+  let famOpts = $derived<PickOpt[]>(fams.map((f) => ({ key: f.code, label: famName(f), sub: f.sci, hint: f.ru && f.en ? `${f.en} · ${f.sci}` : f.sci, terms: [f.ru, f.en] })));
+  let siteOpts = $derived<PickOpt[]>(sites.map((s) => ({ key: s.id, label: s.name })));
 </script>
 
-{#snippet chipGroup(g: string, opts: Opt[], sel: string[], onpick: (v: string) => void, fold: boolean)}
-  {@const sp = split(g, opts, sel, fold)}
+{#snippet chipGroup(g: string, opts: Opt[], sel: string[], onpick: (v: string) => void)}
+  {@const sp = split(g, opts, sel)}
   {#each [...sp.main, ...(unfolded[g] ? sp.rest : [])] as o (o.key)}
     <FacetChip label={o.label} sub={o.sub} hint={o.hint} on={sel.includes(o.key)} n={rows ? (counts[g]?.[o.key] ?? 0) : null}
       delta={sel.length > 0} onclick={() => onpick(o.key)} />
@@ -157,24 +150,29 @@
   {#if open}
     <div class="panel" id={`fb-panel-${uid}`}>
       <ListFilter />
-      {#if fams.length > 1}
-        <fieldset class="grp">
-          <legend>Семейство{#if u.fam.length}<span class="n">{" · "}{u.fam.length}</span>{/if}</legend>
-          {#if fams.length > FAM_SEARCH_FROM}
-            <input type="search" class="fq" bind:value={famQ} placeholder={`Найти среди ${fams.length} семейств`} aria-label="Найти семейство" autocomplete="off" />
+      {#if fams.length > 1 || sites.length > 1}
+        <div class="picks">
+          {#if fams.length > 1}
+            <fieldset class="grp">
+              <legend>Семейство{#if u.fam.length}<span class="n">{" · "}{u.fam.length}</span>{/if}</legend>
+              <FacetPicker name="Выбор семейств" options={famOpts} sel={u.fam} counts={rows ? (counts.fam ?? {}) : null} fold={FOLD_FROM}
+                allLabel="Все семейства" forms={['семейство', 'семейства', 'семейств']}
+                placeholder={`Найти среди ${fams.length} ${plural(fams.length, 'семейства', 'семейств', 'семейств')}`}
+                searchLabel="Найти семейство: русское, латинское или английское название" noneText="Нет такого семейства"
+                onpick={(v) => toggle('fam', v)} onclear={() => (u.fam = [])} />
+            </fieldset>
           {/if}
-          <div class="chips">
-            {@render chipGroup('fam', famOpts, u.fam, (v) => toggle('fam', v), !famQ.trim())}
-            {#if famsShown.length === 0}<span class="muted none">Нет такого семейства</span>{/if}
-          </div>
-        </fieldset>
-      {/if}
-      {#if sites.length > 1}
-        <fieldset class="grp">
-          <legend>Место{#if u.site.length}<span class="n">{" · "}{u.site.length}</span>{/if}</legend>
-          <PlacePicker {sites} sel={u.site} counts={rows ? (counts.site ?? {}) : null} fold={FOLD_FROM}
-            onpick={(v) => toggle('site', v)} onclear={() => (u.site = [])} />
-        </fieldset>
+          {#if sites.length > 1}
+            <fieldset class="grp">
+              <legend>Место{#if u.site.length}<span class="n">{" · "}{u.site.length}</span>{/if}</legend>
+              <FacetPicker name="Выбор мест" options={siteOpts} sel={u.site} counts={rows ? (counts.site ?? {}) : null} fold={FOLD_FROM}
+                allLabel="Все места" forms={['место', 'места', 'мест']}
+                placeholder={`Найти среди ${sites.length} ${plural(sites.length, 'места', 'мест', 'мест')}`}
+                searchLabel="Найти место" noneText="Нет такого места"
+                onpick={(v) => toggle('site', v)} onclear={() => (u.site = [])} />
+            </fieldset>
+          {/if}
+        </div>
       {/if}
       {#if elev}
         <label class="elev">Встречается на высоте <input type="number" min="0" max="5000" step="100" placeholder="напр. 2000" bind:value={u.elev} /> м</label>
@@ -192,7 +190,7 @@
                 <fieldset class="grp">
                   <legend>{g.label}{#if u.tr[g.key]?.length}<span class="n">{" · "}{u.tr[g.key].length}</span>{/if}</legend>
                   <div class="chips">
-                    {@render chipGroup(trGroup(g.key), g.values, u.tr[g.key] ?? [], (v) => toggleTr(g.key, v), true)}
+                    {@render chipGroup(trGroup(g.key), g.values, u.tr[g.key] ?? [], (v) => toggleTr(g.key, v))}
                   </div>
                 </fieldset>
               {/each}
@@ -236,8 +234,8 @@
   .n { color: var(--accent); }
   .chips { display: flex; flex-wrap: wrap; gap: 5px; }
   .more { min-height: 40px; padding: 0 10px; border: 0; background: none; color: var(--accent); font: inherit; font-size: .82rem; cursor: pointer; text-decoration: underline; }
-  .fq { width: 100%; max-width: 320px; min-height: 36px; margin-bottom: 6px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); font: inherit; font-size: .9rem; }
-  .none { font-size: .85rem; padding: 8px 0; }
+  /* «Семейство» and «Место» side by side where two 260px columns fit, stacked on phones */
+  .picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 360px)); gap: 0 12px; }
   .elev { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .9rem; margin: 0 0 10px; }
   .elev input { width: 110px; min-height: 36px; padding: 0 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); font: inherit; }
   .trs { border-top: 1px solid var(--line); margin: 0 0 6px; padding-top: 4px; }

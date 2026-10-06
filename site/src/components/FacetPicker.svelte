@@ -1,18 +1,38 @@
+<script lang="ts" module>
+  /** label: row text, and the button text when it is the only one checked; sub: shown after it in italics (latin
+   * name); hint: tooltip prefix; terms: extra search strings */
+  export interface PickOpt { key: string; label: string; sub?: string | null; hint?: string | null; terms?: (string | null | undefined)[] }
+  /** the close function of the picker that is open now: opening another one closes it (one dropdown at a time) */
+  let closeOpen: (() => void) | null = null;
+</script>
+
 <script lang="ts">
   /**
-   * «Место» of FilterBar: a button with the current selection («Все места» / «Чикаке» / «3 места») that opens a
-   * dropdown with a search box and one checkbox row per site (OR between the checked ones). Counts as on the facet
-   * chips (lib/facets.ts): absolute, or «+N» once something is checked (species the row would add); zero rows dimmed.
-   * Order as the chips had: when the list is long (> fold), rows with a count (and checked ones) first, then the rest.
-   * Closes on outside click, Escape (focus back to the button) and Tab out; opening focuses the search, ↓ / ↑ move
-   * between the search and the rows, Enter or Space toggles a row.
+   * Searchable checkbox dropdown of a FilterBar facet («Семейство», «Место»): a button with the current selection
+   * («Все места» / «Чикаке» / «3 места») that opens a dropdown with a search box and one checkbox row per option
+   * (OR between the checked ones). Counts as lib/facets.ts gives them: absolute, or «+N» once something is checked
+   * (species the row would add); zero rows dimmed. Options come in their given order (taxonomic for families, route
+   * for sites); when the list is long (> fold), rows with a count (and checked ones) first, then the rest.
+   * Search: the option's label, sub and terms, ignoring case, ё/е and accents.
+   * Closes on outside click, Escape (focus back to the button), Tab out and when another picker opens; opening focuses
+   * the search, ↓ / ↑ move between the search and the rows, Enter or Space toggles a row.
    */
   import { onMount } from 'svelte';
-  import { normQ, type SiteOpt } from '../lib/filter';
+  import { normQ } from '../lib/filter';
   import { plural } from '../lib/facets';
 
-  interface Props { sites: SiteOpt[]; sel: string[]; counts: Record<string, number> | null; fold: number; onpick: (id: string) => void; onclear: () => void }
-  const { sites, sel, counts, fold, onpick, onclear }: Props = $props();
+  interface Props {
+    /** group name for screen readers («Выбор мест») */
+    name: string;
+    options: PickOpt[]; sel: string[]; counts: Record<string, number> | null; fold: number;
+    /** button text with nothing checked («Все места») */
+    allLabel: string;
+    /** noun after a number of checked options: 1 / 2–4 / 5+ («место», «места», «мест») */
+    forms: [string, string, string];
+    placeholder: string; searchLabel: string; noneText: string;
+    onpick: (key: string) => void; onclear: () => void;
+  }
+  const { name, options, sel, counts, fold, allLabel, forms, placeholder, searchLabel, noneText, onpick, onclear }: Props = $props();
 
   const uid = Math.random().toString(36).slice(2, 8);
   let open = $state(false);
@@ -22,32 +42,41 @@
   let qEl = $state<HTMLInputElement | null>(null);
   let listEl = $state<HTMLElement | null>(null);
 
-  const nameOf = $derived(new Map(sites.map((s) => [s.id, s.name])));
-  let label = $derived(sel.length === 0 ? 'Все места' : sel.length === 1 ? (nameOf.get(sel[0]) ?? sel[0]) : `${sel.length} ${plural(sel.length, 'место', 'места', 'мест')}`);
+  const labelOf = $derived(new Map(options.map((o) => [o.key, o.label])));
+  let label = $derived(sel.length === 0 ? allLabel : sel.length === 1 ? (labelOf.get(sel[0]) ?? sel[0]) : `${sel.length} ${plural(sel.length, ...forms)}`);
   /** lower case, ё -> е, no accents (Spanish names) */
   const key = (s: string) => normQ(s).normalize('NFD').replace(/\p{M}/gu, '');
+  const keys = $derived(new Map(options.map((o) => [o.key, [o.label, o.sub, ...(o.terms ?? [])].filter((x): x is string => !!x).map(key)])));
   let ordered = $derived.by(() => {
-    if (!counts || sites.length <= fold) return sites;
-    const main: SiteOpt[] = [], rest: SiteOpt[] = [];
-    for (const s of sites) (sel.includes(s.id) || (counts[s.id] ?? 0) > 0 ? main : rest).push(s);
+    if (!counts || options.length <= fold) return options;
+    const main: PickOpt[] = [], rest: PickOpt[] = [];
+    for (const o of options) (sel.includes(o.key) || (counts[o.key] ?? 0) > 0 ? main : rest).push(o);
     return [...main, ...rest];
   });
   let shown = $derived.by(() => {
     const t = key(q.trim());
-    return t ? ordered.filter((s) => key(s.name).includes(t)) : ordered;
+    return t ? ordered.filter((o) => keys.get(o.key)?.some((k) => k.includes(t))) : ordered;
   });
   const delta = $derived(sel.length > 0);
   const how = (n: number) => `${delta ? 'добавит' : plural(n, 'подойдёт', 'подойдут', 'подойдут')} ${n} ${plural(n, 'вид', 'вида', 'видов')}`;
+  const cap = (s: string) => s[0].toUpperCase() + s.slice(1);
 
+  const close = () => { open = false; };
   function setOpen(v: boolean, refocus = false) {
     open = v;
-    if (v) { q = ''; queueMicrotask(() => qEl?.focus()); }
-    else if (refocus) btn?.focus();
+    if (v) {
+      if (closeOpen && closeOpen !== close) closeOpen();
+      closeOpen = close;
+      q = ''; queueMicrotask(() => qEl?.focus());
+    } else {
+      if (closeOpen === close) closeOpen = null;
+      if (refocus) btn?.focus();
+    }
   }
   onMount(() => {
     const down = (e: PointerEvent) => { if (open && root && !root.contains(e.target as Node)) setOpen(false); };
     document.addEventListener('pointerdown', down);
-    return () => document.removeEventListener('pointerdown', down);
+    return () => { document.removeEventListener('pointerdown', down); if (closeOpen === close) closeOpen = null; };
   });
   const boxes = () => Array.from(listEl?.querySelectorAll<HTMLInputElement>('input[type="checkbox"]') ?? []);
   function onKey(e: KeyboardEvent) {
@@ -61,12 +90,12 @@
     else if (i <= 0) qEl?.focus();
     else bs[i - 1].focus();
   }
-  function onRowKey(e: KeyboardEvent, id: string) {
-    if (e.key === 'Enter') { e.preventDefault(); onpick(id); }
+  function onRowKey(e: KeyboardEvent, k: string) {
+    if (e.key === 'Enter') { e.preventDefault(); onpick(k); }
   }
   function onQKey(e: KeyboardEvent) {
     // Enter in the search: with one match, toggle it
-    if (e.key === 'Enter') { e.preventDefault(); if (shown.length === 1) onpick(shown[0].id); }
+    if (e.key === 'Enter') { e.preventDefault(); if (shown.length === 1) onpick(shown[0].key); }
   }
   function onFocusOut(e: FocusEvent) {
     const to = e.relatedTarget as Node | null;
@@ -81,25 +110,26 @@
     <span class="pl">{label}</span><span class="car" aria-hidden="true">▾</span>
   </button>
   {#if open}
-    <div class="dd" id={`pp-${uid}`} role="group" aria-label="Выбор мест">
+    <div class="dd" id={`pp-${uid}`} role="group" aria-label={name}>
       <div class="pp-top">
         <input type="search" class="ppq" bind:this={qEl} bind:value={q} onkeydown={onQKey}
-          placeholder={`Найти среди ${sites.length} ${plural(sites.length, 'места', 'мест', 'мест')}`} aria-label="Найти место" autocomplete="off" />
+          {placeholder} aria-label={searchLabel} autocomplete="off" />
       </div>
       <ul class="pp-list" bind:this={listEl}>
-        {#each shown as s (s.id)}
-          {@const on = sel.includes(s.id)}
-          {@const n = counts ? (counts[s.id] ?? 0) : null}
+        {#each shown as o (o.key)}
+          {@const on = sel.includes(o.key)}
+          {@const n = counts ? (counts[o.key] ?? 0) : null}
+          {@const tip = [o.hint, n != null && !on ? cap(how(n)) : null].filter(Boolean).join('. ')}
           <li>
-            <label class="pp-row" class:zero={n === 0 && !on} title={n != null && !on ? how(n)[0].toUpperCase() + how(n).slice(1) : undefined}>
-              <input type="checkbox" checked={on} onchange={() => onpick(s.id)} onkeydown={(e) => onRowKey(e, s.id)}
-                aria-label={n != null && !on ? `${s.name}: ${how(n)}` : s.name} />
-              <span class="pp-nm">{s.name}</span>
+            <label class="pp-row" class:zero={n === 0 && !on} title={tip || undefined}>
+              <input type="checkbox" checked={on} onchange={() => onpick(o.key)} onkeydown={(e) => onRowKey(e, o.key)}
+                aria-label={n != null && !on ? `${o.label}: ${how(n)}` : o.label} />
+              <span class="pp-nm">{o.label}{#if o.sub}<span class="pp-sub">{o.sub}</span>{/if}</span>
               {#if n != null && !on}<span class="pp-cnt" aria-hidden="true">{delta ? `+${n}` : n}</span>{/if}
             </label>
           </li>
         {/each}
-        {#if shown.length === 0}<li class="pp-none">Нет такого места</li>{/if}
+        {#if shown.length === 0}<li class="pp-none">{noneText}</li>{/if}
       </ul>
       <div class="pp-foot">
         {#if sel.length}<button type="button" class="pp-lnk" onclick={() => { onclear(); qEl?.focus(); }}>Снять все</button>{/if}
@@ -110,7 +140,7 @@
 </div>
 
 <style>
-  .pp { position: relative; max-width: 360px; }
+  .pp { position: relative; min-width: 0; }
   .pb {
     display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; min-height: 40px; padding: 0 12px;
     border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); font: inherit; font-size: .9rem;
@@ -133,6 +163,7 @@
   .pp-row:hover, .pp-row:focus-within { background: var(--chip); }
   .pp-row input { flex: none; width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
   .pp-nm { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pp-sub { margin-left: 6px; font-style: italic; color: var(--muted); font-size: .78rem; }
   .pp-cnt { flex: none; font-size: .75rem; line-height: 1; padding: 2px 6px; border-radius: 999px; background: var(--chip); color: var(--muted); font-variant-numeric: tabular-nums; }
   .pp-row:hover .pp-cnt, .pp-row:focus-within .pp-cnt { background: var(--bg); }
   .pp-row.zero { color: var(--muted); }
