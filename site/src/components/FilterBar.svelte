@@ -127,7 +127,7 @@
     return { main, rest };
   }
   let famOpts = $derived<PickOpt[]>(fams.map((f) => ({ key: f.code, label: famName(f), sub: f.sci, hint: f.ru && f.en ? `${f.en} · ${f.sci}` : f.sci, terms: [f.ru, f.en] })));
-  let siteOpts = $derived<PickOpt[]>(sites.map((s) => ({ key: s.id, label: s.name })));
+  let siteOpts = $derived<PickOpt[]>(sites.map((s) => ({ key: s.id, label: s.name, sub: s.days, plain: true })));
 </script>
 
 {#snippet chipGroup(g: string, opts: Opt[], sel: string[], onpick: (v: string) => void)}

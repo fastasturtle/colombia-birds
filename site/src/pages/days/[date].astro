@@ -39,7 +39,7 @@ for (const f of list) {
   const g = groupOfFamily(s.family)?.id ?? '';
   (byGroup.get(g) ?? byGroup.set(g, []).get(g)!).push({ f, s, at: sitesListing(s.id, studySites) });
 }
-const facets = listFacets([...byGroup.values()].flat().map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), studySites);
+const facets = listFacets([...byGroup.values()].flat().map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), studySites, day.date);
 const dayGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id: '', name: 'Прочие' }]
   .map((g) => ({ ...g, rows: byGroup.get(g.id) ?? [] }))
   .filter((g) => g.rows.length);

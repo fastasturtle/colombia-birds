@@ -129,7 +129,8 @@ export interface Row { st: string; int: boolean; nend: boolean; end: boolean; fa
 
 /** FilterBar facet options (lib/data facetOptions). */
 export interface FamOpt { code: string; ru: string | null; en: string | null; sci: string }
-export interface SiteOpt { id: string; name: string }
+/** days: route days in short form («3 окт, 23–24 окт»), absent for a site off the itinerary */
+export interface SiteOpt { id: string; name: string; days?: string }
 
 /** Lower case, ё -> е: both the indexed names and the typed query go through it. */
 export const normQ = (s: string) => s.toLowerCase().replace(/ё/g, 'е');

@@ -332,13 +332,18 @@ export function enAltName(spId: string): string | null {
  * Facet options of a list for FilterBar: the families present (taxonomic order) and the sites present (given order).
  * rows: family code and the row's site ids (sitesListing).
  */
-export function facetOptions(rows: { family: string; sites: string[] }[], siteOrder: string[]) {
+/** Site options carry `days`, the site's route days in short form (siteDaysShort; omitted when empty), shown muted
+ * after the name in the «Место» picker; pageDate (day pages) drops it for a site visited only on that date. */
+export function facetOptions(rows: { family: string; sites: string[] }[], siteOrder: string[], pageDate?: string) {
   const famSet = new Set(rows.map((r) => r.family));
   const siteSet = new Set(rows.flatMap((r) => r.sites));
   const siteOf = sitesById();
   return {
     fams: families().filter((f) => famSet.has(f.code)).map((f) => ({ code: f.code, ru: f.names.ru ?? null, en: f.names.en ?? null, sci: f.sci })),
-    sites: siteOrder.filter((id) => siteSet.has(id)).map((id) => ({ id, name: siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id })),
+    sites: siteOrder.filter((id) => siteSet.has(id)).map((id) => {
+      const days = siteDaysShort(id, pageDate);
+      return { id, name: siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id, ...(days ? { days } : {}) };
+    }),
   };
 }
 /**
@@ -348,8 +353,8 @@ export function facetOptions(rows: { family: string; sites: string[] }[], siteOr
  * Traits: when a row has a species card, ctx.tv carries the trait vocabulary once (lib/traits traitOpts) and each
  * card row a data-tr token (traitToken, a few characters); rows without a card have no data-tr.
  */
-export function listFacets(rows: { id: string; family: string; sites: string[] }[], siteOrder: string[]) {
-  const { fams, sites: siteOpts } = facetOptions(rows, siteOrder);
+export function listFacets(rows: { id: string; family: string; sites: string[] }[], siteOrder: string[], pageDate?: string) {
+  const { fams, sites: siteOpts } = facetOptions(rows, siteOrder, pageDate);
   const fi = new Map(fams.map((f, i) => [f.code, i]));
   const si = new Map(siteOpts.map((s, i) => [s.id, i]));
   const cards = speciesCards();
