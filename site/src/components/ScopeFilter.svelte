@@ -7,7 +7,7 @@
    */
   import { onMount } from 'svelte';
   import FilterBar from './FilterBar.svelte';
-  import { filter, applyFilterDom, readNarrow, writeNarrow, rowOf, rowPasses, scopeCtx, cleanTr, EMPTY_NARROW, type Narrow, type Row, type ScopeCtx, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
+  import { filter, applyFilterDom, readNarrow, writeNarrow, rowOf, makePass, scopeCtx, cleanTr, EMPTY_NARROW, type Narrow, type Row, type ScopeCtx, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   interface Props { fams: FamOpt[]; sites: SiteOpt[]; total: number }
   const { fams, sites, total }: Props = $props();
 
@@ -18,7 +18,8 @@
   let byEl = new Map<HTMLElement, Row>();
   /** rowOf, cached: the rows do not change after load */
   const rowFor = (x: HTMLElement) => byEl.get(x) ?? rowOf(x, ctx);
-  let rows = $state<Row[] | null>(null);
+  /** raw: the descriptors are read-only, a deep proxy would slow every sweep over them */
+  let rows = $state.raw<Row[] | null>(null);
   let u = $state<Narrow>({ ...EMPTY_NARROW });
   let traits = $state<TraitOpt[]>([]);
 
@@ -36,6 +37,8 @@
     const rs = els.map((x) => rowOf(x, ctx));
     byEl = new Map(els.map((x, i) => [x, rs[i]]));
     rows = rs;
+    // this scope is applied here from now on (lib/filter applyAllScopes skips it)
+    scope.dataset.lfLive = '';
     const r = readNarrow(key);
     // codes not on this page (stale link) would hide everything: drop them
     const fk = new Set(fams.map((f) => f.code)), sk = new Set(sites.map((s) => s.id));
@@ -47,7 +50,7 @@
   $effect(() => {
     if (!rows || !scope) return; // rows first: it is the reactive one
     const snap = $state.snapshot(u) as Narrow;
-    applyFilterDom(scope, $filter, snap, rowFor, rowPasses, ctx);
+    applyFilterDom(scope, $filter, snap, rowFor, makePass, ctx);
     clearTimeout(timer);
     // debounced: Safari throttles replaceState (about 100 calls per 30 s)
     timer = setTimeout(() => writeNarrow(key, snap), 300);

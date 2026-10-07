@@ -19,7 +19,7 @@
    * the search, ↓ / ↑ move between the search and the rows, Enter or Space toggles a row.
    */
   import { onMount } from 'svelte';
-  import { normQ } from '../lib/filter';
+  import { normQ, afterPaint } from '../lib/filter';
   import { plural } from '../lib/facets';
 
   interface Props {
@@ -58,6 +58,9 @@
     const t = key(q.trim());
     return t ? ordered.filter((o) => keys.get(o.key)?.some((k) => k.includes(t))) : ordered;
   });
+  /** rows built when the dropdown opens: the first FIRST (more than fit on screen) at once, the rest in the next frame */
+  const FIRST = 24;
+  let limit = $state(Infinity);
   const delta = $derived(sel.length > 0);
   const how = (n: number) => `${delta ? 'добавит' : plural(n, 'подойдёт', 'подойдут', 'подойдут')} ${n} ${plural(n, 'вид', 'вида', 'видов')}`;
   const cap = (s: string) => s[0].toUpperCase() + s.slice(1);
@@ -69,6 +72,7 @@
       if (closeOpen && closeOpen !== close) closeOpen();
       closeOpen = close;
       q = ''; queueMicrotask(() => qEl?.focus());
+      if (options.length > FIRST) { limit = FIRST; afterPaint(() => { limit = Infinity; }); }
     } else {
       if (closeOpen === close) closeOpen = null;
       if (refocus) btn?.focus();
@@ -117,7 +121,7 @@
           {placeholder} aria-label={searchLabel} autocomplete="off" />
       </div>
       <ul class="pp-list" bind:this={listEl}>
-        {#each shown as o (o.key)}
+        {#each shown.length > limit ? shown.slice(0, limit) : shown as o (o.key)}
           {@const on = sel.includes(o.key)}
           {@const n = counts ? (counts[o.key] ?? 0) : null}
           {@const tip = [o.hint, n != null && !on ? cap(how(n)) : null].filter(Boolean).join('. ')}

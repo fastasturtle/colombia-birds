@@ -8,7 +8,7 @@
  * URL win and overwrite it. Other pages are unaffected (they start at «Все» + «Все»). Until 07.10 one choice for the
  * whole site lived in localStorage (`cb.filter`, then `cb.filter2`); the store removes those stale keys on load.
  * On top of it every list page has its own narrowing (search, families, sites, elevation; FilterBar.svelte), kept in the
- * page URL (readNarrow / writeNarrow). Both go through the one predicate rowPasses() over a plain Row descriptor.
+ * page URL (readNarrow / writeNarrow). Both go through the one predicate makePass() over a plain Row descriptor.
  *
  * Static lists opt in with FilterScope.astro: items carry data-st="sure|maybe|unlikely" (+ data-int when
  * «интересная», data-nend when a Colombian near-endemic or endemic, data-end when an endemic, data-new when new
@@ -16,7 +16,7 @@
  * Эндемики ⊂ Почти-эндемики ⊂ Интересные ⊂ Все; groups carry data-lf-group; counters data-lf-summary /
  * data-lf-gcount / data-lf-new. `applyFilterDom` does the rest; it is also inlined into the page (FilterScope) so the
  * first paint already matches the URL.
- * Svelte lists (SpeciesList.svelte) build Rows from their JSON and call rowPasses() directly.
+ * Svelte lists (SpeciesList.svelte) build Rows from their JSON and call makePass() directly.
  */
 import { writable } from 'svelte/store';
 
@@ -178,78 +178,111 @@ export function scopeCtx(scope: HTMLElement): { f: [string, string][]; s: string
   try { return JSON.parse(scope.dataset.lfCtx || ''); } catch { return { f: [], s: [] }; }
 }
 /**
- * The one predicate: does a row pass the filter f (lv, tag) and the page's narrow state u? Families OR, sites OR,
- * trait values OR within their group (rows without traits fail any trait selection), AND across everything.
- * Self-contained: inlined into pages via toString().
+ * The one predicate, compiled for one state: makePass(f, u)(row) — does a row pass the filter f (lv, tag) and the
+ * page's narrow state u? Families OR, sites OR, trait values OR within their group (rows without traits fail any trait
+ * selection), AND across everything. The state is prepared once (sets, the normalised query, «group:value» keys), so a
+ * sweep over a whole list costs one cheap call per row. Self-contained: inlined into pages via toString().
  */
-export function rowPasses(
-  r: { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null },
+export function makePass(
   f: { level: string; tag: string },
   u: { q: string; fam: string[]; site: string[]; elev: number | null; tr?: Record<string, string[]> },
-): boolean {
-  if (f.tag === 'int' ? !r.int : f.tag === 'near' ? !r.nend : f.tag === 'end' ? !r.end : false) return false;
-  if (!(f.level === 'all' || r.st === 'sure' || (f.level === 'maybe' && r.st === 'maybe'))) return false;
-  if (u.fam.length && !u.fam.includes(r.fam)) return false;
-  if (u.site.length && !r.sites.some((s) => u.site.includes(s))) return false;
-  if (u.elev != null && r.elev && ((r.elev[0] ?? 0) > u.elev || (r.elev[1] ?? 9000) < u.elev)) return false;
-  for (const g in u.tr || {}) {
-    const vs = u.tr![g];
-    if (vs.length && !(r.tr && vs.some((v) => r.tr!.includes(g + ':' + v)))) return false;
-  }
+): (r: { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null }) => boolean {
+  const tag = f.tag, lv = f.level, elev = u.elev;
+  const fam = u.fam.length ? new Set(u.fam) : null, site = u.site.length ? new Set(u.site) : null;
+  const tr: string[][] = [];
+  for (const g in u.tr || {}) { const vs = u.tr![g]; if (vs.length) tr.push(vs.map((v) => g + ':' + v)); }
   const t = u.q.trim().toLowerCase().replace(/ё/g, 'е');
-  return !t || r.q.includes(t);
+  return (r) => {
+    if (tag === 'int' ? !r.int : tag === 'near' ? !r.nend : tag === 'end' ? !r.end : false) return false;
+    if (!(lv === 'all' || r.st === 'sure' || (lv === 'maybe' && r.st === 'maybe'))) return false;
+    if (fam && !fam.has(r.fam)) return false;
+    if (site && !r.sites.some((s) => site.has(s))) return false;
+    if (elev != null && r.elev && ((r.elev[0] ?? 0) > elev || (r.elev[1] ?? 9000) < elev)) return false;
+    for (const ks of tr) if (!(r.tr && ks.some((k) => r.tr!.includes(k)))) return false;
+    return !t || r.q.includes(t);
+  };
 }
 
 /**
  * Apply the filter to one static list (see the header): rows that fail get data-lf-out (hidden by FilterScope's CSS),
  * groups without visible rows are hidden, counters and «ничего не найдено» follow; a search opens the collapsed
- * <details> groups that have hits. Self-contained (helpers come in as arguments): inlined into pages via toString().
+ * <details> groups that have hits. Only what changed is written (attributes, `hidden`, counter texts), so a change
+ * that flips a few rows restyles a few rows; the element lists (rows, groups, counters) are read once and kept on them.
+ * Self-contained (helpers come in as arguments): inlined into pages via toString().
  */
 export function applyFilterDom(
   scope: HTMLElement, f: { level: string; tag: string }, u: { q: string; fam: string[]; site: string[]; elev: number | null; tr: Record<string, string[]> },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  rowOf: (el: HTMLElement, ctx: any) => any, rowPasses: (r: any, f: { level: string; tag: string }, u: any) => boolean, ctx: { f: [string, string][]; s: string[] },
+  rowOf: (el: HTMLElement, ctx: any) => any, makePass: (f: { level: string; tag: string }, u: any) => (r: any) => boolean, ctx: { f: [string, string][]; s: string[] },
 ): void {
   const pl = (n: number, a: string, b: string, c: string) => {
     const m10 = n % 10, m100 = n % 100;
     return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? b : c;
   };
-  scope.dataset.lv = f.level;
-  scope.dataset.tag = f.tag;
-  const items = Array.from(scope.querySelectorAll<HTMLElement>('[data-st]'));
+  const text = (e: Element, s: string) => { if (e.textContent !== s) e.textContent = s; };
+  const hide = (e: HTMLElement, h: boolean) => { if (e.hidden !== h) e.hidden = h; };
+  /** el.querySelectorAll(sel), read once per element and kept on it (the list markup does not change) */
+  const qa = (el: HTMLElement, sel: string): HTMLElement[] => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const c = (el as any)._lfQ || ((el as any)._lfQ = {});
+    return c[sel] || (c[sel] = Array.from(el.querySelectorAll<HTMLElement>(sel)));
+  };
+  if (scope.dataset.lv !== f.level) scope.dataset.lv = f.level;
+  if (scope.dataset.tag !== f.tag) scope.dataset.tag = f.tag;
+  const items = qa(scope, '[data-st]');
+  const pass = makePass(f, u);
   const ok = new Set<HTMLElement>();
   for (const el of items) {
-    if (rowPasses(rowOf(el, ctx), f, u)) { ok.add(el); el.removeAttribute('data-lf-out'); } else el.setAttribute('data-lf-out', '');
+    const p = pass(rowOf(el, ctx));
+    if (p) ok.add(el);
+    if (p === el.hasAttribute('data-lf-out')) el.toggleAttribute('data-lf-out', !p);
   }
   const vis = items.filter((x) => ok.has(x));
   const searching = u.q.trim() !== '';
-  scope.querySelectorAll<HTMLElement>('[data-lf-group]').forEach((g) => {
-    const gv = Array.from(g.querySelectorAll<HTMLElement>('[data-st]')).filter((x) => ok.has(x));
-    g.hidden = gv.length === 0;
-    if (searching && gv.length && g.tagName === 'DETAILS') (g as HTMLDetailsElement).open = true;
-    g.querySelectorAll('[data-lf-gcount]').forEach((c) => (c.textContent = String(gv.length)));
-    g.querySelectorAll<HTMLElement>('[data-lf-gint]').forEach((c) => {
+  for (const g of qa(scope, '[data-lf-group]')) {
+    const gv = qa(g, '[data-st]').filter((x) => ok.has(x));
+    hide(g, gv.length === 0);
+    if (searching && gv.length && g.tagName === 'DETAILS' && !(g as HTMLDetailsElement).open) (g as HTMLDetailsElement).open = true;
+    for (const c of qa(g, '[data-lf-gcount]')) text(c, String(gv.length));
+    for (const c of qa(g, '[data-lf-gint]')) {
       const k = gv.filter((x) => 'int' in x.dataset).length;
-      c.hidden = k === 0 || f.tag !== 'all';
-      c.textContent = ` · ${k}★`;
-    });
-  });
+      hide(c, k === 0 || f.tag !== 'all');
+      text(c, ` · ${k}★`);
+    }
+  }
   const nInt = vis.filter((x) => 'int' in x.dataset).length;
-  scope.querySelectorAll('[data-lf-summary]').forEach((e) => {
-    e.textContent = f.tag === 'end' ? `${vis.length} ${pl(vis.length, 'эндемик', 'эндемика', 'эндемиков')}`
+  for (const e of qa(scope, '[data-lf-summary]')) {
+    text(e, f.tag === 'end' ? `${vis.length} ${pl(vis.length, 'эндемик', 'эндемика', 'эндемиков')}`
       : `${vis.length} ${pl(vis.length, 'вид', 'вида', 'видов')}` +
-        (nInt && f.tag === 'all' ? ` · ${nInt} ${pl(nInt, 'интересный', 'интересных', 'интересных')}` : '');
-  });
-  scope.querySelectorAll<HTMLElement>('[data-lf-new]').forEach((e) => {
+        (nInt && f.tag === 'all' ? ` · ${nInt} ${pl(nInt, 'интересный', 'интересных', 'интересных')}` : ''));
+  }
+  for (const e of qa(scope, '[data-lf-new]')) {
     const k = vis.filter((x) => 'new' in x.dataset).length;
-    e.hidden = k === 0;
-    e.textContent = `из них ${k} впервые на маршруте`;
-  });
-  scope.querySelectorAll<HTMLElement>('[data-lf-empty]').forEach((e) => (e.hidden = vis.length > 0));
+    hide(e, k === 0);
+    text(e, `из них ${k} впервые на маршруте`);
+  }
+  for (const e of qa(scope, '[data-lf-empty]')) hide(e, vis.length > 0);
 }
-/** Re-apply every static list on the page (the narrow state of each scope comes from the URL). */
+/** Row descriptors of static rows, read once per element (the rows do not change after load). */
+const rowCache = new WeakMap<HTMLElement, Row>();
+export function cachedRowOf(el: HTMLElement, ctx: ScopeCtx): Row {
+  let r = rowCache.get(el);
+  if (!r) rowCache.set(el, (r = rowOf(el, ctx)));
+  return r;
+}
+/** Re-apply the static lists of the page whose ScopeFilter has not taken over (data-lf-live: it applies its own scope,
+ * with its live narrow state; the URL copy of it is written with a delay). Narrow state from the URL. */
 export function applyAllScopes(f: Filter): void {
-  document.querySelectorAll<HTMLElement>('[data-lf-scope]').forEach((sc) => applyFilterDom(sc, f, readNarrow(sc.dataset.lfKey || ''), rowOf, rowPasses, scopeCtx(sc)));
+  document.querySelectorAll<HTMLElement>('[data-lf-scope]:not([data-lf-live])').forEach((sc) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const ctx: ScopeCtx = (sc as any)._lfCtx || ((sc as any)._lfCtx = scopeCtx(sc));
+    applyFilterDom(sc, f, readNarrow(sc.dataset.lfKey || ''), cachedRowOf, makePass, ctx);
+  });
+}
+/** Run fn once the browser has painted the current change (URL and storage writes stay out of the tap's frame). */
+export function afterPaint(fn: () => void): void {
+  if (typeof requestAnimationFrame === 'function') requestAnimationFrame(() => setTimeout(fn, 0));
+  else setTimeout(fn, 0);
 }
 
 function createStore() {
@@ -258,7 +291,12 @@ function createStore() {
     try { for (const k of STALE_KEYS) localStorage.removeItem(k); } catch { /* storage off */ }
     restoreUrl(import.meta.env.BASE_URL);
     s.set(readFilter());
-    s.subscribe((f) => { writeFilter(f); applyAllScopes(f); });
+    // the first call (the state just read) only normalises the URL: FilterScope's inline script has already applied it
+    let first = true;
+    s.subscribe((f) => {
+      afterPaint(() => writeFilter(f));
+      if (first) first = false; else applyAllScopes(f);
+    });
   }
   return s;
 }

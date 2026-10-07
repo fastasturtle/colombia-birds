@@ -6,11 +6,11 @@
  * at the end applies the URL state (filter and narrowing) while the page is still parsing, so the first paint is already
  * filtered; when the URL has no filter params it first puts the page's saved ones there (lib/filter restoreUrl). `key`: URL parameter prefix when a page has two lists (`d` -> `d-q`, `d-fam`, `d-site`).
  */
-import { applyFilterDom, restoreUrl, readFilter, readNarrow, rowOf, rowPasses, scopeCtx } from '@lib/filter';
+import { applyFilterDom, restoreUrl, readFilter, readNarrow, rowOf, makePass, scopeCtx } from '@lib/filter';
 /** ctx: listFacets().ctx of the rows inside */
 interface Props { class?: string; key?: string; ctx: string }
 const { class: cls, key = '', ctx } = Astro.props;
-const js = `(function(s){(${restoreUrl.toString()})(${JSON.stringify(import.meta.env.BASE_URL)});(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${rowPasses.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
+const js = `(function(s){(${restoreUrl.toString()})(${JSON.stringify(import.meta.env.BASE_URL)});(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${makePass.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
 ---
 <div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="all" data-tag="all">
   <slot />
