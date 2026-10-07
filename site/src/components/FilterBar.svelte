@@ -2,13 +2,15 @@
   /**
    * The one filter control of every species list (/species/, day, site and family pages).
    * Collapsed: search + «Фильтры» (badge = active non-default filters) + «показано N из M» + removable chips of the
-   * active filters. Expanded (every page load starts collapsed): the page-wide ListFilter (likelihood, tag),
+   * active filters. Expanded: the page-wide ListFilter (likelihood, tag),
    * families and sites as dropdowns of checkboxes with facet counts (FacetPicker.svelte, lib/facets.ts; side by side
    * on wide screens, one open at a time), elevation where `elev` is set, and «Признаки» (its
-   * own fold, closed on load): trait groups of content/traits.yaml, OR within a group, AND across groups.
-   * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» for
-   * this visit and scrolls «Признаки» into view (`?panel=1`: the panel only); nothing is saved, and the flag is dropped
-   * from the URL once read.
+   * own fold): trait groups of content/traits.yaml, OR within a group, AND across groups.
+   * The panel and «Признаки» open/closed state is remembered per page and per bar (localStorage `cb.fp:<path>`, plus
+   * `#<scope key>` on a page with two lists; value: 1 panel open + 2 «Признаки» open, no key = both closed), so a page
+   * reopens the way it was left (the filters themselves: lib/filter saveState).
+   * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» instead of the
+   * saved state and scrolls «Признаки» into view (`?panel=1`: the panel only); the flag is dropped from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
    * Long chip groups (> FOLD_FROM chips; FacetPicker orders its rows the same way) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
    * the rest. State: level + tag in the `filter` store (URL `lv` / `tag`); search, families, sites, elevation, traits in `u`
@@ -19,7 +21,7 @@
   import ListFilter from './ListFilter.svelte';
   import FacetChip from './FacetChip.svelte';
   import FacetPicker, { type PickOpt } from './FacetPicker.svelte';
-  import { filter, rowPasses, trCount, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
+  import { filter, rowPasses, trCount, pageKey, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   import { listCounts, rowFacets, noTraitsHidden, trGroup, plural } from '../lib/facets';
 
   interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean }
@@ -30,14 +32,30 @@
   /** `?panel=traits`: scroll «Признаки» into view once it is rendered (static lists read their rows after mount) */
   let toTraits = $state(false);
   let trsEl = $state<HTMLElement | null>(null);
+  let root: HTMLElement;
+  /** localStorage key of the open state (null until mounted) */
+  let openKey = $state<string | null>(null);
   onMount(() => {
+    const sk = root.closest<HTMLElement>('[data-lf-scope]')?.dataset.lfKey;
+    const k = pageKey('cb.fp:') + (sk ? '#' + sk : '');
     const url = new URL(location.href), panel = url.searchParams.get('panel');
     if (panel != null) {
       open = true;
       if (panel === 'traits') trOpen = toTraits = true;
       url.searchParams.delete('panel');
       history.replaceState(history.state, '', url.href);
+    } else {
+      let v = 0;
+      try { v = +(localStorage.getItem(k) ?? 0) || 0; } catch { /* storage off */ }
+      open = (v & 1) > 0;
+      trOpen = (v & 2) > 0;
     }
+    openKey = k;
+  });
+  $effect(() => {
+    const v = (open ? 1 : 0) + (trOpen ? 2 : 0);
+    if (openKey == null) return;
+    try { if (v) localStorage.setItem(openKey, String(v)); else localStorage.removeItem(openKey); } catch { /* storage off */ }
   });
   $effect(() => {
     if (!toTraits || !trsEl) return;
@@ -124,7 +142,7 @@
   {/if}
 {/snippet}
 
-<div class="fb" role="search">
+<div class="fb" role="search" bind:this={root}>
   <div class="bar">
     <input type="search" class="q" bind:value={u.q} placeholder="Поиск вида"
       aria-label="Поиск по названию: русскому, английскому, латинскому или семейства" autocomplete="off" />

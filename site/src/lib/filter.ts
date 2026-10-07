@@ -1,9 +1,12 @@
 /**
  * Shared species filter: «Точно · Точно и возможно · Все» + «Все · Интересные · Почти-эндемики · Эндемики».
  * One choice for the whole page, kept in the page URL (`lv=sure|maybe`, `tag=int|nend|end`; omitted at the default) and
- * applied identically to every list on it. Nothing persists between pages: a page opened without them starts at the
- * default, level «Все», tag «Все» (nothing hidden); a shared link or a reload reproduces the view. Until 07.10 the choice
- * lived in localStorage (`cb.filter`, then `cb.filter2`); the store removes those stale keys on load.
+ * applied identically to every list on it; a shared link or a reload reproduces the view.
+ * Each page also remembers its own filter query (all filter params of the URL, FILTER_PARAM) in localStorage under
+ * `cb.f:<path without base>` (saveState, after every URL write; removed at the default). A page opened without filter
+ * params gets it back (restoreUrl: put into the URL with replaceState, before anything reads it); filter params in the
+ * URL win and overwrite it. Other pages are unaffected (they start at «Все» + «Все»). Until 07.10 one choice for the
+ * whole site lived in localStorage (`cb.filter`, then `cb.filter2`); the store removes those stale keys on load.
  * On top of it every list page has its own narrowing (search, families, sites, elevation; FilterBar.svelte), kept in the
  * page URL (readNarrow / writeNarrow). Both go through the one predicate rowPasses() over a plain Row descriptor.
  *
@@ -26,8 +29,40 @@ export const TAGS: Tag[] = ['all', 'int', 'near', 'end'];
 export const tierOf = (interesting: boolean, nearEndemic: boolean, endemic: boolean): Tier =>
   endemic ? 3 : nearEndemic ? 2 : interesting ? 1 : 0;
 export interface Filter { level: Level; tag: Tag }
-/** localStorage keys of the filter before 07.10 (choice, panel / «Признаки» open state); removed on load. */
+/** localStorage keys of the filter before 07.10 (choice, panel / «Признаки» open state); removed on load. Exact
+ * names: the per-page keys (`cb.f:…`, `cb.fp:…`) are not among them. */
 export const STALE_KEYS = ['cb.filter', 'cb.filter2', 'cb.filter.open', 'cb.filter.traits'];
+/** URL params that are filter state (`panel` is not): lv, tag, and the narrowing with an optional scope prefix (`d-q`). */
+export const FILTER_PARAM = /^(lv|tag|([a-z]+-)?(q|fam|site|elev|t))$/;
+/** localStorage key of this page's state: prefix + path without the site base (`cb.f:/days/2026-10-12/`). */
+export function pageKey(prefix: string): string {
+  const b = import.meta.env.BASE_URL.replace(/\/$/, ''), p = location.pathname;
+  return prefix + (p.startsWith(b) ? p.slice(b.length) : p);
+}
+/**
+ * The URL has no filter params: put the page's saved ones into it (replaceState; `panel` and the hash are kept).
+ * Run by FilterScope's inline script (first paint) and by the store before it reads the URL; idempotent.
+ * Self-contained (base comes in as an argument): inlined into pages via toString().
+ */
+export function restoreUrl(base: string): void {
+  try {
+    const u = new URL(location.href), b = base.replace(/\/$/, ''), p = u.pathname;
+    for (const k of u.searchParams.keys()) if (/^(lv|tag|([a-z]+-)?(q|fam|site|elev|t))$/.test(k)) return;
+    const saved = localStorage.getItem('cb.f:' + (p.startsWith(b) ? p.slice(b.length) : p));
+    if (!saved) return;
+    new URLSearchParams(saved).forEach((v, k) => u.searchParams.set(k, v));
+    history.replaceState(history.state, '', u.href);
+  } catch { /* storage off */ }
+}
+/** Save the page's filter params (as they are in the URL now) under its key, or drop the key at the default. */
+export function saveState(): void {
+  try {
+    const out = new URLSearchParams();
+    new URLSearchParams(location.search).forEach((v, k) => { if (FILTER_PARAM.test(k)) out.append(k, v); });
+    const s = out.toString(), k = pageKey('cb.f:');
+    if (s) localStorage.setItem(k, s); else localStorage.removeItem(k);
+  } catch { /* storage off */ }
+}
 export const DEFAULT_FILTER: Filter = { level: 'all', tag: 'all' };
 export const LEVEL_LABEL: Record<Level, string> = { sure: 'Точно', maybe: 'Точно и возможно', all: 'Все' };
 export const TAG_LABEL: Record<Tag, string> = { all: 'Все', int: 'Интересные', near: 'Почти-эндемики', end: 'Эндемики' };
@@ -48,6 +83,7 @@ export function writeFilter(f: Filter): void {
   if (f.level !== 'all') url.searchParams.set('lv', f.level); else url.searchParams.delete('lv');
   if (f.tag !== 'all') url.searchParams.set('tag', f.tag === 'near' ? 'nend' : f.tag); else url.searchParams.delete('tag');
   if (url.href !== location.href) history.replaceState(history.state, '', url.href);
+  saveState();
 }
 
 /** Does a species of this tier pass the tag part? */
@@ -57,7 +93,7 @@ export function passesTag(f: Filter, tier: Tier): boolean {
 
 /* ---- Page-level narrowing (FilterBar.svelte): search, families, sites, elevation, traits ----
  * Lives in the page URL (`q`, `fam`, `site`, `elev`; lists comma-separated; traits as `t=size:small,medium;colors:red`;
- * a scope with data-lf-key="d" uses `d-q` etc.), so links are shareable and nothing leaks between pages. Filters only
+ * a scope with data-lf-key="d" uses `d-q` etc.), so links are shareable; saved per page with the rest (saveState). Filters only
  * narrow: EMPTY_NARROW passes every row. */
 /** Selected traits (content/traits.yaml): group key -> value keys. OR within a group, AND across groups. */
 export type TraitSel = Record<string, string[]>;
@@ -119,6 +155,7 @@ export function writeNarrow(key: string, u: Narrow): void {
   set('q', u.q.trim()); set('fam', u.fam.join(',')); set('site', u.site.join(',')); set('elev', u.elev != null ? String(u.elev) : '');
   set('t', Object.entries(u.tr).filter(([, vs]) => vs.length).map(([g, vs]) => `${g}:${vs.join(',')}`).join(';'));
   if (url.href !== location.href) history.replaceState(history.state, '', url.href);
+  saveState();
 }
 /** The scope's data-lf-ctx (lib/data listFacets): f = [family code, its searchable names], s = site ids; rows index both.
  * tv: the trait vocabulary, present when some row of the scope has traits (data-tr indexes its flattened values). */
@@ -218,10 +255,11 @@ function createStore() {
   const s = writable<Filter>(DEFAULT_FILTER);
   if (typeof window !== 'undefined') {
     try { for (const k of STALE_KEYS) localStorage.removeItem(k); } catch { /* storage off */ }
+    restoreUrl(import.meta.env.BASE_URL);
     s.set(readFilter());
     s.subscribe((f) => { writeFilter(f); applyAllScopes(f); });
   }
   return s;
 }
-/** The page's filter (client: initialised from the URL and written back to it on every change). */
+/** The page's filter (client: initialised from the URL, or the page's saved state, and written back on every change). */
 export const filter = createStore();
