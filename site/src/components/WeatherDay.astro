@@ -9,7 +9,8 @@ import { weather, weatherDay, wmo, fmtBogota, WEATHER_PERIODS, type WeatherPerio
 interface Props { date: string }
 const { date } = Astro.props;
 const rows = weatherDay(date);
-const fetched = weather()?.fetched_at;
+// the run that produced this day's forecast (past days keep their last one), else the file's last run
+const fetched = weather()?.days[date]?.fetched_at ?? weather()?.fetched_at;
 const temp = (p: WeatherPeriod) => (p.t_min === p.t_max ? `${p.t_max}°` : `${p.t_min}–${p.t_max}°`);
 const tip = (p: WeatherPeriod) => [
   wmo(p.weather_code).ru, temp(p),
