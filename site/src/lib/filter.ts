@@ -1,8 +1,9 @@
 /**
  * Shared species filter: «Точно · Точно и возможно · Все» + «Все · Интересные · Почти-эндемики · Эндемики».
- * One choice for the whole site, persisted in localStorage `cb.filter2` and applied identically on every page.
- * Default: level «Все», tag «Все» (nothing hidden). Until 06.10 the default level was «Точно и возможно», saved under
- * `cb.filter`; readFilter migrates that key once (see there) and the store then drops it.
+ * One choice for the whole page, kept in the page URL (`lv=sure|maybe`, `tag=int|nend|end`; omitted at the default) and
+ * applied identically to every list on it. Nothing persists between pages: a page opened without them starts at the
+ * default, level «Все», tag «Все» (nothing hidden); a shared link or a reload reproduces the view. Until 07.10 the choice
+ * lived in localStorage (`cb.filter`, then `cb.filter2`); the store removes those stale keys on load.
  * On top of it every list page has its own narrowing (search, families, sites, elevation; FilterBar.svelte), kept in the
  * page URL (readNarrow / writeNarrow). Both go through the one predicate rowPasses() over a plain Row descriptor.
  *
@@ -11,7 +12,7 @@
  * for the route) and data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts). The tag levels are nested:
  * Эндемики ⊂ Почти-эндемики ⊂ Интересные ⊂ Все; groups carry data-lf-group; counters data-lf-summary /
  * data-lf-gcount / data-lf-new. `applyFilterDom` does the rest; it is also inlined into the page (FilterScope) so the
- * first paint already matches the saved choice and the URL.
+ * first paint already matches the URL.
  * Svelte lists (SpeciesList.svelte) build Rows from their JSON and call rowPasses() directly.
  */
 import { writable } from 'svelte/store';
@@ -25,29 +26,28 @@ export const TAGS: Tag[] = ['all', 'int', 'near', 'end'];
 export const tierOf = (interesting: boolean, nearEndemic: boolean, endemic: boolean): Tier =>
   endemic ? 3 : nearEndemic ? 2 : interesting ? 1 : 0;
 export interface Filter { level: Level; tag: Tag }
-export const FILTER_KEY = 'cb.filter2';
-/** The pre-06.10 key, whose level defaulted to «Точно и возможно» (readFilter migrates it). */
-export const OLD_FILTER_KEY = 'cb.filter';
+/** localStorage keys of the filter before 07.10 (choice, panel / «Признаки» open state); removed on load. */
+export const STALE_KEYS = ['cb.filter', 'cb.filter2', 'cb.filter.open', 'cb.filter.traits'];
 export const DEFAULT_FILTER: Filter = { level: 'all', tag: 'all' };
 export const LEVEL_LABEL: Record<Level, string> = { sure: 'Точно', maybe: 'Точно и возможно', all: 'Все' };
 export const TAG_LABEL: Record<Tag, string> = { all: 'Все', int: 'Интересные', near: 'Почти-эндемики', end: 'Эндемики' };
 
-/** Saved filter or the default («Все» + «Все»). Migration: without `cb.filter2`, the old `cb.filter` is read, its
- * tag kept (and its older `interesting: true` read as «Интересные»), its level kept only when it is not the old
- * default `maybe`, which was rarely a choice: everyone lands on «Все» once. Self-contained: inlined into pages via toString(). */
+/** The filter in the URL (`lv`, `tag`; the tag «Почти-эндемики» is `nend` there) or the default («Все» + «Все»).
+ * Self-contained: inlined into pages via toString(). */
 export function readFilter(): { level: 'sure' | 'maybe' | 'all'; tag: 'all' | 'int' | 'near' | 'end' } {
   let level: 'sure' | 'maybe' | 'all' = 'all', tag: 'all' | 'int' | 'near' | 'end' = 'all';
-  try {
-    let v = JSON.parse(localStorage.getItem('cb.filter2') || 'null');
-    if (!v) {
-      v = JSON.parse(localStorage.getItem('cb.filter') || 'null');
-      if (v && v.level === 'maybe') v.level = 'all';
-    }
-    if (v && (v.level === 'sure' || v.level === 'maybe' || v.level === 'all')) level = v.level;
-    if (v && (v.tag === 'all' || v.tag === 'int' || v.tag === 'near' || v.tag === 'end')) tag = v.tag;
-    else if (v && v.interesting === true) tag = 'int';
-  } catch { /* private mode, bad JSON */ }
+  const p = new URLSearchParams(location.search), l = p.get('lv'), t = p.get('tag');
+  if (l === 'sure' || l === 'maybe') level = l;
+  if (t === 'int' || t === 'end') tag = t;
+  else if (t === 'nend' || t === 'near') tag = 'near';
   return { level, tag };
+}
+/** Write the filter into the URL (replaceState; defaults are omitted, other params and the hash are kept). */
+export function writeFilter(f: Filter): void {
+  const url = new URL(location.href);
+  if (f.level !== 'all') url.searchParams.set('lv', f.level); else url.searchParams.delete('lv');
+  if (f.tag !== 'all') url.searchParams.set('tag', f.tag === 'near' ? 'nend' : f.tag); else url.searchParams.delete('tag');
+  if (url.href !== location.href) history.replaceState(history.state, '', url.href);
 }
 
 /** Does a species of this tier pass the tag part? */
@@ -140,7 +140,7 @@ export function scopeCtx(scope: HTMLElement): { f: [string, string][]; s: string
   try { return JSON.parse(scope.dataset.lfCtx || ''); } catch { return { f: [], s: [] }; }
 }
 /**
- * The one predicate: does a row pass the site-wide filter f and the page's narrow state u? Families OR, sites OR,
+ * The one predicate: does a row pass the filter f (lv, tag) and the page's narrow state u? Families OR, sites OR,
  * trait values OR within their group (rows without traits fail any trait selection), AND across everything.
  * Self-contained: inlined into pages via toString().
  */
@@ -217,14 +217,11 @@ export function applyAllScopes(f: Filter): void {
 function createStore() {
   const s = writable<Filter>(DEFAULT_FILTER);
   if (typeof window !== 'undefined') {
+    try { for (const k of STALE_KEYS) localStorage.removeItem(k); } catch { /* storage off */ }
     s.set(readFilter());
-    s.subscribe((f) => {
-      try { localStorage.setItem(FILTER_KEY, JSON.stringify(f)); localStorage.removeItem(OLD_FILTER_KEY); } catch { /* ignore */ }
-      applyAllScopes(f);
-    });
-    window.addEventListener('storage', (e) => { if (e.key === FILTER_KEY) s.set(readFilter()); });
+    s.subscribe((f) => { writeFilter(f); applyAllScopes(f); });
   }
   return s;
 }
-/** The site-wide filter (client: initialised from localStorage and saved on every change). */
+/** The page's filter (client: initialised from the URL and written back to it on every change). */
 export const filter = createStore();
