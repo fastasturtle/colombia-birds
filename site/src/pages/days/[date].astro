@@ -105,6 +105,9 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
   .strip { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); margin: 14px 0 4px; }
   .grp { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; margin: 14px 0 6px; }
   .tiles { display: grid; gap: 10px 8px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  /* tiles off screen skip layout and paint, so a filter change that shows or hides hundreds of them only lays out the
+   * ones on screen; until first laid out a tile holds the height of one at phone width (the width comes from the grid) */
+  .tiles > :global(.tile) { content-visibility: auto; contain-intrinsic-size: auto 100px auto 195px; overflow-clip-margin: 4px; }
   @media (min-width: 640px) {
     .tiles { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 14px 12px; }
   }

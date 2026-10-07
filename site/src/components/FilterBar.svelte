@@ -17,12 +17,12 @@
    * (bound; the parent keeps it in the URL and applies it).
    * Rows: one descriptor per list row (lib/filter Row); null while the parent is still reading them.
    */
-  import { onMount } from 'svelte';
+  import { onMount, untrack } from 'svelte';
   import ListFilter from './ListFilter.svelte';
   import FacetChip from './FacetChip.svelte';
   import FacetPicker, { type PickOpt } from './FacetPicker.svelte';
-  import { filter, rowPasses, trCount, pageKey, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
-  import { listCounts, rowFacets, noTraitsHidden, trGroup, plural } from '../lib/facets';
+  import { filter, makePass, trCount, pageKey, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
+  import { listCounts, facetIndex, noTraitsHidden, trGroup, plural, type FacetIndex } from '../lib/facets';
 
   interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean }
   let { rows, total, fams, sites, traits = [], u = $bindable(), elev = false }: Props = $props();
@@ -63,6 +63,26 @@
     const head = document.querySelector<HTMLElement>('header.top');
     window.scrollTo({ top: trsEl.getBoundingClientRect().top + window.scrollY - (head?.offsetHeight ?? 0) - 8 });
   });
+  /* Search box: a key after a pause applies at once; keys typed within Q_DELAY of the last update are applied
+   * together at the end of that window (one list update per burst of fast typing, not per key). u.q set from outside
+   * (reset, URL) shows in the box and drops what is pending. */
+  const Q_DELAY = 120;
+  let qIn = $state('');
+  let qTimer: ReturnType<typeof setTimeout> | undefined;
+  $effect(() => {
+    const v = u.q;
+    untrack(() => { if (v !== qIn) { clearTimeout(qTimer); qTimer = undefined; qIn = v; } });
+  });
+  function flushQ() {
+    qTimer = undefined;
+    if (u.q !== qIn) { u.q = qIn; qTimer = setTimeout(flushQ, Q_DELAY); }
+  }
+  function onQ(e: Event) {
+    qIn = (e.currentTarget as HTMLInputElement).value;
+    if (qTimer !== undefined) return; // inside a burst: flushQ applies it
+    u.q = qIn;
+    qTimer = setTimeout(flushQ, Q_DELAY);
+  }
   const toggleOpen = () => (open = !open);
   const toggleTrOpen = () => (trOpen = !trOpen);
   const uid = Math.random().toString(36).slice(2, 8);
@@ -72,18 +92,36 @@
   const siteOf = $derived(new Map(sites.map((s) => [s.id, s])));
   const trLabel = $derived(new Map(traits.flatMap((g) => g.values.map((v) => [`${g.key}:${v.key}`, `${g.label}: ${v.label}`] as const))));
 
-  let sets = $derived((rows ?? []).map(rowFacets));
   let nWithTr = $derived((rows ?? []).filter((r) => r.tr).length);
   let showTraits = $derived(traits.length > 0 && nWithTr > 0);
-  let shown = $derived(rows ? rows.filter((r) => rowPasses(r, $filter, u)).length : null);
+  /** plain copy of the narrow state for the sweeps below (reading a $state proxy per row is slow) */
+  let us = $derived($state.snapshot(u) as Narrow);
+  let shown = $derived.by(() => {
+    if (!rows) return null;
+    const pass = makePass($filter, us);
+    let n = 0;
+    for (const r of rows) if (pass(r)) n++;
+    return n;
+  });
   let groups = $derived([
     { key: 'fam', values: fams.map((x) => x.code) },
     { key: 'site', values: sites.map((x) => x.id) },
     ...(showTraits ? traits.map((g) => ({ key: trGroup(g.key), values: g.values.map((v) => v.key) })) : []),
   ]);
-  let counts = $derived(rows ? listCounts(rows, sets, $filter, u, groups) : {});
+  /* The rows' facet index (lib/facets facetIndex): built once per list, when the browser is idle after load, or on the
+   * first count if that comes sooner (rows and groups do not change after load). */
+  let ixOf: { rows: Row[]; groups: typeof groups; ix: FacetIndex } | null = null;
+  const indexFor = (r: Row[], g: typeof groups) => (ixOf && ixOf.rows === r && ixOf.groups === g ? ixOf : (ixOf = { rows: r, groups: g, ix: facetIndex(r, g) })).ix;
+  $effect(() => {
+    const r = rows, g = groups;
+    if (!r) return;
+    const warm = () => indexFor(r, g);
+    if (typeof requestIdleCallback === 'function') { const id = requestIdleCallback(warm, { timeout: 2000 }); return () => cancelIdleCallback(id); }
+    const id = setTimeout(warm, 200); return () => clearTimeout(id);
+  });
+  let counts = $derived(rows ? listCounts(rows, indexFor(rows, groups), $filter, us) : {});
   /** rows hidden only because they have no traits (some trait is selected) */
-  let noTr = $derived(rows ? noTraitsHidden(rows, $filter, u) : 0);
+  let noTr = $derived(rows ? noTraitsHidden(rows, $filter, us) : 0);
   let nTr = $derived(trCount(u.tr));
 
   const toggle = (g: 'fam' | 'site', v: string) => {
@@ -112,6 +150,7 @@
   });
   const reset = () => {
     filter.set({ ...DEFAULT_FILTER });
+    clearTimeout(qTimer); qTimer = undefined; qIn = '';
     u.q = ''; u.fam = []; u.site = []; u.elev = null; u.tr = {};
   };
 
@@ -144,7 +183,7 @@
 
 <div class="fb" role="search" bind:this={root}>
   <div class="bar">
-    <input type="search" class="q" bind:value={u.q} placeholder="Поиск вида"
+    <input type="search" class="q" value={qIn} oninput={onQ} placeholder="Поиск вида"
       aria-label="Поиск по названию: русскому, английскому, латинскому или семейства" autocomplete="off" />
     <button type="button" class="tg" aria-expanded={open} aria-controls={`fb-panel-${uid}`} onclick={toggleOpen}>
       Фильтры{#if active.length}<span class="badge" aria-label={`активно: ${active.length}`}>{active.length}</span>{/if}<span class="car" aria-hidden="true">▾</span>
@@ -155,7 +194,7 @@
     {#each active as a (a.key)}
       <button type="button" class="ac" onclick={a.drop} aria-label={`Убрать фильтр: ${a.label}`}>{a.label}<span aria-hidden="true" class="x">✕</span></button>
     {/each}
-    {#if active.length || u.q.trim()}<button type="button" class="lnk" onclick={reset}>Сбросить</button>{/if}
+    {#if active.length || u.q.trim() || qIn.trim()}<button type="button" class="lnk" onclick={reset}>Сбросить</button>{/if}
   </div>
   {#if open}
     <div class="panel" id={`fb-panel-${uid}`}>
