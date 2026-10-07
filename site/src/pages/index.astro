@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import RouteMap from '../components/RouteMap.svelte';
 import DayCard from '../components/DayCard.astro';
-import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu } from '@lib/data';
+import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu, plural } from '@lib/data';
 const days = itinerary();
 const dws = itineraryWithSpecies();
 const all = sites();
@@ -12,6 +12,12 @@ const regionOf = Object.fromEntries(regs.map((r) => [r.id, r]));
 const firstDay = dws.find((d) => typeof d.day.day === 'number') ?? dws[0];
 const start = days[0]?.date;
 const end = days.at(-1)?.date;
+// «Прошедшие дни»: days before today (Bogotá time) go into a collapsed <details>. Build-time split is the no-JS
+// fallback; the inline script after the list re-splits against the viewer's clock before first paint, so a page
+// cached offline days ago is still right.
+const bogotaToday = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota' }).format(new Date());
+const past = dws.filter((d) => d.day.date < bogotaToday);
+const future = dws.filter((d) => d.day.date >= bogotaToday);
 ---
 <Base title="Маршрут" description="Маршрут тура по южной Колумбии, октябрь 2026: дни, локации, вероятные виды">
   <h1>Маршрут</h1>
@@ -26,14 +32,50 @@ const end = days.at(-1)?.date;
       <RouteMap client:load days={days} sites={all} regions={regs} />
 
       <h2>По дням</h2>
-      {dws.map((d, i) => (
-        <>
-          {(i === 0 || dws[i - 1].day.region !== d.day.region) && (
-            <h3 class="reg" style={`color:${regionOf[d.day.region]?.color}`}>{regionOf[d.day.region]?.name_ru ?? d.day.region}</h3>
-          )}
-          <DayCard d={d} id={`d${d.day.date}`} />
-        </>
-      ))}
+      {(() => {
+        // every row carries its region heading; it is hidden when the previous row in the same block has the same region
+        const row = (d: (typeof dws)[number], prev: (typeof dws)[number] | undefined) => (
+          <div class="drow" data-date={d.day.date} data-region={d.day.region}>
+            <h3 class="reg" hidden={prev?.day.region === d.day.region} style={`color:${regionOf[d.day.region]?.color}`}>{regionOf[d.day.region]?.name_ru ?? d.day.region}</h3>
+            <DayCard d={d} id={`d${d.day.date}`} />
+          </div>
+        );
+        return (
+          <div class="bydays">
+            <details class="past" hidden={past.length === 0} open={future.length === 0}>
+              <summary><span>Прошедшие дни · <span class="pn">{past.length}</span> <span class="pw">{plural(past.length, 'день', 'дня', 'дней')}</span></span></summary>
+              {past.map((d, i) => row(d, past[i - 1]))}
+            </details>
+            {future.map((d, i) => row(d, future[i - 1]))}
+          </div>
+        );
+      })()}
+      <script is:inline>
+        (() => {
+          const box = document.currentScript.previousElementSibling;
+          let today;
+          try { today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota' }).format(new Date()); } catch { return; }
+          if (!box || !/^\d{4}-\d{2}-\d{2}$/.test(today)) return;
+          const det = box.querySelector('details.past');
+          const rows = [...box.querySelectorAll('.drow')];
+          let n = 0;
+          for (const r of rows) {
+            if (r.dataset.date < today) { det.append(r); n++; } else box.append(r);
+          }
+          for (const parent of [det, box]) {
+            let prev = '';
+            for (const r of parent.querySelectorAll(':scope > .drow')) {
+              r.querySelector('.reg').hidden = r.dataset.region === prev;
+              prev = r.dataset.region;
+            }
+          }
+          const m10 = n % 10, m100 = n % 100;
+          det.querySelector('.pn').textContent = n;
+          det.querySelector('.pw').textContent = m10 === 1 && m100 !== 11 ? 'день' : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? 'дня' : 'дней';
+          det.hidden = n === 0;
+          det.open = n > 0 && n === rows.length;
+        })();
+      </script>
     </>
   )}
 </Base>
@@ -76,5 +118,16 @@ const end = days.at(-1)?.date;
   .today :global(.daycard) { margin-top: 6px; box-shadow: 0 1px 8px rgba(0,0,0,.08); }
   .today :global(.dtitle) { font-size: 1.2rem; }
   .reg { margin: 18px 0 4px; font-size: 1rem; }
+  .past { margin: 8px 0 14px; border: 1px solid var(--line); border-radius: 12px; padding: 0 10px; }
+  .past[hidden] { display: none; }
+  .past > summary {
+    min-height: 44px; display: flex; align-items: center; gap: 8px; cursor: pointer; list-style: none;
+    font-weight: 600; color: var(--muted);
+  }
+  .past > summary::-webkit-details-marker { display: none; }
+  .past > summary::before { content: '▸'; color: var(--muted); width: 12px; transition: transform .15s; }
+  .past[open] > summary::before { transform: rotate(90deg); }
+  .past[open] { padding-bottom: 4px; }
+  .past .drow:first-of-type .reg { margin-top: 4px; }
   :global(.daycard.is-today) { outline: 2px solid var(--accent); }
 </style>
