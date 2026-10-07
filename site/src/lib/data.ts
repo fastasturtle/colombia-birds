@@ -439,7 +439,12 @@ export interface WeatherSite {
   id: string; name_ru: string; elevation: number | null; overnight: boolean;
   periods: Partial<Record<WeatherPeriodName, WeatherPeriod>>;
 }
-export interface Weather { fetched_at: string; source: string; days: Record<string, { sites: WeatherSite[] }> }
+/** `fetched_at` (top level) = time of the last run; per day = run that produced that day's forecast
+ *  (days already past keep their last forecast, see pipeline/steps/fetch_weather.py). */
+export interface Weather {
+  fetched_at: string; source: string;
+  days: Record<string, { sites: WeatherSite[]; fetched_at?: string }>;
+}
 export const WEATHER_PERIODS: { id: WeatherPeriodName; ru: string }[] = [
   { id: 'morning', ru: 'Утро' }, { id: 'day', ru: 'День' }, { id: 'evening', ru: 'Вечер' },
 ];

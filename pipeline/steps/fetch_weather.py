@@ -18,7 +18,11 @@ grow with severity: clear 0 < clouds 1-3 < fog 45/48 < drizzle 51-57 < rain 61-6
 showers 80-86 < thunderstorm 95-99), so one rainy hour shows as rain: for a field trip the worst hour
 matters more than the typical one.
 
-Output: data/weather.json (see site/src/lib/data.ts `Weather`). Forecasts must be fresh, so this step
+Output: data/weather.json (see site/src/lib/data.ts `Weather`): top-level `fetched_at` = time of this run
+(UTC ISO), `days` = {date: {fetched_at, sites}} where the per-day `fetched_at` is the run that produced
+that day's forecast. Days before today (Bogotá) already in the existing file are carried over unchanged
+(the last forecast made for a day that has passed stays on the site); days from today onwards are always
+replaced by this run's data (a day with no fresh rows is dropped). Forecasts must be fresh, so this step
 does not use the pipeline HTTP cache. When no trip day falls inside the forecast window the file is left
 untouched (cron runs after the trip commit nothing).
 """
@@ -101,6 +105,24 @@ def elev_of(site: dict) -> float | None:
     return lo if lo is not None else hi
 
 
+def merge_days(old: dict | None, fresh: dict[str, dict], today: date, fetched_at: str) -> dict[str, dict]:
+    """New `days`: past days (< today) of the previous file kept as they were, plus this run's days.
+
+    Fresh days get `fetched_at` of this run; a carried day without its own `fetched_at` (file written
+    before the field existed) takes the old file's top-level one.
+    """
+    out: dict[str, dict] = {}
+    old_days = (old or {}).get("days") or {}
+    for d, entry in old_days.items():
+        if date.fromisoformat(d) < today and isinstance(entry, dict):
+            out[d] = entry if "fetched_at" in entry or not old.get("fetched_at") \
+                else {**entry, "fetched_at": old["fetched_at"]}
+    for d, entry in fresh.items():
+        if date.fromisoformat(d) >= today:  # the window starts today; guard anyway
+            out[d] = {**entry, "fetched_at": fetched_at}
+    return dict(sorted(out.items()))
+
+
 def main() -> None:
     itinerary = read_json(DATA / "itinerary.json")
     sites = {s["id"]: s for s in read_json(DATA / "sites_resolved.json")}
@@ -156,13 +178,16 @@ def main() -> None:
                              "overnight": overnight, "periods": periods})
         if rows:
             out_days[d] = {"sites": rows}
-    write_json(OUT, {
-        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
-        "source": "open-meteo",
-        "days": out_days,
-    })
+    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+    try:
+        previous = read_json(OUT)
+    except ValueError as e:  # malformed file: start over rather than fail the daily run
+        log(f"  WARNING: {OUT.name} unreadable ({e}), past days not carried over")
+        previous = None
+    all_days = merge_days(previous if isinstance(previous, dict) else None, out_days, today, fetched_at)
+    write_json(OUT, {"fetched_at": fetched_at, "source": "open-meteo", "days": all_days})
     status("weather", len(locations), len(locations),
-           f"weather: {len(out_days)} days, {len(locations) - len(failed)}/{len(locations)} locations"
+           f"weather: {len(out_days)} days (+{len(all_days) - len(out_days)} past kept), {len(locations) - len(failed)}/{len(locations)} locations"
            f"{' (failed: ' + ', '.join(failed) + ')' if failed else ''} -> {OUT.relative_to(DATA.parent)}")
 
 
