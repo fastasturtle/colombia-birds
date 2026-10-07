@@ -8,6 +8,7 @@ import { searchKey } from './filter';
 // content.ts imports this module too; the cycle is safe, both only call each other inside functions
 import { speciesCards } from './content';
 import { traitOpts, traitToken } from './traits';
+import { siteDaysFromDates } from './dates';
 
 const DATA = join(process.cwd(), '..', 'data');
 /** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
@@ -407,6 +408,13 @@ export function defaultCounts(list: { state: State; interesting: boolean }[]) {
 /** Days (in itinerary order) that visit a site. */
 export function daysForSite(siteId: string): Day[] {
   return itinerary().filter((d) => d.sites.includes(siteId));
+}
+/**
+ * Route days of a site in short form for links/buttons next to its name: '1 окт', '1–3 окт, 23 окт'.
+ * '' for a site not on the itinerary. pageDate (day pages): '' if the site is visited only on that date.
+ */
+export function siteDaysShort(siteId: string, pageDate?: string): string {
+  return siteDaysFromDates(daysForSite(siteId).map((d) => d.date), pageDate);
 }
 
 /* ---- Weather forecast (pipeline step weather, data/weather.json from Open-Meteo); optional, refreshed daily by CI ---- */

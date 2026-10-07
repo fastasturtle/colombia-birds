@@ -1,14 +1,16 @@
 ---
-/** Compact site card for the day page strip: name, elevation band, habitat in one line, link to the site page. */
-import { regions, type Site } from '@lib/data';
-interface Props { s: Site }
-const { s } = Astro.props;
+/** Compact site card for the day page strip: name (+ route days when it is visited on other days too), elevation band, habitat in one line, link to the site page. */
+import { regions, siteDaysShort, type Site } from '@lib/data';
+/** pageDate: the day page's own date; the days line is then shown only if the site is visited on other days too. */
+interface Props { s: Site; pageDate?: string }
+const { s, pageDate } = Astro.props;
+const sdays = siteDaysShort(s.id, pageDate);
 const color = regions().find((r) => r.id === s.region)?.color ?? 'var(--line)';
 const base = import.meta.env.BASE_URL;
 const elev = s.elev_min != null ? (s.elev_max != null && s.elev_max !== s.elev_min ? `${s.elev_min}–${s.elev_max} м` : `${s.elev_min} м`) : null;
 ---
 <div class="card sitecard" style={`border-top: 4px solid ${color}`}>
-  <strong class="sname">{s.name_ru || s.name}</strong>
+  <strong class="sname">{s.name_ru || s.name}{sdays && <span class="sdays">{sdays}</span>}</strong>
   {elev && <div class="elev">{elev}</div>}
   {s.habitat_ru && <div class="muted hab" title={s.habitat_ru}>{s.habitat_ru}</div>}
   <a class="more" href={`${base}sites/${s.id}/`}>все виды и детали →</a>

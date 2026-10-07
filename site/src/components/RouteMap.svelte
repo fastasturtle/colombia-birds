@@ -1,5 +1,6 @@
 <script lang="ts">
   import basemap from '../generated/basemap.json';
+  import { siteDaysFromDates } from '../lib/dates';
   interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null; optional?: boolean }
   interface Day { date: string; day: number | string; title_ru: string; sites: string[]; overnight_site: string | null; travel_ru?: string; region: string; elev_sleep: number | null }
   interface Region { id: string; name_ru: string; color: string }
@@ -27,6 +28,9 @@
     for (let i = 0; i < u.length; ) { let j = i; while (j + 1 < u.length && u[j + 1] === u[j] + 1) j++; parts.push(j > i ? `${u[i]}–${u[j]}` : `${u[i]}`); i = j + 1; }
     return parts.join(', ');
   };
+
+  // route days of a site (days whose sites include it, as daysForSite), short form for the popup
+  const siteDays = (id: string) => siteDaysFromDates(days.filter((d) => d.sites.includes(id)).map((d) => d.date));
 
   const R_STOP = 11, R_SITE = 7.5;
   const markers = sites.map((s) => ({ s, ...P(s.lon, s.lat), stop: dayNums.has(s.id) }))
@@ -102,11 +106,13 @@
   </svg>
   {#if selM}
     {@const s = selM.s}
+    {@const sd = siteDays(s.id)}
     <div class="tip" class:below={selM.y < H * 0.3} class:left={selM.x < W * 0.3} class:right={selM.x > W * 0.7}
       style={`left:${(selM.x / W) * 100}%; top:${(selM.y / H) * 100}%`}>
       <strong>{s.name}</strong>
       {#if s.name_ru && s.name_ru !== s.name}<br />{s.name_ru}{/if}
       {#if s.elev_min != null}<br /><span class="muted">{s.elev_min}{s.elev_max != null && s.elev_max !== s.elev_min ? `–${s.elev_max}` : ''} м</span>{/if}
+      {#if sd}<br /><span class="muted">в маршруте: {sd}</span>{/if}
       {#if dayNums.has(s.id)}<br /><span class="muted">ночёвки: день {fmtDays(dayNums.get(s.id)!)}</span>{/if}
       {#if s.optional}<br /><span class="muted">не в программе тура</span>{/if}
       <br /><a class="more" href={`${base}sites/${s.id}/`}>подробнее →</a>
