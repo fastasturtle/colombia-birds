@@ -13,7 +13,7 @@ import ScopeFilter from '../../components/ScopeFilter.svelte';
 import EndemicMark from '../../components/EndemicMark.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import {
-  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, sitesListing, listFacets, fmtDateRu, dayLabel, plural, MEDIA_BASE,
+  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, sitesListing, listFacets, siteDaysShort, fmtDateRu, dayLabel, plural, MEDIA_BASE,
   type Day, type IndexEntry, type StudyEntry,
 } from '@lib/data';
 export function getStaticPaths() {
@@ -39,7 +39,7 @@ for (const f of list) {
   const g = groupOfFamily(s.family)?.id ?? '';
   (byGroup.get(g) ?? byGroup.set(g, []).get(g)!).push({ f, s, at: sitesListing(s.id, studySites) });
 }
-const facets = listFacets([...byGroup.values()].flat().map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), studySites);
+const facets = listFacets([...byGroup.values()].flat().map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), studySites, day.date);
 const dayGroups = [...groups().map((g) => ({ id: g.id, name: g.name_ru })), { id: '', name: 'Прочие' }]
   .map((g) => ({ ...g, rows: byGroup.get(g.id) ?? [] }))
   .filter((g) => g.rows.length);
@@ -59,11 +59,11 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
   <table class="facts">
     <tr><th>Гид</th><td>{day.guide ?? '—'}</td></tr>
     <tr><th>Переезды</th><td>{day.travel_ru || '—'}</td></tr>
-    <tr><th>Ночёвка</th><td>{day.overnight_site && siteOf[day.overnight_site] ? <a href={`${base}sites/${day.overnight_site}/`}>{day.overnight}</a> : day.overnight}{day.elev_sleep != null && <span class="muted"> · {day.elev_sleep} м</span>}</td></tr>
+    <tr><th>Ночёвка</th><td>{day.overnight_site && siteOf[day.overnight_site] ? <><a href={`${base}sites/${day.overnight_site}/`}>{day.overnight}</a>{siteDaysShort(day.overnight_site, day.date) && <span class="sdays">{siteDaysShort(day.overnight_site, day.date)}</span>}</> : day.overnight}{day.elev_sleep != null && <span class="muted"> · {day.elev_sleep} м</span>}</td></tr>
   </table>
   <WeatherDay date={day.date} />
 
-  {daySites.length > 0 && <div class="strip">{daySites.map((s) => <SiteCard s={s} />)}</div>}
+  {daySites.length > 0 && <div class="strip">{daySites.map((s) => <SiteCard s={s} pageDate={day.date} />)}</div>}
 
   {study && dayGroups.length > 0 && (
     <section>

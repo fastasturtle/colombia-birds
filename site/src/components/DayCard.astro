@@ -1,5 +1,5 @@
 ---
-import { sites, regions, studyList, defaultCounts, fmtDateRu, dayLabel, plural, weatherDay, wmo, type DayWithSpecies } from '@lib/data';
+import { sites, regions, siteDaysShort, studyList, defaultCounts, fmtDateRu, dayLabel, plural, weatherDay, wmo, type DayWithSpecies } from '@lib/data';
 interface Props { d: DayWithSpecies; compact?: boolean; id?: string; hidden?: boolean }
 const { d, compact = false, id, hidden } = Astro.props;
 const day = d.day;
@@ -32,7 +32,7 @@ const wx = (() => {
   {!compact && day.travel_ru && <div class="muted small">{day.travel_ru}</div>}
   <div class="muted small">Ночёвка: {day.overnight}{day.elev_sleep != null && <> · {day.elev_sleep}&nbsp;м</>}{wx && day.sites.length === 0 && <span class="wx" title={wx.title}> · {wx.icon} {wx.t}{wx.prob != null && ` ${wx.prob}%`}</span>}</div>
   {day.sites.length > 0 && (
-    <div class="sites">{day.sites.map((sid) => siteOf[sid] && <a class="chip tap" href={`${base}sites/${sid}/`}>{siteOf[sid].name_ru || siteOf[sid].name}</a>)}{wx && <span class="wx small muted" title={wx.title}>{wx.icon} {wx.t}{wx.prob != null && ` ${wx.prob}%`}</span>}</div>
+    <div class="sites">{day.sites.map((sid) => siteOf[sid] && <a class="chip tap" href={`${base}sites/${sid}/`}>{siteOf[sid].name_ru || siteOf[sid].name}{siteDaysShort(sid, day.date) && <span class="sdays">{siteDaysShort(sid, day.date)}</span>}</a>)}{wx && <span class="wx small muted" title={wx.title}>{wx.icon} {wx.t}{wx.prob != null && ` ${wx.prob}%`}</span>}</div>
   )}
   {c && c.sure + c.maybe + c.interesting > 0 && (
     <div class="small stats">

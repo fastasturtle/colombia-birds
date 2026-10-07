@@ -1,7 +1,8 @@
 <script lang="ts" module>
-  /** label: row text, and the button text when it is the only one checked; sub: shown after it in italics (latin
-   * name); hint: tooltip prefix; terms: extra search strings */
-  export interface PickOpt { key: string; label: string; sub?: string | null; hint?: string | null; terms?: (string | null | undefined)[] }
+  /** label: row text, and the button text when it is the only one checked; sub: shown after it in muted italics (latin
+   * name), or upright with `plain` (a site's route days; then it is not searched either); hint: tooltip prefix;
+   * terms: extra search strings */
+  export interface PickOpt { key: string; label: string; sub?: string | null; plain?: boolean; hint?: string | null; terms?: (string | null | undefined)[] }
   /** the close function of the picker that is open now: opening another one closes it (one dropdown at a time) */
   let closeOpen: (() => void) | null = null;
 </script>
@@ -46,7 +47,7 @@
   let label = $derived(sel.length === 0 ? allLabel : sel.length === 1 ? (labelOf.get(sel[0]) ?? sel[0]) : `${sel.length} ${plural(sel.length, ...forms)}`);
   /** lower case, ё -> е, no accents (Spanish names) */
   const key = (s: string) => normQ(s).normalize('NFD').replace(/\p{M}/gu, '');
-  const keys = $derived(new Map(options.map((o) => [o.key, [o.label, o.sub, ...(o.terms ?? [])].filter((x): x is string => !!x).map(key)])));
+  const keys = $derived(new Map(options.map((o) => [o.key, [o.label, o.plain ? null : o.sub, ...(o.terms ?? [])].filter((x): x is string => !!x).map(key)])));
   let ordered = $derived.by(() => {
     if (!counts || options.length <= fold) return options;
     const main: PickOpt[] = [], rest: PickOpt[] = [];
@@ -124,7 +125,7 @@
             <label class="pp-row" class:zero={n === 0 && !on} title={tip || undefined}>
               <input type="checkbox" checked={on} onchange={() => onpick(o.key)} onkeydown={(e) => onRowKey(e, o.key)}
                 aria-label={n != null && !on ? `${o.label}: ${how(n)}` : o.label} />
-              <span class="pp-nm">{o.label}{#if o.sub}<span class="pp-sub">{o.sub}</span>{/if}</span>
+              <span class="pp-nm">{o.label}{#if o.sub}<span class="pp-sub" class:plain={o.plain}>{o.sub}</span>{/if}</span>
               {#if n != null && !on}<span class="pp-cnt" aria-hidden="true">{delta ? `+${n}` : n}</span>{/if}
             </label>
           </li>
@@ -164,6 +165,7 @@
   .pp-row input { flex: none; width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
   .pp-nm { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .pp-sub { margin-left: 6px; font-style: italic; color: var(--muted); font-size: .78rem; }
+  .pp-sub.plain { font-style: normal; }
   .pp-cnt { flex: none; font-size: .75rem; line-height: 1; padding: 2px 6px; border-radius: 999px; background: var(--chip); color: var(--muted); font-variant-numeric: tabular-nums; }
   .pp-row:hover .pp-cnt, .pp-row:focus-within .pp-cnt { background: var(--bg); }
   .pp-row.zero { color: var(--muted); }

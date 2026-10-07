@@ -4,13 +4,13 @@
  * mount ScopeFilter.svelte inside, client:load). Children mark items with data-st / data-int / data-nend / data-end /
  * data-new + data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts) and groups with data-lf-group. The inline script
  * at the end applies the URL state (filter and narrowing) while the page is still parsing, so the first paint is already
- * filtered. `key`: URL parameter prefix when a page has two lists (`d` -> `d-q`, `d-fam`, `d-site`).
+ * filtered; when the URL has no filter params it first puts the page's saved ones there (lib/filter restoreUrl). `key`: URL parameter prefix when a page has two lists (`d` -> `d-q`, `d-fam`, `d-site`).
  */
-import { applyFilterDom, readFilter, readNarrow, rowOf, rowPasses, scopeCtx } from '@lib/filter';
+import { applyFilterDom, restoreUrl, readFilter, readNarrow, rowOf, rowPasses, scopeCtx } from '@lib/filter';
 /** ctx: listFacets().ctx of the rows inside */
 interface Props { class?: string; key?: string; ctx: string }
 const { class: cls, key = '', ctx } = Astro.props;
-const js = `(function(s){(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${rowPasses.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
+const js = `(function(s){(${restoreUrl.toString()})(${JSON.stringify(import.meta.env.BASE_URL)});(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${rowPasses.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
 ---
 <div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="all" data-tag="all">
   <slot />

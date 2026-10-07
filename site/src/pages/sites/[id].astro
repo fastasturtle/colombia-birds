@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
 import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
-import { sites, regions, siteSpecies, speciesForSites, daysForSite, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import { sites, regions, siteSpecies, speciesForSites, daysForSite, siteDaysShort, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -61,13 +61,13 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   {othersTour.length > 0 && (
     <>
       <h2>Рядом, {region?.name_ru}</h2>
-      <p>{othersTour.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}</a>)}</p>
+      <p>{othersTour.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}{siteDaysShort(o.id) && <span class="sdays">{siteDaysShort(o.id)}</span>}</a>)}</p>
     </>
   )}
   {othersOpt.length > 0 && (
     <>
       <h2>{OPTIONAL_SITES_RU}</h2>
-      <p>{othersOpt.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}</a>)}</p>
+      <p>{othersOpt.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}{siteDaysShort(o.id) && <span class="sdays">{siteDaysShort(o.id)}</span>}</a>)}</p>
     </>
   )}
   <p><a href={base}>← Маршрут</a></p>
