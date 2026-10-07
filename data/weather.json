@@ -1,6 +1,352 @@
 {
  "days": {
+  "2026-10-01": {
+   "fetched_at": "2026-10-01T16:52:04Z",
+   "sites": [
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 73,
+       "precip": 3.5,
+       "precip_prob": 79,
+       "t_max": 20,
+       "t_min": 17,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 90,
+       "precip": 0.1,
+       "precip_prob": 61,
+       "t_max": 17,
+       "t_min": 14,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 94,
+       "precip": 0.0,
+       "precip_prob": 8,
+       "t_max": 17,
+       "t_min": 12,
+       "weather_code": 3
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-02": {
+   "fetched_at": "2026-10-02T16:05:08Z",
+   "sites": [
+    {
+     "elevation": 3700,
+     "id": "sumapaz",
+     "name_ru": "Сумапас",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 3.3,
+       "precip_prob": 100,
+       "t_max": 10,
+       "t_min": 9,
+       "weather_code": 53
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 1.9,
+       "precip_prob": 100,
+       "t_max": 8,
+       "t_min": 6,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.4,
+       "precip_prob": 59,
+       "t_max": 10,
+       "t_min": 6,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 2935,
+     "id": "monserrate",
+     "name_ru": "Монсеррате",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 5.6,
+       "precip_prob": 100,
+       "t_max": 14,
+       "t_min": 11,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 1.1,
+       "precip_prob": 100,
+       "t_max": 12,
+       "t_min": 10,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.5,
+       "precip_prob": 80,
+       "t_max": 13,
+       "t_min": 10,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 5.6,
+       "precip_prob": 100,
+       "t_max": 17,
+       "t_min": 13,
+       "weather_code": 80
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 1.1,
+       "precip_prob": 100,
+       "t_max": 14,
+       "t_min": 12,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.5,
+       "precip_prob": 80,
+       "t_max": 15,
+       "t_min": 12,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-03": {
+   "fetched_at": "2026-10-03T14:31:46Z",
+   "sites": [
+    {
+     "elevation": 2650,
+     "id": "campo-tangara",
+     "name_ru": "Кампо-Тангара",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 5.0,
+       "precip_prob": 97,
+       "t_max": 18,
+       "t_min": 14,
+       "weather_code": 81
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 0.8,
+       "precip_prob": 100,
+       "t_max": 15,
+       "t_min": 13,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.3,
+       "precip_prob": 33,
+       "t_max": 15,
+       "t_min": 12,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 2350,
+     "id": "chicaque",
+     "name_ru": "Чикаке",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 100,
+       "precip": 5.0,
+       "precip_prob": 97,
+       "t_max": 20,
+       "t_min": 16,
+       "weather_code": 81
+      },
+      "evening": {
+       "cloud_cover": 100,
+       "precip": 0.8,
+       "precip_prob": 100,
+       "t_max": 16,
+       "t_min": 14,
+       "weather_code": 53
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.3,
+       "precip_prob": 33,
+       "t_max": 16,
+       "t_min": 13,
+       "weather_code": 51
+      }
+     }
+    },
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 97,
+       "precip": 0.9,
+       "precip_prob": 75,
+       "t_max": 18,
+       "t_min": 16,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 99,
+       "precip": 0.1,
+       "precip_prob": 65,
+       "t_max": 16,
+       "t_min": 13,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 100,
+       "precip": 0.1,
+       "precip_prob": 1,
+       "t_max": 15,
+       "t_min": 11,
+       "weather_code": 51
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-04": {
+   "fetched_at": "2026-10-04T15:09:18Z",
+   "sites": [
+    {
+     "elevation": 1350,
+     "id": "el-encanto",
+     "name_ru": "Эль-Энканто",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 82,
+       "precip": 0.3,
+       "precip_prob": 86,
+       "t_max": 28,
+       "t_min": 26,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 87,
+       "precip": 0.0,
+       "precip_prob": 78,
+       "t_max": 25,
+       "t_min": 23,
+       "weather_code": 3
+      },
+      "morning": {
+       "cloud_cover": 93,
+       "precip": 0.0,
+       "precip_prob": 2,
+       "t_max": 24,
+       "t_min": 19,
+       "weather_code": 3
+      }
+     }
+    }
+   ]
+  },
+  "2026-10-05": {
+   "fetched_at": "2026-10-05T18:59:47Z",
+   "sites": [
+    {
+     "elevation": 2000,
+     "id": "la-drymophila",
+     "name_ru": "Ла-Дримофила",
+     "overnight": false,
+     "periods": {
+      "day": {
+       "cloud_cover": 78,
+       "precip": 3.9,
+       "precip_prob": 85,
+       "t_max": 22,
+       "t_min": 20,
+       "weather_code": 55
+      },
+      "evening": {
+       "cloud_cover": 48,
+       "precip": 0.1,
+       "precip_prob": 59,
+       "t_max": 20,
+       "t_min": 16,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 69,
+       "precip": 0.0,
+       "precip_prob": 0,
+       "t_max": 21,
+       "t_min": 14,
+       "weather_code": 3
+      }
+     }
+    },
+    {
+     "elevation": 1350,
+     "id": "el-encanto",
+     "name_ru": "Эль-Энканто",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 60,
+       "precip": 0.6,
+       "precip_prob": 85,
+       "t_max": 29,
+       "t_min": 27,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 65,
+       "precip": 0.2,
+       "precip_prob": 59,
+       "t_max": 26,
+       "t_min": 23,
+       "weather_code": 51
+      },
+      "morning": {
+       "cloud_cover": 58,
+       "precip": 0.0,
+       "precip_prob": 0,
+       "t_max": 25,
+       "t_min": 17,
+       "weather_code": 2
+      }
+     }
+    }
+   ]
+  },
   "2026-10-06": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1350,
@@ -37,6 +383,7 @@
    ]
   },
   "2026-10-07": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 900,
@@ -105,6 +452,7 @@
    ]
   },
   "2026-10-08": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1125,
@@ -141,6 +489,7 @@
    ]
   },
   "2026-10-09": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1125,
@@ -177,6 +526,7 @@
    ]
   },
   "2026-10-10": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1125,
@@ -213,6 +563,7 @@
    ]
   },
   "2026-10-11": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1125,
@@ -313,6 +664,7 @@
    ]
   },
   "2026-10-12": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 230,
@@ -381,6 +733,7 @@
    ]
   },
   "2026-10-13": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 250,
@@ -449,6 +802,7 @@
    ]
   },
   "2026-10-14": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 400,
@@ -485,6 +839,7 @@
    ]
   },
   "2026-10-15": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 2050,
@@ -553,6 +908,7 @@
    ]
   },
   "2026-10-16": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 2250,
@@ -685,6 +1041,7 @@
    ]
   },
   "2026-10-17": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1700,
@@ -721,6 +1078,7 @@
    ]
   },
   "2026-10-18": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1700,
@@ -789,6 +1147,7 @@
    ]
   },
   "2026-10-19": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1500,
@@ -857,6 +1216,7 @@
    ]
   },
   "2026-10-20": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1050,
@@ -925,6 +1285,7 @@
    ]
   },
   "2026-10-21": {
+   "fetched_at": "2026-10-06T16:28:28Z",
    "sites": [
     {
      "elevation": 1200,
