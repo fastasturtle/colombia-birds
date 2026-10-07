@@ -1,5 +1,5 @@
 <script lang="ts">
-  /** Site-wide species filter controls (see lib/filter.ts). Mount once per page, above the list. */
+  /** Species filter controls, likelihood + tag (see lib/filter.ts; kept in the page URL). Mount once per page, above the list. */
   import { filter, LEVEL_LABEL, TAG_LABEL, TAGS, type Level } from '../lib/filter';
   import EndemicMark from './EndemicMark.svelte';
   const levels: Level[] = ['sure', 'maybe', 'all'];

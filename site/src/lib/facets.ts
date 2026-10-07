@@ -64,7 +64,7 @@ export const trGroup = (g: string) => `t.${g}`;
 /**
  * Counts of the facet chips of a list (FilterBar): `groups` are any of
  * `fam`, `site`, `t.<trait group>` (trGroup) with their values. Everything else in `u` (search, elevation) and the
- * site-wide filter `f` is the base every count respects: rowPasses + facetCounts.
+ * filter `f` (lv, tag) is the base every count respects: rowPasses + facetCounts.
  */
 export function listCounts(rows: Row[], sets: RowFacets[], f: Filter, u: Narrow, groups: { key: string; values: string[] }[]) {
   const sel: Sel = { fam: u.fam, site: u.site };

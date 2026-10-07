@@ -2,16 +2,16 @@
   /**
    * The one filter control of every species list (/species/, day, site and family pages).
    * Collapsed: search + «Фильтры» (badge = active non-default filters) + «показано N из M» + removable chips of the
-   * active filters. Expanded (remembered in localStorage `cb.filter.open`): the site-wide ListFilter (likelihood, tag),
+   * active filters. Expanded (every page load starts collapsed): the page-wide ListFilter (likelihood, tag),
    * families and sites as dropdowns of checkboxes with facet counts (FacetPicker.svelte, lib/facets.ts; side by side
    * on wide screens, one open at a time), elevation where `elev` is set, and «Признаки» (its
-   * own fold, `cb.filter.traits`): trait groups of content/traits.yaml, OR within a group, AND across groups.
+   * own fold, closed on load): trait groups of content/traits.yaml, OR within a group, AND across groups.
    * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» for
    * this visit and scrolls «Признаки» into view (`?panel=1`: the panel only); nothing is saved, and the flag is dropped
    * from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
    * Long chip groups (> FOLD_FROM chips; FacetPicker orders its rows the same way) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
-   * the rest. State: level + tag in the global `filter` store; search, families, sites, elevation, traits in `u`
+   * the rest. State: level + tag in the `filter` store (URL `lv` / `tag`); search, families, sites, elevation, traits in `u`
    * (bound; the parent keeps it in the URL and applies it).
    * Rows: one descriptor per list row (lib/filter Row); null while the parent is still reading them.
    */
@@ -25,14 +25,12 @@
   interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean }
   let { rows, total, fams, sites, traits = [], u = $bindable(), elev = false }: Props = $props();
 
-  const OPEN_KEY = 'cb.filter.open', TR_KEY = 'cb.filter.traits';
   let open = $state(false);
   let trOpen = $state(false);
   /** `?panel=traits`: scroll «Признаки» into view once it is rendered (static lists read their rows after mount) */
   let toTraits = $state(false);
   let trsEl = $state<HTMLElement | null>(null);
   onMount(() => {
-    try { open = localStorage.getItem(OPEN_KEY) === '1'; trOpen = localStorage.getItem(TR_KEY) === '1'; } catch { /* private mode */ }
     const url = new URL(location.href), panel = url.searchParams.get('panel');
     if (panel != null) {
       open = true;
@@ -47,14 +45,8 @@
     const head = document.querySelector<HTMLElement>('header.top');
     window.scrollTo({ top: trsEl.getBoundingClientRect().top + window.scrollY - (head?.offsetHeight ?? 0) - 8 });
   });
-  const toggleOpen = () => {
-    open = !open;
-    try { localStorage.setItem(OPEN_KEY, open ? '1' : '0'); } catch { /* ignore */ }
-  };
-  const toggleTrOpen = () => {
-    trOpen = !trOpen;
-    try { localStorage.setItem(TR_KEY, trOpen ? '1' : '0'); } catch { /* ignore */ }
-  };
+  const toggleOpen = () => (open = !open);
+  const toggleTrOpen = () => (trOpen = !trOpen);
   const uid = Math.random().toString(36).slice(2, 8);
 
   const famName = (f: FamOpt) => f.ru ?? f.en ?? f.sci;

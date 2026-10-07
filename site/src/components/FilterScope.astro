@@ -1,9 +1,9 @@
 ---
 /**
- * Wrapper for a static species list that follows the site-wide filter and the page's own narrowing (lib/filter.ts;
+ * Wrapper for a static species list that follows the page's filter (URL `lv` / `tag`) and the page's own narrowing (lib/filter.ts;
  * mount ScopeFilter.svelte inside, client:load). Children mark items with data-st / data-int / data-nend / data-end /
  * data-new + data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts) and groups with data-lf-group. The inline script
- * at the end applies the saved filter and the URL state while the page is still parsing, so the first paint is already
+ * at the end applies the URL state (filter and narrowing) while the page is still parsing, so the first paint is already
  * filtered. `key`: URL parameter prefix when a page has two lists (`d` -> `d-q`, `d-fam`, `d-site`).
  */
 import { applyFilterDom, readFilter, readNarrow, rowOf, rowPasses, scopeCtx } from '@lib/filter';
