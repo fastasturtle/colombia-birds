@@ -130,7 +130,8 @@ export interface Row { st: string; int: boolean; nend: boolean; end: boolean; fa
 /** FilterBar facet options (lib/data facetOptions). */
 export interface FamOpt { code: string; ru: string | null; en: string | null; sci: string }
 /** days: route days in short form («3 окт, 23–24 окт»), absent for a site off the itinerary */
-export interface SiteOpt { id: string; name: string; days?: string }
+/** dates: the site's route dates when the «Место» picker orders by route day (lib/data facetOptions) */
+export interface SiteOpt { id: string; name: string; days?: string; dates?: string[] }
 
 /** Lower case, ё -> е: both the indexed names and the typed query go through it. */
 export const normQ = (s: string) => s.toLowerCase().replace(/ё/g, 'е');

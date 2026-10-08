@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
 import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
-import { sites, regions, siteSpecies, speciesForSites, daysForSite, siteDaysShort, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import RouteSort from '../../components/RouteSort.astro';
+import { sites, regions, siteSpecies, speciesForSites, daysForSite, siteDaysShort, sortSitesByRoute, routeAttrs, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -17,7 +18,9 @@ const facets = listFacets(items.map((x) => ({ id: x.id, family: famOf.get(x.id) 
 const nVis = dc.total;
 const days = daysForSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
+// «Рядом»: by route day (today, upcoming, past most recent first), re-sorted in the browser by RouteSort
 const othersTour = others.filter((o) => !isOptionalSite(o.id));
+const othersTourSorted = sortSitesByRoute(othersTour.map((o, i) => ({ id: o.id, o, i })));
 const othersOpt = others.filter((o) => isOptionalSite(o.id));
 const opt = isOptionalSite(s.id);
 const base = import.meta.env.BASE_URL;
@@ -61,7 +64,8 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   {othersTour.length > 0 && (
     <>
       <h2>Рядом, {region?.name_ru}</h2>
-      <p>{othersTour.map((o) => <a class="chip tap" href={`${base}sites/${o.id}/`}>{o.name_ru || o.name}{siteDaysShort(o.id) && <span class="sdays">{siteDaysShort(o.id)}</span>}</a>)}</p>
+      <p>{othersTourSorted.map(({ o, i }) => <a class="chip tap" href={`${base}sites/${o.id}/`} {...routeAttrs(o.id, i)}>{o.name_ru || o.name}{siteDaysShort(o.id) && <span class="sdays">{siteDaysShort(o.id)}</span>}</a>)}</p>
+      <RouteSort />
     </>
   )}
   {othersOpt.length > 0 && (

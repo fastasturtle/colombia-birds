@@ -34,3 +34,28 @@ export function siteDaysFromDates(dates: string[], pageDate?: string): string {
   if (pageDate && dates.every((d) => d === pageDate)) return '';
   return fmtDaysShort(dates);
 }
+
+/** Today in Bogotá (the tour's clock) as yyyy-mm-dd. */
+export function bogotaToday(now = new Date()): string {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota' }).format(now);
+}
+/** routeRank of a place with no route days: after every dated one. */
+export const NO_ROUTE_DAYS = 1e9;
+/**
+ * Sort key of a place by its route days relative to `today` (lower comes first): today 0, a day n days ahead n,
+ * a day n days ago 1e5 + n (so past days follow the future ones, most recent first); a place visited on several
+ * days takes its best one; NO_ROUTE_DAYS without days. The inline `routeSort` in Base.astro repeats this rule.
+ */
+export function routeRank(dates: string[], today: string): number {
+  const t = Date.parse(today);
+  let best = NO_ROUTE_DAYS;
+  for (const d of dates) {
+    const n = Math.round((Date.parse(d) - t) / 864e5);
+    best = Math.min(best, n >= 0 ? n : 1e5 - n);
+  }
+  return best;
+}
+/** Stable sort by routeRank: ties (and places without days, at the end) keep their given order. */
+export function sortByRoute<T>(xs: T[], datesOf: (x: T) => string[], today: string): T[] {
+  return xs.map((x, i) => ({ x, i, r: routeRank(datesOf(x), today) })).sort((a, b) => a.r - b.r || a.i - b.i).map((o) => o.x);
+}

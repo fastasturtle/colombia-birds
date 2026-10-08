@@ -27,6 +27,21 @@ const path = Astro.url.pathname;
     <link rel="manifest" href={`${base}manifest.webmanifest`} />
     <meta name="build-version" content={buildId} />
     <title>{title} · Птицы Колумбии</title>
+    <script is:inline>
+      // Place lists by route day (RouteSort.astro calls this right after a list, before first paint): re-sorts the
+      // box's children that carry data-rd (route dates) / data-ri (order before sorting) against Bogotá today, the
+      // rule of lib/dates routeRank, so a page cached offline days ago is still right. Other children stay put.
+      window.routeSort = function (box) {
+        try {
+          var t = Date.parse(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota' }).format(new Date()));
+          var els = box && !isNaN(t) ? [].slice.call(box.querySelectorAll(':scope > [data-rd]')) : [];
+          var rank = function (e) { return e.dataset.rd.split(' ').reduce(function (b, d) { var n = Math.round((Date.parse(d) - t) / 864e5); return Math.min(b, n >= 0 ? n : 1e5 - n); }, 1e9); };
+          var marks = els.map(function (e) { var m = document.createComment(''); e.before(m); return m; });
+          els.map(function (e) { return [rank(e), +e.dataset.ri, e]; }).sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; })
+            .forEach(function (x, i) { marks[i].replaceWith(x[2]); });
+        } catch (e) {}
+      };
+    </script>
   </head>
   <body>
     <header class="top">

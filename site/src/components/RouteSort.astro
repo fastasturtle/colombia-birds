@@ -1,0 +1,7 @@
+---
+/**
+ * Place right after a static list of places sorted at build time with sortSitesByRoute (lib/data) whose items carry
+ * routeAttrs: re-sorts them by route day against the viewer's clock before first paint (window.routeSort, Base.astro).
+ */
+---
+<script is:inline>window.routeSort && routeSort(document.currentScript.previousElementSibling);</script>

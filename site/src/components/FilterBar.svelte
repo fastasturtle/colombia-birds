@@ -166,7 +166,9 @@
     return { main, rest };
   }
   let famOpts = $derived<PickOpt[]>(fams.map((f) => ({ key: f.code, label: famName(f), sub: f.sci, hint: f.ru && f.en ? `${f.en} · ${f.sci}` : f.sci, terms: [f.ru, f.en] })));
-  let siteOpts = $derived<PickOpt[]>(sites.map((s) => ({ key: s.id, label: s.name, sub: s.days, plain: true })));
+  let siteOpts = $derived<PickOpt[]>(sites.map((s) => ({ key: s.id, label: s.name, sub: s.days, plain: true, dates: s.dates })));
+  /** places carry route dates (lib/data facetOptions, except on day pages): the picker orders them by route day */
+  const byRoute = $derived(sites.some((s) => s.dates));
 </script>
 
 {#snippet chipGroup(g: string, opts: Opt[], sel: string[], onpick: (v: string) => void)}
@@ -214,7 +216,7 @@
           {#if sites.length > 1}
             <fieldset class="grp">
               <legend>Место{#if u.site.length}<span class="n">{" · "}{u.site.length}</span>{/if}</legend>
-              <FacetPicker name="Выбор мест" options={siteOpts} sel={u.site} counts={rows ? (counts.site ?? {}) : null} fold={FOLD_FROM}
+              <FacetPicker name="Выбор мест" options={siteOpts} sel={u.site} counts={rows ? (counts.site ?? {}) : null} fold={FOLD_FROM} {byRoute}
                 allLabel="Все места" forms={['место', 'места', 'мест']}
                 placeholder={`Найти среди ${sites.length} ${plural(sites.length, 'места', 'мест', 'мест')}`}
                 searchLabel="Найти место" noneText="Нет такого места"

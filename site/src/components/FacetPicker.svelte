@@ -1,8 +1,8 @@
 <script lang="ts" module>
   /** label: row text, and the button text when it is the only one checked; sub: shown after it in muted italics (latin
    * name), or upright with `plain` (a site's route days; then it is not searched either); hint: tooltip prefix;
-   * terms: extra search strings */
-  export interface PickOpt { key: string; label: string; sub?: string | null; plain?: boolean; hint?: string | null; terms?: (string | null | undefined)[] }
+   * terms: extra search strings; dates: a site's route dates (with `byRoute`) */
+  export interface PickOpt { key: string; label: string; sub?: string | null; plain?: boolean; hint?: string | null; terms?: (string | null | undefined)[]; dates?: string[] }
   /** the close function of the picker that is open now: opening another one closes it (one dropdown at a time) */
   let closeOpen: (() => void) | null = null;
 </script>
@@ -13,7 +13,9 @@
    * («Все места» / «Чикаке» / «3 места») that opens a dropdown with a search box and one checkbox row per option
    * (OR between the checked ones). Counts as lib/facets.ts gives them: absolute, or «+N» once something is checked
    * (species the row would add); zero rows dimmed. Options come in their given order (taxonomic for families, route
-   * for sites); when the list is long (> fold), rows with a count (and checked ones) first, then the rest.
+   * for sites); when the list is long (> fold), rows with a count (and checked ones) first, then the rest. With `byRoute`
+   * (places) the rows go by route day against the viewer's clock instead (lib/dates sortByRoute: today, upcoming, past
+   * most recent first, no days last), checked ones included, so a row never jumps when it is toggled.
    * Search: the option's label, sub and terms, ignoring case, ё/е and accents.
    * Closes on outside click, Escape (focus back to the button), Tab out and when another picker opens; opening focuses
    * the search, ↓ / ↑ move between the search and the rows, Enter or Space toggles a row.
@@ -21,11 +23,14 @@
   import { onMount } from 'svelte';
   import { normQ, afterPaint } from '../lib/filter';
   import { plural } from '../lib/facets';
+  import { sortByRoute, bogotaToday } from '../lib/dates';
 
   interface Props {
     /** group name for screen readers («Выбор мест») */
     name: string;
     options: PickOpt[]; sel: string[]; counts: Record<string, number> | null; fold: number;
+    /** order rows by route day (options carry `dates`) instead of «with a count first» */
+    byRoute?: boolean;
     /** button text with nothing checked («Все места») */
     allLabel: string;
     /** noun after a number of checked options: 1 / 2–4 / 5+ («место», «места», «мест») */
@@ -33,7 +38,7 @@
     placeholder: string; searchLabel: string; noneText: string;
     onpick: (key: string) => void; onclear: () => void;
   }
-  const { name, options, sel, counts, fold, allLabel, forms, placeholder, searchLabel, noneText, onpick, onclear }: Props = $props();
+  const { name, options, sel, counts, fold, byRoute = false, allLabel, forms, placeholder, searchLabel, noneText, onpick, onclear }: Props = $props();
 
   const uid = Math.random().toString(36).slice(2, 8);
   let open = $state(false);
@@ -49,6 +54,8 @@
   const key = (s: string) => normQ(s).normalize('NFD').replace(/\p{M}/gu, '');
   const keys = $derived(new Map(options.map((o) => [o.key, [o.label, o.plain ? null : o.sub, ...(o.terms ?? [])].filter((x): x is string => !!x).map(key)])));
   let ordered = $derived.by(() => {
+    // the clock is read when the list is (re)built, i.e. in the browser once the dropdown opens
+    if (byRoute) return sortByRoute(options, (o) => o.dates ?? [], bogotaToday());
     if (!counts || options.length <= fold) return options;
     const main: PickOpt[] = [], rest: PickOpt[] = [];
     for (const o of options) (sel.includes(o.key) || (counts[o.key] ?? 0) > 0 ? main : rest).push(o);
