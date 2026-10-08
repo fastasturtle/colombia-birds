@@ -8,7 +8,7 @@ import { searchKey } from './filter';
 // content.ts imports this module too; the cycle is safe, both only call each other inside functions
 import { speciesCards } from './content';
 import { traitOpts, traitToken } from './traits';
-import { siteDaysFromDates } from './dates';
+import { siteDaysFromDates, bogotaToday, routeRank, sortByRoute } from './dates';
 
 const DATA = join(process.cwd(), '..', 'data');
 /** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
@@ -333,16 +333,20 @@ export function enAltName(spId: string): string | null {
  * rows: family code and the row's site ids (sitesListing).
  */
 /** Site options carry `days`, the site's route days in short form (siteDaysShort; omitted when empty), shown muted
- * after the name in the «Место» picker; pageDate (day pages) drops it for a site visited only on that date. */
+ * after the name in the «Место» picker; pageDate (day pages) drops it for a site visited only on that date.
+ * Without pageDate the sites are ordered by route day (sortSitesByRoute, Bogotá today at build time) and carry
+ * `dates` (route dates, [] when none) so the picker re-sorts them against the viewer's clock; a day page lists its
+ * own sites and keeps siteOrder (itinerary order). */
 export function facetOptions(rows: { family: string; sites: string[] }[], siteOrder: string[], pageDate?: string) {
   const famSet = new Set(rows.map((r) => r.family));
   const siteSet = new Set(rows.flatMap((r) => r.sites));
   const siteOf = sitesById();
+  const present = siteOrder.filter((id) => siteSet.has(id));
   return {
     fams: families().filter((f) => famSet.has(f.code)).map((f) => ({ code: f.code, ru: f.names.ru ?? null, en: f.names.en ?? null, sci: f.sci })),
-    sites: siteOrder.filter((id) => siteSet.has(id)).map((id) => {
+    sites: (pageDate ? present : sortSitesByRoute(present)).map((id) => {
       const days = siteDaysShort(id, pageDate);
-      return { id, name: siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id, ...(days ? { days } : {}) };
+      return { id, name: siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id, ...(days ? { days } : {}), ...(pageDate ? {} : { dates: siteDates(id) }) };
     }),
   };
 }
@@ -419,7 +423,32 @@ export function daysForSite(siteId: string): Day[] {
  * '' for a site not on the itinerary. pageDate (day pages): '' if the site is visited only on that date.
  */
 export function siteDaysShort(siteId: string, pageDate?: string): string {
-  return siteDaysFromDates(daysForSite(siteId).map((d) => d.date), pageDate);
+  return siteDaysFromDates(siteDates(siteId), pageDate);
+}
+/** ISO dates of a site's route days, in itinerary order ([] off the itinerary). */
+export function siteDates(siteId: string): string[] {
+  return daysForSite(siteId).map((d) => d.date);
+}
+/**
+ * Place order by route day relative to `today` (default: Bogotá today at build time): today's sites, then upcoming
+ * days in date order, then past days most recent first; a site on several days by its best one; sites without
+ * route days last. Lower rank first (lib/dates routeRank).
+ */
+export function siteDayRank(siteId: string, today = bogotaToday()): number {
+  return routeRank(siteDates(siteId), today);
+}
+/** Stable sort of site ids (or anything with `id`) by siteDayRank; ties keep the given order. */
+export function sortSitesByRoute<T extends string | { id: string }>(xs: T[], today = bogotaToday()): T[] {
+  return sortByRoute(xs, (x) => siteDates(typeof x === 'string' ? x : x.id), today);
+}
+/**
+ * Attributes for an item of a static place list sorted with sortSitesByRoute, so the inline `routeSort` (Base.astro,
+ * RouteSort.astro) can re-sort it against the viewer's clock: data-rd = the site's route dates, data-ri = the item's
+ * index before sorting (ties). Nothing for a site without route days: it stays where it is (at the end).
+ */
+export function routeAttrs(siteId: string, i: number): Record<string, string | undefined> {
+  const ds = siteDates(siteId);
+  return ds.length ? { 'data-rd': ds.join(' '), 'data-ri': String(i) } : {};
 }
 
 /* ---- Weather forecast (pipeline step weather, data/weather.json from Open-Meteo); optional, refreshed daily by CI ---- */
