@@ -1,6 +1,6 @@
 <script lang="ts">
   import basemap from '../generated/basemap.json';
-  import { siteDaysFromDates } from '../lib/dates';
+  import { fmtDaysShort, siteDaysFromDates } from '../lib/dates';
   interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null; optional?: boolean }
   interface Day { date: string; day: number | string; title_ru: string; sites: string[]; overnight_site: string | null; travel_ru?: string; region: string; elev_sleep: number | null }
   interface Region { id: string; name_ru: string; color: string }
@@ -16,18 +16,17 @@
   const W = basemap.viewBox[2], H = basemap.viewBox[3];
   const P = (lon: number, lat: number) => ({ x: (lon - lon0) * kx * scale, y: (lat1 - lat) * scale });
 
-  // route: overnight sites in day order, falling back to first site of the day
-  const stopDays = days.map((d) => ({ d, s: siteOf[d.overnight_site ?? d.sites[0]] })).filter((x) => x.s);
+  // route: overnight sites in day order; a day without overnight_site (night in Bogotá) is not a stop
+  const stopDays = days.flatMap((d) => (d.overnight_site && siteOf[d.overnight_site] ? [{ d, s: siteOf[d.overnight_site] }] : []));
   // consecutive stops joined by segments; a day whose travel mentions a flight draws a dotted "flight" segment
   const segs = stopDays.slice(1).map(({ d, s }, i) => ({ a: P(stopDays[i].s.lon, stopDays[i].s.lat), b: P(s.lon, s.lat), flight: /рейс|перел[её]т/i.test(d.travel_ru ?? '') }))
     .filter(({ a, b }) => a.x !== b.x || a.y !== b.y);
-  const dayNums = new Map<string, number[]>();
-  for (const { d, s } of stopDays) if (typeof d.day === 'number') dayNums.set(s.id, [...(dayNums.get(s.id) ?? []), d.day]);
-  const fmtDays = (ns: number[]) => {
-    const u = [...new Set(ns)].sort((a, b) => a - b), parts: string[] = [];
-    for (let i = 0; i < u.length; ) { let j = i; while (j + 1 < u.length && u[j + 1] === u[j] + 1) j++; parts.push(j > i ? `${u[i]}–${u[j]}` : `${u[i]}`); i = j + 1; }
-    return parts.join(', ');
-  };
+  // night dates per overnight site (ISO, the date of the day whose night was spent there)
+  const dayNums = new Map<string, string[]>();
+  for (const { d, s } of stopDays) dayNums.set(s.id, [...(dayNums.get(s.id) ?? []), d.date]);
+  // same short form as the day-card chips: '15 окт', '16–17 окт', '4–6 окт, 9 окт'
+  const fmtDays = (ds: string[]) => fmtDaysShort(ds);
+  const firstNight = (id: string) => [...dayNums.get(id)!].sort()[0];
 
   // route days of a site (days whose sites include it, as daysForSite), short form for the popup
   const siteDays = (id: string) => siteDaysFromDates(days.filter((d) => d.sites.includes(id)).map((d) => d.date));
@@ -55,7 +54,7 @@
     }
     return null;
   }
-  const numLabels = markers.filter((m) => m.stop).sort((a, b) => Math.min(...dayNums.get(a.s.id)!) - Math.min(...dayNums.get(b.s.id)!))
+  const numLabels = markers.filter((m) => m.stop).sort((a, b) => firstNight(a.s.id).localeCompare(firstNight(b.s.id)))
     .map((m) => place(m.x, m.y, fmtDays(dayNums.get(m.s.id)!), 28, R_STOP + 3)).filter((l) => l !== null);
   const nearSite = (x: number, y: number) => markers.some((m) => Math.hypot(m.x - x, m.y - y) < 16);
   const places = basemap.places.map((p) => {
@@ -113,13 +112,13 @@
       {#if s.name_ru && s.name_ru !== s.name}<br />{s.name_ru}{/if}
       {#if s.elev_min != null}<br /><span class="muted">{s.elev_min}{s.elev_max != null && s.elev_max !== s.elev_min ? `–${s.elev_max}` : ''} м</span>{/if}
       {#if sd}<br /><span class="muted">в маршруте: {sd}</span>{/if}
-      {#if dayNums.has(s.id)}<br /><span class="muted">ночёвки: день {fmtDays(dayNums.get(s.id)!)}</span>{/if}
+      {#if dayNums.has(s.id)}<br /><span class="muted">ночёвки: {fmtDays(dayNums.get(s.id)!)}</span>{/if}
       {#if s.optional}<br /><span class="muted">не в программе тура</span>{/if}
       <br /><a class="more" href={`${base}sites/${s.id}/`}>подробнее →</a>
     </div>
   {/if}
 </div>
-<p class="muted note">Крупные точки — ночёвки, цифры — дни, полупрозрачные — возможные выезды из Боготы (не в программе тура); пунктир — дорога, точки — перелёт. Тап по точке — название и высота. Подложка: Natural Earth.</p>
+<p class="muted note">Крупные точки — ночёвки, подписи — даты ночёвок, полупрозрачные — возможные выезды из Боготы (не в программе тура); пунктир — дорога, точки — перелёт. Тап по точке — название и высота. Подложка: Natural Earth.</p>
 
 <div class="legend">
   {#each regions as r}<span class="chip"><i style={`background:${r.color}`}></i>{r.name_ru}</span>{/each}
