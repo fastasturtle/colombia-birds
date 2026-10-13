@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import RouteMap from '../components/RouteMap.svelte';
 import DayCard from '../components/DayCard.astro';
-import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu, plural, observations } from '@lib/data';
+import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu, plural, observations, lastChecklistDate } from '@lib/data';
+import { fmtDaysShort } from '@lib/dates';
 const days = itinerary();
 const dws = itineraryWithSpecies();
 const all = sites();
@@ -20,13 +21,15 @@ const past = dws.filter((d) => d.day.date < bogotaToday);
 const future = dws.filter((d) => d.day.date >= bogotaToday);
 // «Увидели …» teaser (Anya's eBird checklists, /seen/)
 const seenSt = observations()?.stats;
+const seenLast = lastChecklistDate();
+const seenTitle = seenSt ? `Увидели ${seenSt.species} ${plural(seenSt.species, 'вид', 'вида', 'видов')}, ${seenSt.lifers} ${plural(seenSt.lifers, 'новый', 'новых', 'новых')} для Ани${seenLast ? `; чеклисты по ${fmtDateRu(seenLast, false)}` : ''}` : '';
 ---
 <Base title="Маршрут" description="Маршрут тура по южной Колумбии, октябрь 2026: дни, локации, вероятные виды">
   <h1>Маршрут</h1>
   {days.length === 0 ? <p class="card muted">Данные маршрута ещё собираются.</p> : (
     <>
       <p class="muted lead">{fmtDateRu(start!, false)} – {fmtDateRu(end!, false)} 2026 · Богота, Уила, Путумайо, Нариньо</p>
-      {seenSt && <a class="seen-teaser" href={`${import.meta.env.BASE_URL}seen/`}><span class="ck" aria-hidden="true">✓</span><span class="tx">Увидели <b>{seenSt.species}</b> {plural(seenSt.species, 'вид', 'вида', 'видов')}, <b>{seenSt.lifers}</b> {plural(seenSt.lifers, 'новый', 'новых', 'новых')} для Ани</span><span class="ar" aria-hidden="true">→</span></a>}
+      {seenSt && <a class="seen-teaser" href={`${import.meta.env.BASE_URL}seen/`} title={seenTitle}><span class="ck" aria-hidden="true">✓</span><span class="tx"><b>{seenSt.species}</b> {plural(seenSt.species, 'вид', 'вида', 'видов')} · <b>{seenSt.lifers}</b> {plural(seenSt.lifers, 'лайфер', 'лайфера', 'лайферов')}{seenLast && <span class="dt"> · по {fmtDaysShort([seenLast])}</span>}</span><span class="ar" aria-hidden="true">→</span></a>}
       <section class="today" aria-label="Сегодня" data-start={start} data-end={end} data-first={firstDay.day.date}>
         <div class="tlabel"><span class="tl">Первый день тура</span> <span class="countdown muted"></span></div>
         {dws.map((d) => <DayCard d={d} compact hidden={d !== firstDay} />)}
@@ -121,6 +124,7 @@ const seenSt = observations()?.stats;
   .seen-teaser b { color: var(--seen-fg); }
   .seen-teaser .ck { color: var(--seen-fg); font-weight: 700; }
   .seen-teaser .tx { flex: 1; min-width: 0; }
+  .seen-teaser .dt { color: var(--muted); font-size: .85em; white-space: nowrap; }
   .seen-teaser .ar { color: var(--seen-fg); }
   .today { margin: 12px 0 18px; }
   .tlabel { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 600; color: var(--accent); }
