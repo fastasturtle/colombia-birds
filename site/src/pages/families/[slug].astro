@@ -6,7 +6,7 @@ import ThumbLightbox from '../../components/ThumbLightbox.svelte';
 import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import StateWord from '../../components/StateWord.astro';
-import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, speciesNames, sitesListing, listFacets, routeSiteIds, type IndexEntry } from '@lib/data';
+import { families, speciesIndex, focusSpecies, itineraryWithSpecies, fmtDateRu, dayLabel, MEDIA_BASE, groupOfFamily, orderRu, representativeSpecies, plural, routeState, whyInteresting, cmpPlace, WHY_RU, speciesNames, sitesListing, listFacets, routeSiteIds, type IndexEntry, seenSpecies, seenTitle } from '@lib/data';
 import { familyContent } from '@lib/content';
 import { linkify } from '@lib/linkify';
 export function getStaticPaths() {
@@ -49,6 +49,7 @@ const route = routeSiteIds();
 const rows = sp.map((s) => ({ s, state: routeState(s.id), why: whyInteresting(s.id), at: sitesListing(s.id, route) }));
 const dayFacets = listFacets(byDay.flatMap((d) => d.list.map((x) => ({ id: x.s.id, family: x.s.family, sites: x.at }))), [...new Set(byDay.flatMap((d) => d.day.sites))]);
 const allFacets = listFacets(rows.map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), route);
+const seen = seenSpecies();
 ---
 <Base title={title}>
   <p class="muted crumb"><a href={`${base}families/`}>Семейства</a>{group && <> › <a href={`${base}groups/${group.id}/`}>{group.name_ru}</a></>}</p>
@@ -109,7 +110,7 @@ const allFacets = listFacets(rows.map((r) => ({ id: r.s.id, family: r.s.family, 
               <div class="chips">
                 {list.map(({ s, p, at }) => (
                   <a class={`chip sp${p.interesting ? ' hl' : ''}`} href={`${base}species/${s.id}/`} data-st={p.state} data-int={p.interesting ? '' : undefined} data-nend={s.endemic || s.near_endemic ? '' : undefined} data-end={s.endemic ? '' : undefined} {...dayFacets.attrs(s, at)}
-                    title={[speciesNames(s).alt, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{p.interesting && '★ '}<span data-n>{speciesNames(s).main}</span> <StateWord state={p.state} /></a>
+                    title={[speciesNames(s).alt, p.interesting && `интересная: ${p.why.map((w) => WHY_RU[w]).join(', ')}`].filter(Boolean).join(' · ') || undefined}>{seen.has(s.id) && <span class="ck" title={seenTitle(s.id)}>✓ </span>}{p.interesting && '★ '}<span data-n>{speciesNames(s).main}</span> <StateWord state={p.state} /></a>
                 ))}
               </div>
             </li>
@@ -177,4 +178,6 @@ const allFacets = listFacets(rows.map((r) => ({ id: r.s.id, family: r.s.family, 
   .list-h { font-size: 1.1rem; margin: 22px 0 4px; }
   .list-h .cnt { font-size: .85rem; font-weight: 500; margin-left: 6px; white-space: nowrap; }
   .chip.hl :global(.stw) { color: #fff; opacity: .85; }
+  .ck { color: var(--seen-fg); font-weight: 700; }
+  .chip.hl .ck { color: #fff; }
 </style>

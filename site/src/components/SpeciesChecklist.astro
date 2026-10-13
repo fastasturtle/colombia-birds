@@ -2,10 +2,11 @@
 /**
  * Species of a place grouped by family in taxonomic order, following the shared filter
  * (wrap in FilterScope and mount ScopeFilter above). Rows carry data-st / data-int / data-nend / data-end; families are data-lf-group
- * with live counts. Long lists (>= collapseFrom) render every family as a closed <details>.
+ * with live counts. «✓ видели» (SeenMark) on species seen on the trip. Long lists (>= collapseFrom) render every family as a closed <details>.
  */
 import StateWord from './StateWord.astro';
 import EndemicMark from './EndemicMark.svelte';
+import SeenMark from './SeenMark.astro';
 import { families, speciesIndex, speciesNames, mediaUrl, IUCN_RU, WHY_RU, plural, type IndexEntry, type State, type Why } from '@lib/data';
 export interface Item { id: string; n: number; state: State; why: Why[] }
 /** fa: FilterBar row attributes (lib/data listFacets().attrs) */
@@ -43,6 +44,7 @@ const recs = (n: number) => (n > 0 ? `${n} ${plural(n, 'запись', 'запи
                 <span class="l1">{r.why.length > 0 && !r.s.endemic && !r.s.near_endemic && <b class="star" title={`интересная: ${r.why.map((w) => WHY_RU[w]).join(', ')}`}>★</b>}<strong data-n>{r.nm.main}</strong></span>
                 <span class="l2 muted" data-n>{r.nm.alt && <>{r.nm.alt} · </>}<span class="sci">{r.s.sci}</span></span>
                 <span class="tags">
+                  <SeenMark id={r.s.id} />
                   <StateWord state={r.state} title={recs(r.n)} />
                   {r.s.endemic && <EndemicMark kind="end" />}
                   {r.s.near_endemic && !r.s.endemic && <EndemicMark kind="near" />}

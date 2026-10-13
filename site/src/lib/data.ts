@@ -8,7 +8,7 @@ import { searchKey } from './filter';
 // content.ts imports this module too; the cycle is safe, both only call each other inside functions
 import { speciesCards } from './content';
 import { traitOpts, traitToken } from './traits';
-import { siteDaysFromDates, bogotaToday, routeRank, sortByRoute } from './dates';
+import { siteDaysFromDates, fmtDaysShort, bogotaToday, routeRank, sortByRoute } from './dates';
 
 const DATA = join(process.cwd(), '..', 'data');
 /** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
@@ -354,6 +354,7 @@ export function facetOptions(rows: { family: string; sites: string[] }[], siteOr
  * Everything a static list needs for FilterBar (FilterScope + ScopeFilter): the facet options, `ctx` for the scope
  * (data-lf-ctx: family codes with their searchable names, site ids; rows refer to both by index to keep pages small)
  * and `attrs(s, siteIds)`, the row's data-fam / data-sites / data-q / data-tr to spread next to data-st.
+ * data-seen marks a species seen on the trip (seenSpecies, data/observations.json) for the «Видели» filter.
  * Traits: when a row has a species card, ctx.tv carries the trait vocabulary once (lib/traits traitOpts) and each
  * card row a data-tr token (traitToken, a few characters); rows without a card have no data-tr.
  */
@@ -372,7 +373,8 @@ export function listFacets(rows: { id: string; family: string; sites: string[] }
       const at = siteIds.filter((x) => si.has(x)).map((x) => si.get(x)).join(' ');
       const q = searchKey([!shown.alt ? speciesNames(s).alt : null, !shown.sci ? s.sci : null, enAltName(s.id)]);
       const card = cards.get(s.id);
-      return { 'data-fam': String(fi.get(s.family) ?? ''), 'data-sites': at || undefined, 'data-q': q || undefined, 'data-tr': card ? traitToken(card.traits) : undefined };
+      return { 'data-fam': String(fi.get(s.family) ?? ''), 'data-sites': at || undefined, 'data-q': q || undefined, 'data-tr': card ? traitToken(card.traits) : undefined,
+        'data-seen': seenSpecies().has(s.id) ? '' : undefined };
     },
   };
 }
@@ -550,3 +552,99 @@ export function representativeSpecies(code: string, n = 3): IndexEntry[] {
   ];
   return [...new Set(tiers.flat())].slice(0, n);
 }
+
+/* ---- Our sightings on the trip (pipeline step observations, data/observations.json from Anya's eBird checklists);
+ * optional: without the file every helper returns empty / null and the pages look as before ---- */
+export interface ObsChecklist {
+  id: string; date: string; time: string | null;
+  /** route site (hotspot id, the day's site named in the location, or a site within 2 km); null = off the route sites */
+  site: string | null;
+  /** itinerary date, null when the date is not a route day */
+  day: string | null;
+  location: string; location_id: string | null; lat: number | null; lon: number | null; protocol: string;
+  duration_min: number | null; distance_km: number | null; observers: number | null; comments: string | null; n_species: number;
+}
+export interface ObsEntry { cl: string; date: string; time: string | null; site: string | null; count: number | null; details: string | null }
+export interface SeenSpecies {
+  first: string;
+  /** not on Anya's life list before the trip */
+  lifer: boolean;
+  n_checklists: number; sites: string[]; days: string[]; obs: ObsEntry[];
+}
+/** new = species first seen on the trip in that group (day / site) */
+export interface SeenStats { species: number; new: number; lifers: number; checklists: number; observations: number }
+export interface Observations {
+  observer: string; source: string; exported: string; trip_start: string;
+  checklists: ObsChecklist[];
+  species: Record<string, SeenSpecies>;
+  unmatched: { sci: string; name: string; n: number; dates: string[] }[];
+  stats: { species: number; lifers: number; checklists: number; observations: number; days: number;
+    by_day: Record<string, SeenStats>; by_site: Record<string, SeenStats>; off_site: SeenStats | null };
+}
+let _obs: Observations | null | undefined;
+/** The whole observations file (species limited to the index), or null when it is missing or has no checklists. */
+export function observations(): Observations | null {
+  if (_obs !== undefined) return _obs;
+  const o = readJson<Observations | null>('observations.json', null);
+  if (!o || !Array.isArray(o.checklists) || !o.checklists.length || !o.species) return (_obs = null);
+  const known = new Set(speciesIndex().map((s) => s.id));
+  o.species = Object.fromEntries(Object.entries(o.species).filter(([id]) => known.has(id)));
+  return (_obs = o);
+}
+let _seen: Set<string> | null = null;
+/** Species seen on the trip (slugs). */
+export function seenSpecies(): Set<string> {
+  return (_seen ??= new Set(Object.keys(observations()?.species ?? {})));
+}
+/** A species' sightings, null when not seen. */
+export function seenInfo(id: string): SeenSpecies | null {
+  return observations()?.species[id] ?? null;
+}
+export interface SeenGroup { stats: SeenStats; checklists: ObsChecklist[]; species: Set<string> }
+function seenGroup(stats: SeenStats | null | undefined, test: (c: ObsChecklist) => boolean): SeenGroup | null {
+  const o = observations();
+  if (!o || !stats) return null;
+  const checklists = o.checklists.filter(test);
+  const ids = new Set(checklists.map((c) => c.id));
+  const species = new Set(Object.entries(o.species).filter(([, s]) => s.obs.some((x) => ids.has(x.cl))).map(([id]) => id));
+  return { stats, checklists, species };
+}
+/** Checklists at a site, their species and counts; null when none. */
+export function seenAtSite(siteId: string): SeenGroup | null {
+  return seenGroup(observations()?.stats.by_site[siteId], (c) => c.site === siteId);
+}
+/** Checklists of a date (with or without a site), their species and counts; null when none. */
+export function seenOnDay(date: string): SeenGroup | null {
+  return seenGroup(observations()?.stats.by_day[date], (c) => c.date === date);
+}
+/** Checklists with no route site (city parks, roadside stops). */
+export function seenOffSite(): SeenGroup | null {
+  return seenGroup(observations()?.stats.off_site, (c) => c.site == null);
+}
+/** Where a checklist was: the site's Russian name, else its eBird location name. */
+export function checklistPlace(c: ObsChecklist): string {
+  const s = c.site ? sitesById().get(c.site) : null;
+  return s ? s.name_ru || s.name : c.location;
+}
+/** Hover text of the ✓ mark: «видели 4 окт, Эль-Энканто · 3 чеклиста · новый вид для Ани». */
+export function seenTitle(id: string): string {
+  const s = seenInfo(id);
+  if (!s) return '';
+  const first = observations()!.checklists.find((c) => c.id === s.obs[0]?.cl);
+  const parts = [`видели ${fmtDaysShort([s.first])}${first ? `, ${checklistPlace(first)}` : ''}`];
+  if (s.n_checklists > 1) parts.push(`${s.n_checklists} ${plural(s.n_checklists, 'чеклист', 'чеклиста', 'чеклистов')}`);
+  if (s.lifer) parts.push('новый вид для Ани');
+  return parts.join(' · ');
+}
+/** «41 вид, 38 новых для Ани (3 чеклиста)» */
+export function seenSummary(st: SeenStats): string {
+  return `${st.species} ${plural(st.species, 'вид', 'вида', 'видов')}` +
+    (st.lifers ? `, ${st.lifers} ${plural(st.lifers, 'новый', 'новых', 'новых')} для Ани` : '') +
+    ` (${st.checklists} ${plural(st.checklists, 'чеклист', 'чеклиста', 'чеклистов')})`;
+}
+/** «41 вид · 38 лайферов» for the home day cards and site cards (after a green ✓) */
+export function seenShort(st: SeenStats): string {
+  return `${st.species} ${plural(st.species, 'вид', 'вида', 'видов')}` +
+    (st.lifers ? ` · ${st.lifers} ${plural(st.lifers, 'лайфер', 'лайфера', 'лайферов')}` : '');
+}
+export const PROTOCOL_RU: Record<string, string> = { traveling: 'маршрут', stationary: 'на месте', casual: 'попутно', historical: 'исторический', area: 'площадка', incidental: 'попутно' };

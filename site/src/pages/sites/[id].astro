@@ -4,7 +4,8 @@ import SpeciesChecklist from '../../components/SpeciesChecklist.astro';
 import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import RouteSort from '../../components/RouteSort.astro';
-import { sites, regions, siteSpecies, speciesForSites, daysForSite, siteDaysShort, sortSitesByRoute, routeAttrs, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, type Site } from '@lib/data';
+import SeenChecklists from '../../components/SeenChecklists.astro';
+import { sites, regions, siteSpecies, speciesForSites, daysForSite, siteDaysShort, sortSitesByRoute, routeAttrs, hotspotCheck, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, defaultCounts, listFacets, speciesIndex, fmtDateRu, dayLabel, plural, seenAtSite, type Site } from '@lib/data';
 export function getStaticPaths() {
   return sites().map((s) => ({ params: { id: s.id }, props: { s } }));
 }
@@ -17,6 +18,7 @@ const famOf = new Map(speciesIndex().map((x) => [x.id, x.family]));
 const facets = listFacets(items.map((x) => ({ id: x.id, family: famOf.get(x.id) ?? '', sites: [] })), []);
 const nVis = dc.total;
 const days = daysForSite(s.id);
+const seenHere = seenAtSite(s.id);
 const others = sites().filter((o) => o.region === s.region && o.id !== s.id);
 // «Рядом»: by route day (today, upcoming, past most recent first), re-sorted in the browser by RouteSort
 const othersTour = others.filter((o) => !isOptionalSite(o.id));
@@ -52,6 +54,8 @@ const gbifUrl = `https://www.gbif.org/occurrence/search?taxon_key=212&country=CO
   {s.sources?.length > 0 && (
     <p class="muted small">Источники: {s.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</p>
   )}
+
+  {seenHere && <SeenChecklists g={seenHere} on="site" />}
 
   {items.length === 0 ? <><h2>Виды</h2><p class="card muted">Данных пока нет.</p></> : (
     <FilterScope ctx={facets.ctx}>

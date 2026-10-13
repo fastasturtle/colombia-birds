@@ -1,0 +1,13 @@
+---
+/**
+ * «✓ видели» chip for a species seen on the trip (data/observations.json); nothing when not seen. Hover text: first
+ * sighting (date, place), number of checklists, «новый вид для Ани» (lib/data seenTitle). `lifer`: also the «лайфер»
+ * chip when it is new for Anya; `short`: just «✓» (photo tiles). Styles: .seen / .lifer in Base.astro.
+ */
+import { seenInfo, seenTitle } from '@lib/data';
+interface Props { id: string; lifer?: boolean; short?: boolean; class?: string }
+const { id, lifer = false, short = false, class: cls } = Astro.props;
+const info = seenInfo(id);
+const title = info ? seenTitle(id) : '';
+---
+{info && <span class:list={['seen', cls]} title={title} aria-label={short ? title : undefined}>{short ? '✓' : '✓ видели'}</span>}{info && lifer && info.lifer && <span class="lifer" title="новый вид для Ани">лайфер</span>}

@@ -12,8 +12,9 @@ import ThumbLightbox from '../../components/ThumbLightbox.svelte';
 import ScopeFilter from '../../components/ScopeFilter.svelte';
 import EndemicMark from '../../components/EndemicMark.svelte';
 import FilterScope from '../../components/FilterScope.astro';
+import SeenChecklists from '../../components/SeenChecklists.astro';
 import {
-  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, sitesListing, listFacets, siteDaysShort, fmtDateRu, dayLabel, plural, MEDIA_BASE,
+  itinerary, sites, regions, siteSpecies, speciesIndex, groups, groupOfFamily, studyList, defaultCounts, sitesListing, listFacets, siteDaysShort, fmtDateRu, dayLabel, plural, MEDIA_BASE, seenOnDay,
   type Day, type IndexEntry, type StudyEntry,
 } from '@lib/data';
 export function getStaticPaths() {
@@ -28,6 +29,7 @@ const region = regions().find((r) => r.id === day.region);
 const idx = new Map(speciesIndex().map((s) => [s.id, s]));
 const base = import.meta.env.BASE_URL;
 const study = studyList(day.date);
+const seenDay = seenOnDay(day.date);
 
 // all species of the day, grouped by bird group (groups.json order); inside a group the pipeline order
 // (interesting first, then sure > maybe > unlikely, then autumn frequency)
@@ -64,6 +66,7 @@ const short = (d: Day) => `${fmtDateRu(d.date, false)} · ${dayLabel(d)}`;
   <WeatherDay date={day.date} />
 
   {daySites.length > 0 && <div class="strip">{daySites.map((s) => <SiteCard s={s} pageDate={day.date} />)}</div>}
+  {seenDay && <SeenChecklists g={seenDay} on="day" />}
 
   {study && dayGroups.length > 0 && (
     <section>

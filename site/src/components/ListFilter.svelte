@@ -1,10 +1,13 @@
 <script lang="ts">
-  /** Species filter controls, likelihood + tag (see lib/filter.ts; kept in the page URL). Mount once per page, above the list. */
-  import { filter, LEVEL_LABEL, TAG_LABEL, TAGS, type Level } from '../lib/filter';
+  /** Species filter controls, likelihood + tag (+ «Все · Видели · Ещё нет» when `seen`: the list has a species seen on the
+   * trip) (see lib/filter.ts; kept in the page URL). Mount once per page, above the list. */
+  import { filter, LEVEL_LABEL, TAG_LABEL, SEEN_LABEL, TAGS, type Level, type Seen } from '../lib/filter';
   import EndemicMark from './EndemicMark.svelte';
   const levels: Level[] = ['sure', 'maybe', 'all'];
   /* Shown narrowest-first so «Все» sits on the right in both rows; TAGS itself stays widest-first (passesTag relies on it). */
   const tagsShown = [...TAGS].reverse();
+  const seens: Seen[] = ['all', 'yes', 'no'];
+  let { seen = false }: { seen?: boolean } = $props();
 </script>
 
 <div class="lf" role="group" aria-label="Фильтр видов">
@@ -18,6 +21,13 @@
       <button type="button" role="radio" class={t} aria-checked={$filter.tag === t} onclick={() => filter.update((f) => ({ ...f, tag: t }))}>{#if t === 'int'}<span class="star" aria-hidden="true">★&nbsp;</span>{:else if t === 'end' || t === 'near'}<span class="ic" aria-hidden="true"><EndemicMark kind={t} variant="icon" /></span>{/if}{TAG_LABEL[t]}</button>
     {/each}
   </div>
+  {#if seen || $filter.seen !== 'all'}
+    <div class="seg sn" role="radiogroup" aria-label="Видели в туре">
+      {#each seens as v}
+        <button type="button" role="radio" class={v} aria-checked={$filter.seen === v} onclick={() => filter.update((f) => ({ ...f, seen: v }))}>{#if v === 'yes'}<span class="ck" aria-hidden="true">✓&nbsp;</span>{/if}{SEEN_LABEL[v]}</button>
+      {/each}
+    </div>
+  {/if}
 </div>
 
 <style>
@@ -45,6 +55,9 @@
   :global(:root[data-theme="dark"]) .end .ic { color: #7bd389; }
   :global(:root[data-theme="dark"]) .near .ic { color: #b5d86a; }
   .seg button[aria-checked="true"] .ic { color: #fff; }
+  .ck { color: var(--seen-fg); font-weight: 700; }
+  .seg button.yes[aria-checked="true"] { background: var(--seen-fg); color: var(--bg); }
+  .seg button.yes[aria-checked="true"] .ck { color: var(--bg); }
   /* 4 segments of «◆ Эндемики · ◇ Почти-эндемики · ★ Интересные · Все» must fit a 360 px phone: shrink, keep 40 px height */
   @media (max-width: 440px) { .seg.tag button { padding: 0 5px; font-size: .74rem; } .ic { margin-right: .25em; } }
   @media (max-width: 380px) { .seg button { padding: 0 8px; font-size: .8rem; } .seg.tag button { padding: 0 3px; font-size: .7rem; } }

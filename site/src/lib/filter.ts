@@ -1,6 +1,7 @@
 /**
- * Shared species filter: «Точно · Точно и возможно · Все» + «Все · Интересные · Почти-эндемики · Эндемики».
- * One choice for the whole page, kept in the page URL (`lv=sure|maybe`, `tag=int|nend|end`; omitted at the default) and
+ * Shared species filter: «Точно · Точно и возможно · Все» + «Все · Интересные · Почти-эндемики · Эндемики» + «Все · Видели ·
+ * Ещё нет» (seen on the trip, data/observations.json; the control shows only on lists with a seen row).
+ * One choice for the whole page, kept in the page URL (`lv=sure|maybe`, `tag=int|nend|end`, `seen=1|0`; omitted at the default) and
  * applied identically to every list on it; a shared link or a reload reproduces the view.
  * Each page also remembers its own filter query (all filter params of the URL, FILTER_PARAM) in localStorage under
  * `cb.f:<path without base>` (saveState, after every URL write; removed at the default). A page opened without filter
@@ -12,7 +13,7 @@
  *
  * Static lists opt in with FilterScope.astro: items carry data-st="sure|maybe|unlikely" (+ data-int when
  * «интересная», data-nend when a Colombian near-endemic or endemic, data-end when an endemic, data-new when new
- * for the route) and data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts). The tag levels are nested:
+ * for the route, data-seen when seen on the trip) and data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts). The tag levels are nested:
  * Эндемики ⊂ Почти-эндемики ⊂ Интересные ⊂ Все; groups carry data-lf-group; counters data-lf-summary /
  * data-lf-gcount / data-lf-new. `applyFilterDom` does the rest; it is also inlined into the page (FilterScope) so the
  * first paint already matches the URL.
@@ -28,12 +29,14 @@ export type Tier = 0 | 1 | 2 | 3;
 export const TAGS: Tag[] = ['all', 'int', 'near', 'end'];
 export const tierOf = (interesting: boolean, nearEndemic: boolean, endemic: boolean): Tier =>
   endemic ? 3 : nearEndemic ? 2 : interesting ? 1 : 0;
-export interface Filter { level: Level; tag: Tag }
+/** «Все · Видели · Ещё нет»: every species / seen on the trip / not seen yet. */
+export type Seen = 'all' | 'yes' | 'no';
+export interface Filter { level: Level; tag: Tag; seen: Seen }
 /** localStorage keys of the filter before 07.10 (choice, panel / «Признаки» open state); removed on load. Exact
  * names: the per-page keys (`cb.f:…`, `cb.fp:…`) are not among them. */
 export const STALE_KEYS = ['cb.filter', 'cb.filter2', 'cb.filter.open', 'cb.filter.traits'];
-/** URL params that are filter state (`panel` is not): lv, tag, and the narrowing with an optional scope prefix (`d-q`). */
-export const FILTER_PARAM = /^(lv|tag|([a-z]+-)?(q|fam|site|elev|t))$/;
+/** URL params that are filter state (`panel` is not): lv, tag, seen, and the narrowing with an optional scope prefix (`d-q`). */
+export const FILTER_PARAM = /^(lv|tag|seen|([a-z]+-)?(q|fam|site|elev|t))$/;
 /** localStorage key of this page's state: prefix + path without the site base (`cb.f:/days/2026-10-12/`). */
 export function pageKey(prefix: string): string {
   const b = import.meta.env.BASE_URL.replace(/\/$/, ''), p = location.pathname;
@@ -47,7 +50,7 @@ export function pageKey(prefix: string): string {
 export function restoreUrl(base: string): void {
   try {
     const u = new URL(location.href), b = base.replace(/\/$/, ''), p = u.pathname;
-    for (const k of u.searchParams.keys()) if (/^(lv|tag|([a-z]+-)?(q|fam|site|elev|t))$/.test(k)) return;
+    for (const k of u.searchParams.keys()) if (/^(lv|tag|seen|([a-z]+-)?(q|fam|site|elev|t))$/.test(k)) return;
     const saved = localStorage.getItem('cb.f:' + (p.startsWith(b) ? p.slice(b.length) : p));
     if (!saved) return;
     new URLSearchParams(saved).forEach((v, k) => u.searchParams.set(k, v));
@@ -63,25 +66,27 @@ export function saveState(): void {
     if (s) localStorage.setItem(k, s); else localStorage.removeItem(k);
   } catch { /* storage off */ }
 }
-export const DEFAULT_FILTER: Filter = { level: 'all', tag: 'all' };
+export const DEFAULT_FILTER: Filter = { level: 'all', tag: 'all', seen: 'all' };
 export const LEVEL_LABEL: Record<Level, string> = { sure: 'Точно', maybe: 'Точно и возможно', all: 'Все' };
 export const TAG_LABEL: Record<Tag, string> = { all: 'Все', int: 'Интересные', near: 'Почти-эндемики', end: 'Эндемики' };
+export const SEEN_LABEL: Record<Seen, string> = { all: 'Все', yes: 'Видели', no: 'Ещё нет' };
 
-/** The filter in the URL (`lv`, `tag`; the tag «Почти-эндемики» is `nend` there) or the default («Все» + «Все»).
- * Self-contained: inlined into pages via toString(). */
-export function readFilter(): { level: 'sure' | 'maybe' | 'all'; tag: 'all' | 'int' | 'near' | 'end' } {
+/** The filter in the URL (`lv`, `tag`, `seen`; the tag «Почти-эндемики» is `nend` there, «Видели» / «Ещё нет» are
+ * `seen=1` / `seen=0`) or the default (all «Все»). Self-contained: inlined into pages via toString(). */
+export function readFilter(): { level: 'sure' | 'maybe' | 'all'; tag: 'all' | 'int' | 'near' | 'end'; seen: 'all' | 'yes' | 'no' } {
   let level: 'sure' | 'maybe' | 'all' = 'all', tag: 'all' | 'int' | 'near' | 'end' = 'all';
-  const p = new URLSearchParams(location.search), l = p.get('lv'), t = p.get('tag');
+  const p = new URLSearchParams(location.search), l = p.get('lv'), t = p.get('tag'), sn = p.get('seen');
   if (l === 'sure' || l === 'maybe') level = l;
   if (t === 'int' || t === 'end') tag = t;
   else if (t === 'nend' || t === 'near') tag = 'near';
-  return { level, tag };
+  return { level, tag, seen: sn === '1' ? 'yes' : sn === '0' ? 'no' : 'all' };
 }
 /** Write the filter into the URL (replaceState; defaults are omitted, other params and the hash are kept). */
 export function writeFilter(f: Filter): void {
   const url = new URL(location.href);
   if (f.level !== 'all') url.searchParams.set('lv', f.level); else url.searchParams.delete('lv');
   if (f.tag !== 'all') url.searchParams.set('tag', f.tag === 'near' ? 'nend' : f.tag); else url.searchParams.delete('tag');
+  if (f.seen !== 'all') url.searchParams.set('seen', f.seen === 'yes' ? '1' : '0'); else url.searchParams.delete('seen');
   if (url.href !== location.href) history.replaceState(history.state, '', url.href);
   saveState();
 }
@@ -124,8 +129,9 @@ export const trCount = (sel: TraitSel) => Object.values(sel).reduce((a, b) => a 
  * come from the row's [data-n] elements (printed names) + data-q (names not printed) + the family entry of the scope
  * ctx. sites: ids of this page's sites where the species is listed (GBIF list or trip-report target); elev: altitude
  * range, only on /species/. tr: the species' traits as «group:value» (species card), null when it has no card.
+ * seen: seen on the trip (data/observations.json).
  */
-export interface Row { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null }
+export interface Row { st: string; int: boolean; nend: boolean; end: boolean; seen?: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null }
 
 /** FilterBar facet options (lib/data facetOptions). */
 export interface FamOpt { code: string; ru: string | null; en: string | null; sci: string }
@@ -163,12 +169,12 @@ export function writeNarrow(key: string, u: Narrow): void {
  * tv: the trait vocabulary, present when some row of the scope has traits (data-tr indexes its flattened values). */
 export interface ScopeCtx { f: [string, string][]; s: string[]; tv?: TraitOpt[] }
 /** Row descriptor of a static row. Self-contained: inlined into pages via toString(). */
-export function rowOf(el: HTMLElement, ctx: { f: [string, string][]; s: string[]; tv?: { key: string; values: { key: string }[] }[]; _tf?: string[] }): { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; tr: string[] | null } {
+export function rowOf(el: HTMLElement, ctx: { f: [string, string][]; s: string[]; tv?: { key: string; values: { key: string }[] }[]; _tf?: string[] }): { st: string; int: boolean; nend: boolean; end: boolean; seen: boolean; fam: string; sites: string[]; q: string; tr: string[] | null } {
   const d = el.dataset, f = (d.fam ? ctx.f[+d.fam] : null) || ['', ''];
   // flattened trait vocabulary (as traitFlat), cached on the ctx object
   const tf = ctx._tf || (ctx._tf = (ctx.tv || []).flatMap((g) => g.values.map((v) => g.key + ':' + v.key)));
   return {
-    st: d.st || '', int: 'int' in d, nend: 'nend' in d, end: 'end' in d, fam: f[0],
+    st: d.st || '', int: 'int' in d, nend: 'nend' in d, end: 'end' in d, seen: 'seen' in d, fam: f[0],
     sites: (d.sites || '').split(' ').filter(Boolean).map((i) => ctx.s[+i]),
     q: [d.q || '', f[1], ...Array.from(el.querySelectorAll('[data-n]'), (n) => n.textContent || '')].join('|').toLowerCase().replace(/ё/g, 'е'),
     tr: d.tr != null ? Array.from(d.tr, (c) => tf[c.charCodeAt(0) - 65]).filter(Boolean) : null,
@@ -179,16 +185,16 @@ export function scopeCtx(scope: HTMLElement): { f: [string, string][]; s: string
   try { return JSON.parse(scope.dataset.lfCtx || ''); } catch { return { f: [], s: [] }; }
 }
 /**
- * The one predicate, compiled for one state: makePass(f, u)(row) — does a row pass the filter f (lv, tag) and the
+ * The one predicate, compiled for one state: makePass(f, u)(row) — does a row pass the filter f (lv, tag, seen) and the
  * page's narrow state u? Families OR, sites OR, trait values OR within their group (rows without traits fail any trait
  * selection), AND across everything. The state is prepared once (sets, the normalised query, «group:value» keys), so a
  * sweep over a whole list costs one cheap call per row. Self-contained: inlined into pages via toString().
  */
 export function makePass(
-  f: { level: string; tag: string },
+  f: { level: string; tag: string; seen?: string },
   u: { q: string; fam: string[]; site: string[]; elev: number | null; tr?: Record<string, string[]> },
-): (r: { st: string; int: boolean; nend: boolean; end: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null }) => boolean {
-  const tag = f.tag, lv = f.level, elev = u.elev;
+): (r: { st: string; int: boolean; nend: boolean; end: boolean; seen?: boolean; fam: string; sites: string[]; q: string; elev?: [number | null, number | null] | null; tr?: string[] | null }) => boolean {
+  const tag = f.tag, lv = f.level, sn = f.seen, elev = u.elev;
   const fam = u.fam.length ? new Set(u.fam) : null, site = u.site.length ? new Set(u.site) : null;
   const tr: string[][] = [];
   for (const g in u.tr || {}) { const vs = u.tr![g]; if (vs.length) tr.push(vs.map((v) => g + ':' + v)); }
@@ -196,6 +202,7 @@ export function makePass(
   return (r) => {
     if (tag === 'int' ? !r.int : tag === 'near' ? !r.nend : tag === 'end' ? !r.end : false) return false;
     if (!(lv === 'all' || r.st === 'sure' || (lv === 'maybe' && r.st === 'maybe'))) return false;
+    if (sn === 'yes' ? !r.seen : sn === 'no' ? !!r.seen : false) return false;
     if (fam && !fam.has(r.fam)) return false;
     if (site && !r.sites.some((s) => site.has(s))) return false;
     if (elev != null && r.elev && ((r.elev[0] ?? 0) > elev || (r.elev[1] ?? 9000) < elev)) return false;
@@ -212,9 +219,9 @@ export function makePass(
  * Self-contained (helpers come in as arguments): inlined into pages via toString().
  */
 export function applyFilterDom(
-  scope: HTMLElement, f: { level: string; tag: string }, u: { q: string; fam: string[]; site: string[]; elev: number | null; tr: Record<string, string[]> },
+  scope: HTMLElement, f: { level: string; tag: string; seen?: string }, u: { q: string; fam: string[]; site: string[]; elev: number | null; tr: Record<string, string[]> },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  rowOf: (el: HTMLElement, ctx: any) => any, makePass: (f: { level: string; tag: string }, u: any) => (r: any) => boolean, ctx: { f: [string, string][]; s: string[] },
+  rowOf: (el: HTMLElement, ctx: any) => any, makePass: (f: { level: string; tag: string; seen?: string }, u: any) => (r: any) => boolean, ctx: { f: [string, string][]; s: string[] },
 ): void {
   const pl = (n: number, a: string, b: string, c: string) => {
     const m10 = n % 10, m100 = n % 100;
@@ -230,6 +237,8 @@ export function applyFilterDom(
   };
   if (scope.dataset.lv !== f.level) scope.dataset.lv = f.level;
   if (scope.dataset.tag !== f.tag) scope.dataset.tag = f.tag;
+  const sn = f.seen || 'all';
+  if (scope.dataset.sn !== sn) scope.dataset.sn = sn;
   const items = qa(scope, '[data-st]');
   const pass = makePass(f, u);
   const ok = new Set<HTMLElement>();
