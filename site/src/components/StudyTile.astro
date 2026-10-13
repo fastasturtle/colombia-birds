@@ -3,10 +3,12 @@
  * Photo tile for the day page. The photo opens photo 1 full screen via ThumbLightbox.svelte
  * (the page must mount it once); the name (Russian, then English) links to the species page. Badge: one per species by seniority — ◆ endemic, else ◇ near-endemic (EndemicMark), else ★ «интересная»
  * (endemics and near-endemics are always «интересные», so the diamond implies the star);
- * under the name the likelihood word. Carries data-st / data-int / data-nend / data-end / data-new for the shared filter (FilterScope).
+ * under the name the likelihood word; a green «✓» in the photo's top right corner when seen on the trip (SeenMark).
+ * Carries data-st / data-int / data-nend / data-end / data-new for the shared filter (FilterScope).
  */
 import StateWord from './StateWord.astro';
 import EndemicMark from './EndemicMark.svelte';
+import SeenMark from './SeenMark.astro';
 import { mediaUrl, species, speciesNames, WHY_RU, type RowAttrs, type IndexEntry, type State, type Why } from '@lib/data';
 /** fa: FilterBar attributes of the row (lib/data listFacets().attrs) */
 interface Props { s: IndexEntry; state: State; why?: Why[]; isNew?: boolean; fa?: RowAttrs }
@@ -33,6 +35,7 @@ const lb = p && JSON.stringify({ alt: [nm.main, nm.alt].filter(Boolean).join(' �
       {s.near_endemic && !s.endemic && <EndemicMark kind="near" variant="tile" />}
     </span>
   )}
+  <SeenMark id={s.id} short class="tb" />
   <a class="nm" href={href}>
     <span class="pri" data-n>{nm.main}</span>
     {nm.alt && <span class="sec" data-n>{nm.alt}</span>}
@@ -49,6 +52,8 @@ const lb = p && JSON.stringify({ alt: [nm.main, nm.alt].filter(Boolean).join(' �
   .badges { position: absolute; top: 4px; left: 4px; display: flex; gap: 3px; pointer-events: none; }
   .b { font-size: .68rem; font-weight: 700; line-height: 1; padding: 3px 5px; border-radius: 6px; color: #fff; background: rgba(0,0,0,.6); }
   .b.hl { background: var(--accent-2); }
+  .tile :global(.seen.tb) { position: absolute; top: 4px; right: 4px; pointer-events: auto; font-size: .78rem; padding: 1px 6px;
+    background: #15803d; color: #fff; box-shadow: 0 0 0 1.5px rgba(255,255,255,.85); }
   .nm { color: inherit; display: flex; flex-direction: column; padding: 4px 0 1px; }
   .nm:hover { text-decoration: none; }
   .nm:hover .pri { text-decoration: underline; }

@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import RouteMap from '../components/RouteMap.svelte';
 import DayCard from '../components/DayCard.astro';
-import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu, plural } from '@lib/data';
+import { itinerary, itineraryWithSpecies, sites, regions, fmtDateRu, plural, observations } from '@lib/data';
 const days = itinerary();
 const dws = itineraryWithSpecies();
 const all = sites();
@@ -18,12 +18,15 @@ const end = days.at(-1)?.date;
 const bogotaToday = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota' }).format(new Date());
 const past = dws.filter((d) => d.day.date < bogotaToday);
 const future = dws.filter((d) => d.day.date >= bogotaToday);
+// «Увидели …» teaser (Anya's eBird checklists, /seen/)
+const seenSt = observations()?.stats;
 ---
 <Base title="Маршрут" description="Маршрут тура по южной Колумбии, октябрь 2026: дни, локации, вероятные виды">
   <h1>Маршрут</h1>
   {days.length === 0 ? <p class="card muted">Данные маршрута ещё собираются.</p> : (
     <>
       <p class="muted lead">{fmtDateRu(start!, false)} – {fmtDateRu(end!, false)} 2026 · Богота, Уила, Путумайо, Нариньо</p>
+      {seenSt && <a class="seen-teaser" href={`${import.meta.env.BASE_URL}seen/`}><span class="ck" aria-hidden="true">✓</span><span class="tx">Увидели <b>{seenSt.species}</b> {plural(seenSt.species, 'вид', 'вида', 'видов')}, <b>{seenSt.lifers}</b> {plural(seenSt.lifers, 'новый', 'новых', 'новых')} для Ани</span><span class="ar" aria-hidden="true">→</span></a>}
       <section class="today" aria-label="Сегодня" data-start={start} data-end={end} data-first={firstDay.day.date}>
         <div class="tlabel"><span class="tl">Первый день тура</span> <span class="countdown muted"></span></div>
         {dws.map((d) => <DayCard d={d} compact hidden={d !== firstDay} />)}
@@ -112,6 +115,13 @@ const future = dws.filter((d) => d.day.date >= bogotaToday);
 </script>
 <style>
   .lead { margin-top: -4px; }
+  .seen-teaser { display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 12px; margin: 4px 0 0; border-radius: 12px;
+    background: var(--seen-bg); color: var(--fg); font-size: .95rem; }
+  .seen-teaser:hover { text-decoration: none; }
+  .seen-teaser b { color: var(--seen-fg); }
+  .seen-teaser .ck { color: var(--seen-fg); font-weight: 700; }
+  .seen-teaser .tx { flex: 1; min-width: 0; }
+  .seen-teaser .ar { color: var(--seen-fg); }
   .today { margin: 12px 0 18px; }
   .tlabel { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 600; color: var(--accent); }
   .tlabel .countdown { text-transform: none; letter-spacing: 0; font-weight: 400; font-size: .9rem; }

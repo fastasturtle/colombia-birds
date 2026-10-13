@@ -1,0 +1,139 @@
+---
+/**
+ * «Увидели»: what we have already seen on the trip, from Anya's eBird checklists (data/observations.json, pipeline step
+ * observations). Header numbers, a table by day and one by site (+ checklists off the route sites), then every seen
+ * species grouped by the day of its first sighting (newest day first; shared filter, ✓ and «лайфер» marks), species
+ * the site's database lacks, and the source line.
+ */
+import Base from '../../layouts/Base.astro';
+import SpeciesRow from '../../components/SpeciesRow.astro';
+import ScopeFilter from '../../components/ScopeFilter.svelte';
+import FilterScope from '../../components/FilterScope.astro';
+import ThumbLightbox from '../../components/ThumbLightbox.svelte';
+import {
+  observations, speciesIndex, sites, itinerary, routeState, whyInteresting, sitesListing, listFacets, fmtDateRu, dayLabel, plural, MEDIA_BASE,
+  type SeenStats,
+} from '@lib/data';
+import { fmtDaysShort } from '@lib/dates';
+const o = observations();
+const base = import.meta.env.BASE_URL;
+const idx = new Map(speciesIndex().map((s) => [s.id, s]));
+const siteOf = new Map(sites().map((s) => [s.id, s]));
+const dayOf = new Map(itinerary().map((d) => [d.date, d]));
+const st = o?.stats;
+const byDay = Object.entries(st?.by_day ?? {}).sort(([a], [b]) => a.localeCompare(b));
+// sites in route order (first checklist date), the rest after
+const siteFirst = new Map<string, number>();
+(o?.checklists ?? []).forEach((c, i) => { if (c.site && !siteFirst.has(c.site)) siteFirst.set(c.site, i); });
+const siteDays = (id: string) => fmtDaysShort((o?.checklists ?? []).filter((c) => c.site === id).map((c) => c.date));
+const bySite = Object.entries(st?.by_site ?? {}).sort(([a], [b]) => (siteFirst.get(a) ?? 1e9) - (siteFirst.get(b) ?? 1e9) || a.localeCompare(b));
+const offDays = fmtDaysShort((o?.checklists ?? []).filter((c) => c.site == null).map((c) => c.date));
+
+// species grouped by the date of the first sighting, newest first; inside a group in taxonomic order
+const route = [...new Set(itinerary().flatMap((d) => d.sites))];
+const rows = Object.entries(o?.species ?? {}).map(([id, sp]) => ({ s: idx.get(id)!, sp, state: routeState(id), why: whyInteresting(id), at: sitesListing(id, route) }))
+  .filter((r) => r.s);
+const facets = listFacets(rows.map((r) => ({ id: r.s.id, family: r.s.family, sites: r.at })), route);
+const groups = [...new Set(rows.map((r) => r.sp.first))].sort().reverse()
+  .map((date) => ({ date, rows: rows.filter((r) => r.sp.first === date).sort((a, b) => a.s.taxon_order - b.s.taxon_order) }));
+const nDays = st?.days ?? 0;
+const exported = o?.exported ? fmtDateRu(o.exported, false) : '';
+const dayCell = (date: string) => {
+  const d = dayOf.get(date);
+  return { href: d ? `${base}days/${date}/` : null, label: fmtDateRu(date, false), short: fmtDaysShort([date]), sub: d ? dayLabel(d) : '' };
+};
+const statCells = (e: SeenStats) => [e.species, e.new, e.lifers, e.checklists];
+---
+<Base title="Увидели" description="Что мы уже увидели в туре: виды по дням и локациям, новые виды для Ани, чеклисты eBird">
+  <h1>Увидели</h1>
+  {!o || !st ? <p class="card muted">Наблюдений пока нет.</p> : (
+    <>
+      <div class="kpis">
+        <div class="kpi"><b>{st.species}</b><span>{plural(st.species, 'вид', 'вида', 'видов')}</span></div>
+        <div class="kpi lf"><b>{st.lifers}</b><span>{plural(st.lifers, 'новый', 'новых', 'новых')} для Ани</span></div>
+        <div class="kpi"><b>{st.checklists}</b><span>{plural(st.checklists, 'чеклист', 'чеклиста', 'чеклистов')}</span></div>
+        <div class="kpi"><b>{nDays}</b><span>{plural(nDays, 'день', 'дня', 'дней')}</span></div>
+      </div>
+
+      <h2>По дням</h2>
+      <div class="tw">
+        <table class="st">
+          <thead><tr><th>День</th><th>Видов</th><th title="впервые в туре">Впервые</th><th title="новых для Ани">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
+          <tbody>
+            {byDay.map(([date, e]) => {
+              const d = dayCell(date);
+              return <tr><td class="d">{d.href ? <a href={d.href}>{d.short}</a> : d.short}{d.sub && <span class="muted"> · {d.sub}</span>}</td>{statCells(e).map((n) => <td class="n">{n}</td>)}</tr>;
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>По локациям</h2>
+      <div class="tw">
+        <table class="st">
+          <thead><tr><th>Локация</th><th>Видов</th><th title="впервые в туре">Впервые</th><th title="новых для Ани">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
+          <tbody>
+            {bySite.map(([id, e]) => (
+              <tr><td><a href={`${base}sites/${id}/`}>{siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id}</a><span class="muted sub">{siteDays(id)}</span></td>{statCells(e).map((n) => <td class="n">{n}</td>)}</tr>
+            ))}
+            {st.off_site && (
+              <tr class="off"><td>Вне локаций маршрута<span class="muted sub">{offDays}</span></td>{statCells(st.off_site).map((n) => <td class="n">{n}</td>)}</tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+      <p class="muted small">«Впервые» — впервые за поездку в этот день или на этой локации; «лайферов» — видов, которых Аня не отмечала в eBird до тура; «чекл.» — чеклистов eBird. «Вне локаций маршрута» — парки Боготы, аэропорт, остановки в дороге.</p>
+
+      <FilterScope ctx={facets.ctx}>
+        <h2 class="vh">Виды по дню первой встречи <span class="cnt muted" data-lf-summary>{rows.length} {plural(rows.length, 'вид', 'вида', 'видов')}</span></h2>
+        <ScopeFilter client:load fams={facets.fams} sites={facets.sites} total={rows.length} />
+        {groups.map((g) => {
+          const d = dayCell(g.date);
+          return (
+            <section data-lf-group>
+              <h3 class="gh">{d.href ? <a href={d.href}>{d.label}</a> : d.label}{d.sub && <span class="muted"> · {d.sub}</span>} <span class="muted gc">· <span data-lf-gcount>{g.rows.length}</span></span></h3>
+              {g.rows.map((r) => <SpeciesRow s={r.s} state={r.state} why={r.why} lifer fa={facets.attrs(r.s, r.at, { alt: true, sci: true })} />)}
+            </section>
+          );
+        })}
+      </FilterScope>
+      {rows.some((r) => r.s.photo) && <ThumbLightbox client:idle mediaBase={MEDIA_BASE} />}
+
+      {o.unmatched.length > 0 && (
+        <>
+          <h2>Нет в базе сайта</h2>
+          <p class="muted small">Таксоны из чеклистов, которых нет среди видов сайта (или записи до рода и пары «или/или»).</p>
+          <ul class="um">
+            {o.unmatched.map((u) => <li><span class="sci">{u.sci}</span>{u.name && <> · {u.name}</>} <span class="muted">· {fmtDaysShort(u.dates)}</span></li>)}
+          </ul>
+        </>
+      )}
+      <p class="muted small foot-n">По чеклистам {o.observer === 'Аня' ? 'Ани' : o.observer} в eBird, выгрузка от {exported}.</p>
+    </>
+  )}
+</Base>
+<style>
+  .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 8px 0 4px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; display: flex; flex-direction: column; min-width: 0; }
+  .kpi b { font-size: 1.5rem; line-height: 1.1; font-variant-numeric: tabular-nums; color: var(--seen-fg); }
+  .kpi.lf b { color: var(--accent-2); }
+  .kpi span { font-size: .8rem; color: var(--muted); line-height: 1.2; }
+  @media (max-width: 380px) { .kpi b { font-size: 1.25rem; } .kpi { padding: 6px 8px; } }
+  .tw { overflow-x: auto; }
+  .st { font-size: .9rem; }
+  .st th { font-size: .75rem; font-weight: 600; color: var(--muted); vertical-align: bottom; }
+  .st th:not(:first-child), .st td.n { text-align: right; width: 1%; white-space: nowrap; }
+  .st td.n { font-variant-numeric: tabular-nums; }
+  .st td, .st th { padding: 6px 6px; }
+  .st td:first-child { padding-left: 0; }
+  .st .sub { display: block; font-size: .78rem; }
+  .st td.d { white-space: nowrap; }
+  .st tr.off td { font-style: italic; }
+  .small { font-size: .82rem; }
+  .vh { margin-bottom: 2px; }
+  .vh .cnt { font-size: .9rem; font-weight: 500; margin-left: 6px; white-space: nowrap; }
+  .gh { font-size: .95rem; margin: 16px 0 2px; padding-bottom: 4px; border-bottom: 2px solid var(--seen-bg); }
+  .gc { font-weight: 400; }
+  .um { padding-left: 18px; margin: 4px 0; }
+  .foot-n { margin-top: 20px; }
+</style>

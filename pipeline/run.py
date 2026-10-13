@@ -1,7 +1,8 @@
 """Run pipeline steps in order. Usage: uv run python run.py [step ...] [--only slug ...]
 
 Steps: aco ebird birdbase wikidata build   (default: all of these, in order)
-Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study, lynx, ioc_names, weather) are run explicitly.
+Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study, lynx, ioc_names, weather, observations) are run explicitly.
+`observations --import <MyEBirdData.csv>` refreshes pipeline/sources/ebird/ from a new eBird export first.
 `ioc_names` runs before `build` (IOC Multilingual Russian names, the last fallback before the overrides).
 `lynx` runs after `build` (needs species_index.json); re-run `build` afterwards to merge the book pages:
 `uv run python run.py lynx build`.
@@ -42,12 +43,19 @@ FILES = {
     "lynx": "build_lynx.py",
     "ioc_names": "fetch_ioc_names.py",
     "weather": "fetch_weather.py",
+    "observations": "build_observations.py",
 }
 
 args = " ".join(sys.argv[1:]).split()
 if "--max-minutes" in args:
     i = args.index("--max-minutes")
     os.environ["MAX_MINUTES"] = args[i + 1]
+    del args[i:i + 2]
+if "--import" in args:  # observations: path to the raw eBird export (passed to the step via EBIRD_IMPORT)
+    i = args.index("--import")
+    if i + 1 >= len(args):
+        sys.exit("--import needs a path to MyEBirdData.csv")
+    os.environ["EBIRD_IMPORT"] = args[i + 1]
     del args[i:i + 2]
 steps, only = [], []
 target = steps

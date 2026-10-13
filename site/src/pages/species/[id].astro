@@ -5,7 +5,8 @@ import StateWord from '../../components/StateWord.astro';
 import SpeciesCard from '../../components/SpeciesCard.astro';
 import RouteSort from '../../components/RouteSort.astro';
 import { speciesCard } from '@lib/content';
-import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, sortSitesByRoute, routeAttrs, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, siteState, whyInteresting, speciesNames, STATE_RANK, WHY_RU, fmtDateRu, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU } from '@lib/data';
+import { fmtDaysShort } from '@lib/dates';
+import { speciesIndex, species, texts, families, sites, siteSpecies, daysForSite, sortSitesByRoute, routeAttrs, isOptionalSite, OPTIONAL_SITES_RU, OPTIONAL_SITE_TAG_RU, siteState, whyInteresting, speciesNames, STATE_RANK, WHY_RU, fmtDateRu, plural, MEDIA_BASE, STATUS_RU, IUCN_RU, HABITAT_RU, seenInfo, observations, checklistPlace, itinerary } from '@lib/data';
 export function getStaticPaths() {
   return speciesIndex().map((s) => ({ params: { id: s.id } }));
 }
@@ -35,6 +36,11 @@ const descr = enText?.sections?.['Description'] ?? enText?.sections?.['Identific
 // Page in Hilty (2021) «Birds of Colombia», Lynx: manual override in content frontmatter wins over data.
 const lynxPage = card?.lynx_page ?? sp.book?.lynx_page ?? null;
 const nm = speciesNames(sp.names);
+// «Наши наблюдения»: one line per sighting (data/observations.json, Anya's eBird checklists); nothing when not seen
+const seen = seenInfo(sp.id);
+const clOf = new Map((observations()?.checklists ?? []).map((c) => [c.id, c]));
+const routeDates = new Set(itinerary().map((d) => d.date));
+const siteName = new Map(sites().map((s) => [s.id, s.name_ru || s.name]));
 const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
 ---
 <Base title={title} species={sp.id} description={`${nm.main} (${nm.alt ? `${nm.alt}, ` : ''}${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
@@ -50,6 +56,25 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
     {sp.iucn.aco_2022 && sp.iucn.aco_2022 !== 'LC' && <span class="chip" style="background:var(--accent-2);color:#fff">IUCN {sp.iucn.aco_2022}: {IUCN_RU[sp.iucn.aco_2022]}</span>}
     {sp.traits.range_restricted ? <span class="chip">узкий ареал</span> : null}
   </p>
+  {seen && (
+    <section class="seen-block card" aria-label="Наши наблюдения">
+      <h2>Наши наблюдения{seen.lifer && <span class="lifer">новый вид для Ани</span>}</h2>
+      <ul class="obs">
+        {seen.obs.map((o) => {
+          const c = clOf.get(o.cl);
+          return (
+            <li>
+              <span class="od">{routeDates.has(o.date) ? <a href={`${base}days/${o.date}/`}>{fmtDaysShort([o.date])}</a> : fmtDaysShort([o.date])}{o.time && <span class="muted"> {o.time}</span>}</span>
+              <span class="op">{o.site ? <a href={`${base}sites/${o.site}/`}>{siteName.get(o.site) ?? o.site}</a> : <span>{c ? checklistPlace(c) : ''}</span>}</span>
+              {o.count != null && <span class="oc">{o.count}&nbsp;шт.</span>}
+              {o.details && <span class="muted ox">{o.details}</span>}
+              <a class="oe" href={`https://ebird.org/checklist/${o.cl}`} target="_blank" rel="noopener" title="Чеклист в eBird">eBird ↗</a>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
 
   {sp.photos.length > 0 ? (
     <PhotoGallery client:load photos={sp.photos} alt={sp.names.ru ?? sp.names.en} mediaBase={MEDIA_BASE} />
@@ -155,5 +180,16 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
   .names .alt { font-size: 1.05rem; }
   .small { font-size: .85rem; }
   .book { font-size: .85rem; }
+  .seen-block { margin: 8px 0 14px; border-color: var(--seen-fg); }
+  .seen-block h2 { margin: 0 0 4px; font-size: 1.05rem; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+  .seen-block h2::before { content: '✓'; color: var(--seen-fg); }
+  .obs { list-style: none; padding: 0; margin: 0; }
+  .obs li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 6px 0; border-top: 1px solid var(--line); font-size: .92rem; }
+  .obs li:first-child { border-top: 0; }
+  .od { white-space: nowrap; }
+  .op { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+  .oc { white-space: nowrap; }
+  .ox { font-size: .85rem; }
+  .oe { margin-left: auto; white-space: nowrap; font-size: .85rem; min-height: 32px; display: inline-flex; align-items: center; }
   .pn { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--line); }
 </style>

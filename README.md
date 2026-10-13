@@ -14,8 +14,10 @@ data/            база (генерируется пайплайном, рук
   texts/         выдержки Wikipedia (CC BY-SA)
   photos/        кандидаты фото, credits/ выбранные фото с атрибуцией
   sites.json, itinerary.json, regions.json   маршрут (частично авторские)
+  observations.json   что уже увидели в туре (чеклисты Ани в eBird, шаг observations)
 content/         рукописные тексты (пишутся агентами), сливаются на сборке сайта
 pipeline/        Python-пайплайн сбора данных (uv)
+  sources/       рукописные входы: lynx/ (указатель книги), ebird/ (колумбийские строки выгрузки eBird Ани)
 site/            сайт на Astro 7 + Svelte, деплой на GitHub Pages
 worker/          Cloudflare Worker для кнопки «Сообщить об ошибке»
 docs/            маршрут, разведка источников и локаций, TODO

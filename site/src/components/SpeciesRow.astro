@@ -2,14 +2,15 @@
 /**
  * Species list row. The thumbnail (when there is a photo) opens photo 1 full screen via
  * ThumbLightbox.svelte, which the page must mount once; the name links to the species page.
- * With `state`, the row shows the likelihood word and carries data-st / data-int / data-nend / data-end for the shared filter.
+ * «✓ видели» (SeenMark) when the species was seen on the trip. With `state`, the row shows the likelihood word and carries data-st / data-int / data-nend / data-end for the shared filter.
  */
 import StateWord from './StateWord.astro';
 import EndemicMark from './EndemicMark.svelte';
+import SeenMark from './SeenMark.astro';
 import { mediaUrl, species, speciesNames, WHY_RU, type RowAttrs, type IndexEntry, type State, type Why } from '@lib/data';
-/** fa: FilterBar attributes of the row (lib/data listFacets().attrs), with `state` */
-interface Props { s: IndexEntry; state?: State; why?: Why[]; fa?: RowAttrs }
-const { s, state, why = [], fa = {} } = Astro.props;
+/** fa: FilterBar attributes of the row (lib/data listFacets().attrs), with `state`; lifer: also show «лайфер» (/seen/) */
+interface Props { s: IndexEntry; state?: State; why?: Why[]; fa?: RowAttrs; lifer?: boolean }
+const { s, state, why = [], fa = {}, lifer = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const nm = speciesNames(s);
 const p = s.photo ? species(s.id).photos[0] : null;
@@ -28,6 +29,7 @@ const href = `${base}species/${s.id}/`;
     <div>{why.length > 0 && !s.endemic && !s.near_endemic && <b class="star" title={`интересная: ${why.map((w) => WHY_RU[w]).join(', ')}`}>★ </b>}<strong data-n>{nm.main}</strong></div>
     <div class="muted" data-n>{nm.alt && <>{nm.alt} · </>}<span class="sci">{s.sci}</span></div>
     <div class="meta">
+      <SeenMark id={s.id} lifer={lifer} />
       {state && <StateWord state={state} />}
       {s.endemic && <EndemicMark kind="end" />}
       {s.near_endemic && !s.endemic && <EndemicMark kind="near" />}

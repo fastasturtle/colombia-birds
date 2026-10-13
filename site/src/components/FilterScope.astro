@@ -1,8 +1,8 @@
 ---
 /**
- * Wrapper for a static species list that follows the page's filter (URL `lv` / `tag`) and the page's own narrowing (lib/filter.ts;
+ * Wrapper for a static species list that follows the page's filter (URL `lv` / `tag` / `seen`) and the page's own narrowing (lib/filter.ts;
  * mount ScopeFilter.svelte inside, client:load). Children mark items with data-st / data-int / data-nend / data-end /
- * data-new + data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts) and groups with data-lf-group. The inline script
+ * data-new / data-seen + data-fam / data-sites / data-q (listFacets().attrs in lib/data.ts) and groups with data-lf-group. The inline script
  * at the end applies the URL state (filter and narrowing) while the page is still parsing, so the first paint is already
  * filtered; when the URL has no filter params it first puts the page's saved ones there (lib/filter restoreUrl). `key`: URL parameter prefix when a page has two lists (`d` -> `d-q`, `d-fam`, `d-site`).
  */
@@ -12,7 +12,7 @@ interface Props { class?: string; key?: string; ctx: string }
 const { class: cls, key = '', ctx } = Astro.props;
 const js = `(function(s){(${restoreUrl.toString()})(${JSON.stringify(import.meta.env.BASE_URL)});(${applyFilterDom.toString()})(s,(${readFilter.toString()})(),(${readNarrow.toString()})(${JSON.stringify(key)}),${rowOf.toString()},${makePass.toString()},(${scopeCtx.toString()})(s))})(document.currentScript.parentElement)`;
 ---
-<div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="all" data-tag="all">
+<div class:list={['lf-scope', cls]} data-lf-scope data-lf-key={key || undefined} data-lf-ctx={ctx} data-lv="all" data-tag="all" data-sn="all">
   <slot />
   <p class="lf-empty muted" data-lf-empty hidden>Ничего не найдено. Измени поиск или сбрось фильтры.</p>
   <script is:inline set:html={js}></script>
@@ -24,6 +24,8 @@ const js = `(function(s){(${restoreUrl.toString()})(${JSON.stringify(import.meta
   [data-lf-scope][data-lv="maybe"] [data-st="unlikely"],
   [data-lf-scope][data-tag="int"] [data-st]:not([data-int]),
   [data-lf-scope][data-tag="near"] [data-st]:not([data-nend]),
-  [data-lf-scope][data-tag="end"] [data-st]:not([data-end]) { display: none !important; }
+  [data-lf-scope][data-tag="end"] [data-st]:not([data-end]),
+  [data-lf-scope][data-sn="yes"] [data-st]:not([data-seen]),
+  [data-lf-scope][data-sn="no"] [data-st][data-seen] { display: none !important; }
   .lf-empty { margin: 8px 0; }
 </style>

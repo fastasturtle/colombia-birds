@@ -1,5 +1,5 @@
 ---
-import { sites, regions, siteDaysShort, studyList, defaultCounts, fmtDateRu, dayLabel, plural, weatherDay, wmo, type DayWithSpecies } from '@lib/data';
+import { sites, regions, siteDaysShort, studyList, defaultCounts, fmtDateRu, dayLabel, plural, weatherDay, wmo, seenOnDay, seenShort, type DayWithSpecies } from '@lib/data';
 interface Props { d: DayWithSpecies; compact?: boolean; id?: string; hidden?: boolean }
 const { d, compact = false, id, hidden } = Astro.props;
 const day = d.day;
@@ -9,6 +9,8 @@ const base = import.meta.env.BASE_URL;
 const study = studyList(day.date);
 // counts under the default filter (level «Все»: «интересных» over every species of the day), static: the card has no JS
 const c = study ? defaultCounts(study.species) : null;
+// what we saw that day (Anya's eBird checklists, data/observations.json)
+const seenSt = seenOnDay(day.date)?.stats;
 // one-glance forecast of the day's first location (data/weather.json): worst weather, temperature range, max rain
 // chance; shown right of the site chips (free space, no extra line), on the Ночёвка line when there are no sites
 const wx = (() => {
@@ -39,6 +41,7 @@ const wx = (() => {
       <b class="sure">{c.sure} точно</b> · {c.maybe} возможно{c.interesting > 0 && <> · <b class="hl">{c.interesting} {plural(c.interesting, 'интересный', 'интересных', 'интересных')}</b></>}
     </div>
   )}
+  {seenSt && <div class="small muted seen-l"><span class="ck" aria-hidden="true">✓</span> видели {seenShort(seenSt)}</div>}
   <slot />
 </article>
 <style>
@@ -55,4 +58,6 @@ const wx = (() => {
   .hl { color: var(--accent-2); }
   .sure { color: var(--accent); }
   .wx { white-space: nowrap; }
+  .seen-l { margin-top: 2px; }
+  .ck { color: var(--seen-fg); font-weight: 700; }
 </style>

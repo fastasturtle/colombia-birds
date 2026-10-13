@@ -11,8 +11,9 @@
   import { plural } from '../lib/facets';
   type State = 'sure' | 'maybe' | 'unlikely';
   /** ea: ACO English name when it differs (searchable); si: space-separated indices into `sites` that list the species;
+   * sn: seen on the trip, the ✓ mark's hover text (lib/data seenTitle; absent when not seen);
    * trs: the items' trait tokens (lib/traits traitToken), space-separated in item order, empty for species without a card */
-  interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; near: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean; ea?: string; si?: string }
+  interface Item { id: string; sci: string; en: string; ru: string | null; family: string; endemic: boolean; near: boolean; elev: [number|null, number|null] | null; photo: string | null; state: State; int: boolean; ea?: string; si?: string; sn?: string }
   let { items, fams, sites, traits, trs, base, mediaBase }: { items: Item[]; fams: FamOpt[]; sites: SiteOpt[]; traits: TraitOpt[]; trs: string; base: string; mediaBase: string } = $props();
   const trFlat = traitFlat(traits);
   const trTok = trs.split(' ');
@@ -23,7 +24,7 @@
   const rows: Row[] = items.map((s, i) => {
     const f = famOf.get(s.family);
     return {
-      st: s.state, int: s.int || s.near || s.endemic, nend: s.near || s.endemic, end: s.endemic, fam: s.family,
+      st: s.state, int: s.int || s.near || s.endemic, nend: s.near || s.endemic, end: s.endemic, seen: s.sn != null, fam: s.family,
       sites: s.si ? s.si.split(' ').map((i) => sites[+i].id) : [], elev: s.elev, q: normQ(searchKey([s.ru, s.en, s.ea, s.sci, f?.ru, f?.en])),
       tr: trTok[i] ? decodeTr(trTok[i], trFlat) : null,
     };
@@ -81,7 +82,7 @@
     <div class="txt">
       <div>{#if s.int && !s.endemic && !s.near}<b class="star" title="интересная">★</b>{/if}<strong>{s.ru ?? s.en}</strong></div>
       <div class="muted">{#if s.ru && s.en !== s.ru}{`${s.en} · `}{/if}<span class="sci">{s.sci}</span> · <span>{famName(s.family)}</span></div>
-      <div class="meta"><span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<EndemicMark kind="end" />{:else if s.near}<EndemicMark kind="near" />{/if}</div>
+      <div class="meta">{#if s.sn != null}<span class="seen" title={s.sn}>✓ видели</span>{/if}<span class={`stw ${s.state}`}>{STATE_RU[s.state]}</span>{#if s.endemic}<EndemicMark kind="end" />{:else if s.near}<EndemicMark kind="near" />{/if}</div>
     </div>
   </a>
 {/each}

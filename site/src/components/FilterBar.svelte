@@ -2,7 +2,7 @@
   /**
    * The one filter control of every species list (/species/, day, site and family pages).
    * Collapsed: search + «Фильтры» (badge = active non-default filters) + «показано N из M» + removable chips of the
-   * active filters. Expanded: the page-wide ListFilter (likelihood, tag),
+   * active filters. Expanded: the page-wide ListFilter (likelihood, tag, and «Видели» when a row was seen on the trip),
    * families and sites as dropdowns of checkboxes with facet counts (FacetPicker.svelte, lib/facets.ts; side by side
    * on wide screens, one open at a time), elevation where `elev` is set, and «Признаки» (its
    * own fold): trait groups of content/traits.yaml, OR within a group, AND across groups.
@@ -21,7 +21,7 @@
   import ListFilter from './ListFilter.svelte';
   import FacetChip from './FacetChip.svelte';
   import FacetPicker, { type PickOpt } from './FacetPicker.svelte';
-  import { filter, makePass, trCount, pageKey, DEFAULT_FILTER, TAG_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
+  import { filter, makePass, trCount, pageKey, DEFAULT_FILTER, TAG_LABEL, SEEN_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   import { listCounts, facetIndex, noTraitsHidden, trGroup, plural, type FacetIndex } from '../lib/facets';
 
   interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean }
@@ -92,6 +92,8 @@
   const siteOf = $derived(new Map(sites.map((s) => [s.id, s])));
   const trLabel = $derived(new Map(traits.flatMap((g) => g.values.map((v) => [`${g.key}:${v.key}`, `${g.label}: ${v.label}`] as const))));
 
+  /** the list has a species seen on the trip: show «Все · Видели · Ещё нет» */
+  let hasSeen = $derived((rows ?? []).some((r) => r.seen));
   let nWithTr = $derived((rows ?? []).filter((r) => r.tr).length);
   let showTraits = $derived(traits.length > 0 && nWithTr > 0);
   /** plain copy of the narrow state for the sweeps below (reading a $state proxy per row is slow) */
@@ -141,6 +143,7 @@
     const out: Active[] = [];
     const f = $filter;
     if (f.level !== DEFAULT_FILTER.level) out.push({ key: 'lv', label: f.level === 'sure' ? 'Только «точно»' : '«Точно» и «возможно»', drop: () => filter.update((x) => ({ ...x, level: DEFAULT_FILTER.level })) });
+    if (f.seen !== DEFAULT_FILTER.seen) out.push({ key: 'seen', label: f.seen === 'yes' ? `✓ ${SEEN_LABEL.yes}` : 'Ещё не видели', drop: () => filter.update((x) => ({ ...x, seen: DEFAULT_FILTER.seen })) });
     if (f.tag !== DEFAULT_FILTER.tag) out.push({ key: 'tag', label: `${f.tag === 'end' ? '◆' : f.tag === 'near' ? '◇' : '★'} ${TAG_LABEL[f.tag]}`, drop: () => filter.update((x) => ({ ...x, tag: DEFAULT_FILTER.tag })) });
     for (const c of u.fam) { const fo = famOf.get(c); out.push({ key: `f:${c}`, label: fo ? famName(fo) : c, drop: () => toggle('fam', c) }); }
     for (const s of u.site) out.push({ key: `s:${s}`, label: siteOf.get(s)?.name ?? s, drop: () => toggle('site', s) });
@@ -200,7 +203,7 @@
   </div>
   {#if open}
     <div class="panel" id={`fb-panel-${uid}`}>
-      <ListFilter />
+      <ListFilter seen={hasSeen} />
       {#if fams.length > 1 || sites.length > 1}
         <div class="picks">
           {#if fams.length > 1}
