@@ -1,5 +1,5 @@
 ---
-name: update-observations
+name: ebird
 description: Refresh the trip sightings (Anya's eBird checklists) from a new eBird "Download my data" export: import, check the report, rebuild the site, commit and deploy. Use when the owner uploads a new MyEBirdData zip/csv, says "обнови наблюдения", "новая выгрузка eBird", or asks why a sighting is missing on the site.
 ---
 
