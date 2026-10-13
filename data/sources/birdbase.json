@@ -1,6 +1,6 @@
 {
  "citation": "Şekercioğlu, Ç. H., et al. 2025. BIRDBASE: A Global Database of Avian Biogeography, Conservation, Ecology and Life History Traits. Scientific Data. v2025.1, CC BY 4.0. https://doi.org/10.6084/m9.figshare.27051040",
- "count": 1982,
+ "count": 1983,
  "species": {
   "aburria aburri": {
    "birdbase_id": 728,
@@ -65284,6 +65284,39 @@
    "sci_birdlife": "Zonotrichia leucophrys",
    "sci_clements": "Zonotrichia leucophrys",
    "sci_ioc": "Zonotrichia leucophrys"
+  },
+  "myiophobus cryptoxanthus": {
+   "birdbase_id": 17319,
+   "diet_desc": null,
+   "elevation": {
+    "max": 1100,
+    "max_extreme": 1800,
+    "min": 300,
+    "min_extreme": null
+   },
+   "habitat_breadth": 3,
+   "habitats": [
+    "forest",
+    "woodland",
+    "shrubland"
+   ],
+   "iucn_2024": "LC",
+   "mass_g": 10.166666666666666,
+   "mobility": {
+    "altitudinal": null,
+    "dispersive": null,
+    "irregular": null,
+    "migratory": null,
+    "sedentary": 1
+   },
+   "name_en": "Olive-chested Flycatcher",
+   "primary_diet": "Invertebrate",
+   "primary_habitat": "Forest",
+   "range_restricted": 0,
+   "sci_avilist": "Myiophobus cryptoxanthus",
+   "sci_birdlife": "Myiophobus cryptoxanthus",
+   "sci_clements": "Myiophobus cryptoxanthus",
+   "sci_ioc": "Myiophobus cryptoxanthus"
   }
  }
 }

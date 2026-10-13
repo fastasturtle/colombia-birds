@@ -49,6 +49,7 @@
 - [ ] xeno-canto: список записей на вид (нужен ключ в Secrets, уже есть)
 - [ ] Тексты из PD-источников (Chapman 1917, Todd & Carriker 1922) как «исторические заметки»
 - [ ] SiB Colombia fichas (CC BY-NC) для испанских описаний
+- [x] Добавить Olive-chested Flycatcher *Myiophobus cryptoxanthus* (запись eBird Ани 07.10, Финка Дискосура / дорога у Мокоа, Путумайо; в ACO 2022 нет) — сделано 13.10: `clements2025.json` (`split_from: null`, семейство берётся у ACO-вида того же рода, `common.checklist()`), `ebird birdbase wikidata build` (ru «Оливковогрудая курэта» из eBird; в указателе Lynx/Hilty 2021 вида нет, `lynx_page: null`), карточка `content/species/myiophobus-cryptoxanthus.md`. Осталось в CI: `wikipedia photos upload` с `only = myiophobus-cryptoxanthus` (локально Wikipedia 403); `gbif_sites sites study` при следующем полном прогоне
 
 ## Маршрут
 - [x] Разведка 20 локаций + Chicaque: координаты, высоты, хотспоты, целевые виды

@@ -1,6 +1,6 @@
 {
  "citation": "Clements, J. F., et al. 2025. The eBird/Clements checklist of Birds of the World: v2025. Cornell Lab of Ornithology. https://www.birds.cornell.edu/clementschecklist/ ; names via eBird API v2.",
- "count": 2006,
+ "count": 2007,
  "families": {
   "acanth1": {
    "names": {
@@ -30346,6 +30346,20 @@
    "order": "Passeriformes",
    "sci_name": "Zonotrichia leucophrys",
    "taxon_order": 33187.0
+  },
+  "myiophobus cryptoxanthus": {
+   "code": "olcfly1",
+   "family_code": "tyrann2",
+   "family_en": "Tyrant Flycatchers",
+   "family_sci": "Tyrannidae",
+   "names": {
+    "en": "Olive-chested Flycatcher",
+    "es": "Mosquero Pechioliva",
+    "ru": "Оливковогрудая курэта"
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myiophobus cryptoxanthus",
+   "taxon_order": 16858.0
   }
  }
 }
