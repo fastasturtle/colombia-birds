@@ -3,8 +3,8 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 980
-- Проверено: 980
+- Карточек: 981
+- Проверено: 981
 - Не проверено: 0
 
 ## Не проверено (0)
@@ -12,7 +12,7 @@
 | Слаг | English | Группа |
 |---|---|---|
 
-## Проверено (980)
+## Проверено (981)
 
 | Слаг | English | Группа | Дата |
 |---|---|---|---|
@@ -996,3 +996,4 @@
 | myioborus-miniatus | Slate-throated Redstart | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | myioborus-ornatus | Golden-fronted Redstart | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
 | myioborus-melanocephalus | Spectacled Redstart | Овсянки, древесницы, трупиалы и вьюрки | 2026-09-27 |
+| myiophobus-cryptoxanthus | Olive-chested Flycatcher | Тиранны и титиры | 2026-10-13 |

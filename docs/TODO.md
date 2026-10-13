@@ -65,6 +65,7 @@
 - [ ] La Nutria: найти настоящий хотспот (записанный L5632537 в 230 км); El Escondite: уточнить координаты (хотспот в 15 км)
 - [ ] Найти хотспоты El Encanto, Finca Discosura, Km 42, Finca Maragrícola
 - [ ] Manakin Nature Tours PDF «Macizo, Amazon & Pacific Foothills 2026» — вытащить список видов
+- [ ] Finca Discosura и окрестности: GBIF/eBird ставят хотспот (1.3797, −76.5119) в Кауку (Санта-Роса, Бота-Каукана), а в `data/sites.json` у `finca-discosura` department «Putumayo» и приблизительные координаты Мокоа (1.15, −76.65); `taxonomy_note` у `myiophobus-cryptoxanthus` пишет «Finca Discosura / Mocoa road (Putumayo)», а запись Ани — Sendero Picodehoz (L65093109, 1.458, −76.428, тоже Каука). Поправить координаты/департамент и заметку в пайплайне (найдено при факт-чеке 2026-10-13)
 
 ## Контент
 - [x] Портреты семейств: 57 семейств с видами маршрута (ru + en)
