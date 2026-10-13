@@ -1,5 +1,5 @@
 {
- "_comment": "eBird/Clements 2025 corrections to the ACO 2022 base list (docs/DECISIONS.md row 19). `species`: Clements 2025 species absent from ACO 2022 (post-2022 splits) that GBIF/eBird records at route sites; common.checklist() adds them to the ACO list with `source: clements2025`, so ebird/birdbase/wikidata/build pick them up. ACO taxa whose Colombian population eBird now calls by another name are remapped in aco_to_ebird.json instead (whole-species remap, same ACO record). `renamed`: one-off old slug -> new slug for those remaps; `build` carries `photos`/`sounds`/`texts` of the old data/species/<old>.json over to the new slug when `carry` is true (the old photos show the Colombian bird); otherwise the new slug waits for the CI `photos upload` run. Entries can be dropped once CI has refilled the new slugs.",
+ "_comment": "eBird/Clements 2025 corrections to the ACO 2022 base list (docs/DECISIONS.md row 19). `species`: Clements 2025 species absent from ACO 2022 (post-2022 splits; `split_from: null` for a species that is not a split, e.g. a range-edge species, family/order then from an ACO congener) that GBIF/eBird records at route sites; common.checklist() adds them to the ACO list with `source: clements2025`, so ebird/birdbase/wikidata/build pick them up. ACO taxa whose Colombian population eBird now calls by another name are remapped in aco_to_ebird.json instead (whole-species remap, same ACO record). `renamed`: one-off old slug -> new slug for those remaps; `build` carries `photos`/`sounds`/`texts` of the old data/species/<old>.json over to the new slug when `carry` is true (the old photos show the Colombian bird); otherwise the new slug waits for the CI `photos upload` run. Entries can be dropped once CI has refilled the new slugs.",
  "species": {
   "Dacnis egregia": {
    "authorship": "P.L. Sclater, 1855",
@@ -144,6 +144,15 @@
    "gbif_key": null,
    "habitat_aco": null,
    "note": "Choco Elaenia, split from Gray Elaenia (M. caniceps, now the Atlantic Forest bird) in eBird/Clements: eastern Panama to western Ecuador (route: Km 42, Maragrícola). The ACO taxon itself is remapped to Amazonian Elaenia M. cinerea (east of the Andes, Putumayo)."
+  },
+  "Myiophobus cryptoxanthus": {
+   "authorship": "(P.L. Sclater, 1861)",
+   "split_from": null,
+   "status": ["resident"],
+   "endemic": false,
+   "gbif_key": 5229785,
+   "habitat_aco": null,
+   "note": "Olive-chested Flycatcher: a resident of the eastern Andean foothills from southern Colombia (Putumayo, Caquetá) to Peru that ACO 2022 lacks. Recorded on the route in eBird on 2026-10-07 at Finca Discosura / Mocoa road (Putumayo). Not in the index of Hilty 2021 (Lynx), so no book page."
   }
  },
  "renamed": {

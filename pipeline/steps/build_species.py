@@ -268,7 +268,8 @@ def main() -> None:
 
         taxonomy_note = None
         if a["source"] == "clements2025":
-            taxonomy_note = f"Not in the ACO 2022 checklist (split from {a['split_from']}); added from eBird/Clements 2025. {a.get('clements_note') or ''}".strip()
+            why = f"split from {a['split_from']}" if a.get("split_from") else "not a split"
+            taxonomy_note = f"Not in the ACO 2022 checklist ({why}); added from eBird/Clements 2025. {a.get('clements_note') or ''}".strip()
         elif norm_sci(sci) != key:
             taxonomy_note = f"ACO/SACC lists this as {a['sci_name']}; eBird/Clements uses {sci}."
 

@@ -298,7 +298,9 @@ def checklist() -> dict[str, dict]:
     """The species list every step works on: ACO 2022 (data/sources/aco.json, `source: aco2022`) with the
     field fixes of mappings/aco_fixes.json, plus the eBird/Clements 2025 species of mappings/clements2025.json
     `species` that ACO lacks (`source: clements2025`, docs/DECISIONS.md row 19), shaped like ACO records and
-    keyed by normalised scientific name. Family/order of an added species come from its `split_from` taxon."""
+    keyed by normalised scientific name. Family/order of an added species come from its `split_from` taxon or,
+    for a species that is not a split (`split_from: null`, e.g. a range-edge species ACO lacks), from an ACO
+    species of the same genus."""
     aco = read_json(SOURCES / "aco.json")["species"]
     out = {k: {**v, "source": "aco2022"} for k, v in aco.items()}
     for k, fix in (read_json(MAPPINGS / "aco_fixes.json") or {}).items():
@@ -309,7 +311,11 @@ def checklist() -> dict[str, dict]:
         key = norm_sci(sci)
         if key in out:
             continue  # ACO has it after all: the ACO record wins
-        parent = aco[norm_sci(x["split_from"])]
+        if x.get("split_from"):
+            parent = aco[norm_sci(x["split_from"])]
+        else:
+            genus = sci.split()[0]
+            parent = next(v for v in aco.values() if v["genus"] == genus)
         out[key] = {
             "authorship": x.get("authorship"),
             "endemic": bool(x.get("endemic")),
@@ -329,7 +335,7 @@ def checklist() -> dict[str, dict]:
             "status": {"codes": x.get("status", ["resident"]), "raw": "Residente (нет в списке ACO 2022, вид по eBird/Clements 2025)", "uncertain": False},
             "status_avendano_2017": None,
             "source": "clements2025",
-            "split_from": x["split_from"],
+            "split_from": x.get("split_from"),
             "clements_note": x.get("note"),
         }
     return out
