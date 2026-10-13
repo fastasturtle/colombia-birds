@@ -563,6 +563,8 @@ export interface ObsChecklist {
   day: string | null;
   location: string; location_id: string | null; lat: number | null; lon: number | null; protocol: string;
   duration_min: number | null; distance_km: number | null; observers: number | null; comments: string | null; n_species: number;
+  /** matched to the site by name or distance on a date that is not one of the site's route days (driving past); absent otherwise */
+  passing?: true;
 }
 export interface ObsEntry { cl: string; date: string; time: string | null; site: string | null; count: number | null; details: string | null }
 export interface SeenSpecies {
@@ -571,8 +573,9 @@ export interface SeenSpecies {
   lifer: boolean;
   n_checklists: number; sites: string[]; days: string[]; obs: ObsEntry[];
 }
-/** new = species first seen on the trip in that group (day / site) */
-export interface SeenStats { species: number; new: number; lifers: number; checklists: number; observations: number }
+/** new = species first seen on the trip in that group (day / site); passing_checklists (by_site only, when > 0) = of
+ * checklists, those made driving past the site (ObsChecklist.passing) */
+export interface SeenStats { species: number; new: number; lifers: number; checklists: number; observations: number; passing_checklists?: number }
 export interface Observations {
   observer: string; source: string; exported: string; trip_start: string;
   checklists: ObsChecklist[];

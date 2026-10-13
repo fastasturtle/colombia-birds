@@ -28,17 +28,22 @@ Matching:
   A wider plain radius mis-assigns (El Dorado airport -> La Florida at 3 km, Humedal Soacha -> Campo Tangara at
   7 km, Bogotá city parks -> Jardín Botánico at 6 km), so it stays small; unmatched checklists keep their location.
 - checklist -> day: the itinerary day with that date, else null.
+- passing: a checklist matched to a site by name or distance (not by the site's hotspot id) on a date that is not
+  one of that site's itinerary days (days whose `sites` include it, or whose overnight_site it is), e.g. the roadside
+  stop «Vereda La Palestina» 1 km from El Escondite on 7 Oct, a week before the visit. The match is kept (its species
+  count for the site); the site shows it as «проездом». A hotspot match off the planned day is a real visit on a
+  shifted day (La Drymophila on 6 Oct instead of 5 Oct) or at the lodge (El Encanto on 5 Oct), so it is not passing.
 - lifer: the normalised name is not in life_list_before_trip.json.
 
 data/observations.json:
   {observer, source, exported, trip_start,
    checklists: [{id, date, time, site, day, location, location_id, lat, lon, protocol, duration_min, distance_km,
-                 observers, comments, n_species}]  sorted by date, time
+                 observers, comments, n_species, passing (only when true)}]  sorted by date, time
    species: {slug: {first, lifer, n_checklists, sites, days, obs: [{cl, date, time, site, count, details}]}}
    unmatched: [{sci, name, n, dates}]
    stats: {species, lifers, checklists, observations, days,
            by_day: {date: {species, new, lifers, checklists, observations}},
-           by_site: {site: {species, new, lifers, checklists, observations}},
+           by_site: {site: {species, new, lifers, checklists, observations, passing_checklists (only when > 0)}},
            off_site: {...same, checklists with no site...} or null}}
   `new` = species first seen on the trip that day / at that site (earliest checklist by date and time).
 """
@@ -216,6 +221,11 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
           trip_start: str, exported: str) -> dict:
     by_sci = {norm_sci(s["sci"]): s["id"] for s in index}
     days = {d["date"]: d for d in itinerary}
+    site_days: dict[str, set[str]] = {}
+    for d in itinerary:
+        for sid in list(d.get("sites") or []) + ([d["overnight_site"]] if d.get("overnight_site") else []):
+            site_days.setdefault(sid, set()).add(d["date"])
+    hotspots = {s["id"]: {h.get("id") for h in s.get("ebird_hotspots") or []} for s in sites}
 
     checklists: dict[str, dict] = {}
     for r in rows:
@@ -237,6 +247,8 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
             cl["lon"] = round(cl["lon"], 5)
         cl["day"] = date if date in days else None
         cl["site"] = match_site(cl, sites, days.get(date))
+        if cl["site"] and date not in site_days.get(cl["site"], set()) and cl["location_id"] not in hotspots[cl["site"]]:
+            cl["passing"] = True
         checklists[cid] = cl
     order = sorted(checklists.values(), key=lambda c: (c["date"], c["time"] or "", c["id"]))
 
@@ -296,6 +308,10 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
 
     by_day = group_stats(lambda c: c["date"])
     by_site = group_stats(lambda c: c["site"])
+    for c in order:
+        if c.get("passing"):
+            e = by_site[c["site"]]
+            e["passing_checklists"] = e.get("passing_checklists", 0) + 1
     off = group_stats(lambda c: "_" if c["site"] is None else None).get("_")
     for sp in species.values():
         del sp["first_cl"]
@@ -320,14 +336,15 @@ def plural(n: int, one: str, few: str, many: str) -> str:
     return one if m10 == 1 and m100 != 11 else few if 2 <= m10 <= 4 and not 12 <= m100 <= 14 else many
 
 
-def report(obs: dict, sites: list[dict]) -> str:
+def report(obs: dict, sites: list[dict], itinerary: list[dict]) -> str:
     name = {s["id"]: s.get("name_ru") or s["name"] for s in sites}
     st = obs["stats"]
     lines = [
         "# Наблюдения (eBird, чеклисты Ани)", "",
         f"Выгрузка от {obs['exported']}, тур с {obs['trip_start']}. Шаг `observations` (`pipeline/steps/build_observations.py`).", "",
         f"- Видов (сопоставлено с базой сайта): {st['species']}, из них новых для Ани (лайферов): {st['lifers']}",
-        f"- Чеклистов: {st['checklists']}, дней: {st['days']}, записей: {st['observations']}",
+        f"- Чеклистов: {st['checklists']}, дней: {st['days']}, записей: {st['observations']}; "
+        f"проездом (у локации не в её день маршрута): {sum(1 for c in obs['checklists'] if c.get('passing'))}",
         f"- Не сопоставлено таксонов: {len(obs['unmatched'])}", "",
         "## По дням", "", "| Дата | Видов | Новых для тура | Лайферов | Чеклистов |", "|---|---|---|---|---|",
     ]
@@ -335,12 +352,20 @@ def report(obs: dict, sites: list[dict]) -> str:
         lines.append(f"| {d} | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']} |")
     lines += ["", "## По локациям", "", "| Локация | Видов | Новых для тура | Лайферов | Чеклистов |", "|---|---|---|---|---|"]
     for s, e in sorted(st["by_site"].items(), key=lambda x: -x[1]["species"]):
-        lines.append(f"| {name.get(s, s)} (`{s}`) | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']} |")
+        pc = f" (из них {e['passing_checklists']} проездом)" if e.get("passing_checklists") else ""
+        lines.append(f"| {name.get(s, s)} (`{s}`) | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']}{pc} |")
     if st["off_site"]:
         e = st["off_site"]
         lines.append(f"| вне локаций маршрута | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']} |")
     lines += ["", "## Не сопоставлено с базой сайта", ""]
     lines += [f"- *{u['sci']}* ({u['name']}): {u['n']} {plural(u['n'], 'запись', 'записи', 'записей')}, {', '.join(u['dates'])}" for u in obs["unmatched"]] or ["Нет."]
+    lines += ["", "## Чеклисты проездом", "",
+              "Сопоставлены с локацией по названию или расстоянию (ближе 2 км), но в этот день локации нет в маршруте: "
+              "виды засчитаны локации, на сайте чеклист помечен «проездом».", ""]
+    route_days = {s: sorted(d["date"] for d in itinerary if s in (d.get("sites") or [])) for s in name}
+    lines += [f"- {c['date']} {c['time'] or ''} [{c['id']}](https://ebird.org/checklist/{c['id']}): {c['location']} -> "
+              f"{name.get(c['site'], c['site'])} (`{c['site']}`, в маршруте: {', '.join(route_days.get(c['site']) or []) or 'нет'})"
+              for c in obs["checklists"] if c.get("passing")] or ["Нет."]
     lines += ["", "## Чеклисты без локации маршрута", ""]
     no_site = [c for c in obs["checklists"] if c["site"] is None]
     lines += [f"- {c['date']} {c['time'] or ''} [{c['id']}](https://ebird.org/checklist/{c['id']}): {c['location']} ({c['n_species']} {plural(c['n_species'], 'вид', 'вида', 'видов')})"
@@ -376,11 +401,11 @@ def main() -> None:
     obs = build(rows, set(life_doc["species"]), read_json(DATA / "species_index.json"), read_json(DATA / "sites.json"),
                 itinerary, trip_start, life_doc.get("exported") or "")
     write_json(OUT, obs)
-    write_text(REPORT, report(obs, read_json(DATA / "sites.json")))
+    write_text(REPORT, report(obs, read_json(DATA / "sites.json"), itinerary))
     st = obs["stats"]
     log(f"observations: {st['species']} species ({st['lifers']} lifers), {st['checklists']} checklists on {st['days']} days, "
-        f"{len(obs['unmatched'])} unmatched taxa, {sum(1 for c in obs['checklists'] if c['site'] is None)} checklists without a site "
-        f"-> {rel(OUT)}")
+        f"{len(obs['unmatched'])} unmatched taxa, {sum(1 for c in obs['checklists'] if c['site'] is None)} checklists without a site, "
+        f"{sum(1 for c in obs['checklists'] if c.get('passing'))} passing -> {rel(OUT)}")
 
 
 if __name__ == "__main__":

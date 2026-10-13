@@ -81,12 +81,41 @@ def test_import_and_build():
     assert [c["id"] for c in obs["checklists"]] == ["S2", "S3", "S4", "S5"]
     assert cls["S2"]["site"] == "alpha" and cls["S3"]["site"] == "betaville" and cls["S4"]["site"] is None
     assert cls["S5"]["site"] == "alpha" and cls["S5"]["time"] == "00:05" and cls["S5"]["day"] == "2026-10-04"
+    # S5 is 0.5 km from alpha (no hotspot id) on 2026-10-04, a day without alpha: passing
+    assert [c["id"] for c in obs["checklists"] if c.get("passing")] == ["S5"]
     assert cls["S2"]["n_species"] == 2 and cls["S2"]["comments"] == "Ранний выход" and cls["S2"]["observers"] == 3
     st = obs["stats"]
     assert (st["species"], st["lifers"], st["checklists"], st["days"]) == (4, 2, 4, 3)
     assert st["by_day"]["2026-10-03"] == {"species": 2, "new": 1, "lifers": 2, "checklists": 2, "observations": 3}
-    assert st["by_site"]["alpha"] == {"species": 3, "new": 3, "lifers": 1, "checklists": 2, "observations": 3}
+    assert st["by_site"]["alpha"] == {"species": 3, "new": 3, "lifers": 1, "checklists": 2, "observations": 3,
+                                      "passing_checklists": 1}
     assert st["off_site"] == {"species": 1, "new": 0, "lifers": 1, "checklists": 1, "observations": 1}
+
+
+def test_passing():
+    """A checklist matched by distance on a day its site is not on the route is «passing»; stats keep counting it."""
+    head = ["Submission ID", "Common Name", "Scientific Name", "Count", "Location ID", "Location", "Latitude", "Longitude",
+            "Date", "Time", "Protocol"]
+    def row(sid, sci, loc_id, loc, lat, lon, date):
+        return dict(zip(head, [sid, "", sci, "1", loc_id, loc, str(lat), str(lon), date, "07:00 AM", "eBird - Stationary Count"]))
+    rows = [
+        row("P1", "Avis prima", "L900", "Roadside", 4.012, -74.105, "2026-10-02"),   # near gamma, gamma is on 10-03 -> passing
+        row("P2", "Avis secunda", "L900", "Roadside", 4.012, -74.105, "2026-10-03"),  # same spot on gamma's day -> not
+        row("P3", "Avis tertia", "L100", "Hotspot Alpha", 4.0, -74.0, "2026-10-04"),  # alpha's hotspot off its day -> not
+        row("P4", "Avis tertia", "L901", "Lodge garden", 4.012, -74.105, "2026-10-04"),  # gamma is the overnight site -> not
+    ]
+    itin = [*ITIN[:2], {"date": "2026-10-04", "sites": [], "overnight_site": "gamma"}]
+    obs = bo.build(rows, set(), INDEX, SITES, itin, "2026-10-01", "2026-10-04")
+    cls = {c["id"]: c for c in obs["checklists"]}
+    assert cls["P1"]["site"] == "gamma" and cls["P1"]["passing"] is True
+    assert [k for k, c in cls.items() if c.get("passing")] == ["P1"]
+    g = obs["stats"]["by_site"]["gamma"]
+    assert g["checklists"] == 3 and g["species"] == 3 and g["passing_checklists"] == 1
+    assert "passing_checklists" not in obs["stats"]["by_site"]["alpha"]
+    assert obs["species"]["avis-prima"]["sites"] == ["gamma"]
+    rep = bo.report(obs, SITES, itin)
+    assert "| 3 (из них 1 проездом) |" in rep
+    assert "[P1]" in rep.split("## Чеклисты проездом")[1].split("##")[0]
 
 
 if __name__ == "__main__":

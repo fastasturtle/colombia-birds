@@ -74,7 +74,7 @@ const statCells = (e: SeenStats) => [e.species, e.new, e.lifers, e.checklists];
           <thead><tr><th>Локация</th><th>Видов</th><th title="впервые в туре">Впервые</th><th title="новых для Ани">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
           <tbody>
             {bySite.map(([id, e]) => (
-              <tr><td><a href={`${base}sites/${id}/`}>{siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id}</a><span class="muted sub">{siteDays(id)}</span></td>{statCells(e).map((n) => <td class="n">{n}</td>)}</tr>
+              <tr><td><a href={`${base}sites/${id}/`}>{siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id}</a><span class="muted sub">{siteDays(id)}{e.passing_checklists ? ` · ${e.passing_checklists} проездом` : ''}</span></td>{statCells(e).map((n) => <td class="n">{n}</td>)}</tr>
             ))}
             {st.off_site && (
               <tr class="off"><td>Вне локаций маршрута<span class="muted sub">{offDays}</span></td>{statCells(st.off_site).map((n) => <td class="n">{n}</td>)}</tr>
@@ -82,7 +82,7 @@ const statCells = (e: SeenStats) => [e.species, e.new, e.lifers, e.checklists];
           </tbody>
         </table>
       </div>
-      <p class="muted small">«Впервые» — впервые за поездку в этот день или на этой локации; «лайферов» — видов, которых Аня не отмечала в eBird до тура; «чекл.» — чеклистов eBird. «Вне локаций маршрута» — парки Боготы, аэропорт, остановки в дороге.</p>
+      <p class="muted small">«Впервые» — впервые за поездку в этот день или на этой локации; «лайферов» — видов, которых Аня не отмечала в eBird до тура; «чекл.» — чеклистов eBird, «проездом» — чеклисты у локации не в её день маршрута (виды засчитаны локации). «Вне локаций маршрута» — парки Боготы, аэропорт, остановки в дороге.</p>
 
       <FilterScope ctx={facets.ctx}>
         <h2 class="vh">Виды по дню первой встречи <span class="cnt muted" data-lf-summary>{rows.length} {plural(rows.length, 'вид', 'вида', 'видов')}</span></h2>
