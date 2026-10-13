@@ -573,7 +573,9 @@ export interface SeenSpecies {
   lifer: boolean;
   n_checklists: number; sites: string[]; days: string[]; obs: ObsEntry[];
 }
-/** new = species first seen on the trip in that group (day / site); passing_checklists (by_site only, when > 0) = of
+/** species = all seen in that group (day / site); new = species first seen on the trip there; lifers = lifers among
+ * new only (counted on the day / at the site of the first sighting, so by-day new / lifers add up to the trip totals);
+ * passing_checklists (by_site only, when > 0) = of
  * checklists, those made driving past the site (ObsChecklist.passing) */
 export interface SeenStats { species: number; new: number; lifers: number; checklists: number; observations: number; passing_checklists?: number }
 export interface Observations {
@@ -639,15 +641,16 @@ export function seenTitle(id: string): string {
   if (s.lifer) parts.push('новый вид для Ани');
   return parts.join(' · ');
 }
-/** «41 вид, 38 новых для Ани (3 чеклиста)» */
-export function seenSummary(st: SeenStats): string {
-  return `${st.species} ${plural(st.species, 'вид', 'вида', 'видов')}` +
-    (st.lifers ? `, ${st.lifers} ${plural(st.lifers, 'новый', 'новых', 'новых')} для Ани` : '') +
-    ` (${st.checklists} ${plural(st.checklists, 'чеклист', 'чеклиста', 'чеклистов')})`;
+/** «39 видов, из них 38 новых для Ани» (species first seen on the trip in the group; '' when none) */
+export function seenNew(st: SeenStats): string {
+  if (!st.new) return '';
+  return `${st.new} ${plural(st.new, 'вид', 'вида', 'видов')}` +
+    (st.lifers ? `, из них ${st.lifers} ${plural(st.lifers, 'новый', 'новых', 'новых')} для Ани` : '');
 }
-/** «41 вид · 38 лайферов» for the home day cards and site cards (after a green ✓) */
+/** «84 вида · 39 впервые · 38 лайферов» for the home day cards and site cards (after a green ✓); zero parts dropped */
 export function seenShort(st: SeenStats): string {
   return `${st.species} ${plural(st.species, 'вид', 'вида', 'видов')}` +
+    (st.new ? ` · ${st.new} впервые` : '') +
     (st.lifers ? ` · ${st.lifers} ${plural(st.lifers, 'лайфер', 'лайфера', 'лайферов')}` : '');
 }
 export const PROTOCOL_RU: Record<string, string> = { traveling: 'маршрут', stationary: 'на месте', casual: 'попутно', historical: 'исторический', area: 'площадка', incidental: 'попутно' };

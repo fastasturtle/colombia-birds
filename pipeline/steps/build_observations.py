@@ -46,6 +46,8 @@ data/observations.json:
            by_site: {site: {species, new, lifers, checklists, observations, passing_checklists (only when > 0)}},
            off_site: {...same, checklists with no site...} or null}}
   `new` = species first seen on the trip that day / at that site (earliest checklist by date and time).
+  `lifers` = lifers among `new` only (counted on the day / at the site of the trip's first sighting), so the
+  by_day `new` and `lifers` columns add up to stats.species and stats.lifers. `species` is everything seen there.
 """
 from __future__ import annotations
 
@@ -284,7 +286,8 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
         c["n_species"] = len(taxa_per_cl[c["id"]])
 
     def group_stats(key) -> dict:
-        """Per group (key(checklist) -> group id or None): species, new (first seen there), lifers, checklists, observations."""
+        """Per group (key(checklist) -> group id or None): species, new (first seen there), lifers (among new),
+        checklists, observations."""
         out: dict = {}
         for c in order:
             g = key(c)
@@ -300,10 +303,10 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
                 e = out[g]
                 e["species"].add(slug)
                 e["observations"] += 1
-                if sp["lifer"]:
-                    e["lifers"].add(slug)
                 if o["cl"] == sp["first_cl"]:
                     e["new"].add(slug)
+                    if sp["lifer"]:
+                        e["lifers"].add(slug)
         return {g: {k: (len(v) if isinstance(v, set) else v) for k, v in e.items()} for g, e in out.items()}
 
     by_day = group_stats(lambda c: c["date"])
@@ -346,11 +349,17 @@ def report(obs: dict, sites: list[dict], itinerary: list[dict]) -> str:
         f"- Чеклистов: {st['checklists']}, дней: {st['days']}, записей: {st['observations']}; "
         f"проездом (у локации не в её день маршрута): {sum(1 for c in obs['checklists'] if c.get('passing'))}",
         f"- Не сопоставлено таксонов: {len(obs['unmatched'])}", "",
-        "## По дням", "", "| Дата | Видов | Новых для тура | Лайферов | Чеклистов |", "|---|---|---|---|---|",
+        "## По дням", "",
+        "Видов: всё, что видели в этот день / на этой локации. Впервые в туре: виды, впервые встреченные в туре именно "
+        "здесь; лайферы считаются только среди них (в день и на локации первой встречи), поэтому столбцы «Впервые в "
+        "туре» и «из них лайферов» по дням складываются в итог тура.", "",
+        "| Дата | Видов | Впервые в туре | из них лайферов | Чеклистов |", "|---|---|---|---|---|",
     ]
     for d, e in sorted(st["by_day"].items()):
         lines.append(f"| {d} | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']} |")
-    lines += ["", "## По локациям", "", "| Локация | Видов | Новых для тура | Лайферов | Чеклистов |", "|---|---|---|---|---|"]
+    lines.append(f"| **итого** | {st['species']} | {sum(e['new'] for e in st['by_day'].values())} | "
+                 f"{sum(e['lifers'] for e in st['by_day'].values())} | {st['checklists']} |")
+    lines += ["", "## По локациям", "", "| Локация | Видов | Впервые в туре | из них лайферов | Чеклистов |", "|---|---|---|---|---|"]
     for s, e in sorted(st["by_site"].items(), key=lambda x: -x[1]["species"]):
         pc = f" (из них {e['passing_checklists']} проездом)" if e.get("passing_checklists") else ""
         lines.append(f"| {name.get(s, s)} (`{s}`) | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']}{pc} |")
