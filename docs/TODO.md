@@ -65,7 +65,7 @@
 - [ ] La Nutria: найти настоящий хотспот (записанный L5632537 в 230 км); El Escondite: уточнить координаты (хотспот в 15 км)
 - [ ] Найти хотспоты El Encanto, Finca Discosura, Km 42, Finca Maragrícola
 - [ ] Manakin Nature Tours PDF «Macizo, Amazon & Pacific Foothills 2026» — вытащить список видов
-- [ ] Finca Discosura и окрестности: GBIF/eBird ставят хотспот (1.3797, −76.5119) в Кауку (Санта-Роса, Бота-Каукана), а в `data/sites.json` у `finca-discosura` department «Putumayo» и приблизительные координаты Мокоа (1.15, −76.65); `taxonomy_note` у `myiophobus-cryptoxanthus` пишет «Finca Discosura / Mocoa road (Putumayo)», а запись Ани — Sendero Picodehoz (L65093109, 1.458, −76.428, тоже Каука). Поправить координаты/департамент и заметку в пайплайне (найдено при факт-чеке 2026-10-13)
+- [x] Finca Discosura и окрестности: GBIF/eBird ставят хотспот (1.3797, −76.5119) в Кауку (Санта-Роса, Бота-Каукана), а в `data/sites.json` у `finca-discosura` department «Putumayo» и приблизительные координаты Мокоа (1.15, −76.65); `taxonomy_note` у `myiophobus-cryptoxanthus` пишет «Finca Discosura / Mocoa road (Putumayo)», а запись Ани — Sendero Picodehoz (L65093109, 1.458, −76.428, тоже Каука). Поправить координаты/департамент и заметку в пайплайне (найдено при факт-чеке 2026-10-13) — сделано 2026-10-13: `finca-discosura` → 1.3797, −76.5119 (точка хотспота L27467428 «Finca Discosura», Каука; прежний L3643030 «Vereda Rumiyaco-Los Andes» оказался в самом Мокоа и убран), высота 950–1150 м (SRTM 1 040 м), заметка о Бота-Каукане; заметка Myiophobus → Sendero Picodehoz; GBIF перекачан для одной локации (новый `gbif_sites --site`)
 
 ## Контент
 - [x] Портреты семейств: 57 семейств с видами маршрута (ru + en)
