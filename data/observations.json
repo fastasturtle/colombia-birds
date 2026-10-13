@@ -4158,6 +4158,25 @@
     "el-encanto"
    ]
   },
+  "myiophobus-cryptoxanthus": {
+   "days": [
+    "2026-10-07"
+   ],
+   "first": "2026-10-07",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S400092465",
+     "count": 1,
+     "date": "2026-10-07",
+     "details": "F",
+     "site": null,
+     "time": "07:05"
+    }
+   ],
+   "sites": []
+  },
   "myiophobus-fasciatus": {
    "days": [
     "2026-10-06"
@@ -7713,10 +7732,10 @@
    },
    "2026-10-07": {
     "checklists": 8,
-    "lifers": 40,
-    "new": 27,
-    "observations": 54,
-    "species": 45
+    "lifers": 41,
+    "new": 28,
+    "observations": 55,
+    "species": 46
    },
    "2026-10-08": {
     "checklists": 1,
@@ -7786,26 +7805,17 @@
   },
   "checklists": 26,
   "days": 8,
-  "lifers": 244,
-  "observations": 457,
+  "lifers": 245,
+  "observations": 458,
   "off_site": {
    "checklists": 8,
-   "lifers": 21,
-   "new": 17,
-   "observations": 36,
-   "species": 26
+   "lifers": 22,
+   "new": 18,
+   "observations": 37,
+   "species": 27
   },
-  "species": 258
+  "species": 259
  },
  "trip_start": "2026-10-01",
- "unmatched": [
-  {
-   "dates": [
-    "2026-10-07"
-   ],
-   "n": 1,
-   "name": "Оливковогрудая курэта",
-   "sci": "Myiophobus cryptoxanthus"
-  }
- ]
+ "unmatched": []
 }
