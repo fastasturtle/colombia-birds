@@ -3,21 +3,27 @@
  * «Видели …» section of a day or site page: counts in words (lib/data seenSummary: species, new for Anya, checklists),
  * species first seen on the trip there, and Anya's eBird checklists (time, place or date, duration, species, link).
  * on = 'day': each checklist names its place (site link or the raw eBird location); 'site': its date (day link).
+ * A checklist with `passing` (near the site on a day it is not on the route) gets a muted «проездом» tag; on a site
+ * page the header notes how many and when («из них 1 проездом, 7 октября», or «проездом, 7 октября» when all are).
  */
 import { checklistPlace, fmtDateRu, itinerary, plural, seenSummary, PROTOCOL_RU, type SeenGroup } from '@lib/data';
 interface Props { g: SeenGroup; on: 'day' | 'site' }
 const { g, on } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const routeDates = new Set(itinerary().map((d) => d.date));
+const passing = g.checklists.filter((c) => c.passing);
+const passingDates = [...new Set(passing.map((c) => c.date))].map((d) => fmtDateRu(d, false)).join(', ');
+const passingNote = on !== 'site' || !passing.length ? ''
+  : passing.length === g.checklists.length ? `проездом, ${passingDates}` : `из них ${passing.length} проездом, ${passingDates}`;
 const dur = (m: number | null) => (m == null ? null : m >= 60 ? `${Math.floor(m / 60)} ч ${m % 60 ? `${m % 60} мин` : ''}`.trim() : `${m} мин`);
 ---
 <section class="seen-cl card">
-  <h2><span class="ck" aria-hidden="true">✓</span> Видели {seenSummary(g.stats)}</h2>
+  <h2><span class="ck" aria-hidden="true">✓</span> Видели {seenSummary(g.stats)}{passingNote && <span class="muted pn"> ({passingNote})</span>}</h2>
   {g.stats.new > 0 && <p class="muted sub">{on === 'day' ? 'Впервые в туре в этот день' : 'Впервые в туре здесь'}: {g.stats.new} {plural(g.stats.new, 'вид', 'вида', 'видов')}. <a href={`${base}seen/`}>Все наблюдения →</a></p>}
   <ul>
     {g.checklists.map((c) => (
       <li>
-        <span class="t">{on === 'site' && (routeDates.has(c.date) ? <a href={`${base}days/${c.date}/`}>{fmtDateRu(c.date, false)}</a> : fmtDateRu(c.date, false))}{on === 'site' && c.time && ', '}{c.time ?? ''}</span>
+        <span class="t">{on === 'site' && (routeDates.has(c.date) ? <a href={`${base}days/${c.date}/`}>{fmtDateRu(c.date, false)}</a> : fmtDateRu(c.date, false))}{on === 'site' && c.time && ', '}{c.time ?? ''}{c.passing && <span class="pz" title="Рядом с локацией, но не в её день маршрута: проезжали мимо">проездом</span>}</span>
         {on === 'day' && <span class="p">{c.site ? <a href={`${base}sites/${c.site}/`}>{checklistPlace(c)}</a> : checklistPlace(c)}</span>}
         <span class="muted m">{[PROTOCOL_RU[c.protocol] ?? c.protocol, dur(c.duration_min), `${c.n_species} ${plural(c.n_species, 'вид', 'вида', 'видов')}`].filter(Boolean).join(' · ')}</span>
         <a class="e" href={`https://ebird.org/checklist/${c.id}`} target="_blank" rel="noopener" title="Чеклист в eBird">eBird ↗</a>
@@ -33,6 +39,8 @@ const dur = (m: number | null) => (m == null ? null : m >= 60 ? `${Math.floor(m 
   ul { list-style: none; padding: 0; margin: 0; }
   li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 5px 0; border-top: 1px solid var(--line); font-size: .9rem; }
   .t { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .pn { font-size: .85rem; font-weight: 400; }
+  .pz { margin-left: 6px; padding: 0 6px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .75rem; font-variant-numeric: normal; }
   .p { font-weight: 600; min-width: 0; overflow-wrap: anywhere; flex: 1 1 12em; }
   .m { font-size: .82rem; }
   .e { margin-left: auto; white-space: nowrap; font-size: .85rem; min-height: 32px; display: inline-flex; align-items: center; }
