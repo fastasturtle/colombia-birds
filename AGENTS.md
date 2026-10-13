@@ -66,4 +66,11 @@
 - Погода: `data/weather.json` (прогноз Open-Meteo утро/день/вечер по дням и локациям) обновляет без ИИ ежедневный
   workflow `.github/workflows/weather.yml` (05:00 Боготы, шаг `weather`, коммит + деплой). Вручную: `uv run python run.py weather`
   или Actions → weather → Run workflow. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
+- Наблюдения в туре (что уже увидели): Аня присылает новую выгрузку eBird («Download my data», `MyEBirdData.csv`).
+  Положить её вне репозитория (это личная история локаций по всему миру, **не коммитить**) и выполнить
+  `cd pipeline && uv run python run.py observations --import <путь к MyEBirdData.csv>`: шаг перепишет
+  `pipeline/sources/ebird/colombia_2026.csv` (только строки CO-* с начала тура) и `life_list_before_trip.json`
+  (виды до тура, для «новых для Ани»), затем `data/observations.json` и отчёт `data/sources/observations_report.md`
+  (проверить «Не сопоставлено» и «Чеклисты без локации»). Без `--import` шаг пересобирает только из закоммиченных
+  источников. Коммитить эти четыре файла, сайт пересобрать. На сайте: `/seen/`, фильтр «Видели» на списках, ✓ у видов.
 - Прогресс пайплайна в CI: `curl -s https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json` (обновляется раз в минуту; локально `pipeline/cache/status.json`, см. `pipeline/README.md`).
