@@ -17,6 +17,7 @@ freq_aut = n_aut / total_records_aut; state = common.likelihood(): "sure" (freq_
 `--min-records` records in total (default 1000) get the radius doubled, up to x4.
 
 Usage: uv run python run.py gbif_sites   |   steps/fetch_gbif_sites.py --radius 7 --min-count 3 [--refresh]
+       [--site ID ...]  (refetch only these sites, keep the rest of data/site_species.json)
 """
 from __future__ import annotations
 
@@ -96,9 +97,17 @@ def main() -> None:
     ap.add_argument("--min-records", type=int, default=1000,
                     help="widen the radius (x2, then x4) for sites with fewer GBIF records than this")
     ap.add_argument("--refresh", action="store_true", help="ignore the HTTP cache for facet queries")
+    ap.add_argument("--site", nargs="+", metavar="ID",
+                    help="refetch only these sites; the others are kept from the existing site_species.json")
     a = ap.parse_args()
 
-    sites = read_json(DATA / "sites.json")
+    all_sites = read_json(DATA / "sites.json")
+    sites = all_sites
+    if a.site:
+        unknown = set(a.site) - {s["id"] for s in all_sites}
+        if unknown:
+            sys.exit(f"unknown site id(s): {', '.join(sorted(unknown))}")
+        sites = [s for s in all_sites if s["id"] in a.site]
     by_key, by_sci, by_fam_epithet = species_lookups()
     manual: dict[str, str] = {k: v for k, v in read_json(MAP, {}).items() if not k.startswith("_")}
     # {from_slug: {to_slug: [regions]}}: splits GBIF keeps under one key, decided by the site's region
@@ -180,6 +189,18 @@ def main() -> None:
         log(f"  {s['id']:24s} r={radius:g}km records {r.get('count', 0):7d} aut {total_aut:6d}  "
             f"species(n>={a.min_count}) {len(sp):4d}  {lv}")
 
+    if a.site:  # keep the other sites (in sites.json order) and their unmatched keys
+        old = read_json(DATA / "site_species.json", {})
+        out = {s["id"]: out[s["id"]] if s["id"] in out else old[s["id"]]
+               for s in all_sites if s["id"] in out or s["id"] in old}
+        for u in read_json(SOURCES / "gbif_sites_unmatched.json", []):
+            kept = {k: v for k, v in u["sites"].items() if k not in a.site}
+            if not kept:
+                continue
+            if u["key"] in unmatched:
+                unmatched[u["key"]]["sites"].update(kept)
+            else:
+                unmatched[u["key"]] = {**u, "sites": kept}
     write_json(DATA / "site_species.json", out)
     write_json(SOURCES / "gbif_sites_unmatched.json",
                sorted(unmatched.values(), key=lambda u: -sum(u["sites"].values())))

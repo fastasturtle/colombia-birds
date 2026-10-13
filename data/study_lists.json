@@ -18231,7 +18231,7 @@
   ],
   "species": [
    {
-    "freq_aut": 0.01712,
+    "freq_aut": 0.01985,
     "id": "tangara-chilensis",
     "interesting": true,
     "new_for_route": true,
@@ -18251,7 +18251,17 @@
     ]
    },
    {
-    "freq_aut": 0.0124,
+    "freq_aut": 0.01134,
+    "id": "chrysuronia-oenone",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "sure",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
+    "freq_aut": 0.01099,
     "id": "chionomesa-fimbriata",
     "interesting": true,
     "new_for_route": true,
@@ -18273,16 +18283,6 @@
    {
     "freq_aut": 0.00949,
     "id": "snowornis-subalaris",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.00707,
-    "id": "chrysuronia-oenone",
     "interesting": true,
     "new_for_route": true,
     "state": "maybe",
@@ -18321,7 +18321,7 @@
     ]
    },
    {
-    "freq_aut": 0.00475,
+    "freq_aut": 0.00541,
     "id": "cephalopterus-ornatus",
     "interesting": true,
     "new_for_route": true,
@@ -18343,6 +18343,16 @@
    {
     "freq_aut": 0.00475,
     "id": "pharomachrus-pavoninus",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
+    "freq_aut": 0.0047,
+    "id": "discosura-popelairii",
     "interesting": true,
     "new_for_route": true,
     "state": "maybe",
@@ -18373,6 +18383,16 @@
    {
     "freq_aut": 0.00363,
     "id": "epinecrophylla-spodionota",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
+    "freq_aut": 0.00337,
+    "id": "galbula-pastazae",
     "interesting": true,
     "new_for_route": true,
     "state": "maybe",
@@ -18451,18 +18471,8 @@
     ]
    },
    {
-    "freq_aut": 0.00099,
-    "id": "discosura-popelairii",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.00084,
-    "id": "galbula-pastazae",
+    "freq_aut": 0.00097,
+    "id": "klais-guimeti",
     "interesting": true,
     "new_for_route": true,
     "state": "unlikely",
@@ -18481,16 +18491,6 @@
     ]
    },
    {
-    "freq_aut": 0.00078,
-    "id": "aglaiocercus-kingii",
-    "interesting": true,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
     "freq_aut": 0.00028,
     "id": "discosura-langsdorffi",
     "interesting": true,
@@ -18498,26 +18498,6 @@
     "state": "unlikely",
     "why": [
      "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "tinamus-osgoodi",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "odontophorus-hyperythrus",
-    "interesting": true,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": [
-     "endemic"
     ]
    },
    {
@@ -18541,44 +18521,33 @@
     ]
    },
    {
-    "freq_aut": 0.0001,
-    "id": "hypopyrrhus-pyrohypogaster",
+    "freq_aut": 9e-05,
+    "id": "tinamus-osgoodi",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "highlight"
+    ]
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "aglaiocercus-kingii",
     "interesting": true,
     "new_for_route": false,
     "state": "unlikely",
     "why": [
-     "endemic",
+     "highlight"
+    ]
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "cypseloides-lemosi",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
      "range_restricted"
-    ]
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "klais-guimeti",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "malacoptila-fulvogularis",
-    "interesting": true,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": [
-     "highlight"
-    ]
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "ortalis-columbiana",
-    "interesting": true,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": [
-     "endemic"
     ]
    },
    {
@@ -18592,23 +18561,27 @@
     ]
    },
    {
-    "freq_aut": 0.02724,
-    "id": "psarocolius-angustifrons",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "sure",
-    "why": []
+    "freq_aut": 0.0,
+    "id": "malacoptila-fulvogularis",
+    "interesting": true,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": [
+     "highlight"
+    ]
    },
    {
-    "freq_aut": 0.02682,
-    "id": "thraupis-episcopus",
-    "interesting": false,
+    "freq_aut": 0.0,
+    "id": "ortalis-columbiana",
+    "interesting": true,
     "new_for_route": false,
-    "state": "sure",
-    "why": []
+    "state": "unlikely",
+    "why": [
+     "endemic"
+    ]
    },
    {
-    "freq_aut": 0.02459,
+    "freq_aut": 0.02437,
     "id": "cyanocorax-violaceus",
     "interesting": false,
     "new_for_route": true,
@@ -18616,39 +18589,23 @@
     "why": []
    },
    {
-    "freq_aut": 0.02449,
-    "id": "coragyps-atratus",
+    "freq_aut": 0.0242,
+    "id": "psarocolius-angustifrons",
     "interesting": false,
     "new_for_route": false,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.02283,
-    "id": "thraupis-palmarum",
+    "freq_aut": 0.02411,
+    "id": "thraupis-episcopus",
     "interesting": false,
     "new_for_route": false,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.02247,
-    "id": "psarocolius-decumanus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.02169,
-    "id": "turdus-ignobilis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0206,
+    "freq_aut": 0.02242,
     "id": "ramphocelus-carbo",
     "interesting": false,
     "new_for_route": true,
@@ -18656,7 +18613,23 @@
     "why": []
    },
    {
-    "freq_aut": 0.01972,
+    "freq_aut": 0.02207,
+    "id": "psarocolius-decumanus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.02083,
+    "id": "cissopis-leverianus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01959,
     "id": "tyrannus-melancholicus",
     "interesting": false,
     "new_for_route": false,
@@ -18664,16 +18637,56 @@
     "why": []
    },
    {
-    "freq_aut": 0.01956,
-    "id": "cacicus-cela",
+    "freq_aut": 0.01914,
+    "id": "coragyps-atratus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01781,
+    "id": "pionus-menstruus",
     "interesting": false,
     "new_for_route": true,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.0152,
+    "freq_aut": 0.01746,
+    "id": "thraupis-palmarum",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01728,
+    "id": "troglodytes-musculus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01578,
     "id": "ortalis-guttata",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01524,
+    "id": "patagioenas-plumbea",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01498,
+    "id": "campylorhynchus-turdinus",
     "interesting": false,
     "new_for_route": true,
     "state": "sure",
@@ -18688,26 +18701,18 @@
     "why": []
    },
    {
-    "freq_aut": 0.01484,
-    "id": "ardea-ibis",
+    "freq_aut": 0.01454,
+    "id": "rupornis-magnirostris",
     "interesting": false,
     "new_for_route": false,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.01437,
-    "id": "pionus-menstruus",
+    "freq_aut": 0.01454,
+    "id": "trogon-curucui",
     "interesting": false,
     "new_for_route": true,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.01422,
-    "id": "sicalis-flaveola",
-    "interesting": false,
-    "new_for_route": false,
     "state": "sure",
     "why": []
    },
@@ -18720,6 +18725,14 @@
     "why": []
    },
    {
+    "freq_aut": 0.01391,
+    "id": "stilpnia-cyanicollis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
     "freq_aut": 0.01368,
     "id": "cyanerpes-caeruleus",
     "interesting": false,
@@ -18728,40 +18741,48 @@
     "why": []
    },
    {
-    "freq_aut": 0.01323,
-    "id": "troglodytes-musculus",
+    "freq_aut": 0.01321,
+    "id": "todirostrum-cinereum",
     "interesting": false,
     "new_for_route": false,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.01303,
-    "id": "patagioenas-plumbea",
+    "freq_aut": 0.01267,
+    "id": "pionus-chalcopterus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
+    "freq_aut": 0.01214,
+    "id": "colonia-colonus",
     "interesting": false,
     "new_for_route": true,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.01261,
-    "id": "rupornis-magnirostris",
+    "freq_aut": 0.01161,
+    "id": "turdus-ignobilis",
     "interesting": false,
     "new_for_route": false,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.01178,
-    "id": "pitangus-sulphuratus",
+    "freq_aut": 0.01143,
+    "id": "tachyphonus-rufus",
     "interesting": false,
     "new_for_route": false,
     "state": "sure",
     "why": []
    },
    {
-    "freq_aut": 0.01131,
-    "id": "melanerpes-cruentatus",
+    "freq_aut": 0.01117,
+    "id": "cacicus-cela",
     "interesting": false,
     "new_for_route": true,
     "state": "sure",
@@ -18776,10 +18797,10 @@
     "why": []
    },
    {
-    "freq_aut": 0.011,
-    "id": "cissopis-leverianus",
+    "freq_aut": 0.0109,
+    "id": "pteroglossus-castanotis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "sure",
     "why": []
    },
@@ -18792,50 +18813,10 @@
     "why": []
    },
    {
-    "freq_aut": 0.01064,
-    "id": "anthracothorax-nigricollis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "sure",
-    "why": []
-   },
-   {
     "freq_aut": 0.01061,
     "id": "tinamus-major",
     "interesting": false,
     "new_for_route": true,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.01053,
-    "id": "pygochelidon-cyanoleuca",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.01043,
-    "id": "tersina-viridis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.01032,
-    "id": "pteroglossus-castanotis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "sure",
-    "why": []
-   },
-   {
-    "freq_aut": 0.01027,
-    "id": "crotophaga-ani",
-    "interesting": false,
-    "new_for_route": false,
     "state": "sure",
     "why": []
    },
@@ -18848,6 +18829,14 @@
     "why": []
    },
    {
+    "freq_aut": 0.01002,
+    "id": "anthracothorax-nigricollis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "sure",
+    "why": []
+   },
+   {
     "freq_aut": 0.00996,
     "id": "glyphorynchus-spirurus",
     "interesting": false,
@@ -18856,24 +18845,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00975,
-    "id": "euphonia-chrysopasta",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00975,
-    "id": "tangara-mexicana",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0096,
-    "id": "tyrannulus-elatus",
+    "freq_aut": 0.00993,
+    "id": "melanerpes-cruentatus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -18896,10 +18869,26 @@
     "why": []
    },
    {
+    "freq_aut": 0.00948,
+    "id": "sporophila-angolensis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
     "freq_aut": 0.0094,
     "id": "trogon-viridis",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00939,
+    "id": "coereba-flaveola",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -18912,14 +18901,6 @@
     "why": []
    },
    {
-    "freq_aut": 0.00924,
-    "id": "campylorhynchus-turdinus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
     "freq_aut": 0.00912,
     "id": "tachyphonus-surinamus",
     "interesting": false,
@@ -18928,8 +18909,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00908,
-    "id": "sayornis-nigricans",
+    "freq_aut": 0.00904,
+    "id": "crotophaga-ani",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -18944,18 +18925,10 @@
     "why": []
    },
    {
-    "freq_aut": 0.00866,
-    "id": "vanellus-chilensis",
+    "freq_aut": 0.00869,
+    "id": "tersina-viridis",
     "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00851,
-    "id": "euphonia-laniirostris",
-    "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -18968,39 +18941,7 @@
     "why": []
    },
    {
-    "freq_aut": 0.00835,
-    "id": "psittacara-leucophthalmus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0083,
-    "id": "cathartes-aura",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0083,
-    "id": "myiozetetes-similis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00825,
-    "id": "volatinia-jacarina",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00789,
+    "freq_aut": 0.00842,
     "id": "megarynchus-pitangua",
     "interesting": false,
     "new_for_route": false,
@@ -19008,8 +18949,24 @@
     "why": []
    },
    {
-    "freq_aut": 0.00783,
-    "id": "piranga-rubra",
+    "freq_aut": 0.00815,
+    "id": "ramphastos-ambiguus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00798,
+    "id": "sicalis-flaveola",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00798,
+    "id": "zimmerius-chrysops",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -19040,14 +18997,6 @@
     "why": []
    },
    {
-    "freq_aut": 0.00768,
-    "id": "pionus-chalcopterus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
     "freq_aut": 0.00763,
     "id": "myiotriccus-ornatus",
     "interesting": false,
@@ -19058,6 +19007,14 @@
    {
     "freq_aut": 0.00763,
     "id": "piculus-leucolaemus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00762,
+    "id": "ixothraupis-xanthogastra",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19080,26 +19037,34 @@
     "why": []
    },
    {
-    "freq_aut": 0.00716,
-    "id": "streptoprocne-zonaris",
+    "freq_aut": 0.00727,
+    "id": "pygochelidon-cyanoleuca",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00707,
-    "id": "ixothraupis-xanthogastra",
+    "freq_aut": 0.00718,
+    "id": "ictinia-plumbea",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0068,
-    "id": "legatus-leucophaius",
+    "freq_aut": 0.007,
+    "id": "conopias-cinchoneti",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.007,
+    "id": "myiarchus-ferox",
+    "interesting": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -19108,6 +19073,14 @@
     "id": "loriotus-cristatus",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00679,
+    "id": "streptoprocne-zonaris",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19128,10 +19101,18 @@
     "why": []
    },
    {
-    "freq_aut": 0.00643,
-    "id": "pteroglossus-inscriptus",
+    "freq_aut": 0.00656,
+    "id": "picumnus-squamulatus",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00647,
+    "id": "pachyramphus-polychopterus",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19145,17 +19126,9 @@
    },
    {
     "freq_aut": 0.00638,
-    "id": "crypturellus-undulatus",
+    "id": "euphonia-chrysopasta",
     "interesting": false,
     "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00638,
-    "id": "todirostrum-cinereum",
-    "interesting": false,
-    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19176,7 +19149,7 @@
     "why": []
    },
    {
-    "freq_aut": 0.00628,
+    "freq_aut": 0.00629,
     "id": "sporophila-nigricollis",
     "interesting": false,
     "new_for_route": false,
@@ -19192,18 +19165,34 @@
     "why": []
    },
    {
-    "freq_aut": 0.00597,
-    "id": "ammodramus-aurifrons",
+    "freq_aut": 0.0062,
+    "id": "aramides-cajaneus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0062,
+    "id": "setophaga-cerulea",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00612,
+    "id": "cathartes-aura",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00597,
-    "id": "tachyphonus-rufus",
+    "freq_aut": 0.00603,
+    "id": "aburria-aburri",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -19265,25 +19254,25 @@
    },
    {
     "freq_aut": 0.00576,
-    "id": "metopothrix-aurantiaca",
+    "id": "thamnophilus-tenuepunctatus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0054,
-    "id": "conopias-cinchoneti",
+    "freq_aut": 0.00567,
+    "id": "dryocopus-lineatus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0054,
-    "id": "dacnis-flaviventer",
+    "freq_aut": 0.00541,
+    "id": "herpetotheres-cachinnans",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19296,14 +19285,6 @@
     "why": []
    },
    {
-    "freq_aut": 0.00534,
-    "id": "phimosus-infuscatus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
     "freq_aut": 0.0053,
     "id": "amazona-farinosa",
     "interesting": false,
@@ -19312,26 +19293,10 @@
     "why": []
    },
    {
-    "freq_aut": 0.00529,
-    "id": "molothrus-oryzivorus",
+    "freq_aut": 0.00523,
+    "id": "euphonia-laniirostris",
     "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00529,
-    "id": "paroaria-gularis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00529,
-    "id": "tachornis-squamata",
-    "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19348,6 +19313,14 @@
     "id": "machaeropterus-striolatus",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00479,
+    "id": "stelgidopteryx-ruficollis",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19376,6 +19349,22 @@
     "why": []
    },
    {
+    "freq_aut": 0.00452,
+    "id": "contopus-sordidulus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00452,
+    "id": "piranga-rubra",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
     "freq_aut": 0.00447,
     "id": "henicorhina-leucosticta",
     "interesting": false,
@@ -19392,14 +19381,6 @@
     "why": []
    },
    {
-    "freq_aut": 0.00441,
-    "id": "chaetura-brachyura",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
     "freq_aut": 0.00437,
     "id": "heliodoxa-schreibersii",
     "interesting": false,
@@ -19408,8 +19389,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00431,
-    "id": "sporophila-angolensis",
+    "freq_aut": 0.00434,
+    "id": "tangara-mexicana",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19425,25 +19406,9 @@
    },
    {
     "freq_aut": 0.00425,
-    "id": "myiozetetes-cayanensis",
+    "id": "glaucidium-brasilianum",
     "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00425,
-    "id": "pachyramphus-polychopterus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0042,
-    "id": "colaptes-punctigula",
-    "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -19472,6 +19437,14 @@
     "why": []
    },
    {
+    "freq_aut": 0.00417,
+    "id": "contopus-virens",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
     "freq_aut": 0.00409,
     "id": "campephilus-rubricollis",
     "interesting": false,
@@ -19496,10 +19469,10 @@
     "why": []
    },
    {
-    "freq_aut": 0.00405,
-    "id": "tityra-inquisitor",
+    "freq_aut": 0.00408,
+    "id": "campephilus-melanoleucos",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19536,8 +19509,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00384,
-    "id": "picumnus-squamulatus",
+    "freq_aut": 0.0039,
+    "id": "grallaria-guatimalensis",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19552,8 +19525,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00374,
-    "id": "sporophila-castaneiventris",
+    "freq_aut": 0.00381,
+    "id": "veniliornis-passerinus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19568,8 +19541,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00368,
-    "id": "contopus-virens",
+    "freq_aut": 0.00372,
+    "id": "vanellus-chilensis",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -19580,14 +19553,6 @@
     "id": "catharus-ustulatus",
     "interesting": false,
     "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00363,
-    "id": "trogon-curucui",
-    "interesting": false,
-    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -19608,18 +19573,18 @@
     "why": []
    },
    {
-    "freq_aut": 0.00353,
-    "id": "myiarchus-ferox",
+    "freq_aut": 0.00346,
+    "id": "setophaga-fusca",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00342,
-    "id": "todirostrum-chrysocrotaphum",
+    "freq_aut": 0.00344,
+    "id": "sayornis-nigricans",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19656,64 +19621,16 @@
     "why": []
    },
    {
-    "freq_aut": 0.00335,
-    "id": "zimmerius-chrysops",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00332,
-    "id": "brotogeris-cyanoptera",
+    "freq_aut": 0.00328,
+    "id": "sporophila-castaneiventris",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00332,
-    "id": "veniliornis-passerinus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00327,
-    "id": "setophaga-fusca",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00326,
-    "id": "coereba-flaveola",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00316,
-    "id": "stilpnia-cyanicollis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00311,
-    "id": "daptrius-ater",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00311,
-    "id": "ictinia-plumbea",
+    "freq_aut": 0.0031,
+    "id": "myiozetetes-similis",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19729,9 +19646,9 @@
    },
    {
     "freq_aut": 0.00301,
-    "id": "atticora-fasciata",
+    "id": "leptopogon-superciliaris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19754,30 +19671,6 @@
    {
     "freq_aut": 0.00298,
     "id": "penelope-jacquacu",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00296,
-    "id": "piranga-olivacea",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00291,
-    "id": "euphonia-minuta",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00291,
-    "id": "setophaga-striata",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19808,8 +19701,24 @@
     "why": []
    },
    {
-    "freq_aut": 0.0028,
-    "id": "celeus-elegans",
+    "freq_aut": 0.00284,
+    "id": "ixothraupis-guttata",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00284,
+    "id": "sporophila-luctuosa",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00284,
+    "id": "tityra-inquisitor",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19825,6 +19734,14 @@
    },
    {
     "freq_aut": 0.00279,
+    "id": "legatus-leucophaius",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00279,
     "id": "thamnomanes-ardesiacus",
     "interesting": false,
     "new_for_route": true,
@@ -19832,18 +19749,34 @@
     "why": []
    },
    {
-    "freq_aut": 0.0027,
-    "id": "cotinga-maynana",
+    "freq_aut": 0.00275,
+    "id": "colibri-delphinae",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0027,
+    "freq_aut": 0.00275,
     "id": "elanoides-forficatus",
     "interesting": false,
     "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00275,
+    "id": "myiozetetes-cayanensis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00275,
+    "id": "tityra-semifasciata",
+    "interesting": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -19857,15 +19790,31 @@
    },
    {
     "freq_aut": 0.0027,
-    "id": "monasa-nigrifrons",
+    "id": "phaethornis-malaris",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0027,
-    "id": "phaethornis-malaris",
+    "freq_aut": 0.00266,
+    "id": "phaethornis-hispidus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00266,
+    "id": "tyrannulus-elatus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00251,
+    "id": "euphonia-minuta",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -19888,34 +19837,34 @@
     "why": []
    },
    {
-    "freq_aut": 0.00249,
-    "id": "myiarchus-tuberculifer",
+    "freq_aut": 0.00248,
+    "id": "icterus-cayanensis",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00244,
-    "id": "thamnophilus-tenuepunctatus",
+    "freq_aut": 0.00248,
+    "id": "poecilotriccus-calopterus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00244,
-    "id": "tityra-semifasciata",
+    "freq_aut": 0.00248,
+    "id": "setophaga-pitiayumi",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00244,
-    "id": "tolmomyias-viridiceps",
+    "freq_aut": 0.00248,
+    "id": "volatinia-jacarina",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -19936,18 +19885,26 @@
     "why": []
    },
    {
-    "freq_aut": 0.00233,
-    "id": "columba-livia",
+    "freq_aut": 0.00239,
+    "id": "celeus-flavus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00233,
-    "id": "dryocopus-lineatus",
+    "freq_aut": 0.00239,
+    "id": "coccycua-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00239,
+    "id": "nyctidromus-albicollis",
+    "interesting": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -19969,22 +19926,6 @@
    },
    {
     "freq_aut": 0.00233,
-    "id": "stelgidopteryx-ruficollis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00233,
-    "id": "tityra-cayana",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00233,
     "id": "trogon-ramonianus",
     "interesting": false,
     "new_for_route": true,
@@ -19992,24 +19933,32 @@
     "why": []
    },
    {
-    "freq_aut": 0.00228,
-    "id": "vireo-flavoviridis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00218,
-    "id": "celeus-flavus",
+    "freq_aut": 0.0023,
+    "id": "myiarchus-tuberculifer",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00218,
-    "id": "megaceryle-torquata",
+    "freq_aut": 0.0023,
+    "id": "todirostrum-chrysocrotaphum",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0023,
+    "id": "xenops-rutilans",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00222,
+    "id": "colaptes-punctigula",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -20033,14 +19982,6 @@
    },
    {
     "freq_aut": 0.00214,
-    "id": "leptopogon-superciliaris",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00214,
     "id": "monasa-morphoeus",
     "interesting": false,
     "new_for_route": true,
@@ -20052,6 +19993,14 @@
     "id": "nystalus-obamai",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00214,
+    "id": "pitangus-sulphuratus",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -20089,31 +20038,7 @@
    },
    {
     "freq_aut": 0.00213,
-    "id": "leptotila-rufaxilla",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00208,
-    "id": "campephilus-melanoleucos",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00208,
-    "id": "glaucidium-brasilianum",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00208,
-    "id": "herpetotheres-cachinnans",
+    "id": "piranga-olivacea",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -20136,50 +20061,10 @@
     "why": []
    },
    {
-    "freq_aut": 0.00202,
-    "id": "crotophaga-major",
+    "freq_aut": 0.00204,
+    "id": "colibri-coruscans",
     "interesting": false,
     "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00202,
-    "id": "myiozetetes-granadensis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00202,
-    "id": "ramphastos-ambiguus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00202,
-    "id": "setophaga-ruticilla",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00197,
-    "id": "setophaga-aestiva",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00197,
-    "id": "tolmomyias-poliocephalus",
-    "interesting": false,
-    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -20200,8 +20085,16 @@
     "why": []
    },
    {
-    "freq_aut": 0.00187,
-    "id": "phaethornis-hispidus",
+    "freq_aut": 0.00195,
+    "id": "tityra-cayana",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00186,
+    "id": "chaetura-brachyura",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20210,6 +20103,22 @@
    {
     "freq_aut": 0.00186,
     "id": "cyphorhinus-arada",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00186,
+    "id": "dacnis-flaviventer",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00186,
+    "id": "daptrius-ater",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20233,9 +20142,33 @@
    },
    {
     "freq_aut": 0.00177,
-    "id": "aburria-aburri",
+    "id": "ammodramus-aurifrons",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00177,
+    "id": "eubucco-richardsoni",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00177,
+    "id": "glaucis-hirsutus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00177,
+    "id": "mionectes-striaticollis",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -20256,18 +20189,26 @@
     "why": []
    },
    {
-    "freq_aut": 0.00176,
-    "id": "aramides-cajaneus",
+    "freq_aut": 0.00168,
+    "id": "ardea-ibis",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.00176,
-    "id": "pandion-haliaetus",
+    "freq_aut": 0.00168,
+    "id": "donacobius-atricapilla",
     "interesting": false,
     "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00168,
+    "id": "megascops-choliba",
+    "interesting": false,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -20288,8 +20229,40 @@
     "why": []
    },
    {
-    "freq_aut": 0.00161,
-    "id": "buteo-platypterus",
+    "freq_aut": 0.0016,
+    "id": "ara-militaris",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0016,
+    "id": "arremon-aurantiirostris",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0016,
+    "id": "campephilus-pollens",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0016,
+    "id": "lophotriccus-pileatus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0016,
+    "id": "patagioenas-subvinacea",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -20312,42 +20285,26 @@
     "why": []
    },
    {
-    "freq_aut": 0.00156,
+    "freq_aut": 0.00151,
+    "id": "setophaga-ruticilla",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00151,
+    "id": "tolmomyias-viridiceps",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00149,
     "id": "columbina-talpacoti",
     "interesting": false,
     "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0015,
-    "id": "columbina-minuta",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0015,
-    "id": "megascops-choliba",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0015,
-    "id": "patagioenas-subvinacea",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0015,
-    "id": "picumnus-lafresnayi",
-    "interesting": false,
-    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -20360,16 +20317,24 @@
     "why": []
    },
    {
-    "freq_aut": 0.00145,
-    "id": "streptoprocne-rutila",
+    "freq_aut": 0.00149,
+    "id": "molothrus-oryzivorus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0014,
-    "id": "chlorophonia-cyanocephala",
+    "freq_aut": 0.00149,
+    "id": "setophaga-striata",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00142,
+    "id": "mionectes-galbinus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20377,15 +20342,7 @@
    },
    {
     "freq_aut": 0.0014,
-    "id": "harpagus-bidentatus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0014,
-    "id": "ixothraupis-guttata",
+    "id": "leptotila-rufaxilla",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20408,16 +20365,16 @@
     "why": []
    },
    {
-    "freq_aut": 0.00135,
-    "id": "butorides-striata",
+    "freq_aut": 0.00133,
+    "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
    {
-    "freq_aut": 0.0013,
-    "id": "ara-militaris",
+    "freq_aut": 0.00133,
+    "id": "synallaxis-moesta",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20426,14 +20383,6 @@
    {
     "freq_aut": 0.0013,
     "id": "cyanerpes-nitidus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0013,
-    "id": "icterus-icterus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20456,26 +20405,18 @@
     "why": []
    },
    {
-    "freq_aut": 0.00125,
-    "id": "molothrus-bonariensis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00121,
-    "id": "mionectes-galbinus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
     "freq_aut": 0.00121,
     "id": "phaethornis-guy",
     "interesting": false,
     "new_for_route": false,
+    "state": "maybe",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00121,
+    "id": "picumnus-lafresnayi",
+    "interesting": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -20492,14 +20433,6 @@
     "id": "vireo-olivaceus",
     "interesting": false,
     "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00119,
-    "id": "philohydor-lictor",
-    "interesting": false,
-    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -20528,24 +20461,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00109,
-    "id": "euphonia-mesochrysa",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00104,
-    "id": "chondrohierax-uncinatus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00104,
-    "id": "contopus-sordidulus",
+    "freq_aut": 0.00106,
+    "id": "patagioenas-fasciata",
     "interesting": false,
     "new_for_route": false,
     "state": "maybe",
@@ -20570,14 +20487,6 @@
    {
     "freq_aut": 0.00102,
     "id": "leistes-militaris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "maybe",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00102,
-    "id": "poecilotriccus-calopterus",
     "interesting": false,
     "new_for_route": true,
     "state": "maybe",
@@ -20616,40 +20525,32 @@
     "why": []
    },
    {
-    "freq_aut": 0.00099,
-    "id": "arremonops-conirostris",
+    "freq_aut": 0.00097,
+    "id": "columba-livia",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00099,
-    "id": "diglossa-glauca",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00099,
-    "id": "forpus-crassirostris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00099,
-    "id": "tolmomyias-sulphurescens",
+    "freq_aut": 0.00097,
+    "id": "mniotilta-varia",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00099,
-    "id": "zenaida-auriculata",
+    "freq_aut": 0.00097,
+    "id": "serpophaga-cinerea",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00097,
+    "id": "trogon-personatus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -20665,25 +20566,9 @@
    },
    {
     "freq_aut": 0.00093,
-    "id": "contopus-bogotensis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00093,
-    "id": "icterus-cayanensis",
+    "id": "harpagus-bidentatus",
     "interesting": false,
     "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00093,
-    "id": "mionectes-striaticollis",
-    "interesting": false,
-    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -20704,16 +20589,8 @@
     "why": []
    },
    {
-    "freq_aut": 0.00088,
-    "id": "myadestes-ralloides",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00088,
-    "id": "scytalopus-spillmanni",
+    "freq_aut": 0.00089,
+    "id": "cercomacroides-tyrannina",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -20730,14 +20607,6 @@
    {
     "freq_aut": 0.00084,
     "id": "bucco-capensis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00084,
-    "id": "colonia-colonus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -20769,6 +20638,14 @@
    },
    {
     "freq_aut": 0.00084,
+    "id": "myiozetetes-granadensis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00084,
     "id": "tangara-callophrys",
     "interesting": false,
     "new_for_route": true,
@@ -20784,64 +20661,24 @@
     "why": []
    },
    {
-    "freq_aut": 0.00083,
-    "id": "atlapetes-leucopis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00083,
-    "id": "automolus-ochrolaemus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00083,
-    "id": "nyctidromus-albicollis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00083,
-    "id": "turdus-fuscater",
+    "freq_aut": 0.0008,
+    "id": "euphonia-mesochrysa",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00083,
-    "id": "vireo-leucophrys",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00078,
-    "id": "chloroceryle-amazona",
+    "freq_aut": 0.0008,
+    "id": "grallaria-haplonota",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00078,
-    "id": "henicorhina-leucophrys",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00078,
-    "id": "myioborus-miniatus",
+    "freq_aut": 0.0008,
+    "id": "synallaxis-azarae",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -20850,6 +20687,14 @@
    {
     "freq_aut": 0.00074,
     "id": "amazona-amazonica",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00074,
+    "id": "chlorophonia-cyanocephala",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -20881,6 +20726,14 @@
    },
    {
     "freq_aut": 0.00074,
+    "id": "streptoprocne-rutila",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00074,
     "id": "strix-virgata",
     "interesting": false,
     "new_for_route": true,
@@ -20888,58 +20741,34 @@
     "why": []
    },
    {
-    "freq_aut": 0.00073,
-    "id": "arremon-aurantiirostris",
+    "freq_aut": 0.00071,
+    "id": "piculus-flavigula",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00073,
-    "id": "chlorophonia-cyanea",
+    "freq_aut": 0.00071,
+    "id": "pulsatrix-perspicillata",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00071,
+    "id": "tangara-chrysotis",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00073,
-    "id": "dendroplex-picus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00073,
-    "id": "machetornis-rixosa",
+    "freq_aut": 0.00071,
+    "id": "zonotrichia-capensis",
     "interesting": false,
     "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00073,
-    "id": "sporophila-luctuosa",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00067,
-    "id": "doryfera-ludovicae",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00067,
-    "id": "phaethornis-ruber",
-    "interesting": false,
-    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -20969,6 +20798,14 @@
    },
    {
     "freq_aut": 0.00065,
+    "id": "tolmomyias-poliocephalus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00065,
     "id": "turdus-leucops",
     "interesting": false,
     "new_for_route": true,
@@ -20977,7 +20814,7 @@
    },
    {
     "freq_aut": 0.00062,
-    "id": "adelomyia-melanogenys",
+    "id": "buteo-platypterus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -20985,15 +20822,7 @@
    },
    {
     "freq_aut": 0.00062,
-    "id": "ardea-alba",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00062,
-    "id": "cercomacroides-tyrannina",
+    "id": "heliomaster-longirostris",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21001,7 +20830,7 @@
    },
    {
     "freq_aut": 0.00062,
-    "id": "chlorospingus-flavopectus",
+    "id": "henicorhina-leucophrys",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -21009,15 +20838,7 @@
    },
    {
     "freq_aut": 0.00062,
-    "id": "diglossa-albilatera",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00062,
-    "id": "iridosornis-analis",
+    "id": "laterallus-melanophaius",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21025,7 +20846,7 @@
    },
    {
     "freq_aut": 0.00062,
-    "id": "parkesia-noveboracensis",
+    "id": "myiarchus-cephalotes",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -21033,103 +20854,15 @@
    },
    {
     "freq_aut": 0.00062,
-    "id": "pipreola-riefferii",
+    "id": "phaethornis-atrimentalis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
     "freq_aut": 0.00062,
-    "id": "tangara-parzudakii",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00062,
-    "id": "tangara-xanthocephala",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00062,
-    "id": "tyrannus-tyrannus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "buthraupis-montana",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "chaetocercus-heliodor",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "chamaepetes-goudotii",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "coeligena-torquata",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "microspizias-superciliosus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "momotus-momota",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "pogonotriccus-ophthalmicus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "synallaxis-moesta",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00057,
-    "id": "tangara-nigroviridis",
+    "id": "pyrrhomyias-cinnamomeus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -21138,6 +20871,30 @@
    {
     "freq_aut": 0.00056,
     "id": "akletos-melanoceps",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00056,
+    "id": "chlorophonia-cyanea",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00056,
+    "id": "contopus-bogotensis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00056,
+    "id": "forpus-crassirostris",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21169,6 +20926,14 @@
    },
    {
     "freq_aut": 0.00056,
+    "id": "setophaga-aestiva",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00056,
     "id": "spizaetus-melanoleucus",
     "interesting": false,
     "new_for_route": true,
@@ -21184,72 +20949,40 @@
     "why": []
    },
    {
-    "freq_aut": 0.00052,
-    "id": "anisognathus-somptuosus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00052,
-    "id": "cacicus-chrysonotus",
+    "freq_aut": 0.00053,
+    "id": "colaptes-rubiginosus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00052,
-    "id": "chaetocercus-mulsant",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00052,
-    "id": "chlorornis-riefferii",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00052,
-    "id": "colibri-cyanotus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00052,
-    "id": "eubucco-bourcierii",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00052,
-    "id": "falco-rufigularis",
+    "freq_aut": 0.00053,
+    "id": "metopothrix-aurantiaca",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00052,
-    "id": "tiaris-olivaceus",
+    "freq_aut": 0.00053,
+    "id": "sittasomus-griseicapillus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00053,
+    "id": "sporathraupis-cyanocephala",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00047,
-    "id": "actitis-macularius",
+    "freq_aut": 0.00053,
+    "id": "tyrannopsis-sulphurea",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21273,6 +21006,14 @@
    },
    {
     "freq_aut": 0.00047,
+    "id": "brotogeris-cyanoptera",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00047,
     "id": "chamaeza-campanisona",
     "interesting": false,
     "new_for_route": true,
@@ -21281,39 +21022,15 @@
    },
    {
     "freq_aut": 0.00047,
-    "id": "colibri-delphinae",
+    "id": "crypturellus-undulatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
     "freq_aut": 0.00047,
     "id": "dendroma-erythroptera",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "diglossa-caerulescens",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "donacobius-atricapilla",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "grallaria-haplonota",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21345,7 +21062,15 @@
    },
    {
     "freq_aut": 0.00047,
-    "id": "margarornis-squamiger",
+    "id": "megaceryle-torquata",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00047,
+    "id": "momotus-momota",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21353,49 +21078,9 @@
    },
    {
     "freq_aut": 0.00047,
-    "id": "ochthoeca-cinnamomeiventris",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "orochelidon-murina",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "phaethornis-atrimentalis",
+    "id": "tachornis-squamata",
     "interesting": false,
     "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "pyrrhomyias-cinnamomeus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "scytalopus-micropterus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00047,
-    "id": "stilpnia-heinei",
-    "interesting": false,
-    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -21408,112 +21093,128 @@
     "why": []
    },
    {
-    "freq_aut": 0.00047,
-    "id": "zonotrichia-capensis",
+    "freq_aut": 0.00044,
+    "id": "amazona-mercenarius",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "basileuterus-tristriatus",
+    "freq_aut": 0.00044,
+    "id": "arremonops-conirostris",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "buteo-albonotatus",
+    "freq_aut": 0.00044,
+    "id": "butorides-striata",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00044,
+    "id": "chlorochrysa-calliparaea",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "cairina-moschata",
+    "freq_aut": 0.00044,
+    "id": "chlorospingus-parvirostris",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "catharus-minimus",
+    "freq_aut": 0.00044,
+    "id": "cyanocorax-yncas",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "chlorostilbon-mellisugus",
+    "freq_aut": 0.00044,
+    "id": "doryfera-ludovicae",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "contopus-fumigatus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00042,
-    "id": "cyanolyca-armillata",
+    "freq_aut": 0.00044,
+    "id": "falco-rufigularis",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "geothlypis-philadelphia",
+    "freq_aut": 0.00044,
+    "id": "heliornis-fulica",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "leptopogon-rufipectus",
+    "freq_aut": 0.00044,
+    "id": "progne-subis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00044,
+    "id": "pyriglena-maura",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "masius-chrysopterus",
+    "freq_aut": 0.00044,
+    "id": "saltator-coerulescens",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00044,
+    "id": "tachybaptus-dominicus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "mniotilta-varia",
+    "freq_aut": 0.00044,
+    "id": "tangara-parzudakii",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "patagioenas-fasciata",
+    "freq_aut": 0.00044,
+    "id": "tiaris-olivaceus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00042,
-    "id": "tangara-vassorii",
+    "freq_aut": 0.00044,
+    "id": "zentrygon-frenata",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -21522,14 +21223,6 @@
    {
     "freq_aut": 0.00037,
     "id": "anurolimnas-castaneiceps",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00037,
-    "id": "baryphthengus-martii",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21601,7 +21294,23 @@
    },
    {
     "freq_aut": 0.00037,
+    "id": "phaethornis-ruber",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00037,
     "id": "piaya-melanogaster",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00037,
+    "id": "pteroglossus-inscriptus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21616,210 +21325,74 @@
     "why": []
    },
    {
-    "freq_aut": 0.00036,
-    "id": "grallaria-ruficapilla",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00036,
-    "id": "mecocerculus-minor",
+    "freq_aut": 0.00035,
+    "id": "chelidoptera-tenebrosa",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00036,
-    "id": "pachyramphus-versicolor",
+    "freq_aut": 0.00035,
+    "id": "diglossa-cyanea",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00035,
+    "id": "merganetta-armata",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00036,
-    "id": "phaethornis-syrmatophorus",
+    "freq_aut": 0.00035,
+    "id": "systellura-longirostris",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00036,
-    "id": "pyriglena-maura",
+    "freq_aut": 0.00035,
+    "id": "vireo-flavoviridis",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00036,
-    "id": "serpophaga-cinerea",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "anisognathus-lacrymosus",
+    "freq_aut": 0.00028,
+    "id": "atticora-fasciata",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00031,
-    "id": "camptostoma-obsoletum",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "chlorochrysa-calliparaea",
+    "freq_aut": 0.00028,
+    "id": "celeus-elegans",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00031,
-    "id": "chlorospingus-parvirostris",
+    "freq_aut": 0.00028,
+    "id": "chlorospingus-flavopectus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00028,
+    "id": "cotinga-maynana",
     "interesting": false,
     "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "colibri-coruscans",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "leptotila-verreauxi",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "lophotriccus-pileatus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "myiodynastes-hemichrysus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "nannopterum-brasilianum",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "pachysylvia-semibrunnea",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "porzana-carolina",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "saltator-striatipectus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "setophaga-castanea",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "setophaga-cerulea",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "sporophila-americana",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "thamnophilus-doliatus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "thamnophilus-unicolor",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "xenops-rutilans",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "xiphorhynchus-guttatus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00031,
-    "id": "zentrygon-frenata",
-    "interesting": false,
-    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -21873,15 +21446,15 @@
    },
    {
     "freq_aut": 0.00028,
-    "id": "phlegopsis-erythroptera",
+    "id": "phimosus-infuscatus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
     "freq_aut": 0.00028,
-    "id": "piculus-flavigula",
+    "id": "phlegopsis-erythroptera",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -21897,14 +21470,6 @@
    },
    {
     "freq_aut": 0.00028,
-    "id": "setophaga-pitiayumi",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00028,
     "id": "thripadectes-melanorhynchus",
     "interesting": false,
     "new_for_route": true,
@@ -21912,272 +21477,168 @@
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "atlapetes-latinuchus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "cacicus-uropygialis",
+    "freq_aut": 0.00028,
+    "id": "tyrannus-tyrannus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "colaptes-rubiginosus",
+    "freq_aut": 0.00028,
+    "id": "xiphorhynchus-guttatus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "creurgops-verticalis",
+    "freq_aut": 0.00027,
+    "id": "andigena-nigrirostris",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "dacnis-albiventris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "egretta-thula",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "nephelomyias-pulcher",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "pheucticus-ludovicianus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "poecilotriccus-ruficeps",
+    "freq_aut": 0.00027,
+    "id": "basileuterus-tristriatus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "premnoplex-brunnescens",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00026,
-    "id": "quiscalus-lugubris",
+    "freq_aut": 0.00027,
+    "id": "catharus-minimus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "saltator-coerulescens",
+    "freq_aut": 0.00027,
+    "id": "chamaepetes-goudotii",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "tangara-cyanotis",
+    "freq_aut": 0.00027,
+    "id": "coccyzus-melacoryphus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "tangara-labradorides",
+    "freq_aut": 0.00027,
+    "id": "contopus-fumigatus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00026,
-    "id": "turdus-fulviventris",
+    "freq_aut": 0.00027,
+    "id": "diglossa-caerulescens",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "amazona-mercenarius",
+    "freq_aut": 0.00027,
+    "id": "elaenia-pallatangae",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00027,
+    "id": "eubucco-bourcierii",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "automolus-rufipileatus",
+    "freq_aut": 0.00027,
+    "id": "geothlypis-philadelphia",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "coccycua-minuta",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "conopophaga-castaneiceps",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "cyanerpes-cyaneus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "cyclarhis-gujanensis",
+    "freq_aut": 0.00027,
+    "id": "myadestes-ralloides",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "empidonax-virescens",
+    "freq_aut": 0.00027,
+    "id": "myioborus-miniatus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "empidonomus-varius",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "epinecrophylla-ornata",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "heliodoxa-rubinoides",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "heliomaster-longirostris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "herpsilochmus-axillaris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "myiarchus-cephalotes",
+    "freq_aut": 0.00027,
+    "id": "myiodynastes-hemichrysus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "pachyramphus-albogriseus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "pachyramphus-cinnamomeus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "polioptila-plumbea",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00021,
-    "id": "pyrocephalus-rubinus",
+    "freq_aut": 0.00027,
+    "id": "parkesia-noveboracensis",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00021,
-    "id": "scytalopus-atratus",
+    "freq_aut": 0.00027,
+    "id": "saltator-olivascens",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00019,
-    "id": "ampelioides-tschudii",
+    "freq_aut": 0.00027,
+    "id": "steatornis-caripensis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00027,
+    "id": "synallaxis-albescens",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00027,
+    "id": "troglodytes-solstitialis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00027,
+    "id": "veniliornis-dignus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22185,7 +21646,7 @@
    },
    {
     "freq_aut": 0.00019,
-    "id": "chelidoptera-tenebrosa",
+    "id": "ampelioides-tschudii",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22201,6 +21662,22 @@
    },
    {
     "freq_aut": 0.00019,
+    "id": "crotophaga-major",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00019,
+    "id": "cyclarhis-gujanensis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00019,
     "id": "dendrocolaptes-certhia",
     "interesting": false,
     "new_for_route": true,
@@ -22209,7 +21686,7 @@
    },
    {
     "freq_aut": 0.00019,
-    "id": "eubucco-richardsoni",
+    "id": "icterus-icterus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22225,6 +21702,22 @@
    },
    {
     "freq_aut": 0.00019,
+    "id": "nannopterum-brasilianum",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00019,
+    "id": "pandion-haliaetus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00019,
     "id": "poecilotriccus-latirostris",
     "interesting": false,
     "new_for_route": true,
@@ -22233,7 +21726,23 @@
    },
    {
     "freq_aut": 0.00019,
+    "id": "psittacara-leucophthalmus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00019,
     "id": "rhynchocyclus-aequinoctialis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00019,
+    "id": "sporophila-americana",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22256,248 +21765,136 @@
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "coccyzus-melacoryphus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00016,
-    "id": "colaptes-rivolii",
+    "freq_aut": 0.00019,
+    "id": "tolmomyias-sulphurescens",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "diglossa-cyanea",
+    "freq_aut": 0.00018,
+    "id": "cathartes-burrovianus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.00018,
+    "id": "leuconotopicus-fumigatus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "empidonomus-aurantioatrocristatus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00016,
-    "id": "falco-sparverius",
+    "freq_aut": 0.00018,
+    "id": "molothrus-bonariensis",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "grallaricula-nana",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.00016,
-    "id": "penelope-montagnii",
+    "freq_aut": 0.00018,
+    "id": "schistes-geoffroyi",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "pyroderus-scutatus",
+    "freq_aut": 0.00018,
+    "id": "trogon-rufus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "synallaxis-albigularis",
+    "freq_aut": 9e-05,
+    "id": "accipiter-striatus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "synallaxis-azarae",
+    "freq_aut": 9e-05,
+    "id": "actitis-macularius",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "ardea-alba",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "syrigma-sibilatrix",
+    "freq_aut": 9e-05,
+    "id": "atticora-tibialis",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "tyrannopsis-sulphurea",
+    "freq_aut": 9e-05,
+    "id": "automolus-ochrolaemus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.00016,
-    "id": "urochroa-leucura",
+    "freq_aut": 9e-05,
+    "id": "cairina-moschata",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.0001,
-    "id": "aulacorhynchus-haematopygus",
+    "freq_aut": 9e-05,
+    "id": "chaetocercus-heliodor",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.0001,
-    "id": "bucco-macrodactylus",
+    "freq_aut": 9e-05,
+    "id": "chloroceryle-amazona",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.0001,
-    "id": "buteogallus-solitarius",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "chloroceryle-americana",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "coccyzus-americanus",
+    "freq_aut": 9e-05,
+    "id": "coeligena-torquata",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.0001,
-    "id": "coeligena-coeligena",
+    "freq_aut": 9e-05,
+    "id": "cranioleuca-curtata",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
-    "freq_aut": 0.0001,
-    "id": "cyclarhis-nigrirostris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "empidonax-alnorum",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "glaucis-hirsutus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "iridophanes-pulcherrimus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "lipaugus-fuscocinereus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "myrmotherula-schisticolor",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "pseudocolaptes-boissonneautii",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "pteroglossus-azara",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "pulsatrix-perspicillata",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "sittasomus-griseicapillus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "sporathraupis-cyanocephala",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0001,
-    "id": "terenotriccus-erythrurus",
+    "freq_aut": 9e-05,
+    "id": "cyanerpes-cyaneus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22513,15 +21910,23 @@
    },
    {
     "freq_aut": 9e-05,
-    "id": "grallaria-guatimalensis",
+    "id": "grallaria-ruficapilla",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
     "freq_aut": 9e-05,
     "id": "heliodoxa-leadbeateri",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "knipolegus-poecilurus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -22537,9 +21942,57 @@
    },
    {
     "freq_aut": 9e-05,
+    "id": "leptotila-verreauxi",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "machetornis-rixosa",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
     "id": "pachyramphus-minor",
     "interesting": false,
     "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "phyllomyias-griseiceps",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "piranga-flava",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "pteroglossus-azara",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "pyrocephalus-rubinus",
+    "interesting": false,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -22553,6 +22006,14 @@
    },
    {
     "freq_aut": 9e-05,
+    "id": "saltator-striatipectus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
     "id": "spizaetus-ornatus",
     "interesting": false,
     "new_for_route": true,
@@ -22561,7 +22022,39 @@
    },
    {
     "freq_aut": 9e-05,
-    "id": "tangara-chrysotis",
+    "id": "stilpnia-heinei",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "synallaxis-albigularis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "tangara-cyanotis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "tangara-nigroviridis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 9e-05,
+    "id": "tangara-vassorii",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -22576,192 +22069,8 @@
     "why": []
    },
    {
-    "freq_aut": 9e-05,
-    "id": "trogon-personatus",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "acropternis-orthonyx",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "atticora-tibialis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "campephilus-haematogaster",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "capito-aurovirens",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "clibanornis-rubiginosus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "coryphospingus-cucullatus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "elaenia-gigas",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "gampsonyx-swainsonii",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "iridosornis-rufivertex",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "momotus-aequatorialis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "monasa-flavirostris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "myiothlypis-luteoviridis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "myrmotherula-brachyura",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "panyptila-cayennensis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "picumnus-rufiventris",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "pogonotriccus-poecilotis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "sicalis-luteola",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "thamnophilus-palliatus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 5e-05,
-    "id": "turdus-leucomelas",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
     "freq_aut": 0.0,
     "id": "accipiter-poliogaster",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "anhinga-anhinga",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "arremon-castaneiceps",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "asio-clamator",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22777,7 +22086,15 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "boissonneaua-matthewsii",
+    "id": "aulacorhynchus-haematopygus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "bolborhynchus-lineola",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22793,7 +22110,15 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "calliphlox-amethystina",
+    "id": "cacicus-uropygialis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "campephilus-haematogaster",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22801,25 +22126,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "calochaetes-coccineus",
+    "id": "cantorchilus-leucotis",
     "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "caracara-plancus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "cathartes-burrovianus",
-    "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -22849,23 +22158,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "chlorophonia-pyrrhophrys",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "cinclus-leucocephalus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "cinnycerthia-olivascens",
+    "id": "chaetocercus-mulsant",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -22873,7 +22166,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "columbina-squammata",
+    "id": "chloroceryle-americana",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22881,9 +22174,25 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "conirostrum-albifrons",
+    "id": "chondrohierax-uncinatus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "colibri-cyanotus",
     "interesting": false,
     "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "columbina-minuta",
+    "interesting": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -22897,9 +22206,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "cranioleuca-curtata",
+    "id": "conopophaga-castaneiceps",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -22914,6 +22223,14 @@
    {
     "freq_aut": 0.0,
     "id": "cyanoloxia-rothschildii",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "cyclarhis-nigrirostris",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22937,6 +22254,30 @@
    },
    {
     "freq_aut": 0.0,
+    "id": "dendrocincla-tyrannina",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "diglossa-glauca",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "diglossa-humeralis",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
     "id": "egretta-caerulea",
     "interesting": false,
     "new_for_route": true,
@@ -22945,15 +22286,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "elaenia-frantzii",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "elaenia-parvirostris",
+    "id": "egretta-thula",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22961,7 +22294,15 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "elanus-leucurus",
+    "id": "elaenia-albiceps",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "elaenia-flavogaster",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -22969,15 +22310,31 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "empidonax-traillii",
+    "id": "empidonax-alnorum",
     "interesting": false,
     "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "empidonax-virescens",
+    "interesting": false,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
    {
     "freq_aut": 0.0,
     "id": "epinecrophylla-haematonota",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "epinecrophylla-ornata",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -22993,49 +22350,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "eucometis-penicillata",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "eudocimus-albus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "eudocimus-ruber",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "eutoxeres-aquila",
     "interesting": false,
     "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "falco-peregrinus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "forpus-conspicillatus",
-    "interesting": false,
-    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23049,9 +22366,17 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "gallinula-galeata",
+    "id": "galbula-chalcothorax",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "gampsonyx-swainsonii",
+    "interesting": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -23065,31 +22390,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "haplospiza-rustica",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "heliangelus-exortis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "heliornis-fulica",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "hemitriccus-granadensis",
+    "id": "herpsilochmus-axillaris",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23105,15 +22406,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "lafresnaya-lafresnayi",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "laterallus-melanophaius",
+    "id": "iridophanes-pulcherrimus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23129,30 +22422,6 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "leptotila-plumbeiceps",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "leucophaeus-atricilla",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "mecocerculus-stictopterus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "megascops-watsonii",
     "interesting": false,
     "new_for_route": true,
@@ -23161,7 +22430,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "melanerpes-formicivorus",
+    "id": "metallura-tyrianthina",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -23169,9 +22438,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "metallura-tyrianthina",
+    "id": "micrastur-ruficollis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -23201,25 +22470,25 @@
    },
    {
     "freq_aut": 0.0,
+    "id": "microspizias-superciliosus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "momotus-aequatorialis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
     "id": "morphnarchus-princeps",
     "interesting": false,
     "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "mustelirallus-erythrops",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "myioborus-ornatus",
-    "interesting": false,
-    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23249,7 +22518,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "myiotheretes-fumigatus",
+    "id": "myiophobus-cryptoxanthus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23257,7 +22526,23 @@
    },
    {
     "freq_aut": 0.0,
+    "id": "myiophobus-flavicans",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
     "id": "myrmoborus-leucophrys",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "myrmotherula-brachyura",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23273,6 +22558,14 @@
    },
    {
     "freq_aut": 0.0,
+    "id": "myrmotherula-schisticolor",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
     "id": "neophilydor-erythrocercum",
     "interesting": false,
     "new_for_route": true,
@@ -23281,31 +22574,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "neopipo-cinnamomea",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "nycticorax-nycticorax",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "nyctipolus-nigrescens",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "ocreatus-peruanus",
+    "id": "nothocercus-julius",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23321,14 +22590,6 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "odontorchilus-branickii",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "ornithion-inerme",
     "interesting": false,
     "new_for_route": true,
@@ -23337,17 +22598,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "orochelidon-flavipes",
+    "id": "orochelidon-murina",
     "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "ortalis-motmot",
-    "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23356,6 +22609,46 @@
     "id": "pachyramphus-castaneus",
     "interesting": false,
     "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "pachyramphus-cinnamomeus",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "pachysylvia-semibrunnea",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "panyptila-cayennensis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "paroaria-gularis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "phaethornis-syrmatophorus",
+    "interesting": false,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23377,7 +22670,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "piranga-flava",
+    "id": "pionus-sordidus",
     "interesting": false,
     "new_for_route": false,
     "state": "unlikely",
@@ -23385,9 +22678,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "piranga-leucoptera",
+    "id": "pipraeidea-melanonota",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23401,15 +22694,31 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "poecilotriccus-sylvia",
+    "id": "pogonotriccus-ophthalmicus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
    {
     "freq_aut": 0.0,
-    "id": "pseudotriccus-ruficeps",
+    "id": "pogonotriccus-poecilotis",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "premnoplex-brunnescens",
+    "interesting": false,
+    "new_for_route": true,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "pyroderus-scutatus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23425,25 +22734,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "saltator-olivascens",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "sarcoramphus-papa",
     "interesting": false,
     "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "schistes-geoffroyi",
-    "interesting": false,
-    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23457,9 +22750,33 @@
    },
    {
     "freq_aut": 0.0,
+    "id": "scytalopus-atratus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
     "id": "scytalopus-latrans",
     "interesting": false,
     "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "scytalopus-micropterus",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "setophaga-castanea",
+    "interesting": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -23481,30 +22798,6 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "sporophila-minuta",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "steatornis-caripensis",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "sublegatus-obscurior",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "synallaxis-rutilans",
     "interesting": false,
     "new_for_route": true,
@@ -23513,7 +22806,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tapera-naevia",
+    "id": "syrigma-sibilatrix",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23521,7 +22814,23 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tigrisoma-lineatum",
+    "id": "tangara-labradorides",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "tangara-xanthocephala",
+    "interesting": false,
+    "new_for_route": false,
+    "state": "unlikely",
+    "why": []
+   },
+   {
+    "freq_aut": 0.0,
+    "id": "terenotriccus-erythrurus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23529,9 +22838,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "tinamus-tao",
+    "id": "thamnophilus-doliatus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -23545,23 +22854,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "troglodytes-solstitialis",
-    "interesting": false,
-    "new_for_route": false,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "trogon-melanurus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
-    "id": "trogon-rufus",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23577,14 +22870,6 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "turdus-serranus",
-    "interesting": false,
-    "new_for_route": true,
-    "state": "unlikely",
-    "why": []
-   },
-   {
-    "freq_aut": 0.0,
     "id": "urosticte-ruficrissa",
     "interesting": false,
     "new_for_route": false,
@@ -23593,7 +22878,7 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "veniliornis-dignus",
+    "id": "vireo-flavifrons",
     "interesting": false,
     "new_for_route": true,
     "state": "unlikely",
@@ -23601,9 +22886,9 @@
    },
    {
     "freq_aut": 0.0,
-    "id": "xenops-genibarbis",
+    "id": "vireo-leucophrys",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -25496,7 +24781,7 @@
     "freq_aut": 0.00093,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -25568,7 +24853,7 @@
     "freq_aut": 0.00084,
     "id": "colonia-colonus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -25592,7 +24877,7 @@
     "freq_aut": 0.00084,
     "id": "galbula-pastazae",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -25608,7 +24893,7 @@
     "freq_aut": 0.00084,
     "id": "myiozetetes-granadensis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -25648,7 +24933,7 @@
     "freq_aut": 0.00074,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -25672,7 +24957,7 @@
     "freq_aut": 0.00074,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -25776,7 +25061,7 @@
     "freq_aut": 0.00065,
     "id": "tolmomyias-poliocephalus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -25800,7 +25085,7 @@
     "freq_aut": 0.00056,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -25928,7 +25213,7 @@
     "freq_aut": 0.00047,
     "id": "brotogeris-cyanoptera",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -25944,7 +25229,7 @@
     "freq_aut": 0.00047,
     "id": "crypturellus-undulatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26008,7 +25293,7 @@
     "freq_aut": 0.00047,
     "id": "tachornis-squamata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26032,7 +25317,7 @@
     "freq_aut": 0.00037,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -26136,7 +25421,7 @@
     "freq_aut": 0.00037,
     "id": "pteroglossus-inscriptus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26160,7 +25445,7 @@
     "freq_aut": 0.00028,
     "id": "atticora-fasciata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26168,7 +25453,7 @@
     "freq_aut": 0.00028,
     "id": "celeus-elegans",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26184,7 +25469,7 @@
     "freq_aut": 0.00028,
     "id": "cotinga-maynana",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26392,7 +25677,7 @@
     "freq_aut": 0.00019,
     "id": "eubucco-richardsoni",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -26408,7 +25693,7 @@
     "freq_aut": 0.00019,
     "id": "icterus-cayanensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -26416,7 +25701,7 @@
     "freq_aut": 0.00019,
     "id": "icterus-icterus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26448,7 +25733,7 @@
     "freq_aut": 0.00019,
     "id": "pandion-haliaetus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26472,7 +25757,7 @@
     "freq_aut": 0.00019,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26608,7 +25893,7 @@
     "freq_aut": 9e-05,
     "id": "glaucis-hirsutus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -26616,7 +25901,7 @@
     "freq_aut": 9e-05,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -26896,7 +26181,7 @@
     "freq_aut": 0.0,
     "id": "chondrohierax-uncinatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26912,7 +26197,7 @@
     "freq_aut": 0.0,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -26992,7 +26277,7 @@
     "freq_aut": 0.0,
     "id": "discosura-popelairii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -27000,7 +26285,7 @@
     "freq_aut": 0.0,
     "id": "donacobius-atricapilla",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -27136,7 +26421,7 @@
     "freq_aut": 0.0,
     "id": "metopothrix-aurantiaca",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29453,7 +28738,7 @@
     "freq_aut": 0.00093,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29525,7 +28810,7 @@
     "freq_aut": 0.00084,
     "id": "colonia-colonus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -29549,7 +28834,7 @@
     "freq_aut": 0.00084,
     "id": "galbula-pastazae",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -29565,7 +28850,7 @@
     "freq_aut": 0.00084,
     "id": "myiozetetes-granadensis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29605,7 +28890,7 @@
     "freq_aut": 0.00074,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29629,7 +28914,7 @@
     "freq_aut": 0.00074,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -29733,7 +29018,7 @@
     "freq_aut": 0.00065,
     "id": "tolmomyias-poliocephalus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29757,7 +29042,7 @@
     "freq_aut": 0.00056,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -29885,7 +29170,7 @@
     "freq_aut": 0.00047,
     "id": "brotogeris-cyanoptera",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29901,7 +29186,7 @@
     "freq_aut": 0.00047,
     "id": "crypturellus-undulatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29965,7 +29250,7 @@
     "freq_aut": 0.00047,
     "id": "tachornis-squamata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -29989,7 +29274,7 @@
     "freq_aut": 0.00037,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -30093,7 +29378,7 @@
     "freq_aut": 0.00037,
     "id": "pteroglossus-inscriptus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30117,7 +29402,7 @@
     "freq_aut": 0.00028,
     "id": "atticora-fasciata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30125,7 +29410,7 @@
     "freq_aut": 0.00028,
     "id": "celeus-elegans",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30141,7 +29426,7 @@
     "freq_aut": 0.00028,
     "id": "cotinga-maynana",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30349,7 +29634,7 @@
     "freq_aut": 0.00019,
     "id": "eubucco-richardsoni",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -30365,7 +29650,7 @@
     "freq_aut": 0.00019,
     "id": "icterus-cayanensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -30373,7 +29658,7 @@
     "freq_aut": 0.00019,
     "id": "icterus-icterus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30405,7 +29690,7 @@
     "freq_aut": 0.00019,
     "id": "pandion-haliaetus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30429,7 +29714,7 @@
     "freq_aut": 0.00019,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30565,7 +29850,7 @@
     "freq_aut": 9e-05,
     "id": "glaucis-hirsutus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -30573,7 +29858,7 @@
     "freq_aut": 9e-05,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -30853,7 +30138,7 @@
     "freq_aut": 0.0,
     "id": "chondrohierax-uncinatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30869,7 +30154,7 @@
     "freq_aut": 0.0,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -30949,7 +30234,7 @@
     "freq_aut": 0.0,
     "id": "discosura-popelairii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -30957,7 +30242,7 @@
     "freq_aut": 0.0,
     "id": "donacobius-atricapilla",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -31093,7 +30378,7 @@
     "freq_aut": 0.0,
     "id": "metopothrix-aurantiaca",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33410,7 +32695,7 @@
     "freq_aut": 0.00093,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33482,7 +32767,7 @@
     "freq_aut": 0.00084,
     "id": "colonia-colonus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -33506,7 +32791,7 @@
     "freq_aut": 0.00084,
     "id": "galbula-pastazae",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -33522,7 +32807,7 @@
     "freq_aut": 0.00084,
     "id": "myiozetetes-granadensis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33562,7 +32847,7 @@
     "freq_aut": 0.00074,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33586,7 +32871,7 @@
     "freq_aut": 0.00074,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -33690,7 +32975,7 @@
     "freq_aut": 0.00065,
     "id": "tolmomyias-poliocephalus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33714,7 +32999,7 @@
     "freq_aut": 0.00056,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -33842,7 +33127,7 @@
     "freq_aut": 0.00047,
     "id": "brotogeris-cyanoptera",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33858,7 +33143,7 @@
     "freq_aut": 0.00047,
     "id": "crypturellus-undulatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33922,7 +33207,7 @@
     "freq_aut": 0.00047,
     "id": "tachornis-squamata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -33946,7 +33231,7 @@
     "freq_aut": 0.00037,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -34050,7 +33335,7 @@
     "freq_aut": 0.00037,
     "id": "pteroglossus-inscriptus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34074,7 +33359,7 @@
     "freq_aut": 0.00028,
     "id": "atticora-fasciata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34082,7 +33367,7 @@
     "freq_aut": 0.00028,
     "id": "celeus-elegans",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34098,7 +33383,7 @@
     "freq_aut": 0.00028,
     "id": "cotinga-maynana",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34306,7 +33591,7 @@
     "freq_aut": 0.00019,
     "id": "eubucco-richardsoni",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -34322,7 +33607,7 @@
     "freq_aut": 0.00019,
     "id": "icterus-cayanensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -34330,7 +33615,7 @@
     "freq_aut": 0.00019,
     "id": "icterus-icterus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34362,7 +33647,7 @@
     "freq_aut": 0.00019,
     "id": "pandion-haliaetus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34386,7 +33671,7 @@
     "freq_aut": 0.00019,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34522,7 +33807,7 @@
     "freq_aut": 9e-05,
     "id": "glaucis-hirsutus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -34530,7 +33815,7 @@
     "freq_aut": 9e-05,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -34810,7 +34095,7 @@
     "freq_aut": 0.0,
     "id": "chondrohierax-uncinatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34826,7 +34111,7 @@
     "freq_aut": 0.0,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -34906,7 +34191,7 @@
     "freq_aut": 0.0,
     "id": "discosura-popelairii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -34914,7 +34199,7 @@
     "freq_aut": 0.0,
     "id": "donacobius-atricapilla",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -35050,7 +34335,7 @@
     "freq_aut": 0.0,
     "id": "metopothrix-aurantiaca",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -35667,7 +34952,7 @@
     "freq_aut": 0.00359,
     "id": "cotinga-maynana",
     "interesting": true,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": [
      "highlight"
@@ -36035,7 +35320,7 @@
     "freq_aut": 0.01619,
     "id": "monasa-nigrifrons",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "sure",
     "why": []
    },
@@ -36267,7 +35552,7 @@
     "freq_aut": 0.00974,
     "id": "atticora-fasciata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36275,7 +35560,7 @@
     "freq_aut": 0.00974,
     "id": "brotogeris-cyanoptera",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36371,7 +35656,7 @@
     "freq_aut": 0.00853,
     "id": "celeus-elegans",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36419,7 +35704,7 @@
     "freq_aut": 0.0083,
     "id": "icterus-icterus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36643,7 +35928,7 @@
     "freq_aut": 0.00648,
     "id": "tachornis-squamata",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36691,7 +35976,7 @@
     "freq_aut": 0.00609,
     "id": "crypturellus-undulatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36723,7 +36008,7 @@
     "freq_aut": 0.00602,
     "id": "metopothrix-aurantiaca",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36875,7 +36160,7 @@
     "freq_aut": 0.00521,
     "id": "pteroglossus-inscriptus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36915,7 +36200,7 @@
     "freq_aut": 0.00487,
     "id": "chondrohierax-uncinatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -36963,7 +36248,7 @@
     "freq_aut": 0.00486,
     "id": "donacobius-atricapilla",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -37019,7 +36304,7 @@
     "freq_aut": 0.00435,
     "id": "myiozetetes-granadensis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -37035,7 +36320,7 @@
     "freq_aut": 0.00425,
     "id": "philohydor-lictor",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -37091,7 +36376,7 @@
     "freq_aut": 0.00405,
     "id": "paroaria-gularis",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -37227,7 +36512,7 @@
     "freq_aut": 0.00365,
     "id": "pandion-haliaetus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -37771,7 +37056,7 @@
     "freq_aut": 0.00197,
     "id": "tolmomyias-poliocephalus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -38155,7 +37440,7 @@
     "freq_aut": 0.00101,
     "id": "icterus-cayanensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -38171,7 +37456,7 @@
     "freq_aut": 0.00244,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -38235,7 +37520,7 @@
     "freq_aut": 0.00093,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -38315,7 +37600,7 @@
     "freq_aut": 0.00084,
     "id": "colonia-colonus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -38339,7 +37624,7 @@
     "freq_aut": 0.00084,
     "id": "galbula-pastazae",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -38371,7 +37656,7 @@
     "freq_aut": 0.00081,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -38403,7 +37688,7 @@
     "freq_aut": 0.00074,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -38547,7 +37832,7 @@
     "freq_aut": 0.00056,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -38635,7 +37920,7 @@
     "freq_aut": 0.00056,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -38835,7 +38120,7 @@
     "freq_aut": 0.00037,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -39211,7 +38496,7 @@
     "freq_aut": 0.00019,
     "id": "eubucco-richardsoni",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -39515,7 +38800,7 @@
     "freq_aut": 9e-05,
     "id": "glaucis-hirsutus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -39523,7 +38808,7 @@
     "freq_aut": 9e-05,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -39971,7 +39256,7 @@
     "freq_aut": 0.0,
     "id": "coccycua-minuta",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -40067,7 +39352,7 @@
     "freq_aut": 0.0,
     "id": "discosura-popelairii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -42167,7 +41452,7 @@
     "freq_aut": 0.00097,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -42431,7 +41716,7 @@
     "freq_aut": 0.00056,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -43191,7 +42476,7 @@
     "freq_aut": 0.0001,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -43383,7 +42668,7 @@
     "freq_aut": 5e-05,
     "id": "glaucis-hirsutus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -43391,7 +42676,7 @@
     "freq_aut": 5e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -43575,7 +42860,7 @@
     "freq_aut": 0.0,
     "id": "coccycua-minuta",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -43591,7 +42876,7 @@
     "freq_aut": 0.0,
     "id": "colonia-colonus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -43623,7 +42908,7 @@
     "freq_aut": 0.0,
     "id": "eubucco-richardsoni",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -45077,7 +44362,7 @@
     "freq_aut": 0.00426,
     "id": "glaucis-hirsutus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -45221,7 +44506,7 @@
     "freq_aut": 0.00319,
     "id": "colonia-colonus",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -45773,7 +45058,7 @@
     "freq_aut": 0.00081,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -45957,7 +45242,7 @@
     "freq_aut": 0.00056,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -45981,7 +45266,7 @@
     "freq_aut": 0.00053,
     "id": "coccycua-minuta",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -46589,7 +45874,7 @@
     "freq_aut": 0.0001,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -46709,7 +45994,7 @@
     "freq_aut": 5e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -47021,7 +46306,7 @@
     "freq_aut": 0.0,
     "id": "eubucco-richardsoni",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -48724,7 +48009,7 @@
     "freq_aut": 0.00053,
     "id": "coccycua-minuta",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -48828,7 +48113,7 @@
     "freq_aut": 0.0,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -48980,7 +48265,7 @@
     "freq_aut": 0.0,
     "id": "psittacara-leucophthalmus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -50618,7 +49903,7 @@
     "freq_aut": 0.00138,
     "id": "campephilus-pollens",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -51066,7 +50351,7 @@
     "freq_aut": 0.00069,
     "id": "discosura-popelairii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -51434,7 +50719,7 @@
     "freq_aut": 0.0,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -51650,7 +50935,7 @@
     "freq_aut": 0.0,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -54417,7 +53702,7 @@
     "freq_aut": 0.00101,
     "id": "campephilus-pollens",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -55041,7 +54326,7 @@
     "freq_aut": 0.00032,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -55457,7 +54742,7 @@
     "freq_aut": 0.00016,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -55497,7 +54782,7 @@
     "freq_aut": 0.00011,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -55681,7 +54966,7 @@
     "freq_aut": 5e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -58163,7 +57448,7 @@
     "freq_aut": 0.00032,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -58539,7 +57824,7 @@
     "freq_aut": 0.00016,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -58587,7 +57872,7 @@
     "freq_aut": 0.00011,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -58859,7 +58144,7 @@
     "freq_aut": 5e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -60272,7 +59557,7 @@
     "freq_aut": 0.0086,
     "id": "baryphthengus-martii",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -60840,7 +60125,7 @@
     "freq_aut": 0.00255,
     "id": "arremon-aurantiirostris",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -62344,7 +61629,7 @@
     "freq_aut": 0.00016,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -62376,7 +61661,7 @@
     "freq_aut": 0.00016,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -62680,7 +61965,7 @@
     "freq_aut": 7e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -65941,7 +65226,7 @@
     "freq_aut": 0.00016,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -66325,7 +65610,7 @@
     "freq_aut": 7e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -66669,7 +65954,7 @@
     "freq_aut": 2e-05,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -69907,7 +69192,7 @@
     "freq_aut": 0.00016,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -70195,7 +69480,7 @@
     "freq_aut": 8e-05,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -70547,7 +69832,7 @@
     "freq_aut": 3e-05,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -73331,7 +72616,7 @@
     "freq_aut": 0.00306,
     "id": "columbina-minuta",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "maybe",
     "why": []
    },
@@ -73827,7 +73112,7 @@
     "freq_aut": 0.00165,
     "id": "coccycua-minuta",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "maybe",
     "why": []
    },
@@ -74291,7 +73576,7 @@
     "freq_aut": 0.00082,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -75307,7 +74592,7 @@
     "freq_aut": 0.00012,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -75763,7 +75048,7 @@
     "freq_aut": 0.0,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -78315,7 +77600,7 @@
     "freq_aut": 0.00055,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -78635,7 +77920,7 @@
     "freq_aut": 0.00018,
     "id": "harpagus-bidentatus",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -83268,7 +82553,7 @@
     "freq_aut": 0.00013,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -83284,7 +82569,7 @@
     "freq_aut": 0.00013,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -84460,7 +83745,7 @@
     "freq_aut": 0.0,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -88005,7 +87290,7 @@
     "freq_aut": 0.00013,
     "id": "chlorophonia-cyanocephala",
     "interesting": false,
-    "new_for_route": false,
+    "new_for_route": true,
     "state": "unlikely",
     "why": []
    },
@@ -88029,7 +87314,7 @@
     "freq_aut": 0.00013,
     "id": "nyctidromus-albicollis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
@@ -89317,7 +88602,7 @@
     "freq_aut": 0.0,
     "id": "grallaria-guatimalensis",
     "interesting": false,
-    "new_for_route": true,
+    "new_for_route": false,
     "state": "unlikely",
     "why": []
    },
