@@ -86,10 +86,18 @@ def test_import_and_build():
     assert cls["S2"]["n_species"] == 2 and cls["S2"]["comments"] == "Ранний выход" and cls["S2"]["observers"] == 3
     st = obs["stats"]
     assert (st["species"], st["lifers"], st["checklists"], st["days"]) == (4, 2, 4, 3)
-    assert st["by_day"]["2026-10-03"] == {"species": 2, "new": 1, "lifers": 2, "checklists": 2, "observations": 3}
+    # lifers are counted among `new` only: avis-secunda (first on 10-02 at alpha) is seen again on 10-03 and off-site,
+    # but counts as a lifer only for 10-02 / alpha; avis-tertia (first on 10-03 at betaville) for 10-03 / betaville
+    assert st["by_day"]["2026-10-02"] == {"species": 2, "new": 2, "lifers": 1, "checklists": 1, "observations": 2}
+    assert st["by_day"]["2026-10-03"] == {"species": 2, "new": 1, "lifers": 1, "checklists": 2, "observations": 3}
+    assert st["by_day"]["2026-10-04"] == {"species": 1, "new": 1, "lifers": 0, "checklists": 1, "observations": 1}
     assert st["by_site"]["alpha"] == {"species": 3, "new": 3, "lifers": 1, "checklists": 2, "observations": 3,
                                       "passing_checklists": 1}
-    assert st["off_site"] == {"species": 1, "new": 0, "lifers": 1, "checklists": 1, "observations": 1}
+    assert st["by_site"]["betaville"] == {"species": 2, "new": 1, "lifers": 1, "checklists": 1, "observations": 2}
+    assert st["off_site"] == {"species": 1, "new": 0, "lifers": 0, "checklists": 1, "observations": 1}
+    # per-day columns add up to the trip totals
+    assert sum(e["new"] for e in st["by_day"].values()) == st["species"]
+    assert sum(e["lifers"] for e in st["by_day"].values()) == st["lifers"]
 
 
 def test_passing():
