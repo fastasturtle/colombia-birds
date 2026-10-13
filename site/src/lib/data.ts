@@ -605,6 +605,11 @@ export function seenSpecies(): Set<string> {
 export function seenInfo(id: string): SeenSpecies | null {
   return observations()?.species[id] ?? null;
 }
+/** Date of the latest processed checklist ('2026-10-08'), null without observations. */
+export function lastChecklistDate(): string | null {
+  const o = observations();
+  return o ? o.checklists.reduce((m, c) => (c.date > m ? c.date : m), o.checklists[0].date) : null;
+}
 export interface SeenGroup { stats: SeenStats; checklists: ObsChecklist[]; species: Set<string> }
 function seenGroup(stats: SeenStats | null | undefined, test: (c: ObsChecklist) => boolean): SeenGroup | null {
   const o = observations();
