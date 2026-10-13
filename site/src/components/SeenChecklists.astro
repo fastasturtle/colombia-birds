@@ -2,7 +2,8 @@
 /**
  * «Видели …» section of a day or site page: «Видели 84 вида (2 чеклиста)», then «Впервые в туре: 39 видов, из них 38
  * новых для Ани» (lib/data seenNew: lifers are counted among the species first seen on the trip there only), and Anya's
- * eBird checklists (time, place or date, duration, species, link).
+ * eBird checklists (time, place or date, duration, species, link) in a <details> that is always closed on load
+ * (no remembered state; works without JS).
  * on = 'day': each checklist names its place (site link or the raw eBird location); 'site': its date (day link).
  * A checklist with `passing` (near the site on a day it is not on the route) gets a muted «проездом» tag; on a site
  * page the header notes how many and when («из них 1 проездом, 7 октября», or «проездом, 7 октября» when all are).
@@ -23,6 +24,8 @@ const dur = (m: number | null) => (m == null ? null : m >= 60 ? `${Math.floor(m 
 <section class="seen-cl card">
   <h2><span class="ck" aria-hidden="true">✓</span> Видели {st.species} {plural(st.species, 'вид', 'вида', 'видов')} ({st.checklists} {plural(st.checklists, 'чеклист', 'чеклиста', 'чеклистов')}{passingNote && <span class="muted pn">, {passingNote}</span>})</h2>
   <p class="muted sub">{newText && <>{on === 'day' ? 'Впервые в туре' : 'Впервые в туре здесь'}: {newText}. </>}<a href={`${base}seen/`}>Все наблюдения →</a></p>
+  <details class="cls">
+  <summary><span>Чеклисты <span class="n">({g.checklists.length})</span></span></summary>
   <ul>
     {g.checklists.map((c) => (
       <li>
@@ -33,12 +36,21 @@ const dur = (m: number | null) => (m == null ? null : m >= 60 ? `${Math.floor(m 
       </li>
     ))}
   </ul>
+  </details>
 </section>
 <style>
   .seen-cl { margin: 14px 0 6px; border-color: var(--seen-fg); }
   h2 { margin: 0 0 2px; font-size: 1.05rem; }
   .ck { color: var(--seen-fg); }
   .sub { margin: 0 0 4px; font-size: .85rem; }
+  .cls > summary {
+    min-height: 40px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; list-style: none;
+    color: var(--muted); font-size: .85rem; user-select: none;
+  }
+  .cls > summary::-webkit-details-marker { display: none; }
+  .cls > summary::before { content: '▸'; width: 10px; transition: transform .15s; }
+  .cls[open] > summary::before { transform: rotate(90deg); }
+  .cls > summary .n { font-variant-numeric: tabular-nums; }
   ul { list-style: none; padding: 0; margin: 0; }
   li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 5px 0; border-top: 1px solid var(--line); font-size: .9rem; }
   .t { white-space: nowrap; font-variant-numeric: tabular-nums; }
