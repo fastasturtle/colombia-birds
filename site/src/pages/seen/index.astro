@@ -98,7 +98,7 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.new, 0), b
           return (
             <section data-lf-group>
               <h3 class="gh">{d.href ? <a href={d.href}>{d.label}</a> : d.label}{d.sub && <span class="muted"> · {d.sub}</span>} <span class="muted gc">· <span data-lf-gcount>{g.rows.length}</span></span></h3>
-              {g.rows.map((r) => <SpeciesRow s={r.s} state={r.state} why={r.why} lifer fa={facets.attrs(r.s, r.at, { alt: true, sci: true })} />)}
+              {g.rows.map((r) => <SpeciesRow s={r.s} state={r.state} why={r.why} fa={facets.attrs(r.s, r.at, { alt: true, sci: true })} />)}
             </section>
           );
         })}
