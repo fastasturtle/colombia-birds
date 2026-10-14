@@ -605,10 +605,14 @@ export function seenSpecies(): Set<string> {
 export function seenInfo(id: string): SeenSpecies | null {
   return observations()?.species[id] ?? null;
 }
-/** Date of the latest processed checklist ('2026-10-08'), null without observations. */
-export function lastChecklistDate(): string | null {
+/** Date and start time (24 h 'hh:mm', null when eBird has none) of the latest processed checklist,
+ *  by date then time ({date: '2026-10-08', time: '08:10'}); null without observations. */
+export function lastChecklist(): { date: string; time: string | null } | null {
   const o = observations();
-  return o ? o.checklists.reduce((m, c) => (c.date > m ? c.date : m), o.checklists[0].date) : null;
+  if (!o || o.checklists.length === 0) return null;
+  const key = (c: ObsChecklist) => `${c.date} ${c.time ?? ''}`;
+  const c = o.checklists.reduce((m, c) => (key(c) > key(m) ? c : m));
+  return { date: c.date, time: c.time };
 }
 export interface SeenGroup { stats: SeenStats; checklists: ObsChecklist[]; species: Set<string> }
 function seenGroup(stats: SeenStats | null | undefined, test: (c: ObsChecklist) => boolean): SeenGroup | null {
