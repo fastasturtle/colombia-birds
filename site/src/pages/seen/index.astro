@@ -11,7 +11,7 @@ import ScopeFilter from '../../components/ScopeFilter.svelte';
 import FilterScope from '../../components/FilterScope.astro';
 import ThumbLightbox from '../../components/ThumbLightbox.svelte';
 import {
-  observations, speciesIndex, sites, itinerary, routeState, whyInteresting, sitesListing, listFacets, fmtDateRu, lastChecklistDate, dayLabel, plural, MEDIA_BASE,
+  observations, speciesIndex, sites, itinerary, routeState, whyInteresting, sitesListing, listFacets, fmtDateRu, lastChecklist, dayLabel, plural, MEDIA_BASE,
   type SeenStats,
 } from '@lib/data';
 import { fmtDaysShort } from '@lib/dates';
@@ -38,8 +38,8 @@ const groups = [...new Set(rows.map((r) => r.sp.first))].sort().reverse()
   .map((date) => ({ date, rows: rows.filter((r) => r.sp.first === date).sort((a, b) => a.s.taxon_order - b.s.taxon_order) }));
 const nDays = st?.days ?? 0;
 const exported = o?.exported ? fmtDateRu(o.exported, false) : '';
-const lastCl = lastChecklistDate();
-const lastClRu = lastCl && lastCl !== o?.exported ? fmtDateRu(lastCl, false) : '';
+const lastCl = lastChecklist();
+const lastClRu = lastCl && lastCl.date !== o?.exported ? `${fmtDateRu(lastCl.date, false)}${lastCl.time ? `, ${lastCl.time}` : ''}` : '';
 const dayCell = (date: string) => {
   const d = dayOf.get(date);
   return { href: d ? `${base}days/${date}/` : null, label: fmtDateRu(date, false), short: fmtDaysShort([date]), sub: d ? dayLabel(d) : '' };
