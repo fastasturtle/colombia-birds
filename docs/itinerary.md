@@ -23,7 +23,7 @@
 | 11 окт | 9 | Isla Escondida, переезд Orito – Puerto Asís | Puerto Asís | Diego Rocha |
 | 12 окт | 10 | Playa Rica | Puerto Asís | Diego Rocha |
 | 13 окт | 11 | Puerto Asís, переезд в El Escondite | El Escondite | Diego Rocha |
-| 14 окт | 12 | Окрестности Mocoa, переезд в Mocoa (по факту; план был вторая ночь в El Escondite) | Отель в Mocoa | Diego Rocha |
+| 14 окт | 12 | Окрестности Mocoa, переезд в Mocoa | Отель в Mocoa | Diego Rocha |
 | 15 окт | 13 | Trampolín de las Aves, переезд в Sibundoy | Posada Villa Beatriz | Diego Rocha |
 | 16 окт | 14 | Páramo Bordoncillo, Laguna La Cocha, переезд в La Planada | Reserva Natural La Planada | Diego Rocha |
 | 17 окт | 15 | Reserva Natural La Planada | Reserva Natural La Planada | Brayan Coral |
@@ -32,8 +32,8 @@
 | 20 окт | 18 | Bangsia Lodge; день: Aves y Flórez Lodge | Aves y Flórez Lodge | Brayan Coral |
 | 21 окт | 19 | Утро: Reserva La Nutria; день: Km 42 | Tumaco (?) | Brayan Coral |
 | 22 окт | 20 | Finca Maragrícola, Playa del Morro | Playa del Morro | Brayan Coral |
-| 23 окт | 21 | Утро в Tumaco / Playa del Morro, вечерний рейс Satena TCO–BOG 18:50 (ночёвка в Chicaque отменена) | Hotel El Dorado, Богота | |
-| 24 окт | +1 | Богота; группа уезжает в аэропорт к 13:00 (утро в Chicaque отменено) | Hotel El Dorado, Богота | |
+| 23 окт | 21 | Утро в Tumaco / Playa del Morro, вечерний рейс Satena TCO–BOG 18:50 | Hotel El Dorado, Богота | |
+| 24 окт | +1 | Богота; группа уезжает в аэропорт к 13:00 | Hotel El Dorado, Богота | |
 | 25 окт | +2 | Свободный день в Боготе, вечером вылет | — | |
 
 ## Богота с гидом Леоном (1–3 октября)
