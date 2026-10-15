@@ -65,7 +65,8 @@
 - Загрузить фото для набора видов: Actions → pipeline → steps `photos upload`, `only` = слаги.
 - Погода: `data/weather.json` (прогноз Open-Meteo утро/день/вечер по дням и локациям) обновляет без ИИ ежедневный
   workflow `.github/workflows/weather.yml` (05:00 Боготы, шаг `weather`, коммит + деплой). Вручную: `uv run python run.py weather`
-  или Actions → weather → Run workflow. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
+  или Actions → weather → Run workflow. Ночёвка вне `data/sites.json` (отель в городе): поле дня
+  `overnight_loc` `{id, name_ru, lat, lon}` в `data/itinerary.json` (высота из `elev_sleep`), без него — Богота. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
 - Наблюдения в туре (что уже увидели): Аня присылает новую выгрузку eBird («Download my data», `MyEBirdData.csv`).
   Положить её вне репозитория (это личная история локаций по всему миру, **не коммитить**) и выполнить
   `cd pipeline && uv run python run.py observations --import <путь к MyEBirdData.csv>`: шаг перепишет

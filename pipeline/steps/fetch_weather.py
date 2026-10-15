@@ -7,9 +7,11 @@ site's altitude (grid cells in the Andes are coarse).
 
 Locations per day of data/itinerary.json: `sites[]` plus `overnight_site` (deduped, overnight last and
 merged into a day site of the same id). Coordinates and elevation from data/sites_resolved.json
-(elevation = mean of elev_min/elev_max, else the day's `elev_sleep` for the overnight site). Days with no
-overnight site use a Bogotá fallback (FALLBACK) as the overnight location. One request per distinct
-location; only days inside the forecast window get an entry.
+(elevation = mean of elev_min/elev_max, else the day's `elev_sleep` for the overnight site). A day with no
+overnight site but an `overnight_loc` ({id, name_ru, lat, lon}: a night outside data/sites.json, e.g. a town
+hotel) uses that as the overnight location, elevation = the day's `elev_sleep`. Days with neither use a
+Bogotá fallback (FALLBACK). One request per distinct location; only days inside the forecast window get an
+entry.
 
 Periods (local time, hour starts): morning 06-09 (06:00-10:00), day 10-15 (10:00-16:00),
 evening 16-18 (16:00-19:00). Per period: t_min/t_max (°C, int), precip_prob (max %), precip (sum mm,
@@ -150,6 +152,9 @@ def main() -> None:
             loc = locations.setdefault(oid, {"id": oid, "name_ru": s.get("name_ru") or s["name"],
                                              "lat": s["lat"], "lon": s["lon"],
                                              "elevation": elev_of(s) or d.get("elev_sleep")})
+        elif ol := d.get("overnight_loc"):
+            loc = locations.setdefault(ol["id"], {"id": ol["id"], "name_ru": ol["name_ru"], "lat": ol["lat"],
+                                                  "lon": ol["lon"], "elevation": d.get("elev_sleep")})
         else:
             loc = locations.setdefault("bogota", dict(FALLBACK))
         entries = [e for e in entries if e[0]["id"] != loc["id"]] + [(loc, True)]
