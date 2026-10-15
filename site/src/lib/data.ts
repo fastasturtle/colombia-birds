@@ -77,6 +77,8 @@ export interface Site {
 export interface Day {
   date: string; day: number | string; title_ru: string; sites: string[]; overnight: string; overnight_site: string | null;
   guide: string | null; region: string; travel_ru: string; elev_sleep: number | null;
+  /** night outside data/sites.json (e.g. a town hotel); used with overnight_site: null */
+  overnight_loc?: { id: string; name_ru: string; lat: number; lon: number } | null;
 }
 export interface Region { id: string; name_ru: string; name_en: string; description_ru: string; color: string; order: number }
 

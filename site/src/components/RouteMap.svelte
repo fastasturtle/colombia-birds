@@ -1,8 +1,8 @@
 <script lang="ts">
   import basemap from '../generated/basemap.json';
   import { fmtDaysShort, siteDaysFromDates } from '../lib/dates';
-  interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null; optional?: boolean }
-  interface Day { date: string; day: number | string; title_ru: string; sites: string[]; overnight_site: string | null; travel_ru?: string; region: string; elev_sleep: number | null }
+  interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null; optional?: boolean; loc?: boolean }
+  interface Day { date: string; day: number | string; title_ru: string; sites: string[]; overnight_site: string | null; travel_ru?: string; region: string; elev_sleep: number | null; overnight_loc?: { id: string; name_ru: string; lat: number; lon: number } | null }
   interface Region { id: string; name_ru: string; color: string }
   let { days, sites, regions }: { days: Day[]; sites: Site[]; regions: Region[] } = $props();
 
@@ -16,8 +16,21 @@
   const W = basemap.viewBox[2], H = basemap.viewBox[3];
   const P = (lon: number, lat: number) => ({ x: (lon - lon0) * kx * scale, y: (lat1 - lat) * scale });
 
-  // route: overnight sites in day order; a day without overnight_site (night in Bogotá) is not a stop
-  const stopDays = days.flatMap((d) => (d.overnight_site && siteOf[d.overnight_site] ? [{ d, s: siteOf[d.overnight_site] }] : []));
+  // nights outside the site list (overnight_loc, e.g. a town hotel) become pseudo-sites with no page (loc: true)
+  const locs: Site[] = [];
+  const locOf = (d: Day): Site | null => {
+    const l = d.overnight_loc;
+    if (!l) return null;
+    const id = `loc-${l.id}`;
+    let s = locs.find((x) => x.id === id);
+    if (!s) locs.push((s = { id, name: l.name_ru, name_ru: l.name_ru, region: d.region, lat: l.lat, lon: l.lon, elev_min: d.elev_sleep, elev_max: null, loc: true }));
+    return s;
+  };
+  // route: overnight sites (or overnight_loc) in day order; a day with neither (night in Bogotá) is not a stop
+  const stopDays = days.flatMap((d) => {
+    const s = d.overnight_site ? siteOf[d.overnight_site] : locOf(d);
+    return s ? [{ d, s }] : [];
+  });
   // consecutive stops joined by segments; a day whose travel mentions a flight draws a dotted "flight" segment
   const segs = stopDays.slice(1).map(({ d, s }, i) => ({ a: P(stopDays[i].s.lon, stopDays[i].s.lat), b: P(s.lon, s.lat), flight: /рейс|перел[её]т/i.test(d.travel_ru ?? '') }))
     .filter(({ a, b }) => a.x !== b.x || a.y !== b.y);
@@ -32,7 +45,7 @@
   const siteDays = (id: string) => siteDaysFromDates(days.filter((d) => d.sites.includes(id)).map((d) => d.date));
 
   const R_STOP = 11, R_SITE = 7.5;
-  const markers = sites.map((s) => ({ s, ...P(s.lon, s.lat), stop: dayNums.has(s.id) }))
+  const markers = [...sites, ...locs].map((s) => ({ s, ...P(s.lon, s.lat), stop: dayNums.has(s.id) }))
     .sort((a, b) => Number(a.stop) - Number(b.stop));
 
   // greedy label placement (sized for the phone font, the largest in viewBox units)
@@ -114,7 +127,7 @@
       {#if sd}<br /><span class="muted">в маршруте: {sd}</span>{/if}
       {#if dayNums.has(s.id)}<br /><span class="muted">ночёвки: {fmtDays(dayNums.get(s.id)!)}</span>{/if}
       {#if s.optional}<br /><span class="muted">не в программе тура</span>{/if}
-      <br /><a class="more" href={`${base}sites/${s.id}/`}>подробнее →</a>
+      {#if !s.loc}<br /><a class="more" href={`${base}sites/${s.id}/`}>подробнее →</a>{/if}
     </div>
   {/if}
 </div>
