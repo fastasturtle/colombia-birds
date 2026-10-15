@@ -11,7 +11,7 @@ confusable:
     how: "Сипуха светлая, с белым лицом-сердечком и тёмными глазами"
   - family: nyctib1
     how: "Уратао днём сидит столбиком на пне как продолжение ветки, у него крошечный клюв и огромный рот, но нет лицевого диска"
-route_note: "Совиные вечера: Foothill Screech-Owl, Band-bellied и Crested Owl — цели ночных выходов на Исла-Эскондиде (дни 5–8). Cloud-forest Pygmy-Owl ищем днём у Рио-Ньямби, в Авес-и-Флорес и Ла-Нутрии (дни 17–19); в Ла-Планаде он в списке целей, но отметок там мало. Andean Pygmy-Owl значится для Чикаке (дни 1 и 22), но надёжнее в Чингасе (по желанию); Subtropical Pygmy-Owl, цель Трамплина птиц (день 13), в eBird на маршруте почти не отмечен."
+route_note: "Совиные вечера: Foothill Screech-Owl, Band-bellied и Crested Owl — цели ночных выходов на Исла-Эскондиде (дни 5–8). Cloud-forest Pygmy-Owl ищем днём у Рио-Ньямби, в Авес-и-Флорес и Ла-Нутрии (дни 17–19); в Ла-Планаде он в списке целей, но отметок там мало. Andean Pygmy-Owl значится для Чикаке (день 1), но надёжнее в Чингасе (по желанию); Subtropical Pygmy-Owl, цель Трамплина птиц (день 13), в eBird на маршруте почти не отмечен."
 fact: "На затылке у сычиков два тёмных пятна в светлой оправе, «ложные глаза»: видимо, хищник или стая мелких птиц думает, что сыч смотрит прямо на них."
 en:
   recognize:
@@ -20,7 +20,7 @@ en:
     - "Screech-owls are small with feather ear tufts; pygmy-owls are sparrow-sized, tuftless and often call by day"
     - "Silent flight on soft rounded wings"
     - "Identified by voice first of all: rhythmic hoots, trills and whistles after dark"
-  route_note: "Owling evenings: Foothill Screech-Owl, Band-bellied and Crested Owl are the targets of night walks at Isla Escondida (days 5–8). Cloud-forest Pygmy-Owl is looked for by day at Río Ñambí, Aves y Flórez and La Nutria (days 17–19); it is a listed target at La Planada, but records there are few. Andean Pygmy-Owl is listed for Chicaque (days 1 and 22) but is more reliable at Chingaza (optional); Subtropical Pygmy-Owl, a Trampolín de las Aves target (day 13), has hardly any eBird records on the route."
+  route_note: "Owling evenings: Foothill Screech-Owl, Band-bellied and Crested Owl are the targets of night walks at Isla Escondida (days 5–8). Cloud-forest Pygmy-Owl is looked for by day at Río Ñambí, Aves y Flórez and La Nutria (days 17–19); it is a listed target at La Planada, but records there are few. Andean Pygmy-Owl is listed for Chicaque (day 1) but is more reliable at Chingaza (optional); Subtropical Pygmy-Owl, a Trampolín de las Aves target (day 13), has hardly any eBird records on the route."
   fact: "Pygmy-owls have two dark, pale-rimmed spots on the nape, 'false eyes' that presumably make a predator or a mobbing flock think the owl is looking straight at them."
 ---
 Совиные — ночные хищники с большой головой, лицевым диском и бесшумным полётом; в Колумбии 27 видов. Размеры — от сычика с воробья до крупных сов величиной с ворону и больше (очковая неясыть, виргинский филин). Днём совы спят в густой листве или дупле, и увидеть их обычно помогает гид, знающий дневку, или ночной выход с фонарём. Лицевой диск работает как антенна: собирает звук к ушам, и сова находит добычу в темноте на слух.

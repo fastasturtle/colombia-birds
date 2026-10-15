@@ -32,8 +32,8 @@
 | 20 окт | 18 | Bangsia Lodge; день: Aves y Flórez Lodge | Aves y Flórez Lodge | Brayan Coral |
 | 21 окт | 19 | Утро: Reserva La Nutria; день: Km 42 | Tumaco (?) | Brayan Coral |
 | 22 окт | 20 | Finca Maragrícola, Playa del Morro | Playa del Morro | Brayan Coral |
-| 23 окт | 21 | Утро в Tumaco / Playa del Morro, вечерний рейс Satena TCO–BOG 18:50, переезд в Chicaque | PNN Chicaque | |
-| 24 окт | +1 | Утро в Chicaque (восход 5:40), группа уезжает в аэропорт к 13:00 | Богота | |
+| 23 окт | 21 | Утро в Tumaco / Playa del Morro, вечерний рейс Satena TCO–BOG 18:50 (ночёвка в Chicaque отменена) | Hotel El Dorado, Богота | |
+| 24 окт | +1 | Богота; группа уезжает в аэропорт к 13:00 (утро в Chicaque отменено) | Hotel El Dorado, Богота | |
 | 25 окт | +2 | Свободный день в Боготе, вечером вылет | — | |
 
 ## Богота с гидом Леоном (1–3 октября)

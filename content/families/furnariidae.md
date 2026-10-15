@@ -13,7 +13,7 @@ confusable:
     how: "Муравьеловки скачут в листве, самцы чёрно-серые с белыми пятнами, самки рыжие; у печниковых полы окрашены одинаково"
   - family: troglo1
     how: "Крапивники мельче, хвост короткий и часто задран, на крыльях и хвосте тонкие поперечные полоски"
-route_note: "Целевые виды на всей высотной шкале. В Чикаке (дни 1 и 22) — Strong-billed Woodcreeper и эндемик Silvery-throated Spinetail; на Трамплине птиц (день 13) — Spectacled Prickletail, хотя шанс на него невелик; на парамо Бордонсильо (день 14) — White-chinned Thistletail. В низинах Путумайо Point-tailed Palmcreeper из пальм мориче — цель Эль-Эскондите (дни 11–12), но у маршрута его отмечают редко."
+route_note: "Целевые виды на всей высотной шкале. В Чикаке (день 1) — Strong-billed Woodcreeper и эндемик Silvery-throated Spinetail; на Трамплине птиц (день 13) — Spectacled Prickletail, хотя шанс на него невелик; на парамо Бордонсильо (день 14) — White-chinned Thistletail. В низинах Путумайо Point-tailed Palmcreeper из пальм мориче — цель Эль-Эскондите (дни 11–12), но у маршрута его отмечают редко."
 fact: "Семейство названо по печникам (Furnarius): их глиняное гнездо похоже на маленькую печь, и Pacific Hornero строит такие на Финке Марагрикола и у Тумако."
 en:
   recognize:
@@ -22,7 +22,7 @@ en:
     - "Spinetails and canasteros are small, with a long ragged graduated tail, and hide in thickets and grass"
     - "Foliage-gleaners and treehunters rummage in dead leaves and epiphytes, often in mixed flocks"
     - "Dry voices: trills, rattles, sharp chips"
-  route_note: "Targets span the whole elevation range. At Chicaque (days 1 and 22), Strong-billed Woodcreeper and the endemic Silvery-throated Spinetail; at Trampolín de las Aves (day 13), Spectacled Prickletail, though the chance is small; on the Bordoncillo páramo (day 14), White-chinned Thistletail. In the Putumayo lowlands, Point-tailed Palmcreeper of moriche palms is a target at El Escondite (days 11–12), but it is rarely reported near the route."
+  route_note: "Targets span the whole elevation range. At Chicaque (day 1), Strong-billed Woodcreeper and the endemic Silvery-throated Spinetail; at Trampolín de las Aves (day 13), Spectacled Prickletail, though the chance is small; on the Bordoncillo páramo (day 14), White-chinned Thistletail. In the Putumayo lowlands, Point-tailed Palmcreeper of moriche palms is a target at El Escondite (days 11–12), but it is rarely reported near the route."
   fact: "The family is named after the horneros (Furnarius), whose mud nest looks like a little oven; Pacific Hornero builds them at Finca Maragrícola and around Tumaco."
 ---
 Печниковые — огромное неотропическое семейство (116 видов в Колумбии), и почти все его члены бурые или рыжие. На маршруте ты встретишь две большие ветви. Древолазы (woodcreepers), которых раньше выделяли в отдельное семейство, лезут по стволам снизу вверх, опираясь на жёсткий хвост, как дятлы; различаются они в основном размером, формой клюва (от короткого клина у Wedge-billed Woodcreeper до серпа у дугоклювов) и пестринами на голове и спине. Вторая ветвь — собственно печниковые: иглохвостки и канастеро прячутся в зарослях и траве, листовики и лесовики (foliage-gleaners, treehunters) роются в сухих листьях и эпифитах, а щетинкохвосты и ксенопсы лазают по веткам, в том числе вниз головой.

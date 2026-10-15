@@ -331,30 +331,27 @@
  {
   "date": "2026-10-23",
   "day": 21,
-  "title_ru": "Тумако, вечерний рейс в Боготу, переезд в Чикаке",
+  "title_ru": "Тумако, вечерний рейс в Боготу",
   "sites": [
    "playa-del-morro",
-   "tumaco",
-   "chicaque"
+   "tumaco"
   ],
-  "overnight": "PNN Chicaque",
+  "overnight": "Богота, Hotel El Dorado",
   "guide": null,
   "region": "pacific_coast",
-  "travel_ru": "Рейс Satena TCO–BOG 18:50, затем 1–1,5 ч до Чикаке",
-  "overnight_site": "chicaque",
-  "elev_sleep": 2300
+  "travel_ru": "Рейс Satena TCO–BOG 18:50, ночёвка в отеле у аэропорта (ночёвка в Чикаке отменена)",
+  "overnight_site": null,
+  "elev_sleep": 2600
  },
  {
   "date": "2026-10-24",
   "day": 22,
-  "title_ru": "Утро в Чикаке, группа уезжает",
-  "sites": [
-   "chicaque"
-  ],
-  "overnight": "Богота",
+  "title_ru": "Богота, группа уезжает",
+  "sites": [],
+  "overnight": "Богота, Hotel El Dorado",
   "guide": null,
   "region": "bogota",
-  "travel_ru": "Восход 5:40; группа выезжает в аэропорт к 13:00",
+  "travel_ru": "Группа выезжает в аэропорт к 13:00; мы остаёмся в Боготе (утро в Чикаке отменено)",
   "overnight_site": null,
   "elev_sleep": 2600
  },

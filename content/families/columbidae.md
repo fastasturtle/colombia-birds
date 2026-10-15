@@ -10,7 +10,7 @@ confusable:
     how: "Попугаи летят стаей с резкими криками, у них крючковатый клюв и часто длинный острый хвост"
   - family: tinami1
     how: "Тинаму крупнее перепелиной горлицы, почти без хвоста и с тонкой длинной шеей"
-route_note: "6 целевых видов: эндемичная Tolima Dove в Эль-Энканто и Ла-Дримофиле (дни 2–4), Lined Quail-Dove в Чикаке (дни 1 и 22), Pallid Dove и Ecuadorian Ground Dove на Км 42 (день 19), Croaking Ground Dove на Финке Марагрикола и у Тумако (дни 19–21) и редкая Sapphire Quail-Dove в Исла-Эскондиде (дни 5–9), где её почти не регистрируют."
+route_note: "6 целевых видов: эндемичная Tolima Dove в Эль-Энканто и Ла-Дримофиле (дни 2–4), Lined Quail-Dove в Чикаке (день 1), Pallid Dove и Ecuadorian Ground Dove на Км 42 (день 19), Croaking Ground Dove на Финке Марагрикола и у Тумако (дни 19–21) и редкая Sapphire Quail-Dove в Исла-Эскондиде (дни 5–9), где её почти не регистрируют."
 fact: "Голуби выкармливают птенцов «птичьим молоком» — творожистым секретом зоба, который вырабатывают и самец, и самка."
 en:
   recognize:
@@ -18,7 +18,7 @@ en:
     - "Fast direct flight, with a loud wing clap on take-off"
     - "Ground doves are small and shuffle along roads and fields; quail-doves walk the forest floor"
     - "Pigeons (Patagioenas) sit on treetops and give themselves away with deep rhythmic cooing"
-  route_note: "6 target species: the endemic Tolima Dove at El Encanto and La Drymophila (days 2–4), Lined Quail-Dove at Chicaque (days 1 and 22), Pallid Dove and Ecuadorian Ground Dove at Km 42 (day 19), Croaking Ground Dove at Finca Maragrícola and around Tumaco (days 19–21), and the rare Sapphire Quail-Dove at Isla Escondida (days 5–9), where it is hardly ever recorded."
+  route_note: "6 target species: the endemic Tolima Dove at El Encanto and La Drymophila (days 2–4), Lined Quail-Dove at Chicaque (day 1), Pallid Dove and Ecuadorian Ground Dove at Km 42 (day 19), Croaking Ground Dove at Finca Maragrícola and around Tumaco (days 19–21), and the rare Sapphire Quail-Dove at Isla Escondida (days 5–9), where it is hardly ever recorded."
   fact: "Pigeons feed their chicks on 'crop milk', a curd-like secretion of the crop produced by both male and female."
 ---
 Голубиные — семейство, знакомое всем по сизому голубю, но в колумбийском списке 38 видов (два из них залётные), от крошечных земляных горлиц до крупных лесных голубей. Большинство держится на виду: Eared Dove и Ruddy Ground Dove встретятся в каждом посёлке, а на верхушках деревьев в горах сидят стайки Band-tailed Pigeon. Интереснее скрытные виды: перепелиные горлицы, которые ходят по лесной подстилке, как маленькие куры, и выходят на тропу только в тишине раннего утра.
