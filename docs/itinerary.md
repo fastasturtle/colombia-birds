@@ -24,7 +24,7 @@
 | 12 окт | 10 | Playa Rica | Puerto Asís | Diego Rocha |
 | 13 окт | 11 | Puerto Asís, переезд в El Escondite | El Escondite | Diego Rocha |
 | 14 окт | 12 | El Escondite Reserva Natural | El Escondite | Diego Rocha |
-| 15 окт | 13 | Trampolín de las Aves, переезд в Sibundoy | Posada Villa Beatriz | Diego Rocha |
+| 15 окт | 13 | Окрестности Mocoa (по факту; план был Trampolín de las Aves и переезд в Sibundoy) | Отель в Mocoa | Diego Rocha |
 | 16 окт | 14 | Páramo Bordoncillo, Laguna La Cocha, переезд в La Planada | Reserva Natural La Planada | Diego Rocha |
 | 17 окт | 15 | Reserva Natural La Planada | Reserva Natural La Planada | Brayan Coral |
 | 18 окт | 16 | Утро: La Planada; день: переезд в Aves y Flórez Lodge | Aves y Flórez Lodge | Brayan Coral |
