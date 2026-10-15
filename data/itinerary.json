@@ -189,28 +189,14 @@
  {
   "date": "2026-10-14",
   "day": 12,
-  "title_ru": "Эль-Эскондите",
+  "title_ru": "Окрестности Мокоа, переезд в Мокоа",
   "sites": [
    "el-escondite"
-  ],
-  "overnight": "El Escondite",
-  "guide": "Diego Rocha",
-  "region": "putumayo",
-  "travel_ru": "Без переездов",
-  "overnight_site": "el-escondite",
-  "elev_sleep": 400
- },
- {
-  "date": "2026-10-15",
-  "day": 13,
-  "title_ru": "Окрестности Мокоа",
-  "sites": [
-   "trampolin-aves"
   ],
   "overnight": "Отель в Мокоа",
   "guide": "Diego Rocha",
   "region": "putumayo",
-  "travel_ru": "Бёрдинг в окрестностях Мокоа; ночёвка в отеле в Мокоа, переезд в Сибундой перенесён (план изменён по факту)",
+  "travel_ru": "Бёрдинг в окрестностях Мокоа, вечером переезд в отель в Мокоа (вместо второй ночи в Эль-Эскондите; план изменён по факту)",
   "overnight_site": null,
   "overnight_loc": {
    "id": "mocoa",
@@ -219,6 +205,21 @@
    "lon": -76.647
   },
   "elev_sleep": 600
+ },
+ {
+  "date": "2026-10-15",
+  "day": 13,
+  "title_ru": "Трамплин птиц, переезд в Сибундой",
+  "sites": [
+   "trampolin-aves",
+   "sibundoy"
+  ],
+  "overnight": "Posada Villa Beatriz",
+  "guide": "Diego Rocha",
+  "region": "putumayo",
+  "travel_ru": "Мокоа – Сан-Франсиско по горной дороге, подъём с 600 до 2 100+ м",
+  "overnight_site": "sibundoy",
+  "elev_sleep": 2100
  },
  {
   "date": "2026-10-16",
