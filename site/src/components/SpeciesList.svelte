@@ -29,6 +29,8 @@
       tr: trTok[i] ? decodeTr(trTok[i], trFlat) : null,
     };
   });
+  /** per row: the normalised species-only search key (no family names), to rank species-name hits first */
+  const qs = items.map((s) => normQ(searchKey([s.ru, s.en, s.ea, s.sci])));
 
   let u = $state<Narrow>({ ...EMPTY_NARROW });
   let ready = $state(false);
@@ -46,16 +48,20 @@
     timer = setTimeout(() => writeNarrow('', snap), 300);
   });
 
-  /** indices of the items that pass, in list order */
+  /** indices of the items that pass, in display order: with a search, rows whose species names match come first and
+   * rows that match only by family name after (each part in list order; «Coot» puts the coots above the other rails);
+   * without one, list order. The query is normalised as in makePass. */
   let shown = $derived.by(() => {
-    const pass = makePass($filter, $state.snapshot(u) as Narrow), out: number[] = [];
-    for (let i = 0; i < rows.length; i++) if (pass(rows[i])) out.push(i);
-    return out;
+    const pass = makePass($filter, $state.snapshot(u) as Narrow), out: number[] = [], fam: number[] = [];
+    const t = u.q.trim().toLowerCase().replace(/ё/g, 'е');
+    for (let i = 0; i < rows.length; i++) if (pass(rows[i])) (!t || qs[i].includes(t) ? out : fam).push(i);
+    return fam.length ? out.concat(fam) : out;
   });
   /** the first LIMIT of them: the rows on screen */
   let vis = $derived(new Set(shown.slice(0, LIMIT)));
-  /* Rendered rows: every item that has been on screen since load (at first the first LIMIT, as rendered on the server),
-   * in list order; the ones not in `vis` are hidden. A filter change then only flips `hidden` on rows instead of
+  /* Rendered rows: every item that has been on screen since load (at first the first LIMIT, as rendered on the server):
+   * the visible ones first in `shown` order, then the rest, hidden, in list order. The each block is keyed, so a
+   * reorder moves the existing nodes. A filter change then only flips `hidden` on rows instead of
    * destroying and recreating up to LIMIT rows with their <img>. Rows never shown before are built GROW at a time, the
    * rest in the following frames, so one tap never builds hundreds of rows in one task. */
   const GROW = 40;
@@ -68,7 +74,8 @@
     for (const i of vis) if (!ever[i]) { if (added < GROW) { ever[i] = 1; added++; } else { more = true; break; } }
     if (more && !growing) { growing = true; afterPaint(() => { growing = false; grow++; }); }
     const out: number[] = [];
-    for (let i = 0; i < ever.length; i++) if (ever[i]) out.push(i);
+    for (const i of vis) if (ever[i]) out.push(i);
+    for (let i = 0; i < ever.length; i++) if (ever[i] && !vis.has(i)) out.push(i);
     return out;
   });
 </script>
