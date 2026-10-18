@@ -1,0 +1,10 @@
+{
+ "_comment": "Hybrids seen on the trip that get their own species-like entry (docs/DECISIONS.md row 22). common.checklist() adds each with `source: hybrid`: family/order from the first parent (an ACO record), no ACO status (status codes []), IUCN null, not endemic. `parents`: scientific names of the two parent species (both in the list); build writes their slugs as `parents` in the species file and index entry. eBird lists hybrids under category `hybrid` (step `ebird` fetches cat=species,hybrid). `inaturalist_id`: the iNaturalist hybrid taxon (there is no Wikidata item), used for the iNaturalist link and by step `photos`. `note`: the taxonomy_note of the species page (Russian).",
+ "species": {
+  "Myioborus ornatus x melanocephalus": {
+   "parents": ["Myioborus ornatus", "Myioborus melanocephalus"],
+   "inaturalist_id": 542870,
+   "note": "Гибрид белолицей (M. ornatus) и очковой (M. melanocephalus) канделит, не вид: в eBird это отдельный таксон категории «гибрид». Ареалы родителей смыкаются на юго-западе Колумбии и севере Эквадора (Нариньо и запад Путумайо, Карчи и Сукумбиос), где лежит широкая, около 200 км, зона гибридизации. В списке ACO 2022 гибридов нет; запись добавлена, потому что Аня отметила его на маршруте 15 октября 2026 года."
+  }
+ }
+}

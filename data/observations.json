@@ -930,7 +930,7 @@
    "location": "Vía San Francisco - el Pepino - Villa Garzon, San Francisco CO-Департамент Путумайо 1.13854, -76.84584",
    "location_id": "L78625471",
    "lon": -76.846,
-   "n_species": 6,
+   "n_species": 7,
    "observers": 1,
    "protocol": "traveling",
    "site": null,
@@ -8679,6 +8679,25 @@
     "trampolin-aves",
     "la-planada"
    ]
+  },
+  "myioborus-ornatus-x-melanocephalus": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402635896",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    }
+   ],
+   "sites": []
   },
   "myiodynastes-hemichrysus": {
    "days": [
@@ -16605,10 +16624,10 @@
    },
    "2026-10-15": {
     "checklists": 8,
-    "lifers": 21,
-    "new": 21,
-    "observations": 76,
-    "species": 65
+    "lifers": 22,
+    "new": 22,
+    "observations": 77,
+    "species": 66
    },
    "2026-10-16": {
     "checklists": 3,
@@ -16735,26 +16754,17 @@
   },
   "checklists": 61,
   "days": 18,
-  "lifers": 439,
-  "observations": 1093,
+  "lifers": 440,
+  "observations": 1094,
   "off_site": {
    "checklists": 14,
-   "lifers": 31,
-   "new": 35,
-   "observations": 121,
-   "species": 81
+   "lifers": 32,
+   "new": 36,
+   "observations": 122,
+   "species": 82
   },
-  "species": 454
+  "species": 455
  },
  "trip_start": "2026-10-01",
- "unmatched": [
-  {
-   "dates": [
-    "2026-10-15"
-   ],
-   "n": 1,
-   "name": "Белолицая x Очковая канделита (гибрид)",
-   "sci": "Myioborus ornatus x melanocephalus"
-  }
- ]
+ "unmatched": []
 }

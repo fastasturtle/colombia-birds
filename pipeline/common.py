@@ -300,7 +300,9 @@ def checklist() -> dict[str, dict]:
     `species` that ACO lacks (`source: clements2025`, docs/DECISIONS.md row 19), shaped like ACO records and
     keyed by normalised scientific name. Family/order of an added species come from its `split_from` taxon or,
     for a species that is not a split (`split_from: null`, e.g. a range-edge species ACO lacks), from an ACO
-    species of the same genus."""
+    species of the same genus. Hybrids seen on the trip (mappings/hybrids.json, `source: hybrid`, DECISIONS row 22)
+    are added the same way, family/order from their first parent, with no ACO status (`status.codes` []) and
+    `parents` (scientific names)."""
     aco = read_json(SOURCES / "aco.json")["species"]
     out = {k: {**v, "source": "aco2022"} for k, v in aco.items()}
     for k, fix in (read_json(MAPPINGS / "aco_fixes.json") or {}).items():
@@ -336,6 +338,25 @@ def checklist() -> dict[str, dict]:
             "status_avendano_2017": None,
             "source": "clements2025",
             "split_from": x.get("split_from"),
+            "clements_note": x.get("note"),
+        }
+    hybrids = (read_json(MAPPINGS / "hybrids.json") or {}).get("species", {})
+    for sci, x in hybrids.items():
+        parent = aco[norm_sci(x["parents"][0])]
+        out[norm_sci(sci)] = {
+            **{k: None for k in ("authorship", "gbif_key", "habitat_aco", "iucn", "libro_rojo", "migration_note",
+                                 "name_en_aco", "source_id", "status_avendano_2017", "split_from")},
+            "endemic": False,
+            "family": parent["family"],
+            "genus": sci.split()[0],
+            "introduced": False,
+            "is_marine": False,
+            "order": parent["order"],
+            "sci_name": sci,
+            "status": {"codes": [], "raw": None, "uncertain": False},
+            "source": "hybrid",
+            "parents": x["parents"],
+            "inaturalist_id": x.get("inaturalist_id"),
             "clements_note": x.get("note"),
         }
     return out

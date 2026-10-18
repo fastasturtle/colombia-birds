@@ -28,8 +28,9 @@ Sources, merged per checklist (Submission ID):
 Matching:
 - taxon -> species slug: the scientific name with parentheticals ("Columba livia (Feral Pigeon)") and bracketed
   groups ("Cyanocorax yncas [yncas Group]") stripped, a trinomial cut to its binomial, then exact match against
-  data/species_index.json `sci`. Generic taxa (spuhs "sp.", hybrids " x ", slashes "/") and names not in the index
-  go to `unmatched`.
+  data/species_index.json `sci`. A name that is itself an index `sci` (after stripping) matches first: hybrids with
+  their own entry (pipeline/mappings/hybrids.json, `source: hybrid`, e.g. "Myioborus ornatus x melanocephalus").
+  Other generic taxa (spuhs "sp.", hybrids " x ", slashes "/") and names not in the index go to `unmatched`.
 - checklist -> site (data/sites.json):
     1. its Location ID is one of the site's `ebird_hotspots`;
     2. else a site of that itinerary day (day sites + overnight site) whose name (a part of it without generic words,
@@ -305,7 +306,9 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
     for r in rows:
         cl = checklists[r["Submission ID"]]
         raw = (r.get("Scientific Name") or "").strip()
-        name = species_name(raw)
+        # a taxon of the index as written comes first (hybrids with their own entry, mappings/hybrids.json),
+        # only then the binomial of a species (generic taxa: None)
+        name = strip_name(raw) if norm_sci(strip_name(raw)) in by_sci else species_name(raw)
         slug = by_sci.get(norm_sci(name)) if name else None
         if name:
             taxa_per_cl[cl["id"]].add(name)
