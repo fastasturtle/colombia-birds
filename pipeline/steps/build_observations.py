@@ -12,7 +12,18 @@ Two modes:
       then builds as below. (Also: `uv run python steps/build_observations.py --import <path>`.)
 
   uv run python run.py observations
-      Builds data/observations.json and data/sources/observations_report.md from those committed sources only.
+      Builds data/observations.json and data/sources/observations_report.md from the committed sources only.
+
+Sources, merged per checklist (Submission ID):
+  colombia_2026.csv   the manual export (above): the richest rows (protocol, effort, comments, breeding codes, media);
+                      the only source of checklists before the trip report's period (Anya's five of 1-2 Oct 2026)
+  trip_report.csv     written every 2 hours by step `ebird_trip` (fetch_ebird_trip.py) from the public eBird Trip
+                      Report, same header; adds the checklists the export does not have (yet)
+  The export's rows win for a Submission ID present in both. A trip-report checklist with another Submission ID but
+  the same date, time and Location ID as an export checklist is the same outing under a new id (deleted and entered
+  again, or a shared copy accepted) and is skipped too; such pairs are listed in the report. `--import` rewrites only
+  the export files; the trip-report files belong to `ebird_trip`. trip_report_state.json gives `fetched` (the last
+  `ebird_trip` run that brought changes) and the report ids. Either CSV may be missing (not both).
 
 Matching:
 - taxon -> species slug: the scientific name with parentheticals ("Columba livia (Feral Pigeon)") and bracketed
@@ -36,9 +47,13 @@ Matching:
 - lifer: the normalised name is not in life_list_before_trip.json.
 
 data/observations.json:
-  {observer, source, exported, trip_start,
-   checklists: [{id, date, time, site, day, location, location_id, lat, lon, protocol, duration_min, distance_km,
-                 observers, comments, n_species, passing (only when true)}]  sorted by date, time
+  {observer, source, exported (max Date of the export), trip_start, fetched (UTC ISO of the trip-report state, or null),
+   sources: {export: {exported, checklists} or null,
+             trip_report: {ids, fetched, checklists (in the report), added (used, not in the export),
+                           duplicates: [{id, same_as}]} or null},
+   checklists: [{id, date, time, site, day, location, location_id, lat, lon, protocol ("unknown" for a trip-report
+                 checklist fetched without the API key), duration_min, distance_km, observers, comments, n_species,
+                 source ("export" | "trip_report"), passing (only when true)}]  sorted by date, time
    species: {slug: {first, lifer, n_checklists, sites, days, obs: [{cl, date, time, site, count, details}]}}
    unmatched: [{sci, name, n, dates}]
    stats: {species, lifers, checklists, observations, days,
@@ -66,6 +81,8 @@ from common import DATA, PIPELINE, SOURCES, log, norm_sci, read_json, write_json
 SRC = PIPELINE / "sources" / "ebird"
 TRIP_CSV = SRC / "colombia_2026.csv"
 LIFE_JSON = SRC / "life_list_before_trip.json"
+TRIP_REPORT_CSV = SRC / "trip_report.csv"
+TRIP_STATE = SRC / "trip_report_state.json"
 OUT = DATA / "observations.json"
 REPORT = SOURCES / "observations_report.md"
 
@@ -217,6 +234,33 @@ def import_export(path: Path, trip_start: str) -> None:
         f"{len(life)} species before {trip_start} -> {rel(LIFE_JSON)}")
 
 
+# ---------- merge of the two sources ----------
+
+def merge_sources(export_rows: list[dict], trip_rows: list[dict]) -> tuple[list[dict], dict]:
+    """Export rows + trip-report rows of checklists the export lacks, each row tagged `_source`.
+
+    Returns (rows, info): info = {checklists (trip-report checklists), added (their ids used), duplicates
+    [{id, same_as}] (same date, time and Location ID as an export checklist under another id: skipped)}."""
+    exp_ids = {r["Submission ID"] for r in export_rows}
+    visit = {(r.get("Date"), parse_time(r.get("Time")), (r.get("Location ID") or "").strip()): r["Submission ID"]
+             for r in export_rows}
+    added, dups, skip = [], [], set()
+    for r in trip_rows:
+        sid = r["Submission ID"]
+        if sid in exp_ids or sid in skip or sid in added:
+            continue
+        same = visit.get((r.get("Date"), parse_time(r.get("Time")), (r.get("Location ID") or "").strip()))
+        if same:
+            skip.add(sid)
+            dups.append({"id": sid, "same_as": same})
+        else:
+            added.append(sid)
+    keep = set(added)
+    rows = [{**r, "_source": "export"} for r in export_rows] + \
+           [{**r, "_source": "trip_report"} for r in trip_rows if r["Submission ID"] in keep]
+    return rows, {"checklists": len({r["Submission ID"] for r in trip_rows}), "added": added, "duplicates": dups}
+
+
 # ---------- build ----------
 
 def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict], itinerary: list[dict],
@@ -242,6 +286,7 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
             "protocol": protocol(r.get("Protocol")), "duration_min": num(r.get("Duration (Min)"), int),
             "distance_km": num(r.get("Distance Traveled (km)")), "observers": num(r.get("Number of Observers"), int),
             "comments": (r.get("Checklist Comments") or "").strip() or None,
+            "source": r.get("_source") or "export",
         }
         if cl["lat"] is not None:
             cl["lat"] = round(cl["lat"], 5)
@@ -339,6 +384,21 @@ def plural(n: int, one: str, few: str, many: str) -> str:
     return one if m10 == 1 and m100 != 11 else few if 2 <= m10 <= 4 and not 12 <= m100 <= 14 else many
 
 
+def trip_report_lines(obs: dict) -> list[str]:
+    """Report lines on the share of the eBird trip report (step `ebird_trip`) among the checklists."""
+    tr = (obs.get("sources") or {}).get("trip_report")
+    if not tr:
+        return ["- Отчёт поездки eBird (шаг `ebird_trip`): нет данных, все чеклисты из выгрузки"]
+    n = len(tr["added"])
+    lines = [f"- Отчёт поездки eBird (шаг `ebird_trip`, отчёт {', '.join(map(str, tr['ids']))}, обновлён {tr['fetched'] or '?'}): "
+             f"{tr['checklists']} {plural(tr['checklists'], 'чеклист', 'чеклиста', 'чеклистов')} Ани, из них только в отчёте "
+             f"(нет в выгрузке) {n}" + (f": {', '.join(tr['added'])}" if n else "")]
+    if tr["duplicates"]:
+        lines.append("- Пропущены как повтор чеклиста выгрузки (та же дата, время и локация, другой id): "
+                     + ", ".join(f"{d['id']} = {d['same_as']}" for d in tr["duplicates"]))
+    return lines
+
+
 def report(obs: dict, sites: list[dict], itinerary: list[dict]) -> str:
     name = {s["id"]: s.get("name_ru") or s["name"] for s in sites}
     st = obs["stats"]
@@ -348,7 +408,8 @@ def report(obs: dict, sites: list[dict], itinerary: list[dict]) -> str:
         f"- Видов (сопоставлено с базой сайта): {st['species']}, из них новых для Ани (лайферов): {st['lifers']}",
         f"- Чеклистов: {st['checklists']}, дней: {st['days']}, записей: {st['observations']}; "
         f"проездом (у локации не в её день маршрута): {sum(1 for c in obs['checklists'] if c.get('passing'))}",
-        f"- Не сопоставлено таксонов: {len(obs['unmatched'])}", "",
+        f"- Не сопоставлено таксонов: {len(obs['unmatched'])}",
+        *trip_report_lines(obs), "",
         "## По дням", "",
         "Видов: всё, что видели в этот день / на этой локации. Впервые в туре: виды, впервые встреченные в туре именно "
         "здесь; лайферы считаются только среди них (в день и на локации первой встречи), поэтому столбцы «Впервые в "
@@ -401,20 +462,34 @@ def main() -> None:
     trip_start = trip_start_date(itinerary)
     if imp:
         import_export(Path(imp).expanduser().resolve(), trip_start)
-    if not TRIP_CSV.exists() or not LIFE_JSON.exists():
-        sys.exit(f"no {TRIP_CSV} / {LIFE_JSON}: run `run.py observations --import <MyEBirdData.csv>` first")
-    _, rows = read_csv(TRIP_CSV.read_text(encoding="utf-8"))
+    if not LIFE_JSON.exists() or not (TRIP_CSV.exists() or TRIP_REPORT_CSV.exists()):
+        sys.exit(f"no {LIFE_JSON} or neither {TRIP_CSV.name} nor {TRIP_REPORT_CSV.name}: "
+                 f"run `run.py observations --import <MyEBirdData.csv>` first")
+    export_rows = read_csv(TRIP_CSV.read_text(encoding="utf-8"))[1] if TRIP_CSV.exists() else []
+    trip_rows = read_csv(TRIP_REPORT_CSV.read_text(encoding="utf-8"))[1] if TRIP_REPORT_CSV.exists() else []
+    trip_rows = [r for r in trip_rows if (r.get("Date") or "") >= trip_start]
+    rows, merge = merge_sources(export_rows, trip_rows)
     life_doc = read_json(LIFE_JSON)
     if life_doc.get("before") != trip_start:
         log(f"warning: life list is 'before {life_doc.get('before')}', the itinerary starts {trip_start}; re-import the export")
+    exported = life_doc.get("exported") or ""
     obs = build(rows, set(life_doc["species"]), read_json(DATA / "species_index.json"), read_json(DATA / "sites.json"),
-                itinerary, trip_start, life_doc.get("exported") or "")
+                itinerary, trip_start, exported)
+    state = read_json(TRIP_STATE) if TRIP_REPORT_CSV.exists() else None
+    fetched = (state or {}).get("fetched_at")
+    obs["fetched"] = fetched
+    obs["sources"] = {
+        "export": {"exported": exported, "checklists": len({r["Submission ID"] for r in export_rows})} if export_rows else None,
+        "trip_report": {"ids": [int(i) for i in (state or {}).get("reports") or {}], "fetched": fetched, **merge}
+        if TRIP_REPORT_CSV.exists() else None,
+    }
     write_json(OUT, obs)
     write_text(REPORT, report(obs, read_json(DATA / "sites.json"), itinerary))
     st = obs["stats"]
     log(f"observations: {st['species']} species ({st['lifers']} lifers), {st['checklists']} checklists on {st['days']} days, "
         f"{len(obs['unmatched'])} unmatched taxa, {sum(1 for c in obs['checklists'] if c['site'] is None)} checklists without a site, "
-        f"{sum(1 for c in obs['checklists'] if c.get('passing'))} passing -> {rel(OUT)}")
+        f"{sum(1 for c in obs['checklists'] if c.get('passing'))} passing; {len(merge['added'])} checklists only from the trip "
+        f"report, {len(merge['duplicates'])} skipped as re-submitted duplicates -> {rel(OUT)}")
 
 
 if __name__ == "__main__":

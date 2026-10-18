@@ -30,7 +30,7 @@ const dur = (m: number | null) => (m == null ? null : m >= 60 ? `${Math.floor(m 
       <li>
         <span class="t">{on === 'site' && (routeDates.has(c.date) ? <a href={`${base}days/${c.date}/`}>{fmtDateRu(c.date, false)}</a> : fmtDateRu(c.date, false))}{on === 'site' && c.time && ', '}{c.time ?? ''}{c.passing && <span class="pz" title="Рядом с локацией, но не в её день маршрута: проезжали мимо">проездом</span>}</span>
         {on === 'day' && <span class="p">{c.site ? <a href={`${base}sites/${c.site}/`}>{checklistPlace(c)}</a> : checklistPlace(c)}</span>}
-        <span class="muted m">{[PROTOCOL_RU[c.protocol] ?? c.protocol, dur(c.duration_min), `${c.n_species} ${plural(c.n_species, 'вид', 'вида', 'видов')}`].filter(Boolean).join(' · ')}</span>
+        <span class="muted m">{[c.protocol === 'unknown' ? '' : PROTOCOL_RU[c.protocol] ?? c.protocol,dur(c.duration_min), `${c.n_species} ${plural(c.n_species, 'вид', 'вида', 'видов')}`].filter(Boolean).join(' · ')}</span>
         <a class="e" href={`https://ebird.org/checklist/${c.id}`} target="_blank" rel="noopener" title="Чеклист в eBird">eBird ↗</a>
       </li>
     ))}

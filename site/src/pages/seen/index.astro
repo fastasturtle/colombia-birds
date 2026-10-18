@@ -38,6 +38,14 @@ const groups = [...new Set(rows.map((r) => r.sp.first))].sort().reverse()
   .map((date) => ({ date, rows: rows.filter((r) => r.sp.first === date).sort((a, b) => a.s.taxon_order - b.s.taxon_order) }));
 const nDays = st?.days ?? 0;
 const exported = o?.exported ? fmtDateRu(o.exported, false) : '';
+// last trip-report fetch (step ebird_trip) in Bogotá time: '18 октября, 13:11'
+const fetchedRu = (() => {
+  if (!o?.fetched) return '';
+  const t = new Date(o.fetched);
+  if (Number.isNaN(t.getTime())) return '';
+  const [d, hm] = t.toLocaleString('sv-SE', { timeZone: 'America/Bogota', hour12: false }).split(' ');
+  return `${fmtDateRu(d, false)}, ${hm.slice(0, 5)}`;
+})();
 const lastCl = lastChecklist();
 const lastClRu = lastCl && lastCl.date !== o?.exported ? `${fmtDateRu(lastCl.date, false)}${lastCl.time ? `, ${lastCl.time}` : ''}` : '';
 const dayCell = (date: string) => {
@@ -114,7 +122,7 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.lifers, 0)
           </ul>
         </>
       )}
-      <p class="muted small foot-n">По чеклистам {o.observer === 'Аня' ? 'Ани' : o.observer} в eBird, выгрузка от {exported}{lastClRu && <>, последний чеклист {lastClRu}</>}.</p>
+      <p class="muted small foot-n">По чеклистам {o.observer === 'Аня' ? 'Ани' : o.observer} в eBird{fetchedRu ? <>: обновлено {fetchedRu} (отчёт поездки), выгрузка от {exported}</> : <>, выгрузка от {exported}</>}{lastClRu && <>{fetchedRu ? '; ' : ', '}последний чеклист {lastClRu}</>}.</p>
     </>
   )}
 </Base>

@@ -4,6 +4,8 @@ Run: `cd pipeline && uv run python tests/test_build_observations.py` (plain asse
 """
 from __future__ import annotations
 
+import csv
+import io
 import json
 import sys
 import tempfile
@@ -124,6 +126,87 @@ def test_passing():
     rep = bo.report(obs, SITES, itin)
     assert "| 3 (из них 1 проездом) |" in rep
     assert "[P1]" in rep.split("## Чеклисты проездом")[1].split("##")[0]
+
+
+def test_merge_trip_report():
+    """Export rows win per Submission ID; trip-report rows add missing checklists; a re-submitted copy is skipped."""
+    head = ["Submission ID", "Common Name", "Scientific Name", "Count", "Location ID", "Location", "Latitude", "Longitude",
+            "Date", "Time", "Protocol", "Checklist Comments"]
+    def row(sid, sci, count, loc_id, date, time, protocol="", comments=""):
+        return dict(zip(head, [sid, "", sci, count, loc_id, "Hotspot Alpha", "4.0", "-74.0", date, time, protocol, comments]))
+    export = [row("E1", "Avis prima", "2", "L100", "2026-10-02", "06:14 AM", "eBird - Traveling Count", "Из выгрузки"),
+              row("E1", "Avis secunda", "1", "L100", "2026-10-02", "06:14 AM", "eBird - Traveling Count", "Из выгрузки"),
+              row("E2", "Avis tertia", "1", "L100", "2026-10-03", "10:25 AM", "eBird - Stationary Count")]
+    trip = [row("E1", "Avis prima", "5", "L100", "2026-10-02", "06:14 AM"),     # same id: the export's rows win
+            row("E1", "Avis tertia", "1", "L100", "2026-10-02", "06:14 AM"),
+            row("T1", "Avis tertia", "X", "L100", "2026-10-04", "07:00 AM"),    # only in the trip report: added
+            row("T1", "Avis prima", "3", "L100", "2026-10-04", "07:00 AM"),
+            row("T2", "Avis tertia", "1", "L100", "2026-10-03", "10:25 AM")]    # E2 under a new id: skipped
+    rows, info = bo.merge_sources(export, trip)
+    assert info == {"checklists": 3, "added": ["T1"], "duplicates": [{"id": "T2", "same_as": "E2"}]}
+    assert [(r["Submission ID"], r["_source"]) for r in rows] == [("E1", "export"), ("E1", "export"), ("E2", "export"),
+                                                                ("T1", "trip_report"), ("T1", "trip_report")]
+    obs = bo.build(rows, {"Avis prima"}, INDEX, SITES, ITIN, "2026-10-01", "2026-10-03")
+    cls = {c["id"]: c for c in obs["checklists"]}
+    assert list(cls) == ["E1", "E2", "T1"]
+    assert cls["E1"]["source"] == "export" and cls["E1"]["comments"] == "Из выгрузки" and cls["E1"]["n_species"] == 2
+    assert cls["T1"]["source"] == "trip_report" and cls["T1"]["protocol"] == "unknown" and cls["T1"]["site"] == "alpha"
+    sp = obs["species"]
+    assert [o["count"] for o in sp["avis-prima"]["obs"]] == [2, 3]  # E1 keeps the export's count, not the report's 5
+    assert sp["avis-tertia"]["first"] == "2026-10-03" and sp["avis-tertia"]["n_checklists"] == 2
+    assert obs["stats"]["checklists"] == 3
+    # only a trip report (no export yet): every checklist from it
+    rows2, info2 = bo.merge_sources([], trip)
+    assert info2["added"] == ["E1", "T1", "T2"] and {r["_source"] for r in rows2} == {"trip_report"}
+    # report lines on the trip report's share
+    obs["sources"] = {"export": {"exported": "2026-10-03", "checklists": 2},
+                      "trip_report": {"ids": [579125], "fetched": "2026-10-18T18:00:00Z", **info}}
+    rep = bo.report(obs, SITES, ITIN)
+    assert "отчёт 579125, обновлён 2026-10-18T18:00:00Z): 3 чеклиста Ани, из них только в отчёте (нет в выгрузке) 1: T1" in rep
+    assert "T2 = E2" in rep
+
+
+def test_main_writes_sources_and_fetched():
+    """main(): both CSVs merged, `fetched` from the trip-report state, `sources` block, per-checklist `source`."""
+    saved = (bo.TRIP_CSV, bo.LIFE_JSON, bo.TRIP_REPORT_CSV, bo.TRIP_STATE, bo.OUT, bo.REPORT, bo.DATA)
+    with tempfile.TemporaryDirectory() as td:
+        d = Path(td)
+        (d / "data").mkdir()
+        (d / "data" / "itinerary.json").write_text(json.dumps(ITIN))
+        (d / "data" / "sites.json").write_text(json.dumps(SITES))
+        (d / "data" / "species_index.json").write_text(json.dumps(INDEX))
+        bo.DATA, bo.OUT, bo.REPORT = d / "data", d / "data" / "observations.json", d / "data" / "report.md"
+        bo.TRIP_CSV, bo.LIFE_JSON = d / "colombia_2026.csv", d / "life.json"
+        bo.TRIP_REPORT_CSV, bo.TRIP_STATE = d / "trip_report.csv", d / "state.json"
+        try:
+            bo.import_export(FIX, "2026-10-02")
+            header, rows = bo.read_csv(bo.TRIP_CSV.read_text())
+            extra = {**rows[0], "Submission ID": "S9", "Date": "2026-10-04", "Time": "05:00 PM", "Protocol": ""}
+            pre = {**rows[0], "Submission ID": "S0", "Date": "2026-09-30"}  # before the trip: ignored
+            buf = io.StringIO()
+            w = csv.DictWriter(buf, fieldnames=header, lineterminator="\n")
+            w.writeheader()
+            w.writerows([rows[0], extra, pre])
+            bo.TRIP_REPORT_CSV.write_text(buf.getvalue())
+            bo.TRIP_STATE.write_text(json.dumps({"fetched_at": "2026-10-18T18:00:00Z", "reports": {"579125": {}}}))
+            sys.argv = ["build_observations.py"]
+            bo.main()
+            obs = json.loads(bo.OUT.read_text())
+            assert obs["fetched"] == "2026-10-18T18:00:00Z" and obs["exported"] == "2026-10-04"
+            tr = obs["sources"]["trip_report"]
+            assert tr["ids"] == [579125] and tr["added"] == ["S9"] and tr["checklists"] == 2
+            assert obs["sources"]["export"] == {"exported": "2026-10-04", "checklists": 4}
+            src = {c["id"]: c["source"] for c in obs["checklists"]}
+            assert src.pop("S9") == "trip_report" and set(src.values()) == {"export"}
+            assert "S0" not in src
+            # without the trip-report files: as before, fetched null
+            bo.TRIP_REPORT_CSV.unlink()
+            bo.main()
+            obs = json.loads(bo.OUT.read_text())
+            assert obs["fetched"] is None and obs["sources"]["trip_report"] is None
+            assert {c["source"] for c in obs["checklists"]} == {"export"}
+        finally:
+            bo.TRIP_CSV, bo.LIFE_JSON, bo.TRIP_REPORT_CSV, bo.TRIP_STATE, bo.OUT, bo.REPORT, bo.DATA = saved
 
 
 if __name__ == "__main__":

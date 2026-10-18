@@ -67,7 +67,14 @@
   workflow `.github/workflows/weather.yml` (05:00 Боготы, шаг `weather`, коммит + деплой). Вручную: `uv run python run.py weather`
   или Actions → weather → Run workflow. Ночёвка вне `data/sites.json` (отель в городе): поле дня
   `overnight_loc` `{id, name_ru, lat, lon}` в `data/itinerary.json` (высота из `elev_sleep`), без него — Богота. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
-- Наблюдения в туре (что уже увидели): Аня присылает новую выгрузку eBird («Download my data», `MyEBirdData.csv`).
+- Наблюдения в туре (что уже увидели) обновляются сами: workflow `.github/workflows/observations.yml` каждые 2 часа
+  запускает `run.py ebird_trip observations` — шаг `ebird_trip` берёт новые чеклисты Ани из публичного отчёта поездки
+  eBird (`pipeline/sources/ebird/trip_reports.json` → `trip_report.csv`), `observations` сливает их с выгрузкой
+  (выгрузка главнее по `Submission ID`), коммит и деплой только при изменениях. Вручную:
+  `uv run python run.py ebird_trip observations` или Actions → observations → Run workflow. Без секрета
+  `EBIRD_API_KEY` из отчёта приходят только виды и численность, поэтому ручная выгрузка остаётся нужна: комментарии,
+  коды гнездования, протокол и длительность, а также чеклисты 1–2 октября (до начала отчёта, только в выгрузке).
+  Выгрузка: Аня присылает новую выгрузку eBird («Download my data», `MyEBirdData.csv`).
   Положить её вне репозитория (это личная история локаций по всему миру, **не коммитить**) и выполнить
   `cd pipeline && uv run python run.py observations --import <путь к MyEBirdData.csv>`: шаг перепишет
   `pipeline/sources/ebird/colombia_2026.csv` (только строки CO-* с начала тура) и `life_list_before_trip.json`

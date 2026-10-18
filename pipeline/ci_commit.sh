@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Commit the pipeline's outputs (data/, docs/research/hotspots-check.md, pipeline/mappings/) on top of
-# the remote branch and push, WITHOUT touching the working tree, HEAD or the index of the checkout.
+# Commit the pipeline's outputs (data/, docs/research/hotspots-check.md, pipeline/mappings/,
+# pipeline/sources/ebird/ = the eBird trip report CSV and state of step ebird_trip) on top of the remote branch and push, WITHOUT touching the working tree, HEAD or the index of the checkout.
 # Safe to run while run.py is still writing: used every 20 minutes during a CI run and once at the end.
 #
 #   pipeline/ci_commit.sh "commit message"
@@ -27,7 +27,7 @@ set -uo pipefail
 msg=${1:?commit message}
 branch=${BRANCH:-${GITHUB_REF_NAME:?BRANCH or GITHUB_REF_NAME}}
 base=${BASE_SHA:?BASE_SHA}
-paths=(data docs/research/hotspots-check.md pipeline/mappings)
+paths=(data docs/research/hotspots-check.md pipeline/mappings pipeline/sources/ebird)
 
 cd "$(git rev-parse --show-toplevel)" || exit 1
 export GIT_AUTHOR_NAME=colombia-birds-bot GIT_AUTHOR_EMAIL=colombia-birds-bot@users.noreply.github.com

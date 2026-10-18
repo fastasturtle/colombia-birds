@@ -10,6 +10,19 @@ species list, ✓ marks, «Наши наблюдения» on species pages, «�
 comes from Anya's personal eBird export, through the pipeline step `observations`
 (`pipeline/steps/build_observations.py`, docstring = the spec). Read `AGENTS.md` first.
 
+**There is also an automatic path.** Every 2 hours `.github/workflows/observations.yml` runs
+`run.py ebird_trip observations`: step `ebird_trip` (`pipeline/steps/fetch_ebird_trip.py`) pulls Anya's checklists
+from the group's public eBird Trip Report (config `pipeline/sources/ebird/trip_reports.json`) into
+`pipeline/sources/ebird/trip_report.csv`, and `observations` merges it with the export (the export wins per
+Submission ID; the trip report adds the checklists the export lacks). So new checklists reach the site without
+an export; the export is still worth importing for comments, breeding codes, protocol/effort (without the
+`EBIRD_API_KEY` secret the trip report gives only species and counts) and for 1–2 Oct, before the report starts.
+After an import nothing else is needed: the import rewrites only the export files, and the trip-report-only
+checklists come back in the same `observations` build and every scheduled run. Do not commit
+`trip_report.csv` / `trip_report_state.json` by hand; they belong to the workflow. «Why is a checklist missing?»:
+check `data/sources/observations_report.md` (the trip report line and skipped re-submitted duplicates) and the
+latest Actions → observations run.
+
 ## What the owner gives you
 
 A zip (`ebird_<uuid>.zip`, usually in the uploads directory) or a bare `MyEBirdData.csv`: eBird «Download my
@@ -83,6 +96,9 @@ directory, keep your scripts elsewhere, run any Python that reads them with `pyt
    git commit -m "data: observations from Anya's eBird export of <exported date>"
    git push -u origin main
    ```
+   If the push is rejected because the scheduled `observations` workflow committed meanwhile, `git pull --rebase`;
+   on a conflict in `data/observations.json` / the report take either side and re-run
+   `uv run python run.py observations` (it rebuilds both from the sources), then continue.
    Check `git status` before committing: the raw export or the zip must not be staged. If a species was added
    or `data/sites.json` changed, those commits go first (or in the same push).
 
@@ -102,5 +118,6 @@ directory, keep your scripts elsewhere, run any Python that reads them with `pyt
   inflate the lifer count. The report's `exported` date and the `before` list size (565 species in the
   2026-10-08 export) are the tell.
 - Tests: `cd pipeline && uv run python tests/test_build_observations.py` (fixture under `tests/fixtures/observations/`,
-  invented rows). Run them after any change to the step.
+  invented rows) and `uv run python tests/test_fetch_ebird_trip.py` (captured trip-report responses under
+  `tests/fixtures/ebird_trip/`). Run them after any change to the steps.
 - Offline pack: no registration needed, every HTML page is picked up automatically.
