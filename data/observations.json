@@ -1067,16 +1067,16 @@
    "comments": null,
    "date": "2026-10-18",
    "day": "2026-10-18",
-   "distance_km": null,
-   "duration_min": null,
+   "distance_km": 1.043,
+   "duration_min": 155,
    "id": "S403474616",
    "lat": 1.137,
    "location": "Reserva Natural El Bosque",
    "location_id": "L9355309",
    "lon": -77.958,
    "n_species": 37,
-   "observers": null,
-   "protocol": "unknown",
+   "observers": 5,
+   "protocol": "traveling",
    "site": "la-planada",
    "source": "trip_report",
    "time": "06:19"
@@ -1101,7 +1101,7 @@
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-18T18:17:49Z",
+ "fetched": "2026-10-18T18:22:35Z",
  "observer": "Аня",
  "source": "eBird, личная выгрузка",
  "sources": {
@@ -1115,7 +1115,7 @@
    ],
    "checklists": 55,
    "duplicates": [],
-   "fetched": "2026-10-18T18:17:49Z",
+   "fetched": "2026-10-18T18:22:35Z",
    "ids": [
     579125
    ]
@@ -1224,7 +1224,7 @@
      "cl": "S403474616",
      "count": 3,
      "date": "2026-10-18",
-     "details": null,
+     "details": "2 Male and female",
      "site": "la-planada",
      "time": "06:19"
     }
@@ -2129,7 +2129,7 @@
      "cl": "S403474616",
      "count": 2,
      "date": "2026-10-18",
-     "details": null,
+     "details": "Also seen yesterday",
      "site": "la-planada",
      "time": "06:19"
     }
@@ -6692,7 +6692,7 @@
      "cl": "S403474616",
      "count": 1,
      "date": "2026-10-18",
-     "details": null,
+     "details": "Voice",
      "site": "la-planada",
      "time": "06:19"
     }
@@ -6990,7 +6990,7 @@
      "cl": "S403474616",
      "count": 1,
      "date": "2026-10-18",
-     "details": null,
+     "details": "Voice",
      "site": "la-planada",
      "time": "06:19"
     }
@@ -11799,7 +11799,7 @@
      "cl": "S403474616",
      "count": 1,
      "date": "2026-10-18",
-     "details": null,
+     "details": "Young male",
      "site": "la-planada",
      "time": "06:19"
     }
