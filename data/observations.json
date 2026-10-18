@@ -624,7 +624,7 @@
    "location": "Sendero Ecológico Playa Rica",
    "location_id": "L8651662",
    "lon": -76.477,
-   "n_species": 62,
+   "n_species": 60,
    "observers": 1,
    "protocol": "traveling",
    "site": "playa-rica",
@@ -646,9 +646,383 @@
    "protocol": "traveling",
    "site": "puerto-asis",
    "time": "15:44"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-13",
+   "day": "2026-10-13",
+   "distance_km": 0.127,
+   "duration_min": 56,
+   "id": "S402225648",
+   "lat": 0.534,
+   "location": "Lagos Km 6 Via Santana - Puerto Asis",
+   "location_id": "L4411170",
+   "lon": -76.527,
+   "n_species": 34,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "puerto-asis",
+   "time": "05:42"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-13",
+   "day": "2026-10-13",
+   "distance_km": 0.431,
+   "duration_min": 62,
+   "id": "S402046775",
+   "lat": 0.492,
+   "location": "Turpial Amazónico - Bosque Madre Vieja Río Putumayo",
+   "location_id": "L8844823",
+   "lon": -76.49,
+   "n_species": 23,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "puerto-asis",
+   "time": "07:03"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-13",
+   "day": "2026-10-13",
+   "distance_km": 3.16,
+   "duration_min": 112,
+   "id": "S402225634",
+   "lat": 0.795,
+   "location": "El Escondite Reserva Natural",
+   "location_id": "L17054356",
+   "lon": -76.584,
+   "n_species": 19,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "el-escondite",
+   "time": "16:23"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-13",
+   "day": "2026-10-13",
+   "distance_km": 0.599,
+   "duration_min": 58,
+   "id": "S402389350",
+   "lat": 0.795,
+   "location": "El Escondite Reserva Natural",
+   "location_id": "L17054356",
+   "lon": -76.584,
+   "n_species": 1,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "el-escondite",
+   "time": "18:30"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-14",
+   "day": "2026-10-14",
+   "distance_km": 0.546,
+   "duration_min": 60,
+   "id": "S402389325",
+   "lat": 0.795,
+   "location": "El Escondite Reserva Natural",
+   "location_id": "L17054356",
+   "lon": -76.584,
+   "n_species": 7,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "el-escondite",
+   "time": "05:40"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-14",
+   "day": "2026-10-14",
+   "distance_km": 1.564,
+   "duration_min": 148,
+   "id": "S402389331",
+   "lat": 0.795,
+   "location": "El Escondite Reserva Natural",
+   "location_id": "L17054356",
+   "lon": -76.584,
+   "n_species": 46,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "el-escondite",
+   "time": "08:43"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-14",
+   "day": "2026-10-14",
+   "distance_km": 1.229,
+   "duration_min": 156,
+   "id": "S402389337",
+   "lat": 1.126,
+   "location": "Vereda Rumiyaco",
+   "location_id": "L3708909",
+   "lon": -76.665,
+   "n_species": 43,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "15:08"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 0.095,
+   "duration_min": 25,
+   "id": "S402636708",
+   "lat": 1.085,
+   "location": "Río Dorado",
+   "location_id": "L6481549",
+   "lon": -76.673,
+   "n_species": 11,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "05:53"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 1.275,
+   "duration_min": 153,
+   "id": "S402636527",
+   "lat": 1.083,
+   "location": "Trampolin de Las Aves--Mirador del Río Pepino",
+   "location_id": "L6217449",
+   "lon": -76.73,
+   "n_species": 30,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "trampolin-aves",
+   "time": "06:48"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 0.962,
+   "duration_min": 64,
+   "id": "S402636312",
+   "lat": 1.081,
+   "location": "Trampolin de Las Aves",
+   "location_id": "L6310214",
+   "lon": -76.737,
+   "n_species": 7,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "trampolin-aves",
+   "time": "09:50"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 0.098,
+   "duration_min": 15,
+   "id": "S402636302",
+   "lat": 1.068,
+   "location": "Trampolin de Las Aves--Filo de Hambre",
+   "location_id": "L6473704",
+   "lon": -76.744,
+   "n_species": 2,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "trampolin-aves",
+   "time": "11:54"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": null,
+   "duration_min": 30,
+   "id": "S402636305",
+   "lat": 1.066,
+   "location": "Reserva Los Monos",
+   "location_id": "L3790928",
+   "lon": -76.778,
+   "n_species": 8,
+   "observers": 1,
+   "protocol": "stationary",
+   "site": "trampolin-aves",
+   "time": "12:34"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 1.049,
+   "duration_min": 73,
+   "id": "S402636022",
+   "lat": 1.084,
+   "location": "Vía San Francisco - Mocoa - El Silencio",
+   "location_id": "L27412365",
+   "lon": -76.834,
+   "n_species": 11,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "trampolin-aves",
+   "time": "14:58"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 0.48,
+   "duration_min": 32,
+   "id": "S402635896",
+   "lat": 1.139,
+   "location": "Vía San Francisco - el Pepino - Villa Garzon, San Francisco CO-Департамент Путумайо 1.13854, -76.84584",
+   "location_id": "L78625471",
+   "lon": -76.846,
+   "n_species": 6,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "16:43"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-15",
+   "day": "2026-10-15",
+   "distance_km": 0.994,
+   "duration_min": 34,
+   "id": "S402635899",
+   "lat": 1.139,
+   "location": "Vía San Francisco - el Pepino - Villa Garzon, San Francisco CO-Департамент Путумайо 1.13854, -76.84584",
+   "location_id": "L78625471",
+   "lon": -76.846,
+   "n_species": 1,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "17:18"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-16",
+   "day": "2026-10-16",
+   "distance_km": 0.289,
+   "duration_min": 80,
+   "id": "S402828585",
+   "lat": 1.213,
+   "location": "Posadas Turísticas Villa Beatriz",
+   "location_id": "L32795990",
+   "lon": -76.926,
+   "n_species": 21,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "sibundoy",
+   "time": "06:02"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-16",
+   "day": "2026-10-16",
+   "distance_km": 0.844,
+   "duration_min": 132,
+   "id": "S402842786",
+   "lat": 1.15,
+   "location": "Páramo Bordoncillo",
+   "location_id": "L3662791",
+   "lon": -77.096,
+   "n_species": 11,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "paramo-bordoncillo",
+   "time": "09:49"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-16",
+   "day": "2026-10-16",
+   "distance_km": 0.125,
+   "duration_min": 33,
+   "id": "S402842803",
+   "lat": 1.137,
+   "location": "Vía Laguna de La Cocha 1-17–1-53, Сан-Хуан-де-Пасто CO-Департамент Нарино 1.13748, -77.15348",
+   "location_id": "L78655084",
+   "lon": -77.153,
+   "n_species": 8,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "13:41"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-17",
+   "day": "2026-10-17",
+   "distance_km": 0.71,
+   "duration_min": 142,
+   "id": "S403455006",
+   "lat": 1.137,
+   "location": "Reserva Natural El Bosque",
+   "location_id": "L9355309",
+   "lon": -77.958,
+   "n_species": 31,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "06:14"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-17",
+   "day": "2026-10-17",
+   "distance_km": 1.42,
+   "duration_min": 174,
+   "id": "S403454998",
+   "lat": 1.137,
+   "location": "Reserva Natural El Bosque",
+   "location_id": "L9355309",
+   "lon": -77.958,
+   "n_species": 17,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "09:29"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-17",
+   "day": "2026-10-17",
+   "distance_km": 1.161,
+   "duration_min": 205,
+   "id": "S403463641",
+   "lat": 1.137,
+   "location": "Reserva Natural El Bosque",
+   "location_id": "L9355309",
+   "lon": -77.958,
+   "n_species": 30,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "14:14"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-18",
+   "day": "2026-10-18",
+   "distance_km": 0.135,
+   "duration_min": 17,
+   "id": "S403463652",
+   "lat": 1.137,
+   "location": "Reserva Natural El Bosque",
+   "location_id": "L9355309",
+   "lon": -77.958,
+   "n_species": 1,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "time": "10:25"
   }
  ],
- "exported": "2026-10-12",
+ "exported": "2026-10-18",
  "observer": "Аня",
  "source": "eBird, личная выгрузка",
  "species": {
@@ -675,11 +1049,12 @@
   },
   "adelomyia-melanogenys": {
    "days": [
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398851342",
@@ -688,10 +1063,19 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "chicaque"
+    "chicaque",
+    "trampolin-aves"
    ]
   },
   "aglaeactis-cupripennis": {
@@ -715,14 +1099,43 @@
     "monserrate"
    ]
   },
+  "aglaiocercus-coelestis": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
   "aglaiocercus-kingii": {
    "days": [
     "2026-10-03",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15",
+    "2026-10-16"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S398851342",
@@ -739,10 +1152,36 @@
      "details": null,
      "site": null,
      "time": "07:05"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S402636305",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "chicaque"
+    "chicaque",
+    "trampolin-aves",
+    "sibundoy"
    ]
   },
   "amazilia-tzacatl": {
@@ -938,13 +1377,81 @@
     "sumapaz"
    ]
   },
+  "anas-georgica": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842803",
+     "count": 11,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
+    }
+   ],
+   "sites": []
+  },
+  "andigena-hypoglauca": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842786",
+     "count": 6,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "paramo-bordoncillo"
+   ]
+  },
+  "andigena-laminirostris": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403454998",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    }
+   ],
+   "sites": []
+  },
   "anisognathus-igniventris": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-16"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S398369085",
@@ -961,11 +1468,69 @@
      "details": null,
      "site": "monserrate",
      "time": "14:47"
+    },
+    {
+     "cl": "S402842786",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
     }
    ],
    "sites": [
     "sumapaz",
-    "monserrate"
+    "monserrate",
+    "paramo-bordoncillo"
+   ]
+  },
+  "anisognathus-lacrymosus": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402635896",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    }
+   ],
+   "sites": []
+  },
+  "anisognathus-somptuosus": {
+   "days": [
+    "2026-10-15",
+    "2026-10-17"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402636305",
+     "count": 4,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    },
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "anthocephala-berlepschi": {
@@ -995,11 +1560,13 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S399294003",
@@ -1056,13 +1623,38 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
     "el-encanto",
     "finca-discosura",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "aratinga-weddellii": {
@@ -1090,11 +1682,12 @@
    "days": [
     "2026-10-03",
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S398851320",
@@ -1119,12 +1712,21 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 3,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
     "chicaque",
     "el-escondite",
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis"
    ]
   },
   "ardea-ibis": {
@@ -1133,11 +1735,14 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 6,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S399290219",
@@ -1186,11 +1791,45 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 10,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 15,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 100,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
     "el-encanto",
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "arremon-assimilis": {
@@ -1308,6 +1947,27 @@
     "sumapaz"
    ]
   },
+  "asthenes-fuliginosa": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842786",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "paramo-bordoncillo"
+   ]
+  },
   "atlapetes-albofrenatus": {
    "days": [
     "2026-10-03"
@@ -1327,6 +1987,46 @@
    ],
    "sites": [
     "chicaque"
+   ]
+  },
+  "atlapetes-crassus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
+  },
+  "atlapetes-leucopis": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636302",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "11:54"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "atlapetes-pallidinucha": {
@@ -1383,11 +2083,12 @@
   "atticora-fasciata": {
    "days": [
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400221515",
@@ -1404,11 +2105,20 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
    "sites": [
     "el-escondite",
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis"
    ]
   },
   "aulacorhynchus-albivitta": {
@@ -1507,11 +2217,12 @@
   "basileuterus-tristriatus": {
    "days": [
     "2026-10-03",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S398851342",
@@ -1528,6 +2239,14 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
@@ -1658,15 +2377,37 @@
     "sumapaz"
    ]
   },
+  "buthraupis-montana": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842786",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "paramo-bordoncillo"
+   ]
+  },
   "butorides-striata": {
    "days": [
     "2026-10-07",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S400221515",
@@ -1699,6 +2440,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
@@ -1713,11 +2462,12 @@
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S400221513",
@@ -1774,12 +2524,29 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389331",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 5,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
     "isla-escondida",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "cacicus-solitarius": {
@@ -1847,11 +2614,12 @@
   },
   "campephilus-melanoleucos": {
    "days": [
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-15"
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400658357",
@@ -1860,10 +2628,19 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:09"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
   },
   "campylopterus-largipennis": {
@@ -1889,11 +2666,12 @@
   },
   "campylorhynchus-turdinus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -1902,6 +2680,14 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -1912,11 +2698,12 @@
    "days": [
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-15"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S400323943",
@@ -1949,6 +2736,14 @@
      "details": null,
      "site": "isla-escondida",
      "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
@@ -1957,11 +2752,12 @@
   },
   "capito-aurovirens": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -1970,21 +2766,31 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "el-escondite"
    ]
   },
   "cardellina-canadensis": {
    "days": [
     "2026-10-03",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S398851342",
@@ -2009,12 +2815,21 @@
      "details": null,
      "site": "finca-discosura",
      "time": "09:10"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
     "chicaque",
     "la-drymophila",
-    "finca-discosura"
+    "finca-discosura",
+    "trampolin-aves"
    ]
   },
   "catamenia-homochroa": {
@@ -2062,11 +2877,14 @@
   "cathartes-aura": {
    "days": [
     "2026-10-03",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851320",
@@ -2083,11 +2901,74 @@
      "details": null,
      "site": "finca-discosura",
      "time": "09:10"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636305",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
     }
    ],
    "sites": [
     "chicaque",
-    "finca-discosura"
+    "finca-discosura",
+    "el-escondite",
+    "trampolin-aves"
+   ]
+  },
+  "celeus-elegans": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402389325",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
+    },
+    {
+     "cl": "S402389331",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "chaetocercus-heliodor": {
@@ -2113,11 +2994,12 @@
   },
   "chaetocercus-mulsant": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-16"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398412874",
@@ -2126,19 +3008,29 @@
      "details": null,
      "site": "monserrate",
      "time": "14:47"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "monserrate"
+    "monserrate",
+    "sibundoy"
    ]
   },
   "chaetura-brachyura": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -2147,20 +3039,30 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "el-escondite"
    ]
   },
   "chaetura-cinereiventris": {
    "days": [
     "2026-10-04",
-    "2026-10-08"
+    "2026-10-08",
+    "2026-10-13"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399294003",
@@ -2177,11 +3079,20 @@
      "details": null,
      "site": "isla-escondida",
      "time": "17:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
     "el-encanto",
-    "isla-escondida"
+    "isla-escondida",
+    "puerto-asis"
    ]
   },
   "chalcostigma-heteropogon": {
@@ -2205,6 +3116,33 @@
     "sumapaz"
    ]
   },
+  "chalcothraupis-ruficervix": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
   "chalybura-buffonii": {
    "days": [
     "2026-10-04"
@@ -2226,14 +3164,77 @@
     "el-encanto"
    ]
   },
+  "chamaepetes-goudotii": {
+   "days": [
+    "2026-10-15",
+    "2026-10-16"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S402828585",
+     "count": 4,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    }
+   ],
+   "sites": [
+    "trampolin-aves",
+    "sibundoy"
+   ]
+  },
+  "chelidoptera-tenebrosa": {
+   "days": [
+    "2026-10-13",
+    "2026-10-14"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 6,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "el-escondite"
+   ]
+  },
   "chionomesa-fimbriata": {
    "days": [
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400221535",
@@ -2258,6 +3259,30 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -2267,11 +3292,12 @@
   },
   "chloroceryle-amazona": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -2288,6 +3314,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
@@ -2315,6 +3349,46 @@
    "sites": [
     "el-escondite"
    ]
+  },
+  "chlorochrysa-calliparaea": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636022",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
+  "chlorochrysa-phoenicotis": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "chlorophanes-spiza": {
    "days": [
@@ -2376,11 +3450,12 @@
   },
   "chlorospingus-flavigularis": {
    "days": [
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-15"
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400658357",
@@ -2389,11 +3464,60 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:09"
+    },
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
+  },
+  "chlorospingus-parvirostris": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636305",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
+  "chlorospingus-semifuscus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "chlorostilbon-gibsoni": {
    "days": [
@@ -2497,6 +3621,25 @@
     "chicaque"
    ]
   },
+  "chroicocephalus-serranus": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842803",
+     "count": 6,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
+    }
+   ],
+   "sites": []
+  },
   "chrysuronia-goudoti": {
    "days": [
     "2026-10-04"
@@ -2522,11 +3665,12 @@
    "days": [
     "2026-10-07",
     "2026-10-08",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-15"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400092465",
@@ -2567,11 +3711,20 @@
      "details": null,
      "site": "isla-escondida",
      "time": "15:08"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
     "finca-discosura",
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
   },
   "cinclodes-albidiventris": {
@@ -2619,11 +3772,13 @@
   "cissopis-leverianus": {
    "days": [
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S400092465",
@@ -2640,6 +3795,22 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
@@ -2823,11 +3994,12 @@
   },
   "colaptes-punctigula": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -2836,10 +4008,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis"
    ]
   },
   "colibri-coruscans": {
@@ -2848,11 +4029,12 @@
     "2026-10-02",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-16"
    ],
    "first": "2026-10-01",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398156622",
@@ -2901,23 +4083,35 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402828585",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
     "monserrate",
     "el-encanto",
-    "la-drymophila"
+    "la-drymophila",
+    "sibundoy"
    ]
   },
   "colibri-cyanotus": {
    "days": [
     "2026-10-02",
     "2026-10-03",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398412874",
@@ -2942,12 +4136,37 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402635896",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    },
+    {
+     "cl": "S402828585",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
     "monserrate",
     "chicaque",
-    "la-drymophila"
+    "la-drymophila",
+    "sibundoy"
    ]
   },
   "colibri-delphinae": {
@@ -3032,11 +4251,12 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S399294003",
@@ -3069,6 +4289,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
    "sites": [
@@ -3078,11 +4306,12 @@
   },
   "conopias-cinchoneti": {
    "days": [
-    "2026-10-08"
+    "2026-10-08",
+    "2026-10-15"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400323943",
@@ -3091,10 +4320,19 @@
      "details": null,
      "site": "isla-escondida",
      "time": "08:10"
+    },
+    {
+     "cl": "S402636527",
+     "count": 3,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
   },
   "contopus-bogotensis": {
@@ -3117,6 +4355,33 @@
    "sites": [
     "el-encanto"
    ]
+  },
+  "contopus-fumigatus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "contopus-sordidulus": {
    "days": [
@@ -3178,11 +4443,14 @@
     "2026-10-05",
     "2026-10-07",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-17"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 11,
+   "n_checklists": 16,
    "obs": [
     {
      "cl": "S398156622",
@@ -3271,6 +4539,46 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 10,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402225634",
+     "count": 10,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 4,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 15,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S403454998",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
@@ -3312,14 +4620,34 @@
     "el-encanto"
    ]
   },
+  "cranioleuca-erythrops": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
+  },
   "crotophaga-ani": {
    "days": [
     "2026-10-06",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399888084",
@@ -3336,6 +4664,14 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389337",
+     "count": 5,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -3406,11 +4742,13 @@
    "days": [
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400323943",
@@ -3435,21 +4773,50 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:13"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "el-escondite",
+    "trampolin-aves"
    ]
   },
   "cyanocorax-violaceus": {
    "days": [
     "2026-10-08",
     "2026-10-09",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S400420957",
@@ -3482,12 +4849,54 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225634",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389325",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 7,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
     "isla-escondida",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite",
+    "trampolin-aves"
    ]
   },
   "cyanocorax-yncas": {
@@ -3573,11 +4982,12 @@
   },
   "dacnis-cayana": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-14"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399582442",
@@ -3586,19 +4996,30 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "el-escondite"
    ]
   },
   "dacnis-flaviventer": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862201",
@@ -3607,10 +5028,35 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 4,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "dacnis-lineata": {
@@ -3636,11 +5082,13 @@
   },
   "daptrius-ater": {
    "days": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400237644",
@@ -3649,10 +5097,27 @@
      "details": null,
      "site": "isla-escondida",
      "time": "16:50"
+    },
+    {
+     "cl": "S402225634",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "el-escondite"
    ]
   },
   "daptrius-chimachima": {
@@ -3688,11 +5153,12 @@
   },
   "dendrocincla-fuliginosa": {
    "days": [
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-13"
    ],
    "first": "2026-10-10",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401009760",
@@ -3709,10 +5175,19 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:26"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "puerto-asis"
    ]
   },
   "dendrocygna-autumnalis": {
@@ -3738,11 +5213,12 @@
   },
   "dendroplex-picus": {
    "days": [
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-13"
    ],
    "first": "2026-10-11",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862211",
@@ -3751,17 +5227,28 @@
      "details": null,
      "site": null,
      "time": "16:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
-   "sites": []
+   "sites": [
+    "puerto-asis"
+   ]
   },
   "diglossa-albilatera": {
    "days": [
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-16"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398851342",
@@ -3770,10 +5257,19 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "chicaque"
+    "chicaque",
+    "sibundoy"
    ]
   },
   "diglossa-caerulescens": {
@@ -3838,11 +5334,12 @@
   },
   "diglossa-glauca": {
    "days": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400092465",
@@ -3851,9 +5348,27 @@
      "details": null,
      "site": null,
      "time": "07:05"
+    },
+    {
+     "cl": "S402636312",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    },
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
     }
    ],
-   "sites": []
+   "sites": [
+    "trampolin-aves"
+   ]
   },
   "diglossa-humeralis": {
    "days": [
@@ -3874,6 +5389,27 @@
    ],
    "sites": [
     "monserrate"
+   ]
+  },
+  "diglossa-lafresnayii": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842786",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "paramo-bordoncillo"
    ]
   },
   "discosura-popelairii": {
@@ -3916,6 +5452,67 @@
    ],
    "sites": [
     "playa-rica"
+   ]
+  },
+  "doryfera-ludovicae": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636312",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
+  "drymophila-striaticeps": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    }
+   ],
+   "sites": []
+  },
+  "dryocopus-lineatus": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "dubusia-taeniata": {
@@ -3972,11 +5569,12 @@
   },
   "egretta-thula": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -3985,10 +5583,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis"
    ]
   },
   "elaenia-flavogaster": {
@@ -4042,14 +5649,87 @@
     "chicaque"
    ]
   },
+  "elaenia-gigas": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
+  "elaenia-pallatangae": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S402842786",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "sibundoy",
+    "paramo-bordoncillo"
+   ]
+  },
+  "ensifera-ensifera": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    }
+   ],
+   "sites": [
+    "sibundoy"
+   ]
+  },
   "eriocnemis-vestita": {
    "days": [
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-16"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S398412874",
@@ -4074,22 +5754,33 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S402842786",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
     }
    ],
    "sites": [
     "monserrate",
-    "chicaque"
+    "chicaque",
+    "paramo-bordoncillo"
    ]
   },
   "eubucco-bourcierii": {
    "days": [
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S399294003",
@@ -4114,11 +5805,36 @@
      "details": "Female and male",
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402636527",
+     "count": 3,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S402636312",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
     "el-encanto",
-    "la-drymophila"
+    "la-drymophila",
+    "trampolin-aves"
    ]
   },
   "eucometis-penicillata": {
@@ -4202,11 +5918,12 @@
   "eudocimus-ruber": {
    "days": [
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400221515",
@@ -4223,6 +5940,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
@@ -4232,11 +5957,13 @@
   },
   "euphonia-chrysopasta": {
    "days": [
-    "2026-10-08"
+    "2026-10-08",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400323943",
@@ -4245,10 +5972,27 @@
      "details": null,
      "site": "isla-escondida",
      "time": "08:10"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
   },
   "euphonia-laniirostris": {
@@ -4297,11 +6041,14 @@
     "2026-10-05",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S399294003",
@@ -4350,11 +6097,36 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:26"
+    },
+    {
+     "cl": "S402389337",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
     "el-encanto",
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
   },
   "falco-rufigularis": {
@@ -4399,6 +6171,27 @@
     "el-encanto"
    ]
   },
+  "forpus-crassirostris": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402046775",
+     "count": 5,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
   "frederickena-fulva": {
    "days": [
     "2026-10-10"
@@ -4430,11 +6223,12 @@
   },
   "fulica-americana": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-16"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398369085",
@@ -4443,19 +6237,47 @@
      "details": null,
      "site": "sumapaz",
      "time": "07:56"
+    },
+    {
+     "cl": "S402842803",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
     }
    ],
    "sites": [
     "sumapaz"
    ]
   },
+  "fulica-ardesiaca": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842803",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
+    }
+   ],
+   "sites": []
+  },
   "galbalcyrhynchus-leucotis": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -4464,19 +6286,29 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "el-escondite"
    ]
   },
   "galbula-pastazae": {
    "days": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400092465",
@@ -4485,9 +6317,19 @@
      "details": null,
      "site": null,
      "time": "07:05"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
-   "sites": []
+   "sites": [
+    "trampolin-aves"
+   ]
   },
   "gallinago-nobilis": {
    "days": [
@@ -4531,13 +6373,33 @@
     "sumapaz"
    ]
   },
+  "geothlypis-semiflava": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
   "geranoaetus-melanoleucus": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-18"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398369085",
@@ -4546,6 +6408,14 @@
      "details": null,
      "site": "sumapaz",
      "time": "07:56"
+    },
+    {
+     "cl": "S403463652",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": null,
+     "time": "10:25"
     }
    ],
    "sites": [
@@ -4663,13 +6533,33 @@
     "sumapaz"
    ]
   },
+  "grallaricula-flavirostris": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    }
+   ],
+   "sites": []
+  },
   "gymnoderus-foetidus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862201",
@@ -4678,10 +6568,40 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
+   ]
+  },
+  "haplophaedia-aureliae": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636305",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "heliangelus-exortis": {
@@ -4759,11 +6679,12 @@
    "days": [
     "2026-10-03",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851320",
@@ -4796,12 +6717,29 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402636312",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    },
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "la-drymophila"
+    "la-drymophila",
+    "trampolin-aves"
    ]
   },
   "hirundo-rustica": {
@@ -4878,11 +6816,12 @@
   },
   "ibycter-americanus": {
    "days": [
-    "2026-10-08"
+    "2026-10-08",
+    "2026-10-14"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400420957",
@@ -4891,6 +6830,14 @@
      "details": null,
      "site": "isla-escondida",
      "time": "17:14"
+    },
+    {
+     "cl": "S402389337",
+     "count": 6,
+     "date": "2026-10-14",
+     "details": "F",
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -4920,11 +6867,12 @@
   },
   "icterus-chrysater": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-16"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399559991",
@@ -4933,10 +6881,19 @@
      "details": "Orchid excursion",
      "site": "el-encanto",
      "time": "08:58"
+    },
+    {
+     "cl": "S402828585",
+     "count": 5,
+     "date": "2026-10-16",
+     "details": "F",
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "sibundoy"
    ]
   },
   "icterus-croconotus": {
@@ -4958,6 +6915,115 @@
    ],
    "sites": [
     "playa-rica"
+   ]
+  },
+  "ictinia-plumbea": {
+   "days": [
+    "2026-10-13",
+    "2026-10-14"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": [
+    "puerto-asis",
+    "el-escondite"
+   ]
+  },
+  "iridosornis-porphyrocephalus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
+  "iridosornis-rufivertex": {
+   "days": [
+    "2026-10-15",
+    "2026-10-16"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402635896",
+     "count": 5,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    },
+    {
+     "cl": "S402842786",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "paramo-bordoncillo"
+   ]
+  },
+  "ixothraupis-guttata": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "ixothraupis-punctata": {
@@ -4992,11 +7058,12 @@
   },
   "ixothraupis-xanthogastra": {
    "days": [
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-14"
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400658357",
@@ -5005,10 +7072,39 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:09"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "jacana-jacana": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
    ]
   },
   "lanio-fulvus": {
@@ -5052,11 +7148,12 @@
   "legatus-leucophaius": {
    "days": [
     "2026-10-05",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399435580",
@@ -5073,20 +7170,30 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "el-encanto",
-    "playa-rica"
+    "playa-rica",
+    "el-escondite"
    ]
   },
   "lepidocolaptes-lacrymiger": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-17"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399821902",
@@ -5095,6 +7202,30 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
@@ -5176,11 +7307,12 @@
   },
   "leptopogon-superciliaris": {
    "days": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-15"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399294003",
@@ -5189,10 +7321,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "13:00"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "trampolin-aves"
    ]
   },
   "leptotila-conoveri": {
@@ -5256,6 +7397,25 @@
     "el-encanto"
    ]
   },
+  "leuconotopicus-fumigatus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
+  },
   "liosceles-thoracicus": {
    "days": [
     "2026-10-10"
@@ -5279,11 +7439,12 @@
   },
   "lophotriccus-pileatus": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-17"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399435580",
@@ -5292,6 +7453,14 @@
      "details": "Voice",
      "site": "el-encanto",
      "time": "06:08"
+    },
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": "H",
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
@@ -5345,13 +7514,54 @@
     "isla-escondida"
    ]
   },
+  "machetornis-rixosa": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
+  "margarornis-stellatus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
   "masius-chrysopterus": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-17"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399435580",
@@ -5360,6 +7570,14 @@
      "details": "Female",
      "site": "el-encanto",
      "time": "06:08"
+    },
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
@@ -5410,11 +7628,12 @@
   },
   "megarynchus-pitangua": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -5431,6 +7650,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
    "sites": [
@@ -5579,13 +7806,33 @@
     "el-encanto"
    ]
   },
+  "metallura-williami": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402635896",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    }
+   ],
+   "sites": []
+  },
   "metopothrix-aurantiaca": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862201",
@@ -5594,6 +7841,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -5669,6 +7924,27 @@
     "el-encanto"
    ]
   },
+  "mionectes-oleagineus": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "el-escondite"
+   ]
+  },
   "mionectes-striaticollis": {
    "days": [
     "2026-10-07"
@@ -5692,11 +7968,12 @@
   },
   "mniotilta-varia": {
    "days": [
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398851342",
@@ -5705,6 +7982,14 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
@@ -5734,11 +8019,12 @@
   },
   "molothrus-oryzivorus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -5747,6 +8033,14 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -5755,11 +8049,13 @@
   },
   "momotus-aequatorialis": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15",
+    "2026-10-16"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399821902",
@@ -5768,10 +8064,28 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402636312",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "la-drymophila"
+    "la-drymophila",
+    "trampolin-aves",
+    "sibundoy"
    ]
   },
   "monasa-morphoeus": {
@@ -5815,11 +8129,12 @@
   "monasa-nigrifrons": {
    "days": [
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-11",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862211",
@@ -5844,12 +8159,40 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
+  },
+  "myadestes-ralloides": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
   },
   "myiarchus-apicalis": {
    "days": [
@@ -5876,11 +8219,12 @@
    "days": [
     "2026-10-07",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S400092465",
@@ -5905,10 +8249,19 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "myiarchus-tuberculifer": {
@@ -5935,11 +8288,13 @@
   "myioborus-miniatus": {
    "days": [
     "2026-10-03",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851342",
@@ -5972,11 +8327,74 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S402636312",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    },
+    {
+     "cl": "S403454998",
+     "count": 4,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
     "chicaque",
-    "el-encanto"
+    "el-encanto",
+    "trampolin-aves"
+   ]
+  },
+  "myiodynastes-hemichrysus": {
+   "days": [
+    "2026-10-15",
+    "2026-10-17"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "myiodynastes-maculatus": {
@@ -6039,6 +8457,25 @@
    "sites": [
     "el-encanto"
    ]
+  },
+  "myiophobus-flavicans": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "myiothlypis-coronata": {
    "days": [
@@ -6115,11 +8552,12 @@
   },
   "myiotriccus-ornatus": {
    "days": [
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-17"
    ],
    "first": "2026-10-10",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401009772",
@@ -6128,6 +8566,22 @@
      "details": null,
      "site": "isla-escondida",
      "time": "10:24"
+    },
+    {
+     "cl": "S403454998",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    },
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
@@ -6137,11 +8591,12 @@
   "myiozetetes-cayanensis": {
    "days": [
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-13"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399294003",
@@ -6158,10 +8613,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "puerto-asis"
    ]
   },
   "myiozetetes-granadensis": {
@@ -6211,11 +8675,14 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S399582442",
@@ -6256,12 +8723,53 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 3,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "myrmelastes-leucostigma": {
@@ -6335,6 +8843,27 @@
     "playa-rica"
    ]
   },
+  "nephelomyias-pulcher": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
   "nyctibius-grandis": {
    "days": [
     "2026-10-12"
@@ -6354,6 +8883,27 @@
    ],
    "sites": [
     "playa-rica"
+   ]
+  },
+  "nyctibius-griseus": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389350",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "18:30"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "ochthoeca-fumicolor": {
@@ -6379,11 +8929,12 @@
   },
   "ocreatus-underwoodii": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-17"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399821902",
@@ -6392,6 +8943,14 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
@@ -6468,11 +9027,13 @@
   "ortalis-guttata": {
    "days": [
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S400092555",
@@ -6497,22 +9058,57 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389325",
+     "count": 4,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
+    },
+    {
+     "cl": "S402389331",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 6,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
     "finca-discosura",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "orthopsittaca-manilatus": {
    "days": [
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-11",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S401862211",
@@ -6529,10 +9125,36 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 7,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402225634",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389325",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "oxypogon-guerinii": {
@@ -6558,11 +9180,12 @@
   },
   "oxyura-ferruginea": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-16"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398369085",
@@ -6571,31 +9194,18 @@
      "details": null,
      "site": "sumapaz",
      "time": "07:56"
+    },
+    {
+     "cl": "S402842803",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
     }
    ],
    "sites": [
     "sumapaz"
-   ]
-  },
-  "pachyramphus-polychopterus": {
-   "days": [
-    "2026-10-12"
-   ],
-   "first": "2026-10-12",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S401862206",
-     "count": 2,
-     "date": "2026-10-12",
-     "details": null,
-     "site": "playa-rica",
-     "time": "06:14"
-    }
-   ],
-   "sites": [
-    "playa-rica"
    ]
   },
   "pachysylvia-hypoxantha": {
@@ -6673,11 +9283,12 @@
   "paroaria-gularis": {
    "days": [
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400221515",
@@ -6694,21 +9305,32 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
     }
    ],
    "sites": [
     "el-escondite",
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis"
    ]
   },
   "patagioenas-cayennensis": {
    "days": [
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-11",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S401862211",
@@ -6733,20 +9355,38 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "patagioenas-fasciata": {
    "days": [
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-16"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398851342",
@@ -6755,20 +9395,30 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S402828585",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "chicaque"
+    "chicaque",
+    "sibundoy"
    ]
   },
   "patagioenas-plumbea": {
    "days": [
     "2026-10-08",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-17"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S400323943",
@@ -6793,10 +9443,39 @@
      "details": null,
      "site": "isla-escondida",
      "time": "15:08"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "patagioenas-speciosa": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "penelope-jacquacu": {
@@ -6883,15 +9562,36 @@
     "isla-escondida"
    ]
   },
+  "pharomachrus-auriceps": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    }
+   ],
+   "sites": []
+  },
   "phimosus-infuscatus": {
    "days": [
     "2026-10-03",
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-13",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S399290219",
@@ -6948,11 +9648,28 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402636708",
+     "count": 20,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
     "chicaque",
-    "el-encanto"
+    "el-encanto",
+    "puerto-asis"
    ]
   },
   "phlegopsis-nigromaculata": {
@@ -7039,11 +9756,12 @@
   "piaya-cayana": {
    "days": [
     "2026-10-03",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-14"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S398851342",
@@ -7060,6 +9778,14 @@
      "details": null,
      "site": "el-encanto",
      "time": "06:08"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -7151,6 +9877,25 @@
     "el-encanto"
    ]
   },
+  "picumnus-squamulatus": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": []
+  },
   "pionites-melanocephalus": {
    "days": [
     "2026-10-10"
@@ -7175,11 +9920,12 @@
   "pionus-chalcopterus": {
    "days": [
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-17"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399294003",
@@ -7196,10 +9942,56 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": "H",
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "pionus-menstruus": {
+   "days": [
+    "2026-10-13",
+    "2026-10-14"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402225634",
+     "count": 4,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "pipraeidea-melanonota": {
@@ -7275,15 +10067,57 @@
     "el-encanto"
    ]
   },
+  "piranga-rubra": {
+   "days": [
+    "2026-10-14",
+    "2026-10-16",
+    "2026-10-17"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S403455006",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": [
+    "sibundoy"
+   ]
+  },
   "pitangus-sulphuratus": {
    "days": [
     "2026-10-05",
     "2026-10-06",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-05",
    "lifer": false,
-   "n_checklists": 4,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S399435580",
@@ -7316,12 +10150,53 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389325",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "poecilotriccus-capitalis": {
@@ -7457,13 +10332,62 @@
    ],
    "sites": []
   },
+  "premnoplex-brunnescens": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S403454998",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
+  "progne-chalybea": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
   "progne-tapera": {
    "days": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-13"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400221515",
@@ -7472,10 +10396,19 @@
      "details": null,
      "site": "el-escondite",
      "time": "12:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 5,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
     }
    ],
    "sites": [
-    "el-escondite"
+    "el-escondite",
+    "puerto-asis"
    ]
   },
   "psarocolius-angustifrons": {
@@ -7486,11 +10419,14 @@
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 10,
+   "n_checklists": 15,
    "obs": [
     {
      "cl": "S399821902",
@@ -7571,6 +10507,46 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 3,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389325",
+     "count": 6,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
+    },
+    {
+     "cl": "S402389331",
+     "count": 10,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402636708",
+     "count": 5,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
+    },
+    {
+     "cl": "S402636527",
+     "count": 4,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
@@ -7578,18 +10554,42 @@
     "finca-discosura",
     "isla-escondida",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite",
+    "trampolin-aves"
+   ]
+  },
+  "psarocolius-bifasciatus": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225634",
+     "count": 12,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "psarocolius-decumanus": {
    "days": [
     "2026-10-04",
     "2026-10-05",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S399294003",
@@ -7622,12 +10622,98 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389337",
+     "count": 8,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
     "el-encanto",
     "puerto-asis"
    ]
+  },
+  "psarocolius-viridis": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225634",
+     "count": 5,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    }
+   ],
+   "sites": [
+    "el-escondite"
+   ]
+  },
+  "pseudocolopteryx-acutipennis": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842803",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
+    }
+   ],
+   "sites": []
+  },
+  "pseudotriccus-pelzelni": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
+  "psittacara-leucophthalmus": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389337",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": []
   },
   "psittacara-wagleri": {
    "days": [
@@ -7652,11 +10738,13 @@
   },
   "pteroglossus-castanotis": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -7665,19 +10753,39 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389331",
+     "count": 4,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "pteroglossus-inscriptus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862206",
@@ -7694,11 +10802,28 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389331",
+     "count": 7,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "pulsatrix-melanota": {
@@ -7733,11 +10858,14 @@
   },
   "pygochelidon-cyanoleuca": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-13",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-06",
    "lifer": false,
-   "n_checklists": 2,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S399821902",
@@ -7754,11 +10882,37 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402636527",
+     "count": 3,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403455006",
+     "count": 8,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
     "la-drymophila",
-    "el-encanto"
+    "el-encanto",
+    "puerto-asis",
+    "trampolin-aves"
    ]
   },
   "pyrocephalus-rubinus": {
@@ -7780,6 +10934,43 @@
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "pyrrhomyias-cinnamomeus": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402636305",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    },
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    },
+    {
+     "cl": "S402635896",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "quiscalus-lugubris": {
@@ -7824,13 +11015,35 @@
     "sumapaz"
    ]
   },
+  "ramphastos-ambiguus": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
   "ramphastos-tucanus": {
    "days": [
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-14"
    ],
    "first": "2026-10-10",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401009760",
@@ -7847,21 +11060,32 @@
      "details": "Flew",
      "site": "isla-escondida",
      "time": "07:26"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "el-escondite"
    ]
   },
   "ramphocelus-carbo": {
    "days": [
     "2026-10-07",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400092555",
@@ -7886,11 +11110,36 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 4,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402225634",
+     "count": 4,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "finca-discosura",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "ramphocelus-dimidiatus": {
@@ -7938,6 +11187,46 @@
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "ramphocelus-flammigerus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 6,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
+  },
+  "ramphocelus-nigrogularis": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "rhytipterna-simplex": {
@@ -7991,14 +11280,37 @@
     "sumapaz"
    ]
   },
+  "rostrhamus-sociabilis": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
   "rupicola-peruvianus": {
    "days": [
     "2026-10-07",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400323951",
@@ -8023,10 +11335,35 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:26"
+    },
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
    ]
   },
   "rupornis-magnirostris": {
@@ -8034,11 +11371,14 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851342",
@@ -8079,12 +11419,59 @@
      "details": null,
      "site": "finca-discosura",
      "time": "09:10"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "finca-discosura"
+    "finca-discosura",
+    "el-escondite",
+    "trampolin-aves"
+   ]
+  },
+  "rynchops-niger": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
    ]
   },
   "saltator-grossus": {
@@ -8189,6 +11576,25 @@
     "el-encanto"
    ]
   },
+  "sayornis-nigricans": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
   "sclerurus-obscurior": {
    "days": [
     "2026-10-09"
@@ -8230,6 +11636,33 @@
    "sites": [
     "chicaque"
    ]
+  },
+  "scytalopus-vicinior": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": "H",
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "serpophaga-cinerea": {
    "days": [
@@ -8314,11 +11747,14 @@
   "setophaga-fusca": {
    "days": [
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398369085",
@@ -8335,22 +11771,77 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    },
+    {
+     "cl": "S402828585",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S403455006",
+     "count": 4,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
     "sumapaz",
-    "chicaque"
+    "chicaque",
+    "trampolin-aves",
+    "sibundoy"
    ]
+  },
+  "setophaga-pitiayumi": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "sicalis-flaveola": {
    "days": [
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S399558710",
@@ -8383,13 +11874,76 @@
      "details": null,
      "site": "el-escondite",
      "time": "12:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "el-encanto",
     "finca-discosura",
-    "el-escondite"
+    "el-escondite",
+    "puerto-asis"
    ]
+  },
+  "sicalis-luteola": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842803",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
+    }
+   ],
+   "sites": []
+  },
+  "snowornis-cryptolophus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "snowornis-subalaris": {
    "days": [
@@ -8464,6 +12018,27 @@
     "sumapaz"
    ]
   },
+  "spizaetus-isidori": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636302",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "11:54"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
   "sporathraupis-cyanocephala": {
    "days": [
     "2026-10-03",
@@ -8502,6 +12077,112 @@
     "chicaque",
     "el-encanto"
    ]
+  },
+  "sporophila-americana": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
+  "sporophila-angolensis": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": [
+    "el-escondite"
+   ]
+  },
+  "sporophila-castaneiventris": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
+  "sporophila-corvina": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
   },
   "sporophila-crassirostris": {
    "days": [
@@ -8548,11 +12229,12 @@
   "sporophila-nigricollis": {
    "days": [
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-14"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S399559991",
@@ -8585,10 +12267,39 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "stelgidopteryx-ruficollis": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "stilpnia-cyanicollis": {
@@ -8597,11 +12308,12 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398851342",
@@ -8650,21 +12362,31 @@
      "details": null,
      "site": "finca-discosura",
      "time": "09:10"
+    },
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "finca-discosura"
+    "finca-discosura",
+    "trampolin-aves"
    ]
   },
   "stilpnia-heinei": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-16"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399582442",
@@ -8673,21 +12395,50 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S402828585",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "sibundoy"
    ]
+  },
+  "stilpnia-larvata": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
   },
   "stilpnia-nigrocincta": {
    "days": [
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-14"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S400323943",
@@ -8712,6 +12463,14 @@
      "details": null,
      "site": "isla-escondida",
      "time": "10:24"
+    },
+    {
+     "cl": "S402389337",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -8777,11 +12536,12 @@
   },
   "streptoprocne-rutila": {
    "days": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-17"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399294003",
@@ -8790,6 +12550,14 @@
      "details": null,
      "site": "el-encanto",
      "time": "13:00"
+    },
+    {
+     "cl": "S403455006",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
@@ -8801,11 +12569,13 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851342",
@@ -8838,11 +12608,28 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S402636022",
+     "count": 3,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    },
+    {
+     "cl": "S403455006",
+     "count": 5,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
     "chicaque",
-    "el-encanto"
+    "el-encanto",
+    "trampolin-aves"
    ]
   },
   "strix-virgata": {
@@ -8951,11 +12738,12 @@
   "synallaxis-azarae": {
    "days": [
     "2026-10-03",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S398851342",
@@ -8972,6 +12760,14 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
@@ -9042,13 +12838,84 @@
     "la-drymophila"
    ]
   },
+  "syrigma-sibilatrix": {
+   "days": [
+    "2026-10-13",
+    "2026-10-16"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    }
+   ],
+   "sites": [
+    "el-escondite",
+    "sibundoy"
+   ]
+  },
+  "tachornis-squamata": {
+   "days": [
+    "2026-10-13",
+    "2026-10-14"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402225634",
+     "count": 3,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "puerto-asis",
+    "el-escondite"
+   ]
+  },
   "tachycineta-albiventer": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -9057,10 +12924,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "el-escondite"
    ]
   },
   "tachyphonus-rufus": {
@@ -9068,11 +12944,13 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-14",
+    "2026-10-17"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S399294003",
@@ -9113,6 +12991,22 @@
      "details": null,
      "site": null,
      "time": "07:05"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
@@ -9142,11 +13036,13 @@
   },
   "tangara-arthus": {
    "days": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399294003",
@@ -9155,10 +13051,35 @@
      "details": null,
      "site": "el-encanto",
      "time": "13:00"
+    },
+    {
+     "cl": "S402636527",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403463641",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "trampolin-aves"
    ]
   },
   "tangara-callophrys": {
@@ -9233,11 +13154,12 @@
   },
   "tangara-chrysotis": {
    "days": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-15"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399294003",
@@ -9246,10 +13168,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "13:00"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "trampolin-aves"
    ]
   },
   "tangara-gyrola": {
@@ -9260,11 +13191,12 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-15"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 9,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S399294003",
@@ -9337,21 +13269,72 @@
      "details": null,
      "site": "isla-escondida",
      "time": "10:24"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
     }
    ],
    "sites": [
     "el-encanto",
     "finca-discosura",
-    "isla-escondida"
+    "isla-escondida",
+    "trampolin-aves"
+   ]
+  },
+  "tangara-icterocephala": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
+  "tangara-labradorides": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
    ]
   },
   "tangara-mexicana": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862201",
@@ -9360,20 +13343,38 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 4,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 4,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "tangara-nigroviridis": {
    "days": [
     "2026-10-03",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S398851342",
@@ -9390,20 +13391,38 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402636305",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    },
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
     }
    ],
    "sites": [
     "chicaque",
-    "la-drymophila"
+    "la-drymophila",
+    "trampolin-aves"
    ]
   },
   "tangara-parzudakii": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-15"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399821902",
@@ -9412,10 +13431,19 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S402636022",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
     }
    ],
    "sites": [
-    "la-drymophila"
+    "la-drymophila",
+    "trampolin-aves"
    ]
   },
   "tangara-schrankii": {
@@ -9515,26 +13543,62 @@
     "isla-escondida"
    ]
   },
-  "taraba-major": {
+  "tangara-xanthocephala": {
    "days": [
-    "2026-10-12"
+    "2026-10-15",
+    "2026-10-17"
    ],
-   "first": "2026-10-12",
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402636022",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "14:58"
+    },
+    {
+     "cl": "S403454998",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
+  "tersina-viridis": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
    "lifer": true,
    "n_checklists": 1,
    "obs": [
     {
-     "cl": "S401862206",
+     "cl": "S402389337",
      "count": 2,
-     "date": "2026-10-12",
+     "date": "2026-10-14",
      "details": null,
-     "site": "playa-rica",
-     "time": "06:14"
+     "site": null,
+     "time": "15:08"
     }
    ],
-   "sites": [
-    "playa-rica"
-   ]
+   "sites": []
   },
   "thalurania-colombica": {
    "days": [
@@ -9660,6 +13724,25 @@
     "isla-escondida"
    ]
   },
+  "thamnophilus-unicolor": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
+  },
   "theristicus-caudatus": {
    "days": [
     "2026-10-06"
@@ -9708,11 +13791,14 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-16"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 8,
+   "n_checklists": 12,
    "obs": [
     {
      "cl": "S399294003",
@@ -9777,6 +13863,38 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 4,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402046775",
+     "count": 4,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389337",
+     "count": 6,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402828585",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
@@ -9784,7 +13902,8 @@
     "finca-discosura",
     "el-escondite",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "sibundoy"
    ]
   },
   "thraupis-palmarum": {
@@ -9792,11 +13911,13 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-06",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398851342",
@@ -9829,13 +13950,38 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 5,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
     "la-drymophila",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "thripadectes-holostictus": {
@@ -9943,6 +14089,45 @@
     "playa-rica"
    ]
   },
+  "tityra-inquisitor": {
+   "days": [
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 3,
+   "obs": [
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402636708",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
+    }
+   ],
+   "sites": [
+    "el-escondite"
+   ]
+  },
   "tityra-semifasciata": {
    "days": [
     "2026-10-06"
@@ -9964,15 +14149,46 @@
     "la-drymophila"
    ]
   },
+  "todirostrum-chrysocrotaphum": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 2,
+   "obs": [
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": [
+    "el-escondite"
+   ]
+  },
   "todirostrum-cinereum": {
    "days": [
     "2026-10-03",
     "2026-10-05",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-14",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851342",
@@ -10005,12 +14221,47 @@
      "details": null,
      "site": null,
      "time": "08:23"
+    },
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto"
    ]
+  },
+  "tolmomyias-poliocephalus": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389337",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    }
+   ],
+   "sites": []
   },
   "tolmomyias-sulphurescens": {
    "days": [
@@ -10040,6 +14291,27 @@
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "tolmomyias-traylori": {
+   "days": [
+    "2026-10-14"
+   ],
+   "first": "2026-10-14",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    }
+   ],
+   "sites": [
+    "el-escondite"
    ]
   },
   "tolmomyias-viridiceps": {
@@ -10084,17 +14356,41 @@
     "playa-rica"
    ]
   },
+  "tringa-solitaria": {
+   "days": [
+    "2026-10-13"
+   ],
+   "first": "2026-10-13",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402225648",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    }
+   ],
+   "sites": [
+    "puerto-asis"
+   ]
+  },
   "troglodytes-musculus": {
    "days": [
     "2026-10-02",
     "2026-10-05",
     "2026-10-07",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-17"
    ],
    "first": "2026-10-02",
    "lifer": false,
-   "n_checklists": 5,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S398369085",
@@ -10135,14 +14431,75 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402046775",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389325",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "05:40"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
     "sumapaz",
     "el-encanto",
     "finca-discosura",
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis",
+    "el-escondite"
    ]
+  },
+  "troglodytes-solstitialis": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
+    }
+   ],
+   "sites": []
   },
   "trogon-collaris": {
    "days": [
@@ -10205,6 +14562,25 @@
     "isla-escondida"
    ]
   },
+  "trogon-personatus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 3,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
+  },
   "trogon-ramonianus": {
    "days": [
     "2026-10-09"
@@ -10230,11 +14606,13 @@
    "days": [
     "2026-10-07",
     "2026-10-08",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S400092555",
@@ -10259,11 +14637,28 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:09"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "finca-discosura",
-    "isla-escondida"
+    "isla-escondida",
+    "el-escondite"
    ]
   },
   "turdus-assimilis": {
@@ -10290,11 +14685,13 @@
   "turdus-fuscater": {
    "days": [
     "2026-10-01",
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-15",
+    "2026-10-16"
    ],
    "first": "2026-10-01",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S398050122",
@@ -10327,11 +14724,54 @@
      "details": null,
      "site": "monserrate",
      "time": "14:47"
+    },
+    {
+     "cl": "S402636312",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "09:50"
+    },
+    {
+     "cl": "S402635896",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "16:43"
+    },
+    {
+     "cl": "S402635899",
+     "count": 2,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "17:18"
+    },
+    {
+     "cl": "S402828585",
+     "count": 4,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S402842786",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
     }
    ],
    "sites": [
     "sumapaz",
-    "monserrate"
+    "monserrate",
+    "trampolin-aves",
+    "sibundoy",
+    "paramo-bordoncillo"
    ]
   },
   "turdus-ignobilis": {
@@ -10339,11 +14779,14 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 12,
    "obs": [
     {
      "cl": "S399294003",
@@ -10400,12 +14843,53 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 6,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "turdus-leucomelas": {
@@ -10461,11 +14945,13 @@
   },
   "tyrannulus-elatus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862201",
@@ -10474,10 +14960,35 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402046775",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "07:03"
+    },
+    {
+     "cl": "S402389331",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "tyrannus-melancholicus": {
@@ -10487,11 +14998,15 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 12,
    "obs": [
     {
      "cl": "S398851342",
@@ -10548,21 +15063,64 @@
      "details": null,
      "site": null,
      "time": "16:44"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
+    },
+    {
+     "cl": "S402389337",
+     "count": 2,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
+    },
+    {
+     "cl": "S402636708",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": null,
+     "time": "05:53"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "finca-discosura"
+    "finca-discosura",
+    "el-escondite",
+    "sibundoy"
    ]
   },
   "tyrannus-tyrannus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -10571,10 +15129,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225634",
+     "count": 1,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "el-escondite",
+     "time": "16:23"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "el-escondite"
    ]
   },
   "uranomitra-franciae": {
@@ -10618,17 +15185,80 @@
     "la-drymophila"
    ]
   },
+  "urochroa-bougueri": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403455006",
+     "count": 2,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    }
+   ],
+   "sites": []
+  },
+  "urochroa-leucura": {
+   "days": [
+    "2026-10-15"
+   ],
+   "first": "2026-10-15",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402636305",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "12:34"
+    }
+   ],
+   "sites": [
+    "trampolin-aves"
+   ]
+  },
+  "uromyias-agilis": {
+   "days": [
+    "2026-10-16"
+   ],
+   "first": "2026-10-16",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S402842786",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    }
+   ],
+   "sites": [
+    "paramo-bordoncillo"
+   ]
+  },
   "vanellus-chilensis": {
    "days": [
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398369085",
@@ -10677,12 +15307,30 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S402225648",
+     "count": 2,
+     "date": "2026-10-13",
+     "details": null,
+     "site": "puerto-asis",
+     "time": "05:42"
+    },
+    {
+     "cl": "S402389331",
+     "count": 3,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "sumapaz",
     "chicaque",
-    "playa-rica"
+    "playa-rica",
+    "puerto-asis",
+    "el-escondite"
    ]
   },
   "veniliornis-affinis": {
@@ -10705,6 +15353,25 @@
    "sites": [
     "isla-escondida"
    ]
+  },
+  "veniliornis-dignus": {
+   "days": [
+    "2026-10-17"
+   ],
+   "first": "2026-10-17",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403463641",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "14:14"
+    }
+   ],
+   "sites": []
   },
   "veniliornis-passerinus": {
    "days": [
@@ -10740,11 +15407,12 @@
    "days": [
     "2026-10-03",
     "2026-10-06",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-16"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S398851342",
@@ -10769,22 +15437,32 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:09"
+    },
+    {
+     "cl": "S402828585",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "isla-escondida"
+    "isla-escondida",
+    "sibundoy"
    ]
   },
   "vireo-olivaceus": {
    "days": [
     "2026-10-05",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-14"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399582442",
@@ -10801,11 +15479,20 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:13"
+    },
+    {
+     "cl": "S402389331",
+     "count": 1,
+     "date": "2026-10-14",
+     "details": null,
+     "site": "el-escondite",
+     "time": "08:43"
     }
    ],
    "sites": [
     "el-encanto",
-    "isla-escondida"
+    "isla-escondida",
+    "el-escondite"
    ]
   },
   "vireolanius-leucotis": {
@@ -10849,11 +15536,12 @@
   },
   "volatinia-jacarina": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-14"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862201",
@@ -10862,6 +15550,14 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S402389337",
+     "count": 4,
+     "date": "2026-10-14",
+     "details": null,
+     "site": null,
+     "time": "15:08"
     }
    ],
    "sites": [
@@ -10974,11 +15670,12 @@
    "days": [
     "2026-10-01",
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-16"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S398050122",
@@ -11011,10 +15708,19 @@
      "details": null,
      "site": null,
      "time": "07:15"
+    },
+    {
+     "cl": "S402828585",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
     }
    ],
    "sites": [
-    "monserrate"
+    "monserrate",
+    "sibundoy"
    ]
   },
   "zentrygon-frenata": {
@@ -11040,11 +15746,13 @@
   },
   "zimmerius-chrysops": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-15",
+    "2026-10-17"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399582442",
@@ -11053,10 +15761,35 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S402636527",
+     "count": 1,
+     "date": "2026-10-15",
+     "details": null,
+     "site": "trampolin-aves",
+     "time": "06:48"
+    },
+    {
+     "cl": "S403455006",
+     "count": 4,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "06:14"
+    },
+    {
+     "cl": "S403454998",
+     "count": 1,
+     "date": "2026-10-17",
+     "details": null,
+     "site": null,
+     "time": "09:29"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "trampolin-aves"
    ]
   },
   "zonotrichia-capensis": {
@@ -11066,11 +15799,12 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-16"
    ],
    "first": "2026-10-01",
    "lifer": true,
-   "n_checklists": 10,
+   "n_checklists": 13,
    "obs": [
     {
      "cl": "S398099985",
@@ -11151,13 +15885,39 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S402828585",
+     "count": 3,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "sibundoy",
+     "time": "06:02"
+    },
+    {
+     "cl": "S402842786",
+     "count": 2,
+     "date": "2026-10-16",
+     "details": null,
+     "site": "paramo-bordoncillo",
+     "time": "09:49"
+    },
+    {
+     "cl": "S402842803",
+     "count": 1,
+     "date": "2026-10-16",
+     "details": null,
+     "site": null,
+     "time": "13:41"
     }
    ],
    "sites": [
     "sumapaz",
     "monserrate",
     "chicaque",
-    "el-encanto"
+    "el-encanto",
+    "sibundoy",
+    "paramo-bordoncillo"
    ]
   }
  },
@@ -11242,10 +16002,52 @@
    },
    "2026-10-12": {
     "checklists": 2,
-    "lifers": 46,
-    "new": 47,
-    "observations": 102,
-    "species": 80
+    "lifers": 44,
+    "new": 45,
+    "observations": 100,
+    "species": 78
+   },
+   "2026-10-13": {
+    "checklists": 4,
+    "lifers": 19,
+    "new": 19,
+    "observations": 77,
+    "species": 63
+   },
+   "2026-10-14": {
+    "checklists": 3,
+    "lifers": 12,
+    "new": 12,
+    "observations": 96,
+    "species": 73
+   },
+   "2026-10-15": {
+    "checklists": 8,
+    "lifers": 21,
+    "new": 21,
+    "observations": 76,
+    "species": 65
+   },
+   "2026-10-16": {
+    "checklists": 3,
+    "lifers": 12,
+    "new": 12,
+    "observations": 40,
+    "species": 36
+   },
+   "2026-10-17": {
+    "checklists": 3,
+    "lifers": 32,
+    "new": 32,
+    "observations": 78,
+    "species": 63
+   },
+   "2026-10-18": {
+    "checklists": 1,
+    "lifers": 0,
+    "new": 0,
+    "observations": 1,
+    "species": 1
    }
   },
   "by_site": {
@@ -11264,12 +16066,12 @@
     "species": 113
    },
    "el-escondite": {
-    "checklists": 1,
-    "lifers": 9,
-    "new": 10,
-    "observations": 14,
+    "checklists": 5,
+    "lifers": 23,
+    "new": 24,
+    "observations": 87,
     "passing_checklists": 1,
-    "species": 14
+    "species": 68
    },
    "finca-discosura": {
     "checklists": 1,
@@ -11299,19 +16101,33 @@
     "observations": 17,
     "species": 17
    },
+   "paramo-bordoncillo": {
+    "checklists": 1,
+    "lifers": 5,
+    "new": 5,
+    "observations": 11,
+    "species": 11
+   },
    "playa-rica": {
     "checklists": 1,
-    "lifers": 35,
-    "new": 36,
-    "observations": 62,
-    "species": 62
+    "lifers": 33,
+    "new": 34,
+    "observations": 60,
+    "species": 60
    },
    "puerto-asis": {
+    "checklists": 3,
+    "lifers": 23,
+    "new": 23,
+    "observations": 97,
+    "species": 70
+   },
+   "sibundoy": {
     "checklists": 1,
-    "lifers": 11,
-    "new": 11,
-    "observations": 40,
-    "species": 40
+    "lifers": 2,
+    "new": 2,
+    "observations": 21,
+    "species": 21
    },
    "sumapaz": {
     "checklists": 1,
@@ -11319,21 +16135,37 @@
     "new": 30,
     "observations": 32,
     "species": 32
+   },
+   "trampolin-aves": {
+    "checklists": 5,
+    "lifers": 18,
+    "new": 18,
+    "observations": 58,
+    "species": 51
    }
   },
-  "checklists": 38,
-  "days": 12,
-  "lifers": 341,
-  "observations": 690,
+  "checklists": 60,
+  "days": 18,
+  "lifers": 435,
+  "observations": 1056,
   "off_site": {
-   "checklists": 9,
-   "lifers": 18,
-   "new": 22,
-   "observations": 52,
-   "species": 37
+   "checklists": 18,
+   "lifers": 63,
+   "new": 67,
+   "observations": 200,
+   "species": 137
   },
-  "species": 356
+  "species": 450
  },
  "trip_start": "2026-10-01",
- "unmatched": []
+ "unmatched": [
+  {
+   "dates": [
+    "2026-10-15"
+   ],
+   "n": 1,
+   "name": "Белолицая x Очковая канделита (гибрид)",
+   "sci": "Myioborus ornatus x melanocephalus"
+  }
+ ]
 }
