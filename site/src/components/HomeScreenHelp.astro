@@ -1,0 +1,69 @@
+---
+/**
+ * «Как добавить сайт на экран «Домой»»: two spoilers (iPhone / Safari, Android / Chrome) with Russian screenshots.
+ * Rendered on /offline/ below OfflinePack; the iPhone note in OfflinePack links here via #home-screen.
+ * Images live in site/public/help/ (sources and licenses: site/public/help/README.md) and get into the
+ * offline pack automatically (offline.mjs walks the whole dist/).
+ */
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const img = (name: string) => `${base}help/${name}`;
+---
+<!--
+  Screenshots (not freely licensed; owner-approved exception to AGENTS.md rule 3 required, see site/public/help/README.md):
+  ios-share.webp, ios-add.webp: remontka.pro, Dmitry Bashlak, «Как добавить сайт на рабочий стол iPhone», 2023-04-12,
+    https://remontka.pro/add-website-desktop-iphone/ (copyright, blog); cropped.
+  android-menu.webp, android-add.webp: androidinsider.ru, Герман Вологжанин, «Как вынести сайт на рабочий стол телефона на Android», 2023-09-30,
+    https://androidinsider.ru/polezno-znat/kak-dobavit-yarlyk-sajta-na-rabochij-stol-android-smartfona.html (copyright, blog); cropped.
+-->
+<section class="hs" id="home-screen">
+  <h2>Как добавить сайт на экран «Домой»</h2>
+  <p class="muted lead">Сайт откроется с иконки, как приложение. На iPhone у такого приложения своё хранилище, поэтому офлайн-пакет нужно скачивать, открыв сайт с иконки.</p>
+
+  <details class="hs-d">
+    <summary>iPhone, Safari</summary>
+    <ol>
+      <li>Откройте сайт в Safari. Из Chrome или Яндекса на iPhone так не получится.</li>
+      <li>Нажмите кнопку «Поделиться» (квадрат со стрелкой) на нижней панели. Если её не видно, сначала нажмите «…» рядом с адресом.</li>
+      <li>Прокрутите список вниз и выберите «На экран «Домой»».
+        <img src={img('ios-share.webp')} width="360" height="700" loading="lazy" decoding="async" class="shot tall" alt="Меню «Поделиться» в Safari, пункт «На экран «Домой»»" />
+      </li>
+      <li>Если есть переключатель «Открыть как веб‑приложение», оставьте его включённым. Нажмите «Добавить».
+        <img src={img('ios-add.webp')} width="360" height="260" loading="lazy" decoding="async" class="shot" alt="Окно «На экран «Домой»» с кнопкой «Добавить»" />
+      </li>
+      <li>Откройте сайт с новой иконки и скачайте офлайн-пакет на этой странице.</li>
+    </ol>
+  </details>
+
+  <details class="hs-d">
+    <summary>Android, Chrome</summary>
+    <ol>
+      <li>Откройте сайт в Chrome.</li>
+      <li>Нажмите ⋮ (три точки) справа вверху.</li>
+      <li>Выберите «Добавить на гл. экран». В новых версиях пункт может называться «Установить приложение».
+        <img src={img('android-menu.webp')} width="400" height="741" loading="lazy" decoding="async" class="shot tall" alt="Меню Chrome, пункт «Добавить на гл. экран»" />
+      </li>
+      <li>Подтвердите: «Добавить» или «Установить». Если Chrome спросит, выберите «Установить», а не «Создать ярлык».
+        <img src={img('android-add.webp')} width="480" height="228" loading="lazy" decoding="async" class="shot" alt="Окно «Добавить на гл. экран» с кнопкой «Добавить»" />
+      </li>
+      <li>Иконка появится на главном экране.</li>
+    </ol>
+  </details>
+  <p class="muted credit">Скриншоты: remontka.pro, androidinsider.ru.</p>
+</section>
+
+<style>
+  .hs { margin-top: 24px; }
+  .lead { margin-top: 0; font-size: .9rem; }
+  .hs-d { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin: 8px 0; }
+  .hs-d summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; padding: 0 16px 0 14px; list-style: none; font-weight: 600; }
+  .hs-d[open] summary { border-bottom: 1px solid var(--line); }
+  .hs-d summary::-webkit-details-marker { display: none; }
+  .hs-d summary::after { content: ''; margin-left: auto; width: 8px; height: 8px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform .15s; }
+  .hs-d[open] summary::after { transform: rotate(-135deg); }
+  ol { margin: 0; padding: 10px 14px 12px 34px; font-size: .92rem; }
+  li { margin: 0 0 10px; }
+  li:last-child { margin-bottom: 0; }
+  .shot { display: block; max-width: min(100%, 300px); height: auto; margin: 8px 0 2px; border: 1px solid var(--line); border-radius: 10px; }
+  .shot.tall { max-width: min(100%, 240px); }
+  .credit { font-size: .75rem; margin: 6px 0 0; }
+</style>

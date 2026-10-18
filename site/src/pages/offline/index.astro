@@ -7,11 +7,13 @@
  */
 import Base from '../../layouts/Base.astro';
 import OfflinePack from '../../components/OfflinePack.svelte';
+import HomeScreenHelp from '../../components/HomeScreenHelp.astro';
 ---
 <Base title="Офлайн" description="Скачать сайт целиком, чтобы пользоваться им без сети">
   <h1>Офлайн</h1>
   <p class="muted lead">Скачайте пакет, пока есть хороший интернет: все страницы и фото (кроме самых крупных) останутся на устройстве, и сайт будет работать без сети. Пока связь есть, сайт всегда показывает свежие данные.</p>
   <OfflinePack client:load />
+  <HomeScreenHelp />
 </Base>
 
 <style>
