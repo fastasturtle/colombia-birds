@@ -1,0 +1,84 @@
+{
+ "authorship": null,
+ "book": {
+  "lynx_page": null
+ },
+ "colombia": {
+  "endemic": false,
+  "endemic_source": null,
+  "habitat_aco": null,
+  "introduced": false,
+  "libro_rojo": null,
+  "migration_note": null,
+  "near_endemic": false,
+  "status": [],
+  "status_raw": null,
+  "status_uncertain": false
+ },
+ "difficulty": null,
+ "ebird_code": "x00868",
+ "family": {
+  "code": "paruli1",
+  "en": "New World Warblers",
+  "sci": "Parulidae"
+ },
+ "genus": "Myioborus",
+ "id": "myioborus-ornatus-x-melanocephalus",
+ "ids": {
+  "avibase": null,
+  "birdbase": null,
+  "gbif": null,
+  "inaturalist": 542870,
+  "iucn": null,
+  "wikidata": null,
+  "xeno_canto": null
+ },
+ "iucn": {
+  "aco_2022": null,
+  "birdbase_2024": null,
+  "wikidata": null
+ },
+ "links": {
+  "commons_category": null,
+  "ebird": "https://ebird.org/species/x00868",
+  "inaturalist": "https://www.inaturalist.org/taxa/542870",
+  "wikipedia": {
+   "en": null,
+   "es": null,
+   "ru": null
+  },
+  "xeno_canto": "https://xeno-canto.org/explore?query=Myioborus+ornatus+x+melanocephalus"
+ },
+ "name_ru_source": "ebird",
+ "names": {
+  "en": "Golden-fronted x Spectacled Redstart (hybrid)",
+  "en_aco": null,
+  "es": "Candelita Adornada x de Anteojos (híbrido)",
+  "ru": "Белолицая x Очковая канделита (гибрид)"
+ },
+ "order": "Passeriformes",
+ "parents": [
+  "myioborus-ornatus",
+  "myioborus-melanocephalus"
+ ],
+ "photos": [],
+ "sci_name": "Myioborus ornatus x melanocephalus",
+ "sci_name_aco": null,
+ "sounds": [],
+ "source": "hybrid",
+ "taxon_order": 34393.0,
+ "taxonomy_note": "Гибрид белолицей (M. ornatus) и очковой (M. melanocephalus) канделит, не вид: в eBird это отдельный таксон категории «гибрид». Ареалы родителей смыкаются на юго-западе Колумбии и севере Эквадора (Нариньо и запад Путумайо, Карчи и Сукумбиос), где лежит широкая, около 200 км, зона гибридизации. В списке ACO 2022 гибридов нет; запись добавлена, потому что Аня отметила его на маршруте 15 октября 2026 года.",
+ "texts": {},
+ "traits": {
+  "diet_desc": null,
+  "elevation_m": null,
+  "habitat_breadth": null,
+  "habitats": [],
+  "mass_g": null,
+  "mobility": null,
+  "primary_diet": null,
+  "primary_habitat": null,
+  "range_restricted": null
+ },
+ "wikidata_images": []
+}

@@ -28,8 +28,10 @@ def main() -> None:
 
     by_sci: dict[str, dict] = {}
     for lang, loc in LOCALES.items():
-        rows = get_json(URL, {"fmt": "json", "cat": "species", "locale": loc}, kind="ebird", min_interval=1.0)
-        log(f"eBird {loc}: {len(rows)} species")
+        # hybrids too: the hybrids of mappings/hybrids.json (common.checklist(), `source: hybrid`) are eBird taxa of
+        # category `hybrid`; only names in `wanted` are kept below
+        rows = get_json(URL, {"fmt": "json", "cat": "species,hybrid", "locale": loc}, kind="ebird", min_interval=1.0)
+        log(f"eBird {loc}: {len(rows)} species and hybrids")
         for r in rows:
             key = norm_sci(r["sciName"])
             rec = by_sci.setdefault(

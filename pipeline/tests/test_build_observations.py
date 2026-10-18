@@ -128,6 +128,21 @@ def test_passing():
     assert "[P1]" in rep.split("## Чеклисты проездом")[1].split("##")[0]
 
 
+def test_hybrid_with_entry():
+    """A hybrid with its own index entry (mappings/hybrids.json) is matched as written; other hybrids stay unmatched."""
+    head = ["Submission ID", "Common Name", "Scientific Name", "Count", "Location ID", "Location", "Latitude", "Longitude",
+            "Date", "Time", "Protocol"]
+    def row(sid, sci):
+        return dict(zip(head, [sid, "", sci, "1", "L100", "Hotspot Alpha", "4.0", "-74.0", "2026-10-02", "07:00 AM", "eBird - Stationary Count"]))
+    index = [*INDEX, {"id": "avis-prima-x-secunda", "sci": "Avis prima x secunda", "source": "hybrid"}]
+    rows = [row("H1", "Avis prima x secunda"), row("H1", "Avis prima x tertia"), row("H1", "Avis prima")]
+    obs = bo.build(rows, {"Avis prima"}, index, SITES, ITIN, "2026-10-01", "2026-10-02")
+    assert set(obs["species"]) == {"avis-prima", "avis-prima-x-secunda"}
+    assert obs["species"]["avis-prima-x-secunda"]["lifer"] and not obs["species"]["avis-prima"]["lifer"]
+    assert [u["sci"] for u in obs["unmatched"]] == ["Avis prima x tertia"]
+    assert obs["checklists"][0]["n_species"] == 2  # the hybrid with an entry counts as a taxon of the checklist
+
+
 def test_merge_trip_report():
     """Export rows win per Submission ID; trip-report rows add missing checklists; a re-submitted copy is skipped."""
     head = ["Submission ID", "Common Name", "Scientific Name", "Count", "Location ID", "Location", "Latitude", "Longitude",

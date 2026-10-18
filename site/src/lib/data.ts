@@ -32,6 +32,10 @@ export interface IndexEntry {
   elev: [number | null, number | null] | null; habitat: string | null; photo: string | null;
   /** page in Hilty (2021) «Birds of Colombia», Lynx Edicions; null = not found */
   lynx_page: number | null;
+  /** aco2022 | clements2025 | hybrid (see Species.source) */
+  source?: string;
+  /** hybrid only: slugs of the two parent species */
+  parents?: string[];
 }
 export interface Family {
   code: string; sci: string; order: string; names: Record<string, string>; species_count: number; slug: string;
@@ -44,11 +48,14 @@ export interface Photo {
 }
 export interface Species {
   id: string; sci_name: string; sci_name_aco: string | null; authorship: string; taxonomy_note: string | null;
-  /** aco2022 = ACO 2022 checklist taxon; clements2025 = eBird/Clements 2025 species absent from ACO (docs/DECISIONS.md row 19) */
-  source?: 'aco2022' | 'clements2025';
+  /** aco2022 = ACO 2022 checklist taxon; clements2025 = eBird/Clements 2025 species absent from ACO (docs/DECISIONS.md row 19);
+   *  hybrid = a hybrid seen on the trip with its own entry (pipeline/mappings/hybrids.json, row 22) */
+  source?: 'aco2022' | 'clements2025' | 'hybrid';
+  /** hybrid only: slugs of the two parent species */
+  parents?: string[];
   names: { en: string; ru: string | null; es: string | null; en_aco: string }; name_ru_source: string | null;
   ebird_code: string; taxon_order: number; order: string; family: { code: string; sci: string; en: string | null }; genus: string;
-  colombia: { status: string[]; status_uncertain: boolean; status_raw: string; endemic: boolean; introduced: boolean;
+  colombia: { status: string[]; status_uncertain: boolean; status_raw: string | null; endemic: boolean; introduced: boolean;
     migration_note: string; libro_rojo: string; habitat_aco: string };
   iucn: { aco_2022: string; birdbase_2024: string | null; wikidata: string | null };
   traits: { elevation_m: { min: number | null; max: number | null; min_extreme: number | null; max_extreme: number | null } | null;

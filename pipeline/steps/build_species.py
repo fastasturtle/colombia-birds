@@ -270,9 +270,14 @@ def main() -> None:
         if a["source"] == "clements2025":
             why = f"split from {a['split_from']}" if a.get("split_from") else "not a split"
             taxonomy_note = f"Not in the ACO 2022 checklist ({why}); added from eBird/Clements 2025. {a.get('clements_note') or ''}".strip()
+        elif a["source"] == "hybrid":  # mappings/hybrids.json: the note is the whole explanation (Russian)
+            taxonomy_note = a.get("clements_note")
         elif norm_sci(sci) != key:
             taxonomy_note = f"ACO/SACC lists this as {a['sci_name']}; eBird/Clements uses {sci}."
 
+        # hybrid (mappings/hybrids.json): the parents' slugs; a parent's slug follows its eBird name like any other
+        parents = [slugify(ebird_sp[aco_to_ebird[norm_sci(p)]]["sci_name"]) for p in a.get("parents") or []]
+        inat_id = a.get("inaturalist_id") or w.get("inaturalist_id")
         rec = {
             "id": slug,
             "source": a["source"],
@@ -320,7 +325,7 @@ def main() -> None:
                 "wikidata": w.get("qid"),
                 "gbif": a.get("gbif_key") or w.get("gbif_key"),
                 "avibase": w.get("avibase_id"),
-                "inaturalist": w.get("inaturalist_id"),
+                "inaturalist": inat_id,
                 "iucn": w.get("iucn_id"),
                 "xeno_canto": w.get("xeno_canto"),
                 "birdbase": b.get("birdbase_id"),
@@ -333,7 +338,7 @@ def main() -> None:
                     if w.get("commons_category") else None
                 ),
                 "xeno_canto": f"https://xeno-canto.org/explore?query={sci.replace(' ', '+')}",
-                "inaturalist": f"https://www.inaturalist.org/taxa/{w['inaturalist_id']}" if w.get("inaturalist_id") else None,
+                "inaturalist": f"https://www.inaturalist.org/taxa/{inat_id}" if inat_id else None,
             },
             "wikidata_images": w.get("images", []),
             # Filled by later pipeline steps (kept from the previous build, see `preserved`)
@@ -347,6 +352,8 @@ def main() -> None:
             # Filled by agents (content/species/<slug>.md) — kept null here on purpose
             "difficulty": None,
         }
+        if parents:
+            rec["parents"] = parents
         write_json(SPECIES_DIR / f"{slug}.json", rec)
         index.append(
             {
@@ -366,6 +373,7 @@ def main() -> None:
                 "habitat": b.get("primary_habitat"),
                 "photo": rec["photos"][0]["sizes"]["thumb"] if rec["photos"] else None,
                 "lynx_page": rec["book"].get("lynx_page"),
+                **({"parents": parents} if parents else {}),
             }
         )
 

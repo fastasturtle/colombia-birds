@@ -1,6 +1,6 @@
 {
  "citation": "Clements, J. F., et al. 2025. The eBird/Clements checklist of Birds of the World: v2025. Cornell Lab of Ornithology. https://www.birds.cornell.edu/clementschecklist/ ; names via eBird API v2.",
- "count": 2007,
+ "count": 2008,
  "families": {
   "acanth1": {
    "names": {
@@ -30360,6 +30360,20 @@
    "order": "Passeriformes",
    "sci_name": "Myiophobus cryptoxanthus",
    "taxon_order": 16858.0
+  },
+  "myioborus ornatus x melanocephalus": {
+   "code": "x00868",
+   "family_code": "paruli1",
+   "family_en": "New World Warblers",
+   "family_sci": "Parulidae",
+   "names": {
+    "en": "Golden-fronted x Spectacled Redstart (hybrid)",
+    "es": "Candelita Adornada x de Anteojos (híbrido)",
+    "ru": "Белолицая x Очковая канделита (гибрид)"
+   },
+   "order": "Passeriformes",
+   "sci_name": "Myioborus ornatus x melanocephalus",
+   "taxon_order": 34393.0
   }
  }
 }
