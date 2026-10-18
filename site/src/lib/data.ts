@@ -565,6 +565,9 @@ export interface ObsChecklist {
   day: string | null;
   location: string; location_id: string | null; lat: number | null; lon: number | null; protocol: string;
   duration_min: number | null; distance_km: number | null; observers: number | null; comments: string | null; n_species: number;
+  /** export = Anya's eBird "Download my data" export; trip_report = the eBird trip report (step ebird_trip, every 2 h;
+   * without the API key its protocol is 'unknown' and effort/comments are empty) */
+  source?: 'export' | 'trip_report';
   /** matched to the site by name or distance on a date that is not one of the site's route days (driving past); absent otherwise */
   passing?: true;
 }
@@ -583,6 +586,13 @@ export interface SeenSpecies {
 export interface SeenStats { species: number; new: number; lifers: number; checklists: number; observations: number; passing_checklists?: number }
 export interface Observations {
   observer: string; source: string; exported: string; trip_start: string;
+  /** UTC ISO of the last trip-report fetch that brought changes (step ebird_trip); null/absent = never */
+  fetched?: string | null;
+  sources?: {
+    export: { exported: string; checklists: number } | null;
+    trip_report: { ids: number[]; fetched: string | null; checklists: number; added: string[];
+      duplicates: { id: string; same_as: string }[] } | null;
+  };
   checklists: ObsChecklist[];
   species: Record<string, SeenSpecies>;
   unmatched: { sci: string; name: string; n: number; dates: string[] }[];
