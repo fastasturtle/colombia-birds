@@ -71,8 +71,9 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
     <script is:inline define:vars={{ base, prod }}>
       // Offline shell (see site/integrations/offline.mjs and /offline/):
       // 1) service worker; 2) «Офлайн» pill while navigator.onLine is false; 3) «Есть новая версия» pill in the same
-      // header slot (online only; the two never show together)
-      // (or a one-time silent reload when a stale page's fresh copy lands before the user starts reading).
+      // header slot (online only; the two never show together), or a one-time silent reload before the user starts
+      // reading. Both are triggered only by the worker's PAGE_REFRESHED: a newer build of this very page is already
+      // in the worker's cache, so the reload (answered from that cache) is guaranteed to show it.
       (function () {
         // the build id lives only in <meta name="build-version">, so it is the one line that differs between builds
         // (the offline-pack hash of a page ignores that meta: an unchanged page is not re-downloaded)
@@ -97,9 +98,9 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
         // offline: the update pill cannot reload, so it gives way to the offline pill; back online, check again
         addEventListener('offline', function () { toast.hidden = true; syncStrip(); });
         addEventListener('online', function () { syncStrip(); checkVersion(); });
-        // The worker answers the reload from its cache, which the background refresh has normally updated by
-        // now. If it has not, the reloaded page is still the old build: dropping the 60 s throttle lets it
-        // check version.json again and show the toast again instead of silently staying stale.
+        // The worker answers the reload from its cache, which already holds the new build (the pill only shows
+        // after PAGE_REFRESHED). Dropping the 60 s throttle lets the reloaded page ask for a refresh at once, in
+        // case yet another build has been deployed meanwhile.
         toast.querySelector('.nv-reload').addEventListener('click', function () {
           try { sessionStorage.removeItem('cb.nv.checked'); } catch (e) {}
           location.reload();
@@ -110,6 +111,9 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
         // «Обновить» reloads the page, which would abort an offline-pack download (OfflinePack.svelte sets
         // <html data-cb-downloading> and fires cb:download-start/-end), so the toast waits for the run to end
         function downloading() { return document.documentElement.dataset.cbDownloading === '1'; }
+        // Asks the worker to refresh this page's URL in its cache (sw.template.js, REFRESH → refreshPage); at most
+        // once a minute per tab (cb.nv.checked), not after × for this build, never without a controlling worker.
+        // The answer, if the server has a newer build, is PAGE_REFRESHED below (sent only once it is stored).
         function checkVersion(force) {
           if (!prod || navigator.onLine === false || downloading()) return;
           try {
@@ -118,8 +122,10 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
             sessionStorage.setItem('cb.nv.checked', String(now));
             if (sessionStorage.getItem('cb.nv.dismissed') === buildId) return;
           } catch (e) {}
-          fetch(base + 'version.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (v) { if (v && v.version && v.version !== buildId) showToast(); }).catch(function () {});
+          var sw = 'serviceWorker' in navigator && navigator.serviceWorker.controller;
+          if (!sw) return;
+          var here = new URL(location.href); here.search = ''; here.hash = '';
+          try { sw.postMessage({ type: 'REFRESH', url: here.href }); } catch (e) {}
         }
         function showToast() {
           if (downloading() || navigator.onLine === false) return;
@@ -127,12 +133,13 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
           toast.hidden = false;
         }
 
-        // Stale page, fresh copy: the worker answered from its cache and, once the background refresh has
-        // stored the new copy, posts PAGE_REFRESHED { url, version } (sw.template.js, notifyRefreshed). If
-        // that build differs from this page's and the user has not started reading (no scroll past 40 px, no
-        // touch/click/key, < 15 s since load, no pack download, not /offline/ whose island keeps state), the
-        // page reloads itself once, silently: the reload is answered from the cache, now the fresh copy.
-        // Otherwise the toast. sessionStorage['cb.autoreload'] = that version guards against a reload loop.
+        // The single trigger of the update flow. Whenever the worker has stored a fresh copy of this page (the
+        // background refresh of a stale navigation, or a REFRESH from checkVersion above), it posts
+        // PAGE_REFRESHED { url, version } (sw.template.js, notifyRefreshed). If that build differs from this
+        // page's and the user has not started reading (no scroll past 40 px, no touch/click/key, < 15 s since
+        // load, no pack download, not /offline/ whose island keeps state), the page reloads itself once,
+        // silently; otherwise the pill. Either reload is answered from the worker's cache, which already holds
+        // the new build. sessionStorage['cb.autoreload'] = that version guards against a reload loop.
         var loadedAt = Date.now();
         var interacted = location.pathname === base + 'offline/' || downloading();
         function markInteracted() { interacted = true; }

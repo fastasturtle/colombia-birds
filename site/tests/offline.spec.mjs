@@ -14,7 +14,8 @@
  *    comes from the cache although the server is slow, and the server is asked for it in the background; a page
  *    changed on the server (another build id) reloads itself once, silently, when the background refresh lands,
  *    with its new _astro file already cached; after that one reload, or once the user has scrolled, the
- *    «Есть новая версия» toast shows instead.
+ *    «Есть новая версия» toast shows instead. An open page's REFRESH message (sent on visibilitychange) shows
+ *    the pill only when the server has a newer build, which by then is already cached, so «Обновить» shows it.
  * 5. Goes offline (context.setOffline + the server is closed)
  *    and checks: a cached species page renders its H1 and its cached medium photo; a cached day page shows the
  *    cached thumb; a page that was never cached gets the offline page with «эта страница не скачана».
@@ -198,19 +199,26 @@ try {
     } finally { delays.delete(SPECIES); }
   });
 
-  // The words page as a newer build: another H1, another build id in <meta name="build-version"> (the worker
-  // reads it and posts PAGE_REFRESHED), optionally an extra head tag.
-  const wordsHtml = readFileSync(join(dist, 'words/index.html'), 'utf8');
-  const changedWords = (h1, suffix, head = '') => wordsHtml
+  // A page as a newer build: another H1, another build id in <meta name="build-version"> (the worker reads it
+  // and posts PAGE_REFRESHED), optionally an extra head tag.
+  const changedHtml = (html, h1, suffix, head = '') => html
     .replace(/(<h1[^>]*>)[^<]*(<\/h1>)/, `$1${h1}$2`)
     .replace(/(<meta name="build-version" content=")([^"]*)"/, `$1$2${suffix}"`)
     .replace('</head>', `${head}</head>`);
+  const wordsHtml = readFileSync(join(dist, 'words/index.html'), 'utf8');
+  const changedWords = (h1, suffix, head = '') => changedHtml(wordsHtml, h1, suffix, head);
   const h1Text = () => page.locator('main h1').first().textContent({ timeout: 2000 }).then((t) => t?.trim(), () => null);
-  // pages at test builds must not get the toast from the fallback version.json check (throttled for 60 s by
-  // this timestamp; one in the future throttles it for the whole run), only from PAGE_REFRESHED
+  const buildOf = () => page.evaluate(() => document.querySelector('meta[name="build-version"]')?.content);
+  // The stale-page tests below exercise the worker's own background refresh of a stale navigation
+  // (PAGE_REFRESHED to the navigation's resultingClientId). The page's periodic REFRESH message would revalidate
+  // the same URL a second time and post a second PAGE_REFRESHED to the same document, depending on whether
+  // 60 s have passed since the last one in this tab. A cb.nv.checked timestamp in the future throttles it for
+  // the whole run, so these tests see only the navigation path, deterministically; the REFRESH path has its own
+  // test (it clears the timestamp and fires visibilitychange).
   const throttleVersionCheck = () => page.evaluate(() => sessionStorage.setItem('cb.nv.checked', '9e15'));
 
   await step('a page changed on the server reloads itself once when the refresh lands, with its new _astro file cached', async () => {
+    await throttleVersionCheck(); // sessionStorage of this tab: holds for every later page load too
     const oldH1 = wordsHtml.match(/<h1[^>]*>([^<]*)<\/h1>/)[1];
     const NEW_H1 = 'Обновлённый заголовок (тест)';
     const ASSET = `${BASE}/_astro/__test-refresh.js`;
@@ -232,7 +240,6 @@ try {
     await page.waitForFunction(() => document.documentElement.dataset.testRefresh === '1', null, { timeout: 5000 });
     assert.ok(await page.evaluate((u) => caches.open('cb-pages-v1').then((c) => c.match(u)).then((r) => !!r), origin + ASSET),
       'the refreshed page\'s new _astro file in cb-pages-v1');
-    await throttleVersionCheck();
   });
 
   await step('no second reload for the same version: the update pill shows instead', async () => {
@@ -261,6 +268,42 @@ try {
     assert.equal(await page.evaluate(() => window.__stale), 1, 'not reloaded');
     assert.notEqual(await h1Text(), H1_3, 'still the stale copy');
     assert.notEqual(await page.evaluate(() => sessionStorage.getItem('cb.autoreload')), full.version + '-t3', 'no reload recorded');
+  });
+
+  await step('REFRESH from an open page: the pill only once the newer build is in the cache, and «Обновить» shows it', async () => {
+    const HOME = `${BASE}/`; // cached by the pack at the current build, served unchanged so far
+    const visible = () => page.locator('#new-version').isVisible();
+    const refresh = async () => { // the page's own path: checkVersion() on visibilitychange, throttle cleared
+      hits.length = 0;
+      await page.evaluate(() => { sessionStorage.removeItem('cb.nv.checked'); document.dispatchEvent(new Event('visibilitychange')); });
+      await waitFor(() => hits.includes(HOME), `a REFRESH request for ${HOME}; got ${hits.join(', ')}`, 5000);
+    };
+    await page.goto(`${origin}${HOME}`, { waitUntil: 'load' });
+    assert.equal(await buildOf(), full.version, 'the cached home page is the current build');
+    // the user is reading: a newer build must show the pill, not reload the page
+    await page.evaluate(() => { window.__stale = 1; document.body.style.minHeight = '3000px'; scrollTo(0, 400); });
+    await new Promise((ok) => setTimeout(ok, 500)); // the navigation's own revalidation (same build) settles
+
+    // same build on the server: the refresh lands, nothing changes
+    await refresh();
+    await new Promise((ok) => setTimeout(ok, 1500));
+    assert.equal(await visible(), false, 'no pill while the server has the same build');
+
+    // newer build on the server: the pill shows, and only after the new copy is stored under this URL
+    overrides.set(HOME, [types.html, changedHtml(readFileSync(join(dist, 'index.html'), 'utf8'), 'Главная (тест)', '-t4')]);
+    try {
+      await refresh();
+      await page.locator('#new-version').waitFor({ state: 'visible', timeout: 10000 });
+      assert.equal(await page.evaluate(() => window.__stale), 1, 'not reloaded (the user has scrolled)');
+      const cached = await page.evaluate((u) => caches.open('cb-pages-v1').then((c) => c.match(u)).then((r) => r && r.text()), origin + HOME);
+      assert.ok(cached && cached.includes(`content="${full.version}-t4"`), 'the newer build is already in cb-pages-v1');
+      // «Обновить»: the reload is answered from that cache, so it is the new build and the pill does not come back
+      await page.locator('#new-version .nv-reload').click();
+      await waitFor(async () => (await buildOf().catch(() => null)) === full.version + '-t4', 'the reloaded page at the new build');
+      await page.waitForLoadState('load');
+      await new Promise((ok) => setTimeout(ok, 1500)); // its own REFRESH (throttle cleared by the click) lands
+      assert.equal(await visible(), false, 'no pill after the reload');
+    } finally { overrides.delete(HOME); }
   });
 
   // go offline: browser-level emulation + the server really stops answering

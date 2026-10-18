@@ -8,12 +8,15 @@
  * user actually opens (pages, assets, photos) plus the /offline/ page itself.
  *
  * HTML is stale-while-revalidate: a cached page is shown at once (no waiting for the network, so the
- * home-screen app does not open on a black screen) and refreshed in the background. Once the fresh copy is
- * stored, the worker posts PAGE_REFRESHED with its build id to the page (notifyRefreshed); if it differs from
- * the page's own, Base.astro reloads the page once while the user has not started reading, otherwise shows the
- * «Есть новая версия» toast (which also has its own fallback check: version.json vs
- * <meta name="build-version">). Whenever a
- * fresh page is stored, the _astro files it references are stored too, so it also works offline right away.
+ * home-screen app does not open on a black screen) and refreshed in the background. An open page also asks
+ * for such a refresh of its own URL from time to time (message { type: 'REFRESH', url }: on load, when it
+ * becomes visible again, back online; Base.astro throttles it to once a minute). Once a fresh copy is stored,
+ * the worker posts PAGE_REFRESHED with its build id to the page (notifyRefreshed). That message is the only
+ * trigger of the update flow: if the build differs from the page's own <meta name="build-version">,
+ * Base.astro reloads the page once while the user has not started reading, otherwise shows the
+ * «Есть новая версия» pill. Either way the reload is answered from the cache, which by then already holds the
+ * new build, so it cannot come back as the old page. Whenever a fresh page is stored, the _astro files it
+ * references are stored too, so it also works offline right away.
  *
  *   cb-pages-v1  same-origin HTML and assets (keys: absolute URL without ?query)
  *   cb-media-v1  photos from R2 (keys: absolute URL)
@@ -65,6 +68,10 @@ self.addEventListener('message', (event) => {
     const reply = { type: 'VERSION', version: VERSION };
     if (event.ports && event.ports[0]) event.ports[0].postMessage(reply);
     else if (event.source) event.source.postMessage(reply);
+  } else if (data.type === 'REFRESH') {
+    // A page asks for a background refresh of its own URL (Base.astro, checkVersion); the answer, if any, is
+    // PAGE_REFRESHED to event.source once the fresh copy is stored (refreshPage, notifyRefreshed).
+    event.waitUntil(refreshPage(event, data.url).catch(() => {}));
   }
 });
 
@@ -160,10 +167,10 @@ self.addEventListener('fetch', (event) => {
 // Cached: answer from the cache immediately and fetch a fresh copy in the background (event.waitUntil) for
 // the next visit. Not cached: the network (and store the page); network error: the offline page, else an
 // inline 503 stub.
-// A user reload (navigate with cache 'reload') also gets the cached copy first. That is intended: the
-// toast's «Обновить» is pressed after the background refresh started by this very page load has normally
-// completed, so the reload shows the fresh page. Freshness is the job of PAGE_REFRESHED (a one-time silent
-// reload or the toast) and of the toast's own check, not a network wait.
+// A user reload (navigate with cache 'reload') also gets the cached copy first. That is intended: the pill's
+// «Обновить» only appears after PAGE_REFRESHED, i.e. once the new build is already stored under this URL, so
+// the reload shows the fresh page. Freshness is the job of PAGE_REFRESHED (a one-time silent reload or the
+// pill), not a network wait. The page can also request this refresh itself (REFRESH message, refreshPage).
 
 async function handleHtml(event) {
   const req = event.request;
@@ -186,6 +193,23 @@ async function handleHtml(event) {
       + '<h1>Нет сети и страница не скачана</h1><p>Откройте эту страницу, когда появится связь.</p></body>',
       { status: 503, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
   }
+}
+
+/**
+ * REFRESH from a page: revalidates `url` (the page's own URL; query and hash are ignored) like the background
+ * refresh of a stale navigation, so notifyRefreshed then answers event.source. Only same-origin pages under
+ * BASE that the worker serves itself (not PASSTHROUGH); anything else is ignored. Like handleHtml, it
+ * revalidates the URL a cached copy is stored under (matchPage may find the trailing-slash form).
+ */
+async function refreshPage(event, url) {
+  if (typeof url !== 'string') return;
+  let u;
+  try { u = new URL(url); } catch (e) { return; }
+  if (u.origin !== self.location.origin || !u.pathname.startsWith(BASE) || PASSTHROUGH.has(u.pathname)) return;
+  const key = stripQuery(u.href);
+  const hit = await matchPage(key);
+  const target = hit ? hit.key : key;
+  await fetchPage(event, target, target);
 }
 
 /**
@@ -213,20 +237,24 @@ async function fetchPage(event, url, key) {
 
 /**
  * Tells the page that made the request which build its URL now has in the cache:
- * { type: 'PAGE_REFRESHED', url: key, version }. It matters after a stale answer: Base.astro reloads the page
- * once (or shows the toast) when the version differs from the one the page was rendered with. Sent after a
- * first (uncached) fetch too, where the versions match and nothing happens. For a navigation the page is
+ * { type: 'PAGE_REFRESHED', url: key, version }. It matters after a stale answer or a REFRESH that brought a
+ * new build: Base.astro reloads the page once (or shows the pill) when the version differs from the one the
+ * page was rendered with. Sent after a first (uncached) fetch too, where the versions match and nothing
+ * happens. For a REFRESH message the page is event.source (a Client). For a navigation the page is
  * event.resultingClientId: clientId is empty there, or (Chrome) the page the navigation started from, so
  * resultingClientId wins whenever it is set (it is empty for subresource requests). clients.get waits for
  * such a reserved client to be ready; the short retry covers a browser that resolves undefined meanwhile.
  */
 async function notifyRefreshed(event, key, html) {
   const m = html.match(/<meta name="build-version" content="([^"]*)"/);
+  if (!m) return;
+  const msg = { type: 'PAGE_REFRESHED', url: key, version: m[1] };
+  if (event.type === 'message') { if (event.source) event.source.postMessage(msg); return; }
   const id = event.resultingClientId || event.clientId;
-  if (!m || !id) return;
+  if (!id) return;
   for (let i = 0; i < 10; i++) {
     const client = await self.clients.get(id);
-    if (client) { client.postMessage({ type: 'PAGE_REFRESHED', url: key, version: m[1] }); return; }
+    if (client) { client.postMessage(msg); return; }
     await new Promise((ok) => setTimeout(ok, 300));
   }
 }
