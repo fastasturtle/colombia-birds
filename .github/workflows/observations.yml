@@ -1,0 +1,57 @@
+name: observations
+
+# Every 2 hours: Anya's new eBird checklists from the public trip report (pipeline step `ebird_trip`, no AI), then
+# `observations` rebuilds data/observations.json. Commits pipeline/sources/ebird/trip_report.csv, its state file and
+# data/ back via pipeline/ci_commit.sh, which dispatches deploy.yml only after a real push: an unchanged report
+# writes nothing (ebird_trip leaves its files untouched), so most runs commit and deploy nothing.
+# With the EBIRD_API_KEY secret the step reads full checklists from the eBird API (protocol, effort, comments);
+# without it, species and counts from the trip report only. The manual export (`observations --import`) stays the
+# richer source and wins per checklist.
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to dispatch deploy.yml after committing data (bot pushes don't trigger workflows)
+
+concurrency:
+  group: pipeline-light
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      STEPS: ebird_trip observations
+      EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: pipeline/uv.lock
+
+      # Files that differ from this commit are what ci_commit.sh commits (see pipeline/ci_commit.sh).
+      - name: Remember start commit
+        run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      # A few requests per run once the state file is committed: no ci_run.sh and no HTTP cache (the trip report
+      # answers are no-store, and the step keeps its own state in pipeline/sources/ebird/trip_report_state.json).
+      - name: Fetch trip report and rebuild observations
+        working-directory: pipeline
+        run: uv run python run.py ebird_trip observations
+
+      - name: Commit data
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY: "1"
+        run: |
+          pipeline/ci_commit.sh "data: eBird trip report"
