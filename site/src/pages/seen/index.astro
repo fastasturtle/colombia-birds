@@ -44,9 +44,9 @@ const dayCell = (date: string) => {
   const d = dayOf.get(date);
   return { href: d ? `${base}days/${date}/` : null, label: fmtDateRu(date, false), short: fmtDaysShort([date]), sub: d ? dayLabel(d) : '' };
 };
-const statCells = (e: SeenStats) => [e.species, e.new, e.lifers, e.checklists];
-// totals of the by-day table: species and lifers of the whole trip (= sums of «Впервые» / «Лайферов»)
-const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.new, 0), byDay.reduce((a, [, e]) => a + e.lifers, 0), st.checklists] : [];
+const statCells = (e: SeenStats) => [e.species, e.lifers, e.checklists];
+// totals of the by-day table: species of the whole trip, lifers (= sum of «Лайферов»: each counted on its first day), checklists
+const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.lifers, 0), st.checklists] : [];
 ---
 <Base title="Увидели" description="Что мы уже увидели в туре: виды по дням и локациям, новые виды для Ани, чеклисты eBird">
   <h1>Увидели</h1>
@@ -62,7 +62,7 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.new, 0), b
       <h2>По дням</h2>
       <div class="tw">
         <table class="st">
-          <thead><tr><th>День</th><th>Видов</th><th title="впервые в туре">Впервые</th><th title="из впервые встреченных: новых для Ани">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
+          <thead><tr><th>День</th><th>Видов</th><th title="новых для Ани видов, в день и на локации первой встречи">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
           <tbody>
             {byDay.map(([date, e]) => {
               const d = dayCell(date);
@@ -72,12 +72,12 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.new, 0), b
           <tfoot><tr class="tot"><td>Всего</td>{totalCells.map((n) => <td class="n">{n}</td>)}</tr></tfoot>
         </table>
       </div>
-      <p class="muted small">Лайферы считаются в день и на локации первой встречи вида, поэтому «Впервые» и «Лайферов» складываются в итог.</p>
+      <p class="muted small">Лайфер засчитывается в день и на локации первой встречи.</p>
 
       <h2>По локациям</h2>
       <div class="tw">
         <table class="st">
-          <thead><tr><th>Локация</th><th>Видов</th><th title="впервые в туре">Впервые</th><th title="из впервые встреченных: новых для Ани">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
+          <thead><tr><th>Локация</th><th>Видов</th><th title="новых для Ани видов, в день и на локации первой встречи">Лайферов</th><th title="чеклистов eBird">Чекл.</th></tr></thead>
           <tbody>
             {bySite.map(([id, e]) => (
               <tr><td><a href={`${base}sites/${id}/`}>{siteOf.get(id)?.name_ru || siteOf.get(id)?.name || id}</a><span class="muted sub">{siteDays(id)}{e.passing_checklists ? ` · ${e.passing_checklists} проездом` : ''}</span></td>{statCells(e).map((n) => <td class="n">{n}</td>)}</tr>
@@ -88,7 +88,7 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.new, 0), b
           </tbody>
         </table>
       </div>
-      <p class="muted small">«Видов» — всё, что видели; «Впервые» — впервые за поездку в этот день или на этой локации; «Лайферов» — из них виды, которых Аня не отмечала в eBird до тура; «чекл.» — чеклистов eBird, «проездом» — чеклисты у локации не в её день маршрута (виды засчитаны локации). «Вне локаций маршрута» — парки Боготы, аэропорт, остановки в дороге.</p>
+      <p class="muted small">«Видов» — всё, что видели; «Лайферов» — виды, которых Аня не отмечала в eBird до тура; «чекл.» — чеклистов eBird, «проездом» — чеклисты у локации не в её день маршрута (виды засчитаны локации). «Вне локаций маршрута» — парки Боготы, аэропорт, остановки в дороге.</p>
 
       <FilterScope ctx={facets.ctx}>
         <h2 class="vh">Виды по дню первой встречи <span class="cnt muted" data-lf-summary>{rows.length} {plural(rows.length, 'вид', 'вида', 'видов')}</span></h2>
