@@ -11,16 +11,13 @@ const nav = [
   { href: `${base}families/`, label: 'Семейства' },
   { href: `${base}words/`, label: 'Слова' },
   { href: `${base}history/`, label: 'История' },
-  { href: `${base}offline/`, label: 'Офлайн' },
 ];
+const offlineHref = `${base}offline/`;
 const buildId = __BUILD_ID__;
 const prod = import.meta.env.PROD;
 const path = Astro.url.pathname;
 // current section: «Маршрут» also covers day and site pages
 const isCur = (href: string) => (href === base ? path === base || path.startsWith(`${base}days/`) || path.startsWith(`${base}sites/`) : path.startsWith(href));
-// the first two sections stay in the header, the rest go into the ☰ menu (its button names the current one)
-const [navMain, navMore] = [nav.slice(0, 2), nav.slice(2)];
-const curMore = navMore.find((n) => isCur(n.href));
 ---
 <!doctype html>
 <html lang="ru">
@@ -51,26 +48,20 @@ const curMore = navMore.find((n) => isCur(n.href));
   </head>
   <body>
     <header class="top">
-      <div class="top-inner">
-        <a class="brand" href={base}>Птицы Колумбии</a>
-        <a class="offline-strip" id="offline-strip" href={`${base}offline/`} hidden>Офлайн · <span>пакет не скачан</span></a>
+      <!-- row 1, a thin status bar: flag (home), the offline / new-version pill, «Офлайн» page link on the right -->
+      <div class="top-bar">
+        <a class="brand" href={base} aria-label="Птицы Колумбии">
+          <svg width="20" height="14" viewBox="0 0 20 14" aria-hidden="true"><clipPath id="flag-r"><rect width="20" height="14" rx="2" /></clipPath>
+            <g clip-path="url(#flag-r)"><rect width="20" height="7" fill="#fcd116" /><rect y="7" width="20" height="3.5" fill="#003893" /><rect y="10.5" width="20" height="3.5" fill="#ce1126" /></g></svg>
+        </a>
+        <a class="offline-strip" id="offline-strip" href={offlineHref} hidden>Офлайн · <span>пакет не скачан</span></a>
         <div class="nv-pill" id="new-version" role="status" hidden><button type="button" class="nv-reload">Есть новая версия · <b>Обновить</b></button><button type="button" class="nv-close" aria-label="Скрыть">×</button></div>
-        <nav aria-label="Разделы">
-          {navMain.map((n) => <a href={n.href} aria-current={isCur(n.href) ? 'page' : undefined}>{n.label}</a>)}
-          <details class="menu">
-            <summary class:list={{ cur: curMore }} aria-label={curMore ? `Ещё разделы, сейчас: ${curMore.label}` : 'Ещё разделы'}><span aria-hidden="true">☰</span>{curMore && <span class="menu-cur">{curMore.label}</span>}</summary>
-            <div class="menu-pop">
-              {navMore.map((n) => <a href={n.href} aria-current={isCur(n.href) ? 'page' : undefined}>{n.label}</a>)}
-            </div>
-          </details>
-        </nav>
-        <script is:inline>
-          // ☰ menu: a tap outside it or Escape closes it
-          (function () { var m = document.querySelector('.top .menu'); if (!m) return;
-            document.addEventListener('click', function (e) { if (m.open && !m.contains(e.target)) m.open = false; });
-            document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && m.open) { m.open = false; m.querySelector('summary').focus(); } }); })();
-        </script>
+        <a class="bar-link" href={offlineHref} aria-current={path.startsWith(offlineHref) ? 'page' : undefined}>Офлайн</a>
       </div>
+      <!-- row 2: all sections inline -->
+      <nav class="top-nav" aria-label="Разделы">
+        {nav.map((n) => <a href={n.href} aria-current={isCur(n.href) ? 'page' : undefined}>{n.label}</a>)}
+      </nav>
     </header>
     <main><slot /></main>
     <footer class="foot">
@@ -201,13 +192,17 @@ const curMore = navMore.find((n) => isCur(n.href));
   h1 { font-size: 1.6rem; line-height: 1.2; margin: 0.2em 0 0.4em; }
   h2 { font-size: 1.2rem; margin: 1.4em 0 0.4em; }
   .top { border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--bg); z-index: 10; }
-  /* one row: brand, the offline pill (only while offline), nav pushed right; on a narrow phone the nav wraps below */
-  .top-inner { max-width: 960px; margin: 0 auto; padding: 0 16px; display: flex; flex-wrap: wrap; column-gap: 10px; align-items: center; }
-  .brand { font-weight: 700; color: var(--fg); white-space: nowrap; }
-  .top nav { display: flex; gap: 12px; align-items: center; margin-left: auto; }
-  .top nav a, .menu summary { color: var(--muted); min-height: 40px; display: inline-flex; align-items: center; padding: 0 2px; white-space: nowrap; }
-  .top nav a[aria-current="page"], .menu summary.cur { color: var(--fg); box-shadow: inset 0 -2px 0 var(--accent); }
-  /* offline: a small muted pill after the brand («Офлайн · 13.10.2026» / «Офлайн · пакет не скачан»), links to /offline/ */
+  /* row 1: thin status bar (flag home link, offline / new-version pill, «Офлайн» link pushed right) */
+  .top-bar { max-width: 960px; margin: 0 auto; padding: 0 16px; height: 30px; display: flex; align-items: center; gap: 8px; font-size: .75rem; }
+  .brand { display: inline-flex; align-items: center; min-height: 30px; padding-right: 4px; flex: none; }
+  .brand svg { display: block; box-shadow: 0 0 0 .5px rgba(0,0,0,.2); border-radius: 2px; }
+  .bar-link { margin-left: auto; color: var(--muted); min-height: 30px; display: inline-flex; align-items: center; white-space: nowrap; }
+  .bar-link[aria-current="page"] { color: var(--fg); box-shadow: inset 0 -2px 0 var(--accent); }
+  /* row 2: the sections inline */
+  .top-nav { max-width: 960px; margin: 0 auto; padding: 0 16px; display: flex; gap: 16px; align-items: center; }
+  .top-nav a { color: var(--muted); min-height: 40px; display: inline-flex; align-items: center; padding: 0 1px; white-space: nowrap; }
+  .top-nav a[aria-current="page"] { color: var(--fg); box-shadow: inset 0 -2px 0 var(--accent); }
+  /* offline: a small muted pill after the flag («Офлайн · 13.10.2026» / «Офлайн · пакет не скачан»), links to /offline/ */
   .offline-strip { padding: 0 8px; border-radius: 999px; background: var(--chip); color: var(--muted); font-size: .72rem; line-height: 1.6; white-space: nowrap; }
   .offline-strip[hidden] { display: none; }
   /* new build (online only, same slot as the offline pill): an accent pill, tap reloads; × hides it for this build */
@@ -217,20 +212,9 @@ const curMore = navMore.find((n) => isCur(n.href));
   .nv-pill .nv-reload { padding: 0 3px 0 8px; }
   .nv-pill .nv-reload b { font-weight: 700; }
   .nv-pill .nv-close { padding: 0 7px 0 3px; opacity: .8; font-size: .95rem; line-height: 1.2; }
-  /* the pill is ~19 px tall; widen the tap areas to the 40 px header row without changing its look */
-  .nv-pill button::after { content: ""; position: absolute; inset: -10px 0; }
-  .nv-pill .nv-close::after { inset: -10px -10px -10px 0; }
-  /* ☰ menu: <details>, the panel drops below the button, aligned right */
-  .menu { position: relative; }
-  .menu summary { list-style: none; cursor: pointer; gap: 6px; font-size: 1.15rem; }
-  .menu summary::-webkit-details-marker { display: none; }
-  .menu-cur { font-size: 1rem; }
-  .menu summary.cur { color: var(--accent); }
-  .menu[open] summary { color: var(--fg); }
-  .menu-pop { position: absolute; right: -8px; top: 100%; min-width: 170px; padding: 4px 0; background: var(--card); border: 1px solid var(--line);
-    border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.15); z-index: 11; }
-  .top .menu-pop a { display: flex; padding: 0 16px; min-height: 44px; color: var(--fg); }
-  .top .menu-pop a[aria-current="page"] { color: var(--accent); font-weight: 600; box-shadow: none; }
+  /* the pill is ~19 px tall; widen the tap areas to the 30 px status row without changing its look */
+  .nv-pill button::after { content: ""; position: absolute; inset: -6px 0; }
+  .nv-pill .nv-close::after { inset: -6px -8px -6px 0; }
   .foot { max-width: 960px; margin: 32px auto; padding: 0 16px 32px; color: var(--muted); font-size: 0.8rem; }
   .muted { color: var(--muted); }
   .sci { font-style: italic; }
@@ -253,8 +237,11 @@ const curMore = navMore.find((n) => isCur(n.href));
   td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
   @media (max-width: 480px) {
     main { padding: 12px 16px; }
-    .top nav { gap: 10px; font-size: .9rem; }
-    /* no room for the section name: the underlined accent ☰ marks a current section inside the menu */
-    .menu-cur { display: none; }
+    /* six sections on one line down to 375 px: smaller font, tight edges, spread edge to edge;
+       a wider device font scrolls the row sideways (no scrollbar) instead of widening the page */
+    .top-bar { padding: 0 10px; }
+    .top-nav { padding: 0 8px; gap: 4px; justify-content: space-between; font-size: .85rem; overflow-x: auto; scrollbar-width: none; }
+    .top-nav::-webkit-scrollbar { display: none; }
+    .top-nav a { flex: none; }
   }
 </style>
