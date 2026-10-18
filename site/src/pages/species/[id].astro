@@ -46,6 +46,14 @@ const clOf = new Map((observations()?.checklists ?? []).map((c) => [c.id, c]));
 const routeDates = new Set(itinerary().map((d) => d.date));
 const siteName = new Map(sites().map((s) => [s.id, s.name_ru || s.name]));
 const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
+// Hybrids with their own entry (source: hybrid, pipeline/mappings/hybrids.json): links to the parents on the hybrid's
+// page; on a parent's page a line per hybrid with the other parent and the date it was seen
+const isHybrid = sp.source === 'hybrid';
+const byId = new Map(idx.map((s) => [s.id, s]));
+const parentsOf = (sp.parents ?? []).flatMap((p) => byId.get(p) ?? []);
+const hybridsOf = idx
+  .filter((s) => s.source === 'hybrid' && s.parents?.includes(sp.id))
+  .map((h) => ({ h, other: byId.get(h.parents!.find((p) => p !== sp.id) ?? ''), seen: seenInfo(h.id) }));
 ---
 <Base title={title} species={sp.id} description={`${nm.main} (${nm.alt ? `${nm.alt}, ` : ''}${sp.sci_name}): статус в Колумбии, высоты, биотоп, как отличить`}>
   <p class="muted"><a href={`${base}families/${fam?.slug}/`}>{fam?.names.ru ?? sp.family.en}</a> · {sp.order}</p>
@@ -55,6 +63,12 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
     <span class="sci">{sp.sci_name}</span> <span class="muted">{sp.authorship}</span>
     {lynxPage != null && <><br /><span class="muted book">Lynx Birds of Colombia — с.&nbsp;{lynxPage}</span></>}
   </p>
+  {isHybrid && parentsOf.length > 0 && (
+    <p class="hybrid">Гибрид: {parentsOf.map((p, i) => <>{i > 0 && ' × '}<a href={`${base}species/${p.id}/`}>{speciesNames(p).main}</a></>)}</p>
+  )}
+  {hybridsOf.map(({ h, other, seen: hs }) => (
+    <p class="hybrid-of muted">Гибрид{other && <> с видом <a href={`${base}species/${other.id}/`}>{speciesNames(other).main}</a></>}: <a href={`${base}species/${h.id}/`}>{hs ? `видели ${fmtDaysShort([hs.first])}` : 'страница гибрида'}</a></p>
+  ))}
   <p>
     {sp.colombia.status.map((s) => <span class:list={['chip', { endemic: s === 'endemic' }]}>{STATUS_RU[s] ?? s}{sp.colombia.status_uncertain ? '?' : ''}</span>)}
     {sp.iucn.aco_2022 && sp.iucn.aco_2022 !== 'LC' && <span class="chip" style="background:var(--accent-2);color:#fff">IUCN {sp.iucn.aco_2022}: {IUCN_RU[sp.iucn.aco_2022]}</span>}
@@ -69,7 +83,7 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
   <h2>Ссылки</h2>
   <p>
     <a class="chip" href={sp.links.ebird} target="_blank" rel="noopener">eBird</a>
-    <a class="chip" href={sp.links.xeno_canto} target="_blank" rel="noopener">xeno-canto (голоса)</a>
+    {!isHybrid && <a class="chip" href={sp.links.xeno_canto} target="_blank" rel="noopener">xeno-canto (голоса)</a>}
     {sp.links.inaturalist && <a class="chip" href={sp.links.inaturalist} target="_blank" rel="noopener">iNaturalist</a>}
     {sp.links.wikipedia.en && <a class="chip" href={sp.links.wikipedia.en} target="_blank" rel="noopener">Wikipedia en</a>}
     {sp.links.wikipedia.ru && <a class="chip" href={sp.links.wikipedia.ru} target="_blank" rel="noopener">Википедия ru</a>}
@@ -111,13 +125,15 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
     {sp.traits.primary_habitat && <tr><th>Биотоп</th><td>{HABITAT_RU[sp.traits.primary_habitat] ?? sp.traits.primary_habitat}{sp.traits.habitats.length > 1 && <span class="muted"> · {sp.traits.habitats.join(', ')}</span>}</td></tr>}
     {sp.traits.mass_g && <tr><th>Масса</th><td>{Math.round(sp.traits.mass_g)} г</td></tr>}
     {sp.traits.primary_diet && <tr><th>Питание</th><td>{sp.traits.primary_diet}{sp.traits.diet_desc && <span class="muted"> · {sp.traits.diet_desc}</span>}</td></tr>}
-    <tr><th>В Колумбии</th><td>{sp.colombia.status_raw}{sp.colombia.migration_note && sp.colombia.migration_note !== sp.colombia.status_raw && <span class="muted"> · {sp.colombia.migration_note}</span>}{sp.colombia.libro_rojo && sp.colombia.libro_rojo !== 'No Evaluado' && <span class="muted"> · Libro Rojo: {sp.colombia.libro_rojo}</span>}</td></tr>
+    {sp.colombia.status_raw && <tr><th>В Колумбии</th><td>{sp.colombia.status_raw}{sp.colombia.migration_note && sp.colombia.migration_note !== sp.colombia.status_raw && <span class="muted"> · {sp.colombia.migration_note}</span>}{sp.colombia.libro_rojo && sp.colombia.libro_rojo !== 'No Evaluado' && <span class="muted"> · Libro Rojo: {sp.colombia.libro_rojo}</span>}</td></tr>}
     {sp.taxonomy_note && <tr><th>Таксономия</th><td class="muted">{sp.taxonomy_note}</td></tr>}
   </table>
 
   <h2>Где на маршруте</h2>
   {whereSeen.length === 0 ? (
-    <p class="muted">Ни на одной локации маршрута нет записей GBIF (≥ 3) и нет в отчётах.</p>
+    <p class="muted">{isHybrid
+      ? 'Гибрид: в списках GBIF по локациям маршрута не учитывается, смотри места родительских видов.'
+      : 'Ни на одной локации маршрута нет записей GBIF (≥ 3) и нет в отчётах.'}</p>
   ) : (
     <>
     <ul class="where">
@@ -186,6 +202,8 @@ const title = nm.alt ? `${nm.main} · ${nm.alt}` : nm.main;
   .otag { font-size: .78rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
   .wdays { display: flex; flex-wrap: wrap; gap: 4px; flex-basis: 100%; }
   .names { margin-top: -6px; }
+  .hybrid { font-weight: 600; margin: 0 0 6px; }
+  .hybrid-of { font-size: .85rem; margin: 0 0 6px; }
   .names .alt { font-size: 1.05rem; }
   .small { font-size: .85rem; }
   .book { font-size: .85rem; }

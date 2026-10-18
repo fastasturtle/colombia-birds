@@ -3,14 +3,15 @@
 Генерируется `scripts/card_index.py` из поля `checked:` в `content/species/*.md`; руками не править.
 Журнал проверок: `docs/fact-check-log.md`.
 
-- Карточек: 981
+- Карточек: 982
 - Проверено: 981
-- Не проверено: 0
+- Не проверено: 1
 
-## Не проверено (0)
+## Не проверено (1)
 
 | Слаг | English | Группа |
 |---|---|---|
+| myioborus-ornatus-x-melanocephalus | Golden-fronted x Spectacled Redstart (hybrid) | Овсянки, древесницы, трупиалы и вьюрки |
 
 ## Проверено (981)
 
