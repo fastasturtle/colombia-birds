@@ -235,7 +235,7 @@ try {
     await throttleVersionCheck();
   });
 
-  await step('no second reload for the same version: the toast shows instead', async () => {
+  await step('no second reload for the same version: the update pill shows instead', async () => {
     const H1_2 = 'Обновлённый заголовок 2 (тест)';
     overrides.set(WORDS, [types.html, changedWords(H1_2, '-t2')]);
     await page.evaluate((v) => sessionStorage.setItem('cb.autoreload', v), full.version + '-t2'); // "already reloaded once"
@@ -249,7 +249,7 @@ try {
     assert.notEqual(await h1Text(), H1_2, 'still the stale copy');
   });
 
-  await step('a user who has scrolled gets the toast, not a reload', async () => {
+  await step('a user who has scrolled gets the update pill, not a reload', async () => {
     const H1_3 = 'Обновлённый заголовок 3 (тест)';
     overrides.set(WORDS, [types.html, changedWords(H1_3, '-t3')]);
     delays.set(WORDS, 2000);
