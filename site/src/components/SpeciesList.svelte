@@ -80,8 +80,7 @@
   });
 </script>
 
-<FilterBar rows={rows} total={items.length} {fams} {sites} {traits} bind:u elev />
-<p class="muted note">{shown.length > LIMIT ? `Показаны первые ${LIMIT}. ` : ''}«Точно», «возможно», «вряд ли» — лучшее по локациям маршрута.</p>
+<FilterBar rows={rows} total={items.length} {fams} {sites} {traits} bind:u elev limit={LIMIT} />
 {#each pool as i (items[i].id)}
   {@const s = items[i]}
   <a class="row" href={`${base}species/${s.id}/`} hidden={!vis.has(i)}>
