@@ -49,7 +49,7 @@ jobs:
       - name: Still on the trip?
         id: trip
         run: |
-          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          python3 - <<'PY'
           import json, datetime, os
           days = json.load(open("data/itinerary.json"))
           days = days["days"] if isinstance(days, dict) else days
@@ -57,7 +57,8 @@ jobs:
           today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).date()
           manual = os.environ["GITHUB_EVENT_NAME"] == "workflow_dispatch"
           active = manual or today <= last + datetime.timedelta(days=1)
-          print(f"active={'true' if active else 'false'}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"active={'true' if active else 'false'}\n")
           print(f"::notice::trip ends {last}, today {today} (Bogotá): {'running' if active else 'skipping, trip over'}")
           PY
 
