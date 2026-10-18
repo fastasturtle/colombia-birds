@@ -68,7 +68,7 @@
   или Actions → weather → Run workflow. Ночёвка вне `data/sites.json` (отель в городе): поле дня
   `overnight_loc` `{id, name_ru, lat, lon}` в `data/itinerary.json` (высота из `elev_sleep`), без него — Богота. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
 - Наблюдения в туре (что уже увидели) обновляются сами: workflow `.github/workflows/observations.yml` каждые 2 часа
-  запускает `run.py ebird_trip observations` — шаг `ebird_trip` берёт новые чеклисты Ани из публичного отчёта поездки
+  (до конца поездки плюс день: последняя дата `data/itinerary.json`; ручной запуск работает всегда) запускает `run.py ebird_trip observations` — шаг `ebird_trip` берёт новые чеклисты Ани из публичного отчёта поездки
   eBird (`pipeline/sources/ebird/trip_reports.json` → `trip_report.csv`), `observations` сливает их с выгрузкой
   (выгрузка главнее по `Submission ID`), коммит и деплой только при изменениях. Вручную:
   `uv run python run.py ebird_trip observations` или Actions → observations → Run workflow. Без секрета

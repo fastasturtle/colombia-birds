@@ -7,6 +7,8 @@ name: observations
 # With the EBIRD_API_KEY secret the step reads full checklists from the eBird API (protocol, effort, comments);
 # without it, species and counts from the trip report only. The manual export (`observations --import`) stays the
 # richer source and wins per checklist.
+# Scheduled runs stop by themselves the day after the trip: the guard step compares today (Bogotá) with the last
+# date of data/itinerary.json + 1 day and skips the fetch when it is later (a manual dispatch always runs).
 
 on:
   schedule:
@@ -43,13 +45,31 @@ jobs:
       - name: Remember start commit
         run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
+      # Scheduled runs only: nothing to fetch from the day after the trip's last day (plus one day for late uploads).
+      - name: Still on the trip?
+        id: trip
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, datetime, os
+          days = json.load(open("data/itinerary.json"))
+          days = days["days"] if isinstance(days, dict) else days
+          last = max(datetime.date.fromisoformat(d["date"]) for d in days)
+          today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).date()
+          manual = os.environ["GITHUB_EVENT_NAME"] == "workflow_dispatch"
+          active = manual or today <= last + datetime.timedelta(days=1)
+          print(f"active={'true' if active else 'false'}")
+          print(f"::notice::trip ends {last}, today {today} (Bogotá): {'running' if active else 'skipping, trip over'}")
+          PY
+
       # A few requests per run once the state file is committed: no ci_run.sh and no HTTP cache (the trip report
       # answers are no-store, and the step keeps its own state in pipeline/sources/ebird/trip_report_state.json).
       - name: Fetch trip report and rebuild observations
+        if: steps.trip.outputs.active == 'true'
         working-directory: pipeline
         run: uv run python run.py ebird_trip observations
 
       - name: Commit data
+        if: steps.trip.outputs.active == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           DEPLOY: "1"
