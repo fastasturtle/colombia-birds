@@ -20,12 +20,12 @@
 | 8 окт | 6 | Isla Escondida | Isla Escondida | Jurgen Beckers |
 | 9 окт | 7 | Isla Escondida | Isla Escondida | Jurgen Beckers |
 | 10 окт | 8 | Isla Escondida | Isla Escondida | Jurgen Beckers |
-| 11 окт | 9 | Isla Escondida, переезд Orito – Puerto Asís | Puerto Asís | Diego Rocha |
-| 12 окт | 10 | Playa Rica | Puerto Asís | Diego Rocha |
-| 13 окт | 11 | Puerto Asís, переезд в El Escondite | El Escondite | Diego Rocha |
-| 14 окт | 12 | Окрестности Mocoa, переезд в Mocoa | Отель в Mocoa | Diego Rocha |
-| 15 окт | 13 | Trampolín de las Aves, переезд в Sibundoy | Posada Villa Beatriz | Diego Rocha |
-| 16 окт | 14 | Páramo Bordoncillo, Laguna La Cocha, переезд в La Planada | Reserva Natural La Planada | Diego Rocha |
+| 11 окт | 9 | Isla Escondida, переезд Orito – Puerto Asís | Puerto Asís | Brayan Coral |
+| 12 окт | 10 | Playa Rica | Puerto Asís | Brayan Coral |
+| 13 окт | 11 | Puerto Asís, переезд в El Escondite | El Escondite | Brayan Coral |
+| 14 окт | 12 | Окрестности Mocoa, переезд в Mocoa | Отель в Mocoa | Brayan Coral |
+| 15 окт | 13 | Trampolín de las Aves, переезд в Sibundoy | Posada Villa Beatriz | Brayan Coral |
+| 16 окт | 14 | Páramo Bordoncillo, Laguna La Cocha, переезд в La Planada | Reserva Natural La Planada | Brayan Coral |
 | 17 окт | 15 | Reserva Natural La Planada | Reserva Natural La Planada | Brayan Coral |
 | 18 окт | 16 | Утро: La Planada; день: переезд в Aves y Flórez Lodge | Aves y Flórez Lodge | Brayan Coral |
 | 19 окт | 17 | Утро: RN Río Ñambí; день: Aves y Flórez Lodge | Aves y Flórez Lodge | Brayan Coral |

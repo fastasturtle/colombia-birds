@@ -6,56 +6,37 @@
    * families and sites as dropdowns of checkboxes with facet counts (FacetPicker.svelte, lib/facets.ts; side by side
    * on wide screens, one open at a time), elevation where `elev` is set, and «Признаки» (its
    * own fold): trait groups of content/traits.yaml, OR within a group, AND across groups.
-   * The panel and «Признаки» open/closed state is remembered per page and per bar (localStorage `cb.fp:<path>`, plus
-   * `#<scope key>` on a page with two lists; value: 1 panel open + 2 «Признаки» open, no key = both closed), so a page
-   * reopens the way it was left (the filters themselves: lib/filter saveState).
-   * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» instead of the
-   * saved state and scrolls «Признаки» into view (`?panel=1`: the panel only); the flag is dropped from the URL once read.
+   * The panel and «Признаки» start closed on every page load (nothing is remembered).
+   * `?panel=traits` in the URL (the «Признаки» link on a species card) opens the panel and «Признаки» and scrolls «Признаки» into view (`?panel=1`: the panel only); the flag is dropped from the URL once read.
    * Families / sites only show when the list has more than one; «Признаки» when some row has traits (a species card).
    * Long chip groups (> FOLD_FROM chips; FacetPicker orders its rows the same way) fold: chips with a non-zero count (and selected ones) first, «ещё N» reveals
    * the rest. State: level + tag in the `filter` store (URL `lv` / `tag`); search, families, sites, elevation, traits in `u`
    * (bound; the parent keeps it in the URL and applies it).
    * Rows: one descriptor per list row (lib/filter Row); null while the parent is still reading them.
+   * limit: the parent renders at most this many rows (SpeciesList), so «показано» counts at most that.
    */
   import { onMount, untrack } from 'svelte';
   import ListFilter from './ListFilter.svelte';
   import FacetChip from './FacetChip.svelte';
   import FacetPicker, { type PickOpt } from './FacetPicker.svelte';
-  import { filter, makePass, trCount, pageKey, DEFAULT_FILTER, TAG_LABEL, SEEN_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
+  import { filter, makePass, trCount, DEFAULT_FILTER, TAG_LABEL, SEEN_LABEL, type Narrow, type Row, type FamOpt, type SiteOpt, type TraitOpt } from '../lib/filter';
   import { listCounts, facetIndex, noTraitsHidden, trGroup, plural, type FacetIndex } from '../lib/facets';
 
-  interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean }
-  let { rows, total, fams, sites, traits = [], u = $bindable(), elev = false }: Props = $props();
+  interface Props { rows: Row[] | null; total: number; fams: FamOpt[]; sites: SiteOpt[]; traits?: TraitOpt[]; u: Narrow; elev?: boolean; limit?: number }
+  let { rows, total, fams, sites, traits = [], u = $bindable(), elev = false, limit = Infinity }: Props = $props();
 
   let open = $state(false);
   let trOpen = $state(false);
   /** `?panel=traits`: scroll «Признаки» into view once it is rendered (static lists read their rows after mount) */
   let toTraits = $state(false);
   let trsEl = $state<HTMLElement | null>(null);
-  let root: HTMLElement;
-  /** localStorage key of the open state (null until mounted) */
-  let openKey = $state<string | null>(null);
   onMount(() => {
-    const sk = root.closest<HTMLElement>('[data-lf-scope]')?.dataset.lfKey;
-    const k = pageKey('cb.fp:') + (sk ? '#' + sk : '');
     const url = new URL(location.href), panel = url.searchParams.get('panel');
-    if (panel != null) {
-      open = true;
-      if (panel === 'traits') trOpen = toTraits = true;
-      url.searchParams.delete('panel');
-      history.replaceState(history.state, '', url.href);
-    } else {
-      let v = 0;
-      try { v = +(localStorage.getItem(k) ?? 0) || 0; } catch { /* storage off */ }
-      open = (v & 1) > 0;
-      trOpen = (v & 2) > 0;
-    }
-    openKey = k;
-  });
-  $effect(() => {
-    const v = (open ? 1 : 0) + (trOpen ? 2 : 0);
-    if (openKey == null) return;
-    try { if (v) localStorage.setItem(openKey, String(v)); else localStorage.removeItem(openKey); } catch { /* storage off */ }
+    if (panel == null) return;
+    open = true;
+    if (panel === 'traits') trOpen = toTraits = true;
+    url.searchParams.delete('panel');
+    history.replaceState(history.state, '', url.href);
   });
   $effect(() => {
     if (!toTraits || !trsEl) return;
@@ -186,7 +167,7 @@
   {/if}
 {/snippet}
 
-<div class="fb" role="search" bind:this={root}>
+<div class="fb" role="search">
   <div class="bar">
     <input type="search" class="q" value={qIn} oninput={onQ} placeholder="Поиск вида"
       aria-label="Поиск по названию: русскому, английскому, латинскому или семейства" autocomplete="off" />
@@ -195,7 +176,7 @@
     </button>
   </div>
   <div class="line">
-    <span class="count" aria-live="polite">{#if shown != null}показано <b>{shown}</b> из {total}{#if noTr > 0}<span class="ntr">{' · '}ещё {noTr} {plural(noTr, 'вид', 'вида', 'видов')} без описания признаков {plural(noTr, 'скрыт', 'скрыты', 'скрыты')}</span>{/if}{/if}</span>
+    <span class="count" aria-live="polite">{#if shown != null}показано <b>{Math.min(shown, limit)}</b> из {total}{#if noTr > 0}<span class="ntr">{' · '}ещё {noTr} {plural(noTr, 'вид', 'вида', 'видов')} без описания признаков {plural(noTr, 'скрыт', 'скрыты', 'скрыты')}</span>{/if}{/if}</span>
     {#each active as a (a.key)}
       <button type="button" class="ac" onclick={a.drop} aria-label={`Убрать фильтр: ${a.label}`}>{a.label}<span aria-hidden="true" class="x">✕</span></button>
     {/each}

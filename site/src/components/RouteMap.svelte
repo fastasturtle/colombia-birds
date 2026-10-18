@@ -26,9 +26,11 @@
     if (!s) locs.push((s = { id, name: l.name_ru, name_ru: l.name_ru, region: d.region, lat: l.lat, lon: l.lon, elev_min: d.elev_sleep, elev_max: null, loc: true }));
     return s;
   };
-  // route: overnight sites (or overnight_loc) in day order; a day with neither (night in Bogotá) is not a stop
+  // a day with neither (night in Bogotá) is a stop at the city centre: it only joins segments (no marker, no date label)
+  const BOGOTA: Site = { id: 'bogota-city', name: 'Bogotá', name_ru: 'Богота', region: 'bogota', lat: 4.65, lon: -74.08, elev_min: null, elev_max: null, loc: true };
+  // route: overnight sites (or overnight_loc, or Bogotá) in day order
   const stopDays = days.flatMap((d) => {
-    const s = d.overnight_site ? siteOf[d.overnight_site] : locOf(d);
+    const s = d.overnight_site ? siteOf[d.overnight_site] : (locOf(d) ?? BOGOTA);
     return s ? [{ d, s }] : [];
   });
   // consecutive stops joined by segments; a day whose travel mentions a flight draws a dotted "flight" segment
@@ -36,7 +38,7 @@
     .filter(({ a, b }) => a.x !== b.x || a.y !== b.y);
   // night dates per overnight site (ISO, the date of the day whose night was spent there)
   const dayNums = new Map<string, string[]>();
-  for (const { d, s } of stopDays) dayNums.set(s.id, [...(dayNums.get(s.id) ?? []), d.date]);
+  for (const { d, s } of stopDays) if (s !== BOGOTA) dayNums.set(s.id, [...(dayNums.get(s.id) ?? []), d.date]);
   // same short form as the day-card chips: '15 окт', '16–17 окт', '4–6 окт, 9 окт'
   const fmtDays = (ds: string[]) => fmtDaysShort(ds);
   const firstNight = (id: string) => [...dayNums.get(id)!].sort()[0];
@@ -180,7 +182,7 @@
   .ocean { font-size: 26px; font-style: italic; letter-spacing: .15em; fill: var(--map-river); stroke: none; }
   .rivlbl { font-size: 20px; font-style: italic; fill: var(--map-river); stroke: var(--map-land-co); stroke-width: 2px; }
   .route { fill: none; stroke: var(--accent-2); stroke-width: 2.5; stroke-dasharray: 7 5; stroke-linecap: round; }
-  .route.flight { stroke-width: 1.5; stroke-dasharray: 1 5; opacity: .8; }
+  .route.flight { stroke-width: 2; stroke-dasharray: 1 5; opacity: .55; }
   .mk { cursor: pointer; outline: none; }
   .mk circle:not(.hitc) { stroke: var(--map-marker-stroke); stroke-width: 1.8; }
   .mk circle.opt { fill-opacity: .35; }
