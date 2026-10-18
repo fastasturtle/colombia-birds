@@ -40,6 +40,7 @@
 | Исла-Эскондида (`isla-escondida`) | 81 | 68 | 68 | 13 |
 | Пуэрто-Асис (`puerto-asis`) | 70 | 23 | 23 | 3 |
 | Эль-Эскондите (`el-escondite`) | 68 | 24 | 23 | 5 (из них 1 проездом) |
+| Ла-Планада (`la-planada`) | 64 | 32 | 32 | 4 |
 | Плайя-Рика (`playa-rica`) | 60 | 34 | 33 | 1 |
 | Чикаке (`chicaque`) | 58 | 51 | 49 | 2 |
 | Трамплин птиц (`trampolin-aves`) | 51 | 18 | 18 | 5 |
@@ -49,7 +50,7 @@
 | Долина Сибундой (`sibundoy`) | 21 | 2 | 2 | 1 |
 | Монсеррате (`monserrate`) | 17 | 10 | 10 | 1 |
 | Парамо Бордонсильо (`paramo-bordoncillo`) | 11 | 5 | 5 | 1 |
-| вне локаций маршрута | 137 | 67 | 63 | 18 |
+| вне локаций маршрута | 81 | 35 | 31 | 14 |
 
 ## Не сопоставлено с базой сайта
 
@@ -77,7 +78,3 @@
 - 2026-10-15 16:43 [S402635896](https://ebird.org/checklist/S402635896): Vía San Francisco - el Pepino - Villa Garzon, San Francisco CO-Департамент Путумайо 1.13854, -76.84584 (6 видов)
 - 2026-10-15 17:18 [S402635899](https://ebird.org/checklist/S402635899): Vía San Francisco - el Pepino - Villa Garzon, San Francisco CO-Департамент Путумайо 1.13854, -76.84584 (1 вид)
 - 2026-10-16 13:41 [S402842803](https://ebird.org/checklist/S402842803): Vía Laguna de La Cocha 1-17–1-53, Сан-Хуан-де-Пасто CO-Департамент Нарино 1.13748, -77.15348 (8 видов)
-- 2026-10-17 06:14 [S403455006](https://ebird.org/checklist/S403455006): Reserva Natural El Bosque (31 вид)
-- 2026-10-17 09:29 [S403454998](https://ebird.org/checklist/S403454998): Reserva Natural El Bosque (17 видов)
-- 2026-10-17 14:14 [S403463641](https://ebird.org/checklist/S403463641): Reserva Natural El Bosque (30 видов)
-- 2026-10-18 10:25 [S403463652](https://ebird.org/checklist/S403463652): Reserva Natural El Bosque (1 вид)

@@ -967,7 +967,7 @@
    "n_species": 31,
    "observers": 1,
    "protocol": "traveling",
-   "site": null,
+   "site": "la-planada",
    "time": "06:14"
   },
   {
@@ -984,7 +984,7 @@
    "n_species": 17,
    "observers": 1,
    "protocol": "traveling",
-   "site": null,
+   "site": "la-planada",
    "time": "09:29"
   },
   {
@@ -1001,7 +1001,7 @@
    "n_species": 30,
    "observers": 1,
    "protocol": "traveling",
-   "site": null,
+   "site": "la-planada",
    "time": "14:14"
   },
   {
@@ -1018,7 +1018,7 @@
    "n_species": 1,
    "observers": 1,
    "protocol": "traveling",
-   "site": null,
+   "site": "la-planada",
    "time": "10:25"
   }
  ],
@@ -1112,7 +1112,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -1120,11 +1120,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "aglaiocercus-kingii": {
    "days": [
@@ -1430,7 +1432,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -1438,11 +1440,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "anisognathus-igniventris": {
    "days": [
@@ -1525,12 +1529,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "anthocephala-berlepschi": {
@@ -2002,11 +2007,13 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "atlapetes-leucopis": {
    "days": [
@@ -2245,13 +2252,14 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
     "chicaque",
-    "la-drymophila"
+    "la-drymophila",
+    "la-planada"
    ]
   },
   "boissonneaua-flavescens": {
@@ -3129,7 +3137,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -3137,11 +3145,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "chalybura-buffonii": {
    "days": [
@@ -3384,11 +3394,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "chlorophanes-spiza": {
    "days": [
@@ -3513,11 +3525,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "chlorostilbon-gibsoni": {
    "days": [
@@ -4158,7 +4172,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
@@ -4166,7 +4180,8 @@
     "monserrate",
     "chicaque",
     "la-drymophila",
-    "sibundoy"
+    "sibundoy",
+    "la-planada"
    ]
   },
   "colibri-delphinae": {
@@ -4369,7 +4384,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -4377,11 +4392,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "contopus-sordidulus": {
    "days": [
@@ -4577,7 +4594,7 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
@@ -4587,7 +4604,8 @@
     "finca-discosura",
     "el-escondite",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "la-planada"
    ]
   },
   "cranioleuca-curtata": {
@@ -4633,11 +4651,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "crotophaga-ani": {
    "days": [
@@ -5488,11 +5508,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "dryocopus-lineatus": {
    "days": [
@@ -5827,14 +5849,15 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
     "el-encanto",
     "la-drymophila",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "eucometis-penicillata": {
@@ -6119,14 +6142,15 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
    "sites": [
     "el-encanto",
     "isla-escondida",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "falco-rufigularis": {
@@ -6386,11 +6410,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "geranoaetus-melanoleucus": {
    "days": [
@@ -6414,12 +6440,13 @@
      "count": 1,
      "date": "2026-10-18",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "10:25"
     }
    ],
    "sites": [
-    "sumapaz"
+    "sumapaz",
+    "la-planada"
    ]
   },
   "glaucidium-brasilianum": {
@@ -6546,11 +6573,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "gymnoderus-foetidus": {
    "days": [
@@ -6969,11 +6998,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "iridosornis-rufivertex": {
    "days": [
@@ -7208,7 +7239,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -7216,7 +7247,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     },
     {
@@ -7224,12 +7255,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
-    "la-drymophila"
+    "la-drymophila",
+    "la-planada"
    ]
   },
   "lepidocolaptes-souleyetii": {
@@ -7410,11 +7442,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "liosceles-thoracicus": {
    "days": [
@@ -7459,12 +7493,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": "H",
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "la-planada"
    ]
   },
   "loriotus-cristatus": {
@@ -7548,11 +7583,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "masius-chrysopterus": {
    "days": [
@@ -7576,12 +7613,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "la-planada"
    ]
   },
   "mecocerculus-leucophrys": {
@@ -7988,12 +8026,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "chicaque"
+    "chicaque",
+    "la-planada"
    ]
   },
   "molothrus-bonariensis": {
@@ -8188,11 +8227,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "myiarchus-apicalis": {
    "days": [
@@ -8349,7 +8390,7 @@
      "count": 4,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     },
     {
@@ -8357,14 +8398,15 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "myiodynastes-hemichrysus": {
@@ -8389,12 +8431,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "myiodynastes-maculatus": {
@@ -8471,11 +8514,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "myiothlypis-coronata": {
    "days": [
@@ -8572,7 +8617,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     },
     {
@@ -8580,12 +8625,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "la-planada"
    ]
   },
   "myiozetetes-cayanensis": {
@@ -8949,12 +8995,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "la-drymophila"
+    "la-drymophila",
+    "la-planada"
    ]
   },
   "opisthocomus-hoazin": {
@@ -9449,12 +9496,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "la-planada"
    ]
   },
   "patagioenas-speciosa": {
@@ -9575,11 +9623,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "phimosus-infuscatus": {
    "days": [
@@ -9948,12 +9998,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": "H",
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "la-planada"
    ]
   },
   "pionus-menstruus": {
@@ -10098,12 +10149,13 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "sibundoy"
+    "sibundoy",
+    "la-planada"
    ]
   },
   "pitangus-sulphuratus": {
@@ -10345,7 +10397,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     },
     {
@@ -10353,11 +10405,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "progne-chalybea": {
    "days": [
@@ -10690,11 +10744,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "psittacara-leucophthalmus": {
    "days": [
@@ -10904,7 +10960,7 @@
      "count": 8,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
@@ -10912,7 +10968,8 @@
     "la-drymophila",
     "el-encanto",
     "puerto-asis",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "pyrocephalus-rubinus": {
@@ -11202,11 +11259,13 @@
      "count": 6,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "ramphocelus-nigrogularis": {
    "days": [
@@ -11349,7 +11408,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -11357,13 +11416,14 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
    "sites": [
     "isla-escondida",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "rupornis-magnirostris": {
@@ -11441,7 +11501,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
@@ -11450,7 +11510,8 @@
     "el-encanto",
     "finca-discosura",
     "el-escondite",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "rynchops-niger": {
@@ -11589,11 +11650,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "sclerurus-obscurior": {
    "days": [
@@ -11650,7 +11713,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": "H",
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -11658,11 +11721,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "serpophaga-cinerea": {
    "days": [
@@ -11793,7 +11858,7 @@
      "count": 4,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -11801,7 +11866,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
@@ -11809,7 +11874,8 @@
     "sumapaz",
     "chicaque",
     "trampolin-aves",
-    "sibundoy"
+    "sibundoy",
+    "la-planada"
    ]
   },
   "setophaga-pitiayumi": {
@@ -11825,11 +11891,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "sicalis-flaveola": {
    "days": [
@@ -11939,11 +12007,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "snowornis-subalaris": {
    "days": [
@@ -12178,11 +12248,13 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "sporophila-crassirostris": {
    "days": [
@@ -12423,11 +12495,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "stilpnia-nigrocincta": {
    "days": [
@@ -12556,12 +12630,13 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "la-planada"
    ]
   },
   "streptoprocne-zonaris": {
@@ -12622,14 +12697,15 @@
      "count": 5,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "strix-virgata": {
@@ -12766,13 +12842,14 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
     "chicaque",
-    "la-drymophila"
+    "la-drymophila",
+    "la-planada"
    ]
   },
   "synallaxis-brachyura": {
@@ -13005,12 +13082,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "la-planada"
    ]
   },
   "tachyphonus-surinamus": {
@@ -13065,7 +13143,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -13073,13 +13151,14 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
     "el-encanto",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "tangara-callophrys": {
@@ -13299,11 +13378,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "tangara-labradorides": {
    "days": [
@@ -13565,7 +13646,7 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     },
     {
@@ -13573,12 +13654,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
    "sites": [
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "tersina-viridis": {
@@ -13737,11 +13819,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "theristicus-caudatus": {
    "days": [
@@ -14235,13 +14319,14 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
    "sites": [
     "chicaque",
-    "el-encanto"
+    "el-encanto",
+    "la-planada"
    ]
   },
   "tolmomyias-poliocephalus": {
@@ -14469,7 +14554,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
@@ -14479,7 +14564,8 @@
     "finca-discosura",
     "playa-rica",
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "la-planada"
    ]
   },
   "troglodytes-solstitialis": {
@@ -14495,11 +14581,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "trogon-collaris": {
    "days": [
@@ -14575,11 +14663,13 @@
      "count": 3,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "trogon-ramonianus": {
    "days": [
@@ -15101,7 +15191,7 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
@@ -15110,7 +15200,8 @@
     "el-encanto",
     "finca-discosura",
     "el-escondite",
-    "sibundoy"
+    "sibundoy",
+    "la-planada"
    ]
   },
   "tyrannus-tyrannus": {
@@ -15198,11 +15289,13 @@
      "count": 2,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "urochroa-leucura": {
    "days": [
@@ -15367,11 +15460,13 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "14:14"
     }
    ],
-   "sites": []
+   "sites": [
+    "la-planada"
+   ]
   },
   "veniliornis-passerinus": {
    "days": [
@@ -15775,7 +15870,7 @@
      "count": 4,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "06:14"
     },
     {
@@ -15783,13 +15878,14 @@
      "count": 1,
      "date": "2026-10-17",
      "details": null,
-     "site": null,
+     "site": "la-planada",
      "time": "09:29"
     }
    ],
    "sites": [
     "el-encanto",
-    "trampolin-aves"
+    "trampolin-aves",
+    "la-planada"
    ]
   },
   "zonotrichia-capensis": {
@@ -16094,6 +16190,13 @@
     "observations": 43,
     "species": 43
    },
+   "la-planada": {
+    "checklists": 4,
+    "lifers": 32,
+    "new": 32,
+    "observations": 79,
+    "species": 64
+   },
    "monserrate": {
     "checklists": 1,
     "lifers": 10,
@@ -16149,11 +16252,11 @@
   "lifers": 435,
   "observations": 1056,
   "off_site": {
-   "checklists": 18,
-   "lifers": 63,
-   "new": 67,
-   "observations": 200,
-   "species": 137
+   "checklists": 14,
+   "lifers": 31,
+   "new": 35,
+   "observations": 121,
+   "species": 81
   },
   "species": 450
  },
