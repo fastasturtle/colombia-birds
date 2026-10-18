@@ -27,7 +27,10 @@
    * are dispatched on document: the shell (Base.astro) then keeps the «Есть новая версия» toast (whose
    * «Обновить» reloads the page and would abort the run) hidden until the run ends.
    */
-  import { onMount } from 'svelte';
+  import { onMount, type Snippet } from 'svelte';
+
+  // Slotted static HTML from offline/index.astro (HomeScreenHelp), shown between the actions and «Диагностика».
+  let { children }: { children?: Snippet } = $props();
 
   const BASE = import.meta.env.BASE_URL.replace(/\/?$/, '/'); // "/colombia-birds/"
   const PAGES = 'cb-pages-v1';
@@ -440,7 +443,11 @@
     {#if confirmDelete}<p class="small muted">Нажмите ещё раз, чтобы удалить всё скачанное. <button type="button" class="link" onclick={() => (confirmDelete = false)}>Отмена</button></p>{/if}
     {#if !online && manifest && !complete}<p class="small muted">Скачать можно, когда появится связь.</p>{/if}
   </section>
+{/if}
 
+{@render children?.()}
+
+{#if supported}
   <details class="diag" open>
     <summary>Диагностика</summary>
     <dl>
