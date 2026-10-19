@@ -1137,7 +1137,63 @@
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-19T09:35:50Z",
+ "fetched": "2026-10-19T14:27:35Z",
+ "group": {
+  "fetched": "2026-10-19T14:27:35Z",
+  "people": [
+   {
+    "checklists": 57,
+    "name": "Volkov Sergey",
+    "other_taxa": 1,
+    "role": "owner",
+    "species": 447
+   },
+   {
+    "checklists": 58,
+    "me": true,
+    "name": "Anna Kozhevnikova",
+    "other_taxa": 1,
+    "role": "editor",
+    "species": 437
+   },
+   {
+    "checklists": 48,
+    "name": "Oleg Chernyshov",
+    "other_taxa": 1,
+    "role": "editor",
+    "species": 408
+   },
+   {
+    "checklists": 49,
+    "name": "Igor Bobyr",
+    "other_taxa": 5,
+    "role": "editor",
+    "species": 337
+   },
+   {
+    "checklists": 20,
+    "name": "Sergey Popov",
+    "other_taxa": 0,
+    "role": "editor",
+    "species": 207
+   },
+   {
+    "checklists": 18,
+    "name": "Jenia Triger",
+    "other_taxa": 0,
+    "role": "editor",
+    "species": 179
+   }
+  ],
+  "report_ids": [
+   579125
+  ],
+  "total": {
+   "checklists": 92,
+   "other_taxa": 6,
+   "species": 519
+  }
+ },
  "observer": "Аня",
  "source": "eBird, личная выгрузка",
  "sources": {
@@ -1153,7 +1209,7 @@
    ],
    "checklists": 57,
    "duplicates": [],
-   "fetched": "2026-10-19T09:35:50Z",
+   "fetched": "2026-10-19T14:27:35Z",
    "ids": [
     579125
    ]

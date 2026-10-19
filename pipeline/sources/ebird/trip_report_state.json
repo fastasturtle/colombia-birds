@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T09:35:50Z",
+ "fetched_at": "2026-10-19T14:27:35Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -584,6 +584,67 @@
      "time": "15:52"
     }
    },
+   "group": {
+    "checklists": 92,
+    "other_taxa": 6,
+    "species": 519
+   },
+   "people": [
+    {
+     "checklists": 58,
+     "name": "Anna Kozhevnikova",
+     "other_taxa": 1,
+     "person_id": 820854,
+     "role": "editor",
+     "species": 437,
+     "user_id": "USER3559161"
+    },
+    {
+     "checklists": 49,
+     "name": "Igor Bobyr",
+     "other_taxa": 5,
+     "person_id": 820853,
+     "role": "editor",
+     "species": 337,
+     "user_id": "USER2882675"
+    },
+    {
+     "checklists": 18,
+     "name": "Jenia Triger",
+     "other_taxa": 0,
+     "person_id": 820852,
+     "role": "editor",
+     "species": 179,
+     "user_id": "USER2722607"
+    },
+    {
+     "checklists": 48,
+     "name": "Oleg Chernyshov",
+     "other_taxa": 1,
+     "person_id": 820851,
+     "role": "editor",
+     "species": 408,
+     "user_id": "USER1327996"
+    },
+    {
+     "checklists": 20,
+     "name": "Sergey Popov",
+     "other_taxa": 0,
+     "person_id": 821086,
+     "role": "editor",
+     "species": 207,
+     "user_id": "USER418406"
+    },
+    {
+     "checklists": 57,
+     "name": "Volkov Sergey",
+     "other_taxa": 1,
+     "person_id": 818878,
+     "role": "owner",
+     "species": 447,
+     "user_id": "USER1063968"
+    }
+   ],
    "person_id": 820854,
    "taxa": {
     "acowoo": {
@@ -697,11 +758,15 @@
       [
        "S399821902",
        1
+      ],
+      [
+       "S403591349",
+       1
       ]
      ],
      "en": "Andean Emerald",
-     "numChecklists": 3,
-     "numIndividuals": 4,
+     "numChecklists": 4,
+     "numIndividuals": 5,
      "sci": "Uranomitra franciae"
     },
     "andgul1": {
@@ -928,11 +993,15 @@
       [
        "S402636527",
        1
+      ],
+      [
+       "S403591349",
+       1
       ]
      ],
      "en": "Bay-headed Tanager",
-     "numChecklists": 10,
-     "numIndividuals": 27,
+     "numChecklists": 11,
+     "numIndividuals": 28,
      "sci": "Tangara gyrola"
     },
     "banana": {
@@ -1783,6 +1852,19 @@
      "numIndividuals": 2,
      "sci": "Pseudotriccus pelzelni"
     },
+    "brbmot1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       4
+      ]
+     ],
+     "en": "Broad-billed Motmot",
+     "numChecklists": 1,
+     "numIndividuals": 4,
+     "sci": "Electron platyrhynchum"
+    },
     "brcfly1": {
      "category": "species",
      "detail": [
@@ -1977,11 +2059,15 @@
       [
        "S402828585",
        2
+      ],
+      [
+       "S403591349",
+       2
       ]
      ],
      "en": "Blue-gray Tanager",
-     "numChecklists": 12,
-     "numIndividuals": 35,
+     "numChecklists": 13,
+     "numIndividuals": 37,
      "sci": "Thraupis episcopus"
     },
     "bunibi1": {
@@ -2033,11 +2119,15 @@
       [
        "S401862206",
        1
+      ],
+      [
+       "S403591349",
+       1
       ]
      ],
      "en": "Buff-throated Saltator",
-     "numChecklists": 2,
-     "numIndividuals": 2,
+     "numChecklists": 3,
+     "numIndividuals": 3,
      "sci": "Saltator maximus"
     },
     "butwoo1": {
@@ -2335,6 +2425,19 @@
      "numIndividuals": 4,
      "sci": "Celeus elegans"
     },
+    "chotou1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       4
+      ]
+     ],
+     "en": "Choco Toucan",
+     "numChecklists": 1,
+     "numIndividuals": 4,
+     "sci": "Ramphastos brevis"
+    },
     "cinfly2": {
      "category": "species",
      "detail": [
@@ -2368,6 +2471,19 @@
      "numChecklists": 1,
      "numIndividuals": 1,
      "sci": "Glaucidium nubicola"
+    },
+    "clwman1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       1
+      ]
+     ],
+     "en": "Club-winged Manakin",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Machaeropterus deliciosus"
     },
     "cocjac2": {
      "category": "species",
@@ -2607,11 +2723,15 @@
       [
        "S399821902",
        1
+      ],
+      [
+       "S403591349",
+       1
       ]
      ],
      "en": "Crowned Woodnymph",
-     "numChecklists": 2,
-     "numIndividuals": 3,
+     "numChecklists": 3,
+     "numIndividuals": 4,
      "sci": "Thalurania colombica"
     },
     "crrtou1": {
@@ -2841,6 +2961,19 @@
      "numIndividuals": 4,
      "sci": "Phylloscartes gualaquizae"
     },
+    "empbri1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403591349",
+       1
+      ]
+     ],
+     "en": "Empress Brilliant",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Heliodoxa imperatrix"
+    },
     "epaori1": {
      "category": "species",
      "detail": [
@@ -2957,11 +3090,19 @@
       [
        "S403474616",
        1
+      ],
+      [
+       "S403591349",
+       4
+      ],
+      [
+       "S403593819",
+       3
       ]
      ],
      "en": "Flame-rumped Tanager",
-     "numChecklists": 2,
-     "numIndividuals": 7,
+     "numChecklists": 4,
+     "numIndividuals": 14,
      "sci": "Ramphocelus flammigerus"
     },
     "foosco1": {
@@ -3457,11 +3598,15 @@
       [
        "S403474616",
        2
+      ],
+      [
+       "S403593819",
+       2
       ]
      ],
      "en": "Golden Tanager",
-     "numChecklists": 5,
-     "numIndividuals": 10,
+     "numChecklists": 6,
+     "numIndividuals": 12,
      "sci": "Tangara arthus"
     },
     "gontan1": {
@@ -4336,6 +4481,19 @@
      "numIndividuals": 6,
      "sci": "Aglaiocercus kingii"
     },
+    "lottyr1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       1
+      ]
+     ],
+     "en": "Long-tailed Tyrant",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Colonia colonus"
+    },
     "mactan1": {
      "category": "species",
      "detail": [
@@ -4441,6 +4599,19 @@
      "numChecklists": 1,
      "numIndividuals": 3,
      "sci": "Trogon personatus"
+    },
+    "matpar2": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       6
+      ]
+     ],
+     "en": "Maroon-tailed Parakeet",
+     "numChecklists": 1,
+     "numIndividuals": 6,
+     "sci": "Pyrrhura melanura"
     },
     "meapar": {
      "category": "species",
@@ -4626,6 +4797,19 @@
      "numIndividuals": 1,
      "sci": "Mionectes oleagineus"
     },
+    "ocbtan1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       3
+      ]
+     ],
+     "en": "Ochre-breasted Tanager",
+     "numChecklists": 1,
+     "numIndividuals": 3,
+     "sci": "Chlorothraupis stolzmanni"
+    },
     "olcfly1": {
      "category": "species",
      "detail": [
@@ -4776,11 +4960,15 @@
       [
        "S403454998",
        1
+      ],
+      [
+       "S403591349",
+       2
       ]
      ],
      "en": "Orange-bellied Euphonia",
-     "numChecklists": 9,
-     "numIndividuals": 15,
+     "numChecklists": 10,
+     "numIndividuals": 17,
      "sci": "Euphonia xanthogaster"
     },
     "orbspa1": {
@@ -4870,11 +5058,15 @@
       [
        "S403474616",
        1
+      ],
+      [
+       "S403593819",
+       1
       ]
      ],
      "en": "Ornate Flycatcher",
-     "numChecklists": 4,
-     "numIndividuals": 7,
+     "numChecklists": 5,
+     "numIndividuals": 8,
      "sci": "Myiotriccus ornatus"
     },
     "orwpar": {
@@ -4980,11 +5172,15 @@
       [
        "S402389337",
        5
+      ],
+      [
+       "S403591349",
+       2
       ]
      ],
      "en": "Palm Tanager",
-     "numChecklists": 7,
-     "numIndividuals": 16,
+     "numChecklists": 8,
+     "numIndividuals": 18,
      "sci": "Thraupis palmarum"
     },
     "partan1": {
@@ -5188,6 +5384,19 @@
      "numChecklists": 1,
      "numIndividuals": 1,
      "sci": "Thamnophilus schistaceus"
+    },
+    "pubwhi1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403591349",
+       1
+      ]
+     ],
+     "en": "Purple-bibbed Whitetip",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Urosticte benjamini"
     },
     "pumtan2": {
      "category": "species",
@@ -5713,6 +5922,19 @@
      "numIndividuals": 2,
      "sci": "Basileuterus delattrii"
     },
+    "rufsco1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       1
+      ]
+     ],
+     "en": "Rufescent Screech-Owl",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Megascops ingens"
+    },
     "rufspi1": {
      "category": "species",
      "detail": [
@@ -5861,6 +6083,19 @@
      "numChecklists": 1,
      "numIndividuals": 1,
      "sci": "Tigrisoma lineatum"
+    },
+    "ruttan1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403593819",
+       1
+      ]
+     ],
+     "en": "Rufous-throated Tanager",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Ixothraupis rufigula"
     },
     "sactan1": {
      "category": "species",
@@ -6304,11 +6539,15 @@
       [
        "S403463641",
        1
+      ],
+      [
+       "S403591349",
+       2
       ]
      ],
      "en": "Silver-throated Tanager",
-     "numChecklists": 1,
-     "numIndividuals": 1,
+     "numChecklists": 2,
+     "numIndividuals": 3,
      "sci": "Tangara icterocephala"
     },
     "siwgua1": {
@@ -6503,11 +6742,15 @@
       [
        "S403474616",
        1
+      ],
+      [
+       "S403593819",
+       1
       ]
      ],
      "en": "Smoke-colored Pewee",
-     "numChecklists": 3,
-     "numIndividuals": 5,
+     "numChecklists": 4,
+     "numIndividuals": 6,
      "sci": "Contopus fumigatus"
     },
     "snakit": {
@@ -7313,11 +7556,15 @@
       [
        "S403474616",
        2
+      ],
+      [
+       "S403591349",
+       1
       ]
      ],
      "en": "Three-striped Warbler",
-     "numChecklists": 4,
-     "numIndividuals": 5,
+     "numChecklists": 5,
+     "numIndividuals": 6,
      "sci": "Basileuterus tristriatus"
     },
     "tolblo1": {
@@ -7611,6 +7858,19 @@
      "numIndividuals": 3,
      "sci": "Sporophila corvina"
     },
+    "vepcor1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403591349",
+       1
+      ]
+     ],
+     "en": "Velvet-purple Coronet",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Boissonneaua jardini"
+    },
     "verfly": {
      "category": "species",
      "detail": [
@@ -7722,11 +7982,19 @@
       [
        "S403474616",
        3
+      ],
+      [
+       "S403591349",
+       1
+      ],
+      [
+       "S403593819",
+       1
       ]
      ],
      "en": "Violet-tailed Sylph",
-     "numChecklists": 3,
-     "numIndividuals": 7,
+     "numChecklists": 5,
+     "numIndividuals": 9,
      "sci": "Aglaiocercus coelestis"
     },
     "watjac1": {
@@ -7990,6 +8258,19 @@
      "numChecklists": 7,
      "numIndividuals": 9,
      "sci": "Tachyphonus rufus"
+    },
+    "whnjac1": {
+     "category": "species",
+     "detail": [
+      [
+       "S403591349",
+       1
+      ]
+     ],
+     "en": "White-necked Jacobin",
+     "numChecklists": 1,
+     "numIndividuals": 1,
+     "sci": "Florisuga mellivora"
     },
     "whsflo1": {
      "category": "species",
@@ -8545,11 +8826,15 @@
       [
        "S402636527",
        2
+      ],
+      [
+       "S403593819",
+       1
       ]
      ],
      "en": "Yellow-throated Chlorospingus",
-     "numChecklists": 2,
-     "numIndividuals": 4,
+     "numChecklists": 3,
+     "numIndividuals": 5,
      "sci": "Chlorospingus flavigularis"
     }
    },

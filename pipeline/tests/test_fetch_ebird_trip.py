@@ -1,5 +1,5 @@
 """Tests for steps/fetch_ebird_trip.py on responses captured from the eBird trip report backend (report 579125,
-18.10.2026, tests/fixtures/ebird_trip/) and the documented sample of the eBird API `product/checklist/view`.
+18.10.2026, tests/fixtures/ebird_trip/; num-species / num-checklists of 19.10.2026 in counts.json) and the documented sample of the eBird API `product/checklist/view`.
 
 Run: `cd pipeline && uv run python tests/test_fetch_ebird_trip.py` (plain asserts, no network).
 """
@@ -35,8 +35,9 @@ NAMES = {"grethr1": {"sci": "Turdus fuscater", "name": "Большой дроз�
 class FakeFetcher(ft.Fetcher):
     """Serves fixtures by path; `fail_on` (substring of the path) raises FetchError like a dead network."""
 
-    def __init__(self, taxon_list=None, fail_on: str | None = None, people=None):
+    def __init__(self, taxon_list=None, fail_on: str | None = None, people=None, counts=None):
         super().__init__(client=object(), min_interval=0)
+        self.counts = counts if counts is not None else fx("counts.json")
         self.taxon_list = taxon_list if taxon_list is not None else fx("taxon_list.json")
         self.people = people if people is not None else fx("people.json")
         self.fail_on = fail_on
@@ -50,6 +51,9 @@ class FakeFetcher(ft.Fetcher):
             raise ft.FetchError(f"{url}: ConnectError")
         if path.startswith("people/"):
             return self.people
+        if path.startswith(("num-species/", "num-checklists/")):
+            assert params is None or set(params) == {"tripReportPersonId"}, params
+            return self.counts[path.split("/")[0]][str((params or {}).get("tripReportPersonId", ""))]
         if path.startswith("checklists/"):
             assert params == {"tripReportPersonId": 820854}, params  # always person-filtered
             return fx("checklists.json")
@@ -164,8 +168,10 @@ def test_fallback_run_and_incremental():
         f = FakeFetcher()
         s = ft.run(f, None, NOW)
         assert s["wrote"] and s["mode"] == "taxon-list" and s["checklists"] == 3 and s["new"] == 3
-        # people, checklists, taxon-list, 3 taxon-details, 1 taxonomy lookup (rocpig, x00868 not in the species files)
-        assert s["requests"] == 7 and s["details"] == 3 and s["unknown_codes"] == 2, s
+        # people, checklists, taxon-list, 3 taxon-details, 2 x (3 people + group) counts, 1 taxonomy lookup
+        # (rocpig, x00868 not in the species files)
+        assert s["requests"] == 15 and s["details"] == 3 and s["unknown_codes"] == 2, s
+        assert s["group"] == ["group 519 species / 92 checklists, 3 people"]
         assert sorted(f.paths[3:6]) == ["taxon-detail/579125/grethr1", "taxon-detail/579125/rocpig", "taxon-detail/579125/x00868"]
         text = ft.OUT_CSV.read_text()
         rows = read_rows(text)
@@ -178,34 +184,53 @@ def test_fallback_run_and_incremental():
         state = json.loads(ft.STATE.read_text())
         assert state["fetched_at"] == "2026-10-18T18:00:00Z" and state["reports"]["579125"]["person_id"] == 820854
         assert set(state["taxonomy"]) == {"rocpig", "x00868"}
+        rep = state["reports"]["579125"]
+        assert rep["group"] == {"species": 519, "other_taxa": 6, "checklists": 92}
+        assert rep["people"][0] == {"person_id": 820854, "user_id": ANYA, "name": "Anna Kozhevnikova", "role": "editor",
+                                    "species": 437, "other_taxa": 1, "checklists": 58}
+        assert [(p["name"], p["role"], p["species"], p["checklists"]) for p in rep["people"][1:]] == [
+            ("Igor Bobyr", "editor", 337, 49), ("Volkov Sergey", "owner", 447, 57)]
+        # counts are asked per person (filtered) and for the group (unfiltered), after the person's own requests
+        assert f.paths[-9:-1] == ["num-species/579125", "num-checklists/579125"] * 4 and f.paths[-1] == "ref/taxonomy/ebird"
 
-        # unchanged report: people + checklists + taxon-list, nothing written
+        # unchanged report: people + checklists + taxon-list + 8 counts, nothing written
         f2 = FakeFetcher()
         s2 = ft.run(f2, None, datetime(2026, 10, 18, 20, 0, tzinfo=timezone.utc))
-        assert s2["requests"] == 3 and not s2["wrote"] and s2["details"] == 0
+        assert s2["requests"] == 11 and not s2["wrote"] and s2["details"] == 0
         assert ft.OUT_CSV.read_text() == text and json.loads(ft.STATE.read_text())["fetched_at"] == "2026-10-18T18:00:00Z"
+
+        # only a count changed (another participant's checklist): the state is written, the CSV stays the same
+        c = fx("counts.json")
+        c["num-checklists"]["820853"] += 1
+        c["num-species"][""] = [520, 6]
+        s_c = ft.run(FakeFetcher(counts=c), None, datetime(2026, 10, 18, 21, 0, tzinfo=timezone.utc))
+        assert s_c["wrote"] and s_c["details"] == 0 and ft.OUT_CSV.read_text() == text
+        st_c = json.loads(ft.STATE.read_text())
+        assert st_c["fetched_at"] == "2026-10-18T21:00:00Z" and st_c["reports"]["579125"]["group"]["species"] == 520
+        assert st_c["reports"]["579125"]["people"][1]["checklists"] == 50
+        assert not ft.run(FakeFetcher(counts=c), None, datetime(2026, 10, 18, 22, 0, tzinfo=timezone.utc))["wrote"]
 
         # one taxon's counts changed: only its detail is fetched again; a taxon gone from the list is dropped
         tl = [t for t in fx("taxon_list.json") if t["speciesCode"] != "x00868"]
         next(t for t in tl if t["speciesCode"] == "grethr1")["numIndividuals"] += 1
         f3 = FakeFetcher(taxon_list=tl)
         s3 = ft.run(f3, None, NOW)
-        assert s3["requests"] == 4 and f3.paths[-1] == "taxon-detail/579125/grethr1" and s3["wrote"]
+        assert s3["requests"] == 12 and f3.paths[3] == "taxon-detail/579125/grethr1" and s3["wrote"]
         assert "x00868" not in json.loads(ft.STATE.read_text())["reports"]["579125"]["taxa"]
 
 
 def test_key_mode_run():
     with Sandbox():
         s = ft.run(FakeFetcher(), "KEY", NOW)
-        # people, checklists, 3 checklist views, 1 taxonomy lookup (gwfgoo2, cacgoo1); no taxon-list in key mode
-        assert s["mode"] == "key" and s["views"] == 3 and s["requests"] == 6, s
+        # people, checklists, 3 checklist views, 8 counts, 1 taxonomy lookup (gwfgoo2, cacgoo1); no taxon-list in key mode
+        assert s["mode"] == "key" and s["views"] == 3 and s["requests"] == 14, s
         rows = read_rows(ft.OUT_CSV.read_text())
         assert len(rows) == 9 and {r["Protocol"] for r in rows} == {"eBird - Stationary Count"}
         # the 18 Oct checklist is recent: fetched again only after REFRESH_HOURS
         s2 = ft.run(FakeFetcher(), "KEY", datetime(2026, 10, 18, 20, 0, tzinfo=timezone.utc))
-        assert s2["requests"] == 2 and not s2["wrote"]
+        assert s2["requests"] == 10 and not s2["wrote"]
         s3 = ft.run(FakeFetcher(), "KEY", datetime(2026, 10, 19, 7, 0, tzinfo=timezone.utc))
-        assert s3["views"] == 1 and s3["requests"] == 3 and s3["wrote"]  # only its `fetched` changed
+        assert s3["views"] == 1 and s3["requests"] == 11 and s3["wrote"]  # only its `fetched` changed
         # a later run without the key keeps the key-mode rows (numSpecies unchanged)
         s4 = ft.run(FakeFetcher(), None, NOW)
         assert {r["Protocol"] for r in read_rows(ft.OUT_CSV.read_text())} == {"eBird - Stationary Count"}
@@ -219,7 +244,7 @@ def test_no_write_on_failure():
         tl = copy.deepcopy(fx("taxon_list.json"))
         for t in tl:
             t["numChecklists"] += 1  # everything changed
-        for fail in ("taxon-detail/579125/rocpig", "taxon-list/", "ref/taxonomy"):
+        for fail in ("taxon-detail/579125/rocpig", "taxon-list/", "num-checklists/", "ref/taxonomy"):
             f = FakeFetcher(taxon_list=tl + ([{"speciesCode": "newsp1", "category": "species", "sciName": "Nova avis",
                                                "commonName": "New", "numIndividuals": 1, "numChecklists": 1}]
                                              if fail == "ref/taxonomy" else []), fail_on=fail)
