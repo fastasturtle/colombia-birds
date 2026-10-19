@@ -23,7 +23,7 @@ Sources, merged per checklist (Submission ID):
   the same date, time and Location ID as an export checklist is the same outing under a new id (deleted and entered
   again, or a shared copy accepted) and is skipped too; such pairs are listed in the report. `--import` rewrites only
   the export files; the trip-report files belong to `ebird_trip`. trip_report_state.json gives `fetched` (the last
-  `ebird_trip` run that brought changes) and the report ids. Either CSV may be missing (not both).
+  `ebird_trip` run that brought changes), the report ids and the group's counts. Either CSV may be missing (not both).
 
 Matching:
 - taxon -> species slug: the scientific name with parentheticals ("Columba livia (Feral Pigeon)") and bracketed
@@ -57,6 +57,12 @@ data/observations.json:
                  source ("export" | "trip_report"), passing (only when true)}]  sorted by date, time
    species: {slug: {first, lifer, n_checklists, sites, days, obs: [{cl, date, time, site, count, details}]}}
    unmatched: [{sci, name, n, dates}]
+   group: {fetched, report_ids, total: {species, other_taxa, checklists},
+           people: [{name, role, species, other_taxa, checklists, me (only true, the configured user_id)}]} or null
+     numbers only, eBird's own count per participant of the trip report (state `people` / `group`, step `ebird_trip`),
+     sorted by species, then checklists (both desc), then name; null without the trip-report files or counts. No user
+     ids or checklist ids of the others (the site is public; user_id stays in the state and the config). With several
+     reports, checklists are summed and species / other_taxa are the largest per-report count (eBird gives no union).
    stats: {species, lifers, checklists, observations, days,
            by_day: {date: {species, new, lifers, checklists, observations}},
            by_site: {site: {species, new, lifers, checklists, observations, passing_checklists (only when > 0)}},
@@ -382,6 +388,47 @@ def build(rows: list[dict], life: set[str], index: list[dict], sites: list[dict]
     }
 
 
+def group_block(state: dict | None) -> dict | None:
+    """The «Группа» block from the trip-report state (see the module docstring); None without counts."""
+    reps = [(rid, r) for rid, r in ((state or {}).get("reports") or {}).items() if r.get("people") and r.get("group")]
+    if not reps:
+        return None
+    me = (state or {}).get("user_id")
+    keys = ("species", "other_taxa", "checklists")
+
+    def add(acc: dict, e: dict) -> None:
+        acc["checklists"] += e.get("checklists") or 0
+        for k in ("species", "other_taxa"):
+            acc[k] = max(acc[k], e.get(k) or 0)
+
+    total = dict.fromkeys(keys, 0)
+    people: dict[str, dict] = {}
+    for _, r in reps:
+        add(total, r["group"])
+        for p in r["people"]:
+            e = people.setdefault(p.get("user_id") or p.get("name") or "", {
+                "name": p.get("name") or "", "role": p.get("role"), **dict.fromkeys(keys, 0),
+                **({"me": True} if me and p.get("user_id") == me else {})})
+            add(e, p)
+    return {"fetched": state.get("fetched_at"), "report_ids": [int(rid) for rid, _ in reps], "total": total,
+            "people": sorted(people.values(), key=lambda e: (-e["species"], -e["checklists"], e["name"]))}
+
+
+def group_lines(obs: dict) -> list[str]:
+    g = obs.get("group")
+    if not g:
+        return []
+    lines = ["", "## Группа (отчёт поездки eBird)", "",
+             f"Счёт eBird по отчёту {', '.join(map(str, g['report_ids']))} (обновлён {g['fetched'] or '?'}), только числа. "
+             "Прочие таксоны — гибриды, spuh, пары видов.", "",
+             "| Участник | Видов | Прочих таксонов | Чеклистов |", "|---|---|---|---|"]
+    for p in g["people"]:
+        lines.append(f"| {p['name']}{' (Аня)' if p.get('me') else ''} | {p['species']} | {p['other_taxa']} | {p['checklists']} |")
+    t = g["total"]
+    lines.append(f"| **вся группа** | {t['species']} | {t['other_taxa']} | {t['checklists']} |")
+    return lines
+
+
 def plural(n: int, one: str, few: str, many: str) -> str:
     m10, m100 = n % 10, n % 100
     return one if m10 == 1 and m100 != 11 else few if 2 <= m10 <= 4 and not 12 <= m100 <= 14 else many
@@ -430,6 +477,7 @@ def report(obs: dict, sites: list[dict], itinerary: list[dict]) -> str:
     if st["off_site"]:
         e = st["off_site"]
         lines.append(f"| вне локаций маршрута | {e['species']} | {e['new']} | {e['lifers']} | {e['checklists']} |")
+    lines += group_lines(obs)
     lines += ["", "## Не сопоставлено с базой сайта", ""]
     lines += [f"- *{u['sci']}* ({u['name']}): {u['n']} {plural(u['n'], 'запись', 'записи', 'записей')}, {', '.join(u['dates'])}" for u in obs["unmatched"]] or ["Нет."]
     lines += ["", "## Чеклисты проездом", "",
@@ -486,6 +534,7 @@ def main() -> None:
         "trip_report": {"ids": [int(i) for i in (state or {}).get("reports") or {}], "fetched": fetched, **merge}
         if TRIP_REPORT_CSV.exists() else None,
     }
+    obs["group"] = group_block(state)
     write_json(OUT, obs)
     write_text(REPORT, report(obs, read_json(DATA / "sites.json"), itinerary))
     st = obs["stats"]

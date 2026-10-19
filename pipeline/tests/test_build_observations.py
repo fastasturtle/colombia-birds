@@ -181,6 +181,20 @@ def test_merge_trip_report():
     assert "T2 = E2" in rep
 
 
+def test_group_block():
+    """Several reports: checklists summed, species the largest per report; reports without counts are skipped."""
+    p = lambda uid, sp, cl: {"person_id": 0, "user_id": uid, "name": uid.lower(), "role": "editor", "species": sp,
+                             "other_taxa": 0, "checklists": cl}
+    state = {"fetched_at": "T", "user_id": "B", "reports": {
+        "1": {"people": [p("A", 10, 3), p("B", 12, 4)], "group": {"species": 15, "other_taxa": 1, "checklists": 6}},
+        "2": {"people": [p("B", 20, 2)], "group": {"species": 20, "other_taxa": 0, "checklists": 2}},
+        "3": {"checklists": {}}}}
+    g = bo.group_block(state)
+    assert g["report_ids"] == [1, 2] and g["total"] == {"species": 20, "other_taxa": 1, "checklists": 8}
+    assert [(e["name"], e["species"], e["checklists"], e.get("me")) for e in g["people"]] == [("b", 20, 6, True), ("a", 10, 3, None)]
+    assert bo.group_block({"reports": {"1": {}}}) is None and bo.group_block(None) is None
+
+
 def test_main_writes_sources_and_fetched():
     """main(): both CSVs merged, `fetched` from the trip-report state, `sources` block, per-checklist `source`."""
     saved = (bo.TRIP_CSV, bo.LIFE_JSON, bo.TRIP_REPORT_CSV, bo.TRIP_STATE, bo.OUT, bo.REPORT, bo.DATA)
@@ -203,10 +217,25 @@ def test_main_writes_sources_and_fetched():
             w.writeheader()
             w.writerows([rows[0], extra, pre])
             bo.TRIP_REPORT_CSV.write_text(buf.getvalue())
-            bo.TRIP_STATE.write_text(json.dumps({"fetched_at": "2026-10-18T18:00:00Z", "reports": {"579125": {}}}))
+            people = [{"person_id": 1, "user_id": "USER1", "name": "Anna K", "role": "editor", "species": 437, "other_taxa": 1, "checklists": 58},
+                      {"person_id": 2, "user_id": "USER2", "name": "Igor B", "role": "editor", "species": 337, "other_taxa": 0, "checklists": 49},
+                      {"person_id": 3, "user_id": "USER3", "name": "Sergey V", "role": "owner", "species": 447, "other_taxa": 2, "checklists": 57}]
+            bo.TRIP_STATE.write_text(json.dumps({"fetched_at": "2026-10-18T18:00:00Z", "user_id": "USER1", "reports": {
+                "579125": {"person_id": 1, "people": people, "group": {"species": 519, "other_taxa": 6, "checklists": 92}}}}))
             sys.argv = ["build_observations.py"]
             bo.main()
-            obs = json.loads(bo.OUT.read_text())
+            text = bo.OUT.read_text()
+            obs = json.loads(text)
+            g = obs["group"]
+            assert g["fetched"] == "2026-10-18T18:00:00Z" and g["report_ids"] == [579125]
+            assert g["total"] == {"species": 519, "other_taxa": 6, "checklists": 92}
+            assert g["people"] == [  # by species desc; `me` only on the configured user; no ids
+                {"name": "Sergey V", "role": "owner", "species": 447, "other_taxa": 2, "checklists": 57},
+                {"name": "Anna K", "role": "editor", "species": 437, "other_taxa": 1, "checklists": 58, "me": True},
+                {"name": "Igor B", "role": "editor", "species": 337, "other_taxa": 0, "checklists": 49}]
+            assert "USER" not in text and "person_id" not in text
+            md = bo.REPORT.read_text()
+            assert "| Anna K (Аня) | 437 | 1 | 58 |" in md and "| **вся группа** | 519 | 6 | 92 |" in md and "USER" not in md
             assert obs["fetched"] == "2026-10-18T18:00:00Z" and obs["exported"] == "2026-10-04"
             tr = obs["sources"]["trip_report"]
             assert tr["ids"] == [579125] and tr["added"] == ["S9"] and tr["checklists"] == 2
@@ -218,7 +247,7 @@ def test_main_writes_sources_and_fetched():
             bo.TRIP_REPORT_CSV.unlink()
             bo.main()
             obs = json.loads(bo.OUT.read_text())
-            assert obs["fetched"] is None and obs["sources"]["trip_report"] is None
+            assert obs["fetched"] is None and obs["sources"]["trip_report"] is None and obs["group"] is None
             assert {c["source"] for c in obs["checklists"]} == {"export"}
         finally:
             bo.TRIP_CSV, bo.LIFE_JSON, bo.TRIP_REPORT_CSV, bo.TRIP_STATE, bo.OUT, bo.REPORT, bo.DATA = saved

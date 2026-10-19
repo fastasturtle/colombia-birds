@@ -8,11 +8,16 @@ Config: pipeline/sources/ebird/trip_reports.json
   `user_id` = whose checklists to take (eBird user id of the person in the report's `people` list); `reports` is a list
   because one trip report covers at most 31 days. To take the whole group later, the person filter is the only thing
   to change: every per-person request carries tripReportPersonId.
+  For the «Группа» block of /seen/ the step also takes, for every participant and for the whole report, only the
+  numbers (species, other taxa, checklists): no checklist ids, locations or species lists of the others.
 
 Sources (no key): the JSON backend of the trip report page, https://ebird.org/tripreport-internal/v1/ (undocumented
 and internal: requests are serial, ~0.7 s apart, 20 s timeout, 3 attempts with backoff, browser-like User-Agent; the
 HTML page is behind an anti-bot challenge, the JSON is not; responses are no-store, so no HTTP cache):
   people/{id}                                       -> [{tripReportPersonId, userId, userDisplayName, role}]
+  num-species/{id}[?tripReportPersonId=P]           -> [species, other taxa (hybrids, spuhs, slashes)], e.g. [437, 1];
+                                                       without the filter: the whole group
+  num-checklists/{id}[?tripReportPersonId=P]        -> 58 (checklists; without the filter: the group's, de-duplicated)
   checklists/{id}?tripReportPersonId=P              -> [{subId, numSpecies, obsTime "HH:MM", isoObsDate "YYYY-MM-DD HH:MM",
                                                         loc: {locId, name, latitude, longitude, subnational1Code}}]
   taxon-list/{id}?tripReportPersonId=P              -> [{speciesCode, category, commonName, sciName, numIndividuals,
@@ -33,15 +38,23 @@ Per-checklist species rows, two modes:
     A checklist whose stored species are fewer than its numSpecies is logged as a warning.
   A checklist fetched in key mode keeps its key-mode rows when a later run has no key.
 
+Request budget per report and run: people + checklists + 2 x (participants + 1) counts (num-species, num-checklists
+per person and for the group; key-independent), plus taxon-list in fallback mode, plus the views / taxon details of
+what changed, plus one taxonomy lookup for unknown codes. Unchanged report of 6 people: ~16 requests in key mode,
+~17 in fallback mode.
+
 State: pipeline/sources/ebird/trip_report_state.json (committed; the CSV is rebuilt from it on every run)
   {fetched_at (UTC ISO of the last run that changed anything), user_id,
    reports: {<id>: {person_id, checklists: {subId: {date, time, numSpecies, loc_id, loc_name, lat, lng, region}},
+                    people: [{person_id, user_id, name, role, species, other_taxa, checklists}]  (in the report's order),
+                    group: {species, other_taxa, checklists}  (the whole report),
                     views: {subId: {fetched, numSpecies, protocolId, durationHrs, allObsReported, numObservers,
                                     effortDistanceKm, effortAreaHa, comments, subnational1Code,
                                     obs: [{code, count, comments, breeding}]}},
                     taxa: {code: {category, sci, en, numChecklists, numIndividuals, detail: [[subId, howMany]]}}}},
    taxonomy: {code: {sci, name, order}}}  names of codes not in data/species (eBird ref/taxonomy, locale=ru, no key)
   Checklists missing from a successful `checklists` answer (deleted on eBird) are dropped with their rows.
+  The counts are part of the state: a change in any of them is a change (state and CSV written, fetched_at updated).
 
 Output: pipeline/sources/ebird/trip_report.csv, the same header and value formats as the export
 (colombia_2026.csv): Date YYYY-MM-DD, Time "hh:mm AM", Protocol "eBird - Traveling Count" etc. (protocolId P22/P21/
@@ -148,6 +161,13 @@ def resolve_person(people: list[dict], user_id: str) -> int:
             return int(p["tripReportPersonId"])
     raise LookupError(f"{user_id} is not among the report's people "
                       f"({', '.join(str(p.get('userId')) for p in people or [])})")
+
+
+def counts(num_species, num_checklists) -> dict:
+    """num-species ([species, other taxa], or a bare number) and num-checklists answers -> the state's counts."""
+    ns = num_species if isinstance(num_species, list) else [num_species]
+    return {"species": int(ns[0] or 0) if ns else 0, "other_taxa": int(ns[1] or 0) if len(ns) > 1 else 0,
+            "checklists": int(num_checklists or 0)}
 
 
 def checklist_meta(c: dict) -> dict:
@@ -291,7 +311,8 @@ def to_csv(rows: list[dict]) -> str:
 
 def update_report(f: Fetcher, rid: int, user_id: str, old: dict, key: str | None, now: datetime, stats: dict) -> dict:
     """Fetch what changed for one report; returns its new state (old is not modified)."""
-    person = resolve_person(f.trip(f"people/{rid}"), user_id)
+    people = f.trip(f"people/{rid}")
+    person = resolve_person(people, user_id)
     pf = {"tripReportPersonId": person}
     listing = f.trip(f"checklists/{rid}", pf)
     checklists = {c["subId"]: checklist_meta(c) for c in listing}
@@ -334,7 +355,18 @@ def update_report(f: Fetcher, rid: int, user_id: str, old: dict, key: str | None
         for sid, c in checklists.items():
             if sid not in views and (c["numSpecies"] or 0) > covered.get(sid, 0):
                 log(f"  warning: {sid} ({c['date']}) has {c['numSpecies']} species, rows for {covered.get(sid, 0)}")
-    return {"person_id": person, "checklists": checklists, "views": views, "taxa": taxa}
+    # numbers only for the «Группа» block: every participant, then the whole report
+    group_people = []
+    for p in people:
+        q = {"tripReportPersonId": int(p["tripReportPersonId"])}
+        group_people.append({"person_id": q["tripReportPersonId"], "user_id": p.get("userId"),
+                             "name": p.get("userDisplayName") or "", "role": p.get("role"),
+                             **counts(f.trip(f"num-species/{rid}", q), f.trip(f"num-checklists/{rid}", q))})
+    group = counts(f.trip(f"num-species/{rid}"), f.trip(f"num-checklists/{rid}"))
+    stats["group"].append(f"group {group['species']} species / {group['checklists']} checklists, "
+                          f"{len(group_people)} people")
+    return {"person_id": person, "checklists": checklists, "views": views, "taxa": taxa,
+            "people": group_people, "group": group}
 
 
 def strip_times(state: dict) -> dict:
@@ -352,7 +384,7 @@ def run(f: Fetcher, key: str | None, now: datetime) -> dict:
     old = read_json(STATE) or {}
     if old.get("user_id") not in (None, cfg["user_id"]):
         old = {}  # another person: start over
-    stats = {"checklists": 0, "new": 0, "changed": 0, "gone": 0, "views": 0, "details": 0}
+    stats = {"checklists": 0, "new": 0, "changed": 0, "gone": 0, "views": 0, "details": 0, "group": []}
     reports = {}
     for r in cfg["reports"]:
         rid = str(r["id"])
@@ -399,7 +431,7 @@ def main() -> None:
                  f"{OUT_CSV.relative_to(ROOT)} and the state left as they were")
     log(f"ebird_trip ({s['mode']}): {s['checklists']} checklists in the report(s), {s['new']} new, {s['changed']} changed, "
         f"{s['gone']} gone; {s['views']} checklist views, {s['details']} taxon details, {s['unknown_codes']} codes looked up "
-        f"in the taxonomy; {s['requests']} requests in {time.monotonic() - t0:.0f}s; "
+        f"in the taxonomy; {'; '.join(s['group'])}; {s['requests']} requests in {time.monotonic() - t0:.0f}s; "
         + (f"{s['rows']} rows -> {OUT_CSV.relative_to(ROOT)}" if s["wrote"] else "nothing changed, files untouched"))
 
 
