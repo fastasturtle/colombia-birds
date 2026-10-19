@@ -4,11 +4,18 @@
  *
  * POST /report  {page, species?, heading?, message, honeypot, ua}
  * GET  /        health check
+ *
+ * Cron triggers (wrangler.toml [triggers]) dispatch GitHub workflows, because GitHub's own schedules
+ * can run hours late under load. The GitHub crons stay in the workflows as a fallback.
  */
 
 export interface Env {
   RATE: KVNamespace;
   GITHUB_REPORTS_TOKEN: string;
+  /** [vars] in wrangler.toml */
+  OBSERVATIONS_WORKFLOW: string;
+  WEATHER_WORKFLOW: string;
+  DISPATCH_REF: string;
 }
 
 const REPO = 'fastasturtle/colombia-birds';
@@ -121,7 +128,48 @@ async function handleReport(req: Request, env: Env, origin: string | null): Prom
   }
 }
 
+// Must match [triggers] crons in wrangler.toml (event.cron is the exact string from there).
+const CRON_OBSERVATIONS = '47 */2 * * *';
+const CRON_WEATHER = '13 10 * * *';
+
+async function dispatchWorkflow(env: Env, workflow: string, inputs?: Record<string, string>): Promise<void> {
+  const url = `https://api.github.com/repos/${REPO}/actions/workflows/${encodeURIComponent(workflow)}/dispatches`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${env.GITHUB_REPORTS_TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'User-Agent': 'colombia-birds-reports',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(inputs ? { ref: env.DISPATCH_REF, inputs } : { ref: env.DISPATCH_REF }),
+  });
+  console.log('dispatch', workflow, env.DISPATCH_REF, res.status);
+  if (res.status !== 204) {
+    const body = (await res.text()).slice(0, 500);
+    console.error('dispatch failed', workflow, res.status, body);
+    // Throw so the cron invocation is marked as failed in the Cloudflare dashboard.
+    throw new Error(`dispatch ${workflow}: HTTP ${res.status}`);
+  }
+}
+
 export default {
+  async scheduled(event: ScheduledController, env: Env): Promise<void> {
+    switch (event.cron) {
+      case CRON_OBSERVATIONS:
+        // `scheduled: "true"` makes the workflow apply its trip-end guard, like a GitHub schedule.
+        await dispatchWorkflow(env, env.OBSERVATIONS_WORKFLOW, { scheduled: 'true' });
+        break;
+      case CRON_WEATHER:
+        await dispatchWorkflow(env, env.WEATHER_WORKFLOW);
+        break;
+      default:
+        console.error('unknown cron', event.cron);
+    }
+  },
+
+
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
     const origin = req.headers.get('Origin');

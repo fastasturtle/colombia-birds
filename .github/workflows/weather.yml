@@ -4,10 +4,14 @@ name: weather
 # data/weather.json, commits it back via pipeline/ci_commit.sh and, when something was pushed to main,
 # dispatches deploy.yml (ci_commit.sh does that only after a real push, so an unchanged file, or a run
 # after the trip when the step leaves the file untouched, deploys nothing).
+# Two triggers at 10:13 UTC: the Cloudflare Worker cron (worker/, `13 10 * * *`, dispatches this workflow on main;
+# fires to the minute) and GitHub's own cron below as a fallback (GitHub delays schedules by hours under load).
+# A duplicate run is harmless: the second one finds the file unchanged and commits nothing. No trip-end guard here:
+# outside the forecast window the step leaves data/weather.json untouched.
 
 on:
   schedule:
-    - cron: "13 10 * * *"   # 05:13 Bogotá (UTC-5); off the full hour, GitHub delays :00 schedules under load
+    - cron: "13 10 * * *"   # fallback; 05:13 Bogotá (UTC-5); off the full hour, GitHub delays :00 schedules under load
   workflow_dispatch:
 
 permissions:

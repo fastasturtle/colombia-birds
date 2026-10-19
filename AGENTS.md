@@ -64,7 +64,7 @@
 - Факт-чек карточек: скилл `fact-check` ставит `checked: <дата>` во frontmatter; `python3 scripts/card_index.py` пересобирает `docs/fact-check/INDEX.md` (сколько проверено, какие нет).
 - Загрузить фото для набора видов: Actions → pipeline → steps `photos upload`, `only` = слаги.
 - Погода: `data/weather.json` (прогноз Open-Meteo утро/день/вечер по дням и локациям) обновляет без ИИ ежедневный
-  workflow `.github/workflows/weather.yml` (05:00 Боготы, шаг `weather`, коммит + деплой). Вручную: `uv run python run.py weather`
+  workflow `.github/workflows/weather.yml` (05:13 Боготы, шаг `weather`, коммит + деплой). Вручную: `uv run python run.py weather`
   или Actions → weather → Run workflow. Ночёвка вне `data/sites.json` (отель в городе): поле дня
   `overnight_loc` `{id, name_ru, lat, lon}` в `data/itinerary.json` (высота из `elev_sleep`), без него — Богота. На сайте: `WeatherDay.astro` на странице дня и строка в `DayCard.astro`.
 - Наблюдения в туре (что уже увидели) обновляются сами: workflow `.github/workflows/observations.yml` каждые 2 часа
@@ -84,4 +84,8 @@
   отчёта поездки (только имена и числа: виды, чеклисты; без чеклистов, локаций и списков видов — решение владельца),
   его тоже обновляет `ebird_trip`.
   Подробная процедура (проверка отчёта, несопоставленные виды, чеклисты без локации, деплой): скилл `ebird`.
+- Расписания `observations` (каждые 2 часа) и `weather` (10:13 UTC): GitHub под нагрузкой запускает cron с опозданием
+  на часы, поэтому оба workflow вовремя запускает cron Cloudflare Worker (`worker/`, `[triggers]` в `wrangler.toml`,
+  `observations` в :47 с input `scheduled=true`, чтобы после поездки он останавливался, как cron GitHub). Cron GitHub
+  в workflow оставлены запасными. Токену `REPORTS_TOKEN` для этого нужно право Actions: Read and write (`worker/README.md`).
 - Прогресс пайплайна в CI: `curl -s https://pub-5e58909dbd0e457c85e4e36ef2cdc583.r2.dev/status/pipeline.json` (обновляется раз в минуту; локально `pipeline/cache/status.json`, см. `pipeline/README.md`).

@@ -148,3 +148,4 @@
 - [ ] `XENO_CANTO_API_KEY` приходит в job пустым: проверить имя секрета в репозитории
 - [ ] У части лицензий Commons в `license_url` нет завершающего слэша
 - [ ] Скиллы для агентов: `/write-species-text`, `/add-similar-pair`, `/fetch-photos`
+- [x] Надёжные расписания (19.10): GitHub запускал `observations` раз в 5–7 часов вместо 2, `weather` в 16:44 вместо 10:00. Cron GitHub сдвинуты с ровного часа (:17, 10:13) и остались запасными, основной запуск — cron Cloudflare Worker (`worker/`, :47 каждые 2 часа и 10:13 UTC) через `workflow_dispatch`. Проверить после деплоя Worker: у `REPORTS_TOKEN` право Actions: Read and write, в Actions → observations прогон `workflow_dispatch` в xx:47

@@ -7,13 +7,22 @@ name: observations
 # With the EBIRD_API_KEY secret the step reads full checklists from the eBird API (protocol, effort, comments);
 # without it, species and counts from the trip report only. The manual export (`observations --import`) stays the
 # richer source and wins per checklist.
+# Two triggers every 2 hours: the Cloudflare Worker cron at :47 (worker/, `47 */2 * * *`, dispatches this workflow
+# on main with input scheduled=true; fires to the minute) and GitHub's own cron at :17 as a fallback (GitHub delays
+# schedules by hours under load). A duplicate run is harmless: nothing new, a couple of requests, no commit.
 # Scheduled runs stop by themselves the day after the trip: the guard step compares today (Bogotá) with the last
-# date of data/itinerary.json + 1 day and skips the fetch when it is later (a manual dispatch always runs).
+# date of data/itinerary.json + 1 day and skips the fetch when it is later. This applies to the GitHub schedule and
+# to the Worker dispatch (scheduled=true); a human «Run workflow» with the default input always runs.
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # off the full hour: GitHub delays :00 schedules for hours under load (19.10: 5–7 h)
+    - cron: "17 */2 * * *"   # fallback; off the full hour: GitHub delays :00 schedules for hours under load (19.10: 5–7 h)
   workflow_dispatch:
+    inputs:
+      scheduled:
+        description: "set by the Cloudflare cron; applies the trip-end guard like a schedule"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -45,9 +54,12 @@ jobs:
       - name: Remember start commit
         run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
-      # Scheduled runs only: nothing to fetch from the day after the trip's last day (plus one day for late uploads).
+      # Scheduled runs only (GitHub cron, or the Worker's dispatch with scheduled=true): nothing to fetch from the day
+      # after the trip's last day (plus one day for late uploads).
       - name: Still on the trip?
         id: trip
+        env:
+          SCHEDULED: ${{ inputs.scheduled }}
         run: |
           python3 - <<'PY'
           import json, datetime, os
@@ -55,11 +67,13 @@ jobs:
           days = days["days"] if isinstance(days, dict) else days
           last = max(datetime.date.fromisoformat(d["date"]) for d in days)
           today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).date()
-          manual = os.environ["GITHUB_EVENT_NAME"] == "workflow_dispatch"
+          scheduled = os.environ.get("SCHEDULED", "").strip().lower() == "true"
+          manual = os.environ["GITHUB_EVENT_NAME"] == "workflow_dispatch" and not scheduled
           active = manual or today <= last + datetime.timedelta(days=1)
           with open(os.environ["GITHUB_OUTPUT"], "a") as out:
               out.write(f"active={'true' if active else 'false'}\n")
-          print(f"::notice::trip ends {last}, today {today} (Bogotá): {'running' if active else 'skipping, trip over'}")
+          kind = "manual" if manual else "scheduled"
+          print(f"::notice::{kind} run; trip ends {last}, today {today} (Bogotá): {'running' if active else 'skipping, trip over'}")
           PY
 
       # A few requests per run once the state file is committed: no ci_run.sh and no HTTP cache (the trip report
