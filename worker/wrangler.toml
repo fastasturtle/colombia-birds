@@ -2,6 +2,7 @@
 # Deployed by .github/workflows/worker.yml. The KV namespace id is not hard-coded:
 # the workflow looks up (or creates) the "RATE" namespace and writes wrangler.deploy.toml.
 # Secret: GITHUB_REPORTS_TOKEN (set by the workflow via `wrangler secret put`).
+# Cron triggers dispatch GitHub workflows (GitHub's own schedules run hours late under load); see README.md.
 name = "colombia-birds-reports"
 main = "src/index.ts"
 compatibility_date = "2026-09-01"
@@ -11,3 +12,14 @@ workers_dev = true
 binding = "RATE"
 # Placeholder for `wrangler dev --local`; replaced in CI with the real namespace id.
 id = "local-rate"
+
+# Cron strings must match CRON_* in src/index.ts. UTC.
+# :47 every 2 h -> observations.yml (its GitHub fallback cron is at :17); 10:13 daily -> weather.yml
+# (same time as its GitHub fallback cron; a duplicate run is harmless).
+[triggers]
+crons = ["47 */2 * * *", "13 10 * * *"]
+
+[vars]
+OBSERVATIONS_WORKFLOW = "observations.yml"
+WEATHER_WORKFLOW = "weather.yml"
+DISPATCH_REF = "main"
