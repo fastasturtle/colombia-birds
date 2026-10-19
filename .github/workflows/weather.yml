@@ -7,7 +7,7 @@ name: weather
 
 on:
   schedule:
-    - cron: "0 10 * * *"   # 05:00 Bogotá (UTC-5)
+    - cron: "13 10 * * *"   # 05:13 Bogotá (UTC-5); off the full hour, GitHub delays :00 schedules under load
   workflow_dispatch:
 
 permissions:

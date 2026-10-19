@@ -98,7 +98,7 @@ job 330), so long runs stop cleanly and the final commit always has time; re-dis
 Two light scheduled workflows run without AI on the `pipeline-light` queue, with no `ci_run.sh` and no HTTP
 cache, and commit via `ci_commit.sh` with `DEPLOY=1` (deploy only after a real push):
 `.github/workflows/weather.yml` (daily, step `weather`) and `.github/workflows/observations.yml` (every 2 hours,
-cron `0 */2 * * *`, scheduled runs skip themselves from the second day after the last date of `data/itinerary.json`; a manual dispatch always runs; `run.py ebird_trip observations` with secret `EBIRD_API_KEY`; commits
+cron `17 */2 * * *`, scheduled runs skip themselves from the second day after the last date of `data/itinerary.json`; a manual dispatch always runs; `run.py ebird_trip observations` with secret `EBIRD_API_KEY`; commits
 `pipeline/sources/ebird/trip_report.csv`, `trip_report_state.json`, `data/observations.json` and the report, "data:
 eBird trip report"). An unchanged trip report writes nothing, so most runs commit nothing. If the owner pushes a new
 export while a run is in flight, that run's `data/observations.json` (built from the older export) wins the race;
