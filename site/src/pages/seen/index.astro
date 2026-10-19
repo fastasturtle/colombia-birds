@@ -1,7 +1,8 @@
 ---
 /**
  * «Увидели»: what we have already seen on the trip, from Anya's eBird checklists (data/observations.json, pipeline step
- * observations). Header numbers, a table by day and one by site (+ checklists off the route sites), then every seen
+ * observations). Header numbers, a table by day and one by site (+ checklists off the route sites), «Группа» (eBird's
+ * species / checklist counts per participant of the trip report, numbers only, `group`), then every seen
  * species grouped by the day of its first sighting (newest day first; shared filter, ✓ and «лайфер» marks), species
  * the site's database lacks, and the source line.
  */
@@ -55,6 +56,8 @@ const dayCell = (date: string) => {
 const statCells = (e: SeenStats) => [e.species, e.lifers, e.checklists];
 // totals of the by-day table: species of the whole trip, lifers (= sum of «Лайферов»: each counted on its first day), checklists
 const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.lifers, 0), st.checklists] : [];
+// «Группа»: eBird's count per participant of the trip report (numbers only), Anya's row marked
+const grp = o?.group;
 ---
 <Base title="Увидели" description="Что мы уже увидели в туре: виды по дням и локациям, новые виды для Ани, чеклисты eBird">
   <h1>Увидели</h1>
@@ -97,6 +100,24 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.lifers, 0)
         </table>
       </div>
       <p class="muted small">«Видов» — всё, что видели; «Лайферов» — виды, которых Аня не отмечала в eBird до тура; «чекл.» — чеклистов eBird, «проездом» — чеклисты у локации не в её день маршрута (виды засчитаны локации). «Вне локаций маршрута» — парки Боготы, аэропорт, остановки в дороге.</p>
+
+      {grp && grp.people.length > 0 && (
+        <>
+          <h2>Группа</h2>
+          <div class="tw">
+            <table class="st grp">
+              <thead><tr><th>Участник</th><th>Видов</th><th title="чеклистов eBird">Чеклистов</th></tr></thead>
+              <tbody>
+                {grp.people.map((p) => (
+                  <tr class:list={[{ me: p.me }]}><td>{p.name}{p.me && <span class="muted"> (Аня)</span>}</td><td class="n">{p.species}{p.other_taxa > 0 && <span class="ot muted" title="гибриды, spuh, пары видов">+{p.other_taxa}</span>}</td><td class="n">{p.checklists}</td></tr>
+                ))}
+              </tbody>
+              <tfoot><tr class="tot"><td>Вся группа</td><td class="n">{grp.total.species}{grp.total.other_taxa > 0 && <span class="ot muted" title="гибриды, spuh, пары видов">+{grp.total.other_taxa}</span>}</td><td class="n">{grp.total.checklists}</td></tr></tfoot>
+            </table>
+          </div>
+          <p class="muted small">По отчёту поездки в eBird (виды по Clements, +N — гибриды и записи до рода); чеклисты Ани за 1–2 октября в отчёт не входят.</p>
+        </>
+      )}
 
       <FilterScope ctx={facets.ctx}>
         <h2 class="vh">Виды по дню первой встречи <span class="cnt muted" data-lf-summary>{rows.length} {plural(rows.length, 'вид', 'вида', 'видов')}</span></h2>
@@ -144,6 +165,9 @@ const totalCells = st ? [st.species, byDay.reduce((a, [, e]) => a + e.lifers, 0)
   .st td.d { white-space: nowrap; }
   .st tr.off td { font-style: italic; }
   .st tr.tot td { font-weight: 700; border-top: 2px solid var(--line); border-bottom: 0; }
+  .st.grp tr.me td { background: var(--seen-bg); }
+  .st.grp tr.me td:first-child { padding-left: 6px; }
+  .st .ot { font-size: .75rem; margin-left: 3px; }
   .small { font-size: .82rem; }
   .vh { margin-bottom: 2px; }
   .vh .cnt { font-size: .9rem; font-weight: 500; margin-left: 6px; white-space: nowrap; }

@@ -591,6 +591,7 @@ export interface SeenSpecies {
  * passing_checklists (by_site only, when > 0) = of
  * checklists, those made driving past the site (ObsChecklist.passing) */
 export interface SeenStats { species: number; new: number; lifers: number; checklists: number; observations: number; passing_checklists?: number }
+export interface GroupCounts { species: number; other_taxa: number; checklists: number }
 export interface Observations {
   observer: string; source: string; exported: string; trip_start: string;
   /** UTC ISO of the last trip-report fetch that brought changes (step ebird_trip); null/absent = never */
@@ -603,6 +604,10 @@ export interface Observations {
   checklists: ObsChecklist[];
   species: Record<string, SeenSpecies>;
   unmatched: { sci: string; name: string; n: number; dates: string[] }[];
+  /** «Группа»: eBird's own count per participant of the trip report (step ebird_trip), numbers only; people sorted
+   * by species desc; me = the configured user (Anya); other_taxa = hybrids, spuhs, slashes. null/absent = no counts */
+  group?: { fetched: string | null; report_ids: number[]; total: GroupCounts;
+    people: (GroupCounts & { name: string; role: string | null; me?: true })[] } | null;
   stats: { species: number; lifers: number; checklists: number; observations: number; days: number;
     by_day: Record<string, SeenStats>; by_site: Record<string, SeenStats>; off_site: SeenStats | null };
 }
