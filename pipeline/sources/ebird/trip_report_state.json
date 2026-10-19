@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T16:47:38Z",
+ "fetched_at": "2026-10-19T19:11:58Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -582,25 +582,45 @@
      "numSpecies": 14,
      "region": "CO-NAR",
      "time": "15:52"
+    },
+    "S403793473": {
+     "date": "2026-10-19",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "loc_id": "L7260634",
+     "loc_name": "Bangsias Bird Lodge-Hotspot",
+     "numSpecies": 26,
+     "region": "CO-NAR",
+     "time": "05:47"
+    },
+    "S403793526": {
+     "date": "2026-10-19",
+     "lat": 1.3367468,
+     "lng": -78.1169595,
+     "loc_id": "L10216439",
+     "loc_name": "Vda Junin Vía Barbacoas",
+     "numSpecies": 14,
+     "region": "CO-NAR",
+     "time": "10:29"
     }
    },
    "group": {
-    "checklists": 91,
+    "checklists": 92,
     "other_taxa": 5,
-    "species": 515
+    "species": 516
    },
    "people": [
     {
-     "checklists": 58,
+     "checklists": 60,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 437,
+     "species": 449,
      "user_id": "USER3559161"
     },
     {
-     "checklists": 66,
+     "checklists": 67,
      "name": "Igor Bobyr",
      "other_taxa": 5,
      "person_id": 820853,
@@ -618,12 +638,12 @@
      "user_id": "USER2722607"
     },
     {
-     "checklists": 50,
+     "checklists": 52,
      "name": "Oleg Chernyshov",
      "other_taxa": 1,
      "person_id": 820851,
      "role": "editor",
-     "species": 415,
+     "species": 430,
      "user_id": "USER1327996"
     },
     {
@@ -636,12 +656,12 @@
      "user_id": "USER418406"
     },
     {
-     "checklists": 57,
+     "checklists": 58,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 447,
+     "species": 451,
      "user_id": "USER1063968"
     }
    ],
@@ -16009,6 +16029,274 @@
      ],
      "protocolId": "P22",
      "subnational1Code": "CO-NAR"
+    },
+    "S403793473": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 3.317,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.665,
+     "fetched": "2026-10-19T19:11:58Z",
+     "numObservers": 1,
+     "numSpecies": 26,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "vitsyl1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "vepcor1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "uniant2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbfru1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "olsfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "trokin",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gbwwre1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blasol1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "yecchl1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ytbtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "tribrf1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "scrcac1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "tropar",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bkbwar",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gobwar4",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sumtan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan3",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "mobtan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "glgtan1",
+       "comments": null,
+       "count": "6"
+      },
+      {
+       "breeding": null,
+       "code": "ruttan1",
+       "comments": null,
+       "count": "6"
+      },
+      {
+       "breeding": null,
+       "code": "bestan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "flftan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "gochon2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sawtan1",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "indflo1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blwsal1",
+       "comments": null,
+       "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S403793526": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 1.583,
+     "effortAreaHa": null,
+     "effortDistanceKm": 1.103,
+     "fetched": "2026-10-19T19:11:58Z",
+     "numObservers": 1,
+     "numSpecies": 14,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "vepcor1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "barhaw1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "toubar1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "esmant1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "lottyr1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "trokin",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "srwswa1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sltred",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sumtan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "mobtan1",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "glgtan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "ruttan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "gochon2",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "indflo1",
+       "comments": null,
+       "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
     }
    }
   }
@@ -16023,6 +16311,11 @@
    "name": "Эполетовый трупиал (chrysocephalus)",
    "order": 33707.0,
    "sci": "Icterus cayanensis chrysocephalus"
+  },
+  "flrtan3": {
+   "name": "Красноспинный сереброклюв (icteronotus)",
+   "order": 34798.0,
+   "sci": "Ramphocelus flammigerus icteronotus"
   },
   "grnjay2": {
    "name": "Перуанская сойка [группа yncas]",
