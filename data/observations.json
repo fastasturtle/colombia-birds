@@ -1098,10 +1098,46 @@
    "site": "la-planada",
    "source": "export",
    "time": "10:25"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-18",
+   "day": "2026-10-18",
+   "distance_km": 0.146,
+   "duration_min": 32,
+   "id": "S403591349",
+   "lat": 1.276,
+   "location": "Aves & Flórez Lodge",
+   "location_id": "L13281940",
+   "lon": -78.095,
+   "n_species": 15,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "aves-y-florez",
+   "source": "trip_report",
+   "time": "14:27"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-18",
+   "day": "2026-10-18",
+   "distance_km": 1.133,
+   "duration_min": 172,
+   "id": "S403593819",
+   "lat": 1.286,
+   "location": "RN Río Nambí",
+   "location_id": "L465389",
+   "lon": -78.074,
+   "n_species": 14,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "rio-nambi",
+   "source": "trip_report",
+   "time": "15:52"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-18T18:22:35Z",
+ "fetched": "2026-10-19T03:16:17Z",
  "observer": "Аня",
  "source": "eBird, личная выгрузка",
  "sources": {
@@ -1111,11 +1147,13 @@
   },
   "trip_report": {
    "added": [
-    "S403474616"
+    "S403474616",
+    "S403591349",
+    "S403593819"
    ],
-   "checklists": 55,
+   "checklists": 57,
    "duplicates": [],
-   "fetched": "2026-10-18T18:22:35Z",
+   "fetched": "2026-10-19T03:16:17Z",
    "ids": [
     579125
    ]
@@ -1202,7 +1240,7 @@
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S403455006",
@@ -1227,10 +1265,28 @@
      "details": "2 Male and female",
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
+    },
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": "Female",
+     "site": "rio-nambi",
+     "time": "15:52"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "aves-y-florez",
+    "rio-nambi"
    ]
   },
   "aglaiocercus-kingii": {
@@ -2353,7 +2409,7 @@
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S398851342",
@@ -2386,12 +2442,21 @@
      "details": null,
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
     "chicaque",
     "la-drymophila",
-    "la-planada"
+    "la-planada",
+    "aves-y-florez"
    ]
   },
   "boissonneaua-flavescens": {
@@ -2413,6 +2478,27 @@
    ],
    "sites": [
     "la-drymophila"
+   ]
+  },
+  "boissonneaua-jardini": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
+    }
+   ],
+   "sites": [
+    "aves-y-florez"
    ]
   },
   "brotogeris-cyanoptera": {
@@ -3604,11 +3690,12 @@
   "chlorospingus-flavigularis": {
    "days": [
     "2026-10-09",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-18"
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S400658357",
@@ -3625,11 +3712,20 @@
      "details": null,
      "site": "trampolin-aves",
      "time": "06:48"
+    },
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
     }
    ],
    "sites": [
     "isla-escondida",
-    "trampolin-aves"
+    "trampolin-aves",
+    "rio-nambi"
    ]
   },
   "chlorospingus-parvirostris": {
@@ -3753,6 +3849,27 @@
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "chlorothraupis-stolzmanni": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 3,
+     "date": "2026-10-18",
+     "details": "In the one place",
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
    ]
   },
   "chondrohierax-uncinatus": {
@@ -4385,6 +4502,27 @@
     "finca-discosura"
    ]
   },
+  "colonia-colonus": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
+   ]
+  },
   "columba-livia": {
    "days": [
     "2026-10-01",
@@ -4540,7 +4678,7 @@
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403455006",
@@ -4565,10 +4703,19 @@
      "details": null,
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "contopus-sordidulus": {
@@ -5902,6 +6049,27 @@
     "paramo-bordoncillo"
    ]
   },
+  "electron-platyrhynchum": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 4,
+     "date": "2026-10-18",
+     "details": "One in one place and three fighting in the other place",
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
+   ]
+  },
   "ensifera-ensifera": {
    "days": [
     "2026-10-16"
@@ -6268,11 +6436,12 @@
     "2026-10-10",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 9,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S399294003",
@@ -6345,13 +6514,22 @@
      "details": null,
      "site": "la-planada",
      "time": "09:29"
+    },
+    {
+     "cl": "S403591349",
+     "count": 2,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
     "el-encanto",
     "isla-escondida",
     "trampolin-aves",
-    "la-planada"
+    "la-planada",
+    "aves-y-florez"
    ]
   },
   "falco-rufigularis": {
@@ -6373,6 +6551,27 @@
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "florisuga-mellivora": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
+    }
+   ],
+   "sites": [
+    "aves-y-florez"
    ]
   },
   "forpus-conspicillatus": {
@@ -6884,6 +7083,27 @@
     "chicaque"
    ]
   },
+  "heliodoxa-imperatrix": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
+    }
+   ],
+   "sites": [
+    "aves-y-florez"
+   ]
+  },
   "heliodoxa-leadbeateri": {
    "days": [
     "2026-10-06"
@@ -7317,6 +7537,27 @@
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "ixothraupis-rufigula": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": "At the entrance to the park, the team have a foto",
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
    ]
   },
   "ixothraupis-xanthogastra": {
@@ -7790,6 +8031,27 @@
     "isla-escondida"
    ]
   },
+  "machaeropterus-deliciosus": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
+   ]
+  },
   "machetornis-rixosa": {
    "days": [
     "2026-10-13"
@@ -7963,6 +8225,27 @@
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "megascops-ingens": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": "Have a foto",
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
    ]
   },
   "megascops-roraimae": {
@@ -8893,7 +9176,7 @@
    ],
    "first": "2026-10-10",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S401009772",
@@ -8926,11 +9209,20 @@
      "details": null,
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S403593819",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
     }
    ],
    "sites": [
     "isla-escondida",
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "myiozetetes-cayanensis": {
@@ -11415,6 +11707,27 @@
     "trampolin-aves"
    ]
   },
+  "pyrrhura-melanura": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 6,
+     "date": "2026-10-18",
+     "details": "Choco type",
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
+   ]
+  },
   "quiscalus-lugubris": {
    "days": [
     "2026-10-07"
@@ -11476,6 +11789,27 @@
    ],
    "sites": [
     "trampolin-aves"
+   ]
+  },
+  "ramphastos-brevis": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403593819",
+     "count": 4,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
    ]
   },
   "ramphastos-tucanus": {
@@ -11638,7 +11972,7 @@
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403455006",
@@ -11655,10 +11989,28 @@
      "details": null,
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S403591349",
+     "count": 4,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
+    },
+    {
+     "cl": "S403593819",
+     "count": 3,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "aves-y-florez",
+    "rio-nambi"
    ]
   },
   "ramphocelus-nigrogularis": {
@@ -11961,11 +12313,12 @@
   },
   "saltator-maximus": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-18"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -11982,11 +12335,20 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "aves-y-florez"
    ]
   },
   "saltator-striatipectus": {
@@ -13560,7 +13922,7 @@
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S399294003",
@@ -13601,12 +13963,21 @@
      "details": null,
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S403593819",
+     "count": 2,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "15:52"
     }
    ],
    "sites": [
     "el-encanto",
     "trampolin-aves",
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "tangara-callophrys": {
@@ -13719,11 +14090,12 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-18"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 10,
+   "n_checklists": 11,
    "obs": [
     {
      "cl": "S399294003",
@@ -13804,22 +14176,32 @@
      "details": null,
      "site": "trampolin-aves",
      "time": "06:48"
+    },
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
     "el-encanto",
     "finca-discosura",
     "isla-escondida",
-    "trampolin-aves"
+    "trampolin-aves",
+    "aves-y-florez"
    ]
   },
   "tangara-icterocephala": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403463641",
@@ -13828,10 +14210,19 @@
      "details": null,
      "site": "la-planada",
      "time": "14:14"
+    },
+    {
+     "cl": "S403591349",
+     "count": 2,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "aves-y-florez"
    ]
   },
   "tangara-labradorides": {
@@ -14152,11 +14543,12 @@
   "thalurania-colombica": {
    "days": [
     "2026-10-03",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-18"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S398851342",
@@ -14173,11 +14565,20 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
     "chicaque",
-    "la-drymophila"
+    "la-drymophila",
+    "aves-y-florez"
    ]
   },
   "thamnistes-anabatinus": {
@@ -14345,11 +14746,12 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-18"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 12,
+   "n_checklists": 13,
    "obs": [
     {
      "cl": "S399294003",
@@ -14446,6 +14848,14 @@
      "details": null,
      "site": "sibundoy",
      "time": "06:02"
+    },
+    {
+     "cl": "S403591349",
+     "count": 2,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
@@ -14454,7 +14864,8 @@
     "el-escondite",
     "playa-rica",
     "puerto-asis",
-    "sibundoy"
+    "sibundoy",
+    "aves-y-florez"
    ]
   },
   "thraupis-palmarum": {
@@ -14464,11 +14875,12 @@
     "2026-10-06",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-18"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851342",
@@ -14525,6 +14937,14 @@
      "details": null,
      "site": null,
      "time": "15:08"
+    },
+    {
+     "cl": "S403591349",
+     "count": 2,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
@@ -14532,7 +14952,8 @@
     "el-encanto",
     "la-drymophila",
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "aves-y-florez"
    ]
   },
   "thripadectes-holostictus": {
@@ -15734,11 +16155,12 @@
    "days": [
     "2026-10-03",
     "2026-10-04",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-18"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S398851342",
@@ -15763,12 +16185,21 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "la-drymophila"
+    "la-drymophila",
+    "aves-y-florez"
    ]
   },
   "urochroa-bougueri": {
@@ -15832,6 +16263,27 @@
    ],
    "sites": [
     "paramo-bordoncillo"
+   ]
+  },
+  "urosticte-benjamini": {
+   "days": [
+    "2026-10-18"
+   ],
+   "first": "2026-10-18",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S403591349",
+     "count": 1,
+     "date": "2026-10-18",
+     "details": null,
+     "site": "aves-y-florez",
+     "time": "14:27"
+    }
+   ],
+   "sites": [
+    "aves-y-florez"
    ]
   },
   "vanellus-chilensis": {
@@ -16644,14 +17096,21 @@
     "species": 63
    },
    "2026-10-18": {
-    "checklists": 2,
-    "lifers": 4,
-    "new": 4,
-    "observations": 38,
-    "species": 38
+    "checklists": 4,
+    "lifers": 16,
+    "new": 16,
+    "observations": 67,
+    "species": 59
    }
   },
   "by_site": {
+   "aves-y-florez": {
+    "checklists": 1,
+    "lifers": 4,
+    "new": 4,
+    "observations": 15,
+    "species": 15
+   },
    "chicaque": {
     "checklists": 2,
     "lifers": 49,
@@ -16730,6 +17189,13 @@
     "observations": 97,
     "species": 70
    },
+   "rio-nambi": {
+    "checklists": 1,
+    "lifers": 8,
+    "new": 8,
+    "observations": 14,
+    "species": 14
+   },
    "sibundoy": {
     "checklists": 1,
     "lifers": 2,
@@ -16752,10 +17218,10 @@
     "species": 51
    }
   },
-  "checklists": 61,
+  "checklists": 63,
   "days": 18,
-  "lifers": 440,
-  "observations": 1094,
+  "lifers": 452,
+  "observations": 1123,
   "off_site": {
    "checklists": 14,
    "lifers": 32,
@@ -16763,7 +17229,7 @@
    "observations": 122,
    "species": 82
   },
-  "species": 455
+  "species": 467
  },
  "trip_start": "2026-10-01",
  "unmatched": []

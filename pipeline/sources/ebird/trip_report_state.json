@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-18T18:22:35Z",
+ "fetched_at": "2026-10-19T03:16:17Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -562,6 +562,26 @@
      "numSpecies": 37,
      "region": "CO-NAR",
      "time": "06:19"
+    },
+    "S403591349": {
+     "date": "2026-10-18",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "loc_id": "L13281940",
+     "loc_name": "Aves & Flórez Lodge",
+     "numSpecies": 15,
+     "region": "CO-NAR",
+     "time": "14:27"
+    },
+    "S403593819": {
+     "date": "2026-10-18",
+     "lat": 1.2859983,
+     "lng": -78.0743793,
+     "loc_id": "L465389",
+     "loc_name": "RN Río Nambí",
+     "numSpecies": 14,
+     "region": "CO-NAR",
+     "time": "15:52"
     }
    },
    "person_id": 820854,
@@ -15498,6 +15518,208 @@
        "code": "banana",
        "comments": null,
        "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S403591349": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 0.533,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.146,
+     "fetched": "2026-10-19T03:16:17Z",
+     "numObservers": 1,
+     "numSpecies": 15,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "whnjac1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "vitsyl1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "vepcor1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "pubwhi1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "empbri1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "crowoo1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "andeme1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "thswar1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan1",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "bugtan",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "paltan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "bahtan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sittan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "butsal1",
+       "comments": null,
+       "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S403593819": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 2.867,
+     "effortAreaHa": null,
+     "effortDistanceKm": 1.133,
+     "fetched": "2026-10-19T03:16:17Z",
+     "numObservers": 1,
+     "numSpecies": 14,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "vitsyl1",
+       "comments": "Female",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rufsco1",
+       "comments": "Have a foto",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "brbmot1",
+       "comments": "One in one place and three fighting in the other place",
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "chotou1",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "matpar2",
+       "comments": "Choco type",
+       "count": "6"
+      },
+      {
+       "breeding": null,
+       "code": "clwman1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ornfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "smcpew1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "lottyr1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ytbtan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ocbtan1",
+       "comments": "In the one place",
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "ruttan1",
+       "comments": "At the entrance to the park, the team have a foto",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "goltan1",
+       "comments": null,
+       "count": "2"
       }
      ],
      "protocolId": "P22",
