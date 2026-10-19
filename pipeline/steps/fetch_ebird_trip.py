@@ -14,7 +14,10 @@ Config: pipeline/sources/ebird/trip_reports.json
 Sources (no key): the JSON backend of the trip report page, https://ebird.org/tripreport-internal/v1/ (undocumented
 and internal: requests are serial, ~0.7 s apart, 20 s timeout, 3 attempts with backoff, browser-like User-Agent; the
 HTML page is behind an anti-bot challenge, the JSON is not; responses are no-store, so no HTTP cache):
-  people/{id}                                       -> [{tripReportPersonId, userId, userDisplayName, role}]
+  people/{id}                                       -> [{tripReportPersonId, userId, userDisplayName, role,
+                                                        personBeginDt, personEndDt "YYYY-MM-DDTHH:MM:SS" (only for a
+                                                        participant with a personal window; eBird then counts only
+                                                        their checklists inside it)}]
   num-species/{id}[?tripReportPersonId=P]           -> [species, other taxa (hybrids, spuhs, slashes)], e.g. [437, 1];
                                                        without the filter: the whole group
   num-checklists/{id}[?tripReportPersonId=P]        -> 58 (checklists; without the filter: the group's, de-duplicated)
@@ -46,7 +49,9 @@ what changed, plus one taxonomy lookup for unknown codes. Unchanged report of 6 
 State: pipeline/sources/ebird/trip_report_state.json (committed; the CSV is rebuilt from it on every run)
   {fetched_at (UTC ISO of the last run that changed anything), user_id,
    reports: {<id>: {person_id, checklists: {subId: {date, time, numSpecies, loc_id, loc_name, lat, lng, region}},
-                    people: [{person_id, user_id, name, role, species, other_taxa, checklists}]  (in the report's order),
+                    people: [{person_id, user_id, name, role, begin, end, species, other_taxa, checklists}]
+                            (in the report's order; begin / end = personBeginDt / personEndDt as YYYY-MM-DD, null
+                            when the person has no personal window, i.e. the whole report),
                     group: {species, other_taxa, checklists}  (the whole report),
                     views: {subId: {fetched, numSpecies, protocolId, durationHrs, allObsReported, numObservers,
                                     effortDistanceKm, effortAreaHa, comments, subnational1Code,
@@ -361,6 +366,8 @@ def update_report(f: Fetcher, rid: int, user_id: str, old: dict, key: str | None
         q = {"tripReportPersonId": int(p["tripReportPersonId"])}
         group_people.append({"person_id": q["tripReportPersonId"], "user_id": p.get("userId"),
                              "name": p.get("userDisplayName") or "", "role": p.get("role"),
+                             "begin": (p.get("personBeginDt") or "")[:10] or None,
+                             "end": (p.get("personEndDt") or "")[:10] or None,
                              **counts(f.trip(f"num-species/{rid}", q), f.trip(f"num-checklists/{rid}", q))})
     group = counts(f.trip(f"num-species/{rid}"), f.trip(f"num-checklists/{rid}"))
     stats["group"].append(f"group {group['species']} species / {group['checklists']} checklists, "

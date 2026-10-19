@@ -607,7 +607,10 @@ export interface Observations {
   /** «Группа»: eBird's own count per participant of the trip report (step ebird_trip), numbers only; people sorted
    * by species desc; me = the configured user (Anya); other_taxa = hybrids, spuhs, slashes. null/absent = no counts */
   group?: { fetched: string | null; report_ids: number[]; total: GroupCounts;
-    people: (GroupCounts & { name: string; role: string | null; me?: true })[] } | null;
+    /** period: the participant's own window in the trip report (YYYY-MM-DD; a null side = the report's own start /
+     *  end); absent = the whole report. eBird counts only their checklists inside it. */
+    people: (GroupCounts & { name: string; role: string | null; me?: true;
+      period?: { begin: string | null; end: string | null } })[] } | null;
   stats: { species: number; lifers: number; checklists: number; observations: number; days: number;
     by_day: Record<string, SeenStats>; by_site: Record<string, SeenStats>; off_site: SeenStats | null };
 }

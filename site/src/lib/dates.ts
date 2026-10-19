@@ -27,6 +27,21 @@ export function fmtDaysShort(dates: string[]): string {
 }
 
 /**
+ * A closed date range (ISO, either side may be missing) -> short Russian: ('2026-10-03', '2026-10-09') -> '3–9 окт',
+ * ('2026-09-30', '2026-10-01') -> '30 сен – 1 окт', same day -> '3 окт', (null, '2026-10-09') -> 'до 9 окт',
+ * ('2026-10-03', null) -> 'с 3 окт', neither -> ''.
+ */
+export function fmtRangeShort(begin?: string | null, end?: string | null): string {
+  if (!begin && !end) return '';
+  if (!begin) return `до ${short(parse(end!))}`;
+  if (!end) return `с ${short(parse(begin))}`;
+  const a = parse(begin), b = parse(end);
+  if (a.getTime() === b.getTime()) return short(a);
+  if (a.getUTCMonth() === b.getUTCMonth() && a.getUTCFullYear() === b.getUTCFullYear()) return `${short(a, false)}–${short(b)}`;
+  return `${short(a)} – ${short(b)}`;
+}
+
+/**
  * Short route days of a site from its visit dates. With `pageDate` (a day page): '' when the site is visited
  * only on that date (it would just repeat the page's own date), otherwise all its days.
  */
