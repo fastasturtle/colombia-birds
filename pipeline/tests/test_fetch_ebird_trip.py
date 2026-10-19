@@ -187,7 +187,10 @@ def test_fallback_run_and_incremental():
         rep = state["reports"]["579125"]
         assert rep["group"] == {"species": 519, "other_taxa": 6, "checklists": 92}
         assert rep["people"][0] == {"person_id": 820854, "user_id": ANYA, "name": "Anna Kozhevnikova", "role": "editor",
-                                    "species": 437, "other_taxa": 1, "checklists": 58}
+                                    "begin": None, "end": None, "species": 437, "other_taxa": 1, "checklists": 58}
+        # personal participation window (personBeginDt / personEndDt) only where the report sets one
+        assert [(p["begin"], p["end"]) for p in rep["people"]] == [
+            (None, None), ("2026-10-03", "2026-10-14"), (None, None)]
         assert [(p["name"], p["role"], p["species"], p["checklists"]) for p in rep["people"][1:]] == [
             ("Igor Bobyr", "editor", 337, 49), ("Volkov Sergey", "owner", 447, 57)]
         # counts are asked per person (filtered) and for the group (unfiltered), after the person's own requests
@@ -209,6 +212,14 @@ def test_fallback_run_and_incremental():
         assert st_c["fetched_at"] == "2026-10-18T21:00:00Z" and st_c["reports"]["579125"]["group"]["species"] == 520
         assert st_c["reports"]["579125"]["people"][1]["checklists"] == 50
         assert not ft.run(FakeFetcher(counts=c), None, datetime(2026, 10, 18, 22, 0, tzinfo=timezone.utc))["wrote"]
+
+        # a participant's personal window changed: a state change, the CSV stays the same
+        pp = fx("people.json")
+        pp[1]["personEndDt"] = "2026-10-09T23:59:00"
+        s_p = ft.run(FakeFetcher(counts=c, people=pp), None, datetime(2026, 10, 18, 22, 30, tzinfo=timezone.utc))
+        assert s_p["wrote"] and ft.OUT_CSV.read_text() == text
+        assert json.loads(ft.STATE.read_text())["reports"]["579125"]["people"][1]["end"] == "2026-10-09"
+        assert not ft.run(FakeFetcher(counts=c, people=pp), None, datetime(2026, 10, 18, 22, 45, tzinfo=timezone.utc))["wrote"]
 
         # one taxon's counts changed: only its detail is fetched again; a taxon gone from the list is dropped
         tl = [t for t in fx("taxon_list.json") if t["speciesCode"] != "x00868"]

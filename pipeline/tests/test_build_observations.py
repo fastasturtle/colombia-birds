@@ -183,15 +183,24 @@ def test_merge_trip_report():
 
 def test_group_block():
     """Several reports: checklists summed, species the largest per report; reports without counts are skipped."""
-    p = lambda uid, sp, cl: {"person_id": 0, "user_id": uid, "name": uid.lower(), "role": "editor", "species": sp,
-                             "other_taxa": 0, "checklists": cl}
+    p = lambda uid, sp, cl, b=None, e=None: {"person_id": 0, "user_id": uid, "name": uid.lower(), "role": "editor",
+                                             "begin": b, "end": e, "species": sp, "other_taxa": 0, "checklists": cl}
     state = {"fetched_at": "T", "user_id": "B", "reports": {
-        "1": {"people": [p("A", 10, 3), p("B", 12, 4)], "group": {"species": 15, "other_taxa": 1, "checklists": 6}},
-        "2": {"people": [p("B", 20, 2)], "group": {"species": 20, "other_taxa": 0, "checklists": 2}},
+        "1": {"people": [p("A", 10, 3), p("B", 12, 4, "2026-10-05", "2026-10-09"), p("C", 5, 1, "2026-10-03", "2026-10-08")],
+              "group": {"species": 15, "other_taxa": 1, "checklists": 6}},
+        "2": {"people": [p("B", 20, 2, "2026-10-20", "2026-10-25"), p("C", 6, 1)],
+              "group": {"species": 20, "other_taxa": 0, "checklists": 2}},
         "3": {"checklists": {}}}}
     g = bo.group_block(state)
     assert g["report_ids"] == [1, 2] and g["total"] == {"species": 20, "other_taxa": 1, "checklists": 8}
-    assert [(e["name"], e["species"], e["checklists"], e.get("me")) for e in g["people"]] == [("b", 20, 6, True), ("a", 10, 3, None)]
+    assert [(e["name"], e["species"], e["checklists"], e.get("me")) for e in g["people"]] == [
+        ("b", 20, 6, True), ("a", 10, 3, None), ("c", 6, 2, None)]
+    # period: earliest begin, latest end; absent without a window (A) or when some report has none (C)
+    by = {e["name"]: e for e in g["people"]}
+    assert by["b"]["period"] == {"begin": "2026-10-05", "end": "2026-10-25"}
+    assert "period" not in by["a"] and "period" not in by["c"]
+    one = bo.group_block({"reports": {"1": {"people": [p("D", 1, 1, None, "2026-10-09")], "group": state["reports"]["1"]["group"]}}})
+    assert one["people"][0]["period"] == {"begin": None, "end": "2026-10-09"}
     assert bo.group_block({"reports": {"1": {}}}) is None and bo.group_block(None) is None
 
 
@@ -218,7 +227,8 @@ def test_main_writes_sources_and_fetched():
             w.writerows([rows[0], extra, pre])
             bo.TRIP_REPORT_CSV.write_text(buf.getvalue())
             people = [{"person_id": 1, "user_id": "USER1", "name": "Anna K", "role": "editor", "species": 437, "other_taxa": 1, "checklists": 58},
-                      {"person_id": 2, "user_id": "USER2", "name": "Igor B", "role": "editor", "species": 337, "other_taxa": 0, "checklists": 49},
+                      {"person_id": 2, "user_id": "USER2", "name": "Igor B", "role": "editor", "begin": "2026-10-03", "end": "2026-10-09",
+                       "species": 337, "other_taxa": 0, "checklists": 49},
                       {"person_id": 3, "user_id": "USER3", "name": "Sergey V", "role": "owner", "species": 447, "other_taxa": 2, "checklists": 57}]
             bo.TRIP_STATE.write_text(json.dumps({"fetched_at": "2026-10-18T18:00:00Z", "user_id": "USER1", "reports": {
                 "579125": {"person_id": 1, "people": people, "group": {"species": 519, "other_taxa": 6, "checklists": 92}}}}))
@@ -232,10 +242,13 @@ def test_main_writes_sources_and_fetched():
             assert g["people"] == [  # by species desc; `me` only on the configured user; no ids
                 {"name": "Sergey V", "role": "owner", "species": 447, "other_taxa": 2, "checklists": 57},
                 {"name": "Anna K", "role": "editor", "species": 437, "other_taxa": 1, "checklists": 58, "me": True},
-                {"name": "Igor B", "role": "editor", "species": 337, "other_taxa": 0, "checklists": 49}]
+                {"name": "Igor B", "role": "editor", "species": 337, "other_taxa": 0, "checklists": 49,
+                 "period": {"begin": "2026-10-03", "end": "2026-10-09"}}]
+            assert sum("period" in e for e in g["people"]) == 1
             assert "USER" not in text and "person_id" not in text
             md = bo.REPORT.read_text()
-            assert "| Anna K (Аня) | 437 | 1 | 58 |" in md and "| **вся группа** | 519 | 6 | 92 |" in md and "USER" not in md
+            assert "| Anna K (Аня) |  | 437 | 1 | 58 |" in md and "| **вся группа** | | 519 | 6 | 92 |" in md and "USER" not in md
+            assert "| Igor B | 2026-10-03 – 2026-10-09 | 337 | 0 | 49 |" in md
             assert obs["fetched"] == "2026-10-18T18:00:00Z" and obs["exported"] == "2026-10-04"
             tr = obs["sources"]["trip_report"]
             assert tr["ids"] == [579125] and tr["added"] == ["S9"] and tr["checklists"] == 2

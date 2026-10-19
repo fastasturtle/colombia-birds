@@ -58,11 +58,15 @@ data/observations.json:
    species: {slug: {first, lifer, n_checklists, sites, days, obs: [{cl, date, time, site, count, details}]}}
    unmatched: [{sci, name, n, dates}]
    group: {fetched, report_ids, total: {species, other_taxa, checklists},
-           people: [{name, role, species, other_taxa, checklists, me (only true, the configured user_id)}]} or null
+           people: [{name, role, species, other_taxa, checklists, me (only true, the configured user_id),
+                     period: {begin, end} (YYYY-MM-DD or null; only for a participant with a personal window in the
+                     report, state `begin` / `end`: eBird counts only their checklists inside it)}]} or null
      numbers only, eBird's own count per participant of the trip report (state `people` / `group`, step `ebird_trip`),
      sorted by species, then checklists (both desc), then name; null without the trip-report files or counts. No user
      ids or checklist ids of the others (the site is public; user_id stays in the state and the config). With several
-     reports, checklists are summed and species / other_taxa are the largest per-report count (eBird gives no union).
+     reports, checklists are summed and species / other_taxa are the largest per-report count (eBird gives no union);
+     `period` is the earliest begin and the latest end (a missing side = the report's own start / end, so it wins), and
+     is dropped when the person has no window in some report or both sides end up open.
    stats: {species, lifers, checklists, observations, days,
            by_day: {date: {species, new, lifers, checklists, observations}},
            by_site: {site: {species, new, lifers, checklists, observations, passing_checklists (only when > 0)}},
@@ -403,13 +407,22 @@ def group_block(state: dict | None) -> dict | None:
 
     total = dict.fromkeys(keys, 0)
     people: dict[str, dict] = {}
+    windows: dict[str, list] = {}  # person -> [(begin, end)] per report; None = the report's own start / end
     for _, r in reps:
         add(total, r["group"])
         for p in r["people"]:
-            e = people.setdefault(p.get("user_id") or p.get("name") or "", {
+            k = p.get("user_id") or p.get("name") or ""
+            e = people.setdefault(k, {
                 "name": p.get("name") or "", "role": p.get("role"), **dict.fromkeys(keys, 0),
                 **({"me": True} if me and p.get("user_id") == me else {})})
             add(e, p)
+            windows.setdefault(k, []).append((p.get("begin"), p.get("end")))
+    for k, ws in windows.items():
+        begins, ends = [b for b, _ in ws], [x for _, x in ws]
+        begin = None if None in begins else min(begins)
+        end = None if None in ends else max(ends)
+        if begin or end:
+            people[k]["period"] = {"begin": begin, "end": end}
     return {"fetched": state.get("fetched_at"), "report_ids": [int(rid) for rid, _ in reps], "total": total,
             "people": sorted(people.values(), key=lambda e: (-e["species"], -e["checklists"], e["name"]))}
 
@@ -420,12 +433,15 @@ def group_lines(obs: dict) -> list[str]:
         return []
     lines = ["", "## Группа (отчёт поездки eBird)", "",
              f"Счёт eBird по отчёту {', '.join(map(str, g['report_ids']))} (обновлён {g['fetched'] or '?'}), только числа. "
-             "Прочие таксоны — гибриды, spuh, пары видов.", "",
-             "| Участник | Видов | Прочих таксонов | Чеклистов |", "|---|---|---|---|"]
+             "Прочие таксоны — гибриды, spuh, пары видов. Период — личные даты участия в отчёте (eBird считает только "
+             "чеклисты за них), пусто — весь отчёт.", "",
+             "| Участник | Период | Видов | Прочих таксонов | Чеклистов |", "|---|---|---|---|---|"]
     for p in g["people"]:
-        lines.append(f"| {p['name']}{' (Аня)' if p.get('me') else ''} | {p['species']} | {p['other_taxa']} | {p['checklists']} |")
+        per = p.get("period")
+        per = f"{per['begin'] or '…'} – {per['end'] or '…'}" if per else ""
+        lines.append(f"| {p['name']}{' (Аня)' if p.get('me') else ''} | {per} | {p['species']} | {p['other_taxa']} | {p['checklists']} |")
     t = g["total"]
-    lines.append(f"| **вся группа** | {t['species']} | {t['other_taxa']} | {t['checklists']} |")
+    lines.append(f"| **вся группа** | | {t['species']} | {t['other_taxa']} | {t['checklists']} |")
     return lines
 
 
