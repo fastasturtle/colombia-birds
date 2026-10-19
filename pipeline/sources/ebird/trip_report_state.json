@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T19:15:33Z",
+ "fetched_at": "2026-10-19T23:44:06Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -602,34 +602,64 @@
      "numSpecies": 14,
      "region": "CO-NAR",
      "time": "10:29"
+    },
+    "S403825320": {
+     "date": "2026-10-19",
+     "lat": 1.2759751,
+     "lng": -78.0948137,
+     "loc_id": "L13281940",
+     "loc_name": "Aves & Flórez Lodge",
+     "numSpecies": 12,
+     "region": "CO-NAR",
+     "time": "14:11"
+    },
+    "S403827365": {
+     "date": "2026-10-11",
+     "lat": 0.6541939,
+     "lng": -77.0738064,
+     "loc_id": "L5390586",
+     "loc_name": "Reserva Natural La Isla Escondida",
+     "numSpecies": 16,
+     "region": "CO-PUT",
+     "time": "05:45"
+    },
+    "S403865935": {
+     "date": "2026-10-19",
+     "lat": 1.3405165,
+     "lng": -78.1131333,
+     "loc_id": "L7159531",
+     "loc_name": "Vía Junin-Barbacoas",
+     "numSpecies": 7,
+     "region": "CO-NAR",
+     "time": "15:35"
     }
    },
    "group": {
-    "checklists": 92,
+    "checklists": 94,
     "other_taxa": 5,
-    "species": 516
+    "species": 517
    },
    "people": [
     {
      "begin": null,
-     "checklists": 60,
+     "checklists": 63,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 449,
+     "species": 451,
      "user_id": "USER3559161"
     },
     {
      "begin": null,
-     "checklists": 67,
+     "checklists": 68,
      "end": null,
      "name": "Igor Bobyr",
      "other_taxa": 5,
      "person_id": 820853,
      "role": "editor",
-     "species": 437,
+     "species": 439,
      "user_id": "USER2882675"
     },
     {
@@ -667,13 +697,13 @@
     },
     {
      "begin": null,
-     "checklists": 58,
+     "checklists": 60,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 451,
+     "species": 453,
      "user_id": "USER1063968"
     }
    ],
@@ -14805,7 +14835,7 @@
      "durationHrs": 1.333,
      "effortAreaHa": null,
      "effortDistanceKm": 0.289,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 21,
      "obs": [
@@ -14945,7 +14975,7 @@
      "durationHrs": 2.2,
      "effortAreaHa": null,
      "effortDistanceKm": 0.844,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 11,
      "obs": [
@@ -15025,7 +15055,7 @@
      "durationHrs": 0.55,
      "effortAreaHa": null,
      "effortDistanceKm": 0.125,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 8,
      "obs": [
@@ -15087,7 +15117,7 @@
      "durationHrs": 2.9,
      "effortAreaHa": null,
      "effortDistanceKm": 1.42,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 17,
      "obs": [
@@ -15203,7 +15233,7 @@
      "durationHrs": 2.367,
      "effortAreaHa": null,
      "effortDistanceKm": 0.71,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 31,
      "obs": [
@@ -15403,7 +15433,7 @@
      "durationHrs": 3.417,
      "effortAreaHa": null,
      "effortDistanceKm": 1.161,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 30,
      "obs": [
@@ -15597,7 +15627,7 @@
      "durationHrs": 0.283,
      "effortAreaHa": null,
      "effortDistanceKm": 0.135,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 1,
      "numSpecies": 0,
      "obs": [],
@@ -15610,7 +15640,7 @@
      "durationHrs": 2.584,
      "effortAreaHa": null,
      "effortDistanceKm": 1.043,
-     "fetched": "2026-10-19T09:35:50Z",
+     "fetched": "2026-10-19T23:44:06Z",
      "numObservers": 5,
      "numSpecies": 37,
      "obs": [
@@ -16305,6 +16335,258 @@
        "code": "indflo1",
        "comments": null,
        "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S403825320": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 0.717,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.069,
+     "fetched": "2026-10-19T23:44:06Z",
+     "numObservers": 1,
+     "numSpecies": 12,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "whnjac1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "empbri1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "crowoo1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "crrtou1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "baywre1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbspa1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan1",
+       "comments": null,
+       "count": "6"
+      },
+      {
+       "breeding": null,
+       "code": "paltan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "flftan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sittan1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "banana",
+       "comments": null,
+       "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S403827365": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 6.183,
+     "effortAreaHa": null,
+     "effortDistanceKm": 4.064,
+     "fetched": "2026-10-19T23:44:06Z",
+     "numObservers": 1,
+     "numSpecies": 16,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "plupig2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "whcswi",
+       "comments": null,
+       "count": "20"
+      },
+      {
+       "breeding": null,
+       "code": "turvul",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "swtkit",
+       "comments": null,
+       "count": "6"
+      },
+      {
+       "breeding": null,
+       "code": "gnbtro1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "viotro3",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "webwoo1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "yectyr1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "wewpew",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ducfly",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "ruboro1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "cartan2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "flctan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "whltan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "fustan1",
+       "comments": null,
+       "count": "2"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-PUT"
+    },
+    "S403865935": {
+     "allObsReported": true,
+     "comments": "Дождь всё время",
+     "durationHrs": 0.733,
+     "effortAreaHa": null,
+     "effortDistanceKm": 1.038,
+     "fetched": "2026-10-19T23:44:06Z",
+     "numObservers": 1,
+     "numSpecies": 7,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "whbwoo6",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "srwswa1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "houwre4",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "shicow",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "mobtan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "bugtan",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "ruttan1",
+       "comments": null,
+       "count": "3"
       }
      ],
      "protocolId": "P22",
