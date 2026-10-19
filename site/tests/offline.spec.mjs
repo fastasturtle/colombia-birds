@@ -15,7 +15,9 @@
  *    changed on the server (another build id) reloads itself once, silently, when the background refresh lands,
  *    with its new _astro file already cached; after that one reload, or once the user has scrolled, the
  *    «Есть новая версия» toast shows instead. An open page's REFRESH message (sent on visibilitychange) shows
- *    the pill only when the server has a newer build, which by then is already cached, so «Обновить» shows it.
+ *    the pill only when the server has a newer build, which by then is already cached, so «Обновить» shows it;
+ *    a server copy that differs only in the build-version meta (a redeploy that left the page as it was) is
+ *    stored without a pill.
  * 5. Goes offline (context.setOffline + the server is closed)
  *    and checks: a cached species page renders its H1 and its cached medium photo; a cached day page shows the
  *    cached thumb; a page that was never cached gets the offline page with «эта страница не скачана».
@@ -289,8 +291,20 @@ try {
     await new Promise((ok) => setTimeout(ok, 1500));
     assert.equal(await visible(), false, 'no pill while the server has the same build');
 
+    // a redeploy that left the page as it was (only the build-version meta differs): stored, but no pill
+    const homeHtml = readFileSync(join(dist, 'index.html'), 'utf8');
+    overrides.set(HOME, [types.html, homeHtml.replace(/(<meta name="build-version" content=")([^"]*)"/, '$1$2-meta"')]);
+    try {
+      await refresh();
+      await waitFor(() => page.evaluate((u) => caches.open('cb-pages-v1').then((c) => c.match(u)).then((r) => r && r.text())
+        .then((t) => !!t && t.includes('-meta"')), origin + HOME), 'the meta-only copy stored in cb-pages-v1');
+      await new Promise((ok) => setTimeout(ok, 1000));
+      assert.equal(await visible(), false, 'no pill when only the build-version meta changed');
+      assert.equal(await page.evaluate(() => window.__stale), 1, 'not reloaded');
+    } finally { overrides.delete(HOME); }
+
     // newer build on the server: the pill shows, and only after the new copy is stored under this URL
-    overrides.set(HOME, [types.html, changedHtml(readFileSync(join(dist, 'index.html'), 'utf8'), 'Главная (тест)', '-t4')]);
+    overrides.set(HOME, [types.html, changedHtml(homeHtml, 'Главная (тест)', '-t4')]);
     try {
       await refresh();
       await page.locator('#new-version').waitFor({ state: 'visible', timeout: 10000 });

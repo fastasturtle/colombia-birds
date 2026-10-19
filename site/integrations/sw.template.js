@@ -11,8 +11,10 @@
  * home-screen app does not open on a black screen) and refreshed in the background. An open page also asks
  * for such a refresh of its own URL from time to time (message { type: 'REFRESH', url }: on load, when it
  * becomes visible again, back online; Base.astro throttles it to once a minute). Once a fresh copy is stored,
- * the worker posts PAGE_REFRESHED with its build id to the page (notifyRefreshed). That message is the only
- * trigger of the update flow: if the build differs from the page's own <meta name="build-version">,
+ * the worker posts PAGE_REFRESHED with its build id to the page (notifyRefreshed), but only if the URL had no
+ * cached copy before or the copy's content changed: the build-version meta alone does not count (every deploy
+ * changes it, and the offline pack keeps content-identical pages with their old build id). That message is
+ * the only trigger of the update flow: if the build differs from the page's own <meta name="build-version">,
  * Base.astro reloads the page once while the user has not started reading, otherwise shows the
  * «Есть новая версия» pill. Either way the reload is answered from the cache, which by then already holds the
  * new build, so it cannot come back as the old page. Whenever a fresh page is stored, the _astro files it
@@ -171,6 +173,8 @@ self.addEventListener('fetch', (event) => {
 // «Обновить» only appears after PAGE_REFRESHED, i.e. once the new build is already stored under this URL, so
 // the reload shows the fresh page. Freshness is the job of PAGE_REFRESHED (a one-time silent reload or the
 // pill), not a network wait. The page can also request this refresh itself (REFRESH message, refreshPage).
+// A fresh copy that differs from the cached one only in the build-version meta is stored silently (no
+// PAGE_REFRESHED), so a redeploy does not offer «Обновить» on pages whose content did not change.
 
 async function handleHtml(event) {
   const req = event.request;
@@ -178,7 +182,8 @@ async function handleHtml(event) {
   const hit = await matchPage(key);
   if (hit) {
     // revalidate the URL the copy is stored under (matchPage may have found the trailing-slash form)
-    event.waitUntil(fetchPage(event, hit.key, hit.key).catch(() => {}));
+    // compared against the copy this page is actually shown (the cache may change before the refresh lands)
+    event.waitUntil(fetchPage(event, hit.key, hit.key, hit.res.clone()).catch(() => {}));
     return hit.res;
   }
   try {
@@ -212,24 +217,34 @@ async function refreshPage(event, url) {
   await fetchPage(event, target, target);
 }
 
+/** The per-deploy build id; stripped before comparing two copies of a page (same as META_RE in offline.mjs). */
+const BUILD_META_RE = /<meta name="build-version" content="[^"]*"\s*\/?>/;
+
 /**
  * Fetches a page from the network; a plain 200 is stored under `key` and then (in event.waitUntil, never
  * delaying the response) the _astro files it references are stored too, so the page also works offline
- * right after a background refresh brought new hashed JS/CSS. Rejects on a network error.
+ * right after a background refresh brought new hashed JS/CSS. notifyRefreshed is called only when there was
+ * no previous copy or the content changed (compared without the build-version meta). The previous copy is
+ * `shown` (the response the page was answered with, from handleHtml) or else what the cache held under `key`.
+ * Rejects on a network error.
  * `cache: 'no-cache'` revalidates with the server, skipping GitHub Pages' 10-minute max-age.
  * A fresh request from the URL (a navigate Request cannot be re-used with an init in every browser);
  * redirect: 'manual' hands a redirect (e.g. missing trailing slash) back as an opaqueredirect, which a
  * navigation accepts and follows itself. Such responses (and 404s, errors) are returned, never cached.
  */
-async function fetchPage(event, url, key) {
+async function fetchPage(event, url, key, shown) {
   const res = await fetch(url, { cache: 'no-cache', credentials: 'same-origin', redirect: 'manual' });
   if (res.ok && res.type === 'basic' && !res.redirected) {
     const copy = res.clone();
     event.waitUntil((async () => {
       const html = await copy.clone().text();
-      await (await caches.open(PAGES)).put(key, copy);
+      const cache = await caches.open(PAGES);
+      const prev = await (shown ? Promise.resolve(shown) : cache.match(key)).then((r) => r && r.text()).catch(() => undefined);
+      await cache.put(key, copy);
       await cacheAssetsOf(html);
-      try { await notifyRefreshed(event, key, html); } catch (e) { /* never affects the response */ }
+      if (!prev || prev.replace(BUILD_META_RE, '') !== html.replace(BUILD_META_RE, '')) {
+        try { await notifyRefreshed(event, key, html); } catch (e) { /* never affects the response */ }
+      }
     })().catch(() => {}));
   }
   return res;
@@ -237,7 +252,8 @@ async function fetchPage(event, url, key) {
 
 /**
  * Tells the page that made the request which build its URL now has in the cache:
- * { type: 'PAGE_REFRESHED', url: key, version }. It matters after a stale answer or a REFRESH that brought a
+ * { type: 'PAGE_REFRESHED', url: key, version }. fetchPage calls it only for a new or changed copy (a copy
+ * that differs only in the build-version meta is not reported). It matters after a stale answer or a REFRESH that brought a
  * new build: Base.astro reloads the page once (or shows the pill) when the version differs from the one the
  * page was rendered with. Sent after a first (uncached) fetch too, where the versions match and nothing
  * happens. For a REFRESH message the page is event.source (a Client). For a navigation the page is

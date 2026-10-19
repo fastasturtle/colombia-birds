@@ -135,7 +135,9 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
 
         // The single trigger of the update flow. Whenever the worker has stored a fresh copy of this page (the
         // background refresh of a stale navigation, or a REFRESH from checkVersion above), it posts
-        // PAGE_REFRESHED { url, version } (sw.template.js, notifyRefreshed). If that build differs from this
+        // PAGE_REFRESHED { url, version } (sw.template.js, notifyRefreshed), unless that copy differs from the
+        // cached one only in its build-version meta (a redeploy that left this page as it was: nothing is
+        // sent, so no reload and no pill). If that build differs from this
         // page's and the user has not started reading (no scroll past 40 px, no touch/click/key, < 15 s since
         // load, no pack download, not /offline/ whose island keeps state), the page reloads itself once,
         // silently; otherwise the pill. Either reload is answered from the worker's cache, which already holds
