@@ -17,7 +17,7 @@ Goal: any device, no login, can report a mistake on any page. Reports become Git
      `message` empty or > 1000 chars, or > 5 reports per IP per 10 minutes (Workers KV or Durable Object
      counter; simplest: KV with TTL).
    - Creates an issue via GitHub REST (`POST /repos/fastasturtle/colombia-birds/issues`) using secret
-     `GITHUB_REPORTS_TOKEN` (fine-grained, Issues: write only). Title: `[report] <species en or page path>`;
+     `GITHUB_REPORTS_TOKEN` (fine-grained, Issues: write; plus Actions: Read and write, because the same Worker's cron triggers dispatch `observations.yml`/`weather.yml`, see `worker/README.md`). Title: `[report] <species en or page path>`;
      body: page URL, species id, message, user-agent, timestamp; labels: `report` (+ `species` if species id).
    - Returns `{ok: true, issue: <number>}`; on GitHub error returns 502 with a generic message.
    - `wrangler.toml` with `name = "colombia-birds-reports"`, `compatibility_date`, KV binding `RATE`.
