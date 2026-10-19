@@ -109,7 +109,7 @@ const grp = o?.group;
               <thead><tr><th>Участник</th><th>Видов</th><th title="чеклистов eBird">Чеклистов</th></tr></thead>
               <tbody>
                 {grp.people.map((p) => (
-                  <tr class:list={[{ me: p.me }]}><td>{p.name}{p.me && <span class="muted"> (Аня)</span>}</td><td class="n">{p.species}{p.other_taxa > 0 && <span class="ot muted" title="гибриды, spuh, пары видов">+{p.other_taxa}</span>}</td><td class="n">{p.checklists}</td></tr>
+                  <tr class:list={[{ me: p.me }]}><td>{p.name}</td><td class="n">{p.species}{p.other_taxa > 0 && <span class="ot muted" title="гибриды, spuh, пары видов">+{p.other_taxa}</span>}</td><td class="n">{p.checklists}</td></tr>
                 ))}
               </tbody>
               <tfoot><tr class="tot"><td>Вся группа</td><td class="n">{grp.total.species}{grp.total.other_taxa > 0 && <span class="ot muted" title="гибриды, spuh, пары видов">+{grp.total.other_taxa}</span>}</td><td class="n">{grp.total.checklists}</td></tr></tfoot>
