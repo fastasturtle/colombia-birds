@@ -1,6 +1,6 @@
 <script lang="ts">
   import basemap from '../generated/basemap.json';
-  import { fmtDaysShort, siteDaysFromDates } from '../lib/dates';
+  import { bogotaToday, fmtDaysShort, siteDaysFromDates } from '../lib/dates';
   interface Site { id: string; name: string; name_ru: string; region: string; lat: number; lon: number; elev_min: number | null; elev_max: number | null; optional?: boolean; loc?: boolean }
   interface Day { date: string; day: number | string; title_ru: string; sites: string[]; overnight_site: string | null; travel_ru?: string; region: string; elev_sleep: number | null; overnight_loc?: { id: string; name_ru: string; lat: number; lon: number } | null }
   interface Region { id: string; name_ru: string; color: string }
@@ -9,7 +9,8 @@
   const base = import.meta.env.BASE_URL;
   const color = Object.fromEntries(regions.map((r) => [r.id, r.color]));
   const siteOf = Object.fromEntries(sites.map((s) => [s.id, s]));
-  const todayIdx = (() => { const t = new Date().toISOString().slice(0, 10); return days.findIndex((d) => d.date === t); })();
+  // today is Bogotá time (the tour's clock), as in the day list on the same page; -1 if Intl throws
+  const todayIdx = (() => { try { const t = bogotaToday(); return days.findIndex((d) => d.date === t); } catch { return -1; } })();
 
   // same projection as pipeline/steps/build_basemap.py
   const { lon0, lat1, kx, scale } = basemap.projection;

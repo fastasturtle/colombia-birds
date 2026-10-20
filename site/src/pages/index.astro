@@ -87,9 +87,13 @@ const seenLast = lastChecklist();
 <script>
   const box = document.querySelector<HTMLElement>('.today');
   if (box) {
-    const pad = (n: number) => String(n).padStart(2, '0');
-    const now = new Date();
-    const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+    // today is Bogotá time (the tour's clock); device-local date only if Intl throws
+    let today: string;
+    try { today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota' }).format(new Date()); } catch {
+      const pad = (n: number) => String(n).padStart(2, '0');
+      const now = new Date();
+      today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+    }
     const cards = [...box.querySelectorAll<HTMLElement>('.daycard')];
     const { start, end, first } = box.dataset as { start: string; end: string; first: string };
     const days = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / 864e5);
