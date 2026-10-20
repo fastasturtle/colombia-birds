@@ -4,6 +4,8 @@ name: trip_person_list
 # trip report to the job log, as JSON lines. Nothing is committed. Used for the "500 for Igor" research page.
 
 on:
+  push:
+    branches: [igor-500]   # a workflow only on this branch cannot be dispatched by API; the push runs it
   workflow_dispatch:
     inputs:
       person:
@@ -22,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Fetch
         env:
-          PERSON: ${{ inputs.person }}
+          PERSON: ${{ inputs.person || 'Igor' }}
         run: |
           python3 - <<'PY'
           import json, os, time, urllib.request
