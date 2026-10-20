@@ -1,0 +1,46 @@
+name: trip_person_list
+
+# One-off helper (branch igor-500 only): prints a participant's species list and checklists from the public eBird
+# trip report to the job log, as JSON lines. Nothing is committed. Used for the "500 for Igor" research page.
+
+on:
+  workflow_dispatch:
+    inputs:
+      person:
+        description: "Substring of the participant's display name"
+        type: string
+        default: "Igor"
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch
+        env:
+          PERSON: ${{ inputs.person }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.request
+          UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+          def get(path, params=""):
+              req = urllib.request.Request("https://ebird.org/tripreport-internal/v1/" + path + params,
+                                           headers={"User-Agent": UA, "Accept": "application/json"})
+              time.sleep(0.7)
+              return json.load(urllib.request.urlopen(req, timeout=30))
+          rid = 579125
+          people = get(f"people/{rid}")
+          print("PEOPLE " + json.dumps([{"id": p["tripReportPersonId"], "name": p["userDisplayName"]} for p in people], ensure_ascii=False))
+          pid = [p for p in people if os.environ["PERSON"] in p["userDisplayName"]][0]["tripReportPersonId"]
+          slim = lambda t: [{"code": x["speciesCode"], "cat": x.get("category"), "sci": x.get("sciName"), "en": x.get("commonName"),
+                             "n": x.get("numIndividuals"), "cl": x.get("numChecklists")} for x in t]
+          print("PERSON_TAXA " + json.dumps(slim(get(f"taxon-list/{rid}", f"?tripReportPersonId={pid}")), ensure_ascii=False))
+          print("GROUP_TAXA " + json.dumps(slim(get(f"taxon-list/{rid}")), ensure_ascii=False))
+          cl = get(f"checklists/{rid}", f"?tripReportPersonId={pid}")
+          print("PERSON_CHECKLISTS " + json.dumps([{"sub": c["subId"], "n": c.get("numSpecies"), "date": c.get("isoObsDate"),
+                 "loc": (c.get("loc") or {}).get("name"), "locId": (c.get("loc") or {}).get("locId")} for c in cl], ensure_ascii=False))
+          PY
