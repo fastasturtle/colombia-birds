@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-19T23:44:06Z",
+ "fetched_at": "2026-10-20T04:53:58Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -632,34 +632,54 @@
      "numSpecies": 7,
      "region": "CO-NAR",
      "time": "15:35"
+    },
+    "S403890843": {
+     "date": "2026-10-19",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "loc_id": "L7260634",
+     "loc_name": "Bangsias Bird Lodge-Hotspot",
+     "numSpecies": 15,
+     "region": "CO-NAR",
+     "time": "16:39"
+    },
+    "S403890848": {
+     "date": "2026-10-19",
+     "lat": 1.282727,
+     "lng": -78.093211,
+     "loc_id": "L78802104",
+     "loc_name": "10, Ricaurte CO-Департамент Нарино 1.28273, -78.09321",
+     "numSpecies": 1,
+     "region": "CO-NAR",
+     "time": "18:22"
     }
    },
    "group": {
-    "checklists": 94,
+    "checklists": 96,
     "other_taxa": 5,
-    "species": 517
+    "species": 521
    },
    "people": [
     {
      "begin": null,
-     "checklists": 63,
+     "checklists": 65,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 451,
+     "species": 455,
      "user_id": "USER3559161"
     },
     {
      "begin": null,
-     "checklists": 68,
+     "checklists": 71,
      "end": null,
      "name": "Igor Bobyr",
      "other_taxa": 5,
      "person_id": 820853,
      "role": "editor",
-     "species": 439,
+     "species": 440,
      "user_id": "USER2882675"
     },
     {
@@ -697,13 +717,13 @@
     },
     {
      "begin": null,
-     "checklists": 60,
+     "checklists": 62,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 453,
+     "species": 458,
      "user_id": "USER1063968"
     }
    ],
@@ -15876,7 +15896,7 @@
      "durationHrs": 0.533,
      "effortAreaHa": null,
      "effortDistanceKm": 0.146,
-     "fetched": "2026-10-19T16:47:38Z",
+     "fetched": "2026-10-20T04:53:58Z",
      "numObservers": 1,
      "numSpecies": 15,
      "obs": [
@@ -15980,7 +16000,7 @@
      "durationHrs": 2.867,
      "effortAreaHa": null,
      "effortDistanceKm": 1.133,
-     "fetched": "2026-10-19T16:47:38Z",
+     "fetched": "2026-10-20T04:53:58Z",
      "numObservers": 1,
      "numSpecies": 14,
      "obs": [
@@ -16591,6 +16611,130 @@
      ],
      "protocolId": "P22",
      "subnational1Code": "CO-NAR"
+    },
+    "S403890843": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 1.55,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.793,
+     "fetched": "2026-10-20T04:53:58Z",
+     "numObservers": 1,
+     "numSpecies": 15,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "gretho1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "vitsyl1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "broinc2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "vepcor1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "boorat1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "zelant1",
+       "comments": "H",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbfru1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "slcfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "chotyr1",
+       "comments": "F",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blasol1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gobwar4",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sumtan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "mobtan1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "bugtan",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "ruttan1",
+       "comments": null,
+       "count": "4"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S403890848": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 0.833,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.658,
+     "fetched": "2026-10-20T04:53:58Z",
+     "numObservers": 1,
+     "numSpecies": 1,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "colsco1",
+       "comments": null,
+       "count": "2"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
     }
    }
   }
@@ -16600,6 +16744,11 @@
    "name": "Wing-barred Seedeater (Caqueta)",
    "order": 35573.0,
    "sci": "Sporophila americana murallae"
+  },
+  "colsco1": {
+   "name": "Бурая совка (colombianus)",
+   "order": 8824.0,
+   "sci": "Megascops ingens colombianus"
   },
   "epaori2": {
    "name": "Эполетовый трупиал (chrysocephalus)",
