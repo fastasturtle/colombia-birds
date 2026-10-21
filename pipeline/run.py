@@ -1,8 +1,9 @@
 """Run pipeline steps in order. Usage: uv run python run.py [step ...] [--only slug ...]
 
 Steps: aco ebird birdbase wikidata build   (default: all of these, in order)
-Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study, lynx, ioc_names, weather, ebird_trip, observations) are run explicitly.
+Later steps (wikipedia, photos, upload, sites, basemap, gbif_sites, family_names, endemics, hotspots, study, lynx, ioc_names, weather, ebird_trip, observations, igor500) are run explicitly.
 `ebird_trip observations` pulls new checklists from the eBird trip report(s), then rebuilds the sightings.
+`igor500` rebuilds data/igor500.json (derived plan data of the hidden /igor-500/ page) from the trip report.
 `observations --import <MyEBirdData.csv>` refreshes pipeline/sources/ebird/ from a new eBird export first.
 `ioc_names` runs before `build` (IOC Multilingual Russian names, the last fallback before the overrides).
 `lynx` runs after `build` (needs species_index.json); re-run `build` afterwards to merge the book pages:
@@ -46,6 +47,7 @@ FILES = {
     "weather": "fetch_weather.py",
     "ebird_trip": "fetch_ebird_trip.py",
     "observations": "build_observations.py",
+    "igor500": "build_igor500.py",
 }
 
 args = " ".join(sys.argv[1:]).split()

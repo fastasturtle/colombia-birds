@@ -14,7 +14,8 @@ const DATA = join(process.cwd(), '..', 'data');
 /** Optional directory whose files shadow ../data (local testing only, e.g. stub files). */
 const DATA_OVERRIDE = process.env.CB_DATA_OVERRIDE ?? '';
 
-function readJson<T>(rel: string, fallback?: T): T {
+/** A pipeline output under ../data (build time only); also used by lib/igor500.ts. */
+export function readJson<T>(rel: string, fallback?: T): T {
   const o = DATA_OVERRIDE && join(DATA_OVERRIDE, rel);
   const p = o && existsSync(o) ? o : join(DATA, rel);
   if (!existsSync(p)) {

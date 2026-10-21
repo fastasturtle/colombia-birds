@@ -1,9 +1,10 @@
 name: observations
 
 # Every 2 hours: Anya's new eBird checklists from the public trip report (pipeline step `ebird_trip`, no AI), then
-# `observations` rebuilds data/observations.json. Commits pipeline/sources/ebird/trip_report.csv, its state file and
-# data/ back via pipeline/ci_commit.sh, which dispatches deploy.yml only after a real push: an unchanged report
-# writes nothing (ebird_trip leaves its files untouched), so most runs commit and deploy nothing.
+# `observations` rebuilds data/observations.json, then `igor500` refreshes data/igor500.json (hidden page /igor-500/).
+# Commits pipeline/sources/ebird/trip_report.csv, its state file and data/ back via pipeline/ci_commit.sh, which
+# dispatches deploy.yml only after a real push: an unchanged report writes nothing (ebird_trip and igor500 leave
+# their files untouched), so most runs commit and deploy nothing.
 # With the EBIRD_API_KEY secret the step reads full checklists from the eBird API (protocol, effort, comments);
 # without it, species and counts from the trip report only. The manual export (`observations --import`) stays the
 # richer source and wins per checklist.
@@ -82,6 +83,15 @@ jobs:
         if: steps.trip.outputs.active == 'true'
         working-directory: pipeline
         run: uv run python run.py ebird_trip observations
+
+      # Hidden page /igor-500/: data/igor500.json (derived only, see pipeline/steps/build_igor500.py), 4 requests to
+      # the same trip report. continue-on-error: a failed refresh (ebird.org down, person not found) leaves the old
+      # file and must not block the observations commit below; the next run tries again.
+      - name: Refresh /igor-500/ data
+        if: steps.trip.outputs.active == 'true'
+        continue-on-error: true
+        working-directory: pipeline
+        run: uv run python run.py igor500
 
       - name: Commit data
         if: steps.trip.outputs.active == 'true'

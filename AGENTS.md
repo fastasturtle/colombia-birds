@@ -71,7 +71,10 @@
   (до конца поездки плюс день: последняя дата `data/itinerary.json`; ручной запуск работает всегда) запускает `run.py ebird_trip observations` — шаг `ebird_trip` берёт новые чеклисты Ани из публичного отчёта поездки
   eBird (`pipeline/sources/ebird/trip_reports.json` → `trip_report.csv`), `observations` сливает их с выгрузкой
   (выгрузка главнее по `Submission ID`), коммит и деплой только при изменениях. Вручную:
-  `uv run python run.py ebird_trip observations` или Actions → observations → Run workflow. Без секрета
+  `uv run python run.py ebird_trip observations` или Actions → observations → Run workflow. Тот же workflow затем
+  запускает шаг `igor500` (`continue-on-error`): из того же отчёта он пересчитывает `data/igor500.json` для скрытой
+  страницы `/igor-500/` (кандидаты по локациям, счёт, `as_of`); в репозиторий попадают только производные данные,
+  без списков видов Игоря и группы, чеклистов и локаций (решение владельца). Без секрета
   `EBIRD_API_KEY` из отчёта приходят только виды и численность, поэтому ручная выгрузка остаётся нужна: комментарии,
   коды гнездования, протокол и длительность, а также чеклисты 1–2 октября (до начала отчёта, только в выгрузке).
   Выгрузка: Аня присылает новую выгрузку eBird («Download my data», `MyEBirdData.csv`).

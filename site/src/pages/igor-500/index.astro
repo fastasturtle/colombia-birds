@@ -2,8 +2,9 @@
 /**
  * «500 для Игоря»: hidden field plan (not linked from anywhere, noindex, excluded from the offline pack in
  * integrations/offline.mjs) for trip participant Igor to go from 443 to 500 species on 21–23 Oct (+ Bogotá reserve 24 Oct).
- * Data: content/igor-500/data.json (lib/igor500.ts): candidates per remaining site with autumn eBird/GBIF record counts.
- * Checkboxes keep their state in localStorage['igor500'] ({ species id: 1 }); one state per species across all lists.
+ * Data: data/igor500.json (lib/igor500.ts; pipeline step `igor500`, refreshed every 2 hours by the observations
+ * workflow from the eBird trip report): candidates per remaining site with autumn eBird/GBIF record counts. Static page:
+ * species Igor gets drop out of the lists on the next refresh.
  */
 import Base from '../../layouts/Base.astro';
 import { sites, plural } from '@lib/data';
@@ -11,7 +12,8 @@ import { igor500, sp, type Candidate, type Tier } from '@lib/igor500';
 
 const base = import.meta.env.BASE_URL;
 const d = igor500();
-const need = d.goal - d.species;
+const need = Math.max(0, d.goal - d.species);
+const pct = Math.min(100, Math.round((d.species / d.goal) * 100));
 const siteOf = new Map(sites().map((s) => [s.id, s]));
 const siteRu = (id: string) => siteOf.get(id)?.name_ru ?? id;
 const asOfRu = (() => { const [date, time] = d.as_of.split(' '); const [, m, dd] = date.split('-'); return `${dd}.${m} ${time}`; })();
@@ -196,13 +198,9 @@ const sources: [string, string][] = [
 <Base title="500 для Игоря" description="План на последние дни тура: как Игорю дойти до 500 видов" noindex>
   <header class="hero">
     <h1>{d.person_ru}: {d.species} → {d.goal}</h1>
-    <p class="lead">Нужно ещё <b>{need}</b>. Впереди {d.sure_total} {plural(d.sure_total, 'вид', 'вида', 'видов')} «почти наверняка» и {d.likely_total} «вероятно».</p>
-    <div class="counter card" aria-live="polite">
-      <div class="cnt-line"><span>{d.species}</span> + <span>отмечено <b id="i5-n">0</b></span> = <b class="cnt-total" id="i5-total">{d.species}</b></div>
-      <div class="cnt-left" id="i5-left">до {d.goal} осталось {need}</div>
-      <div class="bar" aria-hidden="true"><i id="i5-bar" style={`width:${Math.round((d.species / d.goal) * 100)}%`}></i></div>
-    </div>
-    <p class="muted small">По состоянию на {asOfRu} (последний чеклист в отчёте поездки eBird, {d.checklists} {plural(d.checklists, 'чеклист', 'чеклиста', 'чеклистов')}), обновляется вручную. Отметки хранятся только в этом браузере. Рассвет 05:57, закат 18:01, луна 87–98 %.</p>
+    <p class="lead">{need > 0 ? <>Нужно ещё <b>{need}</b>.</> : <b>{d.goal} есть!</b>} Впереди {d.sure_total} {plural(d.sure_total, 'вид', 'вида', 'видов')} «почти наверняка» и {d.likely_total} «вероятно».</p>
+    <div class="bar" role="img" aria-label={`${d.species} из ${d.goal}`}><i style={`width:${pct}%`}></i></div>
+    <p class="muted small">По состоянию на <b>{asOfRu}</b> (последний чеклист Игоря, всего {d.checklists} {plural(d.checklists, 'чеклист', 'чеклиста', 'чеклистов')}); обновляется автоматически каждые 2 часа из отчёта поездки eBird. Рассвет 05:57, закат 18:01, луна 87–98 %.</p>
   </header>
 
   <nav class="toc" aria-label="Разделы страницы">
@@ -223,7 +221,7 @@ const sources: [string, string][] = [
           {b.targets.length > 0 && (
             <ul class="tg">
               {b.targets.map(nm).map((s) => (
-                <li data-got={s.id}><a href={href(s.id)}>{s.en}</a> <i class="sci">{s.sci}</i>{s.ru && <span class="ru"> {s.ru}</span>}</li>
+                <li><a href={href(s.id)}>{s.en}</a> <i class="sci">{s.sci}</i>{s.ru && <span class="ru"> {s.ru}</span>}</li>
               ))}
             </ul>
           )}
@@ -251,9 +249,8 @@ const sources: [string, string][] = [
   <ul class="cl">
     {missed.map((s) => (
       <li class="cand">
-        <input type="checkbox" data-sp={s.id} id={`m-${s.id}`} aria-label={`отмечено: ${s.en}`} />
-        <label for={`m-${s.id}`} class="nmb"><a href={href(s.id)}>{s.en}</a> <span class="sub"><i class="sci">{s.sci}</i>{s.ru && <> · {s.ru}</>}</span>
-          <span class="where">{s.where.map(([sid, n]) => `${siteRu(sid)} ${n}`).join(' · ')}</span></label>
+        <div class="nmb"><a href={href(s.id)}>{s.en}</a> <span class="sub"><i class="sci">{s.sci}</i>{s.ru && <> · {s.ru}</>}</span>
+          <span class="where">{s.where.map(([sid, n]) => `${siteRu(sid)} ${n}`).join(' · ')}</span></div>
       </li>
     ))}
   </ul>
@@ -276,38 +273,35 @@ const sources: [string, string][] = [
   </section>
 
   <h2 id="cand">Кандидаты по локациям</h2>
-  <p class="muted small">Виды, которых у Игоря нет, с числом осенних записей eBird/GBIF в радиусе 7 км. Отметка общая: вид, встреченный в одном списке, отмечается во всех. «группа ✓» — кто-то в группе его уже видел в этой поездке.</p>
+  <p class="muted small">Виды, которых у Игоря нет, с числом осенних записей eBird/GBIF в радиусе 7 км. «группа ✓» — кто-то в группе его уже видел в этой поездке.</p>
   {siteLists.map((s) => (
     <details class="site" data-site={s.id}>
-      <summary><b>{s.name}</b>{s.tag && <span class="tag">{s.tag}</span>} <span class="sc">· {s.sure} почти наверняка · {s.likely} вероятно</span> <span class="got" data-got-count></span></summary>
+      <summary><b>{s.name}</b>{s.tag && <span class="tag">{s.tag}</span>} <span class="sc">· {s.sure} почти наверняка · {s.likely} вероятно</span></summary>
       {s.tiers.map((t) => (
         <details class="tier" open={t.t === 'sure'}>
           <summary>{TIER_RU[t.t]} <span class="muted">· {t.rows.length} · {TIER_NOTE[t.t]}</span></summary>
           <ul class="cl">
-            {t.rows.map((c) => { const uid = `${s.id}-${c.id}`; return (
+            {t.rows.map((c) => (
               <li class="cand">
-                <input type="checkbox" data-sp={c.id} id={uid} aria-label={`отмечено: ${c.en}`} />
-                <label for={uid} class="nmb"><a href={href(c.id)}>{c.en}</a> <span class="sub"><i class="sci">{c.sci}</i>{c.ru && <> · {c.ru}</>}</span></label>
+                <div class="nmb"><a href={href(c.id)}>{c.en}</a> <span class="sub"><i class="sci">{c.sci}</i>{c.ru && <> · {c.ru}</>}</span></div>
                 <span class="n" title="осенних записей">{c.n_aut}{c.group && <span class="grp" title="кто-то в группе уже видел">группа ✓</span>}</span>
               </li>
-            ); })}
+            ))}
           </ul>
         </details>
       ))}
     </details>
   ))}
   <details class="site">
-    <summary><b>Редкости вне статистики</b> <span class="sc">· {bonus.length} · осенних записей рядом нет</span> <span class="got" data-got-count></span></summary>
+    <summary><b>Редкости вне статистики</b> <span class="sc">· {bonus.length} · осенних записей рядом нет</span></summary>
     <ul class="cl">
       {bonus.map((s) => (
         <li class="cand">
-          <input type="checkbox" data-sp={s.id} id={`b-${s.id}`} aria-label={`отмечено: ${s.en}`} />
-          <label for={`b-${s.id}`} class="nmb"><a href={href(s.id)}>{s.en}</a> <span class="sub"><i class="sci">{s.sci}</i>{s.ru && <> · {s.ru}</>}</span></label>
+          <div class="nmb"><a href={href(s.id)}>{s.en}</a> <span class="sub"><i class="sci">{s.sci}</i>{s.ru && <> · {s.ru}</>}</span></div>
         </li>
       ))}
     </ul>
   </details>
-  <p><button type="button" class="reset" id="i5-reset">Сбросить отметки</button></p>
 
   <h2 id="tips">Лайфхаки</h2>
   <ul class="tips">{tips.map((t) => <li>{t}</li>)}</ul>
@@ -320,47 +314,6 @@ const sources: [string, string][] = [
     </ul>
   </details>
 
-  <div class="pill" id="i5-pill" aria-hidden="true"><b id="i5-pill-total">{d.species}</b> / {d.goal}</div>
-
-  <script is:inline define:vars={{ have: d.species, goal: d.goal }}>
-    (function () {
-      var KEY = 'igor500', st = {};
-      try { st = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { st = {}; }
-      var boxes = [].slice.call(document.querySelectorAll('input[data-sp]'));
-      var valid = {};
-      boxes.forEach(function (b) { valid[b.dataset.sp] = 1; });
-      function $(id) { return document.getElementById(id); }
-      function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
-      function render() {
-        var n = Object.keys(st).filter(function (k) { return st[k] && valid[k]; }).length;
-        var total = have + n, left = Math.max(0, goal - total);
-        $('i5-n').textContent = n;
-        $('i5-total').textContent = total;
-        $('i5-pill-total').textContent = total;
-        $('i5-left').textContent = left ? 'до ' + goal + ' осталось ' + left : goal + ' есть!';
-        $('i5-bar').style.width = Math.min(100, Math.round(total / goal * 100)) + '%';
-        boxes.forEach(function (b) { b.checked = !!st[b.dataset.sp]; });
-        [].forEach.call(document.querySelectorAll('[data-got]'), function (el) { el.classList.toggle('got', !!st[el.dataset.got]); });
-        [].forEach.call(document.querySelectorAll('details.site'), function (det) {
-          var seen = {};
-          [].forEach.call(det.querySelectorAll('input[data-sp]'), function (b) { if (b.checked) seen[b.dataset.sp] = 1; });
-          var k = Object.keys(seen).length, out = det.querySelector('[data-got-count]');
-          if (out) out.textContent = k ? '✓ ' + k : '';
-        });
-      }
-      document.addEventListener('change', function (e) {
-        var t = e.target;
-        if (!t || !t.dataset || !t.dataset.sp) return;
-        if (t.checked) st[t.dataset.sp] = 1; else delete st[t.dataset.sp];
-        save(); render();
-      });
-      $('i5-reset').addEventListener('click', function () {
-        if (!confirm('Сбросить все отметки?')) return;
-        st = {}; save(); render();
-      });
-      render();
-    })();
-  </script>
 </Base>
 
 <style>
@@ -368,11 +321,7 @@ const sources: [string, string][] = [
   h2[id] { scroll-margin-top: 84px; }
   .lead { margin: 0 0 10px; }
   .small { font-size: .85rem; }
-  .counter { margin: 8px 0; }
-  .cnt-line { font-size: 1.15rem; }
-  .cnt-total { font-size: 1.5rem; color: var(--accent); }
-  .cnt-left { color: var(--muted); font-size: .9rem; }
-  .bar { height: 6px; border-radius: 3px; background: var(--chip); margin-top: 8px; overflow: hidden; }
+  .bar { height: 8px; border-radius: 4px; background: var(--chip); margin: 4px 0 10px; overflow: hidden; }
   .bar i { display: block; height: 100%; background: var(--accent); }
   .toc { display: flex; flex-wrap: wrap; gap: 0 14px; margin: 8px 0 0; }
   .toc a { min-height: 44px; display: inline-flex; align-items: center; }
@@ -393,8 +342,6 @@ const sources: [string, string][] = [
   .tg li + li::before { content: ' · '; color: var(--muted); }
   .tg li a { padding: 4px 0; white-space: nowrap; }
   .tg .sci, .tg .ru { color: var(--muted); font-size: .82rem; }
-  .tg li.got a::before { content: '✓ '; color: var(--seen-fg); }
-  .tg li.got a { color: var(--seen-fg); }
   .offers { padding: 0; margin: 0; list-style: none; counter-reset: o; display: grid; gap: 8px; }
   .offers li { counter-increment: o; }
   .offers li > b::before { content: counter(o) '. '; color: var(--accent-2); }
@@ -403,14 +350,12 @@ const sources: [string, string][] = [
   .nino { margin-top: 10px; font-size: .92rem; border-color: var(--accent-2); }
   .cl { list-style: none; padding: 0; margin: 0; }
   .cand { display: flex; align-items: flex-start; gap: 4px; border-bottom: 1px solid var(--line); min-height: 44px; }
-  .cand input { flex: none; width: 22px; height: 22px; margin: 11px 11px 11px 2px; accent-color: var(--accent); }
-  .nmb { flex: 1; min-width: 0; padding: 8px 0; line-height: 1.3; cursor: pointer; overflow-wrap: anywhere; }
+  .nmb { flex: 1; min-width: 0; padding: 8px 0; line-height: 1.3; overflow-wrap: anywhere; }
   .nmb a { font-weight: 600; }
   .sub { display: block; font-size: .82rem; color: var(--muted); }
   .where { display: block; font-size: .8rem; color: var(--accent-2); }
   .n { flex: none; padding: 10px 0 8px 6px; font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
   .grp { font-size: .68rem; font-weight: 600; color: var(--seen-fg); background: var(--seen-bg); border-radius: 999px; padding: 0 6px; white-space: nowrap; }
-  .cand:has(input:checked) .nmb a { color: var(--seen-fg); }
   .guia { margin-top: 6px; }
   .guia h3 { font-size: 1.05rem; margin: 0 0 6px; }
   .guia h4 { margin: 12px 0 2px; font-size: .95rem; color: var(--accent); }
@@ -424,17 +369,12 @@ const sources: [string, string][] = [
   details[open] > summary::before { transform: rotate(90deg); }
   details.site > summary .sc { color: var(--muted); font-size: .85rem; }
   .tag { font-size: .72rem; color: var(--accent-2); border: 1px solid currentColor; border-radius: 999px; padding: 0 6px; white-space: nowrap; }
-  .got { color: var(--seen-fg); font-weight: 600; font-size: .85rem; }
   details.tier { border-top: 1px solid var(--line); }
   details.tier > summary { font-weight: 600; font-size: .95rem; }
   details.tier > summary .muted { font-weight: 400; font-size: .8rem; }
-  .reset { min-height: 44px; padding: 0 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--fg); font: inherit; cursor: pointer; }
   .tips { padding-left: 20px; }
   .tips li { margin: 6px 0; }
   .src { margin-top: 18px; }
   .src ul { padding-left: 18px; font-size: .88rem; overflow-wrap: anywhere; }
   .src li { margin: 6px 0; }
-  .pill { position: fixed; right: 16px; bottom: calc(14px + env(safe-area-inset-bottom)); background: var(--accent); color: var(--bg); border-radius: 999px;
-    padding: 6px 14px; font-size: .9rem; box-shadow: 0 2px 8px rgba(0,0,0,.25); pointer-events: none; z-index: 5; }
-  :global(main:has(.pill)) { padding-bottom: 72px; }
 </style>
