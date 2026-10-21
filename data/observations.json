@@ -1249,7 +1249,7 @@
    "day": "2026-10-19",
    "distance_km": 0.658,
    "duration_min": 50,
-   "id": "S403890848",
+   "id": "S404191311",
    "lat": 1.283,
    "location": "10, Ricaurte CO-Департамент Нарино 1.28273, -78.09321",
    "location_id": "L78802104",
@@ -1278,12 +1278,48 @@
    "site": "bangsias-lodge",
    "source": "trip_report",
    "time": "06:00"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-20",
+   "day": "2026-10-20",
+   "distance_km": null,
+   "duration_min": 239,
+   "id": "S404191314",
+   "lat": 1.286,
+   "location": "RN Río Nambí",
+   "location_id": "L465389",
+   "lon": -78.074,
+   "n_species": 23,
+   "observers": 1,
+   "protocol": "p54",
+   "site": "rio-nambi",
+   "source": "trip_report",
+   "time": "08:49"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-20",
+   "day": "2026-10-20",
+   "distance_km": 3.5,
+   "duration_min": 120,
+   "id": "S404191373",
+   "lat": 1.286,
+   "location": "RN Río Nambí",
+   "location_id": "L465389",
+   "lon": -78.074,
+   "n_species": 7,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "rio-nambi",
+   "source": "trip_report",
+   "time": "13:51"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-21T07:41:41Z",
+ "fetched": "2026-10-21T13:50:13Z",
  "group": {
-  "fetched": "2026-10-21T07:41:41Z",
+  "fetched": "2026-10-21T13:50:13Z",
   "people": [
    {
     "checklists": 65,
@@ -1293,12 +1329,12 @@
     "species": 462
    },
    {
-    "checklists": 66,
+    "checklists": 68,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 1,
     "role": "editor",
-    "species": 455
+    "species": 456
    },
    {
     "checklists": 74,
@@ -1364,12 +1400,14 @@
     "S403825320",
     "S403865935",
     "S403890843",
-    "S403890848",
-    "S404083441"
+    "S404191311",
+    "S404083441",
+    "S404191314",
+    "S404191373"
    ],
-   "checklists": 65,
+   "checklists": 67,
    "duplicates": [],
-   "fetched": "2026-10-21T07:41:41Z",
+   "fetched": "2026-10-21T13:50:13Z",
    "ids": [
     579125
    ]
@@ -1751,6 +1789,27 @@
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "anabacerthia-variegaticeps": {
+   "days": [
+    "2026-10-20"
+   ],
+   "first": "2026-10-20",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
+    }
+   ],
+   "sites": [
+    "rio-nambi"
    ]
   },
   "anas-andium": {
@@ -2650,7 +2709,7 @@
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S403793473",
@@ -2691,10 +2750,19 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "basileuterus-delattrii": {
@@ -3809,11 +3877,12 @@
   "chamaepetes-goudotii": {
    "days": [
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-20"
    ],
    "first": "2026-10-15",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S402636527",
@@ -3830,11 +3899,20 @@
      "details": null,
      "site": "sibundoy",
      "time": "06:02"
+    },
+    {
+     "cl": "S404191373",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
     "trampolin-aves",
-    "sibundoy"
+    "sibundoy",
+    "rio-nambi"
    ]
   },
   "chelidoptera-tenebrosa": {
@@ -4021,7 +4099,7 @@
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S403463641",
@@ -4054,11 +4132,28 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
+    },
+    {
+     "cl": "S404191373",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
     "la-planada",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "chlorophanes-spiza": {
@@ -4150,7 +4245,7 @@
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400658357",
@@ -4191,6 +4286,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 5,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
@@ -4223,11 +4326,12 @@
   },
   "chlorospingus-semifuscus": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403463641",
@@ -4236,10 +4340,19 @@
      "details": null,
      "site": "la-planada",
      "time": "14:14"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "chlorostilbon-gibsoni": {
@@ -4339,7 +4452,7 @@
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403593819",
@@ -4356,6 +4469,22 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 3,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
+    },
+    {
+     "cl": "S404191373",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
@@ -6325,7 +6454,7 @@
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403793473",
@@ -6350,10 +6479,19 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "diglossa-lafresnayii": {
@@ -6711,11 +6849,12 @@
   },
   "electron-platyrhynchum": {
    "days": [
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403593819",
@@ -6724,6 +6863,14 @@
      "details": "One in one place and three fighting in the other place",
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
@@ -6844,11 +6991,12 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-15",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S399294003",
@@ -6897,13 +7045,22 @@
      "details": null,
      "site": "la-planada",
      "time": "14:14"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
     "el-encanto",
     "la-drymophila",
     "trampolin-aves",
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "euchrepomis-callinota": {
@@ -7142,7 +7299,7 @@
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 13,
+   "n_checklists": 14,
    "obs": [
     {
      "cl": "S399294003",
@@ -7247,6 +7404,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191373",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
@@ -7255,7 +7420,8 @@
     "trampolin-aves",
     "la-planada",
     "aves-y-florez",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "falco-rufigularis": {
@@ -7661,11 +7827,12 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-20"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S400323943",
@@ -7698,10 +7865,19 @@
      "details": null,
      "site": "isla-escondida",
      "time": "05:45"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "rio-nambi"
    ]
   },
   "grallaria-alticola": {
@@ -8688,11 +8864,12 @@
    "days": [
     "2026-10-04",
     "2026-10-15",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399294003",
@@ -8717,12 +8894,21 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
     "el-encanto",
     "trampolin-aves",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "leptotila-conoveri": {
@@ -8788,11 +8974,12 @@
   },
   "leuconotopicus-fumigatus": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403455006",
@@ -8801,10 +8988,19 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "liosceles-thoracicus": {
@@ -8917,11 +9113,12 @@
   },
   "machaeropterus-deliciosus": {
    "days": [
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403593819",
@@ -8930,6 +9127,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
@@ -9129,7 +9334,7 @@
      "time": "15:52"
     },
     {
-     "cl": "S403890848",
+     "cl": "S404191311",
      "count": 2,
      "date": "2026-10-19",
      "details": null,
@@ -9831,11 +10036,12 @@
     "2026-10-15",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 10,
+   "n_checklists": 12,
    "obs": [
     {
      "cl": "S398851342",
@@ -9916,13 +10122,30 @@
      "details": null,
      "site": null,
      "time": "10:29"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
+    },
+    {
+     "cl": "S404191373",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
     "trampolin-aves",
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "myioborus-ornatus-x-melanocephalus": {
@@ -10064,7 +10287,7 @@
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403793473",
@@ -10089,10 +10312,19 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "myiothlypis-coronata": {
@@ -10128,11 +10360,12 @@
   },
   "myiothlypis-fulvicauda": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-20"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399435580",
@@ -10141,10 +10374,27 @@
      "details": "Voice",
      "site": "el-encanto",
      "time": "06:08"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
+    },
+    {
+     "cl": "S404191373",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "rio-nambi"
    ]
   },
   "myiothlypis-nigrocristata": {
@@ -10172,11 +10422,12 @@
    "days": [
     "2026-10-10",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-10",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S401009772",
@@ -10217,6 +10468,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
@@ -13651,7 +13910,7 @@
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403793526",
@@ -13668,10 +13927,19 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404191373",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "13:51"
     }
    ],
    "sites": [
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "rio-nambi"
    ]
   },
   "serpophaga-cinerea": {
@@ -14893,11 +15161,12 @@
   },
   "synallaxis-brachyura": {
    "days": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-20"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399294003",
@@ -14906,10 +15175,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "13:00"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "rio-nambi"
    ]
   },
   "synallaxis-unirufa": {
@@ -15166,11 +15444,12 @@
     "2026-10-04",
     "2026-10-15",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S399294003",
@@ -15219,6 +15498,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404191314",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
@@ -15446,11 +15733,12 @@
    "days": [
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403463641",
@@ -15475,11 +15763,20 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:11"
+    },
+    {
+     "cl": "S404191314",
+     "count": 5,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
     "la-planada",
-    "aves-y-florez"
+    "aves-y-florez",
+    "rio-nambi"
    ]
   },
   "tangara-labradorides": {
@@ -16509,11 +16806,12 @@
     "2026-10-05",
     "2026-10-07",
     "2026-10-14",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398851342",
@@ -16562,12 +16860,21 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "tolmomyias-poliocephalus": {
@@ -17612,11 +17919,12 @@
   },
   "urochroa-bougueri": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403455006",
@@ -17625,10 +17933,19 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "urochroa-leucura": {
@@ -17804,11 +18121,12 @@
   },
   "veniliornis-dignus": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403463641",
@@ -17817,10 +18135,19 @@
      "details": null,
      "site": "la-planada",
      "time": "14:14"
+    },
+    {
+     "cl": "S404191314",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "rio-nambi",
+     "time": "08:49"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "rio-nambi"
    ]
   },
   "veniliornis-passerinus": {
@@ -18539,11 +18866,11 @@
     "species": 53
    },
    "2026-10-20": {
-    "checklists": 1,
-    "lifers": 0,
-    "new": 0,
-    "observations": 18,
-    "species": 18
+    "checklists": 3,
+    "lifers": 1,
+    "new": 1,
+    "observations": 48,
+    "species": 36
    }
   },
   "by_site": {
@@ -18640,11 +18967,11 @@
     "species": 70
    },
    "rio-nambi": {
-    "checklists": 1,
-    "lifers": 8,
-    "new": 8,
-    "observations": 14,
-    "species": 14
+    "checklists": 3,
+    "lifers": 9,
+    "new": 9,
+    "observations": 44,
+    "species": 34
    },
    "sibundoy": {
     "checklists": 1,
@@ -18668,10 +18995,10 @@
     "species": 51
    }
   },
-  "checklists": 71,
+  "checklists": 73,
   "days": 20,
-  "lifers": 470,
-  "observations": 1232,
+  "lifers": 471,
+  "observations": 1262,
   "off_site": {
    "checklists": 15,
    "lifers": 34,
@@ -18679,7 +19006,7 @@
    "observations": 136,
    "species": 94
   },
-  "species": 485
+  "species": 486
  },
  "trip_start": "2026-10-01",
  "unmatched": []
