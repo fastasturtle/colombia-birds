@@ -1260,22 +1260,40 @@
    "site": "aves-y-florez",
    "source": "trip_report",
    "time": "18:22"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-20",
+   "day": "2026-10-20",
+   "distance_km": 0.684,
+   "duration_min": 94,
+   "id": "S404083441",
+   "lat": 1.305,
+   "location": "Bangsias Bird Lodge-Hotspot",
+   "location_id": "L7260634",
+   "lon": -78.111,
+   "n_species": 18,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "bangsias-lodge",
+   "source": "trip_report",
+   "time": "06:00"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-20T17:10:35Z",
+ "fetched": "2026-10-21T00:38:32Z",
  "group": {
-  "fetched": "2026-10-20T17:10:35Z",
+  "fetched": "2026-10-21T00:38:32Z",
   "people": [
    {
-    "checklists": 62,
+    "checklists": 65,
     "name": "Volkov Sergey",
     "other_taxa": 1,
     "role": "owner",
-    "species": 458
+    "species": 462
    },
    {
-    "checklists": 65,
+    "checklists": 66,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 1,
@@ -1283,11 +1301,11 @@
     "species": 455
    },
    {
-    "checklists": 71,
+    "checklists": 74,
     "name": "Igor Bobyr",
     "other_taxa": 5,
     "role": "editor",
-    "species": 440
+    "species": 443
    },
    {
     "checklists": 52,
@@ -1323,9 +1341,9 @@
    579125
   ],
   "total": {
-   "checklists": 96,
+   "checklists": 99,
    "other_taxa": 5,
-   "species": 521
+   "species": 522
   }
  },
  "observer": "Аня",
@@ -1346,11 +1364,12 @@
     "S403825320",
     "S403865935",
     "S403890843",
-    "S403890848"
+    "S403890848",
+    "S404083441"
    ],
-   "checklists": 64,
+   "checklists": 65,
    "duplicates": [],
-   "fetched": "2026-10-20T17:10:35Z",
+   "fetched": "2026-10-21T00:38:32Z",
    "ids": [
     579125
    ]
@@ -2626,11 +2645,12 @@
   },
   "bangsia-edwardsi": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S403793473",
@@ -2663,6 +2683,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404083441",
+     "count": 3,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -2695,11 +2723,12 @@
     "2026-10-03",
     "2026-10-06",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851342",
@@ -2740,13 +2769,22 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:27"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
     "chicaque",
     "la-drymophila",
     "la-planada",
-    "aves-y-florez"
+    "aves-y-florez",
+    "bangsias-lodge"
    ]
   },
   "boissonneaua-flavescens": {
@@ -3978,11 +4016,12 @@
   "chlorochrysa-phoenicotis": {
    "days": [
     "2026-10-17",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S403463641",
@@ -4007,6 +4046,14 @@
      "details": null,
      "site": null,
      "time": "10:29"
+    },
+    {
+     "cl": "S404083441",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -4098,11 +4145,12 @@
     "2026-10-09",
     "2026-10-15",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S400658357",
@@ -4135,6 +4183,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "05:47"
+    },
+    {
+     "cl": "S404083441",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -4278,11 +4334,12 @@
   },
   "chlorothraupis-stolzmanni": {
    "days": [
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403593819",
@@ -4291,10 +4348,19 @@
      "details": "In the one place",
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404083441",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
-    "rio-nambi"
+    "rio-nambi",
+    "bangsias-lodge"
    ]
   },
   "chondrohierax-uncinatus": {
@@ -4339,11 +4405,12 @@
   },
   "chrysothlypis-salmoni": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403793473",
@@ -4352,6 +4419,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "05:47"
+    },
+    {
+     "cl": "S404083441",
+     "count": 5,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -4663,11 +4738,12 @@
   },
   "coeligena-wilsoni": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403890843",
@@ -4676,6 +4752,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -6236,11 +6320,12 @@
   },
   "diglossa-indigotica": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403793473",
@@ -6257,6 +6342,14 @@
      "details": null,
      "site": null,
      "time": "10:29"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -6660,11 +6753,12 @@
   },
   "entomodestes-coracinus": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403793473",
@@ -6681,6 +6775,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404083441",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -7035,11 +7137,12 @@
     "2026-10-15",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 12,
+   "n_checklists": 13,
    "obs": [
     {
      "cl": "S399294003",
@@ -7136,6 +7239,14 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:11"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -7143,7 +7254,8 @@
     "isla-escondida",
     "trampolin-aves",
     "la-planada",
-    "aves-y-florez"
+    "aves-y-florez",
+    "bangsias-lodge"
    ]
   },
   "falco-rufigularis": {
@@ -7815,11 +7927,12 @@
     "2026-10-06",
     "2026-10-15",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 8,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S398851320",
@@ -7884,6 +7997,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "05:47"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -9574,11 +9695,12 @@
   },
   "myadestes-ralloides": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-20"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403455006",
@@ -9587,10 +9709,19 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "bangsias-lodge"
    ]
   },
   "myiarchus-apicalis": {
@@ -9928,11 +10059,12 @@
   },
   "myiothlypis-chlorophrys": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403793473",
@@ -9949,6 +10081,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404083441",
+     "count": 2,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -13273,11 +13413,12 @@
   },
   "saltator-grossus": {
    "days": [
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-20"
    ],
    "first": "2026-10-09",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400658357",
@@ -13286,20 +13427,30 @@
      "details": null,
      "site": "isla-escondida",
      "time": "07:09"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
-    "isla-escondida"
+    "isla-escondida",
+    "bangsias-lodge"
    ]
   },
   "saltator-maximus": {
    "days": [
     "2026-10-12",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-20"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862206",
@@ -13324,12 +13475,21 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:27"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
     "playa-rica",
     "puerto-asis",
-    "aves-y-florez"
+    "aves-y-florez",
+    "bangsias-lodge"
    ]
   },
   "saltator-striatipectus": {
@@ -13486,11 +13646,12 @@
   },
   "semnornis-ramphastinus": {
    "days": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403793526",
@@ -13499,9 +13660,19 @@
      "details": null,
      "site": null,
      "time": "10:29"
+    },
+    {
+     "cl": "S404083441",
+     "count": 5,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
-   "sites": []
+   "sites": [
+    "bangsias-lodge"
+   ]
   },
   "serpophaga-cinerea": {
    "days": [
@@ -15638,11 +15809,12 @@
   },
   "tersina-viridis": {
    "days": [
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-20"
    ],
    "first": "2026-10-14",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S402389337",
@@ -15651,9 +15823,19 @@
      "details": null,
      "site": null,
      "time": "15:08"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
-   "sites": []
+   "sites": [
+    "bangsias-lodge"
+   ]
   },
   "thalurania-colombica": {
    "days": [
@@ -17208,11 +17390,12 @@
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 14,
+   "n_checklists": 15,
    "obs": [
     {
      "cl": "S398851342",
@@ -17325,6 +17508,14 @@
      "details": null,
      "site": null,
      "time": "10:29"
+    },
+    {
+     "cl": "S404083441",
+     "count": 1,
+     "date": "2026-10-20",
+     "details": null,
+     "site": "bangsias-lodge",
+     "time": "06:00"
     }
    ],
    "sites": [
@@ -18346,6 +18537,13 @@
     "new": 17,
     "observations": 75,
     "species": 53
+   },
+   "2026-10-20": {
+    "checklists": 1,
+    "lifers": 0,
+    "new": 0,
+    "observations": 18,
+    "species": 18
    }
   },
   "by_site": {
@@ -18357,11 +18555,11 @@
     "species": 21
    },
    "bangsias-lodge": {
-    "checklists": 3,
+    "checklists": 4,
     "lifers": 14,
     "new": 14,
-    "observations": 48,
-    "species": 37
+    "observations": 66,
+    "species": 45
    },
    "chicaque": {
     "checklists": 2,
@@ -18470,10 +18668,10 @@
     "species": 51
    }
   },
-  "checklists": 70,
-  "days": 19,
+  "checklists": 71,
+  "days": 20,
   "lifers": 470,
-  "observations": 1214,
+  "observations": 1232,
   "off_site": {
    "checklists": 15,
    "lifers": 34,

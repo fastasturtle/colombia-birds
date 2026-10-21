@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-20T17:10:35Z",
+ "fetched_at": "2026-10-21T00:38:32Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -652,17 +652,27 @@
      "numSpecies": 1,
      "region": "CO-NAR",
      "time": "18:22"
+    },
+    "S404083441": {
+     "date": "2026-10-20",
+     "lat": 1.305121,
+     "lng": -78.110967,
+     "loc_id": "L7260634",
+     "loc_name": "Bangsias Bird Lodge-Hotspot",
+     "numSpecies": 18,
+     "region": "CO-NAR",
+     "time": "06:00"
     }
    },
    "group": {
-    "checklists": 96,
+    "checklists": 99,
     "other_taxa": 5,
-    "species": 521
+    "species": 522
    },
    "people": [
     {
      "begin": null,
-     "checklists": 65,
+     "checklists": 66,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
@@ -673,13 +683,13 @@
     },
     {
      "begin": null,
-     "checklists": 71,
+     "checklists": 74,
      "end": null,
      "name": "Igor Bobyr",
      "other_taxa": 5,
      "person_id": 820853,
      "role": "editor",
-     "species": 440,
+     "species": 443,
      "user_id": "USER2882675"
     },
     {
@@ -717,13 +727,13 @@
     },
     {
      "begin": null,
-     "checklists": 62,
+     "checklists": 65,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 458,
+     "species": 462,
      "user_id": "USER1063968"
     }
    ],
@@ -16098,7 +16108,7 @@
      "durationHrs": 3.317,
      "effortAreaHa": null,
      "effortDistanceKm": 0.665,
-     "fetched": "2026-10-20T11:40:47Z",
+     "fetched": "2026-10-21T00:38:32Z",
      "numObservers": 1,
      "numSpecies": 26,
      "obs": [
@@ -16268,7 +16278,7 @@
      "durationHrs": 1.583,
      "effortAreaHa": null,
      "effortDistanceKm": 1.103,
-     "fetched": "2026-10-20T11:40:47Z",
+     "fetched": "2026-10-21T00:38:32Z",
      "numObservers": 1,
      "numSpecies": 14,
      "obs": [
@@ -16731,6 +16741,128 @@
        "code": "colsco1",
        "comments": null,
        "count": "2"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404083441": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 1.567,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.684,
+     "fetched": "2026-10-21T00:38:32Z",
+     "numObservers": 1,
+     "numSpecies": 18,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "broinc2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "toubar1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "trokin",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gbwwre1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "andsol1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blasol1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ytbtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "thswar1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gobwar4",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "ocbtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "mobtan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "glgtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "swatan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sawtan1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "indflo1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "butsal1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "slcgro1",
+       "comments": null,
+       "count": "1"
       }
      ],
      "protocolId": "P22",
