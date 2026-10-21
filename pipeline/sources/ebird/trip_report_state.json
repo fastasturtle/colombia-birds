@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T18:40:27Z",
+ "fetched_at": "2026-10-21T23:22:16Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -692,34 +692,44 @@
      "numSpecies": 16,
      "region": "CO-NAR",
      "time": "06:26"
+    },
+    "S404312980": {
+     "date": "2026-10-21",
+     "lat": 1.353344,
+     "lng": -78.176028,
+     "loc_id": "L4859240",
+     "loc_name": "Reserva La Nutria",
+     "numSpecies": 5,
+     "region": "CO-NAR",
+     "time": "13:27"
     }
    },
    "group": {
-    "checklists": 101,
+    "checklists": 102,
     "other_taxa": 5,
     "species": 533
    },
    "people": [
     {
      "begin": null,
-     "checklists": 69,
+     "checklists": 70,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 459,
+     "species": 461,
      "user_id": "USER3559161"
     },
     {
      "begin": null,
-     "checklists": 75,
+     "checklists": 76,
      "end": null,
      "name": "Igor Bobyr",
      "other_taxa": 5,
      "person_id": 820853,
      "role": "editor",
-     "species": 452,
+     "species": 453,
      "user_id": "USER2882675"
     },
     {
@@ -757,13 +767,13 @@
     },
     {
      "begin": null,
-     "checklists": 67,
+     "checklists": 68,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 474,
+     "species": 475,
      "user_id": "USER1063968"
     }
    ],
@@ -15681,7 +15691,7 @@
      "durationHrs": 0.283,
      "effortAreaHa": null,
      "effortDistanceKm": 0.135,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T23:22:16Z",
      "numObservers": 1,
      "numSpecies": 0,
      "obs": [],
@@ -15694,7 +15704,7 @@
      "durationHrs": 2.584,
      "effortAreaHa": null,
      "effortDistanceKm": 1.043,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T23:22:16Z",
      "numObservers": 5,
      "numSpecies": 37,
      "obs": [
@@ -15930,7 +15940,7 @@
      "durationHrs": 0.533,
      "effortAreaHa": null,
      "effortDistanceKm": 0.146,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T23:22:16Z",
      "numObservers": 1,
      "numSpecies": 15,
      "obs": [
@@ -16034,7 +16044,7 @@
      "durationHrs": 2.867,
      "effortAreaHa": null,
      "effortDistanceKm": 1.133,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T23:22:16Z",
      "numObservers": 1,
      "numSpecies": 14,
      "obs": [
@@ -16400,7 +16410,7 @@
      "durationHrs": 0.717,
      "effortAreaHa": null,
      "effortDistanceKm": 0.069,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T23:22:16Z",
      "numObservers": 1,
      "numSpecies": 12,
      "obs": [
@@ -16596,7 +16606,7 @@
      "durationHrs": 0.733,
      "effortAreaHa": null,
      "effortDistanceKm": 1.038,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T23:22:16Z",
      "numObservers": 1,
      "numSpecies": 7,
      "obs": [
@@ -17199,6 +17209,50 @@
        "code": "butsal1",
        "comments": null,
        "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404312980": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 1.034,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.11,
+     "fetched": "2026-10-21T23:22:16Z",
+     "numObservers": 1,
+     "numSpecies": 5,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "goftyr1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "goctan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "emetan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sawtan1",
+       "comments": null,
+       "count": "3"
       }
      ],
      "protocolId": "P22",

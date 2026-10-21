@@ -1332,27 +1332,45 @@
    "site": null,
    "source": "trip_report",
    "time": "06:26"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-21",
+   "day": "2026-10-21",
+   "distance_km": 0.11,
+   "duration_min": 62,
+   "id": "S404312980",
+   "lat": 1.353,
+   "location": "Reserva La Nutria",
+   "location_id": "L4859240",
+   "lon": -78.176,
+   "n_species": 5,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "source": "trip_report",
+   "time": "13:27"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-21T18:40:27Z",
+ "fetched": "2026-10-21T23:22:16Z",
  "group": {
-  "fetched": "2026-10-21T18:40:27Z",
+  "fetched": "2026-10-21T23:22:16Z",
   "people": [
    {
-    "checklists": 67,
+    "checklists": 68,
     "name": "Volkov Sergey",
     "other_taxa": 1,
     "role": "owner",
-    "species": 474
+    "species": 475
    },
    {
-    "checklists": 69,
+    "checklists": 70,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 1,
     "role": "editor",
-    "species": 459
+    "species": 461
    },
    {
     "checklists": 59,
@@ -1362,11 +1380,11 @@
     "species": 454
    },
    {
-    "checklists": 75,
+    "checklists": 76,
     "name": "Igor Bobyr",
     "other_taxa": 5,
     "role": "editor",
-    "species": 452
+    "species": 453
    },
    {
     "checklists": 20,
@@ -1395,7 +1413,7 @@
    579125
   ],
   "total": {
-   "checklists": 101,
+   "checklists": 102,
    "other_taxa": 5,
    "species": 533
   }
@@ -1422,11 +1440,12 @@
     "S404083441",
     "S404191314",
     "S404191373",
-    "S404249271"
+    "S404249271",
+    "S404312980"
    ],
-   "checklists": 68,
+   "checklists": 69,
    "duplicates": [],
-   "fetched": "2026-10-21T18:40:27Z",
+   "fetched": "2026-10-21T23:22:16Z",
    "ids": [
     579125
    ]
@@ -2799,6 +2818,25 @@
      "details": null,
      "site": null,
      "time": "06:26"
+    }
+   ],
+   "sites": []
+  },
+  "bangsia-rothschildi": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404312980",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "13:27"
     }
    ],
    "sites": []
@@ -4601,11 +4639,12 @@
   "chrysothlypis-salmoni": {
    "days": [
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-19",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403793473",
@@ -4622,6 +4661,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404312980",
+     "count": 3,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "13:27"
     }
    ],
    "sites": [
@@ -7375,7 +7422,7 @@
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 15,
+   "n_checklists": 16,
    "obs": [
     {
      "cl": "S399294003",
@@ -7496,6 +7543,14 @@
      "details": null,
      "site": null,
      "time": "06:26"
+    },
+    {
+     "cl": "S404312980",
+     "count": 2,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "13:27"
     }
    ],
    "sites": [
@@ -15808,6 +15863,25 @@
     "trampolin-aves"
    ]
   },
+  "tangara-florida": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404312980",
+     "count": 2,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "13:27"
+    }
+   ],
+   "sites": []
+  },
   "tangara-gyrola": {
    "days": [
     "2026-10-04",
@@ -18748,11 +18822,12 @@
    "days": [
     "2026-10-05",
     "2026-10-15",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-21"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S399582442",
@@ -18785,6 +18860,14 @@
      "details": null,
      "site": "la-planada",
      "time": "09:29"
+    },
+    {
+     "cl": "S404312980",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "13:27"
     }
    ],
    "sites": [
@@ -19065,11 +19148,11 @@
     "species": 36
    },
    "2026-10-21": {
-    "checklists": 1,
-    "lifers": 5,
-    "new": 5,
-    "observations": 16,
-    "species": 16
+    "checklists": 2,
+    "lifers": 7,
+    "new": 7,
+    "observations": 21,
+    "species": 20
    }
   },
   "by_site": {
@@ -19194,18 +19277,18 @@
     "species": 51
    }
   },
-  "checklists": 74,
+  "checklists": 75,
   "days": 21,
-  "lifers": 475,
-  "observations": 1277,
+  "lifers": 477,
+  "observations": 1282,
   "off_site": {
-   "checklists": 16,
-   "lifers": 39,
-   "new": 43,
-   "observations": 152,
-   "species": 108
+   "checklists": 17,
+   "lifers": 41,
+   "new": 45,
+   "observations": 157,
+   "species": 112
   },
-  "species": 490
+  "species": 492
  },
  "trip_start": "2026-10-01",
  "unmatched": []
