@@ -1,0 +1,440 @@
+---
+/**
+ * «500 для Игоря»: hidden field plan (not linked from anywhere, noindex, excluded from the offline pack in
+ * integrations/offline.mjs) for trip participant Igor to go from 443 to 500 species on 21–23 Oct (+ Bogotá reserve 24 Oct).
+ * Data: content/igor-500/data.json (lib/igor500.ts): candidates per remaining site with autumn eBird/GBIF record counts.
+ * Checkboxes keep their state in localStorage['igor500'] ({ species id: 1 }); one state per species across all lists.
+ */
+import Base from '../../layouts/Base.astro';
+import { sites, plural } from '@lib/data';
+import { igor500, sp, type Candidate, type Tier } from '@lib/igor500';
+
+const base = import.meta.env.BASE_URL;
+const d = igor500();
+const need = d.goal - d.species;
+const siteOf = new Map(sites().map((s) => [s.id, s]));
+const siteRu = (id: string) => siteOf.get(id)?.name_ru ?? id;
+const asOfRu = (() => { const [date, time] = d.as_of.split(' '); const [, m, dd] = date.split('-'); return `${dd}.${m} ${time}`; })();
+
+// one name record per species id: data.json first (Russian name of the derivation), then the site's index
+const cand = new Map<string, Candidate>();
+for (const l of Object.values(d.sites)) for (const c of l) if (!cand.has(c.id)) cand.set(c.id, c);
+const nm = (id: string) => {
+  const s = sp(id);
+  return { id, en: s.en, sci: s.sci, ru: cand.get(id)?.ru ?? s.ru };
+};
+const href = (id: string) => `${base}species/${id}/`;
+
+// ---------- 2. day plan ----------
+interface Block { slot: string; time: string; place: string; note: string; targets: string[] }
+interface DayPlan { date: string; title: string; tide: string | null; extra?: string; reserve?: boolean; blocks: Block[] }
+const plan: DayPlan[] = [
+  {
+    date: '21.10, ср', title: 'Ла-Нутрия → спуск к побережью → Км 42 → Тумако',
+    tide: 'Тумако: отлив 05:46 · прилив 11:49 · отлив 18:03',
+    blocks: [
+      { slot: 'Рассвет', time: '05:57–07:00', place: 'Ла-Нутрия, кормушки', note: 'Самый продуктивный час дня: колибри и бангсии на кормушках. Плейбэк в резервате не включать (правило авá).',
+        targets: ['bangsia-rothschildi', 'androdon-aequatorialis', 'phaethornis-yaruqui', 'phaethornis-syrmatophorus', 'heliodoxa-jacula', 'bangsia-flavovirens', 'chalybura-urochrysia', 'eutoxeres-aquila', 'euphonia-saturata'] },
+      { slot: 'Утро', time: '07:00–10:30', place: 'Ла-Нутрия, лесная тропа', note: 'Муравьеловки, тапакуло, лесные куры: всё на слух и терпением. Спросить гида про известный ток зонтичной птицы и про Choco Vireo, но не строить на них план.',
+        targets: ['scytalopus-chocoensis', 'hafferia-zeledoni', 'formicarius-rufipectus', 'odontophorus-melanonotus', 'grallaria-haplonota', 'xiphorhynchus-erythropygius', 'baryphthengus-martii', 'rhynchocyclus-fulvipectus', 'arremon-castaneiceps', 'pyrilia-pulchra', 'vireo-masteri', 'cephalopterus-penduliger'] },
+      { slot: 'Полдень', time: '10:30–15:00', place: 'Спуск Хунин – Тумако, 300–800 м, остановки у дороги', note: 'Короткие остановки у обзорных мест и мостов. Спросить про пещеру гуахаро и скалу лиропоясого козодоя на дороге к Эль-Дивисо.',
+        targets: ['steatornis-caripensis', 'uropsalis-lyra', 'cinclus-leucocephalus', 'patagioenas-subvinacea', 'touit-dilectissimus', 'psarocolius-wagleri', 'ampelioides-tschudii', 'carpodectes-hopkei', 'herpetotheres-cachinnans'] },
+      { slot: 'Вечер', time: '15:30–18:00', place: 'Км 42, грунтовка Пуэбло-Нуэво → Рио-Мира', note: 'Вторичный лес с цекропиями. После жары птицы снова активны; осоед и другие хищники парят днём.',
+        targets: ['capito-squamatus', 'querula-purpurata', 'notharchus-tectus', 'notharchus-hyperrhynchus', 'chondrohierax-uncinatus', 'campylorhamphus-trochilirostris', 'melanerpes-pucherani', 'ortalis-erythroptera', 'pachyramphus-cinnamomeus', 'campephilus-gayaquilensis', 'forpus-coelestis', 'dacnis-egregia'] },
+      { slot: 'Ночь', time: '18:00–18:45', place: 'Км 42, та же дорога и пастбища у реки', note: 'Остаться до темноты (предложение 2 ниже). Common Potoo и Pauraque у Игоря уже есть, здесь цели другие. Луна 87–98 %: козодоев видно хорошо, сов хуже. Потом ~1 ч до Тумако.',
+        targets: ['chordeiles-acutipennis', 'tyto-furcata', 'pulsatrix-perspicillata', 'crypturellus-soui', 'laterallus-albigularis'] },
+    ],
+  },
+  {
+    date: '22.10, чт', title: 'Финка Марагрикола → Плайя-дель-Морро',
+    tide: 'Тумако: отлив 06:43 · прилив 12:48 · отлив 18:54',
+    blocks: [
+      { slot: 'Рассвет', time: '05:45–07:00', place: 'Марагрикола, дальние пруды в конце дороги', note: 'Ехать сразу в конец дороги и слушать: пастушки и тинаму засчитываются в eBird и на слух.',
+        targets: ['crypturellus-soui', 'laterallus-albigularis', 'laterallus-exilis', 'aramides-wolfi', 'pardirallus-maculatus', 'amaurolimnas-concolor', 'anas-bahamensis', 'tachybaptus-dominicus', 'podilymbus-podiceps', 'dendrocygna-bicolor'] },
+      { slot: 'Утро', time: '07:00–10:00', place: 'Марагрикола, пруды и дорога обратно', note: 'Плавунчики и кулики на прудах, потом опушка и пастбища. После 10:00 очень жарко.',
+        targets: ['phalaropus-tricolor', 'calidris-himantopus', 'himantopus-mexicanus', 'calidris-minutilla', 'tringa-melanoleuca', 'spatula-discors', 'forpus-coelestis', 'sporophila-telasco', 'furnarius-cinnamomeus', 'fluvicola-nengeta', 'leistes-militaris', 'leistes-bellicosus'] },
+      { slot: 'Полдень', time: '10:30–13:30', place: 'Эль-Бахито / Пуэнте-дель-Морро, насест куликов', note: 'Прилив (пик 12:48) сгоняет куликов и крачек на пляж и камни: самый концентрированный час побережья. Труба обязательна.',
+        targets: ['numenius-hudsonicus', 'tringa-semipalmata', 'pluvialis-squatarola', 'calidris-alba', 'charadrius-semipalmatus', 'calidris-mauri', 'arenaria-interpres', 'limnodromus-griseus', 'haematopus-palliatus', 'thalasseus-maximus', 'thalasseus-sandvicensis', 'leucophaeus-atricilla'] },
+      { slot: 'Вечер', time: '16:00–18:00', place: 'Эль-Морро, скалы и море', note: 'Отлив, солнце за спиной. Осматривать каждую стаю олуш, пеликанов и бакланов: год Эль-Ниньо. Инкская крачка в 2022 году садилась на большую скалу около 17:20.',
+        targets: ['sula-nebouxii', 'sula-variegata', 'pelecanus-occidentalis', 'fregata-magnificens', 'sula-granti', 'gelochelidon-nilotica', 'leucophaeus-pipixcan', 'thalasseus-elegans', 'chlidonias-niger', 'ardenna-grisea', 'larosterna-inca'] },
+      { slot: 'Ночь', time: '18:00–19:00', place: 'Мангры у моста Эль-Морро', note: 'Сумерки на краю мангров: пастушки и кваквы выходят на ил.',
+        targets: ['aramides-axillaris', 'nyctanassa-violacea', 'nycticorax-nycticorax', 'setophaga-petechia', 'buteogallus-anthracinus', 'chordeiles-acutipennis', 'rallus-longirostris'] },
+    ],
+  },
+  {
+    date: '23.10, пт', title: 'Плайя-дель-Морро, лодка, Тумако; рейс в Боготу 18:50',
+    tide: 'Тумако: отлив 07:29 · прилив 13:36 · отлив 19:39',
+    blocks: [
+      { slot: 'Рассвет', time: '06:00–08:00', place: 'Скалы Эль-Морро на отливе, потом мангры', note: 'К скалам можно дойти пешком только на отливе. Кулики на камнях, ночёвка крачек.',
+        targets: ['calidris-virgata', 'arenaria-interpres', 'larosterna-inca', 'columbina-cruziana', 'quiscalus-mexicanus', 'falco-peregrinus', 'egretta-rufescens', 'egretta-tricolor', 'egretta-caerulea'] },
+      { slot: 'Утро', time: '08:00–11:00', place: 'Лодка из порта Тумако: Бокагранде и устье бухты', note: 'Единственное «морское» время (предложение 3). Немного рыбы или жира за бортом привлекает чаек и крачек.',
+        targets: ['sula-variegata', 'sula-granti', 'sterna-hirundo', 'thalasseus-elegans', 'chlidonias-niger', 'leucophaeus-pipixcan', 'xema-sabini', 'phalaropus-fulicarius', 'ardenna-grisea', 'ardenna-creatopus', 'chrysuronia-humboldtii', 'limosa-fedoa'] },
+      { slot: 'Полдень', time: '11:30–13:30', place: 'Эль-Бахито, насест на приливе', note: 'Прилив 13:36, второй шанс на всё, что не попалось вчера.',
+        targets: ['calidris-pusilla', 'limnodromus-griseus', 'limosa-fedoa', 'gelochelidon-nilotica', 'thalasseus-sandvicensis', 'leucophaeus-modestus', 'larus-dominicanus', 'egretta-rufescens'] },
+      { slot: 'Вечер', time: '15:00–17:00', place: 'Тумако: Parque Colón, причал, трава у аэропорта', note: 'Городские виды и пустыри; аэропорт рядом с Эль-Морро, выезд в 17:00.',
+        targets: ['passer-domesticus', 'myiarchus-panamensis', 'columbina-cruziana', 'leucophaeus-atricilla', 'leistes-bellicosus', 'sporophila-telasco', 'camptostoma-obsoletum', 'columbina-buckleyi'] },
+      { slot: 'Ночь', time: '18:50', place: 'Рейс Satena Тумако – Богота', note: 'Ночёвка в Hotel El Dorado.', targets: [] },
+    ],
+  },
+  {
+    date: '24.10, сб', title: 'Богота: Parque La Florida', reserve: true,
+    tide: null, extra: 'Вне программы, успеть к 13:00 (группа выезжает в аэропорт).',
+    blocks: [
+      { slot: 'Утро', time: '06:00–11:00', place: 'Parque La Florida, озеро и тростники', note: '15–25 минут от отелей у аэропорта, парковка у входа с Av. Engativá. Наблюдательная вышка до 10 человек по заявке на florida@idrd.gov.co; плейбэк запрещён; бесплатно. Doradito и Noble Snipe требуют терпения у тростника.',
+        targets: ['rallus-semiplumbeus', 'synallaxis-subpudica', 'chrysomus-icterocephalus', 'porphyriops-melanops', 'cistothorus-apolinari', 'gallinago-nobilis', 'anas-andium', 'conirostrum-rufum', 'asio-flammeus', 'diglossa-humeralis', 'piranga-olivacea', 'contopus-cooperi'] },
+    ],
+  },
+];
+
+// ---------- proposals ----------
+const proposals = [
+  { title: 'Привязать Плайя-дель-Морро к приливу', est: '≈ 15–25 новых',
+    text: 'Рассвет на отливе: скалы и мангры; 10:30–13:30 насест куликов и крачек на приливе (22.10 пик 12:48, 23.10 пик 13:36); 16:00–18:00 осмотр моря от Эль-Морро. Побережье даёт больше всего новых видов, и почти все они зависят от воды.' },
+  { title: 'Остаться на Км 42 до ~18:45 21.10', est: '≈ 4–8 новых',
+    text: 'Поздний день для мухоловок, пухобородок и плодовых ворон, затем сумерки: Lesser Nighthawk над пастбищами и рекой, American Barn Owl у деревни Пуэбло-Нуэво, Spectacled Owl на опушке. Дорога до Тумако около часа.' },
+  { title: 'Лодка 2–3 ч из порта Тумако 23.10, 08:00–11:00', est: '≈ 3–8 новых, есть шанс на редкость',
+    text: 'Бокагранде и устье бухты, петля мимо скал Эль-Морро и внешних отмелей. Олуши, крачки, чайки; шанс на буревестников, плавунчиков, Sabine’s Gull, поморников. Полный пелагический выход (20 ч) в наше окно не помещается.' },
+];
+
+// ---------- 3. reachable missed ----------
+const missed = d.reachable_missed.map((m) => ({ ...nm(m.id), where: Object.entries(m.sites).sort((a, b) => b[1] - a[1]) }));
+
+// ---------- 4. guide block (Spanish) ----------
+const guide: { site: string; items: { ids: string[]; ask: string }[] }[] = [
+  { site: 'Reserva La Nutria', items: [
+    { ids: ['bangsia-rothschildi', 'androdon-aequatorialis'], ask: '¿A qué hora llegan a los comederos?' },
+    { ids: ['scytalopus-chocoensis'], ask: '¿Hay un territorio conocido cerca del sendero?' },
+    { ids: ['pyrilia-pulchra'], ask: '¿A qué hora suelen pasar volando?' },
+    { ids: ['steatornis-caripensis', 'uropsalis-lyra'], ask: '¿Dónde está la cueva del guácharo / el barranco del Lyre-tailed Nightjar en la vía a El Diviso?' },
+    { ids: ['cephalopterus-penduliger', 'vireo-masteri'], ask: 'Solo si hay un lek o un sitio conocido ahora.' },
+  ] },
+  { site: 'Km 42 (Pueblo Nuevo – Río Mira)', items: [
+    { ids: ['capito-squamatus', 'querula-purpurata'], ask: '¿Dónde se ven más seguido?' },
+    { ids: ['notharchus-tectus', 'notharchus-hyperrhynchus'], ask: '¿Hay perchas conocidas?' },
+    { ids: ['chondrohierax-uncinatus', 'campylorhamphus-trochilirostris'], ask: '¿En qué tramo de la vía?' },
+    { ids: ['chordeiles-acutipennis', 'tyto-furcata', 'pulsatrix-perspicillata'], ask: '¿Podemos quedarnos hasta las 18:45 para buscarlos?' },
+  ] },
+  { site: 'Finca Maragrícola', items: [
+    { ids: [], ask: '¿Cómo está el nivel del agua en los estanques ahora?' },
+    { ids: ['pardirallus-maculatus', 'amaurolimnas-concolor'], ask: '¿En qué zanja se escuchan al amanecer?' },
+    { ids: ['phalaropus-tricolor', 'calidris-himantopus'], ask: '¿En qué estanque?' },
+    { ids: ['anas-bahamensis'], ask: '¿Dónde están los patos?' },
+    { ids: ['leistes-bellicosus'], ask: '¿En qué potrero?' },
+  ] },
+  { site: 'Costa: El Morro, El Bajito, Bocagrande', items: [
+    { ids: [], ask: '¿Dónde está el dormidero de playeros en El Bajito con marea alta (12:48 el 22, 13:36 el 23)?' },
+    { ids: [], ask: '¿Se puede reservar una lancha el 23 de octubre de 08:00 a 11:00 a Bocagrande y la boca de la bahía?' },
+    { ids: ['aramides-axillaris'], ask: '¿Un punto en el manglar al atardecer?' },
+    { ids: ['chrysuronia-humboldtii'], ask: '¿En qué manglar?' },
+    { ids: ['rallus-longirostris'], ask: '¿Dónde se escucha?' },
+  ] },
+];
+
+// ---------- 5. candidates by site ----------
+// «Шанс» (1–4 autumn records) only for these special targets (seabirds, rarities, stake-outs), not the whole tail
+const CHANCE_KEEP = new Set([
+  'larosterna-inca', 'sula-variegata', 'sula-granti', 'xema-sabini', 'leucophaeus-modestus', 'leucophaeus-pipixcan', 'thalasseus-elegans',
+  'chlidonias-niger', 'phalaropus-fulicarius', 'ardenna-grisea', 'ardenna-creatopus', 'chrysuronia-humboldtii', 'pardirallus-maculatus',
+  'amaurolimnas-concolor', 'cephalopterus-penduliger', 'vireo-masteri', 'steatornis-caripensis', 'uropsalis-lyra', 'carpodectes-hopkei',
+  'psarocolius-cassini', 'bangsia-rothschildi', 'pyrilia-pulchra', 'chordeiles-acutipennis', 'calidris-virgata', 'larus-dominicanus',
+]);
+const SITE_ORDER: [string, string][] = [
+  ['la-nutria', ''], ['km-42', ''], ['finca-maragricola', ''], ['playa-del-morro', ''], ['tumaco', ''], ['la-florida', 'Богота, резерв 24.10'],
+];
+const TIER_RU: Record<Tier, string> = { sure: 'Почти наверняка', likely: 'Вероятно', chance: 'Шанс' };
+const TIER_NOTE: Record<Tier, string> = { sure: '≥ 20 осенних записей', likely: '5–19 записей', chance: '1–4 записи, только особые цели' };
+const siteLists = SITE_ORDER.filter(([id]) => d.sites[id]).map(([id, tag]) => {
+  const all = [...d.sites[id]].sort((a, b) => b.n_aut - a.n_aut || a.en.localeCompare(b.en));
+  const tiers = (['sure', 'likely', 'chance'] as Tier[]).map((t) => ({
+    t, rows: all.filter((c) => c.tier === t && (t !== 'chance' || (CHANCE_KEEP.has(c.id) && !(id === 'la-florida' && c.id === 'steatornis-caripensis')))),
+  })).filter((x) => x.rows.length);
+  const cnt = (t: Tier) => all.filter((c) => c.tier === t).length;
+  const name = id === 'la-florida' ? 'Parque La Florida' : siteRu(id);
+  return { id, tag, name, tiers, sure: cnt('sure'), likely: cnt('likely') };
+});
+// special targets with no autumn records at these sites (not in the statistics); verified as not on Igor's list
+const bonus = ['larosterna-inca', 'leucocarbo-bougainvilliorum', 'xema-sabini', 'phalaropus-fulicarius', 'ardenna-creatopus',
+  'pardirallus-maculatus', 'amaurolimnas-concolor', 'rallus-longirostris', 'pulsatrix-perspicillata', 'psarocolius-cassini'].map(nm);
+
+// ---------- 6. tips, 7. sources ----------
+const tips = [
+  'Сначала прилив, потом всё остальное: насест куликов 10:30–13:30, скалы и мангры на рассветном отливе, море ближе к вечеру со светом за спиной.',
+  'Ночь 21.10 на Км 42: Lesser Nighthawk, сипуха, очковая сова. Яркая луна помогает видеть козодоев на сухих ветках.',
+  'Рассветный хор считается: «только слышал» в eBird тоже вид. Тинаму, пастушки и Brown Wood-Rail в Марагриколе в 05:45–06:30.',
+  'Открытые места у Тумако (трава у аэропорта, пастбища Марагриколы, обочины шоссе 10): семеноеды, луговые трупиалы, Pacific Parrotlet, Pacific Hornero.',
+  'Спуск Хунин – Тумако, 300–800 м (Ла-Гуаякана, Эль-Дивисо): короткие остановки у дороги ради попугаев, дятлов и котинг предгорий Чоко — Rose-faced Parrot, Lita Woodpecker, Blue-fronted Parrotlet, Black-tipped Cotinga. На побережье их уже не будет.',
+  'Плейбэк: в Ла-Нутрии нельзя (просьба авá), на Км 42 и в Марагриколе умеренно, на побережье не нужен.',
+  'Кормушки Ла-Нутрии на рассвете: самые эффективные 60 минут 21.10.',
+  'Труба на пляже всегда под рукой: олуши, крачки и дальние стаи куликов почти все «трубные» виды.',
+];
+const sources: [string, string][] = [
+  ['Приливы Тумако (tide-forecast.com)', 'https://www.tide-forecast.com/locations/Tumaco/tides/latest'],
+  ['Приливы, перекрёстная проверка (cabaigne.net)', 'https://www.cabaigne.net/amerique-du-sud/colombie/tumaco/horaire-marees.html'],
+  ['Ла-Нутрия: Turismo Nariño', 'https://turismo.narino.gov.co/sitios/reserva-natural-la-nutria/'],
+  ['Ла-Нутрия: контакты и хотспоты (birdscolombia.com)', 'https://birdscolombia.com/lodges/'],
+  ['Правило авá про голоса птиц (Canal Trece)', 'https://canaltrece.com.co/noticias/reservas-naturales-narino-barbacoas-tumaco/'],
+  ['Long-wattled Umbrellabird в Нариньо (pajarear.co)', 'https://pajarear.co/b/lowumb1.html'],
+  ['Choco Vireo, Río Ñambí (uncovercolombia.com)', 'https://uncovercolombia.com/blog/birding-in-narino-colombia/'],
+  ['Км 42 и Марагрикола (The Speckled Hatchback, 2018)', 'http://thespeckledhatchback.blogspot.com/2018/10/post-146-colombia-southwestern-andes.html'],
+  ['Марагрикола: изменения среды (Migratory Shorebird Project 2022–23)', 'https://migratoryshorebirdproject.org/wp-content/uploads/2024/03/MigratoryShorebirdProjectProgressAnnualReport2022-23-2.pdf'],
+  ['Эль-Морро после обрушения арки (Infobae, 2026)', 'https://www.infobae.com/colombia/2026/09/25/tumaco-entre-playas-de-arena-negra-manglares-y-avistamiento-de-ballenas-en-octubre-asi-prevalece-el-morro-tras-la-caida-de-su-arco/'],
+  ['Эль-Бахито и Бокагранде: кулики (Calidris, 2024)', 'https://calidris.org.co/2024/10/02/monitoreo-comunitario-de-aves-acuaticas-y-turismo-regenerativo-en-las-playas-de-el-bajito-y-bocagrande-en-tumaco-narino/'],
+  ['Fundación Guandal, учёты куликов (Radio Nacional)', 'https://radionacional.co/actualidad/medio-ambiente/conservacion-de-aves-marinas-en-el-pacifico-fundacion-guandal-tumaco'],
+  ['Inca Tern и Nazca Booby у Эль-Морро, 2022 (The Birders Show)', 'https://thebirdersshow.com/blog/birders-show-best-birds-2022-colombia'],
+  ['Пелагический выход из Тумако (The Birders Show)', 'https://thebirdersshow.com/blog/pelagic-birding-in-tumaco-narino-colombia'],
+  ['Бокагранде, IBA (BirdLife)', 'https://datazone.birdlife.org/site/factsheet/isla-bocagrande-iba-colombia/details'],
+  ['Авитуризм в Тумако, лодки (Radio Nacional)', 'https://radionacional.co/cultura/turismo/aviturismo-en-tumaco-narino-rutas-turisticas'],
+  ['Эль-Ниньо 2026: морские птицы у Панамы (US News)', 'https://www.usnews.com/news/world/articles/2026-08-14/displaced-by-el-nino-south-american-seabirds-flock-to-panama'],
+  ['Эль-Ниньо 2026: Эквадор и Перу (Mongabay)', 'https://es.mongabay.com/2026/07/aves-marinas-muertas-nidos-abandonados-el-nino-ecuador-peru/'],
+  ['Эль-Ниньо и птицы течения Гумбольдта (ABA)', 'https://www.aba.org/intense-el-nino-sends-humboldt-current-seabirds-to-central-america/'],
+  ['Гибель морских птиц Тихого океана, 2026 (ABC)', 'https://abcbirds.org/news/pacific-seabird-dieoff-2026/'],
+  ['Parque La Florida: прогулки с наблюдением птиц (bogota.gov.co)', 'https://bogota.gov.co/que-hacer/recreacion-y-deporte/caminata-avistamiento-de-aves-en-el-parque-la-florida'],
+  ['Бёрдинг в Боготе (Sula)', 'https://www.sula.com.co/blog/birdwatching-bogota/'],
+  ['Parque La Florida (BirdForum)', 'https://www.birdforum.net/threads/parque-la-florida-bogota-colombia.478427/'],
+];
+---
+<Base title="500 для Игоря" description="План на последние дни тура: как Игорю дойти до 500 видов" noindex>
+  <header class="hero">
+    <h1>{d.person_ru}: {d.species} → {d.goal}</h1>
+    <p class="lead">Нужно ещё <b>{need}</b>. Впереди {d.sure_total} {plural(d.sure_total, 'вид', 'вида', 'видов')} «почти наверняка» и {d.likely_total} «вероятно».</p>
+    <div class="counter card" aria-live="polite">
+      <div class="cnt-line"><span>{d.species}</span> + <span>отмечено <b id="i5-n">0</b></span> = <b class="cnt-total" id="i5-total">{d.species}</b></div>
+      <div class="cnt-left" id="i5-left">до {d.goal} осталось {need}</div>
+      <div class="bar" aria-hidden="true"><i id="i5-bar" style={`width:${Math.round((d.species / d.goal) * 100)}%`}></i></div>
+    </div>
+    <p class="muted small">По состоянию на {asOfRu} (последний чеклист в отчёте поездки eBird, {d.checklists} {plural(d.checklists, 'чеклист', 'чеклиста', 'чеклистов')}), обновляется вручную. Отметки хранятся только в этом браузере. Рассвет 05:57, закат 18:01, луна 87–98 %.</p>
+  </header>
+
+  <nav class="toc" aria-label="Разделы страницы">
+    <a href="#plan">План</a><a href="#offer">Гиду и группе</a><a href="#missed">Пропущенное</a><a href="#guia">Para el guía</a><a href="#cand">Кандидаты</a><a href="#tips">Лайфхаки</a>
+  </nav>
+
+  <h2 id="plan">План по дням</h2>
+  {plan.map((day) => (
+    <section class:list={['day', { reserve: day.reserve }]}>
+      <h3><span class="dd">{day.date}</span> {day.title}</h3>
+      {day.extra && <p class="reserve-tag">{day.extra}</p>}
+      {day.tide && <p class="tide">Приливы, {day.tide}</p>}
+      {day.blocks.map((b) => (
+        <div class="blk">
+          <div class="blk-h"><span class="slot">{b.slot}</span> <span class="time">{b.time}</span></div>
+          <div class="place">{b.place}</div>
+          <p class="note">{b.note}</p>
+          {b.targets.length > 0 && (
+            <ul class="tg">
+              {b.targets.map(nm).map((s) => (
+                <li data-got={s.id}><a href={href(s.id)}>{s.en}</a> <i class="sci">{s.sci}</i>{s.ru && <span class="ru"> {s.ru}</span>}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <h2 id="offer">Что предложить гиду / группе</h2>
+  <p class="muted small">Три отступления от программы, по ожидаемому числу новых видов.</p>
+  <ol class="offers">
+    {proposals.map((p) => (
+      <li class="card"><b>{p.title}</b> <span class="est">{p.est}</span><p>{p.text}</p></li>
+    ))}
+  </ol>
+  <div class="card nino">
+    <b>Эль-Ниньо 2026.</b>{' '}Сильный и продолжается: птиц течения Гумбольдта сносит на север (Эквадор, Панамский залив, июнь–август 2026).{' '}
+    Осматривать каждую стаю олуш, пеликанов и бакланов:{' '}<a href={href('sula-variegata')}>Peruvian Booby</a> (белая голова),{' '}
+    <a href={href('leucocarbo-bougainvilliorum')}>Guanay Cormorant</a>, <a href={href('larosterna-inca')}>Inca Tern</a> (скала Эль-Морро в сумерках),{' '}
+    перуанский пеликан (огромный, светлый; карточки на сайте нет), а также <a href={href('leucophaeus-modestus')}>Gray Gull</a> и <a href={href('larus-dominicanus')}>Kelp Gull</a>.
+  </div>
+
+  <h2 id="missed">Пропущенное, но ещё реальное</h2>
+  <p class="muted small">Видели в группе, у Игоря нет; встречаются на локациях впереди (число осенних записей).</p>
+  <ul class="cl">
+    {missed.map((s) => (
+      <li class="cand">
+        <input type="checkbox" data-sp={s.id} id={`m-${s.id}`} aria-label={`отмечено: ${s.en}`} />
+        <label for={`m-${s.id}`} class="nmb"><a href={href(s.id)}>{s.en}</a> <span class="sub"><i class="sci">{s.sci}</i>{s.ru && <> · {s.ru}</>}</span>
+          <span class="where">{s.where.map(([sid, n]) => `${siteRu(sid)} ${n}`).join(' · ')}</span></label>
+      </li>
+    ))}
+  </ul>
+
+  <h2 id="guia">Mostrar al guía</h2>
+  <p class="muted small">Этот блок можно показать гиду с телефона.</p>
+  <section class="card guia" lang="es">
+    <h3>Para Brayan Coral: ¿nos ayudas con estos sitios?</h3>
+    <p>Igor tiene {d.species} especies en este viaje y quiere llegar a {d.goal} antes del 23 de octubre. Estas son las especies que le faltan y que se pueden ver en los próximos días. En La Nutria no usamos playback (norma awá).</p>
+    {guide.map((g) => (
+      <>
+        <h4>{g.site}</h4>
+        <ul>
+          {g.items.map((it) => (
+            <li>{it.ids.map((id, i) => { const s = nm(id); return <>{i > 0 && ', '}<b>{s.en}</b> <i class="sci">({s.sci})</i></>; })}{it.ids.length > 0 && ' — '}{it.ask}</li>
+          ))}
+        </ul>
+      </>
+    ))}
+  </section>
+
+  <h2 id="cand">Кандидаты по локациям</h2>
+  <p class="muted small">Виды, которых у Игоря нет, с числом осенних записей eBird/GBIF в радиусе 7 км. Отметка общая: вид, встреченный в одном списке, отмечается во всех. «группа ✓» — кто-то в группе его уже видел в этой поездке.</p>
+  {siteLists.map((s) => (
+    <details class="site" data-site={s.id}>
+      <summary><b>{s.name}</b>{s.tag && <span class="tag">{s.tag}</span>} <span class="sc">· {s.sure} почти наверняка · {s.likely} вероятно</span> <span class="got" data-got-count></span></summary>
+      {s.tiers.map((t) => (
+        <details class="tier" open={t.t === 'sure'}>
+          <summary>{TIER_RU[t.t]} <span class="muted">· {t.rows.length} · {TIER_NOTE[t.t]}</span></summary>
+          <ul class="cl">
+            {t.rows.map((c) => { const uid = `${s.id}-${c.id}`; return (
+              <li class="cand">
+                <input type="checkbox" data-sp={c.id} id={uid} aria-label={`отмечено: ${c.en}`} />
+                <label for={uid} class="nmb"><a href={href(c.id)}>{c.en}</a> <span class="sub"><i class="sci">{c.sci}</i>{c.ru && <> · {c.ru}</>}</span></label>
+                <span class="n" title="осенних записей">{c.n_aut}{c.group && <span class="grp" title="кто-то в группе уже видел">группа ✓</span>}</span>
+              </li>
+            ); })}
+          </ul>
+        </details>
+      ))}
+    </details>
+  ))}
+  <details class="site">
+    <summary><b>Редкости вне статистики</b> <span class="sc">· {bonus.length} · осенних записей рядом нет</span> <span class="got" data-got-count></span></summary>
+    <ul class="cl">
+      {bonus.map((s) => (
+        <li class="cand">
+          <input type="checkbox" data-sp={s.id} id={`b-${s.id}`} aria-label={`отмечено: ${s.en}`} />
+          <label for={`b-${s.id}`} class="nmb"><a href={href(s.id)}>{s.en}</a> <span class="sub"><i class="sci">{s.sci}</i>{s.ru && <> · {s.ru}</>}</span></label>
+        </li>
+      ))}
+    </ul>
+  </details>
+  <p><button type="button" class="reset" id="i5-reset">Сбросить отметки</button></p>
+
+  <h2 id="tips">Лайфхаки</h2>
+  <ul class="tips">{tips.map((t) => <li>{t}</li>)}</ul>
+
+  <details class="src">
+    <summary>Источники</summary>
+    <ul>
+      {sources.map(([t, u]) => <li><a href={u} rel="noopener">{t}</a></li>)}
+      <li>Частоты: eBird/GBIF, осенние записи в радиусе 7 км от локации (data/site_species.json).</li>
+    </ul>
+  </details>
+
+  <div class="pill" id="i5-pill" aria-hidden="true"><b id="i5-pill-total">{d.species}</b> / {d.goal}</div>
+
+  <script is:inline define:vars={{ have: d.species, goal: d.goal }}>
+    (function () {
+      var KEY = 'igor500', st = {};
+      try { st = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { st = {}; }
+      var boxes = [].slice.call(document.querySelectorAll('input[data-sp]'));
+      var valid = {};
+      boxes.forEach(function (b) { valid[b.dataset.sp] = 1; });
+      function $(id) { return document.getElementById(id); }
+      function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+      function render() {
+        var n = Object.keys(st).filter(function (k) { return st[k] && valid[k]; }).length;
+        var total = have + n, left = Math.max(0, goal - total);
+        $('i5-n').textContent = n;
+        $('i5-total').textContent = total;
+        $('i5-pill-total').textContent = total;
+        $('i5-left').textContent = left ? 'до ' + goal + ' осталось ' + left : goal + ' есть!';
+        $('i5-bar').style.width = Math.min(100, Math.round(total / goal * 100)) + '%';
+        boxes.forEach(function (b) { b.checked = !!st[b.dataset.sp]; });
+        [].forEach.call(document.querySelectorAll('[data-got]'), function (el) { el.classList.toggle('got', !!st[el.dataset.got]); });
+        [].forEach.call(document.querySelectorAll('details.site'), function (det) {
+          var seen = {};
+          [].forEach.call(det.querySelectorAll('input[data-sp]'), function (b) { if (b.checked) seen[b.dataset.sp] = 1; });
+          var k = Object.keys(seen).length, out = det.querySelector('[data-got-count]');
+          if (out) out.textContent = k ? '✓ ' + k : '';
+        });
+      }
+      document.addEventListener('change', function (e) {
+        var t = e.target;
+        if (!t || !t.dataset || !t.dataset.sp) return;
+        if (t.checked) st[t.dataset.sp] = 1; else delete st[t.dataset.sp];
+        save(); render();
+      });
+      $('i5-reset').addEventListener('click', function () {
+        if (!confirm('Сбросить все отметки?')) return;
+        st = {}; save(); render();
+      });
+      render();
+    })();
+  </script>
+</Base>
+
+<style>
+  .hero h1 { font-size: 1.9rem; margin-bottom: .2em; }
+  h2[id] { scroll-margin-top: 84px; }
+  .lead { margin: 0 0 10px; }
+  .small { font-size: .85rem; }
+  .counter { margin: 8px 0; }
+  .cnt-line { font-size: 1.15rem; }
+  .cnt-total { font-size: 1.5rem; color: var(--accent); }
+  .cnt-left { color: var(--muted); font-size: .9rem; }
+  .bar { height: 6px; border-radius: 3px; background: var(--chip); margin-top: 8px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--accent); }
+  .toc { display: flex; flex-wrap: wrap; gap: 0 14px; margin: 8px 0 0; }
+  .toc a { min-height: 44px; display: inline-flex; align-items: center; }
+  .day { margin: 0 0 18px; }
+  .day h3 { font-size: 1.05rem; margin: 18px 0 4px; }
+  .dd { color: var(--accent-2); white-space: nowrap; }
+  .tide { font-size: .85rem; color: var(--muted); margin: 0 0 6px; }
+  .reserve { border: 1px dashed var(--accent-2); border-radius: 12px; padding: 4px 12px 8px; }
+  .reserve-tag { color: var(--accent-2); font-weight: 600; font-size: .9rem; margin: 0 0 4px; }
+  .blk { border-left: 3px solid var(--line); padding: 4px 0 4px 10px; margin: 8px 0; }
+  .blk-h { font-weight: 600; }
+  .slot { color: var(--accent); }
+  .time { color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
+  .place { font-weight: 600; font-size: .95rem; }
+  .note { margin: 2px 0 4px; font-size: .9rem; }
+  .tg { list-style: none; padding: 0; margin: 4px 0 0; font-size: .9rem; line-height: 1.75; }
+  .tg li { display: inline; overflow-wrap: anywhere; }
+  .tg li + li::before { content: ' · '; color: var(--muted); }
+  .tg li a { padding: 4px 0; white-space: nowrap; }
+  .tg .sci, .tg .ru { color: var(--muted); font-size: .82rem; }
+  .tg li.got a::before { content: '✓ '; color: var(--seen-fg); }
+  .tg li.got a { color: var(--seen-fg); }
+  .offers { padding: 0; margin: 0; list-style: none; counter-reset: o; display: grid; gap: 8px; }
+  .offers li { counter-increment: o; }
+  .offers li > b::before { content: counter(o) '. '; color: var(--accent-2); }
+  .offers p { margin: 4px 0 0; font-size: .92rem; }
+  .est { display: inline-block; font-size: .78rem; background: var(--chip); border-radius: 999px; padding: 0 8px; white-space: nowrap; }
+  .nino { margin-top: 10px; font-size: .92rem; border-color: var(--accent-2); }
+  .cl { list-style: none; padding: 0; margin: 0; }
+  .cand { display: flex; align-items: flex-start; gap: 4px; border-bottom: 1px solid var(--line); min-height: 44px; }
+  .cand input { flex: none; width: 22px; height: 22px; margin: 11px 11px 11px 2px; accent-color: var(--accent); }
+  .nmb { flex: 1; min-width: 0; padding: 8px 0; line-height: 1.3; cursor: pointer; overflow-wrap: anywhere; }
+  .nmb a { font-weight: 600; }
+  .sub { display: block; font-size: .82rem; color: var(--muted); }
+  .where { display: block; font-size: .8rem; color: var(--accent-2); }
+  .n { flex: none; padding: 10px 0 8px 6px; font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+  .grp { font-size: .68rem; font-weight: 600; color: var(--seen-fg); background: var(--seen-bg); border-radius: 999px; padding: 0 6px; white-space: nowrap; }
+  .cand:has(input:checked) .nmb a { color: var(--seen-fg); }
+  .guia { margin-top: 6px; }
+  .guia h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  .guia h4 { margin: 12px 0 2px; font-size: .95rem; color: var(--accent); }
+  .guia ul { margin: 0; padding-left: 18px; }
+  .guia li { margin: 4px 0; font-size: .92rem; }
+  .guia p { margin: 0 0 4px; font-size: .92rem; }
+  details.site { border: 1px solid var(--line); border-radius: 12px; background: var(--card); margin: 8px 0; padding: 0 12px; }
+  details summary { cursor: pointer; min-height: 44px; display: flex; flex-wrap: wrap; align-items: center; gap: 0 6px; padding: 8px 0; list-style: none; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: '▸'; color: var(--muted); width: 1em; flex: none; transition: transform .15s; }
+  details[open] > summary::before { transform: rotate(90deg); }
+  details.site > summary .sc { color: var(--muted); font-size: .85rem; }
+  .tag { font-size: .72rem; color: var(--accent-2); border: 1px solid currentColor; border-radius: 999px; padding: 0 6px; white-space: nowrap; }
+  .got { color: var(--seen-fg); font-weight: 600; font-size: .85rem; }
+  details.tier { border-top: 1px solid var(--line); }
+  details.tier > summary { font-weight: 600; font-size: .95rem; }
+  details.tier > summary .muted { font-weight: 400; font-size: .8rem; }
+  .reset { min-height: 44px; padding: 0 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--fg); font: inherit; cursor: pointer; }
+  .tips { padding-left: 20px; }
+  .tips li { margin: 6px 0; }
+  .src { margin-top: 18px; }
+  .src ul { padding-left: 18px; font-size: .88rem; overflow-wrap: anywhere; }
+  .src li { margin: 6px 0; }
+  .pill { position: fixed; right: 16px; bottom: calc(14px + env(safe-area-inset-bottom)); background: var(--accent); color: var(--bg); border-radius: 999px;
+    padding: 6px 14px; font-size: .9rem; box-shadow: 0 2px 8px rgba(0,0,0,.25); pointer-events: none; z-index: 5; }
+  :global(main:has(.pill)) { padding-bottom: 72px; }
+</style>

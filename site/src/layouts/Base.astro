@@ -1,7 +1,7 @@
 ---
 import ReportButton from '../components/ReportButton.svelte';
-interface Props { title: string; description?: string; species?: string }
-const { title, description = 'Птицы Колумбии: справочник для нашего тура', species } = Astro.props;
+interface Props { title: string; description?: string; species?: string; /** hidden page: <meta name="robots" content="noindex, nofollow"> */ noindex?: boolean }
+const { title, description = 'Птицы Колумбии: справочник для нашего тура', species, noindex = false } = Astro.props;
 const reportUrl = import.meta.env.PUBLIC_REPORT_URL;
 const base = import.meta.env.BASE_URL;
 const nav = [
@@ -25,6 +25,7 @@ const isCur = (href: string) => (href === base ? path === base || path.startsWit
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="theme-color" content="#14532d" />
     <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
     <link rel="manifest" href={`${base}manifest.webmanifest`} />

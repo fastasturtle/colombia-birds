@@ -14,7 +14,7 @@
  *     version.json           { version, hash, built }  (hash = hash of the sorted file list: changes iff content changes)
  *     sw.js                  from integrations/sw.template.js with __VERSION__/__BASE__/__MEDIA_ORIGIN__ baked in
  *                            (a new build id makes the browser's byte-compare pick up the new worker).
- * The pack = all HTML pages + _astro assets + manifest/favicon + thumb and medium photos (large photos stay online-only).
+ * The pack = all HTML pages (except EXCLUDE_PREFIXES) + _astro assets + manifest/favicon + thumb and medium photos (large photos stay online-only).
  */
 import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync, writeFileSync, existsSync, statSync } from 'node:fs';
@@ -25,6 +25,8 @@ import { fileURLToPath } from 'node:url';
 const PHOTO_ESTIMATE = { '-thumb.jpg': 23040, '-medium.jpg': 107520 };
 /** Generated here or must always come from the network: never part of the pack. */
 const EXCLUDE = new Set(['offline-manifest.json', 'version.json', 'sw.js']);
+/** Hidden pages (not linked from the site, noindex): never part of the pack. Paths relative to dist/. */
+const EXCLUDE_PREFIXES = ['igor-500/'];
 const META_RE = /<meta name="build-version" content="[^"]*"\s*\/?>/;
 
 /** @param {Buffer | string} buf */
@@ -59,7 +61,7 @@ export default function offline({ base, mediaBase, dataDir }) {
         const files = [];
         for (const f of walk(dist)) {
           const rel = relative(dist, f).split(sep).join('/');
-          if (EXCLUDE.has(rel)) continue;
+          if (EXCLUDE.has(rel) || EXCLUDE_PREFIXES.some((x) => rel.startsWith(x))) continue;
           let buf = readFileSync(f);
           const size = buf.length;
           const url = rel === 'index.html' || rel.endsWith('/index.html')
