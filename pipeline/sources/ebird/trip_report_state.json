@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T13:50:13Z",
+ "fetched_at": "2026-10-21T18:40:27Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -469,7 +469,7 @@
      "lng": -76.7302859,
      "loc_id": "L6217449",
      "loc_name": "Trampolin de Las Aves--Mirador del Río Pepino",
-     "numSpecies": 30,
+     "numSpecies": 29,
      "region": "CO-PUT",
      "time": "06:48"
     },
@@ -639,7 +639,7 @@
      "lng": -78.110967,
      "loc_id": "L7260634",
      "loc_name": "Bangsias Bird Lodge-Hotspot",
-     "numSpecies": 15,
+     "numSpecies": 14,
      "region": "CO-NAR",
      "time": "16:39"
     },
@@ -682,34 +682,44 @@
      "numSpecies": 7,
      "region": "CO-NAR",
      "time": "13:51"
+    },
+    "S404249271": {
+     "date": "2026-10-21",
+     "lat": 1.353344,
+     "lng": -78.176028,
+     "loc_id": "L4859240",
+     "loc_name": "Reserva La Nutria",
+     "numSpecies": 16,
+     "region": "CO-NAR",
+     "time": "06:26"
     }
    },
    "group": {
-    "checklists": 99,
+    "checklists": 101,
     "other_taxa": 5,
-    "species": 522
+    "species": 533
    },
    "people": [
     {
      "begin": null,
-     "checklists": 68,
+     "checklists": 69,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 456,
+     "species": 459,
      "user_id": "USER3559161"
     },
     {
      "begin": null,
-     "checklists": 74,
+     "checklists": 75,
      "end": null,
      "name": "Igor Bobyr",
      "other_taxa": 5,
      "person_id": 820853,
      "role": "editor",
-     "species": 443,
+     "species": 452,
      "user_id": "USER2882675"
     },
     {
@@ -725,13 +735,13 @@
     },
     {
      "begin": null,
-     "checklists": 52,
+     "checklists": 59,
      "end": null,
      "name": "Oleg Chernyshov",
      "other_taxa": 1,
      "person_id": 820851,
      "role": "editor",
-     "species": 430,
+     "species": 454,
      "user_id": "USER1327996"
     },
     {
@@ -747,13 +757,13 @@
     },
     {
      "begin": null,
-     "checklists": 65,
+     "checklists": 67,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 462,
+     "species": 474,
      "user_id": "USER1063968"
     }
    ],
@@ -14611,19 +14621,13 @@
      "durationHrs": 2.55,
      "effortAreaHa": null,
      "effortDistanceKm": 1.275,
-     "fetched": "2026-10-18T18:22:35Z",
+     "fetched": "2026-10-21T18:40:27Z",
      "numObservers": 1,
-     "numSpecies": 30,
+     "numSpecies": 29,
      "obs": [
       {
        "breeding": null,
        "code": "siwgua1",
-       "comments": null,
-       "count": "2"
-      },
-      {
-       "breeding": null,
-       "code": "scapig2",
        "comments": null,
        "count": "2"
       },
@@ -16648,9 +16652,9 @@
      "durationHrs": 1.55,
      "effortAreaHa": null,
      "effortDistanceKm": 0.793,
-     "fetched": "2026-10-21T07:41:41Z",
+     "fetched": "2026-10-21T18:40:27Z",
      "numObservers": 1,
-     "numSpecies": 15,
+     "numSpecies": 14,
      "obs": [
       {
        "breeding": null,
@@ -16680,12 +16684,6 @@
        "breeding": null,
        "code": "boorat1",
        "comments": null,
-       "count": "1"
-      },
-      {
-       "breeding": null,
-       "code": "zelant1",
-       "comments": "H",
        "count": "1"
       },
       {
@@ -17091,6 +17089,116 @@
        "code": "glgtan1",
        "comments": null,
        "count": "2"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404249271": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 2.05,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.483,
+     "fetched": "2026-10-21T18:40:27Z",
+     "numObservers": 1,
+     "numSpecies": 16,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "chotou1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "brbscy1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "clwman1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "cinbec1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ornfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gbwwre1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "chhoro1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "burwar1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ocbtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "tactan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ygbtan1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "gohtan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "banana",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "butsal1",
+       "comments": null,
+       "count": "1"
       }
      ],
      "protocolId": "P22",

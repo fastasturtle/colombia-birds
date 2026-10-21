@@ -1236,7 +1236,7 @@
    "location": "Bangsias Bird Lodge-Hotspot",
    "location_id": "L7260634",
    "lon": -78.111,
-   "n_species": 15,
+   "n_species": 14,
    "observers": 1,
    "protocol": "traveling",
    "site": "bangsias-lodge",
@@ -1314,41 +1314,59 @@
    "site": "rio-nambi",
    "source": "trip_report",
    "time": "13:51"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-21",
+   "day": "2026-10-21",
+   "distance_km": 0.483,
+   "duration_min": 123,
+   "id": "S404249271",
+   "lat": 1.353,
+   "location": "Reserva La Nutria",
+   "location_id": "L4859240",
+   "lon": -78.176,
+   "n_species": 16,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "source": "trip_report",
+   "time": "06:26"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-21T13:50:13Z",
+ "fetched": "2026-10-21T18:40:27Z",
  "group": {
-  "fetched": "2026-10-21T13:50:13Z",
+  "fetched": "2026-10-21T18:40:27Z",
   "people": [
    {
-    "checklists": 65,
+    "checklists": 67,
     "name": "Volkov Sergey",
     "other_taxa": 1,
     "role": "owner",
-    "species": 462
+    "species": 474
    },
    {
-    "checklists": 68,
+    "checklists": 69,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 1,
     "role": "editor",
-    "species": 456
+    "species": 459
    },
    {
-    "checklists": 74,
-    "name": "Igor Bobyr",
-    "other_taxa": 5,
-    "role": "editor",
-    "species": 443
-   },
-   {
-    "checklists": 52,
+    "checklists": 59,
     "name": "Oleg Chernyshov",
     "other_taxa": 1,
     "role": "editor",
-    "species": 430
+    "species": 454
+   },
+   {
+    "checklists": 75,
+    "name": "Igor Bobyr",
+    "other_taxa": 5,
+    "role": "editor",
+    "species": 452
    },
    {
     "checklists": 20,
@@ -1377,9 +1395,9 @@
    579125
   ],
   "total": {
-   "checklists": 99,
+   "checklists": 101,
    "other_taxa": 5,
-   "species": 522
+   "species": 533
   }
  },
  "observer": "Аня",
@@ -1403,11 +1421,12 @@
     "S404191311",
     "S404083441",
     "S404191314",
-    "S404191373"
+    "S404191373",
+    "S404249271"
    ],
-   "checklists": 67,
+   "checklists": 68,
    "duplicates": [],
-   "fetched": "2026-10-21T13:50:13Z",
+   "fetched": "2026-10-21T18:40:27Z",
    "ids": [
     579125
    ]
@@ -2765,6 +2784,25 @@
     "rio-nambi"
    ]
   },
+  "bangsia-flavovirens": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404249271",
+     "count": 3,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
+    }
+   ],
+   "sites": []
+  },
   "basileuterus-delattrii": {
    "days": [
     "2026-10-05"
@@ -3321,6 +3359,25 @@
    "sites": [
     "isla-escondida"
    ]
+  },
+  "campylorhamphus-pusillus": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
+    }
+   ],
+   "sites": []
   },
   "campylorhynchus-turdinus": {
    "days": [
@@ -4448,11 +4505,12 @@
   "chlorothraupis-stolzmanni": {
    "days": [
     "2026-10-18",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S403593819",
@@ -4485,6 +4543,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "13:51"
+    },
+    {
+     "cl": "S404249271",
+     "count": 2,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -4902,11 +4968,12 @@
     "2026-10-05",
     "2026-10-07",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-21"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398851342",
@@ -4955,6 +5022,14 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:11"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -7295,11 +7370,12 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 14,
+   "n_checklists": 15,
    "obs": [
     {
      "cl": "S399294003",
@@ -7412,6 +7488,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "13:51"
+    },
+    {
+     "cl": "S404249271",
+     "count": 2,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -7953,27 +8037,6 @@
     "el-escondite"
    ]
   },
-  "hafferia-zeledoni": {
-   "days": [
-    "2026-10-19"
-   ],
-   "first": "2026-10-19",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S403890843",
-     "count": 1,
-     "date": "2026-10-19",
-     "details": "H",
-     "site": "bangsias-lodge",
-     "time": "16:39"
-    }
-   ],
-   "sites": [
-    "bangsias-lodge"
-   ]
-  },
   "haplophaedia-aureliae": {
    "days": [
     "2026-10-15"
@@ -8104,11 +8167,12 @@
     "2026-10-15",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 9,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S398851320",
@@ -8181,6 +8245,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -9114,11 +9186,12 @@
   "machaeropterus-deliciosus": {
    "days": [
     "2026-10-18",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403593819",
@@ -9135,6 +9208,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "08:49"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -10361,11 +10442,12 @@
   "myiothlypis-fulvicauda": {
    "days": [
     "2026-10-05",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399435580",
@@ -10390,6 +10472,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "13:51"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -10423,11 +10513,12 @@
     "2026-10-10",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-10",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S401009772",
@@ -10476,6 +10567,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "08:49"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -11144,6 +11243,25 @@
    "sites": [
     "sumapaz"
    ]
+  },
+  "pachyramphus-cinnamomeus": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
+    }
+   ],
+   "sites": []
   },
   "pachysylvia-hypoxantha": {
    "days": [
@@ -12712,6 +12830,25 @@
     "el-escondite"
    ]
   },
+  "psarocolius-wagleri": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404249271",
+     "count": 3,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
+    }
+   ],
+   "sites": []
+  },
   "pseudocolopteryx-acutipennis": {
    "days": [
     "2026-10-16"
@@ -13134,11 +13271,12 @@
   },
   "ramphastos-brevis": {
    "days": [
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-21"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403593819",
@@ -13147,6 +13285,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -13310,11 +13456,12 @@
    "days": [
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-21"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S403455006",
@@ -13363,6 +13510,14 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:11"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -13705,11 +13860,12 @@
    "days": [
     "2026-10-12",
     "2026-10-18",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S401862206",
@@ -13742,6 +13898,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -14781,11 +14945,12 @@
   },
   "stilpnia-larvata": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-21"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403455006",
@@ -14794,6 +14959,14 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
+    },
+    {
+     "cl": "S404249271",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
     }
    ],
    "sites": [
@@ -15332,6 +15505,25 @@
     "playa-rica",
     "el-escondite"
    ]
+  },
+  "tachyphonus-delatrii": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404249271",
+     "count": 3,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "06:26"
+    }
+   ],
+   "sites": []
   },
   "tachyphonus-rufus": {
    "days": [
@@ -18860,10 +19052,10 @@
    },
    "2026-10-19": {
     "checklists": 6,
-    "lifers": 17,
-    "new": 17,
-    "observations": 75,
-    "species": 53
+    "lifers": 16,
+    "new": 16,
+    "observations": 74,
+    "species": 52
    },
    "2026-10-20": {
     "checklists": 3,
@@ -18871,6 +19063,13 @@
     "new": 1,
     "observations": 48,
     "species": 36
+   },
+   "2026-10-21": {
+    "checklists": 1,
+    "lifers": 5,
+    "new": 5,
+    "observations": 16,
+    "species": 16
    }
   },
   "by_site": {
@@ -18883,10 +19082,10 @@
    },
    "bangsias-lodge": {
     "checklists": 4,
-    "lifers": 14,
-    "new": 14,
-    "observations": 66,
-    "species": 45
+    "lifers": 13,
+    "new": 13,
+    "observations": 65,
+    "species": 44
    },
    "chicaque": {
     "checklists": 2,
@@ -18995,18 +19194,18 @@
     "species": 51
    }
   },
-  "checklists": 73,
-  "days": 20,
-  "lifers": 471,
-  "observations": 1262,
+  "checklists": 74,
+  "days": 21,
+  "lifers": 475,
+  "observations": 1277,
   "off_site": {
-   "checklists": 15,
-   "lifers": 34,
-   "new": 38,
-   "observations": 136,
-   "species": 94
+   "checklists": 16,
+   "lifers": 39,
+   "new": 43,
+   "observations": 152,
+   "species": 108
   },
-  "species": 486
+  "species": 490
  },
  "trip_start": "2026-10-01",
  "unmatched": []

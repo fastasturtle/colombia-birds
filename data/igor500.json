@@ -1,23 +1,14 @@
 {
- "as_of": "2026-10-20 13:51",
- "checklists": 74,
- "fetched": "2026-10-21T00:49:39Z",
+ "as_of": "2026-10-21 06:26",
+ "checklists": 75,
+ "fetched": "2026-10-21T18:40:40Z",
  "goal": 500,
- "group_species": 522,
- "likely_total": 86,
- "missed_in_group": 79,
+ "group_species": 533,
+ "likely_total": 82,
+ "missed_in_group": 81,
  "person": "Igor Bobyr",
  "person_ru": "Игорь",
  "reachable_missed": [
-  {
-   "en": "Zeledon's Antbird",
-   "id": "hafferia-zeledoni",
-   "ru": "Панамская муравьеловка",
-   "sci": "Hafferia zeledoni",
-   "sites": {
-    "la-nutria": 98
-   }
-  },
   {
    "en": "Bay Wren",
    "id": "cantorchilus-nigricapillus",
@@ -106,6 +97,16 @@
    }
   },
   {
+   "en": "Bronzy Hermit",
+   "id": "glaucis-aeneus",
+   "ru": "Бронзовый колибри-отшельник",
+   "sci": "Glaucis aeneus",
+   "sites": {
+    "finca-maragricola": 13,
+    "km-42": 13
+   }
+  },
+  {
    "en": "Tawny-faced Gnatwren",
    "id": "microbates-cinereiventris",
    "ru": "Крапивниковая комароловка",
@@ -132,6 +133,15 @@
    "sci": "Diglossa cyanea",
    "sites": {
     "la-nutria": 5
+   }
+  },
+  {
+   "en": "Blue-tailed Trogon",
+   "id": "trogon-comptus",
+   "ru": "Чокский трогон",
+   "sci": "Trogon comptus",
+   "sites": {
+    "la-nutria": 3
    }
   }
  ],
@@ -344,17 +354,6 @@
     "n_aut": 43,
     "ru": "Южноамериканская поганка",
     "sci": "Tachybaptus dominicus",
-    "tier": "sure"
-   },
-   {
-    "en": "Cinnamon Becard",
-    "family": "tityri1",
-    "group": false,
-    "id": "pachyramphus-cinnamomeus",
-    "n": 200,
-    "n_aut": 42,
-    "ru": "Коричневый бекард",
-    "sci": "Pachyramphus cinnamomeus",
     "tier": "sure"
    },
    {
@@ -877,7 +876,7 @@
    {
     "en": "Bronzy Hermit",
     "family": "trochi1",
-    "group": false,
+    "group": true,
     "id": "glaucis-aeneus",
     "n": 43,
     "n_aut": 13,
@@ -1735,17 +1734,6 @@
     "tier": "sure"
    },
    {
-    "en": "Cinnamon Becard",
-    "family": "tityri1",
-    "group": false,
-    "id": "pachyramphus-cinnamomeus",
-    "n": 273,
-    "n_aut": 53,
-    "ru": "Коричневый бекард",
-    "sci": "Pachyramphus cinnamomeus",
-    "tier": "sure"
-   },
-   {
     "en": "Little Tinamou",
     "family": "tinami1",
     "group": false,
@@ -2155,7 +2143,7 @@
    {
     "en": "Bronzy Hermit",
     "family": "trochi1",
-    "group": false,
+    "group": true,
     "id": "glaucis-aeneus",
     "n": 60,
     "n_aut": 13,
@@ -2395,17 +2383,6 @@
     "tier": "likely"
    },
    {
-    "en": "Brown-billed Scythebill",
-    "family": "furnar2",
-    "group": false,
-    "id": "campylorhamphus-pusillus",
-    "n": 10,
-    "n_aut": 6,
-    "ru": "Буроклювый дугоклюв",
-    "sci": "Campylorhamphus pusillus",
-    "tier": "likely"
-   },
-   {
     "en": "Crane Hawk",
     "family": "accipi1",
     "group": false,
@@ -2414,17 +2391,6 @@
     "n_aut": 6,
     "ru": "Журавлиный коршун",
     "sci": "Geranospiza caerulescens",
-    "tier": "likely"
-   },
-   {
-    "en": "White-whiskered Hermit",
-    "family": "trochi1",
-    "group": false,
-    "id": "phaethornis-yaruqui",
-    "n": 9,
-    "n_aut": 6,
-    "ru": "Усатый колибри-отшельник",
-    "sci": "Phaethornis yaruqui",
     "tier": "likely"
    },
    {
@@ -2502,17 +2468,6 @@
     "n_aut": 4,
     "ru": "Длинноклювая комароловка",
     "sci": "Ramphocaenus melanurus",
-    "tier": "chance"
-   },
-   {
-    "en": "Sulphur-rumped Flycatcher",
-    "family": "rfaall1",
-    "group": false,
-    "id": "myiobius-sulphureipygius",
-    "n": 7,
-    "n_aut": 4,
-    "ru": "Желтогузый широкохвост",
-    "sci": "Myiobius sulphureipygius",
     "tier": "chance"
    },
    {
@@ -4676,17 +4631,6 @@
   ],
   "la-nutria": [
    {
-    "en": "Zeledon's Antbird",
-    "family": "thamno3",
-    "group": true,
-    "id": "hafferia-zeledoni",
-    "n": 324,
-    "n_aut": 98,
-    "ru": "Панамская муравьеловка",
-    "sci": "Hafferia zeledoni",
-    "tier": "sure"
-   },
-   {
     "en": "Bay Wren",
     "family": "troglo1",
     "group": true,
@@ -4728,17 +4672,6 @@
     "n_aut": 69,
     "ru": "Ржавчатый колибри-отшельник",
     "sci": "Phaethornis syrmatophorus",
-    "tier": "sure"
-   },
-   {
-    "en": "White-whiskered Hermit",
-    "family": "trochi1",
-    "group": false,
-    "id": "phaethornis-yaruqui",
-    "n": 360,
-    "n_aut": 61,
-    "ru": "Усатый колибри-отшельник",
-    "sci": "Phaethornis yaruqui",
     "tier": "sure"
    },
    {
@@ -4973,17 +4906,6 @@
     "tier": "likely"
    },
    {
-    "en": "Yellow-green Tanager",
-    "family": "thraup2",
-    "group": false,
-    "id": "bangsia-flavovirens",
-    "n": 77,
-    "n_aut": 16,
-    "ru": "Жёлто-зелёная танагра",
-    "sci": "Bangsia flavovirens",
-    "tier": "likely"
-   },
-   {
     "en": "Buff-fronted Foliage-gleaner",
     "family": "furnar2",
     "group": false,
@@ -5047,17 +4969,6 @@
     "n_aut": 13,
     "ru": "Пестрогорлый колибри-отшельник",
     "sci": "Phaethornis striigularis",
-    "tier": "likely"
-   },
-   {
-    "en": "Chestnut-headed Oropendola",
-    "family": "icteri1",
-    "group": false,
-    "id": "psarocolius-wagleri",
-    "n": 38,
-    "n_aut": 12,
-    "ru": "Каштановоголовая оропендола",
-    "sci": "Psarocolius wagleri",
     "tier": "likely"
    },
    {
@@ -5234,17 +5145,6 @@
     "n_aut": 8,
     "ru": "Зубцеклювый колибри",
     "sci": "Androdon aequatorialis",
-    "tier": "likely"
-   },
-   {
-    "en": "Brown-billed Scythebill",
-    "family": "furnar2",
-    "group": false,
-    "id": "campylorhamphus-pusillus",
-    "n": 21,
-    "n_aut": 7,
-    "ru": "Буроклювый дугоклюв",
-    "sci": "Campylorhamphus pusillus",
     "tier": "likely"
    },
    {
@@ -5435,17 +5335,6 @@
     "tier": "likely"
    },
    {
-    "en": "Tawny-crested Tanager",
-    "family": "thraup2",
-    "group": false,
-    "id": "tachyphonus-delatrii",
-    "n": 35,
-    "n_aut": 5,
-    "ru": "Златохохлая танагра",
-    "sci": "Tachyphonus delatrii",
-    "tier": "likely"
-   },
-   {
     "en": "White-bearded Manakin",
     "family": "piprid1",
     "group": false,
@@ -5514,34 +5403,12 @@
    {
     "en": "Blue-tailed Trogon",
     "family": "trogon1",
-    "group": false,
+    "group": true,
     "id": "trogon-comptus",
     "n": 10,
     "n_aut": 3,
     "ru": "Чокский трогон",
     "sci": "Trogon comptus",
-    "tier": "chance"
-   },
-   {
-    "en": "Cinnamon Becard",
-    "family": "tityri1",
-    "group": false,
-    "id": "pachyramphus-cinnamomeus",
-    "n": 26,
-    "n_aut": 3,
-    "ru": "Коричневый бекард",
-    "sci": "Pachyramphus cinnamomeus",
-    "tier": "chance"
-   },
-   {
-    "en": "Golden-chested Tanager",
-    "family": "thraup2",
-    "group": false,
-    "id": "bangsia-rothschildi",
-    "n": 9,
-    "n_aut": 3,
-    "ru": "Манишковая танагра",
-    "sci": "Bangsia rothschildi",
     "tier": "chance"
    },
    {
@@ -5888,7 +5755,7 @@
    {
     "en": "Emerald Tanager",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "tangara-florida",
     "n": 14,
     "n_aut": 1,
@@ -8190,6 +8057,6 @@
    }
   ]
  },
- "species": 443,
- "sure_total": 107
+ "species": 452,
+ "sure_total": 104
 }
