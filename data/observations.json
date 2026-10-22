@@ -1386,27 +1386,63 @@
    "site": "playa-del-morro",
    "source": "trip_report",
    "time": "17:33"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-22",
+   "day": "2026-10-22",
+   "distance_km": null,
+   "duration_min": null,
+   "id": "S404550666",
+   "lat": 1.819,
+   "location": "Viaducto Puente del Morro",
+   "location_id": "L4909316",
+   "lon": -78.757,
+   "n_species": 2,
+   "observers": 1,
+   "protocol": "casual",
+   "site": "playa-del-morro",
+   "source": "trip_report",
+   "time": "05:51"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-22",
+   "day": "2026-10-22",
+   "distance_km": 2.759,
+   "duration_min": 352,
+   "id": "S404550673",
+   "lat": 1.683,
+   "location": "Finca Maragrícola",
+   "location_id": "L3940729",
+   "lon": -78.75,
+   "n_species": 84,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "finca-maragricola",
+   "source": "trip_report",
+   "time": "06:24"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-22T17:12:53Z",
+ "fetched": "2026-10-22T21:38:07Z",
  "group": {
-  "fetched": "2026-10-22T17:12:53Z",
+  "fetched": "2026-10-22T21:38:07Z",
   "people": [
    {
-    "checklists": 69,
+    "checklists": 71,
     "name": "Volkov Sergey",
     "other_taxa": 1,
     "role": "owner",
-    "species": 484
+    "species": 524
    },
    {
-    "checklists": 72,
+    "checklists": 74,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 1,
     "role": "editor",
-    "species": 471
+    "species": 510
    },
    {
     "checklists": 62,
@@ -1423,6 +1459,13 @@
     "species": 465
    },
    {
+    "checklists": 38,
+    "name": "Jenia Triger",
+    "other_taxa": 0,
+    "role": "editor",
+    "species": 365
+   },
+   {
     "checklists": 20,
     "name": "Sergey Popov",
     "other_taxa": 0,
@@ -1432,26 +1475,15 @@
     },
     "role": "editor",
     "species": 207
-   },
-   {
-    "checklists": 18,
-    "name": "Jenia Triger",
-    "other_taxa": 0,
-    "period": {
-     "begin": "2026-10-03",
-     "end": "2026-10-09"
-    },
-    "role": "editor",
-    "species": 179
    }
   ],
   "report_ids": [
    579125
   ],
   "total": {
-   "checklists": 104,
+   "checklists": 106,
    "other_taxa": 6,
-   "species": 545
+   "species": 584
   }
  },
  "observer": "Аня",
@@ -1479,11 +1511,13 @@
     "S404249271",
     "S404372659",
     "S404312980",
-    "S404372651"
+    "S404372651",
+    "S404550666",
+    "S404550673"
    ],
-   "checklists": 71,
+   "checklists": 73,
    "duplicates": [],
-   "fetched": "2026-10-22T17:12:53Z",
+   "fetched": "2026-10-22T21:38:07Z",
    "ids": [
     579125
    ]
@@ -1701,11 +1735,12 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851342",
@@ -1746,12 +1781,21 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "amazona-amazonica": {
@@ -1919,6 +1963,27 @@
     "sumapaz"
    ]
   },
+  "anas-bahamensis": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "anas-georgica": {
    "days": [
     "2026-10-16"
@@ -1986,6 +2051,27 @@
    ],
    "sites": [
     "la-planada"
+   ]
+  },
+  "anhinga-anhinga": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "anisognathus-igniventris": {
@@ -2238,11 +2324,12 @@
     "2026-10-07",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398851320",
@@ -2283,6 +2370,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 20,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -2290,7 +2385,8 @@
     "el-escondite",
     "playa-rica",
     "puerto-asis",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "ardea-ibis": {
@@ -2302,11 +2398,12 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 10,
+   "n_checklists": 11,
    "obs": [
     {
      "cl": "S399290219",
@@ -2387,13 +2484,22 @@
      "details": null,
      "site": null,
      "time": "05:53"
+    },
+    {
+     "cl": "S404550673",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "arremon-assimilis": {
@@ -2714,6 +2820,27 @@
     "el-escondite",
     "playa-rica",
     "puerto-asis"
+   ]
+  },
+  "attila-torridus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "aulacorhynchus-albivitta": {
@@ -3185,11 +3312,12 @@
     "2026-10-07",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-22"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400221515",
@@ -3230,12 +3358,21 @@
      "details": null,
      "site": "puerto-asis",
      "time": "05:42"
+    },
+    {
+     "cl": "S404550673",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-escondite",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "cacicus-cela": {
@@ -3456,6 +3593,27 @@
     "trampolin-aves"
    ]
   },
+  "camptostoma-obsoletum": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "campylopterus-largipennis": {
    "days": [
     "2026-10-10"
@@ -3634,6 +3792,27 @@
     "el-escondite"
    ]
   },
+  "capito-squamatus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "cardellina-canadensis": {
    "days": [
     "2026-10-03",
@@ -3734,11 +3913,12 @@
     "2026-10-11",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851320",
@@ -3795,6 +3975,14 @@
      "details": null,
      "site": "trampolin-aves",
      "time": "12:34"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -3802,7 +3990,8 @@
     "finca-discosura",
     "isla-escondida",
     "el-escondite",
-    "trampolin-aves"
+    "trampolin-aves",
+    "finca-maragricola"
    ]
   },
   "celeus-elegans": {
@@ -4184,6 +4373,27 @@
     "puerto-asis"
    ]
   },
+  "chlidonias-niger": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": false,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 4,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "chloroceryle-amazona": {
    "days": [
     "2026-10-12",
@@ -4225,11 +4435,12 @@
   },
   "chloroceryle-americana": {
    "days": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-22"
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S400221515",
@@ -4238,10 +4449,19 @@
      "details": null,
      "site": "el-escondite",
      "time": "12:44"
+    },
+    {
+     "cl": "S404550673",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "chlorochrysa-calliparaea": {
@@ -4686,11 +4906,12 @@
   },
   "chondrohierax-uncinatus": {
    "days": [
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398851342",
@@ -4699,10 +4920,19 @@
      "details": null,
      "site": "chicaque",
      "time": "08:45"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "chicaque"
+    "chicaque",
+    "finca-maragricola"
    ]
   },
   "chroicocephalus-serranus": {
@@ -4982,6 +5212,27 @@
     "sumapaz"
    ]
   },
+  "coccyzus-americanus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "coeligena-coeligena": {
    "days": [
     "2026-10-06"
@@ -5104,11 +5355,12 @@
     "2026-10-07",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851342",
@@ -5165,13 +5417,22 @@
      "details": null,
      "site": null,
      "time": "06:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
     "la-planada",
-    "aves-y-florez"
+    "aves-y-florez",
+    "finca-maragricola"
    ]
   },
   "colaptes-punctigula": {
@@ -5702,11 +5963,12 @@
     "2026-10-14",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 18,
+   "n_checklists": 19,
    "obs": [
     {
      "cl": "S398156622",
@@ -5851,6 +6113,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -5861,7 +6131,8 @@
     "playa-rica",
     "puerto-asis",
     "la-planada",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "cranioleuca-curtata": {
@@ -5919,11 +6190,12 @@
    "days": [
     "2026-10-06",
     "2026-10-12",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399888084",
@@ -5948,20 +6220,30 @@
      "details": null,
      "site": null,
      "time": "15:08"
+    },
+    {
+     "cl": "S404550673",
+     "count": 15,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
-    "playa-rica"
+    "playa-rica",
+    "finca-maragricola"
    ]
   },
   "crotophaga-major": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -5978,11 +6260,20 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "cryptopipo-holochlora": {
@@ -6079,6 +6370,27 @@
     "isla-escondida",
     "el-escondite",
     "trampolin-aves"
+   ]
+  },
+  "cyanerpes-cyaneus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "cyanocorax-violaceus": {
@@ -6259,11 +6571,12 @@
   "dacnis-cayana": {
    "days": [
     "2026-10-05",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399582442",
@@ -6280,11 +6593,20 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "dacnis-flaviventer": {
@@ -6468,11 +6790,12 @@
   },
   "dendrocygna-autumnalis": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -6481,10 +6804,40 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S404550673",
+     "count": 40,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "finca-maragricola"
+   ]
+  },
+  "dendrocygna-bicolor": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 30,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "dendroplex-picus": {
@@ -6913,15 +7266,37 @@
     "isla-escondida"
    ]
   },
+  "egretta-rufescens": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "egretta-thula": {
    "days": [
     "2026-10-12",
     "2026-10-13",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862206",
@@ -6946,22 +7321,53 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "playa-rica",
     "puerto-asis",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
+   ]
+  },
+  "egretta-tricolor": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "elaenia-flavogaster": {
    "days": [
     "2026-10-04",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-22"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399294003",
@@ -6978,10 +7384,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "finca-maragricola"
    ]
   },
   "elaenia-frantzii": {
@@ -7105,6 +7520,27 @@
    ],
    "sites": [
     "rio-nambi"
+   ]
+  },
+  "empidonax-virescens": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "ensifera-ensifera": {
@@ -7512,6 +7948,27 @@
     "playa-rica"
    ]
   },
+  "euphonia-minuta": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "euphonia-xanthogaster": {
    "days": [
     "2026-10-04",
@@ -7526,11 +7983,12 @@
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 16,
+   "n_checklists": 17,
    "obs": [
     {
      "cl": "S399294003",
@@ -7659,6 +8117,14 @@
      "details": null,
      "site": null,
      "time": "13:27"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -7668,7 +8134,8 @@
     "la-planada",
     "aves-y-florez",
     "bangsias-lodge",
-    "rio-nambi"
+    "rio-nambi",
+    "finca-maragricola"
    ]
   },
   "falco-rufigularis": {
@@ -7720,6 +8187,48 @@
    ],
    "sites": [
     "aves-y-florez"
+   ]
+  },
+  "fluvicola-nengeta": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
+  "forpus-coelestis": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "forpus-conspicillatus": {
@@ -7791,6 +8300,27 @@
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "fregata-magnificens": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550666",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "05:51"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "fulica-americana": {
@@ -7922,6 +8452,27 @@
    ],
    "sites": [
     "sumapaz"
+   ]
+  },
+  "gallinula-galeata": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 14,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "geospizopsis-unicolor": {
@@ -8259,6 +8810,27 @@
     "trampolin-aves"
    ]
   },
+  "harpagus-bidentatus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "heliangelus-exortis": {
    "days": [
     "2026-10-03"
@@ -8465,6 +9037,27 @@
     "bangsias-lodge"
    ]
   },
+  "himantopus-mexicanus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 4,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "hirundo-rustica": {
    "days": [
     "2026-10-02"
@@ -8643,11 +9236,12 @@
   "ictinia-plumbea": {
    "days": [
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-13",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S402225648",
@@ -8672,11 +9266,20 @@
      "details": null,
      "site": null,
      "time": "15:08"
+    },
+    {
+     "cl": "S404550673",
+     "count": 5,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "iridophanes-pulcherrimus": {
@@ -8897,11 +9500,12 @@
   },
   "jacana-jacana": {
    "days": [
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-22"
    ],
    "first": "2026-10-13",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S402225648",
@@ -8910,10 +9514,19 @@
      "details": null,
      "site": "puerto-asis",
      "time": "05:42"
+    },
+    {
+     "cl": "S404550673",
+     "count": 5,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "lanio-fulvus": {
@@ -8967,11 +9580,12 @@
    "days": [
     "2026-10-05",
     "2026-10-12",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399435580",
@@ -8996,12 +9610,21 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "lepidocolaptes-lacrymiger": {
@@ -9062,11 +9685,12 @@
   },
   "lepidocolaptes-souleyetii": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-22"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399888084",
@@ -9075,10 +9699,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "finca-maragricola"
    ]
   },
   "leptasthenura-andicola": {
@@ -9213,6 +9846,27 @@
    "sites": [
     "el-encanto",
     "la-drymophila"
+   ]
+  },
+  "leptotila-pallida": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": "H",
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "leptotila-verreauxi": {
@@ -9444,6 +10098,27 @@
     "puerto-asis"
    ]
   },
+  "manacus-manacus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": "F",
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "margarornis-stellatus": {
    "days": [
     "2026-10-17"
@@ -9538,14 +10213,36 @@
     "chicaque"
    ]
   },
+  "megaceryle-torquata": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "megarynchus-pitangua": {
    "days": [
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862206",
@@ -9570,11 +10267,20 @@
      "details": null,
      "site": "puerto-asis",
      "time": "07:03"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "megascops-choliba": {
@@ -9726,6 +10432,27 @@
    ],
    "sites": [
     "la-drymophila"
+   ]
+  },
+  "melanerpes-pucherani": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "melanerpes-rubricapillus": {
@@ -10482,11 +11209,12 @@
   },
   "myiodynastes-maculatus": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-22"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399888084",
@@ -10495,10 +11223,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "finca-maragricola"
    ]
   },
   "myiophobus-cryptoxanthus": {
@@ -10788,11 +11525,12 @@
    "days": [
     "2026-10-04",
     "2026-10-05",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-22"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399294003",
@@ -10817,20 +11555,30 @@
      "details": null,
      "site": "puerto-asis",
      "time": "07:03"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "myiozetetes-granadensis": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -10839,10 +11587,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "finca-maragricola"
    ]
   },
   "myiozetetes-luteiventris": {
@@ -10874,11 +11631,12 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-22"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 10,
+   "n_checklists": 11,
    "obs": [
     {
      "cl": "S399582442",
@@ -10959,13 +11717,22 @@
      "details": null,
      "site": null,
      "time": "05:53"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "myrmelastes-leucostigma": {
@@ -10997,14 +11764,36 @@
     "isla-escondida"
    ]
   },
+  "myrmotherula-pacifica": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "nannopterum-brasilianum": {
    "days": [
     "2026-10-12",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": false,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -11021,11 +11810,20 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 19,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "playa-rica",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "nasica-longirostris": {
@@ -11070,6 +11868,48 @@
     "trampolin-aves"
    ]
   },
+  "nomonyx-dominicus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
+  "notharchus-tectus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "numenius-hudsonicus": {
    "days": [
     "2026-10-21"
@@ -11089,6 +11929,27 @@
    ],
    "sites": [
     "playa-del-morro"
+   ]
+  },
+  "nyctanassa-violacea": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "nyctibius-grandis": {
@@ -11131,6 +11992,27 @@
    ],
    "sites": [
     "el-escondite"
+   ]
+  },
+  "nycticorax-nycticorax": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": false,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": "1ad, 1 subad",
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "ochthoeca-cinnamomeiventris": {
@@ -11290,6 +12172,27 @@
    ],
    "sites": [
     "el-encanto"
+   ]
+  },
+  "ortalis-erythroptera": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 5,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "ortalis-guttata": {
@@ -11478,11 +12381,12 @@
   },
   "pachyramphus-cinnamomeus": {
    "days": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404249271",
@@ -11491,9 +12395,19 @@
      "details": null,
      "site": null,
      "time": "06:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
-   "sites": []
+   "sites": [
+    "finca-maragricola"
+   ]
   },
   "pachysylvia-hypoxantha": {
    "days": [
@@ -11613,11 +12527,12 @@
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-11",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S401862211",
@@ -11658,12 +12573,21 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "playa-rica",
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "patagioenas-fasciata": {
@@ -11877,6 +12801,27 @@
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "phalaropus-tricolor": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 15,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "pharomachrus-auriceps": {
@@ -12186,11 +13131,12 @@
   },
   "picumnus-olivaceus": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-22"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399888084",
@@ -12199,10 +13145,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "finca-maragricola"
    ]
   },
   "picumnus-squamulatus": {
@@ -12288,11 +13243,12 @@
   "pionus-menstruus": {
    "days": [
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-13",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S402225634",
@@ -12317,10 +13273,19 @@
      "details": null,
      "site": null,
      "time": "15:08"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
    ]
   },
   "pipraeidea-melanonota": {
@@ -12441,11 +13406,12 @@
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-22"
    ],
    "first": "2026-10-14",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S402389337",
@@ -12502,12 +13468,21 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "sibundoy",
     "la-planada",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "finca-maragricola"
    ]
   },
   "pitangus-sulphuratus": {
@@ -12517,11 +13492,12 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-22"
    ],
    "first": "2026-10-05",
    "lifer": false,
-   "n_checklists": 9,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S399435580",
@@ -12594,13 +13570,43 @@
      "details": null,
      "site": null,
      "time": "05:53"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
     "playa-rica",
     "puerto-asis",
-    "el-escondite"
+    "el-escondite",
+    "finca-maragricola"
+   ]
+  },
+  "podilymbus-podiceps": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 6,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "poecilotriccus-capitalis": {
@@ -12696,13 +13702,56 @@
     "la-drymophila"
    ]
   },
+  "poliocrania-exsul": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": "H",
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
+  "polioptila-bilineata": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "porphyrio-martinica": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862201",
@@ -12711,10 +13760,19 @@
      "details": null,
      "site": "puerto-asis",
      "time": "15:44"
+    },
+    {
+     "cl": "S404550673",
+     "count": 7,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "porphyriops-melanops": {
@@ -12767,11 +13825,12 @@
   },
   "progne-chalybea": {
    "days": [
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-22"
    ],
    "first": "2026-10-13",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S402225648",
@@ -12780,10 +13839,19 @@
      "details": null,
      "site": "puerto-asis",
      "time": "05:42"
+    },
+    {
+     "cl": "S404550673",
+     "count": 5,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "progne-tapera": {
@@ -13372,11 +14440,12 @@
   "pyrocephalus-rubinus": {
    "days": [
     "2026-10-05",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399582442",
@@ -13393,11 +14462,20 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "pyrrhomyias-cinnamomeus": {
@@ -13490,11 +14568,12 @@
   },
   "quiscalus-mexicanus": {
    "days": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404372651",
@@ -13503,6 +14582,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550666",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "05:51"
     }
    ],
    "sites": [
@@ -13739,11 +14826,12 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S403455006",
@@ -13800,13 +14888,22 @@
      "details": null,
      "site": null,
      "time": "06:26"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "la-planada",
     "aves-y-florez",
     "rio-nambi",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "finca-maragricola"
    ]
   },
   "ramphocelus-nigrogularis": {
@@ -13985,11 +15082,12 @@
     "2026-10-07",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 8,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S398851342",
@@ -14054,6 +15152,14 @@
      "details": null,
      "site": "la-planada",
      "time": "09:29"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -14062,7 +15168,8 @@
     "finca-discosura",
     "el-escondite",
     "trampolin-aves",
-    "la-planada"
+    "la-planada",
+    "finca-maragricola"
    ]
   },
   "rynchops-niger": {
@@ -14556,6 +15663,27 @@
     "bangsias-lodge"
    ]
   },
+  "setophaga-petechia": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "setophaga-pitiayumi": {
    "days": [
     "2026-10-17",
@@ -14602,11 +15730,12 @@
     "2026-10-06",
     "2026-10-07",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-22"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S399558710",
@@ -14663,13 +15792,22 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
     "finca-discosura",
     "el-escondite",
-    "puerto-asis"
+    "puerto-asis",
+    "finca-maragricola"
    ]
   },
   "sicalis-luteola": {
@@ -14763,11 +15901,12 @@
   },
   "spatula-discors": {
    "days": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404372651",
@@ -14776,10 +15915,19 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 40,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "sphenopsis-frontalis": {
@@ -14983,11 +16131,12 @@
   },
   "sporophila-corvina": {
    "days": [
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-22"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403455006",
@@ -14996,10 +16145,19 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "la-planada"
+    "la-planada",
+    "finca-maragricola"
    ]
   },
   "sporophila-crassirostris": {
@@ -15797,6 +16955,27 @@
    "sites": [
     "puerto-asis",
     "el-escondite"
+   ]
+  },
+  "tachybaptus-dominicus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 5,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "tachycineta-albiventer": {
@@ -16639,6 +17818,27 @@
     "la-planada"
    ]
   },
+  "taraba-major": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": "H многократно",
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "tersina-viridis": {
    "days": [
     "2026-10-14",
@@ -16759,6 +17959,27 @@
    ],
    "sites": [
     "isla-escondida"
+   ]
+  },
+  "thamnophilus-atrinucha": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "thamnophilus-multistriatus": {
@@ -16897,11 +18118,12 @@
     "2026-10-16",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 16,
+   "n_checklists": 17,
    "obs": [
     {
      "cl": "S399294003",
@@ -17030,6 +18252,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -17041,7 +18271,8 @@
     "sibundoy",
     "aves-y-florez",
     "bangsias-lodge",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "thraupis-palmarum": {
@@ -17362,11 +18593,12 @@
     "2026-10-07",
     "2026-10-14",
     "2026-10-17",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851342",
@@ -17423,13 +18655,22 @@
      "details": null,
      "site": "rio-nambi",
      "time": "08:49"
+    },
+    {
+     "cl": "S404550673",
+     "count": 4,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "chicaque",
     "el-encanto",
     "la-planada",
-    "rio-nambi"
+    "rio-nambi",
+    "finca-maragricola"
    ]
   },
   "tolmomyias-poliocephalus": {
@@ -17619,11 +18860,12 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-02",
    "lifer": false,
-   "n_checklists": 13,
+   "n_checklists": 14,
    "obs": [
     {
      "cl": "S398369085",
@@ -17728,6 +18970,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -17739,7 +18989,8 @@
     "el-escondite",
     "la-planada",
     "bangsias-lodge",
-    "playa-del-morro"
+    "playa-del-morro",
+    "finca-maragricola"
    ]
   },
   "troglodytes-solstitialis": {
@@ -17770,6 +19021,27 @@
    ],
    "sites": [
     "la-planada"
+   ]
+  },
+  "trogon-chionurus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "trogon-collaris": {
@@ -17850,6 +19122,27 @@
    "sites": [
     "finca-discosura",
     "isla-escondida"
+   ]
+  },
+  "trogon-massena": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
    ]
   },
   "trogon-personatus": {
@@ -18324,11 +19617,12 @@
     "2026-10-16",
     "2026-10-17",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-22"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 15,
+   "n_checklists": 16,
    "obs": [
     {
      "cl": "S398851342",
@@ -18449,6 +19743,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "06:00"
+    },
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
@@ -18458,7 +19760,8 @@
     "el-escondite",
     "sibundoy",
     "la-planada",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "finca-maragricola"
    ]
   },
   "tyrannus-tyrannus": {
@@ -19039,11 +20342,12 @@
   },
   "xiphocolaptes-promeropirhynchus": {
    "days": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-22"
    ],
    "first": "2026-10-06",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399821902",
@@ -19052,10 +20356,19 @@
      "details": null,
      "site": "la-drymophila",
      "time": "06:08"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
-    "la-drymophila"
+    "la-drymophila",
+    "finca-maragricola"
    ]
   },
   "xiphorhynchus-guttatus": {
@@ -19084,11 +20397,12 @@
     "2026-10-01",
     "2026-10-02",
     "2026-10-03",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-22"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S398050122",
@@ -19129,11 +20443,20 @@
      "details": null,
      "site": "sibundoy",
      "time": "06:02"
+    },
+    {
+     "cl": "S404550673",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "finca-maragricola",
+     "time": "06:24"
     }
    ],
    "sites": [
     "monserrate",
-    "sibundoy"
+    "sibundoy",
+    "finca-maragricola"
    ]
   },
   "zentrygon-frenata": {
@@ -19513,6 +20836,13 @@
     "new": 17,
     "observations": 43,
     "species": 42
+   },
+   "2026-10-22": {
+    "checklists": 2,
+    "lifers": 37,
+    "new": 39,
+    "observations": 86,
+    "species": 86
    }
   },
   "by_site": {
@@ -19559,6 +20889,13 @@
     "observations": 22,
     "species": 22
    },
+   "finca-maragricola": {
+    "checklists": 1,
+    "lifers": 36,
+    "new": 38,
+    "observations": 84,
+    "species": 84
+   },
    "isla-escondida": {
     "checklists": 14,
     "lifers": 70,
@@ -19595,11 +20932,11 @@
     "species": 11
    },
    "playa-del-morro": {
-    "checklists": 1,
-    "lifers": 7,
-    "new": 7,
-    "observations": 17,
-    "species": 17
+    "checklists": 2,
+    "lifers": 8,
+    "new": 8,
+    "observations": 19,
+    "species": 18
    },
    "playa-rica": {
     "checklists": 1,
@@ -19644,10 +20981,10 @@
     "species": 51
    }
   },
-  "checklists": 77,
-  "days": 21,
-  "lifers": 487,
-  "observations": 1304,
+  "checklists": 79,
+  "days": 22,
+  "lifers": 524,
+  "observations": 1390,
   "off_site": {
    "checklists": 18,
    "lifers": 44,
@@ -19655,7 +20992,7 @@
    "observations": 162,
    "species": 117
   },
-  "species": 502
+  "species": 541
  },
  "trip_start": "2026-10-01",
  "unmatched": []

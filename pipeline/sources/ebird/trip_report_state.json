@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-22T17:12:53Z",
+ "fetched_at": "2026-10-22T21:38:07Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -722,23 +722,43 @@
      "numSpecies": 5,
      "region": "CO-NAR",
      "time": "09:05"
+    },
+    "S404550666": {
+     "date": "2026-10-22",
+     "lat": 1.8191118,
+     "lng": -78.7571132,
+     "loc_id": "L4909316",
+     "loc_name": "Viaducto Puente del Morro",
+     "numSpecies": 2,
+     "region": "CO-NAR",
+     "time": "05:51"
+    },
+    "S404550673": {
+     "date": "2026-10-22",
+     "lat": 1.6833333,
+     "lng": -78.75,
+     "loc_id": "L3940729",
+     "loc_name": "Finca Maragrícola",
+     "numSpecies": 84,
+     "region": "CO-NAR",
+     "time": "06:24"
     }
    },
    "group": {
-    "checklists": 104,
+    "checklists": 106,
     "other_taxa": 6,
-    "species": 545
+    "species": 584
    },
    "people": [
     {
      "begin": null,
-     "checklists": 72,
+     "checklists": 74,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 471,
+     "species": 510,
      "user_id": "USER3559161"
     },
     {
@@ -753,14 +773,14 @@
      "user_id": "USER2882675"
     },
     {
-     "begin": "2026-10-03",
-     "checklists": 18,
-     "end": "2026-10-09",
+     "begin": null,
+     "checklists": 38,
+     "end": null,
      "name": "Jenia Triger",
      "other_taxa": 0,
      "person_id": 820852,
      "role": "editor",
-     "species": 179,
+     "species": 365,
      "user_id": "USER2722607"
     },
     {
@@ -787,13 +807,13 @@
     },
     {
      "begin": null,
-     "checklists": 69,
+     "checklists": 71,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 484,
+     "species": 524,
      "user_id": "USER1063968"
     }
    ],
@@ -17433,6 +17453,550 @@
        "code": "dubtan1",
        "comments": null,
        "count": "3"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404550666": {
+     "allObsReported": false,
+     "comments": null,
+     "durationHrs": null,
+     "effortAreaHa": null,
+     "effortDistanceKm": null,
+     "fetched": "2026-10-22T21:38:07Z",
+     "numObservers": 1,
+     "numSpecies": 2,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "magfri",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "grtgra",
+       "comments": null,
+       "count": "1"
+      }
+     ],
+     "protocolId": "P20",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404550673": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 5.867,
+     "effortAreaHa": null,
+     "effortDistanceKm": 2.759,
+     "fetched": "2026-10-22T21:38:07Z",
+     "numObservers": 1,
+     "numSpecies": 84,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "bbwduc",
+       "comments": null,
+       "count": "40"
+      },
+      {
+       "breeding": null,
+       "code": "fuwduc",
+       "comments": null,
+       "count": "30"
+      },
+      {
+       "breeding": null,
+       "code": "buwtea",
+       "comments": null,
+       "count": "40"
+      },
+      {
+       "breeding": null,
+       "code": "whcpin",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "masduc",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "ruhcha1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "pavpig2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "paldov1",
+       "comments": "H",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "eardov1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "greani1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "smbani",
+       "comments": null,
+       "count": "15"
+      },
+      {
+       "breeding": null,
+       "code": "yebcuc",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rtlhum",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "comgal1",
+       "comments": null,
+       "count": "14"
+      },
+      {
+       "breeding": null,
+       "code": "purgal2",
+       "comments": null,
+       "count": "7"
+      },
+      {
+       "breeding": null,
+       "code": "bknsti",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "watjac1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "wilpha",
+       "comments": null,
+       "count": "15"
+      },
+      {
+       "breeding": null,
+       "code": "blkter",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "leagre",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": "UN",
+       "code": "pibgre",
+       "comments": null,
+       "count": "6"
+      },
+      {
+       "breeding": null,
+       "code": "anhing",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "neocor",
+       "comments": null,
+       "count": "19"
+      },
+      {
+       "breeding": null,
+       "code": "ycnher",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "bcnher",
+       "comments": "1ad, 1 subad",
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "triher",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "redegr",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "snoegr",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "strher2",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "categr1",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "greegr",
+       "comments": null,
+       "count": "20"
+      },
+      {
+       "breeding": null,
+       "code": "blkvul",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "turvul",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "hobkit",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "dotkit1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "plukit1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "roahaw",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "slttro1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "whttro1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rinkin1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "grnkin",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "piepuf1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orfbar1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "olipic1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blcwoo1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blhpar1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "pacpar2",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "greant1",
+       "comments": "H многократно",
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "wesant1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "pacant",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "chbant1",
+       "comments": "H",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "stbwoo1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sthwoo1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "whbman1",
+       "comments": "F",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "cinbec1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "cotfly1",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "sobtyr1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "yebela1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "acafly",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "verfly",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "mawtyr1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "ochatt1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "grekis",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bobfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rumfly1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "socfly1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "grcfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "strfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "pirfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "trokin",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "gybmar",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "trogna2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "houwre4",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "whveup1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "orbeup1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "manwar1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sumtan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bugtan",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "bludac1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "relhon1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "saffin",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "varsee3",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "banana",
+       "comments": null,
+       "count": "1"
       }
      ],
      "protocolId": "P22",

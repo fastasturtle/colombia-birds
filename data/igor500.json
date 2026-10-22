@@ -1,14 +1,25 @@
 {
  "as_of": "2026-10-21 17:33",
  "checklists": 79,
- "fetched": "2026-10-22T04:51:22Z",
+ "fetched": "2026-10-22T21:38:19Z",
  "goal": 500,
- "group_species": 545,
+ "group_species": 584,
  "likely_total": 81,
- "missed_in_group": 80,
+ "missed_in_group": 119,
  "person": "Igor Bobyr",
  "person_ru": "Игорь",
  "reachable_missed": [
+  {
+   "en": "Magnificent Frigatebird",
+   "id": "fregata-magnificens",
+   "ru": "Великолепный фрегат",
+   "sci": "Fregata magnificens",
+   "sites": {
+    "finca-maragricola": 6,
+    "playa-del-morro": 181,
+    "tumaco": 192
+   }
+  },
   {
    "en": "Great-tailed Grackle",
    "id": "quiscalus-mexicanus",
@@ -18,6 +29,29 @@
     "finca-maragricola": 16,
     "playa-del-morro": 165,
     "tumaco": 178
+   }
+  },
+  {
+   "en": "Mangrove Yellow Warbler",
+   "id": "setophaga-petechia",
+   "ru": "Мангровая древесница",
+   "sci": "Setophaga petechia",
+   "sites": {
+    "finca-maragricola": 15,
+    "playa-del-morro": 88,
+    "tumaco": 100
+   }
+  },
+  {
+   "en": "Black-cheeked Woodpecker",
+   "id": "melanerpes-pucherani",
+   "ru": "Чернощёкий дятел",
+   "sci": "Melanerpes pucherani",
+   "sites": {
+    "finca-maragricola": 66,
+    "km-42": 89,
+    "playa-del-morro": 33,
+    "tumaco": 34
    }
   },
   {
@@ -56,6 +90,188 @@
    }
   },
   {
+   "en": "Orange-fronted Barbet",
+   "id": "capito-squamatus",
+   "ru": "Оранжеволобая бородатка",
+   "sci": "Capito squamatus",
+   "sites": {
+    "finca-maragricola": 18,
+    "km-42": 67
+   }
+  },
+  {
+   "en": "Pacific Parrotlet",
+   "id": "forpus-coelestis",
+   "ru": "Западный воробьиный попугайчик",
+   "sci": "Forpus coelestis",
+   "sites": {
+    "finca-maragricola": 66,
+    "km-42": 32,
+    "playa-del-morro": 4,
+    "tumaco": 4
+   }
+  },
+  {
+   "en": "Black-necked Stilt",
+   "id": "himantopus-mexicanus",
+   "ru": "Американский ходулочник",
+   "sci": "Himantopus mexicanus",
+   "sites": {
+    "finca-maragricola": 64,
+    "km-42": 10
+   }
+  },
+  {
+   "en": "White-bearded Manakin",
+   "id": "manacus-manacus",
+   "ru": "Сорочий манакин",
+   "sci": "Manacus manacus",
+   "sites": {
+    "finca-maragricola": 62,
+    "km-42": 31,
+    "la-nutria": 5
+   }
+  },
+  {
+   "en": "White-cheeked Pintail",
+   "id": "anas-bahamensis",
+   "ru": "Багамская шилохвость",
+   "sci": "Anas bahamensis",
+   "sites": {
+    "finca-maragricola": 62,
+    "km-42": 10
+   }
+  },
+  {
+   "en": "Tricolored Heron",
+   "id": "egretta-tricolor",
+   "ru": "Трёхцветная цапля",
+   "sci": "Egretta tricolor",
+   "sites": {
+    "finca-maragricola": 14,
+    "playa-del-morro": 48,
+    "tumaco": 61
+   }
+  },
+  {
+   "en": "Rufous-headed Chachalaca",
+   "id": "ortalis-erythroptera",
+   "ru": "Красноголовая чачалака",
+   "sci": "Ortalis erythroptera",
+   "sites": {
+    "finca-maragricola": 41,
+    "km-42": 59
+   }
+  },
+  {
+   "en": "Ringed Kingfisher",
+   "id": "megaceryle-torquata",
+   "ru": "Красногрудый зимородок",
+   "sci": "Megaceryle torquata",
+   "sites": {
+    "finca-maragricola": 33,
+    "playa-del-morro": 45,
+    "tumaco": 56
+   }
+  },
+  {
+   "en": "Yellow-crowned Night Heron",
+   "id": "nyctanassa-violacea",
+   "ru": "Крабовая кваква",
+   "sci": "Nyctanassa violacea",
+   "sites": {
+    "finca-maragricola": 12,
+    "playa-del-morro": 45,
+    "tumaco": 56
+   }
+  },
+  {
+   "en": "Pied-billed Grebe",
+   "id": "podilymbus-podiceps",
+   "ru": "Пестроклювая поганка",
+   "sci": "Podilymbus podiceps",
+   "sites": {
+    "finca-maragricola": 55,
+    "km-42": 10
+   }
+  },
+  {
+   "en": "Masked Water-Tyrant",
+   "id": "fluvicola-nengeta",
+   "ru": "Масковый мухолов",
+   "sci": "Fluvicola nengeta",
+   "sites": {
+    "finca-maragricola": 53,
+    "km-42": 8
+   }
+  },
+  {
+   "en": "Pacific Antwren",
+   "id": "myrmotherula-pacifica",
+   "ru": "Тихоокенаский муравьелов",
+   "sci": "Myrmotherula pacifica",
+   "sites": {
+    "finca-maragricola": 48,
+    "km-42": 40,
+    "la-nutria": 3,
+    "playa-del-morro": 44,
+    "tumaco": 53
+   }
+  },
+  {
+   "en": "Wilson's Phalarope",
+   "id": "phalaropus-tricolor",
+   "ru": "Большой плавунчик",
+   "sci": "Phalaropus tricolor",
+   "sites": {
+    "finca-maragricola": 52,
+    "playa-del-morro": 5,
+    "tumaco": 5
+   }
+  },
+  {
+   "en": "Common Gallinule",
+   "id": "gallinula-galeata",
+   "ru": "Американская камышница",
+   "sci": "Gallinula galeata",
+   "sites": {
+    "finca-maragricola": 49
+   }
+  },
+  {
+   "en": "White-browed Gnatcatcher",
+   "id": "polioptila-bilineata",
+   "ru": "Белобровая комароловка",
+   "sci": "Polioptila bilineata",
+   "sites": {
+    "finca-maragricola": 38,
+    "km-42": 44,
+    "playa-del-morro": 7,
+    "tumaco": 7
+   }
+  },
+  {
+   "en": "Least Grebe",
+   "id": "tachybaptus-dominicus",
+   "ru": "Южноамериканская поганка",
+   "sci": "Tachybaptus dominicus",
+   "sites": {
+    "finca-maragricola": 43
+   }
+  },
+  {
+   "en": "Pallid Dove",
+   "id": "leptotila-pallida",
+   "ru": "Бледная голубка",
+   "sci": "Leptotila pallida",
+   "sites": {
+    "finca-maragricola": 35,
+    "km-42": 43,
+    "playa-del-morro": 18,
+    "tumaco": 18
+   }
+  },
+  {
    "en": "Great Antshrike",
    "id": "taraba-major",
    "ru": "Большая тараба",
@@ -63,6 +279,59 @@
    "sites": {
     "finca-maragricola": 36,
     "km-42": 40
+   }
+  },
+  {
+   "en": "Black-crowned Night Heron",
+   "id": "nycticorax-nycticorax",
+   "ru": "Кваква",
+   "sci": "Nycticorax nycticorax",
+   "sites": {
+    "finca-maragricola": 38,
+    "playa-del-morro": 21,
+    "tumaco": 21
+   }
+  },
+  {
+   "en": "Pied Puffbird",
+   "id": "notharchus-tectus",
+   "ru": "Пегая пуховка",
+   "sci": "Notharchus tectus",
+   "sites": {
+    "finca-maragricola": 9,
+    "km-42": 38
+   }
+  },
+  {
+   "en": "Fulvous Whistling-Duck",
+   "id": "dendrocygna-bicolor",
+   "ru": "Рыжая древесная утка",
+   "sci": "Dendrocygna bicolor",
+   "sites": {
+    "finca-maragricola": 35
+   }
+  },
+  {
+   "en": "Chestnut-backed Antbird",
+   "id": "poliocrania-exsul",
+   "ru": "Коричневоспинная муравьеловка",
+   "sci": "Poliocrania exsul",
+   "sites": {
+    "finca-maragricola": 31,
+    "km-42": 32
+   }
+  },
+  {
+   "en": "Red-legged Honeycreeper",
+   "id": "cyanerpes-cyaneus",
+   "ru": "Красноногий саи",
+   "sci": "Cyanerpes cyaneus",
+   "sites": {
+    "finca-maragricola": 24,
+    "km-42": 21,
+    "la-nutria": 7,
+    "playa-del-morro": 32,
+    "tumaco": 32
    }
   },
   {
@@ -86,6 +355,28 @@
    }
   },
   {
+   "en": "Anhinga",
+   "id": "anhinga-anhinga",
+   "ru": "Американская змеешейка",
+   "sci": "Anhinga anhinga",
+   "sites": {
+    "finca-maragricola": 24,
+    "km-42": 10,
+    "playa-del-morro": 3,
+    "tumaco": 4
+   }
+  },
+  {
+   "en": "Ochraceous Attila",
+   "id": "attila-torridus",
+   "ru": "Охристый аттила",
+   "sci": "Attila torridus",
+   "sites": {
+    "finca-maragricola": 24,
+    "km-42": 20
+   }
+  },
+  {
    "en": "Orange-billed Sparrow",
    "id": "arremon-aurantiirostris",
    "ru": "Оранжевоклювый тохи",
@@ -97,6 +388,26 @@
    }
   },
   {
+   "en": "White-tailed Trogon",
+   "id": "trogon-chionurus",
+   "ru": "Белохвостый трогон",
+   "sci": "Trogon chionurus",
+   "sites": {
+    "finca-maragricola": 19
+   }
+  },
+  {
+   "en": "Black-crowned Antshrike",
+   "id": "thamnophilus-atrinucha",
+   "ru": "Пестрокрылый колючник",
+   "sci": "Thamnophilus atrinucha",
+   "sites": {
+    "finca-maragricola": 16,
+    "km-42": 16,
+    "tumaco": 9
+   }
+  },
+  {
    "en": "Dusky-capped Flycatcher",
    "id": "myiarchus-tuberculifer",
    "ru": "Темноголовый миарх",
@@ -105,6 +416,16 @@
     "finca-maragricola": 15,
     "playa-del-morro": 3,
     "tumaco": 3
+   }
+  },
+  {
+   "en": "Slaty-tailed Trogon",
+   "id": "trogon-massena",
+   "ru": "Аспиднохвостый трогон",
+   "sci": "Trogon massena",
+   "sites": {
+    "finca-maragricola": 11,
+    "km-42": 11
    }
   },
   {
@@ -126,6 +447,25 @@
    }
   },
   {
+   "en": "Bright-rumped Attila",
+   "id": "attila-spadiceus",
+   "ru": "Желтопоясный атилла",
+   "sci": "Attila spadiceus",
+   "sites": {
+    "la-nutria": 6
+   }
+  },
+  {
+   "en": "Reddish Egret",
+   "id": "egretta-rufescens",
+   "ru": "Рыжеватая цапля",
+   "sci": "Egretta rufescens",
+   "sites": {
+    "playa-del-morro": 6,
+    "tumaco": 6
+   }
+  },
+  {
    "en": "Bran-colored Flycatcher",
    "id": "myiophobus-fasciatus",
    "ru": "Ржавчатая курэта",
@@ -143,6 +483,15 @@
    "sci": "Diglossa cyanea",
    "sites": {
     "la-nutria": 5
+   }
+  },
+  {
+   "en": "Yellow-billed Cuckoo",
+   "id": "coccyzus-americanus",
+   "ru": "Желтоклювая пиайя",
+   "sci": "Coccyzus americanus",
+   "sites": {
+    "finca-maragricola": 3
    }
   }
  ],
@@ -173,7 +522,7 @@
    {
     "en": "Black-cheeked Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "melanerpes-pucherani",
     "n": 323,
     "n_aut": 66,
@@ -184,7 +533,7 @@
    {
     "en": "Pacific Parrotlet",
     "family": "psitta3",
-    "group": false,
+    "group": true,
     "id": "forpus-coelestis",
     "n": 285,
     "n_aut": 66,
@@ -195,7 +544,7 @@
    {
     "en": "Black-necked Stilt",
     "family": "recurv1",
-    "group": false,
+    "group": true,
     "id": "himantopus-mexicanus",
     "n": 327,
     "n_aut": 64,
@@ -206,7 +555,7 @@
    {
     "en": "White-bearded Manakin",
     "family": "piprid1",
-    "group": false,
+    "group": true,
     "id": "manacus-manacus",
     "n": 252,
     "n_aut": 62,
@@ -217,7 +566,7 @@
    {
     "en": "White-cheeked Pintail",
     "family": "anatid1",
-    "group": false,
+    "group": true,
     "id": "anas-bahamensis",
     "n": 345,
     "n_aut": 62,
@@ -261,7 +610,7 @@
    {
     "en": "Pied-billed Grebe",
     "family": "podici1",
-    "group": false,
+    "group": true,
     "id": "podilymbus-podiceps",
     "n": 276,
     "n_aut": 55,
@@ -272,7 +621,7 @@
    {
     "en": "Masked Water-Tyrant",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "fluvicola-nengeta",
     "n": 356,
     "n_aut": 53,
@@ -283,7 +632,7 @@
    {
     "en": "Wilson's Phalarope",
     "family": "scolop2",
-    "group": false,
+    "group": true,
     "id": "phalaropus-tricolor",
     "n": 95,
     "n_aut": 52,
@@ -294,7 +643,7 @@
    {
     "en": "Common Gallinule",
     "family": "rallid1",
-    "group": false,
+    "group": true,
     "id": "gallinula-galeata",
     "n": 308,
     "n_aut": 49,
@@ -305,7 +654,7 @@
    {
     "en": "Pacific Antwren",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "myrmotherula-pacifica",
     "n": 274,
     "n_aut": 48,
@@ -327,7 +676,7 @@
    {
     "en": "Least Grebe",
     "family": "podici1",
-    "group": false,
+    "group": true,
     "id": "tachybaptus-dominicus",
     "n": 149,
     "n_aut": 43,
@@ -338,7 +687,7 @@
    {
     "en": "Rufous-headed Chachalaca",
     "family": "cracid2",
-    "group": false,
+    "group": true,
     "id": "ortalis-erythroptera",
     "n": 218,
     "n_aut": 41,
@@ -360,7 +709,7 @@
    {
     "en": "Black-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nycticorax-nycticorax",
     "n": 124,
     "n_aut": 38,
@@ -404,7 +753,7 @@
    {
     "en": "White-browed Gnatcatcher",
     "family": "poliop1",
-    "group": false,
+    "group": true,
     "id": "polioptila-bilineata",
     "n": 213,
     "n_aut": 38,
@@ -470,7 +819,7 @@
    {
     "en": "Fulvous Whistling-Duck",
     "family": "anatid1",
-    "group": false,
+    "group": true,
     "id": "dendrocygna-bicolor",
     "n": 217,
     "n_aut": 35,
@@ -481,7 +830,7 @@
    {
     "en": "Pallid Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "leptotila-pallida",
     "n": 195,
     "n_aut": 35,
@@ -514,7 +863,7 @@
    {
     "en": "Ringed Kingfisher",
     "family": "alcedi1",
-    "group": false,
+    "group": true,
     "id": "megaceryle-torquata",
     "n": 239,
     "n_aut": 33,
@@ -525,7 +874,7 @@
    {
     "en": "Chestnut-backed Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "poliocrania-exsul",
     "n": 185,
     "n_aut": 31,
@@ -602,7 +951,7 @@
    {
     "en": "Anhinga",
     "family": "anhing3",
-    "group": false,
+    "group": true,
     "id": "anhinga-anhinga",
     "n": 143,
     "n_aut": 24,
@@ -613,7 +962,7 @@
    {
     "en": "Ochraceous Attila",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "attila-torridus",
     "n": 190,
     "n_aut": 24,
@@ -635,7 +984,7 @@
    {
     "en": "Red-legged Honeycreeper",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "cyanerpes-cyaneus",
     "n": 164,
     "n_aut": 24,
@@ -690,7 +1039,7 @@
    {
     "en": "White-tailed Trogon",
     "family": "trogon1",
-    "group": false,
+    "group": true,
     "id": "trogon-chionurus",
     "n": 74,
     "n_aut": 19,
@@ -701,7 +1050,7 @@
    {
     "en": "Orange-fronted Barbet",
     "family": "capito2",
-    "group": false,
+    "group": true,
     "id": "capito-squamatus",
     "n": 73,
     "n_aut": 18,
@@ -734,7 +1083,7 @@
    {
     "en": "Black-crowned Antshrike",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "thamnophilus-atrinucha",
     "n": 70,
     "n_aut": 16,
@@ -789,7 +1138,7 @@
    {
     "en": "Mangrove Yellow Warbler",
     "family": "paruli1",
-    "group": false,
+    "group": true,
     "id": "setophaga-petechia",
     "n": 89,
     "n_aut": 15,
@@ -822,7 +1171,7 @@
    {
     "en": "Tricolored Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "egretta-tricolor",
     "n": 135,
     "n_aut": 14,
@@ -844,7 +1193,7 @@
    {
     "en": "Yellow-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nyctanassa-violacea",
     "n": 130,
     "n_aut": 12,
@@ -877,7 +1226,7 @@
    {
     "en": "Slaty-tailed Trogon",
     "family": "trogon1",
-    "group": false,
+    "group": true,
     "id": "trogon-massena",
     "n": 117,
     "n_aut": 11,
@@ -921,7 +1270,7 @@
    {
     "en": "Pied Puffbird",
     "family": "buccon2",
-    "group": false,
+    "group": true,
     "id": "notharchus-tectus",
     "n": 61,
     "n_aut": 9,
@@ -1042,7 +1391,7 @@
    {
     "en": "Magnificent Frigatebird",
     "family": "fregat1",
-    "group": false,
+    "group": true,
     "id": "fregata-magnificens",
     "n": 84,
     "n_aut": 6,
@@ -1317,7 +1666,7 @@
    {
     "en": "Yellow-billed Cuckoo",
     "family": "cuculi1",
-    "group": false,
+    "group": true,
     "id": "coccyzus-americanus",
     "n": 3,
     "n_aut": 3,
@@ -1427,7 +1776,7 @@
    {
     "en": "Masked Duck",
     "family": "anatid1",
-    "group": false,
+    "group": true,
     "id": "nomonyx-dominicus",
     "n": 53,
     "n_aut": 2,
@@ -1548,7 +1897,7 @@
    {
     "en": "Double-toothed Kite",
     "family": "accipi1",
-    "group": false,
+    "group": true,
     "id": "harpagus-bidentatus",
     "n": 54,
     "n_aut": 1,
@@ -1605,7 +1954,7 @@
    {
     "en": "Black-cheeked Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "melanerpes-pucherani",
     "n": 380,
     "n_aut": 89,
@@ -1627,7 +1976,7 @@
    {
     "en": "Orange-fronted Barbet",
     "family": "capito2",
-    "group": false,
+    "group": true,
     "id": "capito-squamatus",
     "n": 214,
     "n_aut": 67,
@@ -1638,7 +1987,7 @@
    {
     "en": "Rufous-headed Chachalaca",
     "family": "cracid2",
-    "group": false,
+    "group": true,
     "id": "ortalis-erythroptera",
     "n": 305,
     "n_aut": 59,
@@ -1671,7 +2020,7 @@
    {
     "en": "White-browed Gnatcatcher",
     "family": "poliop1",
-    "group": false,
+    "group": true,
     "id": "polioptila-bilineata",
     "n": 196,
     "n_aut": 44,
@@ -1682,7 +2031,7 @@
    {
     "en": "Pallid Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "leptotila-pallida",
     "n": 148,
     "n_aut": 43,
@@ -1726,7 +2075,7 @@
    {
     "en": "Pacific Antwren",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "myrmotherula-pacifica",
     "n": 236,
     "n_aut": 40,
@@ -1748,7 +2097,7 @@
    {
     "en": "Pied Puffbird",
     "family": "buccon2",
-    "group": false,
+    "group": true,
     "id": "notharchus-tectus",
     "n": 116,
     "n_aut": 38,
@@ -1803,7 +2152,7 @@
    {
     "en": "Chestnut-backed Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "poliocrania-exsul",
     "n": 98,
     "n_aut": 32,
@@ -1814,7 +2163,7 @@
    {
     "en": "Pacific Parrotlet",
     "family": "psitta3",
-    "group": false,
+    "group": true,
     "id": "forpus-coelestis",
     "n": 157,
     "n_aut": 32,
@@ -1825,7 +2174,7 @@
    {
     "en": "White-bearded Manakin",
     "family": "piprid1",
-    "group": false,
+    "group": true,
     "id": "manacus-manacus",
     "n": 150,
     "n_aut": 31,
@@ -1957,7 +2306,7 @@
    {
     "en": "Red-legged Honeycreeper",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "cyanerpes-cyaneus",
     "n": 131,
     "n_aut": 21,
@@ -1979,7 +2328,7 @@
    {
     "en": "Ochraceous Attila",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "attila-torridus",
     "n": 135,
     "n_aut": 20,
@@ -2001,7 +2350,7 @@
    {
     "en": "Black-crowned Antshrike",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "thamnophilus-atrinucha",
     "n": 48,
     "n_aut": 16,
@@ -2111,7 +2460,7 @@
    {
     "en": "Slaty-tailed Trogon",
     "family": "trogon1",
-    "group": false,
+    "group": true,
     "id": "trogon-massena",
     "n": 11,
     "n_aut": 11,
@@ -2122,7 +2471,7 @@
    {
     "en": "Anhinga",
     "family": "anhing3",
-    "group": false,
+    "group": true,
     "id": "anhinga-anhinga",
     "n": 12,
     "n_aut": 10,
@@ -2133,7 +2482,7 @@
    {
     "en": "Black-necked Stilt",
     "family": "recurv1",
-    "group": false,
+    "group": true,
     "id": "himantopus-mexicanus",
     "n": 11,
     "n_aut": 10,
@@ -2166,7 +2515,7 @@
    {
     "en": "Pied-billed Grebe",
     "family": "podici1",
-    "group": false,
+    "group": true,
     "id": "podilymbus-podiceps",
     "n": 10,
     "n_aut": 10,
@@ -2188,7 +2537,7 @@
    {
     "en": "White-cheeked Pintail",
     "family": "anatid1",
-    "group": false,
+    "group": true,
     "id": "anas-bahamensis",
     "n": 10,
     "n_aut": 10,
@@ -2232,7 +2581,7 @@
    {
     "en": "Masked Water-Tyrant",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "fluvicola-nengeta",
     "n": 52,
     "n_aut": 8,
@@ -2496,7 +2845,7 @@
    {
     "en": "Bright-rumped Attila",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "attila-spadiceus",
     "n": 8,
     "n_aut": 1,
@@ -2529,7 +2878,7 @@
    {
     "en": "Ringed Kingfisher",
     "family": "alcedi1",
-    "group": false,
+    "group": true,
     "id": "megaceryle-torquata",
     "n": 30,
     "n_aut": 1,
@@ -2540,7 +2889,7 @@
    {
     "en": "White-tailed Trogon",
     "family": "trogon1",
-    "group": false,
+    "group": true,
     "id": "trogon-chionurus",
     "n": 19,
     "n_aut": 1,
@@ -2553,7 +2902,7 @@
    {
     "en": "Common Gallinule",
     "family": "rallid1",
-    "group": false,
+    "group": true,
     "id": "gallinula-galeata",
     "n": 7083,
     "n_aut": 1800,
@@ -2641,7 +2990,7 @@
    {
     "en": "Pied-billed Grebe",
     "family": "podici1",
-    "group": false,
+    "group": true,
     "id": "podilymbus-podiceps",
     "n": 2770,
     "n_aut": 688,
@@ -2652,7 +3001,7 @@
    {
     "en": "Black-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nycticorax-nycticorax",
     "n": 2682,
     "n_aut": 591,
@@ -2707,7 +3056,7 @@
    {
     "en": "Yellow-billed Cuckoo",
     "family": "cuculi1",
-    "group": false,
+    "group": true,
     "id": "coccyzus-americanus",
     "n": 491,
     "n_aut": 380,
@@ -2927,7 +3276,7 @@
    {
     "en": "Acadian Flycatcher",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "empidonax-virescens",
     "n": 154,
     "n_aut": 87,
@@ -3125,7 +3474,7 @@
    {
     "en": "Masked Duck",
     "family": "anatid1",
-    "group": false,
+    "group": true,
     "id": "nomonyx-dominicus",
     "n": 151,
     "n_aut": 41,
@@ -3202,7 +3551,7 @@
    {
     "en": "Least Grebe",
     "family": "podici1",
-    "group": false,
+    "group": true,
     "id": "tachybaptus-dominicus",
     "n": 151,
     "n_aut": 27,
@@ -3356,7 +3705,7 @@
    {
     "en": "Ringed Kingfisher",
     "family": "alcedi1",
-    "group": false,
+    "group": true,
     "id": "megaceryle-torquata",
     "n": 27,
     "n_aut": 14,
@@ -3444,7 +3793,7 @@
    {
     "en": "Yellow-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nyctanassa-violacea",
     "n": 22,
     "n_aut": 11,
@@ -3532,7 +3881,7 @@
    {
     "en": "Anhinga",
     "family": "anhing3",
-    "group": false,
+    "group": true,
     "id": "anhinga-anhinga",
     "n": 8,
     "n_aut": 8,
@@ -4192,7 +4541,7 @@
    {
     "en": "Fulvous Whistling-Duck",
     "family": "anatid1",
-    "group": false,
+    "group": true,
     "id": "dendrocygna-bicolor",
     "n": 32,
     "n_aut": 2,
@@ -4258,7 +4607,7 @@
    {
     "en": "White-bearded Manakin",
     "family": "piprid1",
-    "group": false,
+    "group": true,
     "id": "manacus-manacus",
     "n": 3,
     "n_aut": 2,
@@ -4302,7 +4651,7 @@
    {
     "en": "Wilson's Phalarope",
     "family": "scolop2",
-    "group": false,
+    "group": true,
     "id": "phalaropus-tricolor",
     "n": 14,
     "n_aut": 2,
@@ -4997,7 +5346,7 @@
    {
     "en": "Red-legged Honeycreeper",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "cyanerpes-cyaneus",
     "n": 13,
     "n_aut": 7,
@@ -5085,7 +5434,7 @@
    {
     "en": "Bright-rumped Attila",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "attila-spadiceus",
     "n": 84,
     "n_aut": 6,
@@ -5184,7 +5533,7 @@
    {
     "en": "White-bearded Manakin",
     "family": "piprid1",
-    "group": false,
+    "group": true,
     "id": "manacus-manacus",
     "n": 37,
     "n_aut": 5,
@@ -5261,7 +5610,7 @@
    {
     "en": "Pacific Antwren",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "myrmotherula-pacifica",
     "n": 37,
     "n_aut": 3,
@@ -5514,7 +5863,7 @@
    {
     "en": "Black-crowned Antshrike",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "thamnophilus-atrinucha",
     "n": 7,
     "n_aut": 1,
@@ -5558,7 +5907,7 @@
    {
     "en": "Chestnut-backed Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "poliocrania-exsul",
     "n": 7,
     "n_aut": 1,
@@ -5756,7 +6105,7 @@
    {
     "en": "Ringed Kingfisher",
     "family": "alcedi1",
-    "group": false,
+    "group": true,
     "id": "megaceryle-torquata",
     "n": 4,
     "n_aut": 1,
@@ -5813,7 +6162,7 @@
    {
     "en": "Magnificent Frigatebird",
     "family": "fregat1",
-    "group": false,
+    "group": true,
     "id": "fregata-magnificens",
     "n": 842,
     "n_aut": 181,
@@ -5857,7 +6206,7 @@
    {
     "en": "Mangrove Yellow Warbler",
     "family": "paruli1",
-    "group": false,
+    "group": true,
     "id": "setophaga-petechia",
     "n": 375,
     "n_aut": 88,
@@ -5923,7 +6272,7 @@
    {
     "en": "Tricolored Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "egretta-tricolor",
     "n": 293,
     "n_aut": 48,
@@ -5945,7 +6294,7 @@
    {
     "en": "Ringed Kingfisher",
     "family": "alcedi1",
-    "group": false,
+    "group": true,
     "id": "megaceryle-torquata",
     "n": 252,
     "n_aut": 45,
@@ -5956,7 +6305,7 @@
    {
     "en": "Yellow-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nyctanassa-violacea",
     "n": 272,
     "n_aut": 45,
@@ -5967,7 +6316,7 @@
    {
     "en": "Pacific Antwren",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "myrmotherula-pacifica",
     "n": 162,
     "n_aut": 44,
@@ -6022,7 +6371,7 @@
    {
     "en": "Black-cheeked Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "melanerpes-pucherani",
     "n": 170,
     "n_aut": 33,
@@ -6033,7 +6382,7 @@
    {
     "en": "Red-legged Honeycreeper",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "cyanerpes-cyaneus",
     "n": 153,
     "n_aut": 32,
@@ -6088,7 +6437,7 @@
    {
     "en": "Black-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nycticorax-nycticorax",
     "n": 101,
     "n_aut": 21,
@@ -6121,7 +6470,7 @@
    {
     "en": "Pallid Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "leptotila-pallida",
     "n": 65,
     "n_aut": 18,
@@ -6275,7 +6624,7 @@
    {
     "en": "White-browed Gnatcatcher",
     "family": "poliop1",
-    "group": false,
+    "group": true,
     "id": "polioptila-bilineata",
     "n": 42,
     "n_aut": 7,
@@ -6297,7 +6646,7 @@
    {
     "en": "Reddish Egret",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "egretta-rufescens",
     "n": 7,
     "n_aut": 6,
@@ -6341,7 +6690,7 @@
    {
     "en": "Wilson's Phalarope",
     "family": "scolop2",
-    "group": false,
+    "group": true,
     "id": "phalaropus-tricolor",
     "n": 9,
     "n_aut": 5,
@@ -6374,7 +6723,7 @@
    {
     "en": "Pacific Parrotlet",
     "family": "psitta3",
-    "group": false,
+    "group": true,
     "id": "forpus-coelestis",
     "n": 41,
     "n_aut": 4,
@@ -6396,7 +6745,7 @@
    {
     "en": "Anhinga",
     "family": "anhing3",
-    "group": false,
+    "group": true,
     "id": "anhinga-anhinga",
     "n": 16,
     "n_aut": 3,
@@ -6473,7 +6822,7 @@
    {
     "en": "Black Tern",
     "family": "larida1",
-    "group": false,
+    "group": true,
     "id": "chlidonias-niger",
     "n": 7,
     "n_aut": 2,
@@ -6706,7 +7055,7 @@
    {
     "en": "Magnificent Frigatebird",
     "family": "fregat1",
-    "group": false,
+    "group": true,
     "id": "fregata-magnificens",
     "n": 876,
     "n_aut": 192,
@@ -6761,7 +7110,7 @@
    {
     "en": "Mangrove Yellow Warbler",
     "family": "paruli1",
-    "group": false,
+    "group": true,
     "id": "setophaga-petechia",
     "n": 399,
     "n_aut": 100,
@@ -6816,7 +7165,7 @@
    {
     "en": "Tricolored Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "egretta-tricolor",
     "n": 338,
     "n_aut": 61,
@@ -6827,7 +7176,7 @@
    {
     "en": "Ringed Kingfisher",
     "family": "alcedi1",
-    "group": false,
+    "group": true,
     "id": "megaceryle-torquata",
     "n": 270,
     "n_aut": 56,
@@ -6838,7 +7187,7 @@
    {
     "en": "Yellow-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nyctanassa-violacea",
     "n": 297,
     "n_aut": 56,
@@ -6849,7 +7198,7 @@
    {
     "en": "Pacific Antwren",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "myrmotherula-pacifica",
     "n": 174,
     "n_aut": 53,
@@ -6926,7 +7275,7 @@
    {
     "en": "Black-cheeked Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "melanerpes-pucherani",
     "n": 177,
     "n_aut": 34,
@@ -6959,7 +7308,7 @@
    {
     "en": "Red-legged Honeycreeper",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "cyanerpes-cyaneus",
     "n": 154,
     "n_aut": 32,
@@ -7003,7 +7352,7 @@
    {
     "en": "Black-crowned Night Heron",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "nycticorax-nycticorax",
     "n": 98,
     "n_aut": 21,
@@ -7036,7 +7385,7 @@
    {
     "en": "Pallid Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "leptotila-pallida",
     "n": 65,
     "n_aut": 18,
@@ -7179,7 +7528,7 @@
    {
     "en": "Black-crowned Antshrike",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "thamnophilus-atrinucha",
     "n": 11,
     "n_aut": 9,
@@ -7212,7 +7561,7 @@
    {
     "en": "White-browed Gnatcatcher",
     "family": "poliop1",
-    "group": false,
+    "group": true,
     "id": "polioptila-bilineata",
     "n": 42,
     "n_aut": 7,
@@ -7223,7 +7572,7 @@
    {
     "en": "Reddish Egret",
     "family": "ardeid1",
-    "group": false,
+    "group": true,
     "id": "egretta-rufescens",
     "n": 10,
     "n_aut": 6,
@@ -7278,7 +7627,7 @@
    {
     "en": "Wilson's Phalarope",
     "family": "scolop2",
-    "group": false,
+    "group": true,
     "id": "phalaropus-tricolor",
     "n": 10,
     "n_aut": 5,
@@ -7289,7 +7638,7 @@
    {
     "en": "Anhinga",
     "family": "anhing3",
-    "group": false,
+    "group": true,
     "id": "anhinga-anhinga",
     "n": 18,
     "n_aut": 4,
@@ -7311,7 +7660,7 @@
    {
     "en": "Pacific Parrotlet",
     "family": "psitta3",
-    "group": false,
+    "group": true,
     "id": "forpus-coelestis",
     "n": 41,
     "n_aut": 4,
@@ -7421,7 +7770,7 @@
    {
     "en": "Black Tern",
     "family": "larida1",
-    "group": false,
+    "group": true,
     "id": "chlidonias-niger",
     "n": 8,
     "n_aut": 2,
