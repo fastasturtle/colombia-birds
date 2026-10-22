@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-21T23:22:16Z",
+ "fetched_at": "2026-10-22T04:51:05Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -702,34 +702,54 @@
      "numSpecies": 5,
      "region": "CO-NAR",
      "time": "13:27"
+    },
+    "S404372651": {
+     "date": "2026-10-21",
+     "lat": 1.8299853,
+     "lng": -78.7319943,
+     "loc_id": "L3940738",
+     "loc_name": "Playa del Morro",
+     "numSpecies": 17,
+     "region": "CO-NAR",
+     "time": "17:33"
+    },
+    "S404372659": {
+     "date": "2026-10-21",
+     "lat": 1.353344,
+     "lng": -78.176028,
+     "loc_id": "L4859240",
+     "loc_name": "Reserva La Nutria",
+     "numSpecies": 5,
+     "region": "CO-NAR",
+     "time": "09:05"
     }
    },
    "group": {
-    "checklists": 102,
-    "other_taxa": 5,
-    "species": 533
+    "checklists": 104,
+    "other_taxa": 6,
+    "species": 545
    },
    "people": [
     {
      "begin": null,
-     "checklists": 70,
+     "checklists": 72,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 1,
      "person_id": 820854,
      "role": "editor",
-     "species": 461,
+     "species": 471,
      "user_id": "USER3559161"
     },
     {
      "begin": null,
-     "checklists": 76,
+     "checklists": 79,
      "end": null,
      "name": "Igor Bobyr",
-     "other_taxa": 5,
+     "other_taxa": 6,
      "person_id": 820853,
      "role": "editor",
-     "species": 453,
+     "species": 465,
      "user_id": "USER2882675"
     },
     {
@@ -745,13 +765,13 @@
     },
     {
      "begin": null,
-     "checklists": 59,
+     "checklists": 62,
      "end": null,
      "name": "Oleg Chernyshov",
      "other_taxa": 1,
      "person_id": 820851,
      "role": "editor",
-     "species": 454,
+     "species": 467,
      "user_id": "USER1327996"
     },
     {
@@ -767,13 +787,13 @@
     },
     {
      "begin": null,
-     "checklists": 68,
+     "checklists": 69,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 475,
+     "species": 484,
      "user_id": "USER1063968"
     }
    ],
@@ -16142,7 +16162,7 @@
      "durationHrs": 3.317,
      "effortAreaHa": null,
      "effortDistanceKm": 0.665,
-     "fetched": "2026-10-21T13:50:13Z",
+     "fetched": "2026-10-22T04:51:05Z",
      "numObservers": 1,
      "numSpecies": 26,
      "obs": [
@@ -16312,7 +16332,7 @@
      "durationHrs": 1.583,
      "effortAreaHa": null,
      "effortDistanceKm": 1.103,
-     "fetched": "2026-10-21T13:50:13Z",
+     "fetched": "2026-10-22T04:51:05Z",
      "numObservers": 1,
      "numSpecies": 14,
      "obs": [
@@ -16760,7 +16780,7 @@
      "durationHrs": 1.567,
      "effortAreaHa": null,
      "effortDistanceKm": 0.684,
-     "fetched": "2026-10-21T13:50:13Z",
+     "fetched": "2026-10-22T04:51:05Z",
      "numObservers": 1,
      "numSpecies": 18,
      "obs": [
@@ -16882,7 +16902,7 @@
      "durationHrs": 0.833,
      "effortAreaHa": null,
      "effortDistanceKm": 0.658,
-     "fetched": "2026-10-21T13:50:13Z",
+     "fetched": "2026-10-22T04:51:05Z",
      "numObservers": 1,
      "numSpecies": 1,
      "obs": [
@@ -16902,7 +16922,7 @@
      "durationHrs": 3.983,
      "effortAreaHa": null,
      "effortDistanceKm": null,
-     "fetched": "2026-10-21T13:50:13Z",
+     "fetched": "2026-10-22T04:51:05Z",
      "numObservers": 1,
      "numSpecies": 23,
      "obs": [
@@ -17054,7 +17074,7 @@
      "durationHrs": 2.0,
      "effortAreaHa": null,
      "effortDistanceKm": 3.5,
-     "fetched": "2026-10-21T13:50:13Z",
+     "fetched": "2026-10-22T04:51:05Z",
      "numObservers": 1,
      "numSpecies": 7,
      "obs": [
@@ -17257,6 +17277,166 @@
      ],
      "protocolId": "P22",
      "subnational1Code": "CO-NAR"
+    },
+    "S404372651": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 0.95,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.463,
+     "fetched": "2026-10-22T04:51:05Z",
+     "numObservers": 1,
+     "numSpecies": 17,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "buwtea",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "plupig2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rtlhum",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "whimbr3",
+       "comments": null,
+       "count": "12"
+      },
+      {
+       "breeding": null,
+       "code": "lesyel",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "willet1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "baisan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bfoboo",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "neocor",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "snoegr",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "greegr",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blkvul",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "verfly",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "houwre4",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "grtgra",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bugtan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "paltan1",
+       "comments": null,
+       "count": "1"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404372659": {
+     "allObsReported": true,
+     "comments": "Дождь весь маршрут",
+     "durationHrs": 2.933,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.86,
+     "fetched": "2026-10-22T04:51:05Z",
+     "numObservers": 1,
+     "numSpecies": 5,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "broher",
+       "comments": "F",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "buttro1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "matpar4",
+       "comments": null,
+       "count": "12"
+      },
+      {
+       "breeding": null,
+       "code": "zelant1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "dubtan1",
+       "comments": null,
+       "count": "3"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
     }
    }
   }
@@ -17286,6 +17466,11 @@
    "name": "Перуанская сойка [группа yncas]",
    "order": 21240.0,
    "sci": "Cyanocorax yncas [yncas Group]"
+  },
+  "matpar4": {
+   "name": "Коричневохвотсая которра (pacifica)",
+   "order": 13056.0,
+   "sci": "Pyrrhura melanura pacifica"
   },
   "rocpig1": {
    "name": "Сизый голубь (Одомашненного типа)",

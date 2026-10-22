@@ -1334,6 +1334,24 @@
    "time": "06:26"
   },
   {
+   "comments": "Дождь весь маршрут",
+   "date": "2026-10-21",
+   "day": "2026-10-21",
+   "distance_km": 0.86,
+   "duration_min": 176,
+   "id": "S404372659",
+   "lat": 1.353,
+   "location": "Reserva La Nutria",
+   "location_id": "L4859240",
+   "lon": -78.176,
+   "n_species": 5,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "source": "trip_report",
+   "time": "09:05"
+  },
+  {
    "comments": null,
    "date": "2026-10-21",
    "day": "2026-10-21",
@@ -1350,41 +1368,59 @@
    "site": null,
    "source": "trip_report",
    "time": "13:27"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-21",
+   "day": "2026-10-21",
+   "distance_km": 0.463,
+   "duration_min": 57,
+   "id": "S404372651",
+   "lat": 1.83,
+   "location": "Playa del Morro",
+   "location_id": "L3940738",
+   "lon": -78.732,
+   "n_species": 17,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "playa-del-morro",
+   "source": "trip_report",
+   "time": "17:33"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-21T23:22:16Z",
+ "fetched": "2026-10-22T04:51:05Z",
  "group": {
-  "fetched": "2026-10-21T23:22:16Z",
+  "fetched": "2026-10-22T04:51:05Z",
   "people": [
    {
-    "checklists": 68,
+    "checklists": 69,
     "name": "Volkov Sergey",
     "other_taxa": 1,
     "role": "owner",
-    "species": 475
+    "species": 484
    },
    {
-    "checklists": 70,
+    "checklists": 72,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 1,
     "role": "editor",
-    "species": 461
+    "species": 471
    },
    {
-    "checklists": 59,
+    "checklists": 62,
     "name": "Oleg Chernyshov",
     "other_taxa": 1,
     "role": "editor",
-    "species": 454
+    "species": 467
    },
    {
-    "checklists": 76,
+    "checklists": 79,
     "name": "Igor Bobyr",
-    "other_taxa": 5,
+    "other_taxa": 6,
     "role": "editor",
-    "species": 453
+    "species": 465
    },
    {
     "checklists": 20,
@@ -1413,9 +1449,9 @@
    579125
   ],
   "total": {
-   "checklists": 102,
-   "other_taxa": 5,
-   "species": 533
+   "checklists": 104,
+   "other_taxa": 6,
+   "species": 545
   }
  },
  "observer": "Аня",
@@ -1441,11 +1477,13 @@
     "S404191314",
     "S404191373",
     "S404249271",
-    "S404312980"
+    "S404372659",
+    "S404312980",
+    "S404372651"
    ],
-   "checklists": 69,
+   "checklists": 71,
    "duplicates": [],
-   "fetched": "2026-10-21T23:22:16Z",
+   "fetched": "2026-10-22T04:51:05Z",
    "ids": [
     579125
    ]
@@ -1662,11 +1700,12 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-21"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S398851342",
@@ -1699,11 +1738,20 @@
      "details": null,
      "site": "el-encanto",
      "time": "12:26"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
     "chicaque",
-    "el-encanto"
+    "el-encanto",
+    "playa-del-morro"
    ]
   },
   "amazona-amazonica": {
@@ -2189,11 +2237,12 @@
     "2026-10-03",
     "2026-10-07",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-21"
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S398851320",
@@ -2226,13 +2275,22 @@
      "details": null,
      "site": "puerto-asis",
      "time": "05:42"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
     "chicaque",
     "el-escondite",
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "playa-del-morro"
    ]
   },
   "ardea-ibis": {
@@ -3323,6 +3381,27 @@
    "sites": [
     "la-drymophila",
     "bangsias-lodge"
+   ]
+  },
+  "calidris-bairdii": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "calidris-melanotos": {
@@ -4422,11 +4501,12 @@
   "chlorospingus-semifuscus": {
    "days": [
     "2026-10-17",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S403463641",
@@ -4443,6 +4523,14 @@
      "details": null,
      "site": "rio-nambi",
      "time": "08:49"
+    },
+    {
+     "cl": "S404372659",
+     "count": 3,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "09:05"
     }
    ],
    "sites": [
@@ -5613,11 +5701,12 @@
     "2026-10-13",
     "2026-10-14",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-21"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 17,
+   "n_checklists": 18,
    "obs": [
     {
      "cl": "S398156622",
@@ -5754,6 +5843,14 @@
      "details": null,
      "site": "la-planada",
      "time": "06:19"
+    },
+    {
+     "cl": "S404372651",
+     "count": 2,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
@@ -5763,7 +5860,8 @@
     "el-escondite",
     "playa-rica",
     "puerto-asis",
-    "la-planada"
+    "la-planada",
+    "playa-del-morro"
    ]
   },
   "cranioleuca-curtata": {
@@ -6818,11 +6916,12 @@
   "egretta-thula": {
    "days": [
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-21"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -6839,11 +6938,20 @@
      "details": null,
      "site": "puerto-asis",
      "time": "05:42"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis"
+    "puerto-asis",
+    "playa-del-morro"
    ]
   },
   "elaenia-flavogaster": {
@@ -7961,6 +8069,25 @@
     "la-drymophila"
    ]
   },
+  "glaucis-aeneus": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372659",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": "F",
+     "site": null,
+     "time": "09:05"
+    }
+   ],
+   "sites": []
+  },
   "glyphorynchus-spirurus": {
    "days": [
     "2026-10-08",
@@ -8091,6 +8218,25 @@
     "puerto-asis",
     "el-escondite"
    ]
+  },
+  "hafferia-zeledoni": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372659",
+     "count": 2,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "09:05"
+    }
+   ],
+   "sites": []
   },
   "haplophaedia-aureliae": {
    "days": [
@@ -10853,11 +10999,12 @@
   },
   "nannopterum-brasilianum": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-21"
    ],
    "first": "2026-10-12",
    "lifer": false,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -10866,10 +11013,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S404372651",
+     "count": 5,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "playa-del-morro"
    ]
   },
   "nasica-longirostris": {
@@ -10912,6 +11068,27 @@
    ],
    "sites": [
     "trampolin-aves"
+   ]
+  },
+  "numenius-hudsonicus": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 12,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "nyctibius-grandis": {
@@ -11535,11 +11712,12 @@
     "2026-10-08",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-21"
    ],
    "first": "2026-10-08",
    "lifer": true,
-   "n_checklists": 5,
+   "n_checklists": 6,
    "obs": [
     {
      "cl": "S400323943",
@@ -11580,11 +11758,20 @@
      "details": null,
      "site": "la-planada",
      "time": "09:29"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
     "isla-escondida",
-    "la-planada"
+    "la-planada",
+    "playa-del-morro"
    ]
   },
   "patagioenas-speciosa": {
@@ -13184,11 +13371,12 @@
   },
   "pyrocephalus-rubinus": {
    "days": [
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-21"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399582442",
@@ -13197,10 +13385,19 @@
      "details": null,
      "site": "el-encanto",
      "time": "15:35"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
-    "el-encanto"
+    "el-encanto",
+    "playa-del-morro"
    ]
   },
   "pyrrhomyias-cinnamomeus": {
@@ -13242,11 +13439,12 @@
   },
   "pyrrhura-melanura": {
    "days": [
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-21"
    ],
    "first": "2026-10-18",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S403593819",
@@ -13255,6 +13453,14 @@
      "details": "Choco type",
      "site": "rio-nambi",
      "time": "15:52"
+    },
+    {
+     "cl": "S404372659",
+     "count": 12,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "09:05"
     }
    ],
    "sites": [
@@ -13280,6 +13486,27 @@
    ],
    "sites": [
     "el-escondite"
+   ]
+  },
+  "quiscalus-mexicanus": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "rallus-semiplumbeus": {
@@ -14534,6 +14761,27 @@
     "isla-escondida"
    ]
   },
+  "spatula-discors": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
   "sphenopsis-frontalis": {
    "days": [
     "2026-10-03",
@@ -15292,6 +15540,27 @@
    ],
    "sites": [
     "sumapaz"
+   ]
+  },
+  "sula-nebouxii": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 10,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "synallaxis-albescens": {
@@ -16627,11 +16896,12 @@
     "2026-10-14",
     "2026-10-16",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-21"
    ],
    "first": "2026-10-04",
    "lifer": true,
-   "n_checklists": 15,
+   "n_checklists": 16,
    "obs": [
     {
      "cl": "S399294003",
@@ -16752,6 +17022,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "16:39"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
@@ -16762,7 +17040,8 @@
     "puerto-asis",
     "sibundoy",
     "aves-y-florez",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "playa-del-morro"
    ]
   },
   "thraupis-palmarum": {
@@ -16774,11 +17053,12 @@
     "2026-10-13",
     "2026-10-14",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-21"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 9,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S398851342",
@@ -16851,6 +17131,14 @@
      "details": null,
      "site": "aves-y-florez",
      "time": "14:11"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
@@ -16859,7 +17147,8 @@
     "la-drymophila",
     "puerto-asis",
     "el-escondite",
-    "aves-y-florez"
+    "aves-y-florez",
+    "playa-del-morro"
    ]
   },
   "thripadectes-holostictus": {
@@ -17255,6 +17544,48 @@
     "playa-rica"
    ]
   },
+  "tringa-flavipes": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
+  "tringa-semipalmata": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372651",
+     "count": 3,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
   "tringa-solitaria": {
    "days": [
     "2026-10-13"
@@ -17287,11 +17618,12 @@
     "2026-10-14",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-21"
    ],
    "first": "2026-10-02",
    "lifer": false,
-   "n_checklists": 12,
+   "n_checklists": 13,
    "obs": [
     {
      "cl": "S398369085",
@@ -17388,6 +17720,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "15:35"
+    },
+    {
+     "cl": "S404372651",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "17:33"
     }
    ],
    "sites": [
@@ -17398,7 +17738,8 @@
     "puerto-asis",
     "el-escondite",
     "la-planada",
-    "bangsias-lodge"
+    "bangsias-lodge",
+    "playa-del-morro"
    ]
   },
   "troglodytes-solstitialis": {
@@ -17460,6 +17801,25 @@
    "sites": [
     "isla-escondida"
    ]
+  },
+  "trogon-comptus": {
+   "days": [
+    "2026-10-21"
+   ],
+   "first": "2026-10-21",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404372659",
+     "count": 1,
+     "date": "2026-10-21",
+     "details": null,
+     "site": null,
+     "time": "09:05"
+    }
+   ],
+   "sites": []
   },
   "trogon-curucui": {
    "days": [
@@ -19148,11 +19508,11 @@
     "species": 36
    },
    "2026-10-21": {
-    "checklists": 2,
-    "lifers": 7,
-    "new": 7,
-    "observations": 21,
-    "species": 20
+    "checklists": 4,
+    "lifers": 17,
+    "new": 17,
+    "observations": 43,
+    "species": 42
    }
   },
   "by_site": {
@@ -19234,6 +19594,13 @@
     "observations": 11,
     "species": 11
    },
+   "playa-del-morro": {
+    "checklists": 1,
+    "lifers": 7,
+    "new": 7,
+    "observations": 17,
+    "species": 17
+   },
    "playa-rica": {
     "checklists": 1,
     "lifers": 33,
@@ -19277,18 +19644,18 @@
     "species": 51
    }
   },
-  "checklists": 75,
+  "checklists": 77,
   "days": 21,
-  "lifers": 477,
-  "observations": 1282,
+  "lifers": 487,
+  "observations": 1304,
   "off_site": {
-   "checklists": 17,
-   "lifers": 41,
-   "new": 45,
-   "observations": 157,
-   "species": 112
+   "checklists": 18,
+   "lifers": 44,
+   "new": 48,
+   "observations": 162,
+   "species": 117
   },
-  "species": 492
+  "species": 502
  },
  "trip_start": "2026-10-01",
  "unmatched": []
