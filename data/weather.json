@@ -1386,7 +1386,7 @@
    ]
   },
   "2026-10-22": {
-   "fetched_at": "2026-10-20T15:01:23Z",
+   "fetched_at": "2026-10-22T15:13:01Z",
    "sites": [
     {
      "elevation": 10,
@@ -1395,26 +1395,26 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 52,
-       "precip": 1.0,
-       "precip_prob": 46,
-       "t_max": 33,
+       "cloud_cover": 64,
+       "precip": 0.7,
+       "precip_prob": 66,
+       "t_max": 32,
        "t_min": 30,
-       "weather_code": 53
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 96,
-       "precip": 1.5,
-       "precip_prob": 55,
-       "t_max": 30,
-       "t_min": 26,
-       "weather_code": 53
+       "cloud_cover": 99,
+       "precip": 0.1,
+       "precip_prob": 39,
+       "t_max": 29,
+       "t_min": 27,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 92,
+       "cloud_cover": 62,
        "precip": 0.0,
-       "precip_prob": 30,
-       "t_max": 28,
+       "precip_prob": 62,
+       "t_max": 29,
        "t_min": 24,
        "weather_code": 3
       }
@@ -1427,25 +1427,25 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 49,
-       "precip": 0.0,
-       "precip_prob": 46,
-       "t_max": 31,
+       "cloud_cover": 78,
+       "precip": 1.1,
+       "precip_prob": 66,
+       "t_max": 30,
        "t_min": 29,
-       "weather_code": 3
+       "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 89,
+       "cloud_cover": 93,
        "precip": 0.0,
-       "precip_prob": 55,
+       "precip_prob": 39,
        "t_max": 29,
        "t_min": 28,
        "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 98,
-       "precip": 0.1,
-       "precip_prob": 30,
+       "cloud_cover": 88,
+       "precip": 0.6,
+       "precip_prob": 62,
        "t_max": 28,
        "t_min": 25,
        "weather_code": 51
@@ -1455,7 +1455,7 @@
    ]
   },
   "2026-10-23": {
-   "fetched_at": "2026-10-20T15:01:23Z",
+   "fetched_at": "2026-10-22T15:13:01Z",
    "sites": [
     {
      "elevation": 5,
@@ -1464,26 +1464,26 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 91,
-       "precip": 1.7,
-       "precip_prob": 98,
-       "t_max": 28,
-       "t_min": 27,
-       "weather_code": 53
+       "cloud_cover": 95,
+       "precip": 6.5,
+       "precip_prob": 90,
+       "t_max": 30,
+       "t_min": 26,
+       "weather_code": 95
       },
       "evening": {
        "cloud_cover": 100,
-       "precip": 2.4,
-       "precip_prob": 95,
+       "precip": 0.3,
+       "precip_prob": 67,
        "t_max": 28,
-       "t_min": 26,
-       "weather_code": 80
+       "t_min": 27,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 87,
-       "precip": 2.4,
-       "precip_prob": 86,
-       "t_max": 26,
+       "cloud_cover": 98,
+       "precip": 3.3,
+       "precip_prob": 87,
+       "t_max": 27,
        "t_min": 24,
        "weather_code": 80
       }
@@ -1496,26 +1496,26 @@
      "overnight": false,
      "periods": {
       "day": {
-       "cloud_cover": 91,
-       "precip": 1.7,
-       "precip_prob": 98,
-       "t_max": 28,
-       "t_min": 27,
-       "weather_code": 53
+       "cloud_cover": 95,
+       "precip": 6.5,
+       "precip_prob": 90,
+       "t_max": 30,
+       "t_min": 26,
+       "weather_code": 95
       },
       "evening": {
        "cloud_cover": 100,
-       "precip": 2.4,
-       "precip_prob": 95,
+       "precip": 0.3,
+       "precip_prob": 67,
        "t_max": 28,
-       "t_min": 26,
-       "weather_code": 80
+       "t_min": 27,
+       "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 87,
-       "precip": 2.4,
-       "precip_prob": 86,
-       "t_max": 26,
+       "cloud_cover": 98,
+       "precip": 3.3,
+       "precip_prob": 87,
+       "t_max": 27,
        "t_min": 24,
        "weather_code": 80
       }
@@ -1528,35 +1528,35 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 59,
-       "precip": 0.6,
-       "precip_prob": 59,
-       "t_max": 19,
-       "t_min": 18,
-       "weather_code": 51
+       "cloud_cover": 69,
+       "precip": 0.8,
+       "precip_prob": 37,
+       "t_max": 20,
+       "t_min": 17,
+       "weather_code": 53
       },
       "evening": {
-       "cloud_cover": 78,
+       "cloud_cover": 89,
        "precip": 0.0,
-       "precip_prob": 16,
+       "precip_prob": 22,
        "t_max": 18,
        "t_min": 15,
        "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 52,
+       "cloud_cover": 50,
        "precip": 0.0,
-       "precip_prob": 17,
-       "t_max": 17,
-       "t_min": 9,
-       "weather_code": 3
+       "precip_prob": 0,
+       "t_max": 16,
+       "t_min": 10,
+       "weather_code": 2
       }
      }
     }
    ]
   },
   "2026-10-24": {
-   "fetched_at": "2026-10-20T15:01:23Z",
+   "fetched_at": "2026-10-22T15:13:01Z",
    "sites": [
     {
      "elevation": 2600,
@@ -1565,60 +1565,23 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 28,
-       "precip": 0.2,
-       "precip_prob": 17,
-       "t_max": 21,
-       "t_min": 19,
-       "weather_code": 51
-      },
-      "evening": {
-       "cloud_cover": 51,
-       "precip": 0.5,
-       "precip_prob": 26,
-       "t_max": 19,
-       "t_min": 16,
-       "weather_code": 51
-      },
-      "morning": {
-       "cloud_cover": 78,
-       "precip": 0.0,
-       "precip_prob": 0,
-       "t_max": 17,
-       "t_min": 11,
-       "weather_code": 3
-      }
-     }
-    }
-   ]
-  },
-  "2026-10-25": {
-   "fetched_at": "2026-10-20T15:01:23Z",
-   "sites": [
-    {
-     "elevation": 2600,
-     "id": "bogota",
-     "name_ru": "Богота",
-     "overnight": true,
-     "periods": {
-      "day": {
-       "cloud_cover": 70,
-       "precip": 0.2,
-       "precip_prob": 34,
+       "cloud_cover": 75,
+       "precip": 0.8,
+       "precip_prob": 64,
        "t_max": 20,
-       "t_min": 19,
+       "t_min": 18,
        "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 100,
-       "precip": 0.1,
-       "precip_prob": 39,
+       "cloud_cover": 98,
+       "precip": 0.9,
+       "precip_prob": 68,
        "t_max": 18,
-       "t_min": 15,
-       "weather_code": 51
+       "t_min": 14,
+       "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 77,
+       "cloud_cover": 82,
        "precip": 0.0,
        "precip_prob": 0,
        "t_max": 17,
@@ -1628,8 +1591,45 @@
      }
     }
    ]
+  },
+  "2026-10-25": {
+   "fetched_at": "2026-10-22T15:13:01Z",
+   "sites": [
+    {
+     "elevation": 2600,
+     "id": "bogota",
+     "name_ru": "Богота",
+     "overnight": true,
+     "periods": {
+      "day": {
+       "cloud_cover": 70,
+       "precip": 0.7,
+       "precip_prob": 54,
+       "t_max": 20,
+       "t_min": 18,
+       "weather_code": 51
+      },
+      "evening": {
+       "cloud_cover": 98,
+       "precip": 0.0,
+       "precip_prob": 59,
+       "t_max": 17,
+       "t_min": 15,
+       "weather_code": 3
+      },
+      "morning": {
+       "cloud_cover": 96,
+       "precip": 0.0,
+       "precip_prob": 4,
+       "t_max": 17,
+       "t_min": 10,
+       "weather_code": 3
+      }
+     }
+    }
+   ]
   }
  },
- "fetched_at": "2026-10-20T15:01:23Z",
+ "fetched_at": "2026-10-22T15:13:01Z",
  "source": "open-meteo"
 }
