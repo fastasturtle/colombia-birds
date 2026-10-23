@@ -1416,7 +1416,7 @@
    "location": "Finca Maragrícola",
    "location_id": "L3940729",
    "lon": -78.75,
-   "n_species": 84,
+   "n_species": 79,
    "observers": 1,
    "protocol": "traveling",
    "site": "finca-maragricola",
@@ -1443,9 +1443,9 @@
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-23T00:41:18Z",
+ "fetched": "2026-10-23T07:34:42Z",
  "group": {
-  "fetched": "2026-10-23T00:41:18Z",
+  "fetched": "2026-10-23T07:34:42Z",
   "people": [
    {
     "checklists": 72,
@@ -1460,28 +1460,28 @@
     "name": "Anna Kozhevnikova",
     "other_taxa": 2,
     "role": "editor",
-    "species": 525
+    "species": 524
    },
    {
     "checklists": 82,
     "name": "Igor Bobyr",
     "other_taxa": 6,
     "role": "editor",
-    "species": 515
+    "species": 516
    },
    {
-    "checklists": 62,
+    "checklists": 63,
     "name": "Oleg Chernyshov",
     "other_taxa": 1,
     "role": "editor",
-    "species": 468
+    "species": 480
    },
    {
-    "checklists": 38,
+    "checklists": 41,
     "name": "Jenia Triger",
     "other_taxa": 0,
     "role": "editor",
-    "species": 365
+    "species": 418
    },
    {
     "checklists": 20,
@@ -1501,7 +1501,7 @@
   "total": {
    "checklists": 107,
    "other_taxa": 6,
-   "species": 596
+   "species": 597
   }
  },
  "observer": "Аня",
@@ -1536,7 +1536,7 @@
    ],
    "checklists": 74,
    "duplicates": [],
-   "fetched": "2026-10-23T00:41:18Z",
+   "fetched": "2026-10-23T07:34:42Z",
    "ids": [
     579125
    ]
@@ -6739,12 +6739,11 @@
   "dacnis-cayana": {
    "days": [
     "2026-10-05",
-    "2026-10-14",
-    "2026-10-22"
+    "2026-10-14"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S399582442",
@@ -6761,20 +6760,11 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
-    },
-    {
-     "cl": "S404550673",
-     "count": 1,
-     "date": "2026-10-22",
-     "details": null,
-     "site": "finca-maragricola",
-     "time": "06:24"
     }
    ],
    "sites": [
     "el-encanto",
-    "el-escondite",
-    "finca-maragricola"
+    "el-escondite"
    ]
   },
   "dacnis-flaviventer": {
@@ -10083,27 +10073,6 @@
     "la-drymophila"
    ]
   },
-  "leptotila-pallida": {
-   "days": [
-    "2026-10-22"
-   ],
-   "first": "2026-10-22",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S404550673",
-     "count": 1,
-     "date": "2026-10-22",
-     "details": "H",
-     "site": "finca-maragricola",
-     "time": "06:24"
-    }
-   ],
-   "sites": [
-    "finca-maragricola"
-   ]
-  },
   "leptotila-verreauxi": {
    "days": [
     "2026-10-04",
@@ -10535,12 +10504,11 @@
   "megarynchus-pitangua": {
    "days": [
     "2026-10-12",
-    "2026-10-13",
-    "2026-10-22"
+    "2026-10-13"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S401862206",
@@ -10565,20 +10533,11 @@
      "details": null,
      "site": "puerto-asis",
      "time": "07:03"
-    },
-    {
-     "cl": "S404550673",
-     "count": 1,
-     "date": "2026-10-22",
-     "details": null,
-     "site": "finca-maragricola",
-     "time": "06:24"
     }
    ],
    "sites": [
     "playa-rica",
-    "puerto-asis",
-    "finca-maragricola"
+    "puerto-asis"
    ]
   },
   "megascops-choliba": {
@@ -13139,6 +13098,27 @@
     "isla-escondida"
    ]
   },
+  "phalaropus-lobatus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404550673",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": "1 ос, есть фото",
+     "site": "finca-maragricola",
+     "time": "06:24"
+    }
+   ],
+   "sites": [
+    "finca-maragricola"
+   ]
+  },
   "phalaropus-tricolor": {
    "days": [
     "2026-10-22"
@@ -14057,27 +14037,6 @@
    ],
    "sites": [
     "la-drymophila"
-   ]
-  },
-  "poliocrania-exsul": {
-   "days": [
-    "2026-10-22"
-   ],
-   "first": "2026-10-22",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S404550673",
-     "count": 1,
-     "date": "2026-10-22",
-     "details": "H",
-     "site": "finca-maragricola",
-     "time": "06:24"
-    }
-   ],
-   "sites": [
-    "finca-maragricola"
    ]
   },
   "polioptila-bilineata": {
@@ -16496,12 +16455,11 @@
   },
   "sporophila-corvina": {
    "days": [
-    "2026-10-17",
-    "2026-10-22"
+    "2026-10-17"
    ],
    "first": "2026-10-17",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 1,
    "obs": [
     {
      "cl": "S403455006",
@@ -16510,19 +16468,10 @@
      "details": null,
      "site": "la-planada",
      "time": "06:14"
-    },
-    {
-     "cl": "S404550673",
-     "count": 1,
-     "date": "2026-10-22",
-     "details": null,
-     "site": "finca-maragricola",
-     "time": "06:24"
     }
    ],
    "sites": [
-    "la-planada",
-    "finca-maragricola"
+    "la-planada"
    ]
   },
   "sporophila-crassirostris": {
@@ -18190,27 +18139,6 @@
    "sites": [
     "trampolin-aves",
     "la-planada"
-   ]
-  },
-  "taraba-major": {
-   "days": [
-    "2026-10-22"
-   ],
-   "first": "2026-10-22",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S404550673",
-     "count": 2,
-     "date": "2026-10-22",
-     "details": "H многократно",
-     "site": "finca-maragricola",
-     "time": "06:24"
-    }
-   ],
-   "sites": [
-    "finca-maragricola"
    ]
   },
   "tersina-viridis": {
@@ -21294,10 +21222,10 @@
    },
    "2026-10-22": {
     "checklists": 3,
-    "lifers": 49,
-    "new": 54,
-    "observations": 115,
-    "species": 105
+    "lifers": 47,
+    "new": 52,
+    "observations": 110,
+    "species": 100
    }
   },
   "by_site": {
@@ -21346,10 +21274,10 @@
    },
    "finca-maragricola": {
     "checklists": 1,
-    "lifers": 36,
-    "new": 38,
-    "observations": 84,
-    "species": 84
+    "lifers": 34,
+    "new": 36,
+    "observations": 79,
+    "species": 79
    },
    "isla-escondida": {
     "checklists": 14,
@@ -21438,8 +21366,8 @@
   },
   "checklists": 80,
   "days": 22,
-  "lifers": 536,
-  "observations": 1419,
+  "lifers": 534,
+  "observations": 1414,
   "off_site": {
    "checklists": 18,
    "lifers": 44,
@@ -21447,7 +21375,7 @@
    "observations": 162,
    "species": 117
   },
-  "species": 556
+  "species": 554
  },
  "trip_start": "2026-10-01",
  "unmatched": [

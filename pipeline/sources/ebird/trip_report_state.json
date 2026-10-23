@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-23T00:41:18Z",
+ "fetched_at": "2026-10-23T07:34:42Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -499,7 +499,7 @@
      "lng": -77.0957149,
      "loc_id": "L3662791",
      "loc_name": "Páramo Bordoncillo",
-     "numSpecies": 11,
+     "numSpecies": 12,
      "region": "CO-PUT",
      "time": "09:49"
     },
@@ -739,7 +739,7 @@
      "lng": -78.75,
      "loc_id": "L3940729",
      "loc_name": "Finca Maragrícola",
-     "numSpecies": 84,
+     "numSpecies": 79,
      "region": "CO-NAR",
      "time": "06:24"
     },
@@ -757,7 +757,7 @@
    "group": {
     "checklists": 107,
     "other_taxa": 6,
-    "species": 596
+    "species": 597
    },
    "people": [
     {
@@ -768,7 +768,7 @@
      "other_taxa": 2,
      "person_id": 820854,
      "role": "editor",
-     "species": 525,
+     "species": 524,
      "user_id": "USER3559161"
     },
     {
@@ -779,29 +779,29 @@
      "other_taxa": 6,
      "person_id": 820853,
      "role": "editor",
-     "species": 515,
+     "species": 516,
      "user_id": "USER2882675"
     },
     {
      "begin": null,
-     "checklists": 38,
+     "checklists": 41,
      "end": null,
      "name": "Jenia Triger",
      "other_taxa": 0,
      "person_id": 820852,
      "role": "editor",
-     "species": 365,
+     "species": 418,
      "user_id": "USER2722607"
     },
     {
      "begin": null,
-     "checklists": 62,
+     "checklists": 63,
      "end": null,
      "name": "Oleg Chernyshov",
      "other_taxa": 1,
      "person_id": 820851,
      "role": "editor",
-     "species": 468,
+     "species": 480,
      "user_id": "USER1327996"
     },
     {
@@ -15089,9 +15089,9 @@
      "durationHrs": 2.2,
      "effortAreaHa": null,
      "effortDistanceKm": 0.844,
-     "fetched": "2026-10-19T23:44:06Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
-     "numSpecies": 11,
+     "numSpecies": 12,
      "obs": [
       {
        "breeding": null,
@@ -15122,6 +15122,12 @@
        "code": "sieela3",
        "comments": null,
        "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "crocht1",
+       "comments": null,
+       "count": "1"
       },
       {
        "breeding": null,
@@ -16810,7 +16816,7 @@
      "durationHrs": 1.567,
      "effortAreaHa": null,
      "effortDistanceKm": 0.684,
-     "fetched": "2026-10-22T17:12:53Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
      "numSpecies": 18,
      "obs": [
@@ -16952,7 +16958,7 @@
      "durationHrs": 3.983,
      "effortAreaHa": null,
      "effortDistanceKm": null,
-     "fetched": "2026-10-22T17:12:53Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
      "numSpecies": 23,
      "obs": [
@@ -17104,7 +17110,7 @@
      "durationHrs": 2.0,
      "effortAreaHa": null,
      "effortDistanceKm": 3.5,
-     "fetched": "2026-10-22T17:12:53Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
      "numSpecies": 7,
      "obs": [
@@ -17314,7 +17320,7 @@
      "durationHrs": 0.95,
      "effortAreaHa": null,
      "effortDistanceKm": 0.463,
-     "fetched": "2026-10-22T17:12:53Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
      "numSpecies": 17,
      "obs": [
@@ -17430,7 +17436,7 @@
      "durationHrs": 2.933,
      "effortAreaHa": null,
      "effortDistanceKm": 0.86,
-     "fetched": "2026-10-22T17:12:53Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
      "numSpecies": 5,
      "obs": [
@@ -17500,9 +17506,9 @@
      "durationHrs": 5.867,
      "effortAreaHa": null,
      "effortDistanceKm": 2.759,
-     "fetched": "2026-10-22T21:38:07Z",
+     "fetched": "2026-10-23T07:34:42Z",
      "numObservers": 1,
-     "numSpecies": 84,
+     "numSpecies": 79,
      "obs": [
       {
        "breeding": null,
@@ -17544,12 +17550,6 @@
        "breeding": null,
        "code": "pavpig2",
        "comments": null,
-       "count": "1"
-      },
-      {
-       "breeding": null,
-       "code": "paldov1",
-       "comments": "H",
        "count": "1"
       },
       {
@@ -17611,6 +17611,12 @@
        "code": "wilpha",
        "comments": null,
        "count": "15"
+      },
+      {
+       "breeding": null,
+       "code": "renpha",
+       "comments": "1 ос, есть фото",
+       "count": "1"
       },
       {
        "breeding": null,
@@ -17788,12 +17794,6 @@
       },
       {
        "breeding": null,
-       "code": "greant1",
-       "comments": "H многократно",
-       "count": "2"
-      },
-      {
-       "breeding": null,
        "code": "wesant1",
        "comments": null,
        "count": "1"
@@ -17803,12 +17803,6 @@
        "code": "pacant",
        "comments": null,
        "count": "2"
-      },
-      {
-       "breeding": null,
-       "code": "chbant1",
-       "comments": "H",
-       "count": "1"
       },
       {
        "breeding": null,
@@ -17879,12 +17873,6 @@
       {
        "breeding": null,
        "code": "grekis",
-       "comments": null,
-       "count": "1"
-      },
-      {
-       "breeding": null,
-       "code": "bobfly1",
        "comments": null,
        "count": "1"
       },
@@ -17980,12 +17968,6 @@
       },
       {
        "breeding": null,
-       "code": "bludac1",
-       "comments": null,
-       "count": "1"
-      },
-      {
-       "breeding": null,
        "code": "relhon1",
        "comments": null,
        "count": "1"
@@ -17995,12 +17977,6 @@
        "code": "saffin",
        "comments": null,
        "count": "2"
-      },
-      {
-       "breeding": null,
-       "code": "varsee3",
-       "comments": null,
-       "count": "1"
       },
       {
        "breeding": null,
