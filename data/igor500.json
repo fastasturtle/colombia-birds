@@ -1,11 +1,11 @@
 {
  "as_of": "2026-10-22 15:20",
  "checklists": 82,
- "fetched": "2026-10-23T07:34:58Z",
+ "fetched": "2026-10-23T18:23:24Z",
  "goal": 500,
- "group_species": 597,
+ "group_species": 615,
  "likely_total": 75,
- "missed_in_group": 81,
+ "missed_in_group": 99,
  "person": "Igor Bobyr",
  "person_ru": "Игорь",
  "reachable_missed": [
@@ -23,6 +23,42 @@
    }
   },
   {
+   "en": "Chestnut-throated Seedeater",
+   "id": "sporophila-telasco",
+   "ru": "Каштановогорлый просяночник",
+   "sci": "Sporophila telasco",
+   "sites": {
+    "finca-maragricola": 71,
+    "km-42": 40,
+    "playa-del-morro": 28,
+    "tumaco": 39
+   }
+  },
+  {
+   "en": "Pacific Hornero",
+   "id": "furnarius-cinnamomeus",
+   "ru": "Светлобрюхий печник",
+   "sci": "Furnarius cinnamomeus",
+   "sites": {
+    "finca-maragricola": 55,
+    "km-42": 24,
+    "playa-del-morro": 16,
+    "tumaco": 16
+   }
+  },
+  {
+   "en": "Jet Antbird",
+   "id": "cercomacra-nigricans",
+   "ru": "Траурная муравьянка",
+   "sci": "Cercomacra nigricans",
+   "sites": {
+    "finca-maragricola": 27,
+    "km-42": 47,
+    "playa-del-morro": 6,
+    "tumaco": 16
+   }
+  },
+  {
    "en": "Pallid Dove",
    "id": "leptotila-pallida",
    "ru": "Бледная голубка",
@@ -35,6 +71,28 @@
    }
   },
   {
+   "en": "Yellow-tufted Dacnis",
+   "id": "dacnis-egregia",
+   "ru": "Желтоплечий дакнис",
+   "sci": "Dacnis egregia",
+   "sites": {
+    "finca-maragricola": 18,
+    "km-42": 43
+   }
+  },
+  {
+   "en": "Ecuadorian Ground Dove",
+   "id": "columbina-buckleyi",
+   "ru": "Эквадорская земляная горлица",
+   "sci": "Columbina buckleyi",
+   "sites": {
+    "finca-maragricola": 19,
+    "km-42": 29,
+    "playa-del-morro": 38,
+    "tumaco": 40
+   }
+  },
+  {
    "en": "Great Antshrike",
    "id": "taraba-major",
    "ru": "Большая тараба",
@@ -42,6 +100,48 @@
    "sites": {
     "finca-maragricola": 36,
     "km-42": 40
+   }
+  },
+  {
+   "en": "Blue-chested Hummingbird",
+   "id": "polyerata-amabilis",
+   "ru": "Голубогрудая амазилия",
+   "sci": "Polyerata amabilis",
+   "sites": {
+    "finca-maragricola": 37,
+    "km-42": 17
+   }
+  },
+  {
+   "en": "Guayaquil Woodpecker",
+   "id": "campephilus-gayaquilensis",
+   "ru": "Гуаякильский дятел",
+   "sci": "Campephilus gayaquilensis",
+   "sites": {
+    "finca-maragricola": 36,
+    "km-42": 28
+   }
+  },
+  {
+   "en": "Red-rumped Woodpecker",
+   "id": "veniliornis-kirkii",
+   "ru": "Огненоспинный дятел",
+   "sci": "Veniliornis kirkii",
+   "sites": {
+    "finca-maragricola": 24,
+    "km-42": 35,
+    "playa-del-morro": 11,
+    "tumaco": 20
+   }
+  },
+  {
+   "en": "White-necked Puffbird",
+   "id": "notharchus-hyperrhynchus",
+   "ru": "Белошейная пуховка",
+   "sci": "Notharchus hyperrhynchus",
+   "sites": {
+    "finca-maragricola": 26,
+    "km-42": 33
    }
   },
   {
@@ -75,6 +175,16 @@
    }
   },
   {
+   "en": "Yellow Tyrannulet",
+   "id": "capsiempis-flaveola",
+   "ru": "Жёлтый комароед",
+   "sci": "Capsiempis flaveola",
+   "sites": {
+    "finca-maragricola": 26,
+    "km-42": 12
+   }
+  },
+  {
    "en": "Orange-billed Sparrow",
    "id": "arremon-aurantiirostris",
    "ru": "Оранжевоклювый тохи",
@@ -86,6 +196,19 @@
    }
   },
   {
+   "en": "Thick-billed Seed-Finch",
+   "id": "sporophila-funerea",
+   "ru": "Толстоклювый просяночник",
+   "sci": "Sporophila funerea",
+   "sites": {
+    "finca-maragricola": 20,
+    "km-42": 22,
+    "la-nutria": 11,
+    "playa-del-morro": 6,
+    "tumaco": 6
+   }
+  },
+  {
    "en": "Dusky-capped Flycatcher",
    "id": "myiarchus-tuberculifer",
    "ru": "Темноголовый миарх",
@@ -94,6 +217,27 @@
     "finca-maragricola": 15,
     "playa-del-morro": 3,
     "tumaco": 3
+   }
+  },
+  {
+   "en": "Crimson-breasted Finch",
+   "id": "rhodospingus-cruentus",
+   "ru": "Огненная арагуира",
+   "sci": "Rhodospingus cruentus",
+   "sites": {
+    "km-42": 14
+   }
+  },
+  {
+   "en": "Plain-breasted Ground Dove",
+   "id": "columbina-minuta",
+   "ru": "Карликовая земляная горлица",
+   "sci": "Columbina minuta",
+   "sites": {
+    "finca-maragricola": 4,
+    "km-42": 13,
+    "playa-del-morro": 10,
+    "tumaco": 10
    }
   },
   {
@@ -124,6 +268,15 @@
    }
   },
   {
+   "en": "Lesser Greenlet",
+   "id": "pachysylvia-decurtata",
+   "ru": "Короткохвостый виреончик",
+   "sci": "Pachysylvia decurtata",
+   "sites": {
+    "la-nutria": 6
+   }
+  },
+  {
    "en": "Bran-colored Flycatcher",
    "id": "myiophobus-fasciatus",
    "ru": "Ржавчатая курэта",
@@ -142,6 +295,16 @@
    "sites": {
     "la-nutria": 5
    }
+  },
+  {
+   "en": "Yellow-tailed Oriole",
+   "id": "icterus-mesomelas",
+   "ru": "Желтохвостый трупиал",
+   "sci": "Icterus mesomelas",
+   "sites": {
+    "finca-maragricola": 3,
+    "km-42": 4
+   }
   }
  ],
  "sites": {
@@ -149,7 +312,7 @@
    {
     "en": "Chestnut-throated Seedeater",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-telasco",
     "n": 307,
     "n_aut": 71,
@@ -182,7 +345,7 @@
    {
     "en": "Pacific Hornero",
     "family": "furnar2",
-    "group": false,
+    "group": true,
     "id": "furnarius-cinnamomeus",
     "n": 323,
     "n_aut": 55,
@@ -248,7 +411,7 @@
    {
     "en": "Blue-chested Hummingbird",
     "family": "trochi1",
-    "group": false,
+    "group": true,
     "id": "polyerata-amabilis",
     "n": 140,
     "n_aut": 37,
@@ -270,7 +433,7 @@
    {
     "en": "Guayaquil Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "campephilus-gayaquilensis",
     "n": 114,
     "n_aut": 36,
@@ -325,7 +488,7 @@
    {
     "en": "Jet Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "cercomacra-nigricans",
     "n": 165,
     "n_aut": 27,
@@ -369,7 +532,7 @@
    {
     "en": "White-necked Puffbird",
     "family": "buccon2",
-    "group": false,
+    "group": true,
     "id": "notharchus-hyperrhynchus",
     "n": 119,
     "n_aut": 26,
@@ -380,7 +543,7 @@
    {
     "en": "Yellow Tyrannulet",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "capsiempis-flaveola",
     "n": 108,
     "n_aut": 26,
@@ -402,7 +565,7 @@
    {
     "en": "Red-rumped Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "veniliornis-kirkii",
     "n": 91,
     "n_aut": 24,
@@ -424,7 +587,7 @@
    {
     "en": "Thick-billed Seed-Finch",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-funerea",
     "n": 93,
     "n_aut": 20,
@@ -435,7 +598,7 @@
    {
     "en": "Ecuadorian Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-buckleyi",
     "n": 42,
     "n_aut": 19,
@@ -446,7 +609,7 @@
    {
     "en": "Yellow-tufted Dacnis",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "dacnis-egregia",
     "n": 112,
     "n_aut": 18,
@@ -776,7 +939,7 @@
    {
     "en": "Plain-breasted Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-minuta",
     "n": 35,
     "n_aut": 4,
@@ -941,7 +1104,7 @@
    {
     "en": "Yellow-tailed Oriole",
     "family": "icteri1",
-    "group": false,
+    "group": true,
     "id": "icterus-mesomelas",
     "n": 30,
     "n_aut": 3,
@@ -1018,7 +1181,7 @@
    {
     "en": "Lesser Greenlet",
     "family": "vireon1",
-    "group": false,
+    "group": true,
     "id": "pachysylvia-decurtata",
     "n": 26,
     "n_aut": 2,
@@ -1196,7 +1359,7 @@
    {
     "en": "Jet Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "cercomacra-nigricans",
     "n": 150,
     "n_aut": 47,
@@ -1218,7 +1381,7 @@
    {
     "en": "Yellow-tufted Dacnis",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "dacnis-egregia",
     "n": 184,
     "n_aut": 43,
@@ -1229,7 +1392,7 @@
    {
     "en": "Chestnut-throated Seedeater",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-telasco",
     "n": 123,
     "n_aut": 40,
@@ -1273,7 +1436,7 @@
    {
     "en": "Red-rumped Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "veniliornis-kirkii",
     "n": 133,
     "n_aut": 35,
@@ -1295,7 +1458,7 @@
    {
     "en": "White-necked Puffbird",
     "family": "buccon2",
-    "group": false,
+    "group": true,
     "id": "notharchus-hyperrhynchus",
     "n": 116,
     "n_aut": 33,
@@ -1328,7 +1491,7 @@
    {
     "en": "Ecuadorian Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-buckleyi",
     "n": 179,
     "n_aut": 29,
@@ -1339,7 +1502,7 @@
    {
     "en": "Guayaquil Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "campephilus-gayaquilensis",
     "n": 145,
     "n_aut": 28,
@@ -1372,7 +1535,7 @@
    {
     "en": "Pacific Hornero",
     "family": "furnar2",
-    "group": false,
+    "group": true,
     "id": "furnarius-cinnamomeus",
     "n": 95,
     "n_aut": 24,
@@ -1416,7 +1579,7 @@
    {
     "en": "Thick-billed Seed-Finch",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-funerea",
     "n": 234,
     "n_aut": 22,
@@ -1438,7 +1601,7 @@
    {
     "en": "Blue-chested Hummingbird",
     "family": "trochi1",
-    "group": false,
+    "group": true,
     "id": "polyerata-amabilis",
     "n": 53,
     "n_aut": 17,
@@ -1449,7 +1612,7 @@
    {
     "en": "Crimson-breasted Finch",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "rhodospingus-cruentus",
     "n": 97,
     "n_aut": 14,
@@ -1504,7 +1667,7 @@
    {
     "en": "Plain-breasted Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-minuta",
     "n": 34,
     "n_aut": 13,
@@ -1526,7 +1689,7 @@
    {
     "en": "Yellow Tyrannulet",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "capsiempis-flaveola",
     "n": 76,
     "n_aut": 12,
@@ -1735,7 +1898,7 @@
    {
     "en": "Yellow-tailed Oriole",
     "family": "icteri1",
-    "group": false,
+    "group": true,
     "id": "icterus-mesomelas",
     "n": 80,
     "n_aut": 4,
@@ -1812,7 +1975,7 @@
    {
     "en": "Lesser Greenlet",
     "family": "vireon1",
-    "group": false,
+    "group": true,
     "id": "pachysylvia-decurtata",
     "n": 18,
     "n_aut": 2,
@@ -2980,7 +3143,7 @@
    {
     "en": "Yellow-tailed Oriole",
     "family": "icteri1",
-    "group": false,
+    "group": true,
     "id": "icterus-mesomelas",
     "n": 8,
     "n_aut": 7,
@@ -3420,7 +3583,7 @@
    {
     "en": "Rufous-tailed Jacamar",
     "family": "galbul2",
-    "group": false,
+    "group": true,
     "id": "galbula-ruficauda",
     "n": 3,
     "n_aut": 2,
@@ -3563,7 +3726,7 @@
    {
     "en": "Mouse-colored Tyrannulet",
     "family": "tyrann2",
-    "group": false,
+    "group": true,
     "id": "nesotriccus-murinus",
     "n": 3,
     "n_aut": 1,
@@ -3618,7 +3781,7 @@
    {
     "en": "Plain-breasted Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-minuta",
     "n": 4,
     "n_aut": 1,
@@ -4038,7 +4201,7 @@
    {
     "en": "Thick-billed Seed-Finch",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-funerea",
     "n": 28,
     "n_aut": 11,
@@ -4258,7 +4421,7 @@
    {
     "en": "Lesser Greenlet",
     "family": "vireon1",
-    "group": false,
+    "group": true,
     "id": "pachysylvia-decurtata",
     "n": 7,
     "n_aut": 6,
@@ -4942,7 +5105,7 @@
    {
     "en": "Ecuadorian Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-buckleyi",
     "n": 136,
     "n_aut": 38,
@@ -4975,7 +5138,7 @@
    {
     "en": "Chestnut-throated Seedeater",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-telasco",
     "n": 210,
     "n_aut": 28,
@@ -5052,7 +5215,7 @@
    {
     "en": "Pacific Hornero",
     "family": "furnar2",
-    "group": false,
+    "group": true,
     "id": "furnarius-cinnamomeus",
     "n": 53,
     "n_aut": 16,
@@ -5085,7 +5248,7 @@
    {
     "en": "Red-rumped Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "veniliornis-kirkii",
     "n": 25,
     "n_aut": 11,
@@ -5129,7 +5292,7 @@
    {
     "en": "Plain-breasted Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-minuta",
     "n": 12,
     "n_aut": 10,
@@ -5162,7 +5325,7 @@
    {
     "en": "Jet Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "cercomacra-nigricans",
     "n": 18,
     "n_aut": 6,
@@ -5173,7 +5336,7 @@
    {
     "en": "Thick-billed Seed-Finch",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-funerea",
     "n": 37,
     "n_aut": 6,
@@ -5316,7 +5479,7 @@
    {
     "en": "Guayaquil Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "campephilus-gayaquilensis",
     "n": 7,
     "n_aut": 2,
@@ -5538,7 +5701,7 @@
    {
     "en": "Ecuadorian Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-buckleyi",
     "n": 139,
     "n_aut": 40,
@@ -5549,7 +5712,7 @@
    {
     "en": "Chestnut-throated Seedeater",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-telasco",
     "n": 234,
     "n_aut": 39,
@@ -5626,7 +5789,7 @@
    {
     "en": "Red-rumped Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "veniliornis-kirkii",
     "n": 34,
     "n_aut": 20,
@@ -5648,7 +5811,7 @@
    {
     "en": "Jet Antbird",
     "family": "thamno3",
-    "group": false,
+    "group": true,
     "id": "cercomacra-nigricans",
     "n": 36,
     "n_aut": 16,
@@ -5659,7 +5822,7 @@
    {
     "en": "Pacific Hornero",
     "family": "furnar2",
-    "group": false,
+    "group": true,
     "id": "furnarius-cinnamomeus",
     "n": 53,
     "n_aut": 16,
@@ -5736,7 +5899,7 @@
    {
     "en": "Plain-breasted Ground Dove",
     "family": "columb2",
-    "group": false,
+    "group": true,
     "id": "columbina-minuta",
     "n": 12,
     "n_aut": 10,
@@ -5791,7 +5954,7 @@
    {
     "en": "Thick-billed Seed-Finch",
     "family": "thraup2",
-    "group": false,
+    "group": true,
     "id": "sporophila-funerea",
     "n": 38,
     "n_aut": 6,
@@ -5934,7 +6097,7 @@
    {
     "en": "Guayaquil Woodpecker",
     "family": "picida1",
-    "group": false,
+    "group": true,
     "id": "campephilus-gayaquilensis",
     "n": 8,
     "n_aut": 2,
@@ -6022,7 +6185,7 @@
    {
     "en": "Blue-chested Hummingbird",
     "family": "trochi1",
-    "group": false,
+    "group": true,
     "id": "polyerata-amabilis",
     "n": 4,
     "n_aut": 1,
