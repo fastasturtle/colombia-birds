@@ -1,59 +1,14 @@
 {
- "as_of": "2026-10-21 17:33",
- "checklists": 79,
- "fetched": "2026-10-22T21:38:19Z",
+ "as_of": "2026-10-22 15:20",
+ "checklists": 82,
+ "fetched": "2026-10-23T00:41:34Z",
  "goal": 500,
- "group_species": 584,
- "likely_total": 81,
- "missed_in_group": 119,
+ "group_species": 596,
+ "likely_total": 75,
+ "missed_in_group": 81,
  "person": "Igor Bobyr",
  "person_ru": "Игорь",
  "reachable_missed": [
-  {
-   "en": "Magnificent Frigatebird",
-   "id": "fregata-magnificens",
-   "ru": "Великолепный фрегат",
-   "sci": "Fregata magnificens",
-   "sites": {
-    "finca-maragricola": 6,
-    "playa-del-morro": 181,
-    "tumaco": 192
-   }
-  },
-  {
-   "en": "Great-tailed Grackle",
-   "id": "quiscalus-mexicanus",
-   "ru": "Большехвостый гракл",
-   "sci": "Quiscalus mexicanus",
-   "sites": {
-    "finca-maragricola": 16,
-    "playa-del-morro": 165,
-    "tumaco": 178
-   }
-  },
-  {
-   "en": "Mangrove Yellow Warbler",
-   "id": "setophaga-petechia",
-   "ru": "Мангровая древесница",
-   "sci": "Setophaga petechia",
-   "sites": {
-    "finca-maragricola": 15,
-    "playa-del-morro": 88,
-    "tumaco": 100
-   }
-  },
-  {
-   "en": "Black-cheeked Woodpecker",
-   "id": "melanerpes-pucherani",
-   "ru": "Чернощёкий дятел",
-   "sci": "Melanerpes pucherani",
-   "sites": {
-    "finca-maragricola": 66,
-    "km-42": 89,
-    "playa-del-morro": 33,
-    "tumaco": 34
-   }
-  },
   {
    "en": "Bay Wren",
    "id": "cantorchilus-nigricapillus",
@@ -65,198 +20,6 @@
     "la-nutria": 82,
     "playa-del-morro": 10,
     "tumaco": 10
-   }
-  },
-  {
-   "en": "Hook-billed Kite",
-   "id": "chondrohierax-uncinatus",
-   "ru": "Длинноклювый улиткоед",
-   "sci": "Chondrohierax uncinatus",
-   "sites": {
-    "finca-maragricola": 33,
-    "km-42": 80
-   }
-  },
-  {
-   "en": "Southern Beardless-Tyrannulet",
-   "id": "camptostoma-obsoletum",
-   "ru": "Южноамериканский москитолов",
-   "sci": "Camptostoma obsoletum",
-   "sites": {
-    "finca-maragricola": 35,
-    "km-42": 23,
-    "playa-del-morro": 61,
-    "tumaco": 70
-   }
-  },
-  {
-   "en": "Orange-fronted Barbet",
-   "id": "capito-squamatus",
-   "ru": "Оранжеволобая бородатка",
-   "sci": "Capito squamatus",
-   "sites": {
-    "finca-maragricola": 18,
-    "km-42": 67
-   }
-  },
-  {
-   "en": "Pacific Parrotlet",
-   "id": "forpus-coelestis",
-   "ru": "Западный воробьиный попугайчик",
-   "sci": "Forpus coelestis",
-   "sites": {
-    "finca-maragricola": 66,
-    "km-42": 32,
-    "playa-del-morro": 4,
-    "tumaco": 4
-   }
-  },
-  {
-   "en": "Black-necked Stilt",
-   "id": "himantopus-mexicanus",
-   "ru": "Американский ходулочник",
-   "sci": "Himantopus mexicanus",
-   "sites": {
-    "finca-maragricola": 64,
-    "km-42": 10
-   }
-  },
-  {
-   "en": "White-bearded Manakin",
-   "id": "manacus-manacus",
-   "ru": "Сорочий манакин",
-   "sci": "Manacus manacus",
-   "sites": {
-    "finca-maragricola": 62,
-    "km-42": 31,
-    "la-nutria": 5
-   }
-  },
-  {
-   "en": "White-cheeked Pintail",
-   "id": "anas-bahamensis",
-   "ru": "Багамская шилохвость",
-   "sci": "Anas bahamensis",
-   "sites": {
-    "finca-maragricola": 62,
-    "km-42": 10
-   }
-  },
-  {
-   "en": "Tricolored Heron",
-   "id": "egretta-tricolor",
-   "ru": "Трёхцветная цапля",
-   "sci": "Egretta tricolor",
-   "sites": {
-    "finca-maragricola": 14,
-    "playa-del-morro": 48,
-    "tumaco": 61
-   }
-  },
-  {
-   "en": "Rufous-headed Chachalaca",
-   "id": "ortalis-erythroptera",
-   "ru": "Красноголовая чачалака",
-   "sci": "Ortalis erythroptera",
-   "sites": {
-    "finca-maragricola": 41,
-    "km-42": 59
-   }
-  },
-  {
-   "en": "Ringed Kingfisher",
-   "id": "megaceryle-torquata",
-   "ru": "Красногрудый зимородок",
-   "sci": "Megaceryle torquata",
-   "sites": {
-    "finca-maragricola": 33,
-    "playa-del-morro": 45,
-    "tumaco": 56
-   }
-  },
-  {
-   "en": "Yellow-crowned Night Heron",
-   "id": "nyctanassa-violacea",
-   "ru": "Крабовая кваква",
-   "sci": "Nyctanassa violacea",
-   "sites": {
-    "finca-maragricola": 12,
-    "playa-del-morro": 45,
-    "tumaco": 56
-   }
-  },
-  {
-   "en": "Pied-billed Grebe",
-   "id": "podilymbus-podiceps",
-   "ru": "Пестроклювая поганка",
-   "sci": "Podilymbus podiceps",
-   "sites": {
-    "finca-maragricola": 55,
-    "km-42": 10
-   }
-  },
-  {
-   "en": "Masked Water-Tyrant",
-   "id": "fluvicola-nengeta",
-   "ru": "Масковый мухолов",
-   "sci": "Fluvicola nengeta",
-   "sites": {
-    "finca-maragricola": 53,
-    "km-42": 8
-   }
-  },
-  {
-   "en": "Pacific Antwren",
-   "id": "myrmotherula-pacifica",
-   "ru": "Тихоокенаский муравьелов",
-   "sci": "Myrmotherula pacifica",
-   "sites": {
-    "finca-maragricola": 48,
-    "km-42": 40,
-    "la-nutria": 3,
-    "playa-del-morro": 44,
-    "tumaco": 53
-   }
-  },
-  {
-   "en": "Wilson's Phalarope",
-   "id": "phalaropus-tricolor",
-   "ru": "Большой плавунчик",
-   "sci": "Phalaropus tricolor",
-   "sites": {
-    "finca-maragricola": 52,
-    "playa-del-morro": 5,
-    "tumaco": 5
-   }
-  },
-  {
-   "en": "Common Gallinule",
-   "id": "gallinula-galeata",
-   "ru": "Американская камышница",
-   "sci": "Gallinula galeata",
-   "sites": {
-    "finca-maragricola": 49
-   }
-  },
-  {
-   "en": "White-browed Gnatcatcher",
-   "id": "polioptila-bilineata",
-   "ru": "Белобровая комароловка",
-   "sci": "Polioptila bilineata",
-   "sites": {
-    "finca-maragricola": 38,
-    "km-42": 44,
-    "playa-del-morro": 7,
-    "tumaco": 7
-   }
-  },
-  {
-   "en": "Least Grebe",
-   "id": "tachybaptus-dominicus",
-   "ru": "Южноамериканская поганка",
-   "sci": "Tachybaptus dominicus",
-   "sites": {
-    "finca-maragricola": 43
    }
   },
   {
@@ -282,36 +45,6 @@
    }
   },
   {
-   "en": "Black-crowned Night Heron",
-   "id": "nycticorax-nycticorax",
-   "ru": "Кваква",
-   "sci": "Nycticorax nycticorax",
-   "sites": {
-    "finca-maragricola": 38,
-    "playa-del-morro": 21,
-    "tumaco": 21
-   }
-  },
-  {
-   "en": "Pied Puffbird",
-   "id": "notharchus-tectus",
-   "ru": "Пегая пуховка",
-   "sci": "Notharchus tectus",
-   "sites": {
-    "finca-maragricola": 9,
-    "km-42": 38
-   }
-  },
-  {
-   "en": "Fulvous Whistling-Duck",
-   "id": "dendrocygna-bicolor",
-   "ru": "Рыжая древесная утка",
-   "sci": "Dendrocygna bicolor",
-   "sites": {
-    "finca-maragricola": 35
-   }
-  },
-  {
    "en": "Chestnut-backed Antbird",
    "id": "poliocrania-exsul",
    "ru": "Коричневоспинная муравьеловка",
@@ -319,19 +52,6 @@
    "sites": {
     "finca-maragricola": 31,
     "km-42": 32
-   }
-  },
-  {
-   "en": "Red-legged Honeycreeper",
-   "id": "cyanerpes-cyaneus",
-   "ru": "Красноногий саи",
-   "sci": "Cyanerpes cyaneus",
-   "sites": {
-    "finca-maragricola": 24,
-    "km-42": 21,
-    "la-nutria": 7,
-    "playa-del-morro": 32,
-    "tumaco": 32
    }
   },
   {
@@ -355,28 +75,6 @@
    }
   },
   {
-   "en": "Anhinga",
-   "id": "anhinga-anhinga",
-   "ru": "Американская змеешейка",
-   "sci": "Anhinga anhinga",
-   "sites": {
-    "finca-maragricola": 24,
-    "km-42": 10,
-    "playa-del-morro": 3,
-    "tumaco": 4
-   }
-  },
-  {
-   "en": "Ochraceous Attila",
-   "id": "attila-torridus",
-   "ru": "Охристый аттила",
-   "sci": "Attila torridus",
-   "sites": {
-    "finca-maragricola": 24,
-    "km-42": 20
-   }
-  },
-  {
    "en": "Orange-billed Sparrow",
    "id": "arremon-aurantiirostris",
    "ru": "Оранжевоклювый тохи",
@@ -388,26 +86,6 @@
    }
   },
   {
-   "en": "White-tailed Trogon",
-   "id": "trogon-chionurus",
-   "ru": "Белохвостый трогон",
-   "sci": "Trogon chionurus",
-   "sites": {
-    "finca-maragricola": 19
-   }
-  },
-  {
-   "en": "Black-crowned Antshrike",
-   "id": "thamnophilus-atrinucha",
-   "ru": "Пестрокрылый колючник",
-   "sci": "Thamnophilus atrinucha",
-   "sites": {
-    "finca-maragricola": 16,
-    "km-42": 16,
-    "tumaco": 9
-   }
-  },
-  {
    "en": "Dusky-capped Flycatcher",
    "id": "myiarchus-tuberculifer",
    "ru": "Темноголовый миарх",
@@ -416,16 +94,6 @@
     "finca-maragricola": 15,
     "playa-del-morro": 3,
     "tumaco": 3
-   }
-  },
-  {
-   "en": "Slaty-tailed Trogon",
-   "id": "trogon-massena",
-   "ru": "Аспиднохвостый трогон",
-   "sci": "Trogon massena",
-   "sites": {
-    "finca-maragricola": 11,
-    "km-42": 11
    }
   },
   {
@@ -456,16 +124,6 @@
    }
   },
   {
-   "en": "Reddish Egret",
-   "id": "egretta-rufescens",
-   "ru": "Рыжеватая цапля",
-   "sci": "Egretta rufescens",
-   "sites": {
-    "playa-del-morro": 6,
-    "tumaco": 6
-   }
-  },
-  {
    "en": "Bran-colored Flycatcher",
    "id": "myiophobus-fasciatus",
    "ru": "Ржавчатая курэта",
@@ -484,30 +142,10 @@
    "sites": {
     "la-nutria": 5
    }
-  },
-  {
-   "en": "Yellow-billed Cuckoo",
-   "id": "coccyzus-americanus",
-   "ru": "Желтоклювая пиайя",
-   "sci": "Coccyzus americanus",
-   "sites": {
-    "finca-maragricola": 3
-   }
   }
  ],
  "sites": {
   "finca-maragricola": [
-   {
-    "en": "Least Sandpiper",
-    "family": "scolop2",
-    "group": false,
-    "id": "calidris-minutilla",
-    "n": 260,
-    "n_aut": 74,
-    "ru": "Песочник-крошка",
-    "sci": "Calidris minutilla",
-    "tier": "sure"
-   },
    {
     "en": "Chestnut-throated Seedeater",
     "family": "thraup2",
@@ -517,61 +155,6 @@
     "n_aut": 71,
     "ru": "Каштановогорлый просяночник",
     "sci": "Sporophila telasco",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-cheeked Woodpecker",
-    "family": "picida1",
-    "group": true,
-    "id": "melanerpes-pucherani",
-    "n": 323,
-    "n_aut": 66,
-    "ru": "Чернощёкий дятел",
-    "sci": "Melanerpes pucherani",
-    "tier": "sure"
-   },
-   {
-    "en": "Pacific Parrotlet",
-    "family": "psitta3",
-    "group": true,
-    "id": "forpus-coelestis",
-    "n": 285,
-    "n_aut": 66,
-    "ru": "Западный воробьиный попугайчик",
-    "sci": "Forpus coelestis",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-necked Stilt",
-    "family": "recurv1",
-    "group": true,
-    "id": "himantopus-mexicanus",
-    "n": 327,
-    "n_aut": 64,
-    "ru": "Американский ходулочник",
-    "sci": "Himantopus mexicanus",
-    "tier": "sure"
-   },
-   {
-    "en": "White-bearded Manakin",
-    "family": "piprid1",
-    "group": true,
-    "id": "manacus-manacus",
-    "n": 252,
-    "n_aut": 62,
-    "ru": "Сорочий манакин",
-    "sci": "Manacus manacus",
-    "tier": "sure"
-   },
-   {
-    "en": "White-cheeked Pintail",
-    "family": "anatid1",
-    "group": true,
-    "id": "anas-bahamensis",
-    "n": 345,
-    "n_aut": 62,
-    "ru": "Багамская шилохвость",
-    "sci": "Anas bahamensis",
     "tier": "sure"
    },
    {
@@ -608,61 +191,6 @@
     "tier": "sure"
    },
    {
-    "en": "Pied-billed Grebe",
-    "family": "podici1",
-    "group": true,
-    "id": "podilymbus-podiceps",
-    "n": 276,
-    "n_aut": 55,
-    "ru": "Пестроклювая поганка",
-    "sci": "Podilymbus podiceps",
-    "tier": "sure"
-   },
-   {
-    "en": "Masked Water-Tyrant",
-    "family": "tyrann2",
-    "group": true,
-    "id": "fluvicola-nengeta",
-    "n": 356,
-    "n_aut": 53,
-    "ru": "Масковый мухолов",
-    "sci": "Fluvicola nengeta",
-    "tier": "sure"
-   },
-   {
-    "en": "Wilson's Phalarope",
-    "family": "scolop2",
-    "group": true,
-    "id": "phalaropus-tricolor",
-    "n": 95,
-    "n_aut": 52,
-    "ru": "Большой плавунчик",
-    "sci": "Phalaropus tricolor",
-    "tier": "sure"
-   },
-   {
-    "en": "Common Gallinule",
-    "family": "rallid1",
-    "group": true,
-    "id": "gallinula-galeata",
-    "n": 308,
-    "n_aut": 49,
-    "ru": "Американская камышница",
-    "sci": "Gallinula galeata",
-    "tier": "sure"
-   },
-   {
-    "en": "Pacific Antwren",
-    "family": "thamno3",
-    "group": true,
-    "id": "myrmotherula-pacifica",
-    "n": 274,
-    "n_aut": 48,
-    "ru": "Тихоокенаский муравьелов",
-    "sci": "Myrmotherula pacifica",
-    "tier": "sure"
-   },
-   {
     "en": "Little Blue Heron",
     "family": "ardeid1",
     "group": false,
@@ -674,28 +202,6 @@
     "tier": "sure"
    },
    {
-    "en": "Least Grebe",
-    "family": "podici1",
-    "group": true,
-    "id": "tachybaptus-dominicus",
-    "n": 149,
-    "n_aut": 43,
-    "ru": "Южноамериканская поганка",
-    "sci": "Tachybaptus dominicus",
-    "tier": "sure"
-   },
-   {
-    "en": "Rufous-headed Chachalaca",
-    "family": "cracid2",
-    "group": true,
-    "id": "ortalis-erythroptera",
-    "n": 218,
-    "n_aut": 41,
-    "ru": "Красноголовая чачалака",
-    "sci": "Ortalis erythroptera",
-    "tier": "sure"
-   },
-   {
     "en": "Brown Wood-Rail",
     "family": "rallid1",
     "group": false,
@@ -704,17 +210,6 @@
     "n_aut": 39,
     "ru": "Бурый саракура",
     "sci": "Aramides wolfi",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nycticorax-nycticorax",
-    "n": 124,
-    "n_aut": 38,
-    "ru": "Кваква",
-    "sci": "Nycticorax nycticorax",
     "tier": "sure"
    },
    {
@@ -748,17 +243,6 @@
     "n_aut": 38,
     "ru": "Малый песочник",
     "sci": "Calidris pusilla",
-    "tier": "sure"
-   },
-   {
-    "en": "White-browed Gnatcatcher",
-    "family": "poliop1",
-    "group": true,
-    "id": "polioptila-bilineata",
-    "n": 213,
-    "n_aut": 38,
-    "ru": "Белобровая комароловка",
-    "sci": "Polioptila bilineata",
     "tier": "sure"
    },
    {
@@ -817,17 +301,6 @@
     "tier": "sure"
    },
    {
-    "en": "Fulvous Whistling-Duck",
-    "family": "anatid1",
-    "group": true,
-    "id": "dendrocygna-bicolor",
-    "n": 217,
-    "n_aut": 35,
-    "ru": "Рыжая древесная утка",
-    "sci": "Dendrocygna bicolor",
-    "tier": "sure"
-   },
-   {
     "en": "Pallid Dove",
     "family": "columb2",
     "group": true,
@@ -836,39 +309,6 @@
     "n_aut": 35,
     "ru": "Бледная голубка",
     "sci": "Leptotila pallida",
-    "tier": "sure"
-   },
-   {
-    "en": "Southern Beardless-Tyrannulet",
-    "family": "tyrann2",
-    "group": true,
-    "id": "camptostoma-obsoletum",
-    "n": 238,
-    "n_aut": 35,
-    "ru": "Южноамериканский москитолов",
-    "sci": "Camptostoma obsoletum",
-    "tier": "sure"
-   },
-   {
-    "en": "Hook-billed Kite",
-    "family": "accipi1",
-    "group": true,
-    "id": "chondrohierax-uncinatus",
-    "n": 200,
-    "n_aut": 33,
-    "ru": "Длинноклювый улиткоед",
-    "sci": "Chondrohierax uncinatus",
-    "tier": "sure"
-   },
-   {
-    "en": "Ringed Kingfisher",
-    "family": "alcedi1",
-    "group": true,
-    "id": "megaceryle-torquata",
-    "n": 239,
-    "n_aut": 33,
-    "ru": "Красногрудый зимородок",
-    "sci": "Megaceryle torquata",
     "tier": "sure"
    },
    {
@@ -949,28 +389,6 @@
     "tier": "sure"
    },
    {
-    "en": "Anhinga",
-    "family": "anhing3",
-    "group": true,
-    "id": "anhinga-anhinga",
-    "n": 143,
-    "n_aut": 24,
-    "ru": "Американская змеешейка",
-    "sci": "Anhinga anhinga",
-    "tier": "sure"
-   },
-   {
-    "en": "Ochraceous Attila",
-    "family": "tyrann2",
-    "group": true,
-    "id": "attila-torridus",
-    "n": 190,
-    "n_aut": 24,
-    "ru": "Охристый аттила",
-    "sci": "Attila torridus",
-    "tier": "sure"
-   },
-   {
     "en": "Purple-chested Hummingbird",
     "family": "trochi1",
     "group": false,
@@ -979,17 +397,6 @@
     "n_aut": 24,
     "ru": "Пурпурногорлая амазилия",
     "sci": "Polyerata rosenbergi",
-    "tier": "sure"
-   },
-   {
-    "en": "Red-legged Honeycreeper",
-    "family": "thraup2",
-    "group": true,
-    "id": "cyanerpes-cyaneus",
-    "n": 164,
-    "n_aut": 24,
-    "ru": "Красноногий саи",
-    "sci": "Cyanerpes cyaneus",
     "tier": "sure"
    },
    {
@@ -1037,28 +444,6 @@
     "tier": "likely"
    },
    {
-    "en": "White-tailed Trogon",
-    "family": "trogon1",
-    "group": true,
-    "id": "trogon-chionurus",
-    "n": 74,
-    "n_aut": 19,
-    "ru": "Белохвостый трогон",
-    "sci": "Trogon chionurus",
-    "tier": "likely"
-   },
-   {
-    "en": "Orange-fronted Barbet",
-    "family": "capito2",
-    "group": true,
-    "id": "capito-squamatus",
-    "n": 73,
-    "n_aut": 18,
-    "ru": "Оранжеволобая бородатка",
-    "sci": "Capito squamatus",
-    "tier": "likely"
-   },
-   {
     "en": "Yellow-tufted Dacnis",
     "family": "thraup2",
     "group": false,
@@ -1078,28 +463,6 @@
     "n_aut": 17,
     "ru": "Оранжевоклювый тохи",
     "sci": "Arremon aurantiirostris",
-    "tier": "likely"
-   },
-   {
-    "en": "Black-crowned Antshrike",
-    "family": "thamno3",
-    "group": true,
-    "id": "thamnophilus-atrinucha",
-    "n": 70,
-    "n_aut": 16,
-    "ru": "Пестрокрылый колючник",
-    "sci": "Thamnophilus atrinucha",
-    "tier": "likely"
-   },
-   {
-    "en": "Great-tailed Grackle",
-    "family": "icteri1",
-    "group": true,
-    "id": "quiscalus-mexicanus",
-    "n": 58,
-    "n_aut": 16,
-    "ru": "Большехвостый гракл",
-    "sci": "Quiscalus mexicanus",
     "tier": "likely"
    },
    {
@@ -1136,17 +499,6 @@
     "tier": "likely"
    },
    {
-    "en": "Mangrove Yellow Warbler",
-    "family": "paruli1",
-    "group": true,
-    "id": "setophaga-petechia",
-    "n": 89,
-    "n_aut": 15,
-    "ru": "Мангровая древесница",
-    "sci": "Setophaga petechia",
-    "tier": "likely"
-   },
-   {
     "en": "Great Crested Flycatcher",
     "family": "tyrann2",
     "group": false,
@@ -1169,17 +521,6 @@
     "tier": "likely"
    },
    {
-    "en": "Tricolored Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "egretta-tricolor",
-    "n": 135,
-    "n_aut": 14,
-    "ru": "Трёхцветная цапля",
-    "sci": "Egretta tricolor",
-    "tier": "likely"
-   },
-   {
     "en": "Snowy-throated Kingbird",
     "family": "tyrann2",
     "group": false,
@@ -1188,17 +529,6 @@
     "n_aut": 13,
     "ru": "Белогорлый тиранн",
     "sci": "Tyrannus niveigularis",
-    "tier": "likely"
-   },
-   {
-    "en": "Yellow-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nyctanassa-violacea",
-    "n": 130,
-    "n_aut": 12,
-    "ru": "Крабовая кваква",
-    "sci": "Nyctanassa violacea",
     "tier": "likely"
    },
    {
@@ -1221,17 +551,6 @@
     "n_aut": 11,
     "ru": "Кайеннский коршун",
     "sci": "Leptodon cayanensis",
-    "tier": "likely"
-   },
-   {
-    "en": "Slaty-tailed Trogon",
-    "family": "trogon1",
-    "group": true,
-    "id": "trogon-massena",
-    "n": 117,
-    "n_aut": 11,
-    "ru": "Аспиднохвостый трогон",
-    "sci": "Trogon massena",
     "tier": "likely"
    },
    {
@@ -1268,17 +587,6 @@
     "tier": "likely"
    },
    {
-    "en": "Pied Puffbird",
-    "family": "buccon2",
-    "group": true,
-    "id": "notharchus-tectus",
-    "n": 61,
-    "n_aut": 9,
-    "ru": "Пегая пуховка",
-    "sci": "Notharchus tectus",
-    "tier": "likely"
-   },
-   {
     "en": "Black-headed Tody-Flycatcher",
     "family": "tyrann2",
     "group": false,
@@ -1301,17 +609,6 @@
     "tier": "likely"
    },
    {
-    "en": "Ruddy Turnstone",
-    "family": "scolop2",
-    "group": false,
-    "id": "arenaria-interpres",
-    "n": 15,
-    "n_aut": 8,
-    "ru": "Камнешарка",
-    "sci": "Arenaria interpres",
-    "tier": "likely"
-   },
-   {
     "en": "Baird's Sandpiper",
     "family": "scolop2",
     "group": true,
@@ -1320,17 +617,6 @@
     "n_aut": 7,
     "ru": "Бэрдов песочник",
     "sci": "Calidris bairdii",
-    "tier": "likely"
-   },
-   {
-    "en": "Black-bellied Plover",
-    "family": "charad1",
-    "group": false,
-    "id": "pluvialis-squatarola",
-    "n": 21,
-    "n_aut": 7,
-    "ru": "Тулес",
-    "sci": "Pluvialis squatarola",
     "tier": "likely"
    },
    {
@@ -1386,17 +672,6 @@
     "n_aut": 6,
     "ru": "Зеленоспинная цапля",
     "sci": "Butorides virescens",
-    "tier": "likely"
-   },
-   {
-    "en": "Magnificent Frigatebird",
-    "family": "fregat1",
-    "group": true,
-    "id": "fregata-magnificens",
-    "n": 84,
-    "n_aut": 6,
-    "ru": "Великолепный фрегат",
-    "sci": "Fregata magnificens",
     "tier": "likely"
    },
    {
@@ -1664,17 +939,6 @@
     "tier": "chance"
    },
    {
-    "en": "Yellow-billed Cuckoo",
-    "family": "cuculi1",
-    "group": true,
-    "id": "coccyzus-americanus",
-    "n": 3,
-    "n_aut": 3,
-    "ru": "Желтоклювая пиайя",
-    "sci": "Coccyzus americanus",
-    "tier": "chance"
-   },
-   {
     "en": "Yellow-tailed Oriole",
     "family": "icteri1",
     "group": false,
@@ -1771,17 +1035,6 @@
     "n_aut": 2,
     "ru": "Арама",
     "sci": "Aramus guarauna",
-    "tier": "chance"
-   },
-   {
-    "en": "Masked Duck",
-    "family": "anatid1",
-    "group": true,
-    "id": "nomonyx-dominicus",
-    "n": 53,
-    "n_aut": 2,
-    "ru": "Масковая савка",
-    "sci": "Nomonyx dominicus",
     "tier": "chance"
    },
    {
@@ -1895,17 +1148,6 @@
     "tier": "chance"
    },
    {
-    "en": "Double-toothed Kite",
-    "family": "accipi1",
-    "group": true,
-    "id": "harpagus-bidentatus",
-    "n": 54,
-    "n_aut": 1,
-    "ru": "Рыжегрудый зубцеклювый коршун",
-    "sci": "Harpagus bidentatus",
-    "tier": "chance"
-   },
-   {
     "en": "Dusky Antbird",
     "family": "thamno3",
     "group": false,
@@ -1914,17 +1156,6 @@
     "n_aut": 1,
     "ru": "Тиранновая муравьянка",
     "sci": "Cercomacroides tyrannina",
-    "tier": "chance"
-   },
-   {
-    "en": "Laughing Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-atricilla",
-    "n": 9,
-    "n_aut": 1,
-    "ru": "Ацтекская чайка",
-    "sci": "Leucophaeus atricilla",
     "tier": "chance"
    },
    {
@@ -1952,50 +1183,6 @@
   ],
   "km-42": [
    {
-    "en": "Black-cheeked Woodpecker",
-    "family": "picida1",
-    "group": true,
-    "id": "melanerpes-pucherani",
-    "n": 380,
-    "n_aut": 89,
-    "ru": "Чернощёкий дятел",
-    "sci": "Melanerpes pucherani",
-    "tier": "sure"
-   },
-   {
-    "en": "Hook-billed Kite",
-    "family": "accipi1",
-    "group": true,
-    "id": "chondrohierax-uncinatus",
-    "n": 355,
-    "n_aut": 80,
-    "ru": "Длинноклювый улиткоед",
-    "sci": "Chondrohierax uncinatus",
-    "tier": "sure"
-   },
-   {
-    "en": "Orange-fronted Barbet",
-    "family": "capito2",
-    "group": true,
-    "id": "capito-squamatus",
-    "n": 214,
-    "n_aut": 67,
-    "ru": "Оранжеволобая бородатка",
-    "sci": "Capito squamatus",
-    "tier": "sure"
-   },
-   {
-    "en": "Rufous-headed Chachalaca",
-    "family": "cracid2",
-    "group": true,
-    "id": "ortalis-erythroptera",
-    "n": 305,
-    "n_aut": 59,
-    "ru": "Красноголовая чачалака",
-    "sci": "Ortalis erythroptera",
-    "tier": "sure"
-   },
-   {
     "en": "Little Tinamou",
     "family": "tinami1",
     "group": false,
@@ -2015,17 +1202,6 @@
     "n_aut": 47,
     "ru": "Траурная муравьянка",
     "sci": "Cercomacra nigricans",
-    "tier": "sure"
-   },
-   {
-    "en": "White-browed Gnatcatcher",
-    "family": "poliop1",
-    "group": true,
-    "id": "polioptila-bilineata",
-    "n": 196,
-    "n_aut": 44,
-    "ru": "Белобровая комароловка",
-    "sci": "Polioptila bilineata",
     "tier": "sure"
    },
    {
@@ -2073,17 +1249,6 @@
     "tier": "sure"
    },
    {
-    "en": "Pacific Antwren",
-    "family": "thamno3",
-    "group": true,
-    "id": "myrmotherula-pacifica",
-    "n": 236,
-    "n_aut": 40,
-    "ru": "Тихоокенаский муравьелов",
-    "sci": "Myrmotherula pacifica",
-    "tier": "sure"
-   },
-   {
     "en": "Blue Ground Dove",
     "family": "columb2",
     "group": false,
@@ -2092,17 +1257,6 @@
     "n_aut": 38,
     "ru": "Голубая земляная горлица",
     "sci": "Claravis pretiosa",
-    "tier": "sure"
-   },
-   {
-    "en": "Pied Puffbird",
-    "family": "buccon2",
-    "group": true,
-    "id": "notharchus-tectus",
-    "n": 116,
-    "n_aut": 38,
-    "ru": "Пегая пуховка",
-    "sci": "Notharchus tectus",
     "tier": "sure"
    },
    {
@@ -2158,28 +1312,6 @@
     "n_aut": 32,
     "ru": "Коричневоспинная муравьеловка",
     "sci": "Poliocrania exsul",
-    "tier": "sure"
-   },
-   {
-    "en": "Pacific Parrotlet",
-    "family": "psitta3",
-    "group": true,
-    "id": "forpus-coelestis",
-    "n": 157,
-    "n_aut": 32,
-    "ru": "Западный воробьиный попугайчик",
-    "sci": "Forpus coelestis",
-    "tier": "sure"
-   },
-   {
-    "en": "White-bearded Manakin",
-    "family": "piprid1",
-    "group": true,
-    "id": "manacus-manacus",
-    "n": 150,
-    "n_aut": 31,
-    "ru": "Сорочий манакин",
-    "sci": "Manacus manacus",
     "tier": "sure"
    },
    {
@@ -2249,17 +1381,6 @@
     "tier": "sure"
    },
    {
-    "en": "Southern Beardless-Tyrannulet",
-    "family": "tyrann2",
-    "group": true,
-    "id": "camptostoma-obsoletum",
-    "n": 108,
-    "n_aut": 23,
-    "ru": "Южноамериканский москитолов",
-    "sci": "Camptostoma obsoletum",
-    "tier": "sure"
-   },
-   {
     "en": "White-throated Crake",
     "family": "rallid1",
     "group": false,
@@ -2304,17 +1425,6 @@
     "tier": "sure"
    },
    {
-    "en": "Red-legged Honeycreeper",
-    "family": "thraup2",
-    "group": true,
-    "id": "cyanerpes-cyaneus",
-    "n": 131,
-    "n_aut": 21,
-    "ru": "Красноногий саи",
-    "sci": "Cyanerpes cyaneus",
-    "tier": "sure"
-   },
-   {
     "en": "Laughing Falcon",
     "family": "falcon1",
     "group": true,
@@ -2326,17 +1436,6 @@
     "tier": "sure"
    },
    {
-    "en": "Ochraceous Attila",
-    "family": "tyrann2",
-    "group": true,
-    "id": "attila-torridus",
-    "n": 135,
-    "n_aut": 20,
-    "ru": "Охристый аттила",
-    "sci": "Attila torridus",
-    "tier": "sure"
-   },
-   {
     "en": "Blue-chested Hummingbird",
     "family": "trochi1",
     "group": false,
@@ -2345,17 +1444,6 @@
     "n_aut": 17,
     "ru": "Голубогрудая амазилия",
     "sci": "Polyerata amabilis",
-    "tier": "likely"
-   },
-   {
-    "en": "Black-crowned Antshrike",
-    "family": "thamno3",
-    "group": true,
-    "id": "thamnophilus-atrinucha",
-    "n": 48,
-    "n_aut": 16,
-    "ru": "Пестрокрылый колючник",
-    "sci": "Thamnophilus atrinucha",
     "tier": "likely"
    },
    {
@@ -2458,39 +1546,6 @@
     "tier": "likely"
    },
    {
-    "en": "Slaty-tailed Trogon",
-    "family": "trogon1",
-    "group": true,
-    "id": "trogon-massena",
-    "n": 11,
-    "n_aut": 11,
-    "ru": "Аспиднохвостый трогон",
-    "sci": "Trogon massena",
-    "tier": "likely"
-   },
-   {
-    "en": "Anhinga",
-    "family": "anhing3",
-    "group": true,
-    "id": "anhinga-anhinga",
-    "n": 12,
-    "n_aut": 10,
-    "ru": "Американская змеешейка",
-    "sci": "Anhinga anhinga",
-    "tier": "likely"
-   },
-   {
-    "en": "Black-necked Stilt",
-    "family": "recurv1",
-    "group": true,
-    "id": "himantopus-mexicanus",
-    "n": 11,
-    "n_aut": 10,
-    "ru": "Американский ходулочник",
-    "sci": "Himantopus mexicanus",
-    "tier": "likely"
-   },
-   {
     "en": "Broad-winged Hawk",
     "family": "accipi1",
     "group": false,
@@ -2513,17 +1568,6 @@
     "tier": "likely"
    },
    {
-    "en": "Pied-billed Grebe",
-    "family": "podici1",
-    "group": true,
-    "id": "podilymbus-podiceps",
-    "n": 10,
-    "n_aut": 10,
-    "ru": "Пестроклювая поганка",
-    "sci": "Podilymbus podiceps",
-    "tier": "likely"
-   },
-   {
     "en": "Red-breasted Meadowlark",
     "family": "icteri1",
     "group": false,
@@ -2532,17 +1576,6 @@
     "n_aut": 10,
     "ru": "Красногрудая лойка",
     "sci": "Leistes militaris",
-    "tier": "likely"
-   },
-   {
-    "en": "White-cheeked Pintail",
-    "family": "anatid1",
-    "group": true,
-    "id": "anas-bahamensis",
-    "n": 10,
-    "n_aut": 10,
-    "ru": "Багамская шилохвость",
-    "sci": "Anas bahamensis",
     "tier": "likely"
    },
    {
@@ -2576,17 +1609,6 @@
     "n_aut": 8,
     "ru": "Малая голубая цапля",
     "sci": "Egretta caerulea",
-    "tier": "likely"
-   },
-   {
-    "en": "Masked Water-Tyrant",
-    "family": "tyrann2",
-    "group": true,
-    "id": "fluvicola-nengeta",
-    "n": 52,
-    "n_aut": 8,
-    "ru": "Масковый мухолов",
-    "sci": "Fluvicola nengeta",
     "tier": "likely"
    },
    {
@@ -2874,42 +1896,9 @@
     "ru": "Пурпурногорлая амазилия",
     "sci": "Polyerata rosenbergi",
     "tier": "chance"
-   },
-   {
-    "en": "Ringed Kingfisher",
-    "family": "alcedi1",
-    "group": true,
-    "id": "megaceryle-torquata",
-    "n": 30,
-    "n_aut": 1,
-    "ru": "Красногрудый зимородок",
-    "sci": "Megaceryle torquata",
-    "tier": "chance"
-   },
-   {
-    "en": "White-tailed Trogon",
-    "family": "trogon1",
-    "group": true,
-    "id": "trogon-chionurus",
-    "n": 19,
-    "n_aut": 1,
-    "ru": "Белохвостый трогон",
-    "sci": "Trogon chionurus",
-    "tier": "chance"
    }
   ],
   "la-florida": [
-   {
-    "en": "Common Gallinule",
-    "family": "rallid1",
-    "group": true,
-    "id": "gallinula-galeata",
-    "n": 7083,
-    "n_aut": 1800,
-    "ru": "Американская камышница",
-    "sci": "Gallinula galeata",
-    "tier": "sure"
-   },
    {
     "en": "Yellow-hooded Blackbird",
     "family": "icteri1",
@@ -2988,28 +1977,6 @@
     "tier": "sure"
    },
    {
-    "en": "Pied-billed Grebe",
-    "family": "podici1",
-    "group": true,
-    "id": "podilymbus-podiceps",
-    "n": 2770,
-    "n_aut": 688,
-    "ru": "Пестроклювая поганка",
-    "sci": "Podilymbus podiceps",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nycticorax-nycticorax",
-    "n": 2682,
-    "n_aut": 591,
-    "ru": "Кваква",
-    "sci": "Nycticorax nycticorax",
-    "tier": "sure"
-   },
-   {
     "en": "Eastern Meadowlark",
     "family": "icteri1",
     "group": true,
@@ -3051,17 +2018,6 @@
     "n_aut": 401,
     "ru": "Рыжебровый конусоклюв",
     "sci": "Conirostrum rufum",
-    "tier": "sure"
-   },
-   {
-    "en": "Yellow-billed Cuckoo",
-    "family": "cuculi1",
-    "group": true,
-    "id": "coccyzus-americanus",
-    "n": 491,
-    "n_aut": 380,
-    "ru": "Желтоклювая пиайя",
-    "sci": "Coccyzus americanus",
     "tier": "sure"
    },
    {
@@ -3274,17 +2230,6 @@
     "tier": "sure"
    },
    {
-    "en": "Acadian Flycatcher",
-    "family": "tyrann2",
-    "group": true,
-    "id": "empidonax-virescens",
-    "n": 154,
-    "n_aut": 87,
-    "ru": "Восточный мухолов",
-    "sci": "Empidonax virescens",
-    "tier": "sure"
-   },
-   {
     "en": "Glossy Ibis",
     "family": "thresk1",
     "group": false,
@@ -3472,17 +2417,6 @@
     "tier": "sure"
    },
    {
-    "en": "Masked Duck",
-    "family": "anatid1",
-    "group": true,
-    "id": "nomonyx-dominicus",
-    "n": 151,
-    "n_aut": 41,
-    "ru": "Масковая савка",
-    "sci": "Nomonyx dominicus",
-    "tier": "sure"
-   },
-   {
     "en": "Gray-browed Brushfinch",
     "family": "passer3",
     "group": false,
@@ -3546,17 +2480,6 @@
     "n_aut": 29,
     "ru": "Малый дрозд",
     "sci": "Catharus minimus",
-    "tier": "sure"
-   },
-   {
-    "en": "Least Grebe",
-    "family": "podici1",
-    "group": true,
-    "id": "tachybaptus-dominicus",
-    "n": 151,
-    "n_aut": 27,
-    "ru": "Южноамериканская поганка",
-    "sci": "Tachybaptus dominicus",
     "tier": "sure"
    },
    {
@@ -3703,17 +2626,6 @@
     "tier": "likely"
    },
    {
-    "en": "Ringed Kingfisher",
-    "family": "alcedi1",
-    "group": true,
-    "id": "megaceryle-torquata",
-    "n": 27,
-    "n_aut": 14,
-    "ru": "Красногрудый зимородок",
-    "sci": "Megaceryle torquata",
-    "tier": "likely"
-   },
-   {
     "en": "Small-billed Elaenia",
     "family": "tyrann2",
     "group": false,
@@ -3777,28 +2689,6 @@
     "n_aut": 11,
     "ru": "Масковый цветокол",
     "sci": "Diglossa cyanea",
-    "tier": "likely"
-   },
-   {
-    "en": "Southern Beardless-Tyrannulet",
-    "family": "tyrann2",
-    "group": true,
-    "id": "camptostoma-obsoletum",
-    "n": 37,
-    "n_aut": 11,
-    "ru": "Южноамериканский москитолов",
-    "sci": "Camptostoma obsoletum",
-    "tier": "likely"
-   },
-   {
-    "en": "Yellow-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nyctanassa-violacea",
-    "n": 22,
-    "n_aut": 11,
-    "ru": "Крабовая кваква",
-    "sci": "Nyctanassa violacea",
     "tier": "likely"
    },
    {
@@ -3876,17 +2766,6 @@
     "n_aut": 9,
     "ru": "Лимонная червеедка",
     "sci": "Protonotaria citrea",
-    "tier": "likely"
-   },
-   {
-    "en": "Anhinga",
-    "family": "anhing3",
-    "group": true,
-    "id": "anhinga-anhinga",
-    "n": 8,
-    "n_aut": 8,
-    "ru": "Американская змеешейка",
-    "sci": "Anhinga anhinga",
     "tier": "likely"
    },
    {
@@ -4407,28 +3286,6 @@
     "tier": "chance"
    },
    {
-    "en": "Laughing Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-atricilla",
-    "n": 14,
-    "n_aut": 3,
-    "ru": "Ацтекская чайка",
-    "sci": "Leucophaeus atricilla",
-    "tier": "chance"
-   },
-   {
-    "en": "Least Sandpiper",
-    "family": "scolop2",
-    "group": false,
-    "id": "calidris-minutilla",
-    "n": 17,
-    "n_aut": 3,
-    "ru": "Песочник-крошка",
-    "sci": "Calidris minutilla",
-    "tier": "chance"
-   },
-   {
     "en": "Orange-crowned Oriole",
     "family": "icteri1",
     "group": false,
@@ -4539,17 +3396,6 @@
     "tier": "chance"
    },
    {
-    "en": "Fulvous Whistling-Duck",
-    "family": "anatid1",
-    "group": true,
-    "id": "dendrocygna-bicolor",
-    "n": 32,
-    "n_aut": 2,
-    "ru": "Рыжая древесная утка",
-    "sci": "Dendrocygna bicolor",
-    "tier": "chance"
-   },
-   {
     "en": "Pinnated Bittern",
     "family": "ardeid1",
     "group": false,
@@ -4605,17 +3451,6 @@
     "tier": "chance"
    },
    {
-    "en": "White-bearded Manakin",
-    "family": "piprid1",
-    "group": true,
-    "id": "manacus-manacus",
-    "n": 3,
-    "n_aut": 2,
-    "ru": "Сорочий манакин",
-    "sci": "Manacus manacus",
-    "tier": "chance"
-   },
-   {
     "en": "White-capped Dipper",
     "family": "cincli1",
     "group": false,
@@ -4646,17 +3481,6 @@
     "n_aut": 2,
     "ru": "Карликовая ласточка",
     "sci": "Atticora tibialis",
-    "tier": "chance"
-   },
-   {
-    "en": "Wilson's Phalarope",
-    "family": "scolop2",
-    "group": true,
-    "id": "phalaropus-tricolor",
-    "n": 14,
-    "n_aut": 2,
-    "ru": "Большой плавунчик",
-    "sci": "Phalaropus tricolor",
     "tier": "chance"
    },
    {
@@ -5344,17 +4168,6 @@
     "tier": "likely"
    },
    {
-    "en": "Red-legged Honeycreeper",
-    "family": "thraup2",
-    "group": true,
-    "id": "cyanerpes-cyaneus",
-    "n": 13,
-    "n_aut": 7,
-    "ru": "Красноногий саи",
-    "sci": "Cyanerpes cyaneus",
-    "tier": "likely"
-   },
-   {
     "en": "Scaled Antpitta",
     "family": "gralla2",
     "group": false,
@@ -5531,17 +4344,6 @@
     "tier": "likely"
    },
    {
-    "en": "White-bearded Manakin",
-    "family": "piprid1",
-    "group": true,
-    "id": "manacus-manacus",
-    "n": 37,
-    "n_aut": 5,
-    "ru": "Сорочий манакин",
-    "sci": "Manacus manacus",
-    "tier": "likely"
-   },
-   {
     "en": "Bran-colored Flycatcher",
     "family": "tyrann2",
     "group": true,
@@ -5605,17 +4407,6 @@
     "n_aut": 3,
     "ru": "Полосатый древолаз",
     "sci": "Dendrocolaptes sanctithomae",
-    "tier": "chance"
-   },
-   {
-    "en": "Pacific Antwren",
-    "family": "thamno3",
-    "group": true,
-    "id": "myrmotherula-pacifica",
-    "n": 37,
-    "n_aut": 3,
-    "ru": "Тихоокенаский муравьелов",
-    "sci": "Myrmotherula pacifica",
     "tier": "chance"
    },
    {
@@ -5861,17 +4652,6 @@
     "tier": "chance"
    },
    {
-    "en": "Black-crowned Antshrike",
-    "family": "thamno3",
-    "group": true,
-    "id": "thamnophilus-atrinucha",
-    "n": 7,
-    "n_aut": 1,
-    "ru": "Пестрокрылый колючник",
-    "sci": "Thamnophilus atrinucha",
-    "tier": "chance"
-   },
-   {
     "en": "Black-striped Woodcreeper",
     "family": "furnar2",
     "group": false,
@@ -5979,17 +4759,6 @@
     "n_aut": 1,
     "ru": "Седой эрион",
     "sci": "Haplophaedia lugens",
-    "tier": "chance"
-   },
-   {
-    "en": "Hook-billed Kite",
-    "family": "accipi1",
-    "group": true,
-    "id": "chondrohierax-uncinatus",
-    "n": 7,
-    "n_aut": 1,
-    "ru": "Длинноклювый улиткоед",
-    "sci": "Chondrohierax uncinatus",
     "tier": "chance"
    },
    {
@@ -6103,17 +4872,6 @@
     "tier": "chance"
    },
    {
-    "en": "Ringed Kingfisher",
-    "family": "alcedi1",
-    "group": true,
-    "id": "megaceryle-torquata",
-    "n": 4,
-    "n_aut": 1,
-    "ru": "Красногрудый зимородок",
-    "sci": "Megaceryle torquata",
-    "tier": "chance"
-   },
-   {
     "en": "Rose-faced Parrot",
     "family": "psitta3",
     "group": false,
@@ -6160,39 +4918,6 @@
   ],
   "playa-del-morro": [
    {
-    "en": "Magnificent Frigatebird",
-    "family": "fregat1",
-    "group": true,
-    "id": "fregata-magnificens",
-    "n": 842,
-    "n_aut": 181,
-    "ru": "Великолепный фрегат",
-    "sci": "Fregata magnificens",
-    "tier": "sure"
-   },
-   {
-    "en": "Great-tailed Grackle",
-    "family": "icteri1",
-    "group": true,
-    "id": "quiscalus-mexicanus",
-    "n": 764,
-    "n_aut": 165,
-    "ru": "Большехвостый гракл",
-    "sci": "Quiscalus mexicanus",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-bellied Plover",
-    "family": "charad1",
-    "group": false,
-    "id": "pluvialis-squatarola",
-    "n": 197,
-    "n_aut": 106,
-    "ru": "Тулес",
-    "sci": "Pluvialis squatarola",
-    "tier": "sure"
-   },
-   {
     "en": "Croaking Ground Dove",
     "family": "columb2",
     "group": false,
@@ -6204,28 +4929,6 @@
     "tier": "sure"
    },
    {
-    "en": "Mangrove Yellow Warbler",
-    "family": "paruli1",
-    "group": true,
-    "id": "setophaga-petechia",
-    "n": 375,
-    "n_aut": 88,
-    "ru": "Мангровая древесница",
-    "sci": "Setophaga petechia",
-    "tier": "sure"
-   },
-   {
-    "en": "Least Sandpiper",
-    "family": "scolop2",
-    "group": false,
-    "id": "calidris-minutilla",
-    "n": 134,
-    "n_aut": 79,
-    "ru": "Песочник-крошка",
-    "sci": "Calidris minutilla",
-    "tier": "sure"
-   },
-   {
     "en": "American Oystercatcher",
     "family": "haemat1",
     "group": false,
@@ -6234,94 +4937,6 @@
     "n_aut": 78,
     "ru": "Американский кулик-сорока",
     "sci": "Haematopus palliatus",
-    "tier": "sure"
-   },
-   {
-    "en": "Royal Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "thalasseus-maximus",
-    "n": 339,
-    "n_aut": 67,
-    "ru": "Королевская крачка",
-    "sci": "Thalasseus maximus",
-    "tier": "sure"
-   },
-   {
-    "en": "Laughing Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-atricilla",
-    "n": 311,
-    "n_aut": 66,
-    "ru": "Ацтекская чайка",
-    "sci": "Leucophaeus atricilla",
-    "tier": "sure"
-   },
-   {
-    "en": "Southern Beardless-Tyrannulet",
-    "family": "tyrann2",
-    "group": true,
-    "id": "camptostoma-obsoletum",
-    "n": 188,
-    "n_aut": 61,
-    "ru": "Южноамериканский москитолов",
-    "sci": "Camptostoma obsoletum",
-    "tier": "sure"
-   },
-   {
-    "en": "Tricolored Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "egretta-tricolor",
-    "n": 293,
-    "n_aut": 48,
-    "ru": "Трёхцветная цапля",
-    "sci": "Egretta tricolor",
-    "tier": "sure"
-   },
-   {
-    "en": "Ruddy Turnstone",
-    "family": "scolop2",
-    "group": false,
-    "id": "arenaria-interpres",
-    "n": 105,
-    "n_aut": 47,
-    "ru": "Камнешарка",
-    "sci": "Arenaria interpres",
-    "tier": "sure"
-   },
-   {
-    "en": "Ringed Kingfisher",
-    "family": "alcedi1",
-    "group": true,
-    "id": "megaceryle-torquata",
-    "n": 252,
-    "n_aut": 45,
-    "ru": "Красногрудый зимородок",
-    "sci": "Megaceryle torquata",
-    "tier": "sure"
-   },
-   {
-    "en": "Yellow-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nyctanassa-violacea",
-    "n": 272,
-    "n_aut": 45,
-    "ru": "Крабовая кваква",
-    "sci": "Nyctanassa violacea",
-    "tier": "sure"
-   },
-   {
-    "en": "Pacific Antwren",
-    "family": "thamno3",
-    "group": true,
-    "id": "myrmotherula-pacifica",
-    "n": 162,
-    "n_aut": 44,
-    "ru": "Тихоокенаский муравьелов",
-    "sci": "Myrmotherula pacifica",
     "tier": "sure"
    },
    {
@@ -6347,17 +4962,6 @@
     "tier": "sure"
    },
    {
-    "en": "Peruvian Booby",
-    "family": "sulida1",
-    "group": false,
-    "id": "sula-variegata",
-    "n": 96,
-    "n_aut": 35,
-    "ru": "Перуанская олуша",
-    "sci": "Sula variegata",
-    "tier": "sure"
-   },
-   {
     "en": "Short-billed Dowitcher",
     "family": "scolop2",
     "group": false,
@@ -6366,28 +4970,6 @@
     "n_aut": 34,
     "ru": "Короткоклювый бекасовидный веретенник",
     "sci": "Limnodromus griseus",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-cheeked Woodpecker",
-    "family": "picida1",
-    "group": true,
-    "id": "melanerpes-pucherani",
-    "n": 170,
-    "n_aut": 33,
-    "ru": "Чернощёкий дятел",
-    "sci": "Melanerpes pucherani",
-    "tier": "sure"
-   },
-   {
-    "en": "Red-legged Honeycreeper",
-    "family": "thraup2",
-    "group": true,
-    "id": "cyanerpes-cyaneus",
-    "n": 153,
-    "n_aut": 32,
-    "ru": "Красноногий саи",
-    "sci": "Cyanerpes cyaneus",
     "tier": "sure"
    },
    {
@@ -6435,17 +5017,6 @@
     "tier": "sure"
    },
    {
-    "en": "Black-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nycticorax-nycticorax",
-    "n": 101,
-    "n_aut": 21,
-    "ru": "Кваква",
-    "sci": "Nycticorax nycticorax",
-    "tier": "sure"
-   },
-   {
     "en": "Panama Flycatcher",
     "family": "tyrann2",
     "group": false,
@@ -6479,17 +5050,6 @@
     "tier": "likely"
    },
    {
-    "en": "Sandwich Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "thalasseus-sandvicensis",
-    "n": 153,
-    "n_aut": 17,
-    "ru": "Пестроносая крачка",
-    "sci": "Thalasseus sandvicensis",
-    "tier": "likely"
-   },
-   {
     "en": "Pacific Hornero",
     "family": "furnar2",
     "group": false,
@@ -6509,17 +5069,6 @@
     "n_aut": 14,
     "ru": "Перуанская лойка",
     "sci": "Leistes bellicosus",
-    "tier": "likely"
-   },
-   {
-    "en": "Gull-billed Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "gelochelidon-nilotica",
-    "n": 79,
-    "n_aut": 13,
-    "ru": "Чайконосая крачка",
-    "sci": "Gelochelidon nilotica",
     "tier": "likely"
    },
    {
@@ -6600,17 +5149,6 @@
     "tier": "likely"
    },
    {
-    "en": "Franklin's Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-pipixcan",
-    "n": 54,
-    "n_aut": 8,
-    "ru": "Франклинова чайка",
-    "sci": "Leucophaeus pipixcan",
-    "tier": "likely"
-   },
-   {
     "en": "Brown Wood-Rail",
     "family": "rallid1",
     "group": false,
@@ -6622,17 +5160,6 @@
     "tier": "likely"
    },
    {
-    "en": "White-browed Gnatcatcher",
-    "family": "poliop1",
-    "group": true,
-    "id": "polioptila-bilineata",
-    "n": 42,
-    "n_aut": 7,
-    "ru": "Белобровая комароловка",
-    "sci": "Polioptila bilineata",
-    "tier": "likely"
-   },
-   {
     "en": "Jet Antbird",
     "family": "thamno3",
     "group": false,
@@ -6641,17 +5168,6 @@
     "n_aut": 6,
     "ru": "Траурная муравьянка",
     "sci": "Cercomacra nigricans",
-    "tier": "likely"
-   },
-   {
-    "en": "Reddish Egret",
-    "family": "ardeid1",
-    "group": true,
-    "id": "egretta-rufescens",
-    "n": 7,
-    "n_aut": 6,
-    "ru": "Рыжеватая цапля",
-    "sci": "Egretta rufescens",
     "tier": "likely"
    },
    {
@@ -6688,17 +5204,6 @@
     "tier": "likely"
    },
    {
-    "en": "Wilson's Phalarope",
-    "family": "scolop2",
-    "group": true,
-    "id": "phalaropus-tricolor",
-    "n": 9,
-    "n_aut": 5,
-    "ru": "Большой плавунчик",
-    "sci": "Phalaropus tricolor",
-    "tier": "likely"
-   },
-   {
     "en": "Common Black Hawk",
     "family": "accipi1",
     "group": false,
@@ -6721,17 +5226,6 @@
     "tier": "chance"
    },
    {
-    "en": "Pacific Parrotlet",
-    "family": "psitta3",
-    "group": true,
-    "id": "forpus-coelestis",
-    "n": 41,
-    "n_aut": 4,
-    "ru": "Западный воробьиный попугайчик",
-    "sci": "Forpus coelestis",
-    "tier": "chance"
-   },
-   {
     "en": "Scrub Blackbird",
     "family": "icteri1",
     "group": false,
@@ -6740,17 +5234,6 @@
     "n_aut": 4,
     "ru": "Кустарниковый трупиал",
     "sci": "Dives warczewiczi",
-    "tier": "chance"
-   },
-   {
-    "en": "Anhinga",
-    "family": "anhing3",
-    "group": true,
-    "id": "anhinga-anhinga",
-    "n": 16,
-    "n_aut": 3,
-    "ru": "Американская змеешейка",
-    "sci": "Anhinga anhinga",
     "tier": "chance"
    },
    {
@@ -6820,17 +5303,6 @@
     "tier": "chance"
    },
    {
-    "en": "Black Tern",
-    "family": "larida1",
-    "group": true,
-    "id": "chlidonias-niger",
-    "n": 7,
-    "n_aut": 2,
-    "ru": "Чёрная крачка",
-    "sci": "Chlidonias niger",
-    "tier": "chance"
-   },
-   {
     "en": "Dusky Pigeon",
     "family": "columb2",
     "group": false,
@@ -6842,17 +5314,6 @@
     "tier": "chance"
    },
    {
-    "en": "Elegant Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "thalasseus-elegans",
-    "n": 41,
-    "n_aut": 2,
-    "ru": "Элегантная крачка",
-    "sci": "Thalasseus elegans",
-    "tier": "chance"
-   },
-   {
     "en": "Guayaquil Woodpecker",
     "family": "picida1",
     "group": false,
@@ -6861,17 +5322,6 @@
     "n_aut": 2,
     "ru": "Гуаякильский дятел",
     "sci": "Campephilus gayaquilensis",
-    "tier": "chance"
-   },
-   {
-    "en": "Hook-billed Kite",
-    "family": "accipi1",
-    "group": true,
-    "id": "chondrohierax-uncinatus",
-    "n": 52,
-    "n_aut": 2,
-    "ru": "Длинноклювый улиткоед",
-    "sci": "Chondrohierax uncinatus",
     "tier": "chance"
    },
    {
@@ -7053,50 +5503,6 @@
   ],
   "tumaco": [
    {
-    "en": "Magnificent Frigatebird",
-    "family": "fregat1",
-    "group": true,
-    "id": "fregata-magnificens",
-    "n": 876,
-    "n_aut": 192,
-    "ru": "Великолепный фрегат",
-    "sci": "Fregata magnificens",
-    "tier": "sure"
-   },
-   {
-    "en": "Great-tailed Grackle",
-    "family": "icteri1",
-    "group": true,
-    "id": "quiscalus-mexicanus",
-    "n": 800,
-    "n_aut": 178,
-    "ru": "Большехвостый гракл",
-    "sci": "Quiscalus mexicanus",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-bellied Plover",
-    "family": "charad1",
-    "group": false,
-    "id": "pluvialis-squatarola",
-    "n": 260,
-    "n_aut": 138,
-    "ru": "Тулес",
-    "sci": "Pluvialis squatarola",
-    "tier": "sure"
-   },
-   {
-    "en": "Least Sandpiper",
-    "family": "scolop2",
-    "group": false,
-    "id": "calidris-minutilla",
-    "n": 175,
-    "n_aut": 103,
-    "ru": "Песочник-крошка",
-    "sci": "Calidris minutilla",
-    "tier": "sure"
-   },
-   {
     "en": "American Oystercatcher",
     "family": "haemat1",
     "group": false,
@@ -7108,17 +5514,6 @@
     "tier": "sure"
    },
    {
-    "en": "Mangrove Yellow Warbler",
-    "family": "paruli1",
-    "group": true,
-    "id": "setophaga-petechia",
-    "n": 399,
-    "n_aut": 100,
-    "ru": "Мангровая древесница",
-    "sci": "Setophaga petechia",
-    "tier": "sure"
-   },
-   {
     "en": "Croaking Ground Dove",
     "family": "columb2",
     "group": false,
@@ -7127,94 +5522,6 @@
     "n_aut": 96,
     "ru": "Перуанская земляная горлица",
     "sci": "Columbina cruziana",
-    "tier": "sure"
-   },
-   {
-    "en": "Royal Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "thalasseus-maximus",
-    "n": 358,
-    "n_aut": 84,
-    "ru": "Королевская крачка",
-    "sci": "Thalasseus maximus",
-    "tier": "sure"
-   },
-   {
-    "en": "Laughing Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-atricilla",
-    "n": 327,
-    "n_aut": 82,
-    "ru": "Ацтекская чайка",
-    "sci": "Leucophaeus atricilla",
-    "tier": "sure"
-   },
-   {
-    "en": "Southern Beardless-Tyrannulet",
-    "family": "tyrann2",
-    "group": true,
-    "id": "camptostoma-obsoletum",
-    "n": 205,
-    "n_aut": 70,
-    "ru": "Южноамериканский москитолов",
-    "sci": "Camptostoma obsoletum",
-    "tier": "sure"
-   },
-   {
-    "en": "Tricolored Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "egretta-tricolor",
-    "n": 338,
-    "n_aut": 61,
-    "ru": "Трёхцветная цапля",
-    "sci": "Egretta tricolor",
-    "tier": "sure"
-   },
-   {
-    "en": "Ringed Kingfisher",
-    "family": "alcedi1",
-    "group": true,
-    "id": "megaceryle-torquata",
-    "n": 270,
-    "n_aut": 56,
-    "ru": "Красногрудый зимородок",
-    "sci": "Megaceryle torquata",
-    "tier": "sure"
-   },
-   {
-    "en": "Yellow-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nyctanassa-violacea",
-    "n": 297,
-    "n_aut": 56,
-    "ru": "Крабовая кваква",
-    "sci": "Nyctanassa violacea",
-    "tier": "sure"
-   },
-   {
-    "en": "Pacific Antwren",
-    "family": "thamno3",
-    "group": true,
-    "id": "myrmotherula-pacifica",
-    "n": 174,
-    "n_aut": 53,
-    "ru": "Тихоокенаский муравьелов",
-    "sci": "Myrmotherula pacifica",
-    "tier": "sure"
-   },
-   {
-    "en": "Ruddy Turnstone",
-    "family": "scolop2",
-    "group": false,
-    "id": "arenaria-interpres",
-    "n": 111,
-    "n_aut": 49,
-    "ru": "Камнешарка",
-    "sci": "Arenaria interpres",
     "tier": "sure"
    },
    {
@@ -7262,28 +5569,6 @@
     "tier": "sure"
    },
    {
-    "en": "Peruvian Booby",
-    "family": "sulida1",
-    "group": false,
-    "id": "sula-variegata",
-    "n": 99,
-    "n_aut": 35,
-    "ru": "Перуанская олуша",
-    "sci": "Sula variegata",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-cheeked Woodpecker",
-    "family": "picida1",
-    "group": true,
-    "id": "melanerpes-pucherani",
-    "n": 177,
-    "n_aut": 34,
-    "ru": "Чернощёкий дятел",
-    "sci": "Melanerpes pucherani",
-    "tier": "sure"
-   },
-   {
     "en": "Peregrine Falcon",
     "family": "falcon1",
     "group": false,
@@ -7303,17 +5588,6 @@
     "n_aut": 32,
     "ru": "Малая голубая цапля",
     "sci": "Egretta caerulea",
-    "tier": "sure"
-   },
-   {
-    "en": "Red-legged Honeycreeper",
-    "family": "thraup2",
-    "group": true,
-    "id": "cyanerpes-cyaneus",
-    "n": 154,
-    "n_aut": 32,
-    "ru": "Красноногий саи",
-    "sci": "Cyanerpes cyaneus",
     "tier": "sure"
    },
    {
@@ -7347,28 +5621,6 @@
     "n_aut": 28,
     "ru": "Рыжегрудый саракура",
     "sci": "Aramides axillaris",
-    "tier": "sure"
-   },
-   {
-    "en": "Black-crowned Night Heron",
-    "family": "ardeid1",
-    "group": true,
-    "id": "nycticorax-nycticorax",
-    "n": 98,
-    "n_aut": 21,
-    "ru": "Кваква",
-    "sci": "Nycticorax nycticorax",
-    "tier": "sure"
-   },
-   {
-    "en": "Sandwich Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "thalasseus-sandvicensis",
-    "n": 154,
-    "n_aut": 21,
-    "ru": "Пестроносая крачка",
-    "sci": "Thalasseus sandvicensis",
     "tier": "sure"
    },
    {
@@ -7438,17 +5690,6 @@
     "tier": "likely"
    },
    {
-    "en": "Gull-billed Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "gelochelidon-nilotica",
-    "n": 79,
-    "n_aut": 13,
-    "ru": "Чайконосая крачка",
-    "sci": "Gelochelidon nilotica",
-    "tier": "likely"
-   },
-   {
     "en": "Merlin",
     "family": "falcon1",
     "group": false,
@@ -7479,17 +5720,6 @@
     "n_aut": 10,
     "ru": "Черноголовый крапивник",
     "sci": "Cantorchilus nigricapillus",
-    "tier": "likely"
-   },
-   {
-    "en": "Franklin's Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-pipixcan",
-    "n": 58,
-    "n_aut": 10,
-    "ru": "Франклинова чайка",
-    "sci": "Leucophaeus pipixcan",
     "tier": "likely"
    },
    {
@@ -7526,17 +5756,6 @@
     "tier": "likely"
    },
    {
-    "en": "Black-crowned Antshrike",
-    "family": "thamno3",
-    "group": true,
-    "id": "thamnophilus-atrinucha",
-    "n": 11,
-    "n_aut": 9,
-    "ru": "Пестрокрылый колючник",
-    "sci": "Thamnophilus atrinucha",
-    "tier": "likely"
-   },
-   {
     "en": "Common Tern",
     "family": "larida1",
     "group": false,
@@ -7556,28 +5775,6 @@
     "n_aut": 7,
     "ru": "Бурый саракура",
     "sci": "Aramides wolfi",
-    "tier": "likely"
-   },
-   {
-    "en": "White-browed Gnatcatcher",
-    "family": "poliop1",
-    "group": true,
-    "id": "polioptila-bilineata",
-    "n": 42,
-    "n_aut": 7,
-    "ru": "Белобровая комароловка",
-    "sci": "Polioptila bilineata",
-    "tier": "likely"
-   },
-   {
-    "en": "Reddish Egret",
-    "family": "ardeid1",
-    "group": true,
-    "id": "egretta-rufescens",
-    "n": 10,
-    "n_aut": 6,
-    "ru": "Рыжеватая цапля",
-    "sci": "Egretta rufescens",
     "tier": "likely"
    },
    {
@@ -7623,50 +5820,6 @@
     "ru": "Пятнистый веретенник",
     "sci": "Limosa fedoa",
     "tier": "likely"
-   },
-   {
-    "en": "Wilson's Phalarope",
-    "family": "scolop2",
-    "group": true,
-    "id": "phalaropus-tricolor",
-    "n": 10,
-    "n_aut": 5,
-    "ru": "Большой плавунчик",
-    "sci": "Phalaropus tricolor",
-    "tier": "likely"
-   },
-   {
-    "en": "Anhinga",
-    "family": "anhing3",
-    "group": true,
-    "id": "anhinga-anhinga",
-    "n": 18,
-    "n_aut": 4,
-    "ru": "Американская змеешейка",
-    "sci": "Anhinga anhinga",
-    "tier": "chance"
-   },
-   {
-    "en": "Elegant Tern",
-    "family": "larida1",
-    "group": false,
-    "id": "thalasseus-elegans",
-    "n": 41,
-    "n_aut": 4,
-    "ru": "Элегантная крачка",
-    "sci": "Thalasseus elegans",
-    "tier": "chance"
-   },
-   {
-    "en": "Pacific Parrotlet",
-    "family": "psitta3",
-    "group": true,
-    "id": "forpus-coelestis",
-    "n": 41,
-    "n_aut": 4,
-    "ru": "Западный воробьиный попугайчик",
-    "sci": "Forpus coelestis",
-    "tier": "chance"
    },
    {
     "en": "Scrub Blackbird",
@@ -7768,17 +5921,6 @@
     "tier": "chance"
    },
    {
-    "en": "Black Tern",
-    "family": "larida1",
-    "group": true,
-    "id": "chlidonias-niger",
-    "n": 8,
-    "n_aut": 2,
-    "ru": "Чёрная крачка",
-    "sci": "Chlidonias niger",
-    "tier": "chance"
-   },
-   {
     "en": "Dusky Pigeon",
     "family": "columb2",
     "group": false,
@@ -7798,17 +5940,6 @@
     "n_aut": 2,
     "ru": "Гуаякильский дятел",
     "sci": "Campephilus gayaquilensis",
-    "tier": "chance"
-   },
-   {
-    "en": "Hook-billed Kite",
-    "family": "accipi1",
-    "group": true,
-    "id": "chondrohierax-uncinatus",
-    "n": 53,
-    "n_aut": 2,
-    "ru": "Длинноклювый улиткоед",
-    "sci": "Chondrohierax uncinatus",
     "tier": "chance"
    },
    {
@@ -7933,17 +6064,6 @@
     "tier": "chance"
    },
    {
-    "en": "Gray Gull",
-    "family": "larida1",
-    "group": false,
-    "id": "leucophaeus-modestus",
-    "n": 11,
-    "n_aut": 1,
-    "ru": "Серая чайка",
-    "sci": "Leucophaeus modestus",
-    "tier": "chance"
-   },
-   {
     "en": "Gray-hooded Gull",
     "family": "larida1",
     "group": false,
@@ -8011,6 +6131,6 @@
    }
   ]
  },
- "species": 465,
- "sure_total": 95
+ "species": 515,
+ "sure_total": 60
 }

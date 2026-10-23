@@ -1422,27 +1422,52 @@
    "site": "finca-maragricola",
    "source": "trip_report",
    "time": "06:24"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-22",
+   "day": "2026-10-22",
+   "distance_km": 1.286,
+   "duration_min": 142,
+   "id": "S404608635",
+   "lat": 1.819,
+   "location": "Viaducto Puente del Morro",
+   "location_id": "L4909316",
+   "lon": -78.757,
+   "n_species": 29,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": "playa-del-morro",
+   "source": "trip_report",
+   "time": "15:20"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-22T21:38:07Z",
+ "fetched": "2026-10-23T00:41:18Z",
  "group": {
-  "fetched": "2026-10-22T21:38:07Z",
+  "fetched": "2026-10-23T00:41:18Z",
   "people": [
    {
-    "checklists": 71,
+    "checklists": 72,
     "name": "Volkov Sergey",
     "other_taxa": 1,
     "role": "owner",
-    "species": 524
+    "species": 534
    },
    {
-    "checklists": 74,
+    "checklists": 75,
     "me": true,
     "name": "Anna Kozhevnikova",
-    "other_taxa": 1,
+    "other_taxa": 2,
     "role": "editor",
-    "species": 510
+    "species": 525
+   },
+   {
+    "checklists": 82,
+    "name": "Igor Bobyr",
+    "other_taxa": 6,
+    "role": "editor",
+    "species": 515
    },
    {
     "checklists": 62,
@@ -1450,13 +1475,6 @@
     "other_taxa": 1,
     "role": "editor",
     "species": 468
-   },
-   {
-    "checklists": 79,
-    "name": "Igor Bobyr",
-    "other_taxa": 6,
-    "role": "editor",
-    "species": 465
    },
    {
     "checklists": 38,
@@ -1481,9 +1499,9 @@
    579125
   ],
   "total": {
-   "checklists": 106,
+   "checklists": 107,
    "other_taxa": 6,
-   "species": 584
+   "species": 596
   }
  },
  "observer": "Аня",
@@ -1513,11 +1531,12 @@
     "S404312980",
     "S404372651",
     "S404550666",
-    "S404550673"
+    "S404550673",
+    "S404608635"
    ],
-   "checklists": 73,
+   "checklists": 74,
    "duplicates": [],
-   "fetched": "2026-10-22T21:38:07Z",
+   "fetched": "2026-10-23T00:41:18Z",
    "ids": [
     579125
    ]
@@ -1526,11 +1545,12 @@
  "species": {
   "actitis-macularius": {
    "days": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-22"
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S401862206",
@@ -1539,10 +1559,19 @@
      "details": null,
      "site": "playa-rica",
      "time": "06:14"
+    },
+    {
+     "cl": "S404608635",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
-    "playa-rica"
+    "playa-rica",
+    "playa-del-morro"
    ]
   },
   "adelomyia-melanogenys": {
@@ -2329,7 +2358,7 @@
    ],
    "first": "2026-10-03",
    "lifer": false,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398851320",
@@ -2378,6 +2407,14 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -2500,6 +2537,27 @@
     "puerto-asis",
     "el-escondite",
     "finca-maragricola"
+   ]
+  },
+  "arenaria-interpres": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": false,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "arremon-assimilis": {
@@ -3317,7 +3375,7 @@
    ],
    "first": "2026-10-07",
    "lifer": true,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S400221515",
@@ -3366,13 +3424,22 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
     "el-escondite",
     "playa-rica",
     "puerto-asis",
-    "finca-maragricola"
+    "finca-maragricola",
+    "playa-del-morro"
    ]
   },
   "cacicus-cela": {
@@ -3520,6 +3587,27 @@
     "bangsias-lodge"
    ]
   },
+  "calidris-alba": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 4,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
   "calidris-bairdii": {
    "days": [
     "2026-10-21"
@@ -3535,6 +3623,27 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
+  "calidris-mauri": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 4,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -3560,6 +3669,27 @@
    ],
    "sites": [
     "el-escondite"
+   ]
+  },
+  "calidris-minutilla": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "campephilus-melanoleucos": {
@@ -3918,7 +4048,7 @@
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 8,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S398851320",
@@ -3983,6 +4113,14 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -3991,7 +4129,8 @@
     "isla-escondida",
     "el-escondite",
     "trampolin-aves",
-    "finca-maragricola"
+    "finca-maragricola",
+    "playa-del-morro"
    ]
   },
   "celeus-elegans": {
@@ -4276,6 +4415,27 @@
     "trampolin-aves",
     "sibundoy",
     "rio-nambi"
+   ]
+  },
+  "charadrius-semipalmatus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 6,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "chelidoptera-tenebrosa": {
@@ -5968,7 +6128,7 @@
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 19,
+   "n_checklists": 20,
    "obs": [
     {
      "cl": "S398156622",
@@ -6121,6 +6281,14 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -7296,7 +7464,7 @@
    ],
    "first": "2026-10-12",
    "lifer": true,
-   "n_checklists": 4,
+   "n_checklists": 5,
    "obs": [
     {
      "cl": "S401862206",
@@ -7329,6 +7497,14 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 6,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -7344,7 +7520,7 @@
    ],
    "first": "2026-10-22",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404550673",
@@ -7353,10 +7529,19 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
-    "finca-maragricola"
+    "finca-maragricola",
+    "playa-del-morro"
    ]
   },
   "elaenia-flavogaster": {
@@ -8308,7 +8493,7 @@
    ],
    "first": "2026-10-22",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404550666",
@@ -8317,6 +8502,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "05:51"
+    },
+    {
+     "cl": "S404608635",
+     "count": 13,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -8473,6 +8666,27 @@
    ],
    "sites": [
     "finca-maragricola"
+   ]
+  },
+  "gelochelidon-nilotica": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": false,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 4,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "geospizopsis-unicolor": {
@@ -9576,6 +9790,27 @@
     "isla-escondida"
    ]
   },
+  "larosterna-inca": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 100,
+     "date": "2026-10-22",
+     "details": "Как взрослые, так и молодые",
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
   "legatus-leucophaius": {
    "days": [
     "2026-10-05",
@@ -9928,6 +10163,69 @@
    "sites": [
     "la-planada",
     "rio-nambi"
+   ]
+  },
+  "leucophaeus-atricilla": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
+  "leucophaeus-modestus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": "F",
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
+  "leucophaeus-pipixcan": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 30,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "liosceles-thoracicus": {
@@ -11793,7 +12091,7 @@
    ],
    "first": "2026-10-12",
    "lifer": false,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S401862206",
@@ -11818,6 +12116,14 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 3,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -11912,11 +12218,12 @@
   },
   "numenius-hudsonicus": {
    "days": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404372651",
@@ -11925,6 +12232,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404608635",
+     "count": 19,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -12717,6 +13032,27 @@
    ],
    "sites": [
     "trampolin-aves"
+   ]
+  },
+  "pelecanus-occidentalis": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 7,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "penelope-jacquacu": {
@@ -13586,6 +13922,27 @@
     "puerto-asis",
     "el-escondite",
     "finca-maragricola"
+   ]
+  },
+  "pluvialis-squatarola": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": false,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 7,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
    ]
   },
   "podilymbus-podiceps": {
@@ -14573,7 +14930,7 @@
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S404372651",
@@ -14590,6 +14947,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "05:51"
+    },
+    {
+     "cl": "S404608635",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -16702,11 +17067,12 @@
   },
   "sula-nebouxii": {
    "days": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404372651",
@@ -16715,6 +17081,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404608635",
+     "count": 10,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -17869,6 +18243,69 @@
     "bangsias-lodge"
    ]
   },
+  "thalasseus-elegans": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 1,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
+  "thalasseus-maximus": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 6,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
+  "thalasseus-sandvicensis": {
+   "days": [
+    "2026-10-22"
+   ],
+   "first": "2026-10-22",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S404608635",
+     "count": 2,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
+    }
+   ],
+   "sites": [
+    "playa-del-morro"
+   ]
+  },
   "thalurania-colombica": {
    "days": [
     "2026-10-03",
@@ -18808,11 +19245,12 @@
   },
   "tringa-semipalmata": {
    "days": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
    ],
    "first": "2026-10-21",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S404372651",
@@ -18821,6 +19259,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "17:33"
+    },
+    {
+     "cl": "S404608635",
+     "count": 30,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
@@ -20402,7 +20848,7 @@
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 6,
+   "n_checklists": 7,
    "obs": [
     {
      "cl": "S398050122",
@@ -20451,12 +20897,21 @@
      "details": null,
      "site": "finca-maragricola",
      "time": "06:24"
+    },
+    {
+     "cl": "S404608635",
+     "count": 6,
+     "date": "2026-10-22",
+     "details": null,
+     "site": "playa-del-morro",
+     "time": "15:20"
     }
    ],
    "sites": [
     "monserrate",
     "sibundoy",
-    "finca-maragricola"
+    "finca-maragricola",
+    "playa-del-morro"
    ]
   },
   "zentrygon-frenata": {
@@ -20838,11 +21293,11 @@
     "species": 42
    },
    "2026-10-22": {
-    "checklists": 2,
-    "lifers": 37,
-    "new": 39,
-    "observations": 86,
-    "species": 86
+    "checklists": 3,
+    "lifers": 49,
+    "new": 54,
+    "observations": 115,
+    "species": 105
    }
   },
   "by_site": {
@@ -20932,11 +21387,11 @@
     "species": 11
    },
    "playa-del-morro": {
-    "checklists": 2,
-    "lifers": 8,
-    "new": 8,
-    "observations": 19,
-    "species": 18
+    "checklists": 3,
+    "lifers": 20,
+    "new": 23,
+    "observations": 48,
+    "species": 38
    },
    "playa-rica": {
     "checklists": 1,
@@ -20981,10 +21436,10 @@
     "species": 51
    }
   },
-  "checklists": 79,
+  "checklists": 80,
   "days": 22,
-  "lifers": 524,
-  "observations": 1390,
+  "lifers": 536,
+  "observations": 1419,
   "off_site": {
    "checklists": 18,
    "lifers": 44,
@@ -20992,8 +21447,17 @@
    "observations": 162,
    "species": 117
   },
-  "species": 541
+  "species": 556
  },
  "trip_start": "2026-10-01",
- "unmatched": []
+ "unmatched": [
+  {
+   "dates": [
+    "2026-10-22"
+   ],
+   "n": 1,
+   "name": "крачка sp.",
+   "sci": "Sterninae sp."
+  }
+ ]
 }
