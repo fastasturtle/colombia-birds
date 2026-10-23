@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-23T18:23:13Z",
+ "fetched_at": "2026-10-23T23:10:24Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -752,56 +752,76 @@
      "numSpecies": 29,
      "region": "CO-NAR",
      "time": "15:20"
+    },
+    "S404781038": {
+     "date": "2026-10-23",
+     "lat": 1.5168483,
+     "lng": -78.6899106,
+     "loc_id": "L16312523",
+     "loc_name": "Km 42 - Pueblo Nuevo a Rio Mira",
+     "numSpecies": 75,
+     "region": "CO-NAR",
+     "time": "06:48"
+    },
+    "S404825330": {
+     "date": "2026-10-23",
+     "lat": 1.8299853,
+     "lng": -78.7319943,
+     "loc_id": "L3940738",
+     "loc_name": "Playa del Morro",
+     "numSpecies": 15,
+     "region": "CO-NAR",
+     "time": "14:39"
     }
    },
    "group": {
-    "checklists": 108,
+    "checklists": 109,
     "other_taxa": 6,
-    "species": 615
+    "species": 619
    },
    "people": [
     {
      "begin": null,
-     "checklists": 75,
+     "checklists": 77,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 2,
      "person_id": 820854,
      "role": "editor",
-     "species": 524,
+     "species": 547,
      "user_id": "USER3559161"
     },
     {
      "begin": null,
-     "checklists": 82,
+     "checklists": 84,
      "end": null,
      "name": "Igor Bobyr",
      "other_taxa": 6,
      "person_id": 820853,
      "role": "editor",
-     "species": 516,
+     "species": 539,
      "user_id": "USER2882675"
     },
     {
      "begin": null,
-     "checklists": 41,
+     "checklists": 43,
      "end": null,
      "name": "Jenia Triger",
      "other_taxa": 0,
      "person_id": 820852,
      "role": "editor",
-     "species": 418,
+     "species": 445,
      "user_id": "USER2722607"
     },
     {
      "begin": null,
-     "checklists": 63,
+     "checklists": 66,
      "end": null,
      "name": "Oleg Chernyshov",
      "other_taxa": 1,
      "person_id": 820851,
      "role": "editor",
-     "species": 480,
+     "species": 538,
      "user_id": "USER1327996"
     },
     {
@@ -817,13 +837,13 @@
     },
     {
      "begin": null,
-     "checklists": 73,
+     "checklists": 74,
      "end": null,
      "name": "Volkov Sergey",
      "other_taxa": 1,
      "person_id": 818878,
      "role": "owner",
-     "species": 553,
+     "species": 557,
      "user_id": "USER1063968"
     }
    ],
@@ -16816,7 +16836,7 @@
      "durationHrs": 1.567,
      "effortAreaHa": null,
      "effortDistanceKm": 0.684,
-     "fetched": "2026-10-23T07:34:42Z",
+     "fetched": "2026-10-23T23:10:24Z",
      "numObservers": 1,
      "numSpecies": 18,
      "obs": [
@@ -16958,7 +16978,7 @@
      "durationHrs": 3.983,
      "effortAreaHa": null,
      "effortDistanceKm": null,
-     "fetched": "2026-10-23T07:34:42Z",
+     "fetched": "2026-10-23T23:10:24Z",
      "numObservers": 1,
      "numSpecies": 23,
      "obs": [
@@ -17110,7 +17130,7 @@
      "durationHrs": 2.0,
      "effortAreaHa": null,
      "effortDistanceKm": 3.5,
-     "fetched": "2026-10-23T07:34:42Z",
+     "fetched": "2026-10-23T23:10:24Z",
      "numObservers": 1,
      "numSpecies": 7,
      "obs": [
@@ -17320,7 +17340,7 @@
      "durationHrs": 0.95,
      "effortAreaHa": null,
      "effortDistanceKm": 0.463,
-     "fetched": "2026-10-23T07:34:42Z",
+     "fetched": "2026-10-23T23:10:24Z",
      "numObservers": 1,
      "numSpecies": 17,
      "obs": [
@@ -17436,7 +17456,7 @@
      "durationHrs": 2.933,
      "effortAreaHa": null,
      "effortDistanceKm": 0.86,
-     "fetched": "2026-10-23T07:34:42Z",
+     "fetched": "2026-10-23T23:10:24Z",
      "numObservers": 1,
      "numSpecies": 5,
      "obs": [
@@ -17506,7 +17526,7 @@
      "durationHrs": 5.867,
      "effortAreaHa": null,
      "effortDistanceKm": 2.759,
-     "fetched": "2026-10-23T07:34:42Z",
+     "fetched": "2026-10-23T23:10:24Z",
      "numObservers": 1,
      "numSpecies": 79,
      "obs": [
@@ -18181,11 +18201,578 @@
      ],
      "protocolId": "P22",
      "subnational1Code": "CO-NAR"
+    },
+    "S404781038": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 5.7,
+     "effortAreaHa": null,
+     "effortDistanceKm": 7.121,
+     "fetched": "2026-10-23T23:10:24Z",
+     "numObservers": 1,
+     "numSpecies": 75,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "ruhcha1",
+       "comments": null,
+       "count": "8"
+      },
+      {
+       "breeding": null,
+       "code": "pavpig2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "pbgdov1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ecgdov1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "smbani",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "rtlhum",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blchum1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "purgal2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "soulap1",
+       "comments": null,
+       "count": "12"
+      },
+      {
+       "breeding": null,
+       "code": "sposan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "redegr",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "categr1",
+       "comments": null,
+       "count": "5"
+      },
+      {
+       "breeding": null,
+       "code": "greegr",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blkvul",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "turvul",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "hobkit",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "plukit1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "roahaw",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "whnpuf2",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "piepuf1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rutjac1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "orfbar1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blcwoo1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "guawoo2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "laufal1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blhpar1",
+       "comments": null,
+       "count": "7"
+      },
+      {
+       "breeding": null,
+       "code": "greant1",
+       "comments": "H",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "pacant",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "jetant1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "webwoo1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sthwoo1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "palhor4",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "slaspi1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "whbman1",
+       "comments": "F",
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "mastit1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "cinbec1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "ocbfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "cotfly1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "sobtyr1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "y01204",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "yeltyr1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "yebela1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "brcfly4",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "mawtyr1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "ducfly",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "grekis",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bobfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "rumfly1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "socfly1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "grcfly1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "strfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "pirfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "trokin",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "lesgre1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bawswa1",
+       "comments": null,
+       "count": "10"
+      },
+      {
+       "breeding": null,
+       "code": "trogna2",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "houwre4",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "yetori1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "burwar1",
+       "comments": "H",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sumtan",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "flrtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "bugtan",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "paltan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "gohtan1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "bkfdac1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "relhon1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blbgra1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "chtsee1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "tbsfin1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "varsee3",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "yebsee1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "crbfin1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "banana",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "butsal1",
+       "comments": null,
+       "count": "3"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
+    },
+    "S404825330": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 0.667,
+     "effortAreaHa": null,
+     "effortDistanceKm": 0.363,
+     "fetched": "2026-10-23T23:10:24Z",
+     "numObservers": 1,
+     "numSpecies": 15,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "crgdov1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "eardov1",
+       "comments": null,
+       "count": "20"
+      },
+      {
+       "breeding": null,
+       "code": "rnwrai1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "sposan",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "willet1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "incter1",
+       "comments": "F",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bfoboo",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "perboo1",
+       "comments": "F",
+       "count": "20"
+      },
+      {
+       "breeding": null,
+       "code": "neocor",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "brnpel",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "blkvul",
+       "comments": null,
+       "count": "8"
+      },
+      {
+       "breeding": null,
+       "code": "turvul",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "panfly1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "grtgra",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "saffin",
+       "comments": null,
+       "count": "2"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-NAR"
     }
    }
   }
  },
  "taxonomy": {
+  "brcfly4": {
+   "name": "Mouse-gray Flycatcher",
+   "order": 16865.0,
+   "sci": "Myiophobus crypterythrus"
+  },
   "caqsee1": {
    "name": "Wing-barred Seedeater (Caqueta)",
    "order": 35573.0,
