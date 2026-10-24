@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-24T18:48:37Z",
+ "fetched_at": "2026-10-24T22:29:43Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -759,7 +759,7 @@
      "lng": -78.6899106,
      "loc_id": "L16312523",
      "loc_name": "Km 42 - Pueblo Nuevo a Rio Mira",
-     "numSpecies": 72,
+     "numSpecies": 71,
      "region": "CO-NAR",
      "time": "06:48"
     },
@@ -772,23 +772,33 @@
      "numSpecies": 15,
      "region": "CO-NAR",
      "time": "14:39"
+    },
+    "S405090263": {
+     "date": "2026-10-24",
+     "lat": 4.6850508,
+     "lng": -74.0318467,
+     "loc_id": "L26624155",
+     "loc_name": "Parque Santa Ana Oriental",
+     "numSpecies": 13,
+     "region": "CO-DC",
+     "time": "13:04"
     }
    },
    "group": {
-    "checklists": 110,
+    "checklists": 111,
     "other_taxa": 7,
-    "species": 621
+    "species": 623
    },
    "people": [
     {
      "begin": null,
-     "checklists": 77,
+     "checklists": 78,
      "end": null,
      "name": "Anna Kozhevnikova",
      "other_taxa": 2,
      "person_id": 820854,
      "role": "editor",
-     "species": 545,
+     "species": 547,
      "user_id": "USER3559161"
     },
     {
@@ -804,13 +814,13 @@
     },
     {
      "begin": null,
-     "checklists": 43,
+     "checklists": 66,
      "end": null,
      "name": "Jenia Triger",
-     "other_taxa": 0,
+     "other_taxa": 2,
      "person_id": 820852,
      "role": "editor",
-     "species": 445,
+     "species": 525,
      "user_id": "USER2722607"
     },
     {
@@ -18208,9 +18218,9 @@
      "durationHrs": 5.7,
      "effortAreaHa": null,
      "effortDistanceKm": 7.121,
-     "fetched": "2026-10-24T18:48:37Z",
+     "fetched": "2026-10-24T22:29:43Z",
      "numObservers": 1,
-     "numSpecies": 72,
+     "numSpecies": 71,
      "obs": [
       {
        "breeding": null,
@@ -18247,12 +18257,6 @@
        "code": "rtlhum",
        "comments": null,
        "count": "2"
-      },
-      {
-       "breeding": null,
-       "code": "blchum1",
-       "comments": null,
-       "count": "1"
       },
       {
        "breeding": null,
@@ -18745,6 +18749,98 @@
      ],
      "protocolId": "P22",
      "subnational1Code": "CO-NAR"
+    },
+    "S405090263": {
+     "allObsReported": true,
+     "comments": null,
+     "durationHrs": 1.184,
+     "effortAreaHa": null,
+     "effortDistanceKm": 1.328,
+     "fetched": "2026-10-24T22:29:43Z",
+     "numObservers": 1,
+     "numSpecies": 13,
+     "obs": [
+      {
+       "breeding": null,
+       "code": "eardov1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "spvear1",
+       "comments": null,
+       "count": "2"
+      },
+      {
+       "breeding": null,
+       "code": "rtlhum",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blkvul",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "whttyr2",
+       "comments": null,
+       "count": "4"
+      },
+      {
+       "breeding": null,
+       "code": "reevir1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "houwre4",
+       "comments": "Voice",
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "swathr",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "grethr1",
+       "comments": null,
+       "count": "3"
+      },
+      {
+       "breeding": null,
+       "code": "rucspa1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "yebori1",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "bkbwar",
+       "comments": null,
+       "count": "1"
+      },
+      {
+       "breeding": null,
+       "code": "blkflo1",
+       "comments": null,
+       "count": "2"
+      }
+     ],
+     "protocolId": "P22",
+     "subnational1Code": "CO-DC"
     }
    }
   }

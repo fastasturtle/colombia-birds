@@ -1452,7 +1452,7 @@
    "location": "Km 42 - Pueblo Nuevo a Rio Mira",
    "location_id": "L16312523",
    "lon": -78.69,
-   "n_species": 71,
+   "n_species": 70,
    "observers": 1,
    "protocol": "traveling",
    "site": "km-42",
@@ -1476,12 +1476,30 @@
    "site": "playa-del-morro",
    "source": "trip_report",
    "time": "14:39"
+  },
+  {
+   "comments": null,
+   "date": "2026-10-24",
+   "day": "2026-10-24",
+   "distance_km": 1.328,
+   "duration_min": 71,
+   "id": "S405090263",
+   "lat": 4.685,
+   "location": "Parque Santa Ana Oriental",
+   "location_id": "L26624155",
+   "lon": -74.032,
+   "n_species": 13,
+   "observers": 1,
+   "protocol": "traveling",
+   "site": null,
+   "source": "trip_report",
+   "time": "13:04"
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-24T18:48:37Z",
+ "fetched": "2026-10-24T22:29:43Z",
  "group": {
-  "fetched": "2026-10-24T18:48:37Z",
+  "fetched": "2026-10-24T22:29:43Z",
   "people": [
    {
     "checklists": 74,
@@ -1491,12 +1509,12 @@
     "species": 557
    },
    {
-    "checklists": 77,
+    "checklists": 78,
     "me": true,
     "name": "Anna Kozhevnikova",
     "other_taxa": 2,
     "role": "editor",
-    "species": 545
+    "species": 547
    },
    {
     "checklists": 85,
@@ -1513,11 +1531,11 @@
     "species": 542
    },
    {
-    "checklists": 43,
+    "checklists": 66,
     "name": "Jenia Triger",
-    "other_taxa": 0,
+    "other_taxa": 2,
     "role": "editor",
-    "species": 445
+    "species": 525
    },
    {
     "checklists": 20,
@@ -1535,9 +1553,9 @@
    579125
   ],
   "total": {
-   "checklists": 110,
+   "checklists": 111,
    "other_taxa": 7,
-   "species": 621
+   "species": 623
   }
  },
  "observer": "Аня",
@@ -1570,11 +1588,12 @@
     "S404550673",
     "S404608635",
     "S404781038",
-    "S404825330"
+    "S404825330",
+    "S405090263"
    ],
-   "checklists": 76,
+   "checklists": 77,
    "duplicates": [],
-   "fetched": "2026-10-24T18:48:37Z",
+   "fetched": "2026-10-24T22:29:43Z",
    "ids": [
     579125
    ]
@@ -1822,11 +1841,12 @@
     "2026-10-06",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
    ],
    "first": "2026-10-03",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398851342",
@@ -1883,6 +1903,14 @@
      "details": null,
      "site": "km-42",
      "time": "06:48"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -4320,6 +4348,25 @@
     "km-42"
    ]
   },
+  "catharus-ustulatus": {
+   "days": [
+    "2026-10-24"
+   ],
+   "first": "2026-10-24",
+   "lifer": true,
+   "n_checklists": 1,
+   "obs": [
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
+    }
+   ],
+   "sites": []
+  },
   "celeus-elegans": {
    "days": [
     "2026-10-14"
@@ -5861,11 +5908,12 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-24"
    ],
    "first": "2026-10-01",
    "lifer": true,
-   "n_checklists": 7,
+   "n_checklists": 8,
    "obs": [
     {
      "cl": "S398156622",
@@ -5922,6 +5970,14 @@
      "details": null,
      "site": "sibundoy",
      "time": "06:02"
+    },
+    {
+     "cl": "S405090263",
+     "count": 2,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -6416,11 +6472,12 @@
     "2026-10-18",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 22,
+   "n_checklists": 23,
    "obs": [
     {
      "cl": "S398156622",
@@ -6597,6 +6654,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "14:39"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -7509,11 +7574,12 @@
   },
   "diglossa-humeralis": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-24"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398412874",
@@ -7522,6 +7588,14 @@
      "details": null,
      "site": "monserrate",
      "time": "14:47"
+    },
+    {
+     "cl": "S405090263",
+     "count": 2,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -9841,11 +9915,12 @@
   "icterus-chrysater": {
    "days": [
     "2026-10-05",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-24"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 3,
    "obs": [
     {
      "cl": "S399559991",
@@ -9862,6 +9937,14 @@
      "details": "F",
      "site": "sibundoy",
      "time": "06:02"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -10963,11 +11046,12 @@
   },
   "mecocerculus-leucophrys": {
    "days": [
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-24"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 1,
+   "n_checklists": 2,
    "obs": [
     {
      "cl": "S398412874",
@@ -10976,6 +11060,14 @@
      "details": null,
      "site": "monserrate",
      "time": "14:47"
+    },
+    {
+     "cl": "S405090263",
+     "count": 4,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -14855,27 +14947,6 @@
     "km-42"
    ]
   },
-  "polyerata-amabilis": {
-   "days": [
-    "2026-10-23"
-   ],
-   "first": "2026-10-23",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S404781038",
-     "count": 1,
-     "date": "2026-10-23",
-     "details": null,
-     "site": "km-42",
-     "time": "06:48"
-    }
-   ],
-   "sites": [
-    "km-42"
-   ]
-  },
   "porphyrio-martinica": {
    "days": [
     "2026-10-12",
@@ -16803,11 +16874,12 @@
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-24"
    ],
    "first": "2026-10-02",
    "lifer": true,
-   "n_checklists": 8,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S398369085",
@@ -16872,6 +16944,14 @@
      "details": null,
      "site": "bangsias-lodge",
      "time": "05:47"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -20303,11 +20383,12 @@
     "2026-10-19",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
    ],
    "first": "2026-10-02",
    "lifer": false,
-   "n_checklists": 15,
+   "n_checklists": 16,
    "obs": [
     {
      "cl": "S398369085",
@@ -20428,6 +20509,14 @@
      "details": null,
      "site": "km-42",
      "time": "06:48"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": "Voice",
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -20741,11 +20830,12 @@
     "2026-10-01",
     "2026-10-02",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-24"
    ],
    "first": "2026-10-01",
    "lifer": true,
-   "n_checklists": 9,
+   "n_checklists": 10,
    "obs": [
     {
      "cl": "S398050122",
@@ -20818,6 +20908,14 @@
      "details": null,
      "site": "paramo-bordoncillo",
      "time": "09:49"
+    },
+    {
+     "cl": "S405090263",
+     "count": 3,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -21645,11 +21743,12 @@
    "days": [
     "2026-10-05",
     "2026-10-10",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-24"
    ],
    "first": "2026-10-05",
    "lifer": true,
-   "n_checklists": 3,
+   "n_checklists": 4,
    "obs": [
     {
      "cl": "S399582442",
@@ -21674,6 +21773,14 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -21880,11 +21987,12 @@
     "2026-10-03",
     "2026-10-16",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
    ],
    "first": "2026-10-01",
    "lifer": false,
-   "n_checklists": 8,
+   "n_checklists": 9,
    "obs": [
     {
      "cl": "S398050122",
@@ -21949,6 +22057,14 @@
      "details": null,
      "site": "playa-del-morro",
      "time": "14:39"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -22066,11 +22182,12 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-24"
    ],
    "first": "2026-10-01",
    "lifer": true,
-   "n_checklists": 13,
+   "n_checklists": 14,
    "obs": [
     {
      "cl": "S398099985",
@@ -22175,6 +22292,14 @@
      "details": null,
      "site": null,
      "time": "13:41"
+    },
+    {
+     "cl": "S405090263",
+     "count": 1,
+     "date": "2026-10-24",
+     "details": null,
+     "site": null,
+     "time": "13:04"
     }
    ],
    "sites": [
@@ -22345,10 +22470,17 @@
    },
    "2026-10-23": {
     "checklists": 2,
-    "lifers": 21,
-    "new": 21,
-    "observations": 86,
-    "species": 83
+    "lifers": 20,
+    "new": 20,
+    "observations": 85,
+    "species": 82
+   },
+   "2026-10-24": {
+    "checklists": 1,
+    "lifers": 1,
+    "new": 1,
+    "observations": 13,
+    "species": 13
    }
   },
   "by_site": {
@@ -22411,10 +22543,10 @@
    },
    "km-42": {
     "checklists": 1,
-    "lifers": 17,
-    "new": 17,
-    "observations": 71,
-    "species": 71
+    "lifers": 16,
+    "new": 16,
+    "observations": 70,
+    "species": 70
    },
    "la-drymophila": {
     "checklists": 1,
@@ -22494,16 +22626,16 @@
     "species": 51
    }
   },
-  "checklists": 82,
-  "days": 23,
+  "checklists": 83,
+  "days": 24,
   "lifers": 555,
-  "observations": 1500,
+  "observations": 1512,
   "off_site": {
-   "checklists": 18,
-   "lifers": 44,
-   "new": 48,
-   "observations": 162,
-   "species": 117
+   "checklists": 19,
+   "lifers": 45,
+   "new": 49,
+   "observations": 175,
+   "species": 124
   },
   "species": 575
  },
