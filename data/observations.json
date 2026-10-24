@@ -1452,7 +1452,7 @@
    "location": "Km 42 - Pueblo Nuevo a Rio Mira",
    "location_id": "L16312523",
    "lon": -78.69,
-   "n_species": 74,
+   "n_species": 71,
    "observers": 1,
    "protocol": "traveling",
    "site": "km-42",
@@ -1479,9 +1479,9 @@
   }
  ],
  "exported": "2026-10-18",
- "fetched": "2026-10-23T23:10:24Z",
+ "fetched": "2026-10-24T04:39:45Z",
  "group": {
-  "fetched": "2026-10-23T23:10:24Z",
+  "fetched": "2026-10-24T04:39:45Z",
   "people": [
    {
     "checklists": 74,
@@ -1496,7 +1496,14 @@
     "name": "Anna Kozhevnikova",
     "other_taxa": 2,
     "role": "editor",
-    "species": 547
+    "species": 545
+   },
+   {
+    "checklists": 67,
+    "name": "Oleg Chernyshov",
+    "other_taxa": 1,
+    "role": "editor",
+    "species": 542
    },
    {
     "checklists": 84,
@@ -1504,13 +1511,6 @@
     "other_taxa": 6,
     "role": "editor",
     "species": 539
-   },
-   {
-    "checklists": 66,
-    "name": "Oleg Chernyshov",
-    "other_taxa": 1,
-    "role": "editor",
-    "species": 538
    },
    {
     "checklists": 43,
@@ -1574,7 +1574,7 @@
    ],
    "checklists": 76,
    "duplicates": [],
-   "fetched": "2026-10-23T23:10:24Z",
+   "fetched": "2026-10-24T04:39:45Z",
    "ids": [
     579125
    ]
@@ -11417,12 +11417,11 @@
   },
   "mionectes-oleagineus": {
    "days": [
-    "2026-10-14",
-    "2026-10-23"
+    "2026-10-14"
    ],
    "first": "2026-10-14",
    "lifer": true,
-   "n_checklists": 2,
+   "n_checklists": 1,
    "obs": [
     {
      "cl": "S402389331",
@@ -11431,19 +11430,10 @@
      "details": null,
      "site": "el-escondite",
      "time": "08:43"
-    },
-    {
-     "cl": "S404781038",
-     "count": 1,
-     "date": "2026-10-23",
-     "details": null,
-     "site": "km-42",
-     "time": "06:48"
     }
    ],
    "sites": [
-    "el-escondite",
-    "km-42"
+    "el-escondite"
    ]
   },
   "mionectes-striaticollis": {
@@ -19169,27 +19159,6 @@
     "la-planada"
    ]
   },
-  "taraba-major": {
-   "days": [
-    "2026-10-23"
-   ],
-   "first": "2026-10-23",
-   "lifer": true,
-   "n_checklists": 1,
-   "obs": [
-    {
-     "cl": "S404781038",
-     "count": 1,
-     "date": "2026-10-23",
-     "details": "H",
-     "site": "km-42",
-     "time": "06:48"
-    }
-   ],
-   "sites": [
-    "km-42"
-   ]
-  },
   "tersina-viridis": {
    "days": [
     "2026-10-14",
@@ -22376,10 +22345,10 @@
    },
    "2026-10-23": {
     "checklists": 2,
-    "lifers": 22,
-    "new": 22,
-    "observations": 88,
-    "species": 85
+    "lifers": 21,
+    "new": 21,
+    "observations": 86,
+    "species": 83
    }
   },
   "by_site": {
@@ -22442,10 +22411,10 @@
    },
    "km-42": {
     "checklists": 1,
-    "lifers": 18,
-    "new": 18,
-    "observations": 73,
-    "species": 73
+    "lifers": 17,
+    "new": 17,
+    "observations": 71,
+    "species": 71
    },
    "la-drymophila": {
     "checklists": 1,
@@ -22527,8 +22496,8 @@
   },
   "checklists": 82,
   "days": 23,
-  "lifers": 556,
-  "observations": 1502,
+  "lifers": 555,
+  "observations": 1500,
   "off_site": {
    "checklists": 18,
    "lifers": 44,
@@ -22536,18 +22505,10 @@
    "observations": 162,
    "species": 117
   },
-  "species": 576
+  "species": 575
  },
  "trip_start": "2026-10-01",
  "unmatched": [
-  {
-   "dates": [
-    "2026-10-23"
-   ],
-   "n": 1,
-   "name": "Mouse-gray Flycatcher",
-   "sci": "Myiophobus crypterythrus"
-  },
   {
    "dates": [
     "2026-10-22"

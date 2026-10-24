@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-23T23:10:24Z",
+ "fetched_at": "2026-10-24T04:39:45Z",
  "reports": {
   "579125": {
    "checklists": {
@@ -759,7 +759,7 @@
      "lng": -78.6899106,
      "loc_id": "L16312523",
      "loc_name": "Km 42 - Pueblo Nuevo a Rio Mira",
-     "numSpecies": 75,
+     "numSpecies": 72,
      "region": "CO-NAR",
      "time": "06:48"
     },
@@ -788,7 +788,7 @@
      "other_taxa": 2,
      "person_id": 820854,
      "role": "editor",
-     "species": 547,
+     "species": 545,
      "user_id": "USER3559161"
     },
     {
@@ -815,13 +815,13 @@
     },
     {
      "begin": null,
-     "checklists": 66,
+     "checklists": 67,
      "end": null,
      "name": "Oleg Chernyshov",
      "other_taxa": 1,
      "person_id": 820851,
      "role": "editor",
-     "species": 538,
+     "species": 542,
      "user_id": "USER1327996"
     },
     {
@@ -17186,7 +17186,7 @@
      "durationHrs": 2.05,
      "effortAreaHa": null,
      "effortDistanceKm": 0.483,
-     "fetched": "2026-10-23T13:28:38Z",
+     "fetched": "2026-10-24T04:39:45Z",
      "numObservers": 1,
      "numSpecies": 16,
      "obs": [
@@ -17296,7 +17296,7 @@
      "durationHrs": 1.034,
      "effortAreaHa": null,
      "effortDistanceKm": 0.11,
-     "fetched": "2026-10-23T13:28:38Z",
+     "fetched": "2026-10-24T04:39:45Z",
      "numObservers": 1,
      "numSpecies": 5,
      "obs": [
@@ -17500,7 +17500,7 @@
      "durationHrs": null,
      "effortAreaHa": null,
      "effortDistanceKm": null,
-     "fetched": "2026-10-23T13:28:38Z",
+     "fetched": "2026-10-24T04:39:45Z",
      "numObservers": 1,
      "numSpecies": 2,
      "obs": [
@@ -18014,7 +18014,7 @@
      "durationHrs": 2.367,
      "effortAreaHa": null,
      "effortDistanceKm": 1.286,
-     "fetched": "2026-10-23T13:28:38Z",
+     "fetched": "2026-10-24T04:39:45Z",
      "numObservers": 1,
      "numSpecies": 29,
      "obs": [
@@ -18208,9 +18208,9 @@
      "durationHrs": 5.7,
      "effortAreaHa": null,
      "effortDistanceKm": 7.121,
-     "fetched": "2026-10-23T23:10:24Z",
+     "fetched": "2026-10-24T04:39:45Z",
      "numObservers": 1,
-     "numSpecies": 75,
+     "numSpecies": 72,
      "obs": [
       {
        "breeding": null,
@@ -18370,12 +18370,6 @@
       },
       {
        "breeding": null,
-       "code": "greant1",
-       "comments": "H",
-       "count": "1"
-      },
-      {
-       "breeding": null,
        "code": "pacant",
        "comments": null,
        "count": "2"
@@ -18430,12 +18424,6 @@
       },
       {
        "breeding": null,
-       "code": "ocbfly1",
-       "comments": null,
-       "count": "1"
-      },
-      {
-       "breeding": null,
        "code": "cotfly1",
        "comments": null,
        "count": "2"
@@ -18461,12 +18449,6 @@
       {
        "breeding": null,
        "code": "yebela1",
-       "comments": null,
-       "count": "1"
-      },
-      {
-       "breeding": null,
-       "code": "brcfly4",
        "comments": null,
        "count": "1"
       },
@@ -18768,11 +18750,6 @@
   }
  },
  "taxonomy": {
-  "brcfly4": {
-   "name": "Mouse-gray Flycatcher",
-   "order": 16865.0,
-   "sci": "Myiophobus crypterythrus"
-  },
   "caqsee1": {
    "name": "Wing-barred Seedeater (Caqueta)",
    "order": 35573.0,
