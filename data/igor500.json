@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-23 14:39",
- "checklists": 84,
- "fetched": "2026-10-23T23:10:41Z",
+ "as_of": "2026-10-24 06:32",
+ "checklists": 85,
+ "fetched": "2026-10-24T18:48:51Z",
  "goal": 500,
- "group_species": 619,
+ "group_species": 621,
  "likely_total": 71,
- "missed_in_group": 80,
+ "missed_in_group": 79,
  "person": "Igor Bobyr",
  "person_ru": "Игорь",
  "reachable_missed": [
@@ -1514,17 +1514,6 @@
     "tier": "sure"
    },
    {
-    "en": "Lesser Goldfinch",
-    "family": "fringi1",
-    "group": true,
-    "id": "spinus-psaltria",
-    "n": 3131,
-    "n_aut": 890,
-    "ru": "Мексиканский чиж",
-    "sci": "Spinus psaltria",
-    "tier": "sure"
-   },
-   {
     "en": "Bogota Rail",
     "family": "rallid1",
     "group": false,
@@ -1643,17 +1632,6 @@
     "n_aut": 294,
     "ru": "Береговушка",
     "sci": "Riparia riparia",
-    "tier": "sure"
-   },
-   {
-    "en": "Rusty Flowerpiercer",
-    "family": "thraup2",
-    "group": false,
-    "id": "diglossa-sittoides",
-    "n": 1073,
-    "n_aut": 279,
-    "ru": "Поползневый цветокол",
-    "sci": "Diglossa sittoides",
     "tier": "sure"
    },
    {
@@ -2150,17 +2128,6 @@
     "ru": "Бурый соловьиный дрозд",
     "sci": "Catharus fuscescens",
     "tier": "sure"
-   },
-   {
-    "en": "Crested Caracara",
-    "family": "falcon1",
-    "group": false,
-    "id": "caracara-plancus",
-    "n": 88,
-    "n_aut": 19,
-    "ru": "Равнинная каракара",
-    "sci": "Caracara plancus",
-    "tier": "likely"
    },
    {
     "en": "Green Heron",
@@ -5360,6 +5327,6 @@
    }
   ]
  },
- "species": 539,
+ "species": 542,
  "sure_total": 45
 }
