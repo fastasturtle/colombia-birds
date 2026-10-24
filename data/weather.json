@@ -1556,7 +1556,7 @@
    ]
   },
   "2026-10-24": {
-   "fetched_at": "2026-10-23T15:01:12Z",
+   "fetched_at": "2026-10-24T13:59:44Z",
    "sites": [
     {
      "elevation": 2600,
@@ -1565,35 +1565,35 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 88,
-       "precip": 3.6,
+       "cloud_cover": 90,
+       "precip": 3.1,
        "precip_prob": 100,
        "t_max": 19,
-       "t_min": 15,
-       "weather_code": 80
+       "t_min": 16,
+       "weather_code": 55
       },
       "evening": {
-       "cloud_cover": 100,
-       "precip": 0.2,
-       "precip_prob": 88,
+       "cloud_cover": 99,
+       "precip": 0.3,
+       "precip_prob": 92,
        "t_max": 16,
        "t_min": 14,
        "weather_code": 51
       },
       "morning": {
-       "cloud_cover": 62,
+       "cloud_cover": 97,
        "precip": 0.0,
        "precip_prob": 2,
-       "t_max": 16,
-       "t_min": 10,
-       "weather_code": 45
+       "t_max": 18,
+       "t_min": 11,
+       "weather_code": 3
       }
      }
     }
    ]
   },
   "2026-10-25": {
-   "fetched_at": "2026-10-23T15:01:12Z",
+   "fetched_at": "2026-10-24T13:59:44Z",
    "sites": [
     {
      "elevation": 2600,
@@ -1602,34 +1602,34 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 53,
-       "precip": 0.1,
-       "precip_prob": 22,
+       "cloud_cover": 89,
+       "precip": 0.8,
+       "precip_prob": 24,
        "t_max": 20,
        "t_min": 19,
        "weather_code": 51
       },
       "evening": {
        "cloud_cover": 95,
-       "precip": 0.0,
-       "precip_prob": 24,
-       "t_max": 19,
+       "precip": 0.6,
+       "precip_prob": 22,
+       "t_max": 18,
        "t_min": 15,
-       "weather_code": 3
+       "weather_code": 53
       },
       "morning": {
-       "cloud_cover": 74,
+       "cloud_cover": 75,
        "precip": 0.0,
        "precip_prob": 0,
        "t_max": 18,
        "t_min": 10,
-       "weather_code": 3
+       "weather_code": 45
       }
      }
     }
    ]
   }
  },
- "fetched_at": "2026-10-23T15:01:12Z",
+ "fetched_at": "2026-10-24T13:59:44Z",
  "source": "open-meteo"
 }
