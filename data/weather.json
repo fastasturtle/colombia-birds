@@ -1593,7 +1593,7 @@
    ]
   },
   "2026-10-25": {
-   "fetched_at": "2026-10-24T13:59:44Z",
+   "fetched_at": "2026-10-25T14:20:47Z",
    "sites": [
     {
      "elevation": 2600,
@@ -1602,25 +1602,25 @@
      "overnight": true,
      "periods": {
       "day": {
-       "cloud_cover": 89,
-       "precip": 0.8,
-       "precip_prob": 24,
-       "t_max": 20,
-       "t_min": 19,
+       "cloud_cover": 68,
+       "precip": 0.2,
+       "precip_prob": 21,
+       "t_max": 21,
+       "t_min": 18,
        "weather_code": 51
       },
       "evening": {
-       "cloud_cover": 95,
-       "precip": 0.6,
-       "precip_prob": 22,
+       "cloud_cover": 94,
+       "precip": 0.0,
+       "precip_prob": 16,
        "t_max": 18,
-       "t_min": 15,
-       "weather_code": 53
+       "t_min": 14,
+       "weather_code": 3
       },
       "morning": {
-       "cloud_cover": 75,
+       "cloud_cover": 26,
        "precip": 0.0,
-       "precip_prob": 0,
+       "precip_prob": 1,
        "t_max": 18,
        "t_min": 10,
        "weather_code": 45
@@ -1630,6 +1630,6 @@
    ]
   }
  },
- "fetched_at": "2026-10-24T13:59:44Z",
+ "fetched_at": "2026-10-25T14:20:47Z",
  "source": "open-meteo"
 }
